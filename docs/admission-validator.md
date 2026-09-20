@@ -67,6 +67,18 @@ of an observation. This pass neither resolves source disputes nor admits the
 draft dossier. It does not replace the earlier 13 purposive design cases with a
 claim of 40 independent historical reviews.
 
+## Separate boundary/population proposal
+
+The [bounded historical proposal](research/shiloh-opening-boundary-v1.md) is
+`data/admission/shiloh-opening-v2.json`. Run it explicitly with `admission-check`;
+it reuses the immutable snapshot and preserves v1 as the default. Its 18 revised
+mappings yield 7 blocked / 33 excluded, zero complete rows and no promotion.
+First-contact identification, mapped area and full memberships remain unresolved;
+Astra `xhigh` [accepted the bounded proposal](../artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/primary-assessment.md)
+with one nonblocking precision clarification. The
+[reference audit](../design/shiloh-opening-boundary-v1/reference-audit.py) checks
+all bindings and preservation. This is a research proposal, not a release manifest.
+
 ## Implemented object format
 
 The stdlib implementation in [admission.py](../generalship/admission.py) validates

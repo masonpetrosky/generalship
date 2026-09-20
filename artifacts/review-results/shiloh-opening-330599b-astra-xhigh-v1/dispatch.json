@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "kind": "actual_subagent_dispatch",
+  "recorded_at_utc": "2026-09-20T19:48:55.814627+00:00",
+  "input_commit": "330599b8882ef9974f4641056c4c1091b0013912",
+  "base_commit": "cf23433e1da519339f4ca00087ab67af7c688c65",
+  "reviewer": {
+    "task_identity": "/root/shiloh_opening_proposal_review",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "fork_turns": "none"
+  },
+  "input_sha256": {
+    "data/admission/shiloh-opening-v2.json": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52",
+    "docs/research/shiloh-opening-boundary-v1.md": "bf7cdb1692261cb166cecf45f918706d0277301c272a8bd3bb2a67f044efe82c",
+    "design/shiloh-opening-boundary-v1/research-record.json": "1d654ae0ffc571e12d0c3a95480518542d4bf54724a5c09eae16640be2ec181e",
+    "design/shiloh-opening-boundary-v1/reference-audit.py": "a3d683ab8328a6495defe50a1102098d39507ee471c440b9ea90e7f8f5412f9f",
+    "artifacts/admission/shiloh-opening-v2-check.json": "960bca09880c56cec4da33e172cdd5686d106efcaac2e1a407a5d1e745281711",
+    "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json": "d3f3a2b9f2e8e48726812e08bf925d7c0e60b8ff012a4b0d4cdc95581a5a884c",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/sources.json": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7"
+  },
+  "assignment_summary": "Review the non-releasing Shiloh B0/area/availability proposal, all 18 changed semantic mappings against pinned passage contexts (51 anchors/26 source-section pairs/16 source IDs), 11 new exclusions and 7 retained blockers, unchanged 22 excluded mappings, population/date/derivation/dependence/uncertainty/scenario handling, exact preservation and 127/36 coverage. Assess conditional exclusions without individual-zero or canonical-strength claims. Check reference-audit and CLI. State actual text/image coverage and limits. Write only actual review.md and review-result.json; do not modify inputs or create a feature-admission approval.",
+  "allowed_outputs": [
+    "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/review.md",
+    "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/review-result.json"
+  ],
+  "historical_release_authorized": false
+}

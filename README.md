@@ -113,6 +113,14 @@ preserves three findings and their verified fixes. Its complete-frame ledger che
 No model inputs are promoted. Actual feature release still requires reviewed
 boundary/population mappings and a separate immutable admission manifest.
 
+A separate [opening-boundary and population proposal](docs/research/shiloh-opening-boundary-v1.md)
+now uses 51 pinned passage anchors to revisit the 18 blocked observations. Its
+explicit v2 ledger has **7 blocked / 33 excluded**, with no complete rows;
+the default v1 ledger is preserved. The first-contact identification, mapped
+area and full populations remain unresolved. Astra `xhigh`
+[accepted the bounded proposal](artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/primary-assessment.md)
+with one nonblocking precision clarification; no historical feature is admitted.
+
 Then define a campaign replacement boundary and outcomes before fitting enriched
 models. Battle execution and campaign contribution are separate estimands; adding
 them together would double count. Partial pooling, opponent/army context,

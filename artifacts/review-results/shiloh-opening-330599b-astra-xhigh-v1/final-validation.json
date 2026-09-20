@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "kind": "primary_bounded_proposal_final_validation",
+  "status": "passed",
+  "recorded_at_utc": "2026-09-20T19:57:01.937369+00:00",
+  "python": "3.14.7",
+  "base_commit": "cf23433e1da519339f4ca00087ab67af7c688c65",
+  "reviewed_proposal_commit": "330599b8882ef9974f4641056c4c1091b0013912",
+  "review_verdict": "accepted_with_nonblocking_note",
+  "required_corrections": [],
+  "unresolved_blocking_findings": [],
+  "nonblocking_findings": [
+    {
+      "id": "SOB-N1",
+      "primary_disposition": "Clarified in primary-assessment.md: about/roughly 600; original frozen rationale and actual reviewer note retained; no changed numerical or mapping input."
+    }
+  ],
+  "primary_commands": [
+    {
+      "command": "make check",
+      "exit_code": 0,
+      "tests_passed": 82
+    },
+    {
+      "command": "make reproduce",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 design/shiloh-opening-boundary-v1/reference-audit.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -m generalship admission-check data/admission/shiloh-opening-v2.json",
+      "exit_code": 0
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "review_artifact_sha256": {
+    "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/dispatch.json": "f5d4d5fff4461f88e362f49287c5fc78065dd0380dd98be3c51be4ea3f7fd2dd",
+    "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/review.md": "a64021ebef3917d845aa795ffb970e14790363bb9bc2b53b3d6a17dc2b5419a2",
+    "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/review-result.json": "89272baa83e2568dfa0461b401285a456d8490ab31ae4943145e8c923c92b92a",
+    "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/primary-assessment.md": "50372d559be54c017e36acc90a673cd32595160739c51df14c1590c72e6b2abf"
+  },
+  "reviewed_input_bindings": [
+    {
+      "path": "data/admission/shiloh-opening-v2.json",
+      "sha256": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52"
+    },
+    {
+      "path": "docs/research/shiloh-opening-boundary-v1.md",
+      "sha256": "bf7cdb1692261cb166cecf45f918706d0277301c272a8bd3bb2a67f044efe82c"
+    },
+    {
+      "path": "design/shiloh-opening-boundary-v1/research-record.json",
+      "sha256": "1d654ae0ffc571e12d0c3a95480518542d4bf54724a5c09eae16640be2ec181e"
+    },
+    {
+      "path": "design/shiloh-opening-boundary-v1/reference-audit.py",
+      "sha256": "a3d683ab8328a6495defe50a1102098d39507ee471c440b9ea90e7f8f5412f9f"
+    },
+    {
+      "path": "artifacts/admission/shiloh-opening-v2-check.json",
+      "sha256": "960bca09880c56cec4da33e172cdd5686d106efcaac2e1a407a5d1e745281711"
+    },
+    {
+      "path": "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json",
+      "sha256": "d3f3a2b9f2e8e48726812e08bf925d7c0e60b8ff012a4b0d4cdc95581a5a884c"
+    },
+    {
+      "path": "data/evidence/TN003.json",
+      "sha256": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee"
+    },
+    {
+      "path": "data/sources.json",
+      "sha256": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7"
+    }
+  ],
+  "preserved_input_sha256": {
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/sources.json": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "artifacts/admission-check.json": "d0e8d3286bd34cb34cdd2a0a1d74f0b2d3c2f6ddf955c8e66336c4cb213ee756",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "artifacts/battles.json": "e8b505fc0134b16bb68c3bfdbfb7eb7d2486f590f581058e51ad935487f15950",
+    "artifacts/quality.json": "acc3e4ff0ea5b8381966920e88bb3bbe83bafc6c5d60f8686bb9868bb9676c17",
+    "artifacts/evidence-checks.json": "a7ae4e65b1e48fd6efa531942d7bc513815c2043742f527432a05182b9521785",
+    "artifacts/research-queue.json": "3043642a1596c47af24629ba3039289a0987d79ca20ae25074dbaac2c8e70c56",
+    "artifacts/research/TN003.md": "2b80ce9ee02ed96ed1625e846b80799bade213fb83c480b713cfd6df41f6fc90",
+    "docs/feature-admission.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99",
+    "generalship/admission.py": "55927091b8f7fa4e6a1eaef8a3b57d54de341aff01dfc666eda678a360941993",
+    "generalship/evidence.py": "cf52c44b86956201cb6fa8c1a9c3cec85047ada71366f656330c551b536dee69",
+    "generalship/sources.py": "98df0d690b2a2c9e0ac4c55c4ad8e496c28ad26e6054f1053097cd7ebefe6ab4"
+  },
+  "proposal_coverage": {
+    "frame_engagements": 127,
+    "frame_campaigns": 36,
+    "dossiers_available": 3,
+    "engagements_with_candidates": 1,
+    "candidate_observations": 40,
+    "status_counts": {
+      "blocked": 7,
+      "excluded": 33
+    },
+    "complete_candidate_engagements": 0,
+    "baseline_eligible_engagements": 23,
+    "paired_common_ids": [],
+    "newly_covered_ids": [],
+    "scenario_rows": {
+      "unresolved-opening-v2-no-selection": 0
+    }
+  },
+  "historical_features_admitted": 0,
+  "complete_rows": 0,
+  "emitted_rows": 0,
+  "promoted_rows": 0,
+  "checks": {
+    "reviewed_proposal_memo_record_audit_and_ledger_unchanged": true,
+    "actual_review_hashes_and_all_bindings_verified": true,
+    "source_section_hashes_metadata_dates_and_anchor_sets_verified": true,
+    "original_raw_registry_dossier_cohort_default_proposal_default_ledger_packet_and_numeric_baseline_unchanged": true,
+    "all_build_receipt_hashes_match": true,
+    "generated_report_inspected": true,
+    "cli_change_is_report_prose_only": true,
+    "local_markdown_links_checked": 95,
+    "all_checked_local_links_resolve": true
+  },
+  "build_receipt_sha256": "42226cfa704691f9a2881f2a3ddf9a669ada30922eaf32d283d5e5849cf271ef",
+  "limits": [
+    "Reviewer ran the reference audit, v2 CLI and preservation checks; primary ran the full 82-test suite and reproduction.",
+    "Only Python 3.14.7 exercised in this pass; no separate Python 3.11 run.",
+    "No image reinspection, new source fetch, historical feature release, model-input installation or enriched fit.",
+    "Earliest contact, complete area/populations and seven blocked observations remain unresolved."
+  ]
+}

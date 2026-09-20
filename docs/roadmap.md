@@ -55,11 +55,22 @@ pass; no historical feature admission is implied.
 The validator checks all 40 Shiloh troop observations: 18 blocked and 22 excluded,
 with zero complete rows across the retained 127-engagement / 36-campaign frame.
 Synthetic fixtures exercise positive reviewed-manifest replay and rejection cases.
-The current baseline remains unchanged. Next establish a source-backed boundary
-and population mapping through a bounded evidence-use proposal, continuing
-research across the complete source campaign. Historical admission still requires
-actual evidence-use review and an immutable release manifest; implementation
-review does not grant that approval.
+The current baseline remains unchanged. A separate
+[opening-boundary/population proposal](research/shiloh-opening-boundary-v1.md)
+now revisits all 18 blocked mappings using 51 pinned passage anchors. Its explicit
+v2 ledger has 7 blocked / 33 excluded; v1 remains unchanged. Eleven direct-use
+exclusions follow timing/population evidence; zero complete rows are created.
+Astra `xhigh` [accepted the bounded proposal](../artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/primary-assessment.md)
+with one nonblocking precision clarification. The first-contact identification,
+exact area and full memberships remain unresolved.
+
+Next prepare a contact-and-location evidence packet: inspect full opening
+accounts and contemporary positions/maps, audit the first qualifying contact,
+and locate both sides' outposts, approach echelons, reserves and ford guards.
+Resolve the transport/afloat rule explicitly, then recover population/return
+evidence for the seven blockers. Continue across the complete source campaign.
+Historical admission still requires actual evidence-use review of a complete
+proposal and an immutable release manifest; this partial proposal is no release.
 
 The [actual AI review](../artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review.md)
 covers 62/62 claims, 40/40 quantities, 26/26 events and 26/26 supplied scan

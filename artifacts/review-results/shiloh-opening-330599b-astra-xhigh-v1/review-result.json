@@ -1,0 +1,783 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_boundary_population_review",
+  "reviewer": {
+    "kind": "AI",
+    "task_identity": "/root/shiloh_opening_proposal_review",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "fresh_context": true
+  },
+  "date": "2026-09-20",
+  "input_commit": "330599b8882ef9974f4641056c4c1091b0013912",
+  "base_commit": "cf23433e1da519339f4ca00087ab67af7c688c65",
+  "verdict": "accepted_with_nonblocking_note",
+  "required_corrections": [],
+  "input_bindings": [
+    {
+      "path": "data/admission/shiloh-opening-v2.json",
+      "sha256": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52"
+    },
+    {
+      "path": "docs/research/shiloh-opening-boundary-v1.md",
+      "sha256": "bf7cdb1692261cb166cecf45f918706d0277301c272a8bd3bb2a67f044efe82c"
+    },
+    {
+      "path": "design/shiloh-opening-boundary-v1/research-record.json",
+      "sha256": "1d654ae0ffc571e12d0c3a95480518542d4bf54724a5c09eae16640be2ec181e"
+    },
+    {
+      "path": "design/shiloh-opening-boundary-v1/reference-audit.py",
+      "sha256": "a3d683ab8328a6495defe50a1102098d39507ee471c440b9ea90e7f8f5412f9f"
+    },
+    {
+      "path": "artifacts/admission/shiloh-opening-v2-check.json",
+      "sha256": "960bca09880c56cec4da33e172cdd5686d106efcaac2e1a407a5d1e745281711"
+    },
+    {
+      "path": "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json",
+      "sha256": "d3f3a2b9f2e8e48726812e08bf925d7c0e60b8ff012a4b0d4cdc95581a5a884c"
+    },
+    {
+      "path": "data/evidence/TN003.json",
+      "sha256": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee"
+    },
+    {
+      "path": "data/sources.json",
+      "sha256": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7"
+    }
+  ],
+  "response": {
+    "path": "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/review.md",
+    "sha256": "a64021ebef3917d845aa795ffb970e14790363bb9bc2b53b3d6a17dc2b5419a2"
+  },
+  "profile_sha256": "b052a363658dd6c5808ae85a11358d7e1d8a93ecb987df01a857eebcb3cdb586",
+  "boundaries_sha256": "9fd001773b1ce5bdd94a003f54074445cae656c4c40f8dec533244bbb739de65",
+  "candidate_hashes": {
+    "TN003-confederate-after": "900ab159671df637a9ff30a765679b63c97c7560589fd9641a2c1c0f13f688bc",
+    "TN003-confederate-before": "b7ea2204a3fcaeea89a8935b7ea9dc2694d9a5889325ce768f244d8975b5a707",
+    "TN003-confederate-report-136-artillery": "71c034c84b9c9a1bcc5284b222f20eb4cb14b22a36483b1a237811a79af0abe2",
+    "TN003-confederate-report-136-cavalry": "efececdd3076313b058abd85eb30d5009777e6073578d5cd12f21d336358597f",
+    "TN003-confederate-report-136-infantry": "1d1bce8303fcde02c17eb9f62ac65bfb3450afc085699c8182017b9919c833e5",
+    "TN003-confederate-report-136-total": "548ef27ec189e277d883947b954d9c07a6fd72da9d819c4c7693db14a0c09488",
+    "TN003-confederate-report-137-artillery": "9449ea709e1093ee19cff06397b0c4ab6156f6faf0f5c8aeefece7ad41ef7334",
+    "TN003-confederate-report-137-cavalry": "c406b84b2ea34de9c5d06db8f04f07451f2c76b37e1e69ec7de55511e814917e",
+    "TN003-confederate-report-137-infantry": "86531f59bd3ade60afb9b6a607f6120e0e20ed6e822e99492af6574f0fcef433",
+    "TN003-confederate-report-137-total": "7bfc526456a20243636b32aa431246be92a2384ca4eb771b62dcf8bb4759825a",
+    "TN003-force-buell": "822c0d527b5fb74812b63c159494898d666edb28a4996a4826312cbdbcfc0ede",
+    "TN003-force-other": "9faeb93033f759052200f7c29f801344533886125050f1bc6399ab2c7cbc7d31",
+    "TN003-force-sunday-engaged": "d8382221b8f2504a4bc034a31389d916059ef5ec79ab18ecd4afeae03678c250",
+    "TN003-force-wallace": "0759708fb812de6075e226a741da2444e5e29f8d4124e6371cd935359310c37c",
+    "TN003-grose-sunday-eight-companies": "8c80c67af4e60af68c2e540a5896a94f56b3b79e5a60cfc0425c3aee96739b4b",
+    "TN003-handbook-nelson-leading": "5a5a317986f67dc04232972c2905e253ee4722c0d9c542eb2358251b8907d655",
+    "TN003-handbook-wallace": "fce0b905a9775ab0e3137c440a7074528d56370829f229a3fae0b326403cbe35",
+    "TN003-nelson-march-abstract": "67f97b2d4f51170ed8f70f78b4aa138702713c46b572c5365516d9fb5044a082",
+    "TN003-nelson-taken-into-action": "fb8b67e7f9bca6ce9acc98b4b06ecde808106ad7e4638a2923b5b018d8a32ca1",
+    "TN003-nelson-thirtysixth-taken-into-action": "e35bddc32e3ce2f1cc6392d067d19f1a5f4321633f1147a133e3a916ac7d1381",
+    "TN003-nps-confederate-total": "ea3fc9aef9fdcfb284601c63c9397d18bb477d527b87a42fc1bb690ee4228169",
+    "TN003-nps-union-total": "9afadffef41de92d0b19a2f9b9fb111b72add9d376124e6ba19c1d6a067226aa",
+    "TN003-reed-crittenden-engaged": "126f557e9f90d40dc52632a471d0247f5fcb8699ec39ef3e9965a13ebc5672df",
+    "TN003-reed-eighteenth-wisconsin-estimate": "e86da413a0ee031c656ae83ebc0a822d0c1bd1c3f58acfd6cb2d713167dfae98",
+    "TN003-reed-fiftysixth-return": "739bbb0e5ff248677b761bf9c5c9dce36450fb0286d050cc9d29129059133848",
+    "TN003-reed-mccook-april30": "af4cc049ac798bcfdc32cbf81bdcc81dd553a25adee85d0ddc497c8c21e4efd4",
+    "TN003-reed-mccook-detail-engaged": "35c8ea0dc131b47672144efbaedaabc128de4979b31bd67ddba30713954cf397",
+    "TN003-reed-mccook-recap-engaged": "f1da375c847623254eb1133812f47002b35a106b87584d14d4cf444cebc3dfa2",
+    "TN003-reed-nelson-march31": "eddb226479241c8355d0fb514697bcf7e286c9cd192b08e0a343cbbe485ee794",
+    "TN003-reed-ohio-total-engaged": "8e8afb1d6a32043d4bd222e7347c136212a37bb4839128300ee27617dbf5c8dd",
+    "TN003-reed-sixth-reconstruction": "3e0aef36d11cfae0ed90e7e601bbffbc62f73d8b4f4908b318f9ed85befc50d5",
+    "TN003-reed-sixtyeighth-return": "a7f15c9aed6c5893576d3c1a4366617bf9081d41cd37e38d84f19c134b701c09",
+    "TN003-reed-wagner-late-estimate": "55724bf21fe3175efcca87774373917233fce2222f9be52381b49fb4a7f0e3fe",
+    "TN003-reed-wallace-cavalry-return": "f39231e6e0f36d1d645dd325bd544640ef61a748cb09b1f630d24e52cf57d079",
+    "TN003-reed-wallace-detached": "9d55cfa41a6ecce8485d7407c11b8a9fbfb2322158742a7dd006cd3f1de7b82e",
+    "TN003-reed-wallace-engaged": "fc8cea80bebc69d46d03bb46d8b782474e3f36b4bb2140366d41fd275f37715b",
+    "TN003-rousseau-michigan-contingent": "ab2dad6e5671490e13fbf87de2bd3ed6ec68e1395427eb828c41ab240f3abed5",
+    "TN003-sixth-april5-abstract": "1fc0c76fd80eaadd34cce309b250e73bbd6efa98bced9addaba6d70317594056",
+    "TN003-union-paper-total": "4fb66c428e8e4920a101934f0b07f6ed62a0f2d8c9be47c775fe079545887a97",
+    "TN003-wallace-april4-return": "04169099eeabf906a0f62a01ef593b4c9174e0fc5c0b9a25dca4d6589d73b7e8"
+  },
+  "mapping_and_quantity_bindings": [
+    {
+      "candidate_id": "TN003-union-paper-total",
+      "quantity_id": "union-paper-total",
+      "claim_id": "union-return-strength",
+      "quantity_sha256": "f49c44439614af050901bc372909051d43cd78ecb81bb62057478658f652758f",
+      "previous_status": "blocked",
+      "proposed_status": "excluded",
+      "mapping_sha256": "e8548ebedebe5ff74458cea8fae25970aa3554f4821112bca2a8ac3f527f3f15"
+    },
+    {
+      "candidate_id": "TN003-wallace-april4-return",
+      "quantity_id": "wallace-april4-return",
+      "claim_id": "union-return-strength",
+      "quantity_sha256": "f0670bcd1e523216a121215659d49d6b7d29e8d9bf14bec88b12a4e06c8d00cb",
+      "previous_status": "blocked",
+      "proposed_status": "excluded",
+      "mapping_sha256": "0cb76887c47003bc65c81b91c509b11dea984d5e540671ddcc10439f51f4f019"
+    },
+    {
+      "candidate_id": "TN003-confederate-before",
+      "quantity_id": "confederate-before",
+      "claim_id": "confederate-return-before",
+      "quantity_sha256": "5758b18132496d2efad36414146ddb2a94ede4b1fb7c04f372d60268c7813fb8",
+      "previous_status": "blocked",
+      "proposed_status": "blocked",
+      "mapping_sha256": "445afa431b1bf9dd10083140c62a48bd86a7e606f4bf9cdacdf77bfd8ed474f6"
+    },
+    {
+      "candidate_id": "TN003-confederate-report-136-total",
+      "quantity_id": "confederate-report-136-total",
+      "claim_id": "confederate-report-136",
+      "quantity_sha256": "9fe5beaf198286290f4cd7e18b8e550044724fb4b4634ef020b20aa1fe82efdf",
+      "previous_status": "blocked",
+      "proposed_status": "blocked",
+      "mapping_sha256": "d2292b2c17e7582e6d7350026e723895f4432fcdd51df20652a7159983b97100"
+    },
+    {
+      "candidate_id": "TN003-confederate-report-136-infantry",
+      "quantity_id": "confederate-report-136-infantry",
+      "claim_id": "confederate-report-136",
+      "quantity_sha256": "73c4b5c9fc7a2989195473c317029380c4b1b45ca7adfbacdf58a90ae373cc41",
+      "previous_status": "blocked",
+      "proposed_status": "blocked",
+      "mapping_sha256": "d2292b2c17e7582e6d7350026e723895f4432fcdd51df20652a7159983b97100"
+    },
+    {
+      "candidate_id": "TN003-confederate-report-136-artillery",
+      "quantity_id": "confederate-report-136-artillery",
+      "claim_id": "confederate-report-136",
+      "quantity_sha256": "e873c46557308cbc7b21a20223841ebc6c751c90234853730e838a85eff12ad0",
+      "previous_status": "blocked",
+      "proposed_status": "blocked",
+      "mapping_sha256": "d2292b2c17e7582e6d7350026e723895f4432fcdd51df20652a7159983b97100"
+    },
+    {
+      "candidate_id": "TN003-confederate-report-136-cavalry",
+      "quantity_id": "confederate-report-136-cavalry",
+      "claim_id": "confederate-report-136",
+      "quantity_sha256": "41e0cd3bb374e516333753f722d03d58d075c8364a1ef3442b93aee17e959056",
+      "previous_status": "blocked",
+      "proposed_status": "blocked",
+      "mapping_sha256": "d2292b2c17e7582e6d7350026e723895f4432fcdd51df20652a7159983b97100"
+    },
+    {
+      "candidate_id": "TN003-sixth-april5-abstract",
+      "quantity_id": "sixth-april5-abstract",
+      "claim_id": "sixth-division-return-components",
+      "quantity_sha256": "162d41a7aeb20a3b43b58a410a6efb43f57bc78bec56413c117a26c0d844f0e9",
+      "previous_status": "blocked",
+      "proposed_status": "blocked",
+      "mapping_sha256": "390b0c71b3275686019911a9a2d7df27725303b594fc5973dcf7a49e7fbedd98"
+    },
+    {
+      "candidate_id": "TN003-reed-sixth-reconstruction",
+      "quantity_id": "reed-sixth-reconstruction",
+      "claim_id": "reed-sixth-division-reconstruction",
+      "quantity_sha256": "43c04396fb2e0efe8d8d922dfa9608b56bc476e8bc7ede70963d4c2a826d36bb",
+      "previous_status": "blocked",
+      "proposed_status": "excluded",
+      "mapping_sha256": "fed3b1f16862dacc3069affe58714cf2cb57dc136ba5443290895273a3bf0621"
+    },
+    {
+      "candidate_id": "TN003-reed-eighteenth-wisconsin-estimate",
+      "quantity_id": "reed-eighteenth-wisconsin-estimate",
+      "claim_id": "eighteenth-wisconsin-return-omission",
+      "quantity_sha256": "e05919ff59635fddceda9b16f303601bd43b0214dfc1040da65224fe396e85a1",
+      "previous_status": "blocked",
+      "proposed_status": "blocked",
+      "mapping_sha256": "772c2b4f22c382c082575f88b012c4b540346d7ac71d5eeeed8e6806f33fb2dc"
+    },
+    {
+      "candidate_id": "TN003-reed-wallace-detached",
+      "quantity_id": "reed-wallace-detached",
+      "claim_id": "wallace-reed-detachment-counts",
+      "quantity_sha256": "734333f65cf944b80f2cf90abed2d743d78418a6e812d46c05a283cf7e6f48f8",
+      "previous_status": "blocked",
+      "proposed_status": "excluded",
+      "mapping_sha256": "31de39869094b3c0901fb664a6f9a7e7f2eddd65dc75ac71f12aaefe34361f72"
+    },
+    {
+      "candidate_id": "TN003-reed-fiftysixth-return",
+      "quantity_id": "reed-fiftysixth-return",
+      "claim_id": "wallace-reed-detachment-counts",
+      "quantity_sha256": "3c6af91317a969520115f319606e3eb6995938b8029a6844293605964abf4709",
+      "previous_status": "blocked",
+      "proposed_status": "excluded",
+      "mapping_sha256": "1f39202bf613e0a936262debbac0fbab1b3abeae74c68d761f2a8666562db30f"
+    },
+    {
+      "candidate_id": "TN003-reed-sixtyeighth-return",
+      "quantity_id": "reed-sixtyeighth-return",
+      "claim_id": "wallace-reed-detachment-counts",
+      "quantity_sha256": "3ce19814d7963b7eae2c203199f1ce29897193a801d430f70ba2f9bf2b8f3aa4",
+      "previous_status": "blocked",
+      "proposed_status": "excluded",
+      "mapping_sha256": "47ef9dd5cacf417cd947c6c9152707d47d9d717a3af8b708ad0239d6ebbd49f0"
+    },
+    {
+      "candidate_id": "TN003-reed-wallace-cavalry-return",
+      "quantity_id": "reed-wallace-cavalry-return",
+      "claim_id": "wallace-reed-detachment-counts",
+      "quantity_sha256": "1716e4fc7a7cb2aeacbe3fa61cd3b90176cbf46dec4ec3ffa0edf3a291c6b898",
+      "previous_status": "blocked",
+      "proposed_status": "excluded",
+      "mapping_sha256": "fe8bfde46d7122af12cf3b4222e08445715c5f20eff6c3dae7d66e77307335ab"
+    },
+    {
+      "candidate_id": "TN003-nelson-march-abstract",
+      "quantity_id": "nelson-march-abstract",
+      "claim_id": "nelson-march-paper-strength",
+      "quantity_sha256": "c732ff67cf883ab66497ce5b92b75fea919f4ac71bd7f18624cd1f8f1f6ea8c9",
+      "previous_status": "blocked",
+      "proposed_status": "excluded",
+      "mapping_sha256": "63f18db3ceba4252228f586b983ae3b441aabf4c3379813bb8cad0c3b090ea8a"
+    },
+    {
+      "candidate_id": "TN003-reed-nelson-march31",
+      "quantity_id": "reed-nelson-march31",
+      "claim_id": "reed-nelson-return-basis",
+      "quantity_sha256": "821d5ec9ed327f3461047636bab076d4d7833753c55850b95d7a2d882300806e",
+      "previous_status": "blocked",
+      "proposed_status": "excluded",
+      "mapping_sha256": "b1d00d2b7783d6dc31cafad833db77b30eb2e71cae99a5d09f5629c7b2db79d1"
+    },
+    {
+      "candidate_id": "TN003-handbook-nelson-leading",
+      "quantity_id": "handbook-nelson-leading",
+      "claim_id": "nelson-evening-crossing",
+      "quantity_sha256": "a6e4be6515cae3cc8a7fda14d0be7583f765d723c8a18b3d827e7c1197b3ee7c",
+      "previous_status": "blocked",
+      "proposed_status": "excluded",
+      "mapping_sha256": "b0a40fce41be3ed14fb0c9b3275693191d72304098c4aab0a994d44a0b8defbf"
+    },
+    {
+      "candidate_id": "TN003-grose-sunday-eight-companies",
+      "quantity_id": "grose-sunday-eight-companies",
+      "claim_id": "grose-sunday-contingent",
+      "quantity_sha256": "08c54f3ac6ac4f4cdf105a003c4624f41fb6f23e25c03db8333e198af9136964",
+      "previous_status": "blocked",
+      "proposed_status": "excluded",
+      "mapping_sha256": "5e58c0d526dd2a6fe49a24eca8a155862ba8a05202802be8c35a64895fa61704"
+    }
+  ],
+  "preserved_input_sha256": {
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/sources.json": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "artifacts/admission-check.json": "d0e8d3286bd34cb34cdd2a0a1d74f0b2d3c2f6ddf955c8e66336c4cb213ee756",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "artifacts/battles.json": "e8b505fc0134b16bb68c3bfdbfb7eb7d2486f590f581058e51ad935487f15950",
+    "artifacts/quality.json": "acc3e4ff0ea5b8381966920e88bb3bbe83bafc6c5d60f8686bb9868bb9676c17",
+    "artifacts/evidence-checks.json": "a7ae4e65b1e48fd6efa531942d7bc513815c2043742f527432a05182b9521785",
+    "artifacts/research-queue.json": "3043642a1596c47af24629ba3039289a0987d79ca20ae25074dbaac2c8e70c56",
+    "artifacts/research/TN003.md": "2b80ce9ee02ed96ed1625e846b80799bade213fb83c480b713cfd6df41f6fc90",
+    "docs/feature-admission.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99",
+    "generalship/admission.py": "55927091b8f7fa4e6a1eaef8a3b57d54de341aff01dfc666eda678a360941993",
+    "generalship/evidence.py": "cf52c44b86956201cb6fa8c1a9c3cec85047ada71366f656330c551b536dee69",
+    "generalship/sources.py": "98df0d690b2a2c9e0ac4c55c4ad8e496c28ad26e6054f1053097cd7ebefe6ab4"
+  },
+  "coverage": {
+    "substantively_reviewed_revised_mappings": 18,
+    "substantively_reviewed_quantity_records": 18,
+    "linked_claims_inspected": 11,
+    "changed_blocked_to_excluded": 11,
+    "retained_blocked": 7,
+    "earlier_excluded_mappings_verified_unchanged": 22,
+    "earlier_excluded_historical_transcriptions_rereviewed": 0,
+    "passage_anchors_inspected_in_context": 51,
+    "source_section_pairs_inspected": 26,
+    "source_records_inspected": 16,
+    "images_reinspected": 0,
+    "new_sources_fetched": 0,
+    "preserved_input_paths_compared_to_base_and_review_commit": 15,
+    "all_registry_raw_bindings_verified": 53,
+    "unique_raw_paths_verified": 50,
+    "proposal_coverage": {
+      "frame_engagements": 127,
+      "frame_campaigns": 36,
+      "dossiers_available": 3,
+      "engagements_with_candidates": 1,
+      "candidate_observations": 40,
+      "status_counts": {
+        "blocked": 7,
+        "excluded": 33
+      },
+      "complete_candidate_engagements": 0,
+      "baseline_eligible_engagements": 23,
+      "paired_common_ids": [],
+      "newly_covered_ids": [],
+      "scenario_rows": {
+        "unresolved-opening-v2-no-selection": 0
+      }
+    },
+    "full_dossier_rereview": false,
+    "general_validator_implementation_audit": false
+  },
+  "inspected_source_sections": [
+    {
+      "source_id": "or-beauregard-shiloh-report",
+      "section": "p386",
+      "raw_path": "data/raw/shiloh/or-beauregard-shiloh-report.txt",
+      "raw_sha256": "c87c79162f5ef1a88bc308896b90a4178808a6b505e1b7ee805be535705a692c",
+      "source_metadata_sha256": "728ea565421f76379239861074184e28a0b8d99dad3b8a0143dec96fb4a64031",
+      "document_date": "1862-04-11",
+      "historical_knowledge_at": null,
+      "inspected_line_start": 6,
+      "inspected_line_end": 8,
+      "anchor_ids": [
+        "contact",
+        "advance",
+        "approaches",
+        "reserves",
+        "ford-guards"
+      ]
+    },
+    {
+      "source_id": "or-grant-shiloh-report",
+      "section": "p109",
+      "raw_path": "data/raw/shiloh/or-grant-shiloh-report.txt",
+      "raw_sha256": "ab226b87fdbafcbe96e01564f596840b2b76fcf0f3cfe3aa83e1b1ee72f6d3cc",
+      "source_metadata_sha256": "f1d23336d0d84feff45ec0495d57c776d1ca6207c115a3aee5f5bea1b3c4f5a6",
+      "document_date": "1862-04-09",
+      "historical_knowledge_at": null,
+      "inspected_line_start": 6,
+      "inspected_line_end": 8,
+      "anchor_ids": [
+        "grant-contact",
+        "wallace-location"
+      ]
+    },
+    {
+      "source_id": "or-wallace-availability-v1",
+      "section": "p170",
+      "raw_path": "data/raw/shiloh/or-wallace-availability-v1.txt",
+      "raw_sha256": "d23c3a22984876a9f744f97d4a8acf642a663daf0b215285b38455145a218190",
+      "source_metadata_sha256": "015f2a41d74e464a20b229eaa4872ab5857b8a30419ce12acb6cc1066f5c9fc2",
+      "document_date": "1862-04-12",
+      "historical_knowledge_at": null,
+      "inspected_line_start": 6,
+      "inspected_line_end": 11,
+      "anchor_ids": [
+        "wallace-order",
+        "wallace-guards",
+        "wallace-night"
+      ]
+    },
+    {
+      "source_id": "or-union-return-april4-5",
+      "section": "p112",
+      "raw_path": "data/raw/shiloh/or-union-return-april4-5.txt",
+      "raw_sha256": "e7b9aee495475a62721a811490c442f8019bc689a02dd841db0a5fbd60f8727e",
+      "source_metadata_sha256": "5ef68640ce37c0679271a16eb9ac629a97ea3204b3645773d1f8dc728360cd01",
+      "document_date": "1862-04-04/1862-04-05",
+      "historical_knowledge_at": null,
+      "inspected_line_start": 3,
+      "inspected_line_end": 20,
+      "anchor_ids": [
+        "paper-heading",
+        "paper-total",
+        "paper-wallace",
+        "paper-omissions"
+      ]
+    },
+    {
+      "source_id": "or-confederate-return",
+      "section": "p396",
+      "raw_path": "data/raw/shiloh/or-confederate-return.txt",
+      "raw_sha256": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c",
+      "source_metadata_sha256": "86b7272ccadd5e1300cb8b07d8ab36fe9c57a81abe5143d5a27c2c63a7f3aea4",
+      "document_date": "1862-04-21",
+      "historical_knowledge_at": null,
+      "inspected_line_start": 3,
+      "inspected_line_end": 18,
+      "anchor_ids": [
+        "cs-before-heading",
+        "cs-before-total",
+        "cs-disagreement"
+      ]
+    },
+    {
+      "source_id": "or-confederate-report-136-v1",
+      "section": "p398",
+      "raw_path": "data/raw/shiloh/or-confederate-report-136-v1.txt",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "source_metadata_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "document_date": "1862-06-30",
+      "historical_knowledge_at": null,
+      "inspected_line_start": 3,
+      "inspected_line_end": 32,
+      "anchor_ids": [
+        "cs136-heading",
+        "cs136-columns",
+        "cs136-late"
+      ]
+    },
+    {
+      "source_id": "or-union-return-detail-v3",
+      "section": "p112",
+      "raw_path": "data/raw/shiloh/or-union-return-detail-v2.txt",
+      "raw_sha256": "70099ece7f07cf264d777f3e9d80e49ec40c230b5c671962e3cdc0dbfd4f2c94",
+      "source_metadata_sha256": "1075fbfb1317f1be5502bb3454c6943949ef84014696135b4bf4a3b0ff3d8b63",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "inspected_line_start": 3,
+      "inspected_line_end": 13,
+      "anchor_ids": [
+        "sixth-total",
+        "sixth-omissions"
+      ]
+    },
+    {
+      "source_id": "reed-1909-union-audit-v1",
+      "section": "p97",
+      "raw_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "source_metadata_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "inspected_line_start": 42,
+      "inspected_line_end": 52,
+      "anchor_ids": [
+        "reed-sixth",
+        "estimate-mark"
+      ]
+    },
+    {
+      "source_id": "reed-1909-union-audit-v1",
+      "section": "p111-union-notes",
+      "raw_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "source_metadata_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "inspected_line_start": 62,
+      "inspected_line_end": 70,
+      "anchor_ids": [
+        "reed-later-addition"
+      ]
+    },
+    {
+      "source_id": "or-prentiss-availability-v1",
+      "section": "p278-twentythird",
+      "raw_path": "data/raw/shiloh/or-prentiss-availability-v1.txt",
+      "raw_sha256": "87fad5def660a7a09b3075ba5c99b951cc64561a09154aafb0203bcce623388f",
+      "source_metadata_sha256": "821b9a840e535dc0302396c3cd4890fdca1e127663ac2661a591def406aa7e60",
+      "document_date": "1862-11-17",
+      "historical_knowledge_at": null,
+      "inspected_line_start": 11,
+      "inspected_line_end": 13,
+      "anchor_ids": [
+        "prentiss-missouri",
+        "prentiss-reform"
+      ]
+    },
+    {
+      "source_id": "reed-1909-union-audit-v1",
+      "section": "p112-note-r",
+      "raw_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "source_metadata_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "inspected_line_start": 71,
+      "inspected_line_end": 73,
+      "anchor_ids": [
+        "reed-population",
+        "reed-noncombatants"
+      ]
+    },
+    {
+      "source_id": "reed-1909-union-audit-v1",
+      "section": "p96",
+      "raw_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "source_metadata_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "inspected_line_start": 26,
+      "inspected_line_end": 41,
+      "anchor_ids": [
+        "wisconsin-estimate"
+      ]
+    },
+    {
+      "source_id": "reed-1909-union-audit-v1",
+      "section": "p60-second-brigade",
+      "raw_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "source_metadata_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "inspected_line_start": 3,
+      "inspected_line_end": 6,
+      "anchor_ids": [
+        "wisconsin-camp",
+        "sixteenth-location"
+      ]
+    },
+    {
+      "source_id": "or-reid-availability-v1",
+      "section": "p288",
+      "raw_path": "data/raw/shiloh/or-reid-availability-v1.txt",
+      "raw_sha256": "b6192040bb437ea469fa67cb8422460ebe8605186524a5c3e890b7e5ec855f03",
+      "source_metadata_sha256": "eaf8e57ab229cf0e02f6cfc87f0ce4e222ac2cbc9bac1e1befe875ca7476fe24",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "inspected_line_start": 3,
+      "inspected_line_end": 6,
+      "anchor_ids": [
+        "reid-arrival",
+        "reid-disembark"
+      ]
+    },
+    {
+      "source_id": "michigan-ag-1862-fifteenth-v1",
+      "section": "p41",
+      "raw_path": "data/raw/shiloh/michigan-ag-1862-fifteenth-v1.txt",
+      "raw_sha256": "c143f241b2d96bc563a01f52f996c86634c5da7643952ee96259468f333fd92b",
+      "source_metadata_sha256": "a41ee095208f5656169c275975d625a9783010b54844f422c00a7d371bf79648",
+      "document_date": "1862-12-24",
+      "historical_knowledge_at": null,
+      "inspected_line_start": 6,
+      "inspected_line_end": 9,
+      "anchor_ids": [
+        "michigan-prior-arrival"
+      ]
+    },
+    {
+      "source_id": "reed-1909-union-audit-v1",
+      "section": "pp60-61-michigan",
+      "raw_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "source_metadata_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "inspected_line_start": 7,
+      "inspected_line_end": 9,
+      "anchor_ids": [
+        "michigan-ammunition"
+      ]
+    },
+    {
+      "source_id": "reed-1909-union-audit-v1",
+      "section": "p92-heading",
+      "raw_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "source_metadata_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "inspected_line_start": 13,
+      "inspected_line_end": 15,
+      "anchor_ids": [
+        "reed-wallace-date"
+      ]
+    },
+    {
+      "source_id": "reed-1909-union-audit-v1",
+      "section": "p93",
+      "raw_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "source_metadata_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "inspected_line_start": 16,
+      "inspected_line_end": 25,
+      "anchor_ids": [
+        "reed-detachments",
+        "reed-56",
+        "reed-68",
+        "reed-cavalry"
+      ]
+    },
+    {
+      "source_id": "or-nelson-reinforcements-v2",
+      "section": "p327-march-return",
+      "raw_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+      "raw_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+      "source_metadata_sha256": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "inspected_line_start": 41,
+      "inspected_line_end": 50,
+      "anchor_ids": [
+        "nelson-march",
+        "nelson-march-total"
+      ]
+    },
+    {
+      "source_id": "or-nelson-reinforcements-v2",
+      "section": "p323-crossing",
+      "raw_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+      "raw_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+      "source_metadata_sha256": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+      "document_date": "1862-04-10",
+      "historical_knowledge_at": null,
+      "inspected_line_start": 6,
+      "inspected_line_end": 8,
+      "anchor_ids": [
+        "nelson-departure"
+      ]
+    },
+    {
+      "source_id": "or-nelson-reinforcements-v2",
+      "section": "p324-artillery",
+      "raw_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+      "raw_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+      "source_metadata_sha256": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+      "document_date": "1862-04-10",
+      "historical_knowledge_at": null,
+      "inspected_line_start": 18,
+      "inspected_line_end": 20,
+      "anchor_ids": [
+        "nelson-artillery"
+      ]
+    },
+    {
+      "source_id": "reed-1909-ohio-strength-v1",
+      "section": "p100",
+      "raw_path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "source_metadata_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "inspected_line_start": 3,
+      "inspected_line_end": 15,
+      "anchor_ids": [
+        "reed-nelson-date"
+      ]
+    },
+    {
+      "source_id": "reed-1909-ohio-strength-v1",
+      "section": "p101",
+      "raw_path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "source_metadata_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "inspected_line_start": 16,
+      "inspected_line_end": 28,
+      "anchor_ids": [
+        "reed-nelson-total"
+      ]
+    },
+    {
+      "source_id": "gudmens-shiloh-handbook",
+      "section": "p113",
+      "raw_path": "data/raw/shiloh/gudmens-shiloh-handbook.txt",
+      "raw_sha256": "f9598f35502e9081e7bb056e59790c42ff476371984a3ea452e37ac36e395cf5",
+      "source_metadata_sha256": "56e73adb77ae67b9bb0508d83f4738e980fe5ffa03cfabf35da06b009875cc2a",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "inspected_line_start": 12,
+      "inspected_line_end": 14,
+      "anchor_ids": [
+        "handbook-nelson"
+      ]
+    },
+    {
+      "source_id": "or-grose-crossing-v1",
+      "section": "p337",
+      "raw_path": "data/raw/shiloh/or-grose-crossing-v1.txt",
+      "raw_sha256": "45557a169c58c848726a0105e883da9dd682b749c6d603d09d4578209ec09410",
+      "source_metadata_sha256": "8bf2f4cebe935a99c3f2993b1ced99fe2633b7b440a55ffa96f158c61fb4e65c",
+      "document_date": "1862-04-08",
+      "historical_knowledge_at": null,
+      "inspected_line_start": 6,
+      "inspected_line_end": 10,
+      "anchor_ids": [
+        "grose-count",
+        "grose-crossing"
+      ]
+    },
+    {
+      "source_id": "or-ammen-crossing-v2",
+      "section": "p328-report",
+      "raw_path": "data/raw/shiloh/or-ammen-crossing-v1.txt",
+      "raw_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+      "source_metadata_sha256": "38a4a8686b632e5a49df4b3a129ec80d6060a2976d7ff352fee9c68c4c4cb23b",
+      "document_date": "1862-04-10",
+      "historical_knowledge_at": null,
+      "inspected_line_start": 6,
+      "inspected_line_end": 9,
+      "anchor_ids": [
+        "ammen-march"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "SOB-N1",
+      "severity": "low",
+      "blocking": false,
+      "status": "nonblocking_recommendation",
+      "candidate_id": "TN003-grose-sunday-eight-companies",
+      "file": "data/admission/shiloh-opening-v2.json",
+      "line": 1265,
+      "title": "Preserve the approximate qualifier for the handbook 600",
+      "description": "The rationale says the handbook's exact 600, but the pinned source says about 600 and the observation remains approximate / explicit_estimate. This is a local prose precision issue and does not change exclusion or any numeric input.",
+      "evidence": {
+        "source_id": "gudmens-shiloh-handbook",
+        "section": "p113",
+        "raw_path": "data/raw/shiloh/gudmens-shiloh-handbook.txt",
+        "line": 13,
+        "quote": "by 1800 he had about 600 men west of the river and in line."
+      },
+      "recommended_correction": "In a future version replace the phrase with: not an opening census or proof of the handbook's roughly 600-person contingent. An explicit primary-assessment clarification while preserving the frozen proposal is also sufficient for this bounded research pass.",
+      "requires_new_proposal_to_accept_this_research_pass": false
+    }
+  ],
+  "unresolved_findings": [
+    "SOB-N1"
+  ],
+  "unresolved_blocking_findings": [],
+  "unresolved_research_gates": [
+    "Earliest qualifying hostile contact and any earlier patrol/outpost event belonging to the engagement.",
+    "Complete area, perimeter, approach/outpost/ford-guard, transport/afloat/naval and uncertain medical/duty policy.",
+    "Both complete side-membership partitions and evidence of timing, population, carry-forward and derivation.",
+    "Confederate 40,335 versus 38,773, effective/for-duty definitions, Hill inclusion and overlapping branch totals.",
+    "Union original omissions, estimated additions, mixed return/participation scopes and ten-person comparison residual.",
+    "Wallace guard/gun identities and exact detachment population without residual headcounts.",
+    "Nelson/Grose timing reconciliation and provenance of the approximately 600-person handbook observation."
+  ],
+  "commands": [
+    {
+      "command": "python3 design/shiloh-opening-boundary-v1/reference-audit.py",
+      "exit_code": 0,
+      "result": "passed; 51 anchors / 26 sections / 18 revised mappings / 40 observations / 127 engagements / 36 campaigns; 7 blocked / 33 excluded; 0 promoted"
+    },
+    {
+      "command": "python3 -m generalship admission-check data/admission/shiloh-opening-v2.json",
+      "exit_code": 0,
+      "result": "checked; no scenario issues; 0 complete candidate engagements, scenario rows or promoted rows"
+    },
+    {
+      "command": "Read-only inline Python: SHA-256 all eight supplied paths; compare all 15 preserved paths and all 53 registry raw-file bindings against git show at base and reviewed commits; compare five core files with review commit; inspect baseline metrics and source metadata.",
+      "exit_code": 0,
+      "result": "All checked byte/hash comparisons passed; 53 bindings represent 50 unique raw paths."
+    }
+  ],
+  "not_run": [
+    "make check",
+    "make reproduce",
+    "image inspection",
+    "network fetching",
+    "new general implementation audit",
+    "model fitting",
+    "release validation"
+  ],
+  "historical_features_admitted": 0,
+  "emitted_rows": 0,
+  "promoted_rows": 0,
+  "release_manifest_authorized": false,
+  "canonical_strength_established": false,
+  "limits": [
+    "Acceptance is bounded to this immutable non-releasing proposal and does not satisfy a release-capable admission object.",
+    "Pinned full section contexts were read; some sections are selected excerpts, not full historical documents.",
+    "The 22 earlier excluded mappings were mechanically compared, not given a new historical transcription review.",
+    "No images were inspected; no inherited facsimile-inspection claim.",
+    "Byte identity and exact quote presence do not establish historical truth, source independence or measurement accuracy.",
+    "Concurrent primary routing-document edits are outside the exact commit reviewed.",
+    "The historical boundary, both complete populations and usable numerical alternatives remain unresolved.",
+    "Original review outputs are immutable; later substantive proposal corrections require separately bound follow-up."
+  ]
+}
