@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "command": [
+        "make",
+        "check"
+      ],
+      "exit_code": 0,
+      "output_sha256": "a35f8b2f25d208067183823074346c868d2eca3b6e3a3f0b62b700fd9715f866"
+    },
+    {
+      "command": [
+        "make",
+        "reproduce"
+      ],
+      "exit_code": 0,
+      "output_sha256": "aa59d8f324fa41d50cedadf04e85135e924a5c3a10f2b66b0e6eb47ad32d721c"
+    },
+    {
+      "command": [
+        "make",
+        "packet"
+      ],
+      "exit_code": 0,
+      "output_sha256": "45454fc53d930ff1aa898366faa3f4041f17e71dbaf873285b63d1475ac065ca"
+    },
+    {
+      "command": [
+        "python3",
+        "design/shiloh-reid-provenance-v1/reference-audit.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "baf604c7b43fd43eb575412b3892cbb4d51877ed099c23c3175eb742551b57f8"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "tests": 82,
+  "prepared_commit": "1c498e09b5a4b1248f43ee3ce7a8da9285ba4b5f",
+  "prepared_files_changed": [
+    "README.md",
+    "artifacts/pilot-report.md",
+    "artifacts/receipt.json",
+    "docs/roadmap.md",
+    "docs/sources.md",
+    "generalship/cli.py"
+  ],
+  "scope": "Only current summaries and regenerated report/receipt change after preparation; all prepared evidence, research files and raw quotations remain unchanged. Separate primary addendum supplies catalog precision overlays.",
+  "registry_entries": 164,
+  "raw_paths": 161,
+  "features_admitted": 0,
+  "promoted_rows": 0,
+  "unresolved_historical_questions": "Original contributor/evidence, copying route, post identity, continuity, contact time, area and populations remain unknown."
+}

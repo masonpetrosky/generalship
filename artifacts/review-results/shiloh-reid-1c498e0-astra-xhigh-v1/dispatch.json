@@ -1,0 +1,33 @@
+{
+  "task_name": "/root/shiloh_reid_review",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "fork_turns": "none",
+  "date": "2026-09-20",
+  "input_commit": "1c498e09b5a4b1248f43ee3ce7a8da9285ba4b5f",
+  "inputs": {
+    "data/sources.json": "4c574a2b6db999cab0bd44bdf59304fb4c6148465c387755d985b1845bb145e6",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "data/admission/shiloh-opening-v2.json": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "README.md": "36258cbcc86afd7aeae133717cf5ceb8b9cdc080673c769164aeebd694af7a77",
+    "docs/roadmap.md": "8a635ccb5843d9d6a3b756dc3ccdd92edb8e0a5f45ed3e5e013807320c72cb7d",
+    "docs/sources.md": "6a98b61745a9273f8f6daf74a03fd4b62d514bc782bb7cff282ca3138876da27",
+    "NOTICE.md": "84610d3adf8ced44f2094f86209e38146eddd9205e60aaf0aa4278779b036ba0",
+    "generalship/cli.py": "6917b37631b808a80aae6bf7493093cedaf239a783c88493aa219424e7191449",
+    "artifacts/pilot-report.md": "54d01d61520558c81b9575593512fae126da49375b76f148d2c2d97fb9b98cce",
+    "docs/research/shiloh-reid-provenance-v1.md": "4e79aa76d1d1af0580f99927cca7dc9f5caa25c8626cfb2a8065501b97a16254",
+    "design/shiloh-reid-provenance-v1/research-record.json": "c4f0eb2dc4c1378c9dbb38cfc889db3044ef1a851c1f58dc0992b46c0ab8ac1c",
+    "design/shiloh-reid-provenance-v1/reference-audit.py": "dc9f996f45ad294ef327530bd28998b7a19967c64ab9568c15d3a7a526c5ccef",
+    "design/shiloh-reid-provenance-v1/search-log.json": "f4e694fddfee60e8fd9295d1ace92c6d441ba1f2101adf4057598df704efb235",
+    "design/shiloh-reid-provenance-v1/prepared-validation.json": "041bc81f16d4103d6a3110fa3157bdbc9c935afa33bfa9b22b8abcf88a0e06a1"
+  },
+  "scope": "All 5 assertions, 11 anchors / 10 distinct source-locator pairs, all 10 facsimiles, six new transcribed sections, reused Reid section, selected LOC extraction and metadata/summary/preservation claims.",
+  "allowed_outputs": [
+    "artifacts/review-results/shiloh-reid-1c498e0-astra-xhigh-v1/review.md",
+    "artifacts/review-results/shiloh-reid-1c498e0-astra-xhigh-v1/review-result.json"
+  ],
+  "limitations": "Separate AI analysis, not historical adjudication or proof of independence."
+}

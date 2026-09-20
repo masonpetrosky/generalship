@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "review_id": "shiloh-reid-1c498e0-astra-xhigh-v1",
+  "review_type": "separate_ai_source_attribution_analysis",
+  "reviewer": {
+    "task_name": "/root/shiloh_reid_review",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "fork_turns": "none",
+    "date": "2026-09-20"
+  },
+  "input_commit": "1c498e09b5a4b1248f43ee3ce7a8da9285ba4b5f",
+  "preservation_base_commit": "ad1c3f1bc8bdb64a39e0bca99ed03a6e1b341681",
+  "assignment_sha256": "55b83efeabec79f4f3d62fe76956c94b2413eb90b327f296def76ddca83233e1",
+  "dispatch_sha256": "c72ca8d243fbc0971af035347c3d1fb496b7f7832c12acb755b26082895ee457",
+  "input_sha256": {
+    "data/sources.json": "4c574a2b6db999cab0bd44bdf59304fb4c6148465c387755d985b1845bb145e6",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "data/admission/shiloh-opening-v2.json": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "README.md": "36258cbcc86afd7aeae133717cf5ceb8b9cdc080673c769164aeebd694af7a77",
+    "docs/roadmap.md": "8a635ccb5843d9d6a3b756dc3ccdd92edb8e0a5f45ed3e5e013807320c72cb7d",
+    "docs/sources.md": "6a98b61745a9273f8f6daf74a03fd4b62d514bc782bb7cff282ca3138876da27",
+    "NOTICE.md": "84610d3adf8ced44f2094f86209e38146eddd9205e60aaf0aa4278779b036ba0",
+    "generalship/cli.py": "6917b37631b808a80aae6bf7493093cedaf239a783c88493aa219424e7191449",
+    "artifacts/pilot-report.md": "54d01d61520558c81b9575593512fae126da49375b76f148d2c2d97fb9b98cce",
+    "docs/research/shiloh-reid-provenance-v1.md": "4e79aa76d1d1af0580f99927cca7dc9f5caa25c8626cfb2a8065501b97a16254",
+    "design/shiloh-reid-provenance-v1/research-record.json": "c4f0eb2dc4c1378c9dbb38cfc889db3044ef1a851c1f58dc0992b46c0ab8ac1c",
+    "design/shiloh-reid-provenance-v1/reference-audit.py": "dc9f996f45ad294ef327530bd28998b7a19967c64ab9568c15d3a7a526c5ccef",
+    "design/shiloh-reid-provenance-v1/search-log.json": "f4e694fddfee60e8fd9295d1ace92c6d441ba1f2101adf4057598df704efb235",
+    "design/shiloh-reid-provenance-v1/prepared-validation.json": "041bc81f16d4103d6a3110fa3157bdbc9c935afa33bfa9b22b8abcf88a0e06a1"
+  },
+  "input_binding_status": "all_17_verified_before_substantive_review_and_rechecked_before_output",
+  "verdict": "accepted_with_nonblocking_precision_comments",
+  "required_corrections": [],
+  "nonblocking_comments": [
+    {
+      "id": "RV-C1",
+      "severity": "nonblocking_precision",
+      "title": "Preserve the catalog letters label",
+      "locations": [
+        "docs/research/shiloh-reid-provenance-v1.md:27",
+        "design/shiloh-reid-provenance-v1/search-log.json:10"
+      ],
+      "source_id": "loc-reid-guide-extract-v1",
+      "source_sha256": "8b762feda019e8fb4873163dad1eb22b26a7f6c20d664d18adde6aa1f8ac4f72",
+      "locator": "provider P23 L1010",
+      "evidence": "BOX I:A225-231 REEL 219 “Agate” letters, 1861-1864",
+      "issue": "The retained extraction says letters and does not establish clipping format. RV05 itself already says letters; the descriptive table and lead use clippings.",
+      "exact_suggested_correction": "Use cataloged “Agate” letters, 1861–1864; material format unverified in the retained extraction. For the search lead, inspect contents and format before identifying a Shiloh dispatch. Preserve frozen inputs and record an accepted clarification in a separate addendum/version.",
+      "requires_historical_assertion_change": false
+    },
+    {
+      "id": "RV-C2",
+      "severity": "nonblocking_precision",
+      "title": "Provider pagination is verified; printed pagination is not",
+      "locations": [
+        "docs/research/shiloh-reid-provenance-v1.md:27",
+        "design/shiloh-reid-provenance-v1/research-record.json:560",
+        "design/shiloh-reid-provenance-v1/research-record.json:571",
+        "design/shiloh-reid-provenance-v1/research-record.json:582"
+      ],
+      "source_id": "loc-reid-guide-extract-v1",
+      "source_sha256": "8b762feda019e8fb4873163dad1eb22b26a7f6c20d664d18adde6aa1f8ac4f72",
+      "locator": "provider P10 and P23",
+      "issue": "Retained lines include provider labels but no printed page footer or mapping. This review cannot verify printed pp.11 and 24; it does not establish that those labels are false.",
+      "exact_suggested_correction": "Use provider P10 L424–426; provider P10 L453–455 and P23 L998–1000; provider P23 L1010. State that printed pagination was not independently verified from the retained extraction, or retain the printed labels only as explicitly unverified pending a versioned source.",
+      "requires_historical_assertion_change": false
+    }
+  ],
+  "coverage": {
+    "assertions_inspected": 5,
+    "assertions_total": 5,
+    "anchors_inspected": 11,
+    "anchors_total": 11,
+    "distinct_source_locator_pairs_inspected": 10,
+    "distinct_source_locator_pairs_total": 10,
+    "new_historical_sections_literally_compared": 6,
+    "new_historical_sections_total": 6,
+    "reused_historical_sections_literally_compared": 1,
+    "reused_historical_sections_total": 1,
+    "images_opened_with_view_image_and_visually_inspected": 10,
+    "images_total": 10,
+    "loc_json_snapshots_inspected": 1,
+    "loc_selected_lines_inspected": 10,
+    "loc_pdf_facsimiles_inspected": 0,
+    "original_archival_items_inspected": 0,
+    "prior_source_entries_metadata_verified_against_base": 152,
+    "prior_raw_paths_bytes_verified_against_base": 149,
+    "protected_files_verified_against_base_and_bindings": 126,
+    "new_source_entries_metadata_and_raw_verified": 12,
+    "registry_entries": 164,
+    "raw_paths": 161
+  },
+  "sections_compared": [
+    {
+      "source_id": "reid-preface-provenance-v1",
+      "section": "p1-origin",
+      "result": "matches_image_under_declared_normalization"
+    },
+    {
+      "source_id": "reid-preface-provenance-v1",
+      "section": "p1-collection",
+      "result": "matches_image_under_declared_normalization"
+    },
+    {
+      "source_id": "reid-preface-provenance-v1",
+      "section": "p1-method",
+      "result": "matches_image_under_declared_normalization"
+    },
+    {
+      "source_id": "reid-preface-provenance-v1",
+      "section": "p2-miller",
+      "result": "matches_image_under_declared_normalization"
+    },
+    {
+      "source_id": "reid-preface-provenance-v1",
+      "section": "p2-dateline",
+      "result": "matches_image_under_declared_normalization"
+    },
+    {
+      "source_id": "lindsey-overnight-provenance-v1",
+      "section": "p18-overnight",
+      "result": "matches_image_under_declared_normalization"
+    },
+    {
+      "source_id": "reid-1868-regimental-posts-v1",
+      "section": "p286-saturday-night",
+      "result": "matches_image_under_declared_normalization"
+    }
+  ],
+  "images_inspected": [
+    {
+      "source_id": "reid1-provenance-title-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/reid1-provenance-title-facsimile-v1.png",
+      "sha256": "62406ad8a48850b12e039e636bfe9eb39b822c1543e7046ce9a138dd348b0a28",
+      "method": "view_image",
+      "scope": "whole supplied page visually inspected"
+    },
+    {
+      "source_id": "reid1-provenance-preface1-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/reid1-provenance-preface1-facsimile-v1.png",
+      "sha256": "fbd3d9841f1a01d800f601560e709418089d11617ad202a31a59b4c8895b1a40",
+      "method": "view_image",
+      "scope": "whole supplied page visually inspected"
+    },
+    {
+      "source_id": "reid1-provenance-preface2-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/reid1-provenance-preface2-facsimile-v1.png",
+      "sha256": "ce82026f477cec9d93db7ee92f501cea7337bc75873bf8abb51b3a80e2447ade",
+      "method": "view_image",
+      "scope": "whole supplied page visually inspected"
+    },
+    {
+      "source_id": "reid2-provenance-p287-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/reid2-provenance-p287-facsimile-v1.png",
+      "sha256": "8ccfba85de04ce57a5d1d65285018a13b92941f3b47cce31ab88b4502acbe4a2",
+      "method": "view_image",
+      "scope": "whole supplied page visually inspected"
+    },
+    {
+      "source_id": "reid2-provenance-p288-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/reid2-provenance-p288-facsimile-v1.png",
+      "sha256": "ff67cd61097ac3f1d71b02593a0cabb7a5a64b9ec9d648f87a32b7de52ea3f23",
+      "method": "view_image",
+      "scope": "whole supplied page visually inspected"
+    },
+    {
+      "source_id": "reid2-provenance-p289-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/reid2-provenance-p289-facsimile-v1.png",
+      "sha256": "319f5410d83e1d9c6ed4d7fde86f470d5b6e461a68388acb693b073e53b5956c",
+      "method": "view_image",
+      "scope": "whole supplied page visually inspected"
+    },
+    {
+      "source_id": "lindsey-provenance-title-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/lindsey-provenance-title-facsimile-v1.png",
+      "sha256": "0ca871d3b70e81d667d16b3ac18110ca6955610505538812b17ce232219658e3",
+      "method": "view_image",
+      "scope": "whole supplied page visually inspected"
+    },
+    {
+      "source_id": "lindsey-provenance-copyright-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/lindsey-provenance-copyright-facsimile-v1.png",
+      "sha256": "37da94d59b83b90a7a95412872b68a462898ad9281184bc46ef18a862d61b7ce",
+      "method": "view_image",
+      "scope": "whole supplied page visually inspected"
+    },
+    {
+      "source_id": "lindsey-provenance-p18-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/lindsey-provenance-p18-facsimile-v1.png",
+      "sha256": "7dfe4b69c64a29bcc496787deecca0972f277c71ea563277356315bfe26b3630",
+      "method": "view_image",
+      "scope": "whole supplied page visually inspected"
+    },
+    {
+      "source_id": "reid-posts-p286-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/reid-posts-p286-facsimile-v1.png",
+      "sha256": "e129ef7ce5326c48b6ae0041e232dc782b5137dcdfe6b71fc117a8e53bad8b66",
+      "method": "view_image",
+      "scope": "whole supplied page visually inspected"
+    }
+  ],
+  "source_bindings_inspected": [
+    {
+      "source_id": "reid1-provenance-title-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/reid1-provenance-title-facsimile-v1.png",
+      "raw_sha256": "62406ad8a48850b12e039e636bfe9eb39b822c1543e7046ce9a138dd348b0a28",
+      "source_metadata_sha256": "395711d381b86d62202eb7e5321867e4f2869e14c5ff547414be50012c67be3e",
+      "parent_sha256": "538b59ebe96f77c82aa9b1f1b51ab4b186a7933c9a9aa71c5cb67d3023789fe1"
+    },
+    {
+      "source_id": "reid1-provenance-preface1-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/reid1-provenance-preface1-facsimile-v1.png",
+      "raw_sha256": "fbd3d9841f1a01d800f601560e709418089d11617ad202a31a59b4c8895b1a40",
+      "source_metadata_sha256": "73d346b68caaf751fb6c13098e51bd1c505a2712a779f67c222507268c5880bd",
+      "parent_sha256": "538b59ebe96f77c82aa9b1f1b51ab4b186a7933c9a9aa71c5cb67d3023789fe1"
+    },
+    {
+      "source_id": "reid1-provenance-preface2-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/reid1-provenance-preface2-facsimile-v1.png",
+      "raw_sha256": "ce82026f477cec9d93db7ee92f501cea7337bc75873bf8abb51b3a80e2447ade",
+      "source_metadata_sha256": "edac2213a4ae5d940d2c2777afc77c78470dbeab5e21830cf5dfe98e1a18bbc8",
+      "parent_sha256": "538b59ebe96f77c82aa9b1f1b51ab4b186a7933c9a9aa71c5cb67d3023789fe1"
+    },
+    {
+      "source_id": "reid2-provenance-p287-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/reid2-provenance-p287-facsimile-v1.png",
+      "raw_sha256": "8ccfba85de04ce57a5d1d65285018a13b92941f3b47cce31ab88b4502acbe4a2",
+      "source_metadata_sha256": "9ace7aebc74f3789d99ffddc1db4ac0982b637d68831d80626535308f2276635",
+      "parent_sha256": "b84a0e6f135b00d3646b77978bd6dcadc03ad86106fa612e29b6369d8d91047b"
+    },
+    {
+      "source_id": "reid2-provenance-p288-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/reid2-provenance-p288-facsimile-v1.png",
+      "raw_sha256": "ff67cd61097ac3f1d71b02593a0cabb7a5a64b9ec9d648f87a32b7de52ea3f23",
+      "source_metadata_sha256": "1769073be84fb7438a6cf454c50fc4b6bea73e6a503db81694c26a491fe2cd00",
+      "parent_sha256": "b84a0e6f135b00d3646b77978bd6dcadc03ad86106fa612e29b6369d8d91047b"
+    },
+    {
+      "source_id": "reid2-provenance-p289-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/reid2-provenance-p289-facsimile-v1.png",
+      "raw_sha256": "319f5410d83e1d9c6ed4d7fde86f470d5b6e461a68388acb693b073e53b5956c",
+      "source_metadata_sha256": "80f463e1ce70421f418178eff60bd3e1dcd29ab0e4c5e0d0842605774df31845",
+      "parent_sha256": "b84a0e6f135b00d3646b77978bd6dcadc03ad86106fa612e29b6369d8d91047b"
+    },
+    {
+      "source_id": "lindsey-provenance-title-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/lindsey-provenance-title-facsimile-v1.png",
+      "raw_sha256": "0ca871d3b70e81d667d16b3ac18110ca6955610505538812b17ce232219658e3",
+      "source_metadata_sha256": "a52542ade8b4d89c4a6601b9e0bf0bb6096b3a37a739f97247c684fc24413e09",
+      "parent_sha256": "82aa727bcf7ff043740222b45cd2811b3b79ba6f3e5b2761c4bb8b5bbdfbd39b"
+    },
+    {
+      "source_id": "lindsey-provenance-copyright-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/lindsey-provenance-copyright-facsimile-v1.png",
+      "raw_sha256": "37da94d59b83b90a7a95412872b68a462898ad9281184bc46ef18a862d61b7ce",
+      "source_metadata_sha256": "4b8a756ce708c0e723dcfa77c42268333aa1c86ae7cf1c83ba07d80a1cdfa695",
+      "parent_sha256": "82aa727bcf7ff043740222b45cd2811b3b79ba6f3e5b2761c4bb8b5bbdfbd39b"
+    },
+    {
+      "source_id": "lindsey-provenance-p18-facsimile-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/lindsey-provenance-p18-facsimile-v1.png",
+      "raw_sha256": "7dfe4b69c64a29bcc496787deecca0972f277c71ea563277356315bfe26b3630",
+      "source_metadata_sha256": "820327f4c353d5330b4f6437a84fae42f80c6bb183d747ca0770187af4929260",
+      "parent_sha256": "82aa727bcf7ff043740222b45cd2811b3b79ba6f3e5b2761c4bb8b5bbdfbd39b"
+    },
+    {
+      "source_id": "reid-preface-provenance-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/reid-preface-provenance-v1.txt",
+      "raw_sha256": "b528e6d141799c0212a92466098c00953a28faeeb322deda7531c2c5350b68ad",
+      "source_metadata_sha256": "c9ae2e08ba184c9bb3e5da12236eca30e282666d3a711c4eb0bf91eee012e54b",
+      "parent_sha256": "538b59ebe96f77c82aa9b1f1b51ab4b186a7933c9a9aa71c5cb67d3023789fe1"
+    },
+    {
+      "source_id": "lindsey-overnight-provenance-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/lindsey-overnight-provenance-v1.txt",
+      "raw_sha256": "97eb55c52e832021205ca581de3b4e752adbd74d1e3f0ba2c4e949f070353b50",
+      "source_metadata_sha256": "794275a9aae05b1f94f99bb96999c339698bde9ec60d40389e8668a15e44768b",
+      "parent_sha256": "82aa727bcf7ff043740222b45cd2811b3b79ba6f3e5b2761c4bb8b5bbdfbd39b"
+    },
+    {
+      "source_id": "loc-reid-guide-extract-v1",
+      "path": "data/raw/shiloh/reid-provenance-v1/loc-selected-response-v1.json",
+      "raw_sha256": "8b762feda019e8fb4873163dad1eb22b26a7f6c20d664d18adde6aa1f8ac4f72",
+      "source_metadata_sha256": "21f2953925bb898f611d630d86a4873213db95fbfe695415e4fefb5e1083564f",
+      "parent_sha256": null
+    },
+    {
+      "source_id": "reid-1868-regimental-posts-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/reid-1868-regimental-posts-v1.txt",
+      "raw_sha256": "cbe03eefb5730af193b4ea800472e8daf7ab19467d865125344e4a777c89cfbc",
+      "source_metadata_sha256": "d5bb6ef5c1d326b12aefbdaf0f1b717b0dc6fbfa376b76533528d74da43129f2",
+      "parent_sha256": "b84a0e6f135b00d3646b77978bd6dcadc03ad86106fa612e29b6369d8d91047b"
+    },
+    {
+      "source_id": "reid-posts-p286-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/reid-posts-p286-facsimile-v1.png",
+      "raw_sha256": "e129ef7ce5326c48b6ae0041e232dc782b5137dcdfe6b71fc117a8e53bad8b66",
+      "source_metadata_sha256": "0552bf7024e45eefda7891315727d9c744e153f569d7389576ea05637b916eb4",
+      "parent_sha256": "b84a0e6f135b00d3646b77978bd6dcadc03ad86106fa612e29b6369d8d91047b"
+    }
+  ],
+  "assertion_results": [
+    {
+      "id": "RV01",
+      "verdict": "accepted_with_stated_limits",
+      "anchors_inspected": 3,
+      "basis": "Reid preface p.1 identifies Moore and describes publisher collection and author comparison/correction. This is authorial self-description, not independently verified practice or a named informant for II p.286."
+    },
+    {
+      "id": "RV02",
+      "verdict": "accepted_with_stated_limits",
+      "anchors_inspected": 2,
+      "basis": "Reid preface p.2 credits Miller for editorial assistance and indexes and bears the December 24, 1867 dateline. Title bears 1868. Neither dates nor authors the underlying overnight account."
+    },
+    {
+      "id": "RV03",
+      "verdict": "accepted_with_stated_limits",
+      "anchors_inspected": 1,
+      "basis": "All four complete supplied Reid narrative pages, pp.286–289, and preface pp.1–2 were inspected. No contributor credit or source footnote identifies the source for the overnight passage. Named actors are not automatically informants."
+    },
+    {
+      "id": "RV04",
+      "verdict": "accepted_with_stated_limits",
+      "anchors_inspected": 2,
+      "basis": "Both page images confirm the close wording parallel and small differences. Lindsey title and copyright verso were inspected. Neither copying nor independent corroboration, original witness, same-post identity or continuous weapons fire is established."
+    },
+    {
+      "id": "RV05",
+      "verdict": "accepted_at_retained_catalog_text_level",
+      "anchors_inspected": 3,
+      "basis": "Retained text supports the box/reel locations and book-copy description. It does not verify manuscript contents or linkage of interviews to the book. RV-C1 and RV-C2 concern description/pagination precision outside the substantive box/reel assertion."
+    }
+  ],
+  "validation": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 make check",
+      "exit_code": 0,
+      "tests": 82,
+      "repository_check_passed": true,
+      "artifacts_written": false
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 design/shiloh-reid-provenance-v1/reference-audit.py",
+      "exit_code": 0,
+      "result": "passed"
+    },
+    {
+      "method": "Reviewer-written read-only Python comparison of current bytes and canonical metadata digests with git show at preservation base and prepared commit",
+      "exit_code": 0,
+      "result": "152 prior entries, 149 prior raw paths, 126 protected files and 12 additions all verified"
+    },
+    {
+      "method": "Direct validate_proposal calls for both v1 and v2, plus dossier/baseline JSON inspection",
+      "exit_code": 0,
+      "result": "Coverage and unchanged results verified"
+    }
+  ],
+  "unchanged_results": {
+    "dossier_claims": 62,
+    "dossier_quantities": 40,
+    "dossier_events": 26,
+    "frame_engagements": 127,
+    "frame_campaigns": 36,
+    "baseline_engagements": 23,
+    "baseline_campaigns": 13,
+    "baseline_sha256": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "baseline_brier": 0.2768816348133779,
+    "equal_odds_brier": 0.25,
+    "admission_v1_statuses": {
+      "blocked": 18,
+      "excluded": 22
+    },
+    "admission_v2_statuses": {
+      "blocked": 7,
+      "excluded": 33
+    },
+    "complete_candidate_engagements": 0,
+    "emitted_rows": 0,
+    "promoted_rows": 0,
+    "historical_features_admitted": 0
+  },
+  "historical_unknowns_preserved": {
+    "original_contributor": null,
+    "original_statement": null,
+    "particular_interview_date": null,
+    "direct_reid_to_lindsey_transmission": null,
+    "independent_overnight_corroboration": null,
+    "same_post_match": null,
+    "continuity_into_sunday": null,
+    "earliest_qualifying_contact": null,
+    "exact_timestamp": null,
+    "area": null,
+    "members_by_side": {
+      "US": null,
+      "CS": null
+    }
+  },
+  "limitations": [
+    "Separate AI analysis, not human historical adjudication, source-independence proof, source-truth proof or feature admission.",
+    "Parent PDFs were not independently rendered by this reviewer; visual checks used the ten hash-verified supplied images.",
+    "LOC inspection was limited to ten retained extraction lines. No PDF bytes, page facsimiles, correspondence index, manuscript, interview, letter or annotation were obtained.",
+    "The prior HTTP 403 access report was read, not independently reproduced. No network fetching occurred.",
+    "No whole-book Lindsey attribution search, unseen Reid archival search, original newspaper comparison or historical reconciliation was performed.",
+    "make reproduce and make packet were not executed in the shared checkout because only review outputs were writable; their prepared record was inspected, and make check exercised offline reproduction in its test fixture."
+  ],
+  "review_response_path": "artifacts/review-results/shiloh-reid-1c498e0-astra-xhigh-v1/review.md",
+  "review_response_sha256": "2fc97402613c29afd687b7c92800bdf433202fb94491f35c8b32735d8b2f5bb1",
+  "reviewer_written_files": [
+    "artifacts/review-results/shiloh-reid-1c498e0-astra-xhigh-v1/review.md",
+    "artifacts/review-results/shiloh-reid-1c498e0-astra-xhigh-v1/review-result.json"
+  ]
+}
