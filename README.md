@@ -128,6 +128,12 @@ phase limits. The separate Astra `xhigh` review found two literal transcription
 errors, now [corrected in new source versions](docs/research/shiloh-contact-location-corrections-v1.md)
 with primary verification. The dossier and model inputs remain unchanged.
 
+The [April 3–5 contact-chain audit](docs/research/shiloh-precontact-segmentation-v1.md)
+recommends April 3–4 as precursor encounters under an explicit continuity rule.
+The Saturday Howell link remains unresolved; no complete opening boundary or
+new feature is admitted. Ten assertions bind 24 passages across 19 inspected pages.
+The packet is prepared for separate Astra `xhigh` review.
+
 Then define a campaign replacement boundary and outcomes before fitting enriched
 models. Battle execution and campaign contribution are separate estimands; adding
 them together would double count. Partial pooling, opponent/army context,

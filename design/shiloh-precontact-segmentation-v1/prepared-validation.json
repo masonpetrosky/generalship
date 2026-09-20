@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-20",
+  "status": "passed_prepared_for_review",
+  "commands": [
+    {
+      "command": "make check",
+      "exit_code": 0
+    },
+    {
+      "command": "make reproduce",
+      "exit_code": 0
+    },
+    {
+      "command": "make packet",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 design/shiloh-precontact-segmentation-v1/reference-audit.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 design/shiloh-contact-location-v1/reference-audit.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 design/shiloh-contact-location-corrections-v1/reference-audit.py",
+      "exit_code": 0
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "tests_passed": 82,
+  "generated_report_inspected": true,
+  "prepared_packet_inspected": true,
+  "frame_engagements": 127,
+  "frame_campaigns": 36,
+  "baseline_engagements": 23,
+  "baseline_groups": 13,
+  "brier": 0.2768816348133779,
+  "equal_odds_brier": 0.25,
+  "admission_v1": {
+    "blocked": 18,
+    "excluded": 22
+  },
+  "admission_v2": {
+    "blocked": 7,
+    "excluded": 33
+  },
+  "emitted_rows": 0,
+  "promoted_rows": 0,
+  "input_and_generated_sha256": {
+    "data/sources.json": "1b73c52f95dc8308b5ad3d3a9fef8759aaf7ac61286ea4ef2a4fd5ea881f9fd4",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "design/shiloh-precontact-segmentation-v1/research-record.json": "c654c55d678692590d5ac2223e92f8b110f9dafc05c0b9c8f6ac75da0f65cafe",
+    "design/shiloh-precontact-segmentation-v1/reference-audit.py": "f24a677dbf3725af460e0acd1a3cdcabdb49714fb066e3e1c79f726d2f9014bd",
+    "docs/research/shiloh-precontact-segmentation-v1.md": "14b4ff5ea9704254deba46ba1d785dc017871b11c8cc6e5d5eae7b81f2623dc7",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "artifacts/pilot-report.md": "e9f210a9265c9d34910e7c2b1b74a719585bea2573d5fdb2f6d4c09d0e4d902a",
+    "artifacts/research/TN003.md": "9c0c0a12bcf726b96bbd26cae528616337904025da5cafde0a00e2867e003863"
+  }
+}

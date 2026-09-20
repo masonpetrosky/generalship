@@ -92,8 +92,17 @@ because it has a second image, catalog record or transcription.
 The [separate review and literal correction addendum](research/shiloh-contact-location-corrections-v1.md)
 add `or-prentiss-opening-v2` and `loc-85690890-readings-v2`, preserving their v1
 records and images. Only `commander` → `commandant` and `Hornets` → `Hornet`
-change. The current registry has **87 entries / 84 raw paths**; the two versions
+change. The registry at that correction has **87 entries / 84 raw paths**; the two versions
 do not add witnesses, change dates or alter any historical assertion.
+
+The [precontact-segmentation packet](research/shiloh-precontact-segmentation-v1.md)
+adds nine selected text records and 15 page images, preserving all prior entries.
+The current registry has **111 entries / 108 raw paths**. Ten attributed assertions
+have 24 exact passage anchors; selected passages/context were visually inspected
+on 19 pages, reusing four scans. Hardee’s retrospective report is dated February 7,
+1863; Ricker’s uncertain printed date remains null. Contemporary orders, report
+claims and later editorial headings remain distinct. The working precursor rule
+is a research recommendation; the Saturday Howell link is unresolved.
 
 Prioritize original reports, contemporary orders and correspondence, then
 independently authored scholarship. Record competing estimates and account
