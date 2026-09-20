@@ -44,3 +44,12 @@ For evidence changes, also read `docs/evidence-contract.md` and `docs/sources.md
   Keep versioned review bundles and source records immutable. If the requested
   reviewer cannot run, report the concrete blocker rather than claiming review
   completion or silently selecting another model.
+
+## Commit and push cadence
+
+- Push coherent, validated work promptly after a completed change or a small
+  related batch of commits. The owner authorizes routine pushes to `origin/main`
+  for this repository without another confirmation. Follow an explicit later
+  override and retain the evidence, review and validation requirements above.
+- Use normal fast-forward pushes. Verify the remote commit after pushing and
+  report any work that remains local.
