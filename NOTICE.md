@@ -102,3 +102,6 @@ catalog snapshots. These retain their source attribution and are not relicensed 
 Original download links, parent hashes, page mappings, transformations and account
 dependencies are preserved in `data/sources.json`. None of these authors,
 institutions, or archive hosts endorses Generalship's interpretations.
+
+- Frank Moore, editor, *The Rebellion Record*, fourth volume (G. P. Putnam, 1864 inspected imprint), selected Cincinnati Gazette/Agate account text and whole-page facsimiles.
+- Ledyard Bill, compiler, *Pen-pictures of the War* (1864 inspected imprint), selected Reid-attributed text and whole-page facsimiles. Both historical publications are public domain; the original Gazette issue is not retained or verified.

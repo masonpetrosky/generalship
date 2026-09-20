@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-20",
+  "status": "passed",
+  "commands": [
+    {
+      "command": [
+        "make",
+        "check"
+      ],
+      "exit_code": 0,
+      "log_sha256": "448aa82aa9302a481e550211f33418a4a279253e043853b381f1f61820d0c373"
+    },
+    {
+      "command": [
+        "make",
+        "reproduce"
+      ],
+      "exit_code": 0,
+      "log_sha256": "aa59d8f324fa41d50cedadf04e85135e924a5c3a10f2b66b0e6eb47ad32d721c"
+    },
+    {
+      "command": [
+        "make",
+        "packet"
+      ],
+      "exit_code": 0,
+      "log_sha256": "45454fc53d930ff1aa898366faa3f4041f17e71dbaf873285b63d1475ac065ca"
+    },
+    {
+      "command": [
+        "python3",
+        "design/shiloh-agate-comparison-v1/reference-audit.py"
+      ],
+      "exit_code": 0,
+      "log_sha256": "c1971d72fe831eaf798f8d68649b82d9e33366cfc94697250e3b14f6d9ac86c3"
+    }
+  ],
+  "note": "Offline validation and binding checks, not historical adjudication."
+}
