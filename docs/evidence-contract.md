@@ -126,6 +126,14 @@ dossier reviewed never changes the baseline automatically.
 6. Build a separately reviewed feature-admission mapping tied to source/dossier
    hashes and a particular estimand before using any new evidence in a model.
 
+The owner authorizes a separate GPT-6 Astra `xhigh` reviewer subagent in the
+current task. Give it fresh context and an exact frozen evidence assignment;
+record its actual response, task identity, model/effort, date, input hashes and
+coverage. The primary agent checks proposed corrections against sources before
+changing the dossier. A separate user-managed chat is optional. An AI review
+must remain labeled AI: it does not establish human historical adjudication,
+source independence or automatic feature admission. See [AGENTS.md](../AGENTS.md).
+
 The current pipeline **never promotes dossiers into baseline inputs**, even if a
 dossier is marked reviewed. The feature-admission mechanism does not exist yet.
 That deliberate boundary prevents draft interpretations from changing results.

@@ -33,8 +33,9 @@ Start now with independent historical/source-entailment review of the current
 packet, including an extraction sample and the proposed population distinctions.
 The [frozen review handoff](research/shiloh-review-handoff.md) now packages the
 sources, 26 page images, prompt and blank coverage template with `make review-bundle`.
-Send that bundle to the chosen reviewer and reconcile the actual returned findings;
-preparation is not completion of the independent review.
+Use a fresh-context GPT-6 Astra `xhigh` reviewer subagent under the standing
+[repository policy](../AGENTS.md), then reconcile the actual returned findings.
+A separate user-managed chat is optional; bundle preparation is not review completion.
 The crossing clocks, handbook's 600-person basis, mixed-date reconstruction and
 Reed's 7,553/7,552 discrepancy remain open. The earlier full omission mapping,
 ten-man comparison residual, and Michigan narrative/table and casualty-day
@@ -95,8 +96,9 @@ No battle/campaign double counting and no unqualified cross-era rankings.
 
 ## Deferred implementation choices
 
-No AI vendor/model policy or paid research automation has been selected. Evidence
-packets work with the user's chosen researcher and model. LangExtract or another
+Separate AI reviews use GPT-6 Astra at `xhigh` effort under the owner-set repository
+policy. Broader research authoring and paid automation policies remain undecided.
+Evidence packets also work with the user's chosen external researcher. LangExtract or another
 extraction library can be evaluated later against a measured source-alignment need.
 No web framework or hosting stack is selected before the evidence contract matures.
 Use local tests; no hosted workflow is configured.

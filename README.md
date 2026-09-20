@@ -87,7 +87,9 @@ campaign, retaining ordinary engagements and failures in the frame.
 
 The [self-contained review handoff](docs/research/shiloh-review-handoff.md) is ready
 for a separate reviewer: exact source files, 26 page images, a review prompt and
-a blank coverage template. The review itself remains pending.
+a blank coverage template. The default reviewer is a fresh-context GPT-6 Astra
+`xhigh` subagent in the same task, under [AGENTS.md](AGENTS.md); no manual chat
+handoff is required. Review execution and actual findings are recorded separately.
 
 Then define a campaign replacement boundary and outcomes before fitting enriched
 models. Battle execution and campaign contribution are separate estimands; adding

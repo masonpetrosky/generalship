@@ -4,18 +4,31 @@ Prepared 2026-09-20. **The review has not been performed.** This handoff package
 the draft at evidence commit `a42f06390651eea01d952a7cb7c329f410a6f9ab`; it does
 not revise evidence, record an independent review or admit model features.
 
-## Send to the reviewer
+## Run the separate review
 
-Run `make review-bundle`, then use a fresh review conversation:
+The owner-set repository policy uses a **GPT-6 Astra subagent with `xhigh`
+reasoning effort** (`gpt-6-astra`, `xhigh`). Start it with fresh context
+(`fork_turns: none`), the exact frozen bundle and a bounded review assignment.
+The agent can inspect the local archive and return the narrative and completed
+`review-result.json` in this task; a separate user-managed chat is not required.
+The primary agent verifies the returned findings before revising evidence.
+See [AGENTS.md](../../AGENTS.md) for the standing policy.
+
+The original bundle and its upload instructions remain immutable historical
+artifacts. For a subagent, fresh context and access to the extracted bundle
+satisfy those handoff instructions. Record the execution method in the dispatch
+receipt; keep the source hashes and review criteria unchanged.
+
+For a user-selected external or human reviewer, the manual route remains available:
 
 1. Attach [TN003-a42f063-v1.zip](../../artifacts/review/TN003-a42f063-v1/TN003-a42f063-v1.zip).
 2. Paste the full [review prompt](../../artifacts/review/TN003-a42f063-v1/PROMPT.md).
 3. Bring back the review narrative and completed `review-result.json`.
 
-The prompt is model-independent and can be used with the owner's chosen AI or
-human reviewer. A separate AI conversation supplies another analysis, not
-independent human historical adjudication or independent underlying sources.
-No model job, external message or paid service is started by this workflow.
+The prompt can also be used with the owner's chosen AI or human reviewer. A
+separate AI review supplies another analysis, not independent human historical
+adjudication or independent underlying sources. `make review-bundle` only packages
+files; it never starts a model job. Reviewer dispatch is a separate agent action.
 
 If the reviewer cannot open the ZIP, extract and provide its contents. The
 [text companion](../../artifacts/review/TN003-a42f063-v1/CONTEXT.md) includes the
