@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "review_id": "shiloh-agate-73e26d4-astra-xhigh-v1",
+  "reviewer_task_name": "/root/shiloh_agate_review",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "fork_turns": "none",
+  "date": "2026-09-20",
+  "input_commit": "73e26d4069d451be43b4595a85bb29bfb262fb13",
+  "preservation_base_commit": "798b5c5cc152ba6561b6f5565e5e623db1a31442",
+  "verdict": "historical_assertions_accepted_with_required_documentation_correction",
+  "historical_assertions_accepted": true,
+  "required_corrections": 1,
+  "blocking_historical_findings": 0,
+  "feature_admission_approved": false,
+  "input_sha256": {
+    "data/sources.json": "00bd70116a71bd1ca52f5ad93d599d4483b51a62cf866791ac0636f93e6254fe",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "data/admission/shiloh-opening-v2.json": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "README.md": "36d6d6922b74194a42dc05cdb7d4e7ab4d924a5d94294f4fbcc37c3e170f8a05",
+    "docs/roadmap.md": "5265eba09e9b79c33f8c4e97b4c5bb66ac7a893bd660c1e5c76bec7a05eaca42",
+    "docs/sources.md": "3474525ac24b0ca304faaae096ac8c0d11f086b2be756443e840639352e1ee28",
+    "NOTICE.md": "e35ff69855ed7eef7d84eaff2ec697efe151ddc409663f49179472e187cf6ec5",
+    "generalship/cli.py": "588befdf84053957077229219fcb1e4f15f86a0e09b1f1519973ad50e81ab1d7",
+    "artifacts/pilot-report.md": "c45e73e266d8b5d026ef4e7a4cc1398d10f8dc8a9edc5a06f66c62f61aaee598",
+    "docs/research/shiloh-agate-comparison-v1.md": "4b5efb2b18c60034903ab212a8f0db76bfffcb93b8ffd3d76efa8210d9083351",
+    "design/shiloh-agate-comparison-v1/reference-audit.py": "8d37d80a8e55a2c736c1cff5be251604d398346aec96231274f1a453e9a4a560",
+    "design/shiloh-agate-comparison-v1/search-log.json": "68f79287bde6119523703d7538e13d4228846caf2f5309a699058d9fb832cd90",
+    "design/shiloh-agate-comparison-v1/prepared-validation.json": "c9f5c558fe420f94f37732614ad08eedcbcb875085afec8d75a51c4fe8886ea8",
+    "design/shiloh-agate-comparison-v1/research-record.json": "ab8c10fe23d7f59cb0a57107cec52293bd0919fac181e3ec59ba37f20b91f8b5"
+  },
+  "additional_inspected_input_sha256": {
+    "AGENTS.md": "184d4b911ff2bb44b016e5b758bee05f1cd5c41b21e249215efd36d638f5e33f",
+    "docs/methodology.md": "34711aaf4a02c6fb2382ae2af725448f016e6fce197f4f3fc371d4f651fc5234",
+    "docs/evidence-contract.md": "e65ba11373cbce5214dd0ec01227ed7dea1625a7558ab77dbd7549115e11a8ad",
+    "artifacts/review-results/shiloh-agate-73e26d4-astra-xhigh-v1/assignment.md": "1cd17c3bf1c16c4d6c9007f19ad964aaeb84400f9a6d39a7427a2e0db2c9cfe8",
+    "artifacts/review-results/shiloh-agate-73e26d4-astra-xhigh-v1/dispatch.json": "c6b523ab3fb5c3eb19445013f2ec722321b7a440f0a37717d6ec794c85890498"
+  },
+  "actual_coverage": {
+    "assertions_reviewed": 5,
+    "assertions_total": 5,
+    "anchors_reviewed": 16,
+    "anchors_total": 16,
+    "source_section_pairs_reviewed": 12,
+    "source_section_pairs_total": 12,
+    "new_historical_text_sections_reviewed": 11,
+    "new_historical_text_sections_total": 11,
+    "reused_historical_text_sections_reviewed": 1,
+    "reused_historical_text_sections_total": 1,
+    "retained_images_viewed": 11,
+    "retained_images_total": 11,
+    "full_opening_pages_read": [
+      385,
+      386,
+      387,
+      388,
+      389
+    ],
+    "full_original_article_collated": false,
+    "original_newspaper_issue_inspected": false,
+    "prior_source_entries_preservation_checked": 164,
+    "prior_raw_paths_preservation_checked": 161,
+    "protected_files_preservation_checked": 141
+  },
+  "source_sections_inspected": [
+    {
+      "source_id": "bill-reid-dispatch-v1",
+      "section": "p258-heading",
+      "raw_sha256": "9d3b3d8f51ec0ede04c39b127db6ed99eca068f579e51039fe1ebbf0f30b0dd0",
+      "source_metadata_sha256": "13f4f7d406b60b72d28ace58a56feebea93d6c3ae8ed3e49059995c62f737b19",
+      "facsimile_source_ids": [
+        "bill-agate-p258-facsimile-v1"
+      ],
+      "literal_comparison": "matches_declared_normalization"
+    },
+    {
+      "source_id": "bill-reid-dispatch-v1",
+      "section": "p258-opening",
+      "raw_sha256": "9d3b3d8f51ec0ede04c39b127db6ed99eca068f579e51039fe1ebbf0f30b0dd0",
+      "source_metadata_sha256": "13f4f7d406b60b72d28ace58a56feebea93d6c3ae8ed3e49059995c62f737b19",
+      "facsimile_source_ids": [
+        "bill-agate-p258-facsimile-v1"
+      ],
+      "literal_comparison": "matches_declared_normalization"
+    },
+    {
+      "source_id": "bill-reid-dispatch-v1",
+      "section": "p258-warning",
+      "raw_sha256": "9d3b3d8f51ec0ede04c39b127db6ed99eca068f579e51039fe1ebbf0f30b0dd0",
+      "source_metadata_sha256": "13f4f7d406b60b72d28ace58a56feebea93d6c3ae8ed3e49059995c62f737b19",
+      "facsimile_source_ids": [
+        "bill-agate-p258-facsimile-v1"
+      ],
+      "literal_comparison": "matches_declared_normalization"
+    },
+    {
+      "source_id": "moore-agate-dispatch-v1",
+      "section": "p385-heading",
+      "raw_sha256": "69f66dd304415608134dbfab3b0a6fe76c0233a886b01fc26db2f50ad26221be",
+      "source_metadata_sha256": "ac6234ec31d6e421fecdd17890bd94628bff2e796984f77ad4f5517c7c18c428",
+      "facsimile_source_ids": [
+        "moore-agate-p385-facsimile-v1"
+      ],
+      "literal_comparison": "matches_declared_normalization"
+    },
+    {
+      "source_id": "moore-agate-dispatch-v1",
+      "section": "p385-opening",
+      "raw_sha256": "69f66dd304415608134dbfab3b0a6fe76c0233a886b01fc26db2f50ad26221be",
+      "source_metadata_sha256": "ac6234ec31d6e421fecdd17890bd94628bff2e796984f77ad4f5517c7c18c428",
+      "facsimile_source_ids": [
+        "moore-agate-p385-facsimile-v1"
+      ],
+      "literal_comparison": "matches_declared_normalization"
+    },
+    {
+      "source_id": "moore-agate-dispatch-v1",
+      "section": "p386-friday-saturday",
+      "raw_sha256": "69f66dd304415608134dbfab3b0a6fe76c0233a886b01fc26db2f50ad26221be",
+      "source_metadata_sha256": "ac6234ec31d6e421fecdd17890bd94628bff2e796984f77ad4f5517c7c18c428",
+      "facsimile_source_ids": [
+        "moore-agate-p386-facsimile-v1"
+      ],
+      "literal_comparison": "matches_declared_normalization"
+    },
+    {
+      "source_id": "moore-agate-dispatch-v1",
+      "section": "p386-method",
+      "raw_sha256": "69f66dd304415608134dbfab3b0a6fe76c0233a886b01fc26db2f50ad26221be",
+      "source_metadata_sha256": "ac6234ec31d6e421fecdd17890bd94628bff2e796984f77ad4f5517c7c18c428",
+      "facsimile_source_ids": [
+        "moore-agate-p386-facsimile-v1"
+      ],
+      "literal_comparison": "matches_declared_normalization"
+    },
+    {
+      "source_id": "moore-agate-dispatch-v1",
+      "section": "p386-warning",
+      "raw_sha256": "69f66dd304415608134dbfab3b0a6fe76c0233a886b01fc26db2f50ad26221be",
+      "source_metadata_sha256": "ac6234ec31d6e421fecdd17890bd94628bff2e796984f77ad4f5517c7c18c428",
+      "facsimile_source_ids": [
+        "moore-agate-p386-facsimile-v1"
+      ],
+      "literal_comparison": "matches_declared_normalization"
+    },
+    {
+      "source_id": "moore-agate-dispatch-v1",
+      "section": "p388-dawn",
+      "raw_sha256": "69f66dd304415608134dbfab3b0a6fe76c0233a886b01fc26db2f50ad26221be",
+      "source_metadata_sha256": "ac6234ec31d6e421fecdd17890bd94628bff2e796984f77ad4f5517c7c18c428",
+      "facsimile_source_ids": [
+        "moore-agate-p388-facsimile-v1"
+      ],
+      "literal_comparison": "matches_declared_normalization"
+    },
+    {
+      "source_id": "moore-agate-dispatch-v1",
+      "section": "p388-regiment",
+      "raw_sha256": "69f66dd304415608134dbfab3b0a6fe76c0233a886b01fc26db2f50ad26221be",
+      "source_metadata_sha256": "ac6234ec31d6e421fecdd17890bd94628bff2e796984f77ad4f5517c7c18c428",
+      "facsimile_source_ids": [
+        "moore-agate-p388-facsimile-v1"
+      ],
+      "literal_comparison": "matches_declared_normalization"
+    },
+    {
+      "source_id": "moore-agate-dispatch-v1",
+      "section": "p400-signature",
+      "raw_sha256": "69f66dd304415608134dbfab3b0a6fe76c0233a886b01fc26db2f50ad26221be",
+      "source_metadata_sha256": "ac6234ec31d6e421fecdd17890bd94628bff2e796984f77ad4f5517c7c18c428",
+      "facsimile_source_ids": [
+        "moore-agate-p400-facsimile-v1"
+      ],
+      "literal_comparison": "matches_declared_normalization"
+    },
+    {
+      "source_id": "reid-1868-regimental-posts-v1",
+      "section": "p286-saturday-night",
+      "raw_sha256": "cbe03eefb5730af193b4ea800472e8daf7ab19467d865125344e4a777c89cfbc",
+      "source_metadata_sha256": "d5bb6ef5c1d326b12aefbdaf0f1b717b0dc6fbfa376b76533528d74da43129f2",
+      "facsimile_source_ids": [
+        "reid-posts-p286-facsimile-v1"
+      ],
+      "literal_comparison": "matches_declared_normalization"
+    }
+  ],
+  "facsimiles_viewed": [
+    {
+      "source_id": "moore-agate-title-facsimile-v1",
+      "path": "data/raw/shiloh/agate-comparison-v1/moore-agate-title-facsimile-v1.png",
+      "sha256": "65041908fd60c3cdf1d99d611fa75e128af2da4b6176918e88ab205ca59ccaa7",
+      "metadata_sha256": "833d74778ab62ebd5d467569d0ec5ff701773716bc1c7a113c59006e7fcf59fb",
+      "method": "view_image",
+      "parent_render_independently_repeated": false
+    },
+    {
+      "source_id": "moore-agate-p385-facsimile-v1",
+      "path": "data/raw/shiloh/agate-comparison-v1/moore-agate-p385-facsimile-v1.png",
+      "sha256": "170e8f1008617ff3fa39697253810120559dda649d02f8081a47e80961e62597",
+      "metadata_sha256": "4cdf7888fbba0da47fbf5e5cebcc6a74479e09b5e4163da7f7a3a5bcd743bfea",
+      "method": "view_image",
+      "parent_render_independently_repeated": false
+    },
+    {
+      "source_id": "moore-agate-p386-facsimile-v1",
+      "path": "data/raw/shiloh/agate-comparison-v1/moore-agate-p386-facsimile-v1.png",
+      "sha256": "c139d82a7a97f5e9f11b955421c59288de1f4b1f292c005fba89a125b1354015",
+      "metadata_sha256": "1e9caf8e69f9c3b1044c893ad457079a69ac829bd5c1e1d645359cbb3552dc62",
+      "method": "view_image",
+      "parent_render_independently_repeated": false
+    },
+    {
+      "source_id": "moore-agate-p387-facsimile-v1",
+      "path": "data/raw/shiloh/agate-comparison-v1/moore-agate-p387-facsimile-v1.png",
+      "sha256": "bb2996bef3f9e778f67e3015f58633ab5855c94258c777eed606b42114232f47",
+      "metadata_sha256": "540d2aa67163b46254a8e5e57997f5cbc65b3b52cd590ff60255ddb9bd728e53",
+      "method": "view_image",
+      "parent_render_independently_repeated": false
+    },
+    {
+      "source_id": "moore-agate-p388-facsimile-v1",
+      "path": "data/raw/shiloh/agate-comparison-v1/moore-agate-p388-facsimile-v1.png",
+      "sha256": "190e239eb3e66910689155ae648903120ba6b67824fe2c6b29d5283cc0d1608f",
+      "metadata_sha256": "62cff0ea1470bf07f16ae584ead78598cae28574c1791b71d5f5941f1a339e8b",
+      "method": "view_image",
+      "parent_render_independently_repeated": false
+    },
+    {
+      "source_id": "moore-agate-p389-facsimile-v1",
+      "path": "data/raw/shiloh/agate-comparison-v1/moore-agate-p389-facsimile-v1.png",
+      "sha256": "c4057263e5520b17d1c53fec922042f68752c7b30e685a0436e75eca51bc1c49",
+      "metadata_sha256": "5c7bf2be409cca01cf17baa2c6b99d8f6dd2e4863309783e54c2a099bac2e839",
+      "method": "view_image",
+      "parent_render_independently_repeated": false
+    },
+    {
+      "source_id": "moore-agate-p400-facsimile-v1",
+      "path": "data/raw/shiloh/agate-comparison-v1/moore-agate-p400-facsimile-v1.png",
+      "sha256": "f428e7c0606390e1510ec06b21c89746eee8845f3f251ca7be6ecd1742a46823",
+      "metadata_sha256": "5e86b2d4c22966b57500db9095d497e2c33ac6e200577511ed7c329d6c094473",
+      "method": "view_image",
+      "parent_render_independently_repeated": false
+    },
+    {
+      "source_id": "bill-agate-title-facsimile-v1",
+      "path": "data/raw/shiloh/agate-comparison-v1/bill-agate-title-facsimile-v1.png",
+      "sha256": "de032a48f9992df6821fae5971449cd7783ea0ec79da3a5a647f5442afb2594a",
+      "metadata_sha256": "a2343234b57c3c90dea6fb88defc6d62c7ceabc274413792fbf9078fba141383",
+      "method": "view_image",
+      "parent_render_independently_repeated": false
+    },
+    {
+      "source_id": "bill-agate-copyright-facsimile-v1",
+      "path": "data/raw/shiloh/agate-comparison-v1/bill-agate-copyright-facsimile-v1.png",
+      "sha256": "bb828773a60df8cfea318d4a8709a1f8700c60ad23df590d01577a3260b931c7",
+      "metadata_sha256": "67001beb66b54baefcd63eb1e24c12f7edd537c12ef25e4307c0d1475a0467a1",
+      "method": "view_image",
+      "parent_render_independently_repeated": false
+    },
+    {
+      "source_id": "bill-agate-p258-facsimile-v1",
+      "path": "data/raw/shiloh/agate-comparison-v1/bill-agate-p258-facsimile-v1.png",
+      "sha256": "ade27e2602a91d7832291e9be91a70d8fa1befecd0eda668e868b453a8f054fa",
+      "metadata_sha256": "2847c282ad00c5cd3b82b612f27b4e556465101cedefd23ef331507c71ff449c",
+      "method": "view_image",
+      "parent_render_independently_repeated": false
+    },
+    {
+      "source_id": "reid-posts-p286-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/reid-posts-p286-facsimile-v1.png",
+      "sha256": "e129ef7ce5326c48b6ae0041e232dc782b5137dcdfe6b71fc117a8e53bad8b66",
+      "metadata_sha256": "0552bf7024e45eefda7891315727d9c744e153f569d7389576ea05637b916eb4",
+      "method": "view_image",
+      "parent_render_independently_repeated": false
+    }
+  ],
+  "assertion_results": [
+    {
+      "id": "AG01",
+      "verdict": "accepted_with_stated_limits",
+      "anchors_inspected": 5
+    },
+    {
+      "id": "AG02",
+      "verdict": "accepted_with_stated_limits",
+      "anchors_inspected": 2
+    },
+    {
+      "id": "AG03",
+      "verdict": "accepted_with_stated_limits",
+      "anchors_inspected": 1
+    },
+    {
+      "id": "AG04",
+      "verdict": "accepted_with_stated_limits",
+      "anchors_inspected": 4
+    },
+    {
+      "id": "AG05",
+      "verdict": "accepted_with_stated_limits",
+      "anchors_inspected": 4
+    }
+  ],
+  "findings": [
+    {
+      "id": "AGATE-R1",
+      "priority": "P2",
+      "category": "documentation_coverage_inventory",
+      "status": "open_pending_primary_verification",
+      "path": "docs/sources.md",
+      "line_start": 141,
+      "line_end": 143,
+      "title": "Separate the Reid and Agate source inventories",
+      "finding": "The Reid inventory paragraph now immediately follows Agate and can be read as Agate coverage: six sections, nine images and a LOC extraction JSON. Agate actually adds eleven historical text sections in two files and ten new images, with one reused Reid image.",
+      "evidence": [
+        "design/shiloh-agate-comparison-v1/research-record.json: coverage and new_sources",
+        "data/sources.json: twelve Agate source entries",
+        "git diff 798b5c5cc152ba6561b6f5565e5e623db1a31442..73e26d4069d451be43b4595a85bb29bfb262fb13 -- docs/sources.md"
+      ],
+      "exact_correction": "Move the old inventory paragraph immediately after Reid and change its opening to \"The twelve records added by the Reid provenance trace comprise\". Keep its existing counts and catalog-parent caveat. After Agate add: \"The Agate comparison adds twelve records: two selected book transcriptions containing eleven historical sections and ten whole-page images. One reused Reid page brings the inspected-image total to eleven.\"",
+      "source_or_model_changes_required": false
+    }
+  ],
+  "nonblocking_comments": [],
+  "checks": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 design/shiloh-agate-comparison-v1/reference-audit.py",
+      "exit_code": 0,
+      "result": "passed",
+      "coverage": {
+        "assertions": 5,
+        "passage_anchors": 16,
+        "source_locator_pairs": 12,
+        "new_source_entries": 12,
+        "new_text_sources": 2,
+        "new_text_sections": 11,
+        "new_page_images": 10,
+        "visually_inspected_pages": 11,
+        "prior_source_entries_preserved": 164,
+        "prior_raw_paths_preserved": 161,
+        "registry_entries": 176,
+        "raw_paths": 173,
+        "preserved_files": 141
+      }
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 make check",
+      "exit_code": 0,
+      "unit_tests_passed": 82,
+      "integrity_check_passed": true,
+      "artifacts_written": false
+    },
+    {
+      "command": "Independent read-only Python comparison using git show of the preservation base",
+      "exit_code": 0,
+      "prior_source_entries_checked": 164,
+      "prior_raw_paths_checked": 161,
+      "protected_files_checked": 141,
+      "all_matched": true
+    },
+    {
+      "command": "Read-only SHA-256 verification of dispatch inputs, before review and before writing outputs",
+      "exit_code": 0,
+      "input_hashes_matched": 17,
+      "input_commit_matched": true
+    }
+  ],
+  "actions_not_performed": [
+    "No network calls or new evidence",
+    "No Git mutations",
+    "No edits to sources, documentation, code or generated artifacts",
+    "No make reproduce or make packet execution by reviewer",
+    "No independent parent-PDF rerender",
+    "No visual collation of Moore pp.390-399 or full original dispatch",
+    "No original newspaper/manuscript inspection",
+    "No historical adjudication, independent-witness certification or feature promotion"
+  ],
+  "remaining_historical_unknowns": {
+    "original_newspaper_issue_inspected": false,
+    "original_publication_date": null,
+    "full_original_dispatch_fidelity": null,
+    "original_46th_contributor": null,
+    "dispatch_to_1868_transmission": null,
+    "independent_overnight_corroboration": null,
+    "same_post_match": null,
+    "continuity_into_sunday": null,
+    "earliest_qualifying_contact": null,
+    "exact_timestamp": null,
+    "area": null,
+    "members_by_side": {
+      "US": null,
+      "CS": null
+    }
+  },
+  "preserved_model_state": {
+    "shiloh_claims": 62,
+    "shiloh_quantities": 40,
+    "shiloh_events": 26,
+    "shiloh_unknown_claims": 3,
+    "pilot_engagements": 127,
+    "pilot_campaigns": 36,
+    "baseline_eligible_engagements": 23,
+    "baseline_eligible_campaigns": 13,
+    "strength_brier": 0.2768816348133779,
+    "equal_odds_brier": 0.25,
+    "admission_v1": {
+      "blocked": 18,
+      "excluded": 22
+    },
+    "admission_v2": {
+      "blocked": 7,
+      "excluded": 33
+    },
+    "complete_candidate_rows": 0,
+    "emitted_rows": 0,
+    "promoted_rows": 0
+  },
+  "review_md_sha256": "8bb8824def42c91d25701768c17dd0b6068afa8f9cb5df446ff1f88e355a0aa5",
+  "review_limit": "Separate AI source comparison and preservation verification within demonstrated coverage; not human historical adjudication or proof of independence."
+}

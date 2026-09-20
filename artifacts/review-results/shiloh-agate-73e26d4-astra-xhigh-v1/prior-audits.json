@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-20",
+  "status": "passed",
+  "audits": [
+    {
+      "command": [
+        "python3",
+        "design/shiloh-contact-location-corrections-v1/reference-audit.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "9431441ad7e9d6aede8f5aa38957f4e35aa916ff75f5fd1c365173571e5dc66e"
+    },
+    {
+      "command": [
+        "python3",
+        "design/shiloh-contact-location-v1/reference-audit.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "e79a74c7092abc6bd7d22ffe02d58efff58681f0ae7e55afe265cb527702c537"
+    },
+    {
+      "command": [
+        "python3",
+        "design/shiloh-howell-trace-v1/reference-audit.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "d7df829d309a7156eaa7e01c1df7616522a37911185739a24231aa89f3ba8cc3"
+    },
+    {
+      "command": [
+        "python3",
+        "design/shiloh-precontact-segmentation-corrections-v1/reference-audit.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "aa4a8ad41a1e234ffbaf35bd452e75f905694405f06c12fea042e32da4bedc03"
+    },
+    {
+      "command": [
+        "python3",
+        "design/shiloh-precontact-segmentation-v1/reference-audit.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "6aaefe116c628a45d98947fab5edf3745dbb2f42ae1bec697bf7fb22ec06646b"
+    },
+    {
+      "command": [
+        "python3",
+        "design/shiloh-regimental-posts-corrections-v1/reference-audit.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "18f1060b44880e71683982b0502ffa7fd41a7cefada8e7052b1e3309fc579c8a"
+    },
+    {
+      "command": [
+        "python3",
+        "design/shiloh-regimental-posts-v1/reference-audit.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "1f505c1a98f7c40499ca12686efd9f10da9d4459d652127c5a839b5e6007a505"
+    },
+    {
+      "command": [
+        "python3",
+        "design/shiloh-reid-provenance-v1/reference-audit.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "baf604c7b43fd43eb575412b3892cbb4d51877ed099c23c3175eb742551b57f8"
+    }
+  ],
+  "scope_note": "Additive-packet audits only. Original opening-boundary audit binds its old registry, so is not rerun against the expanded registry; unchanged admission ledgers are checked by the new audit."
+}

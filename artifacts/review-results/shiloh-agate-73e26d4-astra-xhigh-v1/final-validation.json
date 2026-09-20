@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-20",
+  "status": "passed",
+  "prepared_commit": "73e26d4069d451be43b4595a85bb29bfb262fb13",
+  "commands": [
+    {
+      "command": [
+        "make",
+        "check"
+      ],
+      "exit_code": 0,
+      "log_sha256": "428c52761958dcd096c88e96637fb0e53aaf18415fbbfe6da9d94438a6aee7fe"
+    },
+    {
+      "command": [
+        "make",
+        "reproduce"
+      ],
+      "exit_code": 0,
+      "log_sha256": "aa59d8f324fa41d50cedadf04e85135e924a5c3a10f2b66b0e6eb47ad32d721c"
+    },
+    {
+      "command": [
+        "make",
+        "packet"
+      ],
+      "exit_code": 0,
+      "log_sha256": "45454fc53d930ff1aa898366faa3f4041f17e71dbaf873285b63d1475ac065ca"
+    },
+    {
+      "command": [
+        "python3",
+        "design/shiloh-agate-comparison-v1/reference-audit.py"
+      ],
+      "exit_code": 0,
+      "log_sha256": "c1971d72fe831eaf798f8d68649b82d9e33366cfc94697250e3b14f6d9ac86c3"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "tests_passed": 82,
+  "review_responses_immutable": true,
+  "evidence_inputs_unchanged": {
+    "data/sources.json": "00bd70116a71bd1ca52f5ad93d599d4483b51a62cf866791ac0636f93e6254fe",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "data/admission/shiloh-opening-v2.json": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "docs/research/shiloh-agate-comparison-v1.md": "4b5efb2b18c60034903ab212a8f0db76bfffcb93b8ffd3d76efa8210d9083351",
+    "design/shiloh-agate-comparison-v1/reference-audit.py": "8d37d80a8e55a2c736c1cff5be251604d398346aec96231274f1a453e9a4a560",
+    "design/shiloh-agate-comparison-v1/search-log.json": "68f79287bde6119523703d7538e13d4228846caf2f5309a699058d9fb832cd90",
+    "design/shiloh-agate-comparison-v1/prepared-validation.json": "c9f5c558fe420f94f37732614ad08eedcbcb875085afec8d75a51c4fe8886ea8",
+    "design/shiloh-agate-comparison-v1/research-record.json": "ab8c10fe23d7f59cb0a57107cec52293bd0919fac181e3ec59ba37f20b91f8b5"
+  },
+  "final_summary_hashes": {
+    "README.md": "b66809e8be6a2a7af333893aa97db97b2d9c0c2d558dff71d31e9705c79b42b9",
+    "docs/sources.md": "21a643f75b2cb7c2f3cbdf8f70f4a6b6742856459e4007d76377ac3557ab905c",
+    "docs/roadmap.md": "5dd287315ab429c0b55c5fc8b964437852742d0580b2d6effc09d7541d4ea269",
+    "generalship/cli.py": "95be5061219d4f3fac8cd7d38d4988482ca617c4c9bcab4f488a533d78c8a9ad",
+    "artifacts/pilot-report.md": "fcee12208cea91cc28c53739e881ae2a65f21fcbcd7bf0cf0a0e5348146a9564"
+  },
+  "source_entries": 176,
+  "raw_paths": 173,
+  "promoted_rows": 0,
+  "generated_report_inspected": true,
+  "scope_note": "Documentation correction and review outcome; no historical evidence or feature changes."
+}
