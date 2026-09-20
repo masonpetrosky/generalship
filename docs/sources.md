@@ -111,12 +111,23 @@ replay with unchanged document dates and historical interpretation.
 
 The [Howell trace](research/shiloh-howell-trace-v1.md) adds seven selected text
 sources, 11 page images and three exact HTML snapshots, preserving all 112 prior
-entries. The current registry has **133 entries / 130 raw paths**. Four new book
+entries. That packet's registry has **133 entries / 130 raw paths**. Four new book
 transcriptions cover Medkirk's 1886 letter, Worthington's disputed testimony
 selections and undated Abstract, and Reed's GPO 1903 printing. Three modern web
 sources preserve one NPS plaque transcription and two NARA archival guides.
 Seven assertions have 14 anchors; 12 retained pages were visually inspected.
 No direct participant-to-Reed link or Saturday-to-Sunday continuity is established.
+
+The [regimental and post comparison](research/shiloh-regimental-posts-v1.md) adds
+five selected text sources (17 historical sections) and 13 whole-page facsimiles,
+preserving all 133 prior entries. The current registry has **151 entries / 148 raw
+paths**. Seven assertions bind 21 anchors / 19 source-section pairs; 16 retained
+pages were visually inspected including three reused pages. Reid's 1868 compilation,
+Lemmon's speech delivered in 1875, Worthington's undated appended trial allegations
+and additional 1872 excerpts, and Buell's retrospective map remain distinct source
+families with explicit dependencies. New excerpts from the same publication are
+not new witnesses. The overnight lead has no established Howell post match; no
+historical feature is admitted.
 
 Prioritize original reports, contemporary orders and correspondence, then
 independently authored scholarship. Record competing estimates and account

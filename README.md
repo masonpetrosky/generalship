@@ -141,12 +141,20 @@ The [Howell attribution trace](docs/research/shiloh-howell-trace-v1.md) now find
 Medkirk's retrospective Saturday account and disputed testimony selections in
 Worthington, and verifies Reed's clause in the 1903 printing. Seven assertions
 bind 14 passages across 12 inspected pages and three HTML sources. The source
-chain to Reed and Saturday-to-Sunday continuity remain unknown. Next compare
-the 46th/72d Ohio accounts and mapped house/farm/post identities.
+chain to Reed and Saturday-to-Sunday continuity remain unknown.
 
 Separate Astra `xhigh` [review and primary assessment](artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/primary-assessment.md)
 accepted the bounded Howell packet with no required corrections; historical
 provenance and continuity questions remain open.
+
+The [regimental and post comparison](docs/research/shiloh-regimental-posts-v1.md)
+adds Reid's report of overnight activity at an unnamed 46th Ohio picket line,
+Lemmon's 72d account, Worthington's post relationships and the map cited by Medkirk.
+The map depicts April 6–7 phases, not Saturday's post sequence. Seven assertions
+bind 21 anchors across 16 inspected pages; the registry has 151 entries / 148 raw
+paths. Post identity and continuity remain unresolved, with zero feature admission.
+Next trace the contributor or original evidence behind Reid II p.286's overnight
+narrative.
 
 Then define a campaign replacement boundary and outcomes before fitting enriched
 models. Battle execution and campaign contribution are separate estimands; adding

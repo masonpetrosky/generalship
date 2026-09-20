@@ -1,0 +1,779 @@
+{
+  "schema_version": 1,
+  "id": "shiloh-regimental-posts-v1",
+  "prepared_at": "2026-09-20",
+  "base_commit": "af5075a8a8c51ab35d049720297a260bdd6bd676",
+  "status": "prepared_for_separate_review",
+  "coverage": {
+    "assertions": 7,
+    "passage_anchors": 21,
+    "source_section_pairs": 19,
+    "new_source_entries": 18,
+    "new_text_sources": 5,
+    "new_text_sections": 17,
+    "new_page_images": 13,
+    "visually_inspected_pages": 16,
+    "prior_source_entries_preserved": 133,
+    "prior_raw_paths_preserved": 130,
+    "registry_entries": 151,
+    "raw_paths": 148,
+    "preserved_files": 109
+  },
+  "preserved_source_metadata_sha256": {
+    "arnold-cwsac-battles": "f064f58d50bd296d03aec91484cc143a618ece4390ee7f064f6fa0b56da98705",
+    "arnold-cwsac-forces": "f6d7e96644600b8c76a56a4752258e4c5b0d18ab96765b9f51f5be4a0a137119",
+    "arnold-cwsac-commanders": "918d207a0bdc24315f55e7b39e178c097f66ff847dd9c4c81b152d76e1e8989c",
+    "arnold-cwsac-campaigns": "2c1f14c1abe86744875d56b42dd8a3b0779ffece219cb1e49068e91b920f4d5a",
+    "nps-tn003": "49927e496d827518cab1c00ffaadbbee9cdaea2b40589b1319994ed5bc1f37b6",
+    "nps-md003": "1331f8be219e3e0bd8b5ccfe4acae06bd5371087cb9d880c294ed1d069067507",
+    "arnold-package-metadata": "d5e11343742abe55566014535a7d981bb513bbec6257e53248757c536db62d27",
+    "or-grant-shiloh-report": "f1d23336d0d84feff45ec0495d57c776d1ca6207c115a3aee5f5bea1b3c4f5a6",
+    "or-buell-shiloh-report": "b75a49ab49d250307c43716f60b54a566999728a7a204b60c92f96064500e5bd",
+    "or-beauregard-shiloh-report": "728ea565421f76379239861074184e28a0b8d99dad3b8a0143dec96fb4a64031",
+    "or-union-return-april4-5": "5ef68640ce37c0679271a16eb9ac629a97ea3204b3645773d1f8dc728360cd01",
+    "or-confederate-return": "86b7272ccadd5e1300cb8b07d8ab36fe9c57a81abe5143d5a27c2c63a7f3aea4",
+    "or-halleck-orders": "d07675d55a0164446108e40c7a82d24e6f57f823619604c6dbc07f754c3a58cd",
+    "force-1881-shiloh": "431038d19f755d2ad3298fc59ea8d2a32a79e924ee240d3f54cf6508a25430bc",
+    "gudmens-shiloh-handbook": "56e73adb77ae67b9bb0508d83f4738e980fe5ffa03cfabf35da06b009875cc2a",
+    "or-union-return-scan": "7e763b032f6d9708600f220371789184b7f9e92ffd95fd06b710f8c6497fbfa9",
+    "or-confederate-return-scan": "52681c4da00bfb45007bc1afc804d4f5927e429598e7b1a8b27807da4e146355",
+    "or-confederate-report-136-v1": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+    "or-confederate-report-136-v1-scan": "8a618677096f92aa910d3229328b13b9cadcd44ebb4ced014d0dc202122112d0",
+    "or-confederate-report-137-v1": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+    "or-confederate-report-137-v1-scan": "ed196ef1b40933887b39b606aca9d569d7499034c53f4cb71169bfda1160a2d1",
+    "or-wallace-availability-v1": "015f2a41d74e464a20b229eaa4872ab5857b8a30419ce12acb6cc1066f5c9fc2",
+    "or-prentiss-availability-v1": "821b9a840e535dc0302396c3cd4890fdca1e127663ac2661a591def406aa7e60",
+    "or-chambers-availability-v1": "a797c12a257eab850b82a9fd3ba9bffd624897253996d6f43b93c4e06d41992d",
+    "or-reid-availability-v1": "eaf8e57ab229cf0e02f6cfc87f0ce4e222ac2cbc9bac1e1befe875ca7476fe24",
+    "or-rousseau-michigan-v1": "bd97dc2473f9614eaf7f6a32651ce4c2a7961b0d061da2ec4124787495a1adfb",
+    "or-union-return-detail-v2": "e4edbe0a72da183b02271b51551cfd117cc975785dff588f7ad2665c2affd3ef",
+    "reed-1909-union-audit-v1": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+    "michigan-ag-1862-fifteenth-v1": "a41ee095208f5656169c275975d625a9783010b54844f422c00a7d371bf79648",
+    "reed-1909-union-p93-facsimile-v1": "e9bcf5f818013012c63623a6b38ac425caf88021e5897432c29da921d5c0f764",
+    "reed-1909-union-p96-facsimile-v1": "2dc1c4e0d1d9cf9ee7a033ce25f4822ce756c3244f3952ff4f22e753777da327",
+    "reed-1909-union-p97-facsimile-v1": "2fcd596bb626730aa5328b3115ff8343a4489d4ac1ec6f4378ed02e2ff455c63",
+    "reed-1909-union-p98-facsimile-v1": "923852343a3a946e174cdb3239b6aac9bb0e494a20aea2e5d81a882d1c548c47",
+    "or-nelson-reinforcements-v1": "c876b278fe77436c024dcc64b42749c734ca7cf47711099c4b5c4239b26f3e41",
+    "or-ammen-crossing-v1": "b1235b68630fba8e6616e0fe75ca53badb0e97f3cfe8cc0ce01d231adf418b8e",
+    "or-grose-crossing-v1": "8bf2f4cebe935a99c3f2993b1ced99fe2633b7b440a55ffa96f158c61fb4e65c",
+    "or-anderson-crossing-v1": "dc0c370bda750825ac31fc59e4e878b97594c818aaf4cb33eccf52180f9b28cc",
+    "or-jones-crossing-v1": "9050c30b754a5fad69bf37671eca10cbc5eb3d950d5382dc64e4d1c870e8218c",
+    "or-edward-mccook-crossing-v1": "c45d6d318ed3e659ae4991a8f139aba49ef9ab87b7ac7960aa25f3e3e969892e",
+    "or-crittenden-reinforcements-v1": "730f479129363ff7df8fc8745c1145f80ea39f99a3e6c50274810d21ef956877",
+    "or-alexander-mccook-reinforcements-v1": "f26ae86622ca89e259cd45f023dcb82f88215818c3699e162538894851b39286",
+    "or-wood-reinforcements-v1": "ae57043b5fc7bd62b15494d6d734d17e7035da45c16a7c27abe58acf87c52b43",
+    "or-garfield-reinforcements-v1": "cadcb09e541f34d3bfeb160c5f7ac0b8b71c4dbb01808f64e009188a3a857a93",
+    "or-buell-reinforcements-v2": "85b5535327e0147edb6a570942162e9d28e42b3a3644eaa7d903f1d4d75be02d",
+    "reed-1909-ohio-strength-v1": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+    "or-reinforcement-p326-facsimile-v1": "9940f19ab9baf2979e088a72dc1fac39838ee741249349bc17f79a44469dc5f6",
+    "or-reinforcement-p327-facsimile-v1": "72618d08c9e8859bf5dc16e4026dbbbb6000380a43543fdfeb5b98672cbb0bb7",
+    "reed-reinforcement-p100-facsimile-v1": "0b7337dd7b6afc70c3841e34087e4b499351b4b9ac189662b1ac835ba65793a6",
+    "reed-reinforcement-p101-facsimile-v1": "c0f85be3326e479bd24f539c25c1f0a5ac7e950148dacdda33a65315f4242397",
+    "reed-reinforcement-p102-facsimile-v1": "516a0994e0fa89b6356366fe857daf38f9da90cc51659b01fb0f625d8b7e250d",
+    "or-ammen-crossing-v2": "38a4a8686b632e5a49df4b3a129ec80d6060a2976d7ff352fee9c68c4c4cb23b",
+    "or-nelson-reinforcements-v2": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+    "or-union-return-detail-v3": "1075fbfb1317f1be5502bb3454c6943949ef84014696135b4bf4a3b0ff3d8b63",
+    "or-buckland-opening-v1": "628271b047a91bb204dc444bbb0767845876c3a89a96bc02775ab6dfb2443495",
+    "or-ricker-opening-v1": "1104127eb50aedaa70d4e20aee74f956e47011049a5b3189ac4c70c1dea3daea",
+    "or-prentiss-opening-v1": "7228b28984a94233b9f6d4b39c8dba2b947f49e12d284fa85e9517f7bdf733d8",
+    "or-quinn-opening-v1": "71f09d8bb69fb880e66dd10ce8c1b9980f45c5a2a4c0989a3e10bdd87999dfba",
+    "or-moore-opening-v1": "f8e36cc673510b72ce06f5304472d52c0485928285c3443330582220bad39797",
+    "or-woodyard-opening-v1": "7848eaf29ff28a28b87e18381edb9e5bba17e5f6812432634f82d31a0fad8f40",
+    "or-van-horn-opening-v1": "a9cecbfc4d1b3514fb5b3e2551f98489fc59971ff27b175ca409e724fe9b0745",
+    "or-allen-opening-v1": "257d991559316b3b351ec1f7b5ac402c6cba528caf52baf816c22741df833f70",
+    "or-hardcastle-opening-v1": "cd07e8da2bbfecbd9ea601eecb92ff04c51e5a7a4edfec1f223587fcd9b42232",
+    "reed-1909-opening-v1": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+    "or10-1-contact-p90-facsimile-v1": "707c52708c541c44e9ee0e9407501ae0ebe8bd8851e7e7d1583ac7fca508cd35",
+    "or10-1-contact-p91-facsimile-v1": "4e73704d1beae4a9fe985e99dcec5ab1cf2ec6b47b7b7e6c12658e43dd5cd7e4",
+    "or10-1-contact-p92-facsimile-v1": "15cf0629d48b94bfe5a79e11bbc18ff1a6fdf925ec51f1cced5027a555a0a4c1",
+    "or10-1-contact-p277-facsimile-v1": "bfc8e774fb04cce8300951a2814d11c749dc2470f76ab8b6812b1c37798f6cb3",
+    "or10-1-contact-p278-facsimile-v1": "01e37c2a00c5acb7db8e90e3e5352130bc766664b6bb3060f090d9055b5cd27d",
+    "or10-1-contact-p280-facsimile-v1": "0c7a188dc517a441da69ba7c5b390f03e8497d8d7c7335b3a066c630c7b04634",
+    "or10-1-contact-p282-facsimile-v1": "927f309b46b704749f84fd319ba01edbaedcea91bca9408c21e4bfc9765e3ec4",
+    "or10-1-contact-p283-facsimile-v1": "980189b3a80fd890a64fde2608e2b44f9a5529f65709f4917075c5053f15d06e",
+    "or10-1-contact-p284-facsimile-v1": "15c4b0b6d95f631813077a50786181e84aeb2fcf8946c2bff622d84ba34a2dbf",
+    "or10-1-contact-p285-facsimile-v1": "9e5acc6f3bf62cd09a3314c961d884dcbcfb49cbd8cb8a85e5c69f9125ecb47e",
+    "or10-1-contact-p602-facsimile-v1": "2adf543bd67b73a7c3143a380948b05dc2af5e934e26faa428bd7bd70d3ea851",
+    "or10-1-contact-p603-facsimile-v1": "87091b95275bc31d98bec426620ff013843e46ac547f20b1d7bf11b99a199102",
+    "reed-1909-contact-p13-facsimile-v1": "61b0a1a4f9f71aa9c2d2190327338cbbd4e4646ffe98a9d9c56e2079a4f4cf1c",
+    "reed-1909-contact-p59-facsimile-v1": "654642c98851232a633de9edf38eb346bf5d92e38513f9ce439095d85824a0b2",
+    "reed-1909-contact-p60-facsimile-v1": "28b1bfab20370e4fec6e5f8e44e0ba98f0898ae7c79874a77dd68ae71e5ae010",
+    "reed-1909-contact-p68-facsimile-v1": "d19b7319b778d0c5c34888eed52a94d9a2a889312b7e8065fc14de93de068964",
+    "loc-2006636339-catalog-v1": "0e23d624f9d20b85feb21eac7c1d0e41f9c564e1e1b7159ab7c8f817555329be",
+    "loc-2006636339-map-v1": "f426a856267f45b4268343e9adfb59a7ae61d0d71c4c1d9e8a8b54e05784fb89",
+    "loc-2006636339-readings-v1": "b86609d3b1ac81485bfe3766815592145377409b44fc7571d196ca1c20527076",
+    "loc-85690890-catalog-v1": "694352d5d97545f3ade25b48308f7a0d65cac0371f74d737c3411111a6fbd3bd",
+    "loc-85690890-map-v1": "9ef19acecbbba463076f5bd46a9447404bfbea34af29ab0059e105fafb18c819",
+    "loc-85690890-readings-v1": "2d063cfb49d37fe2d120002390fa0f4a4c3b3b6ec6b2b4085aa4f15891aad008",
+    "or-prentiss-opening-v2": "c98b684cd44bd1607c3226cd927d7955cfce245ed8b07183b47c68ed0c39aab6",
+    "loc-85690890-readings-v2": "185f23bde03dcfa56edd1004a118ca2ab8a2b5c9e82e304a77134b213c9b99ef",
+    "or10-1-precontact-p89-facsimile-v1": "b27ba592aab6fc65eac0864ef343ed949fa00d6c372dd7467a7e67e3e46905f1",
+    "or10-1-precontact-p93-facsimile-v1": "a85f41384448a7c853db7b7b4f39baf072cb074450c0f1ce36d06ee60d3029d4",
+    "or10-1-precontact-p566-facsimile-v1": "81af656008763057f475c0a4a3f11aabad986d78a0bc46db979b58405caba07f",
+    "or10-1-precontact-p567-facsimile-v1": "6079cad3f0fbe5703a3d84a60679705efd6b9203e3e3323c4cfc7f6b2a5d0e6e",
+    "or10-1-precontact-p568-facsimile-v1": "850d609c345ce2a7dde8f748b5d6d99a6cf68208908177c18a1837c5d9eca2bf",
+    "or10-1-precontact-p571-facsimile-v1": "1bf6b79624935585735d921c64a23a5f7f72d24a8fb0cc4d2e7b1c96ae0d14e7",
+    "or10-1-precontact-p590-facsimile-v1": "07792cecbb449dcfba8f16cfc81edf435a9a43993657efb911e866b46b349260",
+    "or10-1-precontact-p591-facsimile-v1": "4b9d70c731aa2bf11c21ddf60821c29b6bb74bfbf94f2b3175d7f11dce6273e2",
+    "or10-2-precontact-p93-facsimile-v1": "17c0d4a731411ba1d585b88281254d6e8bd588e6755098ef67b8fda1983c5962",
+    "or10-2-precontact-p94-facsimile-v1": "fd283beb79812d4219e0a3db830bcc503c165357e8f1afce64f1f7cc5338b3ef",
+    "or10-2-precontact-p387-facsimile-v1": "04a3f65b92dcf18bf83de9ffe3a8c0d9ed876c15e1a72df7535d5be227c68be3",
+    "or10-2-precontact-p388-facsimile-v1": "2cf15515beddbaf1762280157ca41a9a5d757ee368b67593b35069d9c24a39e0",
+    "or10-2-precontact-p390-facsimile-v1": "67da1704db41b6b984f72a6840b3a7b02b61435afbaab23d97b15d56794cd537",
+    "or10-2-precontact-p391-facsimile-v1": "ab866db37a020066b1a8a3dd142b270fbee485cdb34669afb65138eba726ffd5",
+    "or10-2-precontact-p392-facsimile-v1": "653c1ea129839a9106e602ee7cc9131a2e56e8f4c7b89ed50d8841dc5665fc3c",
+    "or-chalmers-craft-precontact-v1": "31c27cf70510e386048797726e2bef8c95bbff62fc5ba7923426bbbe82a7f863",
+    "or-sherman-april4-return-v1": "1451a45f3ece37430ad8f658b381a09efe6a8bbcf8afcd6d8765d327890e9642",
+    "or-buckland-ricker-return-v1": "554ad1c611bed8920dfd7bd727d3f8852e90d5f70febedf803bcfe8595259bce",
+    "or-hardee-april4-contact-v1": "acf4e7804578a76c87c5c8bb0889808b5365796fe270165575560a68fe39ec2d",
+    "or-april4-march-orders-v1": "97f36798f8bdbc1de97f0ead960e99db71b68297c4705020b90984e1a24db43d",
+    "or-april5-precontact-dispatches-v1": "ab79d5aece8e9d08bc2d320fc19dcba46a70414911a440cf23c0d27d67b0370a",
+    "or-hardee-1863-precontact-v1": "d859eefef03e3b0a0d72c7f7dc6b31177563c3465ca6f1272df1430100906fc1",
+    "or-wood-precontact-v1": "4d27fed3afce5165e99645391221f0ef6aa181fab2fa69e4192cc5a8f52f40cb",
+    "or-precontact-editorial-headings-v1": "fec7486b9725123526afee9f673e9aa6ded75ceb0ec3d71bf09a153c4c58722e",
+    "or-april4-march-orders-v2": "6cce7932604dc27b47066b6bf1134eb421d97f3054bea109c43d67409ea33bb5",
+    "medkirk-howell-title-facsimile-v1": "353b345a6d97909de031820b5ae4bac18b6ef89ccaa77446a37b74794b241c04",
+    "medkirk-howell-copyright-facsimile-v1": "cc2cad2945702dd0973b5a47615a95b2254cb452cf8345e6438b88cd8c6fb015",
+    "medkirk-howell-p537-facsimile-v1": "8762c404553230de65eed616888d8e918ac241af96c1615317e43bee5f3a1247",
+    "worthington-howell-title-facsimile-v1": "675f04460099269ddd12ba1537d45abec50871d01020a446c315b3ea524ca248",
+    "worthington-howell-p137-facsimile-v1": "b19a10eeb0f74e559fb4cfb0cc92d490d7b4920db817d74b904801a359ec0684",
+    "worthington-howell-p140-facsimile-v1": "8175ec36a14dc22f1f9f55b66a2b6322dba95701dfb69089735bf3e296de828e",
+    "reed-howell-title-facsimile-v1": "070d023d692565ffe3cab9277af24687425fa64e2212db13878c07d1ddf5ac95",
+    "reed-howell-p5-facsimile-v1": "bdfc3c5d055fac7cb08196d7740747a4371bffdbbe74f592c5e63dabc432120b",
+    "reed-howell-p68-facsimile-v1": "ed6a7a510da1d6a70e5ed1a496a7c40eafef80cf72953d1b89570c24d5d48202",
+    "abstract-howell-title-facsimile-v1": "6a54205c9433d6f58c3aa5c684218ded815861a4192a63dc3be4fd6e0c60e8d3",
+    "abstract-howell-p4-facsimile-v1": "d2fcc523a6876ab13fc88381b107e3509e3cbefacb24ea076ac5185650fad380",
+    "medkirk-1886-howell-v1": "7babe86552ad3d0fc1fdd7cb45e41c79ed3a56b2eb0e8d389715f5a71a1dd3d4",
+    "worthington-1872-howell-v1": "9088c2677b13e9575855af524e18028d4fe679da170c7382fae2bea7d2eb8ec3",
+    "reed-1903-howell-v1": "c04c93501f7ae05d74c4587f7b31c9f4c689931c0abd94e851321fe32cb3a32c",
+    "worthington-abstract-howell-v1": "738f5cc056728c175060366e9a824536cb9fe1e091d3a2ae206cc8941b8d81d7",
+    "nara-rg92-howell-html-v1": "d3f2ca8a37725991758ccc9167de59dcf2797c8b531b35a4f2189a9a6b6f1d39",
+    "nara-rg92-howell-v1": "b1e31a057782615b23681aceead6b395d92c42d2257d815c4b2a25a9351305b6",
+    "nara-rg79-howell-html-v1": "9db0eb0acd3dff6a3c2ec68febb4b4c73da59fb506404b334a28162a81dd12de",
+    "nara-rg79-howell-v1": "f2787c89c2e0fcaf1a55ab104481d7185a839f786ae97635ec8a534b3e8385ac",
+    "hardee-plaque-howell-html-v1": "c3bd829fc6e09e129aa7b30ce36a2b154d6257a2fa399ea667d2bb49f4a671ee",
+    "hardee-plaque-howell-v1": "1b99aa6679e02520aaaccaf1db07610bf85e5773a4e6b7023c2447fdb4fe1cb3"
+  },
+  "preserved_files": {
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/assignment.md": "be120f52784b469a06961ef0aef6ffcff3cbfd3d40520f91a0aa6d87eb0b7dc2",
+    "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/dispatch.json": "ab60196b5b181944e1091483910c83f64654c95bfffbe974af998357d72eaf1c",
+    "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/intake-validation.json": "d67db2fd085085f6a8f1e62613fc312de236ab76772d648d8677a6d58a19e447",
+    "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/primary-assessment.md": "0c8e1ece4d380e071c17cb7d79226463435c9f80bbcd6d0ac57ace261681070c",
+    "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review-result.json": "31f77766d967787ae9ca74e7098b8341a59285df9105c8bedbd7c2d0dde46fac",
+    "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review.md": "d7624f3d3a0b2e5eee42d756f63fdc69442e35f6a39ac8ec57b2dfd34c119fef",
+    "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/assignment.md": "4bc35a82f10304ccb875b3803eeb5cdddbcf0aa8ecb108faae5efebe1689342a",
+    "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/dispatch.json": "0a6e6d96b64704fe0981e689d545d36ce51d7fe1707fc679698349ebcd77098e",
+    "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/intake-validation.json": "df91e066af8c56bc4524197c9fa4d2d472468078fdd2f4215f60c40f1e38fd0f",
+    "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/primary-validation.json": "5402273a71b5efa1549060a96271390df97f74e7bf02727dad540ee627861c93",
+    "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/review-result.json": "b2080bb23756f374ff109ad35468aec3a4796ae917079b38f22316bdab8fca6d",
+    "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/review.md": "6a6b91c7fa43693e78751ea8568bd79f5c2fe81a8300213cd6b5ca48f6d5a9dd",
+    "artifacts/review-results/TN003-corrections-5e23790-followup-v1/assignment.md": "a8bd2a532cc777e7ff1138d75fecf2082669a31cbd291efb9851e8207ae9c3c7",
+    "artifacts/review-results/TN003-corrections-5e23790-followup-v1/dispatch.json": "3a5e8d656f5a2b3c9cc3ee4d8898719d56abb7ca3a77db8d2025a77b88b08175",
+    "artifacts/review-results/TN003-corrections-5e23790-followup-v1/final-validation.json": "ac9f4167ac1d2659d36fd4ea1605b309d0e0b88bb0ca3a7aa8d9efd1e92aba0c",
+    "artifacts/review-results/TN003-corrections-5e23790-followup-v1/intake-validation.json": "0e00cdf3e5d4819425ef357c5ba112eb72b1ea099e56801ad8c6d50d3f085a82",
+    "artifacts/review-results/TN003-corrections-5e23790-followup-v1/primary-assessment.md": "cbacddc3b38a8b28498ef346b3f746aabba4b813d94c191e7256c7e8906eb70c",
+    "artifacts/review-results/TN003-corrections-5e23790-followup-v1/review-result.json": "7a2fb681e38731c22549fc7825dd599df21cb739172d8fdc08318915bdc131f3",
+    "artifacts/review-results/TN003-corrections-5e23790-followup-v1/review.md": "c1f989be535057704e783889ff8eedc021e33b57705294d4ea0e616d6affb8ec",
+    "artifacts/review-results/admission-implementation-1264e21-followup-v1/dispatch.json": "68c0d3f4fba271e710dd63d2d0ca0cec26a93fcf501330d8939b858bd0b21aeb",
+    "artifacts/review-results/admission-implementation-1264e21-followup-v1/final-validation.json": "77252559647d6faac587850eabe71a568e3629474ca1d745ea66768677d001cf",
+    "artifacts/review-results/admission-implementation-1264e21-followup-v1/prepared-validation.json": "a60f21228f1a1bd74d47fd71a175624eadcd5cf0ade91a729d587882c94f72eb",
+    "artifacts/review-results/admission-implementation-1264e21-followup-v1/primary-assessment.md": "fe97f99fc7018c2c148d62496b340163a65f28a50cbd5607d421b62fbc8f6a04",
+    "artifacts/review-results/admission-implementation-1264e21-followup-v1/review-result.json": "2f985b8f827ae5520d0edc732a0881f8a78f99f9ae0d73ceafca10ac65372e59",
+    "artifacts/review-results/admission-implementation-1264e21-followup-v1/review.md": "a640b34292ba42e02a2d4e0c86f017115c64da1ab63e5da3c084dad5e336939c",
+    "artifacts/review-results/admission-implementation-7b41de1-astra-xhigh-v1/dispatch.json": "63e1959787e372def64cc79dee00c3c56725f84bb54bc00e97c31aea78932a74",
+    "artifacts/review-results/admission-implementation-7b41de1-astra-xhigh-v1/prepared-validation.json": "565ead9cf4aa3f0d39c0629aa64bbdda4e4758ff2fdc43fb1befe0a177f04d86",
+    "artifacts/review-results/admission-implementation-7b41de1-astra-xhigh-v1/primary-assessment.md": "dcb19566d69a800bca4771eab3db0ef8904a321a35a886d9c962857666b87263",
+    "artifacts/review-results/admission-implementation-7b41de1-astra-xhigh-v1/review-result.json": "b55cf1e38770de8a189ca7589bd3e9ec35568b260f583207b264cfe51079f7e8",
+    "artifacts/review-results/admission-implementation-7b41de1-astra-xhigh-v1/review.md": "75bee8d61c35fba33d780519f7a9499c7c700242ac7fd5f576d962ab8ad04493",
+    "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/dispatch.json": "33802fb464336ab1a7b79d53c848b9d830a2f284d83e467632dfaa4e78f704c1",
+    "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/final-validation.json": "b87b9073b4cec7885f41f33336a2b2bc485cadf41657036ccac9dc12b5b04134",
+    "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/prepared-validation.json": "ebdface931acb52196deb79dd9cc2f933007096e989c1cf0bbfe8ae36b86ba41",
+    "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/primary-assessment.md": "d4be1ad1dcf975057a04d3a23ae9a46a1ad01f9d4091ace153a335bf992fc549",
+    "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/reference-audit.py": "a41fdf7a8d068f67535024d605adfe57886fd67ce52b515611f6beee269fa884",
+    "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/review-result.json": "c1f1e67c0b53164d685c41f8f361dd3e352e730b6095eab851746fa415b8ca65",
+    "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/review.md": "e3f085f9284a7a63cf837218f10be39302da6c307bf223f47ca9da5769a8319e",
+    "artifacts/review-results/shiloh-contact-518d394-astra-xhigh-v1/dispatch.json": "e4dd7c949bc3a330bdbefe24b01680cd8b95e89e7f43caa335a190a578c43450",
+    "artifacts/review-results/shiloh-contact-518d394-astra-xhigh-v1/final-validation.json": "b1b231258ac97ce3b4ec826727a2ba0c5ebf3cd8c49df739e8668635f5ee823b",
+    "artifacts/review-results/shiloh-contact-518d394-astra-xhigh-v1/primary-assessment.md": "f34c191a2659b48ee7ae7edbc04415dee5287edbcd3daf30f68730e8b5381467",
+    "artifacts/review-results/shiloh-contact-518d394-astra-xhigh-v1/primary-preservation-check.json": "30d3737b4b2c5c686788f4f983ce1e7a55aa71e8a3ad8a1ae0f7ab578a2a512d",
+    "artifacts/review-results/shiloh-contact-518d394-astra-xhigh-v1/review-result.json": "8741a15216574a5a45266a28dc08c2dcd0bb2a73c31aa41d9394665ccd9b6a45",
+    "artifacts/review-results/shiloh-contact-518d394-astra-xhigh-v1/review.md": "72811a2a51e8b9e9691094864c986f65a0fa0cb16d7e78cf86073ce60180fb73",
+    "artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/assignment.md": "7df1442214f4b69dfd1a1e1a9e1a2bc12d81837900c6d886f8afffb76494e7fb",
+    "artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/dispatch.json": "d46686c4070833a630c8950853ffdc330dbc158f6dc884532b14f4424ebe8a3f",
+    "artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/final-validation.json": "2d9b32d7df0220842fcb1b39f5bb50a753c63554169ea9b775b413f3692a7404",
+    "artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/intake-validation.json": "cccef64c80fe075c09046cc3850dc8078b28913e49b977be9c610b4e618d8b48",
+    "artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/primary-assessment.md": "28c1103843f54c4b9130c40b3b10181051bca2ea4880b8e030711541b4039ccf",
+    "artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/primary-preservation-check.json": "f24160db89166c155f4310dada13d00bda7b63fc3efeb5837407e1a5bdd25e1d",
+    "artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/review-result.json": "874a97b2c096d232e2df5f4a23dad051716372827b5517fc4f7a4318813fbbaf",
+    "artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/review.md": "c9d10b35bcd09073062b75ede9ea125fe60d08e01480760b4447d3e63b9d37c0",
+    "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/dispatch.json": "f5d4d5fff4461f88e362f49287c5fc78065dd0380dd98be3c51be4ea3f7fd2dd",
+    "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/final-validation.json": "ac92f8f3a31736fe6ec4842fb0aea142f6a58f9f371004d2b1d806ca192acf90",
+    "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/primary-assessment.md": "50372d559be54c017e36acc90a673cd32595160739c51df14c1590c72e6b2abf",
+    "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/review-result.json": "89272baa83e2568dfa0461b401285a456d8490ab31ae4943145e8c923c92b92a",
+    "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/review.md": "a64021ebef3917d845aa795ffb970e14790363bb9bc2b53b3d6a17dc2b5419a2",
+    "artifacts/review-results/shiloh-precontact-327d222-astra-xhigh-v1/dispatch.json": "edb8b9bb4bfc7062122a8cefb0dea357bfbf5b729219f99251bb2d8ea276904b",
+    "artifacts/review-results/shiloh-precontact-327d222-astra-xhigh-v1/final-validation.json": "0b927ec097981828a8795264dcd5042328ce0d51cbc4f6562f51525946ab39fc",
+    "artifacts/review-results/shiloh-precontact-327d222-astra-xhigh-v1/primary-assessment.md": "aa5bfaa858a2ae4bc74dfdba833aeec15449ecc3b6c878d326204fb009525ac6",
+    "artifacts/review-results/shiloh-precontact-327d222-astra-xhigh-v1/primary-preservation-check.json": "2847f47f42fb022eca35a3261a88d32354f6136054f6daf9e377816a6654bcfe",
+    "artifacts/review-results/shiloh-precontact-327d222-astra-xhigh-v1/review-result.json": "ef97e46d5629b8f5f3d83d5dac6e34cdf21f0016343424871d1b131161d44e43",
+    "artifacts/review-results/shiloh-precontact-327d222-astra-xhigh-v1/review.md": "363d68921bdfaca319412be1460c8ea2ec4497f1cd6e6011880b14ac29c9cb2d",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "data/admission/shiloh-opening-v2.json": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52",
+    "data/admission/snapshots/feature-admission-v1.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99",
+    "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json": "d3f3a2b9f2e8e48726812e08bf925d7c0e60b8ff012a4b0d4cdc95581a5a884c",
+    "data/evidence/MD003.json": "3b9432c4c4cbe22a4778361ab17dc0645a3f594d735e286eea648d39d1d31bc7",
+    "data/evidence/MS009.json": "f1d093f11e998d1de083ecdbd0e15e178697a508dd84f1f042a527e61186c413",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/evidence/history/TN003.v1.json": "0a8674873a63dbb049cc49e955667dd9f32cbcaa05b2b4e63878950dc7db31d9",
+    "data/evidence/history/TN003.v2.json": "9e662b64c3448a0733d4b9f37d1ede4bcec7e99f59e8703600e3986f2c52cfed",
+    "data/evidence/history/TN003.v3.json": "b2da0882ed391a78b34b91382958ddcc5483ab34e908f2382fb36719adccafce",
+    "data/evidence/history/TN003.v4.json": "9ec051462243589cea1efa14ccdffc22cea7c55452483672b7e75acfa5d463dd",
+    "data/evidence/history/TN003.v5.json": "1107b7149f9aa3877478e003a01ae2383b5d0729a15d6a90106e427350d49780",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "design/feature-admission-v1/shiloh-examples.json": "397fb1b0d126b35e182071a50cc878270cf05be9e7ef524ee86e6f1cf40638f5",
+    "design/shiloh-contact-location-corrections-v1/reference-audit.py": "9273799c2e975a65ab52ab698910eff15d8a8890bf995d04300b32dc218ba6be",
+    "design/shiloh-contact-location-corrections-v1/source-corrections.json": "3d7e09611696dcb16cbba310cb33eec180d21156ce653991c6cf04ebb396a15e",
+    "design/shiloh-contact-location-v1/full-report-page-context-ocr.json": "5581ea9b19c83edccd518b2dd4b27a76b8608e0249783b884579d6227999be0a",
+    "design/shiloh-contact-location-v1/prepared-validation.json": "f3eb17b08ae847990b244601f2b47e463b6baa3c99789f3f7d802e05eae1bed6",
+    "design/shiloh-contact-location-v1/reference-audit.py": "1abc9193fe516a6f49de21f68e9a26871da81d8c56041a1696c66c33235525e5",
+    "design/shiloh-contact-location-v1/research-record.json": "225d791de6ccac0ac5835868d890e6ea76b75a560f1697c60aa5ce282b31a1ad",
+    "design/shiloh-howell-trace-v1/prepared-validation.json": "c99b7d7738408b403e61a68ec77cdf0e41619af6399a8dd0beb38b2269d250ec",
+    "design/shiloh-howell-trace-v1/reference-audit.py": "a0c90821547e5c09825abdd1a517531460d6230c84262ef8d2eca37b24f4b7e4",
+    "design/shiloh-howell-trace-v1/research-record.json": "787994b812cee915ebcfb7ff97d6040adf4a9cc4e8431ba46aa688aec75ffdf4",
+    "design/shiloh-howell-trace-v1/search-log.json": "cd29eae8cea989419a5465f60bf55dd88d489aa767493484567f0b0edf668713",
+    "design/shiloh-opening-boundary-v1/prepared-validation.json": "6d03767a74bfa7335542c55d84712df21f0be121c390b114e13534630519de8f",
+    "design/shiloh-opening-boundary-v1/reference-audit.py": "a3d683ab8328a6495defe50a1102098d39507ee471c440b9ea90e7f8f5412f9f",
+    "design/shiloh-opening-boundary-v1/research-record.json": "1d654ae0ffc571e12d0c3a95480518542d4bf54724a5c09eae16640be2ec181e",
+    "design/shiloh-precontact-segmentation-corrections-v1/reference-audit.py": "4982e70963e74ba2a277ad0552232df93d612bd60e57693cc1a3f881ddf733de",
+    "design/shiloh-precontact-segmentation-corrections-v1/source-corrections.json": "3b6e218755e961072d202487350b8a4d996f025b7ebe97fc5446c5b11a196740",
+    "design/shiloh-precontact-segmentation-v1/context-ocr.json": "a7a5a5bd8054b6203c134a732e06172f01c039749b13b0dba862e96d5fc4e2d7",
+    "design/shiloh-precontact-segmentation-v1/prepared-validation.json": "cda062c8593f281634833bdf979c027a5a6ec9ae735cc42bac2f47f1dcf3f911",
+    "design/shiloh-precontact-segmentation-v1/reference-audit.py": "f24a677dbf3725af460e0acd1a3cdcabdb49714fb066e3e1c79f726d2f9014bd",
+    "design/shiloh-precontact-segmentation-v1/research-record.json": "c654c55d678692590d5ac2223e92f8b110f9dafc05c0b9c8f6ac75da0f65cafe",
+    "docs/research/shiloh-admission-examples.md": "fc1a32a0ace7580d2782f3f0046a0dbb528e17286d33e2bc0adfe8bed6acaaff",
+    "docs/research/shiloh-confederate-returns.md": "4c5e03d4deb3546020301830d3e48f94c33ee3a4a33f969de3d255077184e736",
+    "docs/research/shiloh-contact-location-corrections-v1.md": "a0052169355991d7adeeea4848618569cf47a0909ed36604696f28f0cd12105c",
+    "docs/research/shiloh-contact-location-v1.md": "70d23ee3367312670741eb1771f016a8a4e9b25673d61921808aceb81087edbc",
+    "docs/research/shiloh-howell-trace-v1.md": "fd0dd63c4b3fb384baecf295cadd18c1bff9fef96981715039305f24e558cce0",
+    "docs/research/shiloh-ohio-reinforcements.md": "4822f05bdbc0119b43374be98a42d0d9fd1db199ecc537f1e4d3e8059dbf4847",
+    "docs/research/shiloh-opening-boundary-v1.md": "bf7cdb1692261cb166cecf45f918706d0277301c272a8bd3bb2a67f044efe82c",
+    "docs/research/shiloh-precontact-segmentation-corrections-v1.md": "6e4b91b813dfd4bf4453eae122f457e29a13696f6be11d7dd6e2544637962f5f",
+    "docs/research/shiloh-precontact-segmentation-v1.md": "14b4ff5ea9704254deba46ba1d785dc017871b11c8cc6e5d5eae7b81f2623dc7",
+    "docs/research/shiloh-review-corrections.md": "f95135b9d9457ce6a0fe8cba348cd8a4311724b278f0d483cc825e990377af0e",
+    "docs/research/shiloh-review-handoff.md": "f3e18cdedcc830dfd95906bea4e3bdfa18ce0fe8371597e865fbe64cea37fc96",
+    "docs/research/shiloh-union-availability.md": "2b32ccf247697d08a04e48e0b7572168cd011f962c0c0fcdf6c8b0a7c8c09e5f",
+    "docs/research/shiloh.md": "9fba798686d6c10ea975ca488440f41fca90f38e28b50beda2a59153710a62e5"
+  },
+  "new_sources": [
+    {
+      "source_id": "reid-posts-title-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/reid-posts-title-facsimile-v1.png",
+      "sha256": "1d36f993bd27442140d8a2ec3b3d772a1d0a96f964f8439fe20dbd9bdc7b0bdb",
+      "metadata_sha256": "0cf4fb4e6ccaa78ffce103939e339f94ed54d8e064eb004a7471374c51b34f6e"
+    },
+    {
+      "source_id": "reid-posts-p286-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/reid-posts-p286-facsimile-v1.png",
+      "sha256": "e129ef7ce5326c48b6ae0041e232dc782b5137dcdfe6b71fc117a8e53bad8b66",
+      "metadata_sha256": "0552bf7024e45eefda7891315727d9c744e153f569d7389576ea05637b916eb4"
+    },
+    {
+      "source_id": "reid-posts-p413-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/reid-posts-p413-facsimile-v1.png",
+      "sha256": "816b59339a95cd323aa4742a1aa8799946a3dd5d6a4253b3829f04dfe5a14d96",
+      "metadata_sha256": "4b079936f39fcad048de49af1dc4fe08512de84146d80edf3009a29dabf1c357"
+    },
+    {
+      "source_id": "lemmon-posts-heading-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/lemmon-posts-heading-facsimile-v1.png",
+      "sha256": "d3db97ac8df42fef03bdb1c97c76ef334e01858083fb249b5956be20256b6224",
+      "metadata_sha256": "26ba013c96171b69a88110c5dd965cdd0a4d01e7eb92d5b42acf4dc8d338a521"
+    },
+    {
+      "source_id": "lemmon-posts-p5-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/lemmon-posts-p5-facsimile-v1.png",
+      "sha256": "3a50838b3619538b27de33c7a4e49f46c1ece5ab9f6a7dac2824f523269eef2d",
+      "metadata_sha256": "e7d592b5783931302cf473ffc47899db2889bf7a81faedd980b5cedb59d48ad3"
+    },
+    {
+      "source_id": "lemmon-posts-p6-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/lemmon-posts-p6-facsimile-v1.png",
+      "sha256": "3fb64bc492f46162f5ece651ae2a235cee751f8cc4ceb94a3d0bc1d5712ba90a",
+      "metadata_sha256": "704eff8067e7b37de3d3137177563280f033780b09c9b633ed6eb1fea1a70a9d"
+    },
+    {
+      "source_id": "lemmon-posts-p7-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/lemmon-posts-p7-facsimile-v1.png",
+      "sha256": "191e68d708a534e066ce4656e62aa42d4c7375cda214ec3e0871ce39f109cfa9",
+      "metadata_sha256": "a1fcc24a7894821d5ca7afa1709efe3f2d1f4268105e9585b27faeaab3f67508"
+    },
+    {
+      "source_id": "worthington-posts-front-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/worthington-posts-front-facsimile-v1.png",
+      "sha256": "b52999a7b31c836093d690e06207d1cc1849efd8884b29701ae2e383a2a0cb73",
+      "metadata_sha256": "69aabe8142bc0f84cac9db6972d9a3152fe1c476d00f98a4f0fc15f94b5d9365"
+    },
+    {
+      "source_id": "worthington-posts-flank-title-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/worthington-posts-flank-title-facsimile-v1.png",
+      "sha256": "1095506965bedfecaeea8ca7748cbbc8f927b4521f5953921870f341476186c3",
+      "metadata_sha256": "b8c744f80a086dc65fa017375bbfe631372764c042da0ac47e8a8be37a1fc6c0"
+    },
+    {
+      "source_id": "worthington-posts-facts-heading-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/worthington-posts-facts-heading-facsimile-v1.png",
+      "sha256": "88ad922e8c4e8e3003329544029c99e6ce43d851e6c8fb4bc6af1d7043f82e9b",
+      "metadata_sha256": "13383a048ac19659332386b6d00a41fd018cd37cb3ec2c9ff274880856362328"
+    },
+    {
+      "source_id": "worthington-posts-facts-p2-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/worthington-posts-facts-p2-facsimile-v1.png",
+      "sha256": "cd99c8b9cc6511f5d71f24ddc2621c81659e25d99eef7133a949038a63800dee",
+      "metadata_sha256": "c3b30ba075e676e67f513d93bf48548d64d298bdca924f61bc8d3fa681ccaf08"
+    },
+    {
+      "source_id": "buell-posts-p502-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/buell-posts-p502-facsimile-v1.png",
+      "sha256": "694236a298a3dff38a3c229de851375e79e1cb1c13c1f509cea3c5f29b3a400e",
+      "metadata_sha256": "f3a1dbdbdcf4f6166564f1eb22343b32146113ff34cee584c3d71f6ecd6da2f1"
+    },
+    {
+      "source_id": "buell-posts-p503-facsimile-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/buell-posts-p503-facsimile-v1.png",
+      "sha256": "0e38e2000330132030e03fcd310b32a870255cad12973bb99fc8eeb1eaf5699d",
+      "metadata_sha256": "c0ab111cad1ee6696becc49bd159d3dfdc5628e22c88b347c15e9eca92f34079"
+    },
+    {
+      "source_id": "reid-1868-regimental-posts-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/reid-1868-regimental-posts-v1.txt",
+      "sha256": "cbe03eefb5730af193b4ea800472e8daf7ab19467d865125344e4a777c89cfbc",
+      "metadata_sha256": "d5bb6ef5c1d326b12aefbdaf0f1b717b0dc6fbfa376b76533528d74da43129f2"
+    },
+    {
+      "source_id": "lemmon-1875-regimental-posts-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/lemmon-1875-regimental-posts-v1.txt",
+      "sha256": "7e08556697f872df6b690885ad2c9e0bc4931854040410bf7e1bd4a6ab95fbf5",
+      "metadata_sha256": "49ac9e04d6eb1873585a62208a8d4b77521fe0b62eab02aec7ca4b226705ae77"
+    },
+    {
+      "source_id": "worthington-facts-posts-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/worthington-facts-posts-v1.txt",
+      "sha256": "a3f1d5f55b2f27b7b941bcbd3e46821a6d8bb2e05ddb9befb029a4cac1daa08a",
+      "metadata_sha256": "71741c4aa58886fadb0fa9954b3bb184e7599b676525adaba66fd62fbf2f8ad0"
+    },
+    {
+      "source_id": "worthington-1872-post-locations-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/worthington-1872-post-locations-v1.txt",
+      "sha256": "1f6336458d5026e26b7145de6210ee26bf7462e35e049d26d82f6fb132ff9fb7",
+      "metadata_sha256": "b686f48ef8ac54557fddaadeec77e24f1a2bba8b9d11d3ebd607012ca1e88cc3"
+    },
+    {
+      "source_id": "buell-battles-leaders-map-posts-v1",
+      "path": "data/raw/shiloh/regimental-posts-v1/buell-battles-leaders-map-posts-v1.txt",
+      "sha256": "2add17ef1ae7f7e9a0e7cd849735e69c3ceb1c15525af7902d0f1beb998d3fca",
+      "metadata_sha256": "055dde66399a34f36169e6d918936ee9b4b776506f03ca21681459078560504c"
+    }
+  ],
+  "search_log": {
+    "path": "design/shiloh-regimental-posts-v1/search-log.json",
+    "sha256": "b7ff91ea9f7aa9b1c6c6199b3e0f530dc9855820093c20c4548b66bf7ff86500"
+  },
+  "visually_inspected_facsimile_ids": [
+    "reid-posts-title-facsimile-v1",
+    "reid-posts-p286-facsimile-v1",
+    "reid-posts-p413-facsimile-v1",
+    "lemmon-posts-heading-facsimile-v1",
+    "lemmon-posts-p5-facsimile-v1",
+    "lemmon-posts-p6-facsimile-v1",
+    "lemmon-posts-p7-facsimile-v1",
+    "worthington-posts-front-facsimile-v1",
+    "worthington-posts-flank-title-facsimile-v1",
+    "worthington-posts-facts-heading-facsimile-v1",
+    "worthington-posts-facts-p2-facsimile-v1",
+    "buell-posts-p502-facsimile-v1",
+    "buell-posts-p503-facsimile-v1",
+    "worthington-howell-p140-facsimile-v1",
+    "worthington-howell-p137-facsimile-v1",
+    "medkirk-howell-p537-facsimile-v1"
+  ],
+  "assertions": [
+    {
+      "id": "RP01",
+      "status": "source_attributed_unadjudicated",
+      "claim": "Reid's 46th Ohio narrative places companies B and K on picket Saturday and reports the enemy feeling the lines constantly during the night, followed by daylight deployment and a sunrise cavalry encounter.",
+      "limit": "A postwar compilation with the particular contributor/source chain unknown. No Howell name or located post. Feeling the lines does not define weapons fired, intervals, or a continuous combat episode; not an authenticated bridge from the disputed morning house expulsion to Sunday contact.",
+      "citations": [
+        {
+          "source_id": "reid-1868-regimental-posts-v1",
+          "section": "p286-saturday-night",
+          "locator": "p286-saturday-night",
+          "quote": "The regiment was posted a short distance to the right of Shiloh Church, and there it remained in comparative quiet until the battle. On Saturday, April 5th, companies B and K were on picket. During the night the enemy was feeling the lines constantly, and at daylight his columns could be seen deploying in the distance. At sunrise a Rebel cavalry officer emerged from the woods within thirty yards of the picket-line, and, checking his horse, he stood for a moment in seeming composure, and then inquired: \"Are these Union pickets?\" He was told they were, and was ordered to come up.",
+          "raw_sha256": "cbe03eefb5730af193b4ea800472e8daf7ab19467d865125344e4a777c89cfbc",
+          "source_metadata_sha256": "d5bb6ef5c1d326b12aefbdaf0f1b717b0dc6fbfa376b76533528d74da43129f2",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "reid-posts-p286-facsimile-v1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RP02",
+      "status": "source_attributed_unadjudicated",
+      "claim": "The inspected Reid 72d Ohio and Lemmon passages transition from April 4 to April 6–7 without describing Saturday Howell contact; their Friday rescue companies differ (Reid A/D/F; Lemmon A/D/I).",
+      "limit": "Bounded negative coverage of Reid p.413 and Lemmon pp.5–7, not evidence of quiet and not a whole-corpus negative. The company discrepancy is retained without adjudication; the two narratives are not merged.",
+      "citations": [
+        {
+          "source_id": "reid-1868-regimental-posts-v1",
+          "section": "p413-april3-to6",
+          "locator": "p413-april3-to6",
+          "quote": "On the 3d of April Buckland's brigade was engaged in a reconnoissance, in which the Seventy-Second met the Rebel pickets and exchanged shots. On the next day companies B and H were ordered to reconnoiter the front of the picket-line. The companies became engaged, separately, with the Rebel cavalry, and Major Crockett and two or three men of company H were captured and several were wounded. Company B was surrounded, but it fought for an hour against great odds, and was saved by the arrival of companies A, D, and F. Company B lost four men wounded.\nBuckland's brigade met the enemy about seven o'clock on the morning of April 6th and withstood the onset of three successive Rebel lines;",
+          "raw_sha256": "cbe03eefb5730af193b4ea800472e8daf7ab19467d865125344e4a777c89cfbc",
+          "source_metadata_sha256": "d5bb6ef5c1d326b12aefbdaf0f1b717b0dc6fbfa376b76533528d74da43129f2",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "reid-posts-p413-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "lemmon-1875-regimental-posts-v1",
+          "section": "p5-6-april4",
+          "locator": "p5-6-april4",
+          "quote": "On April 4th, 1862, about 2 P. M., a considerable force of rebel cavalry attacked the left of the picket line in front of Buckland's brigade, and captured a Lieutenant and seven men of the 70th Ohio Regiment.",
+          "raw_sha256": "7e08556697f872df6b690885ad2c9e0bc4931854040410bf7e1bd4a6ab95fbf5",
+          "source_metadata_sha256": "49ac9e04d6eb1873585a62208a8d4b77521fe0b62eab02aec7ca4b226705ae77",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "lemmon-posts-p5-facsimile-v1",
+            "lemmon-posts-p6-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "lemmon-1875-regimental-posts-v1",
+          "section": "p6-rescuers",
+          "locator": "p6-rescuers",
+          "quote": "Upon his arrival Gen. Buckland took Cos. A, D and I, of his regiment, and started into the woods in the direction of the firing, directing Col. Cockerill to come to his aid if the firing should become heavier.",
+          "raw_sha256": "7e08556697f872df6b690885ad2c9e0bc4931854040410bf7e1bd4a6ab95fbf5",
+          "source_metadata_sha256": "49ac9e04d6eb1873585a62208a8d4b77521fe0b62eab02aec7ca4b226705ae77",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "lemmon-posts-p6-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "lemmon-1875-regimental-posts-v1",
+          "section": "p7-transition",
+          "locator": "p7-transition",
+          "quote": "On April 6th and 7th came Shiloh with its carnage, its thirty-six hours of constant strain, excitement, hopes and fears.",
+          "raw_sha256": "7e08556697f872df6b690885ad2c9e0bc4931854040410bf7e1bd4a6ab95fbf5",
+          "source_metadata_sha256": "49ac9e04d6eb1873585a62208a8d4b77521fe0b62eab02aec7ca4b226705ae77",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "lemmon-posts-p7-facsimile-v1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RP03",
+      "status": "source_attributed_unadjudicated",
+      "claim": "Lemmon describes a rain interruption followed by resumed firing within his April 4 narrative.",
+      "limit": "Temporary interruption does not close that encounter by itself; it is not a Saturday-to-Sunday reset. No new segmentation or clock follows from this passage.",
+      "citations": [
+        {
+          "source_id": "lemmon-1875-regimental-posts-v1",
+          "section": "p5-6-april4",
+          "locator": "p5-6-april4",
+          "quote": "On April 4th, 1862, about 2 P. M., a considerable force of rebel cavalry attacked the left of the picket line in front of Buckland's brigade, and captured a Lieutenant and seven men of the 70th Ohio Regiment.",
+          "raw_sha256": "7e08556697f872df6b690885ad2c9e0bc4931854040410bf7e1bd4a6ab95fbf5",
+          "source_metadata_sha256": "49ac9e04d6eb1873585a62208a8d4b77521fe0b62eab02aec7ca4b226705ae77",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "lemmon-posts-p5-facsimile-v1",
+            "lemmon-posts-p6-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "lemmon-1875-regimental-posts-v1",
+          "section": "p6-rain",
+          "locator": "p6-rain",
+          "quote": "A violent rain storm set in which for a time stopped all firing; as soon as the rain slackened the firing was resumed,",
+          "raw_sha256": "7e08556697f872df6b690885ad2c9e0bc4931854040410bf7e1bd4a6ab95fbf5",
+          "source_metadata_sha256": "49ac9e04d6eb1873585a62208a8d4b77521fe0b62eab02aec7ca4b226705ae77",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "lemmon-posts-p6-facsimile-v1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RP04",
+      "status": "source_attributed_unadjudicated",
+      "claim": "Sharpe as printed by Worthington gives Howell–Weaver and camp–Moore distances, places Saturday McDowell pickets at Moore's and identifies Howell as a brigade post; Sherman's printed denial instead places pickets a mile in front of Howell house.",
+      "limit": "Disputed testimony mediated by one interested publisher. Approximate distances and brigade-relative directions do not establish coordinates, a camp datum, unique post identity or a single common time. Sharpe limits his knowledge of other brigade pickets; no negative census inferred.",
+      "citations": [
+        {
+          "source_id": "worthington-1872-post-locations-v1",
+          "section": "p140-distances",
+          "locator": "p140-distances",
+          "quote": "I went out on picket duty about the 25th March. Before Shiloh I made headquarters at Weaver's. About the 1st of April made a post at Widow Howell's. From Mrs. Howell's to Weaver's is three hundred or four hundred yards. Moore's is not more than half a mile from camp.",
+          "raw_sha256": "1f6336458d5026e26b7145de6210ee26bf7462e35e049d26d82f6fb132ff9fb7",
+          "source_metadata_sha256": "b686f48ef8ac54557fddaadeec77e24f1a2bba8b9d11d3ebd607012ca1e88cc3",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "worthington-howell-p140-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "worthington-1872-post-locations-v1",
+          "section": "p140-saturday-posts",
+          "locator": "p140-saturday-posts",
+          "quote": "The pickets of McDowell's brigade on Saturday were at Moore's, (half mile from camp.) Howell's was recognized as one of the picket posts of the 1st brigade, 5th division. The Howell house was on the left of our brigade. There were no pickets between my post and the enemy. I reported to Colonel McDowell habitually. I do not know of any pickets from any of the other brigades in front of the Howell house on Saturday, the day before the battle.",
+          "raw_sha256": "1f6336458d5026e26b7145de6210ee26bf7462e35e049d26d82f6fb132ff9fb7",
+          "source_metadata_sha256": "b686f48ef8ac54557fddaadeec77e24f1a2bba8b9d11d3ebd607012ca1e88cc3",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "worthington-howell-p140-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "worthington-1872-howell-v1",
+          "section": "p137-sherman-denial",
+          "locator": "p137-sherman-denial",
+          "quote": "He testified \"that no pickets were driven out of the Howell house on Saturday. The house,\" he says, \"which I call the Widow Howell's house, was in a field, near a lane, in Buckland's front, about three-quarters of a mile from his center. Our pickets were a mile in front of that house.",
+          "raw_sha256": "d788db7f16a74cfacbdeaeb5ba11aba6b151aa72d4fbe9d21e9110d9632c029b",
+          "source_metadata_sha256": "9088c2677b13e9575855af524e18028d4fe679da170c7382fae2bea7d2eb8ec3",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "worthington-howell-p137-facsimile-v1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RP05",
+      "status": "source_attributed_unadjudicated",
+      "claim": "The appended Worthington tract alleges a post occupied all day and 46th Ohio pickets driven back at 7 a.m. remaining half a mile from camp.",
+      "limit": "Same Worthington publication family, not independent confirmation or an official adjudication. The selected items do not name Howell or Moore, and cannot authenticate the match, firing continuity or composition date.",
+      "citations": [
+        {
+          "source_id": "worthington-facts-posts-v1",
+          "section": "p2-item11",
+          "locator": "p2-item11",
+          "quote": "11th. It was proven that a picket post three-quarters of a mile from his centre was all day occupied by the enemy, and with artillery in the afternoon, which he repeatedly swears was not the fact (on the 5th).",
+          "raw_sha256": "a3f1d5f55b2f27b7b941bcbd3e46821a6d8bb2e05ddb9befb029a4cac1daa08a",
+          "source_metadata_sha256": "71741c4aa58886fadb0fa9954b3bb184e7599b676525adaba66fd62fbf2f8ad0",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "worthington-posts-facts-p2-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "worthington-facts-posts-v1",
+          "section": "p2-item14",
+          "locator": "p2-item14",
+          "quote": "14th. It was proven that the pickets of the 46th Ohio, driven back on the 5th at 7 A. M., were but half a mile from the camp the balance of the day.",
+          "raw_sha256": "a3f1d5f55b2f27b7b941bcbd3e46821a6d8bb2e05ddb9befb029a4cac1daa08a",
+          "source_metadata_sha256": "71741c4aa58886fadb0fa9954b3bb184e7599b676525adaba66fd62fbf2f8ad0",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "worthington-posts-facts-p2-facsimile-v1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RP06",
+      "status": "source_attributed_unadjudicated",
+      "claim": "The map cited by Medkirk labels Howell Farm; its title/legend describes battle camps and April 6–7 phases, while its caption documents a retrospective combination of Thom, Andreas, Michler, Sherman and other material.",
+      "limit": "Caption assertions are not separately verified map accuracy. No uniquely identified Howell house, Weaver/Moore point or Saturday picket post has been established in the inspected Howell region. Camp symbols and later-phase lines do not geolocate Saturday firing or define a battle polygon; no north-up assumption or coordinates used.",
+      "citations": [
+        {
+          "source_id": "buell-battles-leaders-map-posts-v1",
+          "section": "p502-howell-label",
+          "locator": "p502-howell-label",
+          "quote": "HOWELL FARM",
+          "raw_sha256": "2add17ef1ae7f7e9a0e7cd849735e69c3ceb1c15525af7902d0f1beb998d3fca",
+          "source_metadata_sha256": "055dde66399a34f36169e6d918936ee9b4b776506f03ca21681459078560504c",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "buell-posts-p502-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "buell-battles-leaders-map-posts-v1",
+          "section": "p502-camp-legend",
+          "locator": "p502-camp-legend",
+          "quote": "Regimental Camps at the date of the battle.",
+          "raw_sha256": "2add17ef1ae7f7e9a0e7cd849735e69c3ceb1c15525af7902d0f1beb998d3fca",
+          "source_metadata_sha256": "055dde66399a34f36169e6d918936ee9b4b776506f03ca21681459078560504c",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "buell-posts-p502-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "buell-battles-leaders-map-posts-v1",
+          "section": "p502-phase-legend",
+          "locator": "p502-phase-legend",
+          "quote": "Numbers indicate hours of the day, or periods of the battle, as follows:\n1. Attack at the Landing, evening of the 6th.\n2. Night of the 6th, and morning of the 7th, before the advance. At that period the Confederates, for the most part, occupied the various captured camps.",
+          "raw_sha256": "2add17ef1ae7f7e9a0e7cd849735e69c3ceb1c15525af7902d0f1beb998d3fca",
+          "source_metadata_sha256": "055dde66399a34f36169e6d918936ee9b4b776506f03ca21681459078560504c",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "buell-posts-p502-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "buell-battles-leaders-map-posts-v1",
+          "section": "p503-title",
+          "locator": "p503-title",
+          "quote": "MAP OF THE FIELD OF SHILOH,\nNear Pittsburg Landing, Tenn., showing the positions of the U. S. forces under\nMaj.-Gen'l U. S. Grant, U. S. Vols., and Maj.-Gen'l D. C. Buell, U. S. Vols., on the 6th and 7th of April, 1862.",
+          "raw_sha256": "2add17ef1ae7f7e9a0e7cd849735e69c3ceb1c15525af7902d0f1beb998d3fca",
+          "source_metadata_sha256": "055dde66399a34f36169e6d918936ee9b4b776506f03ca21681459078560504c",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "buell-posts-p503-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "buell-battles-leaders-map-posts-v1",
+          "section": "p503-topography",
+          "locator": "p503-topography",
+          "quote": "The topography is substantially that of the original Thom, or \"Official Map\" (see p. 506), with some proper corrections taken from a survey made under the direction of Capt. A. T. Andreas, an officer in the battle, and now President of the Western Art Association; and from the official map of the Army of the Ohio, made by Captain Michler, Topographical Engineers.",
+          "raw_sha256": "2add17ef1ae7f7e9a0e7cd849735e69c3ceb1c15525af7902d0f1beb998d3fca",
+          "source_metadata_sha256": "055dde66399a34f36169e6d918936ee9b4b776506f03ca21681459078560504c",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "buell-posts-p503-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "buell-battles-leaders-map-posts-v1",
+          "section": "p503-camps",
+          "locator": "p503-camps",
+          "quote": "The camps are located partly in accordance with a camp map made prior to the battle by Gen. W. T. Sherman (see fac-simile, p. 496); partly from information, original or confirmatory, obligingly furnished by Capt. Andreas, and from other authority. All changes referred to in the official reports have been carefully identified.",
+          "raw_sha256": "2add17ef1ae7f7e9a0e7cd849735e69c3ceb1c15525af7902d0f1beb998d3fca",
+          "source_metadata_sha256": "055dde66399a34f36169e6d918936ee9b4b776506f03ca21681459078560504c",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "buell-posts-p503-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "buell-battles-leaders-map-posts-v1",
+          "section": "p503-revision",
+          "locator": "p503-revision",
+          "quote": "AIRDRIE, KENTUCKY, June, 1885.\nThis edition includes a few corrections which do not appear in the map as printed in \"The Century\" magazine for March, 1886.",
+          "raw_sha256": "2add17ef1ae7f7e9a0e7cd849735e69c3ceb1c15525af7902d0f1beb998d3fca",
+          "source_metadata_sha256": "055dde66399a34f36169e6d918936ee9b4b776506f03ca21681459078560504c",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "buell-posts-p503-facsimile-v1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RP07",
+      "status": "source_attributed_unadjudicated",
+      "claim": "Medkirk's companies E/C east of Howell farm and Reid's companies B/K on an unnamed 46th Ohio picket line remain different descriptions with no established post or incident match.",
+      "limit": "Different regiments and unspecified coverage permit several relationships; neither identity nor contradiction is proved. Medkirk's daytime firing/evening brush and Reid's overnight language cannot be joined into a continuous firing chain. The source-to-Reed link remains unknown.",
+      "citations": [
+        {
+          "source_id": "medkirk-1886-howell-v1",
+          "section": "p537-saturday",
+          "locator": "p537-saturday",
+          "quote": "The next day, Saturday, my company, 'E,' and Company 'C' constituted the brigade picket. We were stationed on the east side of the Howell farm [see page 502]. All day the enemy kept in our front. We fired on them frequently, but they did not return the fire until toward evening, when they had a brush with a squadron of the 5th Ohio Cavalry.",
+          "raw_sha256": "7386c22f750e43ffe3cc6194792217ae197eeb8ed7ef9947cd8128a88b7d5c7a",
+          "source_metadata_sha256": "7babe86552ad3d0fc1fdd7cb45e41c79ed3a56b2eb0e8d389715f5a71a1dd3d4",
+          "document_date": "1886-03-22",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "medkirk-howell-p537-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "reid-1868-regimental-posts-v1",
+          "section": "p286-saturday-night",
+          "locator": "p286-saturday-night",
+          "quote": "The regiment was posted a short distance to the right of Shiloh Church, and there it remained in comparative quiet until the battle. On Saturday, April 5th, companies B and K were on picket. During the night the enemy was feeling the lines constantly, and at daylight his columns could be seen deploying in the distance. At sunrise a Rebel cavalry officer emerged from the woods within thirty yards of the picket-line, and, checking his horse, he stood for a moment in seeming composure, and then inquired: \"Are these Union pickets?\" He was told they were, and was ordered to come up.",
+          "raw_sha256": "cbe03eefb5730af193b4ea800472e8daf7ab19467d865125344e4a777c89cfbc",
+          "source_metadata_sha256": "d5bb6ef5c1d326b12aefbdaf0f1b717b0dc6fbfa376b76533528d74da43129f2",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "reid-posts-p286-facsimile-v1"
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance_links": [
+    {
+      "from_source": "worthington-facts-posts-v1",
+      "to_source": "worthington-1872-post-locations-v1",
+      "status": "same_Worthington_author_family_not_independent_confirmation"
+    },
+    {
+      "from_source": "worthington-1872-post-locations-v1",
+      "to_source": "worthington-1872-howell-v1",
+      "status": "same_parent_publication_and_page_not_independent_confirmation"
+    },
+    {
+      "from_source": "buell-battles-leaders-map-posts-v1",
+      "to_source": "medkirk-1886-howell-v1",
+      "status": "map_page_cited_by_printed_letter_not_independent_post_verification"
+    },
+    {
+      "from_source": "reid-1868-regimental-posts-v1",
+      "to_source": "reed-1903-howell-v1",
+      "status": "unestablished"
+    }
+  ],
+  "conclusion": {
+    "segmentation": "unresolved",
+    "new_continuity_lead": "Reid II p.286 overnight feeling of the lines, unnamed post and unknown underlying attribution",
+    "same_post_match": null,
+    "reed_incident_match": null,
+    "termination_of_all_saturday_contact": null,
+    "continuity_into_sunday": null,
+    "earliest_qualifying_contact": null,
+    "exact_timestamp": null,
+    "area": null,
+    "post_coordinates": {
+      "Howell house": null,
+      "Weaver": null,
+      "Moore": null,
+      "Reid 46th Ohio night post": null
+    },
+    "members_by_side": {
+      "US": null,
+      "CS": null
+    }
+  },
+  "historical_features_admitted": 0,
+  "emitted_rows": 0,
+  "promoted_rows": 0
+}

@@ -83,16 +83,25 @@ and closed by primary verification. The registry at that correction was 112 entr
 The [Howell trace](research/shiloh-howell-trace-v1.md) adds Medkirk's retrospective
 account, Worthington's disputed testimony selections, the earlier Reed printing,
 one plaque transcription and two archival guides. Seven assertions bind 14
-anchors; the registry is now 133 entries / 130 raw paths. No participant-to-Reed
+anchors; that packet's registry has 133 entries / 130 raw paths. No participant-to-Reed
 attribution or Saturday-to-Sunday continuity is established, and no historical
-feature is admitted. Next compare 46th/72d Ohio regimental accounts and the
-Howell farm map while retaining the original proceedings and commission
-correspondence as uninspected archival targets. Map control, full unit locations,
-ford-guard identities and the transport/afloat rule remain unresolved, followed
-by population/return evidence for the seven blockers. Continue across the complete source campaign.
+feature is admitted. Original proceedings and commission correspondence remain
+uninspected archival targets.
 Separate Astra `xhigh` [review and primary assessment](../artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/primary-assessment.md)
 accepted the bounded Howell packet with no required corrections; historical
 provenance and continuity questions remain open.
+
+The [regimental and post comparison](research/shiloh-regimental-posts-v1.md)
+adds an overnight lead from Reid's 46th Ohio narrative but no located post or
+continuous firing chain. The inspected 72d narratives skip Saturday; their omission
+is not quiet. Worthington's distances remain disputed and approximate, and the
+map cited by Medkirk depicts April 6–7. Seven assertions bind 21 anchors / 19
+source-section pairs across 16 inspected pages. All prior records are preserved;
+the registry now has 151 entries / 148 raw paths. Next trace the contributor or
+underlying evidence for Reid II p.286. Map control, full unit locations,
+ford-guard identities and the transport/afloat rule remain unresolved, followed
+by population/return evidence for the seven blockers. Continue across the complete
+source campaign.
 
 Historical admission still requires actual evidence-use review of a complete
 proposal and an immutable release manifest; this partial proposal is no release.

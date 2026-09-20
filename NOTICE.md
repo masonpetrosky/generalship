@@ -81,6 +81,20 @@ catalog snapshots. These retain their source attribution and are not relicensed 
   HTML snapshots retrieved September 20, 2026. Selected government-authored text
   retained separately from template markup; linked media are not downloaded.
 
+- Whitelaw Reid, *Ohio in the War*, volume II (Moore, Wilstach & Baldwin, 1868),
+  selected 46th/72d Ohio passages and whole-page facsimiles. Public-domain history;
+  the contributors behind the particular narratives remain unestablished.
+- John M. Lemmon, speech delivered at the 72d Ohio reunion, June 17, 1875,
+  selected pp.5–7 and printed heading. Public-domain speech; printing date not
+  independently established from the retained pages.
+- Thomas Worthington, composite volume headed *Brief History of the 46th Ohio
+  Volunteers*, with appended *Facts Developed* allegations (printing date unknown)
+  and a separate *Flank March* title bearing 1880. Selected public-domain pages;
+  bound works and event/publication dates are not conflated.
+- D. C. Buell, revised map and caption in *Battles and Leaders* I, pp.502–503,
+  caption dated June 1885 with a later edition note. Public-domain facsimiles and
+  selected labels/caption; explicit map/report dependencies are retained.
+
 Original download links, parent hashes, page mappings, transformations and account
 dependencies are preserved in `data/sources.json`. None of these authors,
 institutions, or archive hosts endorses Generalship's interpretations.

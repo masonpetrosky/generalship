@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-20",
+  "base_commit": "af5075a8a8c51ab35d049720297a260bdd6bd676",
+  "status": "passed",
+  "commands": {
+    "make check": "82 tests passed and repository check passed",
+    "make reproduce": "passed; generated pilot report inspected",
+    "make packet": "prepared TN003 refreshed; no model called",
+    "reference-audit.py": {
+      "status": "passed",
+      "coverage": {
+        "assertions": 7,
+        "passage_anchors": 21,
+        "source_section_pairs": 19,
+        "new_source_entries": 18,
+        "new_text_sources": 5,
+        "new_text_sections": 17,
+        "new_page_images": 13,
+        "visually_inspected_pages": 16,
+        "prior_source_entries_preserved": 133,
+        "prior_raw_paths_preserved": 130,
+        "registry_entries": 151,
+        "raw_paths": 148,
+        "preserved_files": 109
+      },
+      "promoted_rows": 0
+    },
+    "prior_additive_audits": "Five current-compatible Howell, precontact and contact-location audits passed",
+    "git diff --check": "passed"
+  },
+  "source_registry_sha256": "c49e1626b93d438e43342331690ed6dea522f917f74b2628fa220cb64210275d",
+  "research_record_sha256": "9b82d10d887221eee67510a1d4e910ff3ae018dc27dc76352b45871a4c2c07c3",
+  "report_sha256": "9ff69bcb3b1c0428a6393b78a30b30f797991a5a72bc0ada9108e6c6819eda8a",
+  "frozen": {
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "data/admission/shiloh-opening-v2.json": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595"
+  },
+  "result": {
+    "draft_dossiers": 3,
+    "TN003_claims": 62,
+    "TN003_quantities": 40,
+    "TN003_events": 26,
+    "frame_engagements": 127,
+    "frame_campaigns": 36,
+    "baseline_engagements": 23,
+    "baseline_groups": 13,
+    "brier": 0.2768816348133779,
+    "equal_odds_brier": 0.25,
+    "complete_enriched_rows": 0,
+    "promoted_rows": 0
+  },
+  "limits": "Mechanical checks do not adjudicate accounts or prove independent witnesses. Separate review pending."
+}
