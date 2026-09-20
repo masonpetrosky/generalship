@@ -6,7 +6,7 @@ import unittest
 
 from generalship.dataset import build_dataset, number, unique
 from generalship.evidence import validate_all, validate_dossier
-from generalship.sources import read_json, safe_path, verify_sources
+from generalship.sources import digest, read_json, safe_path, verify_sources
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -124,8 +124,21 @@ class EvidenceTests(unittest.TestCase):
     def test_archived_dossier_is_preserved_and_bound_to_revision(self):
         dossier = read_json(ROOT / 'data/evidence/TN003.json')
         previous = read_json(ROOT / dossier['supersedes']['path'])
-        self.assertEqual(previous['schema_version'], 1)
-        self.assertEqual(len(previous['claims']), 7)
+        self.assertTrue({c['id'] for c in previous['claims']}.issubset(
+            {c['id'] for c in dossier['claims']}))
+        # Evidence revisions can keep the same schema. Follow their hash-bound
+        # archive chain rather than assuming the immediate predecessor is v1.
+        revision, seen = dossier, set()
+        while revision.get('supersedes'):
+            reference = revision['supersedes']
+            self.assertNotIn(reference['path'], seen)
+            seen.add(reference['path'])
+            path = safe_path(ROOT, reference['path'])
+            self.assertEqual(digest(path), reference['sha256'])
+            revision = read_json(path)
+            self.assertEqual(revision['battle_id'], dossier['battle_id'])
+        self.assertEqual(revision['schema_version'], 1)
+        self.assertEqual(len(revision['claims']), 7)
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             shutil.copytree(ROOT / 'data', root / 'data')

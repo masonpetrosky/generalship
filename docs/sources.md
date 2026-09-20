@@ -108,3 +108,57 @@ with the extracted quantities. Source IDs and section IDs are validated together
 a quote on another page in the same file cannot satisfy a declared citation.
 Manual transcription and exact passage matching still require an independent
 entailment/error audit. This pass has not completed that review.
+
+### Confederate return follow-up, 2026-09-20
+
+Reports Nos.136 and 137 in Official Records I.X.1, printed pp.398–399 (PDF
+pp.422–423), were visually inspected in the same checksum-verified parent volume.
+Two versioned selected-column transcriptions and two entire-page facsimiles were
+added. All previous raw inputs, IDs and hashes remain unchanged. See the
+[comparison and migration record](research/shiloh-confederate-returns.md).
+
+Both returns are signed by Bragg with a bracketed June 30 submission/forwarding
+date; their headings respectively describe the April 3 march and an April 10
+after-battle return. These dates and population columns remain distinct. Report
+136 notes Hill's Monday arrival, and report 137 describes losses and arrivals of
+Carroll's brigade and previously detached cavalry. Neither supplies a numerical
+reconciliation with p.396. Report 137's infantry effective and enlisted-for-duty
+subtotals also disagree with the printed corps rows; both readings are retained.
+
+The new sources keep `or-beauregard` as their independence group because they
+belong to the same army reporting chain. Bragg's signature and the additional
+scans do not establish independent corroboration. The scans were rendered with
+pypdfium2 and rotated for reading; that optional local research tool is not a
+runtime or test dependency. The NPS 44,968 total remains untraced, and no
+independent historical review is claimed.
+
+### Union availability follow-up, 2026-09-20
+
+Eight new sectioned text snapshots and four Reed table facsimiles preserve the
+inspected evidence without replacing any of the earlier 21 source records or
+files. The [unit-by-phase audit](research/shiloh-union-availability.md) gives exact
+locators, parent hashes, findings and migration. The new return-detail snapshot
+adds Sixth Division component rows from the already pinned OR p.112 scan.
+
+New participant excerpts cover Wallace (April 12), Prentiss (November 17 after
+captivity), Chambers (April 24), Reid (date unstated in inspected heading), and
+Rousseau (April 12). Dates of reports are separate from dates of events. Shared
+reporting environments remain visible in independence groups; a different author
+does not establish independent evidence. Selected prose is manually transcribed
+from rendered pages, with whitespace normalized and line-wrap hyphens removed.
+
+Reed's *The Battle of Shiloh and the Organizations Engaged*, revised 1909, is a
+later government compilation explicitly based on Official Records. Its table
+asterisks, mixed dates and stated present-for-duty-as-engaged convention remain
+visible. A detachment note bridges 7,564 to 5,837, but does not explain Force's
+6,500 or prove the Army handbook's 5,800 derivation. Reed's Fifteenth Michigan
+narrative conflicts with his April 6 recapitulation; this is not adjudicated away.
+The table scans preserve pp.93 and 96-98, rendered with pypdfium2 and rotated for
+reading. The rendering library is only a research tool, not a runtime dependency.
+
+Michigan's report **for 1862**, dated December 24, was published in **1863**.
+Its p.41 supports a reported April 5 arrival of the Fifteenth Infantry and losses
+over the two-day battle. It does not validate Force's Sunday-only casualty
+allocation. The inspected scan, rather than a modern AI transcription or a search
+snippet, is the evidence. Its underlying regimental returns have not been traced.
+No new independent review record or canonical opening-strength estimate is claimed.

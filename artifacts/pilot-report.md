@@ -45,12 +45,12 @@ Exact passage checks verify provenance only. These drafts have no independent hi
 |---|---:|---:|---:|---:|---|
 | [MD003](../data/evidence/MD003.json) | 9 | 5 | 0 | 0 | draft |
 | [MS009](../data/evidence/MS009.json) | 7 | 3 | 0 | 0 | draft |
-| [TN003](../data/evidence/TN003.json) | 22 | 1 | 12 | 7 | draft |
+| [TN003](../data/evidence/TN003.json) | 43 | 2 | 29 | 14 | draft |
 
 ## Next research action
 
 The [Shiloh research memo](../docs/research/shiloh.md) preserves competing returns, dated orders, reinforcement phases, and disputed responsibility. No canonical opening strength or effective command-transfer time has been adjudicated.
-Next inspect the Confederate returns (Official Records I.X.1, reports 136 and 137) flagged by the source itself, and audit Union omitted units/arrival reports. Obtain independent historical review before designing an enriched feature row.
+The [Confederate return audit](../docs/research/shiloh-confederate-returns.md) retains source differences and internal subtotal discrepancies. The [Union availability audit](../docs/research/shiloh-union-availability.md) traces unit arrivals and Wallace detachments while preserving unidentified original omissions, a ten-man comparison residual, and Reed's Michigan narrative/table conflict. Next audit Nelson/Ammen crossing phases and Buell's returns. Obtain independent historical review before designing an enriched feature row.
 Then expand by complete campaign, retaining every unscorable engagement in the coverage denominator.
 
 ## Reproduce and inspect

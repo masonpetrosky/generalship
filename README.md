@@ -25,8 +25,11 @@ wins a commander caused. No validated commander ranking exists here yet.
 - Three draft dossiers: **Shiloh, Antietam, and Champion Hill**, with exact source
   passages, explicit unknowns, command questions, and inherited/created distinctions.
 - A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
-  independently authored histories, and return-table scans. Its 12 typed troop
-  observations and seven events retain differences in population and timing.
+  independently authored histories, and return-table scans. The follow-up
+  [Confederate return audit](docs/research/shiloh-confederate-returns.md) and
+  [Union availability audit](docs/research/shiloh-union-availability.md) bring it
+  to 29 typed troop observations and 14 events, preserving population/timing
+  differences, unknown omissions and printed discrepancies.
 - A reproducible report, battle predictions, exclusion reasons, research queue,
   and input/output hash receipt. No runtime dependencies beyond Python 3.11+.
 
@@ -65,12 +68,17 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 
 ## Research direction
 
-The first [Shiloh research pass](docs/research/shiloh.md) is complete as a draft:
-22 claims preserve competing returns, reinforcement phases, dated orders and
-disputed responsibility. No canonical opening strength or independently reviewed
-command attribution has been established. Next inspect the Confederate returns
-flagged by their own compiler and the Union return's omitted units, then obtain
-independent historical review. The [prepared packet](artifacts/research/TN003.md)
+The first [Shiloh research pass](docs/research/shiloh.md),
+[Confederate return audit](docs/research/shiloh-confederate-returns.md) and
+[Union availability audit](docs/research/shiloh-union-availability.md) are complete
+as drafts: 43 claims preserve competing returns, reinforcement phases, dated
+orders and disputed responsibility. The Union audit traces Reed's Wallace
+detachment accounting and unit arrivals, while retaining unidentified original
+omissions, a ten-man comparison residual and Reed's Michigan narrative/table
+conflict. Confederate source and subtotal discrepancies also remain unresolved.
+No canonical opening strength or independently reviewed command attribution has
+been established. Next audit Nelson/Ammen crossing phases and Buell's returns,
+then obtain independent historical review. The [prepared packet](artifacts/research/TN003.md)
 and [dossier](data/evidence/TN003.json) preserve the open questions. Expand by complete
 campaign, retaining ordinary engagements and failures in the frame.
 

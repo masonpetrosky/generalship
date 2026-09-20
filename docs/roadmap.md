@@ -17,14 +17,24 @@ have not been established.
 
 The first [Shiloh source-enrichment pass](research/shiloh.md) is complete **as a
 draft**, with 22 claims, 12 typed troop observations and seven chronology events.
-Ten new source artifacts include original reports, orders, return transcriptions,
-two independently authored histories, and two facsimiles. Version 1 is archived.
-Neither canonical opening strengths nor effective command-transfer times have
-been adjudicated, and no independent review has occurred.
+Ten source artifacts from that pass include original reports, orders, return
+transcriptions, two independently authored histories, and two facsimiles.
+The subsequent [Confederate return audit](research/shiloh-confederate-returns.md)
+inspected reports 136/137 and added four versioned source artifacts. The
+[Union availability audit](research/shiloh-union-availability.md) adds 12 artifacts
+and a unit-by-phase table. The current draft has **43 claims, 29 troop observations
+and 14 events**. Three preceding revisions are archived. Neither canonical opening
+strengths nor effective command-transfer times have been adjudicated, and no
+independent review has occurred.
 
-Start now with Confederate reports Nos.136 and 137 in Official Records I.X.1,
-which the p.396 return explicitly says disagree with its totals. Audit the Union
-return's missing units and phase-specific arrivals next. The updated packet is
+Start now with Nelson/Ammen's April 6 crossing reports and Buell's divisional
+returns, separating bank arrival, landing, deployment and participation. The
+Union audit traces a Wallace detachment bridge and distinguishes regimental
+arrival phases, but the full original omission mapping, a ten-man comparison
+residual, and the Michigan narrative/table and casualty-day conflicts remain open.
+The Confederate reports' differences from p.396, report 137's two inspected infantry
+subtotal discrepancies, and the accounting of late/detached formations remain
+explicit questions for historical review. The updated packet is
 available with `python3 -m generalship packet TN003`. After review, complete all
 pilot engagements in the same source campaign, including Fort Henry, Fort
 Donelson, and Corinth.

@@ -63,6 +63,19 @@ live under `data/evidence/history/`, are checked against the current revision's
 hash, and are included in the build receipt but not counted as additional battles.
 Existing claim IDs persist when their interpretation is amended.
 
+The Confederate-return follow-up keeps schema version 2 and archives the first
+enriched draft as `TN003.v2.json`. The Union-availability follow-up archives the
+Confederate revision as `TN003.v3.json`; the current revision links to it and
+preserves the complete archive chain. See the [Confederate migration](research/shiloh-confederate-returns.md)
+and [Union migration](research/shiloh-union-availability.md).
+Report 136/137 branch subtotals and grand totals are overlapping observations,
+not additional people to sum. Printed arithmetic discrepancies remain visible;
+`reported_exact` records the number as printed, not its internal consistency.
+The same precision rule applies to Reed's explicitly estimated entries: their
+notes retain that estimation status. Mixed-date reconstructed totals, return
+components, detached guards and later joining contingents are overlapping
+source observations, never automatic opening-strength features.
+
 - `entities`: local IDs, names, person/formation kind, and US/CS side. They prevent
   confusing Lew Wallace's division with another formation; they are not yet a
   project-wide identity registry or proof of a command relationship.

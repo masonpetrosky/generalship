@@ -44,7 +44,7 @@ def report_text(root, profile, evaluation, dossiers):
         lines.append(f"| [{d['battle_id']}](../data/evidence/{d['battle_id']}.json) | {d['claims']} | {d['unknown_claims']} | {d['quantities']} | {d['events']} | {d['status']} |")
     lines += ["", "## Next research action", "",
               "The [Shiloh research memo](../docs/research/shiloh.md) preserves competing returns, dated orders, reinforcement phases, and disputed responsibility. No canonical opening strength or effective command-transfer time has been adjudicated.",
-              "Next inspect the Confederate returns (Official Records I.X.1, reports 136 and 137) flagged by the source itself, and audit Union omitted units/arrival reports. Obtain independent historical review before designing an enriched feature row.",
+              "The [Confederate return audit](../docs/research/shiloh-confederate-returns.md) retains source differences and internal subtotal discrepancies. The [Union availability audit](../docs/research/shiloh-union-availability.md) traces unit arrivals and Wallace detachments while preserving unidentified original omissions, a ten-man comparison residual, and Reed's Michigan narrative/table conflict. Next audit Nelson/Ammen crossing phases and Buell's returns. Obtain independent historical review before designing an enriched feature row.",
               "Then expand by complete campaign, retaining every unscorable engagement in the coverage denominator.",
               "", "## Reproduce and inspect", "", "Run `make check` and `make reproduce` from the repository root.",
               "[Evaluation and fold membership](baseline.json), [coverage](quality.json), [run receipt](receipt.json),",

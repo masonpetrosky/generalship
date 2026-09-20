@@ -2,14 +2,19 @@
 
 Research date: 2026-09-20. **Draft, not independently reviewed.**
 
+This memo preserves the first pass. The subsequent
+[Confederate return audit](shiloh-confederate-returns.md) inspected reports 136/137.
+The later [Union availability audit](shiloh-union-availability.md) documents the
+current 43-claim, 29-observation dossier; source discrepancies remain.
+
 Shiloh cannot yet support a single defensible opening-strength row or a simple
 allocation of its two-day result to Grant and Johnston. The sources distinguish
 paper returns, men engaged during a day, arriving reinforcements, and after-battle
 effectives. They also distinguish formal authority from who directed particular
 forces. This pass makes those distinctions inspectable; it does not settle them.
 
-The [dossier](../../data/evidence/TN003.json) now contains **22 claims, 12 troop
-observations, and seven chronology events**, against seven claims in the
+The [first-pass dossier](../../data/evidence/history/TN003.v2.json) contains
+**22 claims, 12 troop observations, and seven chronology events**, against seven claims in the
 [preserved first draft](../../data/evidence/history/TN003.v1.json). Eight new text
 snapshots and two table facsimiles are pinned in the [source registry](../../data/sources.json).
 The frozen cohort, original source tables, and baseline predictions are unchanged.
@@ -139,10 +144,12 @@ historical truth, or source independence. No independent review has occurred.
 
 ## Next work that can start immediately
 
-1. Inspect Confederate reports Nos.136 and 137 flagged by the return, retain their
-   definitions, and trace NPS’s 44,968 before deciding which comparisons are valid.
-2. Audit the Union return’s missing units and actual arrival/engagement reports,
-   starting with the Fifteenth Michigan correction and Wallace’s detachments.
+1. Reports Nos.136 and 137 are now inspected in the
+   [follow-up audit](shiloh-confederate-returns.md); their definitions and unresolved
+   arithmetic/source discrepancies are preserved. NPS’s 44,968 still needs tracing.
+2. The [Union follow-up](shiloh-union-availability.md) now audits omitted units,
+   arrivals, the Fifteenth Michigan correction and Wallace's detachments. Original
+   omission identities, source conflicts and a ten-man comparison residual remain.
 3. Audit Nelson/Ammen crossing times and Buell’s divisional returns; distinguish
    arrival at Savannah, the opposite bank, the landing and the fighting line.
 4. Have an independent historical reviewer examine these claims and boundary

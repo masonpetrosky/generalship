@@ -1,0 +1,917 @@
+{
+  "schema_version": 2,
+  "battle_id": "TN003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Tactical and campaign replacement dates remain unset. The phase records distinguish report dates, event dates and population definitions. Proposed boundaries and unresolved authority are discussed in docs/research/shiloh.md. No research quantity is admitted to modeling.",
+  "claims": [
+    {
+      "id": "strength-total",
+      "dimension": "strength",
+      "value": "NPS lists US 65,085 and Confederate 44,968 as forces engaged; these are not verified opening strength.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Whole-engagement totals may include reinforcements; do not condition opening expectations on later arrivals.",
+      "citations": [
+        {
+          "source_id": "nps-tn003",
+          "locator": "Forces Engaged",
+          "quote": "110053 total (US 65085; CS 44968;)"
+        }
+      ]
+    },
+    {
+      "id": "fortification-choice",
+      "dimension": "terrain",
+      "value": "NPS attributes the absence of fortification to Grant.",
+      "phase": "commander_created",
+      "status": "supported",
+      "rationale": "NPS attribution remains a hypothesis about responsibility. Halleck’s March 20 fortification instruction is now available; receipt, implementation, camp-selection authority and later orders require review before attributing an avoidable failure to Grant.",
+      "citations": [
+        {
+          "source_id": "nps-tn003",
+          "locator": "Description",
+          "quote": "Grant did not choose to fortify his position; rather, he set about drilling his men many of which were raw recruits."
+        }
+      ]
+    },
+    {
+      "id": "await-buell",
+      "dimension": "objectives",
+      "value": "NPS says Grant was ordered to await Buell at Pittsburg Landing. Halleck’s March 20 order directly requires concentration until joining Buell and avoiding engagement, but does not itself name Pittsburg Landing.",
+      "phase": "inherited",
+      "status": "supported",
+      "rationale": "Direct order establishes a superior’s constraint and includes fortification language. Its issue date is not proof of receipt time; later modifications and the exact landing-specific order remain to be traced.",
+      "citations": [
+        {
+          "source_id": "nps-tn003",
+          "locator": "Description",
+          "quote": "Grant received orders to await Buell's Army of the Ohio at Pittsburg Landing."
+        },
+        {
+          "source_id": "or-halleck-orders",
+          "section": "p50-51-march20",
+          "locator": "p50-51-march20",
+          "quote": "By all means keep your forces together until you connect with General Buell, who is now at Columbia, and will move on Waynesborough with three divisions. Don't let the enemy draw you into an engagement now. Wait till you are properly fortified and receive orders."
+        }
+      ]
+    },
+    {
+      "id": "command-transfer",
+      "dimension": "responsibility",
+      "value": "Beauregard’s April 11 report dates Johnston’s death to 2:30 p.m. April 6 and says chief command then devolved upon him. The Army handbook describes staff carrying the news to Beauregard; his exact receipt and effective-assumption times remain unestablished.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Distinguish a reported time of death from the time the successor learned of it and exercised authority. Neither commander receives an automatic share of the two-day residual.",
+      "citations": [
+        {
+          "source_id": "nps-tn003",
+          "locator": "Description",
+          "quote": "Johnston had been mortally wounded earlier and his second in command, Gen. P.G.T. Beauregard, took over."
+        },
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p387",
+          "locator": "p387",
+          "quote": "Our commander-in-chief, General A. S. Johnston, fell mor tally wounded, and died on the field at 2.30 p. m."
+        },
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p387",
+          "locator": "p387",
+          "quote": "The chief command then devolved upon me"
+        },
+        {
+          "source_id": "gudmens-shiloh-handbook",
+          "section": "p100",
+          "locator": "p100",
+          "quote": "Staff officers quickly rode to Beauregard at the intersection of the Pittsburg- Corinth Road and Purdy-Hamburg Road and told him of Johnston’s death."
+        }
+      ]
+    },
+    {
+      "id": "buell-awareness",
+      "dimension": "information",
+      "value": "NPS describes Beauregard as unaware of Buell’s arrival. Beauregard’s own April 11 account says he hoped, from a special dispatch, that Buell’s main force could not reach the field in time, and says April 7 firing assured him of the junction.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "The report is evidence of Beauregard’s retrospective account of his belief, not proof of his complete information set or of reasonable ignorance. Recover the dispatch and its receipt before adjudicating intelligence responsibility.",
+      "citations": [
+        {
+          "source_id": "nps-tn003",
+          "locator": "Description",
+          "quote": "Beauregard was unaware of the arrival of Buell's army"
+        },
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p387",
+          "locator": "p387",
+          "quote": "hoping, from news received by a special dispatch, that delays had been encountered by General Buell in his march from Columbia, and that his main force, therefore, could not reach the field of battle in time to save General Grant's shat tered fugitive forces from capture or destruction on the following day."
+        },
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p387",
+          "locator": "p387",
+          "quote": "About 6 o'clock on the morning of April 7, however, a hot fire of musketry and artillery, opened from the enemy's quarter on our ad vanced line, assured me of the junction of his forces"
+        }
+      ]
+    },
+    {
+      "id": "result",
+      "dimension": "outcome",
+      "value": "Union victory",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Source outcome is distinct from campaign contribution.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN003"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        }
+      ]
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "Numerical ammunition availability, ration distribution, and combat readiness by formation and phase remain unestablished. Qualitative participant claims of exhaustion below do not justify an invented readiness score.",
+      "citations": []
+    },
+    {
+      "id": "union-return-strength",
+      "dimension": "strength",
+      "value": "The compiled April 4–5 return lists 44,895 present for duty, including 7,564 in the Third Division. Its notes exclude that division from April 6 fighting, omit strengths for two Sixth Division regiments and one battery, and omit division staffs.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "A paper return with different dates and explicit omissions is not a census of opening combatants. Subtracting 7,564 gives a partial subtotal, not a corrected opening estimate. The handbook explicitly identifies Lew Wallace’s division as the Third Division in the separately cited wallace-handbook-strength claim.",
+      "citations": [
+        {
+          "source_id": "or-union-return-april4-5",
+          "section": "p112",
+          "locator": "p112",
+          "quote": "Grand total | 1,987 | 42,908 | 44,895 | 62"
+        },
+        {
+          "source_id": "or-union-return-april4-5",
+          "section": "p112",
+          "locator": "p112",
+          "quote": "Total Third Division | 314 | 7,250 | 7,564 | 12"
+        },
+        {
+          "source_id": "or-union-return-april4-5",
+          "section": "p112",
+          "locator": "p112",
+          "quote": "Third Division note: Return dated April 4; the division not in the battle of April 6."
+        },
+        {
+          "source_id": "or-union-return-april4-5",
+          "section": "p112",
+          "locator": "p112",
+          "quote": "Sixth Division note: Return dated April 5; strength of two regiments and one battery not reported on the original.\nGrand-total note: Division staff not included in this abstract."
+        }
+      ]
+    },
+    {
+      "id": "confederate-return-before",
+      "dimension": "strength",
+      "value": "Jordan’s return, forwarded by Beauregard April 21, reports an effective total before battle of 40,335, including 4,382 cavalry. Its footnote says both columns disagree with the following reports Nos. 136 and 137.",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "This is one retrospective return’s definition, not an adjudicated count of men engaged. Its own disagreement warning must travel with the number.",
+      "citations": [
+        {
+          "source_id": "or-confederate-return",
+          "section": "p396",
+          "locator": "p396",
+          "quote": "Columns: Command | Commander | Effective total before battle | Effective total after battle."
+        },
+        {
+          "source_id": "or-confederate-return",
+          "section": "p396",
+          "locator": "p396",
+          "quote": "Grand total | 40,335 | 29,636"
+        },
+        {
+          "source_id": "or-confederate-return",
+          "section": "p396",
+          "locator": "p396",
+          "quote": "Cavalry | Brig. Gen. F. Gardner | 4,382 | 4,081"
+        },
+        {
+          "source_id": "or-confederate-return",
+          "section": "p396",
+          "locator": "p396",
+          "quote": "Footnote to both effective-total columns: These columns do not agree with the effective totals in reports Nos. 136 and 137, following."
+        }
+      ]
+    },
+    {
+      "id": "confederate-return-after",
+      "dimension": "strength",
+      "value": "The same return reports an effective total after battle of 29,636.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "After-battle strength is neither April 7 opening strength nor a simple casualty count. It cannot become a pre-battle predictor.",
+      "citations": [
+        {
+          "source_id": "or-confederate-return",
+          "section": "p396",
+          "locator": "p396",
+          "quote": "Columns: Command | Commander | Effective total before battle | Effective total after battle."
+        },
+        {
+          "source_id": "or-confederate-return",
+          "section": "p396",
+          "locator": "p396",
+          "quote": "Grand total | 40,335 | 29,636"
+        }
+      ]
+    },
+    {
+      "id": "force-opening-estimate",
+      "dimension": "strength",
+      "value": "Force estimates 32,000–33,000 Union officers, noncommissioned officers and privates actually engaged on Sunday; this is a later interpretive estimate, not an opening return.",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "Force explains differences between present-for-duty and combatant counts, but his calculation also depends on a corrected unit exclusion. Preserve as a disputed source estimate; it measures participation over Sunday, not availability at first contact.",
+      "citations": [
+        {
+          "source_id": "force-1881-shiloh",
+          "section": "pp178-180",
+          "locator": "pp178-180",
+          "quote": "Probably all were true, and thirty-three thousand or thirty-two thousand is the number of officers, non-commissioned officers, and privates actually engaged in Sunday's battle on the National side."
+        }
+      ]
+    },
+    {
+      "id": "force-corrected-exclusion",
+      "dimension": "strength",
+      "value": "Force’s text excludes the Fifteenth Michigan from Sunday; footnote 3 explicitly says this is a mistake and gives that regiment’s Sunday casualties.",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "Retain the correction with the calculation. Do not repeat Force’s uncorrected subtraction or claim to have read the regimental report from this secondhand footnote.",
+      "citations": [
+        {
+          "source_id": "force-1881-shiloh",
+          "section": "pp178-180",
+          "locator": "pp178-180",
+          "quote": "The statement includes the Fourteenth Wisconsin and the Fifteenth Michigan, neither of which arrived till after the close of Sunday's battle."
+        },
+        {
+          "source_id": "force-1881-shiloh",
+          "section": "pp178-180",
+          "locator": "pp178-180",
+          "quote": "This is a mistake as to the Fifteenth Michigan, which lost, Sunday, 33 killed, 64 wounded, and 7 missing."
+        }
+      ]
+    },
+    {
+      "id": "force-monday-reinforcements",
+      "dimension": "strength",
+      "value": "Force gives approximate Monday reinforcements of 20,000 from Buell, 6,500 from Lew Wallace, and 1,400 from other regiments.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "These are rounded later-history figures. Monday participation is not proof that everyone first arrived Monday or was deployable at dawn. The Army handbook’s 5,800 for Wallace and the April 4 return’s 7,564 are retained as different observations.",
+      "citations": [
+        {
+          "source_id": "force-1881-shiloh",
+          "section": "pp178-180",
+          "locator": "pp178-180",
+          "quote": "The reinforcements of Monday numbered, of Buell's army, about twenty thousand; Lewis Wallace, sixty-five hundred; other regiments, about fourteen hundred."
+        }
+      ]
+    },
+    {
+      "id": "wallace-handbook-strength",
+      "dimension": "strength",
+      "value": "The Army handbook describes Wallace’s division as 5,800 men who arrived after dark April 6 and did not fight that day.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "The narrative does not resolve the population underlying 5,800 versus the return’s 7,564 or Force’s 6,500. Its explanation of delay is an interpretation. Do not average these counts or label the narrative count present-for-duty.",
+      "citations": [
+        {
+          "source_id": "gudmens-shiloh-handbook",
+          "section": "p85",
+          "locator": "p85",
+          "quote": "Lew Wallace did not arrive at the battlefield until after dark on 6 April. Due to the vague orders and Wallace’s marching decisions, the 3d Division’s 5,800 men did not fight that day."
+        }
+      ]
+    },
+    {
+      "id": "nelson-evening-crossing",
+      "dimension": "strength",
+      "value": "The Army handbook places Nelson’s leading brigade across the river from Pittsburg Landing at 17:00 April 6, and about 600 men west of the river and in line by 18:00.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "The leading contingent’s crossing is not the whole Army of the Ohio’s arrival. Clock times are this secondary account’s reported local times, with no inferred UTC offset.",
+      "citations": [
+        {
+          "source_id": "gudmens-shiloh-handbook",
+          "section": "p113",
+          "locator": "p113",
+          "quote": "At 1700 Nelson’s lead brigade, commanded by COL Jacob Ammen, arrived across the river from Pittsburg Landing. Nelson arranged for boats in the river to start moving his men across, and by 1800 he had about 600 men west of the river and in line."
+        }
+      ]
+    },
+    {
+      "id": "buell-divisions-arrive",
+      "dimension": "responsibility",
+      "value": "Grant reports Crittenden and McCook arriving during the night. Buell says only Nelson and Crittenden were on the ground when they moved soon after 5 a.m. April 7, with McCook arriving during deployment.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Arrival in the vicinity, landing, deployment and fighting readiness are distinct events. These accounts do not support a single timestamp for the full reinforcement total.",
+      "citations": [
+        {
+          "source_id": "or-grant-shiloh-report",
+          "section": "p109",
+          "locator": "p109",
+          "quote": "During the night the divisions under Generals Crittenden and Mc- Cook arrived."
+        },
+        {
+          "source_id": "or-buell-shiloh-report",
+          "section": "p293",
+          "locator": "p293",
+          "quote": "Soon after 5 o'clock on the morning of the 7th General Nelson's and General Crittenden's divisions, the only ones yet arrived on the ground, moved promptly forward to meet the enemy."
+        },
+        {
+          "source_id": "or-buell-shiloh-report",
+          "section": "p293",
+          "locator": "p293",
+          "quote": "By this time McCook's division arrived >n the ground, and was immediately formed on the right of Crittenden's."
+        }
+      ]
+    },
+    {
+      "id": "union-command-authority",
+      "dimension": "responsibility",
+      "value": "Halleck’s April 5 order says Buell will exercise separate command unless attacked, in which case Grant may take general command. Grant’s report acknowledges Buell’s distinct army and field role.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Formal authority, tactical direction, and personal decision responsibility must be distinguished. Issue date does not establish receipt time. No equal division of battle credit follows from these names.",
+      "citations": [
+        {
+          "source_id": "or-halleck-orders",
+          "section": "p94-april5",
+          "locator": "p94-april5",
+          "quote": "You will act in concert, but he will exercise his separate command, unless the enemy should attack you. In that case you are authorized to take the general command."
+        },
+        {
+          "source_id": "or-grant-shiloh-report",
+          "section": "p109",
+          "locator": "p109",
+          "quote": "General Buell, coming on the field with a distinct army long under Jiis command"
+        }
+      ]
+    },
+    {
+      "id": "wallace-order-dispute",
+      "dimension": "responsibility",
+      "value": "The Army handbook says the written order sent to Wallace was lost and summarizes conflicting recollections: a river-side route versus taking position on the army’s right.",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "This is a sourced account of a dispute, not inspection of the missing order. Responsibility for delay remains unresolved; later recollections require their own dates and incentives.",
+      "citations": [
+        {
+          "source_id": "gudmens-shiloh-handbook",
+          "section": "p84",
+          "locator": "p84",
+          "quote": "Wallace handed the order to one of his staff officers, Captain Frederick Knefler, who put it under his sword belt. Sometime during the day the orders fell out of the belt, an event that would haunt Wallace for the rest of his life."
+        },
+        {
+          "source_id": "gudmens-shiloh-handbook",
+          "section": "p84",
+          "locator": "p84",
+          "quote": "After the battle there was a controversy about Wallace’s movements to the battle. Grant and his staff officers said the order told Wallace to take “the road nearest to and parallel with the river.” Wallace and his staff of - ficers, however, said the order told them to “come up and take position on the right of the Army.”"
+        }
+      ]
+    },
+    {
+      "id": "confederate-assigned-objective",
+      "dimension": "objectives",
+      "value": "Beauregard’s report describes the objective as striking Grant before Buell joined, then removing captured resources while retaining Corinth as the strategic point.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Retrospective stated objective, not a recovered complete set of prior orders. A campaign evaluation must distinguish destruction/capture, concentration timing, and retention of Corinth.",
+      "citations": [
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p385",
+          "locator": "p385",
+          "quote": "It was then determined to assume the offensive, and strike a sudden blow at the enemy, in position under General Grant on the west bank of the Tennessee, at Pittsburg, and in the direction of Savannah, before he was re-enforced by the army under General Buell, then known to be advancing for that purpose"
+        },
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p385",
+          "locator": "p385",
+          "quote": "It was never contemplated, however, to retain the position thus gained and abandon Corinth, the strategic point of the campaign."
+        }
+      ]
+    },
+    {
+      "id": "confederate-delay-account",
+      "dimension": "logistics",
+      "value": "Beauregard reports planning an early April 5 attack, delayed until April 6 after difficult marching and rain on the night of April 4.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Preserve the report’s planned date and stated causes. A delayed attack may reflect both inherited weather and command decisions; causal classification requires an earlier replacement boundary.",
+      "citations": [
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p385",
+          "locator": "p385",
+          "quote": "It was expected we should be able to reach the enemy's lines in time to attack iim early on the 5th instant."
+        },
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p386",
+          "locator": "p386",
+          "quote": "storm on the night of the 4th, which drenched the troops in bivouac; hence our forces did not reach the intersection of the roads from Pitts- burg and Hamburg, in the immediate vicinity of the enemy, until late Saturday afternoon."
+        }
+      ]
+    },
+    {
+      "id": "reported-exhaustion",
+      "dimension": "logistics",
+      "value": "Both Grant and Beauregard describe fatigue and rain as constraints; Beauregard additionally says his men fought over twelve hours without food.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Participant explanations for decisions, not measured army-wide readiness. No numerical exhaustion score or common coefficient is inferred.",
+      "citations": [
+        {
+          "source_id": "or-grant-shiloh-report",
+          "section": "p109",
+          "locator": "p109",
+          "quote": "My force was too much fatigued from two days' hard fighting and exposure in the open air to a drenching rain during the intervening night to pursue immediately."
+        },
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p387",
+          "locator": "p387",
+          "quote": "Darkness was close at hand ; officers and men were, exhausted by a combat of over twelve hours without food, and jaded by the march of the preceding day through mud and water."
+        }
+      ]
+    },
+    {
+      "id": "pursuit-and-campaign",
+      "dimension": "outcome",
+      "value": "Buell reports limited April 7 pursuit and says he lacked cavalry and road knowledge; Grant reports that subsequent pursuit found the main Confederate army had retreated in good order.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Battlefield victory does not imply destruction of the opposing army or completion of the Corinth campaign. These are attributed accounts, not a quantitative campaign contribution.",
+      "citations": [
+        {
+          "source_id": "or-buell-shiloh-report",
+          "section": "p295",
+          "locator": "p295",
+          "quote": "The pursuit was continued iio farther that day. I was without cav alry, and the different corps had become a good deal scattered in a pursuit over a country which screened the movements of the enemy, and the roads of which I knew practically nothing."
+        },
+        {
+          "source_id": "or-grant-shiloh-report",
+          "section": "p109",
+          "locator": "p109",
+          "quote": "General Sherman, however, followed the enemy, finding that the main part of the army had retreated in good order."
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Reconcile the April 4–5 return’s omissions and unit locations with April 6 morning availability; distinguish engaged-over-day from present at first contact.",
+    "Inspect Confederate reports Nos. 136 and 137 flagged by the p.396 return, and trace the NPS 44,968 total before selecting a comparable strength definition.",
+    "Trace regimental arrivals, detachments and noncombatants behind Wallace counts 7,564, 6,500 and 5,800; do not average them.",
+    "Recover the underlying Nelson/Ammen crossing reports and Buell divisional returns; separate bank arrival, crossing, deployment and participation.",
+    "Establish receipt/modification of Halleck’s March 20 and April 5 instructions; locate the precise order to await Buell at Pittsburg Landing.",
+    "Trace Beauregard’s special dispatch and staff notification of Johnston’s death; do not equate death time with effective command transfer.",
+    "Inspect dated Wallace/Grant staff accounts and the Force footnote’s regimental evidence; responsibility remains disputed.",
+    "Obtain independent historical review of these extractions and proposed boundaries before any feature-admission design."
+  ],
+  "revision": "shiloh-research-2026-09-20",
+  "supersedes": {
+    "path": "data/evidence/history/TN003.v1.json",
+    "sha256": "0a8674873a63dbb049cc49e955667dd9f32cbcaa05b2b4e63878950dc7db31d9"
+  },
+  "entities": [
+    {
+      "id": "grant",
+      "name": "Ulysses S. Grant",
+      "kind": "person",
+      "side": "US"
+    },
+    {
+      "id": "buell",
+      "name": "Don Carlos Buell",
+      "kind": "person",
+      "side": "US"
+    },
+    {
+      "id": "halleck",
+      "name": "Henry W. Halleck",
+      "kind": "person",
+      "side": "US"
+    },
+    {
+      "id": "lew-wallace",
+      "name": "Lew (Lewis) Wallace",
+      "kind": "person",
+      "side": "US"
+    },
+    {
+      "id": "johnston",
+      "name": "Albert Sidney Johnston",
+      "kind": "person",
+      "side": "CS"
+    },
+    {
+      "id": "beauregard",
+      "name": "P. G. T. Beauregard",
+      "kind": "person",
+      "side": "CS"
+    },
+    {
+      "id": "union-shiloh",
+      "name": "Union forces at Shiloh (source-defined scope)",
+      "kind": "formation",
+      "side": "US"
+    },
+    {
+      "id": "army-tennessee",
+      "name": "Army of the Tennessee",
+      "kind": "formation",
+      "side": "US"
+    },
+    {
+      "id": "army-ohio",
+      "name": "Army of the Ohio",
+      "kind": "formation",
+      "side": "US"
+    },
+    {
+      "id": "wallace-division",
+      "name": "Third Division, Army of the Tennessee (Lew Wallace)",
+      "kind": "formation",
+      "side": "US"
+    },
+    {
+      "id": "nelson-leading-contingent",
+      "name": "Nelson division leading contingent west of river",
+      "kind": "formation",
+      "side": "US"
+    },
+    {
+      "id": "other-union-regiments",
+      "name": "Other Union regiments in Force’s reinforcement account",
+      "kind": "formation",
+      "side": "US"
+    },
+    {
+      "id": "army-mississippi",
+      "name": "Confederate Army of the Mississippi",
+      "kind": "formation",
+      "side": "CS"
+    }
+  ],
+  "quantities": [
+    {
+      "id": "nps-union-total",
+      "claim_id": "strength-total",
+      "citation_index": 0,
+      "entity_id": "union-shiloh",
+      "unit": "people",
+      "lower": 65085,
+      "upper": 65085,
+      "basis": "reported_engaged",
+      "estimate_kind": "reported_exact",
+      "period": {
+        "start": "1862-04-06",
+        "end": "1862-04-07",
+        "label": "Whole engagement"
+      },
+      "location": "Shiloh",
+      "scope": "NPS total for US forces",
+      "recorded_at": null,
+      "note": "Source precision is not historical certainty; opening availability unestablished."
+    },
+    {
+      "id": "nps-confederate-total",
+      "claim_id": "strength-total",
+      "citation_index": 0,
+      "entity_id": "army-mississippi",
+      "unit": "people",
+      "lower": 44968,
+      "upper": 44968,
+      "basis": "reported_engaged",
+      "estimate_kind": "reported_exact",
+      "period": {
+        "start": "1862-04-06",
+        "end": "1862-04-07",
+        "label": "Whole engagement"
+      },
+      "location": "Shiloh",
+      "scope": "NPS total for CS forces",
+      "recorded_at": null,
+      "note": "Different definition/source from Jordan’s effective return; do not substitute silently."
+    },
+    {
+      "id": "union-paper-total",
+      "claim_id": "union-return-strength",
+      "citation_index": 0,
+      "entity_id": "army-tennessee",
+      "unit": "people",
+      "lower": 44895,
+      "upper": 44895,
+      "basis": "present_for_duty",
+      "estimate_kind": "reported_exact",
+      "period": {
+        "start": "1862-04-04",
+        "end": "1862-04-05",
+        "label": "Dates of underlying returns"
+      },
+      "location": "Multiple divisional locations, including Wallace away from Pittsburg",
+      "scope": "Compiled divisional return aggregates with explicit omissions",
+      "recorded_at": null,
+      "note": "Contains Wallace’s 7,564; excludes some Sixth Division strengths and division staffs. Not opening combatants."
+    },
+    {
+      "id": "wallace-april4-return",
+      "claim_id": "union-return-strength",
+      "citation_index": 1,
+      "entity_id": "wallace-division",
+      "unit": "people",
+      "lower": 7564,
+      "upper": 7564,
+      "basis": "present_for_duty",
+      "estimate_kind": "reported_exact",
+      "period": {
+        "start": "1862-04-04",
+        "end": "1862-04-04",
+        "label": "Return dated April 4"
+      },
+      "location": "Wallace’s divisional station, not April 6 Pittsburg line",
+      "scope": "Officers and men present for duty in Third Division",
+      "recorded_at": "1862-04-04",
+      "note": "Return explicitly says division not in April 6 battle; no assumption all were available for the march."
+    },
+    {
+      "id": "confederate-before",
+      "claim_id": "confederate-return-before",
+      "citation_index": 1,
+      "entity_id": "army-mississippi",
+      "unit": "people",
+      "lower": 40335,
+      "upper": 40335,
+      "basis": "reported_effective",
+      "estimate_kind": "reported_exact",
+      "period": {
+        "start": null,
+        "end": null,
+        "label": "Before Shiloh; underlying muster date unstated"
+      },
+      "location": "Army participating in Shiloh operation",
+      "scope": "Infantry, artillery and cavalry in Jordan’s return",
+      "recorded_at": "1862-04-21",
+      "note": "Filed April 21; disagreement with other returns explicitly unresolved."
+    },
+    {
+      "id": "confederate-after",
+      "claim_id": "confederate-return-after",
+      "citation_index": 1,
+      "entity_id": "army-mississippi",
+      "unit": "people",
+      "lower": 29636,
+      "upper": 29636,
+      "basis": "reported_effective",
+      "estimate_kind": "reported_exact",
+      "period": {
+        "start": null,
+        "end": null,
+        "label": "After Shiloh; underlying muster date unstated"
+      },
+      "location": "Army after Shiloh, exact muster location unestablished",
+      "scope": "Effective total after battle in Jordan’s return",
+      "recorded_at": "1862-04-21",
+      "note": "Post-outcome observation; the April 21 forwarding date does not establish an underlying muster date. This is not an April 7 opening estimate."
+    },
+    {
+      "id": "force-sunday-engaged",
+      "claim_id": "force-opening-estimate",
+      "citation_index": 0,
+      "entity_id": "union-shiloh",
+      "unit": "people",
+      "lower": 32000,
+      "upper": 33000,
+      "basis": "reported_engaged",
+      "estimate_kind": "range",
+      "period": {
+        "start": "1862-04-06",
+        "end": "1862-04-06",
+        "label": "Participation over Sunday, not first-contact strength"
+      },
+      "location": "Shiloh",
+      "scope": "Officers, noncommissioned officers and privates Force considers actually engaged",
+      "recorded_at": null,
+      "note": "Historical estimate range, not confidence interval. Interpretation rests partly on a footnote-corrected calculation."
+    },
+    {
+      "id": "force-buell",
+      "claim_id": "force-monday-reinforcements",
+      "citation_index": 0,
+      "entity_id": "army-ohio",
+      "unit": "people",
+      "lower": 20000,
+      "upper": 20000,
+      "basis": "reported_reinforcements",
+      "estimate_kind": "approximate",
+      "period": {
+        "start": "1862-04-07",
+        "end": "1862-04-07",
+        "label": "Monday reinforcement account; not exact arrival window"
+      },
+      "location": "Shiloh",
+      "scope": "Reinforcements as grouped by Force",
+      "recorded_at": null,
+      "note": "Rounded later estimate; not all necessarily first arrived Monday. No sum is admitted as dawn availability."
+    },
+    {
+      "id": "force-wallace",
+      "claim_id": "force-monday-reinforcements",
+      "citation_index": 0,
+      "entity_id": "wallace-division",
+      "unit": "people",
+      "lower": 6500,
+      "upper": 6500,
+      "basis": "reported_reinforcements",
+      "estimate_kind": "approximate",
+      "period": {
+        "start": "1862-04-07",
+        "end": "1862-04-07",
+        "label": "Monday reinforcement account; not exact arrival window"
+      },
+      "location": "Shiloh",
+      "scope": "Reinforcements as grouped by Force",
+      "recorded_at": null,
+      "note": "Rounded later estimate; not all necessarily first arrived Monday. No sum is admitted as dawn availability."
+    },
+    {
+      "id": "force-other",
+      "claim_id": "force-monday-reinforcements",
+      "citation_index": 0,
+      "entity_id": "other-union-regiments",
+      "unit": "people",
+      "lower": 1400,
+      "upper": 1400,
+      "basis": "reported_reinforcements",
+      "estimate_kind": "approximate",
+      "period": {
+        "start": "1862-04-07",
+        "end": "1862-04-07",
+        "label": "Monday reinforcement account; not exact arrival window"
+      },
+      "location": "Shiloh",
+      "scope": "Reinforcements as grouped by Force",
+      "recorded_at": null,
+      "note": "Rounded later estimate; not all necessarily first arrived Monday. No sum is admitted as dawn availability."
+    },
+    {
+      "id": "handbook-wallace",
+      "claim_id": "wallace-handbook-strength",
+      "citation_index": 0,
+      "entity_id": "wallace-division",
+      "unit": "people",
+      "lower": 5800,
+      "upper": 5800,
+      "basis": "reported_reinforcements",
+      "estimate_kind": "reported_exact",
+      "period": {
+        "start": "1862-04-06",
+        "end": "1862-04-06",
+        "label": "Arrival after dark in handbook narrative"
+      },
+      "location": "Shiloh",
+      "scope": "Division arriving after dark; strength basis not specified",
+      "recorded_at": null,
+      "note": "Reported number as written, not validated exact headcount; conflicts in scope or magnitude with Force and field return remain."
+    },
+    {
+      "id": "handbook-nelson-leading",
+      "claim_id": "nelson-evening-crossing",
+      "citation_index": 0,
+      "entity_id": "nelson-leading-contingent",
+      "unit": "people",
+      "lower": 600,
+      "upper": 600,
+      "basis": "reported_present",
+      "estimate_kind": "approximate",
+      "period": {
+        "start": "1862-04-06",
+        "end": "1862-04-06",
+        "label": "By 18:00 as reported by handbook"
+      },
+      "location": "West bank of Tennessee River, in line",
+      "scope": "Leading contingent of Nelson’s division",
+      "recorded_at": null,
+      "note": "Not Nelson’s complete division or Buell’s army; approximate number and source-reported time."
+    }
+  ],
+  "events": [
+    {
+      "id": "halleck-concentration-order",
+      "date": "1862-03-20",
+      "time_label": "Issue date only; receipt time unknown",
+      "entity_ids": [
+        "halleck",
+        "grant"
+      ],
+      "claim_ids": [
+        "await-buell"
+      ],
+      "note": "A superior’s constraint; not yet a campaign replacement boundary."
+    },
+    {
+      "id": "union-command-order",
+      "date": "1862-04-05",
+      "time_label": "Issue date only; receipt time unknown",
+      "entity_ids": [
+        "halleck",
+        "grant",
+        "buell"
+      ],
+      "claim_ids": [
+        "union-command-authority"
+      ],
+      "note": "Separate command plus conditional general authority; distinguish authorization from actual tactical direction."
+    },
+    {
+      "id": "johnston-death",
+      "date": "1862-04-06",
+      "time_label": "About 14:30, source-reported local time",
+      "entity_ids": [
+        "johnston",
+        "beauregard"
+      ],
+      "claim_ids": [
+        "command-transfer"
+      ],
+      "note": "Time is the reported death, not a measured timestamp for Beauregard’s notification or effective assumption."
+    },
+    {
+      "id": "nelson-leading-crossing",
+      "date": "1862-04-06",
+      "time_label": "17:00 opposite landing; about 600 in line by 18:00, handbook account",
+      "entity_ids": [
+        "nelson-leading-contingent",
+        "buell"
+      ],
+      "claim_ids": [
+        "nelson-evening-crossing"
+      ],
+      "note": "Only the leading contingent; whole-army arrival is not a single event."
+    },
+    {
+      "id": "wallace-late-arrival",
+      "date": "1862-04-06",
+      "time_label": "After dark; no precise clock time adopted",
+      "entity_ids": [
+        "lew-wallace",
+        "wallace-division"
+      ],
+      "claim_ids": [
+        "wallace-handbook-strength",
+        "wallace-order-dispute"
+      ],
+      "note": "Absence from Sunday fighting is separable from disputed responsibility for the delay."
+    },
+    {
+      "id": "april7-deployment",
+      "date": "1862-04-07",
+      "time_label": "Soon after 05:00 for Nelson/Crittenden; McCook later during deployment",
+      "entity_ids": [
+        "buell",
+        "army-ohio"
+      ],
+      "claim_ids": [
+        "buell-divisions-arrive"
+      ],
+      "note": "Buell’s sequence does not establish that the entire reinforcement total was on the line at dawn."
+    },
+    {
+      "id": "limited-pursuit",
+      "date": "1862-04-07",
+      "time_label": "After main battle; subsequent reconnaissance described separately",
+      "entity_ids": [
+        "grant",
+        "buell",
+        "army-mississippi"
+      ],
+      "claim_ids": [
+        "pursuit-and-campaign"
+      ],
+      "note": "Preserve distinction between occupying the field and destroying the opposing force."
+    }
+  ]
+}
