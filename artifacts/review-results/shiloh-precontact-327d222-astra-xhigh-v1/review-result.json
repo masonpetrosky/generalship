@@ -1,0 +1,648 @@
+{
+  "schema_version": 1,
+  "review_id": "shiloh-precontact-327d222-astra-xhigh-v1",
+  "reviewer": {
+    "task_name": "/root/shiloh_precontact_review",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "fork_turns": "none",
+    "date": "2026-09-20",
+    "kind": "separate_ai_analysis"
+  },
+  "input_commit": "327d222195b5526423390c25f59b8330a21e88c0",
+  "dispatch": {
+    "path": "artifacts/review-results/shiloh-precontact-327d222-astra-xhigh-v1/dispatch.json",
+    "sha256": "edb8b9bb4bfc7062122a8cefb0dea357bfbf5b729219f99251bb2d8ea276904b"
+  },
+  "input_bindings": {
+    "data/sources.json": "1b73c52f95dc8308b5ad3d3a9fef8759aaf7ac61286ea4ef2a4fd5ea881f9fd4",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "design/shiloh-precontact-segmentation-v1/research-record.json": "c654c55d678692590d5ac2223e92f8b110f9dafc05c0b9c8f6ac75da0f65cafe",
+    "design/shiloh-precontact-segmentation-v1/reference-audit.py": "f24a677dbf3725af460e0acd1a3cdcabdb49714fb066e3e1c79f726d2f9014bd",
+    "docs/research/shiloh-precontact-segmentation-v1.md": "14b4ff5ea9704254deba46ba1d785dc017871b11c8cc6e5d5eae7b81f2623dc7"
+  },
+  "decision": "changes_requested",
+  "decision_scope": "One required literal-transcription finding with two changes in one passage. The bounded conditional segmentation recommendation is acceptable as research guidance; no complete historical boundary or feature admission is approved.",
+  "required_findings": [
+    {
+      "id": "PS-R1",
+      "required": true,
+      "priority": 3,
+      "category": "literal_transcription_fidelity",
+      "title": "Restore two omitted or altered phrases in Jordan's April 4 order",
+      "status": "unresolved_at_review",
+      "affected_source": {
+        "source_id": "or-april4-march-orders-v1",
+        "path": "data/raw/shiloh/precontact-segmentation-v1/or-april4-march-orders-v1.txt",
+        "raw_sha256": "fd66fc18e82492c35eb208733d781553e568dc1dd7f2e577c4da366d6b5c53b5",
+        "source_metadata_sha256": "97f36798f8bdbc1de97f0ead960e99db71b68297c4705020b90984e1a24db43d",
+        "parent_sha256": "a52c65ca6fd0debeb8ab5c409bf09091f0478a3a2a3f9732f183f30502cbc955",
+        "section_document_dates": {
+          "p390-johnston": "1862-04-04",
+          "p391-bragg": "1862-04-04",
+          "p391-jordan-revision": "1862-04-04",
+          "p392-polk-receipt": "1862-04-04"
+        },
+        "independence_group": "or-beauregard"
+      },
+      "section": "p391-jordan-revision",
+      "assertion_id": "PS05",
+      "locator": "Official Records, Series I, volume X, part 2, printed p.391, lower Jordan-to-Polk document dated Monterey, April 4, 1862; first paragraph.",
+      "evidence_scan": {
+        "source_id": "or10-2-precontact-p391-facsimile-v1",
+        "path": "data/raw/shiloh/precontact-segmentation-v1/or10-2-precontact-p391-facsimile-v1.png",
+        "raw_sha256": "deaeba57026d32a63e228b3637ad0ded0f4946a10eca3711a5edd861f7bda135",
+        "source_metadata_sha256": "ab866db37a020066b1a8a3dd142b270fbee485cdb34669afb65138eba726ffd5",
+        "parent_sha256": "a52c65ca6fd0debeb8ab5c409bf09091f0478a3a2a3f9732f183f30502cbc955",
+        "section_document_dates": null,
+        "independence_group": "or-beauregard"
+      },
+      "current_quote": "The commanding general directs me to say, on reflection, he wishes you to march promptly with your command at 3 o'clock in the morning in support of the movement ordered to be made at that hour by Generals Hardee and Bragg. It is of the utmost importance for the success of this movement that your troops shall move precisely at the time designated.",
+      "replacement_quote": "The commanding general directs me to say, on reflection, he wishes you to march promptly with your command at 3 o'clock in the morning to the support of the movement ordered to be made at that hour by Major-Generals Hardee and Bragg. It is of the utmost importance for the success of this movement that your troops shall move precisely at the time designated.",
+      "exact_changes": [
+        {
+          "from": "in support of the movement",
+          "to": "to the support of the movement"
+        },
+        {
+          "from": "by Generals Hardee and Bragg.",
+          "to": "by Major-Generals Hardee and Bragg."
+        }
+      ],
+      "reason": "The registered image visibly prints both replacement phrases. The declared transformation allows whitespace, line-wrap hyphen, typographic apostrophe and heading-dash normalization, not substitution of 'in' for 'to the' or removal of 'Major-'. The source section and PS05 anchor therefore repeat a literal error despite passing exact-quote checks.",
+      "interpretation_impact": "No change to the attributed order/intent/receipt versus execution distinction or conditional precursor recommendation is required.",
+      "required_action": "Add an immutable corrected successor source with these two lexical changes, preserve v1 and this prepared review input, and bind the corrected quotation and source hashes in a versioned correction record. Do not silently overwrite frozen evidence.",
+      "discovery_provenance": "Reviewer first identified the missing Major- during its page-image inspection. The primary then identified the support-phrase discrepancy in parallel and requested reinspection; the reviewer reopened the registered image and independently confirmed both printed readings."
+    }
+  ],
+  "nonblocking_notes": [
+    {
+      "id": "PS-N1",
+      "topic": "Conditional opening segmentation",
+      "note": "The explicit rule does not treat overnight rest, a date change, an order, quiet claims, or editorial labeling as decisive. April 4 return/retirement plus subsequent approach evidence supports the stated working recommendation; Ricker's broader interpretation is retained. This is a source-based classification proposal, not a proven break in every local hostile contact.",
+      "requested_change": null
+    },
+    {
+      "id": "PS-N2",
+      "topic": "Weaker April 3 closure",
+      "note": "Both memo and machine record explicitly disclose the lack of an event-specific ending for every April 3 incident and possible incident overlap. That qualification is adequate for the non-admitting working recommendation. It is insufficient to close an admission boundary or establish continuity for unidentified local contacts; keep the existing limit if later summaries reuse the recommendation.",
+      "requested_change": null
+    },
+    {
+      "id": "PS-N3",
+      "topic": "Howell and source dependence",
+      "note": "Reed is a 1909 compiler, not a newly independent witness. Wood's brigade-specific no-advance and Sherman's quiet-now statements do not refute Howell. OCR non-detection is correctly treated as a lead, not absence. Keep Howell unresolved until an inspected underlying account and continuity/termination link support a change.",
+      "requested_change": null
+    }
+  ],
+  "inspected_coverage": {
+    "assertions_reviewed": 10,
+    "assertions_total": 10,
+    "passage_anchors_reviewed": 24,
+    "passage_anchors_total": 24,
+    "new_selected_text_sources_reviewed": 9,
+    "new_selected_text_sources_total": 9,
+    "selected_historical_sections_in_new_texts_reviewed": 26,
+    "additional_existing_reed_anchor_reviewed": 1,
+    "registered_page_images_visually_inspected": 19,
+    "registered_page_images_total": 19,
+    "or_pages": 18,
+    "reed_pages": 1,
+    "new_page_images": 15,
+    "reused_page_images": 4,
+    "visual_method": "Direct tools.view_image inspection of every listed original registered PNG. Selected quoted passages, relevant datelines, signatures and nearby context; not every word on every page.",
+    "affected_text_sources": 1,
+    "affected_anchors": 1,
+    "lexical_discrepancies_identified": 2,
+    "independence_limit": "Purposive review; no extraction-error rate, source independence or historical truth established."
+  },
+  "text_source_bindings": [
+    {
+      "source_id": "or-chalmers-craft-precontact-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or-chalmers-craft-precontact-v1.txt",
+      "raw_sha256": "f41f7f36a33b529ee7f7589659bccda062830f029cdd35b05ccaf41c4b5e5fba",
+      "source_metadata_sha256": "31c27cf70510e386048797726e2bef8c95bbff62fc5ba7923426bbbe82a7f863",
+      "parent_sha256": "a52c65ca6fd0debeb8ab5c409bf09091f0478a3a2a3f9732f183f30502cbc955",
+      "section_document_dates": {
+        "p387-provisional": "1862-04-03",
+        "p388-update": "1862-04-03"
+      },
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or-sherman-april4-return-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or-sherman-april4-return-v1.txt",
+      "raw_sha256": "3954b361f1a0593d15938048cf57ad613bae6a6816e6c32a7443818e580b0b77",
+      "source_metadata_sha256": "1451a45f3ece37430ad8f658b381a09efe6a8bbcf8afcd6d8765d327890e9642",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": {
+        "p89-heading": "1862-04-05",
+        "p90-return": "1862-04-05"
+      },
+      "independence_group": "or-sherman"
+    },
+    {
+      "source_id": "or-buckland-ricker-return-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or-buckland-ricker-return-v1.txt",
+      "raw_sha256": "adba8a2237f87350b91b97316e92187fcdca18fefe840bf91df849117dedce33",
+      "source_metadata_sha256": "554ad1c611bed8920dfd7bd727d3f8852e90d5f70febedf803bcfe8595259bce",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": {
+        "p91-buckland": "1862-04-05",
+        "p92-ricker-retirement": null,
+        "p92-ricker-framing": null
+      },
+      "independence_group": "or-sherman"
+    },
+    {
+      "source_id": "or-hardee-april4-contact-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or-hardee-april4-contact-v1.txt",
+      "raw_sha256": "4454df47ff916345bc65a646c3c35e1ff2ee1d58a16048733364ef4b18106dfe",
+      "source_metadata_sha256": "acf4e7804578a76c87c5c8bb0889808b5365796fe270165575560a68fe39ec2d",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": {
+        "p93-letter": "1862-04-04"
+      },
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or-april4-march-orders-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or-april4-march-orders-v1.txt",
+      "raw_sha256": "fd66fc18e82492c35eb208733d781553e568dc1dd7f2e577c4da366d6b5c53b5",
+      "source_metadata_sha256": "97f36798f8bdbc1de97f0ead960e99db71b68297c4705020b90984e1a24db43d",
+      "parent_sha256": "a52c65ca6fd0debeb8ab5c409bf09091f0478a3a2a3f9732f183f30502cbc955",
+      "section_document_dates": {
+        "p390-johnston": "1862-04-04",
+        "p391-bragg": "1862-04-04",
+        "p391-jordan-revision": "1862-04-04",
+        "p392-polk-receipt": "1862-04-04"
+      },
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or-april5-precontact-dispatches-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or-april5-precontact-dispatches-v1.txt",
+      "raw_sha256": "018879c39dd271f76c70851802d0ffc28f7e90ef78895c2fed1ffb45f3f62ca5",
+      "source_metadata_sha256": "ab79d5aece8e9d08bc2d320fc19dcba46a70414911a440cf23c0d27d67b0370a",
+      "parent_sha256": "a52c65ca6fd0debeb8ab5c409bf09091f0478a3a2a3f9732f183f30502cbc955",
+      "section_document_dates": {
+        "p93-sherman-quiet": "1862-04-05",
+        "p94-sherman-expectation": "1862-04-05",
+        "p94-grant-earlier": "1862-04-05"
+      },
+      "independence_group": "or-mixed-reporting-chains"
+    },
+    {
+      "source_id": "or-hardee-1863-precontact-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or-hardee-1863-precontact-v1.txt",
+      "raw_sha256": "2edbe1e769caf3898612340fac64cc96506c3967feb25d85a210b4028c2e1574",
+      "source_metadata_sha256": "d859eefef03e3b0a0d72c7f7dc6b31177563c3465ca6f1272df1430100906fc1",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": {
+        "p566-heading": "1863-02-07",
+        "p567-bivouac": "1863-02-07",
+        "p567-renewal": "1863-02-07",
+        "p567-postponement": "1863-02-07",
+        "p568-sunday": "1863-02-07",
+        "p571-caveat": "1863-02-07"
+      },
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or-wood-precontact-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or-wood-precontact-v1.txt",
+      "raw_sha256": "a403f4b3923f840be7b2fc173b7cd7d6f3d67567be78af2acde6bdf753b531d4",
+      "source_metadata_sha256": "4d27fed3afce5165e99645391221f0ef6aa181fab2fa69e4192cc5a8f52f40cb",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": {
+        "p590-heading": "1862-04-15",
+        "p591-saturday": "1862-04-15",
+        "p591-sunday": "1862-04-15"
+      },
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or-precontact-editorial-headings-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or-precontact-editorial-headings-v1.txt",
+      "raw_sha256": "1998aedbe481367dbe66fa8caede3efb3ecc301db987f9279aa039049f89a05f",
+      "source_metadata_sha256": "fec7486b9725123526afee9f673e9aa6ded75ceb0ec3d71bf09a153c4c58722e",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": {
+        "p89-april4": null,
+        "p93-april6-7": null
+      },
+      "independence_group": "or-official-records-compilation"
+    },
+    {
+      "source_id": "reed-1909-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/reed-1909-opening-v1.txt",
+      "raw_sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+      "source_metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+      "parent_sha256": "31e0379e56cf87fa4770afddd9c5d0e5f8181d55790e54cb0bbf4bb60362af96",
+      "section_document_dates": null,
+      "independence_group": "reed-official-records-compilation"
+    }
+  ],
+  "visually_inspected_page_bindings": [
+    {
+      "source_id": "or10-1-precontact-p89-facsimile-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or10-1-precontact-p89-facsimile-v1.png",
+      "raw_sha256": "180e459efffd626c61125772eb0604142bc0fdbc66371d96a6f21c136e13e0a2",
+      "source_metadata_sha256": "b27ba592aab6fc65eac0864ef343ed949fa00d6c372dd7467a7e67e3e46905f1",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": null,
+      "independence_group": "or-mixed-reporting-chains"
+    },
+    {
+      "source_id": "or10-1-precontact-p93-facsimile-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or10-1-precontact-p93-facsimile-v1.png",
+      "raw_sha256": "3cdc23a0d8b9c0be0570758c2951636549833bd7f9df61a93f3ec4161e4c477f",
+      "source_metadata_sha256": "a85f41384448a7c853db7b7b4f39baf072cb074450c0f1ce36d06ee60d3029d4",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": null,
+      "independence_group": "or-mixed-reporting-chains"
+    },
+    {
+      "source_id": "or10-1-precontact-p566-facsimile-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or10-1-precontact-p566-facsimile-v1.png",
+      "raw_sha256": "bf8288a2c8f162e837618c9303b99ad12ef967954005cde6446889d6b84bb168",
+      "source_metadata_sha256": "81af656008763057f475c0a4a3f11aabad986d78a0bc46db979b58405caba07f",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": null,
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or10-1-precontact-p567-facsimile-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or10-1-precontact-p567-facsimile-v1.png",
+      "raw_sha256": "226e5ea908f48ee9465063e4d37380e001969b50b22ac8cf069d3550de3865df",
+      "source_metadata_sha256": "6079cad3f0fbe5703a3d84a60679705efd6b9203e3e3323c4cfc7f6b2a5d0e6e",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": null,
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or10-1-precontact-p568-facsimile-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or10-1-precontact-p568-facsimile-v1.png",
+      "raw_sha256": "8efe8fd3b283b05ea2b5008de72074590226e14c92c6e2de58ab9fc0750dff11",
+      "source_metadata_sha256": "850d609c345ce2a7dde8f748b5d6d99a6cf68208908177c18a1837c5d9eca2bf",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": null,
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or10-1-precontact-p571-facsimile-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or10-1-precontact-p571-facsimile-v1.png",
+      "raw_sha256": "9be6630283c532cfc932299255b0fa9d403dbebd4222f7c80533e6e28c98f1ac",
+      "source_metadata_sha256": "1bf6b79624935585735d921c64a23a5f7f72d24a8fb0cc4d2e7b1c96ae0d14e7",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": null,
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or10-1-precontact-p590-facsimile-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or10-1-precontact-p590-facsimile-v1.png",
+      "raw_sha256": "b3b9cc0f7253a060b33105d28a40012bd8e2ac04a2b34891c0bbf953ce0b394c",
+      "source_metadata_sha256": "07792cecbb449dcfba8f16cfc81edf435a9a43993657efb911e866b46b349260",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": null,
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or10-1-precontact-p591-facsimile-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or10-1-precontact-p591-facsimile-v1.png",
+      "raw_sha256": "31cf1d8330b2f1b38d69039b4cdee46b422c7cd670a535feb4c3b53ee1a37485",
+      "source_metadata_sha256": "4b9d70c731aa2bf11c21ddf60821c29b6bb74bfbf94f2b3175d7f11dce6273e2",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": null,
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or10-2-precontact-p93-facsimile-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or10-2-precontact-p93-facsimile-v1.png",
+      "raw_sha256": "eca1f96ecee69a9bcbd7c59012cc19ce536685096378e14cb3078b191a85f0be",
+      "source_metadata_sha256": "17c0d4a731411ba1d585b88281254d6e8bd588e6755098ef67b8fda1983c5962",
+      "parent_sha256": "a52c65ca6fd0debeb8ab5c409bf09091f0478a3a2a3f9732f183f30502cbc955",
+      "section_document_dates": null,
+      "independence_group": "or-mixed-reporting-chains"
+    },
+    {
+      "source_id": "or10-2-precontact-p94-facsimile-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or10-2-precontact-p94-facsimile-v1.png",
+      "raw_sha256": "6fb160ccc45d5663f7664182a896eca4b84f2bcfe58be991e61692fa2ba77cf8",
+      "source_metadata_sha256": "fd283beb79812d4219e0a3db830bcc503c165357e8f1afce64f1f7cc5338b3ef",
+      "parent_sha256": "a52c65ca6fd0debeb8ab5c409bf09091f0478a3a2a3f9732f183f30502cbc955",
+      "section_document_dates": null,
+      "independence_group": "or-mixed-reporting-chains"
+    },
+    {
+      "source_id": "or10-2-precontact-p387-facsimile-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or10-2-precontact-p387-facsimile-v1.png",
+      "raw_sha256": "ef42bbec7dc5ea3a51dd230a657511666304b531e7d7b05f4cd68f73aed6aa96",
+      "source_metadata_sha256": "04a3f65b92dcf18bf83de9ffe3a8c0d9ed876c15e1a72df7535d5be227c68be3",
+      "parent_sha256": "a52c65ca6fd0debeb8ab5c409bf09091f0478a3a2a3f9732f183f30502cbc955",
+      "section_document_dates": null,
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or10-2-precontact-p388-facsimile-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or10-2-precontact-p388-facsimile-v1.png",
+      "raw_sha256": "e0020a00f8e2f80c2f54bdb673d3863a73453b124b89ff76f52bf75e1c95216a",
+      "source_metadata_sha256": "2cf15515beddbaf1762280157ca41a9a5d757ee368b67593b35069d9c24a39e0",
+      "parent_sha256": "a52c65ca6fd0debeb8ab5c409bf09091f0478a3a2a3f9732f183f30502cbc955",
+      "section_document_dates": null,
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or10-2-precontact-p390-facsimile-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or10-2-precontact-p390-facsimile-v1.png",
+      "raw_sha256": "c4082975795747575ee5bd04a6f06014b125c0034b8d887f888e74428a3ecd39",
+      "source_metadata_sha256": "67da1704db41b6b984f72a6840b3a7b02b61435afbaab23d97b15d56794cd537",
+      "parent_sha256": "a52c65ca6fd0debeb8ab5c409bf09091f0478a3a2a3f9732f183f30502cbc955",
+      "section_document_dates": null,
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or10-2-precontact-p391-facsimile-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or10-2-precontact-p391-facsimile-v1.png",
+      "raw_sha256": "deaeba57026d32a63e228b3637ad0ded0f4946a10eca3711a5edd861f7bda135",
+      "source_metadata_sha256": "ab866db37a020066b1a8a3dd142b270fbee485cdb34669afb65138eba726ffd5",
+      "parent_sha256": "a52c65ca6fd0debeb8ab5c409bf09091f0478a3a2a3f9732f183f30502cbc955",
+      "section_document_dates": null,
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or10-2-precontact-p392-facsimile-v1",
+      "path": "data/raw/shiloh/precontact-segmentation-v1/or10-2-precontact-p392-facsimile-v1.png",
+      "raw_sha256": "36c1db00197153745d1b12f85573b45e4b2ee7256a91502ac584efa755174418",
+      "source_metadata_sha256": "653c1ea129839a9106e602ee7cc9131a2e56e8f4c7b89ed50d8841dc5665fc3c",
+      "parent_sha256": "a52c65ca6fd0debeb8ab5c409bf09091f0478a3a2a3f9732f183f30502cbc955",
+      "section_document_dates": null,
+      "independence_group": "or-beauregard"
+    },
+    {
+      "source_id": "or10-1-contact-p90-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p90-facsimile-v1.png",
+      "raw_sha256": "c31e3efffc7a10181f128d57ab7801047380336bfe86875aa28f72657bc6bef3",
+      "source_metadata_sha256": "707c52708c541c44e9ee0e9407501ae0ebe8bd8851e7e7d1583ac7fca508cd35",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": null,
+      "independence_group": "or-sherman"
+    },
+    {
+      "source_id": "or10-1-contact-p91-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p91-facsimile-v1.png",
+      "raw_sha256": "e81eaeca4d692ee577bf5b81e75e1d978428045a7f171ff934df1340e7699838",
+      "source_metadata_sha256": "4e73704d1beae4a9fe985e99dcec5ab1cf2ec6b47b7b7e6c12658e43dd5cd7e4",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": null,
+      "independence_group": "or-sherman"
+    },
+    {
+      "source_id": "or10-1-contact-p92-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p92-facsimile-v1.png",
+      "raw_sha256": "ba2d04a7fbfcc9676354847130874be30dc1b27b31fc0a473fb51708681e8ca6",
+      "source_metadata_sha256": "15cf0629d48b94bfe5a79e11bbc18ff1a6fdf925ec51f1cced5027a555a0a4c1",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "section_document_dates": null,
+      "independence_group": "or-sherman"
+    },
+    {
+      "source_id": "reed-1909-contact-p68-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/reed-1909-contact-p68-facsimile-v1.png",
+      "raw_sha256": "bc33498cd910b2b01e20b03a0bc9735b1d305448259cace5fc282b0c153fe087",
+      "source_metadata_sha256": "d19b7319b778d0c5c34888eed52a94d9a2a889312b7e8065fc14de93de068964",
+      "parent_sha256": "31e0379e56cf87fa4770afddd9c5d0e5f8181d55790e54cb0bbf4bb60362af96",
+      "section_document_dates": null,
+      "independence_group": "reed-official-records-compilation"
+    }
+  ],
+  "assertion_assessments": [
+    {
+      "id": "PS01",
+      "result": "pass_with_stated_limits",
+      "anchors": 2,
+      "detail": "April 3 headings, Chalmers signature, Craft signature and selected wording verified on OR I.X.2 pp.387-388. Clanton's report is verbal and provisional; feared captures and incoming information are not confirmed observations or independent witnesses."
+    },
+    {
+      "id": "PS02",
+      "result": "pass_with_stated_limits",
+      "anchors": 1,
+      "detail": "Grant's April 5 dateline and 'yesterday and day before' verified on OR I.X.2 p.94. This supports attributed April 3-4 skirmishing without identifying it with Chalmers/Craft incidents."
+    },
+    {
+      "id": "PS03",
+      "result": "pass_with_stated_limits",
+      "anchors": 3,
+      "detail": "Sherman's April 5 heading on p.89 and return-after-night selection on p.90, Buckland's April 5 heading on p.90 and return selection on p.91, and Ricker's uncertain April 4 [?] heading and retirement on p.92 verified. Shared chain and lack of proof every outpost ceased firing remain explicit."
+    },
+    {
+      "id": "PS04",
+      "result": "pass_with_stated_limits",
+      "anchors": 1,
+      "detail": "April 4 dateline and Clanton retirement/repulse verified on OR I.X.1 p.93. Opposing descriptions are retained as attributed reports, without exact location or casualty admission."
+    },
+    {
+      "id": "PS05",
+      "result": "required_literal_correction_PS-R1",
+      "anchors": 4,
+      "detail": "All four selected passages and April 4 datelines inspected on OR I.X.2 pp.390-392. Johnston staging, Bragg delay, later Jordan order and Polk receipt are distinguished. Two lexical differences occur in the later Jordan paragraph. Earlier Jordan reserve order is a separate same-page document; 3 a.m. execution remains unproven."
+    },
+    {
+      "id": "PS06",
+      "result": "pass_with_stated_limits",
+      "anchors": 4,
+      "detail": "Hardee's February 7, 1863 dateline on p.566, three sequence passages on p.567 and lapse-of-time caveat on p.571 verified. The caveat belongs to the report ending before the separate October 29, 1862 documents on p.571."
+    },
+    {
+      "id": "PS07",
+      "result": "pass_with_stated_limits",
+      "anchors": 3,
+      "detail": "Wood's April 15 heading on p.590, brigade-specific Saturday and Sunday passages on p.591, and Hardee's Sunday passage on p.568 verified. No-advance is not no-contact; Sunday screen contact is retained before brigade/main advance; rival clocks are not adjudicated."
+    },
+    {
+      "id": "PS08",
+      "result": "pass_with_stated_limits",
+      "anchors": 2,
+      "detail": "Sherman's two April 5 documents across OR I.X.2 pp.93-94 verified, including the Not found footnote on the prior Grant note. Quiet-now and attack expectation remain local statements and belief, not evidence of no Howell encounter."
+    },
+    {
+      "id": "PS09",
+      "result": "pass_with_stated_limits",
+      "anchors": 3,
+      "detail": "Compiler headings on OR I.X.1 pp.89 and 93 and Ricker's opening-fight language on p.92 verified. Editorial dates are not composition/knowledge dates; broader participant framing remains visible."
+    },
+    {
+      "id": "PS10",
+      "result": "pass_with_stated_limits",
+      "anchors": 1,
+      "detail": "Reed p.68 visibly reports another engagement near Howell's on Saturday. The paragraph also narrates Friday and Sunday contacts; that juxtaposition does not establish continuity or an inspected underlying participant source. No 4:55 clock is adopted."
+    }
+  ],
+  "preservation": {
+    "base_commit": "10ba606b66e8433e248f52f39c5821e94b886680",
+    "prior_metadata_records_verified": 87,
+    "prior_distinct_raw_paths_verified": 84,
+    "preserved_files_verified_against_base_prepared_and_worktree": 72,
+    "preserved_file_bindings": {
+      "artifacts/admission/shiloh-opening-v2-check.json": "960bca09880c56cec4da33e172cdd5686d106efcaac2e1a407a5d1e745281711",
+      "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+      "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/assignment.md": "be120f52784b469a06961ef0aef6ffcff3cbfd3d40520f91a0aa6d87eb0b7dc2",
+      "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/dispatch.json": "ab60196b5b181944e1091483910c83f64654c95bfffbe974af998357d72eaf1c",
+      "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/intake-validation.json": "d67db2fd085085f6a8f1e62613fc312de236ab76772d648d8677a6d58a19e447",
+      "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/primary-assessment.md": "0c8e1ece4d380e071c17cb7d79226463435c9f80bbcd6d0ac57ace261681070c",
+      "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review-result.json": "31f77766d967787ae9ca74e7098b8341a59285df9105c8bedbd7c2d0dde46fac",
+      "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review.md": "d7624f3d3a0b2e5eee42d756f63fdc69442e35f6a39ac8ec57b2dfd34c119fef",
+      "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/assignment.md": "4bc35a82f10304ccb875b3803eeb5cdddbcf0aa8ecb108faae5efebe1689342a",
+      "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/dispatch.json": "0a6e6d96b64704fe0981e689d545d36ce51d7fe1707fc679698349ebcd77098e",
+      "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/intake-validation.json": "df91e066af8c56bc4524197c9fa4d2d472468078fdd2f4215f60c40f1e38fd0f",
+      "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/primary-validation.json": "5402273a71b5efa1549060a96271390df97f74e7bf02727dad540ee627861c93",
+      "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/review-result.json": "b2080bb23756f374ff109ad35468aec3a4796ae917079b38f22316bdab8fca6d",
+      "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/review.md": "6a6b91c7fa43693e78751ea8568bd79f5c2fe81a8300213cd6b5ca48f6d5a9dd",
+      "artifacts/review-results/TN003-corrections-5e23790-followup-v1/assignment.md": "a8bd2a532cc777e7ff1138d75fecf2082669a31cbd291efb9851e8207ae9c3c7",
+      "artifacts/review-results/TN003-corrections-5e23790-followup-v1/dispatch.json": "3a5e8d656f5a2b3c9cc3ee4d8898719d56abb7ca3a77db8d2025a77b88b08175",
+      "artifacts/review-results/TN003-corrections-5e23790-followup-v1/final-validation.json": "ac9f4167ac1d2659d36fd4ea1605b309d0e0b88bb0ca3a7aa8d9efd1e92aba0c",
+      "artifacts/review-results/TN003-corrections-5e23790-followup-v1/intake-validation.json": "0e00cdf3e5d4819425ef357c5ba112eb72b1ea099e56801ad8c6d50d3f085a82",
+      "artifacts/review-results/TN003-corrections-5e23790-followup-v1/primary-assessment.md": "cbacddc3b38a8b28498ef346b3f746aabba4b813d94c191e7256c7e8906eb70c",
+      "artifacts/review-results/TN003-corrections-5e23790-followup-v1/review-result.json": "7a2fb681e38731c22549fc7825dd599df21cb739172d8fdc08318915bdc131f3",
+      "artifacts/review-results/TN003-corrections-5e23790-followup-v1/review.md": "c1f989be535057704e783889ff8eedc021e33b57705294d4ea0e616d6affb8ec",
+      "artifacts/review-results/admission-implementation-1264e21-followup-v1/dispatch.json": "68c0d3f4fba271e710dd63d2d0ca0cec26a93fcf501330d8939b858bd0b21aeb",
+      "artifacts/review-results/admission-implementation-1264e21-followup-v1/final-validation.json": "77252559647d6faac587850eabe71a568e3629474ca1d745ea66768677d001cf",
+      "artifacts/review-results/admission-implementation-1264e21-followup-v1/prepared-validation.json": "a60f21228f1a1bd74d47fd71a175624eadcd5cf0ade91a729d587882c94f72eb",
+      "artifacts/review-results/admission-implementation-1264e21-followup-v1/primary-assessment.md": "fe97f99fc7018c2c148d62496b340163a65f28a50cbd5607d421b62fbc8f6a04",
+      "artifacts/review-results/admission-implementation-1264e21-followup-v1/review-result.json": "2f985b8f827ae5520d0edc732a0881f8a78f99f9ae0d73ceafca10ac65372e59",
+      "artifacts/review-results/admission-implementation-1264e21-followup-v1/review.md": "a640b34292ba42e02a2d4e0c86f017115c64da1ab63e5da3c084dad5e336939c",
+      "artifacts/review-results/admission-implementation-7b41de1-astra-xhigh-v1/dispatch.json": "63e1959787e372def64cc79dee00c3c56725f84bb54bc00e97c31aea78932a74",
+      "artifacts/review-results/admission-implementation-7b41de1-astra-xhigh-v1/prepared-validation.json": "565ead9cf4aa3f0d39c0629aa64bbdda4e4758ff2fdc43fb1befe0a177f04d86",
+      "artifacts/review-results/admission-implementation-7b41de1-astra-xhigh-v1/primary-assessment.md": "dcb19566d69a800bca4771eab3db0ef8904a321a35a886d9c962857666b87263",
+      "artifacts/review-results/admission-implementation-7b41de1-astra-xhigh-v1/review-result.json": "b55cf1e38770de8a189ca7589bd3e9ec35568b260f583207b264cfe51079f7e8",
+      "artifacts/review-results/admission-implementation-7b41de1-astra-xhigh-v1/review.md": "75bee8d61c35fba33d780519f7a9499c7c700242ac7fd5f576d962ab8ad04493",
+      "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/dispatch.json": "33802fb464336ab1a7b79d53c848b9d830a2f284d83e467632dfaa4e78f704c1",
+      "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/final-validation.json": "b87b9073b4cec7885f41f33336a2b2bc485cadf41657036ccac9dc12b5b04134",
+      "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/prepared-validation.json": "ebdface931acb52196deb79dd9cc2f933007096e989c1cf0bbfe8ae36b86ba41",
+      "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/primary-assessment.md": "d4be1ad1dcf975057a04d3a23ae9a46a1ad01f9d4091ace153a335bf992fc549",
+      "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/reference-audit.py": "a41fdf7a8d068f67535024d605adfe57886fd67ce52b515611f6beee269fa884",
+      "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/review-result.json": "c1f1e67c0b53164d685c41f8f361dd3e352e730b6095eab851746fa415b8ca65",
+      "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/review.md": "e3f085f9284a7a63cf837218f10be39302da6c307bf223f47ca9da5769a8319e",
+      "artifacts/review-results/shiloh-contact-518d394-astra-xhigh-v1/dispatch.json": "e4dd7c949bc3a330bdbefe24b01680cd8b95e89e7f43caa335a190a578c43450",
+      "artifacts/review-results/shiloh-contact-518d394-astra-xhigh-v1/final-validation.json": "b1b231258ac97ce3b4ec826727a2ba0c5ebf3cd8c49df739e8668635f5ee823b",
+      "artifacts/review-results/shiloh-contact-518d394-astra-xhigh-v1/primary-assessment.md": "f34c191a2659b48ee7ae7edbc04415dee5287edbcd3daf30f68730e8b5381467",
+      "artifacts/review-results/shiloh-contact-518d394-astra-xhigh-v1/primary-preservation-check.json": "30d3737b4b2c5c686788f4f983ce1e7a55aa71e8a3ad8a1ae0f7ab578a2a512d",
+      "artifacts/review-results/shiloh-contact-518d394-astra-xhigh-v1/review-result.json": "8741a15216574a5a45266a28dc08c2dcd0bb2a73c31aa41d9394665ccd9b6a45",
+      "artifacts/review-results/shiloh-contact-518d394-astra-xhigh-v1/review.md": "72811a2a51e8b9e9691094864c986f65a0fa0cb16d7e78cf86073ce60180fb73",
+      "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/dispatch.json": "f5d4d5fff4461f88e362f49287c5fc78065dd0380dd98be3c51be4ea3f7fd2dd",
+      "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/final-validation.json": "ac92f8f3a31736fe6ec4842fb0aea142f6a58f9f371004d2b1d806ca192acf90",
+      "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/primary-assessment.md": "50372d559be54c017e36acc90a673cd32595160739c51df14c1590c72e6b2abf",
+      "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/review-result.json": "89272baa83e2568dfa0461b401285a456d8490ab31ae4943145e8c923c92b92a",
+      "artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/review.md": "a64021ebef3917d845aa795ffb970e14790363bb9bc2b53b3d6a17dc2b5419a2",
+      "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+      "data/admission/shiloh-opening-v2.json": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52",
+      "data/admission/snapshots/feature-admission-v1.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99",
+      "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json": "d3f3a2b9f2e8e48726812e08bf925d7c0e60b8ff012a4b0d4cdc95581a5a884c",
+      "data/evidence/MD003.json": "3b9432c4c4cbe22a4778361ab17dc0645a3f594d735e286eea648d39d1d31bc7",
+      "data/evidence/MS009.json": "f1d093f11e998d1de083ecdbd0e15e178697a508dd84f1f042a527e61186c413",
+      "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+      "data/evidence/history/TN003.v1.json": "0a8674873a63dbb049cc49e955667dd9f32cbcaa05b2b4e63878950dc7db31d9",
+      "data/evidence/history/TN003.v2.json": "9e662b64c3448a0733d4b9f37d1ede4bcec7e99f59e8703600e3986f2c52cfed",
+      "data/evidence/history/TN003.v3.json": "b2da0882ed391a78b34b91382958ddcc5483ab34e908f2382fb36719adccafce",
+      "data/evidence/history/TN003.v4.json": "9ec051462243589cea1efa14ccdffc22cea7c55452483672b7e75acfa5d463dd",
+      "data/evidence/history/TN003.v5.json": "1107b7149f9aa3877478e003a01ae2383b5d0729a15d6a90106e427350d49780",
+      "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+      "design/shiloh-contact-location-corrections-v1/reference-audit.py": "9273799c2e975a65ab52ab698910eff15d8a8890bf995d04300b32dc218ba6be",
+      "design/shiloh-contact-location-corrections-v1/source-corrections.json": "3d7e09611696dcb16cbba310cb33eec180d21156ce653991c6cf04ebb396a15e",
+      "design/shiloh-contact-location-v1/full-report-page-context-ocr.json": "5581ea9b19c83edccd518b2dd4b27a76b8608e0249783b884579d6227999be0a",
+      "design/shiloh-contact-location-v1/prepared-validation.json": "f3eb17b08ae847990b244601f2b47e463b6baa3c99789f3f7d802e05eae1bed6",
+      "design/shiloh-contact-location-v1/reference-audit.py": "1abc9193fe516a6f49de21f68e9a26871da81d8c56041a1696c66c33235525e5",
+      "design/shiloh-contact-location-v1/research-record.json": "225d791de6ccac0ac5835868d890e6ea76b75a560f1697c60aa5ce282b31a1ad",
+      "design/shiloh-opening-boundary-v1/prepared-validation.json": "6d03767a74bfa7335542c55d84712df21f0be121c390b114e13534630519de8f",
+      "design/shiloh-opening-boundary-v1/reference-audit.py": "a3d683ab8328a6495defe50a1102098d39507ee471c440b9ea90e7f8f5412f9f",
+      "design/shiloh-opening-boundary-v1/research-record.json": "1d654ae0ffc571e12d0c3a95480518542d4bf54724a5c09eae16640be2ec181e"
+    },
+    "registry_entries": 111,
+    "registry_distinct_raw_paths": 108,
+    "new_source_entries": 24,
+    "new_text_sources": 9,
+    "new_page_images": 15,
+    "tracked_worktree_differences_at_check": 0,
+    "primary_check_dependency": false,
+    "note": "Independent reviewer comparison and bounded audits; the primary's separate preservation/artifact report was not used as proof for these results."
+  },
+  "command_results": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 make check",
+      "chunk_id": "d978a0",
+      "wall_time_seconds": 4.6397025,
+      "exit_code": 0,
+      "original_token_count": 3075,
+      "output": "python3 -m unittest discover -s tests -v\ntest_alias_citations_do_not_add_values_or_votes (test_admission.AdmissionTests.test_alias_citations_do_not_add_values_or_votes) ... ok\ntest_bad_binding_metadata_omission_and_changed_review_fail_closed (test_admission.AdmissionTests.test_bad_binding_metadata_omission_and_changed_review_fail_closed) ... ok\ntest_calendar_date_comparison_handles_week_and_basic_iso_forms (test_admission.AdmissionTests.test_calendar_date_comparison_handles_week_and_basic_iso_forms) ... ok\ntest_cli_rejects_test_artifact_without_traceback (test_admission.AdmissionTests.test_cli_rejects_test_artifact_without_traceback) ... ok\ntest_coherent_scenarios_no_extra_battle_weight_or_silent_selection (test_admission.AdmissionTests.test_coherent_scenarios_no_extra_battle_weight_or_silent_selection) ... ok\ntest_compatible_sides_require_joint_scenario_coverage (test_admission.AdmissionTests.test_compatible_sides_require_joint_scenario_coverage) ... ok\ntest_duplicate_json_keys_frame_omission_and_duplicate_candidates (test_admission.AdmissionTests.test_duplicate_json_keys_frame_omission_and_duplicate_candidates) ... ok\ntest_expanded_and_common_coverage_are_separate (test_admission.AdmissionTests.test_expanded_and_common_coverage_are_separate) ... ok\ntest_explicit_estimate_keeps_integer_and_bounds (test_admission.AdmissionTests.test_explicit_estimate_keeps_integer_and_bounds) ... ok\ntest_invalid_precedence_retains_already_evaluated_exclusions (test_admission.AdmissionTests.test_invalid_precedence_retains_already_evaluated_exclusions) ... ok\ntest_later_report_prestate_and_null_section_date_are_distinct (test_admission.AdmissionTests.test_later_report_prestate_and_null_section_date_are_distinct) ... ok\ntest_missing_boundary_and_crossing_state_interval_block (test_admission.AdmissionTests.test_missing_boundary_and_crossing_state_interval_block) ... ok\ntest_missing_side_stays_in_denominator (test_admission.AdmissionTests.test_missing_side_stays_in_denominator) ... ok\ntest_overlap_cycle_unknown_members_and_wrong_population (test_admission.AdmissionTests.test_overlap_cycle_unknown_members_and_wrong_population) ... ok\ntest_positive_candidate_and_test_only_release_replay (test_admission.AdmissionTests.test_positive_candidate_and_test_only_release_replay) ... ok\ntest_production_cohort_and_frame_cannot_be_silently_changed (test_admission.AdmissionTests.test_production_cohort_and_frame_cannot_be_silently_changed) ... ok\ntest_production_ledger_covers_all_40_quantities_without_admission (test_admission.AdmissionTests.test_production_ledger_covers_all_40_quantities_without_admission) ... ok\ntest_production_rejects_synthetic_proposal_and_release (test_admission.AdmissionTests.test_production_rejects_synthetic_proposal_and_release) ... ok\ntest_release_checks_executing_code_not_other_checkout_files (test_admission.AdmissionTests.test_release_checks_executing_code_not_other_checkout_files) ... ok\ntest_release_rows_coverage_and_implementation_hashes_bound (test_admission.AdmissionTests.test_release_rows_coverage_and_implementation_hashes_bound) ... ok\ntest_research_cutoff_and_outcome_based_selection_are_rejected (test_admission.AdmissionTests.test_research_cutoff_and_outcome_based_selection_are_rejected) ... ok\ntest_review_scope_or_adverse_finding_blocks_release (test_admission.AdmissionTests.test_review_scope_or_adverse_finding_blocks_release) ... ok\ntest_same_observation_cannot_be_relabelled_into_disjoint_components (test_admission.AdmissionTests.test_same_observation_cannot_be_relabelled_into_disjoint_components) ... ok\ntest_snapshot_replay_ignores_later_current_registry (test_admission.AdmissionTests.test_snapshot_replay_ignores_later_current_registry) ... ok\ntest_subtraction_requires_nested_members_and_correct_interval (test_admission.AdmissionTests.test_subtraction_requires_nested_members_and_correct_interval) ... ok\ntest_target_channel_and_profile_changes_cannot_be_relabelled (test_admission.AdmissionTests.test_target_channel_and_profile_changes_cannot_be_relabelled) ... ok\ntest_transitive_post_state_and_target_leakage (test_admission.AdmissionTests.test_transitive_post_state_and_target_leakage) ... ok\ntest_unknowns_are_blocked_and_null_never_zero (test_admission.AdmissionTests.test_unknowns_are_blocked_and_null_never_zero) ... ok\ntest_unsupported_causal_and_information_profiles_excluded (test_admission.AdmissionTests.test_unsupported_causal_and_information_profiles_excluded) ... ok\ntest_wrong_scope_cannot_be_rescued_by_scenario (test_admission.AdmissionTests.test_wrong_scope_cannot_be_rescued_by_scenario) ... ok\ntest_complete_campaign_holdout_and_one_prediction_per_battle (test_baseline.BaselineTests.test_complete_campaign_holdout_and_one_prediction_per_battle) ... ok\ntest_equal_strength_balanced_results (test_baseline.BaselineTests.test_equal_strength_balanced_results) ... ok\ntest_fit_satisfies_penalized_score_equations (test_baseline.BaselineTests.test_fit_satisfies_penalized_score_equations) ... ok\ntest_heldout_outcome_cannot_change_own_prediction (test_baseline.BaselineTests.test_heldout_outcome_cannot_change_own_prediction) ... ok\ntest_insufficient_campaigns_fail (test_baseline.BaselineTests.test_insufficient_campaigns_fail) ... ok\ntest_invalid_fit_inputs_rejected (test_baseline.BaselineTests.test_invalid_fit_inputs_rejected) ... ok\ntest_missing_zero_nonfinite_strength_rejected (test_baseline.BaselineTests.test_missing_zero_nonfinite_strength_rejected) ... ok\ntest_more_strength_predicts_win_in_controlled_data (test_baseline.BaselineTests.test_more_strength_predicts_win_in_controlled_data) ... ok\ntest_proper_scores_known_values (test_baseline.BaselineTests.test_proper_scores_known_values) ... ok\ntest_side_relabeling_is_equivariant (test_baseline.BaselineTests.test_side_relabeling_is_equivariant) ... ok\ntest_single_class_training_remains_finite (test_baseline.BaselineTests.test_single_class_training_remains_finite) ... ok\ntest_archived_dossier_is_preserved_and_bound_to_revision (test_evidence.EvidenceTests.test_archived_dossier_is_preserved_and_bound_to_revision) ... ok\ntest_checksum_tampering_rejected (test_evidence.EvidenceTests.test_checksum_tampering_rejected) ... ok\ntest_citation_requires_full_key (test_evidence.EvidenceTests.test_citation_requires_full_key) ... ok\ntest_coverage_denominator_retains_unscorable_battles (test_evidence.EvidenceTests.test_coverage_denominator_retains_unscorable_battles) ... ok\ntest_duplicate_claim_ids_fail (test_evidence.EvidenceTests.test_duplicate_claim_ids_fail) ... ok\ntest_duplicate_join_keys_rejected (test_evidence.EvidenceTests.test_duplicate_join_keys_rejected) ... ok\ntest_duplicate_phase_record_ids_fail (test_evidence.EvidenceTests.test_duplicate_phase_record_ids_fail) ... ok\ntest_events_require_evidence_and_known_entities (test_evidence.EvidenceTests.test_events_require_evidence_and_known_entities) ... ok\ntest_frozen_cohort_tampering_rejected (test_evidence.EvidenceTests.test_frozen_cohort_tampering_rejected) ... ok\ntest_incomplete_dimension_coverage_fails (test_evidence.EvidenceTests.test_incomplete_dimension_coverage_fails) ... ok\ntest_invented_quote_fails (test_evidence.EvidenceTests.test_invented_quote_fails) ... ok\ntest_missing_numeric_is_distinct_from_zero (test_evidence.EvidenceTests.test_missing_numeric_is_distinct_from_zero) ... ok\ntest_paths_cannot_escape_repository (test_evidence.EvidenceTests.test_paths_cannot_escape_repository) ... ok\ntest_phase_records_cannot_silently_downgrade_schema (test_evidence.EvidenceTests.test_phase_records_cannot_silently_downgrade_schema) ... ok\ntest_quantity_cannot_erase_population_or_precision (test_evidence.EvidenceTests.test_quantity_cannot_erase_population_or_precision) ... ok\ntest_quantity_requires_specific_evidenced_strength_claim (test_evidence.EvidenceTests.test_quantity_requires_specific_evidenced_strength_claim) ... ok\ntest_quote_on_another_page_is_not_valid_support (test_evidence.EvidenceTests.test_quote_on_another_page_is_not_valid_support) ... ok\ntest_repository_dossiers_have_resolvable_passages (test_evidence.EvidenceTests.test_repository_dossiers_have_resolvable_passages) ... ok\ntest_reversed_quantity_dates_fail (test_evidence.EvidenceTests.test_reversed_quantity_dates_fail) ... ok\ntest_review_requires_an_actual_record (test_evidence.EvidenceTests.test_review_requires_an_actual_record) ... ok\ntest_section_cannot_be_missing_or_invented (test_evidence.EvidenceTests.test_section_cannot_be_missing_or_invented) ... ok\ntest_unknown_is_null_not_zero (test_evidence.EvidenceTests.test_unknown_is_null_not_zero) ... ok\ntest_unstated_muster_date_stays_unknown (test_evidence.EvidenceTests.test_unstated_muster_date_stays_unknown) ... ok\ntest_unsupported_known_claim_fails (test_evidence.EvidenceTests.test_unsupported_known_claim_fails) ... ok\ntest_bundle_is_complete_deterministic_and_explicitly_unreviewed (test_review_bundle.ReviewBundleTests.test_bundle_is_complete_deterministic_and_explicitly_unreviewed) ... ok\ntest_changed_frozen_evidence_cannot_replace_existing_handoff (test_review_bundle.ReviewBundleTests.test_changed_frozen_evidence_cannot_replace_existing_handoff) ... ok\ntest_extracted_verifier_detects_tampering (test_review_bundle.ReviewBundleTests.test_extracted_verifier_detects_tampering) ... ok\ntest_bounded_migration_preserves_numbers_events_unknowns_and_old_sources (test_review_corrections.ReviewCorrectionTests.test_bounded_migration_preserves_numbers_events_unknowns_and_old_sources) ... ok\ntest_estimation_provenance_cannot_be_dropped_or_fabricated (test_review_corrections.ReviewCorrectionTests.test_estimation_provenance_cannot_be_dropped_or_fabricated) ... ok\ntest_estimation_status_is_distinct_from_printed_precision (test_review_corrections.ReviewCorrectionTests.test_estimation_status_is_distinct_from_printed_precision) ... ok\ntest_legacy_dossier_still_validates_without_new_fields (test_review_corrections.ReviewCorrectionTests.test_legacy_dossier_still_validates_without_new_fields) ... ok\ntest_migration_is_idempotent_and_rejects_divergence_before_writing (test_review_corrections.ReviewCorrectionTests.test_migration_is_idempotent_and_rejects_divergence_before_writing) ... ok\ntest_missing_section_map_cannot_restore_a_diary_date (test_review_corrections.ReviewCorrectionTests.test_missing_section_map_cannot_restore_a_diary_date) ... ok\ntest_partial_metadata_revision_cannot_lose_its_predecessor (test_review_corrections.ReviewCorrectionTests.test_partial_metadata_revision_cannot_lose_its_predecessor) ... ok\ntest_same_return_and_scan_cannot_be_independent (test_review_corrections.ReviewCorrectionTests.test_same_return_and_scan_cannot_be_independent) ... ok\ntest_section_date_contract_rejects_missing_sections_and_invented_dates (test_review_corrections.ReviewCorrectionTests.test_section_date_contract_rejects_missing_sections_and_invented_dates) ... ok\ntest_section_dates_preserve_nulls_and_do_not_fall_back (test_review_corrections.ReviewCorrectionTests.test_section_dates_preserve_nulls_and_do_not_fall_back) ... ok\ntest_source_metadata_versions_bind_old_records_and_unchanged_raw_bytes (test_review_corrections.ReviewCorrectionTests.test_source_metadata_versions_bind_old_records_and_unchanged_raw_bytes) ... ok\ntest_cli_bad_root_exits_nonzero_without_traceback (test_workflow.WorkflowTests.test_cli_bad_root_exits_nonzero_without_traceback) ... ok\ntest_draft_quantities_do_not_change_baseline (test_workflow.WorkflowTests.test_draft_quantities_do_not_change_baseline) ... ok\ntest_offline_build_is_reproducible_and_receipt_matches (test_workflow.WorkflowTests.test_offline_build_is_reproducible_and_receipt_matches) ... ok\n\n----------------------------------------------------------------------\nRan 82 tests in 4.508s\n\nOK\npython3 -m generalship check\n{\n  \"pilot_battles\": 127,\n  \"eligible_battles\": 23,\n  \"eligible_campaigns\": 13,\n  \"draft_dossiers\": 3,\n  \"metrics\": {\n    \"strength_logistic\": {\n      \"brier\": 0.2768816348133779,\n      \"log_loss\": 0.7495087606758415\n    },\n    \"equal_odds\": {\n      \"brier\": 0.25,\n      \"log_loss\": 0.6931471805599453\n    },\n    \"training_prior\": {\n      \"brier\": 0.2812731024902169,\n      \"log_loss\": 0.7560867667370473\n    }\n  },\n  \"admission_candidate_statuses\": {\n    \"blocked\": 18,\n    \"excluded\": 22\n  },\n  \"admission_promoted_rows\": 0,\n  \"artifacts_written\": false\n}\n"
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 design/shiloh-precontact-segmentation-v1/reference-audit.py && PYTHONDONTWRITEBYTECODE=1 python3 design/shiloh-contact-location-v1/reference-audit.py && PYTHONDONTWRITEBYTECODE=1 python3 design/shiloh-contact-location-corrections-v1/reference-audit.py",
+      "chunk_id": "8994e8",
+      "wall_time_seconds": 0.296855125,
+      "exit_code": 0,
+      "original_token_count": 393,
+      "output": "{\n  \"status\": \"passed\",\n  \"coverage\": {\n    \"assertions\": 10,\n    \"passage_anchors\": 24,\n    \"source_section_pairs\": 24,\n    \"new_text_sources\": 9,\n    \"new_page_images\": 15,\n    \"new_source_entries\": 24,\n    \"prior_source_entries_preserved\": 87,\n    \"registry_entries\": 111,\n    \"raw_paths\": 108,\n    \"visually_inspected_pages\": 19,\n    \"visual_scope\": \"Selected passages and nearby context on 18 OR pages and Reed p.68; not every word or the whole source corpus.\",\n    \"unknown_howell_link\": 1\n  },\n  \"preserved_files\": 72,\n  \"promoted_rows\": 0\n}\n{\n  \"status\": \"passed\",\n  \"coverage\": {\n    \"participant_reports_read\": 9,\n    \"or_context_pages\": 16,\n    \"or_visual_pages\": 12,\n    \"reed_visual_pages\": 4,\n    \"maps_inspected\": 2,\n    \"map_catalogs_retained\": 2,\n    \"all_map_labels_transcribed\": false,\n    \"complete_army_memberships\": 0,\n    \"new_typed_quantities\": 0,\n    \"new_dossier_claims\": 0,\n    \"new_admitted_rows\": 0,\n    \"assertions\": 14,\n    \"passage_anchors\": 38,\n    \"source_section_pairs\": 19,\n    \"new_source_entries\": 32,\n    \"registry_entries\": 85,\n    \"registry_raw_paths\": 82\n  },\n  \"prior_source_entries_preserved\": 53,\n  \"admission_v1\": {\n    \"blocked\": 18,\n    \"excluded\": 22\n  },\n  \"admission_v2\": {\n    \"blocked\": 7,\n    \"excluded\": 33\n  },\n  \"frame_engagements\": 127,\n  \"frame_campaigns\": 36,\n  \"promoted_rows\": 0\n}\n{\n  \"status\": \"passed\",\n  \"exact_content_corrections\": 2,\n  \"preserved_source_entries\": 85,\n  \"replayed_passage_anchors\": 38,\n  \"registry_entries_at_correction\": 87,\n  \"raw_paths_at_correction\": 84,\n  \"new_admitted_rows\": 0\n}\n"
+    },
+    {
+      "command": "Reviewer inline Python Git preservation comparison: parse base/prepared registry, canonicalize metadata, compare raw bytes and all 72 preservation hashes in base Git, prepared Git and worktree, rehash 19 inspected images, assert zero tracked diff.",
+      "chunk_id": "d1e004",
+      "wall_time_seconds": 2.433979083,
+      "exit_code": 0,
+      "original_token_count": 95,
+      "output": "{\n  \"status\": \"passed\",\n  \"prepared_commit\": \"327d222195b5526423390c25f59b8330a21e88c0\",\n  \"base_commit\": \"10ba606b66e8433e248f52f39c5821e94b886680\",\n  \"preserved_metadata_records\": 87,\n  \"preserved_distinct_raw_paths\": 84,\n  \"preserved_files_replayed_against_base_prepared_and_worktree\": 72,\n  \"visually_inspected_image_hashes_checked\": 19,\n  \"tracked_worktree_differences\": 0\n}\n"
+    }
+  ],
+  "checks_not_replayed": [
+    "No repository-root make reproduce or make packet run: assigned review was read-only outside its two outputs. make check includes the offline reproduction test and reports artifacts_written=false.",
+    "No exact-330599b historical boundary audit or full exact-commit artifact replay by reviewer; these are outside the reviewer result. Primary reports are separate.",
+    "No OCR search replay, external archive search, full-volume visual audit, map audit or review of unselected older dossier passages."
+  ],
+  "context_ocr": {
+    "path": "design/shiloh-precontact-segmentation-v1/context-ocr.json",
+    "sha256": "a7a5a5bd8054b6203c134a732e06172f01c039749b13b0dba862e96d5fc4e2d7",
+    "hash_verified": true,
+    "used_as_visual_proof": false,
+    "negative_search_result_independently_reproduced": false
+  },
+  "baseline": {
+    "frame_engagements": 127,
+    "frame_campaigns": 36,
+    "draft_dossiers": 3,
+    "shiloh_claims": 62,
+    "shiloh_quantities": 40,
+    "shiloh_events": 26,
+    "admission_v1": {
+      "blocked": 18,
+      "excluded": 22,
+      "complete_candidate_rows": 0
+    },
+    "admission_v2": {
+      "blocked": 7,
+      "excluded": 33,
+      "complete_candidate_rows": 0
+    },
+    "baseline_engagements": 23,
+    "baseline_campaigns": 13,
+    "strength_logistic_brier": 0.2768816348133779,
+    "equal_odds_brier": 0.25,
+    "improved": false
+  },
+  "unresolved_historical_issues": [
+    "April 3 incident identity, overlap, local duration and event-specific termination.",
+    "Ricker's broader opening-fight interpretation versus the proposed local episode convention.",
+    "Underlying testimony, exact location, unit identity and termination/continuation of Saturday Howell contact.",
+    "April 6 earliest qualifying contact, clock, extent and screen identity.",
+    "Mapped opening area, ford-guard identities, transport/afloat rule and complete populations by side.",
+    "Source dependence and participant accuracy, including Hardee's retrospective timing."
+  ],
+  "historical_features_admitted": 0,
+  "emitted_rows": 0,
+  "promoted_rows": 0,
+  "files_written": [
+    "artifacts/review-results/shiloh-precontact-327d222-astra-xhigh-v1/review.md",
+    "artifacts/review-results/shiloh-precontact-327d222-astra-xhigh-v1/review-result.json"
+  ],
+  "evidence_or_implementation_modified": false,
+  "limitations": "Separate AI analysis, not human historical adjudication or proof of source independence. Exact passage checking preserves what sources say; a source-backed assertion may remain historically wrong. One transcription finding remains unresolved at the reviewed commit."
+}
+

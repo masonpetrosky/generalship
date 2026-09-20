@@ -97,12 +97,17 @@ do not add witnesses, change dates or alter any historical assertion.
 
 The [precontact-segmentation packet](research/shiloh-precontact-segmentation-v1.md)
 adds nine selected text records and 15 page images, preserving all prior entries.
-The current registry has **111 entries / 108 raw paths**. Ten attributed assertions
+The prepared registry had **111 entries / 108 raw paths**. Ten attributed assertions
 have 24 exact passage anchors; selected passages/context were visually inspected
 on 19 pages, reusing four scans. Hardee’s retrospective report is dated February 7,
 1863; Ricker’s uncertain printed date remains null. Contemporary orders, report
 claims and later editorial headings remain distinct. The working precursor rule
 is a research recommendation; the Saturday Howell link is unresolved.
+The [literal correction addendum](research/shiloh-precontact-segmentation-corrections-v1.md)
+adds `or-april4-march-orders-v2` for two image-confirmed Jordan wording corrections.
+All 111 prior entries are preserved; the current registry has **112 entries /
+109 raw paths**. One PS05 quote has an explicit correction overlay; all 24 anchors
+replay with unchanged document dates and historical interpretation.
 
 Prioritize original reports, contemporary orders and correspondence, then
 independently authored scholarship. Record competing estimates and account

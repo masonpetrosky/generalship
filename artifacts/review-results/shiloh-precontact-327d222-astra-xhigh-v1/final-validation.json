@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-20",
+  "status": "passed",
+  "reviewed_commit": "327d222195b5526423390c25f59b8330a21e88c0",
+  "review_decision_preserved": "changes_requested",
+  "primary_closed_findings": [
+    "PS-R1"
+  ],
+  "primary_closure_basis": "Exact two lexical replacements verified against original enlarged page and actual reviewer replacement; one quote overlay, 24 anchors replayed. No second separate review claimed.",
+  "unresolved_required_literal_findings": [],
+  "tests_passed": 82,
+  "commands": [
+    {
+      "command": "make check",
+      "exit_code": 0
+    },
+    {
+      "command": "make reproduce",
+      "exit_code": 0
+    },
+    {
+      "command": "make packet",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 design/shiloh-precontact-segmentation-v1/reference-audit.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 design/shiloh-precontact-segmentation-corrections-v1/reference-audit.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 design/shiloh-contact-location-v1/reference-audit.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 design/shiloh-contact-location-corrections-v1/reference-audit.py",
+      "exit_code": 0
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "prepared_packet_files_unchanged": 29,
+  "registry_entries": 112,
+  "raw_paths": 109,
+  "frame_engagements": 127,
+  "frame_campaigns": 36,
+  "admission_v1": {
+    "blocked": 18,
+    "excluded": 22
+  },
+  "admission_v2": {
+    "blocked": 7,
+    "excluded": 33
+  },
+  "complete_candidate_rows": 0,
+  "promoted_rows": 0,
+  "brier": 0.2768816348133779,
+  "equal_odds_brier": 0.25,
+  "generated_report_and_packet_inspected": true,
+  "bound_sha256": {
+    "data/sources.json": "1c2e34bb1025d2f27e1b9e586fbdcafbc63d52c8bfbf5d6081d53e4993331bbc",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "artifacts/pilot-report.md": "23a3d229bdeb7333957b9f86ca7ded6d952ac2c85eebc86656b5fa0dec1599ba",
+    "artifacts/research/TN003.md": "a84fe596d979dbc90b18b4fb426cebb70a69d5651ef4fa9d340cc5a3a97d7dd0",
+    "design/shiloh-precontact-segmentation-corrections-v1/source-corrections.json": "3b6e218755e961072d202487350b8a4d996f025b7ebe97fc5446c5b11a196740",
+    "design/shiloh-precontact-segmentation-corrections-v1/reference-audit.py": "4982e70963e74ba2a277ad0552232df93d612bd60e57693cc1a3f881ddf733de",
+    "artifacts/review-results/shiloh-precontact-327d222-astra-xhigh-v1/review.md": "363d68921bdfaca319412be1460c8ea2ec4497f1cd6e6011880b14ac29c9cb2d",
+    "artifacts/review-results/shiloh-precontact-327d222-astra-xhigh-v1/review-result.json": "ef97e46d5629b8f5f3d83d5dac6e34cdf21f0016343424871d1b131161d44e43",
+    "artifacts/review-results/shiloh-precontact-327d222-astra-xhigh-v1/primary-assessment.md": "aa5bfaa858a2ae4bc74dfdba833aeec15449ecc3b6c878d326204fb009525ac6"
+  },
+  "remaining_limits": [
+    "Weaker event-specific closure for April 3",
+    "Howell April 5 attribution and contact link unresolved",
+    "April 6 first contact/time, mapped area, ford guards, afloat rule and complete populations unresolved",
+    "No model improvement or historical adjudication"
+  ]
+}

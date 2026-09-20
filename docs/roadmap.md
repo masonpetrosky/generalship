@@ -74,10 +74,13 @@ found two literal errors; [versioned corrections and primary verification](resea
 close both findings without changing the historical assertions. There are now
 87 source entries / 84 raw paths at that correction. The new
 [April 3–5 contact-chain packet](research/shiloh-precontact-segmentation-v1.md)
-adds 24 source records (111 entries / 108 raw paths) and recommends treating
+adds 24 source records and recommends treating
 April 3–4 as precursors based on return/reset evidence. Its explicit continuity
-rule leaves the Saturday Howell link unresolved and is prepared for separate
-Astra `xhigh` review. No historical feature is admitted. Next trace the Howell
+rule leaves the Saturday Howell link unresolved and qualifies weaker April 3
+closure. Separate Astra `xhigh` review found two literal wording errors in one
+Jordan passage, now [corrected in a new source version](research/shiloh-precontact-segmentation-corrections-v1.md)
+and closed by primary verification. The registry is 112 entries / 109 raw paths;
+no historical feature is admitted. Next trace the Howell
 claim through park commission/tablet records before closing segmentation or
 selecting an April 6 first-contact clock. Map control, full unit locations,
 ford-guard identities and the transport/afloat rule remain unresolved, followed

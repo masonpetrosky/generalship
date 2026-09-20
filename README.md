@@ -129,10 +129,13 @@ errors, now [corrected in new source versions](docs/research/shiloh-contact-loca
 with primary verification. The dossier and model inputs remain unchanged.
 
 The [April 3–5 contact-chain audit](docs/research/shiloh-precontact-segmentation-v1.md)
-recommends April 3–4 as precursor encounters under an explicit continuity rule.
+recommends April 3–4 as precursor encounters under an explicit continuity rule,
+with weaker event-specific closure for April 3.
 The Saturday Howell link remains unresolved; no complete opening boundary or
 new feature is admitted. Ten assertions bind 24 passages across 19 inspected pages.
-The packet is prepared for separate Astra `xhigh` review.
+Separate Astra `xhigh` review found one finding with two literal wording errors,
+now [corrected in a new source version](docs/research/shiloh-precontact-segmentation-corrections-v1.md)
+and closed by primary image verification.
 
 Then define a campaign replacement boundary and outcomes before fitting enriched
 models. Battle execution and campaign contribution are separate estimands; adding

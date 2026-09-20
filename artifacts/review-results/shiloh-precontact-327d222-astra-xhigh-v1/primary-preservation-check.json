@@ -1,0 +1,48 @@
+{
+  "base_commit": "10ba606b66e8433e248f52f39c5821e94b886680",
+  "prior_source_entries_unchanged": 87,
+  "prior_raw_paths_unchanged": 84,
+  "preserved_files_verified_against_git": 72,
+  "replays": [
+    {
+      "commit": "330599b8882ef9974f4641056c4c1091b0013912",
+      "checkout": "temporary git archive of exact commit",
+      "commands": [
+        {
+          "command": "python3 design/shiloh-opening-boundary-v1/reference-audit.py",
+          "exit_code": 0,
+          "stdout": "{\n  \"status\": \"passed\",\n  \"passage_anchors\": 51,\n  \"source_sections\": 26,\n  \"revisited_mappings\": 18,\n  \"candidate_observations\": 40,\n  \"frame_engagements\": 127,\n  \"frame_campaigns\": 36,\n  \"status_counts\": {\n    \"blocked\": 7,\n    \"excluded\": 33\n  },\n  \"promoted_rows\": 0\n}\n",
+          "stderr": ""
+        }
+      ],
+      "byte_identical_generated_outputs": {}
+    },
+    {
+      "commit": "327d222195b5526423390c25f59b8330a21e88c0",
+      "checkout": "temporary git archive of exact commit",
+      "commands": [
+        {
+          "command": "make reproduce",
+          "exit_code": 0,
+          "stdout": "python3 -m generalship build\n{\n  \"pilot_battles\": 127,\n  \"eligible_battles\": 23,\n  \"eligible_campaigns\": 13,\n  \"draft_dossiers\": 3,\n  \"metrics\": {\n    \"strength_logistic\": {\n      \"brier\": 0.2768816348133779,\n      \"log_loss\": 0.7495087606758415\n    },\n    \"equal_odds\": {\n      \"brier\": 0.25,\n      \"log_loss\": 0.6931471805599453\n    },\n    \"training_prior\": {\n      \"brier\": 0.2812731024902169,\n      \"log_loss\": 0.7560867667370473\n    }\n  },\n  \"admission_candidate_statuses\": {\n    \"blocked\": 18,\n    \"excluded\": 22\n  },\n  \"admission_promoted_rows\": 0,\n  \"artifacts_written\": true\n}\n",
+          "stderr": ""
+        },
+        {
+          "command": "make packet",
+          "exit_code": 0,
+          "stdout": "python3 -m generalship packet TN003\n{\n  \"packet\": \"/private/var/folders/68/_xhllx6j4fl5brz87g38h_br0000gn/T/generalship-replay-jb1dpsex/artifacts/research/TN003.md\",\n  \"status\": \"prepared_only_no_model_called\"\n}\n",
+          "stderr": ""
+        }
+      ],
+      "byte_identical_generated_outputs": {
+        "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+        "artifacts/pilot-report.md": "e9f210a9265c9d34910e7c2b1b74a719585bea2573d5fdb2f6d4c09d0e4d902a",
+        "artifacts/quality.json": "9409e9f45b4131a0bea840d74f30d45d7e76003e446020d8de00585cd82a51cb",
+        "artifacts/receipt.json": "7bacb13cf9a14fa7e620656a65e5f27c69e67f9bb375426c38a8c47959adfdf4",
+        "artifacts/research/TN003.md": "9c0c0a12bcf726b96bbd26cae528616337904025da5cafde0a00e2867e003863",
+        "artifacts/admission-check.json": "d0e8d3286bd34cb34cdd2a0a1d74f0b2d3c2f6ddf955c8e66336c4cb213ee756",
+        "artifacts/admission/shiloh-opening-v2-check.json": "960bca09880c56cec4da33e172cdd5686d106efcaac2e1a407a5d1e745281711"
+      }
+    }
+  ]
+}
