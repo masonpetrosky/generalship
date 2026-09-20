@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "kind": "actual_subagent_review_dispatch",
+  "date": "2026-09-20",
+  "reviewer_task": "/root/shiloh_contact_review",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "context": "fresh; fork_turns none",
+  "input_commit": "518d3941fb9227ea9d4f2f6d960fd9b80a45f648",
+  "input_sha256": {
+    "data/sources.json": "5e5051afb0c548fbb3fe8f604fcc89f23c6b80e8be7c804c256ff64d5c94d233",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "design/shiloh-contact-location-v1/research-record.json": "225d791de6ccac0ac5835868d890e6ea76b75a560f1697c60aa5ce282b31a1ad",
+    "docs/research/shiloh-contact-location-v1.md": "e9701fbf84b0f698c9cf03671f87a2002f6119ec0473ba8762ef5c2cf120ccdf",
+    "design/shiloh-contact-location-v1/reference-audit.py": "1abc9193fe516a6f49de21f68e9a26871da81d8c56041a1696c66c33235525e5",
+    "tests/test_review_corrections.py": "6d3bf54e8fddd95a77e405db9fc47e42b75cdb3480145f01d97cbabd873bb8cf"
+  },
+  "scope": "14 attributed assertions /38 passage anchors /19 source-section pairs, two map readings, 32 new source records, source preservation and bounded migration-test change. Inspect actual scans/maps; state coverage. Propose exact evidence-backed corrections without editing inputs.",
+  "expected_outputs": [
+    "review.md",
+    "review-result.json"
+  ],
+  "limitations": "Separate AI analysis; not human historical adjudication, source independence or feature admission."
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-20",
+  "reviewed_commit": "518d3941fb9227ea9d4f2f6d960fd9b80a45f648",
+  "status": "passed",
+  "review_findings_closed_by_primary_exact_corrections": [
+    "CL-R1",
+    "CL-R2"
+  ],
+  "unresolved_review_corrections": [],
+  "separate_review_of_corrected_files": false,
+  "checks": {
+    "make check": {
+      "exit_code": 0,
+      "tests": 82
+    },
+    "make reproduce": {
+      "exit_code": 0,
+      "generated_report_inspected": true
+    },
+    "make packet": {
+      "exit_code": 0
+    },
+    "git diff --check": {
+      "exit_code": 0
+    }
+  },
+  "reference_audits": {
+    "design/shiloh-contact-location-v1/reference-audit.py": {
+      "status": "passed",
+      "coverage": {
+        "participant_reports_read": 9,
+        "or_context_pages": 16,
+        "or_visual_pages": 12,
+        "reed_visual_pages": 4,
+        "maps_inspected": 2,
+        "map_catalogs_retained": 2,
+        "all_map_labels_transcribed": false,
+        "complete_army_memberships": 0,
+        "new_typed_quantities": 0,
+        "new_dossier_claims": 0,
+        "new_admitted_rows": 0,
+        "assertions": 14,
+        "passage_anchors": 38,
+        "source_section_pairs": 19,
+        "new_source_entries": 32,
+        "registry_entries": 85,
+        "registry_raw_paths": 82
+      },
+      "prior_source_entries_preserved": 53,
+      "admission_v1": {
+        "blocked": 18,
+        "excluded": 22
+      },
+      "admission_v2": {
+        "blocked": 7,
+        "excluded": 33
+      },
+      "frame_engagements": 127,
+      "frame_campaigns": 36,
+      "promoted_rows": 0
+    },
+    "design/shiloh-contact-location-corrections-v1/reference-audit.py": {
+      "status": "passed",
+      "exact_content_corrections": 2,
+      "preserved_source_entries": 85,
+      "replayed_passage_anchors": 38,
+      "registry_entries_at_correction": 87,
+      "raw_paths_at_correction": 84,
+      "new_admitted_rows": 0
+    }
+  },
+  "output_sha256": {
+    "data/sources.json": "5c77bcd399d630b469dabb48199d514d4491c712dbe76474f98d29ed32b16ba5",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "design/shiloh-contact-location-v1/research-record.json": "225d791de6ccac0ac5835868d890e6ea76b75a560f1697c60aa5ce282b31a1ad",
+    "design/shiloh-contact-location-corrections-v1/source-corrections.json": "3d7e09611696dcb16cbba310cb33eec180d21156ce653991c6cf04ebb396a15e",
+    "design/shiloh-contact-location-corrections-v1/reference-audit.py": "9273799c2e975a65ab52ab698910eff15d8a8890bf995d04300b32dc218ba6be",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "artifacts/admission-check.json": "d0e8d3286bd34cb34cdd2a0a1d74f0b2d3c2f6ddf955c8e66336c4cb213ee756",
+    "artifacts/admission/shiloh-opening-v2-check.json": "960bca09880c56cec4da33e172cdd5686d106efcaac2e1a407a5d1e745281711",
+    "artifacts/receipt.json": "95efacfb9559f757ff81f0baaf8d38d58f4ebc78f93a62c04c446dd48d4bdf38",
+    "artifacts/research/TN003.md": "b39e5b96ac2a443e70d1739aaa46f847679eb4407c8792c57b3980007737e7ce",
+    "artifacts/review-results/shiloh-contact-518d394-astra-xhigh-v1/review.md": "72811a2a51e8b9e9691094864c986f65a0fa0cb16d7e78cf86073ce60180fb73",
+    "artifacts/review-results/shiloh-contact-518d394-astra-xhigh-v1/review-result.json": "8741a15216574a5a45266a28dc08c2dcd0bb2a73c31aa41d9394665ccd9b6a45"
+  },
+  "current_registry": {
+    "entries": 87,
+    "raw_paths": 84
+  },
+  "historical_gates": "All five remain unresolved; no new dossier claims, typed quantities, events, model inputs or admission release."
+}

@@ -69,7 +69,10 @@ compares nine full participant reports (OCR context), 16 visually inspected
 book pages and two maps cataloged to 1862. Its 14 attributed assertions and
 two map-reading records preserve conflicting first-fire clocks, prior April 4
 contact and map phase limits. There are 32 new source records; the draft dossier
-and both admission proposals remain unchanged. Separate review is pending.
+and both admission proposals remain unchanged. Separate Astra `xhigh` review
+found two literal errors; [versioned corrections and primary verification](research/shiloh-contact-location-corrections-v1.md)
+close both findings without changing the historical assertions. There are now
+87 source entries / 84 raw paths; no historical feature is admitted.
 Next audit the April 3–5 contact chain and define engagement segmentation before
 selecting an April 6 first-contact clock. Map control, full unit locations,
 ford-guard identities and the transport/afloat rule remain unresolved, followed

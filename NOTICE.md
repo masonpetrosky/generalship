@@ -35,8 +35,8 @@ does not reproduce his published rankings or imply his endorsement.
 
 ## Historical Shiloh sources
 
-`data/raw/shiloh/` contains selected, transformed historical text and two rendered
-table pages. These retain their source attribution and are not relicensed as code.
+`data/raw/shiloh/` contains selected historical text, rendered pages, maps and
+catalog snapshots. These retain their source attribution and are not relicensed as code.
 
 - U.S. War Department, *The War of the Rebellion: A Compilation of the Official
   Records of the Union and Confederate Armies*, Series I, Volume X, Parts I and II
@@ -53,6 +53,19 @@ table pages. These retain their source attribution and are not relicensed as cod
   DTIC ADA445681. Report date 2004; library catalog data uses 2005. Selected U.S.
   Army government-authored narrative and one table heading are included. Photos,
   maps, logos and modern third-party vignettes are omitted.
+- D. W. Reed, *The Battle of Shiloh and the Organizations Engaged*, revised 1909,
+  Shiloh National Military Park Commission, Government Printing Office.
+  Public-domain historical compilation; selected transcriptions and facsimiles
+  retain their report dependencies and reconstruction limits.
+- Library of Congress, Geography and Map Division: *Map of the field of Shiloh.
+  April 6 [1862]*, attributed to the US Army Department of the Tennessee,
+  [item 2006636339](https://www.loc.gov/item/2006636339/); and Léon Joseph Frémaux,
+  *Map of the battle field of Shiloh, April 6 & 7, 1862*, endorsed by G. T.
+  Beauregard, [item 85690890](https://www.loc.gov/item/85690890/).
+  Public-domain nineteenth-century maps. The full-resolution JPEG responses and
+  catalog JSON responses are preserved verbatim; separately identified selected
+  label transcriptions and interpretations are Generalship's work. Catalog dates
+  do not establish when maps were available to historical commanders.
 
 Original download links, parent hashes, page mappings, transformations and account
 dependencies are preserved in `data/sources.json`. None of these authors,

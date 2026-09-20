@@ -1,7 +1,9 @@
 # Shiloh contact and location evidence packet, v1
 
-Prepared 2026-09-20. **Research packet awaiting separate review. No exact first
-contact, geographic perimeter, complete population or new feature is admitted.**
+Prepared 2026-09-20; separate Astra `xhigh` review completed at `518d394`.
+The [two literal corrections and primary closure](shiloh-contact-location-corrections-v1.md)
+are recorded separately with new source versions. **No exact first contact,
+geographic perimeter, complete population or new feature is admitted.**
 
 The [research record](../../design/shiloh-contact-location-v1/research-record.json)
 compares nine participant reports, Reed's revised 1909 reconstruction and two
@@ -105,7 +107,7 @@ control points and uncertainty. `area` and both complete membership sets stay nu
   two catalog JSON responses retained. Not every map label was transcribed;
   there is no georeferencing or complete force inventory. Beauregard p.386 was
   re-read as previously pinned text, without a new scan review.
-- **32 new source entries / 32 new raw files**; registry now **85 entries / 82
+- **32 new source entries / 32 new raw files**; preparation registry **85 entries / 82
   distinct raw paths**. All prior 53 entries, raw bytes and metadata are preserved.
   New versioned excerpts expand context without replacing earlier Prentiss/Reed
   sources. Source dependence follows the relevant army/reporting chain; scans,
@@ -114,6 +116,11 @@ control points and uncertainty. `area` and both complete membership sets stay nu
   earlier source review and unresolved questions intact. No new typed strengths,
   canonical chronology or dossier review status is created. The prepared TN003
   assignment is regenerated only to include the expanded registry.
+
+The correction addendum adds two text versions, bringing the current registry
+to **87 entries / 84 raw paths**. All original packet sources and machine
+bindings remain unchanged. The review inspected all 14 assertions and both maps;
+34/38 anchors had new image checks and four Beauregard anchors remained text-only.
 
 The parent OR PDF SHA-256 is
 `86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978`;

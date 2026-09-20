@@ -124,8 +124,9 @@ with one nonblocking precision clarification; no historical feature is admitted.
 The [contact-and-location packet](docs/research/shiloh-contact-location-v1.md)
 adds nine participant opening accounts, 16 inspected book-page facsimiles and
 two maps. It preserves conflicting contact clocks, earlier skirmishes and map
-phase limits. The dossier and model inputs remain unchanged; separate review
-of this new packet is pending.
+phase limits. The separate Astra `xhigh` review found two literal transcription
+errors, now [corrected in new source versions](docs/research/shiloh-contact-location-corrections-v1.md)
+with primary verification. The dossier and model inputs remain unchanged.
 
 Then define a campaign replacement boundary and outcomes before fitting enriched
 models. Battle execution and campaign contribution are separate estimands; adding

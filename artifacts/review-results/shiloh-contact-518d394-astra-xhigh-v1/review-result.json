@@ -1,0 +1,927 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_contact_location_source_review",
+  "reviewer": {
+    "kind": "AI",
+    "task_identity": "/root/shiloh_contact_review",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "fresh_context": true
+  },
+  "date": "2026-09-20",
+  "input_commit": "518d3941fb9227ea9d4f2f6d960fd9b80a45f648",
+  "base_commit": "1312a22808e65ee0866a85f2e82aab4c63397f01",
+  "decision": "corrections_required",
+  "verdict": "corrections_required",
+  "decision_scope": "Two low-severity literal-transcription corrections are required for unqualified acceptance of those readings. No substantive historical assertion, chronology, map-phase, implementation or no-admission correction was found within the inspected scope.",
+  "input_bindings": [
+    {
+      "path": "data/sources.json",
+      "sha256": "5e5051afb0c548fbb3fe8f604fcc89f23c6b80e8be7c804c256ff64d5c94d233"
+    },
+    {
+      "path": "data/evidence/TN003.json",
+      "sha256": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee"
+    },
+    {
+      "path": "design/shiloh-contact-location-v1/research-record.json",
+      "sha256": "225d791de6ccac0ac5835868d890e6ea76b75a560f1697c60aa5ce282b31a1ad"
+    },
+    {
+      "path": "docs/research/shiloh-contact-location-v1.md",
+      "sha256": "e9701fbf84b0f698c9cf03671f87a2002f6119ec0473ba8762ef5c2cf120ccdf"
+    },
+    {
+      "path": "design/shiloh-contact-location-v1/reference-audit.py",
+      "sha256": "1abc9193fe516a6f49de21f68e9a26871da81d8c56041a1696c66c33235525e5"
+    },
+    {
+      "path": "design/shiloh-contact-location-v1/full-report-page-context-ocr.json",
+      "sha256": "5581ea9b19c83edccd518b2dd4b27a76b8608e0249783b884579d6227999be0a"
+    },
+    {
+      "path": "tests/test_review_corrections.py",
+      "sha256": "6d3bf54e8fddd95a77e405db9fc47e42b75cdb3480145f01d97cbabd873bb8cf"
+    },
+    {
+      "path": "generalship/cli.py",
+      "sha256": "ab0e7933250bf31bd2553e2613e8d6f3ee9fb3405dd653d49b65fbd44b1864fc"
+    },
+    {
+      "path": "artifacts/pilot-report.md",
+      "sha256": "224b9fdd67753c1f8bc36e2c37b05ca1b688c69318709aaa3f4e061cd6a4ff71"
+    },
+    {
+      "path": "artifacts/research/TN003.md",
+      "sha256": "c4e8e8b6dacd10f51c98f31086898375c7aae37698c62eef38a13233dcfb6970"
+    }
+  ],
+  "new_source_bindings": [
+    {
+      "source_id": "or-buckland-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-buckland-opening-v1.txt",
+      "sha256": "909816fca2e8f4a1a679f40e92d566e89dcc0c98abed5f1efad8bcd282e10392",
+      "metadata_sha256": "628271b047a91bb204dc444bbb0767845876c3a89a96bc02775ab6dfb2443495"
+    },
+    {
+      "source_id": "or-ricker-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-ricker-opening-v1.txt",
+      "sha256": "efd425e91bfc28cb2f26c81430324fc8e24e3091aa094b57016fd6ba4adaacaa",
+      "metadata_sha256": "1104127eb50aedaa70d4e20aee74f956e47011049a5b3189ac4c70c1dea3daea"
+    },
+    {
+      "source_id": "or-prentiss-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-prentiss-opening-v1.txt",
+      "sha256": "a5402045eba1c4741f2576272cf28be60265016d51f200fdd044c9a16c9d6662",
+      "metadata_sha256": "7228b28984a94233b9f6d4b39c8dba2b947f49e12d284fa85e9517f7bdf733d8"
+    },
+    {
+      "source_id": "or-quinn-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-quinn-opening-v1.txt",
+      "sha256": "b9f7ce8385e2df3b031257de9b6530c149b5a67f54b01290f9c6e87f3701acc5",
+      "metadata_sha256": "71f09d8bb69fb880e66dd10ce8c1b9980f45c5a2a4c0989a3e10bdd87999dfba"
+    },
+    {
+      "source_id": "or-moore-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-moore-opening-v1.txt",
+      "sha256": "183eea47a820f41292ae0db39413122fa7675c0e506470d63a04221bd262bc33",
+      "metadata_sha256": "f8e36cc673510b72ce06f5304472d52c0485928285c3443330582220bad39797"
+    },
+    {
+      "source_id": "or-woodyard-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-woodyard-opening-v1.txt",
+      "sha256": "775600d18b4b95c6feb18e327908d072c85ed3227bb85e9acb8cbcb6fd658c74",
+      "metadata_sha256": "7848eaf29ff28a28b87e18381edb9e5bba17e5f6812432634f82d31a0fad8f40"
+    },
+    {
+      "source_id": "or-van-horn-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-van-horn-opening-v1.txt",
+      "sha256": "a6de69f87a95da1c1060816bce0fac90eae7258145008561d34081dd48ff71a3",
+      "metadata_sha256": "a9cecbfc4d1b3514fb5b3e2551f98489fc59971ff27b175ca409e724fe9b0745"
+    },
+    {
+      "source_id": "or-allen-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-allen-opening-v1.txt",
+      "sha256": "f18fbd5a269b9a07a5790916e7f8db840e085e96b2757d38bf41b4ab6b65a754",
+      "metadata_sha256": "257d991559316b3b351ec1f7b5ac402c6cba528caf52baf816c22741df833f70"
+    },
+    {
+      "source_id": "or-hardcastle-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-hardcastle-opening-v1.txt",
+      "sha256": "5b199ec687ff9e26a790fe790b68d087a7e7b7df2676fe84b8f4f3c23aabfed4",
+      "metadata_sha256": "cd07e8da2bbfecbd9ea601eecb92ff04c51e5a7a4edfec1f223587fcd9b42232"
+    },
+    {
+      "source_id": "reed-1909-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/reed-1909-opening-v1.txt",
+      "sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+      "metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114"
+    },
+    {
+      "source_id": "or10-1-contact-p90-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p90-facsimile-v1.png",
+      "sha256": "c31e3efffc7a10181f128d57ab7801047380336bfe86875aa28f72657bc6bef3",
+      "metadata_sha256": "707c52708c541c44e9ee0e9407501ae0ebe8bd8851e7e7d1583ac7fca508cd35"
+    },
+    {
+      "source_id": "or10-1-contact-p91-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p91-facsimile-v1.png",
+      "sha256": "e81eaeca4d692ee577bf5b81e75e1d978428045a7f171ff934df1340e7699838",
+      "metadata_sha256": "4e73704d1beae4a9fe985e99dcec5ab1cf2ec6b47b7b7e6c12658e43dd5cd7e4"
+    },
+    {
+      "source_id": "or10-1-contact-p92-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p92-facsimile-v1.png",
+      "sha256": "ba2d04a7fbfcc9676354847130874be30dc1b27b31fc0a473fb51708681e8ca6",
+      "metadata_sha256": "15cf0629d48b94bfe5a79e11bbc18ff1a6fdf925ec51f1cced5027a555a0a4c1"
+    },
+    {
+      "source_id": "or10-1-contact-p277-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p277-facsimile-v1.png",
+      "sha256": "9339a7377ed2e05cc318d2080d507fea637090da2a62769cd547d3fe86964d69",
+      "metadata_sha256": "bfc8e774fb04cce8300951a2814d11c749dc2470f76ab8b6812b1c37798f6cb3"
+    },
+    {
+      "source_id": "or10-1-contact-p278-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p278-facsimile-v1.png",
+      "sha256": "785a0cbbeb721ac4490e8ba5a77269c566d0d0e9f5ff93af9e9dbdfc49626fc4",
+      "metadata_sha256": "01e37c2a00c5acb7db8e90e3e5352130bc766664b6bb3060f090d9055b5cd27d"
+    },
+    {
+      "source_id": "or10-1-contact-p280-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p280-facsimile-v1.png",
+      "sha256": "a0659d84fbae3b372a994e421e91638cd4d05d9552ea6f4eb1b4a50996123025",
+      "metadata_sha256": "0c7a188dc517a441da69ba7c5b390f03e8497d8d7c7335b3a066c630c7b04634"
+    },
+    {
+      "source_id": "or10-1-contact-p282-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p282-facsimile-v1.png",
+      "sha256": "b309d4b8ddc799a94d39f8d0e90de0e7b8b827ea8b666e2392034df63549ae29",
+      "metadata_sha256": "927f309b46b704749f84fd319ba01edbaedcea91bca9408c21e4bfc9765e3ec4"
+    },
+    {
+      "source_id": "or10-1-contact-p283-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p283-facsimile-v1.png",
+      "sha256": "b4d314ed02206faf952a88380d1464b8ccbe43c6a5e6e836dc9e2cf6e9e22a7d",
+      "metadata_sha256": "980189b3a80fd890a64fde2608e2b44f9a5529f65709f4917075c5053f15d06e"
+    },
+    {
+      "source_id": "or10-1-contact-p284-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p284-facsimile-v1.png",
+      "sha256": "77b8a4bdccd237eeddc21c24694ca647abaec013c3a3e91835b2f698f48a70fc",
+      "metadata_sha256": "15c4b0b6d95f631813077a50786181e84aeb2fcf8946c2bff622d84ba34a2dbf"
+    },
+    {
+      "source_id": "or10-1-contact-p285-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p285-facsimile-v1.png",
+      "sha256": "27bae1bf3593e20860b4dec93303f263ab1a246897b747b2160f047de2cb6b08",
+      "metadata_sha256": "9e5acc6f3bf62cd09a3314c961d884dcbcfb49cbd8cb8a85e5c69f9125ecb47e"
+    },
+    {
+      "source_id": "or10-1-contact-p602-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p602-facsimile-v1.png",
+      "sha256": "dd612522d95c1f1be6e4d8f1b05b0f731b8afb563284429db883776df9a396bf",
+      "metadata_sha256": "2adf543bd67b73a7c3143a380948b05dc2af5e934e26faa428bd7bd70d3ea851"
+    },
+    {
+      "source_id": "or10-1-contact-p603-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p603-facsimile-v1.png",
+      "sha256": "22357f9a2c1fb911208bd9bd147b5f96f8e056176bda09cb1e74f803148a9df5",
+      "metadata_sha256": "87091b95275bc31d98bec426620ff013843e46ac547f20b1d7bf11b99a199102"
+    },
+    {
+      "source_id": "reed-1909-contact-p13-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/reed-1909-contact-p13-facsimile-v1.png",
+      "sha256": "745f88d71ea6a95e69cf98178e7c8a2ea69683e4bbe14085b0961dfdeb9f7ae6",
+      "metadata_sha256": "61b0a1a4f9f71aa9c2d2190327338cbbd4e4646ffe98a9d9c56e2079a4f4cf1c"
+    },
+    {
+      "source_id": "reed-1909-contact-p59-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/reed-1909-contact-p59-facsimile-v1.png",
+      "sha256": "b1a7cc0221646fd5e45cddf676ef7077d6554a41bf240d357e8001b75e42ed26",
+      "metadata_sha256": "654642c98851232a633de9edf38eb346bf5d92e38513f9ce439095d85824a0b2"
+    },
+    {
+      "source_id": "reed-1909-contact-p60-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/reed-1909-contact-p60-facsimile-v1.png",
+      "sha256": "0679fa03ec1b14773856adf6bcaf3702cd06916f3d88ec4dc7e557443ee70b60",
+      "metadata_sha256": "28b1bfab20370e4fec6e5f8e44e0ba98f0898ae7c79874a77dd68ae71e5ae010"
+    },
+    {
+      "source_id": "reed-1909-contact-p68-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/reed-1909-contact-p68-facsimile-v1.png",
+      "sha256": "bc33498cd910b2b01e20b03a0bc9735b1d305448259cace5fc282b0c153fe087",
+      "metadata_sha256": "d19b7319b778d0c5c34888eed52a94d9a2a889312b7e8065fc14de93de068964"
+    },
+    {
+      "source_id": "loc-2006636339-catalog-v1",
+      "path": "data/raw/shiloh/contact-location-v1/loc-2006636339-catalog-v1.json",
+      "sha256": "dabe509da345bd3076068892747eb3b201d5290c67b6d165b32908fda005cd5c",
+      "metadata_sha256": "0e23d624f9d20b85feb21eac7c1d0e41f9c564e1e1b7159ab7c8f817555329be"
+    },
+    {
+      "source_id": "loc-2006636339-map-v1",
+      "path": "data/raw/shiloh/contact-location-v1/loc-2006636339-map-v1.jpg",
+      "sha256": "e2526c08837b6646e00b978d1f73dc57fb68849ab66ee6efc167533b1d4fd43e",
+      "metadata_sha256": "f426a856267f45b4268343e9adfb59a7ae61d0d71c4c1d9e8a8b54e05784fb89"
+    },
+    {
+      "source_id": "loc-2006636339-readings-v1",
+      "path": "data/raw/shiloh/contact-location-v1/loc-2006636339-readings-v1.txt",
+      "sha256": "7bc5eedf9f5b8f9a7a38257ca2b90c8e682721b8e7566f166e72568204b4ee58",
+      "metadata_sha256": "b86609d3b1ac81485bfe3766815592145377409b44fc7571d196ca1c20527076"
+    },
+    {
+      "source_id": "loc-85690890-catalog-v1",
+      "path": "data/raw/shiloh/contact-location-v1/loc-85690890-catalog-v1.json",
+      "sha256": "9e28f41eee0e38ef2478cafc4aa6dd0648fd146993052e21b8f33662a26e0b77",
+      "metadata_sha256": "694352d5d97545f3ade25b48308f7a0d65cac0371f74d737c3411111a6fbd3bd"
+    },
+    {
+      "source_id": "loc-85690890-map-v1",
+      "path": "data/raw/shiloh/contact-location-v1/loc-85690890-map-v1.jpg",
+      "sha256": "0434116f5a4d11a8765293596c265fce2ff8f0d1fb734db5e9c919a9fd329d76",
+      "metadata_sha256": "9ef19acecbbba463076f5bd46a9447404bfbea34af29ab0059e105fafb18c819"
+    },
+    {
+      "source_id": "loc-85690890-readings-v1",
+      "path": "data/raw/shiloh/contact-location-v1/loc-85690890-readings-v1.txt",
+      "sha256": "44b15a6b4f24effa5cdb01749b3e0f08a2471bc2bd6d4736140399500da855fc",
+      "metadata_sha256": "2d063cfb49d37fe2d120002390fa0f4a4c3b3b6ec6b2b4085aa4f15891aad008"
+    }
+  ],
+  "preserved_file_bindings": {
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/evidence/MD003.json": "3b9432c4c4cbe22a4778361ab17dc0645a3f594d735e286eea648d39d1d31bc7",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "data/admission/shiloh-opening-v2.json": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52",
+    "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json": "d3f3a2b9f2e8e48726812e08bf925d7c0e60b8ff012a4b0d4cdc95581a5a884c",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "artifacts/admission-check.json": "d0e8d3286bd34cb34cdd2a0a1d74f0b2d3c2f6ddf955c8e66336c4cb213ee756",
+    "artifacts/admission/shiloh-opening-v2-check.json": "960bca09880c56cec4da33e172cdd5686d106efcaac2e1a407a5d1e745281711",
+    "data/evidence/MS009.json": "f1d093f11e998d1de083ecdbd0e15e178697a508dd84f1f042a527e61186c413"
+  },
+  "response": {
+    "path": "artifacts/review-results/shiloh-contact-518d394-astra-xhigh-v1/review.md",
+    "sha256": "72811a2a51e8b9e9691094864c986f65a0fa0cb16d7e78cf86073ce60180fb73"
+  },
+  "inspection_coverage": {
+    "assertions_inspected": 14,
+    "assertions_available": 14,
+    "passage_anchors_inspected": 38,
+    "passage_anchors_available": 38,
+    "source_section_pairs_inspected": 19,
+    "source_section_pairs_available": 19,
+    "anchors_with_direct_new_facsimile_comparison": 34,
+    "pairs_with_direct_new_facsimile_comparison": 18,
+    "text_only_anchors": 4,
+    "text_only_pair": "or-beauregard-shiloh-report/p386",
+    "participant_full_reports_read_as_ocr": 9,
+    "or_context_pages": [
+      90,
+      91,
+      92,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      602,
+      603,
+      604
+    ],
+    "or_visual_pages": [
+      90,
+      91,
+      92,
+      277,
+      278,
+      280,
+      282,
+      283,
+      284,
+      285,
+      602,
+      603
+    ],
+    "reed_visual_pages": [
+      13,
+      59,
+      60,
+      68
+    ],
+    "book_page_images_inspected": 16,
+    "book_page_images_available": 16,
+    "maps_inspected": 2,
+    "catalog_snapshots_inspected": 2,
+    "selected_map_reading_files_inspected": 2,
+    "new_source_entries_checked": 32,
+    "prior_registry_entries_and_raw_bytes_compared_to_parent": 53,
+    "preserved_files_checked": 10,
+    "registry_entries": 85,
+    "registry_distinct_raw_paths": 82,
+    "complete_map_inventory": false,
+    "complete_visual_transcription_of_every_page_word": false,
+    "parent_pdfs_inspected": false,
+    "additional_book_page_images_inspected": [],
+    "map_windows_xyxy": {
+      "loc-2006636339-map-v1": [
+        [
+          480,
+          480,
+          2410,
+          1900
+        ],
+        [
+          5450,
+          3250,
+          6750,
+          4100
+        ]
+      ],
+      "loc-85690890-map-v1": [
+        [
+          990,
+          795,
+          1880,
+          1575
+        ],
+        [
+          2060,
+          450,
+          2440,
+          800
+        ]
+      ]
+    },
+    "map_window_coordinate_system": "Pixels in original image, top-left origin. Crops generated in memory. Full-image overviews also inspected. Not geographic coordinates."
+  },
+  "inspected_source_sections": [
+    {
+      "source_id": "or-buckland-opening-v1",
+      "section": "p90-opening",
+      "raw_path": "data/raw/shiloh/contact-location-v1/or-buckland-opening-v1.txt",
+      "raw_sha256": "909816fca2e8f4a1a679f40e92d566e89dcc0c98abed5f1efad8bcd282e10392",
+      "source_metadata_sha256": "628271b047a91bb204dc444bbb0767845876c3a89a96bc02775ab6dfb2443495",
+      "document_date": "1862-04-05",
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "or10-1-contact-p90-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL01"
+      ],
+      "anchor_count": 3
+    },
+    {
+      "source_id": "or-ricker-opening-v1",
+      "section": "p92-interpretation",
+      "raw_path": "data/raw/shiloh/contact-location-v1/or-ricker-opening-v1.txt",
+      "raw_sha256": "efd425e91bfc28cb2f26c81430324fc8e24e3091aa094b57016fd6ba4adaacaa",
+      "source_metadata_sha256": "1104127eb50aedaa70d4e20aee74f956e47011049a5b3189ac4c70c1dea3daea",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "or10-1-contact-p92-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL01"
+      ],
+      "anchor_count": 1
+    },
+    {
+      "source_id": "reed-1909-opening-v1",
+      "section": "p13-earlier-contact",
+      "raw_path": "data/raw/shiloh/contact-location-v1/reed-1909-opening-v1.txt",
+      "raw_sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+      "source_metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "reed-1909-contact-p13-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL02"
+      ],
+      "anchor_count": 1
+    },
+    {
+      "source_id": "reed-1909-opening-v1",
+      "section": "p68-screen",
+      "raw_path": "data/raw/shiloh/contact-location-v1/reed-1909-opening-v1.txt",
+      "raw_sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+      "source_metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "reed-1909-contact-p68-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL02",
+        "CL11"
+      ],
+      "anchor_count": 2
+    },
+    {
+      "source_id": "or-prentiss-opening-v1",
+      "section": "p277-saturday",
+      "raw_path": "data/raw/shiloh/contact-location-v1/or-prentiss-opening-v1.txt",
+      "raw_sha256": "a5402045eba1c4741f2576272cf28be60265016d51f200fdd044c9a16c9d6662",
+      "source_metadata_sha256": "7228b28984a94233b9f6d4b39c8dba2b947f49e12d284fa85e9517f7bdf733d8",
+      "document_date": "1862-11-17",
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "or10-1-contact-p277-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL03"
+      ],
+      "anchor_count": 1
+    },
+    {
+      "source_id": "or-moore-opening-v1",
+      "section": "p282-saturday",
+      "raw_path": "data/raw/shiloh/contact-location-v1/or-moore-opening-v1.txt",
+      "raw_sha256": "183eea47a820f41292ae0db39413122fa7675c0e506470d63a04221bd262bc33",
+      "source_metadata_sha256": "f8e36cc673510b72ce06f5304472d52c0485928285c3443330582220bad39797",
+      "document_date": "1862-04-11",
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "or10-1-contact-p282-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL03"
+      ],
+      "anchor_count": 1
+    },
+    {
+      "source_id": "or-prentiss-opening-v1",
+      "section": "p278-sunday",
+      "raw_path": "data/raw/shiloh/contact-location-v1/or-prentiss-opening-v1.txt",
+      "raw_sha256": "a5402045eba1c4741f2576272cf28be60265016d51f200fdd044c9a16c9d6662",
+      "source_metadata_sha256": "7228b28984a94233b9f6d4b39c8dba2b947f49e12d284fa85e9517f7bdf733d8",
+      "document_date": "1862-11-17",
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "or10-1-contact-p278-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL04"
+      ],
+      "anchor_count": 3
+    },
+    {
+      "source_id": "or-quinn-opening-v1",
+      "section": "p280-opening",
+      "raw_path": "data/raw/shiloh/contact-location-v1/or-quinn-opening-v1.txt",
+      "raw_sha256": "b9f7ce8385e2df3b031257de9b6530c149b5a67f54b01290f9c6e87f3701acc5",
+      "source_metadata_sha256": "71f09d8bb69fb880e66dd10ce8c1b9980f45c5a2a4c0989a3e10bdd87999dfba",
+      "document_date": "1862-04-09",
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "or10-1-contact-p280-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL05"
+      ],
+      "anchor_count": 2
+    },
+    {
+      "source_id": "or-van-horn-opening-v1",
+      "section": "p284-opening",
+      "raw_path": "data/raw/shiloh/contact-location-v1/or-van-horn-opening-v1.txt",
+      "raw_sha256": "a6de69f87a95da1c1060816bce0fac90eae7258145008561d34081dd48ff71a3",
+      "source_metadata_sha256": "a9cecbfc4d1b3514fb5b3e2551f98489fc59971ff27b175ca409e724fe9b0745",
+      "document_date": "1862-04-09",
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "or10-1-contact-p284-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL06"
+      ],
+      "anchor_count": 2
+    },
+    {
+      "source_id": "or-moore-opening-v1",
+      "section": "p282-sunday",
+      "raw_path": "data/raw/shiloh/contact-location-v1/or-moore-opening-v1.txt",
+      "raw_sha256": "183eea47a820f41292ae0db39413122fa7675c0e506470d63a04221bd262bc33",
+      "source_metadata_sha256": "f8e36cc673510b72ce06f5304472d52c0485928285c3443330582220bad39797",
+      "document_date": "1862-04-11",
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "or10-1-contact-p282-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL07"
+      ],
+      "anchor_count": 2
+    },
+    {
+      "source_id": "or-woodyard-opening-v1",
+      "section": "p283-opening",
+      "raw_path": "data/raw/shiloh/contact-location-v1/or-woodyard-opening-v1.txt",
+      "raw_sha256": "775600d18b4b95c6feb18e327908d072c85ed3227bb85e9acb8cbcb6fd658c74",
+      "source_metadata_sha256": "7848eaf29ff28a28b87e18381edb9e5bba17e5f6812432634f82d31a0fad8f40",
+      "document_date": "1862-04-12",
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "or10-1-contact-p283-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL08"
+      ],
+      "anchor_count": 2
+    },
+    {
+      "source_id": "or-woodyard-opening-v1",
+      "section": "p283-field",
+      "raw_path": "data/raw/shiloh/contact-location-v1/or-woodyard-opening-v1.txt",
+      "raw_sha256": "775600d18b4b95c6feb18e327908d072c85ed3227bb85e9acb8cbcb6fd658c74",
+      "source_metadata_sha256": "7848eaf29ff28a28b87e18381edb9e5bba17e5f6812432634f82d31a0fad8f40",
+      "document_date": "1862-04-12",
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "or10-1-contact-p283-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL08"
+      ],
+      "anchor_count": 1
+    },
+    {
+      "source_id": "or-allen-opening-v1",
+      "section": "p285-opening",
+      "raw_path": "data/raw/shiloh/contact-location-v1/or-allen-opening-v1.txt",
+      "raw_sha256": "f18fbd5a269b9a07a5790916e7f8db840e085e96b2757d38bf41b4ab6b65a754",
+      "source_metadata_sha256": "257d991559316b3b351ec1f7b5ac402c6cba528caf52baf816c22741df833f70",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "or10-1-contact-p285-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL09"
+      ],
+      "anchor_count": 3
+    },
+    {
+      "source_id": "or-hardcastle-opening-v1",
+      "section": "p602-screen",
+      "raw_path": "data/raw/shiloh/contact-location-v1/or-hardcastle-opening-v1.txt",
+      "raw_sha256": "5b199ec687ff9e26a790fe790b68d087a7e7b7df2676fe84b8f4f3c23aabfed4",
+      "source_metadata_sha256": "cd07e8da2bbfecbd9ea601eecb92ff04c51e5a7a4edfec1f223587fcd9b42232",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "or10-1-contact-p602-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL10"
+      ],
+      "anchor_count": 3
+    },
+    {
+      "source_id": "or-hardcastle-opening-v1",
+      "section": "p603-dawn",
+      "raw_path": "data/raw/shiloh/contact-location-v1/or-hardcastle-opening-v1.txt",
+      "raw_sha256": "5b199ec687ff9e26a790fe790b68d087a7e7b7df2676fe84b8f4f3c23aabfed4",
+      "source_metadata_sha256": "cd07e8da2bbfecbd9ea601eecb92ff04c51e5a7a4edfec1f223587fcd9b42232",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "or10-1-contact-p603-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL10"
+      ],
+      "anchor_count": 2
+    },
+    {
+      "source_id": "reed-1909-opening-v1",
+      "section": "p59-route",
+      "raw_path": "data/raw/shiloh/contact-location-v1/reed-1909-opening-v1.txt",
+      "raw_sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+      "source_metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "reed-1909-contact-p59-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL11"
+      ],
+      "anchor_count": 1
+    },
+    {
+      "source_id": "reed-1909-opening-v1",
+      "section": "p60-contact",
+      "raw_path": "data/raw/shiloh/contact-location-v1/reed-1909-opening-v1.txt",
+      "raw_sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+      "source_metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "reed-1909-contact-p60-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL11"
+      ],
+      "anchor_count": 2
+    },
+    {
+      "source_id": "reed-1909-opening-v1",
+      "section": "p68-brigade",
+      "raw_path": "data/raw/shiloh/contact-location-v1/reed-1909-opening-v1.txt",
+      "raw_sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+      "source_metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+      "document_date": null,
+      "historical_knowledge_at": null,
+      "facsimile_ids": [
+        "reed-1909-contact-p68-facsimile-v1"
+      ],
+      "assertion_ids": [
+        "CL12"
+      ],
+      "anchor_count": 2
+    },
+    {
+      "source_id": "or-beauregard-shiloh-report",
+      "section": "p386",
+      "raw_path": "data/raw/shiloh/or-beauregard-shiloh-report.txt",
+      "raw_sha256": "c87c79162f5ef1a88bc308896b90a4178808a6b505e1b7ee805be535705a692c",
+      "source_metadata_sha256": "728ea565421f76379239861074184e28a0b8d99dad3b8a0143dec96fb4a64031",
+      "document_date": "1862-04-11",
+      "historical_knowledge_at": null,
+      "facsimile_ids": [],
+      "assertion_ids": [
+        "CL13",
+        "CL14"
+      ],
+      "anchor_count": 4
+    }
+  ],
+  "assertion_assessments": [
+    {
+      "id": "CL01",
+      "anchors_inspected": 4,
+      "result": "No substantive correction identified; retain source attribution and stated limit."
+    },
+    {
+      "id": "CL02",
+      "anchors_inspected": 2,
+      "result": "No substantive correction identified; retain source attribution and stated limit."
+    },
+    {
+      "id": "CL03",
+      "anchors_inspected": 2,
+      "result": "No substantive correction identified; retain source attribution and stated limit."
+    },
+    {
+      "id": "CL04",
+      "anchors_inspected": 3,
+      "result": "No substantive correction identified; retain source attribution and stated limit."
+    },
+    {
+      "id": "CL05",
+      "anchors_inspected": 2,
+      "result": "No substantive correction identified; retain source attribution and stated limit."
+    },
+    {
+      "id": "CL06",
+      "anchors_inspected": 2,
+      "result": "No substantive correction identified; retain source attribution and stated limit."
+    },
+    {
+      "id": "CL07",
+      "anchors_inspected": 2,
+      "result": "No substantive correction identified; retain source attribution and stated limit."
+    },
+    {
+      "id": "CL08",
+      "anchors_inspected": 3,
+      "result": "No substantive correction identified; retain source attribution and stated limit."
+    },
+    {
+      "id": "CL09",
+      "anchors_inspected": 3,
+      "result": "No substantive correction identified; retain source attribution and stated limit."
+    },
+    {
+      "id": "CL10",
+      "anchors_inspected": 5,
+      "result": "No substantive correction identified; retain source attribution and stated limit."
+    },
+    {
+      "id": "CL11",
+      "anchors_inspected": 4,
+      "result": "No substantive correction identified; retain source attribution and stated limit."
+    },
+    {
+      "id": "CL12",
+      "anchors_inspected": 2,
+      "result": "No substantive correction identified; retain source attribution and stated limit."
+    },
+    {
+      "id": "CL13",
+      "anchors_inspected": 3,
+      "result": "No substantive correction identified; retain source attribution and stated limit."
+    },
+    {
+      "id": "CL14",
+      "anchors_inspected": 1,
+      "result": "No substantive correction identified; retain source attribution and stated limit."
+    }
+  ],
+  "map_assessments": [
+    {
+      "id": "CL-M2006636339",
+      "result": "Blue morning/red night distinction, north-to-right orientation and named command/river labels supported; no pre-contact perimeter or population established."
+    },
+    {
+      "id": "CL-M85690890",
+      "result": "Named lines, Tanner/Greer fords, April 6-7 title and endorsement supported; no contact-specific clock. CL-R2 corrects only a selected legend spelling."
+    }
+  ],
+  "findings": [
+    {
+      "id": "CL-R1",
+      "severity": "low",
+      "priority": 3,
+      "blocking": true,
+      "blocking_scope": "Unqualified manual-transcription fidelity acceptance only; not the attributed assertions or no-admission research boundary.",
+      "status": "required_correction",
+      "file": "data/raw/shiloh/contact-location-v1/or-prentiss-opening-v1.txt",
+      "line": 11,
+      "section": "p277-saturday",
+      "title": "Restore commandant in the Prentiss transcription",
+      "current_text": "information received from the commander thereof",
+      "exact_correction": "information received from the commandant thereof",
+      "description": "The page image prints com- / mandant across a line wrap. Whitespace and line-wrap normalization do not permit substitution with commander. The affected word is outside the CL03 company-count anchor.",
+      "evidence": {
+        "source_id": "or10-1-contact-p277-facsimile-v1",
+        "printed_page": 277,
+        "pdf_page": 301,
+        "raw_sha256": "9339a7377ed2e05cc318d2080d507fea637090da2a62769cd547d3fe86964d69",
+        "locator": "Lower Prentiss paragraph; native image crop [0,725,574,925], top-left origin.",
+        "reading": "in view of information received from the commandant thereof"
+      },
+      "affected_source_id": "or-prentiss-opening-v1",
+      "affected_raw_sha256": "a5402045eba1c4741f2576272cf28be60265016d51f200fdd044c9a16c9d6662",
+      "correction_method": "Preserve v1 bytes and source metadata; add a versioned corrected source plus a hash-bound correction record.",
+      "historical_assertions_changed": []
+    },
+    {
+      "id": "CL-R2",
+      "severity": "low",
+      "priority": 3,
+      "blocking": true,
+      "blocking_scope": "Unqualified selected-label transcription fidelity acceptance only; not map-phase interpretation or no-admission research boundary.",
+      "status": "required_correction",
+      "file": "data/raw/shiloh/contact-location-v1/loc-85690890-readings-v1.txt",
+      "line": 11,
+      "section": "title-legend",
+      "title": "Remove added s from the Fremaux legend label",
+      "current_text": "Hornets nest",
+      "exact_correction": "Hornet nest",
+      "description": "The original legend star-symbol entry reads Hornet nest, without a terminal s. The permitted normalization of case, whitespace, superscripts and punctuation cannot add a letter.",
+      "evidence": {
+        "source_id": "loc-85690890-map-v1",
+        "raw_sha256": "0434116f5a4d11a8765293596c265fce2ff8f0d1fb734db5e9c919a9fd329d76",
+        "locator": "Legend star-symbol entry, native image crop [2060,450,2440,800], top-left origin.",
+        "reading": "Hornet nest"
+      },
+      "affected_source_id": "loc-85690890-readings-v1",
+      "affected_raw_sha256": "44b15a6b4f24effa5cdb01749b3e0f08a2471bc2bd6d4736140399500da855fc",
+      "correction_method": "Preserve the image, catalog and v1 readings; add a versioned corrected readings source and hash-bound correction record.",
+      "historical_assertions_changed": []
+    }
+  ],
+  "required_corrections": [
+    "CL-R1",
+    "CL-R2"
+  ],
+  "unresolved_findings": [
+    "CL-R1",
+    "CL-R2"
+  ],
+  "unresolved_blocking_findings": [
+    "CL-R1",
+    "CL-R2"
+  ],
+  "historical_assertion_blockers_found": 0,
+  "implementation_blockers_found": 0,
+  "commands": [
+    {
+      "command": "Initial SHA-256 checks of four dispatched inputs",
+      "exit_code": 0,
+      "result": "All supplied hashes match before review."
+    },
+    {
+      "command": "python3 design/shiloh-contact-location-v1/reference-audit.py",
+      "exit_code": 0,
+      "result": "Passed; 14 assertions, 38 anchors, 19 source/section pairs, 32 new source bindings, 53 preserved metadata bindings, context hash and 10 preserved file bindings."
+    },
+    {
+      "command": "make check",
+      "exit_code": 0,
+      "result": "82 tests passed; generalship check passed; artifacts_written false."
+    },
+    {
+      "command": "Independent inline Python comparison of registry entries and raw files with git show at parent 1312a22808e65ee0866a85f2e82aab4c63397f01",
+      "exit_code": 0,
+      "result": "All 53 prior entries and referenced raw bytes preserved."
+    },
+    {
+      "command": "Archived design/shiloh-opening-boundary-v1/reference-audit.py run in temporary git archive of 330599b8882ef9974f4641056c4c1091b0013912",
+      "exit_code": 0,
+      "result": "Passed at original reviewed commit; 51 anchors, 26 sections, 18 revised mappings, 40 observations, 7 blocked / 33 excluded, 0 promoted."
+    },
+    {
+      "command": "make reproduce and make packet in temporary git archive of exact input commit; byte comparison with checked-in generated outputs",
+      "exit_code": 0,
+      "result": "Both passed; all 9 compared generated files byte-identical, including receipt, pilot report and TN003 packet."
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "result": "Passed at validation time."
+    }
+  ],
+  "preserved_results": {
+    "frame_engagements": 127,
+    "frame_campaigns": 36,
+    "dossier_claims": 62,
+    "dossier_quantities": 40,
+    "dossier_events": 26,
+    "admission_v1": {
+      "blocked": 18,
+      "excluded": 22
+    },
+    "admission_v2": {
+      "blocked": 7,
+      "excluded": 33
+    },
+    "complete_candidate_rows": 0,
+    "eligible_baseline_engagements": 23,
+    "eligible_baseline_groups": 13,
+    "baseline_brier": 0.2768816348133779,
+    "equal_odds_brier": 0.25
+  },
+  "historical_features_admitted": 0,
+  "emitted_rows": 0,
+  "promoted_rows": 0,
+  "release_manifest_authorized": false,
+  "canonical_strength_established": false,
+  "unresolved_research_gates": [
+    {
+      "id": "G1",
+      "question": "Does the engagement boundary include April 3–5 contacts?",
+      "state": "unresolved",
+      "next_evidence": "Inspect the April 4 Hardee/Jordan/Sherman reports and the referenced April 5 Howell encounter; compare event continuity before amending any boundary."
+    },
+    {
+      "id": "G2",
+      "question": "Which April 6 shot/contact qualifies first under the chosen rule?",
+      "state": "unresolved",
+      "next_evidence": "Trace Reed’s 4:55 derivation and patrol testimony, identify cavalry vedettes, and distinguish alarm shots, departure times and separate patrols."
+    },
+    {
+      "id": "G3",
+      "question": "What is the exact geographic area and complete location inventory?",
+      "state": "unresolved",
+      "next_evidence": "Tie field-name variants, camp plots, guard detachments, approach columns and reserves to a common survey with reported-time uncertainty; identify Borland ford."
+    },
+    {
+      "id": "G4",
+      "question": "How are afloat personnel classified consistently on both sides?",
+      "state": "unresolved",
+      "next_evidence": "Recover April 5–6 transport/gunboat deck logs and landing times; choose a bank/water boundary and apply a symmetrical physical-availability rule. Map boat icons cannot establish opening crew membership."
+    },
+    {
+      "id": "G5",
+      "question": "Can the seven blocked observations be mapped to complete B0 populations?",
+      "state": "unresolved",
+      "next_evidence": "After G1–G4, audit roster/return inclusions, absences, detached guards and overlapping totals. No new arithmetic repairs."
+    }
+  ],
+  "limits": [
+    "AI source review is not human historical adjudication or proof of source independence.",
+    "Source-backed assertions remain historically disputed; no clock, perimeter, complete population or feature is admitted.",
+    "Pages 279, 281, 286 and 604 were read as retained uncorrected OCR only; no visual verification of those pages.",
+    "Beauregard p386 retains four text-only anchors; no fresh page-image transcription audit.",
+    "Selected passage and nearby context inspection is not character-by-character transcription of every word on all retained page images.",
+    "Map overviews and selected regions were inspected, not every map label; no georeferencing, field survey or complete force inventory.",
+    "No network fetching, cached parent-PDF inspection or new external historical-source search was performed.",
+    "Purposive coverage does not estimate an extraction-error rate.",
+    "Concurrent primary edits outside the exact reviewed inputs are excluded; the reviewer wrote only review.md and review-result.json.",
+    "Later primary assessment and versioned source corrections must be bound separately; these two review findings remain unresolved in this immutable record."
+  ]
+}

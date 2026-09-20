@@ -73,7 +73,7 @@ An exact numerical reproduction remains a separate milestone.
 The [versioned packet](research/shiloh-contact-location-v1.md) adds 32 source
 entries: nine selected participant-report transcriptions, one Reed excerpt file,
 16 full-page facsimiles, two LOC map JPEGs, two verbatim catalog JSON responses
-and two selected map-label transcriptions. The registry now has 85 entries and
+and two selected map-label transcriptions. The preparation registry has 85 entries and
 82 distinct raw paths. Earlier 53 entries and their raw inputs are unchanged.
 Full participant reports were read as OCR context across 16 OR pages; the visual
 check covers selected opening passages on 12 of those pages and four Reed pages.
@@ -88,6 +88,12 @@ other covers April 6–7 without a clock-specific legend; neither proves a B0
 perimeter or full population. Map/catalog/transcription records remain in the
 associated army reporting dependence group. No source is counted as independent
 because it has a second image, catalog record or transcription.
+
+The [separate review and literal correction addendum](research/shiloh-contact-location-corrections-v1.md)
+add `or-prentiss-opening-v2` and `loc-85690890-readings-v2`, preserving their v1
+records and images. Only `commander` → `commandant` and `Hornets` → `Hornet`
+change. The current registry has **87 entries / 84 raw paths**; the two versions
+do not add witnesses, change dates or alter any historical assertion.
 
 Prioritize original reports, contemporary orders and correspondence, then
 independently authored scholarship. Record competing estimates and account
