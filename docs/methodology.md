@@ -182,7 +182,9 @@ selections; 35 of 65 cited source/section pairs remain text/CSV-only. Its
 retain historical disputes. The [four corrections](research/shiloh-review-corrections.md)
 are implemented in a versioned draft with focused implementation review and
 validator follow-up accepted. Antietam and Champion
-Hill have no separate review. AI review is not human historical adjudication or
+Hill have no separate review. The [bounded river-campaign review](research/river-campaign-first-pass-v1.md)
+accepted 33 new claims for Fort Henry, Fort Donelson and Corinth; all three remain
+drafts with opening populations unresolved. AI review is not human historical adjudication or
 proof of source independence. Agreement with famous-generals lists is never an
 acceptance criterion.
 

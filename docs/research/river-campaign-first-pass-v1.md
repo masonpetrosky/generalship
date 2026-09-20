@@ -4,7 +4,9 @@ Prepared 2026-09-20. Three new **drafts** complete dossier presence for all four
 engagements in the frozen source campaign **Federal Penetration up the Cumberland
 and Tennessee Rivers [February-June 1862]**. Shiloh is carried forward unchanged.
 This does not establish historical completeness, comparable research depth,
-feature eligibility or campaign success. Separate campaign review is pending.
+feature eligibility or campaign success. Separate Astra `xhigh`
+[review](../../artifacts/review-results/river-campaign-0cc3b1b-astra-xhigh-v1/review.md)
+accepted all 33 new claims with no required corrections.
 
 | Engagement | Claims | Explicit null claims | First-pass source families |
 | --- | ---: | ---: | --- |
@@ -87,16 +89,18 @@ issue. No silent repair or substitution of the October Corinth battle occurs.
 
 ## Review, preservation and next action
 
-One fresh-context Astra `xhigh` campaign review will inspect all **33 new claims**
-and their retained source context, and verify preservation of the fourth dossier.
-The new review does not re-review all 62 Shiloh claims; its earlier review records
-remain the evidence for their stated scopes. Correct extraction defects without
-opening new historical investigations. All dossiers remain drafts after AI review.
+The fresh-context Astra `xhigh` campaign review inspected all **33 new claims**,
+62 citation occurrences, 24 Grant context paragraphs and three NPS summaries. It
+replayed the digital extraction, verified all 23 assigned input hashes and prior
+evidence preservation, and independently passed all 82 tests. It found **no required
+corrections**. The [primary assessment](../../artifacts/review-results/river-campaign-0cc3b1b-astra-xhigh-v1/primary-assessment.md)
+accepts that bounded result. The new review did not re-review all 62 Shiloh claims;
+earlier reviews retain their stated scopes. All dossiers remain drafts after AI review.
 
-The frozen cohort, Shiloh dossier, both admission proposals and baseline must remain
+The frozen cohort, Shiloh dossier, both admission proposals and baseline remain
 byte-identical. Baseline eligibility stays **23/127 across 13 groups**, Brier
 **0.276882 versus 0.250000** for equal odds; zero historical features are admitted.
 
-After review, proceed to the earliest remaining complete source campaign:
+Next, proceed to the earliest remaining complete source campaign:
 **Blockade of the Potomac River [October 1861-January 1862]**, containing **Cockpit
 Point (VA100)**. Preserve all campaign groups regardless of outcome or fame.

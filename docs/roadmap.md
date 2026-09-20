@@ -17,13 +17,15 @@ all four dossiers in **Federal Penetration up the Cumberland and Tennessee River
 
 | Engagement | First-pass state |
 | --- | --- |
-| TN001 — Fort Henry | New draft; two source families; campaign review pending |
-| TN002 — Fort Donelson | New draft; two source families; campaign review pending |
+| TN001 — Fort Henry | New draft; two source families; separate review complete |
+| TN002 — Fort Donelson | New draft; two source families; separate review complete |
 | TN003 — Shiloh | Existing draft and prior reviews carried forward unchanged |
-| MS016 — Corinth | New draft; two source families; campaign review pending |
+| MS016 — Corinth | New draft; two source families; separate review complete |
 
-Review the three new drafts together and verify Shiloh preservation; do not reopen
-its parked research. Then take **Blockade of the Potomac River [October 1861-January
+Astra `xhigh` [review](../artifacts/review-results/river-campaign-0cc3b1b-astra-xhigh-v1/review.md)
+accepted all 33 new claims with no required corrections and verified Shiloh
+preservation; its old claims were not re-reviewed. All four dossiers remain drafts.
+Next take **Blockade of the Potomac River [October 1861-January
 1862]**, whose complete frozen membership is **VA100 — Cockpit Point**. This is the
 earliest remaining source campaign by engagement start date (January 3, 1862).
 Continue complete groups by earliest engagement date, breaking ties by campaign
@@ -160,8 +162,9 @@ conflicts also remain open.
 The Confederate reports' differences from p.396, report 137's two inspected infantry
 subtotal discrepancies, and the accounting of late/detached formations remain
 explicit questions for historical review. The updated packet is
-available with `python3 -m generalship packet TN003`. The bounded campaign pass now adds Fort Henry, Fort Donelson and Corinth;
-follow the current priority above for subsequent work.
+available with `python3 -m generalship packet TN003`. The bounded campaign pass
+now adds Fort Henry, Fort Donelson and Corinth; follow the current priority above
+for subsequent work.
 Use Antietam to test outcome ambiguity and Champion Hill to test inherited orders
 versus commander-created circumstances.
 

@@ -90,7 +90,9 @@ The three new schema-v1 dossiers add prose observations, not typed/admitted
 strengths. Proposed expeditions, late forces, prisoners and retrospective enemy
 estimates remain separate. Live zeros, campaign-like date fields, casualty
 mismatches and the unexplained Corinth raid wording remain unresolved; the
-frozen tables and cohort are not migrated or overwritten.
+frozen tables and cohort are not migrated or overwritten. Separate Astra `xhigh`
+[review](../artifacts/review-results/river-campaign-0cc3b1b-astra-xhigh-v1/review.md) accepted all 33 new
+claims with no required corrections; its extraction replay remains digital-only.
 
 
 ### Shiloh contact and location packet, 2026-09-20

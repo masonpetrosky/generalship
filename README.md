@@ -80,8 +80,8 @@ targeted follow-up, then move on and review by complete source campaign.
 
 The [bounded river-campaign pass](docs/research/river-campaign-first-pass-v1.md)
 adds Fort Henry, Fort Donelson and Corinth, carrying forward Shiloh unchanged.
-Campaign review is pending; no new model inputs are admitted. After review, the
-next complete source campaign is the **Blockade of the Potomac River**, containing
+The three new drafts passed separate Astra `xhigh` source review; no model inputs
+are admitted. The next complete source campaign is the **Blockade of the Potomac River**, containing
 Cockpit Point (VA100). See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).

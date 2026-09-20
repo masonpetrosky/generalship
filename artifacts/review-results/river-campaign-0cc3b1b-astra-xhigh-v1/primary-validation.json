@@ -1,0 +1,79 @@
+{
+  "prepared_commit": "0cc3b1b442a1c7651ab6ddd6889dbed9019e6a6a",
+  "compared_to": "62c66db0c4ba2513e38d59670fbfbfdd80a74887",
+  "all_prepared_input_hashes_verified": 23,
+  "prior_source_entries_unchanged": 176,
+  "prior_distinct_raw_paths_verified": 173,
+  "current_source_entries": 184,
+  "current_distinct_raw_paths": 181,
+  "byte_identical_paths": [
+    "data/evidence/TN003.json",
+    "data/evidence/MD003.json",
+    "data/evidence/MS009.json",
+    "data/pilot/cohort.json",
+    "data/admission/shiloh-opening-v1.json",
+    "data/admission/shiloh-opening-v2.json",
+    "artifacts/baseline.json"
+  ],
+  "snapshot_derivation_check": {
+    "result": "pass",
+    "grant_paragraphs": 24,
+    "nps_summaries": 3,
+    "method": "Primary replayed documented HTMLParser transformations and compared all four normalized text snapshots exactly against retained HTML."
+  },
+  "check": {
+    "command": "make check",
+    "tests": 82,
+    "result": "pass",
+    "note": "Initial integration test still enumerated three dossiers; updated the expected inventory to six and reran the complete suite successfully."
+  },
+  "reproduction": {
+    "commands": [
+      "make reproduce",
+      "make packet",
+      "python3 -m generalship packet TN001",
+      "python3 -m generalship packet TN002",
+      "python3 -m generalship packet MS016"
+    ],
+    "result": "pass",
+    "generated_report_inspected": true
+  },
+  "scope": {
+    "frame_engagements": 127,
+    "frame_campaigns": 36,
+    "draft_dossiers": 6,
+    "without_dossier": 121,
+    "campaigns_with_all_dossiers_present": 1,
+    "new_claims": 33,
+    "new_explicit_null_claims": 4,
+    "new_families_per_battle": 2,
+    "all_new_digital_only": true,
+    "admitted_rows": 0,
+    "baseline_eligible": 23,
+    "baseline_eligible_campaigns": 13,
+    "baseline_brier": 0.2768816348133779,
+    "equal_odds_brier": 0.25
+  },
+  "admission_v2": {
+    "status_counts": {
+      "blocked": 7,
+      "excluded": 33
+    },
+    "promoted_rows": 0
+  },
+  "review": {
+    "task": "/root/river_campaign_review",
+    "response_sha256": "40b75424ad5b93b3d6d0e09f5ad2ea5725384e263b8c521839e4eaacd015febe",
+    "decision": "no required corrections; accepted by primary within bounded scope",
+    "claims_inspected": 33,
+    "citation_occurrences": 62,
+    "new_evidence_changed_after_review": false
+  },
+  "finalization": {
+    "make_check": "82 tests and all pipeline checks passed after current-status prose updates",
+    "make_reproduce": "passed; generated pilot report inspected",
+    "reviewed_evidence_and_frozen_inputs_unchanged": true,
+    "verified_prepared_evidence_paths": 17,
+    "review_response_unchanged": true
+  }
+}
