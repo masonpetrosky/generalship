@@ -83,6 +83,10 @@ Acceptance: every admitted fact has traceable evidence, source alternatives rema
 visible, reviewers agree on population/timing or retain a dispute, and no post-outcome
 quantity can enter a predecision feature without an explicit justified design.
 
+A [draft feature-admission specification](feature-admission.md) and
+[13 Shiloh cases](research/shiloh-admission-examples.md) are prepared for separate
+review. No feature is admitted; implementation remains a later step.
+
 ## Milestone 2 — Baseline audit and expanded coverage
 
 Document an exact reproduction route for the original Arsht analysis and access/

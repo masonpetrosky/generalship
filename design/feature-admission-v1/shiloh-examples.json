@@ -1,0 +1,2112 @@
+{
+  "design_schema_version": 1,
+  "kind": "non_executable_worked_examples",
+  "evidence_commit": "e92eefd5dad99e019fd2f905a2fd9b46053db47f",
+  "file_bindings": {
+    "docs/feature-admission.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/sources.json": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595"
+  },
+  "battle_id": "TN003",
+  "boundary": {
+    "proposed_target": "April 6 before first hostile contact",
+    "exact_contact_definition": null,
+    "engagement_area": null,
+    "availability_mapping": null,
+    "status": "unresolved_no_admission",
+    "tactical_replacement_at": null,
+    "campaign_replacement_at": null
+  },
+  "coverage": {
+    "cases": 13,
+    "selected_claims": 26,
+    "all_dossier_claims": 62,
+    "selected_quantities": 27,
+    "all_dossier_quantities": 40,
+    "selected_events": 8,
+    "all_dossier_events": 26,
+    "citation_occurrences_checked": 115,
+    "unique_cited_source_locators": 29,
+    "bound_source_entries_including_linked_facsimiles": 21,
+    "admitted_features": 0,
+    "emitted_rows": 0,
+    "scope": "Purposive design examples, not an extraction accuracy sample or a whole-dossier re-review. References resolve to the immutable dossier; bindings do not establish historical truth."
+  },
+  "cases": [
+    {
+      "id": "S01",
+      "title": "Whole-engagement totals",
+      "profile": "opening_available_combatants_v1",
+      "claim_ids": [
+        "strength-total"
+      ],
+      "quantity_ids": [
+        "nps-union-total",
+        "nps-confederate-total"
+      ],
+      "event_ids": [],
+      "expected_status": "excluded",
+      "reason_codes": [
+        "population_mismatch",
+        "post_boundary_participation"
+      ],
+      "admitted_value": null,
+      "emitted_rows": [],
+      "interpretation": "NPS prints US 65,085 and CS 44,968 for the whole engagement. These are not April 6 opening availability counts.",
+      "requirements_for_future_use": "Keep the existing baseline unchanged. Establish opening-specific evidence for a new candidate; do not relabel the totals."
+    },
+    {
+      "id": "S02",
+      "title": "Paper return and nested Wallace total",
+      "profile": "opening_available_combatants_v1",
+      "claim_ids": [
+        "union-return-strength"
+      ],
+      "quantity_ids": [
+        "union-paper-total",
+        "wallace-april4-return"
+      ],
+      "event_ids": [],
+      "expected_status": "blocked",
+      "reason_codes": [
+        "population_mapping_unresolved",
+        "boundary_unresolved",
+        "overlap_transform_unproven"
+      ],
+      "admitted_value": null,
+      "emitted_rows": [],
+      "interpretation": "The 44,895 present-for-duty abstract includes Wallace's 7,564. Subtracting them would give paper arithmetic, not establish opening combatants; omissions and mixed return dates remain.",
+      "requirements_for_future_use": "Review unit membership, detachments, omissions, date differences and boundary availability before any subtraction or whole-army transform."
+    },
+    {
+      "id": "S03",
+      "title": "One return in multiple representations",
+      "profile": "opening_available_combatants_v1",
+      "claim_ids": [
+        "union-return-strength",
+        "sixth-division-return-components"
+      ],
+      "quantity_ids": [
+        "sixth-april5-abstract"
+      ],
+      "event_ids": [],
+      "expected_status": "blocked",
+      "reason_codes": [
+        "population_mapping_unresolved",
+        "boundary_unresolved"
+      ],
+      "admitted_value": null,
+      "emitted_rows": [],
+      "interpretation": "The Sixth Division 5,463 in the p.112 summary/detail and linked facsimile represents one underlying return. Source metadata v3 corrects dependence; three representations are not three independent estimates.",
+      "requirements_for_future_use": "Retain the shared-document relationship and missing regiments/battery; establish boundary applicability. A successful provenance check alone does not admit 5,463."
+    },
+    {
+      "id": "S04",
+      "title": "Confederate pre-battle alternatives",
+      "profile": "opening_available_combatants_v1",
+      "claim_ids": [
+        "confederate-return-before",
+        "confederate-report-136",
+        "confederate-report-136-monday-arrival"
+      ],
+      "quantity_ids": [
+        "confederate-before",
+        "confederate-report-136-total",
+        "confederate-report-136-infantry",
+        "confederate-report-136-artillery",
+        "confederate-report-136-cavalry"
+      ],
+      "event_ids": [],
+      "expected_status": "blocked",
+      "reason_codes": [
+        "population_mapping_unresolved",
+        "muster_time_unknown",
+        "disputed_applicability"
+      ],
+      "admitted_value": null,
+      "emitted_rows": [],
+      "interpretation": "The 40,335 and 38,773 effective totals differ in composition. The latter heading describes an April 3 march and includes a Monday-arrival footnote; forwarding dates do not establish muster dates. The discrepancy is not an admitted opening-force range.",
+      "requirements_for_future_use": "Resolve comparable population and timing before declaring applicable scenarios. A later-written return can pass if its earlier referent and derivation are established; later publication alone is not disqualifying."
+    },
+    {
+      "id": "S05",
+      "title": "After-battle returns",
+      "profile": "opening_available_combatants_v1",
+      "claim_ids": [
+        "confederate-return-after",
+        "confederate-report-137",
+        "confederate-report-137-composition-change"
+      ],
+      "quantity_ids": [
+        "confederate-after",
+        "confederate-report-137-total",
+        "confederate-report-137-infantry",
+        "confederate-report-137-artillery",
+        "confederate-report-137-cavalry"
+      ],
+      "event_ids": [],
+      "expected_status": "excluded",
+      "reason_codes": [
+        "post_boundary_state"
+      ],
+      "admitted_value": null,
+      "emitted_rows": [],
+      "interpretation": "29,636 is labeled after the battle; report 137 gives 32,212 with an April 10 heading. These cannot be opening predictors or be reverse-engineered with casualties. Do not assign April 7 as an exact muster date to the undated after-battle column.",
+      "requirements_for_future_use": "Preserve both observations and discrepancies for descriptive research. A separate future outcome profile would be a new design, not opening admission."
+    },
+    {
+      "id": "S06",
+      "title": "An estimated integer within a mixed-phase total",
+      "profile": "opening_available_combatants_v1",
+      "claim_ids": [
+        "eighteenth-wisconsin-return-omission",
+        "reed-sixth-division-reconstruction"
+      ],
+      "quantity_ids": [
+        "reed-eighteenth-wisconsin-estimate",
+        "reed-sixth-reconstruction"
+      ],
+      "event_ids": [
+        "eighteenth-wisconsin-arrival"
+      ],
+      "expected_status": "excluded",
+      "reason_codes": [
+        "post_boundary_components",
+        "mixed_phase_aggregate",
+        "nested_population",
+        "boundary_unresolved"
+      ],
+      "admitted_value": null,
+      "emitted_rows": [],
+      "interpretation": "Reed's 735 is explicitly estimated although printed as an integer, and is included in his 7,545 reconstruction. Its estimation label is valid evidence metadata, not a reason to invent uncertainty bounds or reject all estimates. Adding 735 to 7,545 would double count.",
+      "requirements_for_future_use": "Review 735 as its own boundary-specific candidate; rebuild any total from a complete disjoint same-boundary population, excluding later arrivals. The printed 7,545 cannot simply become opening strength."
+    },
+    {
+      "id": "S07",
+      "title": "McCook detail versus recap",
+      "profile": "opening_available_combatants_v1",
+      "claim_ids": [
+        "reed-ohio-estimates-and-discrepancy",
+        "reed-buell-letter-secondhand"
+      ],
+      "quantity_ids": [
+        "reed-mccook-detail-engaged",
+        "reed-mccook-recap-engaged"
+      ],
+      "event_ids": [],
+      "expected_status": "excluded",
+      "reason_codes": [
+        "post_boundary_participation",
+        "printed_discrepancy"
+      ],
+      "admitted_value": null,
+      "emitted_rows": [],
+      "interpretation": "Reed prints 7,553 in detail and 7,552 in recap; the values describe April 7 participation and are explicitly estimated. Preserve the one-person discrepancy, never average to 7,552.5. Neither is an April 6 opening alternative.",
+      "requirements_for_future_use": "For any future April 7 descriptive profile, review scope and linked reconstruction first; do not use performance to choose a value."
+    },
+    {
+      "id": "S08",
+      "title": "Army of the Ohio aggregate and nested components",
+      "profile": "opening_available_combatants_v1",
+      "claim_ids": [
+        "reed-ohio-estimates-and-discrepancy",
+        "reed-buell-letter-secondhand",
+        "reed-mccook-postbattle-return"
+      ],
+      "quantity_ids": [
+        "reed-ohio-total-engaged",
+        "reed-crittenden-engaged",
+        "reed-wagner-late-estimate",
+        "reed-mccook-april30"
+      ],
+      "event_ids": [],
+      "expected_status": "excluded",
+      "reason_codes": [
+        "post_boundary_participation",
+        "mixed_date_derivation",
+        "nested_population"
+      ],
+      "admitted_value": null,
+      "emitted_rows": [],
+      "interpretation": "The 17,918 recap includes Nelson 4,541, McCook 7,552, Crittenden 3,825 and Wagner 2,000. Reed's note describes mixed March/April returns; 9,118 is an April 30 McCook return. No total-plus-components sum or opening reconstruction is authorized.",
+      "requirements_for_future_use": "Preserve the recap and note as evidence. Scenarios must keep totals/components coherent and cannot make later participation an opening input."
+    },
+    {
+      "id": "S09",
+      "title": "Nelson and Grose differing contingents",
+      "profile": "opening_available_combatants_v1",
+      "claim_ids": [
+        "nelson-evening-crossing",
+        "grose-sunday-contingent",
+        "nelson-action-strength",
+        "nelson-sunday-exact-crossed-strength"
+      ],
+      "quantity_ids": [
+        "handbook-nelson-leading",
+        "grose-sunday-eight-companies",
+        "nelson-taken-into-action",
+        "nelson-thirtysixth-taken-into-action"
+      ],
+      "event_ids": [
+        "nelson-leading-crossing",
+        "grose-sunday-formation"
+      ],
+      "expected_status": "excluded",
+      "reason_codes": [
+        "post_boundary_participation",
+        "incompatible_contingents",
+        "missing_exact_crossing_count"
+      ],
+      "admitted_value": null,
+      "emitted_rows": [],
+      "interpretation": "The handbook's 600, Grose's about 400 in eight companies, Nelson's 380 for the regiment and 4,541 division action total are not interchangeable same-time populations. They cannot establish a missing exact Sunday crossing strength, much less the April 6 opening force.",
+      "requirements_for_future_use": "Keep the exact-crossed claim null and record differing scopes. Do not infer casualties by subtraction or replace the unknown with one convenient figure."
+    },
+    {
+      "id": "S10",
+      "title": "Document dates are not event or readiness times",
+      "profile": "opening_available_combatants_v1",
+      "claim_ids": [
+        "ammen-crossing-sequence",
+        "crittenden-arrival-phases"
+      ],
+      "quantity_ids": [],
+      "event_ids": [
+        "ammen-savannah-arrival",
+        "crittenden-night-landing"
+      ],
+      "expected_status": "excluded",
+      "reason_codes": [
+        "post_boundary_events",
+        "unsupported_readiness_completion"
+      ],
+      "admitted_value": null,
+      "emitted_rows": [],
+      "interpretation": "Ammen's April 10 report and separately printed undated-composition diary must retain their own section dates. Crittenden reports arrival about 21:00 April 6, then debarkation as soon as practicable; that is not a 21:00 completed debarkation or readiness timestamp.",
+      "requirements_for_future_use": "Preserve each event phase and unknown completion time. These April 6/7 reinforcement narratives cannot substitute for opening availability; document date nulls do not erase known event ordering."
+    },
+    {
+      "id": "S11",
+      "title": "Unknown logistics stays unknown",
+      "profile": "supply_feature_not_yet_defined",
+      "claim_ids": [
+        "logistics-unknown"
+      ],
+      "quantity_ids": [],
+      "event_ids": [],
+      "expected_status": "excluded",
+      "reason_codes": [
+        "unsupported_profile",
+        "missing_evidence",
+        "unsupported_numeric_mapping"
+      ],
+      "admitted_value": null,
+      "emitted_rows": [],
+      "interpretation": "The logistics claim is null. No numerical supply or readiness observation exists to encode, and missing is not zero or normal.",
+      "requirements_for_future_use": "Acquire evidence and define/review a separate supply feature profile before any numerical use."
+    },
+    {
+      "id": "S12",
+      "title": "Preparation, orders and commander credit",
+      "profile": "campaign_or_tactical_effect_unsupported_v1",
+      "claim_ids": [
+        "fortification-choice",
+        "await-buell",
+        "union-command-authority",
+        "command-transfer"
+      ],
+      "quantity_ids": [],
+      "event_ids": [
+        "halleck-concentration-order",
+        "union-command-order",
+        "johnston-death"
+      ],
+      "expected_status": "excluded",
+      "reason_codes": [
+        "unsupported_causal_profile",
+        "authority_and_receipt_unresolved"
+      ],
+      "admitted_value": null,
+      "emitted_rows": [],
+      "interpretation": "Halleck's issue dates do not prove receipt; NPS attribution is not adjudicated responsibility. Johnston's reported death is not Beauregard's evidenced effective command assumption. Preparations may be mediators, not controls that identify total command contribution.",
+      "requirements_for_future_use": "Develop a separately reviewed causal estimand, replacement boundary, authority and information mapping. No equal allocation of residuals or battle/campaign addition."
+    },
+    {
+      "id": "S13",
+      "title": "Outcome channel is separate",
+      "profile": "opening_available_combatants_v1",
+      "claim_ids": [
+        "result"
+      ],
+      "quantity_ids": [],
+      "event_ids": [],
+      "expected_status": "excluded",
+      "reason_codes": [
+        "target_leakage"
+      ],
+      "admitted_value": null,
+      "emitted_rows": [],
+      "interpretation": "Recorded Union victory is an outcome label, never a pre-engagement predictor. Its separate use as a target does not approve any strength quantity.",
+      "requirements_for_future_use": "Bind outcome provenance in a future evaluation manifest and keep target data out of predictor derivations and source selection."
+    }
+  ],
+  "source_bindings": {
+    "arnold-cwsac-battles": {
+      "path": "data/raw/cwsac_battles.csv",
+      "raw_sha256": "952b5d08402a7b77a42de709a87cd96540e460dd6fd4911d30574b5ad3585f1f",
+      "source_entry_sha256": "f064f58d50bd296d03aec91484cc143a618ece4390ee7f064f6fa0b56da98705",
+      "independence_group": "nps-cwsac",
+      "facsimile_source_id": null
+    },
+    "gudmens-shiloh-handbook": {
+      "path": "data/raw/shiloh/gudmens-shiloh-handbook.txt",
+      "raw_sha256": "f9598f35502e9081e7bb056e59790c42ff476371984a3ea452e37ac36e395cf5",
+      "source_entry_sha256": "56e73adb77ae67b9bb0508d83f4738e980fe5ffa03cfabf35da06b009875cc2a",
+      "independence_group": "gudmens-handbook",
+      "facsimile_source_id": null
+    },
+    "nps-tn003": {
+      "path": "data/raw/nps-tn003.txt",
+      "raw_sha256": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941",
+      "source_entry_sha256": "49927e496d827518cab1c00ffaadbbee9cdaea2b40589b1319994ed5bc1f37b6",
+      "independence_group": "nps-cwsac",
+      "facsimile_source_id": null
+    },
+    "or-ammen-crossing-v2": {
+      "path": "data/raw/shiloh/or-ammen-crossing-v1.txt",
+      "raw_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+      "source_entry_sha256": "38a4a8686b632e5a49df4b3a129ec80d6060a2976d7ff352fee9c68c4c4cb23b",
+      "independence_group": "or-nelson",
+      "facsimile_source_id": null
+    },
+    "or-beauregard-shiloh-report": {
+      "path": "data/raw/shiloh/or-beauregard-shiloh-report.txt",
+      "raw_sha256": "c87c79162f5ef1a88bc308896b90a4178808a6b505e1b7ee805be535705a692c",
+      "source_entry_sha256": "728ea565421f76379239861074184e28a0b8d99dad3b8a0143dec96fb4a64031",
+      "independence_group": "or-beauregard",
+      "facsimile_source_id": null
+    },
+    "or-confederate-report-136-v1": {
+      "path": "data/raw/shiloh/or-confederate-report-136-v1.txt",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "independence_group": "or-beauregard",
+      "facsimile_source_id": "or-confederate-report-136-v1-scan"
+    },
+    "or-confederate-report-136-v1-scan": {
+      "path": "data/raw/shiloh/or-confederate-report-136-v1.png",
+      "raw_sha256": "2cec00dfd99ed0a66e96977b3578606fd213930c1a3417c43d729bd787e537a5",
+      "source_entry_sha256": "8a618677096f92aa910d3229328b13b9cadcd44ebb4ced014d0dc202122112d0",
+      "independence_group": "or-beauregard",
+      "facsimile_source_id": null
+    },
+    "or-confederate-report-137-v1": {
+      "path": "data/raw/shiloh/or-confederate-report-137-v1.txt",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "independence_group": "or-beauregard",
+      "facsimile_source_id": "or-confederate-report-137-v1-scan"
+    },
+    "or-confederate-report-137-v1-scan": {
+      "path": "data/raw/shiloh/or-confederate-report-137-v1.png",
+      "raw_sha256": "57335aa1a9cf578be6ae4abbd11224c07a8703c7420192181cd04ddb5346d114",
+      "source_entry_sha256": "ed196ef1b40933887b39b606aca9d569d7499034c53f4cb71169bfda1160a2d1",
+      "independence_group": "or-beauregard",
+      "facsimile_source_id": null
+    },
+    "or-confederate-return": {
+      "path": "data/raw/shiloh/or-confederate-return.txt",
+      "raw_sha256": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c",
+      "source_entry_sha256": "86b7272ccadd5e1300cb8b07d8ab36fe9c57a81abe5143d5a27c2c63a7f3aea4",
+      "independence_group": "or-beauregard",
+      "facsimile_source_id": "or-confederate-return-scan"
+    },
+    "or-confederate-return-scan": {
+      "path": "data/raw/shiloh/or-confederate-return.png",
+      "raw_sha256": "fdf3154912efd3121eb52e0cfdcb8cc5ab04c669a6758513b7547fd86e991e32",
+      "source_entry_sha256": "52681c4da00bfb45007bc1afc804d4f5927e429598e7b1a8b27807da4e146355",
+      "independence_group": "or-beauregard",
+      "facsimile_source_id": null
+    },
+    "or-crittenden-reinforcements-v1": {
+      "path": "data/raw/shiloh/or-crittenden-reinforcements-v1.txt",
+      "raw_sha256": "235b01590b21cbf161ebe63162db73cf45184bd234f4025deae555040f317391",
+      "source_entry_sha256": "730f479129363ff7df8fc8745c1145f80ea39f99a3e6c50274810d21ef956877",
+      "independence_group": "or-buell",
+      "facsimile_source_id": null
+    },
+    "or-grant-shiloh-report": {
+      "path": "data/raw/shiloh/or-grant-shiloh-report.txt",
+      "raw_sha256": "ab226b87fdbafcbe96e01564f596840b2b76fcf0f3cfe3aa83e1b1ee72f6d3cc",
+      "source_entry_sha256": "f1d23336d0d84feff45ec0495d57c776d1ca6207c115a3aee5f5bea1b3c4f5a6",
+      "independence_group": "or-grant",
+      "facsimile_source_id": null
+    },
+    "or-grose-crossing-v1": {
+      "path": "data/raw/shiloh/or-grose-crossing-v1.txt",
+      "raw_sha256": "45557a169c58c848726a0105e883da9dd682b749c6d603d09d4578209ec09410",
+      "source_entry_sha256": "8bf2f4cebe935a99c3f2993b1ced99fe2633b7b440a55ffa96f158c61fb4e65c",
+      "independence_group": "or-nelson",
+      "facsimile_source_id": null
+    },
+    "or-halleck-orders": {
+      "path": "data/raw/shiloh/or-halleck-orders.txt",
+      "raw_sha256": "b450b33b8475127a066ec9ab5257624ca818af9d8cd3049db0c5eab9c2501f21",
+      "source_entry_sha256": "d07675d55a0164446108e40c7a82d24e6f57f823619604c6dbc07f754c3a58cd",
+      "independence_group": "or-halleck",
+      "facsimile_source_id": null
+    },
+    "or-nelson-reinforcements-v2": {
+      "path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+      "raw_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+      "source_entry_sha256": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+      "independence_group": "or-nelson",
+      "facsimile_source_id": null
+    },
+    "or-union-return-april4-5": {
+      "path": "data/raw/shiloh/or-union-return-april4-5.txt",
+      "raw_sha256": "e7b9aee495475a62721a811490c442f8019bc689a02dd841db0a5fbd60f8727e",
+      "source_entry_sha256": "5ef68640ce37c0679271a16eb9ac629a97ea3204b3645773d1f8dc728360cd01",
+      "independence_group": "or-union-returns",
+      "facsimile_source_id": "or-union-return-scan"
+    },
+    "or-union-return-detail-v3": {
+      "path": "data/raw/shiloh/or-union-return-detail-v2.txt",
+      "raw_sha256": "70099ece7f07cf264d777f3e9d80e49ec40c230b5c671962e3cdc0dbfd4f2c94",
+      "source_entry_sha256": "1075fbfb1317f1be5502bb3454c6943949ef84014696135b4bf4a3b0ff3d8b63",
+      "independence_group": "or-union-returns",
+      "facsimile_source_id": "or-union-return-scan"
+    },
+    "or-union-return-scan": {
+      "path": "data/raw/shiloh/or-union-return.png",
+      "raw_sha256": "5f885b86e24cdfc13bfe96c066e5b020a747f3b81ffc71896cdf80be0cd383da",
+      "source_entry_sha256": "7e763b032f6d9708600f220371789184b7f9e92ffd95fd06b710f8c6497fbfa9",
+      "independence_group": "or-union-returns",
+      "facsimile_source_id": null
+    },
+    "reed-1909-ohio-strength-v1": {
+      "path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "independence_group": "reed-official-records-compilation",
+      "facsimile_source_id": null
+    },
+    "reed-1909-union-audit-v1": {
+      "path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "source_entry_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "independence_group": "reed-official-records-compilation",
+      "facsimile_source_id": null
+    }
+  },
+  "evidence_references": [
+    {
+      "record_type": "claim",
+      "record_id": "ammen-crossing-sequence",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-ammen-crossing-v2",
+        "section": "p328-report",
+        "locator": "p328-report",
+        "quote": "April 6, at 1 o'clock p. m., the Tenth Brigade marched from Savannah"
+      },
+      "source_entry_sha256": "38a4a8686b632e5a49df4b3a129ec80d6060a2976d7ff352fee9c68c4c4cb23b",
+      "raw_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+      "document_date": "1862-04-10"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "ammen-crossing-sequence",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "or-ammen-crossing-v2",
+        "section": "p330-diary",
+        "locator": "p330-diary",
+        "quote": "reached Savannah, Tenn., before 12 m."
+      },
+      "source_entry_sha256": "38a4a8686b632e5a49df4b3a129ec80d6060a2976d7ff352fee9c68c4c4cb23b",
+      "raw_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "ammen-crossing-sequence",
+      "citation_index": 2,
+      "citation": {
+        "source_id": "or-ammen-crossing-v2",
+        "section": "p333-diary",
+        "locator": "p333-diary",
+        "quote": "General Nelson went over on the first boat with a part of the Thirty-sixth Indiana"
+      },
+      "source_entry_sha256": "38a4a8686b632e5a49df4b3a129ec80d6060a2976d7ff352fee9c68c4c4cb23b",
+      "raw_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "ammen-crossing-sequence",
+      "citation_index": 3,
+      "citation": {
+        "source_id": "or-ammen-crossing-v2",
+        "section": "p333-diary",
+        "locator": "p333-diary",
+        "quote": "only three or four companies could cross on a boat."
+      },
+      "source_entry_sha256": "38a4a8686b632e5a49df4b3a129ec80d6060a2976d7ff352fee9c68c4c4cb23b",
+      "raw_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "await-buell",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "nps-tn003",
+        "locator": "Description",
+        "quote": "Grant received orders to await Buell's Army of the Ohio at Pittsburg Landing."
+      },
+      "source_entry_sha256": "49927e496d827518cab1c00ffaadbbee9cdaea2b40589b1319994ed5bc1f37b6",
+      "raw_sha256": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "await-buell",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "or-halleck-orders",
+        "section": "p50-51-march20",
+        "locator": "p50-51-march20",
+        "quote": "By all means keep your forces together until you connect with General Buell, who is now at Columbia, and will move on Waynesborough with three divisions. Don't let the enemy draw you into an engagement now. Wait till you are properly fortified and receive orders."
+      },
+      "source_entry_sha256": "d07675d55a0164446108e40c7a82d24e6f57f823619604c6dbc07f754c3a58cd",
+      "raw_sha256": "b450b33b8475127a066ec9ab5257624ca818af9d8cd3049db0c5eab9c2501f21",
+      "document_date": "1862-03-20/1862-04-05"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "command-transfer",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "nps-tn003",
+        "locator": "Description",
+        "quote": "Johnston had been mortally wounded earlier and his second in command, Gen. P.G.T. Beauregard, took over."
+      },
+      "source_entry_sha256": "49927e496d827518cab1c00ffaadbbee9cdaea2b40589b1319994ed5bc1f37b6",
+      "raw_sha256": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "command-transfer",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "or-beauregard-shiloh-report",
+        "section": "p387",
+        "locator": "p387",
+        "quote": "Our commander-in-chief, General A. S. Johnston, fell mor tally wounded, and died on the field at 2.30 p. m."
+      },
+      "source_entry_sha256": "728ea565421f76379239861074184e28a0b8d99dad3b8a0143dec96fb4a64031",
+      "raw_sha256": "c87c79162f5ef1a88bc308896b90a4178808a6b505e1b7ee805be535705a692c",
+      "document_date": "1862-04-11"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "command-transfer",
+      "citation_index": 2,
+      "citation": {
+        "source_id": "or-beauregard-shiloh-report",
+        "section": "p387",
+        "locator": "p387",
+        "quote": "The chief command then devolved upon me"
+      },
+      "source_entry_sha256": "728ea565421f76379239861074184e28a0b8d99dad3b8a0143dec96fb4a64031",
+      "raw_sha256": "c87c79162f5ef1a88bc308896b90a4178808a6b505e1b7ee805be535705a692c",
+      "document_date": "1862-04-11"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "command-transfer",
+      "citation_index": 3,
+      "citation": {
+        "source_id": "gudmens-shiloh-handbook",
+        "section": "p100",
+        "locator": "p100",
+        "quote": "Staff officers quickly rode to Beauregard at the intersection of the Pittsburg- Corinth Road and Purdy-Hamburg Road and told him of Johnston’s death."
+      },
+      "source_entry_sha256": "56e73adb77ae67b9bb0508d83f4738e980fe5ffa03cfabf35da06b009875cc2a",
+      "raw_sha256": "f9598f35502e9081e7bb056e59790c42ff476371984a3ea452e37ac36e395cf5",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-136",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398",
+        "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+        "quote": "Grand total | 2,587 | 37,011 | 38,773"
+      },
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-136",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398",
+        "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+        "quote": "Total infantry | 2,379 | 33,270 | 34,727"
+      },
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-136",
+      "citation_index": 2,
+      "citation": {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398",
+        "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+        "quote": "Total artillery | 83 | 1,857 | 1,973"
+      },
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-136",
+      "citation_index": 3,
+      "citation": {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398",
+        "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+        "quote": "Cavalry | 125 | 1,884 | 2,073"
+      },
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-136",
+      "citation_index": 4,
+      "citation": {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398",
+        "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+        "quote": "Field return of the Confederate forces that marched from Corinth to the Tennessee River, April 3, 1862."
+      },
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-136",
+      "citation_index": 5,
+      "citation": {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398",
+        "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+        "quote": "Columns: Command | Present, For duty, Officers | Present, For duty, Enlisted men | Present, Effective total."
+      },
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-136",
+      "citation_index": 6,
+      "citation": {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398",
+        "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+        "quote": "Columns: Command | Present, Total | Present, Aggregate | Present and absent, Total | Present and absent, Aggregate."
+      },
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-136",
+      "citation_index": 7,
+      "citation": {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398",
+        "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+        "quote": "Grand total | 46,425 | 49,444 | 57,252 | 59,774"
+      },
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-136",
+      "citation_index": 8,
+      "citation": {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398",
+        "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+        "quote": "Respectfully submitted and forwarded.\n[JUNE 30, 1862.]\nBRAXTON BRAGG,\nGeneral, Commanding."
+      },
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-136-monday-arrival",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398",
+        "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+        "quote": "* Colonel Hill's regiment (Tennessee) came upon the [field] during the engagement on Monday."
+      },
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-136-monday-arrival",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398",
+        "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+        "quote": "Infantry, First Corps* | 561 | 8,440 | 9,024"
+      },
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-137",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-report-137-v1",
+        "section": "p399",
+        "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+        "quote": "Grand total | 2,184 | 29,910 | 32,212"
+      },
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-137",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "or-confederate-report-137-v1",
+        "section": "p399",
+        "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+        "quote": "Total infantry | 1,855 | 24,692 | 26,697"
+      },
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-137",
+      "citation_index": 2,
+      "citation": {
+        "source_id": "or-confederate-report-137-v1",
+        "section": "p399",
+        "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+        "quote": "Total artillery | 70 | 1,634 | 1,682"
+      },
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-137",
+      "citation_index": 3,
+      "citation": {
+        "source_id": "or-confederate-report-137-v1",
+        "section": "p399",
+        "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+        "quote": "Cavalry | 259 | 3,584 | 3,833"
+      },
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-137",
+      "citation_index": 4,
+      "citation": {
+        "source_id": "or-confederate-report-137-v1",
+        "section": "p399",
+        "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+        "quote": "Field return of the Army of the Mississippi after the battle of Shiloh (April 10, 1862)."
+      },
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-137",
+      "citation_index": 5,
+      "citation": {
+        "source_id": "or-confederate-report-137-v1",
+        "section": "p399",
+        "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+        "quote": "Columns: Command | Present, For duty, Officers | Present, For duty, Enlisted men | Present, Effective total."
+      },
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-137",
+      "citation_index": 6,
+      "citation": {
+        "source_id": "or-confederate-report-137-v1",
+        "section": "p399",
+        "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+        "quote": "Columns: Command | Present, Total | Present, Aggregate | Present and absent, Total | Present and absent, Aggregate."
+      },
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-137",
+      "citation_index": 7,
+      "citation": {
+        "source_id": "or-confederate-report-137-v1",
+        "section": "p399",
+        "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+        "quote": "Grand total | 44,588 | 47,493 | 60,961 | 64,500"
+      },
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-137",
+      "citation_index": 8,
+      "citation": {
+        "source_id": "or-confederate-report-137-v1",
+        "section": "p399",
+        "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+        "quote": "Respectfully submitted and forwarded.\n[JUNE 30, 1862.]\nBRAXTON BRAGG,\nGeneral, Commanding."
+      },
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-report-137-composition-change",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-report-137-v1",
+        "section": "p399",
+        "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+        "quote": "NOTE.-The difference in aggregates and totals between this and the preceding return is accounted for thus: First, by killed, wounded, and missing in battle, and the arrival of Carroll's brigade and a portion of the cavalry, heretofore detached."
+      },
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-return-after",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-return",
+        "section": "p396",
+        "locator": "p396",
+        "quote": "Columns: Command | Commander | Effective total before battle | Effective total after battle."
+      },
+      "source_entry_sha256": "86b7272ccadd5e1300cb8b07d8ab36fe9c57a81abe5143d5a27c2c63a7f3aea4",
+      "raw_sha256": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c",
+      "document_date": "1862-04-21"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-return-after",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "or-confederate-return",
+        "section": "p396",
+        "locator": "p396",
+        "quote": "Grand total | 40,335 | 29,636"
+      },
+      "source_entry_sha256": "86b7272ccadd5e1300cb8b07d8ab36fe9c57a81abe5143d5a27c2c63a7f3aea4",
+      "raw_sha256": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c",
+      "document_date": "1862-04-21"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-return-before",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-return",
+        "section": "p396",
+        "locator": "p396",
+        "quote": "Columns: Command | Commander | Effective total before battle | Effective total after battle."
+      },
+      "source_entry_sha256": "86b7272ccadd5e1300cb8b07d8ab36fe9c57a81abe5143d5a27c2c63a7f3aea4",
+      "raw_sha256": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c",
+      "document_date": "1862-04-21"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-return-before",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "or-confederate-return",
+        "section": "p396",
+        "locator": "p396",
+        "quote": "Grand total | 40,335 | 29,636"
+      },
+      "source_entry_sha256": "86b7272ccadd5e1300cb8b07d8ab36fe9c57a81abe5143d5a27c2c63a7f3aea4",
+      "raw_sha256": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c",
+      "document_date": "1862-04-21"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-return-before",
+      "citation_index": 2,
+      "citation": {
+        "source_id": "or-confederate-return",
+        "section": "p396",
+        "locator": "p396",
+        "quote": "Cavalry | Brig. Gen. F. Gardner | 4,382 | 4,081"
+      },
+      "source_entry_sha256": "86b7272ccadd5e1300cb8b07d8ab36fe9c57a81abe5143d5a27c2c63a7f3aea4",
+      "raw_sha256": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c",
+      "document_date": "1862-04-21"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "confederate-return-before",
+      "citation_index": 3,
+      "citation": {
+        "source_id": "or-confederate-return",
+        "section": "p396",
+        "locator": "p396",
+        "quote": "Footnote to both effective-total columns: These columns do not agree with the effective totals in reports Nos. 136 and 137, following."
+      },
+      "source_entry_sha256": "86b7272ccadd5e1300cb8b07d8ab36fe9c57a81abe5143d5a27c2c63a7f3aea4",
+      "raw_sha256": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c",
+      "document_date": "1862-04-21"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "crittenden-arrival-phases",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-crittenden-reinforcements-v1",
+        "section": "p355",
+        "locator": "p355",
+        "quote": "We reached Pittsburg Landing at about 9 o'clock p. m."
+      },
+      "source_entry_sha256": "730f479129363ff7df8fc8745c1145f80ea39f99a3e6c50274810d21ef956877",
+      "raw_sha256": "235b01590b21cbf161ebe63162db73cf45184bd234f4025deae555040f317391",
+      "document_date": "1862-04-15"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "crittenden-arrival-phases",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "or-crittenden-reinforcements-v1",
+        "section": "p355",
+        "locator": "p355",
+        "quote": "At about 5 a. m. we were conducted to our position by General Buell in person."
+      },
+      "source_entry_sha256": "730f479129363ff7df8fc8745c1145f80ea39f99a3e6c50274810d21ef956877",
+      "raw_sha256": "235b01590b21cbf161ebe63162db73cf45184bd234f4025deae555040f317391",
+      "document_date": "1862-04-15"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "crittenden-arrival-phases",
+      "citation_index": 2,
+      "citation": {
+        "source_id": "or-crittenden-reinforcements-v1",
+        "section": "p354-cavalry",
+        "locator": "p354-cavalry",
+        "quote": "except Jackson's cavalry, which marched at once to the landing opposite Pittsburg Landing"
+      },
+      "source_entry_sha256": "730f479129363ff7df8fc8745c1145f80ea39f99a3e6c50274810d21ef956877",
+      "raw_sha256": "235b01590b21cbf161ebe63162db73cf45184bd234f4025deae555040f317391",
+      "document_date": "1862-04-15"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "crittenden-arrival-phases",
+      "citation_index": 3,
+      "citation": {
+        "source_id": "or-crittenden-reinforcements-v1",
+        "section": "p354-cavalry",
+        "locator": "p354-cavalry",
+        "quote": "no transportation could be furnished"
+      },
+      "source_entry_sha256": "730f479129363ff7df8fc8745c1145f80ea39f99a3e6c50274810d21ef956877",
+      "raw_sha256": "235b01590b21cbf161ebe63162db73cf45184bd234f4025deae555040f317391",
+      "document_date": "1862-04-15"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "eighteenth-wisconsin-return-omission",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p111-union-notes",
+        "locator": "p111-union-notes",
+        "quote": "(d) The Eighteenth Wisconsin arrived on the field April 5, 1862. It is not included in the returns made by the Sixth Division April 5, but it joined the Second Brigade of that division and encamped on the left of the brigade Saturday evening and was engaged as left regiment of Prentiss's division on Sunday."
+      },
+      "source_entry_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "eighteenth-wisconsin-return-omission",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p96",
+        "locator": "p96",
+        "quote": "18th Wisconsin* (note d) | 35 | 700 | 735"
+      },
+      "source_entry_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "eighteenth-wisconsin-return-omission",
+      "citation_index": 2,
+      "citation": {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p97",
+        "locator": "p97",
+        "quote": "* Estimated."
+      },
+      "source_entry_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "fortification-choice",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "nps-tn003",
+        "locator": "Description",
+        "quote": "Grant did not choose to fortify his position; rather, he set about drilling his men many of which were raw recruits."
+      },
+      "source_entry_sha256": "49927e496d827518cab1c00ffaadbbee9cdaea2b40589b1319994ed5bc1f37b6",
+      "raw_sha256": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "grose-sunday-contingent",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-grose-crossing-v1",
+        "section": "p337",
+        "locator": "p337",
+        "quote": "two companies having been left behind on other duty"
+      },
+      "source_entry_sha256": "8bf2f4cebe935a99c3f2993b1ced99fe2633b7b440a55ffa96f158c61fb4e65c",
+      "raw_sha256": "45557a169c58c848726a0105e883da9dd682b749c6d603d09d4578209ec09410",
+      "document_date": "1862-04-08"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "grose-sunday-contingent",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "or-grose-crossing-v1",
+        "section": "p337",
+        "locator": "p337",
+        "quote": "my regiment was formed (the eight companies about 400 strong)"
+      },
+      "source_entry_sha256": "8bf2f4cebe935a99c3f2993b1ced99fe2633b7b440a55ffa96f158c61fb4e65c",
+      "raw_sha256": "45557a169c58c848726a0105e883da9dd682b749c6d603d09d4578209ec09410",
+      "document_date": "1862-04-08"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "nelson-action-strength",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-nelson-reinforcements-v2",
+        "section": "p325-strength",
+        "locator": "p325-strength",
+        "quote": "It went into action 4,541 strong,"
+      },
+      "source_entry_sha256": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+      "raw_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+      "document_date": "1862-04-10"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "nelson-action-strength",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "or-nelson-reinforcements-v2",
+        "section": "p326-return",
+        "locator": "p326-return",
+        "quote": "36th Indiana | 380"
+      },
+      "source_entry_sha256": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+      "raw_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "nelson-action-strength",
+      "citation_index": 2,
+      "citation": {
+        "source_id": "or-nelson-reinforcements-v2",
+        "section": "p326-return",
+        "locator": "p326-return",
+        "quote": "April 6 and 7, 1862."
+      },
+      "source_entry_sha256": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+      "raw_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "nelson-action-strength",
+      "citation_index": 3,
+      "citation": {
+        "source_id": "or-nelson-reinforcements-v2",
+        "section": "p326-return",
+        "locator": "p326-return",
+        "quote": "Total in division | 4,541"
+      },
+      "source_entry_sha256": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+      "raw_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "nelson-evening-crossing",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "gudmens-shiloh-handbook",
+        "section": "p113",
+        "locator": "p113",
+        "quote": "At 1700 Nelson’s lead brigade, commanded by COL Jacob Ammen, arrived across the river from Pittsburg Landing. Nelson arranged for boats in the river to start moving his men across, and by 1800 he had about 600 men west of the river and in line."
+      },
+      "source_entry_sha256": "56e73adb77ae67b9bb0508d83f4738e980fe5ffa03cfabf35da06b009875cc2a",
+      "raw_sha256": "f9598f35502e9081e7bb056e59790c42ff476371984a3ea452e37ac36e395cf5",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-buell-letter-secondhand",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p111-note-j",
+        "locator": "p111-note-j",
+        "quote": "The Second, Fifth, and Sixth Divisions are estimated from returns of March 20, March 31, and April 30, 1862."
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-buell-letter-secondhand",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p111-note-j",
+        "locator": "p111-note-j",
+        "quote": "I do not know whether the information was available at the time of rendering my report, but I have had it in my mind that my strength was between 18,000 and 19,000."
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-buell-letter-secondhand",
+      "citation_index": 2,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p111-note-j",
+        "locator": "p111-note-j",
+        "quote": "I estimate McCook's present for duty at 7,552."
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-mccook-postbattle-return",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p100",
+        "locator": "p100",
+        "quote": "(Return of Apr. 30.)"
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-mccook-postbattle-return",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p100",
+        "locator": "p100",
+        "quote": "Total Second Division | 332 | 8,786 | 9,118"
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-ohio-estimates-and-discrepancy",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p100",
+        "locator": "p100",
+        "quote": "Number Second Division engaged at Shiloh Apr. 7* | 7,553"
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-ohio-estimates-and-discrepancy",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p102",
+        "locator": "p102",
+        "quote": "Second Division | 7,552"
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-ohio-estimates-and-discrepancy",
+      "citation_index": 2,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p101",
+        "locator": "p101",
+        "quote": "Number Fifth Division engaged at Shiloh Apr. 7* | [blank] | 3,825"
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-ohio-estimates-and-discrepancy",
+      "citation_index": 3,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p102",
+        "locator": "p102",
+        "quote": "Twenty-first Brigade† | 2,000"
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-ohio-estimates-and-discrepancy",
+      "citation_index": 4,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p102",
+        "locator": "p102",
+        "quote": "Total Army of the Ohio | 17,918"
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-ohio-estimates-and-discrepancy",
+      "citation_index": 5,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p101",
+        "locator": "p101",
+        "quote": "* Approximated. Note j."
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-ohio-estimates-and-discrepancy",
+      "citation_index": 6,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p102",
+        "locator": "p102",
+        "quote": "Arrived at Shiloh just before the battle ended. Estimated."
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-sixth-division-reconstruction",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p97",
+        "locator": "p97",
+        "quote": "Total Sixth Division | 347 | 7,198 | 7,545"
+      },
+      "source_entry_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-sixth-division-reconstruction",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p96",
+        "locator": "p96",
+        "quote": "15th Iowa* (note c) | 32 | 750 | 782\n23d Missouri* (note e) | 35 | 540 | 575"
+      },
+      "source_entry_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-sixth-division-reconstruction",
+      "citation_index": 2,
+      "citation": {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p96",
+        "locator": "p96",
+        "quote": "Total artillery | 9 | 254 | 263"
+      },
+      "source_entry_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-sixth-division-reconstruction",
+      "citation_index": 3,
+      "citation": {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p97",
+        "locator": "p97",
+        "quote": "1st and 2d Battalions, 11th Illinois | 32 | 594 | 626"
+      },
+      "source_entry_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "reed-sixth-division-reconstruction",
+      "citation_index": 4,
+      "citation": {
+        "source_id": "or-union-return-detail-v3",
+        "section": "p112",
+        "locator": "p112",
+        "quote": "Unattached | 41 | 858 | 899"
+      },
+      "source_entry_sha256": "1075fbfb1317f1be5502bb3454c6943949ef84014696135b4bf4a3b0ff3d8b63",
+      "raw_sha256": "70099ece7f07cf264d777f3e9d80e49ec40c230b5c671962e3cdc0dbfd4f2c94",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "result",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "arnold-cwsac-battles",
+        "row_key": {
+          "battle": "TN003"
+        },
+        "column": "results_text",
+        "quote": "Union victory"
+      },
+      "source_entry_sha256": "f064f58d50bd296d03aec91484cc143a618ece4390ee7f064f6fa0b56da98705",
+      "raw_sha256": "952b5d08402a7b77a42de709a87cd96540e460dd6fd4911d30574b5ad3585f1f",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "sixth-division-return-components",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-union-return-detail-v3",
+        "section": "p112",
+        "locator": "p112",
+        "quote": "1st Brigade | 119 | 2,671 | 2,790\n2d Brigade | 85 | 1,689 | 1,774\nUnattached | 41 | 858 | 899\nTotal Sixth Division | 245 | 5,218 | 5,463"
+      },
+      "source_entry_sha256": "1075fbfb1317f1be5502bb3454c6943949ef84014696135b4bf4a3b0ff3d8b63",
+      "raw_sha256": "70099ece7f07cf264d777f3e9d80e49ec40c230b5c671962e3cdc0dbfd4f2c94",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "sixth-division-return-components",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "or-union-return-detail-v3",
+        "section": "p112",
+        "locator": "p112",
+        "quote": "Return dated April 5; strength of two regiments and one battery not reported on the original."
+      },
+      "source_entry_sha256": "1075fbfb1317f1be5502bb3454c6943949ef84014696135b4bf4a3b0ff3d8b63",
+      "raw_sha256": "70099ece7f07cf264d777f3e9d80e49ec40c230b5c671962e3cdc0dbfd4f2c94",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "strength-total",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "nps-tn003",
+        "locator": "Forces Engaged",
+        "quote": "110053 total (US 65085; CS 44968;)"
+      },
+      "source_entry_sha256": "49927e496d827518cab1c00ffaadbbee9cdaea2b40589b1319994ed5bc1f37b6",
+      "raw_sha256": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941",
+      "document_date": null
+    },
+    {
+      "record_type": "claim",
+      "record_id": "union-command-authority",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-halleck-orders",
+        "section": "p94-april5",
+        "locator": "p94-april5",
+        "quote": "You will act in concert, but he will exercise his separate command, unless the enemy should attack you. In that case you are authorized to take the general command."
+      },
+      "source_entry_sha256": "d07675d55a0164446108e40c7a82d24e6f57f823619604c6dbc07f754c3a58cd",
+      "raw_sha256": "b450b33b8475127a066ec9ab5257624ca818af9d8cd3049db0c5eab9c2501f21",
+      "document_date": "1862-03-20/1862-04-05"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "union-command-authority",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "or-grant-shiloh-report",
+        "section": "p109",
+        "locator": "p109",
+        "quote": "General Buell, coming on the field with a distinct army long under Jiis command"
+      },
+      "source_entry_sha256": "f1d23336d0d84feff45ec0495d57c776d1ca6207c115a3aee5f5bea1b3c4f5a6",
+      "raw_sha256": "ab226b87fdbafcbe96e01564f596840b2b76fcf0f3cfe3aa83e1b1ee72f6d3cc",
+      "document_date": "1862-04-09"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "union-return-strength",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-union-return-april4-5",
+        "section": "p112",
+        "locator": "p112",
+        "quote": "Grand total | 1,987 | 42,908 | 44,895 | 62"
+      },
+      "source_entry_sha256": "5ef68640ce37c0679271a16eb9ac629a97ea3204b3645773d1f8dc728360cd01",
+      "raw_sha256": "e7b9aee495475a62721a811490c442f8019bc689a02dd841db0a5fbd60f8727e",
+      "document_date": "1862-04-04/1862-04-05"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "union-return-strength",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "or-union-return-april4-5",
+        "section": "p112",
+        "locator": "p112",
+        "quote": "Total Third Division | 314 | 7,250 | 7,564 | 12"
+      },
+      "source_entry_sha256": "5ef68640ce37c0679271a16eb9ac629a97ea3204b3645773d1f8dc728360cd01",
+      "raw_sha256": "e7b9aee495475a62721a811490c442f8019bc689a02dd841db0a5fbd60f8727e",
+      "document_date": "1862-04-04/1862-04-05"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "union-return-strength",
+      "citation_index": 2,
+      "citation": {
+        "source_id": "or-union-return-april4-5",
+        "section": "p112",
+        "locator": "p112",
+        "quote": "Third Division note: Return dated April 4; the division not in the battle of April 6."
+      },
+      "source_entry_sha256": "5ef68640ce37c0679271a16eb9ac629a97ea3204b3645773d1f8dc728360cd01",
+      "raw_sha256": "e7b9aee495475a62721a811490c442f8019bc689a02dd841db0a5fbd60f8727e",
+      "document_date": "1862-04-04/1862-04-05"
+    },
+    {
+      "record_type": "claim",
+      "record_id": "union-return-strength",
+      "citation_index": 3,
+      "citation": {
+        "source_id": "or-union-return-april4-5",
+        "section": "p112",
+        "locator": "p112",
+        "quote": "Sixth Division note: Return dated April 5; strength of two regiments and one battery not reported on the original.\nGrand-total note: Division staff not included in this abstract."
+      },
+      "source_entry_sha256": "5ef68640ce37c0679271a16eb9ac629a97ea3204b3645773d1f8dc728360cd01",
+      "raw_sha256": "e7b9aee495475a62721a811490c442f8019bc689a02dd841db0a5fbd60f8727e",
+      "document_date": "1862-04-04/1862-04-05"
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "confederate-after",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-return",
+        "section": "p396",
+        "locator": "p396",
+        "quote": "Grand total | 40,335 | 29,636"
+      },
+      "source_entry_sha256": "86b7272ccadd5e1300cb8b07d8ab36fe9c57a81abe5143d5a27c2c63a7f3aea4",
+      "raw_sha256": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c",
+      "document_date": "1862-04-21"
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "confederate-before",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-return",
+        "section": "p396",
+        "locator": "p396",
+        "quote": "Grand total | 40,335 | 29,636"
+      },
+      "source_entry_sha256": "86b7272ccadd5e1300cb8b07d8ab36fe9c57a81abe5143d5a27c2c63a7f3aea4",
+      "raw_sha256": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c",
+      "document_date": "1862-04-21"
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "confederate-report-136-artillery",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398",
+        "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+        "quote": "Total artillery | 83 | 1,857 | 1,973"
+      },
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "confederate-report-136-cavalry",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398",
+        "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+        "quote": "Cavalry | 125 | 1,884 | 2,073"
+      },
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "confederate-report-136-infantry",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398",
+        "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+        "quote": "Total infantry | 2,379 | 33,270 | 34,727"
+      },
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "confederate-report-136-total",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398",
+        "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+        "quote": "Grand total | 2,587 | 37,011 | 38,773"
+      },
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "confederate-report-137-artillery",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-report-137-v1",
+        "section": "p399",
+        "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+        "quote": "Total artillery | 70 | 1,634 | 1,682"
+      },
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "confederate-report-137-cavalry",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-report-137-v1",
+        "section": "p399",
+        "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+        "quote": "Cavalry | 259 | 3,584 | 3,833"
+      },
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "confederate-report-137-infantry",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-report-137-v1",
+        "section": "p399",
+        "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+        "quote": "Total infantry | 1,855 | 24,692 | 26,697"
+      },
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "confederate-report-137-total",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-confederate-report-137-v1",
+        "section": "p399",
+        "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+        "quote": "Grand total | 2,184 | 29,910 | 32,212"
+      },
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "document_date": "1862-06-30"
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "grose-sunday-eight-companies",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-grose-crossing-v1",
+        "section": "p337",
+        "locator": "p337",
+        "quote": "my regiment was formed (the eight companies about 400 strong)"
+      },
+      "source_entry_sha256": "8bf2f4cebe935a99c3f2993b1ced99fe2633b7b440a55ffa96f158c61fb4e65c",
+      "raw_sha256": "45557a169c58c848726a0105e883da9dd682b749c6d603d09d4578209ec09410",
+      "document_date": "1862-04-08"
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "handbook-nelson-leading",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "gudmens-shiloh-handbook",
+        "section": "p113",
+        "locator": "p113",
+        "quote": "At 1700 Nelson’s lead brigade, commanded by COL Jacob Ammen, arrived across the river from Pittsburg Landing. Nelson arranged for boats in the river to start moving his men across, and by 1800 he had about 600 men west of the river and in line."
+      },
+      "source_entry_sha256": "56e73adb77ae67b9bb0508d83f4738e980fe5ffa03cfabf35da06b009875cc2a",
+      "raw_sha256": "f9598f35502e9081e7bb056e59790c42ff476371984a3ea452e37ac36e395cf5",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "nelson-taken-into-action",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-nelson-reinforcements-v2",
+        "section": "p325-strength",
+        "locator": "p325-strength",
+        "quote": "It went into action 4,541 strong,"
+      },
+      "source_entry_sha256": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+      "raw_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+      "document_date": "1862-04-10"
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "nelson-thirtysixth-taken-into-action",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-nelson-reinforcements-v2",
+        "section": "p326-return",
+        "locator": "p326-return",
+        "quote": "36th Indiana | 380"
+      },
+      "source_entry_sha256": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+      "raw_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "nps-confederate-total",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "nps-tn003",
+        "locator": "Forces Engaged",
+        "quote": "110053 total (US 65085; CS 44968;)"
+      },
+      "source_entry_sha256": "49927e496d827518cab1c00ffaadbbee9cdaea2b40589b1319994ed5bc1f37b6",
+      "raw_sha256": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "nps-union-total",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "nps-tn003",
+        "locator": "Forces Engaged",
+        "quote": "110053 total (US 65085; CS 44968;)"
+      },
+      "source_entry_sha256": "49927e496d827518cab1c00ffaadbbee9cdaea2b40589b1319994ed5bc1f37b6",
+      "raw_sha256": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-crittenden-engaged",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p101",
+        "locator": "p101",
+        "quote": "Number Fifth Division engaged at Shiloh Apr. 7* | [blank] | 3,825"
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-crittenden-engaged",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p101",
+        "locator": "p101",
+        "quote": "* Approximated. Note j."
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-eighteenth-wisconsin-estimate",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p96",
+        "locator": "p96",
+        "quote": "18th Wisconsin* (note d) | 35 | 700 | 735"
+      },
+      "source_entry_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-eighteenth-wisconsin-estimate",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p97",
+        "locator": "p97",
+        "quote": "* Estimated."
+      },
+      "source_entry_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-mccook-april30",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p100",
+        "locator": "p100",
+        "quote": "Total Second Division | 332 | 8,786 | 9,118"
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-mccook-detail-engaged",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p100",
+        "locator": "p100",
+        "quote": "Number Second Division engaged at Shiloh Apr. 7* | 7,553"
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-mccook-detail-engaged",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p101",
+        "locator": "p101",
+        "quote": "* Approximated. Note j."
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-mccook-recap-engaged",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p102",
+        "locator": "p102",
+        "quote": "Second Division | 7,552"
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-mccook-recap-engaged",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p111-note-j",
+        "locator": "p111-note-j",
+        "quote": "I estimate McCook's present for duty at 7,552."
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-ohio-total-engaged",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p102",
+        "locator": "p102",
+        "quote": "Total Army of the Ohio | 17,918"
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-ohio-total-engaged",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p111-note-j",
+        "locator": "p111-note-j",
+        "quote": "The Second, Fifth, and Sixth Divisions are estimated from returns of March 20, March 31, and April 30, 1862."
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-ohio-total-engaged",
+      "citation_index": 2,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p102",
+        "locator": "p102",
+        "quote": "† Arrived at Shiloh just before the battle ended. Estimated."
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-sixth-reconstruction",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p97",
+        "locator": "p97",
+        "quote": "Total Sixth Division | 347 | 7,198 | 7,545"
+      },
+      "source_entry_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-sixth-reconstruction",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p96",
+        "locator": "p96",
+        "quote": "18th Wisconsin* (note d) | 35 | 700 | 735"
+      },
+      "source_entry_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-sixth-reconstruction",
+      "citation_index": 2,
+      "citation": {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p97",
+        "locator": "p97",
+        "quote": "* Estimated."
+      },
+      "source_entry_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-wagner-late-estimate",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p102",
+        "locator": "p102",
+        "quote": "Twenty-first Brigade† | 2,000"
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "reed-wagner-late-estimate",
+      "citation_index": 1,
+      "citation": {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p102",
+        "locator": "p102",
+        "quote": "† Arrived at Shiloh just before the battle ended. Estimated."
+      },
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "sixth-april5-abstract",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-union-return-detail-v3",
+        "section": "p112",
+        "locator": "p112",
+        "quote": "1st Brigade | 119 | 2,671 | 2,790\n2d Brigade | 85 | 1,689 | 1,774\nUnattached | 41 | 858 | 899\nTotal Sixth Division | 245 | 5,218 | 5,463"
+      },
+      "source_entry_sha256": "1075fbfb1317f1be5502bb3454c6943949ef84014696135b4bf4a3b0ff3d8b63",
+      "raw_sha256": "70099ece7f07cf264d777f3e9d80e49ec40c230b5c671962e3cdc0dbfd4f2c94",
+      "document_date": null
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "union-paper-total",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-union-return-april4-5",
+        "section": "p112",
+        "locator": "p112",
+        "quote": "Grand total | 1,987 | 42,908 | 44,895 | 62"
+      },
+      "source_entry_sha256": "5ef68640ce37c0679271a16eb9ac629a97ea3204b3645773d1f8dc728360cd01",
+      "raw_sha256": "e7b9aee495475a62721a811490c442f8019bc689a02dd841db0a5fbd60f8727e",
+      "document_date": "1862-04-04/1862-04-05"
+    },
+    {
+      "record_type": "quantity_estimation",
+      "record_id": "wallace-april4-return",
+      "citation_index": 0,
+      "citation": {
+        "source_id": "or-union-return-april4-5",
+        "section": "p112",
+        "locator": "p112",
+        "quote": "Total Third Division | 314 | 7,250 | 7,564 | 12"
+      },
+      "source_entry_sha256": "5ef68640ce37c0679271a16eb9ac629a97ea3204b3645773d1f8dc728360cd01",
+      "raw_sha256": "e7b9aee495475a62721a811490c442f8019bc689a02dd841db0a5fbd60f8727e",
+      "document_date": "1862-04-04/1862-04-05"
+    }
+  ]
+}

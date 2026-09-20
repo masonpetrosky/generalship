@@ -107,6 +107,11 @@ them together would double count. Partial pooling, opponent/army context,
 measurement uncertainty, disputed-input scenarios, and a source-exploration UI
 remain planned work, not implemented capabilities.
 
+The feature-admission specification and 13 source-bound Shiloh design cases are
+prepared for separate review; no admission engine or model input has changed.
+See [the contract](docs/feature-admission.md) and
+[worked examples](docs/research/shiloh-admission-examples.md).
+
 ## Read next
 
 - [Methodology and limitations](docs/methodology.md)
