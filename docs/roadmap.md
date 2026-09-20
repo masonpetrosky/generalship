@@ -41,11 +41,19 @@ OR p.112 return, and distinguish Crittenden's arrival from later debarkation.
 The frozen evidence and review are preserved and the migration is documented.
 The [focused review and follow-up](research/shiloh-review-corrections.md#validation-and-limits)
 are complete under the [standing subagent policy](../AGENTS.md).
-Start now by designing the feature-admission contract: bind candidate inputs to
-immutable source/dossier versions, population and overlap definitions, an explicit
-decision boundary and estimand; preserve unknowns, conflicting sources and
-post-outcome exclusions. Review that contract before implementing admission or
-changing model inputs.
+The [feature-admission design](feature-admission.md) and
+[13 source-bound Shiloh cases](research/shiloh-admission-examples.md) now have a
+separate Astra `xhigh` design review with no required corrections. See the
+[actual review and primary assessment](../artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/primary-assessment.md).
+The examples reference 26/62 claims, 27/40 quantities and 8/26 events and admit
+zero features. The runtime admission mechanism is still unimplemented.
+
+Start now by implementing the offline validator and complete-frame coverage
+ledger against this reviewed specification, initially without promotion. Use
+explicit synthetic fixtures to exercise positive admission and the required
+rejection cases. Preserve the current baseline. Historical feature admission
+requires further boundary/population evidence-use review and an immutable release
+manifest; design acceptance does not grant that approval.
 
 The [actual AI review](../artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review.md)
 covers 62/62 claims, 40/40 quantities, 26/26 events and 26/26 supplied scan
@@ -61,10 +69,9 @@ conflicts also remain open.
 The Confederate reports' differences from p.396, report 137's two inspected infantry
 subtotal discrepancies, and the accounting of late/detached formations remain
 explicit questions for historical review. The updated packet is
-available with `python3 -m generalship packet TN003`. After admission-contract
-design, complete all
-pilot engagements in the same source campaign, including Fort Henry, Fort
-Donelson, and Corinth.
+available with `python3 -m generalship packet TN003`. After the validator and
+coverage ledger, continue evidence work across all pilot engagements in the same
+source campaign, including Fort Henry, Fort Donelson, and Corinth.
 Use Antietam to test outcome ambiguity and Champion Hill to test inherited orders
 versus commander-created circumstances.
 
@@ -80,12 +87,9 @@ Deliverables:
 - A feature-admission mapping tied to immutable sources and dossier versions.
 
 Acceptance: every admitted fact has traceable evidence, source alternatives remain
-visible, reviewers agree on population/timing or retain a dispute, and no post-outcome
-quantity can enter a predecision feature without an explicit justified design.
-
-A [draft feature-admission specification](feature-admission.md) and
-[13 Shiloh cases](research/shiloh-admission-examples.md) are prepared for separate
-review. No feature is admitted; implementation remains a later step.
+visible, reviewers agree on population/timing or retain a dispute, and the v1
+opening profile excludes post-boundary state and participation, including indirect
+use through transformations.
 
 ## Milestone 2 — Baseline audit and expanded coverage
 

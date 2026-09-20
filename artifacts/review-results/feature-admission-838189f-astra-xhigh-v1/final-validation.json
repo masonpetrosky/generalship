@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "verified_at_utc": "2026-09-20T19:00:23.902349+00:00",
+  "reviewed_design_commit": "838189f32b6ce1deec3daa14251c5ebf784626fc",
+  "evidence_snapshot_commit": "e92eefd5dad99e019fd2f905a2fd9b46053db47f",
+  "tests": {
+    "command": "make check",
+    "passed": 52
+  },
+  "commands": [
+    "make reproduce",
+    "PYTHONPATH=. python3 artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/reference-audit.py",
+    "git diff --check"
+  ],
+  "review_artifact_sha256": {
+    "review.md": "e3f085f9284a7a63cf837218f10be39302da6c307bf223f47ca9da5769a8319e",
+    "review-result.json": "c1f1e67c0b53164d685c41f8f361dd3e352e730b6095eab851746fa415b8ca65",
+    "dispatch.json": "33802fb464336ab1a7b79d53c848b9d830a2f284d83e467632dfaa4e78f704c1",
+    "reference-audit.py": "a41fdf7a8d068f67535024d605adfe57886fd67ce52b515611f6beee269fa884"
+  },
+  "accepted_design_sha256": {
+    "docs/feature-admission.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99",
+    "docs/research/shiloh-admission-examples.md": "fc1a32a0ace7580d2782f3f0046a0dbb528e17286d33e2bc0adfe8bed6acaaff",
+    "design/feature-admission-v1/shiloh-examples.json": "397fb1b0d126b35e182071a50cc878270cf05be9e7ef524ee86e6f1cf40638f5"
+  },
+  "reviewed_design_bytes_unchanged": true,
+  "reviewer_source_bindings_match_examples": true,
+  "source_dossier_cohort_and_research_packet_unchanged": true,
+  "old_review_bundle_and_results_unchanged": true,
+  "numeric_baseline_outputs_unchanged": true,
+  "runtime_change_is_report_prose_only": true,
+  "build_receipt_matches_current_inputs_outputs": true,
+  "generated_report_inspected": true,
+  "admitted_features": 0,
+  "emitted_rows": 0,
+  "scope_note": "Design specification and actual review accepted. No admission engine or historical feature approval. Final changes after reviewed commit package review records and update current documentation/report status.",
+  "local_markdown_links_checked": 79
+}

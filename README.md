@@ -97,9 +97,16 @@ the frozen assignment separately from the actual response and execution record.
 The default reviewer is a fresh-context GPT-6 Astra `xhigh` subagent in the same
 task, under [AGENTS.md](AGENTS.md); no manual chat handoff is required. This AI
 review fulfills the bounded separate-review step, not historical adjudication or
-feature admission. Next design the feature-admission contract with the remaining
-disputes explicit, tying each candidate input to a source version, population,
-time boundary and intended estimand.
+feature admission. The [feature-admission design](docs/feature-admission.md) now
+has a separate Astra `xhigh` design review with no required corrections. Its
+[13 Shiloh examples](docs/research/shiloh-admission-examples.md) preserve source
+versions, population, time and estimand restrictions. They emit no features.
+The [review and primary assessment](artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/primary-assessment.md)
+record the exact scope and remaining historical limits.
+
+Next implement the offline admission validator and complete-frame coverage ledger
+without promoting model inputs. Actual feature release still requires reviewed
+boundary/population mappings and a separate immutable admission manifest.
 
 Then define a campaign replacement boundary and outcomes before fitting enriched
 models. Battle execution and campaign contribution are separate estimands; adding
@@ -107,15 +114,11 @@ them together would double count. Partial pooling, opponent/army context,
 measurement uncertainty, disputed-input scenarios, and a source-exploration UI
 remain planned work, not implemented capabilities.
 
-The feature-admission specification and 13 source-bound Shiloh design cases are
-prepared for separate review; no admission engine or model input has changed.
-See [the contract](docs/feature-admission.md) and
-[worked examples](docs/research/shiloh-admission-examples.md).
-
 ## Read next
 
 - [Methodology and limitations](docs/methodology.md)
 - [Evidence contract and review workflow](docs/evidence-contract.md)
+- [Reviewed feature-admission design](docs/feature-admission.md)
 - [Source provenance and original-project audit](docs/sources.md)
 - [Milestones and next tasks](docs/roadmap.md)
 - [Source manifest](data/sources.json) and [frozen cohort](data/pilot/cohort.json)

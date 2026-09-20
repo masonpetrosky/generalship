@@ -1,0 +1,592 @@
+{
+  "schema_version": 1,
+  "review_kind": "feature_admission_design",
+  "verdict": "accept",
+  "reviewed_at_utc": "2026-09-20T18:58:21.543784+00:00",
+  "review_date": "2026-09-20",
+  "reviewer": {
+    "task_identity": "/root/admission_contract_review",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "fresh_context": true,
+    "kind": "separate_ai_analysis",
+    "configuration_evidence": "dispatch.json"
+  },
+  "input_commit": "838189f32b6ce1deec3daa14251c5ebf784626fc",
+  "evidence_commit": "e92eefd5dad99e019fd2f905a2fd9b46053db47f",
+  "input_sha256": {
+    "docs/feature-admission.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99",
+    "docs/research/shiloh-admission-examples.md": "fc1a32a0ace7580d2782f3f0046a0dbb528e17286d33e2bc0adfe8bed6acaaff",
+    "design/feature-admission-v1/shiloh-examples.json": "397fb1b0d126b35e182071a50cc878270cf05be9e7ef524ee86e6f1cf40638f5",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/sources.json": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595"
+  },
+  "context_sha256_at_review_commit": {
+    "AGENTS.md": "184d4b911ff2bb44b016e5b758bee05f1cd5c41b21e249215efd36d638f5e33f",
+    "README.md": "744f651acded5d787d1df9ffb097539371901422d16d29d352112359f73b4992",
+    "docs/methodology.md": "c418424819d8013e17bf4843d345cdb1acaa04327b8a82cae90a53da0e010765",
+    "docs/roadmap.md": "4dae70c37d43f3e6a02275ca2f6badfa20b57ec98d9fedea33da7b1a9b7919b8",
+    "docs/evidence-contract.md": "34494f9048da5b96c871f5213c2dbdbd1e08e2b1c8a8d1bb33f5f5f32fb48ddd",
+    "docs/sources.md": "3c480634b4e0372cc2d5d7d296533dae9b828f5dcc8c5b745ff2b3a66be22457"
+  },
+  "scope": "Accept the exact design as guidance for a later offline non-promoting validator and admission manifest. No historical feature, source change, cohort change, model input, runtime engine or enriched evaluation is approved.",
+  "findings": [],
+  "required_corrections": [],
+  "unresolved_review_findings": [],
+  "design_assessments": [
+    {
+      "topic": "Positive and negative paths",
+      "verdict": "accept",
+      "locations": [
+        "docs/feature-admission.md:186-207",
+        "docs/feature-admission.md:235-268"
+      ],
+      "assessment": "The ordered gates and explicit invalid > excluded > blocked precedence are implementable. Lines 200-202 resolve first-review waiting as eligible_candidate, distinct from an adverse unresolved review. Synthetic accepted, waiting, adverse, altered-binding and leakage fixtures are required; no historical positive admission is claimed."
+    },
+    {
+      "topic": "Review binding and replay",
+      "verdict": "accept",
+      "locations": [
+        "docs/feature-admission.md:61-102",
+        "docs/feature-admission.md:229-240"
+      ],
+      "assessment": "Candidate, profile, boundary, source snapshot and proposal bindings are required. The proposal/final-manifest split avoids a self-hash cycle, requires unchanged approved content, and mandates bounded follow-up for substantive corrections. Metadata aliases bind full entries and immutable snapshots. Future implementation must enforce these requirements; no existing admission implementation was validated."
+    },
+    {
+      "topic": "Retrospective timing and leakage",
+      "verdict": "accept",
+      "locations": [
+        "docs/feature-admission.md:11-32",
+        "docs/feature-admission.md:104-138"
+      ],
+      "assessment": "Historical state, document dates, research/publication dates, command knowledge and the research cutoff are distinct. Later reporting is allowed only with an established earlier referent and clean derivation. Post-boundary descendants and unknown potentially outcome-dependent derivation fail closed. Target provenance is separate and score-driven coding/selection is prohibited."
+    },
+    {
+      "topic": "Population, overlap, uncertainty and scenarios",
+      "verdict": "accept",
+      "locations": [
+        "docs/feature-admission.md:36-59",
+        "docs/feature-admission.md:140-184"
+      ],
+      "assessment": "Boundary and spatial/population rules are symmetric across sides. Estimates retain precision separately from estimation status. Transforms require acyclic provenance, compatible time/population and evidenced membership/overlap. Only individually applicable alternatives may enter coherent joint scenarios; scenarios are full refits, not extra observations or a rescue for wrong-scope evidence."
+    },
+    {
+      "topic": "Dependence, coverage, evaluation and estimands",
+      "verdict": "accept",
+      "locations": [
+        "docs/feature-admission.md:25-32",
+        "docs/feature-admission.md:163-167",
+        "docs/feature-admission.md:209-227"
+      ],
+      "assessment": "Aliases and reused returns cannot count as independent votes. The complete 127/36 frame, side/field coverage and complete-row coverage stay distinct. Common-row/fold comparisons, expanded-coverage evaluation and training-set differences must be disclosed. Predictive residuals do not imply command effects; unsupported information-set and causal profiles remain excluded."
+    }
+  ],
+  "case_reviews": [
+    {
+      "case_id": "S01",
+      "expected_status": "excluded",
+      "review_status": "consistent_for_proposed_use",
+      "assessment": "Whole-engagement totals cannot be relabeled as opening availability; later participation is not the opening population."
+    },
+    {
+      "case_id": "S02",
+      "expected_status": "blocked",
+      "review_status": "consistent_for_proposed_use",
+      "assessment": "Paper total and nested Wallace count need boundary/population/omission review before subtraction can support an opening total."
+    },
+    {
+      "case_id": "S03",
+      "expected_status": "blocked",
+      "review_status": "consistent_for_proposed_use",
+      "assessment": "Summary, detail and image represent one p.112 return; source dependence checks alone do not establish opening applicability."
+    },
+    {
+      "case_id": "S04",
+      "expected_status": "blocked",
+      "review_status": "consistent_for_proposed_use",
+      "assessment": "The competing Confederate pre-battle totals have unresolved muster/composition applicability and cannot yet form an admitted range or scenario pair."
+    },
+    {
+      "case_id": "S05",
+      "expected_status": "excluded",
+      "review_status": "consistent_for_proposed_use",
+      "assessment": "After-battle returns and casualty-based reverse reconstruction are excluded for the opening target."
+    },
+    {
+      "case_id": "S06",
+      "expected_status": "excluded",
+      "review_status": "consistent_for_proposed_use",
+      "assessment": "The mixed-phase 7,545 total is excluded; the estimated 735 remains a separate unresolved candidate and must not be added twice."
+    },
+    {
+      "case_id": "S07",
+      "expected_status": "excluded",
+      "review_status": "consistent_for_proposed_use",
+      "assessment": "The April 7 7,553/7,552 discrepancy remains visible; neither value is an April 6 opening alternative."
+    },
+    {
+      "case_id": "S08",
+      "expected_status": "excluded",
+      "review_status": "consistent_for_proposed_use",
+      "assessment": "The 17,918 recap and nested/mixed-date components cannot become a simultaneous opening population."
+    },
+    {
+      "case_id": "S09",
+      "expected_status": "excluded",
+      "review_status": "consistent_for_proposed_use",
+      "assessment": "Different reported contingents and phases cannot fill the null exact crossing count or opening strength."
+    },
+    {
+      "case_id": "S10",
+      "expected_status": "excluded",
+      "review_status": "consistent_for_proposed_use",
+      "assessment": "The proposed availability/readiness inference is excluded. Ammen Savannah arrival itself is April 5, not a post-boundary event; its location and diary/report distinction do not establish Pittsburg opening availability. Crittenden arrival does not date completed debarkation."
+    },
+    {
+      "case_id": "S11",
+      "expected_status": "excluded",
+      "review_status": "consistent_for_proposed_use",
+      "assessment": "An undefined supply profile plus null evidence cannot produce a numerical predictor."
+    },
+    {
+      "case_id": "S12",
+      "expected_status": "excluded",
+      "review_status": "consistent_for_proposed_use",
+      "assessment": "Causal allocation is unsupported; issue, receipt, death, notification and effective authority are distinct."
+    },
+    {
+      "case_id": "S13",
+      "expected_status": "excluded",
+      "review_status": "consistent_for_proposed_use",
+      "assessment": "The recorded outcome remains in its target channel and cannot be an opening predictor."
+    }
+  ],
+  "coverage": {
+    "cases_inspected": 13,
+    "cases_total": 13,
+    "selected_claims_inspected": 26,
+    "dossier_claims_total": 62,
+    "selected_quantities_inspected": 27,
+    "dossier_quantities_total": 40,
+    "selected_events_inspected": 8,
+    "dossier_events_total": 26,
+    "citation_occurrences_verified": 115,
+    "claim_citation_occurrences": 79,
+    "estimation_citation_occurrences": 36,
+    "distinct_source_locator_pairs": 29,
+    "distinct_resolved_text_or_csv_bodies_read": 28,
+    "source_entries_verified": 21,
+    "directly_cited_source_entries": 17,
+    "linked_facsimile_entries_byte_verified": 4,
+    "images_visually_reviewed": 0,
+    "expected_status_counts": {
+      "blocked": 3,
+      "excluded": 10
+    },
+    "admitted_features": 0,
+    "emitted_rows": 0,
+    "frame_engagements_verified": 127,
+    "frame_campaigns_verified": 36,
+    "baseline_eligible_engagements": 23,
+    "baseline_eligible_campaigns": 13,
+    "baseline_brier": 0.2768816348133779,
+    "equal_odds_brier": 0.25,
+    "coverage_note": "All 29 source/locator pairs were checked. The two NPS locators share one unsectioned text body, giving 28 distinct resolved bodies. This is a purposive design review, not an extraction accuracy sample or all-dossier historical review."
+  },
+  "selected_record_ids": {
+    "claims": [
+      "ammen-crossing-sequence",
+      "await-buell",
+      "command-transfer",
+      "confederate-report-136",
+      "confederate-report-136-monday-arrival",
+      "confederate-report-137",
+      "confederate-report-137-composition-change",
+      "confederate-return-after",
+      "confederate-return-before",
+      "crittenden-arrival-phases",
+      "eighteenth-wisconsin-return-omission",
+      "fortification-choice",
+      "grose-sunday-contingent",
+      "logistics-unknown",
+      "nelson-action-strength",
+      "nelson-evening-crossing",
+      "nelson-sunday-exact-crossed-strength",
+      "reed-buell-letter-secondhand",
+      "reed-mccook-postbattle-return",
+      "reed-ohio-estimates-and-discrepancy",
+      "reed-sixth-division-reconstruction",
+      "result",
+      "sixth-division-return-components",
+      "strength-total",
+      "union-command-authority",
+      "union-return-strength"
+    ],
+    "quantities": [
+      "confederate-after",
+      "confederate-before",
+      "confederate-report-136-artillery",
+      "confederate-report-136-cavalry",
+      "confederate-report-136-infantry",
+      "confederate-report-136-total",
+      "confederate-report-137-artillery",
+      "confederate-report-137-cavalry",
+      "confederate-report-137-infantry",
+      "confederate-report-137-total",
+      "grose-sunday-eight-companies",
+      "handbook-nelson-leading",
+      "nelson-taken-into-action",
+      "nelson-thirtysixth-taken-into-action",
+      "nps-confederate-total",
+      "nps-union-total",
+      "reed-crittenden-engaged",
+      "reed-eighteenth-wisconsin-estimate",
+      "reed-mccook-april30",
+      "reed-mccook-detail-engaged",
+      "reed-mccook-recap-engaged",
+      "reed-ohio-total-engaged",
+      "reed-sixth-reconstruction",
+      "reed-wagner-late-estimate",
+      "sixth-april5-abstract",
+      "union-paper-total",
+      "wallace-april4-return"
+    ],
+    "events": [
+      "ammen-savannah-arrival",
+      "crittenden-night-landing",
+      "eighteenth-wisconsin-arrival",
+      "grose-sunday-formation",
+      "halleck-concentration-order",
+      "johnston-death",
+      "nelson-leading-crossing",
+      "union-command-order"
+    ]
+  },
+  "inspected_source_locators": [
+    {
+      "source_id": "or-ammen-crossing-v2",
+      "section": "p328-report",
+      "locator": "p328-report"
+    },
+    {
+      "source_id": "or-ammen-crossing-v2",
+      "section": "p330-diary",
+      "locator": "p330-diary"
+    },
+    {
+      "source_id": "or-ammen-crossing-v2",
+      "section": "p333-diary",
+      "locator": "p333-diary"
+    },
+    {
+      "source_id": "nps-tn003",
+      "locator": "Description"
+    },
+    {
+      "source_id": "or-halleck-orders",
+      "section": "p50-51-march20",
+      "locator": "p50-51-march20"
+    },
+    {
+      "source_id": "or-beauregard-shiloh-report",
+      "section": "p387",
+      "locator": "p387"
+    },
+    {
+      "source_id": "gudmens-shiloh-handbook",
+      "section": "p100",
+      "locator": "p100"
+    },
+    {
+      "source_id": "or-confederate-report-136-v1",
+      "section": "p398",
+      "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note"
+    },
+    {
+      "source_id": "or-confederate-report-137-v1",
+      "section": "p399",
+      "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note"
+    },
+    {
+      "source_id": "or-confederate-return",
+      "section": "p396",
+      "locator": "p396"
+    },
+    {
+      "source_id": "or-crittenden-reinforcements-v1",
+      "section": "p355",
+      "locator": "p355"
+    },
+    {
+      "source_id": "or-crittenden-reinforcements-v1",
+      "section": "p354-cavalry",
+      "locator": "p354-cavalry"
+    },
+    {
+      "source_id": "reed-1909-union-audit-v1",
+      "section": "p111-union-notes",
+      "locator": "p111-union-notes"
+    },
+    {
+      "source_id": "reed-1909-union-audit-v1",
+      "section": "p96",
+      "locator": "p96"
+    },
+    {
+      "source_id": "reed-1909-union-audit-v1",
+      "section": "p97",
+      "locator": "p97"
+    },
+    {
+      "source_id": "or-grose-crossing-v1",
+      "section": "p337",
+      "locator": "p337"
+    },
+    {
+      "source_id": "or-nelson-reinforcements-v2",
+      "section": "p325-strength",
+      "locator": "p325-strength"
+    },
+    {
+      "source_id": "or-nelson-reinforcements-v2",
+      "section": "p326-return",
+      "locator": "p326-return"
+    },
+    {
+      "source_id": "gudmens-shiloh-handbook",
+      "section": "p113",
+      "locator": "p113"
+    },
+    {
+      "source_id": "reed-1909-ohio-strength-v1",
+      "section": "p111-note-j",
+      "locator": "p111-note-j"
+    },
+    {
+      "source_id": "reed-1909-ohio-strength-v1",
+      "section": "p100",
+      "locator": "p100"
+    },
+    {
+      "source_id": "reed-1909-ohio-strength-v1",
+      "section": "p102",
+      "locator": "p102"
+    },
+    {
+      "source_id": "reed-1909-ohio-strength-v1",
+      "section": "p101",
+      "locator": "p101"
+    },
+    {
+      "source_id": "or-union-return-detail-v3",
+      "section": "p112",
+      "locator": "p112"
+    },
+    {
+      "source_id": "arnold-cwsac-battles",
+      "row_key": {
+        "battle": "TN003"
+      },
+      "column": "results_text"
+    },
+    {
+      "source_id": "nps-tn003",
+      "locator": "Forces Engaged"
+    },
+    {
+      "source_id": "or-halleck-orders",
+      "section": "p94-april5",
+      "locator": "p94-april5"
+    },
+    {
+      "source_id": "or-grant-shiloh-report",
+      "section": "p109",
+      "locator": "p109"
+    },
+    {
+      "source_id": "or-union-return-april4-5",
+      "section": "p112",
+      "locator": "p112"
+    }
+  ],
+  "source_bindings_verified": {
+    "arnold-cwsac-battles": {
+      "path": "data/raw/cwsac_battles.csv",
+      "raw_sha256": "952b5d08402a7b77a42de709a87cd96540e460dd6fd4911d30574b5ad3585f1f",
+      "source_entry_sha256": "f064f58d50bd296d03aec91484cc143a618ece4390ee7f064f6fa0b56da98705",
+      "independence_group": "nps-cwsac",
+      "facsimile_source_id": null
+    },
+    "gudmens-shiloh-handbook": {
+      "path": "data/raw/shiloh/gudmens-shiloh-handbook.txt",
+      "raw_sha256": "f9598f35502e9081e7bb056e59790c42ff476371984a3ea452e37ac36e395cf5",
+      "source_entry_sha256": "56e73adb77ae67b9bb0508d83f4738e980fe5ffa03cfabf35da06b009875cc2a",
+      "independence_group": "gudmens-handbook",
+      "facsimile_source_id": null
+    },
+    "nps-tn003": {
+      "path": "data/raw/nps-tn003.txt",
+      "raw_sha256": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941",
+      "source_entry_sha256": "49927e496d827518cab1c00ffaadbbee9cdaea2b40589b1319994ed5bc1f37b6",
+      "independence_group": "nps-cwsac",
+      "facsimile_source_id": null
+    },
+    "or-ammen-crossing-v2": {
+      "path": "data/raw/shiloh/or-ammen-crossing-v1.txt",
+      "raw_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+      "source_entry_sha256": "38a4a8686b632e5a49df4b3a129ec80d6060a2976d7ff352fee9c68c4c4cb23b",
+      "independence_group": "or-nelson",
+      "facsimile_source_id": null
+    },
+    "or-beauregard-shiloh-report": {
+      "path": "data/raw/shiloh/or-beauregard-shiloh-report.txt",
+      "raw_sha256": "c87c79162f5ef1a88bc308896b90a4178808a6b505e1b7ee805be535705a692c",
+      "source_entry_sha256": "728ea565421f76379239861074184e28a0b8d99dad3b8a0143dec96fb4a64031",
+      "independence_group": "or-beauregard",
+      "facsimile_source_id": null
+    },
+    "or-confederate-report-136-v1": {
+      "path": "data/raw/shiloh/or-confederate-report-136-v1.txt",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+      "source_entry_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "independence_group": "or-beauregard",
+      "facsimile_source_id": "or-confederate-report-136-v1-scan"
+    },
+    "or-confederate-report-136-v1-scan": {
+      "path": "data/raw/shiloh/or-confederate-report-136-v1.png",
+      "raw_sha256": "2cec00dfd99ed0a66e96977b3578606fd213930c1a3417c43d729bd787e537a5",
+      "source_entry_sha256": "8a618677096f92aa910d3229328b13b9cadcd44ebb4ced014d0dc202122112d0",
+      "independence_group": "or-beauregard",
+      "facsimile_source_id": null
+    },
+    "or-confederate-report-137-v1": {
+      "path": "data/raw/shiloh/or-confederate-report-137-v1.txt",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+      "source_entry_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "independence_group": "or-beauregard",
+      "facsimile_source_id": "or-confederate-report-137-v1-scan"
+    },
+    "or-confederate-report-137-v1-scan": {
+      "path": "data/raw/shiloh/or-confederate-report-137-v1.png",
+      "raw_sha256": "57335aa1a9cf578be6ae4abbd11224c07a8703c7420192181cd04ddb5346d114",
+      "source_entry_sha256": "ed196ef1b40933887b39b606aca9d569d7499034c53f4cb71169bfda1160a2d1",
+      "independence_group": "or-beauregard",
+      "facsimile_source_id": null
+    },
+    "or-confederate-return": {
+      "path": "data/raw/shiloh/or-confederate-return.txt",
+      "raw_sha256": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c",
+      "source_entry_sha256": "86b7272ccadd5e1300cb8b07d8ab36fe9c57a81abe5143d5a27c2c63a7f3aea4",
+      "independence_group": "or-beauregard",
+      "facsimile_source_id": "or-confederate-return-scan"
+    },
+    "or-confederate-return-scan": {
+      "path": "data/raw/shiloh/or-confederate-return.png",
+      "raw_sha256": "fdf3154912efd3121eb52e0cfdcb8cc5ab04c669a6758513b7547fd86e991e32",
+      "source_entry_sha256": "52681c4da00bfb45007bc1afc804d4f5927e429598e7b1a8b27807da4e146355",
+      "independence_group": "or-beauregard",
+      "facsimile_source_id": null
+    },
+    "or-crittenden-reinforcements-v1": {
+      "path": "data/raw/shiloh/or-crittenden-reinforcements-v1.txt",
+      "raw_sha256": "235b01590b21cbf161ebe63162db73cf45184bd234f4025deae555040f317391",
+      "source_entry_sha256": "730f479129363ff7df8fc8745c1145f80ea39f99a3e6c50274810d21ef956877",
+      "independence_group": "or-buell",
+      "facsimile_source_id": null
+    },
+    "or-grant-shiloh-report": {
+      "path": "data/raw/shiloh/or-grant-shiloh-report.txt",
+      "raw_sha256": "ab226b87fdbafcbe96e01564f596840b2b76fcf0f3cfe3aa83e1b1ee72f6d3cc",
+      "source_entry_sha256": "f1d23336d0d84feff45ec0495d57c776d1ca6207c115a3aee5f5bea1b3c4f5a6",
+      "independence_group": "or-grant",
+      "facsimile_source_id": null
+    },
+    "or-grose-crossing-v1": {
+      "path": "data/raw/shiloh/or-grose-crossing-v1.txt",
+      "raw_sha256": "45557a169c58c848726a0105e883da9dd682b749c6d603d09d4578209ec09410",
+      "source_entry_sha256": "8bf2f4cebe935a99c3f2993b1ced99fe2633b7b440a55ffa96f158c61fb4e65c",
+      "independence_group": "or-nelson",
+      "facsimile_source_id": null
+    },
+    "or-halleck-orders": {
+      "path": "data/raw/shiloh/or-halleck-orders.txt",
+      "raw_sha256": "b450b33b8475127a066ec9ab5257624ca818af9d8cd3049db0c5eab9c2501f21",
+      "source_entry_sha256": "d07675d55a0164446108e40c7a82d24e6f57f823619604c6dbc07f754c3a58cd",
+      "independence_group": "or-halleck",
+      "facsimile_source_id": null
+    },
+    "or-nelson-reinforcements-v2": {
+      "path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+      "raw_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+      "source_entry_sha256": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+      "independence_group": "or-nelson",
+      "facsimile_source_id": null
+    },
+    "or-union-return-april4-5": {
+      "path": "data/raw/shiloh/or-union-return-april4-5.txt",
+      "raw_sha256": "e7b9aee495475a62721a811490c442f8019bc689a02dd841db0a5fbd60f8727e",
+      "source_entry_sha256": "5ef68640ce37c0679271a16eb9ac629a97ea3204b3645773d1f8dc728360cd01",
+      "independence_group": "or-union-returns",
+      "facsimile_source_id": "or-union-return-scan"
+    },
+    "or-union-return-detail-v3": {
+      "path": "data/raw/shiloh/or-union-return-detail-v2.txt",
+      "raw_sha256": "70099ece7f07cf264d777f3e9d80e49ec40c230b5c671962e3cdc0dbfd4f2c94",
+      "source_entry_sha256": "1075fbfb1317f1be5502bb3454c6943949ef84014696135b4bf4a3b0ff3d8b63",
+      "independence_group": "or-union-returns",
+      "facsimile_source_id": "or-union-return-scan"
+    },
+    "or-union-return-scan": {
+      "path": "data/raw/shiloh/or-union-return.png",
+      "raw_sha256": "5f885b86e24cdfc13bfe96c066e5b020a747f3b81ffc71896cdf80be0cd383da",
+      "source_entry_sha256": "7e763b032f6d9708600f220371789184b7f9e92ffd95fd06b710f8c6497fbfa9",
+      "independence_group": "or-union-returns",
+      "facsimile_source_id": null
+    },
+    "reed-1909-ohio-strength-v1": {
+      "path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+      "source_entry_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "independence_group": "reed-official-records-compilation",
+      "facsimile_source_id": null
+    },
+    "reed-1909-union-audit-v1": {
+      "path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+      "source_entry_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "independence_group": "reed-official-records-compilation",
+      "facsimile_source_id": null
+    }
+  },
+  "validation": {
+    "primary_file_bytes_match_review_commit": true,
+    "example_file_bindings_match": true,
+    "evidence_bound_files_match_prior_evidence_commit": true,
+    "source_entry_and_raw_hashes_match": true,
+    "citation_objects_match_selected_dossier_records": true,
+    "quotes_present_in_exact_resolved_passages": true,
+    "section_document_dates_match": true,
+    "selected_record_citation_coverage_complete": true,
+    "case_ids_unique": true,
+    "case_values_null_and_emitted_rows_empty": true,
+    "unit_tests_executed_by_this_reviewer": false,
+    "unit_test_note": "The assignment reports 52 existing tests passing; this reviewer did not rerun that suite or treat it as admission-engine proof. Independent read-only Python checks verified bytes, references, dates, counts and frozen frame metadata."
+  },
+  "unresolved_historical_and_implementation_limits": [
+    "No exact Shiloh pre-contact definition, engagement area or availability mapping has been established; no canonical opening total or boundary-specific historical feature is approved.",
+    "The p.112 omissions and mixed return dates, Confederate composition/muster and Monday-arrival accounting, and the unreconciled before/after returns remain historical research questions.",
+    "Reed mixed-date and mixed-phase reconstructions, the Sixth Division ten-person comparison residual and McCook 7,553/7,552 discrepancy remain unresolved; no preferred value, uncertainty distribution or scenario probability is established.",
+    "Nelson/Grose contingents and clocks, the handbook 600-person derivation and exact Sunday crossing count remain unresolved; arrival, debarkation, formation and action are distinct.",
+    "Command receipt, effective transfer, responsibility and replacement estimands remain unresolved. No causal commander credit, readiness score or battle/campaign addition is approved.",
+    "This review inspected text/CSV passages and byte/metadata bindings; it did not visually re-review any image. The prior 35/65 text/CSV-only source-section coverage statement is retained from the existing review record, not independently recounted here.",
+    "Quote membership and hash identity are reference-integrity checks, not historical truth, entailment, source independence or human adjudication. AI historical knowledge is not removed by this review.",
+    "No admission engine, production positive-path replay, feature release or enriched evaluation exists in the reviewed change. Future schema/code and acceptance fixtures still require implementation and validation."
+  ],
+  "write_scope": [
+    "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/review.md",
+    "artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/review-result.json"
+  ],
+  "approval_effect": "Design-only separate review. Not human historical adjudication, not independent historical corroboration, and not feature admission."
+}

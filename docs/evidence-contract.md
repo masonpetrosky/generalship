@@ -192,6 +192,10 @@ source independence or automatic feature admission. See [AGENTS.md](../AGENTS.md
 The current pipeline **never promotes dossiers into baseline inputs**, even if a
 dossier is marked reviewed. The feature-admission mechanism does not exist yet.
 That deliberate boundary prevents draft interpretations from changing results.
+The [feature-admission design](feature-admission.md) specifies the future separate
+profile, candidate, evidence-use review and release-manifest gates. Its
+[Shiloh examples](research/shiloh-admission-examples.md) bind existing evidence
+without emitting model rows. Contract review does not approve historical inputs.
 
 Automatic checks establish byte identity, reference integrity, and passage presence.
 They cannot establish truth, claim entailment, source independence, command

@@ -155,3 +155,20 @@ validator follow-up accepted. Antietam and Champion
 Hill have no separate review. AI review is not human historical adjudication or
 proof of source independence. Agreement with famous-generals lists is never an
 acceptance criterion.
+
+## Feature-admission design
+
+The [v1 admission specification](feature-admission.md) defines a future
+retrospective pre-engagement prediction profile and immutable evidence-use
+review/release gates. This profile may use later reports to reconstruct an earlier
+state; it does not claim to forecast from a historical commander's information
+set. It excludes post-boundary state and participation, including indirect use
+through transformations, and keeps unresolved scope and source alternatives
+visible. Neither an admission engine nor new model inputs are implemented.
+
+The [13 Shiloh design cases](research/shiloh-admission-examples.md) cover selected
+observations and emit no features. The proposed opening population and boundary
+still need evidence-use review. Future evaluation must distinguish paired
+common-row comparisons from expanded coverage and preserve complete campaign
+holdouts. Tactical replacement and campaign contribution require separately
+reviewed causal designs; contract acceptance does not establish either effect.

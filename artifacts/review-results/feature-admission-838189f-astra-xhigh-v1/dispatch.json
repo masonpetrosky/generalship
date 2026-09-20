@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "review_kind": "feature_admission_design",
+  "input_commit": "838189f32b6ce1deec3daa14251c5ebf784626fc",
+  "evidence_commit": "e92eefd5dad99e019fd2f905a2fd9b46053db47f",
+  "recorded_at_utc": "2026-09-20T18:52:39.580209+00:00",
+  "reviewer_task": "/root/admission_contract_review",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "fork_turns": "none",
+  "mechanism": "collaboration.spawn_agent",
+  "assigned_outputs": [
+    "review.md",
+    "review-result.json"
+  ],
+  "input_sha256": {
+    "docs/feature-admission.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99",
+    "docs/research/shiloh-admission-examples.md": "fc1a32a0ace7580d2782f3f0046a0dbb528e17286d33e2bc0adfe8bed6acaaff",
+    "design/feature-admission-v1/shiloh-examples.json": "397fb1b0d126b35e182071a50cc878270cf05be9e7ef524ee86e6f1cf40638f5",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/sources.json": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595"
+  },
+  "assignment_scope": "Read repository methodology and evidence requirements; review the full feature-admission design and 13 source-bound cases for implementability, positive and negative paths, state/review bindings, temporal leakage, scope/overlap/scenarios, provenance, target separation, coverage/evaluation and estimand distinctions. Verify bindings and coverage independently. Preserve exact actionable findings and actual coverage. No historical adjudication, engine implementation or feature admission. Write only assigned review outputs; primary reconciles findings."
+}
