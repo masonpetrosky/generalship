@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "input_commit": "7b41de14011dbb7150a4b4ea2a30e570a0421e33",
+  "base_commit": "aac2ed229b3fb8a4d0db4cb8a0a332548ede39b1",
+  "recorded_at_utc": "2026-09-20T19:21:32.389909+00:00",
+  "reviewer_task": "/root/admission_implementation_review",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "fork_turns": "none",
+  "mechanism": "collaboration.spawn_agent",
+  "input_sha256": {
+    "generalship/admission.py": "59beaa31827b394e5191fe5b852abe351d450389fab35ae99d90e746aff58b3e",
+    "generalship/cli.py": "0743e6a6159b756f174f3f97634c9a6f99bda6b868d04488a54f8223f789aec6",
+    "generalship/evidence.py": "cf52c44b86956201cb6fa8c1a9c3cec85047ada71366f656330c551b536dee69",
+    "tests/test_admission.py": "951863576273e4f2b10e76932e9ff223de974f23ed57943a6eb7506f9b179b74",
+    "tests/admission_fixtures.py": "8a0c50aaf91bde0430be2d35d71d501bc979c3b874a9ad8efc560dc52e38eb8a",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json": "d3f3a2b9f2e8e48726812e08bf925d7c0e60b8ff012a4b0d4cdc95581a5a884c",
+    "data/admission/snapshots/feature-admission-v1.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99",
+    "artifacts/admission-check.json": "d607150efae2cf06652792c87cd03585f937a9a4393942c9da87165f5e931100",
+    "docs/admission-validator.md": "8f86aafbb976e7284c11bc53f3dc3457fbf507dd77f81be84acd629355e62eb4",
+    "docs/feature-admission.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/sources.json": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595"
+  },
+  "assignment_scope": "Bounded implementation review against accepted feature-admission design: fail-closed schema/binding/review/release gates, transitive leakage, time/population/overlap, scenario completeness and compatibility, zero promotion/model isolation, frozen-snapshot replay and full-frame coverage. Independently inspect meaningful tests and adversarial cases. No source or historical adjudication work.",
+  "primary_reproducer_forwarded": "Reusing quantity us-a in the us-b node with different membership atoms incorrectly yields eligible_candidate and [80,80]. Sent to reviewer for assessment; reviewed files unchanged."
+}

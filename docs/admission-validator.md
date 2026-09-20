@@ -2,7 +2,10 @@
 
 The validator implements the proposal and manifest checks in the
 [reviewed design](feature-admission.md). It never installs feature inputs or fits
-an enriched model. Separate implementation review is pending. The original
+an enriched model. Astra `xhigh` implementation review and the
+[focused follow-up](../artifacts/review-results/admission-implementation-1264e21-followup-v1/primary-assessment.md)
+are accepted after fixing duplicate observation reuse, omitted compatible joint
+assignments and ISO date ordering. The full 82-test suite passes. The original
 design and its 13 worked examples remain immutable review artifacts; this
 implementation prepares a distinct census of all 40 Shiloh troop observations.
 

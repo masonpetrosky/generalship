@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "implementation_commit": "1264e217fc1e952b2115a316313f9dfeea4869ec",
+  "tests_passed": 82,
+  "admission_tests_passed": 30,
+  "commands": [
+    "make check",
+    "make reproduce",
+    "git diff --check"
+  ],
+  "default_ledger_unchanged_except_validator_code_hashes": true,
+  "source_inputs_and_numeric_baseline_outputs_unchanged": true,
+  "candidate_status_counts": {
+    "blocked": 18,
+    "excluded": 22
+  },
+  "emitted_rows": 0,
+  "promoted_rows": 0,
+  "focused_review_pending": true
+}

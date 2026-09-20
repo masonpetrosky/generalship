@@ -106,7 +106,9 @@ The [review and primary assessment](artifacts/review-results/feature-admission-8
 record the exact scope and remaining historical limits.
 
 The [offline admission validator](docs/admission-validator.md) is implemented,
-with separate implementation review pending. Its complete-frame ledger checks all
+with Astra `xhigh` implementation review and focused follow-up accepted. The
+[review record](artifacts/review-results/admission-implementation-1264e21-followup-v1/primary-assessment.md)
+preserves three findings and their verified fixes. Its complete-frame ledger checks all
 40 Shiloh troop observations: 18 blocked, 22 excluded and zero complete rows.
 No model inputs are promoted. Actual feature release still requires reviewed
 boundary/population mappings and a separate immutable admission manifest.

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "input_commit": "7b41de14011dbb7150a4b4ea2a30e570a0421e33",
+  "tests_passed": 79,
+  "commands": [
+    "make check",
+    "make reproduce",
+    "python3 -m generalship admission-check",
+    "git diff --check"
+  ],
+  "snapshot_matches_original_registry_and_all_three_dossiers": true,
+  "all_40_quantity_records_preserved_exactly": true,
+  "frame_engagements": 127,
+  "frame_campaigns": 36,
+  "candidate_status_counts": {
+    "blocked": 18,
+    "excluded": 22
+  },
+  "emitted_rows": 0,
+  "promoted_rows": 0,
+  "original_evidence_and_numeric_baseline_outputs_unchanged": true,
+  "implementation_review_pending": true,
+  "known_primary_adversarial_counterexample": "Same quantity can be reused under conflicting membership mappings; fix pending reviewer reconciliation."
+}

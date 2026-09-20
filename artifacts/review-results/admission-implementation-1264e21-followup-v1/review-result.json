@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "kind": "focused_implementation_followup",
+  "verdict": "accept",
+  "input_commit": "1264e217fc1e952b2115a316313f9dfeea4869ec",
+  "base_commit": "7b41de14011dbb7150a4b4ea2a30e570a0421e33",
+  "reviewer": {
+    "task_identity": "/root/admission_implementation_review",
+    "kind": "ai",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "context": "Continuation of original fresh-context review under explicit bounded follow-up assignment"
+  },
+  "date": "2026-09-20",
+  "recorded_at_utc": "2026-09-20T19:30:19.360361+00:00",
+  "response": {
+    "path": "artifacts/review-results/admission-implementation-1264e21-followup-v1/review.md",
+    "sha256": "a640b34292ba42e02a2d4e0c86f017115c64da1ab63e5da3c084dad5e336939c"
+  },
+  "input_sha256": {
+    "generalship/admission.py": "55927091b8f7fa4e6a1eaef8a3b57d54de341aff01dfc666eda678a360941993",
+    "tests/test_admission.py": "9e3096dc06b8213fbc46a67a2e54e5814b32eb3b41cb1713713c4ddd163ecdcb",
+    "docs/admission-validator.md": "ffaaeecd72b08b1162ccb38ea4f7af30d0ef0fffd7ed4e87c5a1778c7dd33bfd",
+    "artifacts/admission-check.json": "d0e8d3286bd34cb34cdd2a0a1d74f0b2d3c2f6ddf955c8e66336c4cb213ee756",
+    "artifacts/receipt.json": "02ababbf44788545ec883c88e364617a56b1c7c0f84ff6940c03f60ac2649d0a",
+    "generalship/evidence.py": "cf52c44b86956201cb6fa8c1a9c3cec85047ada71366f656330c551b536dee69",
+    "generalship/sources.py": "98df0d690b2a2c9e0ac4c55c4ad8e496c28ad26e6054f1053097cd7ebefe6ab4",
+    "tests/admission_fixtures.py": "8a0c50aaf91bde0430be2d35d71d501bc979c3b874a9ad8efc560dc52e38eb8a",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json": "d3f3a2b9f2e8e48726812e08bf925d7c0e60b8ff012a4b0d4cdc95581a5a884c",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/sources.json": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7",
+    "docs/feature-admission.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99"
+  },
+  "original_review_sha256": {
+    "review.md": "75bee8d61c35fba33d780519f7a9499c7c700242ac7fd5f576d962ab8ad04493",
+    "review-result.json": "b55cf1e38770de8a189ca7589bd3e9ec35568b260f583207b264cfe51079f7e8"
+  },
+  "scope": [
+    "ADM-IMPL-R1",
+    "ADM-IMPL-R2",
+    "ADM-IMPL-R3"
+  ],
+  "closed_findings": [
+    {
+      "id": "ADM-IMPL-R1",
+      "status": "closed",
+      "file": "generalship/admission.py",
+      "line": 294,
+      "end_line": 298,
+      "evidence": "The original duplicate-reference mutation is invalid with no preview bounds; audit rejects with Invalid proposal cannot be released. Shared existing DAG node reuse for (A+B)-B remains eligible and the synthetic audit verifies US bounds [40,40].",
+      "assessment": "One leaf per (kind, reference) closes the conflicting observation-remapping bypass without disallowing shared-node arithmetic."
+    },
+    {
+      "id": "ADM-IMPL-R2",
+      "status": "closed",
+      "file": "generalship/admission.py",
+      "line": 448,
+      "end_line": 465,
+      "evidence": "The original US-only/CS-only split produces compatible_candidate_missing_joint_assignment for both candidates and the release audit rejects. Separate probes for absent, blocked and explicitly incompatible opposite sides, inconclusive outcome and aggregate operation produce no joint-coverage issues and no complete rows.",
+      "assessment": "Candidate coverage now requires an available coherent complete assignment on eligible frame rows, while retaining legitimate missingness and target/grain exclusions. This does not require Cartesian expansion."
+    },
+    {
+      "id": "ADM-IMPL-R3",
+      "status": "closed",
+      "file": "generalship/admission.py",
+      "line": 337,
+      "end_line": 343,
+      "evidence": "The original 1999-W52-7 period against boundary 2000-01-01 is excluded with observed_state_after_boundary; audit rejects. Basic pre-boundary date 20000101 against 2000-01-02 remains eligible with a verified synthetic audit. The added regression also checks basic-format later dates and preserves original period strings.",
+      "assessment": "Parsed date comparisons close the lexicographic temporal bypass while retaining original evidence text."
+    }
+  ],
+  "findings": [],
+  "unresolved_findings": [],
+  "validation": {
+    "command": "PYTHONPATH=tests python3 -m unittest test_admission -v",
+    "exit_code": 0,
+    "tests_passed": 30,
+    "python": "3.14.7",
+    "independent_temporary_synthetic_probes": 11,
+    "default_report_matches_committed": true,
+    "full_82_test_suite_and_make_reproduce": "Reported by primary, not independently rerun in this focused follow-up"
+  },
+  "coverage": {
+    "frame_engagements": 127,
+    "frame_campaigns": 36,
+    "blocked": 18,
+    "excluded": 22,
+    "complete_rows": 0,
+    "promoted_rows": 0
+  },
+  "limits": [
+    "Focused closure review, not a new exhaustive audit.",
+    "AI implementation analysis, not historical adjudication or feature admission.",
+    "No historical passage/scan entailment review or enriched model validation.",
+    "Only Python 3.14.7 exercised independently.",
+    "Synthetic audit success does not install model rows."
+  ],
+  "writes": [
+    "artifacts/review-results/admission-implementation-1264e21-followup-v1/review.md",
+    "artifacts/review-results/admission-implementation-1264e21-followup-v1/review-result.json"
+  ]
+}

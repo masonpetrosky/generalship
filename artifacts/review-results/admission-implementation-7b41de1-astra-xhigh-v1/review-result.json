@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "kind": "separate_implementation_review",
+  "verdict": "corrections_needed",
+  "input_commit": "7b41de14011dbb7150a4b4ea2a30e570a0421e33",
+  "base_commit": "aac2ed229b3fb8a4d0db4cb8a0a332548ede39b1",
+  "reviewer": {
+    "task_identity": "/root/admission_implementation_review",
+    "kind": "ai",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "fork_turns": "none"
+  },
+  "date": "2026-09-20",
+  "recorded_at_utc": "2026-09-20T19:27:49.412166+00:00",
+  "response": {
+    "path": "artifacts/review-results/admission-implementation-7b41de1-astra-xhigh-v1/review.md",
+    "sha256": "75bee8d61c35fba33d780519f7a9499c7c700242ac7fd5f576d962ab8ad04493"
+  },
+  "input_sha256": {
+    "generalship/admission.py": "59beaa31827b394e5191fe5b852abe351d450389fab35ae99d90e746aff58b3e",
+    "generalship/cli.py": "0743e6a6159b756f174f3f97634c9a6f99bda6b868d04488a54f8223f789aec6",
+    "generalship/evidence.py": "cf52c44b86956201cb6fa8c1a9c3cec85047ada71366f656330c551b536dee69",
+    "tests/test_admission.py": "951863576273e4f2b10e76932e9ff223de974f23ed57943a6eb7506f9b179b74",
+    "tests/admission_fixtures.py": "8a0c50aaf91bde0430be2d35d71d501bc979c3b874a9ad8efc560dc52e38eb8a",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json": "d3f3a2b9f2e8e48726812e08bf925d7c0e60b8ff012a4b0d4cdc95581a5a884c",
+    "data/admission/snapshots/feature-admission-v1.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99",
+    "artifacts/admission-check.json": "d607150efae2cf06652792c87cd03585f937a9a4393942c9da87165f5e931100",
+    "docs/admission-validator.md": "8f86aafbb976e7284c11bc53f3dc3457fbf507dd77f81be84acd629355e62eb4",
+    "docs/feature-admission.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/sources.json": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "generalship/sources.py": "98df0d690b2a2c9e0ac4c55c4ad8e496c28ad26e6054f1053097cd7ebefe6ab4"
+  },
+  "frozen_source_bindings": {
+    "arnold-cwsac-battles": {
+      "metadata_sha256": "f064f58d50bd296d03aec91484cc143a618ece4390ee7f064f6fa0b56da98705",
+      "raw_sha256": "952b5d08402a7b77a42de709a87cd96540e460dd6fd4911d30574b5ad3585f1f"
+    },
+    "arnold-cwsac-forces": {
+      "metadata_sha256": "f6d7e96644600b8c76a56a4752258e4c5b0d18ab96765b9f51f5be4a0a137119",
+      "raw_sha256": "a462f6be964b5d486f9cff4660262f215cffb8197d018654b74aab4e718dd7d5"
+    },
+    "arnold-cwsac-commanders": {
+      "metadata_sha256": "918d207a0bdc24315f55e7b39e178c097f66ff847dd9c4c81b152d76e1e8989c",
+      "raw_sha256": "6c587c2987171764f362513f31eaf7c713b888b806419291c494623ea41800c7"
+    },
+    "arnold-cwsac-campaigns": {
+      "metadata_sha256": "2c1f14c1abe86744875d56b42dd8a3b0779ffece219cb1e49068e91b920f4d5a",
+      "raw_sha256": "93813220a72767a77a4632905d38718593d401901ae16698973e4ae8b9f555ae"
+    },
+    "nps-tn003": {
+      "metadata_sha256": "49927e496d827518cab1c00ffaadbbee9cdaea2b40589b1319994ed5bc1f37b6",
+      "raw_sha256": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941"
+    },
+    "nps-md003": {
+      "metadata_sha256": "1331f8be219e3e0bd8b5ccfe4acae06bd5371087cb9d880c294ed1d069067507",
+      "raw_sha256": "d71c7a98380497be518ed6eae2803938d704818cea09cf7360583e1cafdad4e4"
+    },
+    "arnold-package-metadata": {
+      "metadata_sha256": "d5e11343742abe55566014535a7d981bb513bbec6257e53248757c536db62d27",
+      "raw_sha256": "f5823133f2e0d0b839c14d54e066412ce9ac809f1dd38c1d76d0be100d146b07"
+    },
+    "or-grant-shiloh-report": {
+      "metadata_sha256": "f1d23336d0d84feff45ec0495d57c776d1ca6207c115a3aee5f5bea1b3c4f5a6",
+      "raw_sha256": "ab226b87fdbafcbe96e01564f596840b2b76fcf0f3cfe3aa83e1b1ee72f6d3cc"
+    },
+    "or-buell-shiloh-report": {
+      "metadata_sha256": "b75a49ab49d250307c43716f60b54a566999728a7a204b60c92f96064500e5bd",
+      "raw_sha256": "9581e8a1e7dc63d22c9999643183730d3ac22c216b731507bf993d2cafdbd425"
+    },
+    "or-beauregard-shiloh-report": {
+      "metadata_sha256": "728ea565421f76379239861074184e28a0b8d99dad3b8a0143dec96fb4a64031",
+      "raw_sha256": "c87c79162f5ef1a88bc308896b90a4178808a6b505e1b7ee805be535705a692c"
+    },
+    "or-union-return-april4-5": {
+      "metadata_sha256": "5ef68640ce37c0679271a16eb9ac629a97ea3204b3645773d1f8dc728360cd01",
+      "raw_sha256": "e7b9aee495475a62721a811490c442f8019bc689a02dd841db0a5fbd60f8727e"
+    },
+    "or-confederate-return": {
+      "metadata_sha256": "86b7272ccadd5e1300cb8b07d8ab36fe9c57a81abe5143d5a27c2c63a7f3aea4",
+      "raw_sha256": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c"
+    },
+    "or-halleck-orders": {
+      "metadata_sha256": "d07675d55a0164446108e40c7a82d24e6f57f823619604c6dbc07f754c3a58cd",
+      "raw_sha256": "b450b33b8475127a066ec9ab5257624ca818af9d8cd3049db0c5eab9c2501f21"
+    },
+    "force-1881-shiloh": {
+      "metadata_sha256": "431038d19f755d2ad3298fc59ea8d2a32a79e924ee240d3f54cf6508a25430bc",
+      "raw_sha256": "b163fbab48f96742ce0584a6b5c29506123728b3edbac6381318e3a4853c70f1"
+    },
+    "gudmens-shiloh-handbook": {
+      "metadata_sha256": "56e73adb77ae67b9bb0508d83f4738e980fe5ffa03cfabf35da06b009875cc2a",
+      "raw_sha256": "f9598f35502e9081e7bb056e59790c42ff476371984a3ea452e37ac36e395cf5"
+    },
+    "or-union-return-scan": {
+      "metadata_sha256": "7e763b032f6d9708600f220371789184b7f9e92ffd95fd06b710f8c6497fbfa9",
+      "raw_sha256": "5f885b86e24cdfc13bfe96c066e5b020a747f3b81ffc71896cdf80be0cd383da"
+    },
+    "or-confederate-return-scan": {
+      "metadata_sha256": "52681c4da00bfb45007bc1afc804d4f5927e429598e7b1a8b27807da4e146355",
+      "raw_sha256": "fdf3154912efd3121eb52e0cfdcb8cc5ab04c669a6758513b7547fd86e991e32"
+    },
+    "or-confederate-report-136-v1": {
+      "metadata_sha256": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+      "raw_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7"
+    },
+    "or-confederate-report-136-v1-scan": {
+      "metadata_sha256": "8a618677096f92aa910d3229328b13b9cadcd44ebb4ced014d0dc202122112d0",
+      "raw_sha256": "2cec00dfd99ed0a66e96977b3578606fd213930c1a3417c43d729bd787e537a5"
+    },
+    "or-confederate-report-137-v1": {
+      "metadata_sha256": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+      "raw_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72"
+    },
+    "or-confederate-report-137-v1-scan": {
+      "metadata_sha256": "ed196ef1b40933887b39b606aca9d569d7499034c53f4cb71169bfda1160a2d1",
+      "raw_sha256": "57335aa1a9cf578be6ae4abbd11224c07a8703c7420192181cd04ddb5346d114"
+    },
+    "or-wallace-availability-v1": {
+      "metadata_sha256": "015f2a41d74e464a20b229eaa4872ab5857b8a30419ce12acb6cc1066f5c9fc2",
+      "raw_sha256": "d23c3a22984876a9f744f97d4a8acf642a663daf0b215285b38455145a218190"
+    },
+    "or-prentiss-availability-v1": {
+      "metadata_sha256": "821b9a840e535dc0302396c3cd4890fdca1e127663ac2661a591def406aa7e60",
+      "raw_sha256": "87fad5def660a7a09b3075ba5c99b951cc64561a09154aafb0203bcce623388f"
+    },
+    "or-chambers-availability-v1": {
+      "metadata_sha256": "a797c12a257eab850b82a9fd3ba9bffd624897253996d6f43b93c4e06d41992d",
+      "raw_sha256": "d41b51cef5d5cd0bd334c35f169dc857edfc8e1a03d4fcaa1527d85da190c5e1"
+    },
+    "or-reid-availability-v1": {
+      "metadata_sha256": "eaf8e57ab229cf0e02f6cfc87f0ce4e222ac2cbc9bac1e1befe875ca7476fe24",
+      "raw_sha256": "b6192040bb437ea469fa67cb8422460ebe8605186524a5c3e890b7e5ec855f03"
+    },
+    "or-rousseau-michigan-v1": {
+      "metadata_sha256": "bd97dc2473f9614eaf7f6a32651ce4c2a7961b0d061da2ec4124787495a1adfb",
+      "raw_sha256": "1a5ba21b0cf1aaa8807601e5a02f1bda368df761435031c636526f15cb379fa6"
+    },
+    "or-union-return-detail-v2": {
+      "metadata_sha256": "e4edbe0a72da183b02271b51551cfd117cc975785dff588f7ad2665c2affd3ef",
+      "raw_sha256": "70099ece7f07cf264d777f3e9d80e49ec40c230b5c671962e3cdc0dbfd4f2c94"
+    },
+    "reed-1909-union-audit-v1": {
+      "metadata_sha256": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+      "raw_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f"
+    },
+    "michigan-ag-1862-fifteenth-v1": {
+      "metadata_sha256": "a41ee095208f5656169c275975d625a9783010b54844f422c00a7d371bf79648",
+      "raw_sha256": "c143f241b2d96bc563a01f52f996c86634c5da7643952ee96259468f333fd92b"
+    },
+    "reed-1909-union-p93-facsimile-v1": {
+      "metadata_sha256": "e9bcf5f818013012c63623a6b38ac425caf88021e5897432c29da921d5c0f764",
+      "raw_sha256": "c360e57571cddcc9cde0e69603cb6aad64e82f51adb0b61c7225add59481c339"
+    },
+    "reed-1909-union-p96-facsimile-v1": {
+      "metadata_sha256": "2dc1c4e0d1d9cf9ee7a033ce25f4822ce756c3244f3952ff4f22e753777da327",
+      "raw_sha256": "f44f67c179a4dbb328cbb6d446bae9a28d1ed29fd8f314672a4d08184db20bb1"
+    },
+    "reed-1909-union-p97-facsimile-v1": {
+      "metadata_sha256": "2fcd596bb626730aa5328b3115ff8343a4489d4ac1ec6f4378ed02e2ff455c63",
+      "raw_sha256": "5a355ac9c6cc6542e4191448f40904d7394a621d8bc855d7aa381caee9385843"
+    },
+    "reed-1909-union-p98-facsimile-v1": {
+      "metadata_sha256": "923852343a3a946e174cdb3239b6aac9bb0e494a20aea2e5d81a882d1c548c47",
+      "raw_sha256": "f9346df6200f246a7ce80f3ca651a0fecce89775b01cd7d91f5aa50b2229f790"
+    },
+    "or-nelson-reinforcements-v1": {
+      "metadata_sha256": "c876b278fe77436c024dcc64b42749c734ca7cf47711099c4b5c4239b26f3e41",
+      "raw_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed"
+    },
+    "or-ammen-crossing-v1": {
+      "metadata_sha256": "b1235b68630fba8e6616e0fe75ca53badb0e97f3cfe8cc0ce01d231adf418b8e",
+      "raw_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93"
+    },
+    "or-grose-crossing-v1": {
+      "metadata_sha256": "8bf2f4cebe935a99c3f2993b1ced99fe2633b7b440a55ffa96f158c61fb4e65c",
+      "raw_sha256": "45557a169c58c848726a0105e883da9dd682b749c6d603d09d4578209ec09410"
+    },
+    "or-anderson-crossing-v1": {
+      "metadata_sha256": "dc0c370bda750825ac31fc59e4e878b97594c818aaf4cb33eccf52180f9b28cc",
+      "raw_sha256": "2b609dc79ebb3d2fcc1d52c97b10271b415d5c7166dfaeb53dcfa3d074f8d725"
+    },
+    "or-jones-crossing-v1": {
+      "metadata_sha256": "9050c30b754a5fad69bf37671eca10cbc5eb3d950d5382dc64e4d1c870e8218c",
+      "raw_sha256": "a64da854998697a6d6d4cd6bfea1850eb26b360d69b5c4f485d75a3624f45edc"
+    },
+    "or-edward-mccook-crossing-v1": {
+      "metadata_sha256": "c45d6d318ed3e659ae4991a8f139aba49ef9ab87b7ac7960aa25f3e3e969892e",
+      "raw_sha256": "68d57493f397798415ba132e2e72a4d78013445ca6a6d81c736877f4845a43fa"
+    },
+    "or-crittenden-reinforcements-v1": {
+      "metadata_sha256": "730f479129363ff7df8fc8745c1145f80ea39f99a3e6c50274810d21ef956877",
+      "raw_sha256": "235b01590b21cbf161ebe63162db73cf45184bd234f4025deae555040f317391"
+    },
+    "or-alexander-mccook-reinforcements-v1": {
+      "metadata_sha256": "f26ae86622ca89e259cd45f023dcb82f88215818c3699e162538894851b39286",
+      "raw_sha256": "59ca8b68925fe217897e50272bcc0e2158325389ae5114b4cdfeb275736fe5ea"
+    },
+    "or-wood-reinforcements-v1": {
+      "metadata_sha256": "ae57043b5fc7bd62b15494d6d734d17e7035da45c16a7c27abe58acf87c52b43",
+      "raw_sha256": "21570f8903b1535e674efa9d8c478954b69ab7de68c8445d27e2e338641a1357"
+    },
+    "or-garfield-reinforcements-v1": {
+      "metadata_sha256": "cadcb09e541f34d3bfeb160c5f7ac0b8b71c4dbb01808f64e009188a3a857a93",
+      "raw_sha256": "950b5b0d8e5a5a34f9b3a7f55efc142091f2373b571955a0f897e8c090981150"
+    },
+    "or-buell-reinforcements-v2": {
+      "metadata_sha256": "85b5535327e0147edb6a570942162e9d28e42b3a3644eaa7d903f1d4d75be02d",
+      "raw_sha256": "57627b0ea1c1e71c61d213fe4c52b692d292a20ae7c45e43677380ade6da4973"
+    },
+    "reed-1909-ohio-strength-v1": {
+      "metadata_sha256": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+      "raw_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a"
+    },
+    "or-reinforcement-p326-facsimile-v1": {
+      "metadata_sha256": "9940f19ab9baf2979e088a72dc1fac39838ee741249349bc17f79a44469dc5f6",
+      "raw_sha256": "6a16948ba7308e08559143f9e68b45f66ed383779950018109697f1529f7c54f"
+    },
+    "or-reinforcement-p327-facsimile-v1": {
+      "metadata_sha256": "72618d08c9e8859bf5dc16e4026dbbbb6000380a43543fdfeb5b98672cbb0bb7",
+      "raw_sha256": "3219c3346da5ad79c292daa33f5f6509c888169b167c181952d5f9d5bb7ddf5a"
+    },
+    "reed-reinforcement-p100-facsimile-v1": {
+      "metadata_sha256": "0b7337dd7b6afc70c3841e34087e4b499351b4b9ac189662b1ac835ba65793a6",
+      "raw_sha256": "c0c4d7dc67e98d427558574f4c7a003d6a40767cc11b2afe8987478b709a92de"
+    },
+    "reed-reinforcement-p101-facsimile-v1": {
+      "metadata_sha256": "c0f85be3326e479bd24f539c25c1f0a5ac7e950148dacdda33a65315f4242397",
+      "raw_sha256": "656f866652e3de14f7d61f7ab284eaf1dc05f1fd98f0a9a7e2c8af92375ac5e1"
+    },
+    "reed-reinforcement-p102-facsimile-v1": {
+      "metadata_sha256": "516a0994e0fa89b6356366fe857daf38f9da90cc51659b01fb0f625d8b7e250d",
+      "raw_sha256": "f5a32895999f3ff9b0834a5cd5c9fbf9c3616ad10a87e61325835c8f95212092"
+    },
+    "or-ammen-crossing-v2": {
+      "metadata_sha256": "38a4a8686b632e5a49df4b3a129ec80d6060a2976d7ff352fee9c68c4c4cb23b",
+      "raw_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93"
+    },
+    "or-nelson-reinforcements-v2": {
+      "metadata_sha256": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+      "raw_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed"
+    },
+    "or-union-return-detail-v3": {
+      "metadata_sha256": "1075fbfb1317f1be5502bb3454c6943949ef84014696135b4bf4a3b0ff3d8b63",
+      "raw_sha256": "70099ece7f07cf264d777f3e9d80e49ec40c230b5c671962e3cdc0dbfd4f2c94"
+    }
+  },
+  "findings": [
+    {
+      "id": "ADM-IMPL-R1",
+      "priority": 2,
+      "title": "Bind each observation reference to one leaf mapping within a candidate",
+      "file": "generalship/admission.py",
+      "line": 303,
+      "end_line": 305,
+      "related_locations": [
+        {
+          "file": "generalship/admission.py",
+          "line": 349,
+          "end_line": 354
+        }
+      ],
+      "status": "open",
+      "problem": "Quantity leaves are indexed by node ID, while overlap checks trust each node's authored members. Two leaves can reference the exact same immutable quantity under different membership atoms and be summed as disjoint evidence.",
+      "reproduction": "Starting with tests/admission_fixtures.fixture, set p[\"candidates\"][0][\"nodes\"][1][\"reference\"] = \"us-a\"; keep its members [\"us-b\"]. Save, validate, then build the synthetic release and audit it with allow_test_only=True.",
+      "observed": {
+        "US_status": "eligible_candidate",
+        "US_preview_bounds": [
+          80,
+          80
+        ],
+        "scenario_issues": [],
+        "release_status": "verified",
+        "release_admitted_candidates": 2
+      },
+      "expected": "Reject conflicting reuse of the same observation; it must not produce a complete preview row or verified audit.",
+      "correction": "Enforce one observation leaf per (kind, reference) within each candidate, or otherwise guarantee a single consistent semantic mapping for that immutable observation. Permit multiple references to the same existing DAG node so valid (A+B)-B remains supported. Add a duplicate-reference regression while preserving ordinary disjoint sum/subtraction cases.",
+      "evidence_basis": "Contract sections 5 and 8 require disjoint populations and forbid double counting. Detecting conflicting reuse of one bound quantity is structural and does not require historical adjudication.",
+      "discovery": "Primary supplied the initial example; reviewer independently reproduced proposal and release-audit results."
+    },
+    {
+      "id": "ADM-IMPL-R2",
+      "priority": 2,
+      "title": "Require coherent joint representation when compatible sides are available",
+      "file": "generalship/admission.py",
+      "line": 433,
+      "end_line": 435,
+      "status": "open",
+      "problem": "Scenario completeness checks only whether each candidate ID appears anywhere. Splitting two applicable, compatible same-boundary sides into separate partial scenarios removes a fully available engagement from every dataset while the release audit verifies and marks both candidates admitted.",
+      "reproduction": "Copy the fixture base scenario as cs-only. Set the base SYN001 Confederate assignment to null, and the cs-only SYN001 US assignment to null. Both candidates and their shared boundary remain unchanged. Validate and audit the synthetic release.",
+      "observed": {
+        "candidate_statuses": {
+          "us": "eligible_candidate",
+          "cs": "eligible_candidate"
+        },
+        "scenario_issues": [],
+        "preview_rows_by_scenario": {
+          "base": [],
+          "cs-only": []
+        },
+        "release_status": "verified",
+        "release_admitted_candidates": 2
+      },
+      "expected": "Report unresolved joint scenario coverage and prevent verified audit because a compatible complete assignment exists but is omitted everywhere.",
+      "correction": "For outcome/grain-eligible engagements, require each applicable candidate with a compatible opposite-side candidate on the same boundary to occur in at least one coherent complete assignment, or block unresolved scenario coverage. Preserve legitimate partial-side coverage when the other side is absent or inapplicable, and retain unsupported outcomes/aggregate operations in the denominator. This does not require full Cartesian expansion.",
+      "evidence_basis": "The locked all_applicable_joint_alternatives_no_weights policy and contract sections 5 and 7 require coherent datasets and visible required exclusions; candidate-ID union coverage cannot establish that.",
+      "discovery": "Reviewer-created and executed adversarial case."
+    },
+    {
+      "id": "ADM-IMPL-R3",
+      "priority": 2,
+      "title": "Compare parsed quantity dates at the temporal gate",
+      "file": "generalship/admission.py",
+      "line": 332,
+      "end_line": 337,
+      "related_locations": [
+        {
+          "file": "generalship/evidence.py",
+          "line": 153,
+          "end_line": 158
+        }
+      ],
+      "status": "open",
+      "problem": "Quantity period validation accepts ISO forms recognized by date.fromisoformat, but admission compares those original strings lexicographically to a canonical calendar-date boundary. A valid ISO week date can sort before the boundary while representing a later day.",
+      "reproduction": "Set the fixture boundary to 2000-01-01 and quantity us-a period start/end to 1999-W52-7. date.fromisoformat parses the latter as 2000-01-02. Save, validate and audit the synthetic release.",
+      "observed": {
+        "period_literal": "1999-W52-7",
+        "parsed_period": "2000-01-02",
+        "boundary": "2000-01-01",
+        "US_status": "eligible_candidate",
+        "US_reasons": [],
+        "release_status": "verified"
+      },
+      "expected": "Exclude the post-boundary observation (or reject noncanonical input at schema validation); clean mapping labels must not override its known later state date.",
+      "correction": "Compare parsed date objects for quantity start/end and boundary while preserving original source period text, or require canonical YYYY-MM-DD dates before comparison. Add a cross-year ISO-week post-boundary regression and a basic-format pre-boundary case to cover false acceptance and false exclusion.",
+      "evidence_basis": "Contract sections 4 and 8 require known post-boundary state to be excluded transitively. Calendar ordering is structural and independent of source entailment.",
+      "discovery": "Reviewer-created and executed adversarial case."
+    }
+  ],
+  "unresolved_findings": [
+    "ADM-IMPL-R1",
+    "ADM-IMPL-R2",
+    "ADM-IMPL-R3"
+  ],
+  "validation": {
+    "command": "make check",
+    "exit_code": 0,
+    "tests_passed": 79,
+    "admission_tests_passed": 27,
+    "python": "3.14.7",
+    "default_report_matches_committed": true,
+    "temporary_rebuild_all_8_outputs_match_committed": true,
+    "required_adversarial_cases_reproduced": 3,
+    "additional_exploratory_scenario_probes": 2
+  },
+  "coverage": {
+    "implementation_lines_inspected": 616,
+    "frame_engagements": 127,
+    "frame_campaigns": 36,
+    "dossiers": 3,
+    "source_registry_entries_bound": 53,
+    "distinct_raw_paths_bound": 50,
+    "candidate_quantities": 40,
+    "blocked": 18,
+    "excluded": 22,
+    "eligible_candidates": 0,
+    "complete_rows": 0,
+    "promoted_rows": 0
+  },
+  "scope": [
+    "schema_and_binding",
+    "review_and_release_gates",
+    "transitive_leakage",
+    "time_population_overlap",
+    "scenario_completeness_compatibility",
+    "zero_promotion_model_isolation",
+    "frozen_snapshot_replay",
+    "full_frame_coverage"
+  ],
+  "limits": [
+    "AI implementation analysis, not human historical adjudication or feature admission.",
+    "No independent historical passage entailment or scan review.",
+    "Authored mappings, reviewer identity and sincerity, and source independence cannot be proved by structural checks.",
+    "No separate Python 3.11 execution.",
+    "Synthetic audits in findings never emitted or promoted model inputs.",
+    "The primary began working-tree fixes after reported tests finished; these fixes are not reviewed here.",
+    "Three findings require primary reconciliation and focused follow-up after correction."
+  ],
+  "writes": [
+    "artifacts/review-results/admission-implementation-7b41de1-astra-xhigh-v1/review.md",
+    "artifacts/review-results/admission-implementation-7b41de1-astra-xhigh-v1/review-result.json"
+  ]
+}

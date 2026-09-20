@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "input_commit": "1264e217fc1e952b2115a316313f9dfeea4869ec",
+  "original_review_commit": "7b41de14011dbb7150a4b4ea2a30e570a0421e33",
+  "recorded_at_utc": "2026-09-20T19:28:04.160711+00:00",
+  "reviewer_task": "/root/admission_implementation_review",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "fresh_context": false,
+  "context_note": "Focused continuation of the originally fresh-context separate reviewer; original response remains immutable.",
+  "mechanism": "collaboration.followup_task",
+  "scope": [
+    "ADM-IMPL-R1",
+    "ADM-IMPL-R2",
+    "ADM-IMPL-R3"
+  ],
+  "assignment": "Reproduce original failures and verify the bounded corrections, regression tests and preservation of valid shared-DAG subtraction, partial-side coverage, outcome/grain exclusions and original source-date text. No new broad audit, historical adjudication or promotion.",
+  "input_sha256": {
+    "generalship/admission.py": "55927091b8f7fa4e6a1eaef8a3b57d54de341aff01dfc666eda678a360941993",
+    "tests/test_admission.py": "9e3096dc06b8213fbc46a67a2e54e5814b32eb3b41cb1713713c4ddd163ecdcb",
+    "docs/admission-validator.md": "ffaaeecd72b08b1162ccb38ea4f7af30d0ef0fffd7ed4e87c5a1778c7dd33bfd",
+    "artifacts/admission-check.json": "d0e8d3286bd34cb34cdd2a0a1d74f0b2d3c2f6ddf955c8e66336c4cb213ee756",
+    "artifacts/receipt.json": "02ababbf44788545ec883c88e364617a56b1c7c0f84ff6940c03f60ac2649d0a",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json": "d3f3a2b9f2e8e48726812e08bf925d7c0e60b8ff012a4b0d4cdc95581a5a884c"
+  }
+}

@@ -47,7 +47,10 @@ separate Astra `xhigh` design review with no required corrections. See the
 [actual review and primary assessment](../artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/primary-assessment.md).
 The examples reference 26/62 claims, 27/40 quantities and 8/26 events and admit
 zero features. An [offline validator and coverage ledger](admission-validator.md)
-now implements the non-promoting checks; separate implementation review is pending.
+now implements the non-promoting checks. Astra `xhigh` implementation review and
+[focused follow-up](../artifacts/review-results/admission-implementation-1264e21-followup-v1/primary-assessment.md)
+are complete: three structural findings were fixed and accepted. All 82 tests
+pass; no historical feature admission is implied.
 
 The validator checks all 40 Shiloh troop observations: 18 blocked and 22 excluded,
 with zero complete rows across the retained 127-engagement / 36-campaign frame.

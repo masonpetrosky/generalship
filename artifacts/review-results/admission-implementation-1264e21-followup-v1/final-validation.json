@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "kind": "primary_final_implementation_validation",
+  "status": "passed",
+  "recorded_at_utc": "2026-09-20T19:35:27.945101+00:00",
+  "pre_task_commit": "aac2ed229b3fb8a4d0db4cb8a0a332548ede39b1",
+  "initial_review_commit": "7b41de14011dbb7150a4b4ea2a30e570a0421e33",
+  "accepted_implementation_commit": "1264e217fc1e952b2115a316313f9dfeea4869ec",
+  "commands": [
+    {
+      "command": "make check",
+      "exit_code": 0,
+      "tests_passed": 82,
+      "admission_tests": 30
+    },
+    {
+      "command": "make reproduce",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -m generalship admission-check",
+      "exit_code": 0
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "python": "3.14.7",
+  "review_verdict": "accept",
+  "closed_findings": [
+    "ADM-IMPL-R1",
+    "ADM-IMPL-R2",
+    "ADM-IMPL-R3"
+  ],
+  "review_response_sha256": {
+    "artifacts/review-results/admission-implementation-7b41de1-astra-xhigh-v1/review.md": "75bee8d61c35fba33d780519f7a9499c7c700242ac7fd5f576d962ab8ad04493",
+    "artifacts/review-results/admission-implementation-7b41de1-astra-xhigh-v1/review-result.json": "b55cf1e38770de8a189ca7589bd3e9ec35568b260f583207b264cfe51079f7e8",
+    "artifacts/review-results/admission-implementation-1264e21-followup-v1/review.md": "a640b34292ba42e02a2d4e0c86f017115c64da1ab63e5da3c084dad5e336939c",
+    "artifacts/review-results/admission-implementation-1264e21-followup-v1/review-result.json": "2f985b8f827ae5520d0edc732a0881f8a78f99f9ae0d73ceafca10ac65372e59"
+  },
+  "accepted_inputs_and_ledger_sha256": {
+    "generalship/admission.py": "55927091b8f7fa4e6a1eaef8a3b57d54de341aff01dfc666eda678a360941993",
+    "generalship/evidence.py": "cf52c44b86956201cb6fa8c1a9c3cec85047ada71366f656330c551b536dee69",
+    "generalship/sources.py": "98df0d690b2a2c9e0ac4c55c4ad8e496c28ad26e6054f1053097cd7ebefe6ab4",
+    "tests/test_admission.py": "9e3096dc06b8213fbc46a67a2e54e5814b32eb3b41cb1713713c4ddd163ecdcb",
+    "tests/admission_fixtures.py": "8a0c50aaf91bde0430be2d35d71d501bc979c3b874a9ad8efc560dc52e38eb8a",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json": "d3f3a2b9f2e8e48726812e08bf925d7c0e60b8ff012a4b0d4cdc95581a5a884c",
+    "data/admission/snapshots/feature-admission-v1.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99",
+    "artifacts/admission-check.json": "d0e8d3286bd34cb34cdd2a0a1d74f0b2d3c2f6ddf955c8e66336c4cb213ee756"
+  },
+  "preserved_pre_task_sha256": {
+    "data/sources.json": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "artifacts/battles.json": "e8b505fc0134b16bb68c3bfdbfb7eb7d2486f590f581058e51ad935487f15950",
+    "artifacts/quality.json": "acc3e4ff0ea5b8381966920e88bb3bbe83bafc6c5d60f8686bb9868bb9676c17",
+    "artifacts/evidence-checks.json": "a7ae4e65b1e48fd6efa531942d7bc513815c2043742f527432a05182b9521785",
+    "artifacts/research-queue.json": "3043642a1596c47af24629ba3039289a0987d79ca20ae25074dbaac2c8e70c56",
+    "artifacts/research/TN003.md": "2b80ce9ee02ed96ed1625e846b80799bade213fb83c480b713cfd6df41f6fc90",
+    "docs/feature-admission.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99",
+    "docs/research/shiloh-admission-examples.md": "fc1a32a0ace7580d2782f3f0046a0dbb528e17286d33e2bc0adfe8bed6acaaff",
+    "data/evidence/MD003.json": "3b9432c4c4cbe22a4778361ab17dc0645a3f594d735e286eea648d39d1d31bc7",
+    "data/evidence/MS009.json": "f1d093f11e998d1de083ecdbd0e15e178697a508dd84f1f042a527e61186c413",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/evidence/history/TN003.v1.json": "0a8674873a63dbb049cc49e955667dd9f32cbcaa05b2b4e63878950dc7db31d9",
+    "data/evidence/history/TN003.v2.json": "9e662b64c3448a0733d4b9f37d1ede4bcec7e99f59e8703600e3986f2c52cfed",
+    "data/evidence/history/TN003.v3.json": "b2da0882ed391a78b34b91382958ddcc5483ab34e908f2382fb36719adccafce",
+    "data/evidence/history/TN003.v4.json": "9ec051462243589cea1efa14ccdffc22cea7c55452483672b7e75acfa5d463dd",
+    "data/evidence/history/TN003.v5.json": "1107b7149f9aa3877478e003a01ae2383b5d0729a15d6a90106e427350d49780",
+    "data/raw/cwsac_battles.csv": "952b5d08402a7b77a42de709a87cd96540e460dd6fd4911d30574b5ad3585f1f",
+    "data/raw/cwsac_campaigns.csv": "93813220a72767a77a4632905d38718593d401901ae16698973e4ae8b9f555ae",
+    "data/raw/cwsac_commanders.csv": "6c587c2987171764f362513f31eaf7c713b888b806419291c494623ea41800c7",
+    "data/raw/cwsac_forces.csv": "a462f6be964b5d486f9cff4660262f215cffb8197d018654b74aab4e718dd7d5",
+    "data/raw/nps-md003.txt": "d71c7a98380497be518ed6eae2803938d704818cea09cf7360583e1cafdad4e4",
+    "data/raw/nps-tn003.txt": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941",
+    "data/raw/shiloh/force-1881-shiloh.txt": "b163fbab48f96742ce0584a6b5c29506123728b3edbac6381318e3a4853c70f1",
+    "data/raw/shiloh/gudmens-shiloh-handbook.txt": "f9598f35502e9081e7bb056e59790c42ff476371984a3ea452e37ac36e395cf5",
+    "data/raw/shiloh/michigan-ag-1862-fifteenth-v1.txt": "c143f241b2d96bc563a01f52f996c86634c5da7643952ee96259468f333fd92b",
+    "data/raw/shiloh/or-alexander-mccook-reinforcements-v1.txt": "59ca8b68925fe217897e50272bcc0e2158325389ae5114b4cdfeb275736fe5ea",
+    "data/raw/shiloh/or-ammen-crossing-v1.txt": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+    "data/raw/shiloh/or-anderson-crossing-v1.txt": "2b609dc79ebb3d2fcc1d52c97b10271b415d5c7166dfaeb53dcfa3d074f8d725",
+    "data/raw/shiloh/or-beauregard-shiloh-report.txt": "c87c79162f5ef1a88bc308896b90a4178808a6b505e1b7ee805be535705a692c",
+    "data/raw/shiloh/or-buell-reinforcements-v2.txt": "57627b0ea1c1e71c61d213fe4c52b692d292a20ae7c45e43677380ade6da4973",
+    "data/raw/shiloh/or-buell-shiloh-report.txt": "9581e8a1e7dc63d22c9999643183730d3ac22c216b731507bf993d2cafdbd425",
+    "data/raw/shiloh/or-chambers-availability-v1.txt": "d41b51cef5d5cd0bd334c35f169dc857edfc8e1a03d4fcaa1527d85da190c5e1",
+    "data/raw/shiloh/or-confederate-report-136-v1.png": "2cec00dfd99ed0a66e96977b3578606fd213930c1a3417c43d729bd787e537a5",
+    "data/raw/shiloh/or-confederate-report-136-v1.txt": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+    "data/raw/shiloh/or-confederate-report-137-v1.png": "57335aa1a9cf578be6ae4abbd11224c07a8703c7420192181cd04ddb5346d114",
+    "data/raw/shiloh/or-confederate-report-137-v1.txt": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+    "data/raw/shiloh/or-confederate-return.png": "fdf3154912efd3121eb52e0cfdcb8cc5ab04c669a6758513b7547fd86e991e32",
+    "data/raw/shiloh/or-confederate-return.txt": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c",
+    "data/raw/shiloh/or-crittenden-reinforcements-v1.txt": "235b01590b21cbf161ebe63162db73cf45184bd234f4025deae555040f317391",
+    "data/raw/shiloh/or-edward-mccook-crossing-v1.txt": "68d57493f397798415ba132e2e72a4d78013445ca6a6d81c736877f4845a43fa",
+    "data/raw/shiloh/or-garfield-reinforcements-v1.txt": "950b5b0d8e5a5a34f9b3a7f55efc142091f2373b571955a0f897e8c090981150",
+    "data/raw/shiloh/or-grant-shiloh-report.txt": "ab226b87fdbafcbe96e01564f596840b2b76fcf0f3cfe3aa83e1b1ee72f6d3cc",
+    "data/raw/shiloh/or-grose-crossing-v1.txt": "45557a169c58c848726a0105e883da9dd682b749c6d603d09d4578209ec09410",
+    "data/raw/shiloh/or-halleck-orders.txt": "b450b33b8475127a066ec9ab5257624ca818af9d8cd3049db0c5eab9c2501f21",
+    "data/raw/shiloh/or-jones-crossing-v1.txt": "a64da854998697a6d6d4cd6bfea1850eb26b360d69b5c4f485d75a3624f45edc",
+    "data/raw/shiloh/or-nelson-reinforcements-v1.txt": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+    "data/raw/shiloh/or-prentiss-availability-v1.txt": "87fad5def660a7a09b3075ba5c99b951cc64561a09154aafb0203bcce623388f",
+    "data/raw/shiloh/or-reid-availability-v1.txt": "b6192040bb437ea469fa67cb8422460ebe8605186524a5c3e890b7e5ec855f03",
+    "data/raw/shiloh/or-reinforcement-p326-facsimile-v1.png": "6a16948ba7308e08559143f9e68b45f66ed383779950018109697f1529f7c54f",
+    "data/raw/shiloh/or-reinforcement-p327-facsimile-v1.png": "3219c3346da5ad79c292daa33f5f6509c888169b167c181952d5f9d5bb7ddf5a",
+    "data/raw/shiloh/or-rousseau-michigan-v1.txt": "1a5ba21b0cf1aaa8807601e5a02f1bda368df761435031c636526f15cb379fa6",
+    "data/raw/shiloh/or-union-return-april4-5.txt": "e7b9aee495475a62721a811490c442f8019bc689a02dd841db0a5fbd60f8727e",
+    "data/raw/shiloh/or-union-return-detail-v2.txt": "70099ece7f07cf264d777f3e9d80e49ec40c230b5c671962e3cdc0dbfd4f2c94",
+    "data/raw/shiloh/or-union-return.png": "5f885b86e24cdfc13bfe96c066e5b020a747f3b81ffc71896cdf80be0cd383da",
+    "data/raw/shiloh/or-wallace-availability-v1.txt": "d23c3a22984876a9f744f97d4a8acf642a663daf0b215285b38455145a218190",
+    "data/raw/shiloh/or-wood-reinforcements-v1.txt": "21570f8903b1535e674efa9d8c478954b69ab7de68c8445d27e2e338641a1357",
+    "data/raw/shiloh/reed-1909-ohio-strength-v1.txt": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+    "data/raw/shiloh/reed-1909-union-audit-v1.txt": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+    "data/raw/shiloh/reed-1909-union-p93-facsimile-v1.png": "c360e57571cddcc9cde0e69603cb6aad64e82f51adb0b61c7225add59481c339",
+    "data/raw/shiloh/reed-1909-union-p96-facsimile-v1.png": "f44f67c179a4dbb328cbb6d446bae9a28d1ed29fd8f314672a4d08184db20bb1",
+    "data/raw/shiloh/reed-1909-union-p97-facsimile-v1.png": "5a355ac9c6cc6542e4191448f40904d7394a621d8bc855d7aa381caee9385843",
+    "data/raw/shiloh/reed-1909-union-p98-facsimile-v1.png": "f9346df6200f246a7ce80f3ca651a0fecce89775b01cd7d91f5aa50b2229f790",
+    "data/raw/shiloh/reed-reinforcement-p100-facsimile-v1.png": "c0c4d7dc67e98d427558574f4c7a003d6a40767cc11b2afe8987478b709a92de",
+    "data/raw/shiloh/reed-reinforcement-p101-facsimile-v1.png": "656f866652e3de14f7d61f7ab284eaf1dc05f1fd98f0a9a7e2c8af92375ac5e1",
+    "data/raw/shiloh/reed-reinforcement-p102-facsimile-v1.png": "f5a32895999f3ff9b0834a5cd5c9fbf9c3616ad10a87e61325835c8f95212092",
+    "data/raw/upstream-package.yaml": "f5823133f2e0d0b839c14d54e066412ce9ac809f1dd38c1d76d0be100d146b07"
+  },
+  "coverage": {
+    "frame_engagements": 127,
+    "frame_campaigns": 36,
+    "dossiers_available": 3,
+    "engagements_with_candidates": 1,
+    "candidate_observations": 40,
+    "status_counts": {
+      "blocked": 18,
+      "excluded": 22
+    },
+    "complete_candidate_engagements": 0,
+    "baseline_eligible_engagements": 23,
+    "paired_common_ids": [],
+    "newly_covered_ids": [],
+    "scenario_rows": {
+      "unresolved-no-selection": 0
+    }
+  },
+  "emitted_rows": 0,
+  "promoted_rows": 0,
+  "checks": {
+    "original_review_responses_preserved": true,
+    "review_input_hashes_match_exact_commits": true,
+    "accepted_engine_tests_proposal_snapshot_and_ledger_unchanged": true,
+    "ledger_changed_since_initial_only_in_validator_hashes": true,
+    "raw_sources_dossiers_cohort_prepared_packet_and_numeric_baseline_unchanged": true,
+    "build_receipt_matches_current_inputs_sources_outputs": true,
+    "generated_report_inspected": true,
+    "current_local_markdown_links_resolve": true,
+    "local_markdown_link_count": 93,
+    "cli_changes_since_acceptance_limited_to_report_text": true,
+    "final_changes_limited_to_review_records_documentation_status_and_report_prose": true
+  },
+  "build_receipt_sha256": "3f213d0c79cfae73788508af3691d9eccf1d8a726fb52fd09579a2abd874bea7",
+  "limits": [
+    "Only Python 3.14.7 exercised; no separate Python 3.11 run.",
+    "AI implementation review does not establish historical entailment or resolve boundary/population mappings.",
+    "No historical feature admitted, model inputs installed, or enriched model fitted."
+  ]
+}
