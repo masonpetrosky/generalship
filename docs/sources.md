@@ -105,9 +105,18 @@ claims and later editorial headings remain distinct. The working precursor rule
 is a research recommendation; the Saturday Howell link is unresolved.
 The [literal correction addendum](research/shiloh-precontact-segmentation-corrections-v1.md)
 adds `or-april4-march-orders-v2` for two image-confirmed Jordan wording corrections.
-All 111 prior entries are preserved; the current registry has **112 entries /
+All 111 prior entries are preserved; the registry at that correction has **112 entries /
 109 raw paths**. One PS05 quote has an explicit correction overlay; all 24 anchors
 replay with unchanged document dates and historical interpretation.
+
+The [Howell trace](research/shiloh-howell-trace-v1.md) adds seven selected text
+sources, 11 page images and three exact HTML snapshots, preserving all 112 prior
+entries. The current registry has **133 entries / 130 raw paths**. Four new book
+transcriptions cover Medkirk's 1886 letter, Worthington's disputed testimony
+selections and undated Abstract, and Reed's GPO 1903 printing. Three modern web
+sources preserve one NPS plaque transcription and two NARA archival guides.
+Seven assertions have 14 anchors; 12 retained pages were visually inspected.
+No direct participant-to-Reed link or Saturday-to-Sunday continuity is established.
 
 Prioritize original reports, contemporary orders and correspondence, then
 independently authored scholarship. Record competing estimates and account

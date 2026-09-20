@@ -67,6 +67,20 @@ catalog snapshots. These retain their source attribution and are not relicensed 
   label transcriptions and interpretations are Generalship's work. Catalog dates
   do not establish when maps were available to historical commanders.
 
+- Robert W. Medkirk, letter dated March 22, 1886, printed in Robert Underwood
+  Johnson and Clarence Clough Buel, eds., *Battles and Leaders of the Civil War*,
+  volume I (The Century Co., copyright 1887), p.537. Public-domain selected text
+  and page facsimiles; editorial framing is distinguished from the letter.
+- Thomas Worthington, *Shiloh; or, the Tennessee Campaign of 1862* (1872), and
+  *Abstract of Evidence* (printing date not established). Public-domain selected
+  pages/text; quotations from testimony are presented as his published selections,
+  not an authenticated official trial record.
+- D. W. Reed, commission edition marked 1902, GPO imprint 1903, selected pages.
+  Same compiler lineage as the already retained revised 1909 edition.
+- NPS, Hardee Third Corps plaque O webpage, and NARA, RG79/RG92 archival guides,
+  HTML snapshots retrieved September 20, 2026. Selected government-authored text
+  retained separately from template markup; linked media are not downloaded.
+
 Original download links, parent hashes, page mappings, transformations and account
 dependencies are preserved in `data/sources.json`. None of these authors,
 institutions, or archive hosts endorses Generalship's interpretations.

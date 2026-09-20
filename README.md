@@ -137,6 +137,13 @@ Separate Astra `xhigh` review found one finding with two literal wording errors,
 now [corrected in a new source version](docs/research/shiloh-precontact-segmentation-corrections-v1.md)
 and closed by primary image verification.
 
+The [Howell attribution trace](docs/research/shiloh-howell-trace-v1.md) now finds
+Medkirk's retrospective Saturday account and disputed testimony selections in
+Worthington, and verifies Reed's clause in the 1903 printing. Seven assertions
+bind 14 passages across 12 inspected pages and three HTML sources. The source
+chain to Reed and Saturday-to-Sunday continuity remain unknown. Next compare
+the 46th/72d Ohio accounts and mapped house/farm/post identities.
+
 Then define a campaign replacement boundary and outcomes before fitting enriched
 models. Battle execution and campaign contribution are separate estimands; adding
 them together would double count. Partial pooling, opponent/army context,

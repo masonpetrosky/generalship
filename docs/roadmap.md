@@ -79,10 +79,15 @@ April 3–4 as precursors based on return/reset evidence. Its explicit continuit
 rule leaves the Saturday Howell link unresolved and qualifies weaker April 3
 closure. Separate Astra `xhigh` review found two literal wording errors in one
 Jordan passage, now [corrected in a new source version](research/shiloh-precontact-segmentation-corrections-v1.md)
-and closed by primary verification. The registry is 112 entries / 109 raw paths;
-no historical feature is admitted. Next trace the Howell
-claim through park commission/tablet records before closing segmentation or
-selecting an April 6 first-contact clock. Map control, full unit locations,
+and closed by primary verification. The registry at that correction was 112 entries / 109 raw paths.
+The [Howell trace](research/shiloh-howell-trace-v1.md) adds Medkirk's retrospective
+account, Worthington's disputed testimony selections, the earlier Reed printing,
+one plaque transcription and two archival guides. Seven assertions bind 14
+anchors; the registry is now 133 entries / 130 raw paths. No participant-to-Reed
+attribution or Saturday-to-Sunday continuity is established, and no historical
+feature is admitted. Next compare 46th/72d Ohio regimental accounts and the
+Howell farm map while retaining the original proceedings and commission
+correspondence as uninspected archival targets. Map control, full unit locations,
 ford-guard identities and the transport/afloat rule remain unresolved, followed
 by population/return evidence for the seven blockers. Continue across the complete source campaign.
 Historical admission still requires actual evidence-use review of a complete
