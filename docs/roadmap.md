@@ -1,5 +1,33 @@
 # Roadmap and current handoff
 
+## Current priority — coverage before further depth
+
+Owner direction, 2026-09-20: the repeated Shiloh source investigations exceeded
+the depth appropriate for a 127-engagement pilot. Park the Agate follow-up,
+including the remaining article pages and original newspaper search. Preserve
+all completed evidence, reviews and unresolved historical questions. The research
+history below records completed work and deferred leads, not an active sequence
+of further Shiloh tasks.
+
+There are **3 draft dossiers / 127 engagements**, with **124 without a dossier**.
+Draft presence is not first-pass acceptance, independent review or model eligibility.
+The next batch completes the frozen source campaign **Federal Penetration up the
+Cumberland and Tennessee Rivers [February-June 1862]**:
+
+| Engagement | Next action |
+| --- | --- |
+| TN001 — Fort Henry | First bounded dossier pass; start here |
+| TN002 — Fort Donelson | First bounded dossier pass |
+| TN003 — Shiloh | Carry forward existing draft and explicit unknowns; no new deep trace |
+| MS016 — Corinth | First bounded dossier pass |
+
+Use the [first-pass protocol](methodology.md#research-depth-and-coverage) and
+review the batch together. Then take remaining complete source campaigns in
+order of their earliest engagement date, breaking ties by campaign label.
+Keep all engagements regardless of outcome, reputation or available strengths.
+Report dossier coverage, dimensions still unknown, review coverage and admitted
+rows separately. Additional Shiloh detail is not the completion criterion.
+
 ## Milestone 0 — Working research foundation (complete)
 
 - Public repository, Python package/CLI, local test and reproduction commands.

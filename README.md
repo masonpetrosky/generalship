@@ -71,6 +71,18 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 
 ## Research direction
 
+**Current priority: comparable coverage across the 127 engagements.** We have
+three draft dossiers and 124 engagements without one. Shiloh's repeated source
+traces are parked with their unknowns intact; its depth is not the template for
+every battle. Use a bounded first pass of up to three source families and one
+targeted follow-up, then move on and review by complete source campaign.
+
+Next: **Fort Henry, Fort Donelson and Corinth**, carrying forward the existing
+Shiloh draft to cover their complete frozen source campaign. See the
+[current roadmap](docs/roadmap.md) and
+[first-pass protocol](docs/methodology.md#research-depth-and-coverage).
+The history below preserves completed work and deferred questions.
+
 The first [Shiloh research pass](docs/research/shiloh.md),
 [Confederate return audit](docs/research/shiloh-confederate-returns.md) and
 [Union availability audit](docs/research/shiloh-union-availability.md), and

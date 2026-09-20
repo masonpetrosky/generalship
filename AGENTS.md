@@ -22,6 +22,25 @@ For evidence changes, also read `docs/evidence-contract.md` and `docs/sources.md
 - Inspect the generated report, preserve failing or unimproved results honestly,
   and report exact coverage and remaining limits. Never validate by reputation.
 
+## Research scope and stopping rule
+
+- Prioritize comparable first-pass coverage across all 127 engagements, grouped
+  by complete frozen source campaigns. Read the current priority in `docs/roadmap.md`;
+  an unresolved question in an old packet is not automatically the next task.
+- Default first pass: inspect up to three source families per battle and make at
+  most one targeted follow-up for its most consequential gap. Reuse relevant
+  campaign sources; copies and reprints are not independent families. This is an
+  effort ceiling, not a quota or a substitute for checking every cited passage.
+- Address the existing evidence dimensions with supported claims or explicit
+  unknowns, record what was checked and deferred, then move to the next battle.
+  A draft need not resolve every clock, picket post or source lineage.
+- Review first-pass work in campaign batches. Fix extraction errors, but do not
+  turn each unresolved historical question into another research/review packet.
+- Deeper work must identify the concrete admission or methodological decision it
+  could change and have a bounded scope, or follow an explicit owner request.
+  Shiloh's Agate/overnight provenance follow-ups are parked; retain all evidence
+  and unknowns. Coverage, separate review and feature admission stay distinct.
+
 ## Separate reviewer policy
 
 - When a separate review is useful, use a GPT-6 Astra subagent with `xhigh`

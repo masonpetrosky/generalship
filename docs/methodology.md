@@ -44,6 +44,36 @@ command opportunities, avoided battles, quiet logistics successes, or documentat
 bias. Restricting geography and time improves comparability but does not remove
 those biases. The 127 records are a research cohort, not 127 research-complete dossiers.
 
+## Research depth and coverage
+
+Build comparable first-pass dossiers across the frozen cohort before pursuing
+fine-grained historical resolution in individual battles. The first pass uses
+the existing seven dimensions: strength, terrain, logistics, information,
+objectives, responsibility and outcome. Each receives inspected-source claims
+or an explicit unknown; a source gap is a valid research result.
+
+Inspect up to three source families per battle, reusing campaign-level sources
+where relevant. Make at most one targeted follow-up for the most consequential
+gap, then record the unresolved issue and move on. This default effort ceiling
+does not require finding three sources, justify unsupported claims, or establish
+source independence. Preserve locators, hashes, alternative estimates and
+population/time distinctions. Check every passage actually cited. Missing or
+inaccessible evidence remains missing after the effort ceiling is reached.
+
+Review first-pass work by complete source campaign. Record source families and
+dimensions covered, deferred questions, and actual review scope; distinguish
+draft presence from completed first-pass work, separate review and feature
+admission. Correct extraction errors without requiring reviewers to resolve
+every historical dispute. Do not automatically create a new packet for each
+open question. Deeper follow-up should specify which admission or methodological
+decision it could change, why existing evidence is insufficient and where the
+investigation stops, or respond to an explicit owner request.
+
+Shiloh is the detailed evidence-contract case, not the minimum required depth
+for the other 126 engagements. Its remaining source-lineage investigations are
+parked under the [current roadmap](roadmap.md). This changes research allocation,
+not the cohort, evidence standards, model inputs or admission requirements.
+
 ## Eligibility and missingness
 
 The binary baseline admits a row only when it has exactly US and Confederate
