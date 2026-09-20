@@ -1,0 +1,35 @@
+{
+  "command": "python3 -m generalship build",
+  "model_id": "strength-logistic-v1",
+  "input_sha256": {
+    "generalship/__init__.py": "be4016ab30995b114c67537b324becf422ee5fc9bdfceda065336156a2ab3741",
+    "generalship/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "generalship/baseline.py": "f69156139eeb674e7a720a798bb235ddbec295944f048d83a68ba1593f53ceee",
+    "generalship/cli.py": "585a8780a6421c3be0c16c217ae50e31a038802b00e69484f345e99080e18d30",
+    "generalship/dataset.py": "ed1aa2de0867f3d5a12b796e68736aa8b1ad6611c1c5381408c81fd2a31ce2a4",
+    "generalship/evidence.py": "69ed5558500e973e07b700fc1ca2c306e260755b85c0af9ab3c549863c031cdc",
+    "generalship/sources.py": "388c667958c0275545e2309874c8e66fe29becfb3c5e69bf04404ec884de47d7",
+    "data/sources.json": "3ef6818e809ae3d44618d80716f26aa0264a92bda1004802c0da8a52b3dfd7ad",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "data/evidence/MD003.json": "3b9432c4c4cbe22a4778361ab17dc0645a3f594d735e286eea648d39d1d31bc7",
+    "data/evidence/MS009.json": "f1d093f11e998d1de083ecdbd0e15e178697a508dd84f1f042a527e61186c413",
+    "data/evidence/TN003.json": "0a8674873a63dbb049cc49e955667dd9f32cbcaa05b2b4e63878950dc7db31d9"
+  },
+  "source_sha256": {
+    "arnold-cwsac-battles": "952b5d08402a7b77a42de709a87cd96540e460dd6fd4911d30574b5ad3585f1f",
+    "arnold-cwsac-campaigns": "93813220a72767a77a4632905d38718593d401901ae16698973e4ae8b9f555ae",
+    "arnold-cwsac-commanders": "6c587c2987171764f362513f31eaf7c713b888b806419291c494623ea41800c7",
+    "arnold-cwsac-forces": "a462f6be964b5d486f9cff4660262f215cffb8197d018654b74aab4e718dd7d5",
+    "arnold-package-metadata": "f5823133f2e0d0b839c14d54e066412ce9ac809f1dd38c1d76d0be100d146b07",
+    "nps-md003": "d71c7a98380497be518ed6eae2803938d704818cea09cf7360583e1cafdad4e4",
+    "nps-tn003": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941"
+  },
+  "output_sha256": {
+    "battles.json": "e8b505fc0134b16bb68c3bfdbfb7eb7d2486f590f581058e51ad935487f15950",
+    "quality.json": "e7223f6e5eea9886ed7bae3b6f0b2baf811babaf112a8c6d68f72034f5805fe4",
+    "baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "evidence-checks.json": "a0ff1aa760d89ad94f6fec8ffa55e76d6a5b38fe788537c8bb3e56f29338a5c3",
+    "research-queue.json": "3043642a1596c47af24629ba3039289a0987d79ca20ae25074dbaac2c8e70c56",
+    "pilot-report.md": "a9d97523887f4ab98083653986edfa2af231ef749e2a2fefcff94a0e9bb9a655"
+  }
+}

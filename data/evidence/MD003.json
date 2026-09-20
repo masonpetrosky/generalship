@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "battle_id": "MD003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Replacement boundaries require phase-level chronology and review; date-only source summaries are insufficient. No claims are admitted to enriched modeling.",
+  "claims": [
+    {
+      "id": "zero-sentinel",
+      "dimension": "strength",
+      "value": "The live NPS table displays zero troops on both sides; treat this as an unresolved source-data problem.",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "A zero displayed in a populated historical battle page is not a valid measured force estimate.",
+      "citations": [
+        {
+          "source_id": "nps-md003",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ]
+    },
+    {
+      "id": "force-narrative",
+      "dimension": "strength",
+      "value": "The same page describes numerical asymmetry and partial commitment of the Union army.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "This conflicts with the displayed zeros and distinguishes available from committed troops; it does not establish a numerical count.",
+      "citations": [
+        {
+          "source_id": "nps-md003",
+          "locator": "Description",
+          "quote": "Although outnumbered two-to-one, Lee committed his entire force, while McClellan sent in less than three-quarters of his army"
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "Inconclusive in the imported CWSAC record; Indecisive on the current NPS page.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Do not silently relabel tactical outcome to fit the campaign result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD003"
+          },
+          "column": "result",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-md003",
+          "locator": "Results",
+          "quote": "Indecisive"
+        }
+      ]
+    },
+    {
+      "id": "withdrawal",
+      "dimension": "outcome",
+      "value": "NPS records Lee withdrawing across the Potomac.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Campaign consequences need a separate outcome definition.",
+      "citations": [
+        {
+          "source_id": "nps-md003",
+          "locator": "Description",
+          "quote": "After dark, Lee ordered the battered Army of Northern Virginia to withdraw across the Potomac into the Shenandoah Valley."
+        }
+      ]
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "Not established by the sources inspected for this draft.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "Not established by the sources inspected for this draft.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "Not established by the sources inspected for this draft.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "Not established by the sources inspected for this draft.",
+      "citations": []
+    },
+    {
+      "id": "responsibility-unknown",
+      "dimension": "responsibility",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "Not established by the sources inspected for this draft.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Reconstruct present, available, and engaged strengths for each side from independent sources.",
+    "Define tactical and campaign outcomes before assigning numeric utilities.",
+    "Investigate the provenance of the live-page zeros; do not overwrite the archived source."
+  ]
+}

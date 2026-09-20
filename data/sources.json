@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "arnold-cwsac-battles",
+      "title": "CWSAC battles, digitized by Jeffrey B. Arnold",
+      "path": "data/raw/cwsac_battles.csv",
+      "format": "csv",
+      "primary_key": [
+        "battle"
+      ],
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/cwsac_battles.csv",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/cwsac_battles.csv",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-09-20",
+      "sha256": "952b5d08402a7b77a42de709a87cd96540e460dd6fd4911d30574b5ad3585f1f",
+      "rights": "CC-BY-4.0 per pinned package metadata (version 11.0.0); original NPS summaries attributed to NPS",
+      "source_kind": "digitized_government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "upstream_version": "11.0.0"
+    },
+    {
+      "id": "arnold-cwsac-forces",
+      "title": "CWSAC forces, digitized by Jeffrey B. Arnold",
+      "path": "data/raw/cwsac_forces.csv",
+      "format": "csv",
+      "primary_key": [
+        "battle",
+        "belligerent"
+      ],
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/cwsac_forces.csv",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/cwsac_forces.csv",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-09-20",
+      "sha256": "a462f6be964b5d486f9cff4660262f215cffb8197d018654b74aab4e718dd7d5",
+      "rights": "CC-BY-4.0 per pinned package metadata (version 11.0.0); original NPS summaries attributed to NPS",
+      "source_kind": "digitized_government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "upstream_version": "11.0.0"
+    },
+    {
+      "id": "arnold-cwsac-commanders",
+      "title": "CWSAC commanders, digitized by Jeffrey B. Arnold",
+      "path": "data/raw/cwsac_commanders.csv",
+      "format": "csv",
+      "primary_key": [
+        "battle",
+        "belligerent",
+        "fullname"
+      ],
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/cwsac_commanders.csv",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/cwsac_commanders.csv",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-09-20",
+      "sha256": "6c587c2987171764f362513f31eaf7c713b888b806419291c494623ea41800c7",
+      "rights": "CC-BY-4.0 per pinned package metadata (version 11.0.0); original NPS summaries attributed to NPS",
+      "source_kind": "digitized_government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "upstream_version": "11.0.0"
+    },
+    {
+      "id": "arnold-cwsac-campaigns",
+      "title": "CWSAC campaigns, digitized by Jeffrey B. Arnold",
+      "path": "data/raw/cwsac_campaigns.csv",
+      "format": "csv",
+      "primary_key": [
+        "campaign"
+      ],
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/cwsac_campaigns.csv",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/cwsac_campaigns.csv",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-09-20",
+      "sha256": "93813220a72767a77a4632905d38718593d401901ae16698973e4ae8b9f555ae",
+      "rights": "CC-BY-4.0 per pinned package metadata (version 11.0.0); original NPS summaries attributed to NPS",
+      "source_kind": "digitized_government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "upstream_version": "11.0.0"
+    },
+    {
+      "id": "nps-tn003",
+      "title": "NPS battle detail TN003",
+      "path": "data/raw/nps-tn003.txt",
+      "format": "text",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=tn003",
+      "retrieved_at": "2026-09-20",
+      "sha256": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941",
+      "rights": "U.S. National Park Service government-authored battle summary; no images or logos copied",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "snapshot_transform": "Python HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; retain Return to Results through before Experience More. This is normalized text, not original HTML."
+    },
+    {
+      "id": "nps-md003",
+      "title": "NPS battle detail MD003",
+      "path": "data/raw/nps-md003.txt",
+      "format": "text",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=md003",
+      "retrieved_at": "2026-09-20",
+      "sha256": "d71c7a98380497be518ed6eae2803938d704818cea09cf7360583e1cafdad4e4",
+      "rights": "U.S. National Park Service government-authored battle summary; no images or logos copied",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "snapshot_transform": "Python HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; retain Return to Results through before Experience More. This is normalized text, not original HTML."
+    },
+    {
+      "id": "arnold-package-metadata",
+      "title": "American Civil War Battle Data package metadata",
+      "path": "data/raw/upstream-package.yaml",
+      "format": "text",
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/rawdata/metadata/datapackage.yaml",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/rawdata/metadata/datapackage.yaml",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-09-20",
+      "sha256": "f5823133f2e0d0b839c14d54e066412ce9ac809f1dd38c1d76d0be100d146b07",
+      "rights": "CC-BY-4.0",
+      "source_kind": "package_metadata",
+      "independence_group": "arnold-data-package"
+    }
+  ]
+}

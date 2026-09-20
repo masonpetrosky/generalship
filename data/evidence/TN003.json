@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Replacement boundaries require phase-level chronology and review; date-only source summaries are insufficient. No claims are admitted to enriched modeling.",
+  "claims": [
+    {
+      "id": "strength-total",
+      "dimension": "strength",
+      "value": "NPS lists US 65,085 and Confederate 44,968 as forces engaged; these are not verified opening strength.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Whole-engagement totals may include reinforcements; do not condition opening expectations on later arrivals.",
+      "citations": [
+        {
+          "source_id": "nps-tn003",
+          "locator": "Forces Engaged",
+          "quote": "110053 total (US 65085; CS 44968;)"
+        }
+      ]
+    },
+    {
+      "id": "fortification-choice",
+      "dimension": "terrain",
+      "value": "NPS attributes the absence of fortification to Grant.",
+      "phase": "commander_created",
+      "status": "supported",
+      "rationale": "A candidate mediator if replacement precedes preparation; source interpretation still requires review.",
+      "citations": [
+        {
+          "source_id": "nps-tn003",
+          "locator": "Description",
+          "quote": "Grant did not choose to fortify his position; rather, he set about drilling his men many of which were raw recruits."
+        }
+      ]
+    },
+    {
+      "id": "await-buell",
+      "dimension": "objectives",
+      "value": "Grant was ordered to await Buell at Pittsburg Landing.",
+      "phase": "inherited",
+      "status": "supported",
+      "rationale": "Orders from a superior constrain his choices, but need the original order and its timing.",
+      "citations": [
+        {
+          "source_id": "nps-tn003",
+          "locator": "Description",
+          "quote": "Grant received orders to await Buell's Army of the Ohio at Pittsburg Landing."
+        }
+      ]
+    },
+    {
+      "id": "command-transfer",
+      "dimension": "responsibility",
+      "value": "Beauregard took over after Johnston was mortally wounded.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "A single lead commander cannot receive the entire two-day residual without attribution review.",
+      "citations": [
+        {
+          "source_id": "nps-tn003",
+          "locator": "Description",
+          "quote": "Johnston had been mortally wounded earlier and his second in command, Gen. P.G.T. Beauregard, took over."
+        }
+      ]
+    },
+    {
+      "id": "buell-awareness",
+      "dimension": "information",
+      "value": "NPS says Beauregard did not know Buell's army had arrived.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "A retrospective statement about knowledge needs corroboration; do not infer the same information for all phases.",
+      "citations": [
+        {
+          "source_id": "nps-tn003",
+          "locator": "Description",
+          "quote": "Beauregard was unaware of the arrival of Buell's army"
+        }
+      ]
+    },
+    {
+      "id": "result",
+      "dimension": "outcome",
+      "value": "Union victory",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Source outcome is distinct from campaign contribution.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN003"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        }
+      ]
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "Not established by the sources inspected for this draft.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Establish separate April 6 and April 7 force availability and command intervals.",
+    "Locate the original order to await Buell and contemporary accounts of Confederate intelligence.",
+    "Compare NPS figures to independently authored scholarship; duplicate NPS summaries are not independent confirmation."
+  ]
+}

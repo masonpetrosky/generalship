@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "battle_id": "MS009",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Replacement boundaries require phase-level chronology and review; date-only source summaries are insufficient. No claims are admitted to enriched modeling.",
+  "claims": [
+    {
+      "id": "pemberton-order",
+      "dimension": "objectives",
+      "value": "Johnston ordered Pemberton to attack the Federals at Clinton.",
+      "phase": "inherited",
+      "status": "supported",
+      "rationale": "The source reports an order from a superior, with a later repeated direction.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "he ordered Lt. Gen. John C. Pemberton, commanding about 23,000 men, to leave Edwards Station and attack the Federals at Clinton."
+        }
+      ]
+    },
+    {
+      "id": "alternate-plan",
+      "dimension": "logistics",
+      "value": "Pemberton and his generals instead chose the Union supply trains as their target.",
+      "phase": "commander_created",
+      "status": "supported",
+      "rationale": "This is a candidate pre-engagement decision, not an inherited disadvantage.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "Pemberton and his generals felt that Johnston's plan was dangerous and decided instead to attack the Union supply trains moving from Grand Gulf to Raymond."
+        }
+      ]
+    },
+    {
+      "id": "force-candidate",
+      "dimension": "strength",
+      "value": "The narrative reports about 23,000 under Pemberton; the structured force table has no numerical estimate.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "This describes a force under command before the engagement, not necessarily personnel engaged; it is not automatically promoted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "commanding about 23,000 men"
+        }
+      ]
+    },
+    {
+      "id": "result",
+      "dimension": "outcome",
+      "value": "Union victory",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Preserve the imported battle result while investigating campaign contribution.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        }
+      ]
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "Not established by the sources inspected for this draft.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "Not established by the sources inspected for this draft.",
+      "citations": []
+    },
+    {
+      "id": "responsibility-unknown",
+      "dimension": "responsibility",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "Not established by the sources inspected for this draft.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Check the original Johnston-Pemberton correspondence and timestamps.",
+    "Establish strengths actually available and engaged on each flank; do not promote the narrative command total automatically.",
+    "Reconstruct the campaign replacement boundary before crediting or penalizing supply and maneuver decisions."
+  ]
+}

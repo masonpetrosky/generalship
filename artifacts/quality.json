@@ -1,0 +1,43 @@
+{
+  "source_battles": 384,
+  "source_forces": 768,
+  "source_commander_listings": 891,
+  "pilot_battles": 127,
+  "pilot_campaigns": 36,
+  "baseline_eligible": 23,
+  "exclusion_counts_nonexclusive": {
+    "aggregate_operation": 1,
+    "inconclusive_outcome": 35,
+    "missing_numeric_strength": 102
+  },
+  "outcome_counts": {
+    "Confederate": 35,
+    "Inconclusive": 35,
+    "Union": 57
+  },
+  "coverage_by_theater": {
+    "Eastern": {
+      "total": 69,
+      "eligible": 14
+    },
+    "Western": {
+      "total": 58,
+      "eligible": 9
+    }
+  },
+  "source_hashes": {
+    "arnold-cwsac-battles": "952b5d08402a7b77a42de709a87cd96540e460dd6fd4911d30574b5ad3585f1f",
+    "arnold-cwsac-campaigns": "93813220a72767a77a4632905d38718593d401901ae16698973e4ae8b9f555ae",
+    "arnold-cwsac-commanders": "6c587c2987171764f362513f31eaf7c713b888b806419291c494623ea41800c7",
+    "arnold-cwsac-forces": "a462f6be964b5d486f9cff4660262f215cffb8197d018654b74aab4e718dd7d5",
+    "arnold-package-metadata": "f5823133f2e0d0b839c14d54e066412ce9ac809f1dd38c1d76d0be100d146b07",
+    "nps-md003": "d71c7a98380497be518ed6eae2803938d704818cea09cf7360583e1cafdad4e4",
+    "nps-tn003": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941"
+  },
+  "warnings": [
+    "Imported records have not been adjudicated by a historian.",
+    "Missing strength is unknown, never zero or an average force.",
+    "The source is a principal-battle frame, not all command opportunities.",
+    "Listed commanders are not verified decision responsibility."
+  ]
+}

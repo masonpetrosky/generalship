@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "generalship"
+version = "0.1.0"
+description = "Evidence-first historical command research and reproducible battle baselines"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+generalship = "generalship.cli:main"
+
+[tool.setuptools]
+packages = ["generalship"]
