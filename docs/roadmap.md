@@ -97,11 +97,15 @@ continuous firing chain. The inspected 72d narratives skip Saturday; their omiss
 is not quiet. Worthington's distances remain disputed and approximate, and the
 map cited by Medkirk depicts April 6–7. Seven assertions bind 21 anchors / 19
 source-section pairs across 16 inspected pages. All prior records are preserved;
-the registry now has 151 entries / 148 raw paths. Next trace the contributor or
+the prepared registry has 151 entries / 148 raw paths. Next trace the contributor or
 underlying evidence for Reid II p.286. Map control, full unit locations,
 ford-guard identities and the transport/afloat rule remain unresolved, followed
 by population/return evidence for the seven blockers. Continue across the complete
 source campaign.
+Separate Astra `xhigh` review covered all 7 assertions, 21 anchors and 16 images.
+Two literal map findings are [corrected in a new source version](research/shiloh-regimental-posts-corrections-v1.md)
+and closed by primary verification; the current registry has 152 entries / 149
+raw paths. Historical interpretations and all model/admission inputs are unchanged.
 
 Historical admission still requires actual evidence-use review of a complete
 proposal and an immutable release manifest; this partial proposal is no release.

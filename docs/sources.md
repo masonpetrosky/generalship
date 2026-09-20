@@ -120,7 +120,7 @@ No direct participant-to-Reed link or Saturday-to-Sunday continuity is establish
 
 The [regimental and post comparison](research/shiloh-regimental-posts-v1.md) adds
 five selected text sources (17 historical sections) and 13 whole-page facsimiles,
-preserving all 133 prior entries. The current registry has **151 entries / 148 raw
+preserving all 133 prior entries. Its prepared registry has **151 entries / 148 raw
 paths**. Seven assertions bind 21 anchors / 19 source-section pairs; 16 retained
 pages were visually inspected including three reused pages. Reid's 1868 compilation,
 Lemmon's speech delivered in 1875, Worthington's undated appended trial allegations
@@ -128,6 +128,11 @@ and additional 1872 excerpts, and Buell's retrospective map remain distinct sour
 families with explicit dependencies. New excerpts from the same publication are
 not new witnesses. The overnight lead has no established Howell post match; no
 historical feature is admitted.
+The [review correction](research/shiloh-regimental-posts-corrections-v1.md) adds one
+map text version restoring three literal occurrences in two sections. All 151
+prepared entries remain intact. The current registry has **152 entries / 149 raw
+paths**; two explicit quote overlays replay the 21 anchors without changing dates
+or interpretations. A corrected version is not another historical witness.
 
 Prioritize original reports, contemporary orders and correspondence, then
 independently authored scholarship. Record competing estimates and account

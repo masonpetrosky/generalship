@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "date": "2026-09-20",
+  "input_commit": "dc669f4ddb8388eea9c9029738f4f6b6e65c069c",
+  "review_sha256": "ab4fb9310cb75228c7b29063d5ec1d0ed0c169a5c887a611b338fc8dd735e8ee",
+  "review_result_sha256": "db21959b241eca9b41880108e8afb2f84c1b164cb694235eaa7f940af61ec692",
+  "assignment_sha256": "0edf67b8c1df9a660c894467ddda850d3faf86ffc47cebf6f98280cde5045c91",
+  "dispatch_sha256": "82dc639c90be7e489762a5a399d7925058bf15f409f6de4b4eae3419fbad9a9c",
+  "coverage": {
+    "assertions_reviewed": 7,
+    "assertions_total": 7,
+    "passage_anchors_reviewed": 21,
+    "passage_anchors_total": 21,
+    "distinct_source_section_pairs_reviewed": 19,
+    "distinct_source_section_pairs_total": 19,
+    "new_text_sources_reviewed": 5,
+    "new_historical_sections_reviewed": 17,
+    "new_historical_sections_total": 17,
+    "reused_historical_sections_reviewed": 2,
+    "reused_historical_sections_total": 2,
+    "page_images_visually_inspected": 16,
+    "page_images_total": 16,
+    "new_page_images": 13,
+    "reused_page_images": 3,
+    "literal_section_matches": 17,
+    "sections_requiring_literal_corrections": 2,
+    "literal_anchor_matches": 19,
+    "anchors_requiring_literal_corrections": 2,
+    "literal_replacements_required": 3,
+    "purposeful_selection_not_extraction_error_estimate": true
+  },
+  "required_findings": [
+    "SHILOH-RP-R1",
+    "SHILOH-RP-R2"
+  ],
+  "literal_findings_independently_image_verified": true,
+  "historical_interpretation_change": false,
+  "limitations": "Validates bindings and actual returned coverage; reviewer findings require versioned corrections and primary closure."
+}

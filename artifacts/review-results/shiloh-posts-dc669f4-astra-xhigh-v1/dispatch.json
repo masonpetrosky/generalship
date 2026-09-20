@@ -1,0 +1,32 @@
+{
+  "task_name": "/root/shiloh_regimental_review",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "fork_turns": "none",
+  "date": "2026-09-20",
+  "input_commit": "dc669f4ddb8388eea9c9029738f4f6b6e65c069c",
+  "inputs": {
+    "data/sources.json": "c49e1626b93d438e43342331690ed6dea522f917f74b2628fa220cb64210275d",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "data/admission/shiloh-opening-v2.json": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "design/shiloh-regimental-posts-v1/research-record.json": "9b82d10d887221eee67510a1d4e910ff3ae018dc27dc76352b45871a4c2c07c3",
+    "design/shiloh-regimental-posts-v1/reference-audit.py": "613f15984fb69f935e75c577dbe192ccae841bf6a2ebf71856aabfe3bad19190",
+    "design/shiloh-regimental-posts-v1/search-log.json": "b7ff91ea9f7aa9b1c6c6199b3e0f530dc9855820093c20c4548b66bf7ff86500",
+    "docs/research/shiloh-regimental-posts-v1.md": "b07972e2d0bfc4a3c24c0fc7451c38b05646caf403a43b02d6b8933c929cd71e",
+    "README.md": "6e554a4cdf68352836ec4243371fdf01f4b6adf2efcc712a5b8fe256debe497f",
+    "docs/roadmap.md": "788f1fe3741414a88e3e8a797ee3f7fb85cf5874db4cd7876626b5a1e16fdd9d",
+    "docs/sources.md": "55ed9862469be541e039e38e294e7be2e18708b3ed7a3a364d9c5a86fcaba81b",
+    "NOTICE.md": "cd2d00ef9bcceafcd0b48ea8b290ed5d1002d83120de7247bc76f677f92cb122",
+    "generalship/cli.py": "733ad8cdd578ccc5a7b987fc83cfbe1a6fe67696f6fbe92d667fad1a8414e3c7",
+    "artifacts/pilot-report.md": "9ff69bcb3b1c0428a6393b78a30b30f797991a5a72bc0ada9108e6c6819eda8a"
+  },
+  "scope": "All 7 assertions, 21 anchors, 19 distinct source-section pairs (17 new, 2 reused), all 16 named facsimiles and metadata/summary claims. Check source date/dependence, post identity/phase/continuity and bounded negative coverage; verify preservation.",
+  "allowed_outputs": [
+    "artifacts/review-results/shiloh-posts-dc669f4-astra-xhigh-v1/review.md",
+    "artifacts/review-results/shiloh-posts-dc669f4-astra-xhigh-v1/review-result.json"
+  ],
+  "limitations": "Separate AI analysis, not human adjudication or proof of historical source independence."
+}

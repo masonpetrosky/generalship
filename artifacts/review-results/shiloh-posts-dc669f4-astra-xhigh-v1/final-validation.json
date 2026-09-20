@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-20",
+  "prepared_commit": "dc669f4ddb8388eea9c9029738f4f6b6e65c069c",
+  "status": "passed",
+  "commands": {
+    "make check": "82 tests passed; repository checks passed",
+    "make reproduce": "passed; generated report inspected",
+    "make packet": "prepared TN003 refreshed; no model called",
+    "git diff --check": "passed"
+  },
+  "audits": {
+    "shiloh-regimental-posts-v1": {
+      "status": "passed",
+      "coverage": {
+        "assertions": 7,
+        "passage_anchors": 21,
+        "source_section_pairs": 19,
+        "new_source_entries": 18,
+        "new_text_sources": 5,
+        "new_text_sections": 17,
+        "new_page_images": 13,
+        "visually_inspected_pages": 16,
+        "prior_source_entries_preserved": 133,
+        "prior_raw_paths_preserved": 130,
+        "registry_entries": 151,
+        "raw_paths": 148,
+        "preserved_files": 109
+      },
+      "promoted_rows": 0
+    },
+    "shiloh-regimental-posts-corrections-v1": {
+      "status": "passed",
+      "preserved_source_entries": 151,
+      "new_corrected_versions": 1,
+      "exact_replacements": 3,
+      "replayed_anchors": 21,
+      "changed_quote_anchors": 2,
+      "registry_entries_at_correction": 152,
+      "raw_paths_at_correction": 149,
+      "promoted_rows": 0
+    }
+  },
+  "closed_findings": [
+    "SHILOH-RP-R1",
+    "SHILOH-RP-R2"
+  ],
+  "closure": "Primary independently checked images and exact replacements; original separate review retained unchanged. No second separate review claimed.",
+  "prepared_files_preserved": 23,
+  "registry_entries": 152,
+  "raw_paths": 149,
+  "baseline_changed": false,
+  "dossier_changed": false,
+  "admission_proposals_changed": false,
+  "promoted_rows": 0,
+  "sha256": {
+    "data/sources.json": "f2f3b3f965e76aa7600940f9031e2292b8bb6e6ebb29f720cd457b4e2f071634",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "data/admission/shiloh-opening-v2.json": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "artifacts/pilot-report.md": "18f90625f24f1e6df25058528493664b8fce3aa0f8eac395faa01f58be89c604",
+    "artifacts/quality.json": "8017cf43a70941633d2bc9584cb3d570aad627b0d341c29b193eab009e2dba79",
+    "artifacts/receipt.json": "167d684ce64dcf038bb162f4cd1c7493777336089bc4f60d5ef8f53f2938c380",
+    "artifacts/research/TN003.md": "1f8d38dfc10f38ed94c7d5dd52d36e9ad4893968badbc0ea4eb68849d9def926",
+    "docs/research/shiloh-regimental-posts-corrections-v1.md": "ecba67fd1d35b0fc4ea377b4bd4eda5f59e4b86a243f582f00f684456a856668",
+    "design/shiloh-regimental-posts-corrections-v1/source-corrections.json": "4a734652a027f4187a232e3780ff1c529d1dd99b427967bde5077cffb3173b40",
+    "design/shiloh-regimental-posts-corrections-v1/reference-audit.py": "c8367f88242b5bb1128dae4beced2ef61c7d38c0fbd321166dd32c7639a2d41f",
+    "data/raw/shiloh/regimental-posts-corrections-v1/buell-battles-leaders-map-posts-v2.txt": "49e44ac8467fe405fafc61d5b722092f99ad6b959b3424aa8bcb17f4f4be1e7a",
+    "artifacts/review-results/shiloh-posts-dc669f4-astra-xhigh-v1/primary-assessment.md": "58e750f03128736669d14efcab1d556ebc2b4d77d5ccb200dffa21b9168aec28",
+    "artifacts/review-results/shiloh-posts-dc669f4-astra-xhigh-v1/assignment.md": "0edf67b8c1df9a660c894467ddda850d3faf86ffc47cebf6f98280cde5045c91",
+    "artifacts/review-results/shiloh-posts-dc669f4-astra-xhigh-v1/review-result.json": "db21959b241eca9b41880108e8afb2f84c1b164cb694235eaa7f940af61ec692",
+    "artifacts/review-results/shiloh-posts-dc669f4-astra-xhigh-v1/dispatch.json": "82dc639c90be7e489762a5a399d7925058bf15f409f6de4b4eae3419fbad9a9c",
+    "artifacts/review-results/shiloh-posts-dc669f4-astra-xhigh-v1/prepared-files.json": "5026f39c78cc498ceb777d25ba42b625f67a6ec0b3ec08b78b57c05ab5f83ab9",
+    "artifacts/review-results/shiloh-posts-dc669f4-astra-xhigh-v1/intake-validation.json": "6b7de74385a6c520d023326aeaadd85be0462bd2c5756fa7056107462bb65c8b",
+    "artifacts/review-results/shiloh-posts-dc669f4-astra-xhigh-v1/review.md": "ab4fb9310cb75228c7b29063d5ec1d0ed0c169a5c887a611b338fc8dd735e8ee",
+    "artifacts/review-results/shiloh-posts-dc669f4-astra-xhigh-v1/primary-preservation-check.json": "46abbf9e3f59d0e68409eef1c0308c87ef592eb4b6d629cdad8bd21b6aea0ce9"
+  }
+}

@@ -152,9 +152,14 @@ adds Reid's report of overnight activity at an unnamed 46th Ohio picket line,
 Lemmon's 72d account, Worthington's post relationships and the map cited by Medkirk.
 The map depicts April 6–7 phases, not Saturday's post sequence. Seven assertions
 bind 21 anchors across 16 inspected pages; the registry has 151 entries / 148 raw
-paths. Post identity and continuity remain unresolved, with zero feature admission.
+paths at preparation. Post identity and continuity remain unresolved, with zero feature admission.
 Next trace the contributor or original evidence behind Reid II p.286's overnight
 narrative.
+
+Separate Astra `xhigh` review covered the full packet and found two literal map
+transcription errors, now [corrected in a new version](docs/research/shiloh-regimental-posts-corrections-v1.md)
+and closed by primary image verification. The registry is now 152 entries / 149
+raw paths; the historical conclusions and model inputs are unchanged.
 
 Then define a campaign replacement boundary and outcomes before fitting enriched
 models. Battle execution and campaign contribution are separate estimands; adding
