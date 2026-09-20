@@ -153,13 +153,13 @@ Lemmon's 72d account, Worthington's post relationships and the map cited by Medk
 The map depicts April 6–7 phases, not Saturday's post sequence. Seven assertions
 bind 21 anchors across 16 inspected pages; the registry has 151 entries / 148 raw
 paths at preparation. Post identity and continuity remain unresolved, with zero feature admission.
-Next trace the contributor or original evidence behind Reid II p.286's overnight
-narrative.
 
 Separate Astra `xhigh` review covered the full packet and found two literal map
 transcription errors, now [corrected in a new version](docs/research/shiloh-regimental-posts-corrections-v1.md)
-and closed by primary image verification. The registry is now 152 entries / 149
+and closed by primary image verification. The registry at that stage is 152 entries / 149
 raw paths; the historical conclusions and model inputs are unchanged.
+
+The [Reid provenance trace](docs/research/shiloh-reid-provenance-v1.md) identifies the publisher collection process and Miller's general editorial role, but no original 46th Ohio witness. Lindsey supplies a later wording parallel with independence unestablished. Five assertions bind 11 anchors / 10 source-locator pairs, ten retained page images and one text-only LOC catalog snapshot. All earlier evidence is preserved; the current registry has 164 entries / 161 raw paths and zero feature admission. Next locate Reid's original Agate dispatch on Shiloh and compare its language.
 
 Then define a campaign replacement boundary and outcomes before fitting enriched
 models. Battle execution and campaign contribution are separate estimands; adding

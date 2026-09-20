@@ -95,6 +95,10 @@ catalog snapshots. These retain their source attribution and are not relicensed 
   caption dated June 1885 with a later edition note. Public-domain facsimiles and
   selected labels/caption; explicit map/report dependencies are retained.
 
+- Whitelaw Reid, *Ohio in the War* I (1868), preface; additional volume II narrative pages. Public-domain selected text and facsimiles.
+- T. J. Lindsey, *Ohio at Shiloh*, title, copyright 1903 verso and selected p.18. Public-domain text and facsimiles; exact publication day unknown.
+- Library of Congress, Reid Family Papers finding aid, selected government-authored web PDF extraction lines. No manuscript or full PDF bytes retained.
+
 Original download links, parent hashes, page mappings, transformations and account
 dependencies are preserved in `data/sources.json`. None of these authors,
 institutions, or archive hosts endorses Generalship's interpretations.

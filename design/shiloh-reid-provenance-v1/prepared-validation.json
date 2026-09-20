@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "command": [
+        "make",
+        "check"
+      ],
+      "exit_code": 0,
+      "output_sha256": "59fc657df3c1b11a27b2753a2fe01ed276227138d3f053c4d7ef87b09f248320"
+    },
+    {
+      "command": [
+        "make",
+        "reproduce"
+      ],
+      "exit_code": 0,
+      "output_sha256": "aa59d8f324fa41d50cedadf04e85135e924a5c3a10f2b66b0e6eb47ad32d721c"
+    },
+    {
+      "command": [
+        "make",
+        "packet"
+      ],
+      "exit_code": 0,
+      "output_sha256": "45454fc53d930ff1aa898366faa3f4041f17e71dbaf873285b63d1475ac065ca"
+    },
+    {
+      "command": [
+        "python3",
+        "design/shiloh-reid-provenance-v1/reference-audit.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "baf604c7b43fd43eb575412b3892cbb4d51877ed099c23c3175eb742551b57f8"
+    }
+  ],
+  "tests": 82,
+  "interpretation": "Mechanical and preservation validation, not historical adjudication.",
+  "baseline_sha256": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595"
+}

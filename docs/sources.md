@@ -130,9 +130,15 @@ not new witnesses. The overnight lead has no established Howell post match; no
 historical feature is admitted.
 The [review correction](research/shiloh-regimental-posts-corrections-v1.md) adds one
 map text version restoring three literal occurrences in two sections. All 151
-prepared entries remain intact. The current registry has **152 entries / 149 raw
+prepared entries remain intact. The registry at that stage has **152 entries / 149 raw
 paths**; two explicit quote overlays replay the 21 anchors without changing dates
 or interpretations. A corrected version is not another historical witness.
+
+The [Reid provenance trace](research/shiloh-reid-provenance-v1.md) identifies the publisher collection process and Miller's general editorial role, but no original 46th Ohio witness. Lindsey supplies a later wording parallel with independence unestablished. Five assertions bind 11 anchors / 10 source-locator pairs, ten retained page images and one text-only LOC catalog snapshot. All earlier evidence is preserved; the current registry has 164 entries / 161 raw paths and zero feature admission. Next locate Reid's original Agate dispatch on Shiloh and compare its language.
+
+The twelve added records comprise two selected book transcriptions (six sections),
+nine whole-page images and one LOC extraction JSON. The catalog PDF was not
+downloaded; its parent hash is null. Its raw hash binds only retained text.
 
 Prioritize original reports, contemporary orders and correspondence, then
 independently authored scholarship. Record competing estimates and account
