@@ -51,24 +51,36 @@ def text_sections(text: str) -> dict[str, str]:
     return {name: body for name, _, body in sections}
 
 
+def _section_date_map(source: dict) -> dict | None:
+    # Standalone document_date_note is also used by legacy single-date sources.
+    if not {"document_dates_by_section", "editorial_sections"}.intersection(source):
+        return None
+    dates = source.get("document_dates_by_section")
+    if not isinstance(dates, dict):
+        raise ValueError("Section-date metadata requires a document_dates_by_section map")
+    return dates
+
+
 def source_document_date(source: dict, section: str | None = None) -> str | None:
     """Return the date of the cited document, never its event or knowledge date.
 
     A mapped null is authoritative: do not fall back to a nearby report date.
     Editorial sections have no historical document date.
     """
-    if "document_dates_by_section" in source:
+    dates = _section_date_map(source)
+    if dates is not None:
         if section in source.get("editorial_sections", []):
             return None
-        if section not in source["document_dates_by_section"]:
+        if section not in dates:
             raise ValueError("A section-specific document date requires a mapped section")
-        return source["document_dates_by_section"][section]
+        return dates[section]
     return source.get("document_date")
 
 
 def validate_source_metadata(root: Path, registry: dict) -> None:
     for source in registry.values():
-        if "document_dates_by_section" in source:
+        dates = _section_date_map(source)
+        if dates is not None:
             if source["format"] != "text" or source.get("sectioned") is not True:
                 raise ValueError("Section dates require a sectioned text source")
             if "document_date" not in source or source["document_date"] is not None:
@@ -81,20 +93,23 @@ def validate_source_metadata(root: Path, registry: dict) -> None:
             if (not isinstance(editorial, list) or any(not isinstance(x, str) for x in editorial)
                     or len(editorial) != len(set(editorial)) or not set(editorial) <= sections.keys()):
                 raise ValueError("Invalid editorial section IDs")
-            dates = source["document_dates_by_section"]
-            if not isinstance(dates, dict) or set(dates) != sections.keys() - set(editorial):
+            if set(dates) != sections.keys() - set(editorial):
                 raise ValueError("Document dates must cover every historical section exactly")
             for value in dates.values():
                 if value is not None and (not isinstance(value, str) or date.fromisoformat(value).isoformat() != value):
                     raise ValueError("Section date must be an ISO calendar date or null")
-        if "supersedes" in source:
+        revision_fields = {"supersedes", "revision_kind", "revision_note"}
+        if revision_fields.intersection(source):
+            if not revision_fields <= source.keys():
+                raise ValueError("Source metadata revision requires supersedes, revision_kind and revision_note together")
             previous = source["supersedes"]
             old = registry.get(previous.get("source_id")) if isinstance(previous, dict) else None
             if old is None or old["id"] == source["id"]:
                 raise ValueError("Source revision requires a different registered predecessor")
             if previous.get("metadata_sha256") != source_metadata_digest(old):
                 raise ValueError("Superseded source metadata checksum mismatch")
-            if source.get("revision_kind") != "metadata_only" or not source.get("revision_note"):
+            note = source.get("revision_note")
+            if source["revision_kind"] != "metadata_only" or not isinstance(note, str) or not note.strip():
                 raise ValueError("Source revision requires a documented metadata-only migration")
             if any(source.get(key) != old.get(key) for key in ("path", "sha256", "parent_sha256", "format")):
                 raise ValueError("Metadata-only source revision cannot replace raw evidence")

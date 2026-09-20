@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "review_run_id": "TN003-corrections-54e7639-astra-xhigh-v1",
+  "status": "completed",
+  "reviewer_type": "AI",
+  "reviewer_task": "/root/shiloh_corrections_review",
+  "configured_model": "gpt-6-astra",
+  "configured_reasoning_effort": "xhigh",
+  "fork_turns": "none",
+  "dispatch_recorded_at_utc": "2026-09-20T18:19:33.328591+00:00",
+  "reviewed_commit": "54e763905b767570565302b185599535ef12cc20",
+  "base_commit": "ba5571fa8bd3efe9eb8988d4496aa38ca9a87296",
+  "assignment_path": "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/assignment.md",
+  "assignment_sha256": "4bc35a82f10304ccb875b3803eeb5cdddbcf0aa8ecb108faae5efebe1689342a",
+  "input_sha256": {
+    "README.md": "dca41e94056003bab586e952f041f9b43b6ab9e71005f0b30c9c3011acf6de1f",
+    "artifacts/migrations/TN003-review-corrections-v1.json": "217a43ceef2d456e176127e71806455d5c62182aae68210597df5f861e4bf058",
+    "artifacts/pilot-report.md": "df8b179b387e71b8400040c43ea8bc8dd1bd9fec154f24f06024bea556c13b17",
+    "artifacts/quality.json": "acc3e4ff0ea5b8381966920e88bb3bbe83bafc6c5d60f8686bb9868bb9676c17",
+    "artifacts/receipt.json": "9513a9b8ef77f5ef385174b6e3972c2f59d116f259443c3d587d377357836b98",
+    "artifacts/research/TN003.md": "2b80ce9ee02ed96ed1625e846b80799bade213fb83c480b713cfd6df41f6fc90",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/evidence/history/TN003.v5.json": "1107b7149f9aa3877478e003a01ae2383b5d0729a15d6a90106e427350d49780",
+    "data/sources.json": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7",
+    "docs/evidence-contract.md": "6bd477a7f6f7cb56466a6b6d67524d955997c364766552c2c12b1e5947cefba5",
+    "docs/methodology.md": "bf0a913382ddd2bef31d69fbffb32b6342886250e69cc7708906281e81bbe179",
+    "docs/research/shiloh-review-corrections.md": "ed4753e2712f990ad72a49ce14588c60937f640387b8c51ad3e09cf3b8bd5861",
+    "docs/research/shiloh-review-handoff.md": "3856c1f2c0032debe3c778b4df09bdda0adfe12453dc4af2355b4550775d45d1",
+    "docs/roadmap.md": "9ada0b336a3bfa1f05b86233fb45aa8975f04024c0ed25f304b3b095a01ecefa",
+    "docs/sources.md": "3c480634b4e0372cc2d5d7d296533dae9b828f5dcc8c5b745ff2b3a66be22457",
+    "generalship/cli.py": "4bb0872bfc472b2820ea76e51937d9363aee06e92adbe122a11b1dedbf3112fd",
+    "generalship/evidence.py": "7dc16410e37f35106e61bbf5cdd48b4dfbb7b4253a93bc38694964b3cef7a61b",
+    "generalship/sources.py": "0ec315e93f7fee6d845294e66ad2e73b1ee87e23b187e955d22c106ad65451dd",
+    "prompts/research-dossier.md": "2052b8da7c5d61aa78d68334c79d7383acb12c790bd9be23a3055c7080e7ff15",
+    "scripts/migrate_shiloh_review_corrections.py": "6497d3753b2e4670c167e69d82bffc2374fa15fde76631096b91a76db945e4ff",
+    "tests/test_review_corrections.py": "8487c9f26242309efd9dd1422ae69e687fc36aa5ae6b99364225de31ba75d1ef"
+  },
+  "outputs": {
+    "review.md": {
+      "path": "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/review.md",
+      "sha256": "6a6b91c7fa43693e78751ea8568bd79f5c2fe81a8300213cd6b5ca48f6d5a9dd"
+    },
+    "review-result.json": {
+      "path": "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/review-result.json",
+      "sha256": "b2080bb23756f374ff109ad35468aec3a4796ae917079b38f22316bdab8fca6d"
+    },
+    "intake-validation.json": {
+      "path": "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/intake-validation.json",
+      "sha256": "df91e066af8c56bc4524197c9fa4d2d472468078fdd2f4215f60c40f1e38fd0f"
+    },
+    "primary-validation.json": {
+      "path": "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/primary-validation.json",
+      "sha256": "5402273a71b5efa1549060a96271390df97f74e7bf02727dad540ee627861c93"
+    }
+  },
+  "scope": "TN003-R1-R4 implementation, all 40 estimation classifications, three source metadata revisions, 15 historical section dates, changed references and preservation checks; no feature admission.",
+  "conclusion": "corrections_needed",
+  "completion_received_at_utc": "2026-09-20T18:28:19.841707+00:00"
+}

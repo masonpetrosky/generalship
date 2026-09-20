@@ -1,6 +1,8 @@
 import copy
 from pathlib import Path
 import shutil
+import subprocess
+import sys
 import tempfile
 import unittest
 
@@ -95,6 +97,43 @@ class ReviewCorrectionTests(unittest.TestCase):
                 changed = copy.deepcopy(sources)
                 changed['or-union-return-detail-v3'][field] = value
                 with self.assertRaises(ValueError): validate_source_metadata(ROOT, changed)
+
+    def test_partial_metadata_revision_cannot_lose_its_predecessor(self):
+        for field in ['supersedes', 'revision_kind', 'revision_note']:
+            with self.subTest(field=field):
+                sources = source_registry(ROOT)
+                del sources['or-ammen-crossing-v2'][field]
+                with self.assertRaisesRegex(ValueError, 'requires supersedes'):
+                    validate_source_metadata(ROOT, sources)
+
+    def test_missing_section_map_cannot_restore_a_diary_date(self):
+        sources = source_registry(ROOT)
+        source = sources['or-ammen-crossing-v2']
+        del source['document_dates_by_section']
+        source['document_date'] = '1862-04-10'
+        with self.assertRaisesRegex(ValueError, 'requires a document_dates_by_section map'):
+            validate_source_metadata(ROOT, sources)
+        with self.assertRaisesRegex(ValueError, 'requires a document_dates_by_section map'):
+            source_document_date(source, 'p334-diary')
+        predecessor_missing = source_registry(ROOT)
+        del predecessor_missing['or-ammen-crossing-v2']['supersedes']
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            shutil.copytree(ROOT / 'data', root / 'data')
+            for malformed in [sources, predecessor_missing]:
+                registry = read_json(ROOT / REGISTRY)
+                registry['sources'] = list(malformed.values())
+                write_json(root / REGISTRY, registry)
+                process = subprocess.run(
+                    [sys.executable, '-m', 'generalship', '--root', str(root), 'check'],
+                    cwd=ROOT, capture_output=True, text=True)
+                self.assertEqual(process.returncode, 1)
+                self.assertIn('generalship:', process.stderr)
+                self.assertNotIn('Traceback', process.stderr)
+        # A standalone legacy date note is not a signal of section-date metadata.
+        legacy = sources['or-confederate-report-136-v1-scan']
+        self.assertIn('document_date_note', legacy)
+        self.assertEqual(source_document_date(legacy), '1862-06-30')
 
     def test_bounded_migration_preserves_numbers_events_unknowns_and_old_sources(self):
         outputs = expected_outputs(ROOT)

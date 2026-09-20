@@ -24,6 +24,8 @@ of the previous complete entry serialized as sorted-key, compact, UTF-8 JSON
 (`ensure_ascii=False`). Validation checks this binding and unchanged raw path,
 hash, format and parent hash. `revision_note` documents the reason. These new
 metadata records are not additional historical witnesses or new raw artifacts.
+If any revision field (`supersedes`, `revision_kind`, `revision_note`) is present,
+all three are required; deleting the predecessor must not bypass validation.
 
 For mixed-document snapshots, `document_dates_by_section` maps every historical
 section to its document date or null. The source-wide `document_date` must be null;
@@ -31,7 +33,10 @@ section to its document date or null. The source-wide `document_date` must be nu
 excludes local transcription notes from historical dates. Missing/extra sections,
 invalid dates and a non-null source-wide fallback fail validation. The
 `source_document_date` helper returns a mapped null unchanged and rejects a missing
-section; it never borrows a neighboring report's date. These are document dates,
+section; it never borrows a neighboring report's date. An `editorial_sections`
+field without its section-date map fails both validation and date lookup. A
+standalone `document_date_note` on a legacy single-date source remains valid.
+These are document dates,
 not event dates, public availability or a commander's knowledge. A transcript's
 `facsimile_source_id` must resolve to an image with the same parent hash and
 dependence group; this link does not prove independence from other reports.

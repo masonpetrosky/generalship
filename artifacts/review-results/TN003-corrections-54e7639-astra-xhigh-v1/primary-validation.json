@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "reviewed_commit": "54e763905b767570565302b185599535ef12cc20",
+  "base_commit": "ba5571fa8bd3efe9eb8988d4496aa38ca9a87296",
+  "verified_at_utc": "2026-09-20T18:19:33.400637+00:00",
+  "status": "passed",
+  "tests": {
+    "command": "make check",
+    "passed": 50
+  },
+  "reproduction": [
+    "make reproduce",
+    "make packet",
+    "make review-bundle",
+    "python3 scripts/migrate_shiloh_review_corrections.py (0 writes on repeat)"
+  ],
+  "preserved": {
+    "prior_source_entries": 50,
+    "distinct_raw_files": 50,
+    "quantity_values_precision_and_all_prior_fields": 40,
+    "events": 26,
+    "null_unknown_claims": 3,
+    "all_historical_open_questions": true,
+    "original_review_and_bundle_byte_identical": true,
+    "baseline_artifacts_byte_identical": [
+      "artifacts/baseline.json",
+      "artifacts/battles.json",
+      "artifacts/research-queue.json",
+      "artifacts/evidence-checks.json"
+    ],
+    "coverage_other_than_three_added_source_hashes_unchanged": true,
+    "build_receipt_input_and_output_hashes_match": true
+  },
+  "new_representation": {
+    "registry_entries": 53,
+    "metadata_revisions": 3,
+    "estimation_status_counts": {
+      "reported_without_explicit_estimation_qualifier": 27,
+      "explicit_estimate": 11,
+      "aggregate_includes_estimates": 2
+    }
+  },
+  "remaining_baseline": {
+    "eligible_engagements": 23,
+    "frame_engagements": 127,
+    "eligible_campaign_groups": 13,
+    "frame_campaign_groups": 36,
+    "brier": 0.2768816348133779,
+    "equal_odds_brier": 0.25
+  },
+  "limits": "Automated preservation and contract checks; not historical adjudication or a substitute for the separate reviewer response."
+}

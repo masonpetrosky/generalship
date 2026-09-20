@@ -5,7 +5,9 @@ This bounded migration implements TN003-R1–R4 from the actual
 and [primary assessment](../../artifacts/review-results/TN003-a42f063-astra-xhigh-v1/primary-assessment.md).
 It changes evidence representation, not troop counts or model inputs. The
 current draft remains **62 claims, 40 quantities, 26 events and three null
-unknowns**. A focused separate review of this implementation is pending.
+unknowns**. The [focused Astra review](../../artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/review.md)
+accepted every changed evidence field and identified one validator gap,
+TN003-C1. Its code correction is implemented and awaits a bounded follow-up.
 
 ## Changes and source support
 
@@ -82,12 +84,21 @@ that historical assignment, not a new review of the changed dossier.
 
 ## Validation and limits
 
-All 50 tests and the offline contract check pass. New regression checks cover
+All 52 tests and the offline contract check pass. New regression checks cover
 estimated integers with exact printed precision, wrong-page qualifiers, schema
 downgrade, section-date omissions/fallbacks, version binding, facsimile dependence,
 migration replay/idempotence and refusal to overwrite divergent edits. They also
 compare every prior source entry, quantity field, event and claim outside the
 explicit migration against its archived input.
+
+The focused review checked 40 classifications, 49 estimation citations, 15
+section dates, 24 citation-ID replacements and 22 supplied scan selections.
+TN003-C1 exposed two ways to bypass validation by deleting a required metadata
+field. The fix makes revision fields reciprocal and rejects an orphaned
+`editorial_sections` declaration before either validation or date lookup can
+fall back to the report date. Mutation tests exercise the ordinary CLI as well
+as the helper, while preserving legitimate legacy date notes. The original
+finding and response remain unchanged; follow-up acceptance is recorded separately.
 
 This is a representation correction. Historical disputes TN003-D1–D7, the
 600-person basis, conflicting clocks, 7,553/7,552, missing original returns and

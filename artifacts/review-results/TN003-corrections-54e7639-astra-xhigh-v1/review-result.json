@@ -1,0 +1,1778 @@
+{
+  "schema_version": 1,
+  "review_run_id": "TN003-corrections-54e7639-astra-xhigh-v1",
+  "reviewer_task": "/root/shiloh_corrections_review",
+  "reviewer_type": "AI",
+  "configured_model": "gpt-6-astra",
+  "configured_reasoning_effort": "xhigh",
+  "fresh_context": true,
+  "delegated": false,
+  "review_date": "2026-09-20",
+  "completed_at_utc": "2026-09-20T18:26:24.985068+00:00",
+  "reviewed_commit": "54e763905b767570565302b185599535ef12cc20",
+  "base_commit": "ba5571fa8bd3efe9eb8988d4496aa38ca9a87296",
+  "dossier_sha256": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+  "source_registry_sha256": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7",
+  "input_sha256": {
+    "README.md": "dca41e94056003bab586e952f041f9b43b6ab9e71005f0b30c9c3011acf6de1f",
+    "artifacts/migrations/TN003-review-corrections-v1.json": "217a43ceef2d456e176127e71806455d5c62182aae68210597df5f861e4bf058",
+    "artifacts/pilot-report.md": "df8b179b387e71b8400040c43ea8bc8dd1bd9fec154f24f06024bea556c13b17",
+    "artifacts/quality.json": "acc3e4ff0ea5b8381966920e88bb3bbe83bafc6c5d60f8686bb9868bb9676c17",
+    "artifacts/receipt.json": "9513a9b8ef77f5ef385174b6e3972c2f59d116f259443c3d587d377357836b98",
+    "artifacts/research/TN003.md": "2b80ce9ee02ed96ed1625e846b80799bade213fb83c480b713cfd6df41f6fc90",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/evidence/history/TN003.v5.json": "1107b7149f9aa3877478e003a01ae2383b5d0729a15d6a90106e427350d49780",
+    "data/sources.json": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7",
+    "docs/evidence-contract.md": "6bd477a7f6f7cb56466a6b6d67524d955997c364766552c2c12b1e5947cefba5",
+    "docs/methodology.md": "bf0a913382ddd2bef31d69fbffb32b6342886250e69cc7708906281e81bbe179",
+    "docs/research/shiloh-review-corrections.md": "ed4753e2712f990ad72a49ce14588c60937f640387b8c51ad3e09cf3b8bd5861",
+    "docs/research/shiloh-review-handoff.md": "3856c1f2c0032debe3c778b4df09bdda0adfe12453dc4af2355b4550775d45d1",
+    "docs/roadmap.md": "9ada0b336a3bfa1f05b86233fb45aa8975f04024c0ed25f304b3b095a01ecefa",
+    "docs/sources.md": "3c480634b4e0372cc2d5d7d296533dae9b828f5dcc8c5b745ff2b3a66be22457",
+    "generalship/cli.py": "4bb0872bfc472b2820ea76e51937d9363aee06e92adbe122a11b1dedbf3112fd",
+    "generalship/evidence.py": "7dc16410e37f35106e61bbf5cdd48b4dfbb7b4253a93bc38694964b3cef7a61b",
+    "generalship/sources.py": "0ec315e93f7fee6d845294e66ad2e73b1ee87e23b187e955d22c106ad65451dd",
+    "prompts/research-dossier.md": "2052b8da7c5d61aa78d68334c79d7383acb12c790bd9be23a3055c7080e7ff15",
+    "scripts/migrate_shiloh_review_corrections.py": "6497d3753b2e4670c167e69d82bffc2374fa15fde76631096b91a76db945e4ff",
+    "tests/test_review_corrections.py": "8487c9f26242309efd9dd1422ae69e687fc36aa5ae6b99364225de31ba75d1ef",
+    "AGENTS.md": "d0c3bbfa3364e17cd0126a549bb8759a1a81de6897634932bfc7aa6e65c77c6c",
+    "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review-result.json": "31f77766d967787ae9ca74e7098b8341a59285df9105c8bedbd7c2d0dde46fac",
+    "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/primary-assessment.md": "0c8e1ece4d380e071c17cb7d79226463435c9f80bbcd6d0ac57ace261681070c",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8"
+  },
+  "review_completed": true,
+  "conclusion": "corrections_needed",
+  "conclusion_note": "Accept the committed changed evidence fields and preservation, but close TN003-C1 before accepting the bounded implementation contract. No historical-value rewrite is proposed.",
+  "scope": "Focused changed-field review of TN003-R1–R4 and implementation contracts, not a second whole dossier audit.",
+  "original_finding_dispositions": [
+    {
+      "id": "TN003-R1",
+      "disposition": "accepted",
+      "reason": "40/40 source-consistent estimation classifications and 49/49 passage citations; printed precision and values preserved. Schema v3 checks and backward compatibility are meaningful."
+    },
+    {
+      "id": "TN003-R2",
+      "disposition": "data_accepted_contract_correction_needed",
+      "reason": "All 15 historical section dates and both editorial exclusions are correct. Partial-field handling can reinstate false diary-date fallback; see TN003-C1."
+    },
+    {
+      "id": "TN003-R3",
+      "disposition": "data_accepted_shared_revision_contract_correction_needed",
+      "reason": "Same p.112 return correctly shares group and image with preserved old entries. The general metadata_only predecessor contract can be bypassed by omitted supersedes; see TN003-C1."
+    },
+    {
+      "id": "TN003-R4",
+      "disposition": "accepted",
+      "reason": "Updated wording matches the p.355 reach-then-debark sequence and about-05:00 positioning, with cavalry exclusion from p.354. No completion time inferred; p.355 remains image-unverified."
+    }
+  ],
+  "coverage": {
+    "quantity_classifications_reviewed": 40,
+    "quantity_classifications_total": 40,
+    "quantity_citation_occurrences_reviewed": 49,
+    "quantity_citation_occurrences_total": 49,
+    "quantity_citation_unique_source_locator_pairs": 22,
+    "classification_counts": {
+      "explicit_estimate": 11,
+      "aggregate_includes_estimates": 2,
+      "reported_without_explicit_estimation_qualifier": 27,
+      "unknown": 0
+    },
+    "source_metadata_revisions_reviewed": 3,
+    "historical_section_dates_reviewed": 15,
+    "historical_section_dates_dated": 9,
+    "historical_section_dates_null": 6,
+    "editorial_sections_checked": 2,
+    "claim_citation_id_changes_reviewed": 24,
+    "changed_claim_wordings_reviewed": 1,
+    "visual_page_selections_inspected": 22,
+    "visual_page_selections_in_supplied_bundle": 26,
+    "visual_scope_note": "22 supplied page images inspected for identified rows, markers, datelines and passages, not a whole-page transcription certification. Four unrelated supplied pages were not re-audited: Michigan p.41, Reed pp.60,61,112.",
+    "quantity_checks": [
+      {
+        "quantity_id": "nps-union-total",
+        "claim_id": "strength-total",
+        "lower": 65085,
+        "upper": 65085,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "nps-tn003",
+            "locator": "Forces Engaged",
+            "quote": "110053 total (US 65085; CS 44968;)",
+            "source_path": "data/raw/nps-tn003.txt",
+            "source_sha256": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "nps-confederate-total",
+        "claim_id": "strength-total",
+        "lower": 44968,
+        "upper": 44968,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "nps-tn003",
+            "locator": "Forces Engaged",
+            "quote": "110053 total (US 65085; CS 44968;)",
+            "source_path": "data/raw/nps-tn003.txt",
+            "source_sha256": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "union-paper-total",
+        "claim_id": "union-return-strength",
+        "lower": 44895,
+        "upper": 44895,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-union-return-april4-5",
+            "section": "p112",
+            "locator": "p112",
+            "quote": "Grand total | 1,987 | 42,908 | 44,895 | 62",
+            "source_path": "data/raw/shiloh/or-union-return-april4-5.txt",
+            "source_sha256": "e7b9aee495475a62721a811490c442f8019bc689a02dd841db0a5fbd60f8727e",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "wallace-april4-return",
+        "claim_id": "union-return-strength",
+        "lower": 7564,
+        "upper": 7564,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-union-return-april4-5",
+            "section": "p112",
+            "locator": "p112",
+            "quote": "Total Third Division | 314 | 7,250 | 7,564 | 12",
+            "source_path": "data/raw/shiloh/or-union-return-april4-5.txt",
+            "source_sha256": "e7b9aee495475a62721a811490c442f8019bc689a02dd841db0a5fbd60f8727e",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "confederate-before",
+        "claim_id": "confederate-return-before",
+        "lower": 40335,
+        "upper": 40335,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-confederate-return",
+            "section": "p396",
+            "locator": "p396",
+            "quote": "Grand total | 40,335 | 29,636",
+            "source_path": "data/raw/shiloh/or-confederate-return.txt",
+            "source_sha256": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "confederate-after",
+        "claim_id": "confederate-return-after",
+        "lower": 29636,
+        "upper": 29636,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-confederate-return",
+            "section": "p396",
+            "locator": "p396",
+            "quote": "Grand total | 40,335 | 29,636",
+            "source_path": "data/raw/shiloh/or-confederate-return.txt",
+            "source_sha256": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "force-sunday-engaged",
+        "claim_id": "force-opening-estimate",
+        "lower": 32000,
+        "upper": 33000,
+        "estimate_kind": "range",
+        "estimation_status": "explicit_estimate",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "Probably qualifies the 32,000–33,000 conclusion; range and corrected-footnote dispute remain.",
+        "citations": [
+          {
+            "source_id": "force-1881-shiloh",
+            "section": "pp178-180",
+            "locator": "pp178-180",
+            "quote": "Probably all were true, and thirty-three thousand or thirty-two thousand is the number of officers, non-commissioned officers, and privates actually engaged in Sunday's battle on the National side.",
+            "source_path": "data/raw/shiloh/force-1881-shiloh.txt",
+            "source_sha256": "b163fbab48f96742ce0584a6b5c29506123728b3edbac6381318e3a4853c70f1",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "force-buell",
+        "claim_id": "force-monday-reinforcements",
+        "lower": 20000,
+        "upper": 20000,
+        "estimate_kind": "approximate",
+        "estimation_status": "explicit_estimate",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "About twenty thousand explicitly qualifies this contingent.",
+        "citations": [
+          {
+            "source_id": "force-1881-shiloh",
+            "section": "pp178-180",
+            "locator": "pp178-180",
+            "quote": "The reinforcements of Monday numbered, of Buell's army, about twenty thousand; Lewis Wallace, sixty-five hundred; other regiments, about fourteen hundred.",
+            "source_path": "data/raw/shiloh/force-1881-shiloh.txt",
+            "source_sha256": "b163fbab48f96742ce0584a6b5c29506123728b3edbac6381318e3a4853c70f1",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "force-wallace",
+        "claim_id": "force-monday-reinforcements",
+        "lower": 6500,
+        "upper": 6500,
+        "estimate_kind": "approximate",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "The clause sixty-five hundred has no explicit qualifier. Adjacent about clauses are separate; retained approximate precision is not an estimation-status conflict.",
+        "citations": [
+          {
+            "source_id": "force-1881-shiloh",
+            "section": "pp178-180",
+            "locator": "pp178-180",
+            "quote": "The reinforcements of Monday numbered, of Buell's army, about twenty thousand; Lewis Wallace, sixty-five hundred; other regiments, about fourteen hundred.",
+            "source_path": "data/raw/shiloh/force-1881-shiloh.txt",
+            "source_sha256": "b163fbab48f96742ce0584a6b5c29506123728b3edbac6381318e3a4853c70f1",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "force-other",
+        "claim_id": "force-monday-reinforcements",
+        "lower": 1400,
+        "upper": 1400,
+        "estimate_kind": "approximate",
+        "estimation_status": "explicit_estimate",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "About fourteen hundred explicitly qualifies this contingent.",
+        "citations": [
+          {
+            "source_id": "force-1881-shiloh",
+            "section": "pp178-180",
+            "locator": "pp178-180",
+            "quote": "The reinforcements of Monday numbered, of Buell's army, about twenty thousand; Lewis Wallace, sixty-five hundred; other regiments, about fourteen hundred.",
+            "source_path": "data/raw/shiloh/force-1881-shiloh.txt",
+            "source_sha256": "b163fbab48f96742ce0584a6b5c29506123728b3edbac6381318e3a4853c70f1",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "handbook-wallace",
+        "claim_id": "wallace-handbook-strength",
+        "lower": 5800,
+        "upper": 5800,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "gudmens-shiloh-handbook",
+            "section": "p85",
+            "locator": "p85",
+            "quote": "Lew Wallace did not arrive at the battlefield until after dark on 6 April. Due to the vague orders and Wallace’s marching decisions, the 3d Division’s 5,800 men did not fight that day.",
+            "source_path": "data/raw/shiloh/gudmens-shiloh-handbook.txt",
+            "source_sha256": "f9598f35502e9081e7bb056e59790c42ff476371984a3ea452e37ac36e395cf5",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "handbook-nelson-leading",
+        "claim_id": "nelson-evening-crossing",
+        "lower": 600,
+        "upper": 600,
+        "estimate_kind": "approximate",
+        "estimation_status": "explicit_estimate",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "About 600 is explicit; untraced historical basis and timing dispute remain.",
+        "citations": [
+          {
+            "source_id": "gudmens-shiloh-handbook",
+            "section": "p113",
+            "locator": "p113",
+            "quote": "At 1700 Nelson’s lead brigade, commanded by COL Jacob Ammen, arrived across the river from Pittsburg Landing. Nelson arranged for boats in the river to start moving his men across, and by 1800 he had about 600 men west of the river and in line.",
+            "source_path": "data/raw/shiloh/gudmens-shiloh-handbook.txt",
+            "source_sha256": "f9598f35502e9081e7bb056e59790c42ff476371984a3ea452e37ac36e395cf5",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "confederate-report-136-total",
+        "claim_id": "confederate-report-136",
+        "lower": 38773,
+        "upper": 38773,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-confederate-report-136-v1",
+            "section": "p398",
+            "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+            "quote": "Grand total | 2,587 | 37,011 | 38,773",
+            "source_path": "data/raw/shiloh/or-confederate-report-136-v1.txt",
+            "source_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "confederate-report-136-infantry",
+        "claim_id": "confederate-report-136",
+        "lower": 34727,
+        "upper": 34727,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-confederate-report-136-v1",
+            "section": "p398",
+            "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+            "quote": "Total infantry | 2,379 | 33,270 | 34,727",
+            "source_path": "data/raw/shiloh/or-confederate-report-136-v1.txt",
+            "source_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "confederate-report-136-artillery",
+        "claim_id": "confederate-report-136",
+        "lower": 1973,
+        "upper": 1973,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-confederate-report-136-v1",
+            "section": "p398",
+            "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+            "quote": "Total artillery | 83 | 1,857 | 1,973",
+            "source_path": "data/raw/shiloh/or-confederate-report-136-v1.txt",
+            "source_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "confederate-report-136-cavalry",
+        "claim_id": "confederate-report-136",
+        "lower": 2073,
+        "upper": 2073,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-confederate-report-136-v1",
+            "section": "p398",
+            "locator": "Official Records I.X.1, report No. 136, printed p.398; selected table columns or printed note",
+            "quote": "Cavalry | 125 | 1,884 | 2,073",
+            "source_path": "data/raw/shiloh/or-confederate-report-136-v1.txt",
+            "source_sha256": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "confederate-report-137-total",
+        "claim_id": "confederate-report-137",
+        "lower": 32212,
+        "upper": 32212,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-confederate-report-137-v1",
+            "section": "p399",
+            "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+            "quote": "Grand total | 2,184 | 29,910 | 32,212",
+            "source_path": "data/raw/shiloh/or-confederate-report-137-v1.txt",
+            "source_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "confederate-report-137-infantry",
+        "claim_id": "confederate-report-137",
+        "lower": 26697,
+        "upper": 26697,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-confederate-report-137-v1",
+            "section": "p399",
+            "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+            "quote": "Total infantry | 1,855 | 24,692 | 26,697",
+            "source_path": "data/raw/shiloh/or-confederate-report-137-v1.txt",
+            "source_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "confederate-report-137-artillery",
+        "claim_id": "confederate-report-137",
+        "lower": 1682,
+        "upper": 1682,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-confederate-report-137-v1",
+            "section": "p399",
+            "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+            "quote": "Total artillery | 70 | 1,634 | 1,682",
+            "source_path": "data/raw/shiloh/or-confederate-report-137-v1.txt",
+            "source_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "confederate-report-137-cavalry",
+        "claim_id": "confederate-report-137",
+        "lower": 3833,
+        "upper": 3833,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-confederate-report-137-v1",
+            "section": "p399",
+            "locator": "Official Records I.X.1, report No. 137, printed p.399; selected table columns or printed note",
+            "quote": "Cavalry | 259 | 3,584 | 3,833",
+            "source_path": "data/raw/shiloh/or-confederate-report-137-v1.txt",
+            "source_sha256": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "sixth-april5-abstract",
+        "claim_id": "sixth-division-return-components",
+        "lower": 5463,
+        "upper": 5463,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-union-return-detail-v3",
+            "section": "p112",
+            "locator": "p112",
+            "quote": "1st Brigade | 119 | 2,671 | 2,790\n2d Brigade | 85 | 1,689 | 1,774\nUnattached | 41 | 858 | 899\nTotal Sixth Division | 245 | 5,218 | 5,463",
+            "source_path": "data/raw/shiloh/or-union-return-detail-v2.txt",
+            "source_sha256": "70099ece7f07cf264d777f3e9d80e49ec40c230b5c671962e3cdc0dbfd4f2c94",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "reed-sixth-reconstruction",
+        "claim_id": "reed-sixth-division-reconstruction",
+        "lower": 7545,
+        "upper": 7545,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "aggregate_includes_estimates",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "Printed 7,545 contains marked 735 and other estimated components; the total itself has no explicit estimate marker.",
+        "citations": [
+          {
+            "source_id": "reed-1909-union-audit-v1",
+            "section": "p97",
+            "locator": "p97",
+            "quote": "Total Sixth Division | 347 | 7,198 | 7,545",
+            "source_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+            "source_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+            "decision": "passage_and_context_inspected_supports_classification"
+          },
+          {
+            "source_id": "reed-1909-union-audit-v1",
+            "section": "p96",
+            "locator": "p96",
+            "quote": "18th Wisconsin* (note d) | 35 | 700 | 735",
+            "source_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+            "source_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+            "decision": "passage_and_context_inspected_supports_classification"
+          },
+          {
+            "source_id": "reed-1909-union-audit-v1",
+            "section": "p97",
+            "locator": "p97",
+            "quote": "* Estimated.",
+            "source_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+            "source_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "reed-eighteenth-wisconsin-estimate",
+        "claim_id": "eighteenth-wisconsin-return-omission",
+        "lower": 735,
+        "upper": 735,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "explicit_estimate",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "735 row has the asterisk defined as Estimated on p.97.",
+        "citations": [
+          {
+            "source_id": "reed-1909-union-audit-v1",
+            "section": "p96",
+            "locator": "p96",
+            "quote": "18th Wisconsin* (note d) | 35 | 700 | 735",
+            "source_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+            "source_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+            "decision": "passage_and_context_inspected_supports_classification"
+          },
+          {
+            "source_id": "reed-1909-union-audit-v1",
+            "section": "p97",
+            "locator": "p97",
+            "quote": "* Estimated.",
+            "source_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+            "source_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "rousseau-michigan-contingent",
+        "claim_id": "rousseau-michigan-monday-contingent",
+        "lower": 230,
+        "upper": 230,
+        "estimate_kind": "approximate",
+        "estimation_status": "explicit_estimate",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "About 230 explicitly qualifies the Monday joining contingent.",
+        "citations": [
+          {
+            "source_id": "or-rousseau-michigan-v1",
+            "section": "p310",
+            "locator": "p310",
+            "quote": "he joined us early in the morning with about 230 officers and men of his regiment",
+            "source_path": "data/raw/shiloh/or-rousseau-michigan-v1.txt",
+            "source_sha256": "1a5ba21b0cf1aaa8807601e5a02f1bda368df761435031c636526f15cb379fa6",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "reed-wallace-detached",
+        "claim_id": "wallace-reed-detachment-counts",
+        "lower": 1727,
+        "upper": 1727,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "The p.93 asterisk is the detachment explanation, not an estimation marker.",
+        "citations": [
+          {
+            "source_id": "reed-1909-union-audit-v1",
+            "section": "p93",
+            "locator": "p93",
+            "quote": "* 2 regiments of infantry, 2 battalions of cavalry, 1 gun of Buel's battery, and train guard—a total of 1,727—were left at Crumps Landing, making the number actually engaged at Shiloh 5,837. Wallace says 5,000.",
+            "source_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+            "source_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "reed-wallace-engaged",
+        "claim_id": "wallace-reed-detachment-counts",
+        "lower": 5837,
+        "upper": 5837,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "5,837 is reported in p.98 and explained by p.93; no explicit estimate qualifier for it in those passages.",
+        "citations": [
+          {
+            "source_id": "reed-1909-union-audit-v1",
+            "section": "p98",
+            "locator": "p98",
+            "quote": "Reenforced Apr. 7 by the Third Division (see ante). | 5,837",
+            "source_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+            "source_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "reed-fiftysixth-return",
+        "claim_id": "wallace-reed-detachment-counts",
+        "lower": 701,
+        "upper": 701,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "Its asterisk refers to detachment, not estimation; 701 return remains distinct from battle availability.",
+        "citations": [
+          {
+            "source_id": "reed-1909-union-audit-v1",
+            "section": "p93",
+            "locator": "p93",
+            "quote": "56th Ohio* | 32 | 669 | 701",
+            "source_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+            "source_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "reed-sixtyeighth-return",
+        "claim_id": "wallace-reed-detachment-counts",
+        "lower": 424,
+        "upper": 424,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "Its asterisk refers to detachment, not estimation; 424 return remains distinct from battle availability.",
+        "citations": [
+          {
+            "source_id": "reed-1909-union-audit-v1",
+            "section": "p93",
+            "locator": "p93",
+            "quote": "68th Ohio* | 29 | 395 | 424",
+            "source_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+            "source_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "reed-wallace-cavalry-return",
+        "claim_id": "wallace-reed-detachment-counts",
+        "lower": 559,
+        "upper": 559,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "559 return subtotal has no estimation marker; component asterisks refer to detachment.",
+        "citations": [
+          {
+            "source_id": "reed-1909-union-audit-v1",
+            "section": "p93",
+            "locator": "p93",
+            "quote": "Total cavalry | 28 | 531 | 559",
+            "source_path": "data/raw/shiloh/reed-1909-union-audit-v1.txt",
+            "source_sha256": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "grose-sunday-eight-companies",
+        "claim_id": "grose-sunday-contingent",
+        "lower": 400,
+        "upper": 400,
+        "estimate_kind": "approximate",
+        "estimation_status": "explicit_estimate",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "About 400 explicitly qualifies eight companies upon formation.",
+        "citations": [
+          {
+            "source_id": "or-grose-crossing-v1",
+            "section": "p337",
+            "locator": "p337",
+            "quote": "my regiment was formed (the eight companies about 400 strong)",
+            "source_path": "data/raw/shiloh/or-grose-crossing-v1.txt",
+            "source_sha256": "45557a169c58c848726a0105e883da9dd682b749c6d603d09d4578209ec09410",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "nelson-taken-into-action",
+        "claim_id": "nelson-action-strength",
+        "lower": 4541,
+        "upper": 4541,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-nelson-reinforcements-v2",
+            "section": "p325-strength",
+            "locator": "p325-strength",
+            "quote": "It went into action 4,541 strong,",
+            "source_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+            "source_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "nelson-thirtysixth-taken-into-action",
+        "claim_id": "nelson-action-strength",
+        "lower": 380,
+        "upper": 380,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-nelson-reinforcements-v2",
+            "section": "p326-return",
+            "locator": "p326-return",
+            "quote": "36th Indiana | 380",
+            "source_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+            "source_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "nelson-march-abstract",
+        "claim_id": "nelson-march-paper-strength",
+        "lower": 6724,
+        "upper": 6724,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "No explicit estimation qualifier for this particular observation appears in the inspected source passage and supplied associated notes. This does not establish exact measurement or absence of estimation elsewhere.",
+        "citations": [
+          {
+            "source_id": "or-nelson-reinforcements-v2",
+            "section": "p327-march-return",
+            "locator": "p327-march-return",
+            "quote": "Total | 255 | 6,469 | 6,724 | 9,526 | 18",
+            "source_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+            "source_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "reed-nelson-march31",
+        "claim_id": "reed-nelson-return-basis",
+        "lower": 5535,
+        "upper": 5535,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "5,535 is the March 31 return, distinct from 4,541 engaged; note j excludes Fourth Division from its estimated-divisions list.",
+        "citations": [
+          {
+            "source_id": "reed-1909-ohio-strength-v1",
+            "section": "p101",
+            "locator": "p101",
+            "quote": "Total Fourth Division | 5,535 | 4,541",
+            "source_path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+            "source_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "reed-mccook-april30",
+        "claim_id": "reed-mccook-postbattle-return",
+        "lower": 9118,
+        "upper": 9118,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "reported_without_explicit_estimation_qualifier",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "9,118 is the April 30 return, distinct from the separately marked April 7 reconstruction; note j does not mark the April 30 input total itself estimated.",
+        "citations": [
+          {
+            "source_id": "reed-1909-ohio-strength-v1",
+            "section": "p100",
+            "locator": "p100",
+            "quote": "Total Second Division | 332 | 8,786 | 9,118",
+            "source_path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+            "source_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "reed-mccook-detail-engaged",
+        "claim_id": "reed-ohio-estimates-and-discrepancy",
+        "lower": 7553,
+        "upper": 7553,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "explicit_estimate",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "7,553 row asterisk is explained by Approximated, Note j on p.101; retain disagreement with recap.",
+        "citations": [
+          {
+            "source_id": "reed-1909-ohio-strength-v1",
+            "section": "p100",
+            "locator": "p100",
+            "quote": "Number Second Division engaged at Shiloh Apr. 7* | 7,553",
+            "source_path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+            "source_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+            "decision": "passage_and_context_inspected_supports_classification"
+          },
+          {
+            "source_id": "reed-1909-ohio-strength-v1",
+            "section": "p101",
+            "locator": "p101",
+            "quote": "* Approximated. Note j.",
+            "source_path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+            "source_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "reed-mccook-recap-engaged",
+        "claim_id": "reed-ohio-estimates-and-discrepancy",
+        "lower": 7552,
+        "upper": 7552,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "explicit_estimate",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "7,552 recap is linked to the explicit estimate in note j; secondhand Buell letter remains secondhand.",
+        "citations": [
+          {
+            "source_id": "reed-1909-ohio-strength-v1",
+            "section": "p102",
+            "locator": "p102",
+            "quote": "Second Division | 7,552",
+            "source_path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+            "source_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+            "decision": "passage_and_context_inspected_supports_classification"
+          },
+          {
+            "source_id": "reed-1909-ohio-strength-v1",
+            "section": "p111-note-j",
+            "locator": "p111-note-j",
+            "quote": "I estimate McCook's present for duty at 7,552.",
+            "source_path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+            "source_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "reed-crittenden-engaged",
+        "claim_id": "reed-ohio-estimates-and-discrepancy",
+        "lower": 3825,
+        "upper": 3825,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "explicit_estimate",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "3,825 has the explicit Approximated marker on p.101.",
+        "citations": [
+          {
+            "source_id": "reed-1909-ohio-strength-v1",
+            "section": "p101",
+            "locator": "p101",
+            "quote": "Number Fifth Division engaged at Shiloh Apr. 7* | [blank] | 3,825",
+            "source_path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+            "source_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+            "decision": "passage_and_context_inspected_supports_classification"
+          },
+          {
+            "source_id": "reed-1909-ohio-strength-v1",
+            "section": "p101",
+            "locator": "p101",
+            "quote": "* Approximated. Note j.",
+            "source_path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+            "source_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "reed-wagner-late-estimate",
+        "claim_id": "reed-ohio-estimates-and-discrepancy",
+        "lower": 2000,
+        "upper": 2000,
+        "estimate_kind": "approximate",
+        "estimation_status": "explicit_estimate",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "Dagger explicitly says estimated and late arrival; 2,000 is not inferred from roundness.",
+        "citations": [
+          {
+            "source_id": "reed-1909-ohio-strength-v1",
+            "section": "p102",
+            "locator": "p102",
+            "quote": "Twenty-first Brigade† | 2,000",
+            "source_path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+            "source_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+            "decision": "passage_and_context_inspected_supports_classification"
+          },
+          {
+            "source_id": "reed-1909-ohio-strength-v1",
+            "section": "p102",
+            "locator": "p102",
+            "quote": "† Arrived at Shiloh just before the battle ended. Estimated.",
+            "source_path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+            "source_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      },
+      {
+        "quantity_id": "reed-ohio-total-engaged",
+        "claim_id": "reed-ohio-estimates-and-discrepancy",
+        "lower": 17918,
+        "upper": 17918,
+        "estimate_kind": "reported_exact",
+        "estimation_status": "aggregate_includes_estimates",
+        "decision": "accept_within_supplied_evidence",
+        "reason": "17,918 includes explicitly estimated Second/Fifth/Sixth components; no separate explicit estimate qualifier attached to total.",
+        "citations": [
+          {
+            "source_id": "reed-1909-ohio-strength-v1",
+            "section": "p102",
+            "locator": "p102",
+            "quote": "Total Army of the Ohio | 17,918",
+            "source_path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+            "source_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+            "decision": "passage_and_context_inspected_supports_classification"
+          },
+          {
+            "source_id": "reed-1909-ohio-strength-v1",
+            "section": "p111-note-j",
+            "locator": "p111-note-j",
+            "quote": "The Second, Fifth, and Sixth Divisions are estimated from returns of March 20, March 31, and April 30, 1862.",
+            "source_path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+            "source_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+            "decision": "passage_and_context_inspected_supports_classification"
+          },
+          {
+            "source_id": "reed-1909-ohio-strength-v1",
+            "section": "p102",
+            "locator": "p102",
+            "quote": "† Arrived at Shiloh just before the battle ended. Estimated.",
+            "source_path": "data/raw/shiloh/reed-1909-ohio-strength-v1.txt",
+            "source_sha256": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+            "decision": "passage_and_context_inspected_supports_classification"
+          }
+        ]
+      }
+    ],
+    "source_revision_checks": [
+      {
+        "previous_id": "or-ammen-crossing-v1",
+        "new_id": "or-ammen-crossing-v2",
+        "previous_metadata_sha256": "b1235b68630fba8e6616e0fe75ca53badb0e97f3cfe8cc0ce01d231adf418b8e",
+        "new_metadata_sha256": "38a4a8686b632e5a49df4b3a129ec80d6060a2976d7ff352fee9c68c4c4cb23b",
+        "raw_path": "data/raw/shiloh/or-ammen-crossing-v1.txt",
+        "raw_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+        "decision": "accept_committed_record",
+        "raw_bytes_verified": true,
+        "predecessor_preserved": true,
+        "new_independent_evidence": false,
+        "independence_group": "or-nelson",
+        "facsimile_source_id": null,
+        "note": "Correct metadata in the committed record; omission handling in validator remains TN003-C1."
+      },
+      {
+        "previous_id": "or-nelson-reinforcements-v1",
+        "new_id": "or-nelson-reinforcements-v2",
+        "previous_metadata_sha256": "c876b278fe77436c024dcc64b42749c734ca7cf47711099c4b5c4239b26f3e41",
+        "new_metadata_sha256": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+        "raw_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+        "raw_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+        "decision": "accept_committed_record",
+        "raw_bytes_verified": true,
+        "predecessor_preserved": true,
+        "new_independent_evidence": false,
+        "independence_group": "or-nelson",
+        "facsimile_source_id": null,
+        "note": "Correct metadata in the committed record; omission handling in validator remains TN003-C1."
+      },
+      {
+        "previous_id": "or-union-return-detail-v2",
+        "new_id": "or-union-return-detail-v3",
+        "previous_metadata_sha256": "e4edbe0a72da183b02271b51551cfd117cc975785dff588f7ad2665c2affd3ef",
+        "new_metadata_sha256": "1075fbfb1317f1be5502bb3454c6943949ef84014696135b4bf4a3b0ff3d8b63",
+        "raw_path": "data/raw/shiloh/or-union-return-detail-v2.txt",
+        "raw_sha256": "70099ece7f07cf264d777f3e9d80e49ec40c230b5c671962e3cdc0dbfd4f2c94",
+        "decision": "accept_committed_record",
+        "raw_bytes_verified": true,
+        "predecessor_preserved": true,
+        "new_independent_evidence": false,
+        "independence_group": "or-union-returns",
+        "facsimile_source_id": "or-union-return-scan",
+        "note": "Correct metadata in the committed record; omission handling in validator remains TN003-C1."
+      }
+    ],
+    "section_date_checks": [
+      {
+        "source_id": "or-ammen-crossing-v2",
+        "source_path": "data/raw/shiloh/or-ammen-crossing-v1.txt",
+        "source_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+        "section": "p327-heading",
+        "document_date": "1862-04-10",
+        "decision": "accept",
+        "reason": "Report section belongs to the April 10 report dateline; not an event or command-knowledge date."
+      },
+      {
+        "source_id": "or-ammen-crossing-v2",
+        "source_path": "data/raw/shiloh/or-ammen-crossing-v1.txt",
+        "source_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+        "section": "p328-report",
+        "document_date": "1862-04-10",
+        "decision": "accept",
+        "reason": "Report section belongs to the April 10 report dateline; not an event or command-knowledge date."
+      },
+      {
+        "source_id": "or-ammen-crossing-v2",
+        "source_path": "data/raw/shiloh/or-ammen-crossing-v1.txt",
+        "source_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+        "section": "p329-diary-heading",
+        "document_date": null,
+        "decision": "accept",
+        "reason": "No separate composition/preparation date established for this diary or compiler/attached-table section; preserve null."
+      },
+      {
+        "source_id": "or-ammen-crossing-v2",
+        "source_path": "data/raw/shiloh/or-ammen-crossing-v1.txt",
+        "source_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+        "section": "p330-diary",
+        "document_date": null,
+        "decision": "accept",
+        "reason": "No separate composition/preparation date established for this diary or compiler/attached-table section; preserve null."
+      },
+      {
+        "source_id": "or-ammen-crossing-v2",
+        "source_path": "data/raw/shiloh/or-ammen-crossing-v1.txt",
+        "source_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+        "section": "p333-diary",
+        "document_date": null,
+        "decision": "accept",
+        "reason": "No separate composition/preparation date established for this diary or compiler/attached-table section; preserve null."
+      },
+      {
+        "source_id": "or-ammen-crossing-v2",
+        "source_path": "data/raw/shiloh/or-ammen-crossing-v1.txt",
+        "source_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+        "section": "p334-diary",
+        "document_date": null,
+        "decision": "accept",
+        "reason": "No separate composition/preparation date established for this diary or compiler/attached-table section; preserve null."
+      },
+      {
+        "source_id": "or-nelson-reinforcements-v2",
+        "source_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+        "source_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+        "section": "p323-heading",
+        "document_date": "1862-04-10",
+        "decision": "accept",
+        "reason": "Report section belongs to the April 10 report dateline; not an event or command-knowledge date."
+      },
+      {
+        "source_id": "or-nelson-reinforcements-v2",
+        "source_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+        "source_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+        "section": "p323-crossing",
+        "document_date": "1862-04-10",
+        "decision": "accept",
+        "reason": "Report section belongs to the April 10 report dateline; not an event or command-knowledge date."
+      },
+      {
+        "source_id": "or-nelson-reinforcements-v2",
+        "source_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+        "source_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+        "section": "pp323-324-action",
+        "document_date": "1862-04-10",
+        "decision": "accept",
+        "reason": "Report section belongs to the April 10 report dateline; not an event or command-knowledge date."
+      },
+      {
+        "source_id": "or-nelson-reinforcements-v2",
+        "source_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+        "source_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+        "section": "p324-night",
+        "document_date": "1862-04-10",
+        "decision": "accept",
+        "reason": "Report section belongs to the April 10 report dateline; not an event or command-knowledge date."
+      },
+      {
+        "source_id": "or-nelson-reinforcements-v2",
+        "source_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+        "source_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+        "section": "p324-morning",
+        "document_date": "1862-04-10",
+        "decision": "accept",
+        "reason": "Report section belongs to the April 10 report dateline; not an event or command-knowledge date."
+      },
+      {
+        "source_id": "or-nelson-reinforcements-v2",
+        "source_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+        "source_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+        "section": "p324-artillery",
+        "document_date": "1862-04-10",
+        "decision": "accept",
+        "reason": "Report section belongs to the April 10 report dateline; not an event or command-knowledge date."
+      },
+      {
+        "source_id": "or-nelson-reinforcements-v2",
+        "source_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+        "source_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+        "section": "p325-strength",
+        "document_date": "1862-04-10",
+        "decision": "accept",
+        "reason": "Report section belongs to the April 10 report dateline; not an event or command-knowledge date."
+      },
+      {
+        "source_id": "or-nelson-reinforcements-v2",
+        "source_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+        "source_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+        "section": "p326-return",
+        "document_date": null,
+        "decision": "accept",
+        "reason": "No separate composition/preparation date established for this diary or compiler/attached-table section; preserve null."
+      },
+      {
+        "source_id": "or-nelson-reinforcements-v2",
+        "source_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+        "source_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+        "section": "p327-march-return",
+        "document_date": null,
+        "decision": "accept",
+        "reason": "No separate composition/preparation date established for this diary or compiler/attached-table section; preserve null."
+      }
+    ],
+    "editorial_section_checks": [
+      {
+        "source_id": "or-ammen-crossing-v2",
+        "section": "transcription-scope",
+        "decision": "accept_local_editorial_exclusion"
+      },
+      {
+        "source_id": "or-nelson-reinforcements-v2",
+        "section": "transcription-scope",
+        "decision": "accept_local_editorial_exclusion"
+      }
+    ],
+    "changed_claim_citation_checks": [
+      {
+        "claim_id": "sixth-division-return-components",
+        "citation_index": 0,
+        "previous_source_id": "or-union-return-detail-v2",
+        "new_source_id": "or-union-return-detail-v3",
+        "section": "p112",
+        "locator": "p112",
+        "quote": "1st Brigade | 119 | 2,671 | 2,790\n2d Brigade | 85 | 1,689 | 1,774\nUnattached | 41 | 858 | 899\nTotal Sixth Division | 245 | 5,218 | 5,463",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "sixth-division-return-components",
+        "citation_index": 1,
+        "previous_source_id": "or-union-return-detail-v2",
+        "new_source_id": "or-union-return-detail-v3",
+        "section": "p112",
+        "locator": "p112",
+        "quote": "Return dated April 5; strength of two regiments and one battery not reported on the original.",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "reed-sixth-division-reconstruction",
+        "citation_index": 4,
+        "previous_source_id": "or-union-return-detail-v2",
+        "new_source_id": "or-union-return-detail-v3",
+        "section": "p112",
+        "locator": "p112",
+        "quote": "Unattached | 41 | 858 | 899",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "nelson-crossing-clock-dispute",
+        "citation_index": 0,
+        "previous_source_id": "or-nelson-reinforcements-v1",
+        "new_source_id": "or-nelson-reinforcements-v2",
+        "section": "p323-crossing",
+        "locator": "p323-crossing",
+        "quote": "at 1.30 p. m. on Sunday, April 6",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "nelson-crossing-clock-dispute",
+        "citation_index": 1,
+        "previous_source_id": "or-nelson-reinforcements-v1",
+        "new_source_id": "or-nelson-reinforcements-v2",
+        "section": "p323-crossing",
+        "locator": "p323-crossing",
+        "quote": "in four hours. At 5 the head of my column marched up the bank at Pittsburg Landing",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "nelson-crossing-clock-dispute",
+        "citation_index": 2,
+        "previous_source_id": "or-nelson-reinforcements-v1",
+        "new_source_id": "or-nelson-reinforcements-v2",
+        "section": "pp323-324-action",
+        "locator": "pp323-324-action",
+        "quote": "This was at 6.30 p. m.",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "ammen-crossing-sequence",
+        "citation_index": 0,
+        "previous_source_id": "or-ammen-crossing-v1",
+        "new_source_id": "or-ammen-crossing-v2",
+        "section": "p328-report",
+        "locator": "p328-report",
+        "quote": "April 6, at 1 o'clock p. m., the Tenth Brigade marched from Savannah",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "ammen-crossing-sequence",
+        "citation_index": 1,
+        "previous_source_id": "or-ammen-crossing-v1",
+        "new_source_id": "or-ammen-crossing-v2",
+        "section": "p330-diary",
+        "locator": "p330-diary",
+        "quote": "reached Savannah, Tenn., before 12 m.",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "ammen-crossing-sequence",
+        "citation_index": 2,
+        "previous_source_id": "or-ammen-crossing-v1",
+        "new_source_id": "or-ammen-crossing-v2",
+        "section": "p333-diary",
+        "locator": "p333-diary",
+        "quote": "General Nelson went over on the first boat with a part of the Thirty-sixth Indiana",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "ammen-crossing-sequence",
+        "citation_index": 3,
+        "previous_source_id": "or-ammen-crossing-v1",
+        "new_source_id": "or-ammen-crossing-v2",
+        "section": "p333-diary",
+        "locator": "p333-diary",
+        "quote": "only three or four companies could cross on a boat.",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "nelson-night-infantry-crossing",
+        "citation_index": 0,
+        "previous_source_id": "or-nelson-reinforcements-v1",
+        "new_source_id": "or-nelson-reinforcements-v2",
+        "section": "p324-night",
+        "locator": "p324-night",
+        "quote": "By 9 p. m. the infantry of my division were all across the river",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "nelson-separated-arms",
+        "citation_index": 0,
+        "previous_source_id": "or-nelson-reinforcements-v1",
+        "new_source_id": "or-nelson-reinforcements-v2",
+        "section": "p324-artillery",
+        "locator": "p324-artillery",
+        "quote": "I was compelled to leave the three batteries of my division at Savannah.",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "nelson-action-strength",
+        "citation_index": 0,
+        "previous_source_id": "or-nelson-reinforcements-v1",
+        "new_source_id": "or-nelson-reinforcements-v2",
+        "section": "p325-strength",
+        "locator": "p325-strength",
+        "quote": "It went into action 4,541 strong,",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "nelson-action-strength",
+        "citation_index": 1,
+        "previous_source_id": "or-nelson-reinforcements-v1",
+        "new_source_id": "or-nelson-reinforcements-v2",
+        "section": "p326-return",
+        "locator": "p326-return",
+        "quote": "36th Indiana | 380",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "nelson-action-strength",
+        "citation_index": 2,
+        "previous_source_id": "or-nelson-reinforcements-v1",
+        "new_source_id": "or-nelson-reinforcements-v2",
+        "section": "p326-return",
+        "locator": "p326-return",
+        "quote": "April 6 and 7, 1862.",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "nelson-action-strength",
+        "citation_index": 3,
+        "previous_source_id": "or-nelson-reinforcements-v1",
+        "new_source_id": "or-nelson-reinforcements-v2",
+        "section": "p326-return",
+        "locator": "p326-return",
+        "quote": "Total in division | 4,541",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "nelson-march-paper-strength",
+        "citation_index": 0,
+        "previous_source_id": "or-nelson-reinforcements-v1",
+        "new_source_id": "or-nelson-reinforcements-v2",
+        "section": "p327-march-return",
+        "locator": "p327-march-return",
+        "quote": "Total | 255 | 6,469 | 6,724 | 9,526 | 18",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "nelson-march-paper-strength",
+        "citation_index": 1,
+        "previous_source_id": "or-nelson-reinforcements-v1",
+        "new_source_id": "or-nelson-reinforcements-v2",
+        "section": "p327-march-return",
+        "locator": "p327-march-return",
+        "quote": "for the month of March, 1862.",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "nelson-march-paper-strength",
+        "citation_index": 2,
+        "previous_source_id": "or-nelson-reinforcements-v1",
+        "new_source_id": "or-nelson-reinforcements-v2",
+        "section": "p327-march-return",
+        "locator": "p327-march-return",
+        "quote": "Cavalry | 32 | 858 | 890",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "nelson-march-paper-strength",
+        "citation_index": 3,
+        "previous_source_id": "or-nelson-reinforcements-v1",
+        "new_source_id": "or-nelson-reinforcements-v2",
+        "section": "p327-march-return",
+        "locator": "p327-march-return",
+        "quote": "The division staff (6) not embraced in columns of figures.",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "ammen-night-formation",
+        "citation_index": 0,
+        "previous_source_id": "or-ammen-crossing-v1",
+        "new_source_id": "or-ammen-crossing-v2",
+        "section": "p334-diary",
+        "locator": "p334-diary",
+        "quote": "About 10 o'clock at night we commenced forming our new line of battle",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "ammen-night-formation",
+        "citation_index": 1,
+        "previous_source_id": "or-ammen-crossing-v1",
+        "new_source_id": "or-ammen-crossing-v2",
+        "section": "p334-diary",
+        "locator": "p334-diary",
+        "quote": "The Twenty-fourth Ohio Volunteer Infantry was brought back about midnight and formed my second line and reserve.",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "nelson-morning-phase-clocks",
+        "citation_index": 0,
+        "previous_source_id": "or-nelson-reinforcements-v1",
+        "new_source_id": "or-nelson-reinforcements-v2",
+        "section": "p324-morning",
+        "locator": "p324-morning",
+        "quote": "At 4 a. m. I roused up the men quietly",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      },
+      {
+        "claim_id": "nelson-morning-phase-clocks",
+        "citation_index": 1,
+        "previous_source_id": "or-nelson-reinforcements-v1",
+        "new_source_id": "or-nelson-reinforcements-v2",
+        "section": "p324-morning",
+        "locator": "p324-morning",
+        "quote": "At 5.20 I found them, and the action commenced with vigor.",
+        "decision": "accept_same_raw_passage_corrected_metadata_only"
+      }
+    ],
+    "crittenden_check": {
+      "claim_id": "crittenden-arrival-phases",
+      "new_value": "Crittenden reports reaching Pittsburg Landing about 21:00 April 6, with debarkation following as soon as practicable; he reports being conducted to his position about 05:00 April 7 and the Third Kentucky Cavalry remaining opposite the landing for lack of transport.",
+      "citations": [
+        {
+          "source_id": "or-crittenden-reinforcements-v1",
+          "section": "p355",
+          "locator": "p355",
+          "quote": "We reached Pittsburg Landing at about 9 o'clock p. m."
+        },
+        {
+          "source_id": "or-crittenden-reinforcements-v1",
+          "section": "p355",
+          "locator": "p355",
+          "quote": "At about 5 a. m. we were conducted to our position by General Buell in person."
+        },
+        {
+          "source_id": "or-crittenden-reinforcements-v1",
+          "section": "p354-cavalry",
+          "locator": "p354-cavalry",
+          "quote": "except Jackson's cavalry, which marched at once to the landing opposite Pittsburg Landing"
+        },
+        {
+          "source_id": "or-crittenden-reinforcements-v1",
+          "section": "p354-cavalry",
+          "locator": "p354-cavalry",
+          "quote": "no transportation could be furnished"
+        }
+      ],
+      "source_sha256": "235b01590b21cbf161ebe63162db73cf45184bd234f4025deae555040f317391",
+      "decision": "accept",
+      "visual_verification": false
+    },
+    "visual_checks": [
+      {
+        "path": "data/raw/shiloh/reed-1909-union-p96-facsimile-v1.png",
+        "sha256": "f44f67c179a4dbb328cbb6d446bae9a28d1ed29fd8f314672a4d08184db20bb1",
+        "locator": "Reed p.96",
+        "inspected_scope": "Eighteenth Wisconsin 735 and its asterisk; estimated components of Sixth Division.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "data/raw/shiloh/reed-1909-union-p97-facsimile-v1.png",
+        "sha256": "5a355ac9c6cc6542e4191448f40904d7394a621d8bc855d7aa381caee9385843",
+        "locator": "Reed p.97",
+        "inspected_scope": "Sixth Division 7,545 and * Estimated footnote.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "data/raw/shiloh/reed-reinforcement-p100-facsimile-v1.png",
+        "sha256": "c0c4d7dc67e98d427558574f4c7a003d6a40767cc11b2afe8987478b709a92de",
+        "locator": "Reed p.100",
+        "inspected_scope": "April 30 9,118 return separated from marked April 7 7,553; Nelson March return heading.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "data/raw/shiloh/reed-reinforcement-p101-facsimile-v1.png",
+        "sha256": "656f866652e3de14f7d61f7ab284eaf1dc05f1fd98f0a9a7e2c8af92375ac5e1",
+        "locator": "Reed p.101",
+        "inspected_scope": "5,535 return and 4,541 report; Crittenden 3,825 marker; * Approximated, Note j; missing return notes.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "data/raw/shiloh/reed-reinforcement-p102-facsimile-v1.png",
+        "sha256": "f5a32895999f3ff9b0834a5cd5c9fbf9c3616ad10a87e61325835c8f95212092",
+        "locator": "Reed p.102",
+        "inspected_scope": "Wagner 2,000 estimated late arrival; 7,552 recap and 17,918 total.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "data/raw/shiloh/reed-1909-union-p93-facsimile-v1.png",
+        "sha256": "c360e57571cddcc9cde0e69603cb6aad64e82f51adb0b61c7225add59481c339",
+        "locator": "Reed p.93",
+        "inspected_scope": "Detachment asterisks, 1,727 and 5,837; Ohio regiment/cavalry return rows. Asterisks here do not mean estimated.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "reviews/TN003-a42f063-v1/pages/reed-p111.png",
+        "sha256": "575e5da35bfc7398a1e1d36e64805441d5187beb707ac4206d746066b5738b9d",
+        "locator": "Reed p.111, Union notes b-j",
+        "inspected_scope": "Estimation note j including McCook 7,552 and mixed return dates; Sixth Division arrival notes. Confederate notes below j were not audited.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "data/raw/shiloh/or-union-return.png",
+        "sha256": "5f885b86e24cdfc13bfe96c066e5b020a747f3b81ffc71896cdf80be0cd383da",
+        "locator": "OR I.X.1 p.112",
+        "inspected_scope": "Same-return identity, Sixth Division rows and 5,463, grand total 44,895, Third Division 7,564, compiler omissions.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "reviews/TN003-a42f063-v1/pages/or-p323.png",
+        "sha256": "27e5e98208cba16ac021d54e11b7172bc4e3ae45f8fae8a329b78aa513f743bd",
+        "locator": "OR I.X.1 p.323",
+        "inspected_scope": "Nelson report heading and April 10 dateline; crossing/action paragraphs.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "reviews/TN003-a42f063-v1/pages/or-p324.png",
+        "sha256": "753e1fb0c41d26f4fb0625fa0a8f4b4d8df4f2988e3bc5fcf0c2823245c685c1",
+        "locator": "OR I.X.1 p.324",
+        "inspected_scope": "Nelson report continuation: night, morning and artillery passages; no separate document date.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "data/raw/shiloh/or-reinforcement-p326-facsimile-v1.png",
+        "sha256": "6a16948ba7308e08559143f9e68b45f66ed383779950018109697f1529f7c54f",
+        "locator": "OR I.X.1 p.326",
+        "inspected_scope": "Report signature, attached action table including 380 and 4,541, compiler/cavalry footnotes, separate April 12 letter.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "data/raw/shiloh/or-reinforcement-p327-facsimile-v1.png",
+        "sha256": "3219c3346da5ad79c292daa33f5f6509c888169b167c181952d5f9d5bb7ddf5a",
+        "locator": "OR I.X.1 p.327",
+        "inspected_scope": "Separate April 16 letter; March abstract 6,724 and staff note; Ammen report April 10 heading.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "reviews/TN003-a42f063-v1/pages/or-p328.png",
+        "sha256": "13c5f7d87c254102686b669aa3c3d54043c856a099f265e2b86f3634ee12fa3e",
+        "locator": "OR I.X.1 p.328",
+        "inspected_scope": "Ammen report continuation and crossing passage.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "reviews/TN003-a42f063-v1/pages/or-p329.png",
+        "sha256": "034cd7356dac1fd49a1c45babda42ec0adf9f675d0bdf8673451ea006c5803ab",
+        "locator": "OR I.X.1 p.329",
+        "inspected_scope": "Ammen report ending, attached casualties, separate diary heading; diary composition date not established.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "reviews/TN003-a42f063-v1/pages/or-p330.png",
+        "sha256": "ebc18e5e242ca58f65c90b82de2b2df0afcdc32311f2c4d8a772439f2cb2791c",
+        "locator": "OR I.X.1 p.330",
+        "inspected_scope": "Ammen diary event labels and April 5 Savannah arrival; event dates are not composition dates.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "reviews/TN003-a42f063-v1/pages/or-p333.png",
+        "sha256": "3121fe99b628406d692b2a66ff7d39b27c30b4027ce80a0be7ea34c45fd0d474",
+        "locator": "OR I.X.1 p.333",
+        "inspected_scope": "Diary crossing and boat passages, continued narrative.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "reviews/TN003-a42f063-v1/pages/or-p334.png",
+        "sha256": "83a0e32b55bb171fc38b9e3d87085d89d53b06f5f9e144f6829c1f7a7070bf14",
+        "locator": "OR I.X.1 p.334",
+        "inspected_scope": "Diary night formation and midnight return passages, continued narrative.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "data/raw/shiloh/or-confederate-return.png",
+        "sha256": "fdf3154912efd3121eb52e0cfdcb8cc5ab04c669a6758513b7547fd86e991e32",
+        "locator": "OR I.X.1 p.396",
+        "inspected_scope": "40,335/29,636 return, discrepancy footnote and April 21 forwarding; no explicit estimation qualifier for these cells on page.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "data/raw/shiloh/or-confederate-report-136-v1.png",
+        "sha256": "2cec00dfd99ed0a66e96977b3578606fd213930c1a3417c43d729bd787e537a5",
+        "locator": "OR I.X.1 p.398",
+        "inspected_scope": "Four selected effective totals, headings, Hill arrival footnote, June 30 forwarding; no estimation marker.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "data/raw/shiloh/or-confederate-report-137-v1.png",
+        "sha256": "57335aa1a9cf578be6ae4abbd11224c07a8703c7420192181cd04ddb5346d114",
+        "locator": "OR I.X.1 p.399",
+        "inspected_scope": "Four selected effective totals and explanatory note; printed discrepancies remain; no estimation marker.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "data/raw/shiloh/reed-1909-union-p98-facsimile-v1.png",
+        "sha256": "f9346df6200f246a7ce80f3ca651a0fecce89775b01cd7d91f5aa50b2229f790",
+        "locator": "Reed p.98",
+        "inspected_scope": "5,837 Third Division reinforcement row and its relation to p.93.",
+        "decision": "supports_changed_field_review"
+      },
+      {
+        "path": "reviews/TN003-a42f063-v1/pages/or-p337.png",
+        "sha256": "8c03bccb04612f26c1db869e8d882efcaae6cef5959eba3b72a3a3239d6b8392",
+        "locator": "OR I.X.1 p.337",
+        "inspected_scope": "Grose report: eight companies about 400 strong; report date and Sunday formation context.",
+        "decision": "supports_changed_field_review"
+      }
+    ]
+  },
+  "preservation": {
+    "old_source_records_preserved": 50,
+    "current_source_records": 53,
+    "distinct_raw_paths": 50,
+    "new_historical_witnesses": 0,
+    "all_registered_raw_hashes_verified": true,
+    "prior_dossier_archived_byte_identically": true,
+    "unchanged_quantity_existing_fields": 40,
+    "unchanged_events": 26,
+    "unchanged_null_unknown_claims": 3,
+    "all_other_claim_changes_limited_to_24_source_aliases_and_one_wording": true,
+    "open_questions_unchanged": true,
+    "disputes_resolved": false,
+    "replacement_boundaries_unchanged": true,
+    "frozen_review_bundle_unchanged": true,
+    "model_inputs_cohort_and_baseline_json_unchanged": true
+  },
+  "findings": [
+    {
+      "id": "TN003-C1",
+      "priority": 2,
+      "severity": "material_contract_gap",
+      "title": "Reject partial metadata contracts before bypassing their validation",
+      "original_findings_affected": [
+        "TN003-R2",
+        "TN003-R3"
+      ],
+      "locations": [
+        {
+          "path": "generalship/sources.py",
+          "start_line": 69,
+          "end_line": 90
+        },
+        {
+          "path": "generalship/sources.py",
+          "start_line": 54,
+          "end_line": 66
+        }
+      ],
+      "description": "Both new contracts are gated only by the field whose presence they must protect. A metadata_only record with revision_kind/revision_note but no supersedes skips predecessor binding. A section-dated record retaining editorial_sections and its note but missing document_dates_by_section skips complete-section/null-fallback validation; restoring April 10 then makes the diary appear dated. The committed registry is correct. The ordinary offline check accepts these malformed future edits, so migration idempotence alone does not enforce the documented source contract.",
+      "evidence": {
+        "reviewed_sources_module_sha256": "0ec315e93f7fee6d845294e66ad2e73b1ee87e23b187e955d22c106ad65451dd",
+        "reproduction_python": "from copy import deepcopy\nfrom pathlib import Path\nfrom generalship.sources import source_registry, validate_source_metadata, source_document_date\nroot = Path(\".\")\nregistry = source_registry(root)\n# Case A: one omitted field defeats predecessor binding.\na = deepcopy(registry)\ndel a[\"or-ammen-crossing-v2\"][\"supersedes\"]\na[\"or-ammen-crossing-v1\"][\"document_date\"] = None\nvalidate_source_metadata(root, a)  # incorrectly succeeds\n# Case B: an omitted map defeats the null diary date.\nb = deepcopy(registry)\ndel b[\"or-ammen-crossing-v2\"][\"document_dates_by_section\"]\nb[\"or-ammen-crossing-v2\"][\"document_date\"] = \"1862-04-10\"\nvalidate_source_metadata(root, b)  # incorrectly succeeds\nassert source_document_date(b[\"or-ammen-crossing-v2\"], \"p334-diary\") == \"1862-04-10\"\n",
+        "observed_cases": [
+          {
+            "case": "delete supersedes only",
+            "result": "validate_source_metadata accepts incomplete metadata_only record"
+          },
+          {
+            "case": "delete supersedes and alter previous document_date",
+            "result": "validate_source_metadata accepts broken predecessor history binding"
+          },
+          {
+            "case": "delete document_dates_by_section only",
+            "result": "validate_source_metadata accepts editorial_sections without its required date map"
+          },
+          {
+            "case": "delete date map and set source-wide April 10",
+            "result": "validate_source_metadata accepts; source_document_date(p334-diary) returns 1862-04-10"
+          },
+          {
+            "case": "serialize both omissions and restored source date in isolated checkout",
+            "result": "python3 -m generalship check exits 0"
+          }
+        ],
+        "historical_support": [
+          {
+            "source_id": "or-ammen-crossing-v2",
+            "path": "data/raw/shiloh/or-ammen-crossing-v1.txt",
+            "sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+            "sections": [
+              "p327-heading",
+              "p329-diary-heading",
+              "p334-diary",
+              "transcription-scope"
+            ],
+            "reason": "Report April 10 is explicit; supplied diary heading/passages do not establish its composition date."
+          }
+        ]
+      },
+      "proposed_correction": [
+        "Treat supersedes, revision_kind and revision_note as one contract: if any is present, require all, a nonempty textual note, valid metadata_only kind, and a valid differently named predecessor with matching full metadata hash and unchanged raw fields. Keep legacy entries with none of these fields valid.",
+        "Reject editorial_sections without document_dates_by_section in validate_source_metadata and source_document_date before legacy fallback. Continue checking mapped nulls and full historical-section coverage. Do not require a map merely because document_date_note exists: legacy Confederate scans have legitimate standalone date notes.",
+        "Add mutation regressions for omitted supersedes, omitted entire date map, wrong source-wide date after map omission, and direct helper calls on malformed partial metadata; exercise the ordinary check path. Preserve the three existing records and all raw bytes."
+      ],
+      "resolution_status": "open",
+      "historical_values_need_change": false
+    }
+  ],
+  "tests_performed": [
+    {
+      "command": "make check",
+      "environment": "isolated git archive of reviewed commit under /tmp; offline Python standard library",
+      "result": "50 tests passed; CLI contract check passed",
+      "tests": 50
+    },
+    {
+      "command": "make reproduce; make packet",
+      "result": "Both succeeded in isolated archive; baseline/report/quality/receipt/packet byte-identical to reviewed commit",
+      "byte_equality": {
+        "artifacts/baseline.json": true,
+        "artifacts/pilot-report.md": true,
+        "artifacts/quality.json": true,
+        "artifacts/receipt.json": true,
+        "artifacts/research/TN003.md": true
+      }
+    },
+    {
+      "command": "expected_outputs and migrate on current exact output",
+      "result": "All four migration outputs match; files_written=0"
+    },
+    {
+      "command": "test_migration_is_idempotent_and_rejects_divergence_before_writing",
+      "result": "Real frozen-input transition writes four files, second run zero, divergent dossier rejects before recreating deleted ledger or changing registry"
+    },
+    {
+      "command": "partial-metadata mutation probes plus python3 -m generalship check",
+      "result": "Unexpectedly accepted omitted contracts; TN003-C1 reproduces; mutations confined to /tmp/in-memory copies"
+    }
+  ],
+  "baseline_result": {
+    "eligible_engagements": 23,
+    "frame_engagements": 127,
+    "eligible_campaign_groups": 13,
+    "frame_campaign_groups": 36,
+    "strength_brier": 0.2768816348133779,
+    "equal_odds_brier": 0.25,
+    "improved": false
+  },
+  "limitations": [
+    "No external research, no new historical testimony, no human review or historical adjudication. AI analysis can fulfill this bounded review only.",
+    "The source claims can be historically wrong despite correct extraction. Existing source disputes, chronology conflicts, 600-person uncertainty, missing underlying returns and 7,553/7,552 remain unresolved.",
+    "No claim of whole-dossier claim entailment re-review. Quantity classifications apply only to supplied inspected passages and notes, not unseen records.",
+    "Crittenden p.355, Rousseau p.310, Force and handbook quantity passages, NPS web text and Nelson p.325 remain without a supplied page-image comparison in this focused review. Section dates for p.325 use its report context and pinned text.",
+    "Legacy incorrect metadata records remain available intentionally for immutable historical dossiers; consumers must select the current IDs. The 53 records are 50 raw paths, not 53 independent witnesses.",
+    "Features, causal effects, uncertainty intervals and model admission remain outside scope. No numeric values or model predictions are approved as historical truth."
+  ]
+}
