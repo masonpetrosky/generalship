@@ -41,6 +41,7 @@ From the repository root:
 ```sh
 make check                         # tests + source/evidence/pipeline validation
 make reproduce                     # regenerate the committed artifacts offline
+python3 -m generalship admission-check # offline proposal audit; no promotion
 python3 -m generalship inspect TN003
 python3 -m generalship packet TN003 # prepare a research assignment; makes no AI call
 make review-bundle                 # frozen Shiloh sources/scans + reviewer prompt ZIP
@@ -104,8 +105,10 @@ versions, population, time and estimand restrictions. They emit no features.
 The [review and primary assessment](artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/primary-assessment.md)
 record the exact scope and remaining historical limits.
 
-Next implement the offline admission validator and complete-frame coverage ledger
-without promoting model inputs. Actual feature release still requires reviewed
+The [offline admission validator](docs/admission-validator.md) is implemented,
+with separate implementation review pending. Its complete-frame ledger checks all
+40 Shiloh troop observations: 18 blocked, 22 excluded and zero complete rows.
+No model inputs are promoted. Actual feature release still requires reviewed
 boundary/population mappings and a separate immutable admission manifest.
 
 Then define a campaign replacement boundary and outcomes before fitting enriched

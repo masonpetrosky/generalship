@@ -6,12 +6,13 @@ from pathlib import Path
 import sys
 
 from .baseline import evaluate
+from .admission import DEFAULT_PROPOSAL, check as check_admission
 from .dataset import build_dataset
 from .evidence import validate_all
 from .sources import digest, fetch_sources, read_json, write_json
 
 
-def report_text(root, profile, evaluation, dossiers):
+def report_text(root, profile, evaluation, dossiers, admission):
     total, eligible = profile["pilot_battles"], profile["baseline_eligible"]
     lines = ["# Pilot baseline and evidence coverage", "",
              "**Exploratory pipeline result. No validated general rankings or causal effects.**", "",
@@ -42,10 +43,17 @@ def report_text(root, profile, evaluation, dossiers):
               "| Battle | Claims | Explicit unknowns | Quantities | Events | Status |", "|---|---:|---:|---:|---:|---|"]
     for d in dossiers:
         lines.append(f"| [{d['battle_id']}](../data/evidence/{d['battle_id']}.json) | {d['claims']} | {d['unknown_claims']} | {d['quantities']} | {d['events']} | {d['status']} |")
+    coverage = admission['coverage']
+    counts = coverage['status_counts']
+    lines += ["", "## Admission proposal checks", "",
+              f"The offline validator retains all {coverage['frame_engagements']} engagements / {coverage['frame_campaigns']} campaign groups in its [coverage ledger](admission-check.json).",
+              f"It checks {coverage['candidate_observations']} Shiloh troop observations: {counts.get('blocked', 0)} blocked, {counts.get('excluded', 0)} excluded, {counts.get('eligible_candidate', 0)} eligible candidates, and {counts.get('invalid', 0)} invalid.",
+              f"There are {coverage['complete_candidate_engagements']} complete candidate rows and {admission['promoted_rows']} promoted rows. Missing mappings remain unknown; no canonical opening force is inferred.",
+              "The ledger separates dossier availability, candidate status, side coverage and baseline eligibility. These counts are mechanical checks, not historical adjudication or forecast improvement."]
     lines += ["", "## Next research action", "",
               "The [Shiloh research memo](../docs/research/shiloh.md) preserves competing returns, dated orders, reinforcement phases, and disputed responsibility. No canonical opening strength or effective command-transfer time has been adjudicated.",
               "The [Confederate return audit](../docs/research/shiloh-confederate-returns.md) and [Union availability audit](../docs/research/shiloh-union-availability.md) retain source and population disputes. The [Ohio reinforcement audit](../docs/research/shiloh-ohio-reinforcements.md) separates crossing, landing, formation and participation while preserving conflicting clocks, the untraced 600-person basis, mixed-date estimates and Reed's 7,553/7,552 discrepancy.",
-              "The fresh-context Astra xhigh [source review](review-results/TN003-a42f063-astra-xhigh-v1/review.md) checked all 62 claims, 40 quantities, 26 events and 26 supplied scan selections. Of 65 cited source/section pairs, 35 remain text/CSV-only. The [versioned correction pass](../docs/research/shiloh-review-corrections.md) implements estimation provenance, section-specific document dates, same-return dependence and Crittenden arrival wording. Focused review accepted all changed evidence; the [validator follow-up](review-results/TN003-corrections-5e23790-followup-v1/review.md) closed the sole implementation finding. The [feature-admission design](../docs/feature-admission.md) and [13 source-bound cases](../docs/research/shiloh-admission-examples.md) have a separate Astra xhigh [design review](review-results/feature-admission-838189f-astra-xhigh-v1/review.md) with no required corrections. The cases reference 26/62 claims, 27/40 quantities and 8/26 events, emitting zero model rows. Next implement the offline admission validator and complete-frame coverage ledger without promotion. Historical boundary and population mappings still require evidence-use review; no feature is admitted and historical disputes remain open.",
+              "The fresh-context Astra xhigh [source review](review-results/TN003-a42f063-astra-xhigh-v1/review.md) checked all 62 claims, 40 quantities, 26 events and 26 supplied scan selections. Of 65 cited source/section pairs, 35 remain text/CSV-only. The [versioned correction pass](../docs/research/shiloh-review-corrections.md) implements estimation provenance, section-specific document dates, same-return dependence and Crittenden arrival wording. Focused review accepted all changed evidence; the [validator follow-up](review-results/TN003-corrections-5e23790-followup-v1/review.md) closed the sole implementation finding. The [feature-admission design](../docs/feature-admission.md) and [13 source-bound cases](../docs/research/shiloh-admission-examples.md) have a separate Astra xhigh [design review](review-results/feature-admission-838189f-astra-xhigh-v1/review.md) with no required corrections. The cases reference 26/62 claims, 27/40 quantities and 8/26 events, emitting zero model rows. The [offline validator](../docs/admission-validator.md) now checks all 40 Shiloh troop observations and retains the complete frame without promotion; separate implementation review is pending. Historical boundary and population mappings still require evidence-use review; no feature is admitted and historical disputes remain open.",
               "Then expand by complete campaign, retaining every unscorable engagement in the coverage denominator.",
               "", "## Reproduce and inspect", "", "Run `make check` and `make reproduce` from the repository root.",
               "[Evaluation and fold membership](baseline.json), [coverage](quality.json), [run receipt](receipt.json),",
@@ -59,6 +67,9 @@ def run_build(root, write=False):
     records, profile = build_dataset(root)
     dossiers = validate_all(root)
     evaluation = evaluate(records)
+    admission = check_admission(root)
+    if admission['status'] == 'invalid' or admission['scenario_issues']:
+        raise ValueError('Default admission proposal has invalid bindings or scenarios')
     if write:
         output = root / "artifacts"
         output.mkdir(exist_ok=True)
@@ -66,6 +77,7 @@ def run_build(root, write=False):
         write_json(output / "quality.json", profile)
         write_json(output / "baseline.json", evaluation)
         write_json(output / "evidence-checks.json", dossiers)
+        write_json(output / "admission-check.json", admission)
         known = {d["battle_id"]: d["status"] for d in dossiers}
         write_json(output / "research-queue.json", [
             {"battle_id": r["battle_id"], "name": r["name"], "campaign": r["campaign"],
@@ -73,10 +85,11 @@ def run_build(root, write=False):
              "dossier_status": known.get(r["battle_id"], "not_started")}
             for r in records
         ])
-        (output / "pilot-report.md").write_text(report_text(root, profile, evaluation, dossiers), encoding="utf-8")
+        (output / "pilot-report.md").write_text(report_text(root, profile, evaluation, dossiers, admission), encoding="utf-8")
         inputs = sorted((root / "generalship").glob("*.py")) + [root / "data/sources.json", root / "data/pilot/cohort.json"]
         inputs += sorted((root / "data/evidence").rglob("*.json"))
-        outputs = ["battles.json", "quality.json", "baseline.json", "evidence-checks.json", "research-queue.json", "pilot-report.md"]
+        inputs += sorted(p for p in (root / "data/admission").rglob('*') if p.is_file())
+        outputs = ["battles.json", "quality.json", "baseline.json", "evidence-checks.json", "research-queue.json", "pilot-report.md", "admission-check.json"]
         write_json(output / "receipt.json", {
             "command": "python3 -m generalship build", "model_id": evaluation["model_id"],
             "input_sha256": {str(p.relative_to(root)): digest(p) for p in inputs},
@@ -85,7 +98,9 @@ def run_build(root, write=False):
         })
     return {"pilot_battles": len(records), "eligible_battles": evaluation["n_battles"],
             "eligible_campaigns": evaluation["n_campaigns"], "draft_dossiers": sum(d["status"] == "draft" for d in dossiers),
-            "metrics": evaluation["battle_weighted_metrics"], "artifacts_written": write}
+            "metrics": evaluation["battle_weighted_metrics"],
+            "admission_candidate_statuses": admission['coverage']['status_counts'],
+            "admission_promoted_rows": admission['promoted_rows'], "artifacts_written": write}
 
 
 def research_packet(root, battle_id):
@@ -114,11 +129,23 @@ def main(argv=None):
     for command in ("inspect", "packet"):
         p = sub.add_parser(command)
         p.add_argument("battle_id")
+    admission_parser = sub.add_parser('admission-check', help='Offline proposal/release audit; never promotes inputs')
+    admission_parser.add_argument('path', nargs='?', default=DEFAULT_PROPOSAL)
+    admission_parser.add_argument('--details', action='store_true', help='Print the complete ledger and provenance')
     args = parser.parse_args(argv)
     root = args.root.resolve()
     try:
         if args.command in {"check", "build"}:
             result = run_build(root, write=args.command == "build")
+        elif args.command == 'admission-check':
+            checked = check_admission(root, args.path)
+            result = checked if args.details else {
+                'kind': checked['kind'], 'status': checked.get('release_status', checked['status']),
+                'coverage': {k: v for k, v in checked['coverage'].items() if k != 'ledger'},
+                'scenario_issues': checked['scenario_issues'], 'promoted_rows': checked['promoted_rows']}
+            print(json.dumps(result, indent=2, ensure_ascii=False, allow_nan=False))
+            return int(checked['status'] == 'invalid' or bool(checked['scenario_issues'])
+                       or checked.get('release_status') == 'blocked')
         elif args.command == "fetch":
             result = {"restored_sources": fetch_sources(root)}
         elif args.command == "packet":

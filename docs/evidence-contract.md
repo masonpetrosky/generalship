@@ -190,8 +190,9 @@ must remain labeled AI: it does not establish human historical adjudication,
 source independence or automatic feature admission. See [AGENTS.md](../AGENTS.md).
 
 The current pipeline **never promotes dossiers into baseline inputs**, even if a
-dossier is marked reviewed. The feature-admission mechanism does not exist yet.
-That deliberate boundary prevents draft interpretations from changing results.
+dossier is marked reviewed. The [offline admission validator](admission-validator.md)
+checks a separately bound proposal and release manifest without installing model
+inputs. That boundary prevents draft interpretations from changing results.
 The [feature-admission design](feature-admission.md) specifies the future separate
 profile, candidate, evidence-use review and release-manifest gates. Its
 [Shiloh examples](research/shiloh-admission-examples.md) bind existing evidence

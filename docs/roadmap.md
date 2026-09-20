@@ -46,14 +46,17 @@ The [feature-admission design](feature-admission.md) and
 separate Astra `xhigh` design review with no required corrections. See the
 [actual review and primary assessment](../artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/primary-assessment.md).
 The examples reference 26/62 claims, 27/40 quantities and 8/26 events and admit
-zero features. The runtime admission mechanism is still unimplemented.
+zero features. An [offline validator and coverage ledger](admission-validator.md)
+now implements the non-promoting checks; separate implementation review is pending.
 
-Start now by implementing the offline validator and complete-frame coverage
-ledger against this reviewed specification, initially without promotion. Use
-explicit synthetic fixtures to exercise positive admission and the required
-rejection cases. Preserve the current baseline. Historical feature admission
-requires further boundary/population evidence-use review and an immutable release
-manifest; design acceptance does not grant that approval.
+The validator checks all 40 Shiloh troop observations: 18 blocked and 22 excluded,
+with zero complete rows across the retained 127-engagement / 36-campaign frame.
+Synthetic fixtures exercise positive reviewed-manifest replay and rejection cases.
+The current baseline remains unchanged. Next establish a source-backed boundary
+and population mapping through a bounded evidence-use proposal, continuing
+research across the complete source campaign. Historical admission still requires
+actual evidence-use review and an immutable release manifest; implementation
+review does not grant that approval.
 
 The [actual AI review](../artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review.md)
 covers 62/62 claims, 40/40 quantities, 26/26 events and 26/26 supplied scan

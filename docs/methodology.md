@@ -164,7 +164,8 @@ review/release gates. This profile may use later reports to reconstruct an earli
 state; it does not claim to forecast from a historical commander's information
 set. It excludes post-boundary state and participation, including indirect use
 through transformations, and keeps unresolved scope and source alternatives
-visible. Neither an admission engine nor new model inputs are implemented.
+visible. The [offline validator](admission-validator.md) now implements proposal
+and manifest checks without promoting model inputs or fitting enriched models.
 
 The [13 Shiloh design cases](research/shiloh-admission-examples.md) cover selected
 observations and emit no features. The proposed opening population and boundary
