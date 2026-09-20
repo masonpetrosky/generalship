@@ -254,6 +254,7 @@ def _candidate(root, c, profile, supported, boundary, sources, dossiers, reasons
     nodes = indexed(c['nodes'], 'nodes')
     require(c['root_node'] in nodes, 'Missing root node')
     observations, visited, active, values = [], set(), set(), {}
+    observation_nodes = {}
     if not supported:
         _reason(reasons, 'profile', 'excluded', 'unsupported_profile')
     if (any(boundary[k] is None for k in ('date', 'contact_definition', 'area', 'availability_rule'))
@@ -290,6 +291,10 @@ def _candidate(root, c, profile, supported, boundary, sources, dossiers, reasons
             source_choices[key] = choice
         if n['kind'] in {'quantity', 'claim'}:
             require(not children and isinstance(n['reference'], str), 'Observation node shape')
+            identity = (n['kind'], n['reference'])
+            require(identity not in observation_nodes,
+                    'Duplicate observation reference; reuse its existing dependency node')
+            observation_nodes[identity] = nid
             if n['kind'] == 'claim':
                 claim = claims[n['reference']]
                 require(claim['value'] is None or claim['dimension'] == 'outcome',
@@ -329,11 +334,12 @@ def _candidate(root, c, profile, supported, boundary, sources, dossiers, reasons
                     _reason(reasons, 'temporal', 'excluded', 'participation_or_post_outcome_observation', nid)
                 # Calendar inequalities are conservative: a same-day date does
                 # not establish order relative to contact; a later day is later.
-                if (q['period']['start'] and boundary['date']
-                        and q['period']['start'] > boundary['date']):
+                start = date.fromisoformat(q['period']['start']) if q['period']['start'] else None
+                end = date.fromisoformat(q['period']['end']) if q['period']['end'] else None
+                boundary_day = date.fromisoformat(boundary['date']) if boundary['date'] else None
+                if start and boundary_day and start > boundary_day:
                     _reason(reasons, 'temporal', 'excluded', 'observed_state_after_boundary', nid)
-                elif (q['period']['end'] and boundary['date']
-                      and q['period']['end'] > boundary['date']):
+                elif end and boundary_day and end > boundary_day:
                     _reason(reasons, 'temporal', 'blocked', 'state_interval_crosses_boundary', nid)
                 if q['period']['start'] is None and not m['citations']:
                     _reason(reasons, 'temporal', 'blocked', 'state_time_unestablished', nid)
@@ -396,13 +402,13 @@ def _candidate(root, c, profile, supported, boundary, sources, dossiers, reasons
 def _scenarios(scenarios, frame, decisions):
     by_id = indexed(scenarios, 'scenarios')
     require(bool(by_id), 'At least one explicit scenario is required')
-    rows, issues, selected = {}, [], set()
+    rows, issues, selected, paired_by_scenario = {}, [], set(), {}
     for sid, scenario in sorted(by_id.items()):
         shape(scenario, 'id assignments rationale', 'scenario')
         text(scenario['rationale'], 'Scenario rationale')
         require(isinstance(scenario['assignments'], dict)
                 and set(scenario['assignments']) == set(frame), 'Scenario must retain the whole frame')
-        result, choices = [], {}
+        result, choices, paired = [], {}, set()
         for battle, assignment in sorted(scenario['assignments'].items()):
             require(isinstance(assignment, dict) and set(assignment) == set(SIDES), 'Scenario sides')
             pair = {}
@@ -426,10 +432,12 @@ def _scenarios(scenarios, frame, decisions):
                 if pair['US']['boundary_id'] != pair['Confederate']['boundary_id']:
                     issues.append({'scenario_id': sid, 'candidate_id': None, 'code': 'unequal_side_boundaries'})
                 elif not frame[battle]['operation'] and frame[battle]['outcome'] != 'Inconclusive':
+                    paired.update(d['candidate_id'] for d in pair.values())
                     result.append({'battle_id': battle, 'campaign': frame[battle]['campaign'],
                                    'profile_id': PROFILE, 'boundary_id': pair['US']['boundary_id'],
                                    'strength_bounds': {s: pair[s]['preview_bounds'] for s in SIDES}})
         rows[sid] = result
+        paired_by_scenario[sid] = paired
     applicable = {k for k, d in decisions.items() if d['status'] == 'eligible_candidate'}
     for cid in sorted(applicable - selected):
         issues.append({'scenario_id': None, 'candidate_id': cid, 'code': 'applicable_alternative_not_represented'})
@@ -437,6 +445,21 @@ def _scenarios(scenarios, frame, decisions):
     invalid_scenarios = {i['scenario_id'] for i in issues if i['scenario_id'] is not None}
     for sid in invalid_scenarios:
         rows[sid] = []
+    jointly_covered = set().union(*(ids for sid, ids in paired_by_scenario.items()
+                                   if sid not in invalid_scenarios))
+    for cid in sorted(applicable - jointly_covered):
+        candidate = decisions[cid]
+        record = frame[candidate['battle_id']]
+        if record['operation'] or record['outcome'] == 'Inconclusive':
+            continue
+        compatible_opposites = [other for oid, other in decisions.items()
+            if oid in applicable and other['battle_id'] == candidate['battle_id']
+            and other['side'] != candidate['side'] and other['boundary_id'] == candidate['boundary_id']
+            and all(other['source_choices'][k] == candidate['source_choices'][k]
+                    for k in other['source_choices'].keys() & candidate['source_choices'].keys())]
+        if compatible_opposites:
+            issues.append({'scenario_id': None, 'candidate_id': cid,
+                           'code': 'compatible_candidate_missing_joint_assignment'})
     return rows, issues, selected
 
 

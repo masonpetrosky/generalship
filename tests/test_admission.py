@@ -134,6 +134,36 @@ class AdmissionTests(unittest.TestCase):
         nodes.remove(next(n for n in nodes if n['id']=='total'))
         r=self.run_proposal();self.assertIn('subtraction_not_nested',self.codes(r))
 
+    def test_same_observation_cannot_be_relabelled_into_disjoint_components(self):
+        # Distinct graph node IDs cannot make one cited observation two units.
+        self.p['candidates'][0]['nodes'][1]['reference']='us-a'
+        r=self.run_proposal()
+        self.assertEqual(self.decision(r)['status'],'invalid')
+        self.assertIsNone(self.decision(r)['preview_bounds'])
+        self.assertTrue(any('Duplicate observation reference' in c for c in self.codes(r)))
+        release(self.root)
+        with self.assertRaisesRegex(AdmissionError,'Invalid proposal'):
+            audit_release(self.root,'data/release.json',allow_test_only=True)
+
+    def test_calendar_date_comparison_handles_week_and_basic_iso_forms(self):
+        for source_date, boundary_date, expected in [
+            ('1999-W52-7','2000-01-01','excluded'),  # Sunday is 2000-01-02.
+            ('20000101','2000-01-02','eligible_candidate'),
+            ('20000102','2000-01-01','excluded'),
+        ]:
+            with self.subTest(source_date=source_date):
+                self.p,self.s=fixture(self.root)
+                self.p['boundaries'][0]['date']=boundary_date
+                self.s['dossiers'][0]['quantities'][0]['period'].update(start=source_date,end=source_date)
+                r=self.run_proposal()
+                self.assertEqual(self.decision(r)['status'],expected)
+                self.assertEqual(self.decision(r)['observations'][0]['quantity']['period']['start'],source_date)
+                if expected=='excluded':
+                    self.assertIn('observed_state_after_boundary',self.codes(r))
+                    release(self.root)
+                    with self.assertRaisesRegex(AdmissionError,'scenario'):
+                        audit_release(self.root,'data/release.json',allow_test_only=True)
+
     def test_bad_binding_metadata_omission_and_changed_review_fail_closed(self):
         self.run_proposal()
         s=read_json(self.root/'data/snapshot.json');s['registry']['sources'][0]['document_date_note']='changed'
@@ -228,6 +258,36 @@ class AdmissionTests(unittest.TestCase):
         self.assertEqual(self.decision(r)['status'],'excluded')
         self.assertIn('inapplicable_candidate',{i['code'] for i in r['scenario_issues']})
         self.assertEqual(r['preview_rows_by_scenario']['base'],[])
+
+    def test_compatible_sides_require_joint_scenario_coverage(self):
+        other=deepcopy(self.p['scenarios'][0]);other['id']='cs-only'
+        self.p['scenarios'][0]['assignments']['SYN001']['Confederate']=None
+        other['assignments']['SYN001']['US']=None
+        self.p['scenarios'].append(other)
+        r=self.run_proposal()
+        missing=[i['candidate_id'] for i in r['scenario_issues']
+                 if i['code']=='compatible_candidate_missing_joint_assignment']
+        self.assertEqual(set(missing),{'us','cs'})
+        release(self.root)
+        with self.assertRaisesRegex(AdmissionError,'scenario'):
+            audit_release(self.root,'data/release.json',allow_test_only=True)
+        # An actually unavailable opposite side does not force a fabricated row.
+        self.p['candidates'][1]['nodes'][0]['mapping']['population']='unknown'
+        self.p['scenarios'].pop()
+        r=self.run_proposal()
+        self.assertEqual(r['scenario_issues'],[])
+        self.assertEqual(r['coverage']['complete_candidate_engagements'],0)
+        # Unsupported target/grain remains an explicit frame exclusion.
+        for flag in ('outcome','operation'):
+            self.p,self.s=fixture(self.root)
+            self.p['scenarios'][0]['assignments']['SYN001']['Confederate']=None
+            other=deepcopy(self.p['scenarios'][0]);other['id']='cs-only'
+            other['assignments']['SYN001']={'US':None,'Confederate':'cs'}
+            self.p['scenarios'].append(other)
+            self.s['frame'][0][flag]='Inconclusive' if flag=='outcome' else True
+            r=self.run_proposal()
+            self.assertEqual(r['scenario_issues'],[])
+            self.assertEqual(r['coverage']['complete_candidate_engagements'],0)
 
     def test_snapshot_replay_ignores_later_current_registry(self):
         before=self.run_proposal()

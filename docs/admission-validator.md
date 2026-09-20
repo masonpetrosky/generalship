@@ -47,7 +47,9 @@ membership sets and no invented evidence. Mechanical exclusions follow only
 structured source basis (`reported_engaged` / `reported_reinforcements`), a
 post-outcome claim phase, or a state date demonstrably after the proposed April 6
 boundary. A same-day date is not an invented clock order. The exact contact,
-area, availability definition and target memberships remain null.
+area, availability definition and target memberships remain null. Comparisons
+parse calendar dates, including ISO week/basic forms accepted in older dossiers;
+the original source period strings remain in the diagnostic output.
 
 The resulting counts are **18 blocked, 22 excluded, zero eligible candidates,
 zero complete rows and zero promoted rows**. The ledger retains **127 engagements
@@ -95,6 +97,10 @@ requires nesting. Bounds propagate through interval arithmetic; no midpoint or
 probability interval is invented. Negative subtraction bounds and nonpositive
 strength block use. Source precision and estimation classifications remain in
 the decision's original quantity record.
+There is exactly one observation leaf per quantity/claim reference within a
+candidate. Reuse that graph node when a calculation needs it again, such as
+`(A+B)-B`; creating another leaf cannot assign the same observation conflicting
+membership labels and count it twice.
 
 Source representations retain source IDs, raw and metadata hashes, dependence
 labels and a same-document key. Explicit transcript/facsimile links share a key;
@@ -105,7 +111,12 @@ different key or group string. Citations never act as votes or quantity weights.
 Scenarios must include every technically applicable candidate somewhere. Shared
 source-choice labels must agree within a joint scenario; incompatible choices
 or inapplicable candidates suppress that scenario's previews and fail a release
-audit. Scenario rows remain separate, while the coverage denominator counts
+audit. On outcome/grain-eligible engagements, every applicable candidate with a
+compatible opposite-side candidate at the same boundary must appear in at least
+one coherent joint assignment. Splitting compatible sides into separate partial
+scenarios does not satisfy this rule. An absent/inapplicable opposite side does
+not force a fabricated row, and no full Cartesian expansion is required.
+Scenario rows remain separate, while the coverage denominator counts
 distinct engagements. No refitting is performed; the output supplies separately
 identified preview datasets for a future separately authorized evaluation.
 
