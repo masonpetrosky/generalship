@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "coverage": {
+    "participant_reports_read": 9,
+    "or_context_pages": 16,
+    "or_visual_pages": 12,
+    "reed_visual_pages": 4,
+    "maps_inspected": 2,
+    "map_catalogs_retained": 2,
+    "all_map_labels_transcribed": false,
+    "complete_army_memberships": 0,
+    "new_typed_quantities": 0,
+    "new_dossier_claims": 0,
+    "new_admitted_rows": 0,
+    "assertions": 14,
+    "passage_anchors": 38,
+    "source_section_pairs": 19,
+    "new_source_entries": 32,
+    "registry_entries": 85,
+    "registry_raw_paths": 82
+  },
+  "prior_source_entries_preserved": 53,
+  "admission_v1": {
+    "blocked": 18,
+    "excluded": 22
+  },
+  "admission_v2": {
+    "blocked": 7,
+    "excluded": 33
+  },
+  "frame_engagements": 127,
+  "frame_campaigns": 36,
+  "promoted_rows": 0,
+  "checks": {
+    "make_check": "passed, 82 tests plus generalship check; final run 2026-09-20",
+    "make_reproduce": "passed; generated report inspected; numeric baseline unchanged",
+    "make_packet": "passed; expanded source registry only",
+    "git_diff_check": "passed"
+  },
+  "initial_failure_and_resolution": "Two successive checks exposed the old whole-registry byte equality and exact current count of 53 in one historical migration test. Both assertions now target the migrated subset/output while retaining all original entries and metadata; final 82-test run passed."
+}

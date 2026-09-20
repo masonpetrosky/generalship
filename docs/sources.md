@@ -68,6 +68,27 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Shiloh contact and location packet, 2026-09-20
+
+The [versioned packet](research/shiloh-contact-location-v1.md) adds 32 source
+entries: nine selected participant-report transcriptions, one Reed excerpt file,
+16 full-page facsimiles, two LOC map JPEGs, two verbatim catalog JSON responses
+and two selected map-label transcriptions. The registry now has 85 entries and
+82 distinct raw paths. Earlier 53 entries and their raw inputs are unchanged.
+Full participant reports were read as OCR context across 16 OR pages; the visual
+check covers selected opening passages on 12 of those pages and four Reed pages.
+The contextual OCR is retained separately from the manually checked excerpts.
+See the packet for exact inspection coverage, dated/undated report distinctions,
+parent hashes, map locators, dependence limits and the offline reference audit.
+
+The maps are attributed to the US Army Department of the Tennessee and to
+Frémaux with Beauregard's endorsement. Catalog year 1862 does not establish
+pre-contact creation or knowledge. One map distinguishes morning/night and the
+other covers April 6–7 without a clock-specific legend; neither proves a B0
+perimeter or full population. Map/catalog/transcription records remain in the
+associated army reporting dependence group. No source is counted as independent
+because it has a second image, catalog record or transcription.
+
 Prioritize original reports, contemporary orders and correspondence, then
 independently authored scholarship. Record competing estimates and account
 dependencies. Do not treat search snippets, model recollection, or an unsourced

@@ -1,4 +1,5 @@
 import copy
+import json
 from pathlib import Path
 import shutil
 import subprocess
@@ -138,7 +139,18 @@ class ReviewCorrectionTests(unittest.TestCase):
     def test_bounded_migration_preserves_numbers_events_unknowns_and_old_sources(self):
         outputs = expected_outputs(ROOT)
         for path, blob in outputs.items():
-            self.assertEqual((ROOT / path).read_bytes(), blob, path)
+            if path == REGISTRY:
+                # Preserve every migrated entry exactly while allowing later
+                # evidence additions. The migration does not freeze the registry.
+                expected = json.loads(blob)
+                current_registry = read_json(ROOT / path)
+                expected_ids = {source['id'] for source in expected['sources']}
+                migrated_subset = dict(current_registry)
+                migrated_subset['sources'] = [source for source in current_registry['sources']
+                                             if source['id'] in expected_ids]
+                self.assertEqual(migrated_subset, expected, path)
+            else:
+                self.assertEqual((ROOT / path).read_bytes(), blob, path)
         old = read_json(ROOT / ARCHIVE)
         current = read_json(ROOT / DOSSIER)
         self.assertEqual(old['events'], current['events'])
@@ -156,7 +168,7 @@ class ReviewCorrectionTests(unittest.TestCase):
         original_registry = read_json(ROOT / config['snapshot_copies'][REGISTRY])
         current_registry = read_json(ROOT / REGISTRY)
         self.assertEqual(original_registry['sources'], current_registry['sources'][:50])
-        self.assertEqual(len(current_registry['sources']), 53)
+        self.assertEqual(len(json.loads(outputs[REGISTRY])['sources']), 53)
 
     def test_migration_is_idempotent_and_rejects_divergence_before_writing(self):
         with tempfile.TemporaryDirectory() as temp:

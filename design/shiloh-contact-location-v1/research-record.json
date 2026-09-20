@@ -1,0 +1,1028 @@
+{
+  "schema_version": 1,
+  "kind": "bounded_contact_location_research_packet",
+  "status": "prepared_for_separate_review",
+  "date": "2026-09-20",
+  "base_commit": "1312a22808e65ee0866a85f2e82aab4c63397f01",
+  "purpose": "Compare opening accounts and map phases without changing the frozen dossier, boundary, candidates, memberships or model inputs.",
+  "preserved_source_metadata_sha256": {
+    "arnold-cwsac-battles": "f064f58d50bd296d03aec91484cc143a618ece4390ee7f064f6fa0b56da98705",
+    "arnold-cwsac-forces": "f6d7e96644600b8c76a56a4752258e4c5b0d18ab96765b9f51f5be4a0a137119",
+    "arnold-cwsac-commanders": "918d207a0bdc24315f55e7b39e178c097f66ff847dd9c4c81b152d76e1e8989c",
+    "arnold-cwsac-campaigns": "2c1f14c1abe86744875d56b42dd8a3b0779ffece219cb1e49068e91b920f4d5a",
+    "nps-tn003": "49927e496d827518cab1c00ffaadbbee9cdaea2b40589b1319994ed5bc1f37b6",
+    "nps-md003": "1331f8be219e3e0bd8b5ccfe4acae06bd5371087cb9d880c294ed1d069067507",
+    "arnold-package-metadata": "d5e11343742abe55566014535a7d981bb513bbec6257e53248757c536db62d27",
+    "or-grant-shiloh-report": "f1d23336d0d84feff45ec0495d57c776d1ca6207c115a3aee5f5bea1b3c4f5a6",
+    "or-buell-shiloh-report": "b75a49ab49d250307c43716f60b54a566999728a7a204b60c92f96064500e5bd",
+    "or-beauregard-shiloh-report": "728ea565421f76379239861074184e28a0b8d99dad3b8a0143dec96fb4a64031",
+    "or-union-return-april4-5": "5ef68640ce37c0679271a16eb9ac629a97ea3204b3645773d1f8dc728360cd01",
+    "or-confederate-return": "86b7272ccadd5e1300cb8b07d8ab36fe9c57a81abe5143d5a27c2c63a7f3aea4",
+    "or-halleck-orders": "d07675d55a0164446108e40c7a82d24e6f57f823619604c6dbc07f754c3a58cd",
+    "force-1881-shiloh": "431038d19f755d2ad3298fc59ea8d2a32a79e924ee240d3f54cf6508a25430bc",
+    "gudmens-shiloh-handbook": "56e73adb77ae67b9bb0508d83f4738e980fe5ffa03cfabf35da06b009875cc2a",
+    "or-union-return-scan": "7e763b032f6d9708600f220371789184b7f9e92ffd95fd06b710f8c6497fbfa9",
+    "or-confederate-return-scan": "52681c4da00bfb45007bc1afc804d4f5927e429598e7b1a8b27807da4e146355",
+    "or-confederate-report-136-v1": "9e166a990ac88b84e3dbe360c8add5b6e14b6c56f1ec14013b86f04d0889d5fd",
+    "or-confederate-report-136-v1-scan": "8a618677096f92aa910d3229328b13b9cadcd44ebb4ced014d0dc202122112d0",
+    "or-confederate-report-137-v1": "26eb8d1bcdaa38cd23384a3a8b5901f63a0f94b7634f3fc585934cf266a226ee",
+    "or-confederate-report-137-v1-scan": "ed196ef1b40933887b39b606aca9d569d7499034c53f4cb71169bfda1160a2d1",
+    "or-wallace-availability-v1": "015f2a41d74e464a20b229eaa4872ab5857b8a30419ce12acb6cc1066f5c9fc2",
+    "or-prentiss-availability-v1": "821b9a840e535dc0302396c3cd4890fdca1e127663ac2661a591def406aa7e60",
+    "or-chambers-availability-v1": "a797c12a257eab850b82a9fd3ba9bffd624897253996d6f43b93c4e06d41992d",
+    "or-reid-availability-v1": "eaf8e57ab229cf0e02f6cfc87f0ce4e222ac2cbc9bac1e1befe875ca7476fe24",
+    "or-rousseau-michigan-v1": "bd97dc2473f9614eaf7f6a32651ce4c2a7961b0d061da2ec4124787495a1adfb",
+    "or-union-return-detail-v2": "e4edbe0a72da183b02271b51551cfd117cc975785dff588f7ad2665c2affd3ef",
+    "reed-1909-union-audit-v1": "f4a9bf09a052ec8701ecc810ae86b11af82254e39d997333a8460627c37baeb5",
+    "michigan-ag-1862-fifteenth-v1": "a41ee095208f5656169c275975d625a9783010b54844f422c00a7d371bf79648",
+    "reed-1909-union-p93-facsimile-v1": "e9bcf5f818013012c63623a6b38ac425caf88021e5897432c29da921d5c0f764",
+    "reed-1909-union-p96-facsimile-v1": "2dc1c4e0d1d9cf9ee7a033ce25f4822ce756c3244f3952ff4f22e753777da327",
+    "reed-1909-union-p97-facsimile-v1": "2fcd596bb626730aa5328b3115ff8343a4489d4ac1ec6f4378ed02e2ff455c63",
+    "reed-1909-union-p98-facsimile-v1": "923852343a3a946e174cdb3239b6aac9bb0e494a20aea2e5d81a882d1c548c47",
+    "or-nelson-reinforcements-v1": "c876b278fe77436c024dcc64b42749c734ca7cf47711099c4b5c4239b26f3e41",
+    "or-ammen-crossing-v1": "b1235b68630fba8e6616e0fe75ca53badb0e97f3cfe8cc0ce01d231adf418b8e",
+    "or-grose-crossing-v1": "8bf2f4cebe935a99c3f2993b1ced99fe2633b7b440a55ffa96f158c61fb4e65c",
+    "or-anderson-crossing-v1": "dc0c370bda750825ac31fc59e4e878b97594c818aaf4cb33eccf52180f9b28cc",
+    "or-jones-crossing-v1": "9050c30b754a5fad69bf37671eca10cbc5eb3d950d5382dc64e4d1c870e8218c",
+    "or-edward-mccook-crossing-v1": "c45d6d318ed3e659ae4991a8f139aba49ef9ab87b7ac7960aa25f3e3e969892e",
+    "or-crittenden-reinforcements-v1": "730f479129363ff7df8fc8745c1145f80ea39f99a3e6c50274810d21ef956877",
+    "or-alexander-mccook-reinforcements-v1": "f26ae86622ca89e259cd45f023dcb82f88215818c3699e162538894851b39286",
+    "or-wood-reinforcements-v1": "ae57043b5fc7bd62b15494d6d734d17e7035da45c16a7c27abe58acf87c52b43",
+    "or-garfield-reinforcements-v1": "cadcb09e541f34d3bfeb160c5f7ac0b8b71c4dbb01808f64e009188a3a857a93",
+    "or-buell-reinforcements-v2": "85b5535327e0147edb6a570942162e9d28e42b3a3644eaa7d903f1d4d75be02d",
+    "reed-1909-ohio-strength-v1": "6599ee8df3ded91c48a701d151710e5618fff103b451415d1bf231f3ebe1ae5d",
+    "or-reinforcement-p326-facsimile-v1": "9940f19ab9baf2979e088a72dc1fac39838ee741249349bc17f79a44469dc5f6",
+    "or-reinforcement-p327-facsimile-v1": "72618d08c9e8859bf5dc16e4026dbbbb6000380a43543fdfeb5b98672cbb0bb7",
+    "reed-reinforcement-p100-facsimile-v1": "0b7337dd7b6afc70c3841e34087e4b499351b4b9ac189662b1ac835ba65793a6",
+    "reed-reinforcement-p101-facsimile-v1": "c0f85be3326e479bd24f539c25c1f0a5ac7e950148dacdda33a65315f4242397",
+    "reed-reinforcement-p102-facsimile-v1": "516a0994e0fa89b6356366fe857daf38f9da90cc51659b01fb0f625d8b7e250d",
+    "or-ammen-crossing-v2": "38a4a8686b632e5a49df4b3a129ec80d6060a2976d7ff352fee9c68c4c4cb23b",
+    "or-nelson-reinforcements-v2": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+    "or-union-return-detail-v3": "1075fbfb1317f1be5502bb3454c6943949ef84014696135b4bf4a3b0ff3d8b63"
+  },
+  "new_sources": [
+    {
+      "source_id": "or-buckland-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-buckland-opening-v1.txt",
+      "sha256": "909816fca2e8f4a1a679f40e92d566e89dcc0c98abed5f1efad8bcd282e10392",
+      "metadata_sha256": "628271b047a91bb204dc444bbb0767845876c3a89a96bc02775ab6dfb2443495"
+    },
+    {
+      "source_id": "or-ricker-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-ricker-opening-v1.txt",
+      "sha256": "efd425e91bfc28cb2f26c81430324fc8e24e3091aa094b57016fd6ba4adaacaa",
+      "metadata_sha256": "1104127eb50aedaa70d4e20aee74f956e47011049a5b3189ac4c70c1dea3daea"
+    },
+    {
+      "source_id": "or-prentiss-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-prentiss-opening-v1.txt",
+      "sha256": "a5402045eba1c4741f2576272cf28be60265016d51f200fdd044c9a16c9d6662",
+      "metadata_sha256": "7228b28984a94233b9f6d4b39c8dba2b947f49e12d284fa85e9517f7bdf733d8"
+    },
+    {
+      "source_id": "or-quinn-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-quinn-opening-v1.txt",
+      "sha256": "b9f7ce8385e2df3b031257de9b6530c149b5a67f54b01290f9c6e87f3701acc5",
+      "metadata_sha256": "71f09d8bb69fb880e66dd10ce8c1b9980f45c5a2a4c0989a3e10bdd87999dfba"
+    },
+    {
+      "source_id": "or-moore-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-moore-opening-v1.txt",
+      "sha256": "183eea47a820f41292ae0db39413122fa7675c0e506470d63a04221bd262bc33",
+      "metadata_sha256": "f8e36cc673510b72ce06f5304472d52c0485928285c3443330582220bad39797"
+    },
+    {
+      "source_id": "or-woodyard-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-woodyard-opening-v1.txt",
+      "sha256": "775600d18b4b95c6feb18e327908d072c85ed3227bb85e9acb8cbcb6fd658c74",
+      "metadata_sha256": "7848eaf29ff28a28b87e18381edb9e5bba17e5f6812432634f82d31a0fad8f40"
+    },
+    {
+      "source_id": "or-van-horn-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-van-horn-opening-v1.txt",
+      "sha256": "a6de69f87a95da1c1060816bce0fac90eae7258145008561d34081dd48ff71a3",
+      "metadata_sha256": "a9cecbfc4d1b3514fb5b3e2551f98489fc59971ff27b175ca409e724fe9b0745"
+    },
+    {
+      "source_id": "or-allen-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-allen-opening-v1.txt",
+      "sha256": "f18fbd5a269b9a07a5790916e7f8db840e085e96b2757d38bf41b4ab6b65a754",
+      "metadata_sha256": "257d991559316b3b351ec1f7b5ac402c6cba528caf52baf816c22741df833f70"
+    },
+    {
+      "source_id": "or-hardcastle-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or-hardcastle-opening-v1.txt",
+      "sha256": "5b199ec687ff9e26a790fe790b68d087a7e7b7df2676fe84b8f4f3c23aabfed4",
+      "metadata_sha256": "cd07e8da2bbfecbd9ea601eecb92ff04c51e5a7a4edfec1f223587fcd9b42232"
+    },
+    {
+      "source_id": "reed-1909-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/reed-1909-opening-v1.txt",
+      "sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+      "metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114"
+    },
+    {
+      "source_id": "or10-1-contact-p90-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p90-facsimile-v1.png",
+      "sha256": "c31e3efffc7a10181f128d57ab7801047380336bfe86875aa28f72657bc6bef3",
+      "metadata_sha256": "707c52708c541c44e9ee0e9407501ae0ebe8bd8851e7e7d1583ac7fca508cd35"
+    },
+    {
+      "source_id": "or10-1-contact-p91-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p91-facsimile-v1.png",
+      "sha256": "e81eaeca4d692ee577bf5b81e75e1d978428045a7f171ff934df1340e7699838",
+      "metadata_sha256": "4e73704d1beae4a9fe985e99dcec5ab1cf2ec6b47b7b7e6c12658e43dd5cd7e4"
+    },
+    {
+      "source_id": "or10-1-contact-p92-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p92-facsimile-v1.png",
+      "sha256": "ba2d04a7fbfcc9676354847130874be30dc1b27b31fc0a473fb51708681e8ca6",
+      "metadata_sha256": "15cf0629d48b94bfe5a79e11bbc18ff1a6fdf925ec51f1cced5027a555a0a4c1"
+    },
+    {
+      "source_id": "or10-1-contact-p277-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p277-facsimile-v1.png",
+      "sha256": "9339a7377ed2e05cc318d2080d507fea637090da2a62769cd547d3fe86964d69",
+      "metadata_sha256": "bfc8e774fb04cce8300951a2814d11c749dc2470f76ab8b6812b1c37798f6cb3"
+    },
+    {
+      "source_id": "or10-1-contact-p278-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p278-facsimile-v1.png",
+      "sha256": "785a0cbbeb721ac4490e8ba5a77269c566d0d0e9f5ff93af9e9dbdfc49626fc4",
+      "metadata_sha256": "01e37c2a00c5acb7db8e90e3e5352130bc766664b6bb3060f090d9055b5cd27d"
+    },
+    {
+      "source_id": "or10-1-contact-p280-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p280-facsimile-v1.png",
+      "sha256": "a0659d84fbae3b372a994e421e91638cd4d05d9552ea6f4eb1b4a50996123025",
+      "metadata_sha256": "0c7a188dc517a441da69ba7c5b390f03e8497d8d7c7335b3a066c630c7b04634"
+    },
+    {
+      "source_id": "or10-1-contact-p282-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p282-facsimile-v1.png",
+      "sha256": "b309d4b8ddc799a94d39f8d0e90de0e7b8b827ea8b666e2392034df63549ae29",
+      "metadata_sha256": "927f309b46b704749f84fd319ba01edbaedcea91bca9408c21e4bfc9765e3ec4"
+    },
+    {
+      "source_id": "or10-1-contact-p283-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p283-facsimile-v1.png",
+      "sha256": "b4d314ed02206faf952a88380d1464b8ccbe43c6a5e6e836dc9e2cf6e9e22a7d",
+      "metadata_sha256": "980189b3a80fd890a64fde2608e2b44f9a5529f65709f4917075c5053f15d06e"
+    },
+    {
+      "source_id": "or10-1-contact-p284-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p284-facsimile-v1.png",
+      "sha256": "77b8a4bdccd237eeddc21c24694ca647abaec013c3a3e91835b2f698f48a70fc",
+      "metadata_sha256": "15c4b0b6d95f631813077a50786181e84aeb2fcf8946c2bff622d84ba34a2dbf"
+    },
+    {
+      "source_id": "or10-1-contact-p285-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p285-facsimile-v1.png",
+      "sha256": "27bae1bf3593e20860b4dec93303f263ab1a246897b747b2160f047de2cb6b08",
+      "metadata_sha256": "9e5acc6f3bf62cd09a3314c961d884dcbcfb49cbd8cb8a85e5c69f9125ecb47e"
+    },
+    {
+      "source_id": "or10-1-contact-p602-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p602-facsimile-v1.png",
+      "sha256": "dd612522d95c1f1be6e4d8f1b05b0f731b8afb563284429db883776df9a396bf",
+      "metadata_sha256": "2adf543bd67b73a7c3143a380948b05dc2af5e934e26faa428bd7bd70d3ea851"
+    },
+    {
+      "source_id": "or10-1-contact-p603-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/or10-1-contact-p603-facsimile-v1.png",
+      "sha256": "22357f9a2c1fb911208bd9bd147b5f96f8e056176bda09cb1e74f803148a9df5",
+      "metadata_sha256": "87091b95275bc31d98bec426620ff013843e46ac547f20b1d7bf11b99a199102"
+    },
+    {
+      "source_id": "reed-1909-contact-p13-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/reed-1909-contact-p13-facsimile-v1.png",
+      "sha256": "745f88d71ea6a95e69cf98178e7c8a2ea69683e4bbe14085b0961dfdeb9f7ae6",
+      "metadata_sha256": "61b0a1a4f9f71aa9c2d2190327338cbbd4e4646ffe98a9d9c56e2079a4f4cf1c"
+    },
+    {
+      "source_id": "reed-1909-contact-p59-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/reed-1909-contact-p59-facsimile-v1.png",
+      "sha256": "b1a7cc0221646fd5e45cddf676ef7077d6554a41bf240d357e8001b75e42ed26",
+      "metadata_sha256": "654642c98851232a633de9edf38eb346bf5d92e38513f9ce439095d85824a0b2"
+    },
+    {
+      "source_id": "reed-1909-contact-p60-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/reed-1909-contact-p60-facsimile-v1.png",
+      "sha256": "0679fa03ec1b14773856adf6bcaf3702cd06916f3d88ec4dc7e557443ee70b60",
+      "metadata_sha256": "28b1bfab20370e4fec6e5f8e44e0ba98f0898ae7c79874a77dd68ae71e5ae010"
+    },
+    {
+      "source_id": "reed-1909-contact-p68-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/reed-1909-contact-p68-facsimile-v1.png",
+      "sha256": "bc33498cd910b2b01e20b03a0bc9735b1d305448259cace5fc282b0c153fe087",
+      "metadata_sha256": "d19b7319b778d0c5c34888eed52a94d9a2a889312b7e8065fc14de93de068964"
+    },
+    {
+      "source_id": "loc-2006636339-catalog-v1",
+      "path": "data/raw/shiloh/contact-location-v1/loc-2006636339-catalog-v1.json",
+      "sha256": "dabe509da345bd3076068892747eb3b201d5290c67b6d165b32908fda005cd5c",
+      "metadata_sha256": "0e23d624f9d20b85feb21eac7c1d0e41f9c564e1e1b7159ab7c8f817555329be"
+    },
+    {
+      "source_id": "loc-2006636339-map-v1",
+      "path": "data/raw/shiloh/contact-location-v1/loc-2006636339-map-v1.jpg",
+      "sha256": "e2526c08837b6646e00b978d1f73dc57fb68849ab66ee6efc167533b1d4fd43e",
+      "metadata_sha256": "f426a856267f45b4268343e9adfb59a7ae61d0d71c4c1d9e8a8b54e05784fb89"
+    },
+    {
+      "source_id": "loc-2006636339-readings-v1",
+      "path": "data/raw/shiloh/contact-location-v1/loc-2006636339-readings-v1.txt",
+      "sha256": "7bc5eedf9f5b8f9a7a38257ca2b90c8e682721b8e7566f166e72568204b4ee58",
+      "metadata_sha256": "b86609d3b1ac81485bfe3766815592145377409b44fc7571d196ca1c20527076"
+    },
+    {
+      "source_id": "loc-85690890-catalog-v1",
+      "path": "data/raw/shiloh/contact-location-v1/loc-85690890-catalog-v1.json",
+      "sha256": "9e28f41eee0e38ef2478cafc4aa6dd0648fd146993052e21b8f33662a26e0b77",
+      "metadata_sha256": "694352d5d97545f3ade25b48308f7a0d65cac0371f74d737c3411111a6fbd3bd"
+    },
+    {
+      "source_id": "loc-85690890-map-v1",
+      "path": "data/raw/shiloh/contact-location-v1/loc-85690890-map-v1.jpg",
+      "sha256": "0434116f5a4d11a8765293596c265fce2ff8f0d1fb734db5e9c919a9fd329d76",
+      "metadata_sha256": "9ef19acecbbba463076f5bd46a9447404bfbea34af29ab0059e105fafb18c819"
+    },
+    {
+      "source_id": "loc-85690890-readings-v1",
+      "path": "data/raw/shiloh/contact-location-v1/loc-85690890-readings-v1.txt",
+      "sha256": "44b15a6b4f24effa5cdb01749b3e0f08a2471bc2bd6d4736140399500da855fc",
+      "metadata_sha256": "2d063cfb49d37fe2d120002390fa0f4a4c3b3b6ec6b2b4085aa4f15891aad008"
+    }
+  ],
+  "preserved_files": {
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/evidence/MD003.json": "3b9432c4c4cbe22a4778361ab17dc0645a3f594d735e286eea648d39d1d31bc7",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
+    "data/admission/shiloh-opening-v2.json": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52",
+    "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json": "d3f3a2b9f2e8e48726812e08bf925d7c0e60b8ff012a4b0d4cdc95581a5a884c",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "artifacts/admission-check.json": "d0e8d3286bd34cb34cdd2a0a1d74f0b2d3c2f6ddf955c8e66336c4cb213ee756",
+    "artifacts/admission/shiloh-opening-v2-check.json": "960bca09880c56cec4da33e172cdd5686d106efcaac2e1a407a5d1e745281711",
+    "data/evidence/MS009.json": "f1d093f11e998d1de083ecdbd0e15e178697a508dd84f1f042a527e61186c413"
+  },
+  "context_ocr": {
+    "path": "design/shiloh-contact-location-v1/full-report-page-context-ocr.json",
+    "sha256": "5581ea9b19c83edccd518b2dd4b27a76b8608e0249783b884579d6227999be0a",
+    "full_reports_read": 9,
+    "printed_pages": [
+      90,
+      91,
+      92,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      602,
+      603,
+      604
+    ],
+    "visual_pages": [
+      90,
+      91,
+      92,
+      277,
+      278,
+      280,
+      282,
+      283,
+      284,
+      285,
+      602,
+      603
+    ],
+    "limit": "Complete reports read as OCR context. Visual comparison covers cited opening selections on 12 OR pages, not every word on all 16 context pages."
+  },
+  "coverage": {
+    "participant_reports_read": 9,
+    "or_context_pages": 16,
+    "or_visual_pages": 12,
+    "reed_visual_pages": 4,
+    "maps_inspected": 2,
+    "map_catalogs_retained": 2,
+    "all_map_labels_transcribed": false,
+    "complete_army_memberships": 0,
+    "new_typed_quantities": 0,
+    "new_dossier_claims": 0,
+    "new_admitted_rows": 0,
+    "assertions": 14,
+    "passage_anchors": 38,
+    "source_section_pairs": 19,
+    "new_source_entries": 32,
+    "registry_entries": 85,
+    "registry_raw_paths": 82
+  },
+  "contact_decision": {
+    "earliest_qualifying_contact": null,
+    "exact_timestamp": null,
+    "area": null,
+    "members_by_side": {
+      "US": null,
+      "CS": null
+    },
+    "status": "unresolved"
+  },
+  "assertions": [
+    {
+      "id": "CL01",
+      "status": "source_attributed_unadjudicated",
+      "statement": "Buckland reports firing on April 4; Ricker explicitly describes that earlier affair as the opening fight of Pittsburg.",
+      "citations": [
+        {
+          "source_id": "or-buckland-opening-v1",
+          "section": "p90-opening",
+          "locator": "p90-opening",
+          "quote": "SIR: I make the following report of the affair of yesterday:",
+          "raw_sha256": "909816fca2e8f4a1a679f40e92d566e89dcc0c98abed5f1efad8bcd282e10392",
+          "source_metadata_sha256": "628271b047a91bb204dc444bbb0767845876c3a89a96bc02775ab6dfb2443495",
+          "document_date": "1862-04-05",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p90-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-buckland-opening-v1",
+          "section": "p90-opening",
+          "locator": "p90-opening",
+          "quote": "About 2.30 p. m.",
+          "raw_sha256": "909816fca2e8f4a1a679f40e92d566e89dcc0c98abed5f1efad8bcd282e10392",
+          "source_metadata_sha256": "628271b047a91bb204dc444bbb0767845876c3a89a96bc02775ab6dfb2443495",
+          "document_date": "1862-04-05",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p90-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-buckland-opening-v1",
+          "section": "p90-opening",
+          "locator": "p90-opening",
+          "quote": "quite a brisk firing commenced on the left of our pickets.",
+          "raw_sha256": "909816fca2e8f4a1a679f40e92d566e89dcc0c98abed5f1efad8bcd282e10392",
+          "source_metadata_sha256": "628271b047a91bb204dc444bbb0767845876c3a89a96bc02775ab6dfb2443495",
+          "document_date": "1862-04-05",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p90-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-ricker-opening-v1",
+          "section": "p92-interpretation",
+          "locator": "p92-interpretation",
+          "quote": "the opening fight of the great battle of Pittsburg.",
+          "raw_sha256": "efd425e91bfc28cb2f26c81430324fc8e24e3091aa094b57016fd6ba4adaacaa",
+          "source_metadata_sha256": "1104127eb50aedaa70d4e20aee74f956e47011049a5b3189ac4c70c1dea3daea",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p92-facsimile-v1"
+          ]
+        }
+      ],
+      "limit": "Buckland report dated April 5; Ricker heading April 4 [?] remains uncertain. Engagement segmentation must be explicit; do not move the frozen April 6 boundary automatically."
+    },
+    {
+      "id": "CL02",
+      "status": "source_attributed_unadjudicated",
+      "statement": "Reed also narrates cavalry skirmishing on April 3 and a Saturday picket-post engagement near Howell.",
+      "citations": [
+        {
+          "source_id": "reed-1909-opening-v1",
+          "section": "p13-earlier-contact",
+          "locator": "p13-earlier-contact",
+          "quote": "During the Confederate advance from Monterey on the 3d there had been skirmishing between the cavalry of the two armies",
+          "raw_sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+          "source_metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "reed-1909-contact-p13-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "reed-1909-opening-v1",
+          "section": "p68-screen",
+          "locator": "p68-screen",
+          "quote": "another engagement with a picket post near Howell's on Saturday",
+          "raw_sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+          "source_metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "reed-1909-contact-p68-facsimile-v1"
+          ]
+        }
+      ],
+      "limit": "Later compilation. No underlying April 3/5 report or geographic identity has been adjudicated in this packet; these remain leads."
+    },
+    {
+      "id": "CL03",
+      "status": "source_attributed_unadjudicated",
+      "statement": "Prentiss and Moore disagree on the Saturday reconnaissance composition.",
+      "citations": [
+        {
+          "source_id": "or-prentiss-opening-v1",
+          "section": "p277-saturday",
+          "locator": "p277-saturday",
+          "quote": "five companies of the Twenty-fifth Missouri and five companies of the Twenty-first Missouri Infantry",
+          "raw_sha256": "a5402045eba1c4741f2576272cf28be60265016d51f200fdd044c9a16c9d6662",
+          "source_metadata_sha256": "7228b28984a94233b9f6d4b39c8dba2b947f49e12d284fa85e9517f7bdf733d8",
+          "document_date": "1862-11-17",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p277-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-moore-opening-v1",
+          "section": "p282-saturday",
+          "locator": "p282-saturday",
+          "quote": "three companies from the Twenty-first Missouri Regiment",
+          "raw_sha256": "183eea47a820f41292ae0db39413122fa7675c0e506470d63a04221bd262bc33",
+          "source_metadata_sha256": "f8e36cc673510b72ce06f5304472d52c0485928285c3443330582220bad39797",
+          "document_date": "1862-04-11",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p282-facsimile-v1"
+          ]
+        }
+      ],
+      "limit": "Do not merge company counts or assume a common patrol scope; no new troop quantity is created."
+    },
+    {
+      "id": "CL04",
+      "status": "source_attributed_unadjudicated",
+      "statement": "Prentiss places Moore and five companies forward at 3 a.m., pickets driven in at break of day, and Moore wounded before 6.",
+      "citations": [
+        {
+          "source_id": "or-prentiss-opening-v1",
+          "section": "p278-sunday",
+          "locator": "p278-sunday",
+          "quote": "At 3 o'clock on the morning of Sunday, April 6, Col. David Moore",
+          "raw_sha256": "a5402045eba1c4741f2576272cf28be60265016d51f200fdd044c9a16c9d6662",
+          "source_metadata_sha256": "7228b28984a94233b9f6d4b39c8dba2b947f49e12d284fa85e9517f7bdf733d8",
+          "document_date": "1862-11-17",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p278-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-prentiss-opening-v1",
+          "section": "p278-sunday",
+          "locator": "p278-sunday",
+          "quote": "at break of day the advance pickets were driven in",
+          "raw_sha256": "a5402045eba1c4741f2576272cf28be60265016d51f200fdd044c9a16c9d6662",
+          "source_metadata_sha256": "7228b28984a94233b9f6d4b39c8dba2b947f49e12d284fa85e9517f7bdf733d8",
+          "document_date": "1862-11-17",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p278-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-prentiss-opening-v1",
+          "section": "p278-sunday",
+          "locator": "p278-sunday",
+          "quote": "Shortly before 6 o'clock, Col. David Moore having been severely wounded",
+          "raw_sha256": "a5402045eba1c4741f2576272cf28be60265016d51f200fdd044c9a16c9d6662",
+          "source_metadata_sha256": "7228b28984a94233b9f6d4b39c8dba2b947f49e12d284fa85e9517f7bdf733d8",
+          "document_date": "1862-11-17",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p278-facsimile-v1"
+          ]
+        }
+      ],
+      "limit": "November report after captivity; conflicts with April regimental reports are retained."
+    },
+    {
+      "id": "CL05",
+      "status": "source_attributed_unadjudicated",
+      "statement": "Quinn puts an order for several companies at 3 a.m., followed by marching and contact; wounded arrived about daylight.",
+      "citations": [
+        {
+          "source_id": "or-quinn-opening-v1",
+          "section": "p280-opening",
+          "locator": "p280-opening",
+          "quote": "At 3 o'clock a. m. of that day several companies were ordered out",
+          "raw_sha256": "b9f7ce8385e2df3b031257de9b6530c149b5a67f54b01290f9c6e87f3701acc5",
+          "source_metadata_sha256": "71f09d8bb69fb880e66dd10ce8c1b9980f45c5a2a4c0989a3e10bdd87999dfba",
+          "document_date": "1862-04-09",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p280-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-quinn-opening-v1",
+          "section": "p280-opening",
+          "locator": "p280-opening",
+          "quote": "About daylight the dead and wounded began to be brought in.",
+          "raw_sha256": "b9f7ce8385e2df3b031257de9b6530c149b5a67f54b01290f9c6e87f3701acc5",
+          "source_metadata_sha256": "71f09d8bb69fb880e66dd10ce8c1b9980f45c5a2a4c0989a3e10bdd87999dfba",
+          "document_date": "1862-04-09",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p280-facsimile-v1"
+          ]
+        }
+      ],
+      "limit": "An order time is not an exact contact time. The opening passage does not identify Powell by name."
+    },
+    {
+      "id": "CL06",
+      "status": "source_attributed_unadjudicated",
+      "statement": "Van Horn calls 3 a.m. the attack time and names Powell and three companies ahead of Moore.",
+      "citations": [
+        {
+          "source_id": "or-van-horn-opening-v1",
+          "section": "p284-opening",
+          "locator": "p284-opening",
+          "quote": "the attack being made on its front at 3 o'clock in the morning",
+          "raw_sha256": "a6de69f87a95da1c1060816bce0fac90eae7258145008561d34081dd48ff71a3",
+          "source_metadata_sha256": "a9cecbfc4d1b3514fb5b3e2551f98489fc59971ff27b175ca409e724fe9b0745",
+          "document_date": "1862-04-09",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p284-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-van-horn-opening-v1",
+          "section": "p284-opening",
+          "locator": "p284-opening",
+          "quote": "under Major Powell, were dispatched to engage the enemy's advance",
+          "raw_sha256": "a6de69f87a95da1c1060816bce0fac90eae7258145008561d34081dd48ff71a3",
+          "source_metadata_sha256": "a9cecbfc4d1b3514fb5b3e2551f98489fc59971ff27b175ca409e724fe9b0745",
+          "document_date": "1862-04-09",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p284-facsimile-v1"
+          ]
+        }
+      ],
+      "limit": "Preserve the literal attack wording rather than rewriting 3 a.m. as a departure time."
+    },
+    {
+      "id": "CL07",
+      "status": "source_attributed_unadjudicated",
+      "statement": "Moore reports notification about 6 a.m. and an advance ordered by Peabody after pickets were driven in.",
+      "citations": [
+        {
+          "source_id": "or-moore-opening-v1",
+          "section": "p282-sunday",
+          "locator": "p282-sunday",
+          "quote": "On Sunday morning, the 6th instant, at about 6 o'clock, being notified",
+          "raw_sha256": "183eea47a820f41292ae0db39413122fa7675c0e506470d63a04221bd262bc33",
+          "source_metadata_sha256": "f8e36cc673510b72ce06f5304472d52c0485928285c3443330582220bad39797",
+          "document_date": "1862-04-11",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p282-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-moore-opening-v1",
+          "section": "p282-sunday",
+          "locator": "p282-sunday",
+          "quote": "by order of Col. Everett Peabody",
+          "raw_sha256": "183eea47a820f41292ae0db39413122fa7675c0e506470d63a04221bd262bc33",
+          "source_metadata_sha256": "f8e36cc673510b72ce06f5304472d52c0485928285c3443330582220bad39797",
+          "document_date": "1862-04-11",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p282-facsimile-v1"
+          ]
+        }
+      ],
+      "limit": "Does not synchronize with Prentiss or decide who issued the initial patrol order."
+    },
+    {
+      "id": "CL08",
+      "status": "source_attributed_unadjudicated",
+      "statement": "Woodyard places the order to Moore before sunrise, identifies Twelfth Michigan pickets, and describes a cotton-field position after the junction.",
+      "citations": [
+        {
+          "source_id": "or-woodyard-opening-v1",
+          "section": "p283-opening",
+          "locator": "p283-opening",
+          "quote": "before sunrise, General Prentiss ordered Colonel Moore",
+          "raw_sha256": "775600d18b4b95c6feb18e327908d072c85ed3227bb85e9acb8cbcb6fd658c74",
+          "source_metadata_sha256": "7848eaf29ff28a28b87e18381edb9e5bba17e5f6812432634f82d31a0fad8f40",
+          "document_date": "1862-04-12",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p283-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-woodyard-opening-v1",
+          "section": "p283-opening",
+          "locator": "p283-opening",
+          "quote": "to sustain the pickets of the Twelfth Michigan Infantry.",
+          "raw_sha256": "775600d18b4b95c6feb18e327908d072c85ed3227bb85e9acb8cbcb6fd658c74",
+          "source_metadata_sha256": "7848eaf29ff28a28b87e18381edb9e5bba17e5f6812432634f82d31a0fad8f40",
+          "document_date": "1862-04-12",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p283-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-woodyard-opening-v1",
+          "section": "p283-field",
+          "locator": "p283-field",
+          "quote": "the northwest corner of a cotton field.",
+          "raw_sha256": "775600d18b4b95c6feb18e327908d072c85ed3227bb85e9acb8cbcb6fd658c74",
+          "source_metadata_sha256": "7848eaf29ff28a28b87e18381edb9e5bba17e5f6812432634f82d31a0fad8f40",
+          "document_date": "1862-04-12",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p283-facsimile-v1"
+          ]
+        }
+      ],
+      "limit": "The unnamed field and reported directions are not georeferenced. This later junction is not automatically the first-contact location."
+    },
+    {
+      "id": "CL09",
+      "status": "source_attributed_unadjudicated",
+      "statement": "Allen reports an encounter about 5:30 a.m. roughly one and a half miles ahead/right of camp and calls it the first enemy fire.",
+      "citations": [
+        {
+          "source_id": "or-allen-opening-v1",
+          "section": "p285-opening",
+          "locator": "p285-opening",
+          "quote": "At about 5.30 a. m. on the 6th",
+          "raw_sha256": "f18fbd5a269b9a07a5790916e7f8db840e085e96b2757d38bf41b4ab6b65a754",
+          "source_metadata_sha256": "257d991559316b3b351ec1f7b5ac402c6cba528caf52baf816c22741df833f70",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p285-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-allen-opening-v1",
+          "section": "p285-opening",
+          "locator": "p285-opening",
+          "quote": "about 1½ miles in front and to the right of our camp",
+          "raw_sha256": "f18fbd5a269b9a07a5790916e7f8db840e085e96b2757d38bf41b4ab6b65a754",
+          "source_metadata_sha256": "257d991559316b3b351ec1f7b5ac402c6cba528caf52baf816c22741df833f70",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p285-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-allen-opening-v1",
+          "section": "p285-opening",
+          "locator": "p285-opening",
+          "quote": "This was the first fire of the enemy.",
+          "raw_sha256": "f18fbd5a269b9a07a5790916e7f8db840e085e96b2757d38bf41b4ab6b65a754",
+          "source_metadata_sha256": "257d991559316b3b351ec1f7b5ac402c6cba528caf52baf816c22741df833f70",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p285-facsimile-v1"
+          ]
+        }
+      ],
+      "limit": "Report date unstated. Preserve this competing first-fire claim; source-specific scope may differ. Do not equate it to an independently verified first shot."
+    },
+    {
+      "id": "CL10",
+      "status": "source_attributed_unadjudicated",
+      "statement": "Hardcastle describes a battalion picket post ahead of the brigade plus advanced parties; cavalry shots occur about dawn before infantry fire.",
+      "citations": [
+        {
+          "source_id": "or-hardcastle-opening-v1",
+          "section": "p602-screen",
+          "locator": "p602-screen",
+          "quote": "a quarter of a mile in front of our brigade",
+          "raw_sha256": "5b199ec687ff9e26a790fe790b68d087a7e7b7df2676fe84b8f4f3c23aabfed4",
+          "source_metadata_sha256": "cd07e8da2bbfecbd9ea601eecb92ff04c51e5a7a4edfec1f223587fcd9b42232",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p602-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-hardcastle-opening-v1",
+          "section": "p602-screen",
+          "locator": "p602-screen",
+          "quote": "200 yards in front of my center.",
+          "raw_sha256": "5b199ec687ff9e26a790fe790b68d087a7e7b7df2676fe84b8f4f3c23aabfed4",
+          "source_metadata_sha256": "cd07e8da2bbfecbd9ea601eecb92ff04c51e5a7a4edfec1f223587fcd9b42232",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p602-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-hardcastle-opening-v1",
+          "section": "p602-screen",
+          "locator": "p602-screen",
+          "quote": "100 yards in front of my center",
+          "raw_sha256": "5b199ec687ff9e26a790fe790b68d087a7e7b7df2676fe84b8f4f3c23aabfed4",
+          "source_metadata_sha256": "cd07e8da2bbfecbd9ea601eecb92ff04c51e5a7a4edfec1f223587fcd9b42232",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p602-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-hardcastle-opening-v1",
+          "section": "p603-dawn",
+          "locator": "p603-dawn",
+          "quote": "About dawn the cavalry vedettes fired three shots, wheeled, and galloped back.",
+          "raw_sha256": "5b199ec687ff9e26a790fe790b68d087a7e7b7df2676fe84b8f4f3c23aabfed4",
+          "source_metadata_sha256": "cd07e8da2bbfecbd9ea601eecb92ff04c51e5a7a4edfec1f223587fcd9b42232",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p603-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "or-hardcastle-opening-v1",
+          "section": "p603-dawn",
+          "locator": "p603-dawn",
+          "quote": "He fired upon them and joined his battalion with his men.",
+          "raw_sha256": "5b199ec687ff9e26a790fe790b68d087a7e7b7df2676fe84b8f4f3c23aabfed4",
+          "source_metadata_sha256": "cd07e8da2bbfecbd9ea601eecb92ff04c51e5a7a4edfec1f223587fcd9b42232",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "or10-1-contact-p603-facsimile-v1"
+          ]
+        }
+      ],
+      "limit": "Report date is blank apart from 1862. It does not locate the vedettes or establish whether their shots were alarm signals, aimed hostile fire, or the first shots anywhere."
+    },
+    {
+      "id": "CL11",
+      "status": "source_attributed_unadjudicated",
+      "statement": "Reed connects Powell with the southeast corner of Fraley field at 4:55 a.m. and gives later withdrawal to Seay Field; this is retrospective geographic/timing reconstruction.",
+      "citations": [
+        {
+          "source_id": "reed-1909-opening-v1",
+          "section": "p59-route",
+          "locator": "p59-route",
+          "quote": "near the southeast corner of Fraley field",
+          "raw_sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+          "source_metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "reed-1909-contact-p59-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "reed-1909-opening-v1",
+          "section": "p60-contact",
+          "locator": "p60-contact",
+          "quote": "4.55 a. m.",
+          "raw_sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+          "source_metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "reed-1909-contact-p60-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "reed-1909-opening-v1",
+          "section": "p60-contact",
+          "locator": "p60-contact",
+          "quote": "Powell fell back before the advance of Wood's brigade to the Seay Field",
+          "raw_sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+          "source_metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "reed-1909-contact-p60-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "reed-1909-opening-v1",
+          "section": "p68-screen",
+          "locator": "p68-screen",
+          "quote": "at the corner of Fraley's and Wood's fields",
+          "raw_sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+          "source_metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "reed-1909-contact-p68-facsimile-v1"
+          ]
+        }
+      ],
+      "limit": "The two locational descriptions have not been surveyed against a common map. No contemporary clock calibration or independent derivation of 4:55 is established."
+    },
+    {
+      "id": "CL12",
+      "status": "source_attributed_unadjudicated",
+      "statement": "Reed places Wood in Hardee’s center on Saturday night with Third Mississippi on picket and Harper’s battery behind the infantry.",
+      "citations": [
+        {
+          "source_id": "reed-1909-opening-v1",
+          "section": "p68-brigade",
+          "locator": "p68-brigade",
+          "quote": "It occupied the center of Hardee's line of battle Saturday night",
+          "raw_sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+          "source_metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "reed-1909-contact-p68-facsimile-v1"
+          ]
+        },
+        {
+          "source_id": "reed-1909-opening-v1",
+          "section": "p68-brigade",
+          "locator": "p68-brigade",
+          "quote": "the Third Mississippi on picket, and Harper's (Mississippi) battery in rear of the infantry.",
+          "raw_sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+          "source_metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+          "document_date": null,
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": [
+            "reed-1909-contact-p68-facsimile-v1"
+          ]
+        }
+      ],
+      "limit": "Relative location only; no exact polygon or complete personnel membership."
+    },
+    {
+      "id": "CL13",
+      "status": "source_attributed_unadjudicated",
+      "statement": "Beauregard reports reconnaissance contact at 5 a.m. and movement at 5:30, with Hardee, Bragg, Polk and Breckinridge echelon descriptions.",
+      "citations": [
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p386",
+          "locator": "p386",
+          "quote": "At 5 a. m. on the 6th instant, a reconnoiteriug party of the enemy having become engaged with our advance pickets",
+          "raw_sha256": "c87c79162f5ef1a88bc308896b90a4178808a6b505e1b7ee805be535705a692c",
+          "source_metadata_sha256": "728ea565421f76379239861074184e28a0b8d99dad3b8a0143dec96fb4a64031",
+          "document_date": "1862-04-11",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": []
+        },
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p386",
+          "locator": "p386",
+          "quote": "At 5.30 a. m. our lines and columns were in motion",
+          "raw_sha256": "c87c79162f5ef1a88bc308896b90a4178808a6b505e1b7ee805be535705a692c",
+          "source_metadata_sha256": "728ea565421f76379239861074184e28a0b8d99dad3b8a0143dec96fb4a64031",
+          "document_date": "1862-04-11",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": []
+        },
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p386",
+          "locator": "p386",
+          "quote": "The second line, composed of the other troops of Bragg's corps, followed the first at a distance of 500 yards",
+          "raw_sha256": "c87c79162f5ef1a88bc308896b90a4178808a6b505e1b7ee805be535705a692c",
+          "source_metadata_sha256": "728ea565421f76379239861074184e28a0b8d99dad3b8a0143dec96fb4a64031",
+          "document_date": "1862-04-11",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": []
+        }
+      ],
+      "limit": "Previously pinned text re-inspected, no new p386 facsimile audit. Army-level report cannot resolve earlier picket shots or prove all formations were in those positions immediately before contact."
+    },
+    {
+      "id": "CL14",
+      "status": "source_attributed_unadjudicated",
+      "statement": "Beauregard describes cavalry and four artillery pieces already forward at three fords, while Maney’s reinforcement is associated with the movement order.",
+      "citations": [
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p386",
+          "locator": "p386",
+          "quote": "regiment of cavalry atrd battery of four pieces already thrown forward to watch and guard Greer's, Tan ner's, and Borland's Fords, on Lick Creek",
+          "raw_sha256": "c87c79162f5ef1a88bc308896b90a4178808a6b505e1b7ee805be535705a692c",
+          "source_metadata_sha256": "728ea565421f76379239861074184e28a0b8d99dad3b8a0143dec96fb4a64031",
+          "document_date": "1862-04-11",
+          "historical_knowledge_at": null,
+          "visually_checked_facsimile_ids": []
+        }
+      ],
+      "limit": "Guard identities, exact B0 census and Borland map identity remain unresolved. Do not treat Maney’s ordered movement as completed pre-contact presence."
+    }
+  ],
+  "map_readings": [
+    {
+      "id": "CL-M2006636339",
+      "map_source_id": "loc-2006636339-map-v1",
+      "catalog_source_id": "loc-2006636339-catalog-v1",
+      "readings_source_id": "loc-2006636339-readings-v1",
+      "statement": "Blue morning and red night lines distinguish six local Union command labels (Sherman, Prentiss, McClernand, Hurlbut, W. H. L. Wallace and Stuart); red Lew Wallace/Buell and river gunboats must not be moved into the opening state. North is right.",
+      "limit": "Morning is not a pre-contact instant. Catalog dates the map [1862] via Stephenson 1989; drawing/compilation time and underlying survey unestablished.",
+      "coordinate_system": "pixels in original full-resolution JPEG, top-left origin; inspection windows only, not geographic coordinates",
+      "inspection_windows_xyxy": {
+        "legend": [
+          480,
+          480,
+          2410,
+          1900
+        ],
+        "central_lines": [
+          3000,
+          1450,
+          5100,
+          3800
+        ],
+        "river_and_buell": [
+          4580,
+          4010,
+          6400,
+          5570
+        ]
+      },
+      "georeferenced": false,
+      "production_date": null,
+      "historical_knowledge_at": null
+    },
+    {
+      "id": "CL-M85690890",
+      "map_source_id": "loc-85690890-map-v1",
+      "catalog_source_id": "loc-85690890-catalog-v1",
+      "readings_source_id": "loc-85690890-readings-v1",
+      "statement": "The April 6–7 map depicts Hardee, Bragg, Polk and Breckinridge lines, Union camps and gunboats; Tanner and Greer ford labels are legible.",
+      "limit": "No phase-specific clock in the inspected legend; not a B0 census. Beauregard endorsement ties it to the same reporting chain. Borland identification and full guard distribution remain open.",
+      "coordinate_system": "pixels in original full-resolution JPEG, top-left origin; inspection windows only, not geographic coordinates",
+      "inspection_windows_xyxy": {
+        "lines_and_fords": [
+          990,
+          795,
+          1880,
+          1575
+        ],
+        "legend": [
+          2060,
+          450,
+          2440,
+          800
+        ]
+      },
+      "georeferenced": false,
+      "production_date": null,
+      "historical_knowledge_at": null
+    }
+  ],
+  "open_gates": [
+    {
+      "id": "G1",
+      "question": "Does the engagement boundary include April 3–5 contacts?",
+      "state": "unresolved",
+      "next_evidence": "Inspect the April 4 Hardee/Jordan/Sherman reports and the referenced April 5 Howell encounter; compare event continuity before amending any boundary."
+    },
+    {
+      "id": "G2",
+      "question": "Which April 6 shot/contact qualifies first under the chosen rule?",
+      "state": "unresolved",
+      "next_evidence": "Trace Reed’s 4:55 derivation and patrol testimony, identify cavalry vedettes, and distinguish alarm shots, departure times and separate patrols."
+    },
+    {
+      "id": "G3",
+      "question": "What is the exact geographic area and complete location inventory?",
+      "state": "unresolved",
+      "next_evidence": "Tie field-name variants, camp plots, guard detachments, approach columns and reserves to a common survey with reported-time uncertainty; identify Borland ford."
+    },
+    {
+      "id": "G4",
+      "question": "How are afloat personnel classified consistently on both sides?",
+      "state": "unresolved",
+      "next_evidence": "Recover April 5–6 transport/gunboat deck logs and landing times; choose a bank/water boundary and apply a symmetrical physical-availability rule. Map boat icons cannot establish opening crew membership."
+    },
+    {
+      "id": "G5",
+      "question": "Can the seven blocked observations be mapped to complete B0 populations?",
+      "state": "unresolved",
+      "next_evidence": "After G1–G4, audit roster/return inclusions, absences, detached guards and overlapping totals. No new arithmetic repairs."
+    }
+  ]
+}

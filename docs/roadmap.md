@@ -64,11 +64,16 @@ Astra `xhigh` [accepted the bounded proposal](../artifacts/review-results/shiloh
 with one nonblocking precision clarification. The first-contact identification,
 exact area and full memberships remain unresolved.
 
-Next prepare a contact-and-location evidence packet: inspect full opening
-accounts and contemporary positions/maps, audit the first qualifying contact,
-and locate both sides' outposts, approach echelons, reserves and ford guards.
-Resolve the transport/afloat rule explicitly, then recover population/return
-evidence for the seven blockers. Continue across the complete source campaign.
+The [contact-and-location packet](research/shiloh-contact-location-v1.md) now
+compares nine full participant reports (OCR context), 16 visually inspected
+book pages and two maps cataloged to 1862. Its 14 attributed assertions and
+two map-reading records preserve conflicting first-fire clocks, prior April 4
+contact and map phase limits. There are 32 new source records; the draft dossier
+and both admission proposals remain unchanged. Separate review is pending.
+Next audit the April 3–5 contact chain and define engagement segmentation before
+selecting an April 6 first-contact clock. Map control, full unit locations,
+ford-guard identities and the transport/afloat rule remain unresolved, followed
+by population/return evidence for the seven blockers. Continue across the complete source campaign.
 Historical admission still requires actual evidence-use review of a complete
 proposal and an immutable release manifest; this partial proposal is no release.
 
