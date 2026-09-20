@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "review_run_id": "TN003-a42f063-astra-xhigh-v1",
+  "validated_at_utc": "2026-09-20T18:03:59.166352+00:00",
+  "validator": "primary agent; one-off offline standard-library intake checks",
+  "status": "passed",
+  "bundle_id": "TN003-a42f063-v1",
+  "bundle_sha256": "f1e1f7bc2aec3074b02408649fd29184ba380bfd2486d77f2184341f6aff8a13",
+  "dossier_sha256": "1107b7149f9aa3877478e003a01ae2383b5d0729a15d6a90106e427350d49780",
+  "source_registry_sha256": "a71f16285be84504048826255c0abcb49488c5d96f8e048ca5259ad523cc0e8b",
+  "response_sha256": {
+    "review.md": "d7624f3d3a0b2e5eee42d756f63fdc69442e35f6a39ac8ec57b2dfd34c119fef",
+    "review-result.json": "31f77766d967787ae9ca74e7098b8341a59285df9105c8bedbd7c2d0dde46fac"
+  },
+  "checks": {
+    "assignment_and_prompt_hashes_match_dispatch": true,
+    "reviewer_identity_model_effort_match_actual_dispatch": true,
+    "zip_payload_hashes_verified": 106,
+    "exact_unique_assignment_ids_and_coverage_arithmetic": {
+      "claims": 62,
+      "quantities": 40,
+      "events": 26,
+      "scan_checks": 26
+    },
+    "same_scan_ids_paths_hashes_and_section_selections": 26,
+    "finding_ids_and_affected_record_references_resolve": 4,
+    "source_references_and_hashes_checked_including_repeats": 485,
+    "quoted_passage_occurrences_match_selected_text_or_csv_cells_including_repeats": 473,
+    "context_only_references_for_explicit_unknowns": 12,
+    "cited_source_artifacts": 32,
+    "cited_source_section_pairs": 65,
+    "pairs_with_supplied_image_comparisons": 30,
+    "pairs_without_supplied_image_comparisons": 35,
+    "unknown_claims_retained_null": 3
+  },
+  "primary_disposition": {
+    "TN003-R1": "accepted_for_versioned_correction_pass_not_applied",
+    "TN003-R2": "accepted_for_versioned_correction_pass_not_applied",
+    "TN003-R3": "accepted_for_versioned_correction_pass_not_applied",
+    "TN003-R4": "accepted_for_versioned_correction_pass_not_applied"
+  },
+  "assessment": "primary-assessment.md",
+  "limits": [
+    "These automated checks establish record consistency and passage presence, not historical truth or review quality.",
+    "Coverage describes the actual reviewer response; primary source checks of the four findings are documented separately, not a second full dossier audit.",
+    "The scan sample is purposive and covers selected cells/passages only; no population transcription-error rate is estimated.",
+    "No full parent volume was inspected; 35 cited source/section pairs remain text/CSV-only.",
+    "Sources, dossier, frozen bundle and baseline inputs remain unchanged; no correction or feature admission is applied."
+  ],
+  "formatting_note": "The actual reviewer narrative is preserved verbatim. git diff --check reports one trailing space on review.md line 263; all other staged files pass the whitespace check. This formatting exception does not affect source or coverage validation."
+}

@@ -144,6 +144,12 @@ dependence, missing dimensions, and corrected claims. Matching a quote does not
 prove it supports the claim, and a correct extraction can preserve an incorrect source.
 
 Version 0.1 neither calls a model API nor trains on dossier text. The three draft
-dossiers illustrate the evidence contract. They are not independently reviewed and
-cannot be treated as validated enriched features. Agreement with famous-generals
-lists is never an acceptance criterion.
+dossiers illustrate the evidence contract and cannot be treated as validated
+enriched features. A separate fresh-context Astra `xhigh` review of the frozen
+Shiloh dossier checked 62 claims, 40 quantities, 26 events and 26 supplied scan
+selections; 35 of 65 cited source/section pairs remain text/CSV-only. Its
+[actual response and primary assessment](research/shiloh-review-handoff.md#completed-ai-review)
+retain historical disputes and four pending corrections. Antietam and Champion
+Hill have no separate review. AI review is not human historical adjudication or
+proof of source independence. Agreement with famous-generals lists is never an
+acceptance criterion.

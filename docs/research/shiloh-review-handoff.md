@@ -1,8 +1,36 @@
 # Shiloh review handoff
 
-Prepared 2026-09-20. **The review has not been performed.** This handoff packages
-the draft at evidence commit `a42f06390651eea01d952a7cb7c329f410a6f9ab`; it does
-not revise evidence, record an independent review or admit model features.
+Prepared 2026-09-20. **A separate AI review is now completed and recorded below.**
+This handoff packages the draft at evidence commit
+`a42f06390651eea01d952a7cb7c329f410a6f9ab`. Its original prompt, blank template
+and archive remain unchanged; the actual response is a separate record. No
+evidence correction or feature admission has been applied.
+
+## Completed AI review
+
+On 2026-09-20, `/root/shiloh_source_review` ran as a fresh-context GPT-6 Astra
+`xhigh` subagent under the standing repository policy. The
+[dispatch record](../../artifacts/review-results/TN003-a42f063-astra-xhigh-v1/dispatch.json)
+binds the assignment, model/effort, input hashes and actual response hashes.
+Read the [review narrative](../../artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review.md),
+[completed coverage ledger](../../artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review-result.json),
+[intake validation](../../artifacts/review-results/TN003-a42f063-astra-xhigh-v1/intake-validation.json)
+and [primary assessment](../../artifacts/review-results/TN003-a42f063-astra-xhigh-v1/primary-assessment.md).
+
+Coverage: 62/62 claims, 40/40 quantities, 26/26 events, 26/26 supplied scan
+selections, and all three null unknowns. No substantive transcription mismatch
+was found in the checked selections. Of 65 cited source/section pairs, 30 have
+supplied image comparisons and 35 remain text/CSV-only; full parent volumes
+were not inspected. This is complete bounded assignment coverage, with partial
+image-level transcription coverage and no population error-rate estimate.
+
+The primary assessment accepts four findings for a subsequent versioned
+correction pass: TN003-R1 estimation provenance, TN003-R2 section-specific dates,
+TN003-R3 dependence metadata for the same return and TN003-R4 Crittenden arrival
+wording. It confirms that the first two expose machine-readable contract limits,
+not an existing model-input leak. Historical disputes remain unresolved. This
+actual AI review satisfies the bounded separate-review step; it does not require
+another human review merely to begin designing feature admission.
 
 ## Run the separate review
 
@@ -88,13 +116,18 @@ Tests cover payload/source completeness, deterministic archives, exact coverage
 IDs, explicitly unreviewed templates, extracted verification, corrupted inputs,
 and rebuilding the frozen handoff after a later live-dossier change.
 Run `make check`, `make reproduce`, `make packet` and `make review-bundle`.
-On 2026-09-20 all 41 tests and the offline contract check passed. Repeated ZIP
+During bundle preparation on 2026-09-20, all 41 tests and the offline contract check passed. Repeated ZIP
 builds matched; extraction and verification succeeded; deliberate tampering was
 rejected. Comparison against the evidence commit confirmed the dossier, pinned
 data, baseline code and all existing generated artifacts remained byte-identical.
 The current dossier, pinned data and baseline remain unchanged: 23/127 engagements
 in 13 eligible campaign groups within a 36-campaign frame; Brier 0.276882, worse
 than equal odds at 0.25.
+
+After recording the review, all 41 tests and the offline contract check passed
+again. The generated report now links the actual review and pending corrections;
+the dossier, registry, research packet, predictions, coverage and frozen ZIP
+remain byte-identical to their pre-review versions.
 
 ## Reconcile the returned review
 

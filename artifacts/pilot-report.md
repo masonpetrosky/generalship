@@ -39,7 +39,7 @@ Strength sensitivity varies the held-out range endpoints with a fixed fitted mod
 
 ## Draft evidence dossiers
 
-Exact passage checks verify provenance only. These drafts have no independent historical review and do not modify model inputs.
+Exact passage checks verify provenance only. These drafts do not modify model inputs. Shiloh has a separate AI source review; historical disputes and four accepted corrections remain open.
 
 | Battle | Claims | Explicit unknowns | Quantities | Events | Status |
 |---|---:|---:|---:|---:|---|
@@ -50,7 +50,8 @@ Exact passage checks verify provenance only. These drafts have no independent hi
 ## Next research action
 
 The [Shiloh research memo](../docs/research/shiloh.md) preserves competing returns, dated orders, reinforcement phases, and disputed responsibility. No canonical opening strength or effective command-transfer time has been adjudicated.
-The [Confederate return audit](../docs/research/shiloh-confederate-returns.md) and [Union availability audit](../docs/research/shiloh-union-availability.md) retain source and population disputes. The [Ohio reinforcement audit](../docs/research/shiloh-ohio-reinforcements.md) separates crossing, landing, formation and participation while preserving conflicting clocks, the untraced 600-person basis, mixed-date estimates and Reed's 7,553/7,552 discrepancy. Next obtain independent source/entailment review, including an extraction sample, before designing an enriched feature row.
+The [Confederate return audit](../docs/research/shiloh-confederate-returns.md) and [Union availability audit](../docs/research/shiloh-union-availability.md) retain source and population disputes. The [Ohio reinforcement audit](../docs/research/shiloh-ohio-reinforcements.md) separates crossing, landing, formation and participation while preserving conflicting clocks, the untraced 600-person basis, mixed-date estimates and Reed's 7,553/7,552 discrepancy.
+The fresh-context Astra xhigh [source review](review-results/TN003-a42f063-astra-xhigh-v1/review.md) checked all 62 claims, 40 quantities, 26 events and 26 supplied scan selections. Of 65 cited source/section pairs, 35 remain text/CSV-only. The [primary assessment](review-results/TN003-a42f063-astra-xhigh-v1/primary-assessment.md) accepts four pending corrections: estimation provenance, section-specific document dates, same-return dependence and Crittenden arrival wording. Next apply a versioned correction pass and focused re-review, then design feature admission with unresolved evidence explicit. AI review does not establish historical truth or admit features.
 Then expand by complete campaign, retaining every unscorable engagement in the coverage denominator.
 
 ## Reproduce and inspect

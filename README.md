@@ -79,17 +79,24 @@ orders and disputed responsibility. Nelson/Ammen and regimental reports now
 separate crossing, landing, formation and participation. Conflicting clocks, the
 untraced Sunday 600-person figure, mixed-date estimates and Reed's 7,553/7,552
 discrepancy remain explicit alongside earlier source disputes. No canonical
-opening strength or independently reviewed command attribution has been
-established. Next obtain independent source/entailment review before designing
-feature admission. The [prepared packet](artifacts/research/TN003.md)
+opening strength or adjudicated command attribution has been established. A
+fresh-context GPT-6 Astra `xhigh` [source review](artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review.md)
+checked all 62 claims, 40 quantities, 26 events and 26 supplied scan selections.
+The [primary assessment](artifacts/review-results/TN003-a42f063-astra-xhigh-v1/primary-assessment.md)
+accepts four findings for a versioned correction pass: estimation provenance,
+section-specific document dates, same-return dependence and Crittenden arrival
+wording. These corrections are pending; 35 of 65 cited source/section pairs
+remain text/CSV-only. The [prepared packet](artifacts/research/TN003.md)
 and [dossier](data/evidence/TN003.json) preserve the open questions. Expand by complete
 campaign, retaining ordinary engagements and failures in the frame.
 
-The [self-contained review handoff](docs/research/shiloh-review-handoff.md) is ready
-for a separate reviewer: exact source files, 26 page images, a review prompt and
-a blank coverage template. The default reviewer is a fresh-context GPT-6 Astra
-`xhigh` subagent in the same task, under [AGENTS.md](AGENTS.md); no manual chat
-handoff is required. Review execution and actual findings are recorded separately.
+The [self-contained review handoff](docs/research/shiloh-review-handoff.md) preserves
+the frozen assignment separately from the actual response and execution record.
+The default reviewer is a fresh-context GPT-6 Astra `xhigh` subagent in the same
+task, under [AGENTS.md](AGENTS.md); no manual chat handoff is required. This AI
+review fulfills the bounded separate-review step, not historical adjudication or
+feature admission. Next reconcile the accepted findings in versioned evidence
+and contract records, then design feature admission with the remaining disputes explicit.
 
 Then define a campaign replacement boundary and outcomes before fitting enriched
 models. Battle execution and campaign contribution are separate estimands; adding

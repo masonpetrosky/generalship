@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "review_run_id": "TN003-a42f063-astra-xhigh-v1",
+  "status": "completed",
+  "reviewer_type": "AI",
+  "reviewer_task": "/root/shiloh_source_review",
+  "configured_model": "gpt-6-astra",
+  "configured_reasoning_effort": "xhigh",
+  "fork_turns": "none",
+  "dispatched_at_utc": "2026-09-20T17:40:49.323492+00:00",
+  "authorization": "Owner instruction in this task: use GPT-6 Astra at extra-high effort as a reviewer subagent; standing repository policy.",
+  "bundle_id": "TN003-a42f063-v1",
+  "bundle_sha256": "f1e1f7bc2aec3074b02408649fd29184ba380bfd2486d77f2184341f6aff8a13",
+  "evidence_commit": "a42f06390651eea01d952a7cb7c329f410a6f9ab",
+  "dossier_sha256": "1107b7149f9aa3877478e003a01ae2383b5d0729a15d6a90106e427350d49780",
+  "prompt_path": "artifacts/review/TN003-a42f063-v1/PROMPT.md",
+  "prompt_sha256": "dcde2bb5be0fd394cabb91a07dc8ba18cce572e0021b729c3da7c2003c131051",
+  "execution_note": "Fresh-context subagent with local extracted bundle replaces manual upload and response relay; frozen prompt and bundle bytes unchanged. Reviewer may write only review.md and review-result.json under this run directory. No source or model promotion.",
+  "outputs": {
+    "review.md": {
+      "path": "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review.md",
+      "sha256": "d7624f3d3a0b2e5eee42d756f63fdc69442e35f6a39ac8ec57b2dfd34c119fef"
+    },
+    "review-result.json": {
+      "path": "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review-result.json",
+      "sha256": "31f77766d967787ae9ca74e7098b8341a59285df9105c8bedbd7c2d0dde46fac"
+    },
+    "primary-assessment.md": {
+      "path": "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/primary-assessment.md",
+      "sha256": "0c8e1ece4d380e071c17cb7d79226463435c9f80bbcd6d0ac57ace261681070c"
+    },
+    "intake-validation.json": {
+      "path": "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/intake-validation.json",
+      "sha256": "d67db2fd085085f6a8f1e62613fc312de236ab76772d648d8677a6d58a19e447"
+    }
+  },
+  "assignment_path": "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/assignment.md",
+  "assignment_sha256": "be120f52784b469a06961ef0aef6ffcff3cbfd3d40520f91a0aa6d87eb0b7dc2",
+  "policy_commit": "df053f271dfeb9564335f0bcba4cac8f4ce7dbf1",
+  "completion_received_at_utc": "2026-09-20T18:03:59.166938+00:00",
+  "completion_note": "Actual final response received from /root/shiloh_source_review; primary intake passed. Timestamp records intake completion, not an independently measured model finish time.",
+  "coverage_totals": {
+    "claims": {
+      "total": 62,
+      "checked": 62,
+      "partially_checked": 0,
+      "not_reviewed": 0,
+      "cannot_verify": 0,
+      "decisions": {
+        "correction_proposed": 1,
+        "dispute_retained": 15,
+        "supported_as_scoped": 43,
+        "unknown_retained": 3
+      }
+    },
+    "quantities": {
+      "total": 40,
+      "checked": 40,
+      "partially_checked": 0,
+      "not_reviewed": 0,
+      "cannot_verify": 0,
+      "decisions": {
+        "correction_proposed": 6,
+        "dispute_retained": 13,
+        "supported_as_scoped": 21
+      }
+    },
+    "events": {
+      "total": 26,
+      "checked": 26,
+      "partially_checked": 0,
+      "not_reviewed": 0,
+      "cannot_verify": 0,
+      "decisions": {
+        "dispute_retained": 4,
+        "supported_as_scoped": 22
+      }
+    },
+    "scan_checks": {
+      "total": 26,
+      "checked": 26,
+      "partially_checked": 0,
+      "not_reviewed": 0,
+      "cannot_verify": 0,
+      "decisions": {
+        "checked": 26
+      }
+    }
+  }
+}
