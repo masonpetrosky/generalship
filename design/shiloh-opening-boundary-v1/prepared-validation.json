@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "status": "passed_separate_review_pending",
+  "recorded_at_utc": "2026-09-20T19:47:10.642673+00:00",
+  "base_commit": "cf23433e1da519339f4ca00087ab67af7c688c65",
+  "python": "3.14.7",
+  "commands": {
+    "make check": {
+      "exit_code": 0,
+      "tests_passed": 82
+    },
+    "make reproduce": {
+      "exit_code": 0
+    },
+    "python3 -m generalship admission-check data/admission/shiloh-opening-v2.json": {
+      "exit_code": 0
+    },
+    "python3 design/shiloh-opening-boundary-v1/reference-audit.py": {
+      "exit_code": 0
+    },
+    "git diff --check": {
+      "exit_code": 0
+    }
+  },
+  "input_sha256": {
+    "data/admission/shiloh-opening-v2.json": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52",
+    "docs/research/shiloh-opening-boundary-v1.md": "bf7cdb1692261cb166cecf45f918706d0277301c272a8bd3bb2a67f044efe82c",
+    "design/shiloh-opening-boundary-v1/research-record.json": "1d654ae0ffc571e12d0c3a95480518542d4bf54724a5c09eae16640be2ec181e",
+    "design/shiloh-opening-boundary-v1/reference-audit.py": "a3d683ab8328a6495defe50a1102098d39507ee471c440b9ea90e7f8f5412f9f",
+    "artifacts/admission/shiloh-opening-v2-check.json": "960bca09880c56cec4da33e172cdd5686d106efcaac2e1a407a5d1e745281711"
+  },
+  "source_registry_dossier_raw_sources_cohort_default_proposal_default_ledger_and_baseline_unchanged": true,
+  "prepared_TN003_packet_unchanged": true,
+  "generated_reports_inspected": true,
+  "v2_status_counts": {
+    "blocked": 7,
+    "excluded": 33
+  },
+  "frame_engagements": 127,
+  "frame_campaigns": 36,
+  "complete_rows": 0,
+  "emitted_rows": 0,
+  "promoted_rows": 0,
+  "review_status": "awaiting actual separate response; no release manifest"
+}

@@ -1,0 +1,2120 @@
+{
+  "schema_version": 1,
+  "kind": "admission_proposal",
+  "test_only": false,
+  "profile": {
+    "id": "opening_available_combatants_v1",
+    "use": "retrospective_pre_engagement_prediction",
+    "target": "recorded_decisive_union_outcome",
+    "field": "opening_available_combatants",
+    "unit": "people",
+    "population_rule": "Combat-unit people physically available in the engagement area before first hostile contact; excludes absent, hospitalized, noncombatant, detached and subsequent-arrival populations.",
+    "boundary_rule": "Same boundary and target-population definition for both sides; source-supported relative ordering allowed, no fabricated clock precision.",
+    "uncertainty_policy": "preserve_bounds_no_imputation",
+    "scenario_policy": "all_applicable_joint_alternatives_no_weights",
+    "selection_policy": "locked_without_outcomes_or_scores",
+    "contract": {
+      "path": "data/admission/snapshots/feature-admission-v1.md",
+      "sha256": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99"
+    },
+    "evaluation_plan": {
+      "research_cutoff": "2026-09-20",
+      "grouping": "whole_campaign_holdout",
+      "comparison": "paired_common_rows_and_separate_expanded_coverage",
+      "fitting": "not_performed",
+      "source_selection": "no_outcome_or_score_selection"
+    }
+  },
+  "snapshot": {
+    "path": "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json",
+    "sha256": "d3f3a2b9f2e8e48726812e08bf925d7c0e60b8ff012a4b0d4cdc95581a5a884c"
+  },
+  "boundaries": [
+    {
+      "id": "TN003-april6-contact-proposal-v2",
+      "battle_id": "TN003",
+      "profile_id": "opening_available_combatants_v1",
+      "date": "1862-04-06",
+      "contact_definition": "Proposed B0: immediately before the first hostile contact of the April 6 assault, including reconnaissance and picket contact. Beauregard p386 nominates a reconnaissance/advance-picket encounter before the general advance; its 5 a.m. is an attributed clock, not an adjudicated exact boundary. Whether this is the earliest qualifying contact remains unestablished.",
+      "area": null,
+      "availability_rule": "Proposed rule for both sides: combat-unit people physically present in the final mapped engagement area at B0, including officers, artillery crews, cavalry, reserves and outposts. Later action, a front-line position, equipment quality and a readiness score are not membership criteria. Exclude noncombatant duties, absent/hospitalized personnel, out-of-area detachments and subsequent arrivals. Transport/afloat and perimeter cases remain unresolved; no complete membership partition is supplied.",
+      "members_by_side": {
+        "US": null,
+        "Confederate": null
+      },
+      "citations": [
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p386",
+          "locator": "p386",
+          "quote": "At 5 a. m. on the 6th instant, a reconnoiteriug party of the enemy having become engaged with our advance pickets"
+        },
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p386",
+          "locator": "p386",
+          "quote": "At 5.30 a. m. our lines and columns were in motion"
+        },
+        {
+          "source_id": "or-grant-shiloh-report",
+          "section": "p109",
+          "locator": "p109",
+          "quote": "On Sunday morning our pickets were attacked and driven in by the enemy. Immediately the five divisions stationed at this place were drawn up in line of battle"
+        },
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p386",
+          "locator": "p386",
+          "quote": "the first and second ex tending from Owl Creek, on the left, to Lick Creek, on the right"
+        },
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p386",
+          "locator": "p386",
+          "quote": "These two corps constituted the reserve, and were to support the front lines of battle"
+        },
+        {
+          "source_id": "or-beauregard-shiloh-report",
+          "section": "p386",
+          "locator": "p386",
+          "quote": "the regiment of cavalry atrd battery of four pieces already thrown forward to watch and guard Greer's, Tan ner's, and Borland's Fords, on Lick Creek."
+        },
+        {
+          "source_id": "or-grant-shiloh-report",
+          "section": "p109",
+          "locator": "p109",
+          "quote": "General Lewis Wallace, at Crump's Landing, G miles below, was ordered at an early hour in the morning to hold his division an readiness to be moved in any direction to which it might be ordered."
+        },
+        {
+          "source_id": "or-nelson-reinforcements-v2",
+          "section": "p323-crossing",
+          "locator": "p323-crossing",
+          "quote": "left Savannah, by order of General Grant, reiterated by General Buell in person, at 1.30 p. m. on Sunday, April 6"
+        },
+        {
+          "source_id": "reed-1909-union-audit-v1",
+          "section": "p60-second-brigade",
+          "locator": "p60-second-brigade",
+          "quote": "Not being fully equipped, the regiment did not go to camp, but remained at Landing"
+        },
+        {
+          "source_id": "reed-1909-union-audit-v1",
+          "section": "pp60-61-michigan",
+          "locator": "pp60-61-michigan",
+          "quote": "Arms had been issued to the men, but no ammunition had been supplied."
+        }
+      ],
+      "rationale": "A non-releasing boundary proposal, not proof of earliest contact or a complete area. Pittsburg west-bank camps, landing, immediate attack approaches, reserves, pickets and ford guards are the proposed mapping task. Crump's Landing, Savannah and the opposite bank are outside that proposed local area. Exact outer perimeter, afloat treatment, first-contact identification and both side membership lists remain unresolved. No time zone, replacement time, combat readiness or zero-strength inference is made. See docs/research/shiloh-opening-boundary-v1.md and the bound research record."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "TN003-nps-union-total",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "union-shiloh",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "nps-union-total",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-nps-confederate-total",
+      "battle_id": "TN003",
+      "side": "Confederate",
+      "entity_id": "army-mississippi",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "nps-confederate-total",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-union-paper-total",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "army-tennessee",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "union-paper-total",
+          "inputs": [],
+          "mapping": {
+            "time": "before",
+            "population": "incompatible",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "Direct use of this whole paper aggregate is incompatible with the proposed local opening population: it includes the Third Division based at Crump's Landing and omits known categories. Earlier dates do not establish carry-forward to B0. A separately researched component reconstruction is a new candidate; subtraction alone does not repair omissions, noncombatants or membership.",
+            "citations": [
+              {
+                "source_id": "or-union-return-april4-5",
+                "section": "p112",
+                "locator": "p112",
+                "quote": "APRIL 4–5, 1862."
+              },
+              {
+                "source_id": "or-union-return-april4-5",
+                "section": "p112",
+                "locator": "p112",
+                "quote": "Grand total | 1,987 | 42,908 | 44,895 | 62"
+              },
+              {
+                "source_id": "or-union-return-april4-5",
+                "section": "p112",
+                "locator": "p112",
+                "quote": "Total Third Division | 314 | 7,250 | 7,564 | 12"
+              },
+              {
+                "source_id": "or-union-return-april4-5",
+                "section": "p112",
+                "locator": "p112",
+                "quote": "Sixth Division note: Return dated April 5; strength of two regiments and one battery not reported on the original.\nGrand-total note: Division staff not included in this abstract."
+              },
+              {
+                "source_id": "or-grant-shiloh-report",
+                "section": "p109",
+                "locator": "p109",
+                "quote": "General Lewis Wallace, at Crump's Landing, G miles below, was ordered at an early hour in the morning to hold his division an readiness to be moved in any direction to which it might be ordered."
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-wallace-april4-return",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "wallace-division",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "wallace-april4-return",
+          "inputs": [],
+          "mapping": {
+            "time": "before",
+            "population": "incompatible",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "The earlier whole-division paper count is not an opening count for the local Pittsburg area: Grant locates this division at Crump's Landing and Wallace describes later movement and night junction. This excludes unchanged use of 7,564, not an assertion that every listed person was absent or that opening strength was zero.",
+            "citations": [
+              {
+                "source_id": "or-union-return-april4-5",
+                "section": "p112",
+                "locator": "p112",
+                "quote": "Total Third Division | 314 | 7,250 | 7,564 | 12"
+              },
+              {
+                "source_id": "or-union-return-april4-5",
+                "section": "p112",
+                "locator": "p112",
+                "quote": "APRIL 4–5, 1862."
+              },
+              {
+                "source_id": "or-grant-shiloh-report",
+                "section": "p109",
+                "locator": "p109",
+                "quote": "General Lewis Wallace, at Crump's Landing, G miles below, was ordered at an early hour in the morning to hold his division an readiness to be moved in any direction to which it might be ordered."
+              },
+              {
+                "source_id": "or-wallace-availability-v1",
+                "section": "p170",
+                "locator": "p170",
+                "quote": "At 11.30 o'clock the anticipated order arrived"
+              },
+              {
+                "source_id": "or-wallace-availability-v1",
+                "section": "p170",
+                "locator": "p170",
+                "quote": "delayed my junction with the main army until a little after night-fall."
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-confederate-before",
+      "battle_id": "TN003",
+      "side": "Confederate",
+      "entity_id": "army-mississippi",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "confederate-before",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "The source labels the column before battle, but gives no muster time, verified derivation, opening membership or definition equating effective total to the profile. Keep temporal applicability unknown rather than turn the relative heading into a census at B0. Its disagreement with report 136 is not a source range or an applicable scenario pair.",
+            "citations": [
+              {
+                "source_id": "or-confederate-return",
+                "section": "p396",
+                "locator": "p396",
+                "quote": "Columns: Command | Commander | Effective total before battle | Effective total after battle."
+              },
+              {
+                "source_id": "or-confederate-return",
+                "section": "p396",
+                "locator": "p396",
+                "quote": "Grand total | 40,335 | 29,636"
+              },
+              {
+                "source_id": "or-confederate-return",
+                "section": "p396",
+                "locator": "p396",
+                "quote": "Footnote to both effective-total columns: These columns do not agree with the effective totals in reports Nos. 136 and 137, following."
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-confederate-after",
+      "battle_id": "TN003",
+      "side": "Confederate",
+      "entity_id": "army-mississippi",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "confederate-after",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-force-sunday-engaged",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "union-shiloh",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "force-sunday-engaged",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-force-buell",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "army-ohio",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "force-buell",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-force-wallace",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "wallace-division",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "force-wallace",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-force-other",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "other-union-regiments",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "force-other",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-handbook-wallace",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "wallace-division",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "handbook-wallace",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-handbook-nelson-leading",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "nelson-leading-contingent",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "handbook-nelson-leading",
+          "inputs": [],
+          "mapping": {
+            "time": "after",
+            "population": "unknown",
+            "derivation": "post_state",
+            "members": null,
+            "rationale": "The handbook's approximately 600 describes an evening west-bank/line state after the proposed morning B0. Its untraced numeric basis and difference from Grose's contingent remain open; later presence cannot be an opening predictor.",
+            "citations": [
+              {
+                "source_id": "gudmens-shiloh-handbook",
+                "section": "p113",
+                "locator": "p113",
+                "quote": "by 1800 he had about 600 men west of the river and in line."
+              },
+              {
+                "source_id": "or-beauregard-shiloh-report",
+                "section": "p386",
+                "locator": "p386",
+                "quote": "At 5 a. m. on the 6th instant, a reconnoiteriug party of the enemy having become engaged with our advance pickets"
+              },
+              {
+                "source_id": "or-nelson-reinforcements-v2",
+                "section": "p323-crossing",
+                "locator": "p323-crossing",
+                "quote": "left Savannah, by order of General Grant, reiterated by General Buell in person, at 1.30 p. m. on Sunday, April 6"
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-confederate-report-136-total",
+      "battle_id": "TN003",
+      "side": "Confederate",
+      "entity_id": "army-mississippi",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "confederate-report-136-total",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "April 3 describes the march, not a separately established muster. The effective column has no proved equivalence to officers and combat-unit people at B0; Hill's Monday-arrival footnote does not specify inclusion or an adjustment. Branch subtotals overlap the grand total and do not cover a full side by themselves. Unknown timing, derivation and membership remain; do not spread the infantry footnote into invented branch counts.",
+            "citations": [
+              {
+                "source_id": "or-confederate-report-136-v1",
+                "section": "p398",
+                "locator": "p398",
+                "quote": "Field return of the Confederate forces that marched from Corinth to the Tennessee River, April 3, 1862."
+              },
+              {
+                "source_id": "or-confederate-report-136-v1",
+                "section": "p398",
+                "locator": "p398",
+                "quote": "Columns: Command | Present, For duty, Officers | Present, For duty, Enlisted men | Present, Effective total."
+              },
+              {
+                "source_id": "or-confederate-report-136-v1",
+                "section": "p398",
+                "locator": "p398",
+                "quote": "Colonel Hill's regiment (Tennessee) came upon the [field] during the engagement on Monday."
+              },
+              {
+                "source_id": "or-confederate-return",
+                "section": "p396",
+                "locator": "p396",
+                "quote": "Footnote to both effective-total columns: These columns do not agree with the effective totals in reports Nos. 136 and 137, following."
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-confederate-report-136-infantry",
+      "battle_id": "TN003",
+      "side": "Confederate",
+      "entity_id": "army-mississippi-infantry",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "confederate-report-136-infantry",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "April 3 describes the march, not a separately established muster. The effective column has no proved equivalence to officers and combat-unit people at B0; Hill's Monday-arrival footnote does not specify inclusion or an adjustment. Branch subtotals overlap the grand total and do not cover a full side by themselves. Unknown timing, derivation and membership remain; do not spread the infantry footnote into invented branch counts.",
+            "citations": [
+              {
+                "source_id": "or-confederate-report-136-v1",
+                "section": "p398",
+                "locator": "p398",
+                "quote": "Field return of the Confederate forces that marched from Corinth to the Tennessee River, April 3, 1862."
+              },
+              {
+                "source_id": "or-confederate-report-136-v1",
+                "section": "p398",
+                "locator": "p398",
+                "quote": "Columns: Command | Present, For duty, Officers | Present, For duty, Enlisted men | Present, Effective total."
+              },
+              {
+                "source_id": "or-confederate-report-136-v1",
+                "section": "p398",
+                "locator": "p398",
+                "quote": "Colonel Hill's regiment (Tennessee) came upon the [field] during the engagement on Monday."
+              },
+              {
+                "source_id": "or-confederate-return",
+                "section": "p396",
+                "locator": "p396",
+                "quote": "Footnote to both effective-total columns: These columns do not agree with the effective totals in reports Nos. 136 and 137, following."
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-confederate-report-136-artillery",
+      "battle_id": "TN003",
+      "side": "Confederate",
+      "entity_id": "army-mississippi-artillery",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "confederate-report-136-artillery",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "April 3 describes the march, not a separately established muster. The effective column has no proved equivalence to officers and combat-unit people at B0; Hill's Monday-arrival footnote does not specify inclusion or an adjustment. Branch subtotals overlap the grand total and do not cover a full side by themselves. Unknown timing, derivation and membership remain; do not spread the infantry footnote into invented branch counts.",
+            "citations": [
+              {
+                "source_id": "or-confederate-report-136-v1",
+                "section": "p398",
+                "locator": "p398",
+                "quote": "Field return of the Confederate forces that marched from Corinth to the Tennessee River, April 3, 1862."
+              },
+              {
+                "source_id": "or-confederate-report-136-v1",
+                "section": "p398",
+                "locator": "p398",
+                "quote": "Columns: Command | Present, For duty, Officers | Present, For duty, Enlisted men | Present, Effective total."
+              },
+              {
+                "source_id": "or-confederate-report-136-v1",
+                "section": "p398",
+                "locator": "p398",
+                "quote": "Colonel Hill's regiment (Tennessee) came upon the [field] during the engagement on Monday."
+              },
+              {
+                "source_id": "or-confederate-return",
+                "section": "p396",
+                "locator": "p396",
+                "quote": "Footnote to both effective-total columns: These columns do not agree with the effective totals in reports Nos. 136 and 137, following."
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-confederate-report-136-cavalry",
+      "battle_id": "TN003",
+      "side": "Confederate",
+      "entity_id": "army-mississippi-cavalry",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "confederate-report-136-cavalry",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "April 3 describes the march, not a separately established muster. The effective column has no proved equivalence to officers and combat-unit people at B0; Hill's Monday-arrival footnote does not specify inclusion or an adjustment. Branch subtotals overlap the grand total and do not cover a full side by themselves. Unknown timing, derivation and membership remain; do not spread the infantry footnote into invented branch counts.",
+            "citations": [
+              {
+                "source_id": "or-confederate-report-136-v1",
+                "section": "p398",
+                "locator": "p398",
+                "quote": "Field return of the Confederate forces that marched from Corinth to the Tennessee River, April 3, 1862."
+              },
+              {
+                "source_id": "or-confederate-report-136-v1",
+                "section": "p398",
+                "locator": "p398",
+                "quote": "Columns: Command | Present, For duty, Officers | Present, For duty, Enlisted men | Present, Effective total."
+              },
+              {
+                "source_id": "or-confederate-report-136-v1",
+                "section": "p398",
+                "locator": "p398",
+                "quote": "Colonel Hill's regiment (Tennessee) came upon the [field] during the engagement on Monday."
+              },
+              {
+                "source_id": "or-confederate-return",
+                "section": "p396",
+                "locator": "p396",
+                "quote": "Footnote to both effective-total columns: These columns do not agree with the effective totals in reports Nos. 136 and 137, following."
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-confederate-report-137-total",
+      "battle_id": "TN003",
+      "side": "Confederate",
+      "entity_id": "army-mississippi",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "confederate-report-137-total",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-confederate-report-137-infantry",
+      "battle_id": "TN003",
+      "side": "Confederate",
+      "entity_id": "army-mississippi-infantry",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "confederate-report-137-infantry",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-confederate-report-137-artillery",
+      "battle_id": "TN003",
+      "side": "Confederate",
+      "entity_id": "army-mississippi-artillery",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "confederate-report-137-artillery",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-confederate-report-137-cavalry",
+      "battle_id": "TN003",
+      "side": "Confederate",
+      "entity_id": "army-mississippi-cavalry",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "confederate-report-137-cavalry",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-sixth-april5-abstract",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "sixth-division",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "sixth-april5-abstract",
+          "inputs": [],
+          "mapping": {
+            "time": "before",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "An April 5 paper return is earlier than the proposed B0, but the abstract has unnamed missing regiments/battery and no verified full boundary population. It includes a landing-based unit in the later Reed account; front-line position is not the definition of available. No carry-forward, omission repair, noncombatant adjustment or whole-army transform is approved.",
+            "citations": [
+              {
+                "source_id": "or-union-return-detail-v3",
+                "section": "p112",
+                "locator": "p112",
+                "quote": "Total Sixth Division | 245 | 5,218 | 5,463"
+              },
+              {
+                "source_id": "or-union-return-detail-v3",
+                "section": "p112",
+                "locator": "p112",
+                "quote": "Return dated April 5; strength of two regiments and one battery not reported on the original."
+              },
+              {
+                "source_id": "or-union-return-april4-5",
+                "section": "p112",
+                "locator": "p112",
+                "quote": "Sixth Division note: Return dated April 5; strength of two regiments and one battery not reported on the original.\nGrand-total note: Division staff not included in this abstract."
+              },
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p60-second-brigade",
+                "locator": "p60-second-brigade",
+                "quote": "Not being fully equipped, the regiment did not go to camp, but remained at Landing"
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-reed-sixth-reconstruction",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "sixth-division",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "reed-sixth-reconstruction",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "incompatible",
+            "derivation": "participation",
+            "members": null,
+            "rationale": "Reed's reconstructed total includes the Twenty-third Missouri as an April 6 later-morning arrival; his rule treats for-duty people as engaged and retains noncombatants. It is a mixed-phase participation reconstruction, not the opening state. Do not turn its April 5 heading into a synchronized muster or subtract later entries to assert a repaired opening total.",
+            "citations": [
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p97",
+                "locator": "p97",
+                "quote": "Total Sixth Division | 347 | 7,198 | 7,545"
+              },
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p111-union-notes",
+                "locator": "p111-union-notes",
+                "quote": "(e) The Twenty-third Missouri arrived on the field Sunday morning, April 6, 1862, and reported to General Prentiss at the “Hornets' Nest” about 9 a. m."
+              },
+              {
+                "source_id": "or-prentiss-availability-v1",
+                "section": "p278-twentythird",
+                "locator": "p278-twentythird",
+                "quote": "At this point the Twenty-third Missouri Infantry, commanded by Colonel Tindall, which had just disembarked from a transport"
+              },
+              {
+                "source_id": "or-prentiss-availability-v1",
+                "section": "p278-twentythird",
+                "locator": "p278-twentythird",
+                "quote": "at 9.05 a. m. reformed to the right of General Hurlbut"
+              },
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p112-note-r",
+                "locator": "p112-note-r",
+                "quote": "The “present for duty,” has been taken, in each case, as the number engaged in the battle."
+              },
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p112-note-r",
+                "locator": "p112-note-r",
+                "quote": "No attempt has been made to eliminate the noncombatants"
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-reed-eighteenth-wisconsin-estimate",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "eighteenth-wisconsin",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "reed-eighteenth-wisconsin-estimate",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "Reed supports an April 5 arrival/camp for the formation, but the exact referent and derivation of the estimated 735, combatant population and opening membership remain unestablished. Formation arrival alone does not establish when these estimated people were counted. Preserve estimation and null quantity period; no conversion to at_boundary or a verified omitted-original-return slot.",
+            "citations": [
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p96",
+                "locator": "p96",
+                "quote": "18th Wisconsin* (note d) | 35 | 700 | 735"
+              },
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p97",
+                "locator": "p97",
+                "quote": "* Estimated."
+              },
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p60-second-brigade",
+                "locator": "p60-second-brigade",
+                "quote": "The Eighteenth Wisconsin arrived on the field on Saturday afternoon and went at once into camp, but did not get into the morning report of that day and are not included in Miller's present for duty."
+              },
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p112-note-r",
+                "locator": "p112-note-r",
+                "quote": "The “present for duty,” has been taken, in each case, as the number engaged in the battle."
+              },
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p112-note-r",
+                "locator": "p112-note-r",
+                "quote": "No attempt has been made to eliminate the noncombatants"
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-rousseau-michigan-contingent",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "fifteenth-michigan",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "rousseau-michigan-contingent",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-reed-wallace-detached",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "wallace-crumps-guard",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "reed-wallace-detached",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "incompatible",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "The observation counts a Crump's guard population, outside the proposed local Pittsburg opening area. The exact April 6 headcount timing and identities of every member remain unresolved. The later detachment is not redefined as a dawn order, nor is a 43-person arithmetic residual promoted into personnel evidence.",
+            "citations": [
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p93",
+                "locator": "p93",
+                "quote": "* 2 regiments of infantry, 2 battalions of cavalry, 1 gun of Buel's battery, and train guard—a total of 1,727—were left at Crumps Landing"
+              },
+              {
+                "source_id": "or-wallace-availability-v1",
+                "section": "p170",
+                "locator": "p170",
+                "quote": "As it also directed me to leave a force to prevent surprise at Crump's Landing, the Fifty-sixth Ohio and Sixty-eighth Ohio Regiments were detached for that purpose, with one gun from Lieutenant Thurber's battery."
+              },
+              {
+                "source_id": "or-grant-shiloh-report",
+                "section": "p109",
+                "locator": "p109",
+                "quote": "General Lewis Wallace, at Crump's Landing, G miles below, was ordered at an early hour in the morning to hold his division an readiness to be moved in any direction to which it might be ordered."
+              },
+              {
+                "source_id": "or-wallace-availability-v1",
+                "section": "p170",
+                "locator": "p170",
+                "quote": "At 11.30 o'clock the anticipated order arrived"
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-reed-wallace-engaged",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "wallace-division",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "reed-wallace-engaged",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-reed-fiftysixth-return",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "fiftysixth-ohio",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "reed-fiftysixth-return",
+          "inputs": [],
+          "mapping": {
+            "time": "before",
+            "population": "incompatible",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "An April 4 count within Wallace's division, associated by the inspected accounts with the Crump's guard. Direct use of the entire count as opening Pittsburg combatants is out of area; an earlier paper date does not make it a verified April 6 guard muster. No claim of individual-level absence or disjoint atom membership is made.",
+            "citations": [
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p93",
+                "locator": "p93",
+                "quote": "56th Ohio* | 32 | 669 | 701"
+              },
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p92-heading",
+                "locator": "p92-heading",
+                "quote": "LEW. WALLACE'S (THIRD) DIVISION. (Return of Apr. 4.)"
+              },
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p93",
+                "locator": "p93",
+                "quote": "* 2 regiments of infantry, 2 battalions of cavalry, 1 gun of Buel's battery, and train guard—a total of 1,727—were left at Crumps Landing"
+              },
+              {
+                "source_id": "or-grant-shiloh-report",
+                "section": "p109",
+                "locator": "p109",
+                "quote": "General Lewis Wallace, at Crump's Landing, G miles below, was ordered at an early hour in the morning to hold his division an readiness to be moved in any direction to which it might be ordered."
+              },
+              {
+                "source_id": "or-wallace-availability-v1",
+                "section": "p170",
+                "locator": "p170",
+                "quote": "As it also directed me to leave a force to prevent surprise at Crump's Landing, the Fifty-sixth Ohio and Sixty-eighth Ohio Regiments were detached for that purpose, with one gun from Lieutenant Thurber's battery."
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-reed-sixtyeighth-return",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "sixtyeighth-ohio",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "reed-sixtyeighth-return",
+          "inputs": [],
+          "mapping": {
+            "time": "before",
+            "population": "incompatible",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "An April 4 count within Wallace's division, associated by the inspected accounts with the Crump's guard. Direct use of the entire count as opening Pittsburg combatants is out of area; an earlier paper date does not make it a verified April 6 guard muster. No claim of individual-level absence or disjoint atom membership is made.",
+            "citations": [
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p93",
+                "locator": "p93",
+                "quote": "68th Ohio* | 29 | 395 | 424"
+              },
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p92-heading",
+                "locator": "p92-heading",
+                "quote": "LEW. WALLACE'S (THIRD) DIVISION. (Return of Apr. 4.)"
+              },
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p93",
+                "locator": "p93",
+                "quote": "* 2 regiments of infantry, 2 battalions of cavalry, 1 gun of Buel's battery, and train guard—a total of 1,727—were left at Crumps Landing"
+              },
+              {
+                "source_id": "or-grant-shiloh-report",
+                "section": "p109",
+                "locator": "p109",
+                "quote": "General Lewis Wallace, at Crump's Landing, G miles below, was ordered at an early hour in the morning to hold his division an readiness to be moved in any direction to which it might be ordered."
+              },
+              {
+                "source_id": "or-wallace-availability-v1",
+                "section": "p170",
+                "locator": "p170",
+                "quote": "As it also directed me to leave a force to prevent surprise at Crump's Landing, the Fifty-sixth Ohio and Sixty-eighth Ohio Regiments were detached for that purpose, with one gun from Lieutenant Thurber's battery."
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-reed-wallace-cavalry-return",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "wallace-cavalry",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "reed-wallace-cavalry-return",
+          "inputs": [],
+          "mapping": {
+            "time": "before",
+            "population": "incompatible",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "An April 4 count within Wallace's division, associated by the inspected accounts with the Crump's guard. Direct use of the entire count as opening Pittsburg combatants is out of area; an earlier paper date does not make it a verified April 6 guard muster. No claim of individual-level absence or disjoint atom membership is made.",
+            "citations": [
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p93",
+                "locator": "p93",
+                "quote": "Total cavalry | 28 | 531 | 559"
+              },
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p92-heading",
+                "locator": "p92-heading",
+                "quote": "LEW. WALLACE'S (THIRD) DIVISION. (Return of Apr. 4.)"
+              },
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p93",
+                "locator": "p93",
+                "quote": "* 2 regiments of infantry, 2 battalions of cavalry, 1 gun of Buel's battery, and train guard—a total of 1,727—were left at Crumps Landing"
+              },
+              {
+                "source_id": "or-grant-shiloh-report",
+                "section": "p109",
+                "locator": "p109",
+                "quote": "General Lewis Wallace, at Crump's Landing, G miles below, was ordered at an early hour in the morning to hold his division an readiness to be moved in any direction to which it might be ordered."
+              },
+              {
+                "source_id": "or-wallace-availability-v1",
+                "section": "p170",
+                "locator": "p170",
+                "quote": "As it also directed me to leave a force to prevent surprise at Crump's Landing, the Fifty-sixth Ohio and Sixty-eighth Ohio Regiments were detached for that purpose, with one gun from Lieutenant Thurber's battery."
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-grose-sunday-eight-companies",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "thirtysixth-indiana",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "grose-sunday-eight-companies",
+          "inputs": [],
+          "mapping": {
+            "time": "after",
+            "population": "unknown",
+            "derivation": "post_state",
+            "members": null,
+            "rationale": "Grose's roughly 400 is the eight-company formation after the brigade's later Sunday march and crossing, not an opening census or the handbook's exact 600. Preserve the two companies elsewhere and the unresolved clock reconciliation.",
+            "citations": [
+              {
+                "source_id": "or-grose-crossing-v1",
+                "section": "p337",
+                "locator": "p337",
+                "quote": "my regiment was formed (the eight companies about 400 strong)"
+              },
+              {
+                "source_id": "or-grose-crossing-v1",
+                "section": "p337",
+                "locator": "p337",
+                "quote": "On reaching the river with the four companies at the head of the column they were immediately ferried over to join those under Colonel Carey that had passed over before my arrival."
+              },
+              {
+                "source_id": "or-ammen-crossing-v2",
+                "section": "p328-report",
+                "locator": "p328-report",
+                "quote": "April 6, at 1 o'clock p. m., the Tenth Brigade marched from Savannah for the battle-field."
+              },
+              {
+                "source_id": "or-beauregard-shiloh-report",
+                "section": "p386",
+                "locator": "p386",
+                "quote": "At 5 a. m. on the 6th instant, a reconnoiteriug party of the enemy having become engaged with our advance pickets"
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-nelson-taken-into-action",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "nelson-division",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "nelson-taken-into-action",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-nelson-thirtysixth-taken-into-action",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "thirtysixth-indiana",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "nelson-thirtysixth-taken-into-action",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-nelson-march-abstract",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "nelson-division",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "nelson-march-abstract",
+          "inputs": [],
+          "mapping": {
+            "time": "before",
+            "population": "incompatible",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "The March paper population is before B0 but is not a local opening force: Nelson describes his later Sunday departure from Savannah and separately retained artillery. Exact March muster day and individual detachments are unresolved. This rejects substituting the whole 6,724; it does not assign zero to all individuals or use later fighting to estimate earlier membership.",
+            "citations": [
+              {
+                "source_id": "or-nelson-reinforcements-v2",
+                "section": "p327-march-return",
+                "locator": "p327-march-return",
+                "quote": "for the month of March, 1862."
+              },
+              {
+                "source_id": "or-nelson-reinforcements-v2",
+                "section": "p327-march-return",
+                "locator": "p327-march-return",
+                "quote": "Total | 255 | 6,469 | 6,724 | 9,526 | 18"
+              },
+              {
+                "source_id": "or-nelson-reinforcements-v2",
+                "section": "p323-crossing",
+                "locator": "p323-crossing",
+                "quote": "left Savannah, by order of General Grant, reiterated by General Buell in person, at 1.30 p. m. on Sunday, April 6"
+              },
+              {
+                "source_id": "or-nelson-reinforcements-v2",
+                "section": "p324-artillery",
+                "locator": "p324-artillery",
+                "quote": "I was compelled to leave the three batteries of my division at Savannah."
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-reed-nelson-march31",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "nelson-division",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "reed-nelson-march31",
+          "inputs": [],
+          "mapping": {
+            "time": "before",
+            "population": "incompatible",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "March 31 is before B0, but this whole division paper count is not the opening Pittsburg population; the division's described movement is later on Sunday. Do not resolve its difference from 6,724 or treat it as a compatible opening scenario. Detached-person exceptions and derivation remain unresolved.",
+            "citations": [
+              {
+                "source_id": "reed-1909-ohio-strength-v1",
+                "section": "p100",
+                "locator": "p100",
+                "quote": "NELSON'S (FOURTH) DIVISION. (Returns of Mar. 31.)"
+              },
+              {
+                "source_id": "reed-1909-ohio-strength-v1",
+                "section": "p101",
+                "locator": "p101",
+                "quote": "Total Fourth Division | 5,535 | 4,541"
+              },
+              {
+                "source_id": "or-nelson-reinforcements-v2",
+                "section": "p323-crossing",
+                "locator": "p323-crossing",
+                "quote": "left Savannah, by order of General Grant, reiterated by General Buell in person, at 1.30 p. m. on Sunday, April 6"
+              },
+              {
+                "source_id": "or-nelson-reinforcements-v2",
+                "section": "p324-artillery",
+                "locator": "p324-artillery",
+                "quote": "I was compelled to leave the three batteries of my division at Savannah."
+              },
+              {
+                "source_id": "reed-1909-union-audit-v1",
+                "section": "p112-note-r",
+                "locator": "p112-note-r",
+                "quote": "The “present for duty,” has been taken, in each case, as the number engaged in the battle."
+              }
+            ],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-reed-mccook-april30",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "mccook-division",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "reed-mccook-april30",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-reed-mccook-detail-engaged",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "mccook-division",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "reed-mccook-detail-engaged",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-reed-mccook-recap-engaged",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "mccook-division",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "reed-mccook-recap-engaged",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-reed-crittenden-engaged",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "crittenden-division",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "reed-crittenden-engaged",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-reed-wagner-late-estimate",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "wagner-brigade",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "reed-wagner-late-estimate",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "TN003-reed-ohio-total-engaged",
+      "battle_id": "TN003",
+      "side": "US",
+      "entity_id": "army-ohio",
+      "boundary_id": "TN003-april6-contact-proposal-v2",
+      "root_node": "observation",
+      "nodes": [
+        {
+          "id": "observation",
+          "kind": "quantity",
+          "reference": "reed-ohio-total-engaged",
+          "inputs": [],
+          "mapping": {
+            "time": "unknown",
+            "population": "unknown",
+            "derivation": "unknown",
+            "members": null,
+            "rationale": "No boundary-specific evidence-use mapping is claimed. Preserve the source observation and use only its structured dates, basis and phase for mechanical exclusions.",
+            "citations": [],
+            "source_choices": {}
+          }
+        }
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "unresolved-opening-v2-no-selection",
+      "assignments": {
+        "AL001": {
+          "US": null,
+          "Confederate": null
+        },
+        "AR006": {
+          "US": null,
+          "Confederate": null
+        },
+        "AR008": {
+          "US": null,
+          "Confederate": null
+        },
+        "GA003": {
+          "US": null,
+          "Confederate": null
+        },
+        "GA004": {
+          "US": null,
+          "Confederate": null
+        },
+        "GA005": {
+          "US": null,
+          "Confederate": null
+        },
+        "IN001": {
+          "US": null,
+          "Confederate": null
+        },
+        "KY005": {
+          "US": null,
+          "Confederate": null
+        },
+        "KY006": {
+          "US": null,
+          "Confederate": null
+        },
+        "KY007": {
+          "US": null,
+          "Confederate": null
+        },
+        "KY008": {
+          "US": null,
+          "Confederate": null
+        },
+        "KY009": {
+          "US": null,
+          "Confederate": null
+        },
+        "LA011": {
+          "US": null,
+          "Confederate": null
+        },
+        "LA014": {
+          "US": null,
+          "Confederate": null
+        },
+        "MD001": {
+          "US": null,
+          "Confederate": null
+        },
+        "MD002": {
+          "US": null,
+          "Confederate": null
+        },
+        "MD003": {
+          "US": null,
+          "Confederate": null
+        },
+        "MD004": {
+          "US": null,
+          "Confederate": null
+        },
+        "MD006": {
+          "US": null,
+          "Confederate": null
+        },
+        "MO012": {
+          "US": null,
+          "Confederate": null
+        },
+        "MS001": {
+          "US": null,
+          "Confederate": null
+        },
+        "MS002": {
+          "US": null,
+          "Confederate": null
+        },
+        "MS003": {
+          "US": null,
+          "Confederate": null
+        },
+        "MS004": {
+          "US": null,
+          "Confederate": null
+        },
+        "MS005": {
+          "US": null,
+          "Confederate": null
+        },
+        "MS006": {
+          "US": null,
+          "Confederate": null
+        },
+        "MS007": {
+          "US": null,
+          "Confederate": null
+        },
+        "MS008": {
+          "US": null,
+          "Confederate": null
+        },
+        "MS009": {
+          "US": null,
+          "Confederate": null
+        },
+        "MS010": {
+          "US": null,
+          "Confederate": null
+        },
+        "MS011": {
+          "US": null,
+          "Confederate": null
+        },
+        "MS016": {
+          "US": null,
+          "Confederate": null
+        },
+        "NC002": {
+          "US": null,
+          "Confederate": null
+        },
+        "NC003": {
+          "US": null,
+          "Confederate": null
+        },
+        "NC004": {
+          "US": null,
+          "Confederate": null
+        },
+        "NC005": {
+          "US": null,
+          "Confederate": null
+        },
+        "NC006": {
+          "US": null,
+          "Confederate": null
+        },
+        "NC007": {
+          "US": null,
+          "Confederate": null
+        },
+        "NC008": {
+          "US": null,
+          "Confederate": null
+        },
+        "NC009": {
+          "US": null,
+          "Confederate": null
+        },
+        "NC010": {
+          "US": null,
+          "Confederate": null
+        },
+        "NC011": {
+          "US": null,
+          "Confederate": null
+        },
+        "OH001": {
+          "US": null,
+          "Confederate": null
+        },
+        "OH002": {
+          "US": null,
+          "Confederate": null
+        },
+        "PA001": {
+          "US": null,
+          "Confederate": null
+        },
+        "PA002": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN001": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN002": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN003": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN004": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN005": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN006": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN007": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN008": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN009": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN010": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN011": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN012": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN013": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN014": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN015": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN016": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN017": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN018": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN019": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN020": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN021": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN022": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN023": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN024": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN025": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN026": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN027": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN028": {
+          "US": null,
+          "Confederate": null
+        },
+        "TN029": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA008": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA009": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA010": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA011": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA012": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA013": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA014": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA015": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA016": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA017": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA018": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA019": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA020": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA020A": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA020B": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA021": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA022": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA023": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA024": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA025": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA026": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA027": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA028": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA029": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA030": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA031": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA032": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA033": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA034": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA035": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA036": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA037": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA038": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA039": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA040": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA041": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA042": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA043": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA044": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA100": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA101": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA102": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA103": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA104": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA105": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA106": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA107": {
+          "US": null,
+          "Confederate": null
+        },
+        "VA108": {
+          "US": null,
+          "Confederate": null
+        },
+        "WV009": {
+          "US": null,
+          "Confederate": null
+        },
+        "WV010": {
+          "US": null,
+          "Confederate": null
+        },
+        "WV012": {
+          "US": null,
+          "Confederate": null
+        },
+        "WV016": {
+          "US": null,
+          "Confederate": null
+        }
+      },
+      "rationale": "All full-frame rows remain unselected. No applicable side is complete; geographic and person-population mappings remain unresolved. Competing return values are not yet valid opening scenarios."
+    }
+  ]
+}
