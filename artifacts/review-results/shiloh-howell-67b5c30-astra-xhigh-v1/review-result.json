@@ -1,0 +1,754 @@
+{
+  "schema_version": 1,
+  "review_id": "shiloh-howell-67b5c30-astra-xhigh-v1",
+  "reviewer": {
+    "task_name": "/root/shiloh_howell_review",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "fork_turns": "none",
+    "date": "2026-09-20",
+    "review_kind": "separate_AI_analysis"
+  },
+  "input_commit": "67b5c303ce7108bfc3f15b5b999247931ff3c998",
+  "preservation_base_commit": "a90189d8955141ec267a6018c28cb3d14cc1f31e",
+  "input_hashes": {
+    "data/sources.json": "e487ed90600c7fd6045edaa0e081540c7141098ab263e67b19fb2c97de5f0599",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "design/shiloh-howell-trace-v1/research-record.json": "787994b812cee915ebcfb7ff97d6040adf4a9cc4e8431ba46aa688aec75ffdf4",
+    "design/shiloh-howell-trace-v1/reference-audit.py": "a0c90821547e5c09825abdd1a517531460d6230c84262ef8d2eca37b24f4b7e4",
+    "design/shiloh-howell-trace-v1/search-log.json": "cd29eae8cea989419a5465f60bf55dd88d489aa767493484567f0b0edf668713",
+    "docs/research/shiloh-howell-trace-v1.md": "fd0dd63c4b3fb384baecf295cadd18c1bff9fef96981715039305f24e558cce0"
+  },
+  "assignment_sha256": "7df1442214f4b69dfd1a1e1a9e1a2bc12d81837900c6d886f8afffb76494e7fb",
+  "dispatch_sha256": "d46686c4070833a630c8950853ffdc330dbc158f6dc884532b14f4424ebe8a3f",
+  "input_integrity": {
+    "all_six_dispatch_hashes_match_worktree_and_exact_commit": true,
+    "all_133_registry_entries_raw_hashes_verified": true,
+    "all_130_distinct_raw_paths_match_exact_commit": true
+  },
+  "verdict": "accepted_with_no_required_corrections",
+  "verdict_scope": "Bounded source-attribution research packet only; no historical adjudication, continuity determination, opening boundary or feature admission.",
+  "coverage": {
+    "assertions_inspected": 7,
+    "assertions_assigned": 7,
+    "anchors_inspected": 14,
+    "anchors_assigned": 14,
+    "new_book_sections_image_compared": 12,
+    "new_book_sections_assigned": 12,
+    "reused_book_sections_image_compared": 1,
+    "web_sections_HTML_compared": 3,
+    "web_sections_assigned": 3,
+    "retained_pages_visually_inspected": 12,
+    "retained_pages_assigned": 12,
+    "bibliographic_or_context_pages": 5,
+    "new_page_images": 11,
+    "reused_page_images": 1,
+    "new_source_entries_metadata_checked": 21,
+    "bound_source_entries_including_reused": 23,
+    "inspection_complete_for_assigned_scope": true
+  },
+  "assertion_assessments": [
+    {
+      "id": "HW01",
+      "anchors_inspected": 2,
+      "assessment": "The Howell sentence matches both retained p.68 images, including its Friday/Saturday/Sunday progression. Neither inspected paragraph attaches a footnote marker to the Howell clause. The 1903 title image distinguishes the 1902 title date from the 1903 GPO imprint. Edition agreement does not identify the underlying account or add an independent witness.",
+      "status": "accepted_as_bounded_source_attribution",
+      "required_finding_ids": []
+    },
+    {
+      "id": "HW02",
+      "anchors_inspected": 1,
+      "assessment": "The selected p.5 passage matches the retained image and the Cornelius Cadle signature. Its report comparison, Washington searches, interviews and missing/meager reports are the commission's methodological account, not an incident-specific source attribution.",
+      "status": "accepted_as_bounded_source_attribution",
+      "required_finding_ids": []
+    },
+    {
+      "id": "HW03",
+      "anchors_inspected": 2,
+      "assessment": "All three Medkirk sections match p.537. Editorial attribution names Co. E, 72d Ohio and March 22d, 1886. The selected letter distinguishes frequent fire, enemy return fire toward evening, a cavalry brush and an officer party riding away. The record does not infer continuous combat, general termination, exact enemy formation, Reed dependence or a Sunday connection.",
+      "status": "accepted_as_bounded_source_attribution",
+      "required_finding_ids": []
+    },
+    {
+      "id": "HW04",
+      "anchors_inspected": 4,
+      "assessment": "All five Worthington sections match pp.137 and 140. Sharpe's heading, about-7-a.m. expulsion and all-day house occupation are correctly separated; the Crary selection and its parenthetical September date are retained. Sherman's denial is also preserved. These remain disputed selections in one adversarial publication, not authenticated original transcripts or reconciled positions.",
+      "status": "accepted_as_bounded_source_attribution",
+      "required_finding_ids": []
+    },
+    {
+      "id": "HW05",
+      "anchors_inspected": 2,
+      "assessment": "Both Abstract sections match p.4: item 20 cites pp.44 and 47, and another passage describes a copy of proceedings sent from Washington. The item is treated as disputed testimony within the author's adversarial presentation, not as an adopted denial. The title's August 14, 1862 trial date is not adopted as a printing date. The inspected p.4 reference to fighting at Fredericksburgh and Vicksburgh supports retaining publication chronology as unknown.",
+      "status": "accepted_as_bounded_source_attribution",
+      "required_finding_ids": []
+    },
+    {
+      "id": "HW06",
+      "anchors_inspected": 1,
+      "assessment": "The selected text matches the retained NPS HTML under Historic Plaque #O and Inscription Reads. I read the entire displayed inscription, which does not name Howell. This supports the narrow negative claim about one modern transcription, not a conclusion about all tablets, the original plaque, first shots or whether Saturday contact happened.",
+      "status": "accepted_as_bounded_source_attribution",
+      "required_finding_ids": []
+    },
+    {
+      "id": "HW07",
+      "anchors_inspected": 2,
+      "assessment": "The selected NARA passages match retained HTML under the Shiloh headings in sections 92.10.5 and 79.10.2. The correspondence date ranges are accurately preserved. These are record-series leads, with no demonstrated Howell-specific contents, item locator, digitization status or access exhaustion.",
+      "status": "accepted_as_bounded_source_attribution",
+      "required_finding_ids": []
+    }
+  ],
+  "new_book_section_checks": [
+    {
+      "source_id": "medkirk-1886-howell-v1",
+      "section": "p537-attribution",
+      "raw_sha256": "7386c22f750e43ffe3cc6194792217ae197eeb8ed7ef9947cd8128a88b7d5c7a",
+      "source_metadata_sha256": "7babe86552ad3d0fc1fdd7cb45e41c79ed3a56b2eb0e8d389715f5a71a1dd3d4",
+      "document_date": null,
+      "status": "matches_retained_source_with_declared_normalization",
+      "method": "visual_comparison_using_view_image",
+      "facsimile_source_ids": [
+        "medkirk-howell-p537-facsimile-v1"
+      ]
+    },
+    {
+      "source_id": "medkirk-1886-howell-v1",
+      "section": "p537-saturday",
+      "raw_sha256": "7386c22f750e43ffe3cc6194792217ae197eeb8ed7ef9947cd8128a88b7d5c7a",
+      "source_metadata_sha256": "7babe86552ad3d0fc1fdd7cb45e41c79ed3a56b2eb0e8d389715f5a71a1dd3d4",
+      "document_date": "1886-03-22",
+      "status": "matches_retained_source_with_declared_normalization",
+      "method": "visual_comparison_using_view_image",
+      "facsimile_source_ids": [
+        "medkirk-howell-p537-facsimile-v1"
+      ]
+    },
+    {
+      "source_id": "medkirk-1886-howell-v1",
+      "section": "p537-officer-party",
+      "raw_sha256": "7386c22f750e43ffe3cc6194792217ae197eeb8ed7ef9947cd8128a88b7d5c7a",
+      "source_metadata_sha256": "7babe86552ad3d0fc1fdd7cb45e41c79ed3a56b2eb0e8d389715f5a71a1dd3d4",
+      "document_date": "1886-03-22",
+      "status": "matches_retained_source_with_declared_normalization",
+      "method": "visual_comparison_using_view_image",
+      "facsimile_source_ids": [
+        "medkirk-howell-p537-facsimile-v1"
+      ]
+    },
+    {
+      "source_id": "worthington-1872-howell-v1",
+      "section": "p137-sherman-denial",
+      "raw_sha256": "d788db7f16a74cfacbdeaeb5ba11aba6b151aa72d4fbe9d21e9110d9632c029b",
+      "source_metadata_sha256": "9088c2677b13e9575855af524e18028d4fe679da170c7382fae2bea7d2eb8ec3",
+      "document_date": null,
+      "status": "matches_retained_source_with_declared_normalization",
+      "method": "visual_comparison_using_view_image",
+      "facsimile_source_ids": [
+        "worthington-howell-p137-facsimile-v1"
+      ]
+    },
+    {
+      "source_id": "worthington-1872-howell-v1",
+      "section": "p140-sharpe-heading",
+      "raw_sha256": "d788db7f16a74cfacbdeaeb5ba11aba6b151aa72d4fbe9d21e9110d9632c029b",
+      "source_metadata_sha256": "9088c2677b13e9575855af524e18028d4fe679da170c7382fae2bea7d2eb8ec3",
+      "document_date": null,
+      "status": "matches_retained_source_with_declared_normalization",
+      "method": "visual_comparison_using_view_image",
+      "facsimile_source_ids": [
+        "worthington-howell-p140-facsimile-v1"
+      ]
+    },
+    {
+      "source_id": "worthington-1872-howell-v1",
+      "section": "p140-sharpe-expulsion",
+      "raw_sha256": "d788db7f16a74cfacbdeaeb5ba11aba6b151aa72d4fbe9d21e9110d9632c029b",
+      "source_metadata_sha256": "9088c2677b13e9575855af524e18028d4fe679da170c7382fae2bea7d2eb8ec3",
+      "document_date": null,
+      "status": "matches_retained_source_with_declared_normalization",
+      "method": "visual_comparison_using_view_image",
+      "facsimile_source_ids": [
+        "worthington-howell-p140-facsimile-v1"
+      ]
+    },
+    {
+      "source_id": "worthington-1872-howell-v1",
+      "section": "p140-sharpe-occupation",
+      "raw_sha256": "d788db7f16a74cfacbdeaeb5ba11aba6b151aa72d4fbe9d21e9110d9632c029b",
+      "source_metadata_sha256": "9088c2677b13e9575855af524e18028d4fe679da170c7382fae2bea7d2eb8ec3",
+      "document_date": null,
+      "status": "matches_retained_source_with_declared_normalization",
+      "method": "visual_comparison_using_view_image",
+      "facsimile_source_ids": [
+        "worthington-howell-p140-facsimile-v1"
+      ]
+    },
+    {
+      "source_id": "worthington-1872-howell-v1",
+      "section": "p140-crary",
+      "raw_sha256": "d788db7f16a74cfacbdeaeb5ba11aba6b151aa72d4fbe9d21e9110d9632c029b",
+      "source_metadata_sha256": "9088c2677b13e9575855af524e18028d4fe679da170c7382fae2bea7d2eb8ec3",
+      "document_date": null,
+      "status": "matches_retained_source_with_declared_normalization",
+      "method": "visual_comparison_using_view_image",
+      "facsimile_source_ids": [
+        "worthington-howell-p140-facsimile-v1"
+      ]
+    },
+    {
+      "source_id": "reed-1903-howell-v1",
+      "section": "p5-cadle-method",
+      "raw_sha256": "ecbc66668bfaa87834de5b3b753500addc2d542fbdf61af126d4e5602b235387",
+      "source_metadata_sha256": "c04c93501f7ae05d74c4587f7b31c9f4c689931c0abd94e851321fe32cb3a32c",
+      "document_date": null,
+      "status": "matches_retained_source_with_declared_normalization",
+      "method": "visual_comparison_using_view_image",
+      "facsimile_source_ids": [
+        "reed-howell-p5-facsimile-v1"
+      ]
+    },
+    {
+      "source_id": "reed-1903-howell-v1",
+      "section": "p68-howell",
+      "raw_sha256": "ecbc66668bfaa87834de5b3b753500addc2d542fbdf61af126d4e5602b235387",
+      "source_metadata_sha256": "c04c93501f7ae05d74c4587f7b31c9f4c689931c0abd94e851321fe32cb3a32c",
+      "document_date": null,
+      "status": "matches_retained_source_with_declared_normalization",
+      "method": "visual_comparison_using_view_image",
+      "facsimile_source_ids": [
+        "reed-howell-p68-facsimile-v1"
+      ]
+    },
+    {
+      "source_id": "worthington-abstract-howell-v1",
+      "section": "p4-item20",
+      "raw_sha256": "c25ef22bd659a2b2a0466a8280ca9fa8d8fcb8a992593076fe20d1e05406b85d",
+      "source_metadata_sha256": "738f5cc056728c175060366e9a824536cb9fe1e091d3a2ae206cc8941b8d81d7",
+      "document_date": null,
+      "status": "matches_retained_source_with_declared_normalization",
+      "method": "visual_comparison_using_view_image",
+      "facsimile_source_ids": [
+        "abstract-howell-p4-facsimile-v1"
+      ]
+    },
+    {
+      "source_id": "worthington-abstract-howell-v1",
+      "section": "p4-copy-pagination",
+      "raw_sha256": "c25ef22bd659a2b2a0466a8280ca9fa8d8fcb8a992593076fe20d1e05406b85d",
+      "source_metadata_sha256": "738f5cc056728c175060366e9a824536cb9fe1e091d3a2ae206cc8941b8d81d7",
+      "document_date": null,
+      "status": "matches_retained_source_with_declared_normalization",
+      "method": "visual_comparison_using_view_image",
+      "facsimile_source_ids": [
+        "abstract-howell-p4-facsimile-v1"
+      ]
+    }
+  ],
+  "reused_book_section_checks": [
+    {
+      "source_id": "reed-1909-opening-v1",
+      "section": "p68-screen",
+      "raw_sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+      "source_metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+      "facsimile_source_ids": [
+        "reed-1909-contact-p68-facsimile-v1"
+      ],
+      "method": "visual_comparison_using_view_image",
+      "status": "assigned_anchor_matches_retained_image"
+    }
+  ],
+  "web_section_checks": [
+    {
+      "source_id": "nara-rg92-howell-v1",
+      "section": "92.10.5-records",
+      "raw_sha256": "0c7e9d5cf2ceffe6f279629118ac4e1959010b646796656eaf8d7e0ca92d76c2",
+      "source_metadata_sha256": "b1e31a057782615b23681aceead6b395d92c42d2257d815c4b2a25a9351305b6",
+      "document_date": null,
+      "status": "matches_retained_source_with_declared_normalization",
+      "method": "retained_HTML_passage_and_context_read",
+      "html_parent_source_id": "nara-rg92-howell-html-v1",
+      "html_parent_sha256": "f639161db7aae256b9cae1f6cdee686dc47c9bd4a675b3eda78ac92d43b2ab4d"
+    },
+    {
+      "source_id": "nara-rg79-howell-v1",
+      "section": "79.10.2-records",
+      "raw_sha256": "e73b3c1f17caf59bc47f92caf19c37125257b3e968801496c73b81faf003a2d7",
+      "source_metadata_sha256": "f2787c89c2e0fcaf1a55ab104481d7185a839f786ae97635ec8a534b3e8385ac",
+      "document_date": null,
+      "status": "matches_retained_source_with_declared_normalization",
+      "method": "retained_HTML_passage_and_context_read",
+      "html_parent_source_id": "nara-rg79-howell-html-v1",
+      "html_parent_sha256": "b549a7fe4b34cff98d56d612531b03fd632f6b60f34ea86c019ac2acd69d7613"
+    },
+    {
+      "source_id": "hardee-plaque-howell-v1",
+      "section": "O-deployment-and-contact",
+      "raw_sha256": "a12566567b00948f256d8547c5f9142e79f88bcabdcc18c1dcb810f0d40e2e14",
+      "source_metadata_sha256": "1b99aa6679e02520aaaccaf1db07610bf85e5773a4e6b7023c2447fdb4fe1cb3",
+      "document_date": null,
+      "status": "matches_retained_source_with_declared_normalization",
+      "method": "retained_HTML_passage_and_context_read",
+      "html_parent_source_id": "hardee-plaque-howell-html-v1",
+      "html_parent_sha256": "ff8d7b89937f7b3d3409ad5710ca78b0c741749f8d449f66fc3f1512a3e383a3"
+    }
+  ],
+  "visually_inspected_images": [
+    {
+      "source_id": "medkirk-howell-title-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/medkirk-howell-title-facsimile-v1.png",
+      "sha256": "845186575e82f84e2a6469411bd1712af5637666cf4b2365c19ecdb22b15e8cd",
+      "source_metadata_sha256": "353b345a6d97909de031820b5ae4bac18b6ef89ccaa77446a37b74794b241c04",
+      "parent_sha256": "ced04dc52ad80568640bd53ba055d0d012c870787e5e0471e1e3ffa87e203a4e",
+      "printed_page": null,
+      "pdf_page": 13,
+      "role": "bibliographic_or_context_page",
+      "method": "tools.view_image with original detail",
+      "visually_inspected": true
+    },
+    {
+      "source_id": "medkirk-howell-copyright-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/medkirk-howell-copyright-facsimile-v1.png",
+      "sha256": "f6ae8e44337f3b7f27d8b797ec2d1dd8ed8af82f2eabc88797367f2e888c5a33",
+      "source_metadata_sha256": "cc2cad2945702dd0973b5a47615a95b2254cb452cf8345e6438b88cd8c6fb015",
+      "parent_sha256": "ced04dc52ad80568640bd53ba055d0d012c870787e5e0471e1e3ffa87e203a4e",
+      "printed_page": null,
+      "pdf_page": 14,
+      "role": "bibliographic_or_context_page",
+      "method": "tools.view_image with original detail",
+      "visually_inspected": true
+    },
+    {
+      "source_id": "medkirk-howell-p537-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/medkirk-howell-p537-facsimile-v1.png",
+      "sha256": "4f4e376c663761d0b501ea9ebc83afed0b45fd4271d33012afb11cef0e63bc2d",
+      "source_metadata_sha256": "8762c404553230de65eed616888d8e918ac241af96c1615317e43bee5f3a1247",
+      "parent_sha256": "ced04dc52ad80568640bd53ba055d0d012c870787e5e0471e1e3ffa87e203a4e",
+      "printed_page": 537,
+      "pdf_page": 567,
+      "role": "passage_page",
+      "method": "tools.view_image with original detail",
+      "visually_inspected": true
+    },
+    {
+      "source_id": "worthington-howell-title-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/worthington-howell-title-facsimile-v1.png",
+      "sha256": "ccf904ab3147ba9df5f0d89b6959c32f48ee756cc1b781c715608e63d8f56081",
+      "source_metadata_sha256": "675f04460099269ddd12ba1537d45abec50871d01020a446c315b3ea524ca248",
+      "parent_sha256": "a629885ce704ccbf7dbd5cd4c7a3e763ade71610e00e4f178502b47b32d01464",
+      "printed_page": null,
+      "pdf_page": 9,
+      "role": "bibliographic_or_context_page",
+      "method": "tools.view_image with original detail",
+      "visually_inspected": true
+    },
+    {
+      "source_id": "worthington-howell-p137-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/worthington-howell-p137-facsimile-v1.png",
+      "sha256": "a44bc7c8e2257fe7dd8b93edfa28299ede73f0d2e2121103f3cc197f88b22e10",
+      "source_metadata_sha256": "b19a10eeb0f74e559fb4cfb0cc92d490d7b4920db817d74b904801a359ec0684",
+      "parent_sha256": "a629885ce704ccbf7dbd5cd4c7a3e763ade71610e00e4f178502b47b32d01464",
+      "printed_page": 137,
+      "pdf_page": 149,
+      "role": "passage_page",
+      "method": "tools.view_image with original detail",
+      "visually_inspected": true
+    },
+    {
+      "source_id": "worthington-howell-p140-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/worthington-howell-p140-facsimile-v1.png",
+      "sha256": "704a7643bd51e90bc698c9ebccc6672733d8d76f7e407501033e04a3fc70b13f",
+      "source_metadata_sha256": "8175ec36a14dc22f1f9f55b66a2b6322dba95701dfb69089735bf3e296de828e",
+      "parent_sha256": "a629885ce704ccbf7dbd5cd4c7a3e763ade71610e00e4f178502b47b32d01464",
+      "printed_page": 140,
+      "pdf_page": 152,
+      "role": "passage_page",
+      "method": "tools.view_image with original detail",
+      "visually_inspected": true
+    },
+    {
+      "source_id": "reed-howell-title-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/reed-howell-title-facsimile-v1.png",
+      "sha256": "90f57a578f7b62b08f45aec3a71941e806ebc53d809dd527dce6e8ecddad34ed",
+      "source_metadata_sha256": "070d023d692565ffe3cab9277af24687425fa64e2212db13878c07d1ddf5ac95",
+      "parent_sha256": "5e859d11174fed94f27f821a78fcb57bb801d615b75e6868be34d82d8af978a2",
+      "printed_page": null,
+      "pdf_page": 7,
+      "role": "bibliographic_or_context_page",
+      "method": "tools.view_image with original detail",
+      "visually_inspected": true
+    },
+    {
+      "source_id": "reed-howell-p5-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/reed-howell-p5-facsimile-v1.png",
+      "sha256": "5bac9113cda3b3fde593558c34cb2b228488bcab6d5b5c2179d3f9be1b73a3b0",
+      "source_metadata_sha256": "bdfc3c5d055fac7cb08196d7740747a4371bffdbbe74f592c5e63dabc432120b",
+      "parent_sha256": "5e859d11174fed94f27f821a78fcb57bb801d615b75e6868be34d82d8af978a2",
+      "printed_page": 5,
+      "pdf_page": 11,
+      "role": "passage_page",
+      "method": "tools.view_image with original detail",
+      "visually_inspected": true
+    },
+    {
+      "source_id": "reed-howell-p68-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/reed-howell-p68-facsimile-v1.png",
+      "sha256": "d1d22b105a88c0cf983d200bd193098fae43501ee1782f85bd15d4428406e601",
+      "source_metadata_sha256": "ed6a7a510da1d6a70e5ed1a496a7c40eafef80cf72953d1b89570c24d5d48202",
+      "parent_sha256": "5e859d11174fed94f27f821a78fcb57bb801d615b75e6868be34d82d8af978a2",
+      "printed_page": 68,
+      "pdf_page": 78,
+      "role": "passage_page",
+      "method": "tools.view_image with original detail",
+      "visually_inspected": true
+    },
+    {
+      "source_id": "abstract-howell-title-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/abstract-howell-title-facsimile-v1.png",
+      "sha256": "eeec2d20ec6409cdfd48e43a3aa7b7dcf07acf76e3b7e41811bdd5eccf4e4f70",
+      "source_metadata_sha256": "6a54205c9433d6f58c3aa5c684218ded815861a4192a63dc3be4fd6e0c60e8d3",
+      "parent_sha256": "af0420e4204933094de432b0350b9c11d35ecdd5c11809fbf66765ecef435acd",
+      "printed_page": null,
+      "pdf_page": 7,
+      "role": "bibliographic_or_context_page",
+      "method": "tools.view_image with original detail",
+      "visually_inspected": true
+    },
+    {
+      "source_id": "abstract-howell-p4-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/abstract-howell-p4-facsimile-v1.png",
+      "sha256": "795e75eb8c65902ff1319f93083feffa9ddd21a0dd0d2a81308674a52c0408b5",
+      "source_metadata_sha256": "d2fcc523a6876ab13fc88381b107e3509e3cbefacb24ea076ac5185650fad380",
+      "parent_sha256": "af0420e4204933094de432b0350b9c11d35ecdd5c11809fbf66765ecef435acd",
+      "printed_page": 4,
+      "pdf_page": 10,
+      "role": "passage_page",
+      "method": "tools.view_image with original detail",
+      "visually_inspected": true
+    },
+    {
+      "source_id": "reed-1909-contact-p68-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/reed-1909-contact-p68-facsimile-v1.png",
+      "sha256": "bc33498cd910b2b01e20b03a0bc9735b1d305448259cace5fc282b0c153fe087",
+      "source_metadata_sha256": "d19b7319b778d0c5c34888eed52a94d9a2a889312b7e8065fc14de93de068964",
+      "parent_sha256": "31e0379e56cf87fa4770afddd9c5d0e5f8181d55790e54cb0bbf4bb60362af96",
+      "printed_page": 68,
+      "pdf_page": 70,
+      "role": "passage_page",
+      "method": "tools.view_image with original detail",
+      "visually_inspected": true
+    }
+  ],
+  "bound_source_inputs": [
+    {
+      "source_id": "abstract-howell-p4-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/abstract-howell-p4-facsimile-v1.png",
+      "format": "png",
+      "sha256": "795e75eb8c65902ff1319f93083feffa9ddd21a0dd0d2a81308674a52c0408b5",
+      "metadata_sha256": "d2fcc523a6876ab13fc88381b107e3509e3cbefacb24ea076ac5185650fad380",
+      "parent_sha256": "af0420e4204933094de432b0350b9c11d35ecdd5c11809fbf66765ecef435acd",
+      "independence_group": "worthington-trial-publications"
+    },
+    {
+      "source_id": "abstract-howell-title-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/abstract-howell-title-facsimile-v1.png",
+      "format": "png",
+      "sha256": "eeec2d20ec6409cdfd48e43a3aa7b7dcf07acf76e3b7e41811bdd5eccf4e4f70",
+      "metadata_sha256": "6a54205c9433d6f58c3aa5c684218ded815861a4192a63dc3be4fd6e0c60e8d3",
+      "parent_sha256": "af0420e4204933094de432b0350b9c11d35ecdd5c11809fbf66765ecef435acd",
+      "independence_group": "worthington-trial-publications"
+    },
+    {
+      "source_id": "hardee-plaque-howell-html-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/hardee-plaque.html",
+      "format": "html",
+      "sha256": "ff8d7b89937f7b3d3409ad5710ca78b0c741749f8d449f66fc3f1512a3e383a3",
+      "metadata_sha256": "c3bd829fc6e09e129aa7b30ce36a2b154d6257a2fa399ea667d2bb49f4a671ee",
+      "parent_sha256": null,
+      "independence_group": "shiloh-park-tablets"
+    },
+    {
+      "source_id": "hardee-plaque-howell-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/hardee-plaque.txt",
+      "format": "text",
+      "sha256": "a12566567b00948f256d8547c5f9142e79f88bcabdcc18c1dcb810f0d40e2e14",
+      "metadata_sha256": "1b99aa6679e02520aaaccaf1db07610bf85e5773a4e6b7023c2447fdb4fe1cb3",
+      "parent_sha256": "ff8d7b89937f7b3d3409ad5710ca78b0c741749f8d449f66fc3f1512a3e383a3",
+      "independence_group": "shiloh-park-tablets"
+    },
+    {
+      "source_id": "medkirk-1886-howell-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/medkirk-1886-howell-v1.txt",
+      "format": "text",
+      "sha256": "7386c22f750e43ffe3cc6194792217ae197eeb8ed7ef9947cd8128a88b7d5c7a",
+      "metadata_sha256": "7babe86552ad3d0fc1fdd7cb45e41c79ed3a56b2eb0e8d389715f5a71a1dd3d4",
+      "parent_sha256": "ced04dc52ad80568640bd53ba055d0d012c870787e5e0471e1e3ffa87e203a4e",
+      "independence_group": "medkirk-battles-leaders"
+    },
+    {
+      "source_id": "medkirk-howell-copyright-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/medkirk-howell-copyright-facsimile-v1.png",
+      "format": "png",
+      "sha256": "f6ae8e44337f3b7f27d8b797ec2d1dd8ed8af82f2eabc88797367f2e888c5a33",
+      "metadata_sha256": "cc2cad2945702dd0973b5a47615a95b2254cb452cf8345e6438b88cd8c6fb015",
+      "parent_sha256": "ced04dc52ad80568640bd53ba055d0d012c870787e5e0471e1e3ffa87e203a4e",
+      "independence_group": "medkirk-battles-leaders"
+    },
+    {
+      "source_id": "medkirk-howell-p537-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/medkirk-howell-p537-facsimile-v1.png",
+      "format": "png",
+      "sha256": "4f4e376c663761d0b501ea9ebc83afed0b45fd4271d33012afb11cef0e63bc2d",
+      "metadata_sha256": "8762c404553230de65eed616888d8e918ac241af96c1615317e43bee5f3a1247",
+      "parent_sha256": "ced04dc52ad80568640bd53ba055d0d012c870787e5e0471e1e3ffa87e203a4e",
+      "independence_group": "medkirk-battles-leaders"
+    },
+    {
+      "source_id": "medkirk-howell-title-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/medkirk-howell-title-facsimile-v1.png",
+      "format": "png",
+      "sha256": "845186575e82f84e2a6469411bd1712af5637666cf4b2365c19ecdb22b15e8cd",
+      "metadata_sha256": "353b345a6d97909de031820b5ae4bac18b6ef89ccaa77446a37b74794b241c04",
+      "parent_sha256": "ced04dc52ad80568640bd53ba055d0d012c870787e5e0471e1e3ffa87e203a4e",
+      "independence_group": "medkirk-battles-leaders"
+    },
+    {
+      "source_id": "nara-rg79-howell-html-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/nara-rg79.html",
+      "format": "html",
+      "sha256": "b549a7fe4b34cff98d56d612531b03fd632f6b60f34ea86c019ac2acd69d7613",
+      "metadata_sha256": "9db0eb0acd3dff6a3c2ec68febb4b4c73da59fb506404b334a28162a81dd12de",
+      "parent_sha256": null,
+      "independence_group": "nara-archival-guide"
+    },
+    {
+      "source_id": "nara-rg79-howell-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/nara-rg79.txt",
+      "format": "text",
+      "sha256": "e73b3c1f17caf59bc47f92caf19c37125257b3e968801496c73b81faf003a2d7",
+      "metadata_sha256": "f2787c89c2e0fcaf1a55ab104481d7185a839f786ae97635ec8a534b3e8385ac",
+      "parent_sha256": "b549a7fe4b34cff98d56d612531b03fd632f6b60f34ea86c019ac2acd69d7613",
+      "independence_group": "nara-archival-guide"
+    },
+    {
+      "source_id": "nara-rg92-howell-html-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/nara-rg92.html",
+      "format": "html",
+      "sha256": "f639161db7aae256b9cae1f6cdee686dc47c9bd4a675b3eda78ac92d43b2ab4d",
+      "metadata_sha256": "d3f2ca8a37725991758ccc9167de59dcf2797c8b531b35a4f2189a9a6b6f1d39",
+      "parent_sha256": null,
+      "independence_group": "nara-archival-guide"
+    },
+    {
+      "source_id": "nara-rg92-howell-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/nara-rg92.txt",
+      "format": "text",
+      "sha256": "0c7e9d5cf2ceffe6f279629118ac4e1959010b646796656eaf8d7e0ca92d76c2",
+      "metadata_sha256": "b1e31a057782615b23681aceead6b395d92c42d2257d815c4b2a25a9351305b6",
+      "parent_sha256": "f639161db7aae256b9cae1f6cdee686dc47c9bd4a675b3eda78ac92d43b2ab4d",
+      "independence_group": "nara-archival-guide"
+    },
+    {
+      "source_id": "reed-1903-howell-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/reed-1903-howell-v1.txt",
+      "format": "text",
+      "sha256": "ecbc66668bfaa87834de5b3b753500addc2d542fbdf61af126d4e5602b235387",
+      "metadata_sha256": "c04c93501f7ae05d74c4587f7b31c9f4c689931c0abd94e851321fe32cb3a32c",
+      "parent_sha256": "5e859d11174fed94f27f821a78fcb57bb801d615b75e6868be34d82d8af978a2",
+      "independence_group": "reed-official-records-compilation"
+    },
+    {
+      "source_id": "reed-1909-contact-p68-facsimile-v1",
+      "path": "data/raw/shiloh/contact-location-v1/reed-1909-contact-p68-facsimile-v1.png",
+      "format": "png",
+      "sha256": "bc33498cd910b2b01e20b03a0bc9735b1d305448259cace5fc282b0c153fe087",
+      "metadata_sha256": "d19b7319b778d0c5c34888eed52a94d9a2a889312b7e8065fc14de93de068964",
+      "parent_sha256": "31e0379e56cf87fa4770afddd9c5d0e5f8181d55790e54cb0bbf4bb60362af96",
+      "independence_group": "reed-official-records-compilation"
+    },
+    {
+      "source_id": "reed-1909-opening-v1",
+      "path": "data/raw/shiloh/contact-location-v1/reed-1909-opening-v1.txt",
+      "format": "text",
+      "sha256": "e9e5c93d244e790b79f88f305059ce503acaf5bcb6bc4257f91a3bf5469112f6",
+      "metadata_sha256": "c82ebcf8b80559ced2adf34a3033421f96586035de7c8a9ad36564eda04de114",
+      "parent_sha256": "31e0379e56cf87fa4770afddd9c5d0e5f8181d55790e54cb0bbf4bb60362af96",
+      "independence_group": "reed-official-records-compilation"
+    },
+    {
+      "source_id": "reed-howell-p5-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/reed-howell-p5-facsimile-v1.png",
+      "format": "png",
+      "sha256": "5bac9113cda3b3fde593558c34cb2b228488bcab6d5b5c2179d3f9be1b73a3b0",
+      "metadata_sha256": "bdfc3c5d055fac7cb08196d7740747a4371bffdbbe74f592c5e63dabc432120b",
+      "parent_sha256": "5e859d11174fed94f27f821a78fcb57bb801d615b75e6868be34d82d8af978a2",
+      "independence_group": "reed-official-records-compilation"
+    },
+    {
+      "source_id": "reed-howell-p68-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/reed-howell-p68-facsimile-v1.png",
+      "format": "png",
+      "sha256": "d1d22b105a88c0cf983d200bd193098fae43501ee1782f85bd15d4428406e601",
+      "metadata_sha256": "ed6a7a510da1d6a70e5ed1a496a7c40eafef80cf72953d1b89570c24d5d48202",
+      "parent_sha256": "5e859d11174fed94f27f821a78fcb57bb801d615b75e6868be34d82d8af978a2",
+      "independence_group": "reed-official-records-compilation"
+    },
+    {
+      "source_id": "reed-howell-title-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/reed-howell-title-facsimile-v1.png",
+      "format": "png",
+      "sha256": "90f57a578f7b62b08f45aec3a71941e806ebc53d809dd527dce6e8ecddad34ed",
+      "metadata_sha256": "070d023d692565ffe3cab9277af24687425fa64e2212db13878c07d1ddf5ac95",
+      "parent_sha256": "5e859d11174fed94f27f821a78fcb57bb801d615b75e6868be34d82d8af978a2",
+      "independence_group": "reed-official-records-compilation"
+    },
+    {
+      "source_id": "worthington-1872-howell-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/worthington-1872-howell-v1.txt",
+      "format": "text",
+      "sha256": "d788db7f16a74cfacbdeaeb5ba11aba6b151aa72d4fbe9d21e9110d9632c029b",
+      "metadata_sha256": "9088c2677b13e9575855af524e18028d4fe679da170c7382fae2bea7d2eb8ec3",
+      "parent_sha256": "a629885ce704ccbf7dbd5cd4c7a3e763ade71610e00e4f178502b47b32d01464",
+      "independence_group": "worthington-trial-publications"
+    },
+    {
+      "source_id": "worthington-abstract-howell-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/worthington-abstract-howell-v1.txt",
+      "format": "text",
+      "sha256": "c25ef22bd659a2b2a0466a8280ca9fa8d8fcb8a992593076fe20d1e05406b85d",
+      "metadata_sha256": "738f5cc056728c175060366e9a824536cb9fe1e091d3a2ae206cc8941b8d81d7",
+      "parent_sha256": "af0420e4204933094de432b0350b9c11d35ecdd5c11809fbf66765ecef435acd",
+      "independence_group": "worthington-trial-publications"
+    },
+    {
+      "source_id": "worthington-howell-p137-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/worthington-howell-p137-facsimile-v1.png",
+      "format": "png",
+      "sha256": "a44bc7c8e2257fe7dd8b93edfa28299ede73f0d2e2121103f3cc197f88b22e10",
+      "metadata_sha256": "b19a10eeb0f74e559fb4cfb0cc92d490d7b4920db817d74b904801a359ec0684",
+      "parent_sha256": "a629885ce704ccbf7dbd5cd4c7a3e763ade71610e00e4f178502b47b32d01464",
+      "independence_group": "worthington-trial-publications"
+    },
+    {
+      "source_id": "worthington-howell-p140-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/worthington-howell-p140-facsimile-v1.png",
+      "format": "png",
+      "sha256": "704a7643bd51e90bc698c9ebccc6672733d8d76f7e407501033e04a3fc70b13f",
+      "metadata_sha256": "8175ec36a14dc22f1f9f55b66a2b6322dba95701dfb69089735bf3e296de828e",
+      "parent_sha256": "a629885ce704ccbf7dbd5cd4c7a3e763ade71610e00e4f178502b47b32d01464",
+      "independence_group": "worthington-trial-publications"
+    },
+    {
+      "source_id": "worthington-howell-title-facsimile-v1",
+      "path": "data/raw/shiloh/howell-trace-v1/worthington-howell-title-facsimile-v1.png",
+      "format": "png",
+      "sha256": "ccf904ab3147ba9df5f0d89b6959c32f48ee756cc1b781c715608e63d8f56081",
+      "metadata_sha256": "675f04460099269ddd12ba1537d45abec50871d01020a446c315b3ea524ca248",
+      "parent_sha256": "a629885ce704ccbf7dbd5cd4c7a3e763ade71610e00e4f178502b47b32d01464",
+      "independence_group": "worthington-trial-publications"
+    }
+  ],
+  "preservation": {
+    "method": "Independent git-show comparison of base commit, exact input commit and current bytes, in addition to the packet audit",
+    "prior_source_entries_unchanged": 112,
+    "prior_distinct_raw_paths_unchanged": 109,
+    "bound_preserved_files_unchanged": 96,
+    "new_source_entries": 21,
+    "registry_entries": 133,
+    "distinct_raw_paths": 130,
+    "dossier_unchanged": true,
+    "admission_proposals_unchanged": true,
+    "cohort_unchanged": true,
+    "baseline_unchanged": true,
+    "prior_review_bundles_unchanged": true
+  },
+  "checks": [
+    {
+      "command": "python3 design/shiloh-howell-trace-v1/reference-audit.py",
+      "exit_code": 0,
+      "result": "passed; 7 assertions, 14 anchors, 12 pages, 112 old entries, 96 files; 0 promoted rows"
+    },
+    {
+      "command": "make check",
+      "exit_code": 0,
+      "python_version": "3.14.7",
+      "tests_passed": 82,
+      "result": "unittest suite and generalship check passed; artifacts_written false"
+    },
+    {
+      "command": "python3 design/shiloh-precontact-segmentation-v1/reference-audit.py",
+      "exit_code": 0,
+      "result": "passed; 24 anchors preserved; unknown Howell link remains"
+    },
+    {
+      "command": "python3 design/shiloh-precontact-segmentation-corrections-v1/reference-audit.py",
+      "exit_code": 0,
+      "result": "passed; two retained literal corrections and all 24 anchors replay"
+    },
+    {
+      "command": "independent in-memory git-show/hash comparison",
+      "exit_code": 0,
+      "result": "112 old source entries, 109 raw paths and 96 bound files match base and exact input commit; all 130 current raw paths match exact input commit"
+    }
+  ],
+  "model_and_admission_state": {
+    "frame_engagements": 127,
+    "frame_campaigns": 36,
+    "draft_dossiers": 3,
+    "TN003_claims": 62,
+    "TN003_quantities": 40,
+    "TN003_events": 26,
+    "v1_status_counts": {
+      "blocked": 18,
+      "excluded": 22
+    },
+    "v2_status_counts": {
+      "blocked": 7,
+      "excluded": 33
+    },
+    "complete_candidate_rows": 0,
+    "emitted_rows": 0,
+    "promoted_rows": 0,
+    "historical_features_admitted": 0,
+    "baseline_eligible_engagements": 23,
+    "baseline_eligible_campaigns": 13,
+    "strength_logistic_brier": 0.2768816348133779,
+    "equal_odds_brier": 0.25,
+    "result_improved": false
+  },
+  "required_findings": [],
+  "nonblocking_comments": [],
+  "unresolved_historical_questions": {
+    "segmentation": "unresolved",
+    "candidate_descriptions": [
+      "Saturday around 7 a.m. expulsion from Howell house (disputed in quoted testimony)",
+      "Saturday farm-front firing through the day (Medkirk retrospective)",
+      "Evening cavalry brush and officer-party departure (Medkirk retrospective; ordering/overlap unestablished)"
+    ],
+    "candidate_overlap": null,
+    "reed_incident_match": null,
+    "termination_of_all_saturday_contact": null,
+    "continuity_into_sunday": null,
+    "earliest_qualifying_contact": null,
+    "exact_timestamp": null,
+    "area": null,
+    "members_by_side": {
+      "US": null,
+      "CS": null
+    }
+  },
+  "limitations": [
+    "Separate AI source analysis only; not human historical adjudication, source independence, an extraction-error estimate, or feature-admission approval.",
+    "Inspection covers all assigned selections and their relevant page/HTML context, not all words, tables, pages or source claims in the parent books. The unrelated force table on Medkirk p.537 was not transcribed or audited.",
+    "Original Medkirk manuscript, original Worthington court-martial proceedings, commission correspondence, original tablet and drafting files remain uninspected. Historical truth, witness fidelity, participant-to-Reed attribution and Saturday-to-Sunday continuity remain unresolved.",
+    "Parent PDF hashes, URLs, PDF page indices and rendering claims were checked for internal consistency in the registered metadata; parent PDF downloads were not reopened or re-rendered. Printed page labels were visually checked. No new historical evidence was fetched.",
+    "The Medkirk volume images directly establish the title/editors and copyright 1887. They do not independently establish a dated printing imprint; this review does not strengthen the existing publication_date label beyond the copyright basis stated in the source note. The letter date is the editors' printed attribution.",
+    "Worthington author/catalog attributions and the Abstract's reported catalog year were not independently checked against a retained catalog snapshot. The Abstract publication date remains null and its source-family grouping is a conservative dependence flag, not proof of authorship or independence.",
+    "Failed-access events and extra author inspection listed in search-log.json were read as preparation records; this reviewer did not replay the network failures or inspect unretained Worthington pp.121-122. These do not count toward reviewer coverage.",
+    "The reused Reed p.68 image was visually checked; its existing 1909 edition metadata was retained rather than independently re-established from a newly inspected 1909 title page.",
+    "No generated artifacts were rewritten or make reproduce/make packet invoked in this review. make check ran the existing offline reproducibility test and reported artifacts_written false."
+  ],
+  "reviewer_modified_paths": [
+    "artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/review.md",
+    "artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/review-result.json"
+  ]
+}

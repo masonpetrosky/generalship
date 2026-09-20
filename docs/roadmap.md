@@ -90,6 +90,10 @@ Howell farm map while retaining the original proceedings and commission
 correspondence as uninspected archival targets. Map control, full unit locations,
 ford-guard identities and the transport/afloat rule remain unresolved, followed
 by population/return evidence for the seven blockers. Continue across the complete source campaign.
+Separate Astra `xhigh` [review and primary assessment](../artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/primary-assessment.md)
+accepted the bounded Howell packet with no required corrections; historical
+provenance and continuity questions remain open.
+
 Historical admission still requires actual evidence-use review of a complete
 proposal and an immutable release manifest; this partial proposal is no release.
 

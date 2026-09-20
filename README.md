@@ -144,6 +144,10 @@ bind 14 passages across 12 inspected pages and three HTML sources. The source
 chain to Reed and Saturday-to-Sunday continuity remain unknown. Next compare
 the 46th/72d Ohio accounts and mapped house/farm/post identities.
 
+Separate Astra `xhigh` [review and primary assessment](artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/primary-assessment.md)
+accepted the bounded Howell packet with no required corrections; historical
+provenance and continuity questions remain open.
+
 Then define a campaign replacement boundary and outcomes before fitting enriched
 models. Battle execution and campaign contribution are separate estimands; adding
 them together would double count. Partial pooling, opponent/army context,

@@ -1,0 +1,22 @@
+{
+  "task_name": "/root/shiloh_howell_review",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "fork_turns": "none",
+  "date": "2026-09-20",
+  "input_commit": "67b5c303ce7108bfc3f15b5b999247931ff3c998",
+  "inputs": {
+    "data/sources.json": "e487ed90600c7fd6045edaa0e081540c7141098ab263e67b19fb2c97de5f0599",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "design/shiloh-howell-trace-v1/research-record.json": "787994b812cee915ebcfb7ff97d6040adf4a9cc4e8431ba46aa688aec75ffdf4",
+    "design/shiloh-howell-trace-v1/reference-audit.py": "a0c90821547e5c09825abdd1a517531460d6230c84262ef8d2eca37b24f4b7e4",
+    "design/shiloh-howell-trace-v1/search-log.json": "cd29eae8cea989419a5465f60bf55dd88d489aa767493484567f0b0edf668713",
+    "docs/research/shiloh-howell-trace-v1.md": "fd0dd63c4b3fb384baecf295cadd18c1bff9fef96981715039305f24e558cce0"
+  },
+  "scope": "Review all 7 assertions / 14 anchors, 12 book-section transcriptions against retained scans and three web text sections against retained HTML; inspect all 12 listed images (including 5 bibliographic/context pages). Evaluate provenance, source dates/dependence, negative coverage and unknown continuity. Verify prior inputs preserved and zero promotion.",
+  "allowed_outputs": [
+    "artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/review.md",
+    "artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/review-result.json"
+  ],
+  "limitations": "Separate AI analysis, not human historical adjudication or proof of source independence."
+}
