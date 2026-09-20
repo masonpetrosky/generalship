@@ -39,11 +39,12 @@ def report_text(root, profile, evaluation, dossiers):
               "Strength sensitivity varies the held-out range endpoints with a fixed fitted model. It excludes training-data and model uncertainty.",
               "", "## Draft evidence dossiers", "",
               "Exact passage checks verify provenance only. These drafts have no independent historical review and do not modify model inputs.", "",
-              "| Battle | Claims | Explicit unknowns | Status |", "|---|---:|---:|---|"]
+              "| Battle | Claims | Explicit unknowns | Quantities | Events | Status |", "|---|---:|---:|---:|---:|---|"]
     for d in dossiers:
-        lines.append(f"| [{d['battle_id']}](../data/evidence/{d['battle_id']}.json) | {d['claims']} | {d['unknown_claims']} | {d['status']} |")
+        lines.append(f"| [{d['battle_id']}](../data/evidence/{d['battle_id']}.json) | {d['claims']} | {d['unknown_claims']} | {d['quantities']} | {d['events']} | {d['status']} |")
     lines += ["", "## Next research action", "",
-              "Review the Shiloh dossier against independent histories and original reports. Resolve opening strength, reinforcements, and command-transfer times before designing an enriched feature row.",
+              "The [Shiloh research memo](../docs/research/shiloh.md) preserves competing returns, dated orders, reinforcement phases, and disputed responsibility. No canonical opening strength or effective command-transfer time has been adjudicated.",
+              "Next inspect the Confederate returns (Official Records I.X.1, reports 136 and 137) flagged by the source itself, and audit Union omitted units/arrival reports. Obtain independent historical review before designing an enriched feature row.",
               "Then expand by complete campaign, retaining every unscorable engagement in the coverage denominator.",
               "", "## Reproduce and inspect", "", "Run `make check` and `make reproduce` from the repository root.",
               "[Evaluation and fold membership](baseline.json), [coverage](quality.json), [run receipt](receipt.json),",
@@ -73,7 +74,7 @@ def run_build(root, write=False):
         ])
         (output / "pilot-report.md").write_text(report_text(root, profile, evaluation, dossiers), encoding="utf-8")
         inputs = sorted((root / "generalship").glob("*.py")) + [root / "data/sources.json", root / "data/pilot/cohort.json"]
-        inputs += sorted((root / "data/evidence").glob("*.json"))
+        inputs += sorted((root / "data/evidence").rglob("*.json"))
         outputs = ["battles.json", "quality.json", "baseline.json", "evidence-checks.json", "research-queue.json", "pilot-report.md"]
         write_json(output / "receipt.json", {
             "command": "python3 -m generalship build", "model_id": evaluation["model_id"],

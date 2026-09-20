@@ -12,9 +12,15 @@ instructions. Existing records and model outputs are hypotheses to inspect, not 
    claim. Preserve the local snapshot hash. Never cite a page you did not inspect.
 3. Preserve conflicting estimates separately. Distinguish paper strength, present,
    available, engaged, reinforcements, and survivors. Unknown is null, never zero.
+   In v2, retain separate typed observations with population, date scope and a
+   specific claim/citation reference. Unknown muster dates remain null even when
+   a report's publication or forwarding date is known. Do not infer numeric ranges
+   from a word such as "about" or average quantities with different scopes.
 4. Reconstruct decision chronology and command intervals, including subordinates
    and superiors. Establish what was knowable at each decision, distinguishing
    hindsight from evidence of contemporary knowledge.
+   Cite the exact section in sectioned snapshots. Keep event times source-qualified;
+   distinguish a commander's death from notification and assumption of command.
 5. Propose tactical and campaign replacement boundaries. Tag circumstances as
    inherited, commander-created, post-outcome, or unresolved relative to those
    boundaries. A disputed boundary remains an open question.

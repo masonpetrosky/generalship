@@ -1,4 +1,4 @@
-# Evidence contract, version 1
+# Evidence contract, versions 1 and 2
 
 The source registry is `data/sources.json`; dossiers are `data/evidence/<battle-id>.json`.
 Run `python3 -m generalship check` to verify every source hash, dossier, and baseline.
@@ -23,7 +23,8 @@ appropriately short passages with reviewable locators.
 Each dossier identifies a frozen-cohort battle, draft/reviewed status, proposed
 tactical and campaign replacement dates (null until established), a boundary note,
 claims, and open questions. Dates alone are insufficient when intraday command or
-reinforcement timing matters; phase-level chronology is a next-schema task.
+reinforcement timing matters; version 2 adds phase records without inventing exact
+timestamps for qualitative time expressions.
 
 Every dossier covers strength, terrain, logistics, information, objectives,
 responsibility, and outcome. A dimension without evidence gets an explicit unknown.
@@ -40,7 +41,10 @@ Claims include:
 | `citations` | Source ID, exact short quote, and locator |
 
 CSV citations use a complete row key and column. Text citations use a human-readable
-locator. Quotes must occur exactly in the referenced cell or snapshot. Unknown
+locator. Sources with `sectioned: true` also require a `section` matching exactly
+one `## section-id` line in the snapshot; the quote must occur inside that section,
+not elsewhere in the file. Legacy unsectioned sources still match the whole snapshot.
+Quotes must occur exactly in the referenced cell or selected text. Unknown
 claims require null and no fabricated citation. Different accounts are separate
 claims, never silently averaged. Imported strength bounds remain separate low/high
 values and retain their source basis; an estimate of people present must not become
@@ -48,9 +52,46 @@ an estimate of people engaged.
 
 For draft dossiers with unset replacement boundaries, phase tags are hypotheses
 explained by the rationale. They cannot be treated as reviewed causal classifications.
-Version 1 stores rich propositions as text, not numeric feature rows; phase-specific
-quantities, commander identities, temporal availability, and source alternatives
-need a subsequent typed schema before enriched modeling.
+Version 1 stores rich propositions as text. Version 2 additionally preserves typed
+research observations. Neither version supplies admitted model features.
+
+## Version 2 phase records
+
+Shiloh is the first v2 dossier. Antietam and Champion Hill remain valid v1 drafts.
+`supersedes` identifies the archived previous dossier and its SHA-256. Archives
+live under `data/evidence/history/`, are checked against the current revision's
+hash, and are included in the build receipt but not counted as additional battles.
+Existing claim IDs persist when their interpretation is amended.
+
+- `entities`: local IDs, names, person/formation kind, and US/CS side. They prevent
+  confusing Lew Wallace's division with another formation; they are not yet a
+  project-wide identity registry or proof of a command relationship.
+- `events`: date, source-qualified `time_label`, entity IDs, evidenced claim IDs,
+  and an interpretive note. A reported death time is not an effective command
+  assumption time. Approximate clocks have no invented time-zone conversion.
+- `quantities`: stable ID, supporting strength claim and `citation_index`, formation
+  ID, lower/upper values, unit, population basis, estimate kind, period, location,
+  scope, `recorded_at`, and note. Observations from different sources remain separate.
+
+Units currently support people only. Bases distinguish `present_for_duty`,
+`reported_effective`, `reported_engaged`, `reported_reinforcements` and
+`reported_present`. They preserve a source's meaning rather than assert equivalence.
+Estimate kinds are `reported_exact` (precision as written, not proven accuracy),
+`approximate` (a rounded point) and `range` (source-estimated bounds, not confidence
+limits). Nonfinite/negative/reversed values and incompatible point bounds fail.
+
+The period has start/end dates and a required scope label. Both dates are null
+when unstated, such as a return headed “after battle” without its muster date.
+`recorded_at` is separately null or the known report/return/forwarding date; it
+does not establish the date when a commander learned the information. Public
+availability, historical event time and command knowledge must not be conflated.
+Null dates are not zero-duration events or permission to infer missing dates.
+
+Validation checks identity/reference integrity, known supporting claims, section
+presence, required scope, date order and quantity bounds. It does **not** verify
+that the numbers or interpretations entail the cited passage. A typed observation
+still needs historical and feature-admission review. Adding a column or marking a
+dossier reviewed never changes the baseline automatically.
 
 ## Research and review
 

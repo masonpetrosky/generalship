@@ -32,3 +32,28 @@ Ethan Arsht's [military_rankings](https://github.com/ethanarsht/military_ranking
 inspired the battle residual approach. His notebook was inspected for methodology;
 no code, notebook, or dataset from that repository is distributed here. Generalship
 does not reproduce his published rankings or imply his endorsement.
+
+## Historical Shiloh sources
+
+`data/raw/shiloh/` contains selected, transformed historical text and two rendered
+table pages. These retain their source attribution and are not relicensed as code.
+
+- U.S. War Department, *The War of the Rebellion: A Compilation of the Official
+  Records of the Union and Confederate Armies*, Series I, Volume X, Parts I and II
+  (Washington: Government Printing Office, 1884). Public-domain government
+  compilation and nineteenth-century reports. Internet Archive scans identify
+  the edition used. OCR excerpts, selected manual transcriptions, and page renders
+  are identified in the source registry; editorial labels are not original prose.
+- Manning Ferguson Force, *From Fort Henry to Corinth* (1881), public-domain
+  historical text obtained from [Project Gutenberg ebook 24438](https://www.gutenberg.org/ebooks/24438).
+  Only preface and strength-discussion excerpts are included; no modern foreword,
+  illustrations or full ebook are redistributed.
+- LTC Jeffrey J. Gudmens and the Staff Ride Team, *Staff Ride Handbook for the
+  Battle of Shiloh, 6–7 April 1862*, Combat Studies Institute Press, Fort Leavenworth,
+  DTIC ADA445681. Report date 2004; library catalog data uses 2005. Selected U.S.
+  Army government-authored narrative and one table heading are included. Photos,
+  maps, logos and modern third-party vignettes are omitted.
+
+Original download links, parent hashes, page mappings, transformations and account
+dependencies are preserved in `data/sources.json`. None of these authors,
+institutions, or archive hosts endorses Generalship's interpretations.

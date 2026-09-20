@@ -41,15 +41,16 @@ Strength sensitivity varies the held-out range endpoints with a fixed fitted mod
 
 Exact passage checks verify provenance only. These drafts have no independent historical review and do not modify model inputs.
 
-| Battle | Claims | Explicit unknowns | Status |
-|---|---:|---:|---|
-| [MD003](../data/evidence/MD003.json) | 9 | 5 | draft |
-| [MS009](../data/evidence/MS009.json) | 7 | 3 | draft |
-| [TN003](../data/evidence/TN003.json) | 7 | 1 | draft |
+| Battle | Claims | Explicit unknowns | Quantities | Events | Status |
+|---|---:|---:|---:|---:|---|
+| [MD003](../data/evidence/MD003.json) | 9 | 5 | 0 | 0 | draft |
+| [MS009](../data/evidence/MS009.json) | 7 | 3 | 0 | 0 | draft |
+| [TN003](../data/evidence/TN003.json) | 22 | 1 | 12 | 7 | draft |
 
 ## Next research action
 
-Review the Shiloh dossier against independent histories and original reports. Resolve opening strength, reinforcements, and command-transfer times before designing an enriched feature row.
+The [Shiloh research memo](../docs/research/shiloh.md) preserves competing returns, dated orders, reinforcement phases, and disputed responsibility. No canonical opening strength or effective command-transfer time has been adjudicated.
+Next inspect the Confederate returns (Official Records I.X.1, reports 136 and 137) flagged by the source itself, and audit Union omitted units/arrival reports. Obtain independent historical review before designing an enriched feature row.
 Then expand by complete campaign, retaining every unscorable engagement in the coverage denominator.
 
 ## Reproduce and inspect

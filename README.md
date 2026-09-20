@@ -24,6 +24,9 @@ wins a commander caused. No validated commander ranking exists here yet.
   holds out whole campaigns and compares with equal odds and a training-only prior.
 - Three draft dossiers: **Shiloh, Antietam, and Champion Hill**, with exact source
   passages, explicit unknowns, command questions, and inherited/created distinctions.
+- A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
+  independently authored histories, and return-table scans. Its 12 typed troop
+  observations and seven events retain differences in population and timing.
 - A reproducible report, battle predictions, exclusion reasons, research queue,
   and input/output hash receipt. No runtime dependencies beyond Python 3.11+.
 
@@ -39,7 +42,7 @@ python3 -m generalship packet TN003 # prepare a research assignment; makes no AI
 ```
 
 `python3 -m generalship fetch` can restore missing pinned upstream CSVs. Normal
-checks and builds make no network requests. The checked-in NPS text snapshots are
+checks and builds make no network requests. The checked-in historical snapshots are
 restored from Git, not silently refreshed. Run from another directory with
 `python3 -m generalship --root /path/to/generalship check` when the package is on
 the Python path. Optional editable installation: `python3 -m pip install -e .`.
@@ -62,10 +65,13 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 
 ## Research direction
 
-The first research batch should reconstruct Shiloh's opening and second-day forces,
-reinforcements, command transfer, and orders from independently authored histories
-and original reports. The prepared [Shiloh packet](artifacts/research/TN003.md) and
-[draft dossier](data/evidence/TN003.json) are the starting point. Expand by complete
+The first [Shiloh research pass](docs/research/shiloh.md) is complete as a draft:
+22 claims preserve competing returns, reinforcement phases, dated orders and
+disputed responsibility. No canonical opening strength or independently reviewed
+command attribution has been established. Next inspect the Confederate returns
+flagged by their own compiler and the Union return's omitted units, then obtain
+independent historical review. The [prepared packet](artifacts/research/TN003.md)
+and [dossier](data/evidence/TN003.json) preserve the open questions. Expand by complete
 campaign, retaining ordinary engagements and failures in the frame.
 
 Then define a campaign replacement boundary and outcomes before fitting enriched

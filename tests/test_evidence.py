@@ -53,6 +53,86 @@ class EvidenceTests(unittest.TestCase):
         dossier['claims'].append(copy.deepcopy(dossier['claims'][0]))
         with self.assertRaises(ValueError): validate_dossier(ROOT, dossier)
 
+    def test_quote_on_another_page_is_not_valid_support(self):
+        dossier = read_json(ROOT / 'data/evidence/TN003.json')
+        claim = next(c for c in dossier['claims'] if c['id'] == 'command-transfer')
+        citation = next(c for c in claim['citations'] if c['source_id'] == 'or-beauregard-shiloh-report')
+        citation['section'] = 'p385'  # Correct document, wrong page.
+        with self.assertRaises(ValueError): validate_dossier(ROOT, dossier)
+
+    def test_section_cannot_be_missing_or_invented(self):
+        for section in (None, '', 'p999', 'p387\n## p385'):
+            with self.subTest(section=section):
+                dossier = read_json(ROOT / 'data/evidence/TN003.json')
+                citation = next(c for c in dossier['claims'] if c['id'] == 'union-return-strength')['citations'][0]
+                citation['section'] = section
+                with self.assertRaises(ValueError): validate_dossier(ROOT, dossier)
+
+    def test_quantity_requires_specific_evidenced_strength_claim(self):
+        for changes in ({'claim_id': 'missing'}, {'claim_id': 'logistics-unknown'},
+                        {'claim_id': 'result'}, {'citation_index': 100}, {'citation_index': True},
+                        {'entity_id': 'missing'}, {'entity_id': 'grant'}):
+            with self.subTest(changes=changes):
+                dossier = read_json(ROOT / 'data/evidence/TN003.json')
+                dossier['quantities'][0].update(changes)
+                with self.assertRaises(ValueError): validate_dossier(ROOT, dossier)
+
+    def test_quantity_cannot_erase_population_or_precision(self):
+        for changes in ({'basis': 'troops'}, {'scope': ''}, {'location': ''}, {'note': ''},
+                        {'lower': -1}, {'upper': float('nan')}, {'lower': True},
+                        {'lower': 70000}, {'upper': 70000}, {'unit': 'regiments'}):
+            with self.subTest(changes=changes):
+                dossier = read_json(ROOT / 'data/evidence/TN003.json')
+                dossier['quantities'][0].update(changes)
+                with self.assertRaises(ValueError): validate_dossier(ROOT, dossier)
+
+    def test_unstated_muster_date_stays_unknown(self):
+        dossier = read_json(ROOT / 'data/evidence/TN003.json')
+        q = next(q for q in dossier['quantities'] if q['id'] == 'confederate-after')
+        self.assertIsNone(q['period']['start'])
+        self.assertIsNone(q['period']['end'])
+        self.assertEqual(q['recorded_at'], '1862-04-21')
+        validate_dossier(ROOT, dossier)
+        q['period']['start'] = '1862-04-07'
+        with self.assertRaises(ValueError): validate_dossier(ROOT, dossier)
+
+    def test_reversed_quantity_dates_fail(self):
+        dossier = read_json(ROOT / 'data/evidence/TN003.json')
+        dossier['quantities'][0]['period']['end'] = '1862-04-05'
+        with self.assertRaises(ValueError): validate_dossier(ROOT, dossier)
+
+    def test_events_require_evidence_and_known_entities(self):
+        for changes in ({'claim_ids': ['missing']}, {'claim_ids': ['logistics-unknown']},
+                        {'entity_ids': ['missing']}, {'time_label': ''}, {'date': 'yesterday'}):
+            with self.subTest(changes=changes):
+                dossier = read_json(ROOT / 'data/evidence/TN003.json')
+                dossier['events'][0].update(changes)
+                with self.assertRaises(ValueError): validate_dossier(ROOT, dossier)
+
+    def test_phase_records_cannot_silently_downgrade_schema(self):
+        dossier = read_json(ROOT / 'data/evidence/TN003.json')
+        dossier['schema_version'] = 1
+        with self.assertRaises(ValueError): validate_dossier(ROOT, dossier)
+
+    def test_duplicate_phase_record_ids_fail(self):
+        for key in ('entities', 'events', 'quantities'):
+            with self.subTest(key=key):
+                dossier = read_json(ROOT / 'data/evidence/TN003.json')
+                dossier[key].append(copy.deepcopy(dossier[key][0]))
+                with self.assertRaises(ValueError): validate_dossier(ROOT, dossier)
+
+    def test_archived_dossier_is_preserved_and_bound_to_revision(self):
+        dossier = read_json(ROOT / 'data/evidence/TN003.json')
+        previous = read_json(ROOT / dossier['supersedes']['path'])
+        self.assertEqual(previous['schema_version'], 1)
+        self.assertEqual(len(previous['claims']), 7)
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            shutil.copytree(ROOT / 'data', root / 'data')
+            path = root / dossier['supersedes']['path']
+            path.write_bytes(path.read_bytes()+b'\n')
+            with self.assertRaises(ValueError): validate_dossier(root, dossier)
+
     def test_checksum_tampering_rejected(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)

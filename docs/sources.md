@@ -73,3 +73,38 @@ independently authored scholarship. Record competing estimates and account
 dependencies. Do not treat search snippets, model recollection, or an unsourced
 online ranking as a historical source. The [research prompt](../prompts/research-dossier.md)
 sets the extraction rules; the [evidence contract](evidence-contract.md) defines review.
+
+### Shiloh enrichment, 2026-09-20
+
+Eight sectioned text sources and two facsimiles were added without changing any
+earlier raw input. See the [research memo](research/shiloh.md) for findings and open
+questions, and the registry for exact URLs, parent hashes and transformations.
+
+| Source family | Inspected material retained | Use and dependency |
+|---|---|---|
+| [Official Records I.X.1](https://archive.org/details/1warofrebellion10secrrich) | Grant, Buell and Beauregard report excerpts; Union p.112 and Confederate p.396 return transcriptions and scans | Contemporary reports compiled/published in 1884; commanders' reports are interested participant accounts |
+| [Official Records I.X.2](https://archive.org/details/2warofrebellion10secrrich) | Halleck to Grant, March 20 (pp.50–51) and April 5 (p.94) | Issued orders; receipt and later modifications require separate evidence |
+| [M. F. Force, *From Fort Henry to Corinth*](https://www.gutenberg.org/ebooks/24438) | Preface and pp.178–180 including correction in footnote 3 | Original 1881 history; author explicitly relies on official reports and other accounts |
+| [Gudmens and Staff Ride Team, *Staff Ride Handbook for the Battle of Shiloh*](https://archive.org/details/DTIC_ADA445681) | Selected government narrative pp.84–85, 100, 113 and appendix heading p.137 | Army teaching history drawing on Official Records and later histories; overlapping evidence |
+
+The Army report documentation gives 2004, while its library catalog data uses
+2005. Both labels are retained in metadata rather than silently harmonized.
+Force's original work dates to 1881; the accessible ebook derives from a later
+facsimile. No modern facsimile foreword was copied. Accounts quoted by Force or
+the handbook are secondhand unless separately registered and inspected.
+
+The two large Official Records volumes and the Army PDF were downloaded for local
+inspection but are not vendored. Parent-file hashes identify the exact downloads
+used. Report excerpts use pypdf-extracted OCR with whitespace collapsed, preserving
+OCR misspellings. Tables and Halleck's orders were transcribed from rendered pages;
+their transformations are explicit. The two full table-page PNGs allow review of
+headings and omissions, and have their own source hashes. They are not additional
+independent testimony. Snapshots can be restored from Git; `fetch` does not silently
+regenerate them from mutable book downloads.
+
+The p.112 abstract, p.396 return, and Halleck orders are not clean numeric rows by
+themselves. Dates, column meanings, omissions and disagreement notes are retained
+with the extracted quantities. Source IDs and section IDs are validated together:
+a quote on another page in the same file cannot satisfy a declared citation.
+Manual transcription and exact passage matching still require an independent
+entailment/error audit. This pass has not completed that review.

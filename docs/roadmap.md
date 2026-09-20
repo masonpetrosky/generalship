@@ -13,19 +13,30 @@
 AI extraction quality, command attribution, and improved generalship estimation
 have not been established.
 
-## Milestone 1 — First independently reviewed campaign dossiers (next)
+## Milestone 1 — First independently reviewed campaign dossiers (in progress)
 
-Start now with `python3 -m generalship packet TN003` and the Shiloh draft. Locate
-original reports and independent histories, reconcile April 6/7 force availability,
-and reconstruct orders and command transfer. Then complete all pilot engagements
-in the same source campaign, including Fort Henry, Fort Donelson, and Corinth.
+The first [Shiloh source-enrichment pass](research/shiloh.md) is complete **as a
+draft**, with 22 claims, 12 typed troop observations and seven chronology events.
+Ten new source artifacts include original reports, orders, return transcriptions,
+two independently authored histories, and two facsimiles. Version 1 is archived.
+Neither canonical opening strengths nor effective command-transfer times have
+been adjudicated, and no independent review has occurred.
+
+Start now with Confederate reports Nos.136 and 137 in Official Records I.X.1,
+which the p.396 return explicitly says disagree with its totals. Audit the Union
+return's missing units and phase-specific arrivals next. The updated packet is
+available with `python3 -m generalship packet TN003`. After review, complete all
+pilot engagements in the same source campaign, including Fort Henry, Fort
+Donelson, and Corinth.
 Use Antietam to test outcome ambiguity and Champion Hill to test inherited orders
 versus commander-created circumstances.
 
 Deliverables:
 
-- Campaign and phase records with stable commander/army identities.
-- Source-dependent alternative estimates and a typed quantity schema.
+- Campaign records and resolved commander/army identities (Shiloh now has local
+  entity IDs and phase records; cross-engagement identity resolution remains).
+- Source-dependent alternative estimates and a typed quantity schema (v2 now
+  implemented for Shiloh; historical reconciliation and review remain).
 - Explicit replacement boundaries and contemporary information sets.
 - Named independent review records and an extraction-error audit.
 - A feature-admission mapping tied to immutable sources and dossier versions.
