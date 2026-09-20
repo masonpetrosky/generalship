@@ -1,0 +1,455 @@
+{
+  "bundle_id": "TN003-a42f063-v1",
+  "evidence_commit": "a42f06390651eea01d952a7cb7c329f410a6f9ab",
+  "prepared_date": "2026-09-20",
+  "dossier_path": "data/evidence/TN003.json",
+  "expected_input_sha256": {
+    "LICENSE": "e43d20d0d4567fae88433b7740b2996e9c52112b981011977b9cd09f4bc318d7",
+    "NOTICE.md": "11fba87f20c7cb9739350812bc395554b791678df2b7479ee113f168fb7b8bab",
+    "artifacts/baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
+    "artifacts/pilot-report.md": "8e7aa238bfbf464ead59b9ce5eb2add2f6c5fbc7b3b6aa2e7aaf73f151e99e13",
+    "artifacts/quality.json": "d722c4b8253d67f9728ac22f7977b655bcab9995d43e5aefefd5dcae139b940e",
+    "data/evidence/TN003.json": "1107b7149f9aa3877478e003a01ae2383b5d0729a15d6a90106e427350d49780",
+    "data/evidence/history/TN003.v1.json": "0a8674873a63dbb049cc49e955667dd9f32cbcaa05b2b4e63878950dc7db31d9",
+    "data/evidence/history/TN003.v2.json": "9e662b64c3448a0733d4b9f37d1ede4bcec7e99f59e8703600e3986f2c52cfed",
+    "data/evidence/history/TN003.v3.json": "b2da0882ed391a78b34b91382958ddcc5483ab34e908f2382fb36719adccafce",
+    "data/evidence/history/TN003.v4.json": "9ec051462243589cea1efa14ccdffc22cea7c55452483672b7e75acfa5d463dd",
+    "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
+    "data/raw/cwsac_battles.csv": "952b5d08402a7b77a42de709a87cd96540e460dd6fd4911d30574b5ad3585f1f",
+    "data/raw/cwsac_campaigns.csv": "93813220a72767a77a4632905d38718593d401901ae16698973e4ae8b9f555ae",
+    "data/raw/cwsac_commanders.csv": "6c587c2987171764f362513f31eaf7c713b888b806419291c494623ea41800c7",
+    "data/raw/cwsac_forces.csv": "a462f6be964b5d486f9cff4660262f215cffb8197d018654b74aab4e718dd7d5",
+    "data/raw/nps-md003.txt": "d71c7a98380497be518ed6eae2803938d704818cea09cf7360583e1cafdad4e4",
+    "data/raw/nps-tn003.txt": "5a368744a4f1e6b231be2aac0903ea86b07e302634fd522dac53b433424a2941",
+    "data/raw/shiloh/force-1881-shiloh.txt": "b163fbab48f96742ce0584a6b5c29506123728b3edbac6381318e3a4853c70f1",
+    "data/raw/shiloh/gudmens-shiloh-handbook.txt": "f9598f35502e9081e7bb056e59790c42ff476371984a3ea452e37ac36e395cf5",
+    "data/raw/shiloh/michigan-ag-1862-fifteenth-v1.txt": "c143f241b2d96bc563a01f52f996c86634c5da7643952ee96259468f333fd92b",
+    "data/raw/shiloh/or-alexander-mccook-reinforcements-v1.txt": "59ca8b68925fe217897e50272bcc0e2158325389ae5114b4cdfeb275736fe5ea",
+    "data/raw/shiloh/or-ammen-crossing-v1.txt": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93",
+    "data/raw/shiloh/or-anderson-crossing-v1.txt": "2b609dc79ebb3d2fcc1d52c97b10271b415d5c7166dfaeb53dcfa3d074f8d725",
+    "data/raw/shiloh/or-beauregard-shiloh-report.txt": "c87c79162f5ef1a88bc308896b90a4178808a6b505e1b7ee805be535705a692c",
+    "data/raw/shiloh/or-buell-reinforcements-v2.txt": "57627b0ea1c1e71c61d213fe4c52b692d292a20ae7c45e43677380ade6da4973",
+    "data/raw/shiloh/or-buell-shiloh-report.txt": "9581e8a1e7dc63d22c9999643183730d3ac22c216b731507bf993d2cafdbd425",
+    "data/raw/shiloh/or-chambers-availability-v1.txt": "d41b51cef5d5cd0bd334c35f169dc857edfc8e1a03d4fcaa1527d85da190c5e1",
+    "data/raw/shiloh/or-confederate-report-136-v1.png": "2cec00dfd99ed0a66e96977b3578606fd213930c1a3417c43d729bd787e537a5",
+    "data/raw/shiloh/or-confederate-report-136-v1.txt": "28e6ed7c4886cb04d4690469c824bb343f66b6c761f8da3334ef58decdc5d1e7",
+    "data/raw/shiloh/or-confederate-report-137-v1.png": "57335aa1a9cf578be6ae4abbd11224c07a8703c7420192181cd04ddb5346d114",
+    "data/raw/shiloh/or-confederate-report-137-v1.txt": "675efae865fa9d112b9f8aa6c3585221c8b742fbe092dfc5a130a38b43fb0f72",
+    "data/raw/shiloh/or-confederate-return.png": "fdf3154912efd3121eb52e0cfdcb8cc5ab04c669a6758513b7547fd86e991e32",
+    "data/raw/shiloh/or-confederate-return.txt": "6c127e6c1945754097a4b54a6efd98a9f7a35e3b009c7b9c5cd49056b0400c0c",
+    "data/raw/shiloh/or-crittenden-reinforcements-v1.txt": "235b01590b21cbf161ebe63162db73cf45184bd234f4025deae555040f317391",
+    "data/raw/shiloh/or-edward-mccook-crossing-v1.txt": "68d57493f397798415ba132e2e72a4d78013445ca6a6d81c736877f4845a43fa",
+    "data/raw/shiloh/or-garfield-reinforcements-v1.txt": "950b5b0d8e5a5a34f9b3a7f55efc142091f2373b571955a0f897e8c090981150",
+    "data/raw/shiloh/or-grant-shiloh-report.txt": "ab226b87fdbafcbe96e01564f596840b2b76fcf0f3cfe3aa83e1b1ee72f6d3cc",
+    "data/raw/shiloh/or-grose-crossing-v1.txt": "45557a169c58c848726a0105e883da9dd682b749c6d603d09d4578209ec09410",
+    "data/raw/shiloh/or-halleck-orders.txt": "b450b33b8475127a066ec9ab5257624ca818af9d8cd3049db0c5eab9c2501f21",
+    "data/raw/shiloh/or-jones-crossing-v1.txt": "a64da854998697a6d6d4cd6bfea1850eb26b360d69b5c4f485d75a3624f45edc",
+    "data/raw/shiloh/or-nelson-reinforcements-v1.txt": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed",
+    "data/raw/shiloh/or-prentiss-availability-v1.txt": "87fad5def660a7a09b3075ba5c99b951cc64561a09154aafb0203bcce623388f",
+    "data/raw/shiloh/or-reid-availability-v1.txt": "b6192040bb437ea469fa67cb8422460ebe8605186524a5c3e890b7e5ec855f03",
+    "data/raw/shiloh/or-reinforcement-p326-facsimile-v1.png": "6a16948ba7308e08559143f9e68b45f66ed383779950018109697f1529f7c54f",
+    "data/raw/shiloh/or-reinforcement-p327-facsimile-v1.png": "3219c3346da5ad79c292daa33f5f6509c888169b167c181952d5f9d5bb7ddf5a",
+    "data/raw/shiloh/or-rousseau-michigan-v1.txt": "1a5ba21b0cf1aaa8807601e5a02f1bda368df761435031c636526f15cb379fa6",
+    "data/raw/shiloh/or-union-return-april4-5.txt": "e7b9aee495475a62721a811490c442f8019bc689a02dd841db0a5fbd60f8727e",
+    "data/raw/shiloh/or-union-return-detail-v2.txt": "70099ece7f07cf264d777f3e9d80e49ec40c230b5c671962e3cdc0dbfd4f2c94",
+    "data/raw/shiloh/or-union-return.png": "5f885b86e24cdfc13bfe96c066e5b020a747f3b81ffc71896cdf80be0cd383da",
+    "data/raw/shiloh/or-wallace-availability-v1.txt": "d23c3a22984876a9f744f97d4a8acf642a663daf0b215285b38455145a218190",
+    "data/raw/shiloh/or-wood-reinforcements-v1.txt": "21570f8903b1535e674efa9d8c478954b69ab7de68c8445d27e2e338641a1357",
+    "data/raw/shiloh/reed-1909-ohio-strength-v1.txt": "9af7a9d42181a4cba1e3f7fffc0d73a3bd26c4b48aced3a9f3241711e939167a",
+    "data/raw/shiloh/reed-1909-union-audit-v1.txt": "87e1da1572aaceb0bb73422f008e411872174de01153d9d80a4659ceabdaee2f",
+    "data/raw/shiloh/reed-1909-union-p93-facsimile-v1.png": "c360e57571cddcc9cde0e69603cb6aad64e82f51adb0b61c7225add59481c339",
+    "data/raw/shiloh/reed-1909-union-p96-facsimile-v1.png": "f44f67c179a4dbb328cbb6d446bae9a28d1ed29fd8f314672a4d08184db20bb1",
+    "data/raw/shiloh/reed-1909-union-p97-facsimile-v1.png": "5a355ac9c6cc6542e4191448f40904d7394a621d8bc855d7aa381caee9385843",
+    "data/raw/shiloh/reed-1909-union-p98-facsimile-v1.png": "f9346df6200f246a7ce80f3ca651a0fecce89775b01cd7d91f5aa50b2229f790",
+    "data/raw/shiloh/reed-reinforcement-p100-facsimile-v1.png": "c0c4d7dc67e98d427558574f4c7a003d6a40767cc11b2afe8987478b709a92de",
+    "data/raw/shiloh/reed-reinforcement-p101-facsimile-v1.png": "656f866652e3de14f7d61f7ab284eaf1dc05f1fd98f0a9a7e2c8af92375ac5e1",
+    "data/raw/shiloh/reed-reinforcement-p102-facsimile-v1.png": "f5a32895999f3ff9b0834a5cd5c9fbf9c3616ad10a87e61325835c8f95212092",
+    "data/raw/upstream-package.yaml": "f5823133f2e0d0b839c14d54e066412ce9ac809f1dd38c1d76d0be100d146b07",
+    "data/sources.json": "a71f16285be84504048826255c0abcb49488c5d96f8e048ca5259ad523cc0e8b",
+    "docs/evidence-contract.md": "c32857a395c54f096b3e81f241cfd2d50aeb48f9420980c0935a6fef268a04c0",
+    "docs/methodology.md": "a42cadcf1604693a6b24ebc661807034e4be32ca1b6bd7ada7607b5cc791d302",
+    "docs/research/shiloh-confederate-returns.md": "4c5e03d4deb3546020301830d3e48f94c33ee3a4a33f969de3d255077184e736",
+    "docs/research/shiloh-ohio-reinforcements.md": "4822f05bdbc0119b43374be98a42d0d9fd1db199ecc537f1e4d3e8059dbf4847",
+    "docs/research/shiloh-union-availability.md": "2b32ccf247697d08a04e48e0b7572168cd011f962c0c0fcdf6c8b0a7c8c09e5f",
+    "docs/research/shiloh.md": "9fba798686d6c10ea975ca488440f41fca90f38e28b50beda2a59153710a62e5",
+    "docs/sources.md": "bad6135b3868619f1d1d5ae419113cf2dc1f5d901a3441e28d5b3fa25c96c930"
+  },
+  "supplementary_pages": [
+    {
+      "id": "review-or-p323",
+      "path": "reviews/TN003-a42f063-v1/pages/or-p323.png",
+      "sha256": "27e5e98208cba16ac021d54e11b7172bc4e3ae45f8fae8a329b78aa513f743bd",
+      "parent_url": "https://archive.org/download/1warofrebellion10secrrich/1warofrebellion10secrrich.pdf",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "printed_page": 323,
+      "pdf_page_one_based": 347,
+      "parent_metadata_source_id": "or-nelson-reinforcements-v1",
+      "transform": "Full PDF page rendered with pypdfium2 at scale 1.6; no cropping or annotation.",
+      "role": "Supplementary review copy; not a new independent source or an admitted evidence revision.",
+      "snapshot_sections_to_compare": [
+        {
+          "source_id": "or-nelson-reinforcements-v1",
+          "section": "p323-heading"
+        },
+        {
+          "source_id": "or-nelson-reinforcements-v1",
+          "section": "p323-crossing"
+        },
+        {
+          "source_id": "or-nelson-reinforcements-v1",
+          "section": "pp323-324-action"
+        }
+      ]
+    },
+    {
+      "id": "review-or-p324",
+      "path": "reviews/TN003-a42f063-v1/pages/or-p324.png",
+      "sha256": "753e1fb0c41d26f4fb0625fa0a8f4b4d8df4f2988e3bc5fcf0c2823245c685c1",
+      "parent_url": "https://archive.org/download/1warofrebellion10secrrich/1warofrebellion10secrrich.pdf",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "printed_page": 324,
+      "pdf_page_one_based": 348,
+      "parent_metadata_source_id": "or-nelson-reinforcements-v1",
+      "transform": "Full PDF page rendered with pypdfium2 at scale 1.6; no cropping or annotation.",
+      "role": "Supplementary review copy; not a new independent source or an admitted evidence revision.",
+      "snapshot_sections_to_compare": [
+        {
+          "source_id": "or-nelson-reinforcements-v1",
+          "section": "pp323-324-action"
+        },
+        {
+          "source_id": "or-nelson-reinforcements-v1",
+          "section": "p324-night"
+        },
+        {
+          "source_id": "or-nelson-reinforcements-v1",
+          "section": "p324-morning"
+        },
+        {
+          "source_id": "or-nelson-reinforcements-v1",
+          "section": "p324-artillery"
+        }
+      ]
+    },
+    {
+      "id": "review-or-p328",
+      "path": "reviews/TN003-a42f063-v1/pages/or-p328.png",
+      "sha256": "13c5f7d87c254102686b669aa3c3d54043c856a099f265e2b86f3634ee12fa3e",
+      "parent_url": "https://archive.org/download/1warofrebellion10secrrich/1warofrebellion10secrrich.pdf",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "printed_page": 328,
+      "pdf_page_one_based": 352,
+      "parent_metadata_source_id": "or-nelson-reinforcements-v1",
+      "transform": "Full PDF page rendered with pypdfium2 at scale 1.6; no cropping or annotation.",
+      "role": "Supplementary review copy; not a new independent source or an admitted evidence revision.",
+      "snapshot_sections_to_compare": [
+        {
+          "source_id": "or-ammen-crossing-v1",
+          "section": "p328-report"
+        }
+      ]
+    },
+    {
+      "id": "review-or-p329",
+      "path": "reviews/TN003-a42f063-v1/pages/or-p329.png",
+      "sha256": "034cd7356dac1fd49a1c45babda42ec0adf9f675d0bdf8673451ea006c5803ab",
+      "parent_url": "https://archive.org/download/1warofrebellion10secrrich/1warofrebellion10secrrich.pdf",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "printed_page": 329,
+      "pdf_page_one_based": 353,
+      "parent_metadata_source_id": "or-nelson-reinforcements-v1",
+      "transform": "Full PDF page rendered with pypdfium2 at scale 1.6; no cropping or annotation.",
+      "role": "Supplementary review copy; not a new independent source or an admitted evidence revision.",
+      "snapshot_sections_to_compare": [
+        {
+          "source_id": "or-ammen-crossing-v1",
+          "section": "p329-diary-heading"
+        }
+      ]
+    },
+    {
+      "id": "review-or-p330",
+      "path": "reviews/TN003-a42f063-v1/pages/or-p330.png",
+      "sha256": "ebc18e5e242ca58f65c90b82de2b2df0afcdc32311f2c4d8a772439f2cb2791c",
+      "parent_url": "https://archive.org/download/1warofrebellion10secrrich/1warofrebellion10secrrich.pdf",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "printed_page": 330,
+      "pdf_page_one_based": 354,
+      "parent_metadata_source_id": "or-nelson-reinforcements-v1",
+      "transform": "Full PDF page rendered with pypdfium2 at scale 1.6; no cropping or annotation.",
+      "role": "Supplementary review copy; not a new independent source or an admitted evidence revision.",
+      "snapshot_sections_to_compare": [
+        {
+          "source_id": "or-ammen-crossing-v1",
+          "section": "p330-diary"
+        }
+      ]
+    },
+    {
+      "id": "review-or-p333",
+      "path": "reviews/TN003-a42f063-v1/pages/or-p333.png",
+      "sha256": "3121fe99b628406d692b2a66ff7d39b27c30b4027ce80a0be7ea34c45fd0d474",
+      "parent_url": "https://archive.org/download/1warofrebellion10secrrich/1warofrebellion10secrrich.pdf",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "printed_page": 333,
+      "pdf_page_one_based": 357,
+      "parent_metadata_source_id": "or-nelson-reinforcements-v1",
+      "transform": "Full PDF page rendered with pypdfium2 at scale 1.6; no cropping or annotation.",
+      "role": "Supplementary review copy; not a new independent source or an admitted evidence revision.",
+      "snapshot_sections_to_compare": [
+        {
+          "source_id": "or-ammen-crossing-v1",
+          "section": "p333-diary"
+        }
+      ]
+    },
+    {
+      "id": "review-or-p334",
+      "path": "reviews/TN003-a42f063-v1/pages/or-p334.png",
+      "sha256": "83a0e32b55bb171fc38b9e3d87085d89d53b06f5f9e144f6829c1f7a7070bf14",
+      "parent_url": "https://archive.org/download/1warofrebellion10secrrich/1warofrebellion10secrrich.pdf",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "printed_page": 334,
+      "pdf_page_one_based": 358,
+      "parent_metadata_source_id": "or-nelson-reinforcements-v1",
+      "transform": "Full PDF page rendered with pypdfium2 at scale 1.6; no cropping or annotation.",
+      "role": "Supplementary review copy; not a new independent source or an admitted evidence revision.",
+      "snapshot_sections_to_compare": [
+        {
+          "source_id": "or-ammen-crossing-v1",
+          "section": "p334-diary"
+        }
+      ]
+    },
+    {
+      "id": "review-or-p337",
+      "path": "reviews/TN003-a42f063-v1/pages/or-p337.png",
+      "sha256": "8c03bccb04612f26c1db869e8d882efcaae6cef5959eba3b72a3a3239d6b8392",
+      "parent_url": "https://archive.org/download/1warofrebellion10secrrich/1warofrebellion10secrrich.pdf",
+      "parent_sha256": "86d6a70bf565edc90de15ef15e4037f6ebf9163857ce916c7b6d3386ff337978",
+      "printed_page": 337,
+      "pdf_page_one_based": 361,
+      "parent_metadata_source_id": "or-nelson-reinforcements-v1",
+      "transform": "Full PDF page rendered with pypdfium2 at scale 1.6; no cropping or annotation.",
+      "role": "Supplementary review copy; not a new independent source or an admitted evidence revision.",
+      "snapshot_sections_to_compare": [
+        {
+          "source_id": "or-grose-crossing-v1",
+          "section": "p337-heading"
+        },
+        {
+          "source_id": "or-grose-crossing-v1",
+          "section": "p337"
+        }
+      ]
+    },
+    {
+      "id": "review-reed-p60",
+      "path": "reviews/TN003-a42f063-v1/pages/reed-p60.png",
+      "sha256": "d0e77982ef2743152e43414ad11d1adf6c96b37d78d0f3a52e43ef1ff6f9ce09",
+      "parent_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/The_battle_of_Shiloh_and_the_organizations_engaged_%28IA_battleofshilohor00unit%29.pdf",
+      "parent_sha256": "31e0379e56cf87fa4770afddd9c5d0e5f8181d55790e54cb0bbf4bb60362af96",
+      "printed_page": 60,
+      "pdf_page_one_based": 62,
+      "parent_metadata_source_id": "reed-1909-union-audit-v1",
+      "transform": "Full PDF page rendered with pypdfium2 at scale 1.6; no cropping or annotation.",
+      "role": "Supplementary review copy; not a new independent source or an admitted evidence revision.",
+      "snapshot_sections_to_compare": [
+        {
+          "source_id": "reed-1909-union-audit-v1",
+          "section": "p60-second-brigade"
+        },
+        {
+          "source_id": "reed-1909-union-audit-v1",
+          "section": "pp60-61-michigan"
+        }
+      ]
+    },
+    {
+      "id": "review-reed-p61",
+      "path": "reviews/TN003-a42f063-v1/pages/reed-p61.png",
+      "sha256": "08b81bdec2e8f47ec07e8f7a16608a2d0e308fcbd94dad0daf181d937ba180d6",
+      "parent_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/The_battle_of_Shiloh_and_the_organizations_engaged_%28IA_battleofshilohor00unit%29.pdf",
+      "parent_sha256": "31e0379e56cf87fa4770afddd9c5d0e5f8181d55790e54cb0bbf4bb60362af96",
+      "printed_page": 61,
+      "pdf_page_one_based": 63,
+      "parent_metadata_source_id": "reed-1909-union-audit-v1",
+      "transform": "Full PDF page rendered with pypdfium2 at scale 1.6; no cropping or annotation.",
+      "role": "Supplementary review copy; not a new independent source or an admitted evidence revision.",
+      "snapshot_sections_to_compare": [
+        {
+          "source_id": "reed-1909-union-audit-v1",
+          "section": "pp60-61-michigan"
+        },
+        {
+          "source_id": "reed-1909-union-audit-v1",
+          "section": "p61-wisconsin"
+        }
+      ]
+    },
+    {
+      "id": "review-reed-p111",
+      "path": "reviews/TN003-a42f063-v1/pages/reed-p111.png",
+      "sha256": "575e5da35bfc7398a1e1d36e64805441d5187beb707ac4206d746066b5738b9d",
+      "parent_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/The_battle_of_Shiloh_and_the_organizations_engaged_%28IA_battleofshilohor00unit%29.pdf",
+      "parent_sha256": "31e0379e56cf87fa4770afddd9c5d0e5f8181d55790e54cb0bbf4bb60362af96",
+      "printed_page": 111,
+      "pdf_page_one_based": 113,
+      "parent_metadata_source_id": "reed-1909-union-audit-v1",
+      "transform": "Full PDF page rendered with pypdfium2 at scale 1.6; no cropping or annotation.",
+      "role": "Supplementary review copy; not a new independent source or an admitted evidence revision.",
+      "snapshot_sections_to_compare": [
+        {
+          "source_id": "reed-1909-union-audit-v1",
+          "section": "p111-union-notes"
+        },
+        {
+          "source_id": "reed-1909-ohio-strength-v1",
+          "section": "p111-note-j"
+        }
+      ]
+    },
+    {
+      "id": "review-reed-p112",
+      "path": "reviews/TN003-a42f063-v1/pages/reed-p112.png",
+      "sha256": "19ee738d07bb6f2d2a6f734def9890919f0937db9b7856364eb188d8f3de681e",
+      "parent_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/The_battle_of_Shiloh_and_the_organizations_engaged_%28IA_battleofshilohor00unit%29.pdf",
+      "parent_sha256": "31e0379e56cf87fa4770afddd9c5d0e5f8181d55790e54cb0bbf4bb60362af96",
+      "printed_page": 112,
+      "pdf_page_one_based": 114,
+      "parent_metadata_source_id": "reed-1909-union-audit-v1",
+      "transform": "Full PDF page rendered with pypdfium2 at scale 1.6; no cropping or annotation.",
+      "role": "Supplementary review copy; not a new independent source or an admitted evidence revision.",
+      "snapshot_sections_to_compare": [
+        {
+          "source_id": "reed-1909-union-audit-v1",
+          "section": "p112-note-r"
+        }
+      ]
+    },
+    {
+      "id": "review-michigan-p41",
+      "path": "reviews/TN003-a42f063-v1/pages/michigan-p41.png",
+      "sha256": "a85f87b1cc57604458e5572359284e93d973b61dce19cb0486b1d66119105f85",
+      "parent_url": "https://archive.org/download/annualreportofad00mich/annualreportofad00mich.pdf",
+      "parent_sha256": "f25789cebc7cc9af4b9c9c603502f65d1f2165ae6d616fb73db0ccca6eb57fe6",
+      "printed_page": 41,
+      "pdf_page_one_based": 45,
+      "parent_metadata_source_id": "michigan-ag-1862-fifteenth-v1",
+      "transform": "Full PDF page rendered with pypdfium2 at scale 1.6; no cropping or annotation.",
+      "role": "Supplementary review copy; not a new independent source or an admitted evidence revision.",
+      "snapshot_sections_to_compare": [
+        {
+          "source_id": "michigan-ag-1862-fifteenth-v1",
+          "section": "p41"
+        }
+      ]
+    }
+  ],
+  "sampling_note": "Purposive diagnostic sample: all 13 existing table facsimiles plus 13 supplementary narrative/notes pages. No random selection or population extraction-error estimate is implied.",
+  "table_scan_sections": {
+    "or-union-return-scan": [
+      {
+        "source_id": "or-union-return-april4-5",
+        "section": "p112"
+      },
+      {
+        "source_id": "or-union-return-detail-v2",
+        "section": "p112"
+      }
+    ],
+    "or-confederate-return-scan": [
+      {
+        "source_id": "or-confederate-return",
+        "section": "p396"
+      }
+    ],
+    "or-confederate-report-136-v1-scan": [
+      {
+        "source_id": "or-confederate-report-136-v1",
+        "section": "p398"
+      }
+    ],
+    "or-confederate-report-137-v1-scan": [
+      {
+        "source_id": "or-confederate-report-137-v1",
+        "section": "p399"
+      }
+    ],
+    "reed-1909-union-p93-facsimile-v1": [
+      {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p93"
+      }
+    ],
+    "reed-1909-union-p96-facsimile-v1": [
+      {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p96"
+      }
+    ],
+    "reed-1909-union-p97-facsimile-v1": [
+      {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p97"
+      }
+    ],
+    "reed-1909-union-p98-facsimile-v1": [
+      {
+        "source_id": "reed-1909-union-audit-v1",
+        "section": "p98"
+      }
+    ],
+    "or-reinforcement-p326-facsimile-v1": [
+      {
+        "source_id": "or-nelson-reinforcements-v1",
+        "section": "p326-return"
+      }
+    ],
+    "or-reinforcement-p327-facsimile-v1": [
+      {
+        "source_id": "or-nelson-reinforcements-v1",
+        "section": "p327-march-return"
+      },
+      {
+        "source_id": "or-ammen-crossing-v1",
+        "section": "p327-heading"
+      }
+    ],
+    "reed-reinforcement-p100-facsimile-v1": [
+      {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p100"
+      }
+    ],
+    "reed-reinforcement-p101-facsimile-v1": [
+      {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p101"
+      }
+    ],
+    "reed-reinforcement-p102-facsimile-v1": [
+      {
+        "source_id": "reed-1909-ohio-strength-v1",
+        "section": "p102"
+      }
+    ]
+  },
+  "snapshot_copies": {
+    "LICENSE": "reviews/TN003-a42f063-v1/snapshot/LICENSE",
+    "NOTICE.md": "reviews/TN003-a42f063-v1/snapshot/NOTICE.md",
+    "artifacts/baseline.json": "reviews/TN003-a42f063-v1/snapshot/artifacts/baseline.json",
+    "artifacts/pilot-report.md": "reviews/TN003-a42f063-v1/snapshot/artifacts/pilot-report.md",
+    "artifacts/quality.json": "reviews/TN003-a42f063-v1/snapshot/artifacts/quality.json",
+    "data/evidence/TN003.json": "reviews/TN003-a42f063-v1/snapshot/data/evidence/TN003.json",
+    "data/pilot/cohort.json": "reviews/TN003-a42f063-v1/snapshot/data/pilot/cohort.json",
+    "data/sources.json": "reviews/TN003-a42f063-v1/snapshot/data/sources.json",
+    "docs/evidence-contract.md": "reviews/TN003-a42f063-v1/snapshot/docs/evidence-contract.md",
+    "docs/methodology.md": "reviews/TN003-a42f063-v1/snapshot/docs/methodology.md",
+    "docs/research/shiloh-confederate-returns.md": "reviews/TN003-a42f063-v1/snapshot/docs/research/shiloh-confederate-returns.md",
+    "docs/research/shiloh-ohio-reinforcements.md": "reviews/TN003-a42f063-v1/snapshot/docs/research/shiloh-ohio-reinforcements.md",
+    "docs/research/shiloh-union-availability.md": "reviews/TN003-a42f063-v1/snapshot/docs/research/shiloh-union-availability.md",
+    "docs/research/shiloh.md": "reviews/TN003-a42f063-v1/snapshot/docs/research/shiloh.md",
+    "docs/sources.md": "reviews/TN003-a42f063-v1/snapshot/docs/sources.md"
+  }
+}

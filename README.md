@@ -43,6 +43,7 @@ make check                         # tests + source/evidence/pipeline validation
 make reproduce                     # regenerate the committed artifacts offline
 python3 -m generalship inspect TN003
 python3 -m generalship packet TN003 # prepare a research assignment; makes no AI call
+make review-bundle                 # frozen Shiloh sources/scans + reviewer prompt ZIP
 ```
 
 `python3 -m generalship fetch` can restore missing pinned upstream CSVs. Normal
@@ -83,6 +84,10 @@ established. Next obtain independent source/entailment review before designing
 feature admission. The [prepared packet](artifacts/research/TN003.md)
 and [dossier](data/evidence/TN003.json) preserve the open questions. Expand by complete
 campaign, retaining ordinary engagements and failures in the frame.
+
+The [self-contained review handoff](docs/research/shiloh-review-handoff.md) is ready
+for a separate reviewer: exact source files, 26 page images, a review prompt and
+a blank coverage template. The review itself remains pending.
 
 Then define a campaign replacement boundary and outcomes before fitting enriched
 models. Battle execution and campaign contribution are separate estimands; adding

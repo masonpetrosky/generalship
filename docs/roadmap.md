@@ -31,6 +31,10 @@ adjudicated, and no independent review has occurred.
 
 Start now with independent historical/source-entailment review of the current
 packet, including an extraction sample and the proposed population distinctions.
+The [frozen review handoff](research/shiloh-review-handoff.md) now packages the
+sources, 26 page images, prompt and blank coverage template with `make review-bundle`.
+Send that bundle to the chosen reviewer and reconcile the actual returned findings;
+preparation is not completion of the independent review.
 The crossing clocks, handbook's 600-person basis, mixed-date reconstruction and
 Reed's 7,553/7,552 discrepancy remain open. The earlier full omission mapping,
 ten-man comparison residual, and Michigan narrative/table and casualty-day
