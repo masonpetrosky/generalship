@@ -68,6 +68,31 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Bounded river-campaign first pass, 2026-09-20
+
+The [campaign memo](research/river-campaign-first-pass-v1.md) adds eight source
+records: a complete Grant memoir HTML download with its license, one selected
+paragraph transcript, and HTML/text pairs for NPS Fort Henry, Fort Donelson and
+Corinth I. The registry now contains **184 entries / 181 raw paths**. All previous
+records and raw inputs remain unchanged. Grant's selections and the three NPS
+summaries were inspected as digital text; no print facsimile was checked.
+
+Each new dossier uses **two source families**: NPS/CWSAC and Grant. The NPS
+snapshots share `nps-cwsac` with the pinned table. The memoir shares `or-grant`
+with Grant's existing report to avoid treating one author's later narrative as
+an independent witness. Chapters and formats add no families. Independence
+between the two families is not established by this bookkeeping. The memoir is
+an interested retrospective account; original reports cited inside it were not
+thereby inspected. Document dates remain null; the preface date does not date
+the chapters. Full paragraphs preserve context, not endorsement of every claim.
+
+The three new schema-v1 dossiers add prose observations, not typed/admitted
+strengths. Proposed expeditions, late forces, prisoners and retrospective enemy
+estimates remain separate. Live zeros, campaign-like date fields, casualty
+mismatches and the unexplained Corinth raid wording remain unresolved; the
+frozen tables and cohort are not migrated or overwritten.
+
+
 ### Shiloh contact and location packet, 2026-09-20
 
 The [versioned packet](research/shiloh-contact-location-v1.md) adds 32 source

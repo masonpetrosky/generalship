@@ -22,7 +22,8 @@ wins a commander caused. No validated commander ranking exists here yet.
   dates, force ranges, missingness, outcome codes, and cohort membership.
 - A small regularized logistic baseline using relative force size. Evaluation
   holds out whole campaigns and compares with equal odds and a training-only prior.
-- Three draft dossiers: **Shiloh, Antietam, and Champion Hill**, with exact source
+- Six draft dossiers: **Fort Henry, Fort Donelson, Shiloh, Corinth, Antietam,
+  and Champion Hill**, with exact source
   passages, explicit unknowns, command questions, and inherited/created distinctions.
 - A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
   independently authored histories, and return-table scans. The follow-up
@@ -72,13 +73,16 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 ## Research direction
 
 **Current priority: comparable coverage across the 127 engagements.** We have
-three draft dossiers and 124 engagements without one. Shiloh's repeated source
+six draft dossiers and 121 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.
 
-Next: **Fort Henry, Fort Donelson and Corinth**, carrying forward the existing
-Shiloh draft to cover their complete frozen source campaign. See the
+The [bounded river-campaign pass](docs/research/river-campaign-first-pass-v1.md)
+adds Fort Henry, Fort Donelson and Corinth, carrying forward Shiloh unchanged.
+Campaign review is pending; no new model inputs are admitted. After review, the
+next complete source campaign is the **Blockade of the Potomac River**, containing
+Cockpit Point (VA100). See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.

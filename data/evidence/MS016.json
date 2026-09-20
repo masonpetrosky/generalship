@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "battle_id": "MS016",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded campaign first pass. No tactical or campaign replacement boundary or canonical opening population has been established. Unresolved phase labels preserve this limit; all claims remain draft prose and supply no model features.",
+  "claims": [
+    {
+      "id": "zero-sentinel",
+      "dimension": "strength",
+      "value": "The current NPS table displays zero troops on both sides; this is an unresolved source-data problem, not a measured force count.",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "The populated narrative contradicts a literal zero. Preserve the snapshot and missingness; do not import the zeros.",
+      "citations": [
+        {
+          "source_id": "nps-ms016-river-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ]
+    },
+    {
+      "id": "may-force-perspectives",
+      "dimension": "strength",
+      "value": "Grant retrospectively estimates Beauregard’s May effective force as probably not much over 50,000, reports a Union-side estimate of it as 70,000, and gives the Union force as roughly 120,000.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "The memoir distinguishes a retrospective effective estimate from an attributed wartime estimate, without an exact estimation date. The Union population basis is unspecified. These are not interchangeable opening counts or calibrated ranges.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxvi-row-547",
+          "locator": "Chapter XXVI, local extraction row 547; paragraph begins: Beauregard, however, was reinforced by Van Dorn immediately after Shiloh with 17,000 ",
+          "quote": "With these reinforcements and the new regiments, Beauregard had, during the month of May, 1862, a large force on paper, but probably not much over 50,000 effective men. We estimated his strength at 70,000. Our own was, in round numbers, 120,000."
+        }
+      ]
+    },
+    {
+      "id": "opening-populations-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No common operation-opening time, area or both-side population basis is established. Do not substitute May totals or an enemy estimate for reviewed opening strengths.",
+      "citations": []
+    },
+    {
+      "id": "wooded-ridge",
+      "dimension": "terrain",
+      "value": "Grant describes rolling land, forest, denser underbrush near creeks, and Corinth on a ridge between streams.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Retrospective terrain description; no imported defensive multiplier, readiness score or mapped population boundary. Contextual evaluative claims are not adopted.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxvi-row-545",
+          "locator": "Chapter XXVI, local extraction row 545; paragraph begins: Corinth, Mississippi, lies in a south-westerly direction from Pittsburg landing and a",
+          "quote": "From Pittsburg to Corinth the land is rolling"
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxvi-row-545",
+          "locator": "Chapter XXVI, local extraction row 545; paragraph begins: Corinth, Mississippi, lies in a south-westerly direction from Pittsburg landing and a",
+          "quote": "In 1862 the greater part of the country was covered with forest with intervening clearings and houses."
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxvi-row-545",
+          "locator": "Chapter XXVI, local extraction row 545; paragraph begins: Corinth, Mississippi, lies in a south-westerly direction from Pittsburg landing and a",
+          "quote": "Underbrush was dense in the low grounds along the creeks and ravines"
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxvi-row-545",
+          "locator": "Chapter XXVI, local extraction row 545; paragraph begins: Corinth, Mississippi, lies in a south-westerly direction from Pittsburg landing and a",
+          "quote": "Corinth is on the ridge between these streams"
+        }
+      ]
+    },
+    {
+      "id": "roads-bridges-and-works",
+      "dimension": "logistics",
+      "value": "Grant describes bridging Owl Creek and building corduroy and lateral roads for the advance, then repeating road construction and entrenchment as the army moved.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "These are attributed preparations and siege actions, potentially commander-created campaign mediators. Replacement boundaries remain null, so no reviewed causal phase or benefit is assigned.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxvi-row-544",
+          "locator": "Chapter XXVI, local extraction row 544; paragraph begins: Preparations were at once made upon the arrival of the new commander for an advance o",
+          "quote": "Owl Creek, on our right, was bridged"
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxvi-row-544",
+          "locator": "Chapter XXVI, local extraction row 544; paragraph begins: Preparations were at once made upon the arrival of the new commander for an advance o",
+          "quote": "the roads towards Corinth were corduroyed and new ones made; lateral roads were also constructed"
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxvi-row-548",
+          "locator": "Chapter XXVI, local extraction row 548; paragraph begins: On the 30th of April the grand army commenced its advance from Shiloh upon Corinth. T",
+          "quote": "Roads were again made in our front, and again corduroyed; a line was intrenched, and the troops were advanced to the new position."
+        }
+      ]
+    },
+    {
+      "id": "recalled-evacuation-warning",
+      "dimension": "information",
+      "value": "Grant recalls Logan telling him, probably on May 28, that the enemy had been evacuating for days.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "A retrospective report of a conversation with explicitly uncertain timing. It does not establish delivery to Halleck or the complete information available to him.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxvi-row-553",
+          "locator": "Chapter XXVI, local extraction row 553; paragraph begins: Later, probably on the 28th of May, General Logan, whose command was then on the Mobi",
+          "quote": "Later, probably on the 28th of May, General Logan, whose command was then on the Mobile and Ohio railroad, said to me that the enemy had been evacuating for several days"
+        }
+      ]
+    },
+    {
+      "id": "halleck-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "A contemporary order or message chain establishing Halleck’s receipt, timing and assessment of evacuation evidence was not inspected. Grant’s retrospective criticism is not an independent reconstruction of that information set.",
+      "citations": []
+    },
+    {
+      "id": "rail-center-objective",
+      "dimension": "objectives",
+      "value": "NPS describes Halleck’s armies advancing on Corinth as a vital rail center.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "The source identifies an operational target, not an inspected pre-operation directive, a utility weight or an independent success to add to battle residuals.",
+      "citations": [
+        {
+          "source_id": "nps-ms016-river-v1",
+          "locator": "Description",
+          "quote": "the Union armies under Maj. Gen. Henry Halleck advanced on the vital rail center of Corinth."
+        }
+      ]
+    },
+    {
+      "id": "command-and-authority",
+      "dimension": "responsibility",
+      "value": "Grant says Halleck assumed field command on April 11 and named him second in command; Grant nevertheless describes orders going directly to subordinate formations while bypassing him.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Formal position and exercised authority are not identical. Grant is an interested retrospective narrator, and his account does not adjudicate command effectiveness or assign outcome credit to every listed general.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxvi-row-542",
+          "locator": "Chapter XXVI, local extraction row 542; paragraph begins: General Halleck arrived at Pittsburg landing on the 11th of April and immediately ass",
+          "quote": "General Halleck arrived at Pittsburg landing on the 11th of April and immediately assumed command in the field."
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxvi-row-542",
+          "locator": "Chapter XXVI, local extraction row 542; paragraph begins: General Halleck arrived at Pittsburg landing on the 11th of April and immediately ass",
+          "quote": "I was named second in command of the whole"
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxvi-row-549",
+          "locator": "Chapter XXVI, local extraction row 549; paragraph begins: For myself I was little more than an observer. Orders were sent direct to the right w",
+          "quote": "Orders were sent direct to the right wing or reserve, ignoring me, and advances were made from one line of intrenchments to another without notifying me."
+        }
+      ]
+    },
+    {
+      "id": "evacuation-and-occupation",
+      "dimension": "outcome",
+      "value": "NPS describes Beauregard evacuating Corinth for Tupelo on the evening of May 29–30; Grant describes Union occupation without opposition after the evacuation.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Record withdrawal and occupation without turning Grant’s adjoining counterfactual criticism into a measured command effect.",
+      "citations": [
+        {
+          "source_id": "nps-ms016-river-v1",
+          "locator": "Description",
+          "quote": "On the evening of May 29-30, Confederate commander Gen. P.G.T. Beauregard evacuated Corinth, withdrawing to Tupelo."
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxvi-row-553",
+          "locator": "Chapter XXVI, local extraction row 553; paragraph begins: Later, probably on the 28th of May, General Logan, whose command was then on the Mobi",
+          "quote": "Corinth had already been evacuated and the National troops marched on and took possession without opposition."
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen CWSAC result and current NPS summary both label this a Union victory.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "The two records share one source family. This preserves the source classification without assigning commander credit or numerical campaign utility.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS016"
+          },
+          "column": "result",
+          "quote": "Union"
+        },
+        {
+          "source_id": "nps-ms016-river-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        }
+      ]
+    },
+    {
+      "id": "operation-window-and-result-text",
+      "dimension": "outcome",
+      "value": "The pinned row spans April 29–June 10 and includes the phrase “although the raid ultimately failed”; the live NPS page instead supplies a campaign-like February–June date field and a siege/evacuation narrative. Grant describes the pursuing column returning June 10.",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "The end date may encompass pursuit, but these sources do not establish why the table chose it. The raid wording is unexplained, not evidence of a separately established raid outcome. Preserve the source row and unresolved operation grain rather than silently correcting them.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS016"
+          },
+          "column": "start_date",
+          "quote": "1862-04-29"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS016"
+          },
+          "column": "end_date",
+          "quote": "1862-06-10"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS016"
+          },
+          "column": "results_text",
+          "quote": "Union victory, although the raid ultimately failed."
+        },
+        {
+          "source_id": "nps-ms016-river-v1",
+          "locator": "Date(s)",
+          "quote": "February-June 1862"
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxvi-row-555",
+          "locator": "Chapter XXVI, local extraction row 555; paragraph begins: General Halleck at once commenced erecting fortifications around Corinth on a scale t",
+          "quote": "On the 10th of June the pursuing column was all back at Corinth."
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Define the operation’s beginning/end and population scope before admission; siege, occupation and pursuit cannot be silently treated as one opening battle.",
+    "Grant’s recalled intelligence and assessment of Halleck require contemporary evidence for any causal interpretation. No further first-pass search is authorized by an unresolved question alone.",
+    "The inherited raid wording, live campaign date and zero-strength table remain explicit source issues; no raw-row correction or new October-battle record is made."
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded campaign first pass. No tactical or campaign replacement boundary or canonical opening population has been established. Unresolved phase labels preserve this limit; all claims remain draft prose and supply no model features.",
+  "claims": [
+    {
+      "id": "zero-sentinel",
+      "dimension": "strength",
+      "value": "The current NPS table displays zero troops on both sides; this is an unresolved source-data problem, not a measured force count.",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "The populated narrative contradicts a literal zero. Preserve the snapshot and missingness; do not import the zeros.",
+      "citations": [
+        {
+          "source_id": "nps-tn002-river-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ]
+    },
+    {
+      "id": "marching-and-late-forces",
+      "dimension": "strength",
+      "value": "Grant reports leaving Fort Henry with 15,000 men including artillery and some cavalry, then reports 27,000 confronting Donelson and guarding his supply road on the day it fell.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "The marching column and later force with supply guards have different times and scopes. The numbers cannot serve as a single opening estimate or a same-population uncertainty interval.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-412",
+          "locator": "Chapter XXII, local extraction row 412; paragraph begins: I started from Fort Henry with 15,000 men, including eight batteries and part of a re",
+          "quote": "I started from Fort Henry with 15,000 men, including eight batteries and part of a regiment of cavalry"
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-445",
+          "locator": "Chapter XXII, local extraction row 445; paragraph begins: On the day Fort Donelson fell I had 27,000 men to confront the Confederate lines and ",
+          "quote": "On the day Fort Donelson fell I had 27,000 men to confront the Confederate lines and guard the road four or five miles to the left"
+        }
+      ]
+    },
+    {
+      "id": "surrender-estimates",
+      "dimension": "strength",
+      "value": "NPS calls the surrendered garrison 12,000 men; Grant recalls Buckner saying the number to surrender could not be given accurately, but would be between 12,000 and 15,000.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "These are outcome-stage estimates, with Grant’s figure secondhand and retrospective. NPS’s exact-looking number does not resolve the uncertainty or establish the opening garrison.",
+      "citations": [
+        {
+          "source_id": "nps-tn002-river-v1",
+          "locator": "Description",
+          "quote": "the fort's 12,000-man garrison surrendered unconditionally."
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-442",
+          "locator": "Chapter XXII, local extraction row 442; paragraph begins: I had been at West Point three years with Buckner and afterwards served with him in t",
+          "quote": "He replied that he could not tell with any degree of accuracy"
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-442",
+          "locator": "Chapter XXII, local extraction row 442; paragraph begins: I had been at West Point three years with Buckner and afterwards served with him in t",
+          "quote": "but he said I would not find fewer than 12,000, nor more than 15,000."
+        }
+      ]
+    },
+    {
+      "id": "opening-populations-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "The inspected estimates do not establish matched opening populations. Grant’s contextual 21,000 reconstruction uses prisoners, casualties and escapes; original-report confirmation was attempted but inaccessible and remains deferred.",
+      "citations": []
+    },
+    {
+      "id": "defensive-ground",
+      "dimension": "terrain",
+      "value": "Grant describes elevated ground over the Cumberland, wooded broken terrain and outward-felled trees forming an abatis outside the rifle pits.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "These are source descriptions, not a scored defensive advantage or independently mapped boundary.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-408",
+          "locator": "Chapter XXII, local extraction row 408; paragraph begins: Fort Donelson is two miles north, or down the river, from Dover. The fort, as it stoo",
+          "quote": "The fort stood on high ground, some of it as much as a hundred feet above the Cumberland."
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-408",
+          "locator": "Chapter XXII, local extraction row 408; paragraph begins: Fort Donelson is two miles north, or down the river, from Dover. The fort, as it stoo",
+          "quote": "The ground inside and outside of this intrenched line was very broken and generally wooded."
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-408",
+          "locator": "Chapter XXII, local extraction row 408; paragraph begins: Fort Donelson is two miles north, or down the river, from Dover. The fort, as it stoo",
+          "quote": "The limbs had been trimmed and pointed, and thus formed an abatis in front of the greater part of the line."
+        }
+      ]
+    },
+    {
+      "id": "winter-exposure",
+      "dimension": "logistics",
+      "value": "Grant describes winter rain, snow and freezing conditions, restricted camp fires and men lacking blankets or overcoats after the march.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Retrospective logistical conditions; no invented readiness penalty or automatic attribution of all exposure to the commander.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-412",
+          "locator": "Chapter XXII, local extraction row 412; paragraph begins: I started from Fort Henry with 15,000 men, including eight batteries and part of a re",
+          "quote": "It was midwinter and during the siege we had rain and snow, thawing and freezing alternately."
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-412",
+          "locator": "Chapter XXII, local extraction row 412; paragraph begins: I started from Fort Henry with 15,000 men, including eight batteries and part of a re",
+          "quote": "It would not do to allow camp-fires except far down the hill out of sight of the enemy"
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-412",
+          "locator": "Chapter XXII, local extraction row 412; paragraph begins: I started from Fort Henry with 15,000 men, including eight batteries and part of a re",
+          "quote": "In the march over from Fort Henry numbers of the men had thrown away their blankets and overcoats."
+        }
+      ]
+    },
+    {
+      "id": "escape-inference",
+      "dimension": "information",
+      "value": "Grant recalls hearing that Confederate troops carried knapsacks and rations, interpreting their sortie as an escape attempt and directing Smith to attack.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Preserve the author’s retrospective claimed inference and order, not the nearby morale judgments, certainty of victory, or an independently verified knowledge state.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-423",
+          "locator": "Chapter XXII, local extraction row 423; paragraph begins: I saw the men standing in knots talking in the most excited manner. No officer seemed",
+          "quote": "I heard some of the men say that the enemy had come out with knapsacks, and haversacks filled with rations."
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-423",
+          "locator": "Chapter XXII, local extraction row 423; paragraph begins: I saw the men standing in knots talking in the most excited manner. No officer seemed",
+          "quote": "It was clear to my mind that the enemy had started to march out with his entire force, except a few pickets"
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-423",
+          "locator": "Chapter XXII, local extraction row 423; paragraph begins: I saw the men standing in knots talking in the most excited manner. No officer seemed",
+          "quote": "We rode rapidly to Smith's quarters, when I explained the situation to him and directed him to charge the enemy's works in his front with his whole division"
+        }
+      ]
+    },
+    {
+      "id": "nashville-objective",
+      "dimension": "objectives",
+      "value": "Grant describes Fort Donelson as a gateway to Nashville and country extending into Kentucky.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "A retrospective strategic rationale, not a recovered advance order, quantitative campaign contribution or extra win.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxi-row-392",
+          "locator": "Chapter XXI, local extraction row 392; paragraph begins: The enemy at this time occupied a line running from the Mississippi River at Columbus",
+          "quote": "Fort Donelson was the gate to Nashville—a place of great military and political importance—and to a rich country extending far east in Kentucky."
+        }
+      ]
+    },
+    {
+      "id": "army-navy-plan",
+      "dimension": "responsibility",
+      "value": "Grant describes an army containment plan combined with a gunboat attack on the water batteries; he reports Foote’s fleet withdrawing damaged on February 14.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Planned naval support and its observed reversal are separate from army actions and the later surrender. No automatic credit or blame allocation follows.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-416",
+          "locator": "Chapter XXII, local extraction row 416; paragraph begins: The plan was for the troops to hold the enemy within his lines, while the gunboats sh",
+          "quote": "The plan was for the troops to hold the enemy within his lines, while the gunboats should attack the water batteries at close quarters and silence his guns if possible."
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-417",
+          "locator": "Chapter XXII, local extraction row 417; paragraph begins: By three in the afternoon of the 14th Flag-officer Foote was ready, and advanced upon",
+          "quote": "By three in the afternoon of the 14th Flag-officer Foote was ready"
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-417",
+          "locator": "Chapter XXII, local extraction row 417; paragraph begins: By three in the afternoon of the 14th Flag-officer Foote was ready, and advanced upon",
+          "quote": "I soon saw one and then another of them dropping down the river, visibly disabled. Then the whole fleet followed and the engagement closed for the day."
+        }
+      ]
+    },
+    {
+      "id": "confederate-command-transfer",
+      "dimension": "responsibility",
+      "value": "Grant’s account says Floyd passed command to Pillow, who declined it, leaving Buckner responsible.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Retrospective opposing-side command sequence. No exact transfer clock or independent confirmation is established; avoid adopting Grant’s adjoining character judgments.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxii-row-425",
+          "locator": "Chapter XXII, local extraction row 425; paragraph begins: A council of war was held by the enemy at which all agreed that it would be impossibl",
+          "quote": "Floyd turned over the command to Pillow, who declined it. It then devolved upon Buckner, who accepted the responsibility of the position."
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen CWSAC result and current NPS summary both label this a Union victory.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "The two records share one source family. This preserves the source classification without assigning commander credit or numerical campaign utility.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN002"
+          },
+          "column": "result",
+          "quote": "Union"
+        },
+        {
+          "source_id": "nps-tn002-river-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Establish opening force membership and reinforcement timing before admission; marching, late guarding and surrendered populations remain separate.",
+    "Confirm the recalled inference, orders and Confederate command transfer with original documents only for a bounded decision; the first-pass follow-up allowance is spent.",
+    "The current NPS casualty total differs from the pinned table, and its date/rank fields need scrutiny. Neither field is repaired or used as a predictor."
+  ]
+}

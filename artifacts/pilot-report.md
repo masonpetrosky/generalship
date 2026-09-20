@@ -45,6 +45,9 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 |---|---:|---:|---:|---:|---|
 | [MD003](../data/evidence/MD003.json) | 9 | 5 | 0 | 0 | draft |
 | [MS009](../data/evidence/MS009.json) | 7 | 3 | 0 | 0 | draft |
+| [MS016](../data/evidence/MS016.json) | 12 | 2 | 0 | 0 | draft |
+| [TN001](../data/evidence/TN001.json) | 10 | 1 | 0 | 0 | draft |
+| [TN002](../data/evidence/TN002.json) | 11 | 1 | 0 | 0 | draft |
 | [TN003](../data/evidence/TN003.json) | 62 | 3 | 40 | 26 | draft |
 
 ## Admission proposal checks
@@ -56,8 +59,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 3 engagements have dossiers; 124 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-Start with Fort Henry (TN001), then Fort Donelson (TN002) and Corinth (MS016), carrying forward the existing Shiloh (TN003) draft to cover their complete frozen source campaign. See the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 6 engagements have dossiers; 121 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [bounded river-campaign pass](../docs/research/river-campaign-first-pass-v1.md) adds Fort Henry, Fort Donelson and Corinth, with Shiloh unchanged. Campaign review is pending. After review, take the next complete source campaign: Blockade of the Potomac River, containing Cockpit Point (VA100). See the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

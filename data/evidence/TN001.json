@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded campaign first pass. No tactical or campaign replacement boundary or canonical opening population has been established. Unresolved phase labels preserve this limit; all claims remain draft prose and supply no model features.",
+  "claims": [
+    {
+      "id": "zero-sentinel",
+      "dimension": "strength",
+      "value": "The current NPS table displays zero troops on both sides; this is an unresolved source-data problem, not a measured force count.",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "The populated narrative contradicts a literal zero. Preserve the snapshot and missingness; do not import the zeros.",
+      "citations": [
+        {
+          "source_id": "nps-tn001-river-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ]
+    },
+    {
+      "id": "expedition-proposal",
+      "dimension": "strength",
+      "value": "Grant recalls proposing to take 17,000 men up the Tennessee, with transport capacity insufficient to move them together.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "This is an intended expedition population, not an observed count present at first fire. No opening-strength feature is inferred.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxi-row-396",
+          "locator": "Chapter XXI, local extraction row 396; paragraph begins: In February, 1862, there were quite a good many steamers laid up at Cairo for want of",
+          "quote": "But there were not enough of either boats or men to move at one time the 17,000 men I proposed to take with me up the Tennessee."
+        }
+      ]
+    },
+    {
+      "id": "garrison-and-rearguard",
+      "dimension": "strength",
+      "value": "Grant estimates about 2,800 in the fort and camp, distinguishes reinforcements halted outside, and later describes about one hundred men left to serve the fort guns.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "These are different populations and phases, not a range or competing counts of a single opening garrison. Grant is a retrospective opposing commander; Tilghman’s report mentioned in context has not been inspected.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxi-row-399",
+          "locator": "Chapter XXI, local extraction row 399; paragraph begins: Fort Henry occupies a bend in the river which gave the guns in the water battery a di",
+          "quote": "The garrison of the fort and camp was about 2,800, with strong reinforcements from Donelson halted some miles out."
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxi-row-401",
+          "locator": "Chapter XXI, local extraction row 401; paragraph begins: At the hour designated the troops and gunboats started. General Smith found Fort Heim",
+          "quote": "with the exception of about one hundred men left to man the guns in the fort"
+        }
+      ]
+    },
+    {
+      "id": "opening-populations-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "Common opening time, inclusion of the fort/camp/outside reinforcements, and Union landed versus afloat membership remain unestablished. One attempted original-report follow-up was inaccessible; stop here for this first pass.",
+      "citations": []
+    },
+    {
+      "id": "flooded-position",
+      "dimension": "terrain",
+      "value": "NPS describes Fort Henry as partly inundated; Grant places Fort Heiman on higher ground across the river.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Attributed terrain descriptions, not a readiness score or established causal effect. No map-defined opening perimeter has been established.",
+      "citations": [
+        {
+          "source_id": "nps-tn001-river-v1",
+          "locator": "Description",
+          "quote": "was partially inundated and the river threatened to flood the rest."
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxi-row-399",
+          "locator": "Chapter XXI, local extraction row 399; paragraph begins: Fort Henry occupies a bend in the river which gave the guns in the water battery a di",
+          "quote": "On the west bank Fort Heiman stood on high ground, completely commanding Fort Henry."
+        }
+      ]
+    },
+    {
+      "id": "transport-and-approach",
+      "dimension": "logistics",
+      "value": "Grant describes returning transports for Smith’s division and an army approach delayed by absent roads, dense forest and high water.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "The account distinguishes transport concentration from the later approach; neither delay is assigned a numerical effect or a reviewed inherited/created classification.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxi-row-396",
+          "locator": "Chapter XXI, local extraction row 396; paragraph begins: In February, 1862, there were quite a good many steamers laid up at Cairo for want of",
+          "quote": "The transports we had with us had to return to Paducah to bring up a division from there, with General C. F. Smith in command."
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxi-row-401",
+          "locator": "Chapter XXI, local extraction row 401; paragraph begins: At the hour designated the troops and gunboats started. General Smith found Fort Heim",
+          "quote": "the troops which were to invest Fort Henry were delayed for want of roads, as well as by the dense forest and the high water"
+        }
+      ]
+    },
+    {
+      "id": "landing-reconnaissance",
+      "dimension": "information",
+      "value": "Grant says he used the Essex to test the fort’s gun range while considering a landing above a creek; he describes debarking below it after longer-range fire.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "A retrospective description of his own information gathering and decision, not independent proof of the full contemporary information set.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxi-row-397",
+          "locator": "Chapter XXI, local extraction row 397; paragraph begins: Before sending the boats back I wanted to get the troops as near to the enemy as I co",
+          "quote": "To test whether this could be done I boarded the gunboat Essex and requested Captain Wm. Porter commanding it, to approach the fort to draw its fire."
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxi-row-397",
+          "locator": "Chapter XXI, local extraction row 397; paragraph begins: Before sending the boats back I wanted to get the troops as near to the enemy as I co",
+          "quote": "the enemy opened upon us with a rifled gun that sent shot far beyond us and beyond the stream."
+        },
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxi-row-397",
+          "locator": "Chapter XXI, local extraction row 397; paragraph begins: Before sending the boats back I wanted to get the troops as near to the enemy as I co",
+          "quote": "We immediately turned back, and the troops were debarked below the mouth of the creek."
+        }
+      ]
+    },
+    {
+      "id": "river-access-objective",
+      "dimension": "objectives",
+      "value": "Grant describes possession of Fort Henry as opening navigation up the Tennessee to Muscle Shoals.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "This is retrospective strategic rationale, not an inspected pre-operation directive or a separate campaign success to add to the battle result.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxi-row-392",
+          "locator": "Chapter XXI, local extraction row 392; paragraph begins: The enemy at this time occupied a line running from the Mississippi River at Columbus",
+          "quote": "With Fort Henry in our hands we had a navigable stream open to us up to Muscle Shoals, in Alabama."
+        }
+      ]
+    },
+    {
+      "id": "joint-operation",
+      "dimension": "responsibility",
+      "value": "Grant describes a plan for troops to invest the garrison while gunboats attacked; NPS records Tilghman surrendering to the fleet after sending most of his force toward Donelson.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "The evidence requires distinct army, naval and Confederate decisions. It does not support assigning the entire outcome to a listed commander.",
+      "citations": [
+        {
+          "source_id": "grant-memoirs-river-selections-v1",
+          "section": "chapter-xxi-row-400",
+          "locator": "Chapter XXI, local extraction row 400; paragraph begins: The plan was for the troops and gunboats to start at the same moment. The troops were",
+          "quote": "The troops were to invest the garrison and the gunboats to attack the fort at close quarters."
+        },
+        {
+          "source_id": "nps-tn001-river-v1",
+          "locator": "Description",
+          "quote": "While leaving artillery in the fort to hold off the Union fleet, he escorted the rest of his force out of the area and sent them safely off on the route to Fort Donelson, 10 miles away."
+        },
+        {
+          "source_id": "nps-tn001-river-v1",
+          "locator": "Description",
+          "quote": "Tilghman then returned to the fort and, soon afterwards, surrendered to the fleet"
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen CWSAC result and current NPS summary both label this a Union victory.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "The two records share one source family. This preserves the source classification without assigning commander credit or numerical campaign utility.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN001"
+          },
+          "column": "result",
+          "quote": "Union"
+        },
+        {
+          "source_id": "nps-tn001-river-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Define a common opening boundary and both-side populations before any strength admission; the proposed expedition, fort/camp and artillery rearguard are not interchangeable.",
+    "Original Confederate report, independent scholarship and print facsimile confirmation remain deferred.",
+    "Resolve campaign-like live date fields, compressed attack chronology and differing casualty totals only if needed for a specified admission or outcome decision."
+  ]
+}

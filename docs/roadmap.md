@@ -9,24 +9,29 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **3 draft dossiers / 127 engagements**, with **124 without a dossier**.
+There are **6 draft dossiers / 127 engagements**, with **121 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
-The next batch completes the frozen source campaign **Federal Penetration up the
-Cumberland and Tennessee Rivers [February-June 1862]**:
+The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
+all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
+[February-June 1862]**:
 
-| Engagement | Next action |
+| Engagement | First-pass state |
 | --- | --- |
-| TN001 — Fort Henry | First bounded dossier pass; start here |
-| TN002 — Fort Donelson | First bounded dossier pass |
-| TN003 — Shiloh | Carry forward existing draft and explicit unknowns; no new deep trace |
-| MS016 — Corinth | First bounded dossier pass |
+| TN001 — Fort Henry | New draft; two source families; campaign review pending |
+| TN002 — Fort Donelson | New draft; two source families; campaign review pending |
+| TN003 — Shiloh | Existing draft and prior reviews carried forward unchanged |
+| MS016 — Corinth | New draft; two source families; campaign review pending |
 
-Use the [first-pass protocol](methodology.md#research-depth-and-coverage) and
-review the batch together. Then take remaining complete source campaigns in
-order of their earliest engagement date, breaking ties by campaign label.
-Keep all engagements regardless of outcome, reputation or available strengths.
-Report dossier coverage, dimensions still unknown, review coverage and admitted
-rows separately. Additional Shiloh detail is not the completion criterion.
+Review the three new drafts together and verify Shiloh preservation; do not reopen
+its parked research. Then take **Blockade of the Potomac River [October 1861-January
+1862]**, whose complete frozen membership is **VA100 — Cockpit Point**. This is the
+earliest remaining source campaign by engagement start date (January 3, 1862).
+Continue complete groups by earliest engagement date, breaking ties by campaign
+label. Keep every engagement regardless of outcome, reputation or available strengths.
+
+Use the [first-pass protocol](methodology.md#research-depth-and-coverage). Report
+dossier coverage, dimensions still unknown, actual review scope and admitted rows
+separately. Additional Shiloh detail is not the completion criterion.
 
 ## Milestone 0 — Working research foundation (complete)
 
@@ -136,7 +141,7 @@ raw paths. Historical interpretations and all model/admission inputs are unchang
 
 The [Reid provenance trace](research/shiloh-reid-provenance-v1.md) identifies the publisher collection process and Miller's general editorial role, but no original 46th Ohio witness. Lindsey supplies a later wording parallel with independence unestablished. Five assertions bind 11 anchors / 10 source-locator pairs, ten retained page images and one text-only LOC catalog snapshot. All earlier evidence is preserved; the registry at that stage has 164 entries / 161 raw paths and zero feature admission. Separate Astra `xhigh` [review and primary assessment](../artifacts/review-results/shiloh-reid-1c498e0-astra-xhigh-v1/primary-assessment.md) accept all five bounded assertions with two nonblocking catalog clarifications: use the retained Agate letters label and provider page/line locators; material format and printed pagination remain unverified.
 
-The [Agate comparison](research/shiloh-agate-comparison-v1.md) locates two historical reprints with 1864 title imprints, supporting a Reid/Agate account dated April 9, 1862. Its inspected opening reports Saturday skirmishing but does not supply the later B/K overnight narrative or identify its witness/post. The original Gazette issue remains uninspected. Five assertions bind 16 anchors / 12 source-section pairs across 11 inspected images; the registry now has 176 entries / 173 raw paths, with zero feature admission. Separate Astra `xhigh` [review and primary assessment](../artifacts/review-results/shiloh-agate-73e26d4-astra-xhigh-v1/primary-assessment.md) accept all five bounded historical assertions; the sole documentation inventory finding is corrected and closed by primary verification. The original issue, overnight witness and continuity remain unresolved.
+The [Agate comparison](research/shiloh-agate-comparison-v1.md) locates two historical reprints with 1864 title imprints, supporting a Reid/Agate account dated April 9, 1862. Its inspected opening reports Saturday skirmishing but does not supply the later B/K overnight narrative or identify its witness/post. The original Gazette issue remains uninspected. Five assertions bind 16 anchors / 12 source-section pairs across 11 inspected images; the registry at that packet has 176 entries / 173 raw paths, with zero feature admission. Separate Astra `xhigh` [review and primary assessment](../artifacts/review-results/shiloh-agate-73e26d4-astra-xhigh-v1/primary-assessment.md) accept all five bounded historical assertions; the sole documentation inventory finding is corrected and closed by primary verification. The original issue, overnight witness and continuity remain unresolved.
 
 Historical admission still requires actual evidence-use review of a complete
 proposal and an immutable release manifest; this partial proposal is no release.
@@ -155,9 +160,8 @@ conflicts also remain open.
 The Confederate reports' differences from p.396, report 137's two inspected infantry
 subtotal discrepancies, and the accounting of late/detached formations remain
 explicit questions for historical review. The updated packet is
-available with `python3 -m generalship packet TN003`. After the validator and
-coverage ledger, continue evidence work across all pilot engagements in the same
-source campaign, including Fort Henry, Fort Donelson, and Corinth.
+available with `python3 -m generalship packet TN003`. The bounded campaign pass now adds Fort Henry, Fort Donelson and Corinth;
+follow the current priority above for subsequent work.
 Use Antietam to test outcome ambiguity and Champion Hill to test inherited orders
 versus commander-created circumstances.
 
