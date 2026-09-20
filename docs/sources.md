@@ -162,3 +162,31 @@ over the two-day battle. It does not validate Force's Sunday-only casualty
 allocation. The inspected scan, rather than a modern AI transcription or a search
 snippet, is the evidence. Its underlying regimental returns have not been traced.
 No new independent review record or canonical opening-strength estimate is claimed.
+
+### Army of the Ohio reinforcement follow-up, 2026-09-20
+
+Twelve sectioned text snapshots and five full-page facsimiles extend the registry
+from 33 to 50 sources. All earlier records and raw files remain unchanged. The
+[crossing and strength audit](research/shiloh-ohio-reinforcements.md) records exact
+locators, parent hashes, phase distinctions and the archived dossier migration.
+Participant reports cover Nelson, Ammen, Grose, Anderson, Jones, both Edward and
+Alexander McCook, Crittenden, Wood, Garfield and a supplement to Buell. Ammen's
+separately printed diary has event dates but no established composition date in
+the inspected passages; the April 10 report dateline is not assigned to the diary.
+
+Manual transcriptions retain the conflicting crossing clocks and preserve each
+author's distinction between landing, formation and action. Nelson's action
+table and the compiler's March return have different periods and populations.
+Their full OR pp.326-327 facsimiles retain headings, component rows and exclusions.
+Reports within Nelson's command share `or-nelson`; other Ohio army reports retain
+`or-buell`. These dependence flags do not certify independent corroboration
+between groups or between authors.
+
+Reed's pp.100-102 facsimiles preserve mixed return dates, missing brigade reports,
+approximation marks and Wagner's estimated late-arrival strength. McCook is
+7,553 in the detail table but 7,552 in the recap; the latter produces the printed
+17,918 army total. Neither reading is silently corrected or treated as a dawn
+census. Reed's note j quotes an undated Buell letter that has not been separately
+inspected; that secondhand lead has no new typed troop observation. The existing
+Force estimate and the handbook's untraced 600-person Sunday contingent remain
+visible. No independent historical review or enriched model input is claimed.

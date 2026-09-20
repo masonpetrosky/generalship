@@ -27,9 +27,10 @@ wins a commander caused. No validated commander ranking exists here yet.
 - A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
   independently authored histories, and return-table scans. The follow-up
   [Confederate return audit](docs/research/shiloh-confederate-returns.md) and
-  [Union availability audit](docs/research/shiloh-union-availability.md) bring it
-  to 29 typed troop observations and 14 events, preserving population/timing
-  differences, unknown omissions and printed discrepancies.
+  [Union availability audit](docs/research/shiloh-union-availability.md), followed
+  by the [Ohio reinforcement audit](docs/research/shiloh-ohio-reinforcements.md),
+  bring it to 40 typed troop observations and 26 events, preserving population,
+  timing, missingness and printed discrepancies.
 - A reproducible report, battle predictions, exclusion reasons, research queue,
   and input/output hash receipt. No runtime dependencies beyond Python 3.11+.
 
@@ -70,15 +71,16 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 
 The first [Shiloh research pass](docs/research/shiloh.md),
 [Confederate return audit](docs/research/shiloh-confederate-returns.md) and
-[Union availability audit](docs/research/shiloh-union-availability.md) are complete
-as drafts: 43 claims preserve competing returns, reinforcement phases, dated
-orders and disputed responsibility. The Union audit traces Reed's Wallace
-detachment accounting and unit arrivals, while retaining unidentified original
-omissions, a ten-man comparison residual and Reed's Michigan narrative/table
-conflict. Confederate source and subtotal discrepancies also remain unresolved.
-No canonical opening strength or independently reviewed command attribution has
-been established. Next audit Nelson/Ammen crossing phases and Buell's returns,
-then obtain independent historical review. The [prepared packet](artifacts/research/TN003.md)
+[Union availability audit](docs/research/shiloh-union-availability.md), and
+[Ohio reinforcement audit](docs/research/shiloh-ohio-reinforcements.md) are complete
+as drafts: 62 claims preserve competing returns, reinforcement phases, dated
+orders and disputed responsibility. Nelson/Ammen and regimental reports now
+separate crossing, landing, formation and participation. Conflicting clocks, the
+untraced Sunday 600-person figure, mixed-date estimates and Reed's 7,553/7,552
+discrepancy remain explicit alongside earlier source disputes. No canonical
+opening strength or independently reviewed command attribution has been
+established. Next obtain independent source/entailment review before designing
+feature admission. The [prepared packet](artifacts/research/TN003.md)
 and [dossier](data/evidence/TN003.json) preserve the open questions. Expand by complete
 campaign, retaining ordinary engagements and failures in the frame.
 

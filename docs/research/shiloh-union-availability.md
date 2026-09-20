@@ -2,6 +2,12 @@
 
 Research date: 2026-09-20. **Draft; no independent historical review.**
 
+This memo preserves the 43-claim Union-availability revision, archived as
+[TN003.v4.json](../../data/evidence/history/TN003.v4.json). The subsequent
+[Ohio reinforcement audit](shiloh-ohio-reinforcements.md) documents the current
+62-claim, 40-observation, 26-event draft. Counts and validation below refer to this
+earlier revision.
+
 The audit identifies a specific omitted regiment in Reed's account of the April 5
 return, distinguishes counted units from units at the front, and traces a later
 accounting bridge for Wallace. It does **not** identify all three omissions named
@@ -143,7 +149,7 @@ The preceding 28-claim Confederate-return revision is preserved byte-for-byte as
 `b2da0882ed391a78b34b91382958ddcc5483ab34e908f2382fb36719adccafce`.
 The current dossier links to it, continuing the earlier archive chain. Schema
 version remains 2; existing IDs and all 20 earlier typed observations remain.
-The draft now has **43 claims, 29 observations and 14 events**: 15 claims, nine
+This revision has **43 claims, 29 observations and 14 events**: 15 claims, nine
 observations and seven events were added. An explicit unknown preserves the
 unresolved original omissions. Estimated entries retain their printed precision
 with explicit notes; `reported_exact` does not mean measured exactly.

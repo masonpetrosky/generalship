@@ -45,12 +45,12 @@ Exact passage checks verify provenance only. These drafts have no independent hi
 |---|---:|---:|---:|---:|---|
 | [MD003](../data/evidence/MD003.json) | 9 | 5 | 0 | 0 | draft |
 | [MS009](../data/evidence/MS009.json) | 7 | 3 | 0 | 0 | draft |
-| [TN003](../data/evidence/TN003.json) | 43 | 2 | 29 | 14 | draft |
+| [TN003](../data/evidence/TN003.json) | 62 | 3 | 40 | 26 | draft |
 
 ## Next research action
 
 The [Shiloh research memo](../docs/research/shiloh.md) preserves competing returns, dated orders, reinforcement phases, and disputed responsibility. No canonical opening strength or effective command-transfer time has been adjudicated.
-The [Confederate return audit](../docs/research/shiloh-confederate-returns.md) retains source differences and internal subtotal discrepancies. The [Union availability audit](../docs/research/shiloh-union-availability.md) traces unit arrivals and Wallace detachments while preserving unidentified original omissions, a ten-man comparison residual, and Reed's Michigan narrative/table conflict. Next audit Nelson/Ammen crossing phases and Buell's returns. Obtain independent historical review before designing an enriched feature row.
+The [Confederate return audit](../docs/research/shiloh-confederate-returns.md) and [Union availability audit](../docs/research/shiloh-union-availability.md) retain source and population disputes. The [Ohio reinforcement audit](../docs/research/shiloh-ohio-reinforcements.md) separates crossing, landing, formation and participation while preserving conflicting clocks, the untraced 600-person basis, mixed-date estimates and Reed's 7,553/7,552 discrepancy. Next obtain independent source/entailment review, including an extraction sample, before designing an enriched feature row.
 Then expand by complete campaign, retaining every unscorable engagement in the coverage denominator.
 
 ## Reproduce and inspect

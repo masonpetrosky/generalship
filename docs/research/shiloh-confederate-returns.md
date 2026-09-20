@@ -4,9 +4,9 @@ Research date: 2026-09-20. **Draft; no independent historical review.**
 
 This memo preserves the Confederate-return revision. Its dossier is archived as
 [TN003.v3.json](../../data/evidence/history/TN003.v3.json); the subsequent
-[Union availability audit](shiloh-union-availability.md) documents the current
-43-claim, 29-observation, 14-event draft. Counts and validation below describe this
-earlier revision.
+[Union availability audit](shiloh-union-availability.md) documents the next
+43-claim revision. The latest [Ohio reinforcement audit](shiloh-ohio-reinforcements.md)
+documents the 62-claim draft. Counts and validation below describe this earlier revision.
 
 Reports 136 and 137 have now been inspected visually in the same pinned volume
 as the earlier p.396 return. They establish alternative printed figures and

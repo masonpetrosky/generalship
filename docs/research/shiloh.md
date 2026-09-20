@@ -5,7 +5,9 @@ Research date: 2026-09-20. **Draft, not independently reviewed.**
 This memo preserves the first pass. The subsequent
 [Confederate return audit](shiloh-confederate-returns.md) inspected reports 136/137.
 The later [Union availability audit](shiloh-union-availability.md) documents the
-current 43-claim, 29-observation dossier; source discrepancies remain.
+43-claim, 29-observation revision. The subsequent
+[Ohio reinforcement audit](shiloh-ohio-reinforcements.md) documents the current
+62-claim, 40-observation dossier; source discrepancies remain.
 
 Shiloh cannot yet support a single defensible opening-strength row or a simple
 allocation of its two-day result to Grant and Johnston. The sources distinguish
@@ -150,8 +152,9 @@ historical truth, or source independence. No independent review has occurred.
 2. The [Union follow-up](shiloh-union-availability.md) now audits omitted units,
    arrivals, the Fifteenth Michigan correction and Wallace's detachments. Original
    omission identities, source conflicts and a ten-man comparison residual remain.
-3. Audit Nelson/Ammen crossing times and Buell’s divisional returns; distinguish
-   arrival at Savannah, the opposite bank, the landing and the fighting line.
+3. The [Ohio reinforcement audit](shiloh-ohio-reinforcements.md) now inspects
+   Nelson/Ammen and divisional reports; clock differences, the 600-person basis
+   and mixed-date strength reconstruction remain explicit.
 4. Have an independent historical reviewer examine these claims and boundary
    proposals, retaining unresolved disagreements. Then define feature admission.
 

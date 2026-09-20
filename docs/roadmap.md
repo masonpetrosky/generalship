@@ -22,16 +22,19 @@ transcriptions, two independently authored histories, and two facsimiles.
 The subsequent [Confederate return audit](research/shiloh-confederate-returns.md)
 inspected reports 136/137 and added four versioned source artifacts. The
 [Union availability audit](research/shiloh-union-availability.md) adds 12 artifacts
-and a unit-by-phase table. The current draft has **43 claims, 29 troop observations
-and 14 events**. Three preceding revisions are archived. Neither canonical opening
-strengths nor effective command-transfer times have been adjudicated, and no
-independent review has occurred.
+and a unit-by-phase table. The [Ohio reinforcement audit](research/shiloh-ohio-reinforcements.md)
+adds 17 artifacts and separates Savannah/opposite-bank arrival, crossing, landing,
+formation and participation. The current draft has **62 claims, 40 troop
+observations and 26 events**. Four preceding revisions are archived. Neither
+canonical opening strengths nor effective command-transfer times have been
+adjudicated, and no independent review has occurred.
 
-Start now with Nelson/Ammen's April 6 crossing reports and Buell's divisional
-returns, separating bank arrival, landing, deployment and participation. The
-Union audit traces a Wallace detachment bridge and distinguishes regimental
-arrival phases, but the full original omission mapping, a ten-man comparison
-residual, and the Michigan narrative/table and casualty-day conflicts remain open.
+Start now with independent historical/source-entailment review of the current
+packet, including an extraction sample and the proposed population distinctions.
+The crossing clocks, handbook's 600-person basis, mixed-date reconstruction and
+Reed's 7,553/7,552 discrepancy remain open. The earlier full omission mapping,
+ten-man comparison residual, and Michigan narrative/table and casualty-day
+conflicts also remain open.
 The Confederate reports' differences from p.396, report 137's two inspected infantry
 subtotal discrepancies, and the accounting of late/detached formations remain
 explicit questions for historical review. The updated packet is

@@ -65,9 +65,12 @@ Existing claim IDs persist when their interpretation is amended.
 
 The Confederate-return follow-up keeps schema version 2 and archives the first
 enriched draft as `TN003.v2.json`. The Union-availability follow-up archives the
-Confederate revision as `TN003.v3.json`; the current revision links to it and
-preserves the complete archive chain. See the [Confederate migration](research/shiloh-confederate-returns.md)
-and [Union migration](research/shiloh-union-availability.md).
+Confederate revision as `TN003.v3.json`; that revision links to it and
+preserves the complete archive chain. The Ohio-reinforcement follow-up archives
+that Union revision as `TN003.v4.json`; the latest dossier links to it. See the
+[Confederate migration](research/shiloh-confederate-returns.md),
+[Union migration](research/shiloh-union-availability.md), and
+[Ohio migration](research/shiloh-ohio-reinforcements.md).
 Report 136/137 branch subtotals and grand totals are overlapping observations,
 not additional people to sum. Printed arithmetic discrepancies remain visible;
 `reported_exact` records the number as printed, not its internal consistency.
@@ -75,6 +78,11 @@ The same precision rule applies to Reed's explicitly estimated entries: their
 notes retain that estimation status. Mixed-date reconstructed totals, return
 components, detached guards and later joining contingents are overlapping
 source observations, never automatic opening-strength features.
+An original report and a separately printed diary may have different or unknown
+composition dates even under one source ID. A source's reported local clocks are
+not automatically synchronized; events retain attribution rather than inventing
+a common arrival/readiness time. Secondhand recalled strength without a settled
+population basis may remain a prose claim instead of a typed quantity.
 
 - `entities`: local IDs, names, person/formation kind, and US/CS side. They prevent
   confusing Lew Wallace's division with another formation; they are not yet a
