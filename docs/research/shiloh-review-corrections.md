@@ -7,7 +7,11 @@ It changes evidence representation, not troop counts or model inputs. The
 current draft remains **62 claims, 40 quantities, 26 events and three null
 unknowns**. The [focused Astra review](../../artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/review.md)
 accepted every changed evidence field and identified one validator gap,
-TN003-C1. Its code correction is implemented and awaits a bounded follow-up.
+TN003-C1. The code correction was accepted in the
+[bounded follow-up](../../artifacts/review-results/TN003-corrections-5e23790-followup-v1/review.md),
+with no remaining implementation findings. The
+[primary assessment](../../artifacts/review-results/TN003-corrections-5e23790-followup-v1/primary-assessment.md)
+records the final disposition and limits.
 
 ## Changes and source support
 
@@ -98,7 +102,10 @@ field. The fix makes revision fields reciprocal and rejects an orphaned
 `editorial_sections` declaration before either validation or date lookup can
 fall back to the report date. Mutation tests exercise the ordinary CLI as well
 as the helper, while preserving legitimate legacy date notes. The original
-finding and response remain unchanged; follow-up acceptance is recorded separately.
+finding and response remain unchanged. The same reviewer's bounded follow-up
+accepted the fix at `5e23790`: all four original CLI mutation cases now fail,
+while all 15 section mappings, two editorial nulls and four legacy date notes
+remain valid. This follow-up adds no new historical-source audit or witness.
 
 This is a representation correction. Historical disputes TN003-D1–D7, the
 600-person basis, conflicting clocks, 7,553/7,552, missing original returns and

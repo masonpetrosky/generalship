@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "verified_at_utc": "2026-09-20T18:35:02.510043+00:00",
+  "accepted_implementation_commit": "5e23790289a9c799dea5aa6706f662a92f3749c6",
+  "tests": {
+    "command": "make check",
+    "passed": 52
+  },
+  "commands": [
+    "make reproduce",
+    "make packet",
+    "make review-bundle",
+    "python3 scripts/migrate_shiloh_review_corrections.py"
+  ],
+  "migration_repeat_files_written": 0,
+  "dossier_sha256": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+  "registry_sha256": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7",
+  "frozen_bundle_sha256": "f1e1f7bc2aec3074b02408649fd29184ba380bfd2486d77f2184341f6aff8a13",
+  "accepted_runtime_modules_and_evidence_unchanged": true,
+  "original_raw_files_and_review_records_unchanged": true,
+  "baseline_predictions_byte_identical_to_prior_task": true,
+  "build_receipt_matches_current_inputs_outputs": true,
+  "generated_report_inspected": true,
+  "local_result_links_resolve": true,
+  "scope_note": "Final changes after accepted commit are review records and current report/documentation status; no feature admission or historical-source changes."
+}

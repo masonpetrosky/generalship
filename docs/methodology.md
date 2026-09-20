@@ -150,7 +150,8 @@ Shiloh dossier checked 62 claims, 40 quantities, 26 events and 26 supplied scan
 selections; 35 of 65 cited source/section pairs remain text/CSV-only. Its
 [actual response and primary assessment](research/shiloh-review-handoff.md#completed-ai-review)
 retain historical disputes. The [four corrections](research/shiloh-review-corrections.md)
-are implemented in a versioned draft with focused review pending. Antietam and Champion
+are implemented in a versioned draft with focused implementation review and
+validator follow-up accepted. Antietam and Champion
 Hill have no separate review. AI review is not human historical adjudication or
 proof of source independence. Agreement with famous-generals lists is never an
 acceptance criterion.

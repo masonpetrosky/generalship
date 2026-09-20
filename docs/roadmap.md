@@ -29,8 +29,9 @@ observations and 26 events**. Five preceding revisions are archived. Neither
 canonical opening strengths nor effective command-transfer times have been
 adjudicated. A separate fresh-context Astra `xhigh` source review is now recorded;
 the dossier remains a draft. The four accepted corrections are implemented in
-[schema v3 and versioned metadata](research/shiloh-review-corrections.md), with
-focused implementation review pending.
+[schema v3 and versioned metadata](research/shiloh-review-corrections.md). Focused
+review accepted the evidence changes; its sole validator finding was fixed and
+accepted in the follow-up.
 
 The versioned correction pass implements the four findings accepted in the
 [primary assessment](../artifacts/review-results/TN003-a42f063-astra-xhigh-v1/primary-assessment.md):
@@ -38,8 +39,13 @@ separate estimation provenance from printed precision, scope document dates to
 individual report/diary/compiler sections, align dependence metadata for the same
 OR p.112 return, and distinguish Crittenden's arrival from later debarkation.
 The frozen evidence and review are preserved and the migration is documented.
-Finish focused review of changed fields under the [standing subagent policy](../AGENTS.md).
-Then design the feature-admission contract with unresolved evidence kept explicit.
+The [focused review and follow-up](research/shiloh-review-corrections.md#validation-and-limits)
+are complete under the [standing subagent policy](../AGENTS.md).
+Start now by designing the feature-admission contract: bind candidate inputs to
+immutable source/dossier versions, population and overlap definitions, an explicit
+decision boundary and estimand; preserve unknowns, conflicting sources and
+post-outcome exclusions. Review that contract before implementing admission or
+changing model inputs.
 
 The [actual AI review](../artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review.md)
 covers 62/62 claims, 40/40 quantities, 26/26 events and 26/26 supplied scan
@@ -55,8 +61,8 @@ conflicts also remain open.
 The Confederate reports' differences from p.396, report 137's two inspected infantry
 subtotal discrepancies, and the accounting of late/detached formations remain
 explicit questions for historical review. The updated packet is
-available with `python3 -m generalship packet TN003`. After this correction pass
-and admission-contract design, complete all
+available with `python3 -m generalship packet TN003`. After admission-contract
+design, complete all
 pilot engagements in the same source campaign, including Fort Henry, Fort
 Donelson, and Corinth.
 Use Antietam to test outcome ambiguity and Champion Hill to test inherited orders
@@ -67,7 +73,7 @@ Deliverables:
 - Campaign records and resolved commander/army identities (Shiloh now has local
   entity IDs and phase records; cross-engagement identity resolution remains).
 - Source-dependent alternative estimates and a typed quantity schema (v3 now
-  implemented for Shiloh; focused review and historical reconciliation remain).
+  implemented and reviewed for Shiloh; historical reconciliation remains).
 - Explicit replacement boundaries and contemporary information sets.
 - Named separate review records and an extraction-error audit (Shiloh's bounded
   AI review is recorded; broader transcription coverage remains incomplete).

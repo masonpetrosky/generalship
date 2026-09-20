@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "review_run_id": "TN003-corrections-5e23790-followup-v1",
+  "status": "completed",
+  "reviewer_type": "AI",
+  "reviewer_task": "/root/shiloh_corrections_review",
+  "configured_model": "gpt-6-astra",
+  "configured_reasoning_effort": "xhigh",
+  "context_mode": "same_reviewer_bounded_followup_of_initial_fresh_context_review",
+  "dispatch_recorded_at_utc": "2026-09-20T18:29:25.426963+00:00",
+  "reviewed_commit": "5e23790289a9c799dea5aa6706f662a92f3749c6",
+  "base_commit": "54e763905b767570565302b185599535ef12cc20",
+  "assignment_path": "artifacts/review-results/TN003-corrections-5e23790-followup-v1/assignment.md",
+  "assignment_sha256": "a8bd2a532cc777e7ff1138d75fecf2082669a31cbd291efb9851e8207ae9c3c7",
+  "input_sha256": {
+    "generalship/sources.py": "98df0d690b2a2c9e0ac4c55c4ad8e496c28ad26e6054f1053097cd7ebefe6ab4",
+    "tests/test_review_corrections.py": "86aaa5687aad2d844c876dd20acab5f48ed8e165eec21e60188a9695c301bd77",
+    "docs/evidence-contract.md": "34494f9048da5b96c871f5213c2dbdbd1e08e2b1c8a8d1bb33f5f5f32fb48ddd",
+    "docs/research/shiloh-review-corrections.md": "d9912b1520d47d144119864aa2c50066aa36e1f7e46f8d6a6a2e8f0933f0b3eb",
+    "artifacts/receipt.json": "ef4a906b1e042e01f21c496aae36ef4e5c4a29850b0aa7291ce36ffa5658fb24",
+    "data/evidence/TN003.json": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+    "data/sources.json": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7",
+    "artifacts/review-results/TN003-corrections-54e7639-astra-xhigh-v1/review-result.json": "b2080bb23756f374ff109ad35468aec3a4796ae917079b38f22316bdab8fca6d"
+  },
+  "outputs": {
+    "review.md": {
+      "path": "artifacts/review-results/TN003-corrections-5e23790-followup-v1/review.md",
+      "sha256": "c1f989be535057704e783889ff8eedc021e33b57705294d4ea0e616d6affb8ec"
+    },
+    "review-result.json": {
+      "path": "artifacts/review-results/TN003-corrections-5e23790-followup-v1/review-result.json",
+      "sha256": "7a2fb681e38731c22549fc7825dd599df21cb739172d8fdc08318915bdc131f3"
+    },
+    "primary-assessment.md": {
+      "path": "artifacts/review-results/TN003-corrections-5e23790-followup-v1/primary-assessment.md",
+      "sha256": "cbacddc3b38a8b28498ef346b3f746aabba4b813d94c191e7256c7e8906eb70c"
+    },
+    "intake-validation.json": {
+      "path": "artifacts/review-results/TN003-corrections-5e23790-followup-v1/intake-validation.json",
+      "sha256": "0e00cdf3e5d4819425ef357c5ba112eb72b1ea099e56801ad8c6d50d3f085a82"
+    },
+    "final-validation.json": {
+      "path": "artifacts/review-results/TN003-corrections-5e23790-followup-v1/final-validation.json",
+      "sha256": "ac9f4167ac1d2659d36fd4ea1605b309d0e0b88bb0ca3a7aa8d9efd1e92aba0c"
+    }
+  },
+  "conclusion": "accept",
+  "completion_received_at_utc": "2026-09-20T18:33:51.167308+00:00"
+}
