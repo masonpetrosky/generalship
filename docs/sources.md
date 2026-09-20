@@ -190,3 +190,19 @@ census. Reed's note j quotes an undated Buell letter that has not been separatel
 inspected; that secondhand lead has no new typed troop observation. The existing
 Force estimate and the handbook's untraced 600-person Sunday contingent remain
 visible. No independent historical review or enriched model input is claimed.
+
+### Reviewed metadata corrections, 2026-09-20
+
+The [bounded correction pass](research/shiloh-review-corrections.md) implements
+four findings from the recorded separate AI review. All 50 earlier source entries
+and raw files are preserved. Three metadata-only revisions reuse existing files:
+`or-ammen-crossing-v2`, `or-nelson-reinforcements-v2` and
+`or-union-return-detail-v3`. The registry therefore has 53 records and 50 distinct
+raw paths; these versions add no witnesses or independent corroboration.
+
+The first two replace an overly broad report date with section-specific dates,
+retaining null diary/compiler dates. The third links the shared OR p.112 image
+and aligns the same-return dependence group. Each new entry binds its predecessor's
+full metadata hash. Current citations select the corrected IDs; archived dossiers
+and the frozen review bundle keep the old records. Dossier schema v3 separately
+records source estimation qualifiers while preserving every numerical observation.

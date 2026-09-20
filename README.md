@@ -85,8 +85,10 @@ checked all 62 claims, 40 quantities, 26 events and 26 supplied scan selections.
 The [primary assessment](artifacts/review-results/TN003-a42f063-astra-xhigh-v1/primary-assessment.md)
 accepts four findings for a versioned correction pass: estimation provenance,
 section-specific document dates, same-return dependence and Crittenden arrival
-wording. These corrections are pending; 35 of 65 cited source/section pairs
-remain text/CSV-only. The [prepared packet](artifacts/research/TN003.md)
+wording. The [versioned correction pass](docs/research/shiloh-review-corrections.md)
+implements them with dossier schema v3 and three source-metadata revisions;
+focused implementation review is pending. Thirty-five of 65 cited source/section
+pairs remain text/CSV-only. The [prepared packet](artifacts/research/TN003.md)
 and [dossier](data/evidence/TN003.json) preserve the open questions. Expand by complete
 campaign, retaining ordinary engagements and failures in the frame.
 
@@ -95,8 +97,8 @@ the frozen assignment separately from the actual response and execution record.
 The default reviewer is a fresh-context GPT-6 Astra `xhigh` subagent in the same
 task, under [AGENTS.md](AGENTS.md); no manual chat handoff is required. This AI
 review fulfills the bounded separate-review step, not historical adjudication or
-feature admission. Next reconcile the accepted findings in versioned evidence
-and contract records, then design feature admission with the remaining disputes explicit.
+feature admission. Next finish focused review of the implemented corrections,
+then design feature admission with the remaining disputes explicit.
 
 Then define a campaign replacement boundary and outcomes before fitting enriched
 models. Battle execution and campaign contribution are separate estimands; adding

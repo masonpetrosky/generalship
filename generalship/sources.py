@@ -1,6 +1,7 @@
 """Pinned, byte-verified inputs. Network access is an explicit CLI operation."""
 
 import csv
+from datetime import date
 import hashlib
 import json
 from pathlib import Path
@@ -35,12 +36,84 @@ def source_registry(root: Path) -> dict:
     return {s["id"]: s for s in sources}
 
 
+def source_metadata_digest(source: dict) -> str:
+    """Bind a metadata revision to the complete previous registry entry."""
+    blob = json.dumps(source, sort_keys=True, separators=(",", ":"),
+                      ensure_ascii=False, allow_nan=False).encode("utf-8")
+    return hashlib.sha256(blob).hexdigest()
+
+
+def text_sections(text: str) -> dict[str, str]:
+    sections = [part.partition("\n") for part in text.split("\n## ")[1:]]
+    names = [name for name, _, _ in sections]
+    if not names or any(not name.strip() for name in names) or len(names) != len(set(names)):
+        raise ValueError("Sectioned source needs unique nonempty section IDs")
+    return {name: body for name, _, body in sections}
+
+
+def source_document_date(source: dict, section: str | None = None) -> str | None:
+    """Return the date of the cited document, never its event or knowledge date.
+
+    A mapped null is authoritative: do not fall back to a nearby report date.
+    Editorial sections have no historical document date.
+    """
+    if "document_dates_by_section" in source:
+        if section in source.get("editorial_sections", []):
+            return None
+        if section not in source["document_dates_by_section"]:
+            raise ValueError("A section-specific document date requires a mapped section")
+        return source["document_dates_by_section"][section]
+    return source.get("document_date")
+
+
+def validate_source_metadata(root: Path, registry: dict) -> None:
+    for source in registry.values():
+        if "document_dates_by_section" in source:
+            if source["format"] != "text" or source.get("sectioned") is not True:
+                raise ValueError("Section dates require a sectioned text source")
+            if "document_date" not in source or source["document_date"] is not None:
+                raise ValueError("Section dates require a null source-wide document date")
+            note = source.get("document_date_note")
+            if not isinstance(note, str) or not note.strip():
+                raise ValueError("Section dates require an explanatory date note")
+            sections = text_sections(safe_path(root, source["path"]).read_text(encoding="utf-8"))
+            editorial = source.get("editorial_sections", [])
+            if (not isinstance(editorial, list) or any(not isinstance(x, str) for x in editorial)
+                    or len(editorial) != len(set(editorial)) or not set(editorial) <= sections.keys()):
+                raise ValueError("Invalid editorial section IDs")
+            dates = source["document_dates_by_section"]
+            if not isinstance(dates, dict) or set(dates) != sections.keys() - set(editorial):
+                raise ValueError("Document dates must cover every historical section exactly")
+            for value in dates.values():
+                if value is not None and (not isinstance(value, str) or date.fromisoformat(value).isoformat() != value):
+                    raise ValueError("Section date must be an ISO calendar date or null")
+        if "supersedes" in source:
+            previous = source["supersedes"]
+            old = registry.get(previous.get("source_id")) if isinstance(previous, dict) else None
+            if old is None or old["id"] == source["id"]:
+                raise ValueError("Source revision requires a different registered predecessor")
+            if previous.get("metadata_sha256") != source_metadata_digest(old):
+                raise ValueError("Superseded source metadata checksum mismatch")
+            if source.get("revision_kind") != "metadata_only" or not source.get("revision_note"):
+                raise ValueError("Source revision requires a documented metadata-only migration")
+            if any(source.get(key) != old.get(key) for key in ("path", "sha256", "parent_sha256", "format")):
+                raise ValueError("Metadata-only source revision cannot replace raw evidence")
+        if "facsimile_source_id" in source:
+            facsimile = registry.get(source["facsimile_source_id"])
+            if facsimile is None or facsimile["format"] != "png":
+                raise ValueError("Facsimile link requires a registered image")
+            if (source.get("parent_sha256") != facsimile.get("parent_sha256")
+                    or source["independence_group"] != facsimile["independence_group"]):
+                raise ValueError("A transcript and its facsimile must share parent and dependence group")
+
+
 def verify_sources(root: Path) -> dict:
     registry = source_registry(root)
     for source in registry.values():
         path = safe_path(root, source["path"])
         if not path.is_file() or digest(path) != source["sha256"]:
             raise ValueError(f"Source missing or checksum mismatch: {source['id']}")
+    validate_source_metadata(root, registry)
     return registry
 
 

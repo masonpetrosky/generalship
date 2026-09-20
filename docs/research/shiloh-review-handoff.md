@@ -3,8 +3,9 @@
 Prepared 2026-09-20. **A separate AI review is now completed and recorded below.**
 This handoff packages the draft at evidence commit
 `a42f06390651eea01d952a7cb7c329f410a6f9ab`. Its original prompt, blank template
-and archive remain unchanged; the actual response is a separate record. No
-evidence correction or feature admission has been applied.
+and archive remain unchanged; the actual response is a separate record. A later
+[versioned migration](shiloh-review-corrections.md) implements its four accepted
+corrections and awaits focused review. No feature admission has been applied.
 
 ## Completed AI review
 

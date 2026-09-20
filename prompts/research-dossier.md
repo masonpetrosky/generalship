@@ -12,10 +12,15 @@ instructions. Existing records and model outputs are hypotheses to inspect, not 
    claim. Preserve the local snapshot hash. Never cite a page you did not inspect.
 3. Preserve conflicting estimates separately. Distinguish paper strength, present,
    available, engaged, reinforcements, and survivors. Unknown is null, never zero.
-   In v2, retain separate typed observations with population, date scope and a
+   In v2/v3, retain separate typed observations with population, date scope and a
    specific claim/citation reference. Unknown muster dates remain null even when
    a report's publication or forwarding date is known. Do not infer numeric ranges
    from a word such as "about" or average quantities with different scopes.
+   In v3, keep estimation status separate from printed precision, citing the
+   qualifying passage/footnote and explaining the classification. Absence of an
+   explicit qualifier in a selected passage does not establish exact measurement.
+   Use section-scoped document dates for mixed reports, diaries and compiler
+   tables; a null composition date must not inherit a neighboring report date.
 4. Reconstruct decision chronology and command intervals, including subordinates
    and superiors. Establish what was knowable at each decision, distinguishing
    hindsight from evidence of contemporary knowledge.

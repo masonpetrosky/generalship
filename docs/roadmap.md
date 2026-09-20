@@ -25,18 +25,20 @@ inspected reports 136/137 and added four versioned source artifacts. The
 and a unit-by-phase table. The [Ohio reinforcement audit](research/shiloh-ohio-reinforcements.md)
 adds 17 artifacts and separates Savannah/opposite-bank arrival, crossing, landing,
 formation and participation. The current draft has **62 claims, 40 troop
-observations and 26 events**. Four preceding revisions are archived. Neither
+observations and 26 events**. Five preceding revisions are archived. Neither
 canonical opening strengths nor effective command-transfer times have been
 adjudicated. A separate fresh-context Astra `xhigh` source review is now recorded;
-the dossier remains a draft with corrections pending.
+the dossier remains a draft. The four accepted corrections are implemented in
+[schema v3 and versioned metadata](research/shiloh-review-corrections.md), with
+focused implementation review pending.
 
-Start now with a versioned correction pass for the four findings accepted in the
+The versioned correction pass implements the four findings accepted in the
 [primary assessment](../artifacts/review-results/TN003-a42f063-astra-xhigh-v1/primary-assessment.md):
 separate estimation provenance from printed precision, scope document dates to
 individual report/diary/compiler sections, align dependence metadata for the same
 OR p.112 return, and distinguish Crittenden's arrival from later debarkation.
-Preserve the frozen evidence and review, document the migration, and obtain a
-focused review of changed fields under the [standing subagent policy](../AGENTS.md).
+The frozen evidence and review are preserved and the migration is documented.
+Finish focused review of changed fields under the [standing subagent policy](../AGENTS.md).
 Then design the feature-admission contract with unresolved evidence kept explicit.
 
 The [actual AI review](../artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review.md)
@@ -64,8 +66,8 @@ Deliverables:
 
 - Campaign records and resolved commander/army identities (Shiloh now has local
   entity IDs and phase records; cross-engagement identity resolution remains).
-- Source-dependent alternative estimates and a typed quantity schema (v2 now
-  implemented for Shiloh; review-driven corrections and historical reconciliation remain).
+- Source-dependent alternative estimates and a typed quantity schema (v3 now
+  implemented for Shiloh; focused review and historical reconciliation remain).
 - Explicit replacement boundaries and contemporary information sets.
 - Named separate review records and an extraction-error audit (Shiloh's bounded
   AI review is recorded; broader transcription coverage remains incomplete).

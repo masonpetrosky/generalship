@@ -3,12 +3,14 @@
 from datetime import date
 import math
 
-from .sources import digest, read_csv, read_json, safe_path, verify_sources
+from .sources import digest, read_csv, read_json, safe_path, text_sections, verify_sources
 
 DIMENSIONS = {"strength", "terrain", "logistics", "information", "objectives", "responsibility", "outcome"}
 PHASES = {"inherited", "commander_created", "post_outcome", "unresolved"}
 QUANTITY_BASES = {"present_for_duty", "reported_effective", "reported_engaged",
                   "reported_reinforcements", "reported_present"}
+ESTIMATION_STATUSES = {"explicit_estimate", "aggregate_includes_estimates",
+                       "reported_without_explicit_estimation_qualifier", "unknown"}
 
 
 def citation_text(root, sources, citation):
@@ -30,18 +32,17 @@ def citation_text(root, sources, citation):
             section = citation.get("section")
             if not isinstance(section, str) or not section or "\n" in section:
                 raise ValueError("Sectioned source requires one section ID")
-            sections = text.split("\n## ")[1:]
-            matches = [s.partition("\n")[2] for s in sections if s.partition("\n")[0] == section]
-            if len(matches) != 1:
+            sections = text_sections(text)
+            if section not in sections:
                 raise ValueError("Citation section must resolve exactly once")
-            return matches[0]
+            return sections[section]
         return text
     raise ValueError("Unsupported evidence format")
 
 
 def validate_dossier(root, dossier, sources=None):
     sources = sources or verify_sources(root)
-    if dossier.get("schema_version") not in {1, 2} or dossier.get("status") not in {"draft", "reviewed"}:
+    if dossier.get("schema_version") not in {1, 2, 3} or dossier.get("status") not in {"draft", "reviewed"}:
         raise ValueError("Invalid dossier version or status")
     if dossier["battle_id"] not in read_json(root / "data/pilot/cohort.json")["battle_ids"]:
         raise ValueError("Dossier battle not in the pilot")
@@ -72,8 +73,8 @@ def validate_dossier(root, dossier, sources=None):
             quote = citation["quote"]
             if not quote.strip() or quote not in citation_text(root, sources, citation):
                 raise ValueError(f"Supporting passage not found: {claim['id']}")
-    if dossier["schema_version"] == 2:
-        validate_phase_records(root, dossier)
+    if dossier["schema_version"] in {2, 3}:
+        validate_phase_records(root, dossier, sources)
     elif any(key in dossier for key in ("entities", "events", "quantities")):
         raise ValueError("Phase records require schema version 2")
     if dossier["status"] == "reviewed":
@@ -87,7 +88,7 @@ def validate_dossier(root, dossier, sources=None):
             "note": "Passage matching verifies provenance, not historical truth or entailment."}
 
 
-def validate_phase_records(root, dossier):
+def validate_phase_records(root, dossier, sources=None):
     """Check phase-record integrity without treating research observations as features."""
     def indexed(items, name):
         if not items or any(not isinstance(item.get("id"), str) or not item["id"].strip() for item in items):
@@ -114,6 +115,23 @@ def validate_phase_records(root, dossier):
             raise ValueError("Event requires evidenced claim references")
     quantities = indexed(dossier["quantities"], "quantity")
     for q in quantities.values():
+        estimation_fields = {"estimation_status", "estimation_note", "estimation_citations"}
+        if dossier["schema_version"] == 2 and estimation_fields.intersection(q):
+            raise ValueError("Estimation provenance requires dossier schema version 3")
+        if dossier["schema_version"] == 3:
+            status = q.get("estimation_status")
+            note = q.get("estimation_note")
+            citations = q.get("estimation_citations")
+            if not isinstance(status, str) or status not in ESTIMATION_STATUSES:
+                raise ValueError("Quantity requires a valid estimation status")
+            if not isinstance(note, str) or not note.strip() or not isinstance(citations, list):
+                raise ValueError("Quantity requires estimation rationale and citation list")
+            if status != "unknown" and not citations:
+                raise ValueError("Classified estimation status requires source evidence")
+            for citation in citations:
+                quote = citation.get("quote")
+                if not isinstance(quote, str) or not quote.strip() or quote not in citation_text(root, sources or verify_sources(root), citation):
+                    raise ValueError("Estimation qualifier passage not found")
         if q["entity_id"] not in entities or entities[q["entity_id"]]["kind"] != "formation":
             raise ValueError("Quantity must reference a known formation")
         claim = claims.get(q["claim_id"])

@@ -1,4 +1,4 @@
-# Evidence contract, versions 1 and 2
+# Evidence contract, versions 1, 2 and 3
 
 The source registry is `data/sources.json`; dossiers are `data/evidence/<battle-id>.json`.
 Run `python3 -m generalship check` to verify every source hash, dossier, and baseline.
@@ -17,6 +17,24 @@ and archival identifier where available. An inaccessible source is a research
 lead, not evidence. Keep private/licensed source material outside the public repo
 unless redistribution is permitted; public dossiers can retain metadata and
 appropriately short passages with reviewable locators.
+
+Metadata corrections add a new source ID while preserving the old entry and raw
+file. A `metadata_only` revision records `supersedes.source_id` and the SHA-256
+of the previous complete entry serialized as sorted-key, compact, UTF-8 JSON
+(`ensure_ascii=False`). Validation checks this binding and unchanged raw path,
+hash, format and parent hash. `revision_note` documents the reason. These new
+metadata records are not additional historical witnesses or new raw artifacts.
+
+For mixed-document snapshots, `document_dates_by_section` maps every historical
+section to its document date or null. The source-wide `document_date` must be null;
+`document_date_note` explains the distinctions. `editorial_sections` explicitly
+excludes local transcription notes from historical dates. Missing/extra sections,
+invalid dates and a non-null source-wide fallback fail validation. The
+`source_document_date` helper returns a mapped null unchanged and rejects a missing
+section; it never borrows a neighboring report's date. These are document dates,
+not event dates, public availability or a commander's knowledge. A transcript's
+`facsimile_source_id` must resolve to an image with the same parent hash and
+dependence group; this link does not prove independence from other reports.
 
 ## Dossiers and claims
 
@@ -53,11 +71,13 @@ an estimate of people engaged.
 For draft dossiers with unset replacement boundaries, phase tags are hypotheses
 explained by the rationale. They cannot be treated as reviewed causal classifications.
 Version 1 stores rich propositions as text. Version 2 additionally preserves typed
-research observations. Neither version supplies admitted model features.
+research observations; version 3 adds explicit estimation provenance. None
+supplies admitted model features.
 
 ## Version 2 phase records
 
-Shiloh is the first v2 dossier. Antietam and Champion Hill remain valid v1 drafts.
+Shiloh introduced v2 phase records and now uses v3. Antietam and Champion Hill
+remain valid v1 drafts; archived v2 dossiers retain their original contract.
 `supersedes` identifies the archived previous dossier and its SHA-256. Archives
 live under `data/evidence/history/`, are checked against the current revision's
 hash, and are included in the build receipt but not counted as additional battles.
@@ -113,6 +133,36 @@ presence, required scope, date order and quantity bounds. It does **not** verify
 that the numbers or interpretations entail the cited passage. A typed observation
 still needs historical and feature-admission review. Adding a column or marking a
 dossier reviewed never changes the baseline automatically.
+
+## Version 3 estimation provenance
+
+Every v3 quantity retains its numeric bounds and `estimate_kind` independently of
+`estimation_status`. The latter describes the supplied evidence's characterization
+of that observation:
+
+| Status | Meaning |
+|---|---|
+| `explicit_estimate` | A word, probable range or linked table marker explicitly qualifies the observation as estimated/approximated |
+| `aggregate_includes_estimates` | The printed total contains identified estimated components |
+| `reported_without_explicit_estimation_qualifier` | No explicit qualifier for this observation in the inspected passages; not proof of measurement, exactness or non-estimation elsewhere |
+| `unknown` | Estimation provenance is unestablished or has not been classified |
+
+`estimation_note` is a required rationale. `estimation_citations` contains exact
+passages with source IDs and locators (including table footnotes on other pages)
+and is required to be nonempty for any classified status. Unknowns may have an
+empty list; never invent a quote for an unknown. Passage checks establish presence,
+not entailment or the absence of qualifiers in unseen material. If a printed total
+is itself explicitly estimated, use `explicit_estimate`; otherwise a total with
+identified estimated components uses `aggregate_includes_estimates`. Preserve
+remaining uncertainty in the rationale. Never infer an uncertainty interval from
+an estimation marker, and never infer estimation from roundness alone.
+
+The [review-correction migration](research/shiloh-review-corrections.md) archives
+the prior draft as `TN003.v5.json` and adds estimation provenance to all 40
+observations. The six TN003-R1 targets retain every printed number, including
+7,553/7,552. Version 2 remains valid without these fields; a v3 record cannot
+silently downgrade to v2 while retaining them. The dossier stays `draft` and
+the baseline still ignores all typed research observations.
 
 ## Research and review
 

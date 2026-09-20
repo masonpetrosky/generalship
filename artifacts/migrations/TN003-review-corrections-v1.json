@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "migration_id": "TN003-review-corrections-v1",
+  "command": "python3 scripts/migrate_shiloh_review_corrections.py",
+  "basis_review_path": "artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review-result.json",
+  "basis_review_sha256": "31f77766d967787ae9ca74e7098b8341a59285df9105c8bedbd7c2d0dde46fac",
+  "prior_dossier_sha256": "1107b7149f9aa3877478e003a01ae2383b5d0729a15d6a90106e427350d49780",
+  "prior_registry_sha256": "a71f16285be84504048826255c0abcb49488c5d96f8e048ca5259ad523cc0e8b",
+  "dossier_sha256": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+  "registry_sha256": "3430c1ef145256fc8edd8638fdf565f7f0c0ae4e5feed237b3cd5db6cf4322e7",
+  "archived_dossier": "data/evidence/history/TN003.v5.json",
+  "source_metadata_revisions": [
+    {
+      "previous_id": "or-ammen-crossing-v1",
+      "new_id": "or-ammen-crossing-v2",
+      "previous_metadata_sha256": "b1235b68630fba8e6616e0fe75ca53badb0e97f3cfe8cc0ce01d231adf418b8e",
+      "new_metadata_sha256": "38a4a8686b632e5a49df4b3a129ec80d6060a2976d7ff352fee9c68c4c4cb23b",
+      "raw_path": "data/raw/shiloh/or-ammen-crossing-v1.txt",
+      "raw_sha256": "df186eb4f91fdb6dbc87cbf8e86e526f6d3f18c8dcc9730a858e7d3dc4ef9b93"
+    },
+    {
+      "previous_id": "or-nelson-reinforcements-v1",
+      "new_id": "or-nelson-reinforcements-v2",
+      "previous_metadata_sha256": "c876b278fe77436c024dcc64b42749c734ca7cf47711099c4b5c4239b26f3e41",
+      "new_metadata_sha256": "9341b4550a3f07f31e29601cad8d083992cb653f85804d6979c7734fbb26df1a",
+      "raw_path": "data/raw/shiloh/or-nelson-reinforcements-v1.txt",
+      "raw_sha256": "e75987c53540b8ad09b7cf108204b7f7f9e6343b09da01570e862dba309986ed"
+    },
+    {
+      "previous_id": "or-union-return-detail-v2",
+      "new_id": "or-union-return-detail-v3",
+      "previous_metadata_sha256": "e4edbe0a72da183b02271b51551cfd117cc975785dff588f7ad2665c2affd3ef",
+      "new_metadata_sha256": "1075fbfb1317f1be5502bb3454c6943949ef84014696135b4bf4a3b0ff3d8b63",
+      "raw_path": "data/raw/shiloh/or-union-return-detail-v2.txt",
+      "raw_sha256": "70099ece7f07cf264d777f3e9d80e49ec40c230b5c671962e3cdc0dbfd4f2c94"
+    }
+  ],
+  "claim_source_id_updates": [
+    {
+      "claim_id": "sixth-division-return-components",
+      "citation_index": 0,
+      "previous_source_id": "or-union-return-detail-v2",
+      "new_source_id": "or-union-return-detail-v3"
+    },
+    {
+      "claim_id": "sixth-division-return-components",
+      "citation_index": 1,
+      "previous_source_id": "or-union-return-detail-v2",
+      "new_source_id": "or-union-return-detail-v3"
+    },
+    {
+      "claim_id": "reed-sixth-division-reconstruction",
+      "citation_index": 4,
+      "previous_source_id": "or-union-return-detail-v2",
+      "new_source_id": "or-union-return-detail-v3"
+    },
+    {
+      "claim_id": "nelson-crossing-clock-dispute",
+      "citation_index": 0,
+      "previous_source_id": "or-nelson-reinforcements-v1",
+      "new_source_id": "or-nelson-reinforcements-v2"
+    },
+    {
+      "claim_id": "nelson-crossing-clock-dispute",
+      "citation_index": 1,
+      "previous_source_id": "or-nelson-reinforcements-v1",
+      "new_source_id": "or-nelson-reinforcements-v2"
+    },
+    {
+      "claim_id": "nelson-crossing-clock-dispute",
+      "citation_index": 2,
+      "previous_source_id": "or-nelson-reinforcements-v1",
+      "new_source_id": "or-nelson-reinforcements-v2"
+    },
+    {
+      "claim_id": "ammen-crossing-sequence",
+      "citation_index": 0,
+      "previous_source_id": "or-ammen-crossing-v1",
+      "new_source_id": "or-ammen-crossing-v2"
+    },
+    {
+      "claim_id": "ammen-crossing-sequence",
+      "citation_index": 1,
+      "previous_source_id": "or-ammen-crossing-v1",
+      "new_source_id": "or-ammen-crossing-v2"
+    },
+    {
+      "claim_id": "ammen-crossing-sequence",
+      "citation_index": 2,
+      "previous_source_id": "or-ammen-crossing-v1",
+      "new_source_id": "or-ammen-crossing-v2"
+    },
+    {
+      "claim_id": "ammen-crossing-sequence",
+      "citation_index": 3,
+      "previous_source_id": "or-ammen-crossing-v1",
+      "new_source_id": "or-ammen-crossing-v2"
+    },
+    {
+      "claim_id": "nelson-night-infantry-crossing",
+      "citation_index": 0,
+      "previous_source_id": "or-nelson-reinforcements-v1",
+      "new_source_id": "or-nelson-reinforcements-v2"
+    },
+    {
+      "claim_id": "nelson-separated-arms",
+      "citation_index": 0,
+      "previous_source_id": "or-nelson-reinforcements-v1",
+      "new_source_id": "or-nelson-reinforcements-v2"
+    },
+    {
+      "claim_id": "nelson-action-strength",
+      "citation_index": 0,
+      "previous_source_id": "or-nelson-reinforcements-v1",
+      "new_source_id": "or-nelson-reinforcements-v2"
+    },
+    {
+      "claim_id": "nelson-action-strength",
+      "citation_index": 1,
+      "previous_source_id": "or-nelson-reinforcements-v1",
+      "new_source_id": "or-nelson-reinforcements-v2"
+    },
+    {
+      "claim_id": "nelson-action-strength",
+      "citation_index": 2,
+      "previous_source_id": "or-nelson-reinforcements-v1",
+      "new_source_id": "or-nelson-reinforcements-v2"
+    },
+    {
+      "claim_id": "nelson-action-strength",
+      "citation_index": 3,
+      "previous_source_id": "or-nelson-reinforcements-v1",
+      "new_source_id": "or-nelson-reinforcements-v2"
+    },
+    {
+      "claim_id": "nelson-march-paper-strength",
+      "citation_index": 0,
+      "previous_source_id": "or-nelson-reinforcements-v1",
+      "new_source_id": "or-nelson-reinforcements-v2"
+    },
+    {
+      "claim_id": "nelson-march-paper-strength",
+      "citation_index": 1,
+      "previous_source_id": "or-nelson-reinforcements-v1",
+      "new_source_id": "or-nelson-reinforcements-v2"
+    },
+    {
+      "claim_id": "nelson-march-paper-strength",
+      "citation_index": 2,
+      "previous_source_id": "or-nelson-reinforcements-v1",
+      "new_source_id": "or-nelson-reinforcements-v2"
+    },
+    {
+      "claim_id": "nelson-march-paper-strength",
+      "citation_index": 3,
+      "previous_source_id": "or-nelson-reinforcements-v1",
+      "new_source_id": "or-nelson-reinforcements-v2"
+    },
+    {
+      "claim_id": "ammen-night-formation",
+      "citation_index": 0,
+      "previous_source_id": "or-ammen-crossing-v1",
+      "new_source_id": "or-ammen-crossing-v2"
+    },
+    {
+      "claim_id": "ammen-night-formation",
+      "citation_index": 1,
+      "previous_source_id": "or-ammen-crossing-v1",
+      "new_source_id": "or-ammen-crossing-v2"
+    },
+    {
+      "claim_id": "nelson-morning-phase-clocks",
+      "citation_index": 0,
+      "previous_source_id": "or-nelson-reinforcements-v1",
+      "new_source_id": "or-nelson-reinforcements-v2"
+    },
+    {
+      "claim_id": "nelson-morning-phase-clocks",
+      "citation_index": 1,
+      "previous_source_id": "or-nelson-reinforcements-v1",
+      "new_source_id": "or-nelson-reinforcements-v2"
+    }
+  ],
+  "quantity_estimation_classification": [
+    {
+      "id": "nps-union-total",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "nps-confederate-total",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "union-paper-total",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "wallace-april4-return",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "confederate-before",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "confederate-after",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "force-sunday-engaged",
+      "estimation_status": "explicit_estimate"
+    },
+    {
+      "id": "force-buell",
+      "estimation_status": "explicit_estimate"
+    },
+    {
+      "id": "force-wallace",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "force-other",
+      "estimation_status": "explicit_estimate"
+    },
+    {
+      "id": "handbook-wallace",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "handbook-nelson-leading",
+      "estimation_status": "explicit_estimate"
+    },
+    {
+      "id": "confederate-report-136-total",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "confederate-report-136-infantry",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "confederate-report-136-artillery",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "confederate-report-136-cavalry",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "confederate-report-137-total",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "confederate-report-137-infantry",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "confederate-report-137-artillery",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "confederate-report-137-cavalry",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "sixth-april5-abstract",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "reed-sixth-reconstruction",
+      "estimation_status": "aggregate_includes_estimates"
+    },
+    {
+      "id": "reed-eighteenth-wisconsin-estimate",
+      "estimation_status": "explicit_estimate"
+    },
+    {
+      "id": "rousseau-michigan-contingent",
+      "estimation_status": "explicit_estimate"
+    },
+    {
+      "id": "reed-wallace-detached",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "reed-wallace-engaged",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "reed-fiftysixth-return",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "reed-sixtyeighth-return",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "reed-wallace-cavalry-return",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "grose-sunday-eight-companies",
+      "estimation_status": "explicit_estimate"
+    },
+    {
+      "id": "nelson-taken-into-action",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "nelson-thirtysixth-taken-into-action",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "nelson-march-abstract",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "reed-nelson-march31",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "reed-mccook-april30",
+      "estimation_status": "reported_without_explicit_estimation_qualifier"
+    },
+    {
+      "id": "reed-mccook-detail-engaged",
+      "estimation_status": "explicit_estimate"
+    },
+    {
+      "id": "reed-mccook-recap-engaged",
+      "estimation_status": "explicit_estimate"
+    },
+    {
+      "id": "reed-crittenden-engaged",
+      "estimation_status": "explicit_estimate"
+    },
+    {
+      "id": "reed-wagner-late-estimate",
+      "estimation_status": "explicit_estimate"
+    },
+    {
+      "id": "reed-ohio-total-engaged",
+      "estimation_status": "aggregate_includes_estimates"
+    }
+  ],
+  "claim_wording_change": {
+    "claim_id": "crittenden-arrival-phases",
+    "before": "Crittenden reports landing about 21:00 April 6, deployment about 05:00 April 7, and the Third Kentucky Cavalry remaining opposite the landing for lack of transport.",
+    "after": "Crittenden reports reaching Pittsburg Landing about 21:00 April 6, with debarkation following as soon as practicable; he reports being conducted to his position about 05:00 April 7 and the Third Kentucky Cavalry remaining opposite the landing for lack of transport."
+  },
+  "resolved_implementation_findings": [
+    "TN003-R1",
+    "TN003-R2",
+    "TN003-R3",
+    "TN003-R4"
+  ],
+  "review_status": "implementation_only_focused_review_recorded_separately",
+  "unchanged": [
+    "all previously registered source records and raw files",
+    "all printed quantity bounds and precision labels",
+    "all events",
+    "three null unknown claims",
+    "all historical disputes and replacement boundaries",
+    "frozen source review and bundle",
+    "baseline model and cohort inputs"
+  ],
+  "limits": "Estimation classification covers supplied passages, not unseen underlying records. This migration does not establish historical truth, resolve force alternatives or admit model features."
+}
