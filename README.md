@@ -89,7 +89,7 @@ adds 11 claims from two source families, retaining chronology and casualty dispu
 Astra `xhigh` accepted all 11 claims with no required corrections.
 The [Eastern Kentucky pass](docs/research/eastern-kentucky-first-pass-v1.md) adds
 Middle Creek and Mill Springs with 22 claims and three explicit unknowns;
-separate campaign review is pending. Next: **Burnside’s North Carolina Expedition**. See the
+Astra `xhigh` accepted all 22 claims with no required corrections. Next: **Burnside’s North Carolina Expedition**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.

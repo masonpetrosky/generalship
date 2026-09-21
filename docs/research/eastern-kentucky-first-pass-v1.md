@@ -6,7 +6,8 @@ Prepared 2026-09-20. [Middle Creek (KY005)](../../data/evidence/KY005.json) and
 **11 claims across all seven dimensions**. Middle Creek has one explicit unknown
 and Mill Springs two: matched opening strengths for both, and independent
 corroboration of Confederate information at Mill Springs. Other unresolved
-questions remain in claim rationales. Separate campaign review is pending.
+questions remain in claim rationales. Separate Astra `xhigh`
+[review](../../artifacts/review-results/eastern-kentucky-882aaa3-astra-xhigh-v1/review.md) accepted all 22 claims and 37 citation occurrences with no required corrections.
 No features are admitted.
 
 Coverage becomes **10/127 draft dossiers**, **117 without a dossier**, and
@@ -75,6 +76,12 @@ The frozen cohort, eight earlier dossiers, both admission proposals and baseline
 remain unchanged: **23/127 eligible engagements across 13 groups**, Brier
 **0.276882 versus 0.250000** for equal odds, and **zero promoted rows**.
 The strength baseline still underperforms equal odds.
+
+The [primary assessment](../../artifacts/review-results/eastern-kentucky-882aaa3-astra-xhigh-v1/primary-assessment.md)
+accepts the bounded review. Author and reviewer both replayed the five text
+derivations, verified preservation and passed all 82 tests plus offline checks.
+Generated artifacts were reproduced and the report inspected. Historical unknowns
+and source disputes remain intact; these are draft dossiers.
 
 Next take the complete **Burnside's North Carolina Expedition [February-June
 1862]** campaign: **Roanoke Island (NC002), New Berne (NC003), Fort Macon (NC004), South Mills (NC005), and Tranter’s Creek (NC006)**. Follow earliest frozen engagement date and campaign-label

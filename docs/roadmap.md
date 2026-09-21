@@ -44,7 +44,8 @@ The [Eastern Kentucky pass](research/eastern-kentucky-first-pass-v1.md) adds
 **KY005 — Middle Creek** and **KY006 — Mill Springs**, the complete **Offensive
 in Eastern Kentucky [January 1862]** campaign. Each has 11 claims from two
 retained source families; there are three explicit unknowns across the batch.
-Separate campaign review is pending. Coverage is **4/36 complete groups by
+Separate Astra `xhigh` [review](../artifacts/review-results/eastern-kentucky-882aaa3-astra-xhigh-v1/review.md) accepted all 22 claims and 37 citations
+with no required corrections. Coverage is **4/36 complete groups by
 dossier presence**, with zero newly admitted features.
 
 Next take **Burnside's North Carolina Expedition [February-June 1862]**; retain

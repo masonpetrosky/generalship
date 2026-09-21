@@ -1,0 +1,58 @@
+{
+  "prepared_commit": "882aaa3233fd61dc65c0eef015e5de9d50ea10db",
+  "review_sha256": "4079a71117031ee0e4faf466329d3a8d57327a216bec515daf560f41ce609c2c",
+  "reviewed_evidence_inputs_unchanged": [
+    "data/sources.json",
+    "data/evidence/KY005.json",
+    "data/evidence/KY006.json",
+    "data/pilot/cohort.json",
+    "data/admission/shiloh-opening-v1.json",
+    "data/admission/shiloh-opening-v2.json",
+    "artifacts/baseline.json",
+    "artifacts/research/KY005.md",
+    "artifacts/research/KY006.md",
+    "data/raw/eastern-kentucky-v1/garfield-selections.txt",
+    "data/raw/eastern-kentucky-v1/nps-crittenden.html",
+    "data/raw/eastern-kentucky-v1/nps-crittenden.txt",
+    "data/raw/eastern-kentucky-v1/nps-ky005.html",
+    "data/raw/eastern-kentucky-v1/nps-ky005.txt",
+    "data/raw/eastern-kentucky-v1/nps-ky006.html",
+    "data/raw/eastern-kentucky-v1/nps-ky006.txt",
+    "data/raw/eastern-kentucky-v1/or7-full.txt",
+    "data/raw/eastern-kentucky-v1/or7-metadata.json",
+    "data/raw/eastern-kentucky-v1/thomas-selections.txt"
+  ],
+  "commands": [
+    "make reproduce",
+    "python3 -m generalship check",
+    "primary preservation and derivation replay",
+    "git diff --check"
+  ],
+  "offline_check": {
+    "pilot_battles": 127,
+    "eligible_battles": 23,
+    "eligible_campaigns": 13,
+    "draft_dossiers": 10,
+    "metrics": {
+      "strength_logistic": {
+        "brier": 0.2768816348133779,
+        "log_loss": 0.7495087606758415
+      },
+      "equal_odds": {
+        "brier": 0.25,
+        "log_loss": 0.6931471805599453
+      },
+      "training_prior": {
+        "brier": 0.2812731024902169,
+        "log_loss": 0.7560867667370473
+      }
+    },
+    "admission_candidate_statuses": {
+      "blocked": 18,
+      "excluded": 22
+    },
+    "admission_promoted_rows": 0,
+    "artifacts_written": false
+  },
+  "generated_report_inspected": true
+}
