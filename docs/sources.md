@@ -81,6 +81,9 @@ inspected. OCR errors are preserved; selection ranges and hashes reproduce the
 text without claiming print fidelity. The original-report follow-up was inaccessible.
 The draft retains the January 4/5 approach discrepancy, 25-versus-zero casualties,
 and unknown opening personnel/information. No existing source or model input changes.
+Separate Astra `xhigh` [review](../artifacts/review-results/hancock-86abaf3-astra-xhigh-v1/review.md)
+accepted all 11 claims with no required corrections; this is digital text/OCR review,
+not print verification or historical adjudication.
 
 ### Cockpit Point first pass, 2026-09-20
 

@@ -1,0 +1,71 @@
+{
+  "previous_commit": "b7e052a0a22620f7674408d7b15405a3d0cf1fd5",
+  "prior_registry_entries_unchanged": 188,
+  "prior_raw_paths_verified": 185,
+  "protected_prior_paths_unchanged": [
+    "artifacts/baseline.json",
+    "data/admission/shiloh-opening-v1.json",
+    "data/admission/shiloh-opening-v2.json",
+    "data/admission/snapshots/feature-admission-v1.md",
+    "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json",
+    "data/evidence/MD003.json",
+    "data/evidence/MS009.json",
+    "data/evidence/MS016.json",
+    "data/evidence/TN001.json",
+    "data/evidence/TN002.json",
+    "data/evidence/TN003.json",
+    "data/evidence/VA100.json",
+    "data/evidence/history/TN003.v1.json",
+    "data/evidence/history/TN003.v2.json",
+    "data/evidence/history/TN003.v3.json",
+    "data/evidence/history/TN003.v4.json",
+    "data/evidence/history/TN003.v5.json",
+    "data/pilot/cohort.json"
+  ],
+  "new_text_derivations_replayed": {
+    "nps_summary": 1,
+    "allan_ocr_sections": 2
+  },
+  "coverage": {
+    "dossiers": 8,
+    "frame_engagements": 127,
+    "complete_campaigns_by_dossier_presence": [
+      "Blockade of the Potomac River [October 1861-January 1862]",
+      "Jackson's Operations Against the B&O Railroad [January 1862]",
+      "Federal Penetration up the Cumberland and Tennessee Rivers [February-June 1862]"
+    ],
+    "frame_campaigns": 36,
+    "new_claims": 11,
+    "citation_occurrences": 20,
+    "new_null_claims": 2
+  },
+  "make_check": "82 tests plus pipeline checks passed",
+  "make_reproduce": "passed; generated report inspected",
+  "admission_v2": {
+    "status_counts": {
+      "blocked": 7,
+      "excluded": 33
+    },
+    "promoted_rows": 0
+  },
+  "prepared_commit": "86abaf36a5d27853f1af532f371c0a6cb66c4415",
+  "prepared_input_hashes_verified": 17,
+  "review": {
+    "task": "/root/hancock_review",
+    "response_sha256": "c877dd10279159c136a30043fb97c07268a95380e1d1c5151b0869f93c5836d0",
+    "decision": "no required corrections; accepted within bounded scope",
+    "claims": 11,
+    "citation_occurrences": 20,
+    "null_claims": 2,
+    "reviewer_tests_passed": 82,
+    "reviewed_evidence_changed_after_review": false
+  },
+  "finalization": {
+    "reviewed_evidence_and_frozen_inputs_unchanged": 11,
+    "all_protected_prior_files_unchanged": 18,
+    "review_response_unchanged": true,
+    "make_reproduce": "passed; final generated report inspected",
+    "offline_pipeline_check": "passed; no promoted rows",
+    "git_diff_check": "passed"
+  }
+}

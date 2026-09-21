@@ -86,7 +86,8 @@ now covers the complete frozen Potomac blockade group. Astra `xhigh` accepted
 all 10 new claims with no required corrections; one source family and three
 unknowns remain explicit. The [Hancock first pass](docs/research/hancock-first-pass-v1.md)
 adds 11 claims from two source families, retaining chronology and casualty disputes;
-its separate review is pending. Next after review: **Middle Creek and Mill Springs**,
+Astra `xhigh` accepted all 11 claims with no required corrections.
+Next: **Middle Creek and Mill Springs**,
 the complete Eastern Kentucky campaign. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).

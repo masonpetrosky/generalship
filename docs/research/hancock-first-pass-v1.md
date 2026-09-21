@@ -4,7 +4,9 @@ Prepared 2026-09-20. [MD001](../../data/evidence/MD001.json) is the sole frozen
 engagement in **Jackson's Operations Against the B&O Railroad [January 1862]**.
 The new draft has **11 claims across all seven dimensions**, including **two explicit
 unknowns**: matched opening personnel and contemporary command information.
-Separate campaign review is pending. No feature is admitted.
+Separate Astra `xhigh` [review](../../artifacts/review-results/hancock-86abaf3-astra-xhigh-v1/review.md)
+accepted all 11 claims and 20 citation occurrences with no required corrections.
+No feature is admitted.
 
 Coverage becomes **8/127 draft dossiers**, **119 without a dossier**, and **3/36
 source campaigns with every frozen member represented**. This is dossier presence,
@@ -66,6 +68,11 @@ The frozen cohort, earlier evidence and both admission proposals remain unchange
 The baseline still uses **23/127 engagements across 13 groups**, with Brier
 **0.276882 versus 0.250000** for equal odds and zero promoted historical rows.
 
-After one bounded review, take **Offensive in Eastern Kentucky [January 1862]**:
+The [primary assessment](../../artifacts/review-results/hancock-86abaf3-astra-xhigh-v1/primary-assessment.md)
+accepts the bounded result. Both author and reviewer replayed the text derivations,
+verified preservation and passed all 82 tests. Generated artifacts were reproduced
+and the report inspected. The dossier remains draft with its historical limits intact.
+
+Next take **Offensive in Eastern Kentucky [January 1862]**:
 **Middle Creek (KY005)** and **Mill Springs (KY006)** together as the next complete
 source campaign. No further Hancock source trace is required to move on.

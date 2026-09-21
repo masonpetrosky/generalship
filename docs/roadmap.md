@@ -34,11 +34,13 @@ accepted all 10 claims with no required corrections. That pass brought coverage 
 The [Hancock pass](research/hancock-first-pass-v1.md) now supplies **MD001**, the
 sole frozen member of **Jackson's Operations Against the B&O Railroad [January
 1862]**. Its 11 claims use NPS/CWSAC and Allan's retrospective history, with two
-explicit unknowns and unresolved chronology/casualty discrepancies. Separate review
-is pending. Coverage is **3/36 complete groups by dossier presence**, not historical
+explicit unknowns and unresolved chronology/casualty discrepancies. Astra `xhigh`
+[review](../artifacts/review-results/hancock-86abaf3-astra-xhigh-v1/review.md)
+accepted all 11 claims with no required corrections. Coverage is **3/36 complete
+groups by dossier presence**, not historical
 completeness or feature eligibility.
 
-After review, take **Offensive in Eastern Kentucky [January 1862]**, whose complete
+Next take **Offensive in Eastern Kentucky [January 1862]**, whose complete
 frozen membership is **KY005 — Middle Creek** (January 10) and **KY006 — Mill Springs**
 (January 19). Review those two engagements together.
 Continue complete groups by earliest engagement date, breaking ties by campaign
