@@ -11,7 +11,9 @@ Island No. 10, and Memphis [February-June 1862]** campaign now has two draft dos
 All seven dimensions have attributed claims or null unknowns: **21 claims, five
 explicit unknowns and 36 citation occurrences**. Matched opening personnel and
 contemporary information remain unknown for both; New Madrid/Island No. 10 also
-lacks a harmonized casualty total. Separate campaign review is pending. Neither
+lacks a harmonized casualty total. Separate Astra `xhigh`
+[review](../../artifacts/review-results/mississippi-joint-0433daa-astra-xhigh-v1/review.md)
+accepted all 21 claims and 36 citations with no required corrections. Neither
 draft changes model inputs or admits features.
 
 Coverage is **17/127 draft dossiers**, **110 without**, and **6/36 complete frozen
@@ -94,7 +96,13 @@ unchanged: **23/127 eligible engagements in 13 groups**, strength Brier
 The baseline still performs worse than equal odds; dossier coverage is not
 predictive improvement.
 
-Validation and separate-review results will be recorded against the prepared
-commit and exact input hashes. Next take the **Peninsula Campaign [March-July
-1862]**, its complete frozen 16-engagement group beginning with Hampton Roads
-(VA008), while preserving the same bounded first-pass policy.
+The [primary assessment](../../artifacts/review-results/mississippi-joint-0433daa-astra-xhigh-v1/primary-assessment.md)
+accepts the bounded review. Author and reviewer independently replayed all three
+text derivations, verified preservation and passed all 82 tests plus offline checks.
+The generated report was inspected and reproduced; the reviewed evidence and
+prepared packets remain unchanged. Historical unknowns and source disputes remain.
+
+Next take the **Peninsula Campaign [March-July 1862]**, its complete frozen
+16-engagement group beginning with Hampton Roads (VA008), while preserving the
+same bounded first-pass policy. The combined Glendale/White Oak Swamp row and its
+component rows do not become independent extra wins.

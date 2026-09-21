@@ -95,7 +95,7 @@ drafts with 47 claims, ten explicit unknowns and two source families per battle.
 Astra `xhigh` accepted all 47 claims with no required corrections.
 The [New Madrid/Memphis pass](docs/research/mississippi-joint-first-pass-v1.md) adds
 two drafts with 21 claims, five explicit unknowns and two families per battle.
-Separate review is pending. Next: **the 16-engagement Peninsula Campaign**. See the
+Astra `xhigh` accepted all 21 claims with no required corrections. Next: **the 16-engagement Peninsula Campaign**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.

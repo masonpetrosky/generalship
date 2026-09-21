@@ -60,7 +60,9 @@ The [New Madrid/Memphis pass](research/mississippi-joint-first-pass-v1.md) adds
 **MO012 — New Madrid/Island No. 10** and **TN004 — Memphis**, the complete frozen
 **Joint Operations Against New Madrid, Island No. 10, and Memphis [February-June
 1862]** group. Its 21 claims use NPS/CWSAC and Mahan's retrospective naval history,
-with five explicit unknowns. Separate review is pending. Coverage is **6/36 complete
+with five explicit unknowns. Separate Astra `xhigh`
+[review](../artifacts/review-results/mississippi-joint-0433daa-astra-xhigh-v1/review.md)
+accepted all 21 claims and 36 citations with no required corrections. Coverage is **6/36 complete
 source campaigns by dossier presence**; no features are admitted.
 
 Next take **Peninsula Campaign [March-July 1862]**, the next complete frozen
