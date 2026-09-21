@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA011",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass within the complete frozen 16-record Peninsula Campaign. Opening personnel and effective replacement boundaries remain unresolved. The combined VA020 and component VA020A/VA020B records overlap and cannot supply additive battle credit. Draft prose does not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical bounds are blank; zero displays, vessel lists, combined army totals and later casualties cannot fill them.",
+      "citations": []
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions; the live NPS table reads 0 total (US 0; CS 0;).",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "These are source fields, not matched opening returns. Preserve vessel versus personnel units, unspecified formations and combined versus side totals. Shared NPS/CWSAC provenance supplies no independent confirmation; displayed zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA011"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va011-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ]
+    },
+    {
+      "id": "landing-and-train-route",
+      "dimension": "terrain",
+      "value": "NPS locates Franklin’s landing at Eltham’s and the threatened Confederate trains on the Barhamsville Road.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Locations and a transport route, not a measured terrain advantage or a verified map.",
+      "citations": [
+        {
+          "source_id": "nps-va011-v1",
+          "locator": "Description",
+          "quote": "Franklin's Union division landed at Eltham's Landing"
+        },
+        {
+          "source_id": "nps-va011-v1",
+          "locator": "Description",
+          "quote": "the Confederate army's trains on the Barhamsville Road."
+        }
+      ]
+    },
+    {
+      "id": "convoy-delay",
+      "dimension": "logistics",
+      "value": "Webb says darkness delayed the gunboat convoy, Franklin left Yorktown on May 6, and transports returned for Sedgwick after landing his troops.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Approach sequence preceding the frozen May 7 engagement. Troops in transports, disembarked troops and troops engaged are distinct populations.",
+      "citations": [
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "eltham-transport-and-orders",
+          "locator": "pp.81–82 (OCR page markers; not checked against print)",
+          "quote": "the commander of the gunboat flotilla declined to act as convoy until the following morning."
+        },
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "eltham-transport-and-orders",
+          "locator": "p.82 (OCR page markers; not checked against print)",
+          "quote": "sent the transports back for Sedgwick's division."
+        }
+      ]
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish the commanders’ contemporary knowledge. Retrospective explanations of beliefs, surprise or missed opportunities are not independently verified information states.",
+      "citations": []
+    },
+    {
+      "id": "initial-concept-and-arrival-instructions",
+      "dimension": "objectives",
+      "value": "Webb distinguishes an initial concept of cutting off the retreat from Franklin’s instructions on arrival to wait at Eltham for further orders.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Do not turn the earlier concept into a proven disobeyed order. The original instructions were not inspected separately.",
+      "citations": [
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "eltham-transport-and-orders",
+          "locator": "pp.81–82 (OCR page markers; not checked against print)",
+          "quote": "cut off the retreat of such bodies of the enemy as might be below."
+        },
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "eltham-transport-and-orders",
+          "locator": "p.82 (OCR page markers; not checked against print)",
+          "quote": "His instructions were to wait at Eltham until further orders. No mention was made about cutting off the enemy."
+        }
+      ]
+    },
+    {
+      "id": "landing-and-counterattack-roles",
+      "dimension": "responsibility",
+      "value": "NPS assigns the landing division to Franklin and the attacking brigades to Smith’s command.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Division/brigade roles are not automatic equal or sole credit, and do not resolve every subordinate’s control interval.",
+      "citations": [
+        {
+          "source_id": "nps-va011-v1",
+          "locator": "Description",
+          "quote": "Franklin's Union division landed at Eltham's Landing and was attacked by two brigades of Smith's command"
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Inconclusive.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Retain the frozen outcome and engagement interval. A tactical result, later retreat, success at a local sector and campaign contribution are different measures. No causal effect, half-win or extra independent victory is inferred.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA011"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va011-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        }
+      ]
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 242 total (US 194; CS 48). The live NPS table reads 234 total (US 186; CS 48;).",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "Preserve source versions and population boundaries. No original return was inspected to reconcile totals, categories, missing side breakdowns or reporting cutoffs. A zero display is not no losses; casualties and captured hospital populations are not opening strength. Do not add overlapping battle/component totals.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA011"
+          },
+          "column": "casualties_text",
+          "quote": "242 total (US 194; CS 48)"
+        },
+        {
+          "source_id": "nps-va011-v1",
+          "locator": "Estimated Casualties",
+          "quote": "234 total (US 186; CS 48;)"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Original orders, personnel and casualty returns, contemporary message chains, disputed totals and precise command clocks remain deferred after the bounded follow-up. No OCR-to-print or map verification is claimed.",
+    "Keep opening, reinforced, engaged, hospital, captured and vessel populations distinct. Source fields and retrospective judgments do not establish causal contributions.",
+    "Preserve frozen outcomes and campaign membership, including combined/component rows; no automatic commander credit or battle/campaign double counting."
+  ]
+}

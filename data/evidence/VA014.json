@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA014",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass within the complete frozen 16-record Peninsula Campaign. Opening personnel and effective replacement boundaries remain unresolved. The combined VA020 and component VA020A/VA020B records overlap and cannot supply additive battle credit. Draft prose does not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical bounds are blank; zero displays, vessel lists, combined army totals and later casualties cannot fill them.",
+      "citations": []
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads (84,000 total); the live NPS table reads 0 total (US 0; CS 0;).",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "These are source fields, not matched opening returns. Preserve vessel versus personnel units, unspecified formations and combined versus side totals. Shared NPS/CWSAC provenance supplies no independent confirmation; displayed zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA014"
+          },
+          "column": "forces_text",
+          "quote": "(84,000 total)"
+        },
+        {
+          "source_id": "nps-va014-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ]
+    },
+    {
+      "id": "divided-river-position",
+      "dimension": "terrain",
+      "value": "NPS describes two Federal corps south of the Chickahominy and a reinforcement crossing at Grapevine Bridge over the rain-swollen river.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Changing deployment and river conditions, not a single static strength comparison.",
+      "citations": [
+        {
+          "source_id": "nps-va014-v1",
+          "locator": "Description",
+          "quote": "two Federal corps that appeared isolated south of the Chickahominy River."
+        },
+        {
+          "source_id": "nps-va014-v1",
+          "locator": "Description",
+          "quote": "crossed the rain-swollen river on Grapevine Bridge"
+        }
+      ]
+    },
+    {
+      "id": "crossing-guns",
+      "dimension": "logistics",
+      "value": "Webb describes flooded bridge approaches and men hauling mired artillery through waist-deep water.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Attributed reinforcement transport difficulty; no opening readiness score or independently verified clock.",
+      "citations": [
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "seven-pines-crossing",
+          "locator": "pp.110–111 (OCR page markers; not checked against print)",
+          "quote": "the causeways approaching the bridge on either side were overflowed"
+        },
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "seven-pines-crossing",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "the men tugging at the mired pieces up to their waists in water."
+        }
+      ]
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish the commanders’ contemporary knowledge. Retrospective explanations of beliefs, surprise or missed opportunities are not independently verified information states.",
+      "citations": []
+    },
+    {
+      "id": "attack-isolated-corps",
+      "dimension": "objectives",
+      "value": "NPS describes Johnston attempting to overwhelm the two corps south of the river.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Attributed attack purpose; isolation as perceived is not proof of actual impossibility of reinforcement.",
+      "citations": [
+        {
+          "source_id": "nps-va014-v1",
+          "locator": "Description",
+          "quote": "Gen. Joseph E. Johnston attempted to overwhelm two Federal corps"
+        }
+      ]
+    },
+    {
+      "id": "wounding-and-temporary-command",
+      "dimension": "responsibility",
+      "value": "NPS says Johnston was seriously wounded and army command temporarily devolved to G. W. Smith.",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "A transfer sequence, not an effective notification/assumption clock. The live heading labels Johnston Lieutenant Colonel while its narrative says General; do not adopt that heading rank.",
+      "citations": [
+        {
+          "source_id": "nps-va014-v1",
+          "locator": "Description",
+          "quote": "Gen. Johnston was seriously wounded during the action, and command of the Confederate army devolved temporarily to Maj. Gen. G.W. Smith."
+        },
+        {
+          "source_id": "nps-va014-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant Colonel Joseph Johnston [CS]"
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Inconclusive.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Retain the frozen outcome and engagement interval. A tactical result, later retreat, success at a local sector and campaign contribution are different measures. No causal effect, half-win or extra independent victory is inferred.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA014"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va014-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        }
+      ]
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 13,736 total (US 5,739; CS 7,997). The live NPS table reads 11100 total (US 5000; CS 6100;).",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "Preserve source versions and population boundaries. No original return was inspected to reconcile totals, categories, missing side breakdowns or reporting cutoffs. A zero display is not no losses; casualties and captured hospital populations are not opening strength. Do not add overlapping battle/component totals.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA014"
+          },
+          "column": "casualties_text",
+          "quote": "13,736 total (US 5,739; CS 7,997)"
+        },
+        {
+          "source_id": "nps-va014-v1",
+          "locator": "Estimated Casualties",
+          "quote": "11100 total (US 5000; CS 6100;)"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Original orders, personnel and casualty returns, contemporary message chains, disputed totals and precise command clocks remain deferred after the bounded follow-up. No OCR-to-print or map verification is claimed.",
+    "Keep opening, reinforced, engaged, hospital, captured and vessel populations distinct. Source fields and retrospective judgments do not establish causal contributions.",
+    "Preserve frozen outcomes and campaign membership, including combined/component rows; no automatic commander credit or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA021",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass within the complete frozen 16-record Peninsula Campaign. Opening personnel and effective replacement boundaries remain unresolved. The combined VA020 and component VA020A/VA020B records overlap and cannot supply additive battle credit. Draft prose does not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical bounds are blank; zero displays, vessel lists, combined army totals and later casualties cannot fill them.",
+      "citations": []
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Armies; the live NPS table reads 0 total (US 0; CS 0;).",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "These are source fields, not matched opening returns. Preserve vessel versus personnel units, unspecified formations and combined versus side totals. Shared NPS/CWSAC provenance supplies no independent confirmation; displayed zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA021"
+          },
+          "column": "forces_text",
+          "quote": "Armies"
+        },
+        {
+          "source_id": "nps-va021-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ]
+    },
+    {
+      "id": "plateau-and-flanks",
+      "dimension": "terrain",
+      "value": "Webb describes an open plateau near the James and forests and swamp on its western edge, difficult for horses or artillery.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Attributed physical context; no map verification or numerical terrain modifier. The chosen defensive position is not automatically inherited.",
+      "citations": [
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "malvern-position-and-command",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "its summit present- ing an open plateau of some extent."
+        },
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "malvern-position-and-command",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "its western edge is also protected by forests and swamp, difficult for horse or artillery."
+        }
+      ]
+    },
+    {
+      "id": "supply-and-readiness-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected battle-specific supply, ammunition or transport return establishes logistical sufficiency or readiness. Formation lists and retrospective praise are not numerical readiness measures.",
+      "citations": []
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish the commanders’ contemporary knowledge. Retrospective explanations of beliefs, surprise or missed opportunities are not independently verified information states.",
+      "citations": []
+    },
+    {
+      "id": "assault-and-defense",
+      "dimension": "objectives",
+      "value": "NPS describes Lee assaulting the Union position on Malvern Hill.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Immediate attack target, not inspected original orders or a claim that later withdrawal invalidates a defensive success.",
+      "citations": [
+        {
+          "source_id": "nps-va021-v1",
+          "locator": "Description",
+          "quote": "Gen. Robert E. Lee launched a series of disjointed assaults on the nearly impregnable Union position on Malvern Hill."
+        }
+      ]
+    },
+    {
+      "id": "orders-and-on-site-placement",
+      "dimension": "responsibility",
+      "value": "Webb distinguishes McClellan’s placement orders from Humphreys placing arriving corps after examining the ground the day before.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Strategic command, preparation and immediate placement are different roles, not automatic full credit to either officer.",
+      "citations": [
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "malvern-position-and-command",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "General McClellan had given orders for placing the troops"
+        },
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "malvern-position-and-command",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "were put in position by General A. A. Humphreys, who had examined the ground thoroughly the day before."
+        }
+      ]
+    },
+    {
+      "id": "victory-and-later-withdrawal",
+      "dimension": "outcome",
+      "value": "NPS reports that McClellan withdrew to Harrison’s Landing despite the Union victory.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Battle result, preservation and wider campaign purpose remain separate. Subsequent Northern Virginia operations are context, not another victory credited here.",
+      "citations": [
+        {
+          "source_id": "nps-va021-v1",
+          "locator": "Description",
+          "quote": "Despite his victory, McClellan withdrew to entrench at Harrison's Landing on James River"
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Union victory.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Retain the frozen outcome and engagement interval. A tactical result, later retreat, success at a local sector and campaign contribution are different measures. No causal effect, half-win or extra independent victory is inferred.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA021"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va021-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        }
+      ]
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 8,500 total. The live NPS table reads 8355 total (US 3000; CS 5355;).",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "Preserve source versions and population boundaries. No original return was inspected to reconcile totals, categories, missing side breakdowns or reporting cutoffs. A zero display is not no losses; casualties and captured hospital populations are not opening strength. Do not add overlapping battle/component totals.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA021"
+          },
+          "column": "casualties_text",
+          "quote": "8,500 total"
+        },
+        {
+          "source_id": "nps-va021-v1",
+          "locator": "Estimated Casualties",
+          "quote": "8355 total (US 3000; CS 5355;)"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Original orders, personnel and casualty returns, contemporary message chains, disputed totals and precise command clocks remain deferred after the bounded follow-up. No OCR-to-print or map verification is claimed.",
+    "Keep opening, reinforced, engaged, hospital, captured and vessel populations distinct. Source fields and retrospective judgments do not establish causal contributions.",
+    "Preserve frozen outcomes and campaign membership, including combined/component rows; no automatic commander credit or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA008",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass within the complete frozen 16-record Peninsula Campaign. Opening personnel and effective replacement boundaries remain unresolved. The combined VA020 and component VA020A/VA020B records overlap and cannot supply additive battle credit. Draft prose does not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical bounds are blank; zero displays, vessel lists, combined army totals and later casualties cannot fill them.",
+      "citations": []
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 4 warships [US]; 1 warship [CS]; the live NPS table reads 0 total (US 0; CS 0;).",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "These are source fields, not matched opening returns. Preserve vessel versus personnel units, unspecified formations and combined versus side totals. Shared NPS/CWSAC provenance supplies no independent confirmation; displayed zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA008"
+          },
+          "column": "forces_text",
+          "quote": "4 warships [US]; 1 warship [CS]"
+        },
+        {
+          "source_id": "nps-va008-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ]
+    },
+    {
+      "id": "hydrography-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "The summary locates the action in Hampton Roads but does not establish soundings, navigable limits or grounding conditions. The attempted naval follow-up could not be retained; no geographical advantage is inferred.",
+      "citations": []
+    },
+    {
+      "id": "supply-and-readiness-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected battle-specific supply, ammunition or transport return establishes logistical sufficiency or readiness. Formation lists and retrospective praise are not numerical readiness measures.",
+      "citations": []
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish the commanders’ contemporary knowledge. Retrospective explanations of beliefs, surprise or missed opportunities are not independently verified information states.",
+      "citations": []
+    },
+    {
+      "id": "assigned-objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "The summary describes Virginia attacking wooden ships and Monitor engaging Virginia, but no assigned orders or broader success criteria were inspected.",
+      "citations": []
+    },
+    {
+      "id": "listed-naval-commanders",
+      "dimension": "responsibility",
+      "value": "The frozen commander rows list Buchanan and Jones for the Confederacy and Worden for the United States.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "A list is not a timeline of exercised command or proof of sole credit. The brief narrative does not establish when each officer commanded; effective replacement boundaries stay null.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA008",
+            "belligerent": "Confederate",
+            "fullname": "Franklin Buchanan"
+          },
+          "column": "fullname",
+          "quote": "Franklin Buchanan"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA008",
+            "belligerent": "Confederate",
+            "fullname": "Catesby R. Jones"
+          },
+          "column": "fullname",
+          "quote": "Catesby R. Jones"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA008",
+            "belligerent": "US",
+            "fullname": "John Worden"
+          },
+          "column": "fullname",
+          "quote": "John Worden"
+        }
+      ]
+    },
+    {
+      "id": "two-day-sequence",
+      "dimension": "outcome",
+      "value": "NPS separates Virginia’s March 8 attack on Cumberland and Congress from the March 9 encounter with Monitor, which it describes as a standstill.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Preserve a two-day source interval, not a single unchanged ship population. No naval-wide superiority or campaign utility score follows from the duel.",
+      "citations": [
+        {
+          "source_id": "nps-va008-v1",
+          "locator": "Description",
+          "quote": "On March 8, 1862, from her berth at Norfolk"
+        },
+        {
+          "source_id": "nps-va008-v1",
+          "locator": "Description",
+          "quote": "On March 9, the Union ironclad Monitor"
+        },
+        {
+          "source_id": "nps-va008-v1",
+          "locator": "Description",
+          "quote": "The two ships fought each other to a standstill, but Virginia retired."
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Inconclusive.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Retain the frozen outcome and engagement interval. A tactical result, later retreat, success at a local sector and campaign contribution are different measures. No causal effect, half-win or extra independent victory is inferred.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA008"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va008-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        }
+      ]
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 433 total (US 409; CS 24). The live NPS table reads 433 total (US 409; CS 24;).",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Preserve source versions and population boundaries. No original return was inspected to reconcile totals, categories, missing side breakdowns or reporting cutoffs. A zero display is not no losses; casualties and captured hospital populations are not opening strength. Do not add overlapping battle/component totals.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA008"
+          },
+          "column": "casualties_text",
+          "quote": "433 total (US 409; CS 24)"
+        },
+        {
+          "source_id": "nps-va008-v1",
+          "locator": "Estimated Casualties",
+          "quote": "433 total (US 409; CS 24;)"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Original orders, personnel and casualty returns, contemporary message chains, disputed totals and precise command clocks remain deferred after the bounded follow-up. No OCR-to-print or map verification is claimed.",
+    "Keep opening, reinforced, engaged, hospital, captured and vessel populations distinct. Source fields and retrospective judgments do not establish causal contributions.",
+    "Preserve frozen outcomes and campaign membership, including combined/component rows; no automatic commander credit or battle/campaign double counting."
+  ]
+}

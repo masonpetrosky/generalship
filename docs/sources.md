@@ -68,6 +68,26 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Peninsula first pass, 2026-09-20
+
+The [16-record memo](research/peninsula-first-pass-v1.md) adds **36 source records**,
+bringing the registry to **259 entries / 256 raw paths**, preserving all previous
+**223/220**. Fifteen NPS battle HTML/text pairs, the empty VA020 HTML diagnostic,
+and one Drewry's Bluff park-history HTML/text pair stay in the NPS/CWSAC family.
+VA020A has no live narrative. Webb's 1881 *The Peninsula* contributes catalog, full
+OCR and thirteen sectioned selections (title/preface and twelve battle/context
+passages), serving fourteen land records. His participant recollections and
+collation of reports are retrospective; original documents and maps were not
+inspected. The November 1881 preface does not date individual passages.
+
+All retained selections were read; exact character ranges and whitespace-only
+normalization preserve the OCR without claiming print fidelity. No new maps or
+images were inspected. Hampton Roads' naval follow-up could not be downloaded
+(NHHC certificate/404 and NOAA 403); search snippets supply no evidence. Both
+naval records retain one family, the land records two, with independence
+unestablished. Source conflicts, hospital/vessel populations and June 30 overlap
+remain explicit. No frozen cohort, source, model or admission input is replaced.
+
 ### New Madrid/Memphis first pass, 2026-09-20
 
 The [two-battle memo](research/mississippi-joint-first-pass-v1.md) adds seven

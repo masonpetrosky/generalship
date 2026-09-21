@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA016",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass within the complete frozen 16-record Peninsula Campaign. Opening personnel and effective replacement boundaries remain unresolved. The combined VA020 and component VA020A/VA020B records overlap and cannot supply additive battle credit. Draft prose does not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The imported numerical force estimates retain their original basis; they are not newly validated as opening counts.",
+      "citations": []
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 31,987 total (US 15,631; CS 16,356); the live NPS table reads 31987 total (US 15631; CS 16356;).",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "These are source fields, not matched opening returns. Preserve vessel versus personnel units, unspecified formations and combined versus side totals. Shared NPS/CWSAC provenance supplies no independent confirmation; displayed zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA016"
+          },
+          "column": "forces_text",
+          "quote": "31,987 total (US 15,631; CS 16,356)"
+        },
+        {
+          "source_id": "nps-va016-v1",
+          "locator": "Forces Engaged",
+          "quote": "31987 total (US 15631; CS 16356;)"
+        }
+      ]
+    },
+    {
+      "id": "creek-and-built-defenses",
+      "dimension": "terrain",
+      "value": "Webb describes McCall’s position along Beaver Dam Creek, with rifle pits and an artillery emplacement near the crossing.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Natural setting and constructed defenses remain distinct; no inherited/created feature is admitted without a replacement boundary.",
+      "citations": [
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "beaver-dam-position",
+          "locator": "p.125 (OCR page markers; not checked against print)",
+          "quote": "its front on the left bank of Beaver Dam Creek"
+        },
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "beaver-dam-position",
+          "locator": "p.125 (OCR page markers; not checked against print)",
+          "quote": "rifle-pits were dug in front of each regiment"
+        }
+      ]
+    },
+    {
+      "id": "supply-and-readiness-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected battle-specific supply, ammunition or transport return establishes logistical sufficiency or readiness. Formation lists and retrospective praise are not numerical readiness measures.",
+      "citations": []
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish the commanders’ contemporary knowledge. Retrospective explanations of beliefs, surprise or missed opportunities are not independently verified information states.",
+      "citations": []
+    },
+    {
+      "id": "right-flank-offensive",
+      "dimension": "objectives",
+      "value": "NPS describes Lee initiating an offensive against McClellan’s right flank north of the Chickahominy.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Attributed operational objective; no original order or quantified expected effect was inspected.",
+      "citations": [
+        {
+          "source_id": "nps-va016-v1",
+          "locator": "Description",
+          "quote": "Gen. Robert E. Lee initiated his offensive against McClellan's right flank north of the Chickahominy River."
+        }
+      ]
+    },
+    {
+      "id": "assault-and-reserve-roles",
+      "dimension": "responsibility",
+      "value": "NPS assigns the assaults to A. P. Hill reinforced by a D. H. Hill brigade. Webb identifies Meade’s brigade as a reserve at McCall’s position.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Distinguish Lee’s overall command, divisional action and local reserve roles from automatic outcome credit.",
+      "citations": [
+        {
+          "source_id": "nps-va016-v1",
+          "locator": "Description",
+          "quote": "A.P. Hill threw his division, reinforced by one of D.H. Hill's brigades"
+        },
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "beaver-dam-position",
+          "locator": "p.125 (OCR page markers; not checked against print)",
+          "quote": "The Second Bri- gade (Meade's) was held in reserve"
+        }
+      ]
+    },
+    {
+      "id": "repulse-and-later-withdrawal",
+      "dimension": "outcome",
+      "value": "NPS describes Confederate attacks being repulsed followed by Porter withdrawing the next morning as Jackson approached.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "A recorded Union victory and later withdrawal coexist; do not recode one from the other or score the subsequent position as another win.",
+      "citations": [
+        {
+          "source_id": "nps-va016-v1",
+          "locator": "Description",
+          "quote": "Confederate attacks were driven back with heavy casualties."
+        },
+        {
+          "source_id": "nps-va016-v1",
+          "locator": "Description",
+          "quote": "forcing Porter to withdraw the next morning"
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Union victory.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Retain the frozen outcome and engagement interval. A tactical result, later retreat, success at a local sector and campaign contribution are different measures. No causal effect, half-win or extra independent victory is inferred.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA016"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va016-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        }
+      ]
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,700 total (US 400; CS 1,300). The live NPS table reads 1845 total (US 361; CS 1484;).",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "Preserve source versions and population boundaries. No original return was inspected to reconcile totals, categories, missing side breakdowns or reporting cutoffs. A zero display is not no losses; casualties and captured hospital populations are not opening strength. Do not add overlapping battle/component totals.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA016"
+          },
+          "column": "casualties_text",
+          "quote": "1,700 total (US 400; CS 1,300)"
+        },
+        {
+          "source_id": "nps-va016-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1845 total (US 361; CS 1484;)"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Original orders, personnel and casualty returns, contemporary message chains, disputed totals and precise command clocks remain deferred after the bounded follow-up. No OCR-to-print or map verification is claimed.",
+    "Keep opening, reinforced, engaged, hospital, captured and vessel populations distinct. Source fields and retrospective judgments do not establish causal contributions.",
+    "Preserve frozen outcomes and campaign membership, including combined/component rows; no automatic commander credit or battle/campaign double counting."
+  ]
+}

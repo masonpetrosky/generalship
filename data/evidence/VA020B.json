@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA020B",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass within the complete frozen 16-record Peninsula Campaign. Opening personnel and effective replacement boundaries remain unresolved. The combined VA020 and component VA020A/VA020B records overlap and cannot supply additive battle credit. Draft prose does not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical bounds are blank; zero displays, vessel lists, combined army totals and later casualties cannot fill them.",
+      "citations": []
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Armies; the live NPS table reads 0 total (US 0; CS 0;).",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "These are source fields, not matched opening returns. Preserve vessel versus personnel units, unspecified formations and combined versus side totals. Shared NPS/CWSAC provenance supplies no independent confirmation; displayed zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA020B"
+          },
+          "column": "forces_text",
+          "quote": "Armies"
+        },
+        {
+          "source_id": "nps-va020b-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ]
+    },
+    {
+      "id": "crossing-and-road-positions",
+      "dimension": "terrain",
+      "value": "Webb describes the destroyed bridge over the White Oak marsh and creek and the Union position across the Long Bridge road near its junction with the Charles City road.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Related June 30 positions, not interchangeable battle boundaries. The combined record and two components overlap; no independent terrain scores or battle weights are assigned.",
+      "citations": [
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "white-oak-crossing-and-glendale",
+          "locator": "pp.142–143 (OCR page markers; not checked against print)",
+          "quote": "the destruction of the bridge over the marsh and creek"
+        },
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "white-oak-crossing-and-glendale",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "strongly posted across the Long Bridge road, about a mile from its intersection with the Charles City road"
+        }
+      ]
+    },
+    {
+      "id": "crossing-obstruction-and-repair",
+      "dimension": "logistics",
+      "value": "Webb says the bridge was rebuilt after the Union troops retired, after which Jackson pursued.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Crossing and pursuit logistics; not a measure of opening supply or proof of the cause of the whole campaign result.",
+      "citations": [
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "white-oak-crossing-and-glendale",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "After our troops retired, the bridge was rebuilt, and Jackson pressed on in pursuit."
+        }
+      ]
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish the commanders’ contemporary knowledge. Retrospective explanations of beliefs, surprise or missed opportunities are not independently verified information states.",
+      "citations": []
+    },
+    {
+      "id": "rearguard-and-retreat-route",
+      "dimension": "objectives",
+      "value": "The frozen descriptions place Franklin’s rearguard at the White Oak crossing and the main fighting farther south at Glendale during the Union retreat.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Protecting or attacking a withdrawal route supplies operational context, not a fully inspected original mission. Maintain the overlapping record scopes.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA020A"
+          },
+          "column": "description",
+          "quote": "The Union rearguard under Maj. Gen. William Franklin stopped Jackson's divisions at the White Oak Bridge crossing"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA020A"
+          },
+          "column": "description",
+          "quote": "while the main battle raged two miles farther south at Glendale or Frayser's Farm."
+        }
+      ]
+    },
+    {
+      "id": "separate-sector-commands",
+      "dimension": "responsibility",
+      "value": "The frozen record assigns the White Oak encounter to Franklin and Jackson; the Glendale description assigns penetrating attacks to Longstreet and A. P. Hill and counterattacks to Hooker and Kearny.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "These are related sectors with different immediate commands. The presence of Lee or McClellan in a principal list is not sole or equal credit for each sector.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA020A"
+          },
+          "column": "description",
+          "quote": "under Maj. Gen. William Franklin stopped Jackson's divisions"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA020B"
+          },
+          "column": "description",
+          "quote": "Longstreet's and Hill's attacks penetrated the Union defense"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA020B"
+          },
+          "column": "description",
+          "quote": "Union counterattacks by Hooker's and Kearny's divisions sealed the break"
+        }
+      ]
+    },
+    {
+      "id": "combined-and-component-overlap",
+      "dimension": "outcome",
+      "value": "The frozen table retains VA020 Glendale/White Oak Swamp together with VA020A White Oak Swamp and VA020B Glendale. VA020A explicitly says it can be considered part of Glendale.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Preserve all three rows for cohort coverage, not three independent opportunities or additive casualties. VA020 currently fails the decisive-outcome and numerical-strength rules, not an aggregate-operation flag. This overlap remains a separate constraint for future admission; this pass changes no grain rules or model rows.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA020"
+          },
+          "column": "description",
+          "quote": "Glendale - This is the fifth of the Seven Days' Battles."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA020"
+          },
+          "column": "description",
+          "quote": "White Oak Swamp - The Union rearguard"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA020A"
+          },
+          "column": "description",
+          "quote": "White Oak Swamp can be considered part of the Glendale engagement."
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Inconclusive (Union withdrawal continued.).",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Retain the frozen outcome and engagement interval. A tactical result, later retreat, success at a local sector and campaign contribution are different measures. No causal effect, half-win or extra independent victory is inferred.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA020B"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive (Union withdrawal continued.)"
+        },
+        {
+          "source_id": "nps-va020b-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        }
+      ]
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 6,500 total. The live NPS table reads 6300 total (US 2700; CS 3600;).",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "Preserve source versions and population boundaries. No original return was inspected to reconcile totals, categories, missing side breakdowns or reporting cutoffs. A zero display is not no losses; casualties and captured hospital populations are not opening strength. Do not add overlapping battle/component totals.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA020B"
+          },
+          "column": "casualties_text",
+          "quote": "6,500 total"
+        },
+        {
+          "source_id": "nps-va020b-v1",
+          "locator": "Estimated Casualties",
+          "quote": "6300 total (US 2700; CS 3600;)"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Original orders, personnel and casualty returns, contemporary message chains, disputed totals and precise command clocks remain deferred after the bounded follow-up. No OCR-to-print or map verification is claimed.",
+    "Keep opening, reinforced, engaged, hospital, captured and vessel populations distinct. Source fields and retrospective judgments do not establish causal contributions.",
+    "Preserve frozen outcomes and campaign membership, including combined/component rows; no automatic commander credit or battle/campaign double counting."
+  ]
+}

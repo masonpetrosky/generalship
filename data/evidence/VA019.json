@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA019",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass within the complete frozen 16-record Peninsula Campaign. Opening personnel and effective replacement boundaries remain unresolved. The combined VA020 and component VA020A/VA020B records overlap and cannot supply additive battle credit. Draft prose does not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical bounds are blank; zero displays, vessel lists, combined army totals and later casualties cannot fill them.",
+      "citations": []
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions; the live NPS table reads 0 total (US 0; CS 0;).",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "These are source fields, not matched opening returns. Preserve vessel versus personnel units, unspecified formations and combined versus side totals. Shared NPS/CWSAC provenance supplies no independent confirmation; displayed zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA019"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va019-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ]
+    },
+    {
+      "id": "railroad-and-road-pursuit",
+      "dimension": "terrain",
+      "value": "NPS describes pursuit along the railroad and Williamsburg Road to the rearguard near Savage’s Station.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Routes and position only; not a verified map or numeric terrain factor.",
+      "citations": [
+        {
+          "source_id": "nps-va019-v1",
+          "locator": "Description",
+          "quote": "Magruder pursued along the railroad and the Williamsburg Road"
+        }
+      ]
+    },
+    {
+      "id": "abandoned-supplies",
+      "dimension": "logistics",
+      "value": "NPS says Union forces continued across White Oak Swamp while abandoning supplies and a field hospital.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Withdrawal logistics rather than opening readiness; hospital patients are not automatically casualties incurred in this engagement.",
+      "citations": [
+        {
+          "source_id": "nps-va019-v1",
+          "locator": "Description",
+          "quote": "Union forces continued to withdraw across White Oak Swamp, abandoning supplies and more than 2,500 wounded soldiers in a field hospital."
+        }
+      ]
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish the commanders’ contemporary knowledge. Retrospective explanations of beliefs, surprise or missed opportunities are not independently verified information states.",
+      "citations": []
+    },
+    {
+      "id": "withdrawal-and-pursuit",
+      "dimension": "objectives",
+      "value": "NPS frames the action as Confederate pursuit of a Union army withdrawing toward the James River.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Operational setting, not an inspected complete set of success criteria for either side.",
+      "citations": [
+        {
+          "source_id": "nps-va019-v1",
+          "locator": "Description",
+          "quote": "the main body of the Union army began a general withdrawal toward the James River."
+        },
+        {
+          "source_id": "nps-va019-v1",
+          "locator": "Description",
+          "quote": "Magruder pursued"
+        }
+      ]
+    },
+    {
+      "id": "rearguard-and-stalled-command",
+      "dimension": "responsibility",
+      "value": "NPS assigns the rearguard to Sumner and the attack to three brigades under Magruder, with Jackson’s divisions stalled north of the Chickahominy.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Separate commands and participation; principal listings do not establish equal or exclusive credit.",
+      "citations": [
+        {
+          "source_id": "nps-va019-v1",
+          "locator": "Description",
+          "quote": "struck Sumner's Corps (the Union rearguard) with three brigades"
+        },
+        {
+          "source_id": "nps-va019-v1",
+          "locator": "Description",
+          "quote": "Jackson's divisions were stalled north of the Chickahominy."
+        }
+      ]
+    },
+    {
+      "id": "hospital-population-scope",
+      "dimension": "outcome",
+      "value": "Webb describes 2,500 sick and wounded left in the hospital and 500 medical men and attendants remaining with them; NPS describes more than 2,500 wounded.",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "Counts and categories differ. Do not convert hospital occupants into newly wounded, add them to aggregate casualties or treat the medical staff as combat strength.",
+      "citations": [
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "savage-hospital",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "2,500 sick and wounded"
+        },
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "savage-hospital",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "medical men, surgeons, and attendants, who remained behind, to the number of 500"
+        },
+        {
+          "source_id": "nps-va019-v1",
+          "locator": "Description",
+          "quote": "more than 2,500 wounded soldiers in a field hospital."
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Inconclusive.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Retain the frozen outcome and engagement interval. A tactical result, later retreat, success at a local sector and campaign contribution are different measures. No causal effect, half-win or extra independent victory is inferred.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA019"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va019-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        }
+      ]
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 4,700 total (US 2,500 wounded were captured). The live NPS table reads 1363 total (US 919; CS 444;).",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "Preserve source versions and population boundaries. No original return was inspected to reconcile totals, categories, missing side breakdowns or reporting cutoffs. A zero display is not no losses; casualties and captured hospital populations are not opening strength. Do not add overlapping battle/component totals.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA019"
+          },
+          "column": "casualties_text",
+          "quote": "4,700 total (US 2,500 wounded were captured)"
+        },
+        {
+          "source_id": "nps-va019-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1363 total (US 919; CS 444;)"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Original orders, personnel and casualty returns, contemporary message chains, disputed totals and precise command clocks remain deferred after the bounded follow-up. No OCR-to-print or map verification is claimed.",
+    "Keep opening, reinforced, engaged, hospital, captured and vessel populations distinct. Source fields and retrospective judgments do not establish causal contributions.",
+    "Preserve frozen outcomes and campaign membership, including combined/component rows; no automatic commander credit or battle/campaign double counting."
+  ]
+}

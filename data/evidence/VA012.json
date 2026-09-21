@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA012",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass within the complete frozen 16-record Peninsula Campaign. Opening personnel and effective replacement boundaries remain unresolved. The combined VA020 and component VA020A/VA020B records overlap and cannot supply additive battle credit. Draft prose does not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical bounds are blank; zero displays, vessel lists, combined army totals and later casualties cannot fill them.",
+      "citations": []
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 5 gunboats [US]; battery garrison [CS]; the live NPS table reads 0 total (US 0; CS 0;).",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "These are source fields, not matched opening returns. Preserve vessel versus personnel units, unspecified formations and combined versus side totals. Shared NPS/CWSAC provenance supplies no independent confirmation; displayed zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA012"
+          },
+          "column": "forces_text",
+          "quote": "5 gunboats [US]; battery garrison [CS]"
+        },
+        {
+          "source_id": "nps-va012-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ]
+    },
+    {
+      "id": "bluff-and-obstructions",
+      "dimension": "terrain",
+      "value": "The NPS park history describes a bluff ninety feet above a sharp river bend and vessels sunk below it as obstructions.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Attributed dimensions and engineered obstacles; no verified map or causal advantage score. Defensive construction is not assumed inherited.",
+      "citations": [
+        {
+          "source_id": "nps-drewry-history-v1",
+          "locator": "1862 narrative, before Expansion at Drewry’s Bluff 1862-1864",
+          "quote": "rose 90 feet above the water and commanded a sharp bend in the James River"
+        },
+        {
+          "source_id": "nps-drewry-history-v1",
+          "locator": "1862 narrative, before Expansion at Drewry’s Bluff 1862-1864",
+          "quote": "sunk as obstructions in the river beneath the bluff."
+        }
+      ]
+    },
+    {
+      "id": "ammunition-at-withdrawal",
+      "dimension": "logistics",
+      "value": "The NPS park history says Rodgers ended the action with ammunition nearly depleted.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "An end-of-action constraint, not an opening ammunition count or readiness measure.",
+      "citations": [
+        {
+          "source_id": "nps-drewry-history-v1",
+          "locator": "1862 narrative, before Expansion at Drewry’s Bluff 1862-1864",
+          "quote": "With his ammunition nearly depleted, Commander Rodgers gave the signal to discontinue the action at 11:30."
+        }
+      ]
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish the commanders’ contemporary knowledge. Retrospective explanations of beliefs, surprise or missed opportunities are not independently verified information states.",
+      "citations": []
+    },
+    {
+      "id": "test-river-defenses",
+      "dimension": "objectives",
+      "value": "NPS says the five Union gunboats steamed up the James to test Richmond’s defenses.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Attributed mission rather than an inspected original order or probability of capturing Richmond.",
+      "citations": [
+        {
+          "source_id": "nps-va012-v1",
+          "locator": "Description",
+          "quote": "steamed up the James to test the Richmond defenses."
+        }
+      ]
+    },
+    {
+      "id": "ship-and-shore-command",
+      "dimension": "responsibility",
+      "value": "The park history identifies Rodgers with the flotilla and Farrand supervising the fort’s defenses.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Distinct naval and shore roles; other listed officers receive no automatic credit.",
+      "citations": [
+        {
+          "source_id": "nps-drewry-history-v1",
+          "locator": "1862 narrative, before Expansion at Drewry’s Bluff 1862-1864",
+          "quote": "The force, under Commander John Rodgers, consisted of five ships."
+        },
+        {
+          "source_id": "nps-drewry-history-v1",
+          "locator": "1862 narrative, before Expansion at Drewry’s Bluff 1862-1864",
+          "quote": "Commander Ebeneezer Farrand supervised the defenses of the fort."
+        }
+      ]
+    },
+    {
+      "id": "park-loss-account",
+      "dimension": "outcome",
+      "value": "The park history reports at least 14 Union dead and 13 wounded and Confederate admissions of 7 killed and 8 wounded.",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "This does not reconcile the frozen 41 total or live battle-page 39 total. Preserve the lower-bound wording and source/category differences within one NPS family.",
+      "citations": [
+        {
+          "source_id": "nps-drewry-history-v1",
+          "locator": "1862 narrative, before Expansion at Drewry’s Bluff 1862-1864",
+          "quote": "His sailors suffered at least 14 dead and 13 wounded, while the Confederates admitted to 7 killed and 8 wounded."
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Confederate victory.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Retain the frozen outcome and engagement interval. A tactical result, later retreat, success at a local sector and campaign contribution are different measures. No causal effect, half-win or extra independent victory is inferred.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA012"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va012-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        }
+      ]
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 41 total. The live NPS table reads 39 total (US 24; CS 15;).",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "Preserve source versions and population boundaries. No original return was inspected to reconcile totals, categories, missing side breakdowns or reporting cutoffs. A zero display is not no losses; casualties and captured hospital populations are not opening strength. Do not add overlapping battle/component totals.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA012"
+          },
+          "column": "casualties_text",
+          "quote": "41 total"
+        },
+        {
+          "source_id": "nps-va012-v1",
+          "locator": "Estimated Casualties",
+          "quote": "39 total (US 24; CS 15;)"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Original orders, personnel and casualty returns, contemporary message chains, disputed totals and precise command clocks remain deferred after the bounded follow-up. No OCR-to-print or map verification is claimed.",
+    "Keep opening, reinforced, engaged, hospital, captured and vessel populations distinct. Source fields and retrospective judgments do not establish causal contributions.",
+    "Preserve frozen outcomes and campaign membership, including combined/component rows; no automatic commander credit or battle/campaign double counting."
+  ]
+}

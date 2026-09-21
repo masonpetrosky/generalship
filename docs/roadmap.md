@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **17 draft dossiers / 127 engagements**, with **110 without a dossier**.
+There are **33 draft dossiers / 127 engagements**, with **94 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -62,13 +62,21 @@ The [New Madrid/Memphis pass](research/mississippi-joint-first-pass-v1.md) adds
 1862]** group. Its 21 claims use NPS/CWSAC and Mahan's retrospective naval history,
 with five explicit unknowns. Separate Astra `xhigh`
 [review](../artifacts/review-results/mississippi-joint-0433daa-astra-xhigh-v1/review.md)
-accepted all 21 claims and 36 citations with no required corrections. Coverage is **6/36 complete
+accepted all 21 claims and 36 citations with no required corrections. That pass brought coverage to **6/36 complete
 source campaigns by dossier presence**; no features are admitted.
 
-Next take **Peninsula Campaign [March-July 1862]**, the next complete frozen
-campaign by earliest engagement date: **16 engagements**, VA008–VA021 plus VA020A
-and VA020B, beginning with **Hampton Roads (VA008)**. Preserve the frozen combined
-and component rows without treating them as independent extra wins.
+The [Peninsula first pass](research/peninsula-first-pass-v1.md) now supplies all
+**16 frozen records, VA008–VA021 plus VA020A and VA020B**, with **152 claims, 39
+explicit unknowns and 209 citations**. Fourteen land records use NPS/CWSAC and
+Webb's retrospective participant history; the two naval records retain one NPS
+family. Separate review is pending. Coverage is **7/36 complete campaigns by
+dossier presence**, with zero newly admitted features. VA020 and its two component
+records remain overlapping; coverage is not three independent wins.
+
+Next take **Jackson's Valley Campaign [March-June 1862]**, the next complete frozen
+group by earliest engagement date: **seven records**, First Kernstown (VA101),
+McDowell (VA102), Princeton Court House (WV009), Front Royal (VA103), First
+Winchester (VA104), Cross Keys (VA105) and Port Republic (VA106).
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

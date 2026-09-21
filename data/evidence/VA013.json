@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA013",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass within the complete frozen 16-record Peninsula Campaign. Opening personnel and effective replacement boundaries remain unresolved. The combined VA020 and component VA020A/VA020B records overlap and cannot supply additive battle credit. Draft prose does not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical bounds are blank; zero displays, vessel lists, combined army totals and later casualties cannot fill them.",
+      "citations": []
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions; the live NPS table reads 0 total (US 0; CS 0;).",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "These are source fields, not matched opening returns. Preserve vessel versus personnel units, unspecified formations and combined versus side totals. Shared NPS/CWSAC provenance supplies no independent confirmation; displayed zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA013"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va013-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ]
+    },
+    {
+      "id": "road-and-woods",
+      "dimension": "terrain",
+      "value": "Webb describes contact near the Ashland/Hanover road junction and Confederate troops extending into woods east of the Court House road.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Attributed encounter geography; no map or numeric terrain modifier.",
+      "citations": [
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "hanover-contact-and-support",
+          "locator": "pp.94–95 (OCR page markers; not checked against print)",
+          "quote": "the junction of the Ashland road and the Hanover Court House road"
+        },
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "hanover-contact-and-support",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "extended into the woods on the right and east of the Court House road."
+        }
+      ]
+    },
+    {
+      "id": "local-ammunition-shortage",
+      "dimension": "logistics",
+      "value": "Webb describes the Second Maine and Forty-fourth New York as almost out of ammunition when relieved.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "A local in-action condition, not the opening supply of Porter’s entire force. No numerical readiness inference.",
+      "citations": [
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "hanover-contact-and-support",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "This regiment relieved the Second Maine and Forty-fourth New York"
+        },
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "hanover-contact-and-support",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "who were also almost out of ammunition."
+        }
+      ]
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish the commanders’ contemporary knowledge. Retrospective explanations of beliefs, surprise or missed opportunities are not independently verified information states.",
+      "citations": []
+    },
+    {
+      "id": "railroad-and-reinforcement-route",
+      "dimension": "objectives",
+      "value": "NPS gives Porter’s objectives as cutting the railroad and opening the Telegraph Road for McDowell’s expected reinforcements.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Retain assigned operational purpose separately from the later recall of reinforcements; do not recode the battle result as a campaign failure or success.",
+      "citations": [
+        {
+          "source_id": "nps-va013-v1",
+          "locator": "Description",
+          "quote": "Porter's objective was to cut the railroad and to open the Telegraph Road for Union reinforcements"
+        }
+      ]
+    },
+    {
+      "id": "porter-and-martindale",
+      "dimension": "responsibility",
+      "value": "Webb describes Porter pursuing toward the Court House before learning of Martindale’s situation and ordering his command to turn back.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Attributed command sequence; no independently synchronized message clock or causal fault finding.",
+      "citations": [
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "hanover-contact-and-support",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "When informed of the critical situation of Martindale's brigade, General Porter ordered the entire command to face about and toward Martindale"
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Union victory.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Retain the frozen outcome and engagement interval. A tactical result, later retreat, success at a local sector and campaign contribution are different measures. No causal effect, half-win or extra independent victory is inferred.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA013"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va013-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        }
+      ]
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,327 total (US 397; CS 930). The live NPS table reads 1101 total (US 355; CS 746;).",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "Preserve source versions and population boundaries. No original return was inspected to reconcile totals, categories, missing side breakdowns or reporting cutoffs. A zero display is not no losses; casualties and captured hospital populations are not opening strength. Do not add overlapping battle/component totals.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA013"
+          },
+          "column": "casualties_text",
+          "quote": "1,327 total (US 397; CS 930)"
+        },
+        {
+          "source_id": "nps-va013-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1101 total (US 355; CS 746;)"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Original orders, personnel and casualty returns, contemporary message chains, disputed totals and precise command clocks remain deferred after the bounded follow-up. No OCR-to-print or map verification is claimed.",
+    "Keep opening, reinforced, engaged, hospital, captured and vessel populations distinct. Source fields and retrospective judgments do not establish causal contributions.",
+    "Preserve frozen outcomes and campaign membership, including combined/component rows; no automatic commander credit or battle/campaign double counting."
+  ]
+}

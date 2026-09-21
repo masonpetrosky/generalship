@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA017",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass within the complete frozen 16-record Peninsula Campaign. Opening personnel and effective replacement boundaries remain unresolved. The combined VA020 and component VA020A/VA020B records overlap and cannot supply additive battle credit. Draft prose does not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The imported numerical force estimates retain their original basis; they are not newly validated as opening counts.",
+      "citations": []
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 91,232 total (US 34,214; CS 57,018); the live NPS table reads 91232 total (US 34214; CS 57018;).",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "These are source fields, not matched opening returns. Preserve vessel versus personnel units, unspecified formations and combined versus side totals. Shared NPS/CWSAC provenance supplies no independent confirmation; displayed zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA017"
+          },
+          "column": "forces_text",
+          "quote": "91,232 total (US 34,214; CS 57,018)"
+        },
+        {
+          "source_id": "nps-va017-v1",
+          "locator": "Forces Engaged",
+          "quote": "91232 total (US 34214; CS 57018;)"
+        }
+      ]
+    },
+    {
+      "id": "wooded-stream-approach",
+      "dimension": "terrain",
+      "value": "Webb describes steep stream banks near Morell’s right and dense woods covering approaches to his position.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Attributed local geography; no verified map, exact field reconstruction or numerical terrain effect.",
+      "citations": [
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "gaines-mill-position",
+          "locator": "p.130 (OCR page markers; not checked against print)",
+          "quote": "between steep banks"
+        },
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "gaines-mill-position",
+          "locator": "p.130 (OCR page markers; not checked against print)",
+          "quote": "The approaches were covered by dense woods, which furnished cover for the enemy's advance."
+        }
+      ]
+    },
+    {
+      "id": "wagons-and-stores",
+      "dimension": "logistics",
+      "value": "Webb says wagons had already been sent to the rear and some stores destroyed in anticipation of retreat.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Reported preparation during the developing operation, not an inherited logistical condition or causal score.",
+      "citations": [
+        {
+          "source_id": "webb-peninsula-selections-v1",
+          "section": "gaines-mill-position",
+          "locator": "p.130 (OCR page markers; not checked against print)",
+          "quote": "In anticipation of a retreat many of the wagons had already been sent to the rear and some stores destroyed."
+        }
+      ]
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish the commanders’ contemporary knowledge. Retrospective explanations of beliefs, surprise or missed opportunities are not independently verified information states.",
+      "citations": []
+    },
+    {
+      "id": "renewed-attack",
+      "dimension": "objectives",
+      "value": "NPS describes Lee renewing attacks against Porter’s V Corps north of the Chickahominy.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Immediate target only; the narrative’s claim that the battle saved Richmond is not admitted as measured campaign contribution.",
+      "citations": [
+        {
+          "source_id": "nps-va017-v1",
+          "locator": "Description",
+          "quote": "Lee renewed his attacks against Porter's V Corps"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-and-command",
+      "dimension": "responsibility",
+      "value": "NPS describes Porter’s reinforced V Corps holding through the afternoon before a coordinated Confederate assault at dusk.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Reinforced strength is not an unchanged opening population. Principal commanders receive no automatic share of all subordinate action.",
+      "citations": [
+        {
+          "source_id": "nps-va017-v1",
+          "locator": "Description",
+          "quote": "Porter's reinforced V Corps held fast for the afternoon"
+        },
+        {
+          "source_id": "nps-va017-v1",
+          "locator": "Description",
+          "quote": "At dusk, the Confederates finally mounted a coordinated assault"
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Confederate victory.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Retain the frozen outcome and engagement interval. A tactical result, later retreat, success at a local sector and campaign contribution are different measures. No causal effect, half-win or extra independent victory is inferred.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA017"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va017-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        }
+      ]
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 15,500 total (US 6,800; CS 8,700). The live NPS table reads 15587 total (US 6837; CS 8750;).",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "Preserve source versions and population boundaries. No original return was inspected to reconcile totals, categories, missing side breakdowns or reporting cutoffs. A zero display is not no losses; casualties and captured hospital populations are not opening strength. Do not add overlapping battle/component totals.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA017"
+          },
+          "column": "casualties_text",
+          "quote": "15,500 total (US 6,800; CS 8,700)"
+        },
+        {
+          "source_id": "nps-va017-v1",
+          "locator": "Estimated Casualties",
+          "quote": "15587 total (US 6837; CS 8750;)"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Original orders, personnel and casualty returns, contemporary message chains, disputed totals and precise command clocks remain deferred after the bounded follow-up. No OCR-to-print or map verification is claimed.",
+    "Keep opening, reinforced, engaged, hospital, captured and vessel populations distinct. Source fields and retrospective judgments do not establish causal contributions.",
+    "Preserve frozen outcomes and campaign membership, including combined/component rows; no automatic commander credit or battle/campaign double counting."
+  ]
+}
