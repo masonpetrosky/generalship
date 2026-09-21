@@ -28,11 +28,12 @@ preservation; its old claims were not re-reviewed. All four dossiers remain draf
 The [Cockpit Point first pass](research/cockpit-point-first-pass-v1.md) adds
 **VA100**, the sole frozen member of **Blockade of the Potomac River [October
 1861-January 1862]**. Its 10 claims use one retained NPS/CWSAC family, with three
-explicit unknowns; separate campaign review is pending. That makes **2/36 complete
+explicit unknowns. Astra `xhigh` [review](../artifacts/review-results/cockpit-point-1d96e40-astra-xhigh-v1/review.md)
+accepted all 10 claims with no required corrections. That makes **2/36 complete
 source groups by dossier presence**, not historical completeness or feature eligibility.
 
-After review, take **Jackson's Operations Against the B&O Railroad [January 1862]**,
-whose complete frozen membership is **MD001 — Hancock** (January 5, 1862).
+Next take **Jackson's Operations Against the B&O Railroad [January 1862]**,
+whose complete frozen membership is **MD001 — Hancock** (starting January 5, 1862).
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

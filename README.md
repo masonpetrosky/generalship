@@ -82,8 +82,9 @@ The [bounded river-campaign pass](docs/research/river-campaign-first-pass-v1.md)
 adds Fort Henry, Fort Donelson and Corinth, carrying forward Shiloh unchanged.
 The three new drafts passed separate Astra `xhigh` source review; no model inputs
 are admitted. The [Cockpit Point first pass](docs/research/cockpit-point-first-pass-v1.md)
-now covers the complete frozen Potomac blockade group; its separate review is
-pending. After review, take **Hancock (MD001)**, the next complete source campaign. See the
+now covers the complete frozen Potomac blockade group. Astra `xhigh` accepted
+all 10 new claims with no required corrections; one source family and three
+unknowns remain explicit. Next: **Hancock (MD001)**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.

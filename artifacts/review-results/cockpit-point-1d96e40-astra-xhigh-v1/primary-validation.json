@@ -1,0 +1,56 @@
+{
+  "previous_commit": "b165fbdd891f598c6e013eb69a10c0469fe302b2",
+  "prior_source_entries_unchanged": 184,
+  "prior_distinct_raw_hashes_verified": 181,
+  "protected_paths_unchanged": [
+    "data/evidence/TN002.json",
+    "data/evidence/MS009.json",
+    "data/evidence/TN003.json",
+    "data/evidence/MD003.json",
+    "data/evidence/TN001.json",
+    "data/evidence/MS016.json",
+    "data/evidence/history/TN003.v1.json",
+    "data/evidence/history/TN003.v4.json",
+    "data/evidence/history/TN003.v5.json",
+    "data/evidence/history/TN003.v2.json",
+    "data/evidence/history/TN003.v3.json",
+    "data/pilot/cohort.json",
+    "data/admission/shiloh-opening-v1.json",
+    "data/admission/shiloh-opening-v2.json",
+    "artifacts/baseline.json"
+  ],
+  "digital_extractions_reproduced": 2,
+  "dossier_complete_campaigns": [
+    "Blockade of the Potomac River [October 1861-January 1862]",
+    "Federal Penetration up the Cumberland and Tennessee Rivers [February-June 1862]"
+  ],
+  "make_check": "82 tests and pipeline checks passed",
+  "make_reproduce": "passed; pilot report inspected",
+  "no_new_features": true,
+  "prepared_commit": "1d96e40ad235ca32a2eae33f7b5e5d710c1190c5",
+  "prepared_input_hashes_verified": 16,
+  "admission_v2": {
+    "status_counts": {
+      "blocked": 7,
+      "excluded": 33
+    },
+    "promoted_rows": 0
+  },
+  "review": {
+    "actual_task_identity": "/root/cockpit_point_review",
+    "response_sha256": "088c5b842fbe894d63b3660ba69cbded72f2ed72a9de4b131b683a33cc780ab4",
+    "decision": "no required corrections; accepted within bounded scope",
+    "claims": 10,
+    "citation_occurrences": 18,
+    "unknown_claims": 3,
+    "new_evidence_changed_after_review": false
+  },
+  "finalization": {
+    "reviewed_evidence_paths_unchanged": 10,
+    "all_prior_admission_files_unchanged": true,
+    "review_response_unchanged": true,
+    "make_reproduce": "pass; final pilot report inspected",
+    "python3_m_generalship_check": "pass; zero promoted rows",
+    "git_diff_check": "pass"
+  }
+}

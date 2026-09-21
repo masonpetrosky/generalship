@@ -80,6 +80,9 @@ no image, map, original report or facsimile was inspected. The attempted Navy
 follow-up was not retained as evidence. Unknown opening personnel, combat supply
 and information stay explicit, and January's nondecisive outcome is separate
 from the later March evacuation. No raw evidence or model input is replaced.
+Separate Astra `xhigh` [review](../artifacts/review-results/cockpit-point-1d96e40-astra-xhigh-v1/review.md)
+accepted all 10 claims with no required corrections; it remains digital-text review
+of one source family, not historical adjudication.
 
 ### Bounded river-campaign first pass, 2026-09-20
 

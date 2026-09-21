@@ -4,7 +4,9 @@ Prepared 2026-09-20. [VA100](../../data/evidence/VA100.json) is the sole frozen
 engagement in **Blockade of the Potomac River [October 1861-January 1862]**.
 The new draft has **10 claims across all seven dimensions**, including **three
 explicit unknowns**: opening personnel, combat logistics and contemporary information.
-Separate campaign review is pending. No model feature is admitted.
+Separate Astra `xhigh` [review](../../artifacts/review-results/cockpit-point-1d96e40-astra-xhigh-v1/review.md)
+accepted all 10 claims and 18 citation occurrences with no required corrections.
+No model feature is admitted.
 
 Coverage becomes **7/127 draft dossiers**, **120 without a dossier**, and **2/36
 source campaigns with every member represented**. Dossier presence, source review
@@ -59,10 +61,15 @@ from one family and stops without asserting independent confirmation.
 
 The unchanged baseline still uses **23/127 engagements across 13 groups**, with
 Brier **0.276882 versus 0.250000** for equal odds. The frozen cohort, six earlier
-dossiers, all raw inputs and both admission proposals are unchanged; zero new
+dossiers, all prior raw inputs and both admission proposals are unchanged; zero new
 features or promoted rows result from this pass.
 
-After one bounded source review, proceed to **Jackson's Operations Against the
+The [primary assessment](../../artifacts/review-results/cockpit-point-1d96e40-astra-xhigh-v1/primary-assessment.md)
+accepts the bounded review. Both extraction replays and prior-evidence preservation
+checks passed; `make check` passed all 82 tests, and artifacts were regenerated.
+The dossier remains a draft, with its unknowns intact.
+
+Next, proceed to **Jackson's Operations Against the
 B&O Railroad [January 1862]**, whose complete frozen membership is **Hancock
-(MD001), January 5, 1862**. This is the earliest remaining group under the standing
+(MD001), starting January 5, 1862**. This is the earliest remaining group under the standing
 chronological rule. No extra Cockpit Point investigation is required to move on.
