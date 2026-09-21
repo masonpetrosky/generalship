@@ -68,6 +68,22 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Eastern Kentucky first pass, 2026-09-20
+
+The [campaign memo](research/eastern-kentucky-first-pass-v1.md) records Middle
+Creek and Mill Springs together. Ten new source records bring the registry to
+**203 entries / 200 raw paths**, preserving all previous **193/190**: NPS
+HTML/text pairs for both battles and the Crittenden article, Cornell/Internet
+Archive catalog and full Official Records VII OCR, and Garfield/Thomas selections.
+Each battle uses NPS/CWSAC plus its Union commander's report family; reprints and
+the shared compilation are not additional witnesses. Read all retained selections;
+no print facsimile, casualty-table layout, original manuscript or cited modern
+book was inspected. Report dates are section-specific. Exact character ranges
+replay whitespace-only extraction; OCR errors remain. The OCR imprint is 1882,
+while the catalog's 1880 is a collection date. Original Confederate evidence,
+matched strengths, source disputes and exact clocks remain deferred after one
+targeted report-recovery follow-up per battle. Drafts admit no model features.
+
 ### Hancock first pass, 2026-09-20
 
 The [bounded pass](research/hancock-first-pass-v1.md) adds five records: NPS

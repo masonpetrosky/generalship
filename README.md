@@ -22,8 +22,8 @@ wins a commander caused. No validated commander ranking exists here yet.
   dates, force ranges, missingness, outcome codes, and cohort membership.
 - A small regularized logistic baseline using relative force size. Evaluation
   holds out whole campaigns and compares with equal odds and a training-only prior.
-- Eight draft dossiers: **Cockpit Point, Hancock, Fort Henry, Fort Donelson,
-  Shiloh, Corinth, Antietam and Champion Hill**, with exact source
+- Ten draft dossiers: **Cockpit Point, Hancock, Middle Creek, Mill Springs,
+  Fort Henry, Fort Donelson, Shiloh, Corinth, Antietam and Champion Hill**, with exact source
   passages, explicit unknowns, command questions, and inherited/created distinctions.
 - A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
   independently authored histories, and return-table scans. The follow-up
@@ -73,7 +73,7 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 ## Research direction
 
 **Current priority: comparable coverage across the 127 engagements.** We have
-eight draft dossiers and 119 engagements without one. Shiloh's repeated source
+ten draft dossiers and 117 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.
@@ -87,8 +87,9 @@ all 10 new claims with no required corrections; one source family and three
 unknowns remain explicit. The [Hancock first pass](docs/research/hancock-first-pass-v1.md)
 adds 11 claims from two source families, retaining chronology and casualty disputes;
 Astra `xhigh` accepted all 11 claims with no required corrections.
-Next: **Middle Creek and Mill Springs**,
-the complete Eastern Kentucky campaign. See the
+The [Eastern Kentucky pass](docs/research/eastern-kentucky-first-pass-v1.md) adds
+Middle Creek and Mill Springs with 22 claims and three explicit unknowns;
+separate campaign review is pending. Next: **Burnside’s North Carolina Expedition**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.

@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "battle_id": "KY006",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass within the complete frozen Eastern Kentucky campaign. Opening populations and replacement boundaries remain unestablished. Retrospective assertions and later pursuit context supply no admitted features or causal scores.",
+  "claims": [
+    {
+      "id": "formations-and-live-strength",
+      "dimension": "strength",
+      "value": "The frozen description lists a Union division and Schoepf’s brigade, four brigades in total, against two Confederate brigades. The live NPS table displays US zero and CS 5,000.",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "Formation labels do not supply comparable headcounts; the zero is not evidence of no Union troops, and the new Confederate number has no inspected return basis.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY006"
+          },
+          "column": "forces_text",
+          "quote": "1st Division, Army of the Ohio, and Brig. Gen. A. Schoepf's Brigade (total of four brigades) [US]; division of two brigades [CS]"
+        },
+        {
+          "source_id": "nps-ky006-v1",
+          "locator": "Forces Engaged",
+          "quote": "5000 total (US 0; CS 5000;)"
+        }
+      ]
+    },
+    {
+      "id": "matched-opening-strengths-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "Frozen numerical bounds are blank. Thomas’s report distinguishes arrivals, camp guards, participants and late pursuit formations, but supplies no validated matched opening headcounts. No Confederate personnel return was inspected.",
+      "citations": []
+    },
+    {
+      "id": "river-position",
+      "dimension": "terrain",
+      "value": "The NPS Crittenden article says Zollicoffer camped north of the Cumberland and attributed failure to recross to flooding and insufficient crossing means.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Secondary interpretation of the constraint and Zollicoffer’s explanation; no original engineering report, river survey or precise crossing capacity was inspected.",
+      "citations": [
+        {
+          "source_id": "nps-crittenden-v1",
+          "locator": "Description",
+          "quote": "Zollicoffer blamed recent rains that flooded the river as well as inadequate means of crossing for his failure to comply with Crittenden’s order."
+        }
+      ]
+    },
+    {
+      "id": "roads-and-ammunition",
+      "dimension": "logistics",
+      "value": "Thomas reports units delayed in rear by nearly impassable roads, and later replacing the Fourth Kentucky and Tenth Indiana when they were nearly out of ammunition.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Keep pre-fight movement constraints distinct from ammunition expended during combat; neither is a numerical readiness score or proven inherited disadvantage.",
+      "citations": [
+        {
+          "source_id": "or7-thomas-selections-v1",
+          "section": "thomas-1862-01-31",
+          "locator": "OR I VII, pp.79–82, report of January 31 (OCR page markers; not checked against print)",
+          "quote": "detained by the almost impassable condition of the roads"
+        },
+        {
+          "source_id": "or7-thomas-selections-v1",
+          "section": "thomas-1862-01-31",
+          "locator": "OR I VII, pp.79–82, report of January 31 (OCR page markers; not checked against print)",
+          "quote": "I directed him to take the position of the Fourth Kentucky and Tenth Indiana, which regi- ments were nearly out of ammunition."
+        }
+      ]
+    },
+    {
+      "id": "warning-and-command-chain",
+      "dimension": "information",
+      "value": "Thomas says cavalry pickets reported the advance to Manson, who formed his regiment, ordered support and informed Thomas in person.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "A participant’s retrospective warning sequence. OCR prints the clock as G.30; no exact clock is normalized or used as a feature.",
+      "citations": [
+        {
+          "source_id": "or7-thomas-selections-v1",
+          "section": "thomas-1862-01-31",
+          "locator": "OR I VII, pp.79–82, report of January 31 (OCR page markers; not checked against print)",
+          "quote": "reported their advance to Col. M. D. Manson, commanding the Second Brigade."
+        },
+        {
+          "source_id": "or7-thomas-selections-v1",
+          "section": "thomas-1862-01-31",
+          "locator": "OR I VII, pp.79–82, report of January 31 (OCR page markers; not checked against print)",
+          "quote": "then informed me in person that the enemy were advancing in force and what disposi- tion he had made to resist them."
+        }
+      ]
+    },
+    {
+      "id": "confederate-information-corroboration-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "NPS describes local spies, a council decision and mistaken expectations that flooded Fishing Creek would prevent Union reinforcement. No original spy report, council record or Confederate correspondence was inspected to independently establish this knowledge state.",
+      "citations": []
+    },
+    {
+      "id": "union-objective",
+      "dimension": "objectives",
+      "value": "NPS says Thomas was ordered to drive the Confederates across the Cumberland and break up Crittenden’s army.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "The original December 29 instruction cited by Thomas was not inspected. Preserve this as an attributed operational aim, not an additional scored success.",
+      "citations": [
+        {
+          "source_id": "nps-ky006-v1",
+          "locator": "Description",
+          "quote": "Union Brig. Gen. George Thomas received orders to drive the Rebels across the Cumberland River and break up Maj. Gen. George B. Crittenden's army."
+        }
+      ]
+    },
+    {
+      "id": "distributed-actions",
+      "dimension": "responsibility",
+      "value": "NPS attributes the Confederate attack decision to Crittenden. Thomas attributes the Union flank attack to the Ninth Ohio while the Second Minnesota maintained frontal fire.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Actions remain assigned to the named actors without automatic outcome credit. Thomas’s praise and causal language are interested testimony, not a validated commander effect.",
+      "citations": [
+        {
+          "source_id": "nps-ky006-v1",
+          "locator": "Description",
+          "quote": "He knew that Thomas was in the vicinity and decided that his best defense was to attack the Yankees."
+        },
+        {
+          "source_id": "or7-thomas-selections-v1",
+          "section": "thomas-1862-01-31",
+          "locator": "OR I VII, pp.79–82, report of January 31 (OCR page markers; not checked against print)",
+          "quote": "The Second Minnesota kept up a most galling fire in front, and the Ninth Ohio charged the enemy on the right with bayonets fixed, turned their flank, and drove them from the field"
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen record and live NPS page both classify Mill Springs as a Union victory.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Shared source family, not independent corroboration or causal attribution; preserve the January 19 frozen engagement boundary.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY006"
+          },
+          "column": "result",
+          "quote": "Union"
+        },
+        {
+          "source_id": "nps-ky006-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        }
+      ]
+    },
+    {
+      "id": "casualty-discrepancy",
+      "dimension": "outcome",
+      "value": "The pinned table gives 671 casualties (US 232; CS 439); the live NPS page gives 791 (US 262; CS 529).",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "No reconciled return supports selecting between these versions. Thomas’s flattened OCR casualty table has not been decoded or used to settle this difference; his enemy losses are likewise unadjudicated.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY006"
+          },
+          "column": "casualties_text",
+          "quote": "671 total (US 232; CS 439)"
+        },
+        {
+          "source_id": "nps-ky006-v1",
+          "locator": "Estimated Casualties",
+          "quote": "791 total (US 262; CS 529;)"
+        }
+      ]
+    },
+    {
+      "id": "late-arrivals-and-next-morning",
+      "dimension": "outcome",
+      "value": "Thomas reports the Fourteenth Ohio and Tenth Kentucky joined after the repulse for pursuit, and that the enemy had left its entrenchments during the night when Union troops entered next morning.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Late pursuit units do not become opening participants. The January 20 occupation and captured property are subsequent context, not another frozen battle or independent campaign score.",
+      "citations": [
+        {
+          "source_id": "or7-thomas-selections-v1",
+          "section": "thomas-1862-01-31",
+          "locator": "OR I VII, pp.79–82, report of January 31 (OCR page markers; not checked against print)",
+          "quote": "although they could not get up in time to join in the fight."
+        },
+        {
+          "source_id": "or7-thomas-selections-v1",
+          "section": "thomas-1862-01-31",
+          "locator": "OR I VII, pp.79–82, report of January 31 (OCR page markers; not checked against print)",
+          "quote": "These two regiments were placed in front in my advance on the intrenchments the next morning and entered first."
+        },
+        {
+          "source_id": "or7-thomas-selections-v1",
+          "section": "thomas-1862-01-31",
+          "locator": "OR I VII, pp.79–82, report of January 31 (OCR page markers; not checked against print)",
+          "quote": "we found the enemy had abandoned everything and retired during the night."
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Reconcile opening populations only through a separately justified admission task; departure, engaged, reserve and late pursuit counts must stay distinct.",
+    "Original manuscripts, Confederate reports and print verification remain deferred after the one targeted report-recovery follow-up; OCR and source disagreements remain visible.",
+    "No adjudicated campaign contribution, replacement boundary or automatic credit to all listed commanders is established."
+  ]
+}

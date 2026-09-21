@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **8 draft dossiers / 127 engagements**, with **119 without a dossier**.
+There are **10 draft dossiers / 127 engagements**, with **117 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -36,13 +36,19 @@ sole frozen member of **Jackson's Operations Against the B&O Railroad [January
 1862]**. Its 11 claims use NPS/CWSAC and Allan's retrospective history, with two
 explicit unknowns and unresolved chronology/casualty discrepancies. Astra `xhigh`
 [review](../artifacts/review-results/hancock-86abaf3-astra-xhigh-v1/review.md)
-accepted all 11 claims with no required corrections. Coverage is **3/36 complete
+accepted all 11 claims with no required corrections. That pass brought coverage to **3/36 complete
 groups by dossier presence**, not historical
 completeness or feature eligibility.
 
-Next take **Offensive in Eastern Kentucky [January 1862]**, whose complete
-frozen membership is **KY005 — Middle Creek** (January 10) and **KY006 — Mill Springs**
-(January 19). Review those two engagements together.
+The [Eastern Kentucky pass](research/eastern-kentucky-first-pass-v1.md) adds
+**KY005 — Middle Creek** and **KY006 — Mill Springs**, the complete **Offensive
+in Eastern Kentucky [January 1862]** campaign. Each has 11 claims from two
+retained source families; there are three explicit unknowns across the batch.
+Separate campaign review is pending. Coverage is **4/36 complete groups by
+dossier presence**, with zero newly admitted features.
+
+Next take **Burnside's North Carolina Expedition [February-June 1862]**; retain
+its entire frozen membership: **Roanoke Island (NC002), New Berne (NC003), Fort Macon (NC004), South Mills (NC005), and Tranter’s Creek (NC006)**. Review it as a campaign batch.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

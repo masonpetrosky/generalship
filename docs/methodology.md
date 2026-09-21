@@ -173,7 +173,7 @@ claims against passages and independent review; record disagreements, source
 dependence, missing dimensions, and corrected claims. Matching a quote does not
 prove it supports the claim, and a correct extraction can preserve an incorrect source.
 
-Version 0.1 neither calls a model API nor trains on dossier text. The eight draft
+Version 0.1 neither calls a model API nor trains on dossier text. The ten draft
 dossiers illustrate the evidence contract and cannot be treated as validated
 enriched features. A separate fresh-context Astra `xhigh` review of the frozen
 Shiloh dossier checked 62 claims, 40 quantities, 26 events and 26 supplied scan
