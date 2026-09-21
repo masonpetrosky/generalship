@@ -43,6 +43,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 
 | Battle | Claims | Explicit unknowns | Quantities | Events | Status |
 |---|---:|---:|---:|---:|---|
+| [MD001](../data/evidence/MD001.json) | 11 | 2 | 0 | 0 | draft |
 | [MD003](../data/evidence/MD003.json) | 9 | 5 | 0 | 0 | draft |
 | [MS009](../data/evidence/MS009.json) | 7 | 3 | 0 | 0 | draft |
 | [MS016](../data/evidence/MS016.json) | 12 | 2 | 0 | 0 | draft |
@@ -60,8 +61,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 7 engagements have dossiers; 120 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [bounded river-campaign pass](../docs/research/river-campaign-first-pass-v1.md) adds Fort Henry, Fort Donelson and Corinth, with Shiloh unchanged. Separate Astra xhigh review accepted all 33 new claims with no required corrections; the dossiers remain drafts. The [Cockpit Point pass](../docs/research/cockpit-point-first-pass-v1.md) adds VA100 with one retained source family and three explicit unknowns; separate Astra xhigh review accepted all 10 claims with no required corrections. Next take Jackson's Operations Against the B&O Railroad, containing Hancock (MD001). See the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 8 engagements have dossiers; 119 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Hancock first pass](../docs/research/hancock-first-pass-v1.md) adds MD001 with two source families, two explicit unknowns and unresolved chronology/casualty discrepancies. Separate review is pending. After review, take the complete Offensive in Eastern Kentucky campaign: Middle Creek (KY005) and Mill Springs (KY006). Earlier completed passes and their reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

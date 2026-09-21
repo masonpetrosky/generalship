@@ -15,7 +15,7 @@ class EvidenceTests(unittest.TestCase):
     def test_repository_dossiers_have_resolvable_passages(self):
         dossiers = validate_all(ROOT)
         self.assertEqual({d['battle_id'] for d in dossiers},
-                         {'TN001', 'TN002', 'TN003', 'MD003', 'MS009', 'MS016', 'VA100'})
+                         {'TN001', 'TN002', 'TN003', 'MD001', 'MD003', 'MS009', 'MS016', 'VA100'})
         self.assertTrue(all(d['status']=='draft' for d in dossiers))
 
     def test_invented_quote_fails(self):

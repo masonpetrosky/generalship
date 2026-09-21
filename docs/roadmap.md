@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **7 draft dossiers / 127 engagements**, with **120 without a dossier**.
+There are **8 draft dossiers / 127 engagements**, with **119 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -29,11 +29,18 @@ The [Cockpit Point first pass](research/cockpit-point-first-pass-v1.md) adds
 **VA100**, the sole frozen member of **Blockade of the Potomac River [October
 1861-January 1862]**. Its 10 claims use one retained NPS/CWSAC family, with three
 explicit unknowns. Astra `xhigh` [review](../artifacts/review-results/cockpit-point-1d96e40-astra-xhigh-v1/review.md)
-accepted all 10 claims with no required corrections. That makes **2/36 complete
-source groups by dossier presence**, not historical completeness or feature eligibility.
+accepted all 10 claims with no required corrections. That pass brought coverage to two complete source groups by dossier presence.
 
-Next take **Jackson's Operations Against the B&O Railroad [January 1862]**,
-whose complete frozen membership is **MD001 — Hancock** (starting January 5, 1862).
+The [Hancock pass](research/hancock-first-pass-v1.md) now supplies **MD001**, the
+sole frozen member of **Jackson's Operations Against the B&O Railroad [January
+1862]**. Its 11 claims use NPS/CWSAC and Allan's retrospective history, with two
+explicit unknowns and unresolved chronology/casualty discrepancies. Separate review
+is pending. Coverage is **3/36 complete groups by dossier presence**, not historical
+completeness or feature eligibility.
+
+After review, take **Offensive in Eastern Kentucky [January 1862]**, whose complete
+frozen membership is **KY005 — Middle Creek** (January 10) and **KY006 — Mill Springs**
+(January 19). Review those two engagements together.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

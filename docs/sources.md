@@ -68,6 +68,20 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Hancock first pass, 2026-09-20
+
+The [bounded pass](research/hancock-first-pass-v1.md) adds five records: NPS
+MD001 HTML/text, Internet Archive catalog metadata for Allan's 1880 history, its
+complete OCR parent and two selected sections in one text file. The registry is
+**193 entries / 190 raw paths**, preserving all previous **188/185**. NPS remains
+in `nps-cwsac`; Allan's three artifacts form one `allan-valley-1880` family.
+Independence between the two families is unestablished. Both selected book sections
+and the full NPS summary were read, but no original report, map or facsimile was
+inspected. OCR errors are preserved; selection ranges and hashes reproduce the
+text without claiming print fidelity. The original-report follow-up was inaccessible.
+The draft retains the January 4/5 approach discrepancy, 25-versus-zero casualties,
+and unknown opening personnel/information. No existing source or model input changes.
+
 ### Cockpit Point first pass, 2026-09-20
 
 The [bounded pass](research/cockpit-point-first-pass-v1.md) adds two NPS HTML

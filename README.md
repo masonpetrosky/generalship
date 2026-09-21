@@ -22,8 +22,8 @@ wins a commander caused. No validated commander ranking exists here yet.
   dates, force ranges, missingness, outcome codes, and cohort membership.
 - A small regularized logistic baseline using relative force size. Evaluation
   holds out whole campaigns and compares with equal odds and a training-only prior.
-- Seven draft dossiers: **Cockpit Point, Fort Henry, Fort Donelson, Shiloh,
-  Corinth, Antietam and Champion Hill**, with exact source
+- Eight draft dossiers: **Cockpit Point, Hancock, Fort Henry, Fort Donelson,
+  Shiloh, Corinth, Antietam and Champion Hill**, with exact source
   passages, explicit unknowns, command questions, and inherited/created distinctions.
 - A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
   independently authored histories, and return-table scans. The follow-up
@@ -73,7 +73,7 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 ## Research direction
 
 **Current priority: comparable coverage across the 127 engagements.** We have
-seven draft dossiers and 120 engagements without one. Shiloh's repeated source
+eight draft dossiers and 119 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.
@@ -84,7 +84,10 @@ The three new drafts passed separate Astra `xhigh` source review; no model input
 are admitted. The [Cockpit Point first pass](docs/research/cockpit-point-first-pass-v1.md)
 now covers the complete frozen Potomac blockade group. Astra `xhigh` accepted
 all 10 new claims with no required corrections; one source family and three
-unknowns remain explicit. Next: **Hancock (MD001)**. See the
+unknowns remain explicit. The [Hancock first pass](docs/research/hancock-first-pass-v1.md)
+adds 11 claims from two source families, retaining chronology and casualty disputes;
+its separate review is pending. Next after review: **Middle Creek and Mill Springs**,
+the complete Eastern Kentucky campaign. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.
