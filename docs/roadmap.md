@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **33 draft dossiers / 127 engagements**, with **94 without a dossier**.
+There are **40 draft dossiers / 127 engagements**, with **87 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -71,14 +71,19 @@ explicit unknowns and 209 citations**. Fourteen land records use NPS/CWSAC and
 Webb's retrospective participant history; the two naval records retain one NPS
 family. Separate Astra `xhigh`
 [review](../artifacts/review-results/peninsula-aa30f97-astra-xhigh-v1/review.md)
-accepted all 152 claims and 209 citations with no required corrections. Coverage is **7/36 complete campaigns by
+accepted all 152 claims and 209 citations with no required corrections. That pass brought coverage to **7/36 complete campaigns by
 dossier presence**, with zero newly admitted features. VA020 and its two component
 records remain overlapping; coverage is not three independent wins.
 
-Next take **Jackson's Valley Campaign [March-June 1862]**, the next complete frozen
-group by earliest engagement date: **seven records**, First Kernstown (VA101),
-McDowell (VA102), Princeton Court House (WV009), Front Royal (VA103), First
-Winchester (VA104), Cross Keys (VA105) and Port Republic (VA106).
+The [Valley first pass](research/valley-first-pass-v1.md) adds all **seven frozen
+records, VA101–VA106 and WV009**, with **68 claims, 17 explicit unknowns and 91
+citations**. Six use NPS/CWSAC and Allan; Princeton retains one family and four
+unknowns. Separate review is pending. Coverage is **8/36 complete campaigns by
+dossier presence**, with zero promoted rows.
+
+Next take **Confederate Heartland Offensive [June-October 1862]**, the next complete
+frozen group by earliest engagement date: **five records**, Chattanooga (TN005),
+Murfreesboro (TN006), Richmond (KY007), Munfordville (KY008) and Perryville (KY009).
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

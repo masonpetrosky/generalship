@@ -76,6 +76,13 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [VA020B](../data/evidence/VA020B.json) | 10 | 2 | 0 | 0 | draft |
 | [VA021](../data/evidence/VA021.json) | 10 | 3 | 0 | 0 | draft |
 | [VA100](../data/evidence/VA100.json) | 10 | 3 | 0 | 0 | draft |
+| [VA101](../data/evidence/VA101.json) | 10 | 2 | 0 | 0 | draft |
+| [VA102](../data/evidence/VA102.json) | 9 | 2 | 0 | 0 | draft |
+| [VA103](../data/evidence/VA103.json) | 10 | 2 | 0 | 0 | draft |
+| [VA104](../data/evidence/VA104.json) | 9 | 2 | 0 | 0 | draft |
+| [VA105](../data/evidence/VA105.json) | 10 | 3 | 0 | 0 | draft |
+| [VA106](../data/evidence/VA106.json) | 10 | 2 | 0 | 0 | draft |
+| [WV009](../data/evidence/WV009.json) | 10 | 4 | 0 | 0 | draft |
 
 ## Admission proposal checks
 
@@ -86,8 +93,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 33 engagements have dossiers; 94 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Peninsula first pass](../docs/research/peninsula-first-pass-v1.md) adds all 16 frozen records: 152 claims, 39 explicit unknowns and one or two source families per record. Casualty differences, opening populations and combined/component overlap remain visible; separate Astra xhigh review accepted all 152 claims and 209 citations with no required corrections. Next take Jackson's complete seven-engagement Valley Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 40 engagements have dossiers; 87 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Valley first pass](../docs/research/valley-first-pass-v1.md) adds all seven frozen records: 68 claims, 17 explicit unknowns and 91 citations. Six use two source families; Princeton retains one. Source disputes, incomplete losses and changing populations remain visible; separate campaign review is pending. Next take the complete five-record Confederate Heartland Offensive. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

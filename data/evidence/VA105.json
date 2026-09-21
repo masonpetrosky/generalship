@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA105",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all seven frozen records in Jackson’s Valley Campaign. Preserve per-engagement dates, including Princeton’s May 15–17 interval and separate Cross Keys/Port Republic dates. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 17,300 total (US 11,500; CS 5,800). The live NPS field reads 17300 total (US 11500; CS 5800;).",
+      "rationale": "Source field only. Formations, engaged troops and changing concentrations do not establish matched opening populations. Live zeros are not measured absence; shared provenance is not independent corroboration.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA105"
+          },
+          "column": "forces_text",
+          "quote": "17,300 total (US 11,500; CS 5,800)"
+        },
+        {
+          "source_id": "nps-va105-v1",
+          "locator": "Forces Engaged",
+          "quote": "17300 total (US 11500; CS 5800;)"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ridge-rivulet-and-field",
+      "dimension": "terrain",
+      "value": "Allan describes Ewell’s wooded ridge, a rivulet and cleared fields in front, with a lower ridge occupied by Union forces.",
+      "rationale": "Attributed position; Ewell’s selection and Trimble’s movement may be mediators, not inherited controls. No map or numerical effect is established.",
+      "citations": [
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "cross-keys-position",
+          "locator": "p.152 (OCR page markers; not checked against print)",
+          "quote": "a small rivulet, and then rose into a lower parallel ridge, which was occupied by the Federals."
+        },
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "cross-keys-position",
+          "locator": "p.152 (OCR page markers; not checked against print)",
+          "quote": "The ridge held by Ewell was wooded, with cleared fields in front"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supply-and-readiness-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Formation lists and retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "pursuit-and-defense",
+      "dimension": "objectives",
+      "value": "NPS places Frémont’s encounter with Ewell in the pursuit of Jackson up the Valley.",
+      "rationale": "Operational context only; original orders and precise success criteria were not inspected.",
+      "citations": [
+        {
+          "source_id": "nps-va105-v1",
+          "locator": "Description",
+          "quote": "Moving up the Shenandoah Valley in pursuit of Jackson's army"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "division-and-brigade-responsibility",
+      "dimension": "responsibility",
+      "value": "NPS describes Ewell’s division facing Frémont, with Trimble repulsing Stahel’s attacking brigade; Allan describes Ewell allowing Trimble to occupy a different position.",
+      "rationale": "Distinguish immediate brigade action and divisional permission. The live heading’s lieutenant-general label for Ewell conflicts with its major-general narrative and is not adopted. Jackson is not assigned this entire outcome automatically.",
+      "citations": [
+        {
+          "source_id": "nps-va105-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant General Richard Ewell [CS]"
+        },
+        {
+          "source_id": "nps-va105-v1",
+          "locator": "Description",
+          "quote": "Maj. Gen. Richard S. Ewell's division"
+        },
+        {
+          "source_id": "nps-va105-v1",
+          "locator": "Description",
+          "quote": "Trimble's command"
+        },
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "cross-keys-position",
+          "locator": "p.152 (OCR page markers; not checked against print)",
+          "quote": "Gen. Trimble was permitted to occupy it."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "next-day-transfer",
+      "dimension": "outcome",
+      "value": "NPS describes Trimble and Patton holding Frémont while the rest of Ewell’s force crossed toward Port Republic the following day.",
+      "rationale": "Cross Keys is frozen as June 8; June 9 transfer is subsequent context, not another Cross Keys victory, additive casualty population or new campaign outcome.",
+      "citations": [
+        {
+          "source_id": "nps-va105-v1",
+          "locator": "Description",
+          "quote": "The next day, Trimble's and Patton's brigades held Fremont at bay, while the rest of Ewell's force crossed the river"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Confederate victory.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA105"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va105-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 951 total (US 664; CS 287). The live NPS field reads 972 total (US 684; CS 288;).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA105"
+          },
+          "column": "casualties_text",
+          "quote": "951 total (US 664; CS 287)"
+        },
+        {
+          "source_id": "nps-va105-v1",
+          "locator": "Estimated Casualties",
+          "quote": "972 total (US 684; CS 288;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Original orders, returns, casualty reconciliation, contemporary message chains and precise command clocks remain deferred after the bounded pass. No whole-book, facsimile or map verification is claimed.",
+    "NPS/CWSAC is one family; Allan is one interested retrospective history where used. Embedded reports are not additional independently inspected families. Princeton retains only the frozen NPS/CWSAC family.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

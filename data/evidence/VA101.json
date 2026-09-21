@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA101",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all seven frozen records in Jackson’s Valley Campaign. Preserve per-engagement dates, including Princeton’s May 15–17 interval and separate Cross Keys/Port Republic dates. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 12,300 total (US 8,500; CS 3,800). The live NPS field reads 12300 total (US 8500; CS 3800;).",
+      "rationale": "Source field only. Formations, engaged troops and changing concentrations do not establish matched opening populations. Live zeros are not measured absence; shared provenance is not independent corroboration.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA101"
+          },
+          "column": "forces_text",
+          "quote": "12,300 total (US 8,500; CS 3,800)"
+        },
+        {
+          "source_id": "nps-va101-v1",
+          "locator": "Forces Engaged",
+          "quote": "12300 total (US 8500; CS 3800;)"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "battery-position",
+      "dimension": "terrain",
+      "value": "Allan places Jenks’s battery on a hill west of Kernstown.",
+      "rationale": "Attributed local position, not a verified map or inherited terrain advantage; deployment may be commander-created.",
+      "citations": [
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "kernstown-information-and-field-command",
+          "locator": "p.46 (OCR page markers; not checked against print)",
+          "quote": "Jenks's battery, posted on a hill to the west of the village of Kernstown"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supply-and-readiness-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Formation lists and retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-enemy-estimate",
+      "dimension": "information",
+      "value": "The NPS narrative attributes Jackson’s advance to an estimate of about 3,000 Union troops; Allan describes information received through Ashby that understated the remaining force.",
+      "rationale": "Both are retrospective accounts. The original report, its delivery and Jackson’s exact knowledge were not inspected; agreement does not establish independent corroboration.",
+      "citations": [
+        {
+          "source_id": "nps-va101-v1",
+          "locator": "Description",
+          "quote": "reported the Union garrison at Winchester numbered only about 3,000"
+        },
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "kernstown-information-and-field-command",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "believing, from the information re- ceived through Col. Ashby, that the force remaining in Winchester was much smaller than was actually the case"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reported-retention-objective",
+      "dimension": "objectives",
+      "value": "Allan attributes the attack to a desire to recall Union troops leaving the Valley.",
+      "rationale": "Retrospective account of purpose, not a measured strategic benefit or an inspected original order. The recorded tactical defeat remains a Union victory.",
+      "citations": [
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "kernstown-information-and-field-command",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "that he might thereby produce a recall of the troops sent off."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "field-command-distinction",
+      "dimension": "responsibility",
+      "value": "Allan identifies Kimball as the senior officer commanding on the field in Shields’s absence.",
+      "rationale": "Field command and divisional authority are different roles; neither receives automatic sole credit. The live heading calls Kimball brigadier general but the narrative and frozen listing call him colonel; the heading does not revise the frozen rank or establish a transfer clock.",
+      "citations": [
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "kernstown-information-and-field-command",
+          "locator": "p.46 (OCR page markers; not checked against print)",
+          "quote": "as senior Federal officer commanded on the field in the absence of Gen. Shields"
+        },
+        {
+          "source_id": "nps-va101-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Nathan Kimball [US]"
+        },
+        {
+          "source_id": "nps-va101-v1",
+          "locator": "Description",
+          "quote": "commanded by Col. Nathan Kimball"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "internal-force-difference",
+      "dimension": "strength",
+      "value": "The same CWSAC/NPS record gives 3,800 Confederate troops in its force field but describes a 3,400-man division in its narrative.",
+      "rationale": "Retain the internal discrepancy without choosing a canonical figure or assuming equal population/timing. Imported numerical bounds remain unchanged.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA101"
+          },
+          "column": "forces_text",
+          "quote": "12,300 total (US 8,500; CS 3,800)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA101"
+          },
+          "column": "description",
+          "quote": "his 3,400-man division"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Union victory.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA101"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va101-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,308 total (US 590; CS 718). The live NPS field reads 1308 total (US 590; CS 718;).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA101"
+          },
+          "column": "casualties_text",
+          "quote": "1,308 total (US 590; CS 718)"
+        },
+        {
+          "source_id": "nps-va101-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1308 total (US 590; CS 718;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Original orders, returns, casualty reconciliation, contemporary message chains and precise command clocks remain deferred after the bounded pass. No whole-book, facsimile or map verification is claimed.",
+    "NPS/CWSAC is one family; Allan is one interested retrospective history where used. Embedded reports are not additional independently inspected families. Princeton retains only the frozen NPS/CWSAC family.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

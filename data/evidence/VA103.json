@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA103",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all seven frozen records in Jackson’s Valley Campaign. Preserve per-engagement dates, including Princeton’s May 15–17 interval and separate Cross Keys/Port Republic dates. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 4,063 total (US 1,063; CS 3,000). The live NPS field reads 0 total (US 0; CS 0;).",
+      "rationale": "Source field only. Formations, engaged troops and changing concentrations do not establish matched opening populations. Live zeros are not measured absence; shared provenance is not independent corroboration.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA103"
+          },
+          "column": "forces_text",
+          "quote": "4,063 total (US 1,063; CS 3,000)"
+        },
+        {
+          "source_id": "nps-va103-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "river-and-hill-positions",
+      "dimension": "terrain",
+      "value": "NPS places successive Union stands at Camp Hill and Guard Hill around the river bridges.",
+      "rationale": "Attributed local sequence, not a verified map or quantified terrain advantage.",
+      "citations": [
+        {
+          "source_id": "nps-va103-v1",
+          "locator": "Description",
+          "quote": "the Federals made a stand on Camp Hill and again at Guard Hill after attempting to fire the river bridges."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "bridge-damage-and-pursuit",
+      "dimension": "logistics",
+      "value": "Allan says Kenly’s attempted bridge burning damaged the North Fork crossing enough to impede the Confederate pursuit.",
+      "rationale": "A constraint created during the action, not an inherited opening disadvantage or proof of a campaign-wide transport effect.",
+      "citations": [
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "front-royal-bridge-and-pursuit",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "he succeeded in doing sufficient damage to the bridge over the North Fork to impede the Confederates."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "retreat-route-action",
+      "dimension": "objectives",
+      "value": "The account describes Kenly retreating toward Cedarville while Confederate cavalry attacked his roadblock.",
+      "rationale": "Immediate action and route, not independently inspected assigned success criteria.",
+      "citations": [
+        {
+          "source_id": "nps-va103-v1",
+          "locator": "Description",
+          "quote": "Kenly continued the retreat to Cedarville, where two cavalry charges"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "garrison-and-pursuit-command",
+      "dimension": "responsibility",
+      "value": "NPS identifies Kenly with the garrison and Flournoy leading two cavalry charges.",
+      "rationale": "Garrison, pursuit and overall command are distinct roles. Jackson’s principal listing does not assign him every subordinate action or all outcome credit.",
+      "citations": [
+        {
+          "source_id": "nps-va103-v1",
+          "locator": "Description",
+          "quote": "under Col. Kenly at Front Royal"
+        },
+        {
+          "source_id": "nps-va103-v1",
+          "locator": "Description",
+          "quote": "two cavalry charges led by Maj. Flournoy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surrender-population",
+      "dimension": "outcome",
+      "value": "NPS says nearly 900 Federals surrendered.",
+      "rationale": "A post-action approximate prisoner count, not an opening force, killed/wounded total or an additional loss to add to the reported aggregate casualties.",
+      "citations": [
+        {
+          "source_id": "nps-va103-v1",
+          "locator": "Description",
+          "quote": "Nearly 900 Federals surrendered."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Confederate victory.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA103"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va103-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 960 total (US 904; CS 56). The live NPS field reads 960 total (US 904; CS 56;).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA103"
+          },
+          "column": "casualties_text",
+          "quote": "960 total (US 904; CS 56)"
+        },
+        {
+          "source_id": "nps-va103-v1",
+          "locator": "Estimated Casualties",
+          "quote": "960 total (US 904; CS 56;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Original orders, returns, casualty reconciliation, contemporary message chains and precise command clocks remain deferred after the bounded pass. No whole-book, facsimile or map verification is claimed.",
+    "NPS/CWSAC is one family; Allan is one interested retrospective history where used. Embedded reports are not additional independently inspected families. Princeton retains only the frozen NPS/CWSAC family.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

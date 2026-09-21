@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA102",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all seven frozen records in Jackson’s Valley Campaign. Preserve per-engagement dates, including Princeton’s May 15–17 interval and separate Cross Keys/Port Republic dates. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 12,500 total (US 6,500; CS 6,000). The live NPS field reads 12500 total (US 6500; CS 6000;).",
+      "rationale": "Source field only. Formations, engaged troops and changing concentrations do not establish matched opening populations. Live zeros are not measured absence; shared provenance is not independent corroboration.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA102"
+          },
+          "column": "forces_text",
+          "quote": "12,500 total (US 6,500; CS 6,000)"
+        },
+        {
+          "source_id": "nps-va102-v1",
+          "locator": "Forces Engaged",
+          "quote": "12500 total (US 6500; CS 6000;)"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "hill-and-access",
+      "dimension": "terrain",
+      "value": "Allan describes Sitlington’s Hill as open on top, steep and wooded below, with a narrow, steep, boulder-filled access ravine.",
+      "rationale": "Physical description only; no map verification or numerical terrain effect.",
+      "citations": [
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "mcdowell-position-and-command",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "the foot of the hill is on all sides steep and heavily wooded."
+        },
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "mcdowell-position-and-command",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "This ravine is narrow and very steep, and, besides being wooded, is filled with boulders washed down from above."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reported-artillery-access",
+      "dimension": "logistics",
+      "value": "Allan says guns could only have been taken up the hill by hand with great exertion and could not have been withdrawn after a successful enemy advance.",
+      "rationale": "Attributed transport constraint and risk assessment, not an opening ammunition return or readiness score. His explanation of Jackson’s decision is retrospective.",
+      "citations": [
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "mcdowell-position-and-command",
+          "locator": "p.74 (OCR page markers; not checked against print)",
+          "quote": "the guns could only have been gotten up by hand with great exertion."
+        },
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "mcdowell-position-and-command",
+          "locator": "p.74 (OCR page markers; not checked against print)",
+          "quote": "there would have been no possibility of withdrawing them."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "attack-on-position",
+      "dimension": "objectives",
+      "value": "NPS describes Milroy assaulting the Confederate position on Sitlington’s Hill.",
+      "rationale": "Immediate target, not an independently inspected original mission or proof of campaign contribution.",
+      "citations": [
+        {
+          "source_id": "nps-va102-v1",
+          "locator": "Description",
+          "quote": "Milroy seized the initiative and assaulted the Confederate position on Sitlington's Hill."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "senior-command-and-attack",
+      "dimension": "responsibility",
+      "value": "Allan says Schenck, as senior, commanded and approved Milroy’s advance; the frozen narrative mentions both officers.",
+      "rationale": "Distinguish approval and senior authority from leading the assault. The live principal list omits Schenck, but does not establish sole command or credit; no exact authority clock is inferred.",
+      "citations": [
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "mcdowell-position-and-command",
+          "locator": "pp.74–75 (OCR page markers; not checked against print)",
+          "quote": "with the approval of Gen. Schenck, who, as senior, now com-"
+        },
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "mcdowell-position-and-command",
+          "locator": "p.75 (OCR page markers; not checked against print)",
+          "quote": "manded, moved forward with portions of his own brigade"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA102"
+          },
+          "column": "description",
+          "quote": "Milroy and Schenck"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Confederate victory.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA102"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va102-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 720 (surgeon's list reports 556). The live NPS field reads 756 total (US 256; CS 500;).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA102"
+          },
+          "column": "casualties_text",
+          "quote": "720 (surgeon's list reports 556)"
+        },
+        {
+          "source_id": "nps-va102-v1",
+          "locator": "Estimated Casualties",
+          "quote": "756 total (US 256; CS 500;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Original orders, returns, casualty reconciliation, contemporary message chains and precise command clocks remain deferred after the bounded pass. No whole-book, facsimile or map verification is claimed.",
+    "NPS/CWSAC is one family; Allan is one interested retrospective history where used. Embedded reports are not additional independently inspected families. Princeton retains only the frozen NPS/CWSAC family.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

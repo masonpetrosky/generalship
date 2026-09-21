@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "battle_id": "WV009",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all seven frozen records in Jackson’s Valley Campaign. Preserve per-engagement dates, including Princeton’s May 15–17 interval and separate Cross Keys/Port Republic dates. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Frozen numeric side strengths are blank; formation names and incomplete losses cannot fill them.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads District of the Kanawha [US]; Army of East Kentucky and Col. Gabriel C. Wharton's Brigade, Department of Southwest Virginia [CS].",
+      "rationale": "Source field only. Formations, engaged troops and changing concentrations do not establish matched opening populations. Live zeros are not measured absence; shared provenance is not independent corroboration.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV009"
+          },
+          "column": "forces_text",
+          "quote": "District of the Kanawha [US]; Army of East Kentucky and Col. Gabriel C. Wharton's Brigade, Department of Southwest Virginia [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "local-terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "rationale": "The frozen summary locates the fighting in Mercer County around Princeton but does not establish battlefield ground or defensible positions. No battle-specific map or topographic passage was retained.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "supply-and-readiness-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Formation lists and retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "railroad-threat",
+      "dimension": "objectives",
+      "value": "The frozen account describes Cox’s District of Kanawha threatening the East Tennessee & Virginia Railroad.",
+      "rationale": "Operational context, not an inspected original order or a verified measure of the railroad’s capacity.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV009"
+          },
+          "column": "description",
+          "quote": "Union soldiers of Brig. Gen. Jacob D. Cox's District of Kanawha threatened the East Tennessee & Virginia Railroad."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "separate-commands-and-interval",
+      "dimension": "responsibility",
+      "value": "The frozen narrative places Marshall against two of Cox’s brigades during May 15–17; Crook’s brigade is described separately at Lewisburg on May 23.",
+      "rationale": "Preserve the three-day Princeton interval. Crook’s later action is not automatically part of Princeton or equal commander credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV009"
+          },
+          "column": "description",
+          "quote": "Marshall bested Cox's two brigades during three days of fighting, May 15-17, in Mercer County centering on Princeton Courthouse."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV009"
+          },
+          "column": "description",
+          "quote": "Col. George Crook, commanding Cox's 3rd brigade"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV009"
+          },
+          "column": "description",
+          "quote": "where on May 23 he defeated Brig. Gen. Henry Heth's brigade."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "later-winchester-date-conflict",
+      "dimension": "outcome",
+      "value": "The Princeton narrative dates the later Winchester routing of Banks to March 25, whereas the frozen First Winchester record is dated May 25.",
+      "rationale": "Retain the literal conflict. The separate Winchester record supplies the explicit May date; this pass does not silently repair raw text or move that later action into Princeton’s result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV009"
+          },
+          "column": "description",
+          "quote": "at Winchester (March 25)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA104"
+          },
+          "column": "start_date",
+          "quote": "1862-05-25"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Confederate victory.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV009"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 129 total (US 23k/69w/21m; CS incomplete, Marshall 4k/12w, Wharton no report).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. Confederate coverage is explicitly incomplete: Marshall supplies 4 killed and 12 wounded, Wharton has no report. The numerical 129 is a partial reported sum, not a complete battle loss or a known zero for Wharton.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV009"
+          },
+          "column": "casualties_text",
+          "quote": "129 total (US 23k/69w/21m; CS incomplete, Marshall 4k/12w, Wharton no report)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Original orders, returns, casualty reconciliation, contemporary message chains and precise command clocks remain deferred after the bounded pass. No whole-book, facsimile or map verification is claimed.",
+    "NPS/CWSAC is one family; Allan is one interested retrospective history where used. Embedded reports are not additional independently inspected families. Princeton retains only the frozen NPS/CWSAC family.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

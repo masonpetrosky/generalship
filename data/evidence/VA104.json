@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA104",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all seven frozen records in Jackson’s Valley Campaign. Preserve per-engagement dates, including Princeton’s May 15–17 interval and separate Cross Keys/Port Republic dates. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 22,500 total (US 6,500; CS 16,000). The live NPS field reads 22500 total (US 6500; CS 16000;).",
+      "rationale": "Source field only. Formations, engaged troops and changing concentrations do not establish matched opening populations. Live zeros are not measured absence; shared provenance is not independent corroboration.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA104"
+          },
+          "column": "forces_text",
+          "quote": "22,500 total (US 6,500; CS 16,000)"
+        },
+        {
+          "source_id": "nps-va104-v1",
+          "locator": "Forces Engaged",
+          "quote": "22500 total (US 6500; CS 16000;)"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "converging-roads-and-positions",
+      "dimension": "terrain",
+      "value": "NPS describes Jackson approaching by the Valley Pike and Ewell by the Front Royal Pike, with fighting at Camp Hill and Bowers Hill.",
+      "rationale": "Routes and local positions, not a verified map or numeric terrain advantage.",
+      "citations": [
+        {
+          "source_id": "nps-va104-v1",
+          "locator": "Description",
+          "quote": "north on the Valley Pike toward Winchester"
+        },
+        {
+          "source_id": "nps-va104-v1",
+          "locator": "Description",
+          "quote": "from the southeast using the Front Royal Pike"
+        },
+        {
+          "source_id": "nps-va104-v1",
+          "locator": "Description",
+          "quote": "Ewell attacked Camp Hill"
+        },
+        {
+          "source_id": "nps-va104-v1",
+          "locator": "Description",
+          "quote": "Union position on Bowers Hill"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supply-and-readiness-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Formation lists and retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "banks-reported-estimate",
+      "dimension": "information",
+      "value": "Allan quotes Banks describing initially vague reports and then estimates of 25,000–30,000 enemy troops at or near Winchester.",
+      "rationale": "Quoted retrospective report within Allan, not the inspected original message chain or a measurement of Confederate strength. The estimate is not admitted as a true count.",
+      "citations": [
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "winchester-reported-information",
+          "locator": "p.108 (OCR page markers; not checked against print)",
+          "quote": "unknown when we reached Winchester, except upon surmise and vague rumors from Front Royal."
+        },
+        {
+          "source_id": "allan-valley-selections-v1",
+          "section": "winchester-reported-information",
+          "locator": "p.108 (OCR page markers; not checked against print)",
+          "quote": "ranging from twenty-five to thirty thousand."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "defend-town",
+      "dimension": "objectives",
+      "value": "NPS says Banks was reorganizing his army to defend Winchester.",
+      "rationale": "Reported local purpose, not a complete set of original orders or a causal campaign score.",
+      "citations": [
+        {
+          "source_id": "nps-va104-v1",
+          "locator": "Description",
+          "quote": "Banks was attempting to reorganize his army to defend the town."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "two-confederate-approaches",
+      "dimension": "responsibility",
+      "value": "NPS distinguishes Ewell’s attack at Camp Hill from the Louisiana Brigade’s attack on Bowers Hill within Jackson’s division.",
+      "rationale": "Different subordinate actions, not equal or exclusive outcome shares assigned by a principal-commander list.",
+      "citations": [
+        {
+          "source_id": "nps-va104-v1",
+          "locator": "Description",
+          "quote": "Ewell attacked Camp Hill, while the Louisiana Brigade of Jackson's division outflanked and overran the Union position on Bowers Hill."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Confederate victory.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA104"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va104-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 2,419 total (US 2,019; CS 400). The live NPS field reads 2419 total (US 2019; CS 400;).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA104"
+          },
+          "column": "casualties_text",
+          "quote": "2,419 total (US 2,019; CS 400)"
+        },
+        {
+          "source_id": "nps-va104-v1",
+          "locator": "Estimated Casualties",
+          "quote": "2419 total (US 2019; CS 400;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Original orders, returns, casualty reconciliation, contemporary message chains and precise command clocks remain deferred after the bounded pass. No whole-book, facsimile or map verification is claimed.",
+    "NPS/CWSAC is one family; Allan is one interested retrospective history where used. Embedded reports are not additional independently inspected families. Princeton retains only the frozen NPS/CWSAC family.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -68,6 +68,22 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Valley first pass, 2026-09-20
+
+The [seven-record memo](research/valley-first-pass-v1.md) adds **14 records**, bringing
+the registry to **273 entries / 270 raw paths**, preserving the previous **259/256**.
+Six NPS battle HTML/text pairs and the empty Princeton HTML diagnostic remain in
+the NPS/CWSAC family. One new selection derivative reuses the pinned Allan 1880
+OCR for six battles: title/preface plus six bounded passages. Previous metadata,
+OCR and Hancock selections stay unchanged. Character ranges and whitespace-only
+normalization reproduce all sections; OCR errors and footnotes are retained.
+All selections were read, without claiming print, map or whole-book verification.
+Allan's interested retrospective history and embedded reports are one family,
+not separately inspected originals. Princeton retains only frozen NPS/CWSAC
+evidence; the empty page and unsuccessful shared-book keyword lookup establish
+no historical facts. Source disputes, incomplete casualties, reported beliefs
+and changing populations remain visible. No model inputs are changed.
+
 ### Peninsula first pass, 2026-09-20
 
 The [16-record memo](research/peninsula-first-pass-v1.md) adds **36 source records**,
