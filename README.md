@@ -92,7 +92,7 @@ Middle Creek and Mill Springs with 22 claims and three explicit unknowns;
 Astra `xhigh` accepted all 22 claims with no required corrections.
 The [Burnside campaign pass](docs/research/burnside-first-pass-v1.md) adds five
 drafts with 47 claims, ten explicit unknowns and two source families per battle.
-Separate campaign review is pending. Next: **New Madrid/Island No. 10 and Memphis**. See the
+Astra `xhigh` accepted all 47 claims with no required corrections. Next: **New Madrid/Island No. 10 and Memphis**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.

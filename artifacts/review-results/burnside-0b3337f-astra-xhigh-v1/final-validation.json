@@ -1,0 +1,67 @@
+{
+  "prepared_commit": "0b3337fea1ee57375d5999d49f5f58f3d1bcc4a3",
+  "review_sha256": "e2fea3b7240e61f47d1a8d80fccc9855c480737e9b3447e75575fc1c7947f54a",
+  "reviewed_evidence_inputs_unchanged": [
+    "data/sources.json",
+    "data/pilot/cohort.json",
+    "data/admission/shiloh-opening-v1.json",
+    "data/admission/shiloh-opening-v2.json",
+    "artifacts/baseline.json",
+    "data/evidence/NC002.json",
+    "data/evidence/NC003.json",
+    "data/evidence/NC004.json",
+    "data/evidence/NC005.json",
+    "data/evidence/NC006.json",
+    "artifacts/research/NC002.md",
+    "artifacts/research/NC003.md",
+    "artifacts/research/NC004.md",
+    "artifacts/research/NC005.md",
+    "artifacts/research/NC006.md",
+    "data/raw/burnside-v1/nps-nc002.html",
+    "data/raw/burnside-v1/nps-nc002.txt",
+    "data/raw/burnside-v1/nps-nc003.html",
+    "data/raw/burnside-v1/nps-nc003.txt",
+    "data/raw/burnside-v1/nps-nc004.html",
+    "data/raw/burnside-v1/nps-nc004.txt",
+    "data/raw/burnside-v1/nps-nc005.html",
+    "data/raw/burnside-v1/nps-nc005.txt",
+    "data/raw/burnside-v1/nps-nc006.html",
+    "data/raw/burnside-v1/nps-nc006.txt",
+    "data/raw/burnside-v1/woodbury-full.txt",
+    "data/raw/burnside-v1/woodbury-metadata.json",
+    "data/raw/burnside-v1/woodbury-selections.txt"
+  ],
+  "commands": [
+    "make reproduce",
+    "python3 -m generalship check",
+    "primary preservation and text-derivation replay",
+    "git diff --check"
+  ],
+  "offline_check": {
+    "pilot_battles": 127,
+    "eligible_battles": 23,
+    "eligible_campaigns": 13,
+    "draft_dossiers": 15,
+    "metrics": {
+      "strength_logistic": {
+        "brier": 0.2768816348133779,
+        "log_loss": 0.7495087606758415
+      },
+      "equal_odds": {
+        "brier": 0.25,
+        "log_loss": 0.6931471805599453
+      },
+      "training_prior": {
+        "brier": 0.2812731024902169,
+        "log_loss": 0.7560867667370473
+      }
+    },
+    "admission_candidate_statuses": {
+      "blocked": 18,
+      "excluded": 22
+    },
+    "admission_promoted_rows": 0,
+    "artifacts_written": false
+  },
+  "generated_report_inspected": true
+}

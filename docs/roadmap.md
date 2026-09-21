@@ -52,7 +52,8 @@ The [Burnside campaign pass](research/burnside-first-pass-v1.md) now supplies al
 five frozen members: **NC002 — Roanoke Island, NC003 — New Berne, NC004 — Fort
 Macon, NC005 — South Mills, and NC006 — Tranter's Creek**. Its 47 claims use
 NPS/CWSAC and Woodbury's retrospective history, with ten explicit unknowns.
-Separate campaign review is pending. Coverage is **5/36 complete source groups
+Separate Astra `xhigh` [review](../artifacts/review-results/burnside-0b3337f-astra-xhigh-v1/review.md) accepted all 47 claims and 73 citations
+with no required corrections. Coverage is **5/36 complete source groups
 by dossier presence**, with zero newly admitted features.
 
 Next take **Joint Operations Against New Madrid, Island No. 10, and Memphis [February-June 1862]**: **New Madrid/Island No. 10 (MO012)** and **Memphis (TN004)**, the next complete frozen campaign by earliest engagement date.

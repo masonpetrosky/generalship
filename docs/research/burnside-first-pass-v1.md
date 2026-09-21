@@ -15,8 +15,8 @@ All seven dimensions are represented by source-attributed claims or null unknown
 **47 claims, ten explicit unknowns, 73 citations**. The unknowns are matched opening
 populations for all five, contemporary information for the last four, and logistics
 for Tranter's Creek. The Roanoke imported numerical estimates remain baseline inputs;
-this pass does not newly validate them as opening counts. Separate batch review is
-pending. All dossiers remain drafts and no features are admitted.
+this pass does not newly validate them as opening counts. Separate Astra `xhigh`
+[review](../../artifacts/review-results/burnside-0b3337f-astra-xhigh-v1/review.md) accepted all 47 claims and 73 citations with no required corrections. All dossiers remain drafts and no features are admitted.
 
 Coverage is **15/127 draft dossiers**, **112 without**, and **5/36 complete frozen
 source campaigns by dossier presence**. All ten earlier dossiers are unchanged.
@@ -92,5 +92,11 @@ The cohort, old evidence, both admission proposals and baseline remain unchanged
 **23/127 eligible engagements in 13 groups**, strength Brier **0.276882** against
 **0.250000** for equal odds, and **zero promoted rows**. The model still underperforms
 equal odds; additional draft coverage does not imply predictive improvement.
+
+The [primary assessment](../../artifacts/review-results/burnside-0b3337f-astra-xhigh-v1/primary-assessment.md)
+accepts this bounded result. Author and reviewer both replayed all six text
+derivations, verified preservation and passed all 82 tests plus offline checks.
+Generated artifacts were reproduced and the report inspected. Historical unknowns
+and source disputes remain intact; all five dossiers remain drafts.
 
 Next take **Joint Operations Against New Madrid, Island No. 10, and Memphis [February-June 1862]**: **New Madrid/Island No. 10 (MO012)** and **Memphis (TN004)**, the next complete frozen campaign by earliest engagement date.
