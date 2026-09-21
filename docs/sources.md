@@ -68,6 +68,26 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### New Madrid/Memphis first pass, 2026-09-20
+
+The [two-battle memo](research/mississippi-joint-first-pass-v1.md) adds seven
+records, bringing the registry to **223 entries / 220 raw paths**, preserving all
+previous **216/213**. The live MO012 HTML is an empty-template retrieval diagnostic;
+it supplies no battle evidence. Memphis has a complete NPS HTML/text pair.
+Mahan's *The Gulf and Inland Waters* adds a Gutenberg catalog, full HTML and
+normalized text, and selected text with exact parent offsets. Read title/preface,
+two Island No. 10 passages and the Memphis passage including its letter reference.
+Each battle uses two families and one targeted shared-history follow-up.
+
+The edition is **1898**, with 1883 copyright and a June 1883 preface, not a
+contemporary battle document. Gutenberg provides a corrected digital transcription;
+our transforms preserve its characters apart from whitespace normalization.
+Original reports/letters, maps and print were not inspected. Section dates stay
+null; later NPS dependence is unestablished. The memo preserves surrender-date
+differences, missing personnel/casualty definitions, separate command roles and
+vessels versus crews. All earlier source records remain unchanged; no feature
+is admitted.
+
 ### Burnside campaign first pass, 2026-09-20
 
 The [five-battle memo](research/burnside-first-pass-v1.md) records all frozen

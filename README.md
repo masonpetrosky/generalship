@@ -22,7 +22,7 @@ wins a commander caused. No validated commander ranking exists here yet.
   dates, force ranges, missingness, outcome codes, and cohort membership.
 - A small regularized logistic baseline using relative force size. Evaluation
   holds out whole campaigns and compares with equal odds and a training-only prior.
-- Fifteen draft dossiers, including the complete five-battle Burnside campaign,
+- Seventeen draft dossiers, including the complete New Madrid/Memphis campaign,
   with exact source passages, explicit unknowns, command questions, and
   inherited/created distinctions. See the [coverage table](artifacts/pilot-report.md#draft-evidence-dossiers).
 - A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
@@ -73,7 +73,7 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 ## Research direction
 
 **Current priority: comparable coverage across the 127 engagements.** We have
-fifteen draft dossiers and 112 engagements without one. Shiloh's repeated source
+seventeen draft dossiers and 110 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.
@@ -92,7 +92,10 @@ Middle Creek and Mill Springs with 22 claims and three explicit unknowns;
 Astra `xhigh` accepted all 22 claims with no required corrections.
 The [Burnside campaign pass](docs/research/burnside-first-pass-v1.md) adds five
 drafts with 47 claims, ten explicit unknowns and two source families per battle.
-Astra `xhigh` accepted all 47 claims with no required corrections. Next: **New Madrid/Island No. 10 and Memphis**. See the
+Astra `xhigh` accepted all 47 claims with no required corrections.
+The [New Madrid/Memphis pass](docs/research/mississippi-joint-first-pass-v1.md) adds
+two drafts with 21 claims, five explicit unknowns and two families per battle.
+Separate review is pending. Next: **the 16-engagement Peninsula Campaign**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.

@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **15 draft dossiers / 127 engagements**, with **112 without a dossier**.
+There are **17 draft dossiers / 127 engagements**, with **110 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -53,10 +53,20 @@ five frozen members: **NC002 — Roanoke Island, NC003 — New Berne, NC004 — 
 Macon, NC005 — South Mills, and NC006 — Tranter's Creek**. Its 47 claims use
 NPS/CWSAC and Woodbury's retrospective history, with ten explicit unknowns.
 Separate Astra `xhigh` [review](../artifacts/review-results/burnside-0b3337f-astra-xhigh-v1/review.md) accepted all 47 claims and 73 citations
-with no required corrections. Coverage is **5/36 complete source groups
+with no required corrections. That pass brought coverage to **5/36 complete source groups
 by dossier presence**, with zero newly admitted features.
 
-Next take **Joint Operations Against New Madrid, Island No. 10, and Memphis [February-June 1862]**: **New Madrid/Island No. 10 (MO012)** and **Memphis (TN004)**, the next complete frozen campaign by earliest engagement date.
+The [New Madrid/Memphis pass](research/mississippi-joint-first-pass-v1.md) adds
+**MO012 — New Madrid/Island No. 10** and **TN004 — Memphis**, the complete frozen
+**Joint Operations Against New Madrid, Island No. 10, and Memphis [February-June
+1862]** group. Its 21 claims use NPS/CWSAC and Mahan's retrospective naval history,
+with five explicit unknowns. Separate review is pending. Coverage is **6/36 complete
+source campaigns by dossier presence**; no features are admitted.
+
+Next take **Peninsula Campaign [March-July 1862]**, the next complete frozen
+campaign by earliest engagement date: **16 engagements**, VA008–VA021 plus VA020A
+and VA020B, beginning with **Hampton Roads (VA008)**. Preserve the frozen combined
+and component rows without treating them as independent extra wins.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

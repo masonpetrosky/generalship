@@ -47,6 +47,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [KY006](../data/evidence/KY006.json) | 11 | 2 | 0 | 0 | draft |
 | [MD001](../data/evidence/MD001.json) | 11 | 2 | 0 | 0 | draft |
 | [MD003](../data/evidence/MD003.json) | 9 | 5 | 0 | 0 | draft |
+| [MO012](../data/evidence/MO012.json) | 11 | 3 | 0 | 0 | draft |
 | [MS009](../data/evidence/MS009.json) | 7 | 3 | 0 | 0 | draft |
 | [MS016](../data/evidence/MS016.json) | 12 | 2 | 0 | 0 | draft |
 | [NC002](../data/evidence/NC002.json) | 9 | 1 | 0 | 0 | draft |
@@ -57,6 +58,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [TN001](../data/evidence/TN001.json) | 10 | 1 | 0 | 0 | draft |
 | [TN002](../data/evidence/TN002.json) | 11 | 1 | 0 | 0 | draft |
 | [TN003](../data/evidence/TN003.json) | 62 | 3 | 40 | 26 | draft |
+| [TN004](../data/evidence/TN004.json) | 10 | 2 | 0 | 0 | draft |
 | [VA100](../data/evidence/VA100.json) | 10 | 3 | 0 | 0 | draft |
 
 ## Admission proposal checks
@@ -68,8 +70,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 15 engagements have dossiers; 112 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Burnside campaign first pass](../docs/research/burnside-first-pass-v1.md) adds all five frozen engagements: 47 claims, ten explicit unknowns and two source families per battle. Source differences and limits remain visible; separate Astra xhigh review accepted all 47 claims and 73 citations with no required corrections. Next take the complete New Madrid/Island No. 10 and Memphis campaign (MO012, TN004). Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 17 engagements have dossiers; 110 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [New Madrid/Memphis first pass](../docs/research/mississippi-joint-first-pass-v1.md) adds both frozen engagements: 21 claims, five explicit unknowns and two source families per battle. Vessel and personnel populations, surrender dates and command roles remain distinct; separate campaign review is pending. Next take the complete 16-engagement Peninsula Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 
