@@ -68,6 +68,23 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Burnside campaign first pass, 2026-09-20
+
+The [five-battle memo](research/burnside-first-pass-v1.md) records all frozen
+members of Burnside's North Carolina Expedition. Thirteen new artifacts bring
+the registry to **216 entries / 213 raw paths**, preserving all previous
+**203/200**: five NPS HTML/text pairs, Woodbury catalog metadata and full OCR,
+and one sectioned text selection. Read every summary, the catalog/title/preface,
+and six selected battle-context passages. Each battle uses two retained families;
+Woodbury is one interested, non-eyewitness author across the campaign, and NPS
+summaries/table copies share a family. His source documents were not inspected.
+No facsimile or map was checked. Character ranges replay whitespace-only
+selection; OCR errors and source disagreements remain visible. Reported dates,
+strength populations, outcomes and casualty differences are not silently resolved.
+The shared history served the one targeted follow-up per battle; additional
+original orders, returns and historical adjudication remain deferred. No source
+is overwritten and no model feature is admitted.
+
 ### Eastern Kentucky first pass, 2026-09-20
 
 The [campaign memo](research/eastern-kentucky-first-pass-v1.md) records Middle

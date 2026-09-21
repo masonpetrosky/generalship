@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "battle_id": "NC003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass in the complete five-engagement frozen Burnside campaign. Opening populations and replacement boundaries are unresolved. NPS and an interested retrospective history supply attributed claims only; no predictors or causal command scores are admitted.",
+  "claims": [
+    {
+      "id": "opening-populations-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected return establishes matched opening populations. The frozen side-specific numerical bounds are blank; live zeros are not measured absence of troops. Retrospective formations, gun crews, garrisons, prisoners and troops engaged must not be interchanged.",
+      "citations": []
+    },
+    {
+      "id": "live-strength-display",
+      "dimension": "strength",
+      "value": "The live NPS table displays zero personnel on both sides while its narrative describes opposing formations.",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "The frozen numerical bounds are missing; preserve both artifacts without converting displayed zeros to measured strengths.",
+      "citations": [
+        {
+          "source_id": "nps-nc003-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC003"
+          },
+          "column": "forces_text",
+          "quote": "Expeditionary Force and Foster's, Reno's, and Parke's Brigades [US]; 5 regiments, militia [CS]"
+        }
+      ]
+    },
+    {
+      "id": "river-and-railroad-approach",
+      "dimension": "terrain",
+      "value": "NPS places the landing on the Neuse’s south bank and the March 14 attacks along the railroad.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "These are source-described routes, not a verified map or numerical terrain modifier.",
+      "citations": [
+        {
+          "source_id": "nps-nc003-v1",
+          "locator": "Description",
+          "quote": "disembarked infantry on the river's south bank"
+        },
+        {
+          "source_id": "nps-nc003-v1",
+          "locator": "Description",
+          "quote": "brigades attacked along the railroad"
+        }
+      ]
+    },
+    {
+      "id": "wet-march-and-gun-transport",
+      "dimension": "logistics",
+      "value": "Woodbury describes wading ashore, a muddy approach and sailors dragging naval howitzers with the column.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Retrospective approach logistics; keep ship crews, guns and infantry headcounts distinct. The author’s descriptions of spirits are not converted into morale scores.",
+      "citations": [
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "newbern-approach",
+          "locator": "pp.55–56, disembarkation (OCR page markers; not checked against print)",
+          "quote": "the men were obliged to wade a considerable distance to the firm earth."
+        },
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "newbern-approach",
+          "locator": "p.56, approach (OCR page markers; not checked against print)",
+          "quote": "It was a long, wearisome, and muddy march"
+        },
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "newbern-approach",
+          "locator": "p.56, naval howitzers (OCR page markers; not checked against print)",
+          "quote": "each . of which was dragged by twelve sailors"
+        }
+      ]
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No original reconnaissance, correspondence or warning chain was inspected for the commanders’ contemporary knowledge of defenses and opposing strengths. The selected approach narrative does not resolve that gap.",
+      "citations": []
+    },
+    {
+      "id": "expedition-target",
+      "dimension": "objectives",
+      "value": "NPS says Burnside embarked for an expedition against New Berne, rendezvousing with Union gunboats at Hatteras Inlet.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "An attributed operational target, not a fully inspected set of pre-expedition success criteria. Later occupation is not an independent modeled campaign win.",
+      "citations": [
+        {
+          "source_id": "nps-nc003-v1",
+          "locator": "Description",
+          "quote": "rendezvous with Union gunboats at Hatteras Inlet for an expedition against New Berne."
+        }
+      ]
+    },
+    {
+      "id": "command-and-brigade-actions",
+      "dimension": "responsibility",
+      "value": "NPS assigns the Confederate defense to Branch and names Foster’s, Reno’s and Parke’s brigades as the Union attacking formations.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Keep named roles distinct from automatic equal credit, and retain naval support as context. No command replacement time or causal allocation is established.",
+      "citations": [
+        {
+          "source_id": "nps-nc003-v1",
+          "locator": "Description",
+          "quote": "The Confederate defense was commanded by Brig. Gen. Lawrence Branch."
+        },
+        {
+          "source_id": "nps-nc003-v1",
+          "locator": "Description",
+          "quote": "John G. Foster's, Jesse Reno's, and John G. Parke's brigades attacked"
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen row and live NPS page record a Union victory.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Same source family, not independent corroboration or a causal effect. Retain the frozen engagement interval and do not add a separate score for later occupation or campaign consequences.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC003"
+          },
+          "column": "result",
+          "quote": "Union"
+        },
+        {
+          "source_id": "nps-nc003-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        }
+      ]
+    },
+    {
+      "id": "casualty-version-difference",
+      "dimension": "outcome",
+      "value": "The frozen table gives 1,080 total; the live NPS table displays 1085 total (US 476; CS 609;).",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "These versions remain distinct. No inspected return reconciles the totals, category definitions or reporting boundaries. Casualties are not opening strength or a predictor; a displayed zero is not evidence of no losses.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC003"
+          },
+          "column": "casualties_text",
+          "quote": "1,080 total"
+        },
+        {
+          "source_id": "nps-nc003-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1085 total (US 476; CS 609;)"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Original orders, personnel returns, contemporary intelligence and source disputes remain deferred after the bounded shared-history follow-up. OCR has not been checked against print.",
+    "Keep opening, moving, engaged, garrison and captured populations distinct; do not use live zero displays as numerical evidence.",
+    "Broader blockade, occupation and later operations remain campaign context, not additional independent wins or automatic commander credit."
+  ]
+}

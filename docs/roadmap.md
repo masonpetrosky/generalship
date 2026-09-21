@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **10 draft dossiers / 127 engagements**, with **117 without a dossier**.
+There are **15 draft dossiers / 127 engagements**, with **112 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -45,11 +45,17 @@ The [Eastern Kentucky pass](research/eastern-kentucky-first-pass-v1.md) adds
 in Eastern Kentucky [January 1862]** campaign. Each has 11 claims from two
 retained source families; there are three explicit unknowns across the batch.
 Separate Astra `xhigh` [review](../artifacts/review-results/eastern-kentucky-882aaa3-astra-xhigh-v1/review.md) accepted all 22 claims and 37 citations
-with no required corrections. Coverage is **4/36 complete groups by
+with no required corrections. That pass brought coverage to **4/36 complete groups by
 dossier presence**, with zero newly admitted features.
 
-Next take **Burnside's North Carolina Expedition [February-June 1862]**; retain
-its entire frozen membership: **Roanoke Island (NC002), New Berne (NC003), Fort Macon (NC004), South Mills (NC005), and Tranter’s Creek (NC006)**. Review it as a campaign batch.
+The [Burnside campaign pass](research/burnside-first-pass-v1.md) now supplies all
+five frozen members: **NC002 — Roanoke Island, NC003 — New Berne, NC004 — Fort
+Macon, NC005 — South Mills, and NC006 — Tranter's Creek**. Its 47 claims use
+NPS/CWSAC and Woodbury's retrospective history, with ten explicit unknowns.
+Separate campaign review is pending. Coverage is **5/36 complete source groups
+by dossier presence**, with zero newly admitted features.
+
+Next take **Joint Operations Against New Madrid, Island No. 10, and Memphis [February-June 1862]**: **New Madrid/Island No. 10 (MO012)** and **Memphis (TN004)**, the next complete frozen campaign by earliest engagement date.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

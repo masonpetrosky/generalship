@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "battle_id": "NC006",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass in the complete five-engagement frozen Burnside campaign. Opening populations and replacement boundaries are unresolved. NPS and an interested retrospective history supply attributed claims only; no predictors or causal command scores are admitted.",
+  "claims": [
+    {
+      "id": "reported-detachments",
+      "dimension": "strength",
+      "value": "Woodbury lists eight companies of the 24th Massachusetts, a cavalry squadron and two Wiard guns manned by twenty-five Marines.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Formation and gun-crew descriptions do not supply matched total personnel or establish which cavalry fought. Keep the twenty-five-person crew distinct from the whole force.",
+      "citations": [
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "tranters-creek",
+          "locator": "p.90, engagement paragraph (OCR page markers; not checked against print)",
+          "quote": "Eight companies of the 24th Massachusetts"
+        },
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "tranters-creek",
+          "locator": "p.90, same paragraph (OCR page markers; not checked against print)",
+          "quote": "a squadron of Colonel Mix's cavalry and a battery of two steel Wiard guns \" under Lieutenant William B. Avery^ manned by twenty-five men of the Marines"
+        }
+      ]
+    },
+    {
+      "id": "opening-populations-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected return establishes matched opening populations. The frozen side-specific numerical bounds are blank; live zeros are not measured absence of troops. Retrospective formations, gun crews, garrisons, prisoners and troops engaged must not be interchanged.",
+      "citations": []
+    },
+    {
+      "id": "bridge-and-mill-position",
+      "dimension": "terrain",
+      "value": "NPS places the encounter at the bridge over Tranter’s Creek, with Confederates barricaded in mill buildings.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Attributed locations, not a verified map or a measured crossing advantage.",
+      "citations": [
+        {
+          "source_id": "nps-nc006-v1",
+          "locator": "Description",
+          "quote": "advanced to the bridge over Tranter's Creek"
+        },
+        {
+          "source_id": "nps-nc006-v1",
+          "locator": "Description",
+          "quote": "the mill buildings in which the Confederates were barricaded."
+        }
+      ]
+    },
+    {
+      "id": "supply-and-readiness-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "The inspected summaries identify artillery and formations but provide no dated ammunition, transport, subsistence or readiness account for the reconnaissance. A gun count is not a logistics score.",
+      "citations": []
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No original reconnaissance order, scout report or message chain was inspected to show what Potter, Osborn or Singletary knew before contact.",
+      "citations": []
+    },
+    {
+      "id": "reconnaissance-objective",
+      "dimension": "objectives",
+      "value": "NPS says Potter ordered a reconnaissance toward Pactolus on June 5.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "An attributed limited mission, not an assumed objective to conquer territory or destroy the enemy force.",
+      "citations": [
+        {
+          "source_id": "nps-nc006-v1",
+          "locator": "Description",
+          "quote": "ordered a reconnaissance in the direction of Pactolus."
+        }
+      ]
+    },
+    {
+      "id": "order-and-artillery-action",
+      "dimension": "responsibility",
+      "value": "NPS attributes the reconnaissance order to Potter and the use of artillery against the mill buildings to Osborne after failing to force a crossing.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Ordering the mission and commanding in contact remain distinct. The source’s Osborne spelling differs from the table/Woodbury Osborn; no new identity or automatic credit allocation is inferred.",
+      "citations": [
+        {
+          "source_id": "nps-nc006-v1",
+          "locator": "Description",
+          "quote": "Col. Robert Potter, garrison commander at Washington, North Carolina, ordered a reconnaissance"
+        },
+        {
+          "source_id": "nps-nc006-v1",
+          "locator": "Description",
+          "quote": "Unable to force a crossing, Osborne brought his artillery to bear on the mill buildings"
+        }
+      ]
+    },
+    {
+      "id": "result-and-return",
+      "dimension": "outcome",
+      "value": "The frozen row records Union victory; NPS says the Confederates retreated and the Federals returned to Washington without pursuit.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "A source-coded result and limited action, not a measured campaign contribution or proof that pursuit would have been advantageous.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC006"
+          },
+          "column": "result",
+          "quote": "Union"
+        },
+        {
+          "source_id": "nps-nc006-v1",
+          "locator": "Description",
+          "quote": "The Federals did not pursue and returned to their fortifications at Washington."
+        }
+      ]
+    },
+    {
+      "id": "casualty-version-difference",
+      "dimension": "outcome",
+      "value": "The frozen table gives 40 total; the live NPS table displays 0 total (US 0; CS 0;).",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "These versions remain distinct. No inspected return reconciles the totals, category definitions or reporting boundaries. Casualties are not opening strength or a predictor; a displayed zero is not evidence of no losses.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC006"
+          },
+          "column": "casualties_text",
+          "quote": "40 total"
+        },
+        {
+          "source_id": "nps-nc006-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Original orders, personnel returns, contemporary intelligence and source disputes remain deferred after the bounded shared-history follow-up. OCR has not been checked against print.",
+    "Keep opening, moving, engaged, garrison and captured populations distinct; do not use live zero displays as numerical evidence.",
+    "Broader blockade, occupation and later operations remain campaign context, not additional independent wins or automatic commander credit."
+  ]
+}

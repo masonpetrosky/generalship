@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "battle_id": "NC005",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass in the complete five-engagement frozen Burnside campaign. Opening populations and replacement boundaries are unresolved. NPS and an interested retrospective history supply attributed claims only; no predictors or causal command scores are admitted.",
+  "claims": [
+    {
+      "id": "formation-scope",
+      "dimension": "strength",
+      "value": "The frozen Union force field lists the 21st Massachusetts and 51st Pennsylvania; Woodbury’s expedition list additionally names the 9th and 89th New York and 6th New Hampshire.",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "The abbreviated frozen field and fuller expedition list do not establish equivalent participation or headcounts. Woodbury later distinguishes reserves and attacking formations; do not turn regiment names into a numerical strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC005"
+          },
+          "column": "forces_text",
+          "quote": "21st Massachusetts and 51st Pennsylvania [US]; 3rd Georgia [CS]"
+        },
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "south-mills-expedition",
+          "locator": "pp.80–81, expedition roster (OCR page markers; not checked against print)",
+          "quote": "the 9th New York, Lieuten- ant Colonel Kimball, 89th New York, Colonel H. S. Fairchild, and 6th New Hampshire, Lieutenant Colonel Griffin."
+        }
+      ]
+    },
+    {
+      "id": "opening-populations-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected return establishes matched opening populations. The frozen side-specific numerical bounds are blank; live zeros are not measured absence of troops. Retrospective formations, gun crews, garrisons, prisoners and troops engaged must not be interchanged.",
+      "citations": []
+    },
+    {
+      "id": "ditched-position",
+      "dimension": "terrain",
+      "value": "Woodbury describes a plain cut by ditches before the enemy position, with a forest behind and woods on a flank.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "A retrospective terrain description; relative sides are those of the narrative, not a mapped orientation or measured combat advantage.",
+      "citations": [
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "south-mills-expedition",
+          "locator": "p.82, position (OCR page markers; not checked against print)",
+          "quote": "In front was a plain broken and cut by ditches, in the rear a forest"
+        },
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "south-mills-expedition",
+          "locator": "p.82, same passage (OCR page markers; not checked against print)",
+          "quote": "on the left an \"open piney wood."
+        }
+      ]
+    },
+    {
+      "id": "landing-and-march-constraints",
+      "dimension": "logistics",
+      "value": "Woodbury says grounded transports delayed part of the landing and describes a hot march on dry, dusty roads.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Attributed transport and weather constraints; no causal effect or numerical exhaustion/readiness score is inferred. His allegations about guides are not treated as established misconduct.",
+      "citations": [
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "south-mills-expedition",
+          "locator": "p.81, landing (OCR page markers; not checked against print)",
+          "quote": "The other troops were delayed by the transports getting aground"
+        },
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "south-mills-expedition",
+          "locator": "p.81, march (OCR page markers; not checked against print)",
+          "quote": "The day was very hot ; the roads were very dry and dusty."
+        }
+      ]
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No original guide testimony, intelligence report or message was inspected. Woodbury’s explanations about guides and beliefs concerning another enemy position remain retrospective assertions, not established contemporary knowledge.",
+      "citations": []
+    },
+    {
+      "id": "objective-dispute",
+      "dimension": "objectives",
+      "value": "NPS describes destroying Dismal Swamp Canal locks to prevent ironclad transfer from Norfolk; Woodbury describes investigating enemy forces near the Albemarle and Chesapeake Canal and opportunities to obstruct it.",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "The named canals and scope differ; preserve both accounts without treating them as interchangeable waterways or resolving the discrepancy from recollection. No original order was inspected.",
+      "citations": [
+        {
+          "source_id": "nps-nc005-v1",
+          "locator": "Description",
+          "quote": "destroy the Dismal Swamp Canal locks to prevent transfer of the ships to Albemarle Sound."
+        },
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "south-mills-expedition",
+          "locator": "p.80, expedition purpose (OCR page markers; not checked against print)",
+          "quote": "Albemarle and Chesapeake Canal, and what opportunity existed for ob- structing the canal itself."
+        }
+      ]
+    },
+    {
+      "id": "reno-and-hawkins-actions",
+      "dimension": "responsibility",
+      "value": "NPS assigns the expedition to Reno. Woodbury attributes an unsuccessful frontal charge to Hawkins while Reno was elsewhere in the line.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Keep the historian’s attribution distinct from validated fault or motive. Named commanders and formations receive no automatic outcome credit.",
+      "citations": [
+        {
+          "source_id": "nps-nc005-v1",
+          "locator": "Description",
+          "quote": "He entrusted the operation to Brig. Gen. Jesse Lee Reno's command"
+        },
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "south-mills-expedition",
+          "locator": "p.82, Hawkins charge (OCR page markers; not checked against print)",
+          "quote": "ordered the New York regiments to charge the enemy's line. It was gallantly but ineffectually done."
+        }
+      ]
+    },
+    {
+      "id": "outcome-interpretation-dispute",
+      "dimension": "outcome",
+      "value": "The frozen result is Inconclusive (Federals withdrew.), and live NPS says Indecisive. Woodbury instead characterizes the fight as a decisive defeat inflicted on the enemy while acknowledging Reno’s withdrawal.",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "Preserve the interpretive dispute without recoding a victory, half-win or counterfactual effect. Retreat from the battle and achievement of the canal objective are distinct questions.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC005"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive (Federals withdrew.)"
+        },
+        {
+          "source_id": "nps-nc005-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "south-mills-expedition",
+          "locator": "p.83, assessment (OCR page markers; not checked against print)",
+          "quote": "a decisive defeat had been inflicted upon the enemy's troops. But General Reno decided not to follow up his success."
+        }
+      ]
+    },
+    {
+      "id": "casualty-version-difference",
+      "dimension": "outcome",
+      "value": "The frozen table gives 150 total; the live NPS table displays 139 total (US 114; CS 25;).",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "These versions remain distinct. No inspected return reconciles the totals, category definitions or reporting boundaries. Casualties are not opening strength or a predictor; a displayed zero is not evidence of no losses.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC005"
+          },
+          "column": "casualties_text",
+          "quote": "150 total"
+        },
+        {
+          "source_id": "nps-nc005-v1",
+          "locator": "Estimated Casualties",
+          "quote": "139 total (US 114; CS 25;)"
+        }
+      ]
+    },
+    {
+      "id": "later-naval-obstruction",
+      "dimension": "outcome",
+      "value": "Woodbury describes a naval expedition under Musser obstructing a canal mouth a few days after Reno’s expedition.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Subsequent action, not proof that Reno destroyed the locks on April 19. The canal-identification dispute stays unresolved and this later action receives no additional score.",
+      "citations": [
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "south-mills-expedition",
+          "locator": "pp.83–84, subsequent context (OCR page markers; not checked against print)",
+          "quote": "A naval expedition under Lieutenant Musser, with the gunboats Lockwood, Whitehead and General Putnam, succeeded a few days afterwards in ob- structing the mouth of Jfche CanaL"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Original orders, personnel returns, contemporary intelligence and source disputes remain deferred after the bounded shared-history follow-up. OCR has not been checked against print.",
+    "Keep opening, moving, engaged, garrison and captured populations distinct; do not use live zero displays as numerical evidence.",
+    "Broader blockade, occupation and later operations remain campaign context, not additional independent wins or automatic commander credit."
+  ]
+}

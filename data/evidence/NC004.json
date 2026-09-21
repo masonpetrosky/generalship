@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "battle_id": "NC004",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass in the complete five-engagement frozen Burnside campaign. Opening populations and replacement boundaries are unresolved. NPS and an interested retrospective history supply attributed claims only; no predictors or causal command scores are admitted.",
+  "claims": [
+    {
+      "id": "garrison-estimate-and-display",
+      "dimension": "strength",
+      "value": "Woodbury describes a garrison of about five hundred men; the live NPS table displays zero for both sides.",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "An approximate garrison estimate, not a dated opening return or complete opposing pair. The live zero does not disprove that troops were present.",
+      "citations": [
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "fort-macon-siege",
+          "locator": "p.71, opening (OCR page markers; not checked against print)",
+          "quote": "garrisoned by a battalion of about five hundred men."
+        },
+        {
+          "source_id": "nps-nc004-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ]
+    },
+    {
+      "id": "opening-populations-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No inspected return establishes matched opening populations. The frozen side-specific numerical bounds are blank; live zeros are not measured absence of troops. Retrospective formations, gun crews, garrisons, prisoners and troops engaged must not be interchanged.",
+      "citations": []
+    },
+    {
+      "id": "channel-and-sand-ridges",
+      "dimension": "terrain",
+      "value": "NPS describes a masonry fort commanding the channel to Beaufort; Woodbury describes low sand ridges sheltering siege work.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Attributed physical context only. Siege positions may reflect command preparation, so no inherited/created classification is admitted.",
+      "citations": [
+        {
+          "source_id": "nps-nc004-v1",
+          "locator": "Description",
+          "quote": "a third system casemated masonry fort that commanded the channel to Beaufort"
+        },
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "fort-macon-siege",
+          "locator": "p.72, siege works (OCR page markers; not checked against print)",
+          "quote": "long, low ridges of sand, behind which the troops could work almost unmolested"
+        }
+      ]
+    },
+    {
+      "id": "siege-supply-delay",
+      "dimension": "logistics",
+      "value": "Woodbury reports delay from destruction of a railroad bridge, followed by arrival of ordnance and siege material after its completion.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "The bridge and siege preparation are attributed operational processes, not a readiness index or a commander effect estimate.",
+      "citations": [
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "fort-macon-siege",
+          "locator": "p.72, siege supply (OCR page markers; not checked against print)",
+          "quote": "Some delay had been experienced by the destruction of the railroad bridge."
+        },
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "fort-macon-siege",
+          "locator": "p.72, same passage (OCR page markers; not checked against print)",
+          "quote": "large quantities of ord- nance stores and siege material began to arrive from Newbern."
+        }
+      ]
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No original engineering survey, surrender correspondence, intelligence report or dated gun-condition record was inspected. Woodbury’s retrospective account does not establish either commander’s full knowledge state.",
+      "citations": []
+    },
+    {
+      "id": "investment-objective",
+      "dimension": "objectives",
+      "value": "Woodbury says Burnside decided on complete investment and a combined land and sea attack to force surrender.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Attributed plan, not an inspected original instruction. Naval participation limits in the same source remain visible and success is not counted again as campaign contribution.",
+      "citations": [
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "fort-macon-siege",
+          "locator": "pp.71–72, investment (OCR page markers; not checked against print)",
+          "quote": "General Burnside therefore decided to make a com- plete investment of the fort, and, by a combined attack by land and sea, force its surrender."
+        }
+      ]
+    },
+    {
+      "id": "assigned-siege-command",
+      "dimension": "responsibility",
+      "value": "Woodbury assigns the land siege to Parke and identifies White as the defending commandant.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Source-assigned roles, not reputation-based validation or automatic allocation of all credit. Lockwood’s naval role remains in the source context.",
+      "citations": [
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "fort-macon-siege",
+          "locator": "p.72, siege command (OCR page markers; not checked against print)",
+          "quote": "General Parke was an accom- plished engineer, and to him the work of besieging the fort by land w^as entrusted."
+        },
+        {
+          "source_id": "nps-nc004-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant Colonel Moses White [CS]"
+        }
+      ]
+    },
+    {
+      "id": "bombardment-date-dispute",
+      "dimension": "outcome",
+      "value": "NPS dates opening fire to April 26, while Woodbury dates Parke opening his guns to the morning of April 25. Woodbury’s later surrender-day numeral appears in OCR as 23th.",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "Preserve the disagreement and garbled numeral without silently repairing OCR or changing the frozen March 23–April 26 interval. No precise surrender clock is established.",
+      "citations": [
+        {
+          "source_id": "nps-nc004-v1",
+          "locator": "Description",
+          "quote": "on April 26, opened an accurate fire on the fort"
+        },
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "fort-macon-siege",
+          "locator": "p.73, bombardment (OCR page markers; not checked against print)",
+          "quote": "Oh the morning of the 25th, General Parke opened his guns on the fort."
+        },
+        {
+          "source_id": "woodbury-burnside-selections-v1",
+          "section": "fort-macon-siege",
+          "locator": "p.74, surrender (OCR page markers; not checked against print)",
+          "quote": "On the morning of the 23th, therefore, Colonel White hung out the white flag"
+        }
+      ]
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen row and live NPS page record a Union victory.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Same source family, not independent corroboration or a causal effect. Retain the frozen engagement interval and do not add a separate score for later occupation or campaign consequences.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC004"
+          },
+          "column": "result",
+          "quote": "Union"
+        },
+        {
+          "source_id": "nps-nc004-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        }
+      ]
+    },
+    {
+      "id": "casualty-version-difference",
+      "dimension": "outcome",
+      "value": "The frozen table gives 490 total (US 10; CS 480); the live NPS table displays 442 total (US 3; CS 439;).",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "These versions remain distinct. No inspected return reconciles the totals, category definitions or reporting boundaries. Casualties are not opening strength or a predictor; a displayed zero is not evidence of no losses.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC004"
+          },
+          "column": "casualties_text",
+          "quote": "490 total (US 10; CS 480)"
+        },
+        {
+          "source_id": "nps-nc004-v1",
+          "locator": "Estimated Casualties",
+          "quote": "442 total (US 3; CS 439;)"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Original orders, personnel returns, contemporary intelligence and source disputes remain deferred after the bounded shared-history follow-up. OCR has not been checked against print.",
+    "Keep opening, moving, engaged, garrison and captured populations distinct; do not use live zero displays as numerical evidence.",
+    "Broader blockade, occupation and later operations remain campaign context, not additional independent wins or automatic commander credit."
+  ]
+}

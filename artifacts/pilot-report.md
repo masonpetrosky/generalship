@@ -49,6 +49,11 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [MD003](../data/evidence/MD003.json) | 9 | 5 | 0 | 0 | draft |
 | [MS009](../data/evidence/MS009.json) | 7 | 3 | 0 | 0 | draft |
 | [MS016](../data/evidence/MS016.json) | 12 | 2 | 0 | 0 | draft |
+| [NC002](../data/evidence/NC002.json) | 9 | 1 | 0 | 0 | draft |
+| [NC003](../data/evidence/NC003.json) | 9 | 2 | 0 | 0 | draft |
+| [NC004](../data/evidence/NC004.json) | 10 | 2 | 0 | 0 | draft |
+| [NC005](../data/evidence/NC005.json) | 10 | 2 | 0 | 0 | draft |
+| [NC006](../data/evidence/NC006.json) | 9 | 3 | 0 | 0 | draft |
 | [TN001](../data/evidence/TN001.json) | 10 | 1 | 0 | 0 | draft |
 | [TN002](../data/evidence/TN002.json) | 11 | 1 | 0 | 0 | draft |
 | [TN003](../data/evidence/TN003.json) | 62 | 3 | 40 | 26 | draft |
@@ -63,8 +68,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 10 engagements have dossiers; 117 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Eastern Kentucky first pass](../docs/research/eastern-kentucky-first-pass-v1.md) adds Middle Creek (KY005) and Mill Springs (KY006): 22 claims, three explicit unknowns, two retained source families per battle, and unresolved strength/result/casualty differences. Separate Astra xhigh review accepted all 22 claims and 37 citations with no required corrections. Next take the complete Burnside's North Carolina Expedition campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 15 engagements have dossiers; 112 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Burnside campaign first pass](../docs/research/burnside-first-pass-v1.md) adds all five frozen engagements: 47 claims, ten explicit unknowns and two source families per battle. Source differences and limits remain visible; separate campaign review is pending. Next take the complete New Madrid/Island No. 10 and Memphis campaign (MO012, TN004). Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 
