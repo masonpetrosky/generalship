@@ -100,7 +100,8 @@ The [Peninsula pass](docs/research/peninsula-first-pass-v1.md) adds all sixteen
 frozen records: 152 claims, 39 explicit unknowns and one or two families per record.
 Astra `xhigh` accepted all 152 claims with no required corrections.
 The [Valley pass](docs/research/valley-first-pass-v1.md) adds seven dossiers,
-68 claims, 17 explicit unknowns and 91 citations. Separate review is pending.
+68 claims, 17 explicit unknowns and 91 citations. Astra `xhigh` reviewed the complete
+batch; its one timing-tag correction is fixed and verified by the primary.
 Next: **the five-record Confederate Heartland Offensive**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).

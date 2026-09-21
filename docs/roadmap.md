@@ -78,7 +78,10 @@ records remain overlapping; coverage is not three independent wins.
 The [Valley first pass](research/valley-first-pass-v1.md) adds all **seven frozen
 records, VA101–VA106 and WV009**, with **68 claims, 17 explicit unknowns and 91
 citations**. Six use NPS/CWSAC and Allan; Princeton retains one family and four
-unknowns. Separate review is pending. Coverage is **8/36 complete campaigns by
+unknowns. Separate Astra `xhigh`
+[review](../artifacts/review-results/valley-0ceecd4-astra-xhigh-v1/review.md)
+covered all 68 claims and 91 citations. Its one Port Republic timing-tag correction
+is fixed and [verified by the primary](../artifacts/review-results/valley-0ceecd4-astra-xhigh-v1/primary-assessment.md). Coverage is **8/36 complete campaigns by
 dossier presence**, with zero promoted rows.
 
 Next take **Confederate Heartland Offensive [June-October 1862]**, the next complete

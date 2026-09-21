@@ -3,7 +3,9 @@
 Prepared 2026-09-20. All **seven frozen records** in **Jackson's Valley Campaign
 [March-June 1862]** now have draft dossiers: **68 claims, 17 explicit null unknowns
 and 91 citation occurrences**. All seven dimensions are represented. Separate
-campaign review is pending; no features are admitted.
+Astra `xhigh` [review](../../artifacts/review-results/valley-0ceecd4-astra-xhigh-v1/review.md)
+covered the complete batch. Its one timing-tag correction is fixed and verified
+by the primary. All dossiers remain drafts; no features are admitted.
 
 | Record | Claims | Unknowns | Citations | Families |
 | --- | ---: | ---: | ---: | ---: |
@@ -100,6 +102,26 @@ causal effect or new commander ranking is introduced. Cohort and both admission
 proposals remain unchanged, with **zero promoted rows**. The baseline still uses
 **23/127 engagements in 13 eligible groups**, with strength Brier **0.276882**
 versus **0.250000** for equal odds; coverage has not improved predictive results.
+
+## Review correction and validation
+
+The reviewer found **VALLEY-R1**: Port Republic's transfer/bridge-burning claim was
+tagged `post_outcome` without an established clock relative to that engagement.
+The primary reread both NPS summaries and Allan's adjacent OCR pp.161–162 and
+accepted the exact proposed change to `unresolved`, with its explicit rationale.
+The claim value, citation and all other claims stay unchanged. The original
+schema-v1 dossier is retained as `data/evidence/history/VA106.v1.json`; the current
+schema-v1 draft records its hash in `supersedes`. This archive binding is verified
+explicitly by the primary; v1's generic validator does not enforce that field.
+The receipt includes both revisions without counting another engagement. The
+original prepared packet remains available at commit `0ceecd4`; the current VA106
+packet is regenerated. All other prepared packets and every source are unchanged.
+
+The [primary assessment](../../artifacts/review-results/valley-0ceecd4-astra-xhigh-v1/primary-assessment.md)
+closes R1 after direct verification; no second reviewer pass is claimed. Author and
+reviewer passed all 82 tests and offline checks. The author reran checks after the
+correction, replayed all seven derivatives/packets, verified preservation and
+inspected the regenerated report and receipt. Historical unknowns remain open.
 
 Next by frozen campaign start is **Confederate Heartland Offensive [June-October
 1862]**: **TN005 Chattanooga, TN006 Murfreesboro, KY007 Richmond, KY008 Munfordville
