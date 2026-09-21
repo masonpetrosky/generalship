@@ -1,0 +1,44 @@
+{
+  "prepared_commit": "0433daa23598e1294902a669f5a361f4552f922c",
+  "review_sha256": "d4c6ba917b021b90cf5600f7f93a5ba044a5ba87306308311e7d44eafb947c51",
+  "reviewed_evidence_inputs_unchanged": [
+    "data/sources.json",
+    "data/pilot/cohort.json",
+    "data/admission/shiloh-opening-v1.json",
+    "data/admission/shiloh-opening-v2.json",
+    "artifacts/baseline.json",
+    "data/evidence/MO012.json",
+    "data/evidence/TN004.json",
+    "artifacts/research/MO012.md",
+    "artifacts/research/TN004.md",
+    "data/raw/mississippi-joint-v1/mahan-catalog.html",
+    "data/raw/mississippi-joint-v1/mahan-full.html",
+    "data/raw/mississippi-joint-v1/mahan-full.txt",
+    "data/raw/mississippi-joint-v1/mahan-selections.txt",
+    "data/raw/mississippi-joint-v1/nps-mo012.html",
+    "data/raw/mississippi-joint-v1/nps-tn004.html",
+    "data/raw/mississippi-joint-v1/nps-tn004.txt"
+  ],
+  "commands": [
+    "make reproduce",
+    "python3 -m generalship check",
+    "primary preservation and text-derivation replay",
+    "git diff --check"
+  ],
+  "offline_check_passed": true,
+  "tests_passed_by_author_and_reviewer": 82,
+  "coverage": {
+    "dossiers": 17,
+    "frame": 127,
+    "without": 110,
+    "complete_source_campaigns": 6,
+    "campaigns": 36
+  },
+  "baseline_eligible": 23,
+  "baseline_groups": 13,
+  "baseline_brier": 0.2768816348133779,
+  "equal_odds_brier": 0.25,
+  "promoted_rows": 0,
+  "generated_report_inspected": true,
+  "receipt_hashes_verified": true
+}
