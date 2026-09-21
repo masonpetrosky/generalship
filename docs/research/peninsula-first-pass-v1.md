@@ -3,7 +3,9 @@
 Prepared 2026-09-20. All **16 frozen records** in **Peninsula Campaign [March-July
 1862]** now have draft dossiers. They contain **152 claims, 39 explicit null
 unknowns and 209 citation occurrences**; all seven dimensions are represented.
-Separate campaign review is pending. No features are admitted.
+Separate Astra `xhigh` [review](../../artifacts/review-results/peninsula-aa30f97-astra-xhigh-v1/review.md)
+accepted all 152 claims and 209 citations with no required corrections. All dossiers
+remain drafts; no features are admitted.
 
 | Record | Claims | Unknowns | Citations | Families |
 | --- | ---: | ---: | ---: | ---: |
@@ -122,6 +124,11 @@ There are **zero promoted rows**, and the baseline remains **23/127 eligible
 engagements in 13 groups**, with strength Brier **0.276882** versus **0.250000**
 for equal odds. More draft coverage does not establish predictive improvement.
 
-Validation and actual separate-review results will be bound to the prepared
-commit. Next is **Jackson's Valley Campaign [March-June 1862]**, seven frozen
+The [primary assessment](../../artifacts/review-results/peninsula-aa30f97-astra-xhigh-v1/primary-assessment.md)
+accepts the bounded result. Author and reviewer each passed all 82 tests and
+offline checks, replayed all 17 text derivatives and sixteen prepared packets,
+and verified preservation. The report was inspected and reproduced. Reviewed
+evidence and packets remain unchanged; historical unknowns and disputes remain.
+
+Next is **Jackson's Valley Campaign [March-June 1862]**, seven frozen
 records: VA101, VA102, WV009, VA103, VA104, VA105 and VA106.

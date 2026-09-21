@@ -69,7 +69,9 @@ The [Peninsula first pass](research/peninsula-first-pass-v1.md) now supplies all
 **16 frozen records, VA008–VA021 plus VA020A and VA020B**, with **152 claims, 39
 explicit unknowns and 209 citations**. Fourteen land records use NPS/CWSAC and
 Webb's retrospective participant history; the two naval records retain one NPS
-family. Separate review is pending. Coverage is **7/36 complete campaigns by
+family. Separate Astra `xhigh`
+[review](../artifacts/review-results/peninsula-aa30f97-astra-xhigh-v1/review.md)
+accepted all 152 claims and 209 citations with no required corrections. Coverage is **7/36 complete campaigns by
 dossier presence**, with zero newly admitted features. VA020 and its two component
 records remain overlapping; coverage is not three independent wins.
 

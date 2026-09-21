@@ -98,7 +98,7 @@ two drafts with 21 claims, five explicit unknowns and two families per battle.
 Astra `xhigh` accepted all 21 claims with no required corrections.
 The [Peninsula pass](docs/research/peninsula-first-pass-v1.md) adds all sixteen
 frozen records: 152 claims, 39 explicit unknowns and one or two families per record.
-Separate review is pending. Next: **Jackson's seven-engagement Valley Campaign**. See the
+Astra `xhigh` accepted all 152 claims with no required corrections. Next: **Jackson's seven-engagement Valley Campaign**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.
