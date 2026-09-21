@@ -68,6 +68,19 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Cockpit Point first pass, 2026-09-20
+
+The [bounded pass](research/cockpit-point-first-pass-v1.md) adds two NPS HTML
+snapshots and two extracted text selections: the VA100 battle detail and the
+Potomac Heritage Cockpit Point narrative. All share `nps-cwsac` with the pinned
+tables; this pass retains **one source family**, with no independent confirmation.
+The registry is **188 entries / 185 raw paths**, preserving all earlier records.
+Both selected texts were fully inspected and replayed from their HTML parents;
+no image, map, original report or facsimile was inspected. The attempted Navy
+follow-up was not retained as evidence. Unknown opening personnel, combat supply
+and information stay explicit, and January's nondecisive outcome is separate
+from the later March evacuation. No raw evidence or model input is replaced.
+
 ### Bounded river-campaign first pass, 2026-09-20
 
 The [campaign memo](research/river-campaign-first-pass-v1.md) adds eight source

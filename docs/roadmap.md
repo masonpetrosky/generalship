@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **6 draft dossiers / 127 engagements**, with **121 without a dossier**.
+There are **7 draft dossiers / 127 engagements**, with **120 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -25,9 +25,14 @@ all four dossiers in **Federal Penetration up the Cumberland and Tennessee River
 Astra `xhigh` [review](../artifacts/review-results/river-campaign-0cc3b1b-astra-xhigh-v1/review.md)
 accepted all 33 new claims with no required corrections and verified Shiloh
 preservation; its old claims were not re-reviewed. All four dossiers remain drafts.
-Next take **Blockade of the Potomac River [October 1861-January
-1862]**, whose complete frozen membership is **VA100 — Cockpit Point**. This is the
-earliest remaining source campaign by engagement start date (January 3, 1862).
+The [Cockpit Point first pass](research/cockpit-point-first-pass-v1.md) adds
+**VA100**, the sole frozen member of **Blockade of the Potomac River [October
+1861-January 1862]**. Its 10 claims use one retained NPS/CWSAC family, with three
+explicit unknowns; separate campaign review is pending. That makes **2/36 complete
+source groups by dossier presence**, not historical completeness or feature eligibility.
+
+After review, take **Jackson's Operations Against the B&O Railroad [January 1862]**,
+whose complete frozen membership is **MD001 — Hancock** (January 5, 1862).
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

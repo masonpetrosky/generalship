@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA100",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the complete one-engagement frozen source campaign. No replacement time, matched opening population or command-attribution boundary is established. Draft prose supplies no admitted features.",
+  "claims": [
+    {
+      "id": "force-units-and-scope",
+      "dimension": "strength",
+      "value": "The pinned record describes two Union gunboats and a Confederate battery garrison. Its narrative places 37 Confederate heavy guns along the river by mid-December, not specifically at Cockpit Point on January 3.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "Vessels, guns and personnel are different units. The river-wide equipment count is neither a local garrison census nor an opening-battle population.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "VA100",
+            "belligerent": "US"
+          },
+          "column": "description",
+          "quote": "Two gunboats"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "VA100",
+            "belligerent": "Confederate"
+          },
+          "column": "description",
+          "quote": "battery garrison"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA100"
+          },
+          "column": "description",
+          "quote": "By mid-December, the Confederates had 37 heavy guns in position along the river."
+        }
+      ]
+    },
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "Neither side has a supported opening personnel count in the inspected evidence. The frozen force bounds are blank; crew sizes cannot be inferred from vessel counts. Contemporary returns and crew/garrison membership remain deferred.",
+      "citations": []
+    },
+    {
+      "id": "live-table-limits",
+      "dimension": "strength",
+      "value": "The current NPS detail page displays a zero total with blank side values and gives October 1861–January 1862 as its date span, while the frozen battle row dates the engagement January 3, 1862.",
+      "phase": "unresolved",
+      "status": "disputed",
+      "rationale": "These live summary fields do not establish zero troops or an engagement lasting the whole campaign span. The retained live Description field is empty. Preserve both source versions and the frozen date rather than filling the gaps.",
+      "citations": [
+        {
+          "source_id": "nps-va100-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US ; CS ;)"
+        },
+        {
+          "source_id": "nps-va100-v1",
+          "locator": "Date(s)",
+          "quote": "October 1861-January 1862"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA100"
+          },
+          "column": "start_date",
+          "quote": "1862-01-03"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA100"
+          },
+          "column": "end_date",
+          "quote": "1862-01-03"
+        }
+      ]
+    },
+    {
+      "id": "fortified-bluff",
+      "dimension": "terrain",
+      "value": "The NPS Potomac narrative describes Cockpit Point as a bluff with artillery encampments and trenches built and manned in late 1861.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "A source-backed terrain/works description, not a measured defensive advantage, exact height or mapped opening perimeter. Construction may matter to campaign contribution; replacement boundaries remain unset.",
+      "citations": [
+        {
+          "source_id": "nps-potomac-cockpit-v1",
+          "locator": "Battle of Cockpit Point, two retained narrative paragraphs",
+          "quote": "One of the bluffs they decided to fortify was Cockpit Point. In late 1861, artillery encampments and trenches along Cockpit point were built and manned."
+        }
+      ]
+    },
+    {
+      "id": "combat-logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No January 3 ammunition, fuel, food, transport capacity or sustained-fire availability is established for either side. The narrative’s shipping restrictions describe the campaign setting and objective, not measured combat supply readiness.",
+      "citations": []
+    },
+    {
+      "id": "contemporary-information-unknown",
+      "dimension": "information",
+      "value": null,
+      "phase": "unresolved",
+      "status": "unknown",
+      "rationale": "No contemporary orders, reconnaissance report or message chain was inspected to establish what Wyman, French or the vessel commanders knew before the bombardment. Modern outcome summaries cannot reconstruct their information sets.",
+      "citations": []
+    },
+    {
+      "id": "river-control-objectives",
+      "dimension": "objectives",
+      "value": "The pinned narrative attributes the Confederate batteries to an effort to close the Potomac to shipping and isolate Washington. The NPS Potomac narrative describes the gunboats’ aim as driving away the Confederates and reopening river access to Washington.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "These are retrospective summary statements of aims, not inspected pre-action orders or quantitative campaign utilities. Objective, achievement and tactical outcome remain distinct.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA100"
+          },
+          "column": "description",
+          "quote": "In October, the Confederates constructed batteries at Evansport, Freestone Point, Shipping Point, and Cockpit Point to close the Potomac River to shipping and isolate Washington."
+        },
+        {
+          "source_id": "nps-potomac-cockpit-v1",
+          "locator": "Battle of Cockpit Point, two retained narrative paragraphs",
+          "quote": "Two Union gunboats, the USS Anacostia and the USS Yankee, shelled cockpit point to drive away the Confederates and attempt to open the river back up to Washington DC."
+        }
+      ]
+    },
+    {
+      "id": "listed-commanders",
+      "dimension": "responsibility",
+      "value": "The frozen commander table lists R.H. Wyman for the Union and Samuel G. French for the Confederacy.",
+      "phase": "unresolved",
+      "status": "supported",
+      "rationale": "These are source-listed names, not verified presence, effective tactical control, resolved cross-battle identities or shares of credit. Vessel-command relationships and the decision chain remain unestablished. No outcome is automatically assigned to either listed commander.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA100",
+            "belligerent": "US",
+            "fullname": "R.H. Wyman"
+          },
+          "column": "fullname",
+          "quote": "R.H. Wyman"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA100",
+            "belligerent": "Confederate",
+            "fullname": "Samuel G. French"
+          },
+          "column": "fullname",
+          "quote": "Samuel G. French"
+        }
+      ]
+    },
+    {
+      "id": "recorded-january-outcome",
+      "dimension": "outcome",
+      "value": "The frozen row calls the January 3 engagement Inconclusive; the current NPS detail uses Indecisive. The frozen narrative says neither side gained an advantage.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Preserve the recorded nondecisive classification and exact source wording. Do not map it to a binary win, a half-win or a validated causal result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA100"
+          },
+          "column": "result",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va100-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA100"
+          },
+          "column": "description",
+          "quote": "On January 3, Cockpit Point was shelled by Anacostia and Yankee with neither side gaining an advantage."
+        }
+      ]
+    },
+    {
+      "id": "january-versus-march",
+      "dimension": "outcome",
+      "value": "The NPS Potomac narrative describes the bombardment as unsuccessful in dislodging the Confederates, then describes Union control after the Confederate evacuation in March. The pinned narrative dates the Union ships’ discovery of the abandoned works to March 9.",
+      "phase": "post_outcome",
+      "status": "supported",
+      "rationale": "Failure to reopen the river in the bombardment and the later evacuation are distinct outcomes. March is later context outside the frozen January engagement and the source campaign’s label; it does not retroactively make January a Union victory or supply a second modeled success. All cited descriptions belong to the same source family.",
+      "citations": [
+        {
+          "source_id": "nps-potomac-cockpit-v1",
+          "locator": "Battle of Cockpit Point, two retained narrative paragraphs",
+          "quote": "They were unsuccessful and Cockpit Point remained in the hands of the Confederates."
+        },
+        {
+          "source_id": "nps-potomac-cockpit-v1",
+          "locator": "Battle of Cockpit Point, two retained narrative paragraphs",
+          "quote": "However, when the Confederate Army evacuated Northern Virginia in March of 1862, the forts fell under the control of the Union Army"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA100"
+          },
+          "column": "description",
+          "quote": "Union ships approached the point again on March 9 but discovered that the Confederates had abandoned their works and retired closer to Richmond"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Establish matched opening crew and garrison populations, local armament and command scope only for a defined admission decision; river-wide guns and two vessels are not personnel estimates.",
+    "Contemporary information, combat supply conditions and separately authored evidence remain unavailable in this pass. Stop after the documented targeted Navy follow-up.",
+    "A future campaign-outcome definition must separate the January bombardment from the March withdrawal without silently changing the frozen campaign membership or date window."
+  ]
+}

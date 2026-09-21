@@ -22,8 +22,8 @@ wins a commander caused. No validated commander ranking exists here yet.
   dates, force ranges, missingness, outcome codes, and cohort membership.
 - A small regularized logistic baseline using relative force size. Evaluation
   holds out whole campaigns and compares with equal odds and a training-only prior.
-- Six draft dossiers: **Fort Henry, Fort Donelson, Shiloh, Corinth, Antietam,
-  and Champion Hill**, with exact source
+- Seven draft dossiers: **Cockpit Point, Fort Henry, Fort Donelson, Shiloh,
+  Corinth, Antietam and Champion Hill**, with exact source
   passages, explicit unknowns, command questions, and inherited/created distinctions.
 - A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
   independently authored histories, and return-table scans. The follow-up
@@ -73,7 +73,7 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 ## Research direction
 
 **Current priority: comparable coverage across the 127 engagements.** We have
-six draft dossiers and 121 engagements without one. Shiloh's repeated source
+seven draft dossiers and 120 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.
@@ -81,8 +81,9 @@ targeted follow-up, then move on and review by complete source campaign.
 The [bounded river-campaign pass](docs/research/river-campaign-first-pass-v1.md)
 adds Fort Henry, Fort Donelson and Corinth, carrying forward Shiloh unchanged.
 The three new drafts passed separate Astra `xhigh` source review; no model inputs
-are admitted. The next complete source campaign is the **Blockade of the Potomac River**, containing
-Cockpit Point (VA100). See the
+are admitted. The [Cockpit Point first pass](docs/research/cockpit-point-first-pass-v1.md)
+now covers the complete frozen Potomac blockade group; its separate review is
+pending. After review, take **Hancock (MD001)**, the next complete source campaign. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.
@@ -177,7 +178,7 @@ raw paths; the historical conclusions and model inputs are unchanged.
 
 The [Reid provenance trace](docs/research/shiloh-reid-provenance-v1.md) identifies the publisher collection process and Miller's general editorial role, but no original 46th Ohio witness. Lindsey supplies a later wording parallel with independence unestablished. Five assertions bind 11 anchors / 10 source-locator pairs, ten retained page images and one text-only LOC catalog snapshot. All earlier evidence is preserved; the registry at that stage has 164 entries / 161 raw paths and zero feature admission. Separate Astra `xhigh` [review and primary assessment](artifacts/review-results/shiloh-reid-1c498e0-astra-xhigh-v1/primary-assessment.md) accept all five bounded assertions with two nonblocking catalog clarifications: use the retained Agate letters label and provider page/line locators; material format and printed pagination remain unverified.
 
-The [Agate comparison](docs/research/shiloh-agate-comparison-v1.md) locates two historical reprints with 1864 title imprints, supporting a Reid/Agate account dated April 9, 1862. Its inspected opening reports Saturday skirmishing but does not supply the later B/K overnight narrative or identify its witness/post. The original Gazette issue remains uninspected. Five assertions bind 16 anchors / 12 source-section pairs across 11 inspected images; the registry now has 176 entries / 173 raw paths, with zero feature admission. Separate Astra `xhigh` [review and primary assessment](artifacts/review-results/shiloh-agate-73e26d4-astra-xhigh-v1/primary-assessment.md) accept all five bounded historical assertions; the sole documentation inventory finding is corrected and closed by primary verification. The original issue, overnight witness and continuity remain unresolved.
+The [Agate comparison](docs/research/shiloh-agate-comparison-v1.md) locates two historical reprints with 1864 title imprints, supporting a Reid/Agate account dated April 9, 1862. Its inspected opening reports Saturday skirmishing but does not supply the later B/K overnight narrative or identify its witness/post. The original Gazette issue remains uninspected. Five assertions bind 16 anchors / 12 source-section pairs across 11 inspected images; the registry at that packet has 176 entries / 173 raw paths, with zero feature admission. Separate Astra `xhigh` [review and primary assessment](artifacts/review-results/shiloh-agate-73e26d4-astra-xhigh-v1/primary-assessment.md) accept all five bounded historical assertions; the sole documentation inventory finding is corrected and closed by primary verification. The original issue, overnight witness and continuity remain unresolved.
 
 Then define a campaign replacement boundary and outcomes before fitting enriched
 models. Battle execution and campaign contribution are separate estimands; adding
