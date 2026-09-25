@@ -18,8 +18,8 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force field describes the Union side as detachments from twelve units and the Confederates as nine companies of infantry and two of mounted men (1,010); the live field reads zero. Nelson says the enemy lay in ambush 700 strong. Williams's November 9 report says he had only about 300 against not less than 1,500, most probably 2,000, and gives his command at the time of writing ('We have now') as nine infantry and five mounted companies, two of the latter not full, 1,100 in all; on November 13 he says his whole force was 1,010 including sick and extra-duty men, that 250 held the Ivy position, and that the columns were 1,600 and 1,800.",
-      "rationale": "The CWSAC 1,010 matches Williams's November 13 whole-force figure, not the men engaged; the CWSAC's two mounted companies do not match the five mounted companies of his November 9 report (the November 13 report gives no company count), and his two reports differ on the men at the pass (about 300 against 250). None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "value": "The frozen force field describes the Union side as detachments from twelve units and the Confederates as nine companies of infantry and two of mounted men (1,010); the live field reads zero. Nelson says the enemy lay in ambush 700 strong. Williams's November 9 report says he had only about 300 against not less than 1,500, most probably 2,000, and gives his command as nine infantry and five mounted companies, 1,100 in all; on November 13 he says his whole force was 1,010 including sick and extra-duty men, that 250 held the Ivy position, and that the columns were 1,600 and 1,800.",
+      "rationale": "The CWSAC 1,010 matches Williams's November 13 whole-force figure, not the men engaged; his two reports differ on the mounted companies and on the men at the pass. None is adopted as a matched opening strength. The live zero is not measured absence.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -51,12 +51,6 @@
           "section": "williams-1861-11-09",
           "locator": "p.228 (OCR page markers; not checked against print)",
           "quote": "We have now nine companies of infantry, four of them not yet fall, and five companies of mounted men"
-        },
-        {
-          "source_id": "or4-williams-ivy-mountain-selections-v1",
-          "section": "williams-1861-11-09",
-          "locator": "p.228 (OCR page markers; not checked against print)",
-          "quote": "and two of these not fall"
         },
         {
           "source_id": "or4-williams-ivy-mountain-selections-v1",
@@ -311,7 +305,7 @@
     {
       "id": "recorded-result",
       "dimension": "outcome",
-      "value": "The frozen result reads Union victory (indecisive, but the Confederates withdrew); the live result reads Indecisive. Nelson says the rebels fled after an hour and twenty minutes and he pursued; Williams's November 9 report says the engagement lasted about four hours and that his force was outflanked and fell back and the enemy did not pursue. Nelson places the fight at 1 p.m. on the 8th; Williams's November 9 report says 'yesterday' and his November 13 report says 1.30 on the 9th.",
+      "value": "The frozen result reads Union victory (indecisive, but the Confederates withdrew); the live result reads Indecisive. Nelson says the rebels fled after an hour and twenty minutes and he pursued; Williams says his force was outflanked and fell back and the enemy did not pursue. Nelson places the fight at 1 p.m. on the 8th; Williams's November 9 report says 'yesterday' and his November 13 report says 1.30 on the 9th.",
       "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
       "citations": [
         {
@@ -332,12 +326,6 @@
           "section": "nelson-1861-11-10",
           "locator": "p.226 (OCR page markers; not checked against print)",
           "quote": "In an hour and twenty minutes the rebels were and tied"
-        },
-        {
-          "source_id": "or4-williams-ivy-mountain-selections-v1",
-          "section": "williams-1861-11-09",
-          "locator": "p.227 (OCR page markers; not checked against print)",
-          "quote": "The engagement was sanguinary, lasting about four hours."
         },
         {
           "source_id": "or4-williams-ivy-mountain-selections-v1",
@@ -431,10 +419,5 @@
     "Sill's No. 2 report, Marshall's and the regimental reports, returns and maps remain deferred. No nineteenth-century history covering the action was selected; this is a two-report or two-family first pass.",
     "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Nelson's November 10, 1861 report is an interested Union account, the same author family as the registered Nelson Shiloh selections (group or-nelson). Williams's November 9 and 13, 1861 reports are one family of interested Confederate accounts, the same author family as the registered Williams Blue Springs selection. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "eastern-kentucky-1861-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/KY003.v1.json",
-    "sha256": "954cbb54a7ef423a55334f7212da11b55a5d580610692817eaec74e5a4b37958"
-  }
+  ]
 }

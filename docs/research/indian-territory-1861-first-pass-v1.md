@@ -2,13 +2,14 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). All **three
 frozen records** in **Operations in the Indian Territory [November-December 1861]** now have draft
-dossiers: **27 claims, 3 explicit null unknowns and 116 citation occurrences**. All seven dimensions
+dossiers: **27 claims, 3 explicit null unknowns and 121 citation occurrences** (116 before the
+review correction below). All seven dimensions
 are represented in each record. All dossiers are drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| OK001 — Round Mountain | 1861-11-19 | 9 | 1 | 34 | 3 |
-| OK002 — Chusto-Talasah | 1861-12-09 | 9 | 1 | 42 | 3 |
+| OK001 — Round Mountain | 1861-11-19 | 9 | 1 | 37 | 3 |
+| OK002 — Chusto-Talasah | 1861-12-09 | 9 | 1 | 44 | 3 |
 | OK003 — Chustenahlah | 1861-12-26 | 9 | 1 | 40 | 3 |
 
 It was drafted in a parallel worktree with five other 1861 western campaigns. Dossier presence is not
@@ -49,7 +50,9 @@ This pass adds **11 source records**: three NPS HTML/text pairs; OR VIII catalog
 selections `or8-cooper-indian-territory-selections-v1` and `or8-mcintosh-chustenahlah-selections-v1`;
 and `britton-border-1-indian-territory-selections-v1`. New author groups:
 `cooper-indian-territory-report` and `mcintosh-chustenahlah-report`; Britton is in
-`britton-civil-war-border`, and the container is `or-series-i-volume-viii`. Cooper wrote after
+`britton-civil-war-border`, which is one witness family with volume II
+(`britton-civil-war-border-1899`; see the Missouri 1861 memo, W61-R14), and the container is
+`or-series-i-volume-viii`. Cooper wrote after
 McIntosh and criticizes him; Britton uses the Confederate reports.
 
 ## Decisions and limits
@@ -72,7 +75,9 @@ McIntosh and criticizes him; Britton uses the Confederate reports.
   one logistics and one command-role claim):
   - **Round Mountain.** Cooper lists a buggy, 12 wagons and provisions left in the camp; Britton says
     a few old ponies and broken wagons. Cooper says the enemy retreated under cover of darkness;
-    Britton says the Union Indians first drove the attackers from the field.
+    Britton says the Union Indians first drove the attackers from the field. Britton also says that
+    when Cooper came up it had become very dark and no engagement took place that night; Cooper
+    describes a short but sharp night conflict.
   - **Chusto-Talasah.** Cooper says the enemy disappeared from his front; Britton says the
     Confederates withdrew five miles and Cooper, badly crippled, fell back to Fort Gibson. The live US
     412 equals the prisoners' figure in Cooper's report; Britton says the chief's loss was much less
@@ -80,11 +85,16 @@ McIntosh and criticizes him; Britton uses the Confederate reports.
   - **Chustenahlah.** The frozen force field names Cooper's brigade, but by both reports it did not
     reach the field. McIntosh gives 8 killed and 32 wounded in his text and "Killed, 0; wounded, 40" in
     his closing line (OCR); the basis of the live US 211 is not established in the selected passages.
+    Britton (p.173, not selected for OK003) says McIntosh reported nine killed and forty wounded; this
+    is recorded as a lead in the open questions, not cited.
   - **Command at Chustenahlah.** Cooper calls McIntosh's attack precipitate and argues the chief could
     have been captured had McIntosh waited; this is Cooper's interested judgment, not a causal finding.
-- **Command roles and ranks.** The frozen commanders are Colonels Cooper and McIntosh and Opothleyahola
-  (no rank; cited by name). The live pages give Cooper as Brigadier General and the chief as US; neither
-  is adopted. No listed commander receives automatic sole credit.
+- **Command roles and ranks.** The frozen commanders are Colonels Cooper and McIntosh and
+  Opothleyahola (no rank; cited by name). Cooper's report gives the Round Mountain charge order, the
+  Chusto-Talasah formation and the order to D. N. McIntosh's Creek regiment in the passive; Britton
+  says Quayle charged the camp and Cooper parked his train and formed three columns. The live pages
+  give Cooper as Brigadier General and the chief as US; neither is adopted. No listed commander
+  receives automatic sole credit.
 - **Tags.** The Round Mountain creek timber and the Chustenahlah hill are tagged `inherited`; the
   Chusto-Talasah bend stays `unresolved` because its cover was strengthened with fallen logs. Outcomes
   are `post_outcome`.
@@ -96,8 +106,41 @@ changed.
 ## Validation
 
 `python3 -m generalship check` passes and `python3 -m unittest discover -s tests` passes (134 tests)
-in the worktree.
+in the worktree. After the review correction, both pass again (134 tests) in the main repository.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the six 1861
+western and Trans-Mississippi first passes together at commit `8a97ac1` as
+`w1861-review-8a97ac1-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": fourteen
+required findings (W61-R1 to W61-R14) and twelve advisories (W61-A1 to W61-A12) across the six passes.
+It is an AI review within its stated scope, not human historical adjudication, proof of source
+independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the retained NPS
+text) before any change; every new quote occurs once in its section, and the dossiers were regenerated
+from the builder.
+
+All three dossiers are revised under `indian-territory-1861-review-correction-2026-09-25` and
+supersede byte-for-byte archives at `data/evidence/history/<ID>.v1.json` for OK001, OK002 and OK003.
+
+- **W61-R10** (OK001 `command-roles` and this memo): Cooper writes "A charge was ordered to be made by
+  the detachment of Texas cavalry". The value no longer says "Cooper ordered"; Britton's "Colonel
+  Quayle charged this camp" is added (p.166).
+- **W61-R11** (OK001 `recorded-result` and this memo): Britton's "no engagement took place that
+  night" conflicts with Cooper's short night conflict. Both are now in the value, with one Britton
+  (p.167) and one Cooper (p.6) citation. The claim was already `disputed`.
+- **W61-R12** (OK002 `command-roles` and this memo): Cooper states the three-column formation and the
+  Creek regiment's order in the passive. The value now says so and adds Britton's account of Cooper
+  parking the train and forming three columns; two citations added (pp.8 and 169).
+
+Advisories:
+
+- **Adopted:** A5 (OK003: Britton's "nine men killed and forty wounded" recorded in the open questions
+  as a lead only, not cited; it would be a fourth family and is not independent of McIntosh's report).
+
+The review correction adds no source records. Citations rise from 116 to 121; claims (27), unknowns
+(3), disputed claims (10) and `inherited` tags (2) are unchanged. No model input, cohort file,
+admission proposal or baseline is changed.

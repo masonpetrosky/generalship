@@ -2,13 +2,14 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both **frozen
 records** in **Operations in Northeast Missouri [December 1861]** now have draft dossiers: **18
-claims, 2 explicit null unknowns and 62 citation occurrences**. All seven dimensions are represented
+claims, 2 explicit null unknowns and 63 citation occurrences** (62 before the review correction
+below). All seven dimensions are represented
 in each record. All dossiers are drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
 | MO010 — Mount Zion Church | 1861-12-28 | 9 | 1 | 30 | 3 |
-| MO011 — Roan's Tan Yard | 1862-01-08 | 9 | 1 | 32 | 3 |
+| MO011 — Roan's Tan Yard | 1862-01-08 | 9 | 1 | 33 | 3 |
 
 MO011's frozen date falls after the campaign's December 1861 label; the record is kept as frozen. The
 pass was drafted in a parallel worktree with five other 1861 western campaigns. Dossier presence is
@@ -60,8 +61,10 @@ pair; three OR VIII selections (`or8-prentiss-mount-zion-selections-v1`,
   - **Mount Zion casualties.** Prentiss's 3 killed, 17 severely and 46 slightly wounded include the
     previous evening's skirmish, so they must not be assigned to MO010 alone; the frozen US 72 and CS
     210 against Prentiss's 25 killed, 150 wounded and 30 prisoners.
-  - **Roan's Tan-Yard command.** Torrence describes his own dispositions and charge; Turner's relayed
-    account credits Hubbard with the attack and rout.
+  - **Roan's Tan-Yard command.** Torrence says he marched his command and was joined by Hunt and
+    Hubbard, but states the assignment of the carbine force to Hunt and the First Iowa charge in the
+    passive, without naming who gave the orders; Turner's relayed account credits Hubbard with the
+    attack and rout.
   - **Roan's Tan-Yard casualties.** Torrence's not less than 80 to 100 enemy killed and wounded (the
     CWSAC CS 80 matches his lower bound) against Hubbard's 40 killed and 60 wounded; Hubbard's own 6
     killed and 19 wounded against the frozen US 11.
@@ -77,8 +80,35 @@ or commander ranking is introduced. No model input, frozen baseline or admission
 ## Validation
 
 `python3 -m generalship check` passes and `python3 -m unittest discover -s tests` passes (134 tests)
-in the worktree.
+in the worktree. After the review correction, both pass again (134 tests) in the main repository.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the six 1861
+western and Trans-Mississippi first passes together at commit `8a97ac1` as
+`w1861-review-8a97ac1-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": fourteen
+required findings (W61-R1 to W61-R14) and twelve advisories (W61-A1 to W61-A12) across the six passes.
+It is an AI review within its stated scope, not human historical adjudication, proof of source
+independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the retained NPS
+text) before any change; every new quote occurs once in its section, and the dossiers were regenerated
+from the builder.
+
+MO011 is revised under `northeast-missouri-1861-review-correction-2026-09-25` and supersedes the
+byte-for-byte archive at `data/evidence/history/MO011.v1.json`. MO010 is unchanged.
+
+- **W61-R13** (MO011 `command-roles` and this memo): the claim is `disputed` on who commanded, and
+  Torrence reports the assignment to Hunt and the charge in the passive. The value now says so, the
+  rationale notes the passive, and "I marched my command to Boone ville" (p.50) is added.
+
+Advisories:
+
+- **Adopted:** A6 (MO011 open questions: the third family is Hubbard's account relayed by Turner,
+  Hubbard's own report would belong to it, and both inspected report families are Union).
+
+The review correction adds no source records. Citations rise from 62 to 63; claims (18), unknowns (2),
+disputed claims (5) and `inherited` tags (1) are unchanged. No model input, cohort file, admission
+proposal or baseline is changed.

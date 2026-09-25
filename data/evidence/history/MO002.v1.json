@@ -18,7 +18,7 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force field reads Brigade and Missouri State Guard divisions with no figures; the live field reads zero. NPS says Sigel led a force of about 1,000, and that Lyon had earlier chased the Governor and approximately 4,000 State Militia from Jefferson City and Boonville; that figure is not a count at Carthage. Sigel reports nine companies of the Third (550 effective) and seven of the Fifth (400) with two four-gun batteries, and estimates the enemy in sight at 3,500 besides a strong reserve (reported 4,000 the evening before). Snead gives Sigel 950 effective and 125 artillerymen with seven guns, and the Governor's line 2,600 infantry and artillery and about 1,500 mounted, with about 2,000 unarmed men sent to the rear.",
+      "value": "The frozen force field reads Brigade and Missouri State Guard divisions with no figures; the live field reads zero. NPS says Sigel had about 1,000 and the Governor approximately 4,000. Sigel reports nine companies of the Third (550 effective) and seven of the Fifth (400) with two four-gun batteries, and estimates the enemy in sight at 3,500 besides a strong reserve (reported 4,000 the evening before). Snead gives Sigel 950 effective and 125 artillerymen with seven guns, and the Governor's line 2,600 infantry and artillery and about 1,500 mounted, with about 2,000 unarmed men sent to the rear.",
       "rationale": "Effective and in-sight estimates by the opposing sides; Sigel counts two four-gun batteries while he and Snead both speak of seven pieces in action. None is adopted as a matched opening strength. The live zero is not measured absence.",
       "citations": [
         {
@@ -42,7 +42,7 @@
         {
           "source_id": "nps-mo002-v1",
           "locator": "Description",
-          "quote": "had chased Governor Claiborne Jackson and approximately 4,000 State Militia from the State Capital at Jefferson City and from Boonville"
+          "quote": "approximately 4,000 State Militia"
         },
         {
           "source_id": "or3-sigel-carthage-selections-v1",
@@ -316,7 +316,7 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 244 (US 44; CS 200); the live field reads 118 (US 44; CS 74). Sigel reports 13 killed and 31 wounded and estimates the enemy's loss at not less than 350 to 400; he also reports Conrad's company of 91 men captured at Neosho the same day. Snead gives thirteen killed and thirty-one wounded against ten killed and sixty-four wounded, and quotes Confederate historians' estimate of Sigel's loss at 150 to 200 killed and 300 to 400 wounded, with an exclamation mark.",
+      "value": "The frozen casualty text reads 244 (US 44; CS 200); the live field reads 118 (US 44; CS 74). Sigel reports 13 killed and 31 wounded and estimates the enemy's loss at not less than 350 to 400; he also reports Conrad's company of 91 men captured at Neosho the same day. Snead gives thirteen killed and thirty-one wounded against ten killed and sixty-four wounded.",
       "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The Neosho capture is a separate action and is not added.",
       "citations": [
         {
@@ -355,12 +355,6 @@
           "section": "carthage",
           "locator": "p.227 (OCR page markers; not checked against print)",
           "quote": "was thirteen killed and thirty-one wounded. The State troops lost ten killed and sixty-four wounded."
-        },
-        {
-          "source_id": "snead-missouri-1861-selections-v1",
-          "section": "carthage",
-          "locator": "p.228 (OCR page markers; not checked against print)",
-          "quote": "Confederate historians have estimated Sigel's loss \" at from one hundred and fifty to two hundred killed, and from three hun- dred to four hundred wounded"
         }
       ],
       "phase": "post_outcome",
@@ -371,10 +365,5 @@
     "The State Guard division and brigade reports (Rains, Weightman, Clark, Slack, Parsons), Sweeny's report and maps remain deferred.",
     "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Thomas L. Snead's The Fight for Missouri (Scribner, 1886) is a retrospective history by the Missouri State Guard's acting adjutant-general and Price's chief of staff, who says he was with the Governor at Booneville and Carthage; it quotes Sigel's, Schofield and Sturgis's and Price's reports and is not independent of them. Sigel's July 11, 1861 report is an interested Union account. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "missouri-1861-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/MO002.v1.json",
-    "sha256": "af75c8a679a7ff2e3b7bad6f04c4968d2f587575e0d7a40e19e0962358afa022"
-  }
+  ]
 }

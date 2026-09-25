@@ -3,19 +3,20 @@
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)), which takes the
 remaining campaigns in chronological order after the 1864–65 group. All **eight frozen records** in
 **Operations to Control Missouri [June-October 1861]** now have draft dossiers: **72 claims, 8
-explicit null unknowns and 334 citation occurrences**. All seven dimensions are represented in each
-record. All dossiers are drafts; no features are admitted.
+explicit null unknowns and 342 citation occurrences** (334 before the review correction below).
+All seven dimensions are represented in each record. All dossiers are drafts; no features are
+admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
 | MO001 — Boonville | 1861-06-17 | 9 | 1 | 40 | 3 |
-| MO002 — Carthage | 1861-07-05 | 9 | 1 | 43 | 3 |
+| MO002 — Carthage | 1861-07-05 | 9 | 1 | 44 | 3 |
 | MO004 — Wilson's Creek | 1861-08-10 | 9 | 1 | 52 | 3 |
-| MO005 — Dry Wood Creek | 1861-09-02 | 9 | 1 | 38 | 3 |
-| MO006 — Lexington | 1861-09-13 to 09-20 | 9 | 1 | 42 | 3 |
-| MO003 — Liberty (Blue Mills Landing) | 1861-09-17 | 9 | 1 | 37 | 3 |
-| MO007 — Fredericktown | 1861-10-21 | 9 | 1 | 42 | 3 |
-| MO008 — Springfield (Zagonyi's Charge) | 1861-10-25 | 9 | 1 | 40 | 3 |
+| MO005 — Dry Wood Creek | 1861-09-02 | 9 | 1 | 39 | 3 |
+| MO006 — Lexington | 1861-09-13 to 09-20 | 9 | 1 | 44 | 3 |
+| MO003 — Liberty (Blue Mills Landing) | 1861-09-17 | 9 | 1 | 39 | 3 |
+| MO007 — Fredericktown | 1861-10-21 | 9 | 1 | 43 | 3 |
+| MO008 — Springfield (Zagonyi's Charge) | 1861-10-25 | 9 | 1 | 41 | 3 |
 
 This pass was drafted in a parallel worktree with five other 1861 western campaigns (Eastern
 Kentucky, the Gulf Blockading Squadron, Belmont, the Indian Territory and Northeast Missouri), which
@@ -103,11 +104,14 @@ This pass adds **34 source records**:
   Department, so his history is not independent of those families.
 - **Britton** (`britton-civil-war-border`) served with the Union border army. His title page says the
   book is based on the official reports of Lyon, Sigel, Sturgis, Fremont, Price and others, and his
-  preface that numbers and casualties follow them. A parallel pass on Price's 1864 expedition is
-  registering volume II; the primary should reconcile the two volumes' group at merge.
+  preface that numbers and casualties follow them. Britton volume I (`britton-civil-war-border`) and
+  volume II (`britton-civil-war-border-1899`) are one witness family. The volume I dependency notes
+  that ask for reconciliation at merge predate the merge; the records are left unchanged (W61-R14).
 - **Sturgis's** report is placed in his existing group, `sturgis-dandridge-operations-reports`.
 - New author groups: `lyon-boonville-reports`, `sigel-carthage-report`, `lane-dry-wood-reports`,
-  `price-lexington-report` (the Price 1864 pass may register Price reports; reconcile at merge),
+  `price-lexington-report` (Price's Lexington report is the same family as
+  `price-camden-1864-report` and `price-missouri-1864-reports`; its dependency note asking for
+  reconciliation at merge predates the merge, and the record is left unchanged; W61-R14),
   `scott-blue-mills-report`, `atchison-blue-mills-report`, `plummer-fredericktown-reports`,
   `thompson-fredericktown-reports` and `zagonyi-springfield-report`. The OR volume is the container
   group `or-series-i-volume-iii`.
@@ -151,19 +155,24 @@ This pass adds **34 source records**:
     for Thompson; Thompson's 3,000, "more than double" and 2,000.
   - Springfield: Zagonyi's 150 (70 after the charges) and 2,100 enemy; Britton's 150 and 180 and at
     least 1,500 enemy; NPS 1,000–1,500.
-- **Disputes preserved** (25 claims marked `disputed`: eight force-scope, eight casualty, four
-  result, two command-role, and one each for terrain, logistics and information):
+- **Disputes preserved** (26 claims marked `disputed`: eight force-scope, eight casualty, four
+  result, two command-role, and one each for terrain, logistics, information and objectives):
   - **Boonville landing.** Lyon's two reports give 6 and about 8 miles below the town; Snead gives 8.
   - **Wilson's Creek result.** Sturgis's perfect rout of the enemy front and withdrawal at leisure
     against Snead's abandonment of the field.
   - **Dry Wood.** The mule capture is placed in the action by NPS and the evening before by Britton;
-    Lane claims to have driven back the enemy's advance guard.
+    Lane recalls, without a date, that his men drove back the enemy's advanced guard, and says his
+    cavalry engaged the whole enemy force for two hours on September 2.
   - **Lexington's hemp breastworks.** Price says he caused the bales to be moved; Britton says
     Harris proposed them and asked Price's permission.
-  - **Blue Mills.** Contact at 3 p.m. (Scott) against 3:00 am (NPS); an orderly withdrawal (Scott)
-    against flight (Atchison).
+  - **Lexington withdrawal of the 13th.** Price says he would not risk a doubtful engagement when a
+    short delay would make success certain; Britton says he felt his force too weak to assault and was
+    short of ammunition.
+  - **Blue Mills.** Contact at 3 p.m. (Scott) against 3:00 am (NPS); Atchison's "3 or 4 o'clock",
+    after the morning picket fight, agrees with Scott. An orderly withdrawal (Scott) against flight
+    (Atchison). Scott's scouts' loss of 4 killed and 1 wounded matches Atchison's picket claim.
   - **Fredericktown.** Plummer's total defeat of Thompson against Thompson's "we were victorious,
-    though we fell back".
+    though we fell back", and Thompson's own October 22 "my defeat".
   - **Springfield command.** NPS says White fell ill and handed over to Zagonyi; Zagonyi says White
     was a prisoner before the battle and his command left at the start; Britton has both majors
     deciding the detour.
@@ -193,8 +202,60 @@ changed.
 ## Validation
 
 `python3 -m generalship check` passes and `python3 -m unittest discover -s tests` passes (134 tests)
-in the worktree.
+in the worktree. After the review correction, both pass again (134 tests) in the main repository.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the six 1861
+western and Trans-Mississippi first passes together at commit `8a97ac1` as
+`w1861-review-8a97ac1-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": fourteen
+required findings (W61-R1 to W61-R14) and twelve advisories (W61-A1 to W61-A12) across the six passes.
+It is an AI review within its stated scope, not human historical adjudication, proof of source
+independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the retained NPS
+text) before any change; every new quote occurs once in its section, and the dossiers were regenerated
+from the builder.
+
+Six of the eight dossiers are revised under `missouri-1861-review-correction-2026-09-25` and supersede
+byte-for-byte archives at `data/evidence/history/<ID>.v1.json` for MO002, MO005, MO006, MO003, MO007
+and MO008. MO001 and MO004 are unchanged.
+
+- **W61-R3** (MO002 `reported-force-scope`): NPS's "approximately 4,000" is the force Lyon had
+  chased from Jefferson City and Boonville, not a count at Carthage. The value says so, and the NPS
+  citation now quotes the full phrase.
+- **W61-R4** (MO005 `recorded-result` and this memo): Lane's "we drove back the advanced guard"
+  recalls an earlier, undated report in the same sentence as the loss of Weer's mules; Britton places
+  the capture of eighty Government mules on the evening of September 1. The value now gives Lane's
+  undated recollection and his two-hour cavalry engagement of the day before; the citation quotes the
+  full sentence and one p.163 citation is added. Identifying Weer's mules with Britton's Government
+  mules is left as the value's juxtaposition, not asserted.
+- **W61-R5** (MO006 `command-roles`): the quote cited for Britton's criticism is his report of what
+  Mulligan's council felt. The value now separates the council's view from Britton's own ascription of
+  the disaster to unpardonable blunders among subordinate Federal commanders; the quote is extended
+  and one p.143 citation added.
+- **W61-R6** (MO003 `command-roles`): "it was deemed advisable to fall back" names no one. The value
+  now says Scott reports that it was deemed advisable to fall back.
+- **W61-R7** (MO007 `recorded-result` and this memo): Thompson's October 22 dispatch to Polk speaks of
+  "my defeat"; the value records it beside his October 23 "we were victorious", with one p.228 citation.
+- **W61-R14** (this memo): the Britton volume I and Price author-group reconciliation is recorded in
+  "Independence groups" above. No metadata-only successors were added: the review does not require
+  them, the assignment forbids changing the Britton volume I parent OCR records that later passes
+  reuse, and successors for the selections alone would split one volume across two groups. The same
+  wording for `docs/sources.md` is left to the primary.
+
+Advisories:
+
+- **Adopted:** A7 (MO003: Scott's scouts' 4 killed and 1 wounded in `casualty-records`; Atchison's
+  "3 or 4 o'clock" in `scouting-and-contact-time`), A8 (MO008: "clearing the town and neighborhood"
+  cited), A9 in part (MO006 `stated-aims`: Britton's reason for the withdrawal of the 13th added, and
+  the claim is now `disputed`), A10 (MO002 `casualty-records`: Snead's quoted Confederate historians'
+  estimate of Sigel's loss, 150 to 200 killed and 300 to 400 wounded).
+- **Not adopted:** the timing part of A9 (NPS's surrender "after noon" against Price's white flag
+  "After 2 o'clock"): no claim states a surrender time, and the difference is minor.
+
+The review correction adds no source records. Citations rise from 334 to 342 and disputed claims from
+25 to 26; claims (72), unknowns (8) and `inherited` tags (2) are unchanged. No model input, cohort
+file, admission proposal or baseline is changed.

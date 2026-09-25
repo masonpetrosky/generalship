@@ -2,12 +2,13 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). The single
 frozen record in **Operations at the Ohio and Mississippi River Confluence [November 1861]** now has a
-draft dossier: **9 claims, 1 explicit null unknown and 49 citation occurrences**, with all seven
-dimensions represented. It is a draft; no features are admitted.
+draft dossier: **9 claims, 1 explicit null unknown and 52 citation occurrences** (49 before the
+review correction below), with all seven dimensions represented. It is a draft; no features are
+admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| MO009 — Belmont | 1861-11-07 | 9 | 1 | 49 | 3 |
+| MO009 — Belmont | 1861-11-07 | 9 | 1 | 52 | 3 |
 
 It was drafted in a parallel worktree with five other 1861 western campaigns and shares their Volume
 III parent. Dossier presence is not first-pass acceptance, separate review or model eligibility.
@@ -42,27 +43,31 @@ new group `pillow-belmont-reports`.
   fire of the Columbus batteries are context only.
 - **Opening strength remains unknown.** The frozen and live force fields have no figures. Grant gives
   3,114 of all arms (and on November 5 "probably not more than 3,000"), and later over 9,000 for the
-  enemy from Southern sources. Pillow gives regiments each below 500 for duty and about 2,500 all told,
+  enemy from Southern sources. Pillow says his four regiments "had been reduced to below 500 meu for
+  duty" (OCR; the sentence does not say whether each or together) and numbered about 2,500 all told,
   "2,000 men ... against 7,450" in his November 9 dispatch, three times his number, and about 2,700
   effective in his division after the battle; he puts the Union cavalry at 450. Reinforcements crossed
   from Columbus during the day. None is adopted.
-- **Disputes preserved** (3 claims marked `disputed`):
+- **Disputes preserved** (4 claims marked `disputed`):
   - **Force scope,** as above.
   - **Result.** The frozen and live results read Union victory. Grant says his troops again defeated
     the enemy between them and the transports; Pillow calls the day glorious and a victory scarcely
     paralleled.
   - **Casualties.** Frozen 1,464 (US 498; CS 966) against live 1,248 (US 607; CS 641). Grant: 85
-    killed, 301 wounded and 99 missing, 175 prisoners, and the enemy's killed and wounded not less than
-    a figure read "GOO" in OCR. Pillow: about 400 (November 9); a list numbering a figure read "G32",
-    562 of it in the force first engaged; 530 in his division (November 12); 295 Union dead buried and
-    a Union loss of not less than 2,000.
+    killed, 301 wounded and 99 missing, 175 prisoners, and the enemy's killed and wounded not less
+    than a figure read "GOO" in OCR. Pillow: about 400, with "The enemy's double ours." (November 9);
+    a list numbering a figure read "G32", 562 of it in the force first engaged; 530 in his division
+    (November 12); 295 Union dead buried and a Union loss of not less than 2,000.
+  - **Stated aims,** under "Campaign contribution" below.
 - **Command roles and ranks.** Pillow crossed on Polk's instructions, placed Marks at the head of the
   flanking column, and says Polk ordered the pursuit continued with the whole force; Polk is not a
   listed commander. Grant praises McClernand. The live page gives Grant as Lieutenant General; the rank
   is not adopted. No listed commander receives automatic sole credit.
 - **Campaign contribution.** Grant's November 20 statement that his object, preventing reinforcement
   of Price and the cutting off of his columns, was fully accomplished is recorded as his own
-  after-action assessment, not as a tactical result.
+  after-action assessment, not as a tactical result. NPS says Grant did not accomplish much in this
+  operation. The two assessments differ, the `stated-aims` claim is `disputed`, and neither is a
+  campaign-contribution finding.
 - **Tags.** The river bottom and the abatis are not tagged `inherited`, because the abatis was
   prepared by the defenders; all claims stay `unresolved` or `post_outcome`.
 
@@ -72,8 +77,39 @@ commander ranking is introduced. No model input, frozen baseline or admission pr
 ## Validation
 
 `python3 -m generalship check` passes and `python3 -m unittest discover -s tests` passes (134 tests)
-in the worktree.
+in the worktree. After the review correction, both pass again (134 tests) in the main repository.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the six 1861
+western and Trans-Mississippi first passes together at commit `8a97ac1` as
+`w1861-review-8a97ac1-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": fourteen
+required findings (W61-R1 to W61-R14) and twelve advisories (W61-A1 to W61-A12) across the six passes.
+It is an AI review within its stated scope, not human historical adjudication, proof of source
+independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the retained NPS
+text) before any change; every new quote occurs once in its section, and the dossiers were regenerated
+from the builder.
+
+MO009 is revised under `belmont-1861-review-correction-2026-09-25` and supersedes the byte-for-byte
+archive at `data/evidence/history/MO009.v1.json`.
+
+- **W61-R2** (MO009 `stated-aims` and this memo): the claim recorded Grant's November 20 "accomplished
+  to the fullest extent" but omitted NPS's "Grant did not accomplish much in this operation". The value
+  and rationale now give both; NPS citation added (and Grant's own clause, which the value paraphrases);
+  status `disputed`.
+
+Advisories:
+
+- **Adopted:** A3 (MO009: Pillow's "below 500" sentence is quoted rather than read as "each"; his
+  November 9 "The enemy's double ours." is added to `casualty-records`).
+- **Kept as is:** A1. The November 17 report stays dated as printed. The reviewer's note that its
+  composition date has been questioned rests on its own unverified recollection, not an inspected
+  source, so it is not recorded as evidence or as an open question.
+
+The review correction adds no source records. Citations rise from 49 to 52 and disputed claims from 3
+to 4; claims (9), unknowns (1) and `inherited` tags (0) are unchanged. No model input, cohort file,
+admission proposal or baseline is changed.

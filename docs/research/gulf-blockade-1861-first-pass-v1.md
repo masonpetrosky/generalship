@@ -2,12 +2,12 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). The single
 frozen record in **Operations of the Gulf Blockading Squadron [October 1861]** now has a draft
-dossier: **9 claims, 1 explicit null unknown and 50 citation occurrences**, with all seven dimensions
-represented. It is a draft; no features are admitted.
+dossier: **9 claims, 1 explicit null unknown and 55 citation occurrences** (50 before the review
+correction below), with all seven dimensions represented. It is a draft; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| FL001 — Santa Rosa Island | 1861-10-09 | 9 | 1 | 50 | 3 |
+| FL001 — Santa Rosa Island | 1861-10-09 | 9 | 1 | 55 | 3 |
 
 It was drafted in a parallel worktree with five other 1861 western campaigns. Dossier presence is not
 first-pass acceptance, separate review or model eligibility.
@@ -44,23 +44,31 @@ This pass adds **6 source records**: the NPS HTML/text pair; OR VI catalog metad
   regulars and some 50 volunteers pursued. Anderson lists battalions of 350, 400 and 260 and a company
   of 53 (1,063 before an uncounted artillery company). No inspected passage gives the garrison's
   strength, so the frozen 600 is untraced. None is adopted.
-- **Disputes preserved** (3 claims marked `disputed`):
+- **Disputes preserved** (4 claims marked `disputed`):
   - **Force scope,** as above.
   - **Result.** Brown says the enemy destroyed no quartermaster's or commissary stores; Anderson
     reports very great destruction of provisions, clothing, equipage, arms and ammunition.
   - **Casualties.** Brown's three accounts of his own loss differ (October 9, 11 and 17). Anderson's
     18 killed, 39 wounded and 30 prisoners sum to the CWSAC Confederate 87; that equality is not
-    independent confirmation. Brown's 14 killed, 7 wounded and 27 prisoners in hand, a Pensacola
-    paper's 21, 38 and 22 and a Confederate paper's 175, and Anderson's estimate of 50 or 60 Union
-    killed and 100 wounded are all kept.
-- **Command roles and ranks.** Brown directed from Fort Pickens, sending Vogdes and Arnold out and
-  ordering Wilson to attack; Vogdes was captured before a shot was fired and Arnold succeeded to the
-  command. NPS's "Col. Harvey Brown sallied" is not adopted over Brown's own account. Brown's October 12
-  letter says the volunteer regiment did not behave well. The live page gives Anderson as Major
-  General; the rank is not adopted. No listed commander receives automatic sole credit.
+    independent confirmation. Brown's "about a dozen of their dead" and "some 30 prisoners" (October
+    9) and 14 killed, 7 wounded and 27 prisoners in hand (October 11), a Pensacola paper's 21, 38 and
+    22, a Confederate paper's statement that 175 would more than cover the Confederate loss while 250
+    would probably barely cover the Union loss, and Anderson's estimate of 50 or 60 Union killed and
+    100 wounded are all kept.
+  - **Objectives,** below.
+- **Command roles and ranks.** Brown directed from Fort Pickens: he sent Vogdes out with two companies
+  and had Arnold man the ramparts, then ordered Arnold forward with two companies to support Vogdes
+  and sent Wilson an order to advance and attack; Vogdes was captured before a shot was fired and
+  Arnold succeeded to the command. NPS's "Col. Harvey Brown sallied" is not adopted over Brown's own
+  account. Brown's October 12 letter says the volunteer regiment did not behave well. The live page
+  gives Anderson as Major General; the rank is not adopted. No listed commander receives automatic
+  sole credit.
 - **Objectives.** NPS says the aim included capturing Fort Pickens; Anderson's report states orders to
   capture guards, get between the fort and the camp and damage batteries and camps, not to take the
-  fort. Brown's statement that the enemy was to spike the battery guns is his own inference.
+  fort. Brown's statement that the enemy was to spike the battery guns is his own inference. NPS
+  also says Anderson adopted a defensive stance to entice the Federals out of the fort; Anderson says
+  that with daylight, and no chance left of surprising the batteries, he sounded the signal for
+  retiring. The claim is `disputed`.
 - **Tags.** The island ground is tagged `inherited`; other claims stay `unresolved` or `post_outcome`.
 
 The null unknown is the opening strength. No morale/readiness score, probability, causal effect or
@@ -69,8 +77,38 @@ commander ranking is introduced. No model input, frozen baseline or admission pr
 ## Validation
 
 `python3 -m generalship check` passes and `python3 -m unittest discover -s tests` passes (134 tests)
-in the worktree.
+in the worktree. After the review correction, both pass again (134 tests) in the main repository.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the six 1861
+western and Trans-Mississippi first passes together at commit `8a97ac1` as
+`w1861-review-8a97ac1-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": fourteen
+required findings (W61-R1 to W61-R14) and twelve advisories (W61-A1 to W61-A12) across the six passes.
+It is an AI review within its stated scope, not human historical adjudication, proof of source
+independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the retained NPS
+text) before any change; every new quote occurs once in its section, and the dossiers were regenerated
+from the builder.
+
+FL001 is revised under `gulf-blockade-1861-review-correction-2026-09-25` and supersedes the
+byte-for-byte archive at `data/evidence/history/FL001.v1.json`.
+
+- **W61-R1** (FL001 `command-roles` and this memo): no cited quote supported the order to Wilson, and
+  Arnold was first ordered to man the ramparts. The value now follows Brown's October 11 sequence; two
+  p.440 citations added.
+
+Advisories:
+
+- **Adopted:** A2 in full. `stated-aims` adds NPS's defensive stance against Anderson's signal for
+  retiring at daylight (two citations; the claim is now `disputed`). `casualty-records` adds Brown's
+  October 9 "about a dozen of their dead" and "some 30 prisoners", and the Confederate paper's 175 is
+  now given as its upper bound for the Confederate loss, paired with 250 for the Union loss (the quote
+  is extended to the full sentence).
+
+The review correction adds no source records. Citations rise from 50 to 55 and disputed claims from 3
+to 4; claims (9), unknowns (1) and `inherited` tags (1) are unchanged. No model input, cohort file,
+admission proposal or baseline is changed.

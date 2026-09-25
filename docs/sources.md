@@ -161,6 +161,14 @@ The Illinois scans labelled Volumes III and IV are Series II and III volumes. Th
 California scans `warofrebellion03secrrich` and `warofrebellion04secrrich` were used instead,
 confirmed from their title pages. No model inputs are changed.
 
+**Author groups (review W61-R14).** Britton volume I (`britton-civil-war-border`) and volume II
+(`britton-civil-war-border-1899`) are one witness family. Price's Lexington report
+(`price-lexington-report`) is the same family as `price-camden-1864-report` and
+`price-missouri-1864-reports`. The volume I and Price dependency notes that ask for reconciliation
+at merge predate the merge; the records are left unchanged. The Trans-Mississippi 1862 pass
+registered a third Britton volume I group name, `britton-civil-war-on-border-1899`; it is the same
+family.
+
 ### Carolinas Campaign first pass (cohort v2), 2026-09-25
 
 The [first pass](research/carolinas-first-pass-v1.md) adds **23 records**:
