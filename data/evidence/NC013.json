@@ -1,0 +1,465 @@
+{
+  "schema_version": 1,
+  "battle_id": "NC013",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Albemarle Sound record (May 5, 1864) in Operations Against Plymouth [April-May 1864]: the action between the ram Albemarle, with the Bombshell and Cotton Plant, and Melancton Smith's gunboats off the mouth of the Roanoke. The April 17-20 capture of Plymouth is the separate record NC012 and is not added here. The live NPS campaign header and its April-May dates do not replace the frozen campaign or interval. Campaign-wide totals are context and are not assigned to one record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 9 gunboats against a Confederate ram; the live Forces Engaged field reads zero. NPS says the Albemarle fought seven blockading Union ships. Smith's May 2 order of attack lists eight vessels (Miami, Ceres, Commodore Hull, Seymour, Mattabesett, Sassacus, Wyalusing, Whitehead), and his report says the Mattabesett, Wyalusing, Whitehead and Sassacus got underway to engage the ram, the steamer Cotton Plant with troops and the armed steamer Bombshell. Cooke says he saw six gunboats and then three more double-enders carrying ten to twelve guns each, and that he had the Bombshell as tender and the Cotton Plant under convoy.",
+      "rationale": "Vessel counts from a table, a summary and two interested reports; no crew or armament return was inspected. None is adopted as a matched opening strength; the live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC013"
+          },
+          "column": "forces_text",
+          "quote": "9 gunboats [US]; Confederate ram [CS]"
+        },
+        {
+          "source_id": "nps-nc013-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-nc013-v1",
+          "locator": "Description",
+          "quote": "CSS Albemarle fought seven blockading Union ships"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "Miami. Ceres. Commodore Hull. Seymour. Mattabesett, Sassacus. Wyalusing. Whitehead."
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.734 (OCR page markers; not checked against print)",
+          "quote": "the Mattabesett , Wy alusing , Whitehead , and Sassacus got underway and stood up to engage them,"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.734 (OCR page markers; not checked against print)",
+          "quote": "tlie ram Albemarle , steamer Cotton Plant, with troops, and the armed steamer Bombshell ,"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.770 (OCR page markers; not checked against print)",
+          "quote": "we discovered six of the enemy’s gunboats in the sound, about 10 miles distant."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.770 (OCR page markers; not checked against print)",
+          "quote": "three more gunboats, double-enders, of a much more formidable class, carrying from ten to twelve guns each,"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.770 (OCR page markers; not checked against print)",
+          "quote": "together with the prize steamer Bombshell , as tender, and the Cotton Plant , to convoy to Alligator River."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "open-sound-off-the-roanoke",
+      "dimension": "terrain",
+      "value": "Smith says the ram came out of the Roanoke at 2 p.m. and was drawn ten miles down the sound by his picket force before the action; Cooke says he saw the gunboats about ten miles off as he reached the river's mouth. Smith says side-wheel steamers could not be laid alongside the Albemarle without disabling their wheels, and that darkness ended the action at about 7:30.",
+      "rationale": "Water, distance and light described by the two commanders; no chart or log was inspected.",
+      "citations": [
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.734 (OCR page markers; not checked against print)",
+          "quote": "came outof Roanoke River to day at 2 o’clock p. m., and after being' toled 10 miles down the sound by the picket force left to guard the entrance of the river,"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.770 (OCR page markers; not checked against print)",
+          "quote": "As soon as we reached the mouth of Roanoke River we discovered six of the enemy’s gunboats in the sound,"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "1 am convinced that side- wheel steamers can not be laid alongside of the Albemarle without totally disabling their wheels,"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.734 (OCR page markers; not checked against print)",
+          "quote": "The engagement continued until about 7 : 30, Avhen it becoming dark"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "steam-fuel-and-torpedoes",
+      "dimension": "logistics",
+      "value": "Cooke says his tiller gave way, he could not raise steam enough to maneuver, his smokestack was riddled, and he burned the bulkheads, bacon and lard to make steam to regain the river. Smith says the Bombshell was laden with provisions and coal, that the army furnished eight torpedoes which could not be placed at the river's mouth, and that he had received the balsas sent by canal.",
+      "rationale": "Material and equipment statements from interested reports; no damage survey or ordnance return was inspected.",
+      "citations": [
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.771 (OCR page markers; not checked against print)",
+          "quote": "from the tiller giving way, and the impossibility of producing steam enough to maneuver the vessel to advantage,"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.771 (OCR page markers; not checked against print)",
+          "quote": "The smokestack was riddled to such an extent as to render it useless,"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.771 (OCR page markers; not checked against print)",
+          "quote": "I was forced to tear down the bulkheads, throw in all of my bacon, lard, and other combustible matter, to produce steam sufficient to bring me back to the river."
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.734 (OCR page markers; not checked against print)",
+          "quote": "laden with provisions and coal,"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.734 (OCR page markers; not checked against print)",
+          "quote": "Eight torpedoes have been furnished by the army, and an attempt was made last night to place them in the mouth of the river; the entrance being watched, it Avas found impracticable."
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-0230",
+          "locator": "p.732 (OCR page markers; not checked against print)",
+          "quote": "I have received the balsas sent (yesterday) by way of canal,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reports-signals-and-smoke",
+      "dimension": "information",
+      "value": "Before the action Smith reported the ram in the Roanoke with three steamers and 30 barges 'said to be ready' to cooperate, and afterward had no positive information about rebel barges reported at the mouth of the Croatan (the compiler queries Chowan). He says the smaller vessels answered signals without obeying them, and that a signal from the Wyalusing that she was sinking, which he learned only later was wrong, deterred further ramming. Cooke says the smoke kept him from seeing the damage he did, and he learned by flag of truce that no one on the Bombshell was hurt.",
+      "rationale": "Contemporary reports of what each commander knew or believed; the signal logs were not inspected.",
+      "citations": [
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-0230",
+          "locator": "p.732 (OCR page markers; not checked against print)",
+          "quote": "the 3 steamers, and 30 barges that are said to be ready to cooperate."
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "at the mouth of the Croatan [Chowan?] River,"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "but in regard to the first I have no positive information."
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.734 (OCR page markers; not checked against print)",
+          "quote": "they appeared also to be ignorant of all signals, as they answered Avithout obeying them."
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "a signal from the Wyalusing that she was sinking,"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "I was not informed to the contrary until after the vessels came to anchor"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.770 (OCR page markers; not checked against print)",
+          "quote": "The rapidity of the firing caused such a dense smoke that I was unable"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.771 (OCR page markers; not checked against print)",
+          "quote": "Since the engagement I have ascertained by flag of truce that there was no one hurt on the Bombshell."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "destroy-the-ram-or-convoy",
+      "dimension": "objectives",
+      "value": "Smith says he had decided to stay in the sound until his mission was accomplished and was arranging to 'secure' the ram; his order of attack names the object as to sink, destroy or capture it, and he intended to keep control of the sound. Cooke says he left Plymouth under orders of the 5th to convoy the Cotton Plant to Alligator River with the Bombshell as tender.",
+      "rationale": "Stated aims from interested contemporary reports.",
+      "citations": [
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-0230",
+          "locator": "p.732 (OCR page markers; not checked against print)",
+          "quote": "I had decided before its receipt to remain in the sound until I had accomplished the mission upon which I was sent,"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-0230",
+          "locator": "p.732 (OCR page markers; not checked against print)",
+          "quote": "I am making every arrangement to secure him,"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.736 (OCR page markers; not checked against print)",
+          "quote": "the only orders considered neces¬ sary are to sink, destroy, or capture by some or all methods here sug gested."
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "would have left too small a force of efficient vessels to keep the control of the sound, which I now hold,"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.770 (OCR page markers; not checked against print)",
+          "quote": "in obedience to your order of the 5th instant I left here at meridian of that day,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Melancton Smith (Captain) and J. W. Cooke (Commander); the live page gives 'Captain James Cooke', and the frozen ranks are kept. Smith signs as senior officer in the sounds and says he tried ramming, as the Department suggested, with the Sassacus, and was deterred from repeating it; the Miami was ordered to explode her torpedo but did not. Cooke reports to Commander Pinkney and credits pilot Hopkins with bringing the vessel back.",
+      "rationale": "Roles attributed by the inspected reports. No listed commander receives automatic sole credit; Roe of the Sassacus and the Miami's commander are named as attributed actors only through Smith's report (Roe's own report was not selected).",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC013",
+            "belligerent": "US",
+            "fullname": "Melancton Smith"
+          },
+          "column": "rank",
+          "quote": "Captain"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC013",
+            "belligerent": "Confederate",
+            "fullname": "J.W. Cooke"
+          },
+          "column": "rank",
+          "quote": "Commander"
+        },
+        {
+          "source_id": "nps-nc013-v1",
+          "locator": "Principal Commanders",
+          "quote": "Captain James Cooke [CS]"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "Captain and Senior Officer in the Sounds."
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "I liad tried the effect of ramming (as suggested by the Department) in the case of the Sassacus ,"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.734 (OCR page markers; not checked against print)",
+          "quote": "A torpedo was rigged out from the bow of the Miami and she Avas ordered to go ahead and attempt to explode it, but from some cause, yet unexplained, it Avas not done."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.771 (OCR page markers; not checked against print)",
+          "quote": "Commander R. F. Pinkney, Commanding , etc."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.771 (OCR page markers; not checked against print)",
+          "quote": "The pilot, J. B. Hopkins, deserves great credit"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result is Inconclusive; the live Results field reads 'Indecisive', and NPS calls the action a draw, with the Bombshell recaptured and the Sassacus badly damaged. Smith says his efforts to capture the ram failed, that his shot had no perceptible effect, and that he drove her into the Roanoke; he reports the Bombshell captured with 37 prisoners on May 6 and with 33 on May 24. Cooke says the Bombshell was forced to surrender, the muzzle of his after gun was broken, and he believes he sank one of the enemy's most formidable boats and crippled two others. Smith times the action from 4:40 to about 7:30; Cooke from twenty minutes to five until after dark.",
+      "rationale": "Opposed interested accounts; Cooke's sinking claim is his belief. The two Smith prisoner counts differ and are kept. Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC013"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-nc013-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-nc013-v1",
+          "locator": "Description",
+          "quote": "fought seven blockading Union ships to a draw"
+        },
+        {
+          "source_id": "nps-nc013-v1",
+          "locator": "Description",
+          "quote": "Federals recaptured the converted steamer Bombshell. USS Sassacus was badly damaged."
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-06-to-palmer",
+          "locator": "p.732 (OCR page markers; not checked against print)",
+          "quote": "regret that our efforts to capture him were not attended with success. Our shot had no perceptible effect upon her,"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-06-to-palmer",
+          "locator": "p.732 (OCR page markers; not checked against print)",
+          "quote": "I drove her, however, into the mouth of Roanoke River,"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-06-to-palmer",
+          "locator": "p.732 (OCR page markers; not checked against print)",
+          "quote": "I captured the Bombshell with37 prisoners, officers and men."
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-24-bombshell",
+          "locator": "p.761 (the running head before the report reads '7G1' in OCR; OCR page markers; not checked against print)",
+          "quote": "I have the honor to report the capture of the rebel steamer Bombshell, with 33 prisoners,"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.734 (OCR page markers; not checked against print)",
+          "quote": "The engagement commenced at 4: 40"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.770 (OCR page markers; not checked against print)",
+          "quote": "forced her to surrender."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.770 (OCR page markers; not checked against print)",
+          "quote": "The third or fourth shot fired by the enemy broke off 20 inches of the muzzle of the after gun of the Albemarle."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.771 (OCR page markers; not checked against print)",
+          "quote": "but I think 1 am safe in saying that we sunk one of their most formidable boats, and severely crippled two others."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-05-07",
+          "locator": "p.770 (OCR page markers; not checked against print)",
+          "quote": "The action lasted from twenty minutes to 5 till after dark,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads 88 total; the live page reads zero. Smith's May 6 letter gives his loss in 'the large vessel' as 5 killed and 26 wounded, before returns from the Sassacus; the Mattabesett surgeon's list names two killed and six wounded (a count of the names). The Bombshell's crew was captured (37 or 33 prisoners, above). Cooke reports only that no one on the Bombshell was hurt; no Albemarle casualty figure is in the selected reports.",
+      "rationale": "The frozen 88's basis is not established and is not reconciled with the partial Union figures or the prisoners. The live zero is not measured absence. Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC013"
+          },
+          "column": "casualties_text",
+          "quote": "88 total"
+        },
+        {
+          "source_id": "nps-nc013-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-06-to-palmer",
+          "locator": "p.733 (OCR page markers; not checked against print)",
+          "quote": "Our loss in the large vessel is 5 killed and 26 wounded."
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-06-to-palmer",
+          "locator": "p.733 (OCR page markers; not checked against print)",
+          "quote": "Have not, as yet, had any official returns from tlie Sassacus,"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "Killed.— Ralph E. Lake, first-class fireman; William H. Demilt, first- class boy#"
+        },
+        {
+          "source_id": "orn9-smith-albemarle-sound-selections-v1",
+          "section": "smith-1864-05-05-report",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "Wounded. — James L. Plunkett, acting master,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Roe's Sassacus report and the other ship commanders' reports, the logs, Davenport's May 7 report and Lee's May 14 transmittal (read, not selected), Smith's May 9-June 4 letters, and any Confederate casualty return for the Albemarle remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Wessells's dispatch and report (Official Records Series I, Volume XXXIII), Cooke's reports and Melancton Smith's reports (Official Records of the Navies, Series I, Volume 9) are separate families of interested participants' accounts; the volumes are shared containers, not additional witnesses. No 19th-century history was inspected for this campaign. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

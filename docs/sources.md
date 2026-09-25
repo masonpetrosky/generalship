@@ -74,6 +74,21 @@ from different campaigns under separate independence groups (for example
 witness family: they never count as independent corroboration of each other, whatever their group
 names.
 
+### Plymouth and Fort Fisher first passes (cohort v2), 2026-09-25
+
+The first passes for Plymouth (1864), the December 1864 Fort Fisher expedition and Fort Fisher and
+Wilmington (1865) add **23 records**:
+
+- five NPS HTML/text pairs;
+- Official Records Series I, Volume XXXIII: catalog metadata and full OCR;
+- Official Records of the Union and Confederate Navies, Series I, Volume 9: catalog metadata and
+  full OCR;
+- nine report selections, four of them from the registered Volumes XLII and XLVI Part 1.
+
+Navies Volume 11 was found not to cover Plymouth; Volume 9 does. This pass's Volume XLVII Part 1
+parent was deduplicated to the Carolinas registration, whose OCR is byte-identical. No model inputs
+are changed.
+
 ### Appomattox and Waynesboro first passes (cohort v2), 2026-09-25
 
 The first passes for the [Appomattox Campaign](research/appomattox-first-pass-v1.md) and

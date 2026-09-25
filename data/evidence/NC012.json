@@ -1,0 +1,549 @@
+{
+  "schema_version": 1,
+  "battle_id": "NC012",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Plymouth record (April 17-20, 1864) in Operations Against Plymouth [April-May 1864]. The interval covers the investment of Plymouth from the Washington road, the attacks on Fort Gray and the Eighty-fifth Redoubt, the Albemarle's descent on April 19 and the surrender on April 20; the May 5 action in Albemarle Sound is the separate record NC013 and is not added here. The live NPS campaign header 'Operations Against Plymouth and New Berne' and its April-May dates do not replace the frozen campaign or interval. Campaign-wide totals are context and are not assigned to one record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Plymouth garrison (4 infantry and artillery units) against Hoke's division; the frozen numeric bounds are blank and the live Forces Engaged field reads zero. Wessells's August 18 report, written from memory, gives the garrison 'at that time' as the Sixteenth Connecticut (400 effective men), Eighty-fifth New York (450), One hundred and first Pennsylvania (300) and One hundred and third Pennsylvania (400), a six-gun battery, a cavalry detachment, two heavy artillery companies and portions of two North Carolina companies; the four regimental figures sum to 1,550 (a computation). His April 17 dispatch relays citizens' report of five brigades; his report says the attackers, as subsequently ascertained, were Hoke's, Ransom's and Kemper's brigades with field batteries and cavalry. Cooke brought the ram Albemarle and says he had only 20 seamen from Charleston; he gives the Southfield six guns and a crew of 117 (read '1 17' in OCR) and the Miami 13 guns.",
+      "rationale": "Partial one-side figures with different bases: Wessells's effective men per regiment on about April 17 (reported four months later from memory), with no figure for artillery, cavalry or the North Carolina companies; unit identifications for the attackers; and ship armament and crew. The compiled casualty return (2,834 killed, wounded and missing) is an outcome record, not a strength figure. None is adopted as a matched opening strength; the live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC012"
+          },
+          "column": "forces_text",
+          "quote": "Plymouth Garrison (4 infantry and artillery units) [US]; Hoke's Division [CS]"
+        },
+        {
+          "source_id": "nps-nc012-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "Sixteenth Connecticut Volun- teers, Col. Francis Beach, 400 effective men;"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "Eighty-fifth New York Volunteers, Col. E. Fardella, 450 ;"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "One hundred and first Pennsyl- vania Volunteers, Lieut. Col. A. W. Taylor, 300;"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "One hundred and third Pennsylvania Volunteers, Col. T. F. Lehmann, 400 ;"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "Twenty- fourth New York Independent Battery, six guns, Captain Cady;"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "There were also pres- ent portions of two companies Second North Carolina Volunteers,"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-04-17",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "Citizens from above state that there are five brigades."
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "The attacking force, as was subsequently ascertained, consisted of Hoke’s, Ransom’s, and Kemper’s brigades"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "This division was accompanied by several formidable field batteries and a suitable force of cavalry."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.658 (OCR page markers; not checked against print)",
+          "quote": "I had only 20 seamen, those sent from Charleston,"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "carrying six guns, with a crew of 1 17 meu."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "carrying 13 guns,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "line-forts-and-river",
+      "dimension": "terrain",
+      "value": "Wessells says the line of defense ran '2£' miles (apparently two and a half; OCR) from Fort Gray, two miles above the town on the river bank and separated from the main line by Welch's Creek and its marsh, to the crossing of Coneby Creek below the town; the Eighty-fifth Redoubt was a small detached work in front of the right, and Fort Williams an inclosed work in the center. Cooke says the high stage of the water let the Albemarle pass over the obstructions, that he passed a battery at Warren Neck with a 200-pounder Parrott and another in the town, and that the river is only 200 yards wide there. NPS instead says the Confederates captured 'Fort Comfort'.",
+      "rationale": "Works and river described by two interested reports and a summary; no map verification. The works predate the attack; their effect is not scored, so the phase is left unresolved. NPS's Fort Comfort is not named in the inspected reports.",
+      "citations": [
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "Fort Gray, 2 miles"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "above and on the river bank,"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "The line of defense extended from Fort Gray to the crossing of Coneby Creek, below the town, a distance of 2£ miles, the former being a detached work, separated from the main line by Welch's Creek and its marsh."
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "was a small detached work in front of the right,"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.299 (OCR page markers; not checked against print)",
+          "quote": "Fort Williams, an inclosed work in the center of the line, being my only hope."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "reported that the Albemarle could pass over the obstructions without danger, on account of the high stage of the water."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "passed still another 200-pounder Parrott gun mounted on a battery in the town."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "although the river is only 200 yards wide at that point."
+        },
+        {
+          "source_id": "nps-nc012-v1",
+          "locator": "Description",
+          "quote": "Confederate forces captured Fort Comfort, driving defenders into Fort Williams."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ram-machinery-and-stores",
+      "dimension": "logistics",
+      "value": "Cooke says part of the Albemarle's machinery broke down on the night of the 17th and was repaired with a portable forge after about six hours, that the rudder-head then broke with a further four hours' delay, and that he moved the boat down stern foremost nearly all the way; after the surrender he reports immense quantities of commissary and other stores and probably 200 tons of anthracite coal captured. Wessells says the transport Massasoit carried women, children and non-combatants to Roanoke Island and that covered excavations along the line kept his loss comparatively slight.",
+      "rationale": "Readiness and material statements from interested reports; no supply or ammunition return was inspected. The capture of stores is post-outcome.",
+      "citations": [
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.656 (OCR page markers; not checked against print)",
+          "quote": "At 10 o’clock on the night following a portion of the machinery broke down."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.656 (OCR page markers; not checked against print)",
+          "quote": "Having taken the pre¬ caution to carry a -portable forge down with me in a flat, we were enabled to repair damages and get underway after about six hours’ delay."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.656 (OCR page markers; not checked against print)",
+          "quote": "the rudder- head broke off, and another delay of four hours was sustained."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.656 (OCR page markers; not checked against print)",
+          "quote": "I was compelled to move the boat down stern foremost nearly all the way,"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "Immense quantities of commissary and other stores were captured,"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "I captured a large quantity of anthracite coal, probably 200 tons."
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.298 (OCR page markers; not checked against print)",
+          "quote": "The transport Massasoit made two trips to Roanoke Island, carrying away a large number of women and children, con- trabands, and other non-combatants."
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "pp.298–299 (OCR page markers; not checked against print)",
+          "quote": "A series of Chap. XLV.] CAPTURE OF PLYMOUTH, N. C. 299 covered excavations had been constructed along the line, affording shelter under the heavy fire, causing my loss to be comparatively slight."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warnings-and-reconnaissance",
+      "dimension": "information",
+      "value": "Wessells says that on the 13th his information was positive enough to request 5,000 men, but that on the 16th, having learned that no considerable force was on the Roanoke, he let the Tacony return on the 17th, 'and this decision is to be regretted'; the ram's construction was too well watched for him to obtain positive information, and she passed down on the 19th unnoticed. Cooke says that, failing to hear from the army, he knew nothing of the enemy's batteries and obstructions until Gilbert Elliott reconnoitered them by boat, and that Elliott later reached Hoke by water and brought back dispatches.",
+      "rationale": "Retrospective statements by the two commanders about what they knew; the warning letters themselves were not selected.",
+      "citations": [
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "my in- formation was so positive as to the former that I at once requested from department headquarters direct a re-enforcement of 5,000 men,"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "having in the mean time learned that no considerable force of the enemy was on the Roanoke,"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "I permitted her to return on the following morning, April 17, and this decision is to be regretted."
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "but was too well watched for me to obtain positive and reliable information."
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.298 (OCR page markers; not checked against print)",
+          "quote": "the iron-plated ram Albe- marle passed down unnoticed and without injury from the 200-pounder in Battery Worth."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.656 (OCR page markers; not checked against print)",
+          "quote": "Failing to hear from the army, I was at a loss to know what course to pursue, as I knew nothing about the position of the enemy’s batteries and obstructions."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.656 (OCR page markers; not checked against print)",
+          "quote": "volunteered to make a reconnoissance,"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "He communicated with General Hoke and sent me dispatches."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "combined-attack-and-river-defense",
+      "dimension": "objectives",
+      "value": "Cooke says he went down the Roanoke to cooperate with the army under Hoke in attacking Plymouth; NPS calls it a combined operation with the ram. Wessells says he had expected a vigorous effort to wrest North Carolina from Union possession, and that Flusser's plan was to fight the ram in the river with the Miami lashed to the Southfield while the Whitehead tried to disable her propeller.",
+      "rationale": "Stated aims and plans from interested reports and a summary.",
+      "citations": [
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.656 (OCR page markers; not checked against print)",
+          "quote": "proceeded down the Roanoke River for the purpose of cooper¬ ating with the army under Brigadier General R. F. Hoke in attacking Plymouth."
+        },
+        {
+          "source_id": "nps-nc012-v1",
+          "locator": "Description",
+          "quote": "In a combined operation with the CSS ram Albemarle, Confederate forces under Maj. Gen. R.F. Hoke, attacked the Federal garrison at Plymouth on April 17."
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "a vigorous effort on the part of the enemy would be made to wrest the State of North Carolina from our possession."
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "It was the design of Captain Flusser to fight this formidable an- tagonist in the river with his own boat lashed to the Southfield,"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "whilst the Whitehead was to use every effort to disable her propeller,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Hoke (Major General) and Wessells (Colonel). Wessells's reports are headed and signed as Brigadier General, and Cooke calls Hoke Brigadier General; the frozen and live ranks are kept as recorded and not adopted. Wessells divided his line among Colonels Fardella, Lehmann and Beach, and Flusser directed the naval force; he says Colonel Mercer commanded the column at the Eighty-fifth Redoubt. Hoke requested the interview at which surrender was demanded, and Wessells hoisted the white flag 'in compliance with the earnest desire of every officer'. Cooke acted 'in obedience to your order' from the Navy Secretary and turned his prisoners over to Hoke.",
+      "rationale": "Roles attributed by the inspected reports. No listed commander receives automatic sole credit; subordinates who acted (Fardella, Lehmann, Beach, Flusser, Mercer, Cooke, Elliott) are named as attributed actors, not rated.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC012",
+            "belligerent": "Confederate",
+            "fullname": "Robert Hoke"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC012",
+            "belligerent": "US",
+            "fullname": "Henry W. Wessells"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-nc012-v1",
+          "locator": "Principal Commanders",
+          "quote": "Colonel Henry Wessells [US]"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-04-17",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "Bepolrts of Brig. Gen. Henry W. Wessells"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.656 (OCR page markers; not checked against print)",
+          "quote": "Brigadier General R. F. Hoke"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "the right commanded by Colonel Fardella, the center by Colonel Lehmann, the left subdivision being under the direction of Colonel Beach."
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "the whole under the direction of Captain Flusser."
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.298 (OCR page markers; not checked against print)",
+          "quote": "Colonel Mercer, com- manding the attacking column, was killed."
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.299 (OCR page markers; not checked against print)",
+          "quote": "At the request of General Hoke, command- ing the rebel forces, a personal interview was granted, at which a surrender was demanded"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.299 (OCR page markers; not checked against print)",
+          "quote": "in compliance with the earnest desire of every officer I consented to hoist a white flag,"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.656 (OCR page markers; not checked against print)",
+          "quote": "in obedience to your order"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "I afterwards turned over my prisoners to General Hoke."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result is a Confederate victory, and NPS says the garrison surrendered on the 20th. Wessells says he surrendered at 10 a.m. on April 20 with all the post contained, after the Confederates carried his left and captured Battery Worth; Cooke says the town was surrendered unconditionally at 12 m. that day. On the ram's action of the 19th, Cooke says he sank the Southfield and the Miami escaped after he struck her several times; Wessells says the Southfield was sunk and Flusser killed. NPS names the sunk vessel the 'Smithfield'.",
+      "rationale": "The outcome agrees; the surrender hour differs (10 a.m. against 12 m.) and the NPS vessel name differs from both reports. Kept as recorded. Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC012"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-nc012-v1",
+          "locator": "Description",
+          "quote": "On the 20th, the garrison surrendered."
+        },
+        {
+          "source_id": "nps-nc012-v1",
+          "locator": "Description",
+          "quote": "sinking the Smithfield, damaging the Miami,"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.299 (OCR page markers; not checked against print)",
+          "quote": "at 10 a. m. of April 20 I had the mortifica- tion of surrendering my post to the enemy with all it contained."
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.299 (OCR page markers; not checked against print)",
+          "quote": "assaulting and carrying the line in that quarter, penetrating the town along the river, and capturing Battery Worth."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "At 12 m. on that day the town was surrendered uncon¬ ditionally."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "The prow of the Albemarle extended about 10 feet into the sides of the Southfield, sinking the latter vessel."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "but after striking her several times she succeeded in makiug her escape."
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.298 (OCR page markers; not checked against print)",
+          "quote": "but the Southfield was sunk by the collision, and Lieutenant-Commander Flusser fell on his own quarter-deck with a lanyard in his hand."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads 2,834 total; the live page reads 3200 total (US 2900; CS 300). The compiled Union return printed as addenda to Wessells's report gives killed, wounded and missing of 127 officers and 2,707 men, 2,834 in all, by command. Wessells, unable to report losses, believed his own casualties did not exceed 150 and gives, from medical officers, the lowest Confederate killed and wounded as 850. Cooke reports one man killed on the Albemarle and eight prisoners picked up by his small boat.",
+      "rationale": "The frozen 2,834 equals the printed total of the compiled Union return (which includes the missing, that is the captured garrison); this is an observation, not a reconciliation, and the frozen figure's basis is not otherwise established. Wessells's 150 names no category. Confederate army losses are estimates relayed by Wessells; no Confederate return was inspected. The live figures are not adopted. Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC012"
+          },
+          "column": "casualties_text",
+          "quote": "2,834 total"
+        },
+        {
+          "source_id": "nps-nc012-v1",
+          "locator": "Estimated Casualties",
+          "quote": "3200 total (US 2900; CS 300;)"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "casualty-return",
+          "locator": "p.301 (OCR page markers; not checked against print)",
+          "quote": "Return of casualties in the Union forces commanded by Brig. Gen. Henry W. Wessells, at Plymouth , N. C., April 17-20, 1864."
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "casualty-return",
+          "locator": "p.301 (OCR page markers; not checked against print)",
+          "quote": "Total killed, wounded, and missing 127 2,707 2,834"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.300 (OCR page markers; not checked against print)",
+          "quote": "I am unable to report the losses on either side, but I have reason to believe that my own casualties did not exceed 150,"
+        },
+        {
+          "source_id": "or33-wessells-plymouth-selections-v1",
+          "section": "wessells-1864-08-18",
+          "locator": "p.300 (OCR page markers; not checked against print)",
+          "quote": "the lowest loss of the enemy in killed and wounded is given at 850,"
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "At this time I lost one man — Harris — killed with a pistol shot."
+        },
+        {
+          "source_id": "orn9-cooke-albemarle-selections-v1",
+          "section": "cooke-1864-04-23",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "Eight prisoners were picked up with my small boat."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Butler's No. 1 dispatches and Peck's No. 2 reports (Volume XXXIII; read in part, not selected), Palmer's No. 5 report, the No. 6 record of events, Butts's No. 4 report, the naval reports of the Miami and Ceres (Official Records of the Navies, Volume 9), any Hoke or Confederate army report, and maps remain deferred. The Confederate Congress resolution, the Navy Secretary's extract and J. Taylor Wood's April 21 telegram were read in Volume 9 but not selected.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Wessells's dispatch and report (Official Records Series I, Volume XXXIII), Cooke's reports and Melancton Smith's reports (Official Records of the Navies, Series I, Volume 9) are separate families of interested participants' accounts; the volumes are shared containers, not additional witnesses. No 19th-century history was inspected for this campaign. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

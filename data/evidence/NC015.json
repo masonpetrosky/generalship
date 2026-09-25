@@ -1,0 +1,569 @@
+{
+  "schema_version": 1,
+  "battle_id": "NC015",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort Fisher record (January 13-15, 1865) in Operations Against Fort Fisher and Wilmington [January-February 1865]: the landing, the defensive line across the peninsula, the naval bombardment and the assault of January 15. The magazine explosion of the 16th, the abandonment of the lower Cape Fear works on the 16th-17th and the February advance on Wilmington (NC016) fall outside the frozen interval and are context only. The December 1864 expedition is the separate record NC014. The live NPS page ('Fort Fisher II', January-February 1865) does not replace the frozen interval. Campaign-wide totals are context and are not assigned to one record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Expeditionary Corps of the Army of the James against Hoke's division and the Fort Fisher garrison; the frozen bounds are blank and the live field reads zero. Terry says his orders gave him 3,300 picked men from Ames's division, the same number from Paine's, 1,400 from Abbott's brigade and two batteries, and that nearly 8,000 men were landed by 3 p.m. on the 13th. NPS says a naval force of nearly 60 vessels supported him; Bragg says about 70 vessels carrying at least 600 guns. Bragg gives the garrison as 1,200 strong before Whiting called in men from the adjacent forts (read 'about 000' in OCR), 'fully 2,300 arms-bearing men' after 500 of 1,100 reinforcing infantry arrived on the night of the 14th, and, in the struggle, about 110 officers and 2,400 or 2,500 men; Hoke's movable force was about 6,000 effectives including reserves and cavalry.",
+      "rationale": "Figures on different dates, bases and scopes: Terry's ordered detachments and landed total for January 13, Bragg's garrison figures for January 13-15 and Hoke's effectives, and two fleet counts. Terry's January 20 figure of about 7,500 infantry for duty is after the assault and outside the interval. None is adopted as a matched opening strength; the live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC015"
+          },
+          "column": "forces_text",
+          "quote": "Expeditionary Corps, Army of the James [US]; Hoke's Division and Fort Fisher Garrison [CS]"
+        },
+        {
+          "source_id": "nps-nc015-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.394 (OCR page markers; not checked against print)",
+          "quote": "They were 3,300 picked men from the Second Division of the Twenty- fourth Army Corps,"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.395 (OCR page markers; not checked against print)",
+          "quote": "tlie same number from the Third Division of the Twenty-fifth Army Corps,"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.395 (OCR page markers; not checked against print)",
+          "quote": "1,400 men from the Second Brigade of the First Division of the Twenty-fourth Army Corps,"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "At 3 p. ro. nearly 8,000 men,"
+        },
+        {
+          "source_id": "nps-nc015-v1",
+          "locator": "Description",
+          "quote": "supported by a naval force of nearly 60 vessels"
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.434 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s fleet consisted of some 70 vessels, 5 of which were iron¬ clads of the heaviest class, and in all carried at least 600 guns."
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.431 (OCR page markers; not checked against print)",
+          "quote": "called to the assistance of that garrison, now 1,200 strong, about 000 men from the adjacent forts."
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.431 (OCR page markers; not checked against print)",
+          "quote": "Major-General Hoke, with all the mov¬ able force, about 6,000 effectives, including reserves and cavalry,"
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.433 (OCR page markers; not checked against print)",
+          "quote": "only 500 of these reached their destination during the night of the 14th."
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.433 (OCR page markers; not checked against print)",
+          "quote": "the garrison now fully 2,300 arms-bearing men, or four to the yard,"
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.434 (OCR page markers; not checked against print)",
+          "quote": "The garrison consisted of about 110 commissioned officers and 2,400 or 2,500 men."
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-20",
+          "locator": "p.401 (OCR page markers; not checked against print)",
+          "quote": "My force of infantry for duty is about 7,500 men, deducting garrisons for the works already taken."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "peninsula-land-front-and-traverses",
+      "dimension": "terrain",
+      "value": "Terry says Myrtle Sound was separated from the ocean by a sand spit about 100 yards wide and too shallow above its head to cover a line, that the mapped 'pond' was a sand flat, and that his line was finally drawn about two miles from the works; inside the fort the huge traverses of the land face were used successively as breastworks. Bragg says the land front was 450 yards long, with a parapet fifteen or twenty feet high, a ditch flooded according to tide and a line of palisades ten or twelve feet high, and that swamp and sound prevented any attack on the landing.",
+      "rationale": "Ground and works described by opposing commanders; no map verification. The works predate the operation; phase left unresolved.",
+      "citations": [
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "separated from the ocean by a sand spit of about 100 yards in width,"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.397 (OCR page markers; not checked against print)",
+          "quote": "the “pond” was found to be a sand flat,"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.397 (OCR page markers; not checked against print)",
+          "quote": "established on a line about two miles from the works."
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.399 (OCR page markers; not checked against print)",
+          "quote": "the huge traverses of the land face being used successively by the enemy as breast- works,"
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.433 (OCR page markers; not checked against print)",
+          "quote": "The land front, on which the assault must be made, was just 450 yards in extent,"
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.433 (OCR page markers; not checked against print)",
+          "quote": "The work on the land front consisted of a parapet fifteen or twenty feet high, with a broad ditch more or less flooded according to tide, and in front of this a line of sharpened palisades ten or twelve feet high,"
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.432 (OCR page markers; not checked against print)",
+          "quote": "Owing to the intervening swamp and sound, it was impossible for us to attack the enemy at their landing point,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-boats-and-artillery",
+      "dimension": "logistics",
+      "value": "Terry says the troops carried four days' rations and forty rounds with no horses, wagons or ambulances, that a siege train followed, and that nearly 200 navy boats landed the men, six days' hard bread and 300,000 extra rounds on the 13th, some rations and ammunition being ruined in the surf; the light guns were landed on the 14th. Bragg says 1,100 reinforcing infantry were delayed when their steamer grounded, and that communication with the fort by water at night could not be cut unless the fleet forced the river.",
+      "rationale": "Movement and supply statements from interested reports; no quartermaster or ordnance return was inspected.",
+      "citations": [
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.395 (OCR page markers; not checked against print)",
+          "quote": "The troops were all in heavy marching order, with four days’ rations, from the morning of the 4th, in their haversacks, and forty rounds of ammunition in their boxes. No horses, wagons, or ambulances were taken;"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.395 (OCR page markers; not checked against print)",
+          "quote": "orders had been given for the embarkation of a siege train,"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "At 8 o’clock nearly 200 boats, besides steam tugs, were sent from the navy to the trans¬ ports,"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "six days’ supply of hard bread in bulk, 300,000 additional rounds of small-arm ammu¬ nition,"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "some of the men had their rations and ammunition ruined by water."
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.397 (OCR page markers; not checked against print)",
+          "quote": "Early in the morning of the 14th the landing of the artillery was commenced, and by sunset all the light guns were gotten on shore."
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.433 (OCR page markers; not checked against print)",
+          "quote": "From an accident to the transportation, the steamer grounding,"
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.432 (OCR page markers; not checked against print)",
+          "quote": "as our communication with it by water at night could not be interrupted unless the fleet forced a passage into the river."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "prisoners-cavalry-and-dispatches",
+      "dimension": "information",
+      "value": "Terry says he learned only on the way down that Fort Fisher was the objective, and from prisoners on landing that Hoke's division was still there. Bragg says his cavalry failed to report the night move of the Union line, that he had learned 'with certainty' that the enemy had landed neither horses nor artillery (Terry reports the light guns landed on the 14th), and that, confident of reinforcing the garrison that night, his apprehension at rumors about 4.30 p.m. on the 15th was dispelled by dispatches received at 7.30 and 10 p.m. saying the fort still held but was sorely pressed.",
+      "rationale": "Contemporary claims of what commanders knew; Bragg's 'certainty' about artillery is contradicted by Terry and kept as a dispute.",
+      "citations": [
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.395 (OCR page markers; not checked against print)",
+          "quote": "It was not until this time that I was informed that Fort Fisher was the point against which we were to operate."
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "A few prisoners were taken, from whom I learned that Hoke’s rebel division, which it was supposed had been sent farther south, was still here,"
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.432 (OCR page markers; not checked against print)",
+          "quote": "the cavalry stationed on our flank for the purpose had failed to give any notice."
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.433 (OCR page markers; not checked against print)",
+          "quote": "I liad learned with certainty that the enemy had landed neither horses nor artillery,"
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.434 (OCR page markers; not checked against print)",
+          "quote": "all apprehension was dispelled by the following dispatches, received respectively at 7.30 and 10 p. m. :"
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.434 (OCR page markers; not checked against print)",
+          "quote": "We still hold the fort, but are sorely pressed."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "assault-or-await-assault",
+      "dimension": "objectives",
+      "value": "Terry says his first object was a defensive line across the peninsula facing Wilmington, and that after reconnaissance he decided to assault on the 15th if the navy's fire opened the palisades, the army against the western half of the land face and sailors and marines against the northeast bastion. Bragg says that to assault Terry's entrenchments with inferior numbers would have exhausted his means to aid the fort, and that making Terry the assaulting party seemed the only policy.",
+      "rationale": "Stated plans and a stated policy from opposing interested reports.",
+      "citations": [
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "The first object which I had in view after landing was to throw a strong defensive line across the peninsula,"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.397 (OCR page markers; not checked against print)",
+          "quote": "it was decided to attempt an assault the next day, provided that in the meantime the fire of the navy should so far destroy the palisades as to make one practicable."
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.397 (OCR page markers; not checked against print)",
+          "quote": "that the army should attack on the western half of the land face, and that a column of sailors and marines should assault at the northeast bastion."
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.433 (OCR page markers; not checked against print)",
+          "quote": "To have assaulted the enemy behind his intrenchments, covered by his fleet, with inferior numbers, would have exhausted our means to aid the fort,"
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.433 (OCR page markers; not checked against print)",
+          "quote": "To make him the assaulting party, con¬ sidering our means for attack and defense, seemed to me the only policy,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Terry (Major General) and Porter (Rear Admiral) against Bragg (General), Hoke (Major General) and Lamb (Colonel); the live page gives 'Major General Braxton Bragg', and the frozen ranks are kept. Terry arranged the bombardment and assault with Porter, selected Ames's division, which Ames commanded in the assault, and credits Comstock above himself. Bragg approved Hoke's dispositions, suspended the order to attack on the 14th after joining Hoke's reconnaissance, and ordered Colquitt to the fort; he says Hoke went forward with his skirmish line on the 15th. Terry says Hoke advanced about 4 p.m. and abandoned any attack after a skirmish. Both name Lamb as the fort's commander; Bragg credits Whiting and Lamb with the resistance and declines to say how the misfortune came about.",
+      "rationale": "Roles attributed by opposing interested reports. No listed commander receives automatic sole credit; Ames, Curtis, Comstock, Breese, Colquitt, Whiting and Lamb are named as attributed actors, not rated.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC015",
+            "belligerent": "US",
+            "fullname": "Alfred Terry"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC015",
+            "belligerent": "US",
+            "fullname": "David D. Porter"
+          },
+          "column": "rank",
+          "quote": "Rear Admiral"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC015",
+            "belligerent": "Confederate",
+            "fullname": "Braxton Bragg"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC015",
+            "belligerent": "Confederate",
+            "fullname": "Robert Hoke"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC015",
+            "belligerent": "Confederate",
+            "fullname": "Charles Lamb"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-nc015-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Braxton Bragg [CS]"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.397 (OCR page markers; not checked against print)",
+          "quote": "It was arranged in consultation with him that a heavy bombardment from all the vessels should commence early in the morning"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.398 (OCR page markers; not checked against print)",
+          "quote": "Ames’ divis¬ ion had been selected for the assault."
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.399 (OCR page markers; not checked against print)",
+          "quote": "He commanded all the troops engaged,"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.400 (OCR page markers; not checked against print)",
+          "quote": "For the final success of our part of the operations the country is more indebted to him than to me."
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.432 (OCR page markers; not checked against print)",
+          "quote": "after a free conference, fully approved his disposition."
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.432 (OCR page markers; not checked against print)",
+          "quote": "I suspended the order for the attack."
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.433 (OCR page markers; not checked against print)",
+          "quote": "he moved forward in person with his skirmish line,"
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.434 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General Colquitt had been ordered to proceed to the fort and enter upon the immediate command,"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.399 (OCR page markers; not checked against print)",
+          "quote": "At about 4 o’clock in the afternoon Hoke advanced against our north line, apparently with the design of attacking it, but if such was his intention he abandoned it after a skirmish with our pickets."
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.399 (OCR page markers; not checked against print)",
+          "quote": "Colonel Lamb, the commandant of the fort."
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.434 (OCR page markers; not checked against print)",
+          "quote": "all accounts agree that the courage and devotion of Major- General Whiting and Colonel Lamb were most conspicuous;"
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.434 (OCR page markers; not checked against print)",
+          "quote": "no opinion should be hazarded as to how this misfortune was brought about."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result is a Union victory, and NPS says a late-afternoon attack carried the parapet after the naval landing party was repulsed. Terry says the sailors and marines could not get up the parapet, that the traverses were carried in hand-to-hand fighting until nearly 9 p.m., and that Whiting and Lamb were among those captured at Battery Buchanan. Bragg says the naval assault was handsomely repulsed, but the army column entered the work on the river flank 'almost unopposed' and was then desperately resisted. Terry reports 169 pieces of artillery found in all the works and prisoners of 112 officers and 1,971 men (January 25); his January 20 report gives 96 officers and 1,164 men unhurt and 8 officers and 278 men wounded.",
+      "rationale": "The entry is described differently by the two sides. Terry's two prisoner counts differ and are kept; the January 25 count may include other works. Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC015"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-nc015-v1",
+          "locator": "Description",
+          "quote": "A valiant attack late in the afternoon, following the bloody repulse of a naval landing party carried the parapet."
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.398 (OCR page markers; not checked against print)",
+          "quote": "exposed to a murderous fire, they were unable to get up the parapet."
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.399 (OCR page markers; not checked against print)",
+          "quote": "The fighting for the traverses continued till nearly 9 o’clock,"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.399 (OCR page markers; not checked against print)",
+          "quote": "among them were Major-General Whiting, and Colonel Lamb, the commandant of the fort."
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.434 (OCR page markers; not checked against print)",
+          "quote": "the enemy’s assault on the seabeach by his naval forces was handsomely repulsed with great loss to them,"
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.434 (OCR page markers; not checked against print)",
+          "quote": "approached along the river and entered the work on that flank almost unopposed;"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.399 (OCR page markers; not checked against print)",
+          "quote": "In all the works were found 169 pieces of artillery,"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-25",
+          "locator": "p.399 (OCR page markers; not checked against print)",
+          "quote": "Our prisoners numbered 112 commissioned officers and 1,971 enlisted men."
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-20",
+          "locator": "p.401 (OCR page markers; not checked against print)",
+          "quote": "We have 96 officers and 1,164 enlisted men unhurt, and 8 officers and 278 enlisted men wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads 2,000 total; the live page reads 3642 total (US 1059; CS 2583). Terry's January 20 report gives the assault loss as 12 officers and 107 men killed and 45 officers and 495 men wounded (659, a computation), and separately about 130 killed and wounded in the magazine explosion of the 16th. Bragg says the loss reported up to 1.30 p.m. on the 15th was 3 killed and 32 wounded, and about 500 killed and wounded in the struggle after the enemy entered.",
+      "rationale": "Terry's figures cover the army only (the naval column's loss is not given), and the explosion is outside the frozen interval. Bragg's figures are reported, not returns. The compiled Union return (No. 3) is garbled in OCR and was not selected. The frozen and live totals are not reconciled with these components or with the prisoners. Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC015"
+          },
+          "column": "casualties_text",
+          "quote": "2,000 total"
+        },
+        {
+          "source_id": "nps-nc015-v1",
+          "locator": "Estimated Casualties",
+          "quote": "3642 total (US 1059; CS 2583;)"
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-20",
+          "locator": "p.401 (OCR page markers; not checked against print)",
+          "quote": "It is 12 offi¬ cers and 107 enlisted men killed, and 45 officers and 495 enlisted men wounded."
+        },
+        {
+          "source_id": "or46-1-terry-fort-fisher-selections-v1",
+          "section": "terry-1865-01-20",
+          "locator": "p.401 (OCR page markers; not checked against print)",
+          "quote": "the magazine of reserve ammunition in the fort exploded, killing and wounding about 130 men."
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.433 (OCR page markers; not checked against print)",
+          "quote": "the entire loss up to that time had been 3 killed and 32 wounded."
+        },
+        {
+          "source_id": "or46-1-bragg-fort-fisher-selections-v1",
+          "section": "bragg-1865-01-20",
+          "locator": "p.434 (OCR page markers; not checked against print)",
+          "quote": "our loss is represented to have been about 500 killed and wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Porter's naval reports (Official Records of the Navies, Series I, Volume 11), Comstock's No. 4 and Ames's No. 11 reports, the No. 3 casualty return (garbled), Whiting's No. 25, Gordon's No. 23, Saunders's No. 24 and Colquitt's No. 26 reports, Lamb's later accounts, and maps remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Terry's reports (Official Records Series I, Volume XLVI, Part 1), Schofield's report (Volume XLVII, Part 1) and Bragg's reports (Volumes XLVI and XLVII, one author family) are separate families of interested participants' accounts; the volumes are shared containers, not additional witnesses. Porter's naval reports, Whiting's January report and Cox's history (The March to the Sea, 1882, chapters VIII-IX, registered earlier) were not inspected under the three-family ceiling. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

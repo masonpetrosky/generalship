@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "battle_id": "NC016",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Wilmington record (February 12-22, 1865) in Operations Against Fort Fisher and Wilmington [January-February 1865]: the operations against Fort Anderson and the Sugar Loaf line, Town Creek and the evacuation of Wilmington. Schofield's February 11 advance and the January capture of Fort Fisher (NC015) fall outside the interval and are context; the March Kinston operations belong to another campaign and are not added. Loss totals for February 11-22 are context, not assigned to one day. The live NPS campaign dates (January-February 1865) do not replace the frozen interval. Campaign-wide totals are context and are not assigned to one record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field and imported bounds give Cox's, Ames's and Paine's divisions at 12,000 against Hoke's division and Hagood's brigade at 6,600; the live Forces Engaged field repeats 12,000 and 6,600, and NPS says about 6,600 Confederates under Hoke held Fort Anderson and a line of works. Schofield says Terry held a line with about 8,000 men when Cox's division landed on February 9, and that the force he then had seemed too small to turn the position. Bragg says Terry had been reinforced by Schofield's corps to nearly 20,000, that his own force of all arms did not exceed 6,500 effectives including reserves and cavalry, and that Hagood's Fort Anderson garrison was 2,000.",
+      "rationale": "Imported and reported figures with different bases and dates: the frozen bounds' basis is not stated, Schofield's 8,000 is Terry's force on February 9 before Cox's arrival, and Bragg's 20,000 and 6,500 are his February 25 figures. None is adopted as a matched opening strength; the live zeros are not measured absence. The frozen bounds are imported unchanged.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC016"
+          },
+          "column": "forces_text",
+          "quote": "Cox's, Ames's, and Paine's Divisions (12,000) [US]; Hoke's Division, Hagood's Brigade (6,600) [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "NC016",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "12000"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "NC016",
+            "belligerent": "Confederate"
+          },
+          "column": "strength_min",
+          "quote": "6600"
+        },
+        {
+          "source_id": "nps-nc016-v1",
+          "locator": "Forces Engaged",
+          "quote": "18600 total (US 12000; CS 6600;)"
+        },
+        {
+          "source_id": "nps-nc016-v1",
+          "locator": "Description",
+          "quote": "About 6,600 Confederate troops under Maj. Gen. Robert Hoke held Fort Anderson and a line of works"
+        },
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.910 (OCR page markers; not checked against print)",
+          "quote": "Maj. Gen. A. H. Terry, with about 8,000 men, then held a line across the peninsnla about two miles above tlie fort,"
+        },
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.910 (OCR page markers; not checked against print)",
+          "quote": "Tlie force 1 then had seemed too small for so extended a movement as either of those mentioned;"
+        },
+        {
+          "source_id": "or47-1-bragg-wilmington-selections-v1",
+          "section": "bragg-1865-02-25",
+          "locator": "p.1077 (OCR page markers; not checked against print)",
+          "quote": "had been re-enforced by Major-General Schofield’s corps from Tennessee, making a total of nearly 20,000."
+        },
+        {
+          "source_id": "or47-1-bragg-wilmington-selections-v1",
+          "section": "bragg-1865-02-25",
+          "locator": "p.1077 (OCR page markers; not checked against print)",
+          "quote": "Our own force, of all arms, did not exceed 6,500 effectives, including reserves and cavalry."
+        },
+        {
+          "source_id": "or47-1-bragg-wilmington-selections-v1",
+          "section": "bragg-1865-02-25",
+          "locator": "p.1077 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General Hagood, with his garrison of 2,000,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fort-anderson-swamps-and-town-creek",
+      "dimension": "terrain",
+      "value": "Schofield says Fort Anderson on the west bank had a line running to a large swamp, with a line opposite running across the peninsula to Masonborough Sound; the position was impregnable to direct attack and could be turned only across the sound or around the swamp. After the evacuation the enemy was entrenched behind Town Creek, with its only bridge destroyed. Bragg says Schofield turned Fort Anderson by a land march west of Orton Pond.",
+      "rationale": "Ground and works described by opposing commanders; no map verification. Phase left unresolved.",
+      "citations": [
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.910 (OCR page markers; not checked against print)",
+          "quote": "The enemy occupied Fort Anderson on the west bank, with a collat¬ eral line running to a large swamp about three-quarters of a mile dis¬ tant,"
+        },
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.910 (OCR page markers; not checked against print)",
+          "quote": "a line opposite Fort Anderson running across the peninsula from Cape Fear Kiver to Masonborough Sound."
+        },
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.910 (OCR page markers; not checked against print)",
+          "quote": "His position was impregnable against direct attack, and could be turned only by cross¬ ing Masonborough Sound above his left, or passing around the swamp which covered his right."
+        },
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.911 (OCR page markers; not checked against print)",
+          "quote": "behind which he Avas found intrenched, and had destroyed the only britlge."
+        },
+        {
+          "source_id": "or47-1-bragg-wilmington-selections-v1",
+          "section": "bragg-1865-02-25",
+          "locator": "p.1077 (OCR page markers; not checked against print)",
+          "quote": "by a land march west of Orton Pond, turned our position at Fort Ander¬ son,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "pontoons-boats-railroad-and-stores",
+      "dimension": "logistics",
+      "value": "Schofield says storms and unusually high tides defeated his plan to move boats and pontoons along the beach on the night of the 14th, that Cox crossed Town Creek with a single flat-boat, and that fifty-one heavy and fifteen light guns and much ammunition were taken. Bragg says the enemy's refusal to receive prisoners embarrassed the saving of stores, that the Wilmington and Weldon railroad carried off the prisoners able to travel and all important stores, and that some naval stores and a small lot of cotton and tobacco were burned; Schofield says the enemy fired his steamers, cotton and military and naval stores, and NPS says Bragg burned cotton, tobacco and government stores.",
+      "rationale": "Movement and stores statements from opposing interested reports; the scale of destruction differs and is kept.",
+      "citations": [
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.910 (OCR page markers; not checked against print)",
+          "quote": "the unusually high tides caused by the heavy sea wind made it impracticable to reach the point of crossing before daylight"
+        },
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.911 (OCR page markers; not checked against print)",
+          "quote": "by the use of a single flat-boat found in the stream,"
+        },
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.911 (OCR page markers; not checked against print)",
+          "quote": "Fifty- one x>ieces of heavy ordnance, fifteen light pieces, and a large amount of ammunition fell into our hands."
+        },
+        {
+          "source_id": "or47-1-bragg-wilmington-selections-v1",
+          "section": "bragg-1865-02-25",
+          "locator": "p.1077 (OCR page markers; not checked against print)",
+          "quote": "we were very much embarrassed to save our stores on account of the large number of the enemy’s prisoners forwarded for delivery,"
+        },
+        {
+          "source_id": "or47-1-bragg-wilmington-selections-v1",
+          "section": "bragg-1865-02-25",
+          "locator": "p.1077 (OCR page markers; not checked against print)",
+          "quote": "we succeeded in getting off’ all the prisoners able to travel and all important stores."
+        },
+        {
+          "source_id": "or47-1-bragg-wilmington-selections-v1",
+          "section": "bragg-1865-02-25",
+          "locator": "p.1077 (OCR page markers; not checked against print)",
+          "quote": "Some naval stores and a small lot of cotton and tobacco were destroyed by fire."
+        },
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.911 (OCR page markers; not checked against print)",
+          "quote": "The enemy at once set fire to his steamers, cotton, and mili¬ tary and naA^al stores, and abandoned the town."
+        },
+        {
+          "source_id": "nps-nc016-v1",
+          "locator": "Description",
+          "quote": "burning cotton, tobacco, and government stores."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "cavalry-warning-and-pursuit",
+      "dimension": "information",
+      "value": "Schofield says the enemy was warned by his cavalry of Cox's flank march and abandoned his works; NPS says the Confederates saw the trap ready to close. Bragg says the pursuit was feeble because, as he later learned, the enemy was throwing a corps by way of Masonborough Sound to his rear.",
+      "rationale": "Attributed knowledge in interested reports; Bragg's explanation is information learned after the event.",
+      "citations": [
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.910 (OCR page markers; not checked against print)",
+          "quote": "The enemy, warned by his cavalry of General Cox’s movement, hastily abandoned his works"
+        },
+        {
+          "source_id": "nps-nc016-v1",
+          "locator": "Description",
+          "quote": "Seeing the trap ready to close, the Confederates evacuated Fort Anderson"
+        },
+        {
+          "source_id": "or47-1-bragg-wilmington-selections-v1",
+          "section": "bragg-1865-02-25",
+          "locator": "p.1077 (OCR page markers; not checked against print)",
+          "quote": "The pursuit of the enemy was feeble, owing, no doubt, to bis occupation at the time, as we since learn, in throwing a corps by way of Masonborough Sound to gain our rear,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "wilmington-as-auxiliary-base",
+      "dimension": "objectives",
+      "value": "Schofield says his ultimate object was Goldsborough and that Wilmington was his first objective as an auxiliary base. NPS says the Confederate works prevented a Federal advance up the Cape Fear. Bragg says he sent a detachment to obstruct the Cape Fear after the withdrawal.",
+      "rationale": "Stated aims from interested reports and a summary.",
+      "citations": [
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.910 (OCR page markers; not checked against print)",
+          "quote": "Wilmington was made my first objective, because it would afford a valuable auxil¬ iary base"
+        },
+        {
+          "source_id": "nps-nc016-v1",
+          "locator": "Description",
+          "quote": "prevented the Federals from advancing up the Cape Fear River."
+        },
+        {
+          "source_id": "or47-1-bragg-wilmington-selections-v1",
+          "section": "bragg-1865-02-25",
+          "locator": "p.1078 (OCR page markers; not checked against print)",
+          "quote": "A detachment has been sent over to obstruct the navigation of the Cape Fear as far as practi¬ cable,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Schofield (Major General) and Bragg (General); the live page gives 'Major General Braxton Bragg', and the frozen ranks are kept. Schofield says he pushed Terry's line forward with Cox's division in support, crossed Cox's and Ames's divisions to Smithville, and that Cox routed the Town Creek position while Terry held Hoke's force. Bragg says he reached Wilmington on the 21st, after the west bank was lost, and withdrew the troops before daylight on the 22d; NPS says Bragg ordered the evacuation. Hagood fought his way to Wilmington from Fort Anderson.",
+      "rationale": "Roles attributed by opposing interested reports. Bragg was absent until the 21st by his own account. No listed commander receives automatic sole credit; Terry, Cox, Ames, Hoke and Hagood are named as attributed actors, not rated.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC016",
+            "belligerent": "US",
+            "fullname": "John M. Schofield"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC016",
+            "belligerent": "Confederate",
+            "fullname": "Braxton Bragg"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-nc016-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Braxton Bragg [CS]"
+        },
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.910 (OCR page markers; not checked against print)",
+          "quote": "I pushed forward General Terry’s line, supported by General Cox’s division ;"
+        },
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.910 (OCR page markers; not checked against print)",
+          "quote": "General Cox’s and General Ames’ divisions were crossed over to Smith ville,"
+        },
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.911 (OCR page markers; not checked against print)",
+          "quote": "General Terry was unable to make any further advance, but occupied the attention of all of Hoke’s force,"
+        },
+        {
+          "source_id": "or47-1-bragg-wilmington-selections-v1",
+          "section": "bragg-1865-02-25",
+          "locator": "p.1077 (OCR page markers; not checked against print)",
+          "quote": "On my arrival at Wilmington on the 21st from Richmond,"
+        },
+        {
+          "source_id": "or47-1-bragg-wilmington-selections-v1",
+          "section": "bragg-1865-02-25",
+          "locator": "p.1077 (OCR page markers; not checked against print)",
+          "quote": "Before daylight on the 22d I withdrew the troops successfully to the north side of the Rortheast River."
+        },
+        {
+          "source_id": "nps-nc016-v1",
+          "locator": "Description",
+          "quote": "Gen. Braxton Bragg ordered the evacuation of Wilmington,"
+        },
+        {
+          "source_id": "or47-1-bragg-wilmington-selections-v1",
+          "section": "bragg-1865-02-25",
+          "locator": "p.1077 (OCR page markers; not checked against print)",
+          "quote": "He fought his way to Wilmington successfully,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result is a Union victory. Schofield says the enemy abandoned his works on both sides of the river during the night of February 19 (the compiler brackets '[18]'), that Cox routed the Town Creek position on the 20th taking 2 guns and 375 prisoners, and that Union troops entered Wilmington without opposition early on the 22d. NPS dates the Fort Anderson evacuation to the night of the 18th-19th. Bragg says the withdrawal was made successfully before daylight on the 22d and the pursuit was feeble.",
+      "rationale": "The Fort Anderson date differs between Schofield's text and the compiler's bracket and NPS; kept as recorded. Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC016"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "pp.910–911 (OCR page markers; not checked against print)",
+          "quote": "hastily abandoned his works Chap LIX.] THE CAMPAIGN OF THE CAROLINAS. 911 on l)otli sides of the river during the night of February 19 [18],"
+        },
+        {
+          "source_id": "nps-nc016-v1",
+          "locator": "Description",
+          "quote": "the Confederates evacuated Fort Anderson during the night of the 18th-19th,"
+        },
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.911 (OCR page markers; not checked against print)",
+          "quote": "attacked and routed him, capturing 2 pieces of artillery, 375 j)risoners,"
+        },
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.911 (OCR page markers; not checked against print)",
+          "quote": "Our troops entered without opposition early on the morning of February 22,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads 1,150 total; the live page reads zero. Schofield gives the Union loss from February 11 to the capture as about 200 killed and wounded, and the enemy's as not less than 1,000 killed, wounded and prisoners. Bragg says Hagood lost about 350 of his command in fighting his way back; Schofield's 375 Town Creek prisoners are above.",
+      "rationale": "Schofield's span begins on February 11, before the frozen interval; his enemy figure is an estimate. Bragg's 350 is one brigade's loss. The frozen 1,150 is not reconciled with these figures; the live zero is not measured absence. Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC016"
+          },
+          "column": "casualties_text",
+          "quote": "1,150 total"
+        },
+        {
+          "source_id": "nps-nc016-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or47-1-schofield-wilmington-selections-v1",
+          "section": "schofield-1865-04-03-wilmington",
+          "locator": "p.911 (OCR page markers; not checked against print)",
+          "quote": "Our total loss in the operations from February 11 to the capture of Wilmington Avas about 200 officers and men killed and wounded; that of the enemy Avas not less than 1,000 killed, wounded, and prisoners."
+        },
+        {
+          "source_id": "or47-1-bragg-wilmington-selections-v1",
+          "section": "bragg-1865-02-25",
+          "locator": "p.1077 (OCR page markers; not checked against print)",
+          "quote": "losing about 350 of his command."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Cox's No. 254 and Ames's No. 235 reports (Volume XLVII, Part 1), Terry's and Hoke's reports if any, Porter's naval reports (Official Records of the Navies, Series I, Volume 12, whose Internet Archive OCR returned a server error on retrieval), Cox's history (chapter IX), the Kinston part of Schofield's report and Bragg's March dispatches (read, not selected), and maps remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Terry's reports (Official Records Series I, Volume XLVI, Part 1), Schofield's report (Volume XLVII, Part 1) and Bragg's reports (Volumes XLVI and XLVII, one author family) are separate families of interested participants' accounts; the volumes are shared containers, not additional witnesses. Porter's naval reports, Whiting's January report and Cox's history (The March to the Sea, 1882, chapters VIII-IX, registered earlier) were not inspected under the three-family ceiling. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

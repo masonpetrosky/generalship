@@ -1,0 +1,547 @@
+{
+  "schema_version": 1,
+  "battle_id": "NC014",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort Fisher record (December 7-27, 1864) in Expedition Against Fort Fisher [December 1864]: the embarkation, the naval bombardment of December 24-25, the landing and reconnaissance of December 25 and the re-embarkation. The January 1865 capture is the separate record NC015 in a separate campaign and is not added here. The live NPS page ('Fort Fisher I', December 1864) does not replace the frozen interval. Campaign-wide totals are context and are not assigned to one record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Expeditionary Corps of the Army of the James against Hoke's division and the Fort Fisher garrison; the frozen bounds are blank and the live field reads zero. Butler says he moved about 6,500 effective men of Ames's and Paine's divisions on December 7, and that the Baltic stayed at the rendezvous with a brigade of 1,200. He says deserters and prisoners put fewer than 400 men in the garrison and fewer than 1,000 within twenty miles when the army arrived, that at least two brigades of Hoke's division had arrived, and that Hoke's division outside the works was larger than his force. Whiting says that by the morning of the 25th he threw 133 regulars and 300 Junior Reserves into the garrison, that the garrisons had been reduced one-half, and that three battalions of reserves reached the fort during the delay; on the 25th the fire came from over fifty ships.",
+      "rationale": "Figures on different dates and bases: Butler's effective men at embarkation, his deserters' and prisoners' garrison figures for the army's arrival off Wilmington (December 15, by his account), Whiting's reinforcement counts for December 24-25, and a ship count. Butler's comparison with Hoke's division is his judgment. None is adopted as a matched opening strength; the live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC014"
+          },
+          "column": "forces_text",
+          "quote": "Expeditionary Corps, Army of the James [US]; Hoke's Division and Fort Fisher Garrison [CS]"
+        },
+        {
+          "source_id": "nps-nc014-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.966 (OCR page markers; not checked against print)",
+          "quote": "I moved a force of about 6,500 effective men, consisting of General Ames’ division, of the Twenty-fourth Corps, and General Paine’s division, of the Twenty-fifth Corps,"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.967 (the running head for p.967 reads \"9G7\" in OCR; OCR page markers; not checked against print)",
+          "quote": "with a brigade oh board of 1,200 men,"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.969 (OCR page markers; not checked against print)",
+          "quote": "that at the time when the army arrived off Wilmington there was less than 400 men in the garrison of Fort Fisher and less than 1,000 within twenty miles."
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1864-12-27",
+          "locator": "p.966 (OCR page markers; not checked against print)",
+          "quote": "at least two brigades of Hoke’s division from before Rich- mond had arrived there"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.968 (OCR page markers; not checked against print)",
+          "quote": "Knowing the strength of Hoke’s division I found a force opposed to me outside of the works larger than my own."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.994 (OCR page markers; not checked against print)",
+          "quote": "By morning I succeeded in throwing 133 Regulars and 300 Junior Reserves into the garrison."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.996 (OCR page markers; not checked against print)",
+          "quote": "the very garrisons of these important works reduced one-half."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.996 (OCR page markers; not checked against print)",
+          "quote": "This delay enabled three battalions of reserves to be thrown into the fort,"
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-31",
+          "locator": "p.997 (OCR page markers; not checked against print)",
+          "quote": "from over fifty ships until dark."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fort-beach-and-surf",
+      "dimension": "terrain",
+      "value": "Butler describes a square bastioned work of high relief (about fifteen feet) with a wet ditch, a stockade from the fort to the sea and to the river marshes, and seventeen heavy guns bearing up the beach behind traverses eight or ten feet high; the beach was wide enough for an assault of only 1,000 men in line. He says no material damage had been done to the fort, and rising surf made further landing nearly impracticable. Whiting says the damage to the works beyond defacing the slope was nothing, credits the huge elevated traverses, and says the landing was made at the point he had reported as the true point of attack.",
+      "rationale": "Butler's description is from a steamer a few hundred yards off and Weitzel's reconnaissance; Whiting was inside the fort. The works predate the attack; the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.968 (OCR page markers; not checked against print)",
+          "quote": "ran in within a few hundred yards of the fort, so that it was plainly visible."
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.968 (OCR page markers; not checked against print)",
+          "quote": "It appeared to be a square bastioned work of very high relief — say fifteen feet — surrounded by a wet ditch some fifteen feet wide."
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.968 (OCR page markers; not checked against print)",
+          "quote": "protected from being enveloped by an assaulting force by a stockade which extended from the fort to the sea on the one side and from the marshes of Cape Fear River to the salient on the other."
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.968 (OCR page markers; not checked against print)",
+          "quote": "Seventeen heavy guns bore up the beach, protected from the fire of the navy by traverses eight or ten feet high,"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1864-12-27",
+          "locator": "p.965 (OCR page markers; not checked against print)",
+          "quote": "which was only wide enough for an assault of 1,000 men in line,"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.968 (OCR page markers; not checked against print)",
+          "quote": "No material damage to the fort as a defensive Avork had been done."
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1864-12-27",
+          "locator": "p.966 (OCR page markers; not checked against print)",
+          "quote": "the surf had so arisen as to lender further landing nearly impracticable."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.994 (OCR page markers; not checked against print)",
+          "quote": "Beyond the defacing the slope the damage to the works was nothing."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.996 (OCR page markers; not checked against print)",
+          "quote": "the effectual protection afforded by the huge and elevated traverses"
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.996 (OCR page markers; not checked against print)",
+          "quote": "The landing was effected pre- cisely at the point so often indicated in my reports to the War Depart- ment as the true point of attack,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "coal-water-ammunition-and-weather",
+      "dimension": "logistics",
+      "value": "Butler says the transport fleet was coaled and watered for ten days and had to go to Beaufort for coal and water during the December 20-23 gale; he had neither siege train nor supplies, and says the navy had exhausted its ammunition. Whiting says the garrison expended 600 projectiles on the second day with forty-four guns, two Brooke guns burst, and he doubted the fleet could have kept up its fire another day given its expenditure of ammunition; he credits the storms before the 24th with saving the fort.",
+      "rationale": "Supply and weather statements from interested reports; no ship, ordnance or quartermaster return was inspected.",
+      "citations": [
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.967 (the running head for p.967 reads \"9G7\" in OCR; OCR page markers; not checked against print)",
+          "quote": "the transport fleet being coaled and watered for ten days had already waited that time,"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.967 (the running head for p.967 reads \"9G7\" in OCR; OCR page markers; not checked against print)",
+          "quote": "I was occupied in coaling and watering the transport fleet at Beaufort."
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.969 (OCR page markers; not checked against print)",
+          "quote": "I had neither siege trains or supplies for such a contingency."
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.969 (OCR page markers; not checked against print)",
+          "quote": "the navy had exhausted their supply of ammunition in the bombardment,"
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.995 (OCR page markers; not checked against print)",
+          "quote": "During the 21st [25th1?] the garrison expended 600 projectiles, bring- ing forty-four guns into action."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.995 (OCR page markers; not checked against print)",
+          "quote": "One of the Brooke guns served by the navy burst at 2.30 p. m., the other at 4."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.996 (OCR page markers; not checked against print)",
+          "quote": "I do not think the fleet could have maintained such an extraordinary fire for another day from the enormous expenditure of ammunition."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.996 (OCR page markers; not checked against print)",
+          "quote": "The constant storms which prevailed from the time the enemy sailed until the 24tli alone saved us."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-deception-and-prisoners",
+      "dimension": "information",
+      "value": "Butler says he sent the transports up the Potomac to be seen by Confederate scouts on the Northern Neck and learned from prisoners on the 25th that Kirkland's and Hagood's brigades of Hoke's division were within two miles. Whiting says he received notice on the 18th of the fleet's sailing, judged the enemy aware of the reduced garrisons but probably not of the approach of Lee's troops, and could only conjecture the landed force. NPS says Lee sent Hoke's division on learning that Union troops had embarked on December 13. In the January 1 addenda Bragg's adjutant says a sentence of Whiting's report credited Hoke with the message of the afternoon of the 26th; Hoke reached Sugar Loaf only about 8 p.m. (the day is not restated), nearly twelve hours after Kirkland's movement, and the message was sent by the commanding general. The printed report reads 'the general commanding', the corrected wording.",
+      "rationale": "Contemporary and retrospective statements of what commanders learned; report dates are not proof of when each learned it. The printed report already carries the correction.",
+      "citations": [
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.966 (OCR page markers; not checked against print)",
+          "quote": "so as to be plainly visible to the scouts and signal men of the enemy on the Northern Neck,"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.968 (OCR page markers; not checked against print)",
+          "quote": "From them I learned that Kirk- land7s and Hagood’s brigades, of Hoke’s division, had left the front of the Army of the James near Richmond, and were then within two miles of the rear of my forces"
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.993 (OCR page markers; not checked against print)",
+          "quote": "of the sailing of which for Wilming- ton I received notice on the 18th instant,"
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.996 (OCR page markers; not checked against print)",
+          "quote": "The enemy was undoubtedly aware of this fact and probably not aware of the approach of the troops of General Lee."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.996 (OCR page markers; not checked against print)",
+          "quote": "In what force he landed I can only con- jecture;"
+        },
+        {
+          "source_id": "nps-nc014-v1",
+          "locator": "Description",
+          "quote": "Learning that large numbers of Union troops had embarked from Hampton Roads on December 13, Lee dispatched Hoke's Division to meet the expected attack on Fort Fisher."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "addenda-1865-01-01",
+          "locator": "p.999 (OCR page markers; not checked against print)",
+          "quote": "Early in the afternoon (26th) we received the welcome message from Major-Gen- eral Hoke"
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.995 (OCR page markers; not checked against print)",
+          "quote": "we received the A\\relcome message from the general commanding announcing his arrival at Sugar Loaf;"
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "addenda-1865-01-01",
+          "locator": "p.999 (OCR page markers; not checked against print)",
+          "quote": "Major General Hoke reached Sugar Loaf about 8 p. m., nearly twelve hours after Brigadier-General Kirkland had ordered the movement which opened communication with you, and the message received by you was sent by the commanding general."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "seize-the-point-or-pass-the-forts",
+      "dimension": "objectives",
+      "value": "Butler calls it the army portion of the conjoint expedition against Wilmington; he says landing troops to seize the point was essential if the navy would not run past the fort, urged Porter to run into the Cape Fear, and says his instructions did not contemplate a siege. NPS says the fort protected Wilmington, the last open Atlantic seaport. Whiting says no attempt was made to pass the bar and maintains the need for obstructions to hold a fleet under fire.",
+      "rationale": "Stated aims and a disputed plan; Grant's indorsement disputing Butler's reading of his instructions was read but not selected. Porter's own statement of aims was not inspected.",
+      "citations": [
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.966 (OCR page markers; not checked against print)",
+          "quote": "the army portion of the conjoint expedition directed against Wilmington was ready to proceed."
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1864-12-20",
+          "locator": "p.965 (OCR page markers; not checked against print)",
+          "quote": "as the navy did not propose to run by the fort into the river, whatever might be the effect of the explosion, it would be useless, unless the troops could be landed, to seize the point,"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.967 (the running head for p.967 reads \"9G7\" in OCR; OCR page markers; not checked against print)",
+          "quote": "He was then urged if that were so to run by the fort into Cape Fear River,"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.969 (OCR page markers; not checked against print)",
+          "quote": "The instructions of the lieutenant-general to me did not contemplate a siege."
+        },
+        {
+          "source_id": "nps-nc014-v1",
+          "locator": "Description",
+          "quote": "Fort Fisher, which protected Wilmington, the South's last open seaport on the Atlantic coast."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.994 (OCR page markers; not checked against print)",
+          "quote": "no attempt, as far as known, having been made to land above the forts nor to pass the bar."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.997 (OCR page markers; not checked against print)",
+          "quote": "I maintain, as heretofore, the necessity of obstructions to detain the enemy under fire."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Butler (Major General) and Porter (Rear Admiral) against Hoke (Major General); the live page lists Porter and Hoke only. Butler says Porter exploded the powder vessel and opened the attack without waiting for his return, that Weitzel reported an assault impossible, that the opinion coincided with his own, and that he ordered no assault and the re-embarkation. Whiting says Hoke sent Graham's regiment to the fort's support on the 27th, credits Lamb with the defense, and says he himself did not assume Lamb's command but acted as a witness. The addenda credit Kirkland, not Hoke, with the movement that reopened communication.",
+      "rationale": "Roles attributed by interested reports; Butler's and Porter's dispute over responsibility is represented here by Butler only. No listed commander receives automatic sole credit; Weitzel, Curtis, Lamb, Kirkland and Whiting are named as attributed actors, not rated.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC014",
+            "belligerent": "US",
+            "fullname": "Benjamin Butler"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC014",
+            "belligerent": "US",
+            "fullname": "David D. Porter"
+          },
+          "column": "rank",
+          "quote": "Rear Admiral"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC014",
+            "belligerent": "Confederate",
+            "fullname": "Robert Hoke"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-nc014-v1",
+          "locator": "Principal Commanders",
+          "quote": "Rear Admiral David Porter [US]"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1864-12-27",
+          "locator": "p.965 (OCR page markers; not checked against print)",
+          "quote": "Without waiting for my return, Admi- ral Porter exploded the torpedo at 1 o’clock on Friday morning,"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.968 (OCR page markers; not checked against print)",
+          "quote": "At this time General Weitzel reported to me that to assault the Avork, in his judgment and in that of the experienced officers of his command, who had been on the skirmish line, with any prospect of success, was im- possible. This opinion coincided with my own,"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.968 (OCR page markers; not checked against print)",
+          "quote": "I therefore ordered that no assault should be made, and that the troops should re-embark."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.996 (OCR page markers; not checked against print)",
+          "quote": "General Hoke sent to our support Graham’s gallant regiment of South Carolina,"
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.997 (OCR page markers; not checked against print)",
+          "quote": "is due to the untiring energy, the dauntless resolution, and brilliant courage of Col. William Lamb,"
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-31",
+          "locator": "p.998 (OCR page markers; not checked against print)",
+          "quote": "I wish it to be understood that in no sense did I assume the command of Colonel Lamb. I was a witness,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result is a Confederate victory. NPS says the Federal assault had already begun when Hoke approached, discouraging further attempts, and that Butler called off the expedition on December 27. Butler says he ordered that no assault be made, that his skirmish line came within seventy-five yards of the fort, and that about 300 men could not be re-embarked when the surf rose. Whiting says a grape and musketry fire checked the advance and that the enemy was seen for six hours taking off troops; he calls the land effort feeble. Butler's prisoner figures vary: about 300 men and 10 officers (December 27), 218 men and 10 officers of the Reserves taken by Ames's division, and 300 including 12 officers in all (January 3).",
+      "rationale": "The NPS 'assault had already begun' and Butler's statement that no assault was ordered are kept as a disputed description of the same skirmish-line advance. The later withdrawal and the campaign that followed are different measures. Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC014"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-nc014-v1",
+          "locator": "Description",
+          "quote": "The Federal assault on the fort had already begun when Hoke approached, discouraging further Union attempts."
+        },
+        {
+          "source_id": "nps-nc014-v1",
+          "locator": "Description",
+          "quote": "Butler called off the expedition on December 27 and returned to Fort Monroe."
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.968 (OCR page markers; not checked against print)",
+          "quote": "This skirmish line advanced to within seventy-five yards of the fort,"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1864-12-27",
+          "locator": "p.966 (OCR page markers; not checked against print)",
+          "quote": "had got on board all of the troops with the exception of about 300,"
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.995 (OCR page markers; not checked against print)",
+          "quote": "A fire of grape and musketry checked any farther advance."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.996 (OCR page markers; not checked against print)",
+          "quote": "certaiuly we observed them six hours taking off their troops."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.996 (OCR page markers; not checked against print)",
+          "quote": "the feebleness of the enemy’s effort on land."
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1864-12-27",
+          "locator": "p.965 (OCR page markers; not checked against print)",
+          "quote": "capturing about 300 men and 10 commissioned officers."
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.968 (OCR page markers; not checked against print)",
+          "quote": "had captured 218 men and 10 commissioned officers of the North Caro- lina Reserves,"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.969 (OCR page markers; not checked against print)",
+          "quote": "The number of prisoners captured by us was 300, including 12 offi- cers,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads 320 total; the live page reads zero. Butler's December 27 telegram gives the loss when he left as 12 wounded, 10 of them by the navy's shells; his January 3 report gives 1 drowned, 2 killed, 1 officer captured and 10 wounded. Whiting gives 1 mortally, 3 seriously and 10 slightly wounded on the 24th and 3 killed, 2 mortally, 7 severely and 26 slightly wounded (38) on the 25th, '61 in all' for both days; the components sum to 52 (a computation).",
+      "rationale": "The frozen 320's basis is not established; it is not reconciled with Butler's losses, Whiting's garrison losses or the prisoners Butler reports. Whiting's printed total and his components differ and both are kept. Hébert's casualty list was read but not selected. Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC014"
+          },
+          "column": "casualties_text",
+          "quote": "320 total"
+        },
+        {
+          "source_id": "nps-nc014-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1864-12-27",
+          "locator": "p.966 (OCR page markers; not checked against print)",
+          "quote": "Our loss when I left was but 12 wounded, 10 of whom were by the shells of the navy"
+        },
+        {
+          "source_id": "or42-1-butler-fort-fisher-selections-v1",
+          "section": "butler-1865-01-03",
+          "locator": "p.969 (OCR page markers; not checked against print)",
+          "quote": "The loss of the army was 1 man drowned, 2 men killed, 1 officer cap- tured, who accidentally wandered through our pickets, and 10 men wounded"
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.994 (OCR page markers; not checked against print)",
+          "quote": "the casualties on the 24th being none killed, 1 mortally, 3 seriously, and 10 slightly wounded."
+        },
+        {
+          "source_id": "or42-1-whiting-fort-fisher-selections-v1",
+          "section": "whiting-1864-12-30",
+          "locator": "p.995 (OCR page markers; not checked against print)",
+          "quote": "Our casualties during this storm of iron amounted to 3 killed, 2 mortally, 7 severely, and 26 slightly wounded; total, 38; for both days, 61 in all."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Porter's naval reports (Official Records of the Navies, Series I, Volume 11), Weitzel's No. 5, Ames's No. 2 and Curtis's No. 3 reports, Lamb's No. 12 and the other Confederate reports, Hébert's casualty list (read, not selected), Grant's indorsements and inclosures (read, not selected), Lee's dispatches of December 24-27 and maps remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Butler's reports and Whiting's reports (Official Records Series I, Volume XLII, Part 1) are separate families of interested participants' accounts; the volume is a shared container, not an additional witness. Porter's naval reports (Official Records of the Navies, Series I, Volume 11, located on the Internet Archive but not pinned) and any 19th-century history were not inspected under the three-family ceiling. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
