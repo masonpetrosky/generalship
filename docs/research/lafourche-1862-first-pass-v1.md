@@ -2,12 +2,12 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). The single
 **frozen record** in **Operations in LaFourche District [October 1862]** now has a draft dossier:
-**9 claims, 1 explicit null unknown and 44 citation occurrences**. All seven dimensions are
+**9 claims, 1 explicit null unknown and 47 citation occurrences**. All seven dimensions are
 represented. The dossier is a draft; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| LA005 — Georgia Landing | 1862-10-27 | 9 | 1 | 44 | 3 |
+| LA005 — Georgia Landing | 1862-10-27 | 9 | 1 | 47 | 3 |
 
 This pass was drafted alongside the other 1862-1863 Louisiana campaigns. Existing dossiers,
 reviews and historical revisions are unchanged. Dossier presence is not first-pass acceptance,
@@ -56,8 +56,12 @@ Volume XV parent registered in the Baton Rouge pass.
 - **Disputes preserved.** The Union strength (NPS 4,000 against Mouton's estimates). Losses: the
   frozen and live 315 (US 86; CS 229) against Mouton's 199 (5 killed, 8 wounded, 186 missing) and his
   estimate of 250-300 Union, and Weitzel's claims reported by Irwin (208 prisoners; 18 killed, 74
-  wounded and 5 missing, 97 in all).
-- **Command roles.** Colonel Armant commanded the right-bank troops; Weitzel pursued. No listed
+  wounded and 5 missing, 97 in all). The manner of the right-bank withdrawal: Mouton says "they"
+  fell back in some confusion owing to the loss of their commander after Ralston's battery was
+  disabled (Ralston, commanding the battery, was wounded and captured), and that Armant, who
+  commanded the troops, fell back in perfect order; whose withdrawal was confused is not clear.
+- **Command roles.** Mouton says Colonel Armant of the Eighteenth, which was on the right bank,
+  "commanded the troops"; Weitzel pursued. No listed
   commander receives automatic sole credit.
 - **Tags.** All claims stay `unresolved` or `post_outcome`.
 - **Families.** Irwin stays in `irwin-nineteenth-corps-1892`. Mouton is placed in
@@ -69,8 +73,35 @@ unchanged, with **zero promoted rows**. `python3 -m generalship check` passes, t
 and the baseline still reports **23/127 eligible engagements in 13 groups**, with strength Brier
 **0.276882** against **0.250000** for equal odds.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossier and
-source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the six
+Gulf and Louisiana 1862-63 passes together at commit `be711a9` as
+`gulf-review-be711a9-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": four
+required findings (R1 to R4) and ten advisories (A1 to A10). It is an AI review within its stated
+scope, not human historical adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding was checked against the retained selection text or the registry before any change;
+every new quote occurs in its section, and the dossiers were regenerated from the builder.
+LA005 is revised under `lafourche-1862-review-correction-2026-09-25` and supersedes the
+byte-for-byte archive at `data/evidence/history/LA005.v1.json`.
+
+- **R1** (LA005 `recorded-result` and this memo): accepted. Mouton's p.177 "they were compelled to
+  fall back, which was done in some confusion, owing to the loss of their commander" follows the
+  disabling of Ralston's battery, and p.178 reports Ralston wounded and captured and Armant
+  "falling back in perfect order". The value now keeps both statements as written; the rationale
+  says whose withdrawal was confused is not clear. Three citations added (the review's two and the
+  p.177 battery clause).
+- **R2-R4** apply to other passes.
+
+Advisories affecting this pass:
+
+- **A8 adopted** (LA005 `open_questions`): Irwin is described as styled on the OCR title page
+  assistant adjutant-general, not as the corps' "later" one.
+- The other advisories apply to other passes.
+
+The review correction adds no source record for this pass. Citations rise from 44 to 47; claims
+(9) and unknowns (1) are unchanged. No model input, cohort file, admission proposal or baseline is
+changed.

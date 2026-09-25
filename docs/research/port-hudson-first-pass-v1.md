@@ -83,8 +83,8 @@ are the obvious follow-up.
   - Siege losses: the frozen 12,208 (US 5,000; CS 7,208) and live 17,500 (US 10,000; CS 7,500)
     against Irwin's Union 1,995 (May 27), 1,805 (June 14) and 4,363 (the siege), the surgeon's
     partial Confederate 623, Jackson's 200 killed, 300-400 wounded and 200 dead of sickness, and
-    Beall's 358 to June 1. The frozen and live totals appear to include the surrendered garrison;
-    their basis is not stated. Sick are not battle casualties.
+    Beall's 358 to June 1. The basis of the frozen and live totals is not stated; that they
+    include the surrendered garrison is only an inference from their size. Sick are not battle casualties.
   - Colonel Powers's initials (Irwin "S. P."; the frozen and live records "Frank P.").
 - **Command roles.**
   - Banks ordered the May 27 assault after an unminuted council, put Weitzel over the right wing
@@ -105,8 +105,31 @@ baseline are unchanged, with **zero promoted rows**. `python3 -m generalship che
 tests pass, and the baseline still reports **23/127 eligible engagements in 13 groups**, with
 strength Brier **0.276882** against **0.250000** for equal odds.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossiers
-and source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the six
+Gulf and Louisiana 1862-63 passes together at commit `be711a9` as
+`gulf-review-be711a9-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": four
+required findings (R1 to R4) and ten advisories (A1 to A10). It is an AI review within its stated
+scope, not human historical adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding was checked against the retained selection text or the registry before any change;
+every new quote occurs in its section, and the dossiers were regenerated from the builder.
+LA010 is revised under `port-hudson-review-correction-2026-09-25` and supersedes the
+byte-for-byte archive at `data/evidence/history/LA010.v1.json`. LA009 is unchanged.
+
+- No required finding applies to this pass (R1-R4 apply to other passes).
+
+Advisories affecting this pass:
+
+- **A6 adopted** (LA010 and this memo): `reported-force-scope` now says Irwin's footnote concerns
+  the Union monthly and tri-monthly returns; `command-roles` drops the "July 7" date of Gardner's
+  council, which the selected surrender section gives only as "That evening"; the
+  `casualty-records` rationale says that the totals include the surrendered garrison is an
+  inference, not a stated fact.
+- The other advisories apply to other passes.
+
+The review correction adds no source record for this pass. Citations (96), claims (18) and
+unknowns (2) are unchanged. No model input, cohort file, admission proposal or baseline is changed.

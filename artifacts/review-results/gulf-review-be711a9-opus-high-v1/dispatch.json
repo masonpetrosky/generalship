@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session ab0640fe-7321-4b3e-a3a9-e20775bd70cc",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 86c9f725a29dcefb7e0ea5b770d0fb3bc4cd4752; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T17:52:39Z",
+  "prepared_commit": "be711a9045e1bc71c6a869423d1c0994b9931818",
+  "bundle_commit": "86c9f725a29dcefb7e0ea5b770d0fb3bc4cd4752",
+  "assignment_sha256": "631fe7ba1d0df16a75d26b890f4031abe45cea8a8da731115e49817553adbcdd",
+  "inputs_manifest_sha256": "07d080efd661d6873b9f09388846eb50e794d1061e10057a3277c4fd89b13b91",
+  "num_turns": 66,
+  "duration_ms": 668159,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** The Gulf and Louisiana 1862–63 first passes need four corrections, and there are ten optional advisories.\n\n**Review path:** `artifacts/review-results/gulf-review-be711a9-opus-high-v1/review.md`\n\n**Finding IDs:**\n- **Required:** R1, R2, R3, R4\n- **Advisories:** A1, A2, A3, A4, A5, A6, A7, A8, A9, A10\n\n**Required corrections:**\n- **R1 (LA005, recorded result):** the dossier says the right-bank troops fell back \"in some confusion\". In Mouton's report it is unclear whether that meant the battery or the troops. The dossier also leaves out his statement that Armant's troops fell back \"in perfect order\".\n- **R2 (LA003, force figures):** Breckinridge's 3,400 counts only \"my own troops\" from Vicksburg, while Irwin's 3,600 includes Ruggles. The two figures cover different groups, not one disputed total. The dossier also drops the roughly 200 militia Breckinridge left out of his 2,600.\n- **R3 (LA007, casualties):** the nominal-list 353 is presented as a battle-only loss. Irwin says it covers April 13, 14 and 17, so it overlaps LA008 (April 17).\n- **R4 (New Orleans memo):** it still says Volume VI was newly registered and that the pass adds 9 records. After Volume VI was deduplicated to the 1861 West registration, only 7 were added. Across the six memos the totals come to 52, but the registry has 50.\n\nThe review gives the exact replacement text and the quotes to add for each. All added quotes were checked against their source sections.\n\n**Checks:**\n- **Input hashes:** all 88 paths in the input manifest match, both at the prepared commit and in the worktree, so no mismatches to report.\n- **`make check`:** passed offline (134 tests OK; `generalship check` exited 0).\n- **Selections:** all 16 new selection files rebuild exactly from their registered parents. That includes the Duncan and Lovell selections against the 1861 Volume VI copy.\n\nThe review answers each source question the assignment raised: placing Taylor's 1863 report in his existing group, the rewritten Irwin and Mahan dependency notes, LA004 without a history, the April 28 surrender recorded only in LA001, and Port Hudson strengths as the main gap. All are judged sound except the stale memo (R4).\n\n**Review record:**\n- Claude Opus 5.5 (`claude-opus-5-5`), reasoning effort `high`, 2026-09-25.\n- Commits: prepared `be711a9`, previous `badefa6`, bundle `86c9f72`.\n- Assignment hash `631fe7ba…`; input-manifest hash `07d080ef…`.\n\nI read every claim in all 14 dossiers and checked each text citation in its surrounding passage. `README.md` and `docs/roadmap.md` were checked by hash only; I did not read them. The only file I created is the review; nothing was committed or pushed. The review file changed on disk after I finished writing it (I made no further edits), and I haven't re-read it, so its current contents may differ from what I wrote."
+}

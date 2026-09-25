@@ -2,13 +2,13 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). All **four
 frozen records** in **Taylor's Operations in West Louisiana [June-September 1863]** now have draft
-dossiers: **36 claims, 4 explicit null unknowns and 171 citation occurrences**. All seven
+dossiers: **36 claims, 4 explicit null unknowns and 173 citation occurrences**. All seven
 dimensions are represented in each record. All dossiers are drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
 | LA012 — LaFourche Crossing | 1863-06-20 to 06-21 | 9 | 1 | 45 | 3 |
-| LA013 — Donaldsonville | 1863-06-28 | 9 | 1 | 48 | 3 |
+| LA013 — Donaldsonville | 1863-06-28 | 9 | 1 | 50 | 3 |
 | LA015 — Kock's Plantation | 1863-07-12 to 07-13 | 9 | 1 | 42 | 3 |
 | LA016 — Stirling's Plantation | 1863-09-29 | 9 | 1 | 36 | 3 |
 
@@ -79,7 +79,8 @@ It uses the OR Volume XXVI Part 1 parent registered in the Port Hudson pass.
     regiment); losses (frozen 267 with US 48, live 268 with US 49, Stickney's table 49, his 53 dead
     counted and his inferred 300, and the regimental history's 108 dead and 40 prisoners quoted by
     Irwin).
-  - Donaldsonville: the garrison (180 against Green's figures); the result (frozen Union victory,
+  - Donaldsonville: the garrison (180 against Green's figures); the date of Mouton's order (Green's
+    "of the 26th ultimo"; NPS June 28); the result (frozen Union victory,
     live Indecisive); losses (frozen and live 324 with CS 301, Green's 261, and Irwin's 124
     prisoners counted and 69 dead buried).
   - Kock's Plantation: the distance of the Union retreat (Green four miles, Irwin about a mile, NPS
@@ -110,8 +111,31 @@ baseline are unchanged, with **zero promoted rows**. `python3 -m generalship che
 tests pass, and the baseline still reports **23/127 eligible engagements in 13 groups**, with
 strength Brier **0.276882** against **0.250000** for equal odds.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossiers
-and source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the six
+Gulf and Louisiana 1862-63 passes together at commit `be711a9` as
+`gulf-review-be711a9-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": four
+required findings (R1 to R4) and ten advisories (A1 to A10). It is an AI review within its stated
+scope, not human historical adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding was checked against the retained selection text or the registry before any change;
+every new quote occurs in its section, and the dossiers were regenerated from the builder.
+LA013 is revised under `taylor-louisiana-1863-review-correction-2026-09-25` and supersedes the
+byte-for-byte archive at `data/evidence/history/LA013.v1.json`. LA012, LA015 and LA016 are
+unchanged.
+
+- No required finding applies to this pass (R1-R4 apply to other passes).
+
+Advisories affecting this pass:
+
+- **A7 adopted** (LA013 `storm-or-turn-the-fort` and this memo): NPS's June 28 date for Mouton's
+  order and Green's "of the 26th ultimo" are both cited, and the rationale says the dates differ
+  and are not reconciled. Two citations added.
+- The other advisories apply to other passes.
+
+The review correction adds no source record for this pass. Citations rise from 171 to 173; claims
+(36) and unknowns (4) are unchanged. No model input, cohort file, admission proposal or baseline
+is changed.

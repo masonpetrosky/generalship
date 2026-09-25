@@ -35,13 +35,13 @@
           "quote": "0 total (US 0; CS 0;)"
         },
         {
-          "source_id": "orn19-st-james-committee-selections-v2",
+          "source_id": "orn19-st-james-committee-selections-v1",
           "section": "st-james-committee-1862-08-11",
           "locator": "p.142 (OCR page markers; not checked against print)",
           "quote": "two United States sloops of war and one gunboat, commanded by Commodore Farragut,"
         },
         {
-          "source_id": "orn19-st-james-committee-selections-v2",
+          "source_id": "orn19-st-james-committee-selections-v1",
           "section": "st-james-committee-1862-08-11",
           "locator": "p.142 (OCR page markers; not checked against print)",
           "quote": "landed a force and set fire to"
@@ -57,13 +57,13 @@
       "rationale": "Position described by an interested civilian report and an interested report; no map verification.",
       "citations": [
         {
-          "source_id": "orn19-st-james-committee-selections-v2",
+          "source_id": "orn19-st-james-committee-selections-v1",
           "section": "st-james-committee-1862-08-11",
           "locator": "p.142 (OCR page markers; not checked against print)",
           "quote": "anchored immediately in front of the town"
         },
         {
-          "source_id": "orn19-st-james-committee-selections-v2",
+          "source_id": "orn19-st-james-committee-selections-v1",
           "section": "st-james-committee-1862-08-11",
           "locator": "p.142 (OCR page markers; not checked against print)",
           "quote": "so long as the enemy, with his immense fleet, pos¬ sesses exclusively the whole of the river,"
@@ -119,7 +119,7 @@
           "quote": "I understand you to say that you had notified them some time since, when they fired into the Empire Parish,"
         },
         {
-          "source_id": "orn19-st-james-committee-selections-v2",
+          "source_id": "orn19-st-james-committee-selections-v1",
           "section": "st-james-committee-1862-08-11",
           "locator": "p.142 (OCR page markers; not checked against print)",
           "quote": "(for hitherto no armed vessels have been assailed)"
@@ -147,7 +147,7 @@
           "quote": "Every time my boats are fired upon I will burn a portion of your town."
         },
         {
-          "source_id": "orn19-st-james-committee-selections-v2",
+          "source_id": "orn19-st-james-committee-selections-v1",
           "section": "st-james-committee-1862-08-11",
           "locator": "p.142 (OCR page markers; not checked against print)",
           "quote": "to induce the governor to take all necessary steps to avert the evil now impending over good and loyal people of these parishes."
@@ -235,7 +235,7 @@
           "quote": "I burned down the hotels and wharf buildings,"
         },
         {
-          "source_id": "orn19-st-james-committee-selections-v2",
+          "source_id": "orn19-st-james-committee-selections-v1",
           "section": "st-james-committee-1862-08-11",
           "locator": "p.142 (OCR page markers; not checked against print)",
           "quote": "set fire to and con¬ sumed the most valuable portion of the town,"
@@ -253,7 +253,7 @@
       "id": "casualty-records",
       "dimension": "outcome",
       "value": "The frozen casualty text reads None known, and the live field reads zero. Neither Farragut's report nor the committee's gives a casualty figure.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. An absent figure is not a measured zero. The frozen force table's casualty fields read 0 for each side; those zeros are not measured zeros either.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. An absent figure is not a measured zero.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -262,24 +262,6 @@
           },
           "column": "casualties_text",
           "quote": "None known"
-        },
-        {
-          "source_id": "arnold-cwsac-forces",
-          "row_key": {
-            "battle": "LA004",
-            "belligerent": "US"
-          },
-          "column": "casualties",
-          "quote": "0"
-        },
-        {
-          "source_id": "arnold-cwsac-forces",
-          "row_key": {
-            "battle": "LA004",
-            "belligerent": "Confederate"
-          },
-          "column": "casualties",
-          "quote": "0"
         },
         {
           "source_id": "nps-la004-v1",
@@ -293,12 +275,7 @@
   ],
   "open_questions": [
     "Bell's August 9 report (read, not selected), the ships' logs of the Hartford, Brooklyn and Cayuga for August 9, any Confederate or parish record of the partisans, and a history covering the action remain deferred.",
-    "NPS/CWSAC is one family. Farragut's August 8 order, August 10 report and printed proclamation, and the St. James Parish committee's August 11 report, are separate families printed in the Official Records of the Navies, Series I, Volume 19, a shared container. The committee's statements of the reason Farragut assigned and of his declared threat relay Farragut's own communications, so on those points it is not independent of the Farragut family. No history covering this action was found in the inspected passages of Irwin or Mahan, so this record has two families beyond NPS; the gap is recorded. Report dates are not event times or proof of contemporary knowledge.",
+    "NPS/CWSAC is one family. Farragut's August 8 order, August 10 report and printed proclamation, and the St. James Parish committee's August 11 report, are separate families printed in the Official Records of the Navies, Series I, Volume 19, a shared container. No history covering this action was found in the inspected passages of Irwin or Mahan, so this record has two families beyond NPS; the gap is recorded. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "baton-rouge-1862-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/LA004.v1.json",
-    "sha256": "9040266a3d294b7f40aef4a39163a8a8ef3fc16a4a7667f9b21d1a10fc39c4a2"
-  }
+  ]
 }

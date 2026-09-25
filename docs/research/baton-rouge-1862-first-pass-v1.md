@@ -2,13 +2,13 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both **frozen
 records** in **Operations Against Baton Rouge [July-August 1862]** now have draft dossiers:
-**18 claims, 2 explicit null unknowns and 88 citation occurrences**. All seven dimensions are
+**18 claims, 2 explicit null unknowns and 94 citation occurrences**. All seven dimensions are
 represented in each record. All dossiers are drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| LA003 — Baton Rouge | 1862-08-05 | 9 | 1 | 60 | 3 |
-| LA004 — Donaldsonville | 1862-08-09 | 9 | 1 | 28 | 3 |
+| LA003 — Baton Rouge | 1862-08-05 | 9 | 1 | 64 | 3 |
+| LA004 — Donaldsonville | 1862-08-09 | 9 | 1 | 30 | 3 |
 
 This pass was drafted alongside the other 1862-1863 Louisiana campaigns. Existing dossiers,
 reviews and historical revisions are unchanged. Dossier presence is not first-pass acceptance,
@@ -22,8 +22,8 @@ NPS/CWSAC and the Arnold tables are one family.
 - **LA003** uses two further families:
   - **Irwin, *History of the Nineteenth Army Corps*** (Putnam's, 1892), already registered for
     the Red River pass. A new selection (`irwin-baton-rouge-selections-v1`) reuses the
-    registered parent `irwin-nineteenth-corps-ocr-v1`. Irwin was the corps' later assistant
-    adjutant-general, and his chapter quotes Breckinridge's report, so it is an interested Union
+    registered parent `irwin-nineteenth-corps-ocr-v1`. Irwin is styled on the OCR title page
+    assistant adjutant-general of the corps and of the Department of the Gulf, and his chapter quotes Breckinridge's report, so it is an interested Union
     history and not independent of that report. Selected: Chapter III, Baton Rouge (OCR
     pp.32-42), and the paragraphs on the department's effective strength at the end of Chapter IV
     (pp.50-51).
@@ -80,17 +80,21 @@ document.
   campaign label reads Confederate Offensive Against Baton Rouge.
 - **Opening strengths remain unknown.** Every frozen bound is blank. Every figure is recorded with
   its date and scope, and none is adopted:
-  - Breckinridge: somewhat less than 4,000 leaving Vicksburg (July 27); not more than 3,400 on the
-    march; 3,000 effectives by the August 4 morning report; not more than 2,600 in action, besides
-    some 200 partisan rangers; the enemy not less than 5,000 (reported on the march) and not less
+  - Breckinridge: somewhat less than 4,000 leaving Vicksburg (July 27); Ruggles already at Camp
+    Moore with a small force; his own troops not more than 3,400 on the march; 3,000 effectives by
+    the August 4 morning report; not more than 2,600 in action, besides some 200 partisan rangers and
+    about the same number of militia under Hardee who could not arrive in time; the enemy not less than 5,000 (reported on the march) and not less
     than 4,500 in action, with eighteen guns to his eleven.
   - Irwin: Breckinridge's 3,600 effective on July 30 including Ruggles; about 2,600 Confederates
     in action plus 400 or 500 rangers and militia; Williams about 2,500 fighting men; Williams's
     Vicksburg troops down from 3,200 to about 800 effective; Weitzel's "not 1,200" fit to march;
-    Butler's department hardly above 7,000 effective.
+    Butler's department hardly above 7,000 effective; Van Dorn's planning estimate of 6,000 for
+    Breckinridge's division including 1,000 under Ruggles.
   - Donaldsonville: two sloops of war and one gunboat (St. James committee); no partisan count.
 - **Disputes preserved.**
-  - Breckinridge's July 30 strength (3,400 in his report; 3,600 attributed to him by Irwin).
+  - Breckinridge's strength on the march: his report's 3,400 is for "my own troops" and does not
+    say whether it includes Ruggles's small force; Irwin attributes to him 3,600 on July 30
+    including Ruggles. The figures differ in stated scope and are not reconciled.
   - Baton Rouge result: Breckinridge's "completely routed" against Irwin's failed attack and NPS.
   - Baton Rouge losses: the frozen and live 849 (US 371; CS 478) against Breckinridge's 467, the
     printed footnote's 446, and Irwin's 453 Confederate and 383 Union.
@@ -115,8 +119,50 @@ baseline are unchanged, with **zero promoted rows**. `python3 -m generalship che
 unit tests pass, and the baseline still reports **23/127 eligible engagements in 13 groups**, with
 strength Brier **0.276882** against **0.250000** for equal odds.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossiers
-and source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the six
+Gulf and Louisiana 1862-63 passes together at commit `be711a9` as
+`gulf-review-be711a9-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": four
+required findings (R1 to R4) and ten advisories (A1 to A10). It is an AI review within its stated
+scope, not human historical adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding was checked against the retained selection text or the registry before any change;
+every new quote occurs in its section, and the dossiers were regenerated from the builder.
+LA003 and LA004 are revised under `baton-rouge-1862-review-correction-2026-09-25` and supersede
+byte-for-byte archives at `data/evidence/history/LA003.v1.json` and `LA004.v1.json`.
+
+- **R2** (LA003 `reported-force-scope` and this memo): accepted with a hedge. Breckinridge's 3,400
+  (p.76) is for "My own troops having suffered severely from the effects Of exposure at
+  Vicksburg", and his p.77 exclusion names both the rangers and "about the same number of militia
+  hastily collected by Col. D. C. Hardee". The value now gives the own-troops scope, Ruggles's
+  small force at Camp Moore and the militia; the rationale says the 3,400 and Irwin's 3,600
+  including Ruggles differ in stated scope. The review's wording "his own troops from Vicksburg"
+  was not adopted, because the report, which had just organized Ruggles's command as the Second
+  Division, does not say whether "my own troops" excludes it. Three citations added (the
+  review's two and the Camp Moore sentence).
+- **R1, R3 and R4** apply to other passes.
+
+Advisories affecting this pass:
+
+- **A3 adopted** (LA004 `casualty-records`): the frozen force table's casualty fields (0 for each
+  side) are cited, and the rationale says those zeros are not measured zeros.
+- **A4 adopted** (LA003 `expected-attack-and-the-arkansas`): Irwin's p.33 statement that Van Dorn
+  estimated Breckinridge's division, including 1,000 under Ruggles, at 6,000 is added as a planning
+  expectation.
+- **A8 adopted** (LA003 `open_questions` and this memo): Irwin is described as styled on the OCR
+  title page assistant adjutant-general, not as the corps' "later" one.
+- **A9 adopted** (registry and LA004): the `metadata_only` successor
+  `orn19-st-james-committee-selections-v2` (superseding v1, kept unchanged; same raw bytes and
+  parent) changes `source_kind` to `contemporary_civilian_report_in_later_government_compilation`
+  and says that the committee's statements of Farragut's stated reason and threat relay Farragut's
+  own communications, so on those points it is not independent of the Farragut family. LA004's
+  committee citations move to v2, and its family note says the same.
+- A1, A2, A5-A7 and A10 apply to other passes.
+
+The review correction adds **one source record** for this pass
+(`orn19-st-james-committee-selections-v2`). Citations rise from 88 to 94; claims (18), unknowns (2)
+and disputed claims are unchanged. No model input, cohort file, admission proposal or baseline is
+changed.

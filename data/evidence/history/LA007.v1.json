@@ -319,8 +319,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads Total unknown (US 353; CS unknown); the live field reads 355 total (US 355; CS 0). Irwin gives Grover's reported loss for April 13, 14 and 17 as 353 and the nominal-list loss, headed as for the battle, as 6 officers and 43 men killed, 17 officers and 257 men wounded and 30 missing, also 353, which he says agrees with the three-day statement and which includes Dwight's losses of April 13 (3 killed, 9 wounded) and April 17 (1 killed, 5 wounded); the Confederate loss is not reported, but 21 dead and 35 wounded were left on the field.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Both 353 figures span April 13, 14 and 17 by Irwin's account and overlap LA008's April 17; neither is a battle-only total.",
+      "value": "The frozen casualty text reads Total unknown (US 353; CS unknown); the live field reads 355 total (US 355; CS 0). Irwin gives Grover's reported loss for April 13, 14 and 17 as 353 and the nominal-list loss for the battle as 6 officers and 43 men killed, 17 officers and 257 men wounded and 30 missing, also 353; the Confederate loss is not reported, but 21 dead and 35 wounded were left on the field.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Grover's 353 spans three days and overlaps LA008's April 17.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -351,18 +351,6 @@
           "source_id": "irwin-west-louisiana-1863-selections-v1",
           "section": "irish-bend",
           "locator": "p.117 (OCR page markers; not checked against print)",
-          "quote": "agreeing with the first statement covering the three days,"
-        },
-        {
-          "source_id": "irwin-west-louisiana-1863-selections-v1",
-          "section": "irish-bend",
-          "locator": "p.117 (OCR page markers; not checked against print)",
-          "quote": "Of this total Dwight's brigade lost 3 killed and 9 wounded on the 13th, i killed and 5 wounded on the 17th,"
-        },
-        {
-          "source_id": "irwin-west-louisiana-1863-selections-v1",
-          "section": "irish-bend",
-          "locator": "p.117 (OCR page markers; not checked against print)",
           "quote": "The Confederate loss is not reported. They left on the field, to be cared for by their adversary, 21 of their dead and 35 of their wounded."
         }
       ],
@@ -372,12 +360,7 @@
   ],
   "open_questions": [
     "Grover's No. 24, Dwight's No. 30, Birge's No. 36 and the other Fourth Division reports, the nominal casualty lists, Mouton's No. 40 and Kirby Smith's No. 38 reports remain deferred.",
-    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892), already registered for the Red River pass, is an interested Union history by Irwin, styled on the OCR title page assistant adjutant-general of the corps and of the Department of the Gulf. Its Teche chapters cite Taylor's report and the nominal lists, so it is not independent of them. Taylor's April 23, 1863 report (Official Records Series I, Volume XV, a shared container) is an interested Confederate account; it is placed in the group of his 1864 Red River reports as one author family. Report dates are not event times or proof of contemporary knowledge.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892), already registered for the Red River pass, is an interested Union history by the corps' later assistant adjutant-general. Its Teche chapters cite Taylor's report and the nominal lists, so it is not independent of them. Taylor's April 23, 1863 report (Official Records Series I, Volume XV, a shared container) is an interested Confederate account; it is placed in the group of his 1864 Red River reports as one author family. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "west-louisiana-1863-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/LA007.v1.json",
-    "sha256": "e93ba3145a15254aa84226f1ec181fa9f187a6550d810d32ecb27eff3a13fba2"
-  }
+  ]
 }

@@ -2,13 +2,13 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both **frozen
 records** in **Expedition to, and Capture of, New Orleans [April-May 1862]** now have draft
-dossiers: **18 claims, 2 explicit null unknowns and 106 citation occurrences**. All seven
+dossiers: **18 claims, 2 explicit null unknowns and 110 citation occurrences**. All seven
 dimensions are represented in each record. All dossiers are drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| LA001 — Forts Jackson and St. Philip | 1862-04-16 to 04-28 | 9 | 1 | 60 | 3 |
-| LA002 — New Orleans | 1862-04-25 to 05-01 | 9 | 1 | 46 | 3 |
+| LA001 — Forts Jackson and St. Philip | 1862-04-16 to 04-28 | 9 | 1 | 62 | 3 |
+| LA002 — New Orleans | 1862-04-25 to 05-01 | 9 | 1 | 48 | 3 |
 
 This pass was drafted alongside the other 1862-1863 Louisiana campaigns (Baton Rouge, La Fourche
 1862, West Louisiana, Port Hudson and Taylor's 1863 operations). Existing dossiers, reviews and
@@ -33,8 +33,9 @@ family.
   - the ascent to New Orleans, the surrender of the city and the forts, and the garrison's loss
     (pp.85-89).
 - **Duncan's** report of April 30, 1862 (*Official Records* Series I, Volume VI, No. 4,
-  pp.521-534), for LA001. Volume VI is newly pinned from the University of Illinois scan
-  `warofrebellion06unit` with catalog metadata and full OCR. Before use, the catalog volume
+  pp.521-534), for LA001. Volume VI is the University of Illinois scan `warofrebellion06unit`
+  already registered in the 1861 West pass (`or6-illinois-ocr-v1`); this pass's byte-identical copy
+  was deduplicated to it. Before use, the catalog volume
   ("v.6") and the OCR title ("SERIES I— VOLUME VI.", 1882 imprint) were checked.
 - **Lovell's** reports of April 26 (pp.510-511) and May 22, 1862 (pp.512-518) (Volume VI, No. 3),
   for LA002.
@@ -58,11 +59,10 @@ this batch.
 casualty total (782) has no stated basis; Mahan's 14 killed and 39 wounded is the only garrison
 loss figure found. The Union fleet's own casualty return was not inspected.
 
-**New source records.** This pass adds **9 source records**:
+**New source records.** This pass adds **7 source records**:
 
 - two NPS HTML/text pairs;
-- the OR Volume VI catalog metadata and full OCR;
-- the Duncan and Lovell selections;
+- the Duncan and Lovell selections (reusing the registered Volume VI parent);
 - the Mahan New Orleans selection (reusing the registered parent).
 
 ## Decisions and limits
@@ -83,11 +83,15 @@ loss figure found. The Union fleet's own casualty return was not inspected.
   - Mahan: the Chalmette and McGehee batteries of five and nine guns; 250 marines landed on
     April 29.
 - **Disputes preserved.**
-  - The vessel and mortar-schooner counts (NPS, Mahan and Duncan differ).
+  - The vessel and mortar-schooner counts (NPS, Mahan and Duncan differ). Lovell (May 22) says the
+    enemy succeeded in passing "with fourteen ships", citing Duncan's report, against Duncan's
+    thirteen; Lovell is not a LA001 family, so this is recorded here only.
+  - The distance of the forts below New Orleans (Mahan ninety miles; NPS approximately seventy).
   - Whether the passage was planned (Mahan's orders of April 23) or, as Duncan judged, improvised
     when the river was left dark.
   - LA001 losses: the frozen and live 1,011 (US 229; CS 782) against Mahan's garrison 14 killed
-    and 39 wounded and his ship figures.
+    and 39 wounded (given after his paragraph on Fort Jackson; whether it covers Fort St. Philip is
+    not stated) and his ship figures.
   - LA002: the food on hand (Mahan "a few days"; Lovell eighteen days); the city's surrender
     (NPS April 28; Mahan's account of the mayor's submission and the flag hauled down; Lovell's
     advice not to surrender).
@@ -102,8 +106,9 @@ loss figure found. The Union fleet's own casualty return was not inspected.
   `post_outcome`.
 - **Families.** Mahan stays in `mahan-gulf-inland-waters`. Duncan is placed in
   `duncan-forts-1862-report` and Lovell in `lovell-new-orleans-1862-reports`; neither author had an
-  earlier registry group. The OR parent is in `or-series-i-volume-vi`. The assignment noted that
-  another pass may register Volume VI in parallel; the primary should deduplicate.
+  earlier registry group. The reused OR parent is in `or-series-i-volume-vi`. Its registry
+  inspection note predates this pass; the New Orleans inspection is recorded in the Duncan and
+  Lovell selection records.
 
 The two null unknowns are the two opening strengths. No morale/readiness score, probability,
 causal effect or new commander ranking is introduced. The cohort, both admission proposals and the
@@ -111,8 +116,42 @@ baseline are unchanged, with **zero promoted rows**. `python3 -m generalship che
 unit tests pass, and the baseline still reports **23/127 eligible engagements in 13 groups**, with
 strength Brier **0.276882** against **0.250000** for equal odds.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossiers
-and source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the six
+Gulf and Louisiana 1862-63 passes together at commit `be711a9` as
+`gulf-review-be711a9-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": four
+required findings (R1 to R4) and ten advisories (A1 to A10). It is an AI review within its stated
+scope, not human historical adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding was checked against the retained selection text or the registry before any change;
+every new quote occurs in its section, and the dossiers were regenerated from the builder.
+LA001 and LA002 are revised under `new-orleans-1862-review-correction-2026-09-25` and supersede
+byte-for-byte archives at `data/evidence/history/LA001.v1.json` and `LA002.v1.json`.
+
+- **R4** (this memo): accepted. The registry holds seven New Orleans records; the Volume VI parent
+  was deduplicated at merge to `or6-illinois-ocr-v1`. The Volume VI sentence, the record count
+  (9 to 7) and the Families bullet are corrected as the review proposed.
+- **R1-R3** apply to the La Fourche 1862, Baton Rouge and West Louisiana passes.
+
+Advisories affecting this pass:
+
+- **A1 adopted** (LA001 `forts-river-and-obstructions`): Mahan's "twenty miles from the Head of
+  the Passes, and ninety below New Orleans" (p.58) is cited beside NPS's "approximately seventy
+  miles"; the claim is now `disputed`.
+- **A2 adopted** (LA001 `casualty-records` and this memo): the rationale says Mahan's 14 killed and
+  39 wounded follows his Fort Jackson paragraph (now cited) and may not cover Fort St. Philip;
+  Lovell's "fourteen ships" is noted above.
+- **A3 adopted** (LA002 `casualty-records`): the frozen force table's casualty fields (0 for each
+  side) are cited, and the rationale says those zeros are not measured zeros.
+- **A9 adopted** (registry): the `metadata_only` successor `mahan-new-orleans-selections-v2`
+  (superseding v1, kept unchanged; same raw bytes and parent) says the passage quotes a judgment by
+  General M. L. Smith without calling it a report. The Mahan citations in LA001 and LA002 move to v2.
+- A4-A8 and A10 apply to other passes.
+
+The review correction adds **one source record** for this pass (`mahan-new-orleans-selections-v2`),
+registered in one call with the Baton Rouge pass's successor. Citations rise from 106 to 110;
+claims (18) and unknowns (2) are unchanged, and one more claim is `disputed`. No model input,
+cohort file, admission proposal or baseline is changed.

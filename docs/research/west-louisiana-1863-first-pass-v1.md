@@ -2,14 +2,14 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). All **three
 frozen records** in **Operations in West Louisiana [April 1863]** now have draft dossiers:
-**27 claims, 3 explicit null unknowns and 120 citation occurrences**. All seven dimensions are
+**27 claims, 3 explicit null unknowns and 126 citation occurrences**. All seven dimensions are
 represented in each record. All dossiers are drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
 | LA006 — Fort Bisland | 1863-04-12 to 04-13 | 9 | 1 | 44 | 3 |
-| LA007 — Irish Bend | 1863-04-14 | 9 | 1 | 42 | 3 |
-| LA008 — Vermillion Bayou | 1863-04-17 | 9 | 1 | 34 | 3 |
+| LA007 — Irish Bend | 1863-04-14 | 9 | 1 | 44 | 3 |
+| LA008 — Vermillion Bayou | 1863-04-17 | 9 | 1 | 38 | 3 |
 
 This pass was drafted alongside the other 1862-1863 Louisiana campaigns. Existing dossiers,
 reviews and historical revisions are unchanged. Dossier presence is not first-pass acceptance,
@@ -49,8 +49,9 @@ parent registered in the Baton Rouge pass.
 ## Decisions and limits
 
 - **Scope.** The Berwick Bay crossing (April 9-11), Grover's landing and skirmishes of April 13,
-  and the pursuit to Opelousas and Alexandria are context. Grover's return of 353 covers April 13,
-  14 and 17; it is cited in LA007 and noted in LA008, and is not split or added.
+  and the pursuit to Opelousas and Alexandria are context. Both of Irwin's 353 figures (Grover's
+  report and the nominal lists headed as for the battle) cover April 13, 14 and 17 by his account;
+  they are cited in LA007 and noted in LA008, and are not split or added.
 - **Opening strengths remain unknown.** Every frozen bound is blank. Every figure is recorded with
   its date and scope, and none is adopted:
   - Bisland: Irwin, Banks 10,000 against Taylor's reported 4,000 with 24 or 25 guns; Banks set out
@@ -66,10 +67,13 @@ parent registered in the Baton Rouge pass.
     against the abandoned works); losses (frozen 684 with US 234, live 674 with US 224, Irwin's
     224; no Confederate figure).
   - Irish Bend: the result (Taylor's successful charge and escape against the Union victory);
-    losses (frozen US 353 and CS unknown, live 355 and CS 0, Irwin's 353 and 21 Confederate dead
-    and 35 wounded left on the field).
-  - Vermilion: NPS's artillery repulse against Irwin's "drove off the enemy"; losses (frozen
-    Unknown, live zero, Irwin's one killed and five wounded in Dwight's brigade).
+    losses (frozen US 353 and CS unknown, live 355 and CS 0, Irwin's two 353 figures, both
+    spanning three days, and 21 Confederate dead and 35 wounded left on the field).
+  - Vermilion: NPS's artillery repulse against Irwin's "drove off the enemy"; the date of the
+    bridge burning (Irwin p.122 and Taylor's Thursday rest put it on April 16; Irwin p.124 and NPS
+    have the bridge burning as the pursuers arrived on April 17) and the clock of contact (Irwin
+    early afternoon; NPS gives only the columns' morning start); losses (frozen Unknown, live
+    zero, Irwin's one killed and five wounded in Dwight's brigade).
 - **Command roles.**
   - Taylor blames Sibley for the failed Bisland counterattack and the loss of the Diana's crew,
     and credits Mouton and Green.
@@ -88,8 +92,41 @@ baseline are unchanged, with **zero promoted rows**. `python3 -m generalship che
 tests pass, and the baseline still reports **23/127 eligible engagements in 13 groups**, with
 strength Brier **0.276882** against **0.250000** for equal odds.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossiers
-and source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the six
+Gulf and Louisiana 1862-63 passes together at commit `be711a9` as
+`gulf-review-be711a9-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": four
+required findings (R1 to R4) and ten advisories (A1 to A10). It is an AI review within its stated
+scope, not human historical adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding was checked against the retained selection text or the registry before any change;
+every new quote occurs in its section, and the dossiers were regenerated from the builder.
+LA006, LA007 and LA008 are revised under `west-louisiana-1863-review-correction-2026-09-25` and
+supersede byte-for-byte archives at `data/evidence/history/LA006.v1.json`, `LA007.v1.json` and
+`LA008.v1.json`.
+
+- **R3** (LA007 `casualty-records` and this memo): accepted. Irwin's p.117 says the nominal-list
+  353 is "agreeing with the first statement covering the three days" and includes Dwight's losses
+  of April 13 and 17. The value and rationale now say both 353 figures span April 13, 14 and 17
+  and overlap LA008; two citations added.
+- **R1, R2 and R4** apply to other passes.
+
+Advisories affecting this pass:
+
+- **A5 adopted** (LA008 `burned-bridge-and-heights`, `contact-at-the-crossing` and this memo): the
+  bridge-burning date difference (Irwin p.122 and Taylor's rest "from Thursday afternoon", April 16,
+  1863 being a Thursday, against Irwin p.124 and NPS on April 17) is recorded, not resolved, and
+  the terrain claim is now `disputed`; the contact claim notes that NPS gives no clock for the
+  contact. Four citations added.
+- **A8 adopted** (LA006-LA008 `open_questions`): Irwin is described as styled on the OCR title
+  page assistant adjutant-general, not as the corps' "later" one.
+- **A10 recorded, no change:** Taylor's April 23, 1863 report stays in `taylor-red-river-1864-reports`;
+  the review found this sound. The group name does not date the report or name its campaign.
+- The other advisories apply to other passes.
+
+The review correction adds no source record for this pass. Citations rise from 120 to 126; claims
+(27) and unknowns (3) are unchanged, and one more claim is `disputed`. No model input, cohort
+file, admission proposal or baseline is changed.
