@@ -115,7 +115,8 @@ The [Iuka and Corinth pass](docs/research/iuka-corinth-first-pass-v1.md) adds th
 dossiers, 28 claims, 3 explicit unknowns and 91 citations. Opus 5.5 `high` reviewed the
 batch; its eight required corrections are fixed and verified by the primary.
 The [Stones River pass](docs/research/stones-river-first-pass-v1.md) adds two dossiers,
-20 claims, 2 explicit unknowns and 58 citations. Separate review is pending.
+20 claims, 2 explicit unknowns and 79 citations. Opus 5.5 `high` reviewed both; its five
+required corrections are fixed and verified by the primary.
 The [Fredericksburg pass](docs/research/fredericksburg-first-pass-v1.md) adds VA028: 10
 claims, 1 explicit unknown and 31 citations. Separate review is pending.
 The [Goldsboro pass](docs/research/goldsboro-first-pass-v1.md) adds three dossiers,

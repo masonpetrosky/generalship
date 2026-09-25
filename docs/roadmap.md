@@ -127,10 +127,13 @@ Iuka's structured 4,000/4,000 US bounds are recorded, not corrected.
 Coverage is **12/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Stones River first pass](research/stones-river-first-pass-v1.md) adds both
-**frozen records, TN008 and TN010**, with **20 claims, 2 explicit unknowns and 58
+**frozen records, TN008 and TN010**, with **20 claims, 2 explicit unknowns and 79
 citations** from NPS/CWSAC and a new selection from the pinned Cist OCR. Which army
 was larger at Stones River and whether Hartsville's pickets gave warning remain
-disputed. Separate review is pending.
+disputed. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/stones-river-8005b6b-opus-high-v1/review.md) found
+five citation, attribution and scope corrections, all fixed and
+[verified by the primary](../artifacts/review-results/stones-river-8005b6b-opus-high-v1/primary-assessment.md).
 Coverage is **13/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Fredericksburg first pass](research/fredericksburg-first-pass-v1.md) adds the sole
