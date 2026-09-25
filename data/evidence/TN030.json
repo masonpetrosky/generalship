@@ -1,0 +1,589 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN030",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort Pillow record (April 12, 1864) in Forrest's Expedition into West Tennessee and Kentucky [March-April 1864]: the attack, the surrender demand, the assault and what followed it on April 12, with the burial truce and removal of wounded on the 13th. Paducah is KY010; Union City and the April skirmishes are context. Expedition-wide captures, recruiting and loss totals are context; they are not assigned to one record or added across records. Accounts of the killing of Black soldiers and others after the fort was carried are recorded as each source's statement; no characterization is adopted. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the Union garrison as detachments from three units, approx. 600 (side bound 600), and names Chalmers's 1st Division; NPS gives 295 white Tennessee troops and 262 U.S. Colored Troops under Booth against a cavalry division of about 2,500, and the live field reads 3100 (US 600; CS 2500). Leaming gives the garrison as some 550 effective men with six guns and the attackers as some 7,000 'as nearly as I could ascertain'. Forrest's April 4 letter gives the garrison as 500 or 600; after the attack he gives his force as part of Bell's and McCulloch's brigades numbering about 1,500 and the garrison as 700, about 500 Black and 200 white soldiers.",
+      "rationale": "Estimates of different dates by an interested survivor, the attacking commander and a summary; the NPS count of 557 is the only itemized figure and its source is not stated. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN030"
+          },
+          "column": "forces_text",
+          "quote": "Detachments from three units (approx. 600) [US]; Brig. Gen. James R. Chalmers's 1st Division, Forrest's Cavalry Corps [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "TN030",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "600"
+        },
+        {
+          "source_id": "nps-tn030-v1",
+          "locator": "Description",
+          "quote": "comprised 295 white Tennessee troops and 262 U.S. Colored Troops"
+        },
+        {
+          "source_id": "nps-tn030-v1",
+          "locator": "Description",
+          "quote": "with a cavalry division of approximately 2,500 men"
+        },
+        {
+          "source_id": "nps-tn030-v1",
+          "locator": "Forces Engaged",
+          "quote": "3100 total (US 600; CS 2500;)"
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "Our entire garrison numbered some 550 effective men, with six pieces of artillery"
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.562 (OCR page markers; not checked against print)",
+          "quote": "The Confederate forces engaged, as nearly as I could ascertain, numbered some 7,000 men"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-04",
+          "locator": "p.609 (OCR page markers; not checked against print)",
+          "quote": "There is a Federal force of 500 or 600 at Fort Pillow"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-polk",
+          "locator": "p.609 (OCR page markers; not checked against print)",
+          "quote": "with a part of Bell’s and McCulloch’s brigades, numbering 1,500"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-polk",
+          "locator": "p.609 (OCR page markers; not checked against print)",
+          "quote": "drove the enemy, 700 strong, into the fort"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-jack",
+          "locator": "p.610 (OCR page markers; not checked against print)",
+          "quote": "The force was composed of about 500 negroes and 200 white soldiers (Tennessee Tories)."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "bluff-fort-and-commanding-ground",
+      "dimension": "terrain",
+      "value": "NPS describes a Confederate-built earthwork with a Union inner redoubt on the bluff, outworks on knolls commanding the position, rugged terrain that kept the gunboat New Era from effective support, and artillery that could not be depressed to cover the approaches. Forrest describes a crescent-shaped earthwork 8 feet high with a ditch 6 feet deep and 12 wide, a surrounding ravine and slopes the fort's guns could not rake. Leaming says the high bluffs limited the gunboat and that barracks on lower ground 150 yards from the fort could not be reached by the fort's guns.",
+      "rationale": "Ground and works described by the attacker, a survivor and a summary; no map verification. The earthwork predates the attack but the barracks and ground were contested during it, so the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "nps-tn030-v1",
+          "locator": "Description",
+          "quote": "a Confederate-built earthen fortification and a Union-built inner redoubt"
+        },
+        {
+          "source_id": "nps-tn030-v1",
+          "locator": "Description",
+          "quote": "with high knolls commanding the Union position"
+        },
+        {
+          "source_id": "nps-tn030-v1",
+          "locator": "Description",
+          "quote": "Rugged terrain prevented the gunboat New Era from providing effective fire support for the Federals."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.614 (OCR page markers; not checked against print)",
+          "quote": "The fort is an earth- work, crescent shaped, is 8 feet in height and 4 feet across the top, surrounded by a ditch 6 feet deep and 12 feet in width"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.614 (OCR page markers; not checked against print)",
+          "quote": "as the enemy could not depress their pieces so as to rake the slopes"
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "owing to the high bluffs, and in conse- quence of the long range she was obliged to take with her guns but little assistance was rendered the garrison from this quarter."
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "our artillery could not be sufficiently depressed to destroy them"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "horses-stores-and-ammunition",
+      "dimension": "logistics",
+      "value": "Forrest wrote on April 4 that he would attend to the Fort Pillow garrison because it had horses and supplies he needed; afterward he reported taking 200 horses and quartermaster's stores, six guns and about 350 small-arms, and burning the warehouses. He says the gunboat had, as he afterward understood, expended all her ammunition. Leaming remembered Forrest's demand as claiming a new supply of ammunition.",
+      "rationale": "Captures and ammunition claims from the attacker and a survivor's recollection; no supply return.",
+      "citations": [
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-04",
+          "locator": "p.609 (OCR page markers; not checked against print)",
+          "quote": "which I shall attend to in a day or two, as they have horses and supplies which we need."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-polk",
+          "locator": "p.609 (OCR page markers; not checked against print)",
+          "quote": "taking 200 horses and a large amount of quartermaster’s stores."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "We captured 6 pieces of artillery"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "about 350 stand of small-arms"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "She had, as I afterward understood, ex- pended all her ammunition"
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "I have received a new supply of ammunition and can take your works by assault"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "truce-and-movements",
+      "dimension": "information",
+      "value": "Leaming says that while the flag of truce was pending Forrest moved troops under cover of a ravine and underbrush into the position he had been fighting for, and that the garrison concealed Booth's death by signing his name to the replies. Forrest says steamers were approaching during the negotiations, that he believed the request for an hour was to gain time for reinforcements, and that the Union officers doubted his presence and called the demand a trick. NPS says Bradford asked for an hour and Forrest granted twenty minutes.",
+      "rationale": "Conflicting interested accounts of the truce; no independent message record inspected. Neither account is adopted.",
+      "citations": [
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "Here he took occasion to move his troops, partially under cover of a ravine and thick underbrush, into the very position he had been fighting to obtain throughout the entire engagement"
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "Desiring to conceal from the enemy the fact of the death of Major Booth and cause him to believe that he was still in command"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.614 (OCR page markers; not checked against print)",
+          "quote": "believing the request for an hour was to gain time for re-enforcements to arrive"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.614 (OCR page markers; not checked against print)",
+          "quote": "While these negotiations were pending the steamers from below were rapidly approaching the fort."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.614 (OCR page markers; not checked against print)",
+          "quote": "had pronounced the demand a trick"
+        },
+        {
+          "source_id": "nps-tn030-v1",
+          "locator": "Description",
+          "quote": "Bradford asked for an hour for consultation, and Forrest granted twenty minutes."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "horses-and-tennessee-regiments",
+      "dimension": "objectives",
+      "value": "Forrest's April 4 letter gives the garrison's horses and supplies as the reason to attack; on April 15 he wrote that the capture of Bradford at Fort Pillow, with Hawkins at Union City, had broken up the Tennessee Federal regiments in the country. His demand, as Leaming remembered it, asked unconditional surrender with treatment as prisoners of war. NPS says the Confederates evacuated the fort that evening and gained little beyond a temporary disruption.",
+      "rationale": "Stated aims from the attacker, a survivor's recollection of the demand, and a summary.",
+      "citations": [
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-04",
+          "locator": "p.609 (OCR page markers; not checked against print)",
+          "quote": "as they have horses and supplies which we need"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-davis",
+          "locator": "p.612 (OCR page markers; not checked against print)",
+          "quote": "the capture of Hawkins at Union City, and Bradford at Fort Pillow"
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "I now demand the unconditional surrender of your forces, at the same time assuring you that you will be treated as prisoners of war."
+        },
+        {
+          "source_id": "nps-tn030-v1",
+          "locator": "Description",
+          "quote": "they gained little from the attack except a temporary disruption of Union operations"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Major General Nathan Bedford Forrest and Majors Lionel F. Booth and William F. Bradford. Leaming says Booth commanded until killed by a sharpshooter, that Bradford then assumed command, and that the officers voted unanimously not to surrender. Forrest says Chalmers commanded the two brigades, had driven the garrison into the main fort when he arrived about 10 a.m., and that Forrest then assumed command, ordered Chalmers to advance to the slopes, sent the demand, and directed Chalmers to prepare the assault; he posted three companies under his aide Anderson in the rear of the fort.",
+      "rationale": "Command roles from the attacker and a survivor. Responsibility for what followed the assault is recorded in the killing-after-assault claim as each source's statement; the listed commanders do not receive automatic sole credit or blame.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN030",
+            "belligerent": "Confederate",
+            "fullname": "Nathan Bedford Forrest"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN030",
+            "belligerent": "US",
+            "fullname": "Lionel F. Booth"
+          },
+          "column": "rank",
+          "quote": "Major"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN030",
+            "belligerent": "US",
+            "fullname": "William F. Bradford"
+          },
+          "column": "rank",
+          "quote": "Major"
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "our post commander, Maj. L. F. Booth, who was killed almost instantly by a musket-ball through the breast."
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "Maj. W. F. Bradford, of the Thirteenth West Tennessee Volunteer Cavalry, being the next ranking officer, then assumed, command of the garrison"
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "it was unanimously voted not to surrender."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.613 (OCR page markers; not checked against print)",
+          "quote": "by the time I reached the field, at 10 a. m., had forced the enemy to their main fortifications"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.614 (OCR page markers; not checked against print)",
+          "quote": "Assuming command, I ordered Gen- eral Chalmers to advance his lines"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "I directed Brigadier-General Chalmers to prepare for the assault."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "I directed my aide-de-camp, Capt. Charles W. Anderson, to assume command of the three companies on the left and rear of the fort"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Leaming says the attackers carried the works about 4 p.m.; Forrest says the works were carried without a perceptible halt and firing ceased within twenty minutes of the charge. Forrest's April 15 telegram says the Confederate flag floated over the fort and his letter that 'We still hold the fort'; his April 26 report says Chalmers withdrew from the fort before dark, and NPS that the Confederates evacuated it that evening.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Forrest's dispatches differ on whether the fort was still held.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN030"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-tn030-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "The enemy carried our works at about 4 p. m."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "the works carried without a perceptible halt in any part of the line."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-polk",
+          "locator": "p.609 (OCR page markers; not checked against print)",
+          "quote": "The Confederate flag now floats over the fort."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-jack",
+          "locator": "p.610 (OCR page markers; not checked against print)",
+          "quote": "We still hold the fort."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "General Chalmers withdrew his forces from the fort before dark"
+        },
+        {
+          "source_id": "nps-tn030-v1",
+          "locator": "Description",
+          "quote": "The Confederates evacuated Fort Pillow that evening"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "killing-after-assault",
+      "dimension": "outcome",
+      "value": "The accounts conflict, and each is recorded as its source's statement. NPS says the Confederates drove the Federals down the bluff into a deadly crossfire, that only sixty-two of the U.S. Colored Troops survived, that many accused the Confederates of a massacre of the Black troops, and that the controversy continues. Leaming says the garrison threw down its arms and surrendered, that its men were then shot down without mercy and almost without regard to color until dark and through the night, that wounded were murdered the next morning and barracks holding wounded were set on fire, and that he could not estimate those killed after surrender at less than 300. Forrest's April 15 letter says many ran into the river and were shot and drowned, that 'The river was dyed with the blood of the slaughtered for 200 yards', and that he hoped these facts would show the Northern people 'that negro soldiers cannot cope with Southerners'. His April 26 report says the garrison retreated toward the river arms in hand, firing back with colors flying, and that his rear parties stopped firing when the flag was cut down; his May 16 letter speaks of 'the so-called massacre' and his June address of a victory 'made a massacre only by dastardly Yankee reporters'.",
+      "rationale": "The characterization of the killing is disputed between the sources and is not adopted; no source is treated as settling it. Leaming is a wounded survivor writing nine months later with reference to the Joint Committee report; Forrest is the attacking commander. The Joint Committee report, the other survivors' reports and the Confederate subordinate reports were not inspected. No count of those killed after surrender is adopted.",
+      "citations": [
+        {
+          "source_id": "nps-tn030-v1",
+          "locator": "Description",
+          "quote": "drove the Federals down the river's bluff into a deadly crossfire"
+        },
+        {
+          "source_id": "nps-tn030-v1",
+          "locator": "Description",
+          "quote": "only sixty-two of the U.S. Colored Troops survived the fight"
+        },
+        {
+          "source_id": "nps-tn030-v1",
+          "locator": "Description",
+          "quote": "Many accused the Confederates of perpetrating a massacre of the black troops, and that controversy continues today."
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "our men threw down their arms and surrendered."
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "pp.561–562 (OCR page markers; not checked against print)",
+          "quote": "our men were shot down without mercy and almost without regard to 36 R R — VOL XXXII, PT I 562 KY.j SW. VA., TENN.j MISS., ALA., AND N. GA. [Chap. XLIV. color."
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.562 (OCR page markers; not checked against print)",
+          "quote": "numbers of our wounded were basely murdered after a long night of pain and suffering on the field where they had fought so bravely."
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.563 (OCR page markers; not checked against print)",
+          "quote": "Early the next morning these barracks were set on fire by order of a rebel officer, who had been informed that they contained. Federal wounded."
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.562 (OCR page markers; not checked against print)",
+          "quote": "I cannot estimate that number at any- thing less than 300."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-jack",
+          "locator": "p.610 (OCR page markers; not checked against print)",
+          "quote": "large numbers ran into the river and were shot and drowned."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-jack",
+          "locator": "p.610 (OCR page markers; not checked against print)",
+          "quote": "The river was dyed with the blood of the slaughtered for 200 yards."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-jack",
+          "locator": "p.610 (OCR page markers; not checked against print)",
+          "quote": "It is hoped that these facts will demonstrate to the Northern people that negro soldiers cannot cope with Southerners."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "the enemy retreated toward the river, arms in hand and firing back, and their colors flying"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "when the flag descended they ceased firing."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-05-16",
+          "locator": "p.617 (OCR page markers; not checked against print)",
+          "quote": "They are sur- vivors of the so-called massacre"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-address-june-1864",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "made a massacre only by dastardly Yankee reporters."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads 654 (US 574; CS 80); the live field reads 649 (US 549; CS 100). Forrest gives his loss as 20 killed and 60 wounded in each account, and the enemy's as 500 killed (April 15 telegram), upward of 500 killed (letter to Jack), 450 to 500 killed, wounded and drowned including citizens (letter to Davis), and unknown, with 228 buried that evening (April 26 report); he reports 164 Federals, 75 Black troops and about 40 Black women and children captured. Leaming says he and some 59 others were all the surviving wounded taken off on the 13th, and estimates the Confederate loss at 500 killed and wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Forrest's own figures for the garrison's loss differ between his accounts and include citizens; Leaming's are estimates. No figure is adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN030"
+          },
+          "column": "casualties_text",
+          "quote": "654 total (US 574; CS 80)"
+        },
+        {
+          "source_id": "nps-tn030-v1",
+          "locator": "Estimated Casualties",
+          "quote": "649 total (US 549; CS 100;)"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-polk",
+          "locator": "p.609 (OCR page markers; not checked against print)",
+          "quote": "killing 500 and taking 200 horses"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-polk",
+          "locator": "p.609 (OCR page markers; not checked against print)",
+          "quote": "I sustained a loss of 20 killed and 60 wounded."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-jack",
+          "locator": "p.610 (OCR page markers; not checked against print)",
+          "quote": "The approximate loss was upward of 500 killed"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-davis",
+          "locator": "p.612 (OCR page markers; not checked against print)",
+          "quote": "It is safe to say that in troops, negroes, and citizens the killed, wounded, and drowned will range from 450 to 500."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "My loss in the engagement was 20 killed and 60 wounded. That of the enemy unknown."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "Two hundred and twenty-eight were buried on the evening of the battle"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-26",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "We captured 164 Federals, 75 negro troops, and about 40 negro women dm d children"
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.562 (OCR page markers; not checked against print)",
+          "quote": "myself with some 59 others, all that were left of the wounded"
+        },
+        {
+          "source_id": "or32-1-leaming-fort-pillow-selections-v1",
+          "section": "leaming-1865-01-17",
+          "locator": "p.562 (OCR page markers; not checked against print)",
+          "quote": "I am confident that 500 men in killed and wounded would not be an overestimate."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The Joint Committee on the Conduct of the War report (House Report No. 65), Hurlbut's No. 9, Harris's No. 10, Woodruff's No. 11, the Smith and Cleary No. 13, Lamberg's No. 14, W. T. Smith's No. 15, Van Horn's No. 16 and Ferguson's No. 17 reports, Washburn's No. 24 correspondence with Lee and Forrest, S. D. Lee's No. 25, Goodwin's No. 27 and Chalmers's No. 28 reports, Anderson's and Young's statements, the naval reports, Jordan and Pryor's Chapter XVI, and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Nathan B. Forrest's dispatches, letters and April 26 report (Official Records Series I, Volume XXXII, Part 1, No. 26) and his June 1864 address to his troops (Volume XXXIX, Part 1, addenda to No. 22) are one family of interested Confederate accounts; Jordan and Pryor's registered history is not independent of it and was not used here. The Official Records volumes are shared containers, not additional witnesses; report dates are not event times or proof of contemporary knowledge. Here the second family is Mack J. Leaming's January 17, 1865 report (No. 12), by a wounded survivor of the garrison who gives the surrender correspondence from memory.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

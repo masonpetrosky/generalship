@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "battle_id": "AL002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Athens record (January 26, 1864) in Operations in North Alabama [January 1864], the campaign's only frozen record. Miller's January 25 fight near Florence (Shoal Creek) and the January 28-29 operations against Roddey are context and are not added to this record. Campaign-wide movements and losses are context; they are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen description gives about 600 Confederate cavalry against about 100 Union troops, and the frozen force field names the 9th Illinois Mounted Infantry and the 1st Alabama Cavalry; the live Forces Engaged field reads 800 (US 700; CS 100), reversing the description. Dodge's first January 26 dispatch gives Hannon about 600 men and 2 guns against about 100 Union men; his second says Captain Adam had 75 all told; his January 29 report says Adam's 75 men of the Ninth Illinois Mounted Infantry were all the force then at the post, and that Roddey attacked with Patterson's and Hannon's regiments and two guns. Rawlins relays 600 against a garrison of about 100.",
+      "rationale": "Same-day and later estimates by the district commander and a relay; no return for either side. The Union figure differs between 100 and 75, and the Confederate figure is Dodge's estimate. None is adopted as a matched opening strength. The live field's reversal is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL002"
+          },
+          "column": "description",
+          "quote": "Confederate cavalry, numbering about 600 men, attacked Athens, held by about 100 Union troops"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL002"
+          },
+          "column": "forces_text",
+          "quote": "9th Illinois Mounted Infantry [US]; 1st Alabama Cavalry [CS]"
+        },
+        {
+          "source_id": "nps-al002-v1",
+          "locator": "Forces Engaged",
+          "quote": "800 total (US 700; CS 100;)"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-26-dispatches",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "Colonel Hannon, with about 600 men and 2 pieces of artillery"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-26-dispatches",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "We had about 100 men."
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-26-dispatches",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "Captain Adam sent all out of town and shelled with his men, 75 all told."
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "General Roddey, with Patterson’s and Hannon’s regiments and two pieces of artillery"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "Captain Adam and 75 men of the Ninth Illinois Mounted Infantry, that being all the force then at the post."
+        },
+        {
+          "source_id": "or32-1-rawlins-athens-selections-v1",
+          "section": "rawlins-1864-01-29",
+          "locator": "p.117 (OCR page markers; not checked against print)",
+          "quote": "the enemy, 600 strong, attacked our garrison, of about 100, at Athens."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "open-town-and-river-crossing",
+      "dimension": "terrain",
+      "value": "The frozen description and Dodge's January 29 report say the defenders fought without fortifications. The attackers crossed the Tennessee at Brown's Ferry, which Dodge's first dispatch puts 10 miles below Decatur and 12 miles from Athens and his January 29 report, describing the plan for Roddey to cross there with his men dismounted, 18 miles from Athens and 10 miles below Decatur; the report says the attackers opened with artillery on the town, whose shells passed through houses occupied by citizens.",
+      "rationale": "Ground described by the district commander and a summary; no map verification. The two distances from Athens differ and neither is adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL002"
+          },
+          "column": "description",
+          "quote": "Union forces, although greatly outnumbered and without fortifications, repulsed the attackers."
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "without fortifications or artillery"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-26-dispatches",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "crossed river at Brown’s Ferry, which is 10 miles below Decatur and 12 miles from Athens"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "was to cross the Tennessee River at Brown’s Ferry, 18 miles from Athens and 10 miles below Decatur, with his men dismounted."
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "opening upon the town without any notice with his artillery, the shot and shell going through several houses occupied by citizens"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "stores-and-trains",
+      "dimension": "logistics",
+      "value": "Dodge says the attackers expected to take Athens, its stores and trains, and that the trains were safe; his report says the two-hour defence enabled the post to send off all stores and transportation and saved the railroad bridge parties.",
+      "rationale": "Stores removed during the action by the district commander's account; no supply or ammunition return for either side.",
+      "citations": [
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-26-dispatches",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "no doubt expected to take Athens, stores, and trains"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-26-dispatches",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "Our trains all safe."
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "holding them some two hours, enabling us thereby to send off all stores and transportation."
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "saved all of our bridge parties, both north and south of Athens"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "mounted-force-away-and-captured-dispatches",
+      "dimension": "information",
+      "value": "Dodge's first January 26 dispatch says his mounted force, including most of the Athens garrison, had moved out against Roddey west of Florence, and that the Confederates 'got news some way of our move'. His January 29 report says the attack plan was learned afterward from captured dispatches, that Roddey did not know of the move, and that he retreated on hearing of the force to his west and on Johnson's word that he could not support him. The second dispatch says Phillips's messenger was at Athens when the enemy crossed.",
+      "rationale": "Attributed enemy knowledge and intent from one interested author, who gives different accounts of whether the attackers knew of the move; the captured dispatches were not inspected.",
+      "citations": [
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-26-dispatches",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "Monday morning my mounted force, which included most of gar- rison at Athens, moved on Roddey’s force, west of Florence."
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-26-dispatches",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "They got news some way of our move"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "The plan of the attack, as has since been ascertained by captured dispatches, was as follows"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "General Roddey did not know of this and moved up in accordance with the plan"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "hearing of the force to the west of him and getting Colonel Johnson’s dispatch that he could not support him"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-26-dispatches",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "At the time that the enemy crossed the river Colonel Phillips’ messenger to our forces was at Athens"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "combined-attack-on-athens",
+      "dimension": "objectives",
+      "value": "By Dodge's report the plan, learned from captured dispatches, was for Johnson's brigade to attack Athens from the northwest on the Florence road while Roddey crossed at Brown's Ferry; Miller's fight at Shoal Creek bridge the evening before checked Johnson. The frozen result says the Confederate force failed in its attempt to take Athens.",
+      "rationale": "Stated aims reconstructed by the opposing commander; no Confederate order inspected.",
+      "citations": [
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "Colonel Johnson and his brigade, stationed near Florence, was to move upon the Florence and Athens road and attack the town from the northwest"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "The movement of Johnson was defeated by Colonel Miller"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL002"
+          },
+          "column": "results_text",
+          "quote": "The Confederate force failed in its attempt to take Athens."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Lieutenant Colonel Moses W. Hannon and Captain Emil Adams. Dodge's January 26 dispatches name Colonel Hannon as the commander who crossed and attacked; his January 29 report names General Roddey as attacking with Patterson's and Hannon's regiments and crossing in person. Dodge credits 'Captain Adam' and his men with holding the town, and says the Mooresville force under Colonel Biggs, notified at sunrise, did not fall on the enemy's rear.",
+      "rationale": "Command roles from the opposing district commander; the identity of the Confederate commander differs between his dispatches and report. The listed commanders do not receive automatic sole credit, and no rank or spelling is adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL002",
+            "belligerent": "Confederate",
+            "fullname": "Moses W. Hannon"
+          },
+          "column": "rank",
+          "quote": "Lieutenant Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL002",
+            "belligerent": "US",
+            "fullname": "Emil Adams"
+          },
+          "column": "rank",
+          "quote": "Captain"
+        },
+        {
+          "source_id": "nps-al002-v1",
+          "locator": "Principal Commanders",
+          "quote": "Captain Emil Adams [US]"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-26-dispatches",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "Colonel Hannon crossed the Tennessee River last night at Brown’s Ferry, and attacked Athens at 4 a. m. to-day"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "while General Roddey in person, with the forces above named, was to cross"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "Captain Adam and his men displayed great coolness and judgment and fought with determined bravery"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "The force at Mooresville under Colonel Biggs was notified of the attack at sunrise"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "Had this been done the entire force of the enemy would have been captured."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Dodge says the attackers were repulsed after two hours and retreated, on Wood Ferry by his first dispatch and toward Brown's Ferry by his second; Rawlins relays that the enemy was repulsed and driven.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL002"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-al002-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-26-dispatches",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "After two hours’ fighting the rebels were repulsed, and retreated on Wood Ferry."
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-26-dispatches",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "he was repulsed with considerable loss, and retreated toward Brown’s Ferry."
+        },
+        {
+          "source_id": "or32-1-rawlins-athens-selections-v1",
+          "section": "rawlins-1864-01-29",
+          "locator": "p.117 (OCR page markers; not checked against print)",
+          "quote": "After a two-hours’ fight the enemy was repulsed and driven."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 50 (US 20; CS 30). Dodge gives the Union loss as 20, about 20 all told, and about 20 killed, wounded and missing, and the enemy's as much larger or considerable; Rawlins relays 20 and 'much greater'. No inspected source gives the Confederate 30.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen Confederate 30 has no inspected basis.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL002"
+          },
+          "column": "casualties_text",
+          "quote": "50 total (US 20; CS 30)"
+        },
+        {
+          "source_id": "nps-al002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "50 total (US 20; CS 30;)"
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-26-dispatches",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "Our loss is 20 ; the enemy’s much larger."
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-26-dispatches",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "Our loss is about 20, all told."
+        },
+        {
+          "source_id": "or32-1-dodge-athens-selections-v1",
+          "section": "dodge-1864-01-29",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "Our loss was about 20 killed, wounded, and missing."
+        },
+        {
+          "source_id": "or32-1-rawlins-athens-selections-v1",
+          "section": "rawlins-1864-01-29",
+          "locator": "p.117 (OCR page markers; not checked against print)",
+          "quote": "Our loss 20; the enemy’s much greater."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "No Confederate report (Roddey, Hannon or Johnson) and none of Woods's, Miller's, Atkins's or the regimental reports (Nos. 3-8) were inspected; the captured dispatches Dodge cites, returns and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Grenville M. Dodge's three January 26 dispatches and January 29, 1864 report (Official Records Series I, Volume XXXII, Part 1, No. 2) are one family of interested Union accounts by the district commander at Pulaski, who was not at Athens. John A. Rawlins's January 29 dispatch (No. 1) is a separate author family but relays the same figures and is not independent of Dodge. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge. No Confederate report on Athens appears in the inspected report list, so the Confederate side rests on Union accounts and NPS.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "battle_id": "KY011",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Cynthiana record (June 11-12, 1864), the only frozen record in Morgan's Raid into Kentucky [June 1864]. The frozen interval covers the capture of Cynthiana and the action at Keller's (Kellar's) Bridge on the 11th and Burbridge's attack on the 12th. The fights at Mount Sterling (8th-9th), the capture of Lexington, the demonstration on Frankfort and the retreat to Abingdon are context. Raid-wide losses, captures and destruction are context; they are not assigned to this record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the 168th Ohio, the 171st Ohio National Guard and the Harrison County Home Guards against Morgan's Division, without bounds; the live field reads zero. NPS gives Morgan 1,200 men against Garis's about 300 at Cynthiana and Hobson's about 750 at Keller's Bridge on the 11th, and Burbridge 2,400 on the 12th. Burbridge says his column including Garrard's brigade was about 2,400 strong; he reported Morgan's raiding force as nearly 3,000 on entering Kentucky and says it had been reported at 5,000. Morgan says about 400 surrendered in Cynthiana and puts Hobson's surrendered brigade at 2,000 in his June 11 letter and 1,500 in his report, and says he was attacked on the 12th by 5,200 while his command engaged did not exceed 1,200.",
+      "rationale": "Figures of each commander for his own side and estimates of the other, on two different days; no matched return. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY011"
+          },
+          "column": "forces_text",
+          "quote": "168th Regiment Ohio Volunteer Infantry, 171st Ohio National Guard, and the Kentucky Harrison County Home Guards [US]; Morgan's Division [CS]"
+        },
+        {
+          "source_id": "nps-ky011-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-ky011-v1",
+          "locator": "Description",
+          "quote": "Brig. Gen. Morgan approached Cynthiana with 1,200 men"
+        },
+        {
+          "source_id": "nps-ky011-v1",
+          "locator": "Description",
+          "quote": "about 300 men altogether"
+        },
+        {
+          "source_id": "nps-ky011-v1",
+          "locator": "Description",
+          "quote": "about 750 men of the 171st Ohio National Guard"
+        },
+        {
+          "source_id": "nps-ky011-v1",
+          "locator": "Description",
+          "quote": "Brig. Gen. Stephen Gano Burbridge with 2,400 men"
+        },
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-08-01",
+          "locator": "p.25 (OCR page markers; not checked against print)",
+          "quote": "including Colonel Garrard’s bri¬ gade, was. about 2,400 strong"
+        },
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-06-13-dispatches",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "Morgan entered Kentucky Avith nearly 3,000 men through Pound Gax) June 4."
+        },
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-08-01",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "whose force was then reported at 5,000)"
+        },
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-06-11",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "The enemy to the number of 400 soon sur¬ rendered."
+        },
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-06-11",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "captured his entire brigade, numbering 2,000 men"
+        },
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-07-20",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "the entire command (1,500) surrendered"
+        },
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-07-20",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "we were attacked by 5,200 infantry, caA^alry, and artillery, under General Burbridge. My command engaged did not exceed 1,200 men"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "town-river-and-stone-walls",
+      "dimension": "terrain",
+      "value": "NPS describes the attack at the covered bridge, the trapping of Hobson's force in a meander of the Licking River a mile north of town, and the fire that destroyed many buildings. Morgan says the Federals took shelter in houses on the 11th and, having no artillery, he had them fired. Burbridge says on the 12th the Confederates on the flanks fought from stone walls and high rail fences, and that many were drowned trying to cross the river when the other escape route was blocked.",
+      "rationale": "Ground described by the two commanders and a summary; no map verification.",
+      "citations": [
+        {
+          "source_id": "nps-ky011-v1",
+          "locator": "Description",
+          "quote": "launched an attack at the covered bridge"
+        },
+        {
+          "source_id": "nps-ky011-v1",
+          "locator": "Description",
+          "quote": "about a mile north of the Cynthiana at Kellar's Bridge"
+        },
+        {
+          "source_id": "nps-ky011-v1",
+          "locator": "Description",
+          "quote": "Morgan trapped this new Union force in a meander of the Licking River."
+        },
+        {
+          "source_id": "nps-ky011-v1",
+          "locator": "Description",
+          "quote": "The Rebels set fire to the town, destroying many buildings"
+        },
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-07-20",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "The Federals took shelter in the houses, and the only alternatiA^e (as Ave had no artillery) Avas to fire them."
+        },
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-08-01",
+          "locator": "p.25 (OCR page markers; not checked against print)",
+          "quote": "ensconced behind stone Avails and high rail fences, they so imiieded the cavalry attack"
+        },
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-08-01",
+          "locator": "p.25 (OCR page markers; not checked against print)",
+          "quote": "many being drowned in their attempt to cross the river, the only other avenue to escape having been blocked by my troops on the right."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-horses",
+      "dimension": "logistics",
+      "value": "Morgan wrote on June 11 that he was almost out of ammunition, feared having to fall back before he could get ammunition for his Enfields (the enemy carrying old muskets), and in his report says his ammunition was almost exhausted on the 12th. Burbridge says his column drew fresh horses, rations and ammunition at Lexington before marching, and reported Morgan's men out of ammunition after the rout.",
+      "rationale": "Supply statements from the two commanders; no ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-06-11",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "although almost out of ammunition determined to meet him."
+        },
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-06-11",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "Fear if attacked be¬ fore I can obtain ammunition to fit my guns that 1 will have to bill back."
+        },
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-07-20",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "our ammunition almost entirely exhausted"
+        },
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-08-01",
+          "locator": "p.24 (OCR page markers; not checked against print)",
+          "quote": "in procniing as many fresh horses as possible and in issuing fresh su])plies of rations and ammunition."
+        },
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-06-13-dispatches",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "are out of ammunition and aa holly demoralized."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouts-and-late-word",
+      "dimension": "information",
+      "value": "Burbridge says he learned from his scouts on the evening of the 11th that Morgan had taken Cynthiana and that Hobson had surrendered, and marched that night. Morgan's June 11 letter adds at 6 p.m. that he had just learned Burbridge's force was moving to attack him.",
+      "rationale": "Knowledge claimed by each commander; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-08-01",
+          "locator": "p.25 (OCR page markers; not checked against print)",
+          "quote": "received definite intelligence from my scouts that Morgan Avas at Cynthiana"
+        },
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-08-01",
+          "locator": "p.25 (OCR page markers; not checked against print)",
+          "quote": "General Hobson had surrendered with his com¬ mand"
+        },
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-08-01",
+          "locator": "p.25 (OCR page markers; not checked against print)",
+          "quote": "Saturday night about 11 o’clock I moved out with the column"
+        },
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-06-11",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "Since the above I learn that the force which entered Yirginia under General Burbridge to attack the salt-works and lead-mines has re¬ turned and is moving to attack me."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "diversion-from-saltville",
+      "dimension": "objectives",
+      "value": "Morgan says it was decided that he should move into Kentucky to gain the rear of the forces moving toward the salt-works and lead-mines of Southwest Virginia, which could not leave him in their rear without pursuing, and counts the defeat of that plan as the first result of the raid. Burbridge's report describes his pursuit from the Big Sandy after Morgan entered the state.",
+      "rationale": "Stated aims from the Confederate commander's report written after the raid; campaign-level aims are context, not this record's tactical result.",
+      "citations": [
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-07-20",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "gain tlie rear of the forces Avho Avere moving in this direction"
+        },
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-07-20",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "The defeat of the enemy’s plans for the capture of the salt- Avorks and lead-mines of SouthAvest Virginia."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Brigadier Generals John Hunt Morgan and Stephen Gano Burbridge. Morgan says he took command of Cassell's battalion in person to get into Hobson's rear on the 11th, and on the 12th ordered his brigade commanders to fall back on the Augusta road. Burbridge says he formed the line and ordered the charge, sent Garrard's regiments to the flanks, and ordered Garrard to pursue; NPS says Morgan escaped.",
+      "rationale": "Command roles from the two commanders and a summary; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KY011",
+            "belligerent": "Confederate",
+            "fullname": "John Hunt Morgan"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KY011",
+            "belligerent": "US",
+            "fullname": "Stephen Gano Burbridge"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-07-20",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "Taking command of Major Cassell’s battalion in person"
+        },
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-07-20",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "I ordered Colonels Gilt¬ ner and Smith, commanding brigades, to fall back upon the Augusta road."
+        },
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-08-01",
+          "locator": "p.25 (OCR page markers; not checked against print)",
+          "quote": "I ordered Colonel Garrard to send one cav¬ alry regiment to the right and one to the left"
+        },
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-08-01",
+          "locator": "p.26 (OCR page markers; not checked against print)",
+          "quote": "I ordered Colonel Garrard,* with his brigade, as being the freshest troops, to pursue"
+        },
+        {
+          "source_id": "nps-ky011-v1",
+          "locator": "Description",
+          "quote": "Morgan escaped."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Burbridge reported that after an hour's hard fighting he completely routed Morgan and recaptured most of Hobson's command. Morgan says that, finding he would soon be enveloped with his ammunition nearly gone, he ordered a withdrawal; on the 11th he had taken Cynthiana and Hobson's force.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The frozen interval spans Morgan's successes on the 11th and his defeat on the 12th; the result field is kept.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY011"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ky011-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-06-13-dispatches",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "after an hour’s hard fighting completely routed him"
+        },
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-07-20",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "Finding in a short time we would be completely enveloped by the enemy"
+        },
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-06-11",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "After a short skirmish sur¬ rounded and captured his entire brigade"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 2,092 (US 1,092; CS 1,000). Burbridge reported killing 300, wounding as many and capturing nearly 400 at Cynthiana, for a loss of about 150 killed and wounded; his report's casualty list for all brigades over the raid totals 53 killed, 156 wounded and 205 missing. Morgan gives his loss over the whole raid as about 80 killed, 125 wounded and 150 captured and missing, and says 2,500 prisoners were paroled.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Burbridge's list and Morgan's totals cover the whole raid; the frozen Union 1,092 presumably includes the men captured on the 11th, but no inspected source states it.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY011"
+          },
+          "column": "casualties_text",
+          "quote": "2,092 total (US 1,092; CS 1,000)"
+        },
+        {
+          "source_id": "nps-ky011-v1",
+          "locator": "Estimated Casualties",
+          "quote": "2092 total (US 1092; CS 1000;)"
+        },
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-06-13-dispatches",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "killing 300, b ound¬ ing as many, and capturing nearly 400"
+        },
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-06-13-dispatches",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "Our loss in killed and Avounded about 150."
+        },
+        {
+          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
+          "section": "burbridge-1864-08-01",
+          "locator": "p.27 (OCR page markers; not checked against print)",
+          "quote": "Total . . 53 156 205"
+        },
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-07-20",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "I have lost, as near as can be ascertained, about 80 killed, 125 wounded, and 150 captured and missing."
+        },
+        {
+          "source_id": "or39-1-morgan-kentucky-selections-v1",
+          "section": "morgan-1864-07-20",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "numbering 2,500."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Hobson's No. 5 report on Keller's Bridge, Garis's and Asper's reports (Nos. 12-13) on the 11th, the brigade reports (Nos. 6-9), Duke's registered History of Morgan's Cavalry (its 1864 chapters), returns and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Stephen G. Burbridge's June 13 dispatches and August 1, 1864 report (Official Records Series I, Volume XXXIX, Part 1, No. 1) are one family of interested Union accounts. John H. Morgan's June 11 letter and July 20, 1864 report (No. 14) are one family of interested Confederate accounts, the report written while complaints of plunder were being raised in his command. The Official Records volume is a shared container, not an additional witness; report dates are not event times or proof of contemporary knowledge. Duke's registered history is a separate family but not independent of Morgan's command and was not used.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

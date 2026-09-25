@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA006",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Dalton I record (February 22-27, 1864), the only frozen record in the Demonstration on Dalton [February 1864]. The frozen interval covers the whole demonstration, including the skirmishes at Tunnel Hill (23rd-24th), Buzzard Roost and Crow's Valley (24th-25th), Dug Gap (26th) and the withdrawal. The January reconnaissance toward Tunnel Hill and the Meridian Expedition (MS012, MS013) are context. Army-wide returns and campaign-wide totals are context; they are not assigned to this record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the two armies without bounds; the live field reads zero. Thomas says he opposed four divisions to the army at Dalton and became convinced it largely outnumbered them; a refugee's statement forwarded with his report put the Confederate force at about 30,000. Johnston gives the effective total of his infantry and artillery on December 31, 1863 as 36,826 and his cavalry as 5,613, and says Hardee's infantry except Stevenson's division was ordered to Polk on February 17; NPS speaks of the loss of two divisions. Johnston says Clayton's brigade defeated double its number in Crow's Valley.",
+      "rationale": "An army return seven weeks earlier, a detachment order, a secondhand estimate and the Union commander's judgment; no matched return for the demonstration. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA006"
+          },
+          "column": "forces_text",
+          "quote": "Army of the Cumberland [US]; Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-ga006-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "Being convinced that the rebel army at Dalton largely outnumbered the strength of the four divisions I had opposed to it"
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-inclosure-4-gladden-statement",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "their force in all was about 30,000 men"
+        },
+        {
+          "source_id": "or32-1-johnston-dalton-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "On December 31, the effective total of the infantry and artillery of the army, including two brigades belonging to the Department of Mississippi, was 36,826."
+        },
+        {
+          "source_id": "or32-1-johnston-dalton-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "The effective total of the cavalry, including Roddey’s command at Tuscumbia, was 5,613."
+        },
+        {
+          "source_id": "or32-1-johnston-dalton-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.477 (OCR page markers; not checked against print)",
+          "quote": "to detach Lieutenant-General Hardee with the infantry of his corps, except Stevenson’s division, to aid Lieutenant-General Polk"
+        },
+        {
+          "source_id": "nps-ga006-v1",
+          "locator": "Description",
+          "quote": "Johnston's loss of two divisions"
+        },
+        {
+          "source_id": "or32-1-johnston-dalton-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.477 (OCR page markers; not checked against print)",
+          "quote": "At the latter Clayton’s brigade, after a sharp action of half an hour, defeated double its number."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "rocky-face-gaps-and-valley",
+      "dimension": "terrain",
+      "value": "Thomas describes Buzzard Roost as a pass through Rocky Face Ridge, very precipitous and a very strong position, and says the divisions sent east of the ridge found the enemy in heavy force and very strongly posted; a mounted regiment held a gap 6 miles south of Buzzard Roost until driven out on the 26th. Johnston describes skirmishing in the gap through which the railroad passes and in the valley east of the mountain (Mill Creek Gap and Crow's Valley), and the retaking of Dug Gap.",
+      "rationale": "Ground described by the two commanders; no map verification. The positions were occupied during the operation, so the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "Buzzard Roost, a pass through what is called Rocky Face Ridge, which, as its name would suggest, is very precipitous and is a very strong position."
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "Baird and Cruft found the enemy east of the ridge in heavy force and very strongly posted"
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "occupied a gap in Rocky Face Ridge, 6 miles south of Buzzard Roost and nearly opposite to Dalton"
+        },
+        {
+          "source_id": "or32-1-johnston-dalton-selections-v1",
+          "section": "johnston-1864-02-25",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "in the gap through which the railroad passes"
+        },
+        {
+          "source_id": "or32-1-johnston-dalton-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.477 (OCR page markers; not checked against print)",
+          "quote": "skirmished at Mill Creek Gap and in Crow’s Valley, east of Rocky Face Mountain."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "transport-and-forage",
+      "dimension": "logistics",
+      "value": "Thomas says his transportation was in very poor condition and, for want of horses, scarcely any of his artillery could be moved when he prepared to move in mid-February. Johnston says full forage could not be supplied at Dalton, so about half his cavalry and artillery had been sent far to the rear. The refugee's statement says the Confederates had plenty of ammunition.",
+      "rationale": "Condition statements by the two commanders and a secondhand statement, not returns for the demonstration.",
+      "citations": [
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.8 (OCR page markers; not checked against print)",
+          "quote": "My transportation was in a very poor con- dition"
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.8 (OCR page markers; not checked against print)",
+          "quote": "for want of horses scarcely any of the artillery could be moved."
+        },
+        {
+          "source_id": "or32-1-johnston-dalton-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "As full supplies of forage could not be furnished them at Dalton, it was necessary to send about half of each of these arms of service far to the rear"
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-inclosure-4-gladden-statement",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "the rebels had plenty of ammunition"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reports-of-detachment",
+      "dimension": "information",
+      "value": "Thomas says reports about February 10 that Johnston had weakened his army by reinforcing Polk preceded the move, and that Palmer reported on the 22nd reliable information that Cheatham's and Cleburne's divisions had gone; he says his divisions learned on the 25th that the enemy was much stronger than supposed and that the reinforcements had been ordered back, and Cleburne's division attacked the gap on the 26th. Johnston says the detached force was probably exaggerated to Thomas, and reported on the 25th that the enemy's forces and plans were not developed.",
+      "rationale": "Knowledge attributed by each commander; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.8 (OCR page markers; not checked against print)",
+          "quote": "had weakened his force by sending re-en- forcements to Polk"
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.9 (OCR page markers; not checked against print)",
+          "quote": "he had reliable information that Johnston had dispatched Cheatham’s and Cleburne’s divisions to the relief of Polk in Alabama"
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "ascertaining before leaving that the enemy was in much stronger force than was supposed"
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "Cle- burne’s division (one of those reported to have gone south) attacked Colonel Harrison’s mounted infantry command"
+        },
+        {
+          "source_id": "or32-1-johnston-dalton-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.477 (OCR page markers; not checked against print)",
+          "quote": "The force detached was proba- bly exaggerated to Major-General Thomas"
+        },
+        {
+          "source_id": "or32-1-johnston-dalton-selections-v1",
+          "section": "johnston-1864-02-25",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "His forces and plans not developed."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "dalton-or-recall",
+      "dimension": "objectives",
+      "value": "Thomas says Grant directed a move to his front with the object of gaining possession of Dalton and as far south as possible; he withdrew counting the move a complete success because it caused reinforcements sent against Sherman's Meridian Expedition to be recalled. NPS says Thomas probed Johnston in the hope that the detachment made him vulnerable. Johnston judged that the enemy seemed to have converted his movement into a reconnaissance.",
+      "rationale": "Stated aims and later judgments of the two commanders and a summary; the recall is campaign contribution, not this record's tactical result.",
+      "citations": [
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.9 (OCR page markers; not checked against print)",
+          "quote": "the object being to gain possession. of Dalton and as far south of that as possible."
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "the movement against Johnston being a complete success, insomuch as it caused the recalling of re-enforcements sent to oppose General Sherman’s expedition against Meridian"
+        },
+        {
+          "source_id": "nps-ga006-v1",
+          "locator": "Description",
+          "quote": "Thomas determined to probe Gen. Johnston's army"
+        },
+        {
+          "source_id": "or32-1-johnston-dalton-selections-v1",
+          "section": "johnston-1864-02-27",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "Seems to have converted his movement into a reconnaissance."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Major General George H. Thomas and General Joseph E. Johnston; the live page styles Johnston Lieutenant Colonel. Thomas's report has Palmer directing the advance on Tunnel Hill and Cruft's position, and Thomas himself deciding to withdraw. Johnston says Granbury's brigade was ordered to retake Dug Gap at sunrise, without naming who gave the order, and that this was done.",
+      "rationale": "Command roles from the two commanders; the listed commanders do not receive automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA006",
+            "belligerent": "US",
+            "fullname": "George H. Thomas"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA006",
+            "belligerent": "Confederate",
+            "fullname": "Joseph E. Johnston"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-ga006-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant Colonel Joseph Johnston [CS]"
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.9 (OCR page markers; not checked against print)",
+          "quote": "General Palmer advanced to feel the enemy in his position at Tunnel Hill"
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.9 (OCR page markers; not checked against print)",
+          "quote": "Cruft, by instructions from General Palmer, took position on the 23d at Lee’s house"
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "I concluded to withdraw my troops to the position they had occupied previous to the reconnaissance."
+        },
+        {
+          "source_id": "or32-1-johnston-dalton-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.477 (OCR page markers; not checked against print)",
+          "quote": "It was ordered to march to the foot of the mount- ain immediately, and to retake the gap at sunrise next morning, which was done."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Johnston says his troops held the railroad gap and drove the enemy in the valley on the 25th, were successful at both places, and that the enemy retired in the night of the 26th; Thomas says he withdrew after judging the movement a success, his divisions falling back on the nights of the 25th and 26th and taking up their positions on the 27th. NPS says Thomas withdrew on the 27th.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The two commanders judge the demonstration differently; neither judgment is adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA006"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ga006-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or32-1-johnston-dalton-selections-v1",
+          "section": "johnston-1864-02-25",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "easily holding our ground in the gap and driving back the enemy in the valley."
+        },
+        {
+          "source_id": "or32-1-johnston-dalton-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.477 (OCR page markers; not checked against print)",
+          "quote": "We were successful at both places."
+        },
+        {
+          "source_id": "or32-1-johnston-dalton-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.477 (OCR page markers; not checked against print)",
+          "quote": "In the night of the 26th the enemy retired."
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-1864-03-10",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "on the 27th they all took up the positions indicated above."
+        },
+        {
+          "source_id": "nps-ga006-v1",
+          "locator": "Description",
+          "quote": "On the 27th, Thomas's army withdrew"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads Unknown; the live field reads 429 (US 289; CS 140). The casualty table forwarded with Thomas's report gives 289 killed and wounded at Buzzard Roost on February 24 and 25 (no missing column). The refugee's statement gives Confederate losses at Buzzard Roost and east of Rocky Face as 50 to 60 killed and 150 wounded. No inspected source gives the live Confederate 140.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live Union 289 matches the forwarded table, which covers two days and killed and wounded only; the Confederate figures are secondhand and differ from the live 140.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA006"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-ga006-v1",
+          "locator": "Estimated Casualties",
+          "quote": "429 total (US 289; CS 140;)"
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-inclosure-5-casualties",
+          "locator": "p.14 (OCR page markers; not checked against print)",
+          "quote": "Killed and wounded at the battle of Buzzard Roost, near Dalton , Ga. , on February 24 and 25, 1864."
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-inclosure-5-casualties",
+          "locator": "p.14 (OCR page markers; not checked against print)",
+          "quote": "Total* 1 16 8 264 289"
+        },
+        {
+          "source_id": "or32-1-thomas-dalton-selections-v1",
+          "section": "thomas-inclosure-4-gladden-statement",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "were from 50 to 60 killed and 150 wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Palmer's congratulatory orders, Cruft's, Johnson's, Davis's and the other Union reports (Nos. 3-27), Stewart's, Clayton's and the other Confederate reports (Nos. 29-39), Wheeler's itinerary, the Union casualty return (No. 2) and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). George H. Thomas's March 10, 1864 report (Official Records Series I, Volume XXXII, Part 1, general report No. 1), with the refugee's statement and casualty table forwarded as its Inclosures Nos. 4 and 5, is one family of interested Union accounts; the statement is secondhand. Joseph E. Johnston's February 25 and 27 dispatches and the Dalton portion of his October 20, 1864 report (No. 28) are one family of interested Confederate accounts; the report is the same document as the registered Atlanta selection. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

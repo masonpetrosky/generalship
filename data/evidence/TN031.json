@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN031",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Memphis record (August 21, 1864) in Forrest's Defense of Mississippi [June-August 1864]: the raid into Memphis and the fighting on its outskirts on the morning of the 21st. The march from Oxford (18th-20th), the flag of truce over prisoners and the withdrawal to Hernando and Panola, and the operations around Oxford are context. Expedition-wide marches, captures, destruction and loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives Forrest's cavalry as approx. 400 (side bound 400) and the Union side as troops stationed at Memphis; NPS says Forrest struck with 2,000 cavalry and lost about a quarter of his strength to exhausted horses, against 6,000 Federal troops, and the live field reads 8000 (US 6000; CS 2000). Washburn gives the attackers as three brigades of 2,500 to 3,000, and his first dispatch to Smith about 2,500, of which about a third dashed into the city. Jordan says the detachments selected numbered about 1,500 and four guns, that a hundred men with unfit horses were left at Panola, and that scouts reported fully five thousand troops in and around the city.",
+      "rationale": "Estimates of each side by the defender, a Confederate history and a summary; no return. The frozen 400 has no inspected basis. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN031"
+          },
+          "column": "forces_text",
+          "quote": "Troops stationed at Memphis [US]; Forrest's Cavalry (approx. 400) [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "TN031",
+            "belligerent": "Confederate"
+          },
+          "column": "strength_min",
+          "quote": "400"
+        },
+        {
+          "source_id": "nps-tn031-v1",
+          "locator": "Description",
+          "quote": "occupied by 6,000 Federal troops"
+        },
+        {
+          "source_id": "nps-tn031-v1",
+          "locator": "Description",
+          "quote": "Striking northwestward for Memphis with 2,000 cavalry, Forrest lost about a quarter of his strength because of exhausted horses."
+        },
+        {
+          "source_id": "nps-tn031-v1",
+          "locator": "Forces Engaged",
+          "quote": "8000 total (US 6000; CS 2000;)"
+        },
+        {
+          "source_id": "or39-1-washburn-memphis-selections-v1",
+          "section": "washburn-1864-09-02",
+          "locator": "p.468 (OCR page markers; not checked against print)",
+          "quote": "with three brigades of his command, numbering from 2,500 to 3,000 men."
+        },
+        {
+          "source_id": "or39-1-washburn-memphis-selections-v1",
+          "section": "washburn-1864-09-02",
+          "locator": "p.469 (OCR page markers; not checked against print)",
+          "quote": "a force of about 2,500 cavalry"
+        },
+        {
+          "source_id": "or39-1-washburn-memphis-selections-v1",
+          "section": "washburn-1864-09-02",
+          "locator": "p.469 (OCR page markers; not checked against print)",
+          "quote": "A foi’ce, consisting of about one-third of Forrest’s command, was detached by him and ordered to dash over the pickets and into the city"
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.534 (OCR page markers; not checked against print)",
+          "quote": "a force of about 1 500 officers and men, and four guns."
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.535 (OCR page markers; not checked against print)",
+          "quote": "One hundred men were also left with their horses"
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.537 (OCR page markers; not checked against print)",
+          "quote": "there were fully five thousand troops, of all arms, in and around the city, for the most part negroes and one hundred days' men."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fog-long-picket-line-and-college",
+      "dimension": "terrain",
+      "value": "NPS and Jordan describe a thick dawn fog in which men and horses could not be seen at thirty paces. Washburn says the picket-line was eight to ten miles long and that Fort Pickering commanded but could not protect the city. Jordan says the Union infantry and dismounted cavalry took refuge in the brick buildings of the State Female College, a strong defensive position; NPS says Union troops stalled the main body there.",
+      "rationale": "Ground and weather described by the defender, a Confederate history and a summary; no map verification.",
+      "citations": [
+        {
+          "source_id": "nps-tn031-v1",
+          "locator": "Description",
+          "quote": "Taking advantage of a thick dawn fog"
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.538 (OCR page markers; not checked against print)",
+          "quote": "neither man nor horse could be distinguished at the distance of thirty paces"
+        },
+        {
+          "source_id": "or39-1-washburn-memphis-selections-v1",
+          "section": "washburn-1864-09-02",
+          "locator": "p.471 (OCR page markers; not checked against print)",
+          "quote": "The picket-line around the city is from eight to ten miles in length"
+        },
+        {
+          "source_id": "or39-1-washburn-memphis-selections-v1",
+          "section": "washburn-1864-09-02",
+          "locator": "p.471 (OCR page markers; not checked against print)",
+          "quote": "The only defense to the city, with its large amount of Government stores and supplies, is Fort Picker¬ ing"
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.543 (OCR page markers; not checked against print)",
+          "quote": "brick buildings of the \" State Female College,\" seve- ral hundred yards distant, a strong defensive position."
+        },
+        {
+          "source_id": "nps-tn031-v1",
+          "locator": "Description",
+          "quote": "Union troops stalled the main body at the State Female College"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "bridges-horses-and-captures",
+      "dimension": "logistics",
+      "value": "Jordan says Forrest's men improvised bridges over the Hickahala and Cold Water from gin-house floors, telegraph poles and grape-vine cables, and that about 400 captured horses were exchanged for jaded ones. Forrest's relayed dispatch claims the enemy's entire camp and about 300 horses and mules; Washburn says the raiders had no time for plunder and got nothing but perhaps 80 horses. NPS says they took large quantities of supplies, including many horses.",
+      "rationale": "Captures reported by the two sides and a summary; the horse counts differ (80, 300 and about 400) and none is adopted.",
+      "citations": [
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.536 (OCR page markers; not checked against print)",
+          "quote": "a practicable bridge was thus impro- vised in little more than sixty minutes."
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.545 (OCR page markers; not checked against print)",
+          "quote": "some four hundred in number."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "maury-relay-1864-08-22",
+          "locator": "p.484 (OCR page markers; not checked against print)",
+          "quote": "capturing their entire camp, with about 300 horses and mnles."
+        },
+        {
+          "source_id": "or39-1-washburn-memphis-selections-v1",
+          "section": "washburn-1864-09-02",
+          "locator": "p.469 (OCR page markers; not checked against print)",
+          "quote": "They had no time for plunder, and save a few horses (perhaps 80 in all), they got nothing."
+        },
+        {
+          "source_id": "nps-tn031-v1",
+          "locator": "Description",
+          "quote": "taking 500 prisoners and large quantities of supplies, including many horses"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "scouts-and-surprise",
+      "dimension": "information",
+      "value": "Jordan says scouts and citizens gave Forrest accurate information on the troops, pickets and officers' quarters, that the city was without the least expectation of the raid, and that the advance answered the picket's challenge as a detachment of the Twelfth Missouri Cavalry with rebel prisoners; NPS says the raiders claimed to be a Union patrol. Washburn calls it strange that Forrest left Smith's front at Oxford undiscovered by the large Union cavalry force there.",
+      "rationale": "Knowledge attributed by a Confederate history and the defender; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.536 (OCR page markers; not checked against print)",
+          "quote": "with accurate information touching the position and strength of the enemy's troops in and around the city"
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.536 (OCR page markers; not checked against print)",
+          "quote": "without the least expectation of the foray impending."
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.539 (OCR page markers; not checked against print)",
+          "quote": "A detachment of the Twelfth Missouri Cavalry with rebel prisoners."
+        },
+        {
+          "source_id": "nps-tn031-v1",
+          "locator": "Description",
+          "quote": "claiming to be a Union patrol returning with prisoners"
+        },
+        {
+          "source_id": "or39-1-washburn-memphis-selections-v1",
+          "section": "washburn-1864-09-02",
+          "locator": "p.471 (OCR page markers; not checked against print)",
+          "quote": "That Forrest should have lett our immediate front at Oxford and made this move on Mem¬ phis without its being discovered by our large cavalry force in his im¬ mediate vicinity is somewhat strange."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "officers-prison-and-recall",
+      "dimension": "objectives",
+      "value": "NPS gives three objectives: to capture three Union generals, to release prisoners from Irving Block Prison, and to cause the recall of Union forces from northern Mississippi. Jordan says Forrest meant to threaten if not capture Memphis in order to force Smith to return, and assigned detachments to the Gayoso House, where Hurlbut was known to lodge, and to Washburn's headquarters. Washburn says parties went to his headquarters, the Gayoso House, Buckland's quarters and the Irving Prison.",
+      "rationale": "Stated aims from a summary and a Confederate history, and the defender's account of where the raiders went.",
+      "citations": [
+        {
+          "source_id": "nps-tn031-v1",
+          "locator": "Description",
+          "quote": "to capture three Union generals posted there;  to release Southern prisoners from Irving Block Prison; and to cause the recall of Union forces from Northern Mississippi."
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.534 (OCR page markers; not checked against print)",
+          "quote": "by a sudden coup de main threaten if not capture the city of Memphis, with the effect, as he hoped, of forcing General Smith to return to the relief of that place."
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.537 (OCR page markers; not checked against print)",
+          "quote": "to the Gayoso House, to capture such Federal officers as might be quartered thercf"
+        },
+        {
+          "source_id": "or39-1-washburn-memphis-selections-v1",
+          "section": "washburn-1864-09-02",
+          "locator": "p.469 (OCR page markers; not checked against print)",
+          "quote": "They then pro(‘eeded to the Irving Prison, but the guard was ready for them and they were handsomely repulsed."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Major General C. C. Washburn and Nathan Bedford Forrest, whom the frozen table styles Brigadier General and the live page Major General. Washburn says he barely escaped his invested headquarters, sent dispatches ordering Smith to intercept Forrest at Panola, and that Smith failed to move there. Jordan says Forrest gave each commander his instructions, led the reserve against the infantry camp, ordered the evacuation of the city and the withdrawal.",
+      "rationale": "Command roles from the defender and a Confederate history; the listed commanders do not receive automatic sole credit, and neither rank for Forrest is adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN031",
+            "belligerent": "US",
+            "fullname": "C.C. Washburn"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN031",
+            "belligerent": "Confederate",
+            "fullname": "Nathan Bedford Forrest"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-tn031-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Nathan Forrest [CS]"
+        },
+        {
+          "source_id": "or39-1-washburn-memphis-selections-v1",
+          "section": "washburn-1864-09-02",
+          "locator": "p.469 (OCR page markers; not checked against print)",
+          "quote": "giving me barely a moment’s time to escape."
+        },
+        {
+          "source_id": "or39-1-washburn-memphis-selections-v1",
+          "section": "washburn-1864-09-02",
+          "locator": "p.470 (OCR page markers; not checked against print)",
+          "quote": "General Smith failed to move to Panola, as all my dispatches ordered him to do"
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.537 (OCR page markers; not checked against print)",
+          "quote": "Forrest gave to each definite and comprehensive instructions"
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.543 (OCR page markers; not checked against print)",
+          "quote": "General Forrest, who had remained with the reserves under Colonel Bell, led them rapidly by the right flank to reenforce Neely"
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.544 (OCR page markers; not checked against print)",
+          "quote": "Forrest had previously ordered the troops to evacuate the city"
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.544 (OCR page markers; not checked against print)",
+          "quote": "General Forrest gave orders for the whole force to withdraw."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Washburn reported the raiders repulsed and driven out and calls the raid an utter failure; Forrest's relayed dispatch says he drove the enemy to his fortifications; Jordan says the object was in the main attained by the confusion into which the garrison was thrown. NPS says Forrest failed in Memphis but influenced the return of Union forces.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The recall of Union forces is campaign contribution, not this record's tactical result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN031"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-tn031-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or39-1-washburn-memphis-selections-v1",
+          "section": "washburn-1864-08-21",
+          "locator": "p.468 (OCR page markers; not checked against print)",
+          "quote": "Tliey were rei)nlsed and driven ont, with considerable loss."
+        },
+        {
+          "source_id": "or39-1-washburn-memphis-selections-v1",
+          "section": "washburn-1864-09-02",
+          "locator": "p.471 (OCR page markers; not checked against print)",
+          "quote": "The whole affair Avas an utter failure on his iiart"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "maury-relay-1864-08-22",
+          "locator": "p.484 (OCR page markers; not checked against print)",
+          "quote": "driving enemy to his fortifications."
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.544 (OCR page markers; not checked against print)",
+          "quote": "The object of the expedition having been in the main attained by the confusion and con- sternation into which the garrison had been thrown"
+        },
+        {
+          "source_id": "nps-tn031-v1",
+          "locator": "Description",
+          "quote": "Although Forrest failed in Memphis, his raid influenced Union forces to return there"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads 194 (US 160; CS 34); the live field reads 542 (US 480; CS 62). Washburn's report gives his loss as 1 officer killed, 6 wounded and 4 captured, and 14 men killed, 59 wounded and 112 missing, and the enemy's as 22 killed, about 15 badly wounded left on the field and 25 prisoners; his first dispatch says about 250 hundred-days' men were captured. Forrest's relayed dispatch claims 400 killed and captured for a loss of 20 killed and wounded. Jordan says some 600 prisoners were brought away; NPS says 500.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Washburn's enemy figures sum to the live Confederate 62; the prisoner counts differ (about 250, 400, 500, some 600) and none is adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN031"
+          },
+          "column": "casualties_text",
+          "quote": "194 total (US 160; CS 34)"
+        },
+        {
+          "source_id": "nps-tn031-v1",
+          "locator": "Estimated Casualties",
+          "quote": "542 total (US 480; CS 62;)"
+        },
+        {
+          "source_id": "or39-1-washburn-memphis-selections-v1",
+          "section": "washburn-1864-09-02",
+          "locator": "p.471 (OCR page markers; not checked against print)",
+          "quote": "1 officer killed, G wounded, and 4 captured; enlisted men, 14 killed, 59 wounded, and 112 missing."
+        },
+        {
+          "source_id": "or39-1-washburn-memphis-selections-v1",
+          "section": "washburn-1864-09-02",
+          "locator": "p.471 (OCR page markers; not checked against print)",
+          "quote": "The loss of the enemy in killed was 22, and they left about 15 so badly wounded on the field that they could not be carried away, and we captured in addition 25 prisoners."
+        },
+        {
+          "source_id": "or39-1-washburn-memphis-selections-v1",
+          "section": "washburn-1864-08-21",
+          "locator": "p.468 (OCR page markers; not checked against print)",
+          "quote": "about 250 100-days’ men were captured."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "maury-relay-1864-08-22",
+          "locator": "p.484 (OCR page markers; not checked against print)",
+          "quote": "AVe killed and captured 400"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "maury-relay-1864-08-22",
+          "locator": "p.484 (OCR page markers; not checked against print)",
+          "quote": "My loss, 20 killed and wounded."
+        },
+        {
+          "source_id": "jordan-memphis-selections-v1",
+          "section": "memphis-expedition",
+          "locator": "p.545 (OCR page markers; not checked against print)",
+          "quote": "It was now found that some 600 prisoners had been brought away"
+        },
+        {
+          "source_id": "nps-tn031-v1",
+          "locator": "Description",
+          "quote": "taking 500 prisoners"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Thurston's, Buckland's, Hoge's, the casualty and the other Union reports (Nos. 2-12), Dustan's and Randle's reports (read, not selected), the Confederate casualty addenda, Chalmers's reports on the Oxford operations and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Nathan B. Forrest's reports of July 1 and August 4, 1864, the provost-marshal's report forwarded with the first, his June 1864 address and his August 21 Memphis dispatch as relayed by Maury (Official Records Series I, Volume XXXIX, Part 1, Nos. 22, 45 and 15) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness; report dates are not event times or proof of contemporary knowledge. Here the second family is Cadwallader C. Washburn's August 21 dispatch and September 2 report (No. 1). Forrest's own account is a three-sentence dispatch relayed by Maury, so the one targeted follow-up is Jordan and Pryor's registered history (Chapter XX, pp.533-547), which is not independent of Forrest.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

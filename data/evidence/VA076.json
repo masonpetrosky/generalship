@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA076",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Saltville record (October 2, 1864), the only frozen record in Burbridge's Raid into Southwest Virginia [October 1864]. The skirmishes at Clinch Mountain and Laurel Creek Gap (October 1), Gillem's and Ammen's operations in East Tennessee and the withdrawal to Kentucky are context; the shootings of wounded prisoners on October 3, 7 and 8 are recorded as post-outcome evidence, not added to the battle's casualty figures. Raid-wide losses are context; they are not assigned to this record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions (11,000 total) with a battle-level strength of 11,000 and no side bounds; the live field reads zero. Burbridge reported his force as 2,500 engaged, and the enemy's, from prisoners, as between 6,000 and 8,000 (read 'G,0()0' in OCR) with Breckinridge said to be present with 4,000 from Lynchburg; his October 10 dispatch gives from 6,000 to 10,000 (the first figure read '0,000'). Jackson's dispatch printed as October 2, 5 p.m., gives the enemy as variously estimated at 4,000 to 8,000, with 2,000 dismounted reported moving by the Russell road, and says 300 men ordered to Saltville had arrived in perfect insubordination.",
+      "rationale": "Figures of one commander for his own side and prisoners' or scouts' estimates of the other; no return. The frozen 11,000 has no side split or inspected basis. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA076"
+          },
+          "column": "forces_text",
+          "quote": "Divisions (11,000 total)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA076"
+          },
+          "column": "strength",
+          "quote": "11000"
+        },
+        {
+          "source_id": "nps-va076-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-07",
+          "locator": "p.552 (OCR page markers; not checked against print)",
+          "quote": "My force amounted to 2,500 engaged."
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-07",
+          "locator": "p.552 (OCR page markers; not checked against print)",
+          "quote": "the enemy’s force was between G,0()0 and 8,000, and that Breckinridge was present with 4,000 from Lynchburg."
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-10",
+          "locator": "p.552 (OCR page markers; not checked against print)",
+          "quote": "a heavy engagement with from 0,000 to 10,000 rebels"
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-10",
+          "locator": "p.552 (OCR page markers; not checked against print)",
+          "quote": "Our force was 2,500 engaged."
+        },
+        {
+          "source_id": "or39-1-ae-jackson-saltville-selections-v1",
+          "section": "aejackson-1864-10-02-5pm",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "The enemy variously estimated from 4,000 to 8,000"
+        },
+        {
+          "source_id": "or39-1-ae-jackson-saltville-selections-v1",
+          "section": "aejackson-1864-10-02-5pm",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "it is reported 2,000 are dismounted and are moving upon ns by the Russell road."
+        },
+        {
+          "source_id": "or39-1-ae-jackson-saltville-selections-v1",
+          "section": "aejackson-1864-10-02-5pm",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "The 300 men ordered here last night have come in, but in a state of ])erfect insubordination."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "gaps-and-bluff-works",
+      "dimension": "terrain",
+      "value": "NPS says Burbridge was delayed at Clinch Mountain and Laurel Gap. Jackson reported Giltner forced to evacuate Laurel Creek Gap and sent men to the Tumbling Creek Gap. Burbridge says the enemy were strongly intrenched on the bluffs around the salt-works, and that his troops took the works on the left and center overlooking the salt-works.",
+      "rationale": "Ground and works described by the two commanders and a summary; no map verification. The Saltville works predate the attack; the gaps were fought over during the approach, so the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "nps-va076-v1",
+          "locator": "Description",
+          "quote": "He was delayed at Clinch Mountain and Laurel Gap by a makeshift Confederate force"
+        },
+        {
+          "source_id": "or39-1-ae-jackson-saltville-selections-v1",
+          "section": "aejackson-1864-10-01",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "Colonel Giltner has been compelled to evacuate Laurel Creek Gap this evening, and is falling back on this place."
+        },
+        {
+          "source_id": "or39-1-ae-jackson-saltville-selections-v1",
+          "section": "aejackson-1864-10-02-5pm",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "(the Tumbling Creek Gap)"
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-07",
+          "locator": "p.552 (OCR page markers; not checked against print)",
+          "quote": "where he was strongly intrenched on the blulfs in heavy force"
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-10",
+          "locator": "p.552 (OCR page markers; not checked against print)",
+          "quote": "We took the enemy’s works, overlooking the salt-works, on our left and center"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition",
+      "dimension": "logistics",
+      "value": "Burbridge says his ammunition gave out in the evening and that only this prevented occupation of the works, and that his men were fatigued and horses jaded on the return. Jackson reported his men all armed but ammunition insufficient, particularly .69 caliber.",
+      "rationale": "Ammunition statements from both commanders; no ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-07",
+          "locator": "p.552 (OCR page markers; not checked against print)",
+          "quote": "In the evening our ammunition gave out"
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-07",
+          "locator": "p.552 (OCR page markers; not checked against print)",
+          "quote": "The occupation of the works themselves was only prevented by failure of ammunition."
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-10",
+          "locator": "p.553 (the running head for p.553 reads '653' in OCR; OCR page markers; not checked against print)",
+          "quote": "the men are much fatigued and horses jaded."
+        },
+        {
+          "source_id": "or39-1-ae-jackson-saltville-selections-v1",
+          "section": "aejackson-1864-10-02-5pm",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "Our men all armed, but ammunition insufficient, particularly caliber .69."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "prisoners-reports-and-recall",
+      "dimension": "information",
+      "value": "Burbridge says the enemy were under Echols, Williams, Vaughn 'and, it is said, Breckinridge', and gives his estimate of their strength as learned from prisoners; he received Sherman's order to return on the 3rd. Jackson reported on October 1 and in the dispatch printed as October 2, 5 p.m., that an attack was expected, and asked for reinforcements.",
+      "rationale": "Knowledge claimed by each commander; no message log inspected. Jackson's dispatch printed as 5 p.m. on the 2nd describes the attack as still expected, so its printed date and hour are not reconciled with the October 2 action.",
+      "citations": [
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-07",
+          "locator": "p.552 (OCR page markers; not checked against print)",
+          "quote": "under Echols, Williams, Vaughn, and, it is said, Breckinridge."
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-07",
+          "locator": "p.552 (OCR page markers; not checked against print)",
+          "quote": "From pris¬ oners I learn"
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-07",
+          "locator": "p.552 (OCR page markers; not checked against print)",
+          "quote": "Received on 3d orders from General Sherman to return."
+        },
+        {
+          "source_id": "or39-1-ae-jackson-saltville-selections-v1",
+          "section": "aejackson-1864-10-01",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "Doubtless an attack will be made on this place early to-morrow."
+        },
+        {
+          "source_id": "or39-1-ae-jackson-saltville-selections-v1",
+          "section": "aejackson-1864-10-02-5pm",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "No doubt is now entertained of a purpose to attack this place."
+        },
+        {
+          "source_id": "or39-1-ae-jackson-saltville-selections-v1",
+          "section": "aejackson-1864-10-02-5pm",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "We hope additional troops will arrive before the enemy."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "saltworks",
+      "dimension": "objectives",
+      "value": "NPS says Burbridge attempted to destroy the saltworks near Saltville and retired without accomplishing his objective; Burbridge reports that some of the outer salt-works were destroyed. Jackson said that without reinforcements his defense could only be feeble.",
+      "rationale": "Stated aims and outcome from a summary and the two commanders.",
+      "citations": [
+        {
+          "source_id": "nps-va076-v1",
+          "locator": "Description",
+          "quote": "attempted to destroy the saltworks near Saltville"
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-10",
+          "locator": "p.553 (the running head for p.553 reads '653' in OCR; OCR page markers; not checked against print)",
+          "quote": "Some of the outer salt-works were destroyed."
+        },
+        {
+          "source_id": "or39-1-ae-jackson-saltville-selections-v1",
+          "section": "aejackson-1864-10-02-5pm",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "Without' further re-euforeements we can make but a feeble defense, but will do the best we can."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Brigadier Generals Stephen Burbridge and Alfred E. Jackson. NPS says the delay at the gaps enabled Jackson to concentrate troops near Saltville and that reinforcements continued to arrive during the day. Burbridge names Echols, Williams and Vaughn, with Breckinridge said to be present, as commanding against him, says Gillem did not come close enough to operate, and says he withdrew his command after dark. Jackson's dispatches show him reporting to Echols before the attack and asking for reinforcements.",
+      "rationale": "Command roles from a summary and the two commanders; who commanded the Confederate defense during the action is not settled by the inspected passages. The listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA076",
+            "belligerent": "US",
+            "fullname": "Stephen Burbridge"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA076",
+            "belligerent": "Confederate",
+            "fullname": "Alfred E. Jackson"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va076-v1",
+          "locator": "Description",
+          "quote": "enabling Brig. Gen. Alfred E. Jackson to concentrate troops near Saltville to meet him."
+        },
+        {
+          "source_id": "nps-va076-v1",
+          "locator": "Description",
+          "quote": "Confederate reinforcements continued to arrive during the day."
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-10",
+          "locator": "p.553 (the running head for p.553 reads '653' in OCR; OCR page markers; not checked against print)",
+          "quote": "General Gillem did not come close enough to operate."
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-07",
+          "locator": "p.552 (OCR page markers; not checked against print)",
+          "quote": "1 withdrew the command in excellent order and spirits."
+        },
+        {
+          "source_id": "or39-1-ae-jackson-saltville-selections-v1",
+          "section": "aejackson-1864-10-01",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "A. E. JACKSON, Brigadier- General^ Commaiiding. Brig. Gen. John Echols."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory; the live Results field reads Union Victory. Burbridge says he drove the enemy from his works on the left and center, whipped him at every point and forced him back to his main works, and withdrew after dark when his ammunition gave out. NPS says Burbridge retired without accomplishing his objective after day-long fighting, and dates the attack to the morning of October 1; the frozen date and Burbridge's dispatch give October 2.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The live result field conflicts with the frozen result and is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA076"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va076-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-07",
+          "locator": "p.552 (OCR page markers; not checked against print)",
+          "quote": "whipped him at every point and forced him back to his main Avoi ks."
+        },
+        {
+          "source_id": "nps-va076-v1",
+          "locator": "Description",
+          "quote": "After day-long fighting, Burbridge retired without accomplishing his objective."
+        },
+        {
+          "source_id": "nps-va076-v1",
+          "locator": "Description",
+          "quote": "On the morning of October 1, the Federals attacked but made little headway."
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-07",
+          "locator": "p.552 (OCR page markers; not checked against print)",
+          "quote": "we met the enemy three miles and a half from Saltville on the morning of the 2d instant"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "shooting-of-wounded-prisoners",
+      "dimension": "outcome",
+      "value": "NPS says that afterwards Confederate soldiers were said to have murdered, captured and wounded Black soldiers. Gardner, a Union surgeon left with the wounded and captured on October 3, reports that armed men he believed to be Confederate soldiers took 5 wounded Black privates from the field hospital that morning and shot them; that on October 7 armed men shot 2 wounded Black prisoners dead in their beds at Emory and Henry College Hospital; that on October 8 men in Confederate uniform overpowered the guard and shot Lieutenant E. C. Smith, and threatened other officers, whom the Confederate surgeon in charge and attendants helped protect; and that he was informed of further outrages after he left.",
+      "rationale": "Recorded as NPS's hedged statement and Gardner's witness report; no Confederate account of these events was inspected, and the perpetrators' identity rests on Gardner's belief. Brisbin's report on the Fifth U.S. Colored Cavalry was read and not selected. No count is adopted, and these deaths are not added to the battle's casualty figures.",
+      "citations": [
+        {
+          "source_id": "nps-va076-v1",
+          "locator": "Description",
+          "quote": "Afterwards, Confederate soldiers were said to have murdered, captured, and wounded black soldiers."
+        },
+        {
+          "source_id": "or39-1-gardner-saltville-selections-v1",
+          "section": "gardner-october-1864",
+          "locator": "p.554 (OCR page markers; not checked against print)",
+          "quote": "I was left with the wounded and was captured October 3"
+        },
+        {
+          "source_id": "or39-1-gardner-saltville-selections-v1",
+          "section": "gardner-october-1864",
+          "locator": "p.554 (OCR page markers; not checked against print)",
+          "quote": "there came to our field hosiiital several armed men, as I believe soldiers in the Confederate service, and took 5 men, privates, wounded (negroes), and shot them."
+        },
+        {
+          "source_id": "or39-1-gardner-saltville-selections-v1",
+          "section": "gardner-october-1864",
+          "locator": "p.554 (OCR page markers; not checked against print)",
+          "quote": "shot 2 of them (negroes) dead in their beds."
+        },
+        {
+          "source_id": "or39-1-gardner-saltville-selections-v1",
+          "section": "gardner-october-1864",
+          "locator": "p.554 (OCR page markers; not checked against print)",
+          "quote": "shot Lieut E. C. Smith, Thirteenth Eegiment Kentucky Cavalry, dead in his bed"
+        },
+        {
+          "source_id": "or39-1-gardner-saltville-selections-v1",
+          "section": "gardner-october-1864",
+          "locator": "p.554 (OCR page markers; not checked against print)",
+          "quote": "I believe that they were only preA^ented doing so by the exertions of Surgeon Murfree, the surgeon in charge"
+        },
+        {
+          "source_id": "or39-1-gardner-saltville-selections-v1",
+          "section": "gardner-october-1864",
+          "locator": "p.555 (OCR page markers; not checked against print)",
+          "quote": "I have been informed that these outrages have been perpetrated on them since we left there."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads 458 total; the live field reads 458 (US 350; CS 108). Burbridge gives his loss as about 350, and 350, and the enemy's as more. Jackson's inspected dispatches give no loss figure; his October letter reports prisoners sent to Lynchburg, their number read '01' in OCR, including the surgeons and attendants at Emory Hospital.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Burbridge's 350 matches the live Union figure; the live Confederate 108 has no inspected basis.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA076"
+          },
+          "column": "casualties_text",
+          "quote": "458 total"
+        },
+        {
+          "source_id": "nps-va076-v1",
+          "locator": "Estimated Casualties",
+          "quote": "458 total (US 350; CS 108;)"
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-07",
+          "locator": "p.552 (OCR page markers; not checked against print)",
+          "quote": "Our loss in all is about 350 ; the enemy more."
+        },
+        {
+          "source_id": "or39-1-burbridge-saltville-selections-v1",
+          "section": "burbridge-1864-10-10",
+          "locator": "p.553 (the running head for p.553 reads '653' in OCR; OCR page markers; not checked against print)",
+          "quote": "Our loss was 350 j the enemy more."
+        },
+        {
+          "source_id": "or39-1-ae-jackson-saltville-selections-v1",
+          "section": "aejackson-letter-october-1864",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "the prisoners, 01 in number, including the surgeons and attendants at Emory Hospital"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Hatchitt's No. 2 casualty report and Brisbin's No. 6 report (read, not selected), Echols's No. 9, Williams's No. 11 and Vaughn's No. 12 reports (read, not selected), the itineraries, Breckinridge's reports on Saltville, Cosby's and Jennings's reports, Grant's report, returns and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Stephen G. Burbridge's October 7 and 10, 1864 dispatches (Official Records Series I, Volume XXXIX, Part 1, No. 1) are one family of interested Union accounts, the same author family as his Cynthiana reports. Alfred E. Jackson's October dispatches and letter (No. 10) are one family of interested Confederate accounts. As the one targeted follow-up, for the post-battle killing of wounded prisoners, Surgeon William H. Gardner's report (No. 3) is a separate Union witness family. The Official Records volume is a shared container, not an additional witness; report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "battle_id": "AR017",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Old River Lake record (June 6, 1864), the only frozen record in the Expedition to Lake Village [June 1864]. The June 5 skirmish at Worthington's landing, the June 7 skirmishing to the boats and the rest of the Mississippi River operations are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names two brigades of the XVI Army Corps against Marmaduke's Division, without bounds; the live field reads zero. Mower says he landed with the Second and Third Brigades of his division, later joined by Gilbert's brigade and Cockefair's battery, and that the enemy's force was entirely cavalry and artillery. Greene, commanding Marmaduke's brigade, says some 8,000 infantry with 700 cavalry and twelve guns under A. J. Smith were in his front, that his own force did not exceed 600 men and six guns, and that he fought against odds of seven to one.",
+      "rationale": "One commander's count of his own force and his estimate of the other's; Mower gives no figures. The frozen 'Marmaduke's Division' is not the brigade Greene commanded. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR017"
+          },
+          "column": "forces_text",
+          "quote": "Two brigades of XVI Army Corps [US]; Marmaduke's Division [CS]"
+        },
+        {
+          "source_id": "nps-ar017-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or34-1-mower-old-river-lake-selections-v1",
+          "section": "mower-1864-06-15",
+          "locator": "p.971 (OCR page markers; not checked against print)",
+          "quote": "Second and Third Brigades of this division"
+        },
+        {
+          "source_id": "or34-1-mower-old-river-lake-selections-v1",
+          "section": "mower-1864-06-15",
+          "locator": "p.972 (OCR page markers; not checked against print)",
+          "quote": "their force consisting entirely of cavalry and artillery."
+        },
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.985 (OCR page markers; not checked against print)",
+          "quote": "some 8,000 infantry, with 700 cavalry and twelve cannon, vrere in my front. My force did not exceed 600 men and six cannon."
+        },
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.985 (OCR page markers; not checked against print)",
+          "quote": "against odds of seven to one."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "bayou-timber-and-open-field",
+      "dimension": "terrain",
+      "value": "Mower says the enemy held the far side of a bayou in heavy timber, largely concealed, while his troops were in an open field and greatly exposed, and that the partly destroyed bridge delayed his crossing. Greene describes Ditch Bayou as a deep cut 3 miles long from Old River Lake to Bayou Mason, with his guns placed by the lake covering the bridge, and says his position had only two outlets and needed watching to the rear and right.",
+      "rationale": "Ground described by the two commanders; no map verification. The bayou is a natural feature but the bridge was damaged during the action, so the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "or34-1-mower-old-river-lake-selections-v1",
+          "section": "mower-1864-06-15",
+          "locator": "p.972 (OCR page markers; not checked against print)",
+          "quote": "found them in position on the opposite side of a bayou"
+        },
+        {
+          "source_id": "or34-1-mower-old-river-lake-selections-v1",
+          "section": "mower-1864-06-15",
+          "locator": "p.972 (OCR page markers; not checked against print)",
+          "quote": "The position occu- pied by the enemy being in heavy timber their line was to a great extent concealed from our own troops, who were in an open field and greatly exposed to their fire."
+        },
+        {
+          "source_id": "or34-1-mower-old-river-lake-selections-v1",
+          "section": "mower-1864-06-15",
+          "locator": "p.972 (OCR page markers; not checked against print)",
+          "quote": "We were detained some time in repair- ing the bridge, which the enemy had partially destroyed"
+        },
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.985 (OCR page markers; not checked against print)",
+          "quote": "a deep cut 3 miles in length and running from Old River Lake to Bayou Mason."
+        },
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.984 (OCR page markers; not checked against print)",
+          "quote": "My posi- tion was a peculiar one, and it behooved me to look as much to my rear and right as to my front."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "guns-and-ammunition",
+      "dimension": "logistics",
+      "value": "Mower says he had no artillery until Smith sent Cockefair's battery, and that Gilbert's brigade relieved the Third Brigade, whose ammunition was exhausted. Greene says he sent his train to the rear across Ditch Bayou before the action and withdrew when his ammunition was exhausted and his rear insecure.",
+      "rationale": "Statements of both commanders; no ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "or34-1-mower-old-river-lake-selections-v1",
+          "section": "mower-1864-06-15",
+          "locator": "p.972 (OCR page markers; not checked against print)",
+          "quote": "Having no artil- lery in my command, General Smith ordered Captain Cockefair with his battery to report to me."
+        },
+        {
+          "source_id": "or34-1-mower-old-river-lake-selections-v1",
+          "section": "mower-1864-06-15",
+          "locator": "p.972 (OCR page markers; not checked against print)",
+          "quote": "whose ammunition was exhausted"
+        },
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.984 (OCR page markers; not checked against print)",
+          "quote": "My train was sent to the rear across Ditch Bayou"
+        },
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.985 (OCR page markers; not checked against print)",
+          "quote": "My ammunition was ex- hausted, my rear not secure, and I determined to withdraw."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouts-and-concealment",
+      "dimension": "information",
+      "value": "Greene says his scouts reported the fleet of transports and gunboats coming up on the 5th and that on the 6th the enemy was discovered to be in large force. Mower says the enemy's line was concealed in the timber, and that he advanced his infantry supposing the battery would keep firing, which it did not.",
+      "rationale": "Knowledge stated by each commander; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.984 (OCR page markers; not checked against print)",
+          "quote": "scouts brought me intelligence that twelve transports and gun-boats were coming up."
+        },
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.984 (OCR page markers; not checked against print)",
+          "quote": "The enemy was discovered to be in large force."
+        },
+        {
+          "source_id": "or34-1-mower-old-river-lake-selections-v1",
+          "section": "mower-1864-06-15",
+          "locator": "p.972 (OCR page markers; not checked against print)",
+          "quote": "supposing he would continue the fire with his battery, which he unfortunately did not do."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "lake-village-and-delay",
+      "dimension": "objectives",
+      "value": "NPS says A. J. Smith ordered Mower to demonstrate against Lake Village, which the Union troops reached after the Confederates delayed them; Mower says he marched toward Lake Village, some 8 miles off, and bivouacked there. Greene says he meant to skirmish back to Ditch Bayou and make a stand there.",
+      "rationale": "Stated aims from a summary and the two commanders.",
+      "citations": [
+        {
+          "source_id": "nps-ar017-v1",
+          "locator": "Description",
+          "quote": "Maj. Gen. A.J. Smith ordered Brig. Gen. Joseph A. Mower to demonstrate against Lake Village."
+        },
+        {
+          "source_id": "or34-1-mower-old-river-lake-selections-v1",
+          "section": "mower-1864-06-15",
+          "locator": "p.972 (OCR page markers; not checked against print)",
+          "quote": "took up my line of march toward Lake Vil- lage, which was some 8 miles distant."
+        },
+        {
+          "source_id": "or34-1-mower-old-river-lake-selections-v1",
+          "section": "mower-1864-06-15",
+          "locator": "p.972 (OCR page markers; not checked against print)",
+          "quote": "We then proceeded to Lake Village, where we bivouacked for the night."
+        },
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.984 (OCR page markers; not checked against print)",
+          "quote": "I determined to skirmish with the enemy to this bayou and there make a stand."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Brigadier General Joseph A. Mower and Colonel Colton Greene. Mower says A. J. Smith arrived and ordered the cavalry withdrawn and the battery sent to him, that the general commanding sent Gilbert's brigade, and that Mower ordered the infantry forward and Hubbard to cross the bayou. Greene says he disposed his regiments, sent a force to Lake Village and pickets to the outlets, and withdrew in order; he says Major General Smith commanded the Union force.",
+      "rationale": "Command roles from the two commanders; the senior Union officer present, A. J. Smith, is not a listed commander for this record. The listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR017",
+            "belligerent": "US",
+            "fullname": "Joseph A. Mower"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR017",
+            "belligerent": "Confederate",
+            "fullname": "Colton Greene"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "or34-1-mower-old-river-lake-selections-v1",
+          "section": "mower-1864-06-15",
+          "locator": "p.972 (OCR page markers; not checked against print)",
+          "quote": "in obedience to the order of General Smith, who had then arrived, the cavalry were withdrawn."
+        },
+        {
+          "source_id": "or34-1-mower-old-river-lake-selections-v1",
+          "section": "mower-1864-06-15",
+          "locator": "p.972 (OCR page markers; not checked against print)",
+          "quote": "I immediately rode to the right and ordered Colonel Hubbard to cross the bayou"
+        },
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.984 (OCR page markers; not checked against print)",
+          "quote": "I therefore sent a strong force under Major Bennett, with Harris’ battery, at Lake Village"
+        },
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.984 (OCR page markers; not checked against print)",
+          "quote": "Major-General Smith commanded"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Mower says the enemy's artillery was silenced after about an hour and the enemy escaped while the bridge was repaired, and that he went on to Lake Village. Greene says he withdrew slowly and in good order after fighting until 2.30, and harassed the enemy back to his boats the next day. NPS says the Confederates delayed the advance but let it reach its objective.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR017"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ar017-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or34-1-mower-old-river-lake-selections-v1",
+          "section": "mower-1864-06-15",
+          "locator": "p.972 (OCR page markers; not checked against print)",
+          "quote": "the fire of their artillery was silenced"
+        },
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.985 (OCR page markers; not checked against print)",
+          "quote": "Thus was the action continued until 2.30 o’clock"
+        },
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.985 (OCR page markers; not checked against print)",
+          "quote": "Everything moved off slowly and in good order."
+        },
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.985 (OCR page markers; not checked against print)",
+          "quote": "harassed him to his boats."
+        },
+        {
+          "source_id": "nps-ar017-v1",
+          "locator": "Description",
+          "quote": "The Rebels delayed the Union advance but, eventually, allowed them to continue to their objective: Lake Village."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads 280 (US 180; CS 100); the live field reads 170 (US 133; CS 37). Greene gives his loss as 4 killed and 33 wounded and, from prisoners, the enemy's as over 250 killed and wounded. Mower says he had already forwarded a list of casualties but gives no figure in the selected report.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Greene's 37 matches the live Confederate figure; no inspected source gives the Union 133 or 180 or the frozen Confederate 100.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR017"
+          },
+          "column": "casualties_text",
+          "quote": "280 total (US 180; CS 100)"
+        },
+        {
+          "source_id": "nps-ar017-v1",
+          "locator": "Estimated Casualties",
+          "quote": "170 total (US 133; CS 37;)"
+        },
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.985 (OCR page markers; not checked against print)",
+          "quote": "4 killed and 33 wounded."
+        },
+        {
+          "source_id": "or34-1-greene-old-river-lake-selections-v1",
+          "section": "greene-1864-06-09",
+          "locator": "p.985 (OCR page markers; not checked against print)",
+          "quote": "From prisoners captured I learn that the enemy’s loss exceeded 250 in killed and wounded."
+        },
+        {
+          "source_id": "or34-1-mower-old-river-lake-selections-v1",
+          "section": "mower-1864-06-15",
+          "locator": "p.972 (OCR page markers; not checked against print)",
+          "quote": "I have already* for- warded a list of casualties."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Cockefair's No. 2 report, the brigade and regimental reports (Nos. 3-13), Marmaduke's report (p.946), Greene's No. 32 report on the Mississippi operations, the Union casualty list Mower forwarded, returns and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Joseph A. Mower's June 15, 1864 report (Official Records Series I, Volume XXXIV, Part 1, No. 1) is one family of interested Union accounts. Colton Greene's June 9, 1864 report (No. 14) is one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness; report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

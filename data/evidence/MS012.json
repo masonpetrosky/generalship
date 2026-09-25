@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "battle_id": "MS012",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Meridian record (February 14-20, 1864) in the Meridian and Yazoo River Expeditions [February 1864]: Sherman's entry into Meridian on the 14th and the destruction there until his departure on the 20th. The skirmishes of February 3-13 on the march from Vicksburg, the Yazoo River expedition, the return to Canton and Vicksburg, and W. Sooy Smith's column (MS013) are context or a separate record. Campaign-wide marches, destruction, captures, returns and expedition-wide loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the two departments, and NPS gives Sherman's main force as 20,000 men with Smith's separate 7,000 cavalry; the live Forces Engaged field reads zero. Sherman's plan was to move with four divisions of infantry and artillery, and he gives his early-February estimate of the enemy as Loring's division of about 7,000 at Canton, French's of 3,000 raised to about 5,000, Forrest's cavalry estimated at 4,000 and Lee's cavalry about 4,000. Polk reported the column entering Jackson on February 5 as estimated at 20,000 and, on February 9, as 35,000 to 40,000 infantry with sixty guns, against his own infantry in that part of the department of about 6,000 under Loring, 1,250 under French and 1,700 exchanged prisoners, 'say 9,000'. His February 26 orders say the enemy had three times the force opposed to him.",
+      "rationale": "Planned and estimated figures at different dates and scopes; none is a matched return at Meridian, where no general engagement is reported. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS012"
+          },
+          "column": "forces_text",
+          "quote": "Department of the Tennessee [US]; Department of Alabama, Mississippi and East Louisiana [CS]"
+        },
+        {
+          "source_id": "nps-ms012-v1",
+          "locator": "Description",
+          "quote": "With the main force of 20,000 men, Sherman set out on the 3rd for Meridian"
+        },
+        {
+          "source_id": "nps-ms012-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.175 (OCR page markers; not checked against print)",
+          "quote": "while I with four good divisions of infantry and artillery would at the same time move from Vicksburg on the same objective points"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.174 (OCR page markers; not checked against print)",
+          "quote": "at Canton, Loring’s division of infantry, 18 guns, and about 7,000 men ; at Brandon, French’s broken division of 10 guns and 3,000 men"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.174 (OCR page markers; not checked against print)",
+          "quote": "two brigades subsequently joined French from Mobile, making his force about 5,000."
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.174 (OCR page markers; not checked against print)",
+          "quote": "estimated force, 4,000."
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.174 (OCR page markers; not checked against print)",
+          "quote": "Lee’s cavalry was about 4,000 strong."
+        },
+        {
+          "source_id": "or32-1-polk-meridian-selections-v1",
+          "section": "polk-dispatches-1864-02-06-to-02-21",
+          "locator": "p.334 (OCR page markers; not checked against print)",
+          "quote": "A column estimated at 20,000 entered Jackson on the evening of the 5th."
+        },
+        {
+          "source_id": "or32-1-polk-meridian-selections-v1",
+          "section": "polk-dispatches-1864-02-06-to-02-21",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "with a force of from 35,000 to 40,000 infantry, sixty pieces of artillery, and cavalry not known."
+        },
+        {
+          "source_id": "or32-1-polk-meridian-selections-v1",
+          "section": "polk-dispatches-1864-02-06-to-02-21",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "Major-General Loring’s division, about 6, 000, and French’s, 1,250, with 1, 700 exchanged prisoners imperfectly organized — say 9,000."
+        },
+        {
+          "source_id": "or32-1-polk-meridian-selections-v1",
+          "section": "polk-general-orders-22-1864-02-26",
+          "locator": "p.346 (OCR page markers; not checked against print)",
+          "quote": "With a force three times that which was opposed to its advance"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "rail-center-and-obstructed-approach",
+      "dimension": "terrain",
+      "value": "Sherman says the road at the Tallahatta, 20 miles from Meridian, was obstructed with fallen timber and the Oktibbeha bridge was burning, so he dropped his trains and bridged the Oktibbeha from a cotton gin; he describes Meridian as a junction of railroads with immense depots, warehouses and sidings. NPS calls it an important railroad center.",
+      "rationale": "Approach and ground described by the Union commander and a summary; no map verification. The obstructions were placed during the operation.",
+      "citations": [
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.175 (OCR page markers; not checked against print)",
+          "quote": "At the Tallahatta, 20 miles from Meridian, we found the road obstructed with fallen timber"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.175 (OCR page markers; not checked against print)",
+          "quote": "pushed on over all obstructions straight for the Oktibbeha, where we found the bridge burning."
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "The immense depots, warehouses, and length of side- track demonstrated the importance to the enemy of that place."
+        },
+        {
+          "source_id": "nps-ms012-v1",
+          "locator": "Description",
+          "quote": "the important railroad center at Meridian"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "destruction-and-rolling-stock",
+      "dimension": "logistics",
+      "value": "Sherman says 10,000 men worked five days destroying the railroads, that Hurlbut reported 60 miles of road destroyed and McPherson 55 miles with 53 bridges and culverts, 6,075 feet of trestle, 19 locomotives and 28 cars, and that the army subsisted chiefly on the enemy's stores; all other rolling-stock had been removed toward Mobile or Selma. Polk says stores of special value were removed and rolling-stock placed beyond reach, and estimates the road destroyed at about 50 miles in all.",
+      "rationale": "Reported destruction and removals by the two commanders; the mileages differ (Sherman's two subordinates' figures against Polk's about 50) and neither is adopted. No supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "For five days 10,000 men worked hard and with a will in that work of destruc- tion"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "The former reports to me officially the destruction of 60 miles of road"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "The latter reports officially 55 miles of road destroyed, with 53 bridges and culverts burned, and 6,075 feet of trestle-work below Enterprise across a swamp burned, 19 locomotives, 28 cars, and 3 steam saw- mills destroyed and burned."
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "all other rolling-stock had been removed to Mobile or toward Selma"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "We subsisted our army and animals chiefly on his stores"
+        },
+        {
+          "source_id": "or32-1-polk-meridian-selections-v1",
+          "section": "polk-dispatches-1864-02-06-to-02-21",
+          "locator": "p.336 (OCR page markers; not checked against print)",
+          "quote": "All stores from the Mobile and Ohio Railroad of special value removed, and rolling-stock placed beyond his reach."
+        },
+        {
+          "source_id": "or32-1-polk-meridian-selections-v1",
+          "section": "polk-1864-02-22",
+          "locator": "p.339 (OCR page markers; not checked against print)",
+          "quote": "The amount of road destroyed by him may be in all about 50 miles"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "missing-cavalry-and-enemy-intentions",
+      "dimension": "information",
+      "value": "Sherman's January 27 instructions told Smith he aimed to reach Meridian by February 10 and asked Smith to reach him there as near that date as possible. Sherman says he could hear nothing of Smith's cavalry, due at Meridian by February 10, and left on the 20th still without word; he says Lee's cavalry was in his front from February 1 to 17 because prisoners were taken daily from each brigade, and that the Mobile diversion deceived the enemy. Polk on February 17 did not know Sherman's intentions, reported a cavalry column from West Tennessee 10,000 strong, and on the 22nd said reliable sources gave the enemy's intention as a move on Montgomery.",
+      "rationale": "Knowledge claimed by each commander; no message log inspected. Estimates of the cavalry column are Polk's reports, not a count.",
+      "citations": [
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-inclosure-3-1864-01-27",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "aiming to reach the latter place by February 10."
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-inclosure-3-1864-01-27",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "finally reach me at or near Meridian as near the date I have men- tioned as possible."
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-02-27",
+          "locator": "p.173 (OCR page markers; not checked against print)",
+          "quote": "I could hear nothing of the cavalry force of' General William Sooy Smith, ordered to be there by February 10."
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "hearing nothing whatever of General Smith"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.175 (OCR page markers; not checked against print)",
+          "quote": "I know that from February 1st to the 17th all of Lee’s cavalry was to my front. We took daily prisoners from each brigade"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.178 (OCR page markers; not checked against print)",
+          "quote": "it completely deceived onr enemy"
+        },
+        {
+          "source_id": "or32-1-polk-meridian-selections-v1",
+          "section": "polk-dispatches-1864-02-06-to-02-21",
+          "locator": "p.336 (OCR page markers; not checked against print)",
+          "quote": "What his intentions are has not yet been deter- mined. He may still go to Mobile or return to Jackson."
+        },
+        {
+          "source_id": "or32-1-polk-meridian-selections-v1",
+          "section": "polk-dispatches-1864-02-06-to-02-21",
+          "locator": "p.336 (OCR page markers; not checked against print)",
+          "quote": "reported 10,000 strong"
+        },
+        {
+          "source_id": "or32-1-polk-meridian-selections-v1",
+          "section": "polk-1864-02-22",
+          "locator": "p.338 (OCR page markers; not checked against print)",
+          "quote": "it was the enemy’s intention to move from Vicksburg, through Jack- son and Meridian, upon Montgomery, Ala."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "railroads-and-avoiding-battle",
+      "dimension": "objectives",
+      "value": "Sherman states his object as breaking up the railroads at and about Meridian and doing the enemy as much damage as possible in February, to be ready by March 1 to assist Banks against Shreveport; he says he was willing to gain his point without battle so far from the river. NPS adds pushing on to Selma and threatening Mobile if favorable. Polk says the enemy's force proved larger than anticipated, so he restored the Mobile garrison and avoided giving battle.",
+      "rationale": "Stated aims of the two commanders and a summary.",
+      "citations": [
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.174 (OCR page markers; not checked against print)",
+          "quote": "My object was to break up the enemy’s railroads at and about Meridian, and to do the enemy as much damage as possible in the month of February"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "I was willing to gain our point without battle"
+        },
+        {
+          "source_id": "nps-ms012-v1",
+          "locator": "Description",
+          "quote": "if the situation was favorable, push on to Selma, Alabama, and threaten Mobile"
+        },
+        {
+          "source_id": "or32-1-polk-meridian-selections-v1",
+          "section": "polk-dispatches-1864-02-06-to-02-21",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "made it necessary to restore this garrison and avoid giving battle"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Major General William T. Sherman and Lieutenant General Leonidas Polk. Sherman calls Hurlbut and McPherson the actual commanders of the troops and says he entrusted the destruction north and east of Meridian to Hurlbut and south and west to McPherson. Sherman says Polk left for Demopolis by rail that morning; Polk says he ordered Lee and Forrest to harass the enemy. NPS says Polk lost his nerve and retreated; Polk says he avoided battle on account of the enemy's force.",
+      "rationale": "Command roles from the two commanders and a summary; the NPS characterization of Polk is recorded as NPS's statement, not adopted. The listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MS012",
+            "belligerent": "US",
+            "fullname": "William T. Sherman"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MS012",
+            "belligerent": "Confederate",
+            "fullname": "Leonidas Polk"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.178 (OCR page markers; not checked against print)",
+          "quote": "the actual commanders of the troops in this expedition"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "To General Hurlbut I intrusted the destruction north and east of the town, and to General McPherson south and west."
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "Polk had left for Demopolis at 10. 30 that morning in the cars."
+        },
+        {
+          "source_id": "or32-1-polk-meridian-selections-v1",
+          "section": "polk-dispatches-1864-02-06-to-02-21",
+          "locator": "p.336 (OCR page markers; not checked against print)",
+          "quote": "Ordered Lee and Forrest to harass him"
+        },
+        {
+          "source_id": "nps-ms012-v1",
+          "locator": "Description",
+          "quote": "lost his nerve and retreated rapidly eastward"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Sherman says he entered Meridian at 3.30 p.m. on the 14th with little opposition and accomplished all he undertook; Polk says the enemy entered Meridian on the 14th, calls the campaign unsuccessful because its cavalry column was kept from a junction, and his orders say it ended ingloriously.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The commanders' judgments of the campaign are campaign contribution, not the tactical result at Meridian.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS012"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ms012-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.175 (OCR page markers; not checked against print)",
+          "quote": "we entered Meridian at 3.30 p. m. of the 14th with little opposition"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "we accomplished all I un- dertook."
+        },
+        {
+          "source_id": "or32-1-polk-meridian-selections-v1",
+          "section": "polk-dispatches-1864-02-06-to-02-21",
+          "locator": "p.336 (OCR page markers; not checked against print)",
+          "quote": "The enemy entered Meridian the 14th, day after my last dispatch."
+        },
+        {
+          "source_id": "or32-1-polk-meridian-selections-v1",
+          "section": "polk-1864-02-22",
+          "locator": "p.338 (OCR page markers; not checked against print)",
+          "quote": "It certainly has not been a successful one."
+        },
+        {
+          "source_id": "or32-1-polk-meridian-selections-v1",
+          "section": "polk-1864-02-22",
+          "locator": "p.338 (OCR page markers; not checked against print)",
+          "quote": "This last deprivation was fatal to the further prosecution of his campaign"
+        },
+        {
+          "source_id": "or32-1-polk-meridian-selections-v1",
+          "section": "polk-general-orders-22-1864-02-26",
+          "locator": "p.346 (OCR page markers; not checked against print)",
+          "quote": "Never did a grand campaign, inaugurated with such pretensions, terminate more in- gloriously."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads Unknown; the live field reads 170 (US 170; CS 0). Sherman's table gives an aggregate loss of 170 for Hurlbut's, McPherson's and the cavalry commands over the whole expedition, with a compiler's footnote pointing to a detailed statement in the addenda; he says the army brought away about 400 prisoners. Polk gives no loss figure.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Sherman's 170 covers the whole march, not the February 14-20 interval; the live 170 matches it but its basis is not stated, and the live Confederate zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS012"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-ms012-v1",
+          "locator": "Estimated Casualties",
+          "quote": "170 total (US 170; CS 0;)"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "Aggregate loss of men* ... 21 68 81 170"
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "*But see detailed statement in Addenda, p. 191."
+        },
+        {
+          "source_id": "or32-1-sherman-meridian-selections-v1",
+          "section": "sherman-1864-03-07",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "brought away about 400 prisoners"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Hurlbut's No. 4 and McPherson's No. 14 reports, the other Union reports, the No. 2 abstract from returns (February 29) and No. 62 Confederate field return (February 20; columns garbled), S. D. Lee's No. 65 report, the Union casualty addenda (p.191) and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). The Official Records Series I, Volume XXXII, Part 1 is a shared container, not an additional witness; each report author is a separate family of interested accounts, and report dates are not event times or proof of contemporary knowledge. Here the two report families are William T. Sherman's (dispatch of February 27, report of March 7) and Leonidas Polk's (dispatches of February 6-March 4, letter of February 22, General Orders No. 22); Polk relays subordinates' dispatches.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

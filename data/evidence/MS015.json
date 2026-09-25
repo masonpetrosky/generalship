@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "battle_id": "MS015",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Tupelo (Harrisburg) record (July 14-15, 1864) in Forrest's Defense of Mississippi [June-August 1864]: the engagement at Harrisburg near Tupelo on the 14th and the night attack, and the withdrawal and action at Old Town Creek on the 15th. The skirmishes at Pontotoc (11th-12th) and the attacks on the column on the 13th are context. Expedition-wide marches, captures, destruction and loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives Smith's force as 14,000 (side bound 14,000); NPS gives Smith more than 14,000, Forrest about 6,000 at Okolona and Lee 2,000 more, and the live field reads 22000 (US 14000; CS 8000). A. J. Smith gives his aggregate on leaving La Grange as about 14,000. Forrest says his forces did not exceed 5,000 against 18,000 or 20,000; he says about 700 infantry were placed under Lyon in the reserve. Lee's dispatch gives no figures.",
+      "rationale": "An expedition aggregate at the start, a subordinate commander's figure for his own forces, and estimates; no matched return. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS015"
+          },
+          "column": "forces_text",
+          "quote": "1st and 3rd Infantry Divisions and Cavalry Division, XVI Army Corps, and 1st Brigade, U.S. Colored Troops (14,000) [US]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "MS015",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "14000"
+        },
+        {
+          "source_id": "nps-ms015-v1",
+          "locator": "Description",
+          "quote": "Forrest was in nearby Okolona with about 6,000 men"
+        },
+        {
+          "source_id": "nps-ms015-v1",
+          "locator": "Description",
+          "quote": "Lee arrived near Pontotoc with 2,000 additional men"
+        },
+        {
+          "source_id": "nps-ms015-v1",
+          "locator": "Forces Engaged",
+          "quote": "22000 total (US 14000; CS 8000;)"
+        },
+        {
+          "source_id": "or39-1-aj-smith-tupelo-selections-v1",
+          "section": "ajsmith-1864-08-05",
+          "locator": "p.250 (OCR page markers; not checked against print)",
+          "quote": "the aggregate of which was about 14,000 men."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.324 (OCR page markers; not checked against print)",
+          "quote": "My forces during these engagements did not exceed 5,000 j that of the enemy was 18,000 or 20,000."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "General Lyon, who had been placed in command of about 700 infantry"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "ridge-works-and-open-field",
+      "dimension": "terrain",
+      "value": "Forrest says the enemy held a strong position on a ridge fronting an open field that sloped gradually toward the attackers, and had built fortifications during the night, making it almost impregnable. Smith says the enemy came on in three lines from the edge of the timber and that their dead were found within thirty yards of his batteries. Lee reported that he could not force the position.",
+      "rationale": "Ground and works described by the two sides' commanders; no map verification. The works were built the night before the attack, so the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "The enemy had selected a strong position on a ridge fronting an open field, gradually sloping toward our approach."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "During the night he had con¬ structed fortifications"
+        },
+        {
+          "source_id": "or39-1-aj-smith-tupelo-selections-v1",
+          "section": "ajsmith-1864-08-05",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "The enemy started from the edge of the timber in three lines"
+        },
+        {
+          "source_id": "or39-1-aj-smith-tupelo-selections-v1",
+          "section": "ajsmith-1864-08-05",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "their dead were found within thirty yards of our batteries."
+        },
+        {
+          "source_id": "or39-1-sd-lee-tupelo-selections-v1",
+          "section": "sdlee-1864-07-14",
+          "locator": "p.320 (OCR page markers; not checked against print)",
+          "quote": "Could not force his position."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-ammunition-and-heat",
+      "dimension": "logistics",
+      "value": "Smith says that on the morning of the 15th, much of the bread having been spoiled when drawn, he had one day's rations left and about 100 rounds of artillery ammunition per gun, which made return necessary; NPS says he was short on rations. Forrest says hundreds of his men fell fainting from the heat and that brigades that exhausted their ammunition were relieved.",
+      "rationale": "Supply and condition statements from the two commanders and a summary; no supply return.",
+      "citations": [
+        {
+          "source_id": "or39-1-aj-smith-tupelo-selections-v1",
+          "section": "ajsmith-1864-08-05",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "much of our bread was spoiled when drawn from the commissary depot, we had on hand but one day’s rations left."
+        },
+        {
+          "source_id": "or39-1-aj-smith-tupelo-selections-v1",
+          "section": "ajsmith-1864-08-05",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "we had remaining only about 100 rounds l)er gun."
+        },
+        {
+          "source_id": "nps-ms015-v1",
+          "locator": "Description",
+          "quote": "Short on rations, Smith did not pursue"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "hundreds of men fell fainting AAuth exhaustion"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "having exhausted their ammunition"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouts-and-pontotoc-impression",
+      "dimension": "information",
+      "value": "Forrest says his scouts kept him constantly advised of the enemy's movements from La Grange, and that Smith's delay at Pontotoc gave the impression he meant to fall back toward Memphis, after which it was decided to accept battle wherever offered. Smith says he found the enemy strongly posted south of Pontotoc and chose to flank the position rather than attack it; NPS says he moved on Tupelo fearing an ambush.",
+      "rationale": "Knowledge and reasons stated by the commanders and a summary; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.320 (OCR page markers; not checked against print)",
+          "quote": "kept me constantly advised of his movements."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.321 (OCR page markers; not checked against print)",
+          "quote": "The delay of the enemy at Pontotoc produced the impression that he designed to fall back toward Memphis"
+        },
+        {
+          "source_id": "or39-1-aj-smith-tupelo-selections-v1",
+          "section": "ajsmith-1864-08-05",
+          "locator": "pp.250–251 (OCR page markers; not checked against print)",
+          "quote": "I did not deem it prudent to attack the position from Chap. LI.] ^ EXPEDITION TO TUPELO, MISS. 251 the front if it could he flanked."
+        },
+        {
+          "source_id": "nps-ms015-v1",
+          "locator": "Description",
+          "quote": "Smith, fearing an ambush, moved east toward Tupelo."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "hold-forrest-and-choose-ground",
+      "dimension": "objectives",
+      "value": "NPS says Smith's mission was to keep Forrest from raiding Sherman's railroad in Middle Tennessee. Smith says his object on the 13th was to secure Tupelo, gaining the railroad and the choice of ground for battle. Forrest says it was decided after consultation to accept battle wherever the enemy offered it and to attack if he retreated.",
+      "rationale": "Stated aims from the two commanders and a summary.",
+      "citations": [
+        {
+          "source_id": "nps-ms015-v1",
+          "locator": "Description",
+          "quote": "Smith's mission was to insure that Maj. Gen. Nathan B. Forrest and his cavalry did not raid Maj. Gen. William T. Sherman's railroad lifeline"
+        },
+        {
+          "source_id": "or39-1-aj-smith-tupelo-selections-v1",
+          "section": "ajsmith-1864-08-05",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "as my object Avas to secure Tupelo, tlius gaining i)ossession of the railroad and giving me the opportunity to choose my OAvn ground for the battle"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.321 (OCR page markers; not checked against print)",
+          "quote": "it was determined to accept battle wherever he offered it and to attack him if he attempted a retreat."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Lieutenant General Stephen D. Lee, Major General Nathan Bedford Forrest and Major General A. J. Smith. Forrest says Lee ordered the attack and the advance and directed him to swing the right against the enemy's left; that on reaching the front he found the Kentucky brigade had been rashly precipitated forward and repulsed, and did not push Roddey's command forward; that Lee later ordered him to fall back, and after his wound at Old Town Creek he ordered Chalmers to take command. Lee reported that he attacked Smith in position at Tupelo that morning. Smith says Mower advanced his lines after two hours and credits Mower's division with the hardest fighting. NPS calls the attacks a number of uncoordinated assaults ordered by Lee.",
+      "rationale": "Command roles from the commanders and a summary; the NPS characterization is recorded as NPS's statement. The listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MS015",
+            "belligerent": "Confederate",
+            "fullname": "Stephen D. Lee"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MS015",
+            "belligerent": "Confederate",
+            "fullname": "Nathan Bedford Forrest"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MS015",
+            "belligerent": "US",
+            "fullname": "A.J. Smith"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "On the morning of the 14th Lieutenant-General Lee ordered the attack to be made"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "directed me to swing the right around upon the enemy’s left."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "I found the Kentucky brigade had been rashly pre- cijiitated forward"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "1 did not push forAAmrd General Koddey’s command Avhen it arrived"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.324 (OCR page markers; not checked against print)",
+          "quote": "I ordered General Chalmers to assume command"
+        },
+        {
+          "source_id": "or39-1-sd-lee-tupelo-selections-v1",
+          "section": "sdlee-1864-07-14",
+          "locator": "p.320 (OCR page markers; not checked against print)",
+          "quote": "Attacked him in position at Tupelo this morning."
+        },
+        {
+          "source_id": "or39-1-aj-smith-tupelo-selections-v1",
+          "section": "ajsmith-1864-08-05",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "General Mower, losing all hope of their attempting any closer quarters, advanced his lines about a quarter of a mile"
+        },
+        {
+          "source_id": "or39-1-aj-smith-tupelo-selections-v1",
+          "section": "ajsmith-1864-08-05",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "General Mower was more fortunate than the others in being in the exact position where the hardest fighting occurred"
+        },
+        {
+          "source_id": "nps-ms015-v1",
+          "locator": "Description",
+          "quote": "Lee attacked at 7:30 am the next morning in a number of uncoordinated assaults"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Lee's July 14 dispatch calls the battle 'a drawn one' of three hours and says his army held a strong position. Smith says his troops drove the attackers from the field with heavy loss and returned for lack of rations and ammunition. Forrest says his troops could not carry the works and that the enemy, retreating, was driven back to his starting point.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Lee's same-day judgment differs from the recorded result and is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS015"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ms015-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or39-1-sd-lee-tupelo-selections-v1",
+          "section": "sdlee-1864-07-14",
+          "locator": "p.320 (OCR page markers; not checked against print)",
+          "quote": "The battle was a drawn one, and lasted three hours."
+        },
+        {
+          "source_id": "or39-1-aj-smith-tupelo-selections-v1",
+          "section": "ajsmith-1864-08-05",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "driving the enemy with heavy loss from the field"
+        },
+        {
+          "source_id": "or39-1-aj-smith-tupelo-selections-v1",
+          "section": "ajsmith-1864-08-05",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "It, therefore, became a matter of necessity to return ."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.324 (OCR page markers; not checked against print)",
+          "quote": "The enemy Avas thus driven back to the point from Avhich he started"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads 1,948 (US 648; CS 1,300); the live field reads 1973 (US 647; CS 1326). Forrest gives his loss as 210 killed and 1,116 wounded (read '1,11G' in OCR) and the enemy's as equal to his own. Smith says 270 enemy dead were counted in Mower's front, that the enemy's loss on the 14th could not fall short of 1,800, and that it would reach 3,000 killed, wounded and prisoners over the expedition; the Union casualty return (No. 3) is garbled in OCR and was not selected.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Forrest's 210 and 1,116 sum to the live Confederate 1,326; the frozen figures have no inspected basis. Smith's 3,000 covers the whole expedition.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS015"
+          },
+          "column": "casualties_text",
+          "quote": "1,948 total (US 648; CS 1,300)"
+        },
+        {
+          "source_id": "nps-ms015-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1973 total (US 647; CS 1326;)"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.324 (OCR page markers; not checked against print)",
+          "quote": "Two hundred and ten Avere killed and 1,11G Avounded."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-08-04",
+          "locator": "p.324 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s loss Avas equal to my OAAm."
+        },
+        {
+          "source_id": "or39-1-aj-smith-tupelo-selections-v1",
+          "section": "ajsmith-1864-08-05",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "270 of their dead were counted on the field imme¬ diately in his front."
+        },
+        {
+          "source_id": "or39-1-aj-smith-tupelo-selections-v1",
+          "section": "ajsmith-1864-08-05",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "The loss of the enemy in this day’s fighting could not fall short of 1,800 killed, wounded, and missing."
+        },
+        {
+          "source_id": "or39-1-aj-smith-tupelo-selections-v1",
+          "section": "ajsmith-1864-08-05",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s loss will reach 3,000 men killed, Avounded, and prisoners during the expedition."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Washburn's transmittal (read, not selected), the No. 3 Union casualty return (garbled), Mower's, Moore's, Grierson's and the other Union reports (Nos. 4-43), Chalmers's, Buford's and the other Confederate reports (Nos. 46-60), Jordan and Pryor's Chapter XIX and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Nathan B. Forrest's reports of July 1 and August 4, 1864, the provost-marshal's report forwarded with the first, his June 1864 address and his August 21 Memphis dispatch as relayed by Maury (Official Records Series I, Volume XXXIX, Part 1, Nos. 22, 45 and 15) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness; report dates are not event times or proof of contemporary knowledge. Here the second family is A. J. Smith's August 5, 1864 report (No. 2). As the one targeted follow-up, Stephen D. Lee's July 14 dispatch to Bragg (No. 44), the only Lee document in this expedition's report list, is a separate family for the senior Confederate commander.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

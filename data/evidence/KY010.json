@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "battle_id": "KY010",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Paducah record (March 25, 1864) in Forrest's Expedition into West Tennessee and Kentucky [March-April 1864]: the attack on the town and Fort Anderson on the 25th, with the demonstration and exchange of flags on the morning of the 26th. The capture of Union City (March 24) and Buford's April 14 raid on Paducah are context; Fort Pillow is TN030. Expedition-wide captures, recruiting and loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the Union garrison as approx. 650 men, with a side bound of 650; NPS says Forrest set out with fewer than 3,000 men and gives the garrison as 650, and the live field reads 3650 (US 650; CS 3000). Hicks lists three companies of the 122nd Illinois (120), the 16th Kentucky Cavalry (271) and the 1st Kentucky Heavy Artillery (colored, 274), 665 in all, against 6,500 under Forrest, Buford, Harris and Thompson. Forrest says he moved on Paducah with Buford's division, and on April 15 gave his whole command as four small brigades of about 5,000.",
+      "rationale": "A post commander's count of his own force, his estimate of the enemy and an expedition-wide figure three weeks later; no return for the attackers. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY010"
+          },
+          "column": "forces_text",
+          "quote": "Union Garrison (approx. 650 men) [US]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "KY010",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "650"
+        },
+        {
+          "source_id": "nps-ky010-v1",
+          "locator": "Description",
+          "quote": "with a force of less than 3,000 men"
+        },
+        {
+          "source_id": "nps-ky010-v1",
+          "locator": "Forces Engaged",
+          "quote": "3650 total (US 650; CS 3000;)"
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.548 (OCR page markers; not checked against print)",
+          "quote": "Companies C, H, and K, One hundred and twenty-second Illinois In- fantry, commanded by Maj. J. F. Chapman, 120 men"
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.548 (OCR page markers; not checked against print)",
+          "quote": "Sixteenth Kentucky Cavalry, Ma jor Barnes commanding, 271 men"
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.548 (OCR page markers; not checked against print)",
+          "quote": "First Ken- tucky Heavy Artillery (colored), 274 men"
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.548 (OCR page markers; not checked against print)",
+          "quote": "making a total of 665 men."
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.548 (OCR page markers; not checked against print)",
+          "quote": "of 6,500 men."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-03-27",
+          "locator": "p.607 (OCR page markers; not checked against print)",
+          "quote": "I moved now with Buford’s division direct from Jackson to Paducah in fifty hours"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-davis",
+          "locator": "p.611 (OCR page markers; not checked against print)",
+          "quote": "My command consists of four small brigades, number- ing about 5,000 men"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fort-houses-and-gunboats",
+      "dimension": "terrain",
+      "value": "NPS says the garrison retired to Fort Anderson at the west end of town, supported by two gunboats on the Ohio. Hicks says Confederate sharpshooters used houses near the fort, which he had burned on the 26th, and that the gunboats Peosta and Paw Paw shelled the city and the enemy's flank. Forrest says he drove the enemy to their gunboats and forts.",
+      "rationale": "Ground described by the post commander, the attacker and a summary; no map verification. The fort predates the attack; the phase is left unresolved because the house-burning altered the ground.",
+      "citations": [
+        {
+          "source_id": "nps-ky010-v1",
+          "locator": "Description",
+          "quote": "retired to Fort Anderson, in the town's west end"
+        },
+        {
+          "source_id": "nps-ky010-v1",
+          "locator": "Description",
+          "quote": "Hicks had support from two gunboats on the Ohio River"
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.548 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s sharpshooters in the mean time got possession of the houses around and near the fort"
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.548 (OCR page markers; not checked against print)",
+          "quote": "to send out squads to burn all the houses within musket-range of the fort"
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.549 (OCR page markers; not checked against print)",
+          "quote": "The gun-boats Peosta, Captain Smith, and Paw Paw, Captain O’Neil, were present and rendered valuable aid in shelling the city"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-03-27",
+          "locator": "p.607 (OCR page markers; not checked against print)",
+          "quote": "drove the enemy to their gun-boats and forts"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-stores",
+      "dimension": "logistics",
+      "value": "Hicks says 27,000 of the 30,000 rounds he began with were expended, so he ordered the rest shared and bayonets fixed, and that the loss in government stores was inconsiderable apart from a burned quartermaster's depot. Forrest says he captured many stores and horses and burned sixty bales of cotton, a steamer and the dry-dock, and on April 15 lists clothing, several hundred horses and medical stores; NPS says his command destroyed unwanted supplies and rounded up horses and mules.",
+      "rationale": "Ammunition and stores reported by the two commanders and a summary; they differ on the extent of the stores taken, and neither is adopted. No return inspected.",
+      "citations": [
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "pp.547–548 (OCR page markers; not checked against print)",
+          "quote": "out of 30,000 rounds (the amount we commenced the 548 KY., SW. VA., TENN., MISS., ALA., AND N. GA. [Chap. XLIV. fight with) 27,000 had been already expended."
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.549 (OCR page markers; not checked against print)",
+          "quote": "Our loss in Government stores was inconsiderable."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-03-27",
+          "locator": "p.607 (OCR page markers; not checked against print)",
+          "quote": "Captured many stores and horses, burned up sixty bales of cotton, one steamer and the dry-dock"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-04-15-to-davis",
+          "locator": "p.612 (OCR page markers; not checked against print)",
+          "quote": "capturing a large amount of clothing, several hundred horses, a large lot of medical stores for the command"
+        },
+        {
+          "source_id": "nps-ky010-v1",
+          "locator": "Description",
+          "quote": "destroyed unwanted supplies, loaded what they wanted, and rounded up horses and mules"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "late-warning-and-smallpox",
+      "dimension": "information",
+      "value": "Hicks says his scouts brought no news of the enemy at noon and that the pickets were driven in within minutes of the alarm raised by a second scouting party; he says the enemy took position and planted a battery while the flag of truce was pending. Forrest gives the prevalence of smallpox as his reason for leaving the town.",
+      "rationale": "Knowledge and reasons stated by each commander; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.547 (OCR page markers; not checked against print)",
+          "quote": "On the 25th instant my scouts came in at about 12 m., bringing- no news of the enemy’s whereabouts."
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.547 (OCR page markers; not checked against print)",
+          "quote": "in less than ten minutes after they reported the enemy were driving in my pickets"
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.547 (OCR page markers; not checked against print)",
+          "quote": "While the flag of truce was near the fort, and during its pend- ency, the enemy were engaged in taking position and planting a battery."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-03-27",
+          "locator": "p.607 (OCR page markers; not checked against print)",
+          "quote": "found the small-pox was raging and evacu- ated the place."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surrender-demand-and-refusal",
+      "dimension": "objectives",
+      "value": "NPS describes a multipurpose expedition to recruit, re-outfit and disperse Union forces. Forrest's demand as printed by Hicks asked surrender of the fort, troops and public property, promising treatment as prisoners of war and threatening no quarter if the works were stormed; Hicks replied that his duty was to defend the post. Forrest wrote on March 27 that fifteen unmolested days would add 2,000 men to his command.",
+      "rationale": "Stated aims from the demand and reply printed by Hicks, Forrest's dispatch and a summary.",
+      "citations": [
+        {
+          "source_id": "nps-ky010-v1",
+          "locator": "Description",
+          "quote": "multipurpose expedition (recruit, reoutfit, disperse Yankees, etc.)"
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.547 (OCR page markers; not checked against print)",
+          "quote": "I demand the sur- render of the fort and troops, with all public property. If you surrender, you shall be treated as prisoners of war ; but if I have to storm your works, you may expect no quarter."
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.547 (OCR page markers; not checked against print)",
+          "quote": "I have been placed here by my Government to defend this post"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-03-27",
+          "locator": "p.607 (OCR page markers; not checked against print)",
+          "quote": "Think if I can remain unmolested here fifteen days I will be able to add 2,000 men to my command."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Major General Nathan Bedford Forrest, Colonel Stephen G. Hicks and Lieutenant Commander James W. Shirk (navy). Hicks declined the surrender, ordered the remaining ammunition shared and bayonets fixed, and on the 26th ordered houses burned; he names the gunboats' captains as Smith and O'Neil and does not name Shirk. Hicks says Brigadier General A. P. Thompson was killed in the third assault; NPS calls the assaulting party a small segment of Forrest's command. The inspected passages do not say who ordered the assaults.",
+      "rationale": "Command roles from the post commander and a summary; Forrest's inspected dispatches do not describe the assaults. Shirk's role is not established by the inspected passages. The listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KY010",
+            "belligerent": "Confederate",
+            "fullname": "Nathan Bedford Forrest"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KY010",
+            "belligerent": "US",
+            "fullname": "Stephen G. Hicks"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KY010",
+            "belligerent": "US",
+            "fullname": "James W. Shirk"
+          },
+          "column": "rank",
+          "quote": "Lieutenant Commander"
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.547 (OCR page markers; not checked against print)",
+          "quote": "I must, therefore, respectfully decline surrendering as you may require."
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.548 (OCR page markers; not checked against print)",
+          "quote": "I ordered the remainder to be equally distributed ; the men to fix their bayonets"
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.547 (OCR page markers; not checked against print)",
+          "quote": "It was in this last strug- gle that Brig. Gen. A. P. Thompson (Confederate) was killed."
+        },
+        {
+          "source_id": "nps-ky010-v1",
+          "locator": "Description",
+          "quote": "A small segment of Forrest's command assaulted Fort Anderson and was repulsed"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Hicks says three attempts to storm the fort were repulsed and the enemy withdrew for the night; Forrest says he held the town for ten hours and could have held it longer. NPS calls it a Confederate victory with no lasting results beyond the destruction of supplies and capture of animals.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The fort held while the town was occupied; the result field is kept.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY010"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ky010-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.547 (OCR page markers; not checked against print)",
+          "quote": "attempted to storm our works, but were repulsed."
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.547 (OCR page markers; not checked against print)",
+          "quote": "They made a third effort, but were forced to abandon their design."
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.548 (OCR page markers; not checked against print)",
+          "quote": "the rebel general withdrew his command out of the range of my guns and went into camp for the night."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-03-27",
+          "locator": "p.607 (OCR page markers; not checked against print)",
+          "quote": "held the town for ten hours, and could have held it longer"
+        },
+        {
+          "source_id": "nps-ky010-v1",
+          "locator": "Description",
+          "quote": "other than the destruction of supplies and capture of animals, no lasting results occurred"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 140 (US 90; CS 50). Hicks gives his casualties as 14 killed and 46 wounded, and the enemy's, from the most reliable information he could obtain, as 300 killed and 1,000 to 1,200 wounded, 'safely set down at 1,500'. Forrest's March 27 dispatch gives his loss at Union City and Paducah together as 25 killed and wounded as far as known and the enemy's loss in Paducah as 50 killed, wounded and prisoners, 'in all, 500'; his exchange letter printed by Hicks speaks of 35 or 40 Federal soldiers captured at Paducah.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Forrest's 25 covers two actions and his 'in all, 500' appears to include Union City; neither side's figures match the frozen Confederate 50 or Union 90.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY010"
+          },
+          "column": "casualties_text",
+          "quote": "140 total (US 90; CS 50)"
+        },
+        {
+          "source_id": "nps-ky010-v1",
+          "locator": "Estimated Casualties",
+          "quote": "140 total (US 90; CS 50;)"
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.549 (OCR page markers; not checked against print)",
+          "quote": "The casualties of my command were 14 killed and 46 wounded."
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.549 (OCR page markers; not checked against print)",
+          "quote": "was 300 killed and from 1,000 to 1,200 wounded. His killed and wounded may be safely set down at 1,500."
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-03-27",
+          "locator": "p.607 (OCR page markers; not checked against print)",
+          "quote": "My loss at Union City and Paducah, as far as known, is 25 killed and wounded"
+        },
+        {
+          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
+          "section": "forrest-1864-03-27",
+          "locator": "p.607 (OCR page markers; not checked against print)",
+          "quote": "Enemy’s loss in Paducah 50 killed, wounded, and prisoners : in all, 500."
+        },
+        {
+          "source_id": "or32-1-hicks-paducah-selections-v1",
+          "section": "hicks-1864-04-06",
+          "locator": "p.548 (OCR page markers; not checked against print)",
+          "quote": "about 35 or 40 Federal soldiers who were captured here yesterday"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Chapman's No. 7 report, Brayman's No. 1 and Odlin's No. 2 reports, Shirk's and the other naval reports (the Annual Report of the Secretary of the Navy), the Confederate subordinate reports, Jordan and Pryor's Chapter XV, returns and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Nathan B. Forrest's dispatches, letters and April 26 report (Official Records Series I, Volume XXXII, Part 1, No. 26) and his June 1864 address to his troops (Volume XXXIX, Part 1, addenda to No. 22) are one family of interested Confederate accounts; Jordan and Pryor's registered history is not independent of it and was not used here. The Official Records volumes are shared containers, not additional witnesses; report dates are not event times or proof of contemporary knowledge. Here the second family is Stephen G. Hicks's report dated April 6, 1864 (No. 6), which prints Forrest's March 25 and 26 letters and Hicks's replies; the printed date and its reference to 'the 25th instant' are not reconciled.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

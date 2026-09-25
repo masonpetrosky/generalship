@@ -1,0 +1,411 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN033",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Bull's Gap record (November 11-13, 1864), the only frozen record in Breckenridge's Advance into East Tennessee [November 1864]. The frozen interval covers the attacks at Bull's Gap on the 11th and 12th and the firing of the 13th. The Union evacuation on the night of the 13th, the night attack and rout near Russellville and Morristown on the 14th, and the operations at Strawberry Plains (16th-17th) are context; their losses and captures are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names Gillem's Governor's Guard brigade and gives the Confederate department force as approx. 2,400 (side bound 2,400); the live field reads '0 total (US ; CS ;)'. Breckinridge says he advanced with a miscellaneous force of about 1,800 men and six howitzers, later joined by Palmer's mixed force of some 600 (read 'GOO' in OCR), against an enemy of about 2,500 with six guns. Gillem says he learned Breckinridge was advancing with a force much superior to his, that Ammen told others the attackers were just 1,200, and that at Morristown on the 14th the enemy numbered probably 2,500 to 3,000.",
+      "rationale": "Each commander's figure for his own side and estimates of the other, at different dates; Gillem gives no count of his own brigade in the selected report. None is adopted as a matched opening strength. The live blank is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN033"
+          },
+          "column": "forces_text",
+          "quote": "Governor's Guard Brigade, State of Tennessee [US]; Department of Western Virginia and East Tennessee (approx. 2,400) [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "TN033",
+            "belligerent": "Confederate"
+          },
+          "column": "strength_min",
+          "quote": "2400"
+        },
+        {
+          "source_id": "nps-tn033-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US ; CS ;)"
+        },
+        {
+          "source_id": "or39-1-breckinridge-bulls-gap-selections-v1",
+          "section": "breckinridge-1864-11-29",
+          "locator": "p.892 (OCR page markers; not checked against print)",
+          "quote": "amounting to about 1,800 men, Acith four 12-pounder and two G-pounder hoAvitzers"
+        },
+        {
+          "source_id": "or39-1-breckinridge-bulls-gap-selections-v1",
+          "section": "breckinridge-1864-11-29",
+          "locator": "p.892 (OCR page markers; not checked against print)",
+          "quote": "sonie GOO men."
+        },
+        {
+          "source_id": "or39-1-breckinridge-bulls-gap-selections-v1",
+          "section": "breckinridge-1864-11-29",
+          "locator": "p.892 (OCR page markers; not checked against print)",
+          "quote": "The force of the enemy Avas about 2,500 strong, Avith six pieces of artillery and a large Avagon train."
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.888 (OCR page markers; not checked against print)",
+          "quote": "advancing with a force much superior to mine"
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.888 (OCR page markers; not checked against print)",
+          "quote": "there AA^ere just 1,200"
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.891 (OCR page markers; not checked against print)",
+          "quote": "numbering probably fr om 2,500 to 3,000 men."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "gap-ridges-and-mountain",
+      "dimension": "terrain",
+      "value": "Gillem says he posted his troops at the gap for defense front and rear and strengthened the position with the few axes he had; the assault of the 12th reached the rude works on the ridges of his left. Breckinridge says his dismounted force ascended the mountain to move down on the enemy's left and carried a line of works, and that he later turned the gap through Taylor's Gap, two and a half miles below.",
+      "rationale": "Ground and works described by the two commanders; no map verification. The works were thrown up on the 10th, so the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.888 (OCR page markers; not checked against print)",
+          "quote": "posted my troops Avith a view to defense both from front and rear."
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.888 (OCR page markers; not checked against print)",
+          "quote": "I strengthened my ]X)sition as much as i)ossible with the few axes at my disposal."
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.889 (OCR page markers; not checked against print)",
+          "quote": "many of them actually entering the rude works behind which our troops were posted"
+        },
+        {
+          "source_id": "or39-1-breckinridge-bulls-gap-selections-v1",
+          "section": "breckinridge-1864-11-29",
+          "locator": "p.893 (OCR page markers; not checked against print)",
+          "quote": "I was to ascend the mountain and move down on the enemy’s left."
+        },
+        {
+          "source_id": "or39-1-breckinridge-bulls-gap-selections-v1",
+          "section": "breckinridge-1864-11-29",
+          "locator": "p.893 (OCR page markers; not checked against print)",
+          "quote": "The force on the mountain succeeded in carrying a line of works"
+        },
+        {
+          "source_id": "or39-1-breckinridge-bulls-gap-selections-v1",
+          "section": "breckinridge-1864-11-29",
+          "locator": "p.893 (OCR page markers; not checked against print)",
+          "quote": "through Taylor’s Gap, about two miles and a half below Bull’s Gap"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "bread-ammunition-and-forage",
+      "dimension": "logistics",
+      "value": "Gillem says his men had no bread for two days by the 12th and fought four days without bread or salt, that his ammunition for artillery and small-arms was almost exhausted, and that forage near the gap was gone and the horses were failing; he blames Ammen for not sending supplies. The frozen description likewise says the Union forces were short on everything from ammunition to rations.",
+      "rationale": "Supply statements from the Union commander and a summary; no return inspected. Gillem's blame of Ammen is his statement.",
+      "citations": [
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.889 (OCR page markers; not checked against print)",
+          "quote": "my men having had none for tAA^o days."
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.889 (OCR page markers; not checked against print)",
+          "quote": "My ammunition, both for artillery and small-arms, was almost exhausted"
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.889 (OCR page markers; not checked against print)",
+          "quote": "The forage in the vicinity having been exhausted, the horses Avere failing fast"
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.889 (OCR page markers; not checked against print)",
+          "quote": "fought for four days with¬ out bread or salt"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN033"
+          },
+          "column": "description",
+          "quote": "short on everything from ammunition to rations"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-and-flank-march",
+      "dimension": "information",
+      "value": "Gillem says he learned on the 8th that Breckinridge was advancing in superior force, and on the 10th that Vaughn was moving around to attack his rear; he says Ammen declined aid on the belief that only 1,200 were advancing. Breckinridge says the enemy had foolishly withdrawn his pickets, so his column passed Taylor's Gap without notice. Gillem says he saw enemy infantry arriving on the 13th.",
+      "rationale": "Knowledge claimed by each commander; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.888 (OCR page markers; not checked against print)",
+          "quote": "Vaughn’s force had passed around by Av ay of Warren sburg to attack me in rear aa hilst Breckin¬ ridge attacked me in front."
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.888 (OCR page markers; not checked against print)",
+          "quote": "and declined fur¬ nishing any aid under the circumstances."
+        },
+        {
+          "source_id": "or39-1-breckinridge-bulls-gap-selections-v1",
+          "section": "breckinridge-1864-11-29",
+          "locator": "p.893 (OCR page markers; not checked against print)",
+          "quote": "The enemy having foolishly withdrawn his pickets, we passed without opposition or notice through Taylor’s Gap"
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.889 (OCR page markers; not checked against print)",
+          "quote": "as I could see re-enforcements of infantry arriAing in the enemy’s camp"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "territory-and-railroad",
+      "dimension": "objectives",
+      "value": "The frozen description says Breckinridge expected Confederate sympathizers to join him in driving Union forces from East Tennessee; Breckinridge says he advanced because the enemy was too close to Bristol. Gillem says Breckinridge had avowed an intention of recovering the territory lost by Vaughn, and that he appealed for help to save the railroad to Knoxville.",
+      "rationale": "Stated aims from a summary and the two commanders.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN033"
+          },
+          "column": "description",
+          "quote": "anticipating that Confederate sympathizers would join his force and help drive the Yankees from the area."
+        },
+        {
+          "source_id": "or39-1-breckinridge-bulls-gap-selections-v1",
+          "section": "breckinridge-1864-11-29",
+          "locator": "p.892 (OCR page markers; not checked against print)",
+          "quote": "Think¬ ing the enemy too close to Bristol, I collected a miscellaneous force"
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.888 (OCR page markers; not checked against print)",
+          "quote": "tliat he had avowed his intention of re- coA^ering the territory lost by General Vaughn."
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.888 (OCR page markers; not checked against print)",
+          "quote": "saving the railroad to Knoxville."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Major General John C. Breckinridge and Brigadier General Alvan C. Gillem; the live page styles Gillem Major General. Breckinridge says he arranged the attack of the 12th with the artillery and dismounted cavalry under Crittenden in front, Vaughn in the rear and himself leading Duke's and other dismounted men on the mountain; Gillem says Breckinridge and Duke led the assault on his left, and that he himself determined to evacuate the gap on the night of the 13th.",
+      "rationale": "Command roles from the two commanders; the listed commanders do not receive automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN033",
+            "belligerent": "Confederate",
+            "fullname": "John C. Breckinridge"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN033",
+            "belligerent": "US",
+            "fullname": "Alvan C. Gillem"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-tn033-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Alvan Gillem [US]"
+        },
+        {
+          "source_id": "or39-1-breckinridge-bulls-gap-selections-v1",
+          "section": "breckinridge-1864-11-29",
+          "locator": "p.892 (OCR page markers; not checked against print)",
+          "quote": "An attack for the next morning was arranged as follows"
+        },
+        {
+          "source_id": "or39-1-breckinridge-bulls-gap-selections-v1",
+          "section": "breckinridge-1864-11-29",
+          "locator": "p.893 (OCR page markers; not checked against print)",
+          "quote": "General Yaugbn, with his command, was to attack in rear"
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.889 (OCR page markers; not checked against print)",
+          "quote": "led by Gen¬ erals Breckinridge and Duke, assaulted with great fury"
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.889 (OCR page markers; not checked against print)",
+          "quote": "I determined to evacuate the gap on the night of the 13th"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Gillem says the attacks of the 11th and 12th, including Vaughn's attack on his rear, were repulsed, and that he evacuated the gap on the night of the 13th for want of bread, ammunition and forage. Breckinridge says his force on the mountain carried a line of works but the assault as a whole did not succeed, and that on the evening of the 11th his opponent's rearguard had been driven into the gap. The frozen description dates the withdrawal 'after midnight on the 4th'.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The Union withdrawal, not a successful assault, ended the frozen interval; the result field is kept. The frozen description's '4th' is inconsistent with the frozen dates and is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN033"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-tn033-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.888 (OCR page markers; not checked against print)",
+          "quote": "The atta(L of the enemy was handsomely repulsed by 11 a. m."
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.889 (OCR page markers; not checked against print)",
+          "quote": "This attack Avas handsomely repulsed by Colonel Parsons Avith Kiiitli Tennessee CaA^alry"
+        },
+        {
+          "source_id": "or39-1-breckinridge-bulls-gap-selections-v1",
+          "section": "breckinridge-1864-11-29",
+          "locator": "p.893 (OCR page markers; not checked against print)",
+          "quote": "but the assault as a whole did not succeed"
+        },
+        {
+          "source_id": "or39-1-breckinridge-bulls-gap-selections-v1",
+          "section": "breckinridge-1864-11-29",
+          "locator": "p.892 (OCR page markers; not checked against print)",
+          "quote": "his rearguard Avas driven bY Duke’s command into Buir^ Gap."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN033"
+          },
+          "column": "description",
+          "quote": "withdrew from Bull's Gap after midnight on the 4th."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads 'Total unknown (US 241; CS unknown)'; the live field reads 424 (US 324; CS 100). For the frozen interval Gillem reports only enemy dead: 27 left in front of his lines on the 12th and 1 captain and 8 privates after Vaughn's rear attack. His loss in the retreat of the 14th (6 guns, 61 wagons read 'G1', 71 ambulances, about 300 horses and probably about 150 men) and Breckinridge's about 300 prisoners in the night attack belong to the context action.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. No inspected source gives the frozen Union 241 or the live figures; the retreat losses are outside the interval and are not added.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN033"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US 241; CS unknown)"
+        },
+        {
+          "source_id": "nps-tn033-v1",
+          "locator": "Estimated Casualties",
+          "quote": "424 total (US 324; CS 100;)"
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.889 (OCR page markers; not checked against print)",
+          "quote": "who left 27 dead and many wounded in front of our lines."
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.889 (OCR page markers; not checked against print)",
+          "quote": "1 captain and 8 privates dead on the field."
+        },
+        {
+          "source_id": "or39-1-gillem-bulls-gap-selections-v1",
+          "section": "gillem-1864-11-16",
+          "locator": "p.891 (OCR page markers; not checked against print)",
+          "quote": "My loss in this retreat was 6 jiieces of artillery with caissons com- ]dete, G1 wagons, 71 ambulances, about 300 horses, and probably about 150 men."
+        },
+        {
+          "source_id": "or39-1-breckinridge-bulls-gap-selections-v1",
+          "section": "breckinridge-1864-11-29",
+          "locator": "p.893 (OCR page markers; not checked against print)",
+          "quote": "about 300 prisoners"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Thomas's No. 1 relay of Gillem's November 15 telegram and Ammen's No. 2 dispatches (read, not selected), Vaughn's, Duke's, Palmer's and Tool's reports (Nos. 5-8), returns and maps remain deferred. Breckinridge's November 17 dispatch, selected with his report, concerns Strawberry Plains and is context only. The NPS page's Description field is empty, so the frozen Arnold description stands for the NPS/CWSAC narrative.",
+    "NPS/CWSAC is one family (the NPS battle page, whose description is empty, plus the frozen Arnold rows). Alvan C. Gillem's November 16, 1864 report to Governor Johnson (Official Records Series I, Volume XXXIX, Part 1, No. 3) is one family of interested Union accounts, written after the rout and blaming Ammen. John C. Breckinridge's November 17 dispatch and November 29 report (No. 4) are one family of interested Confederate accounts, the same author family as his registered Baton Rouge report and his Southwestern Virginia report. The Official Records volume is a shared container, not an additional witness; report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

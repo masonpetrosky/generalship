@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "battle_id": "MS013",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Okolona record (February 22, 1864) in the Meridian and Yazoo River Expeditions [February 1864]: the running fight from Okolona toward Pontotoc on the 22nd. The February 20 action near West Point and the February 21 fight at Ellis' Bridge on the Sakatonchee are context; Sherman's march to Meridian is MS012. Campaign-wide marches, destruction, captures, returns and expedition-wide loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field and side bound give the Union cavalry force as 7,000; the live field reads 7,000 (US 7000; CS 0). Smith says guarding about 3,000 refugees with their animals and some 700 pack-mules absorbed about 2,000 men, leaving a little less than 5,000 who could be thrown into action, and that the full force was 7,000; he estimated Forrest's force at West Point on February 20 at four brigades, about 6,000 or 7,000. Forrest says his force in the fight did not exceed 2,500 against twenty-seven regiments estimated at 7,000, and his February 26 letter gives 2,500 against 6,000 to 7,000; his February 14 dispatch had estimated 10,000 to 12,000 cavalry from scouts' reports.",
+      "rationale": "Figures of different dates and scopes from the two commanders; each gives the other side the larger estimate. None is adopted as a matched opening strength. The frozen Union 7,000 is the expedition's full planned strength, not the number engaged on the 22nd; the live Confederate zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS013"
+          },
+          "column": "forces_text",
+          "quote": "Cavalry force (7,000) [US]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "MS013",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "7000"
+        },
+        {
+          "source_id": "nps-ms013-v1",
+          "locator": "Forces Engaged",
+          "quote": "7000 total (US 7000; CS 0;)"
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-03-04",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "About 3,000 able-bodied negroes had taken refuge with us, mounted on as many horses and mules"
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-03-04",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "We had in addition to this about 700 pack-mules"
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-03-04",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "This absorbed about 2,000 of my available force. There remained a little less than 5,000 men who could be thrown into action."
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-03-04",
+          "locator": "p.259 (OCR page markers; not checked against print)",
+          "quote": "I would have had less than 5,000 men instead of full 7,000"
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-03-04",
+          "locator": "p.256 (OCR page markers; not checked against print)",
+          "quote": "present in four brigades and to the number of about 6,000 or 7,000, according to the best informa- tion that could be obtained."
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-03-08",
+          "locator": "p.354 (OCR page markers; not checked against print)",
+          "quote": "My force in the fight did not exceed 2,500 men, while that of the enemy was twenty-seven regiments of cavalry and mounted infantry, estimated at 7,000 strong."
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-02-26",
+          "locator": "p.350 (OCR page markers; not checked against print)",
+          "quote": "with 2,500 men the enemy, numbering from 6,000 to 7,000 strong"
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-02-14-dispatches",
+          "locator": "p.348 (OCR page markers; not checked against print)",
+          "quote": "I think they have 10,000 to 12,000 cavalry."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "prairie-to-broken-hills",
+      "dimension": "terrain",
+      "value": "NPS places the attack on the prairie just south of Okolona. Forrest says the Union force, after abandoning guns near Okolona, gained the broken and hilly country on the Pontotoc road, where he dismounted most of his command and fought the last 9 miles on foot, and that the final Union stand was in three lines across a large field ten miles from Pontotoc. Smith describes his stand at Ivey's farm, where the ridge spread into a wide open field, and says the undergrowth sheltered the retreating enemy.",
+      "rationale": "Ground described by the two commanders and a summary; no map verification.",
+      "citations": [
+        {
+          "source_id": "nps-ms013-v1",
+          "locator": "Description",
+          "quote": "the Rebels attacked Smith just south of Okolona on the prairie"
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-03-08",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "gaining the broken and hilly country on the Pontotoc road their resistance became more stubborn."
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-03-08",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "I was compelled to dismount the most of my command, and fought the last 9 miles on foot."
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-03-08",
+          "locator": "p.354 (OCR page markers; not checked against print)",
+          "quote": "They had formed in three lines across a large field on the left of the road"
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-03-04",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "Here the ridge spread out into a wide, open field"
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-02-26-to-sherman",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "could have cut them to pieces had it not been for the undergrowth to which they fled."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "encumbrances-and-ammunition",
+      "dimension": "logistics",
+      "value": "Smith says his command was encumbered with pack trains and captured stock and burned 1,000,000 to 2,000,000 bushels of corn and 2,000 bales of Confederate cotton on the march. Forrest reported on February 18 that he had no more than 40 rounds a man and asked for .54-caliber ammunition, and says that on the 22nd half his command was out of ammunition and pursuit was impossible; NPS likewise says his men were nearly out of ammunition.",
+      "rationale": "Reported encumbrances and ammunition state from the two commanders and a summary; no ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-02-26-to-sherman",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "First, the clumsiness of so large a command, encumbered as it was with pack trains and captured stock."
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-02-26-to-sherman",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "This I did to the extent of from 1,000,000 to 2,000,000 of bushels."
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-02-26-to-sherman",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "We also destroyed 2,000 bales of Confederate cotton"
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-02-18",
+          "locator": "p.349 (OCR page markers; not checked against print)",
+          "quote": "Have not more than 40 rounds of ammunition to the man."
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-02-18",
+          "locator": "p.350 (OCR page markers; not checked against print)",
+          "quote": "If possible, send me some small-arms ammunition, caliber . 54."
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-03-08",
+          "locator": "p.354 (OCR page markers; not checked against print)",
+          "quote": "Half of my command were out of ammunition"
+        },
+        {
+          "source_id": "nps-ms013-v1",
+          "locator": "Description",
+          "quote": "realized that his men were nearly out of ammunition and did not order a pursuit"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "uncertain-strength-and-no-word-from-sherman",
+      "dimension": "information",
+      "value": "Smith says exaggerated reports of Forrest's strength reached him constantly, that Lee was reported coming to reinforce him, and that he could get no communication through to Sherman and believed Sherman had returned to Vicksburg. Forrest on February 18 thought the enemy fully posted of his movements. NPS says Smith knew Forrest commanded but not how many he faced.",
+      "rationale": "Knowledge claimed by each commander after the event; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-03-04",
+          "locator": "p.256 (OCR page markers; not checked against print)",
+          "quote": "Exaggerated reports of Forrest’s strength reached me constantly, and it was reported that Lee was about to re-enforce him"
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-02-26-to-sherman",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "could get no com- munication through to you ; did not know but what you were re- turning"
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-03-04",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "had every reason to believe that General Sherman, having accomplished the purposes of his expedition, had returned to Vicksburg."
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-02-18",
+          "locator": "p.350 (OCR page markers; not checked against print)",
+          "quote": "I think the enemy are fully posted of our movements"
+        },
+        {
+          "source_id": "nps-ms013-v1",
+          "locator": "Description",
+          "quote": "not knowing how many of the enemy he faced"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "junction-or-retirement",
+      "dimension": "objectives",
+      "value": "Smith's orders were to reach Meridian by about February 10; Smith says he decided not to force the swamps at West Point but to retire and draw the enemy after him to positions of his choosing, and that he did not regard a junction at all hazards as imperative. Forrest says he did not intend a general engagement on the 21st but pursued when he found the enemy retreating, being unwilling to let them leave without a fight.",
+      "rationale": "Stated aims of the two commanders; the frozen record's day is the pursuit and running fight.",
+      "citations": [
+        {
+          "source_id": "nps-ms013-v1",
+          "locator": "Description",
+          "quote": "to meet the rest of the Union force at Meridian, on February 10"
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-03-04",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "I therefore determined to move back and draw the enemy after me, that I might select my own posi- tions"
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-03-04",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "I could not regard them as imperative that I should make a junction with his forces at all hazards"
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-02-26",
+          "locator": "p.350 (OCR page markers; not checked against print)",
+          "quote": "It was not my intention to attack them or bring on a general engagement, but to develop their strength, position, and movements."
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-02-26",
+          "locator": "p.350 (OCR page markers; not checked against print)",
+          "quote": "being unwill- ing they should leave the country without a fight, ordered the ad- vance of my column."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Major General Nathan Bedford Forrest and Brigadier General William Sooy Smith. Forrest says he took command of Bell's brigade at Okolona and advanced on the Union line, and that Colonel Jeffrey Forrest was killed rallying his men. Smith blames the stampede at Okolona on part of McCrillis's brigade and says Waring's brigade moved under orders not his own; NPS says Smith delayed ten days against orders.",
+      "rationale": "Command roles from the two commanders and a summary; the responsibility for the delay is disputed between Smith and NPS, and neither is adopted. The listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MS013",
+            "belligerent": "Confederate",
+            "fullname": "Nathan Bedford Forrest"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MS013",
+            "belligerent": "US",
+            "fullname": "William Sooy Smith"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-03-08",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "with my staff I made a circuit around the town, took command of Bell’s brigade, and ad- vanced upon them."
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-03-08",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "Colonel Forrest was killed while rallying and leading his men."
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-02-26-to-grant",
+          "locator": "p.254 (OCR page markers; not checked against print)",
+          "quote": "This whole trouble resulted from the bad conduct of a portion of McCrillis’ brigade."
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-03-04",
+          "locator": "p.259 (OCR page markers; not checked against print)",
+          "quote": "The brigade moved from Columbus under orders not my own, and for its delay I am in nowise responsible."
+        },
+        {
+          "source_id": "nps-ms013-v1",
+          "locator": "Description",
+          "quote": "Against orders, Smith delayed ten days, while waiting for reinforcements"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Smith says he had the best of the enemy everywhere except at Okolona, where his loss was severe and a battery was abandoned, and that at Ivey's farm a charge completely routed the attackers. Forrest says the Union force was repulsed at Okolona, abandoned guns, and fled after he repulsed the grandest cavalry charge he had witnessed ten miles from Pontotoc.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The two commanders' accounts of the final fight conflict.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS013"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ms013-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-02-26-to-grant",
+          "locator": "p.254 (OCR page markers; not checked against print)",
+          "quote": "We had the best of them at all points except at Okolona, where our loss was very severe"
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-03-04",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "This completely routed them, and they were driven from the field with heavy loss."
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-03-08",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "they cut out the horses and abandoned five pieces of artillery"
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-03-08",
+          "locator": "p.354 (OCR page markers; not checked against print)",
+          "quote": "Standing firm, they repulsed the grandest cavalry charge I ever witnessed."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads 150 (US 100; CS 50); the live field reads 532 (US 388; CS 144). Smith's February 26 letter gives a loss at Okolona of perhaps 300 or 400 killed, wounded and missing and a total killed and wounded probably reaching 400; his March 4 report gives 47 killed, 152 wounded and 120 missing, 319 in all, for the expedition, with a compiler's footnote pointing to a revised statement. Forrest's February 26 letter gives his own loss as about 25 killed, 75 wounded and 8 or 10 captured, and his report 162 prisoners and an estimated enemy loss of 800; his compiled return for February 20-22 is garbled in OCR, its total row ending in 144.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Smith's 319 covers the whole expedition and Forrest's return February 20-22; neither is this record's day alone, and the live 144 may reflect the garbled return's total but its basis is not stated.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS013"
+          },
+          "column": "casualties_text",
+          "quote": "150 total (US 100; CS 50)"
+        },
+        {
+          "source_id": "nps-ms013-v1",
+          "locator": "Estimated Casualties",
+          "quote": "532 total (US 388; CS 144;)"
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-02-26-to-sherman",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "inflict- ing a loss upon us of perhaps 300 or 400 men, killed, wounded, and missing."
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-02-26-to-sherman",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "Our total loss in killed and wounded will reach probably 400"
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-03-04",
+          "locator": "p.259 (OCR page markers; not checked against print)",
+          "quote": "Killed, 47; wounded, 152; missing, 120; total casualties, 319."
+        },
+        {
+          "source_id": "or32-1-wsooy-smith-okolona-selections-v1",
+          "section": "wsmith-1864-03-04",
+          "locator": "p.259 (OCR page markers; not checked against print)",
+          "quote": "But see revised statement, p. 194."
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-02-26",
+          "locator": "p.351 (OCR page markers; not checked against print)",
+          "quote": "Our loss is about 25 killed, 75 wounded, and probably 8 or 10 cap- tured."
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-03-08",
+          "locator": "p.354 (OCR page markers; not checked against print)",
+          "quote": "We captured G pieces of artillery, 3 stand of colors, and 162 prisoners."
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "forrest-1864-03-08",
+          "locator": "p.354 (OCR page markers; not checked against print)",
+          "quote": "a low estimate to place their loss in killed, wounded, and missing at 800."
+        },
+        {
+          "source_id": "or32-1-forrest-okolona-selections-v1",
+          "section": "casualty-return-1864-02-20-to-22",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "Total 20 17 80 20 144"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Grierson's No. 36 report, the brigade and regimental cavalry reports (Nos. 37-58), the revised casualty statement (pp.193-194), S. D. Lee's No. 65 and the other Confederate reports, Sherman's instructions to Smith (Inclosure No. 3, cited for MS012 but not used here), Jordan and Pryor's Chapter XIV, and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). The Official Records Series I, Volume XXXII, Part 1 is a shared container, not an additional witness; each report author is a separate family of interested accounts, and report dates are not event times or proof of contemporary knowledge. Here the two report families are William Sooy Smith's (letters of February 26, report of March 4, collated by the compiler with his April 3 report) and Nathan B. Forrest's (dispatches of February 14-26, report of March 8 and the compiled casualty return). Jordan and Pryor's registered history of Forrest was not used for this record.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

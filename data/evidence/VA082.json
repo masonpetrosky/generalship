@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA082",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Saltville record (December 20-21, 1864) in Stoneman's Raid into Southwest Virginia [December 1864]: the capture of the Saltville works on the night of the 20th and their destruction on the 21st. The engagement near Marion is VA081; the withdrawal on the 22nd and the return marches are context. Expedition-wide captures, destruction, prisoners and loss totals are context; they are not assigned to one record or added across records. The NPS page's Description field is empty, so the frozen Arnold description stands for the NPS/CWSAC narrative. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions, without bounds; the live field reads '0 total (US ; CS ;)', and the frozen description calls the defenders outnumbered. Stoneman's telegram says about 700 home guards under Colonel Preston were found at the works, and his report that his whole force was present. Breckinridge says he left the reserves, some dismounted men and artillerymen under Col. Robert Preston, numbering some 400, when he followed Stoneman.",
+      "rationale": "A Union estimate after the capture and the Confederate commander's figure for the garrison he left days earlier; no return. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA082"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va082-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US ; CS ;)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA082"
+          },
+          "column": "description",
+          "quote": "the outnumbered Confederate defenders"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1864-12-27",
+          "locator": "p.807 (OCR page markers; not checked against print)",
+          "quote": "about 700 home guards, under Col¬ onel Preston"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.813 (OCR page markers; not checked against print)",
+          "quote": "though the whole force under my command was present"
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.825 (OCR page markers; not checked against print)",
+          "quote": "numbering together some 400 men"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fort-and-surrounding-works",
+      "dimension": "terrain",
+      "value": "Stoneman describes very strong fortifications around the salt-works, says Gillem's column approached within 1,500 yards of Fort Breckinridge, and that Stacy's regiment dashed up the steep hill on which the fort stood, over the rifle-pits and into its gorge. Breckinridge says Preston's force had some pieces in position.",
+      "rationale": "Works described by the two commanders; no map verification. The works predate the attack, but the claim also describes the assault, so the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.811 (OCR page markers; not checked against print)",
+          "quote": "very strong for¬ tifications which surrounded the salt-works"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "within 1,500 yards of Fort Breckinridge."
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "dashed up the steep hill on which Fort Breckinridge is situated, over the rifle-pits and into the gorge of the work"
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.825 (OCR page markers; not checked against print)",
+          "quote": "and some pieces in position"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "salt-works-damage",
+      "dimension": "logistics",
+      "value": "Stoneman says the kettles, machinery, pumps, wells and buildings were destroyed on the 21st, cites Confederate papers for 92,000 bushels of salt at the works and 128 good kettles remaining with 788 broken, and disputes an official report that the wells were not seriously damaged; he captured 8 guns and ammunition. Breckinridge says the salt-works proprietor had told him no raiding force could stop operations for more than a few weeks, and refers to an inclosed letter on the extent of injury (not inspected).",
+      "rationale": "Damage reported by the Union commander and relayed by the Confederate commander; the extent is disputed and is campaign context.",
+      "citations": [
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.813 (OCR page markers; not checked against print)",
+          "quote": "The whole of the day and night of the 21st was devoted to the destruction and demolition"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.813 (OCR page markers; not checked against print)",
+          "quote": "92,000 bushels of salt were at the works when we arrived there; also, that 128 good kettles remain and 788 were broken."
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.814 (OCR page markers; not checked against print)",
+          "quote": "The wells, instead of not being seriously damaged, as is stated in the official report"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.813 (OCR page markers; not checked against print)",
+          "quote": "we captured here 8 pieces of artillery"
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.826 (OCR page markers; not checked against print)",
+          "quote": "Mr. Steuart, of the salt-works, informed me that at the worst no injury a raiding force could inflict would suspend opera¬ tions longer than a few weeks."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "night-capture-reports",
+      "dimension": "information",
+      "value": "Stoneman says Burbridge's advanced guard reported at dawn on the 21st that the enemy had burned and evacuated the place the night before. Breckinridge says he had reported that the enemy gained Saltville during the night of the 20th, and that his advance reached the vicinity at daylight on the 21st.",
+      "rationale": "Timing reported by the two commanders; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.813 (OCR page markers; not checked against print)",
+          "quote": "that at 4 a. m. his advanced guard had reached the town of Saltville and reported that the enemy had first burned and then evacuated the place the night before."
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.825 (OCR page markers; not checked against print)",
+          "quote": "I have heretofore reported that the enemy gained possession of Saltville"
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.826 (OCR page markers; not checked against print)",
+          "quote": "My advance reached there at daylight on the 21st"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "destroy-the-salt-works",
+      "dimension": "objectives",
+      "value": "Stoneman calls the destruction of the salt-works the only thing left to do after Marion; the frozen description says the capture and destruction accomplished the raid's objective. Breckinridge says he had left Saltville to follow the enemy for the reasons given for VA081.",
+      "rationale": "Stated aims from the Union commander and a summary.",
+      "citations": [
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.811 (OCR page markers; not checked against print)",
+          "quote": "The only thing now left for us to do was the destruction of the far-famed salt-works."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA082"
+          },
+          "column": "description",
+          "quote": "the Federals captured and destroyed the saltworks, accomplishing the objective of their raid."
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.826 (OCR page markers; not checked against print)",
+          "quote": "These were my chief reasons for following him."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Major Generals George Stoneman and John C. Breckinridge. Stoneman says he directed Burbridge to attack from the north and Gillem from the south, accompanied Gillem's column, ordered Colonel Stacy's dash into the town, and credits Stacy's regiment with the most conspicuous part, adding that Burbridge's force on the right did not act with equal vigor. Breckinridge was not at Saltville when it fell; he says Colonel Preston had no alternative when he evacuated it.",
+      "rationale": "Command roles from the two commanders; the listed Confederate commander was absent from the capture, and the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA082",
+            "belligerent": "US",
+            "fullname": "George Stoneman"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA082",
+            "belligerent": "Confederate",
+            "fullname": "John C. Breckinridge"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "General Burbridge was directed to take the most direct road, entering the town on the north"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "I myself accompanied the column of Gillem"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "I now directed Colonel Stacy with his regiment, the Thirteenth Tennessee Cavalry, to make a detour to the left"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.813 (OCR page markers; not checked against print)",
+          "quote": "Had Bur- bridge’s force on the right acted with equal vigor, we should without doubt have captured the whole garrison."
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.827 (OCR page markers; not checked against print)",
+          "quote": "At the time Colonel Preston evacuated Saltville he had no alternative"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Stoneman says all the works were evacuated and in Stacy's possession by 11 p.m. on the 20th with the town in flames; Breckinridge says his troops threatened the place and attacked the pickets on the 21st and that the enemy retired that night and the next morning.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA082"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va082-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "by 11 o’clock in the night all the works were evacuated and in the possession of Col¬ onel Stacy, and the town of Saltville was in flames."
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.826 (OCR page markers; not checked against print)",
+          "quote": "During the day we continued to threaten the place, attacking the enemy’s pickets in the various gaps and avenues leading into it."
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.826 (OCR page markers; not checked against print)",
+          "quote": "That night and the next morning he retired"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads Unknown; the live field reads zero. Stoneman says Stacy's charge captured two guns, two officers and several privates without the loss of a man and with two horses killed. Breckinridge says not more than twenty of his men were taken prisoner in the whole expedition, most at the capture of Saltville, and that the enemy left two rifled guns at Saltville.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA082"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-va082-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "capturing two guns, two commissioned officers, and several pri¬ vates, without the loss of a single man, and with but two horses killed."
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.827 (OCR page markers; not checked against print)",
+          "quote": "not more than twenty prisoners were taken, most of them at Ihe capture of Saltville"
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.826 (OCR page markers; not checked against print)",
+          "quote": "The enemy left two rifled guns at Saltville"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Burbridge's No. 2 and Gillem's No. 3 reports, the Confederate reports Nos. 5-16 (Johnston, Witcher, Vaughn, Duke, Echols, Giltner, Cosby, Palmer and others), Steuart's letter on the salt-works damage, returns and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle pages plus the frozen Arnold rows). George Stoneman's December 27, 1864 telegraphic report and January 6, 1865 report (Official Records Series I, Volume XLV, Part 1, No. 1) are one family of interested Union accounts. John C. Breckinridge's January 3, 1865 report with its postscript (No. 4) is one family of interested Confederate accounts, the same author family as his registered Baton Rouge report and his Bull's Gap reports; its postscript disputes Burbridge's report. The Official Records volume is a shared container, not an additional witness; report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

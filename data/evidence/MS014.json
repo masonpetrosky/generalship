@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "battle_id": "MS014",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Brice's Cross Roads record (June 10, 1864) in Forrest's Defense of Mississippi [June-August 1864]: the engagement at the cross-roads and the rout to Tishomingo Creek on the 10th. The June 7-9 skirmishes, the pursuit and the fight at Ripley on the 11th and the retreat to Collierville are context. Expedition-wide marches, captures, destruction and loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the Union column as a three-brigade infantry division and a cavalry division, about 8,500 (side bound 8,500); NPS gives Forrest's cavalry corps as about 2,000, and the live field reads 10500 (US 8500; CS 2000). Sturgis gives his command in round numbers as about 8,000, listing brigades of 1,500, 1,800, 2,000, 1,000 and 1,200, and says his officers estimated the enemy at 15,000 to 20,000. Forrest gives his available force as 3,500 and the enemy's, from prisoners and captured documents, as 10,252; his June address speaks of not over 3,000 against 10,000. He says his orders had been to move into Middle Tennessee with 2,000 of his own men and 1,000 of Roddey's.",
+      "rationale": "Round figures of each commander for his own side and estimates of the other, at different scopes; the frozen and live Confederate figures have no inspected basis. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS014"
+          },
+          "column": "forces_text",
+          "quote": "Three-brigade division of infantry and a division of cavalry (about 8,500 ) [US]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "MS014",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "8500"
+        },
+        {
+          "source_id": "nps-ms014-v1",
+          "locator": "Description",
+          "quote": "with his cavalry corps of about 2,000 men"
+        },
+        {
+          "source_id": "nps-ms014-v1",
+          "locator": "Forces Engaged",
+          "quote": "10500 total (US 8500; CS 2000;)"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.89 (OCR page markers; not checked against print)",
+          "quote": "The strength of the command in round numbers was about 8,000 men"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.89 (OCR page markers; not checked against print)",
+          "quote": "strength, 1,500"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.89 (OCR page markers; not checked against print)",
+          "quote": "strength, 1,800,"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.90 (OCR page markers; not checked against print)",
+          "quote": "strength, 2,000,"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.90 (OCR page markers; not checked against print)",
+          "quote": "strength, 1,000,"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.90 (OCR page markers; not checked against print)",
+          "quote": "strength, 1,200,"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "The strength of the enemy is variously estimated by my most intelli¬ gent officers at from 15,000 to 20,000 men."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "My available force in the engagement was 3,500."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "the enemy had in the engagement 10,252."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-address-june-1864",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "There were not over 3,000 of you who achieved this vic¬ tory over 10,000 of the enemy."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "woods-mud-and-narrow-roads",
+      "dimension": "terrain",
+      "value": "Sturgis says the artillery and wagons were mired at Ripley after continuous rain, that the dense woods at the cross-roads made it hard to use his guns, and that on the retreat the road became jammed and wagons and guns sank into the mud. Forrest says the undergrowth was so dense that Bell's brigade advanced within thirty yards before assaulting, and that abandoned vehicles blocked the road before Tishomingo Creek.",
+      "rationale": "Ground and weather described by the two commanders; no map verification.",
+      "citations": [
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.91 (OCR page markers; not checked against print)",
+          "quote": "The artillery and wagons were literally mired down"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.92 (OCR page markers; not checked against print)",
+          "quote": "OAving to the dense Avoods on all sides"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "The road became crowded and jammed Avith troops, the Avagons and artillery, sinking into the deep mud, became inextricable"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.223 (OCR page markers; not checked against print)",
+          "quote": "Owing to the density of the undergroAvth Colonel Bell was compelled to advance within thirty yards of the enemy before assaulting him."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "Before reaching Tishomingo Creek the road was so blockaded with abandoned vehicles of every description"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "trains-guns-and-ammunition",
+      "dimension": "logistics",
+      "value": "Sturgis says his train of some 250 wagons carried rations for eighteen days, that his animals were exhausted and starved by the time he reached Ripley, and that about 200 wagons and 14 guns were lost on the retreat with cartridge-boxes nearly empty. Forrest reports 250 wagons and ambulances, 18 guns, 5,000 small-arms and 500,000 rounds taken, and says his own horses were jaded; his June address gives 17 guns, 250 wagons and 3,000 stand of arms.",
+      "rationale": "Losses and captures from the two commanders; the counts of wagons, guns and arms differ and none is adopted. No supply return.",
+      "citations": [
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.90 (OCR page markers; not checked against print)",
+          "quote": "My supply train, carrying rations for eighteen days, consisted of 181 wagons, which, with the regimental wagons, made up a train of some 250 wagons."
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.91 (OCR page markers; not checked against print)",
+          "quote": "the starved and exhausted animals could with difficulty drag them along."
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "In this Avay about 200 Avagons and 14 ifieces of artillery were lost"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "the cartridge-boxes Avere well nigh exhausted."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "250 wagons and ambulances, 18 pieces of artillery, 5,000 stand of small- arms, 500,000 rounds of ammunition"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.222 (OCR page markers; not checked against print)",
+          "quote": "I moved as rapidly as the jaded condi¬ tion of my horses would justify"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-address-june-1864",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "Seventeen guns, 250 wagons, 3,000 stand of arms"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "meager-information",
+      "dimension": "information",
+      "value": "Sturgis says that at Ripley all of Washburn's information and his own led to the conclusion that there was no considerable force in his front, though his information was meager, and that the enemy learned his movements from the population while he could learn theirs only by fighting. He says Grierson first reported some 600 of the enemy (read 'GOO' in OCR). Forrest says he learned on the night of the 9th that the enemy was encamped on the Guntown road, and hoped to reach the cross-roads first.",
+      "rationale": "Knowledge claimed by each commander after the event; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.91 (OCR page markers; not checked against print)",
+          "quote": "there could be no consid¬ erable force in our front, and all my own information led to the same con¬ clusion."
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.91 (OCR page markers; not checked against print)",
+          "quote": "To be sure my information was exceedin gly meager and unsatis¬ factory"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "Our movements and numbers are always knoA\\n to the enemy because CAwy AA^oman and child is one of them"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.92 (OCR page markers; not checked against print)",
+          "quote": "saying the enemy num¬ bered some GOO and were on the Baldwyn road"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.222 (OCR page markers; not checked against print)",
+          "quote": "On the night of the 9th I received disiiatches reporting the enemy, in full force, encamped tAvelve miles east of Eipley on the Guntown road"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.222 (OCR page markers; not checked against print)",
+          "quote": "intending, if possible, to reach Brice’s Oross-Eoads in advance of the enemy."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "railroad-raid-and-counter-march",
+      "dimension": "objectives",
+      "value": "Sturgis says his instructions were to go to Corinth and destroy the Mobile and Ohio Railroad south to Tupelo and Okolona and beyond, and that he went on from Ripley because of the benefit to Sherman of drawing Confederate forces. NPS and Forrest say Forrest had set out to break the railroad supplying Sherman in Middle Tennessee and was recalled by S. D. Lee to meet the column; Forrest says he wished to avoid a general engagement until his artillery and remaining troops came up.",
+      "rationale": "Stated aims of the two commanders and a summary.",
+      "citations": [
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.90 (OCR page markers; not checked against print)",
+          "quote": "To proceed to Corinth, Miss., by way of Salem and Eiickersville, capture any force that might be there, then proceed south, destroying the Mobile and Ohio Eailroad to Tupelo and Okolona"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.91 (OCR page markers; not checked against print)",
+          "quote": "the great benefits which might accrue to General Sherman by the depletion of Johnston’s army"
+        },
+        {
+          "source_id": "nps-ms014-v1",
+          "locator": "Description",
+          "quote": "to enter Middle Tennessee and destroy the Nashville & Chattanooga Railroad"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.222 (OCR page markers; not checked against print)",
+          "quote": "for the imr- pose of destroying the railroad from Nashville"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.222 (OCR page markers; not checked against print)",
+          "quote": "stating that the enemy were moving in force from Memphis in the direction of Tupelo, and ordering my immediate return."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.223 (OCR page markers; not checked against print)",
+          "quote": "Desiring to avoid a gen¬ eral engagement until the balance of my troops and the artillery came up."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Major General Nathan Bedford Forrest and Brigadier General Samuel D. Sturgis; the live page styles Sturgis Major General. Sturgis says he decided at Ripley, against his forebodings, to go on, directed Grierson and the infantry at the cross-roads, and that Winslow's cavalry led the flight to Stubbs'. Forrest says he led Bell's brigade around to the Guntown and Ripley road, ordered Buford to press the center and right and bring up the artillery, and credits Barteau's regiment in the Union rear.",
+      "rationale": "Command roles from the two commanders; the listed commanders do not receive automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MS014",
+            "belligerent": "Confederate",
+            "fullname": "Nathan Bedford Forrest"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MS014",
+            "belligerent": "US",
+            "fullname": "Samuel D. Sturgis"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-ms014-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Samuel Sturgis [US]"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.91 (OCR page markers; not checked against print)",
+          "quote": "a sad forebod¬ ing of the consequences, I determined to move forward"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.92 (OCR page markers; not checked against print)",
+          "quote": "He was then directed to leave 600 or 700 men at the cross-roads"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "led off* by Colonel Winslow, at the head of his brigade of caA^alry"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.223 (OCR page markers; not checked against print)",
+          "quote": "Taking Avith me my escort and Bell’s brigade I moved rapidly around to the Guntown and Eixiley road"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.223 (OCR page markers; not checked against print)",
+          "quote": "I directed my aide-de-camp, Cajitain Anderson, to bring ux) all the artillery, and ordered General Buford to place it in action at once"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.223 (OCR page markers; not checked against print)",
+          "quote": "Colonel Barteau, in command of the regiment sent from Old Car- roll ville, had gained the rear of the enemy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Sturgis wrote on June 11 that his command had lost most everything after a very hard fight and in his report that his army yielded to overwhelming numbers; Forrest says the enemy's retreat or rout began at the cross-roads and calls it one of the most complete victories of the war.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS014"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ms014-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-11",
+          "locator": "p.88 (OCR page markers; not checked against print)",
+          "quote": "We have lost most everything, including a number of wagons and artillery, Avith ammunition."
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "only yielded to overwhelming numbers."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "the retreat or rout began."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "This victory may be Justly considered one of the most complete of the war"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads 3,105 (US 2,610; CS 495); the live field reads 3103 (US 2610; CS 493). Sturgis's table is garbled in OCR but ends 'Total killed, wounded, and missing, 2,240'; he says his principal officers supposed the enemy's killed and wounded fully as great as his own. Forrest gives his loss in killed and wounded, from the chief surgeon, as 493, the enemy's killed and wounded as not less than 2,000 and prisoners as not less than 2,000; the provost-marshal's report counts 1,618 captured.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Forrest's 493 matches the live Confederate figure; the frozen 495 and both Union totals of 2,610 have no inspected basis, and Sturgis's 2,240 covers the expedition, not only June 10.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS014"
+          },
+          "column": "casualties_text",
+          "quote": "3,105 total (US 2,610; CS 495)"
+        },
+        {
+          "source_id": "nps-ms014-v1",
+          "locator": "Estimated Casualties",
+          "quote": "3103 total (US 2610; CS 493;)"
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "Total killed, wounded, and missing, 2,240."
+        },
+        {
+          "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+          "section": "sturgis-1864-06-24",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "they are supposed by the principal officers of my command to be fully as great as our own in killed and Avounded"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "Our loss in the engagement in killed and wounded is, as Avill be seen by report of chief surgeon, 493."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "The loss of the enemy in killed and wounded is not less than 2,000"
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "forrest-1864-07-01",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "The whole number captured and ill our hands is not less than 2,000."
+        },
+        {
+          "source_id": "or39-1-forrest-mississippi-selections-v1",
+          "section": "provost-marshal-1864-06-23",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "Aggregate . 1, 618"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "McMillen's, Grierson's, Waring's, Winslow's and the other Union reports (Nos. 3-19), the Board of Investigation (No. 20), S. D. Lee's No. 21 report, the Confederate casualty return (No. 23; garbled), Forrest's quartermaster and ordnance inclosures (garbled), Jordan and Pryor's Chapter XVIII and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Nathan B. Forrest's reports of July 1 and August 4, 1864, the provost-marshal's report forwarded with the first, his June 1864 address and his August 21 Memphis dispatch as relayed by Maury (Official Records Series I, Volume XXXIX, Part 1, Nos. 22, 45 and 15) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness; report dates are not event times or proof of contemporary knowledge. Here the second family is Samuel D. Sturgis's June 11 dispatch and June 24 report (No. 2), written after he asked for an investigation of his defeat.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -274,6 +274,24 @@ sides of different campaigns. The committee report and Smith's testimony, printe
 are treated as separate families. No Dakota, Shoshone, Cheyenne or Arapaho account was obtained.
 No model inputs are changed.
 
+### 1864 Western small operations first passes (cohort v2), 2026-09-25
+
+The first passes for ten 1864 campaigns add **58 records**: North Alabama (Athens), Meridian,
+Dalton, Forrest's West Tennessee and Mississippi operations, Morgan's Kentucky raid, Burbridge's
+and Stoneman's raids into Southwest Virginia, Breckinridge in East Tennessee and the Lake Village
+expedition (memos `docs/research/<slug>-first-pass-v1.md`). The records are:
+
+- fifteen NPS HTML/text pairs;
+- twenty-seven report selections from the registered Official Records Volumes XXXII Part 1,
+  XXXIV Part 1, XXXIX Part 1 and XLV Part 1;
+- one selection from the registered Jordan and Pryor OCR (`jordan-memphis-selections-v1`).
+
+No new parent volumes were needed. **Author groups.** Forrest, Sturgis, Sherman, Thomas, Johnston,
+Jordan and Pryor, and Breckinridge reuse existing groups; Johnston's October 20, 1864 report is the
+same document as the registered Atlanta selection. Seventeen authors have new groups, Burbridge
+with one group for both his selections. The Fort Pillow and Saltville killings are recorded as each
+source's statement; no characterization or count is adopted. No model inputs are changed.
+
 ### Carolinas Campaign first pass (cohort v2), 2026-09-25
 
 The [first pass](research/carolinas-first-pass-v1.md) adds **23 records**:

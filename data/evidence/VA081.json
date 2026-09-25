@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA081",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Marion record (December 17-18, 1864) in Stoneman's Raid into Southwest Virginia [December 1864]: the engagement near Marion between Stoneman's returning column and Breckinridge's force on the 17th and 18th. The fights at Kingsport (13th), Bristol (14th) and Marion and Wytheville against Vaughn (16th), the lead-mine raid and the capture of Saltville (VA082) are context or a separate record. Expedition-wide captures, destruction, prisoners and loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions for both sides, without bounds; the live field reads zero. Stoneman says Burbridge's force at Cumberland Gap on November 24 was about 4,200 aggregate with four guns by Burbridge's report, and that Gillem put about 1,500 effective men in the field. Breckinridge says that at the close of the 18th he had three brigades and a battalion but fewer than 1,000 men against Stoneman's force of not less than 6,000, and that a body reported as 900 to 1,200 in his rear proved to be some 600.",
+      "rationale": "A Union force figure from before the march and a Confederate count and estimate at the end of the action; no matched return. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA081"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va081-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.809 (OCR page markers; not checked against print)",
+          "quote": "according to his official report amounted to about 4,200 aggregate and four guns."
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.809 (OCR page markers; not checked against print)",
+          "quote": "about 1,500 effective men."
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.826 (OCR page markers; not checked against print)",
+          "quote": "I had three brigades and a battalion, but my force was less than 1,000 men."
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.826 (OCR page markers; not checked against print)",
+          "quote": "The force of General Stoneman, composed of the commands of Burbridge and Gillem, was not less than 6,000 men."
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.825 (OCR page markers; not checked against print)",
+          "quote": "from 900 to 1,200 strong (it proved to be some 600)"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "position-and-mountain-road",
+      "dimension": "terrain",
+      "value": "Stoneman says he met Breckinridge in a strong position near Marion, and that Breckinridge escaped by a road over the mountains into North Carolina that was later found blockaded with trees. Breckinridge says he withdrew at 11 p.m. on the 18th by a road south over a mountain range into Rye Valley, difficult for horsemen and thought impracticable for artillery, whose guns were nevertheless got over.",
+      "rationale": "Ground described by the two commanders; no map verification.",
+      "citations": [
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "on our return we met him in a strong posi¬ tion near Marion."
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "finding the road blockaded with trees and other obstructions"
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.825 (OCR page markers; not checked against print)",
+          "quote": "At 11 p. m. I withdrew the troops, taking a road leading southwardly from Marion over a mountain range into Rye Valley."
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.825 (OCR page markers; not checked against print)",
+          "quote": "It was difficult for horsemen and deemed impracticable for artillery"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-marching",
+      "dimension": "logistics",
+      "value": "Breckinridge says 100 rounds a man had been provided, but the loss of Duke's ammunition train at Kingsport, waste from want of cartridge-boxes and rapid firing had reduced the supply to fifteen rounds a man by the close of the 18th, and that his men were becoming exhausted. Stoneman says his command lived on the country and averaged forty-two and a half miles every twenty-four hours.",
+      "rationale": "Supply and marching statements from the two commanders; no return inspected.",
+      "citations": [
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.826 (OCR page markers; not checked against print)",
+          "quote": "had reduced the supply to fifteen rounds per man."
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.826 (OCR page markers; not checked against print)",
+          "quote": "Every man being on duty constantly, they were becoming exhausted."
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.814 (OCR page markers; not checked against print)",
+          "quote": "Sustenance for man and beast was obtained from the country through which we passed and was ample."
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.814 (OCR page markers; not checked against print)",
+          "quote": "having averaged forty -two miles and a half every twenty- four hours."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surprise-and-encirclement",
+      "dimension": "information",
+      "value": "Stoneman says no one knew his intentions and the enemy did not learn of the movement until the third day, and that on the 18th Breckinridge, as he afterward learned, found himself nearly surrounded and cut off from Saltville. Breckinridge says intelligence from the front had pointed to a Union withdrawal until the news of December 12, and that after nightfall on the 18th he learned a body of the enemy had passed his right to Seven-Mile Ford.",
+      "rationale": "Knowledge claimed by each commander; no message log inspected. Stoneman's control of the Bristol telegraph office is context.",
+      "citations": [
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1864-12-27",
+          "locator": "p.807 (OCR page markers; not checked against print)",
+          "quote": "No one, not even my own officers, knew of my intentions"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1864-12-27",
+          "locator": "p.807 (OCR page markers; not checked against print)",
+          "quote": "nor did the enemy learn of our movement until the third day out."
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "finding himself nearly surrounded and cut off from Saltville"
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.825 (OCR page markers; not checked against print)",
+          "quote": "the intelligence from the front looked to a retrograde move¬ ment, and I had no uneasiness until I received the news contained in my telegram"
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.825 (OCR page markers; not checked against print)",
+          "quote": "After night fall I learned that a body of the enemy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "saltworks-and-department",
+      "dimension": "objectives",
+      "value": "NPS says the expedition advanced on the lead mines and salt ponds around Marion and Saltville. Stoneman says he had hoped Breckinridge would follow him out of the Saltville fortifications, and sent Gillem around the enemy's left to cut him off from the salt-works. Breckinridge says he followed to join or support Vaughn, judged the lead mines as important as the salt-works, and thought it not creditable to remain at Saltville and surrender the department.",
+      "rationale": "Stated aims from a summary and the two commanders.",
+      "citations": [
+        {
+          "source_id": "nps-va081-v1",
+          "locator": "Description",
+          "quote": "Stoneman's expedition advanced on the important lead mines and salt ponds around Marion and Saltville."
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "as 1 had hoped, he followed us"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "Gillem I sent around the left of the enemy, thus cutting him off from the salt-works"
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.826 (OCR page markers; not checked against print)",
+          "quote": "I supposed the lead mines to be quite as important as the salt-works."
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.826 (OCR page markers; not checked against print)",
+          "quote": "it would not be credita¬ ble to remain there and surrender the whole department to the enemy."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Major Generals George Stoneman and John C. Breckinridge. Stoneman says that on Burbridge's repeated requests for reinforcements he went to the front and assumed immediate control of Burbridge's command for the engagement, and that Wade's and Brown's brigades did all the fighting. Breckinridge says he reinforced Duke with Witcher on his right and withdrew at 11 p.m.; his postscript, answering Burbridge's report, says Stoneman's whole force was present near Marion under Stoneman's command and that the Union force was not met by him while returning but was overtaken while marching up the valley, his report saying Witcher overtook its rear on Saturday between Marion and Mount Airy.",
+      "rationale": "Command roles from the two commanders; the accounts differ on who met whom, and neither is adopted. The listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA081",
+            "belligerent": "US",
+            "fullname": "George Stoneman"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA081",
+            "belligerent": "Confederate",
+            "fullname": "John C. Breckinridge"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "assumed the imme¬ diate control of his command, which I retained until the end of the engagement which ensued."
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.813 (OCR page markers; not checked against print)",
+          "quote": "Wade’s and Brown’s brigades, however, having done all the fighting on that occasion."
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.825 (OCR page markers; not checked against print)",
+          "quote": "I re-enforced him with Witcher"
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.827 (OCR page markers; not checked against print)",
+          "quote": "that the-force was not met by me while returning, but was overtaken while marching up the valley"
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.825 (OCR page markers; not checked against print)",
+          "quote": "Witcher, who was in advance, overtook his rear on Saturday between Marion and Mount Airy"
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.827 (OCR page markers; not checked against print)",
+          "quote": "the whole force of the enemy was present in the engagements near Marion, under the command of General Stoneman."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory; the frozen description says Stoneman defeated a makeshift force on the 17th and destroyed the lead-works and mines on the 18th. Stoneman says Breckinridge, nearly surrounded, withdrew over the mountains in the night of the 18th and that the lead-works were totally destroyed. Breckinridge says Duke and Witcher repulsed the assaults on his right with considerable loss, that he withdrew by the only possible route, and that the damage to the lead mines was reported very slight.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The extent of damage at the lead mines is disputed and is campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA081"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va081-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA081"
+          },
+          "column": "description",
+          "quote": "On December 17, Stoneman defeated a makeshift force of Confederate defenders. On the 18th, the Federals destroyed the leadworks and mines."
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "withdrew by the road leading over the moun¬ tains into North Carolina and escaped."
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1864-12-27",
+          "locator": "p.808 (OCR page markers; not checked against print)",
+          "quote": "the total destruction, as far as in the power of man to accomplish, of the lead- works"
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.825 (OCR page markers; not checked against print)",
+          "quote": "these officers repulsed the attacks, with consid¬ erable loss to the enemy."
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.826 (OCR page markers; not checked against print)",
+          "quote": "The damage to the lead mines is reported to be very slight."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads 274 total; the live field reads zero. Stoneman says brisk skirmishing through the 18th caused considerable loss in killed and wounded on both sides and that the pursuit next morning took caissons and wagons; his expedition-wide telegram calls the Union loss small and counts 34 officers and 845 enlisted men captured. Breckinridge gives no Marion figure; he says not more than twenty prisoners were taken from his troops, most at Saltville.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. No inspected source gives the frozen 274; the expedition-wide figures are not assigned to this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA081"
+          },
+          "column": "casualties_text",
+          "quote": "274 total"
+        },
+        {
+          "source_id": "nps-va081-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "with considerable loss in killed and wounded on both sides"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1865-01-06",
+          "locator": "p.812 (OCR page markers; not checked against print)",
+          "quote": "they captured his caissons and some wagons"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1864-12-27",
+          "locator": "p.808 (OCR page markers; not checked against print)",
+          "quote": "Our loss in killed, wounded, and missing is small"
+        },
+        {
+          "source_id": "or45-1-stoneman-swva-selections-v1",
+          "section": "stoneman-1864-12-27",
+          "locator": "p.808 (OCR page markers; not checked against print)",
+          "quote": "In prisoners, our captures amount to 34 officers, 845 enlisted men"
+        },
+        {
+          "source_id": "or45-1-breckinridge-swva-selections-v1",
+          "section": "breckinridge-1865-01-03",
+          "locator": "p.827 (OCR page markers; not checked against print)",
+          "quote": "not more than twenty prisoners were taken, most of them at Ihe capture of Saltville"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Burbridge's No. 2 and Gillem's No. 3 reports, the Confederate reports Nos. 5-16 (Johnston, Witcher, Vaughn, Duke, Echols, Giltner, Cosby, Palmer and others), Steuart's letter on the salt-works damage, returns and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle pages plus the frozen Arnold rows). George Stoneman's December 27, 1864 telegraphic report and January 6, 1865 report (Official Records Series I, Volume XLV, Part 1, No. 1) are one family of interested Union accounts. John C. Breckinridge's January 3, 1865 report with its postscript (No. 4) is one family of interested Confederate accounts, the same author family as his registered Baton Rouge report and his Bull's Gap reports; its postscript disputes Burbridge's report. The Official Records volume is a shared container, not an additional witness; report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
