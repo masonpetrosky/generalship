@@ -43,6 +43,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 
 | Battle | Claims | Explicit unknowns | Quantities | Events | Status |
 |---|---:|---:|---:|---:|---|
+| [AR006](../data/evidence/AR006.json) | 10 | 1 | 0 | 0 | draft |
 | [KY005](../data/evidence/KY005.json) | 11 | 1 | 0 | 0 | draft |
 | [KY006](../data/evidence/KY006.json) | 11 | 2 | 0 | 0 | draft |
 | [KY007](../data/evidence/KY007.json) | 11 | 2 | 0 | 0 | draft |
@@ -54,6 +55,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [MO012](../data/evidence/MO012.json) | 11 | 3 | 0 | 0 | draft |
 | [MS001](../data/evidence/MS001.json) | 9 | 1 | 0 | 0 | draft |
 | [MS002](../data/evidence/MS002.json) | 10 | 1 | 0 | 0 | draft |
+| [MS003](../data/evidence/MS003.json) | 9 | 1 | 0 | 0 | draft |
 | [MS009](../data/evidence/MS009.json) | 7 | 3 | 0 | 0 | draft |
 | [MS016](../data/evidence/MS016.json) | 12 | 2 | 0 | 0 | draft |
 | [NC002](../data/evidence/NC002.json) | 9 | 1 | 0 | 0 | draft |
@@ -118,8 +120,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 65 engagements have dossiers; 62 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Forrest West Tennessee first pass](../docs/research/forrest-west-tennessee-first-pass-v1.md) adds both frozen records: 18 claims, 2 explicit unknowns and 61 citations from NPS/CWSAC and Jordan and Pryor's Forrest-endorsed history. Contested results, force and casualty disputes remain visible; separate campaign review is pending. Next take the complete two-record Operations Against Vicksburg. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 67 engagements have dossiers; 60 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Operations Against Vicksburg first pass](../docs/research/vicksburg-1862-first-pass-v1.md) adds both frozen records: 19 claims, 2 explicit unknowns and 62 citations from NPS/CWSAC and Greene's records-based history. Casualty differences and Arkansas Post's untraced white-flag order remain visible; separate campaign review is pending. Next take the complete five-record Middle Tennessee Operations. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

@@ -22,7 +22,7 @@ wins a commander caused. No validated commander ranking exists here yet.
   dates, force ranges, missingness, outcome codes, and cohort membership.
 - A small regularized logistic baseline using relative force size. Evaluation
   holds out whole campaigns and compares with equal odds and a training-only prior.
-- Sixty-five draft dossiers, including all two frozen Forrest's West Tennessee expedition records,
+- Sixty-seven draft dossiers, including all two frozen Operations Against Vicksburg (1862–63) records,
   with exact source passages, explicit unknowns, command questions, and
   inherited/created distinctions. See the [coverage table](artifacts/pilot-report.md#draft-evidence-dossiers).
 - A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
@@ -73,7 +73,7 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 ## Research direction
 
 **Current priority: comparable coverage across the 127 engagements.** We have
-sixty-five draft dossiers and 62 engagements without one. Shiloh's repeated source
+sixty-seven draft dossiers and 60 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.
@@ -124,7 +124,9 @@ The [Goldsboro pass](docs/research/goldsboro-first-pass-v1.md) adds three dossie
 28 claims, 4 explicit unknowns and 70 citations. Separate review is pending.
 The [Forrest West Tennessee pass](docs/research/forrest-west-tennessee-first-pass-v1.md) adds
 two dossiers, 18 claims, 2 explicit unknowns and 61 citations. Separate review is pending.
-Next: **the two-record Operations Against Vicksburg**. See the
+The [Vicksburg 1862–63 pass](docs/research/vicksburg-1862-first-pass-v1.md) adds two
+dossiers, 19 claims, 2 explicit unknowns and 62 citations. Separate review is pending.
+Next: **the five-record Middle Tennessee Operations**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.

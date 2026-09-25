@@ -68,6 +68,15 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Operations Against Vicksburg (1862–63) first pass, 2026-09-24
+
+The [two-record memo](research/vicksburg-1862-first-pass-v1.md) adds **5 records**,
+bringing the registry to **349 entries / 346 raw paths**, preserving the previous
+**344/341**. Two NPS battle HTML/text pairs remain in the NPS/CWSAC family. One new
+Greene selection reuses the pinned `greene-mississippi-ocr-v1` parent and holds the
+title/preface and two Chapter III passages. Character ranges and whitespace-only
+normalization reproduce all sections. No model inputs are changed.
+
 ### Forrest West Tennessee first pass, 2026-09-24
 
 The [two-record memo](research/forrest-west-tennessee-first-pass-v1.md) adds **7 records**,

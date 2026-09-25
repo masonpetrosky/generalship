@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **65 draft dossiers / 127 engagements**, with **62 without a dossier**.
+There are **67 draft dossiers / 127 engagements**, with **60 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -160,8 +160,15 @@ which is not independent of the listed Confederate commander. Both results are
 contested in the sources. Separate review is pending.
 Coverage is **16/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Operations Against Vicksburg [December 1862-January 1863]**, the next complete frozen
-group by earliest engagement date: **two records, MS003, AR006**.
+The [Operations Against Vicksburg first pass](research/vicksburg-1862-first-pass-v1.md)
+adds both **frozen records, MS003 and AR006**, with **19 claims, 2 explicit unknowns
+and 62 citations** from NPS/CWSAC and a new selection from the pinned Greene OCR.
+Arkansas Post's untraced white-flag order and casualty differences remain disputed.
+Separate review is pending.
+Coverage is **17/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Middle Tennessee Operations [February-April 1863]**, the next complete frozen
+group by earliest engagement date: **five records, TN012, TN013, TN014, TN015, TN016**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 
