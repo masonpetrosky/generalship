@@ -1,0 +1,73 @@
+{
+  "review_sha256": "b4cbb8be80d66dbbd1ed48a0e9f79a169a517f5c563f0ea4ae4cd3a1aff59cd7",
+  "prepared_commit": "49312d9441d898e75b516d4efdcff50d5cab5b58",
+  "findings": [
+    {
+      "finding_id": "ET-R1",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted with the proposed value and two October 17 citations."
+    },
+    {
+      "finding_id": "ET-R2",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted with the proposed value and the October 11 citation."
+    },
+    {
+      "finding_id": "ET-R3",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted with the proposed clause, two citations and the rationale sentence."
+    },
+    {
+      "finding_id": "ET-R4",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; the frozen description and Carter/Giltner citations are added."
+    },
+    {
+      "finding_id": "ET-N1",
+      "disposition": "adopted",
+      "summary": "TN019 result now says Carter's Depot, with the optional citation."
+    },
+    {
+      "finding_id": "ET-N2",
+      "disposition": "adopted",
+      "summary": "Foster's 9 o'clock is cited and TN019 command-roles is marked disputed."
+    },
+    {
+      "finding_id": "ET-N3",
+      "disposition": "adopted",
+      "summary": "the frozen description's assault sentence is added to TN020's result."
+    },
+    {
+      "finding_id": "ET-N4",
+      "disposition": "partly_adopted",
+      "summary": "the memo mentions the p.601 'f>01' head; the OCR date readings in section date maps are deferred to a later metadata_only revision."
+    }
+  ],
+  "dossiers": {
+    "TN019": {
+      "dossier_path": "data/evidence/TN019.json",
+      "archived_dossier_path": "data/evidence/history/TN019.v1.json",
+      "archived_dossier_sha256": "ae3cac421c58d94d24fc26e257d07e560b4c74e27a7ebbcd8d34de9a49aa18b5",
+      "corrected_dossier_sha256": "e948ad0f7c843c1a4abd973e5ddb85f1751f9a3ceaa692e27da2588ab7cbe7e1",
+      "changed_claims": [
+        "command-roles",
+        "recorded-result"
+      ]
+    },
+    "TN020": {
+      "dossier_path": "data/evidence/TN020.json",
+      "archived_dossier_path": "data/evidence/history/TN020.v1.json",
+      "archived_dossier_sha256": "6910e7e739836feeeffb86e247821de90e5a67d54f88240e61f9899acec7ca27",
+      "corrected_dossier_sha256": "f1c8c21db578013c49e90912966058df9a9002fc471c4defa9194ba328f34149",
+      "changed_claims": [
+        "reported-force-scope",
+        "supplies-and-roads",
+        "clear-the-flank-or-divert",
+        "command-roles",
+        "recorded-result"
+      ]
+    }
+  },
+  "notes": "No source record changes. Citations rise from 80 to 90; claims and unknowns are unchanged; TN019 command-roles becomes disputed.",
+  "independent_followup_review": false
+}

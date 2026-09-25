@@ -2,13 +2,15 @@
 
 Prepared 2026-09-25. Both **frozen records** in **East Tennessee Campaign
 [September-October 1863]** now have draft dossiers: **19 claims, 2 explicit null unknowns
-and 80 citation occurrences**. All seven dimensions are represented in each record.
-Separate review is pending. All dossiers remain drafts; no features are admitted.
+and 90 citation occurrences** after review correction. All seven dimensions are
+represented in each record. Separate Claude Opus 5.5 `high` [review](../../artifacts/review-results/east-tennessee-49312d9-opus-high-v1/review.md) found
+four required corrections, all applied and verified by the primary. All dossiers remain
+drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| TN019 — Blountsville | 1863-09-22 | 10 | 1 | 40 | 3 |
-| TN020 — Blue Springs | 1863-10-10 | 9 | 1 | 40 | 3 |
+| TN019 — Blountsville | 1863-09-22 | 10 | 1 | 42 | 3 |
+| TN020 — Blue Springs | 1863-10-10 | 9 | 1 | 48 | 3 |
 
 Coverage is **110/127 draft dossiers**, **17 without**, and **28/36 complete source
 campaigns by dossier presence**. All 108 earlier dossiers and all historical revisions
@@ -34,7 +36,8 @@ author group:
     November 13, 1865 report (pp.551–552);
   - **Williams's** October 23 report and November 3 supplement (pp.639–643).
 
-Three OCR running heads are misread, so those locators are marked inferred:
+Three cited OCR running heads are misread, so those locators are marked inferred (Jones's
+p.601 head also reads "f>01", but no locator uses it):
 
 - Jones's p.603 reads "003".
 - Burnside's p.552 reads "553".
@@ -82,6 +85,28 @@ causal effect or new commander ranking is introduced. The cohort and both admiss
 proposals are unchanged, with **zero promoted rows**. The baseline still uses **23/127
 engagements in 13 eligible groups**, with strength Brier **0.276882** against
 **0.250000** for equal odds.
+
+## Review correction and validation
+
+The reviewer found four required corrections, all in TN020, verified against the retained
+text (each new quote occurs once) and applied:
+
+- **ET-R1** separates Burnside's 5 p.m. formation from his dispatch's attack and dates
+  the Henderson's withdrawal to October 11.
+- **ET-R2** dates Williams's wagon remark to October 11.
+- **ET-R3** restores the scope and basis of Williams's 15,000 and notes its dependence on
+  Burnside's report.
+- **ET-R4** cites two uncited value clauses.
+
+Notes N1 (Jones withdrew Williams from Carter's Depot), N2 (Foster's 9 a.m. clock cited,
+and the Blountsville command claim marked disputed) and N3 (the frozen description's
+account of the assault) are adopted. For N4, the memo now mentions Jones's "f>01" head;
+the OCR report-date readings in the section date maps are left for a later
+`metadata_only` revision. Citations rise from 80 to 90; claims and unknowns are
+unchanged, and no source record changes. The originals are retained as
+`data/evidence/history/*.v1.json`, linked by `supersedes`. The
+[primary assessment](../../artifacts/review-results/east-tennessee-49312d9-opus-high-v1/primary-assessment.md) closes all four findings; no second
+reviewer pass is claimed.
 
 Next by frozen campaign start is **Bristoe Campaign [October-November 1863]**: VA039,
 VA040, VA041, VA042 and VA043. Do not start that group within this batch.

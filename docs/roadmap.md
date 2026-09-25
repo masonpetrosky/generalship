@@ -291,10 +291,13 @@ attribution, scope and citation corrections, all fixed and
 Coverage is **27/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [East Tennessee Campaign first pass](research/east-tennessee-first-pass-v1.md) adds both
-**frozen records, TN019 and TN020**, with **19 claims, 2 explicit unknowns and 80
+**frozen records, TN019 and TN020**, with **19 claims, 2 explicit unknowns and 90
 citations** from NPS/CWSAC and Foster's, Samuel Jones's, Burnside's and Williams's
 reports in Official Records Volume XXX Part 2. The Blountsville fire and Blue Springs
-assault disputes remain visible. Separate review is pending.
+assault disputes remain visible. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/east-tennessee-49312d9-opus-high-v1/review.md) found four
+attribution, timing and citation corrections, all fixed and
+[verified by the primary](../artifacts/review-results/east-tennessee-49312d9-opus-high-v1/primary-assessment.md).
 Coverage is **28/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Bristoe Campaign first pass](research/bristoe-first-pass-v1.md) adds all five

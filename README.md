@@ -160,7 +160,8 @@ The [Chickamauga Campaign pass](docs/research/chickamauga-first-pass-v1.md) adds
 dossiers, 27 claims, 3 explicit unknowns and 147 citations. Opus 5.5 `high` reviewed them;
 its eight required corrections are fixed and verified by the primary.
 The [East Tennessee Campaign pass](docs/research/east-tennessee-first-pass-v1.md) adds two
-dossiers, 19 claims, 2 explicit unknowns and 80 citations. Separate review is pending.
+dossiers, 19 claims, 2 explicit unknowns and 90 citations. Opus 5.5 `high` reviewed them;
+its four required corrections are fixed and verified by the primary.
 The [Bristoe Campaign pass](docs/research/bristoe-first-pass-v1.md) adds five
 dossiers, 45 claims, 5 explicit unknowns and 190 citations. Separate review is pending.
 Next: **the one-record Reopening the Tennessee River**. See the
