@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "battle_id": "MS002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all three frozen records in Iuka and Corinth Operations. Preserve per-engagement dates: Iuka September 19, Corinth October 3–4 and Hatchie's Bridge October 5. The live NPS campaign heading does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The live NPS field reads 45000 total (US 23000; CS 22000;), matching the narrative. Greene gives Van Dorn about 22,000 in the field from a September 28 return (Price about 14,000, Lovell about 8,000) and Rosecrans 23,000 from Grant's October 1 return.",
+      "rationale": "Figures come from returns on dates before the battle; effective and engaged scopes are not established. Agreement may reflect shared dependence on the returns and is not independent corroboration.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS002"
+          },
+          "column": "forces_text",
+          "quote": "Army of the Mississippi [US]; Army of the West Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-ms002-v1",
+          "locator": "Forces Engaged",
+          "quote": "45000 total (US 23000; CS 22000;)"
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "he had about 22,000 in the field"
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.43 (OCR page markers; not checked against print)",
+          "quote": "23,000 under Eosecrans at Corinth"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "fortification-lines",
+      "dimension": "terrain",
+      "value": "NPS says Union forces had built inner and intermediate lines since the spring siege; Greene describes redoubts near the town and an outer line of entrenchments about two miles out, built earlier by the Confederates.",
+      "rationale": "Pre-existing works at the opening boundary, from summaries; no map or engineering record verified.",
+      "citations": [
+        {
+          "source_id": "nps-ms002-v1",
+          "locator": "Description",
+          "quote": "Union forces had erected various fortifications, an inner and intermediate line"
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.46 (OCR page markers; not checked against print)",
+          "quote": "an outer line of intrenchments, about two miles in ad- vance, which had been built by the Confederates prior to their evacuation in May."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "heat-water-and-fatigue",
+      "dimension": "logistics",
+      "value": "NPS says heat, fatigue and water shortages, with Van Dorn's confidence, led him to stop on October 3; Greene quotes Rosecrans that his men were worn out when he delayed pursuit.",
+      "rationale": "Attributed conditions, not ration, water or readiness returns.",
+      "citations": [
+        {
+          "source_id": "nps-ms002-v1",
+          "locator": "Description",
+          "quote": "combined with the heat, fatigue, and water shortages--persuaded him to cancel any further operations that day."
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.51 (OCR page markers; not checked against print)",
+          "quote": "two days of fight- ing, and two almost sleepless nights of preparation"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-and-uncertainty",
+      "dimension": "information",
+      "value": "Greene says Grant was unsure whether Bolivar or Corinth was the target until the concentration at Pocahontas was learned, and that Rosecrans was fully informed of the approach.",
+      "rationale": "Retrospective summary from the records; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.43 (OCR page markers; not checked against print)",
+          "quote": "Grant was left in doubt whether Bolivar or Corinth was to be the point of attack."
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "Rosecrans had been fully informed of the enemy's approach"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-objective",
+      "dimension": "objectives",
+      "value": "Greene quotes Van Dorn's report calling the attack on Corinth a military necessity; NPS says the Confederates hoped to seize Corinth and sweep into Middle Tennessee.",
+      "rationale": "Attributed purpose from a quoted report and a summary; no inspected original.",
+      "citations": [
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "The attack on Corinth was a military necessity requiring prompt and vigorous action."
+        },
+        {
+          "source_id": "nps-ms002-v1",
+          "locator": "Description",
+          "quote": "They hoped to seize Corinth and then sweep into Middle Tennessee."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-and-delay",
+      "dimension": "responsibility",
+      "value": "Both sources say Van Dorn took command as senior. NPS says Hébert's sickness postponed the October 4 attack to 9 a.m.; Greene says the plan miscarried 'in Van Dorn's opinion' owing to that delay, and that two eccentric Union advances opened the gap exploited on October 3.",
+      "rationale": "Attributed judgments about subordinate conduct; no automatic sole credit to either listed army commander.",
+      "citations": [
+        {
+          "source_id": "nps-ms002-v1",
+          "locator": "Description",
+          "quote": "Van Dorn was senior officer and took command of the combined force"
+        },
+        {
+          "source_id": "nps-ms002-v1",
+          "locator": "Description",
+          "quote": "Brig. Gen. Louis Hebert's sickness postponed it till 9:00 am."
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "This whole plan miscarried, in Van Dom's opinion, owing to the delay in Hebert's division"
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "These two advances were eccentric, and the result was a considerable gap"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "pursuit-delay",
+      "dimension": "responsibility",
+      "value": "Greene says Rosecrans decided not to pursue until the next day and Grant blamed him for the delay; NPS says Rosecrans postponed pursuit.",
+      "rationale": "Post-battle command decision; its consequence belongs to Hatchie's Bridge and campaign contribution, not this tactical result.",
+      "citations": [
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.51 (OCR page markers; not checked against print)",
+          "quote": "decided not to begin pursuit until the following day. General Grant blamed him for this delay"
+        },
+        {
+          "source_id": "nps-ms002-v1",
+          "locator": "Description",
+          "quote": "Rosecrans postponed any pursuit until the next day."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Union victory. Greene says the Confederates were in full retreat by noon on October 4, but later dates the battle to 'October 5th'.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Greene's October 5 date conflicts with his own narrative and the frozen interval; the frozen dates are kept.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS002"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ms002-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.51 (OCR page markers; not checked against print)",
+          "quote": "the Confederates were all moving off by noon."
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.54 (OCR page markers; not checked against print)",
+          "quote": "so this battle of Corinth (October 5th)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 7,197 total (US 2,359; CS 4,838); the live NPS field reads 7150 total (US 2350; CS 4800;). Greene gives Rosecrans's reported 2,359 and official Confederate returns of 4,838, against Rosecrans's 2,268 prisoners and 1,423 Confederate burials, from which Greene infers a loss over nine thousand.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Greene's nine-thousand figure is an inference from an assumed wounded-to-killed ratio, not a count.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS002"
+          },
+          "column": "casualties_text",
+          "quote": "7,197 total (US 2,359; CS 4,838)"
+        },
+        {
+          "source_id": "nps-ms002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "7150 total (US 2350; CS 4800;)"
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "Rosecrans reported his losses at 315 killed, 1,812 wounded, and 232 missing ; total, 2,359."
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "total, 4,838."
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "including prisoners, over nine thousand."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Returns, casualty reconciliation and the October 3 gap's command sequence remain deferred.",
+    "NPS/CWSAC is one family; Greene is one retrospective history by a non-participant Union engineer officer, founded on the Official Records. Reports quoted inside Greene are not additional independently inspected families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

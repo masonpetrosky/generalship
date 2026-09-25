@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **54 draft dossiers / 127 engagements**, with **73 without a dossier**.
+There are **57 draft dossiers / 127 engagements**, with **70 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -109,8 +109,15 @@ Palfrey's retrospective history. South Mountain's live NPS result field
 as is who surrendered Harpers Ferry. Separate review is pending.
 Coverage is **11/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Iuka and Corinth Operations [September-October 1862]**, the next complete frozen
-group by earliest engagement date: **three records, MS001, MS002, TN007**.
+The [Iuka and Corinth first pass](research/iuka-corinth-first-pass-v1.md) adds all
+**three frozen records, MS001, MS002 and TN007**, with **28 claims, 3 explicit
+unknowns and 76 citations** from NPS/CWSAC and Greene's records-based retrospective
+history. Iuka's force scopes, casualty counts and the reason the Fulton road was
+left open remain disputed. Separate review is pending.
+Coverage is **12/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Stones River Campaign [December 1862-January 1863]**, the next complete frozen
+group by earliest engagement date: **two records, TN008, TN010**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

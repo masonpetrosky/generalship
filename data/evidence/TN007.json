@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN007",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all three frozen records in Iuka and Corinth Operations. Preserve per-engagement dates: Iuka September 19, Corinth October 3–4 and Hatchie's Bridge October 5. The live NPS campaign heading does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Detachment [US]; Army of the West [CS]; the live field reads zero. NPS names Hurlbut's '4th Brigade' joining Ord; Greene says Hurlbut moved with his division and calls the fight Ord's little command against the whole of Van Dorn's army.",
+      "rationale": "Formation descriptions without counts; the sources differ on Hurlbut's formation. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN007"
+          },
+          "column": "forces_text",
+          "quote": "Detachment [US]; Army of the West [CS]"
+        },
+        {
+          "source_id": "nps-tn007-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-tn007-v1",
+          "locator": "Description",
+          "quote": "Hurlbut's 4th Brigade"
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "Hurlbut, in obedience to orders from Grant, moved with his division from Bolivar"
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "A very considerable affair ensued between Ord's little command and the whole of Van Dorn's army"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "river-crossings",
+      "dimension": "terrain",
+      "value": "NPS says Ord pushed Price back to the Hatchie and across Davis' Bridge; Greene says Van Dorn instead crossed at Crum's Mill, six miles along the east bank.",
+      "rationale": "River and bridge description; no map verification.",
+      "citations": [
+        {
+          "source_id": "nps-tn007-v1",
+          "locator": "Description",
+          "quote": "back about five miles to the Hatchie River and across Davis' Bridge"
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "to continue his retreat on the east bank of the Hatchie for six miles to Crum's Mill."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "pursuit-congestion",
+      "dimension": "logistics",
+      "value": "Greene says Rosecrans's four pursuing divisions ran into one another about seven miles from Corinth, and that the pursuers lacked preparation for an extended movement.",
+      "rationale": "Attributed movement problems; no march or supply record inspected.",
+      "citations": [
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "all four divisions ran against each other about seven miles from Corinth"
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "owing to their lack of preparation for an extended movement"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "alternative-crossing-found",
+      "dimension": "information",
+      "value": "NPS says Van Dorn's scouts found another crossing while Price's men were engaged with Ord.",
+      "rationale": "Summary of reconnaissance; no inspected report.",
+      "citations": [
+        {
+          "source_id": "nps-tn007-v1",
+          "locator": "Description",
+          "quote": "Van Dorn's scouts looked for and found another crossing of the Hatchie River."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "interception-orders",
+      "dimension": "objectives",
+      "value": "Greene says Hurlbut was ordered to intercept the Confederate retreat; NPS says Ord was advancing under orders to assist Rosecrans.",
+      "rationale": "Attributed orders from summaries; no inspected originals.",
+      "citations": [
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "with orders to intercept the Confederate re- treat."
+        },
+        {
+          "source_id": "nps-tn007-v1",
+          "locator": "Description",
+          "quote": "pursuant to orders, advancing on Corinth to assist Rosecrans"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "sequential-command",
+      "dimension": "responsibility",
+      "value": "NPS says Ord took command of the combined force, was wounded and Hurlbut assumed command; Greene says Ord arrived and took command and was severely wounded. The live heading ranks Ord Brigadier General against the frozen Major General.",
+      "rationale": "Both frozen Union commanders held command in turn; neither receives automatic sole credit. The heading rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "nps-tn007-v1",
+          "locator": "Description",
+          "quote": "Ord was wounded and Hurlbut assumed command."
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "On the fol- lowing morning Ord arrived and took command of this column."
+        },
+        {
+          "source_id": "nps-tn007-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Edward Ord [US]"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN007",
+            "belligerent": "US",
+            "fullname": "Edward O.C. Ord"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Both sources say Van Dorn escaped and continued his retreat.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Escape of the Confederate army is campaign context, not a separate result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN007"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tn007-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-tn007-v1",
+          "locator": "Description",
+          "quote": "the Confederates escaped capture or destruction"
+        },
+        {
+          "source_id": "greene-iuka-corinth-selections-v1",
+          "section": "corinth-and-hatchie",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "he managed to defend himself against Ord"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text and live field agree: 900 total (US 500; CS 400). Greene gives no separate figure.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN007"
+          },
+          "column": "casualties_text",
+          "quote": "900 total (US 500; CS 400)"
+        },
+        {
+          "source_id": "nps-tn007-v1",
+          "locator": "Estimated Casualties",
+          "quote": "900 total (US 500; CS 400;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Returns, the Hurlbut formation's scope and the command-transfer clock remain deferred.",
+    "NPS/CWSAC is one family; Greene is one retrospective history by a non-participant Union engineer officer, founded on the Official Records. Reports quoted inside Greene are not additional independently inspected families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

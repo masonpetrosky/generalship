@@ -68,6 +68,18 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Iuka and Corinth first pass, 2026-09-24
+
+The [three-record memo](research/iuka-corinth-first-pass-v1.md) adds **12 records**,
+bringing the registry to **319 entries / 316 raw paths**, preserving the previous
+**310/307**. Three NPS battle HTML/text pairs remain in the NPS/CWSAC family. Francis
+Vinton Greene's 1882 *The Mississippi* adds a `greene-mississippi-1882` family: public
+catalog metadata, full OCR and one selection derivative holding the title/preface
+and two bounded Chapter II passages. Character ranges and whitespace-only
+normalization reproduce all sections. Greene was not a participant and founded the
+book on the Official Records; quoted reports are not separately inspected
+originals. No model inputs are changed.
+
 ### Maryland first pass, 2026-09-24
 
 The [campaign memo](research/maryland-first-pass-v1.md) adds **12 records**, bringing
