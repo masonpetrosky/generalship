@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "battle_id": "DC001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort Stevens record (July 11-12, 1864) in Early's Raid and Operations Against the B&O Railroad [June-August 1864]. The July 10 march from Frederick and the July 13 withdrawal are context. Campaign-wide marches, levies, captures, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions; the live field reads zero. Early says his infantry did not exceed 10,000, Breckinridge's (nominally much larger) not over 2,500 muskets. Pond quotes Barnard that about 20,400 men were available, of whom only 9,000, mostly raw, garrisoned the defences, and he lists later arrivals: the Sixth Corps put 900 men on picket, Meigs reported 1,500 armed employees and Price 2,800 convalescents. He says 800 men of Emory's division arrived with the Sixth Corps.",
+      "rationale": "Early's figure is his own statement of infantry; the Union figures are availability, garrison and arrival counts at different times of July 10-11, not the force engaged on July 12. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "DC001"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-dc001-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or37-1-early-monocacy-washington-selections-v1",
+          "section": "early-1864-07-14",
+          "locator": "p.348 (OCR page markers; not checked against print)",
+          "quote": "My infantry force did not exceed 10,000, as Breckinridge’s in¬ fantry (nominally much larger) really did not exceed 2,500 muskets."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.65 (OCR page markers; not checked against print)",
+          "quote": "The foregoing constitute a total of about 20,400 men. Of that number, however, but 9,000, mostly perfectly raw troops, constituted the garrison of the defences."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "that night the Sixth Corps relieved the provisional forces on picket, with 900 men,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "Quartermaster General Meigs reported for duty with 1,500 of his employees,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "Colonel Price reported with his provi- sional brigade of 2,800 convalescents."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.66 (inferred: the running head reads \"68\" in OCR, after the p.65 head and before the p.67 head; not checked against print)",
+          "quote": "bringing a por- tion, 800 men, of Emory's division of the Nineteenth Corps,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fortified-line",
+      "dimension": "terrain",
+      "value": "Early says the fortifications were very strong: inclosed forts connected by breastworks, with ditches, palisades and abatis, every approach swept by artillery cross-fire including heavy guns. Pond names Fort Stevens in Early's front, De Russy to the west and Slocum to the east, and says the Rives house on rising ground, with shade trees and an orchard, covered the Confederate sharpshooters.",
+      "rationale": "The works existed when Early arrived, per both accounts, and are tagged inherited for this engagement; the Rives house cover was occupied during it. No map verification.",
+      "citations": [
+        {
+          "source_id": "or37-1-early-monocacy-washington-selections-v1",
+          "section": "early-1864-07-14",
+          "locator": "p.348 (OCR page markers; not checked against print)",
+          "quote": "These we found to be very strong and constructed very scientifically."
+        },
+        {
+          "source_id": "or37-1-early-monocacy-washington-selections-v1",
+          "section": "early-1864-07-14",
+          "locator": "p.348 (OCR page markers; not checked against print)",
+          "quote": "They consist of a circle of inclosed forts, con¬ nected by breast-works, with ditches, jjalisades, and abatis in front, and every approacli swept by a cross-fire of artillery, including some heavy guns."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "The one in Early's front was Fort Stevens, with De Eussy on the west, and Slocum on the east."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "it stood on rising ground, surrounded by shade trees, with an orchard hard by, affording cover for his sharp- shooters,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "heat-march-and-supply",
+      "dimension": "logistics",
+      "value": "Early says his men marched thirty miles on July 10 in heat and dust, that on the 11th many fell out and the rest arrived almost completely exhausted, and that with troops gathering around him he would find it difficult to get supplies. He reports over 1,000 horses brought off and $220,000 levied at Hagerstown and Frederick. Pond says men fell by the wayside, exhausted and half suffocated.",
+      "rationale": "Interested and retrospective descriptions of condition, not a readiness measure; the levy and horses are campaign totals.",
+      "citations": [
+        {
+          "source_id": "or37-1-early-monocacy-washington-selections-v1",
+          "section": "early-1864-07-14",
+          "locator": "p.348 (OCR page markers; not checked against print)",
+          "quote": "The day was very hot and the roads exceed¬ ingly dusty, but we marched thirty miles."
+        },
+        {
+          "source_id": "or37-1-early-monocacy-washington-selections-v1",
+          "section": "early-1864-07-14",
+          "locator": "p.348 (OCR page markers; not checked against print)",
+          "quote": "when we reached the right of the enemy’s fortifications the men were almost completely exhausted and not in a condition to make an attack."
+        },
+        {
+          "source_id": "or37-1-early-monocacy-washington-selections-v1",
+          "section": "early-1864-07-14",
+          "locator": "p.348 (OCR page markers; not checked against print)",
+          "quote": "while troops were gathering around me I would find it difficult to get supplies,"
+        },
+        {
+          "source_id": "or37-1-early-monocacy-washington-selections-v1",
+          "section": "early-1864-07-14",
+          "locator": "p.349 (OCR page markers; not checked against print)",
+          "quote": "Over 1,000 have been brought off and $220,000 in money was levied and collected in Hagerstown and Frederick,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.63 (OCR page markers; not checked against print)",
+          "quote": "fell by the wayside, ex- hausted and half suffocated."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reinforcement-seen",
+      "dimension": "information",
+      "value": "Early says it became apparent before his assault that the enemy had been strongly reinforced and that he knew the Sixth Corps had arrived. Pond says Early knew from prisoners that troops had been sent from Grant's army and saw troops filing into the works. Wright, at 4.10 p.m. on the 11th, believed the enemy near Fort Stevens only a very light skirmish line. Early says Northern reports greatly exaggerated his force.",
+      "rationale": "Attributed knowledge from interested accounts and a history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or37-1-early-monocacy-washington-selections-v1",
+          "section": "early-1864-07-14",
+          "locator": "p.348 (OCR page markers; not checked against print)",
+          "quote": "it became apparent that the enemy had been strongly re-enforced, and we knew that the Sixth Corps had arrived from Grant’s army,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "From his prisoners Early knew positively that troops must have been sent from Grant's army,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "bodies of troops filing into the works in his front,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "I believe it to be only a very light skirmish line,"
+        },
+        {
+          "source_id": "or37-1-early-monocacy-washington-selections-v1",
+          "section": "early-1864-07-14",
+          "locator": "p.349 (OCR page markers; not checked against print)",
+          "quote": "my force was very greatly exaggerated,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "assault-or-retire",
+      "dimension": "objectives",
+      "value": "Early says he first determined to assault, then, after consulting his division commanders, judged that even a successful assault would cost his whole force, and reluctantly decided to retire. Wright proposed to send a brigade against the skirmish line; Augur did not consider an advance advisable until the lines were better established.",
+      "rationale": "Stated aims from interested accounts; the effect of the demonstration on Grant's lines is campaign context.",
+      "citations": [
+        {
+          "source_id": "or37-1-early-monocacy-washington-selections-v1",
+          "section": "early-1864-07-14",
+          "locator": "p.348 (OCR page markers; not checked against print)",
+          "quote": "I determined at first to make an assault,"
+        },
+        {
+          "source_id": "or37-1-early-monocacy-washington-selections-v1",
+          "section": "early-1864-07-14",
+          "locator": "p.348 (OCR page markers; not checked against print)",
+          "quote": "I, therefore, reluctantly determined to retire,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "with your permission will send a brigade out against it, and try to clear it out."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "Augur replied that he did not consider it advisable to make any advance \" until our lines are better established — perhaps to morrow.\""
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Early decided on withdrawal after consulting his division commanders. Pond says Augur had placed the collected troops in the forts with McCook in command, that Wright held his corps in reserve subject to McCook's orders, and that on July 12 Wright pushed out Bidwell's brigade, which advanced at a sign from Wright on the parapet. The frozen commanders are Lieutenant General Early and Major Generals Horatio G. Wright and Alexander McDowell McCook; the live page lists Wright and Early (as Major General) only.",
+      "rationale": "Command roles from an interested report and a history; no listed commander receives automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or37-1-early-monocacy-washington-selections-v1",
+          "section": "early-1864-07-14",
+          "locator": "p.348 (OCR page markers; not checked against print)",
+          "quote": "after consultation with my division commanders"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "with General A. McD. McCook in command."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "He added that he held his corps in reserve, subject to McCook's orders."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "Bidwell, at a sign from Wright, who stood on the parapet,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "DC001",
+            "belligerent": "Confederate",
+            "fullname": "Jubal A. Early"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "DC001",
+            "belligerent": "US",
+            "fullname": "Horatio G. Wright"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "DC001",
+            "belligerent": "US",
+            "fullname": "Alexander McDowell McCook"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-dc001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Horatio Wright [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Pond says the July 12 attack expelled Early's skirmishers from the Rives house and drove his pickets back a mile; Early says his reinforced skirmishers repulsed the enemy three times, and that he retired after night in entire good order and without loss.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "DC001"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-dc001-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "Early's pickets were driven back a mile."
+        },
+        {
+          "source_id": "or37-1-early-monocacy-washington-selections-v1",
+          "section": "early-1864-07-14",
+          "locator": "p.349 (OCR page markers; not checked against print)",
+          "quote": "being re-enforced repulsed the enemy three times."
+        },
+        {
+          "source_id": "or37-1-early-monocacy-washington-selections-v1",
+          "section": "early-1864-07-14",
+          "locator": "p.348 (OCR page markers; not checked against print)",
+          "quote": "I retired after night, and have moved to this place in entire good order and without any loss whatever."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 874 total; the live field reads 873 (US 373; CS 500). Pond gives the attacking brigade a loss of 250 and 280 for the force engaged on July 12, Hardin's division 73 killed and wounded over the two days, and the total Union loss in the demonstration between 400 and 500; he says about 30 Confederate dead and 70 seriously wounded were left behind. Early's report gives no loss for July 11-12.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "DC001"
+          },
+          "column": "casualties_text",
+          "quote": "874 total"
+        },
+        {
+          "source_id": "nps-dc001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "873 total (US 373; CS 500;)"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.70 (OCR page markers; not checked against print)",
+          "quote": "with a loss of 250 in the brigade and a total loss of 280 out of the force engaged."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.70 (OCR page markers; not checked against print)",
+          "quote": "Hardin's divi- sion lost 73 killed and wounded during the two days of Early's presence,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.70 (OCR page markers; not checked against print)",
+          "quote": "the total Union loss in this demonstration against Washington between 400 and 500."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "fort-stevens",
+          "locator": "p.70 (OCR page markers; not checked against print)",
+          "quote": "about 30 of his dead and 70 of his most seriously wounded were left on the field"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "McCook's, Wright's, Hardin's, Wheaton's and the other defence-of-Washington reports, Chipman's status report, Fitts's statement of Confederate strength and Rodes's July reports remain deferred; Wallace's reports (selected for MD007) are not used here.",
+    "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes the reports of the commanders it describes and is not independent of them. Early's July 14, 1864 report to Lee, printed in Official Records Series I, Volume XXXVII, Part 1, is one interested Confederate family; Pond quotes it. The Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "battle_id": "WV014",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Summit Point record (August 21, 1864) in Sheridan's Valley Campaign [August-October 1864]. The August 22 withdrawal to Halltown and the August 22-24 skirmishing there are context. Campaign-wide marches, destruction, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions; the live field reads zero. Pond says Anderson brought Kershaw's division, Cutshaw's artillery and two cavalry brigades under Fitz Lee, and that Early advanced Rodes's and Ramseur's divisions against the Sixth Corps. Sheridan's August 22 dispatch says prisoners reported the whole enemy present with Longstreet, which he did not believe, one of Longstreet's divisions being there. His 1866 report gives about 18,000 infantry and 3,500 cavalry effective on August 13.",
+      "rationale": "Unit identifications and a figure from eight days earlier; no count for either side on August 21. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV014"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-wv014-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.133 (OCR page markers; not checked against print)",
+          "quote": "The force which Anderson brought with him consisted, as has been said, of Kershaw's division, Cutshaw's battalion of artillery, and two brigades of cavalry under Fitz Lee."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "advancing the divisions of Bodes and Raruseur."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-08-22",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "Prisoners cai)tured to-day report tlie whole of the enemy her(‘, with Longstreet. This latter 1 do not believe. One of his divisions is here."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.42 (OCR page markers; not checked against print)",
+          "quote": "As my effective line of battle strength at this time was about 18,000 infantry and 3,500 cavalry,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "bad-position-and-halltown",
+      "dimension": "terrain",
+      "value": "Sheridan says his position at Welch's Spring near Charlestown was a very bad one, so he fell back to Halltown; Pond calls Halltown, with a river on either flank, the best defensive position in the Valley. Sheridan's report says the Sixth Corps held near Flowing Spring.",
+      "rationale": "Assessments from an interested dispatch and a history; no map verification.",
+      "citations": [
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-08-22",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "advanced on my position at Welch’s S£)ring, two miles west of Charlestown."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-08-22",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "My position at best being a very bad one,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "with a river on either flank,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "he had the best defensive posi- tion in the Valley."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "advanced rapidly on the i)osition of the Sixth Corps near Flowing Spring,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "wheat-and-forage",
+      "dimension": "logistics",
+      "value": "Pond says Early went only far enough down the Valley to keep the railroad broken and reach grain and forage, Sheridan having burned the Valley above Winchester, and quotes Early to Anderson on August 19 that no wheat had been burned where they were and they could live there.",
+      "rationale": "A history and a Confederate note it quotes; not a supply return.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.133 (OCR page markers; not checked against print)",
+          "quote": "to be where he could get grain and forage ;"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.133 (OCR page markers; not checked against print)",
+          "quote": "for Sheridan had burned the Valley above Winches- ter."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.133 (OCR page markers; not checked against print)",
+          "quote": "No wheat has been burned in this country, and if we can stay here we can live."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "obscure-strength",
+      "dimension": "information",
+      "value": "Pond says Sheridan's information put at least one more of Longstreet's divisions in the Valley while Grant's scouts said only Kershaw's and Fitz Lee's had gone, so the Confederate strength and purposes remained obscure. Sheridan's report says the enemy mistakenly thought he was near Summit Point and tried to get into his rear.",
+      "rationale": "Attributed knowledge from a history and an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.133 (OCR page markers; not checked against print)",
+          "quote": "all his information was to the effect that at least one additional division of Longstreet's old corps was already in the Valley."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.134 (OCR page markers; not checked against print)",
+          "quote": "no division or brigade has gone from Lee's army to the Valley except Kershaw's and Fitz Lee's."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.134 (OCR page markers; not checked against print)",
+          "quote": "While the Confederate strength and purposes thus re- mained obscure,"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "The enemy appeared to have thought that I had taken position near Summit Point,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "converging-attack",
+      "dimension": "objectives",
+      "value": "Pond says Early and Anderson planned a combined attack, Early through Smithfield toward Charlestown and Anderson by the Summit Point road. Sheridan says he then fell back to Halltown because much depended on the army.",
+      "rationale": "Stated plans from a history and an interested dispatch.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.134 (OCR page markers; not checked against print)",
+          "quote": "Early and Anderson determined, the 21st, to attack Sheridan in a combined movement,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "while Anderson was to advance by the direct road that runs through Summit Point."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-08-22",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "and, as there is much depending on this army, I fell back"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Pond says Anderson, though senior, declined to take command from Early; that Ricketts's division moved from reserve to the Sixth Corps' left; and that at midnight Sheridan drew in Merritt and Wilson and moved the army to Halltown. The frozen commanders are Lieutenant General Early and Major General Sheridan; the live page gives Early as Major General.",
+      "rationale": "Command roles from a history and an interested report; neither listed commander receives automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.133 (OCR page markers; not checked against print)",
+          "quote": "Anderson ranked Early, but declined to take command,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "Rick- etts was transferred from his position in reserve to the left of the corps line,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "At midnight Sheridan drew in Merritt and Wilson, and moved the whole army back to Halltown,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV014",
+            "belligerent": "Confederate",
+            "fullname": "Jubal A. Early"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV014",
+            "belligerent": "US",
+            "fullname": "Philip Sheridan"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-wv014-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Jubal Early [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Sheridan says the Sixth Corps' picket-line fight went very much in its favour and that the army moved back to Halltown without loss; Pond says the lost position was regained at nightfall and Anderson's advance was retarded by the cavalry at Berryville and Summit Point. NPS calls the Union actions effective delaying actions.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV014"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-wv014-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "resulting very much in its favor."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "During the night of the 21st the army moved back to Halltown without inconvenience or loss,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "the lost position was regained at night- fall,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "his advance having been handsomely retarded by Merritt's cavalry division at Berry ville and Wilson's at Summit Point."
+        },
+        {
+          "source_id": "nps-wv014-v1",
+          "locator": "Description",
+          "quote": "The Federals fought effective delaying actions, withdrawing to near Halltown on the following day."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,000 total; the live field reads 1000 (US 600; CS 400). Sheridan's August 22 dispatch gives his loss on the 21st as 275; Pond gives 260 killed and wounded, mainly in Getty's division. No inspected passage gives a Confederate loss.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV014"
+          },
+          "column": "casualties_text",
+          "quote": "1,000 total"
+        },
+        {
+          "source_id": "nps-wv014-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1000 total (US 600; CS 400;)"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-08-22",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "My loss yesterday was 275."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "summit-point",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "with the loss of 260 killed and wounded, mainly in Getty's division."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Wright's, Getty's, Merritt's and Wilson's reports, Hotchkiss's journal and the Confederate division reports remain deferred.",
+    "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes Sheridan's, Torbert's, Wright's and Early's reports and despatches and is not independent of them. Sheridan's dispatches of August-September 1864 and his report dated New Orleans, February 3, 1866 are one family of interested Union accounts. Official Records Series I, Volume XLIII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

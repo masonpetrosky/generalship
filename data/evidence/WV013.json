@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "battle_id": "WV013",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Moorefield record (August 7, 1864) in Early's Raid and Operations Against the B&O Railroad [June-August 1864]. The August 4 attack on New Creek and the pursuit from Hancock are context. Campaign-wide marches, levies, captures, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions; the live field reads zero. Johnson says his First and Second Maryland together had not 130 men in camp, and that McCausland's courier reported Averell passing Romney with three brigades of cavalry. Pond names Averell's brigades under Gibson and Powell and a battalion under Major Work.",
+      "rationale": "Fragmentary unit counts and reported enemy composition; no whole-force count for either side. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV013"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-wv013-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.5 (OCR page markers; not checked against print)",
+          "quote": "an aggregate for botli of not 130 men in camjA,"
+        },
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.5 (OCR page markers; not checked against print)",
+          "quote": "Averell had i^assed through Eomney the preceding evening with three brigades of cavalry,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "cumberland-and-moorefield",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "his advance brigade, Gibson, surprised Bradley Johnson,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "cumberland-and-moorefield",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "Powell's brigade, charging through the river,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "separated-camps",
+      "dimension": "terrain",
+      "value": "Johnson says McCausland chose the camps: McCausland on the Moorefield side of the South Branch, Johnson's brigade along the Romney road for grass, his outer regiment four and a half miles from Moorefield. He calls his camp level ground with every artillery position favouring an attacker, the good hills being on McCausland's side of the river. Pond says the attack drove Johnson through the stream to the main position on the opposite bank.",
+      "rationale": "An interested subordinate's description and a history; the camps were chosen during the raid and are not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.5 (OCR page markers; not checked against print)",
+          "quote": "General McOausland on the Mooretield side of the South Branch and this command along the Komney road, the only place I could get grass,"
+        },
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.5 (OCR page markers; not checked against print)",
+          "quote": "my outside regiment four miles and a half from Mooretield,"
+        },
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.5 (OCR page markers; not checked against print)",
+          "quote": "being a level, Avith all positions for artil¬ lery in favor of an approaching enemy,"
+        },
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.5 (OCR page markers; not checked against print)",
+          "quote": "the fine range of hills on his (General McCausland’s) side of the river."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "cumberland-and-moorefield",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "drove him through the stream to the main position of the enemy on the opposite bank."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "arms-and-forage",
+      "dimension": "logistics",
+      "value": "Johnson blames the insufficient armament of his command: besides the First and Second Maryland and a squadron of the Eighth Virginia there was not a saber, and the Enfield musket could not be reloaded against charging cavalry. Pond says Averell arrived after a forced march through Bath, Springfield and Romney.",
+      "rationale": "An interested account of equipment, not an ordnance return.",
+      "citations": [
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "there was not a. saber in the command."
+        },
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "The long Enfield musket once discharged could not be reloaded,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "cumberland-and-moorefield",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "after a forced march through Bath, Springfield, and Bomney,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-and-picket-capture",
+      "dimension": "information",
+      "value": "Johnson says McCausland directed no scouts on his front, that the only warning was a 2 a.m. verbal order that Averell had passed Romney, which did not suggest imminent attack, and that the pickets were captured by men in Confederate uniform. Pond says McCausland had more warning than Johnson.",
+      "rationale": "Attributed knowledge from an interested subordinate and a history; Johnson's account of the picket capture is secondhand from a prisoner.",
+      "citations": [
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.5 (OCR page markers; not checked against print)",
+          "quote": "He directed no scouts along my front and I sent none out."
+        },
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.5 (OCR page markers; not checked against print)",
+          "quote": "At 2 a. m. Sunday, August 7, I received a verbal order by a courier from him,"
+        },
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.5 (OCR page markers; not checked against print)",
+          "quote": "The order itself was calculated to assure me that there was no danger of immediate attack."
+        },
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.5 (OCR page markers; not checked against print)",
+          "quote": "About daylight a squad¬ ron in Confederate uniform moved by the camp of the First Maryland straight to my headquarters."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "cumberland-and-moorefield",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "Though Mc- Causland had more warning,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "pursuit-orders",
+      "dimension": "objectives",
+      "value": "Pond says that after McCausland's repulse at Cumberland, Halleck urged that Averell be pushed to cut off his retreat and Hunter repeated the orders; Early's plan sent McCausland against Cumberland and the railroad.",
+      "rationale": "Stated orders as described by a history.",
+      "citations": [
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "cumberland-and-moorefield",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "Halleck urged that Averell should be pushed to cut off his retreat ; and Hunter gave reiterated orders to that effect."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "raid-orders",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "the repair shops, stations, and bridges of the Baltimore Eailroad."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Johnson says McCausland commanded the expedition, chose camps, routes and pickets, slept in Moorefield three miles from his camp, and arrived after part of Johnson's brigade had crossed the river; he asks for a court of inquiry and alleges plunder weakened the fight. Pond credits Gibson's and Powell's brigades with the attack. The frozen commanders are Brigadier Generals John McCausland and William W. Averell.",
+      "rationale": "Johnson's charges are an interested subordinate's allegations against his superior, not an adjudication; neither listed commander receives automatic sole credit or blame.",
+      "citations": [
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General McCausland aaAs in command of the expedition."
+        },
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "He had slept in the town of Moorefield, three miles distant from his camp,"
+        },
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.8 (OCR page markers; not checked against print)",
+          "quote": "I respectfully ask that a court of inquiry be convened at once."
+        },
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.8 (OCR page markers; not checked against print)",
+          "quote": "Had there been less plunder there would have been more fighting at Moorefield on Sunday, August 7."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV013",
+            "belligerent": "Confederate",
+            "fullname": "John McCausland"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV013",
+            "belligerent": "US",
+            "fullname": "William W. Averell"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-wv013-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General William Averell [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Pond says the whole Confederate body was soon in disorderly retreat; Johnson says that after the river fight the enemy only followed him. NPS and Early (as quoted by Pond) say the defeat damaged the Confederate cavalry for the rest of the campaign.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The later effect on the cavalry is campaign context, not the tactical result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV013"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-wv013-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "cumberland-and-moorefield",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "The whole body was soon in disorderly retreat,"
+        },
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "After this the eiiemy only followed me, but made no other attack."
+        },
+        {
+          "source_id": "nps-wv013-v1",
+          "locator": "Description",
+          "quote": "This defeat impeded the morale and effectiveness of the Confederate cavalry for the remainder of the 1864 Valley Campaign."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "cumberland-and-moorefield",
+          "locator": "p.107 (OCR page markers; not checked against print)",
+          "quote": "had a very damaging effect upon my cav- alry for the rest of the campaign.\""
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 531 total; the live field reads 531 (US 31; CS 500). Pond says Averell captured four guns, over 400 horses, three flags and 420 prisoners including 38 officers, with his own loss given as 41 killed and wounded. Johnson gives his brigade's net loss as about 300 missing (150 having come in) and the attackers' loss at the river as 2 majors and 38 men.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Kelley's figures in the Volume XLIII continuation were read but not selected.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV013"
+          },
+          "column": "casualties_text",
+          "quote": "531 total"
+        },
+        {
+          "source_id": "nps-wv013-v1",
+          "locator": "Estimated Casualties",
+          "quote": "531 total (US 31; CS 500;)"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "cumberland-and-moorefield",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "and 420 prisoners, including 38 officers. His own loss was given as 41 killed and wounded ;"
+        },
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "I reached the Valley Avith about 300 men missing (150 have come in)^ leaving that number as my net loss killed, AYOunded, and missing."
+        },
+        {
+          "source_id": "or43-1-johnson-moorefield-selections-v1",
+          "section": "johnson-1864-08-10",
+          "locator": "p.5 (OCR page markers; not checked against print)",
+          "quote": "with a loss to them, since ascertained, of 2 majors and 38 men."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Averell's Moorefield report (Volume XLIII Part 1, p.493), Kelley's continuation (read, not selected), McCausland's report and Lee's dispatch remain deferred.",
+    "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes the reports of the commanders it describes and is not independent of them. Bradley T. Johnson's August 10, 1864 report, printed in Official Records Series I, Volume XLIII, Part 1, is one family of interested Confederate accounts; its July 28-August 3 portion in Volume XXXVII Part 1 was read but not selected. The Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

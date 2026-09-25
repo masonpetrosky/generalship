@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA115",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Rutherford's Farm record (July 20, 1864) in Early's Raid and Operations Against the B&O Railroad [June-August 1864]. The July 19 skirmishes near Darkesville and the July 21-22 withdrawal to Strasburg are context. Campaign-wide marches, levies, captures, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads Divisions (5,850 total); the live field reads zero and the frozen side bounds are blank. Averell says he marched with Duval's infantry brigade, 1,350 strong, and 1,000 cavalry, joined by about 300 of the Second Virginia, and that the enemy engaged, Ramseur's infantry division and three cavalry brigades, was in all about 5,000. Pond gives Averell 2,350 men, about 2,700 with the Second Virginia, and says he was still numerically inferior.",
+      "rationale": "Averell's enemy figure is an interested estimate; the frozen 5,850's basis and side split are not established. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA115"
+          },
+          "column": "forces_text",
+          "quote": "Divisions(5,850 total)"
+        },
+        {
+          "source_id": "nps-va115-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or37-1-averell-stephensons-depot-selections-v1",
+          "section": "averell-1864-07-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "with Colonel Duval’s brigade of infantry, 1,350 strong, and 1,000 cavalry,"
+        },
+        {
+          "source_id": "or37-1-averell-stephensons-depot-selections-v1",
+          "section": "averell-1864-07-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "About 300 of the Second Vir¬ ginia Cavalry joined me at this time from Martinsburg."
+        },
+        {
+          "source_id": "or37-1-averell-stephensons-depot-selections-v1",
+          "section": "averell-1864-07-28",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "in all about 5,000 strong."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "stephensons-depot",
+          "locator": "p.86 (OCR page markers; not checked against print)",
+          "quote": "in all 2,350 men,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "stephensons-depot",
+          "locator": "p.86 (OCR page markers; not checked against print)",
+          "quote": "making him about 2,700 strong, yet still numerically inferior to the enemy,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "open-country-and-timber",
+      "dimension": "terrain",
+      "value": "Averell says he advanced nearly two miles through almost entirely open country, centred on the pike, until the enemy opened from four guns concealed in the timber on Carter's farm, three miles north of Winchester. Pond says Duval's charge crossed an open field.",
+      "rationale": "Ground described by an interested report and a history; no map verification.",
+      "citations": [
+        {
+          "source_id": "or37-1-averell-stephensons-depot-selections-v1",
+          "section": "averell-1864-07-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "After marching nearly two miles through a country almost entirely open, with the center upon the pike,"
+        },
+        {
+          "source_id": "or37-1-averell-stephensons-depot-selections-v1",
+          "section": "averell-1864-07-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "four guns concealed in the timber which stands upon Carter’s farm, three miles north of Win¬ chester."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "stephensons-depot",
+          "locator": "p.87 (OCR page markers; not checked against print)",
+          "quote": "Duval's charge was across an open field,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "trains-threatened",
+      "dimension": "logistics",
+      "value": "Pond says Averell's advance to Stephenson's Depot on the 19th placed him on Early's rear, menacing his trains. Averell says he held his position until the captured cannon, prisoners and wounded were sent toward Martinsburg.",
+      "rationale": "A history's reading and a commander's report; no supply or transport return inspected.",
+      "citations": [
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "stephensons-depot",
+          "locator": "p.86 (OCR page markers; not checked against print)",
+          "quote": "This vigorous stroke planted him on Early's rear, menacing his trains ;"
+        },
+        {
+          "source_id": "or37-1-averell-stephensons-depot-selections-v1",
+          "section": "averell-1864-07-28",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "until the cannon, prison¬ ers, and wounded were sent toward Martinsburg."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouts-and-underestimate",
+      "dimension": "information",
+      "value": "Averell says he sent scouts to learn the enemy's strength and received word that Early had divided his command at Berryville. Pond, citing Rodes's letter, says Ramseur supposed from Vaughan's reconnaissance that only two or three regiments were in his front, which led him to advance with too little precaution.",
+      "rationale": "Attributed knowledge; Rodes's letter is quoted by Pond and not separately selected.",
+      "citations": [
+        {
+          "source_id": "or37-1-averell-stephensons-depot-selections-v1",
+          "section": "averell-1864-07-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "sent scouts to ascertain the strength and movements of the enemy."
+        },
+        {
+          "source_id": "or37-1-averell-stephensons-depot-selections-v1",
+          "section": "averell-1864-07-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "information was received that Early had arrived at Berryville and divided his command into two columns,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "stephensons-depot",
+          "locator": "p.87 (OCR page markers; not checked against print)",
+          "quote": "Ramseur supposed, from Vaughan's reconnois- sance the day before, that there were but two or three regiments in his front,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "check-averell",
+      "dimension": "objectives",
+      "value": "Pond says Early sent Ramseur's division to Winchester to check Averell and, by Early's account, Ramseur was moving by the flank to capture him. Averell says he tried to advise Wright to attack the column on the Millwood road, and that after the fight he could not safely inflict further injury with his force.",
+      "rationale": "Stated aims from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "stephensons-depot",
+          "locator": "p.86 (OCR page markers; not checked against print)",
+          "quote": "Meanwhile, to check Averell, he sent to Winchester Bam- seur's division and two batteries ;"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "stephensons-depot",
+          "locator": "p.87 (OCR page markers; not checked against print)",
+          "quote": "with intent to capture Averell."
+        },
+        {
+          "source_id": "or37-1-averell-stephensons-depot-selections-v1",
+          "section": "averell-1864-07-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "I endeavored to communicate with General Wright, advising him to attack the column on the Millwood road,"
+        },
+        {
+          "source_id": "or37-1-averell-stephensons-depot-selections-v1",
+          "section": "averell-1864-07-28",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "I could not venture with the force at my command to inflict further injury upon the enemy without an imminent risk of losing all I had gained."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Averell describes his own formation and advance. Pond, quoting Rodes, says Ramseur was near Johnson's brigade on the right when Hoke's left regiments broke, and tried to restore the line with Pegram's brigade. Hunter left Averell to his own judgment in moving to help Crook. The frozen commanders are Major General S.D. Ramseur and Brigadier General William W. Averell.",
+      "rationale": "Command roles from an interested report and a history quoting a Confederate letter; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or37-1-averell-stephensons-depot-selections-v1",
+          "section": "averell-1864-07-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "I advanced in this order vigorously to the at¬ tack."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "stephensons-depot",
+          "locator": "p.87 (OCR page markers; not checked against print)",
+          "quote": "Ramseur was on the right, or near Johnson's brigade"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "stephensons-depot",
+          "locator": "p.87 (OCR page markers; not checked against print)",
+          "quote": "He immediately endeavored to restore the line by advancing Pegram's brigade,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "stephensons-depot",
+          "locator": "p.86 (OCR page markers; not checked against print)",
+          "quote": "You must, however, exercise your own good judgment in the matter,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA115",
+            "belligerent": "Confederate",
+            "fullname": "S.D. Ramseur"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA115",
+            "belligerent": "US",
+            "fullname": "William W. Averell"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va115-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General William Averell [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Averell says the enemy was thrown into confusion and driven toward Winchester; Pond says Averell refrained from occupying Winchester. NPS says Early then withdrew to Fisher's Hill; Pond says he went to Middletown and on July 22 to Strasburg.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The withdrawal is campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA115"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va115-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or37-1-averell-stephensons-depot-selections-v1",
+          "section": "averell-1864-07-28",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "were thrown into confusion, driven from the woods"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "stephensons-depot",
+          "locator": "p.88 (OCR page markers; not checked against print)",
+          "quote": "Averell refrained from endeavoring to occupy \"Winchester,"
+        },
+        {
+          "source_id": "nps-va115-v1",
+          "locator": "Description",
+          "quote": "Early withdrew his army south to a defensive position at Fisher's Hill."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "stephensons-depot",
+          "locator": "p.88 (OCR page markers; not checked against print)",
+          "quote": "and the day after, July 22d, to Strasburg."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,100 total; the live field reads 742 (US 242; CS 500). Averell gives the enemy 73 killed and 130 wounded left on the field and 17 officers and 250 men captured, with four guns, and his own loss as 53 killed, 155 wounded and 6 missing. Pond gives 203 Confederate killed and wounded, the same captures, a total Confederate loss probably more than 400, and Averell's loss as 214. NPS says nearly 300 men were captured.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA115"
+          },
+          "column": "casualties_text",
+          "quote": "1,100 total"
+        },
+        {
+          "source_id": "nps-va115-v1",
+          "locator": "Estimated Casualties",
+          "quote": "742 total (US 242; CS 500;)"
+        },
+        {
+          "source_id": "or37-1-averell-stephensons-depot-selections-v1",
+          "section": "averell-1864-07-28",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "leaving 4 guns, 73 killed, and 130 wounded on tlie field. Seventeen officers and 250 men were captured."
+        },
+        {
+          "source_id": "or37-1-averell-stephensons-depot-selections-v1",
+          "section": "averell-1864-07-28",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "Our loss was 53 killed, 155 wounded, and 6 missing."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "stephensons-depot",
+          "locator": "p.87 (OCR page markers; not checked against print)",
+          "quote": "The total Confederate loss was probably more than 400,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "stephensons-depot",
+          "locator": "p.88 (OCR page markers; not checked against print)",
+          "quote": "Averell's loss was 208 killed and wounded, and 6 missing — total 214 ;"
+        },
+        {
+          "source_id": "nps-va115-v1",
+          "locator": "Description",
+          "quote": "Averell captured four pieces of artillery and nearly 300 men."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Duval's, Shaw's and Coates's reports, Averell's itinerary and Rodes's September 12 letter (read, not selected; quoted by Pond) remain deferred; no Ramseur or Vaughn report was inspected.",
+    "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes the reports of the commanders it describes and is not independent of them. Averell's July 28, 1864 report, printed in Official Records Series I, Volume XXXVII, Part 1, is one family of interested Union accounts. The Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

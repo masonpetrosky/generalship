@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "battle_id": "MD008",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Folck's Mill record (August 1, 1864) in Early's Raid and Operations Against the B&O Railroad [June-August 1864]. The July 30 burning of Chambersburg, the July 31 fight at Hancock and the August 2 fight at Old Town are context and are not added. Campaign-wide marches, levies, captures, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions; the live field reads zero. Kelley says the raiders were variously estimated at 2,500 to 4,500, McCausland's and Johnson's brigades, and lists his own command as three Ohio National Guard regiments, detachments of West Virginia infantry, three sections of artillery and several hundred mostly unarmed stragglers. Pond says McCausland crossed the Potomac with two brigades and four guns. NPS calls Kelley's a small force of soldiers and citizens.",
+      "rationale": "A range of estimates reported by the opposing commander and unit lists without counts. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD008"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-md008-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or37-1-kelley-cumberland-selections-v1",
+          "section": "kelley-1864-09-17",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "variously estimated al from 2,500 to 4,500 strong, consisting of the brigades of Generals McCausland and Bradley T. Johnson,"
+        },
+        {
+          "source_id": "or37-1-kelley-cumberland-selections-v1",
+          "section": "kelley-1864-09-17",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "My command at this place then consisted of three regiments of Ohio National Guards,"
+        },
+        {
+          "source_id": "or37-1-kelley-cumberland-selections-v1",
+          "section": "kelley-1864-09-17",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "and several hundred stragglers, mostly unarmed,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "raid-orders",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "McCausland, with his two brigades and four guns,"
+        },
+        {
+          "source_id": "nps-md008-v1",
+          "locator": "Description",
+          "quote": "organized a small force of soldiers and citizens"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "hidden-heights",
+      "dimension": "terrain",
+      "value": "Kelley says he posted infantry and a section of artillery on the heights west of Folck's Mill overlooking the valley of Evett's Creek (as read in OCR), under cover of timber and hidden from the enemy, and that the Confederates sheltered behind the bridge, mill, house and barn. Pond places the mill three miles from Cumberland; Kelley puts the position about two miles east of the town.",
+      "rationale": "Ground described by an interested report and a history, with differing distances; the position was taken on the day and is not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "or37-1-kelley-cumberland-selections-v1",
+          "section": "kelley-1864-09-17",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "in position about two miles east of this place on the heights west of Falck’s Mills, overlooking the valley of Evett’s Creek, under cover of timber, completely hid from view of the enemy,"
+        },
+        {
+          "source_id": "or37-1-kelley-cumberland-selections-v1",
+          "section": "kelley-1864-09-17",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "they took shelter behind the bridge, Falck’s Mills, house, barn, &c.,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "cumberland-and-moorefield",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "Kelley had taken post at Folck's Mill, three miles from the"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "abandoned-ammunition",
+      "dimension": "logistics",
+      "value": "Kelley says the retreating enemy abandoned two caissons, several carriages and a large quantity of ammunition; Pond says two caissons and some wagons and ammunition.",
+      "rationale": "Post-engagement observations, not a supply return.",
+      "citations": [
+        {
+          "source_id": "or37-1-kelley-cumberland-selections-v1",
+          "section": "kelley-1864-09-17",
+          "locator": "p.189 (OCR page markers; not checked against print)",
+          "quote": "2 caissons, several carriages, and a large quantity of ammunition."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "cumberland-and-moorefield",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "with two caissons and some wagons and ammunition."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "blockade-and-surprise",
+      "dimension": "information",
+      "value": "Kelley says Halleck telegraphed him to blockade the roads, that a squad of volunteer cavalry watched the enemy's approach, and that his artillery's opening fire was the first intimation the enemy had of his command. Pond says McCausland supposed Averell was closing on his rear.",
+      "rationale": "Attributed knowledge from an interested report and a history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or37-1-kelley-cumberland-selections-v1",
+          "section": "kelley-1864-09-17",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "In obedience to a telegram from Major- General Halleck I at once sent out details to blockade the roads"
+        },
+        {
+          "source_id": "or37-1-kelley-cumberland-selections-v1",
+          "section": "kelley-1864-09-17",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "with a squad of volunteer cavalry, to watch the movements and retard the progress of the enemy"
+        },
+        {
+          "source_id": "or37-1-kelley-cumberland-selections-v1",
+          "section": "kelley-1864-09-17",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "which was the first intimation they had of the presence of my command."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "cumberland-and-moorefield",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "having Kelley in front and Averell, as he supposed, closing in upon his rear."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ransom-and-railroad",
+      "dimension": "objectives",
+      "value": "Pond says Early sent McCausland's and Johnson's brigades to burn Northern towns unless ransomed, then to move on Cumberland, levying contributions and destroying the coal-pit machinery and the railroad's shops and bridges.",
+      "rationale": "Stated orders as described by a history; Kelley's account of the raiders' orders is in the Volume XLIII continuation, not selected.",
+      "citations": [
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "raid-orders",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "to burn sundry Northern towns, unless they should procure their safety by paying him a large money ransom."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "raid-orders",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "levying contribu- tions upon that and other towns able to bear them, des- troying the machinery of the Cumberland coal-pits,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Kelley says he posted the command and held the fortifications; Pond says McCausland, in command of the raid, attacked Kelley in the afternoon. The frozen commanders are Brigadier Generals John McCausland and Benjamin F. Kelley; Kelley signs his September report as brevet major general.",
+      "rationale": "Command roles from an interested report and a history; neither listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or37-1-kelley-cumberland-selections-v1",
+          "section": "kelley-1864-09-17",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "I immediately posted the One hundred and fifty-sixth Ohio National Guards,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "cumberland-and-moorefield",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "About the middle of the after- noon he attacked Kelley,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MD008",
+            "belligerent": "Confederate",
+            "fullname": "John McCausland"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MD008",
+            "belligerent": "US",
+            "fullname": "Benjamin F. Kelley"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-md008-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General John McCausland [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Kelley says both lines kept nearly their original positions until dark and the enemy retreated precipitately in the night by a mountain road toward Old Town.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD008"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-md008-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or37-1-kelley-cumberland-selections-v1",
+          "section": "kelley-1864-09-17",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "both lines maintaining nearly the original position of the day,"
+        },
+        {
+          "source_id": "or37-1-kelley-cumberland-selections-v1",
+          "section": "kelley-1864-09-17",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "the enemy had beat a precipitate retreat from my front during the"
+        },
+        {
+          "source_id": "nps-md008-v1",
+          "locator": "Description",
+          "quote": "Eventually the Confederates withdrew."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 38 total; the live field reads 60 (US 30; CS 30). Kelley says the enemy abandoned 8 dead and some 30-odd wounded; Pond says 30 killed and wounded were left on the field. No inspected passage gives Kelley's own August 1 loss; his Old Town figures of August 2 are a separate action and are not added.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD008"
+          },
+          "column": "casualties_text",
+          "quote": "38 total"
+        },
+        {
+          "source_id": "nps-md008-v1",
+          "locator": "Estimated Casualties",
+          "quote": "60 total (US 30; CS 30;)"
+        },
+        {
+          "source_id": "or37-1-kelley-cumberland-selections-v1",
+          "section": "kelley-1864-09-17",
+          "locator": "p.189 (OCR page markers; not checked against print)",
+          "quote": "abandoning in his march his dead, 8 in number; his wounded, some 30-odd ;"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "cumberland-and-moorefield",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "leaving 30 of his killed and wounded on the held,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Kelley's report continuation in Volume XLIII Part 1 (read, not selected), Bradley Johnson's July 28-August 3 report (No. 85, read, not selected; he says he agreed with McCausland that attacking was inexpedient), McCausland's report and the itinerary abstract remain deferred.",
+    "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes the reports of the commanders it describes and is not independent of them. Kelley's September 17, 1864 report, printed in Official Records Series I, Volume XXXVII, Part 1, is one family of interested Union accounts. The Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA118",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Berryville record (September 3-4, 1864) in Sheridan's Valley Campaign [August-October 1864]. Averell's September 2-3 fight at Bunker Hill and the September 5 skirmishing are context. Campaign-wide marches, destruction, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Corps; the live field reads zero. Sheridan's September 5 dispatch estimates Early's force at about 27,000 infantry, and his 1866 report says the difference in strength between the armies was then but little. Pond says Anderson's Kershaw division met Crook's Eighth Corps, and Early came up with three divisions on the 4th. Pond's appendix, from a September 10 return, gives Early's infantry with Fitz Lee as 17,195 without Kershaw and about 21,000 with him, and Sheridan's September 10 field return south of the Potomac as 45,509 corrected (45,487 as printed), excluding about 2,500 of Averell's cavalry.",
+      "rationale": "A contemporary estimate, a retrospective judgment and returns dated a week later; none measures the forces engaged. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA118"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va118-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-09-05",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "My estimate of Early’s force is about 27,000 infantry."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.46 (OCR page markers; not checked against print)",
+          "quote": "The difference of strength between the two opposing forces at this time was but little."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "berryville",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "stumbled upon the Eighth Corps going into camp there"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "berryville",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "hurried at dawn of the 4th with three divisions to Ander- son's aid,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "appendix-b-strength",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "the total, without Ker- shaw, would be 17,195; with Kershaw, about September 10th, the total would be, in round numbers, about 21,000."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "appendix-b-strength",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "The enclosed return does not include the cavalry under Averell, about 2,500,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "appendix-b-strength",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "and the aggregate, in like manner, should be 45,509."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "intrenched-line",
+      "dimension": "terrain",
+      "value": "Pond says Early saw from rising ground the Union position extending to Summit Point, strengthened by intrenchments still being dug; NPS says Early found the position too strongly entrenched to assault.",
+      "rationale": "The works were dug during the engagement interval, so they are not tagged inherited. No map verification.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "berryville",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "he could see extending to Summit Point, strengthened by intrenchments, at which the troops were still digging, all along the front."
+        },
+        {
+          "source_id": "nps-va118-v1",
+          "locator": "Description",
+          "quote": "found Sheridan's position too strongly entrenched to assault."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "anderson-trains",
+      "dimension": "logistics",
+      "value": "Pond says Anderson had his trains with him on the way back to Petersburg, and that Early feared a cavalry attack on them if the nature of the movement became known; the trains went first in the withdrawal.",
+      "rationale": "A history's account of the Confederate trains; no transport return inspected.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "berryville",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "An- derson had his trains with him, homeward-bound to Peters- burg ;"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "berryville",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "when it would be followed by a cavalry attack on his trains,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "berryville",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "Anderson's trains going first."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "mutual-surprise",
+      "dimension": "information",
+      "value": "Pond calls the encounter a mutual surprise and says Sheridan's reoccupation of the Clifton-Berryville line had not attracted Early's attention; Sheridan's report says Kershaw, not expecting infantry, blundered onto Crook's lines about dark. Sheridan wrote on September 5 that he could not verify that any Confederate troops had left for Richmond.",
+      "rationale": "Attributed knowledge from a history and interested accounts; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "berryville",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "the surprise being mutual ;"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "berryville",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "for Sheridan's reoccupation of the Clifton-Berryville position had not attracted his attention"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.46 (OCR page markers; not checked against print)",
+          "quote": "not expecting infantry, blundered onto Crook’s lines about dark,"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-09-05",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "I have not been able to verify the reports that any portion of the rebel troops in the Yalley have as yet left for Eichmond."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recall-and-cover",
+      "dimension": "objectives",
+      "value": "Pond says Lee recalled Anderson, who was marching through Berryville to recross the Blue Ridge, and that Early demonstrated to draw attention from Anderson before deciding Anderson must return to Winchester. Sheridan's report says the enemy thought he could cut off Torbert.",
+      "rationale": "Stated aims from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "berryville",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "Lee informed Early of his need of the troops temporarily lent him,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "berryville",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "to recross the Blue Bidge on the way to Bichmond."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "berryville",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "to withdraw attention from Anderson by demonstrating there."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "the enemy, supposing he could cut him ofl‘,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Pond says the engagement was between Crook and Kershaw, and that Early decided to withdraw across the Opequon. The frozen commanders are Lieutenant General Early and Major General Sheridan; NPS names Anderson's (Kershaw's) division as the attacker, and the live page gives Early as Major General.",
+      "rationale": "Command roles from a history and a summary; neither listed commander receives automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "berryville",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "an engagement resulted between Crook and Kershaw,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "berryville",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "Early therefore withdrew his whole army across the Opequon"
+        },
+        {
+          "source_id": "nps-va118-v1",
+          "locator": "Description",
+          "quote": "Maj. Gen. R.H. Anderson's (Kershaw's) division attacked with limited results."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA118",
+            "belligerent": "Confederate",
+            "fullname": "Jubal A. Early"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA118",
+            "belligerent": "US",
+            "fullname": "Philip Sheridan"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va118-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Philip Sheridan [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Sheridan says Kershaw was handsomely repulsed and later withdrew over the Opequon in the night; NPS says Early withdrew after dark.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA118"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va118-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-09-04",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "and was handsomely repulsed,"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-09-05",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "the enemy withdrew during the night to the west side of the Opequon."
+        },
+        {
+          "source_id": "nps-va118-v1",
+          "locator": "Description",
+          "quote": "General Early withdrew after dark behind Opequon Creek."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 500 total; the live field reads 507 (US 312; CS 195). Sheridan reported 50 prisoners and over 200 Confederate killed and wounded, then said the loss was greater than first reported; Pond gives about three score prisoners and Crook's total loss as 166.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA118"
+          },
+          "column": "casualties_text",
+          "quote": "500 total"
+        },
+        {
+          "source_id": "nps-va118-v1",
+          "locator": "Estimated Casualties",
+          "quote": "507 total (US 312; CS 195;)"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-09-04",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "with a loss of 50 prisoners and over 200 killed and wounded."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-09-05",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "was greater than I first reported."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "berryville",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "About three score prisoners were captured from Anderson ; Crook's total loss was 166."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Crook's report (No. 105), Thoburn's report, Simms's and Kershaw's reports, Hotchkiss's journal and the compiled returns remain deferred.",
+    "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes Sheridan's, Torbert's, Wright's and Early's reports and despatches and is not independent of them. Sheridan's dispatches of August-September 1864 and his report dated New Orleans, February 3, 1866 are one family of interested Union accounts. Official Records Series I, Volume XLIII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

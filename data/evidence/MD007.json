@@ -1,0 +1,460 @@
+{
+  "schema_version": 1,
+  "battle_id": "MD007",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Monocacy record (July 9, 1864) in Early's Raid and Operations Against the B&O Railroad [June-August 1864]. The July 7 and 8 skirmishes at Frederick and the July 10 march on Washington are context. Campaign-wide marches, levies, captures, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Corps; the live field reads zero. Wallace says Tyler's force by the evening of July 6 was a scant 2,500 men of all arms, besides Clendenin's squadron of 250 and about 200 of the First Potomac Home Brigade; he gives Ricketts's two brigades as 1,750 and 1,600, and says the nine veteran regiments engaged represented 3,350 men. He estimated about 18,000 enemy engaged on the left bank and at least 2,000 more across the river, and later called Early's attacking corps not less than 18,000 while Breckinridge's two divisions stayed in Frederick. Pond gives Wallace 3,350 veterans and 2,500 under Tyler, and Early's army at the start of the march apparently about 17,000. The guns also differ in the accounts: Wallace's six 3-inch rifles against not less than sixteen Napoleons.",
+      "rationale": "Union figures are unit counts of differing dates; the Confederate figures are Wallace's calculation from the enemy's front and a historian's whole-army estimate from before the march. They are not matched populations. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD007"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-md007-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "making a force of scant 2,500 men of all arms,"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant-Colonel Clendenin’s squadlotl of cavalry, 250 men,"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "First Brigade, Col. W. S. Truex commanding, 1,750 strong"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "Second Brigade, 1,600 men."
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.198 (inferred: the running head reads \"^ 98\" in OCR, after the p.197 head; not checked against print)",
+          "quote": "The nine regiments enumerated as those participating in the action represented but 3,350 men,"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-07-10",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "By calculation this would give him about 18,000 men engaged on the left bank, while he had at least 2,000 more skirmishing and fighting in my front across the river."
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "It is now well assured that General Early attacked me with one whole corps, not less than 18,000 strong, while Breckinridge, with two divisions, remained dur¬ ing the battle in quiet occupancy of Frederick City."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "monocacy",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "It need hardly be said that Wallace, with his single division of 3,350 veterans and his 2,500 troops under Tyler,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "early-army",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "The army numbered apparently about 17,000 officers and men."
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "Against my six 3-inch rifles, he opposed not less than sixteen Napoleons."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "river-line-and-fords",
+      "dimension": "terrain",
+      "value": "Wallace says the pikes to Washington and Baltimore and the railroad converge within two miles at the position, that the river covers its entire front with few fords, difficult for artillery, and that the commanding heights are on the eastern bank. Pond says the stream was everywhere fordable, so the position could be turned on either flank. Both say the Confederates crossed at a ford below the Union left.",
+      "rationale": "Wallace's defensive description and Pond's fordability statement disagree; neither is adjudicated. No map verification. Wallace chose the position during the operation, so it is not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "There, within the space of two miles, converge the pikes to Washington and Baltimore, and the Baltimore and Ohio Railroad ;"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "the river covers its entire front. In a low stage of water the fords are few, and particularly difficult for artillery, and the commanding heights are all on the eastern bank,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "monocacy",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "As the stream was everywhere fordable, this position could be easily turned on either flank."
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "forced a passage of the river at a ford about one mile below Ricketts."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "monocacy",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "so as to reach the fords a mile below the Union left."
+        },
+        {
+          "source_id": "nps-md007-v1",
+          "locator": "Description",
+          "quote": "along the Monocacy River, just east of Frederick."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "trains-rations-and-levy",
+      "dimension": "logistics",
+      "value": "Wallace says he lacked ambulances and wagons, meant to use the railroad cars instead, and that the railroad agent ran away with both his trains; he also says intrenching tools came too late. The three reinforcing regiments halted at Monrovia; Pond says they halted there several hours for rations, six miles from the field, while Wallace calls Monrovia eight miles away. Pond says Early levied $200,000 at Frederick and supplied himself with garments, shoes, bacon and flour.",
+      "rationale": "Retrospective and interested descriptions, not supply returns; the distance to Monrovia differs between the accounts.",
+      "citations": [
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.198 (inferred: the running head reads \"^ 98\" in OCR, after the p.197 head; not checked against print)",
+          "quote": "Another deficiency existed in the want of ambulan¬ ces and wagons, but this I designed remedying by the use of the cars."
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "My telegraph operator, and the railroad agent, with both his trains, had run away."
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.198 (inferred: the running head reads \"^ 98\" in OCR, after the p.197 head; not checked against print)",
+          "quote": "If we had had intrench¬ ing tools in time no doubt the losses of the veterans would haA^e been greatly lessened."
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "Monrovia is but eight miles from the battle-ground."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "monocacy",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "where, six miles from the battle-field, they had halted several hours for rations ;"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "monocacy",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "levying a contribution of $200,000, which was paid, and supplying himself with gar- ments, shoes, bacon and flour."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "conjecture-and-development",
+      "dimension": "information",
+      "value": "Wallace says the invading column's strength, commander and objects were on his part purely conjectural, that reports continued conflicting, and that he fought in part to make the enemy develop his force. Pond says it was still doubtful whether Early aimed at Baltimore or Washington. Wallace also relays a dying Confederate officer's claim that Lee directed the operations in person, adding \"give it what weight you please.\"",
+      "rationale": "Attributed knowledge from an interested report and a history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "everything in fact connected with it, were, on my part, purely conjectural."
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "The reports of the enemy con¬ tinued conflicting as before ;"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "monocacy",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "It was still doubt- ful whether Early was aiming at Baltimore or at Washing- ton,"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-07-10",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "A rebel officer dying on the field told a staff officer of General Ricketts that Lee was managing these operations in person,"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-07-10",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "This circumstance is true ; give it what weight you please."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "three-objects-and-washington",
+      "dimension": "objectives",
+      "value": "Wallace lists three objects: to keep the rail communication to Harper's Ferry open, to cover the roads to Washington and Baltimore, and to make the enemy develop his force; he says he failed in all but the last. He says his was the only force that could be thrown between the capital and the enemy in time, strong enough to gain time. Pond says Early, too intent on Washington, drew back at sunset.",
+      "rationale": "Stated aims from an interested report and a history's judgment; the effect on Washington's defence is campaign context, not a tactical measure of this record.",
+      "citations": [
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-07-10",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "First, to keep open, if possible, the communication by rail to Harper’s Ferry ; second, to cover the roads to W ashington and Baltimore ; the last, to make the enemy develop his force. I failed in all but the last,"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "There was no force that could be thrown in time between the capital and the rebels but mine,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "monocacy",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "Early, too intent on going to Washington to think much about Wallace, drew back his forces at sunset."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Wallace says he chose to fight at the Monocacy, posted Ricketts on the left and Tyler on the right, and ordered Ricketts to retire; he credits Tyler with holding the stone bridge. Pond says Gordon and the cavalry turned the Union left under Breckinridge's direction while Rodes demonstrated. The frozen commanders are Lieutenant General Early and Major General Wallace; the live page gives Early as Major General. No inspected passage describes Early's own orders at the Monocacy.",
+      "rationale": "Command roles from an interested report and a history; the listed commanders do not receive automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "I made up my mind to fight,"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "The right, forming an extended line from the railroad, was given Gen¬ eral Tyler,"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "I directed General Ricketts to form his command in two lines across the Washington pike,"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-07-10",
+          "locator": "p.191 (OCR page markers; not checked against print)",
+          "quote": "The moment I saw the third rebel line advance I ordered the general to make such preparations as he could and retire his command"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "This order General Tyler obeyed."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "monocacy",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "while Gordon and the cav- alry should turn the left under Breckenridge's direction."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MD007",
+            "belligerent": "Confederate",
+            "fullname": "Jubal A. Early"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MD007",
+            "belligerent": "US",
+            "fullname": "Lew Wallace"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-md007-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Jubal Early [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory and the live result Confederate Victory. Wallace retreated on the Baltimore pike but says he did not think himself seriously beaten, and that the enemy could not move from the field toward Washington until about noon the next day. NPS calls Monocacy the battle that saved Washington.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The delay and the Washington claim are campaign contribution, not the tactical result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD007"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-md007-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "monocacy",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "Wallace fell back on the Baltimore turnpike,"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-07-10",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "I do not now think myself seriously beaten ;"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "the enemy was not able to move from the &ttle-field, in prosecution of his march upon Washington, until the next day about noon."
+        },
+        {
+          "source_id": "nps-md007-v1",
+          "locator": "Description",
+          "quote": "Monocacy was called the \"Battle that Saved Washington.\""
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 2,359 total; the live field reads 2094 (US 1294; CS 800). Wallace's table gives Ricketts's division 1,649 and a grand total read as 1,968 in OCR; he says over 1,600 of the 3,350 veterans were missing three days after, and in his July 10 telegram that he lost probably not over 200 prisoners. Pond gives 98 killed, 579 wounded and 1,282 missing, total 1,959, notes Early claimed 600 to 700 unwounded prisoners, and gives Early's own killed and wounded as about 700, with 435 wounded found at Frederick; Wallace says over 400 wounded were captured in the Frederick hospital.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Wallace's table is partly garbled in OCR.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD007"
+          },
+          "column": "casualties_text",
+          "quote": "2,359 total"
+        },
+        {
+          "source_id": "nps-md007-v1",
+          "locator": "Estimated Casualties",
+          "quote": "2094 total (US 1294; CS 800;)"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": ".911 Total . n 73 84 30 481 511 10 1,044 tl,054 1,649"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.200 (OCR page markers; not checked against print)",
+          "quote": "15 1,267 1,290 1,968"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.198 (inferred: the running head reads \"^ 98\" in OCR, after the p.197 head; not checked against print)",
+          "quote": "of Avhom over 1,600 Avere missing three days after, killed, wounded, or prisoners"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-07-10",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "losing prob¬ ably not over 200 prisoners."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "monocacy",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "Wallace's loss in this battle was 98 killed, 579 wounded, and 1,282 missing; total, 1,959."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "monocacy",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "As Early only claimed \" between 600 and 700 unwounded prisoners,\""
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "monocacy",
+          "locator": "p.59 (OCR page markers; not checked against print)",
+          "quote": "Early's loss in killed and wounded was given by him as \"about 700\""
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "monocacy",
+          "locator": "p.59 (OCR page markers; not checked against print)",
+          "quote": "and 435 of his wounded, mostly such as could not be moved, were found in the Frederick hospitals"
+        },
+        {
+          "source_id": "or37-1-wallace-monocacy-selections-v1",
+          "section": "wallace-1864-08",
+          "locator": "p.200 (OCR page markers; not checked against print)",
+          "quote": "over 400 men, too seriously wounded to be carried away, were cap¬ tured in the hospital at Frederick City."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Ricketts's report (not found per the compiler), Tyler's, Clendenin's and the regimental reports, Gordon's report, the compiled return No. 7 and Early's July 14 report (selected for DC001, not used here) remain deferred for this record.",
+    "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes the reports of the commanders it describes and is not independent of them. Wallace's July 10 telegram and August 1864 report, printed in Official Records Series I, Volume XXXVII, Part 1, are one family of interested Union accounts. The Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

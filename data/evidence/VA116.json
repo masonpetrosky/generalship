@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA116",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Second Kernstown record (July 24, 1864) in Early's Raid and Operations Against the B&O Railroad [June-August 1864]. The July 23 reconnaissance, the July 25 fighting at Martinsburg and the July 26 crossing of the Potomac are context. Campaign-wide marches, levies, captures, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen and live force fields read 23,000 total (US 10,000; CS 13,000); the source basis is not given. Crook says 3,000 or 4,000 of his dismounted cavalry and some infantry broke to the rear at the first fire, and that the attacking force was Early's raiding force joined by the troops left in the Valley. Pond says Crook's line held the divisions of Sullivan, Duval and Mulligan with Averell's and Duffie's cavalry on the flanks, and that the force later assembled to match Early was thrice Crook's at Kernstown. Pond quotes Crook's July 22 dispatch that he had not force sufficient to meet all the enemy in the open Valley.",
+      "rationale": "No inspected passage gives a count for either side on July 24; the imported figures are unvalidated. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA116"
+          },
+          "column": "forces_text",
+          "quote": "23,000 total (US 10,000; CS 13,000)"
+        },
+        {
+          "source_id": "nps-va116-v1",
+          "locator": "Forces Engaged",
+          "quote": "23000 total (US 10000; CS 13000;)"
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-07-27",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "the whole numbering some 3,000 or 4,000, broke to the rear the first fire,"
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-07-27",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "the force that at¬ tacked me was Early’s raiding force, joined by the force left in the Valley when he went into Maryland."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "Crook's line covered the pike with the infantry divisions of Sullivan, Duval, and Mulligan,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "was thrice Crook's at Kernstowa ;"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "I have not force sufficient to meet all their force in this open Valley,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "open-ground",
+      "dimension": "terrain",
+      "value": "Pond says Crook stood on the ground Shields had held against Jackson in 1862, in open country broken with hollows to the east, where the open fields and broad pike favoured a rapid retreat; he criticises confronting the enemy in so open a position.",
+      "rationale": "A history's description and judgment; no map verification.",
+      "citations": [
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "was the same that Shields had occu- pied in his repulse of Jackson."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "The country was open, a little broken with hollows to the east."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "as the open fields and broad pike were favorable for rapid retreat,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "there had been little wari- ness in confronting the enemy in an open position like this,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "trains-and-caissons",
+      "dimension": "logistics",
+      "value": "Crook says he got off all his artillery and wagons, and that wagons cut loose by stampeded teamsters were destroyed so that nothing fell to the enemy. Pond says a flanking cavalry brigade caused many wagons and caissons to be abandoned and burned, the enemy counting the lost portion as twelve caissons and seventy-two wagons. Crook judged Early's troops unable to make hard marches.",
+      "rationale": "Interested and retrospective accounts of trains; losses to destruction and to capture are not separated.",
+      "citations": [
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-07-27",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "I got off all my artillery and wagons."
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-07-27",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "but their wagons were destroyed so that nothing fell into the hands of the enemy."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "causing many wagons and caissons to be abandoned and burned."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "the enemy counting the lost portion as twelve caissons and seventy-two wagons"
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-07-27",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "General Early’s troops are in no condition to make any hard marches."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "falling-back-belief",
+      "dimension": "information",
+      "value": "Pond quotes Crook's July 22 hope that the enemy would think he would not follow and send part of his force to Richmond, and Hunter's report that Crook's information and Averell's reconnaissances tended to show Early falling back. NPS says Wright had judged Early no longer a threat in the Valley.",
+      "rationale": "Attributed knowledge from despatches quoted by a history and a summary; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "to give the enemy the impression we will not follow them,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "the information of Crook and the reconnoissances of Averell tended to show that Early was falling back."
+        },
+        {
+          "source_id": "nps-va116-v1",
+          "locator": "Description",
+          "quote": "Believing that Early's army was no longer a threat in the Valley,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "attack-and-division-hope",
+      "dimension": "objectives",
+      "value": "NPS says Early, under orders to prevent reinforcements going to Grant, marched against Crook; Pond says Early resolved to attack without delay on learning the Sixth Corps had gone. Crook hoped the enemy would divide, and ordered Averell around Early's right to attack his trains.",
+      "rationale": "Stated aims from a summary, a history and a despatch it quotes.",
+      "citations": [
+        {
+          "source_id": "nps-va116-v1",
+          "locator": "Description",
+          "quote": "Under orders to prevent reinforcements from being sent to Grant, Early marched north on July 24 against Crook."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "he resolved to attack them without de- lay."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "my only hope is for them to divide their command."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "Crook had directed Averell, who held his left, to pass around Early's right and attack his trains ;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Crook says he gave the order to fall back when a column moved around his right. Pond says Early, seeing Crook's left assailable, directed Breckinridge to send Wharton's division against it, and that Ransom, ill, could not take active command of Early's cavalry. The frozen commanders are Lieutenant General Early and Brigadier General George Crook; Crook signs as brevet major general.",
+      "rationale": "Command roles from an interested report and a history; neither listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-07-27",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "a heavy column was moving around my right, and I gave the order to fall back."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "directed Breckenridge to move Echols's division, now under Wharton, around and against the Union left."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "being un- able to take active command ;"
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-07-27",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "GEORGE CROOK, Brevet Major-General, U. S. Volunteers,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA116",
+            "belligerent": "Confederate",
+            "fullname": "Jubal A. Early"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA116",
+            "belligerent": "US",
+            "fullname": "George Crook"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va116-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General George Crook [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory and the live result Confederate Victory. Crook says his line moved back in good order with the enemy pressing; Pond says the whole line broke into retreat, and NPS that the divisions streamed back in disarray. Crook crossed the Potomac on the 26th.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA116"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va116-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-07-27",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "the whole line moved back in good order ;"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "the whole line broke into retreat."
+        },
+        {
+          "source_id": "nps-va116-v1",
+          "locator": "Description",
+          "quote": "Crook's divisions streamed back in disarray through the streets of Winchester."
+        },
+        {
+          "source_id": "nps-va116-v1",
+          "locator": "Description",
+          "quote": "Crook retreated to the Potomac River and crossed near Williamsport on July 26."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,800 total (US 1,200; CS 600); the live field reads 1785 (US 1185; CS 600). Pond says Crook's loss could hardly have been less than 1,200, giving Duval's division 513, Hayes's brigade 396 and Mulligan's division 317, and says the Confederate loss was light. Mulligan was mortally wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The compiled Union return (No. 55) is garbled in OCR and was not selected; no Confederate figure was inspected.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA116"
+          },
+          "column": "casualties_text",
+          "quote": "1,800 total (US 1,200; CS 600)"
+        },
+        {
+          "source_id": "nps-va116-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1785 total (US 1185; CS 600;)"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "but it could hardly have been less than 1,200."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.99 (OCR page markers; not checked against print)",
+          "quote": "sion alone 45 killed, 285 wounded, and 183 missing — total, 513."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.99 (OCR page markers; not checked against print)",
+          "quote": "Hayes reported a loss of 396 men"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.99 (OCR page markers; not checked against print)",
+          "quote": "the losses of the Third Division were 317,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "kernstown",
+          "locator": "p.99 (OCR page markers; not checked against print)",
+          "quote": "The Confederate loss was light."
+        },
+        {
+          "source_id": "nps-va116-v1",
+          "locator": "Description",
+          "quote": "Col. James Mulligan commanding Crook's 3rd Division was mortally wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The compiled return No. 55 (garbled), Averell's July 30 report (read, not selected), Thoburn's, Duval's, Hayes's and the regimental reports, and all Confederate reports remain deferred.",
+    "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes the reports of the commanders it describes and is not independent of them. Crook's July 27 and October 12, 1864 reports, printed in Official Records Series I, Volume XXXVII, Part 1, are one family of interested Union accounts; Pond quotes them. The Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

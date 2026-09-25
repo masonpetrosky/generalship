@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA117",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Guard Hill record (August 16, 1864) in Sheridan's Valley Campaign [August-October 1864]. The August 11-15 advance to Cedar Creek and the August 17 fight at Winchester are context. Campaign-wide marches, destruction, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions; the live field reads zero. Sheridan says Merritt's division was attacked by Kershaw's division and Wickham's and Lomax's brigades of cavalry, and that only Devin's and Custer's brigades were engaged; his 1866 report puts his whole army's effective line-of-battle strength on August 13 at about 18,000 infantry and 3,500 cavalry. NPS names Kershaw's division and Fitzhugh Lee's cavalry under Anderson. Pond quotes Grant's August 12 estimate that Early with the reinforcement could not exceed 40,000 (read 4.0,000 in OCR), and says the reinforcement proved to be one infantry and one cavalry division.",
+      "rationale": "Unit identifications, an army-wide figure three days earlier and a secondhand estimate; no count of the forces at the ford. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA117"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va117-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-08-17",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "by Kershaw’s division, of Long- street’s corps, and Wickham’s and Lomax’s brigades of cavalry."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-08-17",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "Only Devin’s and Cus¬ ter’s brigades were engaged."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.42 (OCR page markers; not checked against print)",
+          "quote": "As my effective line of battle strength at this time was about 18,000 infantry and 3,500 cavalry,"
+        },
+        {
+          "source_id": "nps-va117-v1",
+          "locator": "Description",
+          "quote": "Kershaw's infantry division and Fitzhugh Lee's cavalry, under overall command of Lt. Gen. Richard Anderson"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "guard-hill",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "Early's force with this increase cannot exceed 4.0,000,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "guard-hill",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "the real force was soon afterward discovered to be one divi- sion of infantry and one of cavalry, with artillery."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "river-crossing",
+      "dimension": "terrain",
+      "value": "NPS says Merritt surprised the Confederate columns in mid-stream of the Shenandoah at Front Royal; Pond says part of Anderson's force met two of Merritt's brigades at the ford while crossing, and Sheridan places the attack on the north side of the river at the crossing. Devin had been posted at Cedarville on the Front Royal and Winchester pike.",
+      "rationale": "Ground described by a summary, a history and an interested dispatch; no map verification.",
+      "citations": [
+        {
+          "source_id": "nps-va117-v1",
+          "locator": "Description",
+          "quote": "surprised the Confederate columns in mid-stream of the Shenandoah River,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "guard-hill",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "cross- ing the Shenandoah, had encountered at the ford two of Merritt's brigades,"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-08-17",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "on north side of the Shenandoah"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "guard-hill",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "Devin's bri- gade of Merritt's cavalry division was sent to keep watch at Cedarville,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-and-destruction",
+      "dimension": "logistics",
+      "value": "Pond quotes Sheridan that he could not supply his command beyond Winchester with the ten days' rations he started with. Sheridan's 1866 report says he resolved to fall back and carry out his instructions to destroy forage and subsistence, and prints his August 16 order to Torbert to destroy wheat and hay and seize useful mules, horses and cattle.",
+      "rationale": "Campaign supply limits and destruction orders on the day of the action; not a supply return for the engagement.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "guard-hill",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "nor can I supply my command beyond that point with the ten days' rations with which I started."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.43 (OCR page markers; not checked against print)",
+          "quote": "carry out my instruc¬ tions to destroy forage and subsistence,"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.43 (OCR page markers; not checked against print)",
+          "quote": "You will seize all mules, horses, and cattle that may he useful to our army."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reinforcement-reports",
+      "dimension": "information",
+      "value": "Pond says Grant's August 9 message that no brigade had been sent contradicted reports from Harper's Ferry, and that Sheridan was exceedingly anxious to learn whether Longstreet had come. Sheridan's report says Grant's August 12 dispatch, delivered on the 14th, spared him uncertainty about the force coming on his flank until it attacked the cavalry on the 16th.",
+      "rationale": "Attributed knowledge from a history and an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "guard-hill",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "Nevertheless, as Grant's message of the 9th had been positive the other way, Sheridan awaited more precise intelligence."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "guard-hill",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "\"I am exceedingly anxious,\" he wrote to Halleck, the 12th, \"to hear whether Longstreet has left to come here or not ;"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.43 (OCR page markers; not checked against print)",
+          "quote": "as I possibly would have remained in uncertainty as to the character of the force coming in on my flank and rear until it attacked the cavalry, as it did on the 16th."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "defensive-and-luray-guard",
+      "dimension": "objectives",
+      "value": "Pond says Early asked Anderson to come through Chester Gap to Front Royal to guard the Luray Valley, and that Grant told Sheridan to be cautious and act on the defensive; Merritt's brigades were sent to Cedarville and Stony Point lest the enemy turn that flank. Sheridan's report says he decided to fall back to Halltown.",
+      "rationale": "Stated aims and instructions from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "guard-hill",
+          "locator": "p.126 (OCR page markers; not checked against print)",
+          "quote": "asking him to come in through Chester Gap to Front Boyal, so as to guard the Luray Val- ley"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "guard-hill",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "\"He [Sheridan] must be cautious,\" said General Grant, \"and act now on the defensive,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "guard-hill",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "lest the enemy should turn that flank,"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.43 (OCR page markers; not checked against print)",
+          "quote": "I therefore determined to move back to Halltown,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Sheridan credits Merritt's division with the fight and says Devin was slightly wounded and Custer narrowly escaped; Pond says Devin's and Custer's brigades drove the crossing force back. The frozen commanders are Lieutenant General Richard Anderson and Brigadier General Wesley Merritt; the live page gives Anderson as Major General. No inspected passage describes Anderson's or Merritt's orders at the ford.",
+      "rationale": "Command roles from an interested dispatch and a history; the listed commanders do not receive automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-08-17",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "General MerritPs division of cavalry was attacked yesterday after¬ noon"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-08-17",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "Colonel Devin was slightly wounded, but continued in the saddle. General Custer made a very narrow escape."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "guard-hill",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "Devin and Custer, who drove them across the river with heavy loss,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA117",
+            "belligerent": "Confederate",
+            "fullname": "Richard Anderson"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA117",
+            "belligerent": "US",
+            "fullname": "Wesley Merritt"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va117-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Richard Anderson [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Sheridan says the enemy was badly beaten; NPS says the Confederates rallied and drove the two Union brigades back to Cedarville, Merritt withdrawing after dark to Nineveh, while Pond says Merritt withdrew to White Post.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA117"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va117-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-08-17",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "After a very handsome cavalry fight the enemy were badly beaten,"
+        },
+        {
+          "source_id": "nps-va117-v1",
+          "locator": "Description",
+          "quote": "The Confederates rallied and advanced, gradually driving the two Union brigades back to Cedarville."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "guard-hill",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "afterward withdrew to White Post."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 550 total; the live field reads 551 (US 71; CS 480). Sheridan's August 17 dispatch gives 2 colors, 24 officers and 276 men captured; his 1866 report 2 flags and 300 prisoners. Pond says nearly 300 prisoners and two flags, with Merritt's loss 60 (read GO in OCR); NPS says about 300 were captured.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA117"
+          },
+          "column": "casualties_text",
+          "quote": "550 total"
+        },
+        {
+          "source_id": "nps-va117-v1",
+          "locator": "Estimated Casualties",
+          "quote": "551 total (US 71; CS 480;)"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-08-17",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "with a loss of 2 stand of colors, 24 officers, and 276 men prisoners."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "capturing 2 battle-llags and 300 prisoners."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "guard-hill",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "nearly 300 prisoners, mostly of Kershaw's division, and two infantry flags"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "guard-hill",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "Merritt, whose loss was but GO men,"
+        },
+        {
+          "source_id": "nps-va117-v1",
+          "locator": "Description",
+          "quote": "capturing about 300."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Merritt's, Devin's and Custer's reports, Torbert's report, Anderson's and Kershaw's reports and Hotchkiss's journal remain deferred.",
+    "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes Sheridan's, Torbert's, Wright's and Early's reports and despatches and is not independent of them. Sheridan's dispatches of August-September 1864 and his report dated New Orleans, February 3, 1866 are one family of interested Union accounts. Official Records Series I, Volume XLIII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

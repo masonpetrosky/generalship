@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA121",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Tom's Brook record (October 9, 1864) in Sheridan's Valley Campaign [August-October 1864]. The October 6-8 harassment of Custer and Merritt and the October 13 reconnaissance at Hupp's Hill are context. Campaign-wide marches, destruction, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen and live force fields read 9,800 total (US 6,300; CS 3,500); the source basis is not given. Early says Rosser had his own brigade and Fitz Lee's two, Lomax two brigades, and that Sheridan concentrated his whole cavalry against them, superior in numbers and equipment. Pond says Merritt and Custer attacked and that Rosser had no conception of Sheridan's mounted strength.",
+      "rationale": "Brigade lists and an interested judgment of superiority; no counts. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA121"
+          },
+          "column": "forces_text",
+          "quote": "9,800 total (US 6,300; CS 3,500)"
+        },
+        {
+          "source_id": "nps-va121-v1",
+          "locator": "Forces Engaged",
+          "quote": "9800 total (US 6300; CS 3500;)"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-toms-brook",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "Rosser, in command of his own brigade and the two brigades of Fitz Lee’s division, and Lomax, with two brigades of his own cavalry,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-toms-brook",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "the enemy, having concentrated his whole cavalry in his rear,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-toms-brook",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "tjie enemy’s cavalry is so much superior to ours, both in numbers and equipment,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "toms-brook",
+          "locator": "p.204 (OCR page markers; not checked against print)",
+          "quote": "he had no conception of Sheridan's mounted strength,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "pike-and-back-road",
+      "dimension": "terrain",
+      "value": "Pond says Tom's Brook crosses the Valley pike three miles south of Strasburg at the foot of Round Top (read Bound Top in OCR); Merritt attacked on the pike and Custer on the Back road to the west. Early calls the country very favourable to cavalry.",
+      "rationale": "Ground described by a history and an interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "toms-brook",
+          "locator": "p.202 (OCR page markers; not checked against print)",
+          "quote": "Tom's Brook, which crosses the Valley pike, three miles south of the town, at the foot of Bound Top."
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-toms-brook",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "on what is called the Back road, which is west of the pike;"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-toms-brook",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "the country is so favorable to the oper¬ ations of cavalr^"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "toms-brook",
+          "locator": "p.203 (OCR page markers; not checked against print)",
+          "quote": "Custer driving Rosser on the Back road to Columbia Furnace."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rifles-and-waste",
+      "dimension": "logistics",
+      "value": "Early says Lomax's cavalry was armed only with rifles and had no sabers, so could not fight mounted, and that Sheridan had laid waste Rockingham and Shenandoah, leaving him to rely on Augusta for supplies. Pond says Rosser's brigade arrived worn from a hard march from Richmond with little to eat.",
+      "rationale": "Interested and retrospective descriptions of equipment and supply, not returns.",
+      "citations": [
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-toms-brook",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "Lomax.’'s cavalry are armed entirely Avith rifies and have no sabers,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-toms-brook",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "He has laid waste nearly all of Eockingham and Shen¬ andoah, and I will have to rely on Augusta for my supplies,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "toms-brook",
+          "locator": "p.202 (OCR page markers; not checked against print)",
+          "quote": "had been worn down by a hard march from Eich- mond, during which the men got little to eat,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "harass-and-ascertain",
+      "dimension": "information",
+      "value": "Early says Rosser and Lomax were ordered to pursue, harass the enemy and ascertain his purposes, and that he had not heard definitely from Rosser when he wrote. Pond says Rosser had no conception of Sheridan's mounted strength.",
+      "rationale": "Attributed knowledge from an interested report and a history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-toms-brook",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "to harass him and ascertain his purposes,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-toms-brook",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "I have not heard defiuitely from Rosser,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "toms-brook",
+          "locator": "p.204 (OCR page markers; not checked against print)",
+          "quote": "he had no conception of Sheridan's mounted strength,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "whip-the-cavalry",
+      "dimension": "objectives",
+      "value": "Pond says Sheridan directed Torbert to start at daylight and whip the rebel cavalry or get whipped, and quotes Sheridan's delay of a day to settle this new cavalry general.",
+      "rationale": "Stated aims as quoted by a history.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "toms-brook",
+          "locator": "p.203 (OCR page markers; not checked against print)",
+          "quote": "\" whip the rebel cavalry or get whipped himself.\""
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "toms-brook",
+          "locator": "p.203 (OCR page markers; not checked against print)",
+          "quote": "I deemed it best to make this delay of one day here and settle this new cavalry general."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Pond says Sheridan directed Torbert to attack, that Torbert was in the saddle at dawn with Merritt on the pike and Custer on the right, and that Rosser had come to command Fitz Lee's division. Early says Rosser commanded his own and Fitz Lee's brigades and Lomax his own. The frozen commanders are Major General Thomas Rosser and Brigadier General Alfred Torbert.",
+      "rationale": "Command roles from a history and an interested report; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "toms-brook",
+          "locator": "p.203 (OCR page markers; not checked against print)",
+          "quote": "directed Torbert to start out at daylight"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "toms-brook",
+          "locator": "p.203 (OCR page markers; not checked against print)",
+          "quote": "Torbert was in the saddle at dawn of the 9th,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "toms-brook",
+          "locator": "p.202 (OCR page markers; not checked against print)",
+          "quote": "was to take command of Fitz Lee's division, in place of Wickkam."
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-toms-brook",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "Rosser, in command of his own brigade and the two brigades of Fitz Lee’s division,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA121",
+            "belligerent": "Confederate",
+            "fullname": "Thomas Rosser"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA121",
+            "belligerent": "US",
+            "fullname": "Alfred Torbert"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va121-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Alfred Torbert [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Early says Rosser was reportedly falling back in good order while Lomax's command came back in confusion; Pond says the two-hour fight ended in the rout of both, Merritt chasing Lomax twenty miles to Mount Jackson. NPS says the victory gave the Union cavalry overwhelming superiority in the Valley.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The later cavalry superiority is campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA121"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va121-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-toms-brook",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "fall¬ ing back in good order, having rallied his command,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-toms-brook",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "Lomax’s com¬ mand, which was on the pike, came back to this place in confusion."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "toms-brook",
+          "locator": "p.203 (OCR page markers; not checked against print)",
+          "quote": "A spirited fight of two hours ended in the rout both of Lomax and Eosser,"
+        },
+        {
+          "source_id": "nps-va121-v1",
+          "locator": "Description",
+          "quote": "With this victory, the Union cavalry attained overwhelming superiority in the Valley."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 407 total (US 57; CS 350). Early says nine pieces of horse artillery and eight or ten wagons were captured and the loss in men, as he understood, was slight; Pond says eleven guns (five by Merritt, six by Custer), about 330 prisoners and forty-seven wagons were taken, a loss of about 400, against Torbert's 9 killed and 48 wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA121"
+          },
+          "column": "casualties_text",
+          "quote": "407 total (US 57; CS 350)"
+        },
+        {
+          "source_id": "nps-va121-v1",
+          "locator": "Estimated Casualties",
+          "quote": "407 total (US 57; CS 350;)"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-toms-brook",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "cap¬ turing nine pieces of horse artillery and eight or ten wagons. Their loss in men is, I understand, slight."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "toms-brook",
+          "locator": "p.203 (OCR page markers; not checked against print)",
+          "quote": "Merritt captured five cavalry guns and Custer six"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "toms-brook",
+          "locator": "p.203 (OCR page markers; not checked against print)",
+          "quote": "About 330 prisoners fell into the hands of the victors,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "toms-brook",
+          "locator": "p.203 (OCR page markers; not checked against print)",
+          "quote": "inflicting a loss of about 400 men, while Torbert had but 9"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "toms-brook",
+          "locator": "p.204 (OCR page markers; not checked against print)",
+          "quote": "killed and 48 wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Torbert's, Merritt's and Custer's reports, Sheridan's October 9 and 11 dispatches (read, not selected), Rosser's and Lomax's reports and Hotchkiss's journal remain deferred.",
+    "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes Sheridan's, Torbert's, Wright's and Early's reports and despatches and is not independent of them. Early's reports and dispatches of September 23-October 21, 1864 to Lee are one family of interested Confederate accounts; it is the same author family as his July 14 report selected for Early's Raid. Official Records Series I, Volume XLIII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

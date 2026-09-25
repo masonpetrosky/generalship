@@ -68,6 +68,21 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Early's Raid and Sheridan's Valley first passes (cohort v2), 2026-09-25
+
+The first passes for [Early's Raid](research/early-raid-first-pass-v1.md) and
+[Sheridan's Valley Campaign](research/sheridan-valley-first-pass-v1.md) add **46 records**:
+
+- fifteen NPS HTML/text pairs;
+- Pond, *The Shenandoah Valley in 1864* (1883): catalog metadata, full OCR and two selections;
+- Official Records Series I, Volume XXXVII Part 1 and Volume XLIII Part 1: catalog metadata and
+  full OCR for each;
+- eight report selections.
+
+The Volume XLIII scan used is `warofrebellion431unit_0`; the identifier without the suffix is
+Volume XLVII Part 2. The registry is now **689 entries / 668 raw paths**, preserving the previous
+**643/622**. No model inputs are changed.
+
 ### Overland Campaign first pass (cohort v2), 2026-09-25
 
 The [first pass](research/overland-first-pass-v1.md) adds **34 records**:

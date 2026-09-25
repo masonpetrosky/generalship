@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "battle_id": "WV015",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Smithfield Crossing record (August 25-29, 1864) in Sheridan's Valley Campaign [August-October 1864]. Within the frozen interval, the August 25 cavalry fight near Kearneysville, the August 26 reconnaissance at Halltown and the August 28 fight at Leetown and Smithfield are recorded separately in the sources and are not added to the August 29 engagement. Campaign-wide marches, destruction, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions; the live field reads zero. NPS, Sheridan and Pond say two Confederate infantry divisions (Sheridan adds a small cavalry force) drove Merritt's division from Smithfield on August 29 until Ricketts's division came up. For August 25 Pond says Torbert's troopers faced four infantry divisions, Breckinridge's corps being the only force much engaged.",
+      "rationale": "Unit identifications only; no counts. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV015"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-wv015-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-wv015-v1",
+          "locator": "Description",
+          "quote": "two Confederate infantry divisions crossed Opequon Creek at Smithfield"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "two divisions of the enemy’s infantry and a small force of cavalry attacked Merritt at the Smithfield bridge,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "smithfield",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "two of Early's infantry divisions expelled Merritt from Smithfield"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "smithfield",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "they were confronted by four divisions of infantry, though Breckenridge's corps was the only force much engaged."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "smithfield-bridge-and-opequon",
+      "dimension": "terrain",
+      "value": "Sheridan places the August 29 attack at the Smithfield bridge over the Opequon and says the cavalry afterward retook post there; his August 28 dispatch says the enemy held the crossing of the Opequon. NPS says Merritt was forced back along the Charlestown road.",
+      "rationale": "Ground described by interested dispatches and a summary; no map verification.",
+      "citations": [
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "attacked Merritt at the Smithfield bridge,"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "the cavalry again taking post at the Smithfield bridge."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-08-28",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "holding the crossing of the Opeqiion,"
+        },
+        {
+          "source_id": "nps-wv015-v1",
+          "locator": "Description",
+          "quote": "forced back Merritt's Union cavalry division back along the road to Charles Town."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "mutual-surprise-and-doubt",
+      "dimension": "information",
+      "value": "Pond says Torbert attacked on August 25 supposing he faced only cavalry; Sheridan's report calls it a mutual surprise. On August 28 Sheridan wrote that it was doubtful whether the enemy had left Bunker Hill for Winchester.",
+      "rationale": "Attributed knowledge from a history and interested accounts; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "smithfield",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "sup- posing he had only cavalry to deal with, attacked sharply,"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "This engagement was somewhat of a mutual surprise,"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-08-28",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "AVhether they have left that point for Winchester is doubtful."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "invasion-fear-and-feel",
+      "dimension": "objectives",
+      "value": "Pond gives Early's alleged purpose as keeping up the fear of an invasion of Maryland and Pennsylvania, and quotes Grant advising Sheridan to feel the enemy strongly if he could do so safely. Sheridan says he directed Merritt to attack the cavalry at Leetown on the 28th.",
+      "rationale": "Stated aims from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "smithfield",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "\" to keep up the fear of an invasion of Maryland and Pennsylvania.\""
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "smithfield",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "If you are so situated as to feel the enemy strongly without compromising the safety of your position, I think it advisable to do so."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "directed* Merritt to attack the enemy’s cavalry at Leetown,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Sheridan says he reinforced Merritt's cavalry with Ricketts's division, which drove the enemy back over the Opequon; Pond says Ricketts was hurried to Merritt's relief. For August 25 Sheridan names Torbert as in command. The frozen commanders are Lieutenant General Early and Brigadier General Wesley Merritt; the live page gives Early as Major General.",
+      "rationale": "Command roles from an interested report and a history; neither listed commander receives automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "until I could re-enforce it with Eicketts’ division, of the Sixth Corps,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "smithfield",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "Bicketts's division of the Sixth Corps being hurried to Merritt's relief,"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "General Torbert, who was in com¬ mand,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV015",
+            "belligerent": "Confederate",
+            "fullname": "Jubal A. Early"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV015",
+            "belligerent": "US",
+            "fullname": "Wesley Merritt"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-wv015-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Wesley Merritt [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Sheridan says the enemy was in turn driven back through Smithfield and over the Opequon; Pond says Ricketts secured the position for Merritt.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV015"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-wv015-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1866-02-03-august-september",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "when in turn the enemy was driven back through Smithfield and over the Opequon,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "smithfield",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "definitely secured the position for Merritt."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 300 total; the live field reads 300 (US 100; CS 200). Pond gives the August 29 loss of Gibbs's brigade as 35 killed and wounded; Sheridan says of August 28 that his loss was not very heavy. Pond's August 26 figures at Halltown (Crook's infantry 141) and the unnumbered August 25 losses are separate actions and are not added.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV015"
+          },
+          "column": "casualties_text",
+          "quote": "300 total"
+        },
+        {
+          "source_id": "nps-wv015-v1",
+          "locator": "Estimated Casualties",
+          "quote": "300 total (US 100; CS 200;)"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "smithfield",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "The loss of Gibbs's brigade, Merritt's division, was 35 killed and wounded."
+        },
+        {
+          "source_id": "or43-1-sheridan-valley-selections-v1",
+          "section": "sheridan-1864-08-28",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "Our loss was not very heavy."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "smithfield",
+          "locator": "p.139 (OCR page markers; not checked against print)",
+          "quote": "Crook's infantry loss was 141 killed and wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Merritt's and Torbert's reports, Ricketts's report, Sheridan's August 25-27 dispatches (read, not selected), Hotchkiss's journal and the Confederate reports remain deferred.",
+    "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes Sheridan's, Torbert's, Wright's and Early's reports and despatches and is not independent of them. Sheridan's dispatches of August-September 1864 and his report dated New Orleans, February 3, 1866 are one family of interested Union accounts. Official Records Series I, Volume XLIII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

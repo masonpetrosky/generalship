@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA119",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Opequon (Third Winchester) record (September 19, 1864) in Sheridan's Valley Campaign [August-October 1864]. Early's September 17-18 move to Martinsburg and the September 20 pursuit are context. Campaign-wide marches, destruction, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen and live force fields read 54,440 total (US 39,240; CS 15,200); the source basis is not given. Early says Sheridan's infantry was nearly if not quite three times his own and his cavalry much superior, and on September 25 put the odds at three or four to one. Pond's appendix computes Early's infantry plus Fitz Lee at 17,195 without Kershaw (from a September 10 return) and gives Sheridan's September 10 field return as 45,509 corrected, excluding about 2,500 of Averell's cavalry. Pond says Grover's division had an effective strength of 6,797 just before the battle.",
+      "rationale": "Early's ratios are interested estimates; the returns are dated nine days before and do not measure the force engaged. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA119"
+          },
+          "column": "forces_text",
+          "quote": "54,440 total(US 39,240; CS 15,200)"
+        },
+        {
+          "source_id": "nps-va119-v1",
+          "locator": "Forces Engaged",
+          "quote": "54440 total (US 39240; CS 15200;)"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.556 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s infantry force Aras nearly, if not quite, three times as large as mine,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-09-25",
+          "locator": "p.558 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s force is very much larger than mine, being three or four to one."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "appendix-b-strength",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "the total, without Ker- shaw, would be 17,195;"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "appendix-b-strength",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "and the aggregate, in like manner, should be 45,509."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "appendix-b-strength",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "The enclosed return does not include the cavalry under Averell, about 2,500,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.170 (OCR page markers; not checked against print)",
+          "quote": "the division had an effective strength of 6,797 men just before the battle."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "gorge-and-open-ground",
+      "dimension": "terrain",
+      "value": "Pond says the Berryville pike passes through a wooded ravine two or three miles long after crossing the Opequon, that the ground near Winchester was undulating and generally open with patches of woods, open and excellent for cavalry north of Red Bud Run, and that the battle was fought without field-works. Early says he stopped his men in old rifle-pits built by Johnston.",
+      "rationale": "Ground described by a history and an interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.156 (OCR page markers; not checked against print)",
+          "quote": "passes through a wooded ravine or canon."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.156 (OCR page markers; not checked against print)",
+          "quote": "covered here and there with patches of woods, but generally high and open,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.156 (OCR page markers; not checked against print)",
+          "quote": "north of the Red Bud the country is open, and excellent for cavalry."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.160 (OCR page markers; not checked against print)",
+          "quote": "being fought without field-works."
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.555 (inferred: the running head reads \"655\" in OCR, before the p.556 head; not checked against print)",
+          "quote": "in the old rifle-pits con¬ structed by General Johnston"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "defile-and-trains",
+      "dimension": "logistics",
+      "value": "Pond says marching two corps through the long gorge consumed many hours, that Sheridan had ordered surplus wagons parked, and that Crook's troops found the ravine filled with wagons, artillery, ambulances and stragglers. Early says his trains were put in motion for their security, and Pond that he saved his trains and stores.",
+      "rationale": "A history's account and an interested report; no transport return inspected.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "Marching two corps, one behind the other, fording a stream and moving through a long gorge, a distance of six or eight miles, consumes many hours ;"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "All regimental and other wagons that will inconvenience the quick movement of the troops will be parked at Summit Point"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.164 (OCR page markers; not checked against print)",
+          "quote": "\" filled with wagons, artillery, ambulances, and stragglers,\""
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.554 (OCR page markers; not checked against print)",
+          "quote": "the trains all xnit in motion for their security."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.170 (OCR page markers; not checked against print)",
+          "quote": "Early was able to save his trains and stores,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "divided-army-report",
+      "dimension": "information",
+      "value": "Pond says Averell's report that two Confederate divisions had gone to Martinsburg made Sheridan strike directly at Winchester, and that Sheridan then unexpectedly had to fight Early's whole army. Early says a report of cavalry on the Berryville road brought him to Ramseur's position, where he found the enemy advancing with his whole force.",
+      "rationale": "Attributed knowledge from a history and an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "when, the 18th, Averell sent word that he had been attacked by two infantry divisions, Sheridan eagerly changed the orders of march"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.160 (OCR page markers; not checked against print)",
+          "quote": "Sheridan had now unexpectedly to fight Early's whole army."
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.554 (OCR page markers; not checked against print)",
+          "quote": "a report reached me that the enemy’s cav¬ alry had appeared on the Berry ville road."
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.554 (OCR page markers; not checked against print)",
+          "quote": "the enemy evidently advancing with his whole force."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "defeat-in-detail-and-railroad",
+      "dimension": "objectives",
+      "value": "Pond says Sheridan hoped to strike the two divisions supposed to be near Winchester and overwhelm his adversary in detail. Early says his move to Martinsburg was to thwart reported repairs of the Baltimore and Ohio Railroad.",
+      "rationale": "Stated aims from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "in the hope of striking the two di- visions supposed to be there, and thus easily overwhelming his adversary in detail."
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.554 (OCR page markers; not checked against print)",
+          "quote": "to thwart efforts that were reported to be making to repair the Baltimore and Ohio Eailroad."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Early says he ordered Rodes, Gordon and Breckinridge to Ramseur's aid and put Fitz Lee in charge of the cavalry on his left. Pond says Emory reported to Wright at the Opequon, that Sheridan directed Thoburn's charge in person, and stresses Sheridan's presence at every important point. The frozen commanders are Lieutenant General Early and Major General Sheridan; the live page gives Early as Major General.",
+      "rationale": "Command roles from an interested report and a history; neither listed commander receives automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.554 (OCR page markers; not checked against print)",
+          "quote": "I ordered Eodes, Gordon, and Breckinridge to have their divisions under arms ready to move to Eamseur’s assistance,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.555 (inferred: the running head reads \"655\" in OCR, before the p.556 head; not checked against print)",
+          "quote": "directed General Fitz Lee to take charge of all the cavalry on that flank"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "Emory reporting to Wright on reaching the Opequon,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.164 (OCR page markers; not checked against print)",
+          "quote": "Sheridan at that moment arrived, and directed Tho- burn,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.172 (OCR page markers; not checked against print)",
+          "quote": "the personal presence and supervision of Sheridan at every important point in the front line."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA119",
+            "belligerent": "Confederate",
+            "fullname": "Jubal A. Early"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA119",
+            "belligerent": "US",
+            "fullname": "Philip Sheridan"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va119-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Jubal Early [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Early says he had defeated the enemy's infantry but the superior Union cavalry turned the scale, and he retired through the town; Pond says Early's forces broke through Winchester in complete retreat.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA119"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va119-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.555 (inferred: the running head reads \"655\" in OCR, before the p.556 head; not checked against print)",
+          "quote": "In this fight I had already defeated the enemy’s infantry,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.555 (inferred: the running head reads \"655\" in OCR, before the p.556 head; not checked against print)",
+          "quote": "the enemy’s very great superiority in cav¬ alry and the comparative inefficiency of ours turned the scale against us."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.166 (OCR page markers; not checked against print)",
+          "quote": "As day ended, Early's forces broke through Win- chester in complete retreat."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 8,630 total (US 5,020; CS 3,610). Early gives his infantry and artillery loss as 226 killed (read 22G in OCR), 1,567 wounded and 1,818 missing, total 3,611, with no full cavalry report; Pond reproduces an unsigned memorandum giving 199 killed and 1,508 wounded, total 1,707. Pond puts the Union loss at 4,900 to 5,000 and Early's at 3,900 to 4,000, nearly 2,000 of them prisoners. Early reports hearsay of 5,800 Union wounded in Winchester hospitals.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Early's September 1-October 1 cavalry figure (348 killed and wounded) spans several actions and is not added.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA119"
+          },
+          "column": "casualties_text",
+          "quote": "8,630 total (US 5,020; CS 3,610)"
+        },
+        {
+          "source_id": "nps-va119-v1",
+          "locator": "Estimated Casualties",
+          "quote": "8630 total (US 5020; CS 3610;)"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.555 (inferred: the running head reads \"655\" in OCR, before the p.556 head; not checked against print)",
+          "quote": "Killed, 22G; wounded, 1,567; missing, 1,818; total, 3,611."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "199 1,508 1,707"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "The Union loss was from 4,900 to 5,000 men,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "Early's loss was from 3,900 to 4,000."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "opequon",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "Of his casualties nearly 2,000 were prisoners ;"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.556 (OCR page markers; not checked against print)",
+          "quote": "5,800 of the enemy’s Avounded As^ere brought to the hospital at Winchestm*,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Sheridan's 1866 report passage on the battle (read, not selected), his September 19 dispatch, Wright's, Emory's, Crook's, Torbert's and the division reports, the compiled Union returns (Nos. 3-4) and Hotchkiss's journal remain deferred.",
+    "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes Sheridan's, Torbert's, Wright's and Early's reports and despatches and is not independent of them. Early's reports and dispatches of September 23-October 21, 1864 to Lee are one family of interested Confederate accounts; it is the same author family as his July 14 report selected for Early's Raid. Official Records Series I, Volume XLIII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

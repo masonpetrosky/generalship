@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA114",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Cool Spring record (July 17-18, 1864) in Early's Raid and Operations Against the B&O Railroad [June-August 1864]. The July 16 capture of Early's wagons near Purcellville, the July 19 fight at Ashby's Gap and the July 20 crossing are context. Campaign-wide marches, levies, captures, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen and live force fields read 13,000 total (US 5,000; CS 8,000); the source basis is not given. Pond says Wright had about 10,000 effective of the Sixth Corps and 650 of the Nineteenth on July 13, that Sullivan's and Mulligan's divisions were 7,000 strong and Duffie's cavalry 2,000, and that Crook brought two brigades 3,400 strong; he says about 1,000 dismounted cavalry stood beyond Thoburn's right. Crook says he sent three brigades under Thoburn across the river. Pond says Breckinridge attacked with his two divisions and Rodes with his; no Confederate count is given.",
+      "rationale": "The Union figures are command strengths on different days before the crossing, not the force engaged; the imported 5,000 and 8,000 are unvalidated. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA114"
+          },
+          "column": "forces_text",
+          "quote": "13,000 total (US 5,000; CS 8,000)"
+        },
+        {
+          "source_id": "nps-va114-v1",
+          "locator": "Forces Engaged",
+          "quote": "13000 total (US 5000; CS 8000;)"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.74 (OCR page markers; not checked against print)",
+          "quote": "about 10,000 ef- fective of the Sixth Corps and 650 of the Nineteenth,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "the divisions of Sullivan and Mulligan, 7,000 strong, under the former, and Duffle's division of 2,000"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "with two of his brigades, 3,400 strong,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "Beyond the right flank was a force of about 1,000 dismounted cavalry,"
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-10-12",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "I ordered three brigades, under Col. J. Thoburn, some mile and a half below to cross the river"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "Breckenridge advanced against Thoburn's left and centre, with his two divisions, while Early sent Bodes to fall on the Union right."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fords-and-river-bank",
+      "dimension": "terrain",
+      "value": "Crook says Thoburn crossed about a mile and a half below the ford the enemy held. Pond places the crossing at Island Ford, where a Confederate picket fired from behind bushes until Wells's brigade found a wading-place a few hundred yards below, and says the retreat was across a river under fire from the bank. NPS says Thoburn made a stand behind a stone wall at the river's edge.",
+      "rationale": "Ground described by an interested report, a history and a summary; no map verification.",
+      "citations": [
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-10-12",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "some mile and a half below to cross the river and compel the enemy to evacuate the ford."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "Here the enemy, who had a picket behind bushes, opened a hot fire ;"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "Wells's brigade found a good wading-place a few hun- dred yards below,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "the trying one of retreating across a river under fire from the bank."
+        },
+        {
+          "source_id": "nps-va114-v1",
+          "locator": "Description",
+          "quote": "Thoburn made a stand behind a stone wall at the river's edge"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "country-and-trains",
+      "dimension": "logistics",
+      "value": "Pond quotes Halleck's instruction that Wright must live mainly upon the country, and says a Union brigade captured 82 of Early's wagons with mules and horses near Purcellville on July 16; Crook says his cavalry party attacked the enemy's train and captured part of it.",
+      "rationale": "The instruction and the July 16 capture are context before the frozen interval, not a supply return for the engagement.",
+      "citations": [
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.76 (OCR page markers; not checked against print)",
+          "quote": "He further says that you must live mainly upon the country."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.81 (OCR page markers; not checked against print)",
+          "quote": "capturing, without much difficulty, one hundred and seventeen mules and horses, eighty-two wagons,"
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-10-12",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "attacked their train and captured part of it and some prisoners."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cavalry-only-belief",
+      "dimension": "information",
+      "value": "Crook says he believed only the enemy's cavalry held Snicker's Ford until prisoners taken in the crossing said Early's entire force was encamped nearby, which he reported to the commanding general. Pond says those prisoners placed Gordon and Rodes a mile or two away.",
+      "rationale": "Attributed knowledge from an interested report and a history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-10-12",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "Believing that only the enemy’s cavalry were holding Snicker’s Ford,"
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-10-12",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "captured some prisoners, who stated that General Early’s entire forces were encamped in the vicinity."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "Gordon and Bodes only a mile or two away."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "verify-retreat-and-turn",
+      "dimension": "objectives",
+      "value": "Crook says Thoburn was to cross and compel the enemy to evacuate the ford. Pond says Halleck told Wright to pursue only far enough to be certain the enemy was in full retreat toward Richmond, and quotes Wright that, the crossing being resisted, he designed to turn the position by Keyes Gap.",
+      "rationale": "Stated aims and instructions from an interested report and a history; later movements are campaign context.",
+      "citations": [
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-10-12",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "to cross the river and compel the enemy to evacuate the ford."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.78 (OCR page markers; not checked against print)",
+          "quote": "he was to pursue the enemy only far enough to be certain that he was really in full retreat toward Richmond,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "believing it better to turn his position, I designed doing so by way of Keyes Gap,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Crook says Wright ordered him forward to Snickersville and Snicker's Ford, that the Sixth Corps was ordered up to support Thoburn, and that when Ricketts, commanding the corps, thought it imprudent to cross, he ordered Thoburn to fall back. Pond says Breckinridge attacked Thoburn's left and centre while Early sent Rodes against the right. The frozen commanders are Lieutenant General Early and Major General Horatio Wright; the live page gives Early as Major General.",
+      "rationale": "Command roles from an interested report and a history; neither listed commander receives automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-10-12",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "Next morning I was ordered by General Wright to send a cavalry force to Snickersville,"
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-10-12",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "the Sixth Army Corps was ordered up to support my men."
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-10-12",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "as General Ricketts, commanding the corps, did not think it prudent under the circumstances to cross his men,"
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-10-12",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "I gave the order to fall back,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "Breckenridge advanced against Thoburn's left and centre, with his two divisions, while Early sent Bodes to fall on the Union right."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA114",
+            "belligerent": "Confederate",
+            "fullname": "Jubal A. Early"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA114",
+            "belligerent": "US",
+            "fullname": "Horatio Wright"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va114-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Jubal Early [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory and the live result Confederate Victory. Crook says the assaults were repulsed and the remaining troops fell back in good order, the enemy not following until after dark; Pond says Thoburn's right was driven into the stream while the left withdrew in good order. NPS says the Union pursuit was delayed several days; Early retreated on the night of the 19th.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA114"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va114-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-10-12",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "which was done in good order by the remaining troops."
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-10-12",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "they did not follow my men down the river until after dark."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "which was driven into the stream."
+        },
+        {
+          "source_id": "nps-va114-v1",
+          "locator": "Description",
+          "quote": "Union pursuit of Early was delayed several days."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "and that night Early retreated, taking the road to Strasburg."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 819 total (US 422; CS 397). Crook and Pond give Thoburn's loss as 65 killed, 301 wounded and 56 missing, total 422. Crook says he had no correct means of ascertaining the enemy's loss; no inspected passage gives the Confederate 397. Pond gives Duffie's loss at Snicker's Gap on the 17th as 17.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The Confederate figure's basis is not established.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA114"
+          },
+          "column": "casualties_text",
+          "quote": "819 total (US 422; CS 397)"
+        },
+        {
+          "source_id": "nps-va114-v1",
+          "locator": "Estimated Casualties",
+          "quote": "819 total (US 422; CS 397;)"
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-10-12",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "Our loss on this occasion was 65 killed, 301 wounded, and 56 miss¬ ing."
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "Thoburn's casualties in this engagement were 65 killed, 301 wounded, and 56 missing — total, 422."
+        },
+        {
+          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
+          "section": "crook-1864-10-12",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "I had no correct means of ascertaining the enemy’s loss,"
+        },
+        {
+          "source_id": "pond-early-raid-selections-v1",
+          "section": "snickers-ferry",
+          "locator": "p.82 (OCR page markers; not checked against print)",
+          "quote": "Duffle los- ing 17 men in the affair."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Wright's July 11-28 dispatches (read, not selected; the July 21 dispatch puts Snicker's Ferry losses at not over 200), Thoburn's, Wells's and Ely's reports and the Confederate division reports remain deferred.",
+    "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes the reports of the commanders it describes and is not independent of them. Crook's July 27 and October 12, 1864 reports, printed in Official Records Series I, Volume XXXVII, Part 1, are one family of interested Union accounts; Pond quotes them. The Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

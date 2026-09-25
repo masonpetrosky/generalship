@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA122",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Cedar Creek record (October 19, 1864) in Sheridan's Valley Campaign [August-October 1864]. The October 13 reconnaissance at Hupp's Hill and the October 20 pursuit are context. Campaign-wide marches, destruction, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 52,945 total (US 31,945; CS 21,000); the live field reads 47210 (US 31945; CS 15265). Pond says Early had received reinforcements of nearly 5,000 exclusive of the Valley reserves, and that although his army was smaller than Sheridan's he had the stronger force at each point of attack. Early wrote on October 9 that without Kershaw he had about 6,000 muskets.",
+      "rationale": "The frozen and live Confederate figures differ by 5,735 and no source basis is given; Early's October 9 figure excludes Kershaw and predates the battle by ten days. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA122"
+          },
+          "column": "forces_text",
+          "quote": "52,945 total (US 31,945; CS 21,000)"
+        },
+        {
+          "source_id": "nps-va122-v1",
+          "locator": "Forces Engaged",
+          "quote": "47210 total (US 31945; CS 15265;)"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.216 (OCR page markers; not checked against print)",
+          "quote": "amounting, ex- clusive of the Valley reserves that may have joined him, to nearly 5,000 men."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "though Early's army was smaller than Sheridan's,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-toms-brook",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "Without Kershaw I would have about 6,000 muskets."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "echelon-camps-and-fog",
+      "dimension": "terrain",
+      "value": "Pond says the three Union corps camped en echelon behind Cedar Creek, which could be waded everywhere, with its steep banks a defence; the Sixth Corps was not intrenched, and a thick fog hid the Confederate approach. Early's flanking column crossed the North Fork twice along the base of Three Top.",
+      "rationale": "Ground described by a history; the camp positions predate the engagement but were chosen by the Union commanders during the campaign, so the claim stays unresolved. No map verification.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.222 (OCR page markers; not checked against print)",
+          "quote": "the three corps were positioned, as we have seen, partly en echelon"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.222 (OCR page markers; not checked against print)",
+          "quote": "The creek could be waded everywhere,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.222 (OCR page markers; not checked against print)",
+          "quote": "The steep banks of the creek were in themselves defences"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.223 (OCR page markers; not checked against print)",
+          "quote": "The Sixth Corps, beyond Meadow Brook, was not in- trenched."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.219 (OCR page markers; not checked against print)",
+          "quote": "a thick fog, clouding the landscape, now hid from sight the Confederate march."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.217 (OCR page markers; not checked against print)",
+          "quote": "as the river had to be crossed twice,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forage-exhaustion-and-plunder",
+      "dimension": "logistics",
+      "value": "Pond says the provisions and forage Early brought from New Market were nearly exhausted, forcing him to attack or retreat. Early says his men's propensity to plunder the captured camps cost him the victory; Pond quotes his report that officers joined in.",
+      "rationale": "A history and interested accounts; plunder is Early's explanation, not a measured effect.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.216 (OCR page markers; not checked against print)",
+          "quote": "the provisions and forage which the Confederate general had brought from New Market were nearly exhausted, and he was forced either to attack or retreat."
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-cedar-creek-report-fragment",
+          "locator": "p.563 (OCR page markers; not checked against print)",
+          "quote": "the uncontrollable propensity of our men for plunder,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.234 (OCR page markers; not checked against print)",
+          "quote": "in which I am sorry to say that officers participated"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "three-top-and-false-reassurance",
+      "dimension": "information",
+      "value": "Pond says Gordon and Hotchkiss, from the Three Top signal station, found Sheridan's left lightly picketed and saw both camps; that a Union reconnoitring brigade reported the enemy apparently retreated; and that Sheridan's absence was not known to Early. Sheridan had been warned by the intercepted Longstreet message, which Pond calls fictitious. Early believed the afternoon counterattack was only a demonstration.",
+      "rationale": "Attributed knowledge from a history and an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.217 (OCR page markers; not checked against print)",
+          "quote": "\"was lightly picketed,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.217 (OCR page markers; not checked against print)",
+          "quote": "From Three Top Gordon and Hotchkiss could look down into both camps"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.220 (inferred: chapter opening without a running head, after the p.219 head; not checked against print)",
+          "quote": "even reported that night that the enemy had apparently retreated up the Valley."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.218 (OCR page markers; not checked against print)",
+          "quote": "for his absence was not known."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "although now that its fictitious character is known,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-cedar-creek-report-fragment",
+          "locator": "p.563 (OCR page markers; not checked against print)",
+          "quote": "I believe that the enemy had only made the movement against us as a demonstration,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "attack-to-hold-sixth-corps",
+      "dimension": "objectives",
+      "value": "Pond says Early chose to attack partly to delay the transfer of Union forces to Grant; Early's report says his movement brought back the Sixth Corps, which had begun to leave, and calls the plan a bold one. Sheridan had told Wright to make his position strong.",
+      "rationale": "Stated aims from a history and interested accounts; the effect on Grant's army is campaign context.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.216 (OCR page markers; not checked against print)",
+          "quote": "For not only would attack, he thought, delay that meditated transfer of forces to Grant's army,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-cedar-creek-report-fragment",
+          "locator": "p.564 (OCR page markers; not checked against print)",
+          "quote": "The Sixth Corps had already begun to move off to Grant and my movement brought it back,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-cedar-creek-report-fragment",
+          "locator": "p.563 (OCR page markers; not checked against print)",
+          "quote": "The plan was a bold one"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "Make your posi- tion strong."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Pond says Wright, as senior officer, was left in charge while Sheridan went to Washington; that Wright ordered the cavalry to the left during the morning; and that Sheridan, returning from Winchester, formed the line and ordered the 4 p.m. advance. Early says he had cautioned his division commanders against plundering; Pond quotes Early that Kershaw reported his division not in a condition to attack. The frozen commanders are Lieutenant General Early and Major Generals Horatio Wright and Philip Sheridan; the live page lists Wright only.",
+      "rationale": "Command roles from a history and an interested report; command passed during the day, and no listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "who, as senior officer, had been left in charge of the troops at Cedar Creek"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.232 (OCR page markers; not checked against print)",
+          "quote": "I was ordered by Major General Wright, commanding the army temporarily, Major-General Sheridan being temporarily absent,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.237 (OCR page markers; not checked against print)",
+          "quote": "But at four o'clock Sher- idan ordered an advance,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-cedar-creek-report-fragment",
+          "locator": "p.563 (OCR page markers; not checked against print)",
+          "quote": "by cautioning the division commanders"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.234 (OCR page markers; not checked against print)",
+          "quote": "his divi- sion was not in a condition to make the attack,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA122",
+            "belligerent": "Confederate",
+            "fullname": "Jubal A. Early"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA122",
+            "belligerent": "US",
+            "fullname": "Horatio Wright"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA122",
+            "belligerent": "US",
+            "fullname": "Philip Sheridan"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va122-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Horatio Wright [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Early says he surprised and routed the Eighth and Nineteenth Corps and drove the Sixth, but his left gave way to the counterattack and the rest panicked, a rout as thorough as any his army had suffered; Pond says the Union counterattack produced the greatest rout since Bull Run.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. NPS's statements on the Valley and the 1864 election are campaign and political context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA122"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va122-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-20",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "surprised and routed the Eighth and Nineteenth Corps, and then drove thesSixth Corps beyond Middle- town,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-20",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "my left gave way, and the rest of the troops took a panic"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-cedar-creek-report-fragment",
+          "locator": "p.563 (OCR page markers; not checked against print)",
+          "quote": "the rout was as thorough and disgraceful as ever happened to our army."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "never was greater rout seen on a battle-field since Bull Kim."
+        },
+        {
+          "source_id": "nps-va122-v1",
+          "locator": "Description",
+          "quote": "Sheridan's victory at Cedar Creek broke the back of the Confederate army in the Shenandoah Valley."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 8,575 total (US 5,665; CS 2,910); the live field reads 7682 (US 5672; CS 2010). Pond gives the Union loss as 5,764 and Early's as about 3,100, 1,860 killed and wounded with something over 1,000 prisoners by Early's account, about 1,200 taken by Sheridan; Early kept 1,429 prisoners. Early's dispatches claim 1,300 prisoners, a net loss of twenty-three guns, killed and wounded less than 1,000 in one and not more than 700 or 800 in another. Pond says 24 Confederate guns were captured.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Early's opening report pages (561-562) are missing from this OCR.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA122"
+          },
+          "column": "casualties_text",
+          "quote": "8,575 total (US 5,665; CS 2,910)"
+        },
+        {
+          "source_id": "nps-va122-v1",
+          "locator": "Estimated Casualties",
+          "quote": "7682 total (US 5672; CS 2010;)"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "The Union loss in killed, wounded, and missing was 5,764,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "Early's loss in this engagement seems to have been about 3,100 — 1,860 killed and wounded,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "The only trophies retained by Early were 1,429 prisoners,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-20",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "capturing 18 pieces of artillery and 1,300 prisoners"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-new-market-fragment",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "My net loss in artillery on the 19th was twenty-thre^ nieces."
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-new-market-fragment",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "in killed and wounded is less [than] 1,000."
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-cedar-creek-report-fragment",
+          "locator": "p.564 (OCR page markers; not checked against print)",
+          "quote": "My loss in killed and wounded was not more than 700 or 800,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "cedar-creek",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "Twenty-four Con- federate guns were captured ;"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Early's October 21 report pages 561-562 are missing from this OCR; a second scan of Volume XLIII Part 1 was not sought. Sheridan's 1866 report passage on the battle (read, not selected), his October 19 dispatch, Wright's, Emory's, Crook's, Torbert's, Getty's and Custer's reports, Grimes's and Kershaw's brigade reports, the compiled Union return (No. 7) and Hotchkiss's journal remain deferred.",
+    "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes Sheridan's, Torbert's, Wright's and Early's reports and despatches and is not independent of them. Early's reports and dispatches of September 23-October 21, 1864 to Lee are one family of interested Confederate accounts; it is the same author family as his July 14 report selected for Early's Raid. Official Records Series I, Volume XLIII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

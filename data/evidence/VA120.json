@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA120",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fisher's Hill record (September 21-22, 1864) in Sheridan's Valley Campaign [August-October 1864]. The September 20 advance to Strasburg, Torbert's Luray Valley operations and the September 23-25 pursuit are context. Campaign-wide marches, destruction, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 38,944 total (US 29,444; CS 9,500); the live field reads 48450 (US 38950; CS 9500). Early says his line at Fisher's Hill was very thin, and on September 25 put the enemy at three or four to one. Pond says Early occupied the position when he no longer had men enough to cover it, with a force too broken and dispirited to hold it.",
+      "rationale": "The frozen and live Union figures differ by 9,506 and no source basis is given; Early's ratio is an interested estimate. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA120"
+          },
+          "column": "forces_text",
+          "quote": "38,944 total (US 29,444; CS 9,500)"
+        },
+        {
+          "source_id": "nps-va120-v1",
+          "locator": "Forces Engaged",
+          "quote": "48450 total (US 38950; CS 9500;)"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.556 (OCR page markers; not checked against print)",
+          "quote": "but my line Avas very thin,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-09-25",
+          "locator": "p.558 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s force is very much larger than mine, being three or four to one."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.182 (OCR page markers; not checked against print)",
+          "quote": "until he no longer had men enough to properly cover it."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.184 (OCR page markers; not checked against print)",
+          "quote": "it was with a force too broken and dispirited to hold it."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "narrow-valley-and-bluff",
+      "dimension": "terrain",
+      "value": "Pond says the Valley narrows here to four miles between the Massanutten and North Mountain, that Fisher's Hill is a precipitous bluff over Tumbling Run, and that the ground before it was densely wooded and broken by ledges and ravines. Early says the position could be flanked, like every position in the Valley.",
+      "rationale": "Ground described by a history and an interested report. Pond says Early's line was substantially the one he had held in August and that he began erecting additional works on arriving; the claim stays unresolved. No map verification.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.173 (OCR page markers; not checked against print)",
+          "quote": "Here the main Valley, twenty miles wide below, narrows to four,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.174 (OCR page markers; not checked against print)",
+          "quote": "His line was substantially the same as when he had occupied this position in August,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.174 (OCR page markers; not checked against print)",
+          "quote": "he began to erect ad- ditional works across the Valley,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.174 (OCR page markers; not checked against print)",
+          "quote": "Fisher's Hill is the precipitous bluff beyond and overhanging Tumbling Run,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "The difficult ground, densely wooded, broken by ledges and cut up by ravines,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.556 (OCR page markers; not checked against print)",
+          "quote": "the position could be flanked, as is the case A\\dth every position in the Yalley,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "grazing-bread-and-shoes",
+      "dimension": "logistics",
+      "value": "Pond quotes Early that his bread came from threshing and grinding wheat by details and his horses lived almost entirely by grazing; Early wrote on September 25 that many men were without shoes. Pond says the ammunition-boxes had been taken from the caissons and placed behind the breastworks.",
+      "rationale": "Retrospective and interested descriptions of supply and condition, not a readiness measure.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.183 (OCR page markers; not checked against print)",
+          "quote": "Nearly the whole of our bread,\" he says, \"was obtained by threshing the wheat"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.184 (OCR page markers; not checked against print)",
+          "quote": "were sustained almost entirely by grazing.\""
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-09-25",
+          "locator": "p.558 (OCR page markers; not checked against print)",
+          "quote": "and many of them without shoes."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.174 (OCR page markers; not checked against print)",
+          "quote": "the ammunition-boxes were taken from the caissons and placed for convenience behind the breastworks."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "signal-station-and-deception",
+      "dimension": "information",
+      "value": "Pond says the Confederate signal station on Three Top overlooked both camps, so Crook's move was made in secrecy, and that Early took Ricketts's and Averell's advance for the attack and ordered a retreat after dark. Early says he had decided to fall back on the night of the 22nd before a force moved under cover of the woods on his left.",
+      "rationale": "Attributed knowledge from a history and an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.175 (OCR page markers; not checked against print)",
+          "quote": "since the Con- federate station on Three Top commanded both camps."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "\"orders were given\" he says, \"for my troops to retire after dark,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.556 (OCR page markers; not checked against print)",
+          "quote": "I had determined to fall back on the night of \"the 22d,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.556 (OCR page markers; not checked against print)",
+          "quote": "a heavy force was moved under cover of thcAvoodson the left"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "turning-and-luray",
+      "dimension": "objectives",
+      "value": "Pond says Sheridan resolved to repeat the Opequon tactics by turning Early's left with Crook, and to send Torbert up the Luray Valley past Early's right to his rear. Early says he posted his troops to arrest Sheridan's progress.",
+      "rationale": "Stated aims from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.175 (OCR page markers; not checked against print)",
+          "quote": "He resolved to repeat his tactics of the Opequon by again turning the enemy's left flank with Crook's command,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.175 (OCR page markers; not checked against print)",
+          "quote": "At the same time he proposed to move Torbert up the Luray"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.556 (OCR page markers; not checked against print)",
+          "quote": "with the hope of arresting Sheridan’s progress,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Pond says Sheridan and his staff urged the whole line forward and quotes Sheridan that the cavalry's Luray Valley operation, held at Milford, was an entire failure; Torbert says he withdrew not knowing of the attack. Early says his attempt to remedy the flanking failed when the infantry panicked. The frozen commanders are Lieutenant General Early and Major General Sheridan; the live page gives Early as Major General.",
+      "rationale": "Command roles from a history and an interested report; neither listed commander receives automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "shouting \" Forward ! Forward everything ! \""
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.179 (OCR page markers; not checked against print)",
+          "quote": "were an entire failure."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.179 (OCR page markers; not checked against print)",
+          "quote": "\" not knowing,\" he says, \" that the army had made an attack at Fisher's Hill,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.556 (OCR page markers; not checked against print)",
+          "quote": "when I tried to remedy this the infantry got into a panic"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA120",
+            "belligerent": "Confederate",
+            "fullname": "Jubal A. Early"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA120",
+            "belligerent": "US",
+            "fullname": "Philip Sheridan"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va120-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Philip Sheridan [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Early says the infantry gave way in confusion and could not be rallied; Pond says every part of the position was carried between sundown and dark. NPS says Early retreated to Rockfish Gap.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The later burning of the Valley is campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA120"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va120-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.556 (OCR page markers; not checked against print)",
+          "quote": "the infantry got into a panic and gaA^e Avay in confusion, and I found it impossible to rally it."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.178 (OCR page markers; not checked against print)",
+          "quote": "every portion of the strong position at Fisher's Hill was carried,"
+        },
+        {
+          "source_id": "nps-va120-v1",
+          "locator": "Description",
+          "quote": "Early retreated to Rockfish Gap near Waynesboro,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 1,763 total (US 528; CS 1,235). Early gives his infantry and artillery loss as 30 killed, 210 wounded and 995 missing, total 1,235, says the enemy captured no more than 400 or 500, and that twelve guns were lost; Pond says sixteen guns were captured, that Sheridan reported 1,100 prisoners, and puts Sheridan's loss at about 400 and Early's at 1,300 to 1,400.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA120"
+          },
+          "column": "casualties_text",
+          "quote": "1,763 total (US 528; CS 1,235)"
+        },
+        {
+          "source_id": "nps-va120-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1763 total (US 528; CS 1235;)"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.556 (OCR page markers; not checked against print)",
+          "quote": "The loss in the infantry and artillery was 30 killed, 210 wounded, and 995 missing ; total, 1,235."
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.556 (OCR page markers; not checked against print)",
+          "quote": "The enemy did not capture more than 400 or 500,"
+        },
+        {
+          "source_id": "or43-1-early-valley-selections-v1",
+          "section": "early-1864-10-09-winchester-fishers-hill",
+          "locator": "p.556 (OCR page markers; not checked against print)",
+          "quote": "tweHe guns were lost"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.178 (OCR page markers; not checked against print)",
+          "quote": "sixteen of them were captured by the Union forces."
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.180 (OCR page markers; not checked against print)",
+          "quote": "since Sheridan reported that he had 1,100 prison- ers,"
+        },
+        {
+          "source_id": "pond-sheridan-valley-selections-v1",
+          "section": "fishers-hill",
+          "locator": "p.180 (OCR page markers; not checked against print)",
+          "quote": "Sheridan's loss at the battle of Fisher's Hill was only about 400 men; Early's, between 1,300 and 1,400,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Sheridan's 1866 report passage on the battle (read, not selected), his September 20-25 dispatches, Crook's, Wright's, Ricketts's and Torbert's reports, Lomax's report, the compiled Union return (No. 5) and Hotchkiss's journal remain deferred.",
+    "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes Sheridan's, Torbert's, Wright's and Early's reports and despatches and is not independent of them. Early's reports and dispatches of September 23-October 21, 1864 to Lee are one family of interested Confederate accounts; it is the same author family as his July 14 report selected for Early's Raid. Official Records Series I, Volume XLIII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
