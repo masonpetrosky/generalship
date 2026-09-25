@@ -252,10 +252,13 @@ Coverage is **23/36 complete campaigns by dossier presence**, with zero promoted
 
 The [Gettysburg Campaign first pass](research/gettysburg-first-pass-v1.md) adds all **ten
 frozen records (VA035, VA107, VA036, VA037, VA038, PA001, PA002, MD004, MD006, VA108)**,
-with **90 claims, 10 explicit unknowns and 320 citations** from NPS/CWSAC, a new Doubleday
+with **90 claims, 10 explicit unknowns and 336 citations** from NPS/CWSAC, a new Doubleday
 selection, a newly pinned Humphreys history, and Lee's and Stuart's reports in newly
 pinned Official Records Volume XXVII Part 2. Overlapping intervals and multi-engagement
-loss totals are not added. Separate review is pending.
+loss totals are not added. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/gettysburg-48ea563-opus-high-v1/review.md) found eleven
+scope, extraction, attribution, locator and registry corrections, all fixed and
+[verified by the primary](../artifacts/review-results/gettysburg-48ea563-opus-high-v1/primary-assessment.md).
 Coverage is **24/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Tullahoma Campaign first pass](research/tullahoma-first-pass-v1.md) adds the sole

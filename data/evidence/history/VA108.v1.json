@@ -4,7 +4,7 @@
   "status": "draft",
   "tactical_replacement_at": null,
   "campaign_replacement_at": null,
-  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's Loudoun loss total for June 17–22 and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's June 17–21 losses and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
   "claims": [
     {
       "id": "opening-personnel-unknown",
@@ -35,7 +35,7 @@
           "quote": "0 total (US 0; CS 0;)"
         },
         {
-          "source_id": "humphreys-gettysburg-rapidan-selections-v2",
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
           "section": "manassas-gap",
           "locator": "p.9 (OCR page markers; not checked against print)",
           "quote": "was followed by the Third, Fifth, and Second Corps, which entered Manassas Gap on the 23d."
@@ -57,7 +57,7 @@
       "rationale": "Ground from an interested history and a summary; no map verification.",
       "citations": [
         {
-          "source_id": "humphreys-gettysburg-rapidan-selections-v2",
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
           "section": "manassas-gap",
           "locator": "p.9 (OCR page markers; not checked against print)",
           "quote": "which, in its western portion, is close to and but little separated from Manassas Gap."
@@ -74,7 +74,7 @@
     {
       "id": "shenandoah-impassable",
       "dimension": "logistics",
-      "value": "Lee says the Shenandoah was found impassable when the army meant to move into Loudoun, and that Longstreet passed part of his command over the Shenandoah, the rest of his corps crossing once a pontoon bridge could be laid; Humphreys says the Union dispositions cut Lee off from Loudoun's farming country.",
+      "value": "Lee says the Shenandoah was found impassable when the army meant to move into Loudoun, and that part of Longstreet's command crossed on a pontoon bridge; Humphreys says the Union dispositions cut Lee off from Loudoun's farming country.",
       "rationale": "Movement and supply statements from the Confederate commander and an interested history.",
       "citations": [
         {
@@ -87,16 +87,10 @@
           "source_id": "or27-2-lee-gettysburg-selections-v1",
           "section": "lee-retreat",
           "locator": "p.324 (OCR page markers; not checked against print)",
-          "quote": "He succeeded in passing part of his command"
-        },
-        {
-          "source_id": "or27-2-lee-gettysburg-selections-v1",
-          "section": "lee-retreat",
-          "locator": "p.324 (OCR page markers; not checked against print)",
           "quote": "As soon as a pontoon bridge could be laid down,"
         },
         {
-          "source_id": "humphreys-gettysburg-rapidan-selections-v2",
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
           "section": "manassas-gap",
           "locator": "p.9 (OCR page markers; not checked against print)",
           "quote": "not only cut him off from Loudoun,"
@@ -112,7 +106,7 @@
       "rationale": "Attributed knowledge from an interested history and the Confederate commander; no inspected message log.",
       "citations": [
         {
-          "source_id": "humphreys-gettysburg-rapidan-selections-v2",
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
           "section": "manassas-gap",
           "locator": "p.9 (OCR page markers; not checked against print)",
           "quote": "he found Wright's brigade of Anderson's division,"
@@ -160,7 +154,7 @@
           "quote": "the poorly coordinated Union attacks were abandoned."
         },
         {
-          "source_id": "humphreys-gettysburg-rapidan-selections-v2",
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
           "section": "manassas-gap",
           "locator": "p.10 (OCR page markers; not checked against print)",
           "quote": "the Excelsior brigade, General Spinola command- ing, charging and driving its opponent back upon its main force,"
@@ -221,13 +215,13 @@
           "quote": "and the enemy was held in check."
         },
         {
-          "source_id": "humphreys-gettysburg-rapidan-selections-v2",
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
           "section": "manassas-gap",
           "locator": "p.10 (OCR page markers; not checked against print)",
           "quote": "fell back to Front Royal,"
         },
         {
-          "source_id": "humphreys-gettysburg-rapidan-selections-v2",
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
           "section": "manassas-gap",
           "locator": "p.10 (OCR page markers; not checked against print)",
           "quote": "moved up the south fork of the Shenandoah to Luray,"
@@ -256,7 +250,7 @@
           "quote": "0 total (US 0; CS 0;)"
         },
         {
-          "source_id": "humphreys-gettysburg-rapidan-selections-v2",
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
           "section": "manassas-gap",
           "locator": "p.10 (OCR page markers; not checked against print)",
           "quote": "inflicting a severe loss in killed, wounded, and prisoners."
@@ -268,12 +262,7 @@
   ],
   "open_questions": [
     "French's, Spinola's, Ewell's and Wright's reports and the returns remain deferred.",
-    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by the Army of the Potomac's chief of staff in 1863–64, per his publisher's list; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by Meade's later chief of staff; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "gettysburg-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA108.v1.json",
-    "sha256": "7049a6dfd9fb1f4d952de8df2e271db4f86d1365777aa8e99ba536b521c3b897"
-  }
+  ]
 }

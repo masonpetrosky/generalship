@@ -4,7 +4,7 @@
   "status": "draft",
   "tactical_replacement_at": null,
   "campaign_replacement_at": null,
-  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's Loudoun loss total for June 17–22 and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's June 17–21 losses and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
   "claims": [
     {
       "id": "opening-personnel-unknown",
@@ -89,8 +89,8 @@
     {
       "id": "forts-and-ridges",
       "dimension": "terrain",
-      "value": "Doubleday says Milroy's main forts stood on Applebie Ridge, with rifle-pits begun on Flint Ridge to command the western roads. Lee says Early found that an intrenched position northwest of the town, near the Pughtown road, would command the principal fortifications.",
-      "rationale": "Works present before or at the start of the frozen interval, per an interested history and the opposing commander; Early's reconnaissance and Hays's capture are in-interval actions, not inherited conditions. No map verification.",
+      "value": "Doubleday says Milroy's main forts stood on Applebie Ridge, with rifle-pits begun on Flint Ridge to command the western roads. Lee says Early found an intrenched position northwest of the town that would command the main fortifications, and that its loss made the others untenable.",
+      "rationale": "Pre-existing works, as described by an interested history and the opposing commander; no map verification.",
       "citations": [
         {
           "source_id": "doubleday-gettysburg-selections-v1",
@@ -108,13 +108,13 @@
           "source_id": "or27-2-lee-gettysburg-selections-v1",
           "section": "lee-winchester",
           "locator": "p.314 (OCR page markers; not checked against print)",
-          "quote": "an intrenched position north- west of Winchester, near the Pughto wn road,"
+          "quote": "discovered would command the principal fortifications."
         },
         {
           "source_id": "or27-2-lee-gettysburg-selections-v1",
           "section": "lee-winchester",
           "locator": "p.314 (OCR page markers; not checked against print)",
-          "quote": "discovered would command the principal fortifications."
+          "quote": "The loss of the advanced works, however, rendered the others untenable,"
         }
       ],
       "phase": "inherited",
@@ -179,7 +179,7 @@
     {
       "id": "clear-the-valley",
       "dimension": "objectives",
-      "value": "NPS says Lee ordered Ewell to clear the lower Shenandoah Valley. Lee says the operations expelled the enemy from the Valley; Doubleday says it was essential to Lee's advance that the valley be cleared of Union troops, and that Milroy remonstrated against orders to send his armament and supplies back to Harper's Ferry.",
+      "value": "NPS says Lee ordered Ewell to clear the lower Shenandoah Valley. Lee says the operations expelled the enemy from the Valley; Doubleday says the garrison had to be cleared for Lee's advance and that Milroy remonstrated against withdrawing.",
       "rationale": "Stated aims from a summary, the opposing commander and an interested history; no inspected orders.",
       "citations": [
         {
@@ -192,24 +192,6 @@
           "section": "lee-winchester",
           "locator": "p.315 (OCR page markers; not checked against print)",
           "quote": "These operations resulted in the expulsion of the enemy from the Valley ;"
-        },
-        {
-          "source_id": "doubleday-gettysburg-selections-v1",
-          "section": "winchester",
-          "locator": "p.88 (OCR page markers; not checked against print)",
-          "quote": "It was essential to Lee's advance that the valley should be cleared of Union troops,"
-        },
-        {
-          "source_id": "doubleday-gettysburg-selections-v1",
-          "section": "winchester",
-          "locator": "p.88 (OCR page markers; not checked against print)",
-          "quote": "to send his armament and"
-        },
-        {
-          "source_id": "doubleday-gettysburg-selections-v1",
-          "section": "winchester",
-          "locator": "p.89 (OCR page markers; not checked against print)",
-          "quote": "supplies back to Harper's Ferry."
         },
         {
           "source_id": "doubleday-gettysburg-selections-v1",
@@ -272,7 +254,7 @@
     {
       "id": "recorded-result",
       "dimension": "outcome",
-      "value": "The frozen and live results read Confederate victory. NPS says more than 2,400 Federals surrendered; Lee says the loss of the advanced works rendered the others untenable, and the enemy retreated in the night; he says Milroy fled to Harper's Ferry with a small party; Doubleday says portions escaped to Harper's Ferry and by the Bath road while Ely's and McReynolds's brigades were largely captured.",
+      "value": "The frozen and live results read Confederate victory. NPS says more than 2,400 Federals surrendered; Lee says Milroy fled to Harper's Ferry with a small party; Doubleday says portions escaped to Harper's Ferry and by the Bath road while Ely's and McReynolds's brigades were largely captured.",
       "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
       "citations": [
         {
@@ -292,12 +274,6 @@
           "source_id": "nps-va107-v1",
           "locator": "Description",
           "quote": "More than 2,400 Federals surrendered."
-        },
-        {
-          "source_id": "or27-2-lee-gettysburg-selections-v1",
-          "section": "lee-winchester",
-          "locator": "p.314 (OCR page markers; not checked against print)",
-          "quote": "The loss of the advanced works, however, rendered the others untenable, and the enemy retreated in the night,"
         },
         {
           "source_id": "or27-2-lee-gettysburg-selections-v1",
@@ -330,7 +306,7 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen and live casualty texts read 4,709 total (US 4,443; CS 266). Lee gives the Confederate loss as 47 killed, 219 wounded and 3 missing, and 4,000 prisoners taken in all the Valley operations. Doubleday relays Milroy's claim to have brought off 5,000 men, Early's 108 officers and 3,250 enlisted men sent as prisoners to Richmond and Johnson's 2,800.",
+      "value": "The frozen and live casualty texts read 4,709 total (US 4,443; CS 266). Lee gives the Confederate loss as 47 killed, 219 wounded and 3 missing, and 4,000 prisoners taken in all the Valley operations. Doubleday relays Milroy's claim to have brought off 5,000 men, Early's 3,358 prisoners sent to Richmond and Johnson's 2,800.",
       "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Lee's totals include Martinsburg and other Valley operations; prisoner counts differ by reporter.",
       "citations": [
         {
@@ -383,12 +359,7 @@
   ],
   "open_questions": [
     "Ewell's, Early's, Johnson's and Milroy's reports and the Winchester court of inquiry remain deferred.",
-    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by the Army of the Potomac's chief of staff in 1863–64, per his publisher's list; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by Meade's later chief of staff; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "gettysburg-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA107.v1.json",
-    "sha256": "97fe2b228b2249d4a80bd123cf47b0a4451bb72ecad9c2f5986faa74bbdc3b16"
-  }
+  ]
 }

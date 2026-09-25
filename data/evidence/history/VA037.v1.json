@@ -4,7 +4,7 @@
   "status": "draft",
   "tactical_replacement_at": null,
   "campaign_replacement_at": null,
-  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's Loudoun loss total for June 17–22 and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's June 17–21 losses and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
   "claims": [
     {
       "id": "opening-personnel-unknown",
@@ -96,38 +96,14 @@
     {
       "id": "shoeing-and-rain",
       "dimension": "logistics",
-      "value": "Stuart says that on June 19 rough roads had already decimated two of his brigades, Robertson's and W. H. F. Lee's (under Chambliss), for want of adequate shoeing facilities. He places a continuous rain on June 20, after the frozen Middleburg interval.",
-      "rationale": "Condition statements from the Confederate commander's report; no inspected return. The rain statement falls between the Middleburg and Upperville frozen dates and is context, not an in-interval condition.",
+      "value": "Stuart says rough roads had already decimated his brigades for want of adequate shoeing facilities, and that continuous rain obstructed operations.",
+      "rationale": "Condition statements from the Confederate commander's report; no inspected return.",
       "citations": [
         {
           "source_id": "or27-2-stuart-gettysburg-selections-v1",
           "section": "stuart-1863-08-20-loudoun",
           "locator": "p.689 (OCR page markers; not checked against print)",
-          "quote": "On the 19th, the enemy showed signs of an advance,"
-        },
-        {
-          "source_id": "or27-2-stuart-gettysburg-selections-v1",
-          "section": "stuart-1863-08-20-loudoun",
-          "locator": "p.689 (OCR page markers; not checked against print)",
-          "quote": "composed of Robertson’s and W. H. F. Lee’s brigades,"
-        },
-        {
-          "source_id": "or27-2-stuart-gettysburg-selections-v1",
-          "section": "stuart-1863-08-20-loudoun",
-          "locator": "p.689 (OCR page markers; not checked against print)",
           "quote": "which rough roads had already decimated for want of adequate shoeing facilities,"
-        },
-        {
-          "source_id": "or27-2-stuart-gettysburg-selections-v1",
-          "section": "stuart-1863-08-20-loudoun",
-          "locator": "p.689 (OCR page markers; not checked against print)",
-          "quote": "Chambliss commanding Lee’s brigade upon the left"
-        },
-        {
-          "source_id": "or27-2-stuart-gettysburg-selections-v1",
-          "section": "stuart-1863-08-20-loudoun",
-          "locator": "p.690 (OCR page markers; not checked against print)",
-          "quote": "Hampton’s brigade arrived on the 20th,"
         },
         {
           "source_id": "or27-2-stuart-gettysburg-selections-v1",
@@ -284,7 +260,7 @@
       "id": "casualty-records",
       "dimension": "outcome",
       "value": "The frozen casualty text reads 390 total; the live field reads zero. NPS says the 1st Rhode Island took about 250 casualties; Stuart says Robertson took 70 prisoners and a standard.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Stuart's loss of 65 killed, 279 wounded and 166 missing is for 'these operations': his Loudoun narrative from June 17 through the June 22 pursuit toward Aldie, including Aldie, Middleburg, Upperville, Hampton's action at Warrenton and the June 20 skirmishing beyond Goose Creek. It is not assigned to one engagement. The regiment's 250 is one part of the frozen interval.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Stuart's loss of 65 killed, 279 wounded and 166 missing covers Aldie, Middleburg and Upperville together (June 17–21) and is not assigned to one engagement. The regiment's 250 is one part of the frozen interval.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -323,12 +299,7 @@
   ],
   "open_questions": [
     "Duffié's, Gregg's, Robertson's and Chambliss's reports and the compiled returns remain deferred.",
-    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by the Army of the Potomac's chief of staff in 1863–64, per his publisher's list; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by Meade's later chief of staff; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "gettysburg-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA037.v1.json",
-    "sha256": "eb7eb251692bfe1b5a20c4347f38988cf98dc9f7ec9177bb0fdf5cb5f59688a3"
-  }
+  ]
 }

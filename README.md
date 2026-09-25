@@ -148,7 +148,8 @@ The [Streight's Raid pass](docs/research/streights-raid-first-pass-v1.md) adds o
 dossier, 9 claims, 1 explicit unknown and 49 citations. Opus 5.5 `high` reviewed it;
 its three required corrections are fixed and verified by the primary.
 The [Gettysburg Campaign pass](docs/research/gettysburg-first-pass-v1.md) adds ten
-dossiers, 90 claims, 10 explicit unknowns and 320 citations. Separate review is pending.
+dossiers, 90 claims, 10 explicit unknowns and 336 citations. Opus 5.5 `high` reviewed them;
+its eleven required corrections are fixed and verified by the primary.
 The [Tullahoma pass](docs/research/tullahoma-first-pass-v1.md) adds one
 dossier, 9 claims, 1 explicit unknown and 54 citations. Opus 5.5 `high` reviewed it;
 its seven required corrections are fixed and verified by the primary.

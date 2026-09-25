@@ -4,7 +4,7 @@
   "status": "draft",
   "tactical_replacement_at": null,
   "campaign_replacement_at": null,
-  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's Loudoun loss total for June 17–22 and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's June 17–21 losses and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
   "claims": [
     {
       "id": "opening-personnel-unknown",
@@ -18,7 +18,7 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force text reads Corps (22,000 total), with a frozen strength of 22000 and blank side bounds; the live field reads zero. Doubleday relays Pleasonton's claim that the Confederates had about twelve thousand cavalry and twelve guns, Stuart's staff officer McClellan's 9,335 on paper with twenty guns and nearly three thousand absent, and Gregg's estimate of about nine thousand Union cavalry and six batteries, of which, Doubleday adds, a third was detached toward Stevensburg; he warns that each commander overstates the enemy. Stuart says he was aware that the entire Union cavalry had crossed with a large proportion of artillery, supported by nine infantry regiments on the road to Kelly's and seven on the road to Beverly Ford.",
+      "value": "The frozen force text reads Corps (22,000 total), with a frozen strength of 22000 and blank side bounds; the live field reads zero. Doubleday relays Pleasonton's claim that the Confederates had about twelve thousand cavalry and twelve guns, Stuart's staff officer McClellan's 9,335 on paper with twenty guns and nearly three thousand absent, and Gregg's estimate of about nine thousand Union cavalry and six batteries, a third of it detached toward Stevensburg; he warns that each commander overstates the enemy. Stuart says the entire Union cavalry crossed with much artillery and sixteen infantry regiments.",
       "rationale": "Claimed, paper and estimated figures differ in scope and source; none is adopted as matched opening strength.",
       "citations": [
         {
@@ -71,12 +71,6 @@
           "section": "brandy-station",
           "locator": "p.82 (OCR page markers; not checked against print)",
           "quote": "a third of this force was detached toward Stevens- burg,"
-        },
-        {
-          "source_id": "doubleday-gettysburg-selections-v1",
-          "section": "brandy-station",
-          "locator": "p.82 (OCR page markers; not checked against print)",
-          "quote": "but — as will be seen here- after—a third of this force was detached"
         },
         {
           "source_id": "or27-2-stuart-gettysburg-selections-v1",
@@ -195,14 +189,14 @@
     {
       "id": "command-roles",
       "dimension": "responsibility",
-      "value": "Stuart faults Robertson for not conforming to the movement of the enemy to the right, of which Robertson was cognizant, calls Munford's delay unaccounted for, and calls the Fourth Virginia's stampede at Stevensburg unaccountable. Doubleday says Duffié's column hardly took part and that Pleasonton ordered a retreat as Confederate infantry approached. The frozen commanders are Pleasonton and Stuart, both Major Generals; the live heading gives Stuart no rank.",
+      "value": "Stuart faults Robertson for not conforming to the enemy's move toward Stevensburg, calls Munford's delay unaccounted for, and calls the Fourth Virginia's stampede at Stevensburg unaccountable. Doubleday says Duffié's column hardly took part and that Pleasonton ordered a retreat as Confederate infantry approached. The frozen commanders are Pleasonton and Stuart, both Major Generals; the live heading gives Stuart no rank.",
       "rationale": "Judgments are attributed; the frozen commanders do not receive automatic sole credit.",
       "citations": [
         {
           "source_id": "or27-2-stuart-gettysburg-selections-v1",
           "section": "stuart-1863-06-13-fleetwood",
           "locator": "p.683 (OCR page markers; not checked against print)",
-          "quote": "but did not conform to the movement of the en- emy to the right, of which he was cognizant,"
+          "quote": "but did not conform to the movement of the en- emy to the right,"
         },
         {
           "source_id": "or27-2-stuart-gettysburg-selections-v1",
@@ -340,12 +334,7 @@
   ],
   "open_questions": [
     "Pleasonton's, Buford's, Gregg's and Duffié's reports and the compiled returns remain deferred.",
-    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by the Army of the Potomac's chief of staff in 1863–64, per his publisher's list; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by Meade's later chief of staff; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "gettysburg-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA035.v1.json",
-    "sha256": "83cd1b35e939360706654b4292d65b877bceb6d94d2ad54c9364d5348df71137"
-  }
+  ]
 }

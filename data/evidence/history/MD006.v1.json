@@ -4,7 +4,7 @@
   "status": "draft",
   "tactical_replacement_at": null,
   "campaign_replacement_at": null,
-  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's Loudoun loss total for June 17–22 and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's June 17–21 losses and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
   "claims": [
     {
       "id": "opening-personnel-unknown",
@@ -52,7 +52,7 @@
     {
       "id": "soft-ground",
       "dimension": "terrain",
-      "value": "Stuart says the fight from Beaver Creek Bridge to the verge of Boonsborough was principally on foot, 'the ground being entirely too soft from recent rains to operate successfulfy with' [rest garbled in OCR]. NPS says the Confederate cavalry held the South Mountain passes.",
+      "value": "Stuart says the fight from Beaver Creek Bridge to the edge of Boonsborough was principally on foot, the ground being too soft from recent rains to operate mounted. NPS says the Confederate cavalry held the South Mountain passes.",
       "rationale": "Ground from one garbled report and a summary; no map verification.",
       "citations": [
         {
@@ -65,7 +65,7 @@
           "source_id": "or27-2-stuart-gettysburg-selections-v1",
           "section": "stuart-1863-08-20-boonsborough",
           "locator": "p.703 (OCR page markers; not checked against print)",
-          "quote": "the ground being entirely too soft from recent rains to operate successfulfy with"
+          "quote": "the ground being entirely too soft from recent rains"
         },
         {
           "source_id": "nps-md006-v1",
@@ -79,7 +79,7 @@
     {
       "id": "ammunition",
       "dimension": "logistics",
-      "value": "Stuart's OCR is heavily garbled here; intelligible fragments mention ammunition 'by this protracted engagement' and an order to 'retire toward Tunkstown' (OCR; presumably Funkstown, not checked against print).",
+      "value": "Stuart's OCR is heavily garbled here; an intelligible fragment mentions ammunition 'by this protracted engagement' before he retired toward Funkstown.",
       "rationale": "Only intelligible fragments are quoted; the surrounding text is not reliable.",
       "citations": [
         {
@@ -101,7 +101,7 @@
     {
       "id": "reinforcement-report",
       "dimension": "information",
-      "value": "Stuart's garbled OCR says he 'WaS infor.™ed that the enemy was heavily re-'; the continuation is unintelligible, so 'reinforced' is a probable but unverified reading.",
+      "value": "Stuart says he was informed that the enemy was heavily reinforced.",
       "rationale": "One garbled report; no inspected message log.",
       "citations": [
         {
@@ -132,7 +132,7 @@
           "quote": "fought a rearguard action"
         },
         {
-          "source_id": "humphreys-gettysburg-rapidan-selections-v2",
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
           "section": "retreat-and-williamsport",
           "locator": "p.5 (OCR page markers; not checked against print)",
           "quote": "the cavalry of the two armies had spirited engagements that preceded the advance of the infantry columns of the Army of the Potomac."
@@ -191,7 +191,7 @@
     {
       "id": "recorded-result",
       "dimension": "outcome",
-      "value": "The frozen result reads Inconclusive and the live result Indecisive. Stuart says the move succeeded as a demonstration and that, in a garbled passage, there was an order to retire toward 'Tunkstown' (OCR; presumably Funkstown); NPS calls it one of a series of cavalry combats around Boonsboro, Hagerstown and Williamsport.",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Stuart says the move succeeded as a demonstration and that he later retired toward Funkstown; NPS calls it one of a series of cavalry combats around Boonsboro, Hagerstown and Williamsport.",
       "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Boonsboro lies inside Williamsport's frozen interval (MD004).",
       "citations": [
         {
@@ -212,12 +212,6 @@
           "section": "stuart-1863-08-20-boonsborough",
           "locator": "p.703 (OCR page markers; not checked against print)",
           "quote": "The move was successful,"
-        },
-        {
-          "source_id": "or27-2-stuart-gettysburg-selections-v1",
-          "section": "stuart-1863-08-20-boonsborough",
-          "locator": "p.703 (OCR page markers; not checked against print)",
-          "quote": "retire toward Tunkstown,"
         },
         {
           "source_id": "nps-md006-v1",
@@ -254,12 +248,7 @@
   ],
   "open_questions": [
     "Stuart's garbled OCR, Pleasonton's, Buford's and Kilpatrick's reports and the returns remain deferred.",
-    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by the Army of the Potomac's chief of staff in 1863–64, per his publisher's list; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by Meade's later chief of staff; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "gettysburg-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/MD006.v1.json",
-    "sha256": "b5a1c05042ed4a67dc1ffdfe3e0c781a54e9c34d142366c653cfc2e1c5ca8a67"
-  }
+  ]
 }

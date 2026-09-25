@@ -68,6 +68,14 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Gettysburg review correction, 2026-09-25
+
+Three `metadata_only` revisions (GB-R11) supersede `ia-humphreys-metadata-v1`,
+`humphreys-ocr-v1` and `humphreys-gettysburg-rapidan-selections-v1` with `-v2`,
+replacing an unsupported chief-of-staff start date and an anachronistic dependence on the
+printed Official Records. Raw files, hashes and ranges are unchanged; the registry is now
+**492 entries / 476 raw paths**.
+
 ### Tullahoma review correction, 2026-09-25
 
 Three `metadata_only` revisions (TL-R7) supersede `ia-or23-1-illinois-metadata-v1`,

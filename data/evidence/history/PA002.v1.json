@@ -4,7 +4,7 @@
   "status": "draft",
   "tactical_replacement_at": null,
   "campaign_replacement_at": null,
-  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's Loudoun loss total for June 17–22 and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's June 17–21 losses and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
   "claims": [
     {
       "id": "opening-personnel-unknown",
@@ -18,8 +18,8 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force text reads 158,300 total (US 83,289; CS 75,054), with a frozen strength of 158300; the side figures sum to 158,343 (a computation here), which the live field gives. Doubleday says the Confederates had three corps to the Union seven. Lee says two of Heth's brigades encountered largely superior numbers on July 1, and that attacking that evening, without information on how near the rest of Meade's army was, risked exposing his four weakened divisions to overwhelming numbers of fresh troops.",
-      "rationale": "The frozen total does not match its own components; the relative statements are not counts. None is adopted. The second is Lee's stated risk assessment, not an observed count.",
+      "value": "The frozen force text reads 158,300 total (US 83,289; CS 75,054), with a frozen strength of 158300; the side figures sum to 158,343 (a computation here), which the live field gives. Doubleday says the Confederates had three corps to the Union seven. Lee writes of largely superior numbers on July 1 and of fresh troops in overwhelming numbers.",
+      "rationale": "The frozen total does not match its own components; the relative statements are not counts. None is adopted.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -70,25 +70,7 @@
           "source_id": "or27-2-lee-gettysburg-selections-v1",
           "section": "lee-gettysburg",
           "locator": "p.317 (OCR page markers; not checked against print)",
-          "quote": "two brigades were sent forward to reconnoiter."
-        },
-        {
-          "source_id": "or27-2-lee-gettysburg-selections-v1",
-          "section": "lee-gettysburg",
-          "locator": "p.317 (OCR page markers; not checked against print)",
           "quote": "encountered largely superior num- bers,"
-        },
-        {
-          "source_id": "or27-2-lee-gettysburg-selections-v1",
-          "section": "lee-gettysburg",
-          "locator": "p.317 (OCR page markers; not checked against print)",
-          "quote": "Without information as to its proximity,"
-        },
-        {
-          "source_id": "or27-2-lee-gettysburg-selections-v1",
-          "section": "lee-gettysburg",
-          "locator": "p.317 (OCR page markers; not checked against print)",
-          "quote": "exposing the four divisions present, already weakened and exhausted by a long and bloody struggle,"
         },
         {
           "source_id": "or27-2-lee-gettysburg-selections-v1",
@@ -404,12 +386,7 @@
   ],
   "open_questions": [
     "Meade's and the corps reports, Longstreet's and Ewell's reports, the returns and Doubleday's own First Corps role remain deferred; Doubleday is an interested participant.",
-    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by the Army of the Potomac's chief of staff in 1863–64, per his publisher's list; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by Meade's later chief of staff; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "gettysburg-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/PA002.v1.json",
-    "sha256": "7433a4b1ee29fb1065a38125fc80630f4a85e8c6140bc5812269be91a77afcbf"
-  }
+  ]
 }

@@ -4,7 +4,7 @@
   "status": "draft",
   "tactical_replacement_at": null,
   "campaign_replacement_at": null,
-  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's Loudoun loss total for June 17–22 and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's June 17–21 losses and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
   "claims": [
     {
       "id": "opening-personnel-unknown",
@@ -37,12 +37,6 @@
         {
           "source_id": "or27-2-stuart-gettysburg-selections-v1",
           "section": "stuart-1863-08-20-hanover",
-          "locator": "p.695 (OCR page markers; not checked against print)",
-          "quote": "owing to the great elongation of the column by reason >f the 200 wagons and hilly roads,"
-        },
-        {
-          "source_id": "or27-2-stuart-gettysburg-selections-v1",
-          "section": "stuart-1863-08-20-hanover",
           "locator": "p.696 (OCR page markers; not checked against print)",
           "quote": "Our position was impregnable to cavalry even with so small a force."
         },
@@ -51,12 +45,6 @@
           "section": "hanover",
           "locator": "p.121 (OCR page markers; not checked against print)",
           "quote": "The main body under Kilpatrick soon arrived and drove him out again."
-        },
-        {
-          "source_id": "doubleday-gettysburg-selections-v1",
-          "section": "hanover",
-          "locator": "p.121 (OCR page markers; not checked against print)",
-          "quote": "it was finally decided in our favor by the arrival of Custer's brigade from Abbotsford."
         }
       ],
       "phase": "unresolved",
@@ -81,7 +69,7 @@
     {
       "id": "wagon-train",
       "dimension": "logistics",
-      "value": "Stuart says the 200 wagons and hilly roads elongated his column so that Hampton was far behind, that the train was a serious embarrassment, that his 'numerous skirmishers' (OCR reading, not checked against print) had almost exhausted his ammunition, and that he held about 400 prisoners.",
+      "value": "Stuart says the 200 wagons and hilly roads elongated his column so that Hampton was far behind, that the train was a serious embarrassment, that skirmishing had almost exhausted his ammunition, and that he held about 400 prisoners.",
       "rationale": "Supply statements from the Confederate commander's report; no inspected return.",
       "citations": [
         {
@@ -100,7 +88,7 @@
           "source_id": "or27-2-stuart-gettysburg-selections-v1",
           "section": "stuart-1863-08-20-hanover",
           "locator": "p.696 (OCR page markers; not checked against print)",
-          "quote": "My numerous skirmishers had greatly diminished — almost exhausted — my supply of ammunition."
+          "quote": "almost exhausted — my supply of ammunition."
         },
         {
           "source_id": "or27-2-stuart-gettysburg-selections-v1",
@@ -175,7 +163,7 @@
         {
           "source_id": "or27-2-stuart-gettysburg-selections-v1",
           "section": "stuart-1863-08-20-hanover",
-          "locator": "p.695 (OCR page markers; not checked against print)",
+          "locator": "pp.695–696 (OCR page markers; not checked against print)",
           "quote": "Omit, if published."
         },
         {
@@ -268,12 +256,7 @@
   ],
   "open_questions": [
     "Kilpatrick's, Farnsworth's, Custer's and Hampton's reports and the compiled returns remain deferred.",
-    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by the Army of the Potomac's chief of staff in 1863–64, per his publisher's list; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by Meade's later chief of staff; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "gettysburg-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/PA001.v1.json",
-    "sha256": "294fa8bf63655a426479c46921ae45d4118e4c9a4fc7843e95e9b26fb794878d"
-  }
+  ]
 }
