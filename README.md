@@ -157,7 +157,8 @@ The [Morgan's Raid pass](docs/research/morgans-raid-first-pass-v1.md) adds three
 dossiers, 28 claims, 3 explicit unknowns and 149 citations. Opus 5.5 `high` reviewed them;
 its five required corrections are fixed and verified by the primary.
 The [Chickamauga Campaign pass](docs/research/chickamauga-first-pass-v1.md) adds three
-dossiers, 27 claims, 3 explicit unknowns and 135 citations. Separate review is pending.
+dossiers, 27 claims, 3 explicit unknowns and 147 citations. Opus 5.5 `high` reviewed them;
+its eight required corrections are fixed and verified by the primary.
 The [East Tennessee Campaign pass](docs/research/east-tennessee-first-pass-v1.md) adds two
 dossiers, 19 claims, 2 explicit unknowns and 80 citations. Separate review is pending.
 Next: **the five-record Bristoe Campaign**. See the

@@ -2,14 +2,16 @@
 
 Prepared 2026-09-25. All **three frozen records** in **Chickamauga Campaign
 [August-September 1863]** now have draft dossiers: **27 claims, 3 explicit null unknowns
-and 135 citation occurrences**. All seven dimensions are represented in each record.
-Separate review is pending. All dossiers remain drafts; no features are admitted.
+and 147 citation occurrences** after review correction. All seven dimensions are
+represented in each record. Separate Claude Opus 5.5 `high` [review](../../artifacts/review-results/chickamauga-93a2694-opus-high-v1/review.md) found
+eight required corrections, all applied and verified by the primary. All dossiers remain
+drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| TN018 — Chattanooga | 1863-08-21 | 9 | 1 | 36 | 3 |
-| GA003 — Davis' Cross Roads | 1863-09-10 to 09-11 | 9 | 1 | 45 | 3 |
-| GA004 — Chickamauga | 1863-09-18 to 09-20 | 9 | 1 | 54 | 3 |
+| TN018 — Chattanooga | 1863-08-21 | 9 | 1 | 38 | 3 |
+| GA003 — Davis' Cross Roads | 1863-09-10 to 09-11 | 9 | 1 | 49 | 3 |
+| GA004 — Chickamauga | 1863-09-18 to 09-20 | 9 | 1 | 60 | 3 |
 
 Coverage is **108/127 draft dossiers**, **19 without**, and **27/36 complete source
 campaigns by dossier presence**. All 105 earlier dossiers and all historical revisions
@@ -63,10 +65,11 @@ preserving the earlier **492/476**. They are:
     Chattanooga is outside it.
 - **Opening strengths remain unknown.** All three records have blank frozen side bounds.
   - Chickamauga: Cist gives Rosecrans at most 55,000 effective men on the field (against a
-    return of 67,548 present for duty equipped) and Bragg about 70,000. Bragg gives
-    Rosecrans fully 70,000 and himself a little over 35,000 exclusive of cavalry at the end of August,
+    return of 67,548 present for duty equipped) and Bragg about 70,000. Bragg's
+    December 28 narrative gives Rosecrans fully 70,000 effective infantry and artillery as of
+    August 20, and himself a little over 35,000 exclusive of cavalry after the last of August,
     and his September 27 return shows 38,846 effective after the battle.
-  - Davis' Cross Roads: Hindman's order estimate (4,000–5,000), Mackall's (12,000–15,000)
+  - Davis' Cross Roads: Hindman's order estimate ("4,000 or 5,000"), Mackall's ("12,000 or 15,000")
     and Cist's 30,000 Confederates differ in scope.
 
   None is adopted.
@@ -95,6 +98,30 @@ probability, causal effect or new commander ranking is introduced. The cohort an
 admission proposals are unchanged, with **zero promoted rows**. The baseline still uses
 **23/127 engagements in 13 eligible groups**, with strength Brier **0.276882** against
 **0.250000** for equal odds.
+
+## Review correction and validation
+
+The reviewer found eight required corrections, all verified against the retained text
+(each new quote occurs once) and applied:
+
+- **CH-R1** corrects Hill's Clayton passage: Clayton sent an officer up the river.
+- **CH-R2** scopes NPS's attention effect to two weeks of shelling beyond the one-day
+  record.
+- **CH-R3** replaces an unsupported "by both sides" for the gap obstructions.
+- **CH-R4** records Hindman's post-suspension self-defense in two rationales, with
+  citations.
+- **CH-R5** cites two uncited value clauses.
+- **CH-R6** dates Bragg's 70,000 to August 20.
+- **CH-R7** restores Cist's "to this extent" qualifier on Wood.
+- **CH-R8** scopes Bragg's prisoner counts beyond September 20.
+
+Observations O1 (an undated withdrawal in the boundary note), O3 ("during the night" without
+a date) and O4 (the sources' "or" wording above) are adopted. O2 (the inherited Cist
+dependency count) is deferred, and O5 needs no change. Citations rise from 135 to 147;
+claims and unknowns are unchanged, and no source record changes. The originals are
+retained as `data/evidence/history/*.v1.json`, linked by `supersedes`. The
+[primary assessment](../../artifacts/review-results/chickamauga-93a2694-opus-high-v1/primary-assessment.md) closes all eight findings; no second
+reviewer pass is claimed.
 
 Next by frozen campaign start is **East Tennessee Campaign [September-October 1863]**:
 TN019 and TN020. Do not start that group within this batch.

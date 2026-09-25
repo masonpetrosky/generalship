@@ -281,10 +281,13 @@ attribution, timing and scope corrections, all fixed and
 Coverage is **26/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Chickamauga Campaign first pass](research/chickamauga-first-pass-v1.md) adds all three
-**frozen records, TN018, GA003 and GA004**, with **27 claims, 3 explicit unknowns and 135
+**frozen records, TN018, GA003 and GA004**, with **27 claims, 3 explicit unknowns and 147
 citations** from NPS/CWSAC, a new Cist selection and Hill's, Hindman's and Bragg's
 reports in newly pinned Official Records Volume XXX Part 2. Campaign-wide figures are not
-assigned to any record. Separate review is pending.
+assigned to any record. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/chickamauga-93a2694-opus-high-v1/review.md) found eight
+attribution, scope and citation corrections, all fixed and
+[verified by the primary](../artifacts/review-results/chickamauga-93a2694-opus-high-v1/primary-assessment.md).
 Coverage is **27/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [East Tennessee Campaign first pass](research/east-tennessee-first-pass-v1.md) adds both
