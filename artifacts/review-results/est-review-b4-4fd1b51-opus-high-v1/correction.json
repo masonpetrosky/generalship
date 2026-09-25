@@ -1,0 +1,103 @@
+{
+  "review_sha256": "262f6782ef3ca884fcdcba5f39853a4bbd205c550706f8830fbe156f4e8d2b58",
+  "prepared_commit": "4fd1b512f9e4db0402537bfe577031a6cc6939f6",
+  "bundle_commit": "266bcbdca528ab97f7238d70b0a070db3565fbe9",
+  "scope": "batch 4 (21 engagements, IN001 to TN029)",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_applied",
+      "summary": "OH002: cs-shackelford-375 removed; us-rue (375, Major Rue's Union detachment) added as a partial lower bound."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_applied",
+      "summary": "GA003 cs-hindman-column: partial lower bound; Confederate C 30,000 (21,000-39,000)."
+    },
+    {
+      "finding_id": "R3",
+      "disposition": "accepted_applied",
+      "summary": "TN019 cs-foster-est: adversary + other_engagement (Zollicoffer); Confederate A 1,200 (1,140-1,260)."
+    },
+    {
+      "finding_id": "R4",
+      "disposition": "accepted_applied",
+      "summary": "TN020 us-williams: adversary + one_sided_bound upper; US grade D with the reviewer null_reason."
+    },
+    {
+      "finding_id": "R5",
+      "disposition": "accepted_applied",
+      "summary": "WV012: us-echols-est basis reported_engaged; us-jackson-est adversary + partial lower bound; US C 5,250 (3,500-7,000)."
+    },
+    {
+      "finding_id": "R6",
+      "disposition": "accepted_applied",
+      "summary": "TN027 cs-martin: scope_unresolved; Confederate C 2,000 (1,400-2,600)."
+    },
+    {
+      "finding_id": "R7",
+      "disposition": "accepted_applied",
+      "summary": "GA004 and TN024 Livermore inventory reasons replaced with the reviewer text."
+    },
+    {
+      "finding_id": "A1",
+      "disposition": "kept_as_is",
+      "summary": "IN001 raid-start figures left as scope_unresolved; same row and outcome."
+    },
+    {
+      "finding_id": "A2",
+      "disposition": "accepted_applied",
+      "summary": "OH001 us-hobson: partial_scope + engagement_link_unknown, bound null."
+    },
+    {
+      "finding_id": "A3",
+      "disposition": "accepted_applied",
+      "summary": "OH002 inventory reason 'one-sided and pre-engagement'; cs-shackelford-400 loss_timing not_prior."
+    },
+    {
+      "finding_id": "A4",
+      "disposition": "accepted_applied",
+      "summary": "TN019 us-jones: adversary + other_engagement, basis reported_engaged."
+    },
+    {
+      "finding_id": "A5",
+      "disposition": "accepted_applied",
+      "summary": "TN020 us-ninth-corps adds engagement_link_unknown."
+    },
+    {
+      "finding_id": "A6",
+      "disposition": "accepted_applied",
+      "summary": "TN022 link reversed: us-cw reproduction_of us-hatch, with a note that the dependence is inferred from equal values."
+    },
+    {
+      "finding_id": "A7",
+      "disposition": "kept_as_is",
+      "summary": "GA004 cs-lv and TN024 us-lv keep Livermore's printed 'Total engaged' label, consistently for both."
+    },
+    {
+      "finding_id": "A8",
+      "disposition": "accepted_applied",
+      "summary": "TN024 us-hooker and TN029 us-wolford bound null; TN027 us-martin-est adds partial_interval, bound null."
+    },
+    {
+      "finding_id": "A9",
+      "disposition": "kept_as_is",
+      "summary": "TN026 us-desc kept as coded; the description ties Shackelford's force to Bean's Station."
+    },
+    {
+      "finding_id": "A10",
+      "disposition": "accepted_applied",
+      "summary": "TN025 us-burnside adds engagement_link_unknown."
+    }
+  ],
+  "corrected_ledger": {
+    "path": "data/estimates/side-strength-v1.json",
+    "sha256": "0656b03cbdaa088849dc3795f9c6a9e9d6762be10f53f28e4285be46f7fcde89"
+  },
+  "corrected_engine": {
+    "path": "generalship/estimates.py",
+    "sha256": "af540a924aed29b20032319b8779742c0f43e991c118ee747672bba73fc3a32f"
+  },
+  "independent_followup_review": false,
+  "fit_authorized": false
+}

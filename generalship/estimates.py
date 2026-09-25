@@ -5,6 +5,7 @@ changes the frozen baseline inputs.
 """
 
 from fractions import Fraction
+import re
 from pathlib import Path
 
 from .evidence import citation_text
@@ -24,6 +25,10 @@ ADJUSTMENTS = ('completed_sum', 'prior_loss', 'quoted_ratio')
 MARGIN = {'A': Fraction(1, 20), 'B': Fraction(3, 20), 'C': Fraction(3, 10)}
 OPPONENT_FACTOR = Fraction(3, 4)
 COMPILED_GROUPS = {'nps-cwsac', 'livermore-numbers-losses'}  # scoping memo finding 2
+INPUT_ID = re.compile(r'(us|cs)-[a-z0-9-]+')
+CONSTANTS = {'margins': {'A': '1/20', 'B': '3/20', 'C': '3/10'}, 'opponent_factor': '3/4',
+             'basis_order': list(BASES), 'median': 'lower middle for even counts',
+             'rounding': 'nearest 10, halves upward; low floor 10'}
 
 
 class EstimateError(ValueError):
@@ -184,9 +189,12 @@ def estimate_side(inputs, *, factor=OPPONENT_FACTOR, basis_order=BASES, median=l
         m = MARGIN[best]
         low = min(c['value'] for c in rng) * (1 - m)
         high = max(c['value'] for c in rng) * (1 + m)
+        raised = None  # an opponent candidate that sets high is used for the range (engine review R1)
         for c in cands:
             if c['tag'] == 'opponent_or_hearsay' and c['basis'] in {point_basis, 'unknown'} and c['value'] > high:
-                high = c['value']
+                high, raised = c['value'], c
+        if raised is not None:
+            rng = rng + [raised]
         method = 'rule3_median'
     for inp in inputs:  # rule 7 bounds
         rows = input_rows(inp)
@@ -273,9 +281,11 @@ def _document_key(sources, source_id):
     return image['sha256'] if image else source['sha256']
 
 
-def check(root, path=DEFAULT_LEDGER):
+def check(root, path=DEFAULT_LEDGER, ledger=None):
+    """Replay the ledger at path, or an in-memory ledger (used by the tamper tests)."""
     root = Path(root)
-    ledger = read_json(safe_path(root, str(path)))
+    if ledger is None:
+        ledger = read_json(safe_path(root, str(path)))
     require(ledger.get('kind') == 'side_strength_estimate_ledger' and ledger.get('schema_version') == 1, 'Ledger kind')
     for key in ('design', 'script', 'cohort'):
         b = ledger['bindings'][key]
@@ -296,6 +306,7 @@ def check(root, path=DEFAULT_LEDGER):
     require(sorted(o['battle_id'] for o in ledger['out_of_scope']) == out_scope, 'Coverage: out-of-scope records differ')
     require(all(o.get('reason') for o in ledger['out_of_scope']), 'Out-of-scope records need a reason')
     require(set(ledger['bindings']['dossiers']) == set(in_scope), 'Every in-scope dossier must be bound')
+    require(ledger['constants'] == CONSTANTS, 'Ledger constants differ from the code')
     results = {}
     for bid in in_scope:
         b = ledger['bindings']['dossiers'][bid]
@@ -303,6 +314,8 @@ def check(root, path=DEFAULT_LEDGER):
         dossier = read_json(safe_path(root, b['path']))
         e = engagements[bid]
         require(set(e['sides']) == set(SIDES), f'{bid}: both sides required')
+        require(e['interval'] == [battles[bid]['start_date'], battles[bid]['end_date'] or battles[bid]['start_date']],
+                f'{bid}: interval differs from the frozen record')
         estimates = {}
         for side in SIDES:
             s = e['sides'][side]
@@ -310,11 +323,21 @@ def check(root, path=DEFAULT_LEDGER):
             require(len(set(ids)) == len(ids), f'{bid} {side}: duplicate input IDs')
             for inp in s['inputs']:
                 where = f'{bid} {side} {inp["id"]}'
+                require(inp['printed']['lower'] <= inp['printed']['upper'], f'{where}: printed bounds reversed')
+                require(inp.get('bound') in {'upper', 'lower', None}, f'{where}: bound direction')
+                require('derived_from_losses' not in inp['codes'] or inp['loss_timing'] != 'none', f'{where}: loss timing')
+                require(inp.get('reproduction_of') in (None, *ids), f'{where}: unresolved reproduction link')
+                require(inp['source_id'] not in {'livermore-ocr-v1'} and not str(inp['source_id']).endswith('-image-v1'),
+                        f'{where}: Livermore figures are cited from the transcription')
                 require(set(inp['codes']) <= CODES and inp['basis'] in BASES and inp['loss_timing'] in LOSS_TIMING, f'{where}: codes')
                 require(all(a['kind'] in ADJUSTMENTS and all(o in ids for o in a['operands']) for a in inp['adjustments']),
                         f'{where}: adjustments')
                 if any(a['kind'] == 'completed_sum' for a in inp['adjustments']):
                     require(inp['source_id'] is None and inp['ref'] is None, f'{where}: a sum has no quote of its own')
+                    by_id = {i['id']: i for i in s['inputs']}
+                    require(value_of(inp, by_id) == printed_value(inp), f'{where}: sum printed value differs from its operands')
+                    require(all(by_id[o]['basis'] == inp['basis'] for a in inp['adjustments'] for o in a['operands']),
+                            f'{where}: a sum takes its operands\' basis')
                 else:
                     sid, quote, passage = _passage(root, sources, dossier, inp)
                     require(sid == inp['source_id'] and sid in cited, f'{where}: source ID or unbound source')
@@ -337,6 +360,11 @@ def check(root, path=DEFAULT_LEDGER):
             else:
                 require(bool(e['sides'][side].get('null_reason')), f'{bid} {side}: grade D needs a reason')
         inv = e['inventory']
+        all_ids = {i['id'] for side in SIDES for i in e['sides'][side]['inputs']}
+        named = [u for x in inv['dossier_claims'] + inv['dossier_quantities'] if isinstance(x['use'], list) for u in x['use']]
+        named += list(inv['cwsac_forces'].values()) + list((inv.get('livermore') or {}).get('inputs', []))
+        unresolved = [u for u in named if INPUT_ID.fullmatch(u) and u not in all_ids]
+        require(not unresolved, f'{bid}: inventory names unknown inputs {unresolved}')
         claims = {c['id'] for c in dossier['claims'] if c['dimension'] == 'strength'}
         require(claims <= {x['claim_id'] for x in inv['dossier_claims']}, f'{bid}: dossier claim inventory incomplete')
         quantities = {q['id'] for q in dossier.get('quantities', [])}

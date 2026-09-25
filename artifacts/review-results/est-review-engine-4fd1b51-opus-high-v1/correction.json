@@ -1,0 +1,83 @@
+{
+  "review_sha256": "16fe667725334e8cdd42d7564cb3e20039845a819e1ab75c7d9419f2dbc03870",
+  "prepared_commit": "4fd1b512f9e4db0402537bfe577031a6cc6939f6",
+  "bundle_commit": "98212664305094d1ea7a4f02d00c89006edb919b",
+  "scope": "the engine, checker, tests and memo",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_applied",
+      "summary": "estimate_side: an opponent candidate that sets high joins the range, so its §5 labels apply; test added for the synthetic post-start case."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_applied",
+      "summary": "Count wording replaced in the memo and README, with the reconciled counts (43 with both sides estimated, 37 fit-eligible)."
+    },
+    {
+      "finding_id": "R3",
+      "disposition": "accepted_applied",
+      "summary": "Memo restatement wording replaced, updated for batch 2 R8/R9 (KY009 and TN006 are no longer linked)."
+    },
+    {
+      "finding_id": "A1",
+      "disposition": "accepted_applied",
+      "summary": "Memo records livermore-transcription-v1 as a declared §2 exception."
+    },
+    {
+      "finding_id": "A2",
+      "disposition": "kept_as_is",
+      "summary": "Owner-level choice left open: the unlinked restatement sides are reported as lacking single_input."
+    },
+    {
+      "finding_id": "A3",
+      "disposition": "accepted_applied",
+      "summary": "Checker assertions added. The row-5 direction check is bound in {upper, lower, null}, because caps on part of a side now carry null."
+    },
+    {
+      "finding_id": "A4",
+      "disposition": "accepted_applied",
+      "summary": "Non-discriminating test fixed; tests added for floor_applied, lower bounds and conflicts, the residual-C bound, post-start hull inclusion, basis_mixed, nested_sets and eight checker tamper cases."
+    },
+    {
+      "finding_id": "A5",
+      "disposition": "not_adopted",
+      "summary": "Receipt already hashes the ledger and the build output reports the estimate summary; no separate status field added."
+    },
+    {
+      "finding_id": "A6",
+      "disposition": "not_adopted",
+      "summary": "quoted_ratio and group-value paths remain unused; document them before first use."
+    },
+    {
+      "finding_id": "A7",
+      "disposition": "accepted_applied",
+      "summary": "Memo states that basis_mixed needs both points."
+    },
+    {
+      "finding_id": "A8",
+      "disposition": "accepted_applied",
+      "summary": "Memo says 7 post-start = 6 + WV010; stray line deleted; 'for lack of a usable candidate value' in the roadmap."
+    },
+    {
+      "finding_id": "A9",
+      "disposition": "accepted_applied",
+      "summary": "Design acceptance recorded in the memo."
+    },
+    {
+      "finding_id": "A10",
+      "disposition": "not_adopted",
+      "summary": "No role field added; deferred to a later schema version."
+    }
+  ],
+  "corrected_ledger": {
+    "path": "data/estimates/side-strength-v1.json",
+    "sha256": "0656b03cbdaa088849dc3795f9c6a9e9d6762be10f53f28e4285be46f7fcde89"
+  },
+  "corrected_engine": {
+    "path": "generalship/estimates.py",
+    "sha256": "af540a924aed29b20032319b8779742c0f43e991c118ee747672bba73fc3a32f"
+  },
+  "independent_followup_review": false,
+  "fit_authorized": false
+}

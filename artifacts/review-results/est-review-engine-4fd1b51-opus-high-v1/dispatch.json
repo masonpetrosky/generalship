@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 0c9f8fc8-3ae9-496c-a7b0-79f17643e153",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 98212664305094d1ea7a4f02d00c89006edb919b; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T14:00:51Z",
+  "prepared_commit": "4fd1b512f9e4db0402537bfe577031a6cc6939f6",
+  "bundle_commit": "98212664305094d1ea7a4f02d00c89006edb919b",
+  "assignment_sha256": "8f701fd4b487f426679f67fa9be7811c03526f5a0f05df01d964cec006d96235",
+  "inputs_manifest_sha256": "3c3d44031bacf0e03bb86c936b63bd653ee3cb7c887a350425dcfc622490c388",
+  "num_turns": 36,
+  "duration_ms": 674290,
+  "terminal_reason": "completed",
+  "returned_message": "The review is written. **Outcome: corrections required.** None of them changes a ledger input, point, range, grade or row-set membership.\n\n**Review path:** `artifacts/review-results/est-review-engine-4fd1b51-opus-high-v1/review.md`\n\n**Checks:**\n- All 25 bound inputs match their hashes at `4fd1b51`, and so do the assignment and `inputs.json`. There were no mismatches.\n- `make check` passed: 107 tests OK. `estimate-check` reproduced 62/25/23/72 side grades and 21/31/40 fit-eligible rows.\n- It wrote only the review file. There were no commits, pushes or network access.\n\n**Required corrections:**\n- **R1 (engine labels):** when an opponent's figure raises a side's upper range limit, the code doesn't count that figure as used for the range. The design says it should be. So the side can miss labels it should carry, including the post-start one that removes a row from the fits. In the current ledger this:\n  - puts `single_input` wrongly on five sides: AL001 US and the Confederate sides of NC007, TN002, TN019 and WV012;\n  - leaves TN019's Confederate side without `applicability_unresolved`.\n\n  The review gives the exact code change and the regenerated label and range-group changes. If you prefer the narrower reading, amend the design text instead of the code.\n- **R2 (count wording):** the memo and README say 40 engagements have estimates for both sides. The true figure is 45, of which 40 can be used in a fit; the other 5 are excluded as post-start.\n- **R3 (memo wording):** the memo says NPS narrative restatements are never recorded as reproductions. Two same-basis ones are (KY009 US, TN006 Confederate); the three unlinked ones (IN001 US, OH002 Confederate, TN015 US) consequently lack `single_input`.\n\n**Advisories:**\n- **A1:** the checker can't enforce the design's rule that sources must have been registered when the design was accepted. The Livermore transcription was added afterwards; I treat it as within the design's intent because the design names it.\n- **A2:** you need to decide how `single_input` should treat unlinked restatements of the same figure.\n- **A3:** the checker has several cheap gaps to close. The current ledger passes them all.\n- **A4:** one test passes whether or not the two inputs are grouped, so it can't catch a grouping error. Several rules have no tests.\n- **A5:** the receipt doesn't record whether the ledger replayed.\n- **A6–A10:** minor documentation and implementation notes, including that the bound design text still says \"proposed\".\n\n**Finding IDs:** R1, R2, R3, A1–A10."
+}

@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 20882071-b868-4367-b30f-dcfe187bc8be",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 2c490165397e7991b8a2fbaf2859e9a939cf61e8; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T14:00:51Z",
+  "prepared_commit": "4fd1b512f9e4db0402537bfe577031a6cc6939f6",
+  "bundle_commit": "2c490165397e7991b8a2fbaf2859e9a939cf61e8",
+  "assignment_sha256": "e1432785d1b33fd13566a242ae1b2b29b0340a8b2e22d7762921cfe09a105ae7",
+  "inputs_manifest_sha256": "3c3d44031bacf0e03bb86c936b63bd653ee3cb7c887a350425dcfc622490c388",
+  "num_turns": 60,
+  "duration_ms": 956707,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** The review is at `artifacts/review-results/est-review-b2-4fd1b51-opus-high-v1/review.md` (sha256 `33867a7c…9be5`).\n\n- **Required findings:** R1–R10\n- **Advisories:** A1–A13\n\nAll 25 bound input hashes matched `4fd1b51`. `make check` passed (107 tests) and `estimate-check` reproduces the current ledger. I reviewed all 22 assigned engagements (44 sides, 96 inputs) and nine Livermore page images. The review was the only file I wrote, and nothing was committed.\n\n**Required corrections that change results:**\n- **R1, VA022 Cedar Mountain:** note 4 on Livermore p.87, visible only on the page image, says the 8,030 figure leaves out a Union division that fought after dark on August 9. That makes the frozen/NPS/Livermore figure partial, so the Union side drops to grade D and a frozen baseline row leaves the fit set.\n- **R2, MD002 South Mountain:** the Confederate McClellan input quotes McClellan's figure for his own army. I gave the correct Palfrey quote and changed its basis to unknown. That quote is not among the dossier's citations, so the owner of the ledger must decide whether it can be cited.\n- **R3, MD002 South Mountain:** the frozen record includes Crampton's Gap, but McClellan's and Livermore's figures cover only the Turner's and Fox's Gap forces. With R2, both sides become grade C, and the row moves from \"excluded as post-start\" into the widest fit set.\n- **R4, MS001 Iuka:** Greene's 3,000–4,000 covers two brigades, not the whole Confederate side, which adds a `bound_conflict` label.\n- **R5, MS002 Corinth:** Greene states \"effective men\", so that input's basis should be effective rather than unknown.\n- **R6, NC007 Kinston:** Smith's 30,000 estimate is dated December 15, after the frozen start, so the row leaves the fits.\n\n**Required corrections that change no result:**\n- **R7, VA028:** Palfrey's figure comes from December 13 morning reports, after the frozen start.\n- **R8, KY009:** the NPS narrative's \"nearly 55,000\" is a one-sided bound and should not be linked as a reproduction.\n- **R9, TN006:** the NPS narrative's \"about 1,400\" should have an unknown basis and no reproduction link, as the ledger memo's own policy says.\n- **R10:** four inventory reasons are inaccurate, for MD002 and KY009 (Livermore) and for WV010 and VA022 (dossier claims).\n\nReplaying R1–R9 with the repository's own estimator gives:\n\n| Measure | Now | After R1–R9 |\n| --- | --- | --- |\n| Side grades A / B / C / D | 62 / 25 / 23 / 72 | 61 / 24 / 24 / 73 |\n| Fit-eligible rows A / AB / ABC | 21 / 31 / 40 | 21 / 30 / 39 |\n| Rows excluded as post-start | 6 | 6 (MD002 leaves, NC007 enters) |\n\nThe review gives the exact replacement field values and estimate objects for each correction. The primary should check the page-image readings (R1, R10 and A5) before applying anything. The most consequential advisory is A3: if Livermore's Stones River figures were treated as covering only part of the frozen dates, the Confederate point would move from 34,730 to 46,600."
+}

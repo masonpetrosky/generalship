@@ -1,0 +1,98 @@
+{
+  "review_sha256": "44eec013a92798ac559a2c133134ec764a47859d3d540edff70011dc1c64d50e",
+  "prepared_commit": "4fd1b512f9e4db0402537bfe577031a6cc6939f6",
+  "bundle_commit": "a8b422c35f4493a706854802cfbf5fb295f0fbc9",
+  "scope": "batch 1 (25 engagements, KY005 to VA021)",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_applied",
+      "summary": "KY005 US: sum us-sum deleted; us-left and us-reinf are partial lower bounds; US grade D with a null_reason (rule 6 forbids summing a start force and an arrival)."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_applied",
+      "summary": "TN002 US us-start: partial_scope, bound lower. The US side is now C 27,000 from the post-start figure, and the row is excluded as post-start."
+    },
+    {
+      "finding_id": "R3",
+      "disposition": "accepted_applied",
+      "summary": "NC002 us-nps-landed: basis unknown, reproduction link removed."
+    },
+    {
+      "finding_id": "R4",
+      "disposition": "accepted_applied",
+      "summary": "TN003 Confederate: engagement_link_unknown added to cs-return-before, cs-lv-eff, cs-r136-eff and cs-r136-present."
+    },
+    {
+      "finding_id": "R5",
+      "disposition": "accepted_applied",
+      "summary": "MS016: interval_unresolved added to all three inputs (May figures only)."
+    },
+    {
+      "finding_id": "R6",
+      "disposition": "accepted_applied",
+      "summary": "TN002 Livermore inventory reason replaced with the reviewer text."
+    },
+    {
+      "finding_id": "R7",
+      "disposition": "accepted_applied",
+      "summary": "VA017 Livermore pages [82, 83, 84], with the p.84 note 7 reason."
+    },
+    {
+      "finding_id": "A1",
+      "disposition": "kept_as_is",
+      "summary": "MS016 \"probably not much over 50,000\" kept as an approximate value; the reviewer called that reading defensible."
+    },
+    {
+      "finding_id": "A2",
+      "disposition": "accepted_applied",
+      "summary": "Partial-scope inputs carry bound: lower (KY005, TN003 us-atenn-pfd)."
+    },
+    {
+      "finding_id": "A3",
+      "disposition": "accepted_applied",
+      "summary": "TN003 us-force-sunday note records the 32,000-33,000 passage and the conservative choice."
+    },
+    {
+      "finding_id": "A4",
+      "disposition": "kept_as_is",
+      "summary": "VA101 cs-desc division figure left as coded; the change would only add a label."
+    },
+    {
+      "finding_id": "A5",
+      "disposition": "not_adopted",
+      "summary": "VA016 present-for-duty 16,808 not entered; no estimate effect. Recorded here."
+    },
+    {
+      "finding_id": "A6",
+      "disposition": "accepted_applied",
+      "summary": "Transcription gaps recorded in the ledger memo; a versioned successor transcription is deferred."
+    },
+    {
+      "finding_id": "A7",
+      "disposition": "kept_as_is",
+      "summary": "Livermore's own exclusions (VA017 note 6, TN003 note 4) accepted as the source's population; kept in view."
+    },
+    {
+      "finding_id": "A8",
+      "disposition": "accepted_applied",
+      "summary": "Handled by batch 2 R8 and R9 (KY009, TN006 restatements unlinked)."
+    },
+    {
+      "finding_id": "A9",
+      "disposition": "kept_as_is",
+      "summary": "Bundle binding gap noted; the reviewer recorded the unbound hashes."
+    }
+  ],
+  "corrected_ledger": {
+    "path": "data/estimates/side-strength-v1.json",
+    "sha256": "0656b03cbdaa088849dc3795f9c6a9e9d6762be10f53f28e4285be46f7fcde89"
+  },
+  "corrected_engine": {
+    "path": "generalship/estimates.py",
+    "sha256": "af540a924aed29b20032319b8779742c0f43e991c118ee747672bba73fc3a32f"
+  },
+  "independent_followup_review": false,
+  "fit_authorized": false
+}

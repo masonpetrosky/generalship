@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session cce2b0d3-8fac-4b9c-8076-4fbb1b82aeb4",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 266bcbdca528ab97f7238d70b0a070db3565fbe9; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T14:00:51Z",
+  "prepared_commit": "4fd1b512f9e4db0402537bfe577031a6cc6939f6",
+  "bundle_commit": "266bcbdca528ab97f7238d70b0a070db3565fbe9",
+  "assignment_sha256": "cc80e1fb357bb71759747abee1e0efba618be3e6098874520920fd67ae4f0785",
+  "inputs_manifest_sha256": "3c3d44031bacf0e03bb86c936b63bd653ee3cb7c887a350425dcfc622490c388",
+  "num_turns": 32,
+  "duration_ms": 605206,
+  "terminal_reason": "completed",
+  "returned_message": "**Review path:** `artifacts/review-results/est-review-b4-4fd1b51-opus-high-v1/review.md`\n\n**Outcome: corrections required.**\n\n**Finding IDs:** R1–R7 (required) and A1–A10 (advisories).\n\nAll 25 input hashes, `assignment.md` and `inputs.json` match the prepared commit `4fd1b51`, with no mismatch. `make check` passes (107 tests), and `estimate-check` replays the ledger as recorded. I inspected all 21 engagements, both sides and all 62 inputs, against their cited passages, the frozen CWSAC rows and Livermore pp.105–107 (transcription and page images).\n\n- **R1, OH002:** `cs-shackelford-375` is Major Rue's Union detachment, but it is recorded as a Confederate opponent estimate. It should move to the US side as a partial lower bound. No estimate changes.\n- **R2, GA003:** `cs-hindman-column` is only one part of the Confederate force; the cited passages show Cleburne's division attacking separately. It should become a partial-scope bound. The Confederate side changes from B 15,000 to C 30,000 (21,000–39,000).\n- **R3, TN019:** `cs-foster-est` (6,000) describes the force at Zollicoffer on another date, so it should be coded `other_engagement`. The Confederate range changes from 1,140–6,000 to 1,140–1,260.\n- **R4, TN020:** \"did not fall far short of 15,000\" means \"nearly\", which is a one-sided bound. The US side changes from C 11,250 to grade D.\n- **R5, WV012:** two fixes to the Union figures:\n  - Echols's 7,000 states an engaged basis (\"The force of the enemy engaged\").\n  - Jackson's 3,500 is, by the source's own words, the Union force before overnight reinforcements, so it is partial.\n\n  The US side changes from C 2,630 (1,750–7,000) to C 5,250 (3,500–7,000) on the engaged basis, and the row loses `basis_mixed`.\n- **R6, TN027:** `cs-martin` should be `scope_unresolved`, because Sturgis and the frozen text report Confederate infantry support. The Confederate side changes from A 2,000 to C 2,000.\n- **R7, GA004 and TN024:** figures in Livermore's footnotes (Longstreet's 5,000 and 59,242 at Chickamauga, and \"about 51,000\" at Chattanooga) are missing from the inventory reasons. This changes no estimate.\n\nAfter R1–R7, side grades become A/B/C/D 61/24/24/73. Fit-eligible row counts (21/31/40) and the 6 rows excluded as post-start are unchanged.\n\nThe only file I wrote in the worktree is the review. The inspection dumps and the `make check` log went to `/tmp`, outside the repository. I made no commits or pushes."
+}

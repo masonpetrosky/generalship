@@ -1,0 +1,133 @@
+{
+  "review_sha256": "33867a7c5143cb18496d0edba42e9216f8d016339c8fa5c9a09e6b9a862f9be5",
+  "prepared_commit": "4fd1b512f9e4db0402537bfe577031a6cc6939f6",
+  "bundle_commit": "2c490165397e7991b8a2fbaf2859e9a939cf61e8",
+  "scope": "batch 2 (22 engagements, TN006 to AR006)",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_applied",
+      "summary": "VA022: us-lv and cs-lv partial_scope lower bounds after the primary confirmed p.87 note 4 on page image livermore-p87-image-v1; US grade D with the reviewer null_reason; the frozen row leaves the fit-eligible set."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_applied",
+      "summary": "MD002 cs-mcclellan re-cited to Palfrey's Confederate sentence (\"probably some thirty thousand in all\"), basis unknown. The primary reads design §2 source scope (registered sources) as allowing a quote from an already-cited registered section; the narrower reading would drop the input. Recorded in the memo."
+    },
+    {
+      "finding_id": "R3",
+      "disposition": "accepted_applied",
+      "summary": "MD002 scope: us-mcclellan scope_unresolved; us-lv and cs-lv partial lower bounds; us-palfrey-cap partial with bound null; cs-mcclellan adversary + scope_unresolved. The row is now ABC and no longer post-start."
+    },
+    {
+      "finding_id": "R4",
+      "disposition": "accepted_applied",
+      "summary": "MS001 cs-greene partial_scope lower bound; bound_conflict now shown."
+    },
+    {
+      "finding_id": "R5",
+      "disposition": "accepted_applied",
+      "summary": "MS002 us-greene basis reported_effective."
+    },
+    {
+      "finding_id": "R6",
+      "disposition": "accepted_applied",
+      "summary": "NC007 us-smith-est adds post_engagement_state; the row is excluded as post-start."
+    },
+    {
+      "finding_id": "R7",
+      "disposition": "accepted_applied",
+      "summary": "VA028 us-palfrey post_engagement_state (December 13 morning reports)."
+    },
+    {
+      "finding_id": "R8",
+      "disposition": "accepted_applied",
+      "summary": "KY009 us-nps-desc: unknown basis, one_sided_bound upper, link removed."
+    },
+    {
+      "finding_id": "R9",
+      "disposition": "accepted_applied",
+      "summary": "TN006 cs-nps-desc: unknown basis, link removed."
+    },
+    {
+      "finding_id": "R10",
+      "disposition": "accepted_applied",
+      "summary": "Inventory reasons (a) MD002, (b) KY009, (c) WV010 and (d) VA022 replaced with the reviewer text."
+    },
+    {
+      "finding_id": "A1",
+      "disposition": "accepted_applied",
+      "summary": "KY007 cs-smith and MS003 us-greene-assault: bound null (a cap on a part does not bound the side)."
+    },
+    {
+      "finding_id": "A2",
+      "disposition": "accepted_applied",
+      "summary": "NC009 us-smith-est bound lower."
+    },
+    {
+      "finding_id": "A3",
+      "disposition": "accepted_applied",
+      "summary": "TN010: Livermore entry kept as matching; the reason (pre-battle returns of the same army) recorded in the cs-lv-pfd note."
+    },
+    {
+      "finding_id": "A4",
+      "disposition": "kept_as_is",
+      "summary": "KY009 Union basis tension kept visible, as the reviewer advised."
+    },
+    {
+      "finding_id": "A5",
+      "disposition": "accepted_applied",
+      "summary": "Transcription gaps recorded in the ledger memo; successor deferred."
+    },
+    {
+      "finding_id": "A6",
+      "disposition": "accepted_applied",
+      "summary": "AR006 dispute stated in the rationale."
+    },
+    {
+      "finding_id": "A7",
+      "disposition": "accepted_applied",
+      "summary": "TN006 dispute stated in the rationale."
+    },
+    {
+      "finding_id": "A8",
+      "disposition": "accepted_applied",
+      "summary": "TN011 us-jp-1800: partial_scope lower bound, compiled, newspaper note; inventory reason updated."
+    },
+    {
+      "finding_id": "A9",
+      "disposition": "accepted_applied",
+      "summary": "VA025 Livermore composite entry recorded as other_engagement."
+    },
+    {
+      "finding_id": "A10",
+      "disposition": "not_adopted",
+      "summary": "MS002 returns left as linked to the engagement; no point would move."
+    },
+    {
+      "finding_id": "A11",
+      "disposition": "accepted_applied",
+      "summary": "VA028 November 10 figure reason: earlier return, engagement_link_unknown."
+    },
+    {
+      "finding_id": "A12",
+      "disposition": "kept_as_is",
+      "summary": "MS001 description range kept; disclosed in the note."
+    },
+    {
+      "finding_id": "A13",
+      "disposition": "kept_as_is",
+      "summary": "Cited-source binding kept as a deliberate choice; recorded in the memo."
+    }
+  ],
+  "corrected_ledger": {
+    "path": "data/estimates/side-strength-v1.json",
+    "sha256": "0656b03cbdaa088849dc3795f9c6a9e9d6762be10f53f28e4285be46f7fcde89"
+  },
+  "corrected_engine": {
+    "path": "generalship/estimates.py",
+    "sha256": "af540a924aed29b20032319b8779742c0f43e991c118ee747672bba73fc3a32f"
+  },
+  "independent_followup_review": false,
+  "fit_authorized": false
+}

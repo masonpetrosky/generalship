@@ -78,9 +78,10 @@ complete; the [reported side-strength design](docs/feature-admission-reported-st
 is accepted after separate review, but its [extraction scoping](docs/research/reported-strength-scoping-v1.md)
 finds it would add very few rows. The owner chose graded best estimates for each decisive,
 non-aggregate engagement; the [estimate design](docs/strength-estimates.md) is accepted after separate review, and
-the [draft ledger](docs/research/strength-estimates-ledger-v1.md) gives 40 decisive
-engagements an estimate for both sides (21 at grade A), against 23 frozen rows; separate
-review comes next (see the roadmap). Coverage status: we have
+the [reviewed ledger](docs/research/strength-estimates-ledger-v1.md) gives 43 decisive
+engagements an estimate for both sides, 37 of them fit-eligible (21 with both sides at
+grade A), against 23 frozen rows. Five separate Opus 5.5 `high` reviews are reconciled; the
+owner's decision on the locked evaluation comes next (see the roadmap). Coverage status: we have
 one hundred twenty-seven draft dossiers and 0 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one

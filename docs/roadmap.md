@@ -10,11 +10,14 @@ current baseline rows dropping out as loss-derived). Owner decision, same day: "
 for each." The [best-estimate side-strength design](strength-estimates.md) is accepted after a
 separate design review and a focused follow-up: graded, source-traceable estimates with
 ranges for each decisive, non-aggregate engagement, beside the unchanged admission
-contract. The draft [estimate ledger](research/strength-estimates-ledger-v1.md) now covers all
-91 decisive, non-aggregate engagements and replays with `estimate-check`. It gives 21, 31
-and 40 fit-eligible rows at grades A, A–B and A–C, against 23 frozen rows, and leaves 72 of
-182 sides blank for lack of any count. Separate review in campaign batches is next; no fit
-runs without an explicit owner authorization naming the reviewed ledger. See **Next priority** below. The coverage-first direction that follows still bounds any
+contract. The [estimate ledger](research/strength-estimates-ledger-v1.md) covers all
+91 decisive, non-aggregate engagements and replays with `estimate-check`. Four campaign-batch
+reviews and an engine review (Claude Opus 5.5 `high`, 2026-09-25) are reconciled: every
+required finding was checked and applied. The reviewed ledger gives 21, 29 and 37
+fit-eligible rows at grades A, A–B and A–C, against 23 frozen rows, and leaves 76 of 182
+sides blank for lack of a usable candidate value. The next step is the owner's decision on
+the locked evaluation (design §6); no fit runs without an explicit authorization naming the
+reviewed ledger's hash. See **Next priority** below. The coverage-first direction that follows still bounds any
 further research depth.
 
 Owner direction, 2026-09-20: the repeated Shiloh source investigations exceeded
@@ -410,8 +413,10 @@ regardless of outcome, reputation or available strengths.
 Owner decision, same day, after the [extraction scoping](research/reported-strength-scoping-v1.md):
 "I feel like we should make our best estimate for each." The immediate next step is the
 [best-estimate design](strength-estimates.md), which sits beside this profile and changes
-none of it; its separate review required ten corrections, now applied. The order of the
-remaining tier-2 steps relative to it is not recorded.
+none of it; its separate review required ten corrections, now applied. The reviewed
+[estimate ledger](research/strength-estimates-ledger-v1.md) followed; five reviews required
+37 corrections, all applied on 2026-09-25. The order of the remaining tier-2 steps relative
+to it is not recorded.
 
 Use the [first-pass protocol](methodology.md#research-depth-and-coverage). Report
 dossier coverage, dimensions still unknown, actual review scope and admitted rows

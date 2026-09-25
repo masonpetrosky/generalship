@@ -1,0 +1,113 @@
+{
+  "review_sha256": "43c70a6f780bf21e91faed71814d9cb5027055113a9e1ff0767021cc007be11d",
+  "prepared_commit": "4fd1b512f9e4db0402537bfe577031a6cc6939f6",
+  "bundle_commit": "9dfd6524c9d88b481474e49ff457436d1ea60a5d",
+  "scope": "batch 3 (23 engagements, TN012 to AR008)",
+  "findings": [
+    {
+      "finding_id": "E3-R1",
+      "disposition": "accepted_applied",
+      "summary": "TN012: us-jp moved to the Confederate side as cs-jp-forrest (partial lower bound); cs-cist partial lower bound (Wharton's command)."
+    },
+    {
+      "finding_id": "E3-R2",
+      "disposition": "accepted_applied",
+      "summary": "VA032: cs-dd-hooker renamed cs-dd-forbes, codes [scope_unresolved]; Confederate C 62,000 (43,400-80,600)."
+    },
+    {
+      "finding_id": "E3-R3",
+      "disposition": "accepted_applied",
+      "summary": "VA033 cs-sedgwick: adversary + partial lower bound; Confederate grade D with the reviewer null_reason."
+    },
+    {
+      "finding_id": "E3-R4",
+      "disposition": "accepted_applied",
+      "summary": "LA011 cs-dennis-est: adversary + partial lower bound (McCulloch's brigade)."
+    },
+    {
+      "finding_id": "E3-R5",
+      "disposition": "accepted_applied",
+      "summary": "PA002 cs-lv-eff: engagement_link_unknown; Confederate B 75,050 on the engaged basis."
+    },
+    {
+      "finding_id": "E3-R6",
+      "disposition": "accepted_applied",
+      "summary": "MS009: cs-lv-pemberton (17,500, scope_unresolved) and cs-lv-mar31 (22,198 present for duty, engagement_link_unknown) added; inventory reason replaced."
+    },
+    {
+      "finding_id": "E3-R7",
+      "disposition": "accepted_applied",
+      "summary": "MS004 cs-greene and MS009 cs-desc: engagement_link_unknown."
+    },
+    {
+      "finding_id": "E3-R8",
+      "disposition": "accepted_applied",
+      "summary": "NC010 cs-foster-pettigrew: adversary + partial lower bound."
+    },
+    {
+      "finding_id": "E3-R9",
+      "disposition": "accepted_applied",
+      "summary": "TN015 us-jp-surrendered: partial lower bound, with loss_timing not_prior per E3-A8 in place of post_engagement_state."
+    },
+    {
+      "finding_id": "E3-R10",
+      "disposition": "accepted_applied",
+      "summary": "AL001 cs-jp-roddy (350) and TN013 us-jp-cav (600) added as partial lower bounds."
+    },
+    {
+      "finding_id": "E3-A1",
+      "disposition": "accepted_applied",
+      "summary": "Both completed sums added: TN012 cs-jp-sum 2,800 (high 2,940) and LA011 cs-dennis-sum 2,700 (adversary; C 2,030, 1,350-2,700; the row stays ABC)."
+    },
+    {
+      "finding_id": "E3-A2",
+      "disposition": "kept_as_is",
+      "summary": "MS008 row-4 codes kept; the reviewer called them defensible."
+    },
+    {
+      "finding_id": "E3-A3",
+      "disposition": "accepted_applied",
+      "summary": "Gaps recorded in the memo; MS011 cs-lv-assault loss_timing not_prior; PA002 inventory names the p.103 note 1 figure 77,707."
+    },
+    {
+      "finding_id": "E3-A4",
+      "disposition": "accepted_applied",
+      "summary": "VA032 us-dd-cap adds scope_unresolved."
+    },
+    {
+      "finding_id": "E3-A5",
+      "disposition": "not_adopted",
+      "summary": "No wider scan for same-document same-value pairs with different roles was run; the other batch reviews checked their own engagements."
+    },
+    {
+      "finding_id": "E3-A6",
+      "disposition": "kept_as_is",
+      "summary": "MS006 Greene 8,500 basis kept unknown (conservative); the uncited 7,000 not entered."
+    },
+    {
+      "finding_id": "E3-A7",
+      "disposition": "not_adopted",
+      "summary": "NPS live-figure recording style not aligned; estimates unaffected."
+    },
+    {
+      "finding_id": "E3-A8",
+      "disposition": "accepted_applied",
+      "summary": "Applied with E3-R9."
+    },
+    {
+      "finding_id": "E3-A9",
+      "disposition": "accepted_applied",
+      "summary": "Memo table and counts regenerated."
+    }
+  ],
+  "corrected_ledger": {
+    "path": "data/estimates/side-strength-v1.json",
+    "sha256": "0656b03cbdaa088849dc3795f9c6a9e9d6762be10f53f28e4285be46f7fcde89"
+  },
+  "corrected_engine": {
+    "path": "generalship/estimates.py",
+    "sha256": "af540a924aed29b20032319b8779742c0f43e991c118ee747672bba73fc3a32f"
+  },
+  "independent_followup_review": false,
+  "fit_authorized": false
+}
