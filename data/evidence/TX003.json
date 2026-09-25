@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "battle_id": "TX003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Galveston record (January 1, 1863) in Operations Against Galveston [December 1862-January 1863]. Magruder's preparations from November 1862, the Cambria episode of January 3 and the later blockade are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names Companies D, G and I of the 42nd Massachusetts and the blockading ships, and four Confederate gunboats with district troops, without figures; the live field reads 0. Davis says the shore enemy was not less than 3,000 with some twenty guns, and, by their own account, as many on the gunboats. Magruder says he called for 300 volunteers for the boats, gave Cook a storming party of about 500, and had six siege pieces, a railroad-mounted 8-inch gun and fourteen field pieces; he lists the Union vessels and their guns and says the Union land force's strength was unknown to him.",
+      "rationale": "Opponents' estimates and partial Confederate details: Davis's 3,000 is his January 1 estimate of the shore force; Magruder's call for 300 volunteers preceded the attack, and the 500-man storming party and the guns are his January 1 dispositions. No return. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX003"
+          },
+          "column": "forces_text",
+          "quote": "Companies D, G and I, 42nd Massachusetts Volunteer Infantry Regiment and the Blockading ships [US]"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX003"
+          },
+          "column": "forces_text",
+          "quote": "four Confederate gunboats and district of Texas, New Mexico, and Arizona troops [CS]"
+        },
+        {
+          "source_id": "nps-tx003-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or15-davis-galveston-selections-v1",
+          "section": "davis-1863-01-10",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "The force of the enemy on shore was not less than 3,000 troops, with some twenty pieces of artillery"
+        },
+        {
+          "source_id": "or15-davis-galveston-selections-v1",
+          "section": "davis-1863-01-10",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "According to their own account there were not less than the same number of troops on their various gunboats."
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "This call was for 300 men."
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "the storming party of about 500 men"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "I had at my disposal six siege pieces"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "a railroad ram, armed with an 8-inch Dahlgren"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s fleet, then lying in the waters of Galveston, consisted of the Harriet Lane"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "In addition I had fourteen field pieces"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "a considerable force (strength unknown)"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "wharf-and-barricades",
+      "dimension": "terrain",
+      "value": "Magruder says the Union land force was at the end of a long wharf under the ships' guns, behind two lines of barricades with portions of the wharf removed, so the storming party had to wade; the water was deep and the ladders too short. Davis says they had barricaded the wharf in two places and the building inside. Magruder says Fort Point was open in the rear.",
+      "rationale": "The wharf position was prepared by the Union troops; tag unresolved. No map verification (Long's map not inspected).",
+      "citations": [
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s land forces were stationed at the end of a long wharf"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "The ap- proaches landward to this position were impeded by two lines of strong barricades"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "The water was deep, the wharf proving higher than was anticipated"
+        },
+        {
+          "source_id": "or15-davis-galveston-selections-v1",
+          "section": "davis-1863-01-10",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "We had also barricaded the wharf in two places."
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "This fort was entirely open in the rear"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "guns-rail-and-stores",
+      "dimension": "logistics",
+      "value": "Magruder says the heavy guns were hauled 7 to 9 miles between sunset and midnight and that the railroad from Virginia Point, never cut by the Union forces, carried his heavy gun toward the fleet. Davis lists intrenching tools for 500 men, thirty days' commissary supplies, medical stores and about 25,000 rounds lost.",
+      "rationale": "Movement and stores from interested reports; not returns.",
+      "citations": [
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "Three of the heaviest of the siege guns had to be transported 9 miles, the others 7 miles"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "The railway track had been permitted to remain from Virginia Point to Galveston"
+        },
+        {
+          "source_id": "or15-davis-galveston-selections-v1",
+          "section": "davis-1863-01-10",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "We had intrenching tools for 500 men"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-and-assurances",
+      "dimension": "information",
+      "value": "Magruder says he passed through the city at night with 80 men to inspect the abandoned forts. Davis says the naval officers assured the companies of safety on the wharf, and that the pickets were driven in about 3 a.m.",
+      "rationale": "Knowledge attributed in interested reports; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "I took with me a party of 80 men, supported by 300 more, and passing through the city of Galveston at night I inspected the forts"
+        },
+        {
+          "source_id": "or15-davis-galveston-selections-v1",
+          "section": "davis-1863-01-10",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "the officers of the gunboat assured us of entire and perfect safety in our position"
+        },
+        {
+          "source_id": "or15-davis-galveston-selections-v1",
+          "section": "davis-1863-01-10",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "About 3 o’clock on the morning of January 1, 1863"
+        },
+        {
+          "source_id": "or15-davis-galveston-selections-v1",
+          "section": "davis-1863-01-10",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "our pickets were driven in by the enemy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Magruder says he meant to destroy the Union land forces in detail as they arrived and counted with confidence only on expelling the fleet. Davis says Burrell's orders were to land and take post.",
+      "rationale": "Stated aims from interested reports.",
+      "citations": [
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "with the object of destroying in detail his land forces as fast as they might arrive."
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "I therefore had not calculated with confidence on a success greater than that of the expulsion of the enemy’s fleet from the harbor."
+        },
+        {
+          "source_id": "or15-davis-galveston-selections-v1",
+          "section": "davis-1863-01-10",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "Colonel Burrell’s orders were to land and take post."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Major General John B. Magruder, Colonel Isaac S. Burrell and Commander W. B. Renshaw (navy). Magruder led the center assault and fired the signal gun, and credits Leon Smith with the boats and Green with the troops on them. Davis says Burrell sent him to the gunboats to ask for the men to be taken off. Both say Renshaw was killed when the Westfield was blown up.",
+      "rationale": "Command roles from interested reports; Burrell and Renshaw left no inspected report. No automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TX003",
+            "belligerent": "Confederate",
+            "fullname": "John B. Magruder"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TX003",
+            "belligerent": "US",
+            "fullname": "Isaac S. Burrell"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TX003",
+            "belligerent": "US",
+            "fullname": "W.B. Renshaw"
+          },
+          "column": "rank",
+          "quote": "Commander"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "Leading the center assault in person"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "by discharging the piece myself."
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-01-01",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "The line troops were gallantly commanded by Col. Thomas Green"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-01-01",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "the ships and artillery by Maj. Leon Smith"
+        },
+        {
+          "source_id": "or15-davis-galveston-selections-v1",
+          "section": "davis-1863-01-10",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "Colonel Burrell, not having any information as to the reason of this cessation of firing, then ordered me to go on board the gunboats"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.216 (OCR page markers; not checked against print)",
+          "quote": "Commodore Renshaw blew up his ship and was himself accidently blown up with it."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "flags-of-truce",
+      "dimension": "outcome",
+      "value": "Davis says the companies were marched off as prisoners while flags of truce were still flying at all points. Magruder says the Union vessels left the harbor under a flag of truce in violation of military propriety and that no gun was fired by his men during the stipulated period.",
+      "rationale": "Opposing interested accounts of the truce; neither is adopted.",
+      "citations": [
+        {
+          "source_id": "or15-davis-galveston-selections-v1",
+          "section": "davis-1863-01-10",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "This was done while the flags of truce were still flying at all points."
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-01-02",
+          "locator": "p.211 (OCR page markers; not checked against print)",
+          "quote": "left by the same flagrant violation of military propriety."
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.216 (OCR page markers; not checked against print)",
+          "quote": "not a gun or small-arm was discharged- during the stipulated period"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Magruder says he captured the garrison, the Harriet Lane, two barks and a schooner; Davis that the Harriet Lane was captured, the companies taken and the Westfield blown up.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX003"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-tx003-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-01-01",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "captured the latter and the steamer Harriet Lane, two barks, and a schooner of the former."
+        },
+        {
+          "source_id": "or15-davis-galveston-selections-v1",
+          "section": "davis-1863-01-10",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "They succeeded in capturing the Harriet Lane."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text and the live field read 650 (US 600; CS 50). Magruder gives about 600 prisoners on January 1, 350 exclusive of officers on January 2, and 300 or 400 in his February report; his own loss not over 25 killed and 50 wounded on January 2 and 26 killed and 117 wounded in February. Davis thinks not over 20 of his men were wounded and knows of none killed.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Prisoner counts include naval crews; the frozen 600 is not traced.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX003"
+          },
+          "column": "casualties_text",
+          "quote": "650 total (US 600; CS 50)"
+        },
+        {
+          "source_id": "nps-tx003-v1",
+          "locator": "Estimated Casualties",
+          "quote": "650 total (US 600; CS 50;)"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-01-01",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "I have about 600 prisoners"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-01-02",
+          "locator": "p.211 (OCR page markers; not checked against print)",
+          "quote": "the number of prisoners who fell into our hands was 350, exclusive of officers."
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.216 (OCR page markers; not checked against print)",
+          "quote": "took 300 or 400 prisoners."
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-01-02",
+          "locator": "p.211 (OCR page markers; not checked against print)",
+          "quote": "Our loss will not exceed 25"
+        },
+        {
+          "source_id": "or15-magruder-galveston-selections-v1",
+          "section": "magruder-1863-02-26",
+          "locator": "p.216 (OCR page markers; not checked against print)",
+          "quote": "The loss on our side was 26 killed and 117 wounded."
+        },
+        {
+          "source_id": "or15-davis-galveston-selections-v1",
+          "section": "davis-1863-01-10",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "I do not think over 20 of our troops were wounded and I do not know that any were killed."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Banks's, Burt's and Long's accounts (read, not selected), the naval reports cited by the compiler (Annual Report of the Secretary of the Navy, 1863), Burrell's own account, returns and Long's map remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Davis's January 10, 1863 report and Magruder's January 1-3 and February 26, 1863 reports are interested accounts from opposite sides. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Participants are named as the sources name them; characterizations in the sources (including 'hostile', 'savages', 'massacre' or 'battle') are quoted as the sources' own words and not adopted."
+  ]
+}

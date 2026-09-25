@@ -242,6 +242,31 @@ the duplicate catalog record was dropped.
 reuse their existing groups. Walkerton is scoped to the March 2 ambush; the raid is context. No
 model inputs are changed.
 
+### Frontier and Texas coast first passes (cohort v2), 2026-09-25
+
+The first passes for nine campaigns add **66 records**: the Sioux uprising of 1862, the Texas
+coast 1862, Galveston 1863, Cache Valley 1863, the Sioux (Dakota) 1863 expeditions, the Texas
+coast 1863, Sully's 1864 expedition, Sand Creek 1864 and Brazos Santiago 1865 (memos
+`docs/research/<slug>-first-pass-v1.md`). The records are:
+
+- fourteen NPS HTML/text pairs;
+- Official Records Series I, Volumes XLVIII Part 1 and L Part 1: catalog metadata and full OCR;
+- Bancroft, *History of Utah* (1889), and the Joint Committee's *Massacre of Cheyenne Indians*
+  (1865): catalog metadata and full OCR;
+- thirty selections, some from the registered Volumes XXII Part 1 and XLI Part 1.
+
+**Merge deduplication.** This pass fetched its own copies of Volumes XIII, XV and XXVI Part 1 and
+Navies Volume 19. The OCR files were byte-identical to the registered parents
+(`or13-illinois-ocr-v1`, `or15-illinois-ocr-v1`, `or26-1-illinois-ocr-v1`, `orn19-trent-ocr-v1`), so
+they were not registered again, and the duplicate catalog records were dropped.
+
+**Author groups.** Magruder reuses `magruder-big-bethel-reports`. Sibley, Sully and Crocker each
+have one group across campaigns. `sibley-sioux-reports` and `sibley-new-mexico-1862-reports` both
+carry the author string "Henry H. Sibley" but are separate groups: the reports come from opposite
+sides of different campaigns. The committee report and Smith's testimony, printed in one volume,
+are treated as separate families. No Dakota, Shoshone, Cheyenne or Arapaho account was obtained.
+No model inputs are changed.
+
 ### Carolinas Campaign first pass (cohort v2), 2026-09-25
 
 The [first pass](research/carolinas-first-pass-v1.md) adds **23 records**:

@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "battle_id": "MN002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Wood Lake record (September 23, 1862) in Operations to Suppress the Sioux Uprising [August-September 1862]. Sibley's march from Fort Ridgely from September 19, the prisoners held by the Dakota and the later surrender at Camp Release are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives volunteer troops of about 1,500 (US bounds 1,500 and 1,500) and the Santee Sioux without figures; the frozen description says Sibley set out with 1,500 and escaped an ambush by 700 warriors. Sibley says the camp was attacked by about 300 Indians, and relays the half-breed Joseph Campbell's statement that 800 were assembled within 2 miles but the greater part took no share in the fight; he names his cavalry as only 27 and says the other companies of the Sixth were held back to defend the camp. Marshall reports five companies of the Seventh engaged.",
+      "rationale": "Column, attacking and assembled figures of different scopes: the 1,500 is the column leaving Fort Ridgely on September 19; the 300 attackers, the 27 cavalry and Campbell's 800 assembled (relayed hearsay) refer to September 23; the frozen 700 is not traced. No account by the Dakota side was inspected; every statement of their numbers, aims and losses comes from their opponents or from the NPS summary. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MN002"
+          },
+          "column": "forces_text",
+          "quote": "Volunteer troops (about 1,500) [US]; Santee Sioux [I]"
+        },
+        {
+          "source_id": "nps-mn002-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MN002"
+          },
+          "column": "description",
+          "quote": "set out from Fort Ridgely with 1,500 volunteers"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MN002"
+          },
+          "column": "description",
+          "quote": "an ambush by 700 warriors under Chief Little Crow"
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "About 7 o’clock this morning the camp was attacked by about 300 Indians"
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "He further states that 800 men were assembled at the Yellow Medicine, within 2 miles of my camp, but that the greater part took no share in the fight."
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "his small but gallant cavalry, only 27 in number"
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "The other companies of the Sixth Regiment were not engaged, having been held in position to defend the rear of the camp"
+        },
+        {
+          "source_id": "or13-marshall-wood-lake-selections-v1",
+          "section": "marshall-1862-09-23",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "the Seventh Begiment (five companies)"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "ravine-and-rifle-pits",
+      "dimension": "terrain",
+      "value": "Sibley says part of the attacking force moved down a ravine to outflank the Third Regiment and was cleared by Marshall's charge; Marshall faced the ravine, and half of Company H held rifle pits dug for the protection of the camp. The Yellow Medicine River was about 3 miles off.",
+      "rationale": "Natural ravine and a prepared camp position from interested reports; tag unresolved. No map verification.",
+      "citations": [
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "another portion of the Indian force passed down a ravine, with a view to outflank the Third Regi- ment"
+        },
+        {
+          "source_id": "or13-marshall-wood-lake-selections-v1",
+          "section": "marshall-1862-09-23",
+          "locator": "p.281 (OCR page markers; not checked against print)",
+          "quote": "facing the ravine occupied by the Indians."
+        },
+        {
+          "source_id": "or13-marshall-wood-lake-selections-v1",
+          "section": "marshall-1862-09-23",
+          "locator": "p.281 (OCR page markers; not checked against print)",
+          "quote": "He was ordered to place half his men in the rifle pits (dug for the protection of camp)"
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "This morning I had determined to cross the Yellow Medicine River, about 3 miles distant"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-ammunition-and-cavalry",
+      "dimension": "logistics",
+      "value": "Sibley says he was very much in want of bread rations, 6-pounder ammunition and howitzer shells and would have to fall back unless supplied, and that with 500 cavalry he could have ended the campaign.",
+      "rationale": "Stated needs in an interested report; not a return.",
+      "citations": [
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "I am very much in want of bread rations, 6-pounder ammunition, and shells for the howitzer; and unless soon supplied I shall be obliged to fall back"
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "If I had been provided with 500 of this description of force to-day"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouts-and-campbell",
+      "dimension": "information",
+      "value": "Sibley says small parties of Indians had been in plain sight each day as scouts. After the fight Campbell told him of dissension in the Dakota camp and that Little Crow's intended night attack had been overruled.",
+      "rationale": "Knowledge attributed in an interested report; Campbell's statements are relayed hearsay. No message log inspected.",
+      "citations": [
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "There have been small parties of Indians each day in plain sight, evidently acting as scouts for the main body."
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "I am assured by Campbell that there is serious dissension in the Indian camp"
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "The intention of Little Crow was to attack us last night, but he was overruled by others"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Sibley meant to cross the Yellow Medicine and await a company of the Seventh; he feared a retreat would let the Dakota escape with their captives, and answered the Wahpeton flag of truce that peace could be discussed when the prisoners were delivered.",
+      "rationale": "Stated aims from an interested report; the Wahpeton message is relayed by Sibley. No account by the Dakota side was inspected; every statement of their numbers, aims and losses comes from their opponents or from the NPS summary.",
+      "citations": [
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "there await the arrival of Captain Rogers’ company of the Seventh Regiment"
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "as it would afford time for the escape of the Indians with their captives."
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "they were not strong enough to fight us; that they desired peace"
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "when the prisoners held by them were delivered up there would be time enough to talk of peace"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Colonel Henry Hastings Sibley and Little Crow (no rank recorded); the live page gives Sibley as brigadier general and tags Little Crow [CS], neither adopted. Sibley's 1865 note says he was acting as colonel under the Governor's authority and had not yet received the order to report to Pope. Sibley sent Gorman's Renville Rangers to check the attack and ordered Marshall with five companies of the Seventh to the support of the Third; Marshall led the charge. The inspected reports mention Little Crow only in Campbell's relayed statement.",
+      "rationale": "Command roles from interested reports; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MN002",
+            "belligerent": "US",
+            "fullname": "Henry Hastings Sibley"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MN002",
+            "belligerent": "Native American",
+            "fullname": "Little Crow"
+          },
+          "column": "fullname",
+          "quote": "Little Crow"
+        },
+        {
+          "source_id": "nps-mn002-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Henry Sibley [US]"
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1865-11-18-note",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "under whose authority I was acting as colonel commanding the expe- ditiouary forces"
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1865-11-18-note",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "but I had not yet received the order requiring me to report to him"
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "The Renville Guards, under Lieutenant Gorman, was sent by me to check them"
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "I ordered Lieutenant-Colonel Marshall, with five companies of the Seventh Regiment"
+        },
+        {
+          "source_id": "or13-marshall-wood-lake-selections-v1",
+          "section": "marshall-1862-09-23",
+          "locator": "p.281 (OCR page markers; not checked against print)",
+          "quote": "I gained a good position from which to charge the Indians."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory; NPS says Sibley's force won the day and calls Wood Lake the first decisive defeat of the Sioux. Sibley says the Indians, repulsed at all points after about two hours, retired with precipitation.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MN002"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-mn002-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MN002"
+          },
+          "column": "description",
+          "quote": "Wood Lake was the first decisive defeat of the Sioux since the uprising began."
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "The battle raged for about two hours"
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "when the Indians, repulsed at all points with great loss, retired with precipitation."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads US 37 and Indian losses unknown; the live field reads 66 (US 41; CS 25). Sibley gives 4 killed and 35 to 40 wounded; he relays Campbell's 30 Indians killed and says 14 bodies were found and buried. Marshall gives one killed, two wounded and one bruised in his five companies and 7 enemy dead brought in by his command.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Sibley's 14 buried and Marshall's 7 may overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MN002"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US 37; I unknown)"
+        },
+        {
+          "source_id": "nps-mn002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "66 total (US 41; CS 25;)"
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "Four of our men were killed, and between 35 and 40 were wounded"
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "was 30 killed and a large number wounded."
+        },
+        {
+          "source_id": "or13-sibley-wood-lake-selections-v1",
+          "section": "sibley-1862-09-23",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "We found and buried 14 of the bodies"
+        },
+        {
+          "source_id": "or13-marshall-wood-lake-selections-v1",
+          "section": "marshall-1862-09-23",
+          "locator": "p.281 (OCR page markers; not checked against print)",
+          "quote": "Private Charles Frink, Company A, killed"
+        },
+        {
+          "source_id": "or13-marshall-wood-lake-selections-v1",
+          "section": "marshall-1862-09-23",
+          "locator": "p.281 (OCR page markers; not checked against print)",
+          "quote": "made 7 of the enemy’s dead brought in by my command."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The Dakota side's account, the source of the frozen 700 and 1,500, Sibley's field returns, the later surrender at Camp Release, histories of the war and maps remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Sibley's September 23, 1862 report (with his 1865 note) and Marshall's report of the same day are interested accounts; Marshall's was transmitted with Sibley's, but each is a separate author family. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Participants are named as the sources name them; characterizations in the sources (including 'hostile', 'savages', 'massacre' or 'battle') are quoted as the sources' own words and not adopted."
+  ]
+}

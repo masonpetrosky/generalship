@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "battle_id": "TX001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Sabine Pass record (September 24-25, 1862) in Operations to Blockade the Texas Coast [September 1862-January 1863]. The Taylor's Bayou bridge raid of September 27, the capture of blockade runners and Crocker's Calcasieu and Mermentau expeditions are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Kensington, Rachel Seaman and mortar schooner Henry James and gives the Fort Griffith garrison as 30 with 25 mounted men 3 1/2 miles away (CS bounds 55 and 55); the live field reads 0. Debray, at Houston on September 25, says Major Irvine had only 30 men at the fort and about 25 mounted men 3 1/2 miles off, the rest of the battalion being on yellow-fever furlough. Spaight says a detachment of Company B garrisoned the works and a detachment of 26 of Company E arrived at nightfall. Crocker names his three vessels and a strong party from the Kensington, without figures.",
+      "rationale": "Debray's second-hand figure, reported from Houston on September 25, matches the frozen table; Spaight's 26 arrived at nightfall on September 24, a different moment; the Union crews are not counted. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX001"
+          },
+          "column": "forces_text",
+          "quote": "Fort Griffith Garrison (30) and 25 mounted men 3 1/2 miles away [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX001"
+          },
+          "column": "forces_text",
+          "quote": "Steamer Kensington, Schooner Rachel Seaman, and Mortar Schooner Henry James [US]"
+        },
+        {
+          "source_id": "nps-tx001-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or15-debray-sabine-pass-selections-v1",
+          "section": "debray-1862-09-25",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "Major Irvine has at the fort near Sabine Pass only 30 men, and about 25 mounted men 3J miles from the fort."
+        },
+        {
+          "source_id": "or15-debray-sabine-pass-selections-v1",
+          "section": "debray-1862-09-25",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "furlough all his men, except those above referred to"
+        },
+        {
+          "source_id": "or15-spaight-sabine-pass-selections-v1",
+          "section": "spaight-1862-09-26",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "with the exception of a detachment of artillery (Company B) to garrison the works."
+        },
+        {
+          "source_id": "or15-spaight-sabine-pass-selections-v1",
+          "section": "spaight-1862-09-26",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "a detachment of 26 of his company, arrived at the fort at night-fall."
+        },
+        {
+          "source_id": "orn19-crocker-sabine-pass-selections-v1",
+          "section": "crocker-1862-10-02",
+          "locator": "p.218 (OCR page markers; not checked against print)",
+          "quote": "the two schooners having on board a strong party from the Kensington"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "bar-and-range",
+      "dimension": "terrain",
+      "value": "Crocker says his vessels failed to cross the bar the first night, only the Rachel Seaman crossed next evening, and the Henry Janes was kedged over; his night boat expedition was entangled on reefs. Spaight says the battery's shot fell short while the enemy's longer-range guns reached the works.",
+      "rationale": "Natural bar and reefs and the guns' relative range, from interested reports; tag unresolved because gun range is not terrain.",
+      "citations": [
+        {
+          "source_id": "orn19-crocker-sabine-pass-selections-v1",
+          "section": "crocker-1862-10-02",
+          "locator": "p.218 (OCR page markers; not checked against print)",
+          "quote": "we attempted to pass the bar that night, but did not succeed."
+        },
+        {
+          "source_id": "orn19-crocker-sabine-pass-selections-v1",
+          "section": "crocker-1862-10-02",
+          "locator": "p.218 (OCR page markers; not checked against print)",
+          "quote": "the Henry Janes was kedged over"
+        },
+        {
+          "source_id": "orn19-crocker-sabine-pass-selections-v1",
+          "section": "crocker-1862-10-02",
+          "locator": "p.218 (OCR page markers; not checked against print)",
+          "quote": "tangled from the reefs"
+        },
+        {
+          "source_id": "or15-spaight-sabine-pass-selections-v1",
+          "section": "spaight-1862-09-26",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "the enemy was enabled, with his longer-range guns"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "fever-and-evacuation",
+      "dimension": "logistics",
+      "value": "Debray and Spaight say yellow fever led to the furlough or withdrawal of most of the battalion; Spaight says the guns were spiked and the ordnance stores and other property removed by daylight, with two fever patients left in the hospital.",
+      "rationale": "Garrison condition and evacuation from interested reports; not a return.",
+      "citations": [
+        {
+          "source_id": "or15-debray-sabine-pass-selections-v1",
+          "section": "debray-1862-09-25",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "when the yellow fever broke out at Sabine Pass"
+        },
+        {
+          "source_id": "or15-spaight-sabine-pass-selections-v1",
+          "section": "spaight-1862-09-26",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "on the breaking out of the yellow fever among the troops at Sabine City they were withdrawn"
+        },
+        {
+          "source_id": "or15-spaight-sabine-pass-selections-v1",
+          "section": "spaight-1862-09-26",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "The evacuation was completed by daylight the next morning and all the Government property saved."
+        },
+        {
+          "source_id": "or15-spaight-sabine-pass-selections-v1",
+          "section": "spaight-1862-09-26",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "two of the men recently attacked by yellow fever were not in a condition to be removed"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "express-and-messenger",
+      "dimension": "information",
+      "value": "Debray learned of the attack at Houston from an express and a messenger's report of heavy cannonading; Spaight says he had no information on the enemy's force.",
+      "rationale": "Knowledge attributed in interested reports written away from the battery; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or15-debray-sabine-pass-selections-v1",
+          "section": "debray-1862-09-25",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "I received to-day at 7 a. m. an express from Beaumont, bearer of a verbal message"
+        },
+        {
+          "source_id": "or15-spaight-sabine-pass-selections-v1",
+          "section": "spaight-1862-09-26",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "I have no information as to the force of the enemy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Crocker led a night boat expedition to attack the battery in the rear. Spaight says Irvine judged it a fruitless exposure of men and property to hold the works another day. Debray thought the enemy aimed to destroy the fort and shipping and meant to retake the Pass if it was held.",
+      "rationale": "Stated aims and judgments from interested reports.",
+      "citations": [
+        {
+          "source_id": "orn19-crocker-sabine-pass-selections-v1",
+          "section": "crocker-1862-10-02",
+          "locator": "p.218 (OCR page markers; not checked against print)",
+          "quote": "tion up the pass to attack them in the rear"
+        },
+        {
+          "source_id": "or15-spaight-sabine-pass-selections-v1",
+          "section": "spaight-1862-09-26",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "Major Irvine determined that it would be a fruitless exposure of the men and public property to attempt to hold the works another day"
+        },
+        {
+          "source_id": "or15-debray-sabine-pass-selections-v1",
+          "section": "debray-1862-09-25",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "My impression is that an attempt has been made by the enemy to destroy the fort and the shipping at the mouth of the river"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Acting Master Frederick Crocker (navy) and Major J. S. Irvine; the live page gives Crocker as lieutenant, not adopted. Spaight says Irvine commanded at the Pass in his absence and Captain K. D. Keith commanded the battery. Crocker received the surrender of the town and credits Pennington's getting the Henry Janes over the bar with the expedition's success.",
+      "rationale": "Command roles from interested reports; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TX001",
+            "belligerent": "US",
+            "fullname": "Frederick Crocker"
+          },
+          "column": "rank",
+          "quote": "Acting Master"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TX001",
+            "belligerent": "Confederate",
+            "fullname": "J.S. Irvine"
+          },
+          "column": "rank",
+          "quote": "Major"
+        },
+        {
+          "source_id": "nps-tx001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant Frederick Crocker [US]"
+        },
+        {
+          "source_id": "or15-spaight-sabine-pass-selections-v1",
+          "section": "spaight-1862-09-26",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "Maj. J. S. Irvine, commanding at Sabine Pass during my absence under orders at Houston"
+        },
+        {
+          "source_id": "or15-spaight-sabine-pass-selections-v1",
+          "section": "spaight-1862-09-26",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "Capt. K. D. Keith, in the immediate command of the battery"
+        },
+        {
+          "source_id": "orn19-crocker-sabine-pass-selections-v1",
+          "section": "crocker-1862-10-02",
+          "locator": "p.218 (OCR page markers; not checked against print)",
+          "quote": "while I received the surrender of the town."
+        },
+        {
+          "source_id": "orn19-crocker-sabine-pass-selections-v1",
+          "section": "crocker-1862-10-02",
+          "locator": "p.218 (OCR page markers; not checked against print)",
+          "quote": "the expedition is mainly indebted for its complete and bloodless success"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Crocker says the town was in his possession and the battery destroyed; Spaight says the battery was evacuated in the night with the guns spiked.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX001"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tx001-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "orn19-crocker-sabine-pass-selections-v1",
+          "section": "crocker-1862-10-02",
+          "locator": "p.217 (OCR page markers; not checked against print)",
+          "quote": "The town is in our possession and the battery"
+        },
+        {
+          "source_id": "or15-spaight-sabine-pass-selections-v1",
+          "section": "spaight-1862-09-26",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "spiked the guns, consisting of two 32-pounders and two 18-pounders."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads 0 (US 0; CS 0). Crocker reports no loss on his side; Spaight gives no casualty figure.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live zeros are not adopted as measured losses.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX001"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-tx001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "orn19-crocker-sabine-pass-selections-v1",
+          "section": "crocker-1862-10-02",
+          "locator": "p.217 (OCR page markers; not checked against print)",
+          "quote": "without the loss of a single man on our side."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Irvine's and Keith's own reports (if any), Hooper's and Pennington's reports (ORN 19; seen only in part or as search hits), returns and maps remain deferred. Debray's report is the targeted follow-up for the frozen 30 and 25.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Spaight's September 26, 1862 report and Crocker's October 2, 1862 report (ORN) are interested accounts from opposite sides; Debray's September 25 report, written at Houston from messengers, is a separate family used as the follow-up. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Participants are named as the sources name them; characterizations in the sources (including 'hostile', 'savages', 'massacre' or 'battle') are quoted as the sources' own words and not adopted."
+  ]
+}

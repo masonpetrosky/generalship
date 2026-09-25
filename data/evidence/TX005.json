@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "battle_id": "TX005",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Palmito Ranch record (May 12-13, 1865) in Expedition from Brazos Santiago [May 1865]. The crossing from Brazos Santiago on May 11 and the return to Boca Chica and re-embarkation on May 14 are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names detachments of the 62nd U.S. Colored Infantry, 2nd Texas Cavalry and 34th Indiana, and of Gidding's regiment, Anderson's battalion and others, without figures; the live field reads 0. Barrett and Branson give 250 of the 62nd and 50 dismounted men of the 2nd Texas Cavalry crossing on May 11, and Barrett about 200 of the 34th Indiana joining on the 13th. Branson expected an outpost of sixty-five at White's Ranch, says the Palmetto Ranch camp had held about 190 men and horses, and that the nearest enemy body in the retreat was 250 strong with two guns; Barrett says the enemy had six 12-pounder field pieces.",
+      "rationale": "Union column figures and opponents' estimates of parts of the Confederate force: 250 and 50 crossed on May 11; 200 joined on May 13; the outpost of sixty-five was expected on May 12; about 190 had occupied the camp before noon on May 12; the 250 with two guns and the six field pieces refer to the afternoon of May 13. No Confederate report was inspected. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX005"
+          },
+          "column": "forces_text",
+          "quote": "Detachments from the 62nd U.S. Colored Infantry Regiment, 2nd Texas Cavalry Regiment, and 34th Indiana Volunteer Infantry [US]"
+        },
+        {
+          "source_id": "nps-tx005-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or48-1-barrett-palmetto-ranch-selections-v1",
+          "section": "barrett-1865-08-10",
+          "locator": "p.265 (OCR page markers; not checked against print)",
+          "quote": "an expedition consisting of 250 men of the Sixty-second U. S. Colored Inlantry"
+        },
+        {
+          "source_id": "or48-1-barrett-palmetto-ranch-selections-v1",
+          "section": "barrett-1865-08-10",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "about 200 men of the Thirty-fourth Indiana Veteran Volunteer Infantry"
+        },
+        {
+          "source_id": "or48-1-branson-palmetto-ranch-selections-v1",
+          "section": "branson-1865-05-18",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "with 250 of the Sixty-second U. S. Colored Infantry, and 50 men of Second Texas Cavalry, not mounted"
+        },
+        {
+          "source_id": "or48-1-branson-palmetto-ranch-selections-v1",
+          "section": "branson-1865-05-18",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "a rebel outpost of sixty-five men, horses, and cattle"
+        },
+        {
+          "source_id": "or48-1-branson-palmetto-ranch-selections-v1",
+          "section": "branson-1865-05-18",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "which had been occupied by about 190 men and horses"
+        },
+        {
+          "source_id": "or48-1-branson-palmetto-ranch-selections-v1",
+          "section": "branson-1865-05-18",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "est body of the enemy, 250 strong, Avith two pieces of artillery"
+        },
+        {
+          "source_id": "or48-1-barrett-palmetto-ranch-selections-v1",
+          "section": "barrett-1865-08-10",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "Having no artillery to oppose the enemy’s six l2-pounder field"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "river-and-chaparral",
+      "dimension": "terrain",
+      "value": "Barrett says the afternoon fight was in the chaparral and that in the last position the Rio Grande was on his left and the enemy's flanking force under cover of thick chaparral on his right; Branson says the force fell back to a bluff on the river about twelve miles from Boca Chica.",
+      "rationale": "Natural ground from interested reports; no map verification.",
+      "citations": [
+        {
+          "source_id": "or48-1-barrett-palmetto-ranch-selections-v1",
+          "section": "barrett-1865-08-10",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "under cover of the thick chaparral on our right"
+        },
+        {
+          "source_id": "or48-1-barrett-palmetto-ranch-selections-v1",
+          "section": "barrett-1865-08-10",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "With the Bio Grande on our left"
+        },
+        {
+          "source_id": "or48-1-branson-palmetto-ranch-selections-v1",
+          "section": "branson-1865-05-18",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "a bluff on the river, about twelve miles from Boca Chica"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "storm-rations-and-stores",
+      "dimension": "logistics",
+      "value": "Branson says a storm and a broken ferry steamer forced the crossing at Boca Chica, with 100 rounds of ammunition and rations cut from seven days to five by Barrett's order. Barrett says the stores that escaped burning on the 12th were destroyed on the 13th.",
+      "rationale": "Supply statements from interested reports; not returns.",
+      "citations": [
+        {
+          "source_id": "or48-1-branson-palmetto-ranch-selections-v1",
+          "section": "branson-1865-05-18",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "A storm coming, and steamer intended to be used for ferry breaking her machinery"
+        },
+        {
+          "source_id": "or48-1-branson-palmetto-ranch-selections-v1",
+          "section": "branson-1865-05-18",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "with 100 rounds of ammunition and seven days’ rations (afterward five days’ only, by Colonel Barrett’s verbal order)"
+        },
+        {
+          "source_id": "or48-1-barrett-palmetto-ranch-selections-v1",
+          "section": "barrett-1865-08-10",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "Such stores as had escaped destruction the day previous were now destroyed"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "mexican-bank",
+      "dimension": "information",
+      "value": "Branson says people on the Mexican shore saw his hidden command and gave the alarm, while Imperial Mexican soldiers marched up that bank. Barrett says his men were fired on from the Mexican side and reports, on what seemed good authority, that Imperial cavalry crossed during the engagement; NPS calls these reports unproven.",
+      "rationale": "Knowledge attributed in interested reports; the Imperial crossing is a report, not established.",
+      "citations": [
+        {
+          "source_id": "or48-1-branson-palmetto-ranch-selections-v1",
+          "section": "branson-1865-05-18",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "when persons on the Mexican shore seeing ns started to give the alarm to the rebels."
+        },
+        {
+          "source_id": "or48-1-barrett-palmetto-ranch-selections-v1",
+          "section": "barrett-1865-08-10",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "were fired upon from the Mexican side of the Rio Grande."
+        },
+        {
+          "source_id": "or48-1-barrett-palmetto-ranch-selections-v1",
+          "section": "barrett-1865-08-10",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "a body of Imperial cavalry crossed the Rio Grande"
+        },
+        {
+          "source_id": "nps-tx005-v1",
+          "locator": "Description",
+          "quote": "These reports are unproven."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "NPS says the expedition was sent to attack reported outposts and camps despite an informal agreement since March 1865 that precluded fighting on the Rio Grande. The inspected Union reports do not mention such an agreement; Barrett says he ordered the advance renewed toward Palmetto Ranch on the 13th, and Branson hoped to capture the White's Ranch outpost.",
+      "rationale": "The agreement is stated only in the NPS summary; no Confederate account was inspected.",
+      "citations": [
+        {
+          "source_id": "nps-tx005-v1",
+          "locator": "Description",
+          "quote": "Since March 1865, a gentleman's agreement precluded fighting between Union and Confederate forces on the Rio Grande."
+        },
+        {
+          "source_id": "nps-tx005-v1",
+          "locator": "Description",
+          "quote": "to attack reported Rebel outposts and camps."
+        },
+        {
+          "source_id": "or48-1-barrett-palmetto-ranch-selections-v1",
+          "section": "barrett-1865-08-10",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "I at once ordered an advance to be again made in the direction of Palmetto Banch"
+        },
+        {
+          "source_id": "or48-1-branson-palmetto-ranch-selections-v1",
+          "section": "branson-1865-05-18",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "where we expected to capture a rebel outpost"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Colonel Theodore H. Barrett and Colonel John S. 'Rip' Ford. Branson commanded on the 12th; Barrett assumed command in person on the 13th and ordered the retreat. The inspected reports do not name Ford; only NPS places the Confederate cavalry under him.",
+      "rationale": "Command roles from interested Union reports and the NPS summary; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TX005",
+            "belligerent": "US",
+            "fullname": "Theodore H. Barrett"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TX005",
+            "belligerent": "Confederate",
+            "fullname": "John S. \"Rip\" Ford"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "or48-1-barrett-palmetto-ranch-selections-v1",
+          "section": "barrett-1865-08-10",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "the whole under Lieutenant-Colonel Branson"
+        },
+        {
+          "source_id": "or48-1-barrett-palmetto-ranch-selections-v1",
+          "section": "barrett-1865-08-10",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "Assuming command in person of the forces thus united"
+        },
+        {
+          "source_id": "or48-1-branson-palmetto-ranch-selections-v1",
+          "section": "branson-1865-05-18",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "as ordered by Colonel Barrett, in retreat"
+        },
+        {
+          "source_id": "nps-tx005-v1",
+          "locator": "Description",
+          "quote": "a large Confederate cavalry force, commanded by Col. John S. \"Rip\" Ford"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Barrett says his force fell back fighting for three hours under fire from front and flank and believes the last volley of the war was fired by the 62nd; NPS calls it the last battle of the war.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX005"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-tx005-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or48-1-barrett-palmetto-ranch-selections-v1",
+          "section": "barrett-1865-08-10",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "We therefore fell back, fighting."
+        },
+        {
+          "source_id": "or48-1-barrett-palmetto-ranch-selections-v1",
+          "section": "barrett-1865-08-10",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "The last volley of the war, it is believed, was fired by the Sixty-second U. S. Colored Infantry"
+        },
+        {
+          "source_id": "nps-tx005-v1",
+          "locator": "Description",
+          "quote": "This was the last battle in the Civil War."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads US 118 and CS unknown; the live field reads 148 (US 30; CS 118), placing 118 on the Confederate side. Barrett gives his entire loss in killed, wounded and captured as 4 officers and 111 men, including 48 men of the 34th Indiana captured as skirmishers. Branson gives two men missing, and the compiler's note on his omitted list shows five wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Barrett's 115 and the frozen 118 differ; the live side assignment conflicts with the frozen table.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX005"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US 118; CS unknown)"
+        },
+        {
+          "source_id": "nps-tx005-v1",
+          "locator": "Estimated Casualties",
+          "quote": "148 total (US 30; CS 118;)"
+        },
+        {
+          "source_id": "or48-1-barrett-palmetto-ranch-selections-v1",
+          "section": "barrett-1865-08-10",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "Our entire loss in killed, wounded, and captured was 4 officers and 111 men."
+        },
+        {
+          "source_id": "or48-1-barrett-palmetto-ranch-selections-v1",
+          "section": "barrett-1865-08-10",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "Forty-eight men of the Thirty-fourth Indiana Veteran Volunteer Infantry"
+        },
+        {
+          "source_id": "or48-1-branson-palmetto-ranch-selections-v1",
+          "section": "branson-1865-05-18",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "Casualties, two men ’missing"
+        },
+        {
+          "source_id": "or48-1-branson-palmetto-ranch-selections-v1",
+          "section": "branson-1865-05-18",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "shows five incii Avouuded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Any Confederate report (Ford's or Giddings's), the detailed reports Barrett says went to New Orleans, the 34th Indiana's account, returns and maps remain deferred. No third family was found in the inspected volume.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Barrett's August 10, 1865 report and Branson's May 18, 1865 report are interested Union accounts; Barrett wrote three months later, and each is a separate author family. No Confederate account was inspected. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Participants are named as the sources name them; characterizations in the sources (including 'hostile', 'savages', 'massacre' or 'battle') are quoted as the sources' own words and not adopted."
+  ]
+}

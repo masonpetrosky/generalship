@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "battle_id": "TX002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Galveston record (October 4, 1862) in Operations to Blockade the Texas Coast [September 1862-January 1863]. The four-day truce, the evacuation of the island to Virginia Point, the removal of guns and the later occupation are context; the compiler dates the action October 5. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads None and the frozen casualty bounds 0; the live field reads 0. Renshaw names the Westfield, Harriet Lane, Owasco, Clifton and the schooner Henry Janes. Cook says the blockading fleet numbered eight vessels, four armed steamers and a mortar-boat, and that the vessels fired about twenty guns on a battery of one 10-inch gun; two 24-pounders fired from the bay side of the city.",
+      "rationale": "Vessel lists and gun counts, not personnel. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX002"
+          },
+          "column": "forces_text",
+          "quote": "None"
+        },
+        {
+          "source_id": "nps-tx002-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "orn19-renshaw-galveston-selections-v1",
+          "section": "renshaw-1862-10-05",
+          "locator": "p.254 (OCR page markers; not checked against print)",
+          "quote": "The steamers Westfield, Harriet Lane, Commander Wain- wright; Owasco, Commander Guest; Clifton, Lieutenant-Commander Law, and the schooner Henry Janes"
+        },
+        {
+          "source_id": "or15-cook-galveston-selections-v1",
+          "section": "cook-1862-10-09",
+          "locator": "p.151 (OCR page markers; not checked against print)",
+          "quote": "the blockading fleet off the bar of Galveston consisted of eight vessels, four of which were armed steamers, one a mortar-boat"
+        },
+        {
+          "source_id": "or15-cook-galveston-selections-v1",
+          "section": "cook-1862-10-09",
+          "locator": "p.151 (OCR page markers; not checked against print)",
+          "quote": "with about twenty guns on oar battery, which consisted of but one gun, a 10-inch"
+        },
+        {
+          "source_id": "or15-cook-galveston-selections-v1",
+          "section": "cook-1862-10-09",
+          "locator": "p.152 (OCR page markers; not checked against print)",
+          "quote": "the two 24-pounders in battery on the bay side"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "harbor-and-town",
+      "dimension": "terrain",
+      "value": "Renshaw says a battery on Pelican Island proved to be dummy guns, and that silencing the town battery would have meant firing through the populated town where the consular flags flew. Cook says the Fort Point garrison retreated across low, open ground.",
+      "rationale": "Harbor and town features from interested reports; the dummy battery was a prepared feature, so the tag stays unresolved. No chart inspected.",
+      "citations": [
+        {
+          "source_id": "orn19-renshaw-galveston-selections-v1",
+          "section": "renshaw-1862-10-05",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "The guns of a formidable-looking battery on Pelican Island, from which we anticipated a heavy fire, proving to be"
+        },
+        {
+          "source_id": "orn19-renshaw-galveston-selections-v1",
+          "section": "renshaw-1862-10-08",
+          "locator": "p.256 (OCR page markers; not checked against print)",
+          "quote": "where all the consular flags were flying"
+        },
+        {
+          "source_id": "or15-cook-galveston-selections-v1",
+          "section": "cook-1862-10-09",
+          "locator": "p.152 (OCR page markers; not checked against print)",
+          "quote": "retreated across the low, open grounds toward the city."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "removal-and-provisions",
+      "dimension": "logistics",
+      "value": "Cook says he had arranged railroad transportation beforehand and, during the truce, removed the guns, machinery and records, all government property except the 10-inch gun being gone by 11 a.m. on the 8th. Renshaw says his ferryboats carried six weeks' provisions and that yellow fever on shore affected his terms.",
+      "rationale": "Movement and supply statements from interested reports; not returns.",
+      "citations": [
+        {
+          "source_id": "or15-cook-galveston-selections-v1",
+          "section": "cook-1862-10-09",
+          "locator": "p.152 (OCR page markers; not checked against print)",
+          "quote": "I had made arrangements with the railroad com- pany to be ready with transportation to meet any emergency"
+        },
+        {
+          "source_id": "or15-cook-galveston-selections-v1",
+          "section": "cook-1862-10-09",
+          "locator": "p.152 (OCR page markers; not checked against print)",
+          "quote": "we had removed all the Government property of any value ex- cept the 10-inch gun at Fort Point"
+        },
+        {
+          "source_id": "orn19-renshaw-galveston-selections-v1",
+          "section": "renshaw-1862-10-08",
+          "locator": "p.260 (OCR page markers; not checked against print)",
+          "quote": "The ferryboats can carry but six weeks’ provisions"
+        },
+        {
+          "source_id": "orn19-renshaw-galveston-selections-v1",
+          "section": "renshaw-1862-10-08",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "they informed me that the yellow fever prevailed on shore"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-and-deserters",
+      "dimension": "information",
+      "value": "Cook says the assembly of vessels the day before gave every reason to expect an attack. Renshaw learned from a deserter that guns were being removed at night.",
+      "rationale": "Knowledge attributed in interested reports; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or15-cook-galveston-selections-v1",
+          "section": "cook-1862-10-09",
+          "locator": "p.152 (OCR page markers; not checked against print)",
+          "quote": "The assemblage of vessels off the bar on the day previous had given us every reason to expect an attack"
+        },
+        {
+          "source_id": "orn19-renshaw-galveston-selections-v1",
+          "section": "renshaw-1862-10-08",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "The first intimation we bad of their differing from us in the sense of our terms of agreement was through a deserter"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "truce-terms",
+      "dimension": "objectives",
+      "value": "Renshaw demanded the surrender of the forts and then the unconditional surrender of the city. Cook, under standing orders to withdraw if the harbor could not be held, refused to surrender but asked time to remove women and children. Their accounts of the four-day truce differ: Cook says only that no new defenses were to be built or old ones strengthened and the fleet was not to approach; Renshaw says his understanding was that everything should remain as it was, and that the unwritten agreement let the Confederates carry off guns.",
+      "rationale": "Two interested accounts of an unwritten agreement; neither is adopted.",
+      "citations": [
+        {
+          "source_id": "orn19-renshaw-galveston-selections-v1",
+          "section": "renshaw-1862-10-08",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "demand the surrender of the forts, giving them one hour to decide."
+        },
+        {
+          "source_id": "orn19-renshaw-galveston-selections-v1",
+          "section": "renshaw-1862-10-08",
+          "locator": "p.256 (OCR page markers; not checked against print)",
+          "quote": "I demanded the unconditional surrender of the city"
+        },
+        {
+          "source_id": "or15-cook-galveston-selections-v1",
+          "section": "cook-1862-10-09",
+          "locator": "p.152 (OCR page markers; not checked against print)",
+          "quote": "been ordered by the general commanding this department to withdraw our troops from the city"
+        },
+        {
+          "source_id": "or15-cook-galveston-selections-v1",
+          "section": "cook-1862-10-09",
+          "locator": "p.152 (OCR page markers; not checked against print)",
+          "quote": "I sent a messenger with the answer that I should not surrender the city"
+        },
+        {
+          "source_id": "or15-cook-galveston-selections-v1",
+          "section": "cook-1862-10-09",
+          "locator": "p.152 (OCR page markers; not checked against print)",
+          "quote": "that during the time we should not construct any new or strengthen any old defenses within the city, and the fleet not to be brought any nearer the city."
+        },
+        {
+          "source_id": "orn19-renshaw-galveston-selections-v1",
+          "section": "renshaw-1862-10-08",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "My understanding of our terms, in which Commanders Guest and Wain wright and Lieutenant-Commander Law agree with me, was that everything should remain as it was at the time of the agreement."
+        },
+        {
+          "source_id": "orn19-renshaw-galveston-selections-v1",
+          "section": "renshaw-1862-10-08",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "might possibly have been saved had we written out our agreement"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Colonel Joseph J. Cook and Colonel X. B. Debray (Confederate) and Commander W. B. Renshaw (navy). Cook commanded at Galveston, answered the surrender demand and negotiated the truce; he says Debray reached the city on the night of the 4th and gave orders the next day. Renshaw commanded the flotilla and agreed the truce with officers of the other vessels present.",
+      "rationale": "Command roles from interested reports; Debray's part is described by Cook only. No automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TX002",
+            "belligerent": "Confederate",
+            "fullname": "Joseph J. Cook"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TX002",
+            "belligerent": "Confederate",
+            "fullname": "X.B. Debray"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TX002",
+            "belligerent": "US",
+            "fullname": "W.B. Renshaw"
+          },
+          "column": "rank",
+          "quote": "Commander"
+        },
+        {
+          "source_id": "or15-cook-galveston-selections-v1",
+          "section": "cook-1862-10-09",
+          "locator": "p.152 (OCR page markers; not checked against print)",
+          "quote": "On the night of the 4tli you reached the city, and during the next day I received your orders"
+        },
+        {
+          "source_id": "orn19-renshaw-galveston-selections-v1",
+          "section": "renshaw-1862-10-08",
+          "locator": "p.256 (OCR page markers; not checked against print)",
+          "quote": "Captain Guest, who, as well as Captains Wain wright and Law, were with me"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Renshaw says his vessels captured the harbor defenses and city after a feeble resistance; Cook says the troops and material were removed and most of the population left before he withdrew to Virginia Point. NPS says the fall of Galveston closed a Confederate port.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX002"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tx002-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "orn19-renshaw-galveston-selections-v1",
+          "section": "renshaw-1862-10-05",
+          "locator": "p.254 (OCR page markers; not checked against print)",
+          "quote": "yesterday captured, after a feeble resistance, the defenses of the harbor and city of Galveston."
+        },
+        {
+          "source_id": "or15-cook-galveston-selections-v1",
+          "section": "cook-1862-10-09",
+          "locator": "p.152 (OCR page markers; not checked against print)",
+          "quote": "I left with my staff for Virginia Point"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX002"
+          },
+          "column": "description",
+          "quote": "The fall of Galveston meant that one more important Confederate port was closed to commerce."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads None and the frozen and live casualty fields 0. Neither Cook nor Renshaw gives a casualty figure.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Absence of a reported figure is not a measured zero.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX002"
+          },
+          "column": "casualties_text",
+          "quote": "None"
+        },
+        {
+          "source_id": "nps-tx002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Hebert's and Debray's reports (read, not selected), Wainwright's, Guest's and Law's reports, the removal of the guns in detail, returns and maps remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cook's October 9, 1862 report and Renshaw's October 5 and 8, 1862 reports (ORN) are interested accounts from opposite sides. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Participants are named as the sources name them; characterizations in the sources (including 'hostile', 'savages', 'massacre' or 'battle') are quoted as the sources' own words and not adopted."
+  ]
+}

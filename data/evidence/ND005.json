@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "battle_id": "ND005",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Killdeer Mountain record (July 28-29, 1864) in Sully's Expedition Against the Sioux in Dakota Territory [July 1864]. The establishment of Fort Rice, the emigrant train and the August 8-9 fighting in the Little Missouri badlands are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives detachments from eight units (2,200) and the Santee and Teton Sioux without figures (US bounds 2,200 and 2,200); the live field reads 0. Sully lists his two brigades and says the whole force on the field numbered about 2,200; he puts the Indians at over 1,600 lodges and at least 5,000 or 6,000 warriors of the Unkpapas, Sans Arcs, Blackfeet, Minneconjous, Yanktonais and Santee. Thomas also gives 1,600 lodges. NPS gives Pope's planned force of about 2,500.",
+      "rationale": "Sully's July 28 field figure and his estimate of the opposing camp that day; NPS's 2,500 is the planned force, not a field count; the Indian figure is an opponent's estimate. No account by the Dakota bands was inspected; their numbers, aims and losses come from their opponents' estimates, prisoners' or scouts' statements relayed by them, or the NPS summary. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ND005"
+          },
+          "column": "forces_text",
+          "quote": "Detachments from eight units (2,200) [US]; Santee and Teton Sioux [I]"
+        },
+        {
+          "source_id": "nps-nd005-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "field about 2,200 men."
+        },
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "there were over 1,600 lodges, at least 5,000 or 6,000 warriors"
+        },
+        {
+          "source_id": "or41-1-thomas-tahkahokuty-selections-v1",
+          "section": "thomas-1864-08-01",
+          "locator": "p.166 (OCR page markers; not checked against print)",
+          "quote": "the camp of 1,600 lodges."
+        },
+        {
+          "source_id": "nps-nd005-v1",
+          "locator": "Description",
+          "quote": "a force of about 2,500 men"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "mountain-and-ravines",
+      "dimension": "terrain",
+      "value": "Sully says the Indians were posted on Tahkahokuty Mountain, a chain of high hills full of timbered ravines, with rolling prairie in front; the ravines made a mounted charge impossible, so he dismounted. Brackett found ravines and thickets impracticable for horse; Thomas calls the abandoned camp a splendid position for defense.",
+      "rationale": "Natural ground from interested reports; no map verification.",
+      "citations": [
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "which is a small chain of very high hills, filled with ravines, thickly timbered and well watered"
+        },
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "owing to the country being inter- sected by deep ravines filled with timber"
+        },
+        {
+          "source_id": "or41-1-brackett-tahkahokuty-selections-v1",
+          "section": "brackett-1864-08-01",
+          "locator": "p.161 (OCR page markers; not checked against print)",
+          "quote": "ravines and thickets impracticable for horse."
+        },
+        {
+          "source_id": "or41-1-thomas-tahkahokuty-selections-v1",
+          "section": "thomas-1864-08-01",
+          "locator": "p.166 (OCR page markers; not checked against print)",
+          "quote": "which was a splendid position for defense."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "wagons-and-march",
+      "dimension": "logistics",
+      "value": "Sully says the pack saddles supplied were unusable, so he pressed light private wagons into service, threw away tents and kept only provisions and ammunition, and marched over 165 miles in six days including the fight.",
+      "rationale": "Transport statements from an interested report; not a return.",
+      "citations": [
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "I then pressed into the service all the light private wagons with me"
+        },
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "By throwing away all tents, everything but provisions and ammunition, I could move rapidly with a very few wagons."
+        },
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "having made a march of over 165 miles in six days, one day being occupied in the fight."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "notice-and-rear-attack",
+      "dimension": "information",
+      "value": "Sully changed course on information that the Indians were on or near the Knife River; he says they had twenty-four hours' notice of his advance after his scouts met a war party, and that a large body out hunting for him later struck his rear.",
+      "rationale": "Knowledge attributed in an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "receiving information that the Indians were on or near the Knife River"
+        },
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "they had twenty-four hours’ notice of my advance"
+        },
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "who we ascertained afterward had been out hunting for me, came up on my rear."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims-and-white-flag",
+      "dimension": "objectives",
+      "value": "Sully says the Indians prepared to fight confident of beating him, and that when pursuit proved impossible he destroyed their camp. NPS says Sully met some chiefs before attacking; the inspected July 31 report does not mention such a meeting, but says that the day after the fight Indians planted a white flag, were fired on by some men, and that he saw the flag too late.",
+      "rationale": "Stated aims from an interested report; the NPS parley statement is not found in the inspected report. No account by the Dakota bands was inspected; their numbers, aims and losses come from their opponents' estimates, prisoners' or scouts' statements relayed by them, or the NPS summary.",
+      "citations": [
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "no doubt with full confidence of whipping me"
+        },
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "I therefore thought the next best thing to do was to destroy their camp."
+        },
+        {
+          "source_id": "nps-nd005-v1",
+          "locator": "Description",
+          "quote": "Sully met with some of the tribal chiefs first, but nothing came of it so he attacked."
+        },
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "some Indians came forward and planted a white flag on the hill side; some men, however fired on them and they retreated. I saw the flag too late."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen US commander is Brigadier General Alfred Sully. The frozen and live Native American commander is Inkpaduta (no rank; the live page tags him [CS], not adopted); none of the inspected reports names him, so his role is not established here. Sully directed Brackett to charge a large body on the right; Brackett says he asked and received permission to charge with sabers. Thomas commanded the Second Brigade on the left, and McLaren destroyed the camp on the 29th.",
+      "rationale": "Command roles from interested reports; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "ND005",
+            "belligerent": "US",
+            "fullname": "Alfred Sully"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "ND005",
+            "belligerent": "Native American",
+            "fullname": "Inkpaduta"
+          },
+          "column": "fullname",
+          "quote": "Inkpaduta"
+        },
+        {
+          "source_id": "nps-nd005-v1",
+          "locator": "Principal Commanders",
+          "quote": "Chief Inkpaduta"
+        },
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "I directed Brackett to charge them."
+        },
+        {
+          "source_id": "or41-1-brackett-tahkahokuty-selections-v1",
+          "section": "brackett-1864-08-01",
+          "locator": "p.161 (OCR page markers; not checked against print)",
+          "quote": "asking and receiving permission of you to charge them with saber."
+        },
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "This I did, ordering Colonel McLaren, Second Cavalry, on that duty."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Sully says by sunset no Indians were on the ground; Thomas says a very large proportion of the property of the 1,600-lodge camp was destroyed on the 29th.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ND005"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-nd005-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "By sunset no Indians were on the ground."
+        },
+        {
+          "source_id": "or41-1-thomas-tahkahokuty-selections-v1",
+          "section": "thomas-1864-08-01",
+          "locator": "p.166 (OCR page markers; not checked against print)",
+          "quote": "destroying the abandoned property of the Indians, which was a very large propor- tion of all the property belonging to the camp of 1,600 lodges."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads 46 (US 15; CS 31). Sully judges the Indian killed at 100 to 150; Brackett's battalion found 27 dead in its sector (13 after the charge). The compiler's note on Sully's omitted list shows 2 killed and 8 wounded in Brackett's battalion, 1 killed and 1 wounded in the Sixth Iowa, 2 killed in the Second Minnesota Cavalry and 1 wounded in the Dakota cavalry; Thomas mentions two pickets killed on the 29th.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Brackett's 27 may be within Sully's estimate; the live 15 and 31 are not traced.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ND005"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-nd005-v1",
+          "locator": "Estimated Casualties",
+          "quote": "46 total (US 15; CS 31;)"
+        },
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "sully-1864-07-31",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "The total number of killed, judging from what we saw, was from 100 to 150."
+        },
+        {
+          "source_id": "or41-1-brackett-tahkahokuty-selections-v1",
+          "section": "brackett-1864-08-01",
+          "locator": "p.161 (OCR page markers; not checked against print)",
+          "quote": "killing 27 found dead on the field afterward"
+        },
+        {
+          "source_id": "or41-1-brackett-tahkahokuty-selections-v1",
+          "section": "brackett-1864-08-01",
+          "locator": "p.161 (OCR page markers; not checked against print)",
+          "quote": "The charge resulted in the killing of 13 Indians found on the field"
+        },
+        {
+          "source_id": "or41-1-sully-tahkahokuty-selections-v1",
+          "section": "compiler-footnote-casualties",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "sliows 2 killed and 8 wounded in Brackett’s Minne- sota Battalion; 1 killed and 1 wounded in Sixth Iowa Cavalry; 2 killed in Second Minnesota Cavalry; and 1 wounded in the First Battalion Dakota Cavalry."
+        },
+        {
+          "source_id": "or41-1-thomas-tahkahokuty-selections-v1",
+          "section": "thomas-1864-08-01",
+          "locator": "p.166 (OCR page markers; not checked against print)",
+          "quote": "two of the pickets, members of Com- pany D, Second Minnesota Cavalry, were surprised and killed"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Pope's report (read in its opening), Pollock's, Pattee's, Miner's, Stufft's, Pope's battery, Rogers's, Camp's, McLaren's and Adams's reports, the list of property destroyed (p.172), the Dakota bands' account and maps remain deferred. Brackett's report is the targeted follow-up for the casualty figures.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Sully's July 31, 1864 report and Thomas's August 1 report (Second Brigade) are interested accounts; Brackett's August 1 report is a separate family used as the follow-up. Sully also wrote the Whitestone Hill report in the 1863 pass. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Participants are named as the sources name them; characterizations in the sources (including 'hostile', 'savages', 'massacre' or 'battle') are quoted as the sources' own words and not adopted."
+  ]
+}

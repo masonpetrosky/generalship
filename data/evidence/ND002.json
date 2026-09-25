@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "battle_id": "ND002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Dead Buffalo Lake record (July 26, 1863) in Operations Against the Sioux in North Dakota [July 1863]. The move from the Big Mound camp on the 26th is context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the District of Minnesota and the Santee and Teton Sioux without figures; the live field reads 0. Sibley says the Indians were greatly superior in numbers; neither Sibley nor Crooks gives a figure for this action.",
+      "rationale": "No figure in the inspected reports. No account by the Dakota bands was inspected; their numbers, aims and losses come from their opponents' estimates, prisoners' or scouts' statements relayed by them, or the NPS summary. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ND002"
+          },
+          "column": "forces_text",
+          "quote": "District of Minnesota [US]; Santee and Teton Sioux [I]"
+        },
+        {
+          "source_id": "nps-nd002-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "although greatly superior in numbers."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "lake-shore-camp",
+      "dimension": "terrain",
+      "value": "Sibley camped on the border of Dead Buffalo Lake because McPhaill had found neither wood nor water beyond it, and posted guns on a commanding point about 600 yards in advance; the mules were herded on the lake shore.",
+      "rationale": "Camp ground from an interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "I consequently established my camp on the border of that lake"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "a commanding point about 600 yards in advance"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "the mules herded on the shore of the lake."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "wood-water-and-mules",
+      "dimension": "logistics",
+      "value": "Sibley says there was neither wood nor water beyond the lake; the attack on the left aimed, in his view, at stampeding the mules. Crooks says the Indians sought to destroy the transportation.",
+      "rationale": "Supply conditions and inferred aims from interested reports; not a return.",
+      "citations": [
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "I would find neither wood nor water."
+        },
+        {
+          "source_id": "or22-1-crooks-dakota-selections-v1",
+          "section": "crooks-1863-08-05",
+          "locator": "p.362 (OCR page markers; not checked against print)",
+          "quote": "with a view to destroying our transportation"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "mcphaill-report",
+      "dimension": "information",
+      "value": "Sibley chose the camp on McPhaill's earlier report of the ground beyond the lake.",
+      "rationale": "Knowledge attributed in an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "Colonel McPhaill had previously informed me that beyond Dead Buffalo Lake"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Sibley says the Indians, after long-range firing, tried a flank movement on the left of the camp to stampede the mules; Crooks describes a desperate attack on the north front to destroy the transportation.",
+      "rationale": "Aims inferred by opponents. No account by the Dakota bands was inspected; their numbers, aims and losses come from their opponents' estimates, prisoners' or scouts' statements relayed by them, or the NPS summary.",
+      "citations": [
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "evidently with a view to stampede the mules"
+        },
+        {
+          "source_id": "or22-1-crooks-dakota-selections-v1",
+          "section": "crooks-1863-08-05",
+          "locator": "p.362 (OCR page markers; not checked against print)",
+          "quote": "made a desperate attack upon the north front"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen US commander is Brigadier General Henry Hastings Sibley. The frozen and live Native American commander is Inkpaduta (no rank; the live page tags him [CS], not adopted); none of the inspected reports names him, so his role is not established here. Sibley posted Jones's guns and Chase's pioneers and sent Taylor's company to the left; the mounted companies of Wilson and Davy and McLaren's six companies of the Sixth secured the camp's flank. Crooks credits Averill with the skirmish line and McLaren with the reserve.",
+      "rationale": "Command roles from interested reports; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "ND002",
+            "belligerent": "US",
+            "fullname": "Henry Hastings Sibley"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "ND002",
+            "belligerent": "Native American",
+            "fullname": "Inkpaduta"
+          },
+          "column": "fullname",
+          "quote": "Inkpaduta"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "I directed Captain [John] Jones to repair with his section of 6 pounders"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "commanded by Captains [Eugene M.] Wilson and [Peter B.] Davy"
+        },
+        {
+          "source_id": "or22-1-crooks-dakota-selections-v1",
+          "section": "crooks-1863-08-05",
+          "locator": "p.362 (OCR page markers; not checked against print)",
+          "quote": "but the major had his men well in hand"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Sibley says the Indians, foiled, fled leaving dead on the prairie; Crooks that they left the field after a parting volley.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ND002"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-nd002-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "fled with precipitation, leaving a number of their dead upon the prairie"
+        },
+        {
+          "source_id": "or22-1-crooks-dakota-selections-v1",
+          "section": "crooks-1863-08-05",
+          "locator": "p.362 (OCR page markers; not checked against print)",
+          "quote": "the savages, giving a parting volley"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads 10 (US 1; CS 9). McPhaill's regimental losses include a skirmish on the 26th at Dead Buffalo Lake without a separate figure (see Big Mound); no inspected report gives a loss for this action alone.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ND002"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-nd002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "10 total (US 1; CS 9;)"
+        },
+        {
+          "source_id": "or22-1-mcphaill-big-mound-selections-v1",
+          "section": "mcphaill-1863-08-05",
+          "locator": "p.360 (OCR page markers; not checked against print)",
+          "quote": "including a skirmish on Sunday evening, the 26th, at Dead Buffalo Lake"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Marshall's and Baker's reports, a return separating July 26 losses, the Dakota account and maps remain deferred. McPhaill's report (also the Big Mound follow-up) is this record's targeted follow-up, used only for the scope of his casualty figures.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Sibley's August 7, 1863 report covers all three July engagements and is an interested account; Crooks's August 5 report (Sixth Minnesota) also covers all three and is a separate family. McPhaill's August 5, 1863 report (Mounted Rangers) is a separate family used as the follow-up. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Participants are named as the sources name them; characterizations in the sources (including 'hostile', 'savages', 'massacre' or 'battle') are quoted as the sources' own words and not adopted."
+  ]
+}

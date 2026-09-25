@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "battle_id": "ND001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Big Mound record (July 24-25, 1863) in Operations Against the Sioux in North Dakota [July 1863]. The march from Camp Pope and Camp Atchison and the return of the pursuing cavalry to camp on the morning of July 25 are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the District of Minnesota and the Santee and Teton Sioux without figures; the live field reads 0. Sibley says he had left a third of his force at Camp Atchison and moved with 1,400 infantry and 500 cavalry, and saw the whole body of Indians, 1,000 to 1,500, retiring. McPhaill says the Indians engaged could not have been less than 1,000 and would reach 1,500 warriors.",
+      "rationale": "The 1,400 and 500 describe the column one day's march beyond Camp Atchison as reported in Sibley's July 21 dispatch, before the action; the 1,000 to 1,500 are opponents' estimates of July 24. No account by the Dakota bands was inspected; their numbers, aims and losses come from their opponents' estimates, prisoners' or scouts' statements relayed by them, or the NPS summary. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ND001"
+          },
+          "column": "forces_text",
+          "quote": "District of Minnesota [US]; Santee and Teton Sioux [I]"
+        },
+        {
+          "source_id": "nps-nd001-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "one- third of my force in an intrenched position at Camp Atchison, and was then one day’s march in advance, with 1,400 infantry and 500 cav- alry"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.354 (OCR page markers; not checked against print)",
+          "quote": "numbering from 1,000 to 1,500"
+        },
+        {
+          "source_id": "or22-1-mcphaill-big-mound-selections-v1",
+          "section": "mcphaill-1863-08-05",
+          "locator": "p.360 (OCR page markers; not checked against print)",
+          "quote": "The number of Indians engaged could not have been less than 1,000, and would doubtless reach 1,500 warriors."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ravines-and-salt-lake",
+      "dimension": "terrain",
+      "value": "Sibley corralled his train on the shore of a salt lake and had the camp intrenched; the Indians held the upper part of a large ravine and its tributaries, from which a 6-pounder on a hill toward the Big Mound dislodged them into broken prairie. McPhaill says the ground was rocky and broken and his men dismounted to skirmish the hills.",
+      "rationale": "Natural ravines and a prepared camp from interested reports; tag unresolved. No map verification.",
+      "citations": [
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "I immediately corraled my train upon the shore of a salt lake near by"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "which was rapidly intrenched by Colonel Crooks"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "who had obtained possession of the upper part of the large ravine, and of smaller ones tributary to it"
+        },
+        {
+          "source_id": "or22-1-mcphaill-big-mound-selections-v1",
+          "section": "mcphaill-1863-08-05",
+          "locator": "p.359 (OCR page markers; not checked against print)",
+          "quote": "The ground being rocky and broken"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forty-miles-without-rest",
+      "dimension": "logistics",
+      "value": "Sibley says the pursuit ran at least 12 miles after a full day's march, about 40 miles without rest, and so exhausted men and animals that he could not advance until the 26th. McPhaill's men were twenty-four hours in the saddle without guide, provisions or water.",
+      "rationale": "Exertion described in interested reports; not a return.",
+      "citations": [
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.354 (OCR page markers; not checked against print)",
+          "quote": "making alto- gether full 40 miles performed without rest."
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.354 (OCR page markers; not checked against print)",
+          "quote": "a forward movement could not take place until the 26th"
+        },
+        {
+          "source_id": "or22-1-mcphaill-big-mound-selections-v1",
+          "section": "mcphaill-1863-08-05",
+          "locator": "p.360 (OCR page markers; not checked against print)",
+          "quote": "having been in the saddle twenty-four hours without guide, provisions, or water."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouts-and-weiser",
+      "dimension": "information",
+      "value": "Sibley says his scouts reported a large camp about 1 p.m., that Red Plume warned through a scout of a plan to kill officers at a council, and that Surgeon Weiser, who joined the scouts talking with Indians, was shot by a young man, which precipitated the engagement. NPS says many Indians appeared expressing friendship before the shot. Sibley also says his order to McPhaill was improperly delivered as an order to return to camp.",
+      "rationale": "Warnings and the killing as reported by Sibley and the NPS summary; Sibley's word 'treacherously' is his own. No account by the Dakota bands was inspected; their numbers, aims and losses come from their opponents' estimates, prisoners' or scouts' statements relayed by them, or the NPS summary.",
+      "citations": [
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "some of my scouts came to me at full speed, and reported that a large camp of Indians had just before passed"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "Red Plume told him to warn me that the plan was formed to invite me to a council"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "This outrage precipitated an immediate engagement."
+        },
+        {
+          "source_id": "nps-nd001-v1",
+          "locator": "Description",
+          "quote": "numerous Native Americans appeared expressing friendship"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.354 (OCR page markers; not checked against print)",
+          "quote": "The order to Colonel McPhaill, was improperly delivered, as requiring him to return to camp, instead of bivouacking on the prairie."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "NPS says Sibley was pursuing the Santee who began the 1862 uprising. Sibley ordered McPhaill to press the rear of the retreating Indians but not continue after nightfall; the Indians' families were seen moving on the distant hills.",
+      "rationale": "Stated aims from an interested report and the NPS summary. No account by the Dakota bands was inspected; their numbers, aims and losses come from their opponents' estimates, prisoners' or scouts' statements relayed by them, or the NPS summary.",
+      "citations": [
+        {
+          "source_id": "nps-nd001-v1",
+          "locator": "Description",
+          "quote": "pursuing the Santee Sioux, who had initiated an uprising in the Minnesota River Valley in August 1862."
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.354 (OCR page markers; not checked against print)",
+          "quote": "fall upon the rear of the enemy, but not to continue the pursuit after nightfall"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.354 (OCR page markers; not checked against print)",
+          "quote": "the locality of their families."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen US commander is Brigadier General Henry Hastings Sibley. The frozen and live Native American commander is Inkpaduta (no rank; the live page tags him [CS], not adopted); none of the inspected reports names him, so his role is not established here. Sibley took a 6-pounder up the hill toward the Big Mound himself and directed McPhaill, Marshall and Crooks; McPhaill led the mounted charges and pursuit; Crooks drove back the threat on the left.",
+      "rationale": "Command roles from interested reports; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "ND001",
+            "belligerent": "US",
+            "fullname": "Henry Hastings Sibley"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "ND001",
+            "belligerent": "Native American",
+            "fullname": "Inkpaduta"
+          },
+          "column": "fullname",
+          "quote": "Inkpaduta"
+        },
+        {
+          "source_id": "nps-nd001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Chief Inkpaduta"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "I ascended a hill toward the Big Mound"
+        },
+        {
+          "source_id": "or22-1-mcphaill-big-mound-selections-v1",
+          "section": "mcphaill-1863-08-05",
+          "locator": "p.359 (OCR page markers; not checked against print)",
+          "quote": "I then moved forward of the skirmishers with Companies B and F, and ordered a charge upon the enemy"
+        },
+        {
+          "source_id": "or22-1-crooks-dakota-selections-v1",
+          "section": "crooks-1863-08-05",
+          "locator": "p.361 (OCR page markers; not checked against print)",
+          "quote": "drove the savages for 3 miles, and prevented their turning our left."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory; NPS says the Sioux forces were broken and dispirited. Sibley says the Indians fled in confusion and were chased at least 12 miles; McPhaill says his cavalry pursued about 15 miles. Sibley's troops burned the provisions and robes found at the abandoned camp on the 26th.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ND001"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-nd001-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-nd001-v1",
+          "locator": "Description",
+          "quote": "The Sioux forces were broken and dispirited."
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.354 (OCR page markers; not checked against print)",
+          "quote": "the Indians were chased at least 12 miles"
+        },
+        {
+          "source_id": "or22-1-mcphaill-big-mound-selections-v1",
+          "section": "mcphaill-1863-08-05",
+          "locator": "p.360 (OCR page markers; not checked against print)",
+          "quote": "until we had reached at least 15 miles from the first point of attack"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "all of which were by ray directions collected and burned."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads US unknown and I 13; the live field reads 87 (US 7; CS 80). McPhaill says 31 Indians are known to have been killed by his regiment in the series of fights, and the compiler's note on his list shows 3 men killed and 4 wounded, including the skirmish of the 26th. Sibley gives, for the whole column in combat, 3 cavalrymen killed and 4 wounded, besides a man killed by lightning and Lieutenant Freeman killed while hunting; his figure of at least 150 Indians killed and wounded covers all three engagements.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. McPhaill's figures span July 24 and 26; Sibley's 150 is campaign context and is not assigned to this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ND001"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US unknown; I 13)"
+        },
+        {
+          "source_id": "nps-nd001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "87 total (US 7; CS 80;)"
+        },
+        {
+          "source_id": "or22-1-mcphaill-big-mound-selections-v1",
+          "section": "mcphaill-1863-08-05",
+          "locator": "p.360 (OCR page markers; not checked against print)",
+          "quote": "The number of Indians known to have been killed by the Mounted Bangers is 31"
+        },
+        {
+          "source_id": "or22-1-mcphaill-big-mound-selections-v1",
+          "section": "mcphaill-1863-08-05",
+          "locator": "p.360 (OCR page markers; not checked against print)",
+          "quote": "Nominal list shows 3 men killed and 4 wounded."
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.358 (OCR page markers; not checked against print)",
+          "quote": "Three men of the cavalry were killed and 4 wounded"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.357 (OCR page markers; not checked against print)",
+          "quote": "with a loss of at least 150 killed and wounded of his best and bravest warriors"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Marshall's and Baker's reports (Nos. 4-5), the appendix pages Sibley cites, the Dakota bands' own accounts, histories and maps remain deferred. McPhaill's report is the targeted follow-up for this record.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Sibley's August 7, 1863 report covers all three July engagements and is an interested account; Crooks's August 5 report (Sixth Minnesota) also covers all three and is a separate family. McPhaill's August 5, 1863 report (Mounted Rangers) is a separate family used as the follow-up. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Participants are named as the sources name them; characterizations in the sources (including 'hostile', 'savages', 'massacre' or 'battle') are quoted as the sources' own words and not adopted."
+  ]
+}

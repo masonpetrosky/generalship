@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "battle_id": "ND004",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Whitestone Hill record (September 3-5, 1863) in Operations Against the Sioux in North Dakota [July 1863]. Sully's march from the Little Cheyenne from August 21 and his return to Fort Pierre are context; the frozen campaign label reads July 1863 although the record is dated September. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the Northwestern Expedition as 600-700 and the Santee, Yankton, Cut-heads, Hunkpapa, Teton and Blackfeet as 1,200-1,500; the stored bounds are 600 and 600 and 1,200 and 1,200, not the text's ranges. The live field reads 0. Sully says 600 to 700 of his men were actually engaged and gives House's battalion 300; the camp mustered at least 1,200 warriors by the Indians' account and over 1,500 by his command's. House reports 400 lodges and Sully over 400 (some say 600, read '000').",
+      "rationale": "Engaged and estimated figures, all for September 3: 600 to 700 of Sully's men engaged (his postscript), House's 300 on the approach, and the camp's 1,200 (prisoners' statement) or 1,500 (his command's estimate). No account by the Dakota bands was inspected; their numbers, aims and losses come from their opponents' estimates, prisoners' or scouts' statements relayed by them, or the NPS summary. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ND004"
+          },
+          "column": "forces_text",
+          "quote": "Northwestern Expedition (600-700) [US]; Santee, Yankton, Cut-heads, Hunkapapa and Teton Sioux and Blackfeet (1,200-1,500) [I]"
+        },
+        {
+          "source_id": "nps-nd004-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "between 600 and 700 men actually engaged."
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.558 (OCR page markers; not checked against print)",
+          "quote": "with his 300 men"
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.558 (OCR page markers; not checked against print)",
+          "quote": "mustering at least 1,200 warriors. This is what the Indians say they had, but I, as well as everybody in the command, say over 1,500."
+        },
+        {
+          "source_id": "or22-1-house-white-stone-hill-selections-v1",
+          "section": "house-1863-09",
+          "locator": "p.564 (OCR page markers; not checked against print)",
+          "quote": "there were 400 lodges of the enemy."
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.557 (OCR page markers; not checked against print)",
+          "quote": "an encampment of over 400 lodges, some say 000"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "ravines",
+      "dimension": "terrain",
+      "value": "Sully says the camp lay in ravines where the Indians felt secure, and that they formed a line from which only a charge could dislodge them; House says the ground was very uneven and the Indians collected in a ravine to fight. Sully places the field about 15 miles west of the James River near a hill the Indians called White Stone Hill.",
+      "rationale": "Natural ground from interested reports; no map verification.",
+      "citations": [
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.557 (OCR page markers; not checked against print)",
+          "quote": "in ravines, where they felt perfectly secure"
+        },
+        {
+          "source_id": "or22-1-house-white-stone-hill-selections-v1",
+          "section": "house-1863-09",
+          "locator": "p.564 (OCR page markers; not checked against print)",
+          "quote": "As the ground was very uneven"
+        },
+        {
+          "source_id": "or22-1-house-white-stone-hill-selections-v1",
+          "section": "house-1863-09",
+          "locator": "p.565 (OCR page markers; not checked against print)",
+          "quote": "collected together in a ravine and prepared for battle."
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "near a hill called by the Indians White Stone Hill."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "rations-and-destruction",
+      "dimension": "logistics",
+      "value": "Sully says his mules could carry about twenty-three days' rations and his rations barely sufficed to reach Fort Pierre; on September 4-5 he burned 400,000 to 500,000 pounds of dried buffalo meat and 300 lodges. House gives 400 tons of dried meat.",
+      "rationale": "Supply statements from interested reports; the destruction is post-outcome. Not returns.",
+      "citations": [
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.555 (OCR page markers; not checked against print)",
+          "quote": "about twenty-three days’ rations"
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "My rations were barely sufficient with rapid marches to enable me to reach Fort Pierre."
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "I burned up over 400,000 to 500,000 pounds of dried buffalo meat as one item, besides 300 lodges"
+        },
+        {
+          "source_id": "or22-1-house-white-stone-hill-selections-v1",
+          "section": "house-1863-09",
+          "locator": "p.565 (OCR page markers; not checked against print)",
+          "quote": "400 tons of dried meat."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouting-and-guide",
+      "dimension": "information",
+      "value": "Sully sent House's battalion ahead to find the Indians and report a large camp; the guide bore off to the left and came on the camp, whose people, prisoners said, believed Sully was still going up the Missouri. House's guide reported the camp 3 miles off about 3 p.m.; the guide La Framboise rode more than 10 miles back to Sully, reaching him a little after 4.",
+      "rationale": "Knowledge attributed in interested reports and relayed prisoners' statements; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.557 (OCR page markers; not checked against print)",
+          "quote": "in case they saw a small band of Indians, to attack them"
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.557 (OCR page markers; not checked against print)",
+          "quote": "being fully persuaded that I was still on my way up the Missouri. This is what the Indian prison- ers say."
+        },
+        {
+          "source_id": "or22-1-house-white-stone-hill-selections-v1",
+          "section": "house-1863-09",
+          "locator": "p.564 (OCR page markers; not checked against print)",
+          "quote": "At about 3 p. m. our guide informed me that a camp of Indians was about 3 miles distant."
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.558 (OCR page markers; not checked against print)",
+          "quote": "ran his horse a distance of more than 10 miles to give me information"
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.558 (OCR page markers; not checked against print)",
+          "quote": "He reached me a little after 4 o’clock."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Sully intended to surround a large camp at night and attack at daybreak. House says the chiefs came in under a flag of truce and offered to surrender some chiefs, but the commandant demanded unconditional surrender of all, which they refused. NPS says Sully meant to find and punish the Sioux.",
+      "rationale": "Stated aims from interested reports and the NPS summary. No account by the Dakota bands was inspected; their numbers, aims and losses come from their opponents' estimates, prisoners' or scouts' statements relayed by them, or the NPS summary.",
+      "citations": [
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.557 (OCR page markers; not checked against print)",
+          "quote": "move up in the night time so as to surround them, and attack them at daybreak."
+        },
+        {
+          "source_id": "or22-1-house-white-stone-hill-selections-v1",
+          "section": "house-1863-09",
+          "locator": "p.564 (OCR page markers; not checked against print)",
+          "quote": "the chiefs came in under a flag of truce and attempted a negotiation."
+        },
+        {
+          "source_id": "or22-1-house-white-stone-hill-selections-v1",
+          "section": "house-1863-09",
+          "locator": "p.564 (OCR page markers; not checked against print)",
+          "quote": "he demanded the unconditional surrender of all."
+        },
+        {
+          "source_id": "nps-nd004-v1",
+          "locator": "Description",
+          "quote": "Brig. Gen. Alfred Sully decided to find these Sioux and punish them, if possible."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen US commander is Brigadier General Alfred Sully. The frozen and live Native American commander is Inkpaduta (no rank; the live page tags him [CS], not adopted); none of the inspected reports names him, so his role is not established here. Sully ordered Furnas's Second Nebraska to the right and Wilson's Sixth Iowa to the left and charged the center himself; House's battalion first found and tried to hold the camp. Hall commanded the September 5 scouting party.",
+      "rationale": "Command roles from interested reports; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "ND004",
+            "belligerent": "US",
+            "fullname": "Alfred Sully"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "ND004",
+            "belligerent": "Native American",
+            "fullname": "Inkpaduta"
+          },
+          "column": "fullname",
+          "quote": "Inkpaduta"
+        },
+        {
+          "source_id": "nps-nd004-v1",
+          "locator": "Principal Commanders",
+          "quote": "Chief Inkpaduta"
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.558 (OCR page markers; not checked against print)",
+          "quote": "I ordered Colonel [R. W.] Furnas, Second [Nebraska, to push his horses to the utmost"
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.558 (OCR page markers; not checked against print)",
+          "quote": "charged through the center of the encampment."
+        },
+        {
+          "source_id": "or22-1-house-white-stone-hill-selections-v1",
+          "section": "house-1863-09",
+          "locator": "p.564 (OCR page markers; not checked against print)",
+          "quote": "I took the line oi march"
+        },
+        {
+          "source_id": "or22-1-hall-white-stone-hill-selections-v1",
+          "section": "hall-1863-09",
+          "locator": "p.611 (OCR page markers; not checked against print)",
+          "quote": "I proceeded, on the morning of Septem- ber 5, 1863, with 12 men of the Second Nebraska Cavalry and 15 men from the Sixth Iowa Cavalry under my command"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Sully says the Indians resisted desperately, then broke and fled, and that he gave them one of the most severe punishments they had received; he took 156 prisoners, 32 men and 124 women and children. On September 5 about 300 Indians attacked Hall's party of 27, which retreated to camp faster than ordered.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The September 5 skirmish is within the frozen interval and is kept separate from the September 3 action.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ND004"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-nd004-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "resistance, but finally broke and fled"
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "I gave them one of the most severe punishments that the Indians have ever received."
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "By actual count the number of my prisoners is 156 — men 32, women and children 124."
+        },
+        {
+          "source_id": "or22-1-hall-white-stone-hill-selections-v1",
+          "section": "hall-1863-09",
+          "locator": "p.611 (OCR page markers; not checked against print)",
+          "quote": "I was attacked by a party of some 300 Indians"
+        },
+        {
+          "source_id": "or22-1-hall-white-stone-hill-selections-v1",
+          "section": "hall-1863-09",
+          "locator": "p.611 (OCR page markers; not checked against print)",
+          "quote": "the men increased the rapidity of their retreat, without orders."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 822 (US 72; I 750); the live field reads 620 (US 70; CS 550). Sully reports his killed as 20 and wounded 38 as far as ascertained; he puts the Indian dead left on the field or found by scouts at 100, his officers and guides at not less than 150, and Indian reports at over 200. House says about 100 were killed. Hall lost 6 men killed on September 5 and says 6 Indians were killed. The compiled return's table is not present in the OCR.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen 750 is not traced; prisoners are not casualties of the kind counted in the frozen table unless it says so.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ND004"
+          },
+          "column": "casualties_text",
+          "quote": "822 total (US 72; I 750)"
+        },
+        {
+          "source_id": "nps-nd004-v1",
+          "locator": "Estimated Casualties",
+          "quote": "620 total (US 70; CS 550;)"
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "My killed number, as far as ascertained, 20; wounded, 38."
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "think I am safe in reporting it at 100."
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "sully-1863-09-11",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "think 150 will not cover their loss. The Indian reports make it over 200."
+        },
+        {
+          "source_id": "or22-1-house-white-stone-hill-selections-v1",
+          "section": "house-1863-09",
+          "locator": "p.565 (OCR page markers; not checked against print)",
+          "quote": "About 100 of the enemy were killed."
+        },
+        {
+          "source_id": "or22-1-hall-white-stone-hill-selections-v1",
+          "section": "hall-1863-09",
+          "locator": "p.611 (OCR page markers; not checked against print)",
+          "quote": "The casualties on this scout were 6 men and 4 horses killed."
+        },
+        {
+          "source_id": "or22-1-hall-white-stone-hill-selections-v1",
+          "section": "hall-1863-09",
+          "locator": "p.611 (OCR page markers; not checked against print)",
+          "quote": "killing 6 Indians and 4 ponies"
+        },
+        {
+          "source_id": "or22-1-sully-white-stone-hill-selections-v1",
+          "section": "return-of-casualties",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "Return of Casualties in the United States forces engaged with Indians near White Stone Hill"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Wilson's and Furnas's reports (read in part), the compiled return's table, the Dakota bands' account, the question whether later writers characterize the action differently (no inspected source here does), and maps remain deferred. Hall's report is the targeted follow-up for the September 5 skirmish.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Sully's September 11, 1863 report and House's undated September report (Sixth Iowa) are interested accounts; Hall's report on September 5 is a separate family used as the follow-up. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Participants are named as the sources name them; characterizations in the sources (including 'hostile', 'savages', 'massacre' or 'battle') are quoted as the sources' own words and not adopted."
+  ]
+}

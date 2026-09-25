@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "battle_id": "ID001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Bear River record (January 29, 1863) in Expedition from Camp Douglas, Utah, to Cache Valley, Idaho [January 1863]. The march from Camp Douglas from January 22 is context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the District of Utah and Shoshoni Indians without figures; the live field reads 0. The frozen description gives about 300 Shoshoni warriors. Connor moved with 220 cavalry and an infantry company with two howitzers, and says no more than 200 were engaged because of frozen feet and detachments, against about 300 warriors; Wright repeats 200 engaged. Bancroft gives some three hundred Shoshones and Bannacks and about two hundred of Connor's men, of a command of 300 volunteers.",
+      "rationale": "Column, engaged and opponent-estimated figures: 220 cavalry left Camp Douglas on January 24; 200 engaged and about 300 warriors refer to January 29 by Connor's estimate; Bancroft's 300 volunteers is the whole command and follows Connor. No account by the Shoshone side was inspected; their numbers, aims and losses come from their opponents, NPS or Bancroft's summaries. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ID001"
+          },
+          "column": "forces_text",
+          "quote": "District of Utah [US]; Shoshoni Indians [I]"
+        },
+        {
+          "source_id": "nps-id001-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ID001"
+          },
+          "column": "description",
+          "quote": "about 300 Shoshoni warriors"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "numbering 220 men"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "I did not have to exceed 200 men engaged."
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "The enemy had about 300 warriors"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "wright-1863-02-20",
+          "locator": "p.184 (OCR page markers; not checked against print)",
+          "quote": "Out of 200 men engaged"
+        },
+        {
+          "source_id": "bancroft-utah-bear-river-selections-v1",
+          "section": "bear-river",
+          "locator": "p.631 (OCR page markers; not checked against print)",
+          "quote": "between some three hundred of the Sho- shones and Bannacks"
+        },
+        {
+          "source_id": "bancroft-utah-bear-river-selections-v1",
+          "section": "bear-river",
+          "locator": "p.632 (OCR page markers; not checked against print)",
+          "quote": "which consisted of 300 vol- unteers, but of whom not more than two thirds were engaged"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ravine-willows-and-ford",
+      "dimension": "terrain",
+      "value": "Connor says the Indians held a deep, dry ravine six to twelve feet deep and thirty to forty feet wide with abrupt banks, with steps cut to fire from and woven willow covers; the ford was deep and rapid, and the surrounding plain level and open. Bancroft places the position in the ravine where Battle Creek enters Bear River. NPS describes cut access trails in the embankments.",
+      "rationale": "A natural ravine improved by its defenders; tag unresolved. No map verification.",
+      "citations": [
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "being in a deep, dry ravine from six to twelve feet deep and from thirty to forty feet wide, with very abrupt banks"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "they had constructed artificial covers of willows thickly woven together"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "finding it deep and rapid, retired."
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "in consequence of being exposed on a level and open plain while the Indians were under cover"
+        },
+        {
+          "source_id": "bancroft-utah-bear-river-selections-v1",
+          "section": "bear-river",
+          "locator": "p.631 (OCR page markers; not checked against print)",
+          "quote": "Battle Creek enters Bear Biver."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ID001"
+          },
+          "column": "description",
+          "quote": "with high embankments in which the Indians had cut access trails."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cold-snow-and-supply",
+      "dimension": "logistics",
+      "value": "Connor says the infantry train carried twenty days' supplies, not less than seventy-five men had their feet frozen, the howitzers did not reach the field because of the snow, and the Mormon settlers gave no information and charged high prices.",
+      "rationale": "March conditions from an interested report; not a return.",
+      "citations": [
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "with a train of fifteen wagons, carrying twenty days’ supplies"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "not less than seventy-five had their feet frozen"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "the howitzers did not reach the field in time to be used in the action."
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "was rendered by the Mormons, who seemed indisposed to divulge any information regarding the Indians and charged enormous prices for every article furnished my command."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "deception-and-guide",
+      "dimension": "information",
+      "value": "Connor says he learned of the encampment from various sources, sent a small force ahead to deceive the Indians, was delayed by the difficulty of finding a guide to the ford, and feared at daylight that the Indians would see his strength.",
+      "rationale": "Knowledge attributed in an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "from information received from various sources of the encampment of a large body of Indians on Bear River"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "I determined to deceive the Indians by sending a small force in advance"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "in consequence of the difficulty in procuring a guide to the ford of the river"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "I was apprehensive that the Indians would discover the strength of my force"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Connor says he meant to chastise the band he held responsible for killing miners and emigrants, and told the marshal, who held warrants for Bear Hunter, San Pitch and Sagwich, that he did not intend to take prisoners. NPS says Shoshoni raids provoked the retaliation.",
+      "rationale": "Connor's attributions of guilt are his, not findings; no Shoshone account was inspected. No account by the Shoshone side was inspected; their numbers, aims and losses come from their opponents, NPS or Bancroft's summaries.",
+      "citations": [
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "I determined, although the season was unfavorable to an expedition in consequence of the cold weather and deep snow, to chastise them if possible."
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "who had murdered several miners during the winter"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "it was not my intention to take any prisoners"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ID001"
+          },
+          "column": "description",
+          "quote": "Shoshoni raids under Chief Bear Hunter during the winter of 1862-63 provoked Federal retaliation."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Colonel Patrick Edward Connor and Bear Hunter (no rank recorded); the live page tags Bear Hunter [CS], not adopted. Connor says McGarry had dismounted the cavalry and engaged before he arrived, and that he then ordered McGarry to turn the left flank and the infantry across the river; NPS says an early frontal attack was repulsed before Connor took over. Connor lists Bear Hunter among the dead.",
+      "rationale": "Command roles from an interested report and the NPS summary; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "ID001",
+            "belligerent": "US",
+            "fullname": "Patrick Edward Connor"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "ID001",
+            "belligerent": "Native American",
+            "fullname": "Bear Hunter"
+          },
+          "column": "fullname",
+          "quote": "Bear Hunter"
+        },
+        {
+          "source_id": "nps-id001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Chief Bear Hunter"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "On my arrival on the field I found that Major McGarry had dismounted the cavalry and was engaged with the Indians"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "I accordingly ordered Major McGarry with twenty men to turn their left flank"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ID001"
+          },
+          "column": "description",
+          "quote": "Before all of the men had crossed and Connor had arrived, some troops made an unsuccessful frontal attack"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "among which were those of the chiefs Bear Hunter, Sagwich, and Leight."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory (massacre) and the frozen other name Massacre at Boa Ogoi; the live result reads Union Victory. Wright calls the victory complete and Connor says the fight lasted from about 6 to 10 o'clock. NPS says the troops killed most of the warriors and a number of women, children and old men. Bancroft reports the band almost annihilated and remarks that, had the Indians committed the deed, it would be called a butchery or a massacre.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The characterizations (victory, battle, massacre) are the sources' and are not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ID001"
+          },
+          "column": "results_text",
+          "quote": "Union victory (massacre)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ID001"
+          },
+          "column": "other_names",
+          "quote": "Massacre at Boa Ogoi"
+        },
+        {
+          "source_id": "nps-id001-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "wright-1863-02-20",
+          "locator": "p.184 (OCR page markers; not checked against print)",
+          "quote": "Our victory was complete"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "The fight commenced about 6 o’clock in the morning and continued until 10."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ID001"
+          },
+          "column": "description",
+          "quote": "The troopers had killed most of the warriors plus a number of women, children and old men-and captured many of the women and children."
+        },
+        {
+          "source_id": "bancroft-utah-bear-river-selections-v1",
+          "section": "bear-river",
+          "locator": "p.631 (OCR page markers; not checked against print)",
+          "quote": "the band was almost annihilated."
+        },
+        {
+          "source_id": "bancroft-utah-bear-river-selections-v1",
+          "section": "bear-river",
+          "locator": "p.632 (OCR page markers; not checked against print)",
+          "quote": "this deed, it would pass into history as a butchery or a massacre."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 451 (US 67; I 384); the live field reads 315 (US 65; CS 250). Connor found 224 bodies and did not examine the field, and left a number of captive women and children read 'ICO' in OCR (not decoded). Wright gives 14 killed and 4 officers and 49 men wounded, of whom 1 officer and 5 men died. Bancroft gives fourteen killed and forty-nine wounded and summarizes two local accounts: 200 killed, and 368 dead counted by an eyewitness from Franklin, about 90 of them women and children.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Wright's 14 + 4 + 49 equals the frozen US 67; the frozen 384 and live 250 are not traced.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ID001"
+          },
+          "column": "casualties_text",
+          "quote": "451 total (US 67; I 384)"
+        },
+        {
+          "source_id": "nps-id001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "315 total (US 65; CS 250;)"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "We found 224 bodies on the field"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "I was unable to examine the field."
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "connor-1863-02-06",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "ICO captive squaws and children"
+        },
+        {
+          "source_id": "or50-1-connor-bear-river-selections-v1",
+          "section": "wright-1863-02-20",
+          "locator": "p.184 (OCR page markers; not checked against print)",
+          "quote": "14 were killed on the field and 4 officers and 49 men wounded; 1 officer and 5 of the men wounded have since died."
+        },
+        {
+          "source_id": "bancroft-utah-bear-river-selections-v1",
+          "section": "bear-river",
+          "locator": "p.632 (OCR page markers; not checked against print)",
+          "quote": "fourteen were killed and forty-nine wounded."
+        },
+        {
+          "source_id": "bancroft-utah-bear-river-selections-v1",
+          "section": "bear-river",
+          "locator": "p.632 (OCR page markers; not checked against print)",
+          "quote": "the dead, as counted by an eye-witness from Franklin, amounted to 368, besides the wounded who afterward died, and that about 90 of the slain were women and children."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Connor's unprinted list of killed and wounded, the Shoshone account, Tullidge's History of Salt Lake City and the local accounts Bancroft cites (Logan branch record, Martineau), Mormon settlers' records and maps remain deferred. Bancroft dates the troops' approach to 'the 28th', against Connor's and the frozen January 29; not resolved.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Connor's February 6, 1863 report is an interested account; Wright's transmittal depends on it. Hubert Howe Bancroft's History of Utah (1889) is a retrospective history that uses Connor's despatch as printed by Tullidge and two local accounts; it is not independent of Connor for the figures it takes from him. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Participants are named as the sources name them; characterizations in the sources (including 'hostile', 'savages', 'massacre' or 'battle') are quoted as the sources' own words and not adopted."
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "battle_id": "TX006",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Sabine Pass II record (September 8, 1863) in Operations to Blockade the Texas Coast [September 1863]. The expedition's embarkation from New Orleans on September 4, its return by September 11 and Banks's later Rio Grande expedition are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives 4 gunboats and 7 transports with troops and the Davis Guards as 44 men (CS bounds 44 and 44); the live field reads CS 44 and NPS 44 men. Dowling says he captured the gunboats with 47 men and that twenty-two vessels had gathered. Franklin says about 700 infantry, a field battery and eight heavy guns were inside the bar by 10 o'clock with 700 more aground on it, and 1,200 infantry that could be landed after the engagement; Weitzel's advance had about 1,000 infantry.",
+      "rationale": "Garrison and embarked-force figures of different moments and scopes: Weitzel's 1,000 at embarkation on September 4; 700 inside the bar and 700 aground at about 10 a.m. on September 8; 1,200 landable after the engagement; Dowling's 47 in the fort on September 8. Magruder's 40 and 15,000 (read, not selected) are not used. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX006"
+          },
+          "column": "forces_text",
+          "quote": "4 gunboats and 7 transports loaded with troops [US]; Texan Davis Guards (44 men) [CS]"
+        },
+        {
+          "source_id": "nps-tx006-v1",
+          "locator": "Forces Engaged",
+          "quote": "44 total (US 0; CS 44;)"
+        },
+        {
+          "source_id": "nps-tx006-v1",
+          "locator": "Description",
+          "quote": "Fort Griffin's small force of 44 men"
+        },
+        {
+          "source_id": "or26-1-dowling-sabine-pass-selections-v1",
+          "section": "dowling-1863-09-09",
+          "locator": "p.312 (OCR page markers; not checked against print)",
+          "quote": "we captured with 47 men two gunboats"
+        },
+        {
+          "source_id": "or26-1-dowling-sabine-pass-selections-v1",
+          "section": "dowling-1863-09-09",
+          "locator": "p.311 (OCR page markers; not checked against print)",
+          "quote": "re-enforced to the number of twenty-two vessels of different classes."
+        },
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "700 in- fantry, one battery of field artillery, and eight heavy guns were inside of the bar, and a transport, with 700 infantry, was hopelessly aground."
+        },
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "These contained 1,200 infantry, which could be landed"
+        },
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "with about 1,000 infantry"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "bar-marsh-and-channels",
+      "dimension": "terrain",
+      "value": "Franklin says vessels drawing over 6 feet could hardly cross the bar, the shore was soft marsh in which men sank above the knee, and the channel divided about 1,000 yards below the fort into two branches. Dowling describes the Louisiana and Texas channels and the Clifton grounding about 500 yards below the fort.",
+      "rationale": "Natural bar, marsh and channels from interested reports; the fort and its field of fire are excluded from this tag. No chart inspected.",
+      "citations": [
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "found the greatest difficulty in getting over any vessels drawing more than 6 feet."
+        },
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "The shore itself is a soft marsh"
+        },
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "The channel divides about 1,000 yards below the fort"
+        },
+        {
+          "source_id": "or26-1-dowling-sabine-pass-selections-v1",
+          "section": "dowling-1863-09-09",
+          "locator": "p.311 (OCR page markers; not checked against print)",
+          "quote": "the Sachem and Arizona steamed into line up the Louisiana channel"
+        },
+        {
+          "source_id": "or26-1-dowling-sabine-pass-selections-v1",
+          "section": "dowling-1863-09-09",
+          "locator": "p.311 (OCR page markers; not checked against print)",
+          "quote": "grounded about 500 yards below the fort"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "water-rations-and-losses",
+      "dimension": "logistics",
+      "value": "Franklin says fresh water was nearly exhausted, the men were on uncooked rations with no fuel ashore, and that 200,000 rations and 200 mules were thrown overboard on the return.",
+      "rationale": "Supply statements from an interested report; not returns.",
+      "citations": [
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "The stock of fresh water was nearly exhausted"
+        },
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "the men were living on uncooked rations, and there was no fuel on shore for cooking."
+        },
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "200,000 rations thrown overboard from the Crescent"
+        },
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "200 mules thrown overboard from the Laurel Hill"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "lost-surprise",
+      "dimension": "information",
+      "value": "Franklin says the Granite City with Crocker's pilot arrived late, Crocker missed the Pass in the night, and the intended surprise became an open attack after two nights' warning. Crocker also says the advantage of surprise was lost. Dowling says the sentinel reported the enemy signaling about 2 a.m. on Monday and the fleet grew to twenty-two vessels by evening.",
+      "rationale": "Knowledge attributed in interested reports; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "Captain Crocker missed Sabine Pass on Sunday night"
+        },
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "the attack, which was intended to be a surprise, became an open one"
+        },
+        {
+          "source_id": "or26-1-crocker-sabine-pass-selections-v1",
+          "section": "crocker-1863-09-12",
+          "locator": "p.301 (OCR page markers; not checked against print)",
+          "quote": "whereby we lost the advantage of surprise"
+        },
+        {
+          "source_id": "or26-1-dowling-sabine-pass-selections-v1",
+          "section": "dowling-1863-09-09",
+          "locator": "p.311 (OCR page markers; not checked against print)",
+          "quote": "On Monday morning, about 2 o’clock, the sentinel informed me the enemy were signaling"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "plan-and-fire-discipline",
+      "dimension": "objectives",
+      "value": "Franklin says the gunboats were to silence the battery while Weitzel's troops landed and held a position until the rest arrived; the adopted plan sent the Sachem and Arizona up one channel to draw the fort's fire and the Clifton up the other to engage at close range, with 500 infantry landing at the old fort. Dowling says he held fire until the leading boats were within 1,200 yards.",
+      "rationale": "Stated plans from interested reports; NPS's statement of intent to begin occupying Texas is a summary.",
+      "citations": [
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "The gunboats were to engage and silence the rebel battery"
+        },
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "drawing its fire."
+        },
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "General Weitzel was to keep near the Clifton with a boat containing 500 infantry"
+        },
+        {
+          "source_id": "or26-1-dowling-sabine-pass-selections-v1",
+          "section": "dowling-1863-09-09",
+          "locator": "p.311 (OCR page markers; not checked against print)",
+          "quote": "I allowed the two former boats to approach within 1,200 yards, when I opened fire"
+        },
+        {
+          "source_id": "nps-tx006-v1",
+          "locator": "Description",
+          "quote": "with the intention of reducing Fort Griffin and landing troops to begin occupying Texas."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Lieutenant Richard W. Dowling, Major General William B. Franklin and Captain Frederick Crocker (navy); the live page gives Franklin as brigadier general, not adopted. Dowling commanded the fort. Franklin says the plan was adopted with Crocker and that he decided to recross the bar. Crocker says the Granite City and General Banks made no attempt to follow and blames Franklin for failing to co-operate; Franklin says Weitzel's report shows why the landing could not be carried out.",
+      "rationale": "Opposing interested accounts of responsibility; neither is adopted, and no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TX006",
+            "belligerent": "Confederate",
+            "fullname": "Richard W. Dowling"
+          },
+          "column": "rank",
+          "quote": "Lieutenant"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TX006",
+            "belligerent": "US",
+            "fullname": "William B. Franklin"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TX006",
+            "belligerent": "US",
+            "fullname": "Frederick Crocker"
+          },
+          "column": "rank",
+          "quote": "Captain"
+        },
+        {
+          "source_id": "nps-tx006-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General William Franklin [US]"
+        },
+        {
+          "source_id": "or26-1-dowling-sabine-pass-selections-v1",
+          "section": "dowling-1863-09-09",
+          "locator": "p.311 (OCR page markers; not checked against print)",
+          "quote": "Fort Griffin, Sabine Pass , September 9, 1863."
+        },
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "the following plan was adopted in conjunction with Captain Crocker"
+        },
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "I therefore concluded to recross the bar"
+        },
+        {
+          "source_id": "or26-1-crocker-sabine-pass-selections-v1",
+          "section": "crocker-1863-09-12",
+          "locator": "p.301 (OCR page markers; not checked against print)",
+          "quote": "the Granite City and the General Banks were still lying, drifting across the tide, making no attempt to follow."
+        },
+        {
+          "source_id": "or26-1-crocker-sabine-pass-selections-v1",
+          "section": "crocker-1863-09-12",
+          "locator": "p.302 (OCR page markers; not checked against print)",
+          "quote": "nor that of General Franklin in failing so utterly to co- operate"
+        },
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "General Weitzel’s report, herewith inclosed, shows why that part of the engagement assigned to him could not be carried out."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Dowling says the Sachem surrendered after a shot through her steam-drum and the grounded Clifton after twenty-five to thirty-five minutes; Franklin and Crocker agree both gunboats surrendered and the expedition withdrew.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX006"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-tx006-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or26-1-dowling-sabine-pass-selections-v1",
+          "section": "dowling-1863-09-09",
+          "locator": "p.311 (OCR page markers; not checked against print)",
+          "quote": "which, after the third or fourth round, hoisted the white flag"
+        },
+        {
+          "source_id": "or26-1-dowling-sabine-pass-selections-v1",
+          "section": "dowling-1863-09-09",
+          "locator": "p.311 (OCR page markers; not checked against print)",
+          "quote": "when she also hoisted a white flag."
+        },
+        {
+          "source_id": "or26-1-crocker-sabine-pass-selections-v1",
+          "section": "crocker-1863-09-12",
+          "locator": "p.302 (OCR page markers; not checked against print)",
+          "quote": "I deemed it my duty to stop the slaughter by showing the white flag"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads US 230 and CS unknown; the live field reads 350 (US 350; CS 0); NPS says about 200 prisoners. Dowling says about 350 prisoners were taken with two gunboats and thirteen guns. Franklin says there were no losses beyond those Weitzel reported (not selected). No Confederate loss figure appears in the selected reports.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Prisoner counts include naval crews; the frozen 230 is not traced.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TX006"
+          },
+          "column": "casualties_text",
+          "quote": "(US 230; CS unknown)"
+        },
+        {
+          "source_id": "nps-tx006-v1",
+          "locator": "Estimated Casualties",
+          "quote": "350 total (US 350; CS 0;)"
+        },
+        {
+          "source_id": "nps-tx006-v1",
+          "locator": "Description",
+          "quote": "captured the gunboat Clifton and about 200 prisoners"
+        },
+        {
+          "source_id": "or26-1-dowling-sabine-pass-selections-v1",
+          "section": "dowling-1863-09-09",
+          "locator": "p.312 (OCR page markers; not checked against print)",
+          "quote": "two gunboats, mount- ing thirteen guns of the heaviest caliber, and about 350 prisoners."
+        },
+        {
+          "source_id": "or26-1-franklin-sabine-pass-selections-v1",
+          "section": "franklin-1863-09-11",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "believe there have been no losses except those reported by General Weitzel"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Magruder's and Odlum's reports (read, not selected), Weitzel's report and loss figures (read, not selected), the naval reports cited by the compiler (Annual Report of the Secretary of the Navy, 1863), returns and charts remain deferred. Crocker's report is the targeted follow-up for the command dispute.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Franklin's September 11 and 14, 1863 reports and Dowling's September 9, 1863 report are interested accounts from opposite sides; Crocker's September 12 report, written as a prisoner, is a separate family used as the follow-up. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Participants are named as the sources name them; characterizations in the sources (including 'hostile', 'savages', 'massacre' or 'battle') are quoted as the sources' own words and not adopted."
+  ]
+}

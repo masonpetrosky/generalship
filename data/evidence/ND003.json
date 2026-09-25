@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "battle_id": "ND003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Stony Lake record (July 28, 1863) in Operations Against the Sioux in North Dakota [July 1863]. The march to the Missouri and the July 29-30 skirmishes at the river are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the District of Minnesota and the Santee and Teton Sioux without figures; the live field reads 0. Sibley estimates the warriors at no less than 2,200 to 2,500 and, from scouts' and prisoners' information, the combined camp at nearly 10,000 souls. Crooks gives at least 2,000 mounted men.",
+      "rationale": "Opponents' estimates of the attacking force on July 28 (2,200 to 2,500; at least 2,000) and of the whole combined camp (10,000 souls, undated, from scouts' and prisoners' information), of different scopes. No account by the Dakota bands was inspected; their numbers, aims and losses come from their opponents' estimates, prisoners' or scouts' statements relayed by them, or the NPS summary. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ND003"
+          },
+          "column": "forces_text",
+          "quote": "District of Minnesota [US]; Santee and Teton Sioux [I]"
+        },
+        {
+          "source_id": "nps-nd003-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "than from 2,200 to 2,500."
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "an enormous camp of nearly, or quite, 10,000 souls."
+        },
+        {
+          "source_id": "or22-1-crooks-dakota-selections-v1",
+          "section": "crooks-1863-08-05",
+          "locator": "p.362 (OCR page markers; not checked against print)",
+          "quote": "of 2,000 mounted men, at least"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "circle-and-lake",
+      "dimension": "terrain",
+      "value": "Sibley says the train was toiling up a long hill when the Indians formed two-thirds of a circle 5 or 6 miles long; Crooks's regiment held the center on the north side of the lake.",
+      "rationale": "Ground and the attackers' deployment from interested reports; tag unresolved. No map verification.",
+      "citations": [
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "as the train toiled up the long hill."
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "to form two-thirds of a circle, 5 or 6 miles in ex- tent"
+        },
+        {
+          "source_id": "or22-1-crooks-dakota-selections-v1",
+          "section": "crooks-1863-08-05",
+          "locator": "p.362 (OCR page markers; not checked against print)",
+          "quote": "and being upon the north side of the lake"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "exhausted-animals",
+      "dimension": "logistics",
+      "value": "Sibley says exhaustion of the animals forced the halt at Stony Lake with scarce grass, and his jaded horses could not overtake the retreating Indians.",
+      "rationale": "Animal condition from an interested report; not a return.",
+      "citations": [
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "where the exhaustion of the animals required me to encamp, although grass was very scarce."
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "with our jaded horses"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "attack-on-the-march",
+      "dimension": "information",
+      "value": "Sibley saw a large mounted force moving on the column while part of the wagons were still in camp; Crooks says the attack came as the column was forming and the transportation was scattered.",
+      "rationale": "Timing and knowledge attributed in interested reports; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "I perceived a large force of mounted Indians moving rapidly upon us."
+        },
+        {
+          "source_id": "or22-1-crooks-dakota-selections-v1",
+          "section": "crooks-1863-08-05",
+          "locator": "p.362 (OCR page markers; not checked against print)",
+          "quote": "as the column was forming on the morning of the 28th, and the transportation was somewhat scattered"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Sibley calls the attack the combined bands' last effort to stop his advance toward their families; Crooks says it aimed to destroy the transportation and delay the advance so the families could escape.",
+      "rationale": "Aims inferred by opponents. No account by the Dakota bands was inspected; their numbers, aims and losses come from their opponents' estimates, prisoners' or scouts' statements relayed by them, or the NPS summary.",
+      "citations": [
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "This engagement was the last desperate effort of the combined Dakota bands to prevent a farther advance on our part toward their families."
+        },
+        {
+          "source_id": "or22-1-crooks-dakota-selections-v1",
+          "section": "crooks-1863-08-05",
+          "locator": "p.363 (OCR page markers; not checked against print)",
+          "quote": "First, to de- stroy our transportation, and, second, to delay our advance, allowing their families more time to escape."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen US commander is Brigadier General Henry Hastings Sibley. The frozen and live Native American commander is Inkpaduta (no rank; the live page tags him [CS], not adopted); none of the inspected reports names him, so his role is not established here. Sibley says the regiments took their positions before his orders reached them and that he formed the column in line of battle and resumed the march; Crooks credits Averill's deployment.",
+      "rationale": "Command roles from interested reports; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "ND003",
+            "belligerent": "US",
+            "fullname": "Henry Hastings Sibley"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "ND003",
+            "belligerent": "Native American",
+            "fullname": "Inkpaduta"
+          },
+          "column": "fullname",
+          "quote": "Inkpaduta"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "before the orders reached them."
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "and I resumed my march without any delay."
+        },
+        {
+          "source_id": "or22-1-crooks-dakota-selections-v1",
+          "section": "crooks-1863-08-05",
+          "locator": "p.362 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant-Colonel Averill commenced de- ploying the right wing"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Sibley says the Indians fired parting volleys and retreated; NPS quotes his description of the largest conflict by numbers.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ND003"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-nd003-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or22-1-sibley-dakota-selections-v1",
+          "section": "sibley-1863-08-07",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "and then retreated with all expedition."
+        },
+        {
+          "source_id": "nps-nd003-v1",
+          "locator": "Description",
+          "quote": "\"the greatest conflict between our troops and the Indians, so far as the numbers were concerned.\""
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads 0 (US 0; CS 0). No inspected report gives a loss for July 28 alone; Sibley's at least 150 covers all three engagements.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live zeros are not adopted as measured losses.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "ND003"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-nd003-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Baker's report (the Tenth led the column that morning), Marshall's report, the Dakota account and maps remain deferred. No targeted follow-up was used for this record.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Sibley's August 7, 1863 report covers all three July engagements and is an interested account; Crooks's August 5 report (Sixth Minnesota) also covers all three and is a separate family. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Participants are named as the sources name them; characterizations in the sources (including 'hostile', 'savages', 'massacre' or 'battle') are quoted as the sources' own words and not adopted."
+  ]
+}

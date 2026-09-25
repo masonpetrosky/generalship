@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "battle_id": "CO001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Sand Creek record (November 29-30, 1864) in Sand Creek Campaign [November 1864]. The councils at Denver and Fort Lyon, the march from Denver and Fort Lyon, the pursuit toward the Arkansas to December 5 and the later investigations are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the Third Colorado as about 700 and 500 Cheyennes and a few Arapahos (bounds 700 and 700; 500 and 500); the live field reads 0. Chivington gives the Third at about 450 and Anthony's battalion at 125 (Wilson's battalion's number is left blank), and the Indians at 900 to 1,000 warriors in 130 lodges. The committee says he reached Fort Lyon with over 700 mounted men (read 'TOO' in OCR, apparently 700) and two guns and was joined by Anthony with 125, and that the camp had about 100 Cheyenne lodges and 8 to 10 Arapaho lodges, more than half women and children. Smith gives 800 to 1,000 troops, about 500 people at five to a lodge, about two hundred warriors, and not over two hundred troops in the main fight.",
+      "rationale": "Column, engaged and camp figures of different scopes from interested accounts: Chivington's 450, 125 and 900 to 1,000 describe his November 29 line and his estimate of the village; the committee's 700 and 125 describe the force at Fort Lyon on November 28; Smith's figures are his March 1865 recollection. The frozen 700 and 500 are not traced. No account by the Cheyenne or Arapaho people in the camp was inspected; Smith was a white interpreter trading in the village. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "CO001"
+          },
+          "column": "forces_text",
+          "quote": "Third Colorado Regiment (approx. 700 men) [US]; 500 Cheyennes and a few Arapahos [I]"
+        },
+        {
+          "source_id": "nps-co001-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-12-16",
+          "locator": "p.949 (OCR page markers; not checked against print)",
+          "quote": "Colonel Shoup’s (Third) regiment, numbering about 450 men"
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-12-16",
+          "locator": "p.949 (OCR page markers; not checked against print)",
+          "quote": "Major Anthony’s battalion, number- ing 125 men"
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-12-16",
+          "locator": "p.949 (OCR page markers; not checked against print)",
+          "quote": "numbering about — men"
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-11-29-telegram",
+          "locator": "p.948 (OCR page markers; not checked against print)",
+          "quote": "attacked Cheyenne village of 130 lodges, from 900 to 1,000 warriors strong"
+        },
+        {
+          "source_id": "joint-committee-sand-creek-report-selections-v1",
+          "section": "committee-report",
+          "locator": "p.iii (OCR page markers; not checked against print)",
+          "quote": "he appeared at Fort Lyon with over TOO mounted men and two pieces of artillery."
+        },
+        {
+          "source_id": "joint-committee-sand-creek-report-selections-v1",
+          "section": "committee-report",
+          "locator": "p.iii (OCR page markers; not checked against print)",
+          "quote": "Major Anthony joined him with 125 men and two pieces of artillery."
+        },
+        {
+          "source_id": "joint-committee-sand-creek-report-selections-v1",
+          "section": "committee-report",
+          "locator": "p.iii (OCR page markers; not checked against print)",
+          "quote": "This Indian camp consisted of about 100 lodges of Cheyennes, under Black Kettle, and from 8 to 10 lodges of Arapahoes under Left Hand."
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "I think there were between 800 and 1,000 men in this command"
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "About two hundred warriors"
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "There were not over two hundred troops in the main fight"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "creek-and-banks",
+      "dimension": "terrain",
+      "value": "Chivington says the village was on Sand Creek about forty miles from Fort Lyon and that the Indians formed a line across the creek about three-quarters of a mile above it and fell back five miles. Smith and the committee say a body of Indians was surrounded and shot under the bank of the creek about a mile above the village.",
+      "rationale": "Ground from opposed accounts; the creek bed and banks are natural, but the claim also records deployments, so the tag stays unresolved. No map verification.",
+      "citations": [
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-12-16",
+          "locator": "p.949 (OCR page markers; not checked against print)",
+          "quote": "striking Sand Creek, about forty miles from Fort Lyon."
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-12-16",
+          "locator": "p.949 (OCR page markers; not checked against print)",
+          "quote": "formed a line of battle across the creek, about three-fourths of a mile above the village"
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "the troops had got a parcel of the Indians hemmed in under the bank of the river"
+        },
+        {
+          "source_id": "joint-committee-sand-creek-report-selections-v1",
+          "section": "committee-report",
+          "locator": "p.iii (OCR page markers; not checked against print)",
+          "quote": "A few who endeavored to hide themselves under the bank of the creek were surrounded and shot down"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "march-and-stock",
+      "dimension": "logistics",
+      "value": "Chivington says his command marched 300 miles in ten days, 100 through two feet of snow, and forty miles the night before the attack; he captured about 550 ponies, mules and horses and destroyed the lodges. Smith says the camp had about a thousand horses and mules, of which the soldiers drove off about six hundred, and that the traders' robes and goods were taken.",
+      "rationale": "March and property statements from interested accounts; not returns.",
+      "citations": [
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-11-29-telegram",
+          "locator": "p.948 (OCR page markers; not checked against print)",
+          "quote": "my command lias marched 300 miles, 100 of which the snow was two feet deep."
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-11-29-telegram",
+          "locator": "p.948 (OCR page markers; not checked against print)",
+          "quote": "After a march of forty miles last night"
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-12-16",
+          "locator": "p.949 (OCR page markers; not checked against print)",
+          "quote": "about 550 ponies, mules, and horses"
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "that would make about a thousand head of horses and mules in that camp. The soldiers drove off about six hundred head."
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "This was all taken away from them."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "status-of-the-camp",
+      "dimension": "information",
+      "value": "The accounts dispute what the camp was and what Chivington knew. Chivington calls the Indians hostile and among the worst on the Platte and Arkansas routes, citing a white man's scalp and stolen stock found in the lodges. The committee says the band had been friendly, had surrendered its arms to Anthony and camped on Sand Creek at his suggestion, and that Chivington stopped travel and guarded Fort Lyon to keep his approach secret. Smith says the band had no apprehension of trouble, that Black Kettle raised an American flag with a white flag under it, and gives his opinion that Chivington knew their friendly character, resting it on the stopping of travel and on what he says Chivington was told, which he conceded he did not know of his own knowledge.",
+      "rationale": "Opposed interested accounts; the committee is a political body and Smith an interested witness. Neither account is adopted. No account by the Cheyenne or Arapaho people in the camp was inspected; Smith was a white interpreter trading in the village.",
+      "citations": [
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-12-16",
+          "locator": "p.948 (OCR page markers; not checked against print)",
+          "quote": "Having ascertained that the hostile Indians had proceeded south from the Platte"
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-12-16",
+          "locator": "p.950 (OCR page markers; not checked against print)",
+          "quote": "The evidence is most conclusive that these Indians are the worst that ha\\re infested the routes on the Platte and Arkansas Bivers"
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-12-16",
+          "locator": "p.950 (OCR page markers; not checked against print)",
+          "quote": "I was shown the scalp of a white man found in one of the lodges"
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-12-16",
+          "locator": "p.950 (OCR page markers; not checked against print)",
+          "quote": "the stock captured were the horses and mules taken by them from Lieu tenant Chase"
+        },
+        {
+          "source_id": "joint-committee-sand-creek-report-selections-v1",
+          "section": "committee-report",
+          "locator": "p.ii (OCR page markers; not checked against print)",
+          "quote": "were and had been friendly to the whites"
+        },
+        {
+          "source_id": "joint-committee-sand-creek-report-selections-v1",
+          "section": "committee-report",
+          "locator": "p.ii (OCR page markers; not checked against print)",
+          "quote": "which they surrendered to him"
+        },
+        {
+          "source_id": "joint-committee-sand-creek-report-selections-v1",
+          "section": "committee-report",
+          "locator": "p.iii (OCR page markers; not checked against print)",
+          "quote": "One of his first acts was to throw a guard around the post to prevent any one leaving it."
+        },
+        {
+          "source_id": "joint-committee-sand-creek-report-selections-v1",
+          "section": "committee-report",
+          "locator": "p.ii (OCR page markers; not checked against print)",
+          "quote": "these Indians went to a place on Sand creek, about thirty-five miles from Fort Lyon, and there established their camp"
+        },
+        {
+          "source_id": "joint-committee-sand-creek-report-selections-v1",
+          "section": "committee-report",
+          "locator": "p.iii (OCR page markers; not checked against print)",
+          "quote": "For some days all travel on that route was forcibly stopped by him, not even the mail being allowed to pass."
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.7 (OCR page markers; not checked against print)",
+          "quote": "They had no apprehensions in the world of any trouble with the whites at the time this attack was made."
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.5 (OCR page markers; not checked against print)",
+          "quote": "Black Kettle ran this American flag up to the top of his lodge, with a small white flag tied right under it"
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.7 (OCR page markers; not checked against print)",
+          "quote": "It is my opinion that he did."
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.8 (OCR page markers; not checked against print)",
+          "quote": "Answer. I cannot say I do."
+        },
+        {
+          "source_id": "nps-co001-v1",
+          "locator": "Description",
+          "quote": "believing themselves to be protected"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "stated-and-attributed-aims",
+      "dimension": "objectives",
+      "value": "Chivington says he meant to strike hostile Indians near Fort Lyon, captured no prisoners, and intended to go on after more on the Smoky Hill. The committee says he deliberately planned the attack and records others' views that he sought political preferment or to avoid service elsewhere; Smith relays hearsay of electioneering motives. NPS says Chivington advocated Indian extermination.",
+      "rationale": "Stated aims versus opponents' attributions of motive; attributions are recorded as claims of their authors and not adopted.",
+      "citations": [
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-12-16",
+          "locator": "p.949 (OCR page markers; not checked against print)",
+          "quote": "It may perhaps be unnecessary for me to state that I captured no pris- oners."
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-11-29-telegram",
+          "locator": "p.948 (OCR page markers; not checked against print)",
+          "quote": "Think I will catch some more of them eighty miles, on Smoky Hill."
+        },
+        {
+          "source_id": "joint-committee-sand-creek-report-selections-v1",
+          "section": "committee-report",
+          "locator": "p.v (OCR page markers; not checked against print)",
+          "quote": "he deliberately planned and executed a foul and dastardly mas"
+        },
+        {
+          "source_id": "joint-committee-sand-creek-report-selections-v1",
+          "section": "committee-report",
+          "locator": "p.v (OCR page markers; not checked against print)",
+          "quote": "It is thought by some that desire for political preferment prompted him"
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "I have heard that that whole Indian war had been brought on for selfish purposes."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "CO001"
+          },
+          "column": "description",
+          "quote": "Col. John Chivington, who advocated Indian extermination"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Colonel John Chivington and Black Kettle (no rank recorded); the live page gives Chivington as major general and tags Black Kettle [CS], neither adopted. Chivington formed the line with Wilson's battalion on the right, Shoup's Third in the center and Anthony's battalion on the left, and credits them. The committee says no officer tried to restrain the men. Smith says the mutilations he saw were by the troops and that he hardly thinks they were done by officers' direction. Chivington reports Black Kettle killed; Smith says the body he took for Black Kettle was not his.",
+      "rationale": "Command roles and responsibility from opposed interested accounts; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "CO001",
+            "belligerent": "US",
+            "fullname": "John Chivington"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "CO001",
+            "belligerent": "Native American",
+            "fullname": "Black Kettle"
+          },
+          "column": "fullname",
+          "quote": "Black Kettle"
+        },
+        {
+          "source_id": "nps-co001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General John Chivington [US]"
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-12-16",
+          "locator": "p.949 (OCR page markers; not checked against print)",
+          "quote": "My line of battle was formed with Lieutenant Wilson’s battalion"
+        },
+        {
+          "source_id": "joint-committee-sand-creek-report-selections-v1",
+          "section": "committee-report",
+          "locator": "p.iv (OCR page markers; not checked against print)",
+          "quote": "No attempt was made by the officers to restrain the savage cruelty of the men under their command"
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.9 (OCR page markers; not checked against print)",
+          "quote": "By the United States troops."
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.9 (OCR page markers; not checked against print)",
+          "quote": "I do not; I hardly think it was."
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-11-29-telegram",
+          "locator": "p.948 (OCR page markers; not checked against print)",
+          "quote": "killed Chiefs Black Kettle, White Antelope, Knock Knee, and Little Kobe [Little Raven]"
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.8 (OCR page markers; not checked against print)",
+          "quote": "I supposed Black Kettle was among them, but it was not Black Kettle."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory (massacre) and the frozen other name Chivington Massacre; the live result reads Union Victory. Chivington calls it one of the most bloody battles ever fought on those plains and the bands almost annihilated. The committee calls it a massacre and describes indiscriminate killing and mutilation; Smith says women and children were killed indiscriminately and bodies mutilated by the troops. NPS says the troops attacked in spite of the flags.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The characterizations (battle, victory, massacre) are the sources' and are not adopted; the dispute is preserved.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "CO001"
+          },
+          "column": "results_text",
+          "quote": "Union victory (massacre)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "CO001"
+          },
+          "column": "other_names",
+          "quote": "Chivington Massacre"
+        },
+        {
+          "source_id": "nps-co001-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-11-29-to-news",
+          "locator": "p.950 (OCR page markers; not checked against print)",
+          "quote": "one of the most bloody battles ever fought on these plains."
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-12-16",
+          "locator": "p.950 (OCR page markers; not checked against print)",
+          "quote": "and their bands almost annihilated."
+        },
+        {
+          "source_id": "joint-committee-sand-creek-report-selections-v1",
+          "section": "committee-report",
+          "locator": "p.iii (OCR page markers; not checked against print)",
+          "quote": "And then the scene of murder and barbarity began"
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.9 (OCR page markers; not checked against print)",
+          "quote": "I saw the bodies of those lying there cut all to pieces"
+        },
+        {
+          "source_id": "nps-co001-v1",
+          "locator": "Description",
+          "quote": "In spite of the American flag and a white flag flying over the camp, the troops attacked"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads US unknown and I 200; the live field reads 198 (US 48; CS 150); NPS says about 200 killed, two-thirds women and children. Chivington gives 400 to 500 Indians killed besides the chiefs on November 29, about 500 in his letter to the News, and 500 to 600 left dead in his December 16 report; his own loss 9 killed and 38 wounded (telegram) or 8 killed and 40 wounded, two since dead (report). The committee gives more than one hundred dead, three-fourths women and children. Smith saw about seventy dead under the bank, the greater portion women and children, and gives ten troops killed and thirty-eight wounded, four of whom died.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Counts differ in scope (whole field versus the bank) and are opposed accounts; none is reconciled.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "CO001"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US unknown; I 200)"
+        },
+        {
+          "source_id": "nps-co001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "198 total (US 48; CS 150;)"
+        },
+        {
+          "source_id": "nps-co001-v1",
+          "locator": "Description",
+          "quote": "killing and mutilating about 200 of the Indians, two-thirds of whom were women and children."
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-11-29-telegram",
+          "locator": "p.948 (OCR page markers; not checked against print)",
+          "quote": "and between 400 and 500 other Indians"
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-11-29-telegram",
+          "locator": "p.948 (OCR page markers; not checked against print)",
+          "quote": "Our loss [was] 9 killed, 38 wounded."
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-11-29-to-news",
+          "locator": "p.951 (OCR page markers; not checked against print)",
+          "quote": "and about 500 of their people"
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-12-16",
+          "locator": "p.949 (OCR page markers; not checked against print)",
+          "quote": "Between 500 and 600 Indians were left dead upon the ground"
+        },
+        {
+          "source_id": "or41-1-chivington-sand-creek-selections-v1",
+          "section": "chivington-1864-12-16",
+          "locator": "p.949 (OCR page markers; not checked against print)",
+          "quote": "My loss was 8 killed on the field and 40 wounded, of which two have since died."
+        },
+        {
+          "source_id": "joint-committee-sand-creek-report-selections-v1",
+          "section": "committee-report",
+          "locator": "p.iv (OCR page markers; not checked against print)",
+          "quote": "more than one hundred dead bodies, three-fourths of them of women and children"
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "I think I saw altogether some seventy dead bodies lying there"
+        },
+        {
+          "source_id": "smith-sand-creek-testimony-selections-v1",
+          "section": "smith-testimony-1865-03-14",
+          "locator": "p.9 (OCR page markers; not checked against print)",
+          "quote": "There were ten killed on the ground, and thirty-eight wounded; four of the wounded died at Fort Lyon"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The company reports (Nos. 2-8) and Wynkoop's No. 9 investigation with its statements and affidavits (OR XLI, part 1, pp.951-972), the other testimony in the committee's volume (including Anthony, the Colleys, Evans and Chivington's own answers), the 1867 military commission record, any Cheyenne or Arapaho account and maps remain deferred. Smith's testimony is the targeted follow-up.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Chivington's November 29 and December 16, 1864 reports are interested accounts. The Joint Committee's 1865 report is a political body's findings, not a participant account. John S. Smith's March 14, 1865 testimony is an interested eyewitness account, a separate family used as the follow-up; it shares a container with the committee report. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Participants are named as the sources name them; characterizations in the sources (including 'hostile', 'savages', 'massacre' or 'battle') are quoted as the sources' own words and not adopted."
+  ]
+}

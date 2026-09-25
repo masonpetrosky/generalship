@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "battle_id": "MN001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort Ridgely record (August 20-22, 1862) in Operations to Suppress the Sioux Uprising [August-September 1862]. Captain Marsh's ambush on the way to the Lower Sioux Agency before the attacks, the killings of settlers across the Minnesota River Valley and the refugees' arrival are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Fort Ridgely garrison and refugee civilians and the Santee Sioux without figures; the live field reads 0. The frozen description gives about 400 Sioux on August 20 and 800 on August 22. Sheehan names the remnant of Company B and a detachment of Company C of the Fifth Minnesota and the newly organized Renville Rangers as his only troops, with armed refugees aiding the defense, and gives no figures; he describes a large force on the 20th and a much larger one on the 22nd, and Jones a very large force.",
+      "rationale": "Unit names and qualitative descriptions only; the frozen 400 and 800 are not traced in the inspected reports. No account by the Dakota side was inspected; every statement of their numbers, aims and losses comes from their opponents or from the NPS summary. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MN001"
+          },
+          "column": "forces_text",
+          "quote": "Fort Ridgely Garrison and refugee civilians [US]; Santee Sioux [I]"
+        },
+        {
+          "source_id": "nps-mn001-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MN001"
+          },
+          "column": "description",
+          "quote": "On August 20, about 400 Sioux attacked the fort but were repulsed."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MN001"
+          },
+          "column": "description",
+          "quote": "On the 22nd, 800 Sioux attacked the fort again"
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "The small remnant of Company B, Fifth Regiment Minnesota Volunteers, together with a detachment of Company C"
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "and the Renville Rangers, a company just organized for one of the regiments of this State"
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "were organized and armed, as far as practicable, to aid in the defense."
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "this post was assaulted by a large force of Sioux Indians on the 20th instant."
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "On the 22d they returned with a much larger force"
+        },
+        {
+          "source_id": "or13-jones-fort-ridgely-selections-v1",
+          "section": "jones-1862-08-26",
+          "locator": "p.250 (OCR page markers; not checked against print)",
+          "quote": "a still more determined attack was made about 2.30 p. m. by a very large force of Indians."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ravines-and-outbuildings",
+      "dimension": "terrain",
+      "value": "Sheehan says ravines surround the post, that the heaviest attack of the 22nd fell on the east and west corners near them, and that stables and log buildings covered the west corner until he ordered them destroyed; the men's quarters and store-house were stone.",
+      "rationale": "Ground from an interested report; the ravines are natural, but the outbuildings were destroyed on the defenders' order during the action, so the tag stays unresolved. No map verification.",
+      "citations": [
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "which compelled them to evacuate the ravines by which this post is surrounded"
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "the most determined was on the east and west corners of the fort, which are in the immediate vicinity of ravines."
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "The west corner was also covered by stables and log buildings, which afforded the Indians great protection"
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.249 (OCR page markers; not checked against print)",
+          "quote": "the men’s quarters and store-house, which are stone buildings."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-transport",
+      "dimension": "logistics",
+      "value": "Sheehan says small-arms ammunition nearly failed and balls were taken from spherical-case shot and recast by a party of men and women, and that most of the quartermaster's mules and oxen were taken. Jones says the small-arms ammunition on hand was all expended, while the field-gun ammunition was in good order and sufficient.",
+      "rationale": "Supply statements from two garrison reports of the same date; not a return.",
+      "citations": [
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "Our small-arms ammunition nearly failing"
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.249 (OCR page markers; not checked against print)",
+          "quote": "I ordered the balls to be removed from some of the spherical-case shot"
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.249 (OCR page markers; not checked against print)",
+          "quote": "Most of the mules and oxen belonging to the quartermaster’s department were taken by the Indians"
+        },
+        {
+          "source_id": "or13-jones-fort-ridgely-selections-v1",
+          "section": "jones-1862-08-26",
+          "locator": "p.250 (OCR page markers; not checked against print)",
+          "quote": "The small-arms ammunition on hand was all expended"
+        },
+        {
+          "source_id": "or13-jones-fort-ridgely-selections-v1",
+          "section": "jones-1862-08-26",
+          "locator": "p.250 (OCR page markers; not checked against print)",
+          "quote": "The ammunition for the field guns is in good order"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "alarm",
+      "dimension": "information",
+      "value": "Jones says the alarm was given about 2 p.m. on the 20th and the gun detachments were promptly at their posts.",
+      "rationale": "A clock time from one garrison report; no warning, reconnaissance or message record was inspected.",
+      "citations": [
+        {
+          "source_id": "or13-jones-fort-ridgely-selections-v1",
+          "section": "jones-1862-08-26",
+          "locator": "p.249 (OCR page markers; not checked against print)",
+          "quote": "The alarm was given about 2 p. m. on the 20th; the gun detachments were promptly at their post"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "refuge-and-lodgment",
+      "dimension": "objectives",
+      "value": "NPS says the fort had become the refuge for white civilians and summarizes the Santee grievances over annuities and rations. Sheehan says the attackers could not effect a lodgment and prepared to storm the post.",
+      "rationale": "The grievance is the NPS summary's; the attackers' aims are inferred by an opponent. No account by the Dakota side was inspected; every statement of their numbers, aims and losses comes from their opponents or from the NPS summary.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MN001"
+          },
+          "column": "description",
+          "quote": "Fort Ridgely, about twelve miles from the Lower Sioux Agency, became the refuge for white civilians."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MN001"
+          },
+          "column": "description",
+          "quote": "angered by the failure of the Federal government to provide annuities and by the poor quality of rations"
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "finding that they could not effect a lodgment"
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "The Indians prepared to storm"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are First Lieutenant Timothy J. Sheehan and Little Crow (no rank recorded); the live page tags Little Crow [CS], which is not adopted. Sheehan signs as commanding the post and ordered the outbuildings destroyed; the artillery was under Ordnance Sergeant Jones, and the Renville Rangers under Lieutenant Gorman. Jones credits Sheehan with organizing the casting of balls. The inspected reports do not name Little Crow; only NPS places the Santee under him.",
+      "rationale": "Command roles from two garrison reports and the NPS summary; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MN001",
+            "belligerent": "US",
+            "fullname": "Timothy J. Sheehan"
+          },
+          "column": "rank",
+          "quote": "First Lieutenant"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MN001",
+            "belligerent": "Native American",
+            "fullname": "Little Crow"
+          },
+          "column": "fullname",
+          "quote": "Little Crow"
+        },
+        {
+          "source_id": "nps-mn001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Chief Little Crow"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MN001"
+          },
+          "column": "description",
+          "quote": "the Santee Sioux of Minnesota under Chief Little Crow"
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.249 (OCR page markers; not checked against print)",
+          "quote": "Comdg. Post."
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "in order to protect the garrison, I ordered them to be destroyed."
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "under the immediate charge of Ordnance Sergt. J. Jones, U. S. Army"
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "the Renville Rangers, under the command of First Lieut. J. Gorman"
+        },
+        {
+          "source_id": "or13-jones-fort-ridgely-selections-v1",
+          "section": "jones-1862-08-26",
+          "locator": "p.250 (OCR page markers; not checked against print)",
+          "quote": "but by your energies in organizing a party to cast balls and make cartridges we have still a moderate supply."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory; the frozen description says the garrison and civilians held the fort. Sheehan says the attackers withdrew at dusk on the 20th and were compelled to withdraw on the 22nd.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MN001"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-mn001-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MN001"
+          },
+          "column": "description",
+          "quote": "but the garrison and civilians held the fort."
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "withdrew their forces, and the gallant little garrison rested on their arms"
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "sheehan-1862-08-26",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "compelled them to withdraw, after one of the most determined attacks ever made by Indians on a military post."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads US 16 and Indian losses unknown; the live field reads 26 (US 26; CS 0). Sheehan's return of casualties in the garrison for August 20 and 22 totals 16 (read as '3 13 16' in the garbled OCR columns, apparently 3 killed and 13 wounded). No inspected source gives a Dakota loss.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The return covers the garrison, not the armed refugees; the live 26 is not traced; the column reading is tentative.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MN001"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US 16; I unknown)"
+        },
+        {
+          "source_id": "nps-mn001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "26 total (US 26; CS 0;)"
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "return-of-casualties",
+          "locator": "p.249 (OCR page markers; not checked against print)",
+          "quote": "Return of Casualties in the garrison at Fort Ridgely, Minn., at the action at Fort Ridgely , Minn., August 20 and 22, 1862."
+        },
+        {
+          "source_id": "or13-sheehan-fort-ridgely-selections-v1",
+          "section": "return-of-casualties",
+          "locator": "p.249 (OCR page markers; not checked against print)",
+          "quote": "Total 3 13 16"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Marsh's August 18 ambush, the civilian refugees' numbers, the sources of the frozen 400 and 800, the names list Jones appended (not printed in the OCR), any Dakota account, histories of the war (Heard 1863 and others) and maps remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Sheehan's and Jones's August 26, 1862 reports are interested garrison accounts written the same day; Jones reports to Sheehan, but each is a separate author family. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Participants are named as the sources name them; characterizations in the sources (including 'hostile', 'savages', 'massacre' or 'battle') are quoted as the sources' own words and not adopted."
+  ]
+}
