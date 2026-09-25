@@ -46,9 +46,26 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [AL001](../data/evidence/AL001.json) | 9 | 1 | 0 | 0 | draft |
 | [AR006](../data/evidence/AR006.json) | 10 | 1 | 0 | 0 | draft |
 | [AR008](../data/evidence/AR008.json) | 9 | 1 | 0 | 0 | draft |
+| [DC001](../data/evidence/DC001.json) | 9 | 1 | 0 | 0 | draft |
 | [GA003](../data/evidence/GA003.json) | 9 | 1 | 0 | 0 | draft |
 | [GA004](../data/evidence/GA004.json) | 9 | 1 | 0 | 0 | draft |
 | [GA005](../data/evidence/GA005.json) | 9 | 1 | 0 | 0 | draft |
+| [GA007](../data/evidence/GA007.json) | 9 | 1 | 0 | 0 | draft |
+| [GA008](../data/evidence/GA008.json) | 9 | 1 | 0 | 0 | draft |
+| [GA009](../data/evidence/GA009.json) | 9 | 1 | 0 | 0 | draft |
+| [GA010](../data/evidence/GA010.json) | 9 | 1 | 0 | 0 | draft |
+| [GA011](../data/evidence/GA011.json) | 9 | 1 | 0 | 0 | draft |
+| [GA012](../data/evidence/GA012.json) | 9 | 1 | 0 | 0 | draft |
+| [GA013](../data/evidence/GA013.json) | 9 | 1 | 0 | 0 | draft |
+| [GA014](../data/evidence/GA014.json) | 9 | 2 | 0 | 0 | draft |
+| [GA015](../data/evidence/GA015.json) | 9 | 1 | 0 | 0 | draft |
+| [GA016](../data/evidence/GA016.json) | 9 | 2 | 0 | 0 | draft |
+| [GA017](../data/evidence/GA017.json) | 9 | 1 | 0 | 0 | draft |
+| [GA018](../data/evidence/GA018.json) | 9 | 1 | 0 | 0 | draft |
+| [GA019](../data/evidence/GA019.json) | 9 | 2 | 0 | 0 | draft |
+| [GA020](../data/evidence/GA020.json) | 9 | 1 | 0 | 0 | draft |
+| [GA021](../data/evidence/GA021.json) | 9 | 1 | 0 | 0 | draft |
+| [GA022](../data/evidence/GA022.json) | 9 | 1 | 0 | 0 | draft |
 | [IN001](../data/evidence/IN001.json) | 9 | 1 | 0 | 0 | draft |
 | [KY005](../data/evidence/KY005.json) | 11 | 1 | 0 | 0 | draft |
 | [KY006](../data/evidence/KY006.json) | 11 | 2 | 0 | 0 | draft |
@@ -62,6 +79,8 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [MD003](../data/evidence/MD003.json) | 9 | 5 | 0 | 0 | draft |
 | [MD004](../data/evidence/MD004.json) | 9 | 1 | 0 | 0 | draft |
 | [MD006](../data/evidence/MD006.json) | 9 | 1 | 0 | 0 | draft |
+| [MD007](../data/evidence/MD007.json) | 9 | 1 | 0 | 0 | draft |
+| [MD008](../data/evidence/MD008.json) | 9 | 1 | 0 | 0 | draft |
 | [MO012](../data/evidence/MO012.json) | 11 | 3 | 0 | 0 | draft |
 | [MS001](../data/evidence/MS001.json) | 9 | 1 | 0 | 0 | draft |
 | [MS002](../data/evidence/MS002.json) | 10 | 1 | 0 | 0 | draft |
@@ -177,9 +196,21 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [VA106](../data/evidence/VA106.json) | 10 | 2 | 0 | 0 | draft |
 | [VA107](../data/evidence/VA107.json) | 9 | 1 | 0 | 0 | draft |
 | [VA108](../data/evidence/VA108.json) | 9 | 1 | 0 | 0 | draft |
+| [VA114](../data/evidence/VA114.json) | 9 | 1 | 0 | 0 | draft |
+| [VA115](../data/evidence/VA115.json) | 9 | 1 | 0 | 0 | draft |
+| [VA116](../data/evidence/VA116.json) | 9 | 1 | 0 | 0 | draft |
+| [VA117](../data/evidence/VA117.json) | 9 | 1 | 0 | 0 | draft |
+| [VA118](../data/evidence/VA118.json) | 9 | 1 | 0 | 0 | draft |
+| [VA119](../data/evidence/VA119.json) | 9 | 1 | 0 | 0 | draft |
+| [VA120](../data/evidence/VA120.json) | 9 | 1 | 0 | 0 | draft |
+| [VA121](../data/evidence/VA121.json) | 9 | 1 | 0 | 0 | draft |
+| [VA122](../data/evidence/VA122.json) | 9 | 1 | 0 | 0 | draft |
 | [WV009](../data/evidence/WV009.json) | 10 | 4 | 0 | 0 | draft |
 | [WV010](../data/evidence/WV010.json) | 10 | 1 | 0 | 0 | draft |
 | [WV012](../data/evidence/WV012.json) | 9 | 1 | 0 | 0 | draft |
+| [WV013](../data/evidence/WV013.json) | 9 | 1 | 0 | 0 | draft |
+| [WV014](../data/evidence/WV014.json) | 9 | 1 | 0 | 0 | draft |
+| [WV015](../data/evidence/WV015.json) | 9 | 2 | 0 | 0 | draft |
 | [WV016](../data/evidence/WV016.json) | 9 | 2 | 0 | 0 | draft |
 
 ## Admission proposal checks
@@ -191,7 +222,7 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-The frozen v1 cohort is complete: 127/127 engagements have dossiers. The full-war research frame ([cohort v2](../docs/cohort-v2.md)) has 384 engagements; 138 have dossiers. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The frozen v1 cohort is complete: 127/127 engagements have dossiers. The full-war research frame ([cohort v2](../docs/cohort-v2.md)) has 384 engagements; 169 have dossiers. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
 The [Operations about Dandridge first pass](../docs/research/dandridge-first-pass-v1.md) adds all three frozen records: 27 claims, 3 explicit unknowns and 145 citations from NPS/CWSAC, Sturgis's, Martin's and Longstreet's Official Records reports. Strength attributions, the Mossy Creek withdrawal, Sturgis's differing loss and capture figures and the frozen/live casualty differences remain visible; its separate Opus review's seven corrections are applied. All frozen campaign groups now have first-pass dossiers. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.

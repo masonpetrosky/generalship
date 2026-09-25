@@ -18,7 +18,7 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen and live force fields read 170,000 (US 108,000; CS 62,000). Humphreys says Smith landed about 12,500 men, left 2,500 with Ames and marched with 10,000 and sixteen guns; that Hoke's division joined Lee with a little less than 6,000 enlisted infantry according to Colonel Walter H. Taylor; and that Wilson was reinforced by 3,000 infantry and 2,000 cavalry, of which Wilson reported about 1,400 efficient infantry and 1,000 good cavalry.",
+      "value": "The frozen and live force fields read 170,000 (US 108,000; CS 62,000). Humphreys says Smith landed about 12,500 men, left 2,500 with Ames and marched with 10,000 and sixteen guns; that Hoke's division joined Lee with a little less than 6,000 enlisted infantry; and that Wilson was reinforced by a nominal 3,000 infantry and 2,000 cavalry, of which Wilson reported about 1,400 efficient infantry and 1,000 good cavalry.",
       "rationale": "Partial figures for arriving forces, not matched opening strengths. None is adopted as a matched opening strength; live zeros are not measured absence.",
       "citations": [
         {
@@ -50,7 +50,7 @@
           "source_id": "humphreys-overland-selections-v1",
           "section": "north-anna",
           "locator": "p.125 (OCR page markers; not checked against print)",
-          "quote": "an effective total of infantry (enlisted men) a little less than 6,000, according to Colonel Walter H. Taylor."
+          "quote": "an effective total of infantry (enlisted men) a little less than 6,000,"
         },
         {
           "source_id": "humphreys-overland-selections-v1",
@@ -304,7 +304,7 @@
       "id": "recorded-result",
       "dimension": "outcome",
       "value": "The frozen and live results read Confederate victory. NPS says the June 3 assaults were slaughtered at all points; Meade says the Sixth and Eighteenth Corps assaults failed and offensive operations closed about 11 a.m.; Humphreys dates the suspension order to half-past one and says the army remained until the night of June 12.",
-      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Meade's about 11 a.m. and Humphreys' half-past one may describe different events (the end of the assaults and the suspension order); the conflict may be one of reference rather than fact, and neither is adopted.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Meade's and Humphreys' times for the end of the offensive differ.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -343,8 +343,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 15,500 (US 13,000; CS 2,500); the live field reads 18,000 (US 13,000; CS 5,000). Humphreys says the three assaulting corps lost over 4,000 killed and wounded in about an hour on June 3, and over 5,600 including the Fifth and Ninth Corps; for June 1 and 3 he gives 8,411 killed and wounded and 9,948 in all; and he relays Surgeon McParlin's estimate from the Pamunkey crossing to the evening of June 12, 11,729 excluding the Eighteenth Corps plus McParlin's estimated 2,400 for that corps, a grand total of 14,129. For Lee's army he gives the Medical and Surgical History's 1,200 wounded and 500 missing for June 1–12, says the actual number was probably much greater, and estimates four to five thousand for May 27–June 12.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Humphreys' periods (June 3, June 1 and 3, May 27–June 12) overlap and are not additive. McParlin's 14,129 is an estimate running from the Pamunkey crossing, so it also covers the Totopotomoy Creek, Haw's Shop and Old Church intervals (VA057–VA059); it is not assigned to this record.",
+      "value": "The frozen casualty text reads 15,500 (US 13,000; CS 2,500); the live field reads 18,000 (US 13,000; CS 5,000). Humphreys says the three assaulting corps lost over 4,000 killed and wounded in about an hour on June 3, and over 5,600 including the Fifth and Ninth Corps; for June 1 and 3 he gives 8,411 killed and wounded and 9,948 in all, and the medical director's grand total of 14,129 from the Pamunkey to June 12 including the Eighteenth Corps. For Lee's army he gives the Medical and Surgical History's 1,200 wounded and 500 missing for June 1–12, says the actual number was probably much greater, and estimates four to five thousand for May 27–June 12.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Humphreys' periods (June 3, June 1 and 3, May 27–June 12) overlap and are not additive.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -380,18 +380,6 @@
         {
           "source_id": "humphreys-overland-selections-v1",
           "section": "cold-harbor",
-          "locator": "p.191 (OCR page markers; not checked against print)",
-          "quote": "from the time of crossing the Pamunkey to the evening of the 12th of June, may be estimated as follows, excluding the Eighteenth Corps."
-        },
-        {
-          "source_id": "humphreys-overland-selections-v1",
-          "section": "cold-harbor",
-          "locator": "p.192 (OCR page markers; not checked against print)",
-          "quote": "The losses in the Eighteenth Corps he estimates at 1,900 wounded, 500 killed and missing; total, 2,400."
-        },
-        {
-          "source_id": "humphreys-overland-selections-v1",
-          "section": "cold-harbor",
           "locator": "p.192 (OCR page markers; not checked against print)",
           "quote": "Grand total, 14,129."
         },
@@ -422,10 +410,5 @@
     "Smith's, Wright's, Hancock's, Warren's and Burnside's reports, Lee's dispatches, the Longstreet corps diary, Sheridan's May 31–June 1 dispatches (read; garbled; not selected) and the compiled returns remain deferred.",
     "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan, and it shares headquarters papers with Meade's and Sheridan's reports. Meade's, Sheridan's, Hampton's, Butler's and Wild's reports, printed in Official Records Series I, Volume XXXVI, Parts 1 and 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "overland-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA062.v1.json",
-    "sha256": "8b7d7468237da331ecffe0ce7f002b7af0f0553f16bc799c9b4a37b8f8a2e037"
-  }
+  ]
 }

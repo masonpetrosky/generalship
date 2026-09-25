@@ -18,8 +18,8 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force field reads Divisions and the live field zero. NPS names Gregg's and Torbert's divisions against Hampton's and Fitzhugh Lee's. Hampton says he took Lee's division in addition to his own and cites a disparity in numbers in a report covering June 8–24. Sheridan's June 16 dispatch says the enemy was reinforced by infantry during the night of the 11th, and his report says he was led to believe, on information, that the enemy's cavalry was superior in numbers during the whole period it covers.",
-      "rationale": "No counts for the engaged forces; the accounts conflict on relative numbers and on Confederate infantry, and Hampton's and Sheridan's statements on numbers cover periods wider than this record. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "value": "The frozen force field reads Divisions and the live field zero. NPS names Gregg's and Torbert's divisions against Hampton's and Fitzhugh Lee's. Hampton says he took Lee's division in addition to his own and cites a disparity in numbers. Sheridan's June 16 dispatch says the enemy was reinforced by infantry during the night of the 11th, and his report says the enemy's cavalry was superior in numbers during the period.",
+      "rationale": "No counts for the engaged forces; the accounts conflict on relative numbers and on Confederate infantry. None is adopted as a matched opening strength; live zeros are not measured absence.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -56,18 +56,6 @@
           "section": "sheridan-1864-06-16",
           "locator": "p.785 (OCR page markers; not checked against print)",
           "quote": "been re-enforced by infantry during the night,"
-        },
-        {
-          "source_id": "or36-1-hampton-trevilian-selections-v1",
-          "section": "hampton-1864-07-09",
-          "locator": "p.1095 (OCR page markers; not checked against print)",
-          "quote": "including operations June 8-24."
-        },
-        {
-          "source_id": "or36-1-sheridan-overland-selections-v1",
-          "section": "sheridan-1866-05-13-conclusion",
-          "locator": "p.801 (OCR page markers; not checked against print)",
-          "quote": "I am led to believe, on infor- mation derived from the most reliable sources,"
         },
         {
           "source_id": "or36-1-sheridan-overland-selections-v1",
@@ -114,7 +102,7 @@
     {
       "id": "ammunition-forage-and-wounded",
       "dimension": "logistics",
-      "value": "Sheridan says he lacked ammunition to continue, that his animals were without forage for the two days, that living off the country failed, and that over 500 wounded and about 500 prisoners burdened him; he feared one more engagement would have reduced his ammunition to a very small compass. Hampton cites his men's want of supplies.",
+      "value": "Sheridan says he lacked ammunition to continue, that his animals were without forage for the two days, that living off the country failed, and that over 500 wounded and about 500 prisoners burdened him; he feared one more engagement would exhaust his ammunition. Hampton cites his men's want of supplies.",
       "rationale": "Statements from interested commanders; no ordnance or forage return inspected.",
       "citations": [
         {
@@ -160,26 +148,14 @@
     {
       "id": "hunter-and-rear-reports",
       "dimension": "information",
-      "value": "Sheridan's June 16 dispatch says that up to that time he could get no definite information of Hunter's position and that report placed him at Staunton; his 1866 report says prisoners taken on the 11th told him Hunter was at or near Lexington instead of coming toward Charlottesville. The dispatch also says prisoners and citizens reported Pickett's division coming. Hampton says he supposed Sheridan would strike Gordonsville and Charlottesville, learned in the night that he had crossed at Carpenter's Ford, and was told of a force in his rear.",
-      "rationale": "Attributed knowledge from interested commanders; no message log inspected. The contemporary dispatch and the 1866 report differ on what Sheridan knew of Hunter and when.",
+      "value": "Sheridan says he had no definite information of Hunter until prisoners told him Hunter was near Lexington, and that prisoners and citizens reported Pickett's division coming. Hampton says he supposed Sheridan would strike Gordonsville and Charlottesville, learned in the night that he had crossed at Carpenter's Ford, and was told of a force in his rear.",
+      "rationale": "Attributed knowledge from interested commanders; no message log inspected.",
       "citations": [
         {
           "source_id": "or36-1-sheridan-overland-selections-v1",
           "section": "sheridan-1864-06-16",
           "locator": "p.785 (OCR page markers; not checked against print)",
           "quote": "Up to this time I could get no definite in formation as to the position of General Hunter."
-        },
-        {
-          "source_id": "or36-1-sheridan-overland-selections-v1",
-          "section": "sheridan-1864-06-16",
-          "locator": "p.785 (OCR page markers; not checked against print)",
-          "quote": "Report placed him and his command at Staunton, destroying the railroad."
-        },
-        {
-          "source_id": "or36-1-sheridan-overland-selections-v1",
-          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
-          "locator": "p.796 (OCR page markers; not checked against print)",
-          "quote": "troin prisoners, of which we had captured about 500, I learned that Hun- ter,"
         },
         {
           "source_id": "or36-1-sheridan-overland-selections-v1",
@@ -213,7 +189,7 @@
         }
       ],
       "phase": "unresolved",
-      "status": "disputed"
+      "status": "supported"
     },
     {
       "id": "railroad-and-junction-aims",
@@ -441,10 +417,5 @@
     "Torbert's, Gregg's, Custer's and Fitzhugh Lee's reports, the revised return for Sheridan's second expedition (p.186) and Humphreys' Chapter VIII remain deferred.",
     "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan, and it shares headquarters papers with Meade's and Sheridan's reports. Meade's, Sheridan's, Hampton's, Butler's and Wild's reports, printed in Official Records Series I, Volume XXXVI, Parts 1 and 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "overland-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA099.v1.json",
-    "sha256": "30cb080519b5af3bd36a82d0a759f2bbe4d604e027a1fa8a5593a79ed330cda5"
-  }
+  ]
 }

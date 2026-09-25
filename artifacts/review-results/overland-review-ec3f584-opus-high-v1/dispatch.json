@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 92dbed2e-cc9b-42cc-8f8e-463ac1bbe370",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 1e791f7b8e9da05b030e355815ac0b68c43adf92; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T16:40:56Z",
+  "prepared_commit": "ec3f5843b73987db72ef9d23815ec3622063108f",
+  "bundle_commit": "1e791f7b8e9da05b030e355815ac0b68c43adf92",
+  "assignment_sha256": "b53a5bb0ca91f0eca56302d9a41a5e5a708e08744c5fefc05fbbbe603a2aed93",
+  "inputs_manifest_sha256": "c9fc47bad7bf0d27f96b31ec05f95fd4ce8af3d186404614a778dbcdc5e1dea9",
+  "num_turns": 58,
+  "duration_ms": 666839,
+  "terminal_reason": "completed",
+  "returned_message": "Outcome: **corrections required.** The review is written; no other file was changed, and nothing was committed or pushed.\n\nReview path: `artifacts/review-results/overland-review-ec3f584-opus-high-v1/review.md`\n\n**Required finding IDs:** OVR-R1, OVR-R2, OVR-R3, OVR-R4, OVR-R5, OVR-R6, OVR-R7, OVR-R8, OVR-R9, OVR-R10, OVR-R11, OVR-R12\n\n**Advisory IDs:** OVR-A1 to OVR-A12\n\n**Checks before review**\n- All 68 input hashes match `ec3f584`, both via `git show` and in the worktree. The assignment and `inputs.json` hashes also match.\n- `make check` passes offline: 134 tests OK and 138 draft dossiers. That contradicts the memo's \"Validation\" section, which says one test is an expected failure and that no shared test was edited. The commit did edit `tests/test_evidence.py` (OVR-R12).\n\n**Required corrections, in brief** (each has exact replacement text and verified quotes in the review):\n- **VA046:** \"7.15\" is when Meade *received* Warren's despatch, not when Warren sent it (R1). \"On learning of Ewell's approach\" is unsupported; Humphreys says the attack would show which part of Lee's army was there (R2).\n- **VA048 and the memo:** Humphreys' Warren footnote is misread as criticism. It dates the delay to the night of May 7, blames mounted troops blocking the road, and calls Warren's absence from the column his \"most important\" duty (R3).\n- **VA048:** the rationale says Humphreys' casualty totals \"exclude the cavalry\", which no selected passage says. This matters because Yellow Tavern falls inside the Spotsylvania interval (R4).\n- **VA052:** \"half-rations for one day\" means forage, not food (R5). The rationale's \"Gordon wounded at Meadow Bridge\" comes from outside knowledge; no inspected source says it (R6).\n- **VA056 (Wilson's Wharf):**\n  - \"three guns\" is Wild's own statement, not the prisoners'. Butler's report of \"cavalry, infantry and artillery\" is also missing (R7).\n  - Butler says the summons came before the attack and Wild says after an hour and a half; the claim should be marked disputed (R8).\n  - The statement that Butler says the attack was repulsed has no Butler citation (R9).\n  - \"About 20 dead\" should follow Butler's garbled \"20 ea\" and cite it (R10).\n- **VA099:** Sheridan's dispatch (Hunter at Staunton, no definite information) and his 1866 report (prisoners placed Hunter near Lexington) are merged into one sequence neither states. The claim should be marked disputed (R11).\n\n**Answers to the source questions**\n- **Humphreys group:** putting the new book in the existing Humphreys (Bristoe) group is sound. It is the same author, and the mismatch with the group's name is documented.\n- **Butler at Wilson's Wharf:** counting Butler's telegrams as a family is sound for the three-family effort ceiling only. They relay Wild's and Hinks's reports and are correctly marked dependent, so they are not independent corroboration.\n\n**Scope limits**\n- **Selections:** the Butler, Wild and Hampton selections were read in full. The Meade, Sheridan and Humphreys selections were read around every cited passage, plus targeted searches.\n- **Full OCR files:** only searched, never read in full.\n- **NPS records:** 19 of the 22 were checked on summary fields only.\n\nThis AI review is not historical adjudication or feature admission, and it changes no model input."
+}
