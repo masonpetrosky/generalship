@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA109",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Cove Mountain record (May 10, 1864) in the Crook-Averell Raid on the Virginia & Tennessee Railroad [May 1864]. Averell's approach and his decision against Saltville are context; Cloyd's Mountain (VA049) is Crook's separate battle of May 9. The expedition's marches, the New River bridge fight of May 10, the railroad destruction, the later skirmishes and expedition-wide loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Brigades' and the live page gives zero totals; NPS says Averell met 'a brigade under William \"Grumble\" Jones'. Averell says he set out with Duffie's and Schoonmaker's brigades, 2,079 officers and men, plus 400 under Oley who were detached toward Crook on the 6th; Pond repeats the 2,079. Averell says Morgan and W. E. Jones had assembled 4,500 at Saltville and that the force he attacked near Wytheville was 'stated by rebel newspapers' at 5,000, mostly infantry with three guns; Pond speaks of Morgan's Saltville forces with three guns. Averell's General Orders No. 5 calls it a superior force.",
+      "rationale": "Averell's 2,079 is his starting strength, not the number engaged on May 10, and his enemy figures are hearsay (deserters and newspapers). NPS's single brigade and Averell's 5,000 describe different scopes. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA109"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-va109-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va109-v1",
+          "locator": "Description",
+          "quote": "encountered a brigade under William \"Grumble\" Jones near Cove Mountain."
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.41 (running head reads 'VIKGINIA AND TENNESSEE KAILROAD. 41' in OCR; not checked against print)",
+          "quote": "numbering in all 2,079 officers and men, and 400 of the Fifth and Seventh West Virginia Cavalry, under Col. J. H. Oley."
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.41 (running head reads 'VIKGINIA AND TENNESSEE KAILROAD. 41' in OCR; not checked against print)",
+          "quote": "Colonel Oley was sent toward Princeton to form a junction with General Crook’s col¬ umn,"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "Averell, with 2,079 officers and men, the brigades of General Duffie and Colonel Schoonmaker,"
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.41 (running head reads 'VIKGINIA AND TENNESSEE KAILROAD. 41' in OCR; not checked against print)",
+          "quote": "to the num¬ ber of 4,500,"
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.41 (running head reads 'VIKGINIA AND TENNESSEE KAILROAD. 41' in OCR; not checked against print)",
+          "quote": "I attacked a force stated by rebel newspapers to have numbered 5,000, under Generals Morgan and W. E. Jones,"
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.41 (running head reads 'VIKGINIA AND TENNESSEE KAILROAD. 41' in OCR; not checked against print)",
+          "quote": "This force was mostly infantry, with three pieces of artillery,"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "the Saltville forces of General John Morgan, with three guns,"
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-general-orders-5",
+          "locator": "p.43 (OCR page markers; not checked against print)",
+          "quote": "attacked and held a superior force of the enemy near Wytheville on the 10th instant,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "defensive-position-and-fences",
+      "dimension": "terrain",
+      "value": "Averell says the enemy was 'posted in an admirable position for defense or attack, impossible to turn with cavalry', and advanced in three lines sheltered by fences. His approach crossed pathless mountains and tortuous streams. NPS places the action near Cove Mountain.",
+      "rationale": "Averell's description of the position is his own; no Confederate description of the ground was inspected. No map verification.",
+      "citations": [
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.41 (running head reads 'VIKGINIA AND TENNESSEE KAILROAD. 41' in OCR; not checked against print)",
+          "quote": "posted in an admirable position for defense or attack, impossible to turn with cavalry."
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.42 (OCR page markers; not checked against print)",
+          "quote": "advaiLced in three lines sheltered hy fences in front."
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.41 (running head reads 'VIKGINIA AND TENNESSEE KAILROAD. 41' in OCR; not checked against print)",
+          "quote": "the division found its way over pathless mountains and up tortuous streams"
+        },
+        {
+          "source_id": "nps-va109-v1",
+          "locator": "Description",
+          "quote": "near Cove Mountain."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-forage-and-ammunition",
+      "dimension": "logistics",
+      "value": "Averell says the transport furnished him was so poor, and the roads so heavy, that he left Logan on May 5 with only about four days' subsistence and one and a half days' forage, and that after the railroad destruction his ammunition was nearly exhausted, so he joined Crook. Pond says he was wretchedly supplied with transportation.",
+      "rationale": "Averell's account of his own supply; no return inspected.",
+      "citations": [
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.41 (running head reads 'VIKGINIA AND TENNESSEE KAILROAD. 41' in OCR; not checked against print)",
+          "quote": "it was found that we had only about four days’ subsistence and one and a half days’ forage with which to start from that point on the 5th."
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.41 (running head reads 'VIKGINIA AND TENNESSEE KAILROAD. 41' in OCR; not checked against print)",
+          "quote": "owing to the miserable con¬ dition of the teams and wagons furnished and the heavy roads,"
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.42 (OCR page markers; not checked against print)",
+          "quote": "As my ammunition was nearly exhausted I deemed it proper to join General Crook’s command,"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "wretchedly supplied with trans- portation,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "enemy-informed",
+      "dimension": "information",
+      "value": "Averell says deserters and captured mails showed the enemy fully informed of his strength and intentions, so a surprise at Saltville was out of the question; Pond says the accounts of the Saltville defences led him, without artillery, to turn toward Wytheville. His estimate of the force he fought came from rebel newspapers.",
+      "rationale": "Averell's statement of Confederate knowledge rests on deserters and captured mail.",
+      "citations": [
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.41 (running head reads 'VIKGINIA AND TENNESSEE KAILROAD. 41' in OCR; not checked against print)",
+          "quote": "Information was also ob¬ tained from deserters and captured mails that the enemy was fully informed of our strength and intentions."
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.41 (running head reads 'VIKGINIA AND TENNESSEE KAILROAD. 41' in OCR; not checked against print)",
+          "quote": "a surprise was out of the question,"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "Such accounts were given him of the enemy's defences at Saltville that, being with- out artillery, Averell determined not to attempt this place,"
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.41 (running head reads 'VIKGINIA AND TENNESSEE KAILROAD. 41' in OCR; not checked against print)",
+          "quote": "stated by rebel newspapers"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "saltville-to-wytheville",
+      "dimension": "objectives",
+      "value": "Pond says Crook assigned the attempt against Saltville to Averell's cavalry. Averell abandoned Saltville and marched on Wytheville 'in order to prevent the enemy from concentrating against the column of General Crook'; Pond says he turned instead against the lead works of Wytheville.",
+      "rationale": "Averell's stated reason and Pond's target differ in emphasis; both are recorded.",
+      "citations": [
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "assigning to the cavalry, under Brig- adier-General W. W. Averell, the attempt against Saltville,"
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.41 (running head reads 'VIKGINIA AND TENNESSEE KAILROAD. 41' in OCR; not checked against print)",
+          "quote": "I aban¬ doned that project and marched to Wytheville, in order to prevent the enemy from concentrating against the column of General Crook,"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "to advance instead against the lead works of Wytheville."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Brigadier Generals William W. Averell (US) and William E. Jones (CS). Averell says Schoonmaker's two regiments opened the battle while Duffie's brigade formed the line. He names Morgan and W. E. Jones as the Confederate commanders; Pond names only Morgan's forces, and McCausland says Averell 'had been defeated by Morgan near Wytheville'. NPS names Jones's brigade only.",
+      "rationale": "Who commanded the Confederate force is not settled in the inspected passages; no Jones or Morgan report was inspected. No listed commander receives automatic credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA109",
+            "belligerent": "US",
+            "fullname": "William W. Averell"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA109",
+            "belligerent": "Confederate",
+            "fullname": "William E. Jones"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va109-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General William Averell [US]"
+        },
+        {
+          "source_id": "nps-va109-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General William Jones [CS]"
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.41 (running head reads 'VIKGINIA AND TENNESSEE KAILROAD. 41' in OCR; not checked against print)",
+          "quote": "The Fourteenth Pennsylvania and First Virginia Cavalry, under Colonel Schoonmaker, opened the battle, while the brigade of General Duffi^ was formed in line of battle ;"
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.41 (running head reads 'VIKGINIA AND TENNESSEE KAILROAD. 41' in OCR; not checked against print)",
+          "quote": "under Generals Morgan and W. E. Jones,"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "the Saltville forces of General John Morgan,"
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-25",
+          "locator": "p.48 (OCR page markers; not checked against print)",
+          "quote": "Averell had been defeated by Morgan near Wythe- ville,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result is 'Inconclusive' and the live 'Indecisive'. Averell says he held the field four hours, the enemy retired after dark, and he marched to Dublin. Pond says Averell resisted until night and then made off eastward, and that he was roughly handled by Morgan's troopers; McCausland says Averell was defeated by Morgan and escaped. NPS says the Confederates delayed Averell and then withdrew, and that he burned the New River bridge the next day.",
+      "rationale": "Which side left the field, and whether it was a check or a defeat, is disputed. The bridge burning is expedition context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA109"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va109-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.42 (OCR page markers; not checked against print)",
+          "quote": "The field was maintained four hours,"
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.42 (OCR page markers; not checked against print)",
+          "quote": "after dark he retired, and I marched to Dublin,"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "Averell resisting until night, when he made off eastward,"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.14 (OCR page markers; not checked against print)",
+          "quote": "was roughly handled by John Mor- gan's troopers,"
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-25",
+          "locator": "p.48 (OCR page markers; not checked against print)",
+          "quote": "Averell had been defeated by Morgan near Wythe- ville, and had escaped from him"
+        },
+        {
+          "source_id": "nps-va109-v1",
+          "locator": "Description",
+          "quote": "After delaying the Union advance, the Confederates withdrew."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen total is 300; the live page gives zero totals. Averell gives his loss in the battle as about 114 killed and wounded; Pond gives 123 killed and wounded for the battle, and for Averell's whole expedition 17 killed, 72 wounded and 34 missing. No Confederate loss for this action appears in the inspected passages.",
+      "rationale": "Pond's battle figure equals the sum of his expedition figures (17 + 72 + 34 = 123), which include the missing; the relation is noted, not resolved. The live zeros are not measured absence. Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA109"
+          },
+          "column": "casualties_text",
+          "quote": "300 total"
+        },
+        {
+          "source_id": "nps-va109-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or37-1-averell-cove-mountain-selections-v1",
+          "section": "averell-1864-05-23",
+          "locator": "p.42 (OCR page markers; not checked against print)",
+          "quote": "Our loss in the battle was about 114 officers and men killed and wounded."
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "with a loss in killed and wounded of 123."
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.15 (OCR page markers; not checked against print)",
+          "quote": "Averell's, 17 killed, 72 wounded, 34 missing"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The reports Averell inclosed and the brigade reports are not printed in the inspected range; Duffie's General Orders No. 18 (read, not selected) praises units in the Wytheville fight. No W. E. Jones or Morgan report was located in the inspected report list.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office; it quotes Crook's and Sigel's despatches and follows Averell's report, so it is not independent of those families. Averell's May 23 report and General Orders No. 5, and McCausland's May 25 report (the targeted follow-up, the only Confederate statement inspected on this action) printed in Official Records Series I, Volume XXXVII, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

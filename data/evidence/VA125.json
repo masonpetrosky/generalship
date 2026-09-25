@@ -1,0 +1,668 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA125",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Walkerton (Mantapike Hill) record, dated March 2, 1864, in the Kilpatrick-Dahlgren Raid [March 1864]. The record is read as the night ambush of Dahlgren's separated detachment near Walkerton in King and Queen County, which the record's name and date identify. The frozen description and commander rows also cover the raid as a whole (February 28-March 4): the Ely's Ford crossing, Kilpatrick's and Dahlgren's March 1 attacks before Richmond, Hampton's night attack near Atlee's and the pursuit toward Old Church. Those actions are context; they are not added to this record, and raid-wide strengths and losses are not assigned to it. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Brigades' and the live page gives zero totals. Raid-wide: Pleasonton's order set the command at 4,000 men with one battery (Humphreys and NPS also give 4,000); Kilpatrick's report says he left with 2,375 men, Ransom's six-gun battery and detachments, 'in all 3,582 strong', while his March 6 dispatch gives 3,585 men at the start and 3,317 men on that day. Dahlgren's advance was 460 men (Kilpatrick) or 500 (Humphreys and NPS). At Walkerton: Kilpatrick's report and March 6 dispatch give Dahlgren about 100 men after the separation, his March 8 dispatch about 80 men and a large number of negroes, and NPS about 100. On the Confederate side, Pollard gives his own company as about 25 men, McGruder's reinforcement as about 30 men and a number of the home guard, and Fox's arrival with about 15 men; Kilpatrick says Dahlgren's party was surrounded by a large force of citizens and regular soldiers.",
+      "rationale": "The raid-wide figures differ by date and basis (an ordered strength, a starting count and a later count) and belong to the raid, not to the ambush. The ambush counts are approximate and partial; Pollard does not give the home guard's number. Fox's own count of the ambush force (No. 11, read, not selected) is not used. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA125"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-va125-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.183 (OCR page markers; not checked against print)",
+          "quote": "Your command, increased to 4,000 men with one battery,"
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "kilpatricks-raid",
+          "locator": "p.75 (running head reads 'kilpatrick's raid. 7$' in OCR; not checked against print)",
+          "quote": "with a force of 4,000 officers and enlisted men of cavalry and 1 a battery of horse-artillery,"
+        },
+        {
+          "source_id": "nps-va125-v1",
+          "locator": "Description",
+          "quote": "left his encampment at Stevensburg with 4,000 picked men to raid Richmond."
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.183 (OCR page markers; not checked against print)",
+          "quote": "with 2,375 men and Captain Ransom’s battery U. S. Horse Artillery (six pieces), and detachments from the First and Second Cavalry Divisions, under Majors Hall and Taylor, in all 3,582 strong."
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-06",
+          "locator": "p.182 (OCR page markers; not checked against print)",
+          "quote": "I left my camp at Stevensburg with 3,585 men, 6 guns, 8 caissons, 3 wagons, and 6 ambulances. I have now 3,317 men,"
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.183 (OCR page markers; not checked against print)",
+          "quote": "My advance, consisting of 460 men, under Colonel Dahlgren,"
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "kilpatricks-raid",
+          "locator": "p.75 (running head reads 'kilpatrick's raid. 7$' in OCR; not checked against print)",
+          "quote": "Colonel Dahlgren, with a detachment of 500 men,"
+        },
+        {
+          "source_id": "nps-va125-v1",
+          "locator": "Description",
+          "quote": "commanded an advance force of 500 men."
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "Colonel Dahlgren and Major Cooke with about 100 men became separated"
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-06",
+          "locator": "p.182 (OCR page markers; not checked against print)",
+          "quote": "Colonel Dahlgren, with about 100 men, has been heard from to-day ;"
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-08",
+          "locator": "p.183 (OCR page markers; not checked against print)",
+          "quote": "Colonels Dahlgren and Cooke, with about 80 men and a large number of negroes, were ambushed"
+        },
+        {
+          "source_id": "nps-va125-v1",
+          "locator": "Description",
+          "quote": "his detachment of about 100 men was ambushed by a detachment of the 9th Virginia Cavalry and Home Guards"
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "the remainder of my company, about 25 men,"
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "Was re-enforced by Captain McGruder with about 30 men and a number of the home guard,"
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "as many of his company as he had been able to collect (about 15 men)"
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "surrounded by a large force of citizens and regular soldiers,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "rivers-roads-and-ambush-point",
+      "dimension": "terrain",
+      "value": "Humphreys and Kilpatrick say Dahlgren crossed the Pamunkey at Hanovertown and the Mattapony at Aylett's; Pollard says he crossed at Aylett's by a wood-boat, swimming his horses. Pollard placed the ambush 'at a point that the enemy was obliged to pass', a position he had chosen about dark, and says the survivors left the roads for the fields, where they were found dismounted at daylight. Humphreys and Kilpatrick put the ambush about three miles from King and Queen Court House; NPS places it in King and Queen County near Walkerton. Kilpatrick calls the night of March 1 intensely dark, cold and stormy.",
+      "rationale": "Rivers and roads predate the action; the ambush position was chosen by the Confederate detachments during the pursuit, so the claim is not tagged inherited. The weather statement is for the night of March 1 near Richmond, not the ambush night. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "kilpatricks-raid",
+          "locator": "p.80 (OCR page markers; not checked against print)",
+          "quote": "crossed the Pamun- key at Hanovertown and the Mattapony at Ey- lett's,"
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "crossed the Pamunkey at Hanovertown and the Mat- tapony at Aylett’s."
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-04-09",
+          "locator": "p.209 (OCR page markers; not checked against print)",
+          "quote": "he secured a wood-boat at Aylett’s, several miles lower down the river, and crossed his men, swimming his horses."
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "placed them in line of battle at a point that the enemy was obliged to pass."
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-04-09",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "I put them in the position which I had chosen about dark."
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "They then retreated in confusion, leaving the roads and taking to the fields."
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "we dis- covered them scattered about in afield dismounted,"
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "kilpatricks-raid",
+          "locator": "p.80 (OCR page markers; not checked against print)",
+          "quote": "fell into an ambush about three miles from King and Queen Court House*"
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "a point within 3 miles of King and Queen Court- House,"
+        },
+        {
+          "source_id": "nps-va125-v1",
+          "locator": "Description",
+          "quote": "in King and Queen County near Walkerton."
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "The night was intensely dark, cold, and stormy."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "light-raid-transport",
+      "dimension": "logistics",
+      "value": "Kilpatrick's March 6 dispatch lists the raid's transport as 6 guns, 8 caissons, 3 wagons and 6 ambulances at the start, and 3,595 horses, the same guns, caissons and wagons, and 4 ambulances on March 6. Pollard says Dahlgren's party crossed the Mattapony swimming its horses; Kilpatrick's March 8 dispatch says the ambushed party had a large number of negroes with it.",
+      "rationale": "Raid-level transport only; no ration, forage or ammunition state of Dahlgren's detachment on March 2 was inspected. The inspector's tabular statement of losses of men, horses and equipment (read, not selected) is garbled in OCR.",
+      "citations": [
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-06",
+          "locator": "p.182 (OCR page markers; not checked against print)",
+          "quote": "I left my camp at Stevensburg with 3,585 men, 6 guns, 8 caissons, 3 wagons, and 6 ambulances."
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-06",
+          "locator": "p.182 (OCR page markers; not checked against print)",
+          "quote": "3,595 horses, 6 guns, 8 caissons, 3 wagons, and 4 ambulances."
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-04-09",
+          "locator": "p.209 (OCR page markers; not checked against print)",
+          "quote": "crossed his men, swimming his horses."
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-08",
+          "locator": "p.183 (OCR page markers; not checked against print)",
+          "quote": "with about 80 men and a large number of negroes,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "separation-and-scouts",
+      "dimension": "information",
+      "value": "Humphreys says Dahlgren, hearing Kilpatrick's guns but receiving no word, withdrew believing Kilpatrick had failed, and then became separated in the night from the larger part of his command under Captain Mitchell. Kilpatrick says Mitchell reported that Dahlgren and Cooke had become separated and that nothing had been heard of them since. Pollard says his scouts told him early on March 2 that part of the column that attacked Richmond was trying to escape through King William and King and Queen Counties to Gloucester Point. For the raid, Kilpatrick reported the Ely's Ford crossing a complete surprise, while Humphreys says Bradley Johnson telegraphed Richmond on February 29 that a strong cavalry force was on a raid.",
+      "rationale": "What each side knew is reported after the event; Pollard's scouting is his own account. The Ely's Ford surprise and the Johnson telegram concern the raid's opening, not the ambush.",
+      "citations": [
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "kilpatricks-raid",
+          "locator": "p.80 (OCR page markers; not checked against print)",
+          "quote": "no word having been received from Kilpatrick, whose guns had been heard early in the afternoon, he withdrew, believing that Kilpatrick had failed to enter the city."
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "kilpatricks-raid",
+          "locator": "p.80 (OCR page markers; not checked against print)",
+          "quote": "he became sepa- rated in the night from the larger part ofhis com- mand under Captain Mitchell,"
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "since which time he had heard nothing of the colonel or his party."
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "Early on the morning of the 2d I received information from my scouts that the portion of the column which attacked Rich- mond on 1st March were attempting to escape through King William and King and Queen Counties to Gloucester Point."
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-02-29",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "It was a complete surprise."
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "kilpatricks-raid",
+          "locator": "p.78 (OCR page markers; not checked against print)",
+          "quote": "succeeded in telegraphing to Rich- mond on the 29th of February, before our troops cut the wires, that a strong force of our cavalry was on a raid,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "raid-object-and-escape",
+      "dimension": "objectives",
+      "value": "Pleasonton's order sent Kilpatrick 'on a raid to Richmond for the purpose of liberating our prisoners'; Humphreys says the release of the prisoners was the chief object, and that the President also wished his amnesty proclamation distributed. Dahlgren's part was to cross the James, release the prisoners at Belle Isle and enter Richmond from the south side. By March 2 his detachment was trying to escape: Humphreys says apparently toward Gloucester, opposite Yorktown, and Pollard says toward Gloucester Point. Pollard set out to head off and ambush it.",
+      "rationale": "The raid objective is Meade's and Pleasonton's; at Walkerton the Union objective was escape. The disputed Dahlgren papers are recorded separately.",
+      "citations": [
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.183 (OCR page markers; not checked against print)",
+          "quote": "on a raid to Richmond for the purpose of liberating our prisoners at that place."
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "kilpatricks-raid",
+          "locator": "p.75 (running head reads 'kilpatrick's raid. 7$' in OCR; not checked against print)",
+          "quote": "The release of the prisoners was the chief object of the expedition,"
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "kilpatricks-raid",
+          "locator": "p.74 (OCR page markers; not checked against print)",
+          "quote": "the President wished his amnesty proclamation distributed within the enemy's lines,"
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "kilpatricks-raid",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "he expected to cross James River and enter Richmond from the south side, after releasing the prisoners at Belle Isle ;"
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "kilpatricks-raid",
+          "locator": "p.80 (OCR page markers; not checked against print)",
+          "quote": "apparently on his way to Gloucester, opposite Yorktown ;"
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "attempting to escape through King William and King and Queen Counties to Gloucester Point."
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "I then turned off on a by-road to head him,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "dahlgren-papers",
+      "dimension": "objectives",
+      "value": "NPS says papers found on Dahlgren's body ordered him to burn Richmond and kill Davis and his cabinet. Lee's April 1 letter, printed in Humphreys' appendix, quotes a second, unsigned paper: 'once in the city it must be destroyed and Jeff Davis and Cabinet killed.' Meade replied that neither the Government, he nor Kilpatrick authorized or approved burning the city or killing Davis and his cabinet; Kilpatrick wrote that the address Dahlgren showed him and that he approved did not contain those passages, and that Dahlgren received no orders from him to pillage, burn or kill. Fitzhugh Lee, quoted by Humphreys, says Pollard brought him the papers and that they were not altered before they reached him.",
+      "rationale": "The authenticity and authority of the papers are disputed in the sources and are not resolved here; this is an objectives dispute about the raid, recorded after the ambush that produced the papers. Humphreys signed the March 14 inquiry printed in the same appendix.",
+      "citations": [
+        {
+          "source_id": "nps-va125-v1",
+          "locator": "Description",
+          "quote": "Papers found on Dahlgren's body that ordered him to burn Richmond and assassinate President Jefferson Davis and his cabinet caused a political furor."
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "appendix-dahlgren-papers",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "once in the city it must be destroyed and Jeff Davis and Cabinet killed."
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "appendix-dahlgren-papers",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "neither the United States Gov- erment, myself, nor General Kilpatrick authorized, sanctioned,"
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "appendix-dahlgren-papers",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "or approved the burning of the City of Richmond and the killing of Mr. Davis and his Cabinet,"
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "appendix-dahlgren-papers",
+          "locator": "p.85 (OCR page markers; not checked against print)",
+          "quote": "The photo- graphic papers referred to are true copies of the paper ap- proved by rrie, save so far as they speak of"
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "appendix-dahlgren-papers",
+          "locator": "p.85 (OCR page markers; not checked against print)",
+          "quote": "Colonel Dahlgren received no orders from me to pillage, burn or kill, nor were any such instructions given me by my superiors."
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "appendix-dahlgren-papers",
+          "locator": "p.85 (OCR page markers; not checked against print)",
+          "quote": "brought me some papers and an artificial leg,"
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "appendix-dahlgren-papers",
+          "locator": "p.86 (OCR page markers; not checked against print)",
+          "quote": "these papers were not added to or changed in the minutest particular before they came into my posses- sion,"
+        },
+        {
+          "source_id": "nps-va125-v1",
+          "locator": "Description",
+          "quote": "Meade, Kilpatrick, and Lincoln all disavowed any knowledge of the Dahlgren Papers."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Major General Wade Hampton (CS), Brigadier General H. Judson Kilpatrick and Colonel Ulric Dahlgren (US); the live page lists Kilpatrick as 'Hugh' and Hampton as Lieutenant General, and omits Dahlgren. None of the inspected passages places Hampton or Kilpatrick at Walkerton: Humphreys puts Hampton's attack near Atlee's Station on Tuesday night (March 1), Kilpatrick learned from prisoners that Hampton made the night attack he had repulsed, NPS puts Hampton's attack near Old Church on the 2nd, and on the evening of the 2nd Kilpatrick's main column camped near Tunstall's Station. Dahlgren commanded the ambushed detachment and was killed at the first fire; Kilpatrick says Major Cooke then commanded it. On the Confederate side, Pollard says he chose the position and posted McGruder's men and the home guard, and sent for Fox, who arrived shortly before the action and, in his April 9 report, 'then took command'. Stuart's indorsement credits Pollard's dispositions; Humphreys says the ambush was formed chiefly through the efforts of Fox and Pollard.",
+      "rationale": "The frozen commander rows reflect the raid, not the ambush. Pollard's and Fox's roles are contested in the inspected record (Fox's reports, read, not selected, bear on the same question). No listed commander receives automatic credit for the Walkerton result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA125",
+            "belligerent": "Confederate",
+            "fullname": "Wade Hampton"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA125",
+            "belligerent": "US",
+            "fullname": "H. Judson Kilpatrick"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA125",
+            "belligerent": "US",
+            "fullname": "Ulric Dahlgren"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-va125-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Hugh Kilpatrick [US]"
+        },
+        {
+          "source_id": "nps-va125-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant General Wade Hampton [CS]"
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "kilpatricks-raid",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "attacked General Kilpatrick Tuesday night, near Atlee's Station,"
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "From the prisoners I learned that they belonged to Hampton’s division, and that it was he who attacked me the night before ;"
+        },
+        {
+          "source_id": "nps-va125-v1",
+          "locator": "Description",
+          "quote": "Hampton attacked Kilpatrick near Old Church on the 2nd,"
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "The command went into camp near Tunstall’s Station W ednesday evening."
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "The colonel commanding (Dahlgren) was killed at the first fire"
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "then under command of the gallant Lieutenant- Colonel [Major] Cooke,"
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-04-09",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "who placed their men at my command, and I put them in the position which I had chosen about dark."
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-04-09",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "Captain Fox then took command and we remained in posi- tion until daylight,"
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-04-09",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "To Lieutenant Pollard’s skillful dispositions and to his activity it is mainly owing that Dahlgren was killed and his party captured."
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "kilpatricks-raid",
+          "locator": "p.80 (OCR page markers; not checked against print)",
+          "quote": "The ambush was formed chiefly through the efforts of Captain Fox and Lieutenant Pollard,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Confederate victory. Pollard says Dahlgren was killed at the first fire and several wounded, the party retreated in confusion, and at daylight all but the officers and a few men surrendered, the officers and most of the rest being captured later; Kilpatrick says all save 21 were taken prisoners, and Humphreys that many were killed and wounded and the greater part of the rest captured. The time of the ambush differs: Pollard says the enemy advanced about 11.30 p.m. (his April 9 report says Fox arrived about 10 or 11 o'clock, a few minutes before), Humphreys says Wednesday night, and Kilpatrick's March 8 dispatch says 'Thursday evening, 11 p. m.', which the OR compiler footnotes as Wednesday, March 2. For the raid as a whole, Kilpatrick reported that he failed in its great object.",
+      "rationale": "The engagement result is the destruction of the detachment; the raid's failure and the papers' political effects are campaign and post-outcome context. The compiler's footnote is not Kilpatrick's statement.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA125"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va125-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "They then retreated in confusion,"
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "found that the whole force had surrendered to a Confederate officer who was a prisoner with them, except the commissioned offi- cers and a few men who had dismounted and fled to the woods."
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.209 (OCR page markers; not checked against print)",
+          "quote": "officers and most of the men have since been captured."
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "all save 21 were taken prisoners."
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "kilpatricks-raid",
+          "locator": "p.80 (OCR page markers; not checked against print)",
+          "quote": "Many of the men with Dahlgren were killed and wounded, and the greater part of the remainder captured."
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "who advanced upon our position about 11.30 p. m."
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-04-09",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "arriving on the ground about 10 or 11 o’clock, and a few minutes before the enemy advanced and Colonel Dahlgren was killed."
+        },
+        {
+          "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
+          "section": "kilpatricks-raid",
+          "locator": "p.80 (OCR page markers; not checked against print)",
+          "quote": "but on Wednesday night fell into an ambush"
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-08",
+          "locator": "p.183 (OCR page markers; not checked against print)",
+          "quote": "on Thursday evening, 11 p. m.*"
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.183 (OCR page markers; not checked against print)",
+          "quote": "Wednesday, March 2."
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-03",
+          "locator": "p.182 (OCR page markers; not checked against print)",
+          "quote": "I have failed to accomplish the great object of the expedition,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads 'Unknown'; the live page gives 100 total (US 100; CS 0). For the ambush, Kilpatrick's March 8 dispatch says Dahlgren was killed and 7 men wounded; Pollard says Dahlgren and several others were hit and that about 175 were captured in all, 40 negroes and 135 soldiers; Kilpatrick's report says all save 21 of the party were taken. For the raid, Kilpatrick's March 3 dispatch says he lost less than 150 men, and his March 6 dispatch gives 3,585 men at the start and 3,317 on that day.",
+      "rationale": "Pollard's 175 includes non-combatants and later captures; the 21 who escaped and the 80-100 men of the party are not reconciled with it. The raid-wide figures are not assigned to this record; the live CS zero is not measured absence. No Confederate loss for the ambush appears in the inspected passages. Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA125"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-va125-v1",
+          "locator": "Estimated Casualties",
+          "quote": "100 total (US 100; CS 0;)"
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-08",
+          "locator": "p.183 (OCR page markers; not checked against print)",
+          "quote": "The colonelwas killed and 7 men wounded."
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "killed at the first fire and several wounded."
+        },
+        {
+          "source_id": "or33-pollard-walkerton-selections-v1",
+          "section": "pollard-1864-03-07",
+          "locator": "p.209 (OCR page markers; not checked against print)",
+          "quote": "The whole number captured will amount to about 175 — 40 negroes and 135 sol- diers."
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-16",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "all save 21 were taken prisoners."
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-03",
+          "locator": "p.182 (OCR page markers; not checked against print)",
+          "quote": "I have lost less than 150 men."
+        },
+        {
+          "source_id": "or33-kilpatrick-richmond-raid-selections-v1",
+          "section": "kilpatrick-1864-03-06",
+          "locator": "p.182 (OCR page markers; not checked against print)",
+          "quote": "I have now 3,317 men,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Fox's two reports (No. 11) and their indorsements (read, not selected) bear on the ambush force, the time and who commanded; Beale's report (No. 12), Mitchell's report on Dahlgren's detachment (No. 5), Meade's reports (No. 1) and Butler's dispatches (No. 6) were read and not selected; the reports of Duvall and Fitzhugh cited in Pollard's footnote were not inspected.",
+    "Hampton's March 6 and March 8 reports (No. 8, read, not selected) concern his attack near Atlee's and the pursuit; they are the place to check any claim linking Hampton's operations to the ambush.",
+    "The inspector's March 22 tabular statement of the raid's strength and losses (Kilpatrick addenda, read, not selected) is garbled in OCR. No Confederate return or nominal list for the ambush was inspected.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Andrew A. Humphreys' From Gettysburg to the Rapidan (Scribner, 1883) is a retrospective history by the chief of staff of the Army of the Potomac; it quotes Kilpatrick's report and prints correspondence Humphreys himself signed, so it is not independent of the Kilpatrick family and is a participant's account for that correspondence. Kilpatrick's dispatches and March 16 report, and Pollard's reports with their indorsements (the one targeted follow-up, for the Confederate account of the ambush), printed in Official Records Series I, Volume XXXIII, are separate families of interested accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -220,6 +220,28 @@ and Marmaduke has one new group, `marmaduke-1863-reports`. `williams-cabin-creek
 (James M. Williams) and `williams-east-tennessee-reports` (John S. Williams) are different authors. No model
 inputs are changed.
 
+### 1864 Eastern small operations first passes (cohort v2), 2026-09-25
+
+The first passes for four 1864 Virginia campaigns add **30 records**: the Rapidan (Morton's Ford),
+the Kilpatrick–Dahlgren raid (Walkerton), Crook and Averell's raid (Cloyd's Mountain, Cove
+Mountain) and Lynchburg (New Market, Piedmont, Lynchburg) (memos
+`docs/research/<slug>-first-pass-v1.md`). The records are:
+
+- seven NPS HTML/text pairs;
+- four selections from Official Records Series I, Volume XXXIII, and eight from the registered
+  Volume XXXVII Part 1;
+- four selections from the registered Humphreys (*From Gettysburg to the Rapidan*, `humphreys-ocr-v2`)
+  and Pond texts.
+
+**Merge deduplication.** This pass fetched its own copy of Volume XXXIII. The OCR was
+byte-identical to the registered parent `or33-illinois-ocr-v1`, so it was not registered again, and
+the duplicate catalog record was dropped.
+
+**Author groups.** Sigel's 1864 dispatches reuse `sigel-carthage-report` and Breckinridge's reuse
+`breckinridge-baton-rouge-1862-report`; Crook, Averell, Early, Kilpatrick, Lee, Humphreys and Pond
+reuse their existing groups. Walkerton is scoped to the March 2 ambush; the raid is context. No
+model inputs are changed.
+
 ### Carolinas Campaign first pass (cohort v2), 2026-09-25
 
 The [first pass](research/carolinas-first-pass-v1.md) adds **23 records**:

@@ -1,0 +1,525 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA111",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Piedmont record (June 5-6, 1864) in the Lynchburg Campaign [May-June 1864]. The frozen interval includes the occupation of Staunton on June 6. Hunter's May 26-June 4 advance, the June 4 flank march by Port Republic and the June 8 junction with Crook and Averell are context. Campaign marches, the destruction at Staunton and Lexington, the retreat to the Kanawha and campaign-wide loss and capture totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text and side rows give 14,000 total (US 8,500; CS 5,500), and the live page repeats them. Pond says Hunter left Cedar Creek on May 26 with 8,500 men of all arms and twenty-one guns. Hunter says papers on Jones's body put the Confederate force at between 6,000 and 7,000 men and 16 guns. Vaughn reported that he went into the fight with an aggregate of 5,600 and had not over 3,000 effectives the next day, including 800 of Imboden's cavalry (Pond quotes this dispatch with 'effectives' for 'effective men'); he put Hunter at not less than 9,000 or 10,000 infantry with heavy cavalry and thirty guns, and the next day at about 10,000 men and twenty-four guns. An inspection report abstracted in Pond's appendix says Smith's brigade fought at Piedmont with dismounted cavalry and the Forty-fifth regiment.",
+      "rationale": "Pond's 8,500 is Hunter's strength at the start of the march, not on June 5. Vaughn's 5,600 is an aggregate on the day and his 3,000 an after-battle effective count; Hunter's 6,000-7,000 comes from captured papers. The frozen 8,500 matches Pond's starting figure and the frozen 5,500 is near Vaughn's 5,600, but their basis is not established. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA111"
+          },
+          "column": "forces_text",
+          "quote": "14,000 total (US 8,500; CS 5,500)"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "VA111",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "8500"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "VA111",
+            "belligerent": "Confederate"
+          },
+          "column": "strength_min",
+          "quote": "5500"
+        },
+        {
+          "source_id": "nps-va111-v1",
+          "locator": "Forces Engaged",
+          "quote": "14000 total (US 8500; CS 5500;)"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.24 (running head reads '21' in OCR; not checked against print)",
+          "quote": "reinforced so that they now amounted to 8,500 men of all arms, with twenty-one guns,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "From papers found upon his person it is ascertained that the enemy’s force was between 6,000 and 7,000 ineii, and 16 guns,"
+        },
+        {
+          "source_id": "or37-1-vaughn-piedmont-selections-v1",
+          "section": "vaughn-1864-06-06",
+          "locator": "p.151 (OCR page markers; not checked against print)",
+          "quote": "Went in the fight yesterday with an aggregate of 5,600. I have not over 3,000 effective men, including Imboden’s cavalry, 800."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.27 (OCR page markers; not checked against print)",
+          "quote": "\"Went in the fight yesterday with an aggregate of 5,600. I have not over 3,000 effectives, including Imboden's cavalry, 800.\""
+        },
+        {
+          "source_id": "or37-1-vaughn-piedmont-selections-v1",
+          "section": "vaughn-1864-06-05-fishersville",
+          "locator": "p.151 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s strength not less than 9,000 or 10,000 infantry, heavy force of cavalry, and thirty pieces of artillery."
+        },
+        {
+          "source_id": "or37-1-vaughn-piedmont-selections-v1",
+          "section": "vaughn-1864-06-06",
+          "locator": "p.151 (OCR page markers; not checked against print)",
+          "quote": "Hunter has, I think, 10,000 men, with twenty-four pieces of artillery ;"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "appendix-b-april-returns",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "June 5th, at Piedmont, in conjunction with a small force of dismounted cavalry and the orty -fifth regiment of infantry, it fought the command of General Hunter"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "timbered-hills-ravine-and-river",
+      "dimension": "terrain",
+      "value": "Hunter found the enemy 'advan¬ tageously posted' at Piedmont, seven miles southwest of Port Republic, with an advanced position in a wood behind defenses of fallen timber and fence rails; Pond puts the main works on a curving range of thickly timbered hills. Thoburn took elevated ground on the Union left and crossed the open valley (Pond: a ravine) to strike the flank, and part of the Confederate force was driven over the steep bank into the river covering its left.",
+      "rationale": "Hills, ravine and river predate the battle; the fallen-timber and rail defenses were Confederate field works of unstated age, so the claim is not tagged inherited. No map verification.",
+      "citations": [
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "At the village of Piedmont, seven miles southwest of Port Republic, I found the enemy in force advan¬ tageously posted."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "drove the enemy from his advanced posi¬ tion in a wood behind his line of defenses constructed of fallen tim¬ ber and fence rails."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.27 (OCR page markers; not checked against print)",
+          "quote": "to his main works, which were on a curving range of thickly timbered hills ;"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "took position on elevated ground on our left,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "to move his brigade across the open valley between,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.27 (OCR page markers; not checked against print)",
+          "quote": "Tho- burn had been moved across a ravine to gain the enemy's weakened right flank."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "driving a portion of his force over the steep bank into the river, which covered his left."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "living-on-the-country",
+      "dimension": "logistics",
+      "value": "Pond says Hunter planned to depend entirely on the country for food, ordered brigade commanders to supply their commands from it while forbidding pillage, lost a supply train from Martinsburg to Gilmor's raiders at Newtown, and halted at Woodstock for shoes. Hunter says his cavalry captured part of a large Confederate supply train at Port Republic on June 4. Vaughn reported his artillery and wagon trains safe after the battle.",
+      "rationale": "Descriptions of the march, not supply returns for June 5.",
+      "citations": [
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.24 (running head reads '21' in OCR; not checked against print)",
+          "quote": "depend entirely on the country [for food]"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.24 (running head reads '21' in OCR; not checked against print)",
+          "quote": "Brigade and all other Commanders will be held strictly responsi- ble that their commands are supplied from the country."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.25 (OCR page markers; not checked against print)",
+          "quote": "a supply train moving to him from Martinsburg was seized and burned by Gilmor's horsemen at Newtown."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.24 (running head reads '21' in OCR; not checked against print)",
+          "quote": "At Woodstock he halted for shoes to come up,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "we found a large supply train of the enemy at this place, and our advance cavalry captured a part of it,"
+        },
+        {
+          "source_id": "or37-1-vaughn-piedmont-selections-v1",
+          "section": "vaughn-1864-06-05-fishersville",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "Artillery and wagon trains safe."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "flank-march-and-captured-papers",
+      "dimension": "information",
+      "value": "Hunter says he spent June 3 ascertaining the enemy's force and position at Mount Crawford and then moved by a side road so little expected that he surprised a supply train; his advanced cavalry met the enemy's at 6 a.m. on the 5th. His figure for Jones's strength came from papers found on Jones's body after the battle. Vaughn's estimates of Hunter's strength varied from 9,000-10,000 infantry with heavy cavalry to about 10,000 men.",
+      "rationale": "Hunter's surprise statement is his inference; the papers were read after the battle.",
+      "citations": [
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "I spent the following day in ascertaining the enemy’s force and position,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "This movement was so little expected"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "At 6 a. m. my advanced cavalry met that of the enemy,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "From papers found upon his person"
+        },
+        {
+          "source_id": "or37-1-vaughn-piedmont-selections-v1",
+          "section": "vaughn-1864-06-05-fishersville",
+          "locator": "p.151 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s strength not less than 9,000 or 10,000 infantry,"
+        },
+        {
+          "source_id": "or37-1-vaughn-piedmont-selections-v1",
+          "section": "vaughn-1864-06-06",
+          "locator": "p.151 (OCR page markers; not checked against print)",
+          "quote": "Hunter has, I think, 10,000 men,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "staunton-and-junction",
+      "dimension": "objectives",
+      "value": "Grant, quoted by Pond, thought Hunter should reach Staunton and Gordonsville or Charlottesville; Hunter wrote from Woodstock that he hoped to join Crook at Staunton and then move on Lynchburg. Pond says Jones had brought his forces from Lynchburg to Piedmont to resist the Union march, and Vaughn reported that he would try to protect Staunton but could not without reinforcements.",
+      "rationale": "The battle was fought on the road to Staunton; the junction and the Lynchburg advance are campaign objectives.",
+      "citations": [
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.24 (running head reads '21' in OCR; not checked against print)",
+          "quote": "reach Staunton and Gordonsville or Charlottesville, if he does not meet with too much opposition."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.24 (running head reads '21' in OCR; not checked against print)",
+          "quote": "hope to form a junction with Crook at Staunton, and then move immediately on Lynchburg."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.26 (OCR page markers; not checked against print)",
+          "quote": "had brought up his forces from Lynchburg to Piedmont, to re- sist the Union march."
+        },
+        {
+          "source_id": "or37-1-vaughn-piedmont-selections-v1",
+          "section": "vaughn-1864-06-05-staunton",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "I will try to protect Staunton, but unless re-enforcements come at once I cannot do it."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Major General David Hunter (US) and Brigadier General William E. Jones (CS). Hunter reports Moor's first attack failing at 1 p.m. and then sending orders for Thoburn's brigade to cross the valley and strike the enemy's flank, which proved decisive, with Moor and Wynkoop's cavalry joining; NPS credits the flanking movement to Thoburn's brigade. Jones was killed on the field (Hunter, Vaughn), and the command devolved on Vaughn, who fell back toward Waynesborough. Pond says Stahel was wounded leading his command.",
+      "rationale": "Hunter ordered the flank attack; Thoburn executed it. Jones's command ended with his death during the battle, so the retreat was Vaughn's. No listed commander receives automatic credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA111",
+            "belligerent": "US",
+            "fullname": "David Hunter"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA111",
+            "belligerent": "Confederate",
+            "fullname": "William E. Jones"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va111-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General David Hunter [US]"
+        },
+        {
+          "source_id": "nps-va111-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General William Jones [CS]"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "At 1 o’clock the First Brigade attacked the enemy’s line in front, but failed to carry it,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "orders were immediately sent to Colonel Thoburn to move his brigade across the open valley between, and attack the enemy’s position in flank."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "fell upon the enemy’s exposed flank with decisive effect,"
+        },
+        {
+          "source_id": "nps-va111-v1",
+          "locator": "Description",
+          "quote": "a flanking movement made by Thoburn's brigade turned Jones's right flank."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "Brig. Gen. William E. Jones, commanding forces, was killed on the field"
+        },
+        {
+          "source_id": "or37-1-vaughn-piedmont-selections-v1",
+          "section": "vaughn-1864-06-05-staunton",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "General W. E. Jones killed."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "General Vaughn, upon whom the command devolved, fell back upon Waynesborough"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.29 (OCR page markers; not checked against print)",
+          "quote": "a wound received while gallantly leading his command at Piedmont,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Union victory. Hunter says the enemy fled in confusion and that he occupied Staunton without opposition on June 6; Vaughn reported that he had been driven back, retired to Fishersville with his command much scattered, and feared he would be forced to leave the Valley; Pond says the enemy abandoned the entire position.",
+      "rationale": "The accounts agree on the tactical result. The destruction at Staunton and the junction with Crook are campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA111"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va111-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "The enemy fled in confusion,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "On the next day, June 6, I occupied Staunton Avithout opposition,"
+        },
+        {
+          "source_id": "or37-1-vaughn-piedmont-selections-v1",
+          "section": "vaughn-1864-06-05-staunton",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "Have been driven back."
+        },
+        {
+          "source_id": "or37-1-vaughn-piedmont-selections-v1",
+          "section": "vaughn-1864-06-05-fishersville",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "My command is much scattered."
+        },
+        {
+          "source_id": "or37-1-vaughn-piedmont-selections-v1",
+          "section": "vaughn-1864-06-05-fishersville",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "I fear I will be forced to leave the Valley."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.27 (OCR page markers; not checked against print)",
+          "quote": "the enemy abandoned the entire position,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen totals are 2,375 (US 875; CS 1500), with the same side values in the force rows; the live page gives 2,475 (US 875; CS 1,600) and says more than 1,000 Confederates, including 60 officers, were captured and three guns lost. Hunter reports over 1,000 prisoners including 60 officers, Confederate killed and wounded estimated at 600 and as many again lost by straggling, 400 sick and wounded captured at Staunton, and his own loss through June 8 as under 500 killed and wounded. Pond gives over a thousand captured on the field, about 1,500 prisoners in all, three guns, and a Union loss of 420. Vaughn reported 60 wounded left on the field, the enemy's killed and wounded at 1,500, and 1,000 prisoners taken.",
+      "rationale": "Hunter's under 500 covers operations through June 8; Pond's 1,500 prisoners adds the Staunton sick and wounded; Vaughn's 1,500 is his estimate of Union losses. None is reconciled. Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA111"
+          },
+          "column": "casualties_text",
+          "quote": "2,375 total (US 875; CS 1500)"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "VA111",
+            "belligerent": "US"
+          },
+          "column": "casualties",
+          "quote": "875"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "VA111",
+            "belligerent": "Confederate"
+          },
+          "column": "casualties",
+          "quote": "1500"
+        },
+        {
+          "source_id": "nps-va111-v1",
+          "locator": "Estimated Casualties",
+          "quote": "2475 total (US 875; CS 1600;)"
+        },
+        {
+          "source_id": "nps-va111-v1",
+          "locator": "Description",
+          "quote": "More than 1,000 Confederates, including 60 officers, were captured. Jones lost three guns."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "leaving over 1,000 prisoners in our hands, including 60 officers. The killed and wounded are esti¬ mated at 600 men."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "the enemy in his precipitate retreat lost an equal number at least by straggling and desertion."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "capturing 400 sick and Avounded,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-06-08",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "with a loss to this command of less than 500 men in killed and wounded."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.27 (OCR page markers; not checked against print)",
+          "quote": "Over one thousand of the enemy, including sixty officers, were captured on the field,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.27 (OCR page markers; not checked against print)",
+          "quote": "The total number of prisoners was about 1,500,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.27 (OCR page markers; not checked against print)",
+          "quote": "Three guns and many small arms fell into the hands of Hunter, whose loss was but 420."
+        },
+        {
+          "source_id": "or37-1-vaughn-piedmont-selections-v1",
+          "section": "vaughn-1864-06-07",
+          "locator": "p.151 (OCR page markers; not checked against print)",
+          "quote": "We have there 60 wounded. The enemy’s loss in killed and wounded, 1,500. They have 1,000 prisoners."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Ely's and Campbell's reports on Piedmont (Nos. 4-5), E. G. Lee's reports (No. 24) and the compiled composition-and-losses table (No. 2, which covers June 10-23 and was read, not selected) remain deferred; no Imboden report on Piedmont was located in the inspected report list. Bragg's June 6 covering letter to the Secretary of War was read and not selected.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office; in these chapters it quotes Sigel's, Hunter's, Vaughn's and Imboden's reports and despatches and Strother's report, so it is not independent of those families. Hunter's June 8 report and Vaughn's June 5-7 dispatches (the targeted follow-up, for the Confederate account after Jones's death) printed in Official Records Series I, Volume XXXVII, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA045",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Morton's Ford record (February 6-7, 1864) in the Demonstration on the Rapidan River [February 1864]. The frozen description and the live page include the other crossings of the same demonstration (the First Corps at Raccoon Ford and the cavalry at the upper fords); they are part of this record, but the inspected passages describe Morton's Ford almost exclusively. Butler's simultaneous movement on Richmond under Wistar, which the demonstration was meant to aid, is context, not part of this record. Army-wide dispositions and winter positions are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Divisions' and the live page gives zero totals. Humphreys says Warren's Second Corps was ordered to Morton's Ford with three batteries, and the First Corps to Raccoon Ford; that Caldwell first sent a small part of his force across, then the whole of Hays's division crossed, and Webb's division followed in support. Caldwell reports two brigades across at 12.30 p.m. and a division across by 2.15 p.m. On the Confederate side, Caldwell found 30 or more men in rifle-pits at the ford, and prisoners told him there were but two brigades within 2 miles, with probably ten guns showing; Lee gives the guard at the ford as a lieutenant and 25 men; Humphreys says the enemy in the works was evidently small at first and largely reinforced by sunset.",
+      "rationale": "Formation lists, a ford-guard count and prisoners' reports only; no return or numerical strength for either side in the engagement was inspected. Caldwell's '30 or more men' and Lee's lieutenant and 25 men describe the same ford guard with slightly different counts. Wistar's 4,000 infantry and 2,200 cavalry (Humphreys) belong to Butler's separate movement and are not a force in this record. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA045"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va045-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.72 (OCR page markers; not checked against print)",
+          "quote": "General Warren, with the Second Corps, with three batteries and three days' rations, at Morton's Ford;"
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.72 (OCR page markers; not checked against print)",
+          "quote": "General Newton, with the First Corps, taking three"
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "sent a small part of his force across the river,"
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "Later in the day the whole of Hays's division of the Second Corps crossed the river,"
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "General Webb's division now crossed to the support of Hays,"
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-02-06-1230",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "I have crossed two bri- gades at Morton’s Ford with but little opposition,"
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-02-06-1415",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "I have now a division across the river about half a mile from the ford."
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-03-22",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "a force of 30 or more men in rifle-pits directly at the ford."
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-02-06-1230",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "they report that there are but two brigades within 2 miles."
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-02-06-1230",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "They are now showing more artillery, probably ten guns."
+        },
+        {
+          "source_id": "or33-lee-mortons-ford-selections-v1",
+          "section": "lee-1864-02-08",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "The guard at the ford (a lieutenant and 25 men),"
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "the number of the enemy in which was evidently small."
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "the enemy having been by that time largely reinforced by the troops in the rear."
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "General Wistar, with 4,000 infantry and 2,200 cavalry,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "river-ford-and-intrenched-ridge",
+      "dimension": "terrain",
+      "value": "Humphreys says a small part of Lee's army held the intrenchments along the Rapidan through the winter, the bulk being camped several miles from the river. Caldwell calls the ford very difficult, says a rain would force him to bridge it or withdraw, and reports his leading brigade halting on a ridge about three-quarters of a mile from the river, about a rifle-shot from the Confederate intrenchments; the right of the Third Division stood on open ground at some distance from the river.",
+      "rationale": "The river, the ford and the winter intrenchments predate the crossing, per Humphreys' account of the winter dispositions; the Union artillery dispositions Caldwell describes are commander-created and are not part of this claim. Humphreys' closing judgment that the intrenchments could have been turned is his retrospective view. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.71 (inferred: the section precedes the p.72 running head; not checked against print)",
+          "quote": "A small part of its force held the intrenchments along the Rapidan, the bulk of the army being en- camped or hutted several miles from the river"
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-02-06-1415",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "The ford is very difficult. If it rains it will be necessary either to lay a bridge or to withdraw my troops this side the river."
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-03-22",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "to a ridge about three-quarters of a mile from the river, where it halted about a rifle-shot from the en- emy’s intrenchments."
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-03-22",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "but the right was on open ground at some dis- tance from the river."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "roads-weather-and-pontoons",
+      "dimension": "logistics",
+      "value": "Humphreys says a flank movement was impracticable because of the roads and weather, so Sedgwick agreed to a demonstration; the Second Corps went with three days' rations; a rain-storm set in that night and continued the next day and night; and the attempts to get the pontoons and some of the artillery forward to Morton's Ford failed.",
+      "rationale": "Retrospective description, not a supply or transport return. The pontoon failure is Humphreys' statement; the Warren report on the pontoon train (read, not selected) is not used.",
+      "citations": [
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.72 (OCR page markers; not checked against print)",
+          "quote": "a flank move- ment being impracticable in the condition of the roads and the state of the weather then existing,"
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.72 (OCR page markers; not checked against print)",
+          "quote": "with three batteries and three days' rations,"
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "The weather was threatening, and a rain-storm set in at night, con- tinuing next day and night."
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "An attempt to get the pontons to Morton's Ford proved abortive, as did the attempt to get forward some of the artillery."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surprise-and-prisoner-reports",
+      "dimension": "information",
+      "value": "Humphreys says the enemy at Morton's Ford was surprised, and that the families visiting the Union officers in winter were pretty certain to be made known to the enemy. During the crossing Caldwell learned from prisoners of Stonewall's old brigade that there were but two brigades within 2 miles, and by 2.15 p.m. reported the enemy rapidly reinforcing his front. Humphreys adds that Butler's movement on Richmond had been betrayed by a deserter.",
+      "rationale": "Humphreys' surprise statement is retrospective. Caldwell's dispatches record what he reported at the time, not what the Confederate commanders knew. The deserter concerns Butler's separate movement and is context.",
+      "citations": [
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "The enemy at Morton's Ford was surprised."
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.72 (OCR page markers; not checked against print)",
+          "quote": "a fact that was pretty certain to be made known to the enemy."
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-02-06-1230",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "prisoners from Stonewall’s old brigade ; they report that there are but two brigades within 2 miles."
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-02-06-1415",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "The enemy is rapidly re-enforcing his line in my front."
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.74 (OCR page markers; not checked against print)",
+          "quote": "deserted to the enemy, and informed them of the intended movement."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "demonstration-to-aid-butler",
+      "dimension": "objectives",
+      "value": "Humphreys says Butler asked Sedgwick, commanding in Meade's absence, to move against Lee on February 6 to aid an operation Butler would begin that day, and Sedgwick consented to a vigorous demonstration. Caldwell's instructions directed the Second Corps to Morton's Ford to demonstrate on the 6th, 7th and 8th, and he understood the orders were not to precipitate an engagement but to draw a large force of the enemy to his front. NPS says the purpose was to distract attention from a planned raid up the Peninsula on Richmond.",
+      "rationale": "The three accounts agree on a diversion. The objective is the Union army's, set above the listed commanders.",
+      "citations": [
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.72 (OCR page markers; not checked against print)",
+          "quote": "asking him to make a movement against Lee on Saturday the 6th instant, to aid an operation he (General Butler) would begin that day."
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.72 (OCR page markers; not checked against print)",
+          "quote": "General Sedgwick consented to making a vigorous demonstration in his front,"
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-03-22",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "directed that the* Second Corps should move to Morton’s Ford and make a demonstration during the 6th, 7th, and 8th."
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-03-22",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "Understanding as I did that the orders from army headquarters were not to precipitate an engagement, but to draw a large force of the enemy to our front,"
+        },
+        {
+          "source_id": "nps-va045-v1",
+          "locator": "Description",
+          "quote": "To distract attention from a planned cavalry-infantry raid up the Peninsula on Richmond,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Brigadier General J. C. Caldwell (US) and Lieutenant General Richard S. Ewell (CS). Caldwell says Warren's sickness left him commanding the Second Corps on the morning of the 6th; he sent Hays's brigade across, then the rest of the Third Division at Hays's request, and chose to hold rather than advance. Warren arrived between 4 and 5 p.m. and took command, and Caldwell returned to his division, which was not engaged on the 7th. Caldwell credits Hays's division with all the fighting. Humphreys says Caldwell sent his force across 'through some misapprehension of the instructions', and places the sharp contest toward sunset. NPS says only that Ewell's Corps resisted the crossings; no inspected passage describes Ewell's own direction.",
+      "rationale": "Caldwell directed the crossing and dispositions only until Warren arrived; the heaviest fighting, at sunset, came after Warren had taken command, and was fought by Hays's division. Humphreys' 'misapprehension' and Caldwell's account of his instructions differ on whether the crossing was intended. Ewell's role rests on NPS alone. No listed commander receives automatic credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA045",
+            "belligerent": "US",
+            "fullname": "J.C. Caldwell"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA045",
+            "belligerent": "Confederate",
+            "fullname": "Richard S. Ewell"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "nps-va045-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General John Caldwell [US]"
+        },
+        {
+          "source_id": "nps-va045-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant General Richard Ewell [CS]"
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-03-22",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "that Major- General Warren was unable to leave his quarters on account of sick-"
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-03-22",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "and that the command of the corps devolved upon me."
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-03-22",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "I directed Brigadier- General Hays, commanding Third Division, to send a brigade across the river at the ford"
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-03-22",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "at the request of General Hays the two remaining brigades of the Third Division were sent across the river."
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-03-22",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "I determined not to advance farther, but to hold our position."
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-03-22",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "Between 4 and 5 o’clock in the afternoon Major-General Warren arrived on the ground and took command of the corps. I resumed command of my division,"
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-03-22",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "During the 7th my division was not engaged,"
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-03-22",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "The gallantry of General Hays, whose division did all the fighting, was conspicuous."
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "Through some misapprehension of the instructions, General Caldwell, in the absence of General War- ren, who was too unwell to be on the ground until late in the day,"
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "a sharp contest took place toward sunset,"
+        },
+        {
+          "source_id": "nps-va045-v1",
+          "locator": "Description",
+          "quote": "Ewell's Corps resisted the crossings."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result is 'Inconclusive' and the live result 'Indecisive'. Lee says the force that crossed was driven to the river under cover of its guns that evening, recrossed in the night, stayed in position on the 7th and was gone on the 8th. Humphreys says Hays's division was brought back at dark and Webb's later in the night, and that the demonstrations continued through the 7th. Caldwell says that if the object was a mere demonstration to make the enemy mass in his front, it was entirely successful.",
+      "rationale": "Lee's 'driven to the river' and Humphreys' 'brought back' differ in characterization. Caldwell's success statement is conditional on the demonstration's purpose; any contribution to Butler's movement is campaign context, not tactical outcome.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA045"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va045-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or33-lee-mortons-ford-selections-v1",
+          "section": "lee-1864-02-08",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "were driven to the river under cover of their guns that even- ing. During the night they recrossed to the north bank, but re- mained in position yesterday. This morning they have disappeared."
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "who was brought back at dark, and Webb's division later in the night."
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "all were continued during the 7th,"
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-03-22",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "If the object of our move- ment was to make a demonstration merely, and cause the enemy to mass a large force in our front, I am confident it was entirely suc- cessful."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen total is 723; the live page gives zero totals. Humphreys says Hays's division lost over 200 officers and men killed and wounded. Caldwell's first dispatch reports 26 men and 2 officers captured at the ford without the loss of a man. Lee says the Union force left 17 dead and 46 prisoners, gives his own loss as 4 killed and 20 wounded, and says the ford guard of a lieutenant and 25 men was captured.",
+      "rationale": "Humphreys' figure covers one division, killed and wounded only; Lee's own loss may or may not include the captured guard. Warren's report and the compiled Second Corps casualty return printed with it (No. 2 addenda) were read but not selected. The live zeros are not measured absence. Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA045"
+          },
+          "column": "casualties_text",
+          "quote": "723 total"
+        },
+        {
+          "source_id": "nps-va045-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-rapidan-1864-selections-v1",
+          "section": "rapidan-demonstration",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "The casual- ties in Hays's division were over 200 officers and enlisted men killed and wounded."
+        },
+        {
+          "source_id": "or33-caldwell-mortons-ford-selections-v1",
+          "section": "caldwell-1864-02-06-1230",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "capturing 26 men and 2 officers, without losing a man ;"
+        },
+        {
+          "source_id": "or33-lee-mortons-ford-selections-v1",
+          "section": "lee-1864-02-08",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "They left 17 dead and 46 prisoners in our hands. Our loss, 4 killed and 20 wounded."
+        },
+        {
+          "source_id": "or33-lee-mortons-ford-selections-v1",
+          "section": "lee-1864-02-08",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "while bravely resisting the passage of the enemy, were captured."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Warren's March 23 report and the compiled return of Second Corps casualties at Morton's Ford (No. 2 and addenda, read, not selected) are the obvious target of any casualty follow-up. Webb's report (read), Hays's, Owen's and the regimental reports, the First Corps itinerary and the cavalry reports (Merritt, Kilpatrick) at Barnett's and Culpeper Mine Fords remain deferred.",
+    "Cabell's February 8 report on the Confederate artillery (No. 25) was read in part and not selected; the demonstration's report list has no Ewell or other Confederate Second Corps report, so Ewell's role rests on NPS.",
+    "The compiler's footnote on Lomax's brigade casualties to Lee's report lies outside the selected range and is not used.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Andrew A. Humphreys' From Gettysburg to the Rapidan (Scribner, 1883) is a retrospective history by the chief of staff of the Army of the Potomac; the two February 6 dispatches selected here were addressed to him, so it is not independent of Caldwell's reports. Caldwell's February 6 dispatches and March 22 report, and Lee's February 8 report (the one targeted follow-up, for the Confederate account and losses), printed in Official Records Series I, Volume XXXIII, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA049",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Cloyd's Mountain record (May 9, 1864) in the Crook-Averell Raid on the Virginia & Tennessee Railroad [May 1864]. The rear-guard fight near Dublin the same afternoon is part of the pursuit and is described with it; Cove Mountain (VA109) is Averell's separate action of May 10. The expedition's marches, the New River bridge fight of May 10, the railroad destruction, the later skirmishes and expedition-wide loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text is 'Divisions (total 10,000)' and the battle-level strength field 10000; the side rows are blank and the live page gives zero totals, while its description gives Crook's three brigades as 6,100 men. Crook says his infantry column numbered 6,155 men and was joined by Oley with 400 mounted men; Pond gives about six thousand, and Duval's regiment 450 engaged. Crook estimates the enemy at 4,000 to 7,000, with 500 or 1,000 of Morgan's men met later near Dublin. McCausland says the Confederates fought with three regiments and one battalion of infantry and two batteries against twelve regiments and ten guns, that the enemy advancing on Dublin was estimated at 5,000 when he was ordered out, and that the enemy aggregated 9,000 of all arms while 'we never had 3,000 men in all'; he met Smith with about 500 dismounted men of Morgan's command near Dublin. Pond says daybreak revealed several thousand men under Jones and Jenkins. An inspection report abstracted in Pond's appendix says Smith's brigade entered the campaign with an aggregate effective of 2,100 and fought at Cloyd's Farm.",
+      "rationale": "Figures differ in date, basis and scope: Crook's is his own column on the march; McCausland's 9,000 and under 3,000 cover the whole expedition's operations; the 2,100 is one brigade at the start of the campaign. The frozen 10,000 is not traced to any inspected passage. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA049"
+          },
+          "column": "forces_text",
+          "quote": "Divisions (total 10,000)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA049"
+          },
+          "column": "strength",
+          "quote": "10000"
+        },
+        {
+          "source_id": "nps-va049-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va049-v1",
+          "locator": "Description",
+          "quote": "Crook's three brigades (6,100 men)"
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "the whole numbering 6,155 men,"
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "with 400 mounted men,"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "the whole force being about six thousand strong."
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "out of the 450 men engaged."
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "the enemy had some 4,000 to 7,000 men, under command of General Jenkins."
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "some 500 or 1,000 of General Morgan’s men,"
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-15",
+          "locator": "p.46 (running head reads '4()' in OCR; not checked against print)",
+          "quote": "The battle of Cloyd’s farm was fought on our part with three regiments and one battalion of infantry and two batteries. The enemy had twelve regiments and ten pieces of artillery."
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-25",
+          "locator": "p.46 (running head reads '4()' in OCR; not checked against print)",
+          "quote": "estimated at 5,000 men."
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-25",
+          "locator": "p.48 (OCR page markers; not checked against print)",
+          "quote": "Their entire force aggregated 9,000 men of all arms, and we never had 3,000 men in all."
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-15",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "I met Col. D. H. Smith with 500 dismounted men of General Morgan’s command,"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "Daybreak revealed several thousand men, under Generals W. E. Jones and Jenkins,"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "appendix-b-april-returns",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "The brigade entered the present campaign with an aggregate effective of 2,100 men."
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "appendix-b-april-returns",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "At Cloyd's Farm, May 9, 1864, it fought the Eighth Corps,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "wooded-spur-meadow-and-stream",
+      "dimension": "terrain",
+      "value": "Crook found the Confederates on a wooded spur about three-quarters of a mile off, commanding the point where the road left the mountain. His brigades charged across a meadow a quarter to half a mile wide, crossed a sunken muddy stream waist deep, and climbed a ridge 'in places ... at an angle of sixty degrees' to breastworks of inverted rails on the crest. Pond describes rail breastworks on a wooded spur, guns sweeping a broad field, and a knee-deep brook at the foot of the slope. McCausland calls the position 'not a good one, but the best we could get', taken on the 8th.",
+      "rationale": "The mountain, meadow and stream predate the action; the Confederate line and rail breastworks were placed on the 8th, so the claim is not tagged inherited. Crook's 'waist deep' and Pond's 'knee-deep' differ. No map verification.",
+      "citations": [
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "I discovered the enemy in position on a wooded spur of this mountain some three- fourths of a mile distant, and opposite to and commanding the point where the road debouched from the mountain."
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "across the intervening meadow of from one-fonrth to one-half mile Avide."
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "we encountered a sunken muddy stream waist deep."
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "which in places was at an angle of sixty degrees,"
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "formidable breast-works on the crest of the ridge, a species of cheval- de-frise made of rails inverted,"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "intrenched on a wooded spur behind rail breastworks, with their guns so placed as to sweep a broad field that fronted the works, while a knee-deep brook wound around the foot of the steep slope crowned by the rifle-pits."
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-25",
+          "locator": "p.46 (running head reads '4()' in OCR; not checked against print)",
+          "quote": "The position was not a good one, but the best we could get for the force under my command."
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-25",
+          "locator": "p.46 (running head reads '4()' in OCR; not checked against print)",
+          "quote": "The troops were placed in line on the 8th"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "transport-wounded-and-stores",
+      "dimension": "logistics",
+      "value": "Crook says want of transportation forced him to leave some 200 of his most seriously wounded near the battlefield, that he had no forage for his teams on the return and had to destroy loads, and that his men reached Meadow Bluff barefoot and almost out of provisions. On the Dublin stores the accounts differ: Crook says many public stores fell into his hands there, McCausland that he saved the stores at Dublin, and Pond that Crook destroyed sundry abandoned stores. Pond says a prolonged storm made the roads heavy and rations and forage ran short.",
+      "rationale": "Mostly after-action descriptions of the march, not supply returns for May 9. The Dublin stores accounts are recorded as a difference, not reconciled.",
+      "citations": [
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "from want of transportation I Avas compelled to leave some 200 of my most seriously wounded cases in hospital near the battle-field."
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "we had no forage for them,"
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "I was com¬ pelled to destroy some of my loads,"
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "many of our men were barefoot, and we were almost entirely out of provisions,"
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "At Dublin many public stores fell into our hands."
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-09",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "I have saved the stores at Dublin."
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "destroyed sundry military stores which had been abandoned there."
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "a prolonged storm making the roads heavy and toilsome."
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "caused not only rations but forage to run short,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "route-deception-and-dispatches",
+      "dimension": "information",
+      "value": "Crook sent a regiment and scouts on the Lewisburg road to deceive the enemy about his route, found at Princeton that McCausland's brigade had left the evening before, 'so little did they expect us on this route', and learned at Shannon's Bridge that the enemy held the mountain. McCausland says orders from Jenkins, then commanding the department, reached him at Dublin on the 7th to postpone his departure, and on the 8th sent him to meet the enemy advancing on Dublin, estimated at 5,000. After the battle, dispatches at Dublin reporting Grant repulsed decided Crook to move to Lewisburg.",
+      "rationale": "Crook's statement of Confederate expectations is his inference. The Dublin dispatches concern his post-battle decision.",
+      "citations": [
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "To deceive the enemy as to the route, I sent the Fifth Virginia In¬ fantry,"
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "I learned at this place that McCausland’s bri¬ gade had left here the evening previous for Lewisburg. So little did they expect us on this route"
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "Here I understood that the enemy were holding the summit of this mountain,"
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-15",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "On the 7th of May I reached Dublin on my way to Staunton with my brigade. Orders were there received from Brig. Gen. A. G."
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-25",
+          "locator": "p.46 (running head reads '4()' in OCR; not checked against print)",
+          "quote": "On the 8th instant I received orders from Brig. Gen. A. G. Jen¬ kins"
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-25",
+          "locator": "p.46 (running head reads '4()' in OCR; not checked against print)",
+          "quote": "to meet the enemy, advancing toward Dublin, under Brig. Gen. George Crook, and estimated at 5,000 men."
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "There I saw dispatches from Richmond stating that General Grant had been re¬ pulsed and was retreating, which determined me to move to Lewis- burg as rapidly as possible."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "railroad-and-bridge",
+      "dimension": "objectives",
+      "value": "Crook left the Kanawha to operate against the Virginia and Tennessee Railroad; Pond says Grant directed Crook's column to break the railroad at the New River bridge and, if possible, destroy the Saltville salt works, and calls the bridge the expedition's main object. Crook sent Averell toward Saltville. McCausland says Jenkins ordered him out on the Giles Court-House road to meet the enemy advancing toward Dublin.",
+      "rationale": "The objective is the expedition's; the battle was fought on the way to the bridge.",
+      "citations": [
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "left the Kanawha River on the 2d instant to operate against the Vir¬ ginia and Tennessee Railroad."
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "should break the Virginia and Tennessee Railroad at the New River bridge, and should also, if possible, destroy the salt works at Salt- ville ;"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.14 (OCR page markers; not checked against print)",
+          "quote": "the destruction of New River bridge was the main object of the expedition,"
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-25",
+          "locator": "p.46 (running head reads '4()' in OCR; not checked against print)",
+          "quote": "to move my brigade, then encamped near Dublin awaiting transportation to the east, out on the road to Giles Court-House to meet the enemy,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Brigadier Generals George Crook (US) and Albert Jenkins (CS). Crook sent the Second Brigade to turn the Confederate right, ordered the other two brigades to charge once it was engaged, and was with the First Brigade in the storming. McCausland says Jenkins placed the Forty-fifth Regiment in person and changed the positions of two other units over his objection, ordered the charges, and was wounded; McCausland then assumed command and covered the retreat. Pond names the Confederates as under Generals W. E. Jones and Jenkins, which the inspected reports do not.",
+      "rationale": "Jenkins's command ended with his wound during the battle, so the Confederate retreat was under McCausland. Pond's naming of Jones is not supported by the reports inspected. No listed commander receives automatic credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA049",
+            "belligerent": "US",
+            "fullname": "George Crook"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA049",
+            "belligerent": "Confederate",
+            "fullname": "Albert Jenkins"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va049-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General George Crook [US]"
+        },
+        {
+          "source_id": "nps-va049-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Albert Jenkins [CS]"
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "I sent the Second Brigade to our left and to turn the enemy’s right flank,"
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "As soon as the Second Brigade had fairly engaged the enemy, I ordered a charge of the other two brigades"
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "During the storming of tlie enemy's -works I was with the First Brigade,"
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-25",
+          "locator": "p.46 (running head reads '4()' in OCR; not checked against print)",
+          "quote": "was placed on our right by Brigadier-General Jenkins in person, who also at the same time changed the position of the Sixtieth Regiment and Forty-fifth Battalion. I can only say that I did not approve these dispositions,"
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-25",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "As soon as I learned that General Jenkins had been wounded I assumed command"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "under Generals W. E. Jones and Jenkins,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Union victory. Crook says his men carried the works and routed the enemy, taking two guns; Pond says Crook carried the intrenchments at all points; McCausland's May 9 dispatch says 'We were defeated.' McCausland's later report says the expedition accomplished little commensurate with its preparations.",
+      "rationale": "All inspected accounts agree on the tactical result. McCausland's judgment concerns the expedition and is campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA049"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va049-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "made a general rout of their ranks ;"
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "The enemy left on the field two pieces of artillery"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "car- ried the intrenchments at all points."
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-09",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "We were defeated."
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-25",
+          "locator": "p.48 (OCR page markers; not checked against print)",
+          "quote": "they have accomplished nothing commensurate with their preparations."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen total is 1,500; the live page gives 1,226 (US 688; CS 538) and describes losses of 10% (Union) and 23% (Confederate). Crook gives his loss as 107 killed, 508 wounded and 28 missing, says he buried over 200 Confederate dead and took 230 prisoners, and estimates their wounded at 800 to 1,000. Pond gives Crook's loss as 600 and 230 unwounded prisoners and two guns; for the whole expedition he gives Crook 109 killed and 513 wounded. McCausland says the enemy lost 600 killed and wounded at Cloyd's and nearly 200 prisoners, and the list inclosed with his report, covering the battle 'and subsequent operations', prints totals read in OCR as 504 and 538.",
+      "rationale": "Scopes differ: Crook's and McCausland's own-side figures, Pond's expedition totals and the inclosure all overlap the May 10 New River bridge fight or later operations to varying degrees; the compiled Union return (No. 2, read, not selected) is noted by its footnote to include the Jeffersonville and New River bridge losses. Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA049"
+          },
+          "column": "casualties_text",
+          "quote": "1,500 total"
+        },
+        {
+          "source_id": "nps-va049-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1226 total (US 688; CS 538;)"
+        },
+        {
+          "source_id": "nps-va049-v1",
+          "locator": "Description",
+          "quote": "Union 10%, Confederate 23%."
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "Our loss in killed Avas 107, wounded 508, missing 28."
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "We buried over 200 of the enemy’s dead and captured 230 prisoners besides their wounded."
+        },
+        {
+          "source_id": "or37-1-crook-cloyds-mountain-selections-v1",
+          "section": "crook-1864-05-23",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "their wounded must have been at least from 800 to 1,000."
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "Crook's loss was 600,"
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "he captured 230 unwounded prisoners and two guns."
+        },
+        {
+          "source_id": "pond-crook-averell-selections-v1",
+          "section": "cloyds-mountain-and-wytheville",
+          "locator": "p.14 (OCR page markers; not checked against print)",
+          "quote": "Crook's losses in this expedition were 109 killed and 513"
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "mccausland-1864-05-25",
+          "locator": "p.48 (OCR page markers; not checked against print)",
+          "quote": "The enemy lost 600 in killed and wounded at Cloyd’s, and we have taken nearly 200 prisoners from them,"
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "casualty-list-inclosure",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "List of Casualties in the battle of Cloyd's Farm, May 9, 1864, and subsequent operations."
+        },
+        {
+          "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+          "section": "casualty-list-inclosure",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "Total . 10 66 22 240 1 76 1 122 504 538"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The compiled return of Union casualties at Cloyd's Mountain (No. 2, read, not selected; garbled in OCR) and the brigade and regimental reports (Nos. 3-18 Union, Nos. 21-30 Confederate, including D. Howard Smith's for Morgan's men near Dublin) remain deferred.",
+    "Pond's placing of W. E. Jones at Cloyd's Mountain is not checked against a Jones report; none was located in the inspected report list.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office; it quotes Crook's and Sigel's despatches and follows Averell's report, so it is not independent of those families. Crook's May 23 report and McCausland's dispatch and reports of May 9-25 (with the casualty list inclosed; the targeted follow-up, for the Confederate account) printed in Official Records Series I, Volume XXXVII, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

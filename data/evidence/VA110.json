@@ -1,0 +1,552 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA110",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen New Market record (May 15, 1864) in the Lynchburg Campaign [May-June 1864]. The skirmishes of May 13-14 near New Market and at Rude's Hill are context, as is the Crook-Averell raid the advance was meant to support. Campaign marches, the destruction at Staunton and Lexington, the retreat to the Kanawha and campaign-wide loss and capture totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text and side rows give 10,365 total (US 6,275; CS 4,090), and the live page repeats them; the live description says Sigel had 10,000 men and was attacked by about 4,100. Sigel's May 15 dispatch says he fought with 5,500 in all against 8,000 to 9,000; on May 16 he says he could bring no more than six regiments into the fight, besides artillery and cavalry, against about 7,000 infantry and the other arms. Pond says Sigel's field force was at most six or seven thousand, cites Sigel's May 1 count of about four thousand infantry, one thousand cavalry and three batteries, and gives Breckinridge nearly 5,000. From Lincoln's roster study Pond cites the Confederate report of the day after the battle, 4,282 infantry and artillery present, and Imboden's 800 cavalry and his 3,440 infantry and 350 artillery engaged (4,590), and sets the Confederate strength at 4,600 to 5,000; he says that after deducting two regiments from Sigel's 5,500 there was little disparity. An inspection report abstracted in Pond's appendix gives Echols's brigade 2,150 men on May 6.",
+      "rationale": "The figures differ in date (May 1, May 6, the battle, the day after) and basis (present, engaged, estimated enemy). Sigel's estimates of the enemy are far above every Confederate figure; Pond's range is his own reconstruction. The basis of the frozen 6,275 and 4,090 is not established in the inspected passages. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA110"
+          },
+          "column": "forces_text",
+          "quote": "10,365 total (US 6,275; CS 4,090)"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "VA110",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "6275"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "VA110",
+            "belligerent": "Confederate"
+          },
+          "column": "strength_min",
+          "quote": "4090"
+        },
+        {
+          "source_id": "nps-va110-v1",
+          "locator": "Forces Engaged",
+          "quote": "10365 total (US 6275; CS 4090;)"
+        },
+        {
+          "source_id": "nps-va110-v1",
+          "locator": "Description",
+          "quote": "with 10,000 men"
+        },
+        {
+          "source_id": "nps-va110-v1",
+          "locator": "Description",
+          "quote": "a makeshift Confederate army of about 4,100 men"
+        },
+        {
+          "source_id": "or37-1-sigel-new-market-selections-v1",
+          "section": "sigel-1864-05-15",
+          "locator": "p.76 (running head reads '7 6 OPEEATIONS' in OCR; not checked against print)",
+          "quote": "The battle was fought on our side by 5,500 in all against 8,000 to 9,000 of the enemy."
+        },
+        {
+          "source_id": "or37-1-sigel-new-market-selections-v1",
+          "section": "sigel-1864-05-16",
+          "locator": "p.76 (running head reads '7 6 OPEEATIONS' in OCR; not checked against print)",
+          "quote": "I could not bring more than six regiments into the fight, besides the artillery and the cavalry. The enemy have about 7,000 infantry, besides the other arms."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.15 (OCR page markers; not checked against print)",
+          "quote": "would have a field force at most of six or seven thousand men."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.15 (OCR page markers; not checked against print)",
+          "quote": "consisting of about four thousand in- fantry, one thousand cavalry and three batteries,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "with a force of nearly 5,000 men."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.21 (OCR page markers; not checked against print)",
+          "quote": "the official report of Breckenridge's strength the day after the battle shows the following aggregate then present:"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.21 (OCR page markers; not checked against print)",
+          "quote": "total of infantry and artillery, 4,282."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.21 (OCR page markers; not checked against print)",
+          "quote": "Imboden, in his report, gives the cavalry at 800,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.21 (OCR page markers; not checked against print)",
+          "quote": "He also puts the infantry actually engaged at 3,440 and the artillery at 350, with 18 guns, making a total of 4,590 men."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.21 (OCR page markers; not checked against print)",
+          "quote": "we may, therefore, safely set down the Confederate strength in the engagement at from 4,600 to 5,000 men."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.21 (OCR page markers; not checked against print)",
+          "quote": "But even if we deduct from Sigel's 5,500 the two regiments that did not participate in the battle, there was little disparity in num- bers."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "appendix-b-april-returns",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "entered upon the campaign of 1864 with 2.150 men and a full complement of officers on May 6, 1864."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "pike-ridges-and-muddy-fields",
+      "dimension": "terrain",
+      "value": "Pond places New Market on the Valley pike about eight miles above Mount Jackson, where the Luray turnpike joins it. Sigel's line ran across the pike on rising ground, with Moor on another slope in front; Confederate artillery took a sharp ridge parallel to the pike; Imboden's cavalry went down Smith's Creek to reach Sigel's left; and some Union troops tramped back and forth through the sticky mud of young wheat fields after a stormy night. Both Sigel and Breckinridge say the Union force recrossed the Shenandoah (North Fork) that evening; Breckinridge says the bridge was burned behind it.",
+      "rationale": "Ground, roads and river predate the battle; the line positions were chosen on the day. No map verification.",
+      "citations": [
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "New Market is on the Valley pike, about eight miles"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "At New Market the Valley pike is joined by the turnpike which comes up from Front Koyal to Luray,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "The line ex- tended across the pike on rising ground, while another slope in front was held by Moor."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "McLaughlin's artillery went into action on a sharp ridge that ran parallel with the pike."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "galloping down Smith's Creek, along the eastern bank,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "an exhausting tramp back and forth through the sticky mud of fields of young wheat."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "the stormy night of the 14th,"
+        },
+        {
+          "source_id": "or37-1-sigel-new-market-selections-v1",
+          "section": "sigel-1864-05-15",
+          "locator": "p.76 (running head reads '7 6 OPEEATIONS' in OCR; not checked against print)",
+          "quote": "recrossed the Shenandoah at about 7 p. m."
+        },
+        {
+          "source_id": "or37-1-breckinridge-new-market-selections-v1",
+          "section": "breckinridge-1864-05-15",
+          "locator": "p.87 (OCR page markers; not checked against print)",
+          "quote": "Enemy fled across North Fork of the Shenandoah, burning the bridge behind him."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "trains-and-ammunition",
+      "dimension": "logistics",
+      "value": "Sigel says the long line and the trains he had to guard kept him from bringing more than six regiments into the fight, and that he brought off all his trains and the wounded who could be moved. Pond says two regiments came up from guarding the wagons only for the second line at Rude's Hill, and that Sigel's forces were scattered along the pike. NPS says a key Union battery was withdrawn from the line to replenish its ammunition, leaving a weakness Breckinridge exploited.",
+      "rationale": "The battery withdrawal rests on NPS; Pond and Sigel mention guns lost, not the withdrawal. Descriptions, not supply returns.",
+      "citations": [
+        {
+          "source_id": "or37-1-sigel-new-market-selections-v1",
+          "section": "sigel-1864-05-16",
+          "locator": "p.76 (running head reads '7 6 OPEEATIONS' in OCR; not checked against print)",
+          "quote": "In consequence of the long line and the trains which had to be guarded I could not bring more than six regiments into the fight,"
+        },
+        {
+          "source_id": "or37-1-sigel-new-market-selections-v1",
+          "section": "sigel-1864-05-16",
+          "locator": "p.76 (running head reads '7 6 OPEEATIONS' in OCR; not checked against print)",
+          "quote": "bringing all my trains and all the wounded that could be transported from the battle-field with me."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "the Twenty-eighth and One Hundred and Sixteenth Ohio being brought up from the charge of the wagons."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "his forces being scattered along the pike."
+        },
+        {
+          "source_id": "nps-va110-v1",
+          "locator": "Description",
+          "quote": "a key Union battery was withdrawn from the line to replenish its ammunition, leaving a weakness that Breckinridge was quick to exploit."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "enemy-estimates-and-unclear-task",
+      "dimension": "information",
+      "value": "Sigel's estimates of 8,000 to 9,000, then about 7,000 infantry, exceed Pond's 4,600 to 5,000. Pond says the First New York Cavalry reported the enemy in force at New Market on the 14th, that Breckinridge had observed Sigel's arrival at Strasburg, that Sigel was not prepared for battle, and that the indefinite character of his task left him without a precise idea of what he might meet.",
+      "rationale": "Pond's judgments are retrospective. Sigel's figures are his own post-battle statements, not a record of his pre-battle knowledge.",
+      "citations": [
+        {
+          "source_id": "or37-1-sigel-new-market-selections-v1",
+          "section": "sigel-1864-05-15",
+          "locator": "p.76 (running head reads '7 6 OPEEATIONS' in OCR; not checked against print)",
+          "quote": "against 8,000 to 9,000 of the enemy."
+        },
+        {
+          "source_id": "or37-1-sigel-new-market-selections-v1",
+          "section": "sigel-1864-05-16",
+          "locator": "p.76 (running head reads '7 6 OPEEATIONS' in OCR; not checked against print)",
+          "quote": "The enemy have about 7,000 infantry,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "reported the enemy to be in force at the latter point."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "observing Sigel's arrival at Strasburg,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "It is obvious that the Union general was not prepared for battle,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.21 (OCR page markers; not checked against print)",
+          "quote": "The indefinite character of Sigel's task seems to have left him without a clear objec- tive, and, as a consequence, without a precise idea of what he might be called upon to meet."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "threaten-staunton-or-lynchburg",
+      "dimension": "objectives",
+      "value": "NPS says Grant ordered Sigel up the Valley to destroy the railroad and canal complex at Lynchburg. Sigel's Woodstock message, quoted by Pond, says his principal object was to threaten Staunton, divide Breckinridge's forces and so assist Crook, and that he did not intend to go farther with his main force; Grant, quoted by Pond, did not want him to move farther south than 'Cedar River'. Pond says Breckinridge marched from Staunton to oppose him.",
+      "rationale": "NPS's Lynchburg objective and Sigel's own statement differ; both are recorded, not reconciled.",
+      "citations": [
+        {
+          "source_id": "nps-va110-v1",
+          "locator": "Description",
+          "quote": "to destroy the railroad and canal complex at Lynchburg."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "My principal object in advancing up the Shenan- doah Valley was to threaten Staunton, to divide the forces of Breckenridge, and to assist by these means General Crook,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "My intention, therefore, is not to advance farther than this place with my main force,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.16 (OCR page markers; not checked against print)",
+          "quote": "to move farther south than Cedar River,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "was marching rapidly from his post at Staun- ton to oppose him,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Major Generals Franz Sigel (US) and John C. Breckinridge (CS); the live page gives Sigel as Colonel. Pond says Stahel came up and took command of the advance on the morning of the 15th, that Sigel personally directed the formation of the main line under Thoburn, and that he spared no personal exertions to redeem the day. Breckinridge attacked with Echols's and Wharton's brigades and local forces, Imboden commanding his cavalry, and Imboden's report, quoted by Pond, says Breckinridge ordered the Sixty-second Virginia and the Cadets to take the most damaging battery. NPS says Breckinridge ordered his entire force forward.",
+      "rationale": "The live rank is not adopted. Stahel and Imboden are not listed commanders; the flank attack by Imboden's cavalry is his. No listed commander receives automatic credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA110",
+            "belligerent": "US",
+            "fullname": "Franz Sigel"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA110",
+            "belligerent": "Confederate",
+            "fullname": "John C. Breckinridge"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va110-v1",
+          "locator": "Principal Commanders",
+          "quote": "Colonel Franz Sigel [US]"
+        },
+        {
+          "source_id": "nps-va110-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General John Breckinridge [CS]"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "General Stahel came up next morning and took command."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "This latter was formed as the main line of battle, under Sigel's per- sonal direction."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.21 (OCR page markers; not checked against print)",
+          "quote": "it is due to him to say that he spared no personal exertions to redeem the day."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "Breckenridge moved to the attack with the veteran bri- gades of Echols and Wharton and some local forces,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "Imboden, who commanded Breckenridge's cav- alry,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "Colonel Smith, of the Sixty-second Virginia, and Colonel Skip, with his Cadets, were ordered to charge and take it."
+        },
+        {
+          "source_id": "nps-va110-v1",
+          "locator": "Description",
+          "quote": "He ordered his entire force forward,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Confederate victory. Breckinridge says he defeated Sigel with heavy loss and the enemy fled across the North Fork, burning the bridge. Sigel says his troops were overpowered and he withdrew them gradually, and on May 16 that the retreat to Strasburg was made in perfect order without loss of material or men. Pond says Breckinridge compelled the whole force to retreat, though the Union troops contested the ground, and that Breckinridge followed only to Rude's Hill.",
+      "rationale": "Breckinridge's 'fled' and Sigel's orderly withdrawal differ; the Union retreat to Cedar Creek and Sigel's replacement are campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA110"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va110-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or37-1-breckinridge-new-market-selections-v1",
+          "section": "breckinridge-1864-05-15",
+          "locator": "p.87 (OCR page markers; not checked against print)",
+          "quote": "de¬ feated him with heavy loss."
+        },
+        {
+          "source_id": "or37-1-breckinridge-new-market-selections-v1",
+          "section": "breckinridge-1864-05-15",
+          "locator": "p.87 (OCR page markers; not checked against print)",
+          "quote": "Enemy fled across North Fork of the Shenandoah,"
+        },
+        {
+          "source_id": "or37-1-sigel-new-market-selections-v1",
+          "section": "sigel-1864-05-15",
+          "locator": "p.76 (running head reads '7 6 OPEEATIONS' in OCR; not checked against print)",
+          "quote": "Our troops were overpowered by superior numbers. I, therefore, withdrew them gradually from the battle-field,"
+        },
+        {
+          "source_id": "or37-1-sigel-new-market-selections-v1",
+          "section": "sigel-1864-05-16",
+          "locator": "p.76 (running head reads '7 6 OPEEATIONS' in OCR; not checked against print)",
+          "quote": "The retrograde movement to Strasburg was effected in perfect order, without any loss of material or men."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "compelled the en- tire force to retreat. Yet the Union troops contested the ground ;"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "Breckenridge followed only to Kude's Hill,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen totals are 1,380 (US 840; CS 540), with the same side values in the force rows; the live page gives 1,361 (US 841; CS 520). Sigel reported about 600 killed and wounded and 50 prisoners, and five guns left on the field. Pond gives Sigel 93 killed, 482 wounded and 256 missing (831) and the Confederates 34 killed, 484 wounded and 13 missing (531); he says Sigel's despatches speak of five guns and other accounts of six. Imboden, quoted by Pond, gives 241 killed and wounded in the Sixty-second Virginia and 8 killed and 61 wounded among 250 Cadets engaged.",
+      "rationale": "Sigel's figures are his next-day estimates; Pond's source for his totals is not given in the inspected passage. The frozen, live and Pond totals differ slightly and are not reconciled. Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA110"
+          },
+          "column": "casualties_text",
+          "quote": "1,380 total (US 840; CS 540)"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "VA110",
+            "belligerent": "US"
+          },
+          "column": "casualties",
+          "quote": "840"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "VA110",
+            "belligerent": "Confederate"
+          },
+          "column": "casualties",
+          "quote": "540"
+        },
+        {
+          "source_id": "nps-va110-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1361 total (US 841; CS 520;)"
+        },
+        {
+          "source_id": "or37-1-sigel-new-market-selections-v1",
+          "section": "sigel-1864-05-15",
+          "locator": "p.76 (running head reads '7 6 OPEEATIONS' in OCR; not checked against print)",
+          "quote": "We lost about 600 in killed and wounded, and 50 prisoners."
+        },
+        {
+          "source_id": "or37-1-sigel-new-market-selections-v1",
+          "section": "sigel-1864-05-16",
+          "locator": "p.76 (running head reads '7 6 OPEEATIONS' in OCR; not checked against print)",
+          "quote": "Five pieces of artillery had to be left on the field"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "killed, 93 ; wounded, 482 ; missing, 256 — total, 831. The Confederate loss was also severe : killed, 34 ; wounded, 484 ; missing, 13 — total, 531."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "Sigel's despatches speak of losing five guns ; other accounts give the number as six."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "reported 241 killed and wounded,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "new-market",
+          "locator": "p.21 (OCR page markers; not checked against print)",
+          "quote": "The corps of Cadets lost 8 killed and 4 offi- cers and 57 privates wounded, out of a total force of 250 engaged."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The composition table (No. 2), the other Union reports (Nos. 3-8) and Shipp's VMI report (No. 10) were not inspected beyond their list entries; Imboden's report, which Pond quotes, was not located in the inspected report list. Pond's source for his casualty totals is not identified in the selected passage.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office; in these chapters it quotes Sigel's, Hunter's, Vaughn's and Imboden's reports and despatches and Strother's report, so it is not independent of those families. Sigel's May 15 and May 16 dispatches and Breckinridge's May 15 dispatch (the targeted follow-up, for the Confederate commander's own account) printed in Official Records Series I, Volume XXXVII, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

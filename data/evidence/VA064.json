@@ -1,0 +1,545 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA064",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Lynchburg record (June 17-18, 1864) in the Lynchburg Campaign [May-June 1864]. The June 17 fight at Diamond Hill (Quaker church) is inside the frozen interval and part of this record. Duffie's raid, the Lexington delay, the pursuit through Liberty on June 19 and the loss of guns near Salem on June 21 are context. Campaign marches, the destruction at Staunton and Lexington, the retreat to the Kanawha and campaign-wide loss and capture totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text is 'Corps (44,000 total)' and the battle-level strength field 44000; the side rows are blank and the live page gives zero totals. Hunter says Crook and Averell joined him at Staunton on June 8 with about 10,000 men and two batteries, and that he had thirty guns at Lexington; Pond gives Averell 4,400, the joined column about 10,000, and Hunter about 18,000 with thirty guns. Hunter sent back 800 men with a convoy from Staunton and a regiment with the wagon train on the 16th. For the defenders, Hunter reports rumors ranging from a few thousand invalids and militia to all the West Virginia forces under Breckinridge plus Ewell's corps of 20,000; on the 17th the force was 'variously estimated at from 10,000 to 15,000'; on the 18th prisoners told him Early's whole corps, 20,000 strong, was at or near Lynchburg, and he judged the enemy at least double his strength. Pond says half of Early's corps reached the city on the 17th; Early says only the part of his command that was up repulsed the attack on the 18th.",
+      "rationale": "Hunter's and Pond's figures are for June 8 at Staunton, before detachments; the Confederate figures are rumors, estimates and prisoners' statements. The frozen 44,000 is not traced to any inspected passage. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA064"
+          },
+          "column": "forces_text",
+          "quote": "Corps (44,000 total)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA064"
+          },
+          "column": "strength",
+          "quote": "44000"
+        },
+        {
+          "source_id": "nps-va064-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "On the 8th I was joined by the forces under Generals Crook and Averell, about 10,000 men, with two batteries."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "the whole position was completely commanded by my artillery (thirty guns) ."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.28 (OCR page markers; not checked against print)",
+          "quote": "Averell brought with him 4,400 men, and these with Crook's infantry made a total of about 10,000, with two batteries. Hunter was now about 18,000 strong, with thirty guns,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "guarded by 800 men whose term of enlist¬ ment had expired,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.99 (running head reads 'LYNCHBURH CAMPAIGH. 99' in OCR; not checked against print)",
+          "quote": "Colonel Putnam, with his regiment of Ohio 100-days’ volunteers, was detailed to guard it,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "Negro refugees just from the town represented that it was occupied only by a few thousand armed invalids and militia,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "Ewell’s corps of veteran troops, 20,000 strong, had already re-enforced them."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.99 (running head reads 'LYNCHBURH CAMPAIGH. 99' in OCR; not checked against print)",
+          "quote": "This force was variously estimated at from 10,000 to 15,000 men,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "the whole corps, 20,000 strong, under the command of Lieutenant-Gen¬ eral Early, was either already in Lynchburg or near at hand."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "the enemy had concentrated a force of at least double the numerical strength of mine,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.36 (OCR page markers; not checked against print)",
+          "quote": "the 17th, brought to the city half of Early's corps"
+        },
+        {
+          "source_id": "or37-1-early-lynchburg-selections-v1",
+          "section": "early-1864-06-19",
+          "locator": "p.160 (OCR page markers; not checked against print)",
+          "quote": "was repulsed by the part of my command which was up."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "redoubts-abatis-and-roads",
+      "dimension": "terrain",
+      "value": "Hunter says Averell found the enemy strongly posted and intrenched at Diamond Hill, five miles from Lynchburg, on the 17th, and that the city's works were strong redoubts on each main road about three miles apart, flanked by rifle-pits protected by abatis, which the defenders were extending during the 18th. Pond calls the first position Quaker church, five miles out, says the enemy was shut up in a redoubt two miles from the city, and describes redoubts protected by abatis; the Union attacked along the Bedford turnpike, the Forest road and the Campbell road.",
+      "rationale": "The city works were occupied before Hunter arrived (Pond says Breckinridge placed troops behind them) and were being extended during the action; their construction date is not established, so the claim is not tagged inherited. Diamond Hill and Quaker church may name the same position. No map verification.",
+      "citations": [
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.99 (running head reads 'LYNCHBURH CAMPAIGH. 99' in OCR; not checked against print)",
+          "quote": "strongly posted and intrenched at Diamond Hill, five miles from Lynchburg."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.99 (running head reads 'LYNCHBURH CAMPAIGH. 99' in OCR; not checked against print)",
+          "quote": "Their works consisted of strong redoubts on each of the main roads entering the town about three miles apart, flanked on either side by rifle-pits protected by abatis."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.99 (running head reads 'LYNCHBURH CAMPAIGH. 99' in OCR; not checked against print)",
+          "quote": "the enemy could be seen working diligently as if to ex¬ tend and strengthen them."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "came upon the enemy at Quaker church, five miles from Lynchburg,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.36 (OCR page markers; not checked against print)",
+          "quote": "they had shut up the enemy within a redoubt only two miles from the city."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "redoubts protected by abatis."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "on and near the Bed- ford turnpike, Duffle along the Forest road on the left, and a part of Averell along the Campbell road on the right."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-rations",
+      "dimension": "logistics",
+      "value": "Hunter says that by the afternoon of the 18th his troops had scarcely enough ammunition for another well-contested battle; he had waited a day at Lexington for a 200-wagon supply train and sent it back from beyond Liberty on the 16th. Pond says he no longer had ammunition for a pitched battle against Early, his rations were nearly gone and he was 200 miles from his base. NPS says he withdrew because of a critical shortage of supplies. On the Confederate side, Pond says the Charlottesville railroad, already repaired, brought Early's troops forward.",
+      "rationale": "Commander's and historian's statements, not ammunition or ration returns.",
+      "citations": [
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "my troops had scarcely enough of ammunition left to sustain another well contested battle."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "I delayed one day in Lexington to allow it time to overtake us."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.99 (running head reads 'LYNCHBURH CAMPAIGH. 99' in OCR; not checked against print)",
+          "quote": "From this point I sent back the supply train of 200 wagons which had overtaken us at Lexington."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.38 (OCR page markers; not checked against print)",
+          "quote": "he no longer had ammunition for a pitched battle, or series of battles, against a force like Early's. His rations, too, were nearly gone, and he was 200 miles from his base."
+        },
+        {
+          "source_id": "nps-va064-v1",
+          "locator": "Description",
+          "quote": "Hunter withdrew the next day after sporadic fighting because of a critical shortage of supplies."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.36 (OCR page markers; not checked against print)",
+          "quote": "where the railroad, already repaired, could bring forward his troops to Lynchburg,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rumors-trains-and-prisoners",
+      "dimension": "information",
+      "value": "Hunter says neither his scouts nor other sources gave clear or reliable information about the enemy, so he advanced to develop the truth; through the night of the 17th trains ran without intermission and cheering and drums suggested arriving troops, but until the morning of the 18th he had no positive information whether Lee had detached a considerable force; prisoners taken on the 18th said part of Ewell's corps was engaged. Pond says Breckinridge at Lynchburg had scanty information of Hunter's progress, and that Hunter's delay at Lexington was enough to prove the salvation of Lynchburg.",
+      "rationale": "Hunter's account of what he knew is his August report; Pond's judgments are retrospective.",
+      "citations": [
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "from this scouting party nor from other sources could we obtain any clear or reliable information in regard to the enemy."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "To develop the truth I determined to advance on Lynchburg immediately."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.99 (running head reads 'LYNCHBURH CAMPAIGH. 99' in OCR; not checked against print)",
+          "quote": "During the night the trains on the different railroads were heard running without intermission,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.99 (running head reads 'LYNCHBURH CAMPAIGH. 99' in OCR; not checked against print)",
+          "quote": "yet up to the morning of the 18th I had no positive informa¬ tion as to whether General Lee had detached any considerable force for the relief of Lynchburg."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "From prisoners captured we obtained positive information that a portion of Ewell’s corps was engaged in the action,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.36 (OCR page markers; not checked against print)",
+          "quote": "Breckenridge, at Lynchburg, had scanty information of Hunter's progress."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.31 (OCR page markers; not checked against print)",
+          "quote": "This delay at Lexington was enough to prove the salvation of Lynchburg ;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "depots-and-relief",
+      "dimension": "objectives",
+      "value": "Halleck, quoted by Pond, conveyed Grant's wish that Hunter push on to Charlottesville and Lynchburg and destroy the railroad and canal; NPS says he advanced against the rail and canal depots and hospital complex at Lynchburg. Pond says Lee sent Early's corps to strike Hunter's rear, and that Grant's June 6 letter redirecting Hunter did not reach him. Early says he had arranged to attack on the morning of the 19th.",
+      "rationale": "The objectives are the two armies'; the listed commanders executed them.",
+      "citations": [
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "hunter-advance-and-piedmont",
+          "locator": "p.24 (running head reads '21' in OCR; not checked against print)",
+          "quote": "push on, if jjossible, to Charlottesville and Lynchburg, and destroy the railroad and canal beyond possibility of repair for weeks ;"
+        },
+        {
+          "source_id": "nps-va064-v1",
+          "locator": "Description",
+          "quote": "advanced against the Confederate rail and canal depots and the hospital complex at Lynchburg."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "so as to strike the rear of Hunter,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.43 (OCR page markers; not checked against print)",
+          "quote": "This letter of course did not reach Hunter."
+        },
+        {
+          "source_id": "or37-1-early-lynchburg-selections-v1",
+          "section": "early-1864-06-19",
+          "locator": "p.160 (OCR page markers; not checked against print)",
+          "quote": "I made arrange¬ ments to attack this morning at light,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Major General David Hunter (US) and Lieutenant General Jubal A. Early (CS); the live page gives Early as Major General. Hunter reconnoitered the lines, ordered Duffie to attack on the Forestville road while Averell sent cavalry against the Campbell Court-House road, and ordered the trains away and the night withdrawal. Pond says Breckinridge had placed his and Vaughn's troops behind the works long before Hunter arrived, with home guards and convalescents and Generals D. H. Hill and Hays aiding, and that Early put two brigades of Ramseur's division into the redoubt on the 17th. Hunter attributes the sortie of the 18th to Breckinridge ('the bloody repulse of Breckinridge'), while Early calls it an assault on his lines repulsed by his command.",
+      "rationale": "Breckinridge, not a listed commander, directed the defense before and possibly during part of the action; who directed the Confederate troops on the 18th is disputed. The live rank is not adopted. No listed commander receives automatic credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA064",
+            "belligerent": "US",
+            "fullname": "David Hunter"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA064",
+            "belligerent": "Confederate",
+            "fullname": "Jubal A. Early"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "nps-va064-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General David Hunter [US]"
+        },
+        {
+          "source_id": "nps-va064-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Jubal Early [CS]"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "Meanwhile I reconnoitered the lines,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.99 (running head reads 'LYNCHBURH CAMPAIGH. 99' in OCR; not checked against print)",
+          "quote": "Duffie was ordered to attack resolutely on tlie Forestville road,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.99 (running head reads 'LYNCHBURH CAMPAIGH. 99' in OCR; not checked against print)",
+          "quote": "while Averell sent two squadrons of cavalry to demonstrate against the Campbell Court-House road"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "I immediately ordered all the baggage and supply trains to retire by the Bedford turnpike,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "As soon as it became dark I quietly withdrew my wffiole force,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "long before Hunter's arrival had placed his troops and Vaughan's behind the intrenchments, being able to add to them a considerable array of home guards and convalescents ;"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "Generals D. H. Hill and Hays, who were among them, aided in the defence."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.36 (OCR page markers; not checked against print)",
+          "quote": "Early at that time threw two brigades of Bamseur's division into this redoubt,"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "rendered cautious by the bloody repulse of Breckinridge,"
+        },
+        {
+          "source_id": "or37-1-early-lynchburg-selections-v1",
+          "section": "early-1864-06-19",
+          "locator": "p.160 (OCR page markers; not checked against print)",
+          "quote": "Last evening the enemy assaulted my lines in front of Lynchburg and was repulsed by the part of my command which was up."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Confederate victory. On the 17th Hunter's advance carried the works at Diamond Hill (Quaker church), taking 70 prisoners and a gun. On the 18th Hunter says the enemy advanced from its works, was routed after an hour and twenty minutes and driven back in disorder, but that he withdrew that night against a force at least double his own. Early says the enemy assaulted and was repulsed, and that he found it retreating in confusion the next morning. Pond says Hunter attacked in force, Early's infantry sallied and was driven back, and Hunter withdrew once assured Early's corps had arrived. NPS says Hunter's first tentative attacks were thwarted by the arrival of Early's vanguard.",
+      "rationale": "Who attacked on the 18th, and how the fight ended, is disputed; the agreed outcome is Hunter's withdrawal. The retreat through West Virginia and its effect on Early's advance into Maryland are campaign contribution.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA064"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va064-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.99 (running head reads 'LYNCHBURH CAMPAIGH. 99' in OCR; not checked against print)",
+          "quote": "capturing 70 men and 1 gun."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "capturing 70 prisoners and one cannon."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "suddenly advanced in great force from his works, and commenced a most determined attack on my position on the Bedford turnpike."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "was routed and driven back into his works in disorder and with heavy loss."
+        },
+        {
+          "source_id": "or37-1-early-lynchburg-selections-v1",
+          "section": "early-1864-06-19",
+          "locator": "p.160 (OCR page markers; not checked against print)",
+          "quote": "was repulsed by the part of my command which was up."
+        },
+        {
+          "source_id": "or37-1-early-lynchburg-selections-v1",
+          "section": "early-1864-06-19",
+          "locator": "p.160 (OCR page markers; not checked against print)",
+          "quote": "The enemy is re¬ treating in confusion,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "During the afternoon Hunter attacked in force,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "Early's infantry sallied from their works on the Bedford road to meet this attack, but were gallantly driven back by Sullivan,"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "Hunter withdrew at night"
+        },
+        {
+          "source_id": "nps-va064-v1",
+          "locator": "Description",
+          "quote": "his first tentative attacks were thwarted by the timely arrival by rail of Lt. Gen. Jubal A. Early's II Corps vanguard from Charlottesville."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen total is 900; the live page gives 900 (US 700; CS 200). Pond says the Union losses were about two hundred and the Confederate must have been severe; Hunter calls his loss on the 18th comparatively light and says the enemy was driven back with heavy loss. For the whole expedition Pond quotes Strother's claim of 2,000 Confederate killed and wounded and 2,000 prisoners against a Union loss of 1,500 men and eight guns.",
+      "rationale": "Pond's two hundred and Hunter's 'comparatively light' cover the action of the 18th; Strother's figures are expedition-wide and are not assigned to this record. The compiled Union table for June 10-23 (No. 2, read, not selected) is garbled in OCR. No Confederate loss figure appears in the inspected passages. Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA064"
+          },
+          "column": "casualties_text",
+          "quote": "900 total"
+        },
+        {
+          "source_id": "nps-va064-v1",
+          "locator": "Estimated Casualties",
+          "quote": "900 total (US 700; CS 200;)"
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "The Union losses were about two hundred, and the Confed- erate must have been severe."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "Our whole loss in this action was comparatively light."
+        },
+        {
+          "source_id": "or37-1-hunter-lynchburg-selections-v1",
+          "section": "hunter-1864-08-08",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "with heavy loss."
+        },
+        {
+          "source_id": "pond-lynchburg-selections-v1",
+          "section": "lynchburg-and-retreat",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "Colonel Strother also claims the infliction of a loss of 2,000 killed and wounded on the enemy, besides the taking of 2,000 prisoners, with a total loss of only 1,500 men and eight guns in Hunter's command."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Crook's July 7 report (No. 6), Duffie's and Averell's division reports (Nos. 21-22), the brigade and regimental reports on the engagement (Nos. 7-20), McCausland's and Imboden's reports (Nos. 25-26) and the compiled Union table (No. 2, read, not selected) remain deferred. Early's June 22 dispatch (read, not selected) concerns the pursuit.",
+    "No Breckinridge report for Lynchburg was located in the inspected report list; his role rests on Pond and Hunter.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office; in these chapters it quotes Sigel's, Hunter's, Vaughn's and Imboden's reports and despatches and Strother's report, so it is not independent of those families. Hunter's August 8 report and Early's June 19 dispatch (the targeted follow-up, for the Confederate commander's account; its year reads '1861' in OCR) printed in Official Records Series I, Volume XXXVII, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
