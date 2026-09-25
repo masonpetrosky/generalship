@@ -68,6 +68,16 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Reopening the Tennessee River first pass, 2026-09-25
+
+The [one-record memo](research/reopening-tennessee-first-pass-v1.md) adds **6 records**,
+bringing the registry to **537 entries / 518 raw paths**, preserving the previous
+**531/512**. One NPS battle HTML/text pair remains in the NPS/CWSAC family. Official
+Records Series I Volume XXXI Part 1 (Internet Archive `warofrebellion311unit`) is pinned
+with catalog metadata, full OCR and a Bratton selection; a new Cist selection reuses
+`cist-cumberland-ocr-v1`. Character ranges and whitespace-only normalization reproduce
+all sections. No model inputs are changed.
+
 ### Bristoe Campaign first pass, 2026-09-25
 
 The [five-record memo](research/bristoe-first-pass-v1.md) adds **16 records**, bringing

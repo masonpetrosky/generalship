@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN021",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Wauhatchie record (October 28–29, 1863) in Reopening the Tennessee River [October 1863]. The October 27 Brown's Ferry landing, which the live page gives as another name, falls before the frozen interval; its losses are not added. The attack on Geary and the fight for the hill near Howard's camp are both within the night. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the XI Corps and the 2nd Division, XII Corps, against Hood's Division, without counts; the live field reads zero. Cist says the enemy attacked Geary in greatly superior numbers. Bratton names the six regiments of Jenkins' brigade he put in and says the enemy's line of fire was not more than 300 or 400 yards long.",
+      "rationale": "No count is inspected; relative claims are not counts. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN021"
+          },
+          "column": "forces_text",
+          "quote": "XI Army Corps and 2nd Division, XII Army Corps [US]; Hood's Division [CS]"
+        },
+        {
+          "source_id": "nps-tn021-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "brown-ferry-and-wauhatchie",
+          "locator": "p.241 (OCR page markers; not checked against print)",
+          "quote": "The enemy here at- tacked in greatly superior numbers,"
+        },
+        {
+          "source_id": "or31-1-bratton-wauhatchie-selections-v1",
+          "section": "bratton-1863-11-01",
+          "locator": "p.232 (OCR page markers; not checked against print)",
+          "quote": "His line of fire at this time certainly was not more than 300 or 400 yards in length,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "valley-camps-and-night",
+      "dimension": "terrain",
+      "value": "Cist says Geary's division camped near Wauhatchie, some three miles up Lookout Valley from Howard's camp, so the two camps could not keep communication or form one line, and that Orland Smith's brigade charged a hill almost inaccessible by daylight to reach Confederate intrenchments. Bratton says his brigade crossed Lookout Creek near the railroad bridge and saw the Union camp by its fires.",
+      "rationale": "Positions chosen on the day and ground from interested accounts; no inherited tag is used. No map verification.",
+      "citations": [
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "brown-ferry-and-wauhatchie",
+          "locator": "p.240 (inferred: the running head reads \"24:0\" in OCR, between the p.239 and p.241 headers; not checked against print)",
+          "quote": "Borne three miles up the valley from Howard's position."
+        },
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "brown-ferry-and-wauhatchie",
+          "locator": "p.240 (inferred: the running head reads \"24:0\" in OCR, between the p.239 and p.241 headers; not checked against print)",
+          "quote": "as the numbers of the troops would not admit of communi- cation being kept up between them or of their forming one line."
+        },
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "brown-ferry-and-wauhatchie",
+          "locator": "p.241 (OCR page markers; not checked against print)",
+          "quote": "almost inaccessible by daylight, reached the rebel intrenchments"
+        },
+        {
+          "source_id": "or31-1-bratton-wauhatchie-selections-v1",
+          "section": "bratton-1863-11-01",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "crossed Look- out Creek near the railroad bridge and formed lines of battle."
+        },
+        {
+          "source_id": "or31-1-bratton-wauhatchie-selections-v1",
+          "section": "bratton-1863-11-01",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "could be seen by the light of their camp fires,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cracker-line",
+      "dimension": "logistics",
+      "value": "Cist says the besieged army's forage ran so low that artillery horses starved, and that using the river would let supplies reach Chattanooga over a wagon road of only eight miles from Kelley's Ferry via Brown's Ferry; Hooker was to hold the road to Kelley's Ferry. NPS says the Federals could then receive supplies by the Cracker Line.",
+      "rationale": "Supply context from an interested history and a summary; the siege's supply situation is campaign context, not a measurement for this record.",
+      "citations": [
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "supply-crisis",
+          "locator": "p.232 (OCR page markers; not checked against print)",
+          "quote": "they died in large numbers, starved to death."
+        },
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "supply-crisis",
+          "locator": "p.233 (OCR page markers; not checked against print)",
+          "quote": "he could secure his sup- plies over a wagon-road of only eight miles from Kelley's Ferry, via Brown's Ferry."
+        },
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "brown-ferry-and-wauhatchie",
+          "locator": "p.240 (inferred: the running head reads \"24:0\" in OCR, between the p.239 and p.241 headers; not checked against print)",
+          "quote": "With the object of holding the road to Kelley's Ferry,"
+        },
+        {
+          "source_id": "nps-tn021-v1",
+          "locator": "Description",
+          "quote": "could receive supplies, weapons, ammunition, and reinforcements via the  Cracker Line."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surprise-and-commotion",
+      "dimension": "information",
+      "value": "NPS says the attack, scheduled for 10 p.m., was delayed by confusion until midnight, and that Geary's division was surprised. Bratton says his skirmishers found commotion in the Union camp and could not tell whether it was preparation to receive or to leave. Cist says a regiment ordered by Howard to hold the Chattanooga road skirmished with the Confederate advance about midnight.",
+      "rationale": "Attributed knowledge from a summary and interested accounts; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "nps-tn021-v1",
+          "locator": "Description",
+          "quote": "Although the attack was scheduled for 10:00 pm on the night of October 28, confusion delayed it till midnight."
+        },
+        {
+          "source_id": "nps-tn021-v1",
+          "locator": "Description",
+          "quote": "Surprised by the attack, Geary's division,"
+        },
+        {
+          "source_id": "or31-1-bratton-wauhatchie-selections-v1",
+          "section": "bratton-1863-11-01",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "Whether it was of preparation to receive or leave us I could not tell,"
+        },
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "brown-ferry-and-wauhatchie",
+          "locator": "p.240 (inferred: the running head reads \"24:0\" in OCR, between the p.239 and p.241 headers; not checked against print)",
+          "quote": "had a slight skirmish with the advance of the enemy."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "night-attack-aims",
+      "dimension": "objectives",
+      "value": "NPS says Longstreet and Bragg decided on a night attack on Wauhatchie Station after watching the Union movements. Cist says the attack on Howard was meant to keep him from reinforcing Geary until Geary was routed. Bratton says the position was favorable for a grand charge when he was ordered to withdraw.",
+      "rationale": "Stated aims from a summary and interested accounts; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "nps-tn021-v1",
+          "locator": "Description",
+          "quote": "Longstreet and Gen. Braxton Bragg decided to mount a night attack on Wauhatchie Station."
+        },
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "brown-ferry-and-wauhatchie",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "The attack on Howard was intended to hold that command from reinforcing Geary until he was routed,"
+        },
+        {
+          "source_id": "or31-1-bratton-wauhatchie-selections-v1",
+          "section": "bratton-1863-11-01",
+          "locator": "p.232 (OCR page markers; not checked against print)",
+          "quote": "The position of things at this time was entirely fa vorable to a grand charge."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Bratton says he received orders to withdraw because the enemy was pressing in the rear, where Lieutenant-Colonel Logan was about to engage. Cist credits Geary's skill and coolness and says Hooker sent Howard's divisions and ordered Orland Smith's charge. The frozen and live commanders are Major General Joseph Hooker and Brigadier General Micah Jenkins.",
+      "rationale": "Command roles from interested accounts; the frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or31-1-bratton-wauhatchie-selections-v1",
+          "section": "bratton-1863-11-01",
+          "locator": "p.232 (OCR page markers; not checked against print)",
+          "quote": "At this juncture I received orders to withdraw and move back^ in good order, as the enemy were pressing in the rear."
+        },
+        {
+          "source_id": "or31-1-bratton-wauhatchie-selections-v1",
+          "section": "bratton-1863-11-01",
+          "locator": "p.232 (OCR page markers; not checked against print)",
+          "quote": "Colonel Logan was about engaging the enemy in the rear,"
+        },
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "brown-ferry-and-wauhatchie",
+          "locator": "p.241 (OCR page markers; not checked against print)",
+          "quote": "were only defeated by the skill and coolness of Geary,"
+        },
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "brown-ferry-and-wauhatchie",
+          "locator": "p.241 (OCR page markers; not checked against print)",
+          "quote": "Hooker ordered Col- onel Orland Smith with his brigade to charge this hill,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN021",
+            "belligerent": "US",
+            "fullname": "Joseph Hooker"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN021",
+            "belligerent": "Confederate",
+            "fullname": "Micah Jenkins"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS says the Confederates fell back to Lookout Mountain as Union reinforcements arrived. Cist says the Confederates were repulsed and the Union held the field. Bratton says his brigade withdrew in order, bringing away most of its wounded, and was the last to recross the creek.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN021"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tn021-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-tn021-v1",
+          "locator": "Description",
+          "quote": "the Confederates fell back to Lookout Mountain."
+        },
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "brown-ferry-and-wauhatchie",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "Their forces in the valley were repulsed in every charge and our troops occupied the field at all points."
+        },
+        {
+          "source_id": "or31-1-bratton-wauhatchie-selections-v1",
+          "section": "bratton-1863-11-01",
+          "locator": "p.232 (OCR page markers; not checked against print)",
+          "quote": "bringing away most of our wounded"
+        },
+        {
+          "source_id": "or31-1-bratton-wauhatchie-selections-v1",
+          "section": "bratton-1863-11-01",
+          "locator": "p.233 (OCR page markers; not checked against print)",
+          "quote": "were the last to recross the creek."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 828 (US 420; CS 408); the live field reads 572 (US 216; CS 356). Cist gives the Union loss as 76 killed, 339 wounded and 22 missing, 437 in all, says the Confederate loss is unknown, and says Geary buried 153 Confederates and 100 prisoners were taken. Bratton's inclosure totals 31 killed, 286 wounded and 39 missing, 356, for Jenkins' brigade; one row (Palmetto Sharpshooters, '6 35 44') lacks a figure in OCR.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Bratton's brigade total equals the live Confederate figure; the Brown's Ferry losses of October 27 are not added.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN021"
+          },
+          "column": "casualties_text",
+          "quote": "828 total (US 420; CS 408)"
+        },
+        {
+          "source_id": "nps-tn021-v1",
+          "locator": "Estimated Casualties",
+          "quote": "572 total (US 216; CS 356;)"
+        },
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "brown-ferry-and-wauhatchie",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "Our losses in the attack were 76 killed, 339 wounded, and 22 missing, mak- inga total of 437."
+        },
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "brown-ferry-and-wauhatchie",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "The rebel loss is unknown."
+        },
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "brown-ferry-and-wauhatchie",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "Geary buried 153 of the enemy on his front alone."
+        },
+        {
+          "source_id": "cist-reopening-tennessee-selections-v1",
+          "section": "brown-ferry-and-wauhatchie",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "One hundred prisoners were captured,"
+        },
+        {
+          "source_id": "or31-1-bratton-wauhatchie-selections-v1",
+          "section": "bratton-1863-11-01",
+          "locator": "p.233 (OCR page markers; not checked against print)",
+          "quote": "Total 31 286 39 356"
+        },
+        {
+          "source_id": "or31-1-bratton-wauhatchie-selections-v1",
+          "section": "bratton-1863-11-01",
+          "locator": "p.233 (OCR page markers; not checked against print)",
+          "quote": "Palmetto Sharpshooters 6 35 44"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Hooker's, Geary's, Howard's, Longstreet's and Law's reports, the court of inquiry and the returns remain deferred.",
+    "NPS/CWSAC is one family. Cist is an interested Union staff history. Bratton's report, printed in Official Records Series I, Volume XXXI, Part 1, is an interested account by the colonel commanding Jenkins' brigade; the frozen Confederate commander, Jenkins, has no report in the inspected list. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

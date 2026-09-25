@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **115 draft dossiers / 127 engagements**, with **12 without a dossier**.
+There are **116 draft dossiers / 127 engagements**, with **11 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -307,8 +307,15 @@ Lee's reports in newly pinned Official Records Volume XXIX Part 1. Multi-action 
 totals are not assigned. Separate review is pending.
 Coverage is **29/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Reopening the Tennessee River [October 1863]**, the next complete frozen
-group by earliest engagement date: **one record, TN021**.
+The [Reopening the Tennessee River first pass](research/reopening-tennessee-first-pass-v1.md) adds the
+sole **frozen record, TN021 (Wauhatchie)**, with **9 claims, 1 explicit unknown and 40
+citations** from NPS/CWSAC, a new Cist selection and Bratton's report in newly pinned
+Official Records Volume XXXI Part 1. The Brown's Ferry landing's losses are not added.
+Separate review is pending.
+Coverage is **30/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Operations on the Memphis & Charleston Railroad [November 1863]**, the next complete frozen
+group by earliest engagement date: **one record, TN022**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 
