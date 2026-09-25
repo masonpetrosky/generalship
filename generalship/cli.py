@@ -9,8 +9,10 @@ from .baseline import evaluate
 from .admission import DEFAULT_PROPOSAL, check as check_admission
 from .strength_admission import DEFAULT_PROPOSAL as STRENGTH_PROPOSAL, check as check_strength
 from .estimates import DEFAULT_LEDGER, check as check_estimates
+from .estimates_v2 import DEFAULT_LEDGER as ESTIMATE_LEDGER_V2, check as check_estimates_v2
 from .estimate_eval import evaluate_estimates, report_text as estimate_report
 from .command import DEFAULT_LEDGER as COMMAND_LEDGER, check as check_command
+COMMAND_LEDGER_V2 = 'data/command/responsibility-v2.json'
 from .ratings import rate, report_text as ratings_report
 from .dataset import build_dataset
 from .evidence import validate_all
@@ -91,6 +93,17 @@ def run_build(root, write=False):
             command = check_command(root)
         except (ValueError, KeyError, OSError) as exc:
             command = {'status': 'stale_or_invalid', 'error': str(exc)}
+    estimates_v2 = command_v2 = None
+    if (root / ESTIMATE_LEDGER_V2).is_file():
+        try:
+            estimates_v2 = check_estimates_v2(root)
+        except (ValueError, KeyError, OSError) as exc:
+            estimates_v2 = {'status': 'stale_or_invalid', 'error': str(exc)}
+    if (root / COMMAND_LEDGER_V2).is_file():
+        try:
+            command_v2 = check_command(root, COMMAND_LEDGER_V2)
+        except (ValueError, KeyError, OSError) as exc:
+            command_v2 = {'status': 'stale_or_invalid', 'error': str(exc)}
     if write:
         output = root / "artifacts"
         output.mkdir(exist_ok=True)
@@ -129,6 +142,10 @@ def run_build(root, write=False):
                                               if 'side_grades' in estimates else estimates),
             "command_ledger": command and ({k: command[k] for k in ('side_grades', 'nesting', 'rated')}
                                            if 'side_grades' in command else command),
+            "estimate_ledger_v2": estimates_v2 and ({k: estimates_v2[k] for k in ('in_scope', 'side_grades', 'rows_by_set_fit_eligible', 'fitted')}
+                                                    if 'side_grades' in estimates_v2 else estimates_v2),
+            "command_ledger_v2": command_v2 and ({k: command_v2[k] for k in ('engagements', 'side_grades', 'nesting', 'rated')}
+                                                 if 'side_grades' in command_v2 else command_v2),
             "artifacts_written": write}
 
 
@@ -161,9 +178,11 @@ def main(argv=None):
     admission_parser = sub.add_parser('admission-check', help='Offline proposal/release audit; never promotes inputs')
     admission_parser.add_argument('path', nargs='?', default=DEFAULT_PROPOSAL)
     admission_parser.add_argument('--details', action='store_true', help='Print the complete ledger and provenance')
-    sub.add_parser('estimate-check', help='Replay the best-estimate side-strength ledger; never fits or promotes')
+    est_parser = sub.add_parser('estimate-check', help='Replay the best-estimate side-strength ledger; never fits or promotes')
+    est_parser.add_argument('--ledger', default=DEFAULT_LEDGER, help='Ledger path; a version-2 ledger is replayed by estimates_v2')
     sub.add_parser('commander-ratings', help='Owner-authorized residual ratings (design §7); never changes the baseline')
-    sub.add_parser('command-check', help='Replay the command-responsibility ledger checks; never rates anyone')
+    cmd_parser = sub.add_parser('command-check', help='Replay the command-responsibility ledger checks; never rates anyone')
+    cmd_parser.add_argument('--ledger', default=COMMAND_LEDGER, help='Ledger path (v1 or v2)')
     sub.add_parser('estimate-evaluate', help='Owner-authorized estimate-layer diagnostic (design §6); never changes the baseline')
     strength_parser = sub.add_parser('strength-check', help='Offline tier-2 reported-strength proposal/release audit; never promotes inputs')
     strength_parser.add_argument('path', nargs='?', default=STRENGTH_PROPOSAL)
@@ -183,7 +202,8 @@ def main(argv=None):
             return int(checked['status'] == 'invalid' or bool(checked['scenario_issues'])
                        or checked.get('release_status') == 'blocked')
         elif args.command == 'estimate-check':
-            result = check_estimates(root)
+            version = read_json(root / args.ledger).get('version', 1)
+            result = (check_estimates_v2 if version == 2 else check_estimates)(root, args.ledger)
         elif args.command == 'commander-ratings':
             ratings = rate(root)
             write_json(root / 'artifacts/commander-ratings.json', ratings)
@@ -191,7 +211,7 @@ def main(argv=None):
             result = {'heldout_improved': ratings['heldout_test']['improved'],
                       'outputs': ['artifacts/commander-ratings.json', 'artifacts/commander-ratings.md']}
         elif args.command == 'command-check':
-            result = check_command(root)
+            result = check_command(root, args.ledger)
         elif args.command == 'estimate-evaluate':
             evaluation = evaluate_estimates(root)
             write_json(root / 'artifacts/estimate-evaluation.json', evaluation)
