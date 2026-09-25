@@ -68,6 +68,15 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Mine Run Campaign first pass, 2026-09-25
+
+The [one-record memo](research/mine-run-first-pass-v1.md) adds **4 records**, bringing the
+registry to **568 entries / 548 raw paths**, preserving the previous **564/544**. One NPS
+battle HTML/text pair remains in the NPS/CWSAC family. A new Humphreys Chapter III
+selection reuses `humphreys-ocr-v2`, and a new Lee selection reuses
+`or29-1-illinois-ocr-v1`. Character ranges and whitespace-only normalization reproduce
+all sections. No model inputs are changed.
+
 ### Chattanooga-Ringgold Campaign first pass, 2026-09-25
 
 The [two-record memo](research/chattanooga-ringgold-first-pass-v1.md) adds **9 records**,

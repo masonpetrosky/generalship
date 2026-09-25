@@ -153,6 +153,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [VA041](../data/evidence/VA041.json) | 9 | 1 | 0 | 0 | draft |
 | [VA042](../data/evidence/VA042.json) | 9 | 1 | 0 | 0 | draft |
 | [VA043](../data/evidence/VA043.json) | 9 | 1 | 0 | 0 | draft |
+| [VA044](../data/evidence/VA044.json) | 9 | 1 | 0 | 0 | draft |
 | [VA100](../data/evidence/VA100.json) | 10 | 3 | 0 | 0 | draft |
 | [VA101](../data/evidence/VA101.json) | 10 | 2 | 0 | 0 | draft |
 | [VA102](../data/evidence/VA102.json) | 9 | 2 | 0 | 0 | draft |
@@ -176,8 +177,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 123 engagements have dossiers; 4 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Chattanooga-Ringgold Campaign first pass](../docs/research/chattanooga-ringgold-first-pass-v1.md) adds both frozen records: 18 claims, 2 explicit unknowns and 82 citations from NPS/CWSAC, Cist, and Bragg's and Cleburne's Official Records reports. Responsibility judgments, the Ringgold Gap outcome dispute and casualty differences remain visible; separate campaign review is pending. Next take the complete one-record Mine Run Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 124 engagements have dossiers; 3 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Mine Run Campaign first pass](../docs/research/mine-run-first-pass-v1.md) adds the sole frozen record: 9 claims, 1 explicit unknown and 72 citations from NPS/CWSAC, Humphreys, and Lee's Official Records reports. The Payne's Farm outcome, Rosser's raid figures, Johnson's losses and the frozen/live casualty difference remain visible; separate campaign review is pending. Next take the complete three-record Operations about Dandridge. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

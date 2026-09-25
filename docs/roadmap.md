@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **123 draft dossiers / 127 engagements**, with **4 without a dossier**.
+There are **124 draft dossiers / 127 engagements**, with **3 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -350,8 +350,14 @@ citations** from NPS/CWSAC, a new Cist selection and Bragg's and Cleburne's repo
 newly pinned Official Records Volume XXXI Part 2. Separate review is pending.
 Coverage is **34/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Mine Run Campaign [November-December 1863]**, the next complete frozen
-group by earliest engagement date: **one record, VA044**.
+The [Mine Run Campaign first pass](research/mine-run-first-pass-v1.md) adds the sole
+**frozen record, VA044**, with **9 claims, 1 explicit unknown and 72 citations** from
+NPS/CWSAC, a new Humphreys Chapter III selection and Lee's Official Records Volume XXIX
+Part 1 reports. Separate review is pending.
+Coverage is **35/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Operations about Dandridge [December 1863-January 1864]**, the next complete frozen
+group by earliest engagement date: **three records, TN027, TN028, TN029**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 
