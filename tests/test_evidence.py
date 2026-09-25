@@ -187,5 +187,15 @@ class EvidenceTests(unittest.TestCase):
         self.assertIsNone(antietam['strengths']['US']['low'])
 
 
+
+class ResearchFrameTests(unittest.TestCase):
+    def test_cohort_v2_contains_v1_and_every_source_battle(self):
+        root = Path(__file__).resolve().parents[1]
+        v1 = read_json(root / 'data/pilot/cohort.json')['battle_ids']
+        v2 = read_json(root / 'data/pilot/cohort-v2.json')['battle_ids']
+        self.assertTrue(set(v1) <= set(v2))
+        self.assertEqual(len(v2), 384)
+
+
 if __name__ == '__main__':
     unittest.main()

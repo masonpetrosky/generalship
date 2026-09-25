@@ -1,6 +1,18 @@
 # Roadmap and current handoff
 
-## Current priority — reviewed best-estimate strength ledger
+## Current priority — full-war first passes (cohort v2)
+
+Owner decision, 2026-09-25: after the first rating run found no detectable commander signal on
+the 127-engagement pilot, research the rest of the war ("Sounds good, go ahead"). The
+[cohort v2 frame](cohort-v2.md) covers all 384 source-listed engagements; the 257 new ones fall
+in 83 complete campaigns. First passes follow the bounded protocol, by complete campaign, main
+1864–65 armies first (Overland, Bermuda Hundred, Richmond-Petersburg, Appomattox, Atlanta,
+Franklin-Nashville, Savannah, Carolinas, the Valley, Red River, Camden, Price, Mobile, Fort
+Fisher), then the rest chronologically. Each campaign gets a separate Opus review. The v1 cohort,
+baseline, ledgers and first rating run are unchanged; extending the ledgers and rerunning the
+ratings on v2 need versioned successors and a new owner authorization.
+
+## Previous priority — reviewed best-estimate strength ledger
 
 Owner decision, 2026-09-25: first-pass coverage is complete, and the
 [reported side-strength design](feature-admission-reported-strength.md) is accepted after

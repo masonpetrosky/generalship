@@ -73,19 +73,12 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 
 ## Research direction
 
-**Current priority: a reviewed best-estimate strength ledger.** First-pass coverage is
-complete; the [reported side-strength design](docs/feature-admission-reported-strength.md)
-is accepted after separate review, but its [extraction scoping](docs/research/reported-strength-scoping-v1.md)
-finds it would add very few rows. The owner chose graded best estimates for each decisive,
-non-aggregate engagement; the [estimate design](docs/strength-estimates.md) is accepted after separate review, and
-the [reviewed ledger](docs/research/strength-estimates-ledger-v1.md) gives 43 decisive
-engagements an estimate for both sides, 37 of them fit-eligible (21 with both sides at
-grade A), against 23 frozen rows. Five separate Opus 5.5 `high` reviews are reconciled. The
-owner authorized the locked [estimate-layer evaluation](docs/research/estimate-evaluation-v1.md),
-an exploratory diagnostic beside the unchanged baseline. Army size alone is a weak predictor:
-worse than equal odds on grade-A rows (Brier 0.279 against 0.25); on A–C rows 0.236
-battle-weighted, but no better than the training prior campaign-weighted (0.213 against
-0.211). It rates no commanders. Coverage status: we have
+**Current priority: full-war first passes.** The 1862–63 pilot is complete: reviewed strength
+and command ledgers, an [estimate-layer evaluation](docs/research/estimate-evaluation-v1.md) and a
+[first commander-rating run](docs/research/commander-ratings-v1.md), which found no detectable
+commander signal and so gave no ranking. The owner then asked for the rest of the war: the
+[cohort v2 frame](docs/cohort-v2.md) adds the other 257 source-listed engagements (83
+campaigns), researched by complete campaign, main 1864–65 armies first. Coverage status: we have
 one hundred twenty-seven draft dossiers and 0 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one

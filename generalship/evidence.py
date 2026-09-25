@@ -45,9 +45,10 @@ def validate_dossier(root, dossier, sources=None, cohort_ids=None):
     if dossier.get("schema_version") not in {1, 2, 3} or dossier.get("status") not in {"draft", "reviewed"}:
         raise ValueError("Invalid dossier version or status")
     if cohort_ids is None:
-        cohort_ids = read_json(root / "data/pilot/cohort.json")["battle_ids"]
+        # Research frame (cohort v2); the frozen v1 cohort is passed explicitly where it applies.
+        cohort_ids = read_json(root / "data/pilot/cohort-v2.json")["battle_ids"]
     if dossier["battle_id"] not in cohort_ids:
-        raise ValueError("Dossier battle not in the pilot")
+        raise ValueError("Dossier battle not in the research frame")
     for boundary in ("tactical_replacement_at", "campaign_replacement_at"):
         if dossier[boundary] is not None:
             date.fromisoformat(dossier[boundary])

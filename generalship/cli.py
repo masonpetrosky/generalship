@@ -56,7 +56,9 @@ def report_text(root, profile, evaluation, dossiers, admission):
               f"There are {coverage['complete_candidate_engagements']} complete candidate rows and {admission['promoted_rows']} promoted rows. Missing mappings remain unknown; no canonical opening force is inferred.",
               "The ledger separates dossier availability, candidate status, side coverage and baseline eligibility. These counts are mechanical checks, not historical adjudication or forecast improvement."]
     lines += ["", "## Next research action", "",
-              f"Prioritize comparable first-pass dossiers across the complete frozen cohort. {len(dossiers)} engagements have dossiers; {total - len(dossiers)} have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.",
+              f"The frozen v1 cohort is complete: {sum(d['battle_id'] in set(read_json(root / 'data/pilot/cohort.json')['battle_ids']) for d in dossiers)}/{total} engagements have dossiers. "
+              f"The full-war research frame ([cohort v2](../docs/cohort-v2.md)) has {len(read_json(root / 'data/pilot/cohort-v2.json')['battle_ids'])} engagements; "
+              f"{len(dossiers)} have dossiers. Dossier presence, separate review, baseline eligibility and feature admission are different measures.",
               "The [Operations about Dandridge first pass](../docs/research/dandridge-first-pass-v1.md) adds all three frozen records: 27 claims, 3 explicit unknowns and 145 citations from NPS/CWSAC, Sturgis's, Martin's and Longstreet's Official Records reports. Strength attributions, the Mossy Creek withdrawal, Sturgis's differing loss and capture figures and the frozen/live casualty differences remain visible; its separate Opus review's seven corrections are applied. All frozen campaign groups now have first-pass dossiers. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).",
               "Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.",
               "Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.",
@@ -105,7 +107,8 @@ def run_build(root, write=False):
             for r in records
         ])
         (output / "pilot-report.md").write_text(report_text(root, profile, evaluation, dossiers, admission), encoding="utf-8")
-        inputs = sorted((root / "generalship").glob("*.py")) + [root / "data/sources.json", root / "data/pilot/cohort.json"]
+        inputs = sorted((root / "generalship").glob("*.py")) + [root / "data/sources.json", root / "data/pilot/cohort.json",
+                                                               root / "data/pilot/cohort-v2.json"]
         inputs += sorted((root / "data/evidence").rglob("*.json"))
         inputs += sorted(p for p in (root / "data/admission").rglob('*') if p.is_file())
         inputs += sorted(p for p in (root / "data/estimates").rglob('*') if p.is_file())
