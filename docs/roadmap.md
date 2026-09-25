@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **121 draft dossiers / 127 engagements**, with **6 without a dossier**.
+There are **123 draft dossiers / 127 engagements**, with **4 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -344,8 +344,14 @@ citations** from NPS/CWSAC and Burnside's, Longstreet's and Parke's reports in O
 Records Volume XXXI Part 1. Separate review is pending.
 Coverage is **33/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Chattanooga-Ringgold Campaign [November 1863]**, the next complete frozen
-group by earliest engagement date: **two records, TN024, GA005**.
+The [Chattanooga-Ringgold Campaign first pass](research/chattanooga-ringgold-first-pass-v1.md) adds
+both **frozen records, TN024 and GA005**, with **18 claims, 2 explicit unknowns and 82
+citations** from NPS/CWSAC, a new Cist selection and Bragg's and Cleburne's reports in
+newly pinned Official Records Volume XXXI Part 2. Separate review is pending.
+Coverage is **34/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Mine Run Campaign [November-December 1863]**, the next complete frozen
+group by earliest engagement date: **one record, VA044**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

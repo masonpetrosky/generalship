@@ -48,6 +48,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [AR008](../data/evidence/AR008.json) | 9 | 1 | 0 | 0 | draft |
 | [GA003](../data/evidence/GA003.json) | 9 | 1 | 0 | 0 | draft |
 | [GA004](../data/evidence/GA004.json) | 9 | 1 | 0 | 0 | draft |
+| [GA005](../data/evidence/GA005.json) | 9 | 1 | 0 | 0 | draft |
 | [IN001](../data/evidence/IN001.json) | 9 | 1 | 0 | 0 | draft |
 | [KY005](../data/evidence/KY005.json) | 11 | 1 | 0 | 0 | draft |
 | [KY006](../data/evidence/KY006.json) | 11 | 2 | 0 | 0 | draft |
@@ -111,6 +112,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [TN021](../data/evidence/TN021.json) | 9 | 1 | 0 | 0 | draft |
 | [TN022](../data/evidence/TN022.json) | 9 | 1 | 0 | 0 | draft |
 | [TN023](../data/evidence/TN023.json) | 9 | 1 | 0 | 0 | draft |
+| [TN024](../data/evidence/TN024.json) | 9 | 1 | 0 | 0 | draft |
 | [TN025](../data/evidence/TN025.json) | 9 | 1 | 0 | 0 | draft |
 | [TN026](../data/evidence/TN026.json) | 9 | 1 | 0 | 0 | draft |
 | [VA008](../data/evidence/VA008.json) | 10 | 5 | 0 | 0 | draft |
@@ -174,8 +176,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 121 engagements have dossiers; 6 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Knoxville Campaign first pass](../docs/research/knoxville-first-pass-v1.md) adds all three frozen records: 27 claims, 3 explicit unknowns and 123 citations from NPS/CWSAC and Burnside's, Longstreet's and Parke's Official Records reports. Opposing strength claims, Burnside's two sets of Fort Sanders losses and the Bean's Station clock and casualty differences remain visible; separate campaign review is pending. Next take the complete two-record Chattanooga-Ringgold Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 123 engagements have dossiers; 4 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Chattanooga-Ringgold Campaign first pass](../docs/research/chattanooga-ringgold-first-pass-v1.md) adds both frozen records: 18 claims, 2 explicit unknowns and 82 citations from NPS/CWSAC, Cist, and Bragg's and Cleburne's Official Records reports. Responsibility judgments, the Ringgold Gap outcome dispute and casualty differences remain visible; separate campaign review is pending. Next take the complete one-record Mine Run Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

@@ -68,6 +68,16 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Chattanooga-Ringgold Campaign first pass, 2026-09-25
+
+The [two-record memo](research/chattanooga-ringgold-first-pass-v1.md) adds **9 records**,
+bringing the registry to **564 entries / 544 raw paths**, preserving the previous
+**555/535**. Two NPS battle HTML/text pairs remain in the NPS/CWSAC family. Official
+Records Series I Volume XXXI Part 2 (Internet Archive `warofrebellion312unit`) is pinned
+with catalog metadata, full OCR and Bragg and Cleburne selections; a new Cist selection
+reuses `cist-cumberland-ocr-v1`. Character ranges and whitespace-only normalization
+reproduce all sections. No model inputs are changed.
+
 ### Knoxville Campaign first pass, 2026-09-25
 
 The [three-record memo](research/knoxville-first-pass-v1.md) adds **9 records**, bringing

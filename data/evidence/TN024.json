@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN024",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Chattanooga record (November 23–25, 1863) in the Chattanooga-Ringgold Campaign [November 1863], covering Orchard Knob, Lookout Mountain and Missionary Ridge as the live page's other names indicate. The November 26 pursuit and Ringgold Gap (GA005) are outside this record and not added. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Military Division of the Mississippi and the Army of Tennessee without counts; the live field reads zero. Bragg wrote to Davis on November 20 that the enemy was at least double his strength, and in his report says he was greatly outnumbered. Cist gives Sherman some 8,000 men in two divisions across the river by the 24th and Hooker less than 10,000 at Lookout Mountain.",
+      "rationale": "Relative claims and part-force figures; none is adopted as matched opening strength. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN024"
+          },
+          "column": "forces_text",
+          "quote": "Military Division of the Mississippi [US]; Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-tn024-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or31-2-bragg-chattanooga-selections-v1",
+          "section": "bragg-1863-11-20-davis",
+          "locator": "p.667 (OCR page markers; not checked against print)",
+          "quote": "the enemy is at least double our strength."
+        },
+        {
+          "source_id": "or31-2-bragg-chattanooga-selections-v1",
+          "section": "bragg-1863-11-30",
+          "locator": "p.664 (OCR page markers; not checked against print)",
+          "quote": "Though greatly outnumbered,"
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "plan-and-orchard-knob",
+          "locator": "p.246 (OCR page markers; not checked against print)",
+          "quote": "Sherman with two divisions of some 8,000 men was intrenched on the east bank of the Tennessee."
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "plan-critique",
+          "locator": "p.260 (OCR page markers; not checked against print)",
+          "quote": "With less than ten thousand troops,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ridge-works",
+      "dimension": "terrain",
+      "value": "Cist says the Confederates had four lines of breastworks: the first taken on the 23d, a second at the foot of Missionary Ridge, a small line halfway up a steep ascent of some five hundred yards covered with rocks and fallen timber, and the heaviest works on the crest with some fifty guns. Bragg judged the position one a line of skirmishers ought to have held, and says the attackers reached the crest exhausted by the climb.",
+      "rationale": "The works and slope existed before the assault on the 25th; their occupation and defence on the day are commander decisions not credited here. No map verification.",
+      "citations": [
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "missionary-ridge",
+          "locator": "p.254 (OCR page markers; not checked against print)",
+          "quote": "The enemy had origin- ally four lines of breastworks."
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "missionary-ridge",
+          "locator": "p.254 (OCR page markers; not checked against print)",
+          "quote": "From here to the top was a steep ascent of some five hundred yards, covered with large rocks and fallen timber."
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "missionary-ridge",
+          "locator": "p.254 (OCR page markers; not checked against print)",
+          "quote": "On the crest of the hill Bragg's men had constructed their heaviest breast- works,"
+        },
+        {
+          "source_id": "or31-2-bragg-chattanooga-selections-v1",
+          "section": "bragg-1863-11-30",
+          "locator": "p.666 (OCR page markers; not checked against print)",
+          "quote": "The position was one which ought to have been held by a line of skirmishers against any assaulting column,"
+        },
+        {
+          "source_id": "or31-2-bragg-chattanooga-selections-v1",
+          "section": "bragg-1863-11-30",
+          "locator": "p.666 (OCR page markers; not checked against print)",
+          "quote": "Those who reached the ridge did so in a condition of exhaustion from the great physical exertion in climbing,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "rain-bridges-and-guns",
+      "dimension": "logistics",
+      "value": "Cist says heavy rains and bad roads let Sherman bring only one division into position by the 21st, so Grant delayed the attack, and that a 1,350-foot pontoon bridge was built over the Tennessee. Bragg says nearly all the artillery on the broken left was abandoned and his chief of artillery reported forty pieces lost.",
+      "rationale": "Movement and material statements from interested accounts; no return inspected.",
+      "citations": [
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "plan-and-orchard-knob",
+          "locator": "p.246 (OCR page markers; not checked against print)",
+          "quote": "Owing to heavy rains and the state of the roads, Sherman was able to have but ,one division,"
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "plan-and-orchard-knob",
+          "locator": "p.246 (OCR page markers; not checked against print)",
+          "quote": "A pontoon bridge, 1,350 feet long, was then built over this river,"
+        },
+        {
+          "source_id": "or31-2-bragg-chattanooga-selections-v1",
+          "section": "bragg-1863-11-30",
+          "locator": "p.665 (OCR page markers; not checked against print)",
+          "quote": "nearly all the artillery having been shamefully abandoned by its infantry sifpport."
+        },
+        {
+          "source_id": "or31-2-bragg-chattanooga-selections-v1",
+          "section": "bragg-1863-11-30",
+          "locator": "p.667 (OCR page markers; not checked against print)",
+          "quote": "The chief of artillery reports the loss of forty pieces."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-and-view",
+      "dimension": "information",
+      "value": "Cist says Grant took Bragg's notice to remove non-combatants as cover for a withdrawal and on the 23d ordered Thomas to develop the Confederate lines. Bragg says the Federals formed their lines in plain view just beyond range, and that he learned while congratulating his troops that the line was broken on his right.",
+      "rationale": "Attributed knowledge from interested accounts; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "plan-and-orchard-knob",
+          "locator": "p.247 (OCR page markers; not checked against print)",
+          "quote": "This the latter regarded as a cover for Bragg's withdrawal of his own command,"
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "plan-and-orchard-knob",
+          "locator": "p.247 (OCR page markers; not checked against print)",
+          "quote": "Grant directed Thomas to develop the enemy's lines,"
+        },
+        {
+          "source_id": "or31-2-bragg-chattanooga-selections-v1",
+          "section": "bragg-1863-11-30",
+          "locator": "p.664 (OCR page markers; not checked against print)",
+          "quote": "They formed their lines with great deliberation just beyond the range of our guns and in plain view of our position."
+        },
+        {
+          "source_id": "or31-2-bragg-chattanooga-selections-v1",
+          "section": "bragg-1863-11-30",
+          "locator": "p.665 (OCR page markers; not checked against print)",
+          "quote": "intelligence reached me that our line was broken on my right"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "plan-and-demonstrations",
+      "dimension": "objectives",
+      "value": "Cist says Grant's plan made Sherman's attack on the north end of Missionary Ridge the main effort, with Hooker to hold Lookout Valley and later to demonstrate, and that on the 25th Thomas was ordered to carry the first line of rifle-pits and halt. NPS says the Federals captured Orchard Knob and Lookout Mountain on November 23–24.",
+      "rationale": "Stated plans from an interested history and a summary; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "plan-and-orchard-knob",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "The main attack was to be made on the 21st, at daylight, by Sherman's troops, on the north end of Mis- sionary Ridge."
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "missionary-ridge",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "to cany the first line of rifle- pits and there halt and await orders,"
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "plan-critique",
+          "locator": "p.260 (OCR page markers; not checked against print)",
+          "quote": "make a de- monstration on the rebel left at Lookout Mountain,"
+        },
+        {
+          "source_id": "nps-tn024-v1",
+          "locator": "Description",
+          "quote": "On November 23-24, Union forces struck out and captured Orchard Knob and Lookout Mountain."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Bragg says it was unexplained why Walthall's brigade on Lookout was not sustained by Stevenson, blames the shameful conduct of troops on the left, and credits Hardee and Cleburne. Cist says the soldiers went up the ridge without orders and even against orders, quotes Grant's remark that it was all right if it turned out all right, and argues Grant's plan had reserved the fighting for Sherman. The frozen commanders are General Bragg and Major General Grant; the live heading gives Lieutenant General Grant and Major General Bragg.",
+      "rationale": "Judgments are attributed to interested accounts; the frozen commanders do not receive automatic sole credit, and the live ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "or31-2-bragg-chattanooga-selections-v1",
+          "section": "bragg-1863-11-30",
+          "locator": "p.664 (OCR page markers; not checked against print)",
+          "quote": "Why this command was not sustained is yet unexplained."
+        },
+        {
+          "source_id": "or31-2-bragg-chattanooga-selections-v1",
+          "section": "bragg-1863-11-30",
+          "locator": "p.666 (OCR page markers; not checked against print)",
+          "quote": "No satisfactory excuse can possibly be given for the shameful conduct of our troops on the left"
+        },
+        {
+          "source_id": "or31-2-bragg-chattanooga-selections-v1",
+          "section": "bragg-1863-11-30",
+          "locator": "p.666 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant-General Hardee, as usual, is entitled to my warmest thanks"
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "plan-critique",
+          "locator": "p.261 (inferred: the running head reads \"201\" in OCR, between the p.260 and p.262 heads; not checked against print)",
+          "quote": "without orders, and even against orders,"
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "plan-critique",
+          "locator": "p.262 (OCR page markers; not checked against print)",
+          "quote": "it was all right if it turned out all right,"
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "plan-critique",
+          "locator": "p.259 (OCR page markers; not checked against print)",
+          "quote": "All the fighting of the battle was to be done by Sherman and all the glory thereof was to be his."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN024",
+            "belligerent": "Confederate",
+            "fullname": "Braxton Bragg"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN024",
+            "belligerent": "US",
+            "fullname": "Ulysses S. Grant"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-tn024-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant General Ulysses Grant [US]"
+        },
+        {
+          "source_id": "nps-tn024-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Braxton Bragg [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS says one of the Confederacy's two major armies was routed. Cist says the ridge was carried in six places ('sis' in OCR); Bragg says all the left except part of Bate's division was routed in rapid flight, while Hardee's command retired in good order.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN024"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tn024-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-tn024-v1",
+          "locator": "Description",
+          "quote": "One of the Confederacy's two major armies was routed."
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "missionary-ridge",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "almost simultaneously the ridge was carried in sis places."
+        },
+        {
+          "source_id": "or31-2-bragg-chattanooga-selections-v1",
+          "section": "bragg-1863-11-30",
+          "locator": "p.665 (OCR page markers; not checked against print)",
+          "quote": "was entirely routed and in rapid flight,"
+        },
+        {
+          "source_id": "or31-2-bragg-chattanooga-selections-v1",
+          "section": "bragg-1863-11-30",
+          "locator": "p.666 (OCR page markers; not checked against print)",
+          "quote": "retired in good order and unmolested."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 12,485 (US 5,815; CS 6,670); the live field reads 12,482 (US 5,815; CS 6,667). Cist gives Sherman's reported loss as 1,989 (1,492 after removing Osterhaus's 497) and Thomas's as 529 killed, 2,281 wounded and 141 missing, printed as an aggregate of 3,951 though the components sum to 2,951 (a computation here), and says the Army of the Cumberland captured 40 guns and 5,471 prisoners. Bragg says his killed and wounded were very small but his prisoners and stragglers larger.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Cist's printed aggregate does not match its components.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN024"
+          },
+          "column": "casualties_text",
+          "quote": "12,485 total (US 5,815; CS 6,670)"
+        },
+        {
+          "source_id": "nps-tn024-v1",
+          "locator": "Estimated Casualties",
+          "quote": "12482 total (US 5815; CS 6667;)"
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "losses-and-captures",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "making a total of 1,989."
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "losses-and-captures",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "a total of 1,492."
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "losses-and-captures",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "was 529 killed, 2,281 wounded, and 141 missing — an aggregate of 3,951."
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "losses-and-captures",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "There was captured by the army of the Cumberland 40 pieces of artillery,"
+        },
+        {
+          "source_id": "cist-chattanooga-ringgold-selections-v1",
+          "section": "losses-and-captures",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "and 5,471 prisoners."
+        },
+        {
+          "source_id": "or31-2-bragg-chattanooga-selections-v1",
+          "section": "bragg-1863-11-30",
+          "locator": "p.667 (OCR page markers; not checked against print)",
+          "quote": "in killed and wounded it is known to have been very small."
+        },
+        {
+          "source_id": "or31-2-bragg-chattanooga-selections-v1",
+          "section": "bragg-1863-11-30",
+          "locator": "p.667 (OCR page markers; not checked against print)",
+          "quote": "In prisoners and stragglers I fear it is much larger."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Grant's, Thomas's, Sherman's, Hooker's, Hardee's and Breckinridge's reports, the returns and the Lookout Mountain passages of Cist remain deferred.",
+    "NPS/CWSAC is one family. Cist is an interested Union staff history. Bragg's and Cleburne's reports, printed in Official Records Series I, Volume XXXI, Part 2, are separate families of interested Confederate commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
