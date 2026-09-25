@@ -270,9 +270,21 @@ they were not registered again, and the duplicate catalog records were dropped.
 **Author groups.** Magruder reuses `magruder-big-bethel-reports`. Sibley, Sully and Crocker each
 have one group across campaigns. `sibley-sioux-reports` and `sibley-new-mexico-1862-reports` both
 carry the author string "Henry H. Sibley" but are separate groups: the reports come from opposite
-sides of different campaigns. The committee report and Smith's testimony, printed in one volume,
-are treated as separate families. No Dakota, Shoshone, Cheyenne or Arapaho account was obtained.
-No model inputs are changed.
+sides of different campaigns. Neither the author strings nor the frozen commander table separates
+the two: the table gives the identical full name "Henry Hastings Sibley" to the Confederate NM001
+commander and to the Union MN002 and ND001–ND003 commander. The groups are kept apart on the
+reports' content; whether the NM001 name is a frozen-table error is not resolved. The committee
+report and Smith's testimony, printed in one volume, are treated as separate families. No Dakota,
+Shoshone, Cheyenne or Arapaho account was obtained; no Confederate account of Palmito Ranch was
+found in the inspected report list. No model inputs are changed.
+
+**Review correction (frontier review), 2026-09-25.** Six metadata-only successors supersede
+`or15-davis-galveston-selections-v1` and `or15-magruder-galveston-selections-v1` (FRC-01, stale
+parent-registration note); `ia-bancroft-utah-metadata-v1`, `bancroft-utah-ocr-v1` and
+`bancroft-utah-bear-river-selections-v1` (FRC-07, unsupported "First edition"; the selection is
+reparented to `bancroft-utah-ocr-v2`); and `joint-committee-sand-creek-report-selections-v1`
+(FRC-14, the report's dependence on Smith's testimony). Each successor is the `-v2` of its record.
+Raw files, hashes and ranges are unchanged.
 
 ### 1864 Western small operations first passes (cohort v2), 2026-09-25
 

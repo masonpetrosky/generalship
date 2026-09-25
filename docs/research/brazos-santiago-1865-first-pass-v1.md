@@ -2,12 +2,12 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). The single
 **frozen record** in **Expedition from Brazos Santiago [May 1865]** now has a draft dossier: **9
-claims, 1 explicit null unknown and 40 citation occurrences**. All seven dimensions are represented.
-The dossier is a draft; no features are admitted.
+claims, 1 explicit null unknown and 41 citation occurrences** (40 before the review correction
+below). All seven dimensions are represented. The dossier is a draft; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| TX005 — Palmito Ranch | 1865-05-12 to 1865-05-13 | 9 | 1 | 40 | 3 |
+| TX005 — Palmito Ranch | 1865-05-12 to 1865-05-13 | 9 | 1 | 41 | 3 |
 
 It was drafted in a parallel worktree with eight other frontier and Texas-coast campaigns. Dossier
 presence is not first-pass acceptance, separate review or model eligibility.
@@ -69,8 +69,33 @@ commander ranking is introduced. No model input, frozen baseline or admission pr
 ## Validation
 
 `python3 -m generalship check` passes and `python3 -m unittest discover -s tests` passes (134 tests)
-in the worktree.
+in the worktree. After the review correction, both pass again (134 tests) in the main repository,
+and `gs.MISSES` is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the nine frontier
+and Texas-coast first passes together at prepared commit `d57de7e` as
+`frontier-review-d57de7e-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": fifteen
+required findings (FRC-01 to FRC-15) and fourteen advisories (FRA-01 to FRA-14) across the nine
+passes. It is an AI review within its stated scope, not human historical adjudication, proof of
+source independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder. Each changed dossier's reviewed version is archived byte-for-byte as
+`data/evidence/history/<ID>.v1.json` and linked by `supersedes` under the revision
+`brazos-santiago-1865-review-correction-2026-09-25`.
+
+- **FRA-03 (applied in the dossier).** TX005 `reported-force-scope` records that Barrett wrote in August
+  1865 after reports in detail had gone to New Orleans, so his column figures may depend on Branson's
+  and their agreement on the 250 and 50 is not independent. The Barrett record's dependency note is not
+  revised.
+- **FRA-02 (not adopted here).** The note that no Confederate account of Palmito Ranch was found in the
+  inspected report list belongs in `docs/sources.md`; the wording is left to the primary. This memo
+  already says so.
+
+No required finding concerns this pass. TX005 is revised
+(`brazos-santiago-1865-review-correction-2026-09-25`). No source record is added by the correction.

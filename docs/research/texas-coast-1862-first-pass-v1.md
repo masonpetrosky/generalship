@@ -2,12 +2,13 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both **frozen
 records** in **Operations to Blockade the Texas Coast [September 1862-January 1863]** now have draft
-dossiers: **18 claims, 2 explicit null unknowns and 69 citation occurrences**. All seven dimensions
-are represented in each record. All dossiers are drafts; no features are admitted.
+dossiers: **18 claims, 2 explicit null unknowns and 76 citation occurrences** (69 before the review
+correction below). All seven dimensions are represented in each record. All dossiers are drafts; no
+features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| TX001 — Sabine Pass | 1862-09-24 to 1862-09-25 | 9 | 1 | 35 | 4 |
+| TX001 — Sabine Pass | 1862-09-24 to 1862-09-25 | 9 | 1 | 42 | 4 |
 | TX002 — Galveston | 1862-10-04 | 9 | 1 | 34 | 3 |
 
 It was drafted in a parallel worktree with eight other frontier and Texas-coast campaigns. Dossier
@@ -41,17 +42,16 @@ Galveston reports with Documents A and B, the opening of Hooper's report and of 
 reply. Not inspected: Irvine's and Keith's reports (none seen), Pennington's report, Wainwright's,
 Guest's and Law's reports, returns and charts. Stop after this batch.
 
-This pass adds **13 source records**: two NPS HTML/text pairs; OR XV catalog metadata and full OCR
-(`ia-or15-illinois-metadata-v1`, `or15-illinois-ocr-v1`) and ORN 19 catalog metadata and full OCR
-(`ia-orn19-trent-metadata-v1`, `orn19-trent-ocr-v1`); and the selections
+This pass adds **9 source records**: two NPS HTML/text pairs and the selections
 `or15-spaight-sabine-pass-selections-v1`, `or15-debray-sabine-pass-selections-v1`,
 `or15-cook-galveston-selections-v1`, `orn19-crocker-sabine-pass-selections-v1` and
 `orn19-renshaw-galveston-selections-v1`. The two parent OCR files are byte-identical to the copies a
-parallel Gulf pass fetched and use the same record IDs and archival identifiers, so the primary can
-deduplicate them at merge. New author groups: `spaight-sabine-reports`, `debray-texas-reports`,
-`cook-galveston-report`, `crocker-texas-coast-reports` (also used for Crocker's 1863 report) and
-`renshaw-galveston-reports`; the containers are `or-series-i-volume-xv` and `orn-series-i-volume-19`.
-No earlier registry group exists for these authors in the main registry.
+parallel Gulf pass fetched and use the same record IDs and archival identifiers, and were
+deduplicated at merge; the selections reuse `or15-illinois-ocr-v1` and `orn19-trent-ocr-v1`. New
+author groups: `spaight-sabine-reports`, `debray-texas-reports`, `cook-galveston-report`,
+`crocker-texas-coast-reports` (also used for Crocker's 1863 report) and `renshaw-galveston-reports`;
+the containers are `or-series-i-volume-xv` and `orn-series-i-volume-19`. No earlier registry group
+exists for these authors in the main registry.
 
 ## Decisions and limits
 
@@ -85,8 +85,40 @@ changed.
 ## Validation
 
 `python3 -m generalship check` passes and `python3 -m unittest discover -s tests` passes (134 tests)
-in the worktree.
+in the worktree. After the review correction, both pass again (134 tests) in the main repository,
+and `gs.MISSES` is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the nine frontier
+and Texas-coast first passes together at prepared commit `d57de7e` as
+`frontier-review-d57de7e-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": fifteen
+required findings (FRC-01 to FRC-15) and fourteen advisories (FRA-01 to FRA-14) across the nine
+passes. It is an AI review within its stated scope, not human historical adjudication, proof of
+source independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder. Each changed dossier's reviewed version is archived byte-for-byte as
+`data/evidence/history/<ID>.v1.json` and linked by `supersedes` under the revision
+`texas-coast-1862-review-correction-2026-09-25`.
+
+- **FRC-01 (accepted, applied).** The record count is corrected from 13 to 9 and the merge
+  deduplication of the Volume XV and Navies 19 parents is stated above.
+- **FRC-02 (accepted, applied).** TX001 `recorded-result` now records that Crocker's day-by-day account
+  puts the Henry Janes's crossing and the attack one day later than Spaight's fire "early the next
+  morning" after the vessels anchored on the 23rd, and that Debray relays heavy cannonading "this
+  morning" on the 25th. The frozen September 24–25 interval is retained; the dates are not reconciled.
+- **FRC-03 (accepted, applied).** TX001 `express-and-messenger` now dates Spaight's "no information as
+  to the force of the enemy" to September 26, after the evacuation, with the vessels anchored off the
+  town; it is no longer presented as pre-battle intelligence.
+- **FRA-12 (applied).** The express's "one gunboat and three or four transports" is recorded against
+  Spaight's two sail vessels and a steam propeller, and Debray's relief force of about 900 is recorded
+  as context, not engaged.
+- **FRA-07 (applied).** TX002's statement about the fall of Galveston is attributed to the frozen
+  description it cites, not to NPS.
+
+TX001 and TX002 are revised (`texas-coast-1862-review-correction-2026-09-25`). No source record is
+added by the correction.

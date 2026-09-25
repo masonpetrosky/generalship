@@ -1,13 +1,14 @@
 # Sully's Expedition Against the Sioux, 1864: bounded first pass
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). The single
-**frozen record** in **Sully's Expedition Against the Sioux in Dakota Territory [July 1864]** now has
-a draft dossier: **9 claims, 1 explicit null unknown and 37 citation occurrences**. All seven
-dimensions are represented. The dossier is a draft; no features are admitted.
+**frozen record** in **Sully's Expedition Against the Sioux in Dakota Territory [July 1864]** now
+has a draft dossier: **9 claims, 1 explicit null unknown and 39 citation occurrences** (37 before
+the review correction below). All seven dimensions are represented. The dossier is a draft; no
+features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| ND005 — Killdeer Mountain | 1864-07-28 to 1864-07-29 | 9 | 1 | 37 | 4 |
+| ND005 — Killdeer Mountain | 1864-07-28 to 1864-07-29 | 9 | 1 | 39 | 4 |
 
 It was drafted in a parallel worktree with eight other frontier and Texas-coast campaigns. Dossier
 presence is not first-pass acceptance, separate review or model eligibility.
@@ -66,8 +67,29 @@ commander ranking is introduced. No model input, frozen baseline or admission pr
 ## Validation
 
 `python3 -m generalship check` passes and `python3 -m unittest discover -s tests` passes (134 tests)
-in the worktree.
+in the worktree. After the review correction, both pass again (134 tests) in the main repository,
+and `gs.MISSES` is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the nine frontier
+and Texas-coast first passes together at prepared commit `d57de7e` as
+`frontier-review-d57de7e-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": fifteen
+required findings (FRC-01 to FRC-15) and fourteen advisories (FRA-01 to FRA-14) across the nine
+passes. It is an AI review within its stated scope, not human historical adjudication, proof of
+source independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder. Each changed dossier's reviewed version is archived byte-for-byte as
+`data/evidence/history/<ID>.v1.json` and linked by `supersedes` under the revision
+`sully-1864-review-correction-2026-09-25`.
+
+- **FRA-04 (applied).** NPS's quotation of Sully ("strongly posted in wooded country ... deep, impassible
+  ravines") and its "running fight of almost nine miles" are recorded as NPS statements not found in
+  the inspected July 31 report.
+
+No required finding concerns this pass. ND005 is revised (`sully-1864-review-correction-2026-09-25`).
+No source record is added by the correction.

@@ -2,12 +2,13 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). The single
 **frozen record** in **Operations Against Galveston [December 1862-January 1863]** now has a draft
-dossier: **10 claims, 1 explicit null unknown and 51 citation occurrences**. All seven dimensions are
-represented. The dossier is a draft; no features are admitted.
+dossier: **10 claims, 1 explicit null unknown and 53 citation occurrences** (51 before the review
+correction below). All seven dimensions are represented. The dossier is a draft; no features are
+admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| TX003 — Galveston | 1863-01-01 | 10 | 1 | 51 | 3 |
+| TX003 — Galveston | 1863-01-01 | 10 | 1 | 53 | 3 |
 
 It was drafted in a parallel worktree with eight other frontier and Texas-coast campaigns. Dossier
 presence is not first-pass acceptance, separate review or model eligibility.
@@ -18,7 +19,7 @@ Read the frozen battle, force and commander rows and the retained NPS page in fu
 the Arnold tables are one family.
 
 - **Official Records, Series I, Volume XV** (1886; University of Illinois scan
-  `warofrebellion15unit`, registered with the Texas coast 1862 pass):
+  `warofrebellion15unit`, registered by an earlier Gulf pass as `or15-illinois-ocr-v1`):
   - **Davis's** January 10, 1863 report by the adjutant of the Forty-second Massachusetts, with the
     compiler's report list (No. 2, pp.199 and 206–207);
   - **Magruder's** reports of January 1 (with a January 3 postscript) and January 2, 1863, and his
@@ -66,8 +67,39 @@ commander ranking is introduced. No model input, frozen baseline or admission pr
 ## Validation
 
 `python3 -m generalship check` passes and `python3 -m unittest discover -s tests` passes (134 tests)
-in the worktree.
+in the worktree. After the review correction, both pass again (134 tests) in the main repository,
+and `gs.MISSES` is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the nine frontier
+and Texas-coast first passes together at prepared commit `d57de7e` as
+`frontier-review-d57de7e-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": fifteen
+required findings (FRC-01 to FRC-15) and fourteen advisories (FRA-01 to FRA-14) across the nine
+passes. It is an AI review within its stated scope, not human historical adjudication, proof of
+source independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder. Each changed dossier's reviewed version is archived byte-for-byte as
+`data/evidence/history/<ID>.v1.json` and linked by `supersedes` under the revision
+`galveston-1863-review-correction-2026-09-25`.
+
+- **FRC-01 (accepted, applied).** The parent reference above is corrected. The Davis and Magruder
+  selections' dependency notes said the Volume XV parent was registered in the Texas coast 1862
+  batch; `metadata_only` successors `or15-davis-galveston-selections-v2` and
+  `or15-magruder-galveston-selections-v2` say it reuses `or15-illinois-ocr-v1`, and TX003 cites them.
+  Raw bytes and ranges are unchanged.
+- **FRC-04 (accepted, applied).** TX003 `casualty-records` now records the Union naval dead: Davis's
+  Commander Renshaw, four chief officers and six men blown up in the Westfield, and Magruder's Captain
+  Wainwright and Lieutenant Lea of the Harriet Lane, outside Davis's statement about his troops.
+- **FRC-05 (accepted, applied).** `guns-rail-and-stores` no longer supplies an agent: the railway track
+  "had been permitted to remain".
+- **FRA-08 (applied).** "Prisoner counts include naval crews" is softened to "may include".
+- **FRA-14 (not adopted).** Renaming `magruder-big-bethel-reports` would need a registry-wide
+  documented migration; the group is kept, as the memo already explains.
+
+TX003 is revised (`galveston-1863-review-correction-2026-09-25`). The correction adds two
+`metadata_only` source records.

@@ -2,15 +2,16 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). All **four
 frozen records** in **Operations Against the Sioux in North Dakota [July 1863]** now have draft
-dossiers: **36 claims, 4 explicit null unknowns and 133 citation occurrences**. All seven dimensions
-are represented in each record. All dossiers are drafts; no features are admitted.
+dossiers: **36 claims, 4 explicit null unknowns and 143 citation occurrences** (133 before the
+review correction below). All seven dimensions are represented in each record. All dossiers are
+drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| ND001 — Big Mound | 1863-07-24 to 1863-07-25 | 9 | 1 | 38 | 4 |
-| ND002 — Dead Buffalo Lake | 1863-07-26 | 9 | 1 | 23 | 4 |
-| ND003 — Stony Lake | 1863-07-28 | 9 | 1 | 25 | 3 |
-| ND004 — Whitestone Hill | 1863-09-03 to 1863-09-05 | 9 | 1 | 47 | 4 |
+| ND001 — Big Mound | 1863-07-24 to 1863-07-25 | 9 | 1 | 40 | 4 |
+| ND002 — Dead Buffalo Lake | 1863-07-26 | 9 | 1 | 24 | 4 |
+| ND003 — Stony Lake | 1863-07-28 | 9 | 1 | 27 | 3 |
+| ND004 — Whitestone Hill | 1863-09-03 to 1863-09-05 | 9 | 1 | 52 | 4 |
 
 The frozen campaign label reads July 1863, but ND004 is dated September 3–5; the label is kept. It
 was drafted in a parallel worktree with eight other frontier and Texas-coast campaigns. Dossier
@@ -74,8 +75,9 @@ report). New author groups: `mcphaill-sioux-report`, `crooks-sioux-report`,
   87; McPhaill's 31 killed and 3 killed and 4 wounded in his regiment across July 24 and 26); the
   Whitestone Hill force figures; and the Whitestone Hill casualties (frozen 822, US 72 and I 750;
   live 620; Sully's 20 killed and 38 wounded; 100, 150 or over 200 Indian dead by different
-  estimates; House's about 100; Hall's 6 killed on September 5). Sully's 156 prisoners (32 men, 124
-  women and children) are recorded separately from casualties.
+  estimates; House's about 100; Hall's 6 killed on September 5, against Sully's 4 killed in the
+  ambuscade of a party sent to find Surgeon Bowen). Sully's 156 prisoners (32 men, 124 women and
+  children) are recorded separately from casualties.
 - **Command roles.** The frozen commanders are Brigadier Generals Sibley and Sully and Inkpaduta (no
   rank; the live pages tag him [CS], not adopted). **None of the inspected reports names Inkpaduta**,
   so his role is not established in this pass. No listed commander receives automatic sole credit.
@@ -96,8 +98,45 @@ changed.
 ## Validation
 
 `python3 -m generalship check` passes and `python3 -m unittest discover -s tests` passes (134 tests)
-in the worktree.
+in the worktree. After the review correction, both pass again (134 tests) in the main repository,
+and `gs.MISSES` is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the nine frontier
+and Texas-coast first passes together at prepared commit `d57de7e` as
+`frontier-review-d57de7e-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": fifteen
+required findings (FRC-01 to FRC-15) and fourteen advisories (FRA-01 to FRA-14) across the nine
+passes. It is an AI review within its stated scope, not human historical adjudication, proof of
+source independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder. Each changed dossier's reviewed version is archived byte-for-byte as
+`data/evidence/history/<ID>.v1.json` and linked by `supersedes` under the revision
+`sioux-dakota-1863-review-correction-2026-09-25`.
+
+- **FRC-08 (accepted, applied).** ND001 `casualty-records` now says Sibley's 3 cavalrymen killed and 4
+  wounded is his column's loss in actual combat for the whole expedition, like his 150; it is not
+  assigned to Big Mound and may be the same casualties as McPhaill's nominal-list 3 and 4.
+- **FRC-09 (accepted, applied).** ND003: Sibley's 10,000 souls rests on "various sources" including the
+  Indians' own conversations with his half-breed scouts, not prisoners.
+- **FRC-10 (accepted, applied).** ND004 `ravines` (`inherited`) no longer carries the defenders' line of
+  battle, and its location clause is cited (p.560). Sully's line-of-battle statement is kept in the
+  `unresolved` `command-roles` claim.
+- **FRC-11 (accepted, applied).** ND004 `casualty-records` adds Sully's 4 killed in the ambuscade of a
+  party sent to find Surgeon Bowen against Hall's 6; they appear to describe the same September 5
+  skirmish and are not reconciled.
+- **FRA-09 (applied).** ND003 records the bands Sibley names (Little Crow's remnant, Sissetons,
+  Cut-heads, Chank-ton-ais) and that this is not evidence about Inkpaduta.
+- **FRA-10 (applied).** McPhaill's July 24 pursuit reached Dead Buffalo Lake; ND001 and ND002 cite it,
+  and his 31 killed stays unassigned between them.
+- **FRA-11 (applied).** ND004 records Hall's "northeasterly" against NPS's "northwest", and that
+  Sully's Indian reports of over 200 and House's about 100 are undated.
+- **FRA-01 (not adopted here).** See the Sioux uprising 1862 memo; the note belongs in
+  `docs/sources.md`.
+
+ND001–ND004 are revised (`sioux-dakota-1863-review-correction-2026-09-25`). No source record is added
+by the correction.

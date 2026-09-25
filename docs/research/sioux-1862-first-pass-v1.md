@@ -2,13 +2,14 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both **frozen
 records** in **Operations to Suppress the Sioux Uprising [August-September 1862]** now have draft
-dossiers: **18 claims, 2 explicit null unknowns and 84 citation occurrences**. All seven dimensions
-are represented in each record. All dossiers are drafts; no features are admitted.
+dossiers: **18 claims, 2 explicit null unknowns and 85 citation occurrences** (84 before the review
+correction below). All seven dimensions are represented in each record. All dossiers are drafts; no
+features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
 | MN001 — Fort Ridgely | 1862-08-20 to 1862-08-22 | 9 | 1 | 42 | 3 |
-| MN002 — Wood Lake | 1862-09-23 | 9 | 1 | 42 | 3 |
+| MN002 — Wood Lake | 1862-09-23 | 9 | 1 | 43 | 3 |
 
 It was drafted in a parallel worktree with eight other frontier and Texas-coast campaigns. Dossier
 presence is not first-pass acceptance, separate review or model eligibility.
@@ -37,13 +38,14 @@ Sibley's September dispatches in the correspondence were seen only as text-searc
 inspected: any Dakota account, the returns of the expedition, histories of the war (for example
 Heard's 1863 history) and maps. No targeted follow-up was used. Stop after this batch.
 
-This pass adds **10 source records**: two NPS HTML/text pairs; OR XIII catalog metadata and full OCR
-(`ia-or13-illinois-metadata-v1`, `or13-illinois-ocr-v1`); and the selections
+This pass adds **8 source records**: two NPS HTML/text pairs and the selections
 `or13-sheehan-fort-ridgely-selections-v1`, `or13-jones-fort-ridgely-selections-v1`,
-`or13-sibley-wood-lake-selections-v1` and `or13-marshall-wood-lake-selections-v1`. New author groups:
-`sheehan-fort-ridgely-report`, `john-jones-fort-ridgely-report`, `sibley-sioux-reports` (also used
-for Sibley's 1863 Dakota report) and `marshall-sioux-reports`; the container is
-`or-series-i-volume-xiii`. No earlier registry group exists for these authors.
+`or13-sibley-wood-lake-selections-v1` and `or13-marshall-wood-lake-selections-v1`. New author
+groups: `sheehan-fort-ridgely-report`, `john-jones-fort-ridgely-report`, `sibley-sioux-reports`
+(also used for Sibley's 1863 Dakota report) and `marshall-sioux-reports`; the container is
+`or-series-i-volume-xiii`. No earlier registry group exists for these authors. The selections reuse
+the registered Volume XIII parent `or13-illinois-ocr-v1`; this pass's byte-identical copy was not
+registered again.
 
 ## Decisions and limits
 
@@ -79,8 +81,32 @@ changed.
 ## Validation
 
 `python3 -m generalship check` passes and `python3 -m unittest discover -s tests` passes (134 tests)
-in the worktree.
+in the worktree. After the review correction, both pass again (134 tests) in the main repository,
+and `gs.MISSES` is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the nine frontier
+and Texas-coast first passes together at prepared commit `d57de7e` as
+`frontier-review-d57de7e-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": fifteen
+required findings (FRC-01 to FRC-15) and fourteen advisories (FRA-01 to FRA-14) across the nine
+passes. It is an AI review within its stated scope, not human historical adjudication, proof of
+source independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder. Each changed dossier's reviewed version is archived byte-for-byte as
+`data/evidence/history/<ID>.v1.json` and linked by `supersedes` under the revision
+`sioux-1862-review-correction-2026-09-25`.
+
+- **FRC-01 (accepted, applied).** The record count is corrected from 10 to 8 above, and the reuse of
+  the registered Volume XIII parent is stated.
+- **FRA-13 (applied).** MN002 `command-roles` now also cites Sibley's statement that Marshall "led his
+  men to a charge and cleared the ravine" (p.279).
+- **FRA-01 (not adopted here).** The Sibley author-group note belongs in `docs/sources.md`, which this
+  pass does not edit; the proposed wording is left to the primary. The groups are unchanged.
+
+MN001 is unchanged by the review. MN002 is revised (`sioux-1862-review-correction-2026-09-25`). No
+source record is added by the correction.

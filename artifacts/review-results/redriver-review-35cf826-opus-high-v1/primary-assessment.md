@@ -17,6 +17,9 @@ corrected dossiers.
 - **RRC-4** (accepted applied): LA023 bayou-swamp-and-flooded-river: verified the May 18 dispatch's 'no exit' constraint concerns the Confederate raiders' inability to bring off the wagons cut out on May 17. Value corrected; citation [1] lengthened to include 'on which was the Sixteenth Corps,'; De Glaize swamps sentence added (p.594); rationale appended.
 - **RRC-5** (accepted applied): AR013 reported-force-scope: verified in Price (p.780) that Gano's 500 reinforced Marmaduke on the prairie and Tandy Walker's ~1,000 came up with Maxey before the April 13 Moscow attack. Value corrected per the reviewer; the two Price citations lengthened to the reviewer's quotes. Camden memo's strength list clarified.
 - **RRC-6** (accepted applied): AR015 casualty-records: verified Britton relays the 250 and 800-900 figures as Colonel Drake's report, including 'about one half of these were Confederates'. Value corrected per the reviewer; two citations added (pp.294, 295). Civilian-dead rationale kept. Camden memo's dispute list and atrocity paragraph corrected.
+
+## Advisories
+
 - **RRA-1** (accepted applied): LA018 and LA019 casualty-records: Taylor's 'with a loss of at least 10,000 men.' (p.569) added to both values and cited as an interested two-day claim, not split or added. Memo two-day-totals bullet updated.
 - **RRA-2** (accepted applied): LA020 command-roles: 'evening' replaced by Taylor's 'G p. m.' (OCR; probably 6 p.m.) of the 11th against Irwin's 'early on the morning of the nth'; Irwin quote cited (p.325); rationale says the timing is unresolved. Status unchanged.
 - **RRA-3** (accepted applied): LA020 reported-force-scope: Irwin's six gunboats/twenty transports dated to the April 7 ascent from Grand Ecore and Taylor's ~30 vessels to the April 9 passage of Grand Bayou Landing; rationale says neither counts the fleet at Blair's Landing on April 12. Two citations added (Irwin p.295, Taylor p.570). Memo dispute line updated.
@@ -27,10 +30,6 @@ corrected dossiers.
 - **RRA-8** (accepted applied): Partly adopted: verified in the selected preface ('Having participated in the operations described'; National Tribune serialization). Recorded in the Camden dossiers' common open question (touches all five, so AR016 is revised for this alone) and the memo, without claiming Britton's presence on the Camden Expedition. Registry dependency note not revised: the parent britton-civil-war-border-2-ocr-v1 is shared with the Price pass and must not change, and a selection-only successor would diverge from it.
 - **RRA-9** (accepted applied): LA018 casualty-records rationale: Irwin's one-day 2,186 is not the War Department return, which his appendix says could not separate the days; worded as 'basis not stated in the inspected passage' rather than the reviewer's 'Irwin's own'. Memo updated.
 - **RRA-10** (kept as is): No follow-up recommended under the stopping rule; the RRC-1 rationale and memo record Sub-inclosure No. 1 as read and not selected.
-
-## Advisories
-
-
 
 This AI review is a separate analysis, not historical adjudication or proof of source independence.
 The dossiers remain drafts; no model input changes.

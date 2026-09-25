@@ -1,13 +1,14 @@
 # Expedition from Camp Douglas to Cache Valley, 1863: bounded first pass
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). The single
-**frozen record** in **Expedition from Camp Douglas, Utah, to Cache Valley, Idaho [January 1863]** now
-has a draft dossier: **9 claims, 1 explicit null unknown and 50 citation occurrences**. All seven
-dimensions are represented. The dossier is a draft; no features are admitted.
+**frozen record** in **Expedition from Camp Douglas, Utah, to Cache Valley, Idaho [January 1863]**
+now has a draft dossier: **9 claims, 1 explicit null unknown and 52 citation occurrences** (50
+before the review correction below). All seven dimensions are represented. The dossier is a draft;
+no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| ID001 — Bear River | 1863-01-29 | 9 | 1 | 50 | 3 |
+| ID001 — Bear River | 1863-01-29 | 9 | 1 | 52 | 3 |
 
 It was drafted in a parallel worktree with eight other frontier and Texas-coast campaigns. Dossier
 presence is not first-pass acceptance, separate review or model eligibility.
@@ -77,8 +78,38 @@ commander ranking is introduced. No model input, frozen baseline or admission pr
 ## Validation
 
 `python3 -m generalship check` passes and `python3 -m unittest discover -s tests` passes (134 tests)
-in the worktree.
+in the worktree. After the review correction, both pass again (134 tests) in the main repository,
+and `gs.MISSES` is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the nine frontier
+and Texas-coast first passes together at prepared commit `d57de7e` as
+`frontier-review-d57de7e-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": fifteen
+required findings (FRC-01 to FRC-15) and fourteen advisories (FRA-01 to FRA-14) across the nine
+passes. It is an AI review within its stated scope, not human historical adjudication, proof of
+source independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder. Each changed dossier's reviewed version is archived byte-for-byte as
+`data/evidence/history/<ID>.v1.json` and linked by `supersedes` under the revision
+`cache-valley-1863-review-correction-2026-09-25`.
+
+- **FRC-06 (accepted, applied).** (a) ID001 `casualty-records` now cites Bancroft's summary of the Logan
+  branch record's 200 killed (p.632). (b) `stated-aims` no longer says the marshal held warrants: Connor
+  says Chief Justice Kinney made a requisition for troops to arrest Bear Hunter, San Pitch and Sagwich,
+  and that he told the marshal he did not intend to take any prisoners (p.187).
+- **FRC-07 (accepted, applied).** The Bancroft records' edition said "First edition", which neither the
+  retained catalog (no edition field; "Also published separately, 1890") nor the title page supports.
+  `metadata_only` successors `ia-bancroft-utah-metadata-v2`, `bancroft-utah-ocr-v2` and
+  `bancroft-utah-bear-river-selections-v2` (reparented to `bancroft-utah-ocr-v2`) read "Printed as Works
+  vol. XXVI (1889); the catalog notes the work was 'Also published separately, 1890'; edition priority
+  is not established", and ID001 cites the selection successor. Raw bytes and ranges are unchanged.
+
+The Bear River characterizations are unchanged: the result stays `disputed`, with the frozen, NPS,
+Wright and Bancroft wording quoted and none adopted. ID001 is revised
+(`cache-valley-1863-review-correction-2026-09-25`). The correction adds three `metadata_only` source
+records.

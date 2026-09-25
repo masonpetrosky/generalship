@@ -2,12 +2,12 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). The single
 **frozen record** in **Sand Creek Campaign [November 1864]** now has a draft dossier: **9 claims, 1
-explicit null unknown and 69 citation occurrences**. All seven dimensions are represented. The
-dossier is a draft; no features are admitted.
+explicit null unknown and 82 citation occurrences** (69 before the review correction below). All
+seven dimensions are represented. The dossier is a draft; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| CO001 — Sand Creek | 1864-11-29 to 1864-11-30 | 9 | 1 | 69 | 4 |
+| CO001 — Sand Creek | 1864-11-29 to 1864-11-30 | 9 | 1 | 82 | 4 |
 
 It was drafted in a parallel worktree with eight other frontier and Texas-coast campaigns. Dossier
 presence is not first-pass acceptance, separate review or model eligibility.
@@ -29,11 +29,13 @@ the Arnold tables are one family.
     disputed account of the attack. Smith was the government interpreter trading in the village.
 
 The committee report and Smith's testimony share a container but are separate families: the
-committee is a political body stating findings, Smith an interested eyewitness. Read, not selected:
-the opening of Anthony's No. 2 report. Not inspected: the company reports (Nos. 3–8), Wynkoop's No. 9
-investigation with its statements and affidavits (OR XLI, part 1, pp.951–972), the other testimony
-in the committee's volume (including Anthony, the Colleys, Evans and Chivington's own answers), the
-1867 military commission record, any Cheyenne or Arapaho account and maps. Stop after this record.
+committee is a political body stating findings, Smith an interested eyewitness. The committee report
+draws on the testimony it took, including Smith's; agreement between them is not independent
+corroboration. Read, not selected: the opening of Anthony's No. 2 report. Not inspected: the company
+reports (Nos. 3–8), Wynkoop's No. 9 investigation with its statements and affidavits (OR XLI, part
+1, pp.951–972), the other testimony in the committee's volume (including Anthony, the Colleys, Evans
+and Chivington's own answers), the 1867 military commission record, any Cheyenne or Arapaho account
+and maps. Stop after this record.
 
 This pass adds **7 source records**: one NPS HTML/text pair; catalog metadata and full OCR of the
 committee volume (`ia-massacre-cheyenne-metadata-v1`, `massacre-cheyenne-ocr-v1`); and the selections
@@ -80,7 +82,9 @@ group for the Joint Committee or these authors was found.
 - **Command roles.** The frozen commanders are Colonel Chivington and Black Kettle (no rank). The live
   page gives Chivington as major general and tags Black Kettle [CS]; neither is adopted. No listed
   commander receives automatic sole credit.
-- **No Cheyenne or Arapaho account was inspected.**
+- **No Cheyenne or Arapaho account was inspected.** The camp's numbers, status, aims and losses
+  therefore rest on Chivington's reports, the committee's findings (which draw on the testimony it
+  took) and Smith, a white interpreter trading in the village, with NPS as a modern summary.
 - **Tags.** No claim is tagged `inherited`; the creek-bank claim also records deployments. Outcomes
   are `post_outcome`.
 
@@ -90,8 +94,44 @@ commander ranking is introduced. No model input, frozen baseline or admission pr
 ## Validation
 
 `python3 -m generalship check` passes and `python3 -m unittest discover -s tests` passes (134 tests)
-in the worktree.
+in the worktree. After the review correction, both pass again (134 tests) in the main repository,
+and `gs.MISSES` is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the nine frontier
+and Texas-coast first passes together at prepared commit `d57de7e` as
+`frontier-review-d57de7e-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": fifteen
+required findings (FRC-01 to FRC-15) and fourteen advisories (FRA-01 to FRA-14) across the nine
+passes. It is an AI review within its stated scope, not human historical adjudication, proof of
+source independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder. Each changed dossier's reviewed version is archived byte-for-byte as
+`data/evidence/history/<ID>.v1.json` and linked by `supersedes` under the revision
+`sand-creek-1864-review-correction-2026-09-25`.
+
+- **FRC-13 (accepted, applied).** (a) `recorded-result` now cites the committee's own word ("how
+  unprovoked and unwarranted was this massacre", p.iv). (b) `reported-force-scope` cites Smith's "About
+  500 ... five to a lodge" (p.6). (c) `command-roles` adds Smith's testimony that Chivington, told of
+  the Indians' character on the day of the attack, said his orders were positive to attack them, and
+  that Smith presumed the orders came from General Curtis (p.8).
+- **FRC-14 (accepted, applied).** A `metadata_only` successor
+  `joint-committee-sand-creek-report-selections-v2` records that the committee's account of Black
+  Kettle's flags and of the interpreter being fired on closely follows Smith's testimony, which it cites
+  generally, so their agreement is not independent corroboration; CO001 cites it, and the dossier's
+  family note and the paragraph above say so. They remain separate families for the effort ceiling.
+- **FRC-15 (accepted, applied).** The consequence of the missing Cheyenne and Arapaho account is stated
+  above.
+- **FRA-06 (applied).** CO001 now records Smith's two statements on the dead under the bank (the greater
+  portion women and children; perhaps one-half men); his statement that small children were taken
+  prisoners near the camp, against Chivington's "I captured no prisoners"; his account of the killing
+  of his son Jack in his lodge the afternoon after the attack, within the frozen interval; and the
+  committee's statement that Chivington had no authority over Anthony.
+
+The characterizations are unchanged: the result stays `disputed`, Chivington's and the committee's and
+Smith's words are quoted as theirs, and none is adopted. CO001 is revised
+(`sand-creek-1864-review-correction-2026-09-25`). The correction adds one `metadata_only` source record.

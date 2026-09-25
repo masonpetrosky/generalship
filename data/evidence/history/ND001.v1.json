@@ -286,8 +286,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads US unknown and I 13; the live field reads 87 (US 7; CS 80). McPhaill says 31 Indians are known to have been killed by his regiment in the series of fights, and the compiler's note on his list shows 3 men killed and 4 wounded, including the skirmish of the 26th. Sibley gives his column's loss in actual combat for the whole expedition as 3 cavalrymen killed and 4 wounded, besides a man killed by lightning and Lieutenant Freeman killed while hunting; his figure of at least 150 Indians killed and wounded covers all three engagements.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. McPhaill's figures span July 24 and 26; Sibley's 150 is campaign context and is not assigned to this record. Sibley's 3 killed and 4 wounded, like his 150, covers the whole expedition and is not assigned to this record; it coincides with McPhaill's nominal-list 3 and 4 and may be the same casualties. McPhaill's July 24 pursuit also reached Dead Buffalo Lake, so his 31 Indians killed are not assigned between this record and Dead Buffalo Lake.",
+      "value": "The frozen casualty text reads US unknown and I 13; the live field reads 87 (US 7; CS 80). McPhaill says 31 Indians are known to have been killed by his regiment in the series of fights, and the compiler's note on his list shows 3 men killed and 4 wounded, including the skirmish of the 26th. Sibley gives, for the whole column in combat, 3 cavalrymen killed and 4 wounded, besides a man killed by lightning and Lieutenant Freeman killed while hunting; his figure of at least 150 Indians killed and wounded covers all three engagements.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. McPhaill's figures span July 24 and 26; Sibley's 150 is campaign context and is not assigned to this record.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -318,19 +318,7 @@
           "source_id": "or22-1-sibley-dakota-selections-v1",
           "section": "sibley-1863-08-07",
           "locator": "p.358 (OCR page markers; not checked against print)",
-          "quote": "the loss sustained by my column i in actual combat was very small."
-        },
-        {
-          "source_id": "or22-1-sibley-dakota-selections-v1",
-          "section": "sibley-1863-08-07",
-          "locator": "p.358 (OCR page markers; not checked against print)",
           "quote": "Three men of the cavalry were killed and 4 wounded"
-        },
-        {
-          "source_id": "or22-1-mcphaill-big-mound-selections-v1",
-          "section": "mcphaill-1863-08-05",
-          "locator": "p.360 (OCR page markers; not checked against print)",
-          "quote": "we drove them from their conceal- ment in the rushes and wild rice of Dead Buffalo Lake"
         },
         {
           "source_id": "or22-1-sibley-dakota-selections-v1",
@@ -347,10 +335,5 @@
     "Marshall's and Baker's reports (Nos. 4-5), the appendix pages Sibley cites, the Dakota bands' own accounts, histories and maps remain deferred. McPhaill's report is the targeted follow-up for this record.",
     "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Sibley's August 7, 1863 report covers all three July engagements and is an interested account; Crooks's August 5 report (Sixth Minnesota) also covers all three and is a separate family. McPhaill's August 5, 1863 report (Mounted Rangers) is a separate family used as the follow-up. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Participants are named as the sources name them; characterizations in the sources (including 'hostile', 'savages', 'massacre' or 'battle') are quoted as the sources' own words and not adopted."
-  ],
-  "revision": "sioux-dakota-1863-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/ND001.v1.json",
-    "sha256": "09b586d5c9b92442c238e1a4a90ee0b9ecd499abe89ea4300c24ccceb9319f01"
-  }
+  ]
 }
