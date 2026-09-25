@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 5a44738f-de45-48ee-a9b9-f9a175687f2a",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 19176f6b2b85fdcfb68434733cc87f631ce6019f; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T15:38:02Z",
+  "prepared_commit": "a9520c2d5628c25b49437f4f54bfc78268a85393",
+  "bundle_commit": "19176f6b2b85fdcfb68434733cc87f631ce6019f",
+  "assignment_sha256": "e9e792f8533a9a5cc081b3f235f79cfbb95039d8b164e783bb0dee1df15b27b9",
+  "inputs_manifest_sha256": "11f34d78cb94fd48165b789ec37c0e0ff8ad82f6acee3d1d7e90581f9b5e3a62",
+  "num_turns": 51,
+  "duration_ms": 713147,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** Five sides need changes (R1–R5), plus eight advisories (A1–A8).\n\n**Review path:** `artifacts/review-results/cmd-review-b4-a9520c2-opus-high-v1/review.md` (sha256 `4b9d0d96…316ad3`). It is the only file written; nothing was committed or pushed.\n\n**Finding IDs:** R1, R2, R3, R4, R5; A1, A2, A3, A4, A5, A6, A7, A8.\n\n**Inputs and checks:**\n- The assignment and `inputs.json` hashes match.\n- All 24 bound inputs match both at `a9520c2` and in the worktree at bundle commit `19176f6`.\n- `make check` passed (126 tests) and `command-check` passed (A/B/C/D 149/15/15/3).\n\n**Required corrections:**\n- **R1, OH001 US (a misreading).** The rationale says Hobson's report doesn't date Judah's takeover. It does: Kautz's advance hit Morgan's pickets about 5 a.m., and Judah \"immediately assumed command\" only later. Add `command_changed` with Judah as successor and fix the rationale and the memo line. The grade stays C, because the National Park Service (NPS) description says Judah's brigade also attacked.\n- **R2, VA040 US (a passage the ledger missed).** The rationale says Humphreys never names Warren, but he does: \"the head of Warren's Second Corps, Webb's division, appeared,\" and \"General Warren states that his force on the field…\". Change the grade from B to A and the echelon to `corps_or_wing`. The Humphreys source also needs adding to the ledger's source bindings; the review gives the hashes.\n- **R3, TN018 CS.** The only quote cited, \"I ordered Cleburne's division to Harrison\", describes what Hill did after the shelling. It does not say he commanded the Confederates at Chattanooga when it began, so the grade drops from A to B, citing the listing only.\n- **R4, TN021 CS.** Cist says Longstreet, \"Dividing his command into two detachments… assaulted Geary's camp\". This bears on the grade but isn't cited. Record it as a citation for Longstreet directing, and keep Jenkins at grade B. The primary should confirm this reading (A2).\n- **R5, GA003 CS.** Bragg arrived on the field and gave orders direct to Buckner, which ended the pursuit. That is the design's rule 4 case, so add `command_changed` with Bragg as successor. The current citation for Bragg directing doesn't name him; the fuller sentence from Cist does.\n\nWith R1–R5 applied in memory, the ledger passes the checker and no side's commander changes. The overall grade counts stay the same, since R2 and R3 cancel out. The `command_changed` count goes from 11 to 13, and sides with an `unknown` echelon go from 76 to 75.\n\n**Main advisories:**\n- **A3 and A4:** Possible superiors-directing labels for Meade at VA040 and Hardee at GA005, to match how the ledger treated Parke at TN026/TN028.\n- **A1 and A6:** Better citations at GA003, TN020, TN026 and TN028.\n\nNo contained-interval pair involves an assigned engagement. The review lists what I inspected and what I left out: design §3–9, other batches, and non-responsibility dossier claims.\n\nThis is an AI review. It is not human historical adjudication, independent corroboration or feature admission."
+}

@@ -45,8 +45,8 @@ class LedgerTests(unittest.TestCase):
 
     def test_tampered_ledgers_fail(self):
         self.tampered('grade D if and only if', lambda E, L: E['TN003']['sides']['US'].update(grade='D', rule='3c'))
-        self.tampered('grade B cites only the listing', lambda E, L: E['KY006']['sides']['US'].update(
-            citations=E['KY006']['sides']['US']['citations'] + E['KY006']['sides']['Confederate']['citations'][1:]))
+        self.tampered('grade B cites only the listing', lambda E, L: E['IN001']['sides']['US'].update(
+            citations=E['IN001']['sides']['US']['citations'] + E['IN001']['sides']['Confederate']['citations'][1:]))
         self.tampered('not accounted for', lambda E, L: E['TN003']['sides']['US'].update(candidates=[]))
         self.tampered('mixed services require rule 5', lambda E, L: E['TN001']['sides']['US'].update(
             rule='3a', labels=['joint_command', 'responsibility_unresolved']))

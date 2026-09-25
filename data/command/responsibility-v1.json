@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "kind": "command_responsibility_ledger",
- "status": "draft_awaiting_campaign_batch_review",
+ "status": "reviewed_reconciled_not_rated",
  "bindings": {
   "design": {
    "path": "docs/commander-ratings.md",
@@ -13,7 +13,7 @@
   },
   "registry": {
    "path": "data/command/commanders-v1.json",
-   "sha256": "0466adc0ba7ca13b7a290039c4ed12b3e8c5863f5b7872edb71c56243cf0ac82"
+   "sha256": "2b3bbef5dced291b3392d05b541bef8dae689c698e34603603e7d0b4ef0706b1"
   },
   "cited_sources": {
    "allan-valley-selections-v1": {
@@ -52,6 +52,10 @@
     "metadata_sha256": "ff7e52631de25c43562a51be19023ec8a218e1dd58fd01d20e1bcbe19fa4dc73",
     "raw_sha256": "a3bcccf96adac41514cc5d984fd9c4c03ab6f7d3bf269fd5e05fa766dceb1424"
    },
+   "cist-tullahoma-selections-v1": {
+    "metadata_sha256": "009495d333e19d7c316a1e56b404dd0e84a1fd5c3e4ef95856ba1ffc908e06e4",
+    "raw_sha256": "170db9f61c800bc8deb0fc5f2615a387c3b1fe8c70034d68166fe0e30af085b3"
+   },
    "doubleday-chancellorsville-selections-v2": {
     "metadata_sha256": "5dfc9fdc9fe86612cf210ed39d2e664f817ba5b326c552a889719ea9f51c6c24",
     "raw_sha256": "fcb245ece8b8a7f40c114dfa13ef8f83bfb2fefe06c673c428899e635d96932d"
@@ -72,6 +76,14 @@
     "metadata_sha256": "01ec996ea5276f13da87ce4168a70a9174f9f62c6511264527f935a397bb67ed",
     "raw_sha256": "04879aee2029bac1d0d478cdfb373f58173f07b4290b043d76ccddb96395220c"
    },
+   "humphreys-bristoe-selections-v1": {
+    "metadata_sha256": "0b338d50cd6447c4ad09cfd64df22c887e1daa74ee5a80c05f1fe9ad57b561f7",
+    "raw_sha256": "c22e8fd033a1bc44dd8c302595b309e8adb8c5cd3111e042eb0079d0a321aa70"
+   },
+   "jordan-west-tennessee-selections-v1": {
+    "metadata_sha256": "a059dd52b42f7683bab63c1b6bdd67cd6305677e5d57df4c0623389f03428371",
+    "raw_sha256": "3f583c0aa133f85aa909cbee6acb72d2eec40a4054d5daf66ad9a85cdc00bf60"
+   },
    "mahan-gulf-inland-selections-v1": {
     "metadata_sha256": "aee9b92a9b60752263e36c08df226e6c71995b84204a1a666050f8523b2b6ed6",
     "raw_sha256": "3067d7b59f6cb95df757f0345b515c6a682662e66c82c48969eaee82484f8c1f"
@@ -83,6 +95,10 @@
    "nps-ga004-v1": {
     "metadata_sha256": "ba383e7cd7ca23a78380f19ed7fac35e6fe2c49d0bdb2fce9ad1d5fcde628569",
     "raw_sha256": "11410462a72df0b338445386befeaaf1f491e86629bbea5c429093311dfda280"
+   },
+   "nps-ky005-v1": {
+    "metadata_sha256": "3c8cf8a6ffa74df931be2a4d54e181713e4b5d85a4524eaf0a333f6604716351",
+    "raw_sha256": "3c6244b418dff42899f96fbf650765a11b63bb6eadff6f69e05ae4f155c03d44"
    },
    "nps-ky007-v1": {
     "metadata_sha256": "f9ef30ee60691552a8cad9c6ba95b8eb80661f8efd4af76d8e23f9ffb9bdca3e",
@@ -200,6 +216,10 @@
     "metadata_sha256": "dd216d10a3c843064ca75dd3a1bd7a0af4821c6fd4552ad242b483171cb4b324",
     "raw_sha256": "1119ff5035645b7cfb963a848615db29e099f2431fff9c2a52900fc065737279"
    },
+   "or18-smith-selections-v1": {
+    "metadata_sha256": "d327c083ebfd0c3160f877f3930e5c51020cc466273ffabb9961ba557b8a7fb6",
+    "raw_sha256": "6e46cd8dd2ab795511fe3b580786e1fe4c04aec94adca0746809e15ba91af63d"
+   },
    "or23-1-bate-hoovers-gap-selections-v2": {
     "metadata_sha256": "0ef86f0dc001be71bd7ee6625fffede993db8d77d6404003ab0b66fdaae0f51f",
     "raw_sha256": "cb44c425a952e35da61368742b41903f6b585f19684d4aba9d897e6eae6defff"
@@ -216,6 +236,26 @@
     "metadata_sha256": "234c3936e181324e89cd9207b5f929391915f0a488b62a164858e6bd6be3de81",
     "raw_sha256": "a61b6f5e8a3bfd86adca4adff948be774b292d029dfe8ea41a2c1b866097fdc7"
    },
+   "or24-1-hebert-selections-v1": {
+    "metadata_sha256": "66048b80073104e5fb768c866eba31bde43124f88a4b095749a2df38f6b8d7f1",
+    "raw_sha256": "23f0786eec8f4e66843b1bc0262670fc60e1e9612011142323cee0a9077f8225"
+   },
+   "or24-1-sherman-snyders-mill-selections-v1": {
+    "metadata_sha256": "21ef5932ef2d26e37524d59b56fe0ab084f2736232dfad935875d92bcefc1232",
+    "raw_sha256": "dd5c3e5c95bae3597285fd891ae9aadaf5267945ec3a9eaab1e498f08b15fc61"
+   },
+   "or24-2-dennis-selections-v2": {
+    "metadata_sha256": "0b22781ed0fd4e04a62916e6203c2c0e8a0b53896a10cd830394376b9a0633de",
+    "raw_sha256": "7f6a4b08ec797794919ebfcc024477228c4af0a9dd15348a17e53f123a16b90a"
+   },
+   "or24-2-mcculloch-selections-v2": {
+    "metadata_sha256": "4505cdd815eb8d7392524c87552425c0534bf0bb852a584136716280532098cb",
+    "raw_sha256": "058684bf782d5394ddaa6c41f7bb6d569cfb70d8183c69fa212864c2a4ddbde1"
+   },
+   "or25-1-sedgwick-chancellorsville-selections-v1": {
+    "metadata_sha256": "7f2664c1f6947aadef473d941393ff4fdfebc5f2d0340aa04b4736f2ae204a6f",
+    "raw_sha256": "9f4f8d6af95c3120cdf119dd5387fc175dc9c773ff70ab739851af1f2806b89d"
+   },
    "or29-1-echols-droop-mountain-selections-v1": {
     "metadata_sha256": "c8f46bcb9ec2b5ea2665366d2dca2f1f9f30740c24846326dd320307683c09c4",
     "raw_sha256": "7bfa2b337eb7e041ce799b321a9b5730477f41d77a912d143422a1c4894d5922"
@@ -227,10 +267,6 @@
    "or30-2-burnside-blue-springs-selections-v1": {
     "metadata_sha256": "419042ebc2061de76a62d9840f11bfbad722c68d966dc76ed9e39f8d77f66f09",
     "raw_sha256": "166b14509f99c73958a0118845810319d5bdbabd08a86f0229cfa41f5e131435"
-   },
-   "or30-2-hill-chattanooga-selections-v1": {
-    "metadata_sha256": "578fa93e35c595ea533610ad594c696e90d2455ae7eaabe1e1ec84a2741d562c",
-    "raw_sha256": "2a8fa82cbced404fac6d5dca79db5e7f0fca53e451b811f0a3191bc7fb2b8250"
    },
    "or30-2-hindman-mclemores-cove-selections-v1": {
     "metadata_sha256": "557b1ea3091c11ce818560580492dcd72d6a6cf138a488694a0be0e69233d6c5",
@@ -251,6 +287,14 @@
    "or32-1-sturgis-dandridge-fair-garden-selections-v1": {
     "metadata_sha256": "fa9a42303786d016b8f2f3db0a8a671d01dd5827af742df7ed883de265524be8",
     "raw_sha256": "d87715840a4f24a5bc7318ed438627a7ce26b8845f24a634e6ddc5c464678c56"
+   },
+   "or7-garfield-selections-v1": {
+    "metadata_sha256": "85cde7040658d8917a7d73317f6ee0c938b7db4f97ad62d44cdb94d59ac53c15",
+    "raw_sha256": "97a902c43c051ac324baa54c06465da73f6269e619445f1f17b6b7838fac111c"
+   },
+   "or7-thomas-selections-v1": {
+    "metadata_sha256": "6128d623a4b8b4c5d21f61c9c5edc1473e631ac8d0ed0b8e0f29b7e186e0c5ad",
+    "raw_sha256": "3cb4ad9a197b225b84a21fe4a8954e5f9dfe3529f381acbc3d31379ab472a9ba"
    },
    "palfrey-maryland-selections-v1": {
     "metadata_sha256": "983f6fd65af909b3f6fb4f2631a4c662a1376fd556734255ab17c38723af0fc9",
@@ -809,7 +853,7 @@
        "battle_id": "AR006"
       }
      ],
-     "rationale": "Navy and army listings. McClernand had formal command of the army and asked Porter to begin the bombardment; no passage shows one officer over both. The description credits the fleet's envelopment and McClernand's attack together, so no single force is shown compelling the result (rule 5, third case)."
+     "rationale": "Navy and army listings. McClernand had formal command of the army and asked Porter to begin the bombardment; no passage shows one officer over both. The description credits the fleet's envelopment and McClernand's attack together, so no single force is shown compelling the result (rule 5, third case). Greene says Churchill surrendered the fort to McClernand; read as the force compelling the result, rule 5's second case would give McClernand (grade C). Kept at D because the description credits the envelopment and McClernand's attack together."
     },
     "Confederate": {
      "side": "Confederate",
@@ -978,12 +1022,13 @@
      "rule": "3a",
      "echelon": "unknown",
      "labels": [
+      "command_changed",
       "superior_directing"
      ],
      "candidates": [
       "cs-john-c-breckinridge"
      ],
-     "successor": null,
+     "successor": "cs-braxton-bragg",
      "superior": "cs-braxton-bragg",
      "superior_citations": [
       {
@@ -992,7 +1037,7 @@
         "citation_index": 7
        },
        "source_id": "cist-chickamauga-selections-v1",
-       "quote": "waited nearly all day for Hindman's guns to open",
+       "quote": "Bragg shortly after daylight joined Cleburne, where they waited nearly all day for Hindman's guns to open",
        "battle_id": "GA003"
       }
      ],
@@ -1036,9 +1081,23 @@
        "source_id": "cist-chickamauga-selections-v1",
        "quote": "Breckinridge's division of Hill's corps was kept in posi- tion south of La Fayette",
        "battle_id": "GA003"
+      },
+      {
+       "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+       "section": "hindman-1863-10-25",
+       "locator": "p.297 (OCR page markers; not checked against print)",
+       "quote": "orders given to General Buckner direct by the general commanding, to whom I then reported in person at Davis’ Cross-Roads.",
+       "battle_id": "GA003"
+      },
+      {
+       "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+       "section": "hindman-1863-10-25",
+       "locator": "p.293 (OCR page markers; not checked against print)",
+       "quote": "At 4.45 p. m. General Buckner reached Morgan’s with his corps, and reported to me for orders.",
+       "battle_id": "GA003"
       }
      ],
-     "rationale": "Both listed major generals. Bragg's order suspends Hindman \"for not obeying his orders for the attack on the enemy in McLemore's Cove\", and Cist says Breckinridge's division was kept south of La Fayette (rule 3(a); superior_directing: Bragg)."
+     "rationale": "Both listed major generals. Bragg's order suspends Hindman \"for not obeying his orders for the attack on the enemy in McLemore's Cove\", and Cist says Breckinridge's division was kept south of La Fayette (rule 3(a); superior_directing: Bragg). Hindman, in an interested report written after his suspension, says the pursuit ceased at dark under orders given direct to Buckner by the general commanding, to whom he then reported in person; Cist has Bragg with Cleburne from shortly after daylight (rule 4: command_changed, successor Bragg). The first fighting on the 10th, at Dug Gap, involved Hill's corps outside Hindman's command."
     }
    }
   },
@@ -1244,7 +1303,7 @@
        "battle_id": "GA005"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "A cited passage states the command. Cleburne held the gap on an army-headquarters order and withdrew on Hardee's dispatch permitting it; the order is signed for an unnamed general and the dispatch permits rather than directs, so no superior is recorded."
     }
    }
   },
@@ -1333,11 +1392,23 @@
      "grade": "A",
      "rule": "2",
      "echelon": "brigade",
-     "labels": [],
+     "labels": [
+      "superior_directing"
+     ],
      "candidates": [],
      "successor": null,
-     "superior": null,
-     "superior_citations": [],
+     "superior": "us-don-carlos-buell",
+     "superior_citations": [
+      {
+       "dossier": {
+        "claim_id": "assigned-objective",
+        "citation_index": 0
+       },
+       "source_id": "nps-ky005-v1",
+       "quote": "Union Brig. Gen. Don Carlos Buell directed Col. James Garfield to force Marshall to retreat back into Virginia.",
+       "battle_id": "KY005"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -1360,7 +1431,7 @@
        "battle_id": "KY005"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "A cited passage states the command. Buell directed Garfield to force Marshall to retreat (superior_directing: Buell)."
     },
     "Confederate": {
      "side": "Confederate",
@@ -1393,6 +1464,15 @@
        "column": "description",
        "quote": "Brig. Gen. Humphrey Marshall led another force into southeast Kentucky",
        "battle_id": "KY005"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-populations",
+        "citation_index": 0
+       },
+       "source_id": "or7-garfield-selections-v1",
+       "quote": "under command of Mar- shall",
+       "battle_id": "KY005"
       }
      ],
      "rationale": "A cited passage states the command."
@@ -1410,7 +1490,7 @@
     "US": {
      "side": "US",
      "commander_id": "us-george-h-thomas",
-     "grade": "B",
+     "grade": "A",
      "rule": "2",
      "echelon": "unknown",
      "labels": [],
@@ -1429,9 +1509,27 @@
        "column": "rank",
        "quote": "Brigadier General",
        "battle_id": "KY006"
+      },
+      {
+       "dossier": {
+        "claim_id": "warning-and-command-chain",
+        "citation_index": 1
+       },
+       "source_id": "or7-thomas-selections-v1",
+       "quote": "I directed him to join his brigade im- mediately and hold the enemy in check until I could order up the other troops",
+       "battle_id": "KY006"
+      },
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "KY006"
+       },
+       "column": "description",
+       "quote": "The Rebels attacked Thomas at Logan's Crossroads at dawn on January 19.",
+       "battle_id": "KY006"
       }
      ],
-     "rationale": "Single CWSAC listing; no inspected passage states or contradicts the command."
+     "rationale": "A cited passage states the command."
     },
     "Confederate": {
      "side": "Confederate",
@@ -1544,14 +1642,25 @@
      "echelon": "unknown",
      "labels": [
       "command_changed",
-      "responsibility_unresolved"
+      "responsibility_unresolved",
+      "superior_directing"
      ],
      "candidates": [
       "cs-e-kirby-smith"
      ],
      "successor": "cs-e-kirby-smith",
-     "superior": null,
-     "superior_citations": [],
+     "superior": "cs-e-kirby-smith",
+     "superior_citations": [
+      {
+       "dossier": {
+        "claim_id": "orders-for-contact",
+        "citation_index": 0
+       },
+       "source_id": "nps-ky007-v1",
+       "quote": "Kirby Smith ordered Cleburne to attack in the morning and promised to hurry reinforcements (Churchill's division).",
+       "battle_id": "KY007"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -1583,7 +1692,7 @@
        "battle_id": "KY007"
       }
      ],
-     "rationale": "NPS says Cleburne \"led the advance\" when the fighting began, and Smith arrived later and took command of his army (rule 2, third bullet; rule 4)."
+     "rationale": "NPS says Cleburne \"led the advance\" when the fighting began, and Smith arrived later and took command of his army (rule 2, third bullet; rule 4). Kirby Smith ordered Cleburne to attack (superior_directing). Alternative reading: 'led the advance' as a subordinate leading part of the force (rule 2, second bullet), which would keep Kirby Smith at grade C with Cleburne as candidate."
     }
    }
   },
@@ -1598,16 +1707,16 @@
     "US": {
      "side": "US",
      "commander_id": "us-john-t-wilder",
-     "grade": "C",
+     "grade": "A",
      "rule": "3a",
      "echelon": "detachment_or_post",
      "labels": [
-      "responsibility_unresolved"
+      "command_changed"
      ],
      "candidates": [
       "us-cyrus-l-dunham"
      ],
-     "successor": null,
+     "successor": "us-cyrus-l-dunham",
      "superior": null,
      "superior_citations": [],
      "citations": [
@@ -1659,16 +1768,30 @@
        "source_id": "cist-heartland-selections-v1",
        "quote": "being Wilder's senior in rank, assumed command.",
        "battle_id": "KY008"
+      },
+      {
+       "source_id": "cist-heartland-selections-v1",
+       "section": "munfordville-siege",
+       "locator": "p.57 (OCR page markers; not checked against print)",
+       "quote": "the garrison there under Colonel John T. Wilder",
+       "battle_id": "KY008"
+      },
+      {
+       "source_id": "cist-heartland-selections-v1",
+       "section": "munfordville-siege",
+       "locator": "p.58 (OCR page markers; not checked against print)",
+       "quote": "an assault was made by the enemy, which was repulsed with heavy loss. Two detachments reported during the day, reinforcing Wilder's command.",
+       "battle_id": "KY008"
       }
      ],
-     "rationale": "Both listed colonels. NPS says Wilder commanded the garrison and refused the demand on the 14th, when the first attacks were repulsed; Cist says Dunham, arriving on the day of the first assault, assumed command as senior. The sources disagree (rule 3(a), grade C)."
+     "rationale": "NPS and Cist both put Wilder in command at the first assault on the 14th. Cist has Dunham arrive later that day and assume command as senior, and Wilder resume it under Gilbert's orders on the 16th (rule 3(a); rule 4)."
     },
     "Confederate": {
      "side": "Confederate",
      "commander_id": "cs-james-r-chalmers",
      "grade": "A",
      "rule": "3a",
-     "echelon": "brigade",
+     "echelon": "unknown",
      "labels": [
       "command_changed",
       "superior_directing"
@@ -1793,14 +1916,30 @@
      "rule": "2",
      "echelon": "unknown",
      "labels": [
-      "responsibility_unresolved"
+      "responsibility_unresolved",
+      "superior_directing"
      ],
      "candidates": [
       "cs-braxton-bragg"
      ],
      "successor": null,
-     "superior": null,
-     "superior_citations": [],
+     "superior": "cs-braxton-bragg",
+     "superior_citations": [
+      {
+       "source_id": "cist-heartland-selections-v1",
+       "section": "perryville-approach-and-battle",
+       "locator": "p.63 (OCR page markers; not checked against print)",
+       "quote": "Bragg ordered Polk to move Cheatham's division back to Perryville",
+       "battle_id": "KY009"
+      },
+      {
+       "source_id": "cist-heartland-selections-v1",
+       "section": "perryville-approach-and-battle",
+       "locator": "p.69 (OCR page markers; not checked against print)",
+       "quote": "again ordered Polk to bring on the engagement",
+       "battle_id": "KY009"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -1841,7 +1980,7 @@
        "battle_id": "KY009"
       }
      ],
-     "rationale": "Cist says the engaged Confederates \"were under the immediate command of General Polk\" and quotes Bragg's report that he declined to assume the command, though a later report has Bragg putting the troops in motion (rule 2, third bullet)."
+     "rationale": "Cist says the engaged Confederates \"were under the immediate command of General Polk\" and quotes Bragg's report that he declined to assume the command, though a later report has Bragg putting the troops in motion (rule 2, third bullet). Bragg ordered Polk to bring on the engagement (superior_directing: Bragg)."
     }
    }
   },
@@ -1858,7 +1997,7 @@
      "commander_id": "us-hermann-lieb",
      "grade": "A",
      "rule": "2",
-     "echelon": "brigade",
+     "echelon": "unknown",
      "labels": [],
      "candidates": [],
      "successor": null,
@@ -1884,16 +2023,25 @@
        "column": "description",
        "quote": "Col. Hermann Lieb with the African Brigade",
        "battle_id": "LA011"
+      },
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "LA011"
+       },
+       "column": "description",
+       "quote": "The 23rd Iowa Infantry and two gunboats came to his assistance.",
+       "battle_id": "LA011"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "A cited passage states the command. Dennis, the district commander, instructed Lieb's reconnaissance and sent the 23rd Iowa (no registry entry; not labelled). Dennis calls Lieb commanding the Ninth Louisiana (African descent) against the description's 'African Brigade', so the echelon is unknown."
     },
     "Confederate": {
      "side": "Confederate",
      "commander_id": "cs-henry-e-mcculloch",
-     "grade": "B",
+     "grade": "A",
      "rule": "2",
-     "echelon": "unknown",
+     "echelon": "brigade",
      "labels": [],
      "candidates": [],
      "successor": null,
@@ -1910,9 +2058,36 @@
        "column": "rank",
        "quote": "Brigadier General",
        "battle_id": "LA011"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 2
+       },
+       "source_id": "or24-2-mcculloch-selections-v2",
+       "quote": "According to orders, on the night of the 6th my brigade took up the line of march for Milliken’s Bend, to attack the Yankee force at that place.",
+       "battle_id": "LA011"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 2
+       },
+       "source_id": "or24-2-mcculloch-selections-v2",
+       "quote": "when the enemy’s pickets fired upon my cavalry scouts and skirmishers.",
+       "battle_id": "LA011"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 0
+       },
+       "source_id": "or24-2-dennis-selections-v2",
+       "quote": "The enemy consisted of one brigade, numbering about 2,500, in com- mand of Genera] [H. E.] McCulloch, and 200 cavalry.",
+       "battle_id": "LA011"
       }
      ],
-     "rationale": "Single CWSAC listing; no inspected passage states or contradicts the command."
+     "rationale": "McCulloch reports that his brigade marched to attack Milliken's Bend and that the enemy's pickets fired on his scouts at 2.30 a.m. on the 7th. Dennis puts the attacking brigade in McCulloch's command (rule 2)."
     }
    }
   },
@@ -2059,9 +2234,27 @@
        "column": "description",
        "quote": "The ironclads helped to overawe the Confederate batteries and guns, enabling Pope's men to cross the river and block the Confederate escape route.",
        "battle_id": "MO012"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-surrender-population",
+        "citation_index": 0
+       },
+       "source_id": "mahan-gulf-inland-selections-v1",
+       "quote": "At ten o'clock that evening the island and garrison surrendered to the navy",
+       "battle_id": "MO012"
+      },
+      {
+       "dossier": {
+        "claim_id": "river-bends-and-escape-route",
+        "citation_index": 0
+       },
+       "source_id": "mahan-gulf-inland-selections-v1",
+       "quote": "New Madrid, with its works, was taken by General Pope before the arrival of the flotilla",
+       "battle_id": "MO012"
       }
      ],
-     "rationale": "Army and navy listings; no passage shows one officer over both. The frozen description has Pope's men blocking the escape route with the ironclads' help (rule 5, second case)."
+     "rationale": "Army and navy listings; no passage shows one officer over both. The frozen description has Pope's men blocking the escape route with the ironclads' help (rule 5, second case). Mahan says the island and garrison surrendered 'to the navy', the wording treated as decisive for Foote at TN001; he also says New Madrid was taken by Pope before the flotilla arrived, so the side's first combat was army-only. The choice is disputed; Foote stays a candidate."
     },
     "Confederate": {
      "side": "Confederate",
@@ -2263,9 +2456,18 @@
        "source_id": "greene-iuka-corinth-selections-v1",
        "quote": "decided not to begin pursuit until the following day. General Grant blamed him for this delay",
        "battle_id": "MS002"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 3
+       },
+       "source_id": "greene-iuka-corinth-selections-v1",
+       "quote": "23,000 under Eosecrans at Corinth",
+       "battle_id": "MS002"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "Greene's October 1 return puts 23,000 under Rosecrans at Corinth before the October 3 fighting; the pursuit decision shows he still commanded at the end."
     },
     "Confederate": {
      "side": "Confederate",
@@ -2380,7 +2582,7 @@
        "battle_id": "MS003"
       }
      ],
-     "rationale": "Single CWSAC listing; no inspected passage states or contradicts the command."
+     "rationale": "Single CWSAC listing; no inspected passage states or contradicts the command. Greene dates Pemberton's arrival in Vicksburg (December 26) and names Martin L. Smith's original garrison; neither states that Pemberton commanded the engaged forces."
     }
    }
   },
@@ -2477,7 +2679,7 @@
      "commander_id": "us-william-t-sherman",
      "grade": "A",
      "rule": "2",
-     "echelon": "unknown",
+     "echelon": "corps_or_wing",
      "labels": [],
      "candidates": [],
      "successor": null,
@@ -2503,14 +2705,23 @@
        "column": "description",
        "quote": "Sherman had received orders to land his troops at Milliken's Bend",
        "battle_id": "MS005"
+      },
+      {
+       "dossier": {
+        "claim_id": "flooded-ground",
+        "citation_index": 0
+       },
+       "source_id": "or24-1-sherman-snyders-mill-selections-v1",
+       "quote": "I disembarked the command at Blake’s negro quarters, and made disposition as for attack,",
+       "battle_id": "MS005"
       }
      ],
-     "rationale": "The description refers to Sherman's troops; NPS names Breese for the gunboats and Blair's division for the troops, which are parts of the force, not contradictions."
+     "rationale": "Sherman's own letter has him disembarking the command and making dispositions for attack; the description refers to his troops. Breese's gunboats were navy and are not listed, so rule 2 applies."
     },
     "Confederate": {
      "side": "Confederate",
      "commander_id": "cs-louis-hebert",
-     "grade": "B",
+     "grade": "A",
      "rule": "2",
      "echelon": "unknown",
      "labels": [],
@@ -2529,9 +2740,18 @@
        "column": "rank",
        "quote": "Brigadier General",
        "battle_id": "MS005"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 3
+       },
+       "source_id": "or24-1-hebert-selections-v1",
+       "quote": "all the oflicers and soldiers of my command.",
+       "battle_id": "MS005"
       }
      ],
-     "rationale": "Single CWSAC listing; Forney's forwarding of Hébert's report does not state the command."
+     "rationale": "Hébert's own report refers to 'all the officers and soldiers of my command'; it also records the district commander (Forney) present on the field, which is context, not a contradiction."
     }
    }
   },
@@ -2717,7 +2937,7 @@
     "US": {
      "side": "US",
      "commander_id": "us-ulysses-s-grant",
-     "grade": "B",
+     "grade": "A",
      "rule": "2",
      "echelon": "unknown",
      "labels": [],
@@ -2736,9 +2956,18 @@
        "column": "rank",
        "quote": "Major General",
        "battle_id": "MS008"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 6
+       },
+       "source_id": "greene-vicksburg-1863-selections-v1",
+       "quote": "in pursuance of Grant's orders of the night of May 12th",
+       "battle_id": "MS008"
       }
      ],
-     "rationale": "Single CWSAC listing. The description names Sherman's and McPherson's corps and says Grant was travelling with Sherman's corps; no inspected passage states the command."
+     "rationale": "Greene says McPherson moved on Jackson 'in pursuance of Grant's orders of the night of May 12th', and the description has Grant travelling with Sherman's corps. A cited passage states the command."
     },
     "Confederate": {
      "side": "Confederate",
@@ -2927,10 +3156,11 @@
     "Confederate": {
      "side": "Confederate",
      "commander_id": "cs-john-s-bowen",
-     "grade": "A",
+     "grade": "C",
      "rule": "2",
      "echelon": "division",
      "labels": [
+      "responsibility_unresolved",
       "superior_directing"
      ],
      "candidates": [],
@@ -2957,9 +3187,18 @@
        "column": "description",
        "quote": "Pemberton ordered Brig. Gen. John S. Bowen, with three brigades, to man the fortifications",
        "battle_id": "MS010"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 3
+       },
+       "source_id": "greene-vicksburg-1863-selections-v1",
+       "quote": "On the Confederate side everything was at odds and ends. There seemed to be no one in command,",
+       "battle_id": "MS010"
       }
      ],
-     "rationale": "Pemberton ordered Bowen, with three brigades, to man the fortifications (superior_directing: Pemberton)."
+     "rationale": "Pemberton ordered Bowen, with three brigades, to man the fortifications (superior_directing: Pemberton). Greene says there 'seemed to be no one in command'. He names no other officer, so the listing stands, but the sources disagree (rule 2, grade C)."
     }
    }
   },
@@ -3310,11 +3549,32 @@
      "grade": "A",
      "rule": "2",
      "echelon": "unknown",
-     "labels": [],
+     "labels": [
+      "superior_directing"
+     ],
      "candidates": [],
      "successor": null,
-     "superior": null,
-     "superior_citations": [],
+     "superior": "us-ambrose-e-burnside",
+     "superior_citations": [
+      {
+       "dossier": {
+        "claim_id": "assigned-siege-command",
+        "citation_index": 0
+       },
+       "source_id": "woodbury-burnside-selections-v1",
+       "quote": "General Burnside therefore decided to make a com- plete investment of the fort, and, by a combined attack by land and sea, force its surrender.",
+       "battle_id": "NC004"
+      },
+      {
+       "dossier": {
+        "claim_id": "assigned-siege-command",
+        "citation_index": 0
+       },
+       "source_id": "woodbury-burnside-selections-v1",
+       "quote": "General Burnslde, who was now present and desired to prevent a loss of life, again sum- moned Colonel White to surrender",
+       "battle_id": "NC004"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -3337,12 +3597,12 @@
        "battle_id": "NC004"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "A cited passage states the command. Burnside decided the investment and combined attack and was present to summon the surrender (superior_directing: Burnside)."
     },
     "Confederate": {
      "side": "Confederate",
      "commander_id": "cs-moses-j-white",
-     "grade": "B",
+     "grade": "A",
      "rule": "2",
      "echelon": "detachment_or_post",
      "labels": [],
@@ -3361,9 +3621,18 @@
        "column": "rank",
        "quote": "Lieutenant Colonel",
        "battle_id": "NC004"
+      },
+      {
+       "dossier": {
+        "claim_id": "assigned-siege-command",
+        "citation_index": 0
+       },
+       "source_id": "woodbury-burnside-selections-v1",
+       "quote": "Colonel White hung out the white flag, obtained honorable terms of capitula- tion, marched out his command, and surrendered to General Parke the fort which he had so persistently defended.",
+       "battle_id": "NC004"
       }
      ],
-     "rationale": "Single CWSAC listing; the cited NPS heading names White without stating the command."
+     "rationale": "A cited passage states the command (Woodbury: White marched out his command and surrendered the fort he had defended). Woodbury's 'Colonel' differs from the listed 'Lieutenant Colonel'; identity is not in doubt."
     }
    }
   },
@@ -3380,14 +3649,24 @@
      "commander_id": "us-f-a-osborn",
      "grade": "A",
      "rule": "2",
-     "echelon": "regiment",
+     "echelon": "detachment_or_post",
      "labels": [
       "superior_directing"
      ],
      "candidates": [],
      "successor": null,
      "superior": "us-robert-potter",
-     "superior_citations": [],
+     "superior_citations": [
+      {
+       "dossier": {
+        "claim_id": "order-and-artillery-action",
+        "citation_index": 0
+       },
+       "source_id": "nps-nc006-v1",
+       "quote": "Col. Robert Potter, garrison commander at Washington, North Carolina, ordered a reconnaissance",
+       "battle_id": "NC006"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -3407,15 +3686,6 @@
        },
        "column": "description",
        "quote": "The 24th Massachusetts under Lt. Col. F.A. Osborne, advanced to the bridge over Tranter's Creek",
-       "battle_id": "NC006"
-      },
-      {
-       "dossier": {
-        "claim_id": "order-and-artillery-action",
-        "citation_index": 0
-       },
-       "source_id": "nps-nc006-v1",
-       "quote": "Col. Robert Potter, garrison commander at Washington, North Carolina, ordered a reconnaissance",
        "battle_id": "NC006"
       }
      ],
@@ -3598,11 +3868,28 @@
      "grade": "A",
      "rule": "2",
      "echelon": "brigade",
-     "labels": [],
+     "labels": [
+      "superior_directing"
+     ],
      "candidates": [],
      "successor": null,
-     "superior": null,
-     "superior_citations": [],
+     "superior": "cs-g-w-smith",
+     "superior_citations": [
+      {
+       "source_id": "or18-smith-selections-v1",
+       "section": "smith-1862-12-29",
+       "locator": "p.109 (OCR page markers; not checked against print)",
+       "quote": "I directed Lieutenant-Colonel Ste- vens",
+       "battle_id": "NC009"
+      },
+      {
+       "source_id": "or18-smith-selections-v1",
+       "section": "smith-1862-12-29",
+       "locator": "p.110 (OCR page markers; not checked against print)",
+       "quote": "were ordered to cross, supported by Pettigrew’s brigade",
+       "battle_id": "NC009"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -3625,7 +3912,7 @@
        "battle_id": "NC009"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "A cited passage states the command. G. W. Smith's report has him directing the fight from Goldsborough (superior_directing). The December 29 section is unsigned in the selection; its authorship rests on the source record and the signed December 15 report."
     }
    }
   },
@@ -3640,7 +3927,7 @@
     "US": {
      "side": "US",
      "commander_id": "us-hiram-anderson",
-     "grade": "A",
+     "grade": "B",
      "rule": "2",
      "echelon": "detachment_or_post",
      "labels": [
@@ -3649,7 +3936,26 @@
      "candidates": [],
      "successor": null,
      "superior": "us-john-g-foster",
-     "superior_citations": [],
+     "superior_citations": [
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 6
+       },
+       "source_id": "or18-foster-tidewater-selections-v1",
+       "quote": "I instructed him to defend and hold the work.",
+       "battle_id": "NC010"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 6
+       },
+       "source_id": "or18-foster-tidewater-selections-v1",
+       "quote": "although they | were ordered to fall back to my defenses where 1 proposed making the j fight.",
+       "battle_id": "NC010"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -3661,27 +3967,9 @@
        "column": "rank",
        "quote": "Lieutenant Colonel",
        "battle_id": "NC010"
-      },
-      {
-       "dossier": {
-        "claim_id": "command-roles",
-        "citation_index": 5
-       },
-       "source_id": "or18-foster-tidewater-selections-v1",
-       "quote": "Anderson was summoned to surrender several times, which he declined",
-       "battle_id": "NC010"
-      },
-      {
-       "dossier": {
-        "claim_id": "command-roles",
-        "citation_index": 6
-       },
-       "source_id": "or18-foster-tidewater-selections-v1",
-       "quote": "I instructed him to defend and hold the work.",
-       "battle_id": "NC010"
       }
      ],
-     "rationale": "Foster says Anderson declined several demands to surrender and that he instructed him to hold the work (superior_directing: Foster)."
+     "rationale": "Single CWSAC listing. The side's first combat was on March 13 on the Trent road and at Deep Gully (Foster; Hill), where no inspected passage names the Union commander. Foster puts Anderson in command of the work attacked at daylight on the 14th ('a small work on north side of the Neuse River, occupied by the Ninety second New York Volunteers, Lieutenant-Colonel Anderson') and says he instructed him to hold it (superior_directing: Foster). No passage states Anderson's command at first combat or names another officer (rule 2, grade B)."
     },
     "Confederate": {
      "side": "Confederate",
@@ -3718,7 +4006,7 @@
        "battle_id": "NC010"
       }
      ],
-     "rationale": "Longstreet directed D. H. Hill, commander of the North Carolina District, to advance on New Berne (superior_directing: Longstreet)."
+     "rationale": "Longstreet directed D. H. Hill, commander of the North Carolina District, to advance on New Berne (superior_directing: Longstreet). Longstreet qualifies as directing this operation: Hill's report of the expedition is addressed to him."
     }
    }
   },
@@ -3737,12 +4025,13 @@
      "rule": "2",
      "echelon": "unknown",
      "labels": [
+      "command_changed",
       "responsibility_unresolved"
      ],
      "candidates": [
       "us-judah"
      ],
-     "successor": null,
+     "successor": "us-judah",
      "superior": null,
      "superior_citations": [],
      "citations": [
@@ -3783,9 +4072,23 @@
        "source_id": "or23-1-hobson-morgan-raid-selections-v2",
        "quote": "I, with my staff, being detained awaiting orders from General Judah.",
        "battle_id": "OH001"
+      },
+      {
+       "source_id": "or23-1-hobson-morgan-raid-selections-v2",
+       "section": "hobson-1863-09",
+       "locator": "p.660 (OCR page markers; not checked against print)",
+       "quote": "The advance, under Colonel Kautz, drove in the pickets of the enemy about 5 a. m. July 19.",
+       "battle_id": "OH001"
+      },
+      {
+       "source_id": "or23-1-hobson-morgan-raid-selections-v2",
+       "section": "hobson-1863-09",
+       "locator": "p.661 (OCR page markers; not checked against print)",
+       "quote": "Learning from one of my orderlies that a column of cavalry was comiug up the river, to my right and rear,",
+       "battle_id": "OH001"
       }
      ],
-     "rationale": "NPS puts the pursuing columns \"under overall direction of\" Hobson, but Hobson says Judah \"immediately assumed command of the whole force\", over his protest, without dating it against the first combat. The listing stands and the sources disagree."
+     "rationale": "NPS puts the pursuing columns 'under overall direction of' Hobson. Hobson's report has his advance under Kautz drive in Morgan's pickets about 5 a.m. on July 19; only later did Judah's column come up the river, and Judah, whom Hobson acknowledges as his superior, 'immediately assumed command of the whole force' (rule 4: command_changed, successor Judah). NPS also says Judah's brigade attacked, and Hobson had no communication with Judah, so whether Hobson commanded all the side's engaged forces at first combat is unresolved; Hobson's is an interested account. The listing stands (grade C)."
     },
     "Confederate": {
      "side": "Confederate",
@@ -3945,7 +4248,7 @@
        "battle_id": "PA002"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "A cited passage states the command. Lee's report says Reynolds, 'who was in command' of the forces first engaged, was killed; subordinate context, not a contradiction of Meade's command authority."
     },
     "Confederate": {
      "side": "Confederate",
@@ -4162,6 +4465,7 @@
      "rule": "3c",
      "echelon": "unknown",
      "labels": [
+      "command_changed",
       "responsibility_unresolved"
      ],
      "candidates": [
@@ -4169,7 +4473,7 @@
       "cs-gideon-pillow",
       "cs-simon-b-buckner"
      ],
-     "successor": null,
+     "successor": "cs-simon-b-buckner",
      "superior": null,
      "superior_citations": [],
      "citations": [
@@ -4214,9 +4518,18 @@
        "source_id": "grant-memoirs-river-selections-v1",
        "quote": "Floyd turned over the command to Pillow, who declined it. It then devolved upon Buckner, who accepted the responsibility of the position.",
        "battle_id": "TN002"
+      },
+      {
+       "dossier": {
+        "claim_id": "confederate-command-transfer",
+        "citation_index": 0
+       },
+       "source_id": "grant-memoirs-river-selections-v1",
+       "quote": "A council of war was held by the enemy at which all agreed that it would be impossible to hold out longer.",
+       "battle_id": "TN002"
       }
      ],
-     "rationale": "Three listed brigadier generals tie. Grant says Floyd turned over the command to Pillow and then Buckner at the end, but no inspected passage shows who commanded when the fighting began (rule 3(c))."
+     "rationale": "Three listed brigadier generals tie. Grant says Floyd turned over the command to Pillow and then Buckner at the end, but no inspected passage shows who commanded when the fighting began (rule 3(c)). The transfer to Buckner followed the council after the failed breakout, so a command change within the interval is shown (rule 4, successor Buckner) although the commander at first combat is unresolved."
     }
    }
   },
@@ -4513,7 +4826,17 @@
      "candidates": [],
      "successor": null,
      "superior": "us-ormsby-mitchel",
-     "superior_citations": [],
+     "superior_citations": [
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "TN005"
+       },
+       "column": "description",
+       "quote": "After Mitchel received command of all Federal troops between Nashville and Huntsville, on May 29, he ordered Brig. Gen. James Negley with a small division to lead an expedition to capture Chattanooga.",
+       "battle_id": "TN005"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -4658,7 +4981,7 @@
        "battle_id": "TN006"
       }
      ],
-     "rationale": "NPS puts the garrison under Crittenden; Cist says neither Crittenden nor Duffield assumed command and no one was in command. Cist names no other commander, so the listing stands, but the sources disagree."
+     "rationale": "NPS puts the garrison under Crittenden; Cist says neither Crittenden nor Duffield assumed command and no one was in command. Cist names no other commander, so the listing stands, but the sources disagree. Cist is internally inconsistent: he also says 'The post was under the command of General T. T. Crittenden'."
     },
     "Confederate": {
      "side": "Confederate",
@@ -4712,14 +5035,34 @@
      "rule": "3a",
      "echelon": "detachment_or_post",
      "labels": [
-      "command_changed"
+      "command_changed",
+      "superior_directing"
      ],
      "candidates": [
       "us-stephen-a-hurlbut"
      ],
      "successor": "us-stephen-a-hurlbut",
-     "superior": null,
-     "superior_citations": [],
+     "superior": "us-ulysses-s-grant",
+     "superior_citations": [
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 3
+       },
+       "source_id": "greene-iuka-corinth-selections-v1",
+       "quote": "Hurlbut, in obedience to orders from Grant, moved with his division from Bolivar",
+       "battle_id": "TN007"
+      },
+      {
+       "dossier": {
+        "claim_id": "interception-orders",
+        "citation_index": 0
+       },
+       "source_id": "greene-iuka-corinth-selections-v1",
+       "quote": "with orders to intercept the Confederate re- treat.",
+       "battle_id": "TN007"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -4771,7 +5114,7 @@
        "battle_id": "TN007"
       }
      ],
-     "rationale": "Both listed major generals. Ord \"took command of the now-combined Union forces\" and pushed Van Dorn's advance; he was wounded and Hurlbut assumed command (rule 3(a); rule 4). Hurlbut's brigade had met Ord's column in the Confederates' front before the combined attack."
+     "rationale": "Both listed major generals. Ord \"took command of the now-combined Union forces\" and pushed Van Dorn's advance; he was wounded and Hurlbut assumed command (rule 3(a); rule 4). Hurlbut's brigade had met Ord's column in the Confederates' front before the combined attack. Grant ordered the interception (superior_directing: Grant). NPS leaves open whether Hurlbut's force skirmished before Ord took command."
     },
     "Confederate": {
      "side": "Confederate",
@@ -5062,15 +5405,30 @@
    "sides": {
     "US": {
      "side": "US",
-     "commander_id": "us-jeremiah-c-sullivan",
-     "grade": "A",
+     "commander_id": "us-cyrus-l-dunham",
+     "grade": "C",
      "rule": "2",
-     "echelon": "unknown",
-     "labels": [],
-     "candidates": [],
+     "echelon": "brigade",
+     "labels": [
+      "responsibility_unresolved",
+      "superior_directing"
+     ],
+     "candidates": [
+      "us-jeremiah-c-sullivan"
+     ],
      "successor": null,
-     "superior": null,
-     "superior_citations": [],
+     "superior": "us-jeremiah-c-sullivan",
+     "superior_citations": [
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "TN011"
+       },
+       "column": "description",
+       "quote": "Union Brig. Gen. Jeremiah C. Sullivan, with the brigades of Col. Cyrus L. Dunham and Col. John W. Fuller, attempted to cut Forrest off",
+       "battle_id": "TN011"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -5084,16 +5442,41 @@
        "battle_id": "TN011"
       },
       {
+       "source_id": "jordan-west-tennessee-selections-v1",
+       "section": "parkers-cross-roads",
+       "locator": "p.211 (OCR page markers; not checked against print)",
+       "quote": "Dunham, the Federal commander",
+       "battle_id": "TN011"
+      },
+      {
        "source_id": "arnold-cwsac-battles",
        "row_key": {
         "battle": "TN011"
        },
        "column": "description",
-       "quote": "Union Brig. Gen. Jeremiah C. Sullivan, with the brigades of Col. Cyrus L. Dunham and Col. John W. Fuller, attempted to cut Forrest off",
+       "quote": "Dunham's and Forrest's march routes, on December 31, 1862, brought them into contact at Parker's Cross Roads.",
+       "battle_id": "TN011"
+      },
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "TN011"
+       },
+       "column": "description",
+       "quote": "Forrest sent Dunham a demand for an unconditional surrender. Dunham refused",
+       "battle_id": "TN011"
+      },
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "TN011"
+       },
+       "column": "description",
+       "quote": "Dunham pulled his brigade back",
        "battle_id": "TN011"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "Jordan and Pryor, citing Dunham's report, call Dunham 'the Federal commander' (their OCR reads 'C« T. Dunham'; identity rests on the description's 'Col. Cyrus L. Dunham', the KY008 US listing string). The description has Dunham's brigade make first contact and refuse Forrest's demand before Fuller arrived. Sullivan directed the operation (rule 2, third bullet; superior_directing: Sullivan). Jordan and Pryor is a Forrest-endorsed history; an OCR-interleaved footnote suggests Sullivan arrived later, but no inspected passage says he took command."
     },
     "Confederate": {
      "side": "Confederate",
@@ -5226,11 +5609,32 @@
      "grade": "A",
      "rule": "2",
      "echelon": "brigade",
-     "labels": [],
+     "labels": [
+      "superior_directing"
+     ],
      "candidates": [],
      "successor": null,
-     "superior": null,
-     "superior_citations": [],
+     "superior": "us-gilbert",
+     "superior_citations": [
+      {
+       "dossier": {
+        "claim_id": "warning-and-order-to-advance",
+        "citation_index": 1
+       },
+       "source_id": "cist-middle-tennessee-selections-v1",
+       "quote": "On March 4th, Gilbert at Franklin ordered Colonel Coburn",
+       "battle_id": "TN013"
+      },
+      {
+       "dossier": {
+        "claim_id": "warning-and-order-to-advance",
+        "citation_index": 1
+       },
+       "source_id": "cist-middle-tennessee-selections-v1",
+       "quote": "Gilbert, however, ordered him to advance.",
+       "battle_id": "TN013"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -5253,7 +5657,7 @@
        "battle_id": "TN013"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "A cited passage states the command. Cist says Gilbert at Franklin ordered the expedition and, when Coburn suggested falling back, ordered him to advance (superior_directing: Gilbert)."
     },
     "Confederate": {
      "side": "Confederate",
@@ -5543,14 +5947,35 @@
     "US": {
      "side": "US",
      "commander_id": "us-george-h-thomas",
-     "grade": "B",
+     "grade": "A",
      "rule": "2",
-     "echelon": "unknown",
-     "labels": [],
+     "echelon": "corps_or_wing",
+     "labels": [
+      "superior_directing"
+     ],
      "candidates": [],
      "successor": null,
-     "superior": null,
-     "superior_citations": [],
+     "superior": "us-william-s-rosecrans",
+     "superior_citations": [
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "TN017"
+       },
+       "column": "description",
+       "quote": "he feigned an attack on Shelbyville but massed against Bragg's right. His troops struck out toward the gaps",
+       "battle_id": "TN017"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 0
+       },
+       "source_id": "cist-tullahoma-selections-v1",
+       "quote": "each one received in writing his orders as to his part in the movement.",
+       "battle_id": "TN017"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -5562,9 +5987,36 @@
        "column": "rank",
        "quote": "Major General",
        "battle_id": "TN017"
+      },
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "TN017"
+       },
+       "column": "description",
+       "quote": "Maj. Gen. George H. Thomas's men, on the 24th, forced Hoover's Gap.",
+       "battle_id": "TN017"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 0
+       },
+       "source_id": "cist-tullahoma-selections-v1",
+       "quote": "\"The Fourteenth Corps, Major-General Thomas, to advance on the Manchester pike, seize and hold with its advance, if practicable, Hoover's Gap,",
+       "battle_id": "TN017"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 0
+       },
+       "source_id": "cist-tullahoma-selections-v1",
+       "quote": "On the 24th, General Thomas moved direct on the Manches- ter pike from Murfreesboro, Beynolds's division in advance,",
+       "battle_id": "TN017"
       }
      ],
-     "rationale": "Single CWSAC listing. Cist describes Reynolds's division and Wilder's brigade in advance; no inspected passage states or contradicts Thomas's command."
+     "rationale": "The description has Thomas's men forcing Hoover's Gap on the 24th. Cist gives Rosecrans's written order for the Fourteenth Corps, under Thomas, to seize the gap, and says Thomas moved on the Manchester pike with Reynolds's division in advance (rule 2; superior_directing: Rosecrans)."
     },
     "Confederate": {
      "side": "Confederate",
@@ -5613,7 +6065,7 @@
        "battle_id": "TN017"
       }
      ],
-     "rationale": "Bate says he took command of the detachment in person, and that Stewart arrived with reinforcements about sundown and assumed command (rule 2, third bullet; rule 4)."
+     "rationale": "Bate says he took command of the detachment in person, and that Stewart arrived with reinforcements about sundown and assumed command (rule 2, third bullet; rule 4). Before Bate's detachment, Butler's 3rd Kentucky Cavalry picket was driven from the gap; Bate's detachment was sent on Stewart's order, so rule 2's second bullet could keep Stewart. The dispute stays visible (grade C)."
     }
    }
   },
@@ -5672,7 +6124,7 @@
     "Confederate": {
      "side": "Confederate",
      "commander_id": "cs-d-h-hill",
-     "grade": "A",
+     "grade": "B",
      "rule": "2",
      "echelon": "unknown",
      "labels": [],
@@ -5691,18 +6143,9 @@
        "column": "rank",
        "quote": "Lieutenant General",
        "battle_id": "TN018"
-      },
-      {
-       "dossier": {
-        "claim_id": "command-roles",
-        "citation_index": 2
-       },
-       "source_id": "or30-2-hill-chattanooga-selections-v1",
-       "quote": "I ordered Cleburne’s division to Harrison,",
-       "battle_id": "TN018"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "Single CWSAC listing (Lieutenant General). Hill's report shows him commanding a corps camped about Tyner's Station and ordering Cleburne's division to Harrison after the shelling revealed the Federals; no inspected passage states that he commanded the Confederate forces at Chattanooga when the shelling began, and none contradicts the listing."
     }
    }
   },
@@ -5957,6 +6400,13 @@
        "column": "description",
        "quote": "Confederate Lt. Gen. James Longstreet and Gen. Braxton Bragg decided to mount a night attack on Wauhatchie Station",
        "battle_id": "TN021"
+      },
+      {
+       "source_id": "cist-reopening-tennessee-selections-v1",
+       "section": "brown-ferry-and-wauhatchie",
+       "locator": "p.241 (OCR page markers; not checked against print)",
+       "quote": "Dividing his com- mand into two detachments, Longstreet, about an hour later, with his strong one on his left, assaulted Geary's camp",
+       "battle_id": "TN021"
       }
      ],
      "citations": [
@@ -5972,7 +6422,7 @@
        "battle_id": "TN021"
       }
      ],
-     "rationale": "Single CWSAC listing; no inspected passage states Jenkins's command. The description has Longstreet and Bragg deciding on the night attack (superior_directing: Longstreet)."
+     "rationale": "Single CWSAC listing; no inspected passage states Jenkins's command. The description has Longstreet and Bragg deciding on the night attack, and Cist, an interested Union history written after the war, has Longstreet dividing his command and leading the left detachment against Geary. This is read as the corps commander directing within the theater (superior_directing: Longstreet), not as a contradiction of the listing; the literal reading would give Longstreet at grade C."
     }
    }
   },
@@ -6835,9 +7285,9 @@
     "Confederate": {
      "side": "Confederate",
      "commander_id": "cs-lawrence-obryan-branch",
-     "grade": "B",
+     "grade": "A",
      "rule": "2",
-     "echelon": "unknown",
+     "echelon": "brigade",
      "labels": [],
      "candidates": [],
      "successor": null,
@@ -6854,9 +7304,27 @@
        "column": "rank",
        "quote": "Brigadier General",
        "battle_id": "VA013"
+      },
+      {
+       "dossier": {
+        "claim_id": "porter-and-martindale",
+        "citation_index": 0
+       },
+       "source_id": "webb-peninsula-selections-v1",
+       "quote": "came in direct col- lision with a portion of Branch's command",
+       "battle_id": "VA013"
+      },
+      {
+       "dossier": {
+        "claim_id": "porter-and-martindale",
+        "citation_index": 0
+       },
+       "source_id": "webb-peninsula-selections-v1",
+       "quote": "Branch's large brigade",
+       "battle_id": "VA013"
       }
      ],
-     "rationale": "Single CWSAC listing; no inspected passage states or contradicts the command."
+     "rationale": "A cited passage states the command."
     }
    }
   },
@@ -7203,11 +7671,23 @@
      "grade": "A",
      "rule": "2",
      "echelon": "division",
-     "labels": [],
+     "labels": [
+      "superior_directing"
+     ],
      "candidates": [],
      "successor": null,
-     "superior": null,
-     "superior_citations": [],
+     "superior": "us-mcdowell",
+     "superior_citations": [
+      {
+       "dossier": {
+        "claim_id": "detachment-without-orders",
+        "citation_index": 0
+       },
+       "source_id": "ropes-northern-virginia-selections-v1",
+       "quote": "This action of McDowell's, taken, as it was, on his own responsibility",
+       "battle_id": "VA025"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -7230,7 +7710,7 @@
        "battle_id": "VA025"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "A cited passage states the command. Ropes attributes the detachment to McDowell on his own responsibility (superior_directing: McDowell)."
     },
     "Confederate": {
      "side": "Confederate",
@@ -7467,9 +7947,11 @@
      "grade": "A",
      "rule": "2",
      "echelon": "army",
-     "labels": [],
+     "labels": [
+      "command_changed"
+     ],
      "candidates": [],
-     "successor": null,
+     "successor": "us-couch",
      "superior": null,
      "superior_citations": [],
      "citations": [
@@ -7501,9 +7983,27 @@
        "source_id": "doubleday-chancellorsville-selections-v2",
        "quote": "General Hooker had under him a force of about 124,500 men of all arms,",
        "battle_id": "VA032"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 4
+       },
+       "source_id": "doubleday-chancellorsville-selections-v2",
+       "quote": "it was some time before he turned over the com- mand to Couch, who was second in rank.",
+       "battle_id": "VA032"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 4
+       },
+       "source_id": "doubleday-chancellorsville-selections-v2",
+       "quote": "although he soon resumed the command.",
+       "battle_id": "VA032"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "A cited passage states the command. Doubleday says that after Hooker was injured on May 3 he turned over the command to Couch, second in rank, and soon resumed it (rule 4; temporary)."
     },
     "Confederate": {
      "side": "Confederate",
@@ -7596,7 +8096,7 @@
        "battle_id": "VA033"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "A cited passage states the command. Sedgwick quotes Hooker that he was too far away to direct his operations, so no superior_directing is recorded."
     },
     "Confederate": {
      "side": "Confederate",
@@ -7631,7 +8131,7 @@
        "battle_id": "VA033"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "A cited passage states the command. Lee ordered McLaws to reinforce Wilcox, who first held Salem Church; Lee directed from Chancellorsville."
     }
    }
   },
@@ -7649,11 +8149,32 @@
      "grade": "A",
      "rule": "2",
      "echelon": "corps_or_wing",
-     "labels": [],
+     "labels": [
+      "superior_directing"
+     ],
      "candidates": [],
      "successor": null,
-     "superior": null,
-     "superior_citations": [],
+     "superior": "us-joseph-hooker",
+     "superior_citations": [
+      {
+       "dossier": {
+        "claim_id": "orders",
+        "citation_index": 0
+       },
+       "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+       "quote": "directing me to cross the Rappahannock at Fredericksburg immediately upon receipt of the order, and move in the direction of Chancellorsville until I connected with the major-general commanding ; to attack and destroy any force on the road",
+       "battle_id": "VA034"
+      },
+      {
+       "dossier": {
+        "claim_id": "orders",
+        "citation_index": 0
+       },
+       "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+       "quote": "leaving him free to proceed against the forces under General Hooker.",
+       "battle_id": "VA034"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -7676,7 +8197,7 @@
        "battle_id": "VA034"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "A cited passage states the command. Sedgwick says the commanding general ordered him to cross at Fredericksburg and attack and destroy any force on the road (superior_directing: Hooker)."
     },
     "Confederate": {
      "side": "Confederate",
@@ -7684,11 +8205,23 @@
      "grade": "A",
      "rule": "2",
      "echelon": "division",
-     "labels": [],
+     "labels": [
+      "superior_directing"
+     ],
      "candidates": [],
      "successor": null,
-     "superior": null,
-     "superior_citations": [],
+     "superior": "cs-robert-e-lee",
+     "superior_citations": [
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "VA034"
+       },
+       "column": "description",
+       "quote": "Gen. Robert E. Lee left Maj. Gen. Jubal A. Early's division to hold Fredericksburg",
+       "battle_id": "VA034"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -7711,7 +8244,7 @@
        "battle_id": "VA034"
       }
      ],
-     "rationale": "A cited passage states the command."
+     "rationale": "A cited passage states the command. Lee left Early's division to hold Fredericksburg (superior_directing: Lee), treated like VA107."
     }
    }
   },
@@ -7726,9 +8259,9 @@
     "US": {
      "side": "US",
      "commander_id": "us-g-k-warren",
-     "grade": "B",
+     "grade": "A",
      "rule": "2",
-     "echelon": "unknown",
+     "echelon": "corps_or_wing",
      "labels": [],
      "candidates": [],
      "successor": null,
@@ -7745,9 +8278,23 @@
        "column": "rank",
        "quote": "Major General",
        "battle_id": "VA040"
+      },
+      {
+       "source_id": "humphreys-bristoe-selections-v1",
+       "section": "bristoe-station",
+       "locator": "p.25 (OCR running head; not checked against print)",
+       "quote": "the head of Warren's Second Corps, Webb's division, appeared,",
+       "battle_id": "VA040"
+      },
+      {
+       "source_id": "humphreys-bristoe-selections-v1",
+       "section": "bristoe-station",
+       "locator": "p.29 (OCR running head; not checked against print)",
+       "quote": "General Warren states that his force on the field at the time of the engagement, was about 3,000 infantry,",
+       "battle_id": "VA040"
       }
      ],
-     "rationale": "Single CWSAC listing. Humphreys praises the handling of the Second Corps without naming Warren; no inspected passage states the command."
+     "rationale": "Humphreys (an interested history by the Army of the Potomac's chief of staff) names 'Warren's Second Corps' as the force Heth's division struck at Bristoe and gives Warren's own statement of his force on the field. A cited passage states the command. Humphreys also shows army headquarters directing the corps, in passive voice; not labelled."
     },
     "Confederate": {
      "side": "Confederate",
@@ -7965,15 +8512,17 @@
    "sides": {
     "US": {
      "side": "US",
-     "commander_id": "us-robert-schenck",
+     "commander_id": "us-robert-milroy",
      "grade": "A",
      "rule": "3a",
-     "echelon": "unknown",
-     "labels": [],
-     "candidates": [
-      "us-robert-milroy"
+     "echelon": "brigade",
+     "labels": [
+      "command_changed"
      ],
-     "successor": null,
+     "candidates": [
+      "us-robert-schenck"
+     ],
+     "successor": "us-robert-schenck",
      "superior": null,
      "superior_citations": [],
      "citations": [
@@ -8005,20 +8554,38 @@
         "citation_index": 0
        },
        "source_id": "allan-valley-selections-v1",
-       "quote": "with the approval of Gen. Schenck, who, as senior, now com-",
+       "quote": "Gen. Milroy sent out parties of skirmishers through tlie forest which covered the western side and base of Sitlington's hill, and also opened witli a section of artillery",
        "battle_id": "VA102"
       },
       {
        "dossier": {
         "claim_id": "senior-command-and-attack",
-        "citation_index": 1
+        "citation_index": 0
        },
        "source_id": "allan-valley-selections-v1",
-       "quote": "manded, moved forward with portions of his own brigade",
+       "quote": "IVIilroy had been reinforced by the arrival of Schenck's brigade",
+       "battle_id": "VA102"
+      },
+      {
+       "dossier": {
+        "claim_id": "senior-command-and-attack",
+        "citation_index": 0
+       },
+       "source_id": "allan-valley-selections-v1",
+       "quote": "with the approval of Gen. Schenck, who, as senior, now com-",
+       "battle_id": "VA102"
+      },
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "VA102"
+       },
+       "column": "description",
+       "quote": "Milroy seized the initiative and assaulted the Confederate position on Sitlington's Hill",
        "battle_id": "VA102"
       }
      ],
-     "rationale": "Both listed brigadier generals. Allan says Milroy advanced \"with the approval of Gen. Schenck, who, as senior, now commanded\" (rule 3(a))."
+     "rationale": "Both listed brigadier generals. Allan has Milroy's skirmishers and artillery engage the Confederate reconnaissance, then Milroy 'reinforced by the arrival of Schenck's brigade', after which Schenck 'as senior, now commanded' and approved the assault (rule 3(a); rule 4, successor Schenck). The skirmish is not separately dated in the selection; the same-day sequence rests on Allan's narrative and the May 8 frozen interval."
     },
     "Confederate": {
      "side": "Confederate",
@@ -8103,7 +8670,7 @@
     "Confederate": {
      "side": "Confederate",
      "commander_id": "cs-thomas-j-jackson",
-     "grade": "B",
+     "grade": "A",
      "rule": "2",
      "echelon": "unknown",
      "labels": [],
@@ -8122,9 +8689,18 @@
        "column": "rank",
        "quote": "Major General",
        "battle_id": "VA103"
+      },
+      {
+       "dossier": {
+        "claim_id": "bridge-damage-and-pursuit",
+        "citation_index": 0
+       },
+       "source_id": "allan-valley-selections-v1",
+       "quote": "Gen. Jack- son, without waiting for more, dashed with this force up the turnpike",
+       "battle_id": "VA103"
       }
      ],
-     "rationale": "Single CWSAC listing; no inspected passage states or contradicts the command."
+     "rationale": "Allan has Jackson himself dashing with the pursuing force up the turnpike during the Front Royal fight. A cited passage states the command."
     }
    }
   },
@@ -8195,7 +8771,7 @@
        "battle_id": "VA104"
       }
      ],
-     "rationale": "Single CWSAC listing. The frozen description names Jackson's and Ewell's divisions separately and does not state who commanded both."
+     "rationale": "Single CWSAC listing. The frozen description names Jackson's and Ewell's divisions separately and does not state who commanded both. Allan quotes Trimble that the orders to move on Winchester were sent by Jackson to Ewell's division (secondhand, the day before); not cited, so grade B stands."
     }
    }
   },
@@ -8327,7 +8903,7 @@
      "commander_id": "cs-thomas-j-jackson",
      "grade": "A",
      "rule": "2",
-     "echelon": "unknown",
+     "echelon": "army",
      "labels": [],
      "candidates": [],
      "successor": null,
@@ -8591,7 +9167,7 @@
        "battle_id": "WV010"
       }
      ],
-     "rationale": "Palfrey puts 9,000 men at Harper's Ferry \"under Colonel Miles\"; Palfrey says General White succeeded to the command when Miles was mortally wounded (rule 4)."
+     "rationale": "Palfrey puts 9,000 men at Harper's Ferry \"under Colonel Miles\"; Palfrey says General White succeeded to the command when Miles was mortally wounded (rule 4). NPS has Miles surrender and then be mortally wounded; Palfrey has White succeed on Miles's wound and then surrender. The command_changed label rests on Palfrey; neither disputes Miles at the start."
     },
     "Confederate": {
      "side": "Confederate",
@@ -8599,11 +9175,32 @@
      "grade": "B",
      "rule": "2",
      "echelon": "unknown",
-     "labels": [],
+     "labels": [
+      "superior_directing"
+     ],
      "candidates": [],
      "successor": null,
-     "superior": null,
-     "superior_citations": [],
+     "superior": "cs-robert-e-lee",
+     "superior_citations": [
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "WV010"
+       },
+       "column": "description",
+       "quote": "Lee decided to surround the force and capture it.",
+       "battle_id": "WV010"
+      },
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "WV010"
+       },
+       "column": "description",
+       "quote": "He divided his army into four columns, three of which converged upon and invested Harpers Ferry.",
+       "battle_id": "WV010"
+      }
+     ],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -8617,7 +9214,7 @@
        "battle_id": "WV010"
       }
      ],
-     "rationale": "Single CWSAC listing. The description says Jackson took possession, and Palfrey describes Jackson, McLaws and Walker converging in separate columns; no inspected passage states who commanded the investing forces."
+     "rationale": "Single CWSAC listing. The description says Jackson took possession, and Palfrey describes Jackson, McLaws and Walker converging in separate columns; no inspected passage states who commanded the investing forces. Lee decided to surround and capture the garrison and divided his army into converging columns (superior_directing: Lee)."
     }
    }
   },
@@ -8871,7 +9468,7 @@
    "containing": "MS011",
    "contained": "LA011",
    "outcome": "not_nested",
-   "reason": "Milliken's Bend, Louisiana, was a separate attack on the west bank; the Vicksburg record covers the investment of the city.",
+   "reason": "Milliken's Bend, Louisiana, was a separate attack on the west bank by McCulloch's brigade, which was not part of Pemberton's army at Vicksburg. The inspected passages do not exclude the Union African Brigade and 23rd Iowa from MS011's Union force scope.",
    "citations": [
     {
      "source_id": "arnold-cwsac-battles",
@@ -8888,7 +9485,7 @@
    "containing": "VA026",
    "contained": "VA025",
    "outcome": "not_nested",
-   "reason": "The Second Manassas description has Longstreet arriving from Thoroughfare Gap; the gap fighting was a separate action.",
+   "reason": "The Second Manassas description has Longstreet arriving from Thoroughfare Gap and does not narrate the gap fight, a separate action. Its force scope (Longstreet's wing) does include the units that fought at the gap.",
    "citations": [
     {
      "source_id": "arnold-cwsac-battles",
@@ -8956,7 +9553,7 @@
    "containing": "WV010",
    "contained": "MD002",
    "outcome": "not_nested",
-   "reason": "The Harpers Ferry description covers the investment by three converging columns; the South Mountain passes were a separate action.",
+   "reason": "The Harpers Ferry description covers the investment by three converging columns; the South Mountain passes were a separate action. The force scopes partly overlap: Palfrey has McLaws send Cobb from an investing column to take command at Crampton's Gap. Only outcome-only view (ii) is affected.",
    "citations": [
     {
      "source_id": "arnold-cwsac-battles",
