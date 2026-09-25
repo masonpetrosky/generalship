@@ -1,0 +1,15 @@
+{
+  "kind": "commander_rating_authorization",
+  "schema_version": 1,
+  "decision_date": "2026-09-25",
+  "design": "docs/commander-ratings.md section 7",
+  "strength_ledger": {"path": "data/estimates/side-strength-v1.json", "sha256": "0656b03cbdaa088849dc3795f9c6a9e9d6762be10f53f28e4285be46f7fcde89"},
+  "command_ledger": {"path": "data/command/responsibility-v1.json", "sha256": "0e3f1443de726cb742e03c4771657efb7c86508f2988a17b10818f1c9ecdd67e"},
+  "registry": {"path": "data/command/commanders-v1.json", "sha256": "2b3bbef5dced291b3392d05b541bef8dae689c698e34603603e7d0b4ef0706b1"},
+  "code_commit": "0bdc480d902fa6b17f7ac663fdd862feac70d560",
+  "question_put_to_owner": "Do you authorize the rating run for these exact files? Strength ledger data/estimates/side-strength-v1.json: 0656b03cbdaa088849dc3795f9c6a9e9d6762be10f53f28e4285be46f7fcde89; Command ledger data/command/responsibility-v1.json: 0e3f1443de726cb742e03c4771657efb7c86508f2988a17b10818f1c9ecdd67e; Commander registry data/command/commanders-v1.json: 2b3bbef5dced291b3392d05b541bef8dae689c698e34603603e7d0b4ef0706b1. If you say yes, I'll record the authorization, run it, and send the code and results to a separate review before reporting back.",
+  "owner_response": "Yeah, sounds good to me",
+  "recorded_by": "primary agent (Claude Opus 5.5), from the owner's chat reply",
+  "admits_feature": false,
+  "changes_baseline": false
+}
