@@ -14,8 +14,14 @@ Nothing here admits a feature, fits a model, rates anyone or changes the baselin
 ## Scope
 
 - **Cohort.** [Cohort v2](cohort-v2.md) (`data/pilot/cohort-v2.json`): 384 engagements. The
-  decisive, non-aggregate rule is unchanged, so 317 engagements are in scope and 67 are listed
-  as out of scope with their reason. Of the 317, 91 are the v1 engagements and 226 are new.
+  decisive, non-aggregate rule is unchanged; 317 engagements meet it.
+- **Two-sided rule.** Both ledgers describe a US side and a Confederate side. Twelve decisive
+  records list a third belligerent, "Native American", in the frozen commander or forces rows:
+  CO001, ID001, MN001, MN002 and ND001–ND005 (US against Native forces) and OK001–OK003
+  (Confederate against Opothleyahola's force). They are out of scope, with that reason, because
+  the two-sided model does not apply to them. Their dossiers are unchanged and remain in the
+  research frame. So 305 engagements are in scope (91 from v1, 214 new) and 79 are listed as out
+  of scope with their reason.
 - **Carry-forward.** The 91 v1 entries of each ledger are copied unchanged, with their dossier
   bindings. They are not re-extracted or re-reviewed. A v1 dossier that has changed since its v1
   binding would be re-extracted; none has.
@@ -40,16 +46,21 @@ No other new source research is authorized for this layer. An unfilled side stay
 - **Strength.** Design §§2–6 apply unchanged, with the same constants. The engine is the
   unchanged `generalship/estimates.py`; `generalship/estimates_v2.py` replays a successor
   ledger against the cohort its bindings name. The v1 extractor policies apply.
-- **Command responsibility.** Design §2 rules 1–7, the grade table, labels, echelons and the
-  declared rank order apply unchanged; `generalship/command.py` replays the v2 ledger. Every
-  contained-interval pair in cohort v2 gets one nesting outcome.
+- **Command responsibility.** Design §2 rules 1–7, the grade table, labels and echelons apply
+  unchanged; `generalship/command.py` replays the v2 ledger. Every contained-interval pair among
+  the in-scope engagements gets one nesting outcome.
+- **Rank order.** Cohort v2's listings use ranks the v1 order does not declare. The v2 order
+  (`RANK_ORDER_V2`) inserts army Major, Captain and First Lieutenant below Lieutenant Colonel and
+  above Lieutenant, and navy Admiral above Rear Admiral and Lieutenant Commander, Lieutenant and
+  Master below Commander. "Brevet" and "Acting" rank as the named rank, as before. The v1 order and
+  ledger are unchanged.
 - **Registry.** Identical CWSAC name strings on one side are one person. Other merges need the
   listing's own fields (same side and surname; given names differ only by abbreviation or
   spelling) or a passage, and each is recorded with its basis.
 
 ## Review
 
-The 226 new entries of each ledger are reviewed in campaign batches by a separate Claude Opus 5.5
+The 214 new entries of each ledger are reviewed in campaign batches by a separate Claude Opus 5.5
 `high` reviewer, and every required finding is checked against its passage before it is applied.
 A reviewed v2 ledger is a reviewed estimate, not historical adjudication.
 

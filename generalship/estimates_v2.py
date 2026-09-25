@@ -36,6 +36,10 @@ def check(root, path=DEFAULT_LEDGER, ledger=None, only=None):
     battles = {r['battle']: r for r in read_csv(safe_path(root, sources['arnold-cwsac-battles']['path']))}
     forces = {(r['battle'], r['belligerent']): r for r in read_csv(safe_path(root, sources['arnold-cwsac-forces']['path']))}
     in_scope = sorted(b for b in cohort if battles[b]['result'] != 'Inconclusive' and battles[b]['operation'] != '1')
+    # Two-sided rule (docs/ledgers-v2.md): a record with any other listed belligerent is out of scope.
+    others = {b for (b, side) in forces if side not in SIDES}
+    others |= {r['battle'] for r in read_csv(safe_path(root, sources['arnold-cwsac-commanders']['path'])) if r['belligerent'] not in SIDES}
+    in_scope = [b for b in in_scope if b not in others]
     out_scope = sorted(set(cohort) - set(in_scope))
     engagements = {e['battle_id']: e for e in ledger['engagements']}
     if only is None:

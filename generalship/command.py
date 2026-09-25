@@ -19,6 +19,12 @@ NESTING = {'nested', 'not_nested', 'nesting_unresolved'}
 RANK_ORDER = {'army': ['General', 'Lieutenant General', 'Major General', 'Brigadier General', 'Colonel',
                        'Lieutenant Colonel', 'Lieutenant'],
               'navy': ['Rear Admiral', 'Flag Officer', 'Captain', 'Commander']}
+# The v2 ledger (docs/ledgers-v2.md) declares the further ranks that cohort v2's listings use;
+# the v1 order stays as the v1 ledger records it.
+RANK_ORDER_V2 = {'army': ['General', 'Lieutenant General', 'Major General', 'Brigadier General', 'Colonel',
+                          'Lieutenant Colonel', 'Major', 'Captain', 'First Lieutenant', 'Lieutenant'],
+                 'navy': ['Admiral', 'Rear Admiral', 'Flag Officer', 'Captain', 'Commander', 'Lieutenant Commander',
+                          'Lieutenant', 'Master']}
 # Grades each recorded rule can give (design §2 grade table).
 RULE_GRADES = {'2': {'A', 'B', 'C'}, '3a': {'A', 'C'}, '3b': {'C'}, '3c': {'D'}, '5': {'A', 'C', 'D'}, '6': {'D'}}
 
@@ -32,10 +38,10 @@ def require(condition, message):
         raise CommandError(message)
 
 
-def rank_level(rank, navy):
+def rank_level(rank, navy, rank_order=RANK_ORDER):
     """Position in the declared order; 'Brevet' and 'Acting' rank as the named rank."""
     base = rank.replace('Brevet ', '').replace('Acting ', '')
-    order = RANK_ORDER['navy' if navy == '1' else 'army']
+    order = rank_order['navy' if navy == '1' else 'army']
     require(base in order, f'Undeclared rank: {rank}')
     return order.index(base)
 
@@ -80,7 +86,10 @@ def check(root, path=DEFAULT_LEDGER, ledger=None, only=None, registry=None):
     for sid, b in ledger['bindings']['cited_sources'].items():
         require(sid in sources and source_metadata_digest(sources[sid]) == b['metadata_sha256']
                 and sources[sid]['sha256'] == b['raw_sha256'], f'Cited source binding mismatch: {sid}')
-    require(ledger['rank_order'] == RANK_ORDER, 'Rank order differs from the code')
+    version = ledger.get('version', 1)
+    require(version in (1, 2), 'Ledger version')
+    rank_order = RANK_ORDER_V2 if version == 2 else RANK_ORDER
+    require(ledger['rank_order'] == rank_order, 'Rank order differs from the code')
     if registry is None:
         registry = read_json(safe_path(root, ledger['bindings']['registry']['path']))
     registry = {c['id']: c for c in registry['commanders']}
@@ -94,6 +103,11 @@ def check(root, path=DEFAULT_LEDGER, ledger=None, only=None, registry=None):
     for r in read_csv(safe_path(root, sources['arnold-cwsac-commanders']['path'])):
         listings.setdefault((r['battle'], r['belligerent']), []).append(r)
     in_scope = sorted(b for b in cohort if battles[b]['result'] != 'Inconclusive' and battles[b]['operation'] != '1')
+    if version == 2:
+        # Two-sided rule (docs/ledgers-v2.md): a record with any other listed belligerent is out of scope.
+        others = {r['battle'] for r in read_csv(safe_path(root, sources['arnold-cwsac-forces']['path'])) if r['belligerent'] not in SIDES}
+        others |= {b for (b, side) in listings if side not in SIDES}
+        in_scope = [b for b in in_scope if b not in others]
     engagements = {e['battle_id']: e for e in ledger['engagements']}
     if only is None:
         require(sorted(engagements) == in_scope, 'Coverage: in-scope engagements differ')
@@ -139,10 +153,10 @@ def check(root, path=DEFAULT_LEDGER, ledger=None, only=None, registry=None):
                 require(s['rule'] == '5', f'{where}: mixed services require rule 5')
             elif len(listed) > 1:
                 require(s['rule'] in {'3a', '3b', '3c'}, f'{where}: several listings in one service require rule 3')
-                top = min(rank_level(r['rank'], r['navy']) for r in listed)
-                tied = sum(rank_level(r['rank'], r['navy']) == top for r in listed) > 1
+                top = min(rank_level(r['rank'], r['navy'], rank_order) for r in listed)
+                tied = sum(rank_level(r['rank'], r['navy'], rank_order) == top for r in listed) > 1
                 if s['rule'] == '3b':
-                    require(not tied and names[next(r['fullname'] for r in listed if rank_level(r['rank'], r['navy']) == top), side]
+                    require(not tied and names[next(r['fullname'] for r in listed if rank_level(r['rank'], r['navy'], rank_order) == top), side]
                             == s['commander_id'], f'{where}: rule 3(b) must choose the senior listed officer')
                 if s['rule'] == '3c':
                     require(tied, f'{where}: rule 3(c) needs a tie')

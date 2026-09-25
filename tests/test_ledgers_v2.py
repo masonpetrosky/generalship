@@ -40,3 +40,22 @@ class V2CheckerTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class V2RuleTests(unittest.TestCase):
+    def test_v2_rank_order_extends_v1_without_reordering_it(self):
+        for service in ('army', 'navy'):
+            v1, v2 = command.RANK_ORDER[service], command.RANK_ORDER_V2[service]
+            self.assertEqual([r for r in v2 if r in v1], v1)
+        self.assertLess(command.rank_level('Major', '0', command.RANK_ORDER_V2),
+                        command.rank_level('Captain', '0', command.RANK_ORDER_V2))
+        self.assertEqual(command.rank_level('Acting Master', '1', command.RANK_ORDER_V2),
+                         command.rank_level('Master', '1', command.RANK_ORDER_V2))
+        with self.assertRaises(command.CommandError):
+            command.rank_level('Major', '0')
+
+    def test_v1_ledger_rejects_the_v2_rank_order(self):
+        ledger = copy.deepcopy(read_json(ROOT / command.DEFAULT_LEDGER))
+        ledger['rank_order'] = command.RANK_ORDER_V2
+        with self.assertRaisesRegex(command.CommandError, 'Rank order'):
+            command.check(ROOT, ledger=ledger)
