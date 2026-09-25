@@ -12,6 +12,15 @@ Fisher), then the rest chronologically. Each campaign gets a separate Opus revie
 baseline, ledgers and first rating run are unchanged; extending the ledgers and rerunning the
 ratings on v2 need versioned successors and a new owner authorization.
 
+**Status, 2026-09-25: first-pass coverage is complete.** All 257 new engagements have draft
+dossiers (2,324 claims, 279 explicit unknowns, 11,976 citations, 660 disputed claims), each covered
+by one of 19 campaign-batch Claude Opus 5.5 `high` reviews whose required findings were checked
+and reconciled. The passes add 959 source records, 26 of them metadata-only review successors.
+Next: versioned v2 successors of the strength and command-responsibility ledgers under the accepted
+designs, for the 317 decisive, non-aggregate engagements of cohort v2 (226 new), each with separate
+campaign-batch review. A v2 rating run then needs a new owner authorization naming the ledger
+hashes.
+
 ## Previous priority — reviewed best-estimate strength ledger
 
 Owner decision, 2026-09-25: first-pass coverage is complete, and the

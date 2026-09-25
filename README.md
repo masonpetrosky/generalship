@@ -78,8 +78,12 @@ and command ledgers, an [estimate-layer evaluation](docs/research/estimate-evalu
 [first commander-rating run](docs/research/commander-ratings-v1.md), which found no detectable
 commander signal and so gave no ranking. The owner then asked for the rest of the war: the
 [cohort v2 frame](docs/cohort-v2.md) adds the other 257 source-listed engagements (83
-campaigns), researched by complete campaign, main 1864–65 armies first. Coverage status: we have
-one hundred twenty-seven draft dossiers and 0 engagements without one. Shiloh's repeated source
+campaigns), researched by complete campaign, main 1864–65 armies first. Coverage status: all
+384 source-listed engagements have draft dossiers. The 257 new first passes (2,324 claims, 279
+explicit unknowns, 11,976 citations, 660 disputed claims) each passed a separate Claude Opus 5.5
+`high` review in one of 19 campaign-batch reviews, and every required finding was checked and
+reconciled. They add 959 source records, 26 of them metadata-only review successors. Draft
+dossiers do not change model inputs. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.
