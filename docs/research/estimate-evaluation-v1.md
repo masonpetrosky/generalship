@@ -15,7 +15,8 @@ question, the reply, the ledger hash
 question did not put design §6 options (a) and (b) to the owner. The record applies option
 (a), an exploratory diagnostic outside the admission contract, because no option (b) admission
 profile exists; that choice is the recording agent's reading of the reply, not the owner's
-words.
+words. Asked afterwards whether that reading was right, the owner replied "Okay, yeah I'm fine
+with whatever you recommend" ([confirmation](../../data/estimates/evaluation-authorization-v1-confirmation.json)).
 `python3 -m generalship estimate-evaluate` (`make estimate-evaluation`) refuses to fit unless
 the record names the current ledger's hash, and it replays the ledger with `estimate-check`
 first. The gate cannot verify the relayed reply, and the §6 precondition that the ledger's
