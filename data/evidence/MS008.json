@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "battle_id": "MS008",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the ten frozen records without dossiers in Grant's Operations Against Vicksburg [March-July 1863]; the existing MS009 draft is unchanged. Preserve per-engagement dates. MS011's frozen siege interval (May 18–July 4) contains the separate Milliken's Bend (June 7), Goodrich's Landing (June 29–30) and Helena (July 4) engagements; campaign-wide loss figures must not be assigned to any one engagement. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Army of the Tennessee and the Jackson Garrison without counts; the live field reads zero. NPS says only about 6,000 troops were available and that Johnston could have had 11,000 by late on the 14th and 4,000 more by the next morning. Johnston says Gregg's and Walker's brigades were reported at 6,000 and that arrivals would have swelled his force to about 11,000; Greene gives the four brigades expected about 12,000. Johnston relayed prisoners' claims that the Union force at Jackson was half of Grant's army.",
+      "rationale": "Available, expected and opponent figures differ in scope; none is adopted as matched opening strength. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS008"
+          },
+          "column": "forces_text",
+          "quote": "Army of the Tennessee [US]; Jackson Garrison [CS]"
+        },
+        {
+          "source_id": "nps-ms008-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-ms008-v1",
+          "locator": "Description",
+          "quote": "only about 6,000 troops were available to defend the town."
+        },
+        {
+          "source_id": "nps-ms008-v1",
+          "locator": "Description",
+          "quote": "he could, by late on the 14th, have had 11,000 troops at his disposal and by the morning of the 15th, another 4,000."
+        },
+        {
+          "source_id": "or24-1-johnston-selections-v1",
+          "section": "johnston-1863-11-01-jackson",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "I found there the brigades of Gregg and Walker, reported at 6,000;"
+        },
+        {
+          "source_id": "or24-1-johnston-selections-v1",
+          "section": "johnston-1863-11-01-jackson",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "swell my force to about 11,000."
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "jackson",
+          "locator": "p.146 (OCR page markers; not checked against print)",
+          "quote": "The total strength of these four brigades was about 12,000 men."
+        },
+        {
+          "source_id": "or24-1-johnston-selections-v1",
+          "section": "johnston-1863-11-01-jackson",
+          "locator": "p.240 (OCR page markers; not checked against print)",
+          "quote": "If prisoners tell the truth, the forces at Jackson must be half of Grant’s army."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "intrenchments-and-ridge",
+      "dimension": "terrain",
+      "value": "Greene says Johnston posted a brigade on each road in intrenchments previously constructed on high ground commanding the approaches over open fields, with Walker on a semicircular ridge above a boggy creek. NPS says rain, resistance and poor defenses delayed heavy fighting until about 11 a.m.",
+      "rationale": "Existing works and positions chosen on the day are combined, and Greene's 'commanding' and NPS's 'poor defenses' differ in emphasis; boundaries unset and no map verification.",
+      "citations": [
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "jackson",
+          "locator": "p.146 (OCR page markers; not checked against print)",
+          "quote": "in intrenchments which had previously been constructed on"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "jackson",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "He occupied a fine posi- tion on the crest of a semi-circular ridge,"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "jackson",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "a boggy creek lined with thick willows."
+        },
+        {
+          "source_id": "nps-ms008-v1",
+          "locator": "Description",
+          "quote": "Rain, Confederate resistance, and poor defenses prevented heavy fighting until around 11:00 am,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rain-and-stores",
+      "dimension": "logistics",
+      "value": "Greene says torrential rain delayed McPherson's attack an hour and a half for fear of spoiling ammunition. Johnston says the resistance gave time to remove the public stores; Greene says 18 guns and much ammunition and stores were nevertheless taken on Gregg's front.",
+      "rationale": "Supply statements from a history and the commander's report; no inspected return.",
+      "citations": [
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "jackson",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "his attack was delayed for an hour and a half by the fear of spoiling their ammunition"
+        },
+        {
+          "source_id": "or24-1-johnston-selections-v1",
+          "section": "johnston-1863-11-01-jackson",
+          "locator": "p.240 (OCR page markers; not checked against print)",
+          "quote": "gave sufficient time for the removal of the public stores,"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "jackson",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "together with all their artillery (18 guns), and much ammunition and stores."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "arrival-and-dispatches",
+      "dimension": "information",
+      "value": "Johnston says he reached Jackson on the night of May 13, learned that four Union divisions at Clinton lay between him and Pemberton, and ordered Pemberton to come up on Sherman's rear. Greene says Johnston telegraphed Richmond 'I am too late'.",
+      "rationale": "Attributed knowledge and dispatches from the commander's report and a history; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "or24-1-johnston-selections-v1",
+          "section": "johnston-1863-11-01-jackson",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "Ou reaching Jackson, on the night of May 13,"
+        },
+        {
+          "source_id": "or24-1-johnston-selections-v1",
+          "section": "johnston-1863-11-01-jackson",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "that four divisions of the enemy, under Sherman, occupied Clinton,"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "jackson",
+          "locator": "p.146 (OCR page markers; not checked against print)",
+          "quote": "I am too late."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "delay-to-evacuate",
+      "dimension": "objectives",
+      "value": "NPS says Johnston ordered the evacuation of Jackson and had Gregg defend it until the evacuation was complete; Greene says the brigades were to make enough of a defence to gain time to remove stores. NPS says the Union corps intended to cut the city and railroads off from Vicksburg.",
+      "rationale": "Stated aims from a summary, a history and the commander's report; no inspected order text.",
+      "citations": [
+        {
+          "source_id": "nps-ms008-v1",
+          "locator": "Description",
+          "quote": "Johnston ordered the evacuation of Jackson, but Gregg was to defend Jackson until the evacuation was completed."
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "jackson",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "to make enough of a defence to gain time for him to remove stores"
+        },
+        {
+          "source_id": "nps-ms008-v1",
+          "locator": "Description",
+          "quote": "intending to cut the city and the railroads off from Vicksburg."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Johnston and Gregg against Grant; the live heading lists only Grant, as Lieutenant General, and Johnston, as Lieutenant Colonel, against the frozen Major General and General. Greene says Gregg made but a feeble resistance while Walker made more of a fight, and judges that Johnston seemed to wish to clear himself of responsibility in advance; NPS calls the evacuation a tragedy.",
+      "rationale": "Judgments are attributed to Greene and NPS; the frozen commanders do not receive automatic sole credit. The heading ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MS008",
+            "belligerent": "Confederate",
+            "fullname": "Joseph E. Johnston"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-ms008-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant Colonel Joseph Johnston [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MS008",
+            "belligerent": "Confederate",
+            "fullname": "John Gregg"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MS008",
+            "belligerent": "US",
+            "fullname": "Ulysses S. Grant"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ms008-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant General Ulysses Grant [US]"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "jackson",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "Gregg made but a feeble resistance."
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "jackson",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "Walker made more of a fight."
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "jackson",
+          "locator": "p.146 (OCR page markers; not checked against print)",
+          "quote": "desired to clear himself in advance of any responsibility for it,"
+        },
+        {
+          "source_id": "nps-ms008-v1",
+          "locator": "Description",
+          "quote": "Johnston's evacuation of Jackson was a tragedy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Johnston says his force retreated by the Canton road at 2 p.m.; his May 14 dispatch says Gregg evacuated about noon. Greene says the Union troops entered Jackson between 3 and 4 p.m.; NPS places Johnston's order to disengage in mid-afternoon.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The evacuation clocks differ and are not synchronized.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS008"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ms008-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or24-1-johnston-selections-v1",
+          "section": "johnston-1863-11-01-jackson",
+          "locator": "p.240 (OCR page markers; not checked against print)",
+          "quote": "at 2 p. m. we retreated by the Canton road,"
+        },
+        {
+          "source_id": "or24-1-johnston-selections-v1",
+          "section": "johnston-1863-11-01-jackson",
+          "locator": "p.240 (OCR page markers; not checked against print)",
+          "quote": "to evacuate Jackson about noon to-day."
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "jackson",
+          "locator": "p.148 (OCR page markers; not checked against print)",
+          "quote": "between 3 and 4 p.m."
+        },
+        {
+          "source_id": "nps-ms008-v1",
+          "locator": "Description",
+          "quote": "In mid-afternoon, Johnston informed Gregg that the evacuation was complete"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty texts read 1,136 total (US 286; CS 850). Greene says Sherman lost less than 30 and McPherson 265, that McPherson gave the enemy loss as 845 including many prisoners, and that the Confederate reports put their losses a little under 400.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen Confederate 850 is close to McPherson's 845 and far above the Confederate reports' figure as Greene gives it.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS008"
+          },
+          "column": "casualties_text",
+          "quote": "1,136 total (US 286; CS 850)"
+        },
+        {
+          "source_id": "nps-ms008-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1136 total (US 286; CS 850;)"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "jackson",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "Sherman lost less than 30 men."
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "jackson",
+          "locator": "p.148 (OCR page markers; not checked against print)",
+          "quote": "McPherson lost 265 men, and he gives the enemy's loss at 845,"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "jackson",
+          "locator": "p.148 (OCR page markers; not checked against print)",
+          "quote": "The Confederate reports make their losses a little less than 400."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Gregg's June 22 Jackson report, Walker's report, Sherman's and McPherson's reports and the returns remain deferred.",
+    "NPS/CWSAC is one family. Greene is one retrospective history by a non-participant, founded on the Official Records. Each report author selected from Official Records Volumes XXIV and XXII is a separate family of interested accounts; the volumes are shared containers, not additional witnesses, and letters or telegrams by others quoted inside a selected document are not separate families. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

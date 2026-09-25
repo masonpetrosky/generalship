@@ -22,7 +22,7 @@ wins a commander caused. No validated commander ranking exists here yet.
   dates, force ranges, missingness, outcome codes, and cohort membership.
 - A small regularized logistic baseline using relative force size. Evaluation
   holds out whole campaigns and compares with equal odds and a training-only prior.
-- Seventy-seven draft dossiers, including the sole frozen Cavalry Operations along the Rappahannock record,
+- Eighty-seven draft dossiers, including all eleven frozen Grant's Operations Against Vicksburg records,
   with exact source passages, explicit unknowns, command questions, and
   inherited/created distinctions. See the [coverage table](artifacts/pilot-report.md#draft-evidence-dossiers).
 - A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
@@ -73,7 +73,7 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 ## Research direction
 
 **Current priority: comparable coverage across the 127 engagements.** We have
-seventy-seven draft dossiers and 50 engagements without one. Shiloh's repeated source
+eighty-seven draft dossiers and 40 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.
@@ -138,7 +138,9 @@ its five required corrections are fixed and verified by the primary.
 The [Rappahannock cavalry pass](docs/research/rappahannock-cavalry-first-pass-v1.md) adds one
 dossier, 9 claims, 1 explicit unknown and 78 citations. Opus 5.5 `high` reviewed it;
 its four required corrections are fixed and verified by the primary.
-Next: **the eleven-record Grant's Operations Against Vicksburg**. See the
+The [Vicksburg 1863 pass](docs/research/vicksburg-1863-first-pass-v1.md) adds ten
+dossiers, 92 claims, 10 explicit unknowns and 369 citations. Separate review is pending.
+Next: **the three-record Chancellorsville Campaign**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.

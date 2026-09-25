@@ -68,6 +68,19 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Grant's Operations Against Vicksburg (1863) first pass, 2026-09-25
+
+The [ten-record memo](research/vicksburg-1863-first-pass-v1.md) adds **38 records**,
+bringing the registry to **417 entries / 414 raw paths**, preserving the previous
+**379/376**. Ten NPS battle HTML/text pairs remain in the NPS/CWSAC family. Catalog
+metadata and full OCR are pinned for Official Records Series I Volume XXIV Parts 1 and 2
+and Volume XXII Part 1 (Internet Archive `warofrebellion241unit`, `242unit`, `221unit`);
+the Part 2 imprint year is garbled in OCR and not substituted. Eleven report selections
+(Bowen, Sherman, Forney/Hébert, Gregg, Johnston, Pemberton, Dennis, McCulloch, Reid,
+Walker, Holmes), each its own independence group, and one Greene selection reusing
+`greene-mississippi-ocr-v1` complete the additions. Character ranges and
+whitespace-only normalization reproduce all sections. No model inputs are changed.
+
 ### Cavalry Operations along the Rappahannock first pass, 2026-09-25
 
 The [one-record memo](research/rappahannock-cavalry-first-pass-v1.md) adds **6 records**,

@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **77 draft dossiers / 127 engagements**, with **50 without a dossier**.
+There are **87 draft dossiers / 127 engagements**, with **40 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -217,8 +217,18 @@ found four citation, qualification and clock corrections, all fixed and
 [verified by the primary](../artifacts/review-results/rappahannock-cavalry-21f4bb1-opus-high-v1/primary-assessment.md).
 Coverage is **20/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Grant's Operations Against Vicksburg [March-July 1863]**, the next complete frozen
-group by earliest engagement date: **eleven records, MS004, MS005, MS006, MS007, MS008, MS009, MS010, MS011, LA011, LA014, AR008** (MS009 already has a draft).
+The [Grant's Operations Against Vicksburg first pass](research/vicksburg-1863-first-pass-v1.md)
+adds the **ten frozen records without dossiers (MS004–MS008, MS010, MS011, LA011, LA014,
+AR008)**, with **92 claims, 10 explicit unknowns and 369 citations** from NPS/CWSAC, a new
+Greene selection and eleven report selections from newly pinned Official Records Volumes
+XXIV (Parts 1 and 2) and XXII (Part 1). MS009 is unchanged. MS011's siege interval
+contains three separate engagements whose quantities are not added; the Goodrich's
+Landing surrender terms and every casualty comparison remain disputed. Separate review
+is pending.
+Coverage is **21/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Chancellorsville Campaign [April-May 1863]**, the next complete frozen
+group by earliest engagement date: **three records, VA032, VA033, VA034**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

@@ -44,11 +44,14 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | Battle | Claims | Explicit unknowns | Quantities | Events | Status |
 |---|---:|---:|---:|---:|---|
 | [AR006](../data/evidence/AR006.json) | 10 | 1 | 0 | 0 | draft |
+| [AR008](../data/evidence/AR008.json) | 9 | 1 | 0 | 0 | draft |
 | [KY005](../data/evidence/KY005.json) | 11 | 1 | 0 | 0 | draft |
 | [KY006](../data/evidence/KY006.json) | 11 | 2 | 0 | 0 | draft |
 | [KY007](../data/evidence/KY007.json) | 11 | 2 | 0 | 0 | draft |
 | [KY008](../data/evidence/KY008.json) | 10 | 1 | 0 | 0 | draft |
 | [KY009](../data/evidence/KY009.json) | 11 | 1 | 0 | 0 | draft |
+| [LA011](../data/evidence/LA011.json) | 9 | 1 | 0 | 0 | draft |
+| [LA014](../data/evidence/LA014.json) | 10 | 1 | 0 | 0 | draft |
 | [MD001](../data/evidence/MD001.json) | 11 | 2 | 0 | 0 | draft |
 | [MD002](../data/evidence/MD002.json) | 10 | 1 | 0 | 0 | draft |
 | [MD003](../data/evidence/MD003.json) | 9 | 5 | 0 | 0 | draft |
@@ -56,7 +59,14 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [MS001](../data/evidence/MS001.json) | 9 | 1 | 0 | 0 | draft |
 | [MS002](../data/evidence/MS002.json) | 10 | 1 | 0 | 0 | draft |
 | [MS003](../data/evidence/MS003.json) | 9 | 1 | 0 | 0 | draft |
+| [MS004](../data/evidence/MS004.json) | 9 | 1 | 0 | 0 | draft |
+| [MS005](../data/evidence/MS005.json) | 9 | 1 | 0 | 0 | draft |
+| [MS006](../data/evidence/MS006.json) | 9 | 1 | 0 | 0 | draft |
+| [MS007](../data/evidence/MS007.json) | 9 | 1 | 0 | 0 | draft |
+| [MS008](../data/evidence/MS008.json) | 9 | 1 | 0 | 0 | draft |
 | [MS009](../data/evidence/MS009.json) | 7 | 3 | 0 | 0 | draft |
+| [MS010](../data/evidence/MS010.json) | 9 | 1 | 0 | 0 | draft |
+| [MS011](../data/evidence/MS011.json) | 10 | 1 | 0 | 0 | draft |
 | [MS016](../data/evidence/MS016.json) | 12 | 2 | 0 | 0 | draft |
 | [NC002](../data/evidence/NC002.json) | 9 | 1 | 0 | 0 | draft |
 | [NC003](../data/evidence/NC003.json) | 9 | 2 | 0 | 0 | draft |
@@ -130,8 +140,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 77 engagements have dossiers; 50 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Cavalry Operations along the Rappahannock first pass](../docs/research/rappahannock-cavalry-first-pass-v1.md) adds the sole frozen record, Kelly's Ford: 9 claims, 1 explicit unknown and 60 citations from NPS/CWSAC and Averell's and Fitz Lee's reports in Official Records Volume XXV Part 1. The withdrawal and casualty disputes remain visible; separate campaign review is pending. Next take the complete eleven-record Grant's Operations Against Vicksburg. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 87 engagements have dossiers; 40 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Grant's Operations Against Vicksburg first pass](../docs/research/vicksburg-1863-first-pass-v1.md) adds the ten frozen records without dossiers: 92 claims, 10 explicit unknowns and 369 citations from NPS/CWSAC, Greene and eleven Official Records report selections. Nested siege intervals are not double counted, and disputes and casualty differences remain visible; separate campaign review is pending. Next take the complete three-record Chancellorsville Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

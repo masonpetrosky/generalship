@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "battle_id": "MS011",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the ten frozen records without dossiers in Grant's Operations Against Vicksburg [March-July 1863]; the existing MS009 draft is unchanged. Preserve per-engagement dates. MS011's frozen siege interval (May 18–July 4) contains the separate Milliken's Bend (June 7), Goodrich's Landing (June 29–30) and Helena (July 4) engagements; campaign-wide loss figures must not be assigned to any one engagement. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Army of the Tennessee and the Army of Vicksburg without counts; the live field reads zero. Greene gives about 20,000 effective defenders when the siege began, 40,000 Union infantry present for duty on May 22, and Grant's army at 71,141 men and 248 guns on June 30; by late June the garrison's returns showed nearly 22,000, with about 7,000 in the hospitals. Pemberton says the garrison held out against an enemy five times its number.",
+      "rationale": "Figures at different dates and scopes; none is adopted as matched opening strength. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS011"
+          },
+          "column": "forces_text",
+          "quote": "Army of the Tennessee [US]; Army of Vicksburg [CS]"
+        },
+        {
+          "source_id": "nps-ms011-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "siege-works-and-garrison",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "The troops for the defence numbered about 20,000 effec- tive men,"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "assault-of-may-22",
+          "locator": "p.184 (OCR page markers; not checked against print)",
+          "quote": "Of the 40,000 infantry present for duty in Grant's army that day"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "reinforcement",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "carried the total strength of Grant's army to 71,141 men, and 248 guns, on June 30th."
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "garrison-before-surrender",
+          "locator": "p.201 (OCR page markers; not checked against print)",
+          "quote": "so that their numbers now amounted to nearly 22,000,"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "garrison-before-surrender",
+          "locator": "p.201 (OCR page markers; not checked against print)",
+          "quote": "about 7,000 were in the hospitals."
+        },
+        {
+          "source_id": "or24-1-pemberton-selections-v1",
+          "section": "pemberton-surrender",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "They had held the place against an enemy five times their number,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "bluffs-and-works",
+      "dimension": "terrain",
+      "value": "Greene says Vicksburg stood on bluffs about 250 feet high cut by deep ravines that allowed no manoeuvre but suited fortification, and that the line, selected in autumn 1862, had been thoroughly fortified through the winter and spring, with batteries whose parapets were 25 feet thick, defended by 128 guns when the siege began.",
+      "rationale": "Inherited relative to the May 18 start; no map verification or numerical terrain effect.",
+      "citations": [
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "siege-works-and-garrison",
+          "locator": "p.174 (OCR page markers; not checked against print)",
+          "quote": "These bluffs are about 250 feet in height"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "siege-works-and-garrison",
+          "locator": "p.174 (OCR page markers; not checked against print)",
+          "quote": "no manoeuvres of troops are possible over it."
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "siege-works-and-garrison",
+          "locator": "p.175 (OCR page markers; not checked against print)",
+          "quote": "This line had been selected for fortification in the autumn of 1862, and during the winter and spring it had been most thoroughly fortified."
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "siege-works-and-garrison",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "the parapets of these batteries were 25 feet thick and 10 feet high,"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "siege-works-and-garrison",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "They were defended when the siege began by 128 pieces of artillery,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "rations-and-ammunition",
+      "dimension": "logistics",
+      "value": "Greene says the garrison was on reduced rations but not at starvation point, and its ammunition deficient but husbanded. Pemberton says reduced rations are undeniable but denies that want of subsistence compelled the surrender.",
+      "rationale": "Supply statements from a history and the defending commander's report; no inspected commissary return.",
+      "citations": [
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "garrison-before-surrender",
+          "locator": "p.200 (OCR page markers; not checked against print)",
+          "quote": "His men were on reduced rations, but were not at starva- tion point ;"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "garrison-before-surrender",
+          "locator": "p.200 (OCR page markers; not checked against print)",
+          "quote": "his ammunition was deficient., but it had been carefully husbanded during the siege,"
+        },
+        {
+          "source_id": "or24-1-pemberton-selections-v1",
+          "section": "pemberton-surrender",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "That the men were put ui)on greatly reduced rations is undeniably truej"
+        },
+        {
+          "source_id": "or24-1-pemberton-selections-v1",
+          "section": "pemberton-surrender",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "The assertion that the surrender of Vicksburg was compelled by the want ot subsistence, or that the garrison was starved out, is one entirely destitute of truth."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "hope-of-relief",
+      "dimension": "information",
+      "value": "Greene says Pemberton's hopes of relief diminished and then disappeared as June wore on. Pemberton says that, with his officers' unanimous opinion against evacuation and no relief from Johnston, surrender with or without terms was the only alternative left.",
+      "rationale": "The defending commander's account and a history; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "garrison-before-surrender",
+          "locator": "p.200 (OCR page markers; not checked against print)",
+          "quote": "Pemberton's hopes of re- lief began gradually to diminish, and then to disappear."
+        },
+        {
+          "source_id": "or24-1-pemberton-selections-v1",
+          "section": "pemberton-surrender",
+          "locator": "p.283 (OCR page markers; not checked against print)",
+          "quote": "and no relief from General Johnston, a surrender with or without terms was the only alternative left me."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surrender-terms-and-timing",
+      "dimension": "objectives",
+      "value": "Greene says Grant would offer only unconditional surrender, then formulated terms of individual paroles, and that Pemberton accepted them. Pemberton says he chose July 4 expecting better terms on that day.",
+      "rationale": "Stated aims from a history and the defending commander's report; Pemberton's reasoning about the date is his own.",
+      "citations": [
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "surrender-terms",
+          "locator": "p.204 (OCR page markers; not checked against print)",
+          "quote": "his only terms were an unconditional surrender of the city and gar- rison,"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "surrender-terms",
+          "locator": "p.205 (OCR page markers; not checked against print)",
+          "quote": "individual paroles signed by every officer and man,"
+        },
+        {
+          "source_id": "or24-1-pemberton-selections-v1",
+          "section": "pemberton-surrender",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "I believed that upon that day I should obtain better terms."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Pemberton says no brigade or regimental commander favored cutting out, that every division and brigade commander but Baldwin approved the terms, and that he surrendered because the men were overpowered and worn down. Greene judges the most potent cause to be the temper of the men. The live heading ranks Grant Lieutenant General against the frozen Major General.",
+      "rationale": "Stated reasons and judgments are attributed; the frozen commanders Grant and Pemberton do not receive automatic sole credit. The heading rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or24-1-pemberton-selections-v1",
+          "section": "pemberton-surrender",
+          "locator": "p.283 (OCR page markers; not checked against print)",
+          "quote": "not a solitary brigade or regimental commander favored the scheme of cutting out,"
+        },
+        {
+          "source_id": "or24-1-pemberton-selections-v1",
+          "section": "pemberton-surrender",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "were approved by every divis- ion and brigade commander with one exception"
+        },
+        {
+          "source_id": "or24-1-pemberton-selections-v1",
+          "section": "pemberton-surrender",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "but because they were overpowered by numbers, worn dov n with fatigue,"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "garrison-before-surrender",
+          "locator": "p.201 (OCR page markers; not checked against print)",
+          "quote": "It is probable that the most potent cause of surrender was the temper of the men."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MS011",
+            "belligerent": "US",
+            "fullname": "Ulysses S. Grant"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ms011-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant General Ulysses Grant [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "assault-of-may-22",
+      "dimension": "outcome",
+      "value": "Greene says the May 22 assault was unsuccessful at all points, that Grant's losses in the assaults of May 19 and 22 were over 4,000, and that the Confederate loss probably did not much exceed 500.",
+      "rationale": "One history's figures for the assaults inside the siege interval; not added to the siege totals.",
+      "citations": [
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "assault-of-may-22",
+          "locator": "p.184 (OCR page markers; not checked against print)",
+          "quote": "The result of the assault was therefore unsuccessful at all points."
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "assault-of-may-22",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "Grant's loss in the two assaults of May 19th and 22d were over 4,000,"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "assault-of-may-22",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "ably did not much exceed 500."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS says Vicksburg surrendered on July 4 after prolonged siege operations; Pemberton says the garrison was surrendered at 10 a.m.; Greene says 29,391 were paroled, 790 refused parole, and the force surrendered was about 31,000, with 172 guns.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. NPS's statements about the Confederacy being split and Grant's reputation are campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS011"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ms011-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-ms011-v1",
+          "locator": "Description",
+          "quote": "On July 4, Vicksburg surrendered after prolonged siege operations."
+        },
+        {
+          "source_id": "or24-1-pemberton-selections-v1",
+          "section": "pemberton-surrender",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "the garrison was surrendered at. 10 a. m.,"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "surrender-terms",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "was 29,391"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "surrender-terms",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "790 refused to be paroled,"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "surrender-terms",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "the total force surrendered was, in round numbers, 31,000."
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "surrender-terms",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "The artillery found in the place numbered 172 pieces,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 19,233 total (US 10,142; CS 9,091); the live field reads 37532 total (US 4835; CS 32697;). Greene says Grant's losses in the entire campaign, including the Jackson expedition, were a little less than 10,000, and that about 31,000 surrendered.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Greene's campaign-wide Union figure spans other frozen engagements and must not be assigned to the siege; the live Confederate figure appears to include the surrendered garrison. No figure is adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS011"
+          },
+          "column": "casualties_text",
+          "quote": "19,233 total (US 10,142; CS 9,091)"
+        },
+        {
+          "source_id": "nps-ms011-v1",
+          "locator": "Estimated Casualties",
+          "quote": "37532 total (US 4835; CS 32697;)"
+        },
+        {
+          "source_id": "greene-vicksburg-1863-selections-v1",
+          "section": "surrender-terms",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "Grant's losses in the entire campaign, including the expe- dition against Jackson, were a little less than 10,000,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Grant's, the corps commanders' and the Confederate division reports, Johnston's siege correspondence and the returns remain deferred.",
+    "NPS/CWSAC is one family. Greene is one retrospective history by a non-participant, founded on the Official Records. Each report author selected from Official Records Volumes XXIV and XXII is a separate family of interested accounts; the volumes are shared containers, not additional witnesses, and letters or telegrams by others quoted inside a selected document are not separate families. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
