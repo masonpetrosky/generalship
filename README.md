@@ -166,7 +166,8 @@ The [Bristoe Campaign pass](docs/research/bristoe-first-pass-v1.md) adds five
 dossiers, 45 claims, 5 explicit unknowns and 197 citations. Opus 5.5 `high` reviewed them;
 its four required corrections are fixed and verified by the primary.
 The [Reopening the Tennessee River pass](docs/research/reopening-tennessee-first-pass-v1.md) adds one
-dossier, 9 claims, 1 explicit unknown and 40 citations. Separate review is pending.
+dossier, 9 claims, 1 explicit unknown and 44 citations. Opus 5.5 `high` reviewed it;
+its five required corrections are fixed and verified by the primary.
 The [Memphis & Charleston Railroad pass](docs/research/memphis-charleston-first-pass-v1.md) adds one
 dossier, 9 claims, 1 explicit unknown and 41 citations. Separate review is pending.
 The [Averell's Raid pass](docs/research/averell-raid-first-pass-v1.md) adds one

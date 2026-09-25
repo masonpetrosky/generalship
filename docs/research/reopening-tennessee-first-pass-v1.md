@@ -2,9 +2,10 @@
 
 Prepared 2026-09-25. The sole frozen record in **Reopening the Tennessee River
 [October 1863]**, **TN021 — Wauhatchie** (October 28–29, 1863), now has a draft dossier:
-**9 claims, 1 explicit null unknown and 40 citation occurrences**, covering all seven
-dimensions from three families. Separate review is pending. The dossier remains a draft;
-no features are admitted.
+**9 claims, 1 explicit null unknown and 44 citation occurrences** after review correction,
+covering all seven dimensions from three families. Separate Claude Opus 5.5 `high`
+[review](../../artifacts/review-results/reopening-tennessee-a712311-opus-high-v1/review.md) found five required corrections, all applied and verified by the
+primary. The dossier remains a draft; no features are admitted.
 
 Coverage is **116/127 draft dossiers**, **11 without**, and **30/36 complete source
 campaigns by dossier presence**. All 115 earlier dossiers and all historical revisions
@@ -45,7 +46,7 @@ the earlier **531/512**. They are:
   Cist's "greatly superior numbers" is not a count. None is adopted.
 - **Casualties.** The frozen 828 (US 420; CS 408) and the live 572 (US 216; CS 356)
   differ. Cist gives 437 Union losses; Bratton's brigade total of 356 equals the live
-  Confederate figure. One inclosure row lacks a figure in OCR. The claim is disputed.
+  Confederate figure. Two inclosure rows show only three figures in OCR. The claim is disputed.
 - **Command roles.** Bratton says he was ordered to withdraw because of pressure in the
   rear. Cist credits Geary, Hooker and Orland Smith. These are attributed judgments, and no
   listed commander receives automatic sole credit.
@@ -56,6 +57,25 @@ effect or new commander ranking is introduced. The cohort and both admission pro
 are unchanged, with **zero promoted rows**. The baseline still uses **23/127 engagements
 in 13 eligible groups**, with strength Brier **0.276882** against **0.250000** for equal
 odds.
+
+## Review correction and validation
+
+The reviewer found five required corrections, all verified against the retained text
+(each new quote occurs once) and applied:
+
+- **R1** ties the Kelley's Ferry road to Geary's encampment.
+- **R2** narrows Hooker's order to Schurz's division and cites the live commanders.
+- **R3** removes an uncited clause about Bratton's regiments.
+- **R4** records two inclosure rows with only three figures in OCR.
+- **R5** reports the OCR "Borne three miles" and Cist's "ordered to encamp".
+
+Advisory A1 (the live 356 match does not establish its derivation) is adopted. A2 (the
+inherited Cist dependency count) is deferred. A3 (Jenkins's missing report and Law's
+report on the withdrawal order) remains deferred. Citations rise from 40 to 44; claims
+and unknowns are unchanged, and no source record changes. The original is retained as
+`data/evidence/history/TN021.v1.json`, linked by `supersedes`. The
+[primary assessment](../../artifacts/review-results/reopening-tennessee-a712311-opus-high-v1/primary-assessment.md) closes all five findings; no second
+reviewer pass is claimed.
 
 Next by frozen campaign start is **Operations on the Memphis & Charleston Railroad
 [November 1863]**: TN022. Do not start that group within this batch.

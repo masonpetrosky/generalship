@@ -311,10 +311,13 @@ OCR-reading, attribution and computation corrections, all fixed and
 Coverage is **29/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Reopening the Tennessee River first pass](research/reopening-tennessee-first-pass-v1.md) adds the
-sole **frozen record, TN021 (Wauhatchie)**, with **9 claims, 1 explicit unknown and 40
+sole **frozen record, TN021 (Wauhatchie)**, with **9 claims, 1 explicit unknown and 44
 citations** from NPS/CWSAC, a new Cist selection and Bratton's report in newly pinned
 Official Records Volume XXXI Part 1. The Brown's Ferry landing's losses are not added.
-Separate review is pending.
+Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/reopening-tennessee-a712311-opus-high-v1/review.md) found
+five attribution and OCR-reading corrections, all fixed and
+[verified by the primary](../artifacts/review-results/reopening-tennessee-a712311-opus-high-v1/primary-assessment.md).
 Coverage is **30/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Memphis & Charleston Railroad first pass](research/memphis-charleston-first-pass-v1.md) adds the
