@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "battle_id": "KY001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Barbourville record (September 19, 1861) in Operations in Eastern Kentucky [September-December 1861]. Zollicoffer's advance to Cumberland Ford is context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the Home Guard about 300 and Battle's detachment about 800; the live field reads US 300 and CS 800. Zollicoffer reports that an advanced force about 800 strong found about 300 of the enemy at Barbourville.",
+      "rationale": "The CWSAC figures match Zollicoffer's report; its basis is not stated and the match is not corroboration. No Union report was inspected. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY001"
+          },
+          "column": "forces_text",
+          "quote": "Home Guard (approx. 300 men) [US]; detachment of approx. 800 men under command of Col. Joel A. Battle [CS]"
+        },
+        {
+          "source_id": "nps-ky001-v1",
+          "locator": "Forces Engaged",
+          "quote": "1100 total (US 300; CS 800;)"
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-09-19",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "An advanced force sent out last night, about 800 strong, entered Barboursville, 18 miles from, here, about daylight, where they found about 300 of the enemy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ground",
+      "dimension": "terrain",
+      "value": null,
+      "rationale": "No inspected passage describes the ground at Barbourville beyond its distance from Cumberland Ford; no map was inspected.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "march-and-captures",
+      "dimension": "logistics",
+      "value": "Zollicoffer says Battle marched 34 miles and dispersed the enemy within twenty hours, destroyed Camp Andrew Johnson and captured about 25 arms; NPS says arms found there were seized.",
+      "rationale": "March and captures from an interested report and a summary; not a supply return.",
+      "citations": [
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-09-19",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "making a march of 34 miles and dispersing this detachment of the enemy within a period of twenty hours."
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-09-19",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "He destroyed their encampment, called Camp Andrew Johnson, and captured about 25 arms."
+        },
+        {
+          "source_id": "nps-ky001-v1",
+          "locator": "Description",
+          "quote": "the Confederates destroyed the training camp and seized arms found there."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recruits-gone-and-reports",
+      "dimension": "information",
+      "value": "NPS says the recruits had already been sent to Camp Dick Robinson. Zollicoffer reports a captured letter putting the Union camp at Hoskins' Cross-Roads at 15,000 and country reports of 20,000.",
+      "rationale": "Reports of enemy strength elsewhere, attributed to a letter and to rumor; not a verified count.",
+      "citations": [
+        {
+          "source_id": "nps-ky001-v1",
+          "locator": "Description",
+          "quote": "the force entered Barbourville and found the recruits gone; they had been sent to Camp Dick Robinson."
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-09-19",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "the strength of that camp is 15,000 and still rapidly increasing. We .now have a report from the country people that they are 20,000 strong."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "NPS says Battle was sent to disrupt the training at Camp Andrew Johnson; Zollicoffer's report states only what was done there.",
+      "rationale": "Aim from a summary; the report does not state an objective.",
+      "citations": [
+        {
+          "source_id": "nps-ky001-v1",
+          "locator": "Description",
+          "quote": "to disrupt the training activities at Camp Andrew Johnson"
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-09-19",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "He destroyed their encampment, called Camp Andrew Johnson"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Colonel Joel A. Battle and Captain Isaac J. Black. Zollicoffer says Battle commanded the detachment; only NPS names Black as commander of the home guard.",
+      "rationale": "Command roles from an interested report and a summary; no Union account was inspected and there is no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KY001",
+            "belligerent": "Confederate",
+            "fullname": "Joel A. Battle"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KY001",
+            "belligerent": "US",
+            "fullname": "Isaac J. Black"
+          },
+          "column": "rank",
+          "quote": "Captain"
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-09-19",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "Col. J. A. Battle commanded the detachment"
+        },
+        {
+          "source_id": "nps-ky001-v1",
+          "locator": "Description",
+          "quote": "A small home guard force commanded by Capt. Isaac J. Black met the Rebels"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Zollicoffer says the enemy fled precipitately (read 'tied' in OCR).",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY001"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ky001-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-09-19",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "The enemy tied precipitately."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text and the live field read 20 (US 15; CS 5). Zollicoffer reports 12 enemy killed and 2 taken prisoner, the enemy's wounded unknown, and his own loss 1 killed, 1 fatally wounded and 3 slightly wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The Union wounded are not reported, so the counts are not compared further.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY001"
+          },
+          "column": "casualties_text",
+          "quote": "20 total (US 15; CS 5)"
+        },
+        {
+          "source_id": "nps-ky001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "20 total (US 15; CS 5;)"
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-09-19",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "we killed 12 and took 2 prisoners."
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-09-19",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "We lost 1 killed, Lieutenant Powell, of Colonel Cum- miugs7 regiment, 1 fatally wounded, and 3 slightly wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "No Union report of the action appears in the inspected passages; Battle's own report, the home guard's side, returns and maps remain deferred. No nineteenth-century history covering the action was selected; this is a two-report or two-family first pass.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Zollicoffer's September 19 and October 20-26, 1861 reports are one family of interested Confederate accounts (the same author for Barbourville and Camp Wildcat). Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

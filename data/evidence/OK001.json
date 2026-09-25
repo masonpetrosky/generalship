@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "battle_id": "OK001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Round Mountain record (November 19, 1861) in Operations in the Indian Territory [November-December 1861]. Cooper's march from the Deep Fork and his return to Concharta are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Creeks and Seminoles and the Indian Department without figures; the live field is blank. The frozen description says Cooper set out with about 1,400; Cooper says about 1,400 moved up the Deep Fork and that Opothleyahola's force was variously estimated at 800 to 1,200 Creeks and Seminoles and 200 to 300 negroes. Britton gives Cooper fourteen hundred and says the chief estimated he could bring about fifteen hundred into the field.",
+      "rationale": "Column and estimated opposing figures; no return. No account by Opothleyahola's side was inspected; every figure for his force and losses is an opponent's estimate or a history's. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK001"
+          },
+          "column": "forces_text",
+          "quote": "Creek and Seminole [I]; Indian Department [CS]"
+        },
+        {
+          "source_id": "nps-ok001-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US ; CS ;)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK001"
+          },
+          "column": "description",
+          "quote": "Cooper set out on November 15, 1861, with about 1,400 men"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.5 (inferred: the running head is merged into the report heading in OCR, before the p.6 head; not checked against print)",
+          "quote": "in all about 1,400 men, were moved up the Deep Fork of the Canadian"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "has been variously estimated at from 800 to 1,200 Creeks and Seminoles and 200 to 300 negroes."
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.166 (OCR page markers; not checked against print)",
+          "quote": "fourteen hundred white and Indian troops"
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.165 (OCR page markers; not checked against print)",
+          "quote": "Of Indians and negroes he estimated that he could, perhaps, bring into the field about fifteen hundred men"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "creek-timber-and-darkness",
+      "dimension": "terrain",
+      "value": "Cooper says the scouts pursued disappeared into the timber skirting a creek where the main camp lay, near the Red Fork of the Arkansas, and that the darkness of the night made positions uncertain; Britton says it was getting dark as the attackers approached the timber.",
+      "rationale": "Ground and light conditions from an interested report and a history; no map verification.",
+      "citations": [
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.5 (inferred: the running head is merged into the report heading in OCR, before the p.6 head; not checked against print)",
+          "quote": "disappeared in the timber skirting a creek, upon which it was after- wards ascertained the forces of Hopoeithleyohola were then encamped."
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.166 (OCR page markers; not checked against print)",
+          "quote": "near the Red Fork of the Arkansas River."
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "Ihe exceeding darkness of the night rendered the relative positioi ot our friends and foes uncertain"
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.166 (OCR page markers; not checked against print)",
+          "quote": "It was getting dark as the Texas troops and Choctaw Indians approached the tim- ber"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "forage-and-abandoned-camp",
+      "dimension": "logistics",
+      "value": "Cooper says he did not pursue because the enemy had destroyed the forage and his horses were worn down, and lists a buggy, 12 wagons and provisions left in the abandoned camp; Britton says only a few old ponies and broken, useless wagons were found.",
+      "rationale": "Captured property is described differently by the report and the history; not a return.",
+      "citations": [
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.7 (OCR page markers; not checked against print)",
+          "quote": "the forage of the country had been destroyed by the enemy and the horses of my command worn down by rapid marches"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "the chief s buggy, 12 wagons, flour, sugar, coflee, salt"
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.167 (OCR page markers; not checked against print)",
+          "quote": "found a few old ponies and broken wagons, which were useless."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "prisoners-and-night",
+      "dimension": "information",
+      "value": "Cooper learned from prisoners that part of the band was near the Red Fork; in the dark he and Bourland rode forward to ask whether the approaching men were Texans and were answered by rifle fire.",
+      "rationale": "Knowledge attributed in an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.5 (inferred: the running head is merged into the report heading in OCR, before the p.6 head; not checked against print)",
+          "quote": "From those prisoners information was obtained that a portion of Hopoeithleyohola s party were near the Red Fork of the Arkansas River"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "Col. James Bourland, of Texas (my volunteei aide on the ocpasion), and myself rode to the front"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Cooper resolved to advance and either compel submission to the Creek authorities or drive Opothleyahola's party from the country. Britton says the chief determined to resist as far as he could.",
+      "rationale": "Stated aims from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.5 (inferred: the running head is merged into the report heading in OCR, before the p.6 head; not checked against print)",
+          "quote": "either com- pel submission to the authorities of the nation or drive him and his >artv from the country."
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.165 (OCR page markers; not checked against print)",
+          "quote": "he determined to make such resistance as was in his power"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Colonel Douglas H. Cooper and Opothleyahola (no rank recorded); the live page gives Cooper as Brigadier General and the chief as US. Cooper ordered Quayle's Texas cavalry to charge the camp and rode forward in person at the night encounter.",
+      "rationale": "Command roles from an interested report; no account by the chief was inspected, the live rank is not adopted, and there is no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OK001",
+            "belligerent": "Confederate",
+            "fullname": "Douglas H. Cooper"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OK001",
+            "belligerent": "Native American",
+            "fullname": "Opothleyahola"
+          },
+          "column": "fullname",
+          "quote": "Opothleyahola"
+        },
+        {
+          "source_id": "nps-ok001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Douglas Cooper [CS]"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.5 (inferred: the running head is merged into the report heading in OCR, before the p.6 head; not checked against print)",
+          "quote": "A charge was ordered to be made by the detachment of Texas cavalry, under command ot Lieu- tenant-Col'ouel Quayle, upon the camp"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "and myself rode to the front"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory; the frozen description says the Confederates claimed victory because the chief left the area. Cooper says the enemy made good his retreat under cover of darkness; Britton says the Union Indians drove the first attackers from the field before retreating north in the night.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK001"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ok001-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK001"
+          },
+          "column": "description",
+          "quote": "The Confederates claimed victory because Chief Opothleyahola had left the area."
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "under cover of the dark ness he made good his retreat."
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.166 (OCR page markers; not checked against print)",
+          "quote": "in less than half an hour drove their assail- ants from the field"
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.167 (OCR page markers; not checked against print)",
+          "quote": "retreated north during the night in the direction of Kansas."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads 10 (US 0; CS 10). Cooper gives his entire loss as 1 captain and 5 men killed and further wounded and missing in a garbled line, and prisoners' estimate of the enemy's loss as a figure read '1 10' in OCR. Britton says the attackers lost upward of twenty killed and wounded in the first repulse.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Cooper's garbled wounded figures are not decoded.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK001"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-ok001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "10 total (US 0; CS 10;)"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "Our entire loss m the engagement was 1 captain ana 5 men killed"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "the loss of the enemy to ha ve been about 1 10 killed and wounded."
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.166 (OCR page markers; not checked against print)",
+          "quote": "with the loss of upward of twenty men killed and wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The live NPS page has an empty description; the frozen CWSAC description is that family's narrative. Brinson's No. 2 and Young's No. 3 reports on Round Mountain, returns and maps remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cooper's January 20, 1862 report covers all three engagements and is an interested Confederate account; it is written after McIntosh's January 1 report and criticizes McIntosh. Wiley Britton's The Civil War on the Border, vol. I (second edition, 1891) is a retrospective history by a Union soldier of the border army, based by its title page on the official reports; it is not independent of the report families. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Carthage record (July 5, 1861) in Operations to Control Missouri [June-October 1861]. The State troops' retreat from Boonville, the Neosho capture of Conrad's company and Sigel's retreat to Mount Vernon are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigade and Missouri State Guard divisions with no figures; the live field reads zero. NPS says Sigel had about 1,000 and the Governor approximately 4,000. Sigel reports nine companies of the Third (550 effective) and seven of the Fifth (400) with two four-gun batteries, and estimates the enemy in sight at 3,500 besides a strong reserve (reported 4,000 the evening before). Snead gives Sigel 950 effective and 125 artillerymen with seven guns, and the Governor's line 2,600 infantry and artillery and about 1,500 mounted, with about 2,000 unarmed men sent to the rear.",
+      "rationale": "Effective and in-sight estimates by the opposing sides; Sigel counts two four-gun batteries while he and Snead both speak of seven pieces in action. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO002"
+          },
+          "column": "forces_text",
+          "quote": "Brigade [US]; Missouri State Guard divisions [CS]"
+        },
+        {
+          "source_id": "nps-mo002-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-mo002-v1",
+          "locator": "Description",
+          "quote": "Col. Franz Sigel led another force of about 1,000"
+        },
+        {
+          "source_id": "nps-mo002-v1",
+          "locator": "Description",
+          "quote": "approximately 4,000 State Militia"
+        },
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "Nine companies of the Third Regiment, with a total effective strength of 550 men j seven companies of the Fifth Regiment, numbering 400 men ; two batteries of artillery, four pieces each."
+        },
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "The whole force within our sight may have numbered 3,500 men, besides a strong reserve in the rear."
+        },
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "Jackson's troops, reported 4,000 strong"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "carthage",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "with an effective strength of nine hundred and fifty men, and seven pieces of artillery (one hundred and twenty-five men)"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "carthage",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "The line thus formed consisted of twenty-six hundred infantry and artillery"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "carthage",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "about fifteen hundred mounted men similarly armed. The unarmed men, of whom there were about two thousand, all mounted, were sent to the rear with the wagons."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "prairie-ridge-and-creeks",
+      "dimension": "terrain",
+      "value": "Sigel found the enemy in line on elevated ground rising from the creek, about a mile and a half off, after crossing Dry Fork Creek; his column then had to pass Buck's Branch, behind which the enemy's cavalry formed. Snead places the State line on the ridge of a prairie sloping to a creek bordered with timber and brush (the name is garbled in OCR), about nine miles north of Carthage; NPS says a ridge ten miles north.",
+      "rationale": "Ground described by an interested report, a participant history and a summary; distances and the creek name are not reconciled. No map verification.",
+      "citations": [
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "we found the enemy in line of battle on an elevated ground, gradually rising from the creek, and about one and a half miles distant."
+        },
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "They were posted behind a small creek, called Buck's Branch, which we had to pass."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "carthage",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "halted on the ridge of a prairie, which sloped gently down toward"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "carthage",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "As the engage- ment took place about nine miles north of Carthage"
+        },
+        {
+          "source_id": "nps-mo002-v1",
+          "locator": "Description",
+          "quote": "a ridge ten miles north of Carthage"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-train",
+      "dimension": "logistics",
+      "value": "Sigel says a battery commander declared he could not advance for want of ammunition, that the baggage train followed about three miles behind and that fear of losing it shaped his withdrawal, and that his men had marched 22 miles on the 4th and 18 on the 5th almost without eating or drinking. Snead says the unarmed men were sent to the rear with the wagons.",
+      "rationale": "Supply and fatigue conditions from an interested report and a history; not a return.",
+      "citations": [
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "unable to advance for want of ammunition."
+        },
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "The baggage train followed our troops at a distance of about three miles."
+        },
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "To lose our whole baggage was another consideration of importance"
+        },
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "after a march of 22 miles on the 4th and 18 miles on the 5th, been in action the whole day since 9 o'clock in the morning, exposed to an intense heat, and almost without eating or drinking."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-and-unarmed-men",
+      "dimension": "information",
+      "value": "Snead says the report from Carthage on the evening of July 4 was the State troops' first intimation that an enemy was in front, and that Sigel withdrew fearing the mounted force moving into the woods, not knowing it was unarmed; NPS says the same of the unarmed recruits. Sigel says the moral effect of the mounted regiments behind his lines could not be denied, though the real danger was not great.",
+      "rationale": "Attributed knowledge from a participant history, a summary and an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "carthage",
+          "locator": "p.223 (OCR page markers; not checked against print)",
+          "quote": "This was the first intimation that the State troops had that an enemy was in their front with intent to cut off their retreat."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "carthage",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "(for he did not know that they were not armed)"
+        },
+        {
+          "source_id": "nps-mo002-v1",
+          "locator": "Description",
+          "quote": "Seeing a large Confederate force-actually unarmed recruits-moving into the woods on his left, he feared that they would turn his flank."
+        },
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "The moral effect of the enemy's mounted regi ments behind our lines, although the real danger was not great, could not be denied."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Sigel says he resolved to march against the troops at Pool's Prairie and then turn north against Jackson and Rains. Snead says Sigel decided to throw himself in front of the Governor and hold him north of Spring River until Lyon came up.",
+      "rationale": "Stated aims from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.16 (OCR page markers; not checked against print)",
+          "quote": "I immediately resolved to march first against the troops at Pool's Prairie, and then, turning to the north, attack the forces of Jackson and Eains"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "carthage",
+          "locator": "p.222 (OCR page markers; not checked against print)",
+          "quote": "he decided to throw himself in front of Governor Jackson, and to hold him north of Spring River till Lyon could come up"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Governor Claiborne Jackson (spelled Clairborne) and Colonel Franz Sigel. Snead says the Governor assumed command in person and deployed the line, and that Weightman rapidly reformed his line after Essig's fire halted the pursuit. Sigel ordered the artillery to open and ordered part of the troops back behind Dry Fork Creek.",
+      "rationale": "Command roles from a participant history and an interested report; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO002",
+            "belligerent": "Confederate",
+            "fullname": "Clairborne Jackson"
+          },
+          "column": "rank",
+          "quote": "Governor"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO002",
+            "belligerent": "US",
+            "fullname": "Franz Sigel"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "carthage",
+          "locator": "p.223 (OCR page markers; not checked against print)",
+          "quote": "Governor Jackson thereupon assumed command in person of all his troops"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "carthage",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "The Governor at once deployed his men in line of battle"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "carthage",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "But Weightman rapidly reforming his line"
+        },
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "I ordered Major Backpf to commence his fire with all the seven pieces against the enemy's lines."
+        },
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "It was therefore with great mortification that I ordered one part of the troops behind Dry Fork Creek"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Sigel reports repulsing the cavalry at the creek crossing and retreating to Sarcoxie; Snead says Sigel continued his retreat in good order, followed by a rabble of State troops.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO002"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-mo002-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "After one round of our whole line, the infantry moved in double-quick time towards the enemy, and routed him completely."
+        },
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "From this place our troops passed unmolested to Sarcoxie."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "carthage",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "Sigel continued his retreat in good order, closely followed by a rabble of State troops"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 244 (US 44; CS 200); the live field reads 118 (US 44; CS 74). Sigel reports 13 killed and 31 wounded and estimates the enemy's loss at not less than 350 to 400; he also reports Conrad's company of 91 men captured at Neosho the same day. Snead gives thirteen killed and thirty-one wounded against ten killed and sixty-four wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The Neosho capture is a separate action and is not added.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO002"
+          },
+          "column": "casualties_text",
+          "quote": "244 total (US 44; CS 200)"
+        },
+        {
+          "source_id": "nps-mo002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "118 total (US 44; CS 74;)"
+        },
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "The losses of all the troops under my command on this day were 13 killed and 31 wounded."
+        },
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "the enemy's losses have not been less than 350 to 400."
+        },
+        {
+          "source_id": "or3-sigel-carthage-selections-v1",
+          "section": "sigel-1861-07-11",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "his company of 91 men at Seosho on the 5th of July."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "carthage",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "was thirteen killed and thirty-one wounded. The State troops lost ten killed and sixty-four wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The State Guard division and brigade reports (Rains, Weightman, Clark, Slack, Parsons), Sweeny's report and maps remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Thomas L. Snead's The Fight for Missouri (Scribner, 1886) is a retrospective history by the Missouri State Guard's acting adjutant-general and Price's chief of staff, who says he was with the Governor at Booneville and Carthage; it quotes Sigel's, Schofield and Sturgis's and Price's reports and is not independent of them. Sigel's July 11, 1861 report is an interested Union account. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

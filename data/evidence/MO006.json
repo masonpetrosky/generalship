@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO006",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Lexington record (September 13-20, 1861) in Operations to Control Missouri [June-October 1861]. The September 10-12 advance from Warrensburg and the failed relief columns are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the garrison about 3,500 and the State Guard 12,000; the live field agrees. Price reports about 3,500 prisoners and an army increasing hourly, with large reinforcements received before the 18th. Britton says Price knew of only about two thousand men at Lexington when he left Springfield and that Mulligan and Peabody held it with about three thousand; he gives Rains's division upward of three thousand and Parsons's three thousand, repeats Lane's report of ten thousand with seven guns, and counts 3,000 prisoners.",
+      "rationale": "Garrison, prisoner and division figures of different dates and scopes; no inspected return gives either side's strength on September 13 or 18. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO006"
+          },
+          "column": "forces_text",
+          "quote": "Garrison (approx. 3,500) [US]; Missouri State Guard (12,000) [CS]"
+        },
+        {
+          "source_id": "nps-mo006-v1",
+          "locator": "Forces Engaged",
+          "quote": "15500 total (US 3500; CS 12000;)"
+        },
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "about 3,500 prisoners"
+        },
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "an army increasing hourly in numbers and enthusiasm"
+        },
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "large re-enforcements having been received"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "dry-wood",
+          "locator": "p.121 (OCR page markers; not checked against print)",
+          "quote": "a small force of about two thousand men, composed of Missouri Home Guards and a regiment of Illinois volunteers under Colonel Mulli- gan"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "dry-wood",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "holding that place with about three thousand men."
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "lexington",
+          "locator": "p.137 (OCR page markers; not checked against print)",
+          "quote": "with his division of upward of three thousand men and two three- gun batteries"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "lexington",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "General Parsons, with a division of three thousand secessionists"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "lexington",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "marching on Lexington with ten thousand men and seven pieces of artillery."
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "lexington",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "3,000 prisoners."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "works-and-hemp-bales",
+      "dimension": "terrain",
+      "value": "Price says the garrison had strongly fortified the college; his men took the Anderson house position within 125 yards of the intrenchments and on the 20th advanced behind movable breastworks of hemp bales. Britton says Peabody and Mulligan began fortifying Lexington when they heard of Price's advance.",
+      "rationale": "Works built by the garrison and approaches made by the besiegers during the operation; no map verification.",
+      "citations": [
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "which building they had strongly fortified"
+        },
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "The important position thus secured was within 125 yards of the enemy's intrenchments."
+        },
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "movable breastworks were speedily constructed"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "lexington",
+          "locator": "p.134 (OCR page markers; not checked against print)",
+          "quote": "at once commenced fortifying Lexington, with the view of holding out until reinforcements arrived."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-food-water",
+      "dimension": "logistics",
+      "value": "Price says his ammunition, mostly left behind on the march, was nearly exhausted on the 13th and thousands of his men had not eaten for thirty-six hours, so he withdrew to the fair ground until his ammunition wagons came up; he sent men to cut the garrison off from water. Britton says the garrison's water supply was cut off and the works had made no ample provision for water.",
+      "rationale": "Conditions from an interested report and a history; not returns.",
+      "citations": [
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "that our ammunition, the most of which had been left behind on the march from Springfield, was nearly exhausted"
+        },
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "thousands of whom had not eaten a particle in thirty- six hours"
+        },
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "My ammunition wagons having been at last brought up"
+        },
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "to cut them off from the water on the north, east, and south of the college"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "lexington",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "their water supply had been cut off by General Price's army."
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "lexington",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "the Federal officers had not made ample provision for supplying the troops with water"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-and-intelligence",
+      "dimension": "information",
+      "value": "Britton says secessionists joining Price gave him accurate information on the Federal troops, and that Fremont had ten days' notice of Price's advance on Lexington.",
+      "rationale": "Knowledge attributed by a history; no dispatch chain inspected.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "lexington",
+          "locator": "p.134 (OCR page markers; not checked against print)",
+          "quote": "giving him accurate information of the numbers and position of the Federal troops at Warrensburg and Lexington."
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "lexington",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "General Fremont had fully ten days' notice of the advance of Price upon Lexington"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Price says he fell back on the 13th, unwilling to risk a doubtful engagement when delay would make success certain. Britton says the garrison commanders had instructions from Fremont to hold the place to the last extremity.",
+      "rationale": "Stated aims from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "Being unwilling, however, to risk a doubtful engagement, when a short delay would make success certain"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "lexington",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "having received in- structions from General Fremont to hold the place to the last extremity"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Major General Sterling Price and Colonel James A. Mulligan. Price says he caused the hemp bales to be moved and that Harris, McBride, Rives and Winston built the breastworks; Britton says Harris proposed the hemp and asked Price's permission. Price says the surrender was agreed by Colonel Marshall and officers Mulligan associated with him; Britton says Mulligan ordered the counterattack at the Anderson house and blames the department commander or his subordinates for the garrison's plight.",
+      "rationale": "Command roles from an interested report and a history; the initiative for the hemp breastworks is attributed differently, and Britton's criticism is his own. No automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO006",
+            "belligerent": "Confederate",
+            "fullname": "Sterling Price"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO006",
+            "belligerent": "US",
+            "fullname": "James A. Mulligan"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "I caused a number of hemp bales to be transported to the river heights"
+        },
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "by Generals Harris and McBride, Colonel Rives and Major Winston"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "lexington",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "requested of General Price permission to take about one hundred and fifty bales of the hemp thus found."
+        },
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "by Colonel Marshall and the officers associated with him for that purpose by Colonel Mulligan"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "lexington",
+          "locator": "p.139 (OCR page markers; not checked against print)",
+          "quote": "Colonel Mulligan ordered out a strong force to retake it"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "lexington",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "through the blunder or incompetency of the Depart- ment commander or his subordinates"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Price reports the surrender of the United States forces and property after fifty-two hours of firing; Britton calls the fall of Lexington a severe blow to the Union cause in Missouri.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Britton's judgment is campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO006"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-mo006-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "the surrender of the United States forces and property at this place to the army under my command"
+        },
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "after fifty- two hours of continuous firing"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "lexington",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "The fall of Lexington was a severe blow to the Union cause in Missouri."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,874 (US 1,774; CS 100); the live field reads 3,600 (US 3,500; CS 100). Price reports 25 killed and 72 wounded for his army and about 3,500 prisoners; Britton gives 39 Federal killed, 120 wounded and 3,000 prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Prisoner counts are a different population from killed and wounded and are not added.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO006"
+          },
+          "column": "casualties_text",
+          "quote": "1,874 total (US 1,774; CS 100)"
+        },
+        {
+          "source_id": "nps-mo006-v1",
+          "locator": "Estimated Casualties",
+          "quote": "3600 total (US 3500; CS 100;)"
+        },
+        {
+          "source_id": "or3-price-lexington-selections-v1",
+          "section": "price-1861-09-21",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "Our entire loss in this series of engagements amounts to 25 killed and 72 wounded."
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "lexington",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "The casualties on the Federal side were 39 killed and 120 wounded, and 3,000 prisoners."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The Union No. 1 miscellaneous reports and correspondence (September 12-23), Mulligan's own account, Rains's and Harris's reports, returns and maps remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Wiley Britton's The Civil War on the Border, vol. I (second edition, 1891) is a retrospective history by a Union soldier of the border army, based by its title page on the official reports; it is not independent of the report families. Price's September 21, 1861 report to Governor Jackson is an interested Confederate account. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

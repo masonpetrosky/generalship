@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO007",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fredericktown record (October 21, 1861) in Operations to Control Missouri [June-October 1861]. The October 12-20 raid on the Iron Mountain railroad, the October 17 skirmish and the pursuit toward Greenville are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the Union a brigade-size force of about 2,500-3,500 (the forces table records 2,500 as both bounds) and the State Guard no figure; the live field reads zero. Plummer says he marched with about 1,500 and found Carlin at Fredericktown with about 3,000, part of whom joined him; he puts Thompson's force at about 3,500 on October 26 and about 4,000 on October 31, some of their wounded saying 6,000. Thompson heard Plummer had 3,000, says the enemy came in more than double his numbers, and calls his own a victorious army of 2,000.",
+      "rationale": "Column sizes and mutual estimates at different dates; no return. The CWSAC range and the table's single value differ. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO007"
+          },
+          "column": "forces_text",
+          "quote": "Brigade size force (approx. 2,500-3,500) [US]; Missouri State Guard [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "MO007",
+            "belligerent": "US"
+          },
+          "column": "strength_max",
+          "quote": "2500"
+        },
+        {
+          "source_id": "nps-mo007-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-26",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "with about 1,500 men"
+        },
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-26",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "finding there Colonel Carlin, with about 3,000 men"
+        },
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-26",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "consisting of about 3,500 men."
+        },
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-31",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "The enemy's force was about 4,000 men, though some of their wounded stated it was 6,000."
+        },
+        {
+          "source_id": "or3-thompson-fredericktown-selections-v1",
+          "section": "thompson-1861-10-20",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "(I understand 3,000 men)"
+        },
+        {
+          "source_id": "or3-thompson-fredericktown-selections-v1",
+          "section": "thompson-1861-10-22",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "They came, and in more than double our numbers"
+        },
+        {
+          "source_id": "or3-thompson-fredericktown-selections-v1",
+          "section": "thompson-1861-10-23-pitmans-ferry",
+          "locator": "p.230 (OCR page markers; not checked against print)",
+          "quote": "with a vic torious army of 2,000 men"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "position-south-of-town",
+      "dimension": "terrain",
+      "value": "Plummer found Thompson about a mile out of town on the Greenville road, with four guns masked on a hill slope about six hundred yards off and the main infantry under Lowe in a cornfield left of the road. Thompson says he placed Lowe's regiment in ambush well in front of his main line.",
+      "rationale": "Positions chosen by Thompson on the day; from the two opposing reports.",
+      "citations": [
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-26",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "occupying a position about 1 mile out of town on the Greenville road"
+        },
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-31",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "Their artillery consisted of four pieces, masked upon the slope of a hill about six hundred yards distant."
+        },
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-31",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "The principal body of their infantry, under Colonel Lowe, was posted in the corn field to the left of the road."
+        },
+        {
+          "source_id": "or3-thompson-fredericktown-selections-v1",
+          "section": "thompson-1861-10-22",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "which I had placed in ambush, a considerable distance from our main line"
+        }
+      ],
+      "phase": "commander_created",
+      "status": "supported"
+    },
+    {
+      "id": "rations-train-ammunition",
+      "dimension": "logistics",
+      "value": "Plummer marched with twelve days' rations and gave up the pursuit with four days' left. Thompson left his train twelve miles south ready to move, and his 12-pounder fired until its trail-chest ammunition was exhausted before being left on the field.",
+      "rationale": "Supply statements from the two reports; not returns.",
+      "citations": [
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-31",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "with rations for twelve days"
+        },
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-31",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "having but four days' rations for niy command"
+        },
+        {
+          "source_id": "or3-thompson-fredericktown-selections-v1",
+          "section": "thompson-1861-10-22",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "leaving my train in a condition to move"
+        },
+        {
+          "source_id": "or3-thompson-fredericktown-selections-v1",
+          "section": "thompson-1861-10-22",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "until the ammuniiion in the trail-chest was ex hausted."
+        },
+        {
+          "source_id": "or3-thompson-fredericktown-selections-v1",
+          "section": "thompson-1861-10-22",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "I left it on the field."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "intercepted-message-and-scouting",
+      "dimension": "information",
+      "value": "Plummer says his message asking Pilot Knob's co-operation fell into Thompson's hands and revealed his intention to attack on Monday; Thompson reports intercepting the courier. Thompson says he spent the morning trying to learn the Union numbers and positions by spies without success.",
+      "rationale": "Both sides describe the same intercepted message; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-31",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "which unfortunately fell into the hands of the enemy, and gave them information of my intention to attack them on Monday morning."
+        },
+        {
+          "source_id": "or3-thompson-fredericktown-selections-v1",
+          "section": "thompson-1861-10-20",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "We have intercepted a courier from Colonel Plummer"
+        },
+        {
+          "source_id": "or3-thompson-fredericktown-selections-v1",
+          "section": "thompson-1861-10-22",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "I could not possibly learn their number, and wasted the whole morning in endeavoring to find out their number and position by spies, but could not succeed."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Plummer took the Dallas road to cut off Thompson's retreat south. Thompson says he marched back to occupy the town and fight whichever Union column appeared first.",
+      "rationale": "Stated aims from the two reports.",
+      "citations": [
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-31",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "for the purpose of cutting off their retreat south should they attempt it."
+        },
+        {
+          "source_id": "or3-thompson-fredericktown-selections-v1",
+          "section": "thompson-1861-10-22",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "for the purpose of occupying the town with my troops alone, and fighting either party that made its appearance first."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Brigadier General M. Jeff Thompson and Colonels J. B. Plummer and William P. Carlin. Plummer says Carlin, who claimed to rank him, reported to him for orders because Plummer had begun the battle. Plummer says Thompson commanded in person on the right; Thompson ordered the retreat by the right wing.",
+      "rationale": "Command roles from the two reports; no automatic sole credit to the listed commanders.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO007",
+            "belligerent": "Confederate",
+            "fullname": "M. Jeff Thompson"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO007",
+            "belligerent": "US",
+            "fullname": "J.B. Plummer"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO007",
+            "belligerent": "US",
+            "fullname": "William P. Carlin"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-31",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "Colonel Carlin, though exhausted by a long night's march, and claiming to rank me, came upon the field during the engagement and reported to me in person for orders"
+        },
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-31",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "Thompson commanded in person"
+        },
+        {
+          "source_id": "or3-thompson-fredericktown-selections-v1",
+          "section": "thompson-1861-10-22",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "I ordered a retreat by the right wing"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Plummer reports the total defeat and rout of Thompson's force; Thompson writes that he was victorious though he fell back before an overwhelming force. Plummer says six or seven buildings in the town were burned afterward.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO007"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-mo007-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-26",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "resulted in the total defeat of Thompson and route of all his forces"
+        },
+        {
+          "source_id": "or3-thompson-fredericktown-selections-v1",
+          "section": "thompson-1861-10-23-pitmans-ferry",
+          "locator": "p.230 (OCR page markers; not checked against print)",
+          "quote": "(for we were victorious, though we fell"
+        },
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-31",
+          "locator": "p.209 (OCR page markers; not checked against print)",
+          "quote": "Six or seven buildings were burned."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads total unknown (US unknown; CS 62); the live field reads 62 (US 0; CS 62). Plummer reports 6 killed and 60 wounded, 80 prisoners taken on the field (38 wounded; 42 brought back on October 26) and 158 enemy dead buried. Thompson claims three enemy killed for every man he lost and names the loss of Colonel Lowe and his 12-pounder.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live US zero is not a measured loss.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO007"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US unknown; CS 62)"
+        },
+        {
+          "source_id": "nps-mo007-v1",
+          "locator": "Estimated Casualties",
+          "quote": "62 total (US 0; CS 62;)"
+        },
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-31",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "Our loss consisted of 6 killed and 60 wounded."
+        },
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-31",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "There were taken upon the field 80 prisoners, of whom 38 were wounded"
+        },
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-26",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "I brought with me 42 pris oners"
+        },
+        {
+          "source_id": "or3-plummer-fredericktown-selections-v1",
+          "section": "plummer-1861-10-31",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "One hundred and fifty-eight of their dead were buried by our troops"
+        },
+        {
+          "source_id": "or3-thompson-fredericktown-selections-v1",
+          "section": "thompson-1861-10-23-pitmans-ferry",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "have killed three of their men to every man I lost."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Carlin's, Ross's, Marsh's, Baker's, Schofield's and the other subordinate reports, Purvis's report, returns and maps remain deferred. No nineteenth-century history covering the action was selected.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Plummer's October 26 and 31, 1861 reports and Thompson's October 20-23 dispatches are separate interested accounts from the two sides. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

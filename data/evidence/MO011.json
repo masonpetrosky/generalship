@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO011",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Roan's Tan Yard (Silver Creek) record (January 8, 1862) in Operations in Northeast Missouri [December 1861]. The reconnaissances of January 5-7 and the return march are context; the frozen record falls after the campaign's December 1861 label. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the Union detachments 450 and the Confederates unknown; the live field reads US 450 and CS 0. Torrence says 500 mounted men went out and that Poindexter's camp held 600 (read 'COO' in OCR) to 800 enlisted men and as many sympathizers. Turner, relaying Hubbard, says the rebels were 900 strong.",
+      "rationale": "Column figures and estimates of the enemy relayed at second hand; no return. None is adopted as a matched opening strength. The live CS zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO011"
+          },
+          "column": "forces_text",
+          "quote": "Detachments from the 1st and 2nd Missouri Cavalry, 4th Ohio Cavalry, and 1st Iowa Cavalry (450) [US]; unknown [CS]"
+        },
+        {
+          "source_id": "nps-mo011-v1",
+          "locator": "Forces Engaged",
+          "quote": "450 total (US 450; CS 0;)"
+        },
+        {
+          "source_id": "or8-torrence-roans-tan-yard-selections-v1",
+          "section": "torrence-1862-01-10",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "we moved out of camp witl 500 mounted men in search of their camp"
+        },
+        {
+          "source_id": "or8-torrence-roans-tan-yard-selections-v1",
+          "section": "torrence-1862-01-10",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "with a force of regularly enlisted men from COO to 800 strong together with an equal number of aiders and abettors of rebellion"
+        },
+        {
+          "source_id": "or8-turner-roans-tan-yard-selections-v1",
+          "section": "turner-1862-01-14",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "he attacked the rebels, 900 strong"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "ravines-and-fog",
+      "dimension": "terrain",
+      "value": "Torrence says the camp was strongly placed among ravines, thick underbrush and timber, and that darkness, heavy fog and underbrush prevented cutting off the retreat.",
+      "rationale": "Ground and conditions from an interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "or8-torrence-roans-tan-yard-selections-v1",
+          "section": "torrence-1862-01-10",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "They were in a strong position, being protected by ravines, thick underbrush, and timber."
+        },
+        {
+          "source_id": "or8-torrence-roans-tan-yard-selections-v1",
+          "section": "torrence-1862-01-10",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "the dark- ness and heavy fog, together with the thick underbrush, rendered it impossible."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "captures-and-ammunition",
+      "dimension": "logistics",
+      "value": "Torrence ordered the camp destroyed and moved his command to camp 23 miles away. Turner says Hubbard captured horses, wagons, tents, powder and arms but had to destroy what he could not remove, and that Hubbard's cavalry was greatly in need of ammunition.",
+      "rationale": "Captures and supply from an interested report and a relayed one; not a return.",
+      "citations": [
+        {
+          "source_id": "or8-torrence-roans-tan-yard-selections-v1",
+          "section": "torrence-1862-01-10",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "an order was given to destroy the camp and look up dead and wounded."
+        },
+        {
+          "source_id": "or8-torrence-roans-tan-yard-selections-v1",
+          "section": "torrence-1862-01-10",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "the whole command was then moved to camp, 23 miles distant."
+        },
+        {
+          "source_id": "or8-turner-roans-tan-yard-selections-v1",
+          "section": "turner-1862-01-14",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "The wagons, powder, and other property captured he was compelled to destroy for want of help to remove them."
+        },
+        {
+          "source_id": "or8-turner-roans-tan-yard-selections-v1",
+          "section": "turner-1862-01-14",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "Major Hubbard is greatly in need of ammunition"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "locating-the-camp",
+      "dimension": "information",
+      "value": "NPS says rumors of the force had circulated for a week without the Union troops finding it. Torrence says reconnaissances on the 7th learned that Poindexter was recruiting and had his camp on the headwaters of Silver Creek.",
+      "rationale": "Knowledge from a summary and an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "nps-mo011-v1",
+          "locator": "Description",
+          "quote": "Rumors and sightings of a Confederate force in the Howard County area had circulated for more than a week, but the Union troops could not locate them."
+        },
+        {
+          "source_id": "or8-torrence-roans-tan-yard-selections-v1",
+          "section": "torrence-1862-01-10",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "information received that on* Colonel Poindexter was recruiting in this and other counties, and thai he had his principal camp somewhere on the headwaters of Silvei Creek"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "plan",
+      "dimension": "objectives",
+      "value": "Torrence's plan was for the carbine-armed companies to draw the enemy's fire and reply while the First Iowa and part of Merrill's Horse charged the camp.",
+      "rationale": "Plan from an interested report.",
+      "citations": [
+        {
+          "source_id": "or8-torrence-roans-tan-yard-selections-v1",
+          "section": "torrence-1862-01-10",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "to attack the camp, draw their fire, and reply with carbines, when the First Iowa and a portion of Merrill’s Horse were to charge upon the camp"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Colonel J. A. Poindexter and Major W. M. G. Torrence. Torrence says he was joined by Hunt's companies of Merrill's Horse and Hubbard's four companies of the First Missouri, assigned Hunt the carbine companies and ordered the First Iowa charge. Turner's report, from Hubbard, credits Hubbard with the attack and the rout.",
+      "rationale": "Two interested accounts credit different majors; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO011",
+            "belligerent": "Confederate",
+            "fullname": "J.A. Poindexter"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO011",
+            "belligerent": "US",
+            "fullname": "W.M.G. Torrence"
+          },
+          "column": "rank",
+          "quote": "Major"
+        },
+        {
+          "source_id": "or8-torrence-roans-tan-yard-selections-v1",
+          "section": "torrence-1862-01-10",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "To Major Hunt wag assigned the command of that portion of his forces armed with carbines"
+        },
+        {
+          "source_id": "or8-torrence-roans-tan-yard-selections-v1",
+          "section": "torrence-1862-01-10",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "four companies of the First Missouri, under command of Major Hub bard"
+        },
+        {
+          "source_id": "or8-torrence-roans-tan-yard-selections-v1",
+          "section": "torrence-1862-01-10",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "Three companies of the First Iowa and a part of a company of Merrill’s Horse were then ordered forward to charge the camp"
+        },
+        {
+          "source_id": "or8-turner-roans-tan-yard-selections-v1",
+          "section": "turner-1862-01-14",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "he attacked the rebels, 900 strong, under command of Colonel Pom- dexter."
+        },
+        {
+          "source_id": "or8-turner-roans-tan-yard-selections-v1",
+          "section": "turner-1862-01-14",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "After a brisk engagement, which lasted forty minutes, he completely routed the enemy."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory; NPS says the Union force destroyed the camp. Torrence calls it a complete rout; Turner's relayed account says the enemy was completely routed after forty minutes.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO011"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-mo011-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-mo011-v1",
+          "locator": "Description",
+          "quote": "Afterwards, the Union force destroyed the camp to prevent its further use."
+        },
+        {
+          "source_id": "or8-torrence-roans-tan-yard-selections-v1",
+          "section": "torrence-1862-01-10",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "It was a complete rout, as the appearance of the camp fully attested."
+        },
+        {
+          "source_id": "or8-turner-roans-tan-yard-selections-v1",
+          "section": "turner-1862-01-14",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "he completely routed the enemy."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text and the live field read 91 (US 11; CS 80). Torrence says the enemy's killed and wounded could not be less than 80 to 100 and gives no Union figure. Turner, from Hubbard, gives the enemy's loss as 40 killed and 60 wounded and Hubbard's as 6 killed and 19 wounded, with 28 prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Hubbard's figures may cover only his own command.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO011"
+          },
+          "column": "casualties_text",
+          "quote": "91 total (US 11; CS 80)"
+        },
+        {
+          "source_id": "nps-mo011-v1",
+          "locator": "Estimated Casualties",
+          "quote": "91 total (US 11; CS 80;)"
+        },
+        {
+          "source_id": "or8-torrence-roans-tan-yard-selections-v1",
+          "section": "torrence-1862-01-10",
+          "locator": "p.51 (OCR page markers; not checked against print)",
+          "quote": "their loss in killed and wounded cannot be ess than 80 to 100."
+        },
+        {
+          "source_id": "or8-turner-roans-tan-yard-selections-v1",
+          "section": "turner-1862-01-14",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s loss was 40 killed and 60' wounded."
+        },
+        {
+          "source_id": "or8-turner-roans-tan-yard-selections-v1",
+          "section": "turner-1862-01-14",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "His loss 6 killed and 19 wounded."
+        },
+        {
+          "source_id": "or8-turner-roans-tan-yard-selections-v1",
+          "section": "turner-1862-01-14",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "160 captured horses and 28 prisoners."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Palmer's No. 1 and Merrill's No. 4 reports (printed with Torrence's and Turner's; read while delimiting, not selected), Hubbard's own report, the Confederate side, returns and maps remain deferred. Britton's volume does not name the action; no nineteenth-century history was selected.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Torrence's January 10, 1862 report is an interested Union account. Turner's January 14, 1862 report relays Major Hubbard's account at second hand and is a separate family. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "battle_id": "KY002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Camp Wildcat (Rockcastle Hills) record (October 21, 1861) in Operations in Eastern Kentucky [September-December 1861]. Zollicoffer's advance from Cumberland Ford and his retreat to Cumberland Ford are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the Union garrison and Schoepf's brigade about 7,000 and names Zollicoffer's brigade without a figure; the live field reads US 7,000 and CS 0. NPS says Garrard reported being outnumbered seven to one before Schoepf brought the total to about 7,000. Schoepf says three prisoners each put the enemy at about 7,000. Zollicoffer says the enemy's camp was said to be 7,000 strong with large reserves and, on October 26, that nine regiments were there.",
+      "rationale": "Each side attributes about 7,000 to the other; the CWSAC Union figure is not traced to a return. None is adopted as a matched opening strength. The live CS zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY002"
+          },
+          "column": "forces_text",
+          "quote": "Camp Wildcat Garrison and Schoepf's Brigade (approx. 7,000 men) [US]; Zollicoffer's Brigade [CS]"
+        },
+        {
+          "source_id": "nps-ky002-v1",
+          "locator": "Forces Engaged",
+          "quote": "7000 total (US 7000; CS 0;)"
+        },
+        {
+          "source_id": "nps-ky002-v1",
+          "locator": "Description",
+          "quote": "he was outnumbered seven to one"
+        },
+        {
+          "source_id": "nps-ky002-v1",
+          "locator": "Description",
+          "quote": "bringing the total force to about 7,000"
+        },
+        {
+          "source_id": "or4-schoepf-wildcat-selections-v1",
+          "section": "schoepf-1861-10-22",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "gave the same statement relative to the strength of the enemy, viz, about 7,000."
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-10-24",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "Enemy's camp said to be 7,000 strong, with large reserves near at hand."
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-10-26",
+          "locator": "p.211 (OCR page markers; not checked against print)",
+          "quote": "I have information that the enemy were nine regiments at Rock- castle Llills."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "natural-fortification",
+      "dimension": "terrain",
+      "value": "Zollicoffer calls the intrenched camp on the Rockcastle Hills a natural fortification, almost inaccessible; NPS credits both man-made and natural fortifications.",
+      "rationale": "Ground and works described by an interested report and a summary; no map verification.",
+      "citations": [
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-10-24",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "On the 21st I reached the enemy's intrenched camp, on Eockcastle Hills, a natural fortification, almost inaccessible."
+        },
+        {
+          "source_id": "nps-ky002-v1",
+          "locator": "Description",
+          "quote": "in part due to fortifications, both man-made and natural."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "subsistence-and-forage",
+      "dimension": "logistics",
+      "value": "Zollicoffer says he advanced under disability for want of subsistence and transportation, exhausted the forage for fifteen miles in a day and had nearly exhausted his subsistence. Schoepf asked for provisions of all kinds, artillery ammunition and caps.",
+      "rationale": "Supply statements from the two commanders' reports; not returns.",
+      "citations": [
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-10-20",
+          "locator": "p.209 (OCR page markers; not checked against print)",
+          "quote": "under disability to an embarrassing extent for want of subsistence and transportation."
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-10-24",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "The country is so poor we had exhausted the forage on the road for 15 miles back in twenty-four hours. Our subsistence nearly exhausted."
+        },
+        {
+          "source_id": "or4-schoepf-wildcat-selections-v1",
+          "section": "schoepf-1861-10-22",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "Please send me supplies of provisions of all kinds."
+        },
+        {
+          "source_id": "or4-schoepf-wildcat-selections-v1",
+          "section": "schoepf-1861-10-22",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "I yesterday asked for artillery ammunition a*nd caps for rifles"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-and-reports",
+      "dimension": "information",
+      "value": "Zollicoffer says he reconnoitred in force under fire for several hours and concluded the camp could not be carried without immense exposure, and that the enemy received large reinforcements. Schoepf's account of the day went up in a rough pencil note not printed; his October 22 report relies on scouts and prisoners.",
+      "rationale": "Knowledge attributed in the two reports; the pencil note was not inspected.",
+      "citations": [
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-10-24",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "Having reconnoitered in force under heavy fire for several hours"
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-10-24",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "The enemy received large re-enforcements."
+        },
+        {
+          "source_id": "or4-schoepf-wildcat-selections-v1",
+          "section": "schoepf-1861-10-22",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "I sent an express to your headquarters yesterday, with a rough"
+        },
+        {
+          "source_id": "or4-schoepf-wildcat-selections-v1",
+          "section": "schoepf-1861-10-22",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "I sent out scouts this morning to ascertain his where abouts."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Zollicoffer says he became satisfied the camp could not be carried except by immense exposure and fell back next day; Schoepf says he could hold his position against an equal or superior number and on October 23 proposed advancing on Cumberland Gap.",
+      "rationale": "Stated decisions from the two reports.",
+      "citations": [
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-10-24",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "I became satisfied that it could not be carried other wise than by immense exposure, if at all."
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-10-24",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "Under these circumstances I deemed it proper the next day to fall bade."
+        },
+        {
+          "source_id": "or4-schoepf-wildcat-selections-v1",
+          "section": "schoepf-1861-10-22",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "I can hold my position with my present force against an equal or superior number, should the enemy again attack."
+        },
+        {
+          "source_id": "or4-schoepf-wildcat-selections-v1",
+          "section": "schoepf-1861-10-23",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "I can advance to that point (Cumberland Gap) and scatter the forces of Zollicoffer en route"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Brigadier Generals Felix Zollicoffer and Albin F. Schoepf. Schoepf says the attackers were met by men under the immediate command of Colonels Coburn and Wolford; Zollicoffer led the reconnaissance in force.",
+      "rationale": "Command roles from the two reports; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KY002",
+            "belligerent": "Confederate",
+            "fullname": "Felix Zollicoffer"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KY002",
+            "belligerent": "US",
+            "fullname": "Albin F. Schoepf"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "or4-schoepf-wildcat-selections-v1",
+          "section": "schoepf-1861-10-22",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "under the immediate command of Colonels Coburn and Wolforcl."
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-10-24",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "Having reconnoitered in force under heavy fire for several hours"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory; NPS says the Federals repelled the attacks and the Confederates withdrew in the night. Schoepf says the enemy fully retreated toward London; Zollicoffer describes a reconnaissance in force after which he fell back.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY002"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ky002-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-ky002-v1",
+          "locator": "Description",
+          "quote": "The Confederates withdrew during the night"
+        },
+        {
+          "source_id": "or4-schoepf-wildcat-selections-v1",
+          "section": "schoepf-1861-10-22",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "th.e enemy have fully retreated in the direction of London."
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-10-24",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "I deemed it proper the next day to fall bade."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 78 (US 25; CS 53); the live field reads 96 (US 43; CS 53). Schoepf reports 4 killed and 18 wounded and set the enemy's loss at 30 killed, adding a citizen's report that they acknowledged 100 killed. Zollicoffer reports 42 wounded and 11 killed and missing and 21 prisoners taken.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The CS 53 equals Zollicoffer's 42 and 11; that equality is not independent confirmation.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY002"
+          },
+          "column": "casualties_text",
+          "quote": "78 total (US 25; CS 53)"
+        },
+        {
+          "source_id": "nps-ky002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "96 total (US 43; CS 53;)"
+        },
+        {
+          "source_id": "or4-schoepf-wildcat-selections-v1",
+          "section": "schoepf-1861-10-22",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "Our loss yesterday is ascertained to be 4 killed and 18 wounded."
+        },
+        {
+          "source_id": "or4-schoepf-wildcat-selections-v1",
+          "section": "schoepf-1861-10-22",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "I set the enemy's loss down at 30 killed, with a large wounded list"
+        },
+        {
+          "source_id": "or4-schoepf-wildcat-selections-v1",
+          "section": "schoepf-1861-10-22",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "they acknowledge a loss of 100 killed."
+        },
+        {
+          "source_id": "or4-zollicoffer-kentucky-selections-v1",
+          "section": "zollicoffer-1861-10-24",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "Our loss was 42 wounded and 11 killed and missing. We captured 21 prisoners"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Thomas's No. 1 dispatches (which relay Schoepf), Coburn's No. 3 and Newman's No. 6 reports, Schoepf's pencil note (not printed), returns and maps remain deferred. No nineteenth-century history covering the action was selected; this is a two-report or two-family first pass.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Schoepf's October 22 and 23, 1861 reports are one family of interested Union accounts. Zollicoffer's September 19 and October 20-26, 1861 reports are one family of interested Confederate accounts (the same author for Barbourville and Camp Wildcat). Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

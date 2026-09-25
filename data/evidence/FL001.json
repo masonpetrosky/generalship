@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "battle_id": "FL001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Santa Rosa Island record (October 9, 1861) in Operations of the Gulf Blockading Squadron [October 1861]. The Pensacola harbor defences and the later reconnaissances on the island are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the island garrison about 600 and the Confederate detachments about 1,200; the live field reads US 0 and CS 1,200. Brown estimated the landing force at 1,200 or 1,500 and says his officers' almost unanimous estimate was 1,500, later citing a Confederate acknowledgment of 1,500; he says less than 200 regulars and some 50 volunteers pursued five times their number. Anderson lists battalions of 350, 400 and 260 and an independent company of 53, with an artillery company not counted.",
+      "rationale": "Anderson's battalion figures sum to 1,063 before the uncounted artillery company; the CWSAC 1,200 is not traced to a return, and no inspected passage gives the island garrison's strength. None is adopted as a matched opening strength. The live US zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL001"
+          },
+          "column": "forces_text",
+          "quote": "Santa Rosa Island Garrison (approx. 600 men) [US]; infantry and artillery detachments (approx. 1,200 men) [CS]"
+        },
+        {
+          "source_id": "nps-fl001-v1",
+          "locator": "Forces Engaged",
+          "quote": "1200 total (US 0; CS 1200;)"
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-09",
+          "locator": "p.438 (OCR page markers; not checked against print)",
+          "quote": "The enemy, 1,200 or 1,500 strong"
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-11",
+          "locator": "p.441 (OCR page markers; not checked against print)",
+          "quote": "the almost unanimous estimate of the offi- cers engaged is 1,500, from personal observation close by."
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-17",
+          "locator": "p.443 (OCR page markers; not checked against print)",
+          "quote": "Their actual number on the island, by their own acknowledgment, was 1,500 men."
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-11",
+          "locator": "p.440 (OCR page markers; not checked against print)",
+          "quote": "less than 200 regulars, with some 50 volunteers, pursued five times their number 4 miles"
+        },
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "The First Battalion, 350 strong"
+        },
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "400 strong"
+        },
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "The Third Battalion, 260 strong"
+        },
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "An independent company of 53 men"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "island-ground",
+      "dimension": "terrain",
+      "value": "Brown describes the island near the landing as about three-quarters of a mile wide, with sand ridges on the sea side and low swampy ground with sand hillocks and bushes on the harbor side. Anderson says a march of 3 or 4 miles was made toilsome by the ground.",
+      "rationale": "Natural ground described by the two opposing commanders; no map verification.",
+      "citations": [
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-11",
+          "locator": "p.439 (OCR page markers; not checked against print)",
+          "quote": "the island there is about three-quarters of a mile wide"
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-11",
+          "locator": "p.439 (OCR page markers; not checked against print)",
+          "quote": "a succession of three or four sand ridges run on the sea-side iiarallel to the coast along the island, and low, swampy ground, interspersed with sand hillocks, some bushes, and a few trees, extends along the harbor side"
+        },
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.461 (the running head reads \"4G1\" in OCR; not checked against print)",
+          "quote": "After a march of 3 or 4 miles, rendered toilsome and fatiguing by the nature of the ground"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "boats-and-steamers",
+      "dimension": "logistics",
+      "value": "Anderson says the Neaffie had to be used as a tug and on re-embarkation a hawser fouled her propeller, delaying the withdrawal. Brown says the steamer McClellan, sent to fire on the landing place, was delayed and arrived after the enemy had left.",
+      "rationale": "Water transport from the two reports; not returns.",
+      "citations": [
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.461 (the running head reads \"4G1\" in OCR; not checked against print)",
+          "quote": "It was found absolutely necessary to employ the Neaflie to assist in towing"
+        },
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.462 (OCR page markers; not checked against print)",
+          "quote": "a hawser had become entangled in the propeller of the Neaffie, and that she could not move."
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-11",
+          "locator": "p.440 (OCR page markers; not checked against print)",
+          "quote": "which so delayed him that he did not arrive until after the enemy had vacated."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "alarm-and-surprise",
+      "dimension": "information",
+      "value": "Brown says a first picket report of a landing was disbelieved and no alarm made until volleys were heard at the Zouave camp about 3.30. Anderson says Chalmers's column met a sentinel whose shot gave the alarm, after which the advance could not be concealed.",
+      "rationale": "Knowledge and alarm from the two reports; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-11",
+          "locator": "p.439 (OCR page markers; not checked against print)",
+          "quote": "Having little confidence in the correctness of this report I directed that no alarm should be made"
+        },
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.461 (the running head reads \"4G1\" in OCR; not checked against print)",
+          "quote": "the head of Colonel Chalmers’ column came sud- denly upon a sentinel, who fired ineffectually at our troops"
+        },
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.461 (the running head reads \"4G1\" in OCR; not checked against print)",
+          "quote": "it becoming impossible to conceal our further advance from the enemy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Anderson directed his columns to capture guards and sentinels quietly and get between Fort Pickens and the camp, with a party to damage the batteries, buildings and camps. NPS says the aim was to surprise the camps and capture Fort Pickens; Brown says the enemy did not get within 500 yards of the batteries he meant to spike.",
+      "rationale": "Aims from the attacking commander's orders, a summary and the defender's inference; Anderson's report does not state an aim of capturing the fort.",
+      "citations": [
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.461 (the running head reads \"4G1\" in OCR; not checked against print)",
+          "quote": "to endeavor to restrain their men from firing, to capture guards and sentinels, and to place their commands, if possible, between Fort Pickens and the camp of the enemy."
+        },
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.461 (the running head reads \"4G1\" in OCR; not checked against print)",
+          "quote": "with orders to do whatever damage he could to the batteries, buildings, and camps from which the enemy might be driven."
+        },
+        {
+          "source_id": "nps-fl001-v1",
+          "locator": "Description",
+          "quote": "to surprise Union camps and capture Fort Pickens"
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-11",
+          "locator": "p.440 (OCR page markers; not checked against print)",
+          "quote": "He did not reach within 500 yards of either of the batteries the guns of which he was to spike"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Brigadier General Richard H. Anderson and Colonel Harvey Brown; the live page gives Anderson as Major General. Brown sent Vogdes and Arnold out from the fort and ordered Wilson to attack; Vogdes was captured before a shot was fired and Arnold succeeded to the command. Brown's October 12 letter says the volunteer regiment did not behave well. Anderson directed the columns and the withdrawal.",
+      "rationale": "Command roles from the two reports; NPS's statement that Brown sallied is not adopted over Brown's own account, the live rank is not adopted, and there is no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "FL001",
+            "belligerent": "Confederate",
+            "fullname": "Richard H. Anderson"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "FL001",
+            "belligerent": "US",
+            "fullname": "Harvey Brown"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-fl001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Richard Anderson [CS]"
+        },
+        {
+          "source_id": "nps-fl001-v1",
+          "locator": "Description",
+          "quote": "Col. Harvey Brown sallied against the Confederates"
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-11",
+          "locator": "p.439 (OCR page markers; not checked against print)",
+          "quote": "Major Vogdes to take two companies and proceed to the spot, and Major Arnold to man the guns on the ramparts on that face."
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-11",
+          "locator": "p.441 (OCR page markers; not checked against print)",
+          "quote": "who, unfortunately, was taken prisoner before a gun on our i)art was fired"
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-11",
+          "locator": "p.441 (OCR page markers; not checked against print)",
+          "quote": "Major Arnold, who succeeded to the command after the capture of his superior"
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-12",
+          "locator": "p.442 (OCR page markers; not checked against print)",
+          "quote": "I did so because the regiment did not behave well on the occasion"
+        },
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.461 (the running head reads \"4G1\" in OCR; not checked against print)",
+          "quote": "I ordered Colonel Jackson to push his way through the thickets to the middle of the island"
+        },
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.461 (the running head reads \"4G1\" in OCR; not checked against print)",
+          "quote": "I directed the signal ior retufing to be sounded"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Brown says the enemy were driven to their boats under fire and destroyed no quartermaster's or commissary stores; Anderson says the camp was destroyed with very great destruction of stores and the re-embarkation was successfully accomplished.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL001"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-fl001-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-09",
+          "locator": "p.439 (OCR page markers; not checked against print)",
+          "quote": "They were promptly met and driven by the regulars of the fort"
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-17",
+          "locator": "p.442 (OCR page markers; not checked against print)",
+          "quote": "They did not destroy a single article of quartermaster’s or commissary stores"
+        },
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.462 (OCR page markers; not checked against print)",
+          "quote": "The destruction of property in the conflagration was very great."
+        },
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.462 (OCR page markers; not checked against print)",
+          "quote": "The re-embarkation was successfully accomplished"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text and the live field read 154 (US 67; CS 87). Brown's three accounts differ: on October 9, regulars 5 killed, about 15 wounded and 8 missing and volunteers 7, 8 or 9 and 10; on October 11, regulars 4, 20 and 8 and volunteers 10, 9 and a figure read 'IG'; on October 17, 4 and 9 killed, 20 and 7 wounded, 10 and 11 missing. He counts 14 enemy killed, 7 wounded and 27 prisoners in hand, quotes a Pensacola paper's 21 killed, 38 wounded and 22 prisoners, and a Confederate paper's 175. Anderson reports 18 killed, 39 wounded and 30 prisoners, estimates the Union loss at 50 or 60 killed and 100 wounded, and took 20 prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Anderson's categories sum to 87, the CWSAC Confederate figure; that equality is not independent confirmation.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL001"
+          },
+          "column": "casualties_text",
+          "quote": "154 total (US 67; CS 87)"
+        },
+        {
+          "source_id": "nps-fl001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "154 total (US 67; CS 87;)"
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-09",
+          "locator": "p.439 (OCR page markers; not checked against print)",
+          "quote": "Our loss is, of regulars, 5 killed, about 15 wounded, and 8 missing, including 1 officer."
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-09",
+          "locator": "p.439 (OCR page markers; not checked against print)",
+          "quote": "of the volunteers, 7 killed, 8 or 9 wounded, and 10 missing."
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-11",
+          "locator": "p.441 (OCR page markers; not checked against print)",
+          "quote": "Our loss is, of regulars, 4 killed, 20 wounded (most very slightly), and 8 missing, among whom is Major Vogdes; of the Sixth Eegiment New York Volunteers, 10 killed, 9 wounded, and IG missing."
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-17",
+          "locator": "p.443 (OCR page markers; not checked against print)",
+          "quote": "4 regulars and 9 volunteers killed, 20 regulars and 7 volunteers wounded, and 10 regulars and 11 volunteers missing"
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-11",
+          "locator": "p.441 (OCR page markers; not checked against print)",
+          "quote": "The enemy lost, as known to us, 14 killed, including 1 captain ; 7 wounded, including 1 lieutenant (2 since dead), and 5 officers and 22 enlisted men prisoners"
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-11",
+          "locator": "p.441 (OCR page markers; not checked against print)",
+          "quote": "Killed, 21 ; wounded, 38 ; prisoners, 22"
+        },
+        {
+          "source_id": "or6-brown-santa-rosa-selections-v1",
+          "section": "brown-1861-10-17",
+          "locator": "p.442 (OCR page markers; not checked against print)",
+          "quote": "It is now certain tbat 175 in killed, wounded, and missing will more than cover our entire loss"
+        },
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.462 (OCR page markers; not checked against print)",
+          "quote": "Killed, 2 commissioned offi- cers, 4 non-commissioned officers, 11 privates, and 1 citizen volunteer ; wounded, 2 commissioned officers, 5 non-commissioned officers, and 32 privates j taken prisoners, 5 commissioned officers, 2 non-commissioned officers, and 23 privates."
+        },
+        {
+          "source_id": "or6-anderson-santa-rosa-selections-v1",
+          "section": "anderson-1861-10-23",
+          "locator": "p.462 (OCR page markers; not checked against print)",
+          "quote": "I will estimate his loss at 50 or 60 killed and 100 wounded. Twenty prisoners were taken"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Tower's, Arnold's, Wilson's and the other Union subordinate reports, Bragg's No. 14 reports, the Confederate battalion reports, Brown's table of distances (read, not cited), returns and maps remain deferred. No nineteenth-century history covering the action was selected.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Harvey Brown's October 9, 11, 12 and 17, 1861 reports are one family of interested Union accounts. R. H. Anderson's October 23, 1861 report is an interested Confederate account. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

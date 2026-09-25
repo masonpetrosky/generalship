@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO004",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Wilson's Creek record (August 10, 1861) in Operations to Control Missouri [June-October 1861]. The August 2 skirmish at Dug Springs, the approach marches and the retreat to Rolla are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Army of the West and the Missouri State Guard with McCulloch's brigade, with no figures; the live field reads zero. Sturgis says 3,700 men attacked an enemy numbering 23,000 and that over 20,000 were still in front at Lyon's death. Snead gives Sigel's column about twelve hundred and Lyon's about four thousand two hundred; the Union 3,500 who went into action on Bloody Hill against Price's 4,200 there; Price's first line over thirty-one hundred against Lyon's front of nearly nineteen hundred; McIntosh's thousand in the cornfield; and Pearce's idle brigade of more than 1,700. Snead also calls Lyon's army six or seven thousand and the Confederate force twice as great.",
+      "rationale": "Column, engaged, sector and whole-army figures of different populations and moments, from an interested Union report and a Confederate participant history. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO004"
+          },
+          "column": "forces_text",
+          "quote": "Army of the West [US]; Missouri State Guard and McCulloch's Brigade [CS]"
+        },
+        {
+          "source_id": "nps-mo004-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or3-sturgis-wilsons-creek-selections-v1",
+          "section": "sturgis-1861-08-20",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "That 3,700 men, after a fatiguing night inarch, attacked the enemy, numbering 23,000"
+        },
+        {
+          "source_id": "or3-sturgis-wilsons-creek-selections-v1",
+          "section": "sturgis-1861-08-20",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "over 20,000 men were still in our front"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek-approach",
+          "locator": "p.265 (OCR page markers; not checked against print)",
+          "quote": "the whole aggregating about twelve hundred officers and men"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek-approach",
+          "locator": "p.265 (OCR page markers; not checked against print)",
+          "quote": "about four thousand two hundred men in all"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek",
+          "locator": "p.291 (OCR page markers; not checked against print)",
+          "quote": "of the 3500 men that went into action nearly nine hundred were either killed or wounded."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek",
+          "locator": "p.291 (OCR page markers; not checked against print)",
+          "quote": "Of the 4200 men who fought there under Price 988 were either killed or wounded."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "aggregated, with Weightman's command, over thirty-one hundred men"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "aggregating nearly nineteen hundred men"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "Mcintosh took about one thousand men into action."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "more than 1,700 strong"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek-approach",
+          "locator": "p.265 (OCR page markers; not checked against print)",
+          "quote": "an army of six or seven thousand disheartened men"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek-approach",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "he went out to battle against a force twice as great as his own"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "bloody-hill-ground",
+      "dimension": "terrain",
+      "value": "Snead describes Bloody Hill rising nearly a hundred feet from the creek, seamed with ravines and sink-holes and densely covered with undergrowth; Sturgis says the ground was wooded with much undergrowth, so Totten's battery came into action by section and piece.",
+      "rationale": "Natural ground as described by a participant history and an interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek-approach",
+          "locator": "p.259 (OCR page markers; not checked against print)",
+          "quote": "rises gradually from the creek to the height of nearly a hundred feet, its sides deeply seamed with ravines, and dinted here and there with sink-holes. At this time it was densely covered with undergrowth"
+        },
+        {
+          "source_id": "or3-sturgis-wilsons-creek-selections-v1",
+          "section": "sturgis-1861-08-20",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "(it being wooded, with much undergrowth)"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "water-ammunition-subsistence",
+      "dimension": "logistics",
+      "value": "Sturgis says his men had had no water since the evening before, their ammunition was well-nigh exhausted, and most had fired away all they had. Snead says most Missourians had no cartridge-boxes and carried ammunition in their pockets, and that ripening corn was to be the army's only subsistence for a day or two. NPS says Sturgis's ammunition was low.",
+      "rationale": "Conditions from an interested report, a participant history and a summary; not supply returns.",
+      "citations": [
+        {
+          "source_id": "or3-sturgis-wilsons-creek-selections-v1",
+          "section": "sturgis-1861-08-20",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "our men had had no water since 5 o'clock the evening before"
+        },
+        {
+          "source_id": "or3-sturgis-wilsons-creek-selections-v1",
+          "section": "sturgis-1861-08-20",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "Our ammunition was well-nigh exhausted"
+        },
+        {
+          "source_id": "or3-sturgis-wilsons-creek-selections-v1",
+          "section": "sturgis-1861-08-20",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "Most of our men had fired away all their ammuni tion"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek-approach",
+          "locator": "p.263 (OCR page markers; not checked against print)",
+          "quote": "most of the Missourians, hav- ing no cartridge-boxes, had to carry their ammu- nition in their pockets"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek-approach",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "some ripening fields of corn, which was to be the only subsistence of his army for the next day or two."
+        },
+        {
+          "source_id": "nps-mo004-v1",
+          "locator": "Description",
+          "quote": "his ammunition was low"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surprise-and-misidentification",
+      "dimension": "information",
+      "value": "Snead says McCulloch could learn nothing positive about Lyon's strength, and that the Confederates were unaware of Lyon's approach because they had withdrawn their pickets at midnight. He says Sigel's men took the gray-clad Third Louisiana for the First Iowa; Sturgis says troops dressed like Sigel's and carrying the American flag were allowed to approach, and that he had no written report of Sigel's column.",
+      "rationale": "Attributed knowledge from a participant history and an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek-approach",
+          "locator": "p.261 (OCR page markers; not checked against print)",
+          "quote": "he could learn nothing positive as to either Lyon's strength, or as to the defences of Springfield."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek",
+          "locator": "p.268 (inferred: chapter opening without a running head, before the p.269 head; not checked against print)",
+          "quote": "The Confederates were not yet aware of his approach, as they had withdrawn all their pickets at midnight."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "Knowing that the First Iowa wore a gray uniform, Jie at once concluded that this must be the First Iowa"
+        },
+        {
+          "source_id": "or3-sturgis-wilsons-creek-selections-v1",
+          "section": "sturgis-1861-08-20",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "These troops wore a dress much resembling that of SigePs brigade, and carried the American flag."
+        },
+        {
+          "source_id": "or3-sturgis-wilsons-creek-selections-v1",
+          "section": "sturgis-1861-08-20",
+          "locator": "p.65 (OCR page markers; not checked against print)",
+          "quote": "we have not been able to procure any written report of its operations."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "plans",
+      "dimension": "objectives",
+      "value": "Snead says Lyon resolved to move at night and surprise the enemy's camp at daybreak, then split his force to send Sigel against the Confederate right, and that Price forced the Confederate advance by threatening to resume command and attack alone. Sturgis says Lyon came to the determination of attacking the camp on the 9th.",
+      "rationale": "Stated plans from a participant history and an interested report.",
+      "citations": [
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek-approach",
+          "locator": "p.265 (OCR page markers; not checked against print)",
+          "quote": "surprise the enemy in their camp on Wilson's Creek at daybreak, and trust everything to the hazard of a battle."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek-approach",
+          "locator": "p.265 (OCR page markers; not checked against print)",
+          "quote": "and»with them turn the right flank of the Confederates"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek-approach",
+          "locator": "p.262 (OCR page markers; not checked against print)",
+          "quote": "Price declared emphatically that if orders were not forth- with issued for a forward movement, he would re- sume command of the Missouri troops"
+        },
+        {
+          "source_id": "or3-sturgis-wilsons-creek-selections-v1",
+          "section": "sturgis-1861-08-20",
+          "locator": "p.65 (OCR page markers; not checked against print)",
+          "quote": "General Lyon came to the determination of attack ing the enemy's camp"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Major General Sterling Price and Brigadier General Ben McCulloch, Brigadier General Nathaniel Lyon and Samuel D. Sturgis as Major General; Sturgis signs his report as Major, First Cavalry. Snead says McCulloch accepted command of the combined armies and Price turned over the State Guard to him. Lyon was killed; Sturgis says Schofield reported to him for orders, and Snead that command devolved on Sturgis, who decided to retreat.",
+      "rationale": "Command roles from a participant history and an interested report; no automatic sole credit, and the frozen rank for Sturgis is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO004",
+            "belligerent": "Confederate",
+            "fullname": "Sterling Price"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO004",
+            "belligerent": "Confederate",
+            "fullname": "Ben McCulloch"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO004",
+            "belligerent": "US",
+            "fullname": "Nathaniel Lyon"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO004",
+            "belligerent": "US",
+            "fullname": "Samuel D. Sturgis"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "or3-sturgis-wilsons-creek-selections-v1",
+          "section": "sturgis-1861-08-20",
+          "locator": "p.71 (OCR page markers; not checked against print)",
+          "quote": "S. D. STUEGIS, Major, First Cavalry, Commanding."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek-approach",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "he had concluded to accept command of the com- bined armies, and attack Lyon."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek-approach",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "he had turned over the command of the State Guard to General McCulloch"
+        },
+        {
+          "source_id": "or3-sturgis-wilsons-creek-selections-v1",
+          "section": "sturgis-1861-08-20",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "Major Schofield now informed me of the death of General Lyon, and reported for orders."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "The command devolved upon Major Sturgis."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "Sturgis decided to retreat."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Sturgis says a perfect rout took place in the rebel front and his men withdrew at their leisure; Snead says the Federals abandoned the field.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO004"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-mo004-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or3-sturgis-wilsons-creek-selections-v1",
+          "section": "sturgis-1861-08-20",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "From this moment a perfect rout took place throughout the rebel front"
+        },
+        {
+          "source_id": "or3-sturgis-wilsons-creek-selections-v1",
+          "section": "sturgis-1861-08-20",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "withdrew at their leisure"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "that they had at last abandoned the field for which they had fought so bravely"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 2,330 (US 1,235; CS 1,095); the live field reads 1,781 (US 1,317; CS 464). Sturgis reports 1,235 killed, wounded and missing, matching the total of the return printed with his report, and guesses the enemy's at 3,000. Snead gives 1,317 Federal killed, wounded and missing and 1,230 Confederate killed and wounded, and 293 lost in Sigel's column.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The return's columns are garbled in OCR; only its printed total is cited.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO004"
+          },
+          "column": "casualties_text",
+          "quote": "2,330 total (US 1,235; CS 1,095)"
+        },
+        {
+          "source_id": "nps-mo004-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1781 total (US 1317; CS 464;)"
+        },
+        {
+          "source_id": "or3-sturgis-wilsons-creek-selections-v1",
+          "section": "sturgis-1861-08-20",
+          "locator": "p.71 (OCR page markers; not checked against print)",
+          "quote": "Our total loss in killed, wounded, and missing amounts to 1,235. That of the enemy will probably reach 3,000."
+        },
+        {
+          "source_id": "or3-sturgis-wilsons-creek-selections-v1",
+          "section": "return-of-casualties",
+          "locator": "p.72 (OCR page markers; not checked against print)",
+          "quote": "Total 223 721 291 1, 235"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek",
+          "locator": "p.292 (OCR page markers; not checked against print)",
+          "quote": "amounted to 1317 officers and men killed, wounded, and missing; that of the Confederates to 1230 killed and wounded."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "wilsons-creek",
+          "locator": "p.290 (OCR page markers; not checked against print)",
+          "quote": "lost two hundred and ninety-three men"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Fremont's, Lyon's August 9, Schofield's, Sigel's No. 13, Price's No. 19 and McCulloch's No. 21 reports, the subordinate reports and McClellan's indorsement on Sturgis's report remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Thomas L. Snead's The Fight for Missouri (Scribner, 1886) is a retrospective history by the Missouri State Guard's acting adjutant-general and Price's chief of staff, who says he was with the Governor at Booneville and Carthage; it quotes Sigel's, Schofield and Sturgis's and Price's reports and is not independent of them. Sturgis's August 20, 1861 report and the return of casualties printed with it are an interested Union account, the same author family as the Sturgis reports registered for Dandridge; Sturgis says he drew largely on Schofield's memoranda. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

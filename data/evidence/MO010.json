@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO010",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Mount Zion Church record (December 28, 1861) in Operations in Northeast Missouri [December 1861]. The December 27 skirmish near Hallsville and Prentiss's march from Palmyra are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives detachments of the 3rd Missouri Cavalry (about 240) and Birge's Sharpshooters (about 200), 440 in the forces table, and an unknown Confederate force; the frozen description says 5 mounted companies and 2 companies of sharpshooters. Prentiss says five troops of cavalry and five companies of sharpshooters numbering 470 marched, and that prisoners put the enemy near 900. Britton gives the same 470 and nine hundred.",
+      "rationale": "Prentiss's marching force and his prisoners' estimate; the company counts in the frozen description and the report differ. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO010"
+          },
+          "column": "forces_text",
+          "quote": "Detachments of the 3rd Missouri Cavalry Regiment (approx. 240) and Birge's Sharpshooters (approx. 200) [US]; unknown [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "MO010",
+            "belligerent": "US"
+          },
+          "column": "strength_max",
+          "quote": "440"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO010"
+          },
+          "column": "description",
+          "quote": "a Union force of 5 mounted companies and 2 companies of Birge's sharpshooters"
+        },
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "five troops of cavalry, Col. John M. Glover commanding, and five companies of Sharpshooters. Colonel Birge commanding, numbering in all 470"
+        },
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "numbering near 900 men"
+        },
+        {
+          "source_id": "britton-border-1-mount-zion-selections-v1",
+          "section": "mount-zion",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "His whole force numbered four hundred and seventy men."
+        },
+        {
+          "source_id": "britton-border-1-mount-zion-selections-v1",
+          "section": "mount-zion",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "the secessionists were nine hun- dred strong"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "church-and-woods",
+      "dimension": "terrain",
+      "value": "Prentiss says the enemy was posted at the church a mile and a half ahead, and that sharpshooters went through a field on his right to drive them from the woods.",
+      "rationale": "Ground described by an interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "The enemy being posted at a church and place known as Mount Zion, in Boone County, and one mile and a half in advance"
+        },
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "through a field on our right to skirmish with the enemy’s left, and, if possible, drive them from the woods."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "march-and-evacuation",
+      "dimension": "logistics",
+      "value": "Prentiss marched 16 miles from Sturgeon before contact, collected wagons for his wounded and returned to Sturgeon the same evening; he took 90 horses and 105 stand of arms.",
+      "rationale": "March and evacuation from an interested report; not a return.",
+      "citations": [
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "after marching a distance of 16 miles"
+        },
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "I collected wagons, made our own wounded as comfort able as possible, and at 4 p. m. started for Sturgeon, where we arrived at 9 p. m."
+        },
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "leaving in our hands 90 horses and 105 stand oj arms."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-and-prisoners",
+      "dimension": "information",
+      "value": "Prentiss sent a troop to reconnoitre near Hallsville on the 27th, and learned the enemy's numbers and position from prisoners taken on the road on the 28th.",
+      "rationale": "Knowledge attributed in an interested report and a history based on it.",
+      "citations": [
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.43 (OCR page markers; not checked against print)",
+          "quote": "I sent forward one troop of cavalry, commanded by"
+        },
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "from whom 1 learned the number and position of the main force."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Britton says Halleck directed Prentiss to open a vigorous campaign against the Southern forces of North Missouri and that Prentiss determined to break up their organization; Prentiss says he moved in pursuance of general orders.",
+      "rationale": "Aims from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-mount-zion-selections-v1",
+          "section": "mount-zion",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "directed General Prentiss, commanding the district of North Missouri to commence at once a vigorous cam- paign against the Southern forces of that section."
+        },
+        {
+          "source_id": "britton-border-1-mount-zion-selections-v1",
+          "section": "mount-zion",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "General Prentiss determined to check their operations, and break up their organization as speedily as possible."
+        },
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.43 (OCR page markers; not checked against print)",
+          "quote": "In pursuance of general orders"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Colonel Caleb Dorsey (read 'Horsey' in OCR) and Brigadier General Benjamin M. Prentiss. Prentiss directed the attack; he says Glover moved at the double-quick to support the three engaged companies and the two reserve companies came in as the enemy gave way.",
+      "rationale": "Command roles from an interested report; no Confederate account was inspected and there is no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO010",
+            "belligerent": "Confederate",
+            "fullname": "Caleb Dorsey"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO010",
+            "belligerent": "US",
+            "fullname": "Benjamin M. Prentiss"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "manded by Colonel Horsey"
+        },
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "Colonel Glover, with his available force, moved in double quick to the aid of the three companies engaged"
+        },
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "The reserve of two companies coming into action at the moment the enemy gave way"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory. Prentiss says the rebels retreated and his victory was complete by about 11 a.m.; Britton says they were driven off in the greatest disorder, leaving their dead and wounded.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO010"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "The rebels could not stand the tire of oui rifles and retreated"
+        },
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "our victory was complete."
+        },
+        {
+          "source_id": "britton-border-1-mount-zion-selections-v1",
+          "section": "mount-zion",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "the secessionists were driven from the field in the greatest disorder, leaving their dead and wounded on the ground."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 282 (US 72; CS 210). Prentiss reports 3 killed, 17 severely and 46 slightly wounded for Mount Zion and the previous evening's skirmish together, and enemy losses of 25 killed and 150 wounded, with 30 prisoners taken; Britton repeats these figures.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Prentiss's Union figures include the December 27 skirmish near Hallsville and must not be assigned to this record alone.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO010"
+          },
+          "column": "casualties_text",
+          "quote": "282 total (US 72; CS 210)"
+        },
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "Our loss in the battle of Mount Zion and in the engagement of th€ evening previous is as follows: Killed, 3: severely wounded, 17 : slightly wounded, 46. Rebel loss: Killed, 25; wounded', 150."
+        },
+        {
+          "source_id": "or8-prentiss-mount-zion-selections-v1",
+          "section": "prentiss-1862-01-04",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "having taken 30 prisoners from them"
+        },
+        {
+          "source_id": "britton-border-1-mount-zion-selections-v1",
+          "section": "mount-zion",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "The casualties on the Federal side as reported by Gen- eral Prentiss were 3 killed, 17 severely wounded, and 46 slightly wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The live NPS page for MO010 is an empty template; the frozen CWSAC row is that family's evidence. Dorsey's side, returns and maps remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Prentiss's January 4, 1862 report is an interested Union account, the same author family as the registered Prentiss Shiloh selections (group or-prentiss). Wiley Britton's The Civil War on the Border, vol. I (second edition, 1891) is a retrospective history by a Union soldier of the border army, based by its title page on the official reports; it is not independent of the report families. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

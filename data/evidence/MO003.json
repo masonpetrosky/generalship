@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Liberty (Blue Mills Landing) record (September 17, 1861) in Operations to Control Missouri [June-October 1861]. The State Guard's crossing toward Lexington and the siege of Lexington are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the Union detachments about 600 and names the State Guard 4th Division with no figure; the live field reads US 600 and CS 0. Scott reports 500 of the Third Iowa, a squad of artillerists and about 70 Home Guards, says about 4,000 of the enemy passed through Liberty, and puts their total force at about 4,400. Atchison names five infantry regiments under Saunders with Wilfley's cavalry regiment and five under Patton with Childs's cavalry battalion, without numbers, and says the Federals were supposed to be about 900 with one gun.",
+      "rationale": "Each side's estimate of the other and Scott's own count; no return. None is adopted as a matched opening strength. The live CS zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO003"
+          },
+          "column": "forces_text",
+          "quote": "Detachments of 3rd Iowa Infantry, Home Guards, and artillery (approx. 600 men) [US]; 4th Division, Missouri State Guard [CS]"
+        },
+        {
+          "source_id": "nps-mo003-v1",
+          "locator": "Forces Engaged",
+          "quote": "600 total (US 600; CS 0;)"
+        },
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "consisting of 500 of the Third Iowa, a squad of German artillerists, and about 70 Home Guards"
+        },
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "to the number of about 4,000"
+        },
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "J3is total force was about 4,400."
+        },
+        {
+          "source_id": "or3-atchison-blue-mills-selections-v1",
+          "section": "atchison-1861-09-21",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "five regiments of infantry, under the command of Colonel Saunders, and one regiment of cavalry"
+        },
+        {
+          "source_id": "or3-atchison-blue-mills-selections-v1",
+          "section": "atchison-1861-09-21",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "sup posed to be about 900 men, with one piece of artillery (a 6-pounder)."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "slough-and-thicket",
+      "dimension": "terrain",
+      "value": "Scott says the enemy lay concealed on both sides of the road in the dry bed of a slough, left on the river, and that his route lay through dense growth.",
+      "rationale": "Ground described by an interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "concealed on both sides of the road, and occupying the dry bed of a slough, his left resting on the river"
+        },
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "the dense growth through which our route lay"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "crossing-and-wagons",
+      "dimension": "logistics",
+      "value": "Atchison says the State Guard was crossing the river all night in three small flats with a train of some hundred wagons. Scott says rain and bad roads slowed his march, his one gun was left without enough men to serve it, and his ammunition wagon was abandoned.",
+      "rationale": "Movement and equipment conditions from the two opposing reports; not returns.",
+      "citations": [
+        {
+          "source_id": "or3-atchison-blue-mills-selections-v1",
+          "section": "atchison-1861-09-21",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "We were crossing in three small flats, and much time was necessary to move the large train, of some hundred wagons."
+        },
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "through a heavy rain and bad roads made but 7 miles during that afternoon."
+        },
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "the only piece, a brass 6-pounder, was left without sufficient force to man it"
+        },
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "The ammuni tion wagon, becoming fastened between a tree and log at the road-side"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouting-and-contact-time",
+      "dimension": "information",
+      "value": "Scott says his scouts could gain no definite information and that his messengers to Colonel Smith got no response; he struck the enemy about 3 p.m. (read 'p. in.' in OCR). NPS gives the contact as 3:00 am. Atchison says news came in the night that the enemy would be in Liberty early.",
+      "rationale": "Attributed knowledge and a clock time that the summary and the report state differently; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "I dispatched several scouts to examine the position of the enemy, but could gain no definite information."
+        },
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "apprising him of my movements, but got no response."
+        },
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "at 3 p. in. discovered the enemy in force"
+        },
+        {
+          "source_id": "nps-mo003-v1",
+          "locator": "Description",
+          "quote": "at 3:00 am, struck the Confederate pickets"
+        },
+        {
+          "source_id": "or3-atchison-blue-mills-selections-v1",
+          "section": "atchison-1861-09-21",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "We received news during the night that the enemy would be in the town of Liberty"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Atchison says he carried Price's orders for the northern State Guard to hasten to Lexington. Scott marched on the firing toward the landing.",
+      "rationale": "Stated aims from the two reports.",
+      "citations": [
+        {
+          "source_id": "or3-atchison-blue-mills-selections-v1",
+          "section": "atchison-1861-09-21",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "I delivered your orders to the above commands to hasten to this point (Lexington) with as much dispatch as possible."
+        },
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "in the direction of Blue Mills Landing."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are D. R. Atchison as General and Lieutenant Colonel John Scott; a compiler's footnote to Atchison's report says there is no record of his official status. Atchison says Colonel Jeff. Patton led the advance; Scott decided to fall back.",
+      "rationale": "Command roles from the two reports; no automatic sole credit, and Atchison's frozen rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO003",
+            "belligerent": "Confederate",
+            "fullname": "D. R. Atchison"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO003",
+            "belligerent": "US",
+            "fullname": "John Scott"
+          },
+          "column": "rank",
+          "quote": "Lieutenant Colonel"
+        },
+        {
+          "source_id": "or3-atchison-blue-mills-selections-v1",
+          "section": "atchison-1861-09-21",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "* No record of his official status."
+        },
+        {
+          "source_id": "or3-atchison-blue-mills-selections-v1",
+          "section": "atchison-1861-09-21",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "Col. Jeff. Patton leading the advance"
+        },
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "it was deemed advisable to fall back"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Scott says he fell back slowly after an hour, returning fire and checking pursuit; Atchison says the Federals almost immediately fled with his men pursuing.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO003"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-mo003-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "which was done slowly, returning the enemy's fire, and completely checking pursuit."
+        },
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "The engagement lasted one hour"
+        },
+        {
+          "source_id": "or3-atchison-blue-mills-selections-v1",
+          "section": "atchison-1861-09-21",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "But the Federal troops almost immediately fled, our men pur suing rapidly"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 126 (US 56; CS 70); the live field reads 62 (US 62; CS 0). Scott says Company I's 4 killed and 20 wounded were a quarter of his total loss (his list is not printed) and the enemy lost not less than 160. Atchison claims about 60 Federals killed and about 70 wounded, and 4 killed and 1 wounded at the morning picket fight without loss; a compiler's footnote cites a Fourth Division return of 2 killed and 3 wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO003"
+          },
+          "column": "casualties_text",
+          "quote": "126 total (US 56; CS 70)"
+        },
+        {
+          "source_id": "nps-mo003-v1",
+          "locator": "Estimated Casualties",
+          "quote": "62 total (US 62; CS 0;)"
+        },
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "which lost 4 killed and 20 wounded, being one-fourth of our total loss."
+        },
+        {
+          "source_id": "or3-scott-blue-mills-selections-v1",
+          "section": "scott-1861-09-18",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "is not less than 160, many of whom were killed."
+        },
+        {
+          "source_id": "or3-atchison-blue-mills-selections-v1",
+          "section": "atchison-1861-09-21",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "killing about 60, and wounding, it is said, about 70."
+        },
+        {
+          "source_id": "or3-atchison-blue-mills-selections-v1",
+          "section": "atchison-1861-09-21",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "killing 4 and wounding 1, with no loss on our side."
+        },
+        {
+          "source_id": "or3-atchison-blue-mills-selections-v1",
+          "section": "atchison-1861-09-21",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "reports a loss of 2 killed and 3 wounded in this action."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Colonel Smith's Sixteenth Illinois column, Scott's list of killed and wounded (not found by the compilers), the State Guard returns and maps remain deferred. No nineteenth-century history covering the action was selected; Britton's volume does not name it.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Scott's September 18 and Atchison's September 21, 1861 reports are separate interested accounts from the two sides; the compiler's footnotes printed with Atchison's report are part of that selection. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

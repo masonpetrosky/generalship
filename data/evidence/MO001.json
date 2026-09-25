@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Boonville record (June 17, 1861) in Operations to Control Missouri [June-October 1861]. Lyon's June 13-15 move to Jefferson City and his later march south are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the Union about 1,700 and the State Guard no figure; the live field reads US 1,700 and CS 0. Lyon's June 22 report gives his whole command at about 1,700 and says the Governor had collected three or four thousand men at Boonville. Snead says Lyon left St. Louis with about two thousand men and moved on Boonville with about seventeen hundred, that Lyon expected at least three or four thousand, and that Marmaduke went out with between 400 and 500 men, Lyon greatly overestimating his strength.",
+      "rationale": "Figures of different populations and dates (Lyon's moving column, the Governor's assembled force, the detachment Snead says was engaged). The CWSAC 1,700 matches Lyon's own report, whose basis is not stated; the match is not corroboration. None is adopted as a matched opening strength. The live CS zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO001"
+          },
+          "column": "forces_text",
+          "quote": "Combined force of Missouri troops and Regular U.S. Army (approx. 1,700) [US]"
+        },
+        {
+          "source_id": "nps-mo001-v1",
+          "locator": "Forces Engaged",
+          "quote": "1700 total (US 1700; CS 0;)"
+        },
+        {
+          "source_id": "or3-lyon-boonville-selections-v1",
+          "section": "lyon-1861-06-22",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "the whole command amounting to about 1,700 men."
+        },
+        {
+          "source_id": "or3-lyon-boonville-selections-v1",
+          "section": "lyon-1861-06-22",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "had collected together three or four thousand men."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.211 (OCR page markers; not checked against print)",
+          "quote": "aggregating about two thousand men"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.211 (OCR page markers; not checked against print)",
+          "quote": "with the rest of his command — about seventeen hundred men — towards Booneville."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "as he had been led to believe that he would have to encounter at least \" three or four thousand rebels.\""
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "Marmaduke went out with between 400 and 500 men to confront the enemy."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "who greatly overestimated Marmaduke's strength"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "landing-and-cover",
+      "dimension": "terrain",
+      "value": "Lyon's June 22 report puts his landing about 6 miles below Boonville; his June 30 report and Snead put it about eight miles below. Lyon says the State troops held for a while in the shelter of a house and a thicket of wood behind it, while his approach brought him onto high and open ground where most of his casualties occurred; Snead places the stand under cover of some buildings and a dense wood.",
+      "rationale": "Ground described by an interested report and a participant history; the two Lyon reports differ on the landing distance. No map verification.",
+      "citations": [
+        {
+          "source_id": "or3-lyon-boonville-selections-v1",
+          "section": "lyon-1861-06-22",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "about 6 miles below Booueville"
+        },
+        {
+          "source_id": "or3-lyon-boonville-selections-v1",
+          "section": "lyon-1861-06-30",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "I came to within about eight miles, and then landed nearly all my forces"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "a point about eight miles below Booneville."
+        },
+        {
+          "source_id": "or3-lyon-boonville-selections-v1",
+          "section": "lyon-1861-06-30",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "hav ing shelter of a house (owned by VVm. M. Adams) and a thicket of wood behind it"
+        },
+        {
+          "source_id": "or3-lyon-boonville-selections-v1",
+          "section": "lyon-1861-06-30",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "our ap proach brought us on to high and open ground, and here most of our casualties occurred."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "under cover of some buildings and a dense wood"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "river-transport-and-train",
+      "dimension": "logistics",
+      "value": "Lyon moved by boats to Jefferson City and on toward Boonville, leaving a howitzer and a company as guard to the three boats. After the action he says he was delayed by the trouble of getting up a train and by heavy rains; Snead says Lyon lost fifteen days at Boonville.",
+      "rationale": "Transport and post-action delay from an interested report and a history; not a supply return for the engagement.",
+      "citations": [
+        {
+          "source_id": "or3-lyon-boonville-selections-v1",
+          "section": "lyon-1861-06-30",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "ad vanced by boats to Jefferson City"
+        },
+        {
+          "source_id": "or3-lyon-boonville-selections-v1",
+          "section": "lyon-1861-06-30",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "as guard to the three boats"
+        },
+        {
+          "source_id": "or3-lyon-boonville-selections-v1",
+          "section": "lyon-1861-06-30",
+          "locator": "p.14 (OCR page markers; not checked against print)",
+          "quote": "unavoidably delayed by the trouble of getting up a train here and by continued and heavy rains."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "carthage",
+          "locator": "p.222 (OCR page markers; not checked against print)",
+          "quote": "But Lyon had lost fifteen days of priceless time at Booneville"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-and-diversion",
+      "dimension": "information",
+      "value": "Snead says the Governor learned on Sunday night that Lyon was approaching by the river, and that Lyon sent part of his force on up the river on the transports to deceive the State troops and create a diversion.",
+      "rationale": "Attributed knowledge and intent from a participant history on the Governor's side; no order or message log inspected.",
+      "citations": [
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "Governor Jackson learned Sunday night that Lyon was approaching Booneville by way of the river."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "in order to deceive the State troops and to create a diversion in favor of his real movement."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Lyon says the Governor's proclamation made it necessary for him to move up the river to anticipate the collection of the State forces. Snead says the Governor ordered Marmaduke out to impede Lyon's advance so that Parsons could come up, and that Marmaduke had advised concentrating behind the Osage instead.",
+      "rationale": "Stated aims from an interested report and a participant history.",
+      "citations": [
+        {
+          "source_id": "or3-lyon-boonville-selections-v1",
+          "section": "lyon-1861-06-30",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "made it necessary for me to move up the river, in order to anticipate the collec tion of his forces"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "and to move out against Lyon, and impede his ad- vance as much as possible."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "had advised the Governor to concentrate his forces behind the Osage in the neighborhood of Warsaw"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Colonel John S. Marmaduke and Brigadier General Nathaniel Lyon; NPS says Marmaduke commanded on the field. Snead says Governor Jackson ordered Marmaduke out over his protest and then ordered him back to the city to join Parsons. Lyon's report describes his own landing and advance.",
+      "rationale": "Command roles from a participant history and an interested report. The Governor's orders are attributed as Snead gives them; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO001",
+            "belligerent": "Confederate",
+            "fullname": "John S. Marmaduke"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO001",
+            "belligerent": "US",
+            "fullname": "Nathaniel Lyon"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-mo001-v1",
+          "locator": "Description",
+          "quote": "commanded on the field by Col. John S. Marmaduke"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "had already protested against making any resistance at Booneville"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "received orders from the Governor to fall back to the city"
+        },
+        {
+          "source_id": "or3-lyon-boonville-selections-v1",
+          "section": "lyon-1861-06-22",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "With this force I landed, on the morning of the 17th June"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Lyon says the enemy were soon routed, their camp taken and Boonville occupied. Snead calls it a trifling engagement but a stunning blow to the Southern Rights people of the State.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Snead's assessment of consequences is campaign context, not the tactical result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO001"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-mo001-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or3-lyon-boonville-selections-v1",
+          "section": "lyon-1861-06-22",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "the enemy were soon routed, their camp taken, and the city of Booneville occupied by our troops."
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "Such was the trifling engagement which has been called \" the Battle of Booneville.\""
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "it was in fact a stunning blow to the South- ern Rights' people of the State"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 81 (US 31; CS 50); the live field reads 31 (US 31; CS 0). Lyon reports 2 killed, 1 missing and 9 wounded (two since dead), about 60 prisoners released on oath and the enemy's loss unknown. Snead gives the Federal loss as two killed and nine wounded and the State troops' as two killed and five or six slightly wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO001"
+          },
+          "column": "casualties_text",
+          "quote": "81 total (US 31; CS 50)"
+        },
+        {
+          "source_id": "nps-mo001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "31 total (US 31; CS 0;)"
+        },
+        {
+          "source_id": "or3-lyon-boonville-selections-v1",
+          "section": "lyon-1861-06-30",
+          "locator": "p.14 (OCR page markers; not checked against print)",
+          "quote": "Our loss consisted of 2 killed, 1 missing, and 9 wounded, two of whom have since died. The loss of the rebel force is not known."
+        },
+        {
+          "source_id": "or3-lyon-boonville-selections-v1",
+          "section": "lyon-1861-06-30",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "About 60 prisoners taken were released upon oath"
+        },
+        {
+          "source_id": "snead-missouri-1861-selections-v1",
+          "section": "booneville",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "The Federal loss was two men killed, and nine wounded. Of the State troops two were killed, and five or six were slightly wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Blair's, Totten's and the State Guard reports, returns for Lyon's column and maps remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Thomas L. Snead's The Fight for Missouri (Scribner, 1886) is a retrospective history by the Missouri State Guard's acting adjutant-general and Price's chief of staff, who says he was with the Governor at Booneville and Carthage; it quotes Sigel's, Schofield and Sturgis's and Price's reports and is not independent of them. Lyon's June 22 and June 30, 1861 reports are one family of interested Union accounts. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

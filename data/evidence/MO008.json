@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO008",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Springfield (Zagonyi's Charge) record (October 25, 1861) in Operations to Control Missouri [June-October 1861]. Fremont's advance from the Osage and his occupation of Springfield on October 27 are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Prairie Scouts and Fremont's Body Guard and State Guard troops with no figures; the live field reads zero; NPS gives Frazier 1,000 to 1,500. Zagonyi says his Body Guard numbered 150, rallied to 70 after the charges, and that White's command left him before the first charge; he learned afterwards that 2,100 of the enemy had been arrayed. Britton gives Zagonyi 150 and White 180 mounted men, and at least 1,500 Confederates in town, outnumbering them five to one.",
+      "rationale": "Detachment counts and after-the-fact estimates of the enemy; no return. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO008"
+          },
+          "column": "forces_text",
+          "quote": "Prairie Scouts and Frémont's Body Guard [US]; Missouri State Guard troops [CS]"
+        },
+        {
+          "source_id": "nps-mo008-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-mo008-v1",
+          "locator": "Description",
+          "quote": "Frazier's force of 1,000 to 1,500"
+        },
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "My men belonging to the Body-Guard amounted to 150"
+        },
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "united my men, which now amounted to 70, the rest being scattered or lost."
+        },
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "Major White's command left me at the beginning of the action and before my first charge"
+        },
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "bel strength, as arrayed to receive our first charge, was 2,100 men."
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "springfield",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "Major Chas. Zagoni with 150 men of his body-guard, and Major F. J. White with 180 mounted men detailed from the First Missouri cavalry"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "springfield",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "a force of at least 1,500 Confederate troops were in town that day"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "springfield",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "they outnumbered the Federal detachments five to one."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "lane-and-fence",
+      "dimension": "terrain",
+      "value": "Zagonyi says the ground was too confined to form: he had to pass 250 yards down a lane and take down a rail fence under cross-fire before forming for the first charge. Britton repeats this.",
+      "rationale": "Ground described by an interested report and a history that follows it; no map verification.",
+      "citations": [
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "The place was too confined for me to form my men. I had to pass 250 yards down a lane and take down a rail fence at the end of it"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "springfield",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "He was therefore obliged to march several hundred yards through a lane"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "march-and-horses",
+      "dimension": "logistics",
+      "value": "Zagonyi left his camp at 8.30 p.m. on the 24th and reached Springfield, 51 miles, at 3 p.m. on the 25th; his men were exhausted by the march and battle, and forty-five horses were killed or unfit.",
+      "rationale": "March and loss of mounts from an interested report; not a return.",
+      "citations": [
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "I reached Springfield, a distance of 51 miles, at 3 p. m. on the 25th."
+        },
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "who were exhausted with the labors of the march and the battle."
+        },
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "Forty -five horses are killed or unfitted for use."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "alarm-and-detour",
+      "dimension": "information",
+      "value": "Zagonyi says one picket escaped and gave the alarm, so he made a five-mile detour but came suddenly on the enemy drawn up in line; Britton says the same.",
+      "rationale": "Knowledge from an interested report and a history based on it.",
+      "citations": [
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "A sixth escaped and gave the alarm to the rebels."
+        },
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "Knowing that the enemy was apprised of our coming, I made a detour of 5 miles"
+        },
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "I came suddenly upon them, drawn up in line of battle"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "springfield",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "One of the rebel pickets not captured hastened to camp and gave the alarm of the Federal advance"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "orders-and-decision",
+      "dimension": "objectives",
+      "value": "Zagonyi says he left camp by Fremont's order; Britton calls the mission a reconnaissance toward Springfield and says the Federal officers decided after deliberation to attack.",
+      "rationale": "Stated orders from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "According to the order of Major-General Fremont, I left the camp south of Pomme de Terre River"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "springfield",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "to make a reconnoissance in the direction of Springfield."
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "springfield",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "It was decided by the Federal officers after some delib- eration to move forward and attack the enemy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Colonel James Frazier and Major James Zagonyi; the live page gives Zagonyi as Major General, and its description names Maj. Charles Zagonyi and Col. Julian Frazier. NPS says White fell ill and turned his command over to Zagonyi; Zagonyi says White was a prisoner before the battle and his command left at the start; Britton says Zagonyi and White together decided the detour.",
+      "rationale": "The detachment commanders' roles are disputed among the sources; the live ranks and names are not adopted, and there is no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO008",
+            "belligerent": "Confederate",
+            "fullname": "James Frazier"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO008",
+            "belligerent": "US",
+            "fullname": "James Zagonyi"
+          },
+          "column": "rank",
+          "quote": "Major"
+        },
+        {
+          "source_id": "nps-mo008-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General James Zagonyi [US]"
+        },
+        {
+          "source_id": "nps-mo008-v1",
+          "locator": "Description",
+          "quote": "Maj. White became ill and turned his command over to Zagonyi."
+        },
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "Major White himself was made a prisoner before the battle"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "springfield",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "Majors Zagoni and White determined to make a detour of five miles"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Zagonyi says his first charge was completely successful and that he cleared the town, then retired as it grew dark; Britton says he retired to meet the advance of the army.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO008"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-mo008-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "Our first charge was completely successful."
+        },
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "As it was nearly dark I retired"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "springfield",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "he decided to retire until he met the advance of the army."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text and the live field read 218 (US 85; CS 133). Zagonyi reports a total loss of 52 in the Body Guard (15 killed), at least 106 enemy killed by citizens' and prisoners' statements, 23 enemy dead buried and 27 prisoners; Britton gives sixteen Federal killed and twenty-six wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Zagonyi's total covers the Body Guard only.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO008"
+          },
+          "column": "casualties_text",
+          "quote": "218 total (US 85; CS 133)"
+        },
+        {
+          "source_id": "nps-mo008-v1",
+          "locator": "Estimated Casualties",
+          "quote": "218 total (US 85; CS 133;)"
+        },
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "Total loss, 52."
+        },
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "Bailed — Corporals, 6; privates, 9."
+        },
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "was at least 106."
+        },
+        {
+          "source_id": "or3-zagonyi-springfield-selections-v1",
+          "section": "zagonyi-1861-10-28",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "Twenty-three of their dead were buried by the Body- Guard. We took 27 prisoners"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "springfield",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "The casualties on the Federal side were sixteen men killed and twenty-six wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Fremont's No. 1 report and inclosures, White's account, Naughton's No. 3 report (printed after Zagonyi's; glanced while delimiting the selection, not selected), the State Guard side, returns and maps remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Wiley Britton's The Civil War on the Border, vol. I (second edition, 1891) is a retrospective history by a Union soldier of the border army, based by its title page on the official reports; it is not independent of the report families. Zagonyi's October 28, 1861 report is an interested Union account. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

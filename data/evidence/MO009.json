@@ -1,0 +1,407 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO009",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Belmont record (November 7, 1861) in Operations at the Ohio and Mississippi River Confluence [November 1861]. Oglesby's expedition against Thompson, the Paducah demonstration toward Columbus and the Columbus batteries' fire are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Division for each side; the live field reads zero. Grant says his expedition amounted to 3,114 men of all arms (on November 5 he expected probably not more than 3,000), and later that Southern sources put the enemy in the field at over 9,000. Pillow says his regiments were each below 500 for duty and numbered about 2,500 all told, that he fought 2,000 men against 7,450, and that he withstood three times his number; on November 12 he gives his division about 2,700 effective after its losses. He puts the Union cavalry at 450.",
+      "rationale": "Embarked, engaged and after-action figures of different scopes, with each side's estimate of the other and reinforcements from Columbus during the day. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO009"
+          },
+          "column": "forces_text",
+          "quote": "Division [US]; division [CS]"
+        },
+        {
+          "source_id": "nps-mo009-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-17",
+          "locator": "p.269 (OCR page markers; not checked against print)",
+          "quote": "amounting to 3,114 men of all arms"
+        },
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-05-to-smith",
+          "locator": "p.273 (OCR page markers; not checked against print)",
+          "quote": "probably not more than 3,000 men."
+        },
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-20",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "the enemy's force in the field to have been over 9,000 men"
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "had been reduced to below 500 meu for duty, as shown by the daily morning report."
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "These regiments, all told, numbered about 2,500 men."
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-09",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "We fought 2,000 men for four hours against 7,450."
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "withstood the constant fire of three times their number"
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-12",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "this bringing my effective force to about 2,700"
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "said to be 450 strong."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "river-bottom-and-abatis",
+      "dimension": "terrain",
+      "value": "Grant says Belmont lies on low ground commanded by the guns across the river, and that the camp was protected by felled timber forming a sort of abatis. Pillow says a line of felled timber helped defeat the attempt on his left, and that he had no choice of position and no time to reconnoitre.",
+      "rationale": "Ground and prepared obstacles described by the two opposing commanders; no map verification.",
+      "citations": [
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-17",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "Belmont is situated on low ground, and every foot is commanded by the guns on the opposite shore"
+        },
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-17",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "Here he had strengthened his position by felling the timber for several hundred yards around his camp, making a sort of abatis."
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "aided by a line of felled timber"
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "I had no choice of position, nor time to make any reconnaissance"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "transports-and-ammunition",
+      "dimension": "logistics",
+      "value": "Grant moved by steamers convoyed by the gunboats Tyler and Lexington, and without wagons could carry off little captured property. Pillow says his battery and one regiment ran out of ammunition and he fell back to the river for want of reinforcements and ammunition.",
+      "rationale": "Transport and ammunition conditions from the two reports; not returns.",
+      "citations": [
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-17",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "The gunboats Tyler, Captain Walke, and Lexington, Captain Stem- bel, convoyed the expedition"
+        },
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-17",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "Having no wagons with me, I could move but little of the cap tured proj)erty"
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "At length Colonel Beltzhoover reported to me that his ammunition was exhausted."
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "Finding it impossible longer to maintain my position without re- enforcements and ammunition, I ordered the whole line to fall back to the river bank."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "crossing-report",
+      "dimension": "information",
+      "value": "Grant says that at about 2 a.m. on the 7th Wallace reported, from a Union man, that the enemy had been crossing troops to Belmont to cut off Oglesby. Pillow says his imperfect knowledge of the field would itself have embarrassed him.",
+      "rationale": "Knowledge attributed in the two reports; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-17",
+          "locator": "p.269 (OCR page markers; not checked against print)",
+          "quote": "About 2 o'clock on the morning of the 7th I received information from Col. W. H. L. Wallace at Charleston"
+        },
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-17",
+          "locator": "p.269 (OCR page markers; not checked against print)",
+          "quote": "that the enemy had been crossing troops from Columbus to Belmont the day before"
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "my imperfect knowledge of the surroundings of the field would of itself have embarrassed me"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Grant set out to make a demonstration against Columbus and says the Wallace report decided him to attack at Belmont, re-embarking under the gunboats if repulsed; his November 20 report says the object, preventing reinforcement of Price and the cutting off of his two columns, was fully accomplished. Pillow crossed on Polk's instructions to meet the advancing force.",
+      "rationale": "Stated aims from the two reports; Grant's November 20 statement is his own after-action assessment.",
+      "citations": [
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-17",
+          "locator": "p.269 (OCR page markers; not checked against print)",
+          "quote": "to make the demonstration against Columbus."
+        },
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-17",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "This information determined me to attack vigor ously his forces at Belmont"
+        },
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-20",
+          "locator": "p.273 (OCR page markers; not checked against print)",
+          "quote": "The object aimed at, to wit, to prevent the enemy from re-enforcing Price in Missouri"
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "Under instructions delivered in person by Major-General Polk"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Brigadier Generals Gideon J. Pillow and Ulysses S. Grant; the live page gives Grant as Lieutenant General. Pillow crossed under Polk's orders, placed Marks at the head of the flanking column, and says Polk ordered the pursuit continued with the whole force. Grant praises McClernand and says his own horse was shot under him.",
+      "rationale": "Command roles from the two reports; Polk's part is attributed as Pillow gives it. No automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO009",
+            "belligerent": "Confederate",
+            "fullname": "Gideon J. Pillow"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO009",
+            "belligerent": "US",
+            "fullname": "Ulysses S. Grant"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-mo009-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant General Ulysses Grant [US]"
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "I immediately placed these fresh troops under the command of the gal lant old veteran Colonel Marks"
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "General Polk ordered the pursuit continued with the whole force"
+        },
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-17",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "General McClernand was in the midst of danger throughout the en gagement"
+        },
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-17",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "My own horse was shot under me during the engagement."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory; NPS says the Union force withdrew and re-embarked after the Confederate counterattack. Grant says his troops charged and again defeated the enemy who came between them and the transports; Pillow calls the day glorious to Confederate arms and a victory scarcely paralleled.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO009"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-mo009-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-mo009-v1",
+          "locator": "Description",
+          "quote": "the Union force withdrew, reembarked, and returned to Cairo."
+        },
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-17",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "Our troops were not in the least discouraged, but charged the enemy and again defeated him."
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "This ended the day, so glorious to our arms"
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "a victory scarcely having a parallel in history"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,464 (US 498; CS 966); the live field reads 1,248 (US 607; CS 641). Grant reports 85 killed, 301 wounded and 99 missing, 175 prisoners taken, and later the enemy's killed and wounded as not less than a figure read 'GOO' in OCR. Pillow's November 9 dispatch gives his loss as about 400; his report transmits a list (not printed) numbering a figure read 'G32', 562 of them in the force first engaged, says 295 Union dead were buried and estimates the Union loss at not less than 2,000; on November 12 he gives his division's loss as 530.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. OCR-garbled figures are retained as printed in the scan.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO009"
+          },
+          "column": "casualties_text",
+          "quote": "1,464 total (US 498; CS 966)"
+        },
+        {
+          "source_id": "nps-mo009-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1248 total (US 607; CS 641;)"
+        },
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-17",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "Our loss in killed on the field was 85. 301 wounded (many of them, however, slightly), and 99 missing."
+        },
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-17",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "We captured 175 prisoners"
+        },
+        {
+          "source_id": "or3-grant-belmont-selections-v1",
+          "section": "grant-1861-11-20",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "their loss in killed and wounded alone not less than GOO."
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-09",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "a severe loss for the forces engaged, about 400."
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "numbering G32. Of this num ber 562 were of my own division and Tappan's regiment"
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "we buried of the enemy 295"
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-10",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "I think the enemy's loss could not be less than 2,000 men."
+        },
+        {
+          "source_id": "or3-pillow-belmont-selections-v1",
+          "section": "pillow-1861-11-12",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "My loss in the battle of Belmont from my division was 530 men"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Polk's No. 14 reports, McClernand's, Walke's and the regimental reports on both sides, Brinton's medical report, Pillow's casualty list (not found by the compilers), returns and maps remain deferred. Manning F. Force's From Fort Henry to Corinth (Scribner, 1881) was located (its index lists Belmont at pp.19-21) but not read or selected: the three-family ceiling was taken by the two commanders' reports.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Grant's November 5, 17 and 20, 1861 reports are one family of interested Union accounts, the same author family as the registered Grant Shiloh report and memoirs (group or-grant); the November 17 report is dated as printed in the OCR. Pillow's November 9, 10 and 12, 1861 reports are one family of interested Confederate accounts. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

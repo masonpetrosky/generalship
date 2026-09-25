@@ -74,6 +74,22 @@ from different campaigns under separate independence groups (for example
 witness family: they never count as independent corroboration of each other, whatever their group
 names.
 
+### 1861 Western and Trans-Mississippi first passes (cohort v2), 2026-09-25
+
+The first passes for six 1861 campaigns add **78 records**: Missouri, Eastern Kentucky, the Gulf
+Blockading Squadron, Belmont, the Indian Territory and Northeast Missouri (memos
+`docs/research/*-1861-first-pass-v1.md`). The records are:
+
+- eighteen NPS HTML/text pairs and one empty template;
+- Snead, *The Fight for Missouri* (1886), and Britton, *The Civil War on the Border*, volume I
+  (1891 second edition): catalog metadata, full OCR and selections;
+- Official Records Series I, Volumes III, IV, VI and VIII: catalog metadata and full OCR;
+- twenty-five report selections, two of them from the registered Volume VII Cornell OCR.
+
+The Illinois scans labelled Volumes III and IV are Series II and III volumes. The University of
+California scans `warofrebellion03secrrich` and `warofrebellion04secrrich` were used instead,
+confirmed from their title pages. No model inputs are changed.
+
 ### Carolinas Campaign first pass (cohort v2), 2026-09-25
 
 The [first pass](research/carolinas-first-pass-v1.md) adds **23 records**:

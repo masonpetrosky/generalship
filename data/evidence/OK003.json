@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "battle_id": "OK003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Chustenahlah record (December 26, 1861) in Operations in the Indian Territory [November-December 1861]. Stand Watie's December 27 pursuit and Cooper's scout to the Kansas line are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names McIntosh's and Douglas Cooper's brigades with no figures; the live field reads zero; the frozen description says McIntosh left Fort Gibson with 1,380. McIntosh says he came to Fort Gibson with 1,600 and marched with a force of 1,380, that the enemy was estimated at 1,700, and that Stand Watie's 300 arrived as the battle ended. Cooper says McIntosh announced he would take the field with some 2,000, and that his own column had not arrived: he heard of the attack the next morning.",
+      "rationale": "Column figures and an estimate of the enemy; by both reports Cooper's column was not engaged, although the frozen force field names it. No account by Opothleyahola's side was inspected; every figure for his force and losses is an opponent's estimate or a history's. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK003"
+          },
+          "column": "forces_text",
+          "quote": "Creek and Seminole [I]; McIntosh's and Douglas Cooper's brigades [CS]"
+        },
+        {
+          "source_id": "nps-ok003-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK003"
+          },
+          "column": "description",
+          "quote": "McIntosh left Fort Gibson on December 22, with 1,380 men."
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "I hastened to Fort Gibson, with 1,600 men"
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "This force amounted to 1,380 men."
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "The whole force was estimated at 1,700."
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.24 (OCR page markers; not checked against print)",
+          "quote": "numbering 300, under the command of the colonel, although under my orders, came up just as the battle terminated."
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "taking the field with some .2,000 troops"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "I also heard on the morning of the 27th that Colonel McIntosh had attacked and dispersed the Indians."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "wooded-hill",
+      "dimension": "terrain",
+      "value": "McIntosh says the enemy held a high, rugged, oak-covered hill beyond the stream, with 200 or 300 yards of open ground below and a warrior behind each tree, and afterwards retreated into rocky gorges in the mountains. NPS says the defenders were secluded in the underbrush along a rugged hill slope.",
+      "rationale": "Natural ground described by the attacking commander and a summary; no map verification.",
+      "citations": [
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "posted to the •iobt on a high and rugged hill, with its side covered with oak trees."
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "Between the rough and rugged side of the hill a space of 200 or 300 yards intervened of open ground."
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "Each tree on the hill-side screened a stalwart warrior."
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "retreated to the rocky gorges amid the deep recesses of the mountains"
+        },
+        {
+          "source_id": "nps-ok003-v1",
+          "locator": "Description",
+          "quote": "The Union defenders were secluded in the underbrush along the slope of a rugged hill"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "forage-and-teamsters",
+      "dimension": "logistics",
+      "value": "McIntosh says scarcity of forage led the two commanders to agree that either should attack on sight, and that Cooper's movement would be delayed by the desertion of his teamsters.",
+      "rationale": "Supply conditions stated by the attacking commander; not a return.",
+      "citations": [
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "On account of the scarcity of forage it was mutually determine! that either force should attack the enemy on sight."
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "on account of the desertion of his teamsters"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "coordination-messages",
+      "dimension": "information",
+      "value": "McIntosh says an express from Cooper on the 25th reported a delay of two or three days and offered help if McIntosh found it necessary to advance. Cooper says he wrote that he could not reach Tulsey Town before the 26th.",
+      "rationale": "Messages described by the two commanders; the letters themselves were not inspected.",
+      "citations": [
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "with the intelligence that i would probably be two or three days before he could make the precon certed movement"
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "and gen erously stated that if I found it necessary to advance he would give m< all the assistance in his power."
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "informed Colonel McIntosh by letter that it would be impossible to reach that place before the 26th"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "plan",
+      "dimension": "objectives",
+      "value": "McIntosh says the plan was for Cooper to move up the Arkansas and get behind the chief's position while he marched up the Verdigris and attacked directly; NPS says he chose to attack despite being outnumbered.",
+      "rationale": "Plan and decision from the attacking commander and a summary.",
+      "citations": [
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "should move up the Arkansa Fiver and endeavor to get in the rear of Hopoeithlevoliola’s positioi"
+        },
+        {
+          "source_id": "nps-ok003-v1",
+          "locator": "Description",
+          "quote": "he decided to attack the next day, despite being outnumbered"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Colonel James McQueen McIntosh and Opothleyahola. McIntosh sent Griffith to the right and Young to the left and says the Seminoles were led by Halek Tustenuggee. Cooper says McIntosh pushed on without waiting even for Stand Watie, calls this precipitancy, and argues the chief could have been captured had McIntosh waited for Cooper's column.",
+      "rationale": "Cooper's criticism is his own interested judgment, not an established causal finding. No automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OK003",
+            "belligerent": "Confederate",
+            "fullname": "James McQueen McIntosh"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OK003",
+            "belligerent": "Native American",
+            "fullname": "Opothleyahola"
+          },
+          "column": "fullname",
+          "quote": "Opothleyahola"
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "I immediately ordered Lieutenant-Colonel Griffith, vith his regiment, to move up on the right, and Colonel Young on the eft."
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "The Seminoles, under the celebrated chief Halek Tustenuggee, were in front on foot"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "Colonel McIntosh pushed on without waiting even for Col. Stand Watie, and attacked Hopoeithleyohola."
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "This I was then satisfied his precipitancy would render impracticable"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "could have been easily effected had Col. James McIntosh waited until the foices under my command reached a position in the rear of the enemy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory; NPS says the retreat became a rout. McIntosh says the stronghold was broken up and the force scattered, and that he held the camp at 4 o'clock; Cooper heard the chief escaped with about 200 warriors.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK003"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ok003-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-ok003-v1",
+          "locator": "Description",
+          "quote": "The retreat became a rout as the Federals reached their camp."
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.24 (OCR page markers; not checked against print)",
+          "quote": "The strong- hold of Hopoeithleyohola was completely broken up, and his force scat- tered in every direction"
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.24 (OCR page markers; not checked against print)",
+          "quote": "we remained victors in the center of Hopoeithleyohola’s camp."
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "Hopoeithleyohola, it is said, had gone on with about 200 warriors and made his escape."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads 251 (US 211; CS 40). McIntosh says the enemy's killed were upwards of 250 and his loss 8 killed and 32 wounded, but his closing line reads 'Killed, 0; wounded, 40' in OCR; he captured 160 women and children (read '1G0') and 20 negroes. Cooper says Stand Watie's pursuit next day killed 15 without loss.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The basis of the live US 211 is not established in the selected passages.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK003"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-ok003-v1",
+          "locator": "Estimated Casualties",
+          "quote": "251 total (US 211; CS 40;)"
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.24 (OCR page markers; not checked against print)",
+          "quote": "Their killed amounted to upwards of 250. Our loss was 8 killed and 32 wounded."
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.25 (OCR page markers; not checked against print)",
+          "quote": "Casualties. — Killed, 0 ; wounded, 40."
+        },
+        {
+          "source_id": "or8-mcintosh-chustenahlah-selections-v1",
+          "section": "mcintosh-1862-01-01",
+          "locator": "p.24 (OCR page markers; not checked against print)",
+          "quote": "We cap- tured 1G0 women and children, 20 negroes"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "killed 15 of the enemy, without the loss of a man."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The regimental reports Nos. 11-15 (W. C. Young's No. 11, printed after McIntosh's, was read while delimiting and not selected), Stand Watie's and Boudinot's reports, returns and maps remain deferred. Britton's chapter XIII covers Chustenahlah but was not selected for this record: the three-family ceiling was taken by the two commanders' reports.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. McIntosh's January 1, 1862 report is an interested Confederate account. Cooper's January 20, 1862 report covers all three engagements and is an interested Confederate account; it is written after McIntosh's January 1 report and criticizes McIntosh. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

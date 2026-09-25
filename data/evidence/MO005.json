@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO005",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Dry Wood Creek record (September 2, 1861) in Operations to Control Missouri [June-October 1861]. The September 1 capture of the Fort Scott mules and Lane's withdrawal to Fort Lincoln are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the Kansas cavalry about 600 and the State Guard column no figure; the live field reads US 600 and CS 6,000. Britton says the force sent out toward Dry Wood was about twelve hundred mounted men, and that Price had left Springfield with some ten thousand. Lane's September 3 report puts the column of Price and Rains at a figure read '0,000' in OCR to 10,000; his September 4 letter says all sources concur in about 6,000, and that he now held Fort Scott with about 800 cavalry.",
+      "rationale": "Estimates of the enemy by an interested commander, and a history's count of the Union reconnaissance that doubles the CWSAC figure. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO005"
+          },
+          "column": "forces_text",
+          "quote": "Kansas Cavalry Brigade (approx. 600) [US]; column of Missouri State Guard [CS]"
+        },
+        {
+          "source_id": "nps-mo005-v1",
+          "locator": "Forces Engaged",
+          "quote": "6600 total (US 600; CS 6000;)"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "dry-wood",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "in all about twelve hundred men"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "dry-wood",
+          "locator": "p.121 (OCR page markers; not checked against print)",
+          "quote": "He left Springfield about two weeks after the battle of Wilson Creek with some ten thousand men"
+        },
+        {
+          "source_id": "or3-lane-dry-wood-selections-v1",
+          "section": "lane-1861-09-03",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "It turns out to be the column of Price and Bains, numbering from 0,000 to 10,000, with seven pieces of artillery"
+        },
+        {
+          "source_id": "or3-lane-dry-wood-selections-v1",
+          "section": "lane-1861-09-04",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "All sources of information concur that their force is in the neighborhood of 6,000"
+        },
+        {
+          "source_id": "or3-lane-dry-wood-selections-v1",
+          "section": "lane-1861-09-04",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "I am holding Fort Scott with a cavalry force, regular and irregular, of about 800 men"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "timber-and-distance",
+      "dimension": "terrain",
+      "value": "Lane and Britton place the fight about twelve miles east of Fort Scott; Britton says Rains declined to be drawn out of the timber where his troops were posted to advantage. Lane's September 4 letter says the enemy fortified themselves on the Dry Wood.",
+      "rationale": "Ground from an interested report and a history; no map verification.",
+      "citations": [
+        {
+          "source_id": "or3-lane-dry-wood-selections-v1",
+          "section": "lane-1861-09-03",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "12 miles east of Fort Scott"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "dry-wood",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "a point twelve miles east of Fort Scott"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "dry-wood",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "General Rains declined to be drawn out of the timber"
+        },
+        {
+          "source_id": "or3-lane-dry-wood-selections-v1",
+          "section": "lane-1861-09-04",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "they have fortified themselves on the Dry Wood, 10 miles northeast of Fort Scott"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "mules-and-stores",
+      "dimension": "logistics",
+      "value": "NPS says the Confederates captured the Union cavalry's mules in this action; Britton says eighty Government mules grazing near Fort Scott were captured the evening before, and Lane reports the loss of Weer's mules. Lane says he fell back to remove his stores from Fort Scott.",
+      "rationale": "The timing of the mule capture differs between the summary and the history; not a supply return.",
+      "citations": [
+        {
+          "source_id": "nps-mo005-v1",
+          "locator": "Description",
+          "quote": "captured their mules"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "dry-wood",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "captured, and drove off eighty Gov- ernment mules, that had been sent out to graze upon the prairie."
+        },
+        {
+          "source_id": "or3-lane-dry-wood-selections-v1",
+          "section": "lane-1861-09-03",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "of the loss of Weer's mules."
+        },
+        {
+          "source_id": "or3-lane-dry-wood-selections-v1",
+          "section": "lane-1861-09-03",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "remove our good stores from Fort Scott."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "reconnaissance",
+      "dimension": "information",
+      "value": "NPS says Lane's cavalry went out to learn the whereabouts of a rumored Confederate force; Britton says the column was to reconnoitre the enemy's position and strength and that its officers were too cautious to attack a masked force they believed superior. Lane says it turned out to be the column of Price and Rains.",
+      "rationale": "Purpose and knowledge from a summary, a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "nps-mo005-v1",
+          "locator": "Description",
+          "quote": "to learn the whereabouts of a rumored Confederate force"
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "dry-wood",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "reconnoitre the position of the enemy, ascertain something of his strength, and, if possible, develop his intentions."
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "dry-wood",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "the Fed- eral officers were too cautious to attack a masked force which they believed to be superior in numbers to their own."
+        },
+        {
+          "source_id": "or3-lane-dry-wood-selections-v1",
+          "section": "lane-1861-09-03",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "It turns out to be the column of Price and Bains"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Britton says Price intended to take Fort Scott and march through Kansas to the Missouri River; Lane wrote that he must make a stand or give up Kansas.",
+      "rationale": "Aims attributed by a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "dry-wood",
+          "locator": "p.121 (OCR page markers; not checked against print)",
+          "quote": "with the intention of taking Fort Scott, Kansas, and then marching through Kansas to the Missouri River"
+        },
+        {
+          "source_id": "or3-lane-dry-wood-selections-v1",
+          "section": "lane-1861-09-03",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "I am compelled to make a stand here, or give up Kansas to disgrace and destruction."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Major General Sterling Price, Brigadier General James S. Rains and J. H. Lane as Colonel; the Official Records heading styles Lane Brigadier General commanding the Kansas Brigade. Britton says Lane ordered Colonels Johnson and Jennison out with the mounted force and that Rains held the timber; Lane credits Montgomery and Weer.",
+      "rationale": "Command roles from a history and an interested report; no automatic sole credit, and neither rank is adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO005",
+            "belligerent": "Confederate",
+            "fullname": "Sterling Price"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO005",
+            "belligerent": "Confederate",
+            "fullname": "James S. Rains"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO005",
+            "belligerent": "US",
+            "fullname": "J.H. Lane"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "or3-lane-dry-wood-selections-v1",
+          "section": "lane-1861-09-03",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "No. 2. Report of Brig. Gen. J. H. Lane, commanding Kansas Brigade."
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "dry-wood",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "General Lane ordered Colonels Johnson and Jennison to take the available mounted force of their regiments"
+        },
+        {
+          "source_id": "or3-lane-dry-wood-selections-v1",
+          "section": "lane-1861-09-03",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "Colonel Mont gomery and Colonel Weer behaved admirably."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory; NPS says the Union cavalry was forced to retire. Lane reports driving back the enemy's advanced guard and a gallant fight before falling back that night; Britton says the Federal officers withdrew to Fort Scott.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO005"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-mo005-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-mo005-v1",
+          "locator": "Description",
+          "quote": "They forced the Union cavalry to retire"
+        },
+        {
+          "source_id": "or3-lane-dry-wood-selections-v1",
+          "section": "lane-1861-09-03",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "I informed you that we drove back the advanced guard of the enemy"
+        },
+        {
+          "source_id": "or3-lane-dry-wood-selections-v1",
+          "section": "lane-1861-09-03",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "The fight yesterday was a gallant one on our part."
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "dry-wood",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "the Federal officers withdrew their forces from the field and fell back to Fort Scott."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads total unknown (US 14; CS unknown); the live field reads 14 (US 14; CS 0). Lane reports about 5 killed and a number read 'G' in OCR wounded. A compiler's footnote cites a State Guard return of 4 killed and 16 wounded; Britton gives five killed and twelve wounded against four killed and sixteen wounded from the official reports.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live CS zero is not a measured loss.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO005"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US 14; CS unknown)"
+        },
+        {
+          "source_id": "nps-mo005-v1",
+          "locator": "Estimated Casualties",
+          "quote": "14 total (US 14; CS 0;)"
+        },
+        {
+          "source_id": "or3-lane-dry-wood-selections-v1",
+          "section": "lane-1861-09-03",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "My loss so far is about 5 killed and G wounded."
+        },
+        {
+          "source_id": "or3-lane-dry-wood-selections-v1",
+          "section": "compiler-footnote-confederate-loss",
+          "locator": "p.162 (OCR page markers; not checked against print)",
+          "quote": "it appears that the Confederate loss in this action was 4 killed and 16 wounded."
+        },
+        {
+          "source_id": "britton-border-1-missouri-1861-selections-v1",
+          "section": "dry-wood",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "the casualties on the Federal side in the action at Dry Wood were five killed and twelve wounded, and on the Confederate side four killed and sixteen wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Price's report of the Fort Scott march, Rains's return, Prince's letters (No. 1 and No. 4) and maps remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Wiley Britton's The Civil War on the Border, vol. I (second edition, 1891) is a retrospective history by a Union soldier of the border army, based by its title page on the official reports; it is not independent of the report families. Lane's September 3 and 4, 1861 letters are one family of interested Union accounts; the compiler's footnote printed with the action's reports cites a State Guard return. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

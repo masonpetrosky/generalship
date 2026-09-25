@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "battle_id": "OK002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Chusto-Talasah (Caving Banks) record (December 9, 1861) in Operations in the Indian Territory [November-December 1861]. The December 8 dispersal of Drew's Cherokee regiment and Cooper's withdrawal to Fort Gibson are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field has no figures; the live field reads CS 1,300 and the description Cooper's 1,300. Cooper started with 780 and ordered Drew's detachment of about 500 and Sims's Texans to join him; Drew's regiment dispersed in panic the night before the battle. He says his force actually engaged did not exceed 1,100, and that the enemy was certainly over 2,500, 4,000 by Cherokee prisoners, after an escaped prisoner's report of 2,000; at the house his men never equalled half the enemy's. Britton gives Cooper some eleven hundred mounted men with Drew's five hundred and Sims's three hundred.",
+      "rationale": "Column, engaged and estimated opposing figures of different moments; the CWSAC 1,300 is not traced. No account by Opothleyahola's side was inspected; every figure for his force and losses is an opponent's estimate or a history's. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK002"
+          },
+          "column": "forces_text",
+          "quote": "Creek and Seminole [I]; Indian Department [CS]"
+        },
+        {
+          "source_id": "nps-ok002-v1",
+          "locator": "Forces Engaged",
+          "quote": "1300 total (US 0; CS 1300;)"
+        },
+        {
+          "source_id": "nps-ok002-v1",
+          "locator": "Description",
+          "quote": "Col. Douglas H. Cooper's 1,300 Confederates"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.7 (OCR page markers; not checked against print)",
+          "quote": "in all 780 men— were put in motion on the 29th of November"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.7 (OCR page markers; not checked against print)",
+          "quote": "Col. John Drew, with a detachment of his regiment about 500 strong"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "The force on our side actually engaged did not exceed 1,100, a strong guard being necessary at the Cherokee train."
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "The force of the enemy in the engagement at Cliusto-Talasah was certainly over 2,500. Several Cherokee prisoners stated it at 4,000."
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.7 (OCR page markers; not checked against print)",
+          "quote": "an immediate attack was intended by the enemy, 2,000 strong."
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "at no time during the conflict here did our force equal one-half that number."
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "some one thousand one hundred mounted men"
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "Colonel Drew, commanding the Cherokee regiment of five hundred men, and Colonel Sims, with three hundred men of the Fourth Texas Cavalry"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "horseshoe-bend",
+      "dimension": "terrain",
+      "value": "Cooper describes a precipitous creek bank some 30 feet high on the attackers' side, a wooded horseshoe bend 400 or 500 yards long, and the far side fortified by fallen logs; Britton calls the position naturally very strong against small arms. NPS says the chief placed his troops in a strong position at Horseshoe Bend.",
+      "rationale": "Natural ground with some prepared cover, described by an interested report, a history and a summary; no map verification.",
+      "citations": [
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.9 (OCR page markers; not checked against print)",
+          "quote": "The creek made up to the prairie on the side of our approach in an abrupt, precipitous bank, some 30 feet in height"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.9 (OCR page markers; not checked against print)",
+          "quote": "a bend of the creek of horseshoe form, about 400 or 500 yards m length."
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.9 (OCR page markers; not checked against print)",
+          "quote": "and fortified additionally by prostrate logs."
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.170 (OCR page markers; not checked against print)",
+          "quote": "was naturally a very strong one to resist an attack made with small-arms."
+        },
+        {
+          "source_id": "nps-ok002-v1",
+          "locator": "Description",
+          "quote": "had placed his troops in a strong position at Horseshoe Bend."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition",
+      "dimension": "logistics",
+      "value": "Cooper says his ammunition was nearly exhausted afterwards; NPS says he did not pursue for that reason, and Britton that he fell back to Fort Gibson to await supplies and ammunition.",
+      "rationale": "Supply statements from an interested report, a summary and a history; not a return.",
+      "citations": [
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "My supply of ammunition being nearly exhausted"
+        },
+        {
+          "source_id": "nps-ok002-v1",
+          "locator": "Description",
+          "quote": "because he was short of ammunition."
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.171 (OCR page markers; not checked against print)",
+          "quote": "he retreated to Fort Gibson to await supplies and ammunition from Fort Smith."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "peace-overture-and-panic",
+      "dimension": "information",
+      "value": "Cooper says Major Pegg returned from the chief's camp reporting several thousand warriors painted for the fight, and the Cherokee regiment dispersed in panic that night. NPS says the chief knew Cooper was coming.",
+      "rationale": "Knowledge attributed by an interested report and a summary; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.8 (OCR page markers; not checked against print)",
+          "quote": "Major Pegg had returned without being able to reach Hopo- eithleyohola, who was surrounded by his warriors, several thousand in number, all painted for the fight"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.8 (OCR page markers; not checked against print)",
+          "quote": "that the Cherokee regiment, panic-stricken, had dispersed, leaving their tents standing"
+        },
+        {
+          "source_id": "nps-ok002-v1",
+          "locator": "Description",
+          "quote": "Chief Opothleyahola knew Cooper was coming"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Cooper says he proposed a conference with assurances that bloodshed was not desired, then moved to keep open communication with his depot at Coweta Mission; Britton says the chief determined to give blow for blow.",
+      "rationale": "Stated aims from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.7 (OCR page markers; not checked against print)",
+          "quote": "the assurance that we did not desire the shedding of blood among the Indians, and proposed a conference next day."
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.8 (OCR page markers; not checked against print)",
+          "quote": "with a view of taking a position which would enable me to keep open communication with the depot at Coweta Mission"
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "determined to give them blow for blow."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Colonel Douglas H. Cooper and Opothleyahola; the live page gives Cooper as Brigadier General. Cooper formed three columns and ordered D. N. McIntosh's Creek regiment to turn the enemy's right. Britton credits the chief with choosing the position.",
+      "rationale": "Command roles from an interested report and a history; the live rank is not adopted and there is no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OK002",
+            "belligerent": "Confederate",
+            "fullname": "Douglas H. Cooper"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OK002",
+            "belligerent": "Native American",
+            "fullname": "Opothleyahola"
+          },
+          "column": "fullname",
+          "quote": "Opothleyahola"
+        },
+        {
+          "source_id": "nps-ok002-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Douglas Cooper [CS]"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.8 (OCR page markers; not checked against print)",
+          "quote": "Col. D. N. McIntosh, with his Creek regiment, was ordered to turn the right of the enemy on the creek."
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.170 (OCR page markers; not checked against print)",
+          "quote": "The position chosen by Hopoeithleyohola at Chusto- Talasah"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory; NPS says Cooper drove the defenders across Bird Creek. Cooper says the enemy disappeared from his front after over four hours; Britton says the Confederates withdrew to their camp five miles back and Cooper, badly crippled, retreated to Fort Gibson.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK002"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ok002-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-ok002-v1",
+          "locator": "Description",
+          "quote": "finally driving them east across Bird Creek just before dark."
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "The firing now entirely silenced, the enemy disappeared from our entire front"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "The battle lasted over four hours."
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.171 (OCR page markers; not checked against print)",
+          "quote": "the Confederates with- drew from the field and retreated to their camp, some five miles back."
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.171 (OCR page markers; not checked against print)",
+          "quote": "Colonel Cooper was so badly crippled in the engagement"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads 464 (US 412; CS 52). Cooper reports 15 killed and 37 wounded and says prisoners admitted an enemy loss of 412, probably 500; Britton repeats Cooper's figures but says the chief's loss, though not known, was much less than the Confederates'.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live US 412 equals the prisoners' figure in Cooper's report; that is not independent confirmation.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK002"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-ok002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "464 total (US 412; CS 52;)"
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "Our loss was 15 killed and 37 wounded."
+        },
+        {
+          "source_id": "or8-cooper-indian-territory-selections-v1",
+          "section": "cooper-1862-01-20",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "Their loss, as admitted by prisoners taken in our last scout, was 412. It probably was 500 in killed arid wounded."
+        },
+        {
+          "source_id": "britton-border-1-indian-territory-selections-v1",
+          "section": "indian-territory",
+          "locator": "p.171 (OCR page markers; not checked against print)",
+          "quote": "Hopoeithleyohola's loss was not known exactly, but was much less than that of the Confederates"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "D. N. McIntosh's, Drew's, Sims's, Hall's, McCurtain's and Pitchlynn's reports (Nos. 4-9), returns and maps remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cooper's January 20, 1862 report covers all three engagements and is an interested Confederate account; it is written after McIntosh's January 1 report and criticizes McIntosh. Wiley Britton's The Civil War on the Border, vol. I (second edition, 1891) is a retrospective history by a Union soldier of the border army, based by its title page on the official reports; it is not independent of the report families. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

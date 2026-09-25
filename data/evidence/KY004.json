@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "battle_id": "KY004",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Rowlett's Station (Woodsonville) record (December 17, 1861) in Operations in Eastern Kentucky [September-December 1861]. McCook's advance to Munfordville and the Green River bridge repairs are context. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the 32nd Indiana and gives the Confederates (Terry's Rangers, the 7th Texas Cavalry and the 1st Arkansas Battalion) about 1,350; the live field reads US 0 and CS 1,350. Hindman reports 1,100 infantry, 250 cavalry and four guns. Willich says 3 field, 1 staff and 16 line officers, 23 sergeants and 375 men took part against one Texas regiment, two infantry regiments and a six-gun battery at least seven times as strong. Hindman says the enemy crossed in force more than double his own, and that Terry charged about 300 with 75 Rangers.",
+      "rationale": "The CWSAC 1,350 equals Hindman's 1,100 and 250; its basis is not stated and the match is not corroboration. Hindman's report does not name a 7th Texas Cavalry. None is adopted as a matched opening strength. The live US zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY004"
+          },
+          "column": "forces_text",
+          "quote": "32nd Indiana Volunteer Infantry Regiment [US]; Terry's Texas Rangers, 7th Texas Cavalry and 1st Arkansas Battalion (approx. 1,350 men) [CS]"
+        },
+        {
+          "source_id": "nps-ky004-v1",
+          "locator": "Forces Engaged",
+          "quote": "1350 total (US 0; CS 1350;)"
+        },
+        {
+          "source_id": "or7-hindman-rowletts-station-selections-v1",
+          "section": "hindman-1861-12-19",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "My force consisted of 1,100 infantry, 250 cavalry, and four pieces of artillery."
+        },
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "In the fight participated 3 field, 1 staff, and 16 officers of the line, 23 sergeants, and 375 men."
+        },
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "The force of the enemy consisted of one regi- ment Texas Hangers, two regiments infantry, and oue battery, consist- ing of six guns."
+        },
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "a force at least seven times as strong as our owu"
+        },
+        {
+          "source_id": "or7-hindman-rowletts-station-selections-v1",
+          "section": "hindman-1861-12-19",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "more than doable my own"
+        },
+        {
+          "source_id": "or7-hindman-rowletts-station-selections-v1",
+          "section": "hindman-1861-12-19",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "onel Terry, at the head of 75 Eangers, charged about 300"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "river-timber-fields",
+      "dimension": "terrain",
+      "value": "Hindman says a strip of timber bordered the river with fields between it and his cavalry, and that he meant to decoy the enemy up the hill out of range of the Union batteries. Willich's pickets were south of the Green River beyond the railroad bridge.",
+      "rationale": "Ground from the two reports; no map verification.",
+      "citations": [
+        {
+          "source_id": "or7-hindman-rowletts-station-selections-v1",
+          "section": "hindman-1861-12-19",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "A strip of timber bordered the river parallel to the line beld by my cavalry. Fields were between."
+        },
+        {
+          "source_id": "or7-hindman-rowletts-station-selections-v1",
+          "section": "hindman-1861-12-19",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "to decoy the enemy upthe hill"
+        },
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.16 (OCR page markers; not checked against print)",
+          "quote": "for the protection of the repairing of the railroad bridge across the Green Eiver."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "pontoon-bridge",
+      "dimension": "logistics",
+      "value": "Willich says the pontoon bridge finished on the 15th let his regiment cross to support the pickets; NPS says it was built for trains and artillery.",
+      "rationale": "Crossing means from an interested report and a summary; not a supply return.",
+      "citations": [
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.16 (OCR page markers; not checked against print)",
+          "quote": "The bridge built by our pontoniers being finished on the evening of the 15th instant"
+        },
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "Without this bridge it would have been impos- sible for me to cross the river with the regiment to support our pickets"
+        },
+        {
+          "source_id": "nps-ky004-v1",
+          "locator": "Description",
+          "quote": "began constructing a pontoon bridge for the passage of trains and artillery"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "concealment-and-alarm",
+      "dimension": "information",
+      "value": "Hindman halted concealed from the enemy's view and saw no Union force or pickets before advancing. Willich says at the alarm his company commanders ignored his instructions and all rushed over the bridge; he reports the enemy's claim of 40 of their own killed and 200 of his.",
+      "rationale": "Knowledge and alarm response from the two reports; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or7-hindman-rowletts-station-selections-v1",
+          "section": "hindman-1861-12-19",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "cealed from the enemy's view"
+        },
+        {
+          "source_id": "or7-hindman-rowletts-station-selections-v1",
+          "section": "hindman-1861-12-19",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "no force of the enemy or pickets seen"
+        },
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "the company commanders failed to obey the instructions given by me, and all of them rushed over the bridge"
+        },
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "Yesterday the enemy reported his loss 40 killed and ours 200 killed."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-aims",
+      "dimension": "objectives",
+      "value": "Hindman moved to break up the railroad south of Woodsonville; Willich's companies were posted to protect the bridge repairs.",
+      "rationale": "Stated aims from the two reports.",
+      "citations": [
+        {
+          "source_id": "or7-hindman-rowletts-station-selections-v1",
+          "section": "hindman-1861-12-19",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "for the purpose of breaking up the railroad from the vicinity of that place southward."
+        },
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.16 (OCR page markers; not checked against print)",
+          "quote": "two companies on the south of Green Eiver for the protection of the repairing of the railroad bridge"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Brigadier General Thomas C. Hindman and Colonel August Willich. Willich was at division headquarters when the alarm came; Lieutenant Colonel Von Trebra ordered the companies forward, and Willich arrived later, took the right wing and ordered the fall-back signal. Hindman had gone to choose a camp, leaving Colonel Terry in command, and later withdrew his command.",
+      "rationale": "Both listed commanders were away when the fight began, by their own reports; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KY004",
+            "belligerent": "Confederate",
+            "fullname": "Thomas C. Hindman"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KY004",
+            "belligerent": "US",
+            "fullname": "August Willich"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "The undersigned being at the time of the general alarm at the headquarters of the division"
+        },
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant- Colonel Von Trebra ordered Companies K, G, and P to the support of Company B"
+        },
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "At this moment the undersigned arrived and took command of the right wing."
+        },
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "I ordered the signal \"fall back slowly\" to be given"
+        },
+        {
+          "source_id": "or7-hindman-rowletts-station-selections-v1",
+          "section": "hindman-1861-12-19",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "I went in person to select a suitable place for camp, leaving Colonel Terry in command"
+        },
+        {
+          "source_id": "or7-hindman-rowletts-station-selections-v1",
+          "section": "hindman-1861-12-19",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "I withdrew my command by way of the turnpike two miles and a half"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Indecisive. Willich says the Rangers disappeared in wild disorder and the enemy infantry and artillery withdrew in haste; Hindman says the enemy made no further attempt to advance and he withdrew knowing they had crossed in force; NPS says the Confederates withdrew knowing of McCook's approach.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY004"
+          },
+          "column": "results_text",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-ky004-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "They now disappeared in wild disorder from the battle- ground."
+        },
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "The cavalry had disappeared from the battle-ground, and the infantry followed in double quick time."
+        },
+        {
+          "source_id": "or7-hindman-rowletts-station-selections-v1",
+          "section": "hindman-1861-12-19",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "The enemy made no further attempt to advance"
+        },
+        {
+          "source_id": "nps-ky004-v1",
+          "locator": "Description",
+          "quote": "Knowing of McCook's approach, the Rebels also withdrew from the field."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text and the live field read 131 (US 40; CS 91). Willich reports 1 officer and 10 men dead, 22 wounded and 5 missing. Hindman reports Terry and 3 men killed and 4 dangerously and 6 slightly wounded, estimates the enemy's loss at 75 killed left on the ground and holds 7 prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY004"
+          },
+          "column": "casualties_text",
+          "quote": "131 total (US 40; CS 91)"
+        },
+        {
+          "source_id": "nps-ky004-v1",
+          "locator": "Estimated Casualties",
+          "quote": "131 total (US 40; CS 91;)"
+        },
+        {
+          "source_id": "or7-willich-rowletts-station-selections-v1",
+          "section": "willich-1861-12-18",
+          "locator": "p.18 (OCR page markers; not checked against print)",
+          "quote": "Our loss is, 1 officer and 10 men dead, 22 wounded, and 5 missing."
+        },
+        {
+          "source_id": "or7-hindman-rowletts-station-selections-v1",
+          "section": "hindman-1861-12-19",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "Killed — Colonel Terry and 3 men of his regiment; dangerously wouuded — Lieutenant Morris and 3 men of Texas Eangers ; slightly wounded — Captain Walker and 3 men of Texas Eangers and 2 men of First Arkansas Battalion."
+        },
+        {
+          "source_id": "or7-hindman-rowletts-station-selections-v1",
+          "section": "hindman-1861-12-19",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "I estimate the enemy's loss at 75 killed and left on the ground"
+        },
+        {
+          "source_id": "or7-hindman-rowletts-station-selections-v1",
+          "section": "hindman-1861-12-19",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "I have 7 prisoners"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Buell's No. 1 dispatches and orders and McCook's No. 2 report (printed before Willich's; Buell's was glanced while delimiting, not selected), Johnson's indorsement, Hardee's orders printed with Hindman's report, returns and maps remain deferred. No nineteenth-century history covering the action was selected; this is a two-report or two-family first pass.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Willich's December 18, 1861 report is an interested Union account. Hindman's December 19, 1861 report is an interested Confederate account, the same author family as the registered Hindman McLemore's Cove reports. Both come from the Cornell OCR of Volume VII registered for the 1862 Eastern Kentucky pass. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
