@@ -92,6 +92,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [VA025](../data/evidence/VA025.json) | 9 | 1 | 0 | 0 | draft |
 | [VA026](../data/evidence/VA026.json) | 10 | 1 | 0 | 0 | draft |
 | [VA027](../data/evidence/VA027.json) | 9 | 1 | 0 | 0 | draft |
+| [VA028](../data/evidence/VA028.json) | 10 | 1 | 0 | 0 | draft |
 | [VA100](../data/evidence/VA100.json) | 10 | 3 | 0 | 0 | draft |
 | [VA101](../data/evidence/VA101.json) | 10 | 2 | 0 | 0 | draft |
 | [VA102](../data/evidence/VA102.json) | 9 | 2 | 0 | 0 | draft |
@@ -112,8 +113,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 59 engagements have dossiers; 68 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Stones River first pass](../docs/research/stones-river-first-pass-v1.md) adds both frozen records: 20 claims, 2 explicit unknowns and 58 citations, each using NPS/CWSAC and Cist's retrospective history. Strength, casualty and picket-warning disputes and Morgan's rank timing remain visible; separate campaign review is pending. Next take the complete one-record Fredericksburg Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 60 engagements have dossiers; 67 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Fredericksburg first pass](../docs/research/fredericksburg-first-pass-v1.md) adds the sole frozen record: 10 claims, 1 explicit unknown and 31 citations from NPS/CWSAC and Palfrey's retrospective history. A live force field assigning the Union total to the Confederates, and force and casualty disputes, remain visible; separate review is pending. Next take the complete three-record Goldsboro Expedition. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **59 draft dossiers / 127 engagements**, with **68 without a dossier**.
+There are **60 draft dossiers / 127 engagements**, with **67 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -133,8 +133,15 @@ was larger at Stones River and whether Hartsville's pickets gave warning remain
 disputed. Separate review is pending.
 Coverage is **13/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Fredericksburg Campaign [November-December 1862]**, the next complete frozen
-group by earliest engagement date: **one record, VA028**.
+The [Fredericksburg first pass](research/fredericksburg-first-pass-v1.md) adds the sole
+frozen record, **VA028**, with **10 claims, 1 explicit unknown and 31 citations** from
+NPS/CWSAC and a new selection from the pinned Palfrey OCR. The live NPS force field
+assigns 100,007 to the Confederate side and is not adopted; force and casualty
+figures remain disputed. Separate review is pending.
+Coverage is **14/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Goldsboro Expedition [December 1862]**, the next complete frozen
+group by earliest engagement date: **three records, NC007, NC008, NC009**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

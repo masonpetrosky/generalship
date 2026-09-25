@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA028",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the sole frozen record in the Fredericksburg Campaign. Preserve the December 11–15, 1862 interval; the live NPS campaign heading does not replace it. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 172,504 total (US 100,007; CS 72,497). The live NPS field reads 100007 total (US 0; CS 100007;), assigning the Union figure to the Confederate side. Palfrey gives about 113,000 Union present for duty from Burnside's report of December 13, upward of 78,000 Confederate from Lee's report of December 10, and 127,574 Union present for duty on November 10.",
+      "rationale": "Frozen, live and reported present-for-duty figures differ in scope and date; the live side assignment is not adopted. None is a matched opening population; present-for-duty is not engaged strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA028"
+          },
+          "column": "forces_text",
+          "quote": "172,504 total (US 100,007; CS 72,497)"
+        },
+        {
+          "source_id": "nps-va028-v1",
+          "locator": "Forces Engaged",
+          "quote": "100007 total (US 0; CS 100007;)"
+        },
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "positions-and-strength",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "about one hundred and thirteen thousand men present for duty."
+        },
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "positions-and-strength",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "present for duty on December 10th to be upward of seventy- eight thousand men."
+        },
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "plan-and-pontoons",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "said to have been 127,574 officers and men."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "stone-wall-and-heights",
+      "dimension": "terrain",
+      "value": "Palfrey describes a shoulder-high stone wall with earth piled against it along the road below Marye's, forming a nearly perfect infantry parapet with guns and sharpshooters firing over it; he calls the Confederate position strong by nature and strengthened by art. NPS says Lee entrenched on the heights behind the town.",
+      "rationale": "Position and works description; no map verification or numerical terrain effect. The works were prepared before the interval by the defending commander.",
+      "citations": [
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "marye-ground",
+          "locator": "p.161 (OCR page markers; not checked against print)",
+          "quote": "thus there was formed the most per- fect infantry parapet conceivable."
+        },
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "positions-and-strength",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "in a position of their own choosing, strong by nature, and im- mensely strengthened by art."
+        },
+        {
+          "source_id": "nps-va028-v1",
+          "locator": "Description",
+          "quote": "Lee reacted by entrenching his army on the heights behind the town."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "pontoons-and-crossing",
+      "dimension": "logistics",
+      "value": "Palfrey says the promised pontoons arrived November 25, eight days after Sumner reached the river; on December 11 sharpshooters drove off bridge parties until troops crossed in pontoons. NPS says five bridges were laid under fire.",
+      "rationale": "Bridging delay and a contested crossing from summaries; no inspected engineer or transport record.",
+      "citations": [
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "plan-and-pontoons",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "The promised pontoons did not arrive till the 25th, eight davs after Sumner reached the river\"."
+        },
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "december-11-crossing",
+          "locator": "p.146 (OCR page markers; not checked against print)",
+          "quote": "the Confederate sharpshooters drove away the working parties."
+        },
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "december-11-crossing",
+          "locator": "p.146 (OCR page markers; not checked against print)",
+          "quote": "to send men over in pontoons."
+        },
+        {
+          "source_id": "nps-va028-v1",
+          "locator": "Description",
+          "quote": "Union engineers laid five pontoon bridges across the Rappahannock under fire."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "expectations-and-fog",
+      "dimension": "information",
+      "value": "Palfrey says Burnside seems to have expected Franklin's attack to strike the extreme Confederate right and was wrong, as Confederate artillery and infantry were on Franklin's left; fog on December 11 kept Union artillery from firing accurately.",
+      "rationale": "Palfrey's inference about Burnside's expectation, from Burnside's report and orders; not an inspected original.",
+      "citations": [
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "franklin-orders",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "he expected that Franklin's movement upon the heights near Hamilton's would be a movement upon the extreme right of the Confederates."
+        },
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "franklin-orders",
+          "locator": "p.156 (OCR page markers; not checked against print)",
+          "quote": "the Confed- erates had both artillery and infantry on Franklin's left"
+        },
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "december-11-crossing",
+          "locator": "p.146 (OCR page markers; not checked against print)",
+          "quote": "The morning was foggy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-plan",
+      "dimension": "objectives",
+      "value": "Palfrey says Burnside's plan depended on occupying Fredericksburg quickly and then moving directly on Richmond; NPS describes the December 13 frontal assaults on Prospect Hill and Marye's Heights.",
+      "rationale": "Attributed plan and summarized execution; no inspected orders.",
+      "citations": [
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "plan-and-pontoons",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "General Burnside's whole plan was based upon the expec- tation of an immediate occupation of Fredericksburg."
+        },
+        {
+          "source_id": "nps-va028-v1",
+          "locator": "Description",
+          "quote": "Burnside mounted a series of futile frontal assaults on Prospect Hill and Marye's Heights"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "orders-to-franklin",
+      "dimension": "responsibility",
+      "value": "Palfrey says Burnside's language in his orders to Franklin and in his report is so obscure that his expectations are hard to determine, and that no disapproval reached Franklin for six or seven hours. He says Hancock's formation was prescribed in his orders.",
+      "rationale": "Palfrey's interpretation of orders he summarizes; neither the orders nor Hardie's despatches were inspected. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "franklin-orders",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "The obscurity of Burnside's own language"
+        },
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "franklin-orders",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "not one word of disap- proval or disappointment was sent back from Burnside to Franklin for six or seven hours"
+        },
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "losses",
+          "locator": "p.183 (OCR page markers; not checked against print)",
+          "quote": "his formation for the attack was prescribed in the orders he received"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "renewed-assault-proposal",
+      "dimension": "responsibility",
+      "value": "Palfrey, citing Swinton, says Burnside proposed to renew the attack on the 14th in person with eighteen regiments of the Ninth Corps, and that his chief officers dissuaded him.",
+      "rationale": "Attributed through Swinton inside Palfrey; post-assault decision, not an estimated effect.",
+      "citations": [
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "aftermath-and-withdrawal",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "he proposed to recommence the action the following day"
+        },
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "aftermath-and-withdrawal",
+          "locator": "p.189 (OCR page markers; not checked against print)",
+          "quote": "The wiser counsels of Burnside's chief officers prevailed, and the attack was not made."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Confederate victory. NPS says Burnside called off the offensive and recrossed on December 15; Palfrey says the army was withdrawn across the river on Monday night in wind and rain.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA028"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va028-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-va028-v1",
+          "locator": "Description",
+          "quote": "On December 15, Burnside called off the offensive and recrossed the river"
+        },
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "aftermath-and-withdrawal",
+          "locator": "p.189 (OCR page markers; not checked against print)",
+          "quote": "the Array of the Potomac was quietly and skilfully withdrawn across the river"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 17,929 total (US 13,353; CS 4,576); the live NPS field reads 17900 total (US 12600; CS 5300;). Palfrey prints Burnside's reported losses by grand division, totalling 1,180 killed, 9,028 wounded and 2,145 missing (which sum to 12,353), and Confederate losses of 1,894 for Longstreet's corps over five days and 3,415 for Jackson's.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The sum of Palfrey's Union columns is computed here, not printed; Longstreet's figure spans five days.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA028"
+          },
+          "column": "casualties_text",
+          "quote": "17,929 total (US 13,353; CS 4,576)"
+        },
+        {
+          "source_id": "nps-va028-v1",
+          "locator": "Estimated Casualties",
+          "quote": "17900 total (US 12600; CS 5300;)"
+        },
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "losses",
+          "locator": "p.182 (OCR page markers; not checked against print)",
+          "quote": "1,180 9,028 2,145"
+        },
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "losses",
+          "locator": "p.183 (OCR page markers; not checked against print)",
+          "quote": "Longstreet's corps lost, in the five days during which the Federals were across the river, 1,894 men"
+        },
+        {
+          "source_id": "palfrey-fredericksburg-selections-v1",
+          "section": "losses",
+          "locator": "p.183 (OCR page markers; not checked against print)",
+          "quote": "Jackson's corps, which was attacked by Franklin, lost 3,415."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Original returns, orders to Franklin, Hardie's despatches and casualty reconciliation remain deferred.",
+    "NPS/CWSAC is one family; Palfrey is one retrospective history by a former colonel of the 20th Massachusetts who says he drew on his own recollection and used advance sheets of the Official Records; his service in this campaign is not shown in the inspected text. Reports and writers quoted or summarized inside Palfrey are not additional independently inspected families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

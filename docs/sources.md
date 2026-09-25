@@ -68,6 +68,16 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Fredericksburg first pass, 2026-09-24
+
+The [one-record memo](research/fredericksburg-first-pass-v1.md) adds **3 records**, bringing
+the registry to **327 entries / 324 raw paths**, preserving the previous **324/321**.
+One NPS battle HTML/text pair remains in the NPS/CWSAC family. One new Palfrey
+selection derivative reuses the pinned `palfrey-antietam-ocr-v1` parent and holds the
+title/preface and seven bounded Chapter IV passages; its dependency note omits the
+unsupported claim that Palfrey served in the campaign. Character ranges and
+whitespace-only normalization reproduce all sections. No model inputs are changed.
+
 ### Stones River first pass, 2026-09-24
 
 The [two-record memo](research/stones-river-first-pass-v1.md) adds **5 records**, bringing
