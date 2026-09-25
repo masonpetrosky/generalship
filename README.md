@@ -133,8 +133,9 @@ campaign, retaining ordinary engagements and failures in the frame.
 
 The [self-contained review handoff](docs/research/shiloh-review-handoff.md) preserves
 the frozen assignment separately from the actual response and execution record.
-The default reviewer is a fresh-context GPT-6 Astra `xhigh` subagent in the same
-task, under [AGENTS.md](AGENTS.md); no manual chat handoff is required. This AI
+The default reviewer is a fresh-context Claude Opus 5.5 `high` subagent in the same
+task, under [AGENTS.md](AGENTS.md); it replaced GPT-6 Astra `xhigh` on 2026-09-24,
+and earlier Astra reviews keep their recorded scope. No manual chat handoff is required. This AI
 review fulfills the bounded separate-review step, not historical adjudication or
 feature admission. The [feature-admission design](docs/feature-admission.md) now
 has a separate Astra `xhigh` design review with no required corrections. Its

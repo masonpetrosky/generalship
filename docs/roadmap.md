@@ -282,7 +282,7 @@ No battle/campaign double counting and no unqualified cross-era rankings.
 
 ## Deferred implementation choices
 
-Separate AI reviews use GPT-6 Astra at `xhigh` effort under the owner-set repository
+Separate AI reviews use Claude Opus 5.5 at `high` effort (GPT-6 Astra `xhigh` before 2026-09-24) under the owner-set repository
 policy. Broader research authoring and paid automation policies remain undecided.
 Evidence packets also work with the user's chosen external researcher. LangExtract or another
 extraction library can be evaluated later against a measured source-alignment need.

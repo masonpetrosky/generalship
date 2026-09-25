@@ -43,13 +43,17 @@ For evidence changes, also read `docs/evidence-contract.md` and `docs/sources.md
 
 ## Separate reviewer policy
 
-- When a separate review is useful, use a GPT-6 Astra subagent with `xhigh`
-  reasoning effort (`model: gpt-6-astra`, `reasoning_effort: xhigh`). The owner
-  authorizes this workflow for this repository; a separate user-managed chat
-  or manual response relay is not required. Follow an explicit later override.
-- Start the reviewer with fresh context (`fork_turns: none`) and a bounded,
-  self-contained assignment tied to the exact commit, dossier and source hashes.
-  Give it the evidence and review criteria, not the author's conversational history.
+- When a separate review is useful, use a Claude Opus 5.5 subagent with `high`
+  reasoning effort: the `evidence-reviewer` agent in `.claude/agents/`
+  (`model: claude-opus-5-5`, effort `high`). The owner set this on 2026-09-24,
+  replacing the earlier GPT-6 Astra `xhigh` policy; completed Astra reviews remain
+  valid records of their own scope. The owner authorizes this workflow for this
+  repository; a separate user-managed chat or manual response relay is not
+  required. Follow an explicit later override.
+- Start the reviewer with fresh context (a new subagent, never a fork of the
+  author's conversation) and a bounded, self-contained assignment tied to the
+  exact commit, dossier and source hashes. Give it the evidence and review
+  criteria, not the author's conversational history.
 - The reviewer proposes evidence-backed findings and exact corrections. It must
   state the coverage it actually inspected and write only its assigned review
   outputs. The primary agent checks returned findings before changing evidence.
