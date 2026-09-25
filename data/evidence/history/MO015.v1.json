@@ -18,7 +18,7 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force field gives the Union 800 men in detachments from fourteen companies with a section of artillery, and the Confederates as unknown, with Union numeric bounds of 800 (minimum and maximum); the live field reads US 800 and CS 0. Foster says he was ordered to march with 800 men, found Coffee 1,600 strong on the 15th, had about 740 on the 16th after two parties were out, faced about 3,000 advancing, and saw Coffee return with about 1,500. Britton gives Foster's force as 806, Coffey's as at least 1,200 (and 1,200 on his return), the combined enemy as not less than 3,000 against 740, and cites Jackman's report that he entered the battle with 500 men.",
+      "value": "The frozen force field gives the Union 800 men in detachments from fourteen companies with a section of artillery, and the Confederates as unknown; the live field reads US 800 and CS 0. Foster says he was ordered to march with 800 men, found Coffee 1,600 strong on the 15th, had about 740 on the 16th after two parties were out, faced about 3,000 advancing, and saw Coffee return with about 1,500. Britton gives Foster's force as 806, Coffey's as at least 1,200 (and 1,200 on his return), the combined enemy as not less than 3,000 against 740, and cites Jackman's report that he entered the battle with 500 men.",
       "rationale": "An ordered strength, a morning remainder and Union estimates of the enemy; Britton's regimental extrapolation is his own. None is adopted as a matched opening strength. The live CS zero is not measured absence.",
       "citations": [
         {
@@ -28,24 +28,6 @@
           },
           "column": "forces_text",
           "quote": "Detachments from fourteen companies of cavalry and a section of artillery (800 men) [US]; unknown [CS]"
-        },
-        {
-          "source_id": "arnold-cwsac-forces",
-          "row_key": {
-            "battle": "MO015",
-            "belligerent": "US"
-          },
-          "column": "strength_min",
-          "quote": "800"
-        },
-        {
-          "source_id": "arnold-cwsac-forces",
-          "row_key": {
-            "battle": "MO015",
-            "belligerent": "US"
-          },
-          "column": "strength_max",
-          "quote": "800"
         },
         {
           "source_id": "nps-mo015-v1",
@@ -154,7 +136,7 @@
       "id": "march-horses-and-ammunition",
       "dimension": "logistics",
       "value": "Foster says his men and horses were worn out after forty-eight hours without food or rest before reaching Lexington, and that Cockrell told him the Confederates were completely out of ammunition. Britton says the march of the 15th was thirty-three miles on a very hot day, that the artillery horses were all killed, and that the Confederates were fairly well supplied with arms and ammunition captured at Independence.",
-      "rationale": "The Confederate ammunition state is disputed (Cockrell's statement to Foster against Britton's inference); the two may refer to different times (supply on entering the fight against exhaustion at its end). No return inspected.",
+      "rationale": "The Confederate ammunition state is disputed (Cockrell's statement to Foster against Britton's inference); no return inspected.",
       "citations": [
         {
           "source_id": "or13-foster-lone-jack-selections-v1",
@@ -479,10 +461,5 @@
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting.",
     "Wiley Britton's The Civil War on the Border, volume I (1891) is a retrospective history by a Union participant whose preface says he took the official reports as a guide for numbers and casualties; it is not independent of the Official Records families.",
     "Families for this record: NPS/CWSAC; Foster's May 1, 1863 report; Britton, volume I, Chapter XXIV."
-  ],
-  "revision": "boston-mountains-1862-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/MO015.v1.json",
-    "sha256": "598329a0cd096976dc1d46f06d190f53bc68883065c0560db58b508cec36bc50"
-  }
+  ]
 }

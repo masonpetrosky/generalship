@@ -18,8 +18,8 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force field gives two brigades of the Army of Kansas as 1,500 against Cooper's Division; the live field reads zero. NPS says two brigades of Blunt's army left Fort Scott. Salomon says his September 29 scouting party to Newtonia was the Ninth Kansas Cavalry (about 150) with two howitzers, that on the 30th he left some 400 Indians and two guns with the train, and that prisoners put the enemy at 7,000 after reinforcement. Cooper says his force never exceeded 4,000 with six guns, against 6,000 to 7,000 with eighteen guns by information from Federal sources.",
-      "rationale": "A September 29 detachment count, a September 30 train guard and each side's estimate of the other; no inspected passage gives the Union strength engaged on September 30; the frozen 1,500 (numeric bounds 1,500 as both minimum and maximum) is not found in the inspected passages. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "value": "The frozen force field gives two brigades of the Army of Kansas as 1,500 against Cooper's Division; the live field reads zero. NPS says two brigades of Blunt's army left Fort Scott. Salomon says his scouting party to Newtonia was the Ninth Kansas Cavalry (about 150) with two howitzers, that he left some 400 Indians and two guns with the train, and that prisoners put the enemy at 7,000 after reinforcement. Cooper says his force never exceeded 4,000 with six guns, against 6,000 to 7,000 with eighteen guns by information from Federal sources.",
+      "rationale": "A detachment count and each side's estimate of the other, all for different phases of the day; the frozen 1,500 is not found in the inspected passages. None is adopted as a matched opening strength. The live zero is not measured absence.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -28,24 +28,6 @@
           },
           "column": "forces_text",
           "quote": "Two brigades, Army of Kansas (1,500) [US]; Cooper's Division [CS]"
-        },
-        {
-          "source_id": "arnold-cwsac-forces",
-          "row_key": {
-            "battle": "MO016",
-            "belligerent": "US"
-          },
-          "column": "strength_min",
-          "quote": "1500"
-        },
-        {
-          "source_id": "arnold-cwsac-forces",
-          "row_key": {
-            "battle": "MO016",
-            "belligerent": "US"
-          },
-          "column": "strength_max",
-          "quote": "1500"
         },
         {
           "source_id": "nps-mo016-v1",
@@ -60,20 +42,8 @@
         {
           "source_id": "or13-salomon-newtonia-selections-v1",
           "section": "salomon-1862-10-01",
-          "locator": "p.286 (OCR page markers; not checked against print)",
-          "quote": "On the 29th ultimo I sent scouting parties to Newtonia, Granby, and Neosho."
-        },
-        {
-          "source_id": "or13-salomon-newtonia-selections-v1",
-          "section": "salomon-1862-10-01",
           "locator": "p.287 (OCR page markers; not checked against print)",
           "quote": "consisted of the Ninth Kansas Volunteer Cavalry (about 150 men) and two mountain howitzers."
-        },
-        {
-          "source_id": "or13-salomon-newtonia-selections-v1",
-          "section": "salomon-1862-10-01",
-          "locator": "p.287 (OCR page markers; not checked against print)",
-          "quote": "At about 7 a. m. on the 30th I heard heavy firing in the direction of Newtonia."
         },
         {
           "source_id": "or13-salomon-newtonia-selections-v1",
@@ -88,7 +58,7 @@
           "quote": "Tbey were re-enforced in the forenoon, and, as prisoners say, 7,000 strong."
         },
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.299 (OCR page markers; not checked against print)",
           "quote": "amounted to from 6,000 to 7,000 men, with eighteen pieces of cannon, while our own force did not exceed 4,000 men during any part of the day, with only six pieces of cannon."
@@ -116,13 +86,13 @@
           "quote": "our artillery fired from an elevated ground into their thick masses."
         },
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.297 (OCR page markers; not checked against print)",
           "quote": "who were posted behind the stone fence."
         },
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.298 (OCR page markers; not checked against print)",
           "quote": "the enemy occupying the elevated ridge 1 mile north."
@@ -143,25 +113,25 @@
           "quote": "assigned two of his units to Newtonia where there was a mill for making breadstuffs."
         },
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.297 (OCR page markers; not checked against print)",
           "quote": "the mill at that place was put in operation for the purpose of supplying the command with breadstuffs, which it did abundantly."
         },
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.297 (OCR page markers; not checked against print)",
           "quote": "on account of the valuable lead mines at that place"
         },
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.297 (OCR page markers; not checked against print)",
           "quote": "though without a solitary shot in their cais- sons."
         },
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.299 (OCR page markers; not checked against print)",
           "quote": "abandoning loaded wagons by the way wedged between trees."
@@ -201,13 +171,13 @@
           "quote": "General Rains was reported to be arriv- ing"
         },
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.297 (OCR page markers; not checked against print)",
           "quote": "At the time of the attack I was en route for Granby"
         },
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.298 (OCR page markers; not checked against print)",
           "quote": "mistook his for a Federal regiment."
@@ -223,13 +193,13 @@
       "rationale": "Stated aims; not evaluated.",
       "citations": [
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.296 (OCR page markers; not checked against print)",
           "quote": "for the purpose of forming a junction with Colonel Shelby"
         },
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.297 (OCR page markers; not checked against print)",
           "quote": "were ordered to Newtonia, having made it an outpost"
@@ -288,13 +258,13 @@
           "quote": "when he had not arrived toward sunset I ordered the retreat."
         },
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.297 (OCR page markers; not checked against print)",
           "quote": "I assumed command on the 27th."
         },
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.298 (OCR page markers; not checked against print)",
           "quote": "under my personal direction at once engaged the enemy"
@@ -341,7 +311,7 @@
           "quote": "uo doubt but that we could have annihilated the enemy if he had appeared in time and on the proper road."
         },
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.299 (OCR page markers; not checked against print)",
           "quote": "Their flight continued until they reached Sarcoxie, Jasper County, a distance of 12 miles."
@@ -381,13 +351,13 @@
           "quote": "Our loss in the afternoon was very small."
         },
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.298 (OCR page markers; not checked against print)",
           "quote": "The enemy’s infantry (Ninth Wis- consin) were nearly all destroyed, being either killed or taken prison- ers."
         },
         {
-          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
           "section": "cooper-1862-10-02-newtonia",
           "locator": "p.301 (OCR page markers; not checked against print)",
           "quote": "Return of Casualties in Cooper’s division in the engagement at Newtonia , Mo ., September 30, 1862."
@@ -402,10 +372,5 @@
     "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Each Official Records report author is a separate family; the OR volume is a shared container, not a witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting.",
     "Families for this record: NPS/CWSAC; Salomon's October 1, 1862 report; Cooper's October 2, 1862 report (the same Cooper family is used for OK004)."
-  ],
-  "revision": "boston-mountains-1862-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/MO016.v1.json",
-    "sha256": "70dc8c8b403af71feb92edc73e124d655a72c352d836210fc8560a59c3d72897"
-  }
+  ]
 }

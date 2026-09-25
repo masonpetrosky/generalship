@@ -28,10 +28,12 @@ Saint Charles list were read.
   appendix (pp.929–931), read in full. He was the senior Confederate naval officer at Saint Charles
   in Fry's absence. Williams's No. 2 report was read at its opening and not selected.
 - **Targeted follow-up: Hindman's** general report dated June 19, 1863 (Saint Charles passage,
-  pp.34–36, in `or13-hindman-cache-river-selections-v1`). It fills the gap left by Dunnington,
-  who gives no count of Confederate personnel. Hindman was not present; he refers to Dunnington's
-  and Williams's report and is not independent of it. The selection sits in the author's existing
-  group, `hindman-mclemores-cove-reports`.
+  pp.34–36, now cited from `or13-hindman-cache-river-selections-v2`, the metadata-only successor of
+  v1; see TM-R3). It fills the gap left by Dunnington, who gives no count of Confederate personnel.
+  Hindman was not present. He refers for particulars to an unnamed earlier detailed report, and his
+  personnel figures do not appear in Dunnington's report, so their basis is unestablished; he is not
+  an eyewitness and is not counted as independent corroboration. The selection sits in the author's
+  existing group, `hindman-mclemores-cove-reports`.
 
 Not inspected:
 
@@ -84,7 +86,34 @@ with zero promoted rows.
 
 `python3 -m generalship check` passes. Every quote occurs in its cited section, and `gs.MISSES` is
 empty. `python3 -m unittest discover -s tests` passes (134 tests).
+After the review correction, both pass again (134 tests) in the main repository, and
+`gs.MISSES` is empty.
 
 ## Separate review
 
-Pending. No review is claimed.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the five 1862
+Trans-Mississippi and New Mexico first passes together at prepared commit `3d36bfe` as
+`tm1862-review-3d36bfe-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": six
+required findings (TM-R1 to TM-R6) and eight advisories (TM-A1 to TM-A8) across the five passes.
+It is an AI review within its stated scope, not human historical adjudication, proof of source
+independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder.
+
+AR002 is revised under `white-river-1862-review-correction-2026-09-25` and supersedes the
+byte-for-byte archive at `data/evidence/history/AR002.v1.json`.
+
+- **TM-R3** (AR002, the Hindman registry record and this memo): Hindman refers for particulars to
+  "the detailed report of the engagement heretofore forwarded" without naming its author, and his
+  79 crewmen and 35 armed men do not appear in Dunnington's report. The dependency note is corrected
+  in the metadata-only successor `or13-hindman-cache-river-selections-v2` (same raw bytes, ranges
+  and group), registered with the Cache River correction; AR002's 11 Hindman citations are
+  repointed to it, and its last open question and this memo now use the corrected wording.
+
+The review correction adds no source record for this campaign beyond the shared Hindman successor.
+Claims (10), unknowns (1), citations (62) and disputed claims are unchanged. No model input, cohort
+file, admission proposal or baseline is changed.

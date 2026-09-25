@@ -88,6 +88,13 @@ This pass's Volume VIII and Britton volume I parents were deduplicated to the 18
 registrations (`or8-illinois-ocr-v1`, `britton-border-1-ocr-v1`), whose OCR is byte-identical. No
 model inputs are changed.
 
+**Review correction (TM-R2, TM-R3).** Two metadata-only successors correct dependency notes and
+groups: `or13-cooper-newtonia-old-fort-wayne-selections-v2` (group `cooper-indian-territory-report`)
+and `or13-hindman-cache-river-selections-v2` (Hindman names no author for "the detailed report").
+Citations moved to them. The Trans-Mississippi 1863 Cooper record stays in
+`cooper-indian-territory-1862-reports`, the same author family. The Britton volume I selection stays
+in `britton-civil-war-on-border-1899` (TM-R1; see the W61-R14 note).
+
 ### Gulf and Louisiana 1862–63 first passes (cohort v2), 2026-09-25
 
 The first passes for six campaigns add **50 records**: New Orleans, Baton Rouge, La Fourche (1862),

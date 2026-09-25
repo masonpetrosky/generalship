@@ -1,14 +1,15 @@
 # Sibley's New Mexico Campaign: bounded first pass
 
-Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both
-**frozen records** in **Sibley's New Mexico Campaign [February-March 1862]** now have draft
-dossiers: **18 claims, 2 explicit null unknowns and 133 citation occurrences**. All seven
-dimensions are represented in each record. All dossiers are drafts; no features are admitted.
+Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both **frozen
+records** in **Sibley's New Mexico Campaign [February-March 1862]** now have draft dossiers: **18
+claims, 2 explicit null unknowns and 136 citation occurrences** (133 before the review correction
+below). All seven dimensions are represented in each record. All dossiers are drafts; no features
+are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| NM001 — Valverde | 1862-02-20 to 02-21 | 9 | 1 | 57 | 3 |
-| NM002 — Glorieta Pass | 1862-03-26 to 03-28 | 9 | 1 | 76 | 3 + 1 follow-up |
+| NM001 — Valverde | 1862-02-20 to 02-21 | 9 | 1 | 59 | 3 |
+| NM002 — Glorieta Pass | 1862-03-26 to 03-28 | 9 | 1 | 77 | 3 + 1 follow-up |
 
 This pass was drafted alongside the four 1862 trans-Mississippi campaigns
 ([Pea Ridge](pea-ridge-first-pass-v1.md), [White River](white-river-1862-first-pass-v1.md),
@@ -111,7 +112,38 @@ unchanged, with zero promoted rows.
 
 `python3 -m generalship check` passes. Every quote occurs in its cited section, and `gs.MISSES` is
 empty. `python3 -m unittest discover -s tests` passes (134 tests).
+After the review correction, both pass again (134 tests) in the main repository, and
+`gs.MISSES` is empty.
 
 ## Separate review
 
-Pending. No review is claimed.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the five 1862
+Trans-Mississippi and New Mexico first passes together at prepared commit `3d36bfe` as
+`tm1862-review-3d36bfe-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": six
+required findings (TM-R1 to TM-R6) and eight advisories (TM-A1 to TM-A8) across the five passes.
+It is an AI review within its stated scope, not human historical adjudication, proof of source
+independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder.
+
+NM001 and NM002 are revised under `new-mexico-1862-review-correction-2026-09-25` and supersede
+byte-for-byte archives at `data/evidence/history/<ID>.v1.json`. No required finding concerned this
+campaign.
+
+Advisories:
+
+- **Adopted:** TM-A1 (NM002: Slough's March 29 estimate of 40 to 60 enemy killed, probably over 100
+  wounded and some 25 prisoners added to `casualty-records`; the OCR line "27 killed j 63 wounded.
+  Total, 90." printed after Chivington's No. 3 report, outside the selection, recorded in the open
+  questions as of unclear attribution and not used as evidence) and TM-A4 (NM001: the footnote "But
+  see revised statement on p. 493" to Canby's February 22 estimate noted in the casualty rationale
+  and cited; Sibley's poorly armed, thinly clad brigade dated to mid-January 1862 "at this point" in
+  a report dated at Fort Bliss).
+
+The review correction adds no source records for this campaign. Citations rise from 133 to 136;
+claims (18), unknowns (2) and disputed claims are unchanged. No model input, cohort file, admission
+proposal or baseline is changed.

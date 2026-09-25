@@ -25,10 +25,11 @@ was read.
 - **Hovey** (`hovey-cache-river-1862-report`): July 7, 1862 report, No. 4 (pp.143–145), read in
   full. The compiled return that follows was not selected.
 - **Hindman** (`hindman-mclemores-cove-reports`, the author's existing group): general report dated
-  Richmond, June 19, 1863. Selected: the heading (p.28), the Saint Charles passage (pp.34–36; used
-  for AR002) and the passage from June 24 to Curtis's arrival at Helena (pp.36–37). Hindman was not
-  on the field and says no report of the affair was ever received. The intervening paragraphs on
-  p.36 were read and not selected. pp.29–33 and 38–44 were not read beyond their first lines.
+  Richmond, June 19, 1863, now cited from `or13-hindman-cache-river-selections-v2` (TM-R3).
+  Selected: the heading (p.28), the Saint Charles passage (pp.34–36; used for AR002) and the passage
+  from June 24 to Curtis's arrival at Helena (pp.36–37). Hindman was not on the field and says no
+  report of the affair was ever received. The intervening paragraphs on p.36 were read and not
+  selected. pp.29–33 and 38–44 were not read beyond their first lines.
 
 The following were read but not selected: Curtis's No. 1 report on the action.
 
@@ -78,7 +79,34 @@ with zero promoted rows.
 
 `python3 -m generalship check` passes. Every quote occurs in its cited section, and `gs.MISSES` is
 empty. `python3 -m unittest discover -s tests` passes (134 tests).
+After the review correction, both pass again (134 tests) in the main repository, and
+`gs.MISSES` is empty.
 
 ## Separate review
 
-Pending. No review is claimed.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the five 1862
+Trans-Mississippi and New Mexico first passes together at prepared commit `3d36bfe` as
+`tm1862-review-3d36bfe-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": six
+required findings (TM-R1 to TM-R6) and eight advisories (TM-A1 to TM-A8) across the five passes.
+It is an AI review within its stated scope, not human historical adjudication, proof of source
+independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder.
+
+AR003 is revised under `cache-river-1862-review-correction-2026-09-25` and supersedes the
+byte-for-byte archive at `data/evidence/history/AR003.v1.json`. Its only change is the repointing of
+its 12 Hindman citations.
+
+- **TM-R3** (the Hindman registry record): the v1 dependency note said Hindman relies on and refers
+  to Dunnington's and Williams's report at Saint Charles. The passage names no author, and his
+  personnel figures are not in Dunnington's report. The metadata-only successor
+  `or13-hindman-cache-river-selections-v2` (same raw bytes, ranges and group) corrects the note; the
+  AR003 and AR002 Hindman citations now cite it with quotes and sections unchanged.
+
+The review correction adds one metadata-only successor record for this campaign
+(`or13-hindman-cache-river-selections-v2`). Claims (9), unknowns (1), citations (47) and disputed
+claims are unchanged. No model input, cohort file, admission proposal or baseline is changed.

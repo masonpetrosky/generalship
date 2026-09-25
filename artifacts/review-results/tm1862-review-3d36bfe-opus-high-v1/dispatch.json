@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session fa25ca07-85ec-4f36-946b-48237289b00f",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit aeeeecf9e3de705bf72fe52430e6b41c3fc05e18; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T17:53:52Z",
+  "prepared_commit": "3d36bfe394ead1264b329d1d8b5b35ed794086f0",
+  "bundle_commit": "aeeeecf9e3de705bf72fe52430e6b41c3fc05e18",
+  "assignment_sha256": "cccbdfde39d93bc1b697a1d5aa8ca81b03f5d43479172e5e19de54844208eb13",
+  "inputs_manifest_sha256": "fe3f4312e9bc195519c44aee23fac3c1ef89827259d6b77adb8954c6a91c768d",
+  "num_turns": 66,
+  "duration_ms": 897959,
+  "terminal_reason": "completed",
+  "returned_message": "The review is written, and **corrections are required**: 6 required corrections and 8 optional advisories.\n\n**Review path:** `artifacts/review-results/tm1862-review-3d36bfe-opus-high-v1/review.md` (in the worktree). It is the only file I created; I changed nothing else and made no commit or push.\n\n**Finding IDs:**\n- Required: TM-R1, TM-R2, TM-R3, TM-R4, TM-R5, TM-R6\n- Advisory: TM-A1, TM-A2, TM-A3, TM-A4, TM-A5, TM-A6, TM-A7, TM-A8\n\n**Checks:**\n- All 80 bound input hashes match the prepared commit `3d36bfe` and the worktree. The assignment and `inputs.json` hashes also match.\n- `make check` passes offline (134 tests OK; `generalship check` passes).\n- A script re-extracted all 20 selection ranges from their parent OCR and they reproduce exactly. The Volume VIII and Britton volume I parents are byte-identical to the 1861 West registrations, so the deduplication at merge is sound.\n\n**Required corrections:**\n- **TM-R1:** The Britton volume I selection is in `britton-civil-war-on-border-1899`, a group name an earlier review correction (PRV-R4) had retired. Its parent is in `britton-civil-war-border`, and its dependency note describes the author's groups wrongly. The fix is a metadata-only v2 in the parent's group, with 50 citations in MO014 and MO015 repointed.\n- **TM-R2:** Cooper already had a registered group (`cooper-indian-territory-report`), but the new record creates another and its note says none exists. The fix is a metadata-only v2, with the MO016 and OK004 citations repointed.\n- **TM-R3:** The passage does not support the statement that Hindman \"relies on and refers to Dunnington's and Williams's report.\" Hindman refers to an unnamed earlier report, and his figures (79 men, 35 armed) are not in Dunnington's report. The fix covers the registry note, the AR002 open question and the White River memo.\n- **TM-R4:** The Pea Ridge and Boston Mountains memos still describe the two parents as newly pinned and give record counts that add up to 50. `docs/sources.md` correctly says 46.\n- **TM-R5:** In MO016, Salomon's figure of about 150 is his September 29 scouting party, not a phase of September 30.\n- **TM-R6:** The MO017 rationale says Wickersham's figures \"match\" Barstow's morning skirmish. The losses on Barstow's side match, but the counts of Confederate dead differ (8 against 9).\n\nThe review gives exact replacement text for each correction, and the predecessor hashes for the three metadata revisions. I checked the hash method against the earlier PRV-R4 revision.\n\nThe follow-up choices (Chivington at Glorieta, Hindman at Saint Charles), Kirksville with two families, and the handling of compiled returns are all sound. Recording the Independence and Clark's Mill Union strength bounds, which equal the casualty figures, as observations only is appropriate.\n\nThis is an AI review, not human historical adjudication, proof of source independence or feature admission."
+}

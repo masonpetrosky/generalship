@@ -1,0 +1,92 @@
+{
+  "review_sha256": "33243e50c705879b7ea16ed7324ecad1a515e072e958f56098cc846c4e2e3e53",
+  "prepared_commit": "3d36bfe394ead1264b329d1d8b5b35ed794086f0",
+  "bundle_commit": "aeeeecf9e3de705bf72fe52430e6b41c3fc05e18",
+  "scope": "Trans-Mississippi 1862 first passes review",
+  "findings": [
+    {
+      "finding_id": "TM-R1",
+      "disposition": "accepted_applied",
+      "summary": "Verified: the Britton volume I selection carries britton-civil-war-on-border-1899 while its parent britton-border-1-ocr-v1 is in britton-civil-war-border, and its dependency note misdescribes the author's groups. Applied in the Boston Mountains memo only (parent and group named, reference to the docs/sources.md W61-R14 author-group note). Per the primary's author-group decision, no metadata-only successor britton-border-1-boston-mountains-selections-v2 was registered and the MO014/MO015 Britton citations are unchanged; the proposed -v2 is left to the primary."
+    },
+    {
+      "finding_id": "TM-R2",
+      "disposition": "accepted_applied",
+      "summary": "Verified against the registry (or8-cooper-indian-territory-selections-v1 in cooper-indian-territory-report). Registered metadata-only successor or13-cooper-newtonia-old-fort-wayne-selections-v2 (group cooper-indian-territory-report, corrected dependency note, predecessor digest 368b670e... matches the review). MO016 (16) and OK004 (18) Cooper citations repointed; Boston Mountains memo table and group sentence corrected."
+    },
+    {
+      "finding_id": "TM-R3",
+      "disposition": "accepted_applied",
+      "summary": "Verified in hindman-1863-06-19-saint-charles and Dunnington's report: Hindman names no author for the 'detailed report' and his 79/35 figures are not in Dunnington. Registered metadata-only successor or13-hindman-cache-river-selections-v2 (corrected dependency note; predecessor digest 41387fd1... matches). AR002 (11) and AR003 (12) Hindman citations repointed; AR002 last open question and White River memo reworded as proposed."
+    },
+    {
+      "finding_id": "TM-R4",
+      "disposition": "accepted_applied",
+      "summary": "Pea Ridge memo: OR VIII parent named as the registered or8-illinois-ocr-v1/ia-or8-illinois-metadata-v1, dedup sentence removed, 4 records (not 6). Boston Mountains memo: Britton parent named as britton-border-1-ocr-v1, 23 records (not 25), Britton bullet reduced to one selection."
+    },
+    {
+      "finding_id": "TM-R5",
+      "disposition": "accepted_applied",
+      "summary": "Verified in Salomon's October 1 report ('On the 29th ultimo I sent scouting parties'; firing 'on the 30th'). MO016 reported-force-scope value and rationale corrected as proposed, two dating citations added; memo Newtonia line dated."
+    },
+    {
+      "finding_id": "TM-R6",
+      "disposition": "accepted_applied",
+      "summary": "Verified (Wickersham 8 enemy killed; Barstow 9 in the morning skirmish, 34 for the day). MO017 casualty-records rationale replaced as proposed."
+    },
+    {
+      "finding_id": "TM-A1",
+      "disposition": "accepted_applied",
+      "summary": "NM002: Slough's March 29 enemy-loss estimate (40 to 60 killed, probably over 100 wounded, some 25 prisoners) added and cited; the OR IX OCR line '27 killed j 63 wounded. Total, 90.' after Chivington's No. 3 report recorded in open_questions as of unclear attribution, not used as evidence."
+    },
+    {
+      "finding_id": "TM-A2",
+      "disposition": "accepted_applied",
+      "summary": "OK004: the No. 5 return's aggregate column read as 37, 4 and 22, summing to 63 (a computation), recorded as a compiled-return reading distinct from Cooper's figures and the frozen CS 150; three row citations added; memo updated."
+    },
+    {
+      "finding_id": "TM-A3",
+      "disposition": "accepted_applied",
+      "summary": "MO015 march-horses-and-ammunition rationale notes that the two ammunition statements may refer to different times; claim stays disputed."
+    },
+    {
+      "finding_id": "TM-A4",
+      "disposition": "accepted_applied",
+      "summary": "NM001: Canby's 'But see revised statement on p. 493' footnote noted in the casualty rationale and cited; Sibley's poorly armed, thinly clad brigade dated to mid-January 1862 'at this point' in a report dated at Fort Bliss, with the sentence cited."
+    },
+    {
+      "finding_id": "TM-A5",
+      "disposition": "accepted_applied",
+      "summary": "AR001 stand-and-envelopment: 'Halleck's orders' replaced by the orders of 'the general' of February 22 (not named in the passage); the sentence is cited."
+    },
+    {
+      "finding_id": "TM-A6",
+      "disposition": "accepted_applied",
+      "summary": "MO014: Buel's stone wall added to the terrain claim (noting Britton's dependence on the reports); Buel's 65-man Herington detachment against Britton's forty added to reported-force-scope, both cited."
+    },
+    {
+      "finding_id": "TM-A7",
+      "disposition": "accepted_applied",
+      "summary": "MO015 (US 800/800) and MO016 (US 1,500/1,500) frozen numeric bounds cited as cwsac_forces cells and named in the values/rationales."
+    },
+    {
+      "finding_id": "TM-A8",
+      "disposition": "accepted_applied",
+      "summary": "Boston Mountains memo sentence now says Confederate wounded found in houses gave their loss as 150 killed and wounded, per Blunt, matching the OK004 value."
+    }
+  ],
+  "corrected_dossiers": {
+    "AR001": "a538f62b5520abf2d2fa316e638704566eeefdf5da49b6805983d21ead0ec4bc",
+    "AR002": "d33ea720e6210915ae3d38f9fffa3f29c9eb66b99cf5fbed29529fc1f1285492",
+    "AR003": "f5317e0564d5429b603859cb044207ed1a9743a9d628299c1b8d3629a787f8bd",
+    "MO013": "d8d4ea8aa6870d71c920d488a332e463dc03dc755e1c75a2be478a23f2a610d8",
+    "MO014": "10a8ae9e19f7294cc0c17726d563e218b53c67134727190b2a56339c89715e01",
+    "MO015": "40e8efbff01925ba9091a7570bd666e4fa267e3c943f54c0f878a7247840d274",
+    "MO016": "216f52ddb5f80be16b830a2808e4fe0448d5b6c6bc31c2a482021cf95faae7f2",
+    "MO017": "0bb1324c28de928b0336cf85750f55ed484e3ce7c80cb824ab27664ace38e7fe",
+    "NM001": "0d657a931cddc89372a9f53c718b013683670bb52c01facefe862438f399469d",
+    "NM002": "3ec2fcf163e0d5a1dcc02d0a2addae81f624320f7a8e41a449f08377952bfa02",
+    "OK004": "efe2c20615050c86bac3cca5b9e4f3e36dd8d5b931187cb569091201b7943236"
+  },
+  "independent_followup_review": false
+}
