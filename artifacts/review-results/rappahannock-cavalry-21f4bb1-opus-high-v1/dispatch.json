@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session ed4777b8-da1c-4759-81f5-ad7538e47151",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 3044e666dcbb198697fea7cad53ae4f469151b9c; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T04:27:15Z",
+  "prepared_commit": "21f4bb1cbca40f987b5b1ad0deb30fad764c4070",
+  "bundle_commit": "3044e666dcbb198697fea7cad53ae4f469151b9c",
+  "assignment_sha256": "38fba6fbfe3b2871fe8dc4dc7f975f6f08638022296f9cf7b2e65351647e8daf",
+  "inputs_manifest_sha256": "cf91fde1208a1a1d12682be16e03f3c0f866fdf4e39cadeec01af204776b107e",
+  "num_turns": 28,
+  "duration_ms": 408058,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** The review found four required corrections in the Kelly's Ford (VA029) dossier; the mechanical checks all pass.\n\n**Review path:** `artifacts/review-results/rappahannock-cavalry-21f4bb1-opus-high-v1/review.md` (sha256 `f9f843040768024113534bf2ce4b82454339c209913f4fa5bee089418f400449`). It is the only file I wrote; I didn't commit or push anything.\n\n**Finding IDs:** VA029-R1, VA029-R2, VA029-R3, VA029-R4 (required); VA029-N1, VA029-N2, VA029-N3 (optional).\n\n**Inputs:** the assignment and `inputs.json` hashes match, and all 32 bound input files match at both the worktree and `21f4bb1`.\n\n**Mechanical checks, all passing:**\n- The NPS text and all six Official Records selection sections reproduce byte-for-byte from their parents.\n- All 49 page references to the Official Records are correct, including the \"pp.50–51\" references.\n- The registry has 379 records / 376 paths, and the earlier 373/370 are unchanged. All older dossiers, historical revisions, the cohort, both admission proposals, the admission check, the baseline and battles files are unchanged.\n- Coverage is 77/127 dossiers, 50 without, and 20/36 complete campaigns. The next group is confirmed as Grant's Operations Against Vicksburg: ten records without dossiers, plus MS009, which already has one.\n- The baseline is unchanged: 23 battles in 13 groups, Brier 0.2768816348133779 versus 0.25, zero promoted rows.\n- The packet's JSON blocks and the receipt hashes match the files. `make check` passes offline (82 tests).\n\n**Required corrections** (the review gives the exact replacement quotes and page references for each):\n- **VA029-R1:** In six claims, some parts of the stated values aren't backed by the quoted words, although the supporting passages are in the same section. Examples: the rapid current, fuses, Catlett's Station, Duffié, Munford's court-martial, and \"driven back\". The fix is to add or lengthen those quotes.\n- **VA029-R2:** Averell's \"over 200\" Confederate casualties is a conditional estimate (\"If twice as many slightly wounded escaped\") that he himself says may be too high. The value needs his basis and that caveat.\n- **VA029-R3:** Fitz Lee's casualty summary table (read in the scanned text but not quoted) prints 11 / 77 / 33 / 133. Those don't add up to 133 and don't match his report's 11 / 88 / 34. The source record says the table was read, while the memo says it wasn't inspected. The mismatch should be recorded without adopting either figure, and the records made consistent.\n- **VA029-R4:** The morning times conflict and aren't recorded. Fitz Lee puts the attack at about 5 a.m. and news of the crossing at 7.30 a.m.; Averell says his column reached the ford at 8 a.m. The rationale should note this without adopting either timetable.\n\nOnce the corrections are applied, the dossier will have more than 60 citations, so the packet and receipt will need regenerating. This is an AI review, not human historical judgement, independent corroboration or feature admission."
+}

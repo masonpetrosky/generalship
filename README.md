@@ -136,7 +136,8 @@ The [Tidewater pass](docs/research/tidewater-first-pass-v1.md) adds four
 dossiers, 39 claims, 4 explicit unknowns and 194 citations. Opus 5.5 `high` reviewed them;
 its five required corrections are fixed and verified by the primary.
 The [Rappahannock cavalry pass](docs/research/rappahannock-cavalry-first-pass-v1.md) adds one
-dossier, 9 claims, 1 explicit unknown and 60 citations. Separate review is pending.
+dossier, 9 claims, 1 explicit unknown and 78 citations. Opus 5.5 `high` reviewed it;
+its four required corrections are fixed and verified by the primary.
 Next: **the eleven-record Grant's Operations Against Vicksburg**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).

@@ -208,10 +208,13 @@ Coverage is **19/36 complete campaigns by dossier presence**, with zero promoted
 
 The [Cavalry Operations along the Rappahannock first pass](research/rappahannock-cavalry-first-pass-v1.md)
 adds the sole **frozen record, VA029 (Kelly's Ford)**, with **9 claims, 1 explicit unknown
-and 60 citations** from NPS/CWSAC and Averell's and Fitz Lee's reports in a newly pinned
+and 78 citations** from NPS/CWSAC and Averell's and Fitz Lee's reports in a newly pinned
 Official Records Volume XXV Part 1 OCR. The withdrawal's timing and character and the
 casualty figures (the live split matches the reports with sides reversed) remain
-disputed. Separate review is pending.
+disputed. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/rappahannock-cavalry-21f4bb1-opus-high-v1/review.md)
+found four citation, qualification and clock corrections, all fixed and
+[verified by the primary](../artifacts/review-results/rappahannock-cavalry-21f4bb1-opus-high-v1/primary-assessment.md).
 Coverage is **20/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 Next take **Grant's Operations Against Vicksburg [March-July 1863]**, the next complete frozen
