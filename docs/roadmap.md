@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **102 draft dossiers / 127 engagements**, with **25 without a dossier**.
+There are **105 draft dossiers / 127 engagements**, with **22 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -265,8 +265,15 @@ Official Records Volume XXIII Part 1. Liberty Gap's losses are not added. Separa
 is pending.
 Coverage is **25/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]**, the next complete frozen
-group by earliest engagement date: **three records, IN001, OH001, OH002**.
+The [Morgan's Raid first pass](research/morgans-raid-first-pass-v1.md) adds all three
+**frozen records, IN001, OH001 and OH002**, with **28 claims, 3 explicit unknowns and 143
+citations** from NPS/CWSAC, a newly pinned Duke history and Burnside's, Hobson's and
+Shackelford's reports in Official Records Volume XXIII Part 1. Raid-wide figures are not
+assigned to any record. Separate review is pending.
+Coverage is **26/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Chickamauga Campaign [August-September 1863]**, the next complete frozen
+group by earliest engagement date: **three records, TN018, GA003, GA004**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

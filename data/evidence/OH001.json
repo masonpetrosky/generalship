@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "battle_id": "OH001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Buffington Island record (July 19, 1863) in Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]. The July 20 surrender near the Hocking and the pursuit to Salineville are outside this interval. The raid's start strength, detachments, captures and campaign effects span July 2–26 and several engagements; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen field reads 'Brigades: 4,700 total (US 3,000; CS 1,700)' and the live field agrees. Duke says his side was scarcely 1,900 strong, gives Hobson 3,000 and Judah several thousand, and says Judah's command was reported to be eight or ten thousand strong; his two engaged regiments were each not more than 250 strong. Hobson says the combined commands numbered about 2,500 when he took command at Lebanon on July 6, and that only a small portion of his command was present when Judah arrived.",
+      "rationale": "Duke's 1,900 differs from the frozen 1,700; Hobson's July 6 figure predates the engagement. None is adopted as matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OH001"
+          },
+          "column": "forces_text",
+          "quote": "Brigades: 4,700 total (US 3,000; CS 1,700)"
+        },
+        {
+          "source_id": "nps-oh001-v1",
+          "locator": "Forces Engaged",
+          "quote": "4700 total (US 3000; CS 1700;)"
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.450 (OCR page markers; not checked against print)",
+          "quote": "We were scarcely nineteen hundred strong,"
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.450 (OCR page markers; not checked against print)",
+          "quote": "for Judah was several thousand strong, and Hobson three thousand."
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.449 (OCR page markers; not checked against print)",
+          "quote": "was reported to be eight or ten thousand strong,"
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.450 (OCR page markers; not checked against print)",
+          "quote": "These two regiments were not more than two hundred and fifty strong each,"
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.658 (OCR page markers; not checked against print)",
+          "quote": "numbering about 2,500 men."
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.661 (OCR page markers; not checked against print)",
+          "quote": "but a small portion of my com- mand was here ;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "ford-valley-and-river",
+      "dimension": "terrain",
+      "value": "Duke says an earthwork with two heavy guns commanded the ford, the valley was about a mile long and perhaps 800 yards wide at its southern end with a ridge on its western side, and the river had risen several feet in the previous week. Kautz's dispatch, quoted by Hobson, says the river was too high to ford; Hobson says citizens told him the hills were impassable.",
+      "rationale": "Positions and water level from interested accounts; the work was abandoned before dawn. No map or gauge verification.",
+      "citations": [
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.446 (OCR page markers; not checked against print)",
+          "quote": "an earthwork, throw^n up to guard the ford."
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.449 (OCR page markers; not checked against print)",
+          "quote": "This valley which we had entered the night before, and had bivouacked in, was about a mile long,"
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "which had risen several feet in the previous week,"
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.660 (OCR page markers; not checked against print)",
+          "quote": "It is too high, however, and the gunboats are on the alert."
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.660 (OCR page markers; not checked against print)",
+          "quote": "and that the hills were impassable,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-horses",
+      "dimension": "logistics",
+      "value": "Duke says Morgan's artillery had no more than three cartridges to the piece and the men averaged no more than five rounds, and that Morgan kept a long train of collected wagons. Hobson says his artillery horses broke down with no fresh ones procurable, and that his men marched over 800 miles, in the saddle most of twenty-one days and nights.",
+      "rationale": "Ammunition and transport statements from interested accounts; no ordnance or transport return inspected.",
+      "citations": [
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "there was not more than three cartridges to the piece,"
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.450 (OCR page markers; not checked against print)",
+          "quote": "The men, had on an average, not more than five rounds in their boxes."
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "By abandoning the long train of wagons which had been collected,"
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.660 (OCR page markers; not checked against print)",
+          "quote": "owing to the horses having broken down, and the impossibility of procuring fresh ones on the road,"
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.661 (OCR page markers; not checked against print)",
+          "quote": "the long and tedious march of over 800 miles, being in the saddle most of the time for twenty-one days and nights,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "night-arrival-and-blind-convergence",
+      "dimension": "information",
+      "value": "Duke says a halt at Chester, partly to find a guide, brought Morgan to the ford after dark; his scouts did not discover the night evacuation of the earthwork; and neither Judah nor Hobson knew of the other's vicinity until they heard each other's guns. Hobson says he had no communication with Judah and supposed Judah was on the river road below.",
+      "rationale": "Attributed knowledge from interested accounts on both sides; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.446 (OCR page markers; not checked against print)",
+          "quote": "to obtain a guide, if possible"
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.446 (OCR page markers; not checked against print)",
+          "quote": "That halt proved disastrous"
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "Had our scouts, posted to observe it, been vigilant,"
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.450 (OCR page markers; not checked against print)",
+          "quote": "Neither Judah nor Hobson was aware of the other's vicinity,"
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.661 (OCR page markers; not checked against print)",
+          "quote": "As there had been no communication between General Judah and myself,"
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.660 (OCR page markers; not checked against print)",
+          "quote": "I supposed that General Judah was on the river road below."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ford-and-interception-aims",
+      "dimension": "objectives",
+      "value": "Duke says Morgan had weeks earlier ordered the upper Ohio fords, Buffington among them, examined and intended to recross only there, and that he chose to take the work at dawn rather than attack at night or abandon his wagons, wounded and artillery to cross higher up. Hobson says he ordered Shackelford to intercept Morgan and keep him from his rear.",
+      "rationale": "Stated aims from interested accounts; Duke's are his reading of Morgan's intent.",
+      "citations": [
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "plan-of-raid",
+          "locator": "p.411 (OCR page markers; not checked against print)",
+          "quote": "to examine the fords of the upper Ohio — that at Buf- fington among them"
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "He determined, therefore, to take the work at early dawn and in- stantly commence the crossing,"
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "to save all if possible, at the risk of losing all."
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.660 (OCR page markers; not checked against print)",
+          "quote": "to intercept and prevent Morgan from getting to my rear,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "NPS puts the pursuing columns under Hobson's overall direction and says Kautz's and Judah's brigades attacked. Hobson says Judah assumed command of the whole force over his protest, leaving him detained with his staff. Duke says an order to rally to horses was issued by some one he does not name, and that he and Colonel Johnson decided together to withdraw. The frozen commanders are Hobson and Morgan, both Brigadier Generals.",
+      "rationale": "Command roles from a summary and interested accounts; the frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "nps-oh001-v1",
+          "locator": "Description",
+          "quote": "under overall direction of Brig. Gen. Edward H. Hobson."
+        },
+        {
+          "source_id": "nps-oh001-v1",
+          "locator": "Description",
+          "quote": "Kautz's and Judah's brigades attacked Morgan near Buffington Island."
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.661 (OCR page markers; not checked against print)",
+          "quote": "General Judah immediately assumed command of the whole force, I protesting against it."
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.661 (OCR page markers; not checked against print)",
+          "quote": "I, with my staff, being detained awaiting orders from General Judah."
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.449 (OCR page markers; not checked against print)",
+          "quote": "an order had been issued by some one to \" rally to horses.\""
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.452 (OCR page markers; not checked against print)",
+          "quote": "Colonel Johnson and myself, upon consultation, determined to withdraw simultaneously."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OH001",
+            "belligerent": "US",
+            "fullname": "Edward H. Hobson"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OH001",
+            "belligerent": "Confederate",
+            "fullname": "John Hunt Morgan"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS says Morgan and about 400 men escaped encirclement during the night by a narrow woods path and the rest surrendered. Duke says between 1,100 and 1,200 men retreated with Morgan and some 300 of them crossed the river about twenty miles above. Hobson calls the rout complete and says Duke and his command surrendered to a sergeant of the Ninth Michigan Cavalry.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The escape counts differ in scope and timing.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OH001"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-oh001-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-oh001-v1",
+          "locator": "Description",
+          "quote": "During the night, Morgan and about 400 men escaped encirclement by following a narrow woods path."
+        },
+        {
+          "source_id": "nps-oh001-v1",
+          "locator": "Description",
+          "quote": "The rest of his force surrendered."
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.453 (OCR page markers; not checked against print)",
+          "quote": "Between eleven and twelve hundred men retreated with Gen- eral Morgan,"
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.453 (OCR page markers; not checked against print)",
+          "quote": "Some three hundred of the command crossed the river at a point about twenty miles above Buffington."
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.661 (OCR page markers; not checked against print)",
+          "quote": "The rout was complete ;"
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.661 (OCR page markers; not checked against print)",
+          "quote": "having surrendered to Sergeant [Charles F.] Doke, of the Ninth Michigan Cavalry."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields give 925 (US 25; CS 900). Duke says about 700 prisoners were taken and some twenty-odd of his men killed by musketry, the Union losing quite as many. Hobson says his command's casualties did not exceed 5 or 6, gives 57 Confederate killed on a militia surgeon's report, and says he could not give the exact number of prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OH001"
+          },
+          "column": "casualties_text",
+          "quote": "925 total (US 25; CS 900)"
+        },
+        {
+          "source_id": "nps-oh001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "925 total (US 25; CS 900;)"
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.453 (OCR page markers; not checked against print)",
+          "quote": "About seven hundred prisoners were taken from us in this fight"
+        },
+        {
+          "source_id": "duke-morgans-cavalry-ohio-raid-selections-v1",
+          "section": "buffington",
+          "locator": "p.452 (OCR page markers; not checked against print)",
+          "quote": "only some t\\Yenty-odd men were killed by the musketry — the enemy lost quite as many"
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.661 (OCR page markers; not checked against print)",
+          "quote": "The casualties in my command did not ex- ceed 5 or 6,"
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.661 (OCR page markers; not checked against print)",
+          "quote": "(according to a report made to me by Dr. D. K. Scriver, of the Ohio militia) 57,"
+        },
+        {
+          "source_id": "or23-1-hobson-morgan-raid-selections-v1",
+          "section": "hobson-1863-09",
+          "locator": "p.661 (OCR page markers; not checked against print)",
+          "quote": "it is impossible for me to give the exact number of prisoners"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Judah's, Kautz's and Sanders's reports, the gunboat reports and the Confederate prisoner rolls remain deferred.",
+    "NPS/CWSAC is one family. Duke's History of Morgan's Cavalry (1867) is an interested Confederate participant history: Duke commanded a brigade on the raid by his own account and was captured at Buffington, so his account of later days is not eyewitness. The Burnside, Hobson and Shackelford reports, printed in Official Records Series I, Volume XXIII, Part 1, are interested Union accounts. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

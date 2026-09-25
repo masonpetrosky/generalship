@@ -46,6 +46,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [AL001](../data/evidence/AL001.json) | 9 | 1 | 0 | 0 | draft |
 | [AR006](../data/evidence/AR006.json) | 10 | 1 | 0 | 0 | draft |
 | [AR008](../data/evidence/AR008.json) | 9 | 1 | 0 | 0 | draft |
+| [IN001](../data/evidence/IN001.json) | 9 | 1 | 0 | 0 | draft |
 | [KY005](../data/evidence/KY005.json) | 11 | 1 | 0 | 0 | draft |
 | [KY006](../data/evidence/KY006.json) | 11 | 2 | 0 | 0 | draft |
 | [KY007](../data/evidence/KY007.json) | 11 | 2 | 0 | 0 | draft |
@@ -81,6 +82,8 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [NC009](../data/evidence/NC009.json) | 10 | 1 | 0 | 0 | draft |
 | [NC010](../data/evidence/NC010.json) | 9 | 1 | 0 | 0 | draft |
 | [NC011](../data/evidence/NC011.json) | 9 | 1 | 0 | 0 | draft |
+| [OH001](../data/evidence/OH001.json) | 9 | 1 | 0 | 0 | draft |
+| [OH002](../data/evidence/OH002.json) | 10 | 1 | 0 | 0 | draft |
 | [PA001](../data/evidence/PA001.json) | 9 | 1 | 0 | 0 | draft |
 | [PA002](../data/evidence/PA002.json) | 9 | 1 | 0 | 0 | draft |
 | [TN001](../data/evidence/TN001.json) | 10 | 1 | 0 | 0 | draft |
@@ -155,8 +158,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 102 engagements have dossiers; 25 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Tullahoma Campaign first pass](../docs/research/tullahoma-first-pass-v1.md) adds the sole frozen record, Hoover's Gap: 9 claims, 1 explicit unknown and 41 citations from NPS/CWSAC, Cist and Bate's Official Records report. Liberty Gap is not added and casualty differences remain visible; separate campaign review is pending. Next take the complete three-record Morgan's Raid in Kentucky, Indiana, and Ohio. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 105 engagements have dossiers; 22 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Morgan's Raid first pass](../docs/research/morgans-raid-first-pass-v1.md) adds all three frozen records: 28 claims, 3 explicit unknowns and 143 citations from NPS/CWSAC, Duke, and Burnside's, Hobson's and Shackelford's Official Records reports. Raid-wide figures are not assigned to any record, and the Salineville surrender dispute and casualty differences remain visible; separate campaign review is pending. Next take the complete three-record Chickamauga Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

@@ -68,6 +68,16 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Morgan's Raid first pass, 2026-09-25
+
+The [three-record memo](research/morgans-raid-first-pass-v1.md) adds **12 records**, bringing
+the registry to **486 entries / 476 raw paths**, preserving the previous **474/464**. Three
+NPS battle HTML/text pairs remain in the NPS/CWSAC family. Duke's *History of Morgan's
+Cavalry* (Internet Archive `historyofmorgans00duke`) is pinned with catalog metadata, full
+OCR and a selection; Burnside, Hobson and Shackelford selections reuse
+`or23-1-illinois-ocr-v1`. Character ranges and whitespace-only normalization reproduce
+all sections. No model inputs are changed.
+
 ### Tullahoma Campaign first pass, 2026-09-25
 
 The [one-record memo](research/tullahoma-first-pass-v1.md) adds **6 records**, bringing
