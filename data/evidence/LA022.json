@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA022",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Mansura record (May 16, 1864) in the Red River Campaign [March-April 1864]. The frozen campaign label reads March-April 1864 and the live date field reads 'March-April 1864'; neither replaces the record's frozen dates. The May 15 fighting at Marksville and the May 17 attacks near Moreauville are context. Campaign-wide marches, returns, river operations and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Banks's Red River Expeditionary Force [US] and District of West Louisiana [CS]; the live field reads zero. Taylor's May 16 dispatch says the enemy probably had 16,000 men on the field and perhaps more, and lists nineteen guns on his right and thirteen on his left; on May 14 he wrote of his little force against four times their number, and on May 10 of scarce 6,000 men. Irwin says the disparity in numbers was too great for Taylor to do more than make a show of resistance, and lists the Union infantry divisions in line.",
+      "rationale": "Interested estimates from different dates and a retrospective judgment; no return. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA022"
+          },
+          "column": "forces_text",
+          "quote": "Banks's Red River Expeditionary Force [US]; District of West Louisiana [CS]"
+        },
+        {
+          "source_id": "nps-la022-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-16",
+          "locator": "p.593 (OCR page markers; not checked against print)",
+          "quote": "as the enemy had probably 16,000 men on the field, and per- haps more."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-16",
+          "locator": "p.593 (OCR page markers; not checked against print)",
+          "quote": "Bagby and Major, with nineteen pieces of artillery, holding the right,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-16",
+          "locator": "p.593 (OCR page markers; not checked against print)",
+          "quote": "with thirteen pieces of artillery,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-14-evening",
+          "locator": "p.592 (OCR page markers; not checked against print)",
+          "quote": "to attempt to fight a general battle with my little force against four times their number,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-10",
+          "locator": "p.590 (OCR page markers; not checked against print)",
+          "quote": "with my little force of scarce 6,000 men,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.345 (OCR page markers; not checked against print)",
+          "quote": "the disparity in numbers was too great to justify Taylor in making more than a handsome show of resistance"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.345 (OCR page markers; not checked against print)",
+          "quote": "Mower on the right, Kilby Smith next, Emory in the centre, Lawler on the left,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "open-prairie",
+      "dimension": "terrain",
+      "value": "Taylor calls the prairie smooth as a billiard table and an admirable field for artillery; Irwin describes the wide, rolling prairie of Avoyelles, on which both armies' lines were in plain sight; NPS says the prairie controlled access to the three roads crossing the area.",
+      "rationale": "Ground described by an interested dispatch, a history and a summary; no map verification.",
+      "citations": [
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-16",
+          "locator": "p.593 (OCR page markers; not checked against print)",
+          "quote": "The broad, open prairie, smooth as a billiard table, af- forded an admirable field for artillery practice,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.344 (OCR page markers; not checked against print)",
+          "quote": "On the wide and rolling prairie of Avoyelles, otherwise known as the Plains of Mansura,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.345 (OCR page markers; not checked against print)",
+          "quote": "the whole lines of both armies were in plain sight of every man in either,"
+        },
+        {
+          "source_id": "nps-la022-v1",
+          "locator": "Description",
+          "quote": "Taylor massed his forces in an open prairie that controlled access to the three roads traversing the area,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "trains-water-and-captured-guns",
+      "dimension": "logistics",
+      "value": "Taylor says 313 wagons accompanied the Union column from Alexandria, that most of his guns were captured Union pieces, and that his trains lay behind his left near Evergreen; on May 10 he wrote that he had no line of supplies or base. Irwin says the Union troops afterward found the first fresh, clear water they had seen for many weeks.",
+      "rationale": "Train and equipment statements; no supply return.",
+      "citations": [
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-14-evening",
+          "locator": "p.592 (OCR page markers; not checked against print)",
+          "quote": "Three hundred and thirteen wagons ac- companied the column."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-16",
+          "locator": "p.593 (OCR page markers; not checked against print)",
+          "quote": "most of our guns were 3-inch rifle and 10-pounder Parrotts captured from the enemy."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-16",
+          "locator": "p.593 (OCR page markers; not checked against print)",
+          "quote": "our trains being behind that flank near Evergreen."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-10",
+          "locator": "p.590 (OCR page markers; not checked against print)",
+          "quote": "I have no line of sup- plies or base of operations, and can move where I please."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.345 (OCR page markers; not checked against print)",
+          "quote": "to enjoy the first fresh, clear water they had so much as seen for many weeks."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "visibility-and-uncertain-reports",
+      "dimension": "information",
+      "value": "Irwin says that apart from the artillery smoke the whole lines of both armies were in plain sight. Two days earlier Taylor wrote that reports of the dam at the falls were so contradictory he did not know what to believe; on the 16th he reports long lines of infantry demonstrating against his left at 10 a.m.",
+      "rationale": "Attributed observation from a history and interested dispatches.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.345 (OCR page markers; not checked against print)",
+          "quote": "Save where here and there the light smoke from the artiller)^ hindered the view,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-14-evening",
+          "locator": "p.592 (OCR page markers; not checked against print)",
+          "quote": "Reports are so con- tradictory of the condition of the dam at the falls that I do not know what to believe."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-16",
+          "locator": "p.593 (OCR page markers; not checked against print)",
+          "quote": "At 10 a. m. long lines of infantry commenced demon- strations on our left, the pivot of the position,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "harass-the-retreat",
+      "dimension": "objectives",
+      "value": "NPS says Taylor sought to slow, deplete or destroy the retreating force and hoped his artillery could cause many casualties. Taylor wrote that he would not attempt a general battle but would harass the enemy to the Mississippi and force him to destroy property. Irwin says the Union march followed the river to cover the fleet's withdrawal.",
+      "rationale": "Stated aims from a summary, an interested dispatch and a history.",
+      "citations": [
+        {
+          "source_id": "nps-la022-v1",
+          "locator": "Description",
+          "quote": "attempted to slow the Union troops' movements and, if possible, deplete their numbers or, better yet, destroy them."
+        },
+        {
+          "source_id": "nps-la022-v1",
+          "locator": "Description",
+          "quote": "where he hoped his artillery could cause many casualties."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-14-evening",
+          "locator": "p.592 (OCR page markers; not checked against print)",
+          "quote": "but I hope to force the enemy to destroy large amounts of property, and harass and worry him until he reaches the Mississippi."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.344 (OCR page markers; not checked against print)",
+          "quote": "with the object of covering the withdrawal of the fleet of gunboats and transports"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Irwin says Banks marched from Alexandria with Lawler, Emory and A. J. Smith's divisions and that Taylor prudently withdrew when the Union lines advanced; Taylor places Bagby and Major on his right and Polignac with Debray on his left. The frozen commanders are Major Generals Taylor and Banks, as on the live page.",
+      "rationale": "Command roles from a history and an interested dispatch; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.344 (OCR page markers; not checked against print)",
+          "quote": "On the 13th of May Banks marched from Alex- andria on SImmesport, Lawler leading the infantry column, Emory next, and A. J. Smith's divisions"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.345 (OCR page markers; not checked against print)",
+          "quote": "and so when our lines were advanced he prudently withdrew."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-16",
+          "locator": "p.593 (OCR page markers; not checked against print)",
+          "quote": "Po- lignac, re-enforced by two regiments of cavalry under Debray, the left,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA022",
+            "belligerent": "Confederate",
+            "fullname": "Richard Taylor"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA022",
+            "belligerent": "US",
+            "fullname": "Nathaniel P. Banks"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Taylor says his men withdrew in good order and the road to Simsport was left open; Irwin and NPS say the Confederates fell back when the Union lines advanced or massed for a flank attack.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA022"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-la022-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-16",
+          "locator": "p.593 (OCR page markers; not checked against print)",
+          "quote": "Our men withdrew with the steadiness of veterans on parade, and the road to Simsport was left open to the foe."
+        },
+        {
+          "source_id": "nps-la022-v1",
+          "locator": "Description",
+          "quote": "a large Union force massed for a flank attack, inducing the Rebels to fall back."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown and the live field reads zero (US 0; CS 0). Irwin says Banks's losses were small except for Haskin's horse battery, and Taylor that his thin line offered a small mark. No inspected passage gives a figure for either side.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA022"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-la022-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.345 (OCR page markers; not checked against print)",
+          "quote": "Banks's losses were small, but Lieutenant Haskin's horse-batter}' F, ist U. S., being unavoidably ex- posed"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-16",
+          "locator": "p.593 (OCR page markers; not checked against print)",
+          "quote": "while our short, thin line offered a small mark."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Banks's report, Lawler's (No. 10), A. J. Smith's, Emory's, Arnold's and Fordham's reports, Faries's artillery report (No. 103), W. Steele's report (No. 101) and the returns remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892) is a retrospective history by the former assistant adjutant-general of the corps and of Banks's Department of the Gulf, an interested Union account; it cites the Official Records and gives Taylor's and Kirby Smith's figures, so it is not independent of them. Taylor's April 18, 1864 report, his March 13-14 letters printed as its inclosures, his April 24-May 19 dispatches and his April 11 general order are one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

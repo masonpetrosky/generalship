@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "battle_id": "AR015",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Marks' Mills record (April 25, 1864) in the Camden Expedition [April 1864]. The April 20 arrival of the supply train, the April 23 demonstration on Camden and the evacuation of Camden on April 26-27 are context. Campaign-wide marches, returns, foraging and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Infantry brigade [US] and two divisions [CS]; the live field reads zero. Britton says the escort was a brigade of infantry, four hundred First Iowa cavalry and four guns, attacked by Fagan's expedition of four thousand picked cavalry and several batteries, and outnumbered four to one. Price says the train was guarded by a brigade, 500 cavalry and six guns, and that Fagan's division of Cabell's, Dockery's and Crawford's brigades had Shelby's brigade attached.",
+      "rationale": "Interested and retrospective figures that differ on the cavalry and guns; no return. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR015"
+          },
+          "column": "forces_text",
+          "quote": "Infantry brigade [US]; two divisions [CS]"
+        },
+        {
+          "source_id": "nps-ar015-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "guarded by a brigade of infantry, four hundred cavalry of the First Iowa, and four pieces of the Second Missouri Light Artil lery,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "of four thousand picked cavalry and several bat teries of light artillery,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "outnumbered as four to one by the enemy,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "guarded by a brigade of infantry, 500 cavalry, and six pieces of ar- tillery,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "consisting of Cabell’s, Dockery’s, and Crawford’s bri- gades, to which Shelby’s brigade was temporarily attached,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "strung-out-train-near-swamp",
+      "dimension": "terrain",
+      "value": "Britton places the fight at Marks' Mill near the Moro Swamp, with the troops in front separated from those in the rear by the length of the train, probably nearly two miles, and says Black civilians escaped into the swamps.",
+      "rationale": "Ground described by one history; no map verification.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "at Marks' Mill, near the Moro Swamp,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "the force in front being separated from the one in the rear by the length of the train, probably nearly two miles,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "fled to the swamps and got away,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supply-train",
+      "dimension": "logistics",
+      "value": "Britton says a 150-wagon train from Pine Bluff allowed half rations for ten days, and was sent back unloaded for more supplies; the train lost was 211 wagons with four guns. NPS says 240 wagons, and Price a train of several hundred wagons going to Pine Bluff for supplies.",
+      "rationale": "Wagon counts differ; no quartermaster return.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "A supply train of 150 wagons, loaded with commissary and ordnance stores, was due from Pine Bluff,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "half rations for ten days were issued to the troops. As soon as unloaded, the train was sent back to Pine Bluff for further supplies,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "The train of 211 wagons and the four pieces of artillery also fell into the hands of the Confederates."
+        },
+        {
+          "source_id": "nps-ar015-v1",
+          "locator": "Description",
+          "quote": "A Union force escorted 240 wagons from Camden to Pine Bluff to pick up supplies"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "attacked at Marks’ Mills a train of several hundred wagons,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "screen-feint-and-captured-mail",
+      "dimension": "information",
+      "value": "Britton says Steele's cavalry scouts reported no Confederate force north of the Washita before the train left, and that Price cannonaded the Camden outposts to draw attention from Fagan's movement; Price calls it a feint made for that purpose, and says the captured mail held Steele's reports and returns with information of much value.",
+      "rationale": "Attributed knowledge from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "they could not hear of any Confederate force north of the Washita River."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "To attract General Steele's attention from Fagan's movement,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "to divert attention from this movement, a feint was made upon the city of Camden."
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "The mail, containing official reports and returns from Major-General Steele, with information of much value to us, was found in train."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cut-the-supply-line",
+      "dimension": "objectives",
+      "value": "Britton says Kirby Smith sent Fagan to cross the Washita and destroy Steele's supplies and cut his communications; Price says Fagan was ordered to attack and cut off every train he found north of the river. NPS says the loss made Steele give up the junction with Banks.",
+      "rationale": "Stated aims from a history and an interested report; NPS's statement is campaign consequence.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "with instructions to cross to the north side of the Washita River and destroy General"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "to attack and cut off all trains of the enemy he might find on that side of the river."
+        },
+        {
+          "source_id": "nps-ar015-v1",
+          "locator": "Description",
+          "quote": "Thus, Steele gave up all thoughts of uniting with Maj. Gen. Nathaniel Banks on the Red River and realized that he had to save his army."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton and Price say Drake commanded the escort and Fagan the attackers; Britton says Drake was severely wounded, Price mortally. The frozen commanders are Brigadier General James B. Fagan and Lieutenant Colonel Francis Drake, as on the live page.",
+      "rationale": "Command roles from a history and an interested report; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "all under command of Lieutenant-Colonel Francis M. Drake, Thirty-sixth Iowa Infantry."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "Colonel Drake, the gallant commander, being severely wounded in the thigh and hip."
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "Drake, who was in command, being mortally wounded."
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General Fagan, having made a forced march, attacked at Marks’ Mills"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR015",
+            "belligerent": "Confederate",
+            "fullname": "James B. Fagan"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR015",
+            "belligerent": "US",
+            "fullname": "Francis Drake"
+          },
+          "column": "rank",
+          "quote": "Lieutenant Colonel"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory and the live result Confederate Victory. Price calls the victory complete, with all the wagons taken; Britton says the escort was overwhelmed after nearly five hours and nearly all the infantry killed, wounded or captured; NPS says the Confederates captured most of the men and all the wagons.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Steele's evacuation of Camden is campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR015"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ar015-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "The victory was complete. All their wagons fell into our hands."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "the Fed eral troops were overwhelmed and nearly all the infantry killed, wounded, and captured,"
+        },
+        {
+          "source_id": "nps-ar015-v1",
+          "locator": "Description",
+          "quote": "The Rebels captured most of the men and all of the supply wagons."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,793 total (US 1,500; CS 293), and the live field agrees. Price claims six guns, four colors and 1,100 prisoners taken and near 500 Union killed. Britton reports Fagan's killed and severely wounded as not over 150, Cabell's brigade alone as over 200 wounded, Drake's surgeon's count of about 250 Union killed and wounded, and an estimate of 800 to 900 dead and wounded on the field, many of them Arkansas refugees and Black civilians killed with the train.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Civilian dead are not military casualties and are not merged with them.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR015"
+          },
+          "column": "casualties_text",
+          "quote": "1,793 total (US 1,500; CS 293)"
+        },
+        {
+          "source_id": "nps-ar015-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1793 total (US 1500; CS 293;)"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "All their artillery (6 pieces), 4 stand of colors, and 1,100 prisoners were captured, the enemy losing in killed near 500 men,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "General Fagan reported that his killed and severely wounded would not exceed 150 men."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "General Cabell, however, reported that his brigade alone had over 200 men wounded."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "his chief surgeon informed him that he had about 250 men killed and wounded."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "it was estimated that there were 800 to 900 dead and wounded men on the battle-field ;"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "a large proportion of the others were Arkansas refugees and negroes who were going along with the train to Pine Bluff, and who had been inhumanly murdered."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Drake's report (No. 16), Steele's reports (No. 2), Fagan's, Cabell's and the Arkansas regimental reports on Marks' Mills (Nos. 51-56), Shelby's report (No. 73) and the incomplete casualty returns (No. 50) remain deferred.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume II (Putnam's, 1899) is a retrospective history described on its title page as based upon official reports and the author's observations; it gives figures from Union and Confederate reports and incomplete Confederate returns, so it is not independent of the Official Records families. Price's report dated Camden, May 1864 is one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

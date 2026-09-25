@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA021",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Monett's Ferry (Cane River Crossing) record (April 23, 1864) in the Red River Campaign [March-April 1864]. The March 29 skirmish at Monett's Ferry, Wharton's April 22-24 attacks on the Union rear near Cloutierville and the retreat to Alexandria are context. Campaign-wide marches, returns, river operations and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Red River Expeditionary Force (Banks's Department of the Gulf) [US] and Bee's Cavalry Division [CS]; the live field reads zero. Taylor's April 24 dispatches say Banks had some 15,000 with him and that Bee held the ferry with four brigades and three batteries, then name four brigades and four batteries in position on the 21st, and fault Bee for sending Terrell's brigade back to Beasley's. Irwin says Bee and Major had four brigades and four batteries, naming Debray's, Terrell's, Baylor's and Bagby's brigades and twenty-four guns, and that Taylor had only Polignac's 2,000 muskets besides the cavalry. Birge's flanking column combined his temporary division with Cameron's.",
+      "rationale": "Unit identifications and army-level estimates that disagree on Terrell's presence and the batteries; no count of either force at the crossing. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA021"
+          },
+          "column": "forces_text",
+          "quote": "Red River Expeditionary Force (Banks's Department of the Gulf) [US]; Bee's Cavalry Division [CS]"
+        },
+        {
+          "source_id": "nps-la021-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-24-near-natchitoches",
+          "locator": "p.579 (OCR page markers; not checked against print)",
+          "quote": "Banks has some 15,000 with him ; the others have gone down in boats."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-24-near-natchitoches",
+          "locator": "p.579 (OCR page markers; not checked against print)",
+          "quote": "Bee, with four brigades and three batteries, holds Monett’s Ferry,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-24-monetts-ferry",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "Bee was in posi- tion at Monett’s Ferry with Major’s, Bagby’s, Debray’s, and Terrell’s brigades of cavalry and McMahan’s, Moseley’s, J. A. A. West’s, and Nettles’ batteries."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-24-monetts-ferry",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "Bee’s errors were, first, in sending back Terrell’s entire brigade to Beasley’s"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "with four brigades and four batteries"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "stood Bee with the brigades of Debray and Terrell, Major with his two brigades under Baylor and Bagby, and the twenty-four guns of McMahon, Moseley, West, and Nettles."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "reduced to 2,000 muskets,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "Birge with his temporary division augmented by Cameron's,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "bluff-lakes-and-cane",
+      "dimension": "terrain",
+      "value": "Irwin says Bee held high ground at Monett's bluff commanding the ford and ferry, with his right on a deep ravine and his left on a marsh and small lake, while the Union side was low, flat and covered with cane and willow; Birge's men forded Cane River waist-deep. NPS says natural features covered both of Bee's flanks, and Taylor that his flanks rested on lakes.",
+      "rationale": "Ground described by a history, a summary and an interested dispatch; no map verification. Bee's choice of position means the ground is not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "on the high ground at Monett's bluff, com- manding the ford and the ferry."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "with their right flank resting on a deep ravine, and their left upon a marsh and a small lake,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "The ground on which the Union army found itself was, like the whole island, low and flat and largely covered with a thick growth of cane and willow."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "where the water was waist- deep,"
+        },
+        {
+          "source_id": "nps-la021-v1",
+          "locator": "Description",
+          "quote": "he placed his men so that natural features covered both his flanks."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-24-monetts-ferry",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "instead of toward the lakes on which his two flanks rested ;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forced-march-and-burned-trains",
+      "dimension": "logistics",
+      "value": "Irwin says Birge led the column thirty-eight or forty miles in twenty-six hours to seize the crossing and that a pontoon bridge was laid after the ferry was cleared. Taylor says the enemy burned immense stores at Grand Ecore and destroyed many wagons on the night of the 22nd.",
+      "rationale": "March and destruction reports from a history and interested dispatches; no transport return.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "he had led the column at the furious pace of thirty-eight miles, perhaps forty, in twenty-six hours ;"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.333 (OCR page markers; not checked against print)",
+          "quote": "The pontoon bridge was at once laid,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-24-near-natchitoches",
+          "locator": "p.579 (OCR page markers; not checked against print)",
+          "quote": "The enemy burned immense stores in Grand Ecore,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-24-monetts-ferry",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "destroyed a large number of his wagons on the night of the 22d."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "finding-a-crossing",
+      "dimension": "information",
+      "value": "Irwin says Banks's move brought Bee and Major across his path by chance, that Bailey and E. J. Davis searched the morass below the ferry in vain for a ford, and that Bee changed front once he made out Birge's movement. Taylor says communication with Bee required a 56-mile detour, and on April 24 reported Emory believed killed, although Irwin says Emory directed the forcing of the crossing.",
+      "rationale": "Attributed knowledge from a history and interested dispatches; Taylor's report about Emory illustrates uncertain news, not a finding about Emory.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "but just at that moment Banks moved and thus, by the merest chance, brought Bee and Major,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "Bailey and E. J. Davis searched in vain for a practicable ford."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "Bee having changed front to the left and rear as soon as he made out the movement of Birge."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-24-monetts-ferry",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "rendered communication with General Bee difficult,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-24-near-natchitoches",
+          "locator": "p.579 (OCR page markers; not checked against print)",
+          "quote": "General Emory, of the Federals, is believed to have fallen in the fight."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "hold-or-force-the-crossing",
+      "dimension": "objectives",
+      "value": "Taylor says he and Wharton impressed on Bee the importance of holding the position to the last extremity. Irwin says Franklin turned his command over to Emory with orders to dislodge the enemy and open the way, and that Emory's frontal demonstration was meant to draw attention from Birge.",
+      "rationale": "Stated aims from interested dispatches and a history.",
+      "citations": [
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-24-monetts-ferry",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "The importance of holding the position to the last extremity had been impressed upon General Bee both by Major-Gen- eral Wharton and myself."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "he turned over his command to Emory, with orders to dislodge the enemy and to open the way."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "To amuse the enemy and to draw his attention away from Birge,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Irwin says Banks turned over direction of the march to Franklin, who, disabled by his wound, handed command to Emory; Birge led the flanking column and gave Fessenden the task of carrying the hill. NPS names Emory as commanding the advance. Taylor says Bee let the enemy outmaneuver him and showed great personal gallantry but no generalship. The frozen commanders are Brigadier General Hamilton P. Bee and Major General Nathaniel P. Banks, as on the live page.",
+      "rationale": "Command roles from a history, a summary and an interested dispatch that blames a subordinate; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "turned over the direction and control of the march to Franklin."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "he turned over his command to Emory,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "To Fessenden Birge gave the duty of carr}^ing the hill."
+        },
+        {
+          "source_id": "nps-la021-v1",
+          "locator": "Description",
+          "quote": "Banks's advance party, commanded by Brig. Gen. William H. Emory,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-24-monetts-ferry",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "he allowed the enemy to outma- neuver him and force him back."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-24-monetts-ferry",
+          "locator": "p.581 (OCR page markers; not checked against print)",
+          "quote": "He displayed great personal gallantry, but no generalship."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA021",
+            "belligerent": "Confederate",
+            "fullname": "Hamilton P. Bee"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA021",
+            "belligerent": "US",
+            "fullname": "Nathaniel P. Banks"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Irwin and Taylor both say Bee retired some thirty miles to Beasley's; Taylor's first dispatch says Bee repulsed the enemy's efforts until midday. NPS says the Confederates missed an opportunity to destroy or capture Banks's army.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. NPS's missed-opportunity statement is a counterfactual judgment, not a measured outcome.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA021"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-la021-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.333 (OCR page markers; not checked against print)",
+          "quote": "Bee retreated rapidly to Beasley's, thirty miles away to the southward,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-24-monetts-ferry",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "he re- tired his whole force 30 miles to Beasley’s,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-24-near-natchitoches",
+          "locator": "p.579 (OCR page markers; not checked against print)",
+          "quote": "up to mid- day yesterday repulsed the enemy’s efforts to force a passage."
+        },
+        {
+          "source_id": "nps-la021-v1",
+          "locator": "Description",
+          "quote": "The Confederates at Monett's Ferry missed an opportunity to destroy or capture Banks's army."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 600 total (US 200; CS 400), and the live field agrees. Irwin says Birge's loss was about 200, 153 in Fessenden's brigade and 86 of these in the 30th Maine. Taylor says the enemy suffered very heavy loss in forcing the ferry. No inspected passage gives a Confederate figure.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Birge's loss is one column's, not the army's.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA021"
+          },
+          "column": "casualties_text",
+          "quote": "600 total (US 200; CS 400)"
+        },
+        {
+          "source_id": "nps-la021-v1",
+          "locator": "Estimated Casualties",
+          "quote": "600 total (US 200; CS 400;)"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "cane-river",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "Birge's loss in this engagement was about 200, of whom 153 were in Fessenden's brigade, and of these 86 in the 30th Maine."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-24-monetts-ferry",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "The enemy experienced very heavy loss in forcing Monett’s Ferry,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Banks's and Franklin's reports, Emory's (No. 60), Closson's (No. 62), McMillan's (No. 68), Fessenden's and Blanchard's (Nos. 74-75), Arnold's and Gooding's cavalry reports (Nos. 82, 87), Bee's report (No. 99), Baylor's (No. 100), W. Steele's (No. 101) and Irwin's partial loss return (appendix p.476, garbled) remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892) is a retrospective history by the former assistant adjutant-general of the corps and of Banks's Department of the Gulf, an interested Union account; it cites the Official Records and gives Taylor's and Kirby Smith's figures, so it is not independent of them. Taylor's April 18, 1864 report, his March 13-14 letters printed as its inclosures, his April 24-May 19 dispatches and his April 11 general order are one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

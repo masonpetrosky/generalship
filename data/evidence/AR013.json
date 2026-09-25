@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "battle_id": "AR013",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Prairie D'Ane (Moscow) record (April 9-13, 1864) in the Camden Expedition [April 1864]. The frozen record also carries the names Gum Grove and Moscow; the April 10-12 fighting on the prairie and the April 13 rear-guard action at Moscow fall within its interval and are recorded as one record without adding their figures. The march on to Camden (April 14-15) is context. Campaign-wide marches, returns, foraging and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Department of Arkansas [US] and District of Arkansas [CS]; the live field reads zero. Price says Thayer's command joined Steele with 5,500 men and ten guns, that Gano's brigade of 500 and Tandy Walker's brigade of about 1,000 reinforced him, and that Thayer's rear guard at Moscow was some 3,000 with ten guns. Britton says Thayer's division was about five thousand with twelve field guns and two howitzers.",
+      "rationale": "Interested and retrospective estimates of components on different days; no return. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR013"
+          },
+          "column": "forces_text",
+          "quote": "Department of Arkansas [US]; District of Arkansas [CS]"
+        },
+        {
+          "source_id": "nps-ar013-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "re-enforced by Thayer’s command of 5,500 men, with ten pieces of artillery, on April 6,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "re-enforced by Brigadier-General Gano’s brigade (500 men) from the Indian Territory,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "Tandy Walker’s Choctaw Brigade, about 1,000 strong,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "engaged the enemy’s rear guard, some 3,000 strong, with ten pieces of artillery, commanded by Gen- eral Thayer."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "camden-opening",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "the whole force of about five thousand men, with twelve field-guns and two howitzers,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "prairie-and-works",
+      "dimension": "terrain",
+      "value": "Price says Marmaduke stood at the west end of the prairie behind rude and imperfect entrenchments, and that Thayer at Moscow was strongly posted in a skirt of timber on the prairie's edge. Britton describes Confederate rifle-pits nearly a mile long with log breastworks on the flanks, and the Camden road junction on the prairie in front of them.",
+      "rationale": "Works and ground from an interested report and a history; the works predate the April 12 advance but their builders' timing is not established.",
+      "citations": [
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "drawn up in line of battle at the west end of the prairie, where some rude and imperfect intrenchments had been thrown up."
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "The enemy were strongly posted near Moscow in a skirt of timber on the edge of the prairie,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "prairie-dane-and-camden",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "They had rifle-pits nearly a mile in length,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "prairie-dane-and-camden",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "intersected the Washington and Camden road on the prairie in front of the intrenchments,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "bottoms-forage-and-ammunition",
+      "dimension": "logistics",
+      "value": "Britton says the Terre Rouge bottom was impassable for trains until corduroyed and that the rear division floundered across it all night after the Moscow fight, in which the Second Indiana Battery fired 210 solid shot and shell. Price says his pursuit was hampered by distance, scarcity of forage and exhausted horses.",
+      "rationale": "Road and supply conditions from a history and an interested report; no return.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "prairie-dane-and-camden",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "The recent heavy rains having made the road crossing the bottom of this stream impassable for the trains and artillery,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "prairie-dane-and-camden",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "Although the road had been repaired and corduroyed across most of this bottom,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "prairie-dane-and-camden",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "the Second Indiana Battery fired 210 solid shot and shell,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "the scarcity of forage, and the exhausted condition of the horses,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "price-deceived-on-direction",
+      "dimension": "information",
+      "value": "Britton says Price, still believing Steele meant to reach Washington, learned on the morning of the 13th that the Union army had turned for Camden, and that he had been deceived as to Steele's intentions. Price says he found on the 13th that Steele had fallen back in the night toward Camden.",
+      "rationale": "Attributed knowledge from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "prairie-dane-and-camden",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "He was still under the impression that Steele desired to reach that point,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "prairie-dane-and-camden",
+          "locator": "p.273 (OCR page markers; not checked against print)",
+          "quote": "the Federal forces had turned to the left and were marching rapidly for Camden."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "prairie-dane-and-camden",
+          "locator": "p.273 (OCR page markers; not checked against print)",
+          "quote": "he had been deceived as to the intentions of the Federal com mander,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "on the morning of the 13th I found that he had fallen back during the night, and was retreating rapidly toward Camden."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "draw-him-on-or-turn-away",
+      "dimension": "objectives",
+      "value": "Price says he withdrew from the prairie to draw Steele beyond it where he could attack at a disadvantage and take the train. Britton says the Union line advanced on the 12th to carry the works by assault before Steele turned Price's left and marched for Camden. NPS says the fighting diverted Steele from Shreveport toward Camden.",
+      "rationale": "Stated aims from an interested report, a history and a summary.",
+      "citations": [
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "my object being to draw the enemy beyond the prairie to a point where I felt confident if he advanced I could attack him at great disadvantage, and destroy or capture the greater part of his train."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "prairie-dane-and-camden",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "with the determination of carrying the fortifications of the enemy by assault."
+        },
+        {
+          "source_id": "nps-ar013-v1",
+          "locator": "Description",
+          "quote": "forcing Steele to divert line of march forces away from Shreveport toward Camden."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Price says he took the field in person on April 5; Britton says Price commanded in person behind his works and that Steele with Rice's brigade and cavalry turned his left; Price says Dockery led the Moscow attack, and NPS says Price fell on Thayer's rear guard. The frozen commanders are Major Generals Sterling Price and Frederick Steele, as on the live page.",
+      "rationale": "Command roles from an interested report, a history and a summary; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "I left Camden and took the field in person."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "prairie-dane-and-camden",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "who commanded in person,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "prairie-dane-and-camden",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "General Steele, with Rice's brigade and a brigade of cavalry, turned Price's left flank,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "Dockery being in the advance attacked with great in- trepidity,"
+        },
+        {
+          "source_id": "nps-ar013-v1",
+          "locator": "Description",
+          "quote": "falling upon Steele's rearguard under Thayer."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR013",
+            "belligerent": "Confederate",
+            "fullname": "Sterling Price"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR013",
+            "belligerent": "US",
+            "fullname": "Frederick Steele"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Price says he withdrew from the prairie by design, and that at Moscow Dockery took and lost a section of artillery before the enemy retreated in the night. Britton says Price abandoned his works without resistance and the Moscow attackers were driven from the field and pursued about three miles.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The march into Camden is campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR013"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ar013-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "I withdrew my forces from Prairie D’Ane and fell back to a very strong position 8 miles from Washing; ton,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "at one time captured a section of artillery, but which was afterward retaken by a greatly superior force and his troops driven back with some loss."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "prairie-dane-and-camden",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "without resistance he abandoned his forti fications and fell back to within eight miles of Washing ton."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "prairie-dane-and-camden",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "when the Confederates were driven from the field and pursued about three miles."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads 150 (US 100; CS 50). Price reports very trifling loss on April 10 and some loss at Moscow, and claims one Union gun dismounted; Britton says the Moscow attack was driven off with heavy loss. No inspected passage gives a figure.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live figures have no inspected basis.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR013"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-ar013-v1",
+          "locator": "Estimated Casualties",
+          "quote": "150 total (US 100; CS 50;)"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "but with very trifling loss on our part."
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "In this affair we dismounted one of the enemy’s guns,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "prairie-dane-and-camden",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "causing them to retire hastily with a heavy loss of killed and wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Steele's reports (No. 2), Salomon's, Engelmann's, Garrett's and the Frontier Division itinerary (Nos. 5, 19, 21, 23), Thayer's report (not listed in this volume's Camden reports), Marmaduke's and Shelby's reports (Nos. 71, 73) and Maxey's report remain deferred.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume II (Putnam's, 1899) is a retrospective history described on its title page as based upon official reports and the author's observations; it gives figures from Union and Confederate reports and incomplete Confederate returns, so it is not independent of the Official Records families. Price's report dated Camden, May 1864 is one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

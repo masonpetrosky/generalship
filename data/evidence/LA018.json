@@ -1,0 +1,428 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA018",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Mansfield (Sabine Cross-Roads) record (April 8, 1864) in the Red River Campaign [March-April 1864]. The April 7 cavalry fight at Wilson's farm and Carroll's mill and the Pleasant Hill battle of April 9 are context. Campaign-wide marches, returns, river operations and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Banks's Red River Expeditionary Force [US] and District of West Louisiana (two divisions) [CS]; the live field reads zero, and NPS says Taylor attacked though outnumbered. Irwin puts Ransom's infantry on the field at about 2,400, Banks's fighting line below 3,500 and the force at hand not above 5,000, against nearly 10,000 advancing under Taylor; Cameron's division barely 1,300; and Emory's division five thousand against a force half as large again. He says Taylor had at least sixteen thousand including Churchill's and Parsons's divisions, which Taylor says numbered about 4,000 bayonets and were ordered up from 20 miles away that morning. Irwin summarizes the Union as outnumbered almost two to one.",
+      "rationale": "Retrospective estimates by a Union staff officer for different phases and an interested report; the reinforcing divisions are not shown on the field on April 8. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA018"
+          },
+          "column": "forces_text",
+          "quote": "Banks's Red River Expeditionary Force [US]; District of West Louisiana (two divisions) [CS]"
+        },
+        {
+          "source_id": "nps-la018-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-la018-v1",
+          "locator": "Description",
+          "quote": "Taylor, though outnumbered, decided to attack."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.303 (OCR page markers; not checked against print)",
+          "quote": "Ransom's infantry on the field numbered about 2,400 officers and men ; including Lucas, Banks's fighting line fell below 3,500, and the whole force he had at hand was not above 5,000 strong."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.304 (OCR page markers; not checked against print)",
+          "quote": "with nearly 10,000."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.305 (OCR page markers; not checked against print)",
+          "quote": "Nor was Cameron's handful, barely 1,300,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.311 (OCR page markers; not checked against print)",
+          "quote": "even Emory had but five thousand against a force reduced by casualties and by straggling, yet still half as large again as his"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.300 (OCR page markers; not checked against print)",
+          "quote": "Taylor now had at least sixteen thousand good men,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.563 (OCR page markers; not checked against print)",
+          "quote": "Churchill’s and Parsons’ divisions of Arkansas and Missouri troops, numbering about 4,000 bayonets, were ordered to march at early dawn on the morning of the 8th from their camp, 20 miles dis- tant, to Mansfield."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.310 (OCR page markers; not checked against print)",
+          "quote": "outnumbered almost as two to one."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "clearing-in-pine-forest",
+      "dimension": "terrain",
+      "value": "Taylor says his line stood in the edge of a wood with cleared fields about 1,000 yards across on both sides of the Pleasant Hill road, in wooded country offering no field for many guns. Irwin describes the clearing as barely half a mile wide in a wilderness of pines, Taylor's position covering the crossing of the roads to Pleasant Hill, Shreveport, Bayou Pierre and the Sabine, and the Union column strung on a single narrow road. NPS places the position just below Mansfield near Sabine Cross-Roads.",
+      "rationale": "Ground described by an interested report, a history and a summary; no map verification. Taylor chose the position, so it is not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.564 (OCR page markers; not checked against print)",
+          "quote": "My line of battle was in the edge of a wood, with cleared fields in front on both sides of the Pleasant Hill road, the clearing about 1,000 yards in extent."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.564 (OCR page markers; not checked against print)",
+          "quote": "the wooded condition of the country offering no field for the employment of many guns."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.302 (OCR page markers; not checked against print)",
+          "quote": "The clearing, the largest yet seen by the Union Army since entering the interminable wilderness of pines, was barely half a mile in width ;"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.302 (OCR page markers; not checked against print)",
+          "quote": "covering the crossing of the ways that lead to Pleasant Hill, to Shreveport, to Bayou Pierre, and to the Sabine."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.300 (OCR page markers; not checked against print)",
+          "quote": "on a single narrow road in a dense pine forest,"
+        },
+        {
+          "source_id": "nps-la018-v1",
+          "locator": "Description",
+          "quote": "He established a defensive position just below Mansfield, near Sabine Cross-Roads, an important communications center."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "trains-on-the-road",
+      "dimension": "logistics",
+      "value": "Irwin says Banks was encumbered by twelve miles of wagons, that the retreat met the cavalry train stuck in a slough, and that twenty guns were lost, seventeen at the jam, with wagons, ambulances and draught animals (the counts are garbled in OCR). Taylor says the captured property was taken to Mansfield and turned over, and his April 11 order claims 250 wagons.",
+      "rationale": "Train and loss descriptions from a history and interested Confederate documents; not supply returns.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.300 (OCR page markers; not checked against print)",
+          "quote": "Banks was, moreover, encumbered by twelve miles of wagons bearing all his ammunition"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.306 (OCR page markers; not checked against print)",
+          "quote": "the retreating column came upon a knot of wagons inextricably tangled and stuck fast in a slough. This was the great cavalry train trying to escape."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.306 (OCR page markers; not checked against print)",
+          "quote": "In all twenty guns were lost ; three on the field and seventeen at the jam. With them went 1/5 wagons, ii ambulances, and i,ooi draught animals."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.565 (OCR page markers; not checked against print)",
+          "quote": "The vast captured property was quietly taken to Mansfield and turned over untouched to the proper officers."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-general-orders-1864-04-11",
+          "locator": "p.596 (OCR page markers; not checked against print)",
+          "quote": "250 wagons"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "battle-in-neither-plan",
+      "dimension": "information",
+      "value": "Irwin says events on both sides precipitated a battle in the plans of neither, and that Franklin's first suggestion of it was Banks's order to bring the infantry forward. Taylor says he found the enemy weakening his left and massing on his right, and that captured orders showed Banks expected to reach Shreveport on the 11th.",
+      "rationale": "Attributed knowledge from a history and an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.301 (OCR page markers; not checked against print)",
+          "quote": "sud- denly on both sides events took the bit in their teeth and precipitated a battle that was in the plans of neither."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.305 (OCR page markers; not checked against print)",
+          "quote": "Franklin received his first suggestion of an impending battle, in Banks's order to bring all the infantry to the front."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.564 (OCR page markers; not checked against print)",
+          "quote": "I soon found that the enemy was weakening his left and massing on his right to turn me."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.565 (OCR page markers; not checked against print)",
+          "quote": "As shown by his orders dated at Natchitoches and captured on the 8th, Banks ex- pected to reach Shreveport on the 11th"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "offer-battle-before-shreveport",
+      "dimension": "objectives",
+      "value": "NPS says Taylor decided without instructions from Kirby Smith to stem the Union drive; Taylor says he announced to department headquarters his intention to fight the next day unless positively ordered not to; Irwin says he acted regardless of Kirby Smith's purpose of concentrating nearer Shreveport. Irwin says Banks meant to be at Mansfield holding the converging roads, and on seeing the enemy ordered Lee to hold his ground and Franklin to bring forward the column.",
+      "rationale": "Stated aims from a summary, an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "nps-la018-v1",
+          "locator": "Description",
+          "quote": "without any instructions from his commander, Gen. E. Kirby Smith, decided that it was time to try and stem this Union drive."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.563 (OCR page markers; not checked against print)",
+          "quote": "announcing my intention to department headquarters to fight a general engagement the next day if the enemy advanced in force, unless ordered positively not to do so."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.302 (OCR page markers; not checked against print)",
+          "quote": "regardless of Kirby Smith's purpose of concentrating nearer Shreveport,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "the-red-river",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "Banks meant to be at Mansfield, holding the roads that there converge,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.303 (OCR page markers; not checked against print)",
+          "quote": "Banks at once ordered Lee to hold his ground and sent back orders to Franklin to bring forward the column."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Taylor says he ordered Mouton to open the attack and that the left-wing movements were under Green's immediate direction; Irwin says it is not clear whether Taylor ordered Mouton's attack or Mouton attacked without his orders. Irwin says Banks rode to the extreme front, that his staff's direct action sandwiched Ransom's regiments, and that Emory's division, formed under Emory's orders, checked the pursuit. The frozen commanders are Major Generals Richard Taylor and Nathaniel P. Banks, as on the live page.",
+      "rationale": "Command roles from an interested report and a history; the opening of the attack is disputed, and the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.564 (OCR page markers; not checked against print)",
+          "quote": "I ordered Mouton to open the attack from the left."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.564 (OCR page markers; not checked against print)",
+          "quote": "These movements on the left of the road to Pleasant Hill were under the immediate direction of Maj. Gen. Thomas Green,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.303 (OCR page markers; not checked against print)",
+          "quote": "Whether Taylor, as he says, now became impatient at the delay and ordered Mouton to open the attack, or whether, as others have asserted, Mouton attacked without the knowledge or orders of Taylor, is not quite clear,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.303 (OCR page markers; not checked against print)",
+          "quote": "Banks himself rode to the extreme front, as his habit was."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.301 (OCR page markers; not checked against print)",
+          "quote": "as Banks undertook to hasten the movement through the direct action of his own staff-officers, it resulted that the regiments of the two brigades were sandwiched."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.309 (OCR page markers; not checked against print)",
+          "quote": "Then rapidly sending orders to Dwight to hold the road at any cost,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA018",
+            "belligerent": "Confederate",
+            "fullname": "Richard Taylor"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA018",
+            "belligerent": "US",
+            "fullname": "Nathaniel P. Banks"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-la018-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Richard Taylor [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory and the live result Confederate Victory. Taylor's order calls it the most complete victory in war and his report says his men camped on the creek with the enemy forced back some 400 yards; Irwin says Emory's twenty-minute fight rolled back the pursuit, and NPS that a third Union division halted the attack after more than an hour.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The final phase at the creek is described differently.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA018"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-la018-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-general-orders-1864-04-11",
+          "locator": "p.596 (OCR page markers; not checked against print)",
+          "quote": "Never in war was a more complete victory won."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.565 (OCR page markers; not checked against print)",
+          "quote": "we camped on the creek as night fell, the enemy forced back some 400 yards beyond."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.310 (OCR page markers; not checked against print)",
+          "quote": "It rolled back the pursuit and changed the fortunes of the evil day."
+        },
+        {
+          "source_id": "nps-la018-v1",
+          "locator": "Description",
+          "quote": "a third Union division met Taylor's attack at 6:00 pm and halted it after more than an hour's fighting."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 4,400 total (US 2,900; CS 1,500); the live field reads 3235 (US 2235; CS 1000). Irwin's table gives Banks's loss as 115 killed, 648 wounded and 1,423 missing, 2,186 in all, and says Taylor put his own loss at 1,000; twenty Union guns were lost. Taylor's April 11 order claims twenty-one guns, 2,500 prisoners and 250 wagons; his report says the consolidated casualty report for the two battles was not found and that the cavalry would swell the whole loss to 2,500. Irwin's appendix says the War Department could not separate the losses of April 8 and 9.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The two-day totals belong to both LA018 and LA019 and are not split or added.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA018"
+          },
+          "column": "casualties_text",
+          "quote": "4,400 total (US 2,900; CS 1,500)"
+        },
+        {
+          "source_id": "nps-la018-v1",
+          "locator": "Estimated Casualties",
+          "quote": "3235 total (US 2235; CS 1000;)"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.311 (OCR page markers; not checked against print)",
+          "quote": "In all ... 115 648 1,423 2,186"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "sabine-cross-roads",
+          "locator": "p.311 (OCR page markers; not checked against print)",
+          "quote": "He puts his losses at 1,000, all told."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-general-orders-1864-04-11",
+          "locator": "p.596 (OCR page markers; not checked against print)",
+          "quote": "Twenty- one pieces of artillery, 2,500 prisoners,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.569 (OCR page markers; not checked against print)",
+          "quote": "A consolidated report* of the casualties of the two battles accompanies this report."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.569 (OCR page markers; not checked against print)",
+          "quote": "The casualties of the cavalry will swell the whole loss to 2,500."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "appendix-sabine-pleasant-hill-losses",
+          "locator": "p.472 (OCR page markers; not checked against print)",
+          "quote": "Compiled in the War Department from the nominal returns : impossible to separate the losses, for each day."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Banks's report (No. 2), Franklin's, Ransom's, Cameron's, Landram's, Lee's, Emory's and the regimental reports (Nos. 7-29, 60, 68-74, 81-88), Kirby Smith's report and correspondence (No. 93), Walker's and Green's reports, the No. 1 return abstract and the consolidated Confederate casualty report (not found in the OR) remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892) is a retrospective history by the former assistant adjutant-general of the corps and of Banks's Department of the Gulf, an interested Union account; it cites the Official Records and gives Taylor's and Kirby Smith's figures, so it is not independent of them. Taylor's April 18, 1864 report, his March 13-14 letters printed as its inclosures, his April 24-May 19 dispatches and his April 11 general order are one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA019",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Pleasant Hill record (April 9, 1864) in the Red River Campaign [March-April 1864]. Mansfield on April 8 and the retreat to Grand Ecore on April 10-11 are context. Campaign-wide marches, returns, river operations and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Red River Expeditionary Force (Banks's Department of the Gulf) [US] and District of West Louisiana [CS]; the live field reads zero, and NPS says Taylor was outnumbered. Taylor's report says that with 12,000 men he attacked twenty-odd thousand. Irwin says the Union army can hardly have numbered more than 13,000 nor less than 11,000; that Kirby Smith's figures account for 16,000 Confederates while Taylor owns to 12,000; and that the numbers seem to have been nearly equal.",
+      "rationale": "Interested and retrospective estimates without an inspected return; Irwin's range includes cavalry he says was not engaged. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA019"
+          },
+          "column": "forces_text",
+          "quote": "Red River Expeditionary Force (Banks's Department of the Gulf) [US]; District of West Louisiana [CS]"
+        },
+        {
+          "source_id": "nps-la019-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-la019-v1",
+          "locator": "Description",
+          "quote": "Although outnumbered, Taylor felt that the Union army would be timid after Mansfield"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.568 (OCR page markers; not checked against print)",
+          "quote": "With 12,000 men we had attacked twenty-odd thou- sand, many of them fresh troops,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "the Union army can hardly have numbered more than 13,000 nor less than 11,000."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "although Kirby Smith's figures account for 16,000,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "Taylor himself owns to 12,000."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "Each side claims to have fought a superior force, yet the numbers seem to have been nearly equal."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "village-woods-and-hills",
+      "dimension": "terrain",
+      "value": "Irwin describes Pleasant Hill as a village of a dozen houses about a knoll in a clearing, with Benedict's position unavoidably bad. Taylor says the Union troops were posted along broken hills densely clothed with young pines and protected by logs, rails and some abatis, and that the dense woods hid the field and broke the continuity of his line.",
+      "rationale": "Ground described by a history and an interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.313 (OCR page markers; not checked against print)",
+          "quote": "Pleasant Hill was a village of a dozen houses dis- persed about a knoll in a clearing."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "Benedict's position was, unavoidably, a bad one"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.567 (OCR page markers; not checked against print)",
+          "quote": "To his left ex- tended a range of broken hills, densely clothed with young pines, and his troops were well posted along these wooded hills and protected by piles of logs, rails, and some abatis."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.568 (OCR page markers; not checked against print)",
+          "quote": "The dense woods prevented a view of the field, and the continuity of our line was lost."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "water-ammunition-and-food",
+      "dimension": "logistics",
+      "value": "Irwin says the only water was in the village cisterns, not enough for Banks's men for a day, and that the ambulances had gone off with the wagon train. Taylor says his men were ordered to rely on the bayonet for want of ammunition and time, that his cavalry had been without food for forty hours, and that he withdrew the infantry some 6 miles to water.",
+      "rationale": "Retrospective and interested statements; no supply or ordnance return.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "there was no water to be had save from the cisterns in the village."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "there was not enough left in them to supply the wants of Banks's men,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "grand-ecore",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "Unfortunately by some mistake the ambulances had gone off with the wagon train,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.567 (OCR page markers; not checked against print)",
+          "quote": "Orders were given to all to rely on the bayonet, as we had neither ammunition nor time to waste."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.568 (OCR page markers; not checked against print)",
+          "quote": "man and horse had been without food for forty hours."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.568 (OCR page markers; not checked against print)",
+          "quote": "I directed the infantry to fall back some 6 miles to water,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "misread-roads-and-intelligence",
+      "dimension": "information",
+      "value": "Taylor says his order to push cavalry toward Blair's Landing was misconstrued, so he could not decide what force he faced on the 9th. Irwin says Churchill probably mistook the lower Sabine road for the Fort Jesup road, and that the Union army had practically given up the idea of being attacked that day. Taylor says an idea prevailed in the woods that his men were firing on each other.",
+      "rationale": "Attributed knowledge from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.566 (OCR page markers; not checked against print)",
+          "quote": "Unfortu- nately this order was construed to mean that its execution was to follow on possession of Pleasant Hill, so that I could not decide what force we were confronted by on the 9th."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.317 (OCR page markers; not checked against print)",
+          "quote": "he mistook it for the Fort Jesup road,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "the Union army had practically given up tbt idea of being attacked that day,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.568 (OCR page markers; not checked against print)",
+          "quote": "An idea prevailed that we were firing on each other."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cover-the-train-or-drive-banks",
+      "dimension": "objectives",
+      "value": "Irwin says Banks set the wagon train moving toward Grand Ecore and put the army in position at Pleasant Hill to cover it, and that Banks was under orders to be on the Mississippi ready to move against Mobile by May 1. Taylor says pushing Banks beyond Pleasant Hill could not be overestimated, and planned for Churchill and Parsons to outflank the enemy by the Jesup road.",
+      "rationale": "Stated aims and orders from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "Banks gave orders for the wagon train to be set in motion toward Grand Ecore, escorted by Lee with the cavalry and Dickey's colored brigade, and put his army into position at Pleasant Hill to cover the movement."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.313 (OCR page markers; not checked against print)",
+          "quote": "Banks himself must be on the Missis- sippi with his whole force ready to move against Mobile by the ist of May."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.565 (OCR page markers; not checked against print)",
+          "quote": "The importance of pushing Banks beyond Pleasant Hill could not be overestimated."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.566 (OCR page markers; not checked against print)",
+          "quote": "were sent to the right to outflank the enemy, reach the Jesup road, and attack from the south and west."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Taylor blames Churchill for not gaining enough ground to his right or using his cavalry, and says Green, taking the noise for the signal, launched Bee's charge. Irwin says A. J. Smith recalled Shaw and then ordered his whole line forward, and that Banks, after consulting his corps and division commanders, decided to continue the retreat. NPS names Churchill as commanding the flank attack. The frozen commanders are Major Generals Taylor and Banks, as on the live page.",
+      "rationale": "Command roles from an interested report, a history and a summary; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.568 (OCR page markers; not checked against print)",
+          "quote": "Churchill in his attack did not gain ground enough to his right nor use his cavalry efficiently."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.567 (OCR page markers; not checked against print)",
+          "quote": "led General Green naturally to suppose the time for Bee’s charge had arrived."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.319 (OCR page markers; not checked against print)",
+          "quote": "Not a moment too soon, A. J. Smith recalled him."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.320 (OCR page markers; not checked against print)",
+          "quote": "A. J. Smith instantly ordered forward his whole line."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "grand-ecore",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "after consulting his corps and division commanders, he determined to continue the retreat to Grand Ecore."
+        },
+        {
+          "source_id": "nps-la019-v1",
+          "locator": "Description",
+          "quote": "The attack on the Union left flank, under the command of Brig. Gen. Thomas J. Churchill,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA019",
+            "belligerent": "Confederate",
+            "fullname": "Richard Taylor"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA019",
+            "belligerent": "US",
+            "fullname": "Nathaniel P. Banks"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Taylor's order calls it the soldier's victory, and his report says the expedition was defeated and that he held Pleasant Hill next morning after the enemy retreated in the night. Irwin quotes Kirby Smith that Taylor's troops were finally repulsed and thrown into confusion, notes that the earliest Confederate dispatches claimed a signal victory, and says the Confederates were pushed back about a mile with a loss of five guns. NPS says Banks won but retreated.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Banks's retreat and the abandonment of the Shreveport objective are campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA019"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-la019-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-general-orders-1864-04-11",
+          "locator": "p.596 (OCR page markers; not checked against print)",
+          "quote": "This was emphatically the soldier’s victory."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.569 (OCR page markers; not checked against print)",
+          "quote": "Thus was defeated this great expedition for the conquest of the Trans-Mississippi Department."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.569 (OCR page markers; not checked against print)",
+          "quote": "The morning of the 10th found us in possession of Pleasant Hill, the enemy retreating secretly in the night,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.321 (OCR page markers; not checked against print)",
+          "quote": "were finally repulsed and thrown into confusion"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.321 (OCR page markers; not checked against print)",
+          "quote": "signal and glorious victory, and to this view Taylor seems to have adhered"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.320 (OCR page markers; not checked against print)",
+          "quote": "Their disordered ranks were pushed back about a mile, with a loss of five guns,"
+        },
+        {
+          "source_id": "nps-la019-v1",
+          "locator": "Description",
+          "quote": "Although Banks won this battle, he retreated,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 3,100 total (US 1,100; CS 2,000); the live field reads 2995 (US 1369; CS 1626). Irwin gives the Union loss as 152 killed, 859 wounded and 495 missing, 1,506 in all, with Emory's division 725, and says Taylor estimated the Confederate loss at 1,500. Taylor says some 400 Union wounded were left in his hands and that the cavalry would swell the loss of both battles to 2,500. Irwin's appendix says the losses of April 8 and 9 could not be separated.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The two-day totals belong to both LA018 and LA019 and are not split or added.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA019"
+          },
+          "column": "casualties_text",
+          "quote": "3,100 total (US 1,100; CS 2,000)"
+        },
+        {
+          "source_id": "nps-la019-v1",
+          "locator": "Estimated Casualties",
+          "quote": "2995 total (US 1369; CS 1626;)"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.321 (OCR page markers; not checked against print)",
+          "quote": "were 152 killed, 859 wounded, 495 missing; in all, 1,506."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "4 officers and 374 men missing; in all, 725."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "The Confederate losses were estimated by Taylor at 1,500."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.569 (OCR page markers; not checked against print)",
+          "quote": "leaving his dead unburied and some 400 wounded in our hands."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.569 (OCR page markers; not checked against print)",
+          "quote": "The casualties of the cavalry will swell the whole loss to 2,500."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "appendix-sabine-pleasant-hill-losses",
+          "locator": "p.472 (OCR page markers; not checked against print)",
+          "quote": "impossible to separate the losses, for each day."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Banks's, A. J. Smith's, Mower's, Emory's and the brigade and regimental reports, Kirby Smith's report (No. 93, quoted by Irwin), Cunningham's narrative (No. 94), Parsons's and Tappan's reports (Nos. 97-98), Bee's report (No. 99) and the returns remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892) is a retrospective history by the former assistant adjutant-general of the corps and of Banks's Department of the Gulf, an interested Union account; it cites the Official Records and gives Taylor's and Kirby Smith's figures, so it is not independent of them. Taylor's April 18, 1864 report, his March 13-14 letters printed as its inclosures, his April 24-May 19 dispatches and his April 11 general order are one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

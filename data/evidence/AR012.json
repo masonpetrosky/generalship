@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "battle_id": "AR012",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Elkin's Ferry (Okolona) record (April 3-4, 1864) in the Camden Expedition [April 1864]. The frozen record also carries the name Okolona. The April 2 rear-guard fight near Okolona and Terre Noir Creek and the April 4 picket fight at Okolona are recorded separately and not added to the ferry fight; the march from Little Rock (from March 23) and Thayer's junction on April 9 are context. Campaign-wide marches, returns, foraging and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 3rd Division, VII Corps and 2 cavalry brigades [US] and 3 cavalry brigades [CS]; the live field reads zero. Price says Steele's column was estimated at 10,000 men of all arms with 25 guns and 400 wagons, and that only some 1,200 Confederates were actually engaged on April 4. Britton says Steele expected about twelve thousand once Thayer joined, and Price's district held three divisions of about twelve thousand; he names Marmaduke's force as Greene's and Cabell's brigades with four guns, and the Union front line as six companies under Drake. Shelby attacked the rear guard on April 2 with fifteen hundred men.",
+      "rationale": "Army-level estimates, an engaged figure from the interested side, and unit identifications that differ from the frozen three brigades; the April 2 figure belongs to a separate action. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR012"
+          },
+          "column": "forces_text",
+          "quote": "3rd Division, VII Corps and 2 cavalry brigades [US]; 3 cavalry brigades [CS]"
+        },
+        {
+          "source_id": "nps-ar012-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.779 (OCR page markers; not checked against print)",
+          "quote": "Their force, commanded by Major-General Steele in person, was estimated at 10,000 men of all arms, with 25 pieces of artillery and a train of 400 wagons, including pontoons."
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "In this affair we had only some 1,200 men actually engaged ;"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "camden-opening",
+          "locator": "p.254 (OCR page markers; not checked against print)",
+          "quote": "When General Thayer joined him he would have about twelve thousand men, infantry, cavalry, and artillery,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "camden-opening",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "consisted of three divisions of about twelve thousand men,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "General Marmaduke followed him with the bal ance of Greene's brigade and General Cabell's brigade and four pieces of artillery,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.265 (OCR page markers; not checked against print)",
+          "quote": "who had been sent forward with three companies of his own regiment and three companies of the Forty-third Indiana Infantry,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "by General Shelby, with fifteen hundred men and two pieces of artillery,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "ford-and-river-bottom",
+      "dimension": "terrain",
+      "value": "NPS says Union forces sought the ford because other roads were impassable. Britton says Carr found the river fordable on April 2, Marmaduke bivouacked on the edge of the Little Missouri bottom, the Union guns fell back across Howard's Creek, and Marmaduke then threw up log-and-earth defences about four miles south. A later rise of about three feet covered the lower bottoms.",
+      "rationale": "Ground and water described by a summary and a history; no map or gauge record. The river's state changed during the operation.",
+      "citations": [
+        {
+          "source_id": "nps-ar012-v1",
+          "locator": "Description",
+          "quote": "Union forces sought a ford to cross the Little Missouri River because other roads were impassible."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "finding the river fordable,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "bivouacked in line that night on the edge of the Little Missouri River bottom"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "was withdrawn across Howard's Creek, a short distance in the rear,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "threw up temporary defences nearly three miles in length, made of logs and earth,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "prairie-dane-and-camden",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "raising the Little Missouri about three feet, so that it covered the lower bottoms,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rain-roads-and-trains",
+      "dimension": "logistics",
+      "value": "Britton says rain soon after leaving Little Rock made the roads heavy and exhausted the mules and artillery horses, and that Rice's brigade guarded the supply and pontoon trains; Price says the column had a train of 400 wagons including pontoons.",
+      "rationale": "Campaign march conditions from a history and an interested estimate; no quartermaster return.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "camden-opening",
+          "locator": "p.254 (OCR page markers; not checked against print)",
+          "quote": "a hard rain made the road very heavy, particularly in the creek and river bottoms, which rapidly exhausted the strength of the mules in the train and the artillery horses."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "commanding the brigade in charge of the supply, pontoon, and brigade trains,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.779 (OCR page markers; not checked against print)",
+          "quote": "a train of 400 wagons, including pontoons."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "deception-and-lost-contact",
+      "dimension": "information",
+      "value": "Britton says Steele could learn nothing of Thayer's division after it left Fort Smith, that the Confederate generals took his march toward Washington as his real objective before he turned to the ferry, that Marmaduke's detachments discovered the Union pickets south of the ford, and that Drake judged the enemy in strong force in his front on the night of the 3rd.",
+      "rationale": "Attributed knowledge from a history; no scouting reports inspected.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "camden-opening",
+          "locator": "p.254 (OCR page markers; not checked against print)",
+          "quote": "he was unable to hear anything about the movements of the Frontier Division after leaving Fort Smith,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.263 (OCR page markers; not checked against print)",
+          "quote": "the Confederate gen erals did not doubt but that his next objective point in the campaign was Washington,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "some of Marmaduke's mounted detachments discovered the Federal pickets near the ford,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.265 (OCR page markers; not checked against print)",
+          "quote": "Colo nel Drake became satisfied that the Confederates were directly in his front in strong force,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "maneuver-and-delay",
+      "dimension": "objectives",
+      "value": "Britton says Steele aimed to maneuver Price out of Camden without a general battle and considered holding the ford so important that Salomon sent a brigade forward; the Confederate policy was to use cavalry to impede the march until the Little Missouri. Price says Shelby was instructed to watch the enemy and, with Dockery's brigade and Wood's battalion, harass his rear.",
+      "rationale": "Stated aims from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.263 (OCR page markers; not checked against print)",
+          "quote": "General Steele determined, if practicable, to manoeuvre the Confederate forces under Price out of Camden and occupy the place without a general battle."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "The holding of the ford was considered so important that General Salomon"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.260 (OCR page markers; not checked against print)",
+          "quote": "to impede the march of the Federal troops as much as possible until they arrived at the Little Missouri River,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.779 (OCR page markers; not checked against print)",
+          "quote": "with in- structions to watch the movements of the enemy, and in conjunction with Dockery’s brigade and Wood’s battalion to harass his rear,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Steele directed Carr to seize the crossing, Drake commanded the troops at the front, and Marmaduke came onto the field to direct his troops in person; Price says Marmaduke attacked on April 4. No inspected passage places Steele on the field during the fight. The frozen commanders are Brigadier General John S. Marmaduke and Major General Frederick Steele; the live page lists Marmaduke without a rank.",
+      "rationale": "Command roles from a history and an interested report; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.263 (OCR page markers; not checked against print)",
+          "quote": "he directed General Carr, commanding the cavalry division, to move forward and occupy a position com manding the crossing"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.265 (OCR page markers; not checked against print)",
+          "quote": "Colonel Drake was ordered to take command of all the troops at the front,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "General Marmaduke came onto the field to direct the operations of his troops in person,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "were at- tacked by Marmaduke and driven back some 3 ijiiles."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR012",
+            "belligerent": "Confederate",
+            "fullname": "John S. Marmaduke"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR012",
+            "belligerent": "US",
+            "fullname": "Frederick Steele"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ar012-v1",
+          "locator": "Principal Commanders",
+          "quote": "John Marmaduke [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Price says the Union troops were driven back some three miles, strewing the road with knapsacks; Britton says the Confederate attack was repulsed and Marmaduke retreated to a position four miles south; NPS says the Confederates tried to stop the crossing without success.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR012"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ar012-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "driven back some 3 ijiiles."
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "The road was strewn with knapsacks abandoned in their flight."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "This repulse of the enemy ended the fight"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "General Marmaduke retreated to a strong position about four miles south of Elkins' Ferry,"
+        },
+        {
+          "source_id": "nps-ar012-v1",
+          "locator": "Description",
+          "quote": "the Confederates attempted to stop them but to no avail."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 92 total (US 38; CS 54); the live field reads 55 (US 26; CS 29). Price claims one stand of colors and small arms taken and says Rice was slightly wounded. Britton gives Rice's loss on April 2 as eight killed and thirty-two wounded, Krez's on April 4 at Okolona as three killed and three wounded, and sixteen Confederates captured on April 3; Price says Shelby killed near 100 and captured 60 (read 'GO') on April 2. No inspected passage gives a total for the ferry fight.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The April 2 and Okolona figures belong to separate actions and are not added.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR012"
+          },
+          "column": "casualties_text",
+          "quote": "92 total (US 38; CS 54)"
+        },
+        {
+          "source_id": "nps-ar012-v1",
+          "locator": "Estimated Casualties",
+          "quote": "55 total (US 26; CS 29;)"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "cap- tured one stand of colors and numbers of small- arms."
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "The Federal General Rice was slightly wounded."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.259 (OCR page markers; not checked against print)",
+          "quote": "General Rice reported his loss dur ing the day at eight killed and thirty-two wounded."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.261 (OCR page markers; not checked against print)",
+          "quote": "Colonel Krez lost three men killed and three wounded."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "okolona-and-elkins-ferry",
+          "locator": "p.265 (OCR page markers; not checked against print)",
+          "quote": "capturing sixteen Confederate soldiers."
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.780 (OCR page markers; not checked against print)",
+          "quote": "killing near 100 and capturing GO, with little loss to himself."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Steele's reports (No. 2), Salomon's, Rice's, McLean's, Norris's, Kittredge's, Drake's and Peetz's reports (Nos. 5-6, 13-16, 18), Engelmann's and Krez's Okolona reports (Nos. 19, 22), Marmaduke's, Greene's and Shelby's reports (Nos. 71-73) and the No. 1 strength table remain deferred.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume II (Putnam's, 1899) is a retrospective history described on its title page as based upon official reports and the author's observations; it gives figures from Union and Confederate reports and incomplete Confederate returns, so it is not independent of the Official Records families. Price's report dated Camden, May 1864 is one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

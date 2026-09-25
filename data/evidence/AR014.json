@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "battle_id": "AR014",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Poison Spring record (April 18, 1864) in the Camden Expedition [April 1864]. The April 17 departure of the forage train and the capture of the steamer Homer are context. Campaign-wide marches, returns, foraging and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigade (1,100 men) [US] and Marmaduke's and Maxey's Divisions [CS], and the frozen US bound is 1,100; the live field reads 1100 (US 1100; CS 0). Britton says the escort was 695 men, joined on the road by Duncan's 383 infantry, 90 cavalry and two howitzers, and that the Confederate force was thirty-seven hundred picked men and twelve guns from Marmaduke's, Cabell's and Maxey's divisions. Price says the train was guarded by about 1,500 men and four guns.",
+      "rationale": "Escort components, an interested estimate and a retrospective count of the attackers; the frozen and live US 1,100 has no inspected basis, the Confederate divisions are named differently, and Britton's components are not summed here. None is adopted as a matched opening strength. The live CS zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR014"
+          },
+          "column": "forces_text",
+          "quote": "Brigade (1,100 men) [US]; Marmaduke's and Maxey's Divisions [CS]"
+        },
+        {
+          "source_id": "nps-ar014-v1",
+          "locator": "Forces Engaged",
+          "quote": "1100 total (US 1100; CS 0;)"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "in all, 695 men."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.281 (OCR page markers; not checked against print)",
+          "quote": "of 383 men of the Eighteenth Iowa Infantry, 90 cavalry of the Second, Sixth, and Fourteenth Kansas Regiments, and two twelve-pounder mountain howitzers"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "the whole force of thirty-seven hundred men and twelve pieces of artillery"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "the divisions of Marmaduke, Cabell, and Maxey,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "guarded by about 1,500 men and four pieces of artillery."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "pine-woods-and-field",
+      "dimension": "terrain",
+      "value": "Britton says the high ground was covered with pine timber that limited sight to about a hundred yards and hid the Union line from the Confederate artillery, that the fight turned on a field of twenty to thirty acres, and that the retreat crossed timber, brush and ravines where the guns had to be abandoned. NPS says Williams's men regrouped in a marsh to the north. Price names the site on the Washington, Munn's Mill and Camden road.",
+      "rationale": "Ground described by a history, a summary and an interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.283 (OCR page markers; not checked against print)",
+          "quote": "making it impossible to see objects more than a hundred yards or so in front."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "the pine woods concealed the exact location of his line from the view of the Confederate artil lery officers."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.283 (OCR page markers; not checked against print)",
+          "quote": "The field may have had twenty to thirty acres in it,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.290 (OCR page markers; not checked against print)",
+          "quote": "over ground cut up by ravines, over which it was impracticable to move artil lery,"
+        },
+        {
+          "source_id": "nps-ar014-v1",
+          "locator": "Description",
+          "quote": "forcing him to retreat north into a marsh where his men regrouped"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "This was at a point on the old Washington, Munn’s Mill, and Camden road known as Poison Spring."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forage-train",
+      "dimension": "logistics",
+      "value": "NPS says dwindling supplies forced Steele to send the foraging party, and Britton that his troops had been on half rations of bread and that the chief quartermaster made up a train of 198 wagons for four to five thousand bushels of corn. Price puts the train at some 225 wagons. Britton says the escort's two guns had nearly exhausted their shell and canister before the last assault. NPS says 198 wagons and all the corn were lost.",
+      "rationale": "Supply statements with differing wagon counts; no quartermaster return inspected.",
+      "citations": [
+        {
+          "source_id": "nps-ar014-v1",
+          "locator": "Description",
+          "quote": "Dwindling supplies for his army at Camden forced Maj. Gen. Fred Steele to send out a foraging party"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "His troops had been on half rations of bread since he started out upon the expe dition,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "made up a train of 198 wagons,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "esti mated at from four to five thousand bushels,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "a foraging train of some 225 wagons,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "having nearly exhausted their shell and canister,"
+        },
+        {
+          "source_id": "nps-ar014-v1",
+          "locator": "Description",
+          "quote": "The Union lost 198 wagons and all the corn."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "watched-train-and-unseen-attackers",
+      "dimension": "information",
+      "value": "Britton says Confederate scouts watched the train from Camden and reported its wagons and escort to Marmaduke, while Williams knew nothing of the Confederate dispositions and expected any attack on the rear; he adds that a cavalry reconnaissance might have discovered Price's forces and that foraging to the front was contrary to general policy.",
+      "rationale": "Attributed knowledge from a history; no scouting reports inspected.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.281 (OCR page markers; not checked against print)",
+          "quote": "The Confederate scouts had watched the movement of the train and escort from the moment they left Camden"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "Colonel Williams knew nothing about these dispositions of the Confederate troops in his front and on his flanks,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "it was thought that if an attack should be made on the train, it would more likely be made on the rear than in front,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.292 (OCR page markers; not checked against print)",
+          "quote": "a cavalry reconnoissance might have discovered it and prevented the Poison Spring disaster."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.281 (OCR page markers; not checked against print)",
+          "quote": "It was contrary to the general policy of military com manders to forage to the front."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "capture-or-defend-the-train",
+      "dimension": "objectives",
+      "value": "Britton says Marmaduke decided to try to capture the train and Williams resolved to defend it as long as possible in hope of help from Camden; Maxey later broke off pursuit to secure the train and guns. Price says dispositions were made to attack the train on its return.",
+      "rationale": "Stated aims from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "it was determined that night by General Marmaduke to make an effort to cap ture the train,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "but he determined to defend the train as long as possible, hoping that the roar of the battle would bring out reinforcements from Cam- den to his assistance."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.290 (OCR page markers; not checked against print)",
+          "quote": "As General Maxey wished to secure the large train and the abandoned guns,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "dispositions were made to attack them on their return,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Maxey, the senior of three brigadier generals, commanded the combined force and ordered Greene's brigade into the centre, and that Thayer detailed Williams to command the escort; Price also names Maxey as commanding. Price reported Williams killed; an editorial footnote calls this a mistake. The frozen commanders are Brigadier Generals John S. Marmaduke and Samuel Bell Maxey and Colonel James M. Williams; the live page lists Marmaduke without rank and Williams.",
+      "rationale": "Command roles from a history and an interested report; the listed commanders do not receive automatic sole credit, and Price's report of Williams's death is preserved as an error flagged by the compiler.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "to be under the command of General S. B. Maxey, the senior officer of the three brigadier-generals who were to direct the movements of the troops."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "General Maxey ordered Greene's bri gade of Marmaduke's division on the right to take position in the centre"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "He directed Colonel James M. Williams, First Kansas Colored Infantry, to take command of the escort,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General Maxey being in command of the expedition."
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "Among the killed was Colonel Williams, who commanded them.*"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "* A mistake. See Williams’ report, p. 743."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR014",
+            "belligerent": "Confederate",
+            "fullname": "John S. Marmaduke"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR014",
+            "belligerent": "Confederate",
+            "fullname": "Samuel Bell Maxey"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR014",
+            "belligerent": "US",
+            "fullname": "James M. Williams"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-ar014-v1",
+          "locator": "Principal Commanders",
+          "quote": "Colonel James Williams [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory and the live result Confederate Victory. Price calls it a perfect success with the whole train, all the artillery and many prisoners taken; Britton says Williams saw the train could not be saved and fell back to Camden.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR014"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ar014-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "This was a perfect success. Their whole train was captured, all their artillery, and a large number of prisoners."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "Colonel Williams now saw that it was impossible to save the train,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 415 total (US 301; CS 114), and the live field agrees. Britton gives the Union loss as 122 killed, 97 wounded and 81 missing, with the First Kansas Colored Infantry losing 117 killed and 65 wounded; Maxey's incomplete returns as 17 killed and 88 wounded; and only 4 Black soldiers reported captured. He says Confederate troops shot wounded Black soldiers on the field and that Cabell reported one regiment killed at least 80. Price claims near 500 Union dead, mostly Black soldiers.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The killing of wounded and captured Black soldiers means Union killed and missing figures are not ordinary combat categories.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR014"
+          },
+          "column": "casualties_text",
+          "quote": "415 total (US 301; CS 114)"
+        },
+        {
+          "source_id": "nps-ar014-v1",
+          "locator": "Estimated Casualties",
+          "quote": "415 total (US 301; CS 114;)"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.291 (OCR page markers; not checked against print)",
+          "quote": "The Federal loss in the battle was 122 men killed, 97 wounded, and 81 missing."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.291 (OCR page markers; not checked against print)",
+          "quote": "the colored regiment had 117 men and officers killed and 65 wounded."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.291 (OCR page markers; not checked against print)",
+          "quote": "at 17 men killed and 88 wounded."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.291 (OCR page markers; not checked against print)",
+          "quote": "His officers reported only 4 colored men captured."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "shooting down the colored wounded soldiers as they came upon any who were left on the field."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "poison-spring",
+          "locator": "p.291 (OCR page markers; not checked against print)",
+          "quote": "killed at least 80 negroes."
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "leaving near 50C dead (mostly negroes) on the field."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Williams's report and the other Union reports on Poison Spring (Nos. 24-33), Maxey's, De Morse's and Tandy Walker's reports (Nos. 75-77), Cabell's and Crawford's reports (Nos. 52, 57), Marmaduke's report (No. 71) and the incomplete casualty return (No. 50) remain deferred.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume II (Putnam's, 1899) is a retrospective history described on its title page as based upon official reports and the author's observations; it gives figures from Union and Confederate reports and incomplete Confederate returns, so it is not independent of the Official Records families. Price's report dated Camden, May 1864 is one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

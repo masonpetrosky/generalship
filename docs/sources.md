@@ -74,6 +74,19 @@ from different campaigns under separate independence groups (for example
 witness family: they never count as independent corroboration of each other, whatever their group
 names.
 
+### Red River and Camden first passes (cohort v2), 2026-09-25
+
+The first passes for the [Red River Campaign](research/red-river-first-pass-v1.md) and the
+[Camden Expedition](research/camden-first-pass-v1.md) add **34 records**:
+
+- twelve NPS HTML/text pairs;
+- Irwin, *History of the Nineteenth Army Corps* (1892), and Britton, *The Civil War on the Border*,
+  volume II (1899): catalog metadata, full OCR and one selection each;
+- Official Records Series I, Volume XXXIV Part 1: catalog metadata, full OCR, and Taylor's and
+  Price's report selections.
+
+No Scribner volume covers either campaign. No model inputs are changed.
+
 ### Franklin-Nashville and Savannah first passes (cohort v2), 2026-09-25
 
 The first passes for [Franklin-Nashville](research/franklin-nashville-first-pass-v1.md) and

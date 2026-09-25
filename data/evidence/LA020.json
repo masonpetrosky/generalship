@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA020",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Blair's Landing record (April 12-13, 1864) in the Red River Campaign [March-April 1864]. The fleet's ascent to Loggy Bayou, Liddell's fire from the east bank and the passage to Grand Ecore on April 14-15 are context; the April 13 firing at Bouledeau Point and Campti lies within the frozen interval but is recorded separately. Campaign-wide marches, returns, river operations and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Provisional division, XVII Army Corps, Army transports, and U.S. Navy Mississippi Squadron [US] and Green's Cavalry Division [CS]; the live field reads zero. Irwin and Taylor identify Green's force as Woods's and Gould's regiments and Parsons's brigade, with four batteries named by Irwin. Irwin says six gunboats convoyed twenty transports bearing Kilby Smith's division; Taylor's report says the fleet was about thirty vessels, only five carrying troops.",
+      "rationale": "Unit identifications and vessel counts that differ; no personnel count for either side. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA020"
+          },
+          "column": "forces_text",
+          "quote": "Provisional division, XVII Army Corps, Army transports, and U.S. Navy Mississippi Squadron [US]; Green's Cavalry Division [CS]"
+        },
+        {
+          "source_id": "nps-la020-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "grand-ecore",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "w^ith Woods's and Gould's regiments and Parsons's brigade of Texans, and the batteries of Nettles, West, Mc- Mahan, and Moseley,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.571 (OCR page markers; not checked against print)",
+          "quote": "with Woods’, Gould’s, and Parsons’ commands, ana engaged the fleet."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "the-red-river",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "convoying and closely followed by a fleet of twenty transports, bearing Kilby Smith's division"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.570 (OCR page markers; not checked against print)",
+          "quote": "the fleet of about thirty vessels, of which only five were loaded with troops"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "river-bend-and-low-water",
+      "dimension": "terrain",
+      "value": "Irwin says Green caught the rear of the transport fleet at a disadvantage in the bend between the high banks, after the fleet had been retarded by low water; Taylor says Bayou Pierre, crossed by ferries, was 300 feet wide at the narrowest and never fordable. NPS says Green found grounded and damaged transports and gunboats.",
+      "rationale": "River and bank conditions from a history, an interested report and a summary; no map or gauge record inspected.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "grand-ecore",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "in the bend between the hi^h banks, Green caught the rear of the transport fleet at a disadvantage."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "grand-ecore",
+          "locator": "p.324 (OCR page markers; not checked against print)",
+          "quote": "constantly retarded by the low stage of water,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.570 (OCR page markers; not checked against print)",
+          "quote": "the stream being 300 feet wide at the narrowest ferry and never fordable."
+        },
+        {
+          "source_id": "nps-la020-v1",
+          "locator": "Description",
+          "quote": "they discovered grounded and damaged Union transports and gunboats,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stores-and-pontoons",
+      "dimension": "logistics",
+      "value": "Irwin says the transports carried Kilby Smith's division and a large quantity of military stores; NPS says the boats carried supplies and armament, that defenders used cotton bales and sacks of oats as cover, and that the convoy brought badly needed supplies to Grand Ecore. Taylor says the want of a pontoon delayed Green's and Bagby's crossings of Bayou Pierre.",
+      "rationale": "Descriptions of cargo and equipment; no manifest or ordnance return.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "the-red-river",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "and a large quantity of military stores of all kinds."
+        },
+        {
+          "source_id": "nps-la020-v1",
+          "locator": "Description",
+          "quote": "with supplies and armament aboard."
+        },
+        {
+          "source_id": "nps-la020-v1",
+          "locator": "Description",
+          "quote": "Hiding behind bales of cotton, sacks of oats, and other ersatz obstructions,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.571 (OCR page markers; not checked against print)",
+          "quote": "namely, the want of a pontoon"
+        },
+        {
+          "source_id": "nps-la020-v1",
+          "locator": "Description",
+          "quote": "providing the army with badly needed supplies."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "news-of-defeat-and-recall",
+      "dimension": "information",
+      "value": "Irwin says a cavalry squadron brought Kilby Smith word of the battles of April 8-9 and Banks's order to return, and that a second, written recall reached him at Coushatta Chute. Taylor says he was certain news of Banks's defeat would send the fleet down and that Green was informed of the fleet's position and movements.",
+      "rationale": "Attributed knowledge from a history and an interested report; no signal or message log inspected.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "grand-ecore",
+          "locator": "p.324 (OCR page markers; not checked against print)",
+          "quote": "rode In with his squadron, bring- ing word of the battles of Sabine Cross- Roads and Pleasant Hill,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "grand-ecore",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "Here Kilby Smith received a second order of recall from Banks, this time in writing,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.570 (OCR page markers; not checked against print)",
+          "quote": "being certain that the intelligence of his defeat on the 8th and 9th would send the fleet down to Grand Ecore."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.571 (OCR page markers; not checked against print)",
+          "quote": "Gen- eral Green was informed of the position and movements of the fleet."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "intercept-or-run-the-river",
+      "dimension": "objectives",
+      "value": "Taylor says the importance of reaching Blair's Landing ahead of the fleet was impressed on Green and that Bagby was sent to Grand Bayou; Irwin says Bagby was sent to cut off the fleet and that the news left the fleet nothing but to go back down the river with all speed. Irwin also judges that Banks would have done better to cover Blair's Landing.",
+      "rationale": "Stated aims from an interested report and a history; Irwin's judgment is retrospective.",
+      "citations": [
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.571 (OCR page markers; not checked against print)",
+          "quote": "The importance of reaching Blair’s Landing in advance of the fleet was impressed upon him."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "grand-ecore",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "Taylor now sent Bagby across from Mansfield to Grand Bayou with his brigade and Barnes's batter>^ to cut off the fleet."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "grand-ecore",
+          "locator": "p.324 (OCR page markers; not checked against print)",
+          "quote": "the bad news made It i clear that nothinor remained to be done but to 1/0 back dowm the river with all speed."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "pleasant-hill",
+          "locator": "p.313 (OCR page markers; not checked against print)",
+          "quote": "it would have been far better to cover Blair's Landing and thus make sure of the safety as well as the support of the gunboats and of Kilby Smith."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Taylor says Green marched for Blair's Landing on the evening of the 11th and styles him Major General; Irwin says Kilby Smith and Porter responded to the attack together; NPS credits Smith's men with ingenuity in defending the boats. Taylor says Liddell engaged the fleet from the east bank on the 11th-13th. The frozen commanders are Brigadier General Tom Green, Brigadier General Thomas Kilby Smith and Rear Admiral David D. Porter; the live page lists Green and Thomas Smith, both as Brigadier General.",
+      "rationale": "Command roles from an interested report, a history and a summary; the listed commanders do not receive automatic sole credit, and no rank is adopted.",
+      "citations": [
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.571 (OCR page markers; not checked against print)",
+          "quote": "Green with his usual energy marched from Pleasant Hill for Blair’s Landing at G p. m. of the 11th."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.564 (OCR page markers; not checked against print)",
+          "quote": "Maj. Gen. Thomas Green,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "grand-ecore",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "Instantly Kilby Smith and Porter responded and a sharp fight followed,"
+        },
+        {
+          "source_id": "nps-la020-v1",
+          "locator": "Description",
+          "quote": "Smith's men used great ingenuity in defending the boats and dispersing the enemy."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.571 (OCR page markers; not checked against print)",
+          "quote": "Liddell, on the east bank, was, during the 11th, 12th, and 13th, actively engaged with the fleet,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA020",
+            "belligerent": "Confederate",
+            "fullname": "Tom Green"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA020",
+            "belligerent": "US",
+            "fullname": "Thomas Kilby Smith"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA020",
+            "belligerent": "US",
+            "fullname": "David D. Porter"
+          },
+          "column": "rank",
+          "quote": "Rear Admiral"
+        },
+        {
+          "source_id": "nps-la020-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Thomas Green [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Irwin says Kilby Smith and Porter drove off the attackers by sunset without great loss; Taylor says the loss on the crowded transports was terrible and that the whole fleet would have been captured but for Green's death; NPS says the Confederates withdrew and most transports continued downriver.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA020"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-la020-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "grand-ecore",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "by sunset they suc- ceeded, without great loss, in driving off their assail- ants."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.571 (OCR page markers; not checked against print)",
+          "quote": "it is believed that the result would have been the capture of the 'whole fleet but for the unfortunate fall of the noble Green,"
+        },
+        {
+          "source_id": "nps-la020-v1",
+          "locator": "Description",
+          "quote": "The Confederates withdrew and most of the Union transports continued downriver."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 207 total (US 7; CS 200); the live field reads 117 (US 60; CS 57). Irwin says Kilby Smith's division lost 19 above Grand Ecore, a figure covering the whole voyage, and that Porter mentions only one; Green was among the Confederate killed. Taylor calls the loss on the transports terrible and says several raised the white flag.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Irwin's 19 covers the voyage above Grand Ecore, not only April 12-13.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA020"
+          },
+          "column": "casualties_text",
+          "quote": "207 total (US 7; CS 200)"
+        },
+        {
+          "source_id": "nps-la020-v1",
+          "locator": "Estimated Casualties",
+          "quote": "117 total (US 60; CS 57;)"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "grand-ecore",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "division above Grand Ecore were but 19, and Porter mentions only one."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "grand-ecore",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "Chief among- the Confederate killed was the brave, Impetuous, and Indomitable Green."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.571 (OCR page markers; not checked against print)",
+          "quote": "The loss inflicted upon the crowded transports of the enemy was terrible."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.571 (OCR page markers; not checked against print)",
+          "quote": "Several times the transports raised the white flag,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "T. Kilby Smith's and his subordinates' reports (Nos. 56-59), Hinkle's report (No. 64), Liddell's report (No. 105), Porter's and the other naval reports (Annual Report of the Secretary of the Navy, 1864, not in this volume) and any report for Green's command remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892) is a retrospective history by the former assistant adjutant-general of the corps and of Banks's Department of the Gulf, an interested Union account; it cites the Official Records and gives Taylor's and Kirby Smith's figures, so it is not independent of them. Taylor's April 18, 1864 report, his March 13-14 letters printed as its inclosures, his April 24-May 19 dispatches and his April 11 general order are one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

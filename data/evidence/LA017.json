@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA017",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort DeRussy record (March 14, 1864) in the Red River Campaign [March-April 1864]. The March 12-13 landing at Simsport, Walker's withdrawal and the March 15-16 occupation of Alexandria are context. Campaign-wide marches, returns, river operations and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 3rd Division, XVI Army Corps [US] and Fort DeRussy Garrison (approx. 350 men) [CS], and the frozen CS bound is 350; the live force field reads zero, and the live description gives a garrison of 350. Irwin says Sherman's contingent was two divisions of the Sixteenth Corps under Mower with Kilby Smith's division, all under A. J. Smith, that Mower arrived before the fort, and that the brigades of Lynch and Shaw carried it; he puts A. J. Smith's force at about 9,000 for duty at the end of March. Taylor's 10 p.m. letter of March 13 reports Walker's news of a largely superior enemy force at Moreauville.",
+      "rationale": "Unit identifications, a garrison figure without an inspected basis and a later campaign figure; the frozen US unit is one division while Irwin names two divisions under Mower. No count of the assaulting force. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA017"
+          },
+          "column": "forces_text",
+          "quote": "3rd Division, XVI Army Corps [US]; Fort DeRussy Garrison (approx. 350 men) [CS]"
+        },
+        {
+          "source_id": "nps-la017-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-la017-v1",
+          "locator": "Description",
+          "quote": "the enemy garrison of 350 men opened fire."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "the-red-river",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "made up of two divisions of the Sixteenth Corps, united under Mower, with Kilby Smith's division of the Seventeenth Corps, and the command of the whole he gave to A. J. Smith."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "the-red-river",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "just be- fore nightfall the brigades of Lynch and Shaw swept over the parapet and forced a surrender,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "the-red-river",
+          "locator": "p.292 (OCR page markers; not checked against print)",
+          "quote": "9,000 under A. J. Smith,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-03-13-to-douglas-10pm",
+          "locator": "p.576 (OCR page markers; not checked against print)",
+          "quote": "Dispatches just received from General Walker announce a largely superior force of the enemy in his front at Moreauville."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fort-and-approach",
+      "dimension": "terrain",
+      "value": "NPS describes an earthen fortification with a partly iron-plated battery designed to resist Union ironclads. Irwin says the fort lay twenty-eight miles from the landing by land and nearly seventy by the river, and that the navy broke through a raft nine miles below it. Taylor wrote that the river works would resist a boat attack but the land approach was the dangerous one, and later reported that the place was taken by a land attack before the gunboats appeared.",
+      "rationale": "Ground and works described by a summary, a history and interested letters; no map verification. The works predate the action, but their state on March 14 is unestablished, so the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "nps-la017-v1",
+          "locator": "Description",
+          "quote": "an earthen fortification with a partly iron-plated battery designed to resist the fire of Union ironclads"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "the-red-river",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "distant by land twenty- eight miles, although by the windings of the river nearly seventy."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "the-red-river",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "burst through the formidable raft nine miles below Fort De Russy,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "The place was taken by a land attack, the gun-boats not making their appearance until after the surrender."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "garrison-supply-and-guns",
+      "dimension": "logistics",
+      "value": "Taylor wrote on March 14 that the fort held an ample supply of provisions and all the ammunition suited to its guns, and that labor on the works would continue to the last moment. Inclosure F, signed by his chief of artillery, lists the guns lost (among them two 9-inch Dahlgrens) as mounted and equipped with an average of over 100 rounds per gun and 60,000 Enfield cartridges. Irwin says A. J. Smith embarked at Vicksburg on nineteen river transports.",
+      "rationale": "Pre-action supply statements and a post-loss ordnance list from the interested side; not a supply return for the attackers.",
+      "citations": [
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-inclosure-d-1864-03-14",
+          "locator": "p.575 (OCR page markers; not checked against print)",
+          "quote": "An ample supply of provisions is in the fort, and all the ammunition we have suited to the guns."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-inclosure-d-1864-03-14",
+          "locator": "p.575 (OCR page markers; not checked against print)",
+          "quote": "Directions have been given to labor on the works to the last possible moment."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-inclosure-f-1864-04-14",
+          "locator": "p.578 (OCR page markers; not checked against print)",
+          "quote": "9-inch Dahlgren guns 2"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-inclosure-f-1864-04-14",
+          "locator": "p.579 (OCR page markers; not checked against print)",
+          "quote": "provided on an average with over 100 rounds per gun,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-inclosure-f-1864-04-14",
+          "locator": "p.579 (OCR page markers; not checked against print)",
+          "quote": "Enfield rifle cartridges 60, 000"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "the-red-river",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "an admirably organized fleet of nineteen river transports,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "estimates-of-the-landing",
+      "dimension": "information",
+      "value": "Taylor's April 18 report says Walker lacked mounted means of gaining information from March 12 to 15, yet his estimate of the force in his front proved more correct than Taylor's own; on March 13 Taylor asked Walker for as correct an estimate as possible of the enemy's strength and direction. Irwin says Smith and Porter naturally supposed Banks's troops were marching up the Teche. NPS says Smith sent troops out on the 13th to learn whether any enemy was in their path.",
+      "rationale": "Attributed knowledge from interested letters, a history and a summary; no reconnaissance reports inspected.",
+      "citations": [
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "Consequently he was without means of gaining information from the 12th to the 15th, but sub- sequent events prove his estimate of the force in his front to have been more correct than mine."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-03-13-to-walker-10pm",
+          "locator": "p.578 (OCR page markers; not checked against print)",
+          "quote": "Try and obtain as correct an estimate as possible of the enemy’s strength, and whether he comes from down the river or not."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "the-red-river",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "Naturally sup- posing that Banks's troops were in march up the Teche toward the point of meeting,"
+        },
+        {
+          "source_id": "nps-la017-v1",
+          "locator": "Description",
+          "quote": "Smith sent out some troops on the morning of the 13th to determine if any enemy was in their path."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "hold-or-save-the-garrison",
+      "dimension": "objectives",
+      "value": "Irwin says Smith and Porter determined to take or turn Fort De Russy and push on to Alexandria. Taylor wrote on March 13 that the place must be held if able to resist a coup, but that if it was not tenable the garrison should not be sacrificed, and on March 14 that having committed to its defense they must take the risk. Irwin says Walker concentrated on the Bayou De Glaize rather than be shut up at Marksville.",
+      "rationale": "Stated aims from a history and interested letters written before the assault.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "the-red-river",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "Smith and Porter determined at once to take or turn Fort De Russy, and then to push on to Alexandria."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-03-13-to-douglas-10pm",
+          "locator": "p.576 (OCR page markers; not checked against print)",
+          "quote": "the place must be held if able to resist a coup."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-03-13-to-walker-10pm",
+          "locator": "p.578 (OCR page markers; not checked against print)",
+          "quote": "If the fort is not tenable I at all for the garrison it should not be sacrificed,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-inclosure-d-1864-03-14",
+          "locator": "p.575 (OCR page markers; not checked against print)",
+          "quote": "having committed ourselves to the defense of that point we mu^ take the risk."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "the-red-river",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "to avoid being shut up in the elbow at Marksville,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "NPS says A. J. Smith decided to use Mower's division, ordered the charge about 6:30 p.m., and Mower's men scaled the parapet; Irwin says Mower arrived before the fort and the brigades of Lynch and Shaw carried it. Taylor asked that Colonel Byrd keep courier communication open. The frozen commanders are Lieutenant Colonel William Byrd, Brigadier General A. J. Smith and Brigadier General Joseph A. Mower; the live page gives Andrew Smith as Major General and does not list Mower.",
+      "rationale": "Command roles from a summary, a history and an interested letter; the listed commanders do not receive automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "nps-la017-v1",
+          "locator": "Description",
+          "quote": "Smith decided to use Mower's division, XVI Army Corps, to take the fort"
+        },
+        {
+          "source_id": "nps-la017-v1",
+          "locator": "Description",
+          "quote": "Around 6:30 pm, Smith ordered a charge on the fort and about twenty minutes later, Mower's men scaled the parapet,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "the-red-river",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "On the afternoon of the 14th, Mower arrived before Fort De Russy,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-03-13-to-douglas-10pm",
+          "locator": "p.576 (OCR page markers; not checked against print)",
+          "quote": "Tell Colonel Byrd, for me, to arrange with the couriers to preserve communication with this point as long as possible."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA017",
+            "belligerent": "Confederate",
+            "fullname": "William Byrd"
+          },
+          "column": "rank",
+          "quote": "Lieutenant Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA017",
+            "belligerent": "US",
+            "fullname": "A.J. Smith"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA017",
+            "belligerent": "US",
+            "fullname": "Joseph A. Mower"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-la017-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Andrew Smith [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Irwin and NPS say the garrison surrendered to the assault; Taylor, from enemy accounts, says the fort surrendered after two hours' resistance.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. NPS's statement that the river to Alexandria was open is campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA017"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-la017-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "the-red-river",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "forced a surrender,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "From enemy’s accounts it appears that Fort De Russy surrendered after two hours’ resistance,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 317 total (US 48; CS 269), and the live field agrees. Irwin gives the attackers' loss as 3 killed and 35 wounded and the captures as 25 officers, 292 men and ten guns. Taylor, from enemy accounts, gives 4 killed and 30 wounded for the Union and 5 killed and 4 wounded for the garrison, and says the enemy claimed 200 prisoners; his inclosure lists the guns lost.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA017"
+          },
+          "column": "casualties_text",
+          "quote": "317 total (US 48; CS 269)"
+        },
+        {
+          "source_id": "nps-la017-v1",
+          "locator": "Estimated Casualties",
+          "quote": "317 total (US 48; CS 269;)"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "the-red-river",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "with a loss of 3 killed and 35 wounded. The captures included 25 officers and 292 men, and ten guns,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "with a loss to him of 4 killed and 30 wounded, and to us 5 killed and 4 wounded."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-04-18",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "The enemy claims 200 prisoners."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "A. J. Smith's, Mower's, Lynch's, Shaw's and the regimental reports (Nos. 30, 31, 38-49), Walker's report (No. 96), Byrd's report if any, the naval reports and the garrison return remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892) is a retrospective history by the former assistant adjutant-general of the corps and of Banks's Department of the Gulf, an interested Union account; it cites the Official Records and gives Taylor's and Kirby Smith's figures, so it is not independent of them. Taylor's April 18, 1864 report, his March 13-14 letters printed as its inclosures, his April 24-May 19 dispatches and his April 11 general order are one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

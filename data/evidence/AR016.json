@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "battle_id": "AR016",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Jenkins' Ferry record (April 30, 1864) in the Camden Expedition [April 1864]. The April 29 rear-guard skirmishing near the Saline bottom and the retreat to Little Rock (May 3) are context. Campaign-wide marches, returns, foraging and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Department of Arkansas [US] and Army of Arkansas [CS]; the live field reads zero. Britton says Steele had not more than 4000 men on the field and that Kirby Smith, with ten brigades, must have had nearly 10,000 at an estimated 1,000 per brigade; he says the three infantry divisions from Louisiana numbered about eight thousand on arrival near Camden. Price says Churchill's division fought greatly outnumbered.",
+      "rationale": "Retrospective estimates, one derived from an assumed brigade strength, and an interested statement; no return. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR016"
+          },
+          "column": "forces_text",
+          "quote": "Department of Arkansas [US]; Army of Arkansas [CS]"
+        },
+        {
+          "source_id": "nps-ar016-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.309 (OCR page markers; not checked against print)",
+          "quote": "General Steele did not have more than 4000 men on the field,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.309 (OCR page markers; not checked against print)",
+          "quote": "estimating 1000 men to the brigade, which is a very low estimate, he must have had nearly 10,000 men in the battle."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "marks-mills",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "numbering about eight thousand men"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.782 (OCR page markers; not checked against print)",
+          "quote": "this division maintained the unequal contest greatly outnumbered by the enemy."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "flooded-bottom-between-bayou-and-swamp",
+      "dimension": "terrain",
+      "value": "NPS says the Saline was swollen by heavy rain. Price describes swampy ground with dense woods and undergrowth, and boggy ground almost impassable for guns. Britton says the Union right rested on Toxie Creek and the left on a flooded swamp, so the attackers had to cross an open field.",
+      "rationale": "Ground and weather described by a summary, an interested report and a history; no map verification.",
+      "citations": [
+        {
+          "source_id": "nps-ar016-v1",
+          "locator": "Description",
+          "quote": "which was swollen by heavy rain."
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.782 (OCR page markers; not checked against print)",
+          "quote": "The nature of the ground, swampy, with dense woods and undergrowth, rendered the movements of the troops very difficult,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.782 (OCR page markers; not checked against print)",
+          "quote": "The boggy ground was almost impassable,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.300 (OCR page markers; not checked against print)",
+          "quote": "his right flank was protected by a deep, narrow stream, or bayou, known as Toxie Creek,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.309 (OCR page markers; not checked against print)",
+          "quote": "The bayou on their right and the swamp on their left made it necessary for the enemy to approach their position across the open field."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-ammunition-and-mud",
+      "dimension": "logistics",
+      "value": "Britton says the pontoon bridge was laid in under three hours, the Union rations were exhausted that morning, men used sixty to one hundred rounds each, and many wagons stuck in the mud were abandoned; NPS says many wagons were abandoned in the swamp. Price says his infantry's ammunition gave out and his line fell back.",
+      "rationale": "Retrospective and interested statements; no ordnance or quartermaster return.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "the pon toon train was hurried up and the pontoon bridge laid in less than three hours."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.307 (OCR page markers; not checked against print)",
+          "quote": "for their rations were exhausted that morning,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.309 (OCR page markers; not checked against print)",
+          "quote": "his men used sixty to one hundred rounds of cartridges each during the fight."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.310 (OCR page markers; not checked against print)",
+          "quote": "A large number of wagons, therefore, got hopelessly stuck in the mud and were abandoned."
+        },
+        {
+          "source_id": "nps-ar016-v1",
+          "locator": "Description",
+          "quote": "many of which they were compelled to abandon in the swamp north of Saline."
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.782 (OCR page markers; not checked against print)",
+          "quote": "The ammunition of the infantry giving out, my whole line was retired to the foot of the hill in our rear."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "unknown-pursuers",
+      "dimension": "information",
+      "value": "Britton says the rear guard had captured no one who could tell the strength or commander of the pursuing force, and that Steele supposed it was Fagan's. Price says volunteers had to reconnoiter the Union position and that a section of Ruffner's battery, mistaking the enemy's line for its own, was pushed forward and lost.",
+      "rationale": "Attributed knowledge from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.299 (OCR page markers; not checked against print)",
+          "quote": "his rear-guard had not captured any of the enemy from whom he could obtain information as to the strength of the forces in his rear, and who was in command of them."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.299 (OCR page markers; not checked against print)",
+          "quote": "General Steele supposed that they were General Pagan's troops,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.784 (OCR page markers; not checked against print)",
+          "quote": "responding with alacrity to a call for vol- unteers to reconnoiter the enemy’s position,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.782 (OCR page markers; not checked against print)",
+          "quote": "mistaking the line of the enemy for our own troops,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cross-or-catch",
+      "dimension": "objectives",
+      "value": "Britton says the Union council resolved to evacuate Camden and fall back to Little Rock, and that Salomon was left on the west bank to cover the crossing of the trains; Kirby Smith and Price pursued hoping to overtake the army before it crossed the Saline.",
+      "rationale": "Stated aims from a history.",
+      "citations": [
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "it was the opinion of nearly all the general officers present that the army should evacuate Camden and abandon the line of the Washita at once and fall back to Little Rock;"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.300 (OCR page markers; not checked against print)",
+          "quote": "General Salomon, commanding the Third Division, was left on the west side to cover the crossing of these trains,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "hoping to overtake it before it crossed the Saline River."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Price says Kirby Smith assumed command of the Army of Arkansas in person on April 26 and conducted its later operations, Price commanding the Arkansas and Missouri infantry divisions. Britton says Kirby Smith sent Dockery north of Toxie Creek and still had Walker's division to commit, that Rice posted the Union line, and that Steele sent Salomon three regiments. The frozen commanders are General E. Kirby Smith and Major General Frederick Steele; the live page gives Edmund Smith as Lieutenant General.",
+      "rationale": "Command roles from an interested report and a history; the listed commanders do not receive automatic sole credit, and no rank is adopted.",
+      "citations": [
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.782 (OCR page markers; not checked against print)",
+          "quote": "General Smith had on April 26 assumed command of the Army of Arkansas in person, and I was assigned to the immediate command of the Arkansas and Missouri divisions of infantry,"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.782 (OCR page markers; not checked against print)",
+          "quote": "afterward conducted by the general commanding."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.301 (OCR page markers; not checked against print)",
+          "quote": "Dockery's brigade was detached by Gen eral Smith to advance down on the north side of Toxie Creek"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.305 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant-General Smith still had Major-General J. G. Walker's Texas division of infantry,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.301 (OCR page markers; not checked against print)",
+          "quote": "had posted his troops with excellent judgment,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.302 (OCR page markers; not checked against print)",
+          "quote": "at the request of General Salomon, General Steele sent back to him three regiments,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR016",
+            "belligerent": "Confederate",
+            "fullname": "E. Kirby Smith"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR016",
+            "belligerent": "US",
+            "fullname": "Frederick Steele"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ar016-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant General Edmund Smith [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory in retreat and the live result Union Victory. Price says the enemy yielded the ground, leaving dead, wounded, wagons and pontoons; Britton says Steele repulsed every assault and then withdrew across the river unmolested; NPS says the Federals repulsed the attacks and crossed.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. NPS's statement that the Confederates bungled a chance to destroy Steele's army is a counterfactual judgment.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR016"
+          },
+          "column": "results_text",
+          "quote": "Union victory in retreat"
+        },
+        {
+          "source_id": "nps-ar016-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.783 (OCR page markers; not checked against print)",
+          "quote": "when the enemy yielded the ground, leaving his dead and wounded; many wagons,"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.308 (OCR page markers; not checked against print)",
+          "quote": "Having effectively repulsed every assault of the Con federates, and being in no condition to assume the offensive, General Steele withdrew his troops from the field,"
+        },
+        {
+          "source_id": "nps-ar016-v1",
+          "locator": "Description",
+          "quote": "The Federals repulsed the attacks and finally crossed with all their men and supply wagons,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 964 total (US 521; CS 443); the live field reads 1700 (US 700; CS 1000). Britton gives the Union loss as 86 killed, 500 wounded and 61 missing; cites Cunningham for a Confederate loss of about 800 killed and wounded; gives incomplete returns for Price's three divisions of 99 killed and 437 wounded; and guesses Walker's loss was nearly as large. Price says two guns of Ruffner's battery were lost.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR016"
+          },
+          "column": "casualties_text",
+          "quote": "964 total (US 521; CS 443)"
+        },
+        {
+          "source_id": "nps-ar016-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1700 total (US 700; CS 1000;)"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.308 (OCR page markers; not checked against print)",
+          "quote": "The Federal loss in the battle was 86 men killed, 500 wounded, and 61 missing."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.308 (OCR page markers; not checked against print)",
+          "quote": "stated that the Confederate loss was about 800 killed and wounded."
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.308 (OCR page markers; not checked against print)",
+          "quote": "Incomplete returns of casual ties of Price's three divisions show a loss of 99 killed and"
+        },
+        {
+          "source_id": "britton-camden-selections-v1",
+          "section": "jenkins-ferry",
+          "locator": "p.309 (OCR page markers; not checked against print)",
+          "quote": "437 wounded. The loss in Walker's veteran division was probably nearly as large"
+        },
+        {
+          "source_id": "or34-1-price-camden-selections-v1",
+          "section": "price-1864-05",
+          "locator": "p.782 (OCR page markers; not checked against print)",
+          "quote": "the two guns were lost."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Steele's reports (No. 2), Salomon's, Rice's, Garrett's and Crawford's reports (Nos. 5-6, 21, 34), Kirby Smith's report (No. 93), Cunningham's narrative (No. 94), Churchill's, Tappan's, Parsons's, Clark's, Waul's and the other Confederate reports (Nos. 58-70) and the incomplete returns remain deferred.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume II (Putnam's, 1899) is a retrospective history described on its title page as based upon official reports and the author's observations; it gives figures from Union and Confederate reports and incomplete Confederate returns, so it is not independent of the Official Records families. Price's report dated Camden, May 1864 is one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA023",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Yellow Bayou (Norwood's Plantation) record (May 18, 1864) in the Red River Campaign [March-April 1864]. The frozen campaign label reads March-April 1864 and the live date field reads 'March-April 1864'; neither replaces the record's frozen dates. The May 17 fighting near Moreauville and the May 19-20 crossing of the Atchafalaya are context. Campaign-wide marches, returns, river operations and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 1st and 3rd Divisions, XVI Army Corps [US] and District of Western Louisiana [CS]; the live field reads zero. Irwin says A. J. Smith's command held the position near Yellow Bayou when Taylor attacked with his whole force; Taylor's May 19 dispatch says he fought fresh troops recently arrived from Texas. On May 10 Taylor put his own force at scarce 6,000.",
+      "rationale": "The Union force is identified differently by Irwin and Taylor; the only numerical figure is Taylor's own from eight days earlier. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA023"
+          },
+          "column": "forces_text",
+          "quote": "1st and 3rd Divisions, XVI Army Corps [US]; District of Western Louisiana [CS]"
+        },
+        {
+          "source_id": "nps-la023-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.346 (OCR page markers; not checked against print)",
+          "quote": "A. J. Smith's command was in position near Yellow Bayou to cover the cross- ing of the Atchafalaya,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.346 (OCR page markers; not checked against print)",
+          "quote": "when Taylor suddenly attacked with his whole force."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-19",
+          "locator": "p.594 (OCR page markers; not checked against print)",
+          "quote": "between my forces and the fresh troops of the enemy recently arrived from Texas."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-10",
+          "locator": "p.590 (OCR page markers; not checked against print)",
+          "quote": "with my little force of scarce 6,000 men,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "bayou-swamp-and-flooded-river",
+      "dimension": "terrain",
+      "value": "Taylor says his left near the De Glaize was severely repulsed and that the Union rear had no exit except by the De Glaize road through swamps; Irwin says the Atchafalaya was swollen to six or seven hundred yards by backwater; NPS says the fighting ended when the ground cover caught fire.",
+      "rationale": "Ground described by interested dispatches, a history and a summary; no map verification.",
+      "citations": [
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-19",
+          "locator": "p.594 (OCR page markers; not checked against print)",
+          "quote": "On the left, near the De Glaize, we were severely repulsed"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-18",
+          "locator": "p.594 (OCR page markers; not checked against print)",
+          "quote": "as there was no exit except by the De Glaize road,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.346 (OCR page markers; not checked against print)",
+          "quote": "it was now swollen to a width of six hundred or seven hundred yards by the back water from the Mississippi,"
+        },
+        {
+          "source_id": "nps-la023-v1",
+          "locator": "Description",
+          "quote": "until the ground cover caught fire forcing both sides to retire."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "bridge-of-steamboats",
+      "dimension": "logistics",
+      "value": "Irwin says Bailey improvised a bridge of twenty-two steamboats across the Atchafalaya at Simmesport; NPS says Banks had to wait for the engineers to build a bridge. Taylor says Confederate cavalry had attacked the wagon train near Yellow Bayou on the 17th, and on the 19th that the limits of human and equine endurance had been reached.",
+      "rationale": "Crossing and train descriptions; no transport or supply return.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.346 (OCR page markers; not checked against print)",
+          "quote": "improvising a bridge of steamboats across the Atchafalaya."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.347 (OCR page markers; not checked against print)",
+          "quote": "now required twenty-two boats to close the gap."
+        },
+        {
+          "source_id": "nps-la023-v1",
+          "locator": "Description",
+          "quote": "But, he had to wait to cross the river until the army engineers constructed a bridge."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-18",
+          "locator": "p.594 (OCR page markers; not checked against print)",
+          "quote": "cut in on the wagon train near Yellow Bayou, dispersed the negro guard,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-19",
+          "locator": "p.595 (OCR page markers; not checked against print)",
+          "quote": "The limits of human and equine endurance have been reached."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reports-of-the-attack",
+      "dimension": "information",
+      "value": "NPS says Banks learned on the 18th that Taylor was near Yellow Bayou and ordered A. J. Smith to stop him. Irwin says Mower, commanding in Smith's absence, advanced as soon as his skirmishers came in. Taylor identified his opponents as fresh troops from Texas, which differs from the Sixteenth Corps named by Irwin and the frozen record.",
+      "rationale": "Attributed knowledge from a summary, a history and an interested dispatch; Taylor's identification is preserved, not adopted.",
+      "citations": [
+        {
+          "source_id": "nps-la023-v1",
+          "locator": "Description",
+          "quote": "On the 18th, Banks learned that Maj. Gen. Richard Taylor's force was near Yellow Bayou so he ordered Brig. Gen. A.J. Smith to stop them."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.346 (OCR page markers; not checked against print)",
+          "quote": "advanced his lines as soon as he found his skirmishers coming in,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-19",
+          "locator": "p.594 (OCR page markers; not checked against print)",
+          "quote": "the fresh troops of the enemy recently arrived from Texas."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cover-the-crossing",
+      "dimension": "objectives",
+      "value": "Irwin says A. J. Smith's command was posted to cover the crossing of the Atchafalaya, and NPS that the far bank would shield Banks from Confederate harassment. Taylor wrote on the 18th that he would continue operations as long as the enemy was within reach and that the campaign would probably close that day at Simsport.",
+      "rationale": "Stated aims from a history, a summary and an interested dispatch.",
+      "citations": [
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.346 (OCR page markers; not checked against print)",
+          "quote": "to cover the cross- ing of the Atchafalaya,"
+        },
+        {
+          "source_id": "nps-la023-v1",
+          "locator": "Description",
+          "quote": "Once on the other side of the river he would be shielded from the continuous Confederate harassment."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-18",
+          "locator": "p.594 (OCR page markers; not checked against print)",
+          "quote": "will continue them as long as the enemy is within reach."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-18",
+          "locator": "p.594 (OCR page markers; not checked against print)",
+          "quote": "The campaign will probably close to-day at Simsport,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "NPS and Irwin say that with A. J. Smith absent at the landing Mower commanded and drove the Confederates off; Taylor says Polignac restored order in his left brigade. The frozen commanders are Major General Richard Taylor and Brigadier General Joseph A. Mower, as on the live page.",
+      "rationale": "Command roles from a summary, a history and an interested dispatch; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "nps-la023-v1",
+          "locator": "Description",
+          "quote": "Since Smith could not comply himself, he ordered Brig. Gen. Joseph A. Mower to meet Taylor."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.346 (OCR page markers; not checked against print)",
+          "quote": "Mower, who com- manded in Smith's absence,"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.346 (OCR page markers; not checked against print)",
+          "quote": "Mower finally drove the Confederates off the field in confusion and with heavy loss,"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-19",
+          "locator": "p.594 (OCR page markers; not checked against print)",
+          "quote": "General Polignac restored order in his left brigade after a^time,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA023",
+            "belligerent": "Confederate",
+            "fullname": "Richard Taylor"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA023",
+            "belligerent": "US",
+            "fullname": "Joseph A. Mower"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union strategic victory and the live result Union Victory (strategic). Taylor says his men held the field, the enemy falling back at once and leaving 30 dead; Irwin says Mower drove the Confederates off the field in confusion; NPS says the see-saw action ended when the ground cover caught fire and both sides retired.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The frozen 'strategic' qualifier and NPS's escape statement are campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA023"
+          },
+          "column": "results_text",
+          "quote": "Union strategic victory"
+        },
+        {
+          "source_id": "nps-la023-v1",
+          "locator": "Results",
+          "quote": "Union Victory (strategic)"
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-19",
+          "locator": "p.594 (OCR page markers; not checked against print)",
+          "quote": "We held the field, on which the enemy, who fell back at once, left 30 dead."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.346 (OCR page markers; not checked against print)",
+          "quote": "Mower finally drove the Confederates off the field in confusion"
+        },
+        {
+          "source_id": "nps-la023-v1",
+          "locator": "Description",
+          "quote": "This see-saw action continued for several hours until the ground cover caught fire forcing both sides to retire."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 860 total (US 360; CS 500), and the live field agrees. Irwin gives Mower's loss as 38 killed, 226 wounded and 3 missing, 267 in all; Taylor's loss as about 500 by his own report; and 452 killed and wounded by the Confederate returns. Taylor's dispatch puts his loss at 500, with 30 killed, 50 severely wounded and some hundred prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA023"
+          },
+          "column": "casualties_text",
+          "quote": "860 total (US 360; CS 500)"
+        },
+        {
+          "source_id": "nps-la023-v1",
+          "locator": "Estimated Casualties",
+          "quote": "860 total (US 360; CS 500;)"
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.346 (OCR page markers; not checked against print)",
+          "quote": "Mower's loss was 38 killed, 226 wounded, and 3 missing, in all 267."
+        },
+        {
+          "source_id": "irwin-red-river-selections-v1",
+          "section": "last-days",
+          "locator": "p.346 (OCR page markers; not checked against print)",
+          "quote": "The Confederate returns account for 452 killed and wounded."
+        },
+        {
+          "source_id": "or34-1-taylor-red-river-selections-v1",
+          "section": "taylor-1864-05-19",
+          "locator": "p.594 (OCR page markers; not checked against print)",
+          "quote": "Our loss will reach 500, of which 30 were killed, 50 severely wounded, and some hundred prisoners taken from the left brigade."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "A. J. Smith's and Mower's reports (Nos. 30-31), Hill's, Lynch's, Kinney's, Shaw's and the regimental Yellow Bayou reports (Nos. 34, 37-51), Faries's report (No. 103), the Confederate returns cited by Irwin and W. Steele's report remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892) is a retrospective history by the former assistant adjutant-general of the corps and of Banks's Department of the Gulf, an interested Union account; it cites the Official Records and gives Taylor's and Kirby Smith's figures, so it is not independent of them. Taylor's April 18, 1864 report, his March 13-14 letters printed as its inclosures, his April 24-May 19 dispatches and his April 11 general order are one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
