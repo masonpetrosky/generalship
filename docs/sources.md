@@ -68,6 +68,18 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Goldsboro first pass, 2026-09-24
+
+The [three-record memo](research/goldsboro-first-pass-v1.md) adds **10 records**,
+bringing the registry to **337 entries / 334 raw paths**, preserving the previous
+**327/324**. Three NPS battle HTML/text pairs remain in the NPS/CWSAC family. Official
+Records Series I, Volume XVIII (Illinois scan) adds catalog metadata and full OCR in
+an `or-series-i-volume-xviii` container, and two sectioned report selections:
+Foster's three reports (`foster-goldsborough-reports`) and G. W. Smith's five
+(`gw-smith-goldsborough-reports`), with section-specific document dates. OCR errors
+are retained exactly; the garbled compiler casualty return was not used. No model
+inputs are changed.
+
 ### Fredericksburg first pass, 2026-09-24
 
 The [one-record memo](research/fredericksburg-first-pass-v1.md) adds **3 records**, bringing

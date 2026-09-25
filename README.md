@@ -22,7 +22,7 @@ wins a commander caused. No validated commander ranking exists here yet.
   dates, force ranges, missingness, outcome codes, and cohort membership.
 - A small regularized logistic baseline using relative force size. Evaluation
   holds out whole campaigns and compares with equal odds and a training-only prior.
-- Sixty draft dossiers, including the sole frozen Fredericksburg Campaign record,
+- Sixty-three draft dossiers, including all three frozen Goldsboro Expedition records,
   with exact source passages, explicit unknowns, command questions, and
   inherited/created distinctions. See the [coverage table](artifacts/pilot-report.md#draft-evidence-dossiers).
 - A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
@@ -73,7 +73,7 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 ## Research direction
 
 **Current priority: comparable coverage across the 127 engagements.** We have
-sixty draft dossiers and 67 engagements without one. Shiloh's repeated source
+sixty-three draft dossiers and 64 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.
@@ -118,7 +118,9 @@ The [Stones River pass](docs/research/stones-river-first-pass-v1.md) adds two do
 20 claims, 2 explicit unknowns and 58 citations. Separate review is pending.
 The [Fredericksburg pass](docs/research/fredericksburg-first-pass-v1.md) adds VA028: 10
 claims, 1 explicit unknown and 31 citations. Separate review is pending.
-Next: **the three-record Goldsboro Expedition**. See the
+The [Goldsboro pass](docs/research/goldsboro-first-pass-v1.md) adds three dossiers,
+28 claims, 4 explicit unknowns and 70 citations. Separate review is pending.
+Next: **the two-record Forrest's Expedition into West Tennessee**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.
