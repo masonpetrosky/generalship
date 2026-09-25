@@ -23,7 +23,10 @@ diagnostic. Strength alone is a weak predictor: worse than equal odds on the 21 
 and on the 37 A–C rows better than equal odds but not than the training prior
 (campaign-weighted). The baseline is unchanged. Rating commanders next needs decision
 responsibility per side, a campaign unit without double counting, and a residual model with
-partial pooling (Milestone 3); those are owner design decisions. See **Next priority** below. The coverage-first direction that follows still bounds any
+partial pooling (Milestone 3). The owner delegated those choices; the
+[commander residual-rating design](commander-ratings.md) is accepted for implementation after a
+design review and a focused follow-up. Next: the command-responsibility ledger, reviewed in
+campaign batches, then the gated model run. See **Next priority** below. The coverage-first direction that follows still bounds any
 further research depth.
 
 Owner direction, 2026-09-20: the repeated Shiloh source investigations exceeded

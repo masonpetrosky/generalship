@@ -1,17 +1,23 @@
-# Commander residual ratings, design v1 (proposed)
+# Commander residual ratings, design v1
 
-**Status: proposed; revised after a separate design review.** On 2026-09-25 the owner asked
-"Are we ready to rank the generals in the American civil war, or is there still work to be
-done?". Later the same day they were asked three design questions: who gets credit, what unit
-is scored, and how a rating is computed. They answered: "Okay, yeah I'm fine with whatever you
-recommend." The [decision record](../data/command/owner-decision-2026-09-25.json) keeps the
-questions and replies verbatim. The choices below are the author's recommendations, which the
-owner delegated; they are not the owner's own words. The same reply also confirms the
-evaluation's option (a) ([confirmation](../data/estimates/evaluation-authorization-v1-confirmation.json)).
+**Status: accepted for implementation on 2026-09-25, after a separate design review and a
+focused follow-up, under the owner's delegation of these choices to the author.** The
+owner had asked "Are we ready to rank the generals in the American civil war, or is there still
+work to be done?". They were then asked three design questions: who gets credit, what unit is
+scored, and how a rating is computed. On 2026-09-25 they answered: "Okay, yeah I'm fine with
+whatever you recommend." The [decision record](../data/command/owner-decision-2026-09-25.json)
+keeps the request, the questions and the reply as the primary agent recorded them from the
+owner's chat. It does not date the earlier request. The choices below are the author's
+recommendations, which the owner delegated; they are not the owner's own words. The same reply
+is also recorded as confirming the evaluation's option (a), as a general acceptance of the
+recommendations rather than a separate statement about it
+([confirmation](../data/estimates/evaluation-authorization-v1-confirmation.json)).
 
 This text applies the required corrections R1–R9 of the separate
 [design review](../artifacts/review-results/ratings-design-0de28bd-opus-high-v1/review.md) of
-`0de28bd`, with advisories A1–A7 adopted.
+`0de28bd`, with advisories A1–A7 adopted. It also applies F1–F8 of the focused
+[follow-up review](../artifacts/review-results/ratings-followup-a5a1cd1-opus-high-v1/review.md) of
+`a5a1cd1`, with advisories AD1–AD5 adopted.
 
 The design has two parts:
 
@@ -91,23 +97,37 @@ rule 7 across records.
    - A passage showing a superior directing, or a subordinate leading part of the force, is not
      a contradiction. It is recorded as `superior_directing` or as subordinate context. MS006 is
      an example: Greene shows McClernand directing three divisions while CWSAC lists Grant.
+   - If inspected passages contradict the listing and all name the same other officer, use that
+     officer. Otherwise use the listed commander. Either way, the side is grade C, labelled
+     `responsibility_unresolved`, with the other officers recorded as candidates.
 3. **Several listed commanders in one service.**
    - (a) Use the one an inspected passage shows in command of the side's engaged forces when the
      fighting began.
    - (b) Otherwise, if one listed officer outranks every other by listed rank, use that officer and
      label the side `responsibility_unresolved`.
-   - (c) If the highest listed ranks tie (for example, TN003 on both sides, VA102 US and GA003 CS),
-     there is no rank fallback. The side is grade D, labelled `responsibility_unresolved`, with the
-     tied candidates recorded.
+   - (c) If the highest listed ranks tie, there is no rank fallback. The side is grade D, labelled
+     `responsibility_unresolved`, with the tied candidates recorded. Tied listed ranks occur at
+     TN003 on both sides, VA102 US, GA003 CS and GA004 US; they reach 3(c) only if 3(a) does not
+     decide them.
+   - **Rank order** (the strings used in the 91 records' listings):
+     - army: General > Lieutenant General > Major General > Brigadier General > Colonel >
+       Lieutenant Colonel > Lieutenant;
+     - navy: Rear Admiral > Flag Officer > Captain > Commander.
+
+     A "Brevet" or "Acting" rank is ranked as the named rank, so it can tie. Army and navy ranks
+     are never compared (rule 5).
 4. **Command change within the interval.** Examples are death, wounding, relief, or a superior
    arriving and taking command after the first combat. Use the commander at first combat, and
    label the side `command_changed`, naming the successor.
 5. **Several listed commanders in different services** (the CWSAC `navy` field differs, for
    example TN001 and AR006).
-   - If an inspected passage shows one officer in overall command of both forces, use that officer.
+   - If an inspected passage shows one officer in overall command of both forces, use that
+     officer. This is grade A, as for rule 3(a).
    - Otherwise, use the listed commander of the force that an inspected passage or the frozen
      description shows compelling the result (for example, surrender "to the fleet" at TN001), and
-     label the side `joint_command`.
+     label the side `joint_command`. If that force has several listed commanders, rule 3 is
+     applied to them. The side is then grade C, or grade D if rule 3(c) applies. VA012 CS is
+     such a side.
    - If neither is shown, the side is grade D, labelled `joint_command`, with the candidates
      recorded.
 6. **Nobody identifiable.** If no commander can be named, the side is grade D.
@@ -120,21 +140,26 @@ rule 7 across records.
        description narrates the Sedgwick operations and Salem Church, VA033);
      - `not_nested`, with a reason;
      - `nesting_unresolved`.
-   - No view gives one commander both records of a `nested` pair: the containing record is used,
-     and the contained one is listed as nested.
-   - For `nesting_unresolved` pairs, every view that contains both records is reported with and
-     without the contained record.
+   - In any view whose rows include both records of a `nested` pair, the contained record's row is
+     dropped and listed as nested, whoever the commanders are. A view that includes only one
+     record of the pair keeps it.
+   - For `nesting_unresolved` pairs, every view whose rows include both records is reported with
+     and without the contained record.
+   - No pair has both records among the 37 primary rows. MD002, MS006, LA011 and AR008 are primary
+     rows, but their containing records (WV010, MS005 and MS011) are not. VA032 is a primary row,
+     but VA033 and VA034 are not. Rule 7 therefore does not change the primary rows or the §5
+     verdict. It acts on outcome-only view (ii).
 
 A grade D side contributes no commander term to the model. Its row still counts through α
-and β.
+(and β where the view has a force term).
 
 **Grades.**
 
 | Grade | Condition |
 | --- | --- |
-| A | Rule 2 or 3(a): an inspected passage states that the officer commanded the side's engaged forces when the fighting began, and nothing inspected contradicts it. |
+| A | Rule 2, 3(a) or the first case of rule 5: an inspected passage states that the officer commanded the side's engaged forces when the fighting began, and nothing inspected contradicts it. |
 | B | Rule 2 with no passage stating the command, and nothing inspected contradicting the single listing. |
-| C | Rule 3(b) or rule 5 decided the choice, or inspected sources disagree about who commanded. |
+| C | Rule 3(b) or the second case of rule 5 decided the choice, or inspected sources disagree about who commanded (including rule 2's contradicted listing). |
 | D | Rule 3(c), rule 5 with nothing shown, or rule 6. |
 
 Labels such as `command_changed` and `superior_directing` do not change the grade. Each side also
@@ -145,7 +170,8 @@ detachment and post) as the passages or the listing show it, or `unknown`.
 
 - a stable ID;
 - their side;
-- every CWSAC name string mapped to them.
+- every CWSAC name string mapped to them;
+- for an officer named only in an inspected passage, that citation.
 
 Identical `fullname` strings on the same side are presumed to be one person unless a passage or a
 listing field shows otherwise. Other merges need a passage or the listing's own fields.
@@ -185,7 +211,8 @@ grade A–C and neither side has a `post_start_information` label: the same rows
 
 - every battle attributed to them among the 91;
 - how many of those are in the model;
-- why the others are out (strength grade D, post-start, nested, or unattributed).
+- why the others are out (strength grade D, post-start, or unattributed), and which are dropped as
+  nested in outcome-only view (ii).
 
 Sparse evidence must not quietly become an average rating (roadmap Milestone 2).
 
@@ -248,15 +275,19 @@ signal.
 - **Verdict metric.** The verdict is held-out log loss, weighted by battle and by campaign. Brier
   score and a count of the campaigns where each model does better are also reported, but are not
   part of the verdict.
+- **Improvement.** The commander model improves only if its held-out log loss is strictly lower
+  than the strength-only model's under both the battle weighting and the campaign weighting. A
+  reduction under one weighting only, or a tie, is no improvement. Both values are reported.
 - **Effective denominator.** The report counts the held-out rows in which at least one side's
   commander has a θ estimated from another campaign, and names those commanders. Other held-out
-  rows can differ from the strength-only model only through α and β. Commanders whose modelled
-  battles all fall in one campaign never affect a held-out prediction.
+  rows can differ from the strength-only model only through α and β. A commander whose modelled
+  battles all fall in one campaign never has their own θ used in a held-out prediction (it is 0
+  in their own fold), though their rows still inform α, β and their opponents' θs in other folds.
 - **Reading an improvement.** An improvement is reported with its size and effective denominator.
   It is read only as "held-out log loss was lower on these rows". There is no threshold and no
   significance test. It is not evidence of a persistent commander effect, and it is not proof of
   skill, because commanders are tied to armies, theaters and opponents (§8).
-- **If there is no improvement** under both weightings:
+- **If there is no improvement:**
   - the report states that commander identity adds no detectable predictive signal in these
     data;
   - the Markdown report gives no ordered ranking;
@@ -275,8 +306,10 @@ Each view refits the model and reports its ratings beside the primary ones.
   results moves between α and the θs.
 - **Attribution grades.** Only sides whose attribution is grade A or B; other sides get no
   commander term.
-- **Alternative candidates.** Each `responsibility_unresolved` or `joint_command` side is
-  assigned to its other recorded candidate.
+- **Alternative candidates.** One refit for each side with recorded candidates and for each of
+  those candidates other than the primary choice. For a grade D side, every recorded candidate
+  counts. Each refit changes only that side, which gets that candidate's commander term. Every
+  other side stays as in the primary attribution.
 - **Superior directing.** Sides labelled `superior_directing` use the named superior.
 - **Command changes.**
   - (i) Rows labelled `command_changed` excluded.
@@ -294,12 +327,16 @@ Each view refits the model and reports its ratings beside the primary ones.
 These views credit force concentration, and also every other advantage the commander did not
 create.
 
-**`view_sensitive`.** A commander with at least 2 modelled battles is flagged if, in any
-robustness view:
+**`view_sensitive`.** A commander with at least 2 modelled battles in the primary view is flagged
+if, in any robustness view (each refit counted separately):
 
-- their 80% interval lies entirely on the opposite side of zero from their primary posterior
-  mode; or
-- their 80% rank interval does not overlap their primary 80% rank interval.
+- they have a term, and their 80% interval lies entirely on the opposite side of zero from their
+  primary posterior mode; or
+- they are ranked in that view, and their 80% rank interval does not overlap their primary 80%
+  rank interval.
+
+If they are not ranked in a view (fewer than 2 modelled battles there, or no term), the report
+labels them `unranked_in_view`, naming that view.
 
 The outcome-only views estimate a different quantity. They are reported beside the primary
 ratings with their differences, and they do not set `view_sensitive`.
@@ -331,7 +368,7 @@ batches, then the model code and results.
 ## 8. Limits and non-goals
 
 - **Not causal.** The rating is not command skill. Commanders are not randomly assigned to armies,
-  theaters, opponents or odds.
+  theaters, opponents or odds. Army quality, subordinates and supply stay in the residual.
 - **Side-relative.** The Union intercept α absorbs nearly all of any side-wide difference,
   including any real difference between the two sides' average commanders. Ratings are relative to
   one's own side. Within-side differences still absorb army, theater and opponent differences.

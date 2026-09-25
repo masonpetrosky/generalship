@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session d3e2a1bf-d3f0-4910-82f1-6a18dae9504c",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 56a0f193e04603df7862f21f627988e51765f480; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T15:18:29Z",
+  "prepared_commit": "a5a1cd1e7d49e031f6f46dac9f4a47f8be7f84f7",
+  "bundle_commit": "56a0f193e04603df7862f21f627988e51765f480",
+  "assignment_sha256": "00bfebfc025a388ae9f18054f8fb631a52687a42933866168403324745129ab7",
+  "inputs_manifest_sha256": "ada03436d394a8f45817404cd8f838891a0fc8b88c0c70a085100d98b566a592",
+  "num_turns": 19,
+  "duration_ms": 374151,
+  "terminal_reason": "completed",
+  "returned_message": "The follow-up review is written, and the revised design still needs corrections: eight required fixes (F1–F8) and five optional advisories (AD1–AD5).\n\n**Review file:** `artifacts/review-results/ratings-followup-a5a1cd1-opus-high-v1/review.md` (the only file written; nothing committed or pushed)\n\n**Outcome: corrections required**\n\n**Finding IDs:** F1, F2, F3, F4, F5, F6, F7, F8 (required); AD1, AD2, AD3, AD4, AD5 (advisories)\n\n**Hashes:** all 26 input files match the prepared commit `a5a1cd1`, and the assignment and `inputs.json` hashes match too. No mismatches.\n\n**Were R1–R9 and A1–A7 applied?** Yes, all of them, mostly word for word. There are three problems:\n- **F8:** the revision deleted a limit sentence, \"Army quality, subordinates and supply stay in the residual.\", which R4 did not ask to remove.\n- **F1 (from A1):** the alternative-candidates view doesn't say what happens for grade D sides, which have no chosen commander, or for sides with several candidates.\n- **F2 (from R3):** the nesting rule doesn't say which views it acts on. Read one way, it would drop MD002, MS006, LA011 and AR008 from the 37 primary rows. In fact no nested pair has both records among the 37 rows, so the rule only acts on the 91-row outcome-only view.\n\n**Rules that can't yet be applied mechanically:**\n- **F3:** \"no improvement under both weightings\" can be read two ways, and the choice decides whether an ordered ranking is published.\n- **F4:** `view_sensitive` doesn't cover a commander who is unranked or absent in a view.\n- **F5:** rule 5 doesn't say how to choose when one service has several listed commanders; VA012 CS (Drewry's Bluff) is such a side.\n- **F6:** rule 2 gives no outcome when a passage contradicts the listing, and passage-only officers have no registry entry.\n\n**Decision record vs. status paragraph (F7):** mostly consistent. The quotes match, but the record does not date the owner's earlier request, so \"On 2026-09-25\" and \"later the same day\" are unsupported. \"Verbatim\" can't be checked, and \"confirms option (a)\" is stronger than the confirmation record's own reading.\n\n**Advisories worth noting:**\n- **AD2:** GA004 US (Rosecrans and Thomas, both Major General) is also a tied side, which the first review and the primary assessment missed.\n- **AD4:** the \"Effective denominator\" sentence, originally worded by the first review, is inaccurate; the review gives replacement text.\n\nThe review gives exact replacement text for every required correction.\n\n**Scope:** I read the design, the diff, the first review bundle and both owner records in full. The 37-row and 91-record checks were computed from frozen inputs without using outcomes. I opened no dossiers or source texts, ran no build or evaluation, and used no network. This is an AI analysis, not historical adjudication, feature admission or authorization of any fit."
+}
