@@ -2,12 +2,12 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). The single
 frozen record in **Operations in Mobile Bay [August 1864]** now has a draft dossier: **9 claims,
-1 explicit null unknown and 56 citation occurrences**. All seven dimensions are represented. The
+1 explicit null unknown and 58 citation occurrences** (56 before the review correction below). All seven dimensions are represented. The
 dossier is a draft; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| AL003 — Mobile Bay (Passing of Forts Morgan and Gaines) | 1864-08-02 to 08-23 | 9 | 1 | 56 | 3 |
+| AL003 — Mobile Bay (Passing of Forts Morgan and Gaines) | 1864-08-02 to 08-23 | 9 | 1 | 58 | 3 |
 
 Dossier presence is not first-pass acceptance, separate review or model eligibility.
 
@@ -50,17 +50,15 @@ No targeted follow-up was used. Stop after this record.
 Gaines and Morgan in an inspected family. Canby's dispatches, read but not selected, give prisoner
 counts; they would be a fourth family.
 
-This pass adds **6 source records**:
+This pass adds **4 source records** (6 were drafted; the Volume XXXIX Part 1 catalog metadata
+and OCR were dropped at merge as byte-identical duplicates of the registered parent, as
+`docs/sources.md` records under "Merge deduplication"):
 
 - the NPS HTML/text pair;
 - a second Mahan selection from the registered parent (existing group
   `mahan-gulf-inland-waters`);
-- the Volume XXXIX Part 1 catalog metadata and full OCR (new parent) and the Page selection (new
-  group `page-mobile-bay-1864-reports`).
-
-A parallel Franklin-Nashville worktree has also fetched Volume XXXIX Part 1
-(`data/raw/franklin-nashville-v1/or39-1-full.txt`), not registered there when checked. The
-primary should reconcile the two parents at merge so the volume is registered once.
+- the Page selection (new group `page-mobile-bay-1864-reports`), whose parent is the registered
+  Volume XXXIX Part 1 OCR `or39-1-illinois-ocr-v1`.
 
 ## Decisions and limits
 
@@ -103,8 +101,27 @@ The one null unknown is the opening strength. No morale/readiness score, probabi
 effect or new commander ranking is introduced. The cohort, both admission proposals and the
 baseline are unchanged.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this record. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossier and
-source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed commit
+`5d5bc1c` as `price-review-5d5bc1c-opus-high-v1` on 2026-09-25, together with the Price's
+Missouri, Mobile and Wilson's Raid passes. Its outcome was "corrections required" (four required
+findings and nine advisories across the four passes); none of the required findings concerns
+this record. It is an AI review within its stated scope, not human historical adjudication,
+proof of source independence or feature admission.
+
+## Review correction
+
+AL003 is revised under `mobile-bay-review-correction-2026-09-25` and supersedes the
+byte-for-byte archive `data/evidence/history/AL003.v1.json`.
+
+- **PRV-A6** (adopted): `recorded-result` now includes the surrender of Buchanan's squadron,
+  citing NPS ("Farragut forced the Confederate naval forces, under Adm. Franklin Buchanan, to
+  surrender") and Mahan (the United States flag hoisted on board the Tennessee at ten o'clock,
+  p.244).
+- **PRV-A3** (adopted): this memo's source count and the OR XXXIX parent are corrected above.
+- **PRV-A9 and the source-choice assessment** (recorded, no change): the review found Page
+  in place of Granger sound, with Granger's land strength left unknown.
+
+Citations rise from 56 to 58; claims (9), unknowns (1) and disputed claims (3) are unchanged.
+No model input, cohort file, admission proposal or baseline is changed.

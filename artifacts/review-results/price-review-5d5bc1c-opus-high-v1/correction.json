@@ -1,0 +1,91 @@
+{
+  "review_sha256": "6c427a0a7e717af40ff91fe7d9f5f05fc805c384a7cc5ac48f9ddf7be0ca32c1",
+  "prepared_commit": "5d5bc1c2eb9152227a63ea8a92f3850a40bd124f",
+  "bundle_commit": "27ee4e505b5bbffa0f348e8305f418fe00a6d611",
+  "scope": "Price's Missouri, Mobile Bay, Mobile and Wilson's Raid first passes review",
+  "findings": [
+    {
+      "finding_id": "PRV-R1",
+      "disposition": "accepted_applied",
+      "summary": "Holds: Britton p.443 says the couriers from Sanborn did not reach Blunt; p.442 says Blunt sent couriers to Sanborn without saying whether they arrived. MO023 scouts-and-intelligence value now reads that Blunt sent couriers to Sanborn but no couriers from Sanborn reached him; p.442 sending passage cited."
+    },
+    {
+      "finding_id": "PRV-R2",
+      "disposition": "accepted_applied",
+      "summary": "Holds: Price p.629 is passive ('when a charge was ordered and made in the most gallant manner'). MO021 command-roles value now says a charge was ordered about 2 p.m. without naming who ordered it; that p.629 passage (running head 'G29') cited."
+    },
+    {
+      "finding_id": "PRV-R3",
+      "disposition": "accepted_applied",
+      "summary": "Holds: May 3 OCR p.351 reads 't’loosaod seven hundred prisoners, including 150'; 'officers' is absent. AL007 casualty-records value now quotes the reading and says the thousands figure and the word after 150 are illegible; Wilson memo no longer frames it as disagreeing with the frozen CS 2,700."
+    },
+    {
+      "finding_id": "PRV-R4",
+      "disposition": "accepted_applied",
+      "summary": "Holds: v1 carried group britton-civil-war-on-border-1899 while parent britton-civil-war-border-2-ocr-v1 and britton-camden-selections-v1 carry britton-civil-war-border-1899. Registered metadata_only successor britton-price-missouri-selections-v2 (supersedes v1, metadata SHA-256 c44ed0f7... recomputed and matching the review) with corrected group and dependency note; all Britton citations in the 11 Price dossiers moved to v2 with quotes, sections and locators unchanged; memo group reference corrected."
+    },
+    {
+      "finding_id": "PRV-A1",
+      "disposition": "accepted_applied",
+      "summary": "Price names only 'the crossing of the Osage' and 'the prairie beyond the river'. Sentence added to MO028 reported-force-scope and hold-until-night rationales and to the Price memo."
+    },
+    {
+      "finding_id": "PRV-A2",
+      "disposition": "accepted_applied",
+      "summary": "MO021 fortification-intelligence now cites both the frozen/NPS reason (Price dismissed mounting guns) and Britton's council-of-war account (Price concurred in Mackey's bombardment advice; assault chosen over reported colored garrison and revenge on Ewing); claim set to disputed. 'a company of negroes was also organized' (p.395) cited in reported-force-scope."
+    },
+    {
+      "finding_id": "PRV-A3",
+      "disposition": "accepted_applied",
+      "summary": "Price memo: 25 records added at merge (not 27), Britton parent and group named; Mobile Bay memo: 4 records (not 6), OR XXXIX parent named as or39-1-illinois-ocr-v1 and the reconcile-at-merge request removed."
+    },
+    {
+      "finding_id": "PRV-A4",
+      "disposition": "not_adopted",
+      "summary": "Source records not changed: metadata successors for or41-1-price-missouri-selections-v1 and or49-1-wilson-selma-selections-v1 for an advisory note would move every Price citation again. The same-author links (price-camden-1864-report; wilson-south-side-raid-reports) are recorded in the Price and Wilson memos under the docs/sources.md same-author rule."
+    },
+    {
+      "finding_id": "PRV-A5",
+      "disposition": "accepted_applied",
+      "summary": "Wilson's May 3 OCR 'Taylor had left at3' cited in AL007 recorded-result and added to the Wilson memo's Taylor dispute as a third, garbled account."
+    },
+    {
+      "finding_id": "PRV-A6",
+      "disposition": "accepted_applied",
+      "summary": "AL003 recorded-result now cites NPS 'Farragut forced the Confederate naval forces, under Adm. Franklin Buchanan, to surrender' and Mahan 'the United States flag hoisted on board the Tennessee at ten o'clock.' (p.244)."
+    },
+    {
+      "finding_id": "PRV-A7",
+      "disposition": "accepted_applied",
+      "summary": "Britton says Fagan's division was brought forward 'to the support of Marmaduke and Shelby'. MO024 reported-force-scope value reworded (Shelby waded to form on Marmaduke's left; Fagan brought forward in support); two p.446 passages cited."
+    },
+    {
+      "finding_id": "PRV-A8",
+      "disposition": "kept_as_is",
+      "summary": "Informational: the Union side of Price's expedition resting on NPS and Britton, and AL006 lacking a Confederate family, are already the memos' stated consequential gaps. Noted in the Mobile memo's review section; no evidence change."
+    },
+    {
+      "finding_id": "PRV-A9",
+      "disposition": "kept_as_is",
+      "summary": "Confirms MO022 frozen-description handling; no change."
+    }
+  ],
+  "corrected_dossiers": {
+    "MO021": "1f79a1b198ba6d1a0af7851216ec665606280d681c3524bcc8f218f1bc693cab",
+    "MO022": "43b0b59270ea489faeeb7432d27a38f6b87facf6f528e61da68deaac89c28760",
+    "MO023": "ad4b8f6f9dd2feb3fcb0c040c4cf947bdfbb62ccd73c86ad6bc7c7f6f475386b",
+    "MO024": "4c3e3ecfaafabdec88b9547bf5016dbf1b1b49a1f4f5ffba98cf06c79c0e5b70",
+    "MO025": "077e1520a919808ca3c50931b85a2018b3635dc70bf91c8788eb3f75f1f4c219",
+    "MO026": "be7312a2ee08026f016ee85845d849b47b609bec86b28ac50cace46ba0c5fdb7",
+    "MO027": "2de8013901244575491355cbbc4abede618ea16f9722ce3888fd01b765c9f825",
+    "KS003": "78afbd6ae71f68ab9bd50b57cc903c7a5ee61914cb6325ec9b91adc898c9e32a",
+    "KS004": "40bef9f11b64067efc56f332f726447f40e846b4d83e90b1c7e2d3c72fc5552e",
+    "MO028": "292efeaaca8b3b0bc9aca6eb9131349af8e62aeac0503d3ba6889525fc3b54d1",
+    "MO029": "f1a2910e58126fb85e6a98b3424a42d35c1375a85f76023515abf216ba9851ea",
+    "AL003": "31613c6165740be39dbc8994d3b73725b1692243a909a77f7fd0d71de260a879",
+    "AL005": "22f9775539d22cc7aab0a48e9fe9080bcce7353ac428f8c406869b3ac5186e95",
+    "AL006": "2d13295dbc753257566acc2f9bb67e08be5f5333588139f5a405c5a8e73fce0d",
+    "AL007": "d0aff0a862922c9467d94b2427cf8600e72c39aee5459e3126c679cb4362547e"
+  },
+  "independent_followup_review": false
+}

@@ -114,8 +114,18 @@ The two null unknowns are the opening strengths. No morale/readiness score, prob
 effect or new commander ranking is introduced. The cohort, both admission proposals and the
 baseline are unchanged.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossiers
-and source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed commit
+`5d5bc1c` as `price-review-5d5bc1c-opus-high-v1` on 2026-09-25, together with the Price's
+Missouri, Mobile Bay and Wilson's Raid passes. Its outcome was "corrections required" (four
+required findings and nine advisories across the four passes); none of the required findings
+concerns AL005 or AL006. It is an AI review within its stated scope, not human historical
+adjudication, proof of source independence or feature admission.
+
+The review found the Gibson and Andrews source choices sound, including the as-read handling of
+Gibson's garbled Union estimate and the unassigned columns of the comparative casualty
+statement. Its advisory PRV-A8 notes that AL006 (Fort Blakely) has no Confederate family apart
+from the Liddell dispatches Andrews quotes; this is already the stated consequential gap and
+is recorded without change. AL005 and AL006 are unchanged (18 claims, 2 unknowns, 93
+citations) and carry no revision.

@@ -290,7 +290,7 @@
     {
       "id": "recorded-result",
       "dimension": "outcome",
-      "value": "The frozen and live results read Union victory. NPS says the columns broke through and the city was surrendered though Forrest and Taylor escaped; Jordan says Taylor had left by rail before the assault, that Forrest cut his way out, and that Selma fell. Wilson says Forrest and others escaped with about half their forces, and his May 3 OCR reads that Taylor 'had left at3', the time garbled.",
+      "value": "The frozen and live results read Union victory. NPS says the columns broke through and the city was surrendered though Forrest and Taylor escaped; Jordan says Taylor had left by rail before the assault, that Forrest cut his way out, and that Selma fell. Wilson says Forrest and others escaped with about half their forces.",
       "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
       "citations": [
         {
@@ -328,12 +328,6 @@
           "section": "wilson-1865-05-03",
           "locator": "p.351 (OCR page markers; not checked against print)",
           "quote": "with about half of their forces, escaped"
-        },
-        {
-          "source_id": "or49-1-wilson-selma-selections-v1",
-          "section": "wilson-1865-05-03",
-          "locator": "p.351 (OCR page markers; not checked against print)",
-          "quote": "Taylor had left at3"
         }
       ],
       "phase": "post_outcome",
@@ -342,7 +336,7 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 3,019 total (US 319; CS 2,700); the live field reads 3,059 (US 359; CS 2,700). Wilson's May 3 report gives Long's loss as 46 killed with the rest garbled, and a prisoner count garbled in OCR as 't’loosaod seven hundred prisoners, including 150' (the thousands figure and the word after 150 are illegible); his detailed report's list of captures is largely unreadable ('2^700'). Jordan gives no Selma figures.",
+      "value": "The frozen casualty text reads 3,019 total (US 319; CS 2,700); the live field reads 3,059 (US 359; CS 2,700). Wilson's May 3 report gives Long's loss as 46 killed with the rest garbled, and a garbled count of about 'seven hundred prisoners, including 150' officers; his detailed report's list of captures is largely unreadable ('2^700'). Jordan gives no Selma figures.",
       "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
       "citations": [
         {
@@ -385,10 +379,5 @@
     "Long's, Upton's, Minty's and Miller's reports and the casualty returns printed with the Second Division reports, Chalmers's and Armstrong's accounts, Andrews's chapters on Wilson's raid (a different author family registered for the Mobile Campaign), and a clean scan of Wilson's reports remain deferred.",
     "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Wilson's May 3, 1865 summary and detailed report (Official Records Series I, Volume XLIX, Part 1) are one family of interested Union accounts; the OCR is badly garbled. Jordan and Pryor's The Campaigns of Lieut.-Gen. N. B. Forrest (1868) is a retrospective Confederate history written from Forrest's papers and registered earlier for other engagements; it is not independent of the listed Confederate commander and cites Andrews's History of the Campaign of Mobile. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "wilson-raid-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/AL007.v1.json",
-    "sha256": "df50ce22b70fd1e62b9a89b2aecbc1b22828aa06024d2bb75fafb6993638513f"
-  }
+  ]
 }

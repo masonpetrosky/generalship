@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session aa121d7f-253a-42f6-ace1-8fd816ac561f",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 27ee4e505b5bbffa0f348e8305f418fe00a6d611; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T17:26:22Z",
+  "prepared_commit": "5d5bc1c2eb9152227a63ea8a92f3850a40bd124f",
+  "bundle_commit": "27ee4e505b5bbffa0f348e8305f418fe00a6d611",
+  "assignment_sha256": "d7bc35047aaa5658023b77ebd117f606cd8ddf55e63461aaaa85fb688fb00c8f",
+  "inputs_manifest_sha256": "bef672c6edcb5ecd72e74a2ed7371dea51cdec8a31ed177c29c23539a2cf7ca1",
+  "num_turns": 66,
+  "duration_ms": 518991,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** The review is at `artifacts/review-results/price-review-5d5bc1c-opus-high-v1/review.md`, and it is the only file I wrote. I found four required corrections and nine advisories.\n\n**Checks**\n- All 81 input hashes match both the prepared commit `5d5bc1c` and the worktree. The `assignment.md` and `inputs.json` hashes also match.\n- `make check` ran offline and passed (134 tests).\n- Every selection's `parent_sha256` points to the right parent. This includes the Britton volume II and OR XXXIX Part 1 selections that were deduplicated at merge. Re-extracting each selection from its recorded character ranges gives back exactly the stored text.\n- I read all 15 dossiers, including all 551 citations in their surrounding passage. I also read the frozen rows, the NPS text pages and the 44 new source records. I did no new research.\n\n**Required corrections**\n- **PRV-R1 (MO023 `scouts-and-intelligence`):** The dossier reverses Britton's meaning. Britton says couriers from Sanborn did not reach Blunt; the dossier says Blunt's couriers to Sanborn did not arrive.\n- **PRV-R2 (MO021 `command-roles`):** The dossier says Price \"ordered the charge\", with no citation. Price's report only says \"a charge was ordered\", without naming who ordered it. The replacement text and quote are in the review.\n- **PRV-R3 (AL007 `casualty-records`, plus the Wilson's Raid memo):** Both read Wilson's garbled prisoner count as \"about seven hundred\". The OCR actually reads \"t’loosaod [thousand] seven hundred\". So it is not evidence of a dispute with the frozen Confederate figure of 2,700, and the word \"officers\" is not in the text.\n- **PRV-R4 (`britton-price-missouri-selections-v1`):** Its independence group is `britton-civil-war-on-border-1899`, but its registered parent is in `britton-civil-war-border-1899`. After the merge, one book now carries two group names, and the validator did not catch it. Its note saying there is \"no earlier registry group\" for Britton is also no longer true. The review gives a metadata-only v2 revision, including the predecessor hash I computed (please recompute it).\n\n**Advisories:** PRV-A1 to PRV-A9. The main ones:\n- The Marmiton reading rests on an inference the dossier doesn't flag: Price never names Shiloh Creek or the Marmiton for that stand.\n- For Fort Davidson, the frozen description and Britton give different reasons why bombardment was rejected.\n- The Price and Mobile Bay memos still give their pre-merge source counts.\n- The same-author links for Price (Camden) and Wilson (his 1864 raid) are not noted in the dependency notes.\n\nThe source choices you asked about are all sound, and the review explains each one. They are: no Union report for Price's expedition, Page instead of Granger, Gibson and Andrews, Jordan and Pryor, and reading Price's report date as 1864.\n\n**Finding IDs:** PRV-R1, PRV-R2, PRV-R3, PRV-R4; PRV-A1, PRV-A2, PRV-A3, PRV-A4, PRV-A5, PRV-A6, PRV-A7, PRV-A8, PRV-A9."
+}

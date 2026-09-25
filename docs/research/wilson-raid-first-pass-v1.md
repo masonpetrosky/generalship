@@ -2,12 +2,13 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). The single
 frozen record in **Wilson's Raid in Alabama and Georgia [April 1865]** now has a draft dossier:
-**9 claims, 1 explicit null unknown and 45 citation occurrences**. All seven dimensions are
+**9 claims, 1 explicit null unknown and 46 citation occurrences** (45 before the review
+correction below). All seven dimensions are
 represented. The dossier is a draft; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| AL007 — Selma | 1865-04-02 | 9 | 1 | 45 | 3 |
+| AL007 — Selma | 1865-04-02 | 9 | 1 | 46 | 3 |
 
 Dossier presence is not first-pass acceptance, separate review or model eligibility.
 
@@ -53,7 +54,10 @@ This pass adds **4 source records**:
 - the NPS HTML/text pair;
 - a second Jordan and Pryor selection (existing group `jordan-pryor-forrest-1868`);
 - the Wilson selection (new group `wilson-selma-1865-reports`), whose parent is the Volume XLIX
-  Part 1 OCR registered with the Mobile Campaign pass.
+  Part 1 OCR registered with the Mobile Campaign pass (`or49-1-illinois-ocr-v1`).
+
+Same-author groups are one witness family under the `docs/sources.md` rule: this group and
+`wilson-south-side-raid-reports` (Petersburg, 1864) are both James H. Wilson's reports.
 
 ## Decisions and limits
 
@@ -77,9 +81,12 @@ This pass adds **4 source records**:
   - The extent of the works: a radius of nearly three miles (Wilson) against a trace of nearly
     four miles (Jordan).
   - Taylor's escape: NPS says Taylor escaped with Forrest; Jordan says Taylor left by rail at
-    2 p.m., before the assault.
-  - Casualties: frozen 3,019 (US 319) against live 3,059 (US 359), and Wilson's partly legible
-    "46 killed" and "seven hundred prisoners, including 150" against the frozen CS 2,700.
+    2 p.m., before the assault; Wilson's May 3 OCR reads that Taylor "had left at3", the time
+    garbled.
+  - Casualties: frozen 3,019 (US 319) against live 3,059 (US 359). Wilson's partly legible
+    "46 killed" (Long's division) and a prisoner count garbled as "t’loosaod seven hundred …
+    including 150", whose thousands figure is illegible, so it is not recorded as disagreeing
+    with the frozen CS 2,700.
 - **Command roles and ranks.** Wilson credits Long with opening the assault without waiting for
   the signal. Jordan has Forrest take command on Taylor's departure and order Roddy to fill the
   breach. The live page gives Wilson as Brigadier General and Forrest as Major General; the frozen
@@ -90,8 +97,29 @@ The one null unknown is the opening strength. No morale/readiness score, probabi
 effect or new commander ranking is introduced. The cohort, both admission proposals and the
 baseline are unchanged.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this record. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossier and
-source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed commit
+`5d5bc1c` as `price-review-5d5bc1c-opus-high-v1` on 2026-09-25, together with the Price's
+Missouri, Mobile Bay and Mobile passes. Its outcome was "corrections required" (four required
+findings and nine advisories across the four passes). It is an AI review within its stated
+scope, not human historical adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+AL007 is revised under `wilson-raid-review-correction-2026-09-25` and supersedes the
+byte-for-byte archive `data/evidence/history/AL007.v1.json`.
+
+- **PRV-R3** (required; holds and applied): the May 3 OCR reads "t’loosaod seven hundred
+  prisoners, including 150" (p.351). The dossier and this memo had dropped the legible
+  "t’loosaod" and added "officers", which the OCR does not show. The `casualty-records` value now
+  quotes the reading and says the thousands figure and the word after 150 are illegible; the
+  memo no longer frames it as a dispute with the frozen CS 2,700.
+- **PRV-A5** (adopted): Wilson's garbled "Taylor had left at3" is cited in `recorded-result` and
+  noted as a third account above.
+- **PRV-A4** (recorded, no registry change): the same-author link to
+  `wilson-south-side-raid-reports` is noted above; the v1 Wilson selection record stays
+  unchanged.
+
+Citations rise from 45 to 46; claims (9), unknowns (1) and disputed claims (4) are unchanged.
+No model input, cohort file, admission proposal or baseline is changed.
