@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Davis' Cross Roads record (September 10–11, 1863) in the Chickamauga Campaign [August-September 1863]. Campaign-wide movements, the Chattanooga evacuation and army-wide figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Two divisions [US]; unknown [CS]'; the live field reads zero. Hindman says his orders described the Union force at the foot of Stevens' Gap as thought to be 4,000 or 5,000 strong, and he speaks of putting a column of 15,000 troops in motion. He quotes Bragg's chief of staff estimating 12,000 or 15,000 Federals forming in front of Dug Gap. Cist says Bragg put 30,000 troops in position to crush Negley and Baird.",
+      "rationale": "Order estimates, a column size and an interested history's total differ in scope; none is adopted as matched opening strength. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA003"
+          },
+          "column": "forces_text",
+          "quote": "Two divisions [US]; unknown [CS]"
+        },
+        {
+          "source_id": "nps-ga003-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.292 (OCR page markers; not checked against print)",
+          "quote": "(thought to be 4,000 or 5,000 strong)"
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "putting a column of 15,000 troops in motion,"
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "The enemy, estimated 12,000 or 15,000, is forming line in front of this place."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "bragg-and-the-cove",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "thus putting 30,000 troops in position to crush Negley and Baird."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "cove-and-blocked-gaps",
+      "dimension": "terrain",
+      "value": "Hindman says Dug and Catlett's Gaps of Pigeon Mountain were, and had been for several days, so heavily blockaded as to be impassable, that Pigeon Mountain hemmed his force in, and that the country was broken and densely wooded. Cist says Stevens's Gap was heavily obstructed with fallen timber and Dug Gap full of obstructions.",
+      "rationale": "Obstructions made before and during the interval by both sides; no inherited tag is used. No map verification.",
+      "citations": [
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "were, and had been for several days, so heavily blockaded as to be imj)assable."
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "we were hemmed in by Pigeon Mountain,"
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "the country being broken and densely wooded"
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "negley-in-the-cove",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "which was found heavily obstructed with fallen tim- ber."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "negley-in-the-cove",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "and the Gap full of obstructions."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "water-tools-and-train",
+      "dimension": "logistics",
+      "value": "Hindman says Conley's spring was the last convenient water before Davis' and insufficient for the whole force, and that he had no engineer company or working tools to clear the gaps. Cist says Negley was in danger of losing his train and secured his position without the loss of a single wagon.",
+      "rationale": "Supply statements from interested accounts on both sides; no return inspected.",
+      "citations": [
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "the last conven- ient watei before reaching Davis’."
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "the water at Conley’s was insufficient for the whole force,"
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "having with me no engineer company or working tools."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "negley-in-the-cove",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "he was in danger of losing his train."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "negley-in-the-cove",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "without the loss of a single wagon."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rumor-scouts-and-view",
+      "dimension": "information",
+      "value": "Hindman says he halted on information from citizens and cavalry that a Federal division was at Davis' and another at Stevens' Gap, that the scouts sent toward Stevens' Gap returned without information after being detained at a cavalry outpost, and that from Lookout Mountain the enemy could count every regiment he marched. Cist says Negley learned from citizens that the Confederates were concentrated in strong force in Dug Gap and discovered they were advancing in superior force.",
+      "rationale": "Attributed knowledge from interested accounts on both sides; no message log beyond the quoted orders inspected.",
+      "citations": [
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "a Federal division was at Davis’ and another at Stevens’ Gap ;"
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "bringing no information, having been detained all night at a cavalry outpost"
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "the enemy could count every regiment of my command"
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "negley-in-the-cove",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "learned from citizens that the rebels were in strong force concen- trated in his front in Dug Gap,"
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "negley-in-the-cove",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "were advancing on him in such superior force that his situa- tion was critical,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "attack-orders-and-withdrawal",
+      "dimension": "objectives",
+      "value": "Hindman quotes Bragg's midnight order to attack and force his way through to La Fayette, with Cleburne to attack in front when his guns were heard, and says he construed it as meant to save his own command rather than capture the enemy. Cist says Bragg saw a chance to defeat the Union corps in detail, and that Negley decided to fall back to a strong position in front of Stevens's Gap.",
+      "rationale": "Stated orders and the recipient's construction from interested accounts; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "General Bragg orders you to attack and force your way through tlie enemy to this point"
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "Cleburne will attack in front the moment your guns are heard."
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "expected me not to capture the enemy, but to prevent the capture of my own troops,"
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "bragg-and-the-cove",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "Bragg at once saw how Bosecrans had exposed the corps of his army to be attacked and defeated in detail,"
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "negley-in-the-cove",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "He determined to fall back to a strong j>osition in front of Stevens's Gap,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "delay-and-suspension",
+      "dimension": "responsibility",
+      "value": "Hindman says the evening council was unanimous against advancing without more information, accepts accountability for one hour's delay on the 11th, and thinks the delays did not affect the result; he quotes Bragg's order suspending him for not obeying orders to attack. NPS says the Confederate officers met and decided they could not attack in their condition. Cist says Bragg and Cleburne waited nearly all day for Hindman's guns. The frozen commanders are Negley, Hindman and Breckinridge, all Major Generals; the live heading ranks Hindman Brigadier General. Cist says Breckinridge's division was kept south of La Fayette.",
+      "rationale": "The cause of the failed attack is disputed between Bragg's order and Hindman's account; the frozen commanders do not receive automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "Our conclusion, which was unanimous,"
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "there was a delay on the morning of the 11th of one hour, for which I am ac- countable,"
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "in my opinion, the delays of the 11th did not affect the result."
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.298 (OCR page markers; not checked against print)",
+          "quote": "for not obeying his orders for the attack on the enemy in McLemore’s Cove on the 11th instant, is suspended from his command."
+        },
+        {
+          "source_id": "nps-ga003-v1",
+          "locator": "Description",
+          "quote": "The Rebel officers, therefore, met and decided that they could not attack in their present condition."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "bragg-and-the-cove",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "waited nearly all day for Hindman's guns to open"
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "bragg-and-the-cove",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "Breckinridge's division of Hill's corps was kept in posi- tion south of La Fayette"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA003",
+            "belligerent": "US",
+            "fullname": "James Negley"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA003",
+            "belligerent": "Confederate",
+            "fullname": "Thomas C. Hindman"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA003",
+            "belligerent": "Confederate",
+            "fullname": "John C. Breckinridge"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga003-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Thomas Hindman [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads 'Union strategic victory'; the live field reads 'Union Victory (strategic)'. NPS says the Union divisions withdrew to Stevens Gap under constant pursuit and fire. Hindman says his pursuit was ineffectual and the enemy retired to Stevens' Gap. Cist credits Negley's energy and skill, with Baird's co-operation.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA003"
+          },
+          "column": "results_text",
+          "quote": "Union strategic victory"
+        },
+        {
+          "source_id": "nps-ga003-v1",
+          "locator": "Results",
+          "quote": "Union Victory (strategic)"
+        },
+        {
+          "source_id": "nps-ga003-v1",
+          "locator": "Description",
+          "quote": "the Union forces determined that a strategic withdrawal to Stevens Gap was in order."
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "About dark our ineffectual pursuit of the enemy ceased,"
+        },
+        {
+          "source_id": "or30-2-hindman-mclemores-cove-selections-v1",
+          "section": "hindman-1863-10-25",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "The enemy had retired to Stevens’ Gap,"
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "negley-in-the-cove",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "by his en- ergy and skill, with the prompt co-operation of Baird,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads zero. No inspected passage gives a count.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA003"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-ga003-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Negley's, Baird's, Hill's, Buckner's and Cleburne's reports and the exhibits appended to Hindman's report remain deferred.",
+    "NPS/CWSAC is one family. Cist is an interested Union staff history. The Hill, Hindman and Bragg reports, printed in Official Records Series I, Volume XXX, Part 2, are separate families of interested Confederate commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

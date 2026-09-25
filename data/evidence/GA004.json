@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA004",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Chickamauga record (September 18–20, 1863) in the Chickamauga Campaign [August-September 1863]. The withdrawal to Rossville and Chattanooga on September 21–22 is outside the frozen interval. Campaign-wide movements, the Chattanooga evacuation and army-wide figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Army of the Cumberland and the Army of Tennessee without counts; the live field reads zero. Cist says Rosecrans had at most 55,000 effective men of all arms on the field, against a September 20 return of 67,548 present for duty equipped, and gives Bragg about 70,000 effective in line. Bragg says Rosecrans's effective infantry and artillery were fully 70,000, that his own effective force exclusive of cavalry was a little over 35,000 at the end of August, and that five small brigades of Longstreet's corps, about 5,000 effective infantry, arrived in time. His inclosed field return of September 27, after the battle, totals 38,846 effective infantry and artillery.",
+      "rationale": "Each side's history and commander assigns the larger number to the opponent; returns and estimates differ in date and scope. None is adopted as matched opening strength. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA004"
+          },
+          "column": "forces_text",
+          "quote": "The Army of the Cumberland [US]; Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-ga004-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "strengths-and-losses",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "The largest number of troops Eosecrans had of all arms on the field during the two days' fighting was 55,000 effective men."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "strengths-and-losses",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "shows 67,548 \" present for duty equipped,\""
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "strengths-and-losses",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "had about 70,000 effective troops in line."
+        },
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-12-28-opening",
+          "locator": "p.26 (OCR page markers; not checked against print)",
+          "quote": "His force of effective in- fantry and artillery amounted to fully 70,000,"
+        },
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-12-28-opening",
+          "locator": "p.27 (OCR page markers; not checked against print)",
+          "quote": "our efective force, exclusive of cavalry, was now a little over 35,000,"
+        },
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-12-28-battle",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "Five small brigades of his corps (about 5,000 effective infantry, no artillery)"
+        },
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-09-29",
+          "locator": "p.25 (OCR page markers; not checked against print)",
+          "quote": "Total effective^ 38,846"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "forest-breastworks-and-ridge",
+      "dimension": "terrain",
+      "value": "Bragg says the Federals held selected positions strengthened by barricades, slight breastworks of timber and abatis, concealed in a dense forest. Cist says the Union troops threw up temporary breastworks of logs and rails during the night of the 19th, and that Thomas placed Brannan's division on the crest of Horseshoe Ridge with artillery on the spurs. NPS names Horseshoe Ridge and Snodgrass Hill.",
+      "rationale": "Works built during the frozen interval and positions chosen on the field; no inherited tag is used. No map verification.",
+      "citations": [
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-09-24",
+          "locator": "p.24 (OCR page markers; not checked against print)",
+          "quote": "the enemy holding selected positions strengthened by barricades, slight breastworks of timber and abatis, all concealed from us in a dense forest."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "breastworks",
+          "locator": "p.203 (OCR page markers; not checked against print)",
+          "quote": "During the night our troops threw up temporary breast- works of logs and rails."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "horseshoe-ridge",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "Thomas then selected the crest of a commanding ridge, known as \" Horseshoe Bidge,\""
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "horseshoe-ridge",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "On the spurs to the rear he posted his artillery."
+        },
+        {
+          "source_id": "nps-ga004-v1",
+          "locator": "Description",
+          "quote": "consolidating forces on Horseshoe Ridge and Snodgrass Hill."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-water-and-ammunition",
+      "dimension": "logistics",
+      "value": "Bragg says most of his troops had been two weeks without shelter on short rations in a drought, without cooking utensils, and that nearly half his army had arrived as reinforcements without a wagon or artillery horse, with nearly a third of the artillery horses on the field lost. Cist says some unauthorized person ordered Thomas's ammunition train back to Chattanooga, and that his troops took cartridges from the boxes of the slain.",
+      "rationale": "Supply statements from interested accounts on both sides; no ordnance or subsistence return inspected.",
+      "citations": [
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-09-24",
+          "locator": "p.24 (OCR page markers; not checked against print)",
+          "quote": "For two weeks most of them had been without shel- ter, on short rations, in a country parched by drought,"
+        },
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-09-24",
+          "locator": "p.24 (OCR page markers; not checked against print)",
+          "quote": "all were on short rations and without cooking utensils."
+        },
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-12-28-transport",
+          "locator": "p.37 (inferred: the running head reads \"87\" in OCR, after the p.36 header; not checked against print)",
+          "quote": "Nearly half our army consisted of re-enforcements just before the battle without a wagon or an artillery horse,"
+        },
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-12-28-transport",
+          "locator": "p.37 (inferred: the running head reads \"87\" in OCR, after the p.36 header; not checked against print)",
+          "quote": "a third of the artillery horses on the field had been lost."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "ammunition",
+          "locator": "p.211 (OCR page markers; not checked against print)",
+          "quote": "Some unauthorized person had ordered Thomas's ammunition train back to Chattanooga,"
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "ammunition",
+          "locator": "p.211 (OCR page markers; not checked against print)",
+          "quote": "The troops then gathered what could be found in the cartridge-boxes of the slain,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "unknown-positions-and-the-gap-report",
+      "dimension": "information",
+      "value": "Cist says Brannan's reconnaissance on the 19th revealed the armies' relative positions, until then unknown to both commanders, and that a staff officer reported a gap between Reynolds and Wood without knowing that Brannan's division was still in position. NPS says Rosecrans was informed of a gap and created one in moving units to fill it. Bragg says a reconnaissance during Polk's delay found the main road to Chattanooga open. Cist says Rosecrans had believed he was outnumbered two to one.",
+      "rationale": "Attributed knowledge from interested accounts and a summary; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "opening-of-the-19th",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "which up to this time was unknown to the respective commanders of each."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "the-gap",
+          "locator": "p.206 (inferred: the running head reads \"20'j\" in OCR, between the p.205 and p.207 headers; not checked against print)",
+          "quote": "a long gap existed between Reynolds and Wood ; not aware that Bran- nan's division although not in front line was still in position,"
+        },
+        {
+          "source_id": "nps-ga004-v1",
+          "locator": "Description",
+          "quote": "Rosecrans was informed that he had a gap in his line."
+        },
+        {
+          "source_id": "nps-ga004-v1",
+          "locator": "Description",
+          "quote": "In moving units to shore up the supposed gap, Rosencrans created one,"
+        },
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-12-28-battle",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "proved the important fact that this greatly desired position was open to our possession."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "rosecrans-to-chattanooga",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "His information prior to the battle led him to believe that the rebels outnumbered him two to one,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "sweep-and-hold-the-road",
+      "dimension": "objectives",
+      "value": "NPS says Bragg aimed to defeat part of Rosecrans's army and reoccupy Chattanooga. Bragg's circular of September 18 orders the right column to sweep up the Chickamauga toward Lee and Gordon's Mills, and he says his reconnaissance found the road to Chattanooga open. Rosecrans's order to Wood, as quoted by Cist, was to close up on Reynolds; Cist says Rosecrans's plan was to keep his line closed on the left.",
+      "rationale": "Stated plans from a summary, a quoted order and an interested history; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "nps-ga004-v1",
+          "locator": "Description",
+          "quote": "Bragg was determined to reoccupy Chattanooga and decided to meet a part of Rosecrans's army, defeat them,"
+        },
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-12-28-battle",
+          "locator": "p.31 (OCR page markers; not checked against print)",
+          "quote": "will turn to the left by the most practicable route and sweep up the Chickamauga, toward Lee and Gordon’s Mills."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "wood-order",
+          "locator": "p.220 (OCR page markers; not checked against print)",
+          "quote": "Rosecrans's plan of battle being to keep his line well closed up on the left,"
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "wood-order",
+          "locator": "p.220 (OCR page markers; not checked against print)",
+          "quote": "The General Commanding directs that you close up on Reynolds as fast as possible, and support him,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Bragg calls the reasons for Polk's delay on the 20th entirely unsatisfactory. Cist holds Wood responsible for the gap, says the order was written by an officer with no military experience before the war, argues Rosecrans should have gone to the front rather than to Chattanooga, and says Thomas was the only general officer above division command on the field on the 20th. NPS says Thomas took over command. The frozen commanders are Bragg (General), Longstreet (Lieutenant General), Rosecrans and Thomas (Major Generals); the live heading ranks Bragg Major General.",
+      "rationale": "Judgments are attributed to interested accounts; the frozen commanders do not receive automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-12-28-battle",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "It is suffi- cient to say they are entirely unsatisfactory."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "wood-order",
+          "locator": "p.223 (OCR page markers; not checked against print)",
+          "quote": "to this extent he is responsible for the great disaster"
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "wood-order",
+          "locator": "p.220 (OCR page markers; not checked against print)",
+          "quote": "This order was written by an officer who had no military experience prior to the war,"
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "rosecrans-to-chattanooga",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "The reverse of this should have been done."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "thomas-on-the-20th",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "Thomas was the only general officer on the field of rank above a division com- mander."
+        },
+        {
+          "source_id": "nps-ga004-v1",
+          "locator": "Description",
+          "quote": "George H. Thomas took over command"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA004",
+            "belligerent": "Confederate",
+            "fullname": "Braxton Bragg"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA004",
+            "belligerent": "Confederate",
+            "fullname": "James Longstreet"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA004",
+            "belligerent": "US",
+            "fullname": "William S. Rosecrans"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA004",
+            "belligerent": "US",
+            "fullname": "George H. Thomas"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga004-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Braxton Bragg [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. NPS says Thomas's force held until after dark and then left the field. Bragg says that when night suspended the fighting the whole field was his. Cist calls it a victory only in name because Chattanooga remained in Union hands.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Cist's judgment concerns campaign contribution, not the tactical result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA004"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ga004-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-ga004-v1",
+          "locator": "Description",
+          "quote": "Thomas then led these men from the field leaving it to the Confederates."
+        },
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-09-24",
+          "locator": "p.24 (OCR page markers; not checked against print)",
+          "quote": "when night suspended the work the whole field was ours."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "strengths-and-losses",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "proves that his battle was a victory only in name,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields give 34,624 (US 16,170; CS 18,454). Cist gives Rosecrans's loss as 1,687 killed, 9,394 wounded and 5,255 missing, total 16,336, and Bragg's, in part estimated, as 20,950. Bragg wrote on September 29 that cavalry returns would swell his approximate aggregate to nearly if not quite 18,000, and later that two-fifths of his troops had fallen. He reported about 7,000 prisoners on September 24 and over 8,000 on December 28.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Bragg's inclosed approximate casualty return was not inspected.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA004"
+          },
+          "column": "casualties_text",
+          "quote": "34,624 total (US 16,170; CS 18,454)"
+        },
+        {
+          "source_id": "nps-ga004-v1",
+          "locator": "Estimated Casualties",
+          "quote": "34624 total (US 16170; CS 18454;)"
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "strengths-and-losses",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "Eosecrans losses aggregated killed, 1,687 ; wounded, 9,394; missing, 5,255. Total loss, 16,336."
+        },
+        {
+          "source_id": "cist-chickamauga-selections-v1",
+          "section": "strengths-and-losses",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "His losses, in part estimated, were 2,673 killed, 16,274 wounded, and 2,003 missing, a total of 20,950."
+        },
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-09-29",
+          "locator": "p.25 (OCR page markers; not checked against print)",
+          "quote": "They will swell the aggregate .to nearly if not quite 18,000."
+        },
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-12-28-battle",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "Two-fifths of our gallant troops had fallen,"
+        },
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-09-24",
+          "locator": "p.24 (OCR page markers; not checked against print)",
+          "quote": "about 7,000 prisoners."
+        },
+        {
+          "source_id": "or30-2-bragg-chickamauga-selections-v1",
+          "section": "bragg-1863-12-28-battle",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "We captured over 8,000 prisoners,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Rosecrans's, Thomas's, Wood's, Polk's and Longstreet's reports, the returns and the maps remain deferred.",
+    "NPS/CWSAC is one family. Cist is an interested Union staff history. The Hill, Hindman and Bragg reports, printed in Official Records Series I, Volume XXX, Part 2, are separate families of interested Confederate commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

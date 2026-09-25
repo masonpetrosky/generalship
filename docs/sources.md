@@ -68,6 +68,16 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Chickamauga Campaign first pass, 2026-09-25
+
+The [three-record memo](research/chickamauga-first-pass-v1.md) adds **12 records**, bringing
+the registry to **504 entries / 488 raw paths**, preserving the previous **492/476**. Three
+NPS battle HTML/text pairs remain in the NPS/CWSAC family. Official Records Series I
+Volume XXX Part 2 (Internet Archive `warofrebellion302unit`) is pinned with catalog
+metadata, full OCR and Hill, Hindman and Bragg selections; a new Cist selection reuses
+`cist-cumberland-ocr-v1`. Character ranges and whitespace-only normalization reproduce
+all sections. No model inputs are changed.
+
 ### Gettysburg review correction, 2026-09-25
 
 Three `metadata_only` revisions (GB-R11) supersede `ia-humphreys-metadata-v1`,
