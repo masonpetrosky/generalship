@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **116 draft dossiers / 127 engagements**, with **11 without a dossier**.
+There are **117 draft dossiers / 127 engagements**, with **10 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -314,8 +314,14 @@ Official Records Volume XXXI Part 1. The Brown's Ferry landing's losses are not 
 Separate review is pending.
 Coverage is **30/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Operations on the Memphis & Charleston Railroad [November 1863]**, the next complete frozen
-group by earliest engagement date: **one record, TN022**.
+The [Memphis & Charleston Railroad first pass](research/memphis-charleston-first-pass-v1.md) adds the
+sole **frozen record, TN022 (Collierville)**, with **9 claims, 1 explicit unknown and 41
+citations** from NPS/CWSAC and Hatch's and Chalmers's reports in Official Records Volume
+XXXI Part 1. Separate review is pending.
+Coverage is **31/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Averell's Raid on the Virginia & Tennessee Railroad [November 1863]**, the next complete frozen
+group by earliest engagement date: **one record, WV012**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN022",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Collierville record (November 3, 1863) in Operations on the Memphis & Charleston Railroad [November 1863]. The morning capture of the Quinn's Mill picket, the evening stand at Coldwater, the November 4 pursuit and the other Collierville actions of 1863 are outside this record or not established as within it. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the 3rd Cavalry Brigade (850) against a cavalry division (2,500); the live field reads zero. Hatch says his force engaged at Collierville was about 850 men, and that Chalmers commanded seven regiments and six guns. Chalmers says his scouts reported only one Union cavalry regiment at Collierville, but that at the first fire he found infantry, artillery and cavalry in position.",
+      "rationale": "Hatch's 850 matches the frozen Union bound; no inspected source gives a Confederate count. The imported bounds are unchanged and not validated.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN022"
+          },
+          "column": "forces_text",
+          "quote": "3rd Cavalry Brigade (850) [US]; cavalry division (2,500) [CS]"
+        },
+        {
+          "source_id": "nps-tn022-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or31-1-hatch-collierville-selections-v1",
+          "section": "hatch-1863-11-09",
+          "locator": "p.246 (inferred: the running head reads \"24G\" in OCR, after the p.245 header; not checked against print)",
+          "quote": "Our force engaged at Collierville was about 850 men."
+        },
+        {
+          "source_id": "or31-1-hatch-collierville-selections-v1",
+          "section": "hatch-1863-11-09",
+          "locator": "p.244 (OCR page markers; not checked against print)",
+          "quote": "in command of seven regiments and six pieces of artillery."
+        },
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.247 (inferred: the preceding running head reads \"^47\" in OCR, before the p.248 header; not checked against print)",
+          "quote": "there was only one regiment of cavalry at Germantown and one at Collierville"
+        },
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "the enemy were in position with infantry, artillery, and cavalry,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stockade-and-ridge",
+      "dimension": "terrain",
+      "value": "Hatch says he ordered the Collierville force into the stockade and brought his artillery onto a ridge east of the town. Chalmers says he found the enemy behind intrenchments and later crossed back over Coldwater, where Hatch says the Confederates held a position almost impregnable until after dark.",
+      "rationale": "The stockade's construction date is not established; positions from interested accounts. No map verification.",
+      "citations": [
+        {
+          "source_id": "or31-1-hatch-collierville-selections-v1",
+          "section": "hatch-1863-11-09",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "to throw the forces at Collierville into the stockade,"
+        },
+        {
+          "source_id": "or31-1-hatch-collierville-selections-v1",
+          "section": "hatch-1863-11-09",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "coming into position at a gallop on a ridge east of town"
+        },
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.247 (inferred: the preceding running head reads \"^47\" in OCR, before the p.248 header; not checked against print)",
+          "quote": "even behind intrenchments,"
+        },
+        {
+          "source_id": "or31-1-hatch-collierville-selections-v1",
+          "section": "hatch-1863-11-09",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "having a position almost impregnable,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-bridges",
+      "dimension": "logistics",
+      "value": "Chalmers says his ammunition had not been replenished since his last movement and that he had to build two floating bridges to cross the Tallahatchie. Hatch reported on the afternoon of the 3d that he was short of ammunition.",
+      "rationale": "Supply statements from interested accounts; no return inspected.",
+      "citations": [
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.247 (inferred: the preceding running head reads \"^47\" in OCR, before the p.248 header; not checked against print)",
+          "quote": "My ammunition had not been replenished since my last forward movement,"
+        },
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.247 (inferred: the preceding running head reads \"^47\" in OCR, before the p.248 header; not checked against print)",
+          "quote": "I, was compelled to build two floating bridges to cross it."
+        },
+        {
+          "source_id": "or31-1-hatch-collierville-selections-v1",
+          "section": "hatch-1863-11-03-noon",
+          "locator": "p.244 (OCR page markers; not checked against print)",
+          "quote": "We are short of ammunition."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouts-and-surprise",
+      "dimension": "information",
+      "value": "Chalmers says his scouts reported the railroad being evacuated with one regiment at each post, citizens confirmed it, and he learned only afterward that Hatch had camped at Germantown with three regiments ready to reinforce. Hatch says he heard at 8 a.m. that the pickets were fighting at Coldwater. NPS says scouts warned Hatch.",
+      "rationale": "Attributed knowledge from interested accounts and a summary; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.247 (inferred: the preceding running head reads \"^47\" in OCR, before the p.248 header; not checked against print)",
+          "quote": "the enemy was evacuating the railroad ;"
+        },
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "The citizens up to within a mile of the place confirmed the statement of Henderson’s scouts,"
+        },
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "W e have learned since the fight"
+        },
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "Colonel Hatch, with three regiments of cav- alry, encamped on that night at Germantown,"
+        },
+        {
+          "source_id": "or31-1-hatch-collierville-selections-v1",
+          "section": "hatch-1863-11-09",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "At 8 o’clock in the morning it was reported the pickets were fight- ing at Coldwater,"
+        },
+        {
+          "source_id": "nps-tn022-v1",
+          "locator": "Description",
+          "quote": "Scouts warned Hatch of Chalmers's approach from the south,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "raid-and-assault",
+      "dimension": "objectives",
+      "value": "Chalmers says Johnston ordered him to harass Sherman's rear and break the railroad; he proposed a demonstration on Germantown or Collierville to draw off the Union cavalry, then changed his plan and attacked Collierville. NPS says the raid was meant to break up the railroad behind Sherman's corps.",
+      "rationale": "Stated aims from the Confederate commander and a summary; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.247 (inferred: the preceding running head reads \"^47\" in OCR, before the p.248 header; not checked against print)",
+          "quote": "ordering me to harass his rear and break the railroad behind him."
+        },
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.247 (inferred: the preceding running head reads \"^47\" in OCR, before the p.248 header; not checked against print)",
+          "quote": "suggested that I could make a demonstration on Germantown or Collierville,"
+        },
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "I changed my plan and determined to attack Col- lierville."
+        },
+        {
+          "source_id": "nps-tn022-v1",
+          "locator": "Description",
+          "quote": "to break up the Memphis & Charleston Railroad behind Maj. Gen. William T. Sherman's XV Army Corps,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Hatch says he ordered Trafton into the stockade, brought the Second Iowa up dismounted and had the Sixth Illinois charge the enemy's flank attack. Chalmers says that on discovering the true force he decided at once to withdraw, and that Colonel George rode into the town without the main body of his regiment following. The frozen and live commanders are Colonel Edward Hatch and Brigadier General James R. Chalmers.",
+      "rationale": "Command roles from interested accounts; the frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or31-1-hatch-collierville-selections-v1",
+          "section": "hatch-1863-11-09",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "I immediately ordered Lieutenant- Colonel Trafton"
+        },
+        {
+          "source_id": "or31-1-hatch-collierville-selections-v1",
+          "section": "hatch-1863-11-09",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "I had ordered the Sixth Illinois Cavalry to move rapidly in rear of our line,"
+        },
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "I deter- mined at once to draw off as soon as we could do so successfully,"
+        },
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "The main body of his regiment did not follow him,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN022",
+            "belligerent": "US",
+            "fullname": "Edward Hatch"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN022",
+            "belligerent": "Confederate",
+            "fullname": "James R. Chalmers"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Hatch reported the enemy badly whipped by 3 o'clock and in full retreat; Chalmers says he withdrew in good order by alternate brigades. NPS says the railroad remained open to Tuscumbia.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN022"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tn022-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or31-1-hatch-collierville-selections-v1",
+          "section": "hatch-1863-11-03-noon",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "were badly whipped by 3 o’clock."
+        },
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "This was accomplished easily and in good order,"
+        },
+        {
+          "source_id": "nps-tn022-v1",
+          "locator": "Description",
+          "quote": "The Memphis & Charleston Railroad remained open to Tuscumbia, Alabama,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields give 155 (US 60; CS 95). Hatch says his loss would not exceed 60 and that he captured 50 prisoners and 7 officers. Chalmers gives his loss at Collierville as 6 killed, 63 wounded and 26 prisoners ('misoners' in OCR); his casualty return's grand total reads 95. He separately says his men killed 2 and captured a lieutenant and 26 men at the Quinn's Mill picket.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Hatch's 60 is an upper estimate; the Quinn's Mill picket losses are a separate morning action.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN022"
+          },
+          "column": "casualties_text",
+          "quote": "155 total (US 60; CS 95)"
+        },
+        {
+          "source_id": "nps-tn022-v1",
+          "locator": "Estimated Casualties",
+          "quote": "155 total (US 60; CS 95;)"
+        },
+        {
+          "source_id": "or31-1-hatch-collierville-selections-v1",
+          "section": "hatch-1863-11-09",
+          "locator": "p.246 (inferred: the running head reads \"24G\" in OCR, after the p.245 header; not checked against print)",
+          "quote": "Our loss in killed, wounded, and missing will not exceed 60 men."
+        },
+        {
+          "source_id": "or31-1-hatch-collierville-selections-v1",
+          "section": "hatch-1863-11-09",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "We captured 50 prisoners, 7 commissioned officers,"
+        },
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "My loss at Collierville was 6 killed, 63 wounded, and 26 misoners."
+        },
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-casualty-return",
+          "locator": "p.249 (OCR page markers; not checked against print)",
+          "quote": "Grand total 95"
+        },
+        {
+          "source_id": "or31-1-chalmers-collierville-selections-v1",
+          "section": "chalmers-1863-11-16",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "capturing a lieutenant and 26 men."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Trafton's, McCulloch's, Slemons's and Richardson's reports and Hurlbut's dispatches remain deferred.",
+    "NPS/CWSAC is one family. Hatch's and Chalmers's reports, printed in Official Records Series I, Volume XXXI, Part 1, are separate families of interested opposing commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

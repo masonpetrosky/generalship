@@ -109,6 +109,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [TN019](../data/evidence/TN019.json) | 10 | 1 | 0 | 0 | draft |
 | [TN020](../data/evidence/TN020.json) | 9 | 1 | 0 | 0 | draft |
 | [TN021](../data/evidence/TN021.json) | 9 | 1 | 0 | 0 | draft |
+| [TN022](../data/evidence/TN022.json) | 9 | 1 | 0 | 0 | draft |
 | [VA008](../data/evidence/VA008.json) | 10 | 5 | 0 | 0 | draft |
 | [VA009](../data/evidence/VA009.json) | 9 | 2 | 0 | 0 | draft |
 | [VA010](../data/evidence/VA010.json) | 9 | 3 | 0 | 0 | draft |
@@ -169,8 +170,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 116 engagements have dossiers; 11 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Reopening the Tennessee River first pass](../docs/research/reopening-tennessee-first-pass-v1.md) adds the sole frozen record, Wauhatchie: 9 claims, 1 explicit unknown and 40 citations from NPS/CWSAC, Cist and Bratton's Official Records report. The Brown's Ferry landing is not added and casualty differences remain visible; separate campaign review is pending. Next take the complete one-record Operations on the Memphis & Charleston Railroad. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 117 engagements have dossiers; 10 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Memphis & Charleston Railroad first pass](../docs/research/memphis-charleston-first-pass-v1.md) adds the sole frozen record, Collierville: 9 claims, 1 explicit unknown and 41 citations from NPS/CWSAC and Hatch's and Chalmers's Official Records reports. The morning picket action is not added; separate campaign review is pending. Next take the complete one-record Averell's Raid on the Virginia & Tennessee Railroad. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

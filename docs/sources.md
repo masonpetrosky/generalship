@@ -68,6 +68,14 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Memphis & Charleston Railroad first pass, 2026-09-25
+
+The [one-record memo](research/memphis-charleston-first-pass-v1.md) adds **4 records**,
+bringing the registry to **541 entries / 522 raw paths**, preserving the previous
+**537/518**. One NPS battle HTML/text pair remains in the NPS/CWSAC family. Hatch and
+Chalmers selections reuse `or31-1-illinois-ocr-v1`. Character ranges and whitespace-only
+normalization reproduce all sections. No model inputs are changed.
+
 ### Reopening the Tennessee River first pass, 2026-09-25
 
 The [one-record memo](research/reopening-tennessee-first-pass-v1.md) adds **6 records**,

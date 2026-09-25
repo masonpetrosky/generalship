@@ -22,7 +22,7 @@ wins a commander caused. No validated commander ranking exists here yet.
   dates, force ranges, missingness, outcome codes, and cohort membership.
 - A small regularized logistic baseline using relative force size. Evaluation
   holds out whole campaigns and compares with equal odds and a training-only prior.
-- One hundred sixteen draft dossiers, including the sole frozen Reopening the Tennessee River record,
+- One hundred seventeen draft dossiers, including the sole frozen Memphis & Charleston Railroad record,
   with exact source passages, explicit unknowns, command questions, and
   inherited/created distinctions. See the [coverage table](artifacts/pilot-report.md#draft-evidence-dossiers).
 - A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
@@ -73,7 +73,7 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 ## Research direction
 
 **Current priority: comparable coverage across the 127 engagements.** We have
-one hundred sixteen draft dossiers and 11 engagements without one. Shiloh's repeated source
+one hundred seventeen draft dossiers and 10 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.
@@ -166,7 +166,9 @@ The [Bristoe Campaign pass](docs/research/bristoe-first-pass-v1.md) adds five
 dossiers, 45 claims, 5 explicit unknowns and 190 citations. Separate review is pending.
 The [Reopening the Tennessee River pass](docs/research/reopening-tennessee-first-pass-v1.md) adds one
 dossier, 9 claims, 1 explicit unknown and 40 citations. Separate review is pending.
-Next: **the one-record Operations on the Memphis & Charleston Railroad**. See the
+The [Memphis & Charleston Railroad pass](docs/research/memphis-charleston-first-pass-v1.md) adds one
+dossier, 9 claims, 1 explicit unknown and 41 citations. Separate review is pending.
+Next: **the one-record Averell's Raid on the Virginia & Tennessee Railroad**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.
