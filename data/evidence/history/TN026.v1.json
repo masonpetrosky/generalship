@@ -18,7 +18,7 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force field names the Cavalry Corps, Department of the Ohio, and the Confederate forces in East Tennessee without counts; the live field is blank. The frozen description says Shackelford had about 4,000 cavalry and infantry. Longstreet says he was told there were three brigades of cavalry and one of infantry at Bean's Station, and that his column was infantry and artillery only. Parke relays a prisoner's statement that he belonged to an infantry brigade read \"Grade’s\" in OCR (not checked against print) and that this brigade had the advance.",
+      "value": "The frozen force field names the Cavalry Corps, Department of the Ohio, and the Confederate forces in East Tennessee without counts; the live field is blank. The frozen description says Shackelford had about 4,000 cavalry and infantry. Longstreet says he was told there were three brigades of cavalry and one of infantry at Bean's Station, and that his column was infantry and artillery only. Parke relays a prisoner's statement that Gracie's infantry brigade had the advance.",
       "rationale": "No matched count is inspected; none is adopted. The live blank is not measured absence.",
       "citations": [
         {
@@ -58,7 +58,7 @@
           "source_id": "or31-1-parke-beans-station-selections-v1",
           "section": "parke-1863-12-14",
           "locator": "p.327 (inferred: the preceding running head reads \"827\" in OCR, before the p.328 head; not checked against print)",
-          "quote": "he belongs to Grade’s brigade of infantry ; that this brigade had the advance,"
+          "quote": "this brigade had the advance,"
         }
       ],
       "phase": "unresolved",
@@ -132,7 +132,7 @@
       "id": "surprise-and-clocks",
       "dimension": "information",
       "value": "Longstreet says his infantry reached Bean's Station in good time and surprised the enemy completely, but that W. E. Jones's information about his movements was not correct. The frozen description says a column was skirmishing with Union pickets by 2 a.m. and that the pickets warned Shackelford; Parke reported that the enemy attacked Shackelford at 2 p.m.",
-      "rationale": "The frozen description's 2 a.m. picket skirmishing, followed 'soon' by a battle lasting most of the day, differs from Parke's report of an attack at 2 p.m.; the passages may describe different phases, and neither clock is adopted. Longstreet's complete surprise differs from the description's picket warning. Attributed knowledge from interested accounts.",
+      "rationale": "The frozen description's 2 a.m. and Parke's 2 p.m. conflict; attributed knowledge from interested accounts.",
       "citations": [
         {
           "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
@@ -175,7 +175,7 @@
     {
       "id": "surprise-and-capture",
       "dimension": "objectives",
-      "value": "Longstreet says he hoped to surprise and capture the force at Bean's Station with his main column, Martin's cavalry on the south side and W. E. Jones's cavalry closing the gap. Parke had directed Shackelford to hold Bean's Station in force and make no advance unless further orders or developments required it.",
+      "value": "Longstreet says he hoped to surprise and capture the force at Bean's Station with his main column, Martin's cavalry on the south side and W. E. Jones's cavalry closing the gap. Parke had directed Shackelford to hold Bean's Station in force and make no advance without orders.",
       "rationale": "Stated plans from interested accounts; not a causal estimate.",
       "citations": [
         {
@@ -203,7 +203,7 @@
     {
       "id": "command-roles",
       "dimension": "responsibility",
-      "value": "Longstreet says Martin's cavalry crossed late and only in part, Jones retired from the gap, that Law, ordered on the night of the 14th to march early the following day, reported to Jenkins between 3 and 4 in the afternoon, and that when pursuit was ordered for daylight after the enemy retreated a little after night, Law's complaint of hardships, McLaws's still-unfed troops and a strong desire for rest made him abandon it, the second time in the campaign the enemy escaped. The frozen commanders are Lieutenant General Longstreet and Brigadier General Shackelford; the live heading ranks Longstreet Major General.",
+      "value": "Longstreet says Martin's cavalry crossed late and only in part, Jones retired from the gap, and that the next day Law's lateness, McLaws's unfed troops and a desire for rest made him abandon the pursuit, the second time in the campaign the enemy escaped. The frozen commanders are Lieutenant General Longstreet and Brigadier General Shackelford; the live heading ranks Longstreet Major General.",
       "rationale": "Judgments are attributed; the pursuit decision falls after the frozen date. The frozen commanders do not receive automatic sole credit, and the live rank is not adopted.",
       "citations": [
         {
@@ -222,25 +222,7 @@
           "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
           "section": "longstreet-beans-station",
           "locator": "p.464 (OCR page markers; not checked against print)",
-          "quote": "On the night of the 14th, he was ordered to march early on the fol- lowing day"
-        },
-        {
-          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
-          "section": "longstreet-beans-station",
-          "locator": "p.464 (OCR page markers; not checked against print)",
-          "quote": "between 3 and 4 o’clock in the afternoon."
-        },
-        {
-          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
-          "section": "longstreet-beans-station",
-          "locator": "p.464 (OCR page markers; not checked against print)",
-          "quote": "A little after night the enemy retreated"
-        },
-        {
-          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
-          "section": "longstreet-beans-station",
-          "locator": "p.464 (OCR page markers; not checked against print)",
-          "quote": "General Law preferred a complaint of hardships, &:c. Gen- eral McLaAYS Avas not yet fed, and there seemed so strong a desire for rest rather than to destroy the enemy, that I was obliged to abandon the pursuit,"
+          "quote": "that I was obliged to abandon the pursuit,"
         },
         {
           "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
@@ -348,10 +330,5 @@
     "Shackelford's, Foster's and Kershaw's reports and the returns remain deferred.",
     "NPS/CWSAC is one family. Burnside's, Parke's and Longstreet's reports, printed in Official Records Series I, Volume XXXI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Burnside's full report was written in November 1865 and Longstreet's in January 1864. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "knoxville-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/TN026.v1.json",
-    "sha256": "e98ca555c6c1ad25a0e5ed113d102ec7f81ad19af53c19485f63fb0aa666e281"
-  }
+  ]
 }

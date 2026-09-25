@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 206b7211-bf51-4969-80d6-0c84a08697fc",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit d24eab1e84395c5aa2b295e00c602e17aaaee3f0; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T06:14:49Z",
+  "prepared_commit": "5acbdedb03e590741cb037238edaa400ad2c83cd",
+  "bundle_commit": "d24eab1e84395c5aa2b295e00c602e17aaaee3f0",
+  "assignment_sha256": "201ef345190024257628f2124af390950d988c920ee5c5071470f6a5da78c9c7",
+  "inputs_manifest_sha256": "00c449ecc3b110969e16b37ffc5826b6bac5d71cc8821242e61c053788189fc6",
+  "num_turns": 39,
+  "duration_ms": 506305,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** Required findings are KX-01 to KX-08. There are also seven non-blocking notes, N1 to N7.\n\nReview path: `artifacts/review-results/knoxville-5acbded-opus-high-v1/review.md`. It is the only file I wrote, and I did not commit or push.\n\n**Required corrections** (each has an exact replacement in the review):\n- **KX-01, TN023:** two claims add details the cited passages don't state. One dates the guides' failure to \"the night of the 15th\". The other places the abandoned wagons \"at Lenoir's\". Fix: remove the date, and add a citation from Longstreet's p.459 passage for the location.\n- **KX-02, TN025 casualties:** the claim leaves out Burnside's 1865 figure, \"in all, about 500\" surrendered. It also says three colonels were \"found dead in the ditch\", but only two bodies were found there; the third colonel was killed at the ditch.\n- **KX-03, TN025:** Burnside's 12,000 loses its qualifier, \"exclusive of the new recruits of loyal Tennesseeans\".\n- **KX-04, TN025:** \"rumors of a battle at Chattanooga\" comes from a sentence just outside the selected passage.\n- **KX-05, TN025:** \"Jenkins's brigade\" has no citation and is ambiguous. The source says Jenkins was ordered to advance \"a brigade\".\n- **KX-06, TN026:** the OCR reads \"Grade's\"; the claim silently corrects it to \"Gracie's\".\n- **KX-07, TN026:** the claim gets the reasons for abandoning the pursuit wrong: Longstreet cites Law's \"complaint of hardships\", not his lateness. It also says \"the next day\", but the pursuit was ordered the morning after the enemy left its position on the 15th.\n- **KX-08, TN026 and the memo:** the 2 a.m. picket skirmishing and Parke's 2 p.m. attack may be different phases, so they shouldn't be described as a direct conflict.\n\nThe fixes take citations from 123 to 126 (TN023 43, TN025 48, TN026 35); claims and unknowns are unchanged. The primary then needs to update the counts in the memo, README, roadmap, cli.py and pilot report, and regenerate the packets.\n\n**What checked out:**\n- All 39 input hashes match the prepared commit (5acbded), and the worktree copies are identical.\n- The three NPS pages and the 20 Official Records sections replay exactly from their parents, and the shared parent scan is unchanged.\n- All 123 page locators match the page markers, including \"45f)\", \"320\" and \"827\".\n- Coverage is 121/127 dossiers and 33/36 complete campaign groups. The registry has 555 records / 535 paths, and the earlier 546/526 are unchanged. All older dossiers and history files are byte-identical.\n- There are zero promoted rows. The baseline is unchanged at 23 battles in 13 groups, Brier 0.2768816348133779 versus 0.25.\n- The next group is Chattanooga-Ringgold: TN024 and GA005.\n- The receipt and packet JSON blocks match, and `make check` passes offline (82 tests).\n\nThis is an AI review, not historical adjudication, independent corroboration or feature admission."
+}

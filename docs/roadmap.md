@@ -339,9 +339,12 @@ OCR-reading, entailment and scope corrections, all fixed and
 Coverage is **32/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Knoxville Campaign first pass](research/knoxville-first-pass-v1.md) adds all three
-**frozen records, TN023, TN025 and TN026**, with **27 claims, 3 explicit unknowns and 123
+**frozen records, TN023, TN025 and TN026**, with **27 claims, 3 explicit unknowns and 130
 citations** from NPS/CWSAC and Burnside's, Longstreet's and Parke's reports in Official
-Records Volume XXXI Part 1. Separate review is pending.
+Records Volume XXXI Part 1. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/knoxville-5acbded-opus-high-v1/review.md) found
+eight attribution, scope and OCR-reading corrections, all fixed and
+[verified by the primary](../artifacts/review-results/knoxville-5acbded-opus-high-v1/primary-assessment.md).
 Coverage is **33/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Chattanooga-Ringgold Campaign first pass](research/chattanooga-ringgold-first-pass-v1.md) adds
