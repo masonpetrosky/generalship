@@ -2,34 +2,33 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). All
 **sixteen frozen records** in **Atlanta Campaign [May-September 1864]** now have draft
-dossiers: **144 claims, 19 explicit null unknowns and 718 citation occurrences**. All seven
-dimensions are represented in each record. All dossiers remain drafts; no features are
-admitted. Separate review is pending.
+dossiers: **144 claims, 19 explicit null unknowns and 734 citation occurrences** (718 before
+the review correction below). All seven dimensions are represented in each record. All
+dossiers remain drafts; no features are admitted. A separate review has been run and
+reconciled; see "Separate review" and "Review correction" below.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
 | GA007 — Rocky Face Ridge | 1864-05-07 to 05-13 | 9 | 1 | 46 | 3 |
-| GA008 — Resaca | 1864-05-13 to 05-15 | 9 | 1 | 42 | 3 |
-| GA009 — Adairsville | 1864-05-17 | 9 | 1 | 37 | 3 |
-| GA010 — New Hope Church | 1864-05-25 to 05-26 | 9 | 1 | 48 | 3 |
+| GA008 — Resaca | 1864-05-13 to 05-15 | 9 | 1 | 43 | 3 |
+| GA009 — Adairsville | 1864-05-17 | 9 | 1 | 40 | 3 |
+| GA010 — New Hope Church | 1864-05-25 to 05-26 | 9 | 1 | 50 | 3 |
 | GA011 — Dallas | 1864-05-26 to 06-01 | 9 | 1 | 42 | 3 |
-| GA012 — Pickett's Mill | 1864-05-27 | 9 | 1 | 50 | 3 |
-| GA013 — Marietta [Operations] | 1864-06-09 to 07-03 | 9 | 1 | 46 | 3 |
+| GA012 — Pickett's Mill | 1864-05-27 | 9 | 1 | 52 | 3 |
+| GA013 — Marietta [Operations] | 1864-06-09 to 07-03 | 9 | 1 | 47 | 3 |
 | GA014 — Kolb's Farm | 1864-06-22 | 9 | 2 | 42 | 3 |
-| GA015 — Kennesaw Mountain | 1864-06-27 | 9 | 1 | 46 | 3 |
+| GA015 — Kennesaw Mountain | 1864-06-27 | 9 | 1 | 47 | 3 |
 | GA016 — Peachtree Creek | 1864-07-20 | 9 | 2 | 45 | 3 |
 | GA017 — Atlanta | 1864-07-22 | 9 | 1 | 51 | 3 |
 | GA018 — Ezra Church | 1864-07-28 | 9 | 1 | 47 | 3 |
-| GA019 — Utoy Creek | 1864-08-05 to 08-07 | 9 | 2 | 40 | 3 |
-| GA020 — Dalton II | 1864-08-14 to 08-15 | 9 | 1 | 39 | 3 |
+| GA019 — Utoy Creek | 1864-08-05 to 08-07 | 9 | 2 | 41 | 3 |
+| GA020 — Dalton II | 1864-08-14 to 08-15 | 9 | 1 | 41 | 3 |
 | GA021 — Lovejoy's Station | 1864-08-20 | 9 | 1 | 43 | 3 |
-| GA022 — Jonesborough | 1864-08-31 to 09-01 | 9 | 1 | 54 | 3 |
+| GA022 — Jonesborough | 1864-08-31 to 09-01 | 9 | 1 | 57 | 3 |
 
-In this worktree, coverage is **143/384 cohort-v2 engagements** with draft dossiers (the
-127 v1 records plus these 16). By dossier presence that is **37/119 campaign groups**. A
-parallel pass on another campaign is not counted here. All 127 earlier dossiers and all
-historical revisions are unchanged. Dossier presence is not first-pass acceptance,
-separate review or model eligibility.
+This pass and its review correction change no dossier outside GA007–GA022 and no earlier
+historical revision. Dossier presence is not first-pass acceptance, separate review or
+model eligibility.
 
 ## Inspection and stopping record
 
@@ -45,8 +44,8 @@ Each record uses two further families.
 
 **Cox, *Atlanta*** (Scribner, 1882; Campaigns of the Civil War IX), newly pinned from the
 University of California copy (`atlantabyjacobcox09jcoxrich`), with catalog metadata.
-The title page imprint and copyright both read 1882 in OCR. Seventeen passages are
-selected and read in full:
+The title page imprint and copyright both read 1882 in OCR. Sixteen passages (plus the
+title page) are selected and read in full:
 
 - Chapter III on opening strength (OCR pp.25–29);
 - Chapters IV–VI (pp.33–58), including the Dalton and Resaca losses paragraph;
@@ -122,14 +121,17 @@ Official Records Part 1 was downloaded and deleted, unregistered, once no record
 Sherman's report under the three-family ceiling. No follow-up beyond three families was
 made. Stop after this batch.
 
-Forty-seven new source records bring the registry to **656 entries / 635 raw paths**,
-preserving the earlier **609/588**:
+The pass adds **47 source records**:
 
 - sixteen NPS HTML/text pairs;
 - Cox catalog metadata, full OCR and one selection;
 - OR XXXVIII Parts 2 and 3 catalog metadata and full OCR;
 - eight OR selections (Johnston, Hood, Cleburne, Logan, Hardee, Schofield, Steedman,
   Kilpatrick).
+
+The review correction adds one `metadata_only` successor, `cox-atlanta-selections-v2`
+(ATL-R8), which corrects the passage count in the inspection note. It has the same raw bytes
+and ranges as v1 and is not an additional witness; all Cox citations now cite it.
 
 ## Decisions and limits
 
@@ -159,13 +161,21 @@ preserving the earlier **609/588**:
     - Johnston's 41,000 infantry and artillery plus 10,000 cavalry transferred.
   - Partial one-side figures:
     - Cleburne's 4,683 muskets;
-    - Steedman's 1,800 effective, with his opinions of 6,000 and 3,000;
+    - Steedman's 1,800 effective troops engaged (a list that begins with the Dalton
+      garrison commander's regiment, so not the relief column alone), with his opinions
+      of 6,000 and 3,000;
     - Kilpatrick's 4,500, against his 1,100 for Ross and 4,000 for Jackson;
     - the militia at 3,800 (Cox) and about 1,500 (Johnston).
 - **Disputes preserved.**
   - New Hope Church:
     - entrenchment: Johnston says his troops were not entrenched, and Cox disputes it;
     - Wheeler's Cassville wagons: seventy per Cox against 250 per Johnston.
+  - Adairsville: Cox's narrative has French's division joining Polk's corps at Adairsville;
+    his Appendix A and Johnston have it joining at Cassville on May 18. Its presence on
+    May 17 is not assumed.
+  - May 27 entrenchment: Johnston says his troops were not entrenched in the May 25 and
+    May 27 actions; Cleburne says entrenchments were thrown up on the 26th and the morning
+    of the 27th. Each of GA010 and GA012 notes the other's statement in its rationale.
   - Dallas: Logan's prisoners' estimate of Hardee's whole command (25,000) against Cox's
     Bate's-division reconnaissance.
   - Kolb's Farm:
@@ -178,9 +188,15 @@ preserving the earlier **609/588**:
     - artillery: Logan says he used none, while Cox says Howard massed artillery;
     - cover: Logan's two reports differ.
   - Utoy Creek: Schofield judged the line an outer line not held in strong force; Cox
-    says it was strongly held.
+    says it was strongly held. Schofield also says no movement of consequence was made on
+    August 4–5, while Cox has Baird carrying the entrenched skirmish line on the 5th.
+  - Kennesaw: Johnston names French's and Featherston's divisions of Loring's corps as the
+    most heavily assailed; Cox puts Logan's attack on French's and Walker's.
+  - Atlanta: Hood claims 13 guns taken; Cox gives ten Union guns lost.
   - Peachtree Creek and Atlanta: Hood blames Hardee; Cox rejects the complaint.
-  - Jonesborough: Hardee and Hood dispute the fall of Atlanta.
+  - Jonesborough: Hardee and Hood dispute the fall of Atlanta. For August 31, Hardee says
+    Cleburne carried the enemy's works on the left (and, in 1865, that part of his command
+    crossed the Flint and took 2 guns); Cox says Cleburne's corps took little part.
   - Lovejoy's Station: Kilpatrick's "most perfect rout" against the frozen Confederate
     victory and NPS; a brigade of infantry against Cleburne's division.
   - Loss figures differ in almost every record and are kept separate:
@@ -190,7 +206,8 @@ preserving the earlier **609/588**:
       Dallas, Pickett's Mill and Ezra Church;
     - the live zeros at Marietta and Dalton II are not measured absence.
 - **Observations, not reconciliations.**
-  - The frozen Ezra Church US 562 equals Logan's Fifteenth Corps aggregate. The live
+  - The frozen Ezra Church US 562 equals Logan's aggregate for "my losses"; the inspected
+    passages do not say whether it includes the regiments lent by Blair and Dodge. The live
     Dallas US 380 is close to Logan's 379. Cleburne's killed and wounded sum to 448, a
     computation here, close to the live Pickett's Mill CS 450. No frozen or live figure's
     basis is established.
@@ -216,15 +233,77 @@ zero promoted rows.
 
 ## Validation
 
-- `python3 -m generalship check` passes. Every quote occurs in its cited section.
-- `python3 -m unittest discover -s tests` has one failure:
-  `test_repository_dossiers_have_resolvable_passages` compares the dossier set with a
-  hard-coded list of the 127 v1 IDs. The only extra IDs are GA007–GA022. The test needs
-  a cohort-v2-aware expectation. It was not edited in this pass.
+- `python3 -m generalship check` passes. Every quote occurs in its cited section, and
+  `gs.MISSES` is empty after the review correction.
+- `python3 -m unittest discover -s tests` passes (134 tests).
+  `test_repository_dossiers_have_resolvable_passages` already accepts any cohort-v2 ID.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run. The draft, its sixteen dossiers and the eight OR
-selections and one Cox selection await a separate Claude Opus 5.5 `high` review by
-complete campaign. That review should check the misread OCR page heads and the
-attributions in the controversial reports (Hood, Hardee, Johnston).
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed
+commit `1191d32` as `atlanta-review-1191d32-opus-high-v1` on 2026-09-25. Its outcome was
+"corrections required": eight required findings (ATL-R1 to ATL-R8) and eleven advisories
+(ATL-A1 to ATL-A11). It is an AI review within its stated scope, not human historical
+adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each required finding was checked against the retained selection text before any change;
+every new quote occurs in its section, and the dossiers were regenerated from the builder.
+All sixteen dossiers are revised under `atlanta-review-correction-2026-09-25` (the Cox
+source move touches each of them) and supersede byte-for-byte archives at
+`data/evidence/history/GA007.v1.json` to `GA022.v1.json`. All eight required findings hold
+and are applied:
+
+- **ATL-R1** (this memo): the coverage paragraph, registry totals and validation statement
+  were stale. Repository-wide coverage and registry totals are removed rather than updated,
+  since parallel passes make them stale; only this campaign's counts and the records it adds
+  remain. The validation section is corrected: the named test already accepts cohort-v2 IDs.
+- **ATL-R2** (GA009 `reported-force-scope`): Cox's Appendix A and Johnston place French's
+  division joining at Cassville on May 18, against Cox's narrative (Adairsville). Value and
+  rationale corrected; three citations added (Cox pp.242–243, Johnston p.615).
+- **ATL-R3** (GA012 `reported-force-scope`): Cleburne says the dismounted cavalry had passed
+  behind Granbury as the Union advance began, not that it supported him on his right.
+  Value corrected; the "passed behind him" clause and Quarles's "second line" are cited.
+- **ATL-R4** (GA010 `wooded-ridges-and-works`, GA012 `wooded-ravine-and-angle`): the
+  Johnston–Cleburne conflict on May 27 entrenchment is cross-referenced in both rationales,
+  without new cross-family citations. GA012 also notes that the inspected passages do not
+  settle how far Cleburne's works of the 26th–27th covered the ground of the afternoon fight.
+- **ATL-R5** (GA018 `casualty-records`): the claim that Logan's 562 excludes the regiments lent
+  by Blair and Dodge was unsupported. The value now quotes "my losses" and the rationale says
+  the scope is not established.
+- **ATL-R6** (GA020 `reported-force-scope` and this memo): Steedman's 1,800 is all troops
+  engaged, in a list beginning with Laiboldt's Second Missouri. Value and rationale corrected;
+  two citations added (p.496).
+- **ATL-R7** (GA019 `casualty-records`): Schofield says no movement of consequence was made on
+  the 4th and 5th, against Cox's skirmish-line action on the 5th. Value and rationale
+  corrected; p.517 citation added. The claim was already `disputed`.
+- **ATL-R8** (this memo and the registry): the Cox selection has sixteen passages plus the
+  title page. The memo is corrected, and the registry's inspection note is corrected by the
+  `metadata_only` successor `cox-atlanta-selections-v2`, which supersedes
+  `cox-atlanta-selections-v1` (kept unchanged). Every Cox citation moves to v2.
+
+Advisories:
+
+- **Adopted as wording and citations:** A1 (GA009: Cox's maps passage is scoped to the May 18
+  pursuit), A2 (GA013: the beef-on-the-hoof passage is the early-June change of base; Johnston's
+  41,000 and 10,000 is the force transferred at his relief on the night of July 17, now cited),
+  A3 (GA022 `recorded-result`: Hardee's August 31 telegram and 1865 report against Cox on
+  Cleburne's part; three citations; now `disputed`), A5 (GA017: Hood's 13 guns against Cox's
+  ten), A6 (GA010: Geary's advance-guard fight before the three-division assault, Williams and
+  Butterfield arriving about five o'clock; Cox's 200 officers added to Quarles's 2,200; two
+  citations), A7 (GA015: Cox's French's and Walker's divisions against Johnston's French's and
+  Featherston's; one citation), A8 (GA008: the Judah sentence cited), A9 (this section).
+- **Not adopted:** A4 (GA018 duration). Logan's July 29 report says the battle lasted until
+  about 3 o'clock and that his lines were assaulted several more times later in the evening,
+  so "until darkness" in the campaign report is a difference of reference, not a conflict.
+- **Recorded, no change:** A10 (per-campaign independence groups for Johnston, Cleburne and
+  Hardee). Separate group names are not evidence of independence; any cross-campaign use that
+  counts families should treat same-author groups as dependent. Hardee's Shiloh-era papers sit
+  in the container-level `or-beauregard` group and his Atlanta reports in an author-level
+  group. The group assignments are unchanged. A11 confirms the GA013 aggregate handling, the
+  live campaign label, the 1882 Cox edition and the 1891 OR imprint; no change.
+
+Citations rise from 718 to 734; claims (144) and unknowns (19) are unchanged, and disputed
+claims rise from 43 to 44 (GA022 `recorded-result`). No model input, cohort file, admission
+proposal or baseline is changed.

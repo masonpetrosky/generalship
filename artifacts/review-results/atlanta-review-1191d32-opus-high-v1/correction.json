@@ -1,0 +1,122 @@
+{
+  "review_sha256": "a810d97afaffdf1666f6cdf0cf29ae9092b2972e82c817de3da7e0782f9fbef3",
+  "prepared_commit": "1191d32433575d224120a6d2aa1df8e381dcecf7",
+  "bundle_commit": "794993bcabea8dde394871fe31e50d8757357677",
+  "scope": "Atlanta Campaign first pass review",
+  "findings": [
+    {
+      "finding_id": "ATL-R1",
+      "disposition": "accepted_applied",
+      "summary": "Memo: repository-wide coverage (143/384, 37/119, '127 earlier dossiers') and registry totals (656/635, 609/588) removed rather than updated, per the RECONCILE brief; only campaign counts and 'adds 47 source records' remain. Stale validation bullet replaced: check and 134 tests pass; test_repository_dossiers_have_resolvable_passages already accepts cohort-v2 IDs. The reviewer's replacement totals (169/384, 40/119, 736/715) were not inserted."
+    },
+    {
+      "finding_id": "ATL-R2",
+      "disposition": "accepted_applied",
+      "summary": "GA009 reported-force-scope: Cox narrative (Adairsville) vs Cox Appendix A and Johnston (Cassville, May 18) on French's division; value and rationale corrected; three citations added (Cox pp.242, 243; Johnston p.615). Verified in context."
+    },
+    {
+      "finding_id": "ATL-R3",
+      "disposition": "accepted_applied",
+      "summary": "GA012 reported-force-scope: dismounted cavalry 'had passed behind' Granbury as the advance began; Quarles formed a second line. Value corrected; two supporting Cleburne citations added ('had passed behind him. when the enemy advanced.'; 'formed as a second line') beyond the reviewer's no-citation-change proposal."
+    },
+    {
+      "finding_id": "ATL-R4",
+      "disposition": "accepted_applied",
+      "summary": "GA010 wooded-ridges-and-works and GA012 wooded-ravine-and-angle rationales cross-reference the Johnston/Cleburne May 27 entrenchment conflict; no cross-family citation. GA012 adds that the inspected passages do not settle how far Cleburne's 26th-27th works covered the afternoon fight's ground (his entrenching passage precedes the move to the right)."
+    },
+    {
+      "finding_id": "ATL-R5",
+      "disposition": "accepted_applied",
+      "summary": "GA018 casualty-records: unsupported 'does not cover the reinforcing regiments' removed; rationale says the inspected passages do not establish whether Logan's 'my losses' 562 includes the regiments lent by Blair and Dodge. Value's \"his corps' loss\" also changed to 'my losses'; memo observation reworded."
+    },
+    {
+      "finding_id": "ATL-R6",
+      "disposition": "accepted_applied",
+      "summary": "GA020 reported-force-scope: 1,800 is all troops engaged (list begins with Laiboldt's Second Missouri, commanding Dalton), not the relief column alone; value/rationale corrected; two p.496 citations added; memo bullet corrected."
+    },
+    {
+      "finding_id": "ATL-R7",
+      "disposition": "accepted_applied",
+      "summary": "GA019 casualty-records: Schofield's 'During the 4th and 5th no movement of consequence was made' added against Cox's Aug 5 skirmish-line action (Cox dates it via 'Orders for the 5th'); value/rationale corrected; p.517 citation added; already disputed."
+    },
+    {
+      "finding_id": "ATL-R8",
+      "disposition": "accepted_applied",
+      "summary": "Memo 'Seventeen passages' -> 'Sixteen passages (plus the title page)'. Registry: metadata_only successor cox-atlanta-selections-v2 registered (supersedes v1 with metadata sha256 b52d8fc4...; same path/bytes/ranges; inspection count corrected); all Cox citations in GA007-GA022 moved to v2, so all sixteen dossiers are revised and archived."
+    },
+    {
+      "finding_id": "ATL-A1",
+      "disposition": "accepted_applied",
+      "summary": "GA009 engineer-reports-and-maps rationale: Cox's maps/hostile-inhabitants passage scoped to the May 18 pursuit (context)."
+    },
+    {
+      "finding_id": "ATL-A2",
+      "disposition": "accepted_applied",
+      "summary": "GA013: beef-on-the-hoof passage scoped to the early-June change of base; Johnston's 41,000/10,000 scoped to the transfer at his relief on the night of July 17, with the relief sentence cited."
+    },
+    {
+      "finding_id": "ATL-A3",
+      "disposition": "accepted_applied",
+      "summary": "GA022 recorded-result: Hardee's Aug 31 telegram and 1865 report (Cleburne carried the works; part crossed the Flint and took 2 guns) against Cox ('took little part'); three citations; status now disputed."
+    },
+    {
+      "finding_id": "ATL-A4",
+      "disposition": "not_adopted",
+      "summary": "Logan's July 29 report says the battle lasted until about 3 o'clock and that his lines were assaulted several more times later in the evening, so 'until darkness' is a difference of reference, not a conflict."
+    },
+    {
+      "finding_id": "ATL-A5",
+      "disposition": "accepted_applied",
+      "summary": "GA017 casualty-records rationale notes Hood's 13 guns taken vs Cox's ten Union guns lost; neither adopted."
+    },
+    {
+      "finding_id": "ATL-A6",
+      "disposition": "accepted_applied",
+      "summary": "GA010 reported-force-scope: Geary's advance-guard fight separated from the later three-division assault (Williams and Butterfield about five o'clock); Cox's 200 officers added to Quarles's 2,200; two citations."
+    },
+    {
+      "finding_id": "ATL-A7",
+      "disposition": "accepted_applied",
+      "summary": "GA015 command-roles: Cox's 'French's and Walker's divisions' opposite Logan cited against Johnston's French's and Featherston's; noted as a minor unresolved discrepancy."
+    },
+    {
+      "finding_id": "ATL-A8",
+      "disposition": "accepted_applied",
+      "summary": "GA008 command-roles: Cox's 'His right division (Judah's) marched against the angle...' sentence cited."
+    },
+    {
+      "finding_id": "ATL-A9",
+      "disposition": "accepted_applied",
+      "summary": "Memo 'Separate review pending' replaced with 'Separate review' and 'Review correction' sections."
+    },
+    {
+      "finding_id": "ATL-A10",
+      "disposition": "kept_as_is",
+      "summary": "No change to independence groups; memo records that same-author groups across campaigns (Johnston, Cleburne, Hardee; container-level or-beauregard vs author-level here) must be treated as dependent in any cross-campaign family count. A future registry note is for the primary/owner."
+    },
+    {
+      "finding_id": "ATL-A11",
+      "disposition": "kept_as_is",
+      "summary": "Confirmation that GA013 aggregate handling, the rejected live campaign label, the 1882 Cox edition and the 1891 OR imprint are sound; no change."
+    }
+  ],
+  "corrected_dossiers": {
+    "GA007": "870877856e091291994057fd957b213ef3a1c22f64454acd4add408f96418062",
+    "GA008": "3eb0fe20023de316fac966d4b684b8e7bd1cb62668fd36fd564b671699f25a6b",
+    "GA009": "7dc7d273576d31e12ab5018411891536a2e79507638c27294fc35cde57397410",
+    "GA010": "396cac1b2b443e39f356884346756e390a950738f29c4a4244da514b17d55380",
+    "GA011": "5187c085d2ef6a316bc9abb2d13960d77e4ee20edf41c117367a9c12dac7971c",
+    "GA012": "d0b7b341c02e541101b75d03851b616375cb3f1dea486b0ffce060924ad6255b",
+    "GA013": "46ddf55549f339689876a111c39c5ef9c00120c27ae425e63071a62347c1281f",
+    "GA014": "be1fc31653eea13cf1285bb572d27667199ca8189f731e82502aca04f5f50a2c",
+    "GA015": "c228c7cdb073ce8b6ba72ea75bfe1bbfcdd3b7460048feb0bb7752cc1a0adc31",
+    "GA016": "87e28b981b1af8865d4b1e629038ae2ec87312fe910d58cc1be96e7c5c0ed001",
+    "GA017": "c7b6e7df88272809878c614f1cd807354c634f275b91075295aaffcae29747d8",
+    "GA018": "d57c690193c350046dc2e2fdaa6ab7a32098965196a5c38c0fa376f9521234c2",
+    "GA019": "b4ce074a69c7af082f24dbc3d8a0b1a872c414671c964d001e7bb1aa830c5627",
+    "GA020": "36c16170a9aa4e3aa7c1fb34d091e3c433c89ef3286d39d20c91f73087c36dab",
+    "GA021": "79d4bf6d785a25b05d30f88b9c1a31ada66ba053a33b26f2f069cd5b33c95390",
+    "GA022": "ac7b370b36b45e415e8d934bfa14469ed6ed8a3a5555ddd1f98bb1a938b3c8c4"
+  },
+  "independent_followup_review": false
+}
