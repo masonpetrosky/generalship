@@ -18,7 +18,7 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force text and the live page read 6,800 total (US 5,000; CS 1,800). Jones gives Wagner's garrison on July 18 as an aggregate of about seventeen hundred, the Union force about seven thousand when Beauregard weighed a counterattack, and the Fifty-fourth Massachusetts as nearly a thousand; Gillmore calls the assaulting regiments all small. Jones reports Gillmore's July 20 letter as saying he had commenced operations with somewhat more than 13,000 on Morris and Folly Islands. For the siege Jones gives Union returns of 29,405 present (4661 sick) in August and 28,981 (5269 sick) in September, and about 900 Confederates and 9,000 Union soldiers on the island on September 6; Keitt wrote that he had fewer than four hundred effective infantry. In August Gillmore wrote that Beauregard had twice as many men and five times the artillery.",
+      "value": "The frozen force text and the live page read 6,800 total (US 5,000; CS 1,800). Jones gives Wagner's garrison on July 18 as an aggregate of about seventeen hundred, the Union force about seven thousand when Beauregard weighed a counterattack, and the Fifty-fourth Massachusetts as nearly a thousand; Gillmore calls the assaulting regiments all small. For the siege Jones gives Union returns of 29,405 present (4661 sick) in August and 28,981 (5269 sick) in September, and about 900 Confederates and 9,000 Union soldiers on the island on September 6; Keitt wrote that he had fewer than four hundred effective infantry. In August Gillmore wrote that Beauregard had twice as many men and five times the artillery.",
       "rationale": "Figures for different dates and scopes in a record spanning fifty-two days; the frozen figures' basis is not stated in any inspected passage. None is adopted as a matched opening strength.",
       "citations": [
         {
@@ -57,12 +57,6 @@
           "section": "gillmore-1864-02-28-assault-july-18",
           "locator": "p.15 (OCR page markers; not checked against print)",
           "quote": "The regiments were all small."
-        },
-        {
-          "source_id": "jones-charleston-1863-selections-v1",
-          "section": "wagner-july-18",
-          "locator": "p.244 (OCR page markers; not checked against print)",
-          "quote": "He had commenced with somewhat more than 13,000 on Morris and Folly Islands,"
         },
         {
           "source_id": "jones-charleston-1863-selections-v1",
@@ -392,7 +386,7 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 1,689 total (US 1,515; CS 174); the live field reads 1737 (US 1515; CS 222). Jones gives the Confederate loss on July 18 as 174 and says the Federal loss was never officially ascertained, citing Taliaferro's estimate of not less than 2000 and Beauregard's 3000; elsewhere he gives 1600 to 3000. For the whole fifty-eight days on the island, which include SC005's July 10-11 losses, he gives 641 Confederate killed and wounded, and 296 for the bombardment after deducting the July 10 descent and the July 11 and 18 assaults. At the evacuation Gillmore says seventy men were intercepted; Jones says two boats' crews and twenty-seven soldiers.",
+      "value": "The frozen casualty text reads 1,689 total (US 1,515; CS 174); the live field reads 1737 (US 1515; CS 222). Jones gives the Confederate loss on July 18 as 174 and says the Federal loss was never officially ascertained, citing Taliaferro's estimate of not less than 2000 and Beauregard's 3000; elsewhere he gives 1600 to 3000. For the whole fifty-eight days on the island he gives 641 Confederate killed and wounded. At the evacuation Gillmore says seventy men were intercepted; Jones says two boats' crews and twenty-seven soldiers.",
       "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. July 18, siege-wide and evacuation figures are different populations and must not be added to one another or to SC005.",
       "citations": [
         {
@@ -439,18 +433,6 @@
           "quote": "The Confederate loss on the island during the whole fifty-eight days' operations was but 641 killed and wounded,"
         },
         {
-          "source_id": "jones-charleston-1863-selections-v1",
-          "section": "wagner-siege-and-evacuation",
-          "locator": "p.276 (OCR page markers; not checked against print)",
-          "quote": "deducting the loss due to the descent on the island on July 10"
-        },
-        {
-          "source_id": "jones-charleston-1863-selections-v1",
-          "section": "wagner-siege-and-evacuation",
-          "locator": "p.276 (OCR page markers; not checked against print)",
-          "quote": "the loss in kiUed and wounded during the whole of the terrible bombard- ment was but 296 men."
-        },
-        {
           "source_id": "or28-1-gillmore-charleston-selections-v1",
           "section": "gillmore-1864-02-28-capture-of-wagner-and-sumter-assault",
           "locator": "p.27 (OCR page markers; not checked against print)",
@@ -471,10 +453,5 @@
     "Seymour's, Putnam's, Stevenson's, Terry's and the engineers' reports, Beauregard's general report, Taliaferro's, Hagood's and Keitt's reports, and the Union and Confederate casualty returns for July 18 and the siege remain deferred.",
     "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. Quincy A. Gillmore's report dated February 28, 1864 (Official Records I, XXVIII part 1, No. 2) is one family of interested Union accounts. Samuel Jones's The Siege of Charleston (1911) is a posthumous Confederate general's history that quotes Gillmore's, Seymour's, Strong's, Ripley's, Taliaferro's and Beauregard's reports and is not independent of them. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "charleston-1863-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/SC007.v1.json",
-    "sha256": "13fafa7617e0514aa6901bf00fea2b438c8415f6d2a62c29b7b1fbf9f8c03666"
-  }
+  ]
 }

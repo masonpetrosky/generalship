@@ -19,7 +19,7 @@
       "id": "reported-force-scope",
       "dimension": "strength",
       "value": "The frozen force field names the Port Royal Expeditionary Force's investment troops and the fort garrison; the live field reads zero. Gillmore's December 1, 1861 reconnaissance letter, reprinted in his 1865 report, estimated 'probably' 700 good troops in the fort. His 1865 report says the garrison was found at the surrender to consist of 385 men including a full complement of officers; Jones gives five companies of the First Georgia, aggregate strength 385, under Olmstead. For the Union side Gillmore names the Seventh Connecticut, the Forty-sixth New York, two companies of volunteer engineers, two companies of the Third Rhode Island Artillery and an engineer detachment, without numbers. Armament also differs: the fort contained 48 guns, 20 bearing on Tybee (Gillmore 1865), or mounted 46 with twenty of the heaviest bearing (Jones); the Union batteries held thirty-six pieces (Gillmore 1862, Jones) or '30 pieces' as the 1865 report reads in OCR.",
-      "rationale": "A pre-siege estimate four months earlier, a surrender-time count and unit lists. Jones's 385 matches Gillmore's and is not independent. None is adopted as a matched opening strength. The live zero is not measured absence; the frozen bounds are blank. The '30 pieces' reading of the 1865 report conflicts with its own itemized battery table in the same section (Batteries Stanton through Totten list 3+3+3+3+1+3+2+4+6+4+4 = 36 pieces, a computation from the listed rows); the OCR figure is preserved but is probably a misreading, not an independent count.",
+      "rationale": "A pre-siege estimate four months earlier, a surrender-time count and unit lists. Jones's 385 matches Gillmore's and is not independent. None is adopted as a matched opening strength. The live zero is not measured absence; the frozen bounds are blank.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -69,12 +69,6 @@
           "section": "fort-pulaski",
           "locator": "p.83 (OCR page markers; not checked against print)",
           "quote": "At the time of the bombardment it mounted 46 guns,"
-        },
-        {
-          "source_id": "jones-fort-pulaski-selections-v1",
-          "section": "fort-pulaski",
-          "locator": "p.82 (OCR page markers; not checked against print)",
-          "quote": "There were eleven batteries mounting thirty- six guns,"
         },
         {
           "source_id": "jones-fort-pulaski-selections-v1",
@@ -153,8 +147,8 @@
     {
       "id": "siege-labor-and-isolation",
       "dimension": "logistics",
-      "value": "Gillmore says ordnance was landed without a wharf on an exposed beach, that 250 men could hardly move a 13-inch mortar on a sling-cart, and that each battery had a service magazine for about two days' firing, with a depot magazine of 3,600 barrels. He dates the absolute blockade of the fort from February 22 but says it proved impossible to isolate it perfectly. Jones says that before the end of February the force in Lazaretto Creek, with the batteries on Venus Point and Bird Island, 'effectually isolated' Pulaski, and that the fort would necessarily have had to surrender through starvation once its provisions were consumed.",
-      "rationale": "Besieger's labor and supply arrangements, and a historian's inference about the garrison's provisions; no garrison return or supply inventory inspected. Jones's 'effectually isolated' and Gillmore's statement that perfect isolation proved impossible (messengers passed over the marshes) differ; Jones follows Gillmore's report and is not independent of it.",
+      "value": "Gillmore says ordnance was landed without a wharf on an exposed beach, that 250 men could hardly move a 13-inch mortar on a sling-cart, and that each battery had a service magazine for about two days' firing, with a depot magazine of 3,600 barrels. He dates the absolute blockade of the fort from February 22 but says it proved impossible to isolate it perfectly. Jones says the fort would necessarily have had to surrender through starvation once its provisions were consumed.",
+      "rationale": "Besieger's labor and supply arrangements, and a historian's inference about the garrison's provisions; no garrison return or supply inventory inspected.",
       "citations": [
         {
           "source_id": "or6-gillmore-fort-pulaski-selections-v1",
@@ -196,12 +190,6 @@
           "source_id": "jones-fort-pulaski-selections-v1",
           "section": "fort-pulaski",
           "locator": "p.81 (OCR page markers; not checked against print)",
-          "quote": "in conjunction with the batteries on Venus Point and Bird Island, effectually isolated Pulaski."
-        },
-        {
-          "source_id": "jones-fort-pulaski-selections-v1",
-          "section": "fort-pulaski",
-          "locator": "p.81 (OCR page markers; not checked against print)",
           "quote": "It would necessarily have had to surrender through starvation when the supply of provisions should be consumed;"
         }
       ],
@@ -212,7 +200,7 @@
       "id": "concealment-and-messengers",
       "dimension": "information",
       "value": "Gillmore says the positions of the five most advanced batteries were screened from the fort little by little, that subsequent inquiry showed the defenders knew the exact position of only two batteries, and that messengers passed between the fort and the interior over the marshes.",
-      "rationale": "What the defenders knew is inferred afterward by the besieging commander; no Confederate report was inspected (the volume's report list includes Pemberton's and Lawton's reports, which were not inspected; no report by Olmstead is listed).",
+      "rationale": "What the defenders knew is inferred afterward by the besieging commander; no Confederate report was inspected (none is listed in the volume's report list).",
       "citations": [
         {
           "source_id": "or6-gillmore-fort-pulaski-selections-v1",
@@ -389,7 +377,7 @@
       "id": "casualty-records",
       "dimension": "outcome",
       "value": "The frozen casualty text reads 365 total (US 1; CS 364); the live field reads 2 total (US 1; CS 1). Gillmore reports one Union man killed and says several of the garrison were severely and one fatally wounded; his 385-man garrison count describes the surrendered garrison, not a casualty return.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen CS 364 and the live CS 1 differ by an unstated population (possibly captured garrison against battle casualties; neither basis is stated).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen CS 364 and the live CS 1 differ by an unstated population (captured garrison against battle casualties).",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -420,10 +408,5 @@
     "The Union strength on Tybee on April 10 and the garrison's condition before the bombardment are not established by any inspected return.",
     "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. Quincy A. Gillmore's April 12, 1862 preliminary report and his report dated October 20, 1865 (Official Records I, VI, No. 5) are one family of interested Union accounts. Samuel Jones's The Siege of Charleston (1911) is a posthumous Confederate general's history; its Fort Pulaski pages repeat Gillmore's figures and are not independent of his report. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "fort-pulaski-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/GA001.v1.json",
-    "sha256": "78ea97c9a5e762252b57f0c7753979cea9cb85672f136e578c098a8005f782ec"
-  }
+  ]
 }

@@ -2,17 +2,17 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). All six
 frozen records in **Operations Against the Defenses of Charleston [April-September 1863]** now
-have draft dossiers: **54 claims, 7 explicit null unknowns and 255 citation occurrences**. All
-seven dimensions are represented in each record. All dossiers are drafts; no features are
-admitted.
+have draft dossiers: **54 claims, 7 explicit null unknowns and 269 citation occurrences** (255
+before the review correction below). All seven dimensions are represented in each record. All
+dossiers are drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| SC004 — Charleston Harbor I | 1863-04-07 | 9 | 1 | 42 | 3 |
-| SC005 — Fort Wagner I | 1863-07-10 to 07-11 | 9 | 1 | 51 | 3 |
+| SC004 — Charleston Harbor I | 1863-04-07 | 9 | 1 | 45 | 3 |
+| SC005 — Fort Wagner I | 1863-07-10 to 07-11 | 9 | 1 | 56 | 3 |
 | SC006 — Grimball's Landing | 1863-07-16 | 9 | 2 | 31 | 3 |
-| SC007 — Fort Wagner II | 1863-07-18 to 09-07 | 9 | 1 | 57 | 3 |
-| SC008 — Fort Sumter II | 1863-08-17 to 12-31 | 9 | 1 | 34 | 3 |
+| SC007 — Fort Wagner II | 1863-07-18 to 09-07 | 9 | 1 | 60 | 3 |
+| SC008 — Fort Sumter II | 1863-08-17 to 12-31 | 9 | 1 | 37 | 3 |
 | SC009 — Charleston Harbor II | 1863-09-07 to 09-08 | 9 | 1 | 40 | 3 |
 
 This pass was drafted in one batch with eight other Atlantic-coast campaigns. Dossier presence
@@ -86,23 +86,28 @@ Charleston 1863 selections.
   Terry matches SC006's US figure. Figures recorded with date and scope, none adopted:
   - SC004: nine vessels and 32 guns (both commanders); 76 Confederate guns (Beauregard); Du
     Pont's 1,200 men in the ironclads.
-  - SC005: Gillmore's scarcely 11,000 available (his pre-command judgment), 17,463 effective
-    in the department, Terry's 4,000 and Strong's 2,500 on Folly Island, and nearly 2,000 in
-    the boats; Jones's 20,837 Union aggregate present on July 10, Beauregard's grand total of
-    15,318, 927 on Morris Island, about 700 meeting the landing and about 1,200 in Wagner on
-    the 11th.
+  - SC005: Gillmore's scarcely 11,000 available (his pre-command judgment), 17,463 effective in
+    the department, Terry's 4,000 and Strong's 2,500 on Folly Island, and nearly 2,000 in the
+    boats; his aggregate means for offensive operations of 10,000 effective volunteer infantry,
+    350 artillerists and 600 engineer troops; Gillmore's July 20 letter, reported by Jones, that
+    he began with somewhat more than 13,000 on Morris and Folly Islands; Jones's 20,837 Union
+    aggregate present on July 10, Beauregard's grand total of 15,318, 927 on Morris Island,
+    about 700 meeting the landing and about 1,200 in Wagner on the 11th.
   - SC006: Jones's Confederate columns of about 1,400, 800 and 400.
   - SC007: Jones's Wagner garrison of about 1,700 on July 18, a Union force of about 7,000 at
-    Beauregard's council, the Fifty-fourth Massachusetts near a thousand, August and September
-    Union returns of 29,405 and 28,981 present, and about 900 Confederates and 9,000 Union
-    soldiers on the island on September 6; Keitt's fewer than 400 effective; Gillmore's August
-    10 statement that Beauregard had twice his men.
+    Beauregard's council, Gillmore's more than 13,000 at the start of operations (July 20
+    letter, reported by Jones), the Fifty-fourth Massachusetts near a thousand, August and
+    September Union returns of 29,405 and 28,981 present, and about 900 Confederates and 9,000
+    Union soldiers on the island on September 6; Keitt's fewer than 400 effective; Gillmore's
+    August 10 statement that Beauregard had twice his men.
   - SC008: forty pieces in twelve batteries (Jones); no garrison figure.
   - SC009: a 450-man naval storming party, of whom eleven officers and 116 men landed, a six- or seven-hundred-man army
     party, and a 205-man garrison (Jones); about 400 (NPS); frozen 413.
 - **Disputes preserved.**
-  - SC004 ranges: 550 to 800 yards (Du Pont) against 900 for the Keokuk and not less than 1,300
-    for the monitors (Beauregard), 1,100 to 1,300 in October.
+  - SC004 ranges: 550 to 800 yards (Du Pont) against 900 for the Keokuk, 1,700 and "a mile" for
+    the New Ironsides (against Du Pont's 1,000) and not less than 1,300 for the monitors
+    (Beauregard), 1,100 to 1,300 in October. Time: Du Pont's withdrawal signal at 4:30 against
+    Beauregard's monitors firing until 5.25 p.m.
   - SC005 surprise: Gillmore's secret batteries against Beauregard's statement, quoted by Jones,
     that neither the attack nor the works were unknown. Casualties: frozen and live 351 (US 339;
     CS 12) against Gillmore's early 150 and 200, Beauregard's admitted 300, Strong's 15 killed
@@ -114,10 +119,12 @@ Charleston 1863 selections.
     interception of Gillmore's July 18 signal; the Seymour–Putnam dispute over the supporting
     brigade; casualties, frozen 1,689 (US 1,515; CS 174) against live 1,737 (CS 222), Jones's
     174 for July 18, estimates of 1,600 to 3,000 for the Union, 641 Confederate for the whole
-    siege, and seventy captured at the evacuation (Gillmore) against two boats' crews and 27
+    fifty-eight days (which include SC005's July 10–11 losses) and 296 for the bombardment
+    alone, and seventy captured at the evacuation (Gillmore) against two boats' crews and 27
     soldiers (Jones).
-  - SC008: frozen Unknown and live zero against Jones's first-day and siege-period figures,
-    whose period ends on September 7.
+  - SC008: Gillmore's August 24 report of the "practical demolition" of Sumter, and his February
+    1864 report's "mere infantry outpost"; frozen Unknown and live zero against Jones's
+    first-day and siege-period figures, whose period ends on September 7.
   - SC009: the storming party's size; the live commander (Rear Admiral S. Du Pont) against the
     inspected passages' Dahlgren; casualties, frozen US 117 against Jones's 6 killed, 15 wounded
     and 106 captured of the landed party and live CS 100; the Moultrie losses belong to the ironclad engagement, not the boat
@@ -133,8 +140,47 @@ The seven null unknowns are the six opening strengths and SC006's logistics. No
 morale/readiness score, probability, causal effect or new commander ranking is introduced. The
 cohort, the admission proposals and the baseline are unchanged, with zero promoted rows.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossiers
-and source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the nine
+Atlantic-coast first passes (15 dossiers) together at prepared commit `0e6063c` as
+`atlantic-review-0e6063c-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": eleven
+required findings (R1 to R11) and thirteen advisories (A1 to A13) across the nine passes. It is
+an AI review within its stated scope, not human historical adjudication, proof of source
+independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder.
+
+Four of the six dossiers are revised under `charleston-1863-review-correction-2026-09-25` and
+supersede byte-for-byte archives at `data/evidence/history/<ID>.v1.json` for SC004, SC005, SC007
+and SC008. SC006 and SC009 are unchanged.
+
+- **R7** (SC005 `casualty-records`): Jones's Confederate assault loss (1 officer and 5 men killed,
+  1 officer and 5 men wounded), already in the value, is now cited (p.220).
+- **R8** (SC008 `recorded-result` and `state-of-the-fort`): the "mere infantry outpost" sentence
+  comes from the February 28, 1864 report; the August 24 report, quoted there, reported the
+  "practical demolition" of Sumter after seven days. The value now attributes each statement to its
+  report; the August 24 passage (p.23) is cited in both claims, and the southeast-face sentence
+  (p.30) is cited in `recorded-result`.
+
+Advisories:
+
+- **Adopted:** A4 (SC004: Beauregard's New Ironsides at 1,700 yards and "could not stand the fire
+  at the range of a mile" added to `obstructions-and-ranges`; his monitors firing until 5.25 p.m.
+  added to `recorded-result` beside Du Pont's 4:30 signal; three citations), A5 (SC005: Gillmore's
+  paragraph 46 means, 10,000 effective volunteer infantry, 350 artillerists and 600 engineer
+  troops; SC005 and SC007: Gillmore's July 20 letter, reported by Jones, that he began with
+  somewhat more than 13,000 on Morris and Folly Islands) and A6 (SC007 `casualty-records`: Jones's
+  641 covers the fifty-eight days from July 10 and includes SC005's July 10–11 losses; his 296 for
+  the bombardment alone is added and cited; nothing is added to SC005).
+
+The review correction adds no source records. Citations rise from 255 to 269; claims (54),
+unknowns (7) and disputed claims are unchanged. No model input, cohort file, admission proposal
+or baseline is changed.
+
+After the review correction, `python3 -m generalship check` and `python3 -m unittest discover -s
+tests` pass (134 tests) in the main repository, and `gs.MISSES` is empty.

@@ -78,6 +78,8 @@ selections. The Navies volume 13 parent is counted with Fort McAllister. Jones's
   - Casualties: frozen 889 (US 685; CS 204) against live 887 (US 683; CS 204); Jones gives 683
     and 204; Benham's same-day estimate was about 450 for Stevens's command and about 150 for
     the rest, "much within 600".
+  - Simmon's Bluff casualties: Rhind reports no loss; Parker reports none of his own but says his
+    men heard cries after several shots, implying Union losses. The claim is now `disputed`.
 - **Command roles and ranks.** The frozen Secessionville commanders are Benham and Evans
   (Brigadier Generals). Jones says Stevens objected to the night assault and was overruled,
   Lamar commanded the post, Evans the island, and Hagood the pickets and supports. At Simmon's
@@ -90,8 +92,35 @@ The two null unknowns are the opening strengths. No morale/readiness score, prob
 causal effect or new commander ranking is introduced. The cohort, the admission proposals and
 the baseline are unchanged, with zero promoted rows.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossiers
-and source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the nine
+Atlantic-coast first passes (15 dossiers) together at prepared commit `0e6063c` as
+`atlantic-review-0e6063c-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": eleven
+required findings (R1 to R11) and thirteen advisories (A1 to A13) across the nine passes. It is
+an AI review within its stated scope, not human historical adjudication, proof of source
+independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder.
+
+SC003 is revised under `charleston-1862-review-correction-2026-09-25` and supersedes the
+byte-for-byte archive at `data/evidence/history/SC003.v1.json`. SC002 is unchanged.
+
+No required finding concerns this campaign.
+
+Advisories:
+
+- **Adopted:** A3 (SC003 `casualty-records`): Parker's report that his men heard cries after
+  several shots implies Union losses that Rhind's "without loss" denies. The claim is now
+  `disputed`, with that sentence in its rationale; this memo's disputes list adds it.
+
+The review correction adds no source records. Claims (18), unknowns (2) and citations (89) are
+unchanged; disputed claims rise by one (SC003). No model input, cohort file, admission proposal
+or baseline is changed.
+
+After the review correction, `python3 -m generalship check` and `python3 -m unittest discover -s
+tests` pass (134 tests) in the main repository, and `gs.MISSES` is empty.

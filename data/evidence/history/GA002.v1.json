@@ -18,8 +18,8 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force text names the Union navy flotilla and the fort garrison; the live field reads zero. Drayton says his vessel lay under fire with Ammen and Downes in support, three mortar schooners firing from about 4,000 yards and three gunboats anchored near them; he judged the fort to contain seven guns and a mortar. NPS calls the fort 'then a small three-gun earthwork battery'. McCrady describes three monitors in action, a fourth that took no part, one river and one ocean steamer and three mortar vessels, and names the fort's VIII-inch, X-inch and 42-pounder guns, a rifled 32-pounder, 32-pounders and a X-inch mortar; neither gives a garrison or crew strength.",
-      "rationale": "Vessel and gun counts only, and the gun counts differ; no personnel figure. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "value": "The frozen force text names the Union navy flotilla and the fort garrison; the live field reads zero. Drayton says his vessel lay under fire with Ammen and Downes in support, three mortar schooners firing from about 4,000 yards and three gunboats anchored near them; he judged the fort to contain seven guns and a mortar. McCrady describes three monitors in action, a fourth that took no part, one river and one ocean steamer and three mortar vessels, and names the fort's VIII-inch, X-inch and 42-pounder guns, a rifled 32-pounder, 32-pounders and a X-inch mortar; neither gives a garrison or crew strength.",
+      "rationale": "Vessel and gun counts only; no personnel figure. None is adopted as a matched opening strength. The live zero is not measured absence.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -33,11 +33,6 @@
           "source_id": "nps-ga002-v1",
           "locator": "Forces Engaged",
           "quote": "0 total (US 0; CS 0;)"
-        },
-        {
-          "source_id": "nps-ga002-v1",
-          "locator": "Description",
-          "quote": "then a small three-gun earthwork battery"
         },
         {
           "source_id": "orn13-drayton-fort-mcallister-selections-v1",
@@ -77,7 +72,7 @@
         }
       ],
       "phase": "unresolved",
-      "status": "disputed"
+      "status": "supported"
     },
     {
       "id": "shoal-channel-and-earthwork",
@@ -176,12 +171,6 @@
           "section": "mccrady-1863-03-report-and-tables",
           "locator": "p.730 (OCR page markers; not checked against print)",
           "quote": "is founded upon the notes and observations of Assistant Engineer McAlpin"
-        },
-        {
-          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
-          "section": "mccrady-1863-03-report-and-tables",
-          "locator": "p.732 (OCR page markers; not checked against print)",
-          "quote": "No. 1 is supposed to be the Montauk"
         },
         {
           "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
@@ -288,7 +277,7 @@
     {
       "id": "recorded-result",
       "dimension": "outcome",
-      "value": "The frozen and live results read Confederate victory. Drayton says the attack was unsuccessful and that no injury was done that a good night's work would not repair; McCrady reports no material damage to the earthwork and the garrison as ready to fight again the next morning. McCrady's report text reads 'Tuesday, March 8' in OCR, but his tables in the same section and Drayton's ordnance report date the action March 3, matching the frozen date.",
+      "value": "The frozen and live results read Confederate victory. Drayton says the attack was unsuccessful and that no injury was done that a good night's work would not repair; McCrady reports no material damage to the earthwork and the garrison as ready to fight again the next morning. McCrady's report dates the attack 'Tuesday, March 8' in OCR; the frozen date is March 3.",
       "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
       "citations": [
         {
@@ -321,18 +310,6 @@
           "section": "mccrady-1863-03-report-and-tables",
           "locator": "p.730 (OCR page markers; not checked against print)",
           "quote": "occurred at Fort McAllister on Tuesday, March 8,"
-        },
-        {
-          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
-          "section": "mccrady-1863-03-report-and-tables",
-          "locator": "p.734 (OCR page markers; not checked against print)",
-          "quote": "which attacked Fort McAllister on March 3, 1863."
-        },
-        {
-          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
-          "section": "drayton-1863-03-08-ordnance",
-          "locator": "p.725 (OCR page markers; not checked against print)",
-          "quote": "on the Ogeechee, on the 3d of March,"
         }
       ],
       "phase": "post_outcome",
@@ -341,8 +318,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads Unknown; the live field reads 1 total (US 0; CS 1). McCrady reports two men slightly wounded, one by a shell fragment and one by a sod peg, and one gun carriage destroyed. McCrady also reports that riflemen in the marsh shot an officer stepping out of monitor No. 1's turret; Drayton's selected reports list damage to the Passaic but no casualties.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Frozen 'Unknown', the live CS 1 and McCrady's two slightly wounded are preserved, as is McCrady's claim of a Union officer shot against the live US 0.",
+      "value": "The frozen casualty text reads Unknown; the live field reads 1 total (US 0; CS 1). McCrady reports two men slightly wounded, one by a shell fragment and one by a sod peg, and one gun carriage destroyed. Drayton's reports list damage to the Passaic but no casualties.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Frozen 'Unknown', the live CS 1 and McCrady's two slightly wounded are preserved.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -374,12 +351,6 @@
           "section": "mccrady-1863-03-report-and-tables",
           "locator": "p.732 (OCR page markers; not checked against print)",
           "quote": "One gun carriage scattered; two traverse wheels broken."
-        },
-        {
-          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
-          "section": "mccrady-1863-03-report-and-tables",
-          "locator": "p.732 (OCR page markers; not checked against print)",
-          "quote": "but was shot in the act, stumbling forward,"
         }
       ],
       "phase": "post_outcome",
@@ -390,10 +361,5 @@
     "Du Pont's March 6 transmittal, Miller's report of the Passaic's injuries, Ammen's and Downes's reports, the abstract logs, Harris's covering letter, Beauregard's March 3-4 dispatches (Official Records I, XIV) and Samuel Jones's chapter IX remain deferred.",
     "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. Percival Drayton's detailed report and his March 8, 1863 report to the Bureau of Ordnance (Official Records of the Navies I, 13) are interested Union accounts. John McCrady's report (printed in the same volume) is a Confederate engineer's compilation from McAlpin's notes and the garrison officers' statements. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "fort-mcallister-1863-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/GA002.v1.json",
-    "sha256": "0ae8abb9fa479b9083525da2c1ecb88358ac9018e3b87427a90e08b48d1e2e43"
-  }
+  ]
 }

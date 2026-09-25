@@ -81,8 +81,27 @@ The one null unknown is the opening strength. No morale/readiness score, probabi
 effect or new commander ranking is introduced. The cohort, the admission proposals and the
 baseline are unchanged, with zero promoted rows.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossier
-and source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the nine
+Atlantic-coast first passes (15 dossiers) together at prepared commit `0e6063c` as
+`atlantic-review-0e6063c-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": eleven
+required findings (R1 to R11) and thirteen advisories (A1 to A13) across the nine passes. It is
+an AI review within its stated scope, not human historical adjudication, proof of source
+independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder.
+
+FL005 is unchanged. No required finding or advisory concerns this campaign; the reviewer
+judged the separate section for the unsigned Confederate casualty table, and the reuse of the
+Finegan and Gillmore author groups, sound.
+
+Claims (9), unknowns (1), citations (56) and disputed claims are unchanged. No model input,
+cohort file, admission proposal or baseline is changed.
+
+After the review correction, `python3 -m generalship check` and `python3 -m unittest discover -s
+tests` pass (134 tests) in the main repository, and `gs.MISSES` is empty.

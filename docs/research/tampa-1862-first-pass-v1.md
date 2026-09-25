@@ -27,9 +27,11 @@ NPS/CWSAC and the Arnold tables are one family. Two further families, both Confe
 **Targeted follow-up.** The consequential gap is the absence of any Union account. *Official
 Records of the Navies* Series I, Volume 17 (East Gulf Blockading Squadron; registered with
 Hillsboro 1863) was searched by index and text for Tampa and for A. J. Drake in June–July 1862.
-No report of the June 30–July 1 bombardment was found; the index lists only an April 13, 1862
-naval demonstration at Tampa and Drake's Apalachicola reports. Drake's report and the vessel's
-log remain unlocated. No history covering the action was found. Stop after this record.
+No report of the June 30–July 1 bombardment was found; the index has no June–July 1862 Tampa
+entry (its other Tampa entries include an April 13, 1862 naval demonstration and Howell's
+September 3, 1862 report of a guerrilla attack on Union refugees, p.309), and Drake's entries
+are his Apalachicola reports. Drake's report and the vessel's log remain unlocated. No history
+covering the action was found. Stop after this record.
 
 ## New source records
 
@@ -56,8 +58,35 @@ The one null unknown is the opening strength. No morale/readiness score, probabi
 effect or new commander ranking is introduced. The cohort, the admission proposals and the
 baseline are unchanged, with zero promoted rows.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossier
-and source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the nine
+Atlantic-coast first passes (15 dossiers) together at prepared commit `0e6063c` as
+`atlantic-review-0e6063c-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": eleven
+required findings (R1 to R11) and thirteen advisories (A1 to A13) across the nine passes. It is
+an AI review within its stated scope, not human historical adjudication, proof of source
+independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder.
+
+FL002 is unchanged; no required finding concerns this campaign.
+
+Advisories:
+
+- **Adopted in this memo:** A8. The follow-up sentence said the ORN 17 index lists "only" an April
+  13, 1862 Tampa item; the index has other Tampa entries (for example p.309, September 1862). The
+  memo now says the index has no June–July 1862 Tampa entry. The same wording in the inspection
+  note of the registry record `orn17-trent-ocr-v1` is left unchanged: that record is immutable and
+  the parent of the Semmes selection, and a metadata-only successor of a parent OCR record for an
+  advisory was not judged warranted; the negative follow-up result itself stands.
+
+The review correction adds no source records. Claims (9), unknowns (1), citations (34) and
+disputed claims are unchanged. No model input, cohort file, admission proposal or baseline is
+changed.
+
+After the review correction, `python3 -m generalship check` and `python3 -m unittest discover -s
+tests` pass (134 tests) in the main repository, and `gs.MISSES` is empty.

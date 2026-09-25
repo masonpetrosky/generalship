@@ -61,8 +61,39 @@ The one null unknown is the opening strength. No morale/readiness score, probabi
 effect or new commander ranking is introduced. The cohort, the admission proposals and the
 baseline are unchanged, with zero promoted rows.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossier
-and source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the nine
+Atlantic-coast first passes (15 dossiers) together at prepared commit `0e6063c` as
+`atlantic-review-0e6063c-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": eleven
+required findings (R1 to R11) and thirteen advisories (A1 to A13) across the nine passes. It is
+an AI review within its stated scope, not human historical adjudication, proof of source
+independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder.
+
+FL003 is revised under `st-johns-bluff-review-correction-2026-09-25` and supersedes the
+byte-for-byte archive at `data/evidence/history/FL003.v1.json`.
+
+- **R9** (`command-roles` value): Hopkins's December 24 letter quotes Finegan's charge only on
+  reconnaissance; his remarks on the unspiked guns answer the commanding general's
+  communication. The value now says he answered Finegan's charge that he had failed to
+  reconnoitre, and explained why he had not spiked the guns. This memo's disputes item already
+  used that attribution.
+
+Advisories:
+
+- **Not adopted:** A10 (select Finegan's already-read indorsement as the targeted follow-up). It
+  would add a new selection and source record; the dispute is visible through Hopkins's reply,
+  which quotes the charge, and the indorsement stays recorded as read, not selected.
+
+The review correction adds no source records. Claims (9), unknowns (1), citations (40) and
+disputed claims (2) are unchanged. No model input, cohort file, admission proposal or baseline
+is changed.
+
+After the review correction, `python3 -m generalship check` and `python3 -m unittest discover -s
+tests` pass (134 tests) in the main repository, and `gs.MISSES` is empty.
