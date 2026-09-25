@@ -1,0 +1,20 @@
+{
+  "kind": "estimate_evaluation_authorization",
+  "schema_version": 1,
+  "decision_date": "2026-09-25",
+  "ledger_path": "data/estimates/side-strength-v2.json",
+  "ledger_sha256": "7855d4d3c8853f7eb94849cb3701c0ca3e3bd759df11b8ffcb5e086cc92deed8",
+  "ledger_commit": "6fe077c1875cdcd79670d7c7049ec6e7c13d096c",
+  "option": "a_exploratory_estimate_layer_diagnostic",
+  "option_text": "Design section 6 option (a), as for v1: an exploratory estimate-layer diagnostic outside the admission contract. Outputs never enter artifacts/baseline.json and never replace the baseline.",
+  "question_put_to_owner": "The whole war is researched and the reviewed v2 ledgers are done: 126 usable battles (vs 37 last time) and 40 commanders with 2+ battles (vs 9). May I rerun the commander ratings on them, using the same accepted design and the same held-out test? Files: strength side-strength-v2.json (SHA-256 7855d4d3…), command responsibility-v2.json (495cef30…), registry commanders-v2.json (91fc2526…). If commanders again add no held-out signal, no ranking is published.",
+  "options_offered": [
+    "Run both (Recommended): Rerun the commander ratings and the strength-only evaluation on the v2 ledgers, as exploratory diagnostics; the frozen baseline stays unchanged.",
+    "Ratings only: Rerun only the commander ratings on the v2 ledgers.",
+    "Not yet: Stop here; don't run anything on the v2 ledgers yet."
+  ],
+  "owner_response": "Run both (Recommended)",
+  "recorded_by": "primary agent (Claude Opus 5.5), from the owner's answer in chat",
+  "admits_feature": false,
+  "changes_baseline": false
+}

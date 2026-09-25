@@ -223,7 +223,7 @@ def main(argv=None):
                       'row_sets': {k: {'evaluable': v['evaluable'], 'rows': v['rows'],
                                        'brier': v['metrics']['battle_weighted'] if v['evaluable'] else None}
                                    for k, v in evaluation['row_sets'].items()},
-                      'outputs': ['artifacts/estimate-evaluation.json', 'artifacts/estimate-evaluation.md']}
+                      'outputs': [f'{out}.json', f'{out}.md']}
         elif args.command == "fetch":
             result = {"restored_sources": fetch_sources(root)}
         elif args.command == "packet":

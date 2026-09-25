@@ -1,0 +1,30 @@
+{
+  "kind": "commander_rating_authorization",
+  "schema_version": 1,
+  "decision_date": "2026-09-25",
+  "design": "docs/commander-ratings.md section 7; docs/ledgers-v2.md",
+  "strength_ledger": {
+    "path": "data/estimates/side-strength-v2.json",
+    "sha256": "7855d4d3c8853f7eb94849cb3701c0ca3e3bd759df11b8ffcb5e086cc92deed8"
+  },
+  "command_ledger": {
+    "path": "data/command/responsibility-v2.json",
+    "sha256": "495cef30b475920c2bd02991a4a107dfb3f3079fa494d43512a216dc82da06ac"
+  },
+  "registry": {
+    "path": "data/command/commanders-v2.json",
+    "sha256": "91fc25260c8370a64b7599940dec22c7640efac8b497dc6ae99ff6eeb45e3768"
+  },
+  "code_commit": "cef8f3fb9d8c9da95b37009d20c77a4728fd30c5",
+  "question_put_to_owner": "The whole war is researched and the reviewed v2 ledgers are done: 126 usable battles (vs 37 last time) and 40 commanders with 2+ battles (vs 9). May I rerun the commander ratings on them, using the same accepted design and the same held-out test? Files: strength side-strength-v2.json (SHA-256 7855d4d3…), command responsibility-v2.json (495cef30…), registry commanders-v2.json (91fc2526…). If commanders again add no held-out signal, no ranking is published.",
+  "options_offered": [
+    "Run both (Recommended): Rerun the commander ratings and the strength-only evaluation on the v2 ledgers, as exploratory diagnostics; the frozen baseline stays unchanged.",
+    "Ratings only: Rerun only the commander ratings on the v2 ledgers.",
+    "Not yet: Stop here; don't run anything on the v2 ledgers yet."
+  ],
+  "owner_response": "Run both (Recommended)",
+  "reading": "Authorizes run 2 of the commander residual ratings (unchanged design, same held-out test) on the named reviewed v2 ledgers and registry, together with the v2 estimate-layer evaluation (data/estimates/evaluation-authorization-v2.json), as exploratory diagnostics.",
+  "recorded_by": "primary agent (Claude Opus 5.5), from the owner's answer in chat",
+  "admits_feature": false,
+  "changes_baseline": false
+}
