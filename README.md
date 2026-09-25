@@ -22,7 +22,7 @@ wins a commander caused. No validated commander ranking exists here yet.
   dates, force ranges, missingness, outcome codes, and cohort membership.
 - A small regularized logistic baseline using relative force size. Evaluation
   holds out whole campaigns and compares with equal odds and a training-only prior.
-- Fifty-seven draft dossiers, including all three frozen Iuka and Corinth records,
+- Fifty-nine draft dossiers, including all two frozen Stones River Campaign records,
   with exact source passages, explicit unknowns, command questions, and
   inherited/created distinctions. See the [coverage table](artifacts/pilot-report.md#draft-evidence-dossiers).
 - A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
@@ -73,7 +73,7 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 ## Research direction
 
 **Current priority: comparable coverage across the 127 engagements.** We have
-fifty-seven draft dossiers and 70 engagements without one. Shiloh's repeated source
+fifty-nine draft dossiers and 68 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.
@@ -113,7 +113,9 @@ The [Maryland pass](docs/research/maryland-first-pass-v1.md) adds three dossiers
 Opus 5.5 `high` reviewed them; its four required corrections are fixed and verified by the primary.
 The [Iuka and Corinth pass](docs/research/iuka-corinth-first-pass-v1.md) adds three
 dossiers, 28 claims, 3 explicit unknowns and 76 citations. Separate review is pending.
-Next: **the two-record Stones River Campaign**. See the
+The [Stones River pass](docs/research/stones-river-first-pass-v1.md) adds two dossiers,
+20 claims, 2 explicit unknowns and 58 citations. Separate review is pending.
+Next: **the one-record Fredericksburg Campaign**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.

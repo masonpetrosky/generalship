@@ -68,6 +68,17 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Stones River first pass, 2026-09-24
+
+The [two-record memo](research/stones-river-first-pass-v1.md) adds **5 records**, bringing
+the registry to **324 entries / 321 raw paths**, preserving the previous **319/316**.
+Two NPS battle HTML/text pairs remain in the NPS/CWSAC family. One new Cist selection
+derivative reuses the pinned `cist-cumberland-ocr-v1` parent; its metadata and OCR
+are unchanged, and it holds the title/preface and five bounded passages. Character
+ranges and whitespace-only normalization reproduce all sections. Cist is an
+interested retrospective history by Rosecrans's staff officer; quoted reports are
+not separately inspected originals. No model inputs are changed.
+
 ### Iuka and Corinth first pass, 2026-09-24
 
 The [three-record memo](research/iuka-corinth-first-pass-v1.md) adds **12 records**,

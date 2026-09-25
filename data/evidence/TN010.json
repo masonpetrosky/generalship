@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN010",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for both frozen records in the Stones River Campaign. Preserve per-engagement dates: Hartsville December 7, 1862, and Stones River December 31, 1862, to January 2, 1863. The live NPS campaign heading does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The live NPS field reads 45000 total (US 45000; CS 0;); the narrative gives Rosecrans about 44,000 against more than 37,000. Cist gives Rosecrans 43,400 on the field and computes Bragg's effective force at 46,604 from a December 10 return, calling Rosecrans's army slightly inferior.",
+      "rationale": "The sources disagree on which army was larger; figures come from different returns and adjustments. None is adopted as matched opening strength. Live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN010"
+          },
+          "column": "forces_text",
+          "quote": "Army of the Cumberland [US]; Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-tn010-v1",
+          "locator": "Forces Engaged",
+          "quote": "45000 total (US 45000; CS 0;)"
+        },
+        {
+          "source_id": "nps-tn010-v1",
+          "locator": "Description",
+          "quote": "with about 44,000 men, to defeat Bragg's army of more than 37,000."
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-results-and-numbers",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "total, 43,400."
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-results-and-numbers",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "This gave an effective force of 46,604"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-ground-and-plans",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "whose command was slightly inferior in strength to the rebel force"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "cedars-and-river",
+      "dimension": "terrain",
+      "value": "Cist describes open fields around Murfreesboro fringed with dense cedar brakes that covered infantry but were nearly impervious to artillery; NPS describes a Union division's strong bluff position east of the river on January 2.",
+      "rationale": "Retrospective terrain description; no map verification or numerical terrain effect.",
+      "citations": [
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-ground-and-plans",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "Open fields surrounded the town, fringed with dense cedar brakes."
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-ground-and-plans",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "These afforded excellent cover for approaching in- fantry, but were almost impervious to artillery."
+        },
+        {
+          "source_id": "nps-tn010-v1",
+          "locator": "Description",
+          "quote": "had taken up a strong position on the bluff east of the river"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supplies-and-cavalry",
+      "dimension": "logistics",
+      "value": "Cist says Rosecrans sent for provision trains and fresh ammunition after December 31, and that Morgan's and Forrest's raids reduced Bragg's cavalry from 10,070 to 5,638.",
+      "rationale": "Attributed supply and detachment facts from one retrospective history; no inspected return.",
+      "citations": [
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-january-1-to-3",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "He sent for the provision trains, ordered up fresh supplies of ammunition"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-results-and-numbers",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "By reason of Morgan and Forrest being absent on their raids, Bragg's cavalry was reduced to 5,638."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "battlefield-information",
+      "dimension": "information",
+      "value": "Cist says Rosecrans was not told of the rout of Johnson's division, and that Bragg's staff discovered only on January 2 that Van Cleve's troops held an eminence enfilading Polk; NPS says Bragg surmised Rosecrans would withdraw.",
+      "rationale": "Retrospective accounts of knowledge; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-december-31-opening",
+          "locator": "pp.102–103 (OCR page markers missing before a map plate; not checked against print)",
+          "quote": "Bosecrans was not told of the rout of Johnson's division"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-january-1-to-3",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "discovered for the first time that Van Cleve's troops"
+        },
+        {
+          "source_id": "nps-tn010-v1",
+          "locator": "Description",
+          "quote": "Bragg surmised that Rosecrans would now withdraw"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "mirror-plans",
+      "dimension": "objectives",
+      "value": "Cist says both commanders planned to attack the other's right: Rosecrans with his left across the river into Murfreesboro, Bragg by wheeling against the Union right to seize the line to Nashville; Bragg ordered attack at daylight, Rosecrans at seven.",
+      "rationale": "Attributed plans from one retrospective history; no inspected orders.",
+      "citations": [
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-ground-and-plans",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "was the exact counterpart of that of the Federal commander."
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-ground-and-plans",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "seize our line of communication with Nashville"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-ground-and-plans",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "Bragg issued orders to attack at daylight."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rosecrans-holds",
+      "dimension": "responsibility",
+      "value": "Cist says Rosecrans abandoned his own attack to save his right, then, against some generals' urging to fall back to Nashville, decided to stay and await attack.",
+      "rationale": "Attributed in-battle decisions by the listed Union commander; their contribution is not estimated. Cist is an interested staff historian of Rosecrans.",
+      "citations": [
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-december-31-opening",
+          "locator": "p.104 (follows a map-plate header printed 105; not checked against print)",
+          "quote": "Then Eosecrans saw the necessity of abandoning his own movement"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-january-1-to-3",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "Bosecrans determined to await the attack of the enemy"
+        }
+      ],
+      "phase": "commander_created",
+      "status": "supported"
+    },
+    {
+      "id": "breckinridge-and-retreat",
+      "dimension": "responsibility",
+      "value": "Cist says Bragg ordered Breckinridge's January 2 attack on Van Cleve's position and quotes Bragg's report calling it a failure; after notes from Cleburne, Withers and Polk urging retreat, Bragg decided to withdraw.",
+      "rationale": "Subordinate and army command roles are distinct; quoted reports are not inspected originals. No automatic sole credit to either listed commander.",
+      "citations": [
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-january-1-to-3",
+          "locator": "p.123 (OCR page markers; not checked against print)",
+          "quote": "but the movement as a whole was a failure"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-january-1-to-3",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "decided to retreat, leaving the field in possession of his opponent."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Union victory. NPS says Bragg left on January 4–5 and Rosecrans claimed the victory; Cist says Bragg's army was in retreat by 11 p.m. on January 3 and that Bragg called his December 31 success a victory barren of results.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The retreat timing differs between the sources and is outside the frozen interval.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN010"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tn010-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-tn010-v1",
+          "locator": "Description",
+          "quote": "Bragg left the field on the January 4-5"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-january-1-to-3",
+          "locator": "p.125 (OCR page markers; not checked against print)",
+          "quote": "By 11 p.m. the whole of Bragg's army, except his cavalry, was in retreat"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-results-and-numbers",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "he had gained nothing but a victory barren of results"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 23,515 total (US 13,249; CS 10,266); the live NPS field reads 23000 total (US 13000; CS 10000;). Cist gives Bragg 10,125, and Rosecrans 1,553 killed, 7,245 wounded and about 2,800 captured, with 28 guns lost against Bragg's 3.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN010"
+          },
+          "column": "casualties_text",
+          "quote": "23,515 total (US 13,249; CS 10,266)"
+        },
+        {
+          "source_id": "nps-tn010-v1",
+          "locator": "Estimated Casualties",
+          "quote": "23000 total (US 13000; CS 10000;)"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-results-and-numbers",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "at the cost to him of 10,125 killed, wounded, and missing"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-results-and-numbers",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "killed, 1,553 ; wounded, 7,245."
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "stones-river-results-and-numbers",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "The enemy captured about 2,800 men."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Original returns, orders and casualty reconciliation remain deferred. The Cleburne–Withers–Polk notes quoted by Cist are not inspected originals.",
+    "NPS/CWSAC is one family; Cist is one interested retrospective Union staff history, here reused from the pinned 1882 OCR through a new selection. Reports quoted inside Cist are not additional independently inspected families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

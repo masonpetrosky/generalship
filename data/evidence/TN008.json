@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN008",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for both frozen records in the Stones River Campaign. Preserve per-engagement dates: Hartsville December 7, 1862, and Stones River December 31, 1862, to January 2, 1863. The live NPS campaign heading does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the 39th Brigade and a two-brigade Confederate expeditionary force; the live field reads zero. Cist says the brigade had three infantry regiments, a cavalry battalion and an artillery section, about two thousand effectives, and that Morgan had his cavalry and two infantry regiments.",
+      "rationale": "Cist's effective figure is a retrospective estimate, not an inspected return; no Confederate count is given. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN008"
+          },
+          "column": "forces_text",
+          "quote": "39th Brigade, XIV Army Corps (Army of the Cumberland) [US]; expeditionary force (two brigades) [CS]"
+        },
+        {
+          "source_id": "nps-tn008-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "hartsville",
+          "locator": "p.82 (OCR page markers; not checked against print)",
+          "quote": "making a force of about two thou- sand effective men."
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "hartsville",
+          "locator": "p.82 (OCR page markers; not checked against print)",
+          "quote": "Morgan's command consisted of his cavalry, and two regi- ments of infantry."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "camp-position",
+      "dimension": "terrain",
+      "value": "Cist says the command was badly posted; the Confederates advanced under shelter of a ravine at the foot of Moore's hill, and the Union troops were crowded into a narrow space.",
+      "rationale": "Retrospective position description; 'badly posted' is Cist's judgment. No map verification.",
+      "citations": [
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "hartsville",
+          "locator": "p.82 (OCR page markers; not checked against print)",
+          "quote": "The command was badly posted"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "hartsville",
+          "locator": "p.82 (OCR page markers; not checked against print)",
+          "quote": "to a ravine at the foot of the hill on which Moore had formed his line"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "hartsville",
+          "locator": "p.82 (OCR page markers; not checked against print)",
+          "quote": "into a narrow space where the fire of the enemy proved terribly effective."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "captured-equipment",
+      "dimension": "logistics",
+      "value": "Cist says the entire command was captured with its army and camp equipment, trains and two guns.",
+      "rationale": "Post-outcome material consequence; no inspected inventory.",
+      "citations": [
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "hartsville",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "his entire command captured, with all army and camp equip- ment, trains, and two pieces of artillery."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "warning-dispute",
+      "dimension": "information",
+      "value": "NPS says the pickets sounded the alarm and held Morgan until the brigade formed, and cites Moore's report that Morgan's advance wore Union uniforms; Cist says Moore was surprised and no warning was given by the pickets.",
+      "rationale": "The sources conflict on whether warning was given; neither is adopted. Moore's report is summarized by NPS, not inspected.",
+      "citations": [
+        {
+          "source_id": "nps-tn008-v1",
+          "locator": "Description",
+          "quote": "the pickets sounded the alarm, and held the Rebels until the brigade was in battle line."
+        },
+        {
+          "source_id": "nps-tn008-v1",
+          "locator": "Description",
+          "quote": "Morgan's advance had worn Union blue uniforms which got them through the videttes."
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "hartsville",
+          "locator": "p.82 (OCR page markers; not checked against print)",
+          "quote": "No warning was given by the pickets"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "guard-mission",
+      "dimension": "objectives",
+      "value": "NPS says the brigade guarded the Cumberland River crossing against cavalry raids; Cist says Thomas posted it to guard the ford and watch the Lebanon road.",
+      "rationale": "Inherited assignment for the Union brigade, from summaries; no inspected order. The Confederate objective is not established beyond the attack itself.",
+      "citations": [
+        {
+          "source_id": "nps-tn008-v1",
+          "locator": "Description",
+          "quote": "was guarding the Cumberland River crossing at Hartsville to prevent Confederate cavalry from raiding."
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "hartsville",
+          "locator": "p.82 (OCR page markers; not checked against print)",
+          "quote": "where he had been posted by Thomas to guard the ford of the Cumberland Biver"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "union-command-conduct",
+      "dimension": "responsibility",
+      "value": "Cist says the infantry regiment commanders failed to cooperate or obey orders, and that Tafel's regiment resisted separately; NPS says one of Moore's units ran.",
+      "rationale": "Attributed judgments about subordinate conduct; Moore, the listed commander, does not receive automatic sole responsibility for the result.",
+      "citations": [
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "hartsville",
+          "locator": "p.82 (OCR page markers; not checked against print)",
+          "quote": "the commanding officers of the infantry regiments failed to co- operate, or to obey orders."
+        },
+        {
+          "source_id": "nps-tn008-v1",
+          "locator": "Description",
+          "quote": "One of Moore's units ran"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "hartsville",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "made some further resistance, but, being over- powered, he also surrendered."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "morgan-rank-timing",
+      "dimension": "responsibility",
+      "value": "The frozen and live records rank Morgan Brigadier General; Cist says his commission as Brigadier-General was signed by Davis after Hartsville.",
+      "rationale": "Rank at the time of the action is disputed; the frozen rank is retained and no command credit follows from it.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN008",
+            "belligerent": "Confederate",
+            "fullname": "John Hunt Morgan"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-tn008-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General John Morgan [CS]"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "hartsville",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "signed and handed him his commission as Brigadier-General."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Confederate victory. NPS times the fight from 6:45 to about 8:30 a.m.; Cist says it lasted a little over an hour and ended with the whole command surrendering.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN008"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-tn008-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-tn008-v1",
+          "locator": "Description",
+          "quote": "The fighting commenced at 6:45 am and continued until about 8:30 am."
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "hartsville",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "The contest only lasted a lit- tle over an hour."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 2,004 total (US 1,855; CS 149); the live NPS field reads 2235 total (US 2096; CS 139;). Cist gives Moore's loss as 150 killed and wounded with the whole command captured, and Morgan's as 125.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Captured troops dominate the Union figure and are not an opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN008"
+          },
+          "column": "casualties_text",
+          "quote": "2,004 total (US 1,855; CS 149)"
+        },
+        {
+          "source_id": "nps-tn008-v1",
+          "locator": "Estimated Casualties",
+          "quote": "2235 total (US 2096; CS 139;)"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "hartsville",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "Moore's loss was 150 killed and wounded"
+        },
+        {
+          "source_id": "cist-stones-river-selections-v1",
+          "section": "hartsville",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "Morgan's loss was 125 killed and wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Moore's report, returns, the picket-warning dispute and Morgan's commission date remain deferred.",
+    "NPS/CWSAC is one family; Cist is one interested retrospective Union staff history, here reused from the pinned 1882 OCR through a new selection. Reports quoted inside Cist are not additional independently inspected families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

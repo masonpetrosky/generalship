@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **57 draft dossiers / 127 engagements**, with **70 without a dossier**.
+There are **59 draft dossiers / 127 engagements**, with **68 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -122,8 +122,15 @@ history. Iuka's force scopes, casualty counts and the reason the Fulton road was
 left open remain disputed. Separate review is pending.
 Coverage is **12/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Stones River Campaign [December 1862-January 1863]**, the next complete frozen
-group by earliest engagement date: **two records, TN008, TN010**.
+The [Stones River first pass](research/stones-river-first-pass-v1.md) adds both
+**frozen records, TN008 and TN010**, with **20 claims, 2 explicit unknowns and 58
+citations** from NPS/CWSAC and a new selection from the pinned Cist OCR. Which army
+was larger at Stones River and whether Hartsville's pickets gave warning remain
+disputed. Separate review is pending.
+Coverage is **13/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Fredericksburg Campaign [November-December 1862]**, the next complete frozen
+group by earliest engagement date: **one record, VA028**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

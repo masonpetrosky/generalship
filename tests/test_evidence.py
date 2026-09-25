@@ -15,7 +15,7 @@ class EvidenceTests(unittest.TestCase):
     def test_repository_dossiers_have_resolvable_passages(self):
         dossiers = validate_all(ROOT)
         self.assertEqual({d['battle_id'] for d in dossiers},
-                         {'MS001', 'MS002', 'TN007', 'WV010', 'MD002', 'WV016', 'VA022', 'VA023', 'VA024', 'VA025', 'VA026', 'VA027', 'TN005', 'TN006', 'KY007', 'KY008', 'KY009', 'VA101', 'VA102', 'WV009', 'VA103', 'VA104', 'VA105', 'VA106', 'VA008', 'VA009', 'VA010', 'VA011', 'VA012', 'VA013', 'VA014', 'VA015', 'VA016', 'VA017', 'VA018', 'VA019', 'VA020', 'VA020A', 'VA020B', 'VA021', 'MO012', 'TN004', 'NC002', 'NC003', 'NC004', 'NC005', 'NC006', 'KY005', 'KY006', 'TN001', 'TN002', 'TN003', 'MD001', 'MD003', 'MS009', 'MS016', 'VA100'})
+                         {'TN008', 'TN010', 'MS001', 'MS002', 'TN007', 'WV010', 'MD002', 'WV016', 'VA022', 'VA023', 'VA024', 'VA025', 'VA026', 'VA027', 'TN005', 'TN006', 'KY007', 'KY008', 'KY009', 'VA101', 'VA102', 'WV009', 'VA103', 'VA104', 'VA105', 'VA106', 'VA008', 'VA009', 'VA010', 'VA011', 'VA012', 'VA013', 'VA014', 'VA015', 'VA016', 'VA017', 'VA018', 'VA019', 'VA020', 'VA020A', 'VA020B', 'VA021', 'MO012', 'TN004', 'NC002', 'NC003', 'NC004', 'NC005', 'NC006', 'KY005', 'KY006', 'TN001', 'TN002', 'TN003', 'MD001', 'MD003', 'MS009', 'MS016', 'VA100'})
         self.assertTrue(all(d['status']=='draft' for d in dossiers))
 
     def test_invented_quote_fails(self):
