@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "battle_id": "NC008",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all three frozen records in the Goldsboro Expedition. Preserve per-engagement dates: Kinston December 14, White Hall December 16 and Goldsborough Bridge December 17, 1862. Skirmishes on other days (Southwest Creek, Mount Olive, Thompson's Bridge) are not added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names Amory's and Stevenson's Brigades against Robertson's Brigade; the live field reads zero. Foster says the Ninth New Jersey and Amory's brigade were posted on the bank with several batteries; his cavalry on December 15 found one Confederate regiment and four guns at the bridge.",
+      "rationale": "Formation descriptions only; the December 15 sighting precedes the interval. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC008"
+          },
+          "column": "forces_text",
+          "quote": "Amory's and Stevenson's Brigades [US]; Robertson's Brigade [CS]"
+        },
+        {
+          "source_id": "nps-nc008-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "The Ninth New Jersey and Colonel Amory’s brigade were sent forward"
+        },
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "one regiment and four guns on our side of the bridge"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "burned-bridge-and-works",
+      "dimension": "terrain",
+      "value": "Foster found the White Hall bridge burned and the Confederates entrenched across the river, and posted batteries on a hill overlooking the works; NPS says Robertson held the north bank of the Neuse.",
+      "rationale": "Position description from the Union report and NPS; no map verification or numerical terrain effect.",
+      "citations": [
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "finding the bridge burned and the enemy in some force, with infantry and artillery on the other side"
+        },
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "posted them on a hill overlooking the enemy’s intrenchments."
+        },
+        {
+          "source_id": "nps-nc008-v1",
+          "locator": "Description",
+          "quote": "Beverly Robertson's brigade was holding the north bank of the Neuse River."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supply-and-readiness-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "confederate-cavalry-shortage",
+      "dimension": "information",
+      "value": "Smith says Evans appealed for cavalry and he had none, and that the Confederates were sadly in want of cavalry for information.",
+      "rationale": "The Confederate department commander's reports on his means of information; not an inspected message log.",
+      "citations": [
+        {
+          "source_id": "or18-smith-selections-v1",
+          "section": "smith-1862-12-16-letter",
+          "locator": "p.107 (OCR page markers; not checked against print)",
+          "quote": "General Evans appealed strongly for cavalry"
+        },
+        {
+          "source_id": "or18-smith-selections-v1",
+          "section": "smith-1862-12-16-telegram",
+          "locator": "p.108 (OCR page markers; not checked against print)",
+          "quote": "We are sadly in want of cavalry."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "feint-objective",
+      "dimension": "objectives",
+      "value": "Foster says he made a strong feint as if to rebuild and cross, then moved on toward Goldsborough; NPS says the Federals demonstrated to fix the Confederates while the main column continued.",
+      "rationale": "Stated purpose from the Union report and NPS; not an inspected order.",
+      "citations": [
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "I determined to make a strong feint, as if to rebuild and cross."
+        },
+        {
+          "source_id": "nps-nc008-v1",
+          "locator": "Description",
+          "quote": "attempting to fix them in position"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Smith credits Robertson with driving the Federals back; Foster says he judged his object accomplished and left sharpshooters to continue the fight. The frozen commanders are Foster and Robertson.",
+      "rationale": "Opposing commanders' interested accounts; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or18-smith-selections-v1",
+          "section": "smith-1862-12-29",
+          "locator": "p.109 (OCR page markers; not checked against print)",
+          "quote": "driven back by General Eobert- son with severe loss."
+        },
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "deeming my object accomplished I moved my command forward"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result is Inconclusive; the live NPS field reads Indecisive. Foster says his batteries silenced the Confederate guns and he moved on; Smith says the Federals were driven back with very severe loss.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The commanders' reports each claim success; neither is adopted, and the frozen label is retained.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC008"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-nc008-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "They opened on and silenced, after an hour’s firing, the enemy’s guns."
+        },
+        {
+          "source_id": "or18-smith-selections-v1",
+          "section": "smith-1862-12-16-telegram",
+          "locator": "p.108 (OCR page markers; not checked against print)",
+          "quote": "The enemy have been driven back from White Hall Bridge; his loss very severe, ours not so."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 150 total; the live NPS field reads 0 total (US 0; CS 0;).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. A live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC008"
+          },
+          "column": "casualties_text",
+          "quote": "150 total"
+        },
+        {
+          "source_id": "nps-nc008-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Robertson's report, returns and casualty allocation for White Hall remain deferred.",
+    "NPS/CWSAC is one family. Foster's reports and G. W. Smith's reports, printed in Official Records Series I, Volume XVIII, are two further families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

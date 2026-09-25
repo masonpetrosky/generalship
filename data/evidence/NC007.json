@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "battle_id": "NC007",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all three frozen records in the Goldsboro Expedition. Preserve per-engagement dates: Kinston December 14, White Hall December 16 and Goldsborough Bridge December 17, 1862. Skirmishes on other days (Southwest Creek, Mount Olive, Thompson's Bridge) are not added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names Foster's 1st Division and Evans's Brigade without counts; the live field reads zero. Foster reports leaving New Berne with about 10,000 infantry, 40 guns and about 640 cavalry, and put the Kinston enemy at about 6,000 with twenty guns. Smith reports Evans had 2,000 men, and on December 15 relayed an estimate of 30,000 for Foster.",
+      "rationale": "Each commander's estimate of the other differs sharply from the other's own figure; none is adopted. Foster's total is the whole expedition at departure, not Kinston's engaged force.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC007"
+          },
+          "column": "forces_text",
+          "quote": "Department of North Carolina, 1st Division [US]; Evans's Brigade [CS]"
+        },
+        {
+          "source_id": "nps-nc007-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.54 (OCR page markers; not checked against print)",
+          "quote": "in all, about 10,000 infantry j six batteries"
+        },
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-14",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "Their force was about 6,000 men, with twenty pieces of artillery."
+        },
+        {
+          "source_id": "or18-smith-selections-v1",
+          "section": "smith-1862-12-29",
+          "locator": "p.109 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General Evans, with 2,000 men, held them in check"
+        },
+        {
+          "source_id": "or18-smith-selections-v1",
+          "section": "smith-1862-12-15-goldsborough",
+          "locator": "p.107 (OCR page markers; not checked against print)",
+          "quote": "Enemy now estimated at 30,000"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "swamp-and-defile",
+      "dimension": "terrain",
+      "value": "Foster says Evans held a strong wooded position forming a natural breastwork, secured by a deep swamp on the right and partly by the river on the left, at a defile through a marsh where little Union artillery could be used.",
+      "rationale": "Attacking commander's description; no map verification or numerical terrain effect.",
+      "citations": [
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "taking advantage of the ground, which formed a natural breastwork."
+        },
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "secured on their right by a deep swamx) and their left was partially xn^otected by the river."
+        },
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-14",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "The position was so well chosen that very little of our artillery could be brought in play."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "roads-and-obstructions",
+      "dimension": "logistics",
+      "value": "Foster says bad roads delayed his trains, the road was obstructed by felled trees for half a mile, and a destroyed Beaver Creek bridge had to be rebuilt during the approach.",
+      "rationale": "Approach conditions before December 14, from the Union commander's report; inherited for the Kinston boundary.",
+      "citations": [
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-14",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "owing to the bad roads and consequent delays to train"
+        },
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.54 (OCR page markers; not checked against print)",
+          "quote": "finding the road obstructed by felled trees for half a mile and over"
+        },
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.54 (OCR page markers; not checked against print)",
+          "quote": "the bridge over Beaver Creek being destroyed."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "naval-diversion-and-communications",
+      "dimension": "information",
+      "value": "Foster says the gunboat Allison's attack mystified Evans about where the attack would come and kept regiments on the Kinston side of the Neuse; Smith reports his telegraph to Evans was cut off and Evans sent no estimate of losses.",
+      "rationale": "Foster's claim about Evans's thinking is an attributed inference; no Confederate message log was inspected.",
+      "citations": [
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "mysti- fying General Evans as to where the attack was to come from"
+        },
+        {
+          "source_id": "or18-smith-selections-v1",
+          "section": "smith-1862-12-15-goldsborough",
+          "locator": "p.107 (OCR page markers; not checked against print)",
+          "quote": "The telegraph with General Evans is cut off."
+        },
+        {
+          "source_id": "or18-smith-selections-v1",
+          "section": "smith-1862-12-16-letter",
+          "locator": "p.108 (OCR page markers; not checked against print)",
+          "quote": "General Evans has not furnished me with an estimate of his losses."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "expedition-objective",
+      "dimension": "objectives",
+      "value": "NPS says the expedition aimed to disrupt the Wilmington & Weldon Railroad at Goldsborough; Foster says that by taking Kinston his object there was accomplished.",
+      "rationale": "Stated objectives; Foster's claim of accomplishment is self-reported.",
+      "citations": [
+        {
+          "source_id": "nps-nc007-v1",
+          "locator": "Description",
+          "quote": "to disrupt the Wilmington & Weldon Railroad at Goldsborough"
+        },
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "moreover, my object was accomplished."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Foster says he sent Evans a flag of truce asking whether he would surrender, Evans declined, and Foster waited for his artillery before Evans withdrew. The frozen and live records rank Foster Brigadier General; his OR reports are headed Major General.",
+      "rationale": "Command roles from interested reports; rank conflict retained without adopting either. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "He declined."
+        },
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-27",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "was unwilling to sacrifice my men, and waited for my ar- tillery to cross."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC007",
+            "belligerent": "US",
+            "fullname": "John G. Foster"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-nc007-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General John Foster [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Foster reports taking Kinston, eleven guns and 400 or 500 prisoners; Smith says Evans withdrew with small loss to the left bank of the Neuse.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Captures are Foster's claims, not inspected inventories.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC007"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-nc007-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-14",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "have taken Kinston, captured eleven i)ieces of artillery, taken 400 or 500 i)risoners"
+        },
+        {
+          "source_id": "or18-smith-selections-v1",
+          "section": "smith-1862-12-29",
+          "locator": "p.109 (OCR page markers; not checked against print)",
+          "quote": "succeeded in withdrawing his force with small loss to the left bank of the Neuse Eiver at Kinston."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 685 total; the live NPS field reads 685 total (US 160; CS 525;). Foster's December 14 report estimated his loss at not over 200 killed and wounded; Smith says most of about 400 Confederate missing were taken at Kinston Bridge.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Foster's figure is an early estimate; Smith's missing figure is expedition-wide.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC007"
+          },
+          "column": "casualties_text",
+          "quote": "685 total"
+        },
+        {
+          "source_id": "nps-nc007-v1",
+          "locator": "Estimated Casualties",
+          "quote": "685 total (US 160; CS 525;)"
+        },
+        {
+          "source_id": "or18-foster-selections-v1",
+          "section": "foster-1862-12-14",
+          "locator": "p.54 (OCR page markers; not checked against print)",
+          "quote": "Our loss will not probably exceed 200 killed and wounded."
+        },
+        {
+          "source_id": "or18-smith-selections-v1",
+          "section": "smith-1862-12-29",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "Most of the latter were taken prisoners at Kinston Bridge"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Returns, the compiler's revised Union casualty statement (p.60, not inspected), Evans's own report and the Kinston command clock remain deferred.",
+    "NPS/CWSAC is one family. Foster's reports and G. W. Smith's reports, printed in Official Records Series I, Volume XVIII, are two further families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

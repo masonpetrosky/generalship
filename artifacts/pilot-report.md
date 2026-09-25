@@ -61,6 +61,9 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [NC004](../data/evidence/NC004.json) | 10 | 2 | 0 | 0 | draft |
 | [NC005](../data/evidence/NC005.json) | 10 | 2 | 0 | 0 | draft |
 | [NC006](../data/evidence/NC006.json) | 9 | 3 | 0 | 0 | draft |
+| [NC007](../data/evidence/NC007.json) | 9 | 1 | 0 | 0 | draft |
+| [NC008](../data/evidence/NC008.json) | 9 | 2 | 0 | 0 | draft |
+| [NC009](../data/evidence/NC009.json) | 10 | 1 | 0 | 0 | draft |
 | [TN001](../data/evidence/TN001.json) | 10 | 1 | 0 | 0 | draft |
 | [TN002](../data/evidence/TN002.json) | 11 | 1 | 0 | 0 | draft |
 | [TN003](../data/evidence/TN003.json) | 62 | 3 | 40 | 26 | draft |
@@ -113,7 +116,7 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 60 engagements have dossiers; 67 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 63 engagements have dossiers; 64 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
 The [Fredericksburg first pass](../docs/research/fredericksburg-first-pass-v1.md) adds the sole frozen record: 10 claims, 1 explicit unknown and 31 citations from NPS/CWSAC and Palfrey's retrospective history. A live force field assigning the Union total to the Confederates, and force and casualty disputes, remain visible; separate review is pending. Next take the complete three-record Goldsboro Expedition. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
