@@ -2,9 +2,12 @@
 
 Prepared 2026-09-24. The sole frozen record in **Fredericksburg Campaign
 [November-December 1862]**, **VA028 — Fredericksburg I** (December 11–15, 1862), now
-has a draft dossier: **10 claims, 1 explicit null unknown and 31 citation
-occurrences**, covering all seven dimensions from two families. Separate review is
-pending. The dossier remains a draft; no features are admitted.
+has a draft dossier: **10 claims, 1 explicit null unknown and 44 citation
+occurrences** after review correction, covering all seven dimensions from two
+families. Separate Claude Opus 5.5 `high`
+[review](../../artifacts/review-results/fredericksburg-dbcd3da-opus-high-v1/review.md)
+found seven required corrections, all applied and verified by the primary. The
+dossier remains a draft; no features are admitted.
 
 Coverage is **60/127 draft dossiers**, **67 without**, and **14/36 complete source
 campaigns by dossier presence**. All 59 earlier dossiers and all historical
@@ -21,8 +24,8 @@ The targeted follow-up reuses the already pinned OCR of Francis Winthrop Palfrey
 existing metadata and OCR are unchanged. Inspected: title/preface and seven bounded
 Chapter IV passages with running headers and signature marks:
 
-- Burnside's plan and the late pontoons, OCR pp.137–139.
-- The December 11 crossing, pp.146–147.
+- Burnside's plan and the late pontoons, OCR pp.137–138.
+- The December 11 crossing, p.146.
 - Both armies' positions and present-for-duty figures, pp.148–149.
 - Franklin's orders and Hardie's despatches, pp.155–156.
 - The Marye's Heights ground and stone wall, pp.161–162.
@@ -55,9 +58,10 @@ derivative whose parent is the existing `palfrey-antietam-ocr-v1`.
   **17,900 (US 12,600; CS 5,300)**. Palfrey's printed Union columns sum to 12,353 (a
   computation here, not a printed total), and he gives 1,894 for Longstreet's corps
   over five days and 3,415 for Jackson's.
-- The pontoon delay and contested crossing are tagged `inherited` for the December
-  11 boundary. The stone wall and works were prepared by the defender before the
-  interval; no terrain effect is estimated.
+- The pontoon delay precedes the interval; the December 11 crossing lies inside it,
+  so the combined claim is tagged `unresolved`. The stone walls were existing
+  boundaries; who piled earth against the road wall, and when, is not stated, and
+  NPS's entrenching is undated; no terrain effect is estimated.
 - **Command roles**: Palfrey reads Burnside's orders to Franklin as obscure and his
   expectation of striking the Confederate right as mistaken; Hancock's formation was
   prescribed. Burnside's proposed personal renewal on the 14th, dissuaded by his
