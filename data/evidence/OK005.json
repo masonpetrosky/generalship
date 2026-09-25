@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "battle_id": "OK005",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Middle Boggy Depot record (February 13, 1864) in Operations in the Indian Territory [February 1864]. Phillips's expedition of February 1-29 (the Canadian River skirmishes of February 5-8, the march to near Fort Arbuckle and the return) is context; the live page's Red River Campaign label and March-April dates are not adopted. Campaign-wide marches, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Three companies of the 14th Kansas Cavalry Regiment and a section of Howitzers [US] and the Seminole Battalion, Company A, 1st Choctaw and Chickasaw Cavalry Regiment, and a detachment of 20th Texas Regiment [CS], with no numerical bounds; the live field is blank. Britton says Phillips left Fort Gibson with about one thousand men in all. Phillips says the force he took farthest south was 450 mounted men and one howitzer. His February 14 report, relayed by Thayer, says the attack was made by his advance under Willetts and the enemy were Seminoles, Choctaws and Texans; his February 16 report says Jumper's Chickasaw and Seminole regiment was broken to pieces in the late battle.",
+      "rationale": "Expedition and column strengths, not a count of the advance engaged; no Confederate figure inspected. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK005"
+          },
+          "column": "forces_text",
+          "quote": "Three companies of the 14th Kansas Cavalry Regiment and a section of Howitzers [US]"
+        },
+        {
+          "source_id": "nps-ok005-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US ; CS ;)"
+        },
+        {
+          "source_id": "britton-indian-territory-1864-selections-v1",
+          "section": "indian-territory-1864",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "in all, about one thousand men."
+        },
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "phillips-1864-02-16",
+          "locator": "p.107 (the running head for p.107 reads \"10?\" in OCR; OCR page markers; not checked against print)",
+          "quote": "With the force I took farthest soutlfi (450 mounted men and 1 howitzer)"
+        },
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "thayer-1864-02-22-relaying-phillips-1864-02-14",
+          "locator": "p.108 (OCR page markers; not checked against print)",
+          "quote": "The attack was made by my advance under Major Willetts, Fourteenth Kansas. The rebel force was Seminoles, Choctaws, and Texans."
+        },
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "phillips-1864-02-16",
+          "locator": "p.107 (the running head for p.107 reads \"10?\" in OCR; OCR page markers; not checked against print)",
+          "quote": "Colonel Jumper’s regiment, which consisted of the Chickasaw and Seminole battalions, but was broken to pieces in the late battle."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "middle-boggy-ground-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "rationale": "No inspected passage describes the ground at Middle Boggy. Britton's heavy roads and Phillips's rain and rising streams are expedition-wide conditions, not the engagement site.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "rations-corn-and-ammunition",
+      "dimension": "logistics",
+      "value": "Phillips says he started with about six days' rations and was out nearly a month, subsisting on corn ground in captured hand-mills, and that his men were getting very scarce of ammunition after the fighting; the itinerary says the command subsisted mostly on corn taken in the country. Britton says the road was very heavy for the train.",
+      "rationale": "Expedition-wide conditions from interested reports, a compiled itinerary and a history; not specific to February 13.",
+      "citations": [
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "phillips-1864-02-24",
+          "locator": "p.109 (OCR page markers; not checked against print)",
+          "quote": "I started with about six days’ rations, and men were out nearly a month."
+        },
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "phillips-1864-02-24",
+          "locator": "p.109 (OCR page markers; not checked against print)",
+          "quote": "my men subsisted by grinding corn into meal in the camp at night."
+        },
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "phillips-1864-02-24",
+          "locator": "p.109 (OCR page markers; not checked against print)",
+          "quote": "were getting very scarce of ammunition,"
+        },
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "itinerary-indian-brigade-1864-02",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "The command subsisted itself during the greater part of the expedition on corn taken in the country,"
+        },
+        {
+          "source_id": "britton-indian-territory-1864-selections-v1",
+          "section": "indian-territory-1864",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "the road was very heavy for the train"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surprise-reported",
+      "dimension": "information",
+      "value": "The frozen description says Willette's troops surprised the Confederate force. Phillips's reports give intelligence of Maxey's forces and the Choctaw council but no account of how the advance found the enemy at Middle Boggy.",
+      "rationale": "A summary's characterization and a report's general intelligence; no scouting report for February 13 inspected.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK005"
+          },
+          "column": "description",
+          "quote": "surprised a Confederate force at Middle Boggy Depot on February 13."
+        },
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "phillips-1864-02-16",
+          "locator": "p.107 (the running head for p.107 reads \"10?\" in OCR; OCR page markers; not checked against print)",
+          "quote": "I learned that General Maxey was present with the Choctaw legislature ten days ago,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "disperse-and-deter",
+      "dimension": "objectives",
+      "value": "Britton says McNeil directed Phillips to prevent the reorganization of the Southern Indians, disperse any bodies still together and distribute the President's proclamation. Phillips says he intended the blow partly for its moral effect on the Indian nations and would attempt nothing that might force him back. The frozen description says the expedition was to meet, defeat or destroy Confederate forces.",
+      "rationale": "Stated aims from a history, an interested report and a summary.",
+      "citations": [
+        {
+          "source_id": "britton-indian-territory-1864-selections-v1",
+          "section": "indian-territory-1864",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "for the purpose of preventing the reorgan ization of the Southern Indians; to disperse such bodies of them as were still holding together;"
+        },
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "phillips-1864-02-24",
+          "locator": "p.109 (OCR page markers; not checked against print)",
+          "quote": "I intended the blow partly for the moral effect on the Indian nations,"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK005"
+          },
+          "column": "description",
+          "quote": "to meet, defeat or destroy Confederate forces in Indian Territory,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Phillips's relayed report says the attack was made by his advance under Major Willetts. His February 15 letter to John Jumper refers to Jumper's personal bravery and his defeat in the late engagement. Britton credits the rout to Phillips. The frozen commanders are Lieutenant Colonel John Jumper and Major Charles Willette; the live page gives the same.",
+      "rationale": "Command roles from interested reports and a history; the listed commanders do not receive automatic sole credit. The reports spell the Union major 'Willetts'.",
+      "citations": [
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "thayer-1864-02-22-relaying-phillips-1864-02-14",
+          "locator": "p.108 (OCR page markers; not checked against print)",
+          "quote": "The attack was made by my advance under Major Willetts,"
+        },
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "phillips-inclosure-3-to-jumper-1864-02-15",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "your humiliation in the late engagement"
+        },
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "phillips-inclosure-3-to-jumper-1864-02-15",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "the disaster of your late defeat"
+        },
+        {
+          "source_id": "britton-indian-territory-1864-selections-v1",
+          "section": "indian-territory-1864",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "he routed them after a sharp action of less than half an hour,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OK005",
+            "belligerent": "Confederate",
+            "fullname": "John Jumper"
+          },
+          "column": "rank",
+          "quote": "Lieutenant Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OK005",
+            "belligerent": "US",
+            "fullname": "Charles Willette"
+          },
+          "column": "rank",
+          "quote": "Major"
+        },
+        {
+          "source_id": "nps-ok005-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major Charles Willette [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Phillips's relayed report says the enemy were completely routed; the itinerary says they were routed and pursued a considerable distance; Britton says the action lasted less than half an hour. The frozen description says the poorly armed Confederates made a determined stand for half an hour, and that fear of fresh Confederate forces led the Federals to retire to Fort Gibson.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The return to Fort Gibson is the expedition's end, not the engagement's result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK005"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ok005-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "thayer-1864-02-22-relaying-phillips-1864-02-14",
+          "locator": "p.108 (OCR page markers; not checked against print)",
+          "quote": "in which the enemy were completely routed,"
+        },
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "itinerary-indian-brigade-1864-02",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "Rebel force completely routed and pursued considerable distance."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK005"
+          },
+          "column": "description",
+          "quote": "Although poorly armed, the Rebels made a determined stand for a half hour before retiring."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown, while the frozen description says 47 Confederates were killed; the live field reads 47 (US 0; CS 47). Phillips's February 14 report, relayed by Thayer, gives 47 killed with wounded unknown; the itinerary and Britton give 49 Confederate dead left on the field. Phillips's February 24 report gives about 250 killed and 4 wounded for the whole expedition.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The expedition total is not assigned to this record; no Union loss for February 13 is given.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK005"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK005"
+          },
+          "column": "description",
+          "quote": "The Union forces killed 47 Confederates during this short fight."
+        },
+        {
+          "source_id": "nps-ok005-v1",
+          "locator": "Estimated Casualties",
+          "quote": "47 total (US 0; CS 47;)"
+        },
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "thayer-1864-02-22-relaying-phillips-1864-02-14",
+          "locator": "p.108 (OCR page markers; not checked against print)",
+          "quote": "with the loss of 47 killed ; their wounded not known."
+        },
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "itinerary-indian-brigade-1864-02",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "49 rebels were killed in action ; left dead on the field."
+        },
+        {
+          "source_id": "britton-indian-territory-1864-selections-v1",
+          "section": "indian-territory-1864",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "forty-nine of the Con federate dead left on the field."
+        },
+        {
+          "source_id": "or34-1-phillips-indian-territory-selections-v1",
+          "section": "phillips-1864-02-24",
+          "locator": "p.108 (OCR page markers; not checked against print)",
+          "quote": "250 men, and have only 4 wounded,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Willette's own report (if any), Wright's report (No. 3, read at its opening), Inclosures Nos. 1-2 (read and not selected) and any Confederate report of Jumper or Maxey on Middle Boggy remain deferred. The live page's empty description gives no independent account.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume II (Putnam's, 1899) is a retrospective history described on its title page as based upon official reports and the author's observations; it relays figures from Union and Confederate reports, so it is not independent of the Official Records families, and is treated as partly a participant's interested Union account. Phillips's February 1864 reports, with Thayer's relay of his February 14 report and the brigade itinerary printed with them, are one family of interested Union accounts. No Confederate report on Middle Boggy was located in the inspected pages. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

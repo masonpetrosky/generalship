@@ -1,0 +1,452 @@
+{
+  "schema_version": 1,
+  "battle_id": "KS002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Baxter Springs record (October 6, 1863) in Occupation of Indian Territory North of the Arkansas River [October 1863]. Quantrill's march south from Lafayette County and the killing of captives on the way to the Canadian are context. The killing of surrendered soldiers, bandsmen and civilians is recorded as reported, not as ordinary combat casualties. Campaign-wide marches, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Detachments from three regiments and an escort [US] and Quantrill's Raiders (approx. 400) [CS], and the frozen CS bound is 400; the live field reads 400 (US 0; CS 400). Britton says Quantrill marched with between three and four hundred men, that Blunt's escort was about one hundred, that about 150 mounted men formed on the escort's flank, that the escort thought itself attacked by not less than six hundred, and that less than a company of colored infantry was at the post. Quantrill says he took three companies, 150 men, to the prairie, found an escort of 125, and charged with 250 men.",
+      "rationale": "Estimates of an irregular force and escort counts at different moments; the escort's six hundred is an impression under attack. None is adopted as a matched opening strength. The live US zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KS002"
+          },
+          "column": "forces_text",
+          "quote": "Detachments from three regiments and an escort [US]; Quantrill's Raiders (approx. 400) [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "KS002",
+            "belligerent": "Confederate"
+          },
+          "column": "strength_min",
+          "quote": "400"
+        },
+        {
+          "source_id": "nps-ks002-v1",
+          "locator": "Forces Engaged",
+          "quote": "400 total (US 0; CS 400;)"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.215 (the running head for p.215 carries no page number in OCR; OCR page markers; not checked against print)",
+          "quote": "between three and four hundred strong,"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.216 (the running head for p.216 reads \"2l6\" in OCR; OCR page markers; not checked against print)",
+          "quote": "with an escort of one hundred men,"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.217 (the running head for p.217 reads \"2 1/\" in OCR; OCR page markers; not checked against print)",
+          "quote": "about 150 mounted men,"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.218 (the running head for p.218 reads \"2l8\" in OCR; OCR page markers; not checked against print)",
+          "quote": "which they estimated at not less than six hundred men,"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.221 (OCR page markers; not checked against print)",
+          "quote": "being less than a full company,"
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.700 (OCR page markers; not checked against print)",
+          "quote": "in all 150 men"
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.700 (OCR page markers; not checked against print)",
+          "quote": "a train with 125 meu as an escort,"
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.701 (OCR page markers; not checked against print)",
+          "quote": "I now formed 250 men of all the companies and ordered a charge."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "blockhouse-and-prairie",
+      "dimension": "terrain",
+      "value": "Britton says the post was a blockhouse on the sloping side of the Spring Branch hollow, with log-and-earth breastworks about four feet high on three sides and the west side unfinished and open, and that Blunt halted within a quarter mile of it without seeing it because of higher ground; the escort was caught on open prairie. Quantrill says he did not at first know where the fort was.",
+      "rationale": "Ground and works from a history and an interested report; no map inspected. The works predate the attack, though their extension was under way.",
+      "citations": [
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.213 (the running head for p.213 reads \"21$\" in OCR; OCR page markers; not checked against print)",
+          "quote": "the west side being unfinished and open."
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.213 (the running head for p.213 reads \"21$\" in OCR; OCR page markers; not checked against print)",
+          "quote": "They had a line of breastworks constructed of logs and earth about four feet high,"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.216 (the running head for p.216 reads \"2l6\" in OCR; OCR page markers; not checked against print)",
+          "quote": "but not in sight of it on account of intervening higher ground,"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.218 (the running head for p.218 reads \"2l8\" in OCR; OCR page markers; not checked against print)",
+          "quote": "it was im possible to rally them against greatly superior numbers in an open prairie,"
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.700 (OCR page markers; not checked against print)",
+          "quote": "Not knowing myself where the fort was,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forage-train-and-captured-wagons",
+      "dimension": "logistics",
+      "value": "Britton says the station's available mounted men had gone out with a forage train that morning. Quantrill says he took Blunt's wagons, buggy, ambulance and band wagon, took what he wanted and destroyed the rest.",
+      "rationale": "A history and an interested report; no quartermaster record inspected.",
+      "citations": [
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.221 (OCR page markers; not checked against print)",
+          "quote": "all the available mounted men at the station had that morning been sent out with a forage train,"
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.701 (OCR page markers; not checked against print)",
+          "quote": "0 six-mule wagons, well loaded ; 1 buggy (General Blunt’s) ; 1 fine ambu- lance ; 1 flue brass band and wagon, fully rigged."
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.701 (OCR page markers; not checked against print)",
+          "quote": "After taking what we wanted from the train ; we destroyed it,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surprise-and-uniforms",
+      "dimension": "information",
+      "value": "Britton says no report of Quantrill's activity or of Shelby's northward raid had reached Blunt, that the post had no picket or camp guard out, and that the raiders wore Federal uniforms, so Blunt first took them for Pond's men. Quantrill says he mistook the camp for the train's and that Blunt formed his escort still in doubt as to who they were.",
+      "rationale": "Attributed knowledge from a history and an interested report; no original messages inspected.",
+      "citations": [
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "No report of Shelby's movement north of the Arkansas River had yet reached General Blunt,"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.222 (OCR page markers; not checked against print)",
+          "quote": "There was no picket or camp guard out to give any warning of an approaching foe,"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.217 (the running head for p.217 reads \"2 1/\" in OCR; OCR page markers; not checked against print)",
+          "quote": "although they were all dressed in Federal uniforms."
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.700 (OCR page markers; not checked against print)",
+          "quote": "which he supposed to be the camp of the train; in this we were mistaken."
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.700 (OCR page markers; not checked against print)",
+          "quote": "still in doubt"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "march-south-and-headquarters-move",
+      "dimension": "objectives",
+      "value": "NPS says Quantrill had decided to winter in Texas and chose to attack the post. Britton says Blunt was moving his headquarters to Fort Smith to meet a threatened attack there. Quantrill says he did not think it prudent to attack the fort again and marched south.",
+      "rationale": "Stated aims from a summary, a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "nps-ks002-v1",
+          "locator": "Description",
+          "quote": "Quantrill decided to winter in Texas."
+        },
+        {
+          "source_id": "nps-ks002-v1",
+          "locator": "Description",
+          "quote": "Quantrill decided to attack the post"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "commenced preparations to return to Fort Smith with the headquarters of his district"
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.701 (OCR page markers; not checked against print)",
+          "quote": "I did not think it prudent to attack the fort again,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Quantrill led the charge on the camp himself, that Pond drove the raiders off with his howitzer, and that Blunt and Major Curtis tried and failed to rally the escort, Curtis being captured and shot. Quantrill says he led the head of the column with Brinker and Pool. NPS names Poole's column. The frozen commanders are Lieutenant Colonel William C. Quantrill, Lieutenant James B. Pond and Major General James G. Blunt; the live page lists Pond without a rank and Quantrill as Colonel, and omits Blunt.",
+      "rationale": "Command roles from a history, an interested report and a summary; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.222 (OCR page markers; not checked against print)",
+          "quote": "leading the head of the column himself."
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.222 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant Pond then got his twelve-pounder howitzer to work,"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.218 (the running head for p.218 reads \"2l8\" in OCR; OCR page markers; not checked against print)",
+          "quote": "General Blunt and his Assistant Adjutant-General, Major Curtis, endeavored to rally the men ;"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.218 (the running head for p.218 reads \"2l8\" in OCR; OCR page markers; not checked against print)",
+          "quote": "when he was captured and shot."
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.700 (OCR page markers; not checked against print)",
+          "quote": "leading the head of the column myself with Captains Brinker and Pool,"
+        },
+        {
+          "source_id": "nps-ks002-v1",
+          "locator": "Description",
+          "quote": "Poole and his men proceeded down the Texas Road,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KS002",
+            "belligerent": "Confederate",
+            "fullname": "William C. Quantrill"
+          },
+          "column": "rank",
+          "quote": "Lieutenant Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KS002",
+            "belligerent": "US",
+            "fullname": "James B. Pond"
+          },
+          "column": "rank",
+          "quote": "Lieutenant"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KS002",
+            "belligerent": "US",
+            "fullname": "James G. Blunt"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ks002-v1",
+          "locator": "Principal Commanders",
+          "quote": "James Pond [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory and the live result Confederate Victory. Britton says the post held and Pond refused a summons, while Blunt's escort and band were destroyed on the prairie; Quantrill says he left only about 40 of the escort alive and did not renew the attack on the fort.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The label covers two distinct fights with opposite local outcomes.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KS002"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ks002-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.223 (the running head for p.223 reads \"22$\" in OCR; OCR page markers; not checked against print)",
+          "quote": "Captain Todd was sent by Quantrill to demand the sur render of the station, which was, of course, refused by Lieutenant Pond."
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.701 (OCR page markers; not checked against print)",
+          "quote": "only leav- ing about 40 of them alive."
+        },
+        {
+          "source_id": "nps-ks002-v1",
+          "locator": "Description",
+          "quote": "the garrison, with the help of a howitzer, fought them off."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 106 total (US 103; CS 3), as does the live field. Britton gives the Federal loss as three officers, sixty-seven enlisted men and ten citizens killed and eighteen wounded, says most of the escort's dead were shot through the head, that soldiers who surrendered were shot down, and that the fourteen bandsmen and others were murdered; he relays Pond's report of eleven raiders left dead. Quantrill gives his loss as 3 killed and 3 wounded in both fights, claims about 80 of the escort and 16 at the fort killed, naming Blunt, Henning and Tough among the dead although Britton places all three alive after the fight, and says of about 150 Union Indians and Black men caught on the march south that none were brought through.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Killings of surrendered men and civilians are recorded as reported and are not ordinary combat categories; captives killed on the later march belong to a separate event and are not added.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KS002"
+          },
+          "column": "casualties_text",
+          "quote": "106 total (US 103; CS 3)"
+        },
+        {
+          "source_id": "nps-ks002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "106 total (US 103; CS 3;)"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "The Federal loss in the disaster was three officers, sixty-seven enlisted men, and ten citizens killed, and eighteen enlisted men wounded,"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "were found to have been shot through the head,"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.220 (the running head for p.220 reads \"22O\" in OCR; OCR page markers; not checked against print)",
+          "quote": "the moment they surrendered and were disarmed, they were shot down,"
+        },
+        {
+          "source_id": "britton-indian-territory-north-1863-selections-v1",
+          "section": "baxter-springs",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant Pond reported that the bandits left eleven men killed on the field"
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.701 (OCR page markers; not checked against print)",
+          "quote": "My loss here was 1 man killed (Will- iam Bledsoe) and 1 severely wounded (John Coger)."
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.701 (OCR page markers; not checked against print)",
+          "quote": "In the charge on the fort, my loss was 2 men killed"
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.701 (OCR page markers; not checked against print)",
+          "quote": "and about 80 privates of the escort."
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.701 (OCR page markers; not checked against print)",
+          "quote": "Among the killed were General Blunt,"
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.701 (OCR page markers; not checked against print)",
+          "quote": "Federal loss at the fort, 1 lieutenant and 15 privates killed;"
+        },
+        {
+          "source_id": "or22-1-quantrill-baxter-springs-selections-v1",
+          "section": "quantrill-1863-10-13",
+          "locator": "p.701 (OCR page markers; not checked against print)",
+          "quote": "We brought none of them through."
+        },
+        {
+          "source_id": "nps-ks002-v1",
+          "locator": "Description",
+          "quote": "was murdered,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Blunt's report (No. 1, read at its opening), Blair's and Henning's reports (Nos. 2-3), Pond's report (No. 4, read and not selected; a fourth family for this record) and any nominal list of the dead remain deferred.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume II (Putnam's, 1899) is a retrospective history described on its title page as based upon official reports and the author's observations; it relays figures from Union and Confederate reports, so it is not independent of the Official Records families, and is treated as partly a participant's interested Union account. Quantrill's October 13, 1863 report to Price is one family of interested guerrilla accounts. Pond's report (No. 4) was read and not selected, to keep the record within three families. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

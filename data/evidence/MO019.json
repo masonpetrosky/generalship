@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO019",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Hartville record (January 9-11, 1863) in Marmaduke's First Expedition into Missouri [January 1863]. The frozen interval includes Porter's capture of the Hartville garrison on January 9 and the engagement of January 11; the Marshfield and Sand Spring burnings and the retreat to Batesville are context. Campaign-wide marches, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Detachment of infantry, cavalry, and artillery (approx. 700) [US], and the frozen US bound is 700; the live field reads 700 (US 700; CS 0). Britton says Merrill's column numbered about eight hundred, joined at Hartville by one hundred and eighty cavalry, that prisoners put the Confederates at five thousand, that eight hundred Federal muskets fired the first volley, and that Dunlap was left with his regiment of two hundred and fifty men. Marmaduke's January 18 dispatch gives the enemy as 1,500 infantry and 500 cavalry and Porter's column as 600; his February 1 report gives 2,500 Federal troops and Porter about 700 effective men.",
+      "rationale": "March strengths, a prisoners' estimate and interested enemy estimates at different times. The frozen 700 has no inspected basis. None is adopted as a matched opening strength. The live CS zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO019"
+          },
+          "column": "forces_text",
+          "quote": "Detachment of infantry, cavalry, and artillery (approx. 700) [US]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "MO019",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "700"
+        },
+        {
+          "source_id": "nps-mo019-v1",
+          "locator": "Forces Engaged",
+          "quote": "700 total (US 700; CS 0;)"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.459 (OCR page markers; not checked against print)",
+          "quote": "The force numbered about eight hundred men,"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.459 (OCR page markers; not checked against print)",
+          "quote": "reinforced by one hundred and eighty men of the Third Missouri and Third Iowa Cavalry,"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.461 (the running head for p.461 reads \"46 1\" in OCR; OCR page markers; not checked against print)",
+          "quote": "estimated at five thousand men,"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.462 (OCR page markers; not checked against print)",
+          "quote": "the discharge of eight hundred Federal muskets"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.464 (OCR page markers; not checked against print)",
+          "quote": "regiment of two hundred and fifty men,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-01-18",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "1,500 in- fantry and 500 cavalry, under General Merrill."
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-01-18",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "Colonel [J. C.] Porter, with 600 men,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "(2,500 Iowa, Illinois, Michigan, and Missouri troops)"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "Colonel Porter with his brigade, about 700 effective men,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "wooded-hill-and-town",
+      "dimension": "terrain",
+      "value": "Britton says Merrill formed on the brow of a hill about two hundred yards northwest of the town, sheltered by small trees and underbrush, while Confederate sharpshooters used the houses and fences of the town. Marmaduke calls the Federal position very strong.",
+      "rationale": "Ground from a history and an interested report; no map inspected. The Union line was taken up on arrival.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.461 (the running head for p.461 reads \"46 1\" in OCR; OCR page markers; not checked against print)",
+          "quote": "Colonel Merrill formed his line on the brow of the hill, about two hundred yards northwest of town."
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.461 (the running head for p.461 reads \"46 1\" in OCR; OCR page markers; not checked against print)",
+          "quote": "His position was much shel- tered by a heavy growth of small trees and underbrush"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.464 (OCR page markers; not checked against print)",
+          "quote": "concealed themselves in considerable force behind the houses and fences in town."
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "The Federal position at Hartville was a very strong one,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "wagons-horses-and-provisions",
+      "dimension": "logistics",
+      "value": "Britton says Merrill's infantry rode in four-mule government wagons, that the stampede of Porter's caisson horses left his battery without ammunition, and that Dunlap left Hartville for want of provisions. Marmaduke says the retreat crossed a country laid waste, with neither food for men nor horses, and that his horses were mostly unshod and very poor.",
+      "rationale": "A history and an interested report; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.459 (OCR page markers; not checked against print)",
+          "quote": "a train of Government wagons, each wagon drawn by four mules, was furnished to convey the infantry."
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "stampeding the horses drawing Captain Brown's caissons, leaving him without ammuni- tion"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.465 (the running head for p.465 reads \"4^5\" in OCR; OCR page markers; not checked against print)",
+          "quote": "Having been left without provisions for his men,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "furnishing neither food for man nor horse."
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.198 (OCR page markers; not checked against print)",
+          "quote": "were,, for the most part, unshod, very poor, and unfit for any service."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "prisoners-and-pursuit-reports",
+      "dimension": "information",
+      "value": "Britton says Merrill learned from citizens of Porter's capture of the garrison and from prisoners that Marmaduke's combined force was in front, and that Marmaduke had word of a strong Federal cavalry force pursuing him. Marmaduke says that, hearing of a strong cavalry force in his rear, he chose not to fight between two forces.",
+      "rationale": "Attributed knowledge from a history and an interested report; no original messages inspected.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.459 (OCR page markers; not checked against print)",
+          "quote": "Here he also received information from citizens"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.461 (the running head for p.461 reads \"46 1\" in OCR; OCR page markers; not checked against print)",
+          "quote": "From the prisoners the Federal cavalry took in the action early in the morning, Colonel Merrill ascertained"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "Having received information that a strong Federal cavalry force was pursuing him,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "hearing that a strong cavalry force was in my rear, I deemed it best not to put myself in battle between the two forces,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reinforce-and-escape",
+      "dimension": "objectives",
+      "value": "Britton says Merrill's column was ordered to reinforce Springfield, that Marmaduke marched around it to keep an open line of retreat south, and that Merrill, knowing his weakness, sought to make the Confederates attack him. Marmaduke says he turned the force in front after securing a safe line of retreat.",
+      "rationale": "Stated aims from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.459 (OCR page markers; not checked against print)",
+          "quote": "ordered Brigadier-General Fitz Henry Warren, command- ing at Houston, in Texas County, to reinforce the Federal garrison at Springfield by forced marches."
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.461 (the running head for p.461 reads \"46 1\" in OCR; OCR page markers; not checked against print)",
+          "quote": "so that he would have an unobstructed way open to retreat south, if defeated."
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.462 (OCR page markers; not checked against print)",
+          "quote": "Knowing his own weakness in numbers, the Federal commander determined if possi- ble to compel the Confederates to bring on the action."
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "after I had secured, in case of defeat, a safe line of retreat."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Warren could not accompany the column and put Colonel Merrill in command, that Shelby's and then Porter's brigades attacked, Porter being wounded, and that Dunlap's regiment held the field after the rest of Merrill's command had retired. Marmaduke calls his opponent General Merrill. NPS names Merrill as commander of the Union column. The frozen commanders are Brigadier General John S. Marmaduke and Colonel Samuel Merrill; the live page lists Marmaduke without a rank.",
+      "rationale": "Command roles from a history, an interested report and a summary; the listed commanders do not receive automatic sole credit. Marmaduke's 'General Merrill' is his rank error.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.459 (OCR page markers; not checked against print)",
+          "quote": "he ordered Colonel Merrill, the officer next in rank, to take command."
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "Colonel Shelby rallied part of his brigade and advanced again to attack the Federal position,"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "wounding him in the hand and leg."
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "all his troops had retired from the field except the Twenty-first Iowa Infantry,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-01-18",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "under General Merrill."
+        },
+        {
+          "source_id": "nps-mo019-v1",
+          "locator": "Description",
+          "quote": "Col. Samuel Merrill, commander of the approaching Union column,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO019",
+            "belligerent": "Confederate",
+            "fullname": "John S. Marmaduke"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO019",
+            "belligerent": "US",
+            "fullname": "Samuel Merrill"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-mo019-v1",
+          "locator": "Principal Commanders",
+          "quote": "John Marmaduke [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory and the live result Confederate Victory. Marmaduke says the enemy gave way and retreated in disorder, leaving dead, wounded and arms. Britton says most of Merrill's command retired on the Lebanon road, but Dunlap's regiment held its position until the Confederates retreated before sunset, leaving their dead and severely wounded. NPS says the Confederates compelled the Union to retreat but abandoned the raid.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The accounts conflict on which side left the field.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO019"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-mo019-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "till the enemy gave way and retreated rapidly and in disorder, leaving the dead and wounded,"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.464 (OCR page markers; not checked against print)",
+          "quote": "they saw the Confederate forces retreating over the hills south of town."
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.464 (OCR page markers; not checked against print)",
+          "quote": "leaving his dead and severely wounded on the field."
+        },
+        {
+          "source_id": "nps-mo019-v1",
+          "locator": "Description",
+          "quote": "compelled the Yankees to retreat."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 407 total (US 78; CS 329), as does the live field. Britton gives the Federal loss as 7 killed, 64 wounded, 5 prisoners and 2 missing, and Marmaduke's reported loss as 12 killed, 96 wounded and 3 missing. Marmaduke's January 18 dispatch gives 15 killed and 70 wounded, including MacDonald, Wimer and Kirtley. The Hartville garrison taken on January 9 is given by Britton as thirty-five militia and by Marmaduke as some 50. The expedition total and the No. 9 return are recorded under Springfield and not assigned here.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen CS 329 has no inspected basis.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO019"
+          },
+          "column": "casualties_text",
+          "quote": "407 total (US 78; CS 329)"
+        },
+        {
+          "source_id": "nps-mo019-v1",
+          "locator": "Estimated Casualties",
+          "quote": "407 total (US 78; CS 329;)"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.465 (the running head for p.465 reads \"4^5\" in OCR; OCR page markers; not checked against print)",
+          "quote": "On the Federal side there were 7 men killed, 64 wounded, 5 made prisoners, and 2 missing."
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.465 (the running head for p.465 reads \"4^5\" in OCR; OCR page markers; not checked against print)",
+          "quote": "his casualties were 12 killed, 96 wounded, and 3 missing."
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-01-18",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "My loss was 15 killed and 70 wounded."
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "hartville",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "captured a detachment of thirty-five Union militia,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "who had captured the militia (some 50)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Warren's and Dunlap's reports (Nos. 5-6), Porter's report (No. 11), Merrill's own report if any, and a legible copy of the No. 9 return remain deferred.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume I (Putnam's, second edition, revised, 1891) is a retrospective history whose title page says it is based upon the official reports of named Federal and Confederate commanders; its preface says the author served with the Federal army in that section and almost invariably took the official reports as a guide for numbers and casualties. It is not independent of the Official Records families and is treated as partly a participant's interested Union account. Marmaduke's January 18 and February 1, 1863 reports are one author family of interested Confederate accounts; Holmes's printed indorsement and the compiled No. 9 casualty return (garbled in OCR) are not counted as further families. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

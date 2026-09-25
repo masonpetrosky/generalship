@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO018",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Springfield record (January 8, 1863) in Marmaduke's First Expedition into Missouri [January 1863]. The capture of Fort Lawrence (Beaver Station) and Ozark (January 6-7) and the Confederate appearance on the Rolla road on January 9 are context. Campaign-wide marches, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Southwestern District of Missouri Troops (2,000) [US], and the frozen US bound is 2,000; the live field reads 2000 (US 2000; CS 0). Britton says Brown reported Marmaduke with five thousand men and a battery, that Burch's prisoners gave five or six thousand, that the garrison had been reduced to perhaps less than one thousand effective men, that about four hundred stragglers and convalescents were armed, and lists Brown's units with their numbers; nearly two hundred citizens also fought. Marmaduke says he struck with about 1,000 men under Shelby and 270 under MacDonald, and that the Federal force was 4,200.",
+      "rationale": "Intelligence estimates, a garrison figure before reinforcement, unit counts from a history and an interested claim of enemy strength. The frozen 2,000 has no inspected basis, and Britton's unit counts are not summed here. None is adopted as a matched opening strength. The live CS zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO018"
+          },
+          "column": "forces_text",
+          "quote": "Southwestern District of Missouri Troops (2,000) [US]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "MO018",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "2000"
+        },
+        {
+          "source_id": "nps-mo018-v1",
+          "locator": "Forces Engaged",
+          "quote": "2000 total (US 2000; CS 0;)"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.444 (OCR page markers; not checked against print)",
+          "quote": "with a force of five thousand Con- federate cavalry and mounted infantry and a battery of light artillery,"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.446 (OCR page markers; not checked against print)",
+          "quote": "five thousand or six thousand men,"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "per- haps less than one thousand effective men."
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "These men, to the number of some four hundred,"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.449 (OCR page markers; not checked against print)",
+          "quote": "To meet the attack, General Brown had 453 men of Colonel Walter King's Third Missouri State Militia Cavalry,"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.457 (OCR page markers; not checked against print)",
+          "quote": "There were nearly two hundred loyal citizens of Springfield who volunteered,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-01-18",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "with 1,000 men, under Shelby, and 270 men, under MacDonald."
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-01-18",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "The Federal force there was 4,200."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "forts-prairie-and-town",
+      "dimension": "terrain",
+      "value": "Britton says four forts were under construction but none was completed or fully armed, that an unfinished stockade surrounded the college building on three sides, that the country south of town was rolling prairie and farms, and that Brown burned houses south of the forts to clear the view. Marmaduke says Springfield was weakly garrisoned though strongly fortified. NPS says the Union had fortified the town.",
+      "rationale": "Works and ground from a history, an interested report and a summary; the works predate the attack, but their extent is disputed.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "There were four forts under construction to command the approaches to the town, but none of these forts was completed or fully armed."
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.452 (OCR page markers; not checked against print)",
+          "quote": "As the palisades extended around only three sides of the college building,"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.450 (OCR page markers; not checked against print)",
+          "quote": "For a distance of four miles south and southeast of town, the country was rolling prairie and farms."
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.450 (OCR page markers; not checked against print)",
+          "quote": "it was necessary to burn several houses south of the forts,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "was weakly garrisoned, i though strongly fortified,"
+        },
+        {
+          "source_id": "nps-mo018-v1",
+          "locator": "Description",
+          "quote": "The Union army had constructed fortifications to defend the town."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "depot-guns-and-condition",
+      "dimension": "logistics",
+      "value": "NPS calls Springfield an important Federal communications center and supply depot. Britton says Brown mounted howitzers and a gun on wagon wheels in Fort No. 4 overnight and that Marmaduke had promised his troops Federal commissary stores. Marmaduke says his men were thinly clad, many without shoes or horses, without baggage wagons or cooking utensils, and that at least 200 abandoned their horses.",
+      "rationale": "A summary, a history and an interested report; no depot, ordnance or remount return inspected.",
+      "citations": [
+        {
+          "source_id": "nps-mo018-v1",
+          "locator": "Description",
+          "quote": "Springfield was an important Federal communications center and supply depot"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.449 (OCR page markers; not checked against print)",
+          "quote": "General Brown had three iron twelve- pounder howitzers and one six-pounder gun mounted on wagon-wheels and rolled into Fort No. 4,"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.456 (OCR page markers; not checked against print)",
+          "quote": "his troops a bountiful supply of provisions from the Federal commissary stores."
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.198 (OCR page markers; not checked against print)",
+          "quote": "thinly clad, many without shoes and horses, marched without baggage wagons or cooking utensils,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.198 (OCR page markers; not checked against print)",
+          "quote": "At least 200 of the command abandoned their horses on the roadside to die,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-and-weak-garrison",
+      "dimension": "information",
+      "value": "Britton says Burch's courier reached Brown about three in the afternoon of the 7th, that Brown had had no intimation of the raid, and that Marmaduke had learned before Ozark that the town was held by a small force. Marmaduke says he learned on January 6 that Springfield was weakly garrisoned and could be taken if surprised, and that his courier to Porter did not reach him until January 10.",
+      "rationale": "Attributed knowledge from a history and an interested report; no original messages inspected.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "The courier from Captain Burch arrived at Springfield about three o'clock in the evening of the 7th,"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "General Brown had received no intimation that a large Confederate force would probably attempt to flank the Army of the Frontier"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.451 (the running head for p.451 reads \"45 1\" in OCR; OCR page markers; not checked against print)",
+          "quote": "He received information before passing Ozark that the town was garrisoned by a small force,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "if surprised, I thought it could be cap- tured."
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "The courier to Porter j failed to meet him till January 10, too late."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "diversion-and-depot",
+      "dimension": "objectives",
+      "value": "Marmaduke says Hindman ordered him to strike the enemy's rear or flank to draw Blunt's forces back from the Arkansas River into Missouri, and that he determined at least to threaten Springfield; Holmes's indorsement says the expedition was meant to divert the enemy from Van Buren and force them from the Arkansas valley. NPS says the Confederates wished to destroy the depot.",
+      "rationale": "Stated aims from interested reports and a summary.",
+      "citations": [
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "in order to withdraw the heavy masses (infantry, cavalry, and artillery), under Blunt, then moving toward the Arkansas Eiver, back into Missouri"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "termined at least to threaten Springfield,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "holmes-indorsement-1863-02-08",
+          "locator": "p.198 (OCR page markers; not checked against print)",
+          "quote": "This expedition was gotten up by General Hindman to divert the enemy from their attack on Yan Buren, and to force them to retire from the valley of the Arkansas."
+        },
+        {
+          "source_id": "nps-mo018-v1",
+          "locator": "Description",
+          "quote": "so the Rebels wished to destroy it."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Brown directed the defence in person until he was shot while leading a charge, then turned the command over to Colonel Crabb, who met the last assault. Marmaduke credits Shelby with preparing the attack. NPS says Brown was wounded during the day. The frozen commanders are Brigadier Generals John S. Marmaduke and Egbert B. Brown; the live page lists Marmaduke without a rank.",
+      "rationale": "Command roles from a history and an interested report; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.450 (OCR page markers; not checked against print)",
+          "quote": "General Brown rode to the front to direct the move- ment of his troops in person."
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.454 (OCR page markers; not checked against print)",
+          "quote": "he turned the command of the troops over to Colonel Crabb, Nineteenth Iowa Infantry."
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "ciously made preparation for the attack,"
+        },
+        {
+          "source_id": "nps-mo018-v1",
+          "locator": "Description",
+          "quote": "Brown had been wounded during the day."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO018",
+            "belligerent": "Confederate",
+            "fullname": "John S. Marmaduke"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO018",
+            "belligerent": "US",
+            "fullname": "Egbert B. Brown"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-mo018-v1",
+          "locator": "Principal Commanders",
+          "quote": "John Marmaduke [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory, although the raid ultimately failed, and the live result Union Victory. Marmaduke says that at dark he held the greater part of the town, a fort and a captured gun, and did not renew the attack next day. Britton says the Confederates were driven back into the college palisades at dark and Marmaduke declined another action on the 9th. NPS says the depot was successfully defended.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The accounts differ on the ground held at dark.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO018"
+          },
+          "column": "results_text",
+          "quote": "Union victory, although the raid ultimately failed."
+        },
+        {
+          "source_id": "nps-mo018-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-01-18",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "the greater part of the town, the fort, and many of the dead and wounded Federals in my pos- session."
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-01-18",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "I did hot deem it best to renew the attack,"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.456 (OCR page markers; not checked against print)",
+          "quote": "drove back the Confederates into the palisades around the college building."
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.457 (OCR page markers; not checked against print)",
+          "quote": "General Marmaduke declined to be drawn into another action,"
+        },
+        {
+          "source_id": "nps-mo018-v1",
+          "locator": "Description",
+          "quote": "The Federal depot was successfully defended,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 403 total (US 163; CS 240), as does the live field. Britton gives the Federal loss as 14 killed, 146 wounded and 4 missing, Marmaduke's reported loss as 20 killed and 124 wounded, and Crabb's report of 60 to 80 Confederate wounded left on the field. Marmaduke's January 18 dispatch gives 20 killed and 80 wounded; his February 1 report gives 33 killed, 203 wounded and 29 missing for the whole expedition. The No. 9 return for January 2-11 is garbled in OCR.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The expedition total covers Springfield, Hartville and the skirmishes and is not assigned to this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO018"
+          },
+          "column": "casualties_text",
+          "quote": "403 total (US 163; CS 240)"
+        },
+        {
+          "source_id": "nps-mo018-v1",
+          "locator": "Estimated Casualties",
+          "quote": "403 total (US 163; CS 240;)"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.457 (OCR page markers; not checked against print)",
+          "quote": "The Federal loss in the action was 14 men killed, 146 wounded, and 4 missing."
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.457 (OCR page markers; not checked against print)",
+          "quote": "General Marmaduke reported the Confederate loss at 20 men killed, and 124 wounded,"
+        },
+        {
+          "source_id": "britton-border-1-marmaduke-1863-first-selections-v1",
+          "section": "springfield",
+          "locator": "p.457 (OCR page markers; not checked against print)",
+          "quote": "Colonel Crabb reported having 60 to 80 of the Con- federate wounded,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-01-18",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "My loss was 20 killed and 80 wounded."
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "marmaduke-1863-02-01",
+          "locator": "p.198 (OCR page markers; not checked against print)",
+          "quote": "My loss was 33 killed, 203 wounded, and 29 missing."
+        },
+        {
+          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
+          "section": "casualty-return-no-9",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "No. 9. Return of Casualties in Marmaduke’s command, January 2-11, 1862."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Curtis's, Brown's, Holland's and Crabb's reports (Nos. 1-4), Shelby's and Bennett's reports (Nos. 10, 12) and a legible copy of the No. 9 return remain deferred.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume I (Putnam's, second edition, revised, 1891) is a retrospective history whose title page says it is based upon the official reports of named Federal and Confederate commanders; its preface says the author served with the Federal army in that section and almost invariably took the official reports as a guide for numbers and casualties. It is not independent of the Official Records families and is treated as partly a participant's interested Union account. Marmaduke's January 18 and February 1, 1863 reports are one author family of interested Confederate accounts; Holmes's printed indorsement and the compiled No. 9 casualty return (garbled in OCR) are not counted as further families. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

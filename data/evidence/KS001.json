@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "battle_id": "KS001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Lawrence record (August 21, 1863) in Quantrill's Raid into Kansas [August 1863]. The approach march of August 19-20, the pursuit through Paola to Grand River (August 21-22), later guerrilla deaths and Order No. 11 are context. Most of the dead were unarmed civilians; they are recorded as reported, not as ordinary combat casualties. Campaign-wide marches, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads No Union troops [US] and Quantrill's Raiders and other guerrillas [CS], with no numerical bounds; the live field reads 350 (US 0; CS 350) and the live description says 300 to 400. Ewing says Quantrill's whole force was about 300, about 250 assembling first and about 50 joining on the 20th; Banks's dispatch estimates about 200. Britton says three hundred crossed into Kansas and that Pike's first report put them as high as seven hundred. Ewing says the people of Lawrence could have met Quantrill with 500 men on half an hour's notice, and that among the murdered were 14 recruits of the Fourteenth Kansas and 20 of the Second Kansas Colored.",
+      "rationale": "Estimates of an irregular force, and a counterfactual defence figure. The murdered recruits were unarmed, so the frozen 'No Union troops' is not contradicted as a count of an armed defence. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KS001"
+          },
+          "column": "forces_text",
+          "quote": "No Union troops [US]; Quantrill's Raiders and other guerrillas [CS]"
+        },
+        {
+          "source_id": "nps-ks001-v1",
+          "locator": "Forces Engaged",
+          "quote": "350 total (US 0; CS 350;)"
+        },
+        {
+          "source_id": "nps-ks001-v1",
+          "locator": "Description",
+          "quote": "led a force of about 300 to 400 partisans"
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.579 (OCR page markers; not checked against print)",
+          "quote": "QuantrilFs whole force was about 300 men,"
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.579 (OCR page markers; not checked against print)",
+          "quote": "About 250 were assembled on Black- water,"
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "he was joined, on the morning of the 20th, by about 50 men from Grand Kiver and the Osage,"
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "banks-1863-08-21-inclosure",
+          "locator": "p.585 (OCR page markers; not checked against print)",
+          "quote": "As near as I can estimate, he had about 200 men,"
+        },
+        {
+          "source_id": "britton-quantrill-1863-selections-v1",
+          "section": "lawrence",
+          "locator": "p.137 (OCR page markers; not checked against print)",
+          "quote": "with three hundred men, heavily armed and well mounted."
+        },
+        {
+          "source_id": "britton-quantrill-1863-selections-v1",
+          "section": "lawrence",
+          "locator": "p.137 (OCR page markers; not checked against print)",
+          "quote": "estimated as high as seven hundred men,"
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.583 (OCR page markers; not checked against print)",
+          "quote": "could have met Quantrill, on half an hour’s notice, with 500 men."
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.583 (OCR page markers; not checked against print)",
+          "quote": "among them 14 recruits of the Fourteenth Regiment and 20 of the Second Kansas Colored Volunteers."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "open-prairie-and-town",
+      "dimension": "terrain",
+      "value": "Ewing says Quantrill's path lay over open prairie, hard to follow at night, in a rolling country 'as open as the sea' unobstructed by roads or fords. Britton says the fifty-mile route was mostly settled, and that the raiders scattered to the houses of the town so the citizens could not concentrate.",
+      "rationale": "Ground from an interested report and a history; no map inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "Quan- trill’s path was over the open prairie, and difficult to follow at night,"
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.583 (OCR page markers; not checked against print)",
+          "quote": "as open as the sea"
+        },
+        {
+          "source_id": "britton-quantrill-1863-selections-v1",
+          "section": "lawrence",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "a distance of about fifty miles was mostly settled up,"
+        },
+        {
+          "source_id": "britton-quantrill-1863-selections-v1",
+          "section": "lawrence",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "as the bandits on entering the town scattered out to the different houses,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "horses-and-arms",
+      "dimension": "logistics",
+      "value": "Ewing says Quantrill's men rode the best horses on the border and took fresh ones at Lawrence, while the pursuers' young horses had marched more than 65 miles without rest or food; Lawrence had an abundance of arms in its arsenal. Britton says the same of the remounts.",
+      "rationale": "An interested report and a history; no remount or ordnance record inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "Quantrill had his men mounted on the best horses of the border, and had collected fresh ones going to and at Lawrence,"
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "had marched more than 65 miles without rest, and without food"
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.583 (OCR page markers; not checked against print)",
+          "quote": "They had an abundance of arms in their city arsenal,"
+        },
+        {
+          "source_id": "britton-quantrill-1863-selections-v1",
+          "section": "lawrence",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "enabled Quantrill to obtain nearly enough good horses to remount his men,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warnings-that-failed",
+      "dimension": "information",
+      "value": "Ewing says that despite constant information on the guerrillas he learned nothing of a raid into Kansas, that Pike's dispatches reached him only at 10.45 a.m. on the 21st because the Leavenworth telegraph offices closed at 11 p.m., and that no warning reached Lawrence in nearly eleven hours; one citizen who tried to carry it died after his horse fell. Britton gives the same account.",
+      "rationale": "Attributed knowledge from an interested report and a history; no original messages inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.579 (OCR page markers; not checked against print)",
+          "quote": "I could learn nothing of a purpose to make a raid into Kansas."
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.582 (OCR page markers; not checked against print)",
+          "quote": "I received those dispatches, and the one announcing that Quan- trill had passed through Gardner going toward Lawrence, not until 10.45 a. m. on the 21st."
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.583 (OCR page markers; not checked against print)",
+          "quote": "no information of his approach was conveyed to the people of that town."
+        },
+        {
+          "source_id": "britton-quantrill-1863-selections-v1",
+          "section": "lawrence",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "only one man, a Mr. J. Reed, living near Eudora, made an attempt to do so,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "raid-aims",
+      "dimension": "objectives",
+      "value": "NPS says the raid was a supposed retaliation for a Union raid on Osceola. Britton says Ewing had word late in July that the guerrillas were concentrating to raid Lawrence. Ewing says the raiders avowed a purpose to go on to Topeka, and that Quantrill would not have gone as far as Lawrence with 100 men close on his rear.",
+      "rationale": "Stated or attributed aims from a summary, a history and an interested report; no guerrilla account inspected.",
+      "citations": [
+        {
+          "source_id": "nps-ks001-v1",
+          "locator": "Description",
+          "quote": "In a supposed retaliation for a Union raid on Osceola, Missouri,"
+        },
+        {
+          "source_id": "britton-quantrill-1863-selections-v1",
+          "section": "lawrence",
+          "locator": "p.136 (OCR page markers; not checked against print)",
+          "quote": "for the purpose of making a raid on Lawrence, Kansas."
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.582 (OCR page markers; not checked against print)",
+          "quote": "of the avowed purpose of the rebels to go thence to Topeka,"
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "Quantrill would never have gone as far as Lawrence, or attacked it, with 100 men close on his rear."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "NPS says Quantrill led the force. Ewing, absent at Leavenworth, blames Pike's error of judgment in not pursuing at once and says Clark was slow to renew the pursuit; Plumb led the pursuit and Lane a party of citizens. Britton calls Pike's failure the first fatal blunder. The frozen commander is Lieutenant Colonel William C. Quantrill; no Union commander is listed, and the live page styles Quantrill a Colonel.",
+      "rationale": "Command roles from a summary, an interested report and a history; the listed commander does not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "nps-ks001-v1",
+          "locator": "Description",
+          "quote": "Lt. Col. William C. Quantrill led a force"
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.582 (OCR page markers; not checked against print)",
+          "quote": "On the 20th of August, I went to Leavenworth on official business."
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "By Captain Pike’s error of judgment in failing to follow promptly and closely,"
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.581 (OCR page markers; not checked against print)",
+          "quote": "He was slow in ordering pursuit,"
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.580 (OCR page markers; not checked against print)",
+          "quote": "led in pursuit by General Lane."
+        },
+        {
+          "source_id": "britton-quantrill-1863-selections-v1",
+          "section": "lawrence",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "The first fatal blunder was Captain Pike's failure to pursue the bandits"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KS001",
+            "belligerent": "Confederate",
+            "fullname": "William C. Quantrill"
+          },
+          "column": "rank",
+          "quote": "Lieutenant Colonel"
+        },
+        {
+          "source_id": "nps-ks001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Colonel William Quantrill [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory and the live result Confederate Victory. Ewing says the guerrillas robbed most stores and banks, burned 185 buildings including a quarter of the private residences and nearly all business houses, and murdered 140 unarmed men; Britton says they held the town until ten o'clock. NPS calls it the extreme example of the border warfare.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The label records a raid on an undefended town, not a battle between armed forces.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KS001"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ks001-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.583 (OCR page markers; not checked against print)",
+          "quote": "burned one hundred and eighty-five buildings, including one-fourth of the private residences and nearly all of the business houses of the town,"
+        },
+        {
+          "source_id": "britton-quantrill-1863-selections-v1",
+          "section": "lawrence",
+          "locator": "p.139 (OCR page markers; not checked against print)",
+          "quote": "until ten o'clock, when they left town,"
+        },
+        {
+          "source_id": "nps-ks001-v1",
+          "locator": "Description",
+          "quote": "was, perhaps, the extreme example of the vicious Kansas-Missouri border warfare."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 204 total (US 164; CS 40); the live field reads 150 (US 150; CS 0). Ewing says 140 unarmed men were murdered and about 24 persons wounded, and that the guerrillas killed since the raid already numbered fully a hundred; Banks's same-day dispatch says about 60 citizens (read 'GO') were slaughtered; Britton says 140 men were killed and 185 buildings burned.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Civilian dead are not military casualties; guerrillas killed in the pursuit and later scouts belong to separate actions and are not added.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KS001"
+          },
+          "column": "casualties_text",
+          "quote": "204 total (US 164; CS 40)"
+        },
+        {
+          "source_id": "nps-ks001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "150 total (US 150; CS 0;)"
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.583 (OCR page markers; not checked against print)",
+          "quote": "murdered 140 unarmed men,"
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.583 (OCR page markers; not checked against print)",
+          "quote": "About 24 persons were wounded."
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "ewing-1863-08-31",
+          "locator": "p.582 (OCR page markers; not checked against print)",
+          "quote": "the number of participants in the massacre already killed is fully as great."
+        },
+        {
+          "source_id": "or22-1-ewing-lawrence-selections-v1",
+          "section": "banks-1863-08-21-inclosure",
+          "locator": "p.585 (OCR page markers; not checked against print)",
+          "quote": "slaughtered in cold blood about GO citizens ;"
+        },
+        {
+          "source_id": "britton-quantrill-1863-selections-v1",
+          "section": "lawrence",
+          "locator": "p.139 (OCR page markers; not checked against print)",
+          "quote": "having killed 140 men, burned 185 buildings,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Schofield's transmittal (No. 1, read at its opening and not selected), Clark's, Lazear's, Thacher's, Coleman's, Ballinger's, Leland's and King's reports (Nos. 3-9), any guerrilla account and a list of the Lawrence dead remain deferred.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume II (Putnam's, 1899) is a retrospective history described on its title page as based upon official reports and the author's observations; it relays figures from Union and Confederate reports, so it is not independent of the Official Records families, and is treated as partly a participant's interested Union account. Ewing's August 31, 1863 report is one family of interested Union accounts; A. R. Banks's August 21 dispatch from Lawrence, printed as its inclosure, is a separate writer's dispatch not counted as a further family. No Confederate or guerrilla account of the raid was located in the inspected volume. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

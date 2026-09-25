@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO020",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Cape Girardeau record (April 26, 1863) in Marmaduke's Second Expedition into Missouri [April-May 1863]. The Patterson and Fredericktown skirmishes (April 20-22), Vandever's night attack near Jackson (April 26) and the retreat are context. Campaign-wide marches, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Garrison plus some reinforcements [US] and cavalry division [CS], with no numerical bounds; the live field reads 2000 (US 2000; CS 0). McNeil telegraphed that he was attacked by 8,000 men. Marmaduke says his whole strength was about 5,000 men with ten guns, of whom about 1,200 were unarmed and 900 dismounted, that he estimated McNeil's force at Bloomfield at about 2,000, and that Cape Girardeau was held by about 3,000 infantry and cavalry with four large forts. NPS gives McNeil's combined force as about 2,000.",
+      "rationale": "An interested enemy estimate, an interested own-strength figure with its armed/mounted qualification and a garrison estimate after reinforcement by water. None is adopted as a matched opening strength. The live CS zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO020"
+          },
+          "column": "forces_text",
+          "quote": "Garrison plus some reinforcements [US]; cavalry division [CS]"
+        },
+        {
+          "source_id": "nps-mo020-v1",
+          "locator": "Forces Engaged",
+          "quote": "2000 total (US 2000; CS 0;)"
+        },
+        {
+          "source_id": "or22-1-mcneil-cape-girardeau-selections-v1",
+          "section": "mcneil-1863-04-26-to-asboth",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "I am attacked by 8,000 men under Marmaduke."
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "My whole strength was about 5,000 men, eight pieces of field artillery, and two light mountain pieces."
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "Of this force about 1,200 were unarmed and 900 dismounted."
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "with a force I estimated to be about 2,000, cav- alry, infantry, and artillery."
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "about 3,000 infantry and cavalry."
+        },
+        {
+          "source_id": "nps-mo020-v1",
+          "locator": "Description",
+          "quote": "with his combined force of about 2,000 men,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "forts-and-position",
+      "dimension": "terrain",
+      "value": "Marmaduke says the Federals were admirably posted with great natural advantages, supported by four large forts with heavy guns; NPS says the Federals had placed themselves in the fortifications. McNeil says he held gunboats in readiness.",
+      "rationale": "An interested report and a summary; no map or engineer record inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "the enemy were admirably posted, possessing great natural advantages in position, supported by four large forts mounted with heavy guns,"
+        },
+        {
+          "source_id": "nps-mo020-v1",
+          "locator": "Description",
+          "quote": "the Federals had placed themselves in the fortifications."
+        },
+        {
+          "source_id": "or22-1-mcneil-cape-girardeau-selections-v1",
+          "section": "mcneil-1863-04-26-to-curtis",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "I have not yet used the gunboats, but am holding them in readiness."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forage-and-river-reinforcement",
+      "dimension": "logistics",
+      "value": "Marmaduke says the country for at least 100 miles was without forage or subsistence and his horses were worn by forced marches, and that McNeil was heavily reinforced by water. McNeil asked for two infantry regiments, a battery and ammunition, and reported that two steamers with reinforcements had arrived. Kirby Smith's indorsement says the expedition was made chiefly because of the scarcity of forage in Arkansas.",
+      "rationale": "Interested reports and an indorsement; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "The country for at least 100 miles was without forage or subsistence,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "pp.286–287 (OCR page markers; not checked against print)",
+          "quote": "with horses very much worn"
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "In the mean time McNeil had been heavily re-enforced by water."
+        },
+        {
+          "source_id": "or22-1-mcneil-cape-girardeau-selections-v1",
+          "section": "mcneil-1863-04-26-to-asboth",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "Can you send me two regiments of infantry and a field battery, with supply of ammunition?"
+        },
+        {
+          "source_id": "or22-1-mcneil-cape-girardeau-selections-v1",
+          "section": "mcneil-1863-04-26-to-curtis",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "Two steamers with re- enforcements from you have arrived."
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "kirby-smith-indorsement-1863-06-04",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "was made more particularly on account of the scarcity of forage in Arkansas,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "pursuit-dispatches",
+      "dimension": "information",
+      "value": "Marmaduke says he learned on the 25th from Carter that McNeil had been pursued to within four miles of Cape Girardeau, that Carter's dispatch bearers were captured, and that he decided not to storm the place on learning the Federals were in the fortifications. McNeil expected to be stormed the next day.",
+      "rationale": "Attributed knowledge from interested reports; no original messages inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "On the 25th, I received dispatches from Carter that he had pursued McNeil to within 4 miles of Cape Girardeau."
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "whose dispatch bearers were cap- tured by the enemy"
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "On learning the Federal forces were in the fortifications, I deemed it unwise to attack and storm the place."
+        },
+        {
+          "source_id": "or22-1-mcneil-cape-girardeau-selections-v1",
+          "section": "mcneil-1863-04-26-to-asboth",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "Expect to be stormed to-morrow."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "strike-mcneil-and-demonstrate",
+      "dimension": "objectives",
+      "value": "Marmaduke says he aimed to capture the Patterson outpost and strike McNeil, hoping to arm and mount his command from the captured force, and at Cape Girardeau ordered only a demonstration, which amounted almost to an attack. NPS says the expedition was meant to relieve pressure on other Confederate troops and disrupt Union operations.",
+      "rationale": "Stated aims from an interested report and a summary.",
+      "citations": [
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "capture the outpost (a regiment) at Patterson, and strike [John] McNeil,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "my whole command could be well armed and finely mounted for vigorous action."
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "to make a demonstration against the enemy,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "Shelby’s demonstration amounted almost to an attack."
+        },
+        {
+          "source_id": "nps-mo020-v1",
+          "locator": "Description",
+          "quote": "Meant to relieve pressure on other Confederate troops and to disrupt Union operations,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Marmaduke says he ordered Shelby's demonstration and brought up Carter's column in support; McNeil reported and signed as commanding at Cape Girardeau. NPS names Shelby's brigade as making the demonstration (calling him John S. Shelby). The frozen commanders are Brigadier Generals John S. Marmaduke and John McNeil; the live page lists Marmaduke without a rank.",
+      "rationale": "Command roles from interested reports and a summary; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "I so informed Colonel Shelby, and ordered him on the Jackson and Cape Girardeau road,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "I deemed it necessary to bring Carter’s column up to his sup- port."
+        },
+        {
+          "source_id": "or22-1-mcneil-cape-girardeau-selections-v1",
+          "section": "mcneil-1863-04-26-to-curtis",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "JOHN McNEIL, Brigadier- General, Commanding Cape Girardeau."
+        },
+        {
+          "source_id": "nps-mo020-v1",
+          "locator": "Description",
+          "quote": "Col. John S. Shelby's brigade made the demonstration which escalated into an attack."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO020",
+            "belligerent": "Confederate",
+            "fullname": "John S. Marmaduke"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO020",
+            "belligerent": "US",
+            "fullname": "John McNeil"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-mo020-v1",
+          "locator": "Principal Commanders",
+          "quote": "John Marmaduke [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. McNeil reported that he had repulsed the attack. Marmaduke calls the action a demonstration and says he withdrew his columns toward Jackson. NPS says Marmaduke was repulsed.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The sides characterize the action differently.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO020"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-mo020-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or22-1-mcneil-cape-girardeau-selections-v1",
+          "section": "mcneil-1863-04-26-to-asboth",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "I have repulsed them this afternoon."
+        },
+        {
+          "source_id": "or22-1-mcneil-cape-girardeau-selections-v1",
+          "section": "mcneil-1863-04-26-to-curtis",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "The first attack of the enemy has been brilliantly repulsed."
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "As soon as the two columns had united, I withdrew toward and en- camped them around Jackson."
+        },
+        {
+          "source_id": "nps-mo020-v1",
+          "locator": "Description",
+          "quote": "Marmaduke was repulsed."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 337 total (US 12; CS 325), as does the live field. No inspected report gives a loss for April 26: McNeil's dispatches give none, and Marmaduke's figure of some 30 killed, 60 wounded and 120 missing (read 'GO') covers the whole expedition, with the compiled addenda return garbled in OCR.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen CS 325 has no inspected basis; the expedition total is not assigned to this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO020"
+          },
+          "column": "casualties_text",
+          "quote": "337 total (US 12; CS 325)"
+        },
+        {
+          "source_id": "nps-mo020-v1",
+          "locator": "Estimated Casualties",
+          "quote": "337 total (US 12; CS 325;)"
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "My loss in the expedition is some 30 killed, GO wounded, and 120 miss- ing (stragglers), perhaps captured."
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "casualty-return-addenda",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "ADDENDA. Return of Casualties in Marmaduke1 s cavalry division during the expedition."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "McNeil's own report of the action (promised in his May 10 letter), Curtis's dispatches and addenda return (No. 1, read and not selected), Meisner's, Baumer's and Benjamin's reports (Nos. 4, 9-10), and Shelby's-brigade (Thompson, No. 14) and Carter's (No. 18) reports remain deferred.",
+    "NPS/CWSAC is one family. McNeil's April 26, 1863 dispatches from Cape Girardeau and Vandever's April 30-May 4 dispatches are separate author families of interested Union accounts; Marmaduke's May 20, 1863 report is one family of interested Confederate accounts, and Kirby Smith's printed indorsement and the compiled addenda return (garbled in OCR) are not counted as further families. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

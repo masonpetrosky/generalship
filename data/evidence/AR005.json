@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "battle_id": "AR005",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Prairie Grove (Fayetteville) record (December 7, 1862) in Prairie Grove Campaign [November 1862]. The December 4-6 outpost skirmishes, Herron's forced march from Wilson Creek and the December 8 truce are context. Campaign-wide marches, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Army of the Frontier [US] and I Corps, Trans-Mississippi Army [CS], with no numerical bounds; the live field reads zero. Hindman says he marched from near Van Buren on December 3 with 9,000 infantry, 2,000 cavalry and 22 guns, that Blunt was reported to have 7,000-8,000 men and 30 guns, then 3,000-4,000 more, that Herron was bringing 4,000-6,000 infantry, 2,000 cavalry and 30 guns, and that his own detachments left him less than 10,000 men of all arms for the fight. Britton says Blunt was told Hindman had upwards of twenty thousand, that Herron brought twenty guns into action and Hindman twenty-two, that Blunt arrived with three thousand cavalry and twenty guns, and that about three thousand of Blunt's cavalry were not brought into action.",
+      "rationale": "Marching strengths, intelligence estimates and gun counts at different times; Hindman's figures are interested. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR005"
+          },
+          "column": "forces_text",
+          "quote": "Army of the Frontier [US]; I Corps, Trans-Mississippi Army [CS]"
+        },
+        {
+          "source_id": "nps-ar005-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "I marched from near Yan Buren on the 3d instant with 9,000 infantry, 2,000 cavalry, and 22 pieces of artillery."
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.139 (OCR page markers; not checked against print)",
+          "quote": "reported to have >etween 7,000 and 8,000 men and 30 cannon."
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "re- enforcement of 3,000 or 4,000 men i had arrived on Cane Hill, making Blunt’s force fully equal to mine."
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "re- enforcement of from 4,000 to 6,000 infantry, and 2,000 cavalrv, with 30 cannon, under Brigadier-General Herron,,!"
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "These aiM rangements left me for the fight less than 10,000 men of all arms."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "General Hindman, with an army upwards of twenty thousand strong,"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.409 (OCR page markers; not checked against print)",
+          "quote": "his artillery companies were bringing up his twenty pieces of artillery at a gallop,"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.412 (OCR page markers; not checked against print)",
+          "quote": "all General Hindman's artillery, consisting of twenty-two pieces."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.418 (the running head for p.418 reads \"41 8\" in OCR; OCR page markers; not checked against print)",
+          "quote": "General Blunt was seen approaching at the head of three thousand cavalry and twenty pieces of artillery,"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.427 (OCR page markers; not checked against print)",
+          "quote": "about three thousand of General Blunt's cavalry were not brought into action."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "wooded-ridge-and-prairie",
+      "dimension": "terrain",
+      "value": "Hindman describes the position Shoup took as the edge of a densely wooded hill falling steeply to Crawford's Prairie, half a mile wide, with the Cane Hill and Fayetteville road crossing it at Prairie Grove Church. Britton describes a high ridge with a thick growth of young timber and underbrush about three-quarters of a mile south of the Illinois Creek ford, with fields and open ground in front, and says Herron cut a road through the timber to cross half a mile below the ford. NPS names a wooded high ridge northeast of Prairie Grove Church.",
+      "rationale": "Ground from an interested report, a history and a summary; no map inspected. The ridge was occupied on the day, after Marmaduke fell back.",
+      "citations": [
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "It was upon the edge of a hill, densely wooded, descending abruptly to Craw- ford’s Prairie, half a mile in width, which encircled all its northern half."
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "passing by Prairie Grove Church, which is upon its summit."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.408 (OCR page markers; not checked against print)",
+          "quote": "occupying the high ridge covered with a thick growth of young timber and underbrush, about three quarters of a mile south of the ford."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.410 (the running head for p.410 reads \"4IO\" in OCR; OCR page markers; not checked against print)",
+          "quote": "crossed about half a mile below the regular ford by cutting a road through the timber."
+        },
+        {
+          "source_id": "nps-ar005-v1",
+          "locator": "Description",
+          "quote": "The Rebels then established their line of battle on a wooded high ridge northeast of Prairie Grove Church."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-rations-and-march",
+      "dimension": "logistics",
+      "value": "Hindman says lack of shoes and arms kept part of his force behind, that he had barely ammunition for one battle and not enough subsistence and forage for seven days at half rations, that his men had not eaten since the day before and had been short of rations for over thirty days, and that he retired because his men were without food, his ammunition was too low for another day and his battery animals were starving. Britton says Herron's divisions marched about a hundred miles from Wilson Creek with their knapsacks carried in the trains, at the rate of thirty-five miles a day.",
+      "rationale": "Interested and retrospective descriptions; no ordnance or commissary return inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.139 (OCR page markers; not checked against print)",
+          "quote": "prevented me from taking my entire force."
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.139 (OCR page markers; not checked against print)",
+          "quote": "having barely ammunition enough for one >attle, and not sufficient subsistence and forage for seven days at half ations."
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "None of them had eaten since the preceding day. The rations of all had been insufficient for over thirty days."
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "considering that my men were destitute of food,"
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "that my small supply of ammunition was reduced far elow what would be necessary for another day’s fighting,"
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "my attery animals were literally dying of starvation,"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.397 (OCR page markers; not checked against print)",
+          "quote": "carried the knapsacks of his men,"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.398 (OCR page markers; not checked against print)",
+          "quote": "at the rate of thirty-five miles a day,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reinforcement-intelligence",
+      "dimension": "information",
+      "value": "Hindman says he learned on the night of the 6th that Herron's reinforcement was at Fayetteville, and changed plan because attacking Blunt would only make him fall back on Herron; he waited with Parsons' brigade for intelligence from Newburg and received none. Britton says Monroe's brigade was left skirmishing on the mountain to deceive Blunt, that Blunt's couriers to Herron were cut off, and that Herron attacked not fully advised of the Confederate strength.",
+      "rationale": "Attributed knowledge from an interested report and a history; no original messages inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "under Brigadier-General Herron,,! was then at Favetteville, on the way to Cane Hill, making forcedJ marches."
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "It now seemed evident that that plan would simply cause the retirement of Blunt upon his re-enforcements,"
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "hoping to get some reliable intelligence of the enemy at Newburg."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.404 (OCR page markers; not checked against print)",
+          "quote": "To deceive General Blunt as completely as possible in regard to this new movement,"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.403 (OCR page markers; not checked against print)",
+          "quote": "they were cut off by General Marmaduke's advance."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.409 (OCR page markers; not checked against print)",
+          "quote": "not fully advised of the strength of the Southern army,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "destroy-before-junction",
+      "dimension": "objectives",
+      "value": "NPS says Hindman sought to destroy Herron's and Blunt's divisions before they joined. Hindman says he intended to attack Blunt on Cane Hill and then saw a chance to destroy the reinforcements and afterwards fight the main body on equal terms. Britton says Herron attacked at once, hoping the firing would bring up Blunt.",
+      "rationale": "Stated aims from a summary, an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "nps-ar005-v1",
+          "locator": "Description",
+          "quote": "Hindman sought to destroy Brig. Gen. Francis Herron's and Brig. Gen. James Blunt's divisions before they joined forces."
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.139 (OCR page markers; not checked against print)",
+          "quote": "My intention vas to attack Brigadier-General Blunt,"
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "destroy the re- enforcements and: afterward fight the main body upon equal terms."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.409 (OCR page markers; not checked against print)",
+          "quote": "he determined to attack it at once, hoping that the artillery firing would bring up the Kansas General with his division."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Hindman ordered Marmaduke, Shoup and Frost forward in that order and remained with Parsons' brigade; he says Shoup chose the position and that the line of battle determined on was nearly a horseshoe. Britton says Herron decided to cross Illinois Creek and attack, that Blunt, commanding the three divisions of the Army of the Frontier, arrived on the Union right in the afternoon, and that Hindman withdrew after a council with his generals. The frozen commanders are Major General Thomas C. Hindman and Brigadier Generals Francis J. Herron and James G. Blunt; the live page styles Hindman a Brigadier General and lists only Herron and Hindman.",
+      "rationale": "Command roles from an interested report and a history; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "Marmaduke in ad- vance, Shoup next, then Frost."
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "he had therefore put his division in position to resist attack."
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "The line of battle determined on was nearly in the form of a horseshoe,"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.427 (OCR page markers; not checked against print)",
+          "quote": "General Blunt, commanding the three divisions of the Army of the Frontier,"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.428 (OCR page markers; not checked against print)",
+          "quote": "General Hindman held a council with his generals,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR005",
+            "belligerent": "Confederate",
+            "fullname": "Thomas C. Hindman"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR005",
+            "belligerent": "US",
+            "fullname": "Francis J. Herron"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR005",
+            "belligerent": "US",
+            "fullname": "James G. Blunt"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-ar005-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Thomas Hindman [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union strategic victory and the live result Union Victory (strategic). Hindman's December 9 dispatch says he held the battlefield, and his report that the battle closed leaving him master of every foot of ground, before he retired for want of food and ammunition. Britton says night left the contest apparently undecided and Hindman withdrew about midnight; NPS says neither side had won by night but Hindman retreated to Van Buren.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Hindman's claim to the field is an interested statement; the withdrawal is not disputed.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR005"
+          },
+          "column": "results_text",
+          "quote": "Union strategic victory"
+        },
+        {
+          "source_id": "nps-ar005-v1",
+          "locator": "Results",
+          "quote": "Union Victory (strategic)"
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-09",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "We hold the battle-field."
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "At dark the battle closed, leaving us masters of every foot of the ground on which it was fought."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.426 (OCR page markers; not checked against print)",
+          "quote": "apparently left the contest undecided."
+        },
+        {
+          "source_id": "nps-ar005-v1",
+          "locator": "Description",
+          "quote": "As night came, neither side had won, but Hindman retreated to Van Buren."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 2,568 total (US 1,251; CS 1,317), as does the live field. Hindman's December 9 dispatch gives his loss as about 350 and the Federal loss as about 1,000 killed and wounded and 300 prisoners; his report gives 164 killed, 817 wounded and 336 missing, claims at least 400 Federal dead and over 1,500 wounded, and 275 prisoners, and a compiler's footnote says the casualties are embodied in a revised statement. Britton gives Blunt's report of 167 killed, 798 wounded and 183 missing (1,148 as printed components) and Hindman's 164, 817 and 336, and says Blunt issued rations for one thousand Confederate wounded the next day.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Hindman's two figures are two days apart; his claims of Federal loss are interested. Britton's Union components do not match the frozen US 1,251, and the revised statement was not inspected.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR005"
+          },
+          "column": "casualties_text",
+          "quote": "2,568 total (US 1,251; CS 1,317)"
+        },
+        {
+          "source_id": "nps-ar005-v1",
+          "locator": "Estimated Casualties",
+          "quote": "2568 total (US 1251; CS 1317;)"
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-09",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "My loss is about 350 killed, wounded, and missing."
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-09",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "The Federal loss was about 1,000 killed and wounded, about 300 pris- oners"
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "Our loss in killed was 164; wounded, 817 ; missing, 336."
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "The enemy left not less than 400 dead on the field, and his wounded certainly ex- ceeded 1,500."
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "The number of prisoners in our hands was 275,"
+        },
+        {
+          "source_id": "or22-1-hindman-prairie-grove-selections-v1",
+          "section": "hindman-1862-12-25",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "Casualties eml odied in revised statement, p. 86."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.429 (OCR page markers; not checked against print)",
+          "quote": "General Blunt reported a loss in his three divisions of 167 men killed, 798 wounded, and 183 missing."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.429 (OCR page markers; not checked against print)",
+          "quote": "General Hindman reported his casualties at 164 men killed, 817 wounded, and 336 missing."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "prairie-grove",
+          "locator": "p.429 (OCR page markers; not checked against print)",
+          "quote": "five thousand rations for one thousand Confederate wounded"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Curtis's, Blunt's and Herron's reports (Nos. 1-2, 13), the Union return of casualties (No. 3) and the revised statement cited by the compiler, the Union brigade and regimental reports (Nos. 4-35), Marmaduke's, Shelby's, Monroe's, MacDonald's and the other Confederate reports (Nos. 37-43) and any map remain deferred.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume I (Putnam's, second edition, revised, 1891) is a retrospective history whose title page says it is based upon the official reports of named Federal and Confederate commanders; its preface says the author served with the Federal army in that section and almost invariably took the official reports as a guide for numbers and casualties. It is not independent of the Official Records families and is treated as partly a participant's interested Union account. Shelby's December 1, 1862 report on Cane Hill and Hindman's December 1862 dispatch and report on Prairie Grove are separate author families of interested Confederate accounts. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

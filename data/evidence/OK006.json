@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "battle_id": "OK006",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Cabin Creek record (July 1-2, 1863) in Operations to Control Indian Territory [June-September 1863]. The train's march from Baxter Springs, the Greenleaf Prairie fight and Cabell's failure to cross Grand River are context. Campaign-wide marches, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Detachments from nine units [US] and two regiments and detachments from two other units (approx. 1,600-1,800) [CS]; the frozen CS bounds are both 1,600. The live field reads 1500 (US 0; CS 1500), while the live description gives Watie about 1,600 to 1,800 and Cabell about 1,500 reinforcements. Williams says prisoners put the enemy at 1,600 to 1,800, naming Watie's and McIntosh's regiments and 600 men of two Texas regiments (a compiler's note says the Twenty-seventh Texas was then in Mississippi), and that his attacking column was less than 900 men. Britton gives Watie about sixteen hundred, Cabell about fifteen hundred with three guns (unable to cross), and Foreman's reinforcement of six hundred mounted men.",
+      "rationale": "A prisoners' estimate, an attacking-column figure and a history's figures; the frozen upper bound does not match its own text. None is adopted as a matched opening strength. The live US zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK006"
+          },
+          "column": "forces_text",
+          "quote": "Detachments from nine units [US]; two regiments and detachments from two other units (approx. 1,600-1,800) [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "OK006",
+            "belligerent": "Confederate"
+          },
+          "column": "strength_max",
+          "quote": "1600"
+        },
+        {
+          "source_id": "nps-ok006-v1",
+          "locator": "Forces Engaged",
+          "quote": "1500 total (US 0; CS 1500;)"
+        },
+        {
+          "source_id": "nps-ok006-v1",
+          "locator": "Description",
+          "quote": "with about 1,600 to 1,800 men"
+        },
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "The strength of the enemy, as near as can be ascertained from the prisoners, was from 1,600 to 1,800,"
+        },
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "with detachment- of 600 men from the Twenty-seventh [Fifth Texas Partisan Rangers*] and Twenty-ninth Texas [Cavalry] Regiments."
+        },
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "The Twenty-seventh Texas was in Mississippi at this time."
+        },
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "My column of attack, which crossed the stream, was less than 900 men, all told."
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "cabin-creek",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "his force of about sixteen hundred men consisted of two Indian regiments and parts of two Texas regiments;"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "cabin-creek",
+          "locator": "p.93 (OCR page markers; not checked against print)",
+          "quote": "with about fifteen hundred men and three pieces of artillery,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "cabin-creek",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "six hundred men, all that he could mount, and one howitzer,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "flooded-ford-and-hidden-works",
+      "dimension": "terrain",
+      "value": "Williams says the enemy was strongly posted on Cabin Creek commanding the ford, concealed behind logs in thick brush, and that the creek, swollen by rain, was too high to cross the train on July 1; his infantry waded to the armpits the next morning. Britton says a line of rifle-pits on the south bank was covered with willow boughs so it could not be seen from the north bank. NPS says high water on Grand River detained Cabell and on Cabin Creek prevented a crossing at first.",
+      "rationale": "Ground and water from an interested report, a history and a summary; the concealed works predate the attack, but their exact timing is not established.",
+      "citations": [
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.380 (OCR page markers; not checked against print)",
+          "quote": "strongly posted upon Cabin Creek, completely commanding the ford."
+        },
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.380 (OCR page markers; not checked against print)",
+          "quote": "who had concealed themselves behind logs in the thick brush which lined the opposite shore."
+        },
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.380 (OCR page markers; not checked against print)",
+          "quote": "finding it too high to cross the train,"
+        },
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "the infantry wading to the arm-pits in water,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "cabin-creek",
+          "locator": "p.96 (the running head for p.96 reads \"g6\" in OCR; OCR page markers; not checked against print)",
+          "quote": "A line of rifle-pits was thrown up along the sloping bank on the south side and covered with the boughs of willows so that it could not be seen from the north bank."
+        },
+        {
+          "source_id": "nps-ok006-v1",
+          "locator": "Description",
+          "quote": "Cabell, however, was detained due to high water on Grand River."
+        },
+        {
+          "source_id": "nps-ok006-v1",
+          "locator": "Description",
+          "quote": "Cabin Creek also had high water, preventing a crossing at first,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supply-train",
+      "dimension": "logistics",
+      "value": "The action was fought to pass a supply train to Fort Gibson. Britton says Phillips's command was on short rations and then a diet of fresh beef, salt, rice and wheat before the train arrived, and that the train was corralled on the prairie a mile or so back from the ford; Williams puts it about 2 miles from the ford. NPS says the train delivered its supplies to Fort Gibson.",
+      "rationale": "Train movements from an interested report, a history and a summary; no quartermaster record inspected.",
+      "citations": [
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "cabin-creek",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "a few days afterwards the ration was reduced to fresh beef, salt, rice, and wheat,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "cabin-creek",
+          "locator": "p.96 (the running head for p.96 reads \"g6\" in OCR; OCR page markers; not checked against print)",
+          "quote": "the train was corralled on the prairie a mile or so back from the ford,"
+        },
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.380 (OCR page markers; not checked against print)",
+          "quote": "which had been corraled upon the prairie, about 2 miles from the ford."
+        },
+        {
+          "source_id": "nps-ok006-v1",
+          "locator": "Description",
+          "quote": "The wagon train continued to Fort Gibson and delivered the supplies,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "prisoners-and-warning",
+      "dimension": "information",
+      "value": "Williams says it was known that a large force had been concentrated to attack the train, and he took the enemy's strength from prisoners. Britton says prisoners taken by Parsons's Cherokees gave Watie's position and strength and Cabell's inability to cross, and that Indian women had earlier brought word of Cabell to Fort Gibson. NPS says Williams learned Watie intended to attack him at the crossing.",
+      "rationale": "Attributed knowledge from an interested report, a history and a summary; no original messages inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.380 (OCR page markers; not checked against print)",
+          "quote": "it was known that a large force of the enemy had been concentrated with this view."
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "cabin-creek",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "Information was obtained from these prisoners that Colonel Watie was in command of the expedition sent out by General Cooper,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "cabin-creek",
+          "locator": "p.93 (OCR page markers; not checked against print)",
+          "quote": "several Indian women mounted their ponies and hastened to Fort Gibson"
+        },
+        {
+          "source_id": "nps-ok006-v1",
+          "locator": "Description",
+          "quote": "he learned that Confederate Col. Stand Watie,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "capture-train-or-pass-it",
+      "dimension": "objectives",
+      "value": "Britton says Watie meant to attack the escort and train while crossing and, once the Federals came to fight, to hold them until Cabell could join. Williams says the prime object was to conduct the train, so he did not delay to pursue. NPS says Watie was waiting for Cabell before attacking the train.",
+      "rationale": "Stated aims from a history, an interested report and a summary.",
+      "citations": [
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "cabin-creek",
+          "locator": "p.96 (the running head for p.96 reads \"g6\" in OCR; OCR page markers; not checked against print)",
+          "quote": "his plan was to attack the escort and train while crossing the creek,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "cabin-creek",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "he then desired to hold the Federal forces until he could get the assistance of General Cabell,"
+        },
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "But as the prime object was to conduct the supply train to your command, it was not deemed proper to cause any delay in pursuing the enemy ;"
+        },
+        {
+          "source_id": "nps-ok006-v1",
+          "locator": "Description",
+          "quote": "Watie was waiting for about 1,500 reinforcements under the command of Brig. Gen. William L. Cabell to join him before attacking the supply train."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Williams, accompanying the train, laid the plan of attack after consulting Dodd, who commanded the escort, and Foreman; Britton calls him the ranking officer present. Britton says Watie made little effort to rally his men after the line broke. The frozen commanders are Colonel Stand Watie and Colonel James M. Williams.",
+      "rationale": "Command roles from an interested report and a history; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.380 (OCR page markers; not checked against print)",
+          "quote": "I laid the plan of attack as follows,"
+        },
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.380 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant-Colonel [Theodore H.] Dodd, commanding escort to the train,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "cabin-creek",
+          "locator": "p.96 (the running head for p.96 reads \"g6\" in OCR; OCR page markers; not checked against print)",
+          "quote": "Colonel Williams, the ranking officer present,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "cabin-creek",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "Colonel Watie seems to have made very little effort to rally his men,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OK006",
+            "belligerent": "Confederate",
+            "fullname": "Stand Watie"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OK006",
+            "belligerent": "US",
+            "fullname": "James M. Williams"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-ok006-v1",
+          "locator": "Principal Commanders",
+          "quote": "Colonel James Williams [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Williams says the cavalry charge broke the enemy's centre and put him to flight, pursued for 5 miles, and the train reached Fort Blunt on the 5th; Britton gives the same outcome.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK006"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ok006-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "charged directly upon the center of the enemy’s line, broke it, and put him to flight."
+        },
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "arriving at Fort Blunt on the 5th instant without any further interruption."
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "cabin-creek",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "the train at once moved out and arrived at Fort Gibson without any further trouble."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 88 total (US 23; CS 65); the live field reads 80 (US 21; CS 59). Williams gives his loss as 1 killed and about 20 wounded, and estimates the enemy's at not less than 50 killed, as many wounded and 9 prisoners. Britton gives the official Federal loss as three killed and thirty wounded, and Williams's Confederate estimate as about fifty killed and nine prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Williams's Confederate figures are an estimate.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK006"
+          },
+          "column": "casualties_text",
+          "quote": "88 total (US 23; CS 65)"
+        },
+        {
+          "source_id": "nps-ok006-v1",
+          "locator": "Estimated Casualties",
+          "quote": "80 total (US 21; CS 59;)"
+        },
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "My whole loss in this engagement was 1 killed and about 20 wounded,"
+        },
+        {
+          "source_id": "or22-1-williams-cabin-creek-selections-v1",
+          "section": "williams-1863-07",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "I think it will not fall short of 50 killed, as many more wounded, and 9 prisoners."
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "cabin-creek",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "The Federal loss, according to the official reports, was three men killed and thirty wounded."
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "cabin-creek",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "the Confederate loss was about fifty men killed and nine prisoners."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Phillips's report (No. 1, read in part and not selected) and Foreman's report (No. 3), any Confederate report of Watie or Wells, and the return of casualties mentioned by Phillips remain deferred.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume II (Putnam's, 1899) is a retrospective history described on its title page as based upon official reports and the author's observations; it relays figures from Union and Confederate reports, so it is not independent of the Official Records families, and is treated as partly a participant's interested Union account. Williams's July 1863 report on Cabin Creek, Cooper's August 12, 1863 report on Elk Creek (Honey Springs) and Cabell's December 7, 1863 report including Backbone Mountain are separate author families of interested accounts; Cooper's inclosed general orders are part of his report. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

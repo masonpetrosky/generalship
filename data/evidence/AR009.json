@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "battle_id": "AR009",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Devil's Backbone (Backbone Mountain) record (September 1, 1863) in Operations to Control Indian Territory [June-September 1863]. The Perryville raid (August 25-26), the August 31 skirmishes near Scullyville and the Poteau, and the occupation of Fort Smith are context. Campaign-wide marches, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 2nd Kansas Cavalry, 6th Missouri Cavalry, and two sections of Rabb's 2nd Indiana Battery [US] and Cabell's Brigade [CS], with no numerical bounds; the live field reads zero. Cabell says his brigade's aggregate was over 3,000 but he never had more than 1,600 in the field or 1,200 for duty, that desertion had reduced it to about 1,250 by August 31, that the enemy had at least 2,300 effective men and eight guns, and that Cloud pursued with 1,500 cavalry, six guns and 40 wagons of infantry; after the action he could raise no more than 900. Britton names Cloud's units as the Second Kansas and Sixth Missouri State Militia Cavalry and two sections of Rabb's battery, and Cabell's as three regiments and three battalions of cavalry, a regiment of infantry and a battery.",
+      "rationale": "An interested commander's aggregate, field and duty figures at different dates and his estimates of the enemy. Britton's 'State Militia' differs from the frozen unit name. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR009"
+          },
+          "column": "forces_text",
+          "quote": "2nd Kansas Cavalry, 6th Missouri Cavalry, and two sections of Rabb's 2nd Indiana Battery [US]; Cabell's Brigade [CS]"
+        },
+        {
+          "source_id": "nps-ar009-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.604 (OCR page markers; not checked against print)",
+          "quote": "The aggregate of the whole amounted to over 3,000, yet, notwithstanding, I could never get into the field at any one time over 1,600 men, and never more than 1,200 of them for duty."
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.606 (OCR page markers; not checked against print)",
+          "quote": "My command had been reduced at that time, by desertion, to about 1,250 men in all."
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.606 (OCR page markers; not checked against print)",
+          "quote": "the enemy had at least 2,300 effective men and eight pieces of artillery,"
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.606 (OCR page markers; not checked against print)",
+          "quote": "with 1,500 cavalry, six pieces of artillery, and 40 wagons, loaded with infantry,"
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.607 (OCR page markers; not checked against print)",
+          "quote": "I could not raise more than 900 men,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "backbone-mountain",
+          "locator": "pp.156–157 (OCR page markers; not checked against print)",
+          "quote": "with the Second Kansas and Sixth Missouri State Militia THE FEDERAL OCCUPATION OF FORT SMITH. 157 Cavalry and two sections of Rabb's Second Indiana Bat tery,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "backbone-mountain",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "who had three regi ments and three battalions of cavalry and one regiment of infantry and one battery of artillery"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "mountain-ambush-ground",
+      "dimension": "terrain",
+      "value": "Britton says the country was rough and mountainous, with timber and brush at the foot of the mountain where a large force could lie near the road unseen. Cabell says he formed at the foot of Backbone Mountain about 16 miles from Fort Smith, with Monroe's regiment in ambush and the other regiments in echelon on the mountainside and the battery commanding the field.",
+      "rationale": "Ground from a history and an interested report; no map inspected. The ambush position was chosen by Cabell during the retreat.",
+      "citations": [
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "backbone-mountain",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "The country was rough and mountainous, and at the foot of the mountain there was timber and brush, in which a large force could be placed near the road without being seen from it."
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.606 (OCR page markers; not checked against print)",
+          "quote": "the foot of Backbone Mountain, about 16 miles from Fort Smith, where I had formed my command for battle."
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.606 (OCR page markers; not checked against print)",
+          "quote": "placed all the different regiments en echelon along the sides of the mountain,"
+        },
+        {
+          "source_id": "nps-ar009-v1",
+          "locator": "Description",
+          "quote": "skirmished with him at the base of Devil's Backbone."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "trains-and-public-property",
+      "dimension": "logistics",
+      "value": "Cabell says he sent the baggage trains ahead to Jenny Lind and the ordnance train to Waldron, and that, apart from a few commissary stores, all public property was saved. Britton says Cabell loaded the public property at Fort Smith into a train sent to the rear, and that Cloud's brigade had marched upwards of a hundred miles in four days from Perryville.",
+      "rationale": "An interested report and a history; no quartermaster return inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.606 (OCR page markers; not checked against print)",
+          "quote": "The baggage trains were all ordered to a little place called Jenny Lind, 10 miles on that road, early in the day."
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.608 (OCR page markers; not checked against print)",
+          "quote": "all the public property was saved except a few com- missary stores"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "backbone-mountain",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "He then ordered the public property at Fort Smith to be loaded into a wagon train"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "backbone-mountain",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "a distance of upwards of one hundred miles in four days,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouting-and-night-withdrawal",
+      "dimension": "information",
+      "value": "Cabell says he kept heavy scouts on both sides of the river and 25 miles beyond Scullyville, and claims to have known positively that the enemy had at least 2,300 effective men. Britton says Blunt, with no information of Cabell's movements in the night, advanced at daylight to find the position abandoned.",
+      "rationale": "Attributed knowledge from an interested report and a history; no original messages inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.605 (OCR page markers; not checked against print)",
+          "quote": "Kept out heavy scouts on both sides of the river, and sent scouts daily 25 miles in advance of Scuilyville,"
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.606 (OCR page markers; not checked against print)",
+          "quote": "Knowing positively that the enemy had at least 2,300 effective men"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "backbone-mountain",
+          "locator": "p.156 (OCR page markers; not checked against print)",
+          "quote": "Having received no in formation of the movements of his adversary during the night,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "save-trains-and-take-fort-smith",
+      "dimension": "objectives",
+      "value": "Cabell says he fell back to reach the mountains and get his trains and public property across, and contented himself with repulsing the enemy and protecting the property. Britton says Blunt determined to march against Cabell near Fort Smith before he could be reinforced, and detached Cloud to pursue. NPS says Blunt ordered Cloud to continue the pursuit.",
+      "rationale": "Stated aims from an interested report, a history and a summary.",
+      "citations": [
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.606 (OCR page markers; not checked against print)",
+          "quote": "to reach, if possible, a range of mountains in my rear, and to get all the trains and public property of every description across these mountains,"
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.607 (OCR page markers; not checked against print)",
+          "quote": "to content myself with repulsing the enemy and protecting the public property."
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "backbone-mountain",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "General Blunt determined to lose no time in marching against General Cabell in the vicinity of Fort Smith before he could get reinforcements."
+        },
+        {
+          "source_id": "nps-ar009-v1",
+          "locator": "Description",
+          "quote": "Union Maj. Gen. James G. Blunt ordered Col. William Cloud to continue in pursuit"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Blunt detached Cloud to pursue while he occupied Fort Smith, and that Cloud dismounted part of his cavalry and drove Monroe's regiment up the mountain. Cabell says he placed Monroe's regiment in ambush and that several regiments and a battalion ran from the field. The frozen commanders are Brigadier General W. L. Cabell and Colonel William F. Cloud.",
+      "rationale": "Command roles from a history and an interested report; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "backbone-mountain",
+          "locator": "p.156 (OCR page markers; not checked against print)",
+          "quote": "General Blunt now detached Colonel Cloud,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "backbone-mountain",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "He dismounted part of his cavalry and, with the assistance of his howitzers, drove Monroe's regiment"
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.606 (OCR page markers; not checked against print)",
+          "quote": "I placed Monroe’s regiment in ambush at the foot of the mountain,"
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.606 (OCR page markers; not checked against print)",
+          "quote": "ran in the most shameful manner."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR009",
+            "belligerent": "Confederate",
+            "fullname": "W.L. Cabell"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR009",
+            "belligerent": "US",
+            "fullname": "William F. Cloud"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-ar009-v1",
+          "locator": "Principal Commanders",
+          "quote": "Colonel William Cloud [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Cabell says the enemy was repulsed and he withdrew in good order to Waldron after posting a picket on the field. Britton says a battalion and three of Cabell's regiments broke and ran, and Cloud occupied the field; NPS says the Confederates retired in disorder to Waldron.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Cabell's account of a repulse conflicts with the others.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR009"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ar009-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.606 (OCR page markers; not checked against print)",
+          "quote": "the enemy were repulsed,"
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.607 (OCR page markers; not checked against print)",
+          "quote": "withdrew in good order, and marched to Waldron,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "backbone-mountain",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "one battalion and three regiments of General Cabell's command broke,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "backbone-mountain",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "Colonel Cloud at once occupied the field,"
+        },
+        {
+          "source_id": "nps-ar009-v1",
+          "locator": "Description",
+          "quote": "forced the Confederates to retire in disorder to Waldron."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 81 total (US 16; CS 65); the live field reads 31 (US 14; CS 17). Cabell gives his loss as 5 killed and 12 wounded with missing unknown, 6 killed and 14 wounded over two days, and claims the enemy lost about 30 killed and 100 to 150 wounded; he says a fleeing regiment carried off 80 prisoners under sentence from his provost guard. Britton repeats Cabell's 5 and 12 and gives Cloud's report of two killed, including Captain Lines, twelve wounded and thirty prisoners taken.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Cabell's Union figures are an interested claim; the released provost prisoners are not battle casualties.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR009"
+          },
+          "column": "casualties_text",
+          "quote": "81 total (US 16; CS 65)"
+        },
+        {
+          "source_id": "nps-ar009-v1",
+          "locator": "Estimated Casualties",
+          "quote": "31 total (US 14; CS 17;)"
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.606 (OCR page markers; not checked against print)",
+          "quote": "My loss was 5 killed and 12 wounded."
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.608 (OCR page markers; not checked against print)",
+          "quote": "The loss of the brigade in the two days’ fighting was 6 killed and 14 wounded $ number missing not known."
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.606 (OCR page markers; not checked against print)",
+          "quote": "with a loss of about 30 killed and from 100 to 150 wounded."
+        },
+        {
+          "source_id": "or22-1-cabell-devils-backbone-selections-v1",
+          "section": "cabell-1863-12-07",
+          "locator": "p.606 (OCR page markers; not checked against print)",
+          "quote": "where I had 80 prisoners under sentence for treason and desertion."
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "backbone-mountain",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "He reported his loss in action at Backbone Mountain at five men killed and twelve wounded and an unknown number of missing."
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "backbone-mountain",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "He reported his entire loss as two men killed,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "backbone-mountain",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "twelve wounded. He also took thirty prisoners,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Blunt's report (No. 1, read at its opening and not selected), Cloud's report (No. 2), William Steele's indorsement (read and not selected) and any Confederate casualty list remain deferred.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume II (Putnam's, 1899) is a retrospective history described on its title page as based upon official reports and the author's observations; it relays figures from Union and Confederate reports, so it is not independent of the Official Records families, and is treated as partly a participant's interested Union account. Williams's July 1863 report on Cabin Creek, Cooper's August 12, 1863 report on Elk Creek (Honey Springs) and Cabell's December 7, 1863 report including Backbone Mountain are separate author families of interested accounts; Cooper's inclosed general orders are part of his report. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

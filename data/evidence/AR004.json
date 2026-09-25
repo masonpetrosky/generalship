@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "battle_id": "AR004",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Cane Hill (Boston Mountains) record (November 28, 1862) in Prairie Grove Campaign [November 1862]. The pursuit from Cane Hill through Boonsborough to the Cove Creek defile is one record; Jewell's November 23 reconnaissance and the December 4-6 outpost skirmishes before Prairie Grove are context. Campaign-wide marches, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Department of Missouri [US] and two cavalry brigades [CS], with no numerical bounds; the live field reads zero. Britton says Blunt learned on the 24th that Marmaduke had seven thousand cavalry and some artillery, and that Blunt marched on the 27th at the head of five thousand men and thirty pieces of artillery; he names Marmaduke's division as Shelby's, MacDonald's and Carroll's brigades, Bledsoe's six-gun battery and a company of Quantrill's men. Shelby lists his brigade as three regiments, Elliott's scouts and Quantrill's company, with two iron 6-pounders under Bledsoe, and says the Federals had at least twelve guns on his position and vastly superior numbers.",
+      "rationale": "An intelligence estimate, a march strength, unit lists and an interested impression of relative numbers. Britton's three brigades differ from the frozen two. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR004"
+          },
+          "column": "forces_text",
+          "quote": "Department of Missouri [US]; two cavalry brigades [CS]"
+        },
+        {
+          "source_id": "nps-ar004-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "General Marmaduke with seven thousand cavalry and some artillery,"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.386 (OCR page markers; not checked against print)",
+          "quote": "at the head of five thousand men and thirty pieces of artillery,"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.387 (OCR page markers; not checked against print)",
+          "quote": "General Marmaduke's division consisted of Colonels J. O. Shelby's and Emmet McDonald's brigades of Missouri cavalry, Colonel Carroll's brigade of Arkansas cavalry, Captain Bledsoe's six-gun battery, and a company of Quantrill's guerillas from Missouri."
+        },
+        {
+          "source_id": "or22-1-shelby-cane-hill-selections-v1",
+          "section": "shelby-1862-12-01",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "My brigade consisted of the following regiments :"
+        },
+        {
+          "source_id": "or22-1-shelby-cane-hill-selections-v1",
+          "section": "shelby-1862-12-01",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "consisting of two iron G-pounders,"
+        },
+        {
+          "source_id": "or22-1-shelby-cane-hill-selections-v1",
+          "section": "shelby-1862-12-01",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "they had at least twelve guns bearing upon our position,"
+        },
+        {
+          "source_id": "or22-1-shelby-cane-hill-selections-v1",
+          "section": "shelby-1862-12-01",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "contending, as they were, with a astly superior numbers,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "ridges-mountain-and-defile",
+      "dimension": "terrain",
+      "value": "Britton describes a Confederate line on high ground with timber behind it, a later line behind a low ridge with a deep ravine in front, a mountain too steep for field batteries except along the road, and the narrow Cove Creek valley between mountains rising perhaps a thousand feet, where the fight ended at a defile; he says the ground was too rough for cavalry. Shelby says his gun on the Fayetteville road stood on an elevated position and that the ground on the mountain did not allow forming by regiments or squadrons. NPS places the final stand on Cove Creek.",
+      "rationale": "Ground described by a history and an interested report; no map inspected. The positions were chosen during the running fight.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.387 (OCR page markers; not checked against print)",
+          "quote": "on high ground with tim- ber in their rear."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.388 (OCR page markers; not checked against print)",
+          "quote": "There was a deep ravine in his front,"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.390 (OCR page markers; not checked against print)",
+          "quote": "The ascent of the mountain was too steep to move forward his field batteries, except along the main road."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.392 (OCR page markers; not checked against print)",
+          "quote": "This valley is very narrow, and on descending it the mountains on each side gradually rise to great height, perhaps to one thousand feet in some places."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.391 (the running head for p.391 reads \"39 1\" in OCR; OCR page markers; not checked against print)",
+          "quote": "The ground was too rough and broken for the cavalry of either side to be used to advan- tage."
+        },
+        {
+          "source_id": "or22-1-shelby-cane-hill-selections-v1",
+          "section": "shelby-1862-12-01",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "occupied an elevated position, the hill descending to its foot about 300 yards."
+        },
+        {
+          "source_id": "or22-1-shelby-cane-hill-selections-v1",
+          "section": "shelby-1862-12-01",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "the ground being of such a nature as not to allow us to form by regiments or squadrons,"
+        },
+        {
+          "source_id": "nps-ar004-v1",
+          "locator": "Description",
+          "quote": "establishing a strong defensive perimeter on Cove Creek where he repulsed a determined attack."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-fatigue-and-ammunition",
+      "dimension": "logistics",
+      "value": "Britton says Blunt's troops carried four days' rations in their haversacks, that by night the infantry could bring into line scarcely half their morning numbers from exhaustion, and that the infantry had left their knapsacks and blankets at Cane Hill. Shelby says his guns exhausted all their artillery ammunition in the mountain fight. NPS says Shelby's delaying action protected the Confederate supply trains.",
+      "rationale": "Retrospective march and fatigue descriptions and an interested report; no supply or ammunition return inspected.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.386 (OCR page markers; not checked against print)",
+          "quote": "They carried in their haversacks four days' rations of hard bread, coffee, bacon, and salt."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.395 (OCR page markers; not checked against print)",
+          "quote": "could bring into line scarcely one half the number r-f men they started out with in the morning."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.394 (OCR page markers; not checked against print)",
+          "quote": "had divested themselves of their knapsacks and blankets."
+        },
+        {
+          "source_id": "or22-1-shelby-cane-hill-selections-v1",
+          "section": "shelby-1862-12-01",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "We then exhausted all of our artillery ammunition,"
+        },
+        {
+          "source_id": "nps-ar004-v1",
+          "locator": "Description",
+          "quote": "which fought a delaying action to protect their supply trains."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-and-approach",
+      "dimension": "information",
+      "value": "Britton says Blunt's spies located Marmaduke's picket, that the Confederate officers had heard of his approach the evening before, and that Blunt made a detour by an obscure road and came within half a mile of the Confederate camp unopposed. Shelby says he had eighteen hours' notice from his commander that the enemy were advancing but was struck sooner than he wished, having expected the enemy on either the Cincinnati or Fayetteville road.",
+      "rationale": "Attributed knowledge from a history and an interested report; no scouting reports inspected.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.386 (OCR page markers; not checked against print)",
+          "quote": "General Marmaduke had a strong picket guard occupying a good defensive position about two miles north of Cane Hill"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.386 (OCR page markers; not checked against print)",
+          "quote": "The Confederate officers had heard in the early part of the evening of the approach of General Blunt,"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.386 (OCR page markers; not checked against print)",
+          "quote": "advanced on an obscure road and approached within half a mile of the Confederate camp without meeting any resistance."
+        },
+        {
+          "source_id": "or22-1-shelby-cane-hill-selections-v1",
+          "section": "shelby-1862-12-01",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "Having had due notice (eighteen hours pre- vious) by the general commanding that the enemy were advancing,"
+        },
+        {
+          "source_id": "or22-1-shelby-cane-hill-selections-v1",
+          "section": "shelby-1862-12-01",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "fell upon me sooner than I would have desired,"
+        },
+        {
+          "source_id": "or22-1-shelby-cane-hill-selections-v1",
+          "section": "shelby-1862-12-01",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "We had expected him (the enemy) to advance either on the Cincinnati or Fayetteville road,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "strike-and-cover",
+      "dimension": "objectives",
+      "value": "NPS says Hindman sent Marmaduke to occupy the Cane Hill area and Blunt advanced to destroy his command if possible. Britton says Blunt meant to strike Marmaduke before reinforcements arrived. Shelby says that a Union passage down the main road would cut his brigade off from the Cove Creek road over the mountain, the route the Confederate train had taken.",
+      "rationale": "Stated aims from a summary, a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "nps-ar004-v1",
+          "locator": "Description",
+          "quote": "detached Brig. Gen. John Marmaduke's cavalry from Van Buren north to occupy the Cane Hill area."
+        },
+        {
+          "source_id": "nps-ar004-v1",
+          "locator": "Description",
+          "quote": "advanced to meet Marmaduke's command and destroy it, if possible."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "strike Marmaduke a hard blow before he could receive reinforcements."
+        },
+        {
+          "source_id": "or22-1-shelby-cane-hill-selections-v1",
+          "section": "shelby-1862-12-01",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "thereby preventing our passage over the \\ mountain, the route our train had taken."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Blunt reconnoitred Marmaduke's position, directed the batteries and flanking columns, and at the defile called for volunteers, Jewell leading the charge in which he was mortally wounded; Marmaduke's flag of truce, carried by MacDonald, ended the day. Shelby says Marmaduke ordered him to fall back after he reported infantry turning his left, and that the general was everywhere on the field. NPS names Shelby's brigade as the one that fought the delaying action. The frozen commanders are Brigadier Generals John S. Marmaduke and James G. Blunt; the live page lists Marmaduke without a rank.",
+      "rationale": "Command roles from a history and an interested report; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.387 (OCR page markers; not checked against print)",
+          "quote": "General Blunt recon- noitred Marmaduke's position,"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.392 (OCR page markers; not checked against print)",
+          "quote": "he called for vol- unteers to charge the enemy."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.394 (OCR page markers; not checked against print)",
+          "quote": "when an officer from Gen- eral Marmaduke came galloping up the road with a white flag."
+        },
+        {
+          "source_id": "or22-1-shelby-cane-hill-selections-v1",
+          "section": "shelby-1862-12-01",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "I received orders to fall back,"
+        },
+        {
+          "source_id": "or22-1-shelby-cane-hill-selections-v1",
+          "section": "shelby-1862-12-01",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "as the general commanding wa everywhere upon the field,"
+        },
+        {
+          "source_id": "nps-ar004-v1",
+          "locator": "Description",
+          "quote": "The Union vanguard encountered Col. Joe Shelby's brigade,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR004",
+            "belligerent": "Confederate",
+            "fullname": "John S. Marmaduke"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR004",
+            "belligerent": "US",
+            "fullname": "James G. Blunt"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-ar004-v1",
+          "locator": "Principal Commanders",
+          "quote": "John Marmaduke [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate tactical victory and the live result Confederate Victory (tactical). Britton describes successive Confederate withdrawals ending in a truce, after which Marmaduke retreated toward Van Buren and Blunt returned to Cane Hill. Shelby says the last Union charge was sent back in confusion, ending the day. NPS says the Federals withdrew to Cane Hill while the Confederates returned to Van Buren.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The labels differ in emphasis from Britton's account of repeated Confederate retreats.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR004"
+          },
+          "column": "results_text",
+          "quote": "Confederate tactical victory"
+        },
+        {
+          "source_id": "nps-ar004-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory (tactical)"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.394 (OCR page markers; not checked against print)",
+          "quote": "General Marmaduke continued his retreat toward Van Buren that night,"
+        },
+        {
+          "source_id": "or22-1-shelby-cane-hill-selections-v1",
+          "section": "shelby-1862-12-01",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "sending them back in perfect confusion, and thu* ending a hard day’s fight."
+        },
+        {
+          "source_id": "nps-ar004-v1",
+          "locator": "Description",
+          "quote": "The Federals withdrew to Cane Hill, while the Confederates returned to Van Buren."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 475 total (US 40; CS 435); the live field reads 85 (US 40; CS 45). Britton relays Blunt's report of four killed and thirty-six wounded, and of seventy-five Confederates killed and mortally wounded left on the ground, adding that the Confederate wounded carried off are not known. Shelby does not state his brigade's losses, saying they were already reported.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen CS 435 and live CS 45 have no inspected basis.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR004"
+          },
+          "column": "casualties_text",
+          "quote": "475 total (US 40; CS 435)"
+        },
+        {
+          "source_id": "nps-ar004-v1",
+          "locator": "Estimated Casualties",
+          "quote": "85 total (US 40; CS 45;)"
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.395 (OCR page markers; not checked against print)",
+          "quote": "General Blunt reported his casualties during the day at four men killed and thirty-six wounded."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.395 (OCR page markers; not checked against print)",
+          "quote": "the Confederates left seventy-five men killed and mortally wounded upon the ground fought over."
+        },
+        {
+          "source_id": "britton-border-1-prairie-grove-selections-v1",
+          "section": "cane-hill",
+          "locator": "p.395 (OCR page markers; not checked against print)",
+          "quote": "The number of Confederates wounded and taken off the field during the action and under the flag of truce is not known."
+        },
+        {
+          "source_id": "or22-1-shelby-cane-hill-selections-v1",
+          "section": "shelby-1862-12-01",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "It is not necessary for me to state the casualties of this brigade, a* they have already been reported to you;"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Curtis's and Blunt's reports (Nos. 1-2), Cloud's, Ellithorpe's, Bassett's, Hopkins's and Ewing's reports (Nos. 3-7), Carroll's and MacDonald's reports (Nos. 8, 10), the Union casualty return and any Marmaduke report on Cane Hill remain deferred.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume I (Putnam's, second edition, revised, 1891) is a retrospective history whose title page says it is based upon the official reports of named Federal and Confederate commanders; its preface says the author served with the Federal army in that section and almost invariably took the official reports as a guide for numbers and casualties. It is not independent of the Official Records families and is treated as partly a participant's interested Union account. Shelby's December 1, 1862 report on Cane Hill and Hindman's December 1862 dispatch and report on Prairie Grove are separate author families of interested Confederate accounts. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

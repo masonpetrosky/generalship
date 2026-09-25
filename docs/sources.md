@@ -194,6 +194,32 @@ were dropped.
 `beauregard-drewrys-bluff-report` (the older `or-beauregard` and `beauregard-bull-run-1861-reports` groups are the same family). Jones's book
 reuses `samuel-jones-east-tennessee-reports`, the same person. No model inputs are changed.
 
+### Trans-Mississippi 1863 first passes (cohort v2), 2026-09-25
+
+The first passes for eight Trans-Mississippi campaigns of 1862–64 add **50 records**: Prairie
+Grove, Marmaduke's first and second 1863 expeditions, the Indian Territory 1863, Quantrill's 1863
+raid, Little Rock 1863, the northern Indian Territory 1863 and the Indian Territory 1864 (memos
+`docs/research/<slug>-first-pass-v1.md`). The records are:
+
+- fourteen NPS HTML/text pairs (the Middle Boggy Depot live page has an empty description and the
+  wrong campaign and dates);
+- six new selections from the registered Britton volumes I and II;
+- fifteen selections from the registered Official Records Volume XXII Part 1 and one from Volume
+  XXXIV Part 1.
+
+**Merge deduplication.** This pass registered Britton volume I from a copy of the Trans-Mississippi
+1862 drafting files, as `ia-britton-civil-war-border-1-metadata-v1` and
+`britton-civil-war-border-1-ocr-v1`. The OCR was byte-identical to the registered parent
+`britton-border-1-ocr-v1`, so it was not registered again; its selections point to that parent and
+the duplicate catalog record was dropped. The Prairie Grove memo still names the drafting IDs.
+
+**Author groups.** McNeil and Cooper reuse the Trans-Mississippi 1862 pass's groups; the older
+`cooper-indian-territory-report` group is the same author. Hindman reuses
+`hindman-mclemores-cove-reports`, Price reuses `price-missouri-1864-reports` (see the W61-R14 note)
+and Marmaduke has one new group, `marmaduke-1863-reports`. `williams-cabin-creek-1863-report`
+(James M. Williams) and `williams-east-tennessee-reports` (John S. Williams) are different authors. No model
+inputs are changed.
+
 ### Carolinas Campaign first pass (cohort v2), 2026-09-25
 
 The [first pass](research/carolinas-first-pass-v1.md) adds **23 records**:

@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "battle_id": "AR010",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Bayou Fourche (Little Rock) record (September 10, 1863) in Advance on Little Rock [September-October 1863]. The advance from Helena and Clarendon, the Brownsville and Bayou Meto actions (August 25-27), the Ashley's Mills skirmish (September 7), Steele's advance on the north bank and the retreat to Arkadelphia are context; the frozen record is the cavalry engagement at Bayou Fourche on the day Little Rock fell. Campaign-wide marches, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Cavalry Division, Army of Arkansas, Arkansas Expedition [US] and District of Arkansas [CS], with no numerical bounds; the live field reads zero. Price says he had barely 8,000 men of all arms against nearly or quite 20,000, and that Dobbin concentrated about 1,200 men to dispute the crossing; he sent Tappan's brigade and then Marmaduke's division to the south bank. Davidson says three brigades crossed, with Engelmann's infantry division placed at his disposal, and that at Bayou Fourche he met Marmaduke's dismounted cavalry and Tappan's infantry brigade with two batteries.",
+      "rationale": "An interested district-wide comparison, a detachment figure and unit identifications; none describes the forces at the bayou in numbers. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR010"
+          },
+          "column": "forces_text",
+          "quote": "Cavalry Division, Army of Arkansas, Arkansas Expedition [US]; District of Arkansas [CS]"
+        },
+        {
+          "source_id": "nps-ar010-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-20",
+          "locator": "p.521 (OCR page markers; not checked against print)",
+          "quote": "I had barely 8,000 men of all arms, while the enemy had brought against me nearly or quite 20,000."
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-20",
+          "locator": "p.522 (OCR page markers; not checked against print)",
+          "quote": "immediately concentrated his whole disposable force (about 1,200 men) to dispute his passage."
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-20",
+          "locator": "p.522 (OCR page markers; not checked against print)",
+          "quote": "I ordered Tappan’s brigade to the relief of Dobbin"
+        },
+        {
+          "source_id": "or22-1-davidson-bayou-fourche-selections-v1",
+          "section": "davidson-1863-09-12",
+          "locator": "p.486 (OCR page markers; not checked against print)",
+          "quote": "all three brigades crossing at the same point,"
+        },
+        {
+          "source_id": "or22-1-davidson-bayou-fourche-selections-v1",
+          "section": "davidson-1863-09-12",
+          "locator": "p.486 (OCR page markers; not checked against print)",
+          "quote": "A division of infantry, under Colonel Engelmann, was placed temporarily at my disposition,"
+        },
+        {
+          "source_id": "or22-1-davidson-bayou-fourche-selections-v1",
+          "section": "davidson-1863-09-12",
+          "locator": "p.487 (OCR page markers; not checked against print)",
+          "quote": "Here we found the enemy, consisting of Marmaduke’s cavalry, dismounted, and Tappan’s brigade of infantry, with two batteries, strongly posted."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fordable-river-and-bend",
+      "dimension": "terrain",
+      "value": "Price says the Arkansas was fordable in twelve places within 12 miles of Little Rock, and that the crossing point was the upper point of a horseshoe bend on whose three sides the Union planted five batteries; his own works lay on the north bank about 2 1/2 miles (read '2£') in front of the city. Davidson says the enemy was strongly posted at Fourche Bayou, 5 miles from Little Rock, and that his dismounted cavalry fought through timber and cornfields. NPS says the Confederates were entrenched on the north side.",
+      "rationale": "Ground and river from interested reports and a summary; no map inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-20",
+          "locator": "p.522 (OCR page markers; not checked against print)",
+          "quote": "the river was fordable in twelve different places within 12 miles of Little Eock"
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-20",
+          "locator": "p.522 (OCR page markers; not checked against print)",
+          "quote": "it being the upper point of a horseshoe-like bend, upon the three sides of which he planted five batteries."
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-20",
+          "locator": "p.520 (OCR page markers; not checked against print)",
+          "quote": "a line of rifle-pits and other defensive works on the north side of the Arkansas,"
+        },
+        {
+          "source_id": "or22-1-davidson-bayou-fourche-selections-v1",
+          "section": "davidson-1863-09-12",
+          "locator": "p.487 (OCR page markers; not checked against print)",
+          "quote": "until we reached Fourche Bayou, 5 miles from Little Kock."
+        },
+        {
+          "source_id": "or22-1-davidson-bayou-fourche-selections-v1",
+          "section": "davidson-1863-09-12",
+          "locator": "p.487 (OCR page markers; not checked against print)",
+          "quote": "my cavalry dismounting and taking it afoot in the timber and corn-fields."
+        },
+        {
+          "source_id": "nps-ar010-v1",
+          "locator": "Description",
+          "quote": "while he took other troops to attack Confederates entrenched on the north side."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "pontoons-and-stores",
+      "dimension": "logistics",
+      "value": "Davidson says his staff worked all night cutting the bank and laying the pontoon bridge, completed at 8 a.m., and that the United States arsenal was repossessed uninjured with its remaining stores. Price says he had ordered the public stores removed to Arkadelphia soon after taking command and sent the trains to the rear early on the 10th.",
+      "rationale": "Interested reports; no quartermaster or ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-davidson-bayou-fourche-selections-v1",
+          "section": "davidson-1863-09-12",
+          "locator": "p.486 (OCR page markers; not checked against print)",
+          "quote": "the laying of the pontoon bridge was completed at that hour."
+        },
+        {
+          "source_id": "or22-1-davidson-bayou-fourche-selections-v1",
+          "section": "davidson-1863-09-12",
+          "locator": "p.487 (OCR page markers; not checked against print)",
+          "quote": "the United States arsenal, uninjured, with what stores remained in it, was repossessed."
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-20",
+          "locator": "p.521 (OCR page markers; not checked against print)",
+          "quote": "to send their stores to Arkadelphia as speedily as possible,"
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-20",
+          "locator": "p.522 (OCR page markers; not checked against print)",
+          "quote": "The trains had been sent to the rear early in the forenoon."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "signals-and-uncertainty",
+      "dimension": "information",
+      "value": "Davidson says he sent an officer with a guidon along the bank to mark his progress for Steele, whose batteries fired in support from the north bank, and that he advanced slowly not knowing when the whole Confederate force might turn on him. Price says the enemy had begun to show his intention of crossing below the city.",
+      "rationale": "Attributed knowledge from interested reports; no original messages inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-davidson-bayou-fourche-selections-v1",
+          "section": "davidson-1863-09-12",
+          "locator": "p.487 (OCR page markers; not checked against print)",
+          "quote": "with a guidon, to follow along the bank of the river to mark the progress of my column to General Steele."
+        },
+        {
+          "source_id": "or22-1-davidson-bayou-fourche-selections-v1",
+          "section": "davidson-1863-09-12",
+          "locator": "p.487 (OCR page markers; not checked against print)",
+          "quote": "I did not know at what moment their whole force might be thrown upon me."
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-20",
+          "locator": "p.522 (OCR page markers; not checked against print)",
+          "quote": "the enemy began to develop more plainly his intention to cross the Arkansas below Little Eock."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "turn-and-evacuate",
+      "dimension": "objectives",
+      "value": "Davidson says Steele's plan was for the infantry to move on the works up the north bank while the cavalry forced the river and assailed the city from the rear. Price says he did not believe he could hold Little Rock with his force, and ordered Marmaduke to hold the enemy on the south bank until the infantry was withdrawn and then cover the retreat.",
+      "rationale": "Stated plans from interested reports.",
+      "citations": [
+        {
+          "source_id": "or22-1-davidson-bayou-fourche-selections-v1",
+          "section": "davidson-1863-09-12",
+          "locator": "p.486 (OCR page markers; not checked against print)",
+          "quote": "The plan agreed upon by General Steele the preceding day was that he, with the whole infantry force, should move up the north bank of the Arkansas, directly upon the enemy’s works, while my cavalry di- vision should force the passage of the river, move up the south bank, and assail the city in the rear."
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-20",
+          "locator": "p.520 (OCR page markers; not checked against print)",
+          "quote": "I did not believe it would be possible for me to hold it with the force then under my command."
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-20",
+          "locator": "p.522 (OCR page markers; not checked against print)",
+          "quote": "to hold the enemy in check until I could withdraw my infantry and artillery from the north side of the river,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Price says he sent Marmaduke to take command of all the cavalry on the south bank and that his rear guard was skillfully handled. His November 25 letter says Walker had been mortally wounded in a duel with Marmaduke the morning after September 5, and that Marmaduke, placed under arrest, was restored to command for the operations at his officers' request, and that Dobbin reported to Price under arrest by Marmaduke's order. Davidson ordered the brigade advances. The frozen commanders are Brigadier Generals John S. Marmaduke and John W. Davidson; the live page lists Marmaduke without a rank.",
+      "rationale": "Command roles from interested reports; the listed commanders do not receive automatic sole credit. The command disruption is recorded, not scored.",
+      "citations": [
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-20",
+          "locator": "p.522 (OCR page markers; not checked against print)",
+          "quote": "ordered General Marmaduke to move his division to the south side, to assume command of all the cavalry,"
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-20",
+          "locator": "p.522 (OCR page markers; not checked against print)",
+          "quote": "It was skillfully handled, and behaved admirably."
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-25-to-dobbin",
+          "locator": "p.525 (OCR page markers; not checked against print)",
+          "quote": "General Walker was mortally wounded."
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-25-to-dobbin",
+          "locator": "p.525 (OCR page markers; not checked against print)",
+          "quote": "suspended his arrest, and ordered him to resume his command during the pending operations."
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-25-to-dobbin",
+          "locator": "p.526 (OCR page markers; not checked against print)",
+          "quote": "in arrest, as you in- formed me, by order of Brigadier- General Marmaduke, for disobedience pf orders."
+        },
+        {
+          "source_id": "or22-1-davidson-bayou-fourche-selections-v1",
+          "section": "davidson-1863-09-12",
+          "locator": "p.487 (OCR page markers; not checked against print)",
+          "quote": "I ordered a vigorous advance of Glover’s brigade,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR010",
+            "belligerent": "Confederate",
+            "fullname": "John S. Marmaduke"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR010",
+            "belligerent": "US",
+            "fullname": "John W. Davidson"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-ar010-v1",
+          "locator": "Principal Commanders",
+          "quote": "John Marmaduke [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Davidson says the enemy was driven from the bayou toward the city and that Little Rock was formally surrendered by the civil authorities at 7 p.m.; Price says the city was evacuated about 5 p.m. NPS says Davidson sent the Confederates fleeing and the city fell that evening.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The fall of Little Rock is campaign context; the tactical record is the engagement at the bayou.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR010"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ar010-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or22-1-davidson-bayou-fourche-selections-v1",
+          "section": "davidson-1863-09-12",
+          "locator": "p.487 (OCR page markers; not checked against print)",
+          "quote": "drove the enemy from this position toward the city."
+        },
+        {
+          "source_id": "or22-1-davidson-bayou-fourche-selections-v1",
+          "section": "davidson-1863-09-12",
+          "locator": "p.487 (OCR page markers; not checked against print)",
+          "quote": "At 7 p. m. the capital of Arkansas was formally surrendered by the acting civil authorities,"
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "price-1863-11-20",
+          "locator": "p.522 (OCR page markers; not checked against print)",
+          "quote": "The city was finally evacuated about 5 o’clock in the afternoon."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Total unknown (US 72; CS unknown); the live field reads 136 (US 72; CS 64). Davidson says his loss did not exceed, as far as known, 60 killed and wounded. The compiled Confederate return printed with Price's report, marked incomplete and garbled in OCR, ends with a grand total read as 64 but covers the whole advance from August 25 to September 10.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The return's 64 matches the live CS figure but is not limited to September 10.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR010"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US 72; CS unknown)"
+        },
+        {
+          "source_id": "nps-ar010-v1",
+          "locator": "Estimated Casualties",
+          "quote": "136 total (US 72; CS 64;)"
+        },
+        {
+          "source_id": "or22-1-davidson-bayou-fourche-selections-v1",
+          "section": "davidson-1863-09-12",
+          "locator": "p.487 (OCR page markers; not checked against print)",
+          "quote": "My loss does not exceed, as far as known, 60 killed and wounded."
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "cs-casualty-return-addenda",
+          "locator": "p.523 (OCR page markers; not checked against print)",
+          "quote": "ADDENDA. Return of Casualties in the Confederate forces during the advance of the Union forces upon Little Rock, Ark. [Compiled from nominal lists, and incomplete.]"
+        },
+        {
+          "source_id": "or22-1-price-little-rock-selections-v1",
+          "section": "cs-casualty-return-addenda",
+          "locator": "p.523 (OCR page markers; not checked against print)",
+          "quote": "Grand total 4 8 5 29~ i 17 64"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Steele's report (No. 3), the Union return (No. 4, read and not selected), the brigade and battery reports on Bayou Fourche (Nos. 6-21), Dobbin's report (No. 23, read and not selected; a fourth family for this record), Pratt's report (No. 30) and any Marmaduke report on September 10 remain deferred.",
+    "NPS/CWSAC is one family. Davidson's September 12, 1863 report and Price's November 20, 1863 report with his November 25 letter are separate author families for Bayou Fourche; Clayton's October 27, 1863 report and Marmaduke's October 26 report are separate author families for Pine Bluff. All are interested participant accounts. Talbot's inclosure and the compiled casualty returns (garbled in OCR) are not counted as further families. No retrospective history covering these actions was inspected; the first-pass effort stayed with NPS/CWSAC and two report families per record. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

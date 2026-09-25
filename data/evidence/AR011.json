@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "battle_id": "AR011",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Pine Bluff record (October 25, 1863) in Advance on Little Rock [September-October 1863]. Caldwell's pursuit of Marmaduke is context. The freedmen who built and defended the cotton-bale works are recorded as reported. Campaign-wide marches, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Pine Bluff Garrison (two under-strength cavalry regiments and a company of state militia) [US] and division [CS], with no numerical bounds; the live field reads zero. Clayton says his force amounted to some 550 men, that prisoners put Marmaduke at 2,000 to 3,000 with twelve guns and he thought about 2,500, and that his force held off four times its number. Marmaduke says the garrison's effective force was about 600 with seven guns. NPS calls the 300 men who rolled out cotton bales African-American soldiers; Clayton and Talbot describe them as freedmen from the contraband camp, fifteen of whom had arms.",
+      "rationale": "Interested own-strength and enemy figures; the NPS 'soldiers' is not supported by the inspected reports. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR011"
+          },
+          "column": "forces_text",
+          "quote": "Pine Bluff Garrison (two under-strength cavalry regiments and a company of state militia) [US]; division [CS]"
+        },
+        {
+          "source_id": "nps-ar011-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.724 (OCR page markers; not checked against print)",
+          "quote": "amounting in all to some 550 men."
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.724 (OCR page markers; not checked against print)",
+          "quote": "The prisoners that I captured reported General Marmaduke’s force from 2,000 to 3,000 men, and twelve pieces of artillery. I think he had some 2,500 men and twelve pieces of artillery."
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.724 (OCR page markers; not checked against print)",
+          "quote": "kept four times their number at bay for five hours,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-pine-bluff-selections-v1",
+          "section": "marmaduke-1863-10-26",
+          "locator": "p.730 (OCR page markers; not checked against print)",
+          "quote": "effective force about 600 men, and seven pieces of artillery."
+        },
+        {
+          "source_id": "nps-ar011-v1",
+          "locator": "Description",
+          "quote": "about 300 African-American soldiers rolled cotton bales out of the warehouses for barricades"
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.723 (OCR page markers; not checked against print)",
+          "quote": "also 300 negroes set to work rolling cotton-bales out of the ware- houses."
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "talbot-1863-10-27-inclosure",
+          "locator": "p.725 (OCR page markers; not checked against print)",
+          "quote": "Captain and Superintendent of Contrabands ."
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "talbot-1863-10-27-inclosure",
+          "locator": "p.725 (OCR page markers; not checked against print)",
+          "quote": "Fif- teen of them had arms,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "cotton-bale-square",
+      "dimension": "terrain",
+      "value": "Clayton says that within half an hour he had barricaded every street into the court square with cotton bales, planted his guns to command each street and posted sharpshooters in the buildings on the square; Talbot says a further breastwork was built under the river bank. Marmaduke says he held the whole town except the court-house and yard, fortified by heavy cotton-bale breastworks.",
+      "rationale": "Works described by interested reports. They were improvised on the morning of the attack on Clayton's order, hence the commander-created tag; this is a hypothesis about timing and agency, not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.723 (OCR page markers; not checked against print)",
+          "quote": "In less than half an hour I had all the streets leading into court square completely and very formidably fortified with cotton-bales,"
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.723 (OCR page markers; not checked against print)",
+          "quote": "my sharpshooters posted in all of the houses and other buildings on the square,"
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "talbot-1863-10-27-inclosure",
+          "locator": "p.725 (OCR page markers; not checked against print)",
+          "quote": "a breastwork was immediately formed under the bank,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-pine-bluff-selections-v1",
+          "section": "marmaduke-1863-10-26",
+          "locator": "p.730 (OCR page markers; not checked against print)",
+          "quote": "I occupied the whole town except the court-house and yard, which was fortified by heavy and effective breast- works of cotton-bales."
+        }
+      ],
+      "phase": "commander_created",
+      "status": "supported"
+    },
+    {
+      "id": "water-mules-and-property",
+      "dimension": "logistics",
+      "value": "Clayton says about 200 freedmen carried water from the river to fill barrels so he could hold out two days if cut off, that 62 mules were lost when cut loose from the burning sheds, and that a warehouse with over 200 bales of cotton was burned. Marmaduke says he took about 250 mules and horses and about 300 Black men, women and children, destroyed blankets and stores and 600 or 1,000 bales of cotton.",
+      "rationale": "Interested reports; no quartermaster return inspected. People taken from the town are recorded as reported.",
+      "citations": [
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.723 (OCR page markers; not checked against print)",
+          "quote": "so that, if necessary, I could hold out two days, even though cut off from the river."
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.724 (OCR page markers; not checked against print)",
+          "quote": "62 of them are missing."
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.724 (OCR page markers; not checked against print)",
+          "quote": "The enemy also burned one warehouse, containing over 200 bales of cotton."
+        },
+        {
+          "source_id": "or22-1-marmaduke-pine-bluff-selections-v1",
+          "section": "marmaduke-1863-10-26",
+          "locator": "p.730 (OCR page markers; not checked against print)",
+          "quote": "I have captured about 250 mules and horses, about 300 negroes (men, women, and children)."
+        },
+        {
+          "source_id": "or22-1-marmaduke-pine-bluff-selections-v1",
+          "section": "marmaduke-1863-10-26",
+          "locator": "p.730 (OCR page markers; not checked against print)",
+          "quote": "also about 600 or 1,000 bales of cotton,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "flag-and-prisoner-reports",
+      "dimension": "information",
+      "value": "Clayton says his morning patrol toward Princeton met the enemy, whose officer came under a flag with dispatches from Marmaduke supposedly demanding surrender, and that prisoners gave Marmaduke's strength. Marmaduke reported no sign of a Union move south or east. NPS says Clark answered that there would be no surrender.",
+      "rationale": "Attributed knowledge from interested reports and a summary; no original messages inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.723 (OCR page markers; not checked against print)",
+          "quote": "He did not go far before he met the enemy advancing in force."
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.723 (OCR page markers; not checked against print)",
+          "quote": "he had dispatches from General Marmaduke to the commanding officer, he supposed, demanding a surrender of the place."
+        },
+        {
+          "source_id": "or22-1-marmaduke-pine-bluff-selections-v1",
+          "section": "marmaduke-1863-10-26",
+          "locator": "p.730 (OCR page markers; not checked against print)",
+          "quote": "No sign of their moving southward nor eastward."
+        },
+        {
+          "source_id": "nps-ar011-v1",
+          "locator": "Description",
+          "quote": "Lt. M.F. Clark answered that there would be no surrender."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "storm-not-worth-it",
+      "dimension": "objectives",
+      "value": "Marmaduke says the garrison could be taken only by storming the works at a cost of at least 500 men, which he did not think would pay. Clark's reply, as Clayton reports it, was that Clayton never surrenders.",
+      "rationale": "Stated reasoning from interested reports.",
+      "citations": [
+        {
+          "source_id": "or22-1-marmaduke-pine-bluff-selections-v1",
+          "section": "marmaduke-1863-10-26",
+          "locator": "p.730 (OCR page markers; not checked against print)",
+          "quote": "The Federals could only be captured by storm- ing the works, which would have cost me the loss of at least 500 men. I did not think it would pay."
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.723 (OCR page markers; not checked against print)",
+          "quote": "Colonel Clayton never surrenders,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Clayton ordered out the whole command, set the freedmen to building the works and fighting the fires, and placed his guns and sharpshooters; Talbot organized the freedmen under Clayton's orders. Marmaduke attacked in three columns by Clayton's account and set fire to buildings. The frozen commanders are Brigadier General John S. Marmaduke and Colonel Powell Clayton; the live page lists Marmaduke without a rank.",
+      "rationale": "Command roles from interested reports; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.723 (OCR page markers; not checked against print)",
+          "quote": "Meantime the whole command was ordered out,"
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.723 (OCR page markers; not checked against print)",
+          "quote": "I put some 200 negroes to carrying water and throwing it on the buildings"
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "talbot-1863-10-27-inclosure",
+          "locator": "p.724 (OCR page markers; not checked against print)",
+          "quote": "I received orders from you to furnish as many men as possible to roll out cotton-bales and form breastworks."
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.723 (OCR page markers; not checked against print)",
+          "quote": "approached the works in three columns,"
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.723 (OCR page markers; not checked against print)",
+          "quote": "the enemy set fire to the buildings on my right,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR011",
+            "belligerent": "Confederate",
+            "fullname": "John S. Marmaduke"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR011",
+            "belligerent": "US",
+            "fullname": "Powell Clayton"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-ar011-v1",
+          "locator": "Principal Commanders",
+          "quote": "John Marmaduke [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Clayton says the enemy retreated about 2 p.m., leaving many dead and wounded, and he followed for a mile. Marmaduke says he withdrew because the works could only be stormed at too high a cost. NPS says the Confederates retired, leaving Pine Bluff to the Federals.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR011"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ar011-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.723 (OCR page markers; not checked against print)",
+          "quote": "then retreated (about 2 p. m.), leaving a great por- tion of his wounded and dead on the field."
+        },
+        {
+          "source_id": "or22-1-marmaduke-pine-bluff-selections-v1",
+          "section": "marmaduke-1863-10-26",
+          "locator": "p.730 (OCR page markers; not checked against print)",
+          "quote": "I did not think it would pay."
+        },
+        {
+          "source_id": "nps-ar011-v1",
+          "locator": "Description",
+          "quote": "The Confederate forces retired, leaving Pine Bluff to the Federals."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Total unknown (US 56; CS unknown); the live field reads 96 (US 56; CS 40). Clayton gives 11 killed, 27 wounded and 1 missing, plus 5 freedmen killed and 12 wounded (Talbot gives the same 5 and 12); these printed components sum to 56. He estimates the enemy's killed and wounded at about 130, probably 150, holds 33 prisoners, 15 of them wounded, and says Marmaduke burned some of his own wounded to death in the fires. Marmaduke gives his own loss as about 40 killed and wounded. The compiled Union return is garbled in OCR.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Whether the frozen US 56 includes the freedmen is not established; the freedmen are recorded, not merged with military casualties.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR011"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US 56; CS unknown)"
+        },
+        {
+          "source_id": "nps-ar011-v1",
+          "locator": "Estimated Casualties",
+          "quote": "96 total (US 56; CS 40;)"
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.723 (OCR page markers; not checked against print)",
+          "quote": "My loss was 11 killed, 27 wounded, and 1 missing. There were also 5 negroes killed and 12 wounded."
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "talbot-1863-10-27-inclosure",
+          "locator": "p.725 (OCR page markers; not checked against print)",
+          "quote": "Their total loss is 5 killed and 12 wounded."
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.723 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s loss in killed and wounded, as far as ascertained, is about 130, and will probably reach 150."
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.723 (OCR page markers; not checked against print)",
+          "quote": "I have also 3 lieutenants and 30 men prisoners, 15 of whom are wounded."
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "clayton-1863-10-27",
+          "locator": "p.724 (OCR page markers; not checked against print)",
+          "quote": "General Marmaduke committed the gross and barbarous deed of burn- ing some of his own wounded."
+        },
+        {
+          "source_id": "or22-1-marmaduke-pine-bluff-selections-v1",
+          "section": "marmaduke-1863-10-26",
+          "locator": "p.730 (OCR page markers; not checked against print)",
+          "quote": "My loss is about 40 men killed and wounded."
+        },
+        {
+          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
+          "section": "us-casualty-return",
+          "locator": "p.725 (OCR page markers; not checked against print)",
+          "quote": "Return of Casualties in the Union forces engaged at Pine Bluff, Ark., October 25, 1863."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Steele's transmittal (No. 1, read at its opening), Pace's, Scudder's and Clark's reports (Nos. 3-5), Caldwell's pursuit report (No. 6) and the Confederate brigade and division reports (Nos. 8-16) remain deferred.",
+    "NPS/CWSAC is one family. Davidson's September 12, 1863 report and Price's November 20, 1863 report with his November 25 letter are separate author families for Bayou Fourche; Clayton's October 27, 1863 report and Marmaduke's October 26 report are separate author families for Pine Bluff. All are interested participant accounts. Talbot's inclosure and the compiled casualty returns (garbled in OCR) are not counted as further families. No retrospective history covering these actions was inspected; the first-pass effort stayed with NPS/CWSAC and two report families per record. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

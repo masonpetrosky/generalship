@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "battle_id": "OK007",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Honey Springs (Elk Creek) record (July 17, 1863) in Operations to Control Indian Territory [June-September 1863]. Blunt's crossing of the Arkansas on July 15-16 and Cabell's arrival after the battle are context. Campaign-wide marches, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads District of the Frontier [US] and 1st Brigade, Native American troops [CS], with no numerical bounds; the live field reads 3000 (US 3000; CS 0) and the live description says Blunt had 3,000 men. Britton counts Cooper's eight regiments and two squadrons against Blunt's three regiments and three battalions, gives Blunt eight field pieces and four howitzers to Cooper's one four-gun battery, and says Cabell arrived after the battle with upwards of two thousand men. Cooper says his aide estimated the Federals at probably 4,000, which he thought some 500 under the mark, and speaks of a foe doubly superior in numbers with artillery ten times superior.",
+      "rationale": "Unit counts, gun counts and interested estimates of the other side; no return for either side inspected. None is adopted as a matched opening strength. The live CS zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK007"
+          },
+          "column": "forces_text",
+          "quote": "District of the Frontier [US]; 1st Brigade, Native American troops [CS]"
+        },
+        {
+          "source_id": "nps-ok007-v1",
+          "locator": "Forces Engaged",
+          "quote": "3000 total (US 3000; CS 0;)"
+        },
+        {
+          "source_id": "nps-ok007-v1",
+          "locator": "Description",
+          "quote": "he had a force of 3,000 men,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "He had eight regiments and two"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.125 (the running head for p.125 reads \"12$\" in OCR; OCR page markers; not checked against print)",
+          "quote": "squadrons to General Blunt's three regiments and three battalions."
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.125 (the running head for p.125 reads \"12$\" in OCR; OCR page markers; not checked against print)",
+          "quote": "eral Blunt had eight field-pieces and four howitzers to General Cooper's one four-gun battery."
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.125 (the running head for p.125 reads \"12$\" in OCR; OCR page markers; not checked against print)",
+          "quote": "this reinforcement of upwards of two thousand men,"
+        },
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-1863-08-12",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "He re- ported their force to be probably 4,000, which I found nearly correct, though some 500 under the mark."
+        },
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-1863-08-12",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "a foe doubly superior in numbers, arms, and munitions, with artillery ten times superior to ours,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "timber-creek-and-rain",
+      "dimension": "terrain",
+      "value": "Britton says Cooper's line lay in the timber and brush on the north side of Elk Creek, that Blunt halted behind a ridge in the prairie half a mile away, that the brush was thick enough to hide a foe a few yards off, and that a shower fell before the attack. Cooper's General Orders No. 25 placed his wings at the Elk Creek crossings and ordered that the enemy be kept from the timber north of the creek; he says the second crossing above the bridge was his weakest point and that heavy rain made his troops' arms useless in the morning skirmish.",
+      "rationale": "Ground and weather from a history and interested orders and report; no map inspected. The dispositions predate the battle.",
+      "citations": [
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.117 (the running head for p.117 reads \"\\\\J\" in OCR; OCR page markers; not checked against print)",
+          "quote": "strongly posted in the timber north of Elk Creek,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.117 (the running head for p.117 reads \"\\\\J\" in OCR; OCR page markers; not checked against print)",
+          "quote": "behind a ridge in the prairie about half a mile in front of the Confederate line,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.121 (OCR page markers; not checked against print)",
+          "quote": "thick enough in places with the leaves and heavy foliage to hide from view a foe a few yards in advance"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.118 (the running head for p.118 reads \"Il8\" in OCR; OCR page markers; not checked against print)",
+          "quote": "a hard shower of rain came up,"
+        },
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-general-orders-25-1863-07-14",
+          "locator": "p.462 (OCR page markers; not checked against print)",
+          "quote": "The enemy must, if possible, be pre- vented from gaining the cover of the timber on the north side."
+        },
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-1863-08-12",
+          "locator": "p.459 (OCR page markers; not checked against print)",
+          "quote": "the second crossing above the bridge — our weakest point,"
+        },
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-1863-08-12",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "it com- menced raining heavily, which rendered their arms wholly useless."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "powder-and-depot",
+      "dimension": "logistics",
+      "value": "Cooper says many guns failed to fire because of very inferior powder whose cartridges became worthless in damp air, that he could have held Elk Creek but for the worthless ammunition, and that flour, salt and sugar were burned at Honey Springs for want of transportation. Britton says the depot was fired but a commissary building with bacon, flour, salt and dried beef was captured. NPS says wet powder caused misfires.",
+      "rationale": "Interested and retrospective descriptions; no ordnance or commissary return inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-1863-08-12",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "many of the guns failing to fire in consequence of the very inferior quality of the powder, the cartridges becoming worthless even upon exposure to damp atmosphere."
+        },
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-1863-08-12",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "I feel confident we could have made good the defense of the position at Elk Creek but for the worthlessness of our ammunition."
+        },
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-1863-08-12",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "A quantity of flour, some salt, and sugar were necessarily burned at Honey Springs,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.123 (OCR page markers; not checked against print)",
+          "quote": "containing large quantities of bacon, flour, salt, and dried beef,"
+        },
+        {
+          "source_id": "nps-ok007-v1",
+          "locator": "Description",
+          "quote": "The Confederates had wet powder, causing misfires,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "crossing-intelligence",
+      "dimension": "information",
+      "value": "Cooper says spies who had enlisted in his brigade reached Fort Gibson, that he could not at first tell whether the crossing at the Creek Agency was a heavy scout or the main body, and that on reconnoitring he found the Federal force larger than reported. Britton says Blunt learned of the planned Cooper-Cabell movement and advanced in column to deceive the Confederates as to his strength. NPS says Blunt correctly surmised the concentration.",
+      "rationale": "Attributed knowledge from an interested report, a history and a summary; no original messages inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-1863-08-12",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "Up to this time I had been unable to determine whether the force which crossed at the Creek Agency was merely a heavy scout or the advance of the main body of the enemy."
+        },
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-1863-08-12",
+          "locator": "p.459 (OCR page markers; not checked against print)",
+          "quote": "I found their force larger than reported by Lieutenant Heiston,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.115 (OCR page markers; not checked against print)",
+          "quote": "received information of this proposed movement of the Confederate leaders,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.118 (the running head for p.118 reads \"Il8\" in OCR; OCR page markers; not checked against print)",
+          "quote": "He desired in coming on the field in this order to deceive the enemy as to his strength."
+        },
+        {
+          "source_id": "nps-ok007-v1",
+          "locator": "Description",
+          "quote": "correctly surmised that Confederate forces,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "strike-before-junction",
+      "dimension": "objectives",
+      "value": "NPS and Britton say Blunt crossed to attack Cooper before Cabell's reinforcement could arrive for a combined movement against Fort Gibson. Cooper says his eastward retreat deceived the enemy into returning to Gibson and saved his train and stores.",
+      "rationale": "Stated aims from a summary, a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "nps-ok007-v1",
+          "locator": "Description",
+          "quote": "He decided to defeat the Confederates at Honey Springs Depot before they were joined by Brig. Gen. William Cabell's brigade,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.116 (the running head for p.116 reads \"Il6\" in OCR; OCR page markers; not checked against print)",
+          "quote": "before the reinforcements under General Cabell could arrive."
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.115 (OCR page markers; not checked against print)",
+          "quote": "in a combined movement against the Federal forces at Fort Gibson."
+        },
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-1863-08-12",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "The retreat of the forces under my command eastward instead of south completely deceived the enemy,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Blunt organized two brigades under Judson and Phillips, rode forward to examine the Confederate line and deployed from column into line. Cooper says Tandy Walker, mistaking an order, took the reserve miles away and returned too late for the bridge, and that he personally directed the Choctaws' charge near Honey Springs; his orders gave Watie the right wing and McIntosh the left. The frozen commanders are Brigadier General Douglas H. Cooper and Major General James G. Blunt; the live page styles Blunt a Brigadier General.",
+      "rationale": "Command roles from a history and an interested report; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.116 (the running head for p.116 reads \"Il6\" in OCR; OCR page markers; not checked against print)",
+          "quote": "The General organized his troops for the attack into two brigades."
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.117 (the running head for p.117 reads \"\\\\J\" in OCR; OCR page markers; not checked against print)",
+          "quote": "General Blunt, with some mem bers of his staff and escort, rode forward"
+        },
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-1863-08-12",
+          "locator": "p.459 (OCR page markers; not checked against print)",
+          "quote": "Colonel Walker, mistaking the order, had moved off on the mountain several miles with his whole force, instead of sending a picket."
+        },
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-1863-08-12",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "under my personal direction charged the enemy,"
+        },
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-general-orders-25-1863-07-14",
+          "locator": "p.461 (OCR page markers; not checked against print)",
+          "quote": "Col. Stand Watie, senior colonel, commanding."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OK007",
+            "belligerent": "Confederate",
+            "fullname": "Douglas H. Cooper"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OK007",
+            "belligerent": "US",
+            "fullname": "James G. Blunt"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ok007-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General James Blunt [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Britton says the Confederates were driven across Elk Creek and pursued about three miles, burning Honey Springs depot. Cooper says the retreat was orderly and successful in the face of superior numbers. NPS says any chance of taking Fort Gibson was gone.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK007"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ok007-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.123 (OCR page markers; not checked against print)",
+          "quote": "the Federal forces crossed to the south side and pursued them about three miles south,"
+        },
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-1863-08-12",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "an orderly and successful retreat,"
+        },
+        {
+          "source_id": "nps-ok007-v1",
+          "locator": "Description",
+          "quote": "Any possibility of the Confederates taking Fort Gibson was gone."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 716 total (US 79; CS 637); the live field reads 211 (US 77; CS 134). Britton relays Blunt's report of 17 killed and 60 wounded, 150 Confederate dead buried, 400 Confederate wounded and 77 prisoners, and Cooper's report of 134 killed and wounded. Cooper gives 134 killed and wounded and 47 prisoners, and says the Federal loss exceeded 200 on a surgeon's report.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Blunt's Confederate figures are an interested claim; the frozen CS 637 and Cooper's 134 are far apart.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK007"
+          },
+          "column": "casualties_text",
+          "quote": "716 total (US 79; CS 637)"
+        },
+        {
+          "source_id": "nps-ok007-v1",
+          "locator": "Estimated Casualties",
+          "quote": "211 total (US 77; CS 134;)"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "He reported his loss at 17 men killed and 60 wounded."
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "his troops buried 150 of the Confederate dead on the field, that they had 400 wounded, and that he took 77 prisoners,"
+        },
+        {
+          "source_id": "britton-indian-territory-1863-selections-v1",
+          "section": "honey-springs",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "General Cooper reported his loss at 134 killed and wounded."
+        },
+        {
+          "source_id": "or22-1-cooper-honey-springs-selections-v1",
+          "section": "cooper-1863-08-12",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "Our loss was 134 killed and wounded and 47 taken prisoners, while that of the enemy exceeded 200,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Blunt's report (No. 1, read at its opening and not selected), the Union brigade and regimental reports (Nos. 2-9), Cooper's list of killed and wounded and his subordinates' reports remain deferred.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume II (Putnam's, 1899) is a retrospective history described on its title page as based upon official reports and the author's observations; it relays figures from Union and Confederate reports, so it is not independent of the Official Records families, and is treated as partly a participant's interested Union account. Williams's July 1863 report on Cabin Creek, Cooper's August 12, 1863 report on Elk Creek (Honey Springs) and Cabell's December 7, 1863 report including Backbone Mountain are separate author families of interested accounts; Cooper's inclosed general orders are part of his report. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

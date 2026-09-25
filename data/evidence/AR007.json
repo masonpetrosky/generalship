@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "battle_id": "AR007",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Chalk Bluff record (May 1-2, 1863) in Marmaduke's Second Expedition into Missouri [April-May 1863]. The rear-guard fighting from Jackson to Bloomfield (April 27-30) is context; the May 1 fighting on the road to Chalk Bluff and the May 2 crossing fall within the frozen interval and are one record. Campaign-wide marches, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 2nd Division, Army of the Frontier and force under command of Brig. Gen. John McNeil [US] and Marmaduke's Cavalry Division [CS], with no numerical bounds; the live field reads zero. Vandever wrote on April 30 that all accounts put the enemy at 7,000 or 8,000 with ten guns. Marmaduke says his effective fighting force did not exceed 3,500 and the enemy had about 8,000 with fifteen guns; Vandever says he played ten guns on the enemy at Chalk Bluff.",
+      "rationale": "Interested estimates of the other side and an effective-force figure for the retreat. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR007"
+          },
+          "column": "forces_text",
+          "quote": "2nd Division, Army of the Frontier and force under command of Brig. Gen. John McNeil [US]; Marmaduke's Cavalry Division [CS]"
+        },
+        {
+          "source_id": "nps-ar007-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-04-30",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "All accounts agree in the statement that the enemy is 7,000 or 8,000 strong, with ten pieces of artillery,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "My effective fight- ing force did not exceed 3,500."
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "The enemy had about 8,000 — 4,500 cav- alry, 3,500 infantry, and fifteen pieces of artillery."
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-04-to-davidson",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "at one time I played upon him with ten pieces of artillery,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "swollen-river-and-bluff",
+      "dimension": "terrain",
+      "value": "Marmaduke says the Saint Francis was much swollen, rapid, unbridged and without ferry-boats, and that he formed a dismounted line about four miles from the crossing. Vandever says he shelled the enemy before they could get out of the bottom on the far side, and that the pursuit ran over bad roads and destroyed bridges.",
+      "rationale": "River and ground from interested reports; no map or gauge record inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "which was much swollen, rapid, unbridged, and no ferry-boats on it."
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "selected a strong position about 4 miles from the crossing,"
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-04-to-davidson",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "before he could get out of the bottom on the oppo- site side of the river."
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-02",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "destroying bridges in their rear and adopting every means to re- tard our progress."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rafts-rations-and-horses",
+      "dimension": "logistics",
+      "value": "Marmaduke says he sent the unarmed and non-effective men ahead under his quartermaster to build rafts for the crossing. Vandever says his men were subsisting wholly on corn-meal and beef, that ordered supplies had not come from Cape Girardeau, and that dragging the artillery had pulled down his horses.",
+      "rationale": "Interested reports; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "I ordered details of the unarmed and non-effective to proceed rapidly to Chalk Bluff, under charge of my division quartermaster, to construct rafts for crossing."
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-04-to-herron",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "I am subsist- ing my men wholly on corn-meal and beef."
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-04-to-davidson",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "Supplies have not been sent forward to me from Cape Girardeau,"
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-04-to-herron",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "Dragging the artillery over heavy roads has pulled down the horses,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "crossing-expected",
+      "dimension": "information",
+      "value": "Vandever wrote on April 30 that the enemy was retiring toward Chalk Bluff where he undoubtedly meant to cross, and on May 2 that he had hoped to intercept him but the retreat was too precipitate, having received the department's April 30 dispatch only an hour before. Marmaduke says he expected no trouble except in crossing the Saint Francis.",
+      "rationale": "Attributed knowledge from interested dispatches and a report; no original orders inspected.",
+      "citations": [
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-04-30",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "The enemy is retiring in the direction of Chalk Bluff, on the Saint Francis River, where he undoubtedly intends to cross."
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-02",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "hoped to intercept him and capture his guns before crossing the Saint Francis, but his retreat was too precipitate."
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-02",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "One hour ago I received your dispatch of the 30th ultimo,"
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "I anticipated no dam- age or trouble except in crossing Saint Francis Biver,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cover-crossing-and-punish",
+      "dimension": "objectives",
+      "value": "Marmaduke says his object in the slow retreat was to give time to the bridge party, and at Chalk Bluff to hold the enemy until his wagons, horses and artillery crossed. Vandever says he meant to follow and punish the enemy and drive him from the State, and that after the crossing he was ordered back to Bloomfield.",
+      "rationale": "Stated aims from interested reports.",
+      "citations": [
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "My object was to give ample.time to the bridge party."
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "to resist the advance of the enemy till my wagons, horses, and artillery had crossed."
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-04-30",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "I shall follow him up."
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-04-to-davidson",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "after driving the enemy from the limits of the State."
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-02",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "In obedience to your order, I am now moving to Bloomfield,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Vandever says he assigned McNeil the advance throughout the pursuit because of his knowledge of the country, and that he was himself shelling the enemy across the river on May 2. Marmaduke says he dismounted most of his command to hold the line while the rest crossed. NPS says Vandever pursued and Marmaduke formed a rear guard. The frozen commanders are Brigadier Generals William Vandever and John S. Marmaduke; the live page lists both without ranks.",
+      "rationale": "Command roles from interested reports and a summary; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-02",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "on account of his personal knowledge of the country, I assigned him the advance."
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-02",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "I was at the moment actively shelling the enemy across the river."
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "I dismounted the greater part of my command,"
+        },
+        {
+          "source_id": "nps-ar007-v1",
+          "locator": "Description",
+          "quote": "Marmaduke established a rearguard that received heavy punishment on May 1-2."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR007",
+            "belligerent": "US",
+            "fullname": "William Vandever"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR007",
+            "belligerent": "Confederate",
+            "fullname": "John S. Marmaduke"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-ar007-v1",
+          "locator": "Principal Commanders",
+          "quote": "William Vandever [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate tactical victory, adding that the results forced Marmaduke to end his expedition, making it a Union strategic victory; the live result reads Confederate Victory (tactical). Marmaduke says his whole command was safely across by sunup and the pursuit ceased. Vandever says he drove the enemy across with heavy loss, though he saved his guns.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The strategic gloss in the frozen text is campaign contribution, not tactical outcome.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR007"
+          },
+          "column": "results_text",
+          "quote": "Confederate tactical victory (The results, however, forced Marmaduke to end his expedition, making this a Union strategic victory.)"
+        },
+        {
+          "source_id": "nps-ar007-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory (tactical)"
+        },
+        {
+          "source_id": "or22-1-marmaduke-cape-girardeau-chalk-bluff-selections-v1",
+          "section": "marmaduke-1863-05-20",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "by sun-up my whole com- mand was safely across. The pursuit here ceased."
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-04-to-herron",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "drove him across, with heavy loss of men, though he contrived to save his guns."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads zero. Vandever wrote on May 2 that his whole loss would not exceed 50, that Lieutenant Eaton was killed by the premature explosion of a Union shell, that many enemy dead and wounded lay along the road, and on May 4 that 19 enemy dead lay together after one charge. NPS says the raiders suffered heavy casualties. Marmaduke's expedition total is recorded under Cape Girardeau and not assigned here.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Vandever's 50 may cover the whole pursuit; the live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR007"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-ar007-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-02",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "Our whole loss in killed, wounded, and missing will not exceed 50."
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-02",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "killed by the prema- ture explosion of one of our own shells."
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-02",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "A large number of dead and wounded strew the road."
+        },
+        {
+          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
+          "section": "vandever-1863-05-04-to-davidson",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "there were 19 of the ene-; my’s dead piled together."
+        },
+        {
+          "source_id": "nps-ar007-v1",
+          "locator": "Description",
+          "quote": "they suffered heavy casualties and therefore ended the expedition."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "McNeil's May 12 report on the pursuit (read and not selected; a fourth family for this record), Caldwell's and La Grange's reports (Nos. 5, 7), the Union addenda return (No. 1), the Confederate brigade reports (Nos. 14-19) and any map of the crossing remain deferred.",
+    "NPS/CWSAC is one family. McNeil's April 26, 1863 dispatches from Cape Girardeau and Vandever's April 30-May 4 dispatches are separate author families of interested Union accounts; Marmaduke's May 20, 1863 report is one family of interested Confederate accounts, and Kirby Smith's printed indorsement and the compiled addenda return (garbled in OCR) are not counted as further families. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
