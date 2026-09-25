@@ -68,6 +68,12 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+**Author groups across campaigns (cohort v2).** Full-war passes may register one author's reports
+from different campaigns under separate independence groups (for example
+`sheridan-overland-reports` and `sheridan-valley-1864-reports`). Groups by the same author are one
+witness family: they never count as independent corroboration of each other, whatever their group
+names.
+
 ### Franklin-Nashville and Savannah first passes (cohort v2), 2026-09-25
 
 The first passes for [Franklin-Nashville](research/franklin-nashville-first-pass-v1.md) and

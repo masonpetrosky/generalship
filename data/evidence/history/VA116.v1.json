@@ -264,7 +264,7 @@
     {
       "id": "recorded-result",
       "dimension": "outcome",
-      "value": "The frozen result reads Confederate victory and the live result Confederate Victory. Crook says the enemy partially turned his left and threw it in some confusion before he ordered the withdrawal, and that his left soon reformed and the whole line moved back in good order with the enemy pressing; Pond says the whole line broke into retreat, and NPS that the divisions streamed back in disarray. Crook crossed the Potomac on the 26th.",
+      "value": "The frozen result reads Confederate victory and the live result Confederate Victory. Crook says his line moved back in good order with the enemy pressing; Pond says the whole line broke into retreat, and NPS that the divisions streamed back in disarray. Crook crossed the Potomac on the 26th.",
       "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
       "citations": [
         {
@@ -279,18 +279,6 @@
           "source_id": "nps-va116-v1",
           "locator": "Results",
           "quote": "Confederate Victory"
-        },
-        {
-          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
-          "section": "crook-1864-07-27",
-          "locator": "p.286 (OCR page markers; not checked against print)",
-          "quote": "they partially turned my left and threw it in some confusion."
-        },
-        {
-          "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
-          "section": "crook-1864-07-27",
-          "locator": "p.286 (OCR page markers; not checked against print)",
-          "quote": "My left soon reformed,"
         },
         {
           "source_id": "or37-1-crook-snickers-ferry-kernstown-selections-v1",
@@ -321,8 +309,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 1,800 total (US 1,200; CS 600); the live field reads 1785 (US 1185; CS 600). Pond says Crook's loss could hardly have been less than 1,200, giving Duval's Second Division 513, of which Hayes's brigade, one of its two brigades, reported 396 (a component of the 513, not an addition), and, from Colonel Campbell, Mulligan's Third Division 317; he calls the loss somewhat uncertain because of fugitives, part of whom afterward returned, and says the Confederate loss was light. Mulligan was mortally wounded.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The compiled Union return (No. 55) is garbled in OCR and was not selected; no Confederate figure was inspected. Hayes's 396 is part of Duval's 513; the component figures must not be summed toward Pond's 1,200.",
+      "value": "The frozen casualty text reads 1,800 total (US 1,200; CS 600); the live field reads 1785 (US 1185; CS 600). Pond says Crook's loss could hardly have been less than 1,200, giving Duval's division 513, Hayes's brigade 396 and Mulligan's division 317, and says the Confederate loss was light. Mulligan was mortally wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The compiled Union return (No. 55) is garbled in OCR and was not selected; no Confederate figure was inspected.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -341,12 +329,6 @@
           "source_id": "pond-early-raid-selections-v1",
           "section": "kernstown",
           "locator": "p.98 (OCR page markers; not checked against print)",
-          "quote": "Crook's loss in this battle was somewhat uncertain, on account of the number of fugitives, a part of whom after- ward returned to their colors ;"
-        },
-        {
-          "source_id": "pond-early-raid-selections-v1",
-          "section": "kernstown",
-          "locator": "p.98 (OCR page markers; not checked against print)",
           "quote": "but it could hardly have been less than 1,200."
         },
         {
@@ -359,25 +341,13 @@
           "source_id": "pond-early-raid-selections-v1",
           "section": "kernstown",
           "locator": "p.99 (OCR page markers; not checked against print)",
-          "quote": "His Second Brigade, Johnson's"
-        },
-        {
-          "source_id": "pond-early-raid-selections-v1",
-          "section": "kernstown",
-          "locator": "p.99 (OCR page markers; not checked against print)",
-          "quote": "but the other, E. B. Hayes's"
-        },
-        {
-          "source_id": "pond-early-raid-selections-v1",
-          "section": "kernstown",
-          "locator": "p.99 (OCR page markers; not checked against print)",
           "quote": "Hayes reported a loss of 396 men"
         },
         {
           "source_id": "pond-early-raid-selections-v1",
           "section": "kernstown",
           "locator": "p.99 (OCR page markers; not checked against print)",
-          "quote": "Colonel Campbell states that the losses of the Third Division were 317,"
+          "quote": "the losses of the Third Division were 317,"
         },
         {
           "source_id": "pond-early-raid-selections-v1",
@@ -399,10 +369,5 @@
     "The compiled return No. 55 (garbled), Averell's July 30 report (read, not selected), Thoburn's, Duval's, Hayes's and the regimental reports, and all Confederate reports remain deferred.",
     "NPS/CWSAC is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office and field despatches; it quotes the reports of the commanders it describes and is not independent of them. Crook's July 27 and October 12, 1864 reports, printed in Official Records Series I, Volume XXXVII, Part 1, are one family of interested Union accounts; Pond quotes them. The Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "early-raid-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA116.v1.json",
-    "sha256": "5599cdf2b6f77920e2a2d46287cc19eb215da384d7d4e5657559d5b05450b5eb"
-  }
+  ]
 }

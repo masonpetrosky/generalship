@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session cfc59451-2439-4196-94bb-aefdcc89450c",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 4e705de56c131379d288356a7787f6e82b3e75c7; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T16:53:38Z",
+  "prepared_commit": "586811f3d24d6d21fa217e498d22471e94e0beb2",
+  "bundle_commit": "4e705de56c131379d288356a7787f6e82b3e75c7",
+  "assignment_sha256": "bb945b1a9388cc2dc32a59d447685c3b02cf6a9170210cde7d91f1afd8662d00",
+  "inputs_manifest_sha256": "82b75da01af62b758c4100e8c9fab06af318d6b66cab3f99d0e8c941291478f7",
+  "num_turns": 64,
+  "duration_ms": 783892,
+  "terminal_reason": "completed",
+  "returned_message": "The review is written and the outcome is **corrections required**: 13 required corrections and 10 advisories. None of the required corrections settles a historical dispute; they fix wrong readings of the sources, attributions and stale counts.\n\n**Review path:** `artifacts/review-results/valley-review-586811f-opus-high-v1/review.md`\n\n**Checks:** All 81 input hashes match the prepared commit `586811f`. The assignment and `inputs.json` hashes also match, and the worktree is at `4e705de`. `make check` passed offline: 134 tests OK and the validator passed. The prepared commit only adds files; no v1 dossier, cohort file or baseline changed.\n\n**Required findings:**\n- **VALLEY-R01 (Monocacy casualties):** the value leaves out Wallace's table footnote that the missing are greatly overstated, and Pond's range of 1,500 to over 2,000 with his note about stragglers.\n- **VALLEY-R02 (Second Kernstown casualties):** Hayes's 396 is part of Duval's 513 but is listed alongside it as a separate figure.\n- **VALLEY-R03 (Moorefield casualties):** Johnson's \"net loss\" is recorded as 300. With 150 men come in, it most naturally reads as 150, though the sentence is ambiguous. The Early's Raid memo repeats the 300.\n- **VALLEY-R04 (Guard Hill):** the value says Grant's August 9 message stated \"no brigade had been sent\", which the cited passage does not say.\n- **VALLEY-R05 (Smithfield Crossing):** the value dates Gibbs's 35 casualties to August 29, but Pond gives no day.\n- **VALLEY-R06 (Berryville and Opequon strength):** Pond's 17,195 is presented as coming from a September 10 return. It is his own mixed-date reconstruction, adding an assumed 1,700 for Fitz Lee.\n- **VALLEY-R07 (Opequon casualties):** Pond's 3,900–4,000 is worked out from Early's own 3,611, and his Union table includes Crook's Fisher's Hill losses. That overlap could be double counted.\n- **VALLEY-R08 (Fisher's Hill casualties):** Pond's 1,300–1,400 is worked out from Early's and Sheridan's figures, not counted independently.\n- **VALLEY-R09 (Cedar Creek):** the cavalry order is from Torbert's report as Pond quotes it, not Pond's own statement.\n- **VALLEY-R10 (Rutherford's Farm):** the Ramseur sentence is Pond's own footnote text, not Rodes's letter.\n- **VALLEY-R11 (Sheridan registry record):** its note says no earlier Sheridan group exists, but the Overland Sheridan record was already registered at the prepared commit. The memo repeats this.\n- **VALLEY-R12 (Early registry records):** they describe the undated Cedar Creek report as \"October 21\"; nothing in the inspected text supports that date.\n- **VALLEY-R13 (both memos):** the counts are stale. They should say 153 dossiers and a registry going from 643/622 to 689/668, not 142 and 609 → 655.\n\n**Advisories:** VALLEY-A01 to A10.\n\n**What I did not fully read:** Pond's Opequon, Fisher's Hill and Cedar Creek chapters were checked only around the cited passages. The 30 NPS registry records were checked by ID and path only. I did not open the NPS HTML files. I did not read README.md or `docs/roadmap.md`.\n\nThe review file is the only change in the worktree. Nothing was committed or pushed, and no evidence, registry or model input was modified."
+}
