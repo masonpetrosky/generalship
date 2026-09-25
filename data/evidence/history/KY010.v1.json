@@ -310,7 +310,7 @@
     {
       "id": "recorded-result",
       "dimension": "outcome",
-      "value": "The frozen and live results read Confederate victory. Hicks says three attempts to storm the fort were repulsed and the enemy withdrew for the night; Forrest says he held the town for ten hours and could have held it longer. NPS calls it a Confederate victory with no lasting results beyond the destruction of supplies and capture of animals. Forrest's March 27 dispatch dates the attack 'on the evening of the 26th', against the frozen March 25, Hicks's '25th instant' and Forrest's own surrender demand dated March 25 as printed by Hicks; the dispatch's date is kept and not reconciled.",
+      "value": "The frozen and live results read Confederate victory. Hicks says three attempts to storm the fort were repulsed and the enemy withdrew for the night; Forrest says he held the town for ten hours and could have held it longer. NPS calls it a Confederate victory with no lasting results beyond the destruction of supplies and capture of animals.",
       "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The fort held while the town was occupied; the result field is kept.",
       "citations": [
         {
@@ -351,18 +351,6 @@
           "quote": "held the town for ten hours, and could have held it longer"
         },
         {
-          "source_id": "or32-1-forrest-west-tennessee-1864-selections-v1",
-          "section": "forrest-1864-03-27",
-          "locator": "p.607 (OCR page markers; not checked against print)",
-          "quote": "attacked it on the evening of the 26th"
-        },
-        {
-          "source_id": "or32-1-hicks-paducah-selections-v1",
-          "section": "hicks-1864-04-06",
-          "locator": "p.547 (OCR page markers; not checked against print)",
-          "quote": "Headquarters Forrest’s Cavalry Corps, Paducah, Ky ., March 25, i864."
-        },
-        {
           "source_id": "nps-ky010-v1",
           "locator": "Description",
           "quote": "other than the destruction of supplies and capture of animals, no lasting results occurred"
@@ -374,7 +362,7 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen and live casualty fields read 140 (US 90; CS 50). Hicks gives his casualties as 14 killed and 46 wounded, and the enemy's, from the most reliable information he could obtain, as 300 killed and 1,000 to 1,200 wounded, 'safely set down at 1,500'. Forrest's March 27 dispatch gives his loss at Union City and Paducah together as 25 killed and wounded as far as known and the enemy's loss in Paducah as 50 killed, wounded and prisoners, 'in all, 500'; his exchange letter printed by Hicks speaks of 35 or 40 Federal soldiers captured at Paducah, and Hicks says that all of those on Forrest's list, with one exception, were convalescents in the general hospital too feeble to get to the fort.",
+      "value": "The frozen and live casualty fields read 140 (US 90; CS 50). Hicks gives his casualties as 14 killed and 46 wounded, and the enemy's, from the most reliable information he could obtain, as 300 killed and 1,000 to 1,200 wounded, 'safely set down at 1,500'. Forrest's March 27 dispatch gives his loss at Union City and Paducah together as 25 killed and wounded as far as known and the enemy's loss in Paducah as 50 killed, wounded and prisoners, 'in all, 500'; his exchange letter printed by Hicks speaks of 35 or 40 Federal soldiers captured at Paducah.",
       "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Forrest's 25 covers two actions and his 'in all, 500' appears to include Union City; neither side's figures match the frozen Confederate 50 or Union 90.",
       "citations": [
         {
@@ -419,12 +407,6 @@
           "section": "hicks-1864-04-06",
           "locator": "p.548 (OCR page markers; not checked against print)",
           "quote": "about 35 or 40 Federal soldiers who were captured here yesterday"
-        },
-        {
-          "source_id": "or32-1-hicks-paducah-selections-v1",
-          "section": "hicks-1864-04-06",
-          "locator": "p.548 (OCR page markers; not checked against print)",
-          "quote": "all of whom, with one exception, were convales- cents in the general hospital, and too feeble to get to the fort."
         }
       ],
       "phase": "post_outcome",
@@ -433,12 +415,7 @@
   ],
   "open_questions": [
     "Chapman's No. 7 report, Brayman's No. 1 and Odlin's No. 2 reports, Shirk's and the other naval reports (the Annual Report of the Secretary of the Navy), the Confederate subordinate reports, Jordan and Pryor's Chapter XV, returns and maps remain deferred.",
-    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Nathan B. Forrest's dispatches, letters and April 26 report (Official Records Series I, Volume XXXII, Part 1, No. 26) and his June 1864 address to his troops (Volume XXXIX, Part 1, addenda to No. 22) are one family of interested Confederate accounts; Jordan and Pryor's registered history is not independent of it and was not used here. The Official Records volumes are shared containers, not additional witnesses; report dates are not event times or proof of contemporary knowledge. Here the second family is Stephen G. Hicks's report dated April 6, 1864 (No. 6), which prints Forrest's March 25 and 26 letters and Hicks's replies; the printed date and its reference to 'the 25th instant' are not reconciled, nor is Forrest's March 27 dating of the attack to the evening of the 26th.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Nathan B. Forrest's dispatches, letters and April 26 report (Official Records Series I, Volume XXXII, Part 1, No. 26) and his June 1864 address to his troops (Volume XXXIX, Part 1, addenda to No. 22) are one family of interested Confederate accounts; Jordan and Pryor's registered history is not independent of it and was not used here. The Official Records volumes are shared containers, not additional witnesses; report dates are not event times or proof of contemporary knowledge. Here the second family is Stephen G. Hicks's report dated April 6, 1864 (No. 6), which prints Forrest's March 25 and 26 letters and Hicks's replies; the printed date and its reference to 'the 25th instant' are not reconciled.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "forrest-west-tennessee-1864-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/KY010.v1.json",
-    "sha256": "db8e075a3e473bb7fccdbc479514e5157224c2a577feb6f00397b103d70a66a5"
-  }
+  ]
 }

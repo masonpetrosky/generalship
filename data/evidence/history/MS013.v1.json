@@ -378,8 +378,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty field reads 150 (US 100; CS 50); the live field reads 532 (US 388; CS 144). Smith's February 26 letter gives a loss at Okolona of perhaps 300 or 400 killed, wounded and missing and a total killed and wounded probably reaching 400; his March 4 report gives 47 killed, 152 wounded and 120 missing, 319 in all, for the expedition, with a compiler's footnote pointing to a revised statement. Forrest's February 26 letter gives his own loss as about 25 killed, 75 wounded and 8 or 10 captured, and his report 162 prisoners and an estimated enemy loss of 800; his compiled return for February 20-22 is garbled in OCR, its total row ending in 144. The same February 26 letter says the enemy, driven from West Point to within 10 miles of Pontotoc in two days, left 6 pieces of artillery, 100 killed, over 100 prisoners and wounded estimated at 300 or over.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Smith's 319 covers the whole expedition and Forrest's return February 20-22; neither is this record's day alone, and the live 144 may reflect the garbled return's total but its basis is not stated. Forrest's February 26 enemy figures cover the two days' pursuit and differ from his report's 162 prisoners and 800.",
+      "value": "The frozen casualty field reads 150 (US 100; CS 50); the live field reads 532 (US 388; CS 144). Smith's February 26 letter gives a loss at Okolona of perhaps 300 or 400 killed, wounded and missing and a total killed and wounded probably reaching 400; his March 4 report gives 47 killed, 152 wounded and 120 missing, 319 in all, for the expedition, with a compiler's footnote pointing to a revised statement. Forrest's February 26 letter gives his own loss as about 25 killed, 75 wounded and 8 or 10 captured, and his report 162 prisoners and an estimated enemy loss of 800; his compiled return for February 20-22 is garbled in OCR, its total row ending in 144.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Smith's 319 covers the whole expedition and Forrest's return February 20-22; neither is this record's day alone, and the live 144 may reflect the garbled return's total but its basis is not stated.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -426,18 +426,6 @@
         },
         {
           "source_id": "or32-1-forrest-okolona-selections-v1",
-          "section": "forrest-1864-02-26",
-          "locator": "p.350 (OCR page markers; not checked against print)",
-          "quote": "driven from West Point to within 10 miles of Pontotoc in two days."
-        },
-        {
-          "source_id": "or32-1-forrest-okolona-selections-v1",
-          "section": "forrest-1864-02-26",
-          "locator": "p.350 (OCR page markers; not checked against print)",
-          "quote": "leaving 6 pieces of artillery, 100 killed, over 100 prison- ers, and wounded estimated at 300 or over."
-        },
-        {
-          "source_id": "or32-1-forrest-okolona-selections-v1",
           "section": "forrest-1864-03-08",
           "locator": "p.354 (OCR page markers; not checked against print)",
           "quote": "We captured G pieces of artillery, 3 stand of colors, and 162 prisoners."
@@ -460,13 +448,8 @@
     }
   ],
   "open_questions": [
-    "Grierson's No. 36 report, the brigade and regimental cavalry reports (Nos. 37-58), the revised casualty statement (pp.193-194), S. D. Lee's No. 65 and the other Confederate reports, Sherman's instructions to Smith (Inclosure No. 3, cited for MS012 but not used here), Sherman's March 7 judgment of Smith's delay and return (in the Sherman selection cited for MS012; not used here, as it would add a fourth family), Jordan and Pryor's Chapter XIV, and maps remain deferred.",
+    "Grierson's No. 36 report, the brigade and regimental cavalry reports (Nos. 37-58), the revised casualty statement (pp.193-194), S. D. Lee's No. 65 and the other Confederate reports, Sherman's instructions to Smith (Inclosure No. 3, cited for MS012 but not used here), Jordan and Pryor's Chapter XIV, and maps remain deferred.",
     "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). The Official Records Series I, Volume XXXII, Part 1 is a shared container, not an additional witness; each report author is a separate family of interested accounts, and report dates are not event times or proof of contemporary knowledge. Here the two report families are William Sooy Smith's (letters of February 26, report of March 4, collated by the compiler with his April 3 report) and Nathan B. Forrest's (dispatches of February 14-26, report of March 8 and the compiled casualty return). Jordan and Pryor's registered history of Forrest was not used for this record.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "meridian-1864-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/MS013.v1.json",
-    "sha256": "0c48d38aa1beef2b10525b87b5e590a547dfa776c88afec14b7a0227dce0dbf9"
-  }
+  ]
 }

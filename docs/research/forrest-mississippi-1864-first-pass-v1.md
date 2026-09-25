@@ -2,14 +2,14 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). All three frozen records
 in **Forrest's Defense of Mississippi [June-August 1864]** now have draft dossiers: **27 claims, 3 explicit
-null unknowns and 167 citation occurrences**. All seven dimensions are represented in each record. All
-dossiers are drafts; no features are admitted.
+null unknowns and 171 citation occurrences** (167 before the review correction below). All seven dimensions
+are represented in each record. All dossiers are drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| MS014 — Brice's Cross Roads | 1864-06-10 | 9 | 1 | 61 | 3 |
-| MS015 — Tupelo (Harrisburg) | 1864-07-14 to 07-15 | 9 | 1 | 50 | 3 + follow-up |
-| TN031 — Memphis | 1864-08-21 | 9 | 1 | 56 | 3 + follow-up |
+| MS014 — Brice's Cross Roads | 1864-06-10 | 9 | 1 | 62 | 3 |
+| MS015 — Tupelo (Harrisburg) | 1864-07-14 to 07-15 | 9 | 1 | 51 | 3 + follow-up |
+| TN031 — Memphis | 1864-08-21 | 9 | 1 | 58 | 3 + follow-up |
 
 Dossier presence is not first-pass acceptance, separate review or model eligibility.
 
@@ -77,17 +77,20 @@ This pass adds **12 source records**: three NPS HTML/text pairs and six selectio
   frozen Confederate bound is 400 (TN031). Figures recorded, none adopted:
   - Brice's Cross Roads:
     - Sturgis: about 8,000 in round numbers (brigades of 1,500, 1,800, 2,000, 1,000 and 1,200); his officers
-      estimated the enemy at 15,000–20,000;
+      estimated the enemy at 15,000–20,000, and a captured sergeant reported 12,000 engaged with two
+      infantry divisions in reserve;
     - Forrest: 3,500 available against 10,252 "from the reports of the prisoners ... corroborated by
       official documents"; his address says not over 3,000 against 10,000;
     - NPS: 2,000.
   - Tupelo:
-    - Smith: about 14,000 on leaving La Grange;
+    - Smith: about 14,000 on leaving La Grange; the force that shelled his camp at Old Town Creek perhaps
+      1,000;
     - Forrest: his forces not over 5,000, against 18,000 or 20,000;
     - NPS: Forrest about 6,000, plus Lee's 2,000.
   - Memphis:
     - Washburn: 2,500–3,000 in three brigades, about a third of them entering the city;
-    - Jordan: about 1,500 and four guns; scouts' report of fully 5,000 troops in and around the city;
+    - Jordan: about 1,500 and four guns; scouts' report of fully 5,000 troops in and around the city; the
+      infantry Neely attacked at least a thousand strong;
     - NPS: 2,000, less about a quarter lost to exhausted horses, against 6,000.
     The frozen 400 has no inspected basis.
 - **Disputes preserved.**
@@ -107,7 +110,8 @@ This pass adds **12 source records**: three NPS HTML/text pairs and six selectio
       fortifications; Jordan says the object was in the main attained. The recall of Union forces is
       campaign contribution;
     - horses: about 80 (Washburn), about 300 (Forrest) and some 400 (Jordan);
-    - prisoners: about 250 (Washburn), 400 (Forrest), 500 (NPS) and some 600 (Jordan);
+    - prisoners: about 250 and 500 (Washburn's two dispatches), 400 (Forrest), 500 (NPS) and some 600
+      (Jordan);
     - casualties: frozen 194 (US 160; CS 34) against live 542 (US 480; CS 62). Washburn's enemy figures
       (22 killed, about 15 badly wounded, 25 prisoners) sum to the live 62.
 - **Command roles and ranks.**
@@ -124,7 +128,39 @@ This pass adds **12 source records**: three NPS HTML/text pairs and six selectio
 The three null unknowns are the opening strengths. No morale/readiness score, probability, causal effect or
 new commander ranking is introduced. The cohort, both admission proposals and the baseline are unchanged.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass. It is a draft awaiting the primary's check and a
-fresh-context `evidence-reviewer` review; nothing here claims review.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the fifteen 1864
+Western small-operation first passes (ten campaigns) together at prepared commit `4986724` as
+`w1864-review-4986724-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": seven
+required findings (KY010-R1, KY011-R1, TN031-R1, VA081-R1, VA082-R1, TN030-R1 and GA006-R1) and
+eighteen advisories (A1 to A18) across the ten passes. It is an AI review within its stated scope, not
+human historical adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the frozen row,
+the registry record or the pinned parent OCR) before any change; every new quote occurs in its cited
+section, and the dossiers were regenerated from the builder. After the correction, `python3 -m
+generalship check` passes, `python3 -m unittest discover -s tests` passes (134 tests) and
+`gs.MISSES` is empty.
+
+MS014, MS015 and TN031 are revised under `forrest-mississippi-1864-review-correction-2026-09-25` and
+supersede the byte-for-byte archives at `data/evidence/history/<ID>.v1.json`.
+
+- **TN031-R1** (TN031 `casualty-records` and this memo): Washburn's report prints his second August 21
+  dispatch to A. J. Smith, "He has 500 prisoners, I think" (p.470). It is now recorded beside his first
+  dispatch's about 250, and the dispute lists Washburn about 250 and 500, Forrest 400, NPS 500 and Jordan some
+  600, none adopted.
+
+Advisories:
+
+- **Adopted:** A5 (MS014 `reported-force-scope`: Sturgis's captured sergeant's 12,000 engaged and two infantry
+  divisions in reserve), A6 (MS015 `reported-force-scope`: A. J. Smith's perhaps 1,000 at Old Town Creek, a
+  scoped estimate inside the frozen interval) and A11 (TN031 `reported-force-scope`: Jordan's infantry at
+  least a thousand strong, from the follow-up that is not independent of Forrest). No figure is adopted.
+- **No action:** A18 (NPS Campaign fields), already noted in the NPS inspection records and not adopted.
+
+MS014 now has 62 citations (61 before), MS015 51 (50) and TN031 58 (56); claims (9 each) and unknowns (1 each)
+are unchanged. The review correction adds no source records for this campaign. No model input, cohort file,
+admission proposal or baseline is changed.

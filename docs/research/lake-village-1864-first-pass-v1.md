@@ -60,7 +60,18 @@ Volume XXXIV Part 1 parent:
 The null unknown is the opening strength. No morale/readiness score, probability, causal effect or new
 commander ranking is introduced. The cohort, both admission proposals and the baseline are unchanged.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass. It is a draft awaiting the primary's check and a
-fresh-context `evidence-reviewer` review; nothing here claims review.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the fifteen 1864
+Western small-operation first passes (ten campaigns) together at prepared commit `4986724` as
+`w1864-review-4986724-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": seven
+required findings (KY010-R1, KY011-R1, TN031-R1, VA081-R1, VA082-R1, TN030-R1 and GA006-R1) and
+eighteen advisories (A1 to A18) across the ten passes. It is an AI review within its stated scope, not
+human historical adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+The review made no required finding and no advisory specific to this campaign. Its general advisory A18 (wrong
+NPS Campaign fields, already noted in the NPS inspection records and not adopted) needs no action. AR017 is
+unchanged and keeps its first-pass version (9 claims, 1 unknown, 40 citations). The review correction adds no
+source records for this campaign. No model input, cohort file, admission proposal or baseline is changed.

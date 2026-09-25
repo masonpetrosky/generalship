@@ -1,14 +1,14 @@
 # Meridian and Yazoo River Expeditions (February 1864): bounded first pass
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both frozen records in
-**Meridian and Yazoo River Expeditions [February 1864]** now have draft dossiers: **18 claims, 2 explicit
-null unknowns and 113 citation occurrences**. All seven dimensions are represented in each record. All
-dossiers are drafts; no features are admitted.
+**Meridian and Yazoo River Expeditions [February 1864]** now have draft dossiers: **18 claims, 2 explicit null
+unknowns and 115 citation occurrences** (113 before the review correction below). All seven dimensions are
+represented in each record. All dossiers are drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
 | MS012 — Meridian | 1864-02-14 to 02-20 | 9 | 1 | 56 | 3 |
-| MS013 — Okolona | 1864-02-22 | 9 | 1 | 57 | 3 |
+| MS013 — Okolona | 1864-02-22 | 9 | 1 | 59 | 3 |
 
 Dossier presence is not first-pass acceptance, separate review or model eligibility.
 
@@ -84,9 +84,11 @@ Same-author groups are one witness family.
     possible".
   - MS013 final fight: Smith says a charge at Ivey's farm routed the attackers; Forrest says his men repulsed
     "the grandest cavalry charge I ever witnessed".
-  - MS013 casualties: frozen 150 (US 100; CS 50) against live 532 (US 388; CS 144); Smith's 300 or 400 and
-    his expedition total of 319; Forrest's 25, 75 and 8–10 for his own side, 162 prisoners, and an estimated
-    800 enemy loss. Forrest's compiled return for February 20–22 is garbled; its total row ends in 144.
+  - MS013 casualties: frozen 150 (US 100; CS 50) against live 532 (US 388; CS 144); Smith's 300 or 400 and his
+    expedition total of 319; Forrest's 25, 75 and 8–10 for his own side, 162 prisoners, and an estimated 800
+    enemy loss. His February 26 letter, for the two days' pursuit from West Point, says the enemy left 6 guns,
+    100 killed, over 100 prisoners and wounded estimated at 300 or over. Forrest's compiled return for
+    February 20–22 is garbled; its total row ends in 144.
   - MS012 casualties: the frozen field is Unknown. The live 170 matches Sherman's aggregate for the whole
     expedition, not the record's interval.
 - **Command roles and ranks.**
@@ -98,7 +100,35 @@ Same-author groups are one witness family.
 The two null unknowns are the opening strengths. No morale/readiness score, probability, causal effect or new
 commander ranking is introduced. The cohort, both admission proposals and the baseline are unchanged.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass. It is a draft awaiting the primary's check and a
-fresh-context `evidence-reviewer` review; nothing here claims review.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the fifteen 1864
+Western small-operation first passes (ten campaigns) together at prepared commit `4986724` as
+`w1864-review-4986724-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": seven
+required findings (KY010-R1, KY011-R1, TN031-R1, VA081-R1, VA082-R1, TN030-R1 and GA006-R1) and
+eighteen advisories (A1 to A18) across the ten passes. It is an AI review within its stated scope, not
+human historical adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the frozen row,
+the registry record or the pinned parent OCR) before any change; every new quote occurs in its cited
+section, and the dossiers were regenerated from the builder. After the correction, `python3 -m
+generalship check` passes, `python3 -m unittest discover -s tests` passes (134 tests) and
+`gs.MISSES` is empty.
+
+MS013 is revised under `meridian-1864-review-correction-2026-09-25` and supersedes the byte-for-byte
+archive at `data/evidence/history/MS013.v1.json`. MS012 is unchanged. No required finding concerns this
+campaign.
+
+Advisories:
+
+- **Adopted:** A3, in part. MS013 `casualty-records` now records Forrest's February 26 figures (6 guns, 100
+  killed, over 100 prisoners, wounded estimated at 300 or over, for the two days' pursuit from West Point)
+  beside his report's 162 prisoners and 800. Sherman's March 7 judgment that Smith's delay was "unpardonable"
+  (verified in the campaign's Sherman selection) is listed in MS013's open questions and not used: it would
+  add a fourth family to the record without closing its most consequential gap.
+- **No action:** A18 (NPS Campaign fields), already noted in the NPS inspection records and not adopted.
+
+MS013 now has 9 claims, 1 unknown and 59 citations (57 before). The review correction adds no source records
+for this campaign. No model input, cohort file, admission proposal or baseline is changed.

@@ -2,14 +2,15 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both frozen records in
 **Forrest's Expedition into West Tennessee and Kentucky [March-April 1864]** now have draft dossiers: **19
-claims, 2 explicit null unknowns and 129 citation occurrences**. All seven dimensions are represented in each
-record. All dossiers are drafts; no features are admitted. This is a different campaign from the 1862–63
-expedition recorded in [forrest-west-tennessee-first-pass-v1](forrest-west-tennessee-first-pass-v1.md).
+claims, 2 explicit null unknowns and 137 citation occurrences** (129 before the review correction below). All
+seven dimensions are represented in each record. All dossiers are drafts; no features are admitted. This is a
+different campaign from the 1862–63 expedition recorded in
+[forrest-west-tennessee-first-pass-v1](forrest-west-tennessee-first-pass-v1.md).
 
 | Record | Date (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| KY010 — Paducah | 1864-03-25 | 9 | 1 | 51 | 3 |
-| TN030 — Fort Pillow | 1864-04-12 | 10 | 1 | 78 | 3 |
+| KY010 — Paducah | 1864-03-25 | 9 | 1 | 54 | 3 |
+| TN030 — Fort Pillow | 1864-04-12 | 10 | 1 | 83 | 3 |
 
 Dossier presence is not first-pass acceptance, separate review or model eligibility.
 
@@ -57,15 +58,20 @@ XXXII Part 1 parent:
   source's account as that source's statement:
   - NPS: the Federals were driven down the bluff into a crossfire; only sixty-two U.S. Colored Troops
     survived; many accused the Confederates of a massacre of the Black troops, and the controversy continues.
-  - Leaming: the garrison surrendered and its men were then shot down "almost without regard to color"
-    until dark and through the night; wounded were murdered the next morning and barracks holding wounded
-    were set on fire; he estimates at least 300 killed after surrender.
+  - Leaming: when the lines were broken, one company of the Sixth U.S. Heavy Artillery (colored troops) rushed
+    down the bluff and many of its men jumped into the river, throwing away their arms; the garrison
+    surrendered and its men were then shot down "almost without regard to color" until dark and through the
+    night; wounded were murdered the next morning and barracks holding wounded were set on fire; he estimates
+    at least 300 killed after surrender.
   - Forrest, April 15: "The river was dyed with the blood of the slaughtered for 200 yards", and the facts
     would "demonstrate to the Northern people that negro soldiers cannot cope with Southerners".
   - Forrest, April 26: the garrison retreated to the river arms in hand, firing back; his men ceased firing
     when the flag came down.
   - Forrest, May 16: "the so-called massacre"; his June address: "made a massacre only by dastardly Yankee
     reporters".
+  - Leaming also writes that subsequent events show beyond a reasonable doubt that Major Bradford "was
+    brutally murdered the first night of his capture". Forrest's April 15 letter to Davis mentions Bradford's
+    capture, not his fate. Bradford's fate is not adopted.
   No characterization and no count is adopted. The Joint Committee report and the other survivors' and
   Confederate reports remain uninspected, so the dispute is not resolved here.
 - **Truce dispute (TN030).** Leaming says Forrest moved troops into position under the flag of truce;
@@ -88,7 +94,9 @@ XXXII Part 1 parent:
     hours. The frozen and live result (Confederate victory) is kept.
   - Paducah losses: Hicks gives 14 killed and 46 wounded, and the enemy's as "safely set down at 1,500".
     Forrest gives 25 killed and wounded for Union City and Paducah together, and the enemy's Paducah loss as
-    50, "in all, 500". The frozen and live 140 (US 90; CS 50) has no inspected basis.
+    50, "in all, 500". Forrest's exchange letter speaks of 35 or 40 captured; Hicks says that all on Forrest's
+    list but one were convalescents in the general hospital. The frozen and live 140 (US 90; CS 50) has no
+    inspected basis.
   - Fort Pillow: whether the fort was still held (Forrest's April 15 dispatches) or evacuated before dark
     (his April 26 report and NPS).
   - Fort Pillow losses: frozen 654 (US 574; CS 80) against live 649 (US 549; CS 100). Forrest's own figure
@@ -99,13 +107,58 @@ XXXII Part 1 parent:
   - Fort Pillow: Forrest says Chalmers commanded until Forrest arrived about 10 a.m. and assumed command.
   - No listed commander receives automatic sole credit or blame.
 - **Dates.** Hicks's report is printed as April 6 but refers to "the 25th instant"; the printed date is kept.
+  Forrest's March 27 dispatch dates the attack "on the evening of the 26th", against the frozen March 25,
+  Hicks's "25th instant" and Forrest's own surrender demand dated March 25 as printed by Hicks; the
+  dispatch's date is kept and not reconciled.
 - **Tags.** No claim is tagged `inherited`. Fort Anderson and the Fort Pillow earthwork predate the attacks,
   but the ground was altered or contested during them. All claims stay `unresolved` or `post_outcome`.
 
 The two null unknowns are the opening strengths. No morale/readiness score, probability, causal effect or new
 commander ranking is introduced. The cohort, both admission proposals and the baseline are unchanged.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass. It is a draft awaiting the primary's check and a
-fresh-context `evidence-reviewer` review; nothing here claims review.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the fifteen 1864
+Western small-operation first passes (ten campaigns) together at prepared commit `4986724` as
+`w1864-review-4986724-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": seven
+required findings (KY010-R1, KY011-R1, TN031-R1, VA081-R1, VA082-R1, TN030-R1 and GA006-R1) and
+eighteen advisories (A1 to A18) across the ten passes. It is an AI review within its stated scope, not
+human historical adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the frozen row,
+the registry record or the pinned parent OCR) before any change; every new quote occurs in its cited
+section, and the dossiers were regenerated from the builder. After the correction, `python3 -m
+generalship check` passes, `python3 -m unittest discover -s tests` passes (134 tests) and
+`gs.MISSES` is empty.
+
+KY010 and TN030 are revised under `forrest-west-tennessee-1864-review-correction-2026-09-25` and supersede
+the byte-for-byte archives at `data/evidence/history/<ID>.v1.json`.
+
+- **KY010-R1** (KY010 `recorded-result`, family note and this memo): Forrest's March 27 dispatch, already
+  cited, dates the attack to "the evening of the 26th". The conflict with the frozen March 25, Hicks's "25th
+  instant" and the March 25 surrender demand printed by Hicks is now stated and cited (pp.607 and 547); the
+  date is kept and not reconciled.
+- **TN030-R1** (TN030 `bluff-fort-and-commanding-ground`): the NPS statement that the garrison could not
+  depress its artillery enough to cover the approaches now carries its NPS citation.
+
+Advisories:
+
+- **Adopted:** A7 and A8 (TN030 `killing-after-assault` and this memo), each as Leaming's attributed statement
+  with nothing adopted in the claim's own voice. A7: Leaming says that when the lines were broken one company
+  of the Sixth U.S. Heavy Artillery (colored troops) rushed down the bluff and many jumped into the river
+  throwing away their arms, before the garrison surrendered. A8: Leaming writes that subsequent events show
+  Bradford "was brutally murdered the first night of his capture"; Forrest's April 15 letter to Davis, also
+  cited, mentions Bradford's capture but not his fate. The rationale says Leaming's statement rests on events
+  he does not specify and that Bradford's fate is not adopted. A9 (KY010 `casualty-records`): Hicks says those
+  on Forrest's list of prisoners were, with one exception, convalescents in the general hospital.
+- **No action:** A17: the one-day extensions past the single-day frozen intervals (the 26th at Paducah; the
+  13th at Fort Pillow) stay disclosed in the boundary notes and tagged `post_outcome`, with nothing added to
+  casualties; they must stay explicit if these records are later bounded for features. A18 (NPS Campaign
+  fields) is already noted in the NPS inspection records and not adopted.
+
+The killing claim remains `disputed`. Every account is attributed to its writer and date, and no
+characterization or count is adopted. KY010 now has 9 claims, 1 unknown and 54 citations (51 before), and
+TN030 has 10 claims, 1 unknown and 83 citations (78 before). The review correction adds no source records for
+this campaign. No model input, cohort file, admission proposal or baseline is changed.

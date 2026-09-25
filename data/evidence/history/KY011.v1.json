@@ -347,8 +347,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen and live casualty fields read 2,092 (US 1,092; CS 1,000). Burbridge reported killing 300, wounding as many and capturing nearly 400 at Cynthiana, for a loss of about 150 killed and wounded; for the loss of his immediate command his report appends the total of the brigade reports, 53 killed, 156 wounded and 205 missing, with a footnote that many of the missing had since returned to their regiments. Morgan gives his loss over the whole raid as about 80 killed, 125 wounded and 150 captured and missing, and says 2,500 prisoners were paroled. NPS says Morgan had about 1,300 Union prisoners camping with him overnight after the 11th.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Burbridge's list and Morgan's totals cover the whole raid; NPS's about 1,300 prisoners of the 11th and Morgan's 400 and 1,500 (or 2,000) surrendered bear on the frozen Union 1,092, but no inspected source states its basis.",
+      "value": "The frozen and live casualty fields read 2,092 (US 1,092; CS 1,000). Burbridge reported killing 300, wounding as many and capturing nearly 400 at Cynthiana, for a loss of about 150 killed and wounded; his report's casualty list for all brigades over the raid totals 53 killed, 156 wounded and 205 missing. Morgan gives his loss over the whole raid as about 80 killed, 125 wounded and 150 captured and missing, and says 2,500 prisoners were paroled.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Burbridge's list and Morgan's totals cover the whole raid; the frozen Union 1,092 presumably includes the men captured on the 11th, but no inspected source states it.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -378,20 +378,8 @@
         {
           "source_id": "or39-1-burbridge-cynthiana-selections-v1",
           "section": "burbridge-1864-08-01",
-          "locator": "p.26 (OCR page markers; not checked against print)",
-          "quote": "Of the loss of my immediate command I append the total of the bri¬ gade reports of killed, wounded, and missing."
-        },
-        {
-          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
-          "section": "burbridge-1864-08-01",
           "locator": "p.27 (OCR page markers; not checked against print)",
           "quote": "Total . . 53 156 205"
-        },
-        {
-          "source_id": "or39-1-burbridge-cynthiana-selections-v1",
-          "section": "burbridge-1864-08-01",
-          "locator": "p.27 (OCR page markers; not checked against print)",
-          "quote": "a Many of the inis.siug have since retiunecl to theii* regiments."
         },
         {
           "source_id": "or39-1-morgan-kentucky-selections-v1",
@@ -404,11 +392,6 @@
           "section": "morgan-1864-07-20",
           "locator": "p.69 (OCR page markers; not checked against print)",
           "quote": "numbering 2,500."
-        },
-        {
-          "source_id": "nps-ky011-v1",
-          "locator": "Description",
-          "quote": "Altogether, Morgan had about 1,300 Union prisoners of war camping with him overnight in line of battle."
         }
       ],
       "phase": "post_outcome",
@@ -419,10 +402,5 @@
     "Hobson's No. 5 report on Keller's Bridge, Garis's and Asper's reports (Nos. 12-13) on the 11th, the brigade reports (Nos. 6-9), Duke's registered History of Morgan's Cavalry (its 1864 chapters), returns and maps remain deferred.",
     "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Stephen G. Burbridge's June 13 dispatches and August 1, 1864 report (Official Records Series I, Volume XXXIX, Part 1, No. 1) are one family of interested Union accounts. John H. Morgan's June 11 letter and July 20, 1864 report (No. 14) are one family of interested Confederate accounts, the report written while complaints of plunder were being raised in his command. The Official Records volume is a shared container, not an additional witness; report dates are not event times or proof of contemporary knowledge. Duke's registered history is a separate family but not independent of Morgan's command and was not used.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "morgan-kentucky-1864-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/KY011.v1.json",
-    "sha256": "b208e235062541a427dee7baedf61a2fcd53f558b68f90caeeac7ffe30f488f7"
-  }
+  ]
 }

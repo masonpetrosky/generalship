@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 1a9eca08-bbc2-4fba-ac74-7c515bcf7be9",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit de84c1da12f274d6b0e177329a539b86e073cce3; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T18:35:17Z",
+  "prepared_commit": "498672483393892b357469264e256bbddd017e09",
+  "bundle_commit": "de84c1da12f274d6b0e177329a539b86e073cce3",
+  "assignment_sha256": "8f7fd7632d54b0e0100454b54aedb560797be6cae1c34200c429ea3c2665ff26",
+  "inputs_manifest_sha256": "15c9c75543167529e7329a5e7efafb51cb66e2f404505b63abcd7059b7fc6e81",
+  "num_turns": 68,
+  "duration_ms": 723827,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** The review found 7 small required corrections and 18 optional advisories across the 15 dossiers. None changes a result, adopts a strength, or settles a historical dispute.\n\n**Review path:** `artifacts/review-results/w1864-review-4986724-opus-high-v1/review.md`. It is the only file I wrote; nothing was committed or pushed.\n\n**Input checks:** all 101 bound input hashes match the prepared commit `4986724…` and the worktree. The assignment and `inputs.json` hashes match what you gave me. `make check` passed offline (134 tests OK, check exit 0).\n\n**What I inspected:**\n- All 137 claims and 778 citations were read against their cited passages.\n- All 58 new source records were checked, and all 28 new source excerpts reproduce their pinned parent text exactly.\n- I read the 10 memos and the frozen table rows.\n- Four excerpts were read around each cited passage rather than end to end: Jordan, Morgan's July report, Stoneman's January report and the end of Gillem's report. The review file says so.\n\n**Required findings:**\n- **KY010-R1:** Forrest's March 27 dispatch says he attacked Paducah \"on the evening of the 26th\", which conflicts with the recorded March 25. The dossier doesn't flag this.\n- **KY011-R1:** the dossier omits the National Park Service page's figure of about 1,300 Union prisoners from the 11th, which bears on the recorded Union loss of 1,092.\n- **TN031-R1:** Washburn's own second dispatch says \"500 prisoners, I think\". The dossier gives him only about 250, and the memo credits the 500 to the Park Service alone.\n- **VA081-R1 and VA082-R1:** both dossiers overstate the scope of Breckinridge's \"not more than twenty prisoners\". The figure excludes Vaughn's and Duke's commands and the citizens he says made up most prisoners.\n- **TN030-R1:** a Park Service statement about the fort's artillery is attributed to that source but has no citation.\n- **GA006-R1:** the dossier calls John W. Gladden's statement a \"refugee's statement\". The cited passage doesn't support that; the label comes from Thomas, in text outside the selection.\n\n**Choices you asked me to check:**\n- **Fort Pillow (TN030) and Saltville (VA076) killing claims:** every statement is attributed to its writer and date, and the claims adopt no characterization or count.\n- **AL002:** acceptable, with the dependence of Rawlins on Dodge disclosed. The memo's \"3 families\" could mislead, and advisory A1 suggests annotating it.\n- **Fourth-family follow-ups (MS015, TN031, VA076):** each is within the one allowed targeted follow-up.\n- **Garbled and misfit dates:** handled correctly apart from the Forrest date in KY010-R1.\n- **Johnston's October 20, 1864 report in the Atlanta group:** supported by the compiler's footnote. That footnote points to Part II while the registered selection is Part 3 (advisory A4).\n- **Breckinridge's 1864 reports in the Baton Rouge group:** consistent.\n\n**Finding IDs:** KY010-R1, KY011-R1, TN031-R1, VA081-R1, VA082-R1, TN030-R1, GA006-R1; advisories A1–A18."
+}

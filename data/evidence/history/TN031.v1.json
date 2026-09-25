@@ -18,7 +18,7 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force field gives Forrest's cavalry as approx. 400 (side bound 400) and the Union side as troops stationed at Memphis; NPS says Forrest struck with 2,000 cavalry and lost about a quarter of his strength to exhausted horses, against 6,000 Federal troops, and the live field reads 8000 (US 6000; CS 2000). Washburn gives the attackers as three brigades of 2,500 to 3,000, and his first dispatch to Smith about 2,500, of which about a third dashed into the city. Jordan says the detachments selected numbered about 1,500 and four guns, that a hundred men with unfit horses were left at Panola, that scouts reported fully five thousand troops in and around the city, and that the infantry Neely was to attack was at least a thousand strong.",
+      "value": "The frozen force field gives Forrest's cavalry as approx. 400 (side bound 400) and the Union side as troops stationed at Memphis; NPS says Forrest struck with 2,000 cavalry and lost about a quarter of his strength to exhausted horses, against 6,000 Federal troops, and the live field reads 8000 (US 6000; CS 2000). Washburn gives the attackers as three brigades of 2,500 to 3,000, and his first dispatch to Smith about 2,500, of which about a third dashed into the city. Jordan says the detachments selected numbered about 1,500 and four guns, that a hundred men with unfit horses were left at Panola, and that scouts reported fully five thousand troops in and around the city.",
       "rationale": "Estimates of each side by the defender, a Confederate history and a summary; no return. The frozen 400 has no inspected basis. None is adopted as a matched opening strength.",
       "citations": [
         {
@@ -88,12 +88,6 @@
           "section": "memphis-expedition",
           "locator": "p.537 (OCR page markers; not checked against print)",
           "quote": "there were fully five thousand troops, of all arms, in and around the city, for the most part negroes and one hundred days' men."
-        },
-        {
-          "source_id": "jordan-memphis-selections-v1",
-          "section": "memphis-expedition",
-          "locator": "p.543 (OCR page markers; not checked against print)",
-          "quote": "The infantry — at least a thousand strong — which it was his part to attack"
         }
       ],
       "phase": "unresolved",
@@ -380,8 +374,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty field reads 194 (US 160; CS 34); the live field reads 542 (US 480; CS 62). Washburn's report gives his loss as 1 officer killed, 6 wounded and 4 captured, and 14 men killed, 59 wounded and 112 missing, and the enemy's as 22 killed, about 15 badly wounded left on the field and 25 prisoners; his first dispatch says about 250 hundred-days' men were captured, and his second dispatch to Smith, printed in the report, 'He has 500 prisoners, I think'. Forrest's relayed dispatch claims 400 killed and captured for a loss of 20 killed and wounded. Jordan says some 600 prisoners were brought away; NPS says 500.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Washburn's enemy figures sum to the live Confederate 62; the prisoner counts differ (Washburn about 250 and 500; Forrest 400; NPS 500; Jordan some 600) and none is adopted.",
+      "value": "The frozen casualty field reads 194 (US 160; CS 34); the live field reads 542 (US 480; CS 62). Washburn's report gives his loss as 1 officer killed, 6 wounded and 4 captured, and 14 men killed, 59 wounded and 112 missing, and the enemy's as 22 killed, about 15 badly wounded left on the field and 25 prisoners; his first dispatch says about 250 hundred-days' men were captured. Forrest's relayed dispatch claims 400 killed and captured for a loss of 20 killed and wounded. Jordan says some 600 prisoners were brought away; NPS says 500.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Washburn's enemy figures sum to the live Confederate 62; the prisoner counts differ (about 250, 400, 500, some 600) and none is adopted.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -415,12 +409,6 @@
           "quote": "about 250 100-days’ men were captured."
         },
         {
-          "source_id": "or39-1-washburn-memphis-selections-v1",
-          "section": "washburn-1864-09-02",
-          "locator": "p.470 (OCR page markers; not checked against print)",
-          "quote": "He has 500 prisoners, I think, but failed to take the battery"
-        },
-        {
           "source_id": "or39-1-forrest-mississippi-selections-v1",
           "section": "maury-relay-1864-08-22",
           "locator": "p.484 (OCR page markers; not checked against print)",
@@ -452,10 +440,5 @@
     "Thurston's, Buckland's, Hoge's, the casualty and the other Union reports (Nos. 2-12), Dustan's and Randle's reports (read, not selected), the Confederate casualty addenda, Chalmers's reports on the Oxford operations and maps remain deferred.",
     "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Nathan B. Forrest's reports of July 1 and August 4, 1864, the provost-marshal's report forwarded with the first, his June 1864 address and his August 21 Memphis dispatch as relayed by Maury (Official Records Series I, Volume XXXIX, Part 1, Nos. 22, 45 and 15) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness; report dates are not event times or proof of contemporary knowledge. Here the second family is Cadwallader C. Washburn's August 21 dispatch and September 2 report (No. 1). Forrest's own account is a three-sentence dispatch relayed by Maury, so the one targeted follow-up is Jordan and Pryor's registered history (Chapter XX, pp.533-547), which is not independent of Forrest.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "forrest-mississippi-1864-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/TN031.v1.json",
-    "sha256": "77ecb2da9854f37489bbe33a8a6038a40b30c8037361f091ebfb607032fa532c"
-  }
+  ]
 }

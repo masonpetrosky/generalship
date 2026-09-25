@@ -295,7 +295,7 @@
     {
       "id": "recorded-result",
       "dimension": "outcome",
-      "value": "The frozen result reads Confederate victory; the live Results field reads Union Victory. Burbridge says he drove the enemy from his works on the left and center, whipped him at every point and forced him back to his main works, and withdrew after dark when his ammunition gave out. NPS says Burbridge retired without accomplishing his objective after day-long fighting, and dates the attack to the morning of October 1, as does the frozen description itself; the frozen date and Burbridge's dispatch give October 2.",
+      "value": "The frozen result reads Confederate victory; the live Results field reads Union Victory. Burbridge says he drove the enemy from his works on the left and center, whipped him at every point and forced him back to his main works, and withdrew after dark when his ammunition gave out. NPS says Burbridge retired without accomplishing his objective after day-long fighting, and dates the attack to the morning of October 1; the frozen date and Burbridge's dispatch give October 2.",
       "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The live result field conflicts with the frozen result and is not adopted.",
       "citations": [
         {
@@ -328,14 +328,6 @@
           "quote": "On the morning of October 1, the Federals attacked but made little headway."
         },
         {
-          "source_id": "arnold-cwsac-battles",
-          "row_key": {
-            "battle": "VA076"
-          },
-          "column": "description",
-          "quote": "On the morning of October 1, the Federals attacked but made little headway."
-        },
-        {
           "source_id": "or39-1-burbridge-saltville-selections-v1",
           "section": "burbridge-1864-10-07",
           "locator": "p.552 (OCR page markers; not checked against print)",
@@ -349,7 +341,7 @@
       "id": "shooting-of-wounded-prisoners",
       "dimension": "outcome",
       "value": "NPS says that afterwards Confederate soldiers were said to have murdered, captured and wounded Black soldiers. Gardner, a Union surgeon left with the wounded and captured on October 3, reports that armed men he believed to be Confederate soldiers took 5 wounded Black privates from the field hospital that morning and shot them; that on October 7 armed men shot 2 wounded Black prisoners dead in their beds at Emory and Henry College Hospital; that on October 8 men in Confederate uniform overpowered the guard and shot Lieutenant E. C. Smith, and threatened other officers, whom the Confederate surgeon in charge and attendants helped protect; and that he was informed of further outrages after he left.",
-      "rationale": "Recorded as NPS's hedged statement and Gardner's witness report; the Confederate reports read (Jackson's No. 10, selected; Echols's No. 9, Williams's No. 11 and Vaughn's No. 12, read and not selected) give no account of these events, and the perpetrators' identity rests on Gardner's belief. Brisbin's report on the Fifth U.S. Colored Cavalry was read and not selected. No count is adopted, and these deaths are not added to the battle's casualty figures.",
+      "rationale": "Recorded as NPS's hedged statement and Gardner's witness report; no Confederate account of these events was inspected, and the perpetrators' identity rests on Gardner's belief. Brisbin's report on the Fifth U.S. Colored Cavalry was read and not selected. No count is adopted, and these deaths are not added to the battle's casualty figures.",
       "citations": [
         {
           "source_id": "nps-va076-v1",
@@ -439,13 +431,8 @@
     }
   ],
   "open_questions": [
-    "Hatchitt's No. 2 casualty report and Brisbin's No. 6 report (read, not selected), Echols's No. 9, Williams's No. 11 and Vaughn's No. 12 reports (read, not selected), the itineraries (including McLean's First Division itinerary, No. 4, which follows Gardner's report), Breckinridge's reports on Saltville, Cosby's and Jennings's reports, Grant's report, returns and maps remain deferred. The compiler's footnote to Gardner's report (outside the selection) records a duplicate dated October 18, 1864 and co-signed by Assistant Surgeon J. T. Harper; it was not selected, and the report's null-mapped date is kept.",
+    "Hatchitt's No. 2 casualty report and Brisbin's No. 6 report (read, not selected), Echols's No. 9, Williams's No. 11 and Vaughn's No. 12 reports (read, not selected), the itineraries, Breckinridge's reports on Saltville, Cosby's and Jennings's reports, Grant's report, returns and maps remain deferred.",
     "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Stephen G. Burbridge's October 7 and 10, 1864 dispatches (Official Records Series I, Volume XXXIX, Part 1, No. 1) are one family of interested Union accounts, the same author family as his Cynthiana reports. Alfred E. Jackson's October dispatches and letter (No. 10) are one family of interested Confederate accounts. As the one targeted follow-up, for the post-battle killing of wounded prisoners, Surgeon William H. Gardner's report (No. 3) is a separate Union witness family. The Official Records volume is a shared container, not an additional witness; report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "burbridge-1864-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA076.v1.json",
-    "sha256": "edb53e59518775b3a889e043336e8d52a5a0c51d714b71ea5e02602201e252a4"
-  }
+  ]
 }

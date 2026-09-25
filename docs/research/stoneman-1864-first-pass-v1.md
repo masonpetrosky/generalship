@@ -2,13 +2,13 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both frozen records in
 **Stoneman's Raid into Southwest Virginia [December 1864]** now have draft dossiers: **18 claims, 2 explicit
-null unknowns and 85 citation occurrences**. All seven dimensions are represented in each record. All
-dossiers are drafts; no features are admitted.
+null unknowns and 89 citation occurrences** (85 before the review correction below). All seven dimensions are
+represented in each record. All dossiers are drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| VA081 — Marion | 1864-12-17 to 12-18 | 9 | 1 | 47 | 3 |
-| VA082 — Saltville (II) | 1864-12-20 to 12-21 | 9 | 1 | 38 | 3 |
+| VA081 — Marion | 1864-12-17 to 12-18 | 9 | 1 | 48 | 3 |
+| VA082 — Saltville (II) | 1864-12-20 to 12-21 | 9 | 1 | 41 | 3 |
 
 Dossier presence is not first-pass acceptance, separate review or model eligibility.
 
@@ -70,7 +70,11 @@ Part 1 parent:
     for more than a few weeks. Stoneman disputes an official report that the wells were not seriously
     damaged. This is campaign context.
   - Casualties: VA081 frozen 274 total against live zero; VA082 frozen Unknown against live zero. No
-    inspected source gives either record's totals.
+    inspected source gives either record's totals. Breckinridge's postscript excludes Vaughn's and Duke's
+    commands (no report yet) and the citizens he says made up most prisoners, and says that for the rest
+    not more than twenty were taken, most at Saltville. He puts the prisoners from the enemy, including
+    wounded, at 200 and the horses they left at no fewer than 800 (read "8'00"). These figures are context
+    and are not assigned.
 - **Command roles.** Stoneman says he took immediate control of Burbridge's command at Marion and criticises
   Burbridge's vigor at Saltville. Breckinridge was absent when Saltville fell and says Preston had no
   alternative. No listed commander receives automatic sole credit.
@@ -80,7 +84,38 @@ Part 1 parent:
 The two null unknowns are the opening strengths. No morale/readiness score, probability, causal effect or new
 commander ranking is introduced. The cohort, both admission proposals and the baseline are unchanged.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass. It is a draft awaiting the primary's check and a
-fresh-context `evidence-reviewer` review; nothing here claims review.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the fifteen 1864
+Western small-operation first passes (ten campaigns) together at prepared commit `4986724` as
+`w1864-review-4986724-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": seven
+required findings (KY010-R1, KY011-R1, TN031-R1, VA081-R1, VA082-R1, TN030-R1 and GA006-R1) and
+eighteen advisories (A1 to A18) across the ten passes. It is an AI review within its stated scope, not
+human historical adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the frozen row,
+the registry record or the pinned parent OCR) before any change; every new quote occurs in its cited
+section, and the dossiers were regenerated from the builder. After the correction, `python3 -m
+generalship check` passes, `python3 -m unittest discover -s tests` passes (134 tests) and
+`gs.MISSES` is empty.
+
+VA081 and VA082 are revised under `stoneman-1864-review-correction-2026-09-25` and supersede the
+byte-for-byte archives at `data/evidence/history/<ID>.v1.json`.
+
+- **VA081-R1 and VA082-R1** (both `casualty-records`): Breckinridge's "not more than twenty prisoners" is what
+  remains after he excludes Vaughn's and Duke's commands, from which he had no report yet, and the citizens he
+  says made up most prisoners. It is not the whole expedition's or all his troops' figure. Both values now
+  state this scope and cite the postscript sentence (p.827).
+
+Advisories:
+
+- **Adopted:** A12 (VA082 `casualty-records` only, to avoid double counting): Breckinridge's "The prisoners,
+  including the wounded left in our hands, will reach 200" and "at least 8'00 horses" follow his account of
+  the retreat from Saltville. They are recorded as expedition context and not assigned to the record.
+- **No action:** A18 (NPS Campaign fields), already noted in the NPS inspection records and not adopted.
+
+VA081 now has 48 citations (47 before) and VA082 41 (38); claims (9 each) and unknowns (1 each) are unchanged.
+The review correction adds no source records for this campaign. No model input, cohort file, admission
+proposal or baseline is changed.

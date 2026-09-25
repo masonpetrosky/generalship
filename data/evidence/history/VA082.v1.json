@@ -300,8 +300,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty field reads Unknown; the live field reads zero. Stoneman says Stacy's charge captured two guns, two officers and several privates without the loss of a man and with two horses killed. Breckinridge, excluding Vaughn's and Duke's commands (no report yet) and the citizens he says made up most prisoners, says not more than twenty others were taken, most at the capture of Saltville, and that the enemy left two rifled guns at Saltville. He adds that the prisoners from the enemy, including the wounded left in Confederate hands, would reach 200, and that the enemy left at least 800 horses (read '8'00' in OCR).",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Breckinridge's 200 prisoners and 800 horses follow his account of the retreat from Saltville and cover the expedition's withdrawal; they are context and are not assigned to this record.",
+      "value": "The frozen casualty field reads Unknown; the live field reads zero. Stoneman says Stacy's charge captured two guns, two officers and several privates without the loss of a man and with two horses killed. Breckinridge says not more than twenty of his men were taken prisoner in the whole expedition, most at the capture of Saltville, and that the enemy left two rifled guns at Saltville.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -326,12 +326,6 @@
           "source_id": "or45-1-breckinridge-swva-selections-v1",
           "section": "breckinridge-1865-01-03",
           "locator": "p.827 (OCR page markers; not checked against print)",
-          "quote": "I have no report yet from Vaughn and Duke of the prisoners from their command, but I know that most of the prisoners taken by the enemy were citizens, afterward turned loose"
-        },
-        {
-          "source_id": "or45-1-breckinridge-swva-selections-v1",
-          "section": "breckinridge-1865-01-03",
-          "locator": "p.827 (OCR page markers; not checked against print)",
           "quote": "not more than twenty prisoners were taken, most of them at Ihe capture of Saltville"
         },
         {
@@ -339,18 +333,6 @@
           "section": "breckinridge-1865-01-03",
           "locator": "p.826 (OCR page markers; not checked against print)",
           "quote": "The enemy left two rifled guns at Saltville"
-        },
-        {
-          "source_id": "or45-1-breckinridge-swva-selections-v1",
-          "section": "breckinridge-1865-01-03",
-          "locator": "p.826 (OCR page markers; not checked against print)",
-          "quote": "The prisoners, including the wounded left in our hands, will reach 200."
-        },
-        {
-          "source_id": "or45-1-breckinridge-swva-selections-v1",
-          "section": "breckinridge-1865-01-03",
-          "locator": "p.826 (OCR page markers; not checked against print)",
-          "quote": "He also left at least 8'00 horses"
         }
       ],
       "phase": "post_outcome",
@@ -361,10 +343,5 @@
     "Burbridge's No. 2 and Gillem's No. 3 reports, the Confederate reports Nos. 5-16 (Johnston, Witcher, Vaughn, Duke, Echols, Giltner, Cosby, Palmer and others), Steuart's letter on the salt-works damage, returns and maps remain deferred.",
     "NPS/CWSAC is one family (the NPS battle pages plus the frozen Arnold rows). George Stoneman's December 27, 1864 telegraphic report and January 6, 1865 report (Official Records Series I, Volume XLV, Part 1, No. 1) are one family of interested Union accounts. John C. Breckinridge's January 3, 1865 report with its postscript (No. 4) is one family of interested Confederate accounts, the same author family as his registered Baton Rouge report and his Bull's Gap reports; its postscript disputes Burbridge's report. The Official Records volume is a shared container, not an additional witness; report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "stoneman-1864-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA082.v1.json",
-    "sha256": "f27167084cffffa721302b921370b2c04bfa2cf34f72fb1b2aeea4ff78341882"
-  }
+  ]
 }
