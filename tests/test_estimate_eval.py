@@ -6,7 +6,7 @@ import tempfile
 import unittest
 
 from generalship.baseline import fit_logistic
-from generalship.estimate_eval import DEFAULT_AUTHORIZATION, assemble, authorize, evaluable, fit_set
+from generalship.estimate_eval import DEFAULT_AUTHORIZATION, FROZEN_REFERENCE, assemble, authorize, evaluable, fit_set
 from generalship.estimates import DEFAULT_LEDGER, EstimateError
 from generalship.sources import digest
 
@@ -27,7 +27,8 @@ class GateTests(unittest.TestCase):
         (root / 'data/estimates').mkdir(parents=True)
         (root / DEFAULT_LEDGER).write_text('{}\n')
         auth = {'kind': 'estimate_evaluation_authorization', 'ledger_path': DEFAULT_LEDGER,
-                'ledger_sha256': ledger_hash or digest(root / DEFAULT_LEDGER), 'option': option}
+                'ledger_sha256': ledger_hash or digest(root / DEFAULT_LEDGER), 'option': option,
+                'admits_feature': False, 'changes_baseline': False}
         (root / DEFAULT_AUTHORIZATION).write_text(json.dumps(auth))
 
     def test_authorization_must_name_the_current_ledger(self):
@@ -37,6 +38,15 @@ class GateTests(unittest.TestCase):
             self.assertEqual(authorize(root)[1], digest(root / DEFAULT_LEDGER))
             (root / DEFAULT_LEDGER).write_text('{"changed": true}\n')
             with self.assertRaisesRegex(EstimateError, 'different ledger hash'):
+                authorize(root)
+
+    def test_record_must_disclaim_admission_and_baseline_change(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.write(root, None)
+            auth = json.loads((root / DEFAULT_AUTHORIZATION).read_text())
+            (root / DEFAULT_AUTHORIZATION).write_text(json.dumps(auth | {'changes_baseline': True}))
+            with self.assertRaisesRegex(EstimateError, 'baseline'):
                 authorize(root)
 
     def test_only_option_a_is_implemented(self):
@@ -74,6 +84,14 @@ class RowTests(unittest.TestCase):
         self.assertNotIn('p_union_win', result['predictions'][0])
 
 
+class ReferenceTests(unittest.TestCase):
+    def test_frozen_reference_matches_the_committed_baseline(self):
+        baseline = json.loads((Path(__file__).resolve().parents[1] / 'artifacts/baseline.json').read_text())
+        self.assertEqual(FROZEN_REFERENCE['battle_weighted_brier'], baseline['battle_weighted_metrics']['strength_logistic']['brier'])
+        self.assertEqual(FROZEN_REFERENCE['campaign_weighted_brier'], baseline['campaign_weighted_metrics']['strength_logistic']['brier'])
+        self.assertEqual(baseline['n_battles'], 23)
+
+
 class OptimizerTests(unittest.TestCase):
     def test_converges_where_the_line_search_only_sees_rounding(self):
         # A held-out fold of the estimate evaluation: before the Newton-decrement stop, the
@@ -84,6 +102,9 @@ class OptimizerTests(unittest.TestCase):
               -0.2631578947368421, -0.28205128205128205]
         ys = [1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0]
         model = fit_logistic(xs, ys)
+        ga = model.intercept + sum(model.predict(x) - y for x, y in zip(xs, ys))
+        gb = model.slope + sum((model.predict(x) - y) * x for x, y in zip(xs, ys))
+        self.assertLess(max(abs(ga), abs(gb)), 1e-9)  # the ridge-penalized gradient vanishes
         self.assertAlmostEqual(model.intercept, -0.08619521973923545, places=12)
         self.assertAlmostEqual(model.slope, 0.2471571457725098, places=12)
 

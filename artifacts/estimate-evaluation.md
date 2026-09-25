@@ -4,7 +4,7 @@
 
 Ledger `data/estimates/side-strength-v1.json` (SHA-256 `0656b03cbdaa088849dc3795f9c6a9e9d6762be10f53f28e4285be46f7fcde89`), authorized by the owner on 2026-09-25 ([record](../data/estimates/evaluation-authorization-v1.json)).
 Model `strength-logistic-v1`, unchanged: ridge 1.0 logistic regression on the rounded point strengths, leave one campaign out. Scores are `diagnostic_union_score` values, not win probabilities.
-Rows excluded as `post_start_information`: 7 (MS003, MS011, NC007, TN002, TN024, VA017, WV010).
+Rows with a `post_start_information` side: 7 (MS003, MS011, NC007, TN002, TN024, VA017, WV010); excluded from fits: set1_A 0, set2_AB 0, set3_ABC 6.
 
 ## Row sets
 
@@ -53,6 +53,6 @@ Strength-model Brier, battle-weighted, with rows used. "NE" is not evaluable (fe
 - Predictions are diagnostic_union_score values, not win probabilities or command effects.
 - Which sides have figures, and so which rows and grades exist, may depend on the outcome, size and fame.
 - Results from different row sets, grades or sensitivity variants are not improvements over one another.
-- At these row counts no difference is significant or evidence that the estimates are accurate.
+- No significance test was run; at these row counts no difference is presented as significant or as evidence that the estimates are accurate.
 - No commander attribution, ranking or causal effect is produced.
 - Every result carries `whole_engagement_leakage`, `conditional_on_source_availability`.

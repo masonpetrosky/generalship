@@ -82,9 +82,10 @@ the [reviewed ledger](docs/research/strength-estimates-ledger-v1.md) gives 43 de
 engagements an estimate for both sides, 37 of them fit-eligible (21 with both sides at
 grade A), against 23 frozen rows. Five separate Opus 5.5 `high` reviews are reconciled. The
 owner authorized the locked [estimate-layer evaluation](docs/research/estimate-evaluation-v1.md),
-an exploratory diagnostic beside the unchanged baseline: army size alone predicts outcomes
-weakly (grade A rows: Brier 0.279 against 0.25 for equal odds; A–C rows: 0.236, but no better
-than the training prior campaign-weighted). It rates no commanders. Coverage status: we have
+an exploratory diagnostic beside the unchanged baseline. Army size alone is a weak predictor:
+worse than equal odds on grade-A rows (Brier 0.279 against 0.25); on A–C rows 0.236
+battle-weighted, but no better than the training prior campaign-weighted (0.213 against
+0.211). It rates no commanders. Coverage status: we have
 one hundred twenty-seven draft dossiers and 0 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one

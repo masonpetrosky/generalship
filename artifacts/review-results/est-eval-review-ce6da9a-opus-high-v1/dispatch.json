@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 68c2911c-2c9e-4cc1-9d9f-10b41f845a28",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 26584abfe5c723b9e79b8b7e71c0ab1c8c829d1c; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T14:47:47Z",
+  "prepared_commit": "ce6da9a7a562778dd3ae81c82e3233809676ba65",
+  "bundle_commit": "26584abfe5c723b9e79b8b7e71c0ab1c8c829d1c",
+  "assignment_sha256": "e4b543a719be14a6ecb077ceb181692245d290fad8309afa786ef4b3e23d49be",
+  "inputs_manifest_sha256": "1b57c62ea36ad94a02d04d83b9c196c597ccebb7f240538081f03bb901006441",
+  "num_turns": 22,
+  "duration_ms": 388956,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** The evaluation code follows the design's locked plan (§6) and the optimizer fix is sound. The five corrections are mostly memo wording, plus a mislabelled count and a gap in the sensitivity reporting; none changes any score.\n\n**Review path:** `artifacts/review-results/est-eval-review-ce6da9a-opus-high-v1/review.md`\n\n**Finding IDs:** required R1, R2, R3, R4, R5; advisory A1–A9.\n\n- **Inputs:** all 27 input hashes match both the prepared commit `ce6da9a` and the worktree. The assignment and `inputs.json` hashes also match.\n- **Checks:** `make check` passes (120 tests).\n- **Reproduction:** run in memory, `artifacts/baseline.json` and both evaluation outputs reproduce byte for byte. Nothing was written apart from the review file.\n- **Optimizer:** the old code failed on 34 of the evaluation's 570 fits. Where it converged, the new code differs by at most 5.1e-10. All 13 frozen-baseline folds are bit-identical. The new result on the regression fold matches an independent gradient-descent optimum to within 3.3e-16.\n\n**Required corrections:**\n- **R1:** \"Seven rows are excluded as post-start\" is wrong: WV010 has a grade D side and enters no row set anyway, so only 6 rows are excluded from a fit. Fix the memo sentence and the report label in `estimate_eval.py`.\n- **R2:** at A–C, all of the gain over equal odds comes from the 16 new rows (Brier 0.1603); the 21 common rows score 0.2932, worse than equal odds. The memo says \"most of the gain\".\n- **R3:** \"the same predictions\" on common rows overstates it: 3 of the 21 rows differ, the largest score difference is 0.007, and Brier is 0.2947 against 0.2941.\n- **R4:** the memo and roadmap say the owner chose option (a), but the question put to the owner never offered (a) against (b). Applying (a) was the recording agent's reading — a reasonable one, since no option (b) profile exists — and the text should say so.\n- **R5:** the sensitivity results leave out the label counts and post-start exclusion counts that §6 requires in every result. I checked that adding them would not change any metric.\n\nEach correction has exact replacement text or code in the review.\n\nI did not commit, push or change any other file."
+}

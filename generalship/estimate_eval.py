@@ -125,7 +125,7 @@ def common_comparison(rows):
     identical = sorted(r['battle_id'] for r in common
                        if all(Fraction(r['estimate'][s]['exact']['point']) == frozen_value(r['frozen'], s)
                               for s in SIDES))
-    result = {'evaluable': ok, **counts, 'identical_by_construction': identical,
+    result = {'evaluable': ok, **counts, **describe(common), 'flags': FLAGS, 'identical_by_construction': identical,
               'note': 'Identical rows differ from the frozen inputs only by rounding to 10.'}
     if ok:
         est, _ = loco(common, point_feature)
@@ -139,33 +139,35 @@ def common_comparison(rows):
 
 
 def new_rows_comparison(primary_predictions, rows):
-    new = {r['battle_id'] for r in rows if not r['baseline_eligible']}
-    preds = [p for p in primary_predictions if p['battle_id'] in new]
+    new = [r for r in rows if not r['baseline_eligible']]
+    preds = [p for p in primary_predictions if p['battle_id'] in {r['battle_id'] for r in new}]
     if not preds:
         return {'n_rows': 0}
-    return metrics(preds)
+    return {**metrics(preds), **describe(new), 'flags': FLAGS}
 
 
 def sensitivity(ledger, records):
     out = {}
-    base_rows, _, _ = assemble(variant_estimates(ledger), records)
+    base_rows, base_excluded, _ = assemble(variant_estimates(ledger), records)
     for us_end, cs_end in product(('low', 'high'), repeat=2):
         out[f'endpoint_refit_us_{us_end}_cs_{cs_end}'] = {
-            k: summary(fit_set(base_rows[k], lambda r, e=(us_end, cs_end): point_feature(r, e))) for k in SETS}
+            k: {**summary(fit_set(base_rows[k], lambda r, e=(us_end, cs_end): point_feature(r, e))),
+                'excluded_post_start_information': len(base_excluded[k])} for k in SETS}
     for label in EXCLUSION_LABELS:
         out[f'exclude_{label}'] = {
-            k: summary(fit_set([r for r in base_rows[k]
-                                if not any(label in r['estimate'][s]['labels'] for s in SIDES)])) for k in SETS}
+            k: {**summary(fit_set([r for r in base_rows[k]
+                                   if not any(label in r['estimate'][s]['labels'] for s in SIDES)])),
+                'excluded_post_start_information': len(base_excluded[k])} for k in SETS}
     for name, params in (('rule4_factor_1', {'factor': Fraction(1)}),
                          ('alternative_basis_order', {'basis_order': ALT_BASIS_ORDER}),
                          ('upper_middle_median', {'median': upper_median})):
-        rows, _, _ = assemble(variant_estimates(ledger, **params), records)
-        out[name] = {k: summary(fit_set(rows[k])) for k in SETS}
+        rows, excluded, _ = assemble(variant_estimates(ledger, **params), records)
+        out[name] = {k: {**summary(fit_set(rows[k])), 'excluded_post_start_information': len(excluded[k])} for k in SETS}
     return out
 
 
 def summary(result):
-    keep = ('evaluable', 'rows', 'campaigns', 'union_wins', 'grade_mix_sides', 'metrics')
+    keep = ('evaluable', 'rows', 'campaigns', 'union_wins', 'grade_mix_sides', 'label_counts_sides', 'flags', 'metrics')
     out = {k: result[k] for k in keep if k in result}
     if 'metrics' in out:
         out['metrics'] = {k: out['metrics'][k] for k in ('n_rows', 'n_campaigns', 'battle_weighted', 'campaign_weighted')}
@@ -181,6 +183,8 @@ def authorize(root, path=DEFAULT_AUTHORIZATION, ledger_path=DEFAULT_LEDGER):
         raise EstimateError('Authorization names a different ledger hash; no fit runs')
     if auth.get('option') != 'a_exploratory_estimate_layer_diagnostic':
         raise EstimateError('Only design §6 option (a) is implemented')
+    if auth.get('admits_feature') is not False or auth.get('changes_baseline') is not False:
+        raise EstimateError('An option (a) diagnostic admits no feature and leaves the baseline unchanged')
     return auth, current
 
 
@@ -200,8 +204,8 @@ def evaluate_estimates(root):
         results[k] = r
     return {'kind': 'estimate_layer_evaluation', 'model_id': 'strength-logistic-v1',
             'status': 'exploratory_estimate_layer_diagnostic_not_baseline',
-            'authorization': {'path': DEFAULT_AUTHORIZATION, 'owner_decision_date': auth['decision_date'],
-                              'option': auth['option']},
+            'authorization': {'path': DEFAULT_AUTHORIZATION, 'sha256': digest(safe_path(root, DEFAULT_AUTHORIZATION)),
+                              'owner_decision_date': auth['decision_date'], 'option': auth['option']},
             'ledger': {'path': DEFAULT_LEDGER, 'sha256': ledger_sha},
             'validation': 'leave_one_campaign_out', 'ridge': 1.0, 'rule4_factor_primary': str(OPPONENT_FACTOR),
             'rows_excluded_post_start_information': excluded_any,
@@ -211,7 +215,7 @@ def evaluate_estimates(root):
                 'Predictions are diagnostic_union_score values, not win probabilities or command effects.',
                 'Which sides have figures, and so which rows and grades exist, may depend on the outcome, size and fame.',
                 'Results from different row sets, grades or sensitivity variants are not improvements over one another.',
-                'At these row counts no difference is significant or evidence that the estimates are accurate.',
+                'No significance test was run; at these row counts no difference is presented as significant or as evidence that the estimates are accurate.',
                 'No commander attribution, ranking or causal effect is produced.']}
 
 
@@ -228,8 +232,9 @@ def report_text(result):
              f"on {result['authorization']['owner_decision_date']} ([record](../{result['authorization']['path']})).",
              'Model `strength-logistic-v1`, unchanged: ridge 1.0 logistic regression on the rounded point strengths, '
              'leave one campaign out. Scores are `diagnostic_union_score` values, not win probabilities.',
-             f"Rows excluded as `post_start_information`: {len(result['rows_excluded_post_start_information'])} "
-             f"({', '.join(result['rows_excluded_post_start_information'])}).", '',
+             f"Rows with a `post_start_information` side: {len(result['rows_excluded_post_start_information'])} "
+             f"({', '.join(result['rows_excluded_post_start_information'])}); excluded from fits: "
+             + ', '.join(f"{k} {len(v['excluded_post_start_information'])}" for k, v in result['row_sets'].items()) + '.', '',
              '## Row sets', '', 'Brier score, battle-weighted / campaign-weighted. Lower is better; equal odds scores 0.2500.', '',
              '| Row set | Rows | Campaigns | Union wins | Side grades | Strength model | Equal odds | Training prior |',
              '|---|---:|---:|---:|---|---:|---:|---:|']

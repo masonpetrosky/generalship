@@ -15,8 +15,9 @@ contract. The [estimate ledger](research/strength-estimates-ledger-v1.md) covers
 reviews and an engine review (Claude Opus 5.5 `high`, 2026-09-25) are reconciled: every
 required finding was checked and applied. The reviewed ledger gives 21, 29 and 37
 fit-eligible rows at grades A, A–B and A–C, against 23 frozen rows, and leaves 76 of 182
-sides blank for lack of a usable candidate value. The owner authorized the locked
-evaluation (design §6, option (a)) for that ledger hash on 2026-09-25; the
+sides blank for lack of a usable candidate value. The owner authorized running the locked
+evaluation (design §6) for that ledger hash on 2026-09-25; the authorization record applies
+option (a), the only option available without an admission profile; the
 [estimate-layer evaluation](research/estimate-evaluation-v1.md) is recorded as an exploratory
 diagnostic. Strength alone is a weak predictor: worse than equal odds on the 21 grade-A rows,
 and on the 37 A–C rows better than equal odds but not than the training prior

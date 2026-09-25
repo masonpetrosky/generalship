@@ -1,0 +1,83 @@
+{
+  "review_sha256": "efa2b7ca134cbf58d2d3dad46b83cc2fffe586dd3a83baf26ff5247d2d3a4e96",
+  "prepared_commit": "ce6da9a7a562778dd3ae81c82e3233809676ba65",
+  "bundle_commit": "26584abfe5c723b9e79b8b7e71c0ab1c8c829d1c",
+  "scope": "estimate-layer evaluation implementation, optimizer change, results and memo",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_applied",
+      "summary": "Excluded-row count: the memo and report now say 7 rows carry a post-start side and 6 are excluded from the A-C fits (WV010 enters no row set)."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_applied",
+      "summary": "Memo: all of the A-C battle-weighted gain comes from the 16 new rows; common rows score 0.2932."
+    },
+    {
+      "finding_id": "R3",
+      "disposition": "accepted_applied",
+      "summary": "Memo: \"nearly the same predictions\" (largest difference 0.007; 0.2947 against 0.2941)."
+    },
+    {
+      "finding_id": "R4",
+      "disposition": "accepted_applied",
+      "summary": "Memo and roadmap: option (a) is the recording agent's reading, not the owner's words; the owner is asked to confirm it."
+    },
+    {
+      "finding_id": "R5",
+      "disposition": "accepted_applied",
+      "summary": "Sensitivity results now carry label counts, flags and post-start exclusion counts; metrics unchanged (verified)."
+    },
+    {
+      "finding_id": "A1",
+      "disposition": "accepted_applied",
+      "summary": "Significance wording: no test was run; no difference is presented as significant."
+    },
+    {
+      "finding_id": "A2",
+      "disposition": "accepted_applied",
+      "summary": "Optimizer note corrected (g·d 2.7e-17; 34 of 570 fits failed before)."
+    },
+    {
+      "finding_id": "A3",
+      "disposition": "accepted_applied",
+      "summary": "README summary reworded as suggested."
+    },
+    {
+      "finding_id": "A4",
+      "disposition": "accepted_applied",
+      "summary": "Memo states the campaign-weighted log-loss tie at A-C."
+    },
+    {
+      "finding_id": "A5",
+      "disposition": "accepted_applied",
+      "summary": "Output binds the authorization record SHA-256; the gate requires admits_feature and changes_baseline to be false."
+    },
+    {
+      "finding_id": "A6",
+      "disposition": "accepted_applied",
+      "summary": "Test compares FROZEN_REFERENCE with artifacts/baseline.json."
+    },
+    {
+      "finding_id": "A7",
+      "disposition": "kept_as_is",
+      "summary": "Owner confirmation of option (a) is requested in the report; a v2 record would follow only if the owner answers."
+    },
+    {
+      "finding_id": "A8",
+      "disposition": "accepted_applied",
+      "summary": "Common-row and newly-covered results carry grade mix, label counts and flags."
+    },
+    {
+      "finding_id": "A9",
+      "disposition": "accepted_applied",
+      "summary": "Regression test also asserts the ridge-penalized gradient is below 1e-9."
+    }
+  ],
+  "corrected_outputs": {
+    "artifacts/estimate-evaluation.json": "d02fa45ce7b876940393deb104725fc856ffbc11fb8929f564beb43a94a59886"
+  },
+  "metrics_changed": false,
+  "independent_followup_review": false
+}
