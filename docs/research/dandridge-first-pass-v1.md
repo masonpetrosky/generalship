@@ -98,5 +98,5 @@ engagements in 13 eligible groups**, with strength Brier **0.276882** against **
 for equal odds.
 
 All 36 frozen campaign groups now have first-pass dossiers. What remains is the separate
-review of this group and of the Mine Run group. Coverage, separate review and feature
+review of this group; the Mine Run review is recorded in its memo. Coverage, separate review and feature
 admission stay distinct.

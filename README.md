@@ -182,7 +182,8 @@ The [Chattanooga-Ringgold pass](docs/research/chattanooga-ringgold-first-pass-v1
 dossiers, 18 claims, 2 explicit unknowns and 84 citations. Opus 5.5 `high` reviewed it;
 its five required corrections are fixed and verified by the primary.
 The [Mine Run pass](docs/research/mine-run-first-pass-v1.md) adds one dossier, 9 claims,
-1 explicit unknown and 72 citations. Separate review is pending.
+1 explicit unknown and 79 citations. Opus 5.5 `high` reviewed it;
+its four required corrections are fixed and verified by the primary.
 The [Dandridge pass](docs/research/dandridge-first-pass-v1.md) adds three dossiers,
 27 claims, 3 explicit unknowns and 141 citations. Separate review is pending.
 All frozen campaign groups now have first-pass dossiers. See the

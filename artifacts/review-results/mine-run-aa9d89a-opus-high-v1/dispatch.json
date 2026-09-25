@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 43bdc025-5640-4c35-83c3-e07a2edf7dc4",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 864760a05cbba2bb37cd69d87bf7d43776d83a65; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T06:30:24Z",
+  "prepared_commit": "aa9d89a677415b4474ee3790dd7ed7f2aeb56530",
+  "bundle_commit": "864760a05cbba2bb37cd69d87bf7d43776d83a65",
+  "assignment_sha256": "520268a4cbc2bb774d7a48e546734ceb1f6a9f9b43f9e25e47303b8a59a4b4ac",
+  "inputs_manifest_sha256": "e26fcbb76e8e8c0d7b6e33e5516d1c293e983ef0ff62a24904d3ec7bc9dc51b3",
+  "num_turns": 35,
+  "duration_ms": 449322,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** The review is at `artifacts/review-results/mine-run-aa9d89a-opus-high-v1/review.md`. It is the only file I wrote; nothing was committed or pushed.\n\n**Required corrections** (the review gives exact replacement text for each):\n- **MR-R1 (terrain):** The claim flatly says the Mine Run works are \"not inherited\", but the inspected sources are mixed:\n  - The frozen description and NPS both say Lee withdrew to \"prepared field fortifications\".\n  - Humphreys describes an intrenched line Lee built before the movement, reaching Bartlett's Mill on Mine Run, which the later works joined.\n  \n  How much of the line existed before November 27 is unresolved. The `unresolved` phase tag is right; the rationale and the memo's Tags bullet need rewording, plus four added citations.\n- **MR-R2 (responsibility):** Lee's credit is cut short. His full sentence credits \"General Johnson and the officers and men of his division\", and the promptness it praises is not Johnson's personally.\n- **MR-R3 (responsibility):** Humphreys blames the Third Corps, not French personally, for \"paralyzing\" the army, and adds \"so far as concerned its carrying out the plan\". The \"three times Johnson's force\" figure also needs a citation.\n- **MR-R4 (strength):** Humphreys's footnote enlisted figures add up to 15,649, not his text's 15,650. That difference should be shown, along with the footnote's November 20 return date and the October–November scope of Meade's strength estimate.\n\n**Advisories (no change needed):** MR-A1 to MR-A4. For example, the correct p.55 page head sits just outside the Humphreys selection, so that one locator can only be checked against the full OCR file.\n\n**Findings:** MR-R1, MR-R2, MR-R3, MR-R4 (required); MR-A1, MR-A2, MR-A3, MR-A4 (advisory).\n\n**Verification:**\n- **Inputs:** both bundle hashes match, and all 30 bound inputs match at `aa9d89a`. Three differ in the worktree (README, roadmap, receipt), but only because of the later Knoxville review commit, which is out of scope.\n- **Dossier and sources:**\n  - All 72 quotes are present in their cited cell or section.\n  - All three text files rebuild exactly from their pinned parents, and both parents are unchanged.\n- **Counts:**\n  - 124/127 dossiers, 35/36 complete campaign groups, 568/548 source records and paths.\n  - All older files are unchanged.\n  - Zero promoted rows; the baseline is unchanged (23 battles / 13 groups, Brier 0.2768816348133779 against 0.25).\n  - The next group is Operations about Dandridge (TN027–TN029).\n- **Tests:** `make check` passed offline (82 tests) both in the worktree and on an exported copy of `aa9d89a`.\n\nThis is an AI review, not historical adjudication, independent corroboration or feature admission."
+}

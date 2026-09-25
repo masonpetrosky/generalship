@@ -2,9 +2,10 @@
 
 Prepared 2026-09-25. The sole frozen record in **Mine Run Campaign [November-December
 1863]**, **VA044 — Mine Run** (November 27 to December 2, 1863), now has a draft dossier:
-**9 claims, 1 explicit null unknown and 72 citation occurrences**, covering all seven
-dimensions from three families. Separate review is pending. The dossier remains a draft;
-no features are admitted.
+**9 claims, 1 explicit null unknown and 79 citation occurrences** after review correction,
+covering all seven dimensions from three families. Separate Claude Opus 5.5 `high`
+[review](../../artifacts/review-results/mine-run-aa9d89a-opus-high-v1/review.md) found four required corrections, all applied and verified by the
+primary. The dossier remains a draft; no features are admitted.
 
 Coverage is **124/127 draft dossiers**, **3 without**, and **35/36 complete source
 campaigns by dossier presence**. All 123 earlier dossiers and all historical revisions
@@ -18,7 +19,8 @@ selection from already pinned OCR:
 
 - **Humphreys**, *Gettysburg to the Rapidan* (1883), Chapter III, reusing
   `humphreys-ocr-v2`. The whole chapter after its summary heading is selected in three
-  contiguous passages: the plan and crossing (OCR pp.49–54), Robertson's Tavern and
+  adjacent passages (the p.55 running head between the first two lies outside the
+  selection): the plan and crossing (OCR pp.49–54), Robertson's Tavern and
   Payne's Farm (pp.55–63), and Mine Run and the withdrawal (pp.63–70). Humphreys is an
   interested history by the Army of the Potomac's chief of staff, per his publisher's
   list.
@@ -49,8 +51,10 @@ preserving the earlier **564/544**: one NPS HTML/text pair and two selections.
   - his three-corps comparison: 2,344 officers and 37,819 men against Ewell's 1,321
     officers and 15,650 men.
 
-  Humphreys's footnote gives Ewell's division officers as 404, 527 and 505, which sum to
-  1,436 (a computation here), not his text's 1,321.
+  Humphreys's footnote, citing the November 20 Confederate return, gives Ewell's division
+  officers as 404, 527 and 505 and enlisted men as 4,297, 6,562 and 4,790. These sum to
+  1,436 and 15,649 (computations here from unverified OCR), against his text's 1,321 and
+  15,650.
 - **Disputes preserved.**
   - Payne's Farm: Lee says Johnson drove the enemy back; Humphreys says the Third Corps
     forced the enemy back and repulsed a second attack; NPS says Johnson's counterattack
@@ -63,18 +67,45 @@ preserving the earlier **564/544**: one NPS HTML/text pair and two selections.
   - Casualties: the frozen 1,952 (US 1,272; CS 680) against the live 2,428 (US 1,633;
     CS 795).
 - **Command roles and ranks.** Humphreys's criticism of French, Warren's suspended
-  attack, the "necessarily vicious" attack plan and Lee's credit to Johnson are attributed
-  judgments. The live page heads Lee as Major General; that rank is not adopted. No listed
+  attack, the "necessarily vicious" attack plan and Lee's credit to Johnson and his division's
+  officers and men are attributed judgments. The live page heads Lee as Major General; that rank is not adopted. No listed
   commander receives automatic sole credit.
-- **Tags.** The Mine Run works were built by the defending army within the frozen
-  interval. They are not tagged `inherited`, and no commander-created credit is assigned.
-  All claims stay `unresolved` or `post_outcome`.
+- **Tags.** Lee and Humphreys describe the Mine Run works as built or strengthened after
+  the November 27 withdrawal. The frozen description and NPS call them prepared, and
+  Humphreys describes an earlier right-flank line reaching Bartlett's Mill; their
+  pre-interval extent is unresolved. They are tagged neither `inherited` nor
+  commander-created. All claims stay `unresolved` or `post_outcome`.
 
 The null unknown is opening strength. No morale/readiness score, probability, causal
 effect or new commander ranking is introduced. The cohort and both admission proposals
 are unchanged, with **zero promoted rows**. The baseline still uses **23/127 engagements
 in 13 eligible groups**, with strength Brier **0.276882** against **0.250000** for equal
 odds.
+
+## Review correction and validation
+
+The reviewer found four required corrections. Each was verified against the retained
+text (every new quote occurs once) and applied:
+
+- **MR-R1** gives the evidence for pre-existing works: the frozen and NPS "prepared field
+  fortifications" and Humphreys's earlier right-flank line to Bartlett's Mill. The
+  terrain rationale now leaves the works' pre-interval extent unresolved, with four
+  citations. The p.49 locator is labelled inferred, since the chapter's opening page has
+  no running head.
+- **MR-R2** quotes Lee's full credit to Johnson and his division's officers and men.
+- **MR-R3** attributes Humphreys's "paralyzed" judgment to the Third Corps' position, with
+  its qualifier, and cites the "three times" passage, including the Sixth Corps.
+- **MR-R4** keeps the footnote's enlisted sum (15,649 against 15,650) and the November 20
+  return date visible, and scopes Meade's belief to the October and November operations.
+
+Advisory MR-A1 (the p.55 head outside the selection) is disclosed above. MR-A2 (the
+stragglers and prisoners are not equated), MR-A3 (Lee's two Rosser accounts are one
+family) and MR-A4 (the unselected No. 99 abstract) need no change.
+
+Citations rise from 72 to 79; claims and unknowns are unchanged, and no source record
+changes. The original is retained as `data/evidence/history/VA044.v1.json`, linked by
+`supersedes`. The [primary assessment](../../artifacts/review-results/mine-run-aa9d89a-opus-high-v1/primary-assessment.md) closes all four
+findings; no second reviewer pass is claimed.
 
 Next by frozen campaign start is **Operations about Dandridge [December 1863-January
 1864]**: TN027, TN028 and TN029. Do not start that group within this batch.

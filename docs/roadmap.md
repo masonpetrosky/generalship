@@ -357,9 +357,12 @@ five OCR-reading, scope, citation, tag-boundary and locator corrections, all fix
 Coverage is **34/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Mine Run Campaign first pass](research/mine-run-first-pass-v1.md) adds the sole
-**frozen record, VA044**, with **9 claims, 1 explicit unknown and 72 citations** from
+**frozen record, VA044**, with **9 claims, 1 explicit unknown and 79 citations** from
 NPS/CWSAC, a new Humphreys Chapter III selection and Lee's Official Records Volume XXIX
-Part 1 reports. Separate review is pending.
+Part 1 reports. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/mine-run-aa9d89a-opus-high-v1/review.md) found
+four tag-evidence, attribution and arithmetic-visibility corrections, all fixed and
+[verified by the primary](../artifacts/review-results/mine-run-aa9d89a-opus-high-v1/primary-assessment.md).
 Coverage is **35/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Operations about Dandridge first pass](research/dandridge-first-pass-v1.md) adds all
@@ -370,7 +373,7 @@ Separate review is pending.
 Coverage is **36/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 All 36 frozen campaign groups now have first-pass dossiers. Separate review of the
-Mine Run and Dandridge groups remains to be completed and recorded. First-pass coverage
+Dandridge group remains to be completed and recorded. First-pass coverage
 does not admit features or change the baseline; the next research priority after these
 reviews is the owner's decision. Keep every engagement regardless of outcome, reputation
 or available strengths.
