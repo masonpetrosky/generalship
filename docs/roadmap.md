@@ -137,10 +137,13 @@ five citation, attribution and scope corrections, all fixed and
 Coverage is **13/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Fredericksburg first pass](research/fredericksburg-first-pass-v1.md) adds the sole
-frozen record, **VA028**, with **10 claims, 1 explicit unknown and 31 citations** from
+frozen record, **VA028**, with **10 claims, 1 explicit unknown and 44 citations** from
 NPS/CWSAC and a new selection from the pinned Palfrey OCR. The live NPS force field
 assigns 100,007 to the Confederate side and is not adopted; force and casualty
-figures remain disputed. Separate review is pending.
+figures remain disputed. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/fredericksburg-dbcd3da-opus-high-v1/review.md) found
+seven attribution, scope and citation corrections, all fixed and
+[verified by the primary](../artifacts/review-results/fredericksburg-dbcd3da-opus-high-v1/primary-assessment.md).
 Coverage is **14/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Goldsboro first pass](research/goldsboro-first-pass-v1.md) adds all **three frozen

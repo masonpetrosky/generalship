@@ -62,8 +62,8 @@ derivative whose parent is the existing `palfrey-antietam-ocr-v1`.
   so the combined claim is tagged `unresolved`. The stone walls were existing
   boundaries; who piled earth against the road wall, and when, is not stated, and
   NPS's entrenching is undated; no terrain effect is estimated.
-- **Command roles**: Palfrey reads Burnside's orders to Franklin as obscure and his
-  expectation of striking the Confederate right as mistaken; Hancock's formation was
+- **Command roles**: Palfrey reads Burnside's orders to Franklin as obscure and his apparent
+  expectation of striking the Confederate right as mistaken if held; Hancock's formation was
   prescribed. Burnside's proposed personal renewal on the 14th, dissuaded by his
   officers, is attributed through Swinton and tagged post-outcome. No listed
   commander receives automatic sole credit.
@@ -73,6 +73,25 @@ effect or new commander ranking is introduced. Cohort and both admission proposa
 remain unchanged, with **zero promoted rows**. The baseline still uses **23/127
 engagements in 13 eligible groups**, with strength Brier **0.276882** versus
 **0.250000** for equal odds.
+
+## Review correction and validation
+
+The reviewer found seven required corrections, all verified against the retained
+text and applied exactly: **FR-01** attaches the 113,000 and 78,000 to the morning
+reports Palfrey names and restores "is said to have been" for November 10; **FR-02**
+removes an unsupported claim that the defender prepared the works and cites the
+wall; **FR-03** keeps the lower bridge laid "without much opposition" and changes the
+crossing claim from `inherited` to `unresolved`; **FR-04** restores Palfrey's
+conditional and his "not confident" reading, and the fog's limited effect; **FR-05**
+cites the planned move on Richmond; **FR-06** records that the Swinton attribution
+lies just before the retained range and cites the proposal's details; **FR-07**
+corrects two memo page spans. Notes FR-N1 (source wording), FR-N2 (Lee's rank
+conflict) and FR-N3 (a corrupt OCR cell and an unexplained 1,000 difference) are
+adopted. Citations rise from 31 to 44; claims and unknowns are unchanged. The
+original is retained as `data/evidence/history/VA028.v1.json`, linked by
+`supersedes`. The
+[primary assessment](../../artifacts/review-results/fredericksburg-dbcd3da-opus-high-v1/primary-assessment.md)
+closes all seven findings; no second reviewer pass is claimed.
 
 Next by frozen campaign start is **Goldsboro Expedition [December 1862]**: NC007,
 NC008 and NC009. Do not start that group within this batch.
