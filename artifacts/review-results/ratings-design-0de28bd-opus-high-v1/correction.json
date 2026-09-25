@@ -1,0 +1,93 @@
+{
+  "review_sha256": "1551d14c55c041ca3d8acd899a775d3beeecdf01f2923d03d5bb4805c9466809",
+  "prepared_commit": "0de28bd7cdf595b49a8aa80e170650ad82d72a20",
+  "bundle_commit": "33247f084202e38d8d3f4cb5fb49c49294009dd0",
+  "scope": "commander residual ratings design v1",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_applied",
+      "summary": "Target redefined: field commander with command authority when the side first fought; date-only intervals handled; superior_directing label and view."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_applied",
+      "summary": "Rule order 5, 3, 2, 6 then 4; rank ties give grade D; army/navy pairs under rule 5; grade table aligned with the rules."
+    },
+    {
+      "finding_id": "R3",
+      "disposition": "accepted_applied",
+      "summary": "Rule 7 for nested records, with checker coverage and the section 8 wording."
+    },
+    {
+      "finding_id": "R4",
+      "disposition": "accepted_applied",
+      "summary": "Side offset stated; ranks within each side; connectivity components and not_connected label; rank set defined; section 8 corrected."
+    },
+    {
+      "finding_id": "R5",
+      "disposition": "accepted_applied",
+      "summary": "Force size \"partly conditioned on\"; posterior-to-prior sd ratio reported; mode, not mean; tau wording; \"fewer than a dozen\"."
+    },
+    {
+      "finding_id": "R6",
+      "disposition": "accepted_applied",
+      "summary": "Verdict configuration fixed; effective denominator; reading of an improvement; no ordered ranking if there is no improvement."
+    },
+    {
+      "finding_id": "R7",
+      "disposition": "accepted_applied",
+      "summary": "Outcome-only views split into 37-row and 91-row versions; view_sensitive defined on robustness views only; raw-residual p named."
+    },
+    {
+      "finding_id": "R8",
+      "disposition": "accepted_applied",
+      "summary": "Limits add non-blind attribution, mixed echelons (echelon recorded) and \"not Milestone 3\"."
+    },
+    {
+      "finding_id": "R9",
+      "disposition": "accepted_applied",
+      "summary": "Questions and replies recorded verbatim in data/command/owner-decision-2026-09-25.json and cited."
+    },
+    {
+      "finding_id": "A1",
+      "disposition": "accepted_applied",
+      "summary": "Alternative-candidate and successor views added."
+    },
+    {
+      "finding_id": "A2",
+      "disposition": "accepted_applied",
+      "summary": "Side-offset view with alpha prior sd 3."
+    },
+    {
+      "finding_id": "A3",
+      "disposition": "accepted_applied",
+      "summary": "Identical fullname strings on one side presumed one person."
+    },
+    {
+      "finding_id": "A4",
+      "disposition": "accepted_applied",
+      "summary": "Rule 2 contradiction test made operational."
+    },
+    {
+      "finding_id": "A5",
+      "disposition": "accepted_applied",
+      "summary": "1862-to-1863 temporal split reported descriptively."
+    },
+    {
+      "finding_id": "A6",
+      "disposition": "accepted_applied",
+      "summary": "Unit test against quadrature specified."
+    },
+    {
+      "finding_id": "A7",
+      "disposition": "accepted_applied",
+      "summary": "Brier reported but not part of the verdict."
+    }
+  ],
+  "revised_design": {
+    "path": "docs/commander-ratings.md",
+    "sha256": "1e74f02c6f4a99c391e2c7a53e96fc1a1962afc044f80affc3860f1e30af42a3"
+  },
+  "independent_followup_review": "pending"
+}

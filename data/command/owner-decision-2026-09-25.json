@@ -1,0 +1,11 @@
+{
+  "kind": "owner_design_decision",
+  "schema_version": 1,
+  "decision_date": "2026-09-25",
+  "subject": "commander residual ratings, design v1",
+  "earlier_owner_request": "Okay, what do we need to do next? Are we ready to rank the generals in the American civil war, or is there still work to be done?",
+  "questions_put_to_owner": "One confirmation: the design gives two ways to authorize a run, and your reply didn't pick one. I recorded it as the exploratory, diagnostic-only option, since the other needs an admission profile that doesn't exist. Is that right?\n\nTo start ranking generals, I'd need your call on three design questions:\n1. **Who gets credit?** The commander of each side's force in the battle, rather than every listed general. Who that was is best-estimated from sources, like the troop numbers.\n2. **What unit is scored?** Battles, with campaigns used only to group them so no result counts twice. Or whole campaigns, which gives far fewer data points.\n3. **How is each rating computed?** A commander's results beyond what army size predicts, pulled toward average when there are few battles (partial pooling), and reported with uncertainty ranges rather than a single number. A general with two battles should not top the list on luck.\n\nDo you want me to draft that design for review, and if so, battles or campaigns?",
+  "owner_response": "Okay, yeah I'm fine with whatever you recommend",
+  "reading": "The owner delegated the three design choices and the drafting to the author's recommendations: battles as the unit with campaigns for grouping, one best-estimated responsible commander per side, and a partially pooled residual rating with uncertainty. The same reply is also recorded as confirming the evaluation's option (a) (data/estimates/evaluation-authorization-v1-confirmation.json).",
+  "recorded_by": "primary agent (Claude Opus 5.5), from the owner's chat messages"
+}
