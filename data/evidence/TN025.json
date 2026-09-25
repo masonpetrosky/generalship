@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN025",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort Sanders record (November 29, 1863) in Longstreet's Knoxville Campaign [November-December 1863]. The simultaneous attack south of the river and the siege from November 17 are outside this record or context. The siege, the November 23–25 actions, the pursuit and campaign-wide figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field has unit names only; the live field reads zero. Burnside gives about 12,000 effective men in Knoxville against an enemy estimated at 20,000 to 23,000 including cavalry, and says the assaulting column was three brigades, reinforced by a second column. Longstreet says three of McLaws's brigades made the assault, with Anderson's brigade following, and earlier that the enemy had as many as he did in a strong fortified position.",
+      "rationale": "Garrison, army and assault-column figures differ in scope; none is adopted. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN025"
+          },
+          "column": "forces_text",
+          "quote": "Department of the Ohio [US]; Confederate Forces in East Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-tn025-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-siege",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "Our force at this time in Knoxville was about 12,000 effective men,"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-siege",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "The enemy was estimated at 20,000 to 23,000, including cavalry."
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1863-11-30",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "they moved a column of assault of three brigades against Fort Sanders."
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-fort-sanders",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "The first column of attack was re-enforced by a second,"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-fort-sanders",
+          "locator": "p.461 (OCR page markers; not checked against print)",
+          "quote": "The assault was made at the appointed time by Generals Wofford’s, Humphreys’, and Bryan’s brigades."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-before-knoxville",
+          "locator": "p.459 (OCR page markers; not checked against print)",
+          "quote": "He had as many as we in a strong position fortified."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fort-ditch-and-wire",
+      "dimension": "terrain",
+      "value": "Burnside says the fort was begun by the Confederates before the Federals entered East Tennessee and much improved by Poe's engineers, that abatis, chevaux-de-frise and wire entanglements were made where needed, and that traverses protected the garrison. NPS says the ditch was twelve feet wide and four to ten feet deep with vertical sides. Longstreet says the troops could not pass the ditch for want of ladders.",
+      "rationale": "The fort, ditch and entanglements existed before the assault; their construction during the preceding siege is a commander decision not credited here. No map verification.",
+      "citations": [
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-fort-sanders",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "This fort was commenced by the rebels before our troops entered East Tennessee,"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-fort-sanders",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "had been considerably improved by the Engineer Battalion,"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-fort-sanders",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "Abatis, chevaux-de-frise, and wire entanglements were made wherever they were necessary."
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-fort-sanders",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "The fort was so protected with traverses that only one man was injured during this heavy fire."
+        },
+        {
+          "source_id": "nps-tn025-v1",
+          "locator": "Description",
+          "quote": "This ditch was twelve feet wide and from four to ten feet deep with vertical sides."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-fort-sanders",
+          "locator": "p.461 (OCR page markers; not checked against print)",
+          "quote": "the troops could not pass the ditch for want of ladders or other means."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "rations-and-tools",
+      "dimension": "logistics",
+      "value": "Burnside says rations were reduced during the siege, useless animals killed to save forage, and the garrison kept from absolute want. Longstreet says his limited transport had brought no intrenching tools except his pioneers', and that picks and spades captured at Lenoir's were brought up on horseback.",
+      "rationale": "Supply statements from interested accounts covering the siege, not only the day; no return inspected.",
+      "citations": [
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-siege",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "reducing the rations,"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-siege",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "All useless animals were killed and thrown into the river in order to save forage."
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-siege",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "we were Ivept from absolute want."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-before-knoxville",
+          "locator": "p.459 (OCR page markers; not checked against print)",
+          "quote": "Our transportation being limited we had brought no tools for intrenching"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-before-knoxville",
+          "locator": "p.459 (OCR page markers; not checked against print)",
+          "quote": "We had the tools brought up by our cavalry upon their horses,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rumors-and-warning",
+      "dimension": "information",
+      "value": "Longstreet says rumors of a battle at Chattanooga led him to decide he must attack, and that approaching the fort he saw men straggling back. Burnside says the night advance of Confederate pickets led the defenders to expect an attack there, and that Lieutenant Benjamin roused the men early. NPS says Longstreet believed a storming party could assemble undetected at night.",
+      "rationale": "Attributed knowledge from interested accounts and a summary.",
+      "citations": [
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-fort-sanders",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "I determined that I must attack,"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-fort-sanders",
+          "locator": "p.461 (OCR page markers; not checked against print)",
+          "quote": "I saw some of the men straggling back,"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-fort-sanders",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "It was now supposed that the enemy intended to make an attack at that point."
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-fort-sanders",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "roused the men at an early hour."
+        },
+        {
+          "source_id": "nps-tn025-v1",
+          "locator": "Description",
+          "quote": "believed he could assemble a storming party, undetected at night,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "take-knoxville",
+      "dimension": "objectives",
+      "value": "Longstreet says he determined to attack and, if possible, get possession of Knoxville, and ordered the assault by three brigades with Jenkins's brigade to pass east of the fort. NPS says Longstreet undertook the expedition to divert Union troops from Chattanooga and to get away from Bragg.",
+      "rationale": "Stated aims from the Confederate commander and a summary's judgment; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-fort-sanders",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "if possible, get possession of Knoxville."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-fort-sanders",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "The assault was ordered to be made by three of General McLaws’ brigades,"
+        },
+        {
+          "source_id": "nps-tn025-v1",
+          "locator": "Description",
+          "quote": "Longstreet undertook his Knoxville expedition to divert Union troops from Chattanooga and to get away from Gen. Braxton Bragg,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Longstreet says the assaulting lines were formed several hundred yards behind the rifle-pits instead of close up on them. Burnside credits Lieutenant Benjamin and Ferrero's division. The frozen commanders are Lieutenant General Longstreet and Major General Burnside; the live heading ranks Longstreet Major General.",
+      "rationale": "Judgments are attributed; the frozen commanders do not receive automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-fort-sanders",
+          "locator": "p.461 (OCR page markers; not checked against print)",
+          "quote": "The troops were not formed as well to the front as they should have been."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-fort-sanders",
+          "locator": "p.461 (OCR page markers; not checked against print)",
+          "quote": "Instead of this the lines were formed several hundred yards in rear of the pits."
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-fort-sanders",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "the division of General Ferrero may justly feel proud of this great achievement, particularly Lieutenant Benjamin"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN025",
+            "belligerent": "Confederate",
+            "fullname": "James Longstreet"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN025",
+            "belligerent": "US",
+            "fullname": "Ambrose E. Burnside"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-tn025-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General James Longstreet [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Longstreet says the column broke up and fell back in confusion; NPS says the attack lasted twenty minutes and calls it the decisive battle of the campaign.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. NPS's 'decisive' is a campaign judgment.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN025"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tn025-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-fort-sanders",
+          "locator": "p.461 (OCR page markers; not checked against print)",
+          "quote": "the column broke up entirely and fell back in confusion."
+        },
+        {
+          "source_id": "nps-tn025-v1",
+          "locator": "Description",
+          "quote": "The attack lasted a short twenty minutes."
+        },
+        {
+          "source_id": "nps-tn025-v1",
+          "locator": "Description",
+          "quote": "This was the decisive battle of the Knoxville Campaign."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 880 (US 100; CS 780); the live field reads 815 (US 15; CS 800). Burnside reported on November 30 about 300 prisoners, about 500 Confederate killed and wounded, 98 dead passed through his hands and his own loss about 20; his 1865 report says the enemy's loss was certainly over 1,000 and his own 13. Longstreet names three colonels found dead in the ditch.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Burnside's two reports differ from each other.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN025"
+          },
+          "column": "casualties_text",
+          "quote": "880 total (US 100; CS 780)"
+        },
+        {
+          "source_id": "nps-tn025-v1",
+          "locator": "Estimated Casualties",
+          "quote": "815 total (US 15; CS 800;)"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1863-11-30",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "About 300 men and 3 stand of colors were taken."
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1863-11-30",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "Their killed and wounded amount to about 500."
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1863-11-30",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "Our entire loss was about 20."
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1863-11-30",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "Ninety-eight dead passed through our hands,"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-fort-sanders",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "His loss was certainly over 1,000 men, while ours was but 13."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-fort-sanders-dead",
+          "locator": "p.465 (OCR page markers; not checked against print)",
+          "quote": "Their bodies were afterward found in the ditch of the fort foremost in the attack."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Poe's, Benjamin's, Ferrero's, McLaws's and Alexander's reports, the McLaws court-martial and the returns remain deferred.",
+    "NPS/CWSAC is one family. Burnside's, Parke's and Longstreet's reports, printed in Official Records Series I, Volume XXXI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Burnside's full report was written in November 1865 and Longstreet's in January 1864. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

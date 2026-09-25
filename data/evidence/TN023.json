@@ -1,0 +1,359 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN023",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Campbell's Station record (November 16, 1863) in Longstreet's Knoxville Campaign [November-December 1863]. The Huff's Ferry and Lenoir's actions of November 14–15 are outside the frozen interval. The siege, the November 23–25 actions, the pursuit and campaign-wide figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Department of the Ohio and the Confederate forces in East Tennessee without counts; the live field reads zero. Burnside wrote in 1865 that his command was little over 5,000 against an enemy at least double, and on November 17 that Longstreet had crossed with about 15,000. Longstreet says he planned the move with 20,000 and accepts Stevenson's figure of 23,000 for Burnside's force on entering East Tennessee. NPS says Longstreet had two divisions and about 5,000 cavalry.",
+      "rationale": "Each commander gives the opponent the larger number; the figures differ in date and scope. None is adopted. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN023"
+          },
+          "column": "forces_text",
+          "quote": "Department of the Ohio [US]; Confederate Forces in East Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-tn023-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-campbells-station",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "The entire command consisted of but little over 5,000 men, while the enemy’s force was at least double that amount."
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1863-11-17",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "with about 15,000 men."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-plan",
+          "locator": "p.455 (OCR page markers; not checked against print)",
+          "quote": "with a force of 20,000,"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-stevenson",
+          "locator": "p.456 (inferred: the preceding running head reads \"45f)\" in OCR, after the p.455 head; not checked against print)",
+          "quote": "the enemy’s forces were 23,000."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-stevenson",
+          "locator": "p.456 (inferred: the preceding running head reads \"45f)\" in OCR, after the p.455 head; not checked against print)",
+          "quote": "This I now believe to be a correct statement of the enemy’s force under General Burnside upon his entrance into East Tennessee."
+        },
+        {
+          "source_id": "nps-tn023-v1",
+          "locator": "Description",
+          "quote": "with two divisions and about 5,000 cavalry,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "crossroads-and-ridges",
+      "dimension": "terrain",
+      "value": "NPS says Campbell's Station lay where the Concord road met the Kingston road to Knoxville. Burnside says White's division stood on rising ground south of the road, that high ground on his left commanded the position, and that he withdrew to a ridge about three-quarters of a mile to the rear. Longstreet says the enemy took a strong position east of the station and then a more commanding one about a mile back.",
+      "rationale": "Positions chosen on the day and ground from interested accounts; no map verification.",
+      "citations": [
+        {
+          "source_id": "nps-tn023-v1",
+          "locator": "Description",
+          "quote": "where the Concord Road, from the south, intersected the Kingston Road to Knoxville."
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-campbells-station",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "on some rising ground on the south side of the main road,"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-campbells-station",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "There was some high ground on our left which en- tirely commanded the position we held,"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-campbells-station",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "to move to a ridge some three-quarters of a mile in rear,"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-campbells-station",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "took a strong position east of Campbell’s Station."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-campbells-station",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "in a more commanding position."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "trains-and-wagons",
+      "dimension": "logistics",
+      "value": "Burnside says he expected to have to check the enemy at Campbell's Station until night so the trains could reach Knoxville, and that the trains were secure when he withdrew after nightfall. Longstreet says the Federals abandoned part of their wagon train at Lenoir's during the night. NPS says the main Union column arrived at noon with the baggage train just behind.",
+      "rationale": "Transport statements from interested accounts and a summary; no return inspected.",
+      "citations": [
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-campbells-station",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "the trains being secure."
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-campbells-station",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "so as to enable our trains to get into Knoxville."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-campbells-station",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "abandoned part of his wagon train"
+        },
+        {
+          "source_id": "nps-tn023-v1",
+          "locator": "Description",
+          "quote": "The main column arrived at noon with the baggage train just behind."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "guides-and-reconnaissance",
+      "dimension": "information",
+      "value": "Longstreet says his guides failed to put the troops on the right road on the night of the 15th. Burnside says he was satisfied the enemy would try to reach the crossroads first and sent a staff officer to reconnoitre the ground.",
+      "rationale": "Attributed knowledge from interested accounts; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-campbells-station",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "the guides had failed to put the troops upon the right road,"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-campbells-station",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "I was satisfied the enemy would try to reach that point before us,"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-campbells-station",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "I sent Colonel Loring, of my staff, to Campbell’s Station to reconnoiter the ground"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "race-for-the-crossroads",
+      "dimension": "objectives",
+      "value": "NPS says Burnside hoped to reach the crossroads first and continue to Knoxville, while Longstreet meant to hold it and force a fight outside the works. Burnside says Hartranft's division was sent to seize the forks of the road. Longstreet says McLaws was ordered to intercept the retreating enemy at Campbell's Station, and that his plan was to crush Burnside's force before it knew his purpose.",
+      "rationale": "Stated aims from a summary and interested accounts; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "nps-tn023-v1",
+          "locator": "Description",
+          "quote": "Burnside hoped to reach the crossroads first and continue on to safety in Knoxville;"
+        },
+        {
+          "source_id": "nps-tn023-v1",
+          "locator": "Description",
+          "quote": "Longstreet planned to reach the crossroads and hold it,"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-campbells-station",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "to seize the forks of the road at Campbell’s Station,"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-campbells-station",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "endeavor to intercept the enemy (in full retreat) at Campbell’s Station."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-plan",
+          "locator": "p.455 (OCR page markers; not checked against print)",
+          "quote": "to strike the enemy so suddenly and so severely that his force should be crushed"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Longstreet says that had Jenkins attacked the flank in time the Union force must have been destroyed, and that Jenkins attributes his failure to mismanagement by Law. NPS says Jenkins's division maneuvered ineffectively. Burnside says he gave the order to withdraw at 2 p.m. The frozen commanders are Lieutenant General Longstreet and Major General Burnside; the live heading ranks Longstreet Major General.",
+      "rationale": "Judgments and a counterfactual are attributed; the frozen commanders do not receive automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-campbells-station",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "If General Jenkins could have made his at- tack during this movement,"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-campbells-station",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "we must have destroyed this force,"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-campbells-station",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "He attributes his failure to do so to some mismanagement of General Law."
+        },
+        {
+          "source_id": "nps-tn023-v1",
+          "locator": "Description",
+          "quote": "Micah Jenkins's Confederate division maneuvered ineffectively"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-campbells-station",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "At 2 p. m. I gave the order to withdraw,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN023",
+            "belligerent": "Confederate",
+            "fullname": "James Longstreet"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN023",
+            "belligerent": "US",
+            "fullname": "Ambrose E. Burnside"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-tn023-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General James Longstreet [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS says the Confederates suspended the attack while Burnside continued to Knoxville. Burnside says the new position was taken without the slightest confusion and his command withdrew to Knoxville after nightfall; Longstreet says the enemy drew off after dark.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN023"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tn023-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-tn023-v1",
+          "locator": "Description",
+          "quote": "The Confederates suspended their attack while Burnside continued his retrograde movement to Knoxville."
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-campbells-station",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "without the slightest confusion."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-campbells-station",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "The enemy drew off as soon as it was dark"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields give 970 (US 400; CS 570). Burnside's 1865 report puts his killed, wounded and missing at about 300 and says the enemy's loss must have been very severe.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN023"
+          },
+          "column": "casualties_text",
+          "quote": "970 total (US 400; CS 570)"
+        },
+        {
+          "source_id": "nps-tn023-v1",
+          "locator": "Estimated Casualties",
+          "quote": "970 total (US 400; CS 570;)"
+        },
+        {
+          "source_id": "or31-1-burnside-knoxville-selections-v1",
+          "section": "burnside-1865-11-13-campbells-station",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "Our loss in killed and wounded and missing was about 300,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "White's, Potter's, McLaws's and Jenkins's reports and the returns remain deferred.",
+    "NPS/CWSAC is one family. Burnside's, Parke's and Longstreet's reports, printed in Official Records Series I, Volume XXXI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Burnside's full report was written in November 1865 and Longstreet's in January 1864. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -110,6 +110,9 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [TN020](../data/evidence/TN020.json) | 9 | 1 | 0 | 0 | draft |
 | [TN021](../data/evidence/TN021.json) | 9 | 1 | 0 | 0 | draft |
 | [TN022](../data/evidence/TN022.json) | 9 | 1 | 0 | 0 | draft |
+| [TN023](../data/evidence/TN023.json) | 9 | 1 | 0 | 0 | draft |
+| [TN025](../data/evidence/TN025.json) | 9 | 1 | 0 | 0 | draft |
+| [TN026](../data/evidence/TN026.json) | 9 | 1 | 0 | 0 | draft |
 | [VA008](../data/evidence/VA008.json) | 10 | 5 | 0 | 0 | draft |
 | [VA009](../data/evidence/VA009.json) | 9 | 2 | 0 | 0 | draft |
 | [VA010](../data/evidence/VA010.json) | 9 | 3 | 0 | 0 | draft |
@@ -171,8 +174,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 118 engagements have dossiers; 9 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Averell's Raid first pass](../docs/research/averell-raid-first-pass-v1.md) adds the sole frozen record, Droop Mountain: 9 claims, 1 explicit unknown and 44 citations from NPS/CWSAC and Averell's and Echols's Official Records reports. Opposing strength estimates and casualty differences remain visible; separate campaign review is pending. Next take the complete three-record Longstreet's Knoxville Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 121 engagements have dossiers; 6 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Knoxville Campaign first pass](../docs/research/knoxville-first-pass-v1.md) adds all three frozen records: 27 claims, 3 explicit unknowns and 123 citations from NPS/CWSAC and Burnside's, Longstreet's and Parke's Official Records reports. Opposing strength claims, Burnside's two sets of Fort Sanders losses and the Bean's Station clock and casualty differences remain visible; separate campaign review is pending. Next take the complete two-record Chattanooga-Ringgold Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

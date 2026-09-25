@@ -68,6 +68,14 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Knoxville Campaign first pass, 2026-09-25
+
+The [three-record memo](research/knoxville-first-pass-v1.md) adds **9 records**, bringing
+the registry to **555 entries / 535 raw paths**, preserving the previous **546/526**. Three
+NPS battle HTML/text pairs remain in the NPS/CWSAC family. Burnside, Longstreet and Parke
+selections reuse `or31-1-illinois-ocr-v1`. Character ranges and whitespace-only
+normalization reproduce all sections. No model inputs are changed.
+
 ### Memphis & Charleston Railroad review correction, 2026-09-25
 
 One `metadata_only` revision (MC-04) supersedes `or31-1-chalmers-collierville-selections-v1`

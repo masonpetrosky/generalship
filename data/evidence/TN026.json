@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN026",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Bean's Station record (December 14, 1863) in Longstreet's Knoxville Campaign [November-December 1863]. The December 15 fighting and pursuit toward Blain's Cross-Roads are outside the frozen interval; the live NPS page has no description, so the frozen description is cited. The siege, the November 23–25 actions, the pursuit and campaign-wide figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Cavalry Corps, Department of the Ohio, and the Confederate forces in East Tennessee without counts; the live field is blank. The frozen description says Shackelford had about 4,000 cavalry and infantry. Longstreet says he was told there were three brigades of cavalry and one of infantry at Bean's Station, and that his column was infantry and artillery only. Parke relays a prisoner's statement that Gracie's infantry brigade had the advance.",
+      "rationale": "No matched count is inspected; none is adopted. The live blank is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN026"
+          },
+          "column": "forces_text",
+          "quote": "Cavalry Corps, Department of the Ohio [US]; Confederate Forces in East Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-tn026-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US ; CS ;)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN026"
+          },
+          "column": "description",
+          "quote": "with about 4,000 cavalry and infantry"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "a force consisting of three brigades of cavalry and one of infantry at Bean’s Station,"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "As our column was composed of infantry and artillery only,"
+        },
+        {
+          "source_id": "or31-1-parke-beans-station-selections-v1",
+          "section": "parke-1863-12-14",
+          "locator": "p.327 (inferred: the preceding running head reads \"827\" in OCR, before the p.328 head; not checked against print)",
+          "quote": "this brigade had the advance,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "gap-and-rail-defenses",
+      "dimension": "terrain",
+      "value": "Longstreet says Kershaw was sent to cut off the force holding the gap, that the enemy escaped to a strong position 3 miles away, and that it was strengthened overnight with rail defenses. The frozen description says the Federals retired through Bean's Gap.",
+      "rationale": "Positions and field works made within and just after the day; no inherited tag is used. No map verification.",
+      "citations": [
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "to push forward and cut off the force that was occupying the gap,"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "the enemy escaped to a strong position 3 miles from us."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.464 (OCR page markers; not checked against print)",
+          "quote": "he strengthened his position hy rail defenses"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN026"
+          },
+          "column": "description",
+          "quote": "the Federals were retiring from Bean's Station through Bean's Gap"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rain-and-rations",
+      "dimension": "logistics",
+      "value": "Longstreet says heavy rains on the 13th retarded the march, that he had halved the bread ration at Rogersville to build a few days' supply, and that McLaws reported on the 15th that his troops had had no bread for two days.",
+      "rationale": "Supply statements from the Confederate commander; no return inspected.",
+      "citations": [
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "On the 13th and that night we had heavy rains, which retarded our march"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "we were obliged to reduce the bread ration one-half"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.464 (OCR page markers; not checked against print)",
+          "quote": "his troops had had no bread rations for tAA^o days."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surprise-and-clocks",
+      "dimension": "information",
+      "value": "Longstreet says his infantry reached Bean's Station in good time and surprised the enemy completely, but that W. E. Jones's information about his movements was not correct. The frozen description says a column was skirmishing with Union pickets by 2 a.m. and that the pickets warned Shackelford; Parke reported that the enemy attacked Shackelford at 2 p.m.",
+      "rationale": "The frozen description's 2 a.m. and Parke's 2 p.m. conflict; attributed knowledge from interested accounts.",
+      "citations": [
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "surprised the enemy completely."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "His information with regard to our movements, however, was not cor- rect,"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN026"
+          },
+          "column": "description",
+          "quote": "By 2:00 am on the 14th, one column was skirmishing with Union pickets."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN026"
+          },
+          "column": "description",
+          "quote": "warned Shackelford of the Confederate presence."
+        },
+        {
+          "source_id": "or31-1-parke-beans-station-selections-v1",
+          "section": "parke-1863-12-14",
+          "locator": "p.327 (inferred: the preceding running head reads \"827\" in OCR, before the p.328 head; not checked against print)",
+          "quote": "The enemy attacked Shackelford at 2 p. m."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "surprise-and-capture",
+      "dimension": "objectives",
+      "value": "Longstreet says he hoped to surprise and capture the force at Bean's Station with his main column, Martin's cavalry on the south side and W. E. Jones's cavalry closing the gap. Parke had directed Shackelford to hold Bean's Station in force and make no advance without orders.",
+      "rationale": "Stated plans from interested accounts; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "with the hope of being able to surprise and capture the enemy’s force at Bean’s Station,"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "prevent the enemy’s escape by Bean’s Station Gap."
+        },
+        {
+          "source_id": "or31-1-parke-beans-station-selections-v1",
+          "section": "parke-1863-12-10",
+          "locator": "p.326 (inferred: the preceding running head reads \"320\" in OCR, after the p.325 head; not checked against print)",
+          "quote": "I have directed him to hold Bean’s Station in force, and make no advance unless further orders or developments require it."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Longstreet says Martin's cavalry crossed late and only in part, Jones retired from the gap, and that the next day Law's lateness, McLaws's unfed troops and a desire for rest made him abandon the pursuit, the second time in the campaign the enemy escaped. The frozen commanders are Lieutenant General Longstreet and Brigadier General Shackelford; the live heading ranks Longstreet Major General.",
+      "rationale": "Judgments are attributed; the pursuit decision falls after the frozen date. The frozen commanders do not receive automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "General Martin w'as not heard at his crossing till about night."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "he retired from the gap after securing his captured wagons."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.464 (OCR page markers; not checked against print)",
+          "quote": "that I was obliged to abandon the pursuit,"
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.464 (OCR page markers; not checked against print)",
+          "quote": "This Avas the second time during the campaign when the enemy was completely in our power, and we allowed him to escape us."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN026",
+            "belligerent": "Confederate",
+            "fullname": "James Longstreet"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN026",
+            "belligerent": "US",
+            "fullname": "James Shackelford"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-tn026-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General James Longstreet [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. The frozen description says the Federals retired by nightfall toward Blain's Cross Roads; Parke reported that after dark Shackelford was compelled to fall back a short distance; Longstreet says his column could only drive the enemy back.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN026"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-tn026-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN026"
+          },
+          "column": "description",
+          "quote": "By nightfall, the Federals were retiring from Bean's Station"
+        },
+        {
+          "source_id": "or31-1-parke-beans-station-selections-v1",
+          "section": "parke-1863-12-14",
+          "locator": "p.327 (inferred: the preceding running head reads \"827\" in OCR, before the p.328 head; not checked against print)",
+          "quote": "he has been compelled to fall back a short distance."
+        },
+        {
+          "source_id": "or31-1-longstreet-east-tennessee-selections-v1",
+          "section": "longstreet-beans-station",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "we could only drive the enemy back."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,600 (US 700; CS 900); the live field reads 337 (US 115; CS 222). No inspected passage gives a count.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen and live figures differ by a factor of almost five.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN026"
+          },
+          "column": "casualties_text",
+          "quote": "1,600 total (US 700; CS 900)"
+        },
+        {
+          "source_id": "nps-tn026-v1",
+          "locator": "Estimated Casualties",
+          "quote": "337 total (US 115; CS 222;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Shackelford's, Foster's and Kershaw's reports and the returns remain deferred.",
+    "NPS/CWSAC is one family. Burnside's, Parke's and Longstreet's reports, printed in Official Records Series I, Volume XXXI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Burnside's full report was written in November 1865 and Longstreet's in January 1864. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
