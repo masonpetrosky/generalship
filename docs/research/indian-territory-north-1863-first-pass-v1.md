@@ -2,12 +2,13 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). The one
 **frozen record** in **Occupation of Indian Territory North of the Arkansas River [October 1863]**
-now has a draft dossier: **9 claims, 1 explicit null unknown and 56 citation occurrences**. All
-seven dimensions are represented. The dossier remains a draft; no features are admitted.
+now has a draft dossier: **9 claims, 1 explicit null unknown and 59 citation occurrences** (56
+before the review correction below). All seven dimensions are represented. The dossier remains a
+draft; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| KS002 — Baxter Springs | 1863-10-06 | 9 | 1 | 56 | 3 |
+| KS002 — Baxter Springs | 1863-10-06 | 9 | 1 | 59 | 3 |
 
 It changes no other dossier. Dossier presence is not first-pass acceptance, separate review or
 model eligibility.
@@ -80,8 +81,37 @@ baseline is changed.
 
 `python3 -m generalship check` passes, and `python3 -m unittest discover -s tests` passes.
 Every quote occurs in its cited section; the builder's miss list is empty.
+After the review correction, both pass again (134 tests) in the main repository, and the
+builder's miss list is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass. Coverage, separate review and feature
-admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the eight
+Trans-Mississippi 1863–64 first passes together at prepared commit `29c2811` as
+`tm1863-review-29c2811-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": four
+required findings (R1 to R4) and twelve advisories (A1 to A12) across the eight passes. It is an
+AI review within its stated scope, not human historical adjudication, proof of source independence
+or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder.
+
+KS002 is revised under `indian-territory-north-1863-review-correction-2026-09-25` and supersedes the
+byte-for-byte archive at `data/evidence/history/KS002.v1.json`.
+
+- **R4(a)** (KS002 `casualty-records`): Britton's statements that the fourteen bandsmen, the driver
+  and O'Neal were murdered, and that Henning and Tough returned to the prairie and Blunt followed the
+  raiders after the fight, are now cited within the claim (p.220, p.221 and p.224 citations added;
+  the value is unchanged).
+
+Advisories:
+
+- **Kept as is:** A11 (Pond's report, read in full and not cited, stays recorded in the open
+  questions as the first target if the record is revisited).
+
+The review correction adds no source records for this campaign. Citations rise from 56 to 59; claims
+(9), unknowns (1) and disputed claims are unchanged. No model input, cohort file, admission proposal
+or baseline is changed.

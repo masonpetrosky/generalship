@@ -1,13 +1,13 @@
 # Operations in the Indian Territory, February 1864: bounded first pass
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). The one
-**frozen record** in **Operations in the Indian Territory [February 1864]** now has a draft
-dossier: **9 claims, 2 explicit null unknowns and 35 citation occurrences**. All seven dimensions
-are represented. The dossier remains a draft; no features are admitted.
+**frozen record** in **Operations in the Indian Territory [February 1864]** now has a draft dossier:
+**9 claims, 2 explicit null unknowns and 40 citation occurrences** (35 before the review correction
+below). All seven dimensions are represented. The dossier remains a draft; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| OK005 — Middle Boggy Depot | 1864-02-13 | 9 | 2 | 35 | 3 |
+| OK005 — Middle Boggy Depot | 1864-02-13 | 9 | 2 | 40 | 3 |
 
 It changes no other dossier. Dossier presence is not first-pass acceptance, separate review or
 model eligibility.
@@ -46,9 +46,12 @@ Phillips selections.
   the march to near Fort Arbuckle and the return) is context. The live Red River Campaign label and
   March–April dates are not adopted.
 - **Opening strengths remain unknown.** The frozen bounds are blank and the live Forces Engaged
-  field is blank. Figures recorded and not adopted: Britton's about one thousand for Phillips's
-  whole command on February 1 and Phillips's 450 mounted men and one howitzer taken farthest
-  south. Neither counts Willette's advance at Middle Boggy; no Confederate figure was inspected.
+  field reads 0 total with blank side figures. Figures recorded and not adopted: Britton's about one
+  thousand for Phillips's whole command on February 1 and Phillips's 450 mounted men and one
+  howitzer taken farthest south. Neither is a count of Willette's advance engaged at Middle Boggy:
+  Britton's thousand includes Willetts's battalion of the Fourteenth Kansas, while Phillips's
+  February 24 report says the Fourteenth Kansas "was not sent", which the inspected passages do not
+  reconcile. No Confederate figure was inspected.
 - **Terrain is an explicit unknown.** No inspected passage describes the ground at Middle Boggy;
   the heavy roads and rain are expedition-wide.
 - **Disputes preserved.**
@@ -62,6 +65,8 @@ Phillips selections.
   - The frozen commanders are Lieutenant Colonel John Jumper and Major Charles Willette; the reports
     spell the Union major "Willetts". Phillips's relayed report says the attack was made by his
     advance under Willetts; his letter to Jumper refers to Jumper's defeat in the late engagement.
+    The frozen description names the expedition's commander "Col. John F. Phillips"; the inspected
+    reports are headed Col. William A. Phillips.
   - No listed commander receives automatic sole credit.
 - **Tags.** All claims stay `unresolved` or `post_outcome`.
 
@@ -73,8 +78,37 @@ admission proposal or baseline is changed.
 
 `python3 -m generalship check` passes, and `python3 -m unittest discover -s tests` passes.
 Every quote occurs in its cited section; the builder's miss list is empty.
+After the review correction, both pass again (134 tests) in the main repository, and the
+builder's miss list is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass. Coverage, separate review and feature
-admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the eight
+Trans-Mississippi 1863–64 first passes together at prepared commit `29c2811` as
+`tm1863-review-29c2811-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": four
+required findings (R1 to R4) and twelve advisories (A1 to A12) across the eight passes. It is an
+AI review within its stated scope, not human historical adjudication, proof of source independence
+or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder.
+
+OK005 is revised under `indian-territory-1864-review-correction-2026-09-25` and supersedes the
+byte-for-byte archive at `data/evidence/history/OK005.v1.json`. No required finding concerned this
+campaign.
+
+Advisories:
+
+- **Adopted:** A5 (OK005: the live Forces field is recorded as "0 total (US ; CS ;)", not blank;
+  Phillips's "The Fourteenth Kansas ... was not sent" is recorded against the Fourteenth Kansas
+  battalion under Willetts named by Britton and the itinerary, unreconciled; the frozen
+  description's "Col. John F. Phillips" is recorded against the reports' heading "Col. William A.
+  Phillips" as a name discrepancy in the frozen text; five citations added; this memo's ambiguous
+  "Neither counts Willette's advance" is reworded).
+
+The review correction adds no source records for this campaign. Citations rise from 35 to 40; claims
+(9), unknowns (2) and disputed claims are unchanged. No model input, cohort file, admission proposal
+or baseline is changed.

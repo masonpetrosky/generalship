@@ -1,14 +1,15 @@
 # Marmaduke's Second Expedition into Missouri: bounded first pass
 
-Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both
-**frozen records** in **Marmaduke's Second Expedition into Missouri [April-May 1863]** now have
-draft dossiers: **18 claims, 2 explicit null unknowns and 84 citation occurrences**. All seven
-dimensions are represented in each record. Both dossiers remain drafts; no features are admitted.
+Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both **frozen
+records** in **Marmaduke's Second Expedition into Missouri [April-May 1863]** now have draft
+dossiers: **18 claims, 2 explicit null unknowns and 86 citation occurrences** (84 before the review
+correction below). All seven dimensions are represented in each record. Both dossiers remain drafts;
+no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
 | MO020 — Cape Girardeau | 1863-04-26 | 9 | 1 | 43 | 3 |
-| AR007 — Chalk Bluff | 1863-05-01 to 05-02 | 9 | 1 | 41 | 3 |
+| AR007 — Chalk Bluff | 1863-05-01 to 05-02 | 9 | 1 | 43 | 3 |
 
 It changes no dossier outside MO020 and AR007. Dossier presence is not first-pass acceptance,
 separate review or model eligibility.
@@ -62,7 +63,7 @@ with his January 1863 and Pine Bluff selections.
   not adopted:
   - McNeil's 8,000 for the attackers; Marmaduke's own 5,000 with ten guns, of whom 1,200 were
     unarmed and 900 dismounted, his estimate of McNeil's 2,000 at Bloomfield and of 3,000 in the
-    Cape Girardeau works; NPS's 2,000 for McNeil.
+    Cape Girardeau works; NPS's 2,000, apparently for McNeil.
   - Chalk Bluff: Vandever's 7,000 or 8,000 for the enemy; Marmaduke's effective 3,500 against an
     estimated 8,000 with fifteen guns.
 - **Disputes preserved.**
@@ -76,7 +77,7 @@ with his January 1863 and Pine Bluff selections.
     campaign contribution.
   - Chalk Bluff losses: the frozen Unknown and live zero; Vandever's "will not exceed 50" (scope
     possibly the whole pursuit), one officer killed by a Union shell, and 19 enemy dead after one
-    charge.
+    charge (place unstated).
 - **Command roles and ranks.**
   - The live pages list Marmaduke and Vandever without ranks. NPS calls Shelby "John S. Shelby".
   - Vandever says he gave McNeil the advance throughout the pursuit; Marmaduke says he ordered
@@ -92,8 +93,37 @@ proposal or baseline is changed.
 
 `python3 -m generalship check` passes, and `python3 -m unittest discover -s tests` passes.
 Every quote occurs in its cited section; the builder's miss list is empty.
+After the review correction, both pass again (134 tests) in the main repository, and the
+builder's miss list is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass. Coverage, separate review and feature
-admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the eight
+Trans-Mississippi 1863–64 first passes together at prepared commit `29c2811` as
+`tm1863-review-29c2811-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": four
+required findings (R1 to R4) and twelve advisories (A1 to A12) across the eight passes. It is an
+AI review within its stated scope, not human historical adjudication, proof of source independence
+or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder.
+
+MO020 and AR007 are revised under `marmaduke-1863-second-review-correction-2026-09-25` and supersede
+byte-for-byte archives at `data/evidence/history/<ID>.v1.json`.
+
+- **R3** (AR007 `casualty-records`): Vandever's May 4 dispatch does not say where Glover's charge
+  left 19 enemy dead, and calls the Chalk Bluff engagement of the 2d "also" disastrous. The value
+  now gives the place as unnamed and the rationale says the figure may belong to the earlier
+  pursuit; two p.278 citations are added.
+
+Advisories:
+
+- **Adopted:** A6 (MO020: NPS "appears to" give McNeil's combined force as about 2,000, since its
+  "his" does not name the antecedent; the live US 2000 is noted).
+
+The review correction adds no source records for this campaign. Citations rise from 84 to 86; claims
+(18), unknowns (2) and disputed claims are unchanged. No model input, cohort file, admission
+proposal or baseline is changed.

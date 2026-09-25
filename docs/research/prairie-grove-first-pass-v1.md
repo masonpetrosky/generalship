@@ -1,14 +1,15 @@
 # Prairie Grove Campaign: bounded first pass
 
-Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both
-**frozen records** in **Prairie Grove Campaign [November 1862]** now have draft dossiers:
-**18 claims, 2 explicit null unknowns and 113 citation occurrences**. All seven dimensions are
-represented in each record. Both dossiers remain drafts; no features are admitted.
+Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both **frozen
+records** in **Prairie Grove Campaign [November 1862]** now have draft dossiers: **18 claims, 2
+explicit null unknowns and 119 citation occurrences** (113 before the review correction below). All
+seven dimensions are represented in each record. Both dossiers remain drafts; no features are
+admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| AR004 — Cane Hill (Boston Mountains) | 1862-11-28 | 9 | 1 | 52 | 3 |
-| AR005 — Prairie Grove (Fayetteville) | 1862-12-07 | 9 | 1 | 61 | 3 |
+| AR004 — Cane Hill (Boston Mountains) | 1862-11-28 | 9 | 1 | 54 | 3 |
+| AR005 — Prairie Grove (Fayetteville) | 1862-12-07 | 9 | 1 | 65 | 3 |
 
 This pass was drafted alongside seven other Trans-Mississippi campaigns of 1863–1864
 (Marmaduke's two Missouri expeditions, the three Indian Territory groups, Quantrill's raid and
@@ -21,19 +22,19 @@ model eligibility.
 Read both frozen battle, force and commander row sets and both retained NPS pages in full.
 NPS/CWSAC and the Arnold tables are one family. Each record uses two further families:
 
-- **Britton, *The Civil War on the Border*, volume I** (Putnam's, second edition, revised,
-  1891; Brigham Young University scan `civilwaronborder00brit`). No Scribner "Campaigns of the
-  Civil War" volume covers these actions; Britton is the comparable 19th-century history. The
-  title page says the work is based upon the official reports of named Federal and Confederate
-  commanders (Blunt, Herron, Hindman, Marmaduke and Shelby among them); the preface says he
-  served with the Federal army there and almost invariably took the official reports as his
-  guide for numbers and casualties. It is therefore not independent of the report families and
-  is treated as partly a participant's interested Union account. Selected: the title page and
-  preface; Chapter XXIX, Action at Cane Hill (OCR pp.385–395); Chapter XXX, Battle of Prairie
-  Grove (pp.396–429). The volume's parent OCR and catalog metadata are registered under the
-  same IDs, path and bytes as the parallel Trans-Mississippi 1862 pass
-  (`britton-civil-war-border-1-ocr-v1`, `ia-britton-civil-war-border-1-metadata-v1`); the two
-  registrations are one record to deduplicate.
+- **Britton, *The Civil War on the Border*, volume I** (Putnam's, second edition, revised, 1891;
+  Brigham Young University scan `civilwaronborder00brit`). No Scribner "Campaigns of the Civil War"
+  volume covers these actions; Britton is the comparable 19th-century history. The title page says
+  the work is based upon the official reports of named Federal and Confederate commanders (Blunt,
+  Herron, Hindman, Marmaduke and Shelby among them); the preface says he served with the Federal
+  army there and almost invariably took the official reports as his guide for numbers and
+  casualties. It is therefore not independent of the report families and is treated as partly a
+  participant's interested Union account. Selected: the title page and preface; Chapter XXIX, Action
+  at Cane Hill (OCR pp.385–395); Chapter XXX, Battle of Prairie Grove (pp.396–429). The volume's
+  parent is the registered `britton-border-1-ocr-v1` (catalog `ia-britton-border-1-metadata-v1`).
+  This pass drafted byte-identical copies as `britton-civil-war-border-1-ocr-v1` and
+  `ia-britton-civil-war-border-1-metadata-v1`; they were deduplicated to the registered records at
+  merge (see `docs/sources.md`).
 - **Shelby's** December 1, 1862 report on Cane Hill (*Official Records* Series I, Volume XXII,
   Part 1, No. 9, pp.55–58), for AR004.
 - **Hindman's** December 9, 1862 dispatch and December 25, 1862 report (No. 36, pp.138–146),
@@ -61,10 +62,13 @@ follow-up was used. Stop after this batch.
 Britton, who relays his figures; his own reports (Nos. 1–2 for Cane Hill, No. 2 for Prairie
 Grove) were located and not read. Herron's report (No. 13) was also not read.
 
-**New source records.** This pass adds **9 records**: two NPS HTML/text pairs; the Britton
-volume I catalog metadata, full OCR and selection; the Shelby selection; and the Hindman
-selection. Britton volume I is placed in the author's existing group, `britton-civil-war-border-1899`;
-Shelby has a new group; Hindman's selection is placed in his existing group,
+**New source records.** This pass adds **7 records** (9 as drafted, before the merge deduplication
+of the Britton volume I catalog and OCR records): two NPS HTML/text pairs; the Britton volume I
+selection; the Shelby selection; and the Hindman selection. The Britton volume I selection is in
+`britton-civil-war-border-1899`, while its parent is in `britton-civil-war-border`;
+`docs/sources.md` (review W61-R14) records `britton-civil-war-border`,
+`britton-civil-war-border-1899` and `britton-civil-war-on-border-1899` as one Britton witness
+family; Shelby has a new group; Hindman's selection is placed in his existing group,
 `hindman-mclemores-cove-reports`, per the one-group-per-author rule.
 
 ## Decisions and limits
@@ -79,10 +83,10 @@ Shelby has a new group; Hindman's selection is placed in his existing group,
     thousand men with thirty guns for Blunt's march on the 27th; Shelby's brigade list and his
     "at least twelve guns" on his position. Britton names three Confederate brigades against the
     frozen two.
-  - Prairie Grove: Hindman's 9,000 infantry, 2,000 cavalry and 22 guns on December 3; his
-    estimates of Blunt (7,000–8,000, then 3,000–4,000 more) and Herron (4,000–6,000 infantry,
-    2,000 cavalry, 30 guns); his "less than 10,000" left for the fight; Britton's "upwards of
-    twenty thousand" (Blunt's information), twenty and twenty-two guns, Blunt's three thousand
+  - Prairie Grove: Hindman's 9,000 infantry, 2,000 cavalry and 22 guns on December 3; his estimates
+    of Blunt (7,000–8,000, then 3,000–4,000 more) and Herron (4,000–6,000 infantry, 2,000 cavalry,
+    30 guns); his "less than 10,000" left for the fight; Britton's "upwards of twenty thousand"
+    (Blunt's information), twenty (eighteen elsewhere) and twenty-two guns, Blunt's three thousand
     cavalry on arrival and three thousand not brought into action.
 - **Disputes preserved.**
   - Cane Hill result: the frozen and live Confederate tactical victory against Britton's account
@@ -112,8 +116,42 @@ proposal or baseline is changed.
 
 `python3 -m generalship check` passes, and `python3 -m unittest discover -s tests` passes.
 Every quote occurs in its cited section; the builder's miss list is empty.
+After the review correction, both pass again (134 tests) in the main repository, and the
+builder's miss list is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass. Coverage, separate review and feature
-admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the eight
+Trans-Mississippi 1863–64 first passes together at prepared commit `29c2811` as
+`tm1863-review-29c2811-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": four
+required findings (R1 to R4) and twelve advisories (A1 to A12) across the eight passes. It is an
+AI review within its stated scope, not human historical adjudication, proof of source independence
+or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder.
+
+AR004 and AR005 are revised under `prairie-grove-review-correction-2026-09-25` and supersede
+byte-for-byte archives at `data/evidence/history/<ID>.v1.json`.
+
+- **R4(b)** (AR005 `command-roles`): Britton's statements that Herron decided to attack and that
+  Blunt arrived on the Union right in the afternoon are now cited within the claim (three p.409 and
+  p.418 citations added; the value is unchanged).
+- **R4(c)** (AR004 `command-roles`): Britton's account of Jewell offering to lead the charge and
+  falling mortally wounded is now cited within the claim (p.392 and p.393 citations added).
+
+Advisories:
+
+- **Adopted:** A1 (this memo: the Britton volume I parent is named as the registered
+  `britton-border-1-ocr-v1`, and the pass adds 7 records, not 9; the stale merge clause in the two
+  immutable v1 Britton volume I selection records is left in place and documented in
+  `docs/sources.md`, so no metadata-only successor is registered); A2 (this memo states the group
+  split and the `docs/sources.md` one-family note); A7 (AR005: Britton's Herron guns are given as
+  twenty being brought up on p.409 and eighteen on p.420, with the p.420 passage cited).
+
+The review correction adds no source records for this campaign. Citations rise from 113 to 119;
+claims (18), unknowns (2) and disputed claims are unchanged. No model input, cohort file, admission
+proposal or baseline is changed.

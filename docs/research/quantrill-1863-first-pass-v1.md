@@ -75,8 +75,27 @@ baseline is changed.
 
 `python3 -m generalship check` passes, and `python3 -m unittest discover -s tests` passes.
 Every quote occurs in its cited section; the builder's miss list is empty.
+After the review correction, both pass again (134 tests) in the main repository, and the
+builder's miss list is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass. Coverage, separate review and feature
-admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the eight
+Trans-Mississippi 1863–64 first passes together at prepared commit `29c2811` as
+`tm1863-review-29c2811-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": four
+required findings (R1 to R4) and twelve advisories (A1 to A12) across the eight passes. It is an
+AI review within its stated scope, not human historical adjudication, proof of source independence
+or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder.
+
+No finding required a change to KS001, and the dossier is unchanged. The review answers that the
+Lawrence killings are recorded as reported and kept out of ordinary combat casualties.
+
+The review correction adds no source records for this campaign. Claims (9), unknowns (1) and
+citations (47) are unchanged. No model input, cohort file, admission proposal or baseline is
+changed.

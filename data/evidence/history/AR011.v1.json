@@ -89,7 +89,7 @@
       "id": "cotton-bale-square",
       "dimension": "terrain",
       "value": "Clayton says that within half an hour he had barricaded every street into the court square with cotton bales, planted his guns to command each street and posted sharpshooters in the buildings on the square; Talbot says a further breastwork was built under the river bank. Marmaduke says he held the whole town except the court-house and yard, fortified by heavy cotton-bale breastworks.",
-      "rationale": "Works described by interested reports. They were improvised on the morning of the attack on Clayton's order, hence the commander-created tag; this is a hypothesis about timing and agency, not a causal estimate. The agency evidence is Clayton's report and Talbot's inclosure to it, one report family.",
+      "rationale": "Works described by interested reports. They were improvised on the morning of the attack on Clayton's order, hence the commander-created tag; this is a hypothesis about timing and agency, not a causal estimate.",
       "citations": [
         {
           "source_id": "or22-1-clayton-pine-bluff-selections-v1",
@@ -122,7 +122,7 @@
     {
       "id": "water-mules-and-property",
       "dimension": "logistics",
-      "value": "Clayton says about 200 freedmen carried water from the river to fill barrels so he could hold out two days if cut off, that 62 mules were lost when cut loose from the burning sheds, and that a warehouse with over 200 bales of cotton was burned. Marmaduke says he took about 250 mules and horses and about 300 Black men, women and children, adding that he could not bring away the women and children, and destroyed blankets and stores and 600 or 1,000 bales of cotton.",
+      "value": "Clayton says about 200 freedmen carried water from the river to fill barrels so he could hold out two days if cut off, that 62 mules were lost when cut loose from the burning sheds, and that a warehouse with over 200 bales of cotton was burned. Marmaduke says he took about 250 mules and horses and about 300 Black men, women and children, destroyed blankets and stores and 600 or 1,000 bales of cotton.",
       "rationale": "Interested reports; no quartermaster return inspected. People taken from the town are recorded as reported.",
       "citations": [
         {
@@ -148,12 +148,6 @@
           "section": "marmaduke-1863-10-26",
           "locator": "p.730 (OCR page markers; not checked against print)",
           "quote": "I have captured about 250 mules and horses, about 300 negroes (men, women, and children)."
-        },
-        {
-          "source_id": "or22-1-marmaduke-pine-bluff-selections-v1",
-          "section": "marmaduke-1863-10-26",
-          "locator": "p.730 (OCR page markers; not checked against print)",
-          "quote": "The women and children I could not bring away."
         },
         {
           "source_id": "or22-1-marmaduke-pine-bluff-selections-v1",
@@ -329,7 +323,7 @@
       "id": "casualty-records",
       "dimension": "outcome",
       "value": "The frozen casualty text reads Total unknown (US 56; CS unknown); the live field reads 96 (US 56; CS 40). Clayton gives 11 killed, 27 wounded and 1 missing, plus 5 freedmen killed and 12 wounded (Talbot gives the same 5 and 12); these printed components sum to 56. He estimates the enemy's killed and wounded at about 130, probably 150, holds 33 prisoners, 15 of them wounded, and says Marmaduke burned some of his own wounded to death in the fires. Marmaduke gives his own loss as about 40 killed and wounded. The compiled Union return is garbled in OCR.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Whether the frozen US 56 includes the freedmen is not established; the freedmen are recorded, not merged with military casualties. The garbled compiled Union return has a legible row label 'Freedman 5' and a total line read as '16 39 1', which matches Clayton's killed, wounded and missing with the freedmen added (11 + 5, 27 + 12 and 1; a computation). This suggests that the compiled return counts the freedmen, but its columns cannot be confirmed in the OCR; it is not a resolution.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Whether the frozen US 56 includes the freedmen is not established; the freedmen are recorded, not merged with military casualties.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -385,12 +379,6 @@
           "section": "us-casualty-return",
           "locator": "p.725 (OCR page markers; not checked against print)",
           "quote": "Return of Casualties in the Union forces engaged at Pine Bluff, Ark., October 25, 1863."
-        },
-        {
-          "source_id": "or22-1-clayton-pine-bluff-selections-v1",
-          "section": "us-casualty-return",
-          "locator": "p.725 (OCR page markers; not checked against print)",
-          "quote": "Freedman 5 Total 16 39 1"
         }
       ],
       "phase": "post_outcome",
@@ -401,10 +389,5 @@
     "Steele's transmittal (No. 1, read at its opening), Pace's, Scudder's and Clark's reports (Nos. 3-5), Caldwell's pursuit report (No. 6) and the Confederate brigade and division reports (Nos. 8-16) remain deferred.",
     "NPS/CWSAC is one family. Davidson's September 12, 1863 report and Price's November 20, 1863 report with his November 25 letter are separate author families for Bayou Fourche; Clayton's October 27, 1863 report and Marmaduke's October 26 report are separate author families for Pine Bluff. All are interested participant accounts. Talbot's inclosure and the compiled casualty returns (garbled in OCR) are not counted as further families. No retrospective history covering these actions was inspected; the first-pass effort stayed with NPS/CWSAC and two report families per record. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "little-rock-1863-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/AR011.v1.json",
-    "sha256": "8614454df080a8d20eb6ac8407e1410e22c83058326e30741ddc72181fbdd197"
-  }
+  ]
 }

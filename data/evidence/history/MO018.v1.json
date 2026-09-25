@@ -18,8 +18,8 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force field reads Southwestern District of Missouri Troops (2,000) [US], and the frozen US bound is 2,000; the live field reads 2000 (US 2000; CS 0). Britton says Brown reported Marmaduke with five thousand men and a battery, that Burch's prisoners gave five or six thousand, that the garrison had been reduced to perhaps less than one thousand effective men, that about four hundred stragglers and convalescents were armed, and lists Brown's units with their numbers; nearly two hundred citizens also fought. Marmaduke's January 18 dispatch says he marched from Lewisburg on December 31, 1862 with 1,000 men under Shelby and 270 under MacDonald, and his February 1 report gives the same columns on leaving Lewisburg as about 1,000 effective men, some without horses, and about 270 effective men; he puts the Federal force at Springfield at 4,200.",
-      "rationale": "Intelligence estimates, a garrison figure before reinforcement, unit counts from a history and an interested claim of enemy strength. The frozen 2,000 has no inspected basis, and Britton's unit counts are not summed here. Marmaduke's 1,000 and 270 are departure strengths at Lewisburg on December 31, not a count of the force engaged on January 8. None is adopted as a matched opening strength. The live CS zero is not measured absence.",
+      "value": "The frozen force field reads Southwestern District of Missouri Troops (2,000) [US], and the frozen US bound is 2,000; the live field reads 2000 (US 2000; CS 0). Britton says Brown reported Marmaduke with five thousand men and a battery, that Burch's prisoners gave five or six thousand, that the garrison had been reduced to perhaps less than one thousand effective men, that about four hundred stragglers and convalescents were armed, and lists Brown's units with their numbers; nearly two hundred citizens also fought. Marmaduke says he struck with about 1,000 men under Shelby and 270 under MacDonald, and that the Federal force was 4,200.",
+      "rationale": "Intelligence estimates, a garrison figure before reinforcement, unit counts from a history and an interested claim of enemy strength. The frozen 2,000 has no inspected basis, and Britton's unit counts are not summed here. None is adopted as a matched opening strength. The live CS zero is not measured absence.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -82,26 +82,8 @@
         {
           "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
           "section": "marmaduke-1863-01-18",
-          "locator": "p.194 (OCR page markers; not checked against print)",
-          "quote": "I marched from Lewisburg, Ark., December 31, 1862,"
-        },
-        {
-          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
-          "section": "marmaduke-1863-01-18",
           "locator": "p.195 (OCR page markers; not checked against print)",
           "quote": "with 1,000 men, under Shelby, and 270 men, under MacDonald."
-        },
-        {
-          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
-          "section": "marmaduke-1863-02-01",
-          "locator": "p.196 (OCR page markers; not checked against print)",
-          "quote": "with his Missouri brigade, about 1,000 effective men, some wi thout horses"
-        },
-        {
-          "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
-          "section": "marmaduke-1863-02-01",
-          "locator": "p.196 (OCR page markers; not checked against print)",
-          "quote": "about 270 effective men, marched from camp near Lewisburg,"
         },
         {
           "source_id": "or22-1-marmaduke-springfield-hartville-selections-v1",
@@ -383,7 +365,7 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 403 total (US 163; CS 240), as does the live field. Britton gives the Federal loss as 14 killed, 146 wounded and 4 missing, Marmaduke's reported loss as 20 killed and 124 wounded, and Crabb's report of 60 to 80 Confederate wounded left on the field. Marmaduke's January 18 dispatch gives 20 killed and 80 wounded; his February 1 report gives 33 killed, 203 wounded and 29 missing for the whole expedition. The No. 9 return, whose heading reads 'January 2-11, 1862' (the expedition was in 1863), is garbled in OCR.",
+      "value": "The frozen casualty text reads 403 total (US 163; CS 240), as does the live field. Britton gives the Federal loss as 14 killed, 146 wounded and 4 missing, Marmaduke's reported loss as 20 killed and 124 wounded, and Crabb's report of 60 to 80 Confederate wounded left on the field. Marmaduke's January 18 dispatch gives 20 killed and 80 wounded; his February 1 report gives 33 killed, 203 wounded and 29 missing for the whole expedition. The No. 9 return for January 2-11 is garbled in OCR.",
       "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The expedition total covers Springfield, Hartville and the skirmishes and is not assigned to this record.",
       "citations": [
         {
@@ -444,10 +426,5 @@
     "Curtis's, Brown's, Holland's and Crabb's reports (Nos. 1-4), Shelby's and Bennett's reports (Nos. 10, 12) and a legible copy of the No. 9 return remain deferred.",
     "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume I (Putnam's, second edition, revised, 1891) is a retrospective history whose title page says it is based upon the official reports of named Federal and Confederate commanders; its preface says the author served with the Federal army in that section and almost invariably took the official reports as a guide for numbers and casualties. It is not independent of the Official Records families and is treated as partly a participant's interested Union account. Marmaduke's January 18 and February 1, 1863 reports are one author family of interested Confederate accounts; Holmes's printed indorsement and the compiled No. 9 casualty return (garbled in OCR) are not counted as further families. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "marmaduke-1863-first-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/MO018.v1.json",
-    "sha256": "21ec45adc1c1416ff630ba0d3c987392b3f9538812d3b5d32a9f2d35636a6668"
-  }
+  ]
 }

@@ -300,8 +300,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads Unknown; the live field reads zero. Vandever wrote on May 2 that his whole loss would not exceed 50, that Lieutenant Eaton was killed by the premature explosion of a Union shell, that many enemy dead and wounded lay along the road, and on May 4 that in one place, which he does not name, 19 enemy dead lay together after a charge by Glover's Third Missouri Cavalry, before calling the Chalk Bluff engagement of the 2d also disastrous to the enemy. NPS says the raiders suffered heavy casualties. Marmaduke's expedition total is recorded under Cape Girardeau and not assigned here.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Vandever's 50 may cover the whole pursuit; the live zero is not measured absence. Vandever does not place the charge that left 19 dead, and his 'also' distinguishes it from the May 2 engagement at Chalk Bluff, so the figure may belong to the earlier pursuit.",
+      "value": "The frozen casualty text reads Unknown; the live field reads zero. Vandever wrote on May 2 that his whole loss would not exceed 50, that Lieutenant Eaton was killed by the premature explosion of a Union shell, that many enemy dead and wounded lay along the road, and on May 4 that 19 enemy dead lay together after one charge. NPS says the raiders suffered heavy casualties. Marmaduke's expedition total is recorded under Cape Girardeau and not assigned here.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Vandever's 50 may cover the whole pursuit; the live zero is not measured absence.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -338,19 +338,7 @@
           "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
           "section": "vandever-1863-05-04-to-davidson",
           "locator": "p.278 (OCR page markers; not checked against print)",
-          "quote": "In one place, after a gallant charge made by Colonel Glover,: with the Third Missouri Volunteer Cavalry,"
-        },
-        {
-          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
-          "section": "vandever-1863-05-04-to-davidson",
-          "locator": "p.278 (OCR page markers; not checked against print)",
           "quote": "there were 19 of the ene-; my’s dead piled together."
-        },
-        {
-          "source_id": "or22-1-vandever-chalk-bluff-selections-v1",
-          "section": "vandever-1863-05-04-to-davidson",
-          "locator": "p.278 (OCR page markers; not checked against print)",
-          "quote": "The engagement at Chalk Blhff, on the morning of the 2d, was also disastrous to the enemy,"
         },
         {
           "source_id": "nps-ar007-v1",
@@ -366,10 +354,5 @@
     "McNeil's May 12 report on the pursuit (read and not selected; a fourth family for this record), Caldwell's and La Grange's reports (Nos. 5, 7), the Union addenda return (No. 1), the Confederate brigade reports (Nos. 14-19) and any map of the crossing remain deferred.",
     "NPS/CWSAC is one family. McNeil's April 26, 1863 dispatches from Cape Girardeau and Vandever's April 30-May 4 dispatches are separate author families of interested Union accounts; Marmaduke's May 20, 1863 report is one family of interested Confederate accounts, and Kirby Smith's printed indorsement and the compiled addenda return (garbled in OCR) are not counted as further families. Official Records Series I, Volume XXII, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "marmaduke-1863-second-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/AR007.v1.json",
-    "sha256": "60880b47ebd80b8c204fd592452f646e54efe8920e5db2dc33a58c5a1cbc5c89"
-  }
+  ]
 }

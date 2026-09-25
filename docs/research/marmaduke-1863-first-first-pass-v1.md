@@ -1,13 +1,14 @@
 # Marmaduke's First Expedition into Missouri: bounded first pass
 
-Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both
-**frozen records** in **Marmaduke's First Expedition into Missouri [January 1863]** now have
-draft dossiers: **18 claims, 2 explicit null unknowns and 104 citation occurrences**. All seven
-dimensions are represented in each record. Both dossiers remain drafts; no features are admitted.
+Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both **frozen
+records** in **Marmaduke's First Expedition into Missouri [January 1863]** now have draft dossiers:
+**18 claims, 2 explicit null unknowns and 107 citation occurrences** (104 before the review
+correction below). All seven dimensions are represented in each record. Both dossiers remain drafts;
+no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| MO018 — Springfield | 1863-01-08 | 9 | 1 | 53 | 3 |
+| MO018 — Springfield | 1863-01-08 | 9 | 1 | 56 | 3 |
 | MO019 — Hartville | 1863-01-09 to 01-11 | 9 | 1 | 51 | 3 |
 
 Drafted with the Prairie Grove pass ([memo](prairie-grove-first-pass-v1.md)), whose Britton
@@ -53,9 +54,9 @@ April–May expedition and Pine Bluff).
   recorded and not adopted:
   - Springfield: Britton's five thousand (Brown's report of Marmaduke), five or six thousand
     (Burch's prisoners), a garrison of perhaps less than one thousand effective men before
-    reinforcement, about four hundred armed convalescents and nearly two hundred citizens, and
-    his unit-by-unit counts (not summed); Marmaduke's 1,000 under Shelby and 270 under
-    MacDonald, and his claim that the Federals had 4,200.
+    reinforcement, about four hundred armed convalescents and nearly two hundred citizens, and his
+    unit-by-unit counts (not summed); Marmaduke's 1,000 under Shelby and 270 under MacDonald on
+    leaving Lewisburg, December 31, and his claim that the Federals had 4,200.
   - Hartville: Britton's about eight hundred plus one hundred and eighty cavalry for Merrill,
     the prisoners' five thousand for Marmaduke, eight hundred muskets and Dunlap's two hundred
     and fifty; Marmaduke's 1,500 infantry and 500 cavalry (January 18) against 2,500 (February 1)
@@ -92,8 +93,44 @@ proposal or baseline is changed.
 
 `python3 -m generalship check` passes, and `python3 -m unittest discover -s tests` passes.
 Every quote occurs in its cited section; the builder's miss list is empty.
+After the review correction, both pass again (134 tests) in the main repository, and the
+builder's miss list is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass. Coverage, separate review and feature
-admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the eight
+Trans-Mississippi 1863–64 first passes together at prepared commit `29c2811` as
+`tm1863-review-29c2811-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": four
+required findings (R1 to R4) and twelve advisories (A1 to A12) across the eight passes. It is an
+AI review within its stated scope, not human historical adjudication, proof of source independence
+or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder.
+
+MO018 and MO019 are revised under `marmaduke-1863-first-review-correction-2026-09-25` and supersede
+byte-for-byte archives at `data/evidence/history/<ID>.v1.json`.
+
+- **R1** (MO018 `reported-force-scope`): Marmaduke's 1,000 under Shelby and 270 under MacDonald
+  were stated as the force that struck Springfield. His January 18 dispatch gives them as the
+  columns he marched with from Lewisburg on December 31, 1862, and his February 1 report as about
+  1,000 effective men, some without horses, and about 270 effective men on leaving Lewisburg. The
+  value and rationale now say so, with three citations added (p.194 and two on p.196).
+
+Advisories:
+
+- **Adopted:** A8 (MO019 rationale: Marmaduke's "General Merrill" is recorded as differing from
+  Britton's "Colonel Merrill" and the frozen rank, not as his rank error); A12 (MO018: the No. 9
+  return's heading "January 2-11, 1862" is quoted with its printed year); A1 (the Britton volume I
+  selection used here, `britton-border-1-marmaduke-1863-first-selections-v1`, binds to the
+  registered parent `britton-border-1-ocr-v1`; its v1 dependency note's merge clause is stale and
+  documented in `docs/sources.md`; no successor is registered); A2 (`docs/sources.md` (review
+  W61-R14) records `britton-civil-war-border`, `britton-civil-war-border-1899` and
+  `britton-civil-war-on-border-1899` as one Britton witness family).
+
+The review correction adds no source records for this campaign. Citations rise from 104 to 107;
+claims (18), unknowns (2) and disputed claims are unchanged. No model input, cohort file, admission
+proposal or baseline is changed.

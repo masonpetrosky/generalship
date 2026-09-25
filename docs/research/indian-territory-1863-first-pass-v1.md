@@ -1,15 +1,15 @@
 # Operations to Control Indian Territory, 1863: bounded first pass
 
-Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). All
-**three frozen records** in **Operations to Control Indian Territory [June-September 1863]** now
-have draft dossiers: **27 claims, 3 explicit null unknowns and 144 citation occurrences**. All
-seven dimensions are represented in each record. All dossiers remain drafts; no features are
-admitted.
+Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). All **three
+frozen records** in **Operations to Control Indian Territory [June-September 1863]** now have draft
+dossiers: **27 claims, 3 explicit null unknowns and 146 citation occurrences** (144 before the
+review correction below). All seven dimensions are represented in each record. All dossiers remain
+drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
 | OK006 — Cabin Creek | 1863-07-01 to 07-02 | 9 | 1 | 48 | 3 |
-| OK007 — Honey Springs (Elk Creek) | 1863-07-17 | 9 | 1 | 49 | 3 |
+| OK007 — Honey Springs (Elk Creek) | 1863-07-17 | 9 | 1 | 51 | 3 |
 | AR009 — Devil's Backbone (Backbone Mountain) | 1863-09-01 | 9 | 1 | 47 | 3 |
 
 It changes no dossier outside OK006, OK007 and AR009. Dossier presence is not first-pass
@@ -48,10 +48,12 @@ Union commander at Devil's Backbone, appear only through Britton; their reports 
 No. 1; Devil's Backbone Nos. 1–2) were located and read at most at their openings. No
 Confederate report on Cabin Creek was found in the report list.
 
-**New source records.** This pass adds **10 records**: three NPS HTML/text pairs, the Britton
-volume II selection and the Williams, Cooper and Cabell selections. Britton's selection stays in
-`britton-civil-war-border-1899`. James M. Williams has a new group, distinct from the John S.
-Williams group `williams-east-tennessee-reports`; the Cooper selection reuses by name the group
+**New source records.** This pass adds **10 records**: three NPS HTML/text pairs, the Britton volume
+II selection and the Williams, Cooper and Cabell selections. Britton's selection stays in
+`britton-civil-war-border-1899`; `docs/sources.md` (review W61-R14) records
+`britton-civil-war-border`, `britton-civil-war-border-1899` and `britton-civil-war-on-border-1899`
+as one Britton witness family. James M. Williams has a new group, distinct from the John S. Williams
+group `williams-east-tennessee-reports`; the Cooper selection reuses by name the group
 `cooper-indian-territory-1862-reports` that the parallel Trans-Mississippi 1862 pass gives the same
 author; Cabell has a new group.
 
@@ -107,8 +109,38 @@ proposal or baseline is changed.
 
 `python3 -m generalship check` passes, and `python3 -m unittest discover -s tests` passes.
 Every quote occurs in its cited section; the builder's miss list is empty.
+After the review correction, both pass again (134 tests) in the main repository, and the
+builder's miss list is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass. Coverage, separate review and feature
-admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the eight
+Trans-Mississippi 1863–64 first passes together at prepared commit `29c2811` as
+`tm1863-review-29c2811-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": four
+required findings (R1 to R4) and twelve advisories (A1 to A12) across the eight passes. It is an
+AI review within its stated scope, not human historical adjudication, proof of source independence
+or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder.
+
+OK006 and OK007 are revised under `indian-territory-1863-review-correction-2026-09-25` and supersede
+byte-for-byte archives at `data/evidence/history/<ID>.v1.json`. AR009 is unchanged.
+
+- **R2** (OK007 `reported-force-scope`): Cooper's "foe doubly superior in numbers" is what he
+  reports as a general feeling among his troops after their ammunition failed in the wet, not his
+  own comparison. The value and rationale now say so, with one p.460 citation added.
+- **R4(d)** (OK007 `crossing-intelligence`): Cooper's statement that spies who had enlisted in his
+  brigade reached Gibson is now cited (one p.458 citation added; the value is unchanged).
+
+Advisories:
+
+- **Adopted:** A9 (OK006: Britton's hedge "seems to have made very little effort" is kept); A2
+  (this memo refers to the `docs/sources.md` one-family note for the Britton group names).
+
+The review correction adds no source records for this campaign. Citations rise from 144 to 146;
+claims (27), unknowns (3) and disputed claims are unchanged. No model input, cohort file, admission
+proposal or baseline is changed.
