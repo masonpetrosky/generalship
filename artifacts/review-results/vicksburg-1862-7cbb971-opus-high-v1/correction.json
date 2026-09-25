@@ -1,0 +1,63 @@
+{
+  "review_sha256": "b94033b16aabec7cbb0cac9a3dd8030fee637713b322e0106d86189e5fb7c858",
+  "prepared_commit": "7cbb97100ca5db247610b8e198b58f44fd5f5be4",
+  "findings": [
+    {
+      "finding_id": "VB-R1",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; both unknown-strength rationales now state the blank frozen bounds (missing_numeric_strength) and that the live NPS zeros are not measured absence."
+    },
+    {
+      "finding_id": "VB-R2",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted with the optional citation; Churchill named as the frozen Confederate commander and the live heading's omission of McClernand recorded."
+    },
+    {
+      "finding_id": "VB-R3",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; only the Confederate 187 is dated, with the p.79 quote added."
+    },
+    {
+      "finding_id": "VB-R4",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted with the optional widened quote; the letter does not name the capturing force, and 'that enemy on our rear and flank' is cited."
+    },
+    {
+      "finding_id": "VB-R5",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; Thompson's Lake is the obstacle and the causeway its only crossing, with two p.77 quotes added."
+    },
+    {
+      "finding_id": "VB-R6",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; the high-water qualifier is restored and the five crossings cited (pp.75–76)."
+    }
+  ],
+  "dossiers": {
+    "MS003": {
+      "dossier_path": "data/evidence/MS003.json",
+      "archived_dossier_path": "data/evidence/history/MS003.v1.json",
+      "archived_dossier_sha256": "b1365a882ad75c992f3a3a6d858d8998445a2df6ba789858a2cc6a90be3c7c1d",
+      "corrected_dossier_sha256": "b4240ff40ea6d7e65b15e19cefc1d681247ae2421928e32987263bc4021b14a6",
+      "changed_claims": [
+        "opening-personnel-unknown",
+        "bluff-and-bottomland",
+        "single-pontoon-and-causeway",
+        "casualty-records"
+      ]
+    },
+    "AR006": {
+      "dossier_path": "data/evidence/AR006.json",
+      "archived_dossier_path": "data/evidence/history/AR006.v1.json",
+      "archived_dossier_sha256": "30c02e4546447a535660566a2fcb59c3bb45d41404b986b60d8f367d8f45b94b",
+      "corrected_dossier_sha256": "e59355a9e9580fec092a19bd51e23fc27fe81ab5e7af730131ae1d6948b563f6",
+      "changed_claims": [
+        "opening-personnel-unknown",
+        "intelligence-prompting-expedition",
+        "combined-command"
+      ]
+    }
+  },
+  "notes": "Notes VB-N1 to VB-N5 are not applied. The VB-R1 template wording in earlier dossiers with blank frozen bounds is propagated separately. Citations rise from 62 to 69; claims and unknowns are unchanged.",
+  "independent_followup_review": false
+}

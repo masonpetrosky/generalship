@@ -127,7 +127,8 @@ The [Forrest West Tennessee pass](docs/research/forrest-west-tennessee-first-pas
 two dossiers, 18 claims, 2 explicit unknowns and 72 citations. Opus 5.5 `high` reviewed them;
 its three required corrections are fixed and verified by the primary.
 The [Vicksburg 1862–63 pass](docs/research/vicksburg-1862-first-pass-v1.md) adds two
-dossiers, 19 claims, 2 explicit unknowns and 62 citations. Separate review is pending.
+dossiers, 19 claims, 2 explicit unknowns and 69 citations. Opus 5.5 `high` reviewed them;
+its six required corrections are fixed and verified by the primary.
 The [Middle Tennessee pass](docs/research/middle-tennessee-first-pass-v1.md) adds five
 dossiers, 46 claims, 7 explicit unknowns and 135 citations. Separate review is pending.
 Next: **the four-record Longstreet's Tidewater Operations**. See the

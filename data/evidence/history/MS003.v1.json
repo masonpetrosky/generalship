@@ -10,7 +10,7 @@
       "id": "opening-personnel-unknown",
       "dimension": "strength",
       "value": null,
-      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength), and the live NPS zeros are not measured absence. No figure in this pass is adopted as a simultaneous opening force.",
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
       "citations": [],
       "phase": "unresolved",
       "status": "unknown"
@@ -59,7 +59,7 @@
     {
       "id": "bluff-and-bottomland",
       "dimension": "terrain",
-      "value": "Greene says the bluff was fully two hundred feet high with an unbroken view of the bottom land, which was low alluvial land, overflowed at the highest river stages and filled at all times with bayous and swamps. He says there were only five practicable crossings in twelve miles, all commanded by Confederate batteries. NPS calls the Walnut Hills strongly defended.",
+      "value": "Greene says the bluff was fully two hundred feet high with an unbroken view of the bottom land, which was low, overflowed and full of bayous and swamps, with only five practicable crossings in twelve miles, all commanded by batteries; NPS calls the Walnut Hills strongly defended.",
       "rationale": "Inherited ground at the landing; retrospective description without map verification or a numerical effect.",
       "citations": [
         {
@@ -72,19 +72,7 @@
           "source_id": "greene-vicksburg-1862-selections-v1",
           "section": "chickasaw-bayou",
           "locator": "p.75 (OCR page markers; not checked against print)",
-          "quote": "overflowed in the highest stages of the liver"
-        },
-        {
-          "source_id": "greene-vicksburg-1862-selections-v1",
-          "section": "chickasaw-bayou",
-          "locator": "p.75 (OCR page markers; not checked against print)",
           "quote": "filled at all times with a number of bayous and swamps."
-        },
-        {
-          "source_id": "greene-vicksburg-1862-selections-v1",
-          "section": "chickasaw-bayou",
-          "locator": "p.76 (OCR page markers; not checked against print)",
-          "quote": "there were but five points where it was practicable to pass from the Yazoo through the network of bayous"
         },
         {
           "source_id": "greene-vicksburg-1862-selections-v1",
@@ -104,7 +92,7 @@
     {
       "id": "single-pontoon-and-causeway",
       "dimension": "logistics",
-      "value": "Greene says Morgan had the only pontoon train in the command, and that Steele found his way blocked by Thompson's Lake, crossable only on a narrow corduroy causeway enfiladed by a Confederate battery. His division was therefore ordered to cross back in the transports and come up in support of Morgan.",
+      "value": "Greene says Morgan had the only pontoon train in the command, and that Steele's route was blocked by a narrow corduroy causeway enfiladed by a battery, so his division was re-embarked and moved to another sector.",
       "rationale": "Movement constraints from one retrospective history; no inspected engineer or transport record.",
       "citations": [
         {
@@ -117,19 +105,7 @@
           "source_id": "greene-vicksburg-1862-selections-v1",
           "section": "chickasaw-bayou",
           "locator": "p.77 (OCR page markers; not checked against print)",
-          "quote": "Steele found his way blocked by Thompson's Lake"
-        },
-        {
-          "source_id": "greene-vicksburg-1862-selections-v1",
-          "section": "chickasaw-bayou",
-          "locator": "p.77 (OCR page markers; not checked against print)",
           "quote": "which could only be crossed on a narrow corduroy causeway, completely enfiladed by one of the enemy's batteries"
-        },
-        {
-          "source_id": "greene-vicksburg-1862-selections-v1",
-          "section": "chickasaw-bayou",
-          "locator": "p.77 (OCR page markers; not checked against print)",
-          "quote": "cross back in the transports to the other side of Chickasaw Bayou, and come up in support of Mor- gan's division"
         }
       ],
       "phase": "unresolved",
@@ -271,7 +247,7 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 1,983 total (US 1,776; CS 207); the live NPS field reads 1963 total (US 1776; CS 187;). In his account of the December 29 assault Greene gives the Union 'exact total' as 1,929 (191 killed, 982 wounded, 756 missing) without stating a date range. He gives Confederate losses for the skirmishing of December 27–28 and the assault of the 29th as 187 (57 killed, 120 wounded, 10 missing).",
+      "value": "The frozen casualty text reads 1,983 total (US 1,776; CS 207); the live NPS field reads 1963 total (US 1776; CS 187;). Greene gives Union losses of 1,929 (191 killed, 982 wounded, 756 missing) and Confederate losses of 187 (57 killed, 120 wounded, 10 missing) for December 27–29.",
       "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Greene's Confederate total matches the live field and differs from the frozen 207.",
       "citations": [
         {
@@ -298,12 +274,6 @@
           "section": "chickasaw-bayou",
           "locator": "p.79 (OCR page markers; not checked against print)",
           "quote": "was only 57 killed, 120 wounded, and 10 missing ; total 187."
-        },
-        {
-          "source_id": "greene-vicksburg-1862-selections-v1",
-          "section": "chickasaw-bayou",
-          "locator": "p.79 (OCR page markers; not checked against print)",
-          "quote": "the entire losses of the Confederates dur- ing the skirmishing of the 27th and 28th and the assault of the 29th"
         }
       ],
       "phase": "post_outcome",
@@ -314,10 +284,5 @@
     "Original returns, Sherman's and Pemberton's reports and casualty reconciliation remain deferred.",
     "NPS/CWSAC is one family; Greene is one retrospective history by a non-participant Union engineer officer, founded on the Official Records. Reports and letters quoted inside Greene are not additional independently inspected families.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "vicksburg-1862-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/MS003.v1.json",
-    "sha256": "b1365a882ad75c992f3a3a6d858d8998445a2df6ba789858a2cc6a90be3c7c1d"
-  }
+  ]
 }

@@ -168,9 +168,12 @@ Coverage is **16/36 complete campaigns by dossier presence**, with zero promoted
 
 The [Operations Against Vicksburg first pass](research/vicksburg-1862-first-pass-v1.md)
 adds both **frozen records, MS003 and AR006**, with **19 claims, 2 explicit unknowns
-and 62 citations** from NPS/CWSAC and a new selection from the pinned Greene OCR.
+and 69 citations** from NPS/CWSAC and a new selection from the pinned Greene OCR.
 Arkansas Post's untraced white-flag order and casualty differences remain disputed.
-Separate review is pending.
+Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/vicksburg-1862-7cbb971-opus-high-v1/review.md)
+found six extraction and scope corrections, all fixed and
+[verified by the primary](../artifacts/review-results/vicksburg-1862-7cbb971-opus-high-v1/primary-assessment.md).
 Coverage is **17/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Middle Tennessee first pass](research/middle-tennessee-first-pass-v1.md) adds all

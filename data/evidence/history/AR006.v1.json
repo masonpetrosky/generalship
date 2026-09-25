@@ -10,7 +10,7 @@
       "id": "opening-personnel-unknown",
       "dimension": "strength",
       "value": null,
-      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength), and the live NPS zeros are not measured absence. No figure in this pass is adopted as a simultaneous opening force.",
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
       "citations": [],
       "phase": "unresolved",
       "status": "unknown"
@@ -115,7 +115,7 @@
     {
       "id": "intelligence-prompting-expedition",
       "dimension": "information",
-      "value": "Greene quotes Sherman's January 5 letter that McClernand brought the first news that Grant had fallen back, and that one boat carrying dispatches, the Blue Wing, 'has been captured by the enemy'. The letter does not name the capturing force, though it links 'that enemy on our rear and flank' to the threat to communications.",
+      "value": "Greene quotes Sherman's January 5 letter that McClernand brought the first news that Grant had fallen back, and that a boat carrying dispatches had been captured by the Arkansas Post garrison.",
       "rationale": "Attributed knowledge in a quoted letter; the original was not inspected.",
       "citations": [
         {
@@ -128,13 +128,7 @@
           "source_id": "greene-vicksburg-1862-selections-v1",
           "section": "arkansas-post",
           "locator": "p.83 (OCR page markers; not checked against print)",
-          "quote": "One boat, the Blue Wing, towing coal barges for the navy and carrying dis- patches, has been captured by the enemy"
-        },
-        {
-          "source_id": "greene-vicksburg-1862-selections-v1",
-          "section": "arkansas-post",
-          "locator": "p.83 (OCR page markers; not checked against print)",
-          "quote": "that enemy on our rear and flank"
+          "quote": "has been captured by the enemy"
         }
       ],
       "phase": "unresolved",
@@ -192,7 +186,7 @@
     {
       "id": "combined-command",
       "dimension": "responsibility",
-      "value": "Greene says McClernand assumed formal command on January 4 and asked Porter to begin the bombardment as arranged. The frozen Union commanders are McClernand and Porter, and the frozen Confederate commander is Churchill. The live heading lists only Porter [US] and Churchill [CS], omitting McClernand, and ranks Porter Rear Admiral against the frozen Acting Rear Admiral.",
+      "value": "Greene says McClernand assumed formal command on January 4 and asked Porter to begin the bombardment as arranged. The frozen commanders are McClernand and Porter; the live heading ranks Porter Rear Admiral against the frozen Acting Rear Admiral.",
       "rationale": "Joint army-navy command; neither listed commander receives automatic sole credit. The heading rank is not adopted.",
       "citations": [
         {
@@ -211,11 +205,6 @@
           "source_id": "nps-ar006-v1",
           "locator": "Principal Commanders",
           "quote": "Rear Admiral David Porter [US]"
-        },
-        {
-          "source_id": "nps-ar006-v1",
-          "locator": "Principal Commanders",
-          "quote": "Brigadier General Thomas Churchill [CS]"
         },
         {
           "source_id": "arnold-cwsac-commanders",
@@ -318,10 +307,5 @@
     "Original returns, Churchill's and McClernand's reports, and the white flag's origin remain deferred.",
     "NPS/CWSAC is one family; Greene is one retrospective history by a non-participant Union engineer officer, founded on the Official Records. Reports and letters quoted inside Greene are not additional independently inspected families.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "vicksburg-1862-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/AR006.v1.json",
-    "sha256": "30c02e4546447a535660566a2fcb59c3bb45d41404b986b60d8f367d8f45b94b"
-  }
+  ]
 }

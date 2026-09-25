@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session c6671d14-23a7-459d-ab65-bf9744b4b426",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit d6ea24b52ad36edd88ea86d023a06f3efd08cfd5; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T03:58:35Z",
+  "prepared_commit": "7cbb97100ca5db247610b8e198b58f44fd5f5be4",
+  "bundle_commit": "d6ea24b52ad36edd88ea86d023a06f3efd08cfd5",
+  "assignment_sha256": "6b5a70c45eccac4af67c512c06ee3a19e8801c26f8f0025af495db0f7fb5b9a2",
+  "inputs_manifest_sha256": "c7dbd5a4ae3542dd8c91d499f84bb27860da50d796388d470ad34ae98547842b",
+  "num_turns": 31,
+  "duration_ms": 384215,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** All six are small wording or scope fixes in the two dossiers; nothing is wrong with the sources, locators, derived files or preserved inputs.\n\n**Review path:** `artifacts/review-results/vicksburg-1862-7cbb971-opus-high-v1/review.md` (the only file I changed; nothing committed or pushed)\n\n**Finding IDs**\n- **Required:** VB-R1, VB-R2, VB-R3, VB-R4, VB-R5, VB-R6\n- **Non-blocking:** VB-N1, VB-N2, VB-N3, VB-N4, VB-N5\n\n**Required corrections** (each has an exact replacement in the review; any new quotes were checked as unique in their section):\n- **VB-R1 (MS003 and AR006):** the opening-strength rationale says \"Imported numerical estimates remain unchanged\". For both battles the frozen strength fields are blank for both sides, so there are no estimates, and the wording hides that gap.\n- **VB-R2 (AR006):** the command claim names only McClernand and Porter as the frozen commanders, leaving out Churchill on the Confederate side. It also doesn't say that the live NPS heading omits McClernand.\n- **VB-R3 (MS003):** the dates December 27–29 are attached to both of Greene's casualty totals. Greene dates only the Confederate 187; the Union 1,929 has no stated dates.\n- **VB-R4 (AR006):** the claim says the Arkansas Post garrison captured the dispatch boat. Sherman's quoted letter only says \"captured by the enemy\".\n- **VB-R5 (MS003):** the claim says Steele was blocked by the causeway. Greene says Thompson's Lake blocked him and the causeway was the only way across.\n- **VB-R6 (MS003):** the claim drops Greene's qualifier that the bottom land flooded only at the highest river stages. The \"five practicable crossings\" statement also has no quote.\n\n**Checks behind this:**\n- **Input hashes:** all 33 matched in the worktree and at `7cbb971`; no mismatches.\n- **Claims and citations:** I checked all 19 claims and 62 citations for whether the cited passage supports the claim. Every quote matched its source, and all 40 Greene page locators agree with the OCR page markers.\n- **Derived text:** both NPS summaries and all three Greene sections regenerate exactly from their pinned parents.\n- **Coverage:** 67/127 dossiers, 60 without, 17/36 complete campaigns. The source registry has 349 entries / 346 paths, and all 344 earlier entries are unchanged.\n- **Preservation:** all 65 older dossiers and 18 historical revisions are byte-identical. The cohort, both admission proposals, admission check, baseline and battles files are unchanged, with zero promoted rows.\n- **Next group:** confirmed as Middle Tennessee Operations, TN012–TN016.\n- **`make check`:** run offline; all 82 tests passed and the check passed. The baseline is unchanged: 23 eligible battles in 13 groups, Brier 0.2768816348133779 versus 0.25.\n\nThis is an AI review, not human historical adjudication, independent corroboration or feature admission."
+}
