@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA033",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all three frozen records in the Chancellorsville Campaign [April-May 1863]. Preserve per-engagement dates: Chancellorsville April 30–May 6, Fredericksburg II May 3 and Salem Church May 3–4, 1863. VA033 and VA034 lie inside VA032's frozen interval; campaign-wide loss tables and Sixth Corps totals span more than one engagement and must not be added or assigned. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Corps; the live field reads zero. Lee says the Union force at Salem Church was reported as one army corps and part of another under Sedgwick, and NPS says Lee detached two divisions from Chancellorsville to meet it. Sedgwick says he was told a column 15,000 strong from Richmond had occupied the Fredericksburg heights behind him, and that he faced vastly superior forces.",
+      "rationale": "Unit-level and reported figures differ in scope; none is adopted as matched opening strength. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA033"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va033-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or25-1-lee-chancellorsville-selections-v1",
+          "section": "lee-1863-09-21",
+          "locator": "p.801 (OCR page markers; not checked against print)",
+          "quote": "con- sisting, as was reported, of one army corps and part of another, under Major-General Sedgwick"
+        },
+        {
+          "source_id": "nps-va033-v1",
+          "locator": "Description",
+          "quote": "Lee detached two of his divisions from the Chancellorsville lines and marched them to Salem Church."
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "a col- umn of the enemy, 15,000 strong, coming from the direction of Bich- mond,"
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "vastly superior forces."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "extended-line",
+      "dimension": "terrain",
+      "value": "Sedgwick says his line, with its left on the river, fronted in three directions and was necessarily weak for its length, and that the woods at Salem were strongly held. Lee says broken and irregular ground delayed his troops' deployment on the 4th.",
+      "rationale": "Ground and positions from the two opposing reports; boundaries unset and no map verification.",
+      "citations": [
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "Thus, fronting in three directions, I was compelled to await attack,"
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "A line of battle of such length was necessarily weak,"
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "advanced upon the woods, which were strongly held by the enemy."
+        },
+        {
+          "source_id": "or25-1-lee-chancellorsville-selections-v1",
+          "section": "lee-1863-09-21",
+          "locator": "p.802 (OCR page markers; not checked against print)",
+          "quote": "owing to the broken and irregular nature of the ground"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "banks-ford-bridge",
+      "dimension": "logistics",
+      "value": "Sedgwick says a pontoon bridge had been laid at Banks' Ford the previous day and that the enemy shelled the bridges from commanding positions as he crossed. NPS says he withdrew across two pontoon bridges at Scott's Dam.",
+      "rationale": "Crossing arrangements from one report and a summary; no inspected engineer record.",
+      "citations": [
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "where a pontoon bridge had been laid the day previous."
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "the enemy meanwhile shelling the bridges from commanding positions above us,"
+        },
+        {
+          "source_id": "nps-va033-v1",
+          "locator": "Description",
+          "quote": "Sedgwick withdrew across two pontoon bridges at Scott's Dam under a harassing artillery fire."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "dispatches-and-fog",
+      "dimension": "information",
+      "value": "Sedgwick says Hooker's dispatch told him he could not relieve him and was too far away to direct his operations, and that a countermand of the order to withdraw arrived after his column was on the bridge. Lee says delay in deploying came partly from difficulty ascertaining the Union dispositions, and that dense fog slowed the pursuit.",
+      "rationale": "Attributed dispatches and knowledge from the two opposing reports; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "he could not relieve me, as he was in position in which he hoped to be attacked, and that he was too far away to direct my operations."
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "I re- ceived a dispatch from the commanding general countermanding the order to withdraw."
+        },
+        {
+          "source_id": "or25-1-lee-chancellorsville-selections-v1",
+          "section": "lee-1863-09-21",
+          "locator": "p.802 (OCR page markers; not checked against print)",
+          "quote": "the difficulty of ascertaining the disposition of the enemy’s forces."
+        },
+        {
+          "source_id": "or25-1-lee-chancellorsville-selections-v1",
+          "section": "lee-1863-09-21",
+          "locator": "p.802 (OCR page markers; not checked against print)",
+          "quote": "A dense fog settled over the field,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reach-hooker-or-drive-back",
+      "dimension": "objectives",
+      "value": "NPS says Sedgwick marched out on the Plank Road to reach Hooker. Lee says he reinforced the troops facing Sedgwick in order to drive him across the Rappahannock; Sedgwick says he resolved to hold until dark and then fall back on Banks' Ford.",
+      "rationale": "Stated aims from a summary and the two opposing reports; no inspected orders.",
+      "citations": [
+        {
+          "source_id": "nps-va033-v1",
+          "locator": "Description",
+          "quote": "with the objective of reaching Hooker's force at Chancellorsville."
+        },
+        {
+          "source_id": "or25-1-lee-chancellorsville-selections-v1",
+          "section": "lee-1863-09-21",
+          "locator": "p.802 (OCR page markers; not checked against print)",
+          "quote": "in order, if possible, to drive him across the Rappahannock."
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.560 (OCR page markers; not checked against print)",
+          "quote": "determined to hold the position until dark and then fall back upon Banks’ Ford."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Lee credits Wilcox for impeding Sedgwick and for the stand at Salem Church, and says McLaws declined Early's proposal of a simultaneous attack as beyond his force. Sedgwick credits Howe's resistance for the safety of the command. The frozen commanders are Lee, as General, and Sedgwick; the live heading ranks Lee Major General.",
+      "rationale": "Judgments are attributed; the frozen commanders do not receive automatic sole credit. The heading rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or25-1-lee-chancellorsville-selections-v1",
+          "section": "lee-1863-09-21",
+          "locator": "p.803 (OCR page markers; not checked against print)",
+          "quote": "for the gallant and successful stand at Salem Church."
+        },
+        {
+          "source_id": "or25-1-lee-chancellorsville-selections-v1",
+          "section": "lee-1863-09-21",
+          "locator": "p.801 (OCR page markers; not checked against print)",
+          "quote": "but the latter officer not deeming his force adequate to assail the enemy in front, the proposition was not carried into effect."
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "the safety of the command was greatly indebted."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA033",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-va033-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA033",
+            "belligerent": "US",
+            "fullname": "John Sedgwick"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. NPS says Union assaults were repulsed with heavy casualties and that Sedgwick withdrew after dark. Lee says Anderson and Early drove Sedgwick toward the river and that he made good his escape and removed his bridges; Sedgwick says he withdrew under orders at 2 a.m. on the 5th.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. NPS's link to Hooker's abandonment of the campaign is campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA033"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va033-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-va033-v1",
+          "locator": "Description",
+          "quote": "Several Union assaults were repulsed the next morning with heavy casualties,"
+        },
+        {
+          "source_id": "or25-1-lee-chancellorsville-selections-v1",
+          "section": "lee-1863-09-21",
+          "locator": "p.802 (OCR page markers; not checked against print)",
+          "quote": "The next morning it was found that General Sedgwick had made good his escape and removed his bridges."
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "On Tuesday, the 5th, at 2 a. m., I received the order of the command- ing general to withdraw from my position,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 5,000 total; the live field reads zero. Sedgwick gives Sixth Corps losses in all these operations as 4,925, footnoted to a revised statement, and says he took 15 guns and 1,400 prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Sedgwick's total also covers Fredericksburg II (VA034) and must not be assigned to this engagement or added to it.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA033"
+          },
+          "column": "casualties_text",
+          "quote": "5,000 total"
+        },
+        {
+          "source_id": "nps-va033-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "The losses of the Sixth Corps in these operations were 4,925 killed, wounded, and missing."
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "But see revised statement, pp. 172, 189."
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "and 1,400 prisoners,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Early's, McLaws', Anderson's and Wilcox's accounts of Salem Church, Hooker's dispatches to Sedgwick and the revised Sixth Corps return remain deferred.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded a division at Chancellorsville) whose figures partly rest on others' estimates. Lee's, Sedgwick's and Early's reports, printed in Official Records Series I, Volume XXV, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

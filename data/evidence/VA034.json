@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA034",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all three frozen records in the Chancellorsville Campaign [April-May 1863]. Preserve per-engagement dates: Chancellorsville April 30–May 6, Fredericksburg II May 3 and Salem Church May 3–4, 1863. VA033 and VA034 lie inside VA032's frozen interval; campaign-wide loss tables and Sixth Corps totals span more than one engagement and must not be added or assigned. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Corps; the live field reads zero. NPS says the VI Corps, reinforced by Gibbon's division, assaulted outnumbered Confederates. Sedgwick says the enemy's works were occupied in considerable force; Early says Barksdale's Mississippians held the trenches at the foot of Marye's Hill.",
+      "rationale": "No count is given for either side; none is adopted. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA034"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va034-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va034-v1",
+          "locator": "Description",
+          "quote": "the Union VI Corps under Sedgwick, reinforced by John Gibbon's II Corps division,"
+        },
+        {
+          "source_id": "nps-va034-v1",
+          "locator": "Description",
+          "quote": "The outnumbered Confederates withdrew"
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "It was evident that the enemy’s line of works was occu- pied in considerable force,"
+        },
+        {
+          "source_id": "or25-1-early-chancellorsville-selections-v1",
+          "section": "early-1863-05-07",
+          "locator": "p.1001 (OCR page markers; not checked against print)",
+          "quote": "who occupied the works at the foot of Marye’s Hill with his own and the Twenty -first Mississippi Regiment,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "heights-and-obstacles",
+      "dimension": "terrain",
+      "value": "NPS says the Confederates held entrenchments on Marye's Heights. Sedgwick says the rifle-pits and batteries on the heights repulsed his first assault, that a stream kept Howe from moving right and the canal checked Gibbon, so nothing remained but direct assault.",
+      "rationale": "Works and ground from a summary and one report; who built the works and when is not stated. No map verification.",
+      "citations": [
+        {
+          "source_id": "nps-va034-v1",
+          "locator": "Description",
+          "quote": "assaulted and carried the Confederate entrenchments on Marye's Heights."
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "repulsed by the fire of the rifle-pits and the batteries on the heights."
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "the character of the stream between his command and that of General Newton’s prevented any movement of his division to the right."
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "was checked by the canal and compelled to halt. Nothing remained but to carry the works by direct assault."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "crossing-without-bridges",
+      "dimension": "logistics",
+      "value": "Sedgwick says his order to cross at Fredericksburg found his whole command south of the river, where no bridges had been laid at the town, so he moved by the flank on the Bowling Green road instead of recrossing. Early says part of Pendleton's artillery had been sent to the rear under instructions.",
+      "rationale": "Movement statements from the two opposing reports; no inspected engineer or artillery record.",
+      "citations": [
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.558 (OCR page markers; not checked against print)",
+          "quote": "where no bridges had been laid,"
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.558 (OCR page markers; not checked against print)",
+          "quote": "I commenced, therefore, to move by the flank in the direction of Fredericksburg,"
+        },
+        {
+          "source_id": "or25-1-early-chancellorsville-selections-v1",
+          "section": "early-1863-05-07",
+          "locator": "p.1001 (OCR page markers; not checked against print)",
+          "quote": "A portion of General Pen- dleton’s artillery, under like instructions, was sent to the rear."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "misinformation-and-recall",
+      "dimension": "information",
+      "value": "Sedgwick says Butterfield had repeatedly told him the force in front was very small, and that the chief of staff was misinformed. Early says he had started toward Chancellorsville under Lee's instructions on the 2nd, then turned back on information from the rear.",
+      "rationale": "Attributed knowledge from the two opposing reports; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.558 (OCR page markers; not checked against print)",
+          "quote": "I had been informed repeatedly by Major-General Butterfield, chief of staff, that the force in front of me was very small,"
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.558 (OCR page markers; not checked against print)",
+          "quote": "the chief of staff was misinformed."
+        },
+        {
+          "source_id": "or25-1-early-chancellorsville-selections-v1",
+          "section": "early-1863-05-07",
+          "locator": "p.1001 (OCR page markers; not checked against print)",
+          "quote": "information was re- ceived from the rear of such a character as to cause me to turn back and occupy the former line as before."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "orders",
+      "dimension": "objectives",
+      "value": "Sedgwick says he was ordered to cross at Fredericksburg, move toward Chancellorsville, attack and destroy any force on the road, and be near Hooker at daylight. Early says Jackson told him to remain with his division and Barksdale's brigade to observe the enemy.",
+      "rationale": "Orders as reported by the two commanders; no inspected order text.",
+      "citations": [
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.558 (OCR page markers; not checked against print)",
+          "quote": "to attack and destroy any force on the road, and be in the vicinity of the general at daylight."
+        },
+        {
+          "source_id": "or25-1-early-chancellorsville-selections-v1",
+          "section": "early-1863-05-07",
+          "locator": "p.1000 (OCR page markers; not checked against print)",
+          "quote": "to remain behind with my division and one of McLaws’ brigades (Barksdale’s), to observe the enemy,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Early says a flag of truce was received improperly by Colonel Griffin at the foot of Marye's Hill and that heavy columns advanced almost as soon as it returned. Sedgwick credits Colonel Burnham's leading of the Light Brigade against the rifle-pits. The frozen and live commanders are Sedgwick and Early, both Major Generals.",
+      "rationale": "Judgments are attributed; the frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or25-1-early-chancellorsville-selections-v1",
+          "section": "early-1863-05-07",
+          "locator": "p.1001 (OCR page markers; not checked against print)",
+          "quote": "which was received by him improperly,"
+        },
+        {
+          "source_id": "or25-1-early-chancellorsville-selections-v1",
+          "section": "early-1863-05-07",
+          "locator": "p.1001 (OCR page markers; not checked against print)",
+          "quote": "and it had barely returned before heavy columns were advanced again^ the positions,"
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "The gallant conduct of Colonel Burnham, in leading the Light Bri- gade to the assault on the rifle-pits in rear of Fredericksburg,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA034",
+            "belligerent": "US",
+            "fullname": "John Sedgwick"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA034",
+            "belligerent": "Confederate",
+            "fullname": "Jubal A. Early"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Sedgwick says the storming columns carried the works, capturing guns and many prisoners; Early says the trenches were carried and the hill taken, with much of the 18th and part of the 21st Mississippi and a company of the Washington Artillery captured; NPS says the Confederates withdrew and regrouped.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA034"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va034-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.559 (OCR page markers; not checked against print)",
+          "quote": "carried the works in the rear of the rifle-pits, capturing the guns and many prisoners."
+        },
+        {
+          "source_id": "or25-1-early-chancellorsville-selections-v1",
+          "section": "early-1863-05-07",
+          "locator": "p.1001 (OCR page markers; not checked against print)",
+          "quote": "the trenches were carried and the hill taken,"
+        },
+        {
+          "source_id": "nps-va034-v1",
+          "locator": "Description",
+          "quote": "withdrew and regrouped west and southeast of town."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 2,000 total; the live field reads zero. Sedgwick's 4,925 covers all Sixth Corps operations, and Early's division loss of 136 killed, 838 wounded and some 500 missing covers the whole period from the crossing, excluding Barksdale's brigade and the artillery.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Both report totals span Salem Church (VA033) and more; neither is assigned to this engagement.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA034"
+          },
+          "column": "casualties_text",
+          "quote": "2,000 total"
+        },
+        {
+          "source_id": "nps-va034-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or25-1-sedgwick-chancellorsville-selections-v1",
+          "section": "sedgwick-1863-05-15",
+          "locator": "p.561 (OCR page markers; not checked against print)",
+          "quote": "The losses of the Sixth Corps in these operations were 4,925 killed, wounded, and missing."
+        },
+        {
+          "source_id": "or25-1-early-chancellorsville-selections-v1",
+          "section": "early-1863-05-07",
+          "locator": "p.1002 (OCR page markers; not checked against print)",
+          "quote": "The loss in my division during all the time from the crossing was 136 killed, 838 wounded, and some 500 are reported missing,"
+        },
+        {
+          "source_id": "or25-1-early-chancellorsville-selections-v1",
+          "section": "early-1863-05-07",
+          "locator": "p.1002 (OCR page markers; not checked against print)",
+          "quote": "This does not include the loss in Barksdale’s brigade and the artillery."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Barksdale's, Griffin's, Gibbon's and Newton's reports and any engagement-specific return remain deferred.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded a division at Chancellorsville) whose figures partly rest on others' estimates. Lee's, Sedgwick's and Early's reports, printed in Official Records Series I, Volume XXV, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

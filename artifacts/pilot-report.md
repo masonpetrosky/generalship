@@ -120,6 +120,9 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [VA029](../data/evidence/VA029.json) | 9 | 1 | 0 | 0 | draft |
 | [VA030](../data/evidence/VA030.json) | 9 | 1 | 0 | 0 | draft |
 | [VA031](../data/evidence/VA031.json) | 12 | 1 | 0 | 0 | draft |
+| [VA032](../data/evidence/VA032.json) | 9 | 1 | 0 | 0 | draft |
+| [VA033](../data/evidence/VA033.json) | 9 | 1 | 0 | 0 | draft |
+| [VA034](../data/evidence/VA034.json) | 9 | 1 | 0 | 0 | draft |
 | [VA100](../data/evidence/VA100.json) | 10 | 3 | 0 | 0 | draft |
 | [VA101](../data/evidence/VA101.json) | 10 | 2 | 0 | 0 | draft |
 | [VA102](../data/evidence/VA102.json) | 9 | 2 | 0 | 0 | draft |
@@ -140,8 +143,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 87 engagements have dossiers; 40 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Grant's Operations Against Vicksburg first pass](../docs/research/vicksburg-1863-first-pass-v1.md) adds the ten frozen records without dossiers: 92 claims, 10 explicit unknowns and 369 citations from NPS/CWSAC, Greene and eleven Official Records report selections. Nested siege intervals are not double counted, and disputes and casualty differences remain visible; separate campaign review is pending. Next take the complete three-record Chancellorsville Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 90 engagements have dossiers; 37 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Chancellorsville Campaign first pass](../docs/research/chancellorsville-first-pass-v1.md) adds all three frozen records: 27 claims, 3 explicit unknowns and 119 citations from NPS/CWSAC, Doubleday, and Lee's, Sedgwick's and Early's Official Records reports. Nested intervals are not double counted, and command judgments stay attributed; separate campaign review is pending. Next take the complete one-record Streight's Raid in Alabama and Georgia. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

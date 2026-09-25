@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **87 draft dossiers / 127 engagements**, with **40 without a dossier**.
+There are **90 draft dossiers / 127 engagements**, with **37 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -227,8 +227,16 @@ Landing surrender terms and every casualty comparison remain disputed. Separate 
 is pending.
 Coverage is **21/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Chancellorsville Campaign [April-May 1863]**, the next complete frozen
-group by earliest engagement date: **three records, VA032, VA033, VA034**.
+The [Chancellorsville Campaign first pass](research/chancellorsville-first-pass-v1.md) adds
+all **three frozen records, VA032, VA034 and VA033**, with **27 claims, 3 explicit unknowns
+and 119 citations** from NPS/CWSAC, a newly pinned Doubleday history, and Lee's,
+Sedgwick's and Early's reports in Official Records Volume XXV Part 1. Salem Church and
+Fredericksburg II lie inside Chancellorsville's interval, and campaign-wide loss totals
+are not assigned or added. Separate review is pending.
+Coverage is **22/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Streight's Raid in Alabama and Georgia [April 1863]**, the next complete frozen
+group by earliest engagement date: **one record, AL001**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

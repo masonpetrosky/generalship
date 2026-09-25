@@ -68,6 +68,17 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Chancellorsville Campaign first pass, 2026-09-25
+
+The [three-record memo](research/chancellorsville-first-pass-v1.md) adds **12 records**,
+bringing the registry to **429 entries / 426 raw paths**, preserving the previous
+**417/414**. Three NPS battle HTML/text pairs remain in the NPS/CWSAC family. Doubleday's
+*Chancellorsville and Gettysburg* (Internet Archive `chancellorsville00doubuoft`) is
+pinned with catalog metadata, full OCR and one selection. Three report selections (Lee,
+Sedgwick, Early) reuse the pinned `or25-1-illinois-ocr-v1`, each its own independence
+group. Character ranges and whitespace-only normalization reproduce all sections. No
+model inputs are changed.
+
 ### Grant's Operations Against Vicksburg (1863) first pass, 2026-09-25
 
 The [ten-record memo](research/vicksburg-1863-first-pass-v1.md) adds **38 records**,
