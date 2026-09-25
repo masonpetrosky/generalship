@@ -330,9 +330,12 @@ five attribution, category and inspection-record corrections, all fixed and
 Coverage is **31/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Averell's Raid first pass](research/averell-raid-first-pass-v1.md) adds the sole
-**frozen record, WV012 (Droop Mountain)**, with **9 claims, 1 explicit unknown and 44
+**frozen record, WV012 (Droop Mountain)**, with **9 claims, 1 explicit unknown and 55
 citations** from NPS/CWSAC and Averell's and Echols's reports in Official Records Volume
-XXIX Part 1. Separate review is pending.
+XXIX Part 1. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/averell-raid-b305791-opus-high-v1/review.md) found four
+OCR-reading, entailment and scope corrections, all fixed and
+[verified by the primary](../artifacts/review-results/averell-raid-b305791-opus-high-v1/primary-assessment.md).
 Coverage is **32/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Knoxville Campaign first pass](research/knoxville-first-pass-v1.md) adds all three

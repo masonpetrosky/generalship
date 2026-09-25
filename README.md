@@ -172,7 +172,8 @@ The [Memphis & Charleston Railroad pass](docs/research/memphis-charleston-first-
 dossier, 9 claims, 1 explicit unknown and 44 citations. Opus 5.5 `high` reviewed it;
 its five required corrections are fixed and verified by the primary.
 The [Averell's Raid pass](docs/research/averell-raid-first-pass-v1.md) adds one
-dossier, 9 claims, 1 explicit unknown and 44 citations. Separate review is pending.
+dossier, 9 claims, 1 explicit unknown and 55 citations. Opus 5.5 `high` reviewed it;
+its four required corrections are fixed and verified by the primary.
 The [Knoxville Campaign pass](docs/research/knoxville-first-pass-v1.md) adds three
 dossiers, 27 claims, 3 explicit unknowns and 123 citations. Separate review is pending.
 Next: **the two-record Chattanooga-Ringgold Campaign**. See the
