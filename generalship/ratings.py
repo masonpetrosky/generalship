@@ -15,9 +15,22 @@ from .baseline import advantage, fit_logistic, scores, sigmoid
 from .command import DEFAULT_LEDGER as COMMAND_LEDGER, DEFAULT_REGISTRY, check as check_command
 from .dataset import build_dataset
 from .estimates import DEFAULT_LEDGER as STRENGTH_LEDGER, SIDES, check as check_estimates, nested_sets
+from .estimates_v2 import DEFAULT_LEDGER as STRENGTH_LEDGER_V2, check as check_estimates_v2
 from .sources import digest, read_json, safe_path
 
 DEFAULT_AUTHORIZATION = 'data/command/rating-authorization-v1.json'
+# Each run binds its own authorization, ledgers, cohort and evaluation; v1 stays exactly as first run.
+# The temporal split is descriptive only (design §5): v1 trains on 1862 and tests 1863; v2 trains on
+# 1861-1863 and tests 1864-1865.
+RUNS = {1: {'authorization': DEFAULT_AUTHORIZATION, 'strength': STRENGTH_LEDGER, 'command': COMMAND_LEDGER,
+            'registry': DEFAULT_REGISTRY, 'check_strength': check_estimates, 'cohort': 'data/pilot/cohort.json',
+            'evaluation': 'artifacts/estimate-evaluation.json', 'temporal': (('1862',), ('1863',)),
+            'views': ('outcome_only_37', 'outcome_only_91'), 'output': 'artifacts/commander-ratings'},
+        2: {'authorization': 'data/command/rating-authorization-v2.json', 'strength': STRENGTH_LEDGER_V2,
+            'command': 'data/command/responsibility-v2.json', 'registry': 'data/command/commanders-v2.json',
+            'check_strength': check_estimates_v2, 'cohort': 'data/pilot/cohort-v2.json',
+            'evaluation': 'artifacts/estimate-evaluation-v2.json', 'temporal': (('1861', '1862', '1863'), ('1864', '1865')),
+            'views': ('outcome_only_primary', 'outcome_only_all'), 'output': 'artifacts/commander-ratings-v2'}}
 TAU = 0.5
 DRAWS = 20000
 SEED = 20260925
@@ -281,9 +294,9 @@ def heldout(rows, **params):
             'campaigns_better': dict(wins), 'effective_rows': effective, 'n_rows': len(preds), 'predictions': preds}
 
 
-def temporal(rows, **params):
-    train = [r for r in rows if r['year'] == '1862']
-    test = [r for r in rows if r['year'] == '1863']
+def temporal(rows, years=(('1862',), ('1863',)), **params):
+    train = [r for r in rows if r['year'] in years[0]]
+    test = [r for r in rows if r['year'] in years[1]]
     if not train or not test or len({r['y'] for r in train}) < 2:
         return {'evaluable': False}
     model = fit(train, **params)
@@ -306,9 +319,10 @@ def outcome_rows_91(command, records):
 
 # ---------- gate and run ----------
 
-def authorize(root, path=DEFAULT_AUTHORIZATION):
+def authorize(root, path=DEFAULT_AUTHORIZATION, run=None):
+    run = run or RUNS[1]
     auth = read_json(safe_path(root, path))
-    require = {'strength_ledger': STRENGTH_LEDGER, 'command_ledger': COMMAND_LEDGER, 'registry': DEFAULT_REGISTRY}
+    require = {'strength_ledger': run['strength'], 'command_ledger': run['command'], 'registry': run['registry']}
     if auth.get('kind') != 'commander_rating_authorization':
         raise RatingError('Authorization record kind')
     for key, p in require.items():
@@ -320,17 +334,19 @@ def authorize(root, path=DEFAULT_AUTHORIZATION):
     return auth
 
 
-def rate(root):
-    auth = authorize(root)
-    check_estimates(root)
-    check_command(root)
-    strength = read_json(safe_path(root, STRENGTH_LEDGER))
-    command_ledger = read_json(safe_path(root, COMMAND_LEDGER))
+def rate(root, version=1):
+    run = RUNS[version]
+    auth = authorize(root, run['authorization'], run)
+    run['check_strength'](root, run['strength'])
+    check_command(root, run['command'])
+    strength = read_json(safe_path(root, run['strength']))
+    command_ledger = read_json(safe_path(root, run['command']))
     if not strength['status'].startswith('reviewed') or not command_ledger['status'].startswith('reviewed'):
         raise RatingError('Both ledgers must be reviewed and reconciled')
-    registry = {c['id']: c for c in read_json(safe_path(root, DEFAULT_REGISTRY))['commanders']}
+    registry = {c['id']: c for c in read_json(safe_path(root, run['registry']))['commanders']}
     side_of = {c: registry[c]['side'] for c in registry}
-    records, _ = build_dataset(root)
+    records, _ = build_dataset(root, run['cohort'])
+    v_primary, v_all = run['views']
     command = {e['battle_id']: e for e in command_ledger['engagements']}
     base = primary_rows(strength, command, records)
     primary = attach(base)
@@ -357,14 +373,14 @@ def rate(root):
                 if cand != r['sides'][s]['commander_id']:
                     view(f'alternative_{r["battle_id"]}_{s}_{cand}', attach(base, alt=(r['battle_id'], s, cand)))
     robustness = list(views)
-    view('outcome_only_37', primary, use_force=False)
+    view(v_primary, primary, use_force=False)
     command_ledger['by_id'] = command
     rows91, dropped, unresolved = outcome_rows_91(command_ledger, records)
-    view('outcome_only_91', attach(rows91), use_force=False)
-    views['outcome_only_91'].update({'dropped_as_nested': dropped, 'labels': ['includes_force_size_advantage', 'expanded_rows']})
-    views['outcome_only_37']['labels'] = ['includes_force_size_advantage']
+    view(v_all, attach(rows91), use_force=False)
+    views[v_all].update({'dropped_as_nested': dropped, 'labels': ['includes_force_size_advantage', 'expanded_rows']})
+    views[v_primary]['labels'] = ['includes_force_size_advantage']
     for u in unresolved:
-        view(f'outcome_only_91_without_{u}', attach([r for r in rows91 if r['battle_id'] != u]), use_force=False)
+        view(f'{v_all}_without_{u}', attach([r for r in rows91 if r['battle_id'] != u]), use_force=False)
     # view_sensitive (design §6)
     for c, pr in ratings.items():
         pr['view_sensitive'] = []
@@ -382,7 +398,7 @@ def rate(root):
             if opposite or disjoint:
                 pr['view_sensitive'].append(name)
     # coverage and raw residuals
-    evaluation = read_json(root / 'artifacts/estimate-evaluation.json')
+    evaluation = read_json(root / run['evaluation'])
     p_by = {p['battle_id']: p['diagnostic_union_score'] for p in evaluation['row_sets']['set3_ABC']['predictions']}
     attributed = defaultdict(list)
     for b, e in command.items():
@@ -410,7 +426,7 @@ def rate(root):
                   'wins_in_model': wins, 'losses_in_model': len(rows_c) - wins,
                   'out_of_model': sorted(b for b, _, _ in attributed[c] if b not in in_model),
                   'out_of_model_reasons': {b: out_reasons(b) for b, _, _ in attributed[c] if b not in in_model},
-                  'dropped_as_nested_in_outcome_only_91': sorted(b for b, _, _ in attributed[c] if b in dropped),
+                  f'dropped_as_nested_in_{v_all}': sorted(b for b, _, _ in attributed[c] if b in dropped),
                   'raw_residual_sum': resid,
                   'echelons': sorted({x['echelon'] for _, _, x in attributed[c]}),
                   'attribution_grades': dict(Counter(x['grade'] for _, _, x in attributed[c])),
@@ -422,14 +438,15 @@ def rate(root):
         if not test['improved'] and c in ratings:
             out[c].setdefault('labels', []).append('no_heldout_signal')
     return {'kind': 'commander_residual_ratings', 'status': 'exploratory_diagnostic_not_skill_not_ranking_of_record',
-            'authorization': {'path': DEFAULT_AUTHORIZATION, 'sha256': digest(safe_path(root, DEFAULT_AUTHORIZATION)),
+            'authorization': {'path': run['authorization'], 'sha256': digest(safe_path(root, run['authorization'])),
                               'decision_date': auth['decision_date']},
-            'ledgers': {k: {'path': p, 'sha256': digest(safe_path(root, p))}
-                        for k, p in (('strength', STRENGTH_LEDGER), ('command', COMMAND_LEDGER), ('registry', DEFAULT_REGISTRY))},
-            'raw_residual_input': {'path': 'artifacts/estimate-evaluation.json', 'sha256': digest(root / 'artifacts/estimate-evaluation.json')},
+            'ledgers': {k: {'path': run[k], 'sha256': digest(safe_path(root, run[k]))} for k in ('strength', 'command', 'registry')},
+            'raw_residual_input': {'path': run['evaluation'], 'sha256': digest(root / run['evaluation'])},
+            **({} if version == 1 else {'run_version': version, 'cohort': {'path': run['cohort'], 'sha256': digest(safe_path(root, run['cohort']))}}),
             'model': {'tau': TAU, 'alpha_sd': 1.0, 'beta_sd': 1.0, 'alpha': model['alpha'], 'beta': model['beta'],
                       'draws': DRAWS, 'seed': SEED, 'rows': len(primary), 'campaigns': len({r['campaign'] for r in primary})},
-            'heldout_test': test, 'temporal_split': temporal(primary), 'commanders': out,
+            'heldout_test': test, 'temporal_split': ({**temporal(primary, run['temporal']), **({} if version == 1 else {'years': run['temporal']})}),
+            'commanders': out,
             'views': {n: {k: v for k, v in x.items() if k != 'ratings'} for n, x in views.items()},
             'flags': FLAGS}
 
@@ -453,7 +470,9 @@ def report_text(result):
              f"strength only {t['campaigns_better'].get('strength_only', 0)}, ties {t['campaigns_better'].get('tie', 0)}.", '']
     ts = result['temporal_split']
     if ts.get('evaluable'):
-        lines += [f"Descriptive 1862→1863 split (no verdict): trained on {ts['n_train']}, tested on {ts['n_test']}; log loss "
+        yrs = ts.get('years', (('1862',), ('1863',)))
+        span = lambda y: y[0] if len(y) == 1 else f'{y[0]}–{y[-1]}'
+        lines += [f"Descriptive {span(yrs[0])}→{span(yrs[1])} split (no verdict): trained on {ts['n_train']}, tested on {ts['n_test']}; log loss "
                   f"{f(ts['commander_model'])} (commander model) against {f(ts['strength_only'])} (strength only).", '']
     if not t['improved']:
         lines += ['**No improvement under the both-weightings rule (a lower held-out log loss was required under both '

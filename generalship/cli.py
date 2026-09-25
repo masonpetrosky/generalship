@@ -10,10 +10,10 @@ from .admission import DEFAULT_PROPOSAL, check as check_admission
 from .strength_admission import DEFAULT_PROPOSAL as STRENGTH_PROPOSAL, check as check_strength
 from .estimates import DEFAULT_LEDGER, check as check_estimates
 from .estimates_v2 import DEFAULT_LEDGER as ESTIMATE_LEDGER_V2, check as check_estimates_v2
-from .estimate_eval import evaluate_estimates, report_text as estimate_report
+from .estimate_eval import RUNS as EVAL_RUNS, evaluate_estimates, report_text as estimate_report
 from .command import DEFAULT_LEDGER as COMMAND_LEDGER, check as check_command
 COMMAND_LEDGER_V2 = 'data/command/responsibility-v2.json'
-from .ratings import rate, report_text as ratings_report
+from .ratings import RUNS as RATING_RUNS, rate, report_text as ratings_report
 from .dataset import build_dataset
 from .evidence import validate_all
 from .sources import digest, fetch_sources, read_json, write_json
@@ -180,10 +180,12 @@ def main(argv=None):
     admission_parser.add_argument('--details', action='store_true', help='Print the complete ledger and provenance')
     est_parser = sub.add_parser('estimate-check', help='Replay the best-estimate side-strength ledger; never fits or promotes')
     est_parser.add_argument('--ledger', default=DEFAULT_LEDGER, help='Ledger path; a version-2 ledger is replayed by estimates_v2')
-    sub.add_parser('commander-ratings', help='Owner-authorized residual ratings (design §7); never changes the baseline')
+    rat_parser = sub.add_parser('commander-ratings', help='Owner-authorized residual ratings (design §7); never changes the baseline')
+    rat_parser.add_argument('--version', type=int, default=1, choices=(1, 2), help='Run 1 (cohort v1 ledgers) or 2 (cohort v2 ledgers)')
     cmd_parser = sub.add_parser('command-check', help='Replay the command-responsibility ledger checks; never rates anyone')
     cmd_parser.add_argument('--ledger', default=COMMAND_LEDGER, help='Ledger path (v1 or v2)')
-    sub.add_parser('estimate-evaluate', help='Owner-authorized estimate-layer diagnostic (design §6); never changes the baseline')
+    eval_parser = sub.add_parser('estimate-evaluate', help='Owner-authorized estimate-layer diagnostic (design §6); never changes the baseline')
+    eval_parser.add_argument('--version', type=int, default=1, choices=(1, 2), help='Run 1 (v1 ledger) or 2 (v2 ledger)')
     strength_parser = sub.add_parser('strength-check', help='Offline tier-2 reported-strength proposal/release audit; never promotes inputs')
     strength_parser.add_argument('path', nargs='?', default=STRENGTH_PROPOSAL)
     strength_parser.add_argument('--details', action='store_true', help='Print the complete ledger and provenance')
@@ -205,17 +207,18 @@ def main(argv=None):
             version = read_json(root / args.ledger).get('version', 1)
             result = (check_estimates_v2 if version == 2 else check_estimates)(root, args.ledger)
         elif args.command == 'commander-ratings':
-            ratings = rate(root)
-            write_json(root / 'artifacts/commander-ratings.json', ratings)
-            (root / 'artifacts/commander-ratings.md').write_text(ratings_report(ratings), encoding='utf-8')
-            result = {'heldout_improved': ratings['heldout_test']['improved'],
-                      'outputs': ['artifacts/commander-ratings.json', 'artifacts/commander-ratings.md']}
+            ratings = rate(root, args.version)
+            out = RATING_RUNS[args.version]['output']
+            write_json(root / f'{out}.json', ratings)
+            (root / f'{out}.md').write_text(ratings_report(ratings), encoding='utf-8')
+            result = {'heldout_improved': ratings['heldout_test']['improved'], 'outputs': [f'{out}.json', f'{out}.md']}
         elif args.command == 'command-check':
             result = check_command(root, args.ledger)
         elif args.command == 'estimate-evaluate':
-            evaluation = evaluate_estimates(root)
-            write_json(root / 'artifacts/estimate-evaluation.json', evaluation)
-            (root / 'artifacts/estimate-evaluation.md').write_text(estimate_report(evaluation), encoding='utf-8')
+            evaluation = evaluate_estimates(root, args.version)
+            out = EVAL_RUNS[args.version]['output']
+            write_json(root / f'{out}.json', evaluation)
+            (root / f'{out}.md').write_text(estimate_report(evaluation), encoding='utf-8')
             result = {'ledger_sha256': evaluation['ledger']['sha256'],
                       'row_sets': {k: {'evaluable': v['evaluable'], 'rows': v['rows'],
                                        'brier': v['metrics']['battle_weighted'] if v['evaluable'] else None}

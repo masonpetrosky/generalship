@@ -26,7 +26,8 @@ def number(value):
     return result
 
 
-def build_dataset(root):
+def build_dataset(root, cohort_path="data/pilot/cohort.json"):
+    """Records for a frozen cohort; the v1 frame is rebuilt from its selection rule, later frames from their IDs."""
     registry = verify_sources(root)
     raw = root / "data/raw"
     battles = read_csv(raw / "cwsac_battles.csv")
@@ -64,13 +65,18 @@ def build_dataset(root):
             raise ValueError(f"Unknown outcome: {row['battle']}")
         if row["operation"] not in {"0", "1"}:
             raise ValueError(f"Unknown grain: {row['battle']}")
-    config = read_json(root / "data/pilot/cohort.json")
-    selected_campaigns = {
-        row["campaign"] for row in battles
-        if int(row["start_date"][:4]) in config["anchor_years"]
-        and campaign_map[(row["campaign"],)]["theater"] in config["theaters"]
-    }
-    selected = [row for row in battles if row["campaign"] in selected_campaigns]
+    config = read_json(root / cohort_path)
+    if "anchor_years" in config:
+        selected_campaigns = {
+            row["campaign"] for row in battles
+            if int(row["start_date"][:4]) in config["anchor_years"]
+            and campaign_map[(row["campaign"],)]["theater"] in config["theaters"]
+        }
+        selected = [row for row in battles if row["campaign"] in selected_campaigns]
+    else:  # a later frame (cohort v2) names its battles; its campaigns are complete by construction
+        chosen = set(config["battle_ids"])
+        selected = [row for row in battles if row["battle"] in chosen]
+        selected_campaigns = {row["campaign"] for row in selected}
     actual_ids = sorted(row["battle"] for row in selected)
     if actual_ids != config["battle_ids"]:
         raise ValueError("Cohort differs from frozen battle IDs; review cohort changes explicitly")
@@ -109,7 +115,7 @@ def build_dataset(root):
         "coverage_by_theater": {
             t: {"total": sum(r["theater"] == t for r in records),
                 "eligible": sum(r["theater"] == t and r["baseline_eligible"] for r in records)}
-            for t in sorted(config["theaters"])
+            for t in sorted(config.get("theaters") or {r["theater"] for r in records})
         },
         "source_hashes": {key: s["sha256"] for key, s in sorted(registry.items())},
         "warnings": ["Imported records have not been adjudicated by a historian.",

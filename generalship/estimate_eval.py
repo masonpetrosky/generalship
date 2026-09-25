@@ -13,9 +13,15 @@ from .baseline import advantage, feature, fit_logistic, scores
 from .dataset import build_dataset
 from .estimates import (DEFAULT_LEDGER, OPPONENT_FACTOR, SIDES, EstimateError, check, estimate_row,
                         estimate_side, nested_sets, upper_median)
+from .estimates_v2 import DEFAULT_LEDGER as LEDGER_V2, check as check_v2
 from .sources import digest, read_json, safe_path
 
 DEFAULT_AUTHORIZATION = 'data/estimates/evaluation-authorization-v1.json'
+# Each run binds its own authorization, ledger, checker and cohort; v1 stays exactly as first run.
+RUNS = {1: {'authorization': DEFAULT_AUTHORIZATION, 'ledger': DEFAULT_LEDGER, 'check': check,
+            'cohort': 'data/pilot/cohort.json', 'output': 'artifacts/estimate-evaluation'},
+        2: {'authorization': 'data/estimates/evaluation-authorization-v2.json', 'ledger': LEDGER_V2, 'check': check_v2,
+            'cohort': 'data/pilot/cohort-v2.json', 'output': 'artifacts/estimate-evaluation-v2'}}
 SETS = ('set1_A', 'set2_AB', 'set3_ABC')
 MODELS = (('strength_logistic', 'diagnostic_union_score'), ('equal_odds', 'p_equal_odds'),
           ('training_prior', 'p_training_prior'))
@@ -188,11 +194,12 @@ def authorize(root, path=DEFAULT_AUTHORIZATION, ledger_path=DEFAULT_LEDGER):
     return auth, current
 
 
-def evaluate_estimates(root):
-    auth, ledger_sha = authorize(root)
-    check(root)
-    ledger = read_json(safe_path(root, DEFAULT_LEDGER))
-    records, _ = build_dataset(root)
+def evaluate_estimates(root, version=1):
+    run = RUNS[version]
+    auth, ledger_sha = authorize(root, run['authorization'], run['ledger'])
+    run['check'](root, run['ledger'])
+    ledger = read_json(safe_path(root, run['ledger']))
+    records, _ = build_dataset(root, run['cohort'])
     rows, excluded, excluded_any = assemble(variant_estimates(ledger), records)
     results = {}
     for k in SETS:
@@ -202,11 +209,13 @@ def evaluate_estimates(root):
             r['common_rows'] = common_comparison(rows[k])
             r['newly_covered_rows'] = new_rows_comparison(r['predictions'], rows[k])
         results[k] = r
+    extra = {} if version == 1 else {'run_version': version, 'cohort': {'path': run['cohort'], 'sha256': digest(safe_path(root, run['cohort']))},
+                                     'output': run['output'] + '.json'}
     return {'kind': 'estimate_layer_evaluation', 'model_id': 'strength-logistic-v1',
             'status': 'exploratory_estimate_layer_diagnostic_not_baseline',
-            'authorization': {'path': DEFAULT_AUTHORIZATION, 'sha256': digest(safe_path(root, DEFAULT_AUTHORIZATION)),
+            'authorization': {'path': run['authorization'], 'sha256': digest(safe_path(root, run['authorization'])),
                               'owner_decision_date': auth['decision_date'], 'option': auth['option']},
-            'ledger': {'path': DEFAULT_LEDGER, 'sha256': ledger_sha},
+            'ledger': {'path': run['ledger'], 'sha256': ledger_sha}, **extra,
             'validation': 'leave_one_campaign_out', 'ridge': 1.0, 'rule4_factor_primary': str(OPPONENT_FACTOR),
             'rows_excluded_post_start_information': excluded_any,
             'frozen_baseline_reference': {**FROZEN_REFERENCE, 'rows': 23, 'campaigns': 13, 'equal_odds_brier': 0.25},
@@ -247,7 +256,8 @@ def report_text(result):
         lines.append(f"| {k} | {r['rows']} | {r['campaigns']} | {r['union_wins']} | {grades} | {_fmt(m, 'strength_logistic')} "
                      f"| {_fmt(m, 'equal_odds')} | {_fmt(m, 'training_prior')} |")
     ref = result['frozen_baseline_reference']
-    lines += ['', 'Per-set §5 label counts, folds and every prediction are in `estimate-evaluation.json`.', '',
+    out_name = result.get('output', 'artifacts/estimate-evaluation.json').split('/')[-1]
+    lines += ['', f'Per-set §5 label counts, folds and every prediction are in `{out_name}`.', '',
               f"Frozen baseline reference ({ref['rows']} rows, {ref['campaigns']} campaigns): "
               f"{ref['battle_weighted_brier']:.4f} / {ref['campaign_weighted_brier']:.4f}.", '',
               '## Common and newly covered rows', '',
