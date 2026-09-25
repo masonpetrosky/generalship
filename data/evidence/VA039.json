@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA039",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Auburn record (October 13, 1863) in the Bristoe Campaign [October-November 1863]. The next morning's fight at Auburn is the separate frozen record VA041. Campaign-wide marches, captures, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades; the live field reads zero. NPS says Stuart had Fitzhugh Lee's and Lomax's brigades. Stuart says he advanced with Lomax's brigade and the brigades of Funsten and Gordon, left Lomax at Auburn, and had seven guns with him when cut off. Humphreys says Stuart had a brigade of cavalry among the Second Corps and Gregg's cavalry.",
+      "rationale": "The accounts name different Confederate brigades and give no counts; none is adopted. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA039"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-va039-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va039-v1",
+          "locator": "Description",
+          "quote": "Stuart, with Fitzhugh Lee and Lomax's brigades,"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "I sent forward Lomax’s brigade in the direction of Catlett's Station, and followed with the brigades of Funsten and Gordon,"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "I had with me seven pieces of artillery and the force of cavalry already named,"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "auburn-14th",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "General Stuart, with a brigade of Confederate cavalry, found himself in the midst of our troops of the Second Corps and Gregg's cavalry,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "mill-race-and-thicket",
+      "dimension": "terrain",
+      "value": "Stuart says the Auburn road was his only way out toward Warrenton, with woods on one side and a mill-race for several miles on the other. Humphreys says Stuart hid all night in a dense thicket of old-field pine; NPS calls it a wooded ravine.",
+      "rationale": "Ground described by the Confederate commander, an interested history and a summary; no map verification.",
+      "citations": [
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "That was the only road of egress toward Warrenton."
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "on my left for several miles a mill-race."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "auburn-14th",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "remained concealed all night in a dense thicket of old-field pine along the road from Auburn to Catlett's."
+        },
+        {
+          "source_id": "nps-va039-v1",
+          "locator": "Description",
+          "quote": "Stuart secreted his troopers in a wooded ravine"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "wagon-park",
+      "dimension": "logistics",
+      "value": "Stuart says he saw the retreating army with an immense park of wagons between Warrenton Junction and Catlett's, and that he could have damaged the trains but held back for a movement of the whole army.",
+      "rationale": "Observed Union trains from the Confederate commander's report; no transport return inspected.",
+      "citations": [
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "had an immense park of wagons stationed between Warrenton Junction and Catlett’s."
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "with which I could have inflicted damage on the enemy and his immense trains,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "messengers-and-blind-spots",
+      "dimension": "information",
+      "value": "Stuart says Lomax's courier about the loss of Auburn did not reach him by 9 p.m., that captured dispatches showed the enemy did not know his position, and that his six messengers got through to Lee by 1 a.m. Humphreys says Stuart communicated his situation to Lee during the night, while Meade's information on the position of Lee's army that evening was erroneous.",
+      "rationale": "Attributed knowledge from interested accounts on both sides; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "By 9 p. m. I had received no notification from General Lomax that the enemy had dispossessed him of his position at Auburn,"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "the enemy was ignorant of my position,"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "All of these messengers got safely through by 1 o’clock at night."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "auburn-14th",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "He managed, during the night, to communicate his situation and the position of our troops there to General Lee."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "night-of-the-13th",
+          "locator": "p.21 (OCR page markers; not checked against print)",
+          "quote": "The information General Meade had as to the position of Lee's army on the evening of the 13th of October was, however, erroneous;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-and-concealment",
+      "dimension": "objectives",
+      "value": "Stuart says Lee sent him to reconnoitre toward Catlett's Station, and that he concealed his force believing a move by the whole army would achieve more. Humphreys says Meade, with great reluctance, decided to take up the Centreville position.",
+      "rationale": "Stated aims from interested accounts; the army movements are campaign context.",
+      "citations": [
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "I was directed by the com- manding general to make a reconnaissance with the cavalry force available toward Catlett’s Station."
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "believing that a more decided result could be obtained by a movement of our whole army, I carefully concealed my force from view,"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "night-of-the-13th",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "with great reluctance General Meade concluded to take up the position of Centreville,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Stuart says he left Lomax to hold the Auburn road and that Lomax says he sent a courier. NPS says Stuart skirmished with the rearguard of the III Corps. The frozen commanders are Major Generals Stuart and William H. French; no inspected passage describes French's role on October 13, and the live heading gives Stuart no rank.",
+      "rationale": "Command roles from interested accounts and a summary; the frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "I directed him to remain at this point and hold the road from Auburn to Warrenton Junction;"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "though he informs me that a courier was sent with the information."
+        },
+        {
+          "source_id": "nps-va039-v1",
+          "locator": "Description",
+          "quote": "skirmished with the rearguard of the Union III Corps near Auburn."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA039",
+            "belligerent": "Confederate",
+            "fullname": "J.E.B. Stuart"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA039",
+            "belligerent": "US",
+            "fullname": "William H. French"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va039-v1",
+          "locator": "Principal Commanders",
+          "quote": "James Stuart [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. NPS says the Federals moved on unsuspecting. Stuart says Lomax, cut off at Auburn, was attacked and held until ordered to retire.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA039"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va039-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-va039-v1",
+          "locator": "Description",
+          "quote": "until the unsuspecting Federals moved on."
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.449 (OCR page markers; not checked against print)",
+          "quote": "he had barely time to move his command around the head of this column when he was attacked."
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.449 (OCR page markers; not checked against print)",
+          "quote": "our sharpshooters did not retire until ordered to do so."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 50 total; the live field reads zero. No inspected passage gives an October 13 count.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Humphreys' Auburn-and-Bristoe totals concern October 14 and are not assigned here.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA039"
+          },
+          "column": "casualties_text",
+          "quote": "50 total"
+        },
+        {
+          "source_id": "nps-va039-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Lomax's and Gregg's reports and the III and II Corps reports remain deferred.",
+    "NPS/CWSAC is one family. Humphreys is an interested history by the Army of the Potomac's chief of staff in 1863–64, per his publisher's list. Stuart's, A. P. Hill's and Lee's reports, printed in Official Records Series I, Volume XXIX, Part 1, are separate families of interested Confederate commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

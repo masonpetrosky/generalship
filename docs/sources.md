@@ -68,6 +68,16 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Bristoe Campaign first pass, 2026-09-25
+
+The [five-record memo](research/bristoe-first-pass-v1.md) adds **16 records**, bringing
+the registry to **531 entries / 512 raw paths**, preserving the previous **515/496**. Five
+NPS battle HTML/text pairs remain in the NPS/CWSAC family. Official Records Series I
+Volume XXIX Part 1 (Internet Archive `warofrebellion291unit`) is pinned with catalog
+metadata, full OCR and Stuart, Hill and Lee selections; a new Humphreys selection reuses
+`humphreys-ocr-v2`. Character ranges and whitespace-only normalization reproduce all
+sections. No model inputs are changed.
+
 ### Morgan's Raid review correction, 2026-09-25
 
 Three `metadata_only` revisions supersede `or23-1-burnside-morgan-raid-selections-v1`,

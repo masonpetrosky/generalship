@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA043",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Rappahannock Station record (November 7, 1863) in the Bristoe Campaign [October-November 1863]. NPS describes the Kelly's Ford crossing the same day; whether the frozen record includes it is not established, and Rodes's Kelly's Ford losses are not added. Campaign-wide marches, captures, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Corps; the live field reads zero. Humphreys says Russell's assaulting force numbered 2,117 and computes about 1,950 Confederates present in the works from Early's figures; he says Sedgwick called the defenders numerically equal to the attackers. Lee says a force estimated at three army corps deployed in front, and that the defenders, though inferior in numbers, could not be attacked on a wider front than their own.",
+      "rationale": "Assault-force, defender and army-level figures differ in scope; none is adopted. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA043"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va043-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.46 (OCR page markers; not checked against print)",
+          "quote": "the number that captured the works and held them — was 2,117."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "make the number present in the works 1,950."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "the enemy's intrenchments were defended by a force numerically equal to the attacking force."
+        },
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-10",
+          "locator": "p.610 (OCR page markers; not checked against print)",
+          "quote": "a force, estimated to be three army corps,"
+        },
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-20",
+          "locator": "p.612 (OCR page markers; not checked against print)",
+          "quote": "though inferior to the enemy in numbers,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "tete-de-pont",
+      "dimension": "terrain",
+      "value": "Lee says the Federals had earlier built small earthworks on the hills, which his army converted into a tete-de-pont with rifle trenches, and that the works were slight but deemed adequate. Humphreys says a dam made a deep pool along the works, that Early criticised them, and that Wright called the place a strong natural position fortified with much labor. Lee says the valley and a strong wind concealed the night advance.",
+      "rationale": "Works in place before the day; their adequacy is disputed between Lee, Early (as relayed) and Wright. No map verification.",
+      "citations": [
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-20",
+          "locator": "p.611 (OCR page markers; not checked against print)",
+          "quote": "The enemy had previously constructed some small earth-works on these hills to repel an attack from the south."
+        },
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-20",
+          "locator": "p.611 (OCR page markers; not checked against print)",
+          "quote": "That on the north side was converted into a tete-de-pont,"
+        },
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-20",
+          "locator": "p.611 (OCR page markers; not checked against print)",
+          "quote": "These works were slight, but were deemed adequate to accomplish the object for which they were intended."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.39 (OCR page markers; not checked against print)",
+          "quote": "A dam was built across the river below the works, making a deep pool along their length."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.39 (OCR page markers; not checked against print)",
+          "quote": "General Early criticises the works on the north side of the river,"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.39 (OCR page markers; not checked against print)",
+          "quote": "a strong natural posi- tion, fortified with much labor and care."
+        },
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-20",
+          "locator": "p.613 (OCR page markers; not checked against print)",
+          "quote": "The valley in our front aided in concealing his advance from view and a strong wind effectually prevented any movement from being heard."
+        }
+      ],
+      "phase": "inherited",
+      "status": "disputed"
+    },
+    {
+      "id": "pasturage-and-siege-guns",
+      "dimension": "logistics",
+      "value": "Lee says most of his artillery had been sent to the rear for forage, leaving four guns in the tete-de-pont and eight opposite. Humphreys says the Army of the Potomac was fully supplied by November 6 and that ten siege guns were assigned to Sedgwick's column.",
+      "rationale": "Supply and armament statements from interested accounts; no return inspected.",
+      "citations": [
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-20",
+          "locator": "p.611 (OCR page markers; not checked against print)",
+          "quote": "most of the artillery sent to the nearest point in the rear where the animals could be foraged."
+        },
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-20",
+          "locator": "p.611 (OCR page markers; not checked against print)",
+          "quote": "Four pieces of artillery were placed in the tete-de-pont and eight others in the works opposite."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "By the 6th of November the Army of the Poto- mac was fully supplied,"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.40 (OCR page markers; not checked against print)",
+          "quote": "ten siege guns were assigned to the column."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "darkness-and-feint",
+      "dimension": "information",
+      "value": "Lee says his scouts reported the Federal approach, but that the lateness of the hour led to the belief nothing would be attempted until morning, and that no report states sharpshooters were thrown forward. Humphreys says Lee left the hill calling Sedgwick's move a feint, that Meade knew the character of the defences, and that the assault was a complete surprise.",
+      "rationale": "Attributed knowledge from interested accounts on both sides.",
+      "citations": [
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-20",
+          "locator": "p.612 (OCR page markers; not checked against print)",
+          "quote": "His movements were regularly reported by our scouts,"
+        },
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-20",
+          "locator": "p.613 (OCR page markers; not checked against print)",
+          "quote": "induced the belief that nothing would be attempted until morning."
+        },
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-20",
+          "locator": "p.613 (OCR page markers; not checked against print)",
+          "quote": "but it is not stated that this precaution was taken."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.46 (OCR page markers; not checked against print)",
+          "quote": "Sedg- wick's movement was, in his opinion, a feint,"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.39 (OCR page markers; not checked against print)",
+          "quote": "had been ascer- tained by General Meade,"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.46 (OCR page markers; not checked against print)",
+          "quote": "The assault was a complete surprise,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "hold-the-bridgehead-or-force-it",
+      "dimension": "objectives",
+      "value": "Lee says he held the north bank to deter a winter advance, threaten flank movements and force the enemy to divide. Humphreys says Sedgwick was ordered to drive the enemy from both banks, cross and advance toward Brandy Station.",
+      "rationale": "Stated aims from the Confederate commander and an interested history; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-10",
+          "locator": "p.610 (OCR page markers; not checked against print)",
+          "quote": "With the view of deterring him, if possible, from advancing farther into the interior this winter,"
+        },
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-20",
+          "locator": "p.611 (OCR page markers; not checked against print)",
+          "quote": "to threaten any flank movement the enemy might make above or below, and thus compel him to divide his forces,"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.40 (OCR page markers; not checked against print)",
+          "quote": "drive the enemy from his posi- tions on both banks of the river at that place, cross, and advance toward Brandy Station."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Lee says his suggestions are the only explanation he can give and that the troops' courage is beyond question. Humphreys says Russell led the assault in person, that Sedgwick commended Russell, Upton and Ellmaker, and that Wright called it the war's first carrying of an important intrenched position at the first assault. The frozen commanders are General Lee and Major General Meade; the live heading ranks Lee Major General.",
+      "rationale": "Judgments are attributed; the frozen commanders do not receive automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-20",
+          "locator": "p.613 (OCR page markers; not checked against print)",
+          "quote": "The suggestions above mentioned afford the only explanation I am able to give of this unfortunate affair,"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.43 (OCR page markers; not checked against print)",
+          "quote": "led the assault in person,"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "General Sedgwick commended particularly the conduct of General Russell, Colonels Upton and Ellmaker,"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "this was the first case during the war of an intrenched position of importance being carried on the first assault."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA043",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA043",
+            "belligerent": "US",
+            "fullname": "George G. Meade"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va043-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen results text reads Union victory while the frozen result code reads Inconclusive; the live field reads Union Victory. NPS says the dusk attack overran the bridgehead and captured more than 1,600 of Early's division; Lee says the troops were withdrawn and the army returned south of the Rapidan.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The two frozen result fields disagree; neither is changed.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA043"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA043"
+          },
+          "column": "result",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va043-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-va043-v1",
+          "locator": "Description",
+          "quote": "A dusk attack overran the Confederate bridgehead at Rappahannock Station, capturing more than 1,600 men of Jubal Early's Division."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "The assault was gallantly made, and its success was complete."
+        },
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-10",
+          "locator": "p.611 (OCR page markers; not checked against print)",
+          "quote": "I accordingly withdrew on Sunday night to the south bank of the Rapidan,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 2,537 total (1,600 Confederate prisoners); the live field reads 2,502 (US 461; CS 2,041). Lee gives Early's loss, including the artillery, as 6 killed, 39 wounded and 1,629 missing, and Rodes's at Kelly's Ford as 5 killed, 59 wounded and 295 missing. Humphreys relays Early's figures as 6 killed, 35 wounded and 1,631 missing (1,672 total), and gives Russell's division 336 killed and wounded and 2 missing.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Kelly's Ford losses are a separate crossing and are not added; Lee's and Humphreys' readings of Early's figures differ slightly.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA043"
+          },
+          "column": "casualties_text",
+          "quote": "2,537 total (1,600 Confederate prisoners)"
+        },
+        {
+          "source_id": "nps-va043-v1",
+          "locator": "Estimated Casualties",
+          "quote": "2502 total (US 461; CS 2041;)"
+        },
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-20",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "General Early’s loss, including that of the artil- lery, was 6 killed, 39 wounded, and 1,629 missing."
+        },
+        {
+          "source_id": "or29-1-lee-rappahannock-station-selections-v1",
+          "section": "lee-1863-11-20",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "The loss of General Rodes at Kelly’s Ford was 5 killed, 59 wounded, and 295 missing."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "His total loss of killed, wounded and missing was, therefore, 1,672 officers and enlisted men."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "rappahannock-station",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "total for the division, 336 killed and wounded and two missing."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Early's, Hays's, Russell's, Upton's and Sedgwick's reports and the returns remain deferred; whether the frozen record includes Kelly's Ford is not established.",
+    "NPS/CWSAC is one family. Humphreys is an interested history by the Army of the Potomac's chief of staff in 1863–64, per his publisher's list. Stuart's, A. P. Hill's and Lee's reports, printed in Official Records Series I, Volume XXIX, Part 1, are separate families of interested Confederate commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

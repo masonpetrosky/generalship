@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA041",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Auburn (Coffee Hill) record (October 14, 1863) in the Bristoe Campaign [October-November 1863]. The previous evening's action is the separate frozen record VA039, and the afternoon fight is Bristoe Station (VA040). Campaign-wide marches, captures, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades; the live field reads zero. NPS names Owen's and Smyth's Union brigades against Stuart's cavalry and infantry of Harry Hays's division. Humphreys says General Alexander Hays, commanding the Union second division, detached two regiments against Stuart. Stuart says he opened seven guns on an army corps.",
+      "rationale": "NPS's 'Harry Hays's division' and Humphreys' Union General Alexander Hays conflict; no counts are given. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA041"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-va041-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va041-v1",
+          "locator": "Description",
+          "quote": "Owens and Smyth's Union brigades (Warren's II Corps) fought a rearguard action against Stuart's cavalry and infantry of Harry Hays's division near Auburn."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "auburn-14th",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "General Alexander Hays, commanding the second division, promptly detached two regiments to attack Stuart's cavalry,"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "I opened seven guns upon the enemy"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "an unequal contest with an army corps,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fog-and-rolling-ground",
+      "dimension": "terrain",
+      "value": "Stuart says dense morning fog concealed him, that the Union troops used the rolling ground to work around his flanks, and that he withdrew across the mill-race once it was bridged. Humphreys places the cavalry attack south of Cedar Run.",
+      "rationale": "Ground and weather from interested accounts; no map verification.",
+      "citations": [
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "The morning came and with it a dense fog,"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "under the cover of the rolling ground,"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "moved across the mill-race, which was soon bridged,"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "auburn-14th",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "attacked Gregg's cav- alry division on the south side of Cedar Run ;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "train-and-march",
+      "dimension": "logistics",
+      "value": "Humphreys says Hays's and Webb's divisions moved with the train toward Catlett's while Caldwell held the enemy in check. Stuart says he halted his command for feed after breaking out.",
+      "rationale": "Movement statements from interested accounts; no return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "auburn-14th",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "with the train, moved accord- ing to the order of march toward Catlett's,"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "auburn-14th",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "while General Caldwell kept the enemy in check,"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "Halting my command near this route for feed,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "campfires-and-signals",
+      "dimension": "information",
+      "value": "Humphreys says Caldwell's campfires disclosed his position to Stuart. Stuart says his men could hear every word spoken, that he opened fire on hearing a volley he took for the main army's attack, and that the infantry fire then ceased. NPS says Stuart bluffed Warren's infantry and escaped disaster.",
+      "rationale": "Attributed knowledge from interested accounts and a summary.",
+      "citations": [
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "auburn-14th",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "made fires, which disclosed their exact position to Gen- eral Stuart,"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "we heard every word spoken."
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "believing that it was our attack in earnest,"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "the fire of our infantry ceased as soon as I opened,"
+        },
+        {
+          "source_id": "nps-va041-v1",
+          "locator": "Description",
+          "quote": "Stuart's cavalry boldly bluffed Warren's infantry and escaped disaster."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "co-operate-or-escape",
+      "dimension": "objectives",
+      "value": "Stuart says he placed his guns to co-operate with any attack by the main body on the Union flank, and that a vigorous attack at the time he expected it would have annihilated the corps. Humphreys says Caldwell held until the road was clear.",
+      "rationale": "Stated aims and a counterfactual attributed to the Confederate commander; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "I was prepared to co-operate with any attack made by our main body upon the fiank."
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "A vigor- ous attack with our main body at the time that I expected it would have insured the annihilation of that army corps."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "auburn-14th",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "retiring when the road was clear,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Stuart says Gordon ordered the First North Carolina forward and that Colonel Ruffin fell; Humphreys says Hays's two regiments met the charge and Ruffin was mortally wounded. The frozen commanders are Major Generals Stuart and G. K. Warren; the live heading gives Stuart no rank.",
+      "rationale": "Command roles from interested accounts; the frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "ordered forward one of his regi- ments (the old First),"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "The colonel of the regiment fell in the charge."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "auburn-14th",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "Colonel Thomas Ruf- fin, charging furiously upon these regiments, was mortally wounded."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA041",
+            "belligerent": "Confederate",
+            "fullname": "J.E.B. Stuart"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA041",
+            "belligerent": "US",
+            "fullname": "G.K. Warren"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va041-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Gouverneur Warren [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Stuart says he was compelled to withdraw his artillery; Humphreys says Stuart escaped; NPS says the II Corps pushed on to Catlett Station.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA041"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va041-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "I was compelled most reluctantly to withdraw the artillery;"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "auburn-14th",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "General Stuart escaped from his entanglement,"
+        },
+        {
+          "source_id": "nps-va041-v1",
+          "locator": "Description",
+          "quote": "The II Corps pushed on to Catlett Station on the Orange & Alexandria Railroad."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 113 total; the live field reads zero. Stuart speaks only of comparatively small loss.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Humphreys' Auburn-and-Bristoe totals are not assigned here.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA041"
+          },
+          "column": "casualties_text",
+          "quote": "113 total"
+        },
+        {
+          "source_id": "nps-va041-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-auburn",
+          "locator": "p.449 (OCR page markers; not checked against print)",
+          "quote": "with the com- paratively small loss which I sustained"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Caldwell's, Hays's, Gregg's and Gordon's reports remain deferred.",
+    "NPS/CWSAC is one family. Humphreys is an interested history by the Army of the Potomac's chief of staff in 1863–64, per his publisher's list. Stuart's, A. P. Hill's and Lee's reports, printed in Official Records Series I, Volume XXIX, Part 1, are separate families of interested Confederate commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

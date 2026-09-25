@@ -141,6 +141,11 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [VA036](../data/evidence/VA036.json) | 9 | 1 | 0 | 0 | draft |
 | [VA037](../data/evidence/VA037.json) | 9 | 1 | 0 | 0 | draft |
 | [VA038](../data/evidence/VA038.json) | 9 | 1 | 0 | 0 | draft |
+| [VA039](../data/evidence/VA039.json) | 9 | 1 | 0 | 0 | draft |
+| [VA040](../data/evidence/VA040.json) | 9 | 1 | 0 | 0 | draft |
+| [VA041](../data/evidence/VA041.json) | 9 | 1 | 0 | 0 | draft |
+| [VA042](../data/evidence/VA042.json) | 9 | 1 | 0 | 0 | draft |
+| [VA043](../data/evidence/VA043.json) | 9 | 1 | 0 | 0 | draft |
 | [VA100](../data/evidence/VA100.json) | 10 | 3 | 0 | 0 | draft |
 | [VA101](../data/evidence/VA101.json) | 10 | 2 | 0 | 0 | draft |
 | [VA102](../data/evidence/VA102.json) | 9 | 2 | 0 | 0 | draft |
@@ -163,8 +168,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 110 engagements have dossiers; 17 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [East Tennessee Campaign first pass](../docs/research/east-tennessee-first-pass-v1.md) adds both frozen records: 19 claims, 2 explicit unknowns and 80 citations from NPS/CWSAC and Foster's, Samuel Jones's, Burnside's and Williams's Official Records reports. The Blountsville fire and Blue Springs assault disputes and casualty differences remain visible; separate campaign review is pending. Next take the complete five-record Bristoe Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 115 engagements have dossiers; 12 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Bristoe Campaign first pass](../docs/research/bristoe-first-pass-v1.md) adds all five frozen records: 45 claims, 5 explicit unknowns and 190 citations from NPS/CWSAC, Humphreys, and Stuart's, A. P. Hill's and Lee's Official Records reports. Overlapping October 14 actions are kept separate, and the Buckland date, corps-identification and casualty disputes remain visible; separate campaign review is pending. Next take the complete one-record Reopening the Tennessee River. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

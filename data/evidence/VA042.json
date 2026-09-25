@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA042",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Buckland Mills record (October 19, 1863) in the Bristoe Campaign [October-November 1863]. Humphreys places the action on October 20; the frozen date is retained. Campaign-wide marches, captures, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions; the live field reads zero. Stuart gives Kilpatrick ten regiments of cavalry and six guns. Humphreys says the whole Confederate cavalry was engaged, with 6,867 enlisted men present on its October 20 return, against Kilpatrick's 3,500 on September 30.",
+      "rationale": "Returns and a regiment count differ in date and scope; none is adopted. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA042"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va042-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-buckland",
+          "locator": "p.452 (OCR page markers; not checked against print)",
+          "quote": "consisted of ten regi- ments of cavalry and six pieces of artillery,"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "buckland",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "The whole of the enemy's cavalry were engaged in this affair;"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "buckland",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "6,867 as the number of enlisted men present for duty"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "buckland",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "Kilpatrick's division, on the return of September 30, had 3,500 enlisted men present for duty."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "broad-run-and-chestnut-hill",
+      "dimension": "terrain",
+      "value": "Stuart says he first held positions along Broad Run and then fell back to Chestnut Hill, within about two and a half miles of Warrenton. Humphreys says Custer's brigade forced the passage of Broad Run at Buckland Mills.",
+      "rationale": "Positions from interested accounts; no map verification.",
+      "citations": [
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-buckland",
+          "locator": "p.451 (OCR page markers; not checked against print)",
+          "quote": "Selecting advantageous positions for sharpshooters and artillery along Broad Run,"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-buckland",
+          "locator": "p.451 (OCR page markers; not checked against print)",
+          "quote": "until I reached Chestnut Hill, within 2-J miles of Warrenton."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "buckland",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "At Buckland Mills the pas- sage of Broad Run was forced by Custer's brigade."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forage-and-captures",
+      "dimension": "logistics",
+      "value": "Stuart says forage for the horses was his greatest concern in the campaign, and that he captured 8 wagons and ambulances and Custer's headquarters baggage.",
+      "rationale": "Supply statements from the Confederate commander's report; no return inspected.",
+      "citations": [
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-buckland",
+          "locator": "p.452 (OCR page markers; not checked against print)",
+          "quote": "The matter of greatest concern to me during this short and eventful campaign was the subject of forage for the horses."
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-buckland",
+          "locator": "p.452 (OCR page markers; not checked against print)",
+          "quote": "together with 8 wagons and ambulances, Brigadier-General Custer’s headquarters baggage and official papers,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouts-and-signal-gun",
+      "dimension": "information",
+      "value": "Humphreys says Kilpatrick's scouts first reported no enemy on either flank, then brought word of Fitzhugh Lee's advance from Greenwich. Stuart says he agreed to turn on the enemy at Lee's signal gun and attacked on hearing it.",
+      "rationale": "Attributed knowledge from interested accounts.",
+      "citations": [
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "buckland",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "Upon their return they reported no enemy on either flank;"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "buckland",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "was informed by scouts of the ad- vance from Greenwich of Lee's cavalry,"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-buckland",
+          "locator": "p.451 (OCR page markers; not checked against print)",
+          "quote": "I would be ready to turn upon the enemy at his signal gun,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "lure-and-flank",
+      "dimension": "objectives",
+      "value": "Stuart says Fitzhugh Lee suggested that he retire toward Warrenton, drawing the enemy after him, while Lee attacked from Auburn in flank and rear. Humphreys says Kilpatrick was sent forward to discover the enemy's movements and that Stuart's slow retreat had been agreed with Lee.",
+      "rationale": "Stated plans from interested accounts; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-buckland",
+          "locator": "p.451 (OCR page markers; not checked against print)",
+          "quote": "suggesting that I should retire before the enemy with Hampton’s division in the direc- tion of Warrenton,"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-buckland",
+          "locator": "p.451 (OCR page markers; not checked against print)",
+          "quote": "when he would come in from Auburn and attack them in flank and rear."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "buckland",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "to discover the movements of the enemy."
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "buckland",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "as agreed upon between ; himself and General Fitzhugh Lee,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Stuart gives great credit to Fitzhugh Lee for the plan. The frozen commanders are Stuart and Kilpatrick, both Major Generals; Stuart calls Kilpatrick Brigadier-General and the live heading gives Brigadier General Hugh Kilpatrick.",
+      "rationale": "The frozen Kilpatrick rank conflicts with Stuart and the live heading; none is adopted. The frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-buckland",
+          "locator": "p.452 (OCR page markers; not checked against print)",
+          "quote": "Great credit is due to Maj. Gen. Fitz. Lee for this plan,"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-buckland",
+          "locator": "p.452 (OCR page markers; not checked against print)",
+          "quote": "commanded by Brigadier- General Kilpatrick,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA042",
+            "belligerent": "Confederate",
+            "fullname": "J.E.B. Stuart"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA042",
+            "belligerent": "US",
+            "fullname": "H. Judson Kilpatrick"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va042-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Hugh Kilpatrick [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. NPS says the Union cavalry was lured into an ambush and routed; Stuart calls the rout the most complete any cavalry suffered in the war. Stuart's dispatch dated October 20 places the fight 'yesterday', while Humphreys narrates it on the 20th.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The date conflict is recorded, not resolved; the frozen October 19 is retained.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA042"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va042-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-va042-v1",
+          "locator": "Description",
+          "quote": "were lured into an ambush near Chestnut Hill and routed."
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-buckland",
+          "locator": "p.452 (OCR page markers; not checked against print)",
+          "quote": "the rout of the enemy at Buckland the most signal and complete that any cavalry has suffered during the war."
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1863-10-20-buckland",
+          "locator": "p.438 (OCR page markers; not checked against print)",
+          "quote": "Buckland, Va., October 20, 1863."
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1863-10-20-buckland",
+          "locator": "p.438 (OCR page markers; not checked against print)",
+          "quote": "at this point yesterday,"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "buckland",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "early on the morning of the 20th, and Kilpatrick sent forward toward Warrenton at daylight"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 230 total; the live field reads zero. Humphreys, citing the Medical and Surgical History, gives 20 killed, 60 wounded and 100 missing in Kilpatrick's division and 10 killed and 40 wounded in Stuart's cavalry, which sum to 230 (a computation here). Stuart reported about 200 prisoners and about 30 casualties in his dispatch and about 250 prisoners in his later report.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA042"
+          },
+          "column": "casualties_text",
+          "quote": "230 total"
+        },
+        {
+          "source_id": "nps-va042-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-bristoe-selections-v1",
+          "section": "buckland",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "was twenty killed, sixty wounded, and 100 missing in Kilpatrick's division ; and ten killed and forty wounded in Stuart's cavalry."
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1863-10-20-buckland",
+          "locator": "p.438 (OCR page markers; not checked against print)",
+          "quote": "We captured about 200 prisoners,"
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1863-10-20-buckland",
+          "locator": "p.439 (OCR page markers; not checked against print)",
+          "quote": "Our casualties were slight, about 30 in all."
+        },
+        {
+          "source_id": "or29-1-stuart-bristoe-selections-v1",
+          "section": "stuart-1864-02-13-buckland",
+          "locator": "p.452 (OCR page markers; not checked against print)",
+          "quote": "About 250 prisoners were captured,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Kilpatrick's, Custer's, Davies's and Fitzhugh Lee's reports remain deferred.",
+    "NPS/CWSAC is one family. Humphreys is an interested history by the Army of the Potomac's chief of staff in 1863–64, per his publisher's list. Stuart's, A. P. Hill's and Lee's reports, printed in Official Records Series I, Volume XXIX, Part 1, are separate families of interested Confederate commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
