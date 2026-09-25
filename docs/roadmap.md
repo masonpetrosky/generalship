@@ -321,9 +321,12 @@ five attribution and OCR-reading corrections, all fixed and
 Coverage is **30/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Memphis & Charleston Railroad first pass](research/memphis-charleston-first-pass-v1.md) adds the
-sole **frozen record, TN022 (Collierville)**, with **9 claims, 1 explicit unknown and 41
+sole **frozen record, TN022 (Collierville)**, with **9 claims, 1 explicit unknown and 44
 citations** from NPS/CWSAC and Hatch's and Chalmers's reports in Official Records Volume
-XXXI Part 1. Separate review is pending.
+XXXI Part 1. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/memphis-charleston-264aa2d-opus-high-v1/review.md) found
+five attribution, category and inspection-record corrections, all fixed and
+[verified by the primary](../artifacts/review-results/memphis-charleston-264aa2d-opus-high-v1/primary-assessment.md).
 Coverage is **31/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Averell's Raid first pass](research/averell-raid-first-pass-v1.md) adds the sole

@@ -2,9 +2,10 @@
 
 Prepared 2026-09-25. The sole frozen record in **Operations on the Memphis & Charleston
 Railroad [November 1863]**, **TN022 — Collierville** (November 3, 1863), now has a draft
-dossier: **9 claims, 1 explicit null unknown and 41 citation occurrences**, covering all
-seven dimensions from three families. Separate review is pending. The dossier remains a
-draft; no features are admitted.
+dossier: **9 claims, 1 explicit null unknown and 44 citation occurrences** after review
+correction, covering all seven dimensions from three families. Separate Claude Opus 5.5
+`high` [review](../../artifacts/review-results/memphis-charleston-264aa2d-opus-high-v1/review.md) found five required corrections, all applied and verified
+by the primary. The dossier remains a draft; no features are admitted.
 
 Coverage is **117/127 draft dossiers**, **10 without**, and **31/36 complete source
 campaigns by dossier presence**. All 116 earlier dossiers and all historical revisions
@@ -22,8 +23,9 @@ Part 1 (`or31-1-illinois-ocr-v1`), each author its own group:
 - **Chalmers's** November 16 report and casualty return (pp.247–249; the p.247 head
   reads "^47").
 
-Hurlbut's and Trafton's reports were read but not selected. No maps, McCulloch's,
-Slemons's or Richardson's reports, or print pages were inspected. Stop after this batch.
+Hurlbut's and Trafton's reports were read in full but not selected. McCulloch's report was
+seen only in its opening lines and Slemons's only in a search snippet. No maps,
+Richardson's report or print pages were inspected. Stop after this batch.
 
 Four new source records bring the registry to **541 entries / 522 raw paths**,
 preserving the earlier **537/518**: one NPS HTML/text pair and two OR selections.
@@ -57,6 +59,28 @@ effect or new commander ranking is introduced. The cohort and both admission pro
 are unchanged, with **zero promoted rows**. The baseline still uses **23/127 engagements
 in 13 eligible groups**, with strength Brier **0.276882** against **0.250000** for equal
 odds.
+
+## Review correction and validation
+
+The reviewer found five required corrections, all verified against the retained text
+(each new quote occurs once) and applied:
+
+- **MC-01** reads Chalmers's "even behind intrenchments" as a conditional judgment made
+  before the attack, and places the Coldwater stand outside the record.
+- **MC-02** cites Hatch's order to the Second Iowa.
+- **MC-03** restores Chalmers's 4 wounded at Quinn's Mill.
+- **MC-04** corrects the inspection record. McCulloch's report was seen only in its opening
+  lines and Slemons's only in a search snippet. A `metadata_only` revision
+  (`or31-1-chalmers-collierville-selections-v2`) corrects the source record's inspection
+  note, and the dossier cites it.
+- **MC-05** limits the scouts' report to the two named posts.
+
+Notes N2 (the force-composition conflict) and N3 (the "full retreat" citation) are adopted;
+N1, N4 and N5 need no change. Citations rise from 41 to 44; claims and unknowns are
+unchanged. The original is retained as `data/evidence/history/TN022.v1.json`, linked by
+`supersedes`, and the registry is now **546 entries / 526 raw paths**. The
+[primary assessment](../../artifacts/review-results/memphis-charleston-264aa2d-opus-high-v1/primary-assessment.md) closes all five findings; no second
+reviewer pass is claimed.
 
 Next by frozen campaign start is **Averell's Raid on the Virginia & Tennessee Railroad
 [November 1863]**: WV012. Do not start that group within this batch.

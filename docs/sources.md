@@ -68,6 +68,13 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Memphis & Charleston Railroad review correction, 2026-09-25
+
+One `metadata_only` revision (MC-04) supersedes `or31-1-chalmers-collierville-selections-v1`
+with `-v2`, correcting its inspection note about McCulloch's and Slemons's reports. Raw
+files, hashes and ranges are unchanged; the registry is now **546 entries / 526 raw
+paths**.
+
 ### Averell's Raid first pass, 2026-09-25
 
 The [one-record memo](research/averell-raid-first-pass-v1.md) adds **4 records**, bringing

@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 0aaa6ad2-8a8d-4fa3-8a9d-4b5d21e70c66",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 216d15ec2c0bc3782f3564c65aca318bfef7a6b9; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T06:02:20Z",
+  "prepared_commit": "264aa2d675e3533e1c2c581eda914ccabf7111cb",
+  "bundle_commit": "216d15ec2c0bc3782f3564c65aca318bfef7a6b9",
+  "assignment_sha256": "491d94ff7dbf729ec541bf9e88a65038d60627b143b01cb7854b337a3f4ce3aa",
+  "inputs_manifest_sha256": "3d66aef428f760cb1999353ad41b4592af1e833ca93723992d59ec164669037e",
+  "num_turns": 27,
+  "duration_ms": 349646,
+  "terminal_reason": "completed",
+  "returned_message": "Five corrections are required before the TN022 (Collierville) dossier can pass review. None of them touches the numbers; they fix wording, missing citations and a contradiction in the record of what was read.\n\n**Review path:** `artifacts/review-results/memphis-charleston-264aa2d-opus-high-v1/review.md` (sha256 `3239bbef0e45a03be0ee3f43ff0f813c3c37a75c420a8990d657f546314296f6`). It is the only file I wrote, and it is uncommitted.\n\n**Outcome:** corrections required.\n\n**Required findings:** MC-01, MC-02, MC-03, MC-04, MC-05. Each has an exact replacement in the review, and I confirmed every proposed quote appears once, word for word, in its source text.\n- **MC-01:** The terrain claim says Chalmers \"found the enemy behind intrenchments.\" His report only says that, before attacking, he felt able to fight two cavalry regiments \"even behind intrenchments.\" That is his expectation, not something he found. The claim also says Chalmers recrossed Coldwater without a citation, although the record's own scope note puts Coldwater outside the engagement.\n- **MC-02:** The command-roles claim says Hatch brought the Second Iowa up dismounted, but no citation supports it. The fix adds one.\n- **MC-03:** The casualty claim leaves out Chalmers's \"wounding 4 too severely to move\" at the Quinn's Mill picket, even though the claim's own rationale says categories must be kept.\n- **MC-04:** The record of what was read contradicts itself. The memo says McCulloch's and Slemons's reports were not inspected, but the source registry says they were \"read in part.\" The dossier also calls Hurlbut's and Trafton's reports \"deferred,\" while the registry says they were read in full. The primary has to confirm which account is true.\n- **MC-05:** The information claim says the scouts reported \"one regiment at each post.\" Chalmers names only Germantown and Collierville. The fix adds that citation.\n\nMC-02 and MC-05 each add a citation, so the count goes from 41 to 43. That number then needs updating in the memo, README, roadmap, the report text in `cli.py` and the pilot report, and the TN022 research packet must be regenerated.\n\n**Non-blocking notes:** N1–N5. These are optional wording or citation additions, plus a flag that Chalmers and Hatch disagree about whether infantry was present.\n\n**What checked out:**\n- All 30 input hashes match the prepared commit `264aa2d`; the input manifest hash is `3d66aef4…`.\n- The NPS summary and both new Official Records excerpts rebuild exactly from their saved parents, and the parent scan text is unchanged.\n- All page locators match the page headers in the scan text, including the misread \"24G\" (p.246) and \"^47\" (p.247).\n- Coverage is 117/127 engagements with dossiers, 10 without, and 31/36 complete campaign groups.\n- The source registry has 541 records / 522 paths, and all older records, dossiers and history files are byte-identical.\n- No rows are promoted and the baseline is unchanged: Brier 0.2768816348133779 against 0.25 for equal odds.\n- The receipt and packet hashes all match.\n- `make check` passes offline: 82 tests, then the check command exits 0 without writing artifacts.\n- The next group is Averell's Raid, WV012, as the memo says.\n\nI did not look at print pages, facsimiles, maps or the subordinate reports. This is an AI review, not human historical adjudication, independent corroboration or feature admission."
+}

@@ -1,0 +1,79 @@
+{
+  "review_sha256": "3239bbef0e45a03be0ee3f43ff0f813c3c37a75c420a8990d657f546314296f6",
+  "prepared_commit": "264aa2d675e3533e1c2c581eda914ccabf7111cb",
+  "findings": [
+    {
+      "finding_id": "MC-01",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted with the proposed value, quote and rationale."
+    },
+    {
+      "finding_id": "MC-02",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted with the Second Iowa citation."
+    },
+    {
+      "finding_id": "MC-03",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted with the extended quote."
+    },
+    {
+      "finding_id": "MC-04",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "resolved from the primary's own inspection: Hurlbut and Trafton read in full; McCulloch seen only in its opening lines and Slemons only in a search snippet. Memo, open question and a metadata_only v2 source record corrected."
+    },
+    {
+      "finding_id": "MC-05",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted with the scouts citation."
+    },
+    {
+      "finding_id": "MC-N1",
+      "disposition": "no_change",
+      "summary": "section id is a label."
+    },
+    {
+      "finding_id": "MC-N2",
+      "disposition": "adopted",
+      "summary": "the force-composition conflict is named in the rationale."
+    },
+    {
+      "finding_id": "MC-N3",
+      "disposition": "adopted",
+      "summary": "the 'full retreat' quote is cited."
+    },
+    {
+      "finding_id": "MC-N4",
+      "disposition": "no_change",
+      "summary": "the rationale already bars adding the picket losses."
+    },
+    {
+      "finding_id": "MC-N5",
+      "disposition": "no_change",
+      "summary": "locators are accurate against the parent."
+    }
+  ],
+  "dossiers": {
+    "TN022": {
+      "dossier_path": "data/evidence/TN022.json",
+      "archived_dossier_path": "data/evidence/history/TN022.v1.json",
+      "archived_dossier_sha256": "f4e3729107aa6b9807686de6c9a9fedbece6038082d19871a19527b6350c4504",
+      "corrected_dossier_sha256": "bee81239c13e3f78c6852b07a03e3129f941a935398390ec9504bec08e1eab60",
+      "changed_claims": [
+        "reported-force-scope",
+        "stockade-and-ridge",
+        "ammunition-and-bridges",
+        "scouts-and-surprise",
+        "raid-and-assault",
+        "command-roles",
+        "recorded-result",
+        "casualty-records"
+      ]
+    }
+  },
+  "notes": "One metadata_only source revision (MC-04) is recorded in data/sources.json. Citations rise from 41 to 44; claims and unknowns are unchanged.",
+  "independent_followup_review": false,
+  "source_revisions": {
+    "or31-1-chalmers-collierville-selections-v1": "or31-1-chalmers-collierville-selections-v2"
+  }
+}

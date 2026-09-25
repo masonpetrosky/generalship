@@ -14275,6 +14275,59 @@
       ],
       "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
       "inspection": "Title and Echols's November 19 report read in full; the diagram was not found in OCR."
+    },
+    {
+      "title": "Official Records, series I, volume XXXI, part 1: University of Illinois/Internet Archive OCR",
+      "publication_year": 1890,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1890 per OCR title (read as 'OFFICE. 1890.' at the end of the selected title range; not checked against print); series I volume XXXI part I per OCR title and catalog volume v.31:1. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion311unit; University of Illinois Urbana-Champaign; digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "James R. Chalmers; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title dates unknown. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "chalmers-collierville-report",
+      "dependency_note": "Report of the Confederate cavalry commander at Collierville with his casualty return; interested accounts. Shared OR container with the other Volume XXXI Part 1 selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion311unit",
+      "source_kind": "official_report_compilation",
+      "id": "or31-1-chalmers-collierville-selections-v2",
+      "path": "data/raw/memphis-charleston-v1/chalmers-selections.txt",
+      "format": "text",
+      "sha256": "94f9998436f9615ab24b5c9a0d34d4e250ef7cbdbce21b67c3473a1059ea5ae3",
+      "parent_source_id": "or31-1-illinois-ocr-v1",
+      "parent_sha256": "646c2e925cd74430b0b024b85cf8f44100219afb4e9214e7d891ce49da364e7d",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 765,
+          "end": 1306
+        },
+        "chalmers-1863-11-16": {
+          "start": 860591,
+          "end": 870364
+        },
+        "chalmers-casualty-return": {
+          "start": 870387,
+          "end": 870970
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "chalmers-1863-11-16": "1863-11-16",
+        "chalmers-casualty-return": null
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title, Chalmers's November 16 report and the inclosed casualty return read in full; the return's columns are garbled in OCR. McCulloch's report was seen only in its opening lines and Slemons's only in a search snippet; neither was read or selected.",
+      "supersedes": {
+        "source_id": "or31-1-chalmers-collierville-selections-v1",
+        "metadata_sha256": "f541ef6e3d6619987d03c041fe76dec61fa18f615a5c803b995807442b328dc2"
+      },
+      "revision_kind": "metadata_only",
+      "revision_note": "MC-04: the v1 inspection note overstated reading of McCulloch's and Slemons's reports. Raw bytes and ranges are unchanged. Same pinned raw bytes; not an additional witness."
     }
   ]
 }
