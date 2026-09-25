@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **51 draft dossiers / 127 engagements**, with **76 without a dossier**.
+There are **54 draft dossiers / 127 engagements**, with **73 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -101,8 +101,16 @@ frozen aggregate operation; what Pope knew of Longstreet on August 30 is recorde
 as disputed. Separate review is pending.
 Coverage is **10/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Maryland Campaign [September 1862]**, the next complete frozen
-group by earliest engagement date: **four records, WV010, MD002, MD003, WV016** (MD003 already has a draft).
+The [Maryland first pass](research/maryland-first-pass-v1.md) adds the three undrafted
+records, **WV010, MD002 and WV016**; MD003 keeps its existing draft unchanged. The new
+dossiers have **29 claims, 4 explicit unknowns and 79 citations** from NPS/CWSAC and
+Palfrey's retrospective history. South Mountain's live NPS result field
+("Indecisive") conflicts with the frozen Union victory and is retained as a dispute,
+as is who surrendered Harpers Ferry. Separate review is pending.
+Coverage is **11/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Iuka and Corinth Operations [September-October 1862]**, the next complete frozen
+group by earliest engagement date: **three records, MS001, MS002, TN007**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

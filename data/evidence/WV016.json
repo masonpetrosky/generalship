@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "battle_id": "WV016",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the three undrafted frozen records in the Maryland Campaign; MD003 Antietam keeps its existing draft unchanged. Preserve per-engagement dates: Harpers Ferry September 12–15, South Mountain September 14 and Shepherdstown September 19–20. The live NPS campaign heading does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field says Brigades; the live field reads zero. Palfrey says volunteers from four regiments crossed on the 19th and a reconnaissance under Morell and Sykes on the 20th, and that nine or ten Confederate brigades took part.",
+      "rationale": "Two separate crossings with changing populations; no counts. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV016"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-wv016-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "shepherdstown",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "A reconnoissance in force was sent across the river the following morning"
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "shepherdstown",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "Nine or ten Confederate brigades took part in this affair"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "covered-fords",
+      "dimension": "terrain",
+      "value": "Palfrey says Confederate artillery beyond the river was well posted to cover the fords; NPS names the crossing Boteler's Ford.",
+      "rationale": "River-crossing description; no map verification or numerical terrain effect.",
+      "citations": [
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "shepherdstown",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "had artillery well posted to cover the fords."
+        },
+        {
+          "source_id": "nps-wv016-v1",
+          "locator": "Description",
+          "quote": "pushed across the river at Boteler's Ford"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supply-and-readiness-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "orders-miscarried",
+      "dimension": "information",
+      "value": "Palfrey says orders for Sykes to send a similar party did not reach him in time through a misunderstanding.",
+      "rationale": "Attributed communication failure, not an inspected message record.",
+      "citations": [
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "shepherdstown",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "by some misunderstanding the orders did not reach him seasonably."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "crossing-objectives",
+      "dimension": "objectives",
+      "value": "Palfrey says Porter set out to clear the fords and capture guns, then sent a reconnaissance in force; NPS says Porter aimed to establish a bridgehead on the 20th.",
+      "rationale": "The sources frame the September 20 crossing differently; no inspected order.",
+      "citations": [
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "shepherdstown",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "Porter determined to clear the fords and to try to capture some guns."
+        },
+        {
+          "source_id": "nps-wv016-v1",
+          "locator": "Description",
+          "quote": "to establish a bridgehead"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "NPS says Pendleton commanded the Confederate rearguard on the 19th; Palfrey says A. P. Hill had charge of the counterattack, Griffin led the first crossing, and the cavalry ordered to cooperate failed to do so.",
+      "rationale": "Different commanders on each day; the three frozen commanders (Porter, Pendleton, A. P. Hill) do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "nps-wv016-v1",
+          "locator": "Description",
+          "quote": "attacked the Confederate rearguard commanded by Brig. Gen. William Pendleton"
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "shepherdstown",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "A. P. Hill, who had charge of the operation"
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "shepherdstown",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "under the charge of General Griffin."
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "shepherdstown",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "The cavalry ordered to co-ope- rate, failed to do so"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Confederate victory. NPS says the action discouraged Federal pursuit; Palfrey says the September 20 reconnaissance was driven back across the river. NPS gives four captured guns on the 19th and Palfrey five.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The captured-gun count differs between the sources and is not resolved.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV016"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-wv016-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-wv016-v1",
+          "locator": "Description",
+          "quote": "captured four guns"
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "shepherdstown",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "resulted in the capture of five guns"
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "shepherdstown",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "driven back across the river with considerable loss"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 625 total; the live NPS field reads 654 total (US 363; CS 291;). NPS gives 269 casualties in the 118th Pennsylvania; Palfrey says it lost 282 of 800, and rejects A. P. Hill's reported claim of 3,000 killed and drowned from one brigade.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. A. P. Hill's figure is an attributed claim quoted by Palfrey, not a loss count.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV016"
+          },
+          "column": "casualties_text",
+          "quote": "625 total"
+        },
+        {
+          "source_id": "nps-wv016-v1",
+          "locator": "Estimated Casualties",
+          "quote": "654 total (US 363; CS 291;)"
+        },
+        {
+          "source_id": "nps-wv016-v1",
+          "locator": "Description",
+          "quote": "inflicting 269 casualties"
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "shepherdstown",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "It lost in all 282 out of 800"
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "shepherdstown",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "they lost 3,000 men killed and drowned from one brigade alone."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Returns, casualty reconciliation and the division of the action between September 19 and 20 remain deferred.",
+    "NPS/CWSAC is one family; Palfrey is one retrospective history by a Union officer who served in the campaign and used advance sheets of the Official Records. Reports quoted inside Palfrey are not additional independently inspected families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

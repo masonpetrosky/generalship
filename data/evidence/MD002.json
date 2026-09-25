@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "battle_id": "MD002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the three undrafted frozen records in the Maryland Campaign; MD003 Antietam keeps its existing draft unchanged. Preserve per-engagement dates: Harpers Ferry September 12–15, South Mountain September 14 and Shepherdstown September 19–20. The live NPS campaign heading does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field says Corps; the live field reads zero. Palfrey quotes McClellan's 30,000 on each side, caps the First and Ninth Corps present for duty at 35,155, and counts fourteen Confederate brigades against eighteen Federal (fifteen used) at Turner's Gap.",
+      "rationale": "Reported, computed and brigade-count estimates with different bases; none is adopted as a matched opening population. Crampton's Gap is a separate sub-action.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD002"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-md002-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.39 (OCR page markers; not checked against print)",
+          "quote": "into action with about thirty thousand men."
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.39 (OCR page markers; not checked against print)",
+          "quote": "higher than 35,- 155."
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.38 (OCR page markers; not checked against print)",
+          "quote": "fifteen brigades against fourteen Confed- erate brigades"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "mountain-passes",
+      "dimension": "terrain",
+      "value": "Palfrey describes Turner's Gap as about four hundred feet below a thousand-foot mountain, with steep, wooded, rocky slopes and stone fences that protected defenders; the passes were about six miles apart and fought separately. He says the Confederates knew the ground and the Federals did not.",
+      "rationale": "Retrospective terrain description; no map verification or numerical terrain effect.",
+      "citations": [
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "The mountain is at this point about one thousand feet high, but the depression of the Gap is some four hundred feet."
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "they afforded much protection to the troops defending the posi- tion."
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.31 (OCR page markers; not checked against print)",
+          "quote": "the attack and defence of each pass was quite isolated from the other"
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.38 (OCR page markers; not checked against print)",
+          "quote": "the Confederates were familiar with the terrain, and the Federals were not."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "march-conditions",
+      "dimension": "logistics",
+      "value": "Palfrey says the weather and roads on the 13th were good, and that Longstreet's men went into action after a toilsome march.",
+      "rationale": "Attributed movement conditions, not a supply return or readiness score.",
+      "citations": [
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.29 (OCR page markers; not checked against print)",
+          "quote": "The weather on the 13th was extremely fine, and the roads in good condition."
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.38 (OCR page markers; not checked against print)",
+          "quote": "Longstreet's men went into action after a toilsome march"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "lost-order-and-reports",
+      "dimension": "information",
+      "value": "Palfrey says McClellan had a copy of Lee's order at Frederick on the 13th, at an hour that does not appear, and that McLaws discounted early indications of an advance while Lee's warning came from Stuart.",
+      "rationale": "Retrospective reconstruction; the order's receipt time is explicitly unknown in the source.",
+      "citations": [
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.27 (OCR page markers; not checked against print)",
+          "quote": "with the copy of Lee's order in his hands."
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.28 (OCR page markers; not checked against print)",
+          "quote": "it does not appear at what hour on the 13th McClellan came into possession of Lee's order."
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.32 (OCR page markers; not checked against print)",
+          "quote": "Lee's information seems to have come from Stuart"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stated-plans",
+      "dimension": "objectives",
+      "value": "Palfrey quotes McClellan's letter to Franklin: cut off or destroy McLaws, relieve Miles, and 'cut the enemy in two and beat him in detail'; he quotes D. H. Hill that the aim was to delay the Union army until Harper's Ferry could not be relieved.",
+      "rationale": "Quoted letters and reports, not inspected originals; stated aims are not measured outcomes.",
+      "citations": [
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.29 (OCR page markers; not checked against print)",
+          "quote": "My general idea is to cut the enemy in two and beat him in detail."
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.41 (OCR page markers; not checked against print)",
+          "quote": "the delay of the Yankee army until Harper's Ferry could not be relieved."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "timing-decision",
+      "dimension": "responsibility",
+      "value": "Palfrey says McClellan ordered Franklin to move at daybreak rather than that night, and ordered no other part of the army to move that night; he argues a night march would have gained the passes unopposed.",
+      "rationale": "Attributed command decision; Palfrey's counterfactual is an interested retrospective judgment, not an estimated effect.",
+      "citations": [
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.30 (OCR page markers; not checked against print)",
+          "quote": "No portion of it was ordered to move that niglit"
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.30 (OCR page markers; not checked against print)",
+          "quote": "he could have passed through it the next morning substantially un- opposed"
+        }
+      ],
+      "phase": "commander_created",
+      "status": "supported"
+    },
+    {
+      "id": "subordinate-command",
+      "dimension": "responsibility",
+      "value": "Palfrey says Cox commanded as senior until Reno came up, Reno was killed near dark, Cobb was sent to command Crampton's Gap and Franklin carried it; Garland was killed. The frozen commanders are McClellan and Lee; the live heading ranks Lee Major General against the frozen General.",
+      "rationale": "Separate gaps under different subordinates; no listed commander receives automatic sole credit. The heading rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "he should command as senior till Eeno should come up."
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.31 (OCR page markers; not checked against print)",
+          "quote": "to take command of Crampton's Gap"
+        },
+        {
+          "source_id": "nps-md002-v1",
+          "locator": "Description",
+          "quote": "Union general Jesse Reno and Confederate general Samuel Garland, Jr., were killed at South Mountain."
+        },
+        {
+          "source_id": "nps-md002-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MD002",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result is Union victory; the live NPS result field reads Indecisive. NPS says the defenders were driven back by dusk; Palfrey calls the actions tactical defeats but strategic victories for the Confederates.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The live field conflicts with the frozen record; the frozen value is retained and the conflict is not silently corrected.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD002"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-md002-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-md002-v1",
+          "locator": "Description",
+          "quote": "By dusk the Confederate defenders were driven back"
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.40 (OCR page markers; not checked against print)",
+          "quote": "tactical defeats to the Confederates, but strategical victories won by them."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 4,500 total; the live NPS field reads 4625 total (US 2325; CS 2300;). Palfrey gives McClellan's reported 1,568 for the Turner's Gap engagement, about 530 for Franklin at Crampton's, and about 1,500 and 400 Confederate prisoners at the two gaps.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Palfrey's figures cover separate gaps and categories; they are not summed here.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD002"
+          },
+          "column": "casualties_text",
+          "quote": "4,500 total"
+        },
+        {
+          "source_id": "nps-md002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "4625 total (US 2325; CS 2300;)"
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.39 (OCR page markers; not checked against print)",
+          "quote": "General McClellan reported a loss in this engagement of 1,568 men"
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.32 (OCR page markers; not checked against print)",
+          "quote": "He lost about five hundred and thirty men"
+        },
+        {
+          "source_id": "palfrey-maryland-selections-v1",
+          "section": "south-mountain",
+          "locator": "p.40 (OCR page markers; not checked against print)",
+          "quote": "About fifteen hundred Confederate prisoners were taken."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Returns, the lost order's receipt clock, casualty allocation between Turner's, Fox's and Crampton's Gaps and the effective command clocks remain deferred.",
+    "NPS/CWSAC is one family; Palfrey is one retrospective history by a Union officer who served in the campaign and used advance sheets of the Official Records. Reports quoted inside Palfrey are not additional independently inspected families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

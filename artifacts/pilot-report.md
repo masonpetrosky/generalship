@@ -49,6 +49,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [KY008](../data/evidence/KY008.json) | 10 | 1 | 0 | 0 | draft |
 | [KY009](../data/evidence/KY009.json) | 11 | 1 | 0 | 0 | draft |
 | [MD001](../data/evidence/MD001.json) | 11 | 2 | 0 | 0 | draft |
+| [MD002](../data/evidence/MD002.json) | 10 | 1 | 0 | 0 | draft |
 | [MD003](../data/evidence/MD003.json) | 9 | 5 | 0 | 0 | draft |
 | [MO012](../data/evidence/MO012.json) | 11 | 3 | 0 | 0 | draft |
 | [MS009](../data/evidence/MS009.json) | 7 | 3 | 0 | 0 | draft |
@@ -94,6 +95,8 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [VA105](../data/evidence/VA105.json) | 10 | 3 | 0 | 0 | draft |
 | [VA106](../data/evidence/VA106.json) | 10 | 2 | 0 | 0 | draft |
 | [WV009](../data/evidence/WV009.json) | 10 | 4 | 0 | 0 | draft |
+| [WV010](../data/evidence/WV010.json) | 10 | 1 | 0 | 0 | draft |
+| [WV016](../data/evidence/WV016.json) | 9 | 2 | 0 | 0 | draft |
 
 ## Admission proposal checks
 
@@ -104,8 +107,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 51 engagements have dossiers; 76 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Northern Virginia first pass](../docs/research/northern-virginia-first-pass-v1.md) adds all six frozen records: 56 claims, 7 explicit unknowns and 142 citations, each record using NPS/CWSAC and Ropes's retrospective history. Casualty and result-label differences, the aggregate Manassas Station record and a dispute over what Pope knew remain visible; separate campaign review is pending. Next take the complete four-record Maryland Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 54 engagements have dossiers; 73 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Maryland first pass](../docs/research/maryland-first-pass-v1.md) adds all three undrafted frozen records (Antietam's draft unchanged): 29 claims, 4 explicit unknowns and 79 citations, each using NPS/CWSAC and Palfrey's retrospective history. South Mountain's live result-field conflict, casualty differences and a dispute over who surrendered Harpers Ferry remain visible; separate campaign review is pending. Next take the complete three-record Iuka and Corinth Operations. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 
