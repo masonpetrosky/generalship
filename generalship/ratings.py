@@ -111,7 +111,7 @@ def fit(rows, *, tau=TAU, alpha_sd=1.0, beta_sd=1.0, use_force=True):
         decrement = sum(g * di for g, di in zip(grad, d))
         if decrement < 1e-12:
             w = [wi - di for wi, di in zip(w, d)]
-            return _result(w, low, commanders, index)
+            return _result(w, cholesky(_hessian(w, design, prec, n)), commanders, index)
         step, current = 1.0, objective(w)
         while objective([wi - step * di for wi, di in zip(w, d)]) > current - 1e-4 * step * decrement:
             step /= 2
@@ -119,6 +119,18 @@ def fit(rows, *, tau=TAU, alpha_sd=1.0, beta_sd=1.0, use_force=True):
                 raise RatingError('Line search failed')
         w = [wi - step * di for wi, di in zip(w, d)]
     raise RatingError('Newton iteration did not converge')
+
+
+def _hessian(w, design, prec, n):
+    hess = [[0.0] * n for _ in range(n)]
+    for i in range(n):
+        hess[i][i] = prec[i]
+    for v, _ in design:
+        p = sigmoid(sum(w[j] * c for j, c in v.items()))
+        for j, cj in v.items():
+            for k, ck in v.items():
+                hess[j][k] += p * (1 - p) * cj * ck
+    return hess
 
 
 def _result(w, low, commanders, index):
@@ -378,6 +390,16 @@ def rate(root):
             if e['sides'][s]['commander_id']:
                 attributed[e['sides'][s]['commander_id']].append((b, s, e['sides'][s]))
     in_model = {r['battle_id'] for r in primary}
+    strength_by = {e['battle_id']: {s: e['sides'][s]['estimate'] for s in SIDES} for e in strength['engagements']}
+
+    def out_reasons(b):
+        est = strength_by[b]
+        reasons = []
+        if any(est[s]['grade'] == 'D' for s in SIDES):
+            reasons.append('strength_grade_D')
+        if any('post_start_information' in est[s]['labels'] for s in SIDES):
+            reasons.append('post_start_information')
+        return reasons
     out = {}
     for c in sorted(set(attributed) | set(ratings)):
         rows_c = [(r, s) for r in primary for s, k in (('US', 'us'), ('Confederate', 'cs')) if r[k] == c]
@@ -387,13 +409,16 @@ def rate(root):
                   'battles_attributed': len(attributed[c]), 'battles_modelled': len(rows_c),
                   'wins_in_model': wins, 'losses_in_model': len(rows_c) - wins,
                   'out_of_model': sorted(b for b, _, _ in attributed[c] if b not in in_model),
+                  'out_of_model_reasons': {b: out_reasons(b) for b, _, _ in attributed[c] if b not in in_model},
+                  'dropped_as_nested_in_outcome_only_91': sorted(b for b, _, _ in attributed[c] if b in dropped),
                   'raw_residual_sum': resid,
                   'echelons': sorted({x['echelon'] for _, _, x in attributed[c]}),
                   'attribution_grades': dict(Counter(x['grade'] for _, _, x in attributed[c])),
                   'attribution_labels': sorted({l for _, _, x in attributed[c] for l in x['labels']}),
                   **ratings.get(c, {'ranked': False}),
                   'posterior_prior_sd_ratio': ratings[c]['sd'] / TAU if c in ratings else None,
-                  'views': {n: v['ratings'].get(c) for n, v in views.items()}}
+                  'views': {n: (dict(v['ratings'][c], theta_mode_minus_primary=v['ratings'][c]['theta_mode'] - ratings[c]['theta_mode'])
+                                if c in v['ratings'] and c in ratings else v['ratings'].get(c)) for n, v in views.items()}}
         if not test['improved'] and c in ratings:
             out[c].setdefault('labels', []).append('no_heldout_signal')
     return {'kind': 'commander_residual_ratings', 'status': 'exploratory_diagnostic_not_skill_not_ranking_of_record',
@@ -401,6 +426,7 @@ def rate(root):
                               'decision_date': auth['decision_date']},
             'ledgers': {k: {'path': p, 'sha256': digest(safe_path(root, p))}
                         for k, p in (('strength', STRENGTH_LEDGER), ('command', COMMAND_LEDGER), ('registry', DEFAULT_REGISTRY))},
+            'raw_residual_input': {'path': 'artifacts/estimate-evaluation.json', 'sha256': digest(root / 'artifacts/estimate-evaluation.json')},
             'model': {'tau': TAU, 'alpha_sd': 1.0, 'beta_sd': 1.0, 'alpha': model['alpha'], 'beta': model['beta'],
                       'draws': DRAWS, 'seed': SEED, 'rows': len(primary), 'campaigns': len({r['campaign'] for r in primary})},
             'heldout_test': test, 'temporal_split': temporal(primary), 'commanders': out,
@@ -421,11 +447,18 @@ def report_text(result):
              '| Model | Log loss, battle-weighted | Log loss, campaign-weighted |', '|---|---:|---:|',
              f"| Commander model | {f(t['battle_weighted']['commander_model'])} | {f(t['campaign_weighted']['commander_model'])} |",
              f"| Strength only | {f(t['battle_weighted']['strength_only'])} | {f(t['campaign_weighted']['strength_only'])} |", '',
-             f"Effective denominator: {len(t['effective_rows'])} of {t['n_rows']} held-out rows had a commander seen in another campaign. "
-             f"Campaigns better: {t['campaigns_better']}.", '']
+             f"Effective denominator: {len(t['effective_rows'])} of {t['n_rows']} held-out rows had a commander seen in another campaign "
+             f"({', '.join(sorted({result['commanders'][c]['name'] for e in t['effective_rows'] for c in e['commanders']}))}). "
+             f"Campaigns where each model had lower log loss: commander model {t['campaigns_better'].get('commander_model', 0)}, "
+             f"strength only {t['campaigns_better'].get('strength_only', 0)}, ties {t['campaigns_better'].get('tie', 0)}.", '']
+    ts = result['temporal_split']
+    if ts.get('evaluable'):
+        lines += [f"Descriptive 1862→1863 split (no verdict): trained on {ts['n_train']}, tested on {ts['n_test']}; log loss "
+                  f"{f(ts['commander_model'])} (commander model) against {f(ts['strength_only'])} (strength only).", '']
     if not t['improved']:
-        lines += ['**No improvement under both weightings: commander identity adds no detectable predictive signal in these '
-                  'data. No ordered ranking is given.** The JSON keeps every estimate, labelled `no_heldout_signal`.', '']
+        lines += ['**No improvement under the both-weightings rule (a lower held-out log loss was required under both '
+                  'weightings, and it was not lower under both): commander identity adds no detectable predictive signal in '
+                  'these data. No ordered ranking is given.** The JSON keeps every estimate, labelled `no_heldout_signal`.', '']
     else:
         lines += ['Held-out log loss was lower under both weightings on these rows. This is not evidence of a persistent '
                   'commander effect or of skill (design §5).', '']
@@ -436,13 +469,18 @@ def report_text(result):
         else:
             cs.sort(key=lambda c: c['name'])
         lines += [f"## {side} commanders with two or more modelled battles" + ('' if t['improved'] else ' (alphabetical)'), '',
-                  '| Commander | Battles | W–L | θ mode | 80% interval | Rank 80% | Labels |', '|---|---:|---:|---:|---:|---:|---|']
+                  '| Commander | Battles | W–L | θ mode | 80% interval | 95% interval | Rank 80% | SD ratio | Labels |',
+                  '|---|---:|---:|---:|---:|---:|---:|---:|---|']
         for c in cs:
             labels = sorted(set(c.get('labels', [])) | ({'view_sensitive'} if c.get('view_sensitive') else set()))
             lines.append(f"| {c['name']} | {c['battles_modelled']} | {c['wins_in_model']}–{c['losses_in_model']} | {c['theta_mode']:+.2f} | "
-                         f"{c['interval_80'][0]:+.2f} to {c['interval_80'][1]:+.2f} | "
-                         f"{c['rank_80'][0]}–{c['rank_80'][1]} | {', '.join(labels)} |")
+                         f"{c['interval_80'][0]:+.2f} to {c['interval_80'][1]:+.2f} | {c['interval_95'][0]:+.2f} to {c['interval_95'][1]:+.2f} | "
+                         f"{c['rank_80'][0]}–{c['rank_80'][1]} | {c['posterior_prior_sd_ratio']:.2f} | {', '.join(labels)} |")
+            if c.get('unranked_in_view'):
+                lines.append(f"|  | unranked in: {', '.join(c['unranked_in_view'])} | | | | | | | |")
         lines.append('')
-    lines += ['Commanders with one modelled battle, and those outside the model, are in the JSON with their coverage; their '
-              'ratings are almost entirely the prior.', '']
+    lines += ['Outcome-only views (no force term, `includes_force_size_advantage`) estimate a different quantity; each '
+              "commander's view results and differences from the primary rating are in the JSON.", '',
+              'Commanders with one modelled battle are in the JSON with their estimate, which is almost entirely the prior. '
+              'Commanders outside the model are listed there with coverage only.', '']
     return '\n'.join(lines)

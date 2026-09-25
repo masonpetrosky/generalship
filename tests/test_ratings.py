@@ -75,8 +75,9 @@ class ReportTests(unittest.TestCase):
     def result(self, improved):
         m = {'brier': 0.2, 'log_loss': 0.6}
         c = {'name': 'A', 'side': 'US', 'ranked': True, 'battles_modelled': 2, 'wins_in_model': 1, 'losses_in_model': 1,
-             'theta_mode': 0.1, 'interval_80': [-0.5, 0.7], 'rank_80': [1, 2], 'rank_median': 1, 'labels': []}
-        return {'model': {'rows': 3, 'campaigns': 2, 'tau': 0.5}, 'flags': ['not_causal'], 'commanders': {'us-a': c, 'us-b': {**c, 'name': 'B', 'rank_median': 2}},
+             'theta_mode': 0.1, 'interval_80': [-0.5, 0.7], 'interval_95': [-0.9, 1.1], 'rank_80': [1, 2], 'rank_median': 1,
+             'posterior_prior_sd_ratio': 0.95, 'labels': []}
+        return {'model': {'rows': 3, 'campaigns': 2, 'tau': 0.5}, 'temporal_split': {'evaluable': False}, 'flags': ['not_causal'], 'commanders': {'us-a': c, 'us-b': {**c, 'name': 'B', 'rank_median': 2}},
                 'heldout_test': {'improved': improved, 'battle_weighted': {'commander_model': m, 'strength_only': m},
                                  'campaign_weighted': {'commander_model': m, 'strength_only': m}, 'effective_rows': [], 'n_rows': 3,
                                  'campaigns_better': {}}}

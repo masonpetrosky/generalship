@@ -30,8 +30,9 @@ design review and a focused follow-up. The
 side for all 91 engagements (A 155, B 8, C 16, D 3); four campaign-batch Opus reviews are
 reconciled. The owner authorized the rating run for those hashes; the
 [first run](research/commander-ratings-v1.md) found no detectable commander signal on held-out
-campaigns, so no ordered ranking is given. The bottleneck is coverage: a meaningful Civil War
-rating needs the other 257 source-listed engagements and more usable strengths. See **Next priority** below. The coverage-first direction that follows still bounds any
+campaigns, so no ordered ranking is given. More coverage is necessary but may not be
+sufficient: a Civil War rating needs at least the other 257 source-listed engagements and more
+usable strengths, and a larger run may still find no signal. See **Next priority** below. The coverage-first direction that follows still bounds any
 further research depth.
 
 Owner direction, 2026-09-20: the repeated Shiloh source investigations exceeded

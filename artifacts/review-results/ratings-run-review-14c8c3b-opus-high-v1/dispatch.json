@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 0980c7ae-eb22-4c9e-9c1a-01d1dfeaf594",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 497eb12a8b6f52d4a69762d0b57e29b62df5722f; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T16:04:07Z",
+  "prepared_commit": "14c8c3bfe3ce4e9c9de36a24b7f937ccb36c998f",
+  "bundle_commit": "497eb12a8b6f52d4a69762d0b57e29b62df5722f",
+  "assignment_sha256": "11e5efe3503e12a1f1af2d7cc761b71dda9a3dbcbad59761f3b2a18292553382",
+  "inputs_manifest_sha256": "b338fd5abf5b46f039987c3b202da58e477d0c3648bb60ea43f658bb47cd64e7",
+  "num_turns": 26,
+  "duration_ms": 459028,
+  "terminal_reason": "completed",
+  "returned_message": "**Review path:** `artifacts/review-results/ratings-run-review-14c8c3b-opus-high-v1/review.md`\n\n**Outcome: corrections required.** Findings **F1–F7** need changes; **A1–A7** are advisories.\n\nThe model code is correct and the \"no signal\" verdict holds. The corrections are mostly to the research memo's numbers and wording, plus one roadmap sentence and one missing output field.\n\n**Checks passed:**\n- **Inputs:** all 26 files in `inputs.json` match their hashes at the prepared commit and in the worktree. The run used exactly the authorized code: there is no code change between `0bdc480` and `14c8c3b`.\n- **`make check`:** passes offline, with 133 tests.\n- **Reproduction:** re-running the model in memory gives output byte-for-byte identical to both `artifacts/commander-ratings.json` and `.md`.\n- **Independent recomputation:** my own implementation matches the verdict to floating-point error. The commander model's held-out log loss is 0.00036 lower when every battle counts equally, but 0.01184 higher when every campaign counts equally. The rule needed it to be lower under both, so there is no improvement.\n- It also matches the fitted parameters, the uncertainty intervals, the rank intervals and the 1862→1863 split.\n\n**Findings:**\n- **F1:** the memo says the Confederate rank intervals are \"1–5 or 2–5\", but Jackson's 80% rank interval is 1–4.\n- **F2:** the memo gives the battle-weighted difference as 0.0003; it is 0.0004. It also calls it \"negligible\", although the design sets no threshold.\n- **F3:** the memo says commanders whose battles are all in one campaign \"never affect a held-out prediction\". The design says the opposite. For example, Jackson's VA102 battle informs Milroy's estimate, which is used to predict VA107 (Gettysburg).\n- **F4:** the memo's statement that no commander is `view_sensitive` leaves out that Milroy, Bragg and Ewell dropped out of the ranking in six sensitivity refits.\n- **F5:** the design requires the two views that drop the force-size term to be reported with their differences, but the code doesn't compute them and the memo never mentions them. In the expanded view, Jackson's 80% interval (+0.02 to +1.11) is the only one in that view that excludes zero.\n- **F6:** the design requires each commander's coverage report to say why battles are left out and which were dropped as nested. The code gives only the battle IDs. The review includes an exact code patch.\n- **F7:** the memo and roadmap say \"the bottleneck is coverage, not method\" and that more data will make commanders distinguishable. The run tested neither claim.\n\nThe review gives exact replacement text for each finding. For F6, the regenerated JSON can only be produced by running the gated `commander-ratings` command, which is yours to run.\n\nI wrote only the review file in the worktree and did not commit or push. My scratch scripts, a pickle and the `make check` log are in `/tmp`, outside the repository. This AI review is not historical adjudication, independent corroboration, feature admission or authorization of any fit."
+}

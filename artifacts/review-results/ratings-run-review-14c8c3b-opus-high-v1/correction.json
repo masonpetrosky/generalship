@@ -1,0 +1,85 @@
+{
+  "review_sha256": "3603b49e00ed03790c3fa2ccc5beffb100624e9d9b13f8c33d671822c786a961",
+  "prepared_commit": "14c8c3bfe3ce4e9c9de36a24b7f937ccb36c998f",
+  "bundle_commit": "497eb12a8b6f52d4a69762d0b57e29b62df5722f",
+  "scope": "commander rating model code and first run",
+  "findings": [
+    {
+      "finding_id": "F1",
+      "disposition": "accepted_applied",
+      "summary": "Memo rank-interval sentence corrected (Jackson 1-4)."
+    },
+    {
+      "finding_id": "F2",
+      "disposition": "accepted_applied",
+      "summary": "Battle-weighted difference 0.0004; campaign-weighted gap 0.0118 stated; \"negligible\" removed."
+    },
+    {
+      "finding_id": "F3",
+      "disposition": "accepted_applied",
+      "summary": "Single-campaign commanders: own theta never used, but rows inform other parameters."
+    },
+    {
+      "finding_id": "F4",
+      "disposition": "accepted_applied",
+      "summary": "unranked_in_view reported for Milroy, Bragg and Ewell."
+    },
+    {
+      "finding_id": "F5",
+      "disposition": "accepted_applied",
+      "summary": "Outcome-only views reported with differences in the memo and stored per commander (theta_mode_minus_primary)."
+    },
+    {
+      "finding_id": "F6",
+      "disposition": "accepted_applied",
+      "summary": "out_of_model_reasons and dropped_as_nested_in_outcome_only_91 added to the outputs."
+    },
+    {
+      "finding_id": "F7",
+      "disposition": "accepted_applied",
+      "summary": "Coverage \"necessary but may not be sufficient\" in memo and roadmap."
+    },
+    {
+      "finding_id": "A1",
+      "disposition": "accepted_applied",
+      "summary": "No-signal sentence clarified."
+    },
+    {
+      "finding_id": "A2",
+      "disposition": "accepted_applied",
+      "summary": "Report adds the temporal split, effective commanders, unranked views, 95% intervals and SD ratio; campaigns-better formatted."
+    },
+    {
+      "finding_id": "A3",
+      "disposition": "accepted_applied",
+      "summary": "Closing sentence corrected."
+    },
+    {
+      "finding_id": "A4",
+      "disposition": "accepted_applied",
+      "summary": "Covariance recomputed at the final iterate (SD change at most 4e-9)."
+    },
+    {
+      "finding_id": "A5",
+      "disposition": "accepted_applied",
+      "summary": "Raw-residual input hash recorded in the output."
+    },
+    {
+      "finding_id": "A6",
+      "disposition": "accepted_applied",
+      "summary": "Sparser-eras claim marked untested."
+    },
+    {
+      "finding_id": "A7",
+      "disposition": "not_adopted",
+      "summary": "Bundle binding gap noted; the reviewer recorded the hashes."
+    }
+  ],
+  "regenerated_output": {
+    "path": "artifacts/commander-ratings.json",
+    "sha256": "18bfa5f220ded00bb4baa8984ed984404f204095412abff9bfeb4b7d8e884aba"
+  },
+  "verdict_changed": false,
+  "estimates_changed": "standard deviations by at most 4e-9 (covariance at the final iterate); modes, intervals to two decimals, rank intervals and verdict unchanged",
+  "independent_followup_review": false
+}
