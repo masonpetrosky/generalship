@@ -3,13 +3,13 @@
 Prepared 2026-09-25 under the [cohort v2](../cohort-v2.md) research order, which lists Fort Fisher
 among the 1864–65 main-army campaigns. Both records in **Operations Against Fort Fisher and
 Wilmington [January-February 1865]** now have draft dossiers: **18 claims, 2 explicit null unknowns
-and 122 citation occurrences**. All seven dimensions are represented in each record. All dossiers
+and 125 citation occurrences** (122 before the review correction below). All seven dimensions are represented in each record. All dossiers
 are drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| NC015 — Fort Fisher | 1865-01-13 to 01-15 | 9 | 1 | 74 | 3 |
-| NC016 — Wilmington | 1865-02-12 to 02-22 | 9 | 1 | 48 | 3 |
+| NC015 — Fort Fisher | 1865-01-13 to 01-15 | 9 | 1 | 75 | 3 |
+| NC016 — Wilmington | 1865-02-12 to 02-22 | 9 | 1 | 50 | 3 |
 
 Dossier presence is not first-pass acceptance, separate review or model eligibility.
 
@@ -39,10 +39,8 @@ No targeted follow-up beyond three families was made.
   - Not inspected: Comstock's, Ames's, Paine's and the brigade reports; Whiting's No. 25, Gordon's
     No. 23, Saunders's No. 24 and Colquitt's No. 26 reports.
 - ***Official Records* Series I, Volume XLVII, Part 1** (Illinois scan `warofrebellion471unit`,
-  catalog volume v.47:1; the imprint year reads "18 0 5" in OCR and is left null). Pinned in this
-  worktree with catalog metadata under the same IDs and with the same OCR bytes (SHA-256
-  `4dcd50b3…`) as the Carolinas pass registered in the main repository; the records describe one
-  artifact and should deduplicate on merge.
+  catalog volume v.47:1; the imprint year reads "18 0 5" in OCR and is left null). Already
+  registered by the Carolinas pass (SHA-256 `4dcd50b3…`) and reused as parent; not re-registered.
   - Selected: Schofield's No. 231 report of April 3, 1865 from its heading through his
     acknowledgment of the naval squadron (pp.909–911), and Bragg's No. 288 heading and report of
     February 25, 1865 with its postscript (pp.1077–1078).
@@ -62,12 +60,12 @@ not used. Stop after this batch.
 
 ### New source records
 
-This pass adds **10 source records**:
+This pass adds **8 source records**:
 
 - two NPS HTML/text pairs (`nps-nc015-v1`, `nps-nc016-v1`, with `-html` parents);
-- OR XLVII Part 1 catalog metadata and full OCR (`ia-or47-1-illinois-metadata-v1`,
-  `or47-1-illinois-ocr-v1`), expected to deduplicate to the main repository's records of the same
-  IDs on merge;
+- the OR XLVII Part 1 selections use the existing Carolinas registrations
+  `ia-or47-1-illinois-metadata-v1` and `or47-1-illinois-ocr-v1` (`data/raw/carolinas-v1/`) as
+  parent; no OR XLVII record is added;
 - four selections: `or46-1-terry-fort-fisher-selections-v1`,
   `or46-1-bragg-fort-fisher-selections-v1`, `or47-1-schofield-wilmington-selections-v1` and
   `or47-1-bragg-wilmington-selections-v1`.
@@ -101,8 +99,9 @@ Groups:
       and two batteries; nearly 8,000 landed by 3 p.m. on the 13th; about 7,500 infantry for duty
       on January 20, after the assault.
     - Bragg: the garrison 1,200 strong before men from the adjacent forts were called in ("about
-      000" in OCR); "fully 2,300 arms-bearing men" after 500 of 1,100 reinforcements arrived; about
-      110 officers and 2,400 or 2,500 men in the struggle; Hoke's movable force about 6,000
+      000" in OCR); "fully 2,300 arms-bearing men" after manning all the artillery, once 500 of
+      1,100 reinforcements had arrived; a garrison of about 110 officers and 2,400 or 2,500 men (no
+      date given); Hoke's movable force about 6,000
       effectives including reserves and cavalry.
     - Fleet: nearly 60 vessels (NPS) against some 70 with at least 600 guns (Bragg).
   - Wilmington (February 12–22):
@@ -129,10 +128,14 @@ Groups:
       only); about 130 killed and wounded in the January 16 explosion; Bragg's 3 killed and 32
       wounded to 1.30 p.m. and about 500 killed and wounded after the enemy entered.
     - Wilmington: frozen 1,150; live zero; Schofield's about 200 Union killed and wounded and "not
-      less than 1,000" Confederates from February 11; Hagood's loss of about 350 (Bragg); 375
+      less than 1,000" Confederates from February 11; the loss of about 350 of Hagood's command (his Fort Anderson garrison of 2,000,
+      per Bragg); 375
       prisoners at Town Creek (Schofield).
 - **Command roles and ranks.** The live pages give Bragg as "Major General" against the frozen
-  General; frozen ranks are kept.
+  General; frozen ranks are kept. NC015's live page lists only Porter and Bragg. The frozen NC015
+  commander row reads "Charles Lamb"; this record's selections name only "Colonel Lamb", while
+  Whiting's December 30, 1864 report (cited in NC014) names "Col. William Lamb". The discrepancy is
+  recorded and the frozen row is unchanged.
   - At Fort Fisher, Terry arranged the bombardment and assault with Porter, selected Ames's division
     (Ames commanded the troops engaged) and credits Comstock above himself.
   - Bragg approved Hoke's dispositions and suspended the attack order on the 14th. He says Hoke went
@@ -140,6 +143,7 @@ Groups:
     any attack after a skirmish.
   - Both name Lamb as the fort's commander. Bragg credits Whiting and Lamb with the resistance and
     declines to judge how the fort was lost.
+  - Schofield's push of Terry's line on February 11 is dated in NC016 as before the frozen interval.
   - At Wilmington, Bragg by his own account reached the town only on the 21st and withdrew the
     troops before daylight on the 22d. Schofield credits Cox with the Town Creek success and Terry
     with holding Hoke's force.
@@ -155,10 +159,50 @@ cohort, both admission proposals and the baseline are unchanged, with zero promo
 
 ## Validation
 
-- `python3 -m generalship check` passes; every quote occurs in its cited section, and `gs.MISSES` is
-  empty.
+- After the review correction, `python3 -m generalship check` passes; every quote occurs in its
+  cited section, and `gs.MISSES` is empty.
 - `python3 -m unittest discover -s tests` passes (134 tests).
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this pass.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed this pass,
+with the Plymouth and December 1864 Fort Fisher passes, at commit `c5bcb38` as
+`fisher-review-c5bcb38-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": nine
+required findings (R1 to R9), a memo correction set (R10) and ten advisories (A1 to A10). It is an
+AI review within its stated scope, not human historical adjudication, proof of source independence
+or feature admission.
+
+## Review correction
+
+Each finding was checked against the retained selection text or the registry before any change;
+every new quote occurs in its cited section, and the dossiers were regenerated from the builder.
+NC015 and NC016 are revised under `fort-fisher-wilmington-1865-review-correction-2026-09-25` and
+supersede byte-for-byte archives at `data/evidence/history/NC015.v1.json` and
+`data/evidence/history/NC016.v1.json`.
+
+- **R8** (NC015 `reported-force-scope` and this memo): Bragg's 2,300 arms-bearing men are counted
+  "after manning all the artillery" (the citation now carries the qualifier), and his 110 officers
+  and 2,400 or 2,500 men are the garrison's composition, with no date, not the number in the
+  struggle. Value and the Bragg bullet above corrected.
+- **R9** (NC016 `reported-force-scope`): the rationale no longer says the live zeros are not
+  measured absence; the live Forces Engaged field repeats the frozen 12,000 and 6,600 and belongs
+  to the same NPS/CWSAC family, so it is not a separate confirmation.
+- **R10** (this memo): no OR XLVII record is added by this pass. The OR XLVII Part 1 metadata and
+  OCR records were already registered by the Carolinas pass and are the selections' parent. "New
+  source records" now reads 8, and the inspection record says the volume was reused, not
+  re-registered.
+
+Advisories for this campaign:
+
+- **Adopted:** A7 (NC015 `command-roles`: the live page lists only Porter and Bragg, with the NPS
+  Porter line cited; the "Charles Lamb" frozen row against "Col. William Lamb" in Whiting's NC014
+  report is recorded in the rationale, the frozen row unchanged), A8 (NC016 `command-roles`:
+  Schofield's push of Terry's line is dated February 11, before the frozen interval, with the dated
+  quote), A9 (NC016: Bragg's 350 described as the loss of Hagood's command, his Fort Anderson garrison
+  of 2,000; the logistics value now separates the storm-defeated sea plan from the tide-defeated
+  beach attempt of the night of February 14, with two p.910 citations).
+- The other advisories concern the Plymouth and December 1864 records.
+
+The review correction adds no source records. Citations rise from 122 to 125; claims (18),
+unknowns (2), disputed claims (8) and `inherited` tags (0) are unchanged. No model input, cohort
+file, admission proposal or baseline is changed.

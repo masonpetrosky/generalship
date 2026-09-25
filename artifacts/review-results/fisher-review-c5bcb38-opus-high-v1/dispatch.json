@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session b5f5afa1-f0b2-4f01-8330-02a6fc2e5632",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 4e5ac2968dbfc43e401fef21905ab2c7930a626b; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T17:50:37Z",
+  "prepared_commit": "c5bcb389e38b6f79200e347aaa78ddacd9795953",
+  "bundle_commit": "4e5ac2968dbfc43e401fef21905ab2c7930a626b",
+  "assignment_sha256": "6a5f93f5bf8598f2cc77367b9e93ba71ebbb5043bb515d00d864573861ff53f1",
+  "inputs_manifest_sha256": "42d04c7119f053a3028884b7a2cc14bd7886bf7747f33bdf22ea896548dc10a4",
+  "num_turns": 41,
+  "duration_ms": 590919,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** I found 10 required corrections (R1–R10) and 10 advisories (A1–A10).\n\n**Review file:** `artifacts/review-results/fisher-review-c5bcb38-opus-high-v1/review.md`. It is the only file I wrote; nothing was committed or pushed.\n\n**Input checks**\n- All 49 bound inputs match `inputs.json` at `c5bcb38`.\n- In the worktree, `data/sources.json` and `docs/sources.md` differ. That is because the later commit `c298447` only adds records. None of the 23 reviewed records, the five dossiers, the three raw directories or the three memos change between `c5bcb38` and HEAD.\n- `make check` passes both in the worktree at HEAD and on an export of `c5bcb38` (134 tests OK).\n- All nine selection files rebuild exactly from their pinned parents, and all five NPS text files match their retained HTML.\n\n**Required corrections**\n- **R1 (NC012):** the dossier applies \"at that time\" to Wessells's garrison list, but in his report the phrase belongs to the naval-force sentence.\n- **R2 (NC012):** Cooke says Elliott *sent* dispatches, not that he \"brought back\" dispatches.\n- **R3 (NC013 and Plymouth memo):** Roe is not named in any selected passage, but the dossier and memo say he is.\n- **R4 (NC014 and memo):** Whiting's three battalions are misdated to December 24–25; he places them in the weather delay of the 20th–22nd. The memo's \"in all\" is not in the source.\n- **R5 (NC014):** Whiting's \"no attempt to pass the bar\" applies only to the 24th and is qualified \"as far as known\".\n- **R6 (NC014):** the 600 projectiles are printed as \"the 21st\"; \"[25th?]\" is only the compiler's query, and the dossier adopts it silently.\n- **R7 (NC014):** the frozen row and NPS both say Butler was \"relieved of command\", and the dossier doesn't record it. His report headings contradict it; the claim should be marked `disputed`.\n- **R8 (NC015 and memo):** Bragg's 2,300 excludes the artillery crews (\"after manning all the artillery\"). His 110 officers and 2,400–2,500 men is the garrison's size, not the number in the final fight.\n- **R9 (NC016):** the rationale says \"the live zeros\", but the live Forces Engaged field reads 18,600 (US 12,000; CS 6,600).\n- **R10 (1865 memo):** the memo is out of date on source records. That pass adds 8, not 10, because the Volume XLVII parent was already registered by the Carolinas pass. The 23 total across the three passes is correct.\n\n**Assigned source questions:** all the choices the assignment asked about are sound:\n- Navies volume 9 for Plymouth and Albemarle Sound.\n- Deferring Porter under the three-family ceiling, with the Butler–Porter dispute recorded as a gap.\n- Reusing the Bragg, Butler and Schofield author groups.\n- Deduplicating the Volume XLVII parent to the Carolinas registration.\n\nThe two arithmetic checks also hold: the frozen Plymouth 2,834 equals the compiled Union return, and Whiting's components sum to 52 against his printed \"61 in all\".\n\n**Finding IDs:** R1, R2, R3, R4, R5, R6, R7, R8, R9, R10; A1, A2, A3, A4, A5, A6, A7, A8, A9, A10."
+}
