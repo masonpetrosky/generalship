@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **72 draft dossiers / 127 engagements**, with **55 without a dossier**.
+There are **76 draft dossiers / 127 engagements**, with **51 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -194,8 +194,17 @@ restates that rationale in 19 reviewed dossiers (each archived to history); valu
 statuses and citations are unchanged, and no separate review of the propagation is
 claimed. TN013 and TN016 received it with the Middle Tennessee correction.
 
-Next take **Longstreet's Tidewater Operations [March-April 1863]**, the next complete frozen
-group by earliest engagement date: **four records, NC010, NC011, VA031, VA030**.
+The [Longstreet's Tidewater Operations first pass](research/tidewater-first-pass-v1.md)
+adds all **four frozen records, NC010, NC011, VA031 and VA030**, with **38 claims, 4
+explicit unknowns and 187 citations** from NPS/CWSAC and new Foster, D. H. Hill, Peck
+and French selections from the pinned Official Records Volume XVIII OCR. VA030's
+interval lies inside VA031's and their shared siege quantities are not added. The
+April 24 reconnaissance result and the Hill's Point work's origin remain disputed.
+Separate review is pending.
+Coverage is **19/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Cavalry Operations along the Rappahannock [March 1863]**, the next complete frozen
+group by earliest engagement date: **one record, VA029**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

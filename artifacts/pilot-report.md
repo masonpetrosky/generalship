@@ -66,6 +66,8 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [NC007](../data/evidence/NC007.json) | 9 | 1 | 0 | 0 | draft |
 | [NC008](../data/evidence/NC008.json) | 9 | 2 | 0 | 0 | draft |
 | [NC009](../data/evidence/NC009.json) | 10 | 1 | 0 | 0 | draft |
+| [NC010](../data/evidence/NC010.json) | 9 | 1 | 0 | 0 | draft |
+| [NC011](../data/evidence/NC011.json) | 9 | 1 | 0 | 0 | draft |
 | [TN001](../data/evidence/TN001.json) | 10 | 1 | 0 | 0 | draft |
 | [TN002](../data/evidence/TN002.json) | 11 | 1 | 0 | 0 | draft |
 | [TN003](../data/evidence/TN003.json) | 62 | 3 | 40 | 26 | draft |
@@ -105,6 +107,8 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [VA026](../data/evidence/VA026.json) | 10 | 1 | 0 | 0 | draft |
 | [VA027](../data/evidence/VA027.json) | 9 | 1 | 0 | 0 | draft |
 | [VA028](../data/evidence/VA028.json) | 10 | 1 | 0 | 0 | draft |
+| [VA030](../data/evidence/VA030.json) | 9 | 1 | 0 | 0 | draft |
+| [VA031](../data/evidence/VA031.json) | 11 | 1 | 0 | 0 | draft |
 | [VA100](../data/evidence/VA100.json) | 10 | 3 | 0 | 0 | draft |
 | [VA101](../data/evidence/VA101.json) | 10 | 2 | 0 | 0 | draft |
 | [VA102](../data/evidence/VA102.json) | 9 | 2 | 0 | 0 | draft |
@@ -125,8 +129,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 72 engagements have dossiers; 55 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Middle Tennessee first pass](../docs/research/middle-tennessee-first-pass-v1.md) adds all five frozen records: 46 claims, 7 explicit unknowns and 135 citations from NPS/CWSAC and the Cist and Jordan and Pryor histories. Gunboat, surrender-sequence and date disputes and casualty differences remain visible; separate campaign review is pending. Next take the complete four-record Longstreet's Tidewater Operations. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 76 engagements have dossiers; 51 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Longstreet's Tidewater Operations first pass](../docs/research/tidewater-first-pass-v1.md) adds all four frozen records: 38 claims, 4 explicit unknowns and 187 citations from NPS/CWSAC and Foster, D. H. Hill, Peck and French reports in Official Records Volume XVIII. The nested Suffolk intervals are not double counted, and disputes and casualty differences remain visible; separate campaign review is pending. Next take the complete one-record Cavalry Operations along the Rappahannock. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

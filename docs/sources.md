@@ -68,6 +68,16 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Longstreet's Tidewater Operations first pass, 2026-09-25
+
+The [four-record memo](research/tidewater-first-pass-v1.md) adds **12 records**,
+bringing the registry to **373 entries / 370 raw paths**, preserving the previous
+**361/358**. Four NPS battle HTML/text pairs remain in the NPS/CWSAC family. Four new
+selections reuse the pinned `or18-illinois-ocr-v1` parent, one per reporting commander
+(Foster, D. H. Hill, Peck and French with Longstreet's indorsement), each its own
+independence group. Character ranges and whitespace-only normalization reproduce all
+sections. No model inputs are changed.
+
 ### Middle Tennessee first pass, 2026-09-25
 
 The [five-record memo](research/middle-tennessee-first-pass-v1.md) adds **12 records**,

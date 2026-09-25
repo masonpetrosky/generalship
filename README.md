@@ -22,7 +22,7 @@ wins a commander caused. No validated commander ranking exists here yet.
   dates, force ranges, missingness, outcome codes, and cohort membership.
 - A small regularized logistic baseline using relative force size. Evaluation
   holds out whole campaigns and compares with equal odds and a training-only prior.
-- Seventy-two draft dossiers, including all five frozen Middle Tennessee Operations records,
+- Seventy-six draft dossiers, including all four frozen Longstreet's Tidewater Operations records,
   with exact source passages, explicit unknowns, command questions, and
   inherited/created distinctions. See the [coverage table](artifacts/pilot-report.md#draft-evidence-dossiers).
 - A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
@@ -73,7 +73,7 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 ## Research direction
 
 **Current priority: comparable coverage across the 127 engagements.** We have
-seventy-two draft dossiers and 55 engagements without one. Shiloh's repeated source
+seventy-six draft dossiers and 51 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.
@@ -132,7 +132,9 @@ its six required corrections are fixed and verified by the primary.
 The [Middle Tennessee pass](docs/research/middle-tennessee-first-pass-v1.md) adds five
 dossiers, 46 claims, 7 explicit unknowns and 149 citations. Opus 5.5 `high` reviewed them;
 its four required corrections are fixed and verified by the primary.
-Next: **the four-record Longstreet's Tidewater Operations**. See the
+The [Tidewater pass](docs/research/tidewater-first-pass-v1.md) adds four
+dossiers, 38 claims, 4 explicit unknowns and 187 citations. Separate review is pending.
+Next: **the one-record Cavalry Operations along the Rappahannock**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.

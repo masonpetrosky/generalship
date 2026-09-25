@@ -1,0 +1,478 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA031",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all four frozen records in Longstreet's Tidewater Operations [March-April 1863]. Preserve per-engagement dates: Fort Anderson March 13–15, Washington March 30–April 20, Suffolk (Norfleet House) April 13–15 and Suffolk (Fort Huger/Hill's Point) April 11–May 4, 1863. VA030's frozen interval lies inside VA031's, and both frozen casualty texts refer to one 1,160 siege total; their quantities must not be added. The live NPS campaign dates do not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength); the frozen battle-level 45,000 total is shared by VA030 and VA031 and its scope is not stated. No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions (45,000 total), with a frozen strength of 45000, shared with VA030; the live field reads zero. Peck says a captured mail reported that Longstreet would attack with 40,000 to 60,000, that Longstreet, finding an assault on works defended by one-half his own force expensive and uncertain, decided to besiege the place, and that probably not less than two divisions joined him from Hill. French says the Hill's Point work was defended by two companies of infantry.",
+      "rationale": "Siege-level, rumored and local figures differ in scope and source; none is adopted as matched opening strength. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA031"
+          },
+          "column": "forces_text",
+          "quote": "Divisions (45,000 total)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA031"
+          },
+          "column": "strength",
+          "quote": "45000"
+        },
+        {
+          "source_id": "nps-va031-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "General Longstreet would attack me at once with from 40,000 to 60,000"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "upon works defended by one-half his own force would be expensive and uncertain,"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "decided to besiege the place"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "probably not less than two divisions joined from General Hill."
+        },
+        {
+          "source_id": "or18-french-suffolk-selections-v1",
+          "section": "french-1863-04-22",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "the work defended by two companies of infantry,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "union-works",
+      "dimension": "terrain",
+      "value": "Peck says he was ordered to Suffolk on September 22 (OCR year '1802'), found no artificial defenses, began Fort Dix on the 25th, and from then put the line of the river and swamp in a state of defense. He describes the Confederate siege works as not less than 10 miles of batteries, covered ways and rifle-pits.",
+      "rationale": "Union works are inherited relative to the April 11 start and may be commander-created under a campaign boundary; the Confederate works are Peck's description. No map verification or numerical effect.",
+      "citations": [
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "On September 22, 1802, I was ordered to Suffolk,"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "No artifieial defenses were found nor had any plan been prepared."
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "I prepared a system, and on the 25th commenced Fort Dix."
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "placing the line of the river and swamp in a state of defense."
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "10 miles of batteries, covered- ways, and rifle-pits"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "hill-point-work",
+      "dimension": "terrain",
+      "value": "French says the Hill's Point battery was placed in a work built for the defense of the river when the Confederates held Suffolk. NPS says the Union force assaulted Fort Huger from the rear.",
+      "rationale": "Origin of the work from one report; NPS VA030 says a battery was constructed on Hill's Point on April 13. Whether these describe the same work is not established.",
+      "citations": [
+        {
+          "source_id": "or18-french-suffolk-selections-v1",
+          "section": "french-1863-04-22",
+          "locator": "p.324 (OCR page markers; not checked against print)",
+          "quote": "work built for the defense of the river when we held Suffolk"
+        },
+        {
+          "source_id": "nps-va031-v1",
+          "locator": "Description",
+          "quote": "This amphibious force assaulted Fort Huger from the rear,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "river-control",
+      "dimension": "logistics",
+      "value": "Peck says Admiral Lee ordered all boats out of the Upper Nansemond on the 18th, leaving the river's defense to the land forces, and suspended the order at Peck's representation; the Battery Huger assault force crossed on the Stepping Stones. NPS says the capture reopened the river to Union shipping.",
+      "rationale": "Army-navy coordination from one interested report and a summary; no inspected naval record.",
+      "citations": [
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "Admiral Lee, U. S. Navy, or- dered all the boats out of the Upper Nansemond,"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "Upon my representa- tion the order was temporarily suspended."
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "The Eighty-ninth New York and Eighth Connecticut were taken over on the Stepping Stones."
+        },
+        {
+          "source_id": "nps-va031-v1",
+          "locator": "Description",
+          "quote": "thus reopening the river to Union shipping."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surprise-and-warning",
+      "dimension": "information",
+      "value": "Peck says he learned from a captured mail on April 10 that Longstreet would attack, and that on May 3 the Confederate picket line kept deserters from bringing word of the retreat until it had several hours' start. French says the Hill's Point garrison was negligent if surprised; Longstreet's indorsement says the command at the fort seems to have been completely surprised.",
+      "rationale": "Attributed knowledge from opposing reports; the surprise judgments are French's and Longstreet's. No inspected message log.",
+      "citations": [
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "On the 10th, at 4.30 p. m., as the troop train was leaving,"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "I was in- formed of the contents of a captured mail by General Viele"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "About 9 p. m. on the 3d the enemy commenced retiriiig"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "His strong line of i)ickets prevented deserters"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "until he had i several hours the start."
+        },
+        {
+          "source_id": "or18-french-suffolk-selections-v1",
+          "section": "french-1863-04-22",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "if the garrison was mrprised, they were negligent ;"
+        },
+        {
+          "source_id": "or18-french-suffolk-selections-v1",
+          "section": "longstreet-indorsement-1863-04-25",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "The com- mand at the fort seems to have been completely surx)rised,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "siege-objects",
+      "dimension": "objectives",
+      "value": "Peck attributes to the siege the objects of recovering the country south of the James to Albemarle Sound, the ports of Norfolk and Portsmouth, railroad iron and the Union forces, and mocks it as a so-styled foraging expedition; he says his command held the enemy at Suffolk so that Hooker might win. NPS says Lee directed Longstreet on April 29 to disengage and rejoin the Army of Northern Virginia.",
+      "rationale": "Peck's statement of Confederate objects is an opponent's attribution, not Confederate evidence; no Confederate orders were inspected.",
+      "citations": [
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "which had for its objects the recovery of the whole country south of the James"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "Some idea may he formed of this so-styled foraging expedition"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "this command has held the masses of the enemy around Suffolk in order that General Hooker might secure the crowning victory of the war,"
+        },
+        {
+          "source_id": "nps-va031-v1",
+          "locator": "Description",
+          "quote": "On April 29, Gen. Robert E. Lee directed Longstreet to disengage from Suffolk and rejoin the Army of Northern Virginia at Fredericksburg."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Peck says Getty and Lieutenant Lamson carried out the Battery Huger plan and that Lamson suggested it. French says he was ill on Sunday the 19th and that the river as far as the West Branch was guarded by Hood's troops. Longstreet's indorsement says he does not know that any officer deserves particular censure, and judges the work could have been retaken with the loss of 75 men. The frozen and live ranks give Peck Brigadier General, while his report is signed Major-General; the live heading ranks Longstreet Major General against the frozen Lieutenant General.",
+      "rationale": "Divided army-navy and Confederate division responsibilities from opposing reports; Longstreet's 75-man estimate is a counterfactual judgment and is not adopted. The frozen commanders do not receive automatic sole credit, and neither heading nor signature rank is adopted.",
+      "citations": [
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "General Getty and Lieutenant Lamson ex edited most successfully a plan"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant Lamson suggested the enteriu'ise,"
+        },
+        {
+          "source_id": "or18-french-suffolk-selections-v1",
+          "section": "french-1863-04-22",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "On Sunday, the 19th,"
+        },
+        {
+          "source_id": "or18-french-suffolk-selections-v1",
+          "section": "french-1863-04-22",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "I was ill on Sunday and could not ride down the river,"
+        },
+        {
+          "source_id": "or18-french-suffolk-selections-v1",
+          "section": "french-1863-04-22",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "The river as low down as the mouth of the West Branch was guarded by the troops ot General Hood,"
+        },
+        {
+          "source_id": "or18-french-suffolk-selections-v1",
+          "section": "longstreet-indorsement-1863-04-25",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "1 do not know that any of them deserve particular censure."
+        },
+        {
+          "source_id": "or18-french-suffolk-selections-v1",
+          "section": "longstreet-indorsement-1863-04-25",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "the fort and battery could have been recaptured Vvith the loss of 75 men."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA031",
+            "belligerent": "US",
+            "fullname": "John Peck"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "JOHN J. PECK, Major- General."
+        },
+        {
+          "source_id": "nps-va031-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General James Longstreet [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA031",
+            "belligerent": "Confederate",
+            "fullname": "James Longstreet"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "april-24-reconnaissance",
+      "dimension": "outcome",
+      "value": "NPS says Corcoran's April 24 reconnaissance approached cautiously and was easily repulsed. Peck says the enemy was driven in confusion back upon his main line, and that the object was attained and the command withdrawn.",
+      "rationale": "The accounts conflict on the result of the April 24 action; neither is adopted.",
+      "citations": [
+        {
+          "source_id": "nps-va031-v1",
+          "locator": "Description",
+          "quote": "The Federals approached cautiously and were easily repulsed."
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "The enemy was driven in confusion from all his advance points"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "The object of the move was attained and the com- mand withdrawn."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. NPS says a Union force landed on Hill's Point on April 19 and captured the Fort Huger garrison; Peck reports the capture of five pieces of artillery and 120 soldiers in a paragraph whose OCR date reads '10th', between entries for the 18th and 20th. Peck says the Confederates began retiring about 9 p.m. on May 3; NPS says the last had crossed the Blackwater by May 4.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA031"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va031-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-va031-v1",
+          "locator": "Description",
+          "quote": "On April 19, a Union infantry force landed on Hill's Point"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "On the 10th, about dusk, General Getty and Lieutenant Lamson"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "Five pieces of artillery, 0 officers, and 120 soldiers were captured."
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "About 9 p. m. on the 3d the enemy commenced retiriiig"
+        },
+        {
+          "source_id": "nps-va031-v1",
+          "locator": "Description",
+          "quote": "By May 4, the last of Longstreet's command had crossed the Blackwater River en route to Richmond."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 152 total (1,160 for entire siege); the live NPS field reads zero. Peck gives his own siege loss as 44 killed, 202 wounded and 14 missing, 260 in all, which the compiler footnotes against a revised statement on p.288. He estimates the Confederate loss at not less than 1,500: about 400 prisoners, probably 500 or 600 killed and wounded, and 500 deserters.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Peck's figures, like the frozen 1,160, cover the whole siege; the frozen 152 has no stated scope. VA030's frozen text shares the siege total; do not add them.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA031"
+          },
+          "column": "casualties_text",
+          "quote": "152 total (1,160 for entire siege)"
+        },
+        {
+          "source_id": "nps-va031-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "Our own killed is 44 ; wounded, 202, and missing, 14. Total, 260."
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "But see revised statement, p. 288."
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "about 400 prisoners"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "Probably 500 or 600 have been Icilled and wounded"
+        },
+        {
+          "source_id": "or18-peck-suffolk-selections-v1",
+          "section": "peck-1863-05-05",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "500 have deserted, making a total loss of at least 1,500."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Longstreet's, Hood's and Pickett's reports and correspondence, the compiled Union return (OCR pp.286–288), the navy reports and the Confederate battery reports on Battery Huger remain deferred.",
+    "NPS/CWSAC is one family. Foster's, D. H. Hill's, Peck's and French's reports, printed in Official Records Series I, Volume XVIII, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. The compiler's footnote is counted with the Foster selection, and Longstreet's indorsement with French's report, for the effort ceiling; neither is treated as independent corroboration. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
