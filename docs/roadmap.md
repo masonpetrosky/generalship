@@ -367,13 +367,15 @@ Coverage is **35/36 complete campaigns by dossier presence**, with zero promoted
 
 The [Operations about Dandridge first pass](research/dandridge-first-pass-v1.md) adds all
 three **frozen records, TN027, TN028 and TN029**, with **27 claims, 3 explicit unknowns and
-141 citations** from NPS/CWSAC, Sturgis's reports in Official Records Volumes XXXI Part 1
+145 citations** from NPS/CWSAC, Sturgis's reports in Official Records Volumes XXXI Part 1
 and newly pinned XXXII Part 1, Martin's report and Longstreet's report and telegrams.
-Separate review is pending.
+Separate Claude Opus 5.5 `high` [review](../artifacts/review-results/dandridge-668c58f-opus-high-v1/review.md) found
+seven attribution, scope and metadata corrections, all fixed and
+[verified by the primary](../artifacts/review-results/dandridge-668c58f-opus-high-v1/primary-assessment.md).
 Coverage is **36/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-All 36 frozen campaign groups now have first-pass dossiers. Separate review of the
-Dandridge group remains to be completed and recorded. First-pass coverage
+All 36 frozen campaign groups now have first-pass dossiers. Every group's first
+pass has a recorded separate review. First-pass coverage
 does not admit features or change the baseline; the next research priority after these
 reviews is the owner's decision. Keep every engagement regardless of outcome, reputation
 or available strengths.

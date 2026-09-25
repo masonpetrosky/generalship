@@ -185,7 +185,8 @@ The [Mine Run pass](docs/research/mine-run-first-pass-v1.md) adds one dossier, 9
 1 explicit unknown and 79 citations. Opus 5.5 `high` reviewed it;
 its four required corrections are fixed and verified by the primary.
 The [Dandridge pass](docs/research/dandridge-first-pass-v1.md) adds three dossiers,
-27 claims, 3 explicit unknowns and 141 citations. Separate review is pending.
+27 claims, 3 explicit unknowns and 145 citations. Opus 5.5 `high` reviewed it;
+its seven required corrections are fixed and verified by the primary.
 All frozen campaign groups now have first-pass dossiers. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).

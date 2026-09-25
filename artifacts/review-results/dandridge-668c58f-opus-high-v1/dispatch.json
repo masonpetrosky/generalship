@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session c489f910-076e-428a-b558-0a3367c1d178",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 46c40a693fcaea4e161acc7a2d497a6f37470384; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T06:39:50Z",
+  "prepared_commit": "668c58f76fb16476172db6e6200e44209418c619",
+  "bundle_commit": "46c40a693fcaea4e161acc7a2d497a6f37470384",
+  "assignment_sha256": "7e1bba5ace9bccb9b827cfaffecac0c61e97ee692cdd55173207e0608087302e",
+  "inputs_manifest_sha256": "d99c1a09643d76365f4742c7887099613f64c882e9699de11891c0d4d92596be",
+  "num_turns": 31,
+  "duration_ms": 503578,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** The review is at `artifacts/review-results/dandridge-668c58f-opus-high-v1/review.md`, and it is the only file I added to the repository.\n\n**Finding IDs**\n- Required: DAN-R1, DAN-R2, DAN-R3, DAN-R4, DAN-R5, DAN-R6, DAN-R7\n- Advisory: DAN-A1, DAN-A2, DAN-A3, DAN-A4, DAN-A5\n\n**Checks that passed**\n- **Input hashes:** the assignment, `inputs.json` and all 42 bound paths match at `668c58f`. The worktree copies are byte-identical to the prepared commit.\n- **Citations:** I inspected all 27 claims and 141 citations, including the 3 null unknowns. Each quote is present, and the page at both ends of every quote matches its explicit page-marker map, with no misread or missed headers.\n- **Text derivatives:** replaying the recorded transforms reproduces all 3 NPS pages and all 11 selection sections. The pinned Volume XXXI OCR is unchanged.\n- **Unchanged inputs:** the registry has 580 entries / 560 paths, and the previous 568 entries are identical. All 124 older dossiers and 97 historical revisions are byte-identical, as are the cohort, both admission proposals, admission-check, baseline and battles artifacts.\n- **Coverage and baseline:** coverage is 127/127 dossiers, 0 without, and 36/36 campaign groups complete. There are 0 promoted rows, and the baseline is still 23 battles in 13 groups with Brier 0.2768816348133779 against 0.25.\n- **Mechanical checks:** all receipt hashes verify, and the packet JSON blocks match their dossiers and `data/sources.json`. `make check` passed offline (82 tests).\n\n**Required corrections** (the review gives the exact replacement text for each)\n- **R1:** TN027 presents Elliott's 400 and \"others'\" 250–300 as Sturgis's own estimate. His own figure is 300–400, in his January 1 letter.\n- **R2:** TN028 and the memo misstate Longstreet's pursuit reasons. He gives shoes as the only reason his infantry could not pursue, and says his cavalry was sent forward anyway. The fix adds 2 citations.\n- **R3:** In the frozen TN027 force text, it is unclear whether \"approx. 2,000 men\" belongs to Sturgis's report. Also, \"each commander assigns the larger number to the other side\" is not supported, since Sturgis gives no count of his own force.\n- **R4:** Lawton's indorsement is not in the Longstreet selection, but the source record and the memo say it is. The fix is a metadata-only v2 source record.\n- **R5:** In TN029, Wolford's and Garrard's divisions arrived \"too late\" for the pursuit, not \"too exhausted\" to join it. The parched-corn statement covers two months, not just this action. The fix adds 1 citation.\n- **R6:** The memo says Parke ordered the whole Dandridge withdrawal. The cited passage only shows him ordering the cavalry to retire.\n- **R7:** Longstreet's 150 names no side. The dossier should label \"his own losses\" as a reading and should not assert what the frozen Union 150 is.\n\nApplying R2 and R5 raises the citation total to 144.\n\nI did not inspect print pages, maps, subordinate reports or returns. This AI review is not human historical adjudication, independent corroboration or feature admission."
+}

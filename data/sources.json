@@ -15418,6 +15418,59 @@
       ],
       "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
       "inspection": "Title, Longstreet's January 19 Dandridge report with Lawton's indorsement, and his January 29 and February 1 telegrams (the section carries no single date) read in full."
+    },
+    {
+      "title": "Official Records, series I, volume XXXII, part 1: University of Illinois/Internet Archive OCR",
+      "publication_year": 1891,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1891 per OCR title (read as 'OFFICE. 1891.' at the end of the selected title range; not checked against print); series I volume XXXII part I per OCR title and catalog volume v.32:1. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion321unit; University of Illinois Urbana-Champaign; digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "James Longstreet; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title dates unknown. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "longstreet-dandridge-reports",
+      "dependency_note": "Report and telegrams of the Confederate department commander; interested accounts. A. R. Lawton's January 29, 1864 Quartermaster-General's indorsement follows the report in the parent (p.94) and is not in this selection. Shared OR container with the other Volume XXXII Part 1 selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion321unit",
+      "source_kind": "official_report_compilation",
+      "id": "or32-1-longstreet-dandridge-selections-v2",
+      "path": "data/raw/dandridge-v1/longstreet-selections.txt",
+      "format": "text",
+      "sha256": "9266d640ba80ef18aeb99be0af0945feb79d5f5a19cf2c560f54110382ce0f00",
+      "parent_source_id": "or32-1-illinois-ocr-v1",
+      "parent_sha256": "a7f7ea0943a61fa5b278087b532a4ddc752f5398e58ce0ecf6f78cbdcfff716a",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 750,
+          "end": 1292
+        },
+        "longstreet-1864-01-19-dandridge": {
+          "start": 322846,
+          "end": 326298
+        },
+        "longstreet-1864-01-29-to-02-01-fair-garden": {
+          "start": 508471,
+          "end": 510039
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "longstreet-1864-01-19-dandridge": "1864-01-19",
+        "longstreet-1864-01-29-to-02-01-fair-garden": null
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title, Longstreet's January 19 Dandridge report, Lawton's following indorsement (read, not selected), and his January 29 and February 1 telegrams (the section carries no single date) read in full.",
+      "supersedes": {
+        "source_id": "or32-1-longstreet-dandridge-selections-v1",
+        "metadata_sha256": "8a2e81c05b88196a8e7a514d2fc0a69e4f8674c8b2e949690e354204eff0fd74"
+      },
+      "revision_kind": "metadata_only",
+      "revision_note": "DAN-R4: v1 named Lawton's indorsement in the author and dependency note, but the selected range ends before it. Raw bytes and ranges are unchanged. Same pinned raw bytes; not an additional witness."
     }
   ]
 }

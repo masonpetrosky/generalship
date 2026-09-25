@@ -68,6 +68,13 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Operations about Dandridge review correction, 2026-09-25
+
+One `metadata_only` revision (DAN-R4) supersedes `or32-1-longstreet-dandridge-selections-v1`
+with `-v2`, removing Lawton's indorsement from its author and dependency note because the
+selected range ends before it. Raw files, hashes and ranges are unchanged; the registry
+is now **581 entries / 560 raw paths**.
+
 ### Operations about Dandridge first pass, 2026-09-25
 
 The [three-record memo](research/dandridge-first-pass-v1.md) adds **12 records**, bringing
