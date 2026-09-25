@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA023",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all six frozen records in the Northern Virginia Campaign. Preserve per-engagement dates, including the adjoining August 22–25 and 25–27 intervals and the separate August 28 Thoroughfare Gap and August 28–30 Manassas records; VA024 is a frozen aggregate-operation record. The live NPS campaign heading does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field says only Brigades; the live NPS field reads zero. Ropes describes a brigade of Sigel's corps attacking Jackson's rear on the 22nd and Early's brigade with one more regiment and two batteries crossing at Sulphur Springs.",
+      "rationale": "A sequence of separate minor actions with changing forces; no matched population exists. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA023"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-va023-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "rappahannock-river-actions",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "a bri- gade of infantry from Sigel's corps"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "rappahannock-river-actions",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "Early's brigade of Ewell's division, with one additional regiment and two batteries."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "river-and-freshet",
+      "dimension": "terrain",
+      "value": "Ropes says the higher Union bank gave its artillery an advantage and the river, though fordable every few miles, was a considerable obstacle; a heavy rain raised it and cut Early's command off from the army.",
+      "rationale": "Retrospective description; no map or gauge record inspected. The flood was an external condition, not a commander-created advantage.",
+      "citations": [
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "rappahannock-river-actions",
+          "locator": "p.36 (OCR page markers; not checked against print)",
+          "quote": "The greater height of the banks on our side gave our"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "rappahannock-river-actions",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "though fordable every few miles, was nevertheless an obstacle"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "rappahannock-river-actions",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "the river rose during the night so much as to cut off all communication between Early's command and the rest of the army."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "swollen-streams-delay",
+      "dimension": "logistics",
+      "value": "Ropes says the rise made Pope's planned counter-crossing impracticable and that Great Run's flood delayed Sigel's move against Early until too late.",
+      "rationale": "Movement constraints from one retrospective history; no transport or bridging record inspected.",
+      "citations": [
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "rappahannock-river-actions",
+          "locator": "p.40 (OCR page markers; not checked against print)",
+          "quote": "the rise in the river had rendered this project of a counter-attack im- practicable."
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "rappahannock-river-actions",
+          "locator": "p.41 (OCR page markers; not checked against print)",
+          "quote": "so much swollen by the rain that Sigel was delayed till too late"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reported-intent-reading",
+      "dimension": "information",
+      "value": "Ropes says Pope recognized Lee's intention to cross above and turn his right, and received Sigel's despatch that the enemy had crossed near Sulphur Springs.",
+      "rationale": "Retrospective reconstruction relying on Pope's report and despatches quoted by Ropes; not inspected originals.",
+      "citations": [
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "rappahannock-river-actions",
+          "locator": "p.38 (OCR page markers; not checked against print)",
+          "quote": "General Pope, of course, recognized the intention of the enemy."
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "rappahannock-river-actions",
+          "locator": "p.39 (OCR page markers; not checked against print)",
+          "quote": "notifying him that the enemy had crossed near Sulphur Springs"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "crossing-objectives",
+      "dimension": "objectives",
+      "value": "Ropes says Lee, unable to cross between Kelly's and Beverly Fords, sought a passage higher up; Pope first planned to recross and strike Lee's flank and rear, then ordered Sigel to attack the force that had crossed.",
+      "rationale": "Attributed plans from one retrospective history; NPS describes the actions only as minor. No original orders inspected.",
+      "citations": [
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "rappahannock-river-actions",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "he could not make a successful crossing anywhere between Kelly's Ford and Beverly Ford"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "rappahannock-river-actions",
+          "locator": "p.39 (OCR page markers; not checked against print)",
+          "quote": "to recross the river and assail the enemy's flank and rear."
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "rappahannock-river-actions",
+          "locator": "p.40 (OCR page markers; not checked against print)",
+          "quote": "to attack whatever force of the enemy he might"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "dispersed-command",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Pope and Jackson; Ropes names Sigel, Bohlen, Early, Buford and Longstreet in separate actions, and says whether Sigel could have done more is unsettled.",
+      "rationale": "A multi-day series of actions under many subordinates; no listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "rappahannock-river-actions",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "Brigadier- General Bohlen — who commanded them."
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "rappahannock-river-actions",
+          "locator": "p.42 (OCR page markers; not checked against print)",
+          "quote": "Whether he could not have accomplished more than he did is still an unsettled question."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result is Inconclusive; the live NPS field reads Indecisive. NPS describes minor actions with a few hundred casualties.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Inconclusive outcomes are not encoded as half-wins.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA023"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va023-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-va023-v1",
+          "locator": "Description",
+          "quote": "resulting in a few hundred casualties"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 225 total; the live NPS field reads 0 total (US 0; CS 0;).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. A live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA023"
+          },
+          "column": "casualties_text",
+          "quote": "225 total"
+        },
+        {
+          "source_id": "nps-va023-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Returns, casualty allocation among the separate river actions and the Stuart Catlett's Station raid's relation to this record remain deferred.",
+    "NPS/CWSAC is one family; Ropes is one retrospective history written from the Federal standpoint by a civilian author. Reports and despatches quoted inside Ropes are not additional independently inspected families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

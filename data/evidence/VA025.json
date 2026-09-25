@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA025",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all six frozen records in the Northern Virginia Campaign. Preserve per-engagement dates, including the adjoining August 22–25 and 25–27 intervals and the separate August 28 Thoroughfare Gap and August 28–30 Manassas records; VA024 is a frozen aggregate-operation record. The live NPS campaign heading does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field says Divisions; the live field reads zero. Ropes describes Ricketts's division opposing Longstreet's command, with three Confederate brigades sent through Hopewell Gap.",
+      "rationale": "Formation descriptions only; no counts. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA025"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va025-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "thoroughfare-gap",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "the enemy were obliged to send three brigades through Hopewell Gap"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "gap-and-flanking-route",
+      "dimension": "terrain",
+      "value": "NPS says Ricketts was flanked by a column through Hopewell Gap to the north and by troops on the high ground at Thoroughfare Gap.",
+      "rationale": "Route and position description; no map verification.",
+      "citations": [
+        {
+          "source_id": "nps-va025-v1",
+          "locator": "Description",
+          "quote": "flanked by a Confederate column passing through Hopewell Gap several miles to the north"
+        },
+        {
+          "source_id": "nps-va025-v1",
+          "locator": "Description",
+          "quote": "by troops securing the high ground at Thoroughfare Gap"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "wagon-train-delay",
+      "dimension": "logistics",
+      "value": "Ropes says Ricketts was seriously delayed by wagon trains on the way to the Gap, arriving about 3 p.m.",
+      "rationale": "Attributed movement delay; no transport record inspected.",
+      "citations": [
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "thoroughfare-gap",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "Ricketts was seriously delayed * by wagon trains"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "thoroughfare-gap",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "where it arrived at 3 p.m."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cavalry-reports",
+      "dimension": "information",
+      "value": "Ropes says Buford discovered Jackson had passed and Longstreet was following, which convinced McDowell; cavalry reported the enemy advancing through the Gap on the morning of the 28th.",
+      "rationale": "Retrospective summary of reports; not inspected messages.",
+      "citations": [
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "thoroughfare-gap",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "that Long- street was following him with a larger force."
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "thoroughfare-gap",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "on their report that the enemy were advancing through the Gap"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "delay-objective",
+      "dimension": "objectives",
+      "value": "Ropes says McDowell detached Ricketts to delay Longstreet's junction with Jackson.",
+      "rationale": "Attributed purpose; NPS's claim that the action virtually ensured Pope's later defeat is a campaign-contribution judgment, not a measured effect.",
+      "citations": [
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "thoroughfare-gap",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "he had no idea of allowing a junction to be effected between the forces of Longstreet and Jackson"
+        },
+        {
+          "source_id": "nps-va025-v1",
+          "locator": "Description",
+          "quote": "This seemingly inconsequential action virtually ensured Pope's defeat"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "detachment-without-orders",
+      "dimension": "responsibility",
+      "value": "Ropes says McDowell sent Ricketts to the Gap on his own responsibility, contrary to the letter of Pope's 9 p.m. order, and that Pope still disapproved when he wrote his report. The frozen commanders are Ricketts and Longstreet; the live heading ranks Longstreet Major General against the frozen Lieutenant General.",
+      "rationale": "Authority for the detachment lay with McDowell, not the listed field commander; no automatic sole credit. The heading rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "thoroughfare-gap",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "taken, as it was, on his own responsibility"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "thoroughfare-gap",
+          "locator": "p.69 (OCR page markers; not checked against print)",
+          "quote": "he still disapproved of McDowell's course."
+        },
+        {
+          "source_id": "nps-va025-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General James Longstreet [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA025",
+            "belligerent": "Confederate",
+            "fullname": "James Longstreet"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        }
+      ],
+      "phase": "commander_created",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Confederate victory. Ropes says Ricketts delayed Longstreet's passage through the rest of the day and fell back to Gainesville after dark.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA025"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va025-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "thoroughfare-gap",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "After dark Ricketts fell back to Gaines- ville."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 100 total; the live NPS field reads 0 total (US 0; CS 0;).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. A live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA025"
+          },
+          "column": "casualties_text",
+          "quote": "100 total"
+        },
+        {
+          "source_id": "nps-va025-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Returns, casualty categories and the exact McDowell/Pope order chronology remain deferred.",
+    "NPS/CWSAC is one family; Ropes is one retrospective history written from the Federal standpoint by a civilian author. Reports and despatches quoted inside Ropes are not additional independently inspected families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

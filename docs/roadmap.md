@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **45 draft dossiers / 127 engagements**, with **82 without a dossier**.
+There are **51 draft dossiers / 127 engagements**, with **76 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -94,8 +94,15 @@ all 54 claims; its one Perryville population-scope correction is fixed and
 [verified by the primary](../artifacts/review-results/heartland-fc79026-opus-high-v1/primary-assessment.md).
 Coverage is **9/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Northern Virginia Campaign [August 1862]**, the next complete frozen
-group by earliest engagement date: **six records, VA022–VA027**.
+The [Northern Virginia first pass](research/northern-virginia-first-pass-v1.md) adds all
+**six frozen records, VA022–VA027**, with **56 claims, 7 explicit unknowns and 142
+citations**. Each uses NPS/CWSAC and Ropes's retrospective history. VA024 remains a
+frozen aggregate operation; what Pope knew of Longstreet on August 30 is recorded
+as disputed. Separate review is pending.
+Coverage is **10/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Maryland Campaign [September 1862]**, the next complete frozen
+group by earliest engagement date: **four records, WV010, MD002, MD003, WV016** (MD003 already has a draft).
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

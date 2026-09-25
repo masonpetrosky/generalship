@@ -68,6 +68,21 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Northern Virginia first pass, 2026-09-24
+
+The [six-record memo](research/northern-virginia-first-pass-v1.md) adds **15 records**,
+bringing the registry to **301 entries / 298 raw paths**, preserving the previous
+**286/283**. Six NPS battle HTML/text pairs remain in the NPS/CWSAC family. John
+Codman Ropes's 1881 *The Army under Pope* adds a `ropes-army-under-pope-1881` family:
+public catalog metadata, full OCR and one selection derivative holding the
+title/preface, ten bounded battle passages and Appendix D. Character ranges and
+whitespace-only normalization reproduce all sections; OCR errors, running headers,
+one garbled page and map-label text are retained. All selections were read, without
+print, map, roster or whole-book verification. Ropes is a retrospective history
+written from the Federal standpoint; quoted reports are not separately inspected
+originals. Casualty, result-label and knowledge disputes remain visible. No model
+inputs are changed.
+
 ### Heartland Offensive first pass, 2026-09-24
 
 The [five-record memo](research/heartland-first-pass-v1.md) adds **13 records**, bringing

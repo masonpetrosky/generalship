@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA027",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all six frozen records in the Northern Virginia Campaign. Preserve per-engagement dates, including the adjoining August 22–25 and 25–27 intervals and the separate August 28 Thoroughfare Gap and August 28–30 Manassas records; VA024 is a frozen aggregate-operation record. The live NPS campaign heading does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field says Divisions; the live field reads zero. NPS says Jackson attacked two Union divisions under Kearny and Stevens; Ropes says the brunt fell on Reno's divisions and Kearny's, and that Longstreet had not arrived.",
+      "rationale": "Formation descriptions without counts; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA027"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va027-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va027-v1",
+          "locator": "Description",
+          "quote": "Jackson sent his divisions against two Union divisions under Kearny and Stevens"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "chantilly",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "The brunt of the battle was borne by Reno's divisions, and Kearny's division of Heintzelman's corps."
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "chantilly",
+          "locator": "p.148 (OCR page markers; not checked against print)",
+          "quote": "was over before he arrived."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "storm-and-woods",
+      "dimension": "terrain",
+      "value": "NPS describes a severe thunderstorm; Ropes says it was nearly dark and raining heavily, with woods and difficult country behind Jackson's line.",
+      "rationale": "Weather and ground description; no map verification or numerical effect.",
+      "citations": [
+        {
+          "source_id": "nps-va027-v1",
+          "locator": "Description",
+          "quote": "during a severe thunderstorm"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "chantilly",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "it was nearly dark, and came on to rain very heavily."
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "chantilly",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "In the rear of the cross road were woods and difficult country."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "impassable-fords",
+      "dimension": "logistics",
+      "value": "Ropes says rain after August 30 made the fords near the turnpike impassable, and Jackson crossed Bull Run high up at Sudley Ford.",
+      "rationale": "Route constraint from one retrospective history; no transport record inspected.",
+      "citations": [
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "chantilly",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "the fords near the turnpike were rendered impassable."
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "chantilly",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "They crossed Bull Run high up, at Sudley Ford"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "detected-march",
+      "dimension": "information",
+      "value": "Ropes says Sumner's detachments perceived Jackson's march under a 3 a.m. order of Pope's, while darkness and rain kept Union officers from discovering the Confederate position.",
+      "rationale": "Retrospective summary; no inspected reports or message chain.",
+      "citations": [
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "chantilly",
+          "locator": "p.148 (OCR page markers; not checked against print)",
+          "quote": "Jackson's march had been perceived by the detachments which Sumner had sent out"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "chantilly",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "Our officers could not well discover the position of the enemy."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "flank-march-objective",
+      "dimension": "objectives",
+      "value": "NPS says Jackson hoped to cut off the Union retreat; Ropes says he aimed at Fairfax Court House to strike the Union line of communication.",
+      "rationale": "Attributed purposes; no inspected order.",
+      "citations": [
+        {
+          "source_id": "nps-va027-v1",
+          "locator": "Description",
+          "quote": "Jackson hoped to cut off the Union retreat from Bull Run."
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "chantilly",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "hoping to strike the Line of communication of the Federal army"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "killed-division-commanders",
+      "dimension": "responsibility",
+      "value": "Both frozen Union commanders, Kearny and Stevens, were killed; Ropes says Stevens's division fell back and Kearny was killed reconnoitering in front of his troops.",
+      "rationale": "The listed commanders' deaths changed command during the action; no automatic sole credit to any listed commander.",
+      "citations": [
+        {
+          "source_id": "nps-va027-v1",
+          "locator": "Description",
+          "quote": "Union generals Stevens and Kearny were both killed."
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "chantilly",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "Stevens' division fell back, and Stevens, an excellent officer, was killed."
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "chantilly",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "while reconnoitering in front of his troops"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result is Inconclusive (Confederate strategic victory); the live NPS field reads Indecisive. Ropes calls the engagement indecisive, a repulse after which Pope withdrew into the Washington lines.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The strategic qualifier is a campaign-level label, not a tactical margin.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA027"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive (Confederate strategic victory.)"
+        },
+        {
+          "source_id": "nps-va027-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "chantilly",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "the indecisive character of the engagement"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text and live field agree: 2,100 total (US 1,300; CS 800).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA027"
+          },
+          "column": "casualties_text",
+          "quote": "2,100 total (US 1,300; CS 800)"
+        },
+        {
+          "source_id": "nps-va027-v1",
+          "locator": "Estimated Casualties",
+          "quote": "2100 total (US 1300; CS 800;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Returns and casualty categories remain deferred. Ropes reports no Federal loss of guns or prisoners at Chantilly (Appendix D) but gives no casualty figure.",
+    "NPS/CWSAC is one family; Ropes is one retrospective history written from the Federal standpoint by a civilian author. Reports and despatches quoted inside Ropes are not additional independently inspected families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

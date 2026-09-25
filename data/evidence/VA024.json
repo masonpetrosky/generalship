@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA024",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all six frozen records in the Northern Virginia Campaign. Preserve per-engagement dates, including the adjoining August 22–25 and 25–27 intervals and the separate August 28 Thoroughfare Gap and August 28–30 Manassas records; VA024 is a frozen aggregate-operation record. The live NPS campaign heading does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field says Divisions; the live field reads zero. Ropes puts Jackson's three divisions at some twenty-five thousand, and describes separate encounters with Taylor's New Jersey brigade and Hooker's division.",
+      "rationale": "An aggregate operation with several separate encounters; no matched opening population. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA024"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va024-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "manassas-station-raid",
+          "locator": "p.51 (OCR page markers; not checked against print)",
+          "quote": "numbering some twenty- five thousand men"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "manassas-station-raid",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "a New Jersey brigade under General Taylor"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rear-area-railroad",
+      "dimension": "terrain",
+      "value": "NPS describes Jackson striking the Orange & Alexandria Railroad at Bristoe Station and the Manassas Junction depot; Ropes says Ewell burned the Broad Run bridge on retiring.",
+      "rationale": "Site and route features; no map verification or terrain effect.",
+      "citations": [
+        {
+          "source_id": "nps-va024-v1",
+          "locator": "Description",
+          "quote": "struck the Orange & Alexandria Railroad at Bristoe Station"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "manassas-station-raid",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "destroying the bridge on Broad Bun as he retired."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "depot-captures",
+      "dimension": "logistics",
+      "value": "Ropes lists, from Jackson's report, eight guns, 175 horses, 300 prisoners and large commissary stores, with the remainder burned; NPS calls it the massive Union supply depot at Manassas Junction.",
+      "rationale": "Jackson's figures are an attributed claim quoted by Ropes, not an inspected inventory. Post-outcome material consequence.",
+      "citations": [
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "manassas-station-raid",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "amounted to eight guns, with horses, equipments, and ammu- nition"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "manassas-station-raid",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "the remainder were burned."
+        },
+        {
+          "source_id": "nps-va024-v1",
+          "locator": "Description",
+          "quote": "the massive Union supply depot at Manassas Junction"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "unobserved-march",
+      "dimension": "information",
+      "value": "Ropes says Jackson marched some fifteen miles behind the Union army without its knowledge, that Pope thought the railroad cut by cavalry, and that only after the Bristoe fight did Pope learn Jackson's whole corps was there.",
+      "rationale": "Retrospective reconstruction of knowledge; Pope's despatches are quoted, not inspected. NPS calls the move a surprise, which is also a summary judgment.",
+      "citations": [
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "manassas-station-raid",
+          "locator": "p.51 (OCR page markers; not checked against print)",
+          "quote": "our army knew nothing about it."
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "manassas-station-raid",
+          "locator": "p.54 (OCR page markers; not checked against print)",
+          "quote": "the railroad had been cut only by the enemy's cavalry"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "manassas-station-raid",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "He now for the first time learned the truth"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "raid-objective",
+      "dimension": "objectives",
+      "value": "NPS says Jackson marched to capture and destroy the Manassas Junction depot, and that the movement forced Pope into an abrupt retreat from the Rappahannock.",
+      "rationale": "Modern summary of purpose and a campaign-level consequence, not an inspected order or measured effect.",
+      "citations": [
+        {
+          "source_id": "nps-va024-v1",
+          "locator": "Description",
+          "quote": "to capture and destroy the massive Union supply depot at Manassas Junction"
+        },
+        {
+          "source_id": "nps-va024-v1",
+          "locator": "Description",
+          "quote": "This surprise movement forced Pope into an abrupt retreat"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "separate-commands",
+      "dimension": "responsibility",
+      "value": "Stuart, as ranking officer, commanded the night capture with Trimble; Taylor led the Union attempt to retake the post and was mortally wounded; Ewell fought Hooker at Bristoe under orders to retire if pressed.",
+      "rationale": "Several separate commands inside one aggregate record; the listed commanders Jackson and Taylor do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "manassas-station-raid",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "as the ranking officer, to take com- mand of the expedition."
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "manassas-station-raid",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "in the affair Taylor was mortally wounded."
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "manassas-station-raid",
+          "locator": "p.54 (OCR page markers; not checked against print)",
+          "quote": "Ewell was directed by Jackson to retire toward Manassas if"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Confederate victory. Ropes says Hooker drove Ewell back across Broad Run while Taylor's attack failed.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The aggregate record combines actions with different local outcomes.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA024"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va024-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "ropes-northern-virginia-selections-v1",
+          "section": "manassas-station-raid",
+          "locator": "p.54 (OCR page markers; not checked against print)",
+          "quote": "he drove him back across Broad Bun."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,100 total; the live NPS field reads 0 total. The NPS narrative gives about 600 casualties at Kettle Run and several hundred at Bull Run Bridge.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Component figures are not added to the aggregate.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA024"
+          },
+          "column": "casualties_text",
+          "quote": "1,100 total"
+        },
+        {
+          "source_id": "nps-va024-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va024-v1",
+          "locator": "Description",
+          "quote": "resulting in about 600 casualties"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Returns, casualty allocation among Bristoe, Kettle Run, Bull Run Bridge and Union Mills, and the aggregate record's population overlap remain deferred.",
+    "NPS/CWSAC is one family; Ropes is one retrospective history written from the Federal standpoint by a civilian author. Reports and despatches quoted inside Ropes are not additional independently inspected families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
