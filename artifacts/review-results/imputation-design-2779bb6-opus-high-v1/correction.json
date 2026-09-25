@@ -1,0 +1,107 @@
+{
+  "review_sha256": "b5aa284bcab581c7b40c81f145bf3f43996c9bc6ce72a7b333675a29b03351d3",
+  "prepared_commit": "2779bb6828ee09eb2079db6047b4d8908362fffb",
+  "bundle_commit": "27a3dc41d7d2c459d95c9b4ff6b9869376ed7f1e",
+  "scope": "Grade E strength design",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_applied",
+      "summary": "Bounds limited to rule 7-eligible directional bounds (class A or B apart from bound codes); printed values; set-aside inputs listed with reasons; bound_not_applied label; no post-start information in grade E. all_bounds view added."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_applied",
+      "summary": "joint_command sides use echelon unknown in training and imputation (label joint_command_echelon_unknown); ledger_echelon_joint view added."
+    },
+    {
+      "finding_id": "R3",
+      "disposition": "accepted_applied",
+      "summary": "General merge rule; regiment and flotilla merge into unknown; naval_side label; no_naval_grade_e view added."
+    },
+    {
+      "finding_id": "R4",
+      "disposition": "accepted_applied",
+      "summary": "Force feature stated as x = (US - CS)/(US + CS)."
+    },
+    {
+      "finding_id": "R5",
+      "disposition": "accepted_applied",
+      "summary": "Ridge objective, p, single fit, LOO scoring against the refit, calibration grid, draw stream and inverse-CDF sampling, shared imputations specified."
+    },
+    {
+      "finding_id": "R6",
+      "disposition": "accepted_applied",
+      "summary": "Endpoint refits added; median_imputation defined as the view_sensitive reference; non-robustness views listed and excluded from view_sensitive; strength_graded_only must reproduce run 2."
+    },
+    {
+      "finding_id": "R7",
+      "disposition": "accepted_applied",
+      "summary": "Per-commander outcome minus p uses the held-out strength-only probability averaged over imputations."
+    },
+    {
+      "finding_id": "R8",
+      "disposition": "accepted_applied",
+      "summary": "Superseded clauses named in the header; §8 states grade E borrows strength and that transfer to sparser eras is not shown."
+    },
+    {
+      "finding_id": "A1",
+      "disposition": "accepted_applied",
+      "summary": "Composition table and LOO error by echelon added to the output."
+    },
+    {
+      "finding_id": "A2",
+      "disposition": "accepted_applied",
+      "summary": "Grade D status against recorded result declared as a fixed descriptive output."
+    },
+    {
+      "finding_id": "A3",
+      "disposition": "accepted_applied",
+      "summary": "Leave-one-campaign-out coverage reported; calibration on observed sides stated."
+    },
+    {
+      "finding_id": "A4",
+      "disposition": "accepted_applied",
+      "summary": "Mixed response bases stated; train_graded_ab view added."
+    },
+    {
+      "finding_id": "A5",
+      "disposition": "accepted_applied",
+      "summary": "On conflicting applicable bounds, neither bound is applied (label bound_conflict)."
+    },
+    {
+      "finding_id": "A6",
+      "disposition": "accepted_applied",
+      "summary": "Monte Carlo check on imputations 1-10 and 11-20 reported outside the verdict."
+    },
+    {
+      "finding_id": "A7",
+      "disposition": "accepted_applied",
+      "summary": "Pooled point estimate named as such (mean of modes, not a mode)."
+    },
+    {
+      "finding_id": "A8",
+      "disposition": "accepted_applied",
+      "summary": "Header states the owner chose replacement after run 2, over the recommended option."
+    },
+    {
+      "finding_id": "A9",
+      "disposition": "accepted_applied",
+      "summary": "Theater source named (cwsac_campaigns.csv) and included in the authorization."
+    },
+    {
+      "finding_id": "A10",
+      "disposition": "accepted_applied",
+      "summary": "Negligible-mass fallback: point at the nearer bound, label bound_dominates."
+    },
+    {
+      "finding_id": "A11",
+      "disposition": "kept_as_is",
+      "summary": "Manifest coverage noted for future bundles."
+    }
+  ],
+  "corrected_files": {
+    "docs/strength-imputation.md": "15bdb6a2d9db1329ff1ed42a21d175b152cfa845f09eabe8078a617e4f2ed635"
+  },
+  "independent_followup_review": false
+}
