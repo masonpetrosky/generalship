@@ -259,10 +259,12 @@ loss totals are not added. Separate review is pending.
 Coverage is **24/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Tullahoma Campaign first pass](research/tullahoma-first-pass-v1.md) adds the sole
-**frozen record, TN017 (Hoover's Gap)**, with **9 claims, 1 explicit unknown and 41
+**frozen record, TN017 (Hoover's Gap)**, with **9 claims, 1 explicit unknown and 54
 citations** from NPS/CWSAC, a new Cist selection and Bate's report in newly pinned
-Official Records Volume XXIII Part 1. Liberty Gap's losses are not added. Separate review
-is pending.
+Official Records Volume XXIII Part 1. Liberty Gap's losses are not added. Separate Claude
+Opus 5.5 `high` [review](../artifacts/review-results/tullahoma-d6824e5-opus-high-v1/review.md)
+found seven scope, citation, locator and imprint corrections, all fixed and
+[verified by the primary](../artifacts/review-results/tullahoma-d6824e5-opus-high-v1/primary-assessment.md).
 Coverage is **25/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Morgan's Raid first pass](research/morgans-raid-first-pass-v1.md) adds all three

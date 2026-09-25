@@ -68,6 +68,14 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Tullahoma review correction, 2026-09-25
+
+Three `metadata_only` revisions (TL-R7) supersede `ia-or23-1-illinois-metadata-v1`,
+`or23-1-illinois-ocr-v1` and `or23-1-bate-hoovers-gap-selections-v1` with `-v2`,
+recording the OCR imprint year 1889. Raw files, hashes and ranges are unchanged; the
+registry is now **489 entries / 476 raw paths**. The three Morgan's Raid OR selections
+still carry the v1 edition text pending that campaign's review.
+
 ### Morgan's Raid first pass, 2026-09-25
 
 The [three-record memo](research/morgans-raid-first-pass-v1.md) adds **12 records**, bringing

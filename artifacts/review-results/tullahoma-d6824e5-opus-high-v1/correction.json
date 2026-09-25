@@ -1,0 +1,81 @@
+{
+  "review_sha256": "9a8a7127e7abbfb5cdbe7e6d830be4695a789c2327509836482dda5c5d3a5b02",
+  "prepared_commit": "d6824e51b354adffce6d255775a1e6888cbfdab0",
+  "findings": [
+    {
+      "finding_id": "TL-R1",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; the 43,089 quote extended to Bragg's June 20 Shelbyville report and Cist's two-brigade attack added with its citation."
+    },
+    {
+      "finding_id": "TL-R2",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; Bate's right-hand section commanding the exit and the left-hand artillery moved to the rear hills are separated, with two citations."
+    },
+    {
+      "finding_id": "TL-R3",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; Reynolds's lead and support of Wilder cited, and the live NPS commanders cited."
+    },
+    {
+      "finding_id": "TL-R4",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; Manchester cited and Bate's holding action scoped to the fewer than 700 engaged, citing his figure."
+    },
+    {
+      "finding_id": "TL-R5",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; Cist's 231 scoped to Johnson's command at Liberty Gap on the following day, Bate's 146 tied to June 24, and the memo bullet changed."
+    },
+    {
+      "finding_id": "TL-R6",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; the p.161 locator now reports the OCR header '1G1'."
+    },
+    {
+      "finding_id": "TL-R7",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; three metadata_only v2 records give the 1889 imprint at parent offset 1084, and TN017 cites the v2 Bate selection. The later Morgan's Raid OR selections carry the same text and are left for that review."
+    },
+    {
+      "finding_id": "TL-A1",
+      "disposition": "deferred",
+      "summary": "the copied Cist dependency count would need a metadata_only revision; no claim is affected."
+    },
+    {
+      "finding_id": "TL-A2",
+      "disposition": "adopted",
+      "summary": "the Brannan and Elk River clauses are cited."
+    },
+    {
+      "finding_id": "TL-A3",
+      "disposition": "no_change",
+      "summary": "whether the live 583 includes Liberty Gap stays an open question."
+    }
+  ],
+  "dossiers": {
+    "TN017": {
+      "dossier_path": "data/evidence/TN017.json",
+      "archived_dossier_path": "data/evidence/history/TN017.v1.json",
+      "archived_dossier_sha256": "db5eb00a08564de8ff504bba588891f989c3daefe11b554c8d2ccc9359fcfb5f",
+      "corrected_dossier_sha256": "4432ed0ede95f36b3d1553b4d8135005861e1f5494c357c69444a81a4478f37a",
+      "changed_claims": [
+        "reported-force-scope",
+        "gap-and-defiles",
+        "rain-and-roads",
+        "warning-and-feint",
+        "turn-the-right",
+        "command-roles",
+        "recorded-result",
+        "casualty-records"
+      ]
+    }
+  },
+  "notes": "Three metadata_only source revisions (TL-R7) are recorded in data/sources.json. Citations rise from 41 to 54; claims and unknowns are unchanged.",
+  "independent_followup_review": false,
+  "source_revisions": {
+    "ia-or23-1-illinois-metadata-v1": "ia-or23-1-illinois-metadata-v2",
+    "or23-1-illinois-ocr-v1": "or23-1-illinois-ocr-v2",
+    "or23-1-bate-hoovers-gap-selections-v1": "or23-1-bate-hoovers-gap-selections-v2"
+  }
+}

@@ -150,7 +150,8 @@ its three required corrections are fixed and verified by the primary.
 The [Gettysburg Campaign pass](docs/research/gettysburg-first-pass-v1.md) adds ten
 dossiers, 90 claims, 10 explicit unknowns and 320 citations. Separate review is pending.
 The [Tullahoma pass](docs/research/tullahoma-first-pass-v1.md) adds one
-dossier, 9 claims, 1 explicit unknown and 41 citations. Separate review is pending.
+dossier, 9 claims, 1 explicit unknown and 54 citations. Opus 5.5 `high` reviewed it;
+its seven required corrections are fixed and verified by the primary.
 The [Morgan's Raid pass](docs/research/morgans-raid-first-pass-v1.md) adds three
 dossiers, 28 claims, 3 explicit unknowns and 143 citations. Separate review is pending.
 Next: **the three-record Chickamauga Campaign**. See the
