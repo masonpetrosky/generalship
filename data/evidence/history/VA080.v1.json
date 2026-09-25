@@ -229,8 +229,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 1,750 total and the live field 1,703 (US 1,603; CS 100). The frozen description says the Confederate counterattack took some 600 prisoners. Humphreys gives the Adjutant General's table of 516 killed and wounded and 587 missing for both commands and Longstreet's report of 64 lost on the Williamsburg road; Lee reports several hundred prisoners and four colors on October 27 and Field's upward of 400 prisoners and 7 colors.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The description's 600 prisoners, Lee's 'several hundred' on October 27 and Field's 'upward of 400' may overlap and are not added.",
+      "value": "The frozen casualty text reads 1,750 total and the live field 1,703 (US 1,603; CS 100). Humphreys gives the Adjutant General's table of 516 killed and wounded and 587 missing for both commands and Longstreet's report of 64 lost on the Williamsburg road; Lee reports several hundred prisoners and four colors on October 27 and Field's upward of 400 prisoners and 7 colors.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -239,14 +239,6 @@
           },
           "column": "casualties_text",
           "quote": "1,750 total"
-        },
-        {
-          "source_id": "arnold-cwsac-battles",
-          "row_key": {
-            "battle": "VA080"
-          },
-          "column": "description",
-          "quote": "Confederate forces counterattacked, taking some 600 prisoners."
         },
         {
           "source_id": "nps-va080-v1",
@@ -270,12 +262,6 @@
           "section": "lee-1864-10-27",
           "locator": "p.853 (OCR page markers; not checked against print)",
           "quote": "Several hundred prisoners and four stand of colors were captured."
-        },
-        {
-          "source_id": "or42-1-lee-petersburg-selections-v1",
-          "section": "lee-1864-10-28",
-          "locator": "p.854 (OCR page markers; not checked against print)",
-          "quote": "General Field captured upward of 400 prisoners and 7 stand of colors."
         }
       ],
       "phase": "post_outcome",
@@ -286,10 +272,5 @@
     "Weitzel's, Heckman's, Marston's and Terry's reports (Volume XLII Nos. 315, 323, 318; Terry's October 27 report not listed), Longstreet's report (No. 357) and Field's casualty return (No. 360) remain deferred.",
     "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "petersburg-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA080.v1.json",
-    "sha256": "04da0addccad909a53d49fc43c34eb46f5bb43fbac7958538e60a0c290caa0cf"
-  }
+  ]
 }

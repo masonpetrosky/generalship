@@ -74,7 +74,7 @@
       "id": "close-lines-and-forts",
       "dimension": "terrain",
       "value": "Humphreys says the lines at Fort Stedman were only 150 yards apart and the pickets 50, that the rear forts the Confederate plan relied on did not exist, and that the darkness prevented friends from being told from foes; Lee says the captured guns could not be brought off owing to the nature of the ground.",
-      "rationale": "Mixed claim: the lines and the absence of rear forts predate the assault, but the darkness at the hour chosen for the attack and the guns that could not be brought off concern the action itself, so the claim as a whole is not tagged inherited. No map verification.",
+      "rationale": "The lines predate the assault. No map verification.",
       "citations": [
         {
           "source_id": "humphreys-petersburg-selections-v1",
@@ -101,7 +101,7 @@
           "quote": "owing to nature of ground,"
         }
       ],
-      "phase": "unresolved",
+      "phase": "inherited",
       "status": "supported"
     },
     {
@@ -254,7 +254,7 @@
       "id": "recorded-result",
       "dimension": "outcome",
       "value": "The frozen and live results read Union victory. Humphreys says Hartranft retook Fort Stedman with small loss and that the Second and Sixth Corps took the Confederate picket lines; Lee says two efforts to recover the works were repulsed before his troops withdrew, and that at dark the enemy held much of the advanced line.",
-      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The picket-line captures are retained as context for April 2, a later record. Humphreys commanded the Second Corps on March 25 and narrates its picket-line attack in the first person; his account of that attack and of the Second Corps' losses and prisoners is a participant's account.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The picket-line captures are retained as context for April 2, a later record.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -274,12 +274,6 @@
           "section": "fort-stedman",
           "locator": "p.319 (OCR page markers; not checked against print)",
           "quote": "he advanced to the attack and carried the fort with comparatively small loss."
-        },
-        {
-          "source_id": "humphreys-petersburg-selections-v1",
-          "section": "fort-stedman",
-          "locator": "p.320 (OCR page markers; not checked against print)",
-          "quote": "I at once got the Second Corps under arms ready to move, ordered the division commanders to make strong reconnoissances"
         },
         {
           "source_id": "humphreys-petersburg-selections-v1",
@@ -306,8 +300,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 3,850 (US 950; CS 2,900) and the live field 3,698 (US 1,017; CS 2,681). Humphreys gives Parke's 1,949 prisoners and loss of 494 killed and wounded and 523 missing (1,017), the Second Corps' 690 and 358 prisoners, the Sixth Corps' about 400 and 547 prisoners, and his estimate of nearly 4,000 Confederate and about 2,000 Union losses for the day; Lee reports 9 guns, 8 mortars and between 500 and 600 prisoners taken and his loss not heavy. The frozen description says the counterattacks captured more than 1,900 of the attackers; Parke's 1,949 is set beside it, not reconciled.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Parke's 1,017 matches the live Union figure, not the frozen 950; Humphreys' day totals include the picket-line fighting. Humphreys commanded the Second Corps on March 25 and narrates its picket-line attack in the first person; his account of that attack and of the Second Corps' losses and prisoners is a participant's account.",
+      "value": "The frozen casualty text reads 3,850 (US 950; CS 2,900) and the live field 3,698 (US 1,017; CS 2,681). Humphreys gives Parke's 1,949 prisoners and loss of 494 killed and wounded and 523 missing (1,017), the Second Corps' 690 and 358 prisoners, the Sixth Corps' about 400 and 547 prisoners, and his estimate of nearly 4,000 Confederate and about 2,000 Union losses for the day; Lee reports 9 guns, 8 mortars and between 500 and 600 prisoners taken and his loss not heavy.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Parke's 1,017 matches the live Union figure, not the frozen 950; Humphreys' day totals include the picket-line fighting.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -321,14 +315,6 @@
           "source_id": "nps-va084-v1",
           "locator": "Estimated Casualties",
           "quote": "3698 total (US 1017; CS 2681;)"
-        },
-        {
-          "source_id": "arnold-cwsac-battles",
-          "row_key": {
-            "battle": "VA084"
-          },
-          "column": "description",
-          "quote": "captured more than 1,900 of the attackers."
         },
         {
           "source_id": "humphreys-petersburg-selections-v1",
@@ -347,12 +333,6 @@
           "section": "fort-stedman",
           "locator": "p.321 (OCR page markers; not checked against print)",
           "quote": "The loss of the Second Corps was 513 killed and wounded and 177 missing ; total, 690."
-        },
-        {
-          "source_id": "humphreys-petersburg-selections-v1",
-          "section": "fort-stedman",
-          "locator": "p.321 (OCR page markers; not checked against print)",
-          "quote": "358 officers and enlisted men were captured from them."
         },
         {
           "source_id": "humphreys-petersburg-selections-v1",
@@ -387,10 +367,5 @@
     "Parke's, Hartranft's, Willcox's and McLaughlen's reports (Volume XLVI Nos. 134, 154), the artillery reports (Nos. 9-28), Meade's report (No. 5), Gordon's report (No. 181; read, not selected), the Union casualty return (No. 3, garbled) and the Confederate returns (No. 180) remain deferred.",
     "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "petersburg-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA084.v1.json",
-    "sha256": "8e196e952c38f4e478a8f2d6ce1aa7b913521fa8b3c57a4f711ee47899d5e602"
-  }
+  ]
 }

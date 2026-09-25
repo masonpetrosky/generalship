@@ -1,0 +1,43 @@
+# Primary assessment: Bermuda Hundred and Richmond-Petersburg first passes review
+
+Read the complete [Claude Opus 5.5 `high` response](review.md) for prepared commit `40748efdb258cc0382675ebb0bb77f75ad5c2d4a`. Its
+SHA-256 is `4a443b385054a8c84ec82a63bf077df358d867e7ee25e06fa55f9236aeedd151`. The reviewer ran as a fresh headless session with the `evidence-reviewer`
+definition in a detached worktree of bundle commit `b8d19758f70f04d12cf6c22a5bc4d569af78af03`; see [dispatch.json](dispatch.json).
+
+Each required finding was checked against the retained source text before it was applied, and every
+added quote occurs exactly once in its section; `python3 -m generalship check` passes. Superseded
+dossiers are archived under `data/evidence/history/`. [correction.json](correction.json) binds the
+corrected dossiers.
+
+## Required findings
+
+- **PB-R1** (accepted applied): VA065 casualty-records: verified that Lee's June 24, 9 p.m. dispatch reports the June 23 Mahone action and, separately, the June 24 morning in which part of one of Hoke's brigades entered the enemy's works, and that the June 25 dispatch's 97/209 is 'Our entire loss yesterday morning'. Value and rationale replaced with the reviewer's text; Hoke sentence cited (lee-1864-06-24, p.750).
+- **PB-R2** (accepted applied): Verified in the parent OCR: v1 section barton-1864-05-12 (726675-737172) ends with Ransom's '[Indorsement.]' at character 736975, which has no legible date, and the covering letter's three indorsements (Cooper May 16, Davis, Cooper May 20) lie in the unselected gap 725729-726675. Registered or36-2-barton-chester-station-selections-v2 (one register() call, reg_review.py) with new raw file data/raw/bermuda-hundred-v1/barton-selections-v2.txt, the reviewer's four ranges, ransom-indorsement mapped null, corrected inspection, author and dependency notes. Because the raw bytes change, the validator does not allow a 'supersedes' link (it is reserved for metadata_only revisions); v2 instead carries correction_of {source_id, raw_sha256, metadata_sha256} and a correction_note, following or-prentiss-opening-v2 / or-april4-march-orders-v2. v1 and its file untouched. All VA051 Barton citations re-pointed to v2 (locators and quotes unchanged); the Ransom quote cites section ransom-indorsement, p.217. NOTE: the v2 record and raw file were swept into the primary's commit 0b4fbb8 (Price/Mobile reconciliation), whose message mentions it.
+- **PB-R3** (accepted applied): Verified each relay (W. H. F. Lee in the June 26 dispatch, Hampton opening the June 29 dispatch, Hill in the October 28 dispatch). VA113 recorded-result and casualty-records, VA068 recorded-result and command-roles, VA079 recorded-result reworded per the reviewer; the three relay sentences cited (pp.751, 752, 853), and also added to VA113 casualty-records and VA068 command-roles so each reworded claim carries its relay quote.
+- **PB-R4** (accepted applied): Verified Humphreys' first-person 'I at once got the Second Corps under arms' (p.320). Participant sentence appended to VA084 recorded-result and casualty-records rationales; quote cited in recorded-result. Petersburg memo's Humphreys group now lists VA084.
+- **PB-R5** (accepted applied): Verified: Hagood's '1 500' and Humphreys' 19,000 carry no 'about'; 'present for duty' qualifies the corps figures, not Kautz's line; the May 6 brigade sentence is passive; Humphreys says Butler's force destroyed the Swift Creek-Chester Station railroad on May 9; Humphreys' 50,000 is 'amounting to' with a footnoted return excluding Wise's brigade. VA047 reported-force-scope and command-roles, VA051 railroad-and-reconnaissance and VA083 reported-force-scope corrected with the reviewer's text; Wise sentence cited (p.308 inferred). Also cited Humphreys' 'On the 7th of May General Butler sent some force from' (p.144) in VA047 command-roles, since the corrected value attributes the May 7 action to Butler. Bermuda memo's strength bullets corrected.
+- **PB-R6** (accepted applied): All twelve quotes verified exactly in their sections with the stated locators; added to VA053 (2), VA054, VA063 (2), VA069, VA070 (2), VA073 (2), VA079, VA084. Values unchanged.
+- **PB-R7** (accepted applied): VA051 wooded-ridge-and-morass and VA053 intrenchments-and-fog retagged unresolved with the reviewer's rationales (not split). Bermuda memo tag count updated (four inherited -> two).
+- **PB-R8** (accepted applied): Verified 'Confederate forces counterattacked, taking some 600 prisoners.' in the frozen VA080 description (and live NPS). Cited from arnold-cwsac-battles description, sentence inserted in the value, overlap sentence appended to the rationale. Field's 'upward of 400 prisoners and 7 stand of colors', already in the value but uncited, now cited (lee-1864-10-28, p.853).
+
+## Advisories
+
+- **PB-A1** (not adopted): Checked: the selected Lee dispatches go to the Secretary of War and General Cooper, not the President or Bragg. A metadata-only fix needs three successors and would move every Lee citation in thirteen dossiers for an advisory; the dossiers' common question already states that Lee's telegrams relay subordinates. Left for a later metadata-only revision; recorded in the memo.
+- **PB-A2** (not adopted): Optional metadata-only revision of humphreys-petersburg-selections-v1 would move every Humphreys citation in eighteen dossiers; the dependencies are stated in the dossiers' COMMON question, the rationales (now including VA084) and the memo. The shared parent humphreys-virginia-ocr-v1 is not touched. Left for a later metadata-only revision.
+- **PB-A3** (accepted applied): Verified that 143/653/488 end the Boydton footnote printed on p.304 inside the fair-oaks range. VA079 casualty-records: the citation's locator now reads 'p.304 (Boydton footnote continued; ...)', Humphreys' two qualifier sentences (errors in the wounded; killed and missing correct) are cited with the same locator, and the rationale says so.
+- **PB-A4** (accepted applied): Verified the lost line at the p.277/278 break ('Warren's own loss was 301 killed, [footnote] ... wounded, and missing'). VA072 casualty-records value and rationale note that only '301 killed' survives and no count is inferred ('Warren’s own loss was 301 killed,' cited); command-roles rationale notes the footnote's lost opening words.
+- **PB-A5** (kept as is): Reviewer confirms the dossier's refusal to assign columns is appropriate; no change.
+- **PB-A6** (accepted applied): VA077 swamp-rear and VA084 close-lines-and-forts retagged unresolved with mixed-claim rationales (PB-R7 treatment). Petersburg memo tag count updated (fifteen inherited -> thirteen).
+- **PB-A7** (accepted applied): Covered by the PB-R8 rationale (600 / 'several hundred' / 'upward of 400' may overlap, not added).
+- **PB-A8** (accepted applied): VA084 casualty-records: frozen description 'captured more than 1,900 of the attackers.' cited and set beside Parke's 1,949 in the value, not reconciled.
+- **PB-A9** (kept as is): Reviewer finds the VA053 family choice sound and the Butler-telegram deferral recorded; noted in the Bermuda memo, no change.
+- **PB-A10** (accepted applied): Verified (p.281). VA073 command-roles value adds that Gibbon's division responded feebly to Hancock's order to retake the position and guns; quote cited.
+- **PB-A11** (accepted applied): VA071 casualty-records value now attributes 'small' to Lee's August 16, 8.30 p.m. dispatch and that day only (quote already cited from that section).
+- **PB-A12** (accepted applied): VA067 exhaustion-and-supply: 'During this interval of eighty-one hours' and '135 between 3 a. m. of the 28th' cited (wilson-1865-02-18, p.624).
+- **PB-A13** (accepted applied): VA074 casualty-records: 'Lee relays Hill's report of 400 prisoners taken after Heth's attack'; the citation is lengthened to 'General Hill reports that they were severely punished and 400 prisoners captured.'
+- **PB-A14** (accepted applied): Bermuda memo: 'about 1,500' removed, tag count and Barton v2 recorded. Petersburg memo: VA084 added to Humphreys' participant roles, VA065 scope and VA080 overlap added to the disputes, tag count and December 20 return wording corrected. Both memos gain Separate review and Review correction sections and campaign-only counts (179 and 707 citations).
+- **PB-A15** (kept as is): Gillmore's null section date is conservative and acceptable per the reviewer; no change.
+- **PB-A16** (kept as is): cox-atlanta-selections-v2 is outside this review and this reconciliation; no action.
+
+This AI review is a separate analysis, not historical adjudication or proof of source independence.
+The dossiers remain drafts; no model input changes.

@@ -2,16 +2,18 @@
 
 Prepared 2026-09-25 under the [cohort v2](../cohort-v2.md) research order, which puts the Bermuda
 Hundred campaign second. All **five records** in **Bermuda Hundred Campaign [May 1864]** now have
-draft dossiers: **45 claims, 8 explicit null unknowns and 175 citation occurrences**. All seven
-dimensions are represented in each record. All dossiers are drafts; no features are admitted.
+draft dossiers: **45 claims, 8 explicit null unknowns and 179 citation occurrences** (175 before
+the review correction below). All seven dimensions are represented in each record. All dossiers
+are drafts; no features are admitted. A separate review has been run and reconciled; see
+"Separate review" and "Review correction" below.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| VA047 — Port Walthall Junction | 1864-05-06 to 05-07 | 9 | 1 | 38 | 3 |
+| VA047 — Port Walthall Junction | 1864-05-06 to 05-07 | 9 | 1 | 39 | 3 |
 | VA050 — Swift Creek | 1864-05-09 | 9 | 1 | 32 | 3 |
 | VA051 — Chester Station | 1864-05-10 | 9 | 2 | 31 | 3 |
-| VA053 — Proctor's Creek | 1864-05-12 to 05-16 | 9 | 1 | 51 | 3 |
-| VA054 — Ware Bottom Church | 1864-05-20 | 9 | 3 | 23 | 3 |
+| VA053 — Proctor's Creek | 1864-05-12 to 05-16 | 9 | 1 | 53 | 3 |
+| VA054 — Ware Bottom Church | 1864-05-20 | 9 | 3 | 24 | 3 |
 
 Dossier presence is not first-pass acceptance, separate review or model eligibility.
 
@@ -39,8 +41,10 @@ full. NPS/CWSAC and the Arnold tables are one family. Each record uses two furth
   - **Butler's** five telegrams of May 9–20 (No. 1, pp.10–13), read and selected in full; the
     May 9 and May 20 telegrams are cited.
   - **Hagood's** May 13 report (No. 100, pp.251–253), read and selected.
-  - **Barton's** May 16 covering letter and May 12 report with Ransom's indorsement (No. 91,
-    pp.213–217), read and selected.
+  - **Barton's** May 16 covering letter and May 12 report with Ransom's undated indorsement
+    (No. 91, pp.213–217), read and selected. The three indorsements on the covering letter
+    (Cooper, May 16; Davis; Cooper, May 20) were read but not selected. After the review
+    correction, Ransom's indorsement is a separate, null-dated section of the `-v2` selection.
   - **Beauregard's** June 10 report, June 14 letter and the addenda casualty and prisoner lists
     (No. 88, pp.199–206), read and selected.
 
@@ -65,14 +69,15 @@ Three sections of the Butler selection (May 12, 17 and 18) are selected but not 
 would have been a fourth family for Proctor's Creek, so they were left out under the
 three-family ceiling. Stop after this batch.
 
-This pass **adds 15 source records**:
+This pass **adds 15 source records**, and its review correction adds one more (16 in all):
 
 - five NPS HTML/text pairs (`nps-va047-v1` … `nps-va054-v1`, with `-html` parents);
 - one Humphreys selection (`humphreys-bermuda-selections-v1`);
 - four report selections from Volume XXXVI Part 2:
   - `or36-2-butler-bermuda-hundred-selections-v1`;
   - `or36-2-hagood-port-walthall-selections-v1`;
-  - `or36-2-barton-chester-station-selections-v1`;
+  - `or36-2-barton-chester-station-selections-v1`, and its review-correction successor
+    `or36-2-barton-chester-station-selections-v2`;
   - `or36-2-beauregard-drewrys-bluff-selections-v1`.
 
 No new volume, catalog record or raw OCR parent was needed.
@@ -106,14 +111,16 @@ No new volume, catalog record or raw OCR parent was needed.
   CS 18,000). The others have blank bounds with force text 'Divisions', and VA054 has an
   undivided 10,000 total. Every figure found is recorded with its date, basis and scope, and
   none is adopted:
-  - Humphreys' present-for-duty returns for the Army of the James: 1,329 officers and 30,543
-    enlisted infantry; 82 guns; Kautz's 97 officers and 2,804 cavalry.
+  - Humphreys' Army of the James figures: 1,329 officers and 30,543 enlisted infantry and 82
+    guns, built from corps figures he gives as present for duty; Kautz's cavalry as 97 officers
+    and 2,804 enlisted men.
   - His Confederate reconstructions: about 6,000 infantry at Richmond on May 1; 19,000 infantry
-    in the arriving brigades; 22,000 infantry and 2,000 cavalry by May 15; not less than 17,000
-    in the three Drury's Bluff divisions (about 5,400, 7,000 and 4,900); Whiting's not less
-    than 4,600.
+    (enlisted men present for duty) in the arriving brigades; 22,000 infantry and 2,000 cavalry
+    by May 15; not less than 17,000 in the three Drury's Bluff divisions (about 5,400, 7,000 and
+    4,900); Whiting's not less than 4,600.
   - Butler's 1,700 and 3,000 cavalry.
-  - Hagood's aggregate of about 1,500 engaged on May 7, and Johnson's 800 muskets.
+  - Hagood's aggregate of 1,500 engaged on May 7 (no "about" in the passage), and Johnson's
+    800 muskets.
   - The post-detachment figures: Butler's 10,000 infantry; Smith's nearly 16,000; Beauregard's
     about 9,000.
   - The live VA053 force field (57,000; US 39,000) against its own description's 30,000.
@@ -149,10 +156,12 @@ No new volume, catalog record or raw OCR parent was needed.
     - Barton's formation under Ransom's orders and his relief, in Barton's own defensive
       account.
   - No listed commander receives automatic sole credit.
-- **Tags.** Four terrain claims are tagged `inherited`: the Port Walthall sunken road and
-  embankment, the Swift Creek line, the Chester Station ridge and morass, and the Drury's Bluff
-  intrenchments. The May 20 rifle-pits and the Howlett Line stay `unresolved`. Outcomes are
-  `post_outcome`.
+- **Tags.** Two terrain claims are tagged `inherited`: the Port Walthall sunken road and
+  embankment, and the Swift Creek line. The Chester Station ridge and morass and the Drury's
+  Bluff intrenchments and fog were tagged `inherited` in the first pass; after the review
+  correction they are `unresolved`, because each also contains conditions that arose during the
+  action (the Union fortifying, the woods fire and the close range; the fog of May 16). The May
+  20 rifle-pits and the Howlett Line stay `unresolved`. Outcomes are `post_outcome`.
 - **OCR limits.**
   - Page locators rely on OCR running heads; p.137 is inferred.
   - Several quotes preserve OCR corruption, for example "Our foss was 177", "ihadanaggre eate of
@@ -172,17 +181,65 @@ cohort, the frozen baseline and both admission proposals are unchanged, with zer
 
 ## Validation
 
-- `python3 -m generalship check` passes in the worktree.
+- `python3 -m generalship check` passes, before and after the review correction.
 - `python3 -m unittest discover -s tests` passes (134 tests).
-- After building, the builder's quote-miss list is empty.
+- After building, the builder's quote-miss list is empty, including after the review correction.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run. The next step is a fresh-context `evidence-reviewer`
-assignment. It should be bound to the commit, the five dossier hashes and the source hashes
-above. It should cover:
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed commit
+`40748ef` for this campaign and the Richmond-Petersburg campaign together, as
+`petersburg-review-40748ef-opus-high-v1`, on 2026-09-25. Its outcome was "corrections required":
+eight required findings (PB-R1 to PB-R8) and sixteen advisories (PB-A1 to PB-A16). PB-R2, the
+VA047 and VA051 parts of PB-R5, the VA053 and VA054 rows of PB-R6, PB-R7, PB-A5, PB-A9 and the
+Bermuda part of PB-A14 concern this campaign; the rest are reconciled in the
+[Richmond-Petersburg memo](petersburg-first-pass-v1.md). It is an AI review within its stated
+scope, not human historical adjudication, proof of source independence or feature admission.
 
-- entailment and locators;
-- the OCR-garbled Beauregard addenda and Barton covering letter;
-- the use of Humphreys against the Beauregard family;
-- the decision to leave Butler's May 17 telegram out of VA053 under the three-family ceiling.
+## Review correction
+
+Each finding was checked against the retained selection text (and, for PB-R2, the parent OCR)
+before any change; every new quote occurs in its section, and the dossiers were regenerated from
+the builder. Four dossiers (VA047, VA051, VA053, VA054) are revised under
+`bermuda-hundred-review-correction-2026-09-25` and supersede byte-for-byte archives at
+`data/evidence/history/<ID>.v1.json`. VA050 is unchanged. All required findings for this
+campaign hold and are applied:
+
+- **PB-R2** (Barton selection; VA051): the section `barton-1864-05-12` of
+  `or36-2-barton-chester-station-selections-v1` (parent characters 726675–737172) ended with
+  Ransom's undated indorsement, so the indorsement took Barton's May 12 date. The v1 inspection
+  note also said the covering letter's indorsements were selected, but they lie in the
+  unselected gap (parent 725729–726675). A content successor,
+  `or36-2-barton-chester-station-selections-v2` (new raw file `barton-selections-v2.txt`, same
+  parent and transform), splits the range at parent character 736975 into `barton-1864-05-12`
+  and a null-dated `ransom-indorsement`, and corrects the inspection note. Because its raw bytes
+  differ, it records `correction_of` (v1's raw and metadata hashes) and a `correction_note`, as
+  the earlier Shiloh literal corrections did; a `supersedes` link is reserved by the validator for
+  `metadata_only` revisions. v1 and its file are unchanged. All VA051 Barton citations now cite
+  v2, and the Ransom quote cites `ransom-indorsement` (p.217). Quotes and locators are otherwise
+  unchanged.
+- **PB-R5** (VA047 `reported-force-scope` and `command-roles`; VA051
+  `railroad-and-reconnaissance`): "about" is removed from Hagood's 1,500 and Humphreys' 19,000;
+  "present for duty" now qualifies only Humphreys' corps figures; the May 6 brigade is stated in
+  the passive, as Humphreys has it, and his May 7 sentence naming Butler is cited (p.144).
+  Humphreys reports that Butler's force destroyed the railroad between Swift Creek and Chester
+  Station on May 9; the VA051 value and rationale no longer present it as an aim.
+- **PB-R6** (VA053 `reported-force-scope` and `recorded-result`; VA054
+  `reported-force-scope`): three citations added for figures already in the values (Ames's,
+  Hinks's and the detached 3,000, p.149; Beauregard's 1,400 prisoners, 5 guns and 5 colors,
+  p.204; Kautz's 2,600 and Hinks's colored cavalry, p.159).
+- **PB-R7** (VA051 `wooded-ridge-and-morass`; VA053 `intrenchments-and-fog`): both are mixed
+  claims and are retagged `unresolved` with the reviewer's rationales.
+
+Advisories:
+
+- **Adopted:** the Bermuda part of PB-A14 (this memo's "about 1,500" and the tag count).
+- **Recorded, no change:** PB-A5 (the Beauregard prisoner list is consistent with a two-row
+  list and a totals row; the dossier still assigns no columns), PB-A9 (VA053's three families
+  are not three independent witnesses, since Humphreys quotes Beauregard; Butler's telegrams stay
+  out under the ceiling, as recorded in the open questions).
+
+Citations rise from 175 to 179; claims (45), unknowns (8) and `disputed` claims (14) are
+unchanged. Two claims move from `inherited` to `unresolved`. One source record is added; none is
+changed. No model input, cohort file, admission proposal or baseline is changed. Coverage,
+separate review and feature admission stay distinct.

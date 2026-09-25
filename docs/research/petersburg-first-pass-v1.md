@@ -2,31 +2,32 @@
 
 Prepared 2026-09-25 under the [cohort v2](../cohort-v2.md) research order, which puts the
 Richmond-Petersburg campaign third. All **nineteen records** in **Richmond-Petersburg Campaign
-[June 1864-March 1865]** now have draft dossiers: **172 claims, 24 explicit null unknowns and 681
-citation occurrences**. All seven dimensions are represented in each record. All dossiers are
-drafts; no features are admitted.
+[June 1864-March 1865]** now have draft dossiers: **172 claims, 24 explicit null unknowns and 707
+citation occurrences** (681 before the review correction below). All seven dimensions are
+represented in each record. All dossiers are drafts; no features are admitted. A separate review
+has been run and reconciled; see "Separate review" and "Review correction" below.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
 | VA098 — Petersburg (June 9) | 1864-06-09 | 9 | 2 | 26 | 3 |
-| VA063 — Petersburg | 1864-06-15 to 06-18 | 9 | 1 | 49 | 3 |
-| VA065 — Jerusalem Plank Road | 1864-06-21 to 06-24 | 9 | 1 | 34 | 3 |
-| VA113 — Staunton River Bridge | 1864-06-25 | 9 | 1 | 31 | 3 |
-| VA067 — Sappony Church | 1864-06-28 | 9 | 1 | 31 | 3 |
-| VA068 — Ream's Station (June 29) | 1864-06-29 | 9 | 1 | 33 | 3 |
-| VA069 — Deep Bottom I | 1864-07-27 to 07-29 | 9 | 1 | 34 | 3 |
-| VA070 — Crater | 1864-07-30 | 10 | 1 | 47 | 3 |
+| VA063 — Petersburg | 1864-06-15 to 06-18 | 9 | 1 | 51 | 3 |
+| VA065 — Jerusalem Plank Road | 1864-06-21 to 06-24 | 9 | 1 | 35 | 3 |
+| VA113 — Staunton River Bridge | 1864-06-25 | 9 | 1 | 33 | 3 |
+| VA067 — Sappony Church | 1864-06-28 | 9 | 1 | 33 | 3 |
+| VA068 — Ream's Station (June 29) | 1864-06-29 | 9 | 1 | 35 | 3 |
+| VA069 — Deep Bottom I | 1864-07-27 to 07-29 | 9 | 1 | 35 | 3 |
+| VA070 — Crater | 1864-07-30 | 10 | 1 | 49 | 3 |
 | VA071 — Deep Bottom II | 1864-08-13 to 08-20 | 9 | 1 | 34 | 3 |
-| VA072 — Globe Tavern | 1864-08-18 to 08-21 | 9 | 1 | 46 | 3 |
-| VA073 — Ream's Station (August 25) | 1864-08-25 | 9 | 1 | 33 | 3 |
+| VA072 — Globe Tavern | 1864-08-18 to 08-21 | 9 | 1 | 47 | 3 |
+| VA073 — Ream's Station (August 25) | 1864-08-25 | 9 | 1 | 36 | 3 |
 | VA075 — Chaffin's Farm/New Market Heights | 1864-09-29 to 09-30 | 9 | 1 | 47 | 3 |
 | VA074 — Peebles' Farm | 1864-09-30 to 10-02 | 9 | 2 | 32 | 3 |
 | VA077 — Darbytown & New Market Roads | 1864-10-07 | 9 | 3 | 28 | 3 |
 | VA078 — Darbytown Road | 1864-10-13 | 9 | 2 | 21 | 3 |
-| VA079 — Boydton Plank Road | 1864-10-27 to 10-28 | 9 | 1 | 43 | 3 |
-| VA080 — Fair Oaks & Darbytown Road | 1864-10-27 to 10-28 | 9 | 1 | 27 | 3 |
-| VA083 — Hatcher's Run | 1865-02-05 to 02-07 | 9 | 1 | 43 | 3 |
-| VA084 — Fort Stedman | 1865-03-25 | 9 | 1 | 42 | 3 |
+| VA079 — Boydton Plank Road | 1864-10-27 to 10-28 | 9 | 1 | 47 | 3 |
+| VA080 — Fair Oaks & Darbytown Road | 1864-10-27 to 10-28 | 9 | 1 | 29 | 3 |
+| VA083 — Hatcher's Run | 1865-02-05 to 02-07 | 9 | 1 | 44 | 3 |
+| VA084 — Fort Stedman | 1865-03-25 | 9 | 1 | 45 | 3 |
 
 Dossier presence is not first-pass acceptance, separate review or model eligibility.
 
@@ -137,6 +138,8 @@ Each new volume is registered once.
   Beauregard's and Gordon's despatches.
   - He was Meade's chief of staff, and he personally directed Warren on October 27 (VA079).
   - He commanded the Second Corps at Hatcher's Run and is a frozen commander of VA083.
+  - He commanded the Second Corps at Fort Stedman (VA084) and narrates its March 25
+    picket-line attack in the first person (flagged after the review correction).
   - For those records his history is a self-interested participant's account.
 - **Meade's** November 1 selection joins the existing `meade-overland-report` group, because it is
   the same document as the registered Overland portion.
@@ -194,7 +197,8 @@ Each new volume is registered once.
   - The Boydton plan of 30,000–35,000 infantry: Hancock's 10,000, and Parke's and Warren's
     11,000 each.
   - The October 20 Confederate return (13,638 infantry and 5,453 cavalry).
-  - The December 20 return (3,609 officers and 50,155 men).
+  - The December 20 return (3,609 officers and 50,155 enlisted men, excluding Wise's brigade),
+    behind Humphreys' effective infantry of 50,000.
   - The spring 1865 returns (not less than 46,000 against 69,000).
   - Gordon's "about one-half of the Army" at Fort Stedman.
 - **Disputes preserved** (37 claims marked `disputed`: nine force-scope, nine result and nineteen
@@ -220,8 +224,8 @@ Each new volume is registered once.
     "Union gained ground" and the live record "Union Victory"; the two are not reconciled.
   - **Commanders' characterizations.**
     - Sappony Church: Wilson's repulses against Hampton's rout.
-    - Staunton River: Lee's "signally repulsed" against Wilson's claim that the raid's objects
-      were in the main accomplished.
+    - Staunton River: W. H. F. Lee's "signally repulsed", as Lee relays it, against Wilson's
+      claim that the raid's objects were in the main accomplished.
     - Globe Tavern: Lee's "Defeated" against the recorded Union victory.
     - Peebles' Farm: the Union gains against Heth's repulse of Potter.
     - Boydton: Mahone "swept from the field" against the Union withdrawal.
@@ -229,6 +233,11 @@ Each new volume is registered once.
     - Crater: Burnside's 170 Fourth Division killed against 176 in Humphreys; Meade's 4,400
       against the Medical table's 4,008 and Humphreys' probable 3,500.
     - Reams's Station: Hill's 2,150 prisoners and 12 colors against Lee's 2,000 and seven.
+    - Jerusalem Plank Road: Lee's loss of 97 killed and wounded and 209 missing is for the
+      morning of June 24, when he reports part of one of Hoke's brigades entering the enemy's
+      works; it is not tied to Mahone's fights and is not assigned to this record.
+    - Fair Oaks: the frozen description's 600 prisoners, Lee's "several hundred" and Field's
+      "upward of 400" may overlap and are not added.
     - Reams's Station, June 29: Wilson's reports identify the infantry as Hoke's and as
       Finegan's brigade of Mahone's division.
 - **Command roles and ranks.**
@@ -256,8 +265,11 @@ Each new volume is registered once.
   - No listed commander receives automatic sole credit. The direction of some listed commanders is
     not described in the inspected passages: Butler at Chaffin's Farm, Terry and Anderson on
     October 13, Birney on October 7 and Field at Deep Bottom I.
-- **Tags.** Fifteen terrain claims are tagged `inherited`: pre-existing works, woods, swamps,
-  creeks and rivers. One claim is tagged `commander_created`: the crater made by the Union mine,
+- **Tags.** Thirteen terrain claims are tagged `inherited`: pre-existing works, woods, swamps,
+  creeks and rivers. The October 7 swamp claim (VA077) and the Fort Stedman lines claim (VA084)
+  were tagged `inherited` in the first pass; after the review correction they are `unresolved`,
+  because each also contains conditions of the action (the loss of Kautz's guns; the darkness at
+  the chosen hour and the guns that could not be brought off). One claim is tagged `commander_created`: the crater made by the Union mine,
   which became an obstacle to the attackers. Works built during an engagement stay
   `unresolved`. Outcomes are `post_outcome`.
 - **OCR limits.**
@@ -280,18 +292,75 @@ cohort, the frozen baseline and both admission proposals are unchanged, with zer
 
 ## Validation
 
-- `python3 -m generalship check` passes in the worktree.
+- `python3 -m generalship check` passes, before and after the review correction.
 - `python3 -m unittest discover -s tests` passes (134 tests).
-- After building, the builder's quote-miss list is empty.
+- After building, the builder's quote-miss list is empty, including after the review correction.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run. The next step is a fresh-context `evidence-reviewer`
-assignment, which may be split into batches. It should be bound to the commit, the nineteen
-dossier hashes and the source hashes above. It should cover:
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed commit
+`40748ef` for this campaign and the Bermuda Hundred campaign together, as
+`petersburg-review-40748ef-opus-high-v1`, on 2026-09-25. Its outcome was "corrections required":
+eight required findings (PB-R1 to PB-R8) and sixteen advisories (PB-A1 to PB-A16). PB-R1, PB-R3,
+PB-R4, PB-R8, the VA083 part of PB-R5, the Richmond-Petersburg rows of PB-R6 and PB-A1 to PB-A4,
+PB-A6 to PB-A8, PB-A10 to PB-A16 concern this campaign; the rest are reconciled in the
+[Bermuda Hundred memo](bermuda-hundred-first-pass-v1.md). It is an AI review within its stated
+scope, not human historical adjudication, proof of source independence or feature admission.
 
-- entailment and locators;
-- the garbled Gillmore and Hampton pages;
-- the single Lee group across three volumes;
-- Humphreys' participant role in VA079 and VA083;
-- the placement of Meade's November 1 continuation in `meade-overland-report`.
+## Review correction
+
+Each finding was checked against the retained selection text before any change; every new quote
+occurs in its section, and the dossiers were regenerated from the builders. Sixteen dossiers
+(VA063, VA065, VA113, VA067, VA068, VA069, VA070, VA071, VA072, VA073, VA074, VA077, VA079,
+VA080, VA083, VA084) are revised under `petersburg-review-correction-2026-09-25` and supersede
+byte-for-byte archives at `data/evidence/history/<ID>.v1.json`. VA098, VA075 and VA078 are
+unchanged. All required findings for this campaign hold and are applied:
+
+- **PB-R1** (VA065 `casualty-records`): Lee's June 25 figure of 97 killed and wounded and 209
+  missing is his entire loss on the morning of June 24, which his June 24 dispatch describes
+  separately from Mahone's June 22–23 fights (part of one of Hoke's brigades entered the enemy's
+  works). Value and rationale corrected; the Hoke sentence is cited (p.750). The figure is not
+  assigned to this record or added to its totals.
+- **PB-R3** (VA113, VA068, VA079): statements Lee relays from W. H. F. Lee, Hampton and Hill are
+  now attributed as relays. Each relay sentence is cited (pp.751, 752, 853); VA113
+  `casualty-records` and VA068 `command-roles` also cite them.
+- **PB-R4** (VA084 `recorded-result`, `casualty-records`): both rationales flag Humphreys'
+  first-person role as Second Corps commander on March 25; his "I at once got the Second Corps
+  under arms" sentence is cited (p.320).
+- **PB-R5** (VA083 `reported-force-scope`): the value follows Humphreys' "effective force of
+  infantry amounting to 50,000" and his footnoted December 20 return, excluding Wise's brigade;
+  the Wise sentence is cited (p.308, inferred).
+- **PB-R6**: nine citations added for figures and statements already in the values (VA063
+  Johnson's 3,500 and the 1,240 killed; VA069 Field's and Fitz Lee's divisions on the 29th; VA070
+  Burnside's under 6,000 veterans and the concealed battery; VA073 Miles and the 610 killed and
+  wounded; VA079 Parke's 1,500 and Warren's 2,500; VA084 the 358 prisoners).
+- **PB-R8** (VA080 `casualty-records`): the frozen description's "taking some 600 prisoners" is
+  cited and stated in the value; the rationale says it, Lee's "several hundred" and Field's
+  "upward of 400" may overlap and are not added (PB-A7). Field's figure, already in the value,
+  is now cited (p.853).
+
+Advisories:
+
+- **Adopted as wording, tags and citations:** PB-A3 (VA079: the Adjutant General's figures end
+  the Boydton footnote on p.304; locator says so, and Humphreys' qualifier on the table's
+  wounded is cited), PB-A4 (VA072: the line lost at the p.277/278 page break is noted in both
+  rationales and the value; only "301 killed" survives and no count is inferred), PB-A6 (VA077
+  `swamp-rear` and VA084 `close-lines-and-forts` retagged `unresolved` as mixed claims), PB-A8
+  (VA084: the frozen description's "more than 1,900" captured is cited beside Parke's 1,949, not
+  reconciled), PB-A10 (VA073: Gibbon's division "responded feebly"), PB-A11 (VA071: Lee's
+  "small" loss is the August 16, 8.30 p.m. dispatch's), PB-A12 (VA067: the eighty-one hours and
+  the 3 a.m. June 28 start cited, p.624), PB-A13 (VA074: Lee relays Hill's 400 prisoners) and
+  PB-A14 (this memo).
+- **Not adopted:** PB-A1 (the three Lee selection records' dependency note names the President
+  and Bragg as recipients; the selected dispatches go to the Secretary of War and General
+  Cooper) and PB-A2 (Petersburg-specific dependencies for the Humphreys selection note). Both
+  are advisory metadata-only revisions that would move every Lee citation (thirteen dossiers)
+  or Humphreys citation (eighteen); the dossiers' common open question and this memo already
+  state the relay and dependence caveats. They are left for a later metadata-only revision.
+- **Recorded, no change:** PB-A15 (Gillmore's null section date is conservative), PB-A16
+  (`cox-atlanta-selections-v2` is outside this review).
+
+Citations rise from 681 to 707; claims (172), unknowns (24) and `disputed` claims (37) are
+unchanged. Two claims move from `inherited` to `unresolved`. No source record is added or changed
+for this campaign. No model input, cohort file, admission proposal or baseline is changed.
+Coverage, separate review and feature admission stay distinct.

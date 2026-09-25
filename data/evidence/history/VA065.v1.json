@@ -267,8 +267,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 4,000 total and the live field 3,534 (US 2,962; CS 572). Humphreys gives the Second Corps loss as about 1,700 prisoners, four guns and several colors, with killed and wounded not severe; Lee reports about 1,600 prisoners, 4 guns and 8 colors on June 22, about 600 prisoners on June 23, and, separately, his entire loss on the morning of June 24 as 97 killed and wounded and 209 missing, the morning on which he reports that part of one of Hoke's brigades entered the enemy's works; the inspected passages do not tie that action to Mahone's fights or establish that it belongs to this record.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The prisoner counts are captor and loser figures for overlapping populations. Lee's June 24 morning loss belongs to the Hoke attack he reports that day; it is not assigned to this record or added to its totals.",
+      "value": "The frozen casualty text reads 4,000 total and the live field 3,534 (US 2,962; CS 572). Humphreys gives the Second Corps loss as about 1,700 prisoners, four guns and several colors, with killed and wounded not severe; Lee reports about 1,600 prisoners, 4 guns and 8 colors on June 22, about 600 prisoners on June 23, and his own loss on June 24 as 97 killed and wounded and 209 missing.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The prisoner counts are captor and loser figures for overlapping populations.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -306,12 +306,6 @@
           "section": "lee-1864-06-25-2100",
           "locator": "p.750 (OCR page markers; not checked against print)",
           "quote": "Our entire loss yesterday morning was 97 killed and wounded and 209 missing."
-        },
-        {
-          "source_id": "or40-1-lee-petersburg-selections-v1",
-          "section": "lee-1864-06-24",
-          "locator": "p.750 (OCR page markers; not checked against print)",
-          "quote": "This morning the enemy was felt on both flanks, and a part of one of General Hoke’s brigades entered his works."
         }
       ],
       "phase": "post_outcome",
@@ -322,10 +316,5 @@
     "Birney's (No. 18), Barlow's, Gibbon's and Wright's reports, Meade's November 1 paragraph on June 21-23 (read, not selected), Hill's and Mahone's reports and the compiled returns remain deferred.",
     "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "petersburg-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA065.v1.json",
-    "sha256": "cafbc2d027185244792bbc1205b4b03b2632832f20d5bbbef5a03d156d8ad189"
-  }
+  ]
 }

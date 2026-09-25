@@ -1,0 +1,155 @@
+{
+  "review_sha256": "4a443b385054a8c84ec82a63bf077df358d867e7ee25e06fa55f9236aeedd151",
+  "prepared_commit": "40748efdb258cc0382675ebb0bb77f75ad5c2d4a",
+  "bundle_commit": "b8d19758f70f04d12cf6c22a5bc4d569af78af03",
+  "scope": "Bermuda Hundred and Richmond-Petersburg first passes review",
+  "findings": [
+    {
+      "finding_id": "PB-R1",
+      "disposition": "accepted_applied",
+      "summary": "VA065 casualty-records: verified that Lee's June 24, 9 p.m. dispatch reports the June 23 Mahone action and, separately, the June 24 morning in which part of one of Hoke's brigades entered the enemy's works, and that the June 25 dispatch's 97/209 is 'Our entire loss yesterday morning'. Value and rationale replaced with the reviewer's text; Hoke sentence cited (lee-1864-06-24, p.750)."
+    },
+    {
+      "finding_id": "PB-R2",
+      "disposition": "accepted_applied",
+      "summary": "Verified in the parent OCR: v1 section barton-1864-05-12 (726675-737172) ends with Ransom's '[Indorsement.]' at character 736975, which has no legible date, and the covering letter's three indorsements (Cooper May 16, Davis, Cooper May 20) lie in the unselected gap 725729-726675. Registered or36-2-barton-chester-station-selections-v2 (one register() call, reg_review.py) with new raw file data/raw/bermuda-hundred-v1/barton-selections-v2.txt, the reviewer's four ranges, ransom-indorsement mapped null, corrected inspection, author and dependency notes. Because the raw bytes change, the validator does not allow a 'supersedes' link (it is reserved for metadata_only revisions); v2 instead carries correction_of {source_id, raw_sha256, metadata_sha256} and a correction_note, following or-prentiss-opening-v2 / or-april4-march-orders-v2. v1 and its file untouched. All VA051 Barton citations re-pointed to v2 (locators and quotes unchanged); the Ransom quote cites section ransom-indorsement, p.217. NOTE: the v2 record and raw file were swept into the primary's commit 0b4fbb8 (Price/Mobile reconciliation), whose message mentions it."
+    },
+    {
+      "finding_id": "PB-R3",
+      "disposition": "accepted_applied",
+      "summary": "Verified each relay (W. H. F. Lee in the June 26 dispatch, Hampton opening the June 29 dispatch, Hill in the October 28 dispatch). VA113 recorded-result and casualty-records, VA068 recorded-result and command-roles, VA079 recorded-result reworded per the reviewer; the three relay sentences cited (pp.751, 752, 853), and also added to VA113 casualty-records and VA068 command-roles so each reworded claim carries its relay quote."
+    },
+    {
+      "finding_id": "PB-R4",
+      "disposition": "accepted_applied",
+      "summary": "Verified Humphreys' first-person 'I at once got the Second Corps under arms' (p.320). Participant sentence appended to VA084 recorded-result and casualty-records rationales; quote cited in recorded-result. Petersburg memo's Humphreys group now lists VA084."
+    },
+    {
+      "finding_id": "PB-R5",
+      "disposition": "accepted_applied",
+      "summary": "Verified: Hagood's '1 500' and Humphreys' 19,000 carry no 'about'; 'present for duty' qualifies the corps figures, not Kautz's line; the May 6 brigade sentence is passive; Humphreys says Butler's force destroyed the Swift Creek-Chester Station railroad on May 9; Humphreys' 50,000 is 'amounting to' with a footnoted return excluding Wise's brigade. VA047 reported-force-scope and command-roles, VA051 railroad-and-reconnaissance and VA083 reported-force-scope corrected with the reviewer's text; Wise sentence cited (p.308 inferred). Also cited Humphreys' 'On the 7th of May General Butler sent some force from' (p.144) in VA047 command-roles, since the corrected value attributes the May 7 action to Butler. Bermuda memo's strength bullets corrected."
+    },
+    {
+      "finding_id": "PB-R6",
+      "disposition": "accepted_applied",
+      "summary": "All twelve quotes verified exactly in their sections with the stated locators; added to VA053 (2), VA054, VA063 (2), VA069, VA070 (2), VA073 (2), VA079, VA084. Values unchanged."
+    },
+    {
+      "finding_id": "PB-R7",
+      "disposition": "accepted_applied",
+      "summary": "VA051 wooded-ridge-and-morass and VA053 intrenchments-and-fog retagged unresolved with the reviewer's rationales (not split). Bermuda memo tag count updated (four inherited -> two)."
+    },
+    {
+      "finding_id": "PB-R8",
+      "disposition": "accepted_applied",
+      "summary": "Verified 'Confederate forces counterattacked, taking some 600 prisoners.' in the frozen VA080 description (and live NPS). Cited from arnold-cwsac-battles description, sentence inserted in the value, overlap sentence appended to the rationale. Field's 'upward of 400 prisoners and 7 stand of colors', already in the value but uncited, now cited (lee-1864-10-28, p.853)."
+    },
+    {
+      "finding_id": "PB-A1",
+      "disposition": "not_adopted",
+      "summary": "Checked: the selected Lee dispatches go to the Secretary of War and General Cooper, not the President or Bragg. A metadata-only fix needs three successors and would move every Lee citation in thirteen dossiers for an advisory; the dossiers' common question already states that Lee's telegrams relay subordinates. Left for a later metadata-only revision; recorded in the memo."
+    },
+    {
+      "finding_id": "PB-A2",
+      "disposition": "not_adopted",
+      "summary": "Optional metadata-only revision of humphreys-petersburg-selections-v1 would move every Humphreys citation in eighteen dossiers; the dependencies are stated in the dossiers' COMMON question, the rationales (now including VA084) and the memo. The shared parent humphreys-virginia-ocr-v1 is not touched. Left for a later metadata-only revision."
+    },
+    {
+      "finding_id": "PB-A3",
+      "disposition": "accepted_applied",
+      "summary": "Verified that 143/653/488 end the Boydton footnote printed on p.304 inside the fair-oaks range. VA079 casualty-records: the citation's locator now reads 'p.304 (Boydton footnote continued; ...)', Humphreys' two qualifier sentences (errors in the wounded; killed and missing correct) are cited with the same locator, and the rationale says so."
+    },
+    {
+      "finding_id": "PB-A4",
+      "disposition": "accepted_applied",
+      "summary": "Verified the lost line at the p.277/278 break ('Warren's own loss was 301 killed, [footnote] ... wounded, and missing'). VA072 casualty-records value and rationale note that only '301 killed' survives and no count is inferred ('Warren’s own loss was 301 killed,' cited); command-roles rationale notes the footnote's lost opening words."
+    },
+    {
+      "finding_id": "PB-A5",
+      "disposition": "kept_as_is",
+      "summary": "Reviewer confirms the dossier's refusal to assign columns is appropriate; no change."
+    },
+    {
+      "finding_id": "PB-A6",
+      "disposition": "accepted_applied",
+      "summary": "VA077 swamp-rear and VA084 close-lines-and-forts retagged unresolved with mixed-claim rationales (PB-R7 treatment). Petersburg memo tag count updated (fifteen inherited -> thirteen)."
+    },
+    {
+      "finding_id": "PB-A7",
+      "disposition": "accepted_applied",
+      "summary": "Covered by the PB-R8 rationale (600 / 'several hundred' / 'upward of 400' may overlap, not added)."
+    },
+    {
+      "finding_id": "PB-A8",
+      "disposition": "accepted_applied",
+      "summary": "VA084 casualty-records: frozen description 'captured more than 1,900 of the attackers.' cited and set beside Parke's 1,949 in the value, not reconciled."
+    },
+    {
+      "finding_id": "PB-A9",
+      "disposition": "kept_as_is",
+      "summary": "Reviewer finds the VA053 family choice sound and the Butler-telegram deferral recorded; noted in the Bermuda memo, no change."
+    },
+    {
+      "finding_id": "PB-A10",
+      "disposition": "accepted_applied",
+      "summary": "Verified (p.281). VA073 command-roles value adds that Gibbon's division responded feebly to Hancock's order to retake the position and guns; quote cited."
+    },
+    {
+      "finding_id": "PB-A11",
+      "disposition": "accepted_applied",
+      "summary": "VA071 casualty-records value now attributes 'small' to Lee's August 16, 8.30 p.m. dispatch and that day only (quote already cited from that section)."
+    },
+    {
+      "finding_id": "PB-A12",
+      "disposition": "accepted_applied",
+      "summary": "VA067 exhaustion-and-supply: 'During this interval of eighty-one hours' and '135 between 3 a. m. of the 28th' cited (wilson-1865-02-18, p.624)."
+    },
+    {
+      "finding_id": "PB-A13",
+      "disposition": "accepted_applied",
+      "summary": "VA074 casualty-records: 'Lee relays Hill's report of 400 prisoners taken after Heth's attack'; the citation is lengthened to 'General Hill reports that they were severely punished and 400 prisoners captured.'"
+    },
+    {
+      "finding_id": "PB-A14",
+      "disposition": "accepted_applied",
+      "summary": "Bermuda memo: 'about 1,500' removed, tag count and Barton v2 recorded. Petersburg memo: VA084 added to Humphreys' participant roles, VA065 scope and VA080 overlap added to the disputes, tag count and December 20 return wording corrected. Both memos gain Separate review and Review correction sections and campaign-only counts (179 and 707 citations)."
+    },
+    {
+      "finding_id": "PB-A15",
+      "disposition": "kept_as_is",
+      "summary": "Gillmore's null section date is conservative and acceptable per the reviewer; no change."
+    },
+    {
+      "finding_id": "PB-A16",
+      "disposition": "kept_as_is",
+      "summary": "cox-atlanta-selections-v2 is outside this review and this reconciliation; no action."
+    }
+  ],
+  "corrected_dossiers": {
+    "VA047": "50e2815bf78d182c303b29db50cb99c793537266eec4a2930e6876f653b06c84",
+    "VA050": "4022213632457d9aa2cf1dc77b3a2ef7d0c88988bdb73a295a7be213c8b0a2de",
+    "VA051": "6ed1d6fb1735ff9c622f02f38b3454df53bc574aae54235f76cc7a42d573270c",
+    "VA053": "9bdc86219e27e182c19fc9f3328c845075d890c7e4c032811edcf68e98c6fe2f",
+    "VA054": "287157fb115c86dc8f2d5b7a86b739a9d87f5ed398c6c6c438b80bc75cee392e",
+    "VA098": "4de95ed16c8463a9238d8f33f6c8e6103157ee726a5f2950dc8339283bcd3adf",
+    "VA063": "b3ced6993733f637417ece1f3ae372771c720eb17e95c142dccb4a697869a20e",
+    "VA065": "b108e40b6885855d02909b2c61cd501b49ccd5263e6ead6bb2fbd05a2f775c21",
+    "VA113": "1e7871d654e5bca31856dddadc2e2abeb7d8d59b58b43defe501f9dad83762a0",
+    "VA067": "7b932031ce44cc4eea2953209465a8a64e7045d23c3c3d2cf9860d7ff519d03b",
+    "VA068": "56a41d72bae2553c47b40345f2ac0e4b69d019dcde0fe13b89681b206bc39815",
+    "VA069": "76728a0b2c8a6cfcb6e024892139b55bd0ef01b59b6d8e3099359a5381a506aa",
+    "VA070": "35b8b2ec07e9191cb805893225364e41927e48a0f9e802858f221c2329169f7b",
+    "VA071": "5f07122070ea82cf9b5b67177ccc2dbe121a34d1eddb83704288df27d1000e30",
+    "VA072": "ee4e0e6fa4db073434003883b832cf043d51df640fc9d7b845e2c068c5ca877f",
+    "VA073": "cf0eeac99117b2677cf078291269351a5671d3a76ec592b6ebefc9dcc7764b1e",
+    "VA075": "b582a3359bc05feb1096229e1138e5e8990b293fedb91cdc8443f35b7bde97bb",
+    "VA074": "212f2da0217e12eb345de89db6207577e080cfe75084bc3cde7a70d560d18172",
+    "VA077": "1cb7c359c396fddf67995b53874b7de806d7ba1cbf7ebcbced25474fb3013525",
+    "VA078": "04c039af9cea33e80a4a41c777c1076a57285b9a92b91b8fdf7ebbf03849e8bd",
+    "VA079": "26a2e26346c95917409bae79f7ecae8d9713105119d7a72dc65afefbfff1019f",
+    "VA080": "e2db26d1c4a77be6916a8c19dca696468e96310089fbc1373c6ebe331caf826a",
+    "VA083": "56833f06c1d9e6c5d51c3d3863b655e461b9d6b0d69b29bbb86975bf1de2b002",
+    "VA084": "901dd963982d68384fcd43e6f89b0b55bbcb85b6edc48143856791a3dce74ba4"
+  },
+  "independent_followup_review": false
+}

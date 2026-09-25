@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 17b3b127-baf6-448a-8620-b85099729f01",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit b8d19758f70f04d12cf6c22a5bc4d569af78af03; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T17:21:58Z",
+  "prepared_commit": "40748efdb258cc0382675ebb0bb77f75ad5c2d4a",
+  "bundle_commit": "b8d19758f70f04d12cf6c22a5bc4d569af78af03",
+  "assignment_sha256": "bdde73d2ae462ab77831970e73f0c01eab4338b03cb14896cffba0d1211b4c90",
+  "inputs_manifest_sha256": "108aa60983d3638ca1c9e555d385347fe1a996de4f31884844f25ac5b3e7801e",
+  "num_turns": 92,
+  "duration_ms": 900095,
+  "terminal_reason": "completed",
+  "returned_message": "I've written the review, and the outcome is **corrections required**. All 114 input hashes matched the prepared commit, `make check` passed offline (134 tests), and I changed nothing else and made no commit.\n\n**Review path:** `artifacts/review-results/petersburg-review-40748ef-opus-high-v1/review.md`\n\nI checked every citation in all 24 dossiers against its source passage, compared them with the frozen rows and the live NPS pages, and rebuilt all 94 selection sections from the parent OCR (all match exactly). Every record uses three source families, and the memo counts are correct.\n\n**Required corrections (the review gives the exact wording and quotes for each):**\n- **PB-R1 (VA065):** Lee's loss of 97 killed and wounded and 209 missing is from his June 24 morning action, when part of one of Hoke's brigades entered the enemy's works. The dispatch reports it separately from Mahone's June 22–23 fighting, and nothing ties it to this record.\n- **PB-R2 (Barton source record):** Ransom's undated indorsement sits inside the section dated May 12, so it would take Barton's date. The record also says the covering letter's indorsements were selected; they weren't. Fixing this needs a new version of the source file, with VA051's citation moved to it.\n- **PB-R3 (VA113, VA068, VA079):** several \"Lee says\" statements are Lee passing on reports from W. H. F. Lee, Hampton or Hill, and should be attributed that way.\n- **PB-R4 (VA084):** Humphreys describes the Second Corps' picket-line attack in the first person because he commanded it. The dossier doesn't flag him as a participant, as it does for VA079 and VA083.\n- **PB-R5 (VA047, VA083, VA051):** the claim text adds things the sources don't say:\n  - \"about\" on figures of 1,500, 19,000 and 50,000;\n  - a passive \"a brigade was sent\" credited to Butler;\n  - \"aimed to destroy\" where Humphreys only says the railroad was destroyed.\n- **PB-R6:** 12 figures or statements appear in claim text without a supporting quote. The review lists each quote to add.\n- **PB-R7 (VA051, VA053):** two terrain claims tagged `inherited` include things that happened during the fight (a woods fire and new works; the May 16 fog). They should be `unresolved`, or split.\n- **PB-R8 (VA080):** the frozen description's \"some 600 prisoners\" isn't accounted for anywhere in the dossier.\n\n**Advisories:** PB-A1 to PB-A16, none requiring a change. They cover registry notes (wrong recipients in the Lee note; Humphreys' participant roles not in his record), text lost at OCR page breaks, overlapping prisoner counts, and memo updates if the corrections are applied.\n\n**Decisions you asked about:**\n- **Sound:**\n  - keeping Meade's Volume XL report in the Overland group (the report's own footnote confirms it's the same document);\n  - one Lee group across three volumes;\n  - leaving Butler's telegrams out of VA053;\n  - null dates where the OCR date is illegible.\n- **Acceptable with labels:** keeping Humphreys as a family for VA079 and VA083.\n- **Mostly sound:** the phase tags, apart from PB-R7.\n\nThis is an AI review, not historical adjudication; it doesn't establish that any source is independent or admit any feature.\n\n**Finding IDs:** PB-R1, PB-R2, PB-R3, PB-R4, PB-R5, PB-R6, PB-R7, PB-R8; PB-A1 to PB-A16."
+}
