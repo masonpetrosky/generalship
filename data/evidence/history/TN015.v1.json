@@ -18,8 +18,8 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force text gives approx. 400 Union detachments (structured 400/400) and Forrest's Division; the live field reads zero. NPS says Bloodgood held Brentwood with 400 men; Jordan and Pryor, citing Federal accounts, say some 529 officers, men and teamsters surrendered there, and about 230 more at the stockade, 759 in all.",
-      "rationale": "Garrison and surrender counts differ in scope; surrender counts are not opening strengths. No Confederate count is given. The OCR prints the total as '7591'; 759 follows from 529 plus 230 and is not checked against print.",
+      "value": "The frozen force text gives approx. 400 Union detachments (structured 400/400) and Forrest's Division; the live field reads zero. NPS says Bloodgood held Brentwood with 400 men; Jordan and Pryor say 529 officers, men and teamsters surrendered there and about 230 more at the stockade, 759 in all.",
+      "rationale": "Garrison and surrender counts differ in scope; surrender counts are not opening strengths. No Confederate count is given.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -47,12 +47,6 @@
           "source_id": "nps-tn015-v1",
           "locator": "Description",
           "quote": "with 400 men"
-        },
-        {
-          "source_id": "jordan-middle-tennessee-selections-v1",
-          "section": "brentwood",
-          "locator": "p.242 (OCR page markers; not checked against print)",
-          "quote": "according to Federal accounts"
         },
         {
           "source_id": "jordan-middle-tennessee-selections-v1",
@@ -158,7 +152,7 @@
     {
       "id": "surrender-sequence",
       "dimension": "responsibility",
-      "value": "NPS says Bloodgood refused a surrender demand under a flag of truce, and that within half an hour Forrest had artillery in place and the Federals surrounded, after which Bloodgood decided to surrender. Jordan and Pryor say the surrender at Brentwood was made without further parley, and place a refusal at the separate bridge stockade (about 230 men), whose garrison declined the demand and yielded after a single shot from Freeman's gun. Whether the accounts conflict about one post or describe different posts is unresolved. The live heading ranks Forrest Major General against the frozen Brigadier General.",
+      "value": "NPS says Bloodgood refused a surrender demand and then surrendered within half an hour; Jordan and Pryor say the surrender was made without further parley. The live heading ranks Forrest Major General against the frozen Brigadier General.",
       "rationale": "The sequence differs between the sources; neither is adopted. The heading rank is not adopted.",
       "citations": [
         {
@@ -167,27 +161,10 @@
           "quote": "Forrest sent in a demand for a surrender under a flag of truce but Bloodgood refused."
         },
         {
-          "source_id": "nps-tn015-v1",
-          "locator": "Description",
-          "quote": "Within a half hour, though, Forrest had artillery in place to shell Bloodgood's position and had surrounded the Federals with a large force. Bloodgood decided to surrender."
-        },
-        {
           "source_id": "jordan-middle-tennessee-selections-v1",
           "section": "brentwood",
           "locator": "p.242 (OCR page markers; not checked against print)",
           "quote": "which was made without further parley."
-        },
-        {
-          "source_id": "jordan-middle-tennessee-selections-v1",
-          "section": "brentwood",
-          "locator": "p.243 (OCR page markers; not checked against print)",
-          "quote": "demanded through his aid-de-camp, Captain C. W. Anderson, was curtly declined."
-        },
-        {
-          "source_id": "jordan-middle-tennessee-selections-v1",
-          "section": "brentwood",
-          "locator": "p.243 (OCR page markers; not checked against print)",
-          "quote": "A single shot, however, from Freeman's gun, hurtling and crashing through the stockade, wrought an immediate change of purpose"
         },
         {
           "source_id": "nps-tn015-v1",
@@ -277,10 +254,5 @@
     "Bloodgood's and Forrest's reports, returns and the surrender sequence remain deferred.",
     "NPS/CWSAC is one family. Cist is an interested retrospective Union staff history; Jordan and Pryor is a retrospective Confederate history for most of whose statements Forrest's prefatory note accepts responsibility, and is not independent of Forrest. Where both are used they are separate families. Reports and newspapers cited inside either book are not additional families.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "middle-tennessee-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/TN015.v1.json",
-    "sha256": "74e80976a29949e5011879575a08d2e3a5f937aa96bdea126f0ba199940d5df4"
-  }
+  ]
 }

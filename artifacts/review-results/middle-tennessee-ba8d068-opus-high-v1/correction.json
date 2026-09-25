@@ -1,0 +1,83 @@
+{
+  "review_sha256": "741ef4ecf2a940de2dd260c0d67ebb3a7904a42106889a3e805a0bf97d99e3fc",
+  "prepared_commit": "ba8d06850c1ccc671332a76af667a48e4457a0e8",
+  "findings": [
+    {
+      "finding_id": "MT-R1",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; TN016 records the May 10 date in the frozen description and identical live page against the frozen April 10 interval, with three citations added."
+    },
+    {
+      "finding_id": "MT-R2",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; TN012 gunboat timing restated from intact words, the cropped lines flagged, and two p.229 quotes added."
+    },
+    {
+      "finding_id": "MT-R3",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; TN015 adds NPS's half-hour sequence and the bridge-stockade refusal, with three citations; status stays disputed."
+    },
+    {
+      "finding_id": "MT-R4",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; the 529 is attributed to Federal accounts with the OCR '7591' noted, and Wharton's delay is Wheeler's explanation; two citations added."
+    },
+    {
+      "finding_id": "MT-N1",
+      "disposition": "recommendation_adopted_by_primary",
+      "summary": "adopted; four clause citations added and the TN012 casualty rationale notes that 'wounded' rests on the cropped 'td'."
+    },
+    {
+      "finding_id": "MT-N2",
+      "disposition": "no_dossier_change",
+      "summary": "the footnote tension is kept as an open question in the memo."
+    }
+  ],
+  "dossiers": {
+    "TN012": {
+      "dossier_path": "data/evidence/TN012.json",
+      "archived_dossier_path": "data/evidence/history/TN012.v1.json",
+      "archived_dossier_sha256": "cd8b798eeb0600590765c22dfeae480a7de38cca56dd3f441abb5932fdfec400",
+      "corrected_dossier_sha256": "ee2bc871f8fbcba03ecbf3ea54891f1dfff0b55e99330517b93ced402e1c9b81",
+      "changed_claims": [
+        "reported-force-scope",
+        "gunboat-timing",
+        "ammunition-shortage",
+        "command-roles",
+        "casualty-records"
+      ]
+    },
+    "TN013": {
+      "dossier_path": "data/evidence/TN013.json",
+      "archived_dossier_path": "data/evidence/history/TN013.v1.json",
+      "archived_dossier_sha256": "a6001887b003bee3cb33fdd17fe41a574918b532f7af427e653d1b76e461735e",
+      "corrected_dossier_sha256": "f9e612947233154a6802303105e48c60a000f2af0c771cb9f1778ba7136cf274",
+      "changed_claims": [
+        "opening-personnel-unknown",
+        "command-roles"
+      ]
+    },
+    "TN015": {
+      "dossier_path": "data/evidence/TN015.json",
+      "archived_dossier_path": "data/evidence/history/TN015.v1.json",
+      "archived_dossier_sha256": "74e80976a29949e5011879575a08d2e3a5f937aa96bdea126f0ba199940d5df4",
+      "corrected_dossier_sha256": "68ac39e0c340b97d74b203e7b9df23c62d8c45a1a63ecd2f6d22abbc19396b7a",
+      "changed_claims": [
+        "reported-force-scope",
+        "surrender-sequence"
+      ]
+    },
+    "TN016": {
+      "dossier_path": "data/evidence/TN016.json",
+      "archived_dossier_path": "data/evidence/history/TN016.v1.json",
+      "archived_dossier_sha256": "3544a8826de7df06fb0e1410c831794947f0be3c4cd2d3de3ff13bd4f6711d13",
+      "corrected_dossier_sha256": "d69d0a9b85381dbc68eaa638539eba60fd19373aa0eb39338dbcd7e4b213b99c",
+      "changed_claims": [
+        "opening-personnel-unknown",
+        "recorded-result"
+      ]
+    }
+  },
+  "notes": "TN013 and TN016 also receive the blank-bounds unknown-strength rationale propagated from VB-R1. Citations rise from 135 to 149; claims and unknowns are unchanged.",
+  "independent_followup_review": false
+}

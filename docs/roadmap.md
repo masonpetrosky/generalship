@@ -177,11 +177,14 @@ found six extraction and scope corrections, all fixed and
 Coverage is **17/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Middle Tennessee first pass](research/middle-tennessee-first-pass-v1.md) adds all
-**five frozen records, TN012–TN016**, with **46 claims, 7 explicit unknowns and 135
+**five frozen records, TN012–TN016**, with **46 claims, 7 explicit unknowns and 149
 citations** from NPS/CWSAC and new selections from the pinned Cist and Jordan and
 Pryor OCRs. Disputes over the Dover gunboats, the Brentwood surrender sequence and
-Franklin's live narrative date (May 10 against the frozen April 10) are retained.
-Separate review is pending.
+Franklin's narrative date (May 10 in both the frozen description and the live page,
+against the frozen April 10 interval) are retained. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/middle-tennessee-ba8d068-opus-high-v1/review.md)
+found four date, timing, sequence and attribution corrections, all fixed and
+[verified by the primary](../artifacts/review-results/middle-tennessee-ba8d068-opus-high-v1/primary-assessment.md).
 Coverage is **18/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The Vicksburg review's VB-R1 also applies to earlier dossiers: the unknown-strength
@@ -189,7 +192,7 @@ template said imported estimates remained unchanged where the frozen bounds are 
 A recorded [propagation](../artifacts/migrations/opening-strength-rationale-v1.json)
 restates that rationale in 19 reviewed dossiers (each archived to history); values,
 statuses and citations are unchanged, and no separate review of the propagation is
-claimed. TN013 and TN016 follow with the Middle Tennessee correction.
+claimed. TN013 and TN016 received it with the Middle Tennessee correction.
 
 Next take **Longstreet's Tidewater Operations [March-April 1863]**, the next complete frozen
 group by earliest engagement date: **four records, NC010, NC011, VA031, VA030**.

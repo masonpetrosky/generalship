@@ -65,12 +65,6 @@
           "quote": "with Wharton's command of some twenty-five hundred men"
         },
         {
-          "source_id": "cist-middle-tennessee-selections-v1",
-          "section": "dover",
-          "locator": "p.140 (OCR page markers; not checked against print)",
-          "quote": "Forrest to move his brigade with four guns"
-        },
-        {
           "source_id": "jordan-middle-tennessee-selections-v1",
           "section": "dover",
           "locator": "p.226 (OCR page markers; not checked against print)",
@@ -89,20 +83,14 @@
     {
       "id": "gunboat-timing",
       "dimension": "strength",
-      "value": "Cist says six gunboats aided Harding in the latter part of the engagement; Jordan and Pryor, in cropped OCR lines, say the Federal gunboats came up about eight o'clock, after the Confederates had been withdrawn from under the Federal fire, cannonaded without doing any harm, and that the Confederates began to retire an hour later.",
-      "rationale": "The sources conflict on whether naval fire was part of the engagement; neither is adopted. Jordan's timing and the words completing 'at' and 'from under' are cropped in the scan; only intact words are quoted and 'at night' is not verified against print.",
+      "value": "Cist says six gunboats aided Harding in the latter part of the engagement; Jordan and Pryor say the gunboats came up about eight at night after the Confederates had withdrawn and did no harm.",
+      "rationale": "The sources conflict on whether naval fire was part of the engagement; neither is adopted.",
       "citations": [
         {
           "source_id": "cist-middle-tennessee-selections-v1",
           "section": "dover",
           "locator": "p.141 (OCR page markers; not checked against print)",
           "quote": "In the latter part of the engagement at Dover, Harding was aided by the fire from six gunboats"
-        },
-        {
-          "source_id": "jordan-middle-tennessee-selections-v1",
-          "section": "dover",
-          "locator": "p.229 (OCR page markers; not checked against print)",
-          "quote": "the Confederates had been withdrawn from under"
         },
         {
           "source_id": "jordan-middle-tennessee-selections-v1",
@@ -115,12 +103,6 @@
           "section": "dover",
           "locator": "p.229 (OCR page markers; not checked against print)",
           "quote": "doing no harm whatsoever"
-        },
-        {
-          "source_id": "jordan-middle-tennessee-selections-v1",
-          "section": "dover",
-          "locator": "p.229 (OCR page markers; not checked against print)",
-          "quote": "an hour later, began to retire"
         }
       ],
       "phase": "unresolved",
@@ -175,12 +157,6 @@
           "source_id": "nps-tn012-v1",
           "locator": "Description",
           "quote": "By dusk, both sides were mostly without ammunition."
-        },
-        {
-          "source_id": "jordan-middle-tennessee-selections-v1",
-          "section": "dover",
-          "locator": "p.229 (OCR page markers; not checked against print)",
-          "quote": "were obliged, from want of ammunition"
         }
       ],
       "phase": "unresolved",
@@ -242,7 +218,7 @@
     {
       "id": "command-roles",
       "dimension": "responsibility",
-      "value": "Jordan and Pryor say Forrest's views passed without heed, and report Wheeler explaining that Wharton had been unable to get ready to attack simultaneously; NPS says Forrest afterward denounced Wheeler and refused to serve under him again. The live heading ranks Harding Brigadier General against the frozen Colonel.",
+      "value": "Jordan and Pryor say Forrest's views passed without heed and Wharton was unable to attack simultaneously; NPS says Forrest afterward denounced Wheeler and refused to serve under him again. The live heading ranks Harding Brigadier General against the frozen Colonel.",
       "rationale": "Command friction from the commander-endorsed history and a summary; the frozen commanders Wheeler and Harding do not receive automatic sole credit. The heading rank is not adopted.",
       "citations": [
         {
@@ -250,12 +226,6 @@
           "section": "dover",
           "locator": "p.226 (OCR page markers; not checked against print)",
           "quote": "passed without heed"
-        },
-        {
-          "source_id": "jordan-middle-tennessee-selections-v1",
-          "section": "dover",
-          "locator": "p.228 (OCR page markers; not checked against print)",
-          "quote": "General Wheeler reappeared at this juncture"
         },
         {
           "source_id": "jordan-middle-tennessee-selections-v1",
@@ -325,7 +295,7 @@
       "id": "casualty-records",
       "dimension": "outcome",
       "value": "The frozen casualty text reads 796 total (US 126; CS 670); the live NPS field reads 965 total (US 110; CS 855;). Cist gives Wheeler's loss as 150 killed, 400 wounded and 150 captured, and Harding's as 16 killed, 60 wounded and 50 captured; Jordan and Pryor give Forrest's brigade two hundred killed, wounded and captured.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Jordan and Pryor's category list is partly reconstructed: 'wounded' rests on the cropped OCR 'td'.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -367,10 +337,5 @@
     "Harding's, Wheeler's and Forrest's reports, returns and casualty reconciliation remain deferred.",
     "NPS/CWSAC is one family. Cist is an interested retrospective Union staff history; Jordan and Pryor is a retrospective Confederate history for most of whose statements Forrest's prefatory note accepts responsibility, and is not independent of Forrest. Where both are used they are separate families. Reports and newspapers cited inside either book are not additional families.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "middle-tennessee-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/TN012.v1.json",
-    "sha256": "cd8b798eeb0600590765c22dfeae480a7de38cca56dd3f441abb5932fdfec400"
-  }
+  ]
 }

@@ -130,7 +130,8 @@ The [Vicksburg 1862–63 pass](docs/research/vicksburg-1862-first-pass-v1.md) ad
 dossiers, 19 claims, 2 explicit unknowns and 69 citations. Opus 5.5 `high` reviewed them;
 its six required corrections are fixed and verified by the primary.
 The [Middle Tennessee pass](docs/research/middle-tennessee-first-pass-v1.md) adds five
-dossiers, 46 claims, 7 explicit unknowns and 135 citations. Separate review is pending.
+dossiers, 46 claims, 7 explicit unknowns and 149 citations. Opus 5.5 `high` reviewed them;
+its four required corrections are fixed and verified by the primary.
 Next: **the four-record Longstreet's Tidewater Operations**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).

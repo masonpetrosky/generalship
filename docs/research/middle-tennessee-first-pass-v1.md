@@ -2,16 +2,18 @@
 
 Prepared 2026-09-25. All **five frozen records** in **Middle Tennessee Operations
 [February-April 1863]** now have draft dossiers: **46 claims, 7 explicit null
-unknowns and 135 citation occurrences**. All seven dimensions are represented in each
-record. Separate review is pending. All dossiers remain drafts; no features are admitted.
+unknowns and 149 citation occurrences** after review correction. All seven dimensions
+are represented in each record. Separate Claude Opus 5.5 `high` [review](../../artifacts/review-results/middle-tennessee-ba8d068-opus-high-v1/review.md)
+covered all five dossiers; its four required corrections and one recommendation are
+applied and verified by the primary. All dossiers remain drafts; no features are admitted.
 
 | Record | Date (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| TN012 — Dover | 1863-02-03 | 10 | 1 | 37 | 3 |
-| TN013 — Thompson's Station | 1863-03-05 | 9 | 1 | 29 | 3 |
+| TN012 — Dover | 1863-02-03 | 10 | 1 | 42 | 3 |
+| TN013 — Thompson's Station | 1863-03-05 | 9 | 1 | 30 | 3 |
 | TN014 — Vaught's Hill | 1863-03-20 | 9 | 2 | 21 | 2 |
-| TN015 — Brentwood | 1863-03-25 | 9 | 1 | 25 | 2 |
-| TN016 — Franklin | 1863-04-10 | 9 | 2 | 23 | 2 |
+| TN015 — Brentwood | 1863-03-25 | 9 | 1 | 29 | 2 |
+| TN016 — Franklin | 1863-04-10 | 9 | 2 | 27 | 2 |
 
 Coverage is **72/127 draft dossiers**, **55 without**, and **18/36 complete source
 campaigns by dossier presence**. All 67 earlier dossiers and all historical
@@ -46,13 +48,17 @@ preserving the earlier **349/346**: five NPS HTML/text pairs and two selections.
 - **Opening strengths remain unknown.** Frozen structured bounds exist for Dover (800
   US / 2,500 CS), Vaught's Hill (1,300 / 3,500) and Brentwood (400 US). The books give
   different or partial figures (for example Cist's six hundred at Dover, Van Dorn's
-  10,000 at Thompson's Station, and 759 prisoners at Brentwood by Jordan and Pryor).
+  10,000 at Thompson's Station, and 759 prisoners at Brentwood by Jordan and Pryor, citing Federal accounts).
   Surrender counts are not opening strengths.
 - **Disputes preserved**: whether Union gunboats joined the Dover fight (Cist) or
-  arrived after the Confederate withdrawal (Jordan and Pryor); whether Bloodgood first
-  refused to surrender at Brentwood (NPS) or surrendered without further parley
-  (Jordan and Pryor); and Franklin's date, where the live NPS narrative says May 10
-  against the frozen April 10, which Jordan and Pryor support. Live heading ranks for
+  came up about eight o'clock, after the Confederates had been withdrawn from under
+  fire but an hour before they retired (Jordan and Pryor, in cropped OCR lines);
+  whether Bloodgood first refused to surrender at Brentwood (NPS) or surrendered
+  without further parley (Jordan and Pryor, who place a refusal at the separate bridge
+  stockade); and Franklin's date, where the frozen CWSAC description and the identical
+  live NPS narrative say May 10 against the frozen April 10 interval, which Jordan and
+  Pryor support. Jordan and Pryor's footnote that Granger was prepared with Stanley's
+  division sits uneasily with NPS's unordered attack and remains open. Live heading ranks for
   Harding and Forrest differ from the frozen ranks and are not adopted.
 - **Casualties differ** (frozen/live): Dover **796 / 965**, Thompson's Station
   **2,206 / 1,957**, Vaught's Hill **435 / 188**, Brentwood **311 / 532**; Franklin
@@ -68,6 +74,25 @@ Franklin. No morale/readiness score, probability, causal effect or new commander
 is introduced. Cohort and both admission proposals remain unchanged, with **zero
 promoted rows**. The baseline still uses **23/127 engagements in 13 eligible groups**,
 with strength Brier **0.276882** versus **0.250000** for equal odds.
+
+## Review correction and validation
+
+The reviewer found four required corrections, all verified against the retained text
+(each new quote occurs once) and applied: **MT-R1** records that the May 10 date is in
+the frozen CWSAC description as well as the identical live page, so it conflicts with
+the frozen row's own April 10 interval; **MT-R2** restates Jordan and Pryor's gunboat
+timing from intact words and flags the cropped lines; **MT-R3** adds NPS's half-hour
+sequence and Jordan and Pryor's refusal at the bridge stockade, leaving open whether the
+accounts describe one post; **MT-R4** attributes the 529 to Federal accounts, notes the
+OCR "7591", and makes Wharton's delay Wheeler's explanation. Recommendation MT-N1 is
+also adopted (four clause citations and a note that "wounded" rests on the cropped
+"td"); MT-N2 is kept as an open question above. Citations rise from 135 to 149 (ten
+from the required findings, four from MT-N1); claims and unknowns are unchanged. TN013
+and TN016 also receive the blank-bounds unknown-strength rationale from the Vicksburg
+review's VB-R1. The originals are retained as `data/evidence/history/TN012.v1.json`,
+`TN013.v1.json`, `TN015.v1.json` and `TN016.v1.json`, linked by `supersedes`. The
+[primary assessment](../../artifacts/review-results/middle-tennessee-ba8d068-opus-high-v1/primary-assessment.md) closes all four findings; no second
+reviewer pass is claimed.
 
 Next by frozen campaign start is **Longstreet's Tidewater Operations [March-April
 1863]**: NC010, NC011, VA031 and VA030. Do not start that group within this batch.

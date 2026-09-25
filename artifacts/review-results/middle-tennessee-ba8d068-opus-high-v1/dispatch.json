@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 00ce74e0-460c-403d-b580-d34045d91585",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit a147b28331a916f5b608f03eb9b6ae08608076a3; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T04:04:34Z",
+  "prepared_commit": "ba8d06850c1ccc671332a76af667a48e4457a0e8",
+  "bundle_commit": "a147b28331a916f5b608f03eb9b6ae08608076a3",
+  "assignment_sha256": "889a7b3092aa323aa84920838b13414851e20506be7806d6dc48aa321b706d25",
+  "inputs_manifest_sha256": "8f596a8e21d5f3ed22cae9b223933e84c58f615ae6932b69ee8262f6fc9192a4",
+  "num_turns": 35,
+  "duration_ms": 401255,
+  "terminal_reason": "completed",
+  "returned_message": "The Middle Tennessee dossiers need four corrections. The mechanical checks all pass, but four claims say more than their cited passages support or attribute a statement to the wrong source.\n\n- **Review:** `artifacts/review-results/middle-tennessee-ba8d068-opus-high-v1/review.md`. It is the only file I wrote; nothing was committed or pushed.\n- **Outcome:** corrections required.\n- **Finding IDs:** MT-R1, MT-R2, MT-R3, MT-R4 are required; MT-N1 and MT-N2 are recommended only.\n\n**Checks that passed:**\n- All 46 bound input hashes match, both in the worktree and at `ba8d068`.\n- All seven text copies rebuild exactly from their parent files: the five NPS pages, the Cist selection and the Jordan and Pryor selection.\n- Every page locator follows the scanned page numbers. The Jordan page-number map (128 = p.228, 22^ = p.229, 347 = p.247) and Cist's `1J4` = p.144 hold.\n- The source registry has 361 records and 358 files; the earlier 349 records and 346 files are unchanged.\n- The 67 older dossiers, all 20 archived revisions, the cohort, both admission proposals and the frozen CSVs are unchanged. So are the admission-check, baseline and battles outputs.\n- Coverage is 72/127 dossiers, 55 without, and 18/36 complete campaigns, with 0 promoted rows. The baseline is still 23 battles in 13 groups, Brier 0.2768816348133779 against 0.25.\n- The packet contents and all receipt hashes match.\n- `make check` passed offline: 82 tests, and it wrote nothing.\n- I confirmed the next group independently: Longstreet's Tidewater Operations (NC010, NC011, VA031, VA030).\n\n**Required findings:**\n- **MT-R1 (Franklin date):** \"May 10\" is also in the frozen row's own description, not only the live NPS page, while the frozen start and end dates say April 10. The conflict is inside the frozen record. Jordan's \"10th\" (scanned as \"loth\") is not cited. This needs a fix to the TN016 claim plus wording changes in the memo and roadmap. The assignment itself used the \"live vs frozen\" framing.\n- **MT-R2 (Dover gunboats):** Jordan and Pryor's \"after the withdrawal\" and \"at night\" come from lines partly cut off in the scan and are not in the cited quotes. In that account the Confederates had been pulled back from under fire and began to retire an hour later. They were still near Dover when the gunboats fired.\n- **MT-R3 (Brentwood surrender):** Jordan and Pryor do report a refusal, but at the separate bridge stockade (about 230 men), which surrendered after one shot. The NPS account may describe that episode, so whether the two sources really conflict is unresolved.\n- **MT-R4 (attribution):** Jordan and Pryor give the 529 surrender figure \"according to Federal accounts\", not as their own count. At Dover, Wharton's inability to attack at the same time is Wheeler's explanation as the book reports it.\n\nThe review gives exact replacement text for each of these, with quotes I checked in the source text. Adopting all four adds 10 citations (135 → 145). The memo, README, roadmap, report text and packets would then need recounting and regenerating.\n\nThis is an AI review. It is not human historical adjudication, independent corroboration or feature admission."
+}
