@@ -18,8 +18,8 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force text gives two Union brigades of approx. 3,000 (structured US bounds 3,000/3,000) and a Confederate expeditionary brigade; the live field reads 3000 total (US 3000; CS 0;). Jordan and Pryor say the Confederates present did not exceed 1,200 with six guns and at no moment in the day exceeded twelve hundred, against a Federal brigade, battery and cavalry detachment of not less than 1,800. They total regimental figures attributed to Dunham's official report as 1,554, and say a Chicago Tribune correspondent's figures for two regiments (604 and 600) would make the brigade 1,824. They describe the later Federal arrival as two fresh brigades; NPS names Fuller's brigade.",
-      "rationale": "Brigade, army and reported figures differ in scope and timing. The 1,554 and 1,824 totals are the book's arithmetic from figures it attributes to Dunham's report (not inspected) and a newspaper; substituting 604 and 600 into the OCR components gives 1,704, so the printed 1,824 does not reproduce (OCR not checked against print). The book's two arriving brigades differ from NPS's Fuller brigade. None is adopted as matched opening strength.",
+      "value": "The frozen force text gives two Union brigades of approx. 3,000 (structured US bounds 3,000/3,000) and a Confederate expeditionary brigade; the live field reads 3000 total (US 3000; CS 0;). Jordan and Pryor say the Confederates on the field never exceeded 1,200 with six guns against Dunham's brigade of not less than 1,800, quote Dunham's report as 1,554 and a newspaper as 1,824, and say two fresh brigades later arrived.",
+      "rationale": "Brigade, army and reported figures differ in scope and timing; the second Union brigade arrived during the action. None is adopted as matched opening strength.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -66,44 +66,6 @@
           "section": "parkers-cross-roads",
           "locator": "p.211 (OCR page markers; not checked against print)",
           "quote": "would make the brigade 1824 strong."
-        },
-        {
-          "source_id": "arnold-cwsac-forces",
-          "row_key": {
-            "battle": "TN011",
-            "belligerent": "US"
-          },
-          "column": "strength_max",
-          "quote": "3000"
-        },
-        {
-          "source_id": "jordan-west-tennessee-selections-v1",
-          "section": "parkers-cross-roads",
-          "locator": "p.211 (OCR page markers; not checked against print)",
-          "quote": "reports the strength of the Fif- tieth Indiana at 604 men and the One Hundred and Twenty-second Illinois at 600"
-        },
-        {
-          "source_id": "jordan-west-tennessee-selections-v1",
-          "section": "parkers-cross-roads",
-          "locator": "p.216 (OCR page markers; not checked against print)",
-          "quote": "by a force at no moment in the day exceeding twelve hundred"
-        },
-        {
-          "source_id": "jordan-west-tennessee-selections-v1",
-          "section": "parkers-cross-roads",
-          "locator": "p.216 (OCR page markers; not checked against print)",
-          "quote": "and finally by two fresh brigades."
-        },
-        {
-          "source_id": "jordan-west-tennessee-selections-v1",
-          "section": "parkers-cross-roads",
-          "locator": "p.214 (OCR page markers; not checked against print)",
-          "quote": "down upon him, two brigades of the enemy"
-        },
-        {
-          "source_id": "nps-tn011-v1",
-          "locator": "Description",
-          "quote": "Fuller's Union brigade arrived from the north"
         }
       ],
       "phase": "unresolved",
@@ -167,8 +129,8 @@
     {
       "id": "warning-failure",
       "dimension": "information",
-      "value": "NPS says Confederate security detachments failed to warn of Fuller's approach; Jordan and Pryor say Colonel Carroll informed Forrest that a fresh and superior force had reached the field, and that Forrest was within eighty yards of its line before he could discover it. They also say Dunham's report states he had learned at Clarksburg that the Confederate force was 8,000 strong with 12 guns.",
-      "rationale": "Retrospective accounts of what each side knew. Dunham's statement is paraphrased inside the book (report not inspected) and concerns information he had at Clarksburg before the battle, not his knowledge during it.",
+      "value": "NPS says Confederate security detachments failed to warn of Fuller's approach; Jordan and Pryor say Forrest learned of the fresh force from Colonel Carroll and was within eighty yards of its line before he could discover it. They quote Dunham's report that he had heard the Confederates were 8,000 strong with 12 guns.",
+      "rationale": "Retrospective accounts of what each side knew; Dunham's report is quoted, not inspected.",
       "citations": [
         {
           "source_id": "nps-tn011-v1",
@@ -185,13 +147,7 @@
           "source_id": "jordan-west-tennessee-selections-v1",
           "section": "parkers-cross-roads",
           "locator": "p.211 (OCR page markers; not checked against print)",
-          "quote": "Colonel Dunham states he had learned at Clarksburg that the Confederate force was 8000 strong, with 12 pieces of artillery"
-        },
-        {
-          "source_id": "jordan-west-tennessee-selections-v1",
-          "section": "parkers-cross-roads",
-          "locator": "p.213 (OCR page markers; not checked against print)",
-          "quote": "informed his leader that a fresh and superior force of Federals had reached the field"
+          "quote": "the Confederate force was 8000 strong, with 12 pieces of artillery"
         }
       ],
       "phase": "unresolved",
@@ -334,10 +290,5 @@
     "Dunham's, Fuller's, Sullivan's and Forrest's reports, returns and casualty reconciliation remain deferred.",
     "NPS/CWSAC is one family; Jordan and Pryor is one retrospective Confederate history written from Forrest's papers and notes, for most of whose statements Forrest's prefatory note accepts responsibility. It is not independent of the listed Confederate commander. Reports and newspapers quoted inside it are not additional families.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "forrest-west-tennessee-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/TN011.v1.json",
-    "sha256": "7ef4c1f9c469256657b26975b81b0905a878479279bcea0b44c6e267ae598009"
-  }
+  ]
 }

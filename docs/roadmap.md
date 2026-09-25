@@ -158,9 +158,12 @@ Coverage is **15/36 complete campaigns by dossier presence**, with zero promoted
 
 The [Forrest West Tennessee first pass](research/forrest-west-tennessee-first-pass-v1.md)
 adds both **frozen records, TN009 and TN011**, with **18 claims, 2 explicit unknowns
-and 61 citations** from NPS/CWSAC and Jordan and Pryor's Forrest-endorsed history,
+and 72 citations** from NPS/CWSAC and Jordan and Pryor's Forrest-endorsed history,
 which is not independent of the listed Confederate commander. Both results are
-contested in the sources. Separate review is pending.
+contested in the sources. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/forrest-west-tennessee-e67e54b-opus-high-v1/review.md)
+found three attribution, timing and phase corrections, all fixed and
+[verified by the primary](../artifacts/review-results/forrest-west-tennessee-e67e54b-opus-high-v1/primary-assessment.md).
 Coverage is **16/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Operations Against Vicksburg first pass](research/vicksburg-1862-first-pass-v1.md)

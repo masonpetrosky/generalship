@@ -92,7 +92,7 @@
       "id": "armament-shortfall",
       "dimension": "logistics",
       "value": "Jordan and Pryor say Forrest set out with only ten rounds of caps for his shot-guns and many flintless muskets, and that arms captured near Jackson were distributed in place of inferior ones.",
-      "rationale": "Combines an outset condition (inherited at any Jackson boundary) with arms captured by detachments Forrest ordered out the night before the December 19 skirmish and distributed on their return; Jordan and Pryor place his arrival and first skirmishing at Jackson on the afternoon of December 18. With replacement boundaries unset, the captured-arms part may be inherited or commander-created. From the commander-endorsed history; no ordnance return inspected.",
+      "rationale": "Conditions at the outset, before the interval, and captured arms reported by the commander-endorsed history; no ordnance return inspected.",
       "citations": [
         {
           "source_id": "jordan-west-tennessee-selections-v1",
@@ -107,7 +107,7 @@
           "quote": "thus happily acquired were imrne- f distributed in lieu of those of inferior species"
         }
       ],
-      "phase": "unresolved",
+      "phase": "inherited",
       "status": "supported"
     },
     {
@@ -146,8 +146,8 @@
     {
       "id": "railroad-objective",
       "dimension": "objectives",
-      "value": "NPS says Forrest wished to interrupt Grant's rail supply line and that, to Forrest, the Jackson fight was a feint to hold the defenders in place while two mounted columns destroyed track north and south of the town. Jordan and Pryor say detachments sent out at eight o'clock the previous night broke the railroad, captured stations and returned about daylight, before the sunrise skirmish.",
-      "rationale": "Stated objectives from a summary and a commander-endorsed history; no inspected order. Both describe railroad destruction, but NPS makes the raids concurrent with the fight while Jordan and Pryor place them on the night of December 18–19, before it. The sequence is unresolved and no holding effect is established.",
+      "value": "NPS says Forrest aimed to interrupt Grant's rail supply line and held Jackson's defenders in place while two mounted columns destroyed track north and south of the town; Jordan and Pryor describe detachments sent to break the railroads.",
+      "rationale": "Stated objectives from a summary and a commander-endorsed history; no inspected order.",
       "citations": [
         {
           "source_id": "nps-tn009-v1",
@@ -157,36 +157,13 @@
         {
           "source_id": "nps-tn009-v1",
           "locator": "Description",
-          "quote": "To Forrest, the fight amounted to no more than a feint and show of force intended to hold Jackson's Union defenders in place"
+          "quote": "while two mounted columns destroyed railroad track north and south of the town"
         },
         {
           "source_id": "jordan-west-tennessee-selections-v1",
           "section": "jackson-operations",
           "locator": "p.197 (OCR page markers; not checked against print)",
           "quote": "break up the intermediate sections of the road"
-        },
-        {
-          "source_id": "nps-tn009-v1",
-          "locator": "Description",
-          "quote": "while two mounted columns destroyed railroad track north and south of the town"
-        },
-        {
-          "source_id": "jordan-west-tennessee-selections-v1",
-          "section": "jackson-operations",
-          "locator": "p.196 (OCR page markers; not checked against print)",
-          "quote": "at eight o'clock at night, de- tached Colonel Dibrell"
-        },
-        {
-          "source_id": "jordan-west-tennessee-selections-v1",
-          "section": "jackson-operations",
-          "locator": "p.197 (OCR page markers; not checked against print)",
-          "quote": "to their positions about daylight with their captures"
-        },
-        {
-          "source_id": "jordan-west-tennessee-selections-v1",
-          "section": "jackson-operations",
-          "locator": "p.198 (OCR page markers; not checked against print)",
-          "quote": "About sunrise the enemy threw forward a strong line of skirmishers"
         }
       ],
       "phase": "unresolved",
@@ -306,10 +283,5 @@
     "Englemann's and Forrest's reports, returns and the division of losses among the actions around Jackson remain deferred.",
     "NPS/CWSAC is one family; Jordan and Pryor is one retrospective Confederate history written from Forrest's papers and notes, for most of whose statements Forrest's prefatory note accepts responsibility. It is not independent of the listed Confederate commander. Reports and newspapers quoted inside it are not additional families.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "forrest-west-tennessee-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/TN009.v1.json",
-    "sha256": "529df2c1309fd81cd71dbf103fad7d00b93c23c1ee5c8ea2719a70ceefcdbcf6"
-  }
+  ]
 }

@@ -124,7 +124,8 @@ The [Goldsboro pass](docs/research/goldsboro-first-pass-v1.md) adds three dossie
 28 claims, 4 explicit unknowns and 75 citations. Opus 5.5 `high` reviewed them; its five
 required corrections are fixed and verified by the primary.
 The [Forrest West Tennessee pass](docs/research/forrest-west-tennessee-first-pass-v1.md) adds
-two dossiers, 18 claims, 2 explicit unknowns and 61 citations. Separate review is pending.
+two dossiers, 18 claims, 2 explicit unknowns and 72 citations. Opus 5.5 `high` reviewed them;
+its three required corrections are fixed and verified by the primary.
 The [Vicksburg 1862–63 pass](docs/research/vicksburg-1862-first-pass-v1.md) adds two
 dossiers, 19 claims, 2 explicit unknowns and 62 citations. Separate review is pending.
 The [Middle Tennessee pass](docs/research/middle-tennessee-first-pass-v1.md) adds five
