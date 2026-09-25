@@ -68,6 +68,16 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Tullahoma Campaign first pass, 2026-09-25
+
+The [one-record memo](research/tullahoma-first-pass-v1.md) adds **6 records**, bringing
+the registry to **474 entries / 464 raw paths**, preserving the previous **468/458**. One
+NPS battle HTML/text pair remains in the NPS/CWSAC family. Official Records Series I
+Volume XXIII Part 1 (Internet Archive `warofrebellion231unit`) is pinned with catalog
+metadata, full OCR and a Bate selection; a new Cist selection reuses
+`cist-cumberland-ocr-v1`. Character ranges and whitespace-only normalization reproduce
+all sections. No model inputs are changed.
+
 ### Gettysburg Campaign first pass, 2026-09-25
 
 The [ten-record memo](research/gettysburg-first-pass-v1.md) adds **28 records**,

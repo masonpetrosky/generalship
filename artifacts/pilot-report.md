@@ -99,6 +99,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [TN014](../data/evidence/TN014.json) | 9 | 2 | 0 | 0 | draft |
 | [TN015](../data/evidence/TN015.json) | 9 | 1 | 0 | 0 | draft |
 | [TN016](../data/evidence/TN016.json) | 9 | 2 | 0 | 0 | draft |
+| [TN017](../data/evidence/TN017.json) | 9 | 1 | 0 | 0 | draft |
 | [VA008](../data/evidence/VA008.json) | 10 | 5 | 0 | 0 | draft |
 | [VA009](../data/evidence/VA009.json) | 9 | 2 | 0 | 0 | draft |
 | [VA010](../data/evidence/VA010.json) | 9 | 3 | 0 | 0 | draft |
@@ -154,8 +155,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 101 engagements have dossiers; 26 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Gettysburg Campaign first pass](../docs/research/gettysburg-first-pass-v1.md) adds all ten frozen records: 90 claims, 10 explicit unknowns and 320 citations from NPS/CWSAC, Doubleday, Humphreys, and Lee's and Stuart's Official Records reports. Overlapping intervals are not double counted, and disputes and casualty differences remain visible; separate campaign review is pending. Next take the complete one-record Tullahoma or Middle Tennessee Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 102 engagements have dossiers; 25 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Tullahoma Campaign first pass](../docs/research/tullahoma-first-pass-v1.md) adds the sole frozen record, Hoover's Gap: 9 claims, 1 explicit unknown and 41 citations from NPS/CWSAC, Cist and Bate's Official Records report. Liberty Gap is not added and casualty differences remain visible; separate campaign review is pending. Next take the complete three-record Morgan's Raid in Kentucky, Indiana, and Ohio. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

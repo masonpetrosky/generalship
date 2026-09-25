@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **101 draft dossiers / 127 engagements**, with **26 without a dossier**.
+There are **102 draft dossiers / 127 engagements**, with **25 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -258,8 +258,15 @@ pinned Official Records Volume XXVII Part 2. Overlapping intervals and multi-eng
 loss totals are not added. Separate review is pending.
 Coverage is **24/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Tullahoma or Middle Tennessee Campaign [June 1863]**, the next complete frozen
-group by earliest engagement date: **one record, TN017**.
+The [Tullahoma Campaign first pass](research/tullahoma-first-pass-v1.md) adds the sole
+**frozen record, TN017 (Hoover's Gap)**, with **9 claims, 1 explicit unknown and 41
+citations** from NPS/CWSAC, a new Cist selection and Bate's report in newly pinned
+Official Records Volume XXIII Part 1. Liberty Gap's losses are not added. Separate review
+is pending.
+Coverage is **25/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]**, the next complete frozen
+group by earliest engagement date: **three records, IN001, OH001, OH002**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 
