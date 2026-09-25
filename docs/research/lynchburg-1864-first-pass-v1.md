@@ -78,7 +78,8 @@ Hunter, Vaughn, Early and Pond selections.
     8 junction with Crook and Averell, Duffie's raid, the Lexington delay, the pursuit through Liberty
     and the loss of guns near Salem.
   - Piedmont's frozen interval includes the occupation of Staunton on June 6.
-  - Lynchburg's includes the June 17 fight at Diamond Hill, which Pond calls Quaker church.
+  - Lynchburg's includes the June 17 fight at Diamond Hill (Hunter), which may be the position Pond
+    calls Quaker church; both are five miles from Lynchburg.
   - Campaign-wide losses, including Strother's claims, are not assigned to one record.
 - **Opening strengths remain unknown.** Every figure is recorded with its date, basis and scope, and
   none is adopted.
@@ -159,8 +160,44 @@ The three null unknowns are the opening strengths. No morale/readiness score, pr
 effect or new commander ranking is introduced. The cohort, admission proposals and baseline are
 unchanged, with **zero promoted rows**.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossier and
-source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the four 1864
+Eastern small-operation first passes (Rapidan, Kilpatrick-Dahlgren, Crook-Averell and Lynchburg)
+together at prepared commit `8642430` as `e1864-review-8642430-opus-high-v1` on 2026-09-25. Its
+outcome was "corrections required": seven required findings (E1864-R1 to E1864-R7) and thirteen
+advisories (E1864-A1 to E1864-A13) across the four passes. It is an AI review within its stated
+scope, not human historical adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder. After the correction, `python3 -m generalship check` passes,
+`python3 -m unittest discover -s tests` passes (134 tests) and `gs.MISSES` is empty.
+
+VA110, VA111 and VA064 are revised under `lynchburg-1864-review-correction-2026-09-25` and
+supersede byte-for-byte archives at `data/evidence/history/<ID>.v1.json`.
+
+- **E1864-R6** (VA110 and VA111 `reported-force-scope`): the rationales said "live zeros are not
+  measured absence", but both live pages give non-zero totals. They now say the live totals repeat
+  the frozen values within one NPS/CWSAC family and are not independent corroboration. VA064, whose
+  live page does give zeros, keeps the original sentence.
+
+Advisories:
+
+- **Adopted:** E1864-A10 (VA110: Pond cites Imboden's 800 cavalry and 3,440 infantry and 350
+  artillery from Imboden's report, not from Lincoln's roster study; the sentence is split),
+  E1864-A11 (VA111 `timbered-hills-ravine-and-river`: Hunter's sentence on the advanced position and
+  the fallen-timber line is quoted verbatim, and Pond's reading, that an advance drove the enemy
+  through the woods to his main works, is given separately with the fuller Pond quote) and E1864-A12
+  (VA064 boundary note, `recorded-result` and this memo: Diamond Hill and Quaker church "may name
+  the same position" throughout, as in the terrain rationale).
+- **Not adopted:** E1864-A7 (the shared Pond dependency note): registry records are immutable and
+  the advisory is optional; the finding is left to any future metadata-only revision. E1864-A13
+  needs no change: Sigel's and Breckinridge's group names are misleading, but the groups are those
+  authors' only registered groups, and same-author material stays together.
+
+The review correction adds no source records for this campaign. Claims (27), unknowns (3),
+citations (211) and disputed claims are unchanged. No model input, cohort file, admission proposal
+or baseline is changed.

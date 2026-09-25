@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 84a7cdee-8205-4765-9018-c92589a3d388",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit c7f5799595db240736cc9176f345fd69720615a7; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T18:17:14Z",
+  "prepared_commit": "8642430daf32af81b45aed82da33c819b990556e",
+  "bundle_commit": "c7f5799595db240736cc9176f345fd69720615a7",
+  "assignment_sha256": "7f5b512d50c0f3f47f0c7b74459c152ea27429046b689824b9c6e27fdd56c637",
+  "inputs_manifest_sha256": "7dede83fd2ea65f9eea5f36852010affee2a0bfa4b73e31cc103c373dcf96531",
+  "num_turns": 48,
+  "duration_ms": 566762,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** The review file is at `artifacts/review-results/e1864-review-8642430-opus-high-v1/review.md`. It is the only file I wrote; I made no commits and no pushes.\n\n**Checks:**\n- **Input hashes:** the assignment, `inputs.json` and all 59 bound paths match both the prepared commit `8642430` and this worktree. There are no mismatches.\n- **`make check`:** run offline, 134 tests OK, exit 0.\n- **What I read:** all 7 dossiers (64 claims, 484 citations, each checked against its cited passage), the frozen CSV rows and NPS pages, and all 30 new source records. All 16 selections were read in full and re-derived exactly from their pinned parents. I also read targeted passages of the Official Records Volume XXXIII source text to check two points.\n\n**Required corrections** (the review gives the exact replacement text or citation for each):\n- **E1864-R1:** The Rapidan and Kilpatrick–Dahlgren memos say the Volume XXXIII source text and its catalog record were added in this batch. They were already registered in an earlier pass (Plymouth, `or33-illinois-ocr-v1`). The Rapidan pass adds 5 records, not 7.\n- **E1864-R2:** In VA125, \"Wednesday, March 2.\" is a compiler's footnote printed inside Kilpatrick's March 16 report selection. The dossier text says so, but the citation's locator does not, so the report's author and date would attach to it.\n- **E1864-R3:** In VA049, the sentence \"Crook sent Averell toward Saltville\" has no citation. Crook's report supports it.\n- **E1864-R4:** VA049 reads McCausland's \"nearly 200 prisoners\" as taken at Cloyd's Mountain. His report gives them campaign-wide.\n- **E1864-R5:** VA109 repeats the NPS statement that Averell burned the New River bridge. Two sources already cited in that record contradict it: Pond says Crook burned it, and Averell's own report puts him at Dublin only on the 11th and across the river on the 12th.\n- **E1864-R6:** The VA110 and VA111 strength rationales say \"live zeros are not measured absence\", but those live NPS pages give non-zero totals.\n- **E1864-R7:** After R5, the Crook–Averell memo needs the new dispute bullet and updated citation counts.\n\n**Advisories:** E1864-A1 to E1864-A13. The most useful are:\n- **A1:** VA045 treats Caldwell's and Humphreys' times as one clock. Warren's report, read but not selected, gives a different arrival time.\n- **A2:** Two passages already selected could bound the size of Dahlgren's separated party.\n- **A4:** the phase tag on the Dahlgren papers claim.\n\nThe rest are optional registry wording fixes and consistency points.\n\nThe approaches the assignment asked about are sound:\n- scoping VA125 to the ambush;\n- three source families plus one follow-up per record;\n- reusing author groups;\n- keeping endorsements and enclosures inside the author's selection;\n- mapping Early's \"1861\" dispatch to a null date;\n- reading the garbled tables but not selecting them;\n- dropping the duplicate Volume XXXIII copy at merge.\n\nThis is an AI review. It is not human historical adjudication, proof of source independence or feature admission."
+}

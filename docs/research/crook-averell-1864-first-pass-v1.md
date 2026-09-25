@@ -2,13 +2,14 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both frozen
 records in **Crook-Averell Raid on the Virginia & Tennessee Railroad [May 1864]** now have draft
-dossiers: **18 claims, 2 explicit null unknowns and 121 citation occurrences**. All seven dimensions
-are represented in each record. The dossiers are drafts; no features are admitted.
+dossiers: **18 claims, 2 explicit null unknowns and 127 citation occurrences** (121 before the
+review correction below). All seven dimensions are represented in each record. The dossiers are
+drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| VA049 — Cloyd's Mountain | 1864-05-09 | 9 | 1 | 74 | 3 + follow-up |
-| VA109 — Cove Mountain | 1864-05-10 | 9 | 1 | 47 | 3 + follow-up |
+| VA049 — Cloyd's Mountain | 1864-05-09 | 9 | 1 | 76 | 3 + follow-up |
+| VA109 — Cove Mountain | 1864-05-10 | 9 | 1 | 51 | 3 + follow-up |
 
 Drafted alongside the [Rapidan](rapidan-1864-first-pass-v1.md),
 [Kilpatrick-Dahlgren](kilpatrick-dahlgren-1864-first-pass-v1.md) and [Lynchburg](lynchburg-1864-first-pass-v1.md)
@@ -84,13 +85,17 @@ and Pond selections.
       - frozen 1,500 against live 1,226 (US 688; CS 538);
       - Crook's 107 killed, 508 wounded and 28 missing, against Pond's 600;
       - Pond's expedition totals for Crook (109 and 513) are wider in scope;
-      - McCausland's 600 Union killed and wounded;
+      - McCausland's 600 Union killed and wounded at Cloyd's (his nearly 200 prisoners and loss in
+        all of not less than 1,000 are not placed at Cloyd's);
       - the McCausland inclosure's totals read 504 and 538, covering the battle "and subsequent
-        operations".
+        operations"; the live CS 538 equals that aggregate.
   - Cove Mountain:
     - Confederate command: Morgan and Jones (Averell), Morgan (Pond, McCausland) or Jones (NPS, frozen);
     - result: Averell says the enemy retired after dark; Pond says Averell made off eastward;
       McCausland says Averell was defeated; NPS says the Confederates withdrew;
+    - the New River bridge: burned by Averell the next day (NPS) against taken and burned by Crook
+      after an artillery duel (Pond), with Averell reaching Dublin on the evening of the 11th
+      (Averell);
     - losses: Averell's about 114 killed and wounded against Pond's 123, which equals the sum of
       Pond's expedition figures for Averell (17 + 72 + 34); frozen 300 against live zeros.
 - **Command roles and ranks.**
@@ -113,8 +118,52 @@ The two null unknowns are the opening strengths. No morale/readiness score, prob
 or new commander ranking is introduced. The cohort, admission proposals and baseline are unchanged,
 with **zero promoted rows**.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossier and
-source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed the four 1864
+Eastern small-operation first passes (Rapidan, Kilpatrick-Dahlgren, Crook-Averell and Lynchburg)
+together at prepared commit `8642430` as `e1864-review-8642430-opus-high-v1` on 2026-09-25. Its
+outcome was "corrections required": seven required findings (E1864-R1 to E1864-R7) and thirteen
+advisories (E1864-A1 to E1864-A13) across the four passes. It is an AI review within its stated
+scope, not human historical adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding for this campaign was checked against the retained selection text (or the registry
+record) before any change; every new quote occurs in its cited section, and the dossiers were
+regenerated from the builder. After the correction, `python3 -m generalship check` passes,
+`python3 -m unittest discover -s tests` passes (134 tests) and `gs.MISSES` is empty.
+
+VA049 and VA109 are revised under `crook-averell-1864-review-correction-2026-09-25` and supersede
+byte-for-byte archives at `data/evidence/history/VA049.v1.json` and
+`data/evidence/history/VA109.v1.json`.
+
+- **E1864-R3** (VA049 `railroad-and-bridge`): "Crook sent Averell toward Saltville" now cites
+  Crook's sentence (p.10).
+- **E1864-R4** (VA049 `casualty-records` and this memo): only McCausland's 600 killed and wounded is
+  placed at Cloyd's. The value now says he adds, without placing them there, nearly 200 prisoners
+  and a loss in all of not less than 1,000, and cites that sentence (p.48).
+- **E1864-R5** (VA109 `recorded-result`): the value and rationale now set NPS's attribution of the
+  bridge burning to Averell against Pond (Crook took and burned it after an artillery duel) and
+  Averell's own timing (Dublin on the evening of the 11th, New River crossed on the 12th); the NPS
+  attribution is not adopted. Three citations were added as proposed, all from families already in
+  the record, and the NPS sentence that the value paraphrases, previously uncited, is now cited too.
+- **E1864-R7** (this memo): the bridge dispute is added under Cove Mountain, and the citation counts
+  are updated (VA049 74 to 76, VA109 47 to 51; the reviewer's 50 for VA109 did not include the added
+  NPS citation).
+
+Advisories:
+
+- **Adopted:** E1864-A8 (VA049: the casualty rationale notes that the live CS 538 equals the
+  inclosure's aggregate covering the battle and subsequent operations, and a new open question
+  records that the frozen and live descriptions attribute the bridge burning to Averell, which is
+  not adopted) and E1864-A9 (VA109 strength rationale: the 5,000 is attributed to rebel newspapers
+  and the 4,500 has no stated basis, replacing "hearsay (deserters and newspapers)").
+- **Not adopted:** E1864-A7 (the Pond records share one dependency note that is accurate for the two
+  selections together but not for this one alone): registry records are immutable and the advisory
+  is optional; the finding is left to any future metadata-only revision.
+
+The review correction adds no source records for this campaign. Citations rise from 121 to 127;
+claims (18), unknowns (2) and disputed claims are unchanged. Each record still uses NPS/CWSAC, two
+further families and one targeted follow-up. No model input, cohort file, admission proposal or
+baseline is changed.

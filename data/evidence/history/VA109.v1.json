@@ -19,7 +19,7 @@
       "id": "reported-force-scope",
       "dimension": "strength",
       "value": "The frozen force field reads 'Brigades' and the live page gives zero totals; NPS says Averell met 'a brigade under William \"Grumble\" Jones'. Averell says he set out with Duffie's and Schoonmaker's brigades, 2,079 officers and men, plus 400 under Oley who were detached toward Crook on the 6th; Pond repeats the 2,079. Averell says Morgan and W. E. Jones had assembled 4,500 at Saltville and that the force he attacked near Wytheville was 'stated by rebel newspapers' at 5,000, mostly infantry with three guns; Pond speaks of Morgan's Saltville forces with three guns. Averell's General Orders No. 5 calls it a superior force.",
-      "rationale": "Averell's 2,079 is his starting strength, not the number engaged on May 10; of his enemy figures, the 5,000 is attributed to rebel newspapers and the 4,500 has no stated basis. NPS's single brigade and Averell's 5,000 describe different scopes. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "rationale": "Averell's 2,079 is his starting strength, not the number engaged on May 10, and his enemy figures are hearsay (deserters and newspapers). NPS's single brigade and Averell's 5,000 describe different scopes. None is adopted as a matched opening strength; live zeros are not measured absence.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -287,8 +287,8 @@
     {
       "id": "recorded-result",
       "dimension": "outcome",
-      "value": "The frozen result is 'Inconclusive' and the live 'Indecisive'. Averell says he held the field four hours, the enemy retired after dark, and he marched to Dublin. Pond says Averell resisted until night and then made off eastward, and that he was roughly handled by Morgan's troopers; McCausland says Averell was defeated by Morgan and escaped. NPS says the Confederates delayed Averell and then withdrew, and that he burned the New River bridge the next day; Pond instead has Crook take and burn the bridge after an artillery duel, and Averell says he reached Dublin on the evening of the 11th and crossed New River on the morning of the 12th.",
-      "rationale": "Which side left the field, and whether it was a check or a defeat, is disputed. The bridge burning is expedition context; the NPS attribution of it to Averell is contradicted by Pond and by Averell's own timing and is not adopted.",
+      "value": "The frozen result is 'Inconclusive' and the live 'Indecisive'. Averell says he held the field four hours, the enemy retired after dark, and he marched to Dublin. Pond says Averell resisted until night and then made off eastward, and that he was roughly handled by Morgan's troopers; McCausland says Averell was defeated by Morgan and escaped. NPS says the Confederates delayed Averell and then withdrew, and that he burned the New River bridge the next day.",
+      "rationale": "Which side left the field, and whether it was a check or a defeat, is disputed. The bridge burning is expedition context.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -337,29 +337,6 @@
           "source_id": "nps-va109-v1",
           "locator": "Description",
           "quote": "After delaying the Union advance, the Confederates withdrew."
-        },
-        {
-          "source_id": "nps-va109-v1",
-          "locator": "Description",
-          "quote": "The next day, Averell reached the New River Bridge on the Virginia & Tennessee Railroad, which he burned."
-        },
-        {
-          "source_id": "pond-crook-averell-selections-v1",
-          "section": "cloyds-mountain-and-wytheville",
-          "locator": "p.13 (OCR page markers; not checked against print)",
-          "quote": "After an artillery duel of two hours, with a Union loss of but 11 men, Crook took posses- sion of this important structure, and burned it."
-        },
-        {
-          "source_id": "or37-1-averell-cove-mountain-selections-v1",
-          "section": "averell-1864-05-23",
-          "locator": "p.42 (OCR page markers; not checked against print)",
-          "quote": "I marched to Dublin, where I arrived on the evening of the 11th."
-        },
-        {
-          "source_id": "or37-1-averell-cove-mountain-selections-v1",
-          "section": "averell-1864-05-23",
-          "locator": "p.42 (OCR page markers; not checked against print)",
-          "quote": "We crossed New River, swollen by recent rains on the morning of the 12th."
         }
       ],
       "phase": "post_outcome",
@@ -411,10 +388,5 @@
     "The reports Averell inclosed and the brigade reports are not printed in the inspected range; Duffie's General Orders No. 18 (read, not selected) praises units in the Wytheville fight. No W. E. Jones or Morgan report was located in the inspected report list.",
     "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. George E. Pond's The Shenandoah Valley in 1864 (Scribner, 1883) is a retrospective history written, by its preface, from the official documents at the War Records Office; it quotes Crook's and Sigel's despatches and follows Averell's report, so it is not independent of those families. Averell's May 23 report and General Orders No. 5, and McCausland's May 25 report (the targeted follow-up, the only Confederate statement inspected on this action) printed in Official Records Series I, Volume XXXVII, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "crook-averell-1864-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA109.v1.json",
-    "sha256": "e9cb9bd40e88170620836ded4cb2b04536a521a233274d417521811b7cc5eb86"
-  }
+  ]
 }

@@ -1,0 +1,118 @@
+{
+  "review_sha256": "816016d0b085dfcc15d04937b27a2979f002e80438ff05dfde066254ce5e6f3d",
+  "prepared_commit": "8642430daf32af81b45aed82da33c819b990556e",
+  "bundle_commit": "c7f5799595db240736cc9176f345fd69720615a7",
+  "scope": "1864 Eastern small-operation first passes review",
+  "findings": [
+    {
+      "finding_id": "E1864-R1",
+      "disposition": "accepted_applied",
+      "summary": "Verified: or33-illinois-ocr-v1 / ia-or33-illinois-metadata-v1 were registered for Plymouth and 8642430 adds 30 records (5/5/8/12). Rapidan memo now names the registered parent and gives five records, not seven; Kilpatrick-Dahlgren memo's two Volume XXXIII sentences name or33-illinois-ocr-v1. Memo-only; no dossier change."
+    },
+    {
+      "finding_id": "E1864-R2",
+      "disposition": "accepted_applied",
+      "summary": "Verified in the kilpatrick selection: 'Wednesday, March 2.' stands at the foot of p.183 before the p.184 running head, inside the kilpatrick-1864-03-16 range, and is the compiler's footnote to the March 8 dispatch's 'Thursday evening, 11 p. m.*'. VA125 recorded-result citation locator replaced with the reviewer's text."
+    },
+    {
+      "finding_id": "E1864-R3",
+      "disposition": "accepted_applied",
+      "summary": "Verified (crook-1864-05-23, p.10). VA049 railroad-and-bridge now cites Crook's 'I sent Brig. Gen. W. W. Averell, with a mounted force of 2,000 picked men, to move via Logan Court-House to Saltville, on the railroad,'."
+    },
+    {
+      "finding_id": "E1864-R4",
+      "disposition": "accepted_applied",
+      "summary": "Verified in McCausland's May 25 report: only the 600 killed and wounded is placed 'at Cloyd's'. VA049 casualty-records value replaced as proposed and the prisoners/1,000 sentence cited (p.48)."
+    },
+    {
+      "finding_id": "E1864-R5",
+      "disposition": "accepted_applied",
+      "summary": "Verified: Pond (p.13) has Crook take and burn the bridge after a two-hour artillery duel; Averell (p.42) reached Dublin the evening of the 11th and crossed New River on the 12th. VA109 recorded-result value and rationale replaced as proposed with the three proposed citations. The primary additionally cited the NPS Description sentence the value paraphrases ('The next day, Averell reached the New River Bridge ... which he burned.'), which was uncited; VA109 citations 47 -> 51. Families unchanged (NPS, Pond, Averell, McCausland)."
+    },
+    {
+      "finding_id": "E1864-R6",
+      "disposition": "accepted_applied",
+      "summary": "Verified: live VA110 '10365 total (US 6275; CS 4090;)' and VA111 '14000 total (US 8500; CS 5500;)' repeat the frozen cwsac_forces values. Both rationales now end with the reviewer's sentence (new common.py constant NOT_ADOPTED_LIVE); VA045, VA125, VA049, VA109 and VA064, whose live pages give zeros, keep the original sentence."
+    },
+    {
+      "finding_id": "E1864-R7",
+      "disposition": "accepted_applied",
+      "summary": "Crook-Averell memo: the New River bridge dispute bullet added under Cove Mountain; counts updated VA049 74->76, VA109 47->51 (the reviewer's 50 excludes the added NPS citation), batch 121->127. Memo also records R4's scope for McCausland's figures and A8's 538 note."
+    },
+    {
+      "finding_id": "E1864-A1",
+      "disposition": "accepted_applied",
+      "summary": "Verified Warren's 'I reached the ford about 3 p. m.' and 'General Humphreys ... was present during the enemy's attack at night-fall' in the OR XXXIII parent (Warren No. 2, unselected). VA045 command-roles rationale no longer synchronizes the clocks (reviewer's wording); an uncited open question records Warren's two statements; the memo sentence is softened."
+    },
+    {
+      "finding_id": "E1864-A2",
+      "disposition": "accepted_applied",
+      "summary": "Verified Kilpatrick ('with upward of 300 officers and men belonging to Colonel Dahlgren’s party,', p.186) and Humphreys ('Captain Mitchell, with 300 of Colonel Dahlgren's party,', p.79). Added to VA125 reported-force-scope value with two citations; memo strength list updated."
+    },
+    {
+      "finding_id": "E1864-A3",
+      "disposition": "accepted_applied",
+      "summary": "VA125 rivers-roads-and-ambush-point value now quotes Pollard verbatim ('I put them in the position which I had chosen about dark') instead of choosing a reading."
+    },
+    {
+      "finding_id": "E1864-A4",
+      "disposition": "not_adopted",
+      "summary": "The reviewer calls the post_outcome tag on the Dahlgren-papers claim conservative and defensible; it keeps the claim out of any admission path. Kept."
+    },
+    {
+      "finding_id": "E1864-A5",
+      "disposition": "not_adopted",
+      "summary": "Optional registry advisory. The R2 locator discloses the compiler footnote where it is cited; registry records are immutable, and a metadata-only successor of or33-kilpatrick-richmond-raid-selections-v1 (repointing all VA125 Kilpatrick citations) is left to a future metadata revision or the primary."
+    },
+    {
+      "finding_id": "E1864-A6",
+      "disposition": "not_adopted",
+      "summary": "The Humphreys records' note names Volume XXVII rather than XXXIII, but its conclusion (no dependence on the printed compilation) holds for the 1891 Volume XXXIII too. Registry records are immutable; left to a future metadata-only revision."
+    },
+    {
+      "finding_id": "E1864-A7",
+      "disposition": "not_adopted",
+      "summary": "The two Pond records share a dependency note accurate for the two selections together. Registry records are immutable; the dossier open-question family notes (FAM strings) already state per campaign which reports Pond quotes. Left to a future metadata-only revision."
+    },
+    {
+      "finding_id": "E1864-A8",
+      "disposition": "accepted_applied",
+      "summary": "Verified the inclosure total line ends '504 538' under 'Total. Aggregate.' and covers 'the battle of Cloyd's Farm, May 9, 1864, and subsequent operations'. VA049 casualty rationale notes the live CS 538 equals that aggregate; a VA049 open question records that the frozen/live descriptions attribute the bridge burning to Averell, not adopted."
+    },
+    {
+      "finding_id": "E1864-A9",
+      "disposition": "accepted_applied",
+      "summary": "Verified: the 4,500 was 'ascertained' at Tazewell with no stated source; the deserters sentence concerns Confederate knowledge; the 5,000 is 'stated by rebel newspapers'. VA109 strength rationale uses the reviewer's wording."
+    },
+    {
+      "finding_id": "E1864-A10",
+      "disposition": "accepted_applied",
+      "summary": "Verified: Pond writes 'Imboden, in his report, gives the cavalry at 800' and 'He also puts the infantry actually engaged at 3,440 ...'. VA110 value sentence split so Imboden's figures are attributed to his report, not Lincoln's study."
+    },
+    {
+      "finding_id": "E1864-A11",
+      "disposition": "accepted_applied",
+      "summary": "VA111 terrain value quotes Hunter's ambiguous sentence verbatim and gives Pond's reading separately; the Pond citation now quotes the fuller 'drove the enemy through the woods to his main works, which were on a curving range of thickly timbered hills ;' (p.27)."
+    },
+    {
+      "finding_id": "E1864-A12",
+      "disposition": "accepted_applied",
+      "summary": "VA064 boundary note and recorded-result value, and the Lynchburg memo, now say Diamond Hill and Quaker church may name the same position, matching the terrain rationale."
+    },
+    {
+      "finding_id": "E1864-A13",
+      "disposition": "kept_as_is",
+      "summary": "No correction required: Sigel's and Breckinridge's groups are those authors' only registered groups; same-author material stays together and is not counted as corroboration. The misleading group names are recorded in the Lynchburg memo."
+    }
+  ],
+  "corrected_dossiers": {
+    "VA045": "756d8a39c337974e9f52e14c2e1e57e37811b5fcef18359754e8ffa2d32f4e14",
+    "VA125": "19cd8916fdd80af4ad8e26c517bd5c023c9528dd693b53d1c9e723fbf7a40faf",
+    "VA049": "d008b96245eff0d28b9cf392cdd0447af8c2c5db850f2a1d3b738940b6e97983",
+    "VA109": "9a43af33450548df04c393289f807b3b194490f2d4d1a14bd9e3ce06b4646005",
+    "VA110": "0dbe1527d3faf3f80c756f919ff42af0b54f31f73729d48915fd60b9a3440b53",
+    "VA111": "471064cfd0e85b67100d24f1f5ee29ddba465f8592997d40637923faa57c51e3",
+    "VA064": "af8c24e1cc338d1c0e3f0d93c96f17b5d495d15660197781961e71e1a57f4624"
+  },
+  "independent_followup_review": false
+}
