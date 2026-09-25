@@ -22,7 +22,7 @@ wins a commander caused. No validated commander ranking exists here yet.
   dates, force ranges, missingness, outcome codes, and cohort membership.
 - A small regularized logistic baseline using relative force size. Evaluation
   holds out whole campaigns and compares with equal odds and a training-only prior.
-- Forty draft dossiers, including all seven frozen Valley Campaign records,
+- Forty-five draft dossiers, including all five frozen Heartland Offensive records,
   with exact source passages, explicit unknowns, command questions, and
   inherited/created distinctions. See the [coverage table](artifacts/pilot-report.md#draft-evidence-dossiers).
 - A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
@@ -73,7 +73,7 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 ## Research direction
 
 **Current priority: comparable coverage across the 127 engagements.** We have
-forty draft dossiers and 87 engagements without one. Shiloh's repeated source
+forty-five draft dossiers and 82 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.
@@ -102,7 +102,9 @@ Astra `xhigh` accepted all 152 claims with no required corrections.
 The [Valley pass](docs/research/valley-first-pass-v1.md) adds seven dossiers,
 68 claims, 17 explicit unknowns and 91 citations. Astra `xhigh` reviewed the complete
 batch; its one timing-tag correction is fixed and verified by the primary.
-Next: **the five-record Confederate Heartland Offensive**. See the
+The [Heartland Offensive pass](docs/research/heartland-first-pass-v1.md) adds five
+dossiers, 54 claims, 6 explicit unknowns and 155 citations. Separate review is pending.
+Next: **the six-record Northern Virginia Campaign**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.

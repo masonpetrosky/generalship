@@ -45,6 +45,9 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 |---|---:|---:|---:|---:|---|
 | [KY005](../data/evidence/KY005.json) | 11 | 1 | 0 | 0 | draft |
 | [KY006](../data/evidence/KY006.json) | 11 | 2 | 0 | 0 | draft |
+| [KY007](../data/evidence/KY007.json) | 11 | 2 | 0 | 0 | draft |
+| [KY008](../data/evidence/KY008.json) | 10 | 1 | 0 | 0 | draft |
+| [KY009](../data/evidence/KY009.json) | 11 | 1 | 0 | 0 | draft |
 | [MD001](../data/evidence/MD001.json) | 11 | 2 | 0 | 0 | draft |
 | [MD003](../data/evidence/MD003.json) | 9 | 5 | 0 | 0 | draft |
 | [MO012](../data/evidence/MO012.json) | 11 | 3 | 0 | 0 | draft |
@@ -59,6 +62,8 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [TN002](../data/evidence/TN002.json) | 11 | 1 | 0 | 0 | draft |
 | [TN003](../data/evidence/TN003.json) | 62 | 3 | 40 | 26 | draft |
 | [TN004](../data/evidence/TN004.json) | 10 | 2 | 0 | 0 | draft |
+| [TN005](../data/evidence/TN005.json) | 10 | 1 | 0 | 0 | draft |
+| [TN006](../data/evidence/TN006.json) | 12 | 1 | 0 | 0 | draft |
 | [VA008](../data/evidence/VA008.json) | 10 | 5 | 0 | 0 | draft |
 | [VA009](../data/evidence/VA009.json) | 9 | 2 | 0 | 0 | draft |
 | [VA010](../data/evidence/VA010.json) | 9 | 3 | 0 | 0 | draft |
@@ -93,8 +98,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 40 engagements have dossiers; 87 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Valley first pass](../docs/research/valley-first-pass-v1.md) adds all seven frozen records: 68 claims, 17 explicit unknowns and 91 citations. Six use two source families; Princeton retains one. Source disputes, incomplete losses and changing populations remain visible; separate Astra xhigh review covered all 68 claims and 91 citations; its one timing-tag correction is fixed and verified by the primary. Next take the complete five-record Confederate Heartland Offensive. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 45 engagements have dossiers; 82 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Heartland Offensive first pass](../docs/research/heartland-first-pass-v1.md) adds all five frozen records: 54 claims, 6 explicit unknowns and 155 citations, each record using NPS/CWSAC and Cist's retrospective history. Murfreesboro's live result-field conflict, casualty differences, changing command and population scopes remain visible; separate campaign review is pending. Next take the complete six-record Northern Virginia Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

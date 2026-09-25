@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN005",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all five frozen records in the Confederate Heartland Offensive. Preserve per-engagement dates; the live NPS campaign heading (June-October 1862) does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names only formation levels: Division [US]; Department [CS]. The live NPS field reads 0 total (US 0; CS 0;). Cist lists the expedition's components without a count.",
+      "rationale": "No numerical strength is supplied by any inspected source. Live zeros are not measured absence; a component list does not establish matched opening populations.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN005"
+          },
+          "column": "forces_text",
+          "quote": "Division [US]; Department [CS]"
+        },
+        {
+          "source_id": "nps-tn005-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "chattanooga-expedition",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "Mitchel concentrated Negley's command from Columbia, Turchin's brigade from Huntsville, and the Eighteenth Ohio under T. E. Stanley from Athens"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "river-separation",
+      "dimension": "terrain",
+      "value": "NPS places the Confederates entrenched across the river along the banks and on Cameron Hill; Cist places Negley on the north bank of the Tennessee opposite the town.",
+      "rationale": "Physical separation and position only; no map verification or numerical terrain effect.",
+      "citations": [
+        {
+          "source_id": "nps-tn005-v1",
+          "locator": "Description",
+          "quote": "found the Confederates entrenched on the opposite side of the river along the banks and atop Cameron Hill"
+        },
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "chattanooga-expedition",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "Negley arrived on the north bank of the Tennessee, opposite Chattanooga, on the 7th."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reported-defensive-artillery",
+      "dimension": "logistics",
+      "value": "NPS describes an uncoordinated Confederate artillery reply by undisciplined gunners; Cist quotes Duke that Leadbetter had two or three guns in battery.",
+      "rationale": "Retrospective descriptions of guns and service, not an ordnance return or readiness score. Duke's quotation is part of Cist, not a separately inspected original.",
+      "citations": [
+        {
+          "source_id": "nps-tn005-v1",
+          "locator": "Description",
+          "quote": "The Confederates replied, but it was uncoordinated since the undisciplined gunners were allowed to do as they wished."
+        },
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "chattanooga-expedition",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "had two or three guns in battery"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reported-crossing-constraint",
+      "dimension": "logistics",
+      "value": "Cist quotes Duke's judgment that only the Union force's inability to cross the river prevented the town's capture.",
+      "rationale": "An attributed counterfactual opinion, not a measured causal effect. No boat, bridge or ford inventory was inspected.",
+      "citations": [
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "chattanooga-expedition",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "nothing prevented its capture but the fact that the enemy could not cross the river."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-report",
+      "dimension": "information",
+      "value": "NPS says Negley sent the 79th Pennsylvania to reconnoiter and it found the Confederates entrenched.",
+      "rationale": "Summary of a reconnaissance result, not an inspected report or message chain. Confederate knowledge of Negley's approach remains uninspected. The reconnaissance may be commander-created, but no clock is established.",
+      "citations": [
+        {
+          "source_id": "nps-tn005-v1",
+          "locator": "Description",
+          "quote": "Negley ordered the 79th Pennsylvania Volunteers out to reconnoiter."
+        },
+        {
+          "source_id": "nps-tn005-v1",
+          "locator": "Description",
+          "quote": "It found the Confederates entrenched on the opposite side of the river"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "capture-objective-and-demonstration",
+      "dimension": "objectives",
+      "value": "NPS says Mitchel ordered an expedition to capture Chattanooga; Cist describes an expedition against the town that bombarded it and made a demonstration of crossing.",
+      "rationale": "Stated mission versus executed action; no original order was inspected. Whether the demonstration reflected a changed objective is not established.",
+      "citations": [
+        {
+          "source_id": "nps-tn005-v1",
+          "locator": "Description",
+          "quote": "he ordered Brig. Gen. James Negley with a small division to lead an expedition to capture Chattanooga"
+        },
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "chattanooga-expedition",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "bombarded Chattanooga, and made a demonstration of crossing the river and attacking the town."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Mitchel ordered the expedition and Negley commanded it. On the Confederate side, NPS says the listed commander, Kirby Smith, arrived on the 8th, and Cist quotes Duke naming Leadbetter as commandant of the place.",
+      "rationale": "The frozen principal Confederate commander arrived during the two-day interval; local command and departmental authority are different roles, and neither receives automatic sole credit. Live heading ranks (Major General Negley; Lieutenant General Smith) conflict with the frozen ranks and are not adopted.",
+      "citations": [
+        {
+          "source_id": "nps-tn005-v1",
+          "locator": "Description",
+          "quote": "he ordered Brig. Gen. James Negley with a small division to lead an expedition to capture Chattanooga"
+        },
+        {
+          "source_id": "nps-tn005-v1",
+          "locator": "Description",
+          "quote": "On June 10, Smith, who had arrived on the 8th, reported that Negley had withdrawn"
+        },
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "chattanooga-expedition",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "The commandant of the place, General Leadbetter,"
+        },
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "chattanooga-expedition",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "for an expedition against Chattanooga under the command of Negley."
+        },
+        {
+          "source_id": "nps-tn005-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General James Negley [US]"
+        },
+        {
+          "source_id": "nps-tn005-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant General Edmund Smith [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN005",
+            "belligerent": "US",
+            "fullname": "James Negley"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN005",
+            "belligerent": "Confederate",
+            "fullname": "E. Kirby Smith"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Union victory. Cist says Negley then withdrew and encamped at Shelbyville; NPS says Smith reported on June 10 that Negley had withdrawn.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The victory label is the source classification of a bombardment without a crossing.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN005"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tn005-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "chattanooga-expedition",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "Negley then withdrew and encamped his command at Shelbyville."
+        },
+        {
+          "source_id": "nps-tn005-v1",
+          "locator": "Description",
+          "quote": "reported that Negley had withdrawn"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 88 total (US 23; CS 65). The live NPS field reads 3 total (US 0; CS 3;).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Cist's Jasper losses belong to an earlier approach action and are not added.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN005"
+          },
+          "column": "casualties_text",
+          "quote": "88 total (US 23; CS 65)"
+        },
+        {
+          "source_id": "nps-tn005-v1",
+          "locator": "Estimated Casualties",
+          "quote": "3 total (US 0; CS 3;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Original orders, returns, casualty reconciliation, Confederate knowledge of the approach and the effective local command clock remain deferred after the bounded pass. The June 7–8 interval excludes the earlier Jasper action.",
+    "NPS/CWSAC is one family; Cist is one interested retrospective Union staff history. Quoted reports and participant accounts inside Cist are not additional independently inspected families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

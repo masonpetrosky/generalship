@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "battle_id": "KY008",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all five frozen records in the Confederate Heartland Offensive. Preserve per-engagement dates; the live NPS campaign heading (June-October 1862) does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names Union garrison and Army of the Mississippi without counts; the live field reads zero. NPS describes three regiments with extensive fortifications; Cist says two detachments reinforced the garrison during the 14th.",
+      "rationale": "Formation descriptions only; the Union population changed within the interval. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY008"
+          },
+          "column": "forces_text",
+          "quote": "Union garrison [US]; Army of the Mississippi [CS]"
+        },
+        {
+          "source_id": "nps-ky008-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-ky008-v1",
+          "locator": "Description",
+          "quote": "consisted of three regiments with extensive fortifications"
+        },
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "munfordville-siege",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "Two detachments reported during the day, reinforcing Wilder's command."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "bridge-and-works",
+      "dimension": "terrain",
+      "value": "NPS identifies Munfordville as a Louisville & Nashville Railroad station at the Green River railroad bridge, defended by extensive fortifications.",
+      "rationale": "Inherited site features from a modern summary; no map or engineering record inspected.",
+      "citations": [
+        {
+          "source_id": "nps-ky008-v1",
+          "locator": "Description",
+          "quote": "a station on the Louisville & Nashville Railroad and the location of the railroad bridge crossing Green River"
+        },
+        {
+          "source_id": "nps-ky008-v1",
+          "locator": "Description",
+          "quote": "three regiments with extensive fortifications"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "reported-march-distances",
+      "dimension": "logistics",
+      "value": "Cist says Bragg had 68 miles to march from his Cumberland crossing to Munfordville, against 105 for Buell.",
+      "rationale": "Retrospective route distances, not a verified itinerary or supply return. Buell's army was not engaged here.",
+      "citations": [
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "munfordville-siege",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "had only sixty-eight miles to march from his crossing of the Cumberland Biver, while Buell had one hundred and five miles to travel"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "inspected-enemy-strength",
+      "dimension": "information",
+      "value": "Cist says Wilder, under escort, counted 45 cannon supported by 25,000 men; NPS says Buckner escorted him to view the Confederate troops.",
+      "rationale": "Attributed observation reported through a retrospective history; the count is Wilder's reported belief, not a verified return. The inspection was arranged by the opponent.",
+      "citations": [
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "munfordville-siege",
+          "locator": "p.59 (OCR page markers; not checked against print)",
+          "quote": "counting forty-five cannon in position, supported by 25,000 men"
+        },
+        {
+          "source_id": "nps-ky008-v1",
+          "locator": "Description",
+          "quote": "Buckner escorted him to view all the Rebel troops"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "transport-center",
+      "dimension": "objectives",
+      "value": "NPS says Confederate control of the railroad and bridge affected Union supply movements; Cist infers the attack showed Bragg did not intend to press on to Louisville.",
+      "rationale": "The NPS statement concerns site value; Cist's inference about intent is retrospective. Neither is an inspected order.",
+      "citations": [
+        {
+          "source_id": "nps-ky008-v1",
+          "locator": "Description",
+          "quote": "Munfordville was an important transportation center"
+        },
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "munfordville-siege",
+          "locator": "p.59 (OCR page markers; not checked against print)",
+          "quote": "it was not his intention to press on to Louisville"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "union-command-transfer",
+      "dimension": "responsibility",
+      "value": "Cist says Dunham, arriving on the day of the first assault, assumed command as senior; after Bragg's later demand, Gilbert ordered Dunham's arrest and Wilder assumed command at seven in the evening. NPS names Wilder as commander; its live heading lists Dunham.",
+      "rationale": "Both frozen Union commanders held command at different times; neither receives automatic sole credit. The transfer is from an interested retrospective history and was not checked against original telegrams.",
+      "citations": [
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "munfordville-siege",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "being Wilder's senior in rank, assumed command."
+        },
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "munfordville-siege",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "placing Dunham in arrest, and ordering Wilder to assume command."
+        },
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "munfordville-siege",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "assumed command at seven o'clock in the evening"
+        },
+        {
+          "source_id": "nps-ky008-v1",
+          "locator": "Description",
+          "quote": "Col. John T. Wilder commanded the Union garrison"
+        },
+        {
+          "source_id": "nps-ky008-v1",
+          "locator": "Principal Commanders",
+          "quote": "Colonel Cyrus Dunham [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surrender-demand-sequence",
+      "dimension": "responsibility",
+      "value": "Cist dates the first surrender demand to the 13th and the first assault to the 14th; NPS dates Wilder's refusal and the repulsed attacks to the 14th. Cist names Chalmers for a later demand and Bragg in person for the last.",
+      "rationale": "Chronologies differ at the start of the interval; the frozen September 14–17 dates remain. The frozen CS commanders, Chalmers and Bragg, had different roles at different times.",
+      "citations": [
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "munfordville-siege",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "On the 13th, demand was made of Wilder to surrender."
+        },
+        {
+          "source_id": "nps-ky008-v1",
+          "locator": "Description",
+          "quote": "Wilder refused Brig. Gen. James R. Chalmers's demand to surrender on the 14th."
+        },
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "munfordville-siege",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "a second demand for surrender was made by Chalmers"
+        },
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "munfordville-siege",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "In the afternoon Bragg appeared in person before the town"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result remains Confederate victory. Cist dates the surrender to two o'clock on the morning of the 17th; NPS dates the formal ceremony to the 17th.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Cist's claim that the delay benefited Buell is campaign contribution, not the tactical result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY008"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ky008-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "cist-heartland-selections-v1",
+          "section": "munfordville-siege",
+          "locator": "p.59 (OCR page markers; not checked against print)",
+          "quote": "at two o'clock in the morning of the 17th."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 4,862 total (US 4,148; CS 714). The live NPS field reads 4433 total (US 4148; CS 285;).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Category composition, including any treatment of surrendered troops, was not inspected.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KY008"
+          },
+          "column": "casualties_text",
+          "quote": "4,862 total (US 4,148; CS 714)"
+        },
+        {
+          "source_id": "nps-ky008-v1",
+          "locator": "Estimated Casualties",
+          "quote": "4433 total (US 4148; CS 285;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Original telegrams, surrender terms, returns, casualty categories and the September 13/14 demand chronology remain deferred after the bounded pass.",
+    "NPS/CWSAC is one family; Cist is one interested retrospective Union staff history. Quoted reports and participant accounts inside Cist are not additional independently inspected families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

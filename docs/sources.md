@@ -68,6 +68,20 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Heartland Offensive first pass, 2026-09-24
+
+The [five-record memo](research/heartland-first-pass-v1.md) adds **13 records**, bringing
+the registry to **286 entries / 283 raw paths**, preserving the previous **273/270**.
+Five NPS battle HTML/text pairs remain in the NPS/CWSAC family. Henry M. Cist's
+1882 *The Army of the Cumberland* adds a new `cist-cumberland-1882` family: public
+catalog metadata, full OCR and one selection derivative. That derivative holds the
+title/preface and five bounded battle passages. Character ranges and whitespace-only
+normalization reproduce all sections; OCR errors, running headers and map-label text
+are retained. All selections were read, without claiming print, map, roster or
+whole-book verification. Cist is an interested retrospective Union history; quoted
+reports and participant accounts are not separately inspected originals. Result-field,
+casualty, chronology and rank conflicts remain visible. No model inputs are changed.
+
 ### Valley first pass, 2026-09-20
 
 The [seven-record memo](research/valley-first-pass-v1.md) adds **14 records**, bringing

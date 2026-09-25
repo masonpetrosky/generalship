@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **40 draft dossiers / 127 engagements**, with **87 without a dossier**.
+There are **45 draft dossiers / 127 engagements**, with **82 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -84,9 +84,15 @@ covered all 68 claims and 91 citations. Its one Port Republic timing-tag correct
 is fixed and [verified by the primary](../artifacts/review-results/valley-0ceecd4-astra-xhigh-v1/primary-assessment.md). Coverage is **8/36 complete campaigns by
 dossier presence**, with zero promoted rows.
 
-Next take **Confederate Heartland Offensive [June-October 1862]**, the next complete
-frozen group by earliest engagement date: **five records**, Chattanooga (TN005),
-Murfreesboro (TN006), Richmond (KY007), Munfordville (KY008) and Perryville (KY009).
+The [Heartland Offensive first pass](research/heartland-first-pass-v1.md) adds all
+**five frozen records, TN005, TN006 and KY007–KY009**, with **54 claims, 6 explicit
+unknowns and 155 citations**. Each uses NPS/CWSAC and Cist's retrospective history.
+Murfreesboro's live NPS result field ("Union Victory") conflicts with the frozen
+Confederate victory and is retained as a dispute. Separate review is pending.
+Coverage is **9/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Northern Virginia Campaign [August 1862]**, the next complete frozen
+group by earliest engagement date: **six records, VA022–VA027**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 
