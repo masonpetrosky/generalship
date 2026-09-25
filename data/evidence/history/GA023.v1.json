@@ -19,7 +19,7 @@
       "id": "reported-force-scope",
       "dimension": "strength",
       "value": "The frozen force text reads one brigade (1,944 men) against one division (approx. 2,000 men); the live field reads 3,944 (US 1,944; CS 2,000). Corse's October 7 report says he brought about 900 muskets and Tourtellotte had about 600, 'about 1,500'; his October 27 report lists the garrison at 890 men and his detachment at 1,054, 'an aggregate of 1,944', and puts Young's Texas brigade at 1,900. French's preliminary report says prisoners gave the Union force as over 2,000, 'about equal to my own'; his November 5 report says that, leaving out three regiments not in the assault, he had 'but a little over 2,000 men'.",
-      "rationale": "Corse's two figures differ in basis (muskets brought against a regimental aggregate); French's figure excludes three regiments and the troops left at Allatoona Creek; Young's 1,900 is Corse's estimate of an attacking brigade. None is adopted as a matched opening strength; the live figures are not adopted.",
+      "rationale": "Corse's two figures differ in basis (muskets brought against a regimental aggregate); French's figure excludes three regiments and the troops left at Allatoona Creek; Young's 1,900 is Corse's estimate of an attacking brigade. None is adopted as a matched opening strength; live zeros are not measured absence.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -90,7 +90,7 @@
       "id": "pass-and-redoubts",
       "dimension": "terrain",
       "value": "French says the railroad crosses the ridge through a cut sixty-five feet deep, that he found three redoubts west of the cut and a star fort east of it with outer works, abatis and stockades, and that the hills were so rugged and abrupt the troops could not be placed until about 9 a.m. Corse withdrew his force from the town to the ridge on either side of the cut; NPS says the garrison regrouped in the earthen star fort.",
-      "rationale": "The pass and its works predate the attack; the defenders' use of them is not tagged. Narrative descriptions; no map verification. The fort names do not agree: NPS says the garrison regrouped in the 'Star' fort, French puts a star fort east of the cut, and Corse and French place the final stand in the west fort or 'center redoubt on the west of the railroad'; the discrepancy is not resolved.",
+      "rationale": "The pass and its works predate the attack; the defenders' use of them is not tagged. Narrative descriptions; no map verification.",
       "citations": [
         {
           "source_id": "or39-1-french-allatoona-selections-v1",
@@ -286,24 +286,6 @@
           "quote": "I was Avounded by a rifle-ball, which rendered me insensible for some thirty or forty minutes,"
         },
         {
-          "source_id": "or39-1-corse-allatoona-selections-v1",
-          "section": "corse-1864-10-27",
-          "locator": "p.765 (OCR page markers; not checked against print)",
-          "quote": "Colonel Tourtellotte and his garrison are deserving of the highest x>i‘aise,"
-        },
-        {
-          "source_id": "or39-1-corse-allatoona-selections-v1",
-          "section": "corse-1864-10-27",
-          "locator": "p.765 (OCR page markers; not checked against print)",
-          "quote": "Col. Itichard Itowett, Seventh Illinois Veteran Volunteer Infantry,"
-        },
-        {
-          "source_id": "or39-1-corse-allatoona-selections-v1",
-          "section": "corse-1864-10-27",
-          "locator": "p.765 (OCR page markers; not checked against print)",
-          "quote": "to his personal efforts Ave owed in an eminent degree the safety of the command."
-        },
-        {
           "source_id": "or39-1-french-allatoona-selections-v1",
           "section": "french-1864-11-05",
           "locator": "p.817 (OCR page markers; not checked against print)",
@@ -423,12 +405,6 @@
         },
         {
           "source_id": "or39-1-corse-allatoona-selections-v1",
-          "section": "corse-1864-10-07",
-          "locator": "p.760 (OCR page markers; not checked against print)",
-          "quote": "400 prisoners, including the wounded;"
-        },
-        {
-          "source_id": "or39-1-corse-allatoona-selections-v1",
           "section": "corse-1864-10-27",
           "locator": "p.766 (OCR page markers; not checked against print)",
           "quote": "We buried 231 rebel dead, and captured 411 prisoners,"
@@ -481,13 +457,8 @@
     }
   ],
   "open_questions": [
-    "Sherman's No. 1 report, Tourtellotte's, Rowett's and the other regimental reports, Hood's report portion (read, not selected), Stewart's, Sears's and the brigade casualty returns, and the signal officer's report (No. 79) remain deferred. Cox's Allatoona narrative is in his Atlanta volume (registered by the Atlanta pass as cox-atlanta-ocr-v1; not used for this record, which already has three families).",
+    "Sherman's No. 1 report, Tourtellotte's, Rowett's and the other regimental reports, Hood's report portion (read, not selected), Stewart's, Sears's and the brigade casualty returns, and the signal officer's report (No. 79) remain deferred. Cox's Allatoona narrative is in his Atlanta volume, not registered.",
     "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Jacob D. Cox's The March to the Sea; Franklin and Nashville (1882) is an interested history by the commander of the Twenty-third Corps' Third Division (and, at Franklin, of both divisions of that corps) that draws on official papers. Corse's, French's, R. S. Granger's, Doolittle's, Sinclair's, Forrest's, Hood's and Rousseau's reports, printed in Official Records Series I, Volumes XXXIX part 1 and XLV part 1, are separate families of interested accounts; each volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "franklin-nashville-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/GA023.v1.json",
-    "sha256": "cd0b3ef844a6c2fe863a50f63462e36ad0c56064eb758ec92ba273ef32957286"
-  }
+  ]
 }

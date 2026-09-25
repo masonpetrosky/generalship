@@ -3,18 +3,19 @@
 Prepared 2026-09-25 under the [cohort v2](../cohort-v2.md) research order, which lists
 Franklin-Nashville among the 1864–65 main-army campaigns. All **eight records** in
 **Franklin-Nashville Campaign [September-December 1864]** now have draft dossiers: **76 claims, 8
-explicit null unknowns and 396 citation occurrences**. All seven dimensions are represented in each
-record. All dossiers are drafts; no features are admitted.
+explicit null unknowns and 414 citation occurrences** after the review correction (396 before).
+All seven dimensions are represented in each record. All dossiers are drafts; no features are
+admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| GA023 — Allatoona | 1864-10-05 | 9 | 1 | 59 | 3 |
-| AL004 — Decatur | 1864-10-26 to 10-29 | 9 | 1 | 45 | 3 |
-| TN032 — Johnsonville | 1864-11-04 to 11-05 | 10 | 1 | 54 | 3 |
-| TN034 — Columbia | 1864-11-24 to 11-29 | 10 | 1 | 46 | 3 |
-| TN035 — Spring Hill | 1864-11-29 | 9 | 1 | 38 | 3 |
+| GA023 — Allatoona | 1864-10-05 | 9 | 1 | 63 | 3 |
+| AL004 — Decatur | 1864-10-26 to 10-29 | 9 | 1 | 47 | 3 |
+| TN032 — Johnsonville | 1864-11-04 to 11-05 | 10 | 1 | 61 | 3 |
+| TN034 — Columbia | 1864-11-24 to 11-29 | 10 | 1 | 47 | 3 |
+| TN035 — Spring Hill | 1864-11-29 | 9 | 1 | 40 | 3 |
 | TN036 — Franklin | 1864-11-30 | 10 | 1 | 51 | 3 |
-| TN037 — Murfreesboro | 1864-12-05 to 12-07 | 9 | 1 | 46 | 3 |
+| TN037 — Murfreesboro | 1864-12-05 to 12-07 | 9 | 1 | 48 | 3 |
 | TN038 — Nashville | 1864-12-15 to 12-16 | 10 | 1 | 57 | 3 |
 
 Dossier presence is not first-pass acceptance, separate review or model eligibility.
@@ -46,8 +47,8 @@ record uses two further families:
   - Nashville (pp.99–123; running heads p.103 and p.111 misread as '10J' and 'Ill');
   - the Nashville results and losses (pp.126–128).
 
-  Cox does not narrate Allatoona, which is in his earlier *Atlanta* volume (not registered). His
-  brief Decatur (pp.13–14) and Johnsonville (pp.15–16) passages were read but not selected,
+  Cox does not narrate Allatoona, which is in his earlier *Atlanta* volume (registered by the
+  Atlanta pass in `cox-atlanta-1882`; not used here). His brief Decatur (pp.13–14) and Johnsonville (pp.15–16) passages were read but not selected,
   because those records already use three families. Appendix A was read; its tables are garbled
   in OCR.
 - ***Official Records* Series I, Volume XXXIX, Part 1** (1892; Illinois scan
@@ -111,11 +112,17 @@ records.
 
 ### Independence groups
 
-- **Cox** (`cox-march-to-the-sea-1882`) commanded a division and, at Franklin, both divisions of
-  the Twenty-third Corps under Schofield. His book is an interested participant history for
-  Columbia, Spring Hill, Franklin and Nashville. It draws on War Records Office papers and on
+- **Cox** (`cox-atlanta-1882`, as corrected by NASH-R2) commanded a division and, at Franklin,
+  both divisions of the Twenty-third Corps under Schofield. His book is an interested participant
+  history for Columbia, Spring Hill, Franklin and Nashville. It draws on War Records Office papers and on
   Hood's, Bate's, Beauregard's and Schofield's reports. It is therefore not independent of the
-  Official Records families.
+  Official Records families. His earlier *Atlanta* volume is registered by the Atlanta pass in
+  `cox-atlanta-1882`. Following the Humphreys precedent, this book is placed in that author's
+  existing group, whose name reflects the earlier volume. The two books are one author family,
+  not independent witnesses. (The first pass created `cox-march-to-the-sea-1882`; the
+  metadata-only successors listed under "Review correction" carry the corrected group.)
+- **Hood's** February 15, 1865 report is one document across volumes; its Tennessee portion and
+  the other Volume XLV reports join the Atlanta pass's `hood-atlanta-reports` (NASH-R1).
 - **French** already had a registered author group, `french-suffolk-reports`, from his 1863 Suffolk
   reports. Following the Humphreys precedent, the Allatoona reports are placed in that group,
   whose name reflects the earlier reports.
@@ -129,8 +136,8 @@ records.
   independent of it.
 - **Rousseau** has an 1862 record in the `or-buell` group. This pass creates
   `rousseau-murfreesborough-reports` and says so in the dependency note.
-- **Other new groups:** `corse-allatoona-reports`, `hood-tennessee-reports`,
-  `or-series-i-volume-xxxix` and `or-series-i-volume-xlv`.
+- **Other new groups:** `corse-allatoona-reports`, `or-series-i-volume-xxxix` and
+  `or-series-i-volume-xlv`.
 - **Hood's addenda** were compiled by his adjutant A. P. Mason and are kept in Hood's family.
 
 ## Decisions and limits
@@ -156,10 +163,11 @@ records.
     and 5,000 on successive days. The defenders estimated the Confederate army at 35,000 and
     40,000.
   - **Johnsonville.** Sinclair's partial list (700 infantry, 800 armed employees, 20 cavalry,
-    three batteries, three gunboats). Thompson estimated 13,000 Confederates.
+    a battery, a colored artillery company, a section of the quartermaster's battery, two
+    captured Parrotts and three gunboats). Thompson estimated 13,000 Confederates.
   - **Army returns.** Cox gives Hood 44,729 on November 6 and 53,938 with Forrest, against
     Beauregard's 35,000 effective. Hood's addenda give 30,600 effective on November 6 and 23,053
-    on December 10. Thomas had 54,566 present for duty on October 31.
+    on December 10; whether these include Forrest's cavalry is not established (NASH-A8). Thomas had 54,566 present for duty on October 31.
   - **Nashville.** Cox's components: Smith's nearly 12,000, Steedman's 5,200, about 8,000 at
     Murfreesboro and 10,884 cavalry present for duty. His reconstruction gives Hood about 44,000.
   - **Murfreesboro.** Rousseau's two dispatches say Forrest brought 2,500 cavalry with two
@@ -168,8 +176,9 @@ records.
   result and five others):
   - **River reinforcement at Decatur.** Granger's 200 men against Doolittle's "about 1,200" on
     the gunboat Stone River.
-  - **Who burned the Johnsonville shipping.** Forrest says his batteries did it. Sinclair says King
-    and Thompson ordered it.
+  - **Who burned the Johnsonville shipping.** Forrest says his batteries did it. Sinclair reports
+    as hearsay ("It is said") that King ordered the gunboats burned, and says Thompson directed
+    the burning of the transports.
   - **Columbia's evacuation date.** Hood and Cox give the night of the 27th; NPS says the 28th.
   - **Responsibility at Spring Hill.** Hood blames Cheatham. Cox says Hood shifted the blame to a
     subordinate.
@@ -193,7 +202,7 @@ records.
     - Corse's dispositions and Tourtellotte's defence of the east hill;
     - French's decision to withdraw;
     - Granger's arrival "just as the fight was closing";
-    - King's and Thompson's burning orders;
+    - King's reported and Thompson's stated burning orders;
     - Schofield's crossings;
     - Wagner's order to fight (from two unnamed officers, via Cox);
     - Thomas leaving assaults to his corps commanders.
@@ -223,16 +232,66 @@ cohort, the frozen baseline and both admission proposals are unchanged, with zer
 
 ## Validation
 
-- `python3 -m generalship check` passes with this batch and the Savannah batch in place.
-- `python3 -m unittest discover -s tests` passes (134 tests).
+- After the review correction, `python3 -m generalship check` passes and
+  `python3 -m unittest discover -s tests` passes (134 tests).
 
-## Separate review pending
+## Separate review
 
-No separate review has been run. The next step is a fresh-context `evidence-reviewer` assignment.
-It should be bound to the commit, the eight dossier hashes and the source hashes above. It should
-cover:
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed this
+pass and the Savannah pass together at commit `e03c87e` as
+`nashville-review-e03c87e-opus-high-v1` on 2026-09-25. Its outcome was "corrections required":
+nine required findings (NASH-R1 to NASH-R9) and twelve advisories (NASH-A1 to NASH-A12). It is an
+AI review within its stated scope, not human historical adjudication, proof of source
+independence or feature admission.
 
-- entailment and locators, especially the misread running heads;
-- French's garbled casualty figures;
-- the decision to place French in his existing author group;
-- the Cox–Official Records dependence.
+## Review correction
+
+Each required finding was checked against the retained selection text or the registry before
+any change; every new quote occurs in its section, and the dossiers were regenerated from the
+builder. All eight dossiers are revised under `franklin-nashville-review-correction-2026-09-25`
+(the Cox and Hood source moves or advisory citations touch each of them) and supersede
+byte-for-byte archives at `data/evidence/history/<ID>.v1.json` for GA023, AL004, TN032, TN034,
+TN035, TN036, TN037 and TN038. Findings affecting this pass:
+
+- **NASH-R1** (registry): Hood's February 15, 1865 report is one document whose July
+  18–September 6 portion is registered as `or38-3-hood-atlanta-selections-v1` in
+  `hood-atlanta-reports`. The `metadata_only` successor `or45-1-hood-tennessee-selections-v2`
+  (superseding v1, kept unchanged) moves the selection to that group and names the earlier record
+  in its dependency note. Hood citations in TN034, TN035, TN036 and TN038 move to v2.
+- **NASH-R2** (registry, GA023 and this memo): Cox's *Atlanta* volume is registered
+  (`cox-atlanta-1882`). The `metadata_only` successors `ia-cox-march-metadata-v2`,
+  `cox-march-ocr-v2` and `cox-franklin-nashville-selections-v2` (and the Savannah pass's
+  `cox-savannah-selections-v2`) place this book in that author group and correct the dependency
+  note; the selections' parent link moves to `cox-march-ocr-v2` with the same parent bytes. Cox
+  citations in TN034, TN035, TN036 and TN038 move to v2. GA023's open question and the Allatoona
+  sentence and Cox group bullet above are corrected.
+- **NASH-R3** applies to the Savannah pass (Kilpatrick).
+- **NASH-R4** (TN032 `command-roles`, `destruction-attribution` and this memo): Sinclair gives the
+  gunboat burning on King's order as hearsay ("It is said"). Values corrected; p.862 citation
+  added to both claims.
+- **NASH-R5** (TN035 `seize-the-pike`): Cox says Schofield needed time for Ruger to complete his
+  work at the fords and to ship by rail artillery that had no horses; "obstructing" is removed.
+  p.71 citation added.
+- **NASH-R6 to NASH-R9** apply to the Savannah pass.
+
+Advisories affecting this pass:
+
+- **Adopted:** A1 (GA023 and TN037 rationales no longer speak of live zeros), A2 (citations for
+  Doolittle's "never exceeded 5,000", Granger's order for the Fourteenth U.S. Colored Infantry
+  sortie, Corse's 400 prisoners and his credits to Tourtellotte and Rowett, Sinclair's hills
+  within 100 yards, and Cox on Cleburne's unawareness of Bradley), A3 (GA023: the fort-name
+  discrepancy is noted), A4 (TN032 and this memo: Sinclair's artillery list given in full, four
+  citations), A7 (TN034: Hood left Lee with the other two divisions of his corps; cited), A8
+  (TN034 and TN038: the population behind the addenda totals is not established), A9 (TN037: the
+  frozen force table's stored Confederate bounds, 6,500 and 6,500, are cited against the force
+  text's 6,500–7,000), A12 (`cox-march-ocr-v2` records the OCR spelling "Alatoona").
+- **Recorded, no change:** A10 (this pass's 32 records and the Savannah pass's 19 are correct;
+  the other records in that commit belong to another campaign). A11 (the Atlanta reconciliation
+  was completed first; it kept `cox-atlanta-1882`, `hood-atlanta-reports` and
+  `kilpatrick-atlanta-reports` and registered `cox-atlanta-selections-v2`, so these moves do not
+  undo it). A5 and A6 apply to the Savannah pass.
+
+The review correction adds **four source records** for this pass (the Hood successor and three
+Cox successors), registered in one call with the Savannah pass's two. Citations rise from 396 to
+414; claims (76), unknowns (8), disputed claims (20) and `inherited` tags (6) are unchanged. No
+model input, cohort file, admission proposal or baseline is changed.

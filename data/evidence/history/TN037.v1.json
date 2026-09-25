@@ -18,8 +18,8 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force text reads approx. 8,000 in the District of Tennessee against Forrest's cavalry, Bate's division and Sears's and Palmer's brigades, 6,500-7,000, while the frozen force table stores the Confederate bounds as 6,500 and 6,500; the live field reads 14,750 (US 8,000; CS 6,750). Rousseau's December 8 dispatch says the enemy was reinforced on the 5th by two brigades of infantry and 2,500 of Forrest's cavalry; his December 12 dispatch says 2,500 cavalry and two divisions of infantry. Rousseau sent Milroy out on the 7th with seven regiments and a battery. Forrest says he moved with Buford's and Jackson's divisions, leaving 250 men to picket, and was joined by Bate's division and, on the 6th, by Sears's and Palmer's brigades.",
-      "rationale": "The frozen Confederate range in the force text (6,500-7,000) and the stored bounds (6,500-6,500) differ. Rousseau's two dispatches differ (brigades against divisions); no inspected passage gives Forrest's own numbers or the garrison's. None is adopted as a matched opening strength; the live figures are not adopted.",
+      "value": "The frozen force text reads approx. 8,000 in the District of Tennessee against Forrest's cavalry, Bate's division and Sears's and Palmer's brigades, 6,500-7,000; the live field reads 14,750 (US 8,000; CS 6,750). Rousseau's December 8 dispatch says the enemy was reinforced on the 5th by two brigades of infantry and 2,500 of Forrest's cavalry; his December 12 dispatch says 2,500 cavalry and two divisions of infantry. Rousseau sent Milroy out on the 7th with seven regiments and a battery. Forrest says he moved with Buford's and Jackson's divisions, leaving 250 men to picket, and was joined by Bate's division and, on the 6th, by Sears's and Palmer's brigades.",
+      "rationale": "Rousseau's two dispatches differ (brigades against divisions); no inspected passage gives Forrest's own numbers or the garrison's. None is adopted as a matched opening strength; live zeros are not measured absence.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -36,24 +36,6 @@
           },
           "column": "forces_text",
           "quote": "(6,500-7,000) [CS]"
-        },
-        {
-          "source_id": "arnold-cwsac-forces",
-          "row_key": {
-            "battle": "TN037",
-            "belligerent": "Confederate"
-          },
-          "column": "strength_min",
-          "quote": "6500"
-        },
-        {
-          "source_id": "arnold-cwsac-forces",
-          "row_key": {
-            "battle": "TN037",
-            "belligerent": "Confederate"
-          },
-          "column": "strength_max",
-          "quote": "6500"
         },
         {
           "source_id": "nps-tn037-v1",
@@ -407,10 +389,5 @@
     "Milroy's No. 209 report (read at its opening), the regimental reports Nos. 210–222, Bate's No. 251 report, Sears's and Palmer's reports, the District of Tennessee returns (No. 3), Cox's Murfreesboro passage (pp.100–104, in the Nashville section; not cited here) and Jordan and Pryor's account remain deferred.",
     "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Jacob D. Cox's The March to the Sea; Franklin and Nashville (1882) is an interested history by the commander of the Twenty-third Corps' Third Division (and, at Franklin, of both divisions of that corps) that draws on official papers. Corse's, French's, R. S. Granger's, Doolittle's, Sinclair's, Forrest's, Hood's and Rousseau's reports, printed in Official Records Series I, Volumes XXXIX part 1 and XLV part 1, are separate families of interested accounts; each volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "franklin-nashville-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/TN037.v1.json",
-    "sha256": "814cf93b6b268c78475c145ffff8a138461e779bf81bb8e755f01139828f2cfa"
-  }
+  ]
 }
