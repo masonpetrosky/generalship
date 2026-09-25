@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "migration_id": "opening-strength-rationale-v1",
+  "date": "2026-09-25",
+  "basis_review_path": "artifacts/review-results/vicksburg-1862-7cbb971-opus-high-v1/review.md",
+  "basis_review_sha256": "b94033b16aabec7cbb0cac9a3dd8030fee637713b322e0106d86189e5fb7c858",
+  "basis_finding": "VB-R1",
+  "rule": "Where every frozen cwsac_forces row for the battle has blank strength_min and strength_max, replace the exact template rationale of the opening-personnel-unknown claim, which implied imported estimates, with a statement of the blank bounds. Values, statuses, phases and citations are unchanged. Dossiers with any frozen bound keep the template.",
+  "frozen_forces_path": "data/raw/cwsac_forces.csv",
+  "frozen_forces_sha256": "a462f6be964b5d486f9cff4660262f215cffb8197d018654b74aab4e718dd7d5",
+  "previous_rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+  "new_rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+  "revision": "opening-strength-rationale-propagation-2026-09-25",
+  "excluded": {
+    "MS003": "corrected directly under VB-R1",
+    "AR006": "corrected directly under VB-R1",
+    "TN013": "deferred to the Middle Tennessee review correction",
+    "TN016": "deferred to the Middle Tennessee review correction"
+  },
+  "separate_review": "none; a primary propagation of an accepted finding's wording",
+  "dossiers": {
+    "KY007": {
+      "dossier_path": "data/evidence/KY007.json",
+      "archived_dossier_path": "data/evidence/history/KY007.v1.json",
+      "archived_dossier_sha256": "b0b445a8cf2ad087ce67f1a77eb94a7cc1138eea07f100f19e89dee5db6e2e99",
+      "corrected_dossier_sha256": "59a8a452063b2a7bf3c6cbb1d9bf8b1a509cc3c961f0fcbc8b1984a0b22663e2",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "KY008": {
+      "dossier_path": "data/evidence/KY008.json",
+      "archived_dossier_path": "data/evidence/history/KY008.v1.json",
+      "archived_dossier_sha256": "02c5f344c00a41c03212344d6b625177a19323c8e50f0b734de44c58c8681350",
+      "corrected_dossier_sha256": "76dfedc6e87feab56375b8646618e00e436ae3bc2bd5bf46c86ec7bcf9e6b9ec",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "KY009": {
+      "dossier_path": "data/evidence/KY009.json",
+      "archived_dossier_path": "data/evidence/history/KY009.v2.json",
+      "archived_dossier_sha256": "8f0b30d6ccfd45cebdabd97b4053bcac964e301bb2180bf37bf2086e584b6a31",
+      "corrected_dossier_sha256": "41b1a6d980469227c901d841f7bbf820930bb7e2bdb817bfbdfb834e665e8182",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "MD002": {
+      "dossier_path": "data/evidence/MD002.json",
+      "archived_dossier_path": "data/evidence/history/MD002.v2.json",
+      "archived_dossier_sha256": "5714fb20a46bc2c38f4503436e38710f233719d74ca272c86558db4ff787775c",
+      "corrected_dossier_sha256": "ad610e3a4a8ea6d8fda32524c924c7a15986a8c7ba6a8e82eed6b606e458b685",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "MS002": {
+      "dossier_path": "data/evidence/MS002.json",
+      "archived_dossier_path": "data/evidence/history/MS002.v2.json",
+      "archived_dossier_sha256": "91dc9bcf3db66e047f1a7264fae97d2aadaf6af52f0cf930a486c194c5ce5db5",
+      "corrected_dossier_sha256": "51a005b99fa5ae68f80ca05e0401b7d9c9c88f0fb21eb04ecb5b81c4b640681f",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "NC007": {
+      "dossier_path": "data/evidence/NC007.json",
+      "archived_dossier_path": "data/evidence/history/NC007.v2.json",
+      "archived_dossier_sha256": "4e3a5e740b3274df0feffce0f56348bfc524bc96ae3e27189de9d26bffa0d17c",
+      "corrected_dossier_sha256": "e119de6ad330c6e7537aa9523ee94300c4572096da6b6f40cbe590ffc65d7943",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "NC008": {
+      "dossier_path": "data/evidence/NC008.json",
+      "archived_dossier_path": "data/evidence/history/NC008.v1.json",
+      "archived_dossier_sha256": "49f721f7f2d290387d24414ea965532ee815fd30011c56d77a8fd694180ca3ec",
+      "corrected_dossier_sha256": "7076f48f85ccaf1180c7c61c19ed2a697b9d9ffaed5fd1ea9100c2ff248c1b1e",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "NC009": {
+      "dossier_path": "data/evidence/NC009.json",
+      "archived_dossier_path": "data/evidence/history/NC009.v2.json",
+      "archived_dossier_sha256": "82d6ac56df882b5fdc8d083ef2ff2a79498c528fa8b6c3b4e332e82a2671bc71",
+      "corrected_dossier_sha256": "f3983549a57d768ba3d314b50097344cca9fb1bbcc6c970383f2fba1a10dd78b",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "TN005": {
+      "dossier_path": "data/evidence/TN005.json",
+      "archived_dossier_path": "data/evidence/history/TN005.v1.json",
+      "archived_dossier_sha256": "180ddc091def36cfb263e0f889e788bc3d8c06290e7a22bd7bab9b34d72b13ee",
+      "corrected_dossier_sha256": "0a3196b82f02b225ade5cf197ed712f43e0ed5d005a7d2e38184e42e5ad39047",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "TN007": {
+      "dossier_path": "data/evidence/TN007.json",
+      "archived_dossier_path": "data/evidence/history/TN007.v2.json",
+      "archived_dossier_sha256": "18ccb4e2add8d5d212aa2b27715f157c90684fbba406d20a5a12d6d97fcee61c",
+      "corrected_dossier_sha256": "a7822a72ae43e7d249f3ba354b64b8493486cf2e2375fdcd1b686c100a4d06e0",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "TN008": {
+      "dossier_path": "data/evidence/TN008.json",
+      "archived_dossier_path": "data/evidence/history/TN008.v2.json",
+      "archived_dossier_sha256": "b5bb443b2fd1bd8f757766c8d8967decd2ffbabc4c3bd3bde9ee19f1cece7d8f",
+      "corrected_dossier_sha256": "889ca4baa8ef7f49043d590f4a22ee0096147db5b65921ce71af105220c9f229",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "TN010": {
+      "dossier_path": "data/evidence/TN010.json",
+      "archived_dossier_path": "data/evidence/history/TN010.v2.json",
+      "archived_dossier_sha256": "00a3d1bf2bc3c4c41a5e9064c6d702f2ef383ab0ee8f65eb2806a614f7e2ea53",
+      "corrected_dossier_sha256": "4c187bb747379c0b2ee31defd173e30cc3f953e75b3192b081f63485f0803227",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "VA023": {
+      "dossier_path": "data/evidence/VA023.json",
+      "archived_dossier_path": "data/evidence/history/VA023.v1.json",
+      "archived_dossier_sha256": "e8d6215e2974edd42b3ba293408295ec0d7474e765120d85c684d4353a1666bf",
+      "corrected_dossier_sha256": "e59f4cdd627673504d397af7f5941755e9661428fe4f22d38a106f4e19b4f1a5",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "VA024": {
+      "dossier_path": "data/evidence/VA024.json",
+      "archived_dossier_path": "data/evidence/history/VA024.v1.json",
+      "archived_dossier_sha256": "addc750d16cb9110cc2f1ac0a390d2f5b924f6bf914da8acdecb505d1ec94a7d",
+      "corrected_dossier_sha256": "1c363e4aec3e90b10073f207f18ed949261d8e38946b157936bb6c5c1e1e9790",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "VA025": {
+      "dossier_path": "data/evidence/VA025.json",
+      "archived_dossier_path": "data/evidence/history/VA025.v1.json",
+      "archived_dossier_sha256": "e4e1dc299858d07c1210043eb6ee71862b68aa2e5fb83fce807ac4e978df2069",
+      "corrected_dossier_sha256": "bc67c9adafa60f4bcbaee59ccfd967a81bcb6e1e0ae29ec76bd872cdc49410a2",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "VA026": {
+      "dossier_path": "data/evidence/VA026.json",
+      "archived_dossier_path": "data/evidence/history/VA026.v2.json",
+      "archived_dossier_sha256": "86d7bafd5fab0f976b9e2a16348b88111c8850315257d4ba7812a417ecb24200",
+      "corrected_dossier_sha256": "890a95ddec9697f86d2f18a1c57d1263fb1c1d62f0c00bed172f5122fc35f64f",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "VA027": {
+      "dossier_path": "data/evidence/VA027.json",
+      "archived_dossier_path": "data/evidence/history/VA027.v1.json",
+      "archived_dossier_sha256": "874743b094f939eee535f323cf351750d8d42c6267e6596fb934d893b41e6e52",
+      "corrected_dossier_sha256": "c27d304c38cd23bb812ced48614dc76cf3fbab61196667d9dd43af07d682e862",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "WV010": {
+      "dossier_path": "data/evidence/WV010.json",
+      "archived_dossier_path": "data/evidence/history/WV010.v2.json",
+      "archived_dossier_sha256": "4a1fec266889a81c23a312f01c51b5f8a94656f4f3ceb9c86319c221ef193198",
+      "corrected_dossier_sha256": "223b7f4ac10776ec0fbd09c1f76f2dff980689c9a410da1a16cdf09c4bf270c3",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    },
+    "WV016": {
+      "dossier_path": "data/evidence/WV016.json",
+      "archived_dossier_path": "data/evidence/history/WV016.v2.json",
+      "archived_dossier_sha256": "75456c2bdd5eb9a2f3587b17150065f15fe76635c231e9f14c23946a1387797c",
+      "corrected_dossier_sha256": "93a8533fa14cfbd8e8885dd53570222c592f4b12e4970daa02e8088bc9ab063f",
+      "changed_claims": [
+        "opening-personnel-unknown"
+      ]
+    }
+  }
+}

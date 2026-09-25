@@ -184,6 +184,13 @@ Franklin's live narrative date (May 10 against the frozen April 10) are retained
 Separate review is pending.
 Coverage is **18/36 complete campaigns by dossier presence**, with zero promoted rows.
 
+The Vicksburg review's VB-R1 also applies to earlier dossiers: the unknown-strength
+template said imported estimates remained unchanged where the frozen bounds are blank.
+A recorded [propagation](../artifacts/migrations/opening-strength-rationale-v1.json)
+restates that rationale in 19 reviewed dossiers (each archived to history); values,
+statuses and citations are unchanged, and no separate review of the propagation is
+claimed. TN013 and TN016 follow with the Middle Tennessee correction.
+
 Next take **Longstreet's Tidewater Operations [March-April 1863]**, the next complete frozen
 group by earliest engagement date: **four records, NC010, NC011, VA031, VA030**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
