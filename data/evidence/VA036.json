@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA036",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's June 17–21 losses and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades and the live field zero. Doubleday says Pleasonton pushed on with Gregg's division against Fitz Lee's brigade; no count is given for either side in the inspected passages.",
+      "rationale": "No numerical opening figure is inspected. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA036"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-va036-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "He pushed on, therefore, \\yith Gregg's divi- sion"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "hill-west-of-aldie",
+      "dimension": "terrain",
+      "value": "Doubleday says Fitz Lee's brigade chose a strong position on a hill directly west of Aldie covering the Snicker's Gap road but open to being turned by the road to Middleburg and Ashby's Gap, its front strengthened by a ditch and haystacks. Stuart describes the same hill commanding the Snickersville road.",
+      "rationale": "Position chosen on the day by the defender; boundaries unset and no map verification.",
+      "citations": [
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "Fitz Lee chose a strong position on a hill directly west of Aldie,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "but could be turned by the road to Middleburg and Ashby's Gap."
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "The rebel front was strengthened by a ditch and a line of hay-stacks."
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.688 (OCR page markers; not checked against print)",
+          "quote": "on a hill commanding thej Snickersville road,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "worn-horses",
+      "dimension": "logistics",
+      "value": "Stuart says the brigade was much worn and its horses had had very little food; Doubleday says it had marched forty miles to reach the gap.",
+      "rationale": "Condition statements from the opposing commander's superior and an interested history; no inspected return.",
+      "citations": [
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.688 (OCR page markers; not checked against print)",
+          "quote": "being much worn and the horses! having had very little food,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "The latter had made a march of forty miles to reach the Gap,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "presentiment-and-warning",
+      "dimension": "information",
+      "value": "Doubleday says Pleasonton had no orders to go through the pass but was prompted by a presentiment. Stuart says he was informed during the attack that a large Union force was advancing on Middleburg.",
+      "rationale": "Attributed knowledge from an interested history and Stuart's report; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "had no orders to go through the pass,"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.688 (OCR page markers; not checked against print)",
+          "quote": "I was informed that a large force] of the enemy’s cavalry was advancing on"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "screen-the-gaps",
+      "dimension": "objectives",
+      "value": "Doubleday says Fitz Lee's brigade was sent to Aldie to hold the gap first, the Bull Run range being important as a screen for Lee's further operations; Stuart says the aim was a screen for Longstreet's movements.",
+      "rationale": "Stated aims from an interested history and the Confederate cavalry commander; no inspected orders.",
+      "citations": [
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "it being considered important to occupy the Bull Run range of mountains as a screen for Lee's further operations."
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.688 (OCR page markers; not checked against print)",
+          "quote": "as a screen to Longstreet s movements,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Doubleday says the battle was decided by a charge of the First Maine Cavalry led by Kilpatrick in person. Stuart says the brigade held its position until his dispatch made it necessary to fall back because of the threat at Middleburg. The frozen and live commanders are Kilpatrick, a Brigadier General, and Munford, a Colonel.",
+      "rationale": "Judgments are attributed; the frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "the battle was finally decided by a gallant charge of the First Maine Cavalry,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "were led by Kilpatrick in person,"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.688 (OCR page markers; not checked against print)",
+          "quote": "till the dispatch received from me made it neces-' safy to move farther back,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA036",
+            "belligerent": "US",
+            "fullname": "H. Judson Kilpatrick"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA036",
+            "belligerent": "Confederate",
+            "fullname": "Thomas Munford"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. NPS says Kilpatrick was reinforced and Munford withdrew toward Middleburg. Doubleday relays the Confederate claim that they fell back only on Stuart's orders and judges the loss of the pass a serious blow to the Confederates.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Doubleday's 'serious blow' is his judgment and campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA036"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va036-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-va036-v1",
+          "locator": "Description",
+          "quote": "Kilpatrick was reinforced in the afternoon, and Munford withdrew toward Middleburg."
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "state that they only fell back to Middleburg in obedience to Stuart's orders."
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "it is very certain that the loss of the pass at Aldie was a serious blow to the rebel cause."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 250 total; the live field reads zero. Stuart says Fitz Lee's brigade captured 134 prisoners; Doubleday relays the same Confederate claim.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Stuart's loss of 65 killed, 279 wounded and 166 missing covers Aldie, Middleburg and Upperville together (June 17–21) and is not assigned to one engagement.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA036"
+          },
+          "column": "casualties_text",
+          "quote": "250 total"
+        },
+        {
+          "source_id": "nps-va036-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.688 (OCR page markers; not checked against print)",
+          "quote": "This brigade captured 134 prisoners,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "The rebels claim to have taken 134 prisoners,"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.691 (OCR page markers; not checked against print)",
+          "quote": "Our loss in these operations was 65 killed, 279 wounded, and 166 missing."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Kilpatrick's, Gregg's, Munford's and Fitz Lee's reports and the compiled returns remain deferred.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by Meade's later chief of staff; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

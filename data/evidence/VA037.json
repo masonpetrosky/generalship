@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA037",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's June 17–21 losses and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions and the live field zero. NPS says Duffié's isolated 1st Rhode Island Cavalry was attacked on June 17 by Munford's and Robertson's brigades; Doubleday calls Duffié's command a division and says Stuart concentrated his forces against it. On June 19 NPS says J. Irvin Gregg's brigade advanced.",
+      "rationale": "The Union force on June 17 is a regiment in NPS and a division in Doubleday; no count is given. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA037"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va037-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va037-v1",
+          "locator": "Description",
+          "quote": "Col. Alfred Duffie's isolated 1st Rhode Island Cavalry Regiment was attacked by the brigades of Munford and Robertson."
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.102 (OCR page markers; not checked against print)",
+          "quote": "Colonel Duf- fle's division started from Centreville for Middleburg,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.102 (OCR page markers; not checked against print)",
+          "quote": "sent word to all his forces to con- centrate against Duffie."
+        },
+        {
+          "source_id": "nps-va037-v1",
+          "locator": "Description",
+          "quote": "On June 19, J. Irvin Gregg's brigade advanced,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "town-and-ridges",
+      "dimension": "terrain",
+      "value": "Doubleday says Duffié barricaded the streets and sheltered his men behind stone walls and barricades. Stuart says that on the 19th a woodland in front of his line exposed his charges to carbine fire, so he withdrew half a mile to a more commanding position; NPS says he fell back to a second ridge.",
+      "rationale": "Positions taken during the interval by both sides; boundaries unset and no map verification.",
+      "citations": [
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.102 (OCR page markers; not checked against print)",
+          "quote": "Duffie barricaded the streets of the town"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.102 (OCR page markers; not checked against print)",
+          "quote": "By sheltering his men behind stone walls and barricades,"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.689 (OCR page markers; not checked against print)",
+          "quote": "I withdrew my command to a more commanding position a half mile to the rear,"
+        },
+        {
+          "source_id": "nps-va037-v1",
+          "locator": "Description",
+          "quote": "fell back to a second ridge,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "shoeing-and-rain",
+      "dimension": "logistics",
+      "value": "Stuart says rough roads had already decimated his brigades for want of adequate shoeing facilities, and that continuous rain obstructed operations.",
+      "rationale": "Condition statements from the Confederate commander's report; no inspected return.",
+      "citations": [
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.689 (OCR page markers; not checked against print)",
+          "quote": "which rough roads had already decimated for want of adequate shoeing facilities,"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.690 (OCR page markers; not checked against print)",
+          "quote": "A continuous rain was also an obstacle to military operations."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "captured-dispatches",
+      "dimension": "information",
+      "value": "Stuart says Mosby captured Hooker's dispatches to Pleasonton, disclosing Hooker's concern for Aldie, a planned cavalry reconnaissance and the number of Union divisions. Doubleday says Duffié was not aware of any impediment toward Aldie.",
+      "rationale": "Attributed knowledge from Stuart's report and an interested history; the dispatches were not inspected.",
+      "citations": [
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.689 (OCR page markers; not checked against print)",
+          "quote": "caught a staff officer of General Hooker, bearer of dispatches to General Pleasonton,"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.689 (OCR page markers; not checked against print)",
+          "quote": "The captured dispatches also gave the entire number of divisions,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.102 (OCR page markers; not checked against print)",
+          "quote": "not being aware that there was any impediment in that direction."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "defensive-screen",
+      "dimension": "objectives",
+      "value": "NPS says Stuart was screening Lee's invasion route. Stuart says he did not seek a general engagement while awaiting Jones's and Hampton's brigades, and that his operations were necessarily defensive while masking the movement of Lee's main body.",
+      "rationale": "Stated aims from a summary and the Confederate commander's report; no inspected orders.",
+      "citations": [
+        {
+          "source_id": "nps-va037-v1",
+          "locator": "Description",
+          "quote": "screening Lee's invasion route,"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.689 (OCR page markers; not checked against print)",
+          "quote": "A general engagement of cavalry was not sought by me,"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.689 (OCR page markers; not checked against print)",
+          "quote": "my operations became neces- sarily defensive, but masking thereby the movement of our main body"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Doubleday relays Stuart's statement that he could not with his entire force drive the First Rhode Island from its chosen position. Stuart says he ordered Robertson to attack the enemy at Middleburg at once. The frozen commanders are Stuart, a Major General, and D. M. Gregg, a Brigadier General; the live heading gives Stuart no rank.",
+      "rationale": "Judgments are attributed; the frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.103 (OCR page markers; not checked against print)",
+          "quote": "Stuart states that he was un- able with his entire force to drive the First Rhode Island regiment from a position it had chosen,"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.688 (OCR page markers; not checked against print)",
+          "quote": "I ordered him to attack the enemy at once,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA037",
+            "belligerent": "Confederate",
+            "fullname": "J.E.B. Stuart"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA037",
+            "belligerent": "US",
+            "fullname": "David M. Gregg"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va037-v1",
+          "locator": "Principal Commanders",
+          "quote": "James Stuart [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. NPS says the 1st Rhode Island was routed on June 17, and that on June 19 Gregg drove Stuart a mile beyond the town before Stuart fell back to a second ridge still covering the Blue Ridge approaches. Doubleday says Duffié was driven out and fought his way back to Centreville.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA037"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va037-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-va037-v1",
+          "locator": "Description",
+          "quote": "The 1st Rhode Island Cavalry was routed,"
+        },
+        {
+          "source_id": "nps-va037-v1",
+          "locator": "Description",
+          "quote": "driving Stuart's cavalry one mile beyond the town."
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "loudoun",
+          "locator": "p.102 (OCR page markers; not checked against print)",
+          "quote": "at last was driven out,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 390 total; the live field reads zero. NPS says the 1st Rhode Island took about 250 casualties; Stuart says Robertson took 70 prisoners and a standard.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Stuart's loss of 65 killed, 279 wounded and 166 missing covers Aldie, Middleburg and Upperville together (June 17–21) and is not assigned to one engagement. The regiment's 250 is one part of the frozen interval.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA037"
+          },
+          "column": "casualties_text",
+          "quote": "390 total"
+        },
+        {
+          "source_id": "nps-va037-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va037-v1",
+          "locator": "Description",
+          "quote": "taking about 250 casualties."
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.688 (OCR page markers; not checked against print)",
+          "quote": "He cap tured a standard and 70 prisoners."
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-loudoun",
+          "locator": "p.691 (OCR page markers; not checked against print)",
+          "quote": "Our loss in these operations was 65 killed, 279 wounded, and 166 missing."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Duffié's, Gregg's, Robertson's and Chambliss's reports and the compiled returns remain deferred.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by Meade's later chief of staff; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

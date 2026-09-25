@@ -56,6 +56,8 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [MD001](../data/evidence/MD001.json) | 11 | 2 | 0 | 0 | draft |
 | [MD002](../data/evidence/MD002.json) | 10 | 1 | 0 | 0 | draft |
 | [MD003](../data/evidence/MD003.json) | 9 | 5 | 0 | 0 | draft |
+| [MD004](../data/evidence/MD004.json) | 9 | 1 | 0 | 0 | draft |
+| [MD006](../data/evidence/MD006.json) | 9 | 1 | 0 | 0 | draft |
 | [MO012](../data/evidence/MO012.json) | 11 | 3 | 0 | 0 | draft |
 | [MS001](../data/evidence/MS001.json) | 9 | 1 | 0 | 0 | draft |
 | [MS002](../data/evidence/MS002.json) | 10 | 1 | 0 | 0 | draft |
@@ -79,6 +81,8 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [NC009](../data/evidence/NC009.json) | 10 | 1 | 0 | 0 | draft |
 | [NC010](../data/evidence/NC010.json) | 9 | 1 | 0 | 0 | draft |
 | [NC011](../data/evidence/NC011.json) | 9 | 1 | 0 | 0 | draft |
+| [PA001](../data/evidence/PA001.json) | 9 | 1 | 0 | 0 | draft |
+| [PA002](../data/evidence/PA002.json) | 9 | 1 | 0 | 0 | draft |
 | [TN001](../data/evidence/TN001.json) | 10 | 1 | 0 | 0 | draft |
 | [TN002](../data/evidence/TN002.json) | 11 | 1 | 0 | 0 | draft |
 | [TN003](../data/evidence/TN003.json) | 62 | 3 | 40 | 26 | draft |
@@ -124,6 +128,10 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [VA032](../data/evidence/VA032.json) | 9 | 1 | 0 | 0 | draft |
 | [VA033](../data/evidence/VA033.json) | 9 | 1 | 0 | 0 | draft |
 | [VA034](../data/evidence/VA034.json) | 9 | 1 | 0 | 0 | draft |
+| [VA035](../data/evidence/VA035.json) | 9 | 1 | 0 | 0 | draft |
+| [VA036](../data/evidence/VA036.json) | 9 | 1 | 0 | 0 | draft |
+| [VA037](../data/evidence/VA037.json) | 9 | 1 | 0 | 0 | draft |
+| [VA038](../data/evidence/VA038.json) | 9 | 1 | 0 | 0 | draft |
 | [VA100](../data/evidence/VA100.json) | 10 | 3 | 0 | 0 | draft |
 | [VA101](../data/evidence/VA101.json) | 10 | 2 | 0 | 0 | draft |
 | [VA102](../data/evidence/VA102.json) | 9 | 2 | 0 | 0 | draft |
@@ -131,6 +139,8 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [VA104](../data/evidence/VA104.json) | 9 | 2 | 0 | 0 | draft |
 | [VA105](../data/evidence/VA105.json) | 10 | 3 | 0 | 0 | draft |
 | [VA106](../data/evidence/VA106.json) | 10 | 2 | 0 | 0 | draft |
+| [VA107](../data/evidence/VA107.json) | 9 | 1 | 0 | 0 | draft |
+| [VA108](../data/evidence/VA108.json) | 9 | 1 | 0 | 0 | draft |
 | [WV009](../data/evidence/WV009.json) | 10 | 4 | 0 | 0 | draft |
 | [WV010](../data/evidence/WV010.json) | 10 | 1 | 0 | 0 | draft |
 | [WV016](../data/evidence/WV016.json) | 9 | 2 | 0 | 0 | draft |
@@ -144,8 +154,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 91 engagements have dossiers; 36 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Streight's Raid first pass](../docs/research/streights-raid-first-pass-v1.md) adds the sole frozen record, Day's Gap: 9 claims, 1 explicit unknown and 41 citations from NPS/CWSAC and the Cist and Jordan and Pryor histories. Later engagements are not added and casualty disputes remain visible; separate campaign review is pending. Next take the complete ten-record Gettysburg Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 101 engagements have dossiers; 26 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Gettysburg Campaign first pass](../docs/research/gettysburg-first-pass-v1.md) adds all ten frozen records: 90 claims, 10 explicit unknowns and 320 citations from NPS/CWSAC, Doubleday, Humphreys, and Lee's and Stuart's Official Records reports. Overlapping intervals are not double counted, and disputes and casualty differences remain visible; separate campaign review is pending. Next take the complete one-record Tullahoma or Middle Tennessee Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

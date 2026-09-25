@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **91 draft dossiers / 127 engagements**, with **36 without a dossier**.
+There are **101 draft dossiers / 127 engagements**, with **26 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -250,8 +250,16 @@ found three scope and wording corrections, all fixed and
 [verified by the primary](../artifacts/review-results/streights-raid-2dfb977-opus-high-v1/primary-assessment.md).
 Coverage is **23/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Gettysburg Campaign [June-July 1863]**, the next complete frozen
-group by earliest engagement date: **ten records, VA035, VA107, VA036, VA037, VA038, PA001, PA002, MD004, MD006, VA108**.
+The [Gettysburg Campaign first pass](research/gettysburg-first-pass-v1.md) adds all **ten
+frozen records (VA035, VA107, VA036, VA037, VA038, PA001, PA002, MD004, MD006, VA108)**,
+with **90 claims, 10 explicit unknowns and 320 citations** from NPS/CWSAC, a new Doubleday
+selection, a newly pinned Humphreys history, and Lee's and Stuart's reports in newly
+pinned Official Records Volume XXVII Part 2. Overlapping intervals and multi-engagement
+loss totals are not added. Separate review is pending.
+Coverage is **24/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Tullahoma or Middle Tennessee Campaign [June 1863]**, the next complete frozen
+group by earliest engagement date: **one record, TN017**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

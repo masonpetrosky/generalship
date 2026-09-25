@@ -68,6 +68,18 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Gettysburg Campaign first pass, 2026-09-25
+
+The [ten-record memo](research/gettysburg-first-pass-v1.md) adds **28 records**,
+bringing the registry to **468 entries / 458 raw paths**, preserving the previous
+**440/430**. Ten NPS battle HTML/text pairs remain in the NPS/CWSAC family. Official
+Records Series I Volume XXVII Part 2 (Internet Archive `warofrebellion272unit`) is pinned
+with catalog metadata, full OCR, and Lee and Stuart selections, each its own independence
+group. Humphreys' *From Gettysburg to the Rapidan* (`cu31924030917177`) is pinned with
+metadata, OCR and one selection, and a new Doubleday selection reuses `doubleday-ocr-v1`.
+Character ranges and whitespace-only normalization reproduce all sections. No model
+inputs are changed.
+
 ### Chancellorsville review correction, 2026-09-25
 
 One `metadata_only` revision (CV-R1/R2) supersedes `doubleday-chancellorsville-selections-v1`

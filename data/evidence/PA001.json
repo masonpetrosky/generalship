@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "battle_id": "PA001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's June 17–21 losses and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades and the live field zero. Stuart says his column was greatly elongated by some 200 wagons and that his position was impregnable to cavalry even with so small a force; Doubleday names Kilpatrick's main body and Custer's arriving brigade. No count is given.",
+      "rationale": "No numerical opening figure is inspected. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "PA001"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-pa001-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-hanover",
+          "locator": "p.696 (OCR page markers; not checked against print)",
+          "quote": "Our position was impregnable to cavalry even with so small a force."
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "hanover",
+          "locator": "p.121 (OCR page markers; not checked against print)",
+          "quote": "The main body under Kilpatrick soon arrived and drove him out again."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "valley-town",
+      "dimension": "terrain",
+      "value": "Stuart says Hanover lay in a valley completely commanded by the heights his command held, soon crowned by his artillery.",
+      "rationale": "Ground from one interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-hanover",
+          "locator": "p.696 (OCR page markers; not checked against print)",
+          "quote": "it was in a valley completely commanded by the heights in our possession, which were soon crowned by our artillery."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "wagon-train",
+      "dimension": "logistics",
+      "value": "Stuart says the 200 wagons and hilly roads elongated his column so that Hampton was far behind, that the train was a serious embarrassment, that skirmishing had almost exhausted his ammunition, and that he held about 400 prisoners.",
+      "rationale": "Supply statements from the Confederate commander's report; no inspected return.",
+      "citations": [
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-hanover",
+          "locator": "p.695 (OCR page markers; not checked against print)",
+          "quote": "owing to the great elongation of the column by reason >f the 200 wagons and hilly roads,"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-hanover",
+          "locator": "p.696 (OCR page markers; not checked against print)",
+          "quote": "Our wagon train was now a subject of serious embarrassment,"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-hanover",
+          "locator": "p.696 (OCR page markers; not checked against print)",
+          "quote": "almost exhausted — my supply of ammunition."
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-hanover",
+          "locator": "p.696 (OCR page markers; not checked against print)",
+          "quote": "about 400 prisoners,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "army-location-unknown",
+      "dimension": "information",
+      "value": "Stuart says he was satisfied from every source and the lapse of time that the Army of Northern Virginia must be near the Susquehanna. Doubleday says Stuart turned toward Hanover to avoid Kilpatrick, whom he learned was waiting at Littlestown.",
+      "rationale": "Attributed knowledge in Stuart's report and an interested history; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-hanover",
+          "locator": "p.696 (OCR page markers; not checked against print)",
+          "quote": "that the Army of Northern Virginia must be near the Sus- quehanna."
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "hanover",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "having ascer- tained that Kilpatrick was waiting for him at the latter place,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rejoin-the-army",
+      "dimension": "objectives",
+      "value": "NPS says Stuart was riding north around the Union army and was forced by Hanover to continue north and east, further delaying his attempt to rejoin Lee. Stuart says he detoured through Jefferson for York to save his train.",
+      "rationale": "Stated aims and effects from a summary and the Confederate commander's report.",
+      "citations": [
+        {
+          "source_id": "nps-pa001-v1",
+          "locator": "Description",
+          "quote": "further delaying his attempt to rejoin Lee's army"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-hanover",
+          "locator": "p.696 (OCR page markers; not checked against print)",
+          "quote": "he was instructed to push on with the train through Jefferson for York,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Stuart says the enemy column would have been at his mercy had his command been closed up. NPS says Farnsworth's counterattack nearly captured Stuart and that Custer's brigade reinforced Farnsworth. The compiler notes that Lee bracketed a sentence of this report 'Omit, if published.' The frozen commanders are Stuart, a Major General, and Kilpatrick, a Brigadier General; the live heading gives Stuart no rank.",
+      "rationale": "Judgments and the counterfactual are attributed; the frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-hanover",
+          "locator": "p.695 (OCR page markers; not checked against print)",
+          "quote": "If my command had been well closed now, this cavalry col- imn, which we had struck near its rear, would have been at our nercy ;"
+        },
+        {
+          "source_id": "nps-pa001-v1",
+          "locator": "Description",
+          "quote": "routing the Confederate vanguard and nearly capturing Stuart himself."
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-hanover",
+          "locator": "pp.695–696 (OCR page markers; not checked against print)",
+          "quote": "Omit, if published."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "PA001",
+            "belligerent": "Confederate",
+            "fullname": "J.E.B. Stuart"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "PA001",
+            "belligerent": "US",
+            "fullname": "H. Judson Kilpatrick"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. NPS says a stalemate ensued. Doubleday says the arrival of Custer's brigade decided the fight in the Union favor and Stuart retreated; Stuart says Hampton dislodged the enemy from the town before the column moved on.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The accounts differ on who held the town at the end; none is adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "PA001"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-pa001-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-pa001-v1",
+          "locator": "Description",
+          "quote": "a stalemate ensued."
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "hanover",
+          "locator": "p.121 (OCR page markers; not checked against print)",
+          "quote": "it was finally decided in our favor by the arrival of Custer's brigade from Abbotsford."
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-hanover",
+          "locator": "p.696 (OCR page markers; not checked against print)",
+          "quote": "with his sharpshooters, dislodged the enemy from the town,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 330 total; the live field reads 228 total (US 154; CS 74;). No count is given in the inspected passages.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "PA001"
+          },
+          "column": "casualties_text",
+          "quote": "330 total"
+        },
+        {
+          "source_id": "nps-pa001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "228 total (US 154; CS 74;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Kilpatrick's, Farnsworth's, Custer's and Hampton's reports and the compiled returns remain deferred.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by Meade's later chief of staff; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "battle_id": "MD006",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's June 17–21 losses and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions and the live field zero. NPS says Confederate cavalry fought elements of the Union 1st and 3rd Cavalry Divisions and infantry; Stuart says prisoners assured him the main Union cavalry force was in his front. No count is given.",
+      "rationale": "No numerical opening figure is inspected. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD006"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-md006-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-md006-v1",
+          "locator": "Description",
+          "quote": "fought a rearguard action against elements of the Union 1st and 3rd Cavalry Divisions and infantry."
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-boonsborough",
+          "locator": "p.703 (OCR page markers; not checked against print)",
+          "quote": "Pris0nejs taken assured us the main cavalry"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "soft-ground",
+      "dimension": "terrain",
+      "value": "Stuart says the fight from Beaver Creek Bridge to the edge of Boonsborough was principally on foot, the ground being too soft from recent rains to operate mounted. NPS says the Confederate cavalry held the South Mountain passes.",
+      "rationale": "Ground from one garbled report and a summary; no map verification.",
+      "citations": [
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-boonsborough",
+          "locator": "p.703 (OCR page markers; not checked against print)",
+          "quote": "an animated fight ensued, principally on foot?"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-boonsborough",
+          "locator": "p.703 (OCR page markers; not checked against print)",
+          "quote": "the ground being entirely too soft from recent rains"
+        },
+        {
+          "source_id": "nps-md006-v1",
+          "locator": "Description",
+          "quote": "holding the South Mountain passes,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition",
+      "dimension": "logistics",
+      "value": "Stuart's OCR is heavily garbled here; an intelligible fragment mentions ammunition 'by this protracted engagement' before he retired toward Funkstown.",
+      "rationale": "Only intelligible fragments are quoted; the surrounding text is not reliable.",
+      "citations": [
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-boonsborough",
+          "locator": "p.703 (OCR page markers; not checked against print)",
+          "quote": "ammunition, by this protracted engagement,"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-boonsborough",
+          "locator": "p.703 (OCR page markers; not checked against print)",
+          "quote": "retire toward Tunkstown,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reinforcement-report",
+      "dimension": "information",
+      "value": "Stuart says he was informed that the enemy was heavily reinforced.",
+      "rationale": "One garbled report; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-boonsborough",
+          "locator": "p.703 (OCR page markers; not checked against print)",
+          "quote": "WaS infor.™ed that the enemy was heavily re-"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cover-the-retreat",
+      "dimension": "objectives",
+      "value": "Stuart says the cavalry advanced toward Boonsborough by a bold demonstration to threaten an advance and so cover the retrograde of the main body; NPS calls it a rearguard action. Humphreys says the cavalry of the two armies had spirited engagements on July 7–10 before the Union infantry advance.",
+      "rationale": "Stated aims from the Confederate commander, a summary and an interested history.",
+      "citations": [
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-boonsborough",
+          "locator": "p.703 (OCR page markers; not checked against print)",
+          "quote": "by a bold demonstration’ to threaten an advance upon the enemy, and thus cover the retro- grade of the mam body."
+        },
+        {
+          "source_id": "nps-md006-v1",
+          "locator": "Description",
+          "quote": "fought a rearguard action"
+        },
+        {
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
+          "section": "retreat-and-williamsport",
+          "locator": "p.5 (OCR page markers; not checked against print)",
+          "quote": "the cavalry of the two armies had spirited engagements that preceded the advance of the infantry columns of the Army of the Potomac."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Stuart says Jones's brigade led the advance and that McGregor's battery drove Union batteries from a hill. The frozen commanders are Stuart and Pleasonton, both Major Generals; the live heading gives Stuart no rank.",
+      "rationale": "Subordinate roles from a garbled report; the frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-boonsborough",
+          "locator": "p.703 (OCR page markers; not checked against print)",
+          "quote": "the advance under General Jones encountering the enemy on the Boonsborough road at Beaver Creek Bridge,"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-boonsborough",
+          "locator": "p.703 (OCR page markers; not checked against print)",
+          "quote": "the Napoleons of McGregor’s batterv"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MD006",
+            "belligerent": "Confederate",
+            "fullname": "J.E.B. Stuart"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MD006",
+            "belligerent": "US",
+            "fullname": "Alfred Pleasonton"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-md006-v1",
+          "locator": "Principal Commanders",
+          "quote": "James Stuart [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Stuart says the move succeeded as a demonstration and that he later retired toward Funkstown; NPS calls it one of a series of cavalry combats around Boonsboro, Hagerstown and Williamsport.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Boonsboro lies inside Williamsport's frozen interval (MD004).",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD006"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-md006-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or27-2-stuart-gettysburg-selections-v1",
+          "section": "stuart-1863-08-20-boonsborough",
+          "locator": "p.703 (OCR page markers; not checked against print)",
+          "quote": "The move was successful,"
+        },
+        {
+          "source_id": "nps-md006-v1",
+          "locator": "Description",
+          "quote": "This action was one of a series of cavalry combats fought around Boonsboro, Hagerstown, and Williamsport."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 100 total; the live field reads 1078 total (US 158; CS 920;). No count is given in the inspected passages.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live figure is roughly ten times the frozen one; neither is adopted, and neither is added to MD004.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD006"
+          },
+          "column": "casualties_text",
+          "quote": "100 total"
+        },
+        {
+          "source_id": "nps-md006-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1078 total (US 158; CS 920;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Stuart's garbled OCR, Pleasonton's, Buford's and Kilpatrick's reports and the returns remain deferred.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by Meade's later chief of staff; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

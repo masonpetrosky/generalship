@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "battle_id": "PA002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's June 17–21 losses and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen structured bounds (US 83,289; CS 75,054) are imported source-reported forces-engaged figures and remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads 158,300 total (US 83,289; CS 75,054), with a frozen strength of 158300; the side figures sum to 158,343 (a computation here), which the live field gives. Doubleday says the Confederates had three corps to the Union seven. Lee writes of largely superior numbers on July 1 and of fresh troops in overwhelming numbers.",
+      "rationale": "The frozen total does not match its own components; the relative statements are not counts. None is adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "PA002"
+          },
+          "column": "forces_text",
+          "quote": "158,300 total (US 83,289; CS 75,054)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "PA002"
+          },
+          "column": "strength",
+          "quote": "158300"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "PA002",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "83289"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "PA002",
+            "belligerent": "Confederate"
+          },
+          "column": "strength_min",
+          "quote": "75054"
+        },
+        {
+          "source_id": "nps-pa002-v1",
+          "locator": "Forces Engaged",
+          "quote": "158343 total (US 83289; CS 75054;)"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "armies-on-july-1",
+          "locator": "p.125 (OCR page markers; not checked against print)",
+          "quote": "the enemy had but tliree corps, while the Union army had seven."
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.317 (OCR page markers; not checked against print)",
+          "quote": "encountered largely superior num- bers,"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "overwhelming numbers of fresh troops."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "ridge-and-works",
+      "dimension": "terrain",
+      "value": "Lee says the Union army held a strong position on commanding elevations and a steep ridge, protected by stone and rail fences, with open, undulating ground in front for about three-quarters of a mile, and that earthworks had greatly increased the strength of the positions Johnson and Early attacked.",
+      "rationale": "Ground combined with works built during the interval; boundaries unset and no map verification.",
+      "citations": [
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "The enemy occupied a strong position, with his right upon two com- manding elevations adjacent to each other,"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "Numerous stone and rail fences along the slope served to afford protection to his troops and impede our advance."
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "the ground was undulating and generally open for about three-quarters of a mile."
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.319 (OCR page markers; not checked against print)",
+          "quote": "The enemy had greatly increased by earthworks the strength of the positions assailed by Johnson and Early."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supplies-and-ammunition",
+      "dimension": "logistics",
+      "value": "Lee says the country was unfavorable for collecting supplies in the enemy's presence, that his batteries had nearly exhausted their ammunition before the July 3 infantry advance, and that the reduction of ammunition was one reason for withdrawing. Doubleday says Lee had but few rounds for his cannon on the retreat.",
+      "rationale": "Supply statements from the Confederate commander and an interested history; no inspected ordnance return.",
+      "citations": [
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "the country was unfavorable for collecting supplies in the presence of the enemy,"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.321 (OCR page markers; not checked against print)",
+          "quote": "Our own having nearly exhausted their ammunition in the protracted cannonade"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "the reduction of its ammunition,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "pursuit-and-losses",
+          "locator": "p.209 (OCR page markers; not checked against print)",
+          "quote": "he had but few rounds for his cannon,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "absent-cavalry",
+      "dimension": "information",
+      "value": "Lee says that without his cavalry he could not ascertain the Union army's intentions, that the enemy's advance to Gettysburg was unknown, that the army's movements had been much embarrassed by the cavalry's absence, and that the exhaustion of his artillery ammunition on July 3 was unknown to him when the assault began.",
+      "rationale": "The commander's own account of his information; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.316 (OCR page markers; not checked against print)",
+          "quote": "In the absence of the cavairy, it was im- possible to ascertain his intentions ;"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.317 (OCR page markers; not checked against print)",
+          "quote": "The advance of the enemy to the latter place was unknown,"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.321 (OCR page markers; not checked against print)",
+          "quote": "haa been much embarrassed by the absence of the cavalry."
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.321 (OCR page markers; not checked against print)",
+          "quote": "Owing to this fact, which was unknown to me when the assault took place"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "unintended-battle",
+      "dimension": "objectives",
+      "value": "Lee says he had not intended a general battle so far from his base unless attacked, but that, having come unexpectedly on the whole Federal army, a battle had become in a measure unavoidable; he chose to attack the Union left and, on July 3, the left center.",
+      "rationale": "Lee's stated reasoning is his own report; no inspected orders.",
+      "citations": [
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "It had not been intended to deliver a general battle so far from our base unless attacked,"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "A battle had, therefore, become in a measure un- avoidable,"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "It was determined to make the principal attack upon the enemy s left,"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.321 (OCR page markers; not checked against print)",
+          "quote": "the main attack being directed against the enemy’s left center."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Lee says Ewell was told to carry the hill if practicable but chose to await Johnson, that Rodes was not ready to support Early on July 2, and that Longstreet's dispositions on July 3 were not completed as early as expected. Doubleday says Pickett, seeing his men surrendering in masses, ordered a retreat. The frozen commanders are Meade, a Major General, and Lee, a General; the live heading ranks Lee Major General.",
+      "rationale": "Judgments are attributed; the frozen commanders do not receive automatic sole credit. The heading rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "General Ewell was, there- fore, instructed to carry the hill occupied by the enemy, if he found it practicable,"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "He decided to await Johnson’s division,"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.319 (OCR page markers; not checked against print)",
+          "quote": "General Rodes, not having his troops in posi- tion, was unprepared to co-operate with General Early,"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.320 (OCR page markers; not checked against print)",
+          "quote": "General Longstreet’s dispositions were not completed as early as was expected,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "pickett-repulse",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "He saw his men surren- dering in masses, and, with a heart full of anguish, ordered a retreat."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "PA002",
+            "belligerent": "US",
+            "fullname": "George G. Meade"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "PA002",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-pa002-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Lee says his July 3 assault was driven back with heavy loss, and that the severe loss and reduced ammunition made another attempt inadvisable, so he determined to withdraw. Doubleday says more prisoners were taken on Webb's front than twice Webb's brigade, with 6 battle-flags and 1,463 muskets.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "PA002"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-pa002-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.321 (OCR page markers; not checked against print)",
+          "quote": "driven back with heavy loss."
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "rendered another attempt to dislodge the enemy inadvisable, and it was, therefore, determined to withdraw."
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "pickett-repulse",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "more prisoners were taken than twice Webb's brigade ;"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "pickett-repulse",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "6 battle-flags, and 1,463 muskets were also gathered in."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty texts read 51,000 total (US 23,000; CS 28,000). Doubleday relays the Count of Paris's estimates for the whole campaign: 23,186 Union and 22,728 Confederate. Lee says more than 5,000 prisoners were taken on July 1, and Doubleday that Pettigrew's division reportedly lost 2,000 prisoners on July 3.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The Count of Paris's figures span the whole campaign and are not assigned to this battle.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "PA002"
+          },
+          "column": "casualties_text",
+          "quote": "51,000 total (US 23,000; CS 28,000)"
+        },
+        {
+          "source_id": "nps-pa002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "51000 total (US 23000; CS 28000;)"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "pursuit-and-losses",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "The Union loss in this campaign is estimated by the Count of Paris,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "pursuit-and-losses",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "total, 23,186."
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "pursuit-and-losses",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "total, 22,728."
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-gettysburg",
+          "locator": "p.317 (OCR page markers; not checked against print)",
+          "quote": "More than 5,000 prisoners,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "pickett-repulse",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "Pettigrew's division, it is said, lost 2,000 prisoners and 15 battle-flags on the left."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Meade's and the corps reports, Longstreet's and Ewell's reports, the returns and Doubleday's own First Corps role remain deferred; Doubleday is an interested participant.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by Meade's later chief of staff; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

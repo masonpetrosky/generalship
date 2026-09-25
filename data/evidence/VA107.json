@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA107",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's June 17–21 losses and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen structured bounds (US 7,000; CS 12,500) are imported source-reported figures and remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads 19,500 total (US 7,000; CS 12,500), with matching structured bounds, and the live field agrees. Doubleday calls Milroy's garrison very considerable and says a prisoner told Milroy he faced Ewell's corps; Lee says more than 2,300 infantry surrendered to Johnson, more than the force Johnson engaged.",
+      "rationale": "Imported bounds are unchanged; the report figures are not opening strengths.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA107"
+          },
+          "column": "forces_text",
+          "quote": "19,500 total (US 7,000; CS 12,500)"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "VA107",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "7000"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "VA107",
+            "belligerent": "Confederate"
+          },
+          "column": "strength_min",
+          "quote": "12500"
+        },
+        {
+          "source_id": "nps-va107-v1",
+          "locator": "Forces Engaged",
+          "quote": "19500 total (US 7000; CS 12500;)"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.88 (OCR page markers; not checked against print)",
+          "quote": "a veiy considerable Union gar- rison intrenched at Winchester."
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.91 (OCR page markers; not checked against print)",
+          "quote": "From a prisoner captured in this skirmish Milroy learned"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.91 (OCR page markers; not checked against print)",
+          "quote": "he was confronted by Ewell's corps"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-winchester",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "amounting to more than 2,300 men,"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-winchester",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "The number of prisoners taken in this action exceeded the force en- gaged under General Johnson,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forts-and-ridges",
+      "dimension": "terrain",
+      "value": "Doubleday says Milroy's main forts stood on Applebie Ridge, with rifle-pits begun on Flint Ridge to command the western roads. Lee says Early found an intrenched position northwest of the town that would command the main fortifications, and that its loss made the others untenable.",
+      "rationale": "Pre-existing works, as described by an interested history and the opposing commander; no map verification.",
+      "citations": [
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.91 (OCR page markers; not checked against print)",
+          "quote": "on which the main forts were situated,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.92 (OCR page markers; not checked against print)",
+          "quote": "rifle pits had been commenced to command the Pughtown and Eomney roads."
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-winchester",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "discovered would command the principal fortifications."
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-winchester",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "The loss of the advanced works, however, rendered the others untenable,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-rations",
+      "dimension": "logistics",
+      "value": "Doubleday says Milroy's cannon ammunition was nearly exhausted and he had but one day's rations, so he abandoned his trains and artillery to break out. Lee says the operations captured 28 guns, about 300 wagons and many stores.",
+      "rationale": "Supply statements from an interested history and the opposing commander; no inspected return.",
+      "citations": [
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.93 (OCR page markers; not checked against print)",
+          "quote": "His cannon ammunition was nearly exhausted, and he had but one day's rations for his men."
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.93 (OCR page markers; not checked against print)",
+          "quote": "to abandon his wagon train and artillery,"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-winchester",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "28 pieces of superior artillery,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "uninformed-garrison",
+      "dimension": "information",
+      "value": "Doubleday says Milroy could not believe an entire Confederate corps was near him because his superiors had not told him that much of Lee's army had moved to Culpeper, and that the enemy cut the wires before he received an answer to his request for orders.",
+      "rationale": "Attributed knowledge from an interested history; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.89 (OCR page markers; not checked against print)",
+          "quote": "He could not believe it possible that an entire rebel corps was near him,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.89 (OCR page markers; not checked against print)",
+          "quote": "His superiors had not informed him, as they should have done by telegraph, that a large part of it had moved to Culpeper."
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.89 (OCR page markers; not checked against print)",
+          "quote": "As the enemy soon after cut the wires, he never received any answer."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "clear-the-valley",
+      "dimension": "objectives",
+      "value": "NPS says Lee ordered Ewell to clear the lower Shenandoah Valley. Lee says the operations expelled the enemy from the Valley; Doubleday says the garrison had to be cleared for Lee's advance and that Milroy remonstrated against withdrawing.",
+      "rationale": "Stated aims from a summary, the opposing commander and an interested history; no inspected orders.",
+      "citations": [
+        {
+          "source_id": "nps-va107-v1",
+          "locator": "Description",
+          "quote": "to clear the lower Shenandoah Valley of Union opposition."
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-winchester",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "These operations resulted in the expulsion of the enemy from the Valley ;"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.89 (OCR page markers; not checked against print)",
+          "quote": "Mili'oy remonstrated,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Lee credits Early's attack on the northwest works and Johnson's interception at Stephenson's Depot. Doubleday says Milroy's column split in the retreat through misunderstanding. The frozen and live commanders are Milroy, a Brigadier General, and Ewell, a Lieutenant General.",
+      "rationale": "Subordinate roles and judgments are attributed; the frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-winchester",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "Hays’ brigade then advanced to the assault, and carried the works by storm,"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-winchester",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "where he took a favorable position on the Martinsburg road,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "through some misunderstanding, filed to the left,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA107",
+            "belligerent": "US",
+            "fullname": "Robert Milroy"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA107",
+            "belligerent": "Confederate",
+            "fullname": "Richard S. Ewell"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. NPS says more than 2,400 Federals surrendered; Lee says Milroy fled to Harper's Ferry with a small party; Doubleday says portions escaped to Harper's Ferry and by the Bath road while Ely's and McReynolds's brigades were largely captured.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA107"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va107-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-va107-v1",
+          "locator": "Description",
+          "quote": "More than 2,400 Federals surrendered."
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-winchester",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "General Milroy, with a small party of fugitives, fled to Harper’s Ferry."
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "A portion of the command who were not pursued reached Harper's Ferry"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "Those who moved out on the Bath road also made good their escape,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "The greater part of Colonel Ely's brigade, and Colonel McKey- nolds's brigade, however, were caj^tured."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty texts read 4,709 total (US 4,443; CS 266). Lee gives the Confederate loss as 47 killed, 219 wounded and 3 missing, and 4,000 prisoners taken in all the Valley operations. Doubleday relays Milroy's claim to have brought off 5,000 men, Early's 3,358 prisoners sent to Richmond and Johnson's 2,800.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Lee's totals include Martinsburg and other Valley operations; prisoner counts differ by reporter.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA107"
+          },
+          "column": "casualties_text",
+          "quote": "4,709 total (US 4,443; CS 266)"
+        },
+        {
+          "source_id": "nps-va107-v1",
+          "locator": "Estimated Casualties",
+          "quote": "4709 total (US 4443; CS 266;)"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-winchester",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "Our entire loss was 47 killed, 219 wounded, and 3 missing."
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-winchester",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "the capture of 4,000 prisoners,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "Milroy claims to have brought off 5,000 men of the garrison,"
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "Early says he sent 108 officers and 3,250 enlisted men as prisoners to Richmond."
+        },
+        {
+          "source_id": "doubleday-gettysburg-selections-v1",
+          "section": "winchester",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "Johnson, who intercepted the retreat, says he captured 2,800 prisoners,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Ewell's, Early's, Johnson's and Milroy's reports and the Winchester court of inquiry remain deferred.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by Meade's later chief of staff; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

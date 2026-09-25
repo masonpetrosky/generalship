@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "battle_id": "MD004",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all ten frozen records in the Gettysburg Campaign [June-July 1863]. Preserve per-engagement dates. Middleburg (June 17–19) overlaps Aldie (June 17), and Boonsboro (July 8) lies inside Williamsport's frozen interval (July 6–16); campaign-wide and multi-day totals (for example Stuart's June 17–21 losses and the Count of Paris's campaign estimates) must not be assigned to one engagement or added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions and the live field zero. Humphreys says a July 5 field return showed the seven Union infantry corps totaling 47,087 enlisted men armed and equipped, joined by French's division of 6,500 on July 8 and W. F. Smith's four or five thousand on July 11. No Confederate count is given.",
+      "rationale": "A post-battle Union return and later reinforcements are not a matched opening strength. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD004"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-md004-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
+          "section": "retreat-and-williamsport",
+          "locator": "p.1 (OCR page markers; not checked against print)",
+          "quote": "the total of the seven amounting to 47,087 enlisted men armed and equipped."
+        },
+        {
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
+          "section": "retreat-and-williamsport",
+          "locator": "p.4 (OCR page markers; not checked against print)",
+          "quote": "General French, with a division of 6,500 men, joined the Army of the Potomac on the 8th,"
+        },
+        {
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
+          "section": "retreat-and-williamsport",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "with a force of four or five thousand men,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "intrenched-position",
+      "dimension": "terrain",
+      "value": "Lee says the army took a previously selected position covering the Potomac from Williamsport to Falling Waters. Humphreys says the position ran along high ground, was strongly intrenched, and had secure flanks, part of it concealed from view.",
+      "rationale": "Positions prepared within the interval by the retreating army; boundaries unset and no map verification.",
+      "citations": [
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-retreat",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "took a position previously selected, covering the Potomac from | Williamsport to Falling Waters,"
+        },
+        {
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
+          "section": "retreat-and-williamsport",
+          "locator": "p.5 (OCR page markers; not checked against print)",
+          "quote": "The position taken by Lee ran along a range of high ground, and was strongly intrenched."
+        },
+        {
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
+          "section": "retreat-and-williamsport",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "its flanks were secure and could not be turned."
+        },
+        {
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
+          "section": "retreat-and-williamsport",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "much of it was concealed from view."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "river-and-bridge",
+      "dimension": "logistics",
+      "value": "Lee says the rains had made the Potomac unfordable and that the pontoon bridge at Falling Waters had been partly destroyed, so a new bridge was built; he also cites difficulty procuring flour. Humphreys says French's cavalry detachment destroyed the bridge during the battle of Gettysburg.",
+      "rationale": "Supply and crossing statements from the Confederate commander and an interested history; no inspected return.",
+      "citations": [
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-retreat",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "the pontoon bridge left at Falling Waters had been partially destroyed by the enemy."
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-retreat",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "it was found difficult to procure a sufficient supply of flour for the troops,"
+        },
+        {
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
+          "section": "retreat-and-williamsport",
+          "locator": "p.4 (OCR page markers; not checked against print)",
+          "quote": "the ponton bridge had been partially destroyed by a cavalry detachment sent for the purpose by General French from Frederick during the battle of Gettysburg."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-and-council",
+      "dimension": "information",
+      "value": "Humphreys says Meade examined the position closely but found much of it concealed, and that his corps commanders' opinion was so adverse to the planned operation that he postponed it for a closer examination. Lee says the enemy showed no disposition to attack but threw up intrenchments.",
+      "rationale": "Attributed knowledge and council opinion from an interested history and the Confederate commander.",
+      "citations": [
+        {
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
+          "section": "retreat-and-williamsport",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "But their opinion was found to be so adverse to the proposed operation, that General Meade postponed it until he could examine the position of the enemy more closely."
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-retreat",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "manifesting no disposition to attack, but throwing up intrenchments along his whole line."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cross-or-attack",
+      "dimension": "objectives",
+      "value": "Lee says that because delay would let the enemy gain reinforcements, he determined to await an attack no longer and to cross. Humphreys says Meade determined to make a reconnaissance in force supported by the whole army and attack where weakest.",
+      "rationale": "Stated aims from the two commanders' sides; no inspected orders.",
+      "citations": [
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-retreat",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "it was determined to await an attack no longer."
+        },
+        {
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
+          "section": "retreat-and-williamsport",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "make a reconnoissance in force, supported by the whole army, feel the enemy, and attack him where weakest"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Meade was greatly blamed for not attacking but that a later survey showed an assault would have failed disastrously. Lee says Pettigrew was mortally wounded when Union cavalry was mistaken for Confederate cavalry. The frozen commanders are Lee, a General, and Meade, a Major General; the live heading ranks Lee Major General.",
+      "rationale": "Humphreys was Meade's later chief of staff; his defense of Meade is attributed. The frozen commanders do not receive automatic sole credit, and the heading rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
+          "section": "retreat-and-williamsport",
+          "locator": "p.7 (OCR page markers; not checked against print)",
+          "quote": "A careful survey of the intrenched position of the enemy was made, and showed that an assault upon it would have resulted disastrously to us."
+        },
+        {
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
+          "section": "retreat-and-williamsport",
+          "locator": "p.7 (OCR page markers; not checked against print)",
+          "quote": "General Meade was, at the time, greatly blamed for not attacking it,*"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-retreat",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General Pettigrew, an officer of great merit and promise, was mortally wounded in the encounter."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MD004",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-md004-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MD004",
+            "belligerent": "US",
+            "fullname": "George G. Meade"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Humphreys says the Confederates withdrew on the night of the 13th and that Buford's and Kilpatrick's cavalry attacked the rear guard at Falling Waters, taking two guns, three flags and many prisoners; Lee says the crossing was completed by 1 p.m.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD004"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-md004-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
+          "section": "retreat-and-williamsport",
+          "locator": "p.7 (OCR page markers; not checked against print)",
+          "quote": "the enemy had withdrawn on the night of the 13th,"
+        },
+        {
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
+          "section": "retreat-and-williamsport",
+          "locator": "p.7 (OCR page markers; not checked against print)",
+          "quote": "brought back two guns, three battle-flags and many prison- ers,"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-retreat",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "die passage of the river was completed by 1 p. m."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,730 total; the live field reads 654 total (US 400; CS 254;). Lee says those taken during the crossing were supposed to be about 500, mostly exhausted men; Humphreys says a large part of the prisoners taken at Falling Waters were, doubtless, stragglers.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Boonsboro (MD006) lies inside this interval; its figures must not be added.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD004"
+          },
+          "column": "casualties_text",
+          "quote": "1,730 total"
+        },
+        {
+          "source_id": "nps-md004-v1",
+          "locator": "Estimated Casualties",
+          "quote": "654 total (US 400; CS 254;)"
+        },
+        {
+          "source_id": "or27-2-lee-gettysburg-selections-v1",
+          "section": "lee-retreat",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "supposed to mount m all to about 500)"
+        },
+        {
+          "source_id": "humphreys-gettysburg-rapidan-selections-v1",
+          "section": "retreat-and-williamsport",
+          "locator": "p.7 (OCR page markers; not checked against print)",
+          "quote": "a large part of whom were, doubtless, stragglers."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Meade's, Buford's, Kilpatrick's, Imboden's and Stuart's accounts of the July 6–14 actions and the returns remain deferred.",
+    "NPS/CWSAC is one family. Doubleday is an interested participant history (he commanded the First Corps at Gettysburg) and Humphreys an interested history by Meade's later chief of staff; both drew on official papers. Lee's and Stuart's reports, printed in Official Records Series I, Volume XXVII, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
