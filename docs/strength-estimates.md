@@ -7,7 +7,9 @@ the finding that strict admission yields almost no new rows
 
 This text applies the required corrections R1–R10 of the separate
 [design review](../artifacts/review-results/strength-estimates-design-fff4103-opus-high-v1/review.md)
-of `fff4103`, with advisories A1–A7 adopted.
+of `fff4103`, with advisories A1–A7 adopted, and S1–S7 of the focused
+[follow-up review](../artifacts/review-results/strength-estimates-followup-0e5800b-opus-high-v1/review.md)
+of `0e5800b`, with advisories B1–B5 adopted.
 
 This design adds an **estimate layer**. It sits beside the
 [feature-admission contract](feature-admission.md) and the
@@ -84,23 +86,38 @@ may already know the outcomes, and contract §4 says blinding cannot be claimed 
 The grades are fixed now, before any estimate is made.
 
 **Classification rule.** Each input takes its class from the first matching row below,
-using its tier-2 §3 coding and derivation. The labels of every matching row apply (§5). The
-class never depends on the figure's value, on the other side or on the outcome.
+testing row 1, then row 5, then rows 2–4 and 6–8 in order, using its tier-2 §3 coding,
+its derivation and the §3 loss and adjustment fields. A one-sided or partial input is
+therefore bound-only whatever else it matches; its other matching rows decide only whether
+§4 rule 7 may apply it. The labels of every matching row apply (§5). The class never
+depends on the figure's value, on the other side or on the outcome.
 
 | Row | Input condition (tier-2 §3 codes) | Class |
 | --- | --- | --- |
 | 1 | `other_engagement` (including composite entries spanning several frozen records or a campaign), `unreadable_value`, `post_outcome_claim` | Not usable; recorded with its reason |
 | 2 | `adversary_or_hearsay_estimate`, including a compiled figure whose cited basis is visibly an opponent's estimate | C, `opponent_or_hearsay` |
-| 3 | A value that uses losses, captures, surrenders or survivors of this engagement or of a later one, or a return state-dated after the frozen start date (`post_engagement_state`, with tier-2 §3 item 2's earlier-date exception) | C, `post_start_information` |
+| 3 | A value that uses losses, captures, surrenders or survivors of any engagement that the passage does not date entirely before the frozen start date (this engagement, a later one, or an undated one), whether the source or we made the adjustment (`loss_timing: not_prior`); or a return state-dated after the frozen start date (`post_engagement_state`, with tier-2 §3 item 2's earlier-date exception) | C, `post_start_information` |
 | 4 | `scope_unresolved`, `engagement_link_unknown`, `interval_unresolved` or `source_role_unresolved` | C, `applicability_unresolved` |
 | 5 | `one_sided_bound`; `partial_scope` or `partial_interval` (a part of the side's force or of the interval), including a sum of components not shown to cover the whole force | Bound only (§4 rule 7); never a candidate value |
 | 6 | Two or more of the row 7 conditions | C |
-| 7 | Exactly one of: `basis_unknown`; adding or subtracting losses only from engagements that ended before the frozen start date, each loss figure quoted; a completed sum under §4 rule 6; conversion between bases using a ratio quoted for this side in this engagement | B |
+| 7 | Exactly one of: `basis_unknown`; losses added or subtracted only from engagements that the passage dates entirely before the frozen start date (`loss_timing: prior_engagements_only`), by the source or by us, with each loss figure quoted as its own input when we make the adjustment; a completed sum under §4 rule 6; conversion between bases using a ratio quoted for this side in this engagement | B |
 | 8 | Tier-2-applicable (that design's §3) with no condition above. `derivation_unknown` and `estimation_status_unknown` are labels here, not exclusions | A |
 
 **Source-printed conversions.** A figure that a source itself prints after a stated
 conversion (for example, a stated percentage of a return) is that source's figure. It is
 classed on its other attributes.
+
+**Loss and adjustment fields.** The tier-2 codes do not separate rows 3, 7 and 8, so each
+input also records:
+
+- `loss_timing`: `none`, `prior_engagements_only` or `not_prior`. An input coded
+  `derived_from_losses`, or whose passage shows losses, captures, surrenders or survivors
+  added or subtracted, is `prior_engagements_only` only if the passage dates every such
+  loss before the frozen start date; otherwise it is `not_prior`.
+- `adjustments`: each adjustment we apply, with its kind (`completed_sum`, `prior_loss`
+  or `quoted_ratio`) and the input IDs of its quoted operands. An adjustment that the
+  source itself made is not listed here. It is classed through `loss_timing` or the
+  source-printed conversion rule above.
 
 **Grade D.** Grade D is a side-level status: the side has no input of class A, B or C. Its
 point, low and high are null (§4 rule 8).
@@ -113,17 +130,38 @@ point, low and high are null (§4 rule 8).
 All arithmetic uses exact rationals (Python `fractions.Fraction`) on the recorded inputs.
 Only rule 9 rounds.
 
-1. **Candidate values.** Each class A, B or C input has one candidate value: its printed
-   value, or the midpoint of printed two-sided bounds, after the single adjustment its class
-   allows (§3 row 7). Bound-only and unusable inputs have no candidate value.
-2. **Dependent inputs count once.** These form one candidate, taken from the member with the
-   lowest source ID:
-   - inputs from one underlying document (the same `same_document_key`, registry aliases,
-     or transcript/facsimile pairs);
-   - inputs recorded as a reproduction of another input with the same printed value.
+1. **Candidate values.** Each class A, B or C input has one candidate value. Its starting
+   value is its printed value, the midpoint of its printed two-sided bounds, or, for a
+   `completed_sum`, the sum of its operands' values. The script then applies the other
+   adjustments in its `adjustments` field (§3) in the fixed order `prior_loss`, then
+   `quoted_ratio`. Class B allows one listed adjustment or condition (§3 row 7); more make
+   the input class C (§3 row 6). Bound-only and unusable inputs have no candidate value.
+2. **Dependent inputs count once.** Class A, B and C inputs for one side form one
+   dependence group when any of these links them; links are transitive:
+   - they come from one underlying document (the same `same_document_key`, registry
+     aliases, or transcript/facsimile pairs) and give the same printed value on the same
+     basis;
+   - one is recorded as a reproduction of the other with the same printed value;
+   - one comes from a source whose registry `independence_group` is `nps-cwsac` and the
+     other from `livermore-numbers-losses`, and their printed values are equal, whatever
+     bases they record (scoping memo, finding 2).
 
-   Other agreement, including NPS/CWSAC with Livermore, is not corroboration and never raises
-   a grade (contract §5).
+   A group is one candidate with that value. §3 is applied to the union of its members'
+   conditions: the group takes the class of the first row that union matches and carries
+   every member's labels. If any member is unusable (§3 row 1) or bound-only (§3 row 5),
+   so is the group. When members record different bases, the group's basis is `unknown`
+   and the union includes `basis_unknown`; otherwise it keeps the members' basis. The
+   group cites the member with the lowest source ID and lists the others. Figures from one
+   document on different bases, or with different values, stay separate candidates.
+
+   A Livermore figure is cited from the registered transcription of its page image
+   (`livermore-transcription-v1`, transcribed from `livermore-p{N}-image-v1`), never from the
+   OCR text (`livermore-ocr-v1`), because the OCR runs note markers into figures (scoping
+   memo). The OCR is listed in the inventory only. (The follow-up review's text named the
+   page image itself; images carry no quotable text, so the registered transcription of
+   them is cited instead.)
+
+   Other agreement is not corroboration and never raises a grade (contract §5).
 3. **Point.**
    - Take the candidates of the best class present: A, then B, then C.
    - Within class C, drop the `opponent_or_hearsay` candidates if any other candidate exists.
@@ -135,8 +173,11 @@ Only rule 9 rounds.
    - The point is the median of their values. With an even count, it is the lower middle
      value.
    - If only `opponent_or_hearsay` candidates remain, rule 4 applies instead.
-4. **Opponent or hearsay only.** Let M be the median of those candidates (the lower middle
-   value for an even count), and let min and max be the smallest and largest candidates.
+4. **Opponent or hearsay only.** Keep the `opponent_or_hearsay` candidates of the first
+   basis present in the rule 3 order; that basis is `point_basis`. Let M be the median of
+   the kept candidates (the lower middle value for an even count). Let min and max be the
+   smallest and largest `opponent_or_hearsay` candidates whose basis is `point_basis` or
+   `unknown`.
    Then:
    - point = 3/4 × M;
    - low = 1/2 × min;
@@ -153,8 +194,8 @@ Only rule 9 rounds.
    - Let the margin m be 1/20 for grade A, 3/20 for B and 3/10 for C. These are declared
      conventions.
    - Then low = hull minimum × (1 − m) and high = hull maximum × (1 + m).
-   - An `opponent_or_hearsay` candidate larger than high becomes high. Such a candidate never
-     lowers `low` or sets the point.
+   - An `opponent_or_hearsay` candidate whose basis is `point_basis` or `unknown` and that is
+     larger than high becomes high. Such a candidate never lowers `low` or sets the point.
    - Candidates on other stated bases are recorded but do not enter the point or the range.
 6. **Partial completion.** Our own sum is allowed only under contract §5:
    - the components must be evidenced as disjoint;
@@ -178,7 +219,8 @@ Only rule 9 rounds.
    point, low and high are null. Its reason and any bounds are recorded. There is no
    imputation.
 9. **Rounding.** Point, low and high are rounded to the nearest 10, with halves rounded
-   upward, after rules 1–8. Rounding is a presentation convention. It does not imply that the
+   upward, after rules 1–8. A `low` that would round below 10 is set to 10, and the side is
+   labelled `floor_applied` (B5). Rounding is a presentation convention. It does not imply that the
    sources support precision to ten people. §6 uses the stored, rounded values.
 
 The rules are applied by a script from the recorded inputs, so every point and range can be
@@ -190,18 +232,24 @@ allowed.
 | Label | When it applies |
 | --- | --- |
 | `whole_engagement_leakage` | Always (§1). |
-| `post_start_information` | Any candidate used for the point or range is class C under §3 row 3: losses, captures, surrenders or survivors of this or a later engagement, or a post-start return. |
+| `post_start_information` | Any candidate used for the point or range matches §3 row 3, whatever row set its class: losses, captures, surrenders or survivors of an engagement not dated entirely before the frozen start date, or a post-start return. |
 | `opponent_estimate_point` | §4 rule 4 applies. |
-| `applicability_unresolved` | A candidate used for the point is class C under §3 row 4. |
+| `applicability_unresolved` | A candidate used for the point or range matches §3 row 4, whatever row set its class (extended to the range per B1). |
 | `partial_completed` | A candidate used for the point is a §4 rule 6 sum. |
 | `derivation_unknown` | A candidate used for the point or range carries tier-2's `derivation_unknown` label. An undisclosed loss-based reconstruction cannot be ruled out. |
 | `estimation_status_unknown` | A candidate used for the point carries that tier-2 label. |
 | `bound_conflict` | §4 rule 7. |
 | `basis_mixed` | The two sides' `point_basis` values differ, or either is `unknown`. |
-| `single_input` | One candidate (after §4 rule 2) determines the side. |
-| `compiled_dependence` | A candidate used for the point comes from the NPS/CWSAC or Livermore families (scoping memo, finding 2). The registered Livermore IDs are `livermore-ocr-v1` and `livermore-p{N}-image-v1`; A7. |
+| `single_input` | Exactly one candidate (after §4 rule 2) enters the side's point and range under §4 rule 4 or 5. |
+| `compiled_dependence` | A candidate used for the point, or any member of its §4 rule 2 group, cites a source whose registry `independence_group` is `nps-cwsac` or `livermore-numbers-losses` (scoping memo, finding 2; A7). The registered Livermore IDs are `livermore-ocr-v1`, `livermore-p{N}-image-v1` and `livermore-transcription-v1`. |
+| `floor_applied` | §4 rule 9 raised `low` to 10. |
 
 The script derives every label mechanically from the recorded codes.
+
+**Declared consequences (B3).** Opponent estimates often have no stated basis. Then
+`point_basis` is `unknown`, and an own-side bound on a stated basis never applies. An own
+lower bound above a rule 4 point is set aside as `bound_conflict`. Both follow from the rule
+that bounds never move the point.
 
 ## 6. Use in evaluation
 
@@ -251,8 +299,9 @@ the evaluation under a separately reviewed admission profile. Outputs never ente
     0.25 for equal odds.
   - **Common rows** have both a frozen baseline row and an estimate row. In each fold, both
     models are fit only on common training rows and scored on the same held-out rows. Common
-    rows whose estimate points equal the frozen values are reported as identical by
-    construction.
+    rows whose estimate points equal the frozen values on both sides before §4 rule 9
+    rounding are reported as identical by construction; their fitted inputs differ from the
+    frozen values only by that rounding, and the report says so.
   - **Newly covered rows** are compared only with equal odds and the prior.
   - Results from different row sets, grade subsets or sensitivity variants are never
     compared as improvements. At these row counts, no difference is presented as significant
@@ -280,7 +329,9 @@ the evaluation under a separately reviewed admission profile. Outputs never ente
   - its locator and exact quote;
   - its tier-2 §3 codes;
   - its same-document key;
-  - its class, basis and value.
+  - its class, basis and value;
+  - its `loss_timing` and `adjustments` (§3), with the input IDs of every operand. A
+    `completed_sum` input has no quote of its own; it lists its component inputs instead.
 - **Inventory.** For each of the 91 engagements and each side, the ledger lists every
   strength figure from three places, whether used or not, with its class or its reason for
   non-use:
@@ -295,17 +346,18 @@ the evaluation under a separately reviewed admission profile. Outputs never ente
   - bindings: registry, raw-file and dossier hashes, and that no input cites a source
     outside the bound snapshot;
   - passages: each quote occurs in its section or CSV cell, and each input's printed value
-    occurs in its quote;
+    occurs in its quote. A `completed_sum` input is checked through its operands, and its
+    value is recomputed from them;
   - inventory: every `strength` claim and typed quantity in the bound dossiers, and every
     frozen CWSAC force figure, is referenced by an input or recorded with a reason;
-  - consistency: codes come from the tier-2 list, and each class, grade and label follows
-    mechanically from its codes under §§3 and 5;
+  - consistency: codes come from the tier-2 list and the §3 `loss_timing` and `adjustments`
+    fields, and each class, grade and label follows mechanically from them under §§3 and 5;
   - reproduction: every candidate, point, range, `point_basis`, label and nested-set
     membership reproduces under §§4–6 with the recorded constants. Grade D sides have null
     values and a reason. For every non-null side, 0 < low ≤ point ≤ high.
 
-  The checker cannot verify that a code, basis or quote supports its classification. That is
-  the review's task.
+  The checker cannot verify that a code, basis or quote supports its classification, or
+  that every figure in a matching Livermore entry is listed (B2). That is the review's task.
 - **Separate review.** A separate Opus review checks the ledger in campaign batches. It
   covers classification, adjustment evidence, grade and the completeness of the inventory.
   Findings are reconciled as for dossiers.

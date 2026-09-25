@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 239a29b8-9306-4e38-8896-851a7ecdd600",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 16601decd78ac5b1f97f46dd606fe922babbef92; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T13:37:26Z",
+  "prepared_commit": "0e5800b3a931305bf3762434b2280b61d3322ef0",
+  "bundle_commit": "16601decd78ac5b1f97f46dd606fe922babbef92",
+  "assignment_sha256": "55a863689319ea9ee61b5531fbb884aa4a676c3fa3478d9a0b3d7367b8a9fab2",
+  "inputs_manifest_sha256": "b39828e6390e83a4eaf9b75d3cacfcf269a226859d92efe18c5aedc3d455e3e8",
+  "num_turns": 20,
+  "duration_ms": 579911,
+  "terminal_reason": "completed",
+  "returned_message": "**Review path:** `artifacts/review-results/strength-estimates-followup-0e5800b-opus-high-v1/review.md`. It is the only file I wrote. It is not committed.\n\n**Outcome: corrections required.** Finding IDs: **S1, S2, S3, S4, S5, S6, S7**. Advisories: **B1–B5**.\n\n**Checks:** all 23 input hashes match the prepared commit `0e5800b`, and the assignment and `inputs.json` hashes match too. `make check` passed offline: 95 tests OK, Brier 0.2768816348133779, no artifacts written, and the worktree stayed clean.\n\n**First review:** R1–R10 are applied as written; the text matches the replacements. R5's aim is not met, though: copies of the same figure can still count twice or hide how it was derived. All seven advisories were adopted. A7 is only partly done (the CWSAC IDs aren't named), and A1's wording isn't in the roadmap header.\n\n**Required corrections:**\n- **S4 (most serious):** rule 2 handles copies badly.\n  - It merges figures on different bases from one document, and doesn't say which one to keep.\n  - Its tie-break picks the Livermore OCR text over the page images.\n  - The CWSAC copy of an identical Livermore figure keeps its own class. So the Gaines' Mill Confederate figure of 57,018 enters the grade-A set with no post-start label, although Livermore built it by adding losses from later battles.\n- **S1:** because of the table order, a one-sided or partial figure that is also an opponent's estimate, dated after the battle began, or unresolved becomes a whole-side value instead of a bound.\n- **S2:** the loss rows leave gaps. Losses that are undated, or from a different same-day engagement, fall through to class A. So does a source's own prior-loss adjustment when the losses aren't quoted. The existing tier-2 codes can't tell these rows apart.\n- **S3:** rule 1 allows one adjustment while row 6 allows several. Sums and the figures used in adjustments have no place in the ledger.\n- **S5:** when only opponent estimates exist (rule 4), no basis is set, which breaks the bound test. The rule 5 step that lets an opponent figure set the high end ignores basis.\n- **S6:** several labels (`post_start_information`, `applicability_unresolved`, `single_input`, `compiled_dependence`) can't be derived mechanically as defined.\n- **S7:** 9 of the 10 frozen values in the five engagements where CWSAC matches Livermore aren't multiples of 10. After rounding, the \"identical by construction\" statement can never apply.\n\nThe review works through all five assigned cases (i)–(v) and gives the exact replacement text for each correction. Several of these defects were in replacement text the first review wrote.\n\n**Not covered:** I read no dossiers, Livermore pages or other historical passages. Livermore figures come only from the scoping memo. This is a design review: it approves no estimate or feature."
+}

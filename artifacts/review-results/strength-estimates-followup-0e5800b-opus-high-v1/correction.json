@@ -1,0 +1,72 @@
+{
+  "review_sha256": "069268e175552907b0b7cb6dc952df45bb27a2081db109f1dceef5f7ff0a014a",
+  "prepared_commit": "0e5800b3a931305bf3762434b2280b61d3322ef0",
+  "findings": [
+    {
+      "finding_id": "S1",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "classification order row 1, row 5, then 2-4 and 6-8; the primary had met the same defect in trial extraction (an opponent's partial gun-crew figure set a point)."
+    },
+    {
+      "finding_id": "S2",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "rows 3 and 7 replaced; loss_timing and adjustments fields added; checker consistency bullet replaced."
+    },
+    {
+      "finding_id": "S3",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "rule 1 and the ledger and passages bullets replaced."
+    },
+    {
+      "finding_id": "S4",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "rule 2 replaced, with one justified variant: Livermore figures are cited from the registered transcription of the page images (livermore-transcription-v1), since images carry no quotable text."
+    },
+    {
+      "finding_id": "S5",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "rule 4 opening and the rule 5 opponent cap replaced."
+    },
+    {
+      "finding_id": "S6",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "four label rows replaced."
+    },
+    {
+      "finding_id": "S7",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "identical-by-construction test made before rounding."
+    },
+    {
+      "finding_id": "B1",
+      "disposition": "adopted",
+      "summary": "applicability_unresolved extended to point or range."
+    },
+    {
+      "finding_id": "B2",
+      "disposition": "adopted",
+      "summary": "checker limitation sentence extended."
+    },
+    {
+      "finding_id": "B3",
+      "disposition": "adopted",
+      "summary": "declared consequences recorded in §5."
+    },
+    {
+      "finding_id": "B4",
+      "disposition": "adopted",
+      "summary": "roadmap and README status updated."
+    },
+    {
+      "finding_id": "B5",
+      "disposition": "adopted",
+      "summary": "documented floor of 10 for low, labelled floor_applied."
+    }
+  ],
+  "corrected_design": {
+    "path": "docs/strength-estimates.md",
+    "sha256_before_commit": "795212ad5a3291a6630911fd5671c9f85a52b19c1d05045c091db1de96164ba3"
+  },
+  "notes": "Design review only. Replacement text applied as specified except the S4 Livermore citation variant. No estimate, dossier, source or model input changed.",
+  "separate_followup_review": "none further; the ledger's campaign-batch review will apply the design"
+}
