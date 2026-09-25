@@ -68,6 +68,17 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Cavalry Operations along the Rappahannock first pass, 2026-09-25
+
+The [one-record memo](research/rappahannock-cavalry-first-pass-v1.md) adds **6 records**,
+bringing the registry to **379 entries / 376 raw paths**, preserving the previous
+**373/370**. One NPS battle HTML/text pair remains in the NPS/CWSAC family. The Official
+Records Series I Volume XXV Part 1 catalog metadata and full OCR
+(`or25-1-illinois-ocr-v1`, Internet Archive `warofrebellion251unit`) are pinned as a
+shared container, with two selections: Averell's report and Fitz Lee's report, letter
+and orders, each its own independence group. Character ranges and whitespace-only
+normalization reproduce all sections. No model inputs are changed.
+
 ### Longstreet's Tidewater Operations first pass, 2026-09-25
 
 The [four-record memo](research/tidewater-first-pass-v1.md) adds **12 records**,

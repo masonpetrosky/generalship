@@ -107,6 +107,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [VA026](../data/evidence/VA026.json) | 10 | 1 | 0 | 0 | draft |
 | [VA027](../data/evidence/VA027.json) | 9 | 1 | 0 | 0 | draft |
 | [VA028](../data/evidence/VA028.json) | 10 | 1 | 0 | 0 | draft |
+| [VA029](../data/evidence/VA029.json) | 9 | 1 | 0 | 0 | draft |
 | [VA030](../data/evidence/VA030.json) | 9 | 1 | 0 | 0 | draft |
 | [VA031](../data/evidence/VA031.json) | 11 | 1 | 0 | 0 | draft |
 | [VA100](../data/evidence/VA100.json) | 10 | 3 | 0 | 0 | draft |
@@ -129,8 +130,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 76 engagements have dossiers; 51 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Longstreet's Tidewater Operations first pass](../docs/research/tidewater-first-pass-v1.md) adds all four frozen records: 38 claims, 4 explicit unknowns and 187 citations from NPS/CWSAC and Foster, D. H. Hill, Peck and French reports in Official Records Volume XVIII. The nested Suffolk intervals are not double counted, and disputes and casualty differences remain visible; separate campaign review is pending. Next take the complete one-record Cavalry Operations along the Rappahannock. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 77 engagements have dossiers; 50 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Cavalry Operations along the Rappahannock first pass](../docs/research/rappahannock-cavalry-first-pass-v1.md) adds the sole frozen record, Kelly's Ford: 9 claims, 1 explicit unknown and 60 citations from NPS/CWSAC and Averell's and Fitz Lee's reports in Official Records Volume XXV Part 1. The withdrawal and casualty disputes remain visible; separate campaign review is pending. Next take the complete eleven-record Grant's Operations Against Vicksburg. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

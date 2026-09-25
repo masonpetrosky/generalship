@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **76 draft dossiers / 127 engagements**, with **51 without a dossier**.
+There are **77 draft dossiers / 127 engagements**, with **50 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -203,8 +203,16 @@ April 24 reconnaissance result and the Hill's Point work's origin remain dispute
 Separate review is pending.
 Coverage is **19/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Cavalry Operations along the Rappahannock [March 1863]**, the next complete frozen
-group by earliest engagement date: **one record, VA029**.
+The [Cavalry Operations along the Rappahannock first pass](research/rappahannock-cavalry-first-pass-v1.md)
+adds the sole **frozen record, VA029 (Kelly's Ford)**, with **9 claims, 1 explicit unknown
+and 60 citations** from NPS/CWSAC and Averell's and Fitz Lee's reports in a newly pinned
+Official Records Volume XXV Part 1 OCR. The withdrawal's timing and character and the
+casualty figures (the live split matches the reports with sides reversed) remain
+disputed. Separate review is pending.
+Coverage is **20/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Grant's Operations Against Vicksburg [March-July 1863]**, the next complete frozen
+group by earliest engagement date: **eleven records, MS004, MS005, MS006, MS007, MS008, MS009, MS010, MS011, LA011, LA014, AR008** (MS009 already has a draft).
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

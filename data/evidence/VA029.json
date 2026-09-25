@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA029",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the sole frozen record in Cavalry Operations along the Rappahannock [March 1863]: Kelly's Ford, March 17, 1863. Other March 17 affairs printed nearby (Bealeton and Herndon Stations) are not added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength); the frozen battle-level 3,000 total has no side split. No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions (3,000 total) with a frozen strength of 3000; the live field reads zero. NPS gives Averell twenty-one hundred troopers and Fitz Lee a brigade of about 800. Averell says he was directed to take 3,000 cavalry and six guns, detached about 900 to guard the fords, and set out with about 2,100 men (775, 563 and 760 by brigade) and a battery. Fitz Lee puts the enemy at certainly not less than 3,000 mounted men with a battery, and gives no count of his own brigade.",
+      "rationale": "Ordered, detached, marching and opponent-estimated figures differ in scope; none is adopted as matched opening strength. The frozen 3,000 matches the ordered and Confederate-estimated Union figures, not a stated two-sided total. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA029"
+          },
+          "column": "forces_text",
+          "quote": "Divisions (3,000 total)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA029"
+          },
+          "column": "strength",
+          "quote": "3000"
+        },
+        {
+          "source_id": "nps-va029-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va029-v1",
+          "locator": "Description",
+          "quote": "Twenty-one hundred troopers of Averell's cavalry division crossed the Rappahannock River"
+        },
+        {
+          "source_id": "nps-va029-v1",
+          "locator": "Description",
+          "quote": "Fitzhugh Lee counterattacked with a brigade of about 800 men."
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "I was directed to take a force of 3,000 cavalry and six pieces of artillery."
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "I was obliged to detach about 900 men from my force"
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.48 (OCR page markers; not checked against print)",
+          "quote": "At 4 a. m. I set out from Morrisville with a command of about 2,100 men,"
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.48 (OCR page markers; not checked against print)",
+          "quote": "Colo- nel Duffle, 775;"
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.48 (OCR page markers; not checked against print)",
+          "quote": "McIntosh, 563; from the Reserve Brigade, Captain Reno, 760,"
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-23",
+          "locator": "p.60 (OCR page markers; not checked against print)",
+          "quote": "certainly not less than 3,000 mounted men, with a battery of ar- tillery."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "ford-wall-and-ground",
+      "dimension": "terrain",
+      "value": "Averell says the ford was obstructed by abatis on both banks, defended by 80 sharpshooters in rifle-pits and houses, with a rapid current about 4 feet 5 inches deep; a deep ditch and heavy stone wall in front of the first wood impeded cavalry, marshy ground blocked the left, and the Confederate guns in the last position appeared covered by earthworks. Fitz Lee calls the Union position very strong, sheltered by woods and a long, high stone fence, and later asks that 'perpendicular' be replaced by 'at right angles'.",
+      "rationale": "Obstacles described by both commanders; who built the ford defenses and when is not established beyond Fitz Lee's night reinforcement of the picket. No map verification or numerical terrain effect.",
+      "citations": [
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.48 (OCR page markers; not checked against print)",
+          "quote": "The crossing was found obstructed by fallen trees, forming an abatis upon both banks,"
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.48 (OCR page markers; not checked against print)",
+          "quote": "defended by 80 sharpshooters, covered by rifle-pits and houses on the opposite bank,"
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.48 (OCR page markers; not checked against print)",
+          "quote": "was about 4 feet 5 inches deep."
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "pp.50–51 (OCR p.51 header printed after that page's text; not checked against print)",
+          "quote": "there is a deep, broad ditch, along which runs a heavy stone wall,"
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "I found the ground impracticable on the left of the road, by reason of its marshy condition."
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "pp.50–51 (OCR p.51 header printed after that page's text; not checked against print)",
+          "quote": "it was evident that they were covered by earth- works."
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-23",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "Their position was a very strong one, sheltered by woods and a long, high stone fence running perpendicular to my advance."
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-26",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "u at right angles.”"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-horses",
+      "dimension": "logistics",
+      "value": "Averell says the battery joined after a 32-mile march with horses in poor condition, that ammunition was carried across the ford in nose-bags, that his artillery ammunition was of miserable quality and nearly exhausted with unreliable fuses, and that his horses were very much exhausted by evening. Fitz Lee says his brigade was weakened by four squadrons on picket and by many horses unfit after the winter with very limited forage.",
+      "rationale": "Equipment and remount statements from two opposing commanders' reports; no ordnance or quartermaster return inspected.",
+      "citations": [
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "made a march of 32 miles on the 16th,"
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "with horses in poor condition for the expedition."
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.48 (OCR page markers; not checked against print)",
+          "quote": "The ammunition was taken out of the limbers and carried over in nose-bags by the cavalry."
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "pp.50–51 (OCR p.51 header printed after that page's text; not checked against print)",
+          "quote": "Our ammunition was ot miserable quality and nearly exhausted."
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "pp.50–51 (OCR p.51 header printed after that page's text; not checked against print)",
+          "quote": "My horses were very much exhausted."
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-23",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "not weakened by the absence of four squadrons on picket,"
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-23",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "with a very limited supply of forage,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-and-reports",
+      "dimension": "information",
+      "value": "Fitz Lee says his first intimation came by telegram from army headquarters at 11 a.m. on the 16th, that scouts reported the enemy at Morrisville, that the report of the attack at the ford never reached him, and that he first learned at 7.30 a.m. that the enemy had crossed. Averell says his orders came with reports of Confederate cavalry near Brentsville, that his request for a regiment at Catlett's Station was refused, and that prisoners later reported Fitz Lee reinforced and Stuart present.",
+      "rationale": "Attributed knowledge in both commanders' after-action reports; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-23",
+          "locator": "p.60 (OCR page markers; not checked against print)",
+          "quote": "My first intimation of their approach was in a telegram received at 11 a. m. on 16th,"
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-23",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "scouts reported them at Morrisville,"
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-23",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "The report that enemy’s attack was made at Kelly’s never reached me ;"
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-23",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "the first intimation I received from that point was at 7.30 a. m.,"
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "in the vicinity of Brentsville, the force of which was reported from 250 to 1,000,"
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "My request was not granted,"
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "Subsequently prisoners reported that he had been re-enforced, and that Major General Stuart was present."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rout-or-destroy",
+      "dimension": "objectives",
+      "value": "Averell says his orders were to cross the Rappahannock and attack and rout or destroy Fitz Lee's cavalry near Culpeper Court-House. Fitz Lee's general orders attribute to the enemy a purpose to penetrate the interior and destroy railroads.",
+      "rationale": "Averell reports his own orders; Fitz Lee's statement of Union purpose is an opponent's attribution. No inspected order text.",
+      "citations": [
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "My orders were to attack and rout or destroy him."
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-general-orders-1863-03-21",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "it was their purpose to penetrate the interior, to destroy our rail- roads,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Averell says two of his regiments wavered at first, that Duffié's charge came three minutes too soon without prearranged support, and that at 5.30 p.m. he deemed it proper to withdraw rather than attack the entrenched position. Fitz Lee credits Stuart, who joined before the fight and was on the field all day, and notes that Colonel Munford missed most of the action at a court-martial. NPS says Pelham was killed. The live heading ranks Fitz Lee Major General against the frozen Brigadier General and his own signature.",
+      "rationale": "Stuart was present but is not a frozen commander; the frozen commanders Averell and Fitz Lee do not receive automatic sole credit. The heading rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "did not come up to the mark at first,"
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "the charge was made three minutes too soon, and without any pre- arranged support."
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "pp.50–51 (OCR p.51 header printed after that page's text; not checked against print)",
+          "quote": "It was 5.30 p. m.,"
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "pp.50–51 (OCR p.51 header printed after that page's text; not checked against print)",
+          "quote": "I deemed it proper to withdraw."
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-23",
+          "locator": "p.63 (OCR page markers; not checked against print)",
+          "quote": "Maj. Gen. J. E. B. Stuart joined me before the fight commenced; was on the field the whole day ;"
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-23",
+          "locator": "p.62 (OCR page markers; not checked against print)",
+          "quote": "did not know of the action in time to join his command until the fight was nearly over."
+        },
+        {
+          "source_id": "nps-va029-v1",
+          "locator": "Description",
+          "quote": "The \"Gallant\" Pelham was killed."
+        },
+        {
+          "source_id": "nps-va029-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Fitzhugh Lee [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA029",
+            "belligerent": "Confederate",
+            "fullname": "Fitzhugh Lee"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-23",
+          "locator": "p.63 (OCR page markers; not checked against print)",
+          "quote": "Brigadier- General , Commanding ."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "withdrawal-account",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. NPS says the Union forces withdrew in mid-afternoon after a localized success. Averell says he decided to withdraw at 5.30 p.m. and recrossed without losing a man, the enemy making no demonstration worthy of notice. Fitz Lee says the enemy advanced 2 miles from the ford and was driven back, recrossing about 7.30 p.m. with his brigade in close pursuit.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The timing and character of the withdrawal differ among the accounts; none is adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA029"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va029-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-va029-v1",
+          "locator": "Description",
+          "quote": "After achieving a localized success, Union forces withdrew in mid-afternoon."
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "pp.50–51 (OCR p.51 header printed after that page's text; not checked against print)",
+          "quote": "crossed without the loss of a man in the operation."
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "made no demonstration worthy of notice,"
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-23",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "Their total advance was 2 miles from the ford."
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-23",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "recrossing the river about 7.30 p. m., with us in close pursuit."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 200 total; the live NPS field reads 179 total (US 99; CS 80;). Averell gives his aggregate killed, wounded and missing as 80, which the compiler footnotes against a revised statement on p.53; he estimates Confederate killed and wounded at over 200 and prisoners at 47. Fitz Lee gives his own loss as 11 killed, 88 wounded and 34 taken prisoner, 133 in all, and says he captured 29 prisoners. The live side split matches Averell's 80 and Fitz Lee's 99 killed and wounded with the sides reversed (a computation here).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live split is not adopted; the revised Union statement was not inspected.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA029"
+          },
+          "column": "casualties_text",
+          "quote": "200 total"
+        },
+        {
+          "source_id": "nps-va029-v1",
+          "locator": "Estimated Casualties",
+          "quote": "179 total (US 99; CS 80;)"
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "the aggregate killed, wounded, and missing is 80."
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "But see revised statement, p. 53."
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "his loss in killed and wounded must have been over 200,"
+        },
+        {
+          "source_id": "or25-1-averell-kellys-ford-selections-v1",
+          "section": "averell-1863-03-20",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s loss in prisoners was 47 ;"
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-23",
+          "locator": "p.63 (OCR page markers; not checked against print)",
+          "quote": "My own loss was 11 killed, 88 wounded, and 34 taken prisoners, making an aggregate of 133."
+        },
+        {
+          "source_id": "or25-1-fitz-lee-kellys-ford-selections-v1",
+          "section": "fitz-lee-1863-03-23",
+          "locator": "p.63 (OCR page markers; not checked against print)",
+          "quote": "We captured 29 prisoners"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Stuart's report, the other Union regimental reports, the compiled Union return and its revised statement (OCR p.53) and Fitz Lee's recapitulation table remain deferred.",
+    "NPS/CWSAC is one family. Averell's report and Fitz Lee's report, correction letter and general orders, printed in Official Records Series I, Volume XXV, Part 1, are two further families of interested commanders' accounts; the volume is a shared container, not an additional witness. Stuart's report was not inspected. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
