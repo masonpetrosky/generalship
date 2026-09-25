@@ -304,6 +304,25 @@ same document as the registered Atlanta selection. Seventeen authors have new gr
 with one group for both his selections. The Fort Pillow and Saltville killings are recorded as each
 source's statement; no characterization or count is adopted. No model inputs are changed.
 
+### Livermore v2 transcription (v2 strength ledger), 2026-09-25
+
+Under the owner's v2 source decision
+([record](../data/estimates/owner-decision-v2-sources-2026-09-25.json)), **33 records** add
+Livermore's *Numbers and Losses* entries that match cohort-v2 decisive engagements:
+
+- 32 page images, `livermore-p{N}-image-v1` for printed pp. 77, 101, 104, 109, 110 and 113–139
+  (Internet Archive page index n(N+11), checked against the item's page-number map and each image
+  header; downscaled with `sips -Z 1600`, as in v1);
+- `livermore-transcription-v2`, which reproduces every section of `livermore-transcription-v1`
+  byte for byte and adds one section per new page. Wilson's Creek, Pea Ridge and Prairie Grove
+  are printed on pages that already had v1 sections without those entries, so they are added as
+  `p78-supplement`, `p79-supplement` and `p95-supplement`.
+
+34 entries match 44 engagements; the match table is recorded with the v2 strength ledger. Figures
+are transcribed as printed, including fractions whose arithmetic does not agree with the totals
+(Deep Bottom, Fort Wagner). Summary Tables A and B (pp.140–142) are not registered, as in v1. The
+v1 transcription and ledger are unchanged.
+
 ### Carolinas Campaign first pass (cohort v2), 2026-09-25
 
 The [first pass](research/carolinas-first-pass-v1.md) adds **23 records**:
