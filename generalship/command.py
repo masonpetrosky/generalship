@@ -65,13 +65,15 @@ def contained_pairs(battles, ids):
     return sorted(pairs)
 
 
-def check(root, path=DEFAULT_LEDGER, ledger=None, only=None):
-    """Replay the ledger. `only` checks a subset of engagements during extraction and skips coverage."""
+def check(root, path=DEFAULT_LEDGER, ledger=None, only=None, registry=None):
+    """Replay the ledger. `only` checks a subset of engagements during extraction and skips coverage;
+    `registry` (with `only`) supplies an unbound in-memory commander registry for that draft check."""
     root = Path(root)
     if ledger is None:
         ledger = read_json(safe_path(root, str(path)))
     require(ledger.get('kind') == 'command_responsibility_ledger' and ledger.get('schema_version') == 1, 'Ledger kind')
-    for key in ('design', 'cohort', 'registry'):
+    require(registry is None or only is not None, 'An unbound registry is for draft subset checks only')
+    for key in ('design', 'cohort') + (('registry',) if registry is None else ()):
         b = ledger['bindings'][key]
         require(digest(safe_path(root, b['path'])) == b['sha256'], f'Binding mismatch: {key}')
     sources = verify_sources(root)
@@ -79,12 +81,14 @@ def check(root, path=DEFAULT_LEDGER, ledger=None, only=None):
         require(sid in sources and source_metadata_digest(sources[sid]) == b['metadata_sha256']
                 and sources[sid]['sha256'] == b['raw_sha256'], f'Cited source binding mismatch: {sid}')
     require(ledger['rank_order'] == RANK_ORDER, 'Rank order differs from the code')
-    registry = {c['id']: c for c in read_json(safe_path(root, ledger['bindings']['registry']['path']))['commanders']}
+    if registry is None:
+        registry = read_json(safe_path(root, ledger['bindings']['registry']['path']))
+    registry = {c['id']: c for c in registry['commanders']}
     names = {(n, c['side']): c['id'] for c in registry.values() for n in c['cwsac_names']}
     for c in registry.values():
         require(c['id'].startswith(SIDE_PREFIX[c['side']] + '-'), f"Registry ID prefix: {c['id']}")
         require(bool(c['cwsac_names']) or bool(c.get('passage_citation')), f"Registry entry without a source: {c['id']}")
-    cohort = read_json(root / 'data/pilot/cohort.json')['battle_ids']
+    cohort = read_json(safe_path(root, ledger['bindings']['cohort']['path']))['battle_ids']
     battles = {r['battle']: r for r in read_csv(safe_path(root, sources['arnold-cwsac-battles']['path']))}
     listings = {}
     for r in read_csv(safe_path(root, sources['arnold-cwsac-commanders']['path'])):
@@ -97,7 +101,8 @@ def check(root, path=DEFAULT_LEDGER, ledger=None, only=None):
     else:
         in_scope = sorted(only)
     dossiers = {}
-    for bid in in_scope:
+    passage_battles = {c['passage_citation']['battle_id'] for c in registry.values() if c.get('passage_citation')}
+    for bid in sorted(set(in_scope) | passage_battles):
         b = ledger['bindings']['dossiers'][bid]
         require(digest(safe_path(root, b['path'])) == b['sha256'], f'Dossier binding: {bid}')
         dossiers[bid] = read_json(safe_path(root, b['path']))

@@ -1,0 +1,18 @@
+{
+  "kind": "owner_source_scope_decision",
+  "schema_version": 1,
+  "decision_date": "2026-09-25",
+  "subject": "source scope for the v2 (cohort v2) side-strength estimate ledger",
+  "context": "First-pass coverage of cohort v2 is complete (commit cbc5935). The accepted design (docs/strength-estimates.md section 2) limits inputs to sources registered at the commit that accepted it, and requires a separate, bounded owner authorization for new source research for this layer.",
+  "question_put_to_owner": "First passes are done for the whole war (all 384 engagements drafted; the 257 new ones reviewed and reconciled). To build the v2 strength-estimate ledger, which sources may it use? The accepted design only allows sources registered when it was accepted; new source research for this layer needs your authorization.",
+  "options_offered": [
+    "Dossiers + Livermore (Recommended): Use the reviewed v2 dossier citations, and transcribe the Livermore 'Numbers and Losses' pages for the new engagements from their page images, as was done for 1862-63. Bounded to the pages that match a v2 engagement. Likely fills many more sides than dossiers alone.",
+    "Dossiers only: Use only the reviewed v2 dossier citations plus the existing Livermore pages. No new source work; sides without a figure stay grade D.",
+    "Hold the ledgers: Stop after coverage; don't extend the strength and command ledgers yet."
+  ],
+  "owner_response": "Dossiers + Livermore (Recommended)",
+  "reading": "Authorizes a v2 successor ledger whose inputs are the first-pass dossier citations registered at or before the coverage commit, the pinned Livermore records, and new Livermore page images and a transcription limited to printed pages carrying an entry that matches a cohort-v2 decisive, non-aggregate engagement. No other new source research. The v1 ledger, its evaluation and the first rating run are unchanged; a v2 rating run still needs a separate authorization naming the ledger hashes.",
+  "recorded_by": "primary agent (Claude Opus 5.5), from the owner's answer in chat",
+  "admits_feature": false,
+  "changes_baseline": false
+}
