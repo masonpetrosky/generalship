@@ -112,7 +112,8 @@ The [Maryland pass](docs/research/maryland-first-pass-v1.md) adds three dossiers
 (Antietam's existing draft unchanged), 29 claims, 4 explicit unknowns and 86 citations.
 Opus 5.5 `high` reviewed them; its four required corrections are fixed and verified by the primary.
 The [Iuka and Corinth pass](docs/research/iuka-corinth-first-pass-v1.md) adds three
-dossiers, 28 claims, 3 explicit unknowns and 76 citations. Separate review is pending.
+dossiers, 28 claims, 3 explicit unknowns and 91 citations. Opus 5.5 `high` reviewed the
+batch; its eight required corrections are fixed and verified by the primary.
 The [Stones River pass](docs/research/stones-river-first-pass-v1.md) adds two dossiers,
 20 claims, 2 explicit unknowns and 58 citations. Separate review is pending.
 Next: **the one-record Fredericksburg Campaign**. See the

@@ -81,7 +81,7 @@ not separately inspected originals. No model inputs are changed.
 
 ### Iuka and Corinth first pass, 2026-09-24
 
-The [three-record memo](research/iuka-corinth-first-pass-v1.md) adds **12 records**,
+The [three-record memo](research/iuka-corinth-first-pass-v1.md) adds **9 records**,
 bringing the registry to **319 entries / 316 raw paths**, preserving the previous
 **310/307**. Three NPS battle HTML/text pairs remain in the NPS/CWSAC family. Francis
 Vinton Greene's 1882 *The Mississippi* adds a `greene-mississippi-1882` family: public

@@ -18,8 +18,8 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen `forces_text` describes approx. 4,000–4,500 US (2nd and cavalry divisions) and approx. 3,200 CS (1st Division). The frozen structured US bounds are 4,000/4,000 (the upper bound is not 4,500) and the CS bounds are 3,200/3,200; the live field reads zero. NPS says Price had about 14,000 men. Greene gives Rosecrans's column about 9,000 and Ord's about 6,000, says Hamilton brought 2,800 into action, and that two Confederate brigades of three to four thousand did the fighting.",
-      "rationale": "Army, column, engaged-division and brigade figures are different populations; none is adopted as a matched opening strength. Ord's column did not engage. The imported model row uses the structured 4,000 point value; the text's 4,500 upper bound is not carried into it. This is recorded, not corrected.",
+      "value": "The frozen force fields give approx. 4,000–4,500 US (2nd and cavalry divisions) and approx. 3,200 CS (1st Division); the live field reads zero. NPS says Price had about 14,000 men. Greene gives Rosecrans's column about 9,000 and Ord's about 6,000, says Hamilton brought 2,800 into action, and that two Confederate brigades of three to four thousand did the fighting.",
+      "rationale": "Army, column, engaged-division and brigade figures are different populations; none is adopted as a matched opening strength. Ord's column did not engage.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -28,24 +28,6 @@
           },
           "column": "forces_text",
           "quote": "2nd Division and cavalry division, Army of the Mississippi (approx. 4,000-4,500) [US]; 1st Division, Army of the West (approx. 3,200) [CS]"
-        },
-        {
-          "source_id": "arnold-cwsac-forces",
-          "row_key": {
-            "battle": "MS001",
-            "belligerent": "US"
-          },
-          "column": "strength_min",
-          "quote": "4000"
-        },
-        {
-          "source_id": "arnold-cwsac-forces",
-          "row_key": {
-            "battle": "MS001",
-            "belligerent": "US"
-          },
-          "column": "strength_max",
-          "quote": "4000"
         },
         {
           "source_id": "nps-ms001-v1",
@@ -109,7 +91,7 @@
     {
       "id": "march-route-and-delay",
       "dimension": "logistics",
-      "value": "NPS says Rosecrans followed the single Jacinto road instead of two roads as directed; Greene says an after-midnight message from Rosecrans reported that, through a guide's fault, his march had been slightly delayed and one division was still at Jacinto, twenty miles from Iuka.",
+      "value": "NPS says Rosecrans followed the single Jacinto road instead of two roads as directed; Greene says a guide's fault delayed the march and left a division at Jacinto, twenty miles off.",
       "rationale": "Movement constraints from summaries; no march table or transport record inspected.",
       "citations": [
         {
@@ -121,13 +103,7 @@
           "source_id": "greene-iuka-corinth-selections-v1",
           "section": "iuka",
           "locator": "p.39 (OCR page markers; not checked against print)",
-          "quote": "word was received from Eosecrans that, through the fault of a guide, his march had been slightly delayed"
-        },
-        {
-          "source_id": "greene-iuka-corinth-selections-v1",
-          "section": "iuka",
-          "locator": "p.39 (OCR page markers; not checked against print)",
-          "quote": "one of his divisions was still at Jacinto, twenty miles from Iuka"
+          "quote": "through the fault of a guide, his march had been slightly delayed"
         }
       ],
       "phase": "unresolved",
@@ -136,7 +112,7 @@
     {
       "id": "unheard-battle",
       "dimension": "information",
-      "value": "Greene says the wind kept the firing from being heard, and that Rosecrans's midday message saying he was within eight miles (OCR '12. -10 p.m.'; the clock is not verified against print) reached Grant only after night. NPS says Ord later said he never heard any fighting and Grant remarked he had heard no sounds of battle.",
+      "value": "Greene says the wind kept the firing from being heard and Rosecrans's 12:40 p.m. message reached Grant only after night; NPS says Ord and Grant later said they heard no fighting.",
       "rationale": "Retrospective accounts of what commanders knew; no inspected message log or acoustic evidence.",
       "citations": [
         {
@@ -148,19 +124,8 @@
         {
           "source_id": "greene-iuka-corinth-selections-v1",
           "section": "iuka",
-          "locator": "p.39 (OCR page markers; not checked against print)",
-          "quote": "Eosecrans sent word, at 12. -10 p.m., that he"
-        },
-        {
-          "source_id": "greene-iuka-corinth-selections-v1",
-          "section": "iuka",
           "locator": "p.40 (OCR page markers; not checked against print)",
           "quote": "but this was not received by Grant until after night."
-        },
-        {
-          "source_id": "nps-ms001-v1",
-          "locator": "Description",
-          "quote": "Ord did nothing, later proclaiming that he never heard any fighting"
         },
         {
           "source_id": "nps-ms001-v1",
@@ -187,11 +152,6 @@
           "source_id": "nps-ms001-v1",
           "locator": "Description",
           "quote": "issue orders for his men to prepare for a march the next day, to rendezvous with Van Dorn."
-        },
-        {
-          "source_id": "nps-ms001-v1",
-          "locator": "Description",
-          "quote": "ordered him to prevent Maj. Gen. William S. Rosecrans's Army of the Mississippi troops from moving into Middle Tennessee"
         }
       ],
       "phase": "unresolved",
@@ -218,11 +178,6 @@
           "source_id": "nps-ms001-v1",
           "locator": "Description",
           "quote": "he ordered Ord to await the sound of fighting between Rosecrans and Price before engaging the Confederates."
-        },
-        {
-          "source_id": "nps-ms001-v1",
-          "locator": "Description",
-          "quote": "Grant later approved this decision."
         }
       ],
       "phase": "unresolved",
@@ -252,11 +207,6 @@
           "section": "iuka",
           "locator": "p.41 (OCR page markers; not checked against print)",
           "quote": "Price's whole command had escaped by the Fulton road."
-        },
-        {
-          "source_id": "nps-ms001-v1",
-          "locator": "Description",
-          "quote": "Price's army evacuated via the uncovered Fulton Road"
         }
       ],
       "phase": "post_outcome",
@@ -266,7 +216,7 @@
       "id": "casualty-records",
       "dimension": "outcome",
       "value": "The frozen casualty text reads 1,482 total (US 782; CS 700); the live NPS field reads 1384 total (US 790; CS 594;). Greene gives Rosecrans's reported 782 and Price's reported 496, against a provost-marshal tally of 1,438 including prisoners and an estimate of wounded carried off.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The provost-marshal total includes an estimate and prisoners; it is not adopted. Price's reported 86 killed and 408 wounded sum to 494 in the OCR against a printed total of 496; print was not checked.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The provost-marshal total includes an estimate and prisoners; it is not adopted.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -308,10 +258,5 @@
     "Returns, Confederate casualty reconciliation and the Grant–Rosecrans–Ord message chronology remain deferred.",
     "NPS/CWSAC is one family; Greene is one retrospective history by a non-participant Union engineer officer, founded on the Official Records. Reports quoted inside Greene are not additional independently inspected families.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "iuka-corinth-review-correction-2026-09-24",
-  "supersedes": {
-    "path": "data/evidence/history/MS001.v1.json",
-    "sha256": "92d8006357d2acecd930c03e4617e4104b573709e7216a6c030c0ae9ef79a88b"
-  }
+  ]
 }

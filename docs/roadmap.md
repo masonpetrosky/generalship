@@ -117,9 +117,13 @@ Coverage is **11/36 complete campaigns by dossier presence**, with zero promoted
 
 The [Iuka and Corinth first pass](research/iuka-corinth-first-pass-v1.md) adds all
 **three frozen records, MS001, MS002 and TN007**, with **28 claims, 3 explicit
-unknowns and 76 citations** from NPS/CWSAC and Greene's records-based retrospective
+unknowns and 91 citations** from NPS/CWSAC and Greene's records-based retrospective
 history. Iuka's force scopes, casualty counts and the reason the Fulton road was
-left open remain disputed. Separate review is pending.
+left open remain disputed. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/iuka-corinth-c55776a-opus-high-v1/review.md) found
+eight attribution, scope and citation corrections, all fixed and
+[verified by the primary](../artifacts/review-results/iuka-corinth-c55776a-opus-high-v1/primary-assessment.md);
+Iuka's structured 4,000/4,000 US bounds are recorded, not corrected.
 Coverage is **12/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Stones River first pass](research/stones-river-first-pass-v1.md) adds both

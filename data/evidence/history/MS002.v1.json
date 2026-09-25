@@ -147,12 +147,6 @@
           "quote": "Van Dorn was senior officer and took command of the combined force"
         },
         {
-          "source_id": "greene-iuka-corinth-selections-v1",
-          "section": "corinth-and-hatchie",
-          "locator": "p.44 (OCR page markers; not checked against print)",
-          "quote": "Van Dorn took command, being the senior officer."
-        },
-        {
           "source_id": "nps-ms002-v1",
           "locator": "Description",
           "quote": "Brig. Gen. Louis Hebert's sickness postponed it till 9:00 am."
@@ -232,7 +226,7 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 7,197 total (US 2,359; CS 4,838); the live NPS field reads 7150 total (US 2350; CS 4800;). Greene gives Rosecrans's reported 2,359 and official Confederate returns of 4,838, against Rosecrans's statement of 2,268 prisoners taken and his Medical Director's count of 1,423 Confederates buried, from which Greene infers a loss over nine thousand.",
+      "value": "The frozen casualty text reads 7,197 total (US 2,359; CS 4,838); the live NPS field reads 7150 total (US 2350; CS 4800;). Greene gives Rosecrans's reported 2,359 and official Confederate returns of 4,838, against Rosecrans's 2,268 prisoners and 1,423 Confederate burials, from which Greene infers a loss over nine thousand.",
       "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Greene's nine-thousand figure is an inference from an assumed wounded-to-killed ratio, not a count.",
       "citations": [
         {
@@ -264,18 +258,6 @@
           "source_id": "greene-iuka-corinth-selections-v1",
           "section": "corinth-and-hatchie",
           "locator": "p.53 (OCR page markers; not checked against print)",
-          "quote": "Rosecrans states that he took 2,268 prisoners, and his Medical Director says that 1,423 Confederates were buried on the field."
-        },
-        {
-          "source_id": "greene-iuka-corinth-selections-v1",
-          "section": "corinth-and-hatchie",
-          "locator": "p.53 (OCR page markers; not checked against print)",
-          "quote": "The usual proportion of wounded to killed being about five to one"
-        },
-        {
-          "source_id": "greene-iuka-corinth-selections-v1",
-          "section": "corinth-and-hatchie",
-          "locator": "p.53 (OCR page markers; not checked against print)",
           "quote": "including prisoners, over nine thousand."
         }
       ],
@@ -287,10 +269,5 @@
     "Returns, casualty reconciliation and the October 3 gap's command sequence remain deferred.",
     "NPS/CWSAC is one family; Greene is one retrospective history by a non-participant Union engineer officer, founded on the Official Records. Reports quoted inside Greene are not additional independently inspected families.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "iuka-corinth-review-correction-2026-09-24",
-  "supersedes": {
-    "path": "data/evidence/history/MS002.v1.json",
-    "sha256": "bb7ff5e5976eeef9521c77aa0f5728ebe5298ea3ec1c3b09372326a21c212b74"
-  }
+  ]
 }

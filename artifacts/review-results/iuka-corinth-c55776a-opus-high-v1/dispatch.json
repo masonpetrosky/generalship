@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 03b00625-ccad-4f23-b85d-02d7f63e96c1",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 1ec5695de3315bdc87380f1bfe6ba09c5c3d7d07; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T03:31:39Z",
+  "prepared_commit": "c55776a89d1d10d43bba36fefe04512d19b0e1e9",
+  "bundle_commit": "1ec5695de3315bdc87380f1bfe6ba09c5c3d7d07",
+  "assignment_sha256": "c70a5791079dbf0b9cc2d972c63807ad2966c3f906f5aea16e30ebb970ad00dd",
+  "inputs_manifest_sha256": "da83067e82371b558e6721f6b8e7e945131efcf2620164f62735fa32978b786a",
+  "num_turns": 35,
+  "duration_ms": 399384,
+  "terminal_reason": "completed",
+  "returned_message": "The review is written, and the outcome is **corrections required**: eight findings need changes and six are optional notes.\n\nAll 39 input hashes matched. `make check` passed offline (82 tests), and none of the frozen model inputs or earlier dossiers changed. I checked all 28 claims and 76 citations.\n\n**Path:** `artifacts/review-results/iuka-corinth-c55776a-opus-high-v1/review.md`. It is the only file I added; nothing was committed or pushed.\n\n**Required findings:**\n- **IC-01 (MS001, Iuka):** the frozen force table stores the Union strength at Iuka as 4,000 to 4,000, not the 4,000–4,500 its text gives. The model uses that 4,000 figure, so the 4,500 upper bound never reaches it. The draft doesn't record this; the fix adds two citations to the force table.\n- **IC-02 (MS001):** the draft gives Rosecrans's message as 12:40 p.m., but the scanned book reads \"12. -10 p.m.\". Ord's statement that he heard no fighting is also uncited.\n- **IC-03 (MS001):** the guide's fault is reported by Rosecrans's own message, which Greene quotes, not stated by Greene. The draft also adds a cause-and-effect link that the text doesn't make.\n- **IC-04 (MS001):** three claims have no National Park Service citation: Bragg's order to Price, Grant's approval of Rosecrans leaving the Fulton road open, and Price's escape by that road.\n- **IC-05 (MS002, Corinth):** Greene is not cited for Van Dorn taking command as senior officer. The count of 1,423 Confederate burials comes from Rosecrans's Medical Director, not Rosecrans, and neither that figure nor the 2,268 prisoners is cited.\n- **IC-06 (TN007, Hatchie's Bridge):** the claim says the sources disagree on whether Hurlbut brought a brigade or a division, yet it is marked supported. It should be marked disputed.\n- **IC-07 (TN007):** Greene's \"lack of preparation\" remark is about the later pursuit to Ripley, after October 5, not the battle itself.\n- **IC-08 (TN007):** the draft doesn't cite the passages saying Ord took command and was severely wounded. The quote used for Van Dorn continuing his retreat is cut short before that part.\n\nEach finding in the review gives the exact replacement text and quotes; every quote occurs exactly once in its source, on the stated scanned page. These changes add 14 citations (76 → 90) and leave the claim and unknown counts the same. The memo and reports will need updated counts.\n\n**Optional notes (IC-N1 to IC-N6):**\n- **IC-N1:** \"instead\" in the river-crossing claim implies a conflict between the sources that doesn't exist.\n- **IC-N2:** Price's reported casualties (86 killed, 408 wounded) sum to 494, but the scan prints 496.\n- **IC-N3:** the Corinth fatigue claim mixes an October 3 condition with Rosecrans's after-battle excuse for delaying pursuit.\n- **IC-N4:** the Park Service page's own narrative calls Ord a Major General, contradicting its heading.\n- **IC-N5:** both sources put Price at about 14,000, but Greene's figure is from a return dated after Iuka.\n- **IC-N6:** Greene's description of the Corinth redoubts is uncited.\n\nI also confirmed that Stones River (TN008, TN010) is the next campaign group.\n\nThis is an AI review, not a human historical judgement, independent corroboration or admission of any feature.\n\n**Finding IDs:** IC-01, IC-02, IC-03, IC-04, IC-05, IC-06, IC-07, IC-08 (required); IC-N1–IC-N6 (optional)."
+}

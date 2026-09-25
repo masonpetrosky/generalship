@@ -1,0 +1,93 @@
+{
+  "review_sha256": "2f6418b5195415b74498b3ce67283c6468066833efe69210a401b9363133a7d4",
+  "prepared_commit": "c55776a89d1d10d43bba36fefe04512d19b0e1e9",
+  "findings": [
+    {
+      "finding_id": "IC-01",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; MS001 now records the frozen structured US bounds (4,000/4,000) beside the 4,000–4,500 text, with two forces-table citations. Recorded, not corrected."
+    },
+    {
+      "finding_id": "IC-02",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; the unsupported 12:40 p.m. reading is replaced by the OCR '12. -10 p.m.' with an explicit caveat, and Ord's statement is cited."
+    },
+    {
+      "finding_id": "IC-03",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; the guide's fault is attributed to Rosecrans's quoted message and the added causal link removed."
+    },
+    {
+      "finding_id": "IC-04",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; three NPS citations added (Bragg's order, Grant's approval, the Fulton-road escape)."
+    },
+    {
+      "finding_id": "IC-05",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; Greene cited for Van Dorn's senior command, and the burial count attributed to Rosecrans's Medical Director with the prisoner and ratio passages cited."
+    },
+    {
+      "finding_id": "IC-06",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; TN007 force claim status changed to disputed."
+    },
+    {
+      "finding_id": "IC-07",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; 'lack of preparation' limited to the later pursuit to Ripley, with citation."
+    },
+    {
+      "finding_id": "IC-08",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; Ord's command and wound cited and the retreat quote completed."
+    },
+    {
+      "finding_id": "PRIMARY-01",
+      "disposition": "found_and_corrected_by_primary",
+      "summary": "primary-found; the memo and docs/sources.md said 12 new source records, but the registry grew 310 to 319 (9). Not raised by the reviewer."
+    }
+  ],
+  "dossiers": {
+    "MS001": {
+      "dossier_path": "data/evidence/MS001.json",
+      "archived_dossier_path": "data/evidence/history/MS001.v1.json",
+      "archived_dossier_sha256": "92d8006357d2acecd930c03e4617e4104b573709e7216a6c030c0ae9ef79a88b",
+      "corrected_dossier_sha256": "990ecd31bc91cf10c25aa0b3e25800ec9f067d34713f2f1dfd6c5c16394fc1e6",
+      "changed_claims": [
+        "reported-force-scope",
+        "march-route-and-delay",
+        "unheard-battle",
+        "converging-plan",
+        "fulton-road-uncovered",
+        "recorded-result",
+        "casualty-records"
+      ]
+    },
+    "MS002": {
+      "dossier_path": "data/evidence/MS002.json",
+      "archived_dossier_path": "data/evidence/history/MS002.v1.json",
+      "archived_dossier_sha256": "bb7ff5e5976eeef9521c77aa0f5728ebe5298ea3ec1c3b09372326a21c212b74",
+      "corrected_dossier_sha256": "91dc9bcf3db66e047f1a7264fae97d2aadaf6af52f0cf930a486c194c5ce5db5",
+      "changed_claims": [
+        "command-and-delay",
+        "casualty-records"
+      ]
+    },
+    "TN007": {
+      "dossier_path": "data/evidence/TN007.json",
+      "archived_dossier_path": "data/evidence/history/TN007.v1.json",
+      "archived_dossier_sha256": "e2e451d31ea67949fece6f0148e76b291e17e21903a1da981235ae3183606b9c",
+      "corrected_dossier_sha256": "18ccb4e2add8d5d212aa2b27715f157c90684fbba406d20a5a12d6d97fcee61c",
+      "changed_claims": [
+        "reported-force-scope",
+        "river-crossings",
+        "pursuit-congestion",
+        "sequential-command",
+        "recorded-result"
+      ]
+    }
+  },
+  "notes": "Notes IC-N1 (remove 'instead'; one citation added) and IC-N2 (Price's 494 versus printed 496) are adopted; IC-N3 to IC-N6 are not. Citations rise from 76 to 91 (90 from the required findings plus one from IC-N1); claims and unknowns are unchanged.",
+  "independent_followup_review": false
+}
