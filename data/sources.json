@@ -10998,6 +10998,79 @@
       },
       "revision_kind": "metadata_only",
       "revision_note": "VB63-R9: the edition quoted the garbled imprint incompletely; the OCR reads '1 SS  9.' at parent offset 1525. For the four selections, the recorded title range [1101,1521) ends inside 'OFFICE' and omits the imprint line; ranges and raw bytes are unchanged. Same pinned raw bytes; not an additional witness."
+    },
+    {
+      "title": "Abner Doubleday, Chancellorsville and Gettysburg",
+      "author": "Abner Doubleday",
+      "publication_year": 1882,
+      "publication_date": null,
+      "edition": "New York: Charles Scribner's Sons, 1882 (Campaigns of the Civil War, VI), per catalog and OCR title; not checked against print.",
+      "archival_identifier": "Internet Archive chancellorsville00doubuoft; Robarts Library, University of Toronto; digitized 2007 with Microsoft funding",
+      "document_date": null,
+      "document_date_note": "Retrospective narrative. The preface is signed New York, January 1883, in OCR, after the 1882 imprint; neither date is assigned to narrative passages or quoted orders.",
+      "independence_group": "doubleday-chancellorsville-gettysburg-1882",
+      "dependency_note": "One retrospective history by a Union general who, by his preface, was 'to a considerable extent, an actor' in the events and commanded a division at Chancellorsville and the First Corps at Gettysburg; an interested participant account. Its strength figures partly relay Forbes and Hotchkiss and Allan, and its losses table is 'from the official reports'. Quoted orders and writers are not additional families; relationship to later NPS summaries is unestablished.",
+      "rights": "Underlying 1882 book is public domain in the United States. Public catalog metadata and full OCR retained, including digitizer attribution; no print scans or maps downloaded.",
+      "source_kind": "retrospective_history",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/chancellorsville00doubuoft",
+      "id": "doubleday-chancellorsville-selections-v2",
+      "path": "data/raw/chancellorsville-v1/doubleday-selections.txt",
+      "format": "text",
+      "sha256": "fcb245ece8b8a7f40c114dfa13ef8f83bfb2fefe06c673c428899e635d96932d",
+      "parent_source_id": "doubleday-ocr-v1",
+      "parent_sha256": "47d0820221f61fc82678e5ae108df83ede557e53d34a18186161d9025487e799",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title-and-preface": {
+          "start": 285,
+          "end": 4931
+        },
+        "strengths": {
+          "start": 9278,
+          "end": 11779
+        },
+        "may-1": {
+          "start": 26840,
+          "end": 34988
+        },
+        "may-2-warning-and-rout": {
+          "start": 47894,
+          "end": 55809
+        },
+        "may-3-hooker-injured": {
+          "start": 113999,
+          "end": 114883
+        },
+        "council-and-recrossing": {
+          "start": 144448,
+          "end": 146034
+        },
+        "losses": {
+          "start": 150800,
+          "end": 151912
+        }
+      },
+      "document_dates_by_section": {
+        "title-and-preface": null,
+        "strengths": null,
+        "may-1": null,
+        "may-2-warning-and-rout": null,
+        "may-3-hooker-injured": null,
+        "council-and-recrossing": null,
+        "losses": null
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Transcription note, title/preface and six bounded Chancellorsville passages read in full: strengths (OCR p.2), May 1 (pp.10–14), the May 2 warning order and the XI Corps (pp.22–26), Hooker's injury and the idle corps (p.53, between the p.53 running head and the p.54 header), the council and recrossing (pp.67–68), and the losses table (pp.70–71; p.71 inferred from an unnumbered running head). Chapter headings and the Gettysburg chapters were read only for the contents list.",
+      "supersedes": {
+        "source_id": "doubleday-chancellorsville-selections-v1",
+        "metadata_sha256": "e8896d6fef4c284beb65e5aac058b8567f79cf109f24839d7a98c606541da50f"
+      },
+      "revision_kind": "metadata_only",
+      "revision_note": "CV-R1/R2: corrected page statements in the inspection note (Hooker's injury on p.53; losses table on pp.70–71). Same pinned raw bytes and ranges; not an additional witness."
     }
   ]
 }

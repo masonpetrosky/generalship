@@ -231,10 +231,13 @@ Coverage is **21/36 complete campaigns by dossier presence**, with zero promoted
 
 The [Chancellorsville Campaign first pass](research/chancellorsville-first-pass-v1.md) adds
 all **three frozen records, VA032, VA034 and VA033**, with **27 claims, 3 explicit unknowns
-and 119 citations** from NPS/CWSAC, a newly pinned Doubleday history, and Lee's,
+and 131 citations** from NPS/CWSAC, a newly pinned Doubleday history, and Lee's,
 Sedgwick's and Early's reports in Official Records Volume XXV Part 1. Salem Church and
 Fredericksburg II lie inside Chancellorsville's interval, and campaign-wide loss totals
-are not assigned or added. Separate review is pending.
+are not assigned or added. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/chancellorsville-c3a4911-opus-high-v1/review.md)
+found ten locator, attribution and wording corrections, all fixed and
+[verified by the primary](../artifacts/review-results/chancellorsville-c3a4911-opus-high-v1/primary-assessment.md).
 Coverage is **22/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Streight's Raid first pass](research/streights-raid-first-pass-v1.md) adds the sole

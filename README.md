@@ -142,7 +142,8 @@ The [Vicksburg 1863 pass](docs/research/vicksburg-1863-first-pass-v1.md) adds te
 dossiers, 92 claims, 10 explicit unknowns and 383 citations. Opus 5.5 `high` reviewed them;
 its nine required corrections are fixed and verified by the primary.
 The [Chancellorsville pass](docs/research/chancellorsville-first-pass-v1.md) adds three
-dossiers, 27 claims, 3 explicit unknowns and 119 citations. Separate review is pending.
+dossiers, 27 claims, 3 explicit unknowns and 131 citations. Opus 5.5 `high` reviewed them;
+its ten required corrections are fixed and verified by the primary.
 The [Streight's Raid pass](docs/research/streights-raid-first-pass-v1.md) adds one
 dossier, 9 claims, 1 explicit unknown and 49 citations. Opus 5.5 `high` reviewed it;
 its three required corrections are fixed and verified by the primary.

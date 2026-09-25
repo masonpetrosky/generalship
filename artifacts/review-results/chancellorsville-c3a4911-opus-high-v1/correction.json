@@ -1,0 +1,126 @@
+{
+  "review_sha256": "7d3ab5792bdd9db69b77de31355bb4decfa5313a5e0ff32220d9f6e7fb35b711",
+  "prepared_commit": "c3a49116df083863dee0a0ddf7d1947cb2d000ba",
+  "findings": [
+    {
+      "finding_id": "CV-R1",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; Hooker-injury locators now p.53, memo corrected, and a metadata_only v2 selection record corrects the inspection note."
+    },
+    {
+      "finding_id": "CV-R2",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; losses-table locators now p.70 and inferred p.71, memo and v2 inspection note corrected."
+    },
+    {
+      "finding_id": "CV-R3",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; the p.25 locator is labelled as inferred and the memo counts three inferred locators."
+    },
+    {
+      "finding_id": "CV-R4",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; value rewritten with four citations and the attributed-judgment rationale."
+    },
+    {
+      "finding_id": "CV-R5",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; Doubleday's own words replace 'apathy', with one citation."
+    },
+    {
+      "finding_id": "CV-R6",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; 'lost' replaces 'leaving', with one citation."
+    },
+    {
+      "finding_id": "CV-R7",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; hearsay attribution and the table's OCR arithmetic recorded."
+    },
+    {
+      "finding_id": "CV-R8",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; Sedgwick's captures qualified and scoped, with one citation."
+    },
+    {
+      "finding_id": "CV-R9",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; the CWSAC/NPS 'left flank' and 'Lt. Gen.' recorded with two citations and not adopted."
+    },
+    {
+      "finding_id": "CV-R10",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; memo strength wording corrected."
+    },
+    {
+      "finding_id": "CV-O1",
+      "disposition": "deferred",
+      "summary": "the edition's series numeral comes from OCR signature marks, not catalog; not revised in this pass."
+    },
+    {
+      "finding_id": "CV-O2",
+      "disposition": "recommendation_adopted_by_primary",
+      "summary": "VA034 names Griffin's 18th and 21st Mississippi and cites the rest of Barksdale's infantry."
+    },
+    {
+      "finding_id": "CV-O3",
+      "disposition": "recommendation_adopted_by_primary",
+      "summary": "VA034 adds Early's 'in all probability, stragglers'."
+    },
+    {
+      "finding_id": "CV-O4",
+      "disposition": "recommendation_adopted_by_primary",
+      "summary": "VA032 says Fitzhugh Lee's cavalry under Stuart in person."
+    },
+    {
+      "finding_id": "CV-O5",
+      "disposition": "recommendation_adopted_by_primary",
+      "summary": "VA033 cites the left resting on the river."
+    },
+    {
+      "finding_id": "CV-O6",
+      "disposition": "recommendation_adopted_by_primary",
+      "summary": "VA032 calls the frozen bounds imported source-reported forces-engaged figures."
+    }
+  ],
+  "dossiers": {
+    "VA032": {
+      "dossier_path": "data/evidence/VA032.json",
+      "archived_dossier_path": "data/evidence/history/VA032.v1.json",
+      "archived_dossier_sha256": "5c4baf3677b2525b67bd428b579ebb8c1ea9c0e4937819b609497093385e8c6e",
+      "corrected_dossier_sha256": "e5a8bd5f5dcdbd5ee2e4ac54e52e372e39ed6111dd00866feafcb5439f273000",
+      "changed_claims": [
+        "opening-personnel-unknown",
+        "reported-force-scope",
+        "wilderness-and-works",
+        "bridges-and-idle-corps",
+        "warning-and-flank",
+        "command-roles",
+        "recorded-result",
+        "casualty-records"
+      ]
+    },
+    "VA033": {
+      "dossier_path": "data/evidence/VA033.json",
+      "archived_dossier_path": "data/evidence/history/VA033.v1.json",
+      "archived_dossier_sha256": "95c28d4298ac18b3f0eb14030a7991f67b9a4c8fde330e052563933e142f400a",
+      "corrected_dossier_sha256": "7cb9a6beeae9db9e407fff999e53d9fec417490bdde68e9356a61df90c217c52",
+      "changed_claims": [
+        "extended-line",
+        "casualty-records"
+      ]
+    },
+    "VA034": {
+      "dossier_path": "data/evidence/VA034.json",
+      "archived_dossier_path": "data/evidence/history/VA034.v1.json",
+      "archived_dossier_sha256": "6b2d81b9887b4bff6b7da678cdc518a0c90288eff9ab48b6a0b805cf69372dbe",
+      "corrected_dossier_sha256": "a1d4a77070771b91a6e643f0357025750037cc91dc0c39b98657408eeb44ed3b",
+      "changed_claims": [
+        "reported-force-scope",
+        "casualty-records"
+      ]
+    }
+  },
+  "notes": "One metadata_only revision supersedes the Doubleday Chancellorsville selection record; raw bytes are unchanged. Citations rise from 119 to 131; claims and unknowns are unchanged.",
+  "independent_followup_review": false
+}

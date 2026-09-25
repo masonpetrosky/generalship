@@ -68,6 +68,12 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Chancellorsville review correction, 2026-09-25
+
+One `metadata_only` revision (CV-R1/R2) supersedes `doubleday-chancellorsville-selections-v1`
+with `-v2`, correcting its inspection note's page statements. Raw files, hashes and
+ranges are unchanged; the registry is now **440 entries / 430 raw paths**.
+
 ### Grant's Operations Against Vicksburg review correction, 2026-09-25
 
 Six `metadata_only` revisions (VB63-R9) supersede `ia-or24-2-illinois-metadata-v1`,

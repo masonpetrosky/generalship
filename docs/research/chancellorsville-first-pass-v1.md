@@ -2,14 +2,16 @@
 
 Prepared 2026-09-25. All **three frozen records** in **Chancellorsville Campaign
 [April-May 1863]** now have draft dossiers: **27 claims, 3 explicit null unknowns and
-119 citation occurrences**. All seven dimensions are represented in each record.
-Separate review is pending. All dossiers remain drafts; no features are admitted.
+131 citation occurrences** after review correction. All seven dimensions are
+represented in each record. Separate Claude Opus 5.5 `high` [review](../../artifacts/review-results/chancellorsville-c3a4911-opus-high-v1/review.md) found
+ten required corrections, all applied and verified by the primary. All dossiers remain
+drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| VA032 — Chancellorsville | 1863-04-30 to 05-06 | 9 | 1 | 50 | 3 |
-| VA034 — Fredericksburg II | 1863-05-03 | 9 | 1 | 33 | 3 |
-| VA033 — Salem Church | 1863-05-03 to 05-04 | 9 | 1 | 36 | 3 |
+| VA032 — Chancellorsville | 1863-04-30 to 05-06 | 9 | 1 | 58 | 3 |
+| VA034 — Fredericksburg II | 1863-05-03 | 9 | 1 | 35 | 3 |
+| VA033 — Salem Church | 1863-05-03 to 05-04 | 9 | 1 | 38 | 3 |
 
 Coverage is **90/127 draft dossiers**, **37 without**, and **22/36 complete source
 campaigns by dossier presence**. All 87 earlier dossiers and all historical revisions
@@ -30,11 +32,16 @@ summaries in full. NPS/CWSAC and the Arnold tables are one family.
 - **VA034** adds Sedgwick's report and **Early's** May 7 report.
 
 The three reports are selections from the already pinned *Official Records* Series I,
-Volume XXV, Part 1. Two Doubleday locators are explicit inferences:
+Volume XXV, Part 1. After review correction, Doubleday locators account for OCR
+headers the first draft missed:
 
-- Hooker's injury is placed on p.54 because no p.54 header is legible.
-- The losses table lies between the p.69 and p.73 markers, and its page numbers are not
-  legible.
+- Hooker's injury is on p.53: it follows the p.53 running head and precedes the
+  legible (OCR-misspelled) p.54 header; the May 3 date comes from that running head,
+  outside the selected range.
+- The losses table is on an inferred p.71: it follows an unnumbered running head
+  between the legible p.70 and p.72 markers.
+- The XI Corps passage is on an inferred p.25, the chapter IV opening page between the
+  p.24 and p.26 markers.
 
 No maps, returns, Hooker's testimony or print pages were inspected. Stop after this
 batch.
@@ -51,7 +58,9 @@ metadata, full OCR and selection, and three OR selections.
   engagement and are not assigned or added.
 - **Opening strengths remain unknown.** VA032 has frozen structured bounds (97,382 /
   57,352), which are imported and unchanged. Doubleday gives Hooker about 124,500 of all
-  arms or 113,000–114,500 effective, and relays 62,000 for Lee. VA033 and VA034 have
+  arms and doubts he had over 113,000 for actual combat; he relays Forbes's 114,500 total
+  effective and Forbes's 62,000 for Lee, and says Lee's army numbered about 62,000 by
+  Confederate official reports. VA033 and VA034 have
   unit-level frozen text ("Corps") and no counts; Sedgwick's "15,000 strong" column is a
   report he received.
 - **Casualties**: frozen 24,000 (VA032), 5,000 (VA033) and 2,000 (VA034) against live
@@ -71,6 +80,27 @@ probability, causal effect or new commander ranking is introduced. Cohort and bo
 admission proposals remain unchanged, with **zero promoted rows**. The baseline still
 uses **23/127 engagements in 13 eligible groups**, with strength Brier **0.276882**
 versus **0.250000** for equal odds.
+
+## Review correction and validation
+
+The reviewer found ten required corrections, all verified against the retained text and
+the parent OCR (each new quote occurs once) and applied:
+
+- **CV-R1 to CV-R3** correct the three Doubleday locators above.
+- **CV-R4 to CV-R7** restore Doubleday's qualifications and Lee's credit to Jackson,
+  replace "apathy" with Doubleday's words, read "lost" rather than "leaving", and attribute
+  the table's inaccuracy to hearsay while recording its OCR arithmetic.
+- **CV-R8** scopes Sedgwick's captures "according to the best information".
+- **CV-R9** records the CWSAC/NPS "left flank" and "Lt. Gen." against Lee and Doubleday.
+- **CV-R10** fixes the memo's strength wording above.
+
+Five optional notes are adopted as wording or citations; the series-numeral note is
+deferred. A `metadata_only` revision (`doubleday-chancellorsville-selections-v2`)
+corrects the selection's inspection note, and VA032 cites it. Citations rise from 119 to
+131; claims and unknowns are unchanged. The originals are retained as
+`data/evidence/history/VA032.v1.json`, `VA033.v1.json` and `VA034.v1.json`, linked by
+`supersedes`. The [primary assessment](../../artifacts/review-results/chancellorsville-c3a4911-opus-high-v1/primary-assessment.md) closes all ten
+findings; no second reviewer pass is claimed.
 
 Next by frozen campaign start is **Streight's Raid in Alabama and Georgia [April
 1863]**: AL001. Do not start that group within this batch.
