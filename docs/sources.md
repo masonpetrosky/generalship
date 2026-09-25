@@ -68,6 +68,14 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### East Tennessee Campaign first pass, 2026-09-25
+
+The [two-record memo](research/east-tennessee-first-pass-v1.md) adds **8 records**, bringing
+the registry to **512 entries / 496 raw paths**, preserving the previous **504/488**. Two
+NPS battle HTML/text pairs remain in the NPS/CWSAC family. Foster, Samuel Jones, Burnside
+and Williams selections reuse `or30-2-illinois-ocr-v1`. Character ranges and
+whitespace-only normalization reproduce all sections. No model inputs are changed.
+
 ### Chickamauga Campaign first pass, 2026-09-25
 
 The [three-record memo](research/chickamauga-first-pass-v1.md) adds **12 records**, bringing

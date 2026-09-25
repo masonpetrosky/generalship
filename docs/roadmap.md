@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **108 draft dossiers / 127 engagements**, with **19 without a dossier**.
+There are **110 draft dossiers / 127 engagements**, with **17 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -284,8 +284,15 @@ reports in newly pinned Official Records Volume XXX Part 2. Campaign-wide figure
 assigned to any record. Separate review is pending.
 Coverage is **27/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **East Tennessee Campaign [September-October 1863]**, the next complete frozen
-group by earliest engagement date: **two records, TN019, TN020**.
+The [East Tennessee Campaign first pass](research/east-tennessee-first-pass-v1.md) adds both
+**frozen records, TN019 and TN020**, with **19 claims, 2 explicit unknowns and 80
+citations** from NPS/CWSAC and Foster's, Samuel Jones's, Burnside's and Williams's
+reports in Official Records Volume XXX Part 2. The Blountsville fire and Blue Springs
+assault disputes remain visible. Separate review is pending.
+Coverage is **28/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Bristoe Campaign [October-November 1863]**, the next complete frozen
+group by earliest engagement date: **five records, VA039, VA040, VA041, VA042, VA043**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 
