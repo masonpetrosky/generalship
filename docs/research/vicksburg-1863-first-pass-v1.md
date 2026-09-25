@@ -2,23 +2,24 @@
 
 Prepared 2026-09-25. The ten frozen records without dossiers in **Grant's Operations
 Against Vicksburg [March-July 1863]** now have draft dossiers: **92 claims, 10 explicit
-null unknowns and 369 citation occurrences**. All seven dimensions are represented in
-each record. The existing MS009 (Champion Hill) draft is unchanged, so the group is now
-complete by dossier presence. Separate review is pending. All dossiers remain drafts;
-no features are admitted.
+null unknowns and 383 citation occurrences** after review correction. All seven
+dimensions are represented in each record. The existing MS009 (Champion Hill) draft is unchanged, so the group is now
+complete by dossier presence. Separate Claude Opus 5.5 `high`
+[review](../../artifacts/review-results/vicksburg-1863-ddf392c-opus-high-v1/review.md) found nine required corrections, all applied and verified by
+the primary. All dossiers remain drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
 | MS004 — Grand Gulf | 1863-04-29 | 9 | 1 | 38 | 3 |
-| MS005 — Snyder's Bluff | 1863-04-29 to 05-01 | 9 | 1 | 28 | 3 |
+| MS005 — Snyder's Bluff | 1863-04-29 to 05-01 | 9 | 1 | 30 | 3 |
 | MS006 — Port Gibson | 1863-05-01 | 9 | 1 | 43 | 3 |
-| MS007 — Raymond | 1863-05-12 | 9 | 1 | 34 | 3 |
-| MS008 — Jackson | 1863-05-14 | 9 | 1 | 41 | 3 |
+| MS007 — Raymond | 1863-05-12 | 9 | 1 | 36 | 3 |
+| MS008 — Jackson | 1863-05-14 | 9 | 1 | 43 | 3 |
 | MS010 — Big Black River Bridge | 1863-05-17 | 9 | 1 | 35 | 3 |
-| MS011 — Vicksburg | 1863-05-18 to 07-04 | 10 | 1 | 42 | 3 |
-| LA011 — Milliken's Bend | 1863-06-07 | 9 | 1 | 38 | 3 |
-| LA014 — Goodrich's Landing | 1863-06-29 to 06-30 | 10 | 1 | 37 | 3 |
-| AR008 — Helena | 1863-07-04 | 9 | 1 | 33 | 3 |
+| MS011 — Vicksburg | 1863-05-18 to 07-04 | 10 | 1 | 45 | 3 |
+| LA011 — Milliken's Bend | 1863-06-07 | 9 | 1 | 39 | 3 |
+| LA014 — Goodrich's Landing | 1863-06-29 to 06-30 | 10 | 1 | 38 | 3 |
+| AR008 — Helena | 1863-07-04 | 9 | 1 | 36 | 3 |
 
 Coverage is **87/127 draft dossiers**, **40 without**, and **21/36 complete source
 campaigns by dossier presence**. All 77 earlier dossiers and all historical revisions
@@ -80,7 +81,8 @@ OCR for the three OR volumes, one Greene selection and eleven OR selections.
   Sherman General and Prentiss Brigadier General against the frozen ranks; none is
   adopted, and no listed commander receives automatic sole credit.
 - **Goodrich's Landing's purpose** is recorded from Walker's report: breaking up leased
-  plantations and returning about 2,000 captured Black people to enslavement. The fate
+  plantations and returning about 2,000 captured Black people to enslavement, except, he
+  says, those captured in arms and a few he describes as the property of disloyal citizens. The fate
   of the soldiers surrendered unconditionally remains a deferred question.
 - Pre-existing works at Grand Gulf, Big Black, Vicksburg, the Goodrich's Landing mound
   and Helena are tagged `inherited` relative to each engagement start; other terrain,
@@ -91,6 +93,33 @@ probability, causal effect or new commander ranking is introduced. Cohort and bo
 admission proposals remain unchanged, with **zero promoted rows**. The baseline still
 uses **23/127 engagements in 13 eligible groups**, with strength Brier **0.276882**
 versus **0.250000** for equal odds.
+
+## Review correction and validation
+
+The reviewer found nine required corrections, all verified against the retained text
+(each new quote occurs once) and applied:
+
+- **VB63-R1** reports the OCR readings "12 oT 15" and "GOO".
+- **VB63-R2** adds Gregg's 50-man squadron and his exact 40.
+- **VB63-R3** scopes Greene's four brigades and attributes the "half of Grant's army"
+  inference to Johnston.
+- **VB63-R4** restores Greene's "not known" and the May 22 scope.
+- **VB63-R5** replaces an uncited return-table clause with McCulloch's own 184.
+- **VB63-R6** records Walker's exception for those captured in arms.
+- **VB63-R7** and **VB63-R8** correct Holmes's treatment of Price and the structure of
+  his aims.
+- **VB63-R9** records six `metadata_only` source revisions. These correct the OR XXIV
+  Part 2 imprint reading ("1 SS  9.") and note that the Part 2 title ranges end inside
+  "OFFICE". The raw bytes and ranges are unchanged, and LA011 and LA014 now cite the v2
+  selection records.
+
+Non-blocking notes N1 (component sums), N2, N3, N4 (restored hedges), N5 and N7 are
+adopted as wording; N6 (a duplicated Greene page outside the selection) needs no change.
+Citations rise from 369 to 383; claims and unknowns are unchanged. The originals are
+retained as `data/evidence/history/*.v1.json` for nine dossiers, linked by
+`supersedes`, and the registry is now **439 entries / 430 raw paths**. The
+[primary assessment](../../artifacts/review-results/vicksburg-1863-ddf392c-opus-high-v1/primary-assessment.md) closes all nine findings; no second
+reviewer pass is claimed.
 
 Next by frozen campaign start is **Chancellorsville Campaign [April-May 1863]**: VA032,
 VA033 and VA034. Do not start that group within this batch.

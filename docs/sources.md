@@ -68,6 +68,14 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Grant's Operations Against Vicksburg review correction, 2026-09-25
+
+Six `metadata_only` revisions (VB63-R9) supersede `ia-or24-2-illinois-metadata-v1`,
+`or24-2-illinois-ocr-v1` and the Dennis, McCulloch, Reid and Walker selections with
+`-v2` records whose edition quotes the garbled imprint in full ("1 SS  9.", outside
+the selected title ranges). Raw files, hashes and ranges are unchanged; the registry
+is now **439 entries / 430 raw paths**.
+
 ### Streight's Raid first pass, 2026-09-25
 
 The [one-record memo](research/streights-raid-first-pass-v1.md) adds **4 records**,

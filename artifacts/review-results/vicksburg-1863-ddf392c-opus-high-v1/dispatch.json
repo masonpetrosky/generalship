@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 48bf4767-b3e0-44d2-801d-aed3a7a93adc",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 0f341660bdb72868683b27842fd6597eec8b8182; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T04:46:56Z",
+  "prepared_commit": "ddf392c36dc39eb63c2fe3506b35af530e3adbfd",
+  "bundle_commit": "0f341660bdb72868683b27842fd6597eec8b8182",
+  "assignment_sha256": "6dfb1b8c793025d1bfa8f5c1845b7c681dfd0f18742fe2ca0a5c7a2e595f453a",
+  "inputs_manifest_sha256": "138b31616e94dd396598907a36c2e79286996e69f05b4480cdef9333f322fec7",
+  "num_turns": 63,
+  "duration_ms": 677415,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** Most of the extraction holds up, but nine narrow problems need fixing (VB63-R1 to VB63-R9). I found no invented quotes, adopted strengths or causal claims. This is an AI review, not human historical adjudication, independent corroboration or feature admission.\n\n**Review file:** `artifacts/review-results/vicksburg-1863-ddf392c-opus-high-v1/review.md`. It is the only file I wrote; nothing was committed or pushed.\n\n**Finding IDs:** VB63-R1, R2, R3, R4, R5, R6, R7, R8, R9. There are also seven optional notes, N1–N7.\n\n**Inputs:** the assignment and `inputs.json` hashes match, and so do all 82 bound files, both in the worktree and at `ddf392c`. `make check` passed offline (82 tests).\n\n**Inspected:**\n- **Claims:** all 92 claims, 369 citations and 10 null unknowns, each checked against its cited passage and the text around it.\n- **Sources:** all ten NPS pages and every cited Greene and Official Records section, read in full. All 242 page locators match the page markers, including Greene's three misprinted page numbers.\n- **Rebuilt text:** all ten NPS text files and all twelve source extracts rebuild exactly from their pinned originals.\n- **Counts and hashes:** coverage is 87/127, with 21 of 36 campaigns complete. The source registry has 417 records and 414 paths, and nothing older changed. MS009, earlier dossiers, archived revisions, cohort, admission files, baseline and battle data are all byte-identical. The receipt and packet checks pass, no rows are promoted, and the baseline is unchanged. Chancellorsville (VA032–VA034) is confirmed as the next campaign.\n- **Not inspected:** print, facsimiles, whole volumes, compiled returns, maps or navy reports.\n\n**Required corrections:**\n- **R1:** two OCR readings in MS004 and MS006 were silently tidied (\"12 oT 15\" became \"12 or 15\", \"GOO\" became \"600\"). The values should show the OCR form.\n- **R2:** MS007 leaves out the 50-man cavalry squadron Gregg says joined him overnight, and turns his \"40 men\" into \"about 40\".\n- **R3:** MS008 makes Greene's 12,000 sound like four brigades that were all still expected; two were already present. It also credits prisoners with what is Johnston's own inference (\"half of Grant's army\").\n- **R4:** MS011 drops Greene's statement that the Confederate loss \"is not known\". It also blurs that his estimate of about 500 covers May 22 only.\n- **R5:** LA011 has an uncited clause: the 185 printed in McCulloch's return table comes from a passage that was not kept as a cited source extract.\n- **R6:** LA014 and the memo omit Walker's exception for \"those captured in arms\". This matters to the deferred question of what happened to the soldiers who surrendered.\n- **R7:** AR008 says Holmes blames Price. Holmes only records that Price attacked late and passes on Price's explanation.\n- **R8:** AR008 garbles Holmes's two aims: raising the siege, and keeping the river closed if Vicksburg surrendered.\n- **R9:** the Official Records Volume XXIV Part 2 metadata quotes the garbled imprint year as '1 SS'; the scan actually reads '1 SS  9.'. The selected title text also cuts off mid-word at \"OFFIC\". Correctly, no year is substituted. The contract's route for this fix is a metadata-only revision of six source records.\n\nThe review gives exact replacement text and verified quotes for each correction."
+}

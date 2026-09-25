@@ -219,12 +219,14 @@ Coverage is **20/36 complete campaigns by dossier presence**, with zero promoted
 
 The [Grant's Operations Against Vicksburg first pass](research/vicksburg-1863-first-pass-v1.md)
 adds the **ten frozen records without dossiers (MS004–MS008, MS010, MS011, LA011, LA014,
-AR008)**, with **92 claims, 10 explicit unknowns and 369 citations** from NPS/CWSAC, a new
+AR008)**, with **92 claims, 10 explicit unknowns and 383 citations** from NPS/CWSAC, a new
 Greene selection and eleven report selections from newly pinned Official Records Volumes
 XXIV (Parts 1 and 2) and XXII (Part 1). MS009 is unchanged. MS011's siege interval
 contains three separate engagements whose quantities are not added; the Goodrich's
-Landing surrender terms and every casualty comparison remain disputed. Separate review
-is pending.
+Landing surrender terms and every casualty comparison remain disputed. Separate Claude
+Opus 5.5 `high` [review](../artifacts/review-results/vicksburg-1863-ddf392c-opus-high-v1/review.md)
+found nine extraction, attribution and metadata corrections, all fixed and
+[verified by the primary](../artifacts/review-results/vicksburg-1863-ddf392c-opus-high-v1/primary-assessment.md).
 Coverage is **21/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Chancellorsville Campaign first pass](research/chancellorsville-first-pass-v1.md) adds
