@@ -2,9 +2,12 @@
 
 ## Current priority — reviewed second-tier strength profile
 
-Owner decision, 2026-09-25: first-pass coverage is complete. The next step is separate
-review of the [reported side-strength design](feature-admission-reported-strength.md);
-see **Next priority** below. The coverage-first direction that follows still bounds any
+Owner decision, 2026-09-25: first-pass coverage is complete, and the
+[reported side-strength design](feature-admission-reported-strength.md) is accepted after
+separate review. Its [extraction scoping](research/reported-strength-scoping-v1.md) finds
+that the design would add very few rows (about 23–25 complete engagements, with two
+current baseline rows dropping out as loss-derived). **The next step is an owner decision
+among the scoping memo's options** before a proposal is built; see **Next priority** below. The coverage-first direction that follows still bounds any
 further research depth.
 
 Owner direction, 2026-09-20: the repeated Shiloh source investigations exceeded

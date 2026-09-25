@@ -7,6 +7,7 @@ import sys
 
 from .baseline import evaluate
 from .admission import DEFAULT_PROPOSAL, check as check_admission
+from .strength_admission import DEFAULT_PROPOSAL as STRENGTH_PROPOSAL, check as check_strength
 from .dataset import build_dataset
 from .evidence import validate_all
 from .sources import digest, fetch_sources, read_json, write_json
@@ -132,13 +133,16 @@ def main(argv=None):
     admission_parser = sub.add_parser('admission-check', help='Offline proposal/release audit; never promotes inputs')
     admission_parser.add_argument('path', nargs='?', default=DEFAULT_PROPOSAL)
     admission_parser.add_argument('--details', action='store_true', help='Print the complete ledger and provenance')
+    strength_parser = sub.add_parser('strength-check', help='Offline tier-2 reported-strength proposal/release audit; never promotes inputs')
+    strength_parser.add_argument('path', nargs='?', default=STRENGTH_PROPOSAL)
+    strength_parser.add_argument('--details', action='store_true', help='Print the complete ledger and provenance')
     args = parser.parse_args(argv)
     root = args.root.resolve()
     try:
         if args.command in {"check", "build"}:
             result = run_build(root, write=args.command == "build")
-        elif args.command == 'admission-check':
-            checked = check_admission(root, args.path)
+        elif args.command in {'admission-check', 'strength-check'}:
+            checked = (check_admission if args.command == 'admission-check' else check_strength)(root, args.path)
             result = checked if args.details else {
                 'kind': checked['kind'], 'status': checked.get('release_status', checked['status']),
                 'coverage': {k: v for k, v in checked['coverage'].items() if k != 'ledger'},

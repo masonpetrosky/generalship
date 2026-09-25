@@ -68,6 +68,14 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Reported-strength scoping, 2026-09-25
+
+The [scoping memo](research/reported-strength-scoping-v1.md) adds **27 records**: Livermore's
+*Numbers and Losses* (1901) catalog metadata, full OCR and 25 downscaled page images of
+printed pp.78–107 (Internet Archive `numberslosses00liverich`). Figures were read from the
+images because the OCR merges note markers into numbers. The registry is now **608 entries /
+587 raw paths**, preserving the previous **581/560**. No model inputs are changed.
+
 ### Operations about Dandridge review correction, 2026-09-25
 
 One `metadata_only` revision (DAN-R4) supersedes `or32-1-longstreet-dandridge-selections-v1`
