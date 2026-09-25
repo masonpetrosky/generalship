@@ -73,7 +73,9 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 
 ## Research direction
 
-**Current priority: comparable coverage across the 127 engagements.** We have
+**Current priority: a reviewed second-tier strength profile.** First-pass coverage is
+complete; the [reported side-strength design](docs/feature-admission-reported-strength.md)
+is the next step toward more usable rows (see the roadmap). Coverage status: we have
 one hundred twenty-seven draft dossiers and 0 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one

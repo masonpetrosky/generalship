@@ -376,9 +376,19 @@ Coverage is **36/36 complete campaigns by dossier presence**, with zero promoted
 
 All 36 frozen campaign groups now have first-pass dossiers. Every group's first
 pass has a recorded separate review. First-pass coverage
-does not admit features or change the baseline; the next research priority after these
-reviews is the owner's decision. Keep every engagement regardless of outcome, reputation
-or available strengths.
+does not admit features or change the baseline.
+
+**Next priority (owner decision, 2026-09-25): a second-tier reported-strength profile.**
+The strict opening profile cannot yield rows at feasible depth: 113 dossiers leave opening
+personnel unknown, and Shiloh still has zero eligible candidates. The
+[reported side-strength design](feature-admission-reported-strength.md) proposes
+`reported_side_strength_v1`. It is a coarser, clearly labelled measure of the same class
+as the baseline's CWSAC forces-engaged figures, with its outcome-leakage weakness stated.
+It leaves the opening profile unchanged. The design first needs separate review. After
+acceptance come a validator extension, typed quantities and one targeted strength
+follow-up for the 68 decisive engagements lacking a complete numeric pair. No rows are
+admitted and no model inputs change until a reviewed release exists. Keep every engagement
+regardless of outcome, reputation or available strengths.
 
 Use the [first-pass protocol](methodology.md#research-depth-and-coverage). Report
 dossier coverage, dimensions still unknown, actual review scope and admitted rows
