@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **117 draft dossiers / 127 engagements**, with **10 without a dossier**.
+There are **118 draft dossiers / 127 engagements**, with **9 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -320,8 +320,14 @@ citations** from NPS/CWSAC and Hatch's and Chalmers's reports in Official Record
 XXXI Part 1. Separate review is pending.
 Coverage is **31/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Averell's Raid on the Virginia & Tennessee Railroad [November 1863]**, the next complete frozen
-group by earliest engagement date: **one record, WV012**.
+The [Averell's Raid first pass](research/averell-raid-first-pass-v1.md) adds the sole
+**frozen record, WV012 (Droop Mountain)**, with **9 claims, 1 explicit unknown and 44
+citations** from NPS/CWSAC and Averell's and Echols's reports in Official Records Volume
+XXIX Part 1. Separate review is pending.
+Coverage is **32/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Longstreet's Knoxville Campaign [November-December 1863]**, the next complete frozen
+group by earliest engagement date: **three records, TN023, TN025, TN026**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

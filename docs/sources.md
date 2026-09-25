@@ -68,6 +68,14 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Averell's Raid first pass, 2026-09-25
+
+The [one-record memo](research/averell-raid-first-pass-v1.md) adds **4 records**, bringing
+the registry to **545 entries / 526 raw paths**, preserving the previous **541/522**. One
+NPS battle HTML/text pair remains in the NPS/CWSAC family. Averell and Echols selections
+reuse `or29-1-illinois-ocr-v1`. Character ranges and whitespace-only normalization
+reproduce all sections. No model inputs are changed.
+
 ### Memphis & Charleston Railroad first pass, 2026-09-25
 
 The [one-record memo](research/memphis-charleston-first-pass-v1.md) adds **4 records**,
