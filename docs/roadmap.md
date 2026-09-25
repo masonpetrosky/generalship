@@ -95,10 +95,13 @@ all 54 claims; its one Perryville population-scope correction is fixed and
 Coverage is **9/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Northern Virginia first pass](research/northern-virginia-first-pass-v1.md) adds all
-**six frozen records, VA022–VA027**, with **56 claims, 7 explicit unknowns and 142
+**six frozen records, VA022–VA027**, with **56 claims, 7 explicit unknowns and 143
 citations**. Each uses NPS/CWSAC and Ropes's retrospective history. VA024 remains a
 frozen aggregate operation; what Pope knew of Longstreet on August 30 is recorded
-as disputed. Separate review is pending.
+as disputed. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/northern-virginia-280d5d7-opus-high-v1/review.md)
+found two locator/scope corrections, both fixed and
+[verified by the primary](../artifacts/review-results/northern-virginia-280d5d7-opus-high-v1/primary-assessment.md).
 Coverage is **10/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Maryland first pass](research/maryland-first-pass-v1.md) adds the three undrafted

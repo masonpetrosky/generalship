@@ -2,8 +2,11 @@
 
 Prepared 2026-09-24. All **six frozen records** in **Northern Virginia Campaign
 [August 1862]** now have draft dossiers: **56 claims, 7 explicit null unknowns and
-142 citation occurrences**. All seven dimensions are represented in each record.
-Separate review is pending. All dossiers remain drafts; no features are admitted.
+143 citation occurrences** after review correction. All seven dimensions are
+represented in each record. Separate Claude Opus 5.5 `high`
+[review](../../artifacts/review-results/northern-virginia-280d5d7-opus-high-v1/review.md)
+covered the complete batch; its two required corrections are fixed and verified by
+the primary. All dossiers remain drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
@@ -11,7 +14,7 @@ Separate review is pending. All dossiers remain drafts; no features are admitted
 | VA023 — Rappahannock Station | 1862-08-22 to 08-25 | 9 | 1 | 21 | 2 |
 | VA024 — Manassas Station Operations | 1862-08-25 to 08-27 | 9 | 1 | 23 | 2 |
 | VA025 — Thoroughfare Gap | 1862-08-28 | 9 | 1 | 20 | 2 |
-| VA026 — Manassas, Second | 1862-08-28 to 08-30 | 10 | 1 | 30 | 2 |
+| VA026 — Manassas, Second | 1862-08-28 to 08-30 | 10 | 1 | 31 | 2 |
 | VA027 — Chantilly | 1862-09-01 | 9 | 1 | 22 | 2 |
 
 Coverage is **51/127 draft dossiers**, **76 without**, and **10/36 complete source
@@ -73,8 +76,10 @@ whitespace-only normalization reproduce them.
   Rappahannock Station **225 / 0**, Manassas Station **1,100 / 0**, Thoroughfare
   Gap **100 / 0**, Second Manassas **22,180 / 22,179**; Chantilly agrees at 2,100.
   Ropes prints Cedar Mountain's Union loss as 2,393 but its components sum to 2,384.
-  His Confederate Manassas figures span the campaign, and he says Federal losses
-  can only be conjectured without returns.
+  His Confederate figures are not bounded to August 28–30: one is an official
+  killed-and-wounded list "at Manassas Plains, in August, 1862", the other Jackson's
+  total "from the Rappahannock to the Potomac". He says Federal losses can only be
+  conjectured without returns.
 - **Result labels:** Rappahannock Station and Chantilly are frozen as Inconclusive,
   with Chantilly's "Confederate strategic victory" qualifier; the live pages say
   Indecisive. Second Manassas's retreat is "precipitous" in NPS but "not a rout"
@@ -105,6 +110,24 @@ effect or new commander ranking is introduced. Cohort and both admission proposa
 remain unchanged, with **zero promoted rows**. The baseline still uses **23/127
 engagements in 13 eligible groups**, with strength Brier **0.276882** versus
 **0.250000** for equal odds. Coverage has not improved predictive results.
+
+## Review correction and validation
+
+The reviewer found two low-severity required corrections. **NV-R1**: two Cedar
+Mountain quotes lie on the unheaded Chapter II opening page, p.19, not p.18; the
+primary reread the OCR layout and changed both locators. **NV-R2**: Ropes labels the
+7,241 as the official list "at Manassas Plains, in August, 1862", not a campaign
+figure; only Jackson's 4,387 runs "from the Rappahannock to the Potomac". The primary
+applied the exact proposed value, rationale and added citation, and corrected the
+memo. VA026 rises from 30 to 31 citations; claims and unknowns are unchanged. The
+original dossiers are retained as `data/evidence/history/VA022.v1.json` and
+`VA026.v1.json`, linked by `supersedes`. Six nonblocking notes change no claim.
+
+The reviewer disclosed calling the packet function during its check, which rewrote
+its own worktree's six packets with byte-identical content; no file in the
+repository changed. The
+[primary assessment](../../artifacts/review-results/northern-virginia-280d5d7-opus-high-v1/primary-assessment.md)
+closes both findings after direct verification; no second reviewer pass is claimed.
 
 Next by frozen campaign start is **Maryland Campaign [September 1862]**: WV010,
 MD002, MD003 (already drafted) and WV016. Do not start that group within this batch.

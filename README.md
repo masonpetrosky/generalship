@@ -106,7 +106,8 @@ The [Heartland Offensive pass](docs/research/heartland-first-pass-v1.md) adds fi
 dossiers, 54 claims, 6 explicit unknowns and 157 citations. Opus 5.5 `high` reviewed
 the complete batch; its one Perryville scope correction is fixed and verified by the primary.
 The [Northern Virginia pass](docs/research/northern-virginia-first-pass-v1.md) adds six
-dossiers, 56 claims, 7 explicit unknowns and 142 citations. Separate review is pending.
+dossiers, 56 claims, 7 explicit unknowns and 143 citations. Opus 5.5 `high` reviewed the
+batch; its two locator/scope corrections are fixed and verified by the primary.
 The [Maryland pass](docs/research/maryland-first-pass-v1.md) adds three dossiers
 (Antietam's existing draft unchanged), 29 claims, 4 explicit unknowns and 79 citations. Separate review is pending.
 The [Iuka and Corinth pass](docs/research/iuka-corinth-first-pass-v1.md) adds three

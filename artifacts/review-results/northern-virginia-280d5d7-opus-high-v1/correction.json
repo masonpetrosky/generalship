@@ -1,0 +1,49 @@
+{
+  "review_sha256": "9a9ae65a23db0d588d48cf7e868d4f5c5db3d48a8a49e7c2258c79df1956b3c2",
+  "prepared_commit": "280d5d7dade3c49a82c45abc14f53f214b984ad3",
+  "findings": [
+    {
+      "finding_id": "NV-R1",
+      "disposition": "accepted_and_corrected_by_primary",
+      "dossier_path": "data/evidence/VA022.json",
+      "archived_dossier_path": "data/evidence/history/VA022.v1.json",
+      "archived_dossier_sha256": "a5e81ce01a21e93f89868d96419773973181bd6b331a3a9d43a133f48112ac68",
+      "corrected_dossier_sha256": "fe53a328063f98e295270d996bd35c69e60938881832651da410eee873928101",
+      "changed_claims": [
+        "reported-force-scope",
+        "reported-beliefs"
+      ],
+      "changed_fields": [
+        "two citation locators: p.18 -> p.19"
+      ],
+      "primary_inspection": "Reread the retained OCR: the '18 THE ARMY UNDER POPE.' header is followed by the close of Chapter I, then the unheaded Chapter II opening page before '20 THE ARMY UNDER POPE.'; both quotes lie on that page (p.19). Applied the exact locator replacements."
+    },
+    {
+      "finding_id": "NV-R2",
+      "disposition": "accepted_and_corrected_by_primary",
+      "dossier_path": "data/evidence/VA026.json",
+      "archived_dossier_path": "data/evidence/history/VA026.v1.json",
+      "archived_dossier_sha256": "df7054ebab5937f3c356205722de185efaac1db86a10d5d70ed99b0fac6b6a39",
+      "corrected_dossier_sha256": "86d7bafd5fab0f976b9e2a16348b88111c8850315257d4ba7812a417ecb24200",
+      "changed_claims": [
+        "casualty-records"
+      ],
+      "changed_fields": [
+        "value",
+        "rationale",
+        "one citation appended"
+      ],
+      "primary_inspection": "Reread Appendix D, p.191: the 7,241 is 'The official list of casualties at Manassas Plains, in August, 1862'; only Jackson's 4,387 is 'from the Rappahannock to the Potomac'. Applied the exact value, rationale and citation, and the memo wording."
+    }
+  ],
+  "nonblocking_notes": {
+    "NV-N1": "no change; paraphrased clauses verified by reviewer",
+    "NV-N2": "no change",
+    "NV-N3": "no change",
+    "NV-N4": "no change",
+    "NV-N5": "no change",
+    "NV-N6": "no change; live heading name and other-name differences not used in claims"
+  },
+  "reviewer_process_deviation": "Reviewer called generalship.cli.research_packet in its own worktree, rewriting six packets with byte-identical content; disclosed in the review. No repository file changed.",
+  "independent_followup_review": false
+}

@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 7ab3abb1-e1d8-4b0f-a1e2-9767e410f832",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 7c4902bd8cb01fe0d026c11207daab07e9a3d80f; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T03:23:37Z",
+  "prepared_commit": "280d5d7dade3c49a82c45abc14f53f214b984ad3",
+  "bundle_commit": "7c4902bd8cb01fe0d026c11207daab07e9a3d80f",
+  "assignment_sha256": "b74e0709f9f2dafd1c95eed7d799acaddf5a075de1dc74a8ac104180bec68bab",
+  "inputs_manifest_sha256": "825d067d7f2b5b20204125fa47673515da4bcbf367cbf4f13e1ef5aa5dcf7fc7",
+  "num_turns": 57,
+  "duration_ms": 559708,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** There are two low-severity findings; I accepted the other 54 of the 56 claims as bounded draft extractions.\n\n**Review:** `artifacts/review-results/northern-virginia-280d5d7-opus-high-v1/review.md`\n\n**One rule broken:** the assignment said not to run packet commands. While checking the packets I called `generalship.cli.research_packet` in Python, not knowing it writes to disk. It rewrote the six `artifacts/research/VA02x.md` packets. Afterwards `git status` was clean and all 51 input hashes still matched, so their contents are byte-for-byte unchanged; only the file modification times changed. The review file records this.\n\n**Required corrections** (exact replacements are in the review):\n- **NV-R1:** VA022 has two page locators set to p.18 that should be p.19. The quotes are \"did not reach a total of 8,000 men of all arms\" and \"General Pope, on the other hand, was well aware of his movements.\" Both sit on Chapter II's opening page, which has no page header. The OCR page layout and the Internet Archive page map (leaves 40/41/42 = pp.18/19/20) both show this. The other 80 Ropes page locators are correct.\n- **NV-R2:** VA026 `casualty-records` and the memo say Ropes's Confederate figures \"span the campaign.\" That is wrong for the 7,241 figure: Ropes gives it as the official list \"at Manassas Plains, in August, 1862\". Only Jackson's 4,387 runs \"from the Rappahannock to the Potomac.\" The dossier still correctly avoids treating either figure as August 28–30 losses. The fix rewords the value, rationale and memo, and adds one citation.\n\n**Nonblocking notes:** NV-N1 to NV-N6 are optional wording or citation tweaks, such as a few paraphrased clauses that are accurate but not separately quoted.\n\n**What checked out:**\n- All 51 input hashes match, both in the worktree and at the prepared commit.\n- All seven text derivatives rebuild exactly: the six NPS summaries and the eleven Ropes sections.\n- Coverage figures match what I recomputed:\n  - 51/127 dossiers, 76 without, 10/36 complete groups;\n  - 301 source records / 298 paths, with the previous 286/283 unchanged.\n- The previous dossiers, history revisions, cohort, admission proposals and baseline/battle artifacts are unchanged.\n- Nothing is promoted into model inputs (0 rows), and the baseline is the same: 23 eligible / 13 groups, Brier 0.2768816348133779 vs 0.25.\n- The next group is confirmed as Maryland Campaign: WV010, MD002, MD003 (already drafted) and WV016.\n- The receipt hashes match.\n- `make check` passes offline (82 tests).\n\nThe review is the only file I wrote; I did not commit or push.\n\n**Finding IDs:** NV-R1, NV-R2 (required); NV-N1, NV-N2, NV-N3, NV-N4, NV-N5, NV-N6 (nonblocking)."
+}

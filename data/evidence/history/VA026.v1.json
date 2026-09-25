@@ -248,8 +248,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 22,180 total (US 13,830; CS 8,350); the live NPS field reads 22179 total (US 13826; CS 8353;). Ropes cites the Confederate official list of casualties at Manassas Plains in August 1862 as 7,241 killed and wounded, and Jackson's reported total loss of 4,387 from the Rappahannock to the Potomac, disputes Lee's 7,000 unwounded prisoners, and says Federal losses can only be conjectured without returns.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Neither Ropes Confederate figure is bounded to this interval: the 7,241 is labelled only 'at Manassas Plains, in August, 1862' (killed and wounded), and Jackson's 4,387 runs from the Rappahannock to the Potomac, which Ropes would distribute over August 28–September 1.",
+      "value": "The frozen casualty text reads 22,180 total (US 13,830; CS 8,350); the live NPS field reads 22179 total (US 13826; CS 8353;). Ropes cites a Confederate official list of 7,241 killed and wounded and Jackson's 4,387 from the Rappahannock to the Potomac, disputes Lee's 7,000 unwounded prisoners, and says Federal losses can only be conjectured without returns.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Ropes's Confederate figures span the campaign, not this interval alone.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -281,12 +281,6 @@
           "section": "appendix-d-losses",
           "locator": "p.192 (OCR page markers; not checked against print)",
           "quote": "in the absence of returns, one can only conjecture"
-        },
-        {
-          "source_id": "ropes-northern-virginia-selections-v1",
-          "section": "appendix-d-losses",
-          "locator": "p.191 (OCR page markers; not checked against print)",
-          "quote": "The official list of casualties at Manassas Plains, in August, 1862"
         }
       ],
       "phase": "post_outcome",
@@ -297,10 +291,5 @@
     "Original returns, despatch chains and casualty reconciliation remain deferred. Porter's conduct and orders, discussed at length by Ropes, are not adjudicated here.",
     "NPS/CWSAC is one family; Ropes is one retrospective history written from the Federal standpoint by a civilian author. Reports and despatches quoted inside Ropes are not additional independently inspected families.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "northern-virginia-review-correction-2026-09-24",
-  "supersedes": {
-    "path": "data/evidence/history/VA026.v1.json",
-    "sha256": "df7054ebab5937f3c356205722de185efaac1db86a10d5d70ed99b0fac6b6a39"
-  }
+  ]
 }
