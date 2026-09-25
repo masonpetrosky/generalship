@@ -71,3 +71,16 @@ class PassageMergeTests(unittest.TestCase):
         bid = target['passage_citation']['battle_id']
         with self.assertRaisesRegex(command.CommandError, 'listed target'):
             command.check(ROOT, ledger=ledger, only=[bid], registry=registry)
+
+
+class V2LedgerReplayTests(unittest.TestCase):
+    def test_committed_v2_ledgers_replay(self):
+        if (ROOT / estimates_v2.DEFAULT_LEDGER).is_file():
+            result = estimates_v2.check(ROOT)
+            self.assertEqual(result['in_scope'], 305)
+            self.assertFalse(result['fitted'])
+        path = 'data/command/responsibility-v2.json'
+        if (ROOT / path).is_file():
+            result = command.check(ROOT, path)
+            self.assertEqual(result['engagements'], 305)
+            self.assertFalse(result['rated'])
