@@ -115,6 +115,9 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [TN024](../data/evidence/TN024.json) | 9 | 1 | 0 | 0 | draft |
 | [TN025](../data/evidence/TN025.json) | 9 | 1 | 0 | 0 | draft |
 | [TN026](../data/evidence/TN026.json) | 9 | 1 | 0 | 0 | draft |
+| [TN027](../data/evidence/TN027.json) | 9 | 1 | 0 | 0 | draft |
+| [TN028](../data/evidence/TN028.json) | 9 | 1 | 0 | 0 | draft |
+| [TN029](../data/evidence/TN029.json) | 9 | 1 | 0 | 0 | draft |
 | [VA008](../data/evidence/VA008.json) | 10 | 5 | 0 | 0 | draft |
 | [VA009](../data/evidence/VA009.json) | 9 | 2 | 0 | 0 | draft |
 | [VA010](../data/evidence/VA010.json) | 9 | 3 | 0 | 0 | draft |
@@ -177,8 +180,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 124 engagements have dossiers; 3 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Mine Run Campaign first pass](../docs/research/mine-run-first-pass-v1.md) adds the sole frozen record: 9 claims, 1 explicit unknown and 72 citations from NPS/CWSAC, Humphreys, and Lee's Official Records reports. The Payne's Farm outcome, Rosser's raid figures, Johnson's losses and the frozen/live casualty difference remain visible; separate campaign review is pending. Next take the complete three-record Operations about Dandridge. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 127 engagements have dossiers; 0 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Operations about Dandridge first pass](../docs/research/dandridge-first-pass-v1.md) adds all three frozen records: 27 claims, 3 explicit unknowns and 141 citations from NPS/CWSAC, Sturgis's, Martin's and Longstreet's Official Records reports. Strength attributions, the Mossy Creek withdrawal, Sturgis's differing loss and capture figures and the frozen/live casualty differences remain visible; separate campaign review is pending. All frozen campaign groups now have first-pass dossiers. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

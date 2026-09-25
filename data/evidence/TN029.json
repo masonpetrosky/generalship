@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN029",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fair Garden record (January 27, 1864) in Operations about Dandridge [December 1863-January 1864]. The January 26 skirmishes and the January 28 fight near Indian Creek with Armstrong's division, which the live description includes, fall outside the frozen date and are context only. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names a cavalry division on each side without counts; the live field reads zero. Sturgis says Wolford's division numbered at most 900 men, that the victory of the 27th was won by La Grange's and Campbell's brigades of McCook's division alone, and on the 26th that the enemy was evidently very strong. Longstreet says the Union cavalry had been greatly increased from Chattanooga and calls it a superior force.",
+      "rationale": "Partial and qualitative statements; no matched count is inspected and none is adopted. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN029"
+          },
+          "column": "forces_text",
+          "quote": "Cavalry Division, Cavalry Corps, Army of the Ohio [US]; Cavalry Division, Department of East Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-tn029-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-01-26-to-29-dispatches",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "it only numbers at most 900 men,"
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-01-26-to-29-dispatches",
+          "locator": "p.134 (OCR page markers; not checked against print)",
+          "quote": "this glorious day’s work was performed alone by the gallant men of La Grange’s and Campbell’s brigades, of McCook’s division."
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-01-26-to-29-dispatches",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "The enemy is evidently very strong,"
+        },
+        {
+          "source_id": "or32-1-longstreet-dandridge-selections-v1",
+          "section": "longstreet-1864-01-29-to-02-01-fair-garden",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s cavalry has been greatly increased by the cavalry from Chattanooga."
+        },
+        {
+          "source_id": "or32-1-longstreet-dandridge-selections-v1",
+          "section": "longstreet-1864-01-29-to-02-01-fair-garden",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "while this superior cavalry force is here"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "fog-ridge-and-by-road",
+      "dimension": "terrain",
+      "value": "Sturgis says a dense fog in the early morning limited sight to a short distance, that a ridge near Hodsden's house beyond the bend of the Little Pigeon was the key to the Confederate position, and that La Grange's brigade advanced unobserved by a by-road from Dickey's house parallel to the main Newport road. NPS says the attack was made in a heavy fog.",
+      "rationale": "Weather and ground described by an interested account and a summary; no map verification. Positions taken during the action are not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-02-04-fair-garden",
+          "locator": "p.136 (OCR page markers; not checked against print)",
+          "quote": "while a dense fog made it irm possible to see but a short distance,"
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-02-04-fair-garden",
+          "locator": "p.136 (OCR page markers; not checked against print)",
+          "quote": "which was the key point to the rebel position."
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-02-04-fair-garden",
+          "locator": "p.136 (OCR page markers; not checked against print)",
+          "quote": "I now advanced Colonel La Grange’s brigade unobserved over a by-road turning off at Dickey’s house,"
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-01-26-to-29-dispatches",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "The morning was very foggy, and not much could be done."
+        },
+        {
+          "source_id": "nps-tn029-v1",
+          "locator": "Description",
+          "quote": "In a heavy fog,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forage-and-exhaustion",
+      "dimension": "logistics",
+      "value": "Sturgis says the forage south of the French Broad was almost consumed and both sides were contesting what remained, that his troops were worn down with continuous fighting and little to eat and lived mainly on parched corn, and that Wolford's and Garrard's divisions arrived too exhausted to join the pursuit. NPS says lack of supplies and ammunition forced the Federals to withdraw after the fighting.",
+      "rationale": "Condition statements from an interested account and a summary; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-02-04-fair-garden",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "Having consumed almost all the forage and supplies on the south side of the French Broad River"
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-01-26-to-29-dispatches",
+          "locator": "p.134 (OCR page markers; not checked against print)",
+          "quote": "Our troops are very much worn down with continuous fighting and little to eat,"
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-02-04-fair-garden",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "compelled to live mainly on parched corn,"
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-02-04-fair-garden",
+          "locator": "p.136 (OCR page markers; not checked against print)",
+          "quote": "their commands being completely exhausted from excessive fatigue and want of forage and supplies."
+        },
+        {
+          "source_id": "nps-tn029-v1",
+          "locator": "Description",
+          "quote": "the fatigue of continual fighting and lack of supplies and ammunition forced them to withdraw."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "concentration-and-flank-move",
+      "dimension": "information",
+      "value": "Sturgis says he learned that the enemy had concentrated on the Fair Garden road, found Morgan's division in front of Campbell and part of Armstrong's attacking Wolford, and that the enemy discovered La Grange's flank movement too late to oppose it. NPS says Union scouts observed the concentration.",
+      "rationale": "Attributed knowledge from an interested account and a summary; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-01-26-to-29-dispatches",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "Learning that the enemy had concentrated on this (Fair Garden) road,"
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-02-04-fair-garden",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "Finding that Colonel Campbell had the rebel cavalry division of General Morgan in his front,"
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-02-04-fair-garden",
+          "locator": "p.136 (OCR page markers; not checked against print)",
+          "quote": "The enemy discovering this flank move- ment too late to oppose it, fell back rapidly."
+        },
+        {
+          "source_id": "nps-tn029-v1",
+          "locator": "Description",
+          "quote": "Union scouts observed that the Confederates had concentrated on the Fair Garden Road,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "strike-first-aim",
+      "dimension": "objectives",
+      "value": "Sturgis says he determined to strike first at the force in front of Campbell and destroy it if possible before the other Confederate division could come to its relief, and directed McCook to attack at daybreak. NPS says Longstreet had told his subordinates on January 25 to curtail Union operations south of the French Broad.",
+      "rationale": "Stated aims from an interested account and a summary; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-02-04-fair-garden",
+          "locator": "p.136 (OCR page markers; not checked against print)",
+          "quote": "and destroy it if possible before the other division could come to its relief."
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-01-26-to-29-dispatches",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "I directed Colonel McCook to attack him at daybreak."
+        },
+        {
+          "source_id": "nps-tn029-v1",
+          "locator": "Description",
+          "quote": "instructed his subordinates to do something to curtail Union operations south of the French Broad."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Sturgis credits McCook's division, La Grange's saber charge with the Fourth Indiana and his division and brigade commanders. Longstreet reports Martin driven back and asks for a chief of cavalry. The frozen commanders are Major General William T. Martin, Brigadier General Samuel D. Sturgis and Colonel Edward M. McCook; the live page gives Major General Samuel Sturgis and Colonel William Martin.",
+      "rationale": "Attributed judgments from interested accounts; the frozen commanders do not receive automatic sole credit, and the live ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-02-04-fair-garden",
+          "locator": "p.136 (OCR page markers; not checked against print)",
+          "quote": "when Colonel La Grange, with the Fourth Indiana Cavalry, charged him with the saber at a gallop,"
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-02-04-fair-garden",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "Colonel McCook, Colonel La Grange, Colonel Campbell,"
+        },
+        {
+          "source_id": "or32-1-longstreet-dandridge-selections-v1",
+          "section": "longstreet-1864-01-29-to-02-01-fair-garden",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "Do send me a chief of cavalry."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN029",
+            "belligerent": "Confederate",
+            "fullname": "William T. Martin"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN029",
+            "belligerent": "US",
+            "fullname": "Samuel D. Sturgis"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN029",
+            "belligerent": "US",
+            "fullname": "Edward M. McCook"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-tn029-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Samuel Sturgis [US]"
+        },
+        {
+          "source_id": "nps-tn029-v1",
+          "locator": "Principal Commanders",
+          "quote": "Colonel William Martin [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Sturgis says the enemy was entirely routed about 4 p.m. after being driven all day. Longstreet says Martin was driven back 4 miles. NPS says McCook's men routed the Confederates. The next day, outside the frozen date, Longstreet reports a successful fight by Armstrong's cavalry and Sturgis withdrew from the area.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The later withdrawal is campaign context, not part of the frozen result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN029"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tn029-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-02-04-fair-garden",
+          "locator": "p.136 (OCR page markers; not checked against print)",
+          "quote": "The enemy was on this occasion entirely routed,"
+        },
+        {
+          "source_id": "or32-1-longstreet-dandridge-selections-v1",
+          "section": "longstreet-1864-01-29-to-02-01-fair-garden",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "He was driven back 4 miles,"
+        },
+        {
+          "source_id": "nps-tn029-v1",
+          "locator": "Description",
+          "quote": "McCook's men charged with sabers and routed the Rebels."
+        },
+        {
+          "source_id": "or32-1-longstreet-dandridge-selections-v1",
+          "section": "longstreet-1864-01-29-to-02-01-fair-garden",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General Armstrong’s cavalry had a success- ful fight with the enemy’s cavalry on the south side of the French Broad on the 28th."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty texts read 265 (US 100; CS 165). Sturgis's February 4 report says his loss in the engagements of the 26th to 28th would not exceed 100 and the enemy's would not fall short of 400, and gives about 150 prisoners and 2 rifled 10-pounder guns; his evening dispatch of the 27th says over 100 prisoners, 2 pieces of 3-inch steel artillery and some 50 or 60 killed and wounded in the charge alone. Longstreet says Martin lost 200 killed, wounded and missing and 2 pieces of artillery.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Sturgis's 100 spans three days and is an upper estimate; his prisoner and gun descriptions differ between the dispatch and the report.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN029"
+          },
+          "column": "casualties_text",
+          "quote": "265 total (US 100; CS 165)"
+        },
+        {
+          "source_id": "nps-tn029-v1",
+          "locator": "Estimated Casualties",
+          "quote": "265 total (US 100; CS 165;)"
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-02-04-fair-garden",
+          "locator": "p.137 (OCR page markers; not checked against print)",
+          "quote": "I cannot give our exact loss in these engagements, but do not think it will exceed 100."
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-02-04-fair-garden",
+          "locator": "p.137 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s loss was very severe, and I do not think will fall short of 400."
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-02-04-fair-garden",
+          "locator": "p.136 (OCR page markers; not checked against print)",
+          "quote": "capturing about 150 prisoners (including the commanding offi- cers of three regiments), 2 rifled 10-pounder guns,"
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-01-26-to-29-dispatches",
+          "locator": "p.134 (OCR page markers; not checked against print)",
+          "quote": "captur- ing over 100 prisoners,"
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-01-26-to-29-dispatches",
+          "locator": "p.134 (OCR page markers; not checked against print)",
+          "quote": "and 2 pieces of artillery, 3-inch steel guns."
+        },
+        {
+          "source_id": "or32-1-sturgis-dandridge-fair-garden-selections-v1",
+          "section": "sturgis-1864-01-26-to-29-dispatches",
+          "locator": "p.134 (OCR page markers; not checked against print)",
+          "quote": "Some 50 or 60 of the enemy were wounded and killed in the charge alone."
+        },
+        {
+          "source_id": "or32-1-longstreet-dandridge-selections-v1",
+          "section": "longstreet-1864-01-29-to-02-01-fair-garden",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "with a loss of 200 killed, wounded, and miss-"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "McCook's, Campbell's, La Grange's, Lilly's, Garrard's and Savage's reports and Foster's telegrams (read, not selected) remain deferred.",
+    "NPS/CWSAC is one family. Sturgis's dispatches and reports, printed in Official Records Series I, Volumes XXXI Part 1 and XXXII Part 1, are one family of interested Union accounts; Longstreet's telegrams, printed in Volume XXXII Part 1, are is a separate family of interested Confederate accounts. The volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

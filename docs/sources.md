@@ -68,6 +68,16 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Operations about Dandridge first pass, 2026-09-25
+
+The [three-record memo](research/dandridge-first-pass-v1.md) adds **12 records**, bringing
+the registry to **580 entries / 560 raw paths**, preserving the previous **568/548**. Three
+NPS battle HTML/text pairs remain in the NPS/CWSAC family. Official Records Series I
+Volume XXXII Part 1 (Internet Archive `warofrebellion321unit`) is pinned with catalog
+metadata, full OCR and Sturgis and Longstreet selections; new Sturgis and Martin
+selections reuse `or31-1-illinois-ocr-v1`. Character ranges and whitespace-only
+normalization reproduce all sections. No model inputs are changed.
+
 ### Mine Run Campaign first pass, 2026-09-25
 
 The [one-record memo](research/mine-run-first-pass-v1.md) adds **4 records**, bringing the

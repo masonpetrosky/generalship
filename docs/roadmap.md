@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **124 draft dossiers / 127 engagements**, with **3 without a dossier**.
+There are **127 draft dossiers / 127 engagements**, with **0 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -362,10 +362,18 @@ NPS/CWSAC, a new Humphreys Chapter III selection and Lee's Official Records Volu
 Part 1 reports. Separate review is pending.
 Coverage is **35/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Operations about Dandridge [December 1863-January 1864]**, the next complete frozen
-group by earliest engagement date: **three records, TN027, TN028, TN029**.
-Continue complete groups by earliest engagement date, breaking ties by campaign
-label. Keep every engagement regardless of outcome, reputation or available strengths.
+The [Operations about Dandridge first pass](research/dandridge-first-pass-v1.md) adds all
+three **frozen records, TN027, TN028 and TN029**, with **27 claims, 3 explicit unknowns and
+141 citations** from NPS/CWSAC, Sturgis's reports in Official Records Volumes XXXI Part 1
+and newly pinned XXXII Part 1, Martin's report and Longstreet's report and telegrams.
+Separate review is pending.
+Coverage is **36/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+All 36 frozen campaign groups now have first-pass dossiers. Separate review of the
+Mine Run and Dandridge groups remains to be completed and recorded. First-pass coverage
+does not admit features or change the baseline; the next research priority after these
+reviews is the owner's decision. Keep every engagement regardless of outcome, reputation
+or available strengths.
 
 Use the [first-pass protocol](methodology.md#research-depth-and-coverage). Report
 dossier coverage, dimensions still unknown, actual review scope and admitted rows
