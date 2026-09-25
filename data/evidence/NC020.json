@@ -1,0 +1,513 @@
+{
+  "schema_version": 1,
+  "battle_id": "NC020",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Bentonville record (March 19-21, 1865) in the Carolinas Campaign [February-March 1865]. The March 22 rear-guard fighting at Mill Creek and Hannah's Creek and the concentration at Goldsborough are context outside the record. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads Sherman's Right Wing (XX and XIV Corps) against Johnston's Army, with no numbers; the live field reads zeros. The Fourteenth and Twentieth Corps formed Slocum's Left Wing by his report heading and Johnston's account, and NPS says the Right Wing was under Howard. Johnston gave effective totals of infantry and artillery on March 18 (Bragg 6,500; Hardee 7,500; Army of Tennessee 4,000); his rough field return gives Bragg 4,775 infantry and 782 artillery and Stewart 3,956 infantry on the 17th and Hardee 5,400 infantry on the morning of the 19th, 14,913 in all; his March 27 report says he took about 15,000 into action on the 19th against above 20,000 before an hour garbled in OCR ('0 o’clock'), then increased by about 10,000, and near 44,000 on the 20th and 21st, including losses. Slocum relays a deserter's statement that Johnston's force was understood to be 40,000.",
+      "rationale": "Johnston's figures are dated returns and estimates of different populations; his estimates of the Union force and the deserter's 40,000 are hearsay. The frozen 'Right Wing' label conflicts with the inspected sources. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC020"
+          },
+          "column": "forces_text",
+          "quote": "Sherman's Right Wing (XX and XIV Corps) [US]; Johnston's Army [CS]"
+        },
+        {
+          "source_id": "nps-nc020-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-nc020-v1",
+          "locator": "Description",
+          "quote": "the right wing of Sherman's army under command of Maj. Gen. O.O. Howard marched toward Goldsborough."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1056 (OCR page markers; not checked against print)",
+          "quote": "the Left Wing (Fourteenth and Twentieth Corps)"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-heading",
+          "locator": "p.419 (OCR page markers; not checked against print)",
+          "quote": "Headquarters Left Wing, Army of Georgia,"
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-18",
+          "locator": "p.1054 (OCR page markers; not checked against print)",
+          "quote": "Effective totals, infantry and artillery: Bragg, 6,500; Hardee, 7,500; Army of Tennessee, 4,000."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-addenda",
+          "locator": "p.1057 (OCR page markers; not checked against print)",
+          "quote": "On the 17tb General Bragg had — Infantry . 4, 775 Artillery . . 782"
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-addenda",
+          "locator": "p.1057 (OCR page markers; not checked against print)",
+          "quote": "On the same day Lieutenant-General Stewart had, infantry . 3, 956"
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-addenda",
+          "locator": "p.1057 (OCR page markers; not checked against print)",
+          "quote": "On the morning of the 19th Lieutenant-General Hardee had, infantry . 5, 400 Total . . 14,913"
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1057 (OCR page markers; not checked against print)",
+          "quote": "We took about 15,000 men into action on the 19th. The enemy’s force before 0 o’clock was above 20,000, then increased by about 10,000."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1057 (OCR page markers; not checked against print)",
+          "quote": "On the 20th and 21st the whole army Avas before us, amounting to near 44,000, including losses."
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "that it was understood among the rebel soldiers that this force amounted to 40,000 men ;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "thickets-swamp-and-mill-creek",
+      "dimension": "terrain",
+      "value": "Johnston says the ground north of the road was open and south of it covered with thickets, that a single road through dense blackjack slowed his movements, that the Fourteenth Corps rallied on the Twentieth in young pines with its right on a swamp and covered by entrenchments, and that but for the thickets he would have beaten both corps before 5 o'clock. Slocum found the Confederates entrenched where the Smithfield road meets the Goldsborough road. NPS says Johnston contracted his line into a V with Mill Creek in his rear and that Mower crossed Mill Creek by a narrow trace.",
+      "rationale": "The woods, swamp and creek predate the action; the entrenchments on both sides were made during the approach or the fighting. The tag stays unresolved.",
+      "citations": [
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1056 (OCR page markers; not checked against print)",
+          "quote": "The ground in our front, north of the road, was open; that on the south of it was covered with thickets."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1056 (OCR page markers; not checked against print)",
+          "quote": "We had but one road through dense black¬ jack for our movements, so that they consumed a weary time."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1056 (OCR page markers; not checked against print)",
+          "quote": "In this position the Federal right rested on a swamp and Avas covered by intrenchments."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1057 (OCR page markers; not checked against print)",
+          "quote": "But for the thickets which impeded our movements we should undoubtedly have beaten the Fourteenth and Twentieth Corps before 5 o’clock."
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "On reaching the point at which the road from Smithfield runs into the Goldsborough road, on which we were marching, I found the enemy intrenched."
+        },
+        {
+          "source_id": "nps-nc020-v1",
+          "locator": "Description",
+          "quote": "Johnston contracted his line into a \"V\" to protect his flanks with Mill Creek to his rear."
+        },
+        {
+          "source_id": "nps-nc020-v1",
+          "locator": "Description",
+          "quote": "along a narrow trace that carried it across Mill Creek into Johnston's rear."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "wagons-wounded-and-guns",
+      "dimension": "logistics",
+      "value": "Slocum sent Williams's wagons to the right on the Fifteenth Corps road and put dismounted foragers in the ranks. Johnston says he held his ground on the 20th and 21st to cover the removal of his wounded to the railroad at Smithfield, brought off three captured guns but left a fourth for want of horses, and his addenda record 108 Confederate wounded left on the morning of March 22 at Bentonville and at Harper's.",
+      "rationale": "Transport and evacuation statements from interested reports; no quartermaster or medical return was inspected beyond the addenda note.",
+      "citations": [
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.424 (OCR page markers; not checked against print)",
+          "quote": "Williams was directed to send all of his wagons to the right on the road taken by the Fifteenth Corps,"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.424 (OCR page markers; not checked against print)",
+          "quote": "All foragers were dismounted and placed in the ranks."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-21",
+          "locator": "p.1055 (inferred: running head reads '1056' in OCR; not checked against print)",
+          "quote": "W e are remaiuing here to cover the removal of our wouuded to the railroad at Smithfield."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1056 (OCR page markers; not checked against print)",
+          "quote": "and three pieces of artillery (a fourth was left because we had not horses to draw it away),"
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-addenda",
+          "locator": "p.1060 (OCR page markers; not checked against print)",
+          "quote": "One hundred and eight Confederate wounded left on the morning of March 22 at Bentonville and Mr. Harper’s,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "intelligence-and-surprise",
+      "dimension": "information",
+      "value": "Slocum says an escaped cavalry officer told him Johnston's main army was at or near Raleigh, deserters confirmed it, and he reported to Sherman that only cavalry with a few guns was in his front; a deserter then told him Johnston had concentrated his army in his front, and he took a defensive position. Johnston says cavalry reports on the 18th showed the Union army moving toward Goldsborough with probably a day's march between the wings, that the map misled him about Hardee's march, and that he believed the Union reinforcements about 6 o'clock were the Seventeenth Corps. Slocum names Twentieth Corps brigades as the troops that came up on the 19th and says the Right Wing came up on the morning of the 21st.",
+      "rationale": "Attributed knowledge from interested reports. Johnston's belief that the Seventeenth Corps arrived on the 19th conflicts with Slocum's account; neither is adopted.",
+      "citations": [
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "when he left Smithfield he knew the main army under General Johnston to be at or near Ealeigh."
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "I believed the only force in my front to consist ot cavalry with a few pieces of artillery, and sent word to this effect to General Sherman."
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "He informed me that General Johnston had, by forced marches, concen¬ trated his army in my front;"
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1055 (inferred: running head reads '1056' in OCR; not checked against print)",
+          "quote": "The reports of our cavalry, received on the morning of the 18th, showed that the Federal army was moving toward Goldsborough."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1056 (OCR page markers; not checked against print)",
+          "quote": "there was an interval of a day’s march between these wings."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1056 (OCR page markers; not checked against print)",
+          "quote": "His march was so much longer — although by the map it appeared shorter — that he did not arrive until the following morning."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1056 (OCR page markers; not checked against print)",
+          "quote": "About 6 o’clock the Federal forces were so greatly increased, I believe, by the arrival of the Seventeenth Corps,"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.424 (OCR page markers; not checked against print)",
+          "quote": "I ordered Cogswell’s brigade, of the Third Division, Twentieth Corps, which was in reserve, to report to General Davis,"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.424 (OCR page markers; not checked against print)",
+          "quote": "On the morning of the 21st the Eight Wing came up and con¬ nected with Hazen."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "attack-in-detail-and-defence",
+      "dimension": "objectives",
+      "value": "Johnston says that, judging the wings a day's march apart, he determined to attack the Left Wing, and that on the 20th and 21st he held his position to cover the removal of wounded and occupy the Union army. Slocum says that once he learned Johnston's army was in his front he took a defensive position and communicated with Sherman. NPS says Johnston had concentrated to meet Slocum's advance.",
+      "rationale": "Stated aims from interested reports and a modern summary.",
+      "citations": [
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1056 (OCR page markers; not checked against print)",
+          "quote": "I determined therefore to attack the Left Wing."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-23",
+          "locator": "p.1055 (inferred: running head reads '1056' in OCR; not checked against print)",
+          "quote": "held our position to cover removal of wounded and occupy enemy."
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "I at once concluded to take a defensive position and communicate with the commanding general."
+        },
+        {
+          "source_id": "nps-nc020-v1",
+          "locator": "Description",
+          "quote": "who had concentrated to meet his advance at Bentonville."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are General Johnston (CS) and Major Generals Sherman and Slocum (US); the live page lists Sherman and 'Lieutenant Colonel Joseph Johnston' and omits Slocum. Slocum describes directing the defence on the 19th and credits Davis and Williams; his contact with Sherman is by messages. Johnston says Hardee made the charge of the 19th and once led the advance, and that on the 21st Hardee met the Union penetration with Cumming's brigade while Hampton and Wheeler directed cavalry on its flanks. NPS says Mower led his division into Johnston's rear and that Sherman was inclined to let Johnston retreat.",
+      "rationale": "Direction is attributed as the sources state; the inspected passages do not show Sherman directing on March 19. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "I at once concluded to take a defensive position"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "sent word to this effect to General Sherman."
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.424 (OCR page markers; not checked against print)",
+          "quote": "General Davis and General Williams handled their commands with great skill."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1056 (OCR page markers; not checked against print)",
+          "quote": "Once, when he apprehended difficulty, Hardee literally led the advance."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1057 (OCR page markers; not checked against print)",
+          "quote": "met it in front with Oum- ming’s (Georgia) brigade,"
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1057 (OCR page markers; not checked against print)",
+          "quote": "directed by Lieutenant-General Hampton and Major-General Wheeler,"
+        },
+        {
+          "source_id": "nps-nc020-v1",
+          "locator": "Description",
+          "quote": "Maj. Gen. Joseph Mower led his Union division"
+        },
+        {
+          "source_id": "nps-nc020-v1",
+          "locator": "Description",
+          "quote": "Sherman was inclined to let Johnston retreat."
+        },
+        {
+          "source_id": "nps-nc020-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant Colonel Joseph Johnston [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC020",
+            "belligerent": "Confederate",
+            "fullname": "Joseph E. Johnston"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC020",
+            "belligerent": "US",
+            "fullname": "William T. Sherman"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC020",
+            "belligerent": "US",
+            "fullname": "Henry Slocum"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Johnston reported that on the 19th he routed the Union troops, capturing three guns, until they rallied a mile in the rear; that he did not renew the attack on the 20th; and that on the 21st the Seventeenth Corps' penetration was driven back. Slocum says the Confederates were repulsed at all points on the 19th, the ground lost in the first attack was regained, and during the night of the 21st they retreated across Mill Creek, burning the bridge. NPS says Union pursuit on the 22nd saved the bridge.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Slocum's burned bridge and NPS's saved bridge differ; both are preserved.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC020"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-nc020-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-20",
+          "locator": "p.1054 (OCR page markers; not checked against print)",
+          "quote": "routed him, capturing three guns; but a mile in rear he rallied upon fresh troops."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1056 (OCR page markers; not checked against print)",
+          "quote": "the attack was not renewed."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1057 (OCR page markers; not checked against print)",
+          "quote": "By these combined attacks this corps was promptly driven back."
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.424 (OCR page markers; not checked against print)",
+          "quote": "The enemy was repulsed at all points along our line,"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.424 (OCR page markers; not checked against print)",
+          "quote": "all that had been lost in this attack was speedily regained."
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.424 (OCR page markers; not checked against print)",
+          "quote": "During the following night he retreated across Mill Creek, burning the bridge in his rear."
+        },
+        {
+          "source_id": "nps-nc020-v1",
+          "locator": "Description",
+          "quote": "Union forces pursued at first light, driving back Wheeler's rearguard and saving the bridge."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 4,738 (US 1,646; CS 3,092); the live field reads 4,133 (US 1,527; CS 2,606). The No. 3 return gives Sherman's army a grand total of 1,527 for March 19–21. Johnston's report gives his loss for the three days as 224 killed, 1,470 wounded and about 600 missing; the recapitulation in his addenda totals 2,462 (239 killed, 1,550 wounded, 673 missing), with a compiler's footnote that the next statement shows 1,694 wounded; that statement's legible grand total ends '239 1,694 2, 606'. Johnston says the Union loss could not be estimated. Slocum gives only campaign-wide losses for his wing (2,352).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The No. 3 return is a later compilation from nominal lists; its regimental columns are largely garbled in OCR and only the final totals are relied on. The Kinston and Bentonville grand-total lines print killed, wounded and missing figures that sum to their totals; the Averasborough recapitulation is garbled and its final 682 is read by position. A live NPS figure that matches it is not independent corroboration. Johnston's three Confederate totals (about 2,294 from his letter's components, 2,462 and 2,606) are preserved; the live CS 2,606 matches the last. Slocum's campaign total is not assigned to this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC020"
+          },
+          "column": "casualties_text",
+          "quote": "4,738 total (US 1,646; CS 3,092)"
+        },
+        {
+          "source_id": "nps-nc020-v1",
+          "locator": "Estimated Casualties",
+          "quote": "4133 total (US 1527; CS 2606;)"
+        },
+        {
+          "source_id": "or47-1-union-casualty-return-selections-v1",
+          "section": "return-bentonville",
+          "locator": "p.76 (OCR page markers; not checked against print)",
+          "quote": "Grand total Sherman’s army . 12 182 67 1,045 7 214 1,527"
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1057 (OCR page markers; not checked against print)",
+          "quote": "It amounted in the three days to 224 killed, 1,470 wounded, and about 600 missing."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-addenda",
+          "locator": "p.1059 (OCR page markers; not checked against print)",
+          "quote": "Total . . . 239 *1, 550 673 2,462"
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-addenda",
+          "locator": "p.1059 (OCR page markers; not checked against print)",
+          "quote": "But see statement, next, p. 1060, wMch shows an aggregate of 1,694 wounded."
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-addenda",
+          "locator": "p.1060 (OCR page markers; not checked against print)",
+          "quote": "239 1,694 2, 606"
+        },
+        {
+          "source_id": "or47-1-johnston-carolinas-selections-v1",
+          "section": "johnston-1865-03-27",
+          "locator": "p.1057 (OCR page markers; not checked against print)",
+          "quote": "Tlie Federal loss could not be estimated,"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.425 (OCR page markers; not checked against print)",
+          "quote": "Killed, 242; wounded, 1,308; missing, 802; total, 2,352."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Sherman's No. 1 and Howard's No. 9 reports, Williams's, Davis's, Mower's (No. 48) and the division, brigade and regimental reports, Hardee's March 18–22 dispatches (read, not selected), Bragg's Hoke's-division casualty return (read, not selected), Hampton's March 19 dispatch, Wheeler's synopsis entry for March 19–21 (not cited here), the Confederate corps and division reports (Nos. 291–302) and the atlas maps remain deferred. Cox's history (Chapter XI, read, not selected) also narrates the battle; it is not one of this record's families.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Blair's, G. P. Harrison's, Kilpatrick's, Wheeler's, J. D. Cox's, Bragg's, Slocum's, Hardee's and J. E. Johnston's reports and dispatches, printed in Official Records Series I, Volume XLVII, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. The No. 3 return of Union casualties is a compiler's table from nominal lists, used as the one targeted follow-up for the casualty gap at Kinston, Averasborough and Bentonville. Cox's history The March to the Sea; Franklin and Nashville (1882) belongs to the same author family as his report. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

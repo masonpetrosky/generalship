@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "battle_id": "SC011",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Rivers' Bridge record (February 3, 1865) in the Carolinas Campaign [February-March 1865]. The February 1-2 skirmishes at Whippy Swamp, Broxton's Bridge and the Rivers' Bridge causeway, the other actions named in the frozen other-names field (Hickory Hill, Owens' Crossroads, Lawtonville, Duck Creek) and the February 4 movements are context outside the record. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads 'Divisions: 6,200 total (US 5,000; CS 1,200)'; the live field reads US 0 and CS 1,200. Blair names Mower's First Division as ordered to cross at Rivers' Bridge and G. A. Smith's Fourth Division as ordered through the swamp between the two bridges, with Force's Third Division encamped in support, and gives no strength for either side on February 3. His nearest Confederate figure is for a force of about 3,000 infantry and cavalry with a battery at Salkehatchie bridge, the target of an expedition on January 20. Harrison reports casualties for a detachment of his brigade under Lieutenant-Colonel Bacon (the 32d and 47th Georgia, 5th Georgia Reserves and Earle's battery), without its strength.",
+      "rationale": "Blair's 3,000 is for another crossing and date and is not a Rivers' Bridge count; Harrison's detachment is part of the Confederate force, of unstated size. The live US 0 conflicts with the frozen 5,000. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC011"
+          },
+          "column": "forces_text",
+          "quote": "Divisions: 6,200 total (US 5,000; CS 1,200)"
+        },
+        {
+          "source_id": "nps-sc011-v1",
+          "locator": "Forces Engaged",
+          "quote": "1200 total (US 0; CS 1200;)"
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "Major General Mower, commanding First Division, having been ordered to effect a crossing at Rivers’ Bridge,"
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "Brevet Major-Gen¬ eral Smith, commanding Fourth Division, was ordered to move for¬ ward through the swamp"
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "The Third Division, Brigadier-General Force commanding, having arrived, via Angley’s Post-Office, was encamped at the cross-roads,"
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.375 (OCR page markers; not checked against print)",
+          "quote": "consisting of about 3,000 infantry and cavalry and one bat¬ tery of artillery, stationed at that point."
+        },
+        {
+          "source_id": "or47-1-harrison-rivers-bridge-selections-v1",
+          "section": "harrison-1865-02-03",
+          "locator": "p.1076 (OCR page markers; not checked against print)",
+          "quote": "in the detachment from my brigade under command of Lieutenant- Colonel Bacon, Thirty-second Georgia Infantry,"
+        },
+        {
+          "source_id": "or47-1-harrison-rivers-bridge-selections-v1",
+          "section": "harrison-1865-02-03",
+          "locator": "p.1076 (OCR page markers; not checked against print)",
+          "quote": "32d Georgia Infantry ."
+        },
+        {
+          "source_id": "or47-1-harrison-rivers-bridge-selections-v1",
+          "section": "harrison-1865-02-03",
+          "locator": "p.1076 (OCR page markers; not checked against print)",
+          "quote": "Earle’s battery ."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "salkehatchie-swamp-and-works",
+      "dimension": "terrain",
+      "value": "Blair describes the Salkehatchie at Rivers' Bridge as a dense swamp a mile and a half wide in which the river spreads into thirty-five streams two to six feet deep, approached by a narrow causeway with sixteen bridges besides the main bridge, commanded almost its whole length by Confederate batteries; on the high bank beyond, the Confederates had built a very strong line of earthworks with two redoubts. He found the works too strong to assault in front. NPS says Union soldiers built bridges across the swamp to bypass the road block and two brigades waded the swamp downstream.",
+      "rationale": "The swamp predates the action. The works existed when Blair arrived on February 2, but their construction date is not stated, so the tag stays unresolved.",
+      "citations": [
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "The Salkehatchie River at this point is a dense swamp one mile and a half in width, where the river spreads out into thii*ty-five small streams varying from two to six feet in depth."
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "The approach to the inain bridge, about seventy feet in length, was along a narrow causev/ay, commanded almost its entire length by the enemy’s batteries."
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "Upon this bank the enemy had built a very strong line of earth- works, with two strong redoubts and batteries commanding the main approaches."
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "There were sixteen bridges, exclusive of the main bridge,"
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "we found his works too strong to assault them in front."
+        },
+        {
+          "source_id": "nps-sc011-v1",
+          "locator": "Description",
+          "quote": "Federal soldiers began building bridges across the swamp to bypass the road block."
+        },
+        {
+          "source_id": "nps-sc011-v1",
+          "locator": "Description",
+          "quote": "two Union brigades waded the swamp downstream"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "causeway-roads-and-wounded",
+      "dimension": "logistics",
+      "value": "Blair says the First Division drove the Confederates so fast on February 2 that they had no time to burn the sixteen causeway bridges; on February 3 Mower began at daylight cutting roads through the swamp and collecting lumber to repair the bridges, and the 43d Ohio carried planks forward to repair the main bridge. On February 4 a train of thirty wagons and ambulances took the sick and wounded back to Pocotaligo. Whippy Swamp, crossed on February 1, had been obstructed by felled timber and five destroyed bridges.",
+      "rationale": "Engineering and transport statements from an interested report; no transport, ammunition or ration return inspected.",
+      "citations": [
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "driving the enemy so rapidly that they had no time to burn the bridges, sixteen in number,"
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "commenced work at daylight, cutting roads through the almost imj^assable swamp, and collecting lumber, &c., to repair the bridges."
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.377 (OCR page markers; not checked against print)",
+          "quote": "using the planks taken with him to repair the bridge."
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.377 (OCR page markers; not checked against print)",
+          "quote": "A train of thirty wagons and some ambulances was sent back to Pocotaligo with our sick and wounded,"
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.375 (OCR page markers; not checked against print)",
+          "quote": "very badly obstructed by fallen timber, and bridges (five in number) destroyed,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-and-crossing-points",
+      "dimension": "information",
+      "value": "Blair says the Confederate position was reconnoitred and found too strong for a frontal assault; G. A. Smith was ordered to reconnoitre through the swamp and reported crossing practicable; Smith, after gaining the far bank, knew nothing about the force opposing him there. The troops demonstrating at Broxton's Bridge reported a heavy Confederate infantry force moving to the right, and a brigade of the Third Division was sent to reinforce them.",
+      "rationale": "Attributed knowledge from an interested report; the orders and reconnaissance reports themselves were not inspected.",
+      "citations": [
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "After carefully reconnoitering the enemy’s i)osition"
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "with instructions to make a reconnaissance through the swamp to determine the practicability of crossing troops. He comiflied with instructions, and reported favorably."
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.377 (OCR page markers; not checked against print)",
+          "quote": "knowing nothing about the force of the enemy stationed at that point,"
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.377 (OCR page markers; not checked against print)",
+          "quote": "reported the movement of a heavy force of rebel infantry to our right,"
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.377 (OCR page markers; not checked against print)",
+          "quote": "one brigade of Third Division was sent to re-enforce the troops stationed at that point."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "salkehatchie-crossing",
+      "dimension": "objectives",
+      "value": "NPS says a Confederate force under McLaws held the Salkehatchie crossings against the advance of Sherman's right wing. Blair says Mower was ordered to effect a crossing at Rivers' Bridge and Smith to make a lodgment on the far bank and, if possible, move on the force opposing Mower, while a regiment at Broxton's Bridge engaged the Confederates' attention.",
+      "rationale": "Stated orders from an interested report and a modern summary.",
+      "citations": [
+        {
+          "source_id": "nps-sc011-v1",
+          "locator": "Description",
+          "quote": "a Confederate force under McLaws held the crossings of the Salkehatchie River against the advance of the right wing of Sherman's Army."
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "effect a lodgment upon the opposite bank, and if possible move on the forces opposing General Mower."
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.375 (OCR page markers; not checked against print)",
+          "quote": "where one regiment Avas left to engage the attention of the enemy across the Salkehatchie Eiver."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Blair's report puts the crossing under Mower's First Division, with Tillson's brigade crossing two companies above the bridge about noon and then ordered to push across with the rest; he says the movement on the right was checked and the center repulsed, while the crossing on the left succeeded. His conclusion praises Mower's skill in crossing the Salkehatchie and mentions G. A. Smith at Broxton's Bridge. The orders in the passage are mostly in the passive voice. Harrison's detachment was commanded by Lieutenant-Colonel Bacon. NPS names McLaws as the Confederate commander. The frozen commanders are Major General Blair (US) and Major General McLaws (CS).",
+      "rationale": "Direction is attributed as the sources state; Blair does not say who issued each order. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "About 1 2 m. Colonel Tillson reported that he had crossed two companies above. He was immediately ordered to push across with the balance of his command."
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.377 (OCR page markers; not checked against print)",
+          "quote": "The movement on the right by the Tenth Illinois was temporarily checked by the enemy."
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.377 (OCR page markers; not checked against print)",
+          "quote": "The center was repulsed, but the crossing on the left was a complete success,"
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-conclusion",
+          "locator": "p.384 (OCR page markers; not checked against print)",
+          "quote": "Maj. Gen. J. A. Mower, commanding First Division, is deserving of great praise for the skill shown in crossing the Salkehatchie,,"
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-conclusion",
+          "locator": "p.384 (OCR page markers; not checked against print)",
+          "quote": "Bvt. Maj. Gen. G. A. Smith, at Broxton’s Bridge, on the Salkehatchie, and at Fayetteville, deserves special mention."
+        },
+        {
+          "source_id": "or47-1-harrison-rivers-bridge-selections-v1",
+          "section": "harrison-1865-02-03",
+          "locator": "p.1076 (OCR page markers; not checked against print)",
+          "quote": "under command of Lieutenant- Colonel Bacon,"
+        },
+        {
+          "source_id": "nps-sc011-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Lafayette McLaws [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC011",
+            "belligerent": "US",
+            "fullname": "Francis P. Blair"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC011",
+            "belligerent": "Confederate",
+            "fullname": "Lafayette McLaws"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Blair says the successful crossing on the left caused the Confederates to withdraw in great confusion with a loss of forty prisoners, and that Smith's lodgment was followed by a Confederate withdrawal. NPS says McLaws retreated toward Branchville after stalling the advance for only one day.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC011"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-sc011-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.377 (OCR page markers; not checked against print)",
+          "quote": "caused the enemy to withdraw in great confusion with a loss of forty prisoners."
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.377 (OCR page markers; not checked against print)",
+          "quote": "As soon, however, as his skirmish line advanced the enemy withdrew."
+        },
+        {
+          "source_id": "nps-sc011-v1",
+          "locator": "Description",
+          "quote": "McLaws retreated toward Branchville after stalling Sherman's advance for only one day."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 262 (US 92; CS 170). Harrison reports 8 killed, 44 wounded and 45 missing, 97 in all, for his brigade's detachment at Rivers' Bridge. Blair reports forty prisoners taken. Blair's Appendix C gives Seventeenth Corps losses for the whole campaign from Savannah to Goldsborough (384 in all; 290 in the First Division).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Harrison's 97 covers one detachment, not the whole Confederate force, so it is not a rival to the frozen CS 170. Blair's appendix is campaign-wide and is not assigned to this record; no Union loss for February 3 alone was found in the inspected passages.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC011"
+          },
+          "column": "casualties_text",
+          "quote": "262 total (US 92; CS 170)"
+        },
+        {
+          "source_id": "nps-sc011-v1",
+          "locator": "Estimated Casualties",
+          "quote": "262 total (US 92; CS 170;)"
+        },
+        {
+          "source_id": "or47-1-harrison-rivers-bridge-selections-v1",
+          "section": "harrison-1865-02-03",
+          "locator": "p.1076 (OCR page markers; not checked against print)",
+          "quote": "Total . . . 8 44 45 97"
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-salkehatchie",
+          "locator": "p.377 (OCR page markers; not checked against print)",
+          "quote": "with a loss of forty prisoners."
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-appendix-c",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "First Division . 29 206 55 290"
+        },
+        {
+          "source_id": "or47-1-blair-salkehatchie-selections-v1",
+          "section": "blair-appendix-c",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "Total . 38 252 94 384"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Mower's No. 48 report of February 5 (read, not selected; it refers to a separately transmitted casualty list), the Fuller, Montgomery, Tillson and regimental reports (Nos. 49–53), G. A. Smith's No. 55 report, Howard's No. 9 report and his February 5 letter printed with Blair's report (read, not selected), McLaws's and Wheeler's accounts, the itineraries and the Seventeenth Corps casualty list for February 3 remain deferred. Cox's history does not narrate this action (Chapter X read).",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Blair's, G. P. Harrison's, Kilpatrick's, Wheeler's, J. D. Cox's, Bragg's, Slocum's, Hardee's and J. E. Johnston's reports and dispatches, printed in Official Records Series I, Volume XLVII, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. The No. 3 return of Union casualties is a compiler's table from nominal lists, used as the one targeted follow-up for the casualty gap at Kinston, Averasborough and Bentonville. Cox's history The March to the Sea; Franklin and Nashville (1882) belongs to the same author family as his report. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

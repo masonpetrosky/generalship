@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "battle_id": "NC018",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Monroe's Cross Roads record (March 10, 1865) in the Carolinas Campaign [February-March 1865]. The night movements of March 9 near Solemn Grove and the occupation of Fayetteville on March 11 are context outside the record. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads Kilpatrick's Cavalry Division (1,850) against Wheeler's and Hampton's cavalry (3,000); the live field reads 4,900 (US 1,850; CS 3,050). Kilpatrick reports 5,068 men for duty in his command at the start of the campaign, and says he took post with Spencer's small brigade of three regiments, 400 dismounted men and a section of artillery, that less than one-third of his command was attacked, and that the attackers were three divisions (Humes's, Allen's and Butler's), the entire Confederate cavalry under Hampton. Wheeler says he took command of his own and Butler's cavalry for the charge; his synopsis gives his corps' effective force as 4,442 at the start of the campaign, 5,172 in his February 16 reports and 4,965 on April 17.",
+      "rationale": "Kilpatrick's 5,068 and Wheeler's effective totals are campaign or other-date figures, not counts engaged on March 10; Kilpatrick's 'less than one-third' is a proportion without a base date. The live CS 3,050 differs from the frozen 3,000. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC018"
+          },
+          "column": "forces_text",
+          "quote": "Kilpatrick's Cavalry Division (1,850) [US]; Wheeler's and Hampton's Cavalry Division (3,000) [CS]"
+        },
+        {
+          "source_id": "nps-nc018-v1",
+          "locator": "Forces Engaged",
+          "quote": "4900 total (US 1850; CS 3050;)"
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-opening",
+          "locator": "p.857 (OCR page markers; not checked against print)",
+          "quote": "in all, 5,068 men for duty."
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "Colonel Spencer’s little brigade of three regiments and 400 dismounted men and one sec¬ tion of artillery,"
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "less than one-third of my entire command was unex¬ pectedly attacked before daylight by the entire rebel cavalry force"
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "charged my position with three divisions of cavalry, Humes’, Allen’s, and Butler’s."
+        },
+        {
+          "source_id": "or47-1-wheeler-carolinas-selections-v1",
+          "section": "wheeler-synopsis",
+          "locator": "p.1130 (OCR page markers; not checked against print)",
+          "quote": "I took command of my own and Butler’s cavalry and charged into the enemy’s camps,"
+        },
+        {
+          "source_id": "or47-1-wheeler-carolinas-selections-v1",
+          "section": "wheeler-synopsis",
+          "locator": "p.1132 (OCR page markers; not checked against print)",
+          "quote": "which was 4,442 at the commencement of the campaign,"
+        },
+        {
+          "source_id": "or47-1-wheeler-carolinas-selections-v1",
+          "section": "wheeler-synopsis",
+          "locator": "p.1132 (OCR page markers; not checked against print)",
+          "quote": "my reports of February 16 showed an effective force of 5,172 men, and my report of April 17, the last one ever made, showed an effective force of 4,965."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "camp-roads-and-swamp",
+      "dimension": "terrain",
+      "value": "Kilpatrick says he reached the position after a march over horrible roads, swamps and swollen streams and took post where a road intersects the Morgantown road; after the first charge his men were forced back about 500 yards to a swamp impassable to either side, where they rallied. NPS places the two brigades' camps near the Charles Monroe House.",
+      "rationale": "The roads and swamp predate the action; the choice of camp was made the night before it. The tag stays unresolved.",
+      "citations": [
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "after the most difficult march over the most horrible roads, swamps, and swollen streams,"
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "took post at the point where the road last men¬ tioned intersects with the Morgantown road."
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "we were finally forced back some 500 yards farther to a swamp impassable to friend or foe."
+        },
+        {
+          "source_id": "nps-nc018-v1",
+          "locator": "Description",
+          "quote": "two of Kilpatrick's brigades encamped near the Charles Monroe House in Cumberland (now Hoke) County."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "mounts-plunder-and-captures",
+      "dimension": "logistics",
+      "value": "Kilpatrick describes his three brigades at the start of the campaign as indifferently mounted and badly armed. He says the Confederates, eager for plunder, did not promptly follow up and were trying to harness the battery horses and plunder his headquarters when he counterattacked, and that he captured 150 horses with their equipment. Wheeler says his men at one time held the Union artillery and wagons, cut down the wagons and drove off the mules.",
+      "rationale": "Equipment and capture statements from interested reports; no ordnance, horse or transport return inspected.",
+      "citations": [
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-opening",
+          "locator": "p.857 (OCR page markers; not checked against print)",
+          "quote": "three brigades of cavalry, indifferently mounted, badly armed;"
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "The enemy, eager for plunder, failed to promptly follow us up."
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "to liarness up the battery horses aucl plundering my headquarters."
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "We captured 30 prison¬ ers and 150 horses wdth their equipments."
+        },
+        {
+          "source_id": "or47-1-wheeler-carolinas-selections-v1",
+          "section": "wheeler-synopsis",
+          "locator": "p.1130 (OCR page markers; not checked against print)",
+          "quote": "At one time we had the enemy’s artillery and wagons in our possession; the wagons were cut down and the mules driven off*."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouts-and-surprise",
+      "dimension": "information",
+      "value": "Kilpatrick says prisoners reported Hampton's cavalry some miles in the rear marching for Fayetteville, scouts reported it on two roads, he posted a brigade on each and took a third road himself, and in the evening rode with his staff through one of Hampton's divisions; Atkins and Jordan found about 9 o'clock that the Confederates were passing their main force by a road to the right and could not reach him before daylight, and his command was attacked unexpectedly. Wheeler says he reconnoitred Kilpatrick's camps with Hampton on the night of the 9th. NPS says Hampton surprised the Federals in their camps.",
+      "rationale": "Attributed knowledge from interested reports and a modern summary; the scouts' reports and orders were not inspected.",
+      "citations": [
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "from prisoners we learned that Lieutenant-General Hampton’s cavalry was ' some miles in the rear,"
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "By scouts I learned that Hampton was marching upon two roads,"
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "actually rode through one of General Hampton’s divisions of cavalry,"
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "discovered about 9 o’clock that while the enemy was amusing them in front he was passing with his main force on a road‘ to his right."
+        },
+        {
+          "source_id": "or47-1-wheeler-carolinas-selections-v1",
+          "section": "wheeler-synopsis",
+          "locator": "p.1130 (OCR page markers; not checked against print)",
+          "quote": "On the night of the 9th came upon Kilpatrick’s camps, which I recon- noitered with General Hampton,"
+        },
+        {
+          "source_id": "nps-nc018-v1",
+          "locator": "Description",
+          "quote": "surprised the Federals in their camps,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "intercept-and-screen",
+      "dimension": "objectives",
+      "value": "NPS says Kilpatrick's division screened the left flank of Sherman's army. Kilpatrick says that after striking the rear of Hardee's column at Solemn Grove and learning that Hampton was marching for Fayetteville, he determined to intercept him. Wheeler says he charged into the camps 'pursuant to orders'.",
+      "rationale": "Stated aims from interested reports and a modern summary; Wheeler does not say whose orders.",
+      "citations": [
+        {
+          "source_id": "nps-nc018-v1",
+          "locator": "Description",
+          "quote": "Kilpatrick's Cavalry Division screened its left flank."
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "I struck the rear of Lieutenant-General Hardee’s column at Solomon’s [Solemn] Grove,"
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "I deter¬ mined at once to intercept him."
+        },
+        {
+          "source_id": "or47-1-wheeler-carolinas-selections-v1",
+          "section": "wheeler-synopsis",
+          "locator": "p.1130 (OCR page markers; not checked against print)",
+          "quote": "pursuant to orders, I took command of my own and Butler’s cavalry"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Brigadier General Kilpatrick (US), and Major General Wheeler and Lieutenant General Hampton (CS); the live page lists 'Hugh Kilpatrick' and Wheeler and omits Hampton. Kilpatrick, heading his report as brevet major general, says Hampton led the center (Butler's) division in the charge and that he himself regained the cavalry camp on foot and led the counterattack; Mitchell's infantry brigade came up about 8 o'clock without needing to fire. Wheeler, signing as lieutenant general, says he took command of his own and Butler's cavalry for the charge and covered the withdrawal with Dibrell's brigade.",
+      "rationale": "Kilpatrick and Wheeler give different accounts of who led the Confederate charge; neither is adopted, and the frozen and signed ranks differ. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "Hampton led the center division (But¬ ler’s)"
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "On foot I succeeded in gaining the cavalry camp a few hundred yards in the rear,"
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "At about 8 o’clock General Mitchell with a brigade of infantry came within supporting distance,"
+        },
+        {
+          "source_id": "or47-1-wheeler-carolinas-selections-v1",
+          "section": "wheeler-synopsis",
+          "locator": "p.1130 (OCR page markers; not checked against print)",
+          "quote": "I took command of my own and Butler’s cavalry"
+        },
+        {
+          "source_id": "or47-1-wheeler-carolinas-selections-v1",
+          "section": "wheeler-synopsis",
+          "locator": "p.1130 (OCR page markers; not checked against print)",
+          "quote": "In withdrawing I remained with Dibrell’s brigade to cover the movement."
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-opening",
+          "locator": "p.857 (OCR page markers; not checked against print)",
+          "quote": "Report of Bvt. Mag. Gen. Judson KilpatricJc,"
+        },
+        {
+          "source_id": "nps-nc018-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Hugh Kilpatrick [US]"
+        },
+        {
+          "source_id": "nps-nc018-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Joseph Wheeler [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC018",
+            "belligerent": "US",
+            "fullname": "H. Judson Kilpatrick"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC018",
+            "belligerent": "Confederate",
+            "fullname": "Joseph Wheeler"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC018",
+            "belligerent": "Confederate",
+            "fullname": "Wade Hampton"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Kilpatrick says his men retook the camp and artillery and drove the Confederates in confusion from the ground; Wheeler says that, though finally compelled to withdraw, the attack was a decided success. NPS says the Federals regained their artillery and camps and the Confederates withdrew as Union reinforcements approached.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The two commanders' characterizations conflict and are both preserved.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC018"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-nc018-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "drove the enemy in confusion from the ground he had taken by surprise and force of numbers alone."
+        },
+        {
+          "source_id": "or47-1-wheeler-carolinas-selections-v1",
+          "section": "wheeler-synopsis",
+          "locator": "p.1130 (OCR page markers; not checked against print)",
+          "quote": "Though we were finally compelled to withdraw, the attack was a decided success upon our part."
+        },
+        {
+          "source_id": "nps-nc018-v1",
+          "locator": "Description",
+          "quote": "regaining their artillery and camps after a desperate fight. With Union reinforcements on the way, the Confederates withdrew."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 269 (US 183; CS 86). Kilpatrick reports his loss as 4 officers killed and 7 wounded, 15 men killed and 61 severely and several slightly wounded, and 103 officers and men taken prisoner, and says the Confederates left upward of 80 killed in his camp with many wounded; he took 30 prisoners. Wheeler says he secured some 350 prisoners and names three wounded generals. Kilpatrick's casualty table covers his division's losses for the whole campaign since Savannah (604).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Kilpatrick's 103 prisoners lost and Wheeler's 350 taken disagree; Kilpatrick's campaign table is not assigned to this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC018"
+          },
+          "column": "casualties_text",
+          "quote": "269 total (US 183; CS 86)"
+        },
+        {
+          "source_id": "nps-nc018-v1",
+          "locator": "Estimated Casualties",
+          "quote": "269 total (US 183; CS 86;)"
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "We lost 4 officers killed and 7 wounded, 15 men killed and 61 severely and several slightly wounded, and 103 officers and men taken prisoners."
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-march",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "The enemy left in our camp upward of 80 killed, including many officers,"
+        },
+        {
+          "source_id": "or47-1-wheeler-carolinas-selections-v1",
+          "section": "wheeler-synopsis",
+          "locator": "p.1130 (OCR page markers; not checked against print)",
+          "quote": "secured some 350 prisoners."
+        },
+        {
+          "source_id": "or47-1-wheeler-carolinas-selections-v1",
+          "section": "wheeler-synopsis",
+          "locator": "p.1130 (OCR page markers; not checked against print)",
+          "quote": "Among my wounded were Generals Humes, commanding division, Hannon and Hagan, commanding brigades,"
+        },
+        {
+          "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+          "section": "kilpatrick-inclosure-1",
+          "locator": "p.863 (OCR page markers; not checked against print)",
+          "quote": "Total . 5 19 3 102 216 182 77 604"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Hampton's No. 303 reports (read; they contain no narrative of March 10), Wheeler's March dispatches, Butler's and Humes's accounts, the Jordan, Atkins and Spencer brigade reports and regimental reports (Nos. 213–230), Mitchell's report and the nominal casualty list remain deferred. Cox's history (Chapter XI, read, not selected) also narrates the action; it is not one of this record's three families.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Blair's, G. P. Harrison's, Kilpatrick's, Wheeler's, J. D. Cox's, Bragg's, Slocum's, Hardee's and J. E. Johnston's reports and dispatches, printed in Official Records Series I, Volume XLVII, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. The No. 3 return of Union casualties is a compiler's table from nominal lists, used as the one targeted follow-up for the casualty gap at Kinston, Averasborough and Bentonville. Cox's history The March to the Sea; Franklin and Nashville (1882) belongs to the same author family as his report. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

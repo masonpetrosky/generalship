@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "battle_id": "NC019",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Averasborough record (March 16, 1865) in the Carolinas Campaign [February-March 1865]. Kilpatrick's contact of March 15, which the live description includes, and the skirmishing on March 17 are context outside the frozen one-day record. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads XX Corps and XIV Corps (25,992) against Hardee's Corps (5,400); the live field reads 31,392 (US 25,992; CS 5,400). Slocum says he sent two divisions of each corps on the Averasborough road without wagons, the remaining division of each corps going with the trains, and that the four divisions (Jackson's and Ward's of the Twentieth, Morgan's and Carlin's of the Fourteenth) camped near Taylor's Hole Creek on the 15th, with Hawley's brigade sent forward to support the cavalry. NPS says four divisions of the XX Corps arrived during the night. Hardee gives no strength for his own corps; he reports Wheeler coming to his help late on the 16th and later in his rear with 500 or 600 men.",
+      "rationale": "The frozen US figure is labelled as two whole corps, while Slocum describes four divisions on this road; NPS's 'four divisions of the XX Corps' differs from Slocum's two of each corps. No date or basis for the frozen CS 5,400 was found in this record's families. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC019"
+          },
+          "column": "forces_text",
+          "quote": "XX Corps and XIV Corps (25,992) [US]; Hardee's Corps (5,400) [CS]"
+        },
+        {
+          "source_id": "nps-nc019-v1",
+          "locator": "Forces Engaged",
+          "quote": "31392 total (US 25992; CS 5400;)"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "I accordingly ordered two divisions of each corps to move, with only such wagons as were abso¬ lutely necessary, on the road to Averasborough,"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "the four divisions, Jackson’s and Ward’s, of the Twentieth Corps, and Morgan’s and Carlin’s, of the Fourteenth, encamped near Taylor’s Hole Creek."
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "Hawley’s brigade, of Jackson’s division, was sent forward late in the evening to support the cavalry."
+        },
+        {
+          "source_id": "nps-nc019-v1",
+          "locator": "Description",
+          "quote": "During the night, four divisions of the XX Corps arrived to confront the Confederates."
+        },
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-17",
+          "locator": "p.1074 (OCR page markers; not checked against print)",
+          "quote": "General Wheeler came to my assistance late yesterday afternoon and rendered valuable service."
+        },
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-17",
+          "locator": "p.1074 (OCR page markers; not checked against print)",
+          "quote": "He is now in my rear with 500 or 600 men,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "roads-and-works",
+      "dimension": "terrain",
+      "value": "Slocum found the Confederates entrenched about a mile and a half from the fork of the Bentonville road; the roads were almost impassable and it was nearly 10 o'clock before his other troops reached the field; the Confederates were driven about a mile to a third line of works after a brief stand at a second. Hardee wrote on the 17th that the roads were almost impassable. NPS places Hardee across the Raleigh road near Smithville and says the XIV Corps could not deploy before dark because of the swampy ground.",
+      "rationale": "The roads and swamp predate the action; when the three lines of works were built is not stated. The tag stays unresolved.",
+      "citations": [
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "the enemy was discovered intrenched about one mile and a half from the point at which the road to Bentonville branches off from the Smithfield and Ealeigh road."
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "The roads were almost impassable, and it was nearly 10 o’clock before other troops could reach the field."
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "The enemy was speedily driven back about one mile to a"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "third line of works, making a brief stand at his second line."
+        },
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-17",
+          "locator": "p.1074 (OCR page markers; not checked against print)",
+          "quote": "The roads are almost impassable."
+        },
+        {
+          "source_id": "nps-nc019-v1",
+          "locator": "Description",
+          "quote": "deployed across the Raleigh Road near Smithville."
+        },
+        {
+          "source_id": "nps-nc019-v1",
+          "locator": "Description",
+          "quote": "was unable to deploy before dark due to the swampy ground."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "light-column-and-trains",
+      "dimension": "logistics",
+      "value": "Slocum says the commanding general instructed him to move with a strong column unencumbered by wagons, the trains going by a road to the right toward Cox's Bridge with the remaining division of each corps. Hardee reports that two guns were abandoned with the limber of one blown off and the horses of both killed, and that his trains had gone on to Elevation.",
+      "rationale": "Movement and transport statements from interested reports; no transport or ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "was instructed by the commanding general to move with a strong column, unencumbered by wagons,"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "while the remaining division of each corps with the trains was sent on the direct road to Cox’s Bridge."
+        },
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-17",
+          "locator": "p.1074 (OCR page markers; not checked against print)",
+          "quote": "Two pieces of artillery were abandoned, the limber of one being blown off and the horses of both killed."
+        },
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-17",
+          "locator": "p.1074 (OCR page markers; not checked against print)",
+          "quote": "My trains had gone on to Elevation."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "contact-and-dispatches",
+      "dimension": "information",
+      "value": "Hardee wrote at 3.30 p.m. on the 16th that the Union troops were passing him so closely he could not withdraw until night, and at 4.30 p.m. that Hampton reported the Union army across Black River at several places; on the 17th he said the Union loss was not known, and that Johnston's 4 p.m. dispatch countermanding the move to Smithfield reached him at 11 p.m., too late (its countermand being conditional). Slocum says that on leaving Fayetteville he was told Goldsborough was the next objective.",
+      "rationale": "Attributed knowledge from interested dispatches and a report; the dispatches Hardee received were not inspected.",
+      "citations": [
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-16",
+          "locator": "p.1073 (OCR page markers; not checked against print)",
+          "quote": "The enemy are passing me so closely that I cannot withdraw until night."
+        },
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-16",
+          "locator": "p.1074 (OCR page markers; not checked against print)",
+          "quote": "General Hampton says the enemy have crossed Black Eiver at several places, and urges me to move raiudly to prevent being intercepted."
+        },
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-17",
+          "locator": "p.1074 (OCR page markers; not checked against print)",
+          "quote": "Enemy\\s loss not know^u, but believed to be heavy."
+        },
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-17",
+          "locator": "p.1074 (OCR page markers; not checked against print)",
+          "quote": "countermanding the movement to Smithfield upon certain conditions, was received at 11 p. ni., too late to arrest the movement."
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "On leav¬ ing Fayetteville I was informed that Goldsborough was our next objec¬ tive point,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "delay-and-junction",
+      "dimension": "objectives",
+      "value": "Slocum says Goldsborough was the objective and that he ordered Case's brigade on the left to advance and, if possible, turn the Confederate line. Hardee asked Johnston to send a force to Elevation to insure a junction and said he would retire toward Smithfield that night. NPS says Hardee held up the Union advance for nearly two days.",
+      "rationale": "Stated aims from interested accounts and a modern summary; NPS's two-day phrasing spans the frozen one-day interval.",
+      "citations": [
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "I ordered Case’s brigade, which was on the left of our line, to advance and, if possible, turn the enemy’s line."
+        },
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-16",
+          "locator": "p.1073 (OCR page markers; not checked against print)",
+          "quote": "It would be well for you to send a force to Elevation. It would insure my forming a junction with you."
+        },
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-16",
+          "locator": "p.1074 (OCR page markers; not checked against print)",
+          "quote": "I shall retire toward Smithfield to-night."
+        },
+        {
+          "source_id": "nps-nc019-v1",
+          "locator": "Description",
+          "quote": "Hardee retreated during the night after holding up the Union advance for nearly two days."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Major General Slocum (US) and Lieutenant General Hardee (CS). Slocum says that once the troops were posted he ordered Case's flanking attack, and he praises Kilpatrick's cavalry. Hardee reports Wheeler's help late in the day. NPS names Kilpatrick's first contact and Hardee's corps of Taliaferro's and McLaws's divisions with Wheeler's dismounted cavalry.",
+      "rationale": "Direction is attributed as the sources state; Sherman's role on the field is not described in this record's families. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "As soon as the troops were posted"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "I ordered Case’s brigade,"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "The cavalry under Gen¬ eral Kilpatrick exhibited great gallantry,"
+        },
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-17",
+          "locator": "p.1074 (OCR page markers; not checked against print)",
+          "quote": "General Wheeler came to my assistance late yesterday afternoon"
+        },
+        {
+          "source_id": "nps-nc019-v1",
+          "locator": "Description",
+          "quote": "Lt. Gen. William Hardee's corps-consisting of Taliaferro's and McLaw's infantry divisions and Wheeler's dismounted cavalry-deployed"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC019",
+            "belligerent": "US",
+            "fullname": "Henry Slocum"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC019",
+            "belligerent": "Confederate",
+            "fullname": "William Hardee"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Slocum says the Confederates retreated during the night through Averasborough and that he captured 3 guns, a caisson, several ambulances and 175 prisoners. Hardee reports that the Union troops were repulsed in every attempt to carry his lines or turn his flanks, that two guns were abandoned, and that he retired that night. NPS says the Federals drove Hardee from two lines but were repulsed at a third.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Slocum's three captured guns and Hardee's two abandoned guns differ; both are preserved.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC019"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-nc019-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "During the following night the enemy retreated, taking the road through Averasborough."
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "In this action we captured 3 pieces of artillery, 1 caisson, and several ambulances; also 175 prisoners."
+        },
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-16",
+          "locator": "p.1074 (OCR page markers; not checked against print)",
+          "quote": "The enemy have made repeated attempts to carry my lines and turn my flanks, but have been repulsed in every attempt."
+        },
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-17",
+          "locator": "p.1074 (OCR page markers; not checked against print)",
+          "quote": "Two pieces of artillery were abandoned,"
+        },
+        {
+          "source_id": "nps-nc019-v1",
+          "locator": "Description",
+          "quote": "drove the Confederates from two lines of works, but were repulsed at a third line."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads '1,419 total' with no side split; the live field reads 1,547 (US 682; CS 865). Slocum gives the loss in the two corps as 564 killed and wounded, with a compiler's footnote referring to the revised table, and says 128 Confederate dead were buried on the field. In the No. 3 return the Twentieth Corps total line ends at 485 and the garbled Averasborough recapitulation (Fourteenth Corps, Twentieth Corps, cavalry, total) ends '485 81 682'. Hardee gives his loss as between 400 and 500, including Colonel Rhett missing.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The No. 3 return is a later compilation from nominal lists; its regimental columns are largely garbled in OCR and only the final totals are relied on. The Kinston and Bentonville grand-total lines print killed, wounded and missing figures that sum to their totals; the Averasborough recapitulation is garbled and its final 682 is read by position. A live NPS figure that matches it is not independent corroboration. Slocum's 564 excludes the missing and the cavalry; the return's 682 includes both.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC019"
+          },
+          "column": "casualties_text",
+          "quote": "1,419 total"
+        },
+        {
+          "source_id": "nps-nc019-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1547 total (US 682; CS 865;)"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "The loss in the two corps was 564 killed and wounded.*"
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "But see revised table, p. 66."
+        },
+        {
+          "source_id": "or47-1-slocum-carolinas-selections-v1",
+          "section": "slocum-averasborough-bentonville",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "We buried on the field 128 of their dead."
+        },
+        {
+          "source_id": "or47-1-union-casualty-return-selections-v1",
+          "section": "return-averasborough",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "RECAPITULAT lOX."
+        },
+        {
+          "source_id": "or47-1-union-casualty-return-selections-v1",
+          "section": "return-averasborough",
+          "locator": "p.65 (OCR page markers; not checked against print)",
+          "quote": "Total Twentieth Army Corps . 9 47 24 354 1 50 485"
+        },
+        {
+          "source_id": "or47-1-union-casualty-return-selections-v1",
+          "section": "return-averasborough",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "485 81 682"
+        },
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-17",
+          "locator": "p.1074 (OCR page markers; not checked against print)",
+          "quote": "My loss is between 400 and 500."
+        },
+        {
+          "source_id": "or47-1-hardee-averasborough-selections-v1",
+          "section": "hardee-1865-03-17",
+          "locator": "p.1074 (OCR page markers; not checked against print)",
+          "quote": "Among the missing is Colonel Ehett, commanding brigade,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Williams's No. 130 and Davis's No. 62 reports, the Jackson, Ward and brigade reports, Kilpatrick's Averasborough passage (in the selected Kilpatrick report, not cited here), Wheeler's synopsis entry for March 16 (not cited here), Taliaferro's No. 290 report, McLaws's account and any Confederate casualty return remain deferred. J. E. Johnston's March 18 dispatch (in his selection, not cited here) gives Hardee's loss on the 16th as 450 and relays prisoners' report of the Union loss as about 5,300; his March 27 field return gives Hardee 5,400 infantry on the morning of March 19, the same figure as the frozen CS 5,400. The coincidence is recorded, not adopted, and Johnston is not one of this record's families.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Blair's, G. P. Harrison's, Kilpatrick's, Wheeler's, J. D. Cox's, Bragg's, Slocum's, Hardee's and J. E. Johnston's reports and dispatches, printed in Official Records Series I, Volume XLVII, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. The No. 3 return of Union casualties is a compiler's table from nominal lists, used as the one targeted follow-up for the casualty gap at Kinston, Averasborough and Bentonville. Cox's history The March to the Sea; Franklin and Nashville (1882) belongs to the same author family as his report. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

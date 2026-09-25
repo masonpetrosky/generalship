@@ -74,6 +74,19 @@ from different campaigns under separate independence groups (for example
 witness family: they never count as independent corroboration of each other, whatever their group
 names.
 
+### Carolinas Campaign first pass (cohort v2), 2026-09-25
+
+The [first pass](research/carolinas-first-pass-v1.md) adds **23 records**:
+
+- five NPS HTML/text pairs;
+- Official Records Series I, Volume XLVII Part 1 (`warofrebellion471unit`): catalog metadata and
+  full OCR; the imprint year is illegible in OCR and left null;
+- ten report and return selections, including the compiled Union casualty return, used as the
+  single targeted follow-up for three records;
+- one new Cox selection, reusing the registered *March to the Sea* OCR.
+
+No model inputs are changed.
+
 ### Price's Missouri Expedition, Mobile Bay, Mobile and Wilson's Raid first passes (cohort v2), 2026-09-25
 
 The first passes for [Price's Missouri Expedition](research/price-missouri-first-pass-v1.md),
