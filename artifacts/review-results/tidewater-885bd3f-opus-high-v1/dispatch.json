@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session e6850f52-5fb0-4409-b17a-be2caaa0abbe",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit b884e79bd4c9628ad27b766859f12c32ed78ce87; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T04:23:06Z",
+  "prepared_commit": "885bd3f97721982d5e431e2e720a2a93dc492b65",
+  "bundle_commit": "b884e79bd4c9628ad27b766859f12c32ed78ce87",
+  "assignment_sha256": "541ded32390b029b28aa29dd3c987713cb5c2fcdba6a6d94f5722c8769366e1c",
+  "inputs_manifest_sha256": "e7329b8ea655de7a25e168a227f9765d4bb3ca9ec0271d1c5ae489ae57edf39f",
+  "num_turns": 36,
+  "duration_ms": 525762,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** Five extraction and entailment errors need fixing (TW-R1 to TW-R5). Everything checked by script passed.\n\n**Review file:** `artifacts/review-results/tidewater-885bd3f-opus-high-v1/review.md` (sha256 `b76521a40024b5cd8b3e471a309414cceecf0f9eb1800cf3da830a84619d8ea7`). It is the only file I wrote; nothing is committed or pushed.\n\n**Inputs:** all 44 input hashes match in the worktree and at `885bd3f`. I reviewed commit `885bd3f` against `1bca6a0`, from a worktree at `b884e79`. Model `claude-opus-5-5`, effort `high`, 2026-09-25.\n\n**What passed:**\n- All eight text files rebuild exactly from their recorded sources (four NPS summaries, four Official Records selections).\n- All 187 quotes are found in the cited text, and every page locator matches the OCR page markers.\n- Counts match the prepared work: 38 claims, 4 unknowns, 76/127 dossiers, 19/36 complete campaign groups, and 373/370 source records against 361/358 before.\n- The older dossiers, their history files and the frozen model inputs are unchanged. There are zero promoted rows, and the baseline Brier is still 0.2768816348133779 against 0.25.\n- The receipt hashes and packet contents check out, and `make check` passes (82 tests).\n- The next group is confirmed as Cavalry Operations along the Rappahannock, VA029.\n\n**Required corrections** (the review gives the exact replacement text for each):\n- **TW-R1:** NC011 and the memo say Foster credits Hill's retreat to his own movements. In fact Foster names three causes: his movements, Hill learning that Heckman's brigade had arrived, and Hill's failure after fourteen days of siege. The fix restores all three and adds 3 citations.\n- **TW-R2:** The memo says French judged the Hill's Point garrison surprised. He did not: he said it was negligent if surprised, and did not resist enough if not. Only Longstreet's indorsement judges it surprised. VA031 needs the second half of French's statement (1 citation).\n- **TW-R3:** VA031's one `inherited` tag also covers Confederate siege works built during the siege, and Peck says Union construction went on \"until the present\". The fix splits out a `confederate-siege-works` claim tagged `unresolved` and adds 1 citation.\n- **TW-R4:** VA031's link between French's old river work and the Hill's Point battery is only an inference from his report's order, and the passage proving it is not cited. The fix adds 2 citations and softens the memo's \"dispute\" wording.\n- **TW-R5:** NC010 turns the OCR \"2 killed and I 4 wounded\" into \"4 wounded\" without saying so, and doesn't state the scope of the figures. The fix reports the OCR reading and the scope.\n\nIf all five are adopted, the totals become 39 claims and 194 citations, and those counts need updating in the memo, README, roadmap and report text. Notes TW-N1 to TW-N4 are optional. The primary agent should re-check each proposed quote before editing.\n\nThis review is not human historical adjudication, independent corroboration or feature admission."
+}

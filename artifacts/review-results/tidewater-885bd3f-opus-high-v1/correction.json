@@ -1,0 +1,95 @@
+{
+  "review_sha256": "b76521a40024b5cd8b3e471a309414cceecf0f9eb1800cf3da830a84619d8ea7",
+  "prepared_commit": "885bd3f97721982d5e431e2e720a2a93dc492b65",
+  "findings": [
+    {
+      "finding_id": "TW-R1",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; NC011 result restates all three grounds of Foster's 'in all probability' judgment with three p.216 citations and notes the undated movements; memo corrected."
+    },
+    {
+      "finding_id": "TW-R2",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; VA031 records French's judgment as conditional (one p.325 citation added) and only Longstreet's indorsement as judging surprise; memo corrected."
+    },
+    {
+      "finding_id": "TW-R3",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted in the preferred form; union-works keeps inherited for pre-April 11 Union works with a p.275 citation, and the Confederate siege works move to a new unresolved claim."
+    },
+    {
+      "finding_id": "TW-R4",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; two French citations link the old river work to Hill's Point by sequence, the rationale says so, and the memo states the NPS difference as unestablished."
+    },
+    {
+      "finding_id": "TW-R5",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; NC010 reports Foster's OCR 'I 4' and the scope of his and the footnote's figures; memo corrected."
+    },
+    {
+      "finding_id": "TW-N1",
+      "disposition": "recommendation_adopted_by_primary",
+      "summary": "adopted for Peck's officer count (OCR '0'); French's uncited '10th' is left as is."
+    },
+    {
+      "finding_id": "TW-N4",
+      "disposition": "recommendation_adopted_by_primary",
+      "summary": "adopted; VA030 quotes Peck's 'under the immediate command of General French' and states its ambiguity."
+    },
+    {
+      "finding_id": "TW-N2",
+      "disposition": "deferred",
+      "summary": "source differences on garrison lists, siege length and the Hill's Point work in progress are not recorded in this pass."
+    },
+    {
+      "finding_id": "TW-N3",
+      "disposition": "no_dossier_change",
+      "summary": "casualty status stays disputed where sources give conflicting counts (NC010, VA031) and supported where only a frozen count and a live zero exist (NC011, VA030)."
+    }
+  ],
+  "dossiers": {
+    "NC010": {
+      "dossier_path": "data/evidence/NC010.json",
+      "archived_dossier_path": "data/evidence/history/NC010.v1.json",
+      "archived_dossier_sha256": "65de3e4278ff049f2e85a27a78c2c730a8d64db22dfda816cd9233da82c4074d",
+      "corrected_dossier_sha256": "41852196b920d6ed1320493cd5a5f94a2a9fa526d2b19babc5a43b0ed8f5319a",
+      "changed_claims": [
+        "casualty-records"
+      ]
+    },
+    "NC011": {
+      "dossier_path": "data/evidence/NC011.json",
+      "archived_dossier_path": "data/evidence/history/NC011.v1.json",
+      "archived_dossier_sha256": "370c423c3cf09a51dfd123332e58ddf263b0412a1272470ea80e3e629f678530",
+      "corrected_dossier_sha256": "de0ee7bf1a204e1afe0413a8e1a2dbebc57439abb1c631e775e66d0717dce776",
+      "changed_claims": [
+        "recorded-result"
+      ]
+    },
+    "VA030": {
+      "dossier_path": "data/evidence/VA030.json",
+      "archived_dossier_path": "data/evidence/history/VA030.v1.json",
+      "archived_dossier_sha256": "70746099ca04821c31c6901cccdc22cc32a07f5dc30eef5181efd25abce9469a",
+      "corrected_dossier_sha256": "392aa61f93ea69b99bbd2d30a7062cd26f800a52c482375146e8de4e0e65bee9",
+      "changed_claims": [
+        "batteries-and-pontoons"
+      ]
+    },
+    "VA031": {
+      "dossier_path": "data/evidence/VA031.json",
+      "archived_dossier_path": "data/evidence/history/VA031.v1.json",
+      "archived_dossier_sha256": "e6ee7617512dc8ccd2728e386d8a38b0c8355d47d24e85383100a9a047d9128d",
+      "corrected_dossier_sha256": "f3453f95137ce0d5fb585be326cab1660730f37627a141210f1fe7ce132e5ce1",
+      "changed_claims": [
+        "union-works",
+        "confederate-siege-works (added)",
+        "hill-point-work",
+        "surprise-and-warning",
+        "recorded-result"
+      ]
+    }
+  },
+  "notes": "Claims rise from 38 to 39 and citations from 187 to 194; unknowns are unchanged.",
+  "independent_followup_review": false
+}

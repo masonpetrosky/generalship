@@ -109,7 +109,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [VA028](../data/evidence/VA028.json) | 10 | 1 | 0 | 0 | draft |
 | [VA029](../data/evidence/VA029.json) | 9 | 1 | 0 | 0 | draft |
 | [VA030](../data/evidence/VA030.json) | 9 | 1 | 0 | 0 | draft |
-| [VA031](../data/evidence/VA031.json) | 11 | 1 | 0 | 0 | draft |
+| [VA031](../data/evidence/VA031.json) | 12 | 1 | 0 | 0 | draft |
 | [VA100](../data/evidence/VA100.json) | 10 | 3 | 0 | 0 | draft |
 | [VA101](../data/evidence/VA101.json) | 10 | 2 | 0 | 0 | draft |
 | [VA102](../data/evidence/VA102.json) | 9 | 2 | 0 | 0 | draft |

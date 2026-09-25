@@ -133,7 +133,8 @@ The [Middle Tennessee pass](docs/research/middle-tennessee-first-pass-v1.md) add
 dossiers, 46 claims, 7 explicit unknowns and 149 citations. Opus 5.5 `high` reviewed them;
 its four required corrections are fixed and verified by the primary.
 The [Tidewater pass](docs/research/tidewater-first-pass-v1.md) adds four
-dossiers, 38 claims, 4 explicit unknowns and 187 citations. Separate review is pending.
+dossiers, 39 claims, 4 explicit unknowns and 194 citations. Opus 5.5 `high` reviewed them;
+its five required corrections are fixed and verified by the primary.
 The [Rappahannock cavalry pass](docs/research/rappahannock-cavalry-first-pass-v1.md) adds one
 dossier, 9 claims, 1 explicit unknown and 60 citations. Separate review is pending.
 Next: **the eleven-record Grant's Operations Against Vicksburg**. See the

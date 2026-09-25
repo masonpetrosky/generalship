@@ -195,12 +195,15 @@ statuses and citations are unchanged, and no separate review of the propagation 
 claimed. TN013 and TN016 received it with the Middle Tennessee correction.
 
 The [Longstreet's Tidewater Operations first pass](research/tidewater-first-pass-v1.md)
-adds all **four frozen records, NC010, NC011, VA031 and VA030**, with **38 claims, 4
-explicit unknowns and 187 citations** from NPS/CWSAC and new Foster, D. H. Hill, Peck
+adds all **four frozen records, NC010, NC011, VA031 and VA030**, with **39 claims, 4
+explicit unknowns and 194 citations** from NPS/CWSAC and new Foster, D. H. Hill, Peck
 and French selections from the pinned Official Records Volume XVIII OCR. VA030's
 interval lies inside VA031's and their shared siege quantities are not added. The
 April 24 reconnaissance result and the Hill's Point work's origin remain disputed.
-Separate review is pending.
+Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/tidewater-885bd3f-opus-high-v1/review.md)
+found five attribution, phase, citation and OCR-reading corrections, all fixed and
+[verified by the primary](../artifacts/review-results/tidewater-885bd3f-opus-high-v1/primary-assessment.md).
 Coverage is **19/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Cavalry Operations along the Rappahannock first pass](research/rappahannock-cavalry-first-pass-v1.md)
