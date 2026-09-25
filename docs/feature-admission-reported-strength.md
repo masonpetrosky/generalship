@@ -1,9 +1,9 @@
 # Reported side-strength profile, design v1 (proposed)
 
-**Status: a proposal awaiting separate review.** It does not change the text or hash of
-the [feature-admission contract](feature-admission.md) or its
-`opening_available_combatants_v1` profile. It adds a second, separately reviewed use under
-that contract's §§3, 5 and 6. Its departures from §4, which is written for pre-engagement
+**Status: proposed; revised after a separate design review and a focused follow-up.** It
+does not change the text or hash of the [feature-admission contract](feature-admission.md)
+or its `opening_available_combatants_v1` profile. It adds a second, separately reviewed use
+under that contract's §§1, 3, 5, 6 and 7. Its departures from §4, which is written for pre-engagement
 prediction, are declared in §2 and apply to this profile only.
 
 Nothing here is implemented. It does not authorize model inputs, an enriched fit or a
@@ -13,8 +13,10 @@ with its own review.
 **Revision.** This text incorporates the required corrections R1–R9 and advisories A1–A4
 and A6 from the first separate
 [design review](../artifacts/review-results/reported-strength-design-e335b75-opus-high-v1/review.md)
-of prepared commit `e335b75`. A5 keeps the source-ID tiebreak; see §4. A focused
-follow-up review checks the corrections.
+of prepared commit `e335b75`. A5 keeps the source-ID tiebreak; see §4. The focused
+[follow-up review](../artifacts/review-results/reported-strength-followup-848fb78-opus-high-v1/review.md)
+of `848fb78` confirmed R1–R9 and required N1–N4, which are applied here as specified,
+with advisories B1–B7 adopted.
 
 On 2026-09-25 the owner chose to add this coarser second-tier profile. Under the strict
 opening profile, first-pass evidence cannot yield rows at a feasible research depth.
@@ -57,7 +59,8 @@ exactly (`reported_engaged`, `reported_effective`, `reported_present`,
 total can reflect how the battle developed. Reinforcements get committed, and some units
 never reach action. The measure therefore carries partial outcome leakage, which the
 opening profile forbids. The frozen Shiloh US figure, for example, combines the Army of
-the Ohio, which arrived during the engagement.
+the Ohio, which arrived during the engagement (TN003 events `buell-divisions-arrive` and
+`crittenden-arrival-phases`).
 
 Which engagements obtain figures may itself depend on the outcome, on size and on fame,
 because sides and compilers chose what to report. Results are conditional on source
@@ -131,8 +134,9 @@ keeps the observation in the evidence and ledger with its reason.
    without the author's endorsement are `excluded: adversary_or_hearsay_estimate` in v1.
    - A compiled figure whose cited basis is visibly one side's report or an opponent's
      estimate takes that underlying role.
-   - A secondary total with neither a stated nor a table-level basis is `blocked:
-     basis_unknown`.
+   - A figure whose population basis is given neither by the cited passage nor by the
+     table's stated definition is `blocked: basis_unknown`, whatever its role. A basis is
+     never inferred from the role or the source.
    - When the cited passages do not settle the role, the figure is `blocked:
      source_role_unresolved`. An example is whether a compiler adopts or only relays a
      figure.
@@ -145,6 +149,9 @@ keeps the observation in the evidence and ledger with its reason.
    - Unreadable figures are `blocked: unreadable_value`.
    - A one-sided printed bound ("over", "nearly", "at least") is `blocked:
      one_sided_bound` in v1 (§6, §8).
+   - A quantity with `estimation_status: unknown` is retained and labelled
+     `estimation_status_unknown`. It is not blocked under this profile (§8). The opening
+     profile's `estimation_provenance_unknown` block is unchanged.
 5. **Derivation.**
    - Our own arithmetic follows contract §5: disjoint whole components with the same
      basis and time for sums, nested sets for subtraction. Otherwise the transform is
@@ -155,6 +162,9 @@ keeps the observation in the evidence and ledger with its reason.
      us or visibly by the source, is `excluded: derived_from_losses`.
    - An unknown source derivation is labelled `derivation_unknown`, under the declared
      relaxation in §2.
+6. **Other exclusions.** A `reported_reinforcements` quantity is one part of a side's force
+   and is `excluded: partial_scope`. A strength figure whose claim is tagged
+   `post_outcome` stays excluded, as `post_outcome_claim`.
 
 ## 4. Rows, bases and alternatives
 
@@ -163,18 +173,34 @@ keeps the observation in the evidence and ledger with its reason.
 - **Basis pairing.** Each side's basis is the typed `basis` of its quantity. It is read
   from the cited passage or the table's stated definition; a shared source does not
   establish it. A same-basis pair has identical basis values. Every other pair is a
-  mixed-basis pair, including one with an unknown basis on either side.
+  mixed-basis pair. An observation with no established basis is `blocked: basis_unknown`
+  (§3 item 3) and forms no pair.
 - **Candidate pairs.** An engagement's candidate pairs are every combination of one
   applicable US and one applicable Confederate observation that no declared compatibility
   constraint rules out (contract §5). A pair may combine sources and roles. It records
   both source IDs, roles and bases. Compatibility constraints, if any, must be declared
   before extraction.
 - **Pair ranking.** Fixed now, before any values are extracted or scored.
-  - Pair classes are: (a) both sides from one compiled source; (b) both sides' own
-    reports; (c) any other combination.
-  - Within a class, pairs are ordered by source ID, then quantity ID, in ascending
+  - Each applicable observation has one recorded `source_role` under §3 item 3:
+    `own_report` (the side's own report or return, including a compiled figure whose
+    cited basis is visibly that side's report) or `compiled_total` (any other admissible
+    compiled or secondary total).
+  - Two observations come from one compiled document when their cited sources have the
+    same `same_document_key`. Registry aliases and transcript/facsimile pairs are one
+    document (contract §5). Other documents in one source family are different
+    documents.
+  - Pair classes are: (a) both sides `compiled_total` from one compiled document; (b) both
+    sides `own_report`; (c) any other combination. Each pair belongs to exactly one class.
+  - Within a class, pairs are ordered by the tuple (US source ID, Confederate source ID,
+    US quantity ID, Confederate quantity ID), compared element by element in ascending
     code-point order. This tiebreak is arbitrary but outcome-blind.
   - Order A is (a), (b), (c). Order B is (b), (a), (c).
+  - The Livermore selection's source ID is fixed now as
+    `livermore-numbers-losses-selections-v1`. It sorts after `arnold-cwsac-forces`, so
+    where both compiled documents supply a pair, `compiled_first` takes the CWSAC pair and
+    the Livermore pair appears in `alternate_2`. A common-row comparison whose tier-2 values
+    equal the frozen values is reported as "identical by construction"; §7's aim of
+    comparing sources on common rows is met through `alternate_k`.
 - **Scenarios.** Each scenario is a full dataset with at most one pair per engagement,
   no averaging and no weights. Engagements without a pair keep null sides. The declared
   scenarios are exactly:
@@ -225,8 +251,8 @@ explicit, recorded owner authorization (contract §7).
   - leave-one-campaign-out over the campaigns present in the row set;
   - equal odds and the Laplace-smoothed, training-only prior as comparators.
 
-  No new predictors. Tier-2 predictions are named as diagnostics (for example,
-  `diagnostic_union_score`), not `p_union_win`.
+  No new predictors. Tier-2 predictions are named `diagnostic_union_score`, never
+  `p_union_win`.
 - **Bounds.** A side's value is (lower + upper)/2, as in the baseline, with the
   baseline's four-endpoint sensitivity reported. An observation with a one-sided printed
   bound has no finite pair of bounds. It forms no scored row in v1 and stays in the ledger
@@ -245,8 +271,8 @@ explicit, recorded owner authorization (contract §7).
   Each report gives:
   - battle- and campaign-weighted Brier and log loss;
   - row and campaign counts;
-  - the number of rows resting on `derivation_unknown`, mixed-basis or own-report
-    observations.
+  - the number of rows resting on `derivation_unknown`, `estimation_status_unknown`,
+    mixed-basis or own-report observations, each counted separately.
 - **Labels.** Every result carries `partial_outcome_leakage` and
   `conditional_on_source_availability`, together with the §2 statement.
 - **Reference.** Retain the 23-engagement, 13-group baseline:
@@ -269,8 +295,10 @@ below.
     extraction.
   - Extract it for all 91 decisive non-aggregate engagements, including the 23 with
     frozen pairs, so that extraction does not depend on baseline status.
-- Add at most one further family for an engagement that still lacks an applicable figure
-  for each side.
+- Add at most one further family for an engagement where, after the first-pass citations
+  and the compiled family, at least one side has no figure that the extractor's
+  provisional §3 coding leaves neither `excluded` nor `blocked`. This coding triggers
+  research only and approves nothing.
 
 Each of the 91 engagements ends with either candidate figures for both sides or an
 explicit null with its reason. Inconclusive and aggregate records stay in the ledger but
@@ -292,25 +320,41 @@ change if the following items are implemented as a separate, versioned profile p
 - **Boundary.** An engagement-interval boundary (frozen record ID, start and end dates)
   replaces the contact, area and availability fields. It has one whole-side membership
   atom per side.
-- **Mappings and codes.** A new proposal schema version adds `source_role` and the §3
-  codes:
+- **Mappings and codes.** A new proposal schema version adds `source_role` (`own_report`
+  or `compiled_total`, §4) and the §3 codes:
   `partial_scope`, `scope_unresolved`, `other_engagement`, `engagement_link_unknown`,
   `post_engagement_state`, `partial_interval`, `interval_unresolved`,
   `adversary_or_hearsay_estimate`, `source_role_unresolved`, `basis_unknown`,
-  `unreadable_value`, `derived_from_losses`, `derivation_unknown`, `one_sided_bound`.
+  `unreadable_value`, `derived_from_losses`, `derivation_unknown`,
+  `estimation_status_unknown`, `one_sided_bound`, `post_outcome_claim`.
 - **Profile-specific gate changes.** Under this profile only:
   - `reported_engaged` and the `participation` derivation are applicable;
   - `derivation: unknown` gives the `derivation_unknown` label;
-  - `estimation_status: unknown` is retained and labelled.
+  - `estimation_status: unknown` gives the `estimation_status_unknown` label.
 
   Neither of the last two is blocked.
+
+  The opening profile's contact-boundary time checks do not apply under this profile.
+  These are the `before`/`at_boundary`/`after` time relation, `post_boundary_dependency`,
+  `observed_state_after_boundary`, `state_interval_crosses_boundary` and
+  `state_time_unestablished`. §3 item 2's engagement-interval codes replace them:
+
+  - A quantity whose period is the frozen engagement interval meets state time.
+  - A state date before the start date is allowed only when §3 item 2's engagement link
+    holds.
+  - A state date after the start date is `excluded: post_engagement_state`.
+  - A period the source limits to part of the interval is `excluded: partial_interval`, or
+    `blocked: interval_unresolved` when unclear.
+  - An unestablished state date is `blocked: engagement_link_unknown`.
+  - The `post_state` derivation stays excluded, as `post_engagement_state`.
 - **Frozen CSV figures.** These need either typed schema v3 quantities citing the CWSAC
   row, or a separately reviewed CSV row/column leaf kind (contract §3). Candidates cannot
   reference them otherwise.
 - **One-sided bounds.** Schema v3 cannot type a one-sided printed bound without inventing
   an endpoint. Until a reviewed schema change, such a figure stays a prose claim and is
   `blocked: one_sided_bound`.
-- **Rows and scenarios.** Rows carry the profile ID and both bases. The validator checks
+- **Rows and scenarios.** Rows carry the profile ID and, per side, source ID,
+  `source_role`, basis and labels. The validator checks
   the declared scenarios against the §4 generation rule.
 - **Review scope.** The release audit needs a profile-specific scope set covering §5's
   eight items.

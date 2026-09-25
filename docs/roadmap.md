@@ -390,9 +390,9 @@ opening personnel as unknown, and Shiloh still has zero eligible candidates. The
 `reported_side_strength_v1`. It is a coarser, clearly labelled reported whole-side measure
 that includes the baseline's CWSAC forces-engaged class, with its outcome-leakage weakness
 stated.
-It leaves the opening profile unchanged. The first separate review required nine
-corrections, which are applied; a focused follow-up review checks them. After acceptance
-come a validator extension, typed quantities and one targeted strength follow-up across
+It leaves the opening profile unchanged. A separate design review required nine
+corrections and a focused follow-up four more; all are applied, and the design is accepted
+for implementation. Next come a validator extension, typed quantities and one targeted strength follow-up across
 all 91 decisive non-aggregate engagements. No rows are
 admitted and no model inputs change until a reviewed release exists. Keep every engagement
 regardless of outcome, reputation or available strengths.

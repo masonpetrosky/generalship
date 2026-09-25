@@ -1,0 +1,67 @@
+{
+  "review_sha256": "1b2675c0637a22008686b9b2b48cff70f204fb48f9b2d1cf8f9b4e50577b3514",
+  "prepared_commit": "848fb7889471d46771ca0f85fa5462d11b3d4dad",
+  "findings": [
+    {
+      "finding_id": "N1",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "§4 pair ranking and §8 source_role replaced with the specified text."
+    },
+    {
+      "finding_id": "N2",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "basis_unknown now blocks any figure without an established basis; unknown-basis pairs removed from §4."
+    },
+    {
+      "finding_id": "N3",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "§8 states the opening profile's contact-boundary checks do not apply and lists the replacement interval rules."
+    },
+    {
+      "finding_id": "N4",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "estimation_status_unknown named in §3, §8 and counted in §6."
+    },
+    {
+      "finding_id": "B1",
+      "disposition": "adopted",
+      "summary": "§7 further-family trigger reworded as specified."
+    },
+    {
+      "finding_id": "B2",
+      "disposition": "adopted",
+      "summary": "Livermore source ID fixed as livermore-numbers-losses-selections-v1; identical-by-construction reporting stated."
+    },
+    {
+      "finding_id": "B3",
+      "disposition": "adopted",
+      "summary": "§3 item 6 excludes reported_reinforcements as partial_scope and post_outcome strength claims as post_outcome_claim."
+    },
+    {
+      "finding_id": "B4",
+      "disposition": "adopted",
+      "summary": "status line and contract sections (§§1, 3, 5, 6 and 7) updated."
+    },
+    {
+      "finding_id": "B5",
+      "disposition": "adopted",
+      "summary": "§8 row contents per side."
+    },
+    {
+      "finding_id": "B6",
+      "disposition": "adopted",
+      "summary": "diagnostic output name fixed as diagnostic_union_score."
+    },
+    {
+      "finding_id": "B7",
+      "disposition": "adopted",
+      "summary": "Shiloh event IDs cited; this record uses separate_followup_review."
+    }
+  ],
+  "corrected_design": {
+    "path": "docs/feature-admission-reported-strength.md",
+    "sha256_before_commit": "0699152d91d2855e3ab052c0da41fd50dfdc78337a01f9c617ecfb7048044c48"
+  },
+  "notes": "Design review only. The required corrections were applied with the reviewer's exact replacement text; the primary verified each replacement. No evidence, dossier, source record, admission proposal or model input changed.",
+  "separate_followup_review": "none further; implementation review will re-read the design"
+}
