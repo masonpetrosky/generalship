@@ -2,8 +2,9 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). Both frozen
 records in **McClellan's Operations in Northern Virginia [October-December 1861]** now have draft
-dossiers: **18 claims, 2 explicit null unknowns and 101 citation occurrences**. All seven
-dimensions are represented in each record. All dossiers are drafts; no features are admitted.
+dossiers: **18 claims, 2 explicit null unknowns and 101 citation occurrences**, unchanged by the
+review correction. All seven dimensions are represented in each record. All dossiers are drafts; no
+features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
@@ -91,8 +92,33 @@ Stuart's new group, `stuart-dranesville-reports`, is the same author family as t
 The two null unknowns are the opening strengths. No morale/readiness score, probability, causal
 effect or new commander ranking is introduced. Nothing in this pass changes a model input.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossiers
-and source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed this pass
+together with the other five 1861 Eastern passes at commit `c298447` as
+`e1861-review-c298447-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": eight
+required findings (E1861-R1 to E1861-R8) and fifteen advisories (E1861-A1 to E1861-A15). None
+changes a model input. It is an AI review within its stated scope, not human historical
+adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding was checked against the retained selection text or the registry before any change;
+every new quote occurs in its section, and the dossiers were regenerated from the builder. No
+required finding or advisory concerns VA006 or VA007; the reviewer read the Stone, Evans, Ord and
+Stuart selections and raised no correction. The builder was rerun under the review binding, and both
+dossiers are unchanged and not revised.
+
+Shared finding:
+
+- **E1861-R8** (`docs/sources.md`): the 1861 section's "thirty report selections" should read
+  twenty-seven report selections (thirty selections with Nicolay's three); the 78 records are
+  correct. That document belongs to the primary and is not edited here. This pass's own record count
+  is unchanged.
+
+The review correction adds **no source records**. Citations (101), claims (18), unknowns (2) and
+disputed claims are unchanged. No model input, cohort file, admission proposal or baseline is
+changed.
+
+After the review correction, `python3 -m generalship check` passes and
+`python3 -m unittest discover -s tests` passes (134 tests).

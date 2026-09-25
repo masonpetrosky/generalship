@@ -347,7 +347,7 @@
       "id": "casualty-records",
       "dimension": "outcome",
       "value": "The frozen casualty text reads 773 (US 3; CS 770); the live field reads 673 (US 3; CS 670). NPS says the Federals lost only one man. Stringham says there was no accident to a single officer or man of the Navy, Army or marines and that he could not get a correct list of the enemy's killed and wounded; his prisoner list is described by the compilers as 670 names. Martin reports one and possibly two men killed on the 28th and doubts the accuracy of his captains' returns.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live Confederate 670 equals the compilers' count of Stringham's prisoner list, so it appears to be a prisoner count; the basis of the frozen 770 is not established. Prisoners are not added to any other loss figure.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Prisoners taken at the capitulation are counted in the frozen and live Confederate totals; they are not a separate battle loss.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -404,13 +404,7 @@
   ],
   "open_questions": [
     "Butler's reports and the other Army reports (Army Official Records Series I, Volume IV, pp.579-594, per the Navy compilers' footnote) were not fetched: that volume is being registered in another pass. Barron's and Andrews's reports, Gillis's and Stellwagen's reports and the Confederate telegrams were read but not selected under the three-family ceiling; Martin's enclosed returns are not printed.",
-    "Martin writes that the report of Commodore Barron and Major Andrews of the action of the 29th contains all that is material; that report was read but not selected, so the Confederate side of the capitulation rests on the articles and on Martin's report, which the compilers say was copied from a newspaper clipping.",
     "NPS/CWSAC is one family. Stringham's August 30, September 2 and September 3, 1861 reports (Navy Official Records Series I, Volume 6) are one family of interested Union naval accounts; the articles of capitulation printed with the August 30 report were signed jointly by both sides. William F. Martin's August 31, 1861 report (same volume, copied by the compilers from a newspaper clipping) is one family of interested Confederate accounts. The Navy volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge. No Scribner history narrates the engagement; Nicolay mentions the Hatteras victory in one clause.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "carolina-coast-1861-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/NC001.v1.json",
-    "sha256": "ccd6dd04b4519c23851624db877b4e34390a8dca56b4a30d67ffe3f14870345a"
-  }
+  ]
 }

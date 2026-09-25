@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 9d98ee46-2a70-42b5-a46b-42ccc4101a7f",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit badefa6b3c7d8d914a616217be81551cc931864a; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T17:50:37Z",
+  "prepared_commit": "c2984479b0f96581acfcc85fee50cb3b8a221488",
+  "bundle_commit": "badefa6b3c7d8d914a616217be81551cc931864a",
+  "assignment_sha256": "30792d509e87a8e86ef8a21b887622f04721b57e3390bc064eec528c5c3865cf",
+  "inputs_manifest_sha256": "ec2cb26dee9215dd0bc107388cc45db8dbd9b1a30857f969bcb1c16e4dd2a87a",
+  "num_turns": 71,
+  "duration_ms": 752479,
+  "terminal_reason": "completed",
+  "returned_message": "The review is written and the outcome is **corrections required**: 8 required corrections and 15 optional advisories. None of them changes a model input.\n\n**Review file:** `artifacts/review-results/e1861-review-c298447-opus-high-v1/review.md` (sha256 `e1fb48aa37b6ceacb104a3c6f686a9e0f4dd799464a2018fba7064161eb5d4e6`). It is the only file I wrote; I made no commit or push.\n\n**Input checks:**\n- The assignment and `inputs.json` hashes match.\n- All 119 bound inputs match both commit `c2984479` and the worktree, with no mismatches.\n- `make check` passed offline: 134 tests OK, the repository check completed, exit code 0, and no files were modified.\n- Every one of the 30 new selection files rebuilds exactly from its parent scan text using the recorded character ranges.\n- `docs/cohort-v2.md` is not in the input manifest, so I recorded its hash separately. It is unchanged between the two commits.\n\n**What I inspected:** all 17 dossiers, every quote read in its surrounding passage, the six campaign memos, the frozen table rows and NPS pages for all 17 battles, and the 78 new source records. The Carolinas successor records, the Illinois scans that weren't used, and print pages were outside what I inspected. The review file lists the full scope.\n\n**Required corrections (the review gives the exact replacement text or quote for each):**\n- **E1861-R1 (Sewell's Point):** the result claim gives Gwynn's \"hour and a half\" with no supporting quote. Add Gwynn's quote.\n- **E1861-R2 (Aquia Creek):** Ward's \"300 shots, 1,700 pounds of powder\" is his total for two weeks of firing. Braine's statement, which the pass read but didn't select, shows Ward's ship also fired at Sewell's Point on May 18. The claim must say the figure is a cumulative total that may include that other battle.\n- **E1861-R3 (Big Bethel):** Magruder's \"eighteen dead\" has no supporting quote. Add it.\n- **E1861-R4 (Kessler's Cross Lanes):** the words \"Troops sickly\" come right after a report on Lee's and Loring's men. The dossier wrongly says they describe Rosecrans's own troops.\n- **E1861-R5 (Kessler's Cross Lanes):** the relayed \"5,000 to 10,000\" enemy estimate doesn't say which troops it covers; it may include Wise's force too. The dossier presents it as the size of the attacking force.\n- **E1861-R6 (Hoke's Run):** the dossier merges Patterson's July 3 estimate (13,000 \"in reality\") with his July 4 estimate (15,000–18,000 foot). They should be kept as two separate, differing estimates.\n- **E1861-R7 (Hatteras):** the rationale says the prisoners are counted in the frozen total of 770, but nothing establishes that.\n- **E1861-R8 (`docs/sources.md`):** \"thirty report selections\" should be twenty-seven. As written, the list adds up to 81 records, not 78. The commit message has the same wording, but it can't be changed.\n\n**Advisories:** E1861-A1 to A15.\n\nThis is an AI review. It is not historical adjudication by a person and not independent corroboration, and it admits no features. Before editing, check each correction against the cited passages."
+}

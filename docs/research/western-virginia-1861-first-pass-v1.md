@@ -1,19 +1,20 @@
 # Operations in Western Virginia, 1861: bounded first pass
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). All **seven
-frozen records** in **Operations in Western Virginia [June-December 1861]** now have draft
-dossiers: **63 claims, 7 explicit null unknowns and 304 citation occurrences**. All seven
-dimensions are represented in each record. All dossiers are drafts; no features are admitted.
+frozen records** in **Operations in Western Virginia [June-December 1861]** now have draft dossiers:
+**63 claims, 7 explicit null unknowns and 316 citation occurrences** after the review correction
+(304 before). All seven dimensions are represented in each record. All dossiers are drafts; no
+features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| WV001 — Philippi | 1861-06-03 | 9 | 1 | 44 | 3 |
-| WV003 — Rich Mountain | 1861-07-11 | 9 | 1 | 50 | 3 |
-| WV004 — Kessler's Cross Lanes | 1861-08-26 | 9 | 1 | 40 | 3 |
-| WV006 — Carnifex Ferry | 1861-09-10 | 9 | 1 | 44 | 3 |
-| WV005 — Cheat Mountain | 1861-09-12 to 09-15 | 9 | 1 | 42 | 3 |
-| WV007 — Greenbrier River | 1861-10-03 | 9 | 1 | 44 | 3 |
-| WV008 — Camp Alleghany | 1861-12-13 | 9 | 1 | 40 | 3 |
+| WV001 — Philippi | 1861-06-03 | 9 | 1 | 45 | 3 |
+| WV003 — Rich Mountain | 1861-07-11 | 9 | 1 | 51 | 3 |
+| WV004 — Kessler's Cross Lanes | 1861-08-26 | 9 | 1 | 41 | 3 |
+| WV006 — Carnifex Ferry | 1861-09-10 | 9 | 1 | 46 | 3 |
+| WV005 — Cheat Mountain | 1861-09-12 to 09-15 | 9 | 1 | 43 | 3 |
+| WV007 — Greenbrier River | 1861-10-03 | 9 | 1 | 48 | 3 |
+| WV008 — Camp Alleghany | 1861-12-13 | 9 | 1 | 42 | 3 |
 
 This pass was drafted with five other 1861 eastern campaigns. It reuses the Nicolay parent
 registered by the Charleston pass and the Official Records Volume II parent registered by the
@@ -99,7 +100,9 @@ distinguished from Bradley T. Johnson's registered group. The container is
     thousand" for Porterfield.
   - Rich Mountain: Nicolay's 1,900 in Rosecrans's column against Pegram's 3,000; 310 at Hart's
     with one gun (Pegram) or two (Nicolay); Pegram's 1,300 in all and no more than 350 engaged.
-  - Cross-Lanes: five regiments and three guns, or 5,000–10,000, relayed from Cox; Wise's itemized
+  - Cross-Lanes: five regiments and three guns for Floyd (and Wise "with about the same force"
+    on New River), relayed from Cox; a relayed 5,000–10,000 whose population (Floyd alone, or
+    Floyd and Wise) is not stated and is not assigned to the attacking force; Wise's itemized
     2,600 for Floyd.
   - Carnifex Ferry: Floyd's under 2,000 (and 1,800) against 8,000–9,000; Rosecrans's five
     regiments and probably sixteen guns.
@@ -118,7 +121,12 @@ distinguished from Bradley T. Johnson's registered group. The container is
   Results:
   - The frozen and live pages agree at Philippi, Rich Mountain, Cross-Lanes, Carnifex Ferry and
     Cheat Mountain, but the reports dispute the duration at Rich Mountain (two hours against
-    three) and the outcome at Carnifex Ferry (Floyd claims five repulses).
+    three) and the outcome at Carnifex Ferry (Floyd claims five repulses). Durations also differ
+    at Carnifex Ferry (three hours against nearly four), Greenbrier River (Reynolds's four hours
+    under fire; Jackson's four and a half hours from 8 o'clock, and 7 a.m. to 2.30 p.m.) and Camp
+    Alleghany (Jones's about three hours; Johnson's 7.15 a.m. to 1.45 p.m.).
+  - Rich Mountain surrender: Nicolay's 560 men and 33 officers against Pegram's itemized 525 men
+    and 30 officers.
   - Greenbrier River and Camp Alleghany are frozen Inconclusive; each side claims success.
   - At Greenbrier River the Union called the movement an armed reconnaissance, and Jackson an
     attempt to storm his camp.
@@ -139,8 +147,58 @@ distinguished from Bradley T. Johnson's registered group. The container is
 The seven null unknowns are the opening strengths. No morale/readiness score, probability,
 causal effect or new commander ranking is introduced. Nothing in this pass changes a model input.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossiers
-and source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed this pass
+together with the other five 1861 Eastern passes at commit `c298447` as
+`e1861-review-c298447-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": eight
+required findings (E1861-R1 to E1861-R8) and fifteen advisories (E1861-A1 to E1861-A15). None
+changes a model input. It is an AI review within its stated scope, not human historical
+adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding was checked against the retained selection text or the registry before any change;
+every new quote occurs in its section, and the dossiers were regenerated from the builder. WV001,
+WV003, WV004, WV006, WV005, WV007 and WV008 are revised under
+`western-virginia-1861-review-correction-2026-09-25` and supersede byte-for-byte archives at
+`data/evidence/history/<ID>.v1.json`.
+
+- **E1861-R4** (WV004 `ferry-sickness-trains`): "Troops sickly" is no longer attributed to
+  Rosecrans's own troops; the value says the words follow a report of Lee's and Loring's 10,000 men
+  at Huntersville and do not say whose troops are meant, and the quote is extended to include that
+  sentence.
+- **E1861-R5** (WV004 `reported-force-scope` and `reports-and-surprise`; this memo): the first
+  telegram's placement of Wise "with about the same force" on New River is cited (p.118); the
+  5,000–10,000 estimate is given with its unstated population and is not assigned to the attacking
+  force; the estimate is removed from `reports-and-surprise`, which did not cite it. "The enemy's
+  whole advance guard" becomes "the enemy's advance guard", as Wise's quote reads. The Opening
+  strengths bullet above is corrected.
+
+Advisories:
+
+- **Adopted:** A6 (WV003: Nicolay's "the Unionists had such advantage in numbers that the contest
+  was quickly decided." cited; the 135 burials marked as Nicolay's paraphrase; the casualty
+  rationale records the 560/33 against 525/30 surrender counts), A7 (WV004: "Wise's own forces"), A8
+  (WV005: the garrison knew of the movements of Loring's column, Rust's addressee; the addressee
+  line cited), A14 (WV001: the fifteen to forty Confederate killed are relayed from Dumont's
+  reports; one citation), A15 (WV006, WV007 and WV008 `recorded-result` rationales record the
+  duration differences; eight citations). For WV007 the review's "Jackson says 4½ hours, from 7 to
+  2:30" joins two statements: Jackson's October 3 dispatch gives an attack at 8 o'clock and four and
+  a half hours of fire, and his October 7 report 7 a.m. to 2.30 p.m.; both are recorded separately.
+- **Recorded, no change:** A13 (undated sections mapped to null) needs no change here. The other
+  advisories concern other 1861 passes.
+
+Shared finding:
+
+- **E1861-R8** (`docs/sources.md`): the 1861 section's "thirty report selections" should read
+  twenty-seven report selections (thirty selections with Nicolay's three); the 78 records are
+  correct. That document belongs to the primary and is not edited here. This pass's own record count
+  is unchanged.
+
+The review correction adds **no source records**. Citations rise from 304 to 316; claims (63),
+unknowns (7) and disputed claims are unchanged. No model input, cohort file, admission proposal or
+baseline is changed.
+
+After the review correction, `python3 -m generalship check` passes and
+`python3 -m unittest discover -s tests` passes (134 tests).

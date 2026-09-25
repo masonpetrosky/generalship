@@ -1,9 +1,9 @@
 # Blockade of the Carolina Coast, 1861: bounded first pass
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). The single
-frozen record in **Blockade of the Carolina Coast [August 1861]** now has a draft dossier:
-**9 claims, 1 explicit null unknown and 50 citation occurrences**. All seven dimensions are
-represented. The dossier is a draft; no features are admitted.
+frozen record in **Blockade of the Carolina Coast [August 1861]** now has a draft dossier: **9
+claims, 1 explicit null unknown and 50 citation occurrences**, unchanged by the review correction.
+All seven dimensions are represented. The dossier is a draft; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
@@ -80,10 +80,48 @@ Martin's registered group) and the container `orn-series-i-volume-6`.
 The null unknown is the opening strength. No morale/readiness score, probability, causal effect
 or new commander ranking is introduced. Nothing in this pass changes a model input.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossier
-and source hashes. Once Army Volume IV is registered, Butler's reports are the natural bounded
-follow-up for the Union command role. Coverage, separate review and feature admission stay
-distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed this pass
+together with the other five 1861 Eastern passes at commit `c298447` as
+`e1861-review-c298447-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": eight
+required findings (E1861-R1 to E1861-R8) and fifteen advisories (E1861-A1 to E1861-A15). None
+changes a model input. It is an AI review within its stated scope, not human historical
+adjudication, proof of source independence or feature admission.
+
+Once Army Volume IV is registered, Butler's reports are the natural bounded follow-up for the Union
+command role.
+
+## Review correction
+
+Each finding was checked against the retained selection text or the registry before any change;
+every new quote occurs in its section, and the dossiers were regenerated from the builder. NC001 is
+revised under `carolina-coast-1861-review-correction-2026-09-25` and supersedes a byte-for-byte
+archive at `data/evidence/history/<ID>.v1.json`.
+
+- **E1861-R7** (NC001 `casualty-records`): the rationale no longer says prisoners are counted in the
+  frozen and live Confederate totals. It now says the live Confederate 670 equals the compilers'
+  count of Stringham's prisoner list, so it appears to be a prisoner count; the basis of the frozen
+  770 is not established; prisoners are not added to any other loss figure.
+
+Advisories:
+
+- **Adopted:** A11 (NC001 open questions record Martin's statement that Barron and Andrews's report
+  "contains all that is material", which was read but not selected, so the Confederate side of the
+  capitulation rests on the articles and Martin's clipping-copied report).
+- **Recorded, no change:** A13 (Stringham's two-date section stays null). The other advisories
+  concern other 1861 passes.
+
+Shared finding:
+
+- **E1861-R8** (`docs/sources.md`): the 1861 section's "thirty report selections" should read
+  twenty-seven report selections (thirty selections with Nicolay's three); the 78 records are
+  correct. That document belongs to the primary and is not edited here. This pass's own record count
+  is unchanged.
+
+The review correction adds **no source records**. Citations (50), claims (9), the unknown (1) and
+the disputed claims are unchanged. No model input, cohort file, admission proposal or baseline is
+changed.
+
+After the review correction, `python3 -m generalship check` passes and
+`python3 -m unittest discover -s tests` passes (134 tests).

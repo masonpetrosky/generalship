@@ -114,7 +114,7 @@ The records are:
 - Official Records Series I, Volumes I and II (University of California scans; the Illinois
   identifiers are Series II and III volumes) and Volume V: catalog metadata and full OCR;
 - Official Records of the Navies, Series I, Volumes 4–6: catalog metadata and full OCR;
-- thirty report selections.
+- twenty-seven report selections (thirty selections in all, with Nicolay's three).
 
 No model inputs are changed.
 

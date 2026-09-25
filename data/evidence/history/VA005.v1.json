@@ -19,7 +19,7 @@
       "id": "reported-force-scope",
       "dimension": "strength",
       "value": "The frozen force field reads 60,680 (US 28,450; CS 32,230); the live field reads 31,680 (US 28,450; CS 3,230). Nicolay gives McDowell's command as 34,320, his moving column as 28,568 with forty-nine guns, perhaps under 28,000 after discharges, and the Confederates on the field as 32,000 with fifty-seven guns (Beauregard 21,833, Johnston 8,884, Holmes 1,355; total 32,073), plus unreported detachments. McDowell says he crossed Bull Run with about 18,000 men and that the numbers opposed were variously estimated.",
-      "rationale": "Figures differ in scope: command, moving column, force that crossed, and reported Confederate effectives. The live Confederate 3,230 is not adopted. Nicolay's 32,073 includes Kirby Smith's, Fisher's and Hill's troops, which he says arrived between noon and four o'clock; it is a population across the day, not at one moment. None is adopted as a matched opening strength.",
+      "rationale": "Figures differ in scope: command, moving column, force that crossed, and reported Confederate effectives. The live Confederate 3,230 is not adopted. None is adopted as a matched opening strength.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -69,12 +69,6 @@
           "section": "manassas-armies",
           "locator": "p.176 (OCR page markers; not checked against print)",
           "quote": "To which may be added sundry detachments, the numbers of which are not given in official reports."
-        },
-        {
-          "source_id": "nicolay-manassas-selections-v1",
-          "section": "manassas-armies",
-          "locator": "p.176 (OCR page markers; not checked against print)",
-          "quote": "In addition, there arrived at Manassas about noon, and on the battle-field between two and four o'clock,"
         },
         {
           "source_id": "or2-mcdowell-bull-run-selections-v1",
@@ -422,8 +416,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 4,700 (US 2,950; CS 1,750); the live field reads 4,878 (US 2,896; CS 1,982). McDowell reports 19 officers and 462 men killed and 64 officers and 947 men wounded, calls the missing return very inaccurate, and says a Confederate officer admitted 1,800 killed and wounded, which other information showed to be much under the true number. Nicolay gives the Union loss as 25 guns (28 claimed), 481 killed, 1,011 wounded and 1,460 wounded and other prisoners, and the Confederate loss as 387 killed and 1,582 wounded. Nicolay reports D. R. Jones's separate loss of 14 killed and 62 wounded at McLean's Ford.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The McLean's Ford figures may overlap the Confederate totals and are not added. Nicolay's Union 481 killed and 1,011 wounded repeat McDowell's return (19 and 462; 64 and 947); their agreement is dependence, not corroboration.",
+      "value": "The frozen casualty text reads 4,700 (US 2,950; CS 1,750); the live field reads 4,878 (US 2,896; CS 1,982). McDowell reports 19 officers and 462 men killed and 64 officers and 947 men wounded, calls the missing return very inaccurate, and says a Confederate officer admitted 1,800 killed and wounded. Nicolay gives the Union loss as 25 guns (28 claimed), 481 killed, 1,011 wounded and 1,460 wounded and other prisoners, and the Confederate loss as 387 killed and 1,582 wounded. Nicolay reports D. R. Jones's separate loss of 14 killed and 62 wounded at McLean's Ford.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The McLean's Ford figures may overlap the Confederate totals and are not added.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -457,12 +451,6 @@
           "quote": "An officer of their forces, coming from them with a flag, admitted 1,800 killed and wounded,"
         },
         {
-          "source_id": "or2-mcdowell-bull-run-selections-v1",
-          "section": "mcdowell-1861-08-04",
-          "locator": "p.322 (OCR page markers; not checked against print)",
-          "quote": "and other information shows this to be much under the true number."
-        },
-        {
           "source_id": "nicolay-manassas-selections-v1",
           "section": "retreat-and-losses",
           "locator": "p.206 (OCR page markers; p.206 inferred: Chapter XVII opens without a running head, after the p.205 head; not checked against print)",
@@ -489,10 +477,5 @@
     "Beauregard's No. 84 and Johnston's No. 81 reports on July 21, the division and brigade reports (Nos. 7-63 and 82-100+), the consolidated Union return (appendix D) and the Confederate returns remain deferred; McDowell's August 4 report year is not printed in OCR.",
     "NPS/CWSAC is one family. John G. Nicolay's The Outbreak of Rebellion (Scribner, 1881) is a retrospective history written, by its preface, largely from the Official War Records for 1861; it quotes McDowell's and Johnston's reports and uses Beauregard's, and is not independent of the report families. McDowell's July 21-22 telegrams and his August 4 report (Official Records Series I, Volume II) are one family of interested Union accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "manassas-1861-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA005.v1.json",
-    "sha256": "18ed779852fe4a04874df5a0d8961c31610fef5b5ca6f9f4dc0e70c0f4364b97"
-  }
+  ]
 }

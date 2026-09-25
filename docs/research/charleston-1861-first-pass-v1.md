@@ -1,13 +1,13 @@
 # Operations in Charleston Harbor, 1861: bounded first pass
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). The single
-frozen record in **Operations in Charleston Harbor [April 1861]** now has a draft dossier:
-**9 claims, 1 explicit null unknown and 53 citation occurrences**. All seven dimensions are
-represented. The dossier is a draft; no features are admitted.
+frozen record in **Operations in Charleston Harbor [April 1861]** now has a draft dossier: **9
+claims, 1 explicit null unknown and 59 citation occurrences** after the review correction (53
+before). All seven dimensions are represented. The dossier is a draft; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| SC001 — Fort Sumter | 1861-04-12 to 04-14 | 9 | 1 | 53 | 3 |
+| SC001 — Fort Sumter | 1861-04-12 to 04-14 | 9 | 1 | 59 | 3 |
 
 This pass was drafted with five other 1861 eastern campaigns (Chesapeake, Western Virginia,
 Manassas, Carolina coast and McClellan's northern Virginia operations), which share its Nicolay
@@ -70,8 +70,39 @@ container group `or-series-i-volume-i`.
 The null unknown is the opening strength. No morale/readiness score, probability, causal effect
 or new commander ranking is introduced. Nothing in this pass changes a model input.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossier
-and source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed this pass
+together with the other five 1861 Eastern passes at commit `c298447` as
+`e1861-review-c298447-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": eight
+required findings (E1861-R1 to E1861-R8) and fifteen advisories (E1861-A1 to E1861-A15). None
+changes a model input. It is an AI review within its stated scope, not human historical
+adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding was checked against the retained selection text or the registry before any change;
+every new quote occurs in its section, and the dossiers were regenerated from the builder. SC001 is
+revised under `charleston-1861-review-correction-2026-09-25` and supersedes a byte-for-byte archive
+at `data/evidence/history/<ID>.v1.json`. No required finding concerns this pass.
+
+- **Adopted:** A1 (the brick work on an artificial island now has its own quote, p.62) and A2
+  (Nicolay's fifty barrels taken from the magazine, all but five rolled into the sea by Anderson's
+  order, added to the logistics claim; Anderson's offer to evacuate by noon on April 15 and the 3:20
+  a.m. one-hour notice added to the information claim; five citations).
+- **Recorded, no change:** A13 (the Nicolay preface date stays null; it could be filled after a
+  print check). A3–A12, A14 and A15 concern other 1861 passes.
+
+Shared finding:
+
+- **E1861-R8** (`docs/sources.md`): the 1861 section's "thirty report selections" should read
+  twenty-seven report selections (thirty selections with Nicolay's three); the 78 records are
+  correct. That document belongs to the primary and is not edited here. This pass's own record count
+  is unchanged.
+
+The review correction adds **no source records**. Citations rise from 53 to 59; claims (9), the
+unknown (1) and the disputed claims are unchanged. No model input, cohort file, admission proposal
+or baseline is changed.
+
+After the review correction, `python3 -m generalship check` passes and
+`python3 -m unittest discover -s tests` passes (134 tests).

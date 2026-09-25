@@ -1,15 +1,16 @@
 # Blockade of the Chesapeake Bay, 1861: bounded first pass
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). All **three
-frozen records** in **Blockade of the Chesapeake Bay [May-June 1861]** now have draft dossiers:
-**27 claims, 3 explicit null unknowns and 138 citation occurrences**. All seven dimensions are
-represented in each record. All dossiers are drafts; no features are admitted.
+frozen records** in **Blockade of the Chesapeake Bay [May-June 1861]** now have draft dossiers: **27
+claims, 3 explicit null unknowns and 153 citation occurrences** after the review correction (138
+before). All seven dimensions are represented in each record. All dossiers are drafts; no features
+are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| VA001 — Sewell's Point | 1861-05-18 to 05-19 | 9 | 1 | 42 | 3 |
-| VA002 — Aquia Creek | 1861-05-29 to 06-01 | 9 | 1 | 51 | 3 |
-| VA003 — Big Bethel | 1861-06-10 | 9 | 1 | 45 | 3 |
+| VA001 — Sewell's Point | 1861-05-18 to 05-19 | 9 | 1 | 43 | 3 |
+| VA002 — Aquia Creek | 1861-05-29 to 06-01 | 9 | 1 | 59 | 3 |
+| VA003 — Big Bethel | 1861-06-10 | 9 | 1 | 51 | 3 |
 
 This pass was drafted with five other 1861 eastern campaigns. Its Official Records Volume II
 parent is reused by the Western Virginia and Manassas passes. Dossier presence is not
@@ -84,6 +85,9 @@ not the Army Official Records Volume IV that another pass registers.
     wounded.
   - Aquia Creek: Ward claims the terminus batteries were silenced; Ruggles says no material
     damage was done. The frozen 10 losses have no basis; each side reports one wounded at most.
+    The two sides' hours differ on May 31 and June 1. Ward's 300 shots and 1,700 pounds of powder
+    cover all his cannonades in two weeks, possibly including Sewell's Point, and are not assigned
+    to this record.
     The Army compilation prints Ruggles's first report as "fired some fourteen shot and shell";
     the Navy reprint reads "with twelve".
   - Big Bethel losses: frozen 87 (US 79; CS 8) against live 84 (US 76; CS 8). Magruder's
@@ -106,8 +110,54 @@ not the Army Official Records Volume IV that another pass registers.
 The three null unknowns are the opening strengths. No morale/readiness score, probability,
 causal effect or new commander ranking is introduced. Nothing in this pass changes a model input.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossiers
-and source hashes. Coverage, separate review and feature admission stay distinct.
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed this pass
+together with the other five 1861 Eastern passes at commit `c298447` as
+`e1861-review-c298447-opus-high-v1` on 2026-09-25. Its outcome was "corrections required": eight
+required findings (E1861-R1 to E1861-R8) and fifteen advisories (E1861-A1 to E1861-A15). None
+changes a model input. It is an AI review within its stated scope, not human historical
+adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding was checked against the retained selection text or the registry before any change;
+every new quote occurs in its section, and the dossiers were regenerated from the builder. VA001,
+VA002 and VA003 are revised under `chesapeake-1861-review-correction-2026-09-25` and supersede
+byte-for-byte archives at `data/evidence/history/<ID>.v1.json`.
+
+- **E1861-R1** (VA001 `recorded-result`): Gwynn's "The engagement continued lor an hour and a half
+  without intermission on either side," is cited (p.34).
+- **E1861-R2** (VA002 `ammunition-and-supplies`): Ward's 300 shots and 1,700 pounds of powder are
+  given as his cumulative figure for every cannonade of his two weeks in commission (ten hours),
+  with the reviewer's p.492 citation. The rationale says Braine's May 22 statement (read, not
+  selected) records the Thomas Freeborn under Ward firing on the Sewell's Point battery, so the
+  total may include VA001, and it is not assigned to this record. The reviewer's rationale placed
+  that firing on May 18; Braine's statement gives no date, so the date was omitted.
+- **E1861-R3** (VA003 `casualty-records`): Magruder's "I have now to report that eighteen dead were
+  found on the field," is cited (p.92).
+
+Advisories:
+
+- **Adopted:** A3 (VA001 open questions record Braine's statement placing Ward and the Freeborn at
+  the firing, with no date and without identifying Gwynn's steam-tug as the Freeborn), A4 (VA002
+  `recorded-result` rationale records the differing hours for May 31 and June 1; seven citations),
+  A5 (VA003: "fired on in the dark" replaced by Pierce's account of the volley and Townsend's return
+  fire, two citations; "two fresh regiments" replaced by Allen's and Carr's regiments covering the
+  retreat, three citations).
+- **Recorded, no change:** A13 concerns undated sections in other passes. The other advisories
+  concern other 1861 passes.
+
+Shared finding:
+
+- **E1861-R8** (`docs/sources.md`): the 1861 section's "thirty report selections" should read
+  twenty-seven report selections (thirty selections with Nicolay's three); the 78 records are
+  correct. That document belongs to the primary and is not edited here. This pass's own record count
+  is unchanged.
+
+The review correction adds **no source records**. Citations rise from 138 to 153; claims (27),
+unknowns (3) and disputed claims are unchanged. No model input, cohort file, admission proposal or
+baseline is changed.
+
+After the review correction, `python3 -m generalship check` passes and
+`python3 -m unittest discover -s tests` passes (134 tests).

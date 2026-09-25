@@ -346,12 +346,6 @@
         {
           "source_id": "nicolay-western-virginia-selections-v1",
           "section": "rich-mountain",
-          "locator": "p.149 (OCR page markers; not checked against print)",
-          "quote": "the Unionists had such advantage in numbers that the contest was quickly decided."
-        },
-        {
-          "source_id": "nicolay-western-virginia-selections-v1",
-          "section": "rich-mountain",
           "locator": "p.151 (OCR page markers; not checked against print)",
           "quote": "a total remainder of five hundi'ed and sixty men and thirty-three officers, as prisoners of war,"
         }
@@ -362,8 +356,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 346 (US 46; CS 300); the live field reads 162 (US 74; CS 88). Nicolay quotes Rosecrans: twenty-one prisoners and two guns taken and a loss of twelve killed and forty-nine wounded; in paraphrase he says Rosecrans places the reported Confederate burials at 135, with about twenty wounded. Pegram gives his own loss as two officers and 40-45 men killed and about twenty men and four officers wounded, De Lagnel missing, and the enemy's at least thirty killed and forty wounded. His surrendered force was twenty-two officers and 359 men of Heck's regiment and eight officers and 166 men of his own.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The July 13 surrender counts are a later population and are not added to battle casualties. Nicolay's 560 men and thirty-three officers and Pegram's itemized 525 men (359 and 166) and thirty officers (twenty-two and eight) differ and are not reconciled.",
+      "value": "The frozen casualty text reads 346 (US 46; CS 300); the live field reads 162 (US 74; CS 88). Nicolay quotes Rosecrans: twelve killed and forty-nine wounded, 135 Confederate burials and about twenty wounded, and twenty-one prisoners and two guns taken. Pegram gives his own loss as two officers and 40-45 men killed and about twenty men and four officers wounded, De Lagnel missing, and the enemy's at least thirty killed and forty wounded. His surrendered force was twenty-two officers and 359 men of Heck's regiment and eight officers and 166 men of his own.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The July 13 surrender counts are a later population and are not added to battle casualties.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -423,10 +417,5 @@
     "McClellan's July 6-15 reports (No. 2), Rosecrans's Rich Mountain report (No. 5), the Confederate Heck, Tyler, Hotchkiss and Lee Battery reports and the July 8 strength returns of Garnett's and Wise's commands (Nos. 33-34) remain deferred.",
     "NPS/CWSAC is one family. John G. Nicolay's The Outbreak of Rebellion (Scribner, 1881) is a retrospective history written, by its preface, largely from the Official War Records for 1861; it is not independent of the report families. Pegram's July 14 report and July 15 addendum (Official Records Series I, Volume II) are one family of interested Confederate accounts. The Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "western-virginia-1861-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/WV003.v1.json",
-    "sha256": "d88b214481ec3ed44dfb904b44211be38076f7e1b7befdaafc13ff1843ccfb62"
-  }
+  ]
 }
