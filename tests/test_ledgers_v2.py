@@ -59,3 +59,15 @@ class V2RuleTests(unittest.TestCase):
         ledger['rank_order'] = command.RANK_ORDER_V2
         with self.assertRaisesRegex(command.CommandError, 'Rank order'):
             command.check(ROOT, ledger=ledger)
+
+
+class PassageMergeTests(unittest.TestCase):
+    def test_a_passage_merge_needs_a_listed_target(self):
+        ledger = read_json(ROOT / command.DEFAULT_LEDGER)
+        registry = copy.deepcopy(read_json(ROOT / command.DEFAULT_REGISTRY))
+        target = next(c for c in registry['commanders'] if c.get('passage_citation'))
+        target['passage_merges'] = [{'passage_id': 'x', 'name': 'x', 'basis': 'test',
+                                     'citation': dict(target['passage_citation'])}]
+        bid = target['passage_citation']['battle_id']
+        with self.assertRaisesRegex(command.CommandError, 'listed target'):
+            command.check(ROOT, ledger=ledger, only=[bid], registry=registry)

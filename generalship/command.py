@@ -79,7 +79,8 @@ def check(root, path=DEFAULT_LEDGER, ledger=None, only=None, registry=None):
         ledger = read_json(safe_path(root, str(path)))
     require(ledger.get('kind') == 'command_responsibility_ledger' and ledger.get('schema_version') == 1, 'Ledger kind')
     require(registry is None or only is not None, 'An unbound registry is for draft subset checks only')
-    for key in ('design', 'cohort') + (('registry',) if registry is None else ()):
+    extra = ('addendum',) if ledger.get('version') == 2 else ()
+    for key in ('design', 'cohort') + extra + (('registry',) if registry is None else ()):
         b = ledger['bindings'][key]
         require(digest(safe_path(root, b['path'])) == b['sha256'], f'Binding mismatch: {key}')
     sources = verify_sources(root)
@@ -116,6 +117,7 @@ def check(root, path=DEFAULT_LEDGER, ledger=None, only=None, registry=None):
         in_scope = sorted(only)
     dossiers = {}
     passage_battles = {c['passage_citation']['battle_id'] for c in registry.values() if c.get('passage_citation')}
+    passage_battles |= {m['citation']['battle_id'] for c in registry.values() for m in c.get('passage_merges', [])}
     for bid in sorted(set(in_scope) | passage_battles):
         b = ledger['bindings']['dossiers'][bid]
         require(digest(safe_path(root, b['path'])) == b['sha256'], f'Dossier binding: {bid}')
@@ -125,6 +127,10 @@ def check(root, path=DEFAULT_LEDGER, ledger=None, only=None, registry=None):
             ct = c['passage_citation']
             sid, passage = resolve(root, sources, dossiers, ct)
             require(ct['quote'] in passage, f"Registry passage citation: {c['id']}")
+        for m in c.get('passage_merges', []):  # v2: a passage-only name identified with a listed commander
+            require(bool(c['cwsac_names']) and bool(m.get('basis')), f"Passage merge needs a listed target and a basis: {c['id']}")
+            sid, passage = resolve(root, sources, dossiers, m['citation'])
+            require(m['citation']['quote'] in passage, f"Passage merge citation: {c['id']} {m['passage_id']}")
     grades = {g: 0 for g in 'ABCD'}
     for bid in in_scope:
         e = engagements[bid]
