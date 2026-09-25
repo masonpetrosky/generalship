@@ -28,8 +28,9 @@ partial pooling (Milestone 3). The owner delegated those choices; the
 design review and a focused follow-up. The
 [command-responsibility ledger](research/command-responsibility-v1.md) names one commander per
 side for all 91 engagements (A 155, B 8, C 16, D 3); four campaign-batch Opus reviews are
-reconciled. Next: the gated model run, which needs an owner authorization naming both ledgers'
-hashes. See **Next priority** below. The coverage-first direction that follows still bounds any
+reconciled. The gated rating code (`make commander-ratings`,
+`generalship/ratings.py`) is implemented and tested on invented rows only; it refuses to run
+without an owner authorization naming both ledgers' and the registry's hashes. See **Next priority** below. The coverage-first direction that follows still bounds any
 further research depth.
 
 Owner direction, 2026-09-20: the repeated Shiloh source investigations exceeded

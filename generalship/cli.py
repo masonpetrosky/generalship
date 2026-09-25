@@ -11,6 +11,7 @@ from .strength_admission import DEFAULT_PROPOSAL as STRENGTH_PROPOSAL, check as 
 from .estimates import DEFAULT_LEDGER, check as check_estimates
 from .estimate_eval import evaluate_estimates, report_text as estimate_report
 from .command import DEFAULT_LEDGER as COMMAND_LEDGER, check as check_command
+from .ratings import rate, report_text as ratings_report
 from .dataset import build_dataset
 from .evidence import validate_all
 from .sources import digest, fetch_sources, read_json, write_json
@@ -158,6 +159,7 @@ def main(argv=None):
     admission_parser.add_argument('path', nargs='?', default=DEFAULT_PROPOSAL)
     admission_parser.add_argument('--details', action='store_true', help='Print the complete ledger and provenance')
     sub.add_parser('estimate-check', help='Replay the best-estimate side-strength ledger; never fits or promotes')
+    sub.add_parser('commander-ratings', help='Owner-authorized residual ratings (design §7); never changes the baseline')
     sub.add_parser('command-check', help='Replay the command-responsibility ledger checks; never rates anyone')
     sub.add_parser('estimate-evaluate', help='Owner-authorized estimate-layer diagnostic (design §6); never changes the baseline')
     strength_parser = sub.add_parser('strength-check', help='Offline tier-2 reported-strength proposal/release audit; never promotes inputs')
@@ -179,6 +181,12 @@ def main(argv=None):
                        or checked.get('release_status') == 'blocked')
         elif args.command == 'estimate-check':
             result = check_estimates(root)
+        elif args.command == 'commander-ratings':
+            ratings = rate(root)
+            write_json(root / 'artifacts/commander-ratings.json', ratings)
+            (root / 'artifacts/commander-ratings.md').write_text(ratings_report(ratings), encoding='utf-8')
+            result = {'heldout_improved': ratings['heldout_test']['improved'],
+                      'outputs': ['artifacts/commander-ratings.json', 'artifacts/commander-ratings.md']}
         elif args.command == 'command-check':
             result = check_command(root)
         elif args.command == 'estimate-evaluate':
