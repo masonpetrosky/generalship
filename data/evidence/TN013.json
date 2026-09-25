@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN013",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all five frozen records in Middle Tennessee Operations [February-April 1863]. Preserve per-engagement dates: Dover February 3, Thompson's Station March 5, Vaught's Hill March 20, Brentwood March 25 and Franklin April 10, 1863. The live NPS campaign heading does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Infantry brigade [US]; I Cavalry Corps [CS]; the live field reads zero. Cist gives Coburn nearly three thousand and Van Dorn 10,000; Jordan and Pryor give Forrest some 2,000 and the Federal column five infantry regiments, some 600 cavalry and a battery.",
+      "rationale": "Column and corps figures from interested retrospective histories; no matched opening strength is adopted. Live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN013"
+          },
+          "column": "forces_text",
+          "quote": "Infantry brigade [US]; I Cavalry Corps [CS]"
+        },
+        {
+          "source_id": "nps-tn013-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "the whole command nearly three thousand strong"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "making a force of 10,000 men under Van Dorn."
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.233 (OCR page markers; not checked against print)",
+          "quote": "some 2000 strong"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.234 (OCR page markers; not checked against print)",
+          "quote": "with five regiments of infantry, some 600 cavalry, and a field-battery."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "valley-and-stone-fence",
+      "dimension": "terrain",
+      "value": "Jordan and Pryor place Forrest on an eminence overlooking a valley about half a mile wide; both books describe Union troops making a stand behind a stone fence.",
+      "rationale": "Retrospective position descriptions; no map verification or numerical terrain effect.",
+      "citations": [
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.233 (OCR page markers; not checked against print)",
+          "quote": "deployed in line on an eminence that bordered and overlooked a narrow valley"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "dismounted behind a stone fence"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.235 (OCR page markers; not checked against print)",
+          "quote": "took shelter behind a strong stone fence."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "train-and-ammunition",
+      "dimension": "logistics",
+      "value": "Cist says Coburn moved with a train of one hundred wagons and surrendered with his ammunition exhausted; NPS says Coburn was out of ammunition and surrounded.",
+      "rationale": "Supply statements from an interested history and a summary; no inspected return.",
+      "citations": [
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "with a wagon-train of one hundred wagons"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "finding his ammunition exhausted, surrendered."
+        },
+        {
+          "source_id": "nps-tn013-v1",
+          "locator": "Description",
+          "quote": "Out of ammunition and surrounded, Coburn surrendered."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-and-order-to-advance",
+      "dimension": "information",
+      "value": "Cist says Van Dorn's forward posting was unknown to Gilbert, that Coburn reported a largely superior force and suggested falling back, and that Gilbert ordered him to advance; Jordan and Pryor say Confederate scouts reported the Federal movement the night before.",
+      "rationale": "Retrospective accounts of what each side knew; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "Unknown to Gilbert, Van Dorn"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "he was confronted by a largely superior force, and sug- gested that he fall back. Gilbert, however, ordered him to advance."
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.232 (OCR page markers; not checked against print)",
+          "quote": "scouts returned with information that a heavy body of Federals was in motion"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-objective",
+      "dimension": "objectives",
+      "value": "Cist says Coburn's column went ostensibly foraging but also to reconnoitre toward Columbia; NPS says it left Franklin to reconnoiter south; Jordan and Pryor say Van Dorn decided to meet it at Thompson's Station.",
+      "rationale": "Stated purposes from histories and a summary; no inspected orders.",
+      "citations": [
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "ostensibly on a foraging expedition, but also to reconnoitre the enemy's front toward Columbia."
+        },
+        {
+          "source_id": "nps-tn013-v1",
+          "locator": "Description",
+          "quote": "left Franklin to reconnoiter south toward Columbia."
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.232 (OCR page markers; not checked against print)",
+          "quote": "determining to meet the hostile movement some four miles in advance, at Thompson's Sta-"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "NPS says Jackson's division attacked in front while Forrest swept around Coburn's flank; Jordan and Pryor say Forrest demanded Coburn's surrender and presented him to Van Dorn. Gilbert's order to advance came from outside the listed commanders.",
+      "rationale": "Division and army command are distinct; the frozen commanders Van Dorn and Coburn do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "nps-tn013-v1",
+          "locator": "Description",
+          "quote": "Forrest's division swept around Coburn's left flank, and into his rear."
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.236 (OCR page markers; not checked against print)",
+          "quote": "whose surrender he demanded"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.237 (OCR page markers; not checked against print)",
+          "quote": "General Forrest conducted and introduced Colonel Cobum to General Van Dom"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Coburn surrendered; Cist says the regiment with the train, the artillery and cavalry got away to Franklin.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN013"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-tn013-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "The regiment in charge of the train with the artillery and cavalry now moved off rap- idly on the pike to Franklin"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 2,206 total (US 1,906; CS 300); the live NPS field reads 1957 total (US 1600; CS 357;). Cist gives Coburn 40 killed, 150 wounded and 2,200 prisoners including the wounded, and the Confederates 35 killed and 140 wounded; Jordan and Pryor give Confederate losses of about thirty killed and 125 wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Prisoners dominate the Union figure and are not an opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN013"
+          },
+          "column": "casualties_text",
+          "quote": "2,206 total (US 1,906; CS 300)"
+        },
+        {
+          "source_id": "nps-tn013-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1957 total (US 1600; CS 357;)"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "His loss was 40 killed, and 150 wounded, and 2,200 prisoners, including his wound- ed."
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "The enemy's loss was 35 killed and 140 wounded."
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "thompsons-station",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "about thirty killed and one hundred and twenty-five wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Coburn's, Van Dorn's and Forrest's reports, returns and the escaped column's size remain deferred.",
+    "NPS/CWSAC is one family. Cist is an interested retrospective Union staff history; Jordan and Pryor is a retrospective Confederate history for most of whose statements Forrest's prefatory note accepts responsibility, and is not independent of Forrest. Where both are used they are separate families. Reports and newspapers cited inside either book are not additional families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

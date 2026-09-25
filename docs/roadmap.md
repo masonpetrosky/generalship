@@ -9,7 +9,7 @@ all completed evidence, reviews and unresolved historical questions. The researc
 history below records completed work and deferred leads, not an active sequence
 of further Shiloh tasks.
 
-There are **67 draft dossiers / 127 engagements**, with **60 without a dossier**.
+There are **72 draft dossiers / 127 engagements**, with **55 without a dossier**.
 Draft presence is not first-pass acceptance, independent review or model eligibility.
 The [bounded campaign pass](research/river-campaign-first-pass-v1.md) now supplies
 all four dossiers in **Federal Penetration up the Cumberland and Tennessee Rivers
@@ -170,8 +170,16 @@ Arkansas Post's untraced white-flag order and casualty differences remain disput
 Separate review is pending.
 Coverage is **17/36 complete campaigns by dossier presence**, with zero promoted rows.
 
-Next take **Middle Tennessee Operations [February-April 1863]**, the next complete frozen
-group by earliest engagement date: **five records, TN012, TN013, TN014, TN015, TN016**.
+The [Middle Tennessee first pass](research/middle-tennessee-first-pass-v1.md) adds all
+**five frozen records, TN012–TN016**, with **46 claims, 7 explicit unknowns and 135
+citations** from NPS/CWSAC and new selections from the pinned Cist and Jordan and
+Pryor OCRs. Disputes over the Dover gunboats, the Brentwood surrender sequence and
+Franklin's live narrative date (May 10 against the frozen April 10) are retained.
+Separate review is pending.
+Coverage is **18/36 complete campaigns by dossier presence**, with zero promoted rows.
+
+Next take **Longstreet's Tidewater Operations [March-April 1863]**, the next complete frozen
+group by earliest engagement date: **four records, NC010, NC011, VA031, VA030**.
 Continue complete groups by earliest engagement date, breaking ties by campaign
 label. Keep every engagement regardless of outcome, reputation or available strengths.
 

@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN016",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all five frozen records in Middle Tennessee Operations [February-April 1863]. Preserve per-engagement dates: Dover February 3, Thompson's Station March 5, Vaught's Hill March 20, Brentwood March 25 and Franklin April 10, 1863. The live NPS campaign heading does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Army of Kentucky and the 1st Cavalry Corps without counts; the live field reads zero. Jordan and Pryor describe Forrest's division moving on one road and Jackson's on another.",
+      "rationale": "Formation descriptions only; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN016"
+          },
+          "column": "forces_text",
+          "quote": "Army of Kentucky [US]; 1st Cavalry Corps, Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-tn016-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "franklin-reconnaissance",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "Forrest's Division was ordered to assemble at the Ridge"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "town-defenses",
+      "dimension": "terrain",
+      "value": "Jordan and Pryor say the Federals took shelter behind fences and in houses, and Jackson's division was exposed to fire from houses, fences and rifle-pits; NPS says Stanley crossed the Harpeth at Hughes's Ford behind the Confederate right rear.",
+      "rationale": "Position description; no map verification or numerical terrain effect.",
+      "citations": [
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "franklin-reconnaissance",
+          "locator": "p.246 (OCR page markers; not checked against print)",
+          "quote": "took shelter behind fences, in the houses"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "franklin-reconnaissance",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "a gall- ing fire from houses, fences, and rifle-pits"
+        },
+        {
+          "source_id": "nps-tn016-v1",
+          "locator": "Description",
+          "quote": "had crossed the Harpeth River at Hughes's Ford"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supply-and-readiness-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "false-reports",
+      "dimension": "information",
+      "value": "NPS says Granger believed a false report that Brentwood was under attack and sent away most of his cavalry; Jordan and Pryor say the reconnaissance followed Jackson's suspicion that the Federals were evacuating Franklin, which proved wrong.",
+      "rationale": "Summary and commander-endorsed accounts of mistaken beliefs; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "nps-tn016-v1",
+          "locator": "Description",
+          "quote": "when Granger received a false report that Brentwood, to the north, was under attack"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "franklin-reconnaissance",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "were evacuating Franklin"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "franklin-reconnaissance",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "the enemy had not been evacuating Franklin, as was supposed"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-objective",
+      "dimension": "objectives",
+      "value": "NPS calls the action a reconnaissance in force by Van Dorn; Jordan and Pryor say Van Dorn ordered a reconnaissance in force of the position.",
+      "rationale": "Stated purpose from a summary and the commander-endorsed history.",
+      "citations": [
+        {
+          "source_id": "nps-tn016-v1",
+          "locator": "Description",
+          "quote": "was a reconnaissance in force by Confederate cavalry leader Maj. Gen. Earl Van Dorn"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "franklin-reconnaissance",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "ordered a reconnoissance in force of the position"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "uncoordinated-actions",
+      "dimension": "responsibility",
+      "value": "NPS says a subordinate, Stanley, attacked without Granger's orders; Jordan and Pryor say Starnes omitted flankers and was surprised, losing Freeman's battery before retaking the guns.",
+      "rationale": "Subordinate actions; the frozen commanders Van Dorn and Granger do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "nps-tn016-v1",
+          "locator": "Description",
+          "quote": "a subordinate had already done so, without orders."
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "franklin-reconnaissance",
+          "locator": "p.246 (OCR page markers; not checked against print)",
+          "quote": "omitted to throw out flankers on his right"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "franklin-reconnaissance",
+          "locator": "p.246 (OCR page markers; not checked against print)",
+          "quote": "captured Freeman's Battery"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS says Van Dorn withdrew to Spring Hill, as do Jordan and Pryor. The live NPS narrative dates the advance to May 10, whereas the frozen date is April 10 and Jordan and Pryor place the reconnaissance on the 10th after events of about April 9.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The live narrative date conflicts with the frozen date and is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN016"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tn016-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-tn016-v1",
+          "locator": "Description",
+          "quote": "Van Dorn advanced northward from Spring Hill on May 10"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "franklin-reconnaissance",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "about the 9th of April"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "franklin-reconnaissance",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "General Van Dorn gave the order for withdraw- ing at once to his lines at and in advance of Spring Hill"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text and live field agree: 237 total (US 100; CS 137). Jordan and Pryor say the Federals reported their loss as less than one hundred, and give Forrest's division three killed, ten wounded and thirty prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN016"
+          },
+          "column": "casualties_text",
+          "quote": "237 total (US 100; CS 137)"
+        },
+        {
+          "source_id": "nps-tn016-v1",
+          "locator": "Estimated Casualties",
+          "quote": "237 total (US 100; CS 137;)"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "franklin-reconnaissance",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "less than one hundred"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "franklin-reconnaissance",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "three killed, ten wound- ed, and thirty prisoners"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Granger's, Stanley's and Van Dorn's reports, returns and the narrative date conflict remain deferred.",
+    "NPS/CWSAC is one family. Cist is an interested retrospective Union staff history; Jordan and Pryor is a retrospective Confederate history for most of whose statements Forrest's prefatory note accepts responsibility, and is not independent of Forrest. Where both are used they are separate families. Reports and newspapers cited inside either book are not additional families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

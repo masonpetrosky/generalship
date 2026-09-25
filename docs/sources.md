@@ -68,6 +68,15 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Middle Tennessee first pass, 2026-09-25
+
+The [five-record memo](research/middle-tennessee-first-pass-v1.md) adds **12 records**,
+bringing the registry to **361 entries / 358 raw paths**, preserving the previous
+**349/346**. Five NPS battle HTML/text pairs remain in the NPS/CWSAC family. Two new
+selections reuse pinned parents: Cist Chapter IX (`cist-cumberland-ocr-v1`) and Jordan
+and Pryor Chapter VIII (`jordan-pryor-forrest-ocr-v1`). Character ranges and
+whitespace-only normalization reproduce all sections. No model inputs are changed.
+
 ### Operations Against Vicksburg (1862–63) first pass, 2026-09-24
 
 The [two-record memo](research/vicksburg-1862-first-pass-v1.md) adds **5 records**,

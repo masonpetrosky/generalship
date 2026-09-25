@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN012",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all five frozen records in Middle Tennessee Operations [February-April 1863]. Preserve per-engagement dates: Dover February 3, Thompson's Station March 5, Vaught's Hill March 20, Brentwood March 25 and Franklin April 10, 1863. The live NPS campaign heading does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text gives approx. 800 Union (two regimental detachments and artillery) and approx. 2,500 Confederate cavalry, with matching structured bounds; the live field reads 3300 total (US 800; CS 2500;). Cist gives Harding some six hundred men of the 83rd Illinois and Wharton some twenty-five hundred, plus Forrest's brigade with four guns; Jordan and Pryor give Forrest about 800 men and four guns and Wharton some 2,000.",
+      "rationale": "Frozen, NPS and book figures differ in scope; none is adopted as matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN012"
+          },
+          "column": "forces_text",
+          "quote": "Detachments of two regiments: 83rd Illinois Infantry and 5th Iowa Cavalry Regiments and some artillery (approx. 800) [US]; cavalry division (approx. 2,500) [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "TN012",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "800"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "TN012",
+            "belligerent": "Confederate"
+          },
+          "column": "strength_min",
+          "quote": "2500"
+        },
+        {
+          "source_id": "nps-tn012-v1",
+          "locator": "Forces Engaged",
+          "quote": "3300 total (US 800; CS 2500;)"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "with the Eighty-third Illinois, some six hundred men in the command."
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "with Wharton's command of some twenty-five hundred men"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "about 800 men* and four guns"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "Wharton, with the remainder of the command, some 2000 strong, and two pieces"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "gunboat-timing",
+      "dimension": "strength",
+      "value": "Cist says six gunboats aided Harding in the latter part of the engagement; Jordan and Pryor say the gunboats came up about eight at night after the Confederates had withdrawn and did no harm.",
+      "rationale": "The sources conflict on whether naval fire was part of the engagement; neither is adopted.",
+      "citations": [
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "In the latter part of the engagement at Dover, Harding was aided by the fire from six gunboats"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "Federal gunboats came up about eight o'clock at"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "doing no harm whatsoever"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "rifle-pits-and-redoubt",
+      "dimension": "terrain",
+      "value": "NPS says the garrison had chosen commanding camps and dug rifle pits and battery emplacements; Jordan and Pryor describe a rifle-pit around the village commanded by a redoubt on a knoll in the public square, facing a ridge across a narrow valley seamed by a deep gully.",
+      "rationale": "Pre-existing works and ground at the opening boundary; no map verification or numerical terrain effect.",
+      "citations": [
+        {
+          "source_id": "nps-tn012-v1",
+          "locator": "Description",
+          "quote": "had chosen camps that commanded the area and had dug rifle pits and battery emplacements"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "which was commanded by a redoubt thrown up in the public square of the place, on an elevated knoll"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "by a narrow valley seamed by a deep gully."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-shortage",
+      "dimension": "logistics",
+      "value": "Jordan and Pryor say an inspection before the attack found Forrest's brigade with fifteen rounds for small arms and Wharton's with twenty, and the command short of subsistence; NPS says both sides were mostly out of ammunition by dusk, and Jordan and Pryor that the Confederates had to withdraw for want of it.",
+      "rationale": "Supply statements from the commander-endorsed history and a summary; no inspected return. The inspection precedes the interval; the dusk condition lies inside it.",
+      "citations": [
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "the former was provided with only fifteen rounds of ammunition for small-arms"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "the other had only twenty rounds for small- amis"
+        },
+        {
+          "source_id": "nps-tn012-v1",
+          "locator": "Description",
+          "quote": "By dusk, both sides were mostly without ammunition."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forewarned-federals",
+      "dimension": "information",
+      "value": "NPS says the Federals, apprised of Wheeler's intent, kept boats off the river, and that informers told Wheeler the garrison was small; Cist says Rosecrans heard of the movement from scouts and sent Davis to take Wheeler in the rear.",
+      "rationale": "Summaries of what each side knew; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "nps-tn012-v1",
+          "locator": "Description",
+          "quote": "The Federals, however, apprised of Wheeler's intent, refrained from sending any boats up or downriver."
+        },
+        {
+          "source_id": "nps-tn012-v1",
+          "locator": "Description",
+          "quote": "which informers reported was small and could easily be overwhelmed"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "Rosecrans, hearing from his scouts that this movement was contemplated"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "capture-objective",
+      "dimension": "objectives",
+      "value": "Cist says Bragg ordered Wheeler to capture Fort Donelson; NPS says Wheeler, unable to disrupt shipping, attacked the Dover garrison; Jordan and Pryor say Forrest urged the expedition's abandonment.",
+      "rationale": "Stated objectives from summaries and the commander-endorsed history; Forrest's objection is attributed through a book he endorsed.",
+      "citations": [
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "Bragg ordered Wheeler on an expedition to capture Fort Donelson."
+        },
+        {
+          "source_id": "nps-tn012-v1",
+          "locator": "Description",
+          "quote": "Wheeler decided to attack the garrison at Dover"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "to urge its abandonment."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Jordan and Pryor say Forrest's views passed without heed and Wharton was unable to attack simultaneously; NPS says Forrest afterward denounced Wheeler and refused to serve under him again. The live heading ranks Harding Brigadier General against the frozen Colonel.",
+      "rationale": "Command friction from the commander-endorsed history and a summary; the frozen commanders Wheeler and Harding do not receive automatic sole credit. The heading rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "passed without heed"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "General Wharton had been unable to get ready to attack simultaneously"
+        },
+        {
+          "source_id": "nps-tn012-v1",
+          "locator": "Description",
+          "quote": "saying he would not again serve under him."
+        },
+        {
+          "source_id": "nps-tn012-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Abner Harding [US]"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN012",
+            "belligerent": "US",
+            "fullname": "A.C. Harding"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS and Cist say the Confederate assaults were repulsed and Wheeler withdrew.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN012"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tn012-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-tn012-v1",
+          "locator": "Description",
+          "quote": "but were repulsed with heavy losses."
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "Wheeler then withdrew"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 796 total (US 126; CS 670); the live NPS field reads 965 total (US 110; CS 855;). Cist gives Wheeler's loss as 150 killed, 400 wounded and 150 captured, and Harding's as 16 killed, 60 wounded and 50 captured; Jordan and Pryor give Forrest's brigade two hundred killed, wounded and captured.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN012"
+          },
+          "column": "casualties_text",
+          "quote": "796 total (US 126; CS 670)"
+        },
+        {
+          "source_id": "nps-tn012-v1",
+          "locator": "Estimated Casualties",
+          "quote": "965 total (US 110; CS 855;)"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "total loss of one hundred and fifty killed, four hundred wounded, and one hundred and fifty captured."
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "Colonel Harding lost sixteen killed, sixty wounded, and fifty captured."
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "dover",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "of his force, or two hundred officers and men killed,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Harding's, Wheeler's and Forrest's reports, returns and casualty reconciliation remain deferred.",
+    "NPS/CWSAC is one family. Cist is an interested retrospective Union staff history; Jordan and Pryor is a retrospective Confederate history for most of whose statements Forrest's prefatory note accepts responsibility, and is not independent of Forrest. Where both are used they are separate families. Reports and newspapers cited inside either book are not additional families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -77,6 +77,11 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [TN009](../data/evidence/TN009.json) | 9 | 1 | 0 | 0 | draft |
 | [TN010](../data/evidence/TN010.json) | 10 | 1 | 0 | 0 | draft |
 | [TN011](../data/evidence/TN011.json) | 9 | 1 | 0 | 0 | draft |
+| [TN012](../data/evidence/TN012.json) | 10 | 1 | 0 | 0 | draft |
+| [TN013](../data/evidence/TN013.json) | 9 | 1 | 0 | 0 | draft |
+| [TN014](../data/evidence/TN014.json) | 9 | 2 | 0 | 0 | draft |
+| [TN015](../data/evidence/TN015.json) | 9 | 1 | 0 | 0 | draft |
+| [TN016](../data/evidence/TN016.json) | 9 | 2 | 0 | 0 | draft |
 | [VA008](../data/evidence/VA008.json) | 10 | 5 | 0 | 0 | draft |
 | [VA009](../data/evidence/VA009.json) | 9 | 2 | 0 | 0 | draft |
 | [VA010](../data/evidence/VA010.json) | 9 | 3 | 0 | 0 | draft |
@@ -120,8 +125,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 67 engagements have dossiers; 60 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Operations Against Vicksburg first pass](../docs/research/vicksburg-1862-first-pass-v1.md) adds both frozen records: 19 claims, 2 explicit unknowns and 62 citations from NPS/CWSAC and Greene's records-based history. Casualty differences and Arkansas Post's untraced white-flag order remain visible; separate campaign review is pending. Next take the complete five-record Middle Tennessee Operations. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 72 engagements have dossiers; 55 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Middle Tennessee first pass](../docs/research/middle-tennessee-first-pass-v1.md) adds all five frozen records: 46 claims, 7 explicit unknowns and 135 citations from NPS/CWSAC and the Cist and Jordan and Pryor histories. Gunboat, surrender-sequence and date disputes and casualty differences remain visible; separate campaign review is pending. Next take the complete four-record Longstreet's Tidewater Operations. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

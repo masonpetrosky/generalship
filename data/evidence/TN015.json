@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN015",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all five frozen records in Middle Tennessee Operations [February-April 1863]. Preserve per-engagement dates: Dover February 3, Thompson's Station March 5, Vaught's Hill March 20, Brentwood March 25 and Franklin April 10, 1863. The live NPS campaign heading does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text gives approx. 400 Union detachments (structured 400/400) and Forrest's Division; the live field reads zero. NPS says Bloodgood held Brentwood with 400 men; Jordan and Pryor say 529 officers, men and teamsters surrendered there and about 230 more at the stockade, 759 in all.",
+      "rationale": "Garrison and surrender counts differ in scope; surrender counts are not opening strengths. No Confederate count is given.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN015"
+          },
+          "column": "forces_text",
+          "quote": "Detachments of the 22nd Wisconsin Volunteer Infantry, 33rd Indiana, and 19th Michigan Volunteer Infantry regiments, 1st Division, 1st Cavalry Corps (approx. 400) [US]; Forrest's Division [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "TN015",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "400"
+        },
+        {
+          "source_id": "nps-tn015-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-tn015-v1",
+          "locator": "Description",
+          "quote": "with 400 men"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "brentwood",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "some five hundred and twenty-nine officers, men, and teamsters"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "brentwood",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "the sum total of prisoners 7591"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "station-bridge-and-stockade",
+      "dimension": "terrain",
+      "value": "NPS calls Brentwood a station on the Nashville & Decatur Railroad; Jordan and Pryor say the troops guarded the railroad bridge over the Little Harpeth, defended by a stockade.",
+      "rationale": "Site description; no map verification.",
+      "citations": [
+        {
+          "source_id": "nps-tn015-v1",
+          "locator": "Description",
+          "quote": "a station on the Nashville & Decatur Railroad"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "brentwood",
+          "locator": "p.241 (OCR page markers; not checked against print)",
+          "quote": "guarding the railroad bridge over the Little Harpeth"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "brentwood",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "which he found defended by a stock- ade strongly garrisoned"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "captured-train",
+      "dimension": "logistics",
+      "value": "Jordan and Pryor say the surrender yielded sixteen or seventeen wagons, three ambulances, the men's arms and the baggage of Coburn's late command.",
+      "rationale": "Post-outcome captures reported by the commander-endorsed history; no inspected inventory.",
+      "citations": [
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "brentwood",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "with sixteen or seventeen wagons, and three ambulances and teams"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "cut-wires-and-surprise",
+      "dimension": "information",
+      "value": "NPS says Bloodgood found the telegraph cut when he tried to notify his superiors; Jordan and Pryor say Starnes eluded the Union pickets without discovery.",
+      "rationale": "Summary and commander-endorsed accounts of communications and surprise; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "nps-tn015-v1",
+          "locator": "Description",
+          "quote": "discovered that the telegraph lines were cut."
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "brentwood",
+          "locator": "p.241 (OCR page markers; not checked against print)",
+          "quote": "eluding the enemy's pickets without discovery"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "coup-de-main-objective",
+      "dimension": "objectives",
+      "value": "NPS says Forrest ordered Starnes to cut the telegraph, tear up track, attack the stockade and cut off retreat; Jordan and Pryor call it a coup de main approved by Van Dorn.",
+      "rationale": "Stated orders from a summary and the commander-endorsed history; no inspected original.",
+      "citations": [
+        {
+          "source_id": "nps-tn015-v1",
+          "locator": "Description",
+          "quote": "to go to Brentwood, cut the telegraph, tear up railroad track, attack the stockade, and cut off any retreat."
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "brentwood",
+          "locator": "p.241 (OCR page markers; not checked against print)",
+          "quote": "to attempt a coup de main"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surrender-sequence",
+      "dimension": "responsibility",
+      "value": "NPS says Bloodgood refused a surrender demand and then surrendered within half an hour; Jordan and Pryor say the surrender was made without further parley. The live heading ranks Forrest Major General against the frozen Brigadier General.",
+      "rationale": "The sequence differs between the sources; neither is adopted. The heading rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "nps-tn015-v1",
+          "locator": "Description",
+          "quote": "Forrest sent in a demand for a surrender under a flag of truce but Bloodgood refused."
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "brentwood",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "which was made without further parley."
+        },
+        {
+          "source_id": "nps-tn015-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Nathan Forrest [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN015",
+            "belligerent": "Confederate",
+            "fullname": "Nathan Bedford Forrest"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Jordan and Pryor say the bridge and stockade were burned.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN015"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-tn015-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "brentwood",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "The bridge and stockade being burned to the ground"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 311 total (US 305; CS 6); the live NPS field reads 532 total (US 529; CS 3;). Jordan and Pryor give the Confederate loss as one killed and two wounded, and about ten Federals killed besides prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN015"
+          },
+          "column": "casualties_text",
+          "quote": "311 total (US 305; CS 6)"
+        },
+        {
+          "source_id": "nps-tn015-v1",
+          "locator": "Estimated Casualties",
+          "quote": "532 total (US 529; CS 3;)"
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "brentwood",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "with the loss of one man killed and two wounded."
+        },
+        {
+          "source_id": "jordan-middle-tennessee-selections-v1",
+          "section": "brentwood",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "lost about ten killed in the skirmish preceding the capitulation."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Bloodgood's and Forrest's reports, returns and the surrender sequence remain deferred.",
+    "NPS/CWSAC is one family. Cist is an interested retrospective Union staff history; Jordan and Pryor is a retrospective Confederate history for most of whose statements Forrest's prefatory note accepts responsibility, and is not independent of Forrest. Where both are used they are separate families. Reports and newspapers cited inside either book are not additional families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

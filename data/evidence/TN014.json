@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN014",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for all five frozen records in Middle Tennessee Operations [February-April 1863]. Preserve per-engagement dates: Dover February 3, Thompson's Station March 5, Vaught's Hill March 20, Brentwood March 25 and Franklin April 10, 1863. The live NPS campaign heading does not replace any battle interval. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text gives approx. 1,300 Union and approx. 3,500 Confederate, with matching structured bounds, and the live field agrees: 4800 total (US 1300; CS 3500;). Cist names Hall's command as the second brigade of Reynolds's division without a count.",
+      "rationale": "Agreement within the NPS/CWSAC family is not independent corroboration; no matched opening strength is adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN014"
+          },
+          "column": "forces_text",
+          "quote": "2nd Brigade, 5th Division, XIV Army Corps (a combined force of infantry, artillery, and cavalry comprising detachments from six units; approx. 1,300) [US]; Morgan's Cavalry Division (approx. 3,500) [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "TN014",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "1300"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "TN014",
+            "belligerent": "Confederate"
+          },
+          "column": "strength_min",
+          "quote": "3500"
+        },
+        {
+          "source_id": "nps-tn014-v1",
+          "locator": "Forces Engaged",
+          "quote": "4800 total (US 1300; CS 3500;)"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "vaughts-hill",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "the second brigade of Reynolds's division"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "hilltop-position",
+      "dimension": "terrain",
+      "value": "NPS describes Hall's hilltop position and perimeter defense; Cist says Hall posted his command on high ground near Milton.",
+      "rationale": "Position description; no map verification or numerical terrain effect.",
+      "citations": [
+        {
+          "source_id": "nps-tn014-v1",
+          "locator": "Description",
+          "quote": "encircling Hall's hilltop position"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "vaughts-hill",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "posted his command on some high ground near that place"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supply-and-readiness-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "warnings-both-sides",
+      "dimension": "information",
+      "value": "Cist says Hall fell back on hearing Morgan was advancing; NPS says Morgan broke off after learning Union reinforcements were coming.",
+      "rationale": "Summaries of what each commander learned; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "vaughts-hill",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "hear- ing that Morgan was advancing on him he retired toward Milton"
+        },
+        {
+          "source_id": "nps-tn014-v1",
+          "locator": "Description",
+          "quote": "after learning that Union reinforcements were en route from Murfreesboro."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-objective",
+      "dimension": "objectives",
+      "value": "NPS calls Hall's force a brigade-sized reconnaissance; Cist says it was sent after Morgan.",
+      "rationale": "Stated purposes from a summary and an interested history; no inspected orders.",
+      "citations": [
+        {
+          "source_id": "nps-tn014-v1",
+          "locator": "Description",
+          "quote": "a Union brigade-sized reconnaissance force"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "vaughts-hill",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "sent from Murfreesboro after Morgan."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "attack-sequence",
+      "dimension": "responsibility",
+      "value": "Cist says Morgan tried to turn first the right and then the left of Hall's command before a dismounted frontal assault; NPS says Hall held a perimeter defense.",
+      "rationale": "Attack sequence from an interested history and a summary; the frozen commanders Morgan and Hall do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "vaughts-hill",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "Morgan endeavored first to turn the right and then the left of Hall's command"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "vaughts-hill",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "He then dismounted the main portion of his command and ordered an attack to be made on the front."
+        },
+        {
+          "source_id": "nps-tn014-v1",
+          "locator": "Description",
+          "quote": "Hall conducted a perimeter defense"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Cist says Morgan withdrew after about four hours, repulsed at all points; NPS says the bombardment continued until 4:30 p.m.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN014"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tn014-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "vaughts-hill",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "being repulsed at all points and in every assault, with- drew from the field"
+        },
+        {
+          "source_id": "nps-tn014-v1",
+          "locator": "Description",
+          "quote": "Morgan continued to bombard the Yankees until 4:30 pm"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 435 total (US 62; CS 373); the live NPS field reads 188 total (US 38; CS 150;). Cist gives Morgan's loss as some ninety-five killed, 350 wounded and 20 prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN014"
+          },
+          "column": "casualties_text",
+          "quote": "435 total (US 62; CS 373)"
+        },
+        {
+          "source_id": "nps-tn014-v1",
+          "locator": "Estimated Casualties",
+          "quote": "188 total (US 38; CS 150;)"
+        },
+        {
+          "source_id": "cist-middle-tennessee-selections-v1",
+          "section": "vaughts-hill",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "a loss of some ninety-five killed, three hundred and fifty wounded, and twenty prisoners."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Hall's and Morgan's reports, returns and casualty reconciliation remain deferred.",
+    "NPS/CWSAC is one family. Cist is an interested retrospective Union staff history; Jordan and Pryor is a retrospective Confederate history for most of whose statements Forrest's prefatory note accepts responsibility, and is not independent of Forrest. Where both are used they are separate families. Reports and newspapers cited inside either book are not additional families.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
