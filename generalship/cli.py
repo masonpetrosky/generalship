@@ -10,6 +10,7 @@ from .admission import DEFAULT_PROPOSAL, check as check_admission
 from .strength_admission import DEFAULT_PROPOSAL as STRENGTH_PROPOSAL, check as check_strength
 from .estimates import DEFAULT_LEDGER, check as check_estimates
 from .estimate_eval import evaluate_estimates, report_text as estimate_report
+from .command import DEFAULT_LEDGER as COMMAND_LEDGER, check as check_command
 from .dataset import build_dataset
 from .evidence import validate_all
 from .sources import digest, fetch_sources, read_json, write_json
@@ -81,6 +82,12 @@ def run_build(root, write=False):
             estimates = check_estimates(root)
         except (ValueError, KeyError, OSError) as exc:
             estimates = {'status': 'stale_or_invalid', 'error': str(exc)}
+    command = None
+    if (root / COMMAND_LEDGER).is_file():
+        try:
+            command = check_command(root)
+        except (ValueError, KeyError, OSError) as exc:
+            command = {'status': 'stale_or_invalid', 'error': str(exc)}
     if write:
         output = root / "artifacts"
         output.mkdir(exist_ok=True)
@@ -101,6 +108,7 @@ def run_build(root, write=False):
         inputs += sorted((root / "data/evidence").rglob("*.json"))
         inputs += sorted(p for p in (root / "data/admission").rglob('*') if p.is_file())
         inputs += sorted(p for p in (root / "data/estimates").rglob('*') if p.is_file())
+        inputs += sorted(p for p in (root / "data/command").rglob('*') if p.is_file())
         outputs = ["battles.json", "quality.json", "baseline.json", "evidence-checks.json", "research-queue.json", "pilot-report.md", "admission-check.json"]
         write_json(output / "receipt.json", {
             "command": "python3 -m generalship build", "model_id": evaluation["model_id"],
@@ -115,6 +123,8 @@ def run_build(root, write=False):
             "admission_promoted_rows": admission['promoted_rows'],
             "estimate_ledger": estimates and ({k: estimates[k] for k in ('side_grades', 'rows_by_set_fit_eligible', 'fitted')}
                                               if 'side_grades' in estimates else estimates),
+            "command_ledger": command and ({k: command[k] for k in ('side_grades', 'nesting', 'rated')}
+                                           if 'side_grades' in command else command),
             "artifacts_written": write}
 
 
@@ -148,6 +158,7 @@ def main(argv=None):
     admission_parser.add_argument('path', nargs='?', default=DEFAULT_PROPOSAL)
     admission_parser.add_argument('--details', action='store_true', help='Print the complete ledger and provenance')
     sub.add_parser('estimate-check', help='Replay the best-estimate side-strength ledger; never fits or promotes')
+    sub.add_parser('command-check', help='Replay the command-responsibility ledger checks; never rates anyone')
     sub.add_parser('estimate-evaluate', help='Owner-authorized estimate-layer diagnostic (design §6); never changes the baseline')
     strength_parser = sub.add_parser('strength-check', help='Offline tier-2 reported-strength proposal/release audit; never promotes inputs')
     strength_parser.add_argument('path', nargs='?', default=STRENGTH_PROPOSAL)
@@ -168,6 +179,8 @@ def main(argv=None):
                        or checked.get('release_status') == 'blocked')
         elif args.command == 'estimate-check':
             result = check_estimates(root)
+        elif args.command == 'command-check':
+            result = check_command(root)
         elif args.command == 'estimate-evaluate':
             evaluation = evaluate_estimates(root)
             write_json(root / 'artifacts/estimate-evaluation.json', evaluation)
