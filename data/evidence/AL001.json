@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "battle_id": "AL001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the sole frozen record in Streight's Raid in Alabama and Georgia [April 1863]: Day's Gap, April 30, 1863. NPS lists Crooked Creek and Hog Mountain on the same date and later engagements through the May 3 surrender as separate actions; the frozen record's scope within April 30 is not established, and later engagements and the surrender are not added. Opening personnel and exact effective command boundaries remain unresolved. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names men from four infantry regiments and the 1st Middle Tennessee Cavalry, and three Confederate regiments, without counts; the live field reads 2000 total (US 2000; CS 0;). Jordan and Pryor say Forrest's scouts estimated Streight's command at 2,200 mounted men, and that Roddy's regiment numbered three hundred and fifty. Cist says only four-fifths of Streight's men were mounted, and poorly, and that the whole force surrendered on May 3 was 1,466.",
+      "rationale": "An estimate, a regimental count and a later surrender count differ in scope; none is adopted as matched opening strength. The live Confederate zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL001"
+          },
+          "column": "forces_text",
+          "quote": "Men from 51st Indiana Infantry, 73rd Indiana Infantry, 3rd Ohio Infantry, 80th Illinois Infantry, and 1st Middle Tennessee Cavalry [US]; three regiments [CS]"
+        },
+        {
+          "source_id": "nps-al001-v1",
+          "locator": "Forces Engaged",
+          "quote": "2000 total (US 2000; CS 0;)"
+        },
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "orders-and-estimates",
+          "locator": "p.250 (OCR page markers; not checked against print)",
+          "quote": "and the latter 2200 cavalry or mounted infantry."
+        },
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "days-gap",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "leaving forty out of three hun- dred and fifty either killed or wounded on the ground."
+        },
+        {
+          "source_id": "cist-streights-raid-selections-v1",
+          "section": "streights-raid",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "only four-fifths of the men were mounted, and they poorly."
+        },
+        {
+          "source_id": "cist-streights-raid-selections-v1",
+          "section": "streights-raid",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "the entire force of 1,466 officers and men was surrendered."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "ridge-and-gorge",
+      "dimension": "terrain",
+      "value": "Jordan and Pryor say the Federals camped in Day's Gap on Sand Mountain and then formed on a commanding ridge perpendicular to the road, lying concealed behind its crest, while Roddy's men advanced over undulating, irregular ground. Cist says Streight formed on the crest of a hill on each side of the road.",
+      "rationale": "Ground chosen by the defender on the day; boundaries unset and no map verification.",
+      "citations": [
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "days-gap",
+          "locator": "p.256 (OCR page markers; not checked against print)",
+          "quote": "the Federals had encamped in Day's Gap, on Sand Mountain,"
+        },
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "days-gap",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "strongly posted in line of battle along a commanding ridge perpendicular to the road."
+        },
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "days-gap",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "on un- dulating, irregular ground,"
+        },
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "days-gap",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "as the enemy were sheltered by the crest of the hill."
+        },
+        {
+          "source_id": "cist-streights-raid-selections-v1",
+          "section": "streights-raid",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "Streight formed his command on the crest of a hill on each side of the road"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "mules-and-mounts",
+      "dimension": "logistics",
+      "value": "Cist says Streight's animals were nearly all mules, few fit for the service, and that the plan to capture good animals was not realized; after the fight he mounted some men on captured horses. Jordan and Pryor say the Federals left wagons, broken-down animals and cooked food in their camp, and that famished Confederates lost half an hour there.",
+      "rationale": "Supply and remount statements from two interested histories; no inspected return.",
+      "citations": [
+        {
+          "source_id": "cist-streights-raid-selections-v1",
+          "section": "streights-raid",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "The animals were nearly all mules, and very few of them were fit for the service required."
+        },
+        {
+          "source_id": "cist-streights-raid-selections-v1",
+          "section": "streights-raid",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "but this was not realized."
+        },
+        {
+          "source_id": "cist-streights-raid-selections-v1",
+          "section": "streights-raid",
+          "locator": "p.146 (OCR page markers; not checked against print)",
+          "quote": "on which Streight mounted a number of his men."
+        },
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "days-gap",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "some fifty broken-down animals,"
+        },
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "days-gap",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "fully half an hour was lost at the spot before the pursuit was renewed."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surprise-in-camp",
+      "dimension": "information",
+      "value": "Jordan and Pryor say the advance guard found the Federals a mile ahead cooking, and that the Confederate artillery's discharge was apparently their first knowledge of Forrest's approach. Cist says the rear guard was overtaken as it was leaving camp, Forrest having ridden night and day.",
+      "rationale": "Attributed knowledge in two interested histories; no inspected message log.",
+      "citations": [
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "days-gap",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "reported that the Federals were but one mile in their front, engaged in cooking."
+        },
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "days-gap",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "The discharge of the Confederate artillery was indeed the first intimation, apparently, of this fact,"
+        },
+        {
+          "source_id": "cist-streights-raid-selections-v1",
+          "section": "streights-raid",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "who had pressed forward, riding night and day."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "raid-and-pursuit",
+      "dimension": "objectives",
+      "value": "NPS says Streight's raid aimed to cut the Western & Atlantic Railroad supplying Bragg; Cist says Rosecrans ordered it against the rebels' lines of communication. Jordan and Pryor say Forrest resolved to capture or destroy the raiders.",
+      "rationale": "Stated aims from a summary and two histories; no inspected orders.",
+      "citations": [
+        {
+          "source_id": "nps-al001-v1",
+          "locator": "Description",
+          "quote": "led a provisional brigade on a raid to cut the Western & Atlantic Railroad that supplied Gen. Braxton Bragg's Confederate army in Middle Tennessee."
+        },
+        {
+          "source_id": "cist-streights-raid-selections-v1",
+          "section": "streights-raid",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "for the purpose of making a raid on the lines of communication of the rebels,"
+        },
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "days-gap",
+          "locator": "p.256 (OCR page markers; not checked against print)",
+          "quote": "resolved to cap- ture or destroy him,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Jordan and Pryor say Forrest disposed his men at a glance, that Roddy's comparatively raw men gave way, and that Streight handled his men with decided nerve, charging and taking the Confederate guns; Cist says Streight's charge drove the enemy at all points. The frozen ranks are Colonel Streight and Brigadier General Forrest; the live heading ranks Streight Brigadier General and Forrest Major General.",
+      "rationale": "Judgments are attributed to two interested histories; the frozen commanders do not receive automatic sole credit. The heading ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "days-gap",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "com- prehended the situation at a glance,"
+        },
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "days-gap",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "Roddy's men, comparatively raw, gave way in much confusion,"
+        },
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "days-gap",
+          "locator": "p.259 (OCR page markers; not checked against print)",
+          "quote": "The Federal commander handled his men with decided nerve."
+        },
+        {
+          "source_id": "cist-streights-raid-selections-v1",
+          "section": "streights-raid",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "Streight ordered a charge to be made which drove the enemy at all points, capturing their two pieces of artillery."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL001",
+            "belligerent": "US",
+            "fullname": "Abel Streight"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-al001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Abel Streight [US]"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL001",
+            "belligerent": "Confederate",
+            "fullname": "Nathan Bedford Forrest"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-al001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Nathan Forrest [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory, although the raid ultimately failed; the live result reads Union Victory. NPS says the Federals repulsed the attack and continued their march; Jordan and Pryor say that when Forrest's reinforced line was ready about 3 p.m. the Federals had been gone an hour, and that a running fight then resumed toward Blountsville.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The raid's failure and the May 3 surrender lie outside the frozen interval.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL001"
+          },
+          "column": "results_text",
+          "quote": "Union victory, although the raid ultimately failed."
+        },
+        {
+          "source_id": "nps-al001-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-al001-v1",
+          "locator": "Description",
+          "quote": "The Federals repulsed this attack and continued their march to avoid further delay and envelopment."
+        },
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "days-gap",
+          "locator": "p.259 (OCR page markers; not checked against print)",
+          "quote": "The enemy, however, did not await the onset ; indeed, they had been gone an hour,"
+        },
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "evening-pursuit",
+          "locator": "p.260 (OCR page markers; not checked against print)",
+          "quote": "a running fight took place for some miles, in the direction of Blountsville, Alabama,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty texts read 88 total (US 23; CS 65). Cist gives Forrest's loss as seventy-five killed and wounded and Streight's as twenty-one. Jordan and Pryor say Roddy left forty of 350 killed or wounded, that the Federal loss in that phase was at least seventy-five, and that a Federal field hospital held about seventy-five of their killed and wounded with some thirty Confederates.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The two histories assign 'seventy-five' to opposite sides.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL001"
+          },
+          "column": "casualties_text",
+          "quote": "88 total (US 23; CS 65)"
+        },
+        {
+          "source_id": "nps-al001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "88 total (US 23; CS 65;)"
+        },
+        {
+          "source_id": "cist-streights-raid-selections-v1",
+          "section": "streights-raid",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "Forrest lost in killed and wounded seventy- five men,"
+        },
+        {
+          "source_id": "cist-streights-raid-selections-v1",
+          "section": "streights-raid",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "Streight's loss was twenty-one killed and wounded."
+        },
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "days-gap",
+          "locator": "p.259 (OCR page markers; not checked against print)",
+          "quote": "The loss of the enemy in this phase of the affair was at least seventy-five killed or wounded."
+        },
+        {
+          "source_id": "jordan-streights-raid-selections-v1",
+          "section": "evening-pursuit",
+          "locator": "p.260 (OCR page markers; not checked against print)",
+          "quote": "were found about seventy-five of their killed and wounded, with some thirty Confederates."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Streight's and Forrest's reports, the later engagements through the May 3 surrender, and the frozen record's scope within April 30 remain deferred.",
+    "NPS/CWSAC is one family. Cist is an interested Union staff history; Jordan and Pryor wrote with Forrest's endorsement and are not independent of him. Reports and letters cited inside either book are not additional families. Report and letter dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

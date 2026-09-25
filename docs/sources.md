@@ -68,6 +68,15 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Streight's Raid first pass, 2026-09-25
+
+The [one-record memo](research/streights-raid-first-pass-v1.md) adds **4 records**,
+bringing the registry to **433 entries / 430 raw paths**, preserving the previous
+**429/426**. One NPS battle HTML/text pair remains in the NPS/CWSAC family. Two new
+selections reuse pinned parents: Cist (`cist-cumberland-ocr-v1`) and Jordan and Pryor
+Chapter IX (`jordan-pryor-forrest-ocr-v1`). Character ranges and whitespace-only
+normalization reproduce all sections. No model inputs are changed.
+
 ### Chancellorsville Campaign first pass, 2026-09-25
 
 The [three-record memo](research/chancellorsville-first-pass-v1.md) adds **12 records**,

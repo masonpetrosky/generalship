@@ -43,6 +43,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 
 | Battle | Claims | Explicit unknowns | Quantities | Events | Status |
 |---|---:|---:|---:|---:|---|
+| [AL001](../data/evidence/AL001.json) | 9 | 1 | 0 | 0 | draft |
 | [AR006](../data/evidence/AR006.json) | 10 | 1 | 0 | 0 | draft |
 | [AR008](../data/evidence/AR008.json) | 9 | 1 | 0 | 0 | draft |
 | [KY005](../data/evidence/KY005.json) | 11 | 1 | 0 | 0 | draft |
@@ -143,8 +144,8 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-Prioritize comparable first-pass dossiers across the complete frozen cohort. 90 engagements have dossiers; 37 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Chancellorsville Campaign first pass](../docs/research/chancellorsville-first-pass-v1.md) adds all three frozen records: 27 claims, 3 explicit unknowns and 119 citations from NPS/CWSAC, Doubleday, and Lee's, Sedgwick's and Early's Official Records reports. Nested intervals are not double counted, and command judgments stay attributed; separate campaign review is pending. Next take the complete one-record Streight's Raid in Alabama and Georgia. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
+Prioritize comparable first-pass dossiers across the complete frozen cohort. 91 engagements have dossiers; 36 have none. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The [Streight's Raid first pass](../docs/research/streights-raid-first-pass-v1.md) adds the sole frozen record, Day's Gap: 9 claims, 1 explicit unknown and 41 citations from NPS/CWSAC and the Cist and Jordan and Pryor histories. Later engagements are not added and casualty disputes remain visible; separate campaign review is pending. Next take the complete ten-record Gettysburg Campaign. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
 

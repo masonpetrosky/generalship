@@ -22,7 +22,7 @@ wins a commander caused. No validated commander ranking exists here yet.
   dates, force ranges, missingness, outcome codes, and cohort membership.
 - A small regularized logistic baseline using relative force size. Evaluation
   holds out whole campaigns and compares with equal odds and a training-only prior.
-- Ninety draft dossiers, including all three frozen Chancellorsville Campaign records,
+- Ninety-one draft dossiers, including the sole frozen Streight's Raid record,
   with exact source passages, explicit unknowns, command questions, and
   inherited/created distinctions. See the [coverage table](artifacts/pilot-report.md#draft-evidence-dossiers).
 - A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
@@ -73,7 +73,7 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 ## Research direction
 
 **Current priority: comparable coverage across the 127 engagements.** We have
-ninety draft dossiers and 37 engagements without one. Shiloh's repeated source
+ninety-one draft dossiers and 36 engagements without one. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.
@@ -142,7 +142,9 @@ The [Vicksburg 1863 pass](docs/research/vicksburg-1863-first-pass-v1.md) adds te
 dossiers, 92 claims, 10 explicit unknowns and 369 citations. Separate review is pending.
 The [Chancellorsville pass](docs/research/chancellorsville-first-pass-v1.md) adds three
 dossiers, 27 claims, 3 explicit unknowns and 119 citations. Separate review is pending.
-Next: **the one-record Streight's Raid in Alabama and Georgia**. See the
+The [Streight's Raid pass](docs/research/streights-raid-first-pass-v1.md) adds one
+dossier, 9 claims, 1 explicit unknown and 41 citations. Separate review is pending.
+Next: **the ten-record Gettysburg Campaign**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
 The history below preserves completed work and deferred questions.
