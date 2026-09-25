@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA057",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Totopotomoy Creek record (May 28-30, 1864) in Grant's Overland Campaign [May-June 1864]. Haw's Shop (VA058, May 28) and Old Church (VA059, May 30) are separate cavalry records inside these dates, and Cold Harbor (VA062) begins on May 31. Campaign-wide marches, captures, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Corps and the live field zero. NPS names the Union II, IX, V and VI Corps and Early's corps. Humphreys says Hancock faced the left of Early's corps, Breckinridge and Hill, and that Rodes's division attacked Crawford's brigade at Bethesda Church.",
+      "rationale": "Formations named without counts. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA057"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va057-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va057-v1",
+          "locator": "Description",
+          "quote": "the Union II, IX, and V Corps probed Lee's position along the creek,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.167 (OCR page markers; not checked against print)",
+          "quote": "had before him the left of Early’s corps, Breckinridge’s command and Hill’s corps, the Confederate left."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "Rodes’s division, of Early’s corps, moved down the road to attack them."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "swampy-streams",
+      "dimension": "terrain",
+      "value": "Humphreys says the Totopotomoy and neighboring streams have low swampy wooded banks that become impassable in early-summer rains, that Crump's Creek's heads delayed the Sixth Corps, and that Warren's advance met thickly wooded, swampy ground before Early's intrenchments; NPS says the Sixth Corps bogged down in swampy Crump's Creek.",
+      "rationale": "The streams and swamps predate the engagement; the intrenchments do not and are not tagged separately.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.162 (OCR page markers; not checked against print)",
+          "quote": "have low swampy banks or bottom lands, usually wooded, and quickly become impassable swamps in the heavy, early summer rains."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.167 (OCR page markers; not checked against print)",
+          "quote": "formed a swamp and tangle of the worst character,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "until they entered thickly wooded, swampy ground,"
+        },
+        {
+          "source_id": "nps-va057-v1",
+          "locator": "Description",
+          "quote": "but bogged down in swampy Crump's Creek without getting into position."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "crossing-and-trains",
+      "dimension": "logistics",
+      "value": "Humphreys says the roads were not clear for two corps until mid-morning of the 27th and that Wilson covered the trains' crossing until the morning of the 30th, when Smith's transports began arriving at White House.",
+      "rationale": "Movement statements from an interested history; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.161 (OCR page markers; not checked against print)",
+          "quote": "The roads were not cleared for the Second and Ninth Corps until half-past ten in the morning."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.164 (OCR page markers; not checked against print)",
+          "quote": "General Wilson remained on the north bank, covering the crossing of the trains until the morning of the 30th of May."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.170 (OCR page markers; not checked against print)",
+          "quote": "At midday of the 30th, General Smith’s transports began to arrive at the White House,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cavalry-or-infantry",
+      "dimension": "information",
+      "value": "Humphreys says the withdrawal of May 26–27 was apparently unknown to the enemy, that it became apparent on the 29th that the army was close upon Lee's whole army, and that on the 30th the increased skirmishing near Bethesda Church was thought to be with cavalry until Rodes attacked.",
+      "rationale": "Attributed knowledge from an interested history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.160 (OCR page markers; not checked against print)",
+          "quote": "the withdrawal was effected apparently without the knowledge of the enemy."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.167 (OCR page markers; not checked against print)",
+          "quote": "It was apparent that we were close upon Lee’s whole army,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "It was still thought to be with cavalry,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "roads-and-relief",
+      "dimension": "objectives",
+      "value": "Humphreys says the army sought the roads from the Pamunkey to Richmond while Lee sought to cover them, that Early moved to his right under Lee's orders, and that Hancock was ordered to attack to relieve Warren; Meade says the same of the relief attack, in which Barlow carried the first line of rifle-pits.",
+      "rationale": "Stated aims from an interested history and report.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.166 (OCR page markers; not checked against print)",
+          "quote": "Lee was endeavoring to cover those roads."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "in accordance with orders from General Lee, moved to his right across Beaver Dam Creek"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "To relieve the attack on General Warren, if it should prove to be serious, General Hancock was directed to attack as soon as he could find a suitable place."
+        },
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "To relieve Warren, Hancock was ordered to attack, when Barlow carried the first line of rifle-pits occupied by the enemy on the opposite side of the Totopotomoy."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says the corps commanders were directed to reconnoitre on the 29th and that Meade ordered Hancock's attack to cease at 7.40; Meade says the enemy attacked Warren near Bethesda Church and was repulsed. The frozen commanders are Grant, Meade and Lee; the live page lists Grant and 'Major General Robert Lee'.",
+      "rationale": "Direction as the sources state; no listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.166 (OCR page markers; not checked against print)",
+          "quote": "the commanders of the Sixth, Second, and Fifth Corps were directed to make reconnois- sances in their front,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "At 7.40 Gen¬ eral Meade ordered the attack to cease."
+        },
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "Late in the evening the enemy attacked Warren near Bethesda Church, and attempted to turn his left, but were foiled and repulsed."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA057",
+            "belligerent": "US",
+            "fullname": "Ulysses S. Grant"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA057",
+            "belligerent": "US",
+            "fullname": "George G. Meade"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA057",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-va057-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. NPS says the II Corps took the first line of trenches but was stopped at the main line, and that the V Corps was driven back to Shady Grove Road after heavy fighting near Bethesda Church. Humphreys says the attacking brigade was driven back but the enemy's resolute attack was then repulsed, and relays Warren that the enemy had abandoned the field by ten o'clock.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. NPS and Humphreys describe the Bethesda Church outcome differently.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA057"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va057-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-va057-v1",
+          "locator": "Description",
+          "quote": "capturing the first line of Confederate trenches, but the advance was stopped at the main line."
+        },
+        {
+          "source_id": "nps-va057-v1",
+          "locator": "Description",
+          "quote": "The Federals were driven back to Shady Grove Road after heavy fighting."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "The enemy made a resolute attack, but was repulsed and forced to retire,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "by ten o’clock the enemy had abandoned the field,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 2,200 (US 1,100; CS 1,100); the live field reads 1,890 (US 731; CS 1,159). Humphreys gives, for the period after crossing the Pamunkey and before June 1, 1,622 wounded, 400 killed and about 1,000 missing, and thinks Confederate losses to the morning of June 1 were probably nearly equal to the Union's.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Humphreys' figures span May 28–31 and include Haw's Shop and Old Church; they are not assigned here.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA057"
+          },
+          "column": "casualties_text",
+          "quote": "2,200 total (US 1,100; CS 1,100)"
+        },
+        {
+          "source_id": "nps-va057-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1890 total (US 731; CS 1159;)"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.191 (OCR page markers; not checked against print)",
+          "quote": "Previous to June 1, and after crossing the Pamunkey, we have 1, 622 wounded, 1 400 killed, and about 1,000 missing,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "Up to, and including, the morning of the 1st of June, they were probably nearly equal to our own ;"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Warren's, Hancock's and Early's reports, Lee's dispatches and the returns remain deferred. Doles's death on June 2 (NPS) falls in Cold Harbor's interval.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan, and it shares headquarters papers with Meade's and Sheridan's reports. Meade's, Sheridan's, Hampton's, Butler's and Wild's reports, printed in Official Records Series I, Volume XXXVI, Parts 1 and 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -157,6 +157,17 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [VA042](../data/evidence/VA042.json) | 9 | 1 | 0 | 0 | draft |
 | [VA043](../data/evidence/VA043.json) | 9 | 1 | 0 | 0 | draft |
 | [VA044](../data/evidence/VA044.json) | 9 | 1 | 0 | 0 | draft |
+| [VA046](../data/evidence/VA046.json) | 10 | 1 | 0 | 0 | draft |
+| [VA048](../data/evidence/VA048.json) | 9 | 1 | 0 | 0 | draft |
+| [VA052](../data/evidence/VA052.json) | 9 | 1 | 0 | 0 | draft |
+| [VA055](../data/evidence/VA055.json) | 9 | 1 | 0 | 0 | draft |
+| [VA056](../data/evidence/VA056.json) | 9 | 1 | 0 | 0 | draft |
+| [VA057](../data/evidence/VA057.json) | 9 | 1 | 0 | 0 | draft |
+| [VA058](../data/evidence/VA058.json) | 9 | 2 | 0 | 0 | draft |
+| [VA059](../data/evidence/VA059.json) | 9 | 1 | 0 | 0 | draft |
+| [VA062](../data/evidence/VA062.json) | 9 | 1 | 0 | 0 | draft |
+| [VA066](../data/evidence/VA066.json) | 9 | 1 | 0 | 0 | draft |
+| [VA099](../data/evidence/VA099.json) | 9 | 1 | 0 | 0 | draft |
 | [VA100](../data/evidence/VA100.json) | 10 | 3 | 0 | 0 | draft |
 | [VA101](../data/evidence/VA101.json) | 10 | 2 | 0 | 0 | draft |
 | [VA102](../data/evidence/VA102.json) | 9 | 2 | 0 | 0 | draft |
@@ -180,7 +191,7 @@ The ledger separates dossier availability, candidate status, side coverage and b
 
 ## Next research action
 
-The frozen v1 cohort is complete: 127/127 engagements have dossiers. The full-war research frame ([cohort v2](../docs/cohort-v2.md)) has 384 engagements; 127 have dossiers. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
+The frozen v1 cohort is complete: 127/127 engagements have dossiers. The full-war research frame ([cohort v2](../docs/cohort-v2.md)) has 384 engagements; 138 have dossiers. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
 The [Operations about Dandridge first pass](../docs/research/dandridge-first-pass-v1.md) adds all three frozen records: 27 claims, 3 explicit unknowns and 145 citations from NPS/CWSAC, Sturgis's, Martin's and Longstreet's Official Records reports. Strength attributions, the Mossy Creek withdrawal, Sturgis's differing loss and capture figures and the frozen/live casualty differences remain visible; its separate Opus review's seven corrections are applied. All frozen campaign groups now have first-pass dossiers. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
 Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
 Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.

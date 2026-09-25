@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA052",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Yellow Tavern record (May 11, 1864) in Grant's Overland Campaign [May-June 1864]. The Beaver Dam, Ashland and Meadow Bridge actions of May 9–12 are the same raid, not this record. Campaign-wide marches, captures, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions and the live field zero. NPS calls the Confederate cavalry outnumbered. Sheridan's 1866 report says he began the campaign with about 10,000 (the noun is garbled in OCR) and the same number of horses in passable trim, and later that the enemy's cavalry was superior in numbers during the period. Humphreys says Sheridan's three divisions moved on Yellow Tavern and that Fitzhugh Lee's division of two brigades was moving to interpose, while Gordon's brigade followed the rear.",
+      "rationale": "NPS's 'outnumbered' and Sheridan's period-wide claim conflict; Sheridan's 10,000 is a May 4 figure for the corps. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA052"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va052-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va052-v1",
+          "locator": "Description",
+          "quote": "The outnumbered Confederate cavalry was defeated,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-opening",
+          "locator": "p.787 (OCR page markers; not checked against print)",
+          "quote": "I found myself with about 10 000"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-conclusion",
+          "locator": "p.801 (OCR page markers; not checked against print)",
+          "quote": "that the enemy’s cavalry was superior to ours in numbers ;"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cavalry-corps-yellow-tavern",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "Merritt in advance, Wilson next, then Gregg."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cavalry-corps-yellow-tavern",
+          "locator": "p.134 (OCR page markers; not checked against print)",
+          "quote": "cavalry division, composed of Wickham’s and Lomax’s brigades,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "brook-pike-intersection",
+      "dimension": "terrain",
+      "value": "Humphreys says Stuart formed at the intersection of the Brook pike and Mountain road, six miles from Richmond; Sheridan says the enemy formed east of the pike and enfiladed it with artillery.",
+      "rationale": "Positions taken during the engagement; no map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cavalry-corps-yellow-tavern",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "Stewart was formed at the intersection of the Brook pike and Moun¬ tain road, facing west or north of west."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-richmond-raid",
+          "locator": "p.790 (OCR page markers; not checked against print)",
+          "quote": "concentrating at Yellow Tavern, 6 miles from the city, on the Brook turnpike ;"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-richmond-raid",
+          "locator": "p.790 (OCR page markers; not checked against print)",
+          "quote": "enfilad- ing it with his artillery fire, and making Yellow Tavern a hot place,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forage-and-rations",
+      "dimension": "logistics",
+      "value": "Sheridan says the command had half-rations for one day when it set out, that only three days' rations were taken, and that the horses lived on grass and were weak and jaded; his report says forage was obtained after crossing the North Anna. Custer destroyed about 1,500,000 rations at Beaver Dam on May 9–10.",
+      "rationale": "Raid-wide supply statements from the Union commander; no return inspected. The Beaver Dam destruction precedes this record.",
+      "citations": [
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-05-13",
+          "locator": "p.776 (OCR page markers; not checked against print)",
+          "quote": "with the command was half-rations tor one day."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-05-14",
+          "locator": "p.778 (OCR page markers; not checked against print)",
+          "quote": "Only three days’ rations were taken by tJie command."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-05-14",
+          "locator": "p.778 (OCR page markers; not checked against print)",
+          "quote": "my horses have been living on grass nearly all the time since I left, and were too weak and jaded."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-richmond-raid",
+          "locator": "p.790 (OCR page markers; not checked against print)",
+          "quote": "we had also obtained forage for our almost famished animals ;"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-richmond-raid",
+          "locator": "p.790 (OCR page markers; not checked against print)",
+          "quote": "200,000 pounds bacon, and other supplies amounting in all to about 1,500,000 rations,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "concentration-reports",
+      "dimension": "information",
+      "value": "Sheridan says all information led him to believe Stuart was concentrating at Yellow Tavern, and that he lacked knowledge of Meade's and Butler's operations; his 1866 report says reports from colored people influenced his move toward Butler after the fight. Humphreys says the concentration was ascertained at Allen's Station.",
+      "rationale": "Attributed knowledge from the Union commander and an interested history.",
+      "citations": [
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-05-13",
+          "locator": "p.777 (OCR page markers; not checked against print)",
+          "quote": "All the in'ormation that could be obtained led me to believe that the rebel General Stuart was concentrating his cavalry at Yellow Tavern."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-05-13",
+          "locator": "p.778 (OCR page markers; not checked against print)",
+          "quote": "the want of knowledge of your operations and those of General Butler,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-richmond-raid",
+          "locator": "p.791 (OCR page markers; not checked against print)",
+          "quote": "being influenced to some extent m doing so by the reports from colored people,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cavalry-corps-yellow-tavern",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "There it was ascertained that Stewart was concentrating at the Yellow tavern on the Brook pike,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "fight-the-cavalry",
+      "dimension": "objectives",
+      "value": "Sheridan's report says he held that the cavalry should fight the enemy's cavalry, and that on the 8th he was ordered to engage it and then proceed to the James for supplies; Humphreys gives the same instructions. Sheridan's dispatch says he might have taken Richmond by assault but abandoned the idea.",
+      "rationale": "Stated aims from the Union commander and an interested history.",
+      "citations": [
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-opening",
+          "locator": "p.787 (OCR page markers; not checked against print)",
+          "quote": "I took up the idea that our cavalry ought to fight the enemy’s cava ry,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-richmond-raid",
+          "locator": "p.789 (OCR page markers; not checked against print)",
+          "quote": "I received orders to go out and engage the rebel cavalry,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cavalry-corps-yellow-tavern",
+          "locator": "p.134 (OCR page markers; not checked against print)",
+          "quote": "the enemy’s cavalry, replenish his supplies at Haxall’s Land¬ ing from General Butler’s stores,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-05-13",
+          "locator": "p.778 (OCR page markers; not checked against print)",
+          "quote": "It is possible that I might have captured the city of Richmond by an assault,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Sheridan's report says Merritt attacked and gained the Brook turnpike, Custer charged with Chapman on his flank, and Gregg charged the force in the rear; it says the enemy erred by sending a large force against his rear. Humphreys says Custer charged, with Wilson supporting. The frozen commanders are Major Generals Stuart and Sheridan; the live page gives Stuart no rank.",
+      "rationale": "Tactical roles are attributed as the sources state; no listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-richmond-raid",
+          "locator": "p.790 (OCR page markers; not checked against print)",
+          "quote": "Merritt gallantly attacked the enemy at Yellow Tavern, and got possession of the Brook turnpike."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-richmond-raid",
+          "locator": "p.790 (OCR page markers; not checked against print)",
+          "quote": "Custer’s charge, with Chapman on his flank, was brilliantly execute ,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-richmond-raid",
+          "locator": "p.790 (OCR page markers; not checked against print)",
+          "quote": "The enemy here again made an error m tactics bj sending a large force to attack my rear,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cavalry-corps-yellow-tavern",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "Then Custer charged this flanking force, Wilson supporting him,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA052",
+            "belligerent": "US",
+            "fullname": "Philip Sheridan"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA052",
+            "belligerent": "Confederate",
+            "fullname": "J.E.B. Stuart"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va052-v1",
+          "locator": "Principal Commanders",
+          "quote": "James Stuart [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Sheridan says he gained the Brook turnpike, took two guns and drove the enemy about 4 miles; NPS and Sheridan's report say Stuart was mortally wounded. Humphreys says Stuart was mortally wounded and Brigadier General James B. Gordon killed.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Gordon's wounding at Meadow Bridge the next day is outside this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA052"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va052-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-05-13",
+          "locator": "p.777 (OCR page markers; not checked against print)",
+          "quote": "captured two pieces of artillery, driving his force back toward Ash- land and across the north fork of the Chickahominy, a distance of about 4 miles."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-richmond-raid",
+          "locator": "p.790 (OCR page markers; not checked against print)",
+          "quote": "In this assault General J. E. B. Stuart, commanding tl e my’s cavalry, was mortally wounded."
+        },
+        {
+          "source_id": "nps-va052-v1",
+          "locator": "Description",
+          "quote": "and Maj. Gen. J.E.B. Stuart was mortally wounded."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cavalry-corps-yellow-tavern",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "General Stewart, being mortally wounded, and Brigadier- General James B. Gordon killed."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 800 total; the live field reads zero. Sheridan's May 13 dispatch expects wounded not over 250 and total losses not over 350 for the raid; his May 25 dispatch gives 379 wounded from May 9 to 25, with between 75 and 80 captured; his report and Humphreys give 425 casualties on the march. Humphreys found no Confederate account of their losses.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Every Union figure covers the whole raid, not Yellow Tavern alone.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA052"
+          },
+          "column": "casualties_text",
+          "quote": "800 total"
+        },
+        {
+          "source_id": "nps-va052-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-05-13",
+          "locator": "p.778 (OCR page markers; not checked against print)",
+          "quote": "My wounded, I think, will not exceed 250 ; total losses not over 350."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-05-25",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "total, 379."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-05-25",
+          "locator": "p.781 (OCR page markers; not checked against print)",
+          "quote": "My total loss in captured by the enemy is between 75 and 80."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-richmond-raid",
+          "locator": "p.792 (OCR page markers; not checked against print)",
+          "quote": "Our casualties on the march were 425."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cavalry-corps-yellow-tavern",
+          "locator": "p.136 (OCR page markers; not checked against print)",
+          "quote": "I have not been able to find any Confederate report or account of it or of their losses."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Stuart's, Fitzhugh Lee's and the Union division reports, the revised casualty return for Sheridan's first expedition (p.184) and any Confederate return remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan, and it shares headquarters papers with Meade's and Sheridan's reports. Meade's, Sheridan's, Hampton's, Butler's and Wild's reports, printed in Official Records Series I, Volume XXXVI, Parts 1 and 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

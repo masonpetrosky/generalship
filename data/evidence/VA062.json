@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA062",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Cold Harbor record (May 31-June 12, 1864) in Grant's Overland Campaign [May-June 1864]. Trevilian Station (VA099, June 11–12) is a separate cavalry record; the James crossing after June 12 is outside the interval. Campaign-wide marches, captures, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen and live force fields read 170,000 (US 108,000; CS 62,000). Humphreys says Smith landed about 12,500 men, left 2,500 with Ames and marched with 10,000 and sixteen guns; that Hoke's division joined Lee with a little less than 6,000 enlisted infantry; and that Wilson was reinforced by a nominal 3,000 infantry and 2,000 cavalry, of which Wilson reported about 1,400 efficient infantry and 1,000 good cavalry.",
+      "rationale": "Partial figures for arriving forces, not matched opening strengths. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA062"
+          },
+          "column": "forces_text",
+          "quote": "170,000 total (US 108,000; CS 62,000)"
+        },
+        {
+          "source_id": "nps-va062-v1",
+          "locator": "Forces Engaged",
+          "quote": "170000 total (US 108000; CS 62000;)"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.172 (OCR page markers; not checked against print)",
+          "quote": "had landed about 12,500 men at the White House"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.173 (OCR page markers; not checked against print)",
+          "quote": "leaving General Ames there with 2,500 men to guard the landing-place, marched with 10,000 men and all his artillery, sixteen guns,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.125 (OCR page markers; not checked against print)",
+          "quote": "an effective total of infantry (enlisted men) a little less than 6,000,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.180 (OCR page markers; not checked against print)",
+          "quote": "reinforced by 3,000 infantry and 2,000 cavalry from Port Royal,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.180 (OCR page markers; not checked against print)",
+          "quote": "he had only about 1,400 efficient infantry and 1,000 good cavalry,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "open-ground-and-intrenchments",
+      "dimension": "terrain",
+      "value": "Humphreys says the enemy's main line on June 1 was about 1,400 yards away across mostly open ground, that Lee's position was naturally strong on the right and intrenched throughout with open ground in front, that a swamp cut Gibbon's line, and that the Chickahominy was at its lowest. NPS gives a seven-mile front and says Sheridan's troopers relied on repeating carbines and shallow entrenchments on June 1.",
+      "rationale": "Works built during the operations; the ground predates them. Not tagged; no map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.174 (OCR page markers; not checked against print)",
+          "quote": "the interval between being mostly open ground."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.180 (OCR page markers; not checked against print)",
+          "quote": "Lee’s position was naturally strong on the right, and was made strong throughout by intrenchments, which everywhere had open ground in front"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.183 (OCR page markers; not checked against print)",
+          "quote": "His line was cut in two by an im¬ passable swamp,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "The Chickahominy was in its lowest stage of water,"
+        },
+        {
+          "source_id": "nps-va062-v1",
+          "locator": "Description",
+          "quote": "forming on a seven-mile front that extended from Bethesda Church to the Chickahominy River."
+        },
+        {
+          "source_id": "nps-va062-v1",
+          "locator": "Description",
+          "quote": "relying heavily on their new repeating carbines and shallow entrenchments,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-rations",
+      "dimension": "logistics",
+      "value": "Humphreys says Smith arrived without his wagons or ammunition and was nearly out of ammunition on June 1, and that in the lines the army had had no vegetables for over a month and bad water. Meade says the White House was now the depot for supplies.",
+      "rationale": "Statements from an interested history and report; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.173 (OCR page markers; not checked against print)",
+          "quote": "All his troops had not arrived, -nor had any of his wagons or ammunition."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "was nearly out of ammunition,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.190 (OCR page markers; not checked against print)",
+          "quote": "For over a month the army had had no vegetables,"
+        },
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "covered the roads to the White House, now the depot for supplies."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "unknown-dispositions",
+      "dimension": "information",
+      "value": "Humphreys says Lee did not learn of Smith's arrival until the afternoon of June 1, that Meade did not know Kershaw and Anderson's corps were near Hoke, and that it had not been reported the front could be carried by assault. Meade says Sheridan reported himself pressed at Cold Harbor.",
+      "rationale": "Attributed knowledge from an interested history and report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.170 (OCR page markers; not checked against print)",
+          "quote": "But Lee did not learn of the arrival of Smith’s command at the White House until the afternoon of the 1st of June,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.172 (OCR page markers; not checked against print)",
+          "quote": "but it was not known that Kershaw was near him, or that Anderson’s (Longstreet’s) corps was on the right of Early,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "though it had not been reported that it was practicable to carry it by assault ;"
+        },
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "Sheridan report- ing himself pressed at Cold Harbor,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "assault-aims",
+      "dimension": "objectives",
+      "value": "Humphreys says two corps were sent to hold Cold Harbor and attack before the enemy could intrench, that a successful assault would let the army inflict severe loss on Lee crossing the Chickahominy, and that after the failure the aim became detaining Lee's army to aid Hunter.",
+      "rationale": "Stated aims from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.172 (OCR page markers; not checked against print)",
+          "quote": "it was determined to send two infantry corps to maintain possession of Cold Har¬ bor, and attack the enemy there before they and the troops sent to their support could intrench."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "would give the opportunity of inflicting severe loss upon Lee when fall¬ ing back over the Chickahominy,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "that to aid the expedition under General Hunter it was necessary to detain all the army then with"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Grant decided to make the June 3 attack, that a wrong order from Grant's headquarters cost Smith four or five hours, that Grant told Meade at seven to suspend once success was impossible, that Meade suspended offensive operations at half-past one after Grant's dispatch that the corps commanders were not sanguine, and that Hancock declined to renew the assault. NPS relays Grant's memoir regret. The frozen commanders are Grant, Meade and Lee; the live page lists Grant and 'Major General Robert Lee'.",
+      "rationale": "Decisions attributed as the sources state; no listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "General Grant decided to make the attack."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.173 (OCR page markers; not checked against print)",
+          "quote": "he received an order from General Grant’s Headquarters to proceed at once to New Castle Ferry,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "as early as seven o’clock General Grant had directed General Meade to suspend the offensive the moment it became certain that an assault could not succeed."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.173 (OCR page markers; not checked against print)",
+          "quote": "Some four or five hours were lost in this way,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "at half-past one o’clock General Meade suspended all further offensive opera¬ tions,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.187 (OCR page markers; not checked against print)",
+          "quote": "as the corps commanders were not sanguine of success"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "General Hancock did not consider it wise to make another assault."
+        },
+        {
+          "source_id": "nps-va062-v1",
+          "locator": "Description",
+          "quote": "Grant commented in his memoirs that this was the only attack he wished he had never ordered."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA062",
+            "belligerent": "US",
+            "fullname": "Ulysses S. Grant"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA062",
+            "belligerent": "US",
+            "fullname": "George G. Meade"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA062",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-va062-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. NPS says the June 3 assaults were slaughtered at all points; Meade says the Sixth and Eighteenth Corps assaults failed and offensive operations closed about 11 a.m.; Humphreys dates the suspension order to half-past one and says the army remained until the night of June 12.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Meade's and Humphreys' times for the end of the offensive differ.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA062"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va062-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-va062-v1",
+          "locator": "Description",
+          "quote": "were slaughtered at all points."
+        },
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "The assaults of the Sixth and Eighteenth Corps being unsuc- cessful, about 11 a. m. offensive operations closed."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.190 (OCR page markers; not checked against print)",
+          "quote": "The army remained in position here until the night of the 12th, when it withdrew to cross the James River."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 15,500 (US 13,000; CS 2,500); the live field reads 18,000 (US 13,000; CS 5,000). Humphreys says the three assaulting corps lost over 4,000 killed and wounded in about an hour on June 3, and over 5,600 including the Fifth and Ninth Corps; for June 1 and 3 he gives 8,411 killed and wounded and 9,948 in all, and the medical director's grand total of 14,129 from the Pamunkey to June 12 including the Eighteenth Corps. For Lee's army he gives the Medical and Surgical History's 1,200 wounded and 500 missing for June 1–12, says the actual number was probably much greater, and estimates four to five thousand for May 27–June 12.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Humphreys' periods (June 3, June 1 and 3, May 27–June 12) overlap and are not additive.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA062"
+          },
+          "column": "casualties_text",
+          "quote": "15,500 total (US 13,000; CS 2,500)"
+        },
+        {
+          "source_id": "nps-va062-v1",
+          "locator": "Estimated Casualties",
+          "quote": "18000 total (US 13000; CS 5000;)"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.182 (OCR page markers; not checked against print)",
+          "quote": "The killed and wounded of these three corps in that time exceeded 4,000."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.182 (OCR page markers; not checked against print)",
+          "quote": "Including the Fifth and Ninth Corps, the total number killed and wounded was over 5, 600."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.191 (OCR page markers; not checked against print)",
+          "quote": "we have 8,411 for the killed and wounded, and for the total casualties, 9,948."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "Grand total, 14,129."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "the number of its wounded, from the 1st to the 12th of June, was 1, 200 ; its missing, 500."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "The actual number was probably much greater."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "cold-harbor",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "and, including the missing, not less than between four and five thousand."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Smith's, Wright's, Hancock's, Warren's and Burnside's reports, Lee's dispatches, the Longstreet corps diary, Sheridan's May 31–June 1 dispatches (read; garbled; not selected) and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan, and it shares headquarters papers with Meade's and Sheridan's reports. Meade's, Sheridan's, Hampton's, Butler's and Wild's reports, printed in Official Records Series I, Volume XXXVI, Parts 1 and 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

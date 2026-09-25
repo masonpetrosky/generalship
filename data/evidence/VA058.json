@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA058",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Haw's Shop record (May 28, 1864) in Grant's Overland Campaign [May-June 1864]. It falls inside the Totopotomoy Creek record's interval (VA057); Wilson's June 3 fight at Hawes's Shop belongs to Cold Harbor's interval. Campaign-wide marches, captures, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions and the live field zero. NPS names Gregg's division supported by Torbert's against Fitzhugh Lee's and Hampton's divisions, later reinforced by Butler's brigade. Sheridan's report says the force appeared to be the enemy's cavalry corps and a South Carolina brigade; Humphreys relays Sheridan that the brigade was reported 4,000 strong, but cites Fitzhugh Lee for two divisions of two brigades each and Butler's brigade.",
+      "rationale": "The identifications differ; the 4,000 is a report relayed by Sheridan, not a return. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA058"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va058-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va058-v1",
+          "locator": "Description",
+          "quote": "Fitzhugh Lee's and Hampton's cavalry divisions, later reinforced by Butler's South Carolina brigade,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-pamunkey-to-cold-harbor",
+          "locator": "p.793 (OCR page markers; not checked against print)",
+          "quote": "which appeared to be the nno catvalry corPs, and a brigade of South Carolina troops,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.164 (OCR page markers; not checked against print)",
+          "quote": "reported to be 4,000 strong, and commanded by Col¬ onel Butler."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.164 (OCR page markers; not checked against print)",
+          "quote": "consisted of his own division of two brigades, Hampton’s division of two brigades, and a brigade under the command of Colonel, afterward General, Butler,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "rail-breastworks",
+      "dimension": "terrain",
+      "value": "Humphreys and Sheridan's report say the enemy's cavalry was dismounted behind temporary breastworks of rails about a mile beyond Hawes's Shop; NPS says the fighting was mostly dismounted over seven hours.",
+      "rationale": "Works built for the engagement; no map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.164 (OCR page markers; not checked against print)",
+          "quote": "dismounted and occupying tem¬ porary breastworks of rails."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-pamunkey-to-cold-harbor",
+          "locator": "p.793 (OCR page markers; not checked against print)",
+          "quote": "was dismounted and behind a temporary breast- work of rails"
+        },
+        {
+          "source_id": "nps-va058-v1",
+          "locator": "Description",
+          "quote": "After seven hours of mostly dismounted cavalry fighting,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "prisoner-reports",
+      "dimension": "information",
+      "value": "Humphreys says Sheridan reported at 6 p.m. that prisoners placed Longstreet's and Ewell's corps four miles from Hawes's Shop, and that his own identification of the Confederate force comes later from Fitzhugh Lee.",
+      "rationale": "Attributed reports; Fitzhugh Lee's information is postwar and not inspected directly.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.165 (OCR page markers; not checked against print)",
+          "quote": "At six p.m. General Sheridan reported that his prisoners stated that General Longstreet’s and General Ewell’s corps were four miles from Hawes’s shop."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.164 (OCR page markers; not checked against print)",
+          "quote": "But I learn from General Fitzhugh Lee that the Confed¬ erate cavalry force there on the 28th consisted of"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "demonstration-and-screen",
+      "dimension": "objectives",
+      "value": "Humphreys says Sheridan was directed to demonstrate toward Richmond to learn where the enemy was posted; Sheridan's report says the aim was to find out the enemy's whereabouts. NPS says Gregg advanced to cover the army's crossing and movement toward the Totopotomoy.",
+      "rationale": "Stated aims from an interested history, the Union commander and a summary.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.164 (OCR page markers; not checked against print)",
+          "quote": "General Sheridan was directed to make a demonstration on the road from Hanover Town to Richmond to ascertain where the enemy was posted;"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-pamunkey-to-cold-harbor",
+          "locator": "p.793 (OCR page markers; not checked against print)",
+          "quote": "in order to find out the enemy’s where-"
+        },
+        {
+          "source_id": "nps-va058-v1",
+          "locator": "Description",
+          "quote": "advanced to cover the Army of the Potomac's crossing of the Pamunkey River and movement toward Totopotomoy Creek."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Custer's brigade and Gregg's division carried the intrenchments late in the day, with Fitzhugh Lee on the Confederate right and Hampton on the left, and that Torbert's other brigades were not seriously engaged. The frozen commanders are Brigadier General Gregg and Major Generals Fitzhugh Lee and Hampton; the live page lists Gregg and Fitzhugh Lee.",
+      "rationale": "Roles as stated; no listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.164 (OCR page markers; not checked against print)",
+          "quote": "when Custer’s brigade (of Torbert’s division) and Gregg’s division carried the intrenchments and drove"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.164 (OCR page markers; not checked against print)",
+          "quote": "Fitzhugh Lee was on the right of their line, Hampton on the left."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.165 (OCR page markers; not checked against print)",
+          "quote": "but was not, General Sheridan says, seriously engaged."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA058",
+            "belligerent": "US",
+            "fullname": "David M. Gregg"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA058",
+            "belligerent": "Confederate",
+            "fullname": "Fitzhugh Lee"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA058",
+            "belligerent": "Confederate",
+            "fullname": "Wade Hampton"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va058-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Fitzhugh Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. NPS says the Federal advance was stopped after seven hours. Humphreys says Custer and Gregg carried the intrenchments and drove the enemy back; Sheridan's report calls it a hard-contested engagement.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. NPS and the Union accounts describe the end of the fight differently.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA058"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va058-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-va058-v1",
+          "locator": "Description",
+          "quote": "the Federal advance was stopped."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.165 (OCR page markers; not checked against print)",
+          "quote": "back the enemy. Torbert, with Devin’s and Merritt’s bri¬ gades,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-pamunkey-to-cold-harbor",
+          "locator": "p.793 (OCR page markers; not checked against print)",
+          "quote": "This was a hard contested"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 744 (US 344; CS 400). The inspected Sheridan and Humphreys passages give no count for this action.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Humphreys' May 28–31 totals are context only (see VA057).",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA058"
+          },
+          "column": "casualties_text",
+          "quote": "744 total (US 344; CS 400)"
+        },
+        {
+          "source_id": "nps-va058-v1",
+          "locator": "Estimated Casualties",
+          "quote": "744 total (US 344; CS 400;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Gregg's, Torbert's, Custer's, Hampton's and Fitzhugh Lee's reports and the returns remain deferred; Sheridan's May 28 dispatches were not located in the selected range.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan, and it shares headquarters papers with Meade's and Sheridan's reports. Meade's, Sheridan's, Hampton's, Butler's and Wild's reports, printed in Official Records Series I, Volume XXXVI, Parts 1 and 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

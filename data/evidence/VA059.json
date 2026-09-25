@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA059",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Old Church (Matadequin Creek) record (May 30, 1864) in Grant's Overland Campaign [May-June 1864]. It falls inside the Totopotomoy Creek record's interval (VA057); the capture of Cold Harbor on May 31 belongs to VA062. Campaign-wide marches, captures, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades and the live field zero. NPS says Torbert's division attacked Butler's brigade. Sheridan's dispatch says he directed Torbert's division to attack; his report says Butler's South Carolinians again took the brunt. Humphreys says Sheridan attacked with Torbert's division.",
+      "rationale": "Formations named without counts. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA059"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-va059-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va059-v1",
+          "locator": "Description",
+          "quote": "Torbert's Division attacked and defeated Butler's Brigade near Old Church."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-05-30",
+          "locator": "p.782 (OCR page markers; not checked against print)",
+          "quote": "I directed General Torbert, with his di- vision, to attack them about 1 o’clock to-day."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-pamunkey-to-cold-harbor",
+          "locator": "p.794 (OCR page markers; not checked against print)",
+          "quote": "In this fight Butlei s South Carolinians were again put in to receive the brunt,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "General Sheridan attacked it about one o’clock in the afternoon with Torbert’s division"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "matadequin-crossing",
+      "dimension": "terrain",
+      "value": "Humphreys places the enemy at the Matadequin crossing near Old Church and says these streams have many swampy heads; Sheridan's dispatch says the enemy had a very strong position.",
+      "rationale": "Narrative descriptions; no map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "at the crossing of the Matadequin Creek, near Old Church,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.162 (OCR page markers; not checked against print)",
+          "quote": "Both these streams have many swampy heads and affluents."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-05-30",
+          "locator": "p.782 (OCR page markers; not checked against print)",
+          "quote": "The enemy had a very strong position."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "line-to-white-house",
+      "dimension": "logistics",
+      "value": "Sheridan's report says holding Cold Harbor was essential to secure the lines to the White House base, and that the enemy pushed a force to the Matadequin to make the road dangerous for the trains.",
+      "rationale": "The Union commander's retrospective reasoning; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-pamunkey-to-cold-harbor",
+          "locator": "p.794 (OCR page markers; not checked against print)",
+          "quote": "As our occupation of this point was essen- tial to secure our lines to the White House, which was to be our base,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-pamunkey-to-cold-harbor",
+          "locator": "p.794 (OCR page markers; not checked against print)",
+          "quote": "in order to make it danger- ous for our trains."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "enemy-at-cold-harbor",
+      "dimension": "information",
+      "value": "Sheridan's dispatch says the enemy's cavalry collected in his front on the Cold Harbor road; his report says the pickets found Cold Harbor occupied in some force. Humphreys says the same.",
+      "rationale": "Attributed reports; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-05-30",
+          "locator": "p.782 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s cavalry collected in my front on the Cold Harbor road, not far from Old Church."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-pamunkey-to-cold-harbor",
+          "locator": "p.794 (OCR page markers; not checked against print)",
+          "quote": "which was occupied by the enemy in some force."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "Some cavalry force of the enemy being in position on the road from Old Church to Cold Harbor,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "crossroads-contest",
+      "dimension": "objectives",
+      "value": "Sheridan's report says possession of Cold Harbor was a matter of deep interest and that the enemy, realizing this, pushed a force to the Matadequin; NPS says the fight opened the way to the crossroads.",
+      "rationale": "Stated aims from the Union commander and a summary.",
+      "citations": [
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-pamunkey-to-cold-harbor",
+          "locator": "p.794 (OCR page markers; not checked against print)",
+          "quote": "its possession became a matter of deep interest."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-pamunkey-to-cold-harbor",
+          "locator": "p.794 (OCR page markers; not checked against print)",
+          "quote": "pushed a force up to Matadequin Creek on the Old Church road,"
+        },
+        {
+          "source_id": "nps-va059-v1",
+          "locator": "Description",
+          "quote": "opening the door for Sheridan's capture of the important crossroads the next day."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Sheridan's dispatch says he directed Torbert to attack and credits Torbert's division; his 1866 report says the First Division's pickets met the force and held until reinforced by their division. The frozen and live commanders are Brigadier Generals Torbert and Matthew C. Butler.",
+      "rationale": "The dispatch and report describe the opening differently; no listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-05-30",
+          "locator": "p.782 (OCR page markers; not checked against print)",
+          "quote": "It was a very handsome affair, and very creditable to General Torbert and his division."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-pamunkey-to-cold-harbor",
+          "locator": "p.794 (OCR page markers; not checked against print)",
+          "quote": "This force encountered the pickets of the First Division at Matadequin Creek,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA059",
+            "belligerent": "US",
+            "fullname": "Alfred Torbert"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA059",
+            "belligerent": "Confederate",
+            "fullname": "Matthew C. Butler"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va059-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Matthew Butler [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Sheridan's dispatch says after nearly two hours the enemy was defeated and driven toward Cold Harbor; his report says it was pursued to within 1½ miles of Cold Harbor; Humphreys says Torbert took position within a mile and a half of it.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA059"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va059-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-05-30",
+          "locator": "p.782 (OCR page markers; not checked against print)",
+          "quote": "Had a sharp engage- ment of nearly two hours. We defeated them and drove them down to Cold Harbor."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-pamunkey-to-cold-harbor",
+          "locator": "p.794 (OCR page markers; not checked against print)",
+          "quote": "the enemy finally gave way, and was pursued within 1-g- miles of Cold Harbor."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "pamunkey-totopotomoy",
+          "locator": "p.170 (OCR page markers; not checked against print)",
+          "quote": "Torbert taking up position within a mile and a half of that place."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 900 total; the live field reads 90 (US 90; CS 0). Sheridan's report says many South Carolinians were killed and captured; no count was found in the inspected passages.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen 900 and live 90 differ by an order of magnitude; neither is corrected.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA059"
+          },
+          "column": "casualties_text",
+          "quote": "900 total"
+        },
+        {
+          "source_id": "nps-va059-v1",
+          "locator": "Estimated Casualties",
+          "quote": "90 total (US 90; CS 0;)"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-pamunkey-to-cold-harbor",
+          "locator": "p.794 (OCR page markers; not checked against print)",
+          "quote": "many of them were killed and captured."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Torbert's, Custer's, Devin's and Butler's reports and the returns remain deferred; the end of Sheridan's May 30 dispatch is garbled in OCR.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan, and it shares headquarters papers with Meade's and Sheridan's reports. Meade's, Sheridan's, Hampton's, Butler's and Wild's reports, printed in Official Records Series I, Volume XXXVI, Parts 1 and 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

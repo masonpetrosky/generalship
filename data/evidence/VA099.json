@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA099",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Trevilian Station record (June 11-12, 1864) in Grant's Overland Campaign [May-June 1864]. The June 7–10 march, the June 20–21 White House fight and Saint Mary's Church (VA066, June 24) are the same raid but not this record. Campaign-wide marches, captures, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions and the live field zero. NPS names Gregg's and Torbert's divisions against Hampton's and Fitzhugh Lee's. Hampton says he took Lee's division in addition to his own and cites a disparity in numbers. Sheridan's June 16 dispatch says the enemy was reinforced by infantry during the night of the 11th, and his report says the enemy's cavalry was superior in numbers during the period.",
+      "rationale": "No counts for the engaged forces; the accounts conflict on relative numbers and on Confederate infantry. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA099"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va099-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va099-v1",
+          "locator": "Description",
+          "quote": "Sheridan with the Gregg's and Torbert's divisions attacked Hampton's and Fitzhugh Lee's cavalry divisions at Trevilian Station."
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1095 (OCR page markers; not checked against print)",
+          "quote": "I was ordered to take one division in addition to my own and follow him."
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1098 (OCR page markers; not checked against print)",
+          "quote": "the dis- parity in numbers of the troops engaged,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-06-16",
+          "locator": "p.785 (OCR page markers; not checked against print)",
+          "quote": "been re-enforced by infantry during the night,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-conclusion",
+          "locator": "p.801 (OCR page markers; not checked against print)",
+          "quote": "that the enemy’s cavalry was superior to ours in numbers ;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "forest-and-works",
+      "dimension": "terrain",
+      "value": "Sheridan says the enemy was driven from successive lines of breastworks through an almost impenetrable forest on the 11th, and on the 12th held rifle-pits about 5 miles from Gordonsville; NPS says Hampton and Lee drew a defensive line across the railroad and the Gordonsville road, an advantageous position.",
+      "rationale": "Works built during the engagement; not tagged. No map verification.",
+      "citations": [
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-06-16",
+          "locator": "p.784 (OCR page markers; not checked against print)",
+          "quote": "drove hm from successive lines of breast- works, through an almost impenetra- ble forest,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-06-16",
+          "locator": "p.785 (OCR page markers; not checked against print)",
+          "quote": "had also constructed rifle-pits at a point about 5 miles from Gordonsville."
+        },
+        {
+          "source_id": "nps-va099-v1",
+          "locator": "Description",
+          "quote": "drew a defensive line across the railroad and the road to Gordonsville."
+        },
+        {
+          "source_id": "nps-va099-v1",
+          "locator": "Description",
+          "quote": "From this advantageous position, they beat back several determined dismounted assaults."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-forage-and-wounded",
+      "dimension": "logistics",
+      "value": "Sheridan says he lacked ammunition to continue, that his animals were without forage for the two days, that living off the country failed, and that over 500 wounded and about 500 prisoners burdened him; he feared one more engagement would exhaust his ammunition. Hampton cites his men's want of supplies.",
+      "rationale": "Statements from interested commanders; no ordnance or forage return inspected.",
+      "citations": [
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-06-16",
+          "locator": "p.785 (OCR page markers; not checked against print)",
+          "quote": "there was not a sufficiency of ammunition left to continue the engage- ment."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-06-16",
+          "locator": "p.785 (OCR page markers; not checked against print)",
+          "quote": "for the two entire days in which we were engaged without forage,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-06-16",
+          "locator": "p.785 (OCR page markers; not checked against print)",
+          "quote": "Living off the country was a tailuie ;"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.797 (OCR page markers; not checked against print)",
+          "quote": "there being over 500 cases of our own, and the additional burden of about 500 prisoners,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.797 (OCR page markers; not checked against print)",
+          "quote": "one more engagement would have reduced the supply of ammunition to a very small compass."
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1098 (OCR page markers; not checked against print)",
+          "quote": "their want of supplies,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "hunter-and-rear-reports",
+      "dimension": "information",
+      "value": "Sheridan says he had no definite information of Hunter until prisoners told him Hunter was near Lexington, and that prisoners and citizens reported Pickett's division coming. Hampton says he supposed Sheridan would strike Gordonsville and Charlottesville, learned in the night that he had crossed at Carpenter's Ford, and was told of a force in his rear.",
+      "rationale": "Attributed knowledge from interested commanders; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-06-16",
+          "locator": "p.785 (OCR page markers; not checked against print)",
+          "quote": "Up to this time I could get no definite in formation as to the position of General Hunter."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.796 (OCR page markers; not checked against print)",
+          "quote": "instead of coming toward Charlottesville, as I had reason to sup- pose, was at or near Lexington,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-06-16",
+          "locator": "p.785 (OCR page markers; not checked against print)",
+          "quote": "The reports of prisoners and citi- zens were that Pickett s old division, or a portion of it, was coming"
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1095 (OCR page markers; not checked against print)",
+          "quote": "Supposing that he would strike at Gordonsville and Charlottesville,"
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1095 (OCR page markers; not checked against print)",
+          "quote": "Hearing during the night that the enemy had crossed the North Anna at Carpenter’s Ford,"
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1095 (OCR page markers; not checked against print)",
+          "quote": "it was reported to me that a force had appeared in my rear."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "railroad-and-junction-aims",
+      "dimension": "objectives",
+      "value": "Sheridan says he intended to break the railroad at Trevilian and march on Charlottesville, to unite with Hunter, and apparently also to draw the enemy's cavalry away; Hampton says his design was to strike at Clayton's Store after uniting his divisions, and reads Sheridan's object as Gordonsville, Charlottesville and a junction with Hunter. NPS says the raid aimed to draw off the Confederate cavalry.",
+      "rationale": "Stated or attributed aims from interested commanders and a summary.",
+      "citations": [
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-06-16",
+          "locator": "p.784 (OCR page markers; not checked against print)",
+          "quote": "Mv intention was to break the railroad at this station,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.795 (OCR page markers; not checked against print)",
+          "quote": "to unite, if possible, with Maj. Gen. D. Hunter"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.795 (OCR page markers; not checked against print)",
+          "quote": "There' also appeared to be another object, viz, to remove the enemy’s cavalrv from"
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1095 (OCR page markers; not checked against print)",
+          "quote": "conceal my real design, which was to strike him at Clayton’s Store after uniting the two divisions."
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1097 (OCR page markers; not checked against print)",
+          "quote": "show that Sheridan’s object was to destroy Gordonsville and Charlottesville,"
+        },
+        {
+          "source_id": "nps-va099-v1",
+          "locator": "Description",
+          "quote": "To draw off the Confederate cavalry and open the door for a general movement to the James River,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Sheridan says he sent Custer by a wood road into the enemy's rear and later directed Torbert's reconnaissance up the Gordonsville road; Hampton says Fitzhugh Lee, by his direction, reinforced Butler with Wickham and struck the Union flank with Lomax, and praises Lee's cooperation. The frozen commanders are Major Generals Sheridan and Hampton; the live page gives Hampton as Lieutenant General.",
+      "rationale": "Directions attributed as stated; the live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.796 (OCR page markers; not checked against print)",
+          "quote": "Custer with his brigade, was ordered to take a wood road found on our left and get to Trevilian Station,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.797 (OCR page markers; not checked against print)",
+          "quote": "directed Torbert to make a reconnaissance up the Gordonsville road"
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1096 (OCR page markers; not checked against print)",
+          "quote": "General Lee had, by my directions, re-enforced Butler’s left with Wickham’s brigade,"
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1097 (OCR page markers; not checked against print)",
+          "quote": "Maj. Gen. Fitzhugh Lee co-operated with me heartily"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA099",
+            "belligerent": "US",
+            "fullname": "Philip Sheridan"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA099",
+            "belligerent": "Confederate",
+            "fullname": "Wade Hampton"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va099-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant General Wade Hampton [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory; NPS says it prevented Sheridan from reaching Charlottesville and joining Hunter. Sheridan called the engagement of the 12th the most brilliant of the campaign but says Torbert's fighting made the Mallory's Ford route impossible without another battle; Hampton says the enemy fell back in confusion and that Sheridan was defeated at Trevilian.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA099"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va099-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-va099-v1",
+          "locator": "Description",
+          "quote": "Confederate victory at Trevilian prevented Sheridan from reaching Charlottesville and cooperating with Hunter's army in the Valley."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-06-16",
+          "locator": "p.785 (OCR page markers; not checked against print)",
+          "quote": "The cavalry engagement of the 12th was by far the most brilliant one"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.797 (OCR page markers; not checked against print)",
+          "quote": "The result of Torbert’s fighting made it impossible to cross at Mal- lory s Ford without venturing a battle next day,"
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1096 (OCR page markers; not checked against print)",
+          "quote": "fell back in confusion, leaving his dead and a portion of his wounded on the field."
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1097 (OCR page markers; not checked against print)",
+          "quote": "Sheridan was defeated at Trevilian :"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,600 total; the live field reads 2,078 (US 1,007; CS 1,071). Sheridan's June 16 dispatch gives about 575 killed and wounded (490 wounded) and not over 160 captured, with 20 officers and 500 men taken on the 11th. Hampton gives his own division's loss as 59 killed, 258 wounded and 295 missing (612), and says 570 prisoners were taken and about 125 Union wounded left behind.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Hampton's figure is for his own division only; Fitzhugh Lee's losses are not given.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA099"
+          },
+          "column": "casualties_text",
+          "quote": "1,600 total"
+        },
+        {
+          "source_id": "nps-va099-v1",
+          "locator": "Estimated Casualties",
+          "quote": "2078 total (US 1007; CS 1071;)"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-06-16",
+          "locator": "p.785 (OCR page markers; not checked against print)",
+          "quote": "My loss m killed and wounded will be about 575."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-06-16",
+          "locator": "p.785 (OCR page markers; not checked against print)",
+          "quote": "Of this number 490 were wounded."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-06-16",
+          "locator": "p.785 (OCR page markers; not checked against print)",
+          "quote": "My loss m captured will not exceed 160."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1864-06-16",
+          "locator": "p.784 (OCR page markers; not checked against print)",
+          "quote": "also 20 officers, 500 men, and 300 horses."
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1096 (OCR page markers; not checked against print)",
+          "quote": "My loss in my own division was 59 killed, 258 wounded, and 295 missing ; total, 612."
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1096 (OCR page markers; not checked against print)",
+          "quote": "We captured, in addition to the wounded, in the fight and the pursuit 570 prisoners."
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1096 (OCR page markers; not checked against print)",
+          "quote": "with about 125 wounded on the ground and in temporary hospitals."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Torbert's, Gregg's, Custer's and Fitzhugh Lee's reports, the revised return for Sheridan's second expedition (p.186) and Humphreys' Chapter VIII remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan, and it shares headquarters papers with Meade's and Sheridan's reports. Meade's, Sheridan's, Hampton's, Butler's and Wild's reports, printed in Official Records Series I, Volume XXXVI, Parts 1 and 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

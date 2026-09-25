@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA056",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Wilson's Wharf record (May 24, 1864) in Grant's Overland Campaign [May-June 1864]. The post belonged to Butler's Army of the James; the live NPS description is empty, so the frozen CWSAC description is the NPS/CWSAC narrative. Campaign-wide marches, captures, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades; the frozen description gives Fitzhugh Lee's division about 3,000 men and Wild's two regiments about 1,800. The live force field is blank. Butler says the post was garrisoned by two regiments of Black troops and that Wild commanded 1,800 men. Wild says he had no accurate count of the attackers; his estimate is garbled in OCR ('and probably triple'); prisoners spoke of detachments from three cavalry brigades, with three guns.",
+      "rationale": "The frozen figures and Butler's 1,800 agree on the garrison; Wild's estimate is unreadable. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA056"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA056"
+          },
+          "column": "description",
+          "quote": "Fitzhugh Lee's cavalry division (about 3,000 men)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA056"
+          },
+          "column": "description",
+          "quote": "two black regiments under Brig. Gen. Edward Wild (about 1,800 men)."
+        },
+        {
+          "source_id": "nps-va056-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US ; CS ;)"
+        },
+        {
+          "source_id": "or36-2-butler-wilsons-wharf-selections-v1",
+          "section": "butler-1864-05-25",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "commanding force of 1,800 men, all of whom were negroes."
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "We have no accurate count of their force."
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "and probably triple."
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "detachments from three cavalry brigades,"
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "having three guns, probably horse artillery,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "bluff-ravines-and-works",
+      "dimension": "terrain",
+      "value": "Wild says the attackers filled the woods on the river bluff, massed in concealed wooded ravines on his right and charged up to the parapet, and that their dead lay in the abatis; the gunboat Dawn shelled both flanks.",
+      "rationale": "The garrison's works predate the attack but were built by the defenders; not tagged. No map verification.",
+      "citations": [
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "filling tne woq on the river bluff to the north,"
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "They massed troops on our extreme right, conceaieu wooded ravines,"
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "approached our parapet, but failed,"
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "except from the abatis,"
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "rendered most efficient and material aid in helling the enemy on both flanks,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "depot-and-ammunition",
+      "dimension": "logistics",
+      "value": "The frozen description calls the post a Union supply depot. Wild says he was short of artillery ammunition of one caliber and stopped passing steamers to take their troops into service.",
+      "rationale": "Statements of the defending commander and a summary; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA056"
+          },
+          "column": "description",
+          "quote": "attacked the Union supply depot at Wilson's Wharf"
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "e at the time short of artillery ammunition"
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "we stopped passing steamers,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "summons-and-reports",
+      "dimension": "information",
+      "value": "Wild says a flag of truce brought a summons in Fitzhugh Lee's name after an hour and a half, and that contrabands later said the attackers went to Bottom's Bridge. Butler says Lee claimed force enough to take the place.",
+      "rationale": "Attributed messages from the defending and department commanders; the summons itself was not inspected.",
+      "citations": [
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "a flag of truce, with a note containing a summons to sur^e^”. the name of Maj. Gen. Fitz. Lee."
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "Contrabands to-day tell us they went to Bottom s Bridge"
+        },
+        {
+          "source_id": "or36-2-butler-wilsons-wharf-selections-v1",
+          "section": "butler-1864-05-25",
+          "locator": "p.269 (OCR page markers; not checked against print)",
+          "quote": "Before the attack Lee sent a flag .tmg he had force enough to take the place,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rush-then-siege",
+      "dimension": "objectives",
+      "value": "Wild says the attack was made in earnest with a design of rushing in suddenly, and that after being checked much of the force dismounted; his garbled sentence on artillery ammunition ends with a 'lengthened siege'.",
+      "rationale": "Aims inferred by the defending commander; no Confederate report inspected.",
+      "citations": [
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "was evidently made in earnest, with a design of rushing in npou suddenly,"
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "a large portion of the force dismounted"
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "lengthened siege."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Butler says Wild commanded the defense in person and replied 'We will try that' to the summons; Wild says he declined. The frozen commanders are Major General Fitzhugh Lee and Brigadier General Edward Wild, as on the live page.",
+      "rationale": "Roles as stated by the Union department and brigade commanders; no Confederate account inspected. No automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or36-2-butler-wilsons-wharf-selections-v1",
+          "section": "butler-1864-05-25",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "The defense wc commanded by Brigadier-General Wild m person,"
+        },
+        {
+          "source_id": "or36-2-butler-wilsons-wharf-selections-v1",
+          "section": "butler-1864-05-25",
+          "locator": "p.269 (OCR page markers; not checked against print)",
+          "quote": "General Wild replied, “ We will try that.”"
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "I declined."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA056",
+            "belligerent": "Confederate",
+            "fullname": "Fitzhugh Lee"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA056",
+            "belligerent": "US",
+            "fullname": "Edward Wild"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va056-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Edward Wild [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Butler says the attack was repulsed; Wild says the charge failed, the attackers withdrew and were gone by sunrise, after about five and a half hours of action.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA056"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va056-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA056"
+          },
+          "column": "description",
+          "quote": "was repulsed by two black regiments"
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "when at sunrise we advanced to feel of them, they had disappeared."
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "actively engaged about five and a half hours."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 165 total; the live field reads 166 (US 26; CS 140). Butler gives Union losses of 1 killed, 20 wounded and 2 missing, and says the enemy left about 20 dead and 19 prisoners. Wild's loss line is garbled but begins '2 killed'; he found about two dozen dead and brought in 6 wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Butler's 1 killed and Wild's 2 killed differ; the Confederate total is not established by these reports.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA056"
+          },
+          "column": "casualties_text",
+          "quote": "165 total"
+        },
+        {
+          "source_id": "nps-va056-v1",
+          "locator": "Estimated Casualties",
+          "quote": "166 total (US 26; CS 140;)"
+        },
+        {
+          "source_id": "or36-2-butler-wilsons-wharf-selections-v1",
+          "section": "butler-1864-05-25",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "Our w loss is 1 man killed, 20 wounded, and 2 missing."
+        },
+        {
+          "source_id": "or36-2-butler-wilsons-wharf-selections-v1",
+          "section": "butler-1864-05-25",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "We took 19 prisoners"
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "Our loss is 2 killed"
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "There we found about two dozen killed"
+        },
+        {
+          "source_id": "or36-2-wild-wilsons-wharf-selections-v1",
+          "section": "wild-1864-05-25",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "We brought in 6 wounded rebels ;"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Hinks's and Swain's reports (read, not selected; Swain's garbled line appears to give the enemy's strength), any Confederate report and the returns remain deferred. Humphreys mentions Wilson's Wharf only as a May 5 landing place.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan, and it shares headquarters papers with Meade's and Sheridan's reports. Meade's, Sheridan's, Hampton's, Butler's and Wild's reports, printed in Official Records Series I, Volume XXXVI, Parts 1 and 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

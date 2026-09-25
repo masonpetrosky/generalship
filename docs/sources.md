@@ -68,6 +68,19 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Overland Campaign first pass (cohort v2), 2026-09-25
+
+The [first pass](research/overland-first-pass-v1.md) adds **34 records**:
+
+- eleven NPS HTML/text pairs;
+- Humphreys, *The Virginia Campaign of '64 and '65* (1883): catalog metadata, full OCR and one
+  selection;
+- Official Records Series I, Volume XXXVI, Parts 1 and 2: catalog metadata and full OCR for each;
+- five report selections: Meade, Sheridan and Hampton from Part 1, and Butler and Wild from Part 2.
+
+The registry is now **643 entries / 622 raw paths**, preserving the previous **609/588**. No model
+inputs are changed.
+
 ### Best-estimate ledger, 2026-09-25
 
 One record is added: `livermore-transcription-v1`, a manual transcription of the Livermore

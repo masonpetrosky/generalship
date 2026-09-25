@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA055",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen North Anna record (May 23-26, 1864) in Grant's Overland Campaign [May-June 1864]. The May 21 Spotsylvania rear-guard action and the Milford crossing precede it, and Wilson's Wharf (VA056, May 24) is a separate record on the James. Campaign-wide marches, captures, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Armies and the live field zero. Humphreys lists reinforcements reaching Lee at Hanover Junction: Hoke's brigade at 1,200 effective (Taylor), Breckinridge most probably 2,500, and Pickett 5,000 by the best information, 8,700 muskets in all; he disputes Badeau's 9,162 for Pickett. He estimates Hancock's force at not over 24,000 infantry and says Lee might have attacked it with about 36,000.",
+      "rationale": "Reinforcements and Humphreys' estimates, not opening strengths; the Pickett figures conflict. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA055"
+          },
+          "column": "forces_text",
+          "quote": "Armies"
+        },
+        {
+          "source_id": "nps-va055-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "Its effective force is put down by Colonel Taylor, Adjutant-General of Lee’s army, at 1,200."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "The effective total of infantry with General Breckinridge was, most probably, 2,500."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "his effective total being, according to the best in¬ formation, 5,000."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "shows his present for duty at that time to have been 9,162,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.125 (OCR page markers; not checked against print)",
+          "quote": "amounted to 8,700 muskets and probably 600 officers."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "did not probably exceed 24,000 officers and enlisted men of infantry."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "Lee might have attacked Hancock with about 36,000 officers and enlisted men of infantry ;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "river-and-inverted-line",
+      "dimension": "terrain",
+      "value": "Humphreys says the banks at Jericho Mills were high and precipitous, and that Lee's well-chosen line, resting on Little River and the North Anna, left the two Union wings separated so the river had to be crossed twice to reinforce, while Lee could reinforce in a third of the time. NPS calls it the 'hog snout line' that forced Grant to divide his army.",
+      "rationale": "The river predates the battle; Lee's line was built during the operations. Not tagged; no map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "The banks of the river were high and precipitous and the road on both sides very rough, consisting of a series of rocky steps."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "The position of Lee’s army, we now soe, was well chosen."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "but the river Jiad to be crossed twice to reinforce one part from the other."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "Lee could re¬ inforce a point attacked in one-tliird of the time that Meade could reinforce at the same point."
+        },
+        {
+          "source_id": "nps-va055-v1",
+          "locator": "Description",
+          "quote": "which forced Grant to divide his army into three parts in order to attack."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "railroads-and-bridges",
+      "dimension": "logistics",
+      "value": "Humphreys says Lee moved to cover the Virginia Central Railroad, which connected Richmond with the most fertile parts of Virginia, that a ponton bridge was laid at Jericho Mills, and that parts of both railroads were broken up on May 25 and 26.",
+      "rationale": "Movement and destruction statements from an interested history; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.123 (OCR page markers; not checked against print)",
+          "quote": "roads that connected Richmond with the most fertile parts of Virginia."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "The laying of a ponton bridge was at once commenced."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.133 (OCR page markers; not checked against print)",
+          "quote": "During the 25th and 26th portions of the Central and Fredericksburg railroads were broken up,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "maps-and-deception",
+      "dimension": "information",
+      "value": "Humphreys says Union maps were erroneous, especially near the North Anna, that Lee was probably still under the belief the army was moving east of the Mattapony, that Hill's corps was learned to be near at Jericho Mills, and that Wilson's demonstration gave Lee the intended impression of a move by the right.",
+      "rationale": "Attributed knowledge from an interested history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "Our maps were erroneous in many places, but especially so in the vicinity of the North Anna."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.123 (OCR page markers; not checked against print)",
+          "quote": "who must still have been under the belief that we were moving east of the Mattapony"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "It was learnt that Hill’s corps was near at hand,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.133 (OCR page markers; not checked against print)",
+          "quote": "gave General Lee the impression, as it was de¬ signed it should, that it was contemplated to move the Army of the Potomac by its right flank."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "strike-or-turn",
+      "dimension": "objectives",
+      "value": "Humphreys relays Venable's statement that Lee hoped to strike at the North Anna, and argues Lee could afford to attack only by surprise; NPS says Lee hoped to strike but was ill. Humphreys says the strength of Lee's position led to continuing the movement by the left flank.",
+      "rationale": "Stated or inferred aims from an interested history and a summary; Lee's illness is from NPS only.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "that he hoped to strike the blow at the North Anna,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "It was only by surprise at some exposed point that he could afford to attack."
+        },
+        {
+          "source_id": "nps-va055-v1",
+          "locator": "Description",
+          "quote": "Lee hoped to strike an offensive blow, but he was ill,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.133 (OCR page markers; not checked against print)",
+          "quote": "The strength of Lee’s position was such that it was determined to continue the movement by the left flank,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Meade, with Grant's sanction, directed Warren to cross at Jericho Mills, and that Hancock directed Birney's attack on the bridge-head works; Meade says Birney carried the works and saved the Telegraph road bridge. The frozen commanders are Grant, Meade and Lee; the live page lists Grant and 'Major General Robert Lee'.",
+      "rationale": "Direction is attributed as the sources state; no listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "General Meade, with the sanction of Gen¬ eral Grant, directed General Warren to cross the river with his whole corps."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.130 (OCR page markers; not checked against print)",
+          "quote": "about six o’clock General Hancock directed him to make the attempt."
+        },
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "Birney’s division, of the Second Corns carried some advanced works the enemy held on the north bank and secured intact the bridge of the Telegraph road."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA055",
+            "belligerent": "US",
+            "fullname": "Ulysses S. Grant"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA055",
+            "belligerent": "US",
+            "fullname": "George G. Meade"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA055",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-va055-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Humphreys says Hill's attack on Warren at Jericho Mills was repulsed with considerable loss, especially in prisoners; NPS says Grant withdrew both wings once the threat of Lee's position was revealed, and outflanked it downstream.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA055"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va055-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "having suffered considerable loss, es¬ pecially in prisoners."
+        },
+        {
+          "source_id": "nps-va055-v1",
+          "locator": "Description",
+          "quote": "Grant withdrew both wings of the army back across the North Anna River."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 4,000 total; the live field reads 5,140 (US 2,623; CS 2,517). Humphreys gives the medical director's 2,100 Army of the Potomac wounded for May 21–26, and the Medical and Surgical History's 223 killed, 1,460 wounded and 290 missing for May 23–27, preferring the former; he says the Jericho Mills killed and wounded were probably equal on both sides.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Humphreys' two Union figures cover different dates and categories.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA055"
+          },
+          "column": "casualties_text",
+          "quote": "4,000 total"
+        },
+        {
+          "source_id": "nps-va055-v1",
+          "locator": "Estimated Casualties",
+          "quote": "5140 total (US 2623; CS 2517;)"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.133 (OCR page markers; not checked against print)",
+          "quote": "from the 21st to the 26th of May, both days included, numbered 2,100,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.133 (OCR page markers; not checked against print)",
+          "quote": "223 killed, 1,460 wounded, 290 missing."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "north-anna",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "The loss in killed and wounded was probably equal on both sides."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Meade's North Anna paragraph is partly garbled in OCR. Lee's reports, Hill's, Warren's, Hancock's and Burnside's reports, and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan, and it shares headquarters papers with Meade's and Sheridan's reports. Meade's, Sheridan's, Hampton's, Butler's and Wild's reports, printed in Official Records Series I, Volume XXXVI, Parts 1 and 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

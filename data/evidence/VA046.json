@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA046",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Wilderness record (May 5-7, 1864) in Grant's Overland Campaign [May-June 1864]. Spotsylvania Court House (VA048) begins on May 8. Campaign-wide marches, captures, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen and live force fields read 162,920 (US 101,895; CS 61,025). Humphreys gives the Army of the Potomac 99,438 officers and men 'present for duty equipped' on the April 30 morning report, and the Ninth Corps, reported separately, 923 officers and 18,408 enlisted men present for duty on its April return, adding that all but 6,000 of its enlisted men had just entered the service. For Lee's army he uses the April 20 return (Third Corps 1,551 officers and 20,648 men; cavalry 467 and 7,932), Longstreet's two divisions' March 31 return and Taylor's estimate of 10,000, and reconstructs a May 1 total of not less than 61,953 officers and men.",
+      "rationale": "Returns of different dates (March 31, April 20 and 30) and scopes; Humphreys' Confederate total is his reconstruction from mixed returns and an estimate, and his Union figures separate the Ninth Corps. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA046"
+          },
+          "column": "forces_text",
+          "quote": "162,920 total (US 101,895; CS 61,025)"
+        },
+        {
+          "source_id": "nps-va046-v1",
+          "locator": "Forces Engaged",
+          "quote": "162920 total (US 101895; CS 61025;)"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "armies-spring-1864",
+          "locator": "p.14 (OCR page markers; not checked against print)",
+          "quote": "“present for duty equipped ,” on the 30th of April amounted to 99,438."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "armies-spring-1864",
+          "locator": "p.14 (OCR page markers; not checked against print)",
+          "quote": "the number present for duty was 923 officers and 18,408 enlisted men, with forty-two guns."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "armies-spring-1864",
+          "locator": "p.14 (OCR page markers; not checked against print)",
+          "quote": "all but 6,000 of the enlisted men of the Corps had just entered the service."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "armies-spring-1864",
+          "locator": "p.15 (OCR page markers; not checked against print)",
+          "quote": "Third Corps . . 1,551 20,648"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "armies-spring-1864",
+          "locator": "p.15 (OCR page markers; not checked against print)",
+          "quote": "Cavalry Corps . . 467 7,932"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "armies-spring-1864",
+          "locator": "p.16 (OCR page markers; not checked against print)",
+          "quote": "estimates the effective force of those two divisions when they rejoined the army at 10,000 enlisted men present for duty."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "armies-spring-1864",
+          "locator": "p.17 (OCR page markers; not checked against print)",
+          "quote": "making a grand aggregate of officers and enlisted men of infantry, artillery, and cavalry of 61,953, with probably two hundred and twenty-four guns."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "dense-forest",
+      "dimension": "terrain",
+      "value": "Humphreys says Wright's division was delayed forcing its way through dense scrubby pine and tangled undergrowth, that little of the combatants could be seen, and that no great battle had taken place before on such ground. Meade says the Sixth Corps made its way through the dense thicket toward evening; NPS says both sides tried to maneuver in the dense woods.",
+      "rationale": "The forest predates the engagement; the choice to fight there is not tagged. Narrative descriptions; no map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-opening",
+          "locator": "p.26 (OCR page markers; not checked against print)",
+          "quote": "met with such delay and difficulty in forcing its way through the dense scrubby pine and tangled undergrowth,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-close",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "But little of the combatants could be seen,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-close",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "no great battle ever took place before on such ground."
+        },
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.190 (OCR page markers; not checked against print)",
+          "quote": "Toward evening the’ Sixth Corps made its way through the dense thicket"
+        },
+        {
+          "source_id": "nps-va046-v1",
+          "locator": "Description",
+          "quote": "as both sides attempted to maneuver in the dense woods."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "intrenched-lines-may-7",
+      "dimension": "terrain",
+      "value": "Humphreys says the Confederates intrenched on the line Griffin had first held, and that on May 7 Lee's position was found well intrenched, with artillery, behind a tangled forest; Meade says Hancock found the enemy in a strong intrenched line near Parker's Store.",
+      "rationale": "Works built during the engagement; not tagged as inherited.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-opening",
+          "locator": "p.26 (OCR page markers; not checked against print)",
+          "quote": "where they at once intrenched."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-close",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "which was found to be well intrenched :"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-close",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "covered by a tangled forest that inevitably disordered the attacking forces as they ad¬ vanced, was not judicious ;"
+        },
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.190 (OCR page markers; not checked against print)",
+          "quote": "found him in a strong intrenched line near Parker’s Store,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "trains-and-crossing",
+      "dimension": "logistics",
+      "value": "Meade lists a large park of supply wagons under Ingalls and says the supply trains were assembled at Richardsville. Humphreys says the trains had an infantry guard of 1,200 men from each infantry corps, that not all the great trains could cross on the 4th, and that the halting places were fixed so the trains could pass securely. On May 7 the Germanna bridge was relaid at Ely's Ford for the ambulance train with the wounded.",
+      "rationale": "Movement and transport statements from an interested history and report; no transport return inspected.",
+      "citations": [
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.188 (OCR page markers; not checked against print)",
+          "quote": "also a large park of supply wagons under the charge of Brig. Gen. Rufus Ingalls, chief quartermaster."
+        },
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.189 (OCR page markers; not checked against print)",
+          "quote": "The park of supply trains was assembled at Richardsville,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-opening",
+          "locator": "p.19 (OCR page markers; not checked against print)",
+          "quote": "had an infantry guard of 1,200 men from each infantry corps."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-opening",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "It was not practicable, however, to get over all the great trains on the 4th,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-opening",
+          "locator": "p.20 (OCR page markers; not checked against print)",
+          "quote": "as it made the passage of the trains secure,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-close",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "for the passage of the ambulance train containing the wounded,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "contact-reports",
+      "dimension": "information",
+      "value": "Humphreys says Wilson reported at 5 a.m. that his pickets saw nothing new, that at 7.15 a.m. Warren reported enemy infantry on the pike about two miles from Wilderness Tavern, and that Wilson's parties had indicated the Confederate corps were no further advanced than in November. Meade says information was received that the enemy had appeared on the Orange pike.",
+      "rationale": "Attributed reports from an interested history and report; the order and message chain was not inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-opening",
+          "locator": "p.24 (OCR page markers; not checked against print)",
+          "quote": "At 5 a.m. General Wilson had reported his command mov¬ ing toward the Catharpin road, and that his pickets re¬ ported nothing new from the enemy that morning."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-opening",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "informing him that the enemy’s infantry was on the pike in some force about two miles from the Wilderness tavern."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-opening",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "though the reports from General Wilson’s par¬ ties indicated that these corps were no further advanced than they had been on that occasion."
+        },
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.189 (OCR page markers; not checked against print)",
+          "quote": "mation was received that the enemy had appeared on the Orange"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "turning-movement-and-lee-instructions",
+      "dimension": "objectives",
+      "value": "Meade says it had been determined to turn the enemy's right flank to avoid the Mine Run intrenchments. Humphreys says Lee told Ewell it was preferred not to bring on a general engagement before Longstreet came up, that Grant did not intend or wish to fight in the Wilderness, and that on May 7 Grant decided to continue by the left flank toward a general engagement in more open country.",
+      "rationale": "Stated aims from an interested report and history; Humphreys argues against Badeau's reading of Grant's intent.",
+      "citations": [
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.189 (OCR page markers; not checked against print)",
+          "quote": "It having been determined to turn well the enemv’s right flank to avoid the intrenchments of Mine Run,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-opening",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "was informed that it was preferred not to bring on a general engagement before General Longstreet came up."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-close",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "I do not perceive that there is anything to induce the belief that General Grant intended or wished to fight a battle in the Wilderness."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-close",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "General Grant therefore decided to continue the movement by the left flank, with a view to a general engagement in the more open country."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Meade, on learning of Ewell's approach, directed Warren to halt and attack with his whole force, and that Grant and Meade remained on a knoll near Wilderness Tavern during the battle. Meade writes that the lieutenant-general directed the movement and advised him that Burnside's Ninth Corps was ordered up. The frozen commanders are Lieutenant General Grant and Major General Meade (US) and General Lee (CS); the live page lists Grant and 'Major General Robert Lee' and omits Meade.",
+      "rationale": "Direction is attributed as the sources state; the live rank for Lee is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-opening",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "A few minutes later General Meade was with General Warren, and at once directed him to halt his column and attack the enemy with his whole force."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-opening",
+          "locator": "p.24 (OCR page markers; not checked against print)",
+          "quote": "on this knoll General Grant and General Meade remained during the battle,"
+        },
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.189 (OCR page markers; not checked against print)",
+          "quote": "The lieutenant-general commanding having directed a movement to turn the enemy s right flank"
+        },
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.190 (OCR page markers; not checked against print)",
+          "quote": "I was advised by the lieu- tenant-general commanding that the Ninth Corps, Major-General Burnside, was ordered up"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA046",
+            "belligerent": "US",
+            "fullname": "Ulysses S. Grant"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA046",
+            "belligerent": "US",
+            "fullname": "George G. Meade"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA046",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-va046-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive (Grant continued his offensive); the live result reads Indecisive and NPS calls the battle a tactical draw. Meade says the fighting of May 6 substantially ended the battle, the enemy having withdrawn from Hancock's front on May 7 into a strong intrenched line; NPS says the Federals advanced by the left flank toward Spotsylvania on May 7.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA046"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive (Grant continued his offensive.)"
+        },
+        {
+          "source_id": "nps-va046-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-va046-v1",
+          "locator": "Description",
+          "quote": "The battle was a tactical draw."
+        },
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.190 (OCR page markers; not checked against print)",
+          "quote": "This substantially terminated the battle of the Wilderness,,"
+        },
+        {
+          "source_id": "or36-1-meade-overland-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.190 (OCR page markers; not checked against print)",
+          "quote": "Hancock advancing found the enemy had with- drawn from his immediate front,"
+        },
+        {
+          "source_id": "nps-va046-v1",
+          "locator": "Description",
+          "quote": "On May 7, the Federals advanced by the left flank toward the crossroads of Spotsylvania Courthouse."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 29,800 (US 18,400; CS 11,400); the live field reads 28,800 (US 18,000; CS 10,800). Humphreys, combining regimental killed and missing with the medical director's wounded and Burnside's report, gives the Army of the Potomac and Ninth Corps 2,265 killed, 10,220 wounded and 2,902 missing (15,387), and estimates that 200 wounded perished in the fires. He gives the Medical and Surgical History's Confederate figures of 2,000 killed, 6,000 wounded and 3,400 missing, noting that their authority is not given, and Ewell's report of 1,250 killed and wounded in his corps.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Humphreys' Union total is his own combination of differently sourced components.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA046"
+          },
+          "column": "casualties_text",
+          "quote": "29,800 total (US 18,400; CS 11,400)"
+        },
+        {
+          "source_id": "nps-va046-v1",
+          "locator": "Estimated Casualties",
+          "quote": "28800 total (US 18000; CS 10800;)"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-close",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "2,265 killed, 10,220 wounded, and 2,902 miss¬ ing. Total, 15,387."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-close",
+          "locator": "p.54 (OCR page markers; not checked against print)",
+          "quote": "it is estimated that 200 of our wounded perished in the flames and smoke."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-close",
+          "locator": "p.54 (OCR page markers; not checked against print)",
+          "quote": "the casualties in the Army of Northern Virginia were 2,000 killed, 6,000 wounded, and 3,400 missing."
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-close",
+          "locator": "p.54 (OCR page markers; not checked against print)",
+          "quote": "The authority for this statement is not given,"
+        },
+        {
+          "source_id": "humphreys-overland-selections-v1",
+          "section": "wilderness-close",
+          "locator": "p.54 (OCR page markers; not checked against print)",
+          "quote": "states that his killed and wounded in the Wilderness numbered 1,250."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Grant's report (No. 1), Lee's reports (No. 273), the corps and division reports, the compiled casualty returns, Meade's casualty inclosure (garbled in OCR) and Humphreys' Appendices A–C remain deferred. The middle of Humphreys' Chapter II (pp.26–52, May 5–6 fighting) was not read.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan, and it shares headquarters papers with Meade's and Sheridan's reports. Meade's, Sheridan's, Hampton's, Butler's and Wild's reports, printed in Official Records Series I, Volume XXXVI, Parts 1 and 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

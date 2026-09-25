@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA066",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Saint Mary's Church (Samaria Church) record (June 24, 1864) in Grant's Overland Campaign [May-June 1864]. The June 23 picket fight at the Chickahominy crossing precedes it; Trevilian Station (VA099) is earlier in the same raid. Campaign-wide marches, captures, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Divisions and the live field zero. Sheridan says Gregg was attacked by the entire cavalry corps of the enemy while Torbert escorted the trains. Hampton names Gary's and Chambliss's brigades and Wickham's, under Fitzhugh Lee, in the attack, with Lomax left holding the river road.",
+      "rationale": "Sheridan's 'entire cavalry corps' and Hampton's detachment of Lomax conflict; no counts. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA066"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va066-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.799 (OCR page markers; not checked against print)",
+          "quote": "At Saint Mary’s Church Gregg was attacked by the entire cavalry corps of the enemy,"
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1096 (OCR page markers; not checked against print)",
+          "quote": "I ordered Brigadier-General Gary, who joined me that morning,"
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1096 (OCR page markers; not checked against print)",
+          "quote": "General Lee left Lomax to hold the river road and brought Wickham to join in the attack."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "union-works",
+      "dimension": "terrain",
+      "value": "Hampton says the enemy had thrown up strong works along his whole line and held a strong position; Sheridan says Gregg was on the road to Saint Mary's Church covering the train's right flank.",
+      "rationale": "Works built during the engagement; no map verification.",
+      "citations": [
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1096 (OCR page markers; not checked against print)",
+          "quote": "The enemy had in the mean time thrown up strong works along his whole line, and his position was a strong one."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.799 (OCR page markers; not checked against print)",
+          "quote": "who had marched on the road leading to Saint Mary’s Church for the purpose of protecting the right flank of the train,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "wagon-train",
+      "dimension": "logistics",
+      "value": "Sheridan says he was escorting a train of over 900 wagons from White House, which the engagement saved and which should never have been left to the cavalry; NPS says he fought to protect a long supply train.",
+      "rationale": "Transport statements from the Union commander and a summary; no return inspected.",
+      "citations": [
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.798 (OCR page markers; not checked against print)",
+          "quote": "making my arrangements to carry over and protect a train of over 900 wagons,"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.799 (OCR page markers; not checked against print)",
+          "quote": "This very creditable engagement saved the train,"
+        },
+        {
+          "source_id": "nps-va066-v1",
+          "locator": "Description",
+          "quote": "Sheridan fought a delaying action to protect a long supply train under his protection,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "advance-warning",
+      "dimension": "information",
+      "value": "Sheridan says prisoners told him Chambliss's brigade was the advance of the enemy's cavalry corps and had advised Hampton of the crossing; Hampton says he took position fearing Sheridan might pass up the James.",
+      "rationale": "Attributed knowledge from interested commanders.",
+      "citations": [
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.798 (OCR page markers; not checked against print)",
+          "quote": "and through it Hampton had been advised o our having already secured the crossing of the Chickahominy."
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1096 (OCR page markers; not checked against print)",
+          "quote": "Fearing that he might pass up the James River, through Charles City Court-House and Westover,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "intercept-and-escort",
+      "dimension": "objectives",
+      "value": "Hampton says he determined to attack, his operations aiming to defeat Sheridan's movement in the Confederate rear; NPS says Hampton tried to cut off Sheridan's cavalry. Sheridan says Gregg was to hold until the transportation passed Charles City Court-House.",
+      "rationale": "Stated aims from interested commanders and a summary.",
+      "citations": [
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1096 (OCR page markers; not checked against print)",
+          "quote": "I de- termined to attack him,"
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1097 (OCR page markers; not checked against print)",
+          "quote": "which had for their object the defeat of Sheridan’s movement in our rear."
+        },
+        {
+          "source_id": "nps-va066-v1",
+          "locator": "Description",
+          "quote": "Hampton's cavalry attempted to cut off Sheridan's cavalry returning from their raid to Trevilian Station."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.799 (OCR page markers; not checked against print)",
+          "quote": "was instructed to hold fast until all the transportation could pass Charles City Court-House."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Hampton says the whole line charged under the immediate command of Fitzhugh Lee, and credits Chambliss and Gary. Sheridan criticizes the order leaving the train to the cavalry. The frozen commanders are Major Generals Hampton and Sheridan; the live page gives Hampton as Lieutenant General.",
+      "rationale": "Roles attributed as stated; the live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1097 (OCR page markers; not checked against print)",
+          "quote": "the whole line, under the immediate command of Maj. Gen. Fitzhugh Lee, charged the works of the enemy,"
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1097 (OCR page markers; not checked against print)",
+          "quote": "both of these com- mands contributing largely to the success at Samaria [Saint Mary’s] Church."
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.799 (OCR page markers; not checked against print)",
+          "quote": "which should never have been left for the cavalry to escort."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA066",
+            "belligerent": "US",
+            "fullname": "Philip Sheridan"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA066",
+            "belligerent": "Confederate",
+            "fullname": "Wade Hampton"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va066-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant General Wade Hampton [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Sheridan says Gregg fought until after dark and retired in some confusion without loss of material, saving the train; Hampton says the enemy was completely routed and pursued to within 2½ miles of Charles City Court-House.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The commanders' characterizations conflict.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA066"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va066-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or36-1-sheridan-overland-selections-v1",
+          "section": "sheridan-1866-05-13-trevilian-and-saint-marys",
+          "locator": "p.799 (OCR page markers; not checked against print)",
+          "quote": "was forced to retire in some confusion but without any loss m material."
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1097 (OCR page markers; not checked against print)",
+          "quote": "The enemy was completely routed and were pursued to within 2-J miles of Charles City Court-House,"
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1097 (OCR page markers; not checked against print)",
+          "quote": "and was routed at Samaria [Saint Mary’s] Church."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 630 total; the live field reads zero. Hampton gives 157 prisoners taken and his own division's loss as 6 killed and 59 wounded, the other commands' losses not having reached him. Sheridan's inspected passages give no count.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Hampton's figure covers his own division only.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA066"
+          },
+          "column": "casualties_text",
+          "quote": "630 total"
+        },
+        {
+          "source_id": "nps-va066-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1097 (OCR page markers; not checked against print)",
+          "quote": "We captured 157 prisoners, including 1 colonel and 12 com- missioned officers,"
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1097 (OCR page markers; not checked against print)",
+          "quote": "My loss was 6 killed and 59 wounded in my own division."
+        },
+        {
+          "source_id": "or36-1-hampton-trevilian-selections-v1",
+          "section": "hampton-1864-07-09",
+          "locator": "p.1097 (OCR page markers; not checked against print)",
+          "quote": "The reports of losses from the other commands have not been sent to me."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Gregg's, Fitzhugh Lee's, Chambliss's and Gary's reports, the revised return for Sheridan's second expedition (p.186) and Humphreys' Chapter VIII remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan, and it shares headquarters papers with Meade's and Sheridan's reports. Meade's, Sheridan's, Hampton's, Butler's and Wild's reports, printed in Official Records Series I, Volume XXXVI, Parts 1 and 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
