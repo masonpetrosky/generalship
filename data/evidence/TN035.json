@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN035",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Spring Hill record (November 29, 1864) in the Franklin-Nashville Campaign [September-December 1864]. It falls within the Columbia record's interval (TN034, November 24-29) and precedes Franklin (TN036). Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads the IV and XXIII Corps against the Army of Tennessee with no numbers; the live field reads zeros. Cox says Stanley went to Spring Hill with Wagner's division alone, with six batteries under Bridges, that Bradley's brigade was too isolated to hold alone, and that the Confederates were made to believe they faced a superior force. Hood says he crossed Duck River with Stewart's and Cheatham's corps and Johnson's division in light marching order with one battery to a corps, leaving Lee's other two divisions at Columbia.",
+      "rationale": "Formations only; no inspected passage gives numbers for the forces at Spring Hill. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN035"
+          },
+          "column": "forces_text",
+          "quote": "IV and XXIII Army Corps [US]; Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-tn035-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.71 (OCR page markers; not checked against print)",
+          "quote": "let Stanley proceed to Spring Hill with Wag- ner's division alone."
+        },
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.75 (OCR page markers; not checked against print)",
+          "quote": "had followed Stanley's march with six batteries,"
+        },
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.76 (OCR page markers; not checked against print)",
+          "quote": "Bradley's position had been too isolated to be held by a single brigade against so extended a line of battle,"
+        },
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.76 (OCR page markers; not checked against print)",
+          "quote": "that they were made to believe they were in the presence of a superior force."
+        },
+        {
+          "source_id": "or45-1-hood-tennessee-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.652 (OCR page markers; not checked against print)",
+          "quote": "followed early in the morning of the 29th with Stewart’s and Cheatham’s corps, and Johnson’s division, of Lee’s corps,"
+        },
+        {
+          "source_id": "or45-1-hood-tennessee-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.652 (OCR page markers; not checked against print)",
+          "quote": "with only a battery to the corps,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "village-heights",
+      "dimension": "terrain",
+      "value": "Cox says Bridges placed his guns on a commanding bench just west of the road and Bradley's brigade on a wooded hill three-fourths of a mile east of the turnpike commanding the approaches, and that Cleburne did not seem aware of Bradley's position. Hood says Stewart's corps, sent in the dark to cross the pike, did not reach the position desired.",
+      "rationale": "Ground predates the action; the positions chosen on it were commander decisions and are not tagged.",
+      "citations": [
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.75 (OCR page markers; not checked against print)",
+          "quote": "put his guns in battery on a commanding bench just west of the road,"
+        },
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.75 (OCR page markers; not checked against print)",
+          "quote": "advanced Bradley's brigade to a wooded hill about three-fourths of a mile east of the turnpike, which commanded the approaches from that direc- tion."
+        },
+        {
+          "source_id": "or45-1-hood-tennessee-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.653 (OCR page markers; not checked against print)",
+          "quote": "In the dark and confusion he did not succeed in getting the position desired,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "trains-and-pontoons",
+      "dimension": "logistics",
+      "value": "Cox says the army's wagon trains had been ordered to Spring Hill and Stanley arrived about noon just in time to prevent their capture, and that Hood's infantry crossed on the pontoon bridge at Davis's Ford after daylight. Hood says his cavalry could not break through the strongly guarded trains and that the Union trains obstructed the road for fifteen miles during the day and much of the night.",
+      "rationale": "Movement and transport statements from an interested history and report; no transport return inspected.",
+      "citations": [
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.71 (OCR page markers; not checked against print)",
+          "quote": "The wagon trains of the army had been ordered to Spring Hill, and Stanley reached that place about noon, and just in time to prevent their capture by the enemy's cavalry."
+        },
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "crossed soon after daylight in the morning upon the pontoon bridge at Davis's Ford,"
+        },
+        {
+          "source_id": "or45-1-hood-tennessee-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.652 (OCR page markers; not checked against print)",
+          "quote": "but his trains were so strongly guarded that they were unable to break through them."
+        },
+        {
+          "source_id": "or45-1-hood-tennessee-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.653 (OCR page markers; not checked against print)",
+          "quote": "showing that his trains obstructed the road for fifteen miles during the day and a great part of the night."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "night-march-knowledge",
+      "dimension": "information",
+      "value": "Cox says Wilson's evening dispatch misled Schofield about Forrest's purposes, leaving him without means of learning Hood's movements except by infantry reconnaissance, and that the Union columns marched past within sight of the Confederate camp-fires. Hood says that about midnight he learned the enemy was moving in great confusion and that it moved within hearing nearly all night.",
+      "rationale": "Attributed knowledge from an interested history and report; the orders and dispatches were not inspected.",
+      "citations": [
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.72 (OCR page markers; not checked against print)",
+          "quote": "shows that he was misled as to Forrest's pur- poses."
+        },
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "without the means of learning Hood's movements except from his infantry recon- noissances."
+        },
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "our columns marched by in full view of the enemy's camp-fires, which were burning less than half a mile away."
+        },
+        {
+          "source_id": "or45-1-hood-tennessee-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.653 (OCR page markers; not checked against print)",
+          "quote": "About 12 p. m., ascertaining that the enemy was moving in great confusion,"
+        },
+        {
+          "source_id": "or45-1-hood-tennessee-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.653 (OCR page markers; not checked against print)",
+          "quote": "within hearing nearly all the night."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "seize-the-pike",
+      "dimension": "objectives",
+      "value": "Hood says his object was to turn the Union flank and cut off the force at Columbia by placing troops across the Columbia and Franklin pike at or near Spring Hill, and that Cheatham was ordered to attack at once and take the pike. NPS says the aim was to get astride Schofield's line of communication. Cox says Schofield held on at Columbia to finish obstructing the fords and to ship artillery.",
+      "rationale": "Stated aims from interested reports and a modern summary.",
+      "citations": [
+        {
+          "source_id": "or45-1-hood-tennessee-selections-v1",
+          "section": "hood-1864-12-11",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "by placing the troops across this pike at or near Spring Hill to cut off' that portion of the enemy."
+        },
+        {
+          "source_id": "or45-1-hood-tennessee-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.652 (OCR page markers; not checked against print)",
+          "quote": "Major-General Cheatham was ordered to attack the enemy at once vigorously and get possession of this pike,"
+        },
+        {
+          "source_id": "nps-tn035-v1",
+          "locator": "Description",
+          "quote": "to get astride Maj. Gen. John M. Schofield's Union army's life line."
+        },
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.71 (OCR page markers; not checked against print)",
+          "quote": "Scho- field needed time for Euger to complete his work at the fords below,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Hood says Cheatham, despite repeated orders, made 'but a feeble and partial attack', and in December wrote that Cheatham had confessed the error and taken all blame. Cox says Hood 'sought to shift the responsibil- ity' onto Cheatham, that a commander present with the head of column could have enforced his orders directly, and that Schofield personally led Ruger's division to Stanley's support. The frozen commanders are General Hood and Major General Schofield.",
+      "rationale": "The two families assign responsibility for the missed opportunity differently; both attributions are preserved. No listed commander receives automatic sole credit or blame.",
+      "citations": [
+        {
+          "source_id": "or45-1-hood-tennessee-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.652 (OCR page markers; not checked against print)",
+          "quote": "he made but a feeble and partial attack, failing to reach the point indi¬ cated."
+        },
+        {
+          "source_id": "or45-1-hood-tennessee-selections-v1",
+          "section": "hood-1864-12-11",
+          "locator": "p.657 (OCR page markers; not checked against print)",
+          "quote": "Major-General Cheatham has frankly confessed the great error of which he was guilty, and attaches all blame to himself."
+        },
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "Here, as at Atlanta, Hood sought to shift the responsibil- ity for his failure upon a subordinate,"
+        },
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.80 (OCR page markers; not checked against print)",
+          "quote": "has the means of enforcing his orders by direct com- mands to the divisions."
+        },
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.77 (OCR page markers; not checked against print)",
+          "quote": "led its two bri- gades in person by a rapid march to Stanley's support."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN035",
+            "belligerent": "Confederate",
+            "fullname": "John Bell Hood"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN035",
+            "belligerent": "US",
+            "fullname": "John M. Schofield"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS says the Federals repulsed a piecemeal attack in late afternoon and the rest of Schofield's command passed through Spring Hill to Franklin in the night. Hood calls it the loss of 'the greatest' opportunity of the campaign. Cox says Wagner's division held Spring Hill until the trains and troops were in motion.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN035"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tn035-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-tn035-v1",
+          "locator": "Description",
+          "quote": "In late afternoon, the Federals repulsed a piecemeal Confederate infantry attack."
+        },
+        {
+          "source_id": "or45-1-hood-tennessee-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.653 (OCR page markers; not checked against print)",
+          "quote": "Thus was lost a great opportunity of striking the enemy for which we had labored so long"
+        },
+        {
+          "source_id": "cox-franklin-nashville-selections-v1",
+          "section": "spring-hill",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "Wagner's division was kept in position at Spring Hill till the trains and all the other troops were in movement,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads 850 (US 350; CS 500). No inspected passage gives a count for Spring Hill.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live figure's source is not stated.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN035"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-tn035-v1",
+          "locator": "Estimated Casualties",
+          "quote": "850 total (US 350; CS 500;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Stanley's No. 9, Wagner's, Bradley's and Opdycke's reports, Schofield's report, Forrest's No. 252 account of Spring Hill (read in the Murfreesborough selection's source but not cited here), Cheatham's and Cleburne's division reports and Cheatham's 1881 paper cited by Cox remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Jacob D. Cox's The March to the Sea; Franklin and Nashville (1882) is an interested history by the commander of the Twenty-third Corps' Third Division (and, at Franklin, of both divisions of that corps) that draws on official papers. Corse's, French's, R. S. Granger's, Doolittle's, Sinclair's, Forrest's, Hood's and Rousseau's reports, printed in Official Records Series I, Volumes XXXIX part 1 and XLV part 1, are separate families of interested accounts; each volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN037",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Murfreesboro record (December 5-7, 1864) in the Franklin-Nashville Campaign [September-December 1864]. Bate's December 4 attack on the Overall's Creek block-house precedes the record, and the Nashville record (TN038) begins December 15. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads approx. 8,000 in the District of Tennessee against Forrest's cavalry, Bate's division and Sears's and Palmer's brigades, 6,500-7,000; the live field reads 14,750 (US 8,000; CS 6,750). Rousseau's December 8 dispatch says the enemy was reinforced on the 5th by two brigades of infantry and 2,500 of Forrest's cavalry; his December 12 dispatch says 2,500 cavalry and two divisions of infantry. Rousseau sent Milroy out on the 7th with seven regiments and a battery. Forrest says he moved with Buford's and Jackson's divisions, leaving 250 men to picket, and was joined by Bate's division and, on the 6th, by Sears's and Palmer's brigades.",
+      "rationale": "Rousseau's two dispatches differ (brigades against divisions); no inspected passage gives Forrest's own numbers or the garrison's. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN037"
+          },
+          "column": "forces_text",
+          "quote": "District of Tennessee (forces in Murfreesboro area; approx. 8,000) [US]"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN037"
+          },
+          "column": "forces_text",
+          "quote": "(6,500-7,000) [CS]"
+        },
+        {
+          "source_id": "nps-tn037-v1",
+          "locator": "Forces Engaged",
+          "quote": "14750 total (US 8000; CS 6750;)"
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-08",
+          "locator": "p.613 (OCR page markers; not checked against print)",
+          "quote": "the enemy were re-enforced by two brigades of infantry and 2,500 of Forrest’s cavalry,"
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-12",
+          "locator": "p.614 (OCR page markers; not checked against print)",
+          "quote": "He was re-enforced by Forrest with 2,500 cavalry and two divisions of infantry."
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-08",
+          "locator": "p.613 (OCR page markers; not checked against print)",
+          "quote": "I sent General Milroy, with seven regi¬ ments and a battery,"
+        },
+        {
+          "source_id": "or45-1-forrest-murfreesborough-selections-v1",
+          "section": "forrest-1865-01-24",
+          "locator": "p.755 (OCR page markers; not checked against print)",
+          "quote": "to move with Buford’s and Jackson’s divisions to Murfreesborough, and to leave 250 men on the right to picket"
+        },
+        {
+          "source_id": "or45-1-forrest-murfreesborough-selections-v1",
+          "section": "forrest-1865-01-24",
+          "locator": "p.755 (OCR page markers; not checked against print)",
+          "quote": "On the evening of the 6th I was re-enforced by Sears’ and Palmer’s brigades of infantry."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fortress-and-wilkinson-pike",
+      "dimension": "terrain",
+      "value": "NPS says Forrest drove the garrison into the Fortress Rosecrans fortifications. Rousseau says Milroy found the enemy on the Wilkinson pike behind breastworks of logs and rails, near the Stones River battlefield. Forrest says he withdrew to the Wilkinson pike and formed a new line 'on a more favorable position'.",
+      "rationale": "The fortress predates the operations; the log breastworks and the new Confederate line were made during them and are not inherited.",
+      "citations": [
+        {
+          "source_id": "nps-tn037-v1",
+          "locator": "Description",
+          "quote": "driving the Yankees into their Fortress Rosencrans fortifications,"
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-08",
+          "locator": "p.613 (OCR page markers; not checked against print)",
+          "quote": "The enemy was encountered on the Wilkinson pike behind breast-works made of logs and rails,"
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-08",
+          "locator": "p.613 (OCR page markers; not checked against print)",
+          "quote": "being near where Negley’s command was formed at the battle of Stone’s River,"
+        },
+        {
+          "source_id": "or45-1-forrest-murfreesborough-selections-v1",
+          "section": "forrest-1865-01-24",
+          "locator": "p.755 (OCR page markers; not checked against print)",
+          "quote": "I withdrew my forces to the Wilkinson pike, and formed a new line on a more favorable position."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cut-communications",
+      "dimension": "logistics",
+      "value": "Rousseau writes on December 12 that the wires to Stevenson were down, that a train to Stevenson for supplies would carry his dispatch, and that he was subsisting off the country. NPS says Hood aimed at the railroad and the supply depot at Murfreesboro.",
+      "rationale": "Supply statements from an interested dispatch; no commissary return inspected.",
+      "citations": [
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-12",
+          "locator": "p.614 (OCR page markers; not checked against print)",
+          "quote": "Railroad train to Stevenson for supplies will take tms dispatch to be forwarded."
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-12",
+          "locator": "p.614 (OCR page markers; not checked against print)",
+          "quote": "I am subsisting off* the country, which I think I can do."
+        },
+        {
+          "source_id": "nps-tn037-v1",
+          "locator": "Description",
+          "quote": "disruption of the Union army supply depot at Murfreesboro would help his cause."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance",
+      "dimension": "information",
+      "value": "Rousseau says he sent Milroy out on the 7th 'Not knowing where the main body of the enemy was'. Forrest says he reconnoitred the works on the 6th and on the 7th saw the enemy moving out in strong force on the Salem pike, and was satisfied he meant to give battle.",
+      "rationale": "Attributed knowledge from interested reports.",
+      "citations": [
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-08",
+          "locator": "p.613 (OCR page markers; not checked against print)",
+          "quote": "Not knowing where the main body of the enemy was,"
+        },
+        {
+          "source_id": "or45-1-forrest-murfreesborough-selections-v1",
+          "section": "forrest-1865-01-24",
+          "locator": "p.755 (OCR page markers; not checked against print)",
+          "quote": "with which I made a careful reconnaissance of the enemy’s position and works."
+        },
+        {
+          "source_id": "or45-1-forrest-murfreesborough-selections-v1",
+          "section": "forrest-1865-01-24",
+          "locator": "p.755 (OCR page markers; not checked against print)",
+          "quote": "I discovered from the position occupied by Colonel Palmer the enemy moving out in strong force on the Salem pike,"
+        },
+        {
+          "source_id": "or45-1-forrest-murfreesborough-selections-v1",
+          "section": "forrest-1865-01-24",
+          "locator": "p.755 (OCR page markers; not checked against print)",
+          "quote": "Being fully satisfied that his object was to make battle,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "orders",
+      "dimension": "objectives",
+      "value": "Forrest says he received orders on the 4th to move on Murfreesborough and on the 6th ordered the infantry to move on the enemy's works. Rousseau sent Milroy to swing around and return along the woods west and northwest of the fortifications. NPS says Hood sought to destroy the Nashville and Chattanooga Railroad and disrupt the depot.",
+      "rationale": "Stated orders from interested reports and a modern summary.",
+      "citations": [
+        {
+          "source_id": "or45-1-forrest-murfreesborough-selections-v1",
+          "section": "forrest-1865-01-24",
+          "locator": "p.755 (OCR page markers; not checked against print)",
+          "quote": "On the morning of the 4tli 1 received orders to move with Buford’s and Jackson’s divisions to Murfreesborough,"
+        },
+        {
+          "source_id": "or45-1-forrest-murfreesborough-selections-v1",
+          "section": "forrest-1865-01-24",
+          "locator": "p.755 (OCR page markers; not checked against print)",
+          "quote": "I immediately ordered it in line of battle and to move upon the enemy’s works."
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-08",
+          "locator": "p.613 (OCR page markers; not checked against print)",
+          "quote": "with directions to swing around to right, returning parallel to the works along the line of the woods west and northwest of the fortifications."
+        },
+        {
+          "source_id": "nps-tn037-v1",
+          "locator": "Description",
+          "quote": "he decided that destruction of the Nashville & Chattanooga Railroad"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Rousseau says he sent Milroy with seven regiments, that 'The fight was well conducted by Major-General Milroy', and that he himself drove Buford's cavalry out of the town with a regiment and a section. Forrest says the infantry except Smith's brigade made 'a shameful retreat', that he and Bate tried and failed to rally them, that Armstrong's and Ross's cavalry checked the advance, and that his order to Buford to protect his left never reached him. The frozen commanders are Major General Forrest (CS), Major General Rousseau and Brigadier General Milroy (US); Rousseau styles Milroy Major-General.",
+      "rationale": "Direction is attributed as the reports state; Rousseau's style for Milroy is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-12",
+          "locator": "p.614 (OCR page markers; not checked against print)",
+          "quote": "The fight was well conducted by Major-General Milroy,"
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-08",
+          "locator": "p.613 (OCR page markers; not checked against print)",
+          "quote": "With a regiment of infantry tind a section of artillery I drove the enemy out of the town,"
+        },
+        {
+          "source_id": "or45-1-forrest-murfreesborough-selections-v1",
+          "section": "forrest-1865-01-24",
+          "locator": "p.755 (OCR page markers; not checked against print)",
+          "quote": "made a shameful retreat, losing two pieces of artillery."
+        },
+        {
+          "source_id": "or45-1-forrest-murfreesborough-selections-v1",
+          "section": "forrest-1865-01-24",
+          "locator": "p.755 (OCR page markers; not checked against print)",
+          "quote": "Major-General Bate did the same thing, but was equally as unsuccessful as myself."
+        },
+        {
+          "source_id": "or45-1-forrest-murfreesborough-selections-v1",
+          "section": "forrest-1865-01-24",
+          "locator": "p.756 (OCR page markers; not checked against print)",
+          "quote": "I ordered Brigadier-General Buford to protect my left flank, but he was so remote the order never reached him."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN037",
+            "belligerent": "Confederate",
+            "fullname": "Nathan Bedford Forrest"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN037",
+            "belligerent": "US",
+            "fullname": "Lovell H. Rousseau"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN037",
+            "belligerent": "US",
+            "fullname": "Robert Milroy"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Rousseau says the rout was complete; Forrest says his cavalry checked the Union advance, the infantry retired to Stewart's Creek, and when the enemy returned to Murfreesborough his cavalry resumed its former position. NPS calls the raid a minor irritation.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The commanders' characterizations conflict.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN037"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-tn037-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-12",
+          "locator": "p.614 (OCR page markers; not checked against print)",
+          "quote": "The rout was com¬ plete, infantry and cavalry running in every direction."
+        },
+        {
+          "source_id": "or45-1-forrest-murfreesborough-selections-v1",
+          "section": "forrest-1865-01-24",
+          "locator": "p.755 (OCR page markers; not checked against print)",
+          "quote": "thereby checking his farther advance."
+        },
+        {
+          "source_id": "or45-1-forrest-murfreesborough-selections-v1",
+          "section": "forrest-1865-01-24",
+          "locator": "p.755 (OCR page markers; not checked against print)",
+          "quote": "X ordered my cavalry to resume its former position."
+        },
+        {
+          "source_id": "nps-tn037-v1",
+          "locator": "Description",
+          "quote": "The raid on Murfreesboro was a minor irritation."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 422 (US 225; CS 197); the live field reads 422 (US 208; CS 214). Rousseau's December 8 dispatch gives the Wilkinson pike loss as about 30 killed and 175 wounded and 207 prisoners taken; his December 12 dispatch gives about 175 killed and wounded and 1 missing. For Buford's attack on the town he reports 30 enemy killed or wounded, 25 prisoners and one man of his own wounded. Forrest gives no count; he reports two guns lost.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Rousseau's two dispatches differ; the December 4 Overall's Creek losses (4 or 5 killed, 49 wounded) are outside the record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN037"
+          },
+          "column": "casualties_text",
+          "quote": "422 total (US 225; CS 197)"
+        },
+        {
+          "source_id": "nps-tn037-v1",
+          "locator": "Estimated Casualties",
+          "quote": "422 total (US 208; CS 214;)"
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-08",
+          "locator": "p.613 (OCR page markers; not checked against print)",
+          "quote": "Our loss was about 30 killed and 175 wounded."
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-08",
+          "locator": "p.613 (OCR page markers; not checked against print)",
+          "quote": "In this fight we captured 207 prisoners, including 18 commissioned officers."
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-12",
+          "locator": "p.614 (OCR page markers; not checked against print)",
+          "quote": "on Wilkinson’s pike about 175 killed and wounded, 1 missing."
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-12",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "wounding and killing 30 and taking 25 prisoners."
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-12",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "We lost one man wounded."
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-08",
+          "locator": "p.613 (OCR page markers; not checked against print)",
+          "quote": "Our loss in the affair was 4 killed and 49 wounded."
+        },
+        {
+          "source_id": "or45-1-rousseau-murfreesborough-selections-v1",
+          "section": "rousseau-1864-12-12",
+          "locator": "p.614 (OCR page markers; not checked against print)",
+          "quote": "Our loss in the fight at Over¬ all’s Creek was 5 killed and 49 wounded,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Milroy's No. 209 report (read at its opening), the regimental reports Nos. 210–222, Bate's No. 251 report, Sears's and Palmer's reports, the District of Tennessee returns (No. 3), Cox's Murfreesboro passage (pp.100–104, in the Nashville section; not cited here) and Jordan and Pryor's account remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Jacob D. Cox's The March to the Sea; Franklin and Nashville (1882) is an interested history by the commander of the Twenty-third Corps' Third Division (and, at Franklin, of both divisions of that corps) that draws on official papers. Corse's, French's, R. S. Granger's, Doolittle's, Sinclair's, Forrest's, Hood's and Rousseau's reports, printed in Official Records Series I, Volumes XXXIX part 1 and XLV part 1, are separate families of interested accounts; each volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

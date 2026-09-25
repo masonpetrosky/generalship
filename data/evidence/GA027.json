@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA027",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Waynesborough record (December 4, 1864) in the Savannah Campaign [November-December 1864]. Buck Head Creek (GA026, November 28) and the December 2-3 skirmishes at Rocky Creek and Thomas' Station precede it. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text names Kilpatrick's division against the cavalry command of the Army of Tennessee, with no numbers; the live field reads zeros. Kilpatrick moved in advance of Baird's infantry division and says Wheeler's corps consisted of four divisions and two independent brigades 'as has since been ascertained'. Wheeler says the enemy cavalry was at least double his numbers and reinforced by one or more infantry divisions, that most of his command had gone three miles for forage, and that 'their long lines of infantry advanced'.",
+      "rationale": "Formations and relative claims only; the two commanders disagree on whether infantry attacked. Kilpatrick's November 14 strength is recorded in the Buck Head Creek dossier (GA026). None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA027"
+          },
+          "column": "forces_text",
+          "quote": "3rd Cavalry Division, Military Division of the Mississippi [US]; Cavalry Command, Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-ga027-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "in advance of a division ot infantry under General Baird,"
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.365 (OCR page markers; not checked against print)",
+          "quote": "consisting of four divisions and two independent bri¬ gades, as has since been ascertained,"
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.410 (OCR page markers; not checked against print)",
+          "quote": "re-enforced by one or more divisions of infantry."
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.410 (OCR page markers; not checked against print)",
+          "quote": "Most of my command had necessarily been sent some three miles after forage."
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.410 (OCR page markers; not checked against print)",
+          "quote": "Finally their long lines of infantry advanced,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "barricade-lines",
+      "dimension": "terrain",
+      "value": "Kilpatrick says Wheeler's dismounted cavalry was strongly posted behind long lines of barricades with secure flanks, and at the town occupied a second line of barricades with artillery and flanks too extended to turn. Wheeler says his men hastily threw up barricades. NPS describes three lines of barricades, the last in the town.",
+      "rationale": "Barricades built during the action; not inherited.",
+      "citations": [
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.365 (OCR page markers; not checked against print)",
+          "quote": "strongly posted behind long lines of barricades, with their flanks well secured."
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.365 (OCR page markers; not checked against print)",
+          "quote": "Here he was found occupying a second line of barricades, with artil¬ lery,"
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.410 (OCR page markers; not checked against print)",
+          "quote": "We quickly concentrated and hastily thrcAc up barricades,"
+        },
+        {
+          "source_id": "nps-ga027-v1",
+          "locator": "Description",
+          "quote": "the Confederates fell back to a final line of barricades within the town."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forage-and-trains",
+      "dimension": "logistics",
+      "value": "Wheeler says most of his command had been sent three miles for forage when the attack came, and that for five months his command had been without wagons or cooking utensils. Kilpatrick ordered surplus animals and non-combatants to the wagon train before the attack.",
+      "rationale": "Forage and transport statements from interested reports; no return inspected.",
+      "citations": [
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.410 (OCR page markers; not checked against print)",
+          "quote": "Most of my command had necessarily been sent some three miles after forage."
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.412 (OCR page markers; not checked against print)",
+          "quote": "the last five months my commaiid has been without wagons or cooking utensils,"
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "to send surplus animals and all non-combatants to the Avagon"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-orders",
+      "dimension": "information",
+      "value": "Kilpatrick says he had orders from the general-in-chief to make a strong reconnaissance toward Waynesborough and engage Wheeler, and that the composition of Wheeler's corps was ascertained afterwards. Wheeler says he perceived after nightfall that the Union troops had resumed work on the railroad and attacked them about midnight.",
+      "rationale": "Attributed knowledge from interested reports.",
+      "citations": [
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "to make a strong reconnaissance in the direction of Waynesborough,"
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.365 (OCR page markers; not checked against print)",
+          "quote": "as has since been ascertained,"
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.410 (OCR page markers; not checked against print)",
+          "quote": "after night-fall that they had reconiiueiieed their Avork,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rout-the-cavalry",
+      "dimension": "objectives",
+      "value": "Kilpatrick says the command was to move in the morning to 'engage, defeat, and rout' the cavalry at Waynesborough; NPS says he set out to attack Waynesborough and destroy Wheeler's command. Wheeler says he stayed to protect Augusta and strike the enemy's flanks and rear.",
+      "rationale": "Stated aims from interested reports and a modern summary.",
+      "citations": [
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "and rout the rebel cavalry encamped at Waynesborough."
+        },
+        {
+          "source_id": "nps-ga027-v1",
+          "locator": "Description",
+          "quote": "He set out on the morning of December 4 to attack Waynesborough and destroy Joseph Wheeler's cavalry command."
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.410 (OCR page markers; not checked against print)",
+          "quote": "remained to protect Augusta and to strike his flanks and rear."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Kilpatrick says Atkins's first attack failed, after which he ordered the dismounted and mounted charges, and at the town decided to break Wheeler's centre with Murray's brigade. Wheeler says he directed the 8th Texas and 9th Tennessee Battalion to charge as his lines left their works. The frozen commanders are Major General Wheeler and Brigadier General H. Judson Kilpatrick; the live page lists 'Hugh Kilpatrick'.",
+      "rationale": "Direction is attributed as the reports state. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.365 (OCR page markers; not checked against print)",
+          "quote": "the first attack was a failure."
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.365 (OCR page markers; not checked against print)",
+          "quote": "I therefore determined to break his center."
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.410 (OCR page markers; not checked against print)",
+          "quote": "The moment our lines left our works I directed the Eighth Texas (Colonel Cook) and the Ninth Tennessee [Battalion] (Captain Bromley) to charge the enemy,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA027",
+            "belligerent": "Confederate",
+            "fullname": "Joseph Wheeler"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA027",
+            "belligerent": "US",
+            "fullname": "H. Judson Kilpatrick"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-ga027-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Hugh Kilpatrick [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Kilpatrick says the town was gained and Wheeler's entire force completely routed and pursued eight miles to Brier Creek; Wheeler says he was compelled to fall back by successive positions and withdrew from the town with difficulty, but that a counter-charge stopped further pursuit.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The commanders' characterizations differ.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA027"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ga027-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.365 (OCR page markers; not checked against print)",
+          "quote": "the town gained, and Wheel¬ er’s entire force completely routed."
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.365 (OCR page markers; not checked against print)",
+          "quote": "in close pur¬ suit to Brier Creek, a distance of eight miles"
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.410 (OCR page markers; not checked against print)",
+          "quote": "Ave Avere compelled to fall back, AvhichAcas done by taking successive positions"
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.410 (OCR page markers; not checked against print)",
+          "quote": "Here we were so warmly jiressed that it aa as Avith difficulty we succeeded in withdrawing from our position."
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.410 (OCR page markers; not checked against print)",
+          "quote": "so staggering him that no further demonstration Avas made upon us"
+        },
+        {
+          "source_id": "nps-ga027-v1",
+          "locator": "Description",
+          "quote": "Wheeler's force ran."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 440 (US 190; CS 250). Kilpatrick says upward of 200 Confederate wounded left in his hands were wounded by the saber alone and refers his own casualties to a separate report; his provost-marshal lists 550 small-arms captured at Waynesborough on December 4. Wheeler says the Union loss 'according to his own account' was 50 killed and 147 wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Wheeler's figure is secondhand; Kilpatrick's casualty report is not printed with his report.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA027"
+          },
+          "column": "casualties_text",
+          "quote": "440 total (US 190; CS 250)"
+        },
+        {
+          "source_id": "nps-ga027-v1",
+          "locator": "Estimated Casualties",
+          "quote": "440 total (US 190; CS 250;)"
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.365 (OCR page markers; not checked against print)",
+          "quote": "upward of 200 left in our hands Avere wounded by tlui saber alone."
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.365 (OCR page markers; not checked against print)",
+          "quote": "My casualties on this day, as well as on all others, Avill be found in a separate report accompanying this."
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.367 (OCR page markers; not checked against print)",
+          "quote": "550 stand small-arms, <5ax)turedat Waynesborough, Ga."
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.410 (OCR page markers; not checked against print)",
+          "quote": "According to his own account his loss in men numbered 50 killed and 147 wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Baird's No. 75 report, Atkins's No. 150, Murray's No. 144 and the regimental reports, Kilpatrick's nominal casualty list, Allen's, Humes's and Dibrell's reports, and Cox's Waynesborough passage (p.34, read, not selected) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. C. R. Woods's, G. W. Smith's, Kilpatrick's, Wheeler's, J. P. Hatch's and Hazen's reports, printed in Official Records Series I, Volume XLIV, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Jacob D. Cox's The March to the Sea; Franklin and Nashville (1882) is a later history drawing on the official papers; Cox was not in this campaign. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

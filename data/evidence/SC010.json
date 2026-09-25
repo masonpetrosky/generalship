@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "battle_id": "SC010",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Honey Hill record (November 30, 1864) in the Savannah Campaign [November-December 1864]. The landing at Boyd's Neck on November 29 and the Tullifinny operations of December 6-9 are outside the record. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen and live force fields read 6,400 (US 5,000; CS 1,400). Hatch says the force collected, including a naval brigade, numbered about 5,500 of all arms. Smith says he had 'in all about 1,400 effective muskets on the field, and all engaged', could not estimate the enemy in the dense wood but found them largely superior, and that reinforcements (Chesnut's South Carolina reserves, 'about 3o0 effective muskets' in OCR, at midnight and 860 of Baker's brigade before daylight) arrived after the action.",
+      "rationale": "Hatch's 5,500 includes all arms and the sailors; Smith's 1,400 counts effective muskets only. The later arrivals are not part of the engaged force. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC010"
+          },
+          "column": "forces_text",
+          "quote": "6,400 total (US 5,000; CS 1,400)"
+        },
+        {
+          "source_id": "nps-sc010-v1",
+          "locator": "Forces Engaged",
+          "quote": "6400 total (US 5000; CS 1400;)"
+        },
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.421 (OCR page markers; not checked against print)",
+          "quote": "numbered, including all arms, about 5,500 men,"
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.416 (OCR page markers; not checked against print)",
+          "quote": "making in all about 1,400 effective muskets on the field, and all engaged"
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.416 (OCR page markers; not checked against print)",
+          "quote": "it was very clear their force largely exceeded ours,"
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.416 (OCR page markers; not checked against print)",
+          "quote": "Avith about 3o0 effective muskets of South Carolina reserves."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.417 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General Baker came up with 860 of his brigade"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "redoubt-creek-and-woods",
+      "dimension": "terrain",
+      "value": "Hatch says the column marched on a narrow road through dense woods, and that the Confederate centre was an inclosed redoubt on the crest of a small ridge, 'said to have been built two years since', flanked by rifle-pits, with a small creek and a marsh of dense undergrowth in front commanded by their fire. Smith says the dense wood prevented him estimating the enemy.",
+      "rationale": "The redoubt, creek and marsh predate the action. Narrative descriptions.",
+      "citations": [
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "Our column Avas marching in a narrow road Avith dense woods on both sides."
+        },
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "It is said to have been built two years since, although until now un¬ known to us."
+        },
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "In front of the enemy’s line ran a small creek, bounded by a marsh covered with dense under¬ growth."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.416 (OCR page markers; not checked against print)",
+          "quote": "while Ave could not from the dense wood accurately estimate the number of the enemy,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "landing-and-ammunition",
+      "dimension": "logistics",
+      "value": "Hatch says fog, grounding and a pilot's mistake delayed the landing, the engineer steamer arrived late so the artillery and transport could not land promptly, the sailors dragging the naval battery were worn out, ammunition ran nearly out with none arriving from the rear, and he attributes the repulse to the strong position and 'our want of ammunition'. Smith says his leading brigade reached Grahamville by rail about 8 a.m. on the 30th.",
+      "rationale": "Transport and ammunition statements from interested reports; no ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.421 (OCR page markers; not checked against print)",
+          "quote": "a dense fog covering the river,"
+        },
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "The sailors dragging the artillery were found to be worn out,"
+        },
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "The ammunition of the troops engaged being nearly exiiended, and none arriving from the rear,"
+        },
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.424 (OCR page markers; not checked against print)",
+          "quote": "The affair was a repulse owing entirely to the strong position held by the enemy and our want of ammunition."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.415 (OCR page markers; not checked against print)",
+          "quote": "The leading brigade arrived at Grahamville about 8 o’clock Wednes¬ day morning, the 30th of November."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "guides-and-local-knowledge",
+      "dimension": "information",
+      "value": "Hatch says the maps and guides proved worthless and a guide led the column down the wrong road on the night of the 29th, and that he later learned he would have met little opposition had he reached the railroad then. Smith says he based the day's dispositions on information from Colcock, Gonzales, Jenkins and De Saussure, officers who knew the ground.",
+      "rationale": "Attributed knowledge from interested reports.",
+      "citations": [
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "Unfortunately the maps and guides proved equally worthless."
+        },
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "The guide, pretend¬ ing to recognize the point, led the column on the left-hand road."
+        },
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "I have since learned we would have met, at that time, little or no opposition."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.415 (OCR page markers; not checked against print)",
+          "quote": "I am indebted for the information upon which I based the directions of the whole operation for the day."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "railroad",
+      "dimension": "objectives",
+      "value": "Hatch set out to seize the railroad at Grahamville; NPS says the aim was to cut the Charleston and Savannah Railroad. Smith says he was told that if he held the enemy in check until 2 p.m. several thousand reinforcements for Savannah would arrive, and that he took the Georgia militia out of the State for that purpose.",
+      "rationale": "Stated aims from interested reports and a modern summary.",
+      "citations": [
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.422 (OCR page markers; not checked against print)",
+          "quote": "attempt to seize the railroad at (frahamville,"
+        },
+        {
+          "source_id": "nps-sc010-v1",
+          "locator": "Description",
+          "quote": "to cut the Charleston & Savannah Railroad near Pocotaligo."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.415 (OCR page markers; not checked against print)",
+          "quote": "if I could hold the enemy in check until 2 p. m. and prevent their cutting the road before that time,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Smith says he directed the operation and assigned Colcock, the district commander and next in rank, to the immediate executive command of the main line, with Gonzales over the artillery and Jenkins over the cavalry. Hatch says his command began after landing and credits Potter, who commanded the advance. The frozen commanders are Colonel Charles Colcock (CS) and Major General John Hatch (US); Hatch signs as Brigadier-General.",
+      "rationale": "Direction is attributed as the reports state; the frozen and live rank for Hatch is not adopted over his signature, nor the reverse. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.416 (OCR page markers; not checked against print)",
+          "quote": "was assigned to the immediate executive command of the main line;"
+        },
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.421 (OCR page markers; not checked against print)",
+          "quote": "My command of theforce wasto commence after land¬ ing."
+        },
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.424 (OCR page markers; not checked against print)",
+          "quote": "General Potter, who commanded the advance, handled his troops handsomely,"
+        },
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.425 (OCR page markers; not checked against print)",
+          "quote": "JNO. P. HATCH, Brigadier- General^ Commanding."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC010",
+            "belligerent": "Confederate",
+            "fullname": "Charles Colcock"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC010",
+            "belligerent": "US",
+            "fullname": "John Hatch"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-sc010-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General John Hatch [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Hatch says it became certain the position could not be carried and that the retirement after dark was made without loss or confusion and without pursuit; Smith says the enemy retired rapidly toward the gunboats in the night and calls it a 'flight'.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The characterizations of the withdrawal conflict.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC010"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-sc010-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.423 (OCR page markers; not checked against print)",
+          "quote": "noAv certain that the enemy’s position could not be carried;"
+        },
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.424 (OCR page markers; not checked against print)",
+          "quote": "The whole retrograde movement was executed without loss or confusion;"
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.416 (OCR page markers; not checked against print)",
+          "quote": "During the night the enemy retired rapidly in the direction of their gun-boats."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.416 (OCR page markers; not checked against print)",
+          "quote": "The flight of the enemy during the night"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 796 (US 746; CS 50). Hatch gives his total killed, wounded and missing as 746 and says 13 unwounded and 5 wounded of his 28 missing were reported prisoners. Smith gives his loss as 8 killed and 42 wounded and estimates the enemy's at upward of 1,000, with over 200 dead left on the field.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Hatch's recapitulation table is not legible in OCR.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC010"
+          },
+          "column": "casualties_text",
+          "quote": "796 total (US 746; CS 50)"
+        },
+        {
+          "source_id": "nps-sc010-v1",
+          "locator": "Estimated Casualties",
+          "quote": "796 total (US 746; CS 50;)"
+        },
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.425 (OCR page markers; not checked against print)",
+          "quote": "The total killed, wounded, and missing is 74G."
+        },
+        {
+          "source_id": "or44-hatch-honey-hill-selections-v1",
+          "section": "hatch-report",
+          "locator": "p.425 (OCR page markers; not checked against print)",
+          "quote": "Of the 28 missing, I have been indirectly informed that 13 unwounded and 5 wounded men are in the hands of the enemy."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.416 (OCR page markers; not checked against print)",
+          "quote": "Our loss in every arm of service was 8 men killed and 42 Avounded."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.416 (OCR page markers; not checked against print)",
+          "quote": "The enemy left OA^er 200 of their dead upon the lield, and their Avhole loss in killed and Avounded is believed to be iipAvard of 1,000."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Foster's No. 1 report (read, not selected; it gives 5,000 infantry, cavalry and artillery with 500 sailors and marines, 'rather over 4,000' Confederates, and 88 killed, 623 wounded and 43 missing), Potter's, Hartwell's, Preble's and the other brigade reports, Colcock's and the Confederate subordinate reports Smith promised, and Cox's Honey Hill passage (pp.48–49, read, not selected) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. C. R. Woods's, G. W. Smith's, Kilpatrick's, Wheeler's, J. P. Hatch's and Hazen's reports, printed in Official Records Series I, Volume XLIV, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Jacob D. Cox's The March to the Sea; Franklin and Nashville (1882) is a later history drawing on the official papers; Cox was not in this campaign. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -68,6 +68,20 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Franklin-Nashville and Savannah first passes (cohort v2), 2026-09-25
+
+The first passes for [Franklin-Nashville](research/franklin-nashville-first-pass-v1.md) and
+[Savannah](research/savannah-first-pass-v1.md) add **51 records**:
+
+- thirteen NPS HTML/text pairs;
+- Cox, *The March to the Sea; Franklin and Nashville* (1882): catalog metadata, full OCR and two
+  selections;
+- Official Records Series I, Volumes XXXIX Part 1, XLIV and XLV Part 1: catalog metadata and full
+  OCR for each;
+- fifteen report selections.
+
+No model inputs are changed.
+
 ### Atlanta Campaign first pass (cohort v2), 2026-09-25
 
 The [first pass](research/atlanta-first-pass-v1.md) adds **47 records**:

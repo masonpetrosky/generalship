@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "battle_id": "AL004",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Decatur record (October 26-29, 1864) in the Franklin-Nashville Campaign [September-December 1864]. Allatoona (GA023) precedes it; Johnsonville (TN032) follows on November 4. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads a garrison and other troops of approx. 5,000 against the Army of Tennessee; the live field reads 5,000 (US 5,000; CS 0). Granger gives his garrison as 1,500 effective men before reinforcement, 'not to exceed 1,800' with 300 gathered from the line, and 3,000 by nightfall of the 27th, and puts the Confederate force at not less than 35,000. Doolittle says he met Walthall's division, '5,000 strong', with less than 500 men on the first day, gives the garrison as about 2,500 on the 28th and a total of about 5,000 after reinforcements, 'never exceeded 5,000', and puts Hood's aggregate at about 40,000; his recapitulation reads 1,500, 2,500 and 5,000 for the first three days.",
+      "rationale": "Garrison figures for different days and bases (effective, total after reinforcement); Confederate figures are the defenders' estimates of the whole army. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL004"
+          },
+          "column": "forces_text",
+          "quote": "Garrison and other troops sent there (approx. 5,000 men) [US]; Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-al004-v1",
+          "locator": "Forces Engaged",
+          "quote": "5000 total (US 5000; CS 0;)"
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.695 (running head misread in OCR ('G95'); not checked against print)",
+          "quote": "in all 1,500 effective men."
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.695 (running head misread in OCR ('G95'); not checked against print)",
+          "quote": "giving me here not to exceed 1,800 men."
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.696 (running head misread in OCR ('e9fi'); not checked against print)",
+          "quote": "swelling our garrison by night-fall to 3,000 men."
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.699 (running head misread in OCR ('G99'); not checked against print)",
+          "quote": "not less than 35,000 strong,"
+        },
+        {
+          "source_id": "or39-1-doolittle-decatur-selections-v1",
+          "section": "doolittle-1864-11-03",
+          "locator": "p.701 (OCR page markers; not checked against print)",
+          "quote": "5,000 strong, whom I really fought Avith less than 500 men"
+        },
+        {
+          "source_id": "or39-1-doolittle-decatur-selections-v1",
+          "section": "doolittle-1864-11-03",
+          "locator": "p.702 (OCR page markers; not checked against print)",
+          "quote": "Our garrison at this time numberiul only about 2,500 men."
+        },
+        {
+          "source_id": "or39-1-doolittle-decatur-selections-v1",
+          "section": "doolittle-1864-11-03",
+          "locator": "p.702 (OCR page markers; not checked against print)",
+          "quote": "giAung us a total of about 5,000 men."
+        },
+        {
+          "source_id": "or39-1-doolittle-decatur-selections-v1",
+          "section": "doolittle-1864-11-03",
+          "locator": "p.703 (OCR page markers; not checked against print)",
+          "quote": "Hood’s aggregate was about 40,000, with sixty ])ieees of artillery."
+        },
+        {
+          "source_id": "or39-1-doolittle-decatur-selections-v1",
+          "section": "doolittle-1864-11-03",
+          "locator": "p.704 (OCR page markers; not checked against print)",
+          "quote": "First day, 1,500 j second day, 2,500 5 third day, 5,000."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "open-approaches",
+      "dimension": "terrain",
+      "value": "Granger says the country in front of the fortifications was an almost level, unobstructed plain for 800 yards, crossed by a ravine beyond which the ground rose to a dense wood, and that with 1,800 men he had to man a continuous front of 1,600 yards; the Confederates later occupied the ravine with rifle-pits and placed a battery on the river bank commanding the pontoon bridge.",
+      "rationale": "The ground and the post's works predate the engagement; rifle-pits and batteries dug during it are not inherited. Narrative description; no map verification.",
+      "citations": [
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.696 (running head misread in OCR ('e9fi'); not checked against print)",
+          "quote": "The country about our fortifications for a distance of 800 yards is almost a level ])lain, entirely unobstructed."
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.695 (running head misread in OCR ('G95'); not checked against print)",
+          "quote": "obliged to man a line of Avorks with a continuous front of 1,G00 yards, exclusive of the iWer."
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.696 (running head misread in OCR ('e9fi'); not checked against print)",
+          "quote": "bounded by a dense wood stretching across our entire front,"
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.696 (running head misread in OCR ('e9fi'); not checked against print)",
+          "quote": "By this charge the enemy obtained possession of the ravine above mentioned,"
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.697 (running head misread in OCR ('G97'); not checked against print)",
+          "quote": "could command with ease our pontoon bridge,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "river-and-rail-reinforcement",
+      "dimension": "logistics",
+      "value": "Both reports describe reinforcement by gunboat and rail during the siege. For the night of October 26 Granger says the gunboat Stone River arrived with 200 men of the 102d Ohio and 18th Michigan; Doolittle says it brought detachments of the same regiments 'numbering about 1,200 men'. The gunboats also engaged the Confederate river battery on the 28th.",
+      "rationale": "The two reports of the same arrival differ (200 against about 1,200); neither is adopted. No transport or supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.696 (running head misread in OCR ('e9fi'); not checked against print)",
+          "quote": "the gun-boat Stone River arrived wilh 200 men from One hundred and second Ohio and Eighteenth Alichigan Infantry."
+        },
+        {
+          "source_id": "or39-1-doolittle-decatur-selections-v1",
+          "section": "doolittle-1864-11-03",
+          "locator": "p.701 (OCR page markers; not checked against print)",
+          "quote": "numbering about 1,200 men;"
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.696 (running head misread in OCR ('e9fi'); not checked against print)",
+          "quote": "Detachments of the Seventy-third Indiana Infantry from Athens, Ala., arrived by train."
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.698 (running head misread in OCR ('(^l)S'); not checked against print)",
+          "quote": "Under cover of this severe cross-fire they dropped down the riA^er"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "scouts-and-first-contact",
+      "dimension": "information",
+      "value": "Granger says he sent spies toward Gadsden and Blountsville on October 12, used the gunboats to patrol the river, and on the afternoon of the 26th telegraphed that he did not think the attack yet serious. Doolittle says he did not expect Hood's army for a day or two and thought his cavalry officer had overestimated the enemy.",
+      "rationale": "Attributed knowledge from interested reports; the telegrams and scout reports were not inspected.",
+      "citations": [
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.694 (OCR page markers; not checked against print)",
+          "quote": "sent out s])ies to Gadsden and Blonntsville,"
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.696 (running head misread in OCR ('e9fi'); not checked against print)",
+          "quote": "stating tliat I did not think the attack upon Decatur as yet serious,"
+        },
+        {
+          "source_id": "or39-1-doolittle-decatur-selections-v1",
+          "section": "doolittle-1864-11-03",
+          "locator": "p.700 (OCR page markers; not checked against print)",
+          "quote": "not expecting the advance of Hood’s army for a day or two at least,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "crossing-at-decatur",
+      "dimension": "objectives",
+      "value": "Granger says Decatur was an important objective to the Confederates and that their force left Palmetto with the avowed intention of taking it. Doolittle reports information that Beauregard and Hood intended to take Decatur and, failing that, to winter at Corinth. NPS says Hood demonstrated against Decatur in an attempt to cross the Tennessee River.",
+      "rationale": "Stated or inferred Confederate aims come from the defenders' reports and a modern summary; no Confederate order was inspected.",
+      "citations": [
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.695 (running head misread in OCR ('G95'); not checked against print)",
+          "quote": "Feeling the great importance of Decatur to the Confederates, as an objective iioint,"
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.699 (running head misread in OCR ('G99'); not checked against print)",
+          "quote": "the aA'OAved intention of taking Decatur,"
+        },
+        {
+          "source_id": "or39-1-doolittle-decatur-selections-v1",
+          "section": "doolittle-1864-11-03",
+          "locator": "p.703 (OCR page markers; not checked against print)",
+          "quote": "to take Decatur, and if he failed in that to winter at Corinth."
+        },
+        {
+          "source_id": "nps-al004-v1",
+          "locator": "Description",
+          "quote": "in an attempt to cross the Tennessee River."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Granger says Doolittle commanded until he arrived from Huntsville at about 5 p.m. on the 26th, 'just as the fight was closing', and that he then directed the sorties of the 28th; Doolittle says the general commanding assumed direction at dark and thanks him for the latitude given. The frozen description says Granger commanded 'for most of the battle'; the frozen commanders are Brigadier General Robert S. Granger (US) and General Hood (CS).",
+      "rationale": "Direction is attributed as the reports state; Hood's personal direction is not described in the inspected passages. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.696 (running head misread in OCR ('e9fi'); not checked against print)",
+          "quote": "arrived there about 5 p. m., just as the fight was closing,"
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.696 (running head misread in OCR ('e9fi'); not checked against print)",
+          "quote": "Colonel Doolittle, in command during my absence, disposed his veiy limited forces most excellently."
+        },
+        {
+          "source_id": "or39-1-doolittle-decatur-selections-v1",
+          "section": "doolittle-1864-11-03",
+          "locator": "p.701 (OCR page markers; not checked against print)",
+          "quote": "The general commanding arrived at dark and assumed tlie general direction of movements."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL004"
+          },
+          "column": "description",
+          "quote": "under the command of Brig. Gen. Robert S. Granger for most of the battle,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL004",
+            "belligerent": "US",
+            "fullname": "Robert S. Granger"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL004",
+            "belligerent": "Confederate",
+            "fullname": "John Bell Hood"
+          },
+          "column": "rank",
+          "quote": "General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory (Confederate forces could not cross the river); the live result reads Union Victory. Granger says he found on the 29th that the Confederates were withdrawing and that this ended the siege; Doolittle says the 30th found the post quiet.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL004"
+          },
+          "column": "results_text",
+          "quote": "Union victory (Confederate forces could not cross the river.)"
+        },
+        {
+          "source_id": "nps-al004-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.699 (running head misread in OCR ('G99'); not checked against print)",
+          "quote": "This ended the siege of Decatur,"
+        },
+        {
+          "source_id": "or39-1-doolittle-decatur-selections-v1",
+          "section": "doolittle-1864-11-03",
+          "locator": "p.702 (OCR page markers; not checked against print)",
+          "quote": "The morning of the 30th found us in peace and quietness,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 605 (US 155; CS 450); the live field reads 355 (US 155; CS 200). Granger and Doolittle both give Union losses in killed, wounded and prisoners as 113. Granger estimates Confederate loss at 1,000 and quotes a Mobile paper's 1,500; Doolittle says 139 prisoners were taken and Hood 'was heard to admit a loss of 1,000 in killed and wounded'.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The reports' 113 differs from the frozen and live 155.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL004"
+          },
+          "column": "casualties_text",
+          "quote": "605 total (US 155; CS 450)"
+        },
+        {
+          "source_id": "nps-al004-v1",
+          "locator": "Estimated Casualties",
+          "quote": "355 total (US 155; CS 200;)"
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.699 (running head misread in OCR ('G99'); not checked against print)",
+          "quote": "Gur loss in killed, Avounded, and iirisoners was only 113"
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.699 (running head misread in OCR ('G99'); not checked against print)",
+          "quote": "the enemy’s loss must have reached 1,000."
+        },
+        {
+          "source_id": "or39-1-granger-decatur-selections-v1",
+          "section": "granger-1864-11-06",
+          "locator": "p.699 (running head misread in OCR ('G99'); not checked against print)",
+          "quote": "did crack it after losing 1,500 men."
+        },
+        {
+          "source_id": "or39-1-doolittle-decatur-selections-v1",
+          "section": "doolittle-1864-11-03",
+          "locator": "p.703 (OCR page markers; not checked against print)",
+          "quote": "The whole of our losses during the siege in killed, wounded, and })risoners is only 113."
+        },
+        {
+          "source_id": "or39-1-doolittle-decatur-selections-v1",
+          "section": "doolittle-1864-11-03",
+          "locator": "p.703 (OCR page markers; not checked against print)",
+          "quote": "One hundred and thirty-nine prisoners were eaptured,"
+        },
+        {
+          "source_id": "or39-1-doolittle-decatur-selections-v1",
+          "section": "doolittle-1864-11-03",
+          "locator": "p.703 (OCR page markers; not checked against print)",
+          "quote": "He was heard to admit a loss of 1,000 in killed and wounded alone,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Hood's and Beauregard's accounts of Decatur, Cooper's, Beach's, Prosser's, Morgan's and the other subordinate reports (Nos. 57–71), the casualty list and prisoner returns, and Cox's brief Decatur passage (pp.13–14, read, not selected) remain deferred. No Confederate family was inspected for this record.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Jacob D. Cox's The March to the Sea; Franklin and Nashville (1882) is an interested history by the commander of the Twenty-third Corps' Third Division (and, at Franklin, of both divisions of that corps) that draws on official papers. Corse's, French's, R. S. Granger's, Doolittle's, Sinclair's, Forrest's, Hood's and Rousseau's reports, printed in Official Records Series I, Volumes XXXIX part 1 and XLV part 1, are separate families of interested accounts; each volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

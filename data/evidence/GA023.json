@@ -1,0 +1,464 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA023",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Allatoona record (October 5, 1864) in the Franklin-Nashville Campaign [September-December 1864]. Hood's army was then operating against Sherman's railroad in north Georgia; Decatur (AL004) follows on October 26. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads one brigade (1,944 men) against one division (approx. 2,000 men); the live field reads 3,944 (US 1,944; CS 2,000). Corse's October 7 report says he brought about 900 muskets and Tourtellotte had about 600, 'about 1,500'; his October 27 report lists the garrison at 890 men and his detachment at 1,054, 'an aggregate of 1,944', and puts Young's Texas brigade at 1,900. French's preliminary report says prisoners gave the Union force as over 2,000, 'about equal to my own'; his November 5 report says that, leaving out three regiments not in the assault, he had 'but a little over 2,000 men'.",
+      "rationale": "Corse's two figures differ in basis (muskets brought against a regimental aggregate); French's figure excludes three regiments and the troops left at Allatoona Creek; Young's 1,900 is Corse's estimate of an attacking brigade. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA023"
+          },
+          "column": "forces_text",
+          "quote": "One brigade (1,944 men) [US]; one division (approx. 2,000 men) [CS]"
+        },
+        {
+          "source_id": "nps-ga023-v1",
+          "locator": "Forces Engaged",
+          "quote": "3944 total (US 1944; CS 2000;)"
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-07",
+          "locator": "p.760 (OCR page markers; not checked against print)",
+          "quote": "I brought about 900 mus¬ kets with ]ne."
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-07",
+          "locator": "p.760 (OCR page markers; not checked against print)",
+          "quote": "Colonel Tourtellotte had about 600, making in all about 1,500."
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-27",
+          "locator": "p.762 (OCR page markers; not checked against print)",
+          "quote": "furnishing a force of 890 men,"
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-27",
+          "locator": "p.763 (OCR page markers; not checked against print)",
+          "quote": "total 1,054, making an aggregate of 1,944."
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-27",
+          "locator": "p.764 (OCR page markers; not checked against print)",
+          "quote": "Young’s brigade of Texans, 1,900 strong,"
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-10-08",
+          "locator": "p.813 (OCR page markers; not checked against print)",
+          "quote": "the prisoners report their forces over 2,000."
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-10-08",
+          "locator": "p.813 (OCR page markers; not checked against print)",
+          "quote": "Avere in force about equal to my own."
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.818 (OCR page markers; not checked against print)",
+          "quote": "I had but a little over 2,000 men."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "pass-and-redoubts",
+      "dimension": "terrain",
+      "value": "French says the railroad crosses the ridge through a cut sixty-five feet deep, that he found three redoubts west of the cut and a star fort east of it with outer works, abatis and stockades, and that the hills were so rugged and abrupt the troops could not be placed until about 9 a.m. Corse withdrew his force from the town to the ridge on either side of the cut; NPS says the garrison regrouped in the earthen star fort.",
+      "rationale": "The pass and its works predate the attack; the defenders' use of them is not tagged. Narrative descriptions; no map verification.",
+      "citations": [
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.816 (OCR page markers; not checked against print)",
+          "quote": "The railroad emerges from the Allatoona Mountains by crossing this ridge through a cut sixty-fiA^e feet deep."
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.816 (OCR page markers; not checked against print)",
+          "quote": "three redoubts on the west of the railroad cut and a star fort on the east,"
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.816 (OCR page markers; not checked against print)",
+          "quote": "So rugged and abrupt Avere the hills that the troops could not be got in position until about 9 a. m.,"
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-27",
+          "locator": "p.763 (OCR page markers; not checked against print)",
+          "quote": "I withdrew the forces from the town to the summit of the ridge on either side of the railroad cut."
+        },
+        {
+          "source_id": "nps-ga023-v1",
+          "locator": "Description",
+          "quote": "regrouped in an earthen \"Star\" fort of Allatoona Pass."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "rations-and-ammunition",
+      "dimension": "logistics",
+      "value": "Corse brought about 105,000 rounds of ammunition by rail and guarded a depot of over a million rations; his guns fell silent for want of ammunition until a volunteer brought canister from the east fort, and rain damage to the track kept his second train from returning until the morning of the 6th. French says his ammunition was nearly exhausted and could not be resupplied under two hours, that ammunition had to be carried by hand from wagons a mile away, and that his matches failed so the stores could not be burned. NPS says the Confederates began to run out of ammunition.",
+      "rationale": "Ammunition and transport statements from interested reports; no ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-27",
+          "locator": "p.762 (OCR page markers; not checked against print)",
+          "quote": "with about 105,000 rounds of ammunition,"
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-27",
+          "locator": "p.764 (OCR page markers; not checked against print)",
+          "quote": "watch the depot where were stored over a. million rations."
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-27",
+          "locator": "p.765 (OCR page markers; not checked against print)",
+          "quote": "The artillery was silent for want of ammunition,"
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-07",
+          "locator": "p.760 (OCR page markers; not checked against print)",
+          "quote": "The damage done to the track by the recent heavy rains prevented the train I sent from returning with my troops until the inorning of the 6th."
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-10-08",
+          "locator": "p.813 (OCR page markers; not checked against print)",
+          "quote": "Ammunition, too, being nearly exhausted, and knowing it could not be supi)lied under two hours,"
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.817 (OCR page markers; not checked against print)",
+          "quote": "Ammunition had to be carried from the wagons, a mile distant, at the base of the hills, by men,"
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-10-08",
+          "locator": "p.813 (OCR page markers; not checked against print)",
+          "quote": "The matches furnished would not ignite, and no lire could be procured."
+        },
+        {
+          "source_id": "nps-ga023-v1",
+          "locator": "Description",
+          "quote": "The Rebels began to run out of ammunition,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "signals-and-surprise",
+      "dimension": "information",
+      "value": "Corse moved on a signal telegram relayed through Allatoona, and Sherman signalled from Kenesaw that Hood was moving on Allatoona. French says Hood's orders suggest the general-in-chief did not know the pass was fortified and garrisoned, that he could see the garrison's night signals to Kenesaw, that the garrison was reinforced that morning without his knowledge, and that he later received Armstrong's note, written at 9 a.m., that Union infantry was entering Big Shanty.",
+      "rationale": "Attributed knowledge from interested reports; the signal and message chain was not inspected.",
+      "citations": [
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-07",
+          "locator": "p.760 (OCR page markers; not checked against print)",
+          "quote": "on signal telegram from you, via Allatoona,"
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-27",
+          "locator": "p.762 (OCR page markers; not checked against print)",
+          "quote": "to signal from Kenesaw (telegraph communication having been destroyed) that Hood was moving on Alla¬ toona,"
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.815 (OCR page markers; not checked against print)",
+          "quote": "the general-in-chief was not aware that the pass was fortified and garrisoned"
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.815 (OCR page markers; not checked against print)",
+          "quote": "the enemy could be seen communicat¬ ing messages by their night signals from Allatoona Avith the station on KenesaAv,"
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-10-08",
+          "locator": "p.813 (OCR page markers; not checked against print)",
+          "quote": "the enemy was heavily re enforced on the morning of the 5th witliout my knowledge,"
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.816 (OCR page markers; not checked against print)",
+          "quote": "My scouts report enemy’s infantry advancing up the railroad."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "fill-the-cut-and-bridge",
+      "dimension": "objectives",
+      "value": "French quotes Hood's October 4 orders to move up the railroad and fill the deep cut at Allatoona, and a later order that it was 'of the greatest importance' to destroy the Etowah railroad bridge if possible. Corse was ordered by Sherman's signal to move with his whole command to Allatoona. NPS frames Hood's northward move as a threat to Sherman's supply line.",
+      "rationale": "Stated aims from quoted orders in interested reports.",
+      "citations": [
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.814 (OCR page markers; not checked against print)",
+          "quote": "move np the railroad and iill np the deep cut at Allatoona Avith logs, brush, rails, dirt, &.c."
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.814 (OCR page markers; not checked against print)",
+          "quote": "it is of the greatest importance to destroy the EtoAAmh railroad bridge if such a thing is possible."
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-27",
+          "locator": "p.762 (OCR page markers; not checked against print)",
+          "quote": "another signal from General Sherman directing me to move with my whole command"
+        },
+        {
+          "source_id": "nps-ga023-v1",
+          "locator": "Description",
+          "quote": "Hood moved northward to threaten the Western & Atlantic Railroad, Sherman's supply line."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Corse says he inspected the ground with Tourtellotte and made the dispositions, ordered Tourtellotte to hold the east hill to the last, and was knocked insensible for thirty or forty minutes at about 1 p.m.; he credits Tourtellotte and Rowett. French says he decided to withdraw, sent word to Sears to withdraw, and blames the cavalry officer who failed to cut the railroad. The frozen commanders are Brigadier General Corse and Major General French; the live page gives French as Brigadier General.",
+      "rationale": "Direction is attributed as the reports state; the live rank for French is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-27",
+          "locator": "p.762 (OCR page markers; not checked against print)",
+          "quote": "made such disposition of the troops as in my judgment was necessary to hold the place until day¬ light."
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-27",
+          "locator": "p.764 (OCR page markers; not checked against print)",
+          "quote": "sent Colonel Tonrtellotte over to the east hill with orders to hold it to the last,"
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-27",
+          "locator": "p.765 (OCR page markers; not checked against print)",
+          "quote": "I was Avounded by a rifle-ball, which rendered me insensible for some thirty or forty minutes,"
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.817 (OCR page markers; not checked against print)",
+          "quote": "I sent Avord to General Sears to withdraw his men at once,"
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.819 (OCR page markers; not checked against print)",
+          "quote": "The cavalry officer aa Iio Avas sent to cut the railroad and failed to per¬ form that duty is, in my opinion, much to blame."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA023",
+            "belligerent": "US",
+            "fullname": "John M. Corse"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA023",
+            "belligerent": "Confederate",
+            "fullname": "Samuel G. French"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga023-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Samuel French [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Corse says the attackers withdrew in disorder at 3.30 p.m., repulsed at every point; French says works after works were carried until the garrison was forced into its central redoubt, and that he withdrew because Sherman's infantry was closing behind him. NPS says the fort held.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. French's account of carrying the outer works and Corse's of repulse describe different phases.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA023"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ga023-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-07",
+          "locator": "p.760 (OCR page markers; not checked against print)",
+          "quote": "until 3.30 p. m., when they Avithdrew in disorder, repulsed at every point."
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-10-08",
+          "locator": "p.813 (OCR page markers; not checked against print)",
+          "quote": "until the enemy was forced into his strong center redoubt on the west of the railroad."
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.817 (OCR page markers; not checked against print)",
+          "quote": "I determined to withdraw,"
+        },
+        {
+          "source_id": "nps-ga023-v1",
+          "locator": "Description",
+          "quote": "French repeatedly attacked, but the fort held."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,505 (US 706; CS 799); the live field reads 1,603 (US 706; CS 897). Corse's October 7 report gives his loss as about 600 and 150 Confederate dead buried and 400 prisoners; his October 27 report gives 231 dead buried, 411 prisoners and Young's estimate of 2,000 Confederate loss, and his loss table totals 706. French's preliminary report gives 798 and one staff officer; his November 5 report's text reads 709 while its table lists 122 killed, 443 wounded and 233 missing, and he claims 205 prisoners and 750 Union killed and wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. French's text figure (OCR '709') and table components are preserved as printed; the compiler's note refers to further tables not legible in OCR.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA023"
+          },
+          "column": "casualties_text",
+          "quote": "1,505 total (US 706; CS 799)"
+        },
+        {
+          "source_id": "nps-ga023-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1603 total (US 706; CS 897;)"
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-07",
+          "locator": "p.760 (OCR page markers; not checked against print)",
+          "quote": "My loss is about 600 killed, wounded, and missing."
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-07",
+          "locator": "p.760 (OCR page markers; not checked against print)",
+          "quote": "buried 150 rebel dead,"
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-27",
+          "locator": "p.766 (OCR page markers; not checked against print)",
+          "quote": "We buried 231 rebel dead, and captured 411 prisoners,"
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-1864-10-27",
+          "locator": "p.766 (OCR page markers; not checked against print)",
+          "quote": "who estimated the enemy’s loss at 2,000 killed, wounded, and missing."
+        },
+        {
+          "source_id": "or39-1-corse-allatoona-selections-v1",
+          "section": "corse-loss-table",
+          "locator": "p.766 (OCR page markers; not checked against print)",
+          "quote": "Grand total . 6 136 142 22 330 352 j 6 206 1 212 706"
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-10-08",
+          "locator": "p.813 (OCR page markers; not checked against print)",
+          "quote": "Total loss in division, 798; and 1 of my staff."
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.818 (OCR page markers; not checked against print)",
+          "quote": "My entire loss in killed, wounded, and missing was 709,"
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.818 (OCR page markers; not checked against print)",
+          "quote": "Total . 122 443 233 1"
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.818 (OCR page markers; not checked against print)",
+          "quote": "We captured 205 prisoners,"
+        },
+        {
+          "source_id": "or39-1-french-allatoona-selections-v1",
+          "section": "french-1864-11-05",
+          "locator": "p.818 (OCR page markers; not checked against print)",
+          "quote": "killed and wounded 750 of the enemy;"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Sherman's No. 1 report, Tourtellotte's, Rowett's and the other regimental reports, Hood's report portion (read, not selected), Stewart's, Sears's and the brigade casualty returns, and the signal officer's report (No. 79) remain deferred. Cox's Allatoona narrative is in his Atlanta volume, not registered.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Jacob D. Cox's The March to the Sea; Franklin and Nashville (1882) is an interested history by the commander of the Twenty-third Corps' Third Division (and, at Franklin, of both divisions of that corps) that draws on official papers. Corse's, French's, R. S. Granger's, Doolittle's, Sinclair's, Forrest's, Hood's and Rousseau's reports, printed in Official Records Series I, Volumes XXXIX part 1 and XLV part 1, are separate families of interested accounts; each volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

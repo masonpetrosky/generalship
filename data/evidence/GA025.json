@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA025",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Griswoldville record (November 22, 1864) in the Savannah Campaign [November-December 1864]. Cavalry skirmishes at Griswoldville on November 20-21 and the march to Milledgeville are outside the record. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text names Walcutt's brigade and two cavalry regiments against the 1st Division, Georgia Militia, and the cavalry corps, with no numbers; the live field reads zeros. Woods lists the brigade's six regiments at 1,513 present for duty with a section of artillery, and estimates the attackers at about 5,000 militia in three lines with four guns and two brigades of Wheeler's cavalry in reserve. Smith says his loss of a little over 600 was more than a fourth of the effective muskets engaged; his November 19 letter gave the militia division 1,900 effective muskets on leaving Lovejoy's, and his postscript puts the two State Line regiments at about 400 muskets. Smith believed his men faced the larger part of a corps.",
+      "rationale": "Woods's 1,513 is a present-for-duty count of the brigade before reinforcement; the 5,000 is his estimate. Smith's figures are for other dates, and his one-fourth ratio implies but does not state an engaged total. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA025"
+          },
+          "column": "forces_text",
+          "quote": "2nd Brigade, 1st Division, XV Corps, Army of the Tennessee and two regiments of cavalry [US]"
+        },
+        {
+          "source_id": "nps-ga025-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "total present for duty, 1,513;"
+        },
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "numbering about 5,000,"
+        },
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "two brigades of Wheeler’s cavalry in reserve."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.414 (OCR page markers; not checked against print)",
+          "quote": "being more than one-finirth of tin* effective muskets Ave had in the engagement."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-1864-11-19",
+          "locator": "p.417 (OCR page markers; not checked against print)",
+          "quote": "numbering in all 1,900 effective muskets when we left Lovejoy’s."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-1864-11-19",
+          "locator": "p.418 (OCR page markers; not checked against print)",
+          "quote": "The two together number about 400 muskets."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.414 (OCR page markers; not checked against print)",
+          "quote": "our men Avere oi)posed by the larger portion of one corps of the enemy,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "duncan-farm-position",
+      "dimension": "terrain",
+      "value": "Woods says the brigade was drawn back to a strong position on the Duncan farm at the edge of the woods, with open fields in front and flanks near a swamp passable at only one or two points, and threw up temporary works of rails and logs; the militia crossed the open fields and reached a ravine within seventy-five yards of the works. NPS says Walcutt fortified the position with logs and rails.",
+      "rationale": "The ground predates the action; the choice of position and the works were made during it and are not tagged.",
+      "citations": [
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "in the edge of the woods, with open fields in front, the flanks resting near a swamp, impassable except at one or two points,"
+        },
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "directed temporary works of rails and logs to be thrown up."
+        },
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "gained a ravine within seventy-five yards of our works,"
+        },
+        {
+          "source_id": "nps-ga025-v1",
+          "locator": "Description",
+          "quote": "fortified it with logs and rails"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "artillery-and-transport",
+      "dimension": "logistics",
+      "value": "Woods says the section of artillery was withdrawn early because of the enemy's fire and that fifteen Confederate wounded were left at a house for want of transportation. Smith says arranging transportation of ammunition and supplies kept him a few hours in Macon.",
+      "rationale": "Transport statements from interested reports; no ordnance or transport return inspected.",
+      "citations": [
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "Shortly after the engagement opened the section of the battery was Avithdrawn"
+        },
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "Fifteen Avounded Avere brought in and left at a house, not haYing trans])ortation for them."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.414 (OCR page markers; not checked against print)",
+          "quote": "ments for transportation of ammunition and supplies detained me a few hours in Macon,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "countermand-and-collision",
+      "dimension": "information",
+      "value": "Smith says that on the 22d information showed a much larger Union force near Macon than supposed, Taylor authorized him to recall the troops, and his order reached them 'on the eve of an engagement with what was supposed to be a small force of the enemy'. Woods says the reconnaissance met part of Wheeler's cavalry. NPS says the militia were ordered toward Augusta and collided with Walcutt by accident.",
+      "rationale": "Attributed knowledge from interested reports and a modern summary; the orders were not inspected.",
+      "citations": [
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.414 (OCR page markers; not checked against print)",
+          "quote": "Information having been received showing very clearly that a much larger force of the enemy was near the city than was supposed"
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.414 (OCR page markers; not checked against print)",
+          "quote": "My order reached them on the eve of an engagement with what was supposed to be a small force of the enemy."
+        },
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "The forces met on this reconnaissance were a part of Wheeler’s cavalry."
+        },
+        {
+          "source_id": "nps-ga025-v1",
+          "locator": "Description",
+          "quote": "accidentally collided with Walcutt's force."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "demonstration-and-march",
+      "dimension": "objectives",
+      "value": "Woods was ordered to hold a defensive position near the church and make a demonstration toward Macon with one brigade. Smith says the militia brigades were ordered toward Augusta by way of Griswoldville. NPS says Walcutt was to ascertain the disposition of enemy troops toward Macon.",
+      "rationale": "Stated orders from interested reports and a modern summary.",
+      "citations": [
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "with one brigade to make a demonstra¬ tion in the direction of Macon."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.414 (OCR page markers; not checked against print)",
+          "quote": "They moved Tuesday morning in the direction of Griswoldville,"
+        },
+        {
+          "source_id": "nps-ga025-v1",
+          "locator": "Description",
+          "quote": "to ascertain the disposition of enemy troops in that direction."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Woods says he drew Walcutt back by Osterhaus's direction and posted the brigade, and that Walcutt was severely wounded in mid-engagement and Catterson took command; he sent Baldwin's regiment and asked Murray for cavalry on the flanks. Smith, who was not present, says the collision occurred despite his order to avoid an engagement, 'we being the attacking party', and withdrew the troops to Macon. Woods reports prisoners' statements that 'Major-General Phili])S' was killed. The frozen commanders are Brigadier General Walcutt (US) and Brigadier General Philips and Major General Wheeler (CS); the live page omits Wheeler.",
+      "rationale": "Direction is attributed as the reports state; the prisoners' report of Phillips's death is preserved as reported, not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "I then, by direction of General Osterhaus, drew General Walcutt’s brigade back to a strong position on the Duncan farm,"
+        },
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "Col. E. F. Catterson, Ninety-seventh Indiana Infantry, assumed command of the brigade."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.414 (OCR page markers; not checked against print)",
+          "quote": "Notwith- s tan ding my order to avoid an engagement at that place and time, a collision occurred, we being the attacking party ;"
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.414 (OCR page markers; not checked against print)",
+          "quote": "when they Avere withdrawn to Macon by my order."
+        },
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "Major-General Phili])S, Colonel Munn, Fifth Georgia, and Colonel G(‘orge, are reported by the l)risoners taken to have been killed,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA025",
+            "belligerent": "US",
+            "fullname": "Charles C. Walcutt"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA025",
+            "belligerent": "Confederate",
+            "fullname": "Pleasant J. Philips"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA025",
+            "belligerent": "Confederate",
+            "fullname": "Joseph Wheeler"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga025-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Pleasant Philips [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Woods says three assaults were repulsed and the militia retired at sundown, leaving their dead and wounded; Smith says they failed to carry the works but held a position within 150 yards until withdrawn after dark by his order.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA025"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ga025-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "from which they made three assaults, but met each time with a bloody repulse."
+        },
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "The fight continued until sundown, when they retired, leav¬ ing their dead and wounded on the field."
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.414 (OCR page markers; not checked against print)",
+          "quote": "they failed to carry the works of the enemy, but held a position within 150 yards of their line until after dark,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 712 (US 62; CS 650). Woods gives his loss as 13 killed, 79 wounded and 2 missing and estimates the Confederate loss at 300 killed and 700 to 1,200 wounded, with 28 prisoners. Smith gives his loss as a little over 600.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Woods's 94 differs from the frozen 62; his Confederate figure is an estimate 'without actual count'.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA025"
+          },
+          "column": "casualties_text",
+          "quote": "712 total (US 62; CS 650)"
+        },
+        {
+          "source_id": "nps-ga025-v1",
+          "locator": "Estimated Casualties",
+          "quote": "712 total (US 62; CS 650;)"
+        },
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "Onr loss Avas 13 killed, 79 Avounded, and 2 missing."
+        },
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "Avas 300 killed and from 700 to 1,200 Avounded."
+        },
+        {
+          "source_id": "or44-woods-griswoldville-selections-v1",
+          "section": "woods-1864-11-23",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "Twenty-eight prisoners were captured"
+        },
+        {
+          "source_id": "or44-gw-smith-selections-v1",
+          "section": "smith-report",
+          "locator": "p.414 (OCR page markers; not checked against print)",
+          "quote": "Oiir loss was a little over 600,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Catterson's No. 17 and the regimental reports (Nos. 18–20), Walcutt's and Woods's casualty inclosure (omitted in print), Howard's and Osterhaus's reports, Phillips's and the militia brigade reports, and Wheeler's account of the 22d (read, not cited here) remain deferred. Cox's Griswoldville passage (pp.30–31) was read but not selected.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. C. R. Woods's, G. W. Smith's, Kilpatrick's, Wheeler's, J. P. Hatch's and Hazen's reports, printed in Official Records Series I, Volume XLIV, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Jacob D. Cox's The March to the Sea; Franklin and Nashville (1882) is a later history drawing on the official papers; Cox was not in this campaign. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

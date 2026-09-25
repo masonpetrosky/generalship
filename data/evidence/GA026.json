@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA026",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Buck Head Creek record (November 28, 1864) in the Savannah Campaign [November-December 1864]. Wheeler's night attack of November 26-27 and the fighting near Waynesborough on the 27th precede it; Waynesborough (GA027) follows on December 4. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text names Kilpatrick's 3rd Cavalry Division against the cavalry corps of the department, with no numbers; the live field reads zeros. Kilpatrick says he left Marietta on November 14 with 5,500 men and six guns in two brigades of 2,800 and 2,700. Wheeler says only about 1,200 of his command had crossed the creek when he attacked the barricades, that his force never exceeded 3,500 and he seldom had more than 2,000 under his immediate command, and that the enemy's cavalry was at least double his own numbers.",
+      "rationale": "Kilpatrick's figures are for November 14; Wheeler's are campaign-wide claims and a partial count at the creek. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA026"
+          },
+          "column": "forces_text",
+          "quote": "3rd Cavalry Division, Military Division of the Mississippi [US]; cavalry corps, Department of South Carolina, Georgia, and Florida [CS]"
+        },
+        {
+          "source_id": "nps-ga026-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.362 (running head reads '3(^2' in OCR; not checked against print)",
+          "quote": "with 5,500 men and six pieces of artillery;"
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.362 (running head reads '3(^2' in OCR; not checked against print)",
+          "quote": "amounting to 2,800 men."
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.362 (running head reads '3(^2' in OCR; not checked against print)",
+          "quote": "ing to 2,700 men."
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.409 (OCR page markers; not checked against print)",
+          "quote": "althongh only about 1,200 of my command had (crossed the creek."
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.411 (OCR page markers; not checked against print)",
+          "quote": "My force never exceeded 3,500 men,"
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.411 (OCR page markers; not checked against print)",
+          "quote": "I seldom had more than 2,000 under my immediate command,"
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.410 (OCR page markers; not checked against print)",
+          "quote": "the enemy’s cavalry Avere at least double my own numbers,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "creek-swamp-and-barricades",
+      "dimension": "terrain",
+      "value": "Wheeler says an intervening swamp at Buck Head Creek made approach almost impossible and saved Kilpatrick, that the bridge had been prepared for burning, and that beyond it the open ground ended at a line cavalry could not approach. Kilpatrick says he took a strong position two miles beyond the creek behind a long line of barricades with his flanks thrown back. NPS says a Union brigade behind barricades at Reynolds's Plantation halted the drive.",
+      "rationale": "The creek and swamp predate the action; the barricades were built during it.",
+      "citations": [
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.409 (OCR page markers; not checked against print)",
+          "quote": "was only prevented by an intervening swamp at Biiek Head Creek,"
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.409 (OCR page markers; not checked against print)",
+          "quote": "The bridge over Buck Head Creek had been carefully prepared for burning"
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.409 (OCR page markers; not checked against print)",
+          "quote": "Unfortu¬ nately the open ground did not continue,"
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "took up a strong position and constructed a long line of barricades, with my tianks throAvn Avell to the rear."
+        },
+        {
+          "source_id": "nps-ga026-v1",
+          "locator": "Description",
+          "quote": "a Union brigade behind barricades at Reynolds's Plantation halted the Rebels' drive,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "bridge-and-forage",
+      "dimension": "logistics",
+      "value": "Wheeler says his command was jaded, that the burned bridge was rebuilt in little more than an hour, and that the crossing was slow because of its rude construction. Kilpatrick says he moved on after the repulse and camped at the first place forage could be found.",
+      "rationale": "Movement and forage statements from interested reports; no transport return inspected.",
+      "citations": [
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.408 (OCR page markers; not checked against print)",
+          "quote": "Notwithstanding the jaded condition of my command,"
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.409 (OCR page markers; not checked against print)",
+          "quote": "in little more than an hour the bridge was reconstructed and our troops passing over."
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.409 (OCR page markers; not checked against print)",
+          "quote": "The passage, however, was very slow, on account of the rude and frail construction of the bridge."
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "encamped at the lirst place Avhere forage could be obtained."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "feint-on-augusta",
+      "dimension": "information",
+      "value": "Wheeler says citizens reported Kilpatrick's officers talking about Augusta, which with the small party sent to Waynesborough convinced him Augusta was the destination. Kilpatrick says his parties confirmed that Wheeler was crossing with his whole force. NPS says Wheeler was fooled into concentrating around Augusta.",
+      "rationale": "Attributed knowledge from interested reports and a modern summary.",
+      "citations": [
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.408 (OCR page markers; not checked against print)",
+          "quote": "I learned that he and his officers had been overheard talking a great deal in l)rivate about Augusta."
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.408 (OCR page markers; not checked against print)",
+          "quote": "which convinced me that Augusta and not Waynesborough was Kilpatrick’s destination,"
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "Parties were sent out and ascertained this report to be true."
+        },
+        {
+          "source_id": "nps-ga026-v1",
+          "locator": "Description",
+          "quote": "Confederate Maj. Gen. Joseph Wheeler was fooled and concentrated his cavalry forces around Augusta."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "prisoners-and-railroad",
+      "dimension": "objectives",
+      "value": "Kilpatrick was to move toward Millen and if possible rescue the prisoners there; after learning they had been moved he retired toward the infantry, deciding at the creek to give Wheeler 'a severe repulse'. Wheeler says he hoped by pressing hard to turn Kilpatrick from Augusta. NPS lists the railroad, the Briar Creek trestle and Camp Lawton as objectives.",
+      "rationale": "Stated aims from interested reports and a modern summary.",
+      "citations": [
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.363 (running head reads '303' in OCR; not checked against print)",
+          "quote": "if possible rescue our prisoners reported to be at or near that point,"
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.363 (running head reads '303' in OCR; not checked against print)",
+          "quote": "I deemed it prudent to retire to our infantry."
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "determined to give him a severe repulse before marching farther,"
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.408 (OCR page markers; not checked against print)",
+          "quote": "I hoped by pressing him hard he might be turned from his purpose."
+        },
+        {
+          "source_id": "nps-ga026-v1",
+          "locator": "Description",
+          "quote": "burn the trestle near Briar Creek and, if possible, release Union prisoners confined at Camp Lawton,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Kilpatrick says Atkins, by a misunderstanding, moved on without halting, so that two regiments and Kilpatrick himself were cut off and partly surrounded. Wheeler says Kilpatrick was very nearly captured, that he sent Dibrell and Ashby to turn the flanks, and that Ashby took the wrong road by accident. The frozen commanders are Major General Wheeler and Brigadier General H. Judson Kilpatrick; the live page lists 'Hugh Kilpatrick'.",
+      "rationale": "Direction and error are attributed as the reports state. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "some niisunderstaudin.i; Colonel Atkinsmoved on without lialting, as directed,"
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "together with myself and staff, were cut off"
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.408 (OCR page markers; not checked against print)",
+          "quote": "General Kil¬ patrick Avas himself very nearly captured."
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.409 (OCR page markers; not checked against print)",
+          "quote": "I ordered Ashby’s brigade to turn the enemy’s left flank"
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.409 (OCR page markers; not checked against print)",
+          "quote": "by accident, got on a road to the left of the one indicated by my order,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA026",
+            "belligerent": "Confederate",
+            "fullname": "Joseph Wheeler"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA026",
+            "belligerent": "US",
+            "fullname": "H. Judson Kilpatrick"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-ga026-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Hugh Kilpatrick [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory; the live result reads Indecisive. Kilpatrick says Wheeler was 'most handsomely repulsed at all points'; Wheeler says his charge sent the enemy fleeing in uncontrollable confusion and that the rout was complete. NPS says the barricades eventually forced Wheeler to retire.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The frozen and live result fields and the commanders' characterizations conflict.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA026"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ga026-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "but he was most hand¬ somely repulsed at all points, and with but slight loss to my command."
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.409 (OCR page markers; not checked against print)",
+          "quote": "This so terrified the enemy as to cause him to flee in uncontrollable confusion."
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.408 (OCR page markers; not checked against print)",
+          "quote": "The roirt was complete,"
+        },
+        {
+          "source_id": "nps-ga026-v1",
+          "locator": "Description",
+          "quote": "eventually forcing them to retire."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 646 (US 46; CS 600). Kilpatrick says his losses over three days were not large and estimates the enemy's at 600 killed and wounded; his campaign total, November 14-December, is 1 officer killed, 6 wounded and 2 missing and 31 men killed, 153 wounded and 166 missing. Wheeler claims nearly 200 captured, killed and wounded in the charge before the creek.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Kilpatrick's 600 is an estimate for three days of fighting; his campaign total is context and is not assigned to this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA026"
+          },
+          "column": "casualties_text",
+          "quote": "646 total (US 46; CS 600)"
+        },
+        {
+          "source_id": "nps-ga026-v1",
+          "locator": "Estimated Casualties",
+          "quote": "646 total (US 46; CS 600;)"
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "My losses during the incessant lighting for three days and nights Avere not large."
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "the loss of the enemy is estimated at 600 killed and Avounded."
+        },
+        {
+          "source_id": "or44-kilpatrick-selections-v1",
+          "section": "kilpatrick-report",
+          "locator": "p.366 (OCR page markers; not checked against print)",
+          "quote": "We have lost 1 officers killed, 6 wounded, and 2 missing; 31 men killed, 153 wounded, and 166 missing."
+        },
+        {
+          "source_id": "or44-wheeler-selections-v1",
+          "section": "wheeler-1864-12-24",
+          "locator": "p.408 (OCR page markers; not checked against print)",
+          "quote": "capturing, killing, and Avounding nearly 200,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Murray's No. 144, Atkins's No. 150, Heath's No. 153 and the other regimental reports, Kilpatrick's nominal casualty list, Dibrell's, Humes's and Ashby's reports, and Cox's Buck Head Creek passage (pp.32–33, read, not selected) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. C. R. Woods's, G. W. Smith's, Kilpatrick's, Wheeler's, J. P. Hatch's and Hazen's reports, printed in Official Records Series I, Volume XLIV, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Jacob D. Cox's The March to the Sea; Franklin and Nashville (1882) is a later history drawing on the official papers; Cox was not in this campaign. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

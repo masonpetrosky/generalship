@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "battle_id": "TN032",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Johnsonville record (November 4-5, 1864) in the Franklin-Nashville Campaign [September-December 1864]. It closes Forrest's October 16-November 10 raid on the Tennessee River; the captures of October 29-30 at Fort Heiman and Paris Landing are outside the record. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads a supply depot garrison of approx. 4,000 against Forrest's cavalry; the live field reads 4,000 (US 4,000; CS 0). Sinclair lists the November 4 force as the 43d Wisconsin, 700 men, detachments of three colored regiments (number blank in print), 800 armed quartermaster's employees, 20 cavalry, three batteries and three gunboats. He reports Thompson's estimate of 13,000 Confederates with 36 guns and thinks it too large. Forrest describes the place as garrisoned by 'a heavy force' and the Union fire as coming from 28 guns on the gunboats and 14 on the hill.",
+      "rationale": "Sinclair's list is incomplete and its employees are not soldiers; Thompson's 13,000 is a scouting estimate. No figure for Forrest's own force was inspected. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN032"
+          },
+          "column": "forces_text",
+          "quote": "Supply depot garrison (approx. 4,000) [US]"
+        },
+        {
+          "source_id": "nps-tn032-v1",
+          "locator": "Forces Engaged",
+          "quote": "4000 total (US 4000; CS 0;)"
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "Forty-third Wisconsin Volunteers, 700 men;"
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "detachments of the Twelfth, Thirteenth, and One hundredth U. S. Colored Infantry, — men;"
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "armed quartermaster’s emi)loy6s, 800 men ;"
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "detachment of the Eleventh Tennessee Cavalry, 20 men;"
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "gun-boats Key West (32), Elfin (52), and Tawah (29)."
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "Colonel Thomiison estimated the rebel force operating on the left bank of the Tennessee at 13,000 men,"
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "I think this estimate of the rebel force is too large."
+        },
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1864-11-03",
+          "locator": "p.869 (OCR page markers; not checked against print)",
+          "quote": "is garrisoned by a heavy force."
+        },
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1865-01-12",
+          "locator": "p.871 (OCR page markers; not checked against print)",
+          "quote": "The enemy returned the fire from twenty-eight guns on their gun-boats and fourteen guns on the hill."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "river-and-banks",
+      "dimension": "terrain",
+      "value": "Sinclair says the river at Johnsonville is about 400 yards wide and straight, that hills come within 100 yards of the right bank, and that the left bank was flat and heavily wooded, uncleared before the attack. Forrest says the Union fort stood on a high hill with strong works and that his men built their batteries behind ambuscades that hid them. NPS says the Confederate guns were so well positioned the Federals could not hinder them.",
+      "rationale": "The river and wooded bank predate the action; the concealed batteries were built during it. Narrative descriptions.",
+      "citations": [
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "The river at this point is about 400 yards wide, and the course straight."
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "the left bank of the river is flat and heavily wooded, no timber having been cut down on that bank previous to the attack."
+        },
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1865-01-12",
+          "locator": "p.871 (OCR page markers; not checked against print)",
+          "quote": "The fort was situated on a high hill and in a commanding position, and defended by strong works."
+        },
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1865-01-12",
+          "locator": "p.871 (OCR page markers; not checked against print)",
+          "quote": "my men worked behind ambuseades,"
+        },
+        {
+          "source_id": "nps-tn032-v1",
+          "locator": "Description",
+          "quote": "The Rebel guns, however, were so well-positioned, the Federals were unable to hinder them."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "depot-and-stores",
+      "dimension": "logistics",
+      "value": "Johnsonville was the western terminus of the Nashville and Northwestern Railroad. Forrest on November 3 describes the landing and banks, several acres, piled with freight for Sherman's army, boats unloaded for want of room and trains running day and night, and says he had only his ordnance train and a few wagons. Sinclair says the property on the boats should have been landed between October 30 and November 4.",
+      "rationale": "Descriptions of the depot's stores and transport; no quartermaster return inspected.",
+      "citations": [
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "and is the western terminus of the I^ashville and Northwestern Eailroad."
+        },
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1864-11-03",
+          "locator": "p.869 (OCR page markers; not checked against print)",
+          "quote": "are ])iled with freight for Sherman’s army;"
+        },
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1864-11-03",
+          "locator": "p.869 (OCR page markers; not checked against print)",
+          "quote": "trains are rnnning inces¬ santly night and day in removing them."
+        },
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1864-11-03",
+          "locator": "p.869 (OCR page markers; not checked against print)",
+          "quote": "Having only my ordnance train and a few wagons for carrying cooking utensils with me,"
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "The property on the steam- boats and barges should have been landed between October 30 and November 4."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "concealment-and-estimates",
+      "dimension": "information",
+      "value": "Forrest says his movements had been so secret for twenty-four hours that the garrison seemed to think he had retired. Sinclair says Thompson's estimate of the Confederate force rested on scouts and on men captured from transports below Johnsonville. NPS says the Union discovered the batteries being finished on the afternoon of the 4th.",
+      "rationale": "Attributed knowledge from interested reports; the telegrams were read in Thomas's dispatches but not selected.",
+      "citations": [
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1865-01-12",
+          "locator": "p.871 (OCR page markers; not checked against print)",
+          "quote": "All my movements for twenty-four hours had been so secretive the enemy seemed to think I had retired,"
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "This estimate was formed upon the observation of scouts and men who were captured from the transports below John- sonville."
+        },
+        {
+          "source_id": "nps-tn032-v1",
+          "locator": "Description",
+          "quote": "The Union discovered the Confederates finishing their entrenchments and battery emplacements in the afternoon of the 4th."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "destroy-the-shipping",
+      "dimension": "objectives",
+      "value": "Forrest's November 3 report says he would try the next day to sink or destroy the gunboats and transports, and argues that blockading the river would do more for Hood than moving into Middle Tennessee. NPS says the raid aimed to check the Union advance through Georgia.",
+      "rationale": "Stated aims in an interested report and a modern summary.",
+      "citations": [
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1864-11-03",
+          "locator": "p.869 (OCR page markers; not checked against print)",
+          "quote": "will to-morrow endeavor to sink or destroy them."
+        },
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1864-11-03",
+          "locator": "p.869 (OCR page markers; not checked against print)",
+          "quote": "blockading the river here will be more detrimental to the enemy and advantageons to General Hood than to mov^e my command into Middle Tennessee;"
+        },
+        {
+          "source_id": "nps-tn032-v1",
+          "locator": "Description",
+          "quote": "In an effort to check the Union army's advance through Georgia,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Sinclair says Colonel Thompson commanded the troops and Lieutenant-Commander King the gunboats; that King ordered the disabled gunboats abandoned and burned; that Thompson, on the recommendation of King, the gunboat officers and Howland, directed Howland to burn the transports; and that Thompson and Howland are responsible for the destruction. Forrest says he ordered the simultaneous opening at 3 o'clock. The frozen commanders are Major General Forrest (CS), Colonel C.R. Thompson and Lieutenant Commander Edward M. King (US); the live page lists 'Henry Thompson' and Sinclair prints 'Col. C. E. Thompson'.",
+      "rationale": "Sinclair's responsibility finding is an inspector's post-event judgment. The live name and Sinclair's initials are not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.861 (OCR page markers; not checked against print)",
+          "quote": "was in command of the troops, and Lieutenant-Commander King of the gun-boats."
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "ant-Commander King ordered them to be abandoned and burned."
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "Colonel Thompson, ujion the recommendation of Lieutenant-Commander King and other officers of the gun-boats and Captain Howland, di¬ rected Captain Howland to destroy by fire all the transports,"
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.863 (OCR page markers; not checked against print)",
+          "quote": "Colonel Thompson and Captain Howland are responsible for the de¬ struction of the boats and other property at Johnson ville."
+        },
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1865-01-12",
+          "locator": "p.871 (OCR page markers; not checked against print)",
+          "quote": "J ordered a simultaneous assault to commence at 3 o’clock."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN032",
+            "belligerent": "Confederate",
+            "fullname": "Nathan Bedford Forrest"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN032",
+            "belligerent": "US",
+            "fullname": "C.R. Thompson"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "TN032",
+            "belligerent": "US",
+            "fullname": "Edward M. King"
+          },
+          "column": "rank",
+          "quote": "Lieutenant Commander"
+        },
+        {
+          "source_id": "nps-tn032-v1",
+          "locator": "Principal Commanders",
+          "quote": "Henry Thompson [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Forrest says the wharf was a sheet of flame for nearly a mile by night and that he withdrew having completed the work of the expedition; Sinclair says the Confederates shelled the depot on the morning of the 5th and then left the river.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN032"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-tn032-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1865-01-12",
+          "locator": "p.871 (OCR page markers; not checked against print)",
+          "quote": "By night the wharf for nearly one mile up and down the river presented one solid sheet of flame."
+        },
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1865-01-12",
+          "locator": "p.871 (OCR page markers; not checked against print)",
+          "quote": "Having completed the work designed by the expedition,"
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "After shelling the depot for a short time on the morning of the 5th of Kovember, the rebels left the river."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "destruction-attribution",
+      "dimension": "outcome",
+      "value": "Forrest says his batteries set the gunboats on fire within fifteen minutes and then set the transports in flames. Sinclair says the gunboats were burned on King's order and the transports on Thompson's direction, that the firing of the boats was premature, and that the fire spread from them to the stores on the levee. NPS says the Federals set fire to the transports for fear of capture.",
+      "rationale": "The accounts conflict on who fired the boats; the conflict is preserved and not resolved.",
+      "citations": [
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1865-01-12",
+          "locator": "p.871 (OCR page markers; not checked against print)",
+          "quote": "The gun-boats, in fifteen minutes after the engage¬ ment commenced, were set on fire,"
+        },
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1865-01-12",
+          "locator": "p.871 (OCR page markers; not checked against print)",
+          "quote": "My batteries next opened upon the transports, and in a short time they were in flames."
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "The firing of the boats was premature."
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "the fire soon extending to the large i)ile of stores on the levee,"
+        },
+        {
+          "source_id": "nps-tn032-v1",
+          "locator": "Description",
+          "quote": "Fearing that the Rebels might cross the river and capture the transports, the Federals set fire to them."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads zeros. Sinclair gives the Union loss as 8 killed and wounded and the property destroyed or captured on the river as about $2,200,000 (NPS: $2.2 million). Forrest gives his loss for the whole expedition as 2 killed and 9 wounded, the enemy's as probably 500 killed, wounded and prisoners, and $6,700,000 worth of property.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Forrest's and Sinclair's property figures cover the whole river operation of October 28-November 5, not only this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "TN032"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-tn032-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.863 (OCR page markers; not checked against print)",
+          "quote": "Our force vSiistained a loss of 8 men killed and wounded during the attack."
+        },
+        {
+          "source_id": "or39-1-sinclair-johnsonville-selections-v1",
+          "section": "sinclair-1865-01-07",
+          "locator": "p.862 (OCR page markers; not checked against print)",
+          "quote": "is about $2,200,000."
+        },
+        {
+          "source_id": "nps-tn032-v1",
+          "locator": "Description",
+          "quote": "Damages totaled $2.2 million."
+        },
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1865-01-12",
+          "locator": "p.871 (OCR page markers; not checked against print)",
+          "quote": "My loss during the entire trij) was 2 killed and 9 wounded;"
+        },
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1865-01-12",
+          "locator": "p.871 (OCR page markers; not checked against print)",
+          "quote": "that of the enemy will iirobably reach 500 killed, wounded, and prisoners."
+        },
+        {
+          "source_id": "or39-1-forrest-johnsonville-selections-v1",
+          "section": "forrest-1865-01-12",
+          "locator": "p.871 (OCR page markers; not checked against print)",
+          "quote": "$6,700,000 worth of property,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "King's naval report (No. 5; printed with the army reports, not selected), the Navy reports cited by the compiler, Thomas's No. 1 dispatches and McConnell's No. 4 investigation (read, not selected), Donaldson's No. 3 report, Chalmers's No. 10 report and Cox's Johnsonville passage (pp.15–16, whose footnote gives the garrison as about 1,000; read, not selected) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Jacob D. Cox's The March to the Sea; Franklin and Nashville (1882) is an interested history by the commander of the Twenty-third Corps' Third Division (and, at Franklin, of both divisions of that corps) that draws on official papers. Corse's, French's, R. S. Granger's, Doolittle's, Sinclair's, Forrest's, Hood's and Rousseau's reports, printed in Official Records Series I, Volumes XXXIX part 1 and XLV part 1, are separate families of interested accounts; each volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

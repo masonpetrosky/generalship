@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA028",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort McAllister II record (December 13, 1864) in the Savannah Campaign [November-December 1864]. The investment of Savannah (December 10-21) and the evacuation of the city are outside the record. Campaign-wide marches, returns, reinforcements and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads the 2nd Division, XV Corps against the Fort McAllister garrison (120 men); the live field reads zeros. Hazen says his division had an effective strength of 4,426 on November 15 and that nine regiments were deployed for the assault; he gives the garrison, including killed, as 250. Cox says three regiments from each of the three brigades assaulted and puts the garrison at about 200 under Major G. W. Anderson.",
+      "rationale": "Hazen's 4,426 is a division strength a month earlier; the garrison figures (120, about 200, 250 including killed) differ in source and basis. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA028"
+          },
+          "column": "forces_text",
+          "quote": "Fort McAllister Garrison (120 men) [CS]"
+        },
+        {
+          "source_id": "nps-ga028-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or44-hazen-fort-mcallister-selections-v1",
+          "section": "hazen-report",
+          "locator": "p.109 (OCR page markers; not checked against print)",
+          "quote": "It then numbered an effective strength of 4,426 oflicers and men,"
+        },
+        {
+          "source_id": "or44-hazen-fort-mcallister-selections-v1",
+          "section": "hazen-report",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "nine were carried forward"
+        },
+        {
+          "source_id": "or44-hazen-fort-mcallister-selections-v1",
+          "section": "hazen-report",
+          "locator": "p.111 (running head reads 'Ill' in OCR; not checked against print)",
+          "quote": "The garrison, including killed, 250 men and officers,"
+        },
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "three regiments from each brigade were detailed to make the assault."
+        },
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.51 (OCR page markers; not checked against print)",
+          "quote": "son was about two hundred men under command of Major G. W. Anderson."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fort-torpedoes-and-marsh",
+      "dimension": "terrain",
+      "value": "Cox describes a heavy earthwork commanding the river, with its gorge closed by an infantry line, the river planted with torpedoes and sub-terra shells along the land face, and the abatis not reaching below high-water mark. Hazen says the ground right of the fort was marshy and cut by deep streams, and that the assault passed torpedoes, abatis, ditches, palisading and parapet.",
+      "rationale": "The fort and its obstacles predate the assault. Narrative descriptions.",
+      "citations": [
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "It was a heavy earthwork with its principal front toward the river it was intended to command;"
+        },
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.51 (OCR page markers; not checked against print)",
+          "quote": "sub-terra shells had also been placed along the land face,"
+        },
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.54 (OCR page markers; not checked against print)",
+          "quote": "the abatis not extending be- low high-water mark."
+        },
+        {
+          "source_id": "or44-hazen-fort-mcallister-selections-v1",
+          "section": "hazen-report",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "The grounds to the right of tlie fort being marshy, cut through by deep streams,"
+        },
+        {
+          "source_id": "or44-hazen-fort-mcallister-selections-v1",
+          "section": "hazen-report",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "over, und(*r, and through abatis, ditches, x)alisading, and x^arapet,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "base-on-the-sea",
+      "dimension": "logistics",
+      "value": "Cox says Sherman's first task was to open communication with the fleet and establish a base of supplies, that bread was drawn from the trains and rice was nearly all the country furnished, and that the fort had about fifty days' rations. Hazen lists a month's supply of food among the captures and says his supply train had left Atlanta with 83 six-mule wagons. NPS says Sherman's troops sorely required supplies.",
+      "rationale": "Supply statements from an interested report, a history and a modern summary; no commissary return inspected.",
+      "citations": [
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "Sherman's first task, therefore, was to open communication with the fleet and establish a base of supplies"
+        },
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "rice was nearly the only thing the country now furnished the troops."
+        },
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.51 (OCR page markers; not checked against print)",
+          "quote": "it had been supplied with about, fifty days' rations."
+        },
+        {
+          "source_id": "or44-hazen-fort-mcallister-selections-v1",
+          "section": "hazen-report",
+          "locator": "p.111 (running head reads 'Ill' in OCR; not checked against print)",
+          "quote": "a montlfs supply of food for the garrison,"
+        },
+        {
+          "source_id": "or44-hazen-fort-mcallister-selections-v1",
+          "section": "hazen-report",
+          "locator": "p.111 (running head reads 'Ill' in OCR; not checked against print)",
+          "quote": "The supply train of this division on leaving Atlanta consisted of eighty-three six-mule wagons."
+        },
+        {
+          "source_id": "nps-ga028-v1",
+          "locator": "Description",
+          "quote": "As Sherman' s troops approached Savannah they sorely required supplies."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "picket-and-signals",
+      "dimension": "information",
+      "value": "Hazen says a picket captured about a mile from the fort revealed a line of torpedoes across the road; Cox says the same and that Sherman and Howard watched from the signal station on Cheves's mill, communicating with Hazen.",
+      "rationale": "Attributed knowledge from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or44-hazen-fort-mcallister-selections-v1",
+          "section": "hazen-report",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "a iiicket Avas ca|)tnred, revealing the Avhereabouts of a line of torpedoes across the road."
+        },
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "Hazen's men had captured a picket about a mile from the fort, and had learned of the position of a line of torpedoes in the road ;"
+        },
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "Sherman and Howard were both at the signal station on the roof of the mill, communi- cating with Hazen,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "open-the-ogeechee",
+      "dimension": "objectives",
+      "value": "Hazen was ordered to move down the right bank to Fort McAllister and capture it. Cox says the Ogeechee could not be used until the fort was taken; NPS says Sherman determined that taking the fort would let supply ships reach him.",
+      "rationale": "Stated aims from an interested report, a history and a modern summary.",
+      "citations": [
+        {
+          "source_id": "or44-hazen-fort-mcallister-selections-v1",
+          "section": "hazen-report",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "down its right bank to Fort McAllister and capture it."
+        },
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "To make use of the Ogeechee Eiver, however, would be impossible till Fort McAllister was taken,"
+        },
+        {
+          "source_id": "nps-ga028-v1",
+          "locator": "Description",
+          "quote": "Sherman determined that if he could take Fort McAllister, supply ships could reach him."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "NPS says Sherman ordered Howard to take the fort and Howard chose Hazen. Cox says Hazen delayed the attack to use portions of each of his three brigades, over Colonel W. S. Jones's wish to attack at once, and that there was no formal surrender. Hazen says Martin took command of the Second Brigade when its commander fell. The frozen commanders are Brigadier General Hazen (US) and Major George A. Anderson (CS); Cox names 'Major G. W. Anderson'.",
+      "rationale": "Direction is attributed as the sources state; Cox's initials for Anderson are not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "nps-ga028-v1",
+          "locator": "Description",
+          "quote": "Howard chose Brig. Gen. William B. Hazen to accomplish the task."
+        },
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "Jones was anxious to attack at once, but Hazen thought it wiser to make the assault with portions of each of his three brigades,"
+        },
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "There was no formal surren- der,"
+        },
+        {
+          "source_id": "or44-hazen-fort-mcallister-selections-v1",
+          "section": "hazen-report",
+          "locator": "p.111 (running head reads 'Ill' in OCR; not checked against print)",
+          "quote": "Col. James S. Martin, One hundred and eleventh Illinois, assumed command of it,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA028",
+            "belligerent": "US",
+            "fullname": "William B. Hazen"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA028",
+            "belligerent": "Confederate",
+            "fullname": "George A. Anderson"
+          },
+          "column": "rank",
+          "quote": "Major"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Hazen says the bugle sounded at 5 o'clock and the fort was carried, the garrison fighting to their bomb-proofs; Cox says it was over in fifteen minutes.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA028"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ga028-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or44-hazen-fort-mcallister-selections-v1",
+          "section": "hazen-report",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "5 o’clock the fort aa as carried."
+        },
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.54 (OCR page markers; not checked against print)",
+          "quote": "It was all over in fifteen minutes,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 205 (US 134; CS 71); the live field reads 384 (US 134; CS 250). Hazen and Cox both give Hazen's loss as 24 killed and 110 wounded. Hazen gives the captured garrison, including killed, as 250; Cox gives the garrison's loss as 48.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Hazen's 250 counts the whole garrison captured or killed, not casualties.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA028"
+          },
+          "column": "casualties_text",
+          "quote": "205 total (US 134; CS 71)"
+        },
+        {
+          "source_id": "nps-ga028-v1",
+          "locator": "Estimated Casualties",
+          "quote": "384 total (US 134; CS 250;)"
+        },
+        {
+          "source_id": "or44-hazen-fort-mcallister-selections-v1",
+          "section": "hazen-report",
+          "locator": "p.111 (running head reads 'Ill' in OCR; not checked against print)",
+          "quote": "Our losses were 24 officers and meu killed, aud 110 officers aud men wounded."
+        },
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.54 (OCR page markers; not checked against print)",
+          "quote": "Hazen's loss was 24 killed and 110 wounded ;"
+        },
+        {
+          "source_id": "or44-hazen-fort-mcallister-selections-v1",
+          "section": "hazen-report",
+          "locator": "p.111 (running head reads 'Ill' in OCR; not checked against print)",
+          "quote": "The garrison, including killed, 250 men and officers,"
+        },
+        {
+          "source_id": "cox-savannah-selections-v1",
+          "section": "fort-mcallister",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "that of the garrison was 48."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Howard's No. 7, Osterhaus's No. 11 and the brigade reports (Nos. 22–29), Sherman's No. 1 report and Special Field Orders No. 131 (read, not selected), Anderson's and other Confederate accounts, and the Navy reports remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. C. R. Woods's, G. W. Smith's, Kilpatrick's, Wheeler's, J. P. Hatch's and Hazen's reports, printed in Official Records Series I, Volume XLIV, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Jacob D. Cox's The March to the Sea; Franklin and Nashville (1882) is a later history drawing on the official papers; Cox was not in this campaign. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
