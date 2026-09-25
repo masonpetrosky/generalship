@@ -2,17 +2,18 @@
 
 Prepared 2026-09-25 under the [cohort v2](../cohort-v2.md) research order, which lists the Carolinas
 among the 1864–65 main-army campaigns. All **five records** in **Carolinas Campaign [February-March
-1865]** now have draft dossiers: **45 claims, 5 explicit null unknowns and 292 citation occurrences**.
+1865]** now have draft dossiers: **45 claims, 5 explicit null unknowns and 307 citation occurrences**
+(292 before the review correction below).
 All seven dimensions are represented in each record. All dossiers are drafts; no features are
 admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| SC011 — Rivers' Bridge | 1865-02-03 | 9 | 1 | 49 | 3 |
-| NC017 — Wyse Fork | 1865-03-07 to 03-10 | 9 | 1 | 73 | 3 + follow-up |
-| NC018 — Monroe's Cross Roads | 1865-03-10 | 9 | 1 | 51 | 3 |
-| NC019 — Averasborough | 1865-03-16 | 9 | 1 | 52 | 3 + follow-up |
-| NC020 — Bentonville | 1865-03-19 to 03-21 | 9 | 1 | 67 | 3 + follow-up |
+| SC011 — Rivers' Bridge | 1865-02-03 | 9 | 1 | 50 | 3 |
+| NC017 — Wyse Fork | 1865-03-07 to 03-10 | 9 | 1 | 76 | 3 + follow-up |
+| NC018 — Monroe's Cross Roads | 1865-03-10 | 9 | 1 | 55 | 3 |
+| NC019 — Averasborough | 1865-03-16 | 9 | 1 | 53 | 3 + follow-up |
+| NC020 — Bentonville | 1865-03-19 to 03-21 | 9 | 1 | 73 | 3 + follow-up |
 
 Dossier presence is not first-pass acceptance, separate review or model eligibility.
 
@@ -83,7 +84,9 @@ Stop after this batch.
 
 ### New source records
 
-This pass adds **23 source records**.
+This pass adds **23 source records**, and its review correction adds three metadata-only successors
+(below). The commit that added this pass (`e83348c`) also carried six metadata-only successors from
+the Franklin-Nashville and Savannah reconciliation; they are not Carolinas records.
 
 - Five NPS HTML/text pairs (`nps-sc011-v1` … `nps-nc020-v1`, with `-html` parents).
 - OR XLVII Part 1 catalog metadata and full OCR (`ia-or47-1-illinois-metadata-v1`,
@@ -93,28 +96,29 @@ This pass adds **23 source records**.
   - `or47-1-blair-salkehatchie-selections-v1`;
   - `or47-1-harrison-rivers-bridge-selections-v1`;
   - `or47-1-hardee-averasborough-selections-v1`;
-  - `or47-1-kilpatrick-carolinas-selections-v1`;
+  - `or47-1-kilpatrick-carolinas-selections-v1` (superseded by the metadata-only `-v2`);
   - `or47-1-wheeler-carolinas-selections-v1`;
-  - `or47-1-cox-kinston-selections-v1`;
+  - `or47-1-cox-kinston-selections-v1` (superseded by the metadata-only `-v2`);
   - `or47-1-bragg-kinston-selections-v1`;
   - `or47-1-slocum-carolinas-selections-v1`;
   - `or47-1-johnston-carolinas-selections-v1`;
   - `or47-1-union-casualty-return-selections-v1`.
-- A Cox selection, `cox-carolinas-selections-v1`, whose parent is `cox-march-ocr-v1`.
+- A Cox selection, `cox-carolinas-selections-v1`, whose parent is `cox-march-ocr-v1`; it is superseded by the
+  metadata-only `cox-carolinas-selections-v2`, whose parent is the metadata-only `cox-march-ocr-v2` (same
+  parent bytes).
 
 ### Independence groups
 
 - **Existing author groups reused** (following the Humphreys and G. W. Smith precedents):
-  - Cox's report joins `cox-march-to-the-sea-1882`, whose dependency note already assigns his
-    official reports to that family. His report and history are one family at Kinston, not two
+  - Cox's report and book selection join `cox-atlanta-1882` (NASH-R2), whose dependency notes assign
+    his official reports to that family. His report and history are one family at Kinston, not two
     witnesses.
-  - Kilpatrick joins `kilpatrick-savannah-report`.
+  - Kilpatrick joins `kilpatrick-atlanta-reports`, where NASH-R3 placed his Savannah report.
   - Wheeler joins `wheeler-savannah-report`.
   - Hardee joins `hardee-atlanta-reports`.
   - Johnston joins `johnston-atlanta-report`.
   - Bragg joins `bragg-chattanooga-report`.
 - Several of these authors already had more than one registered group:
-  - Kilpatrick (`kilpatrick-atlanta-reports`);
   - Johnston (`johnston-mississippi-report`);
   - Bragg (`bragg-chickamauga-reports`, plus forwarding signatures under `or-beauregard`);
   - Hardee (Shiloh documents under `or-beauregard`).
@@ -189,25 +193,35 @@ This pass adds **23 source records**.
     says he himself commanded his own and Butler's cavalry. Kilpatrick reports the Confederates
     driven in confusion; Wheeler calls the attack a decided success. The frozen result reads
     Inconclusive and the live result Indecisive.
-  - **Averasborough.** Slocum reports three guns captured; Hardee reports two abandoned.
+  - **Averasborough.** Slocum reports three guns captured; Hardee reports two abandoned. Hardee relays
+    Hampton's view that the troops fought were the Fourteenth Corps and one division of the Twentieth;
+    Slocum describes two divisions of each corps.
   - **Bentonville.** Johnston believed the Seventeenth Corps arrived on the 19th; Slocum says the
-    Right Wing arrived on the 21st. Slocum says the Mill Creek bridge was burned; NPS says it was
-    saved.
+    Right Wing came up on the morning of the 21st, though he also has Hazen's Fifteenth Corps
+    division arriving on the morning of the 20th. Slocum says the Mill Creek bridge was burned; NPS
+    says it was saved. Johnston implies four Union guns taken on the 19th (three brought off, a
+    fourth left); Slocum says three were captured.
   - **Casualty figures:**
     - Wyse Fork, Union: frozen 1,101, Cox 1,257, live 1,300 and return 1,337;
     - Averasborough: frozen 1,419 total; Slocum 564 killed and wounded; live and return 682 Union;
-      Hardee 400–500;
+      live CS 865; Hardee 400–500;
     - Bentonville, Union: frozen 1,646; return and live 1,527;
     - Bentonville, Confederate: frozen 3,092; Johnston about 2,294 from his letter's components,
-      2,462 and 2,606, the last matching the live figure;
+      2,462 and 2,606, the last matching the live figure. The 2,462 table includes rows for March 22
+      and for the cavalry on March 18 to 21, so it is not a strict three-day total; the 2,606
+      statement is headed March 19 to 21;
     - Monroe's Cross Roads: Kilpatrick's 103 prisoners lost against Wheeler's 350 taken.
 - **Command roles and ranks.**
   - The frozen Kilpatrick is a Brigadier General; his report heading reads brevet major general.
   - The frozen Wheeler is a Major General; he signs as Lieutenant-General.
   - The live NC018 page omits Hampton.
+  - The live NC017 page gives Bragg as "Major General"; the frozen rank is General.
   - The live NC020 page lists "Lieutenant Colonel Joseph Johnston" and omits Slocum.
   - At Kinston, Cox's report names only "the general commanding the department"; his history
-    identifies him as Schofield.
+    identifies him as Schofield. Cox writes in the first person only for the March 7 advance and the
+    orders of the 9th; most orders of the 8th and 10th are in the passive voice.
+  - At Monroe's Cross Roads, Kilpatrick says he reached the cavalry camp on foot; the rally and the
+    retaking of the camp and guns are narrated as "we".
   - At Bentonville, the inspected passages do not show Sherman directing on March 19.
   - None of these is adopted, and no listed commander receives automatic sole credit.
 - **Tags.** No claim is tagged `inherited`. The Salkehatchie and Southwest Creek works existed before
@@ -220,7 +234,8 @@ This pass adds **23 source records**.
   - Blair's report year reads 'I860' and is mapped to 1865.
 
   The No. 3 return is largely garbled. Its Kinston and Bentonville grand totals print components
-  that sum to them; the Averasborough 682 is read by position. Quotes preserve OCR corruption, for
+  that sum to them; the Averasborough 682 is read by position (the aggregate column's 116, 485 and 81
+  sum to it, and the 485 matches the Twentieth Corps total line). Quotes preserve OCR corruption, for
   example "Eiver", "Avere" and "0 o’clock".
 
 The five null unknowns are the five opening strengths.
@@ -230,17 +245,72 @@ cohort, the frozen baseline and both admission proposals are unchanged, with zer
 
 ## Validation
 
-- `python3 -m generalship check` passes with this batch in place.
-- `python3 -m unittest discover -s tests` passes (134 tests).
+- After the review correction, `python3 -m generalship check` passes and
+  `python3 -m unittest discover -s tests` passes (134 tests).
 
-## Separate review pending
+## Separate review
 
-No separate review has been run. The next step is a fresh-context `evidence-reviewer` assignment.
-It should be bound to the commit, the five dossier hashes and the source hashes above. It should
-cover:
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed this
+pass at commit `e83348c` as `carolinas-review-e83348c-opus-high-v1` on 2026-09-25. Its outcome
+was "corrections required": five required findings (CAR-R1 to CAR-R5) and eight advisories
+(CAR-A1 to CAR-A8). It is an AI review within its stated scope, not human historical
+adjudication, proof of source independence or feature admission.
 
-- entailment and locators;
-- the use of the No. 3 return as the targeted follow-up and the reading of its garbled totals;
-- the reuse of existing author groups where an author has more than one;
-- the null imprint year of Volume XLVII Part 1;
-- the Cox report and history as one family at Kinston.
+## Review correction
+
+Each required finding was checked against the retained selection text or the registry before
+any change; every new quote occurs once in its section, and the dossiers were regenerated from
+the builder. All five dossiers are revised under `carolinas-review-correction-2026-09-25` and
+supersede byte-for-byte archives at `data/evidence/history/<ID>.v1.json` for SC011, NC017,
+NC018, NC019 and NC020.
+
+- **CAR-R1** (registry and this memo): the Franklin-Nashville/Savannah reconciliation (NASH-R3)
+  moved Kilpatrick's Savannah report into `kilpatrick-atlanta-reports`, leaving
+  `kilpatrick-savannah-report` with only a superseded record. The `metadata_only` successor
+  `or47-1-kilpatrick-carolinas-selections-v2` (superseding v1, kept unchanged) moves this report to
+  `kilpatrick-atlanta-reports` and names the Lovejoy and Savannah records in its dependency note.
+  NC018's Kilpatrick citations move to v2.
+- **CAR-R2** (registry and this memo): NASH-R2 moved *The March to the Sea* into
+  `cox-atlanta-1882` through `cox-march-ocr-v2`. The `metadata_only` successors
+  `cox-carolinas-selections-v2` (parent `cox-march-ocr-v2`, same parent bytes; its dependency
+  note now names the registered *Atlanta* volume) and `or47-1-cox-kinston-selections-v2` move
+  both Cox records to `cox-atlanta-1882`. NC017's Cox citations move to v2. The report and history
+  remain one family at Kinston.
+- **CAR-PRIMARY-1** (the primary's pending consistency change after the Franklin-Nashville and
+  Savannah reconciliation): the same three successors; it is applied together with CAR-R1 and
+  CAR-R2.
+- **CAR-R3** (NC017 `command-roles`): Cox writes in the first person only for the March 7 advance
+  and the orders of the 9th (Thomas' brigade to Palmer's flank; breastworks extended to the left);
+  most orders of the 8th and 10th are passive. The value no longer attributes the dispositions of
+  the 8th–10th to him; two p.978 citations added.
+- **CAR-R4** (NC018 `command-roles`): Kilpatrick says he *reached* the cavalry camp on foot; the
+  rally and the retaking of the camp and guns are narrated as "we". The value is corrected; four
+  citations added (the reviewer's two, plus the swamp and the retaken camp).
+- **CAR-R5** (NC020 `casualty-records` and this memo): the "Casualties at Bentonville" table that
+  recapitulates 2,462 includes Hoke's division on March 22 (6) and the cavalry for March 18 to 21
+  (113); the 2,606 statement is headed March 19 to 21. Value and rationale say so; four
+  pp.1059–1060 citations added.
+
+Advisories:
+
+- **Adopted:** A1 (NC017: the live page gives Bragg as Major General; citation added and noted in
+  this memo), A2 (NC019 `contact-and-dispatches`: Hardee's 1.30 a.m. relay of Hampton's view that
+  the troops fought were the Fourteenth Corps and one division of the Twentieth, not adopted
+  against Slocum), A3 (NC019: the recapitulation's 116 + 485 + 81 = 682, and the 485 matches the
+  Twentieth Corps total line), A4 (NC018: the two accounts of who led the charge are in tension but
+  not strictly incompatible; still disputed), A5 (NC020 `recorded-result`: Johnston's implied four
+  guns against Slocum's three, recorded), A6 (this memo: Slocum also has Hazen's division arriving
+  on the morning of the 20th), A7 in part (SC011: the February 3 date for Mower's daylight work is
+  marked as inferred from Blair's sequence, with the February 4 citation), A8 (this memo: live CS
+  865 at Averasborough; the six Franklin-Nashville/Savannah successors in `e83348c` are named as
+  not Carolinas records).
+- **Not adopted:** the registry part of A7. The dependency note of
+  `or47-1-blair-salkehatchie-selections-v1` says the Rivers' Bridge crossing was made by the First
+  and Fourth Divisions, while Blair puts Smith's Fourth Division crossing midway between the two
+  bridges. The reviewer deferred this wording to the next revision, and it changes no family,
+  group or citation, so no successor was added for it; it remains open.
+
+The review correction adds **three source records** (`cox-carolinas-selections-v2`,
+`or47-1-cox-kinston-selections-v2`, `or47-1-kilpatrick-carolinas-selections-v2`). Citations rise
+from 292 to 307; claims (45), unknowns (5), disputed claims (16) and `inherited` tags (0) are
+unchanged. No model input, cohort file, admission proposal or baseline is changed.
