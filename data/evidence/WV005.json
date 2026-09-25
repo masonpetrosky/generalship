@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "battle_id": "WV005",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Cheat Mountain record (September 12-15, 1861) in Operations in Western Virginia [June-December 1861]. Lee's advance from Valley Mountain, the Elk Water demonstrations and his withdrawal on September 17 are context. Campaign-wide movements, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades; the live field reads zero. Reynolds puts Lee's force at 9,000 with eight to twelve guns and the column that closed on Cheat Summit at about 5,000, engaged by detachments of only about 300 from the summit. Rust says his command was 1,500-1,600 and prisoners put the enemy at 4,000-5,000; NPS says Rust faced only about 300 Federals.",
+      "rationale": "Different populations: an army estimate, a column estimate, the summit detachments engaged and Rust's column. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV005"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-wv005-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.184 (OCR page markers; p.184 inferred: no running head in OCR; the section heading follows the p.183 head; not checked against print)",
+          "quote": "On the 12th instant the enemy, 9,000 strong."
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "with eight to twelve pieces of artillery,"
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "The enemy, about 5,000 strong, now closed in on Cheat Summit,"
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "in all only about 300,"
+        },
+        {
+          "source_id": "or5-rust-cheat-mountain-selections-v1",
+          "section": "rust-1861-09-13",
+          "locator": "p.191 (OCR page markers; not checked against print)",
+          "quote": "My com- mand consisted of between 1,500 and 1,600 men."
+        },
+        {
+          "source_id": "or5-rust-cheat-mountain-selections-v1",
+          "section": "rust-1861-09-13",
+          "locator": "p.191 (OCR page markers; not checked against print)",
+          "quote": "Learned from them that the enemy was between 4,000 and 5,000 strong,"
+        },
+        {
+          "source_id": "nps-wv005-v1",
+          "locator": "Description",
+          "quote": "He actually faced only about 300 determined Federals."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "summit-works-and-paths",
+      "dimension": "terrain",
+      "value": "Reynolds says Cheat Summit and Elk Water were seven miles apart by bridle-path and eighteen by wagon-road, and that the enemy never got near enough to the field redoubt for its battery to fire. Rust describes a fort or blockhouse at the elbow of the road, intrenchments and heavy impassable abatis; NPS mentions entrenchments on the summit and in the Tygart Valley.",
+      "rationale": "Ground from the two reports and a summary; no map inspected.",
+      "citations": [
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "The two posts, Cheat Summit and Elk Water, are 7 miles apart by a bridle-path over the mountains, and 18 miles by the wagon-road, via Huttonsville ;"
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "who did not at any time succeed in getting sufiiciently near the field redoubt to give Daum’s battery an opportunity of firing into him."
+        },
+        {
+          "source_id": "or5-rust-cheat-mountain-selections-v1",
+          "section": "rust-1861-09-13",
+          "locator": "p.191 (OCR page markers; not checked against print)",
+          "quote": "A fort or block-house on the point or elbow of the road, intrenchments on the south, and outside of the intrenehments and all around up to the road heavy and impassable abatis,"
+        },
+        {
+          "source_id": "nps-wv005-v1",
+          "locator": "Description",
+          "quote": "against Brig. Gen. Joseph Reynolds's entrenchments on the summit of Cheat Mountain and in the Tygart Valley."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supply-train-and-rations",
+      "dimension": "logistics",
+      "value": "Reynolds says the enemy cut the road and telegraph, leaving a needed provision train waiting until a relief force reopened communication on the 13th. Rust says a captured assistant commissary carried a requisition for 930 rations for one regiment and a letter indicating very little subsistence, and that his column reached its position despite the rain.",
+      "rationale": "Supply statements from the two reports; the ration papers are Rust's reading of captured documents.",
+      "citations": [
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "the supply ti’ain for the mountains, loaded with provisions which were needed, waiting for an opportunity to pass up the road."
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "marched to the summit, securing the provision train and reopening our communication."
+        },
+        {
+          "source_id": "or5-rust-cheat-mountain-selections-v1",
+          "section": "rust-1861-09-13",
+          "locator": "p.191 (OCR page markers; not checked against print)",
+          "quote": "I found upon his person a requisition for 930 rations ; also a letter indicating they had very little subsistence."
+        },
+        {
+          "source_id": "or5-rust-cheat-mountain-selections-v1",
+          "section": "rust-1861-09-13",
+          "locator": "p.191 (OCR page markers; not checked against print)",
+          "quote": "Got there at the appointed time, notwithstanding the rain."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "prisoners-and-spies",
+      "dimension": "information",
+      "value": "Rust says prisoners told him the garrison knew of Lee's movements and had telegraphed for reinforcements, and that spies had evidently betrayed the expedition. Reynolds says the enemy broke the telegraph wire and cut communication with Cheat Summit. NPS says Rust became convinced he faced an overwhelming force.",
+      "rationale": "Attributed knowledge from the two reports and a summary.",
+      "citations": [
+        {
+          "source_id": "or5-rust-cheat-mountain-selections-v1",
+          "section": "rust-1861-09-13",
+          "locator": "p.191 (OCR page markers; not checked against print)",
+          "quote": "We learned from the prison- ers they were aware of your movements, and had been telegraphed for re-enforcements,"
+        },
+        {
+          "source_id": "or5-rust-cheat-mountain-selections-v1",
+          "section": "rust-1861-09-13",
+          "locator": "p.191 (OCR page markers; not checked against print)",
+          "quote": "Spies had evidently communicated our movements to the enemy."
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "broke the telegraph wire, and cut off* our communication with Colonel Kimball,"
+        },
+        {
+          "source_id": "nps-wv005-v1",
+          "locator": "Description",
+          "quote": "was convinced that he confronted an overwhelming force."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "expedition-and-relief",
+      "dimension": "objectives",
+      "value": "NPS calls it Lee's first offensive against Reynolds's entrenchments; Rust led the expedition against Cheat Mountain and concluded nothing was to be gained by occupying it. Reynolds ordered relief columns to force communication with Cheat.",
+      "rationale": "Stated aims from a summary and the two reports.",
+      "citations": [
+        {
+          "source_id": "nps-wv005-v1",
+          "locator": "Description",
+          "quote": "Gen. Robert E. Lee directed his first offensive of the war"
+        },
+        {
+          "source_id": "or5-rust-cheat-mountain-selections-v1",
+          "section": "rust-1861-09-13",
+          "locator": "p.191 (OCR page markers; not checked against print)",
+          "quote": "My own opinion is that there is nothing to be gained by occupying that mountain."
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "Determined to force a communication with Cheat,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are General Robert E. Lee and Colonel Albert Rust for the Confederates and Brigadier General Joseph Reynolds for the Union; the live page gives Lee as Major General. NPS says Lee directed the offensive and Rust led the attacks; Rust says his field officers declared an attack madness and he did not make it; Reynolds ordered the relief columns and says the enemy was under Lee.",
+      "rationale": "Command roles from a summary and the two reports; no automatic sole credit and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV005",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV005",
+            "belligerent": "Confederate",
+            "fullname": "Albert Rust"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV005",
+            "belligerent": "US",
+            "fullname": "Joseph Reynolds"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-wv005-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        },
+        {
+          "source_id": "nps-wv005-v1",
+          "locator": "Description",
+          "quote": "Col. Albert Rust (leading the attacks)"
+        },
+        {
+          "source_id": "or5-rust-cheat-mountain-selections-v1",
+          "section": "rust-1861-09-13",
+          "locator": "p.191 (OCR page markers; not checked against print)",
+          "quote": "Colonel Barton, my lieutenant-colonel, and all the field officers declared it would be madness to make an attack."
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "the enemy, under Lee, advanced on Elk Water, apparently for a general attack."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Rust says the expedition failed; Reynolds says the enemy retired in haste from Cheat on the 13th, withdrew from before Elk Water on the 14th and was driven back from Cheat on the 15th; NPS says Lee called off the attack.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV005"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-wv005-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or5-rust-cheat-mountain-selections-v1",
+          "section": "rust-1861-09-13",
+          "locator": "p.191 (OCR page markers; not checked against print)",
+          "quote": "The expedition against Cheat Mountain failed."
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "he retired in great haste and disorder,"
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "During the afternoon of the 14th the enemy withdrew from before Elk Water,"
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "attempted a flank movement by the left, but was driven back"
+        },
+        {
+          "source_id": "nps-wv005-v1",
+          "locator": "Description",
+          "quote": "Lee called off the attack"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 170 (US 80; CS 90); the live field reads 171 (US 71; CS 100). Reynolds reports near 100 of the enemy killed and about 20 taken, against his own 9 killed, 2 missing and about '00' prisoners (so read in OCR).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The OCR digits of the Union prisoner figure are illegible and are not interpreted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV005"
+          },
+          "column": "casualties_text",
+          "quote": "170 total (US 80; CS 90)"
+        },
+        {
+          "source_id": "nps-wv005-v1",
+          "locator": "Estimated Casualties",
+          "quote": "171 total (US 71; CS 100;)"
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "we have killed near 100 of the enemy, including Col. John A. Washington, aide-de-camp to General Lee, and have taken about 20 prisoners."
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-09-17",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "We have lost 9 killed, in- cluding Lieutenant Junod, Fourteenth Indiana, 2 missing, and about 00 prisoners,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Kimball's, Wagner's, Owen's and Higgins's reports, Lee's orders of September 9 and 14 (read, not selected), Henry R. Jackson's inclosed note and the Confederate returns remain deferred.",
+    "NPS/CWSAC is one family. Reynolds's September 17, 1861 report (Official Records Series I, Volume V) is one family of interested Union accounts. Rust's September 13, 1861 report to Loring (same volume) is one family of interested Confederate accounts. The Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge. No Scribner Campaigns of the Civil War volume narrates this engagement; Nicolay's Chapter XII ends with McClellan's campaign in July.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA007",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Dranesville record (December 20, 1861) in McClellan's Operations in Northern Virginia [October-December 1861]. The Confederate forage expedition and McCall's supporting movements are context. Campaign-wide movements, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades; the live field reads zero; NPS calls Stuart's force brigade-sized. Ord took his brigade, the First Rifles, Easton's battery and two cavalry squadrons, and says prisoners reported four regiments and a six-gun battery under Stuart. Stuart reported four regiments and four guns, 'say 1,200 strong', on December 21, and on December 23 an aggregate of 1,600 infantry with 150 cavalry and four guns; he put the enemy at five to ten regiments with six or seven guns ('They said 3,100') and, from citizens, fifteen regiments.",
+      "rationale": "Stuart's two figures differ, as do the gun counts. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA007"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-va007-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-va007-v1",
+          "locator": "Description",
+          "quote": "Brig. Gen. J.E.B. Stuart led a brigade-sized mixed force of cavalry, infantry, and artillery"
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.477 (OCR page markers; not checked against print)",
+          "quote": "with my brigade, the First Eifles, Lieutenant-Colonel Kanej Easton’s battery, and two squadrons of cavalry."
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.480 (OCR page markers; not checked against print)",
+          "quote": "was com- posed of the Kentucky Eifles, an Alabama, a South Carolina, and a Vir- ginia regiment, with a G-gun battery,"
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-21",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "I had four pieces and four regiments, say 1,200 strong."
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-21",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "The enemy had from five to ten regi- ments, six or seven pieces artillery. They said 3,100."
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-23",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "making an aggregate force of 1,600 in- fantry;"
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-23",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "four regiments of infantry, 150 cavalry, and a battery of four pieces of artillery,"
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-23",
+          "locator": "p.493 (OCR page markers; not checked against print)",
+          "quote": "he had fifteen regiments of infantry, several batteries, and seven companies of cav- alry."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "wooded-hill-and-road",
+      "dimension": "terrain",
+      "value": "Ord says the attack came from a thickly wooded hill on his right, with the Confederate guns about 500 yards off in a road he could enfilade. Stuart says his infantry was screened in dense pines, but his guns had no outlet from the road for a mile and the enemy's battery raked the straight road behind them.",
+      "rationale": "Ground from the two commanders' reports; the sketches are not in OCR.",
+      "citations": [
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.478 (OCR page markers; not checked against print)",
+          "quote": "whose attack was from a thickly-wooded hill on our right flank (the south)."
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.478 (OCR page markers; not checked against print)",
+          "quote": "the artillery was only about 500 yards off*, with a large force of infantry on both its flanks and in front, covered and surrounded by woods and thickets."
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.479 (OCR page markers; not checked against print)",
+          "quote": "I found by carefully observing the enemy’s fire and battery that their guns were in a road which could be enfiladed."
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-23",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "There was no outlet to right or left for a mile back by which the artillery could change its position."
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-23",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "as from its position (C) and Ihe straightness of the road in our rear it raked the latter with shell and round shot completely."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forage-and-wagons",
+      "dimension": "logistics",
+      "value": "NPS says Stuart was protecting a foraging expedition, and Stuart says his task was to cover all the wagons the army could spare, all of which reached camp safely. Ord says his brigade marched 24 miles, loaded its wagons with forage and carried its wounded back while the division's ambulances lay empty at Washington.",
+      "rationale": "Supply statements from the two commanders and a summary; no quartermaster return inspected.",
+      "citations": [
+        {
+          "source_id": "nps-va007-v1",
+          "locator": "Description",
+          "quote": "to protect a foraging expedition in the vicinity of Dranesville."
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-23",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "for the purpose of covering an expe- dition of all the wagons of our army that could be spared (after hay) to the left of Dranesville."
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-23",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "all our wagons reaching camp safely."
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.480 (OCR page markers; not checked against print)",
+          "quote": "had marched 24 miles, beaten the enemy, loaded our wagons with forage,"
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.480 (OCR page markers; not checked against print)",
+          "quote": "while I am in- formed the Pennsylvania ambulances for this division are lying empty at Washington."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "spy-suspicion-and-signs",
+      "dimension": "information",
+      "value": "Stuart says his cavalry discovered Union troops on the ridge and he suspected they were marching on Leesburg or had learned of his forage expedition through a spy. Ord says a few mounted men and a broad mass of smoke convinced him a force was preparing some mischief.",
+      "rationale": "Each commander's inference from what he saw; no intelligence record inspected.",
+      "citations": [
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-23",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "I at once suspected that he was either marching upon Leesburg or had received intelligence through a spy of our intended forage expedi- tion and was marching upon it."
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.478 (OCR page markers; not checked against print)",
+          "quote": "and a broad mass of smoke in that neighborhood, I felt pretty sure there was a force there prepar- ing some mischief."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forage-cover-and-attack",
+      "dimension": "objectives",
+      "value": "Stuart says his only way to save the wagons was a vigorous attack on the Union rear and left flank, and he withdrew when he judged the wagons out of reach. Ord says he went on to Dranesville, possibly exceeding the letter of his instructions, and covered his foraging party.",
+      "rationale": "Stated aims from the two commanders.",
+      "citations": [
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-23",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "my only way to save them was to make a vigorous attack upon his rear and left flank and to compel him to desist from such a purpose."
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-23",
+          "locator": "p.492 (OCR page markers; not checked against print)",
+          "quote": "judging, too, that I had given our wagons ample time to get out of reach of the enemy."
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.478 (OCR page markers; not checked against print)",
+          "quote": "satisfied that, though I might be exceed- ing the letter of my instructions, should I find the enemy and pick up a few you would not object."
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.478 (OCR page markers; not checked against print)",
+          "quote": "while preparing to resist any attack and to cover my foraging party,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Brigadier General J.E.B. Stuart and Brigadier General Edward O.C. Ord; the live page gives Ord as Brigadier General and 'James Stuart' without rank. Ord says he placed the guns himself and pushed the infantry forward, and that McCall arrived between 3 and 4 p.m. and directed him to continue; Reynolds's brigade arrived too late. Stuart says he directed the regiments' positions, withdrew the battery and then ordered the regiments to disengage.",
+      "rationale": "Command roles from the two reports; McCall's own reports were not selected. No automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA007",
+            "belligerent": "Confederate",
+            "fullname": "J.E.B. Stuart"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA007",
+            "belligerent": "US",
+            "fullname": "Edward O.C. Ord"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va007-v1",
+          "locator": "Principal Commanders",
+          "quote": "James Stuart [CS]"
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.479 (OCR page markers; not checked against print)",
+          "quote": "I ordered Captain Easton to right the capsized gun and bring it to the spot from which this road could be raked,"
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.479 (OCR page markers; not checked against print)",
+          "quote": "General McCall, I was informed, arrived on the field."
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.480 (OCR page markers; not checked against print)",
+          "quote": "He arrived too late, it is true, to take part in the afiair,"
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-23",
+          "locator": "p.492 (OCR page markers; not checked against print)",
+          "quote": "I sent orders to the four regimental commanders to disengage themselves from the enemy and retire slowly and in perfect order to the railroad,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory; NPS says Stuart withdrew in mid-afternoon after ensuring his wagons were safe. Ord says the enemy fled, leaving arms, horses, caissons and some dead and wounded; Stuart says he withdrew in perfect order after about two hours as enemy reinforcements arrived, and calls it a success because the wagons were saved.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA007"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va007-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-va007-v1",
+          "locator": "Description",
+          "quote": "Stuart withdrew in the mid-afternoon after ensuring that his wagons were safely in the rear."
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.479 (OCR page markers; not checked against print)",
+          "quote": "leaving their arms, a portion of their dead and wounded, clothing, 10 horses, and a quantity of artillery equipments, with 2 caissons and a limber,"
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-21",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "1 withdrew my command in perfect order from the field, carrying off nearly all the wounded."
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-23",
+          "locator": "p.492 (OCR page markers; not checked against print)",
+          "quote": "When the action had lasted about two hours I found that the enemy, being already in fonio larger than my own, was recovering from his disorder and receiving heavy re-enforcements."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 301 (US 71; CS 230). Ord reports 7 killed and 60 wounded (read 'GO' in OCR), estimates the Confederate dead left on the field at 50 to 75 and says 21 badly wounded were left behind. Stuart's table totals 43 killed, 143 wounded and 8 missing, noting that only 27 were found dead on the field, and says the enemy lost over 50 killed.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA007"
+          },
+          "column": "casualties_text",
+          "quote": "301 total (US 71; CS 230)"
+        },
+        {
+          "source_id": "nps-va007-v1",
+          "locator": "Estimated Casualties",
+          "quote": "301 total (US 71; CS 230;)"
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.480 (OCR page markers; not checked against print)",
+          "quote": "our killed (7) and wounded (GO),"
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.479 (OCR page markers; not checked against print)",
+          "quote": "Their dead left on the field is variously estimated from 50 to 75."
+        },
+        {
+          "source_id": "or5-ord-dranesville-selections-v1",
+          "section": "ord-1861-12-21",
+          "locator": "p.479 (OCR page markers; not checked against print)",
+          "quote": "The enemy left 21 of their most desperately wounded on the field,"
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-23",
+          "locator": "p.494 (OCR page markers; not checked against print)",
+          "quote": "Total - 43 143 8"
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-23",
+          "locator": "p.494 (OCR page markers; not checked against print)",
+          "quote": "as the number found dead on the field was only 27."
+        },
+        {
+          "source_id": "or5-stuart-dranesville-selections-v1",
+          "section": "stuart-1861-12-21",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s loss was over 50 killed; our killed 27."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "McCall's reports and order (read in part, not selected), the Union regimental reports (Nos. 3-9) and casualty return (No. 10), and the Confederate regimental reports remain deferred; Stuart's sketch and Ord's sketch are not in OCR.",
+    "NPS/CWSAC is one family. Ord's December 21, 1861 report (Official Records Series I, Volume V) is one family of interested Union accounts. Stuart's December 21 telegram and December 23, 1861 report (same volume) are one family of interested Confederate accounts; the same author has the registered groups stuart-bristoe-reports and stuart-gettysburg-reports. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge. No Scribner Campaigns of the Civil War volume narrating this engagement was inspected; Nicolay's volume ends in July 1861.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

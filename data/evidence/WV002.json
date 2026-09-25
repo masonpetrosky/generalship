@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "battle_id": "WV002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Hoke's Run record (July 2, 1861) in Manassas Campaign [July 1861]. Patterson's crossing at Williamsport, the July 3 occupation of Martinsburg and his later movements to Bunker Hill, Charlestown and Harper's Ferry are context. Campaign-wide movements, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades; the live field reads zero. NPS says Abercrombie's and Thomas's brigades met regiments of Jackson's brigade. Jackson says only one regiment and one gun of his command were brought into action and quotes Harper that he carried 380 men into the fight. Patterson says the force scattered was 3,500 strong, and on July 4 puts Johnston seven miles ahead with 15,000-18,000 foot, 22 guns and 650 horse, a force 'claimed in all to be thirty thousand ; in reality, thirteen thousand' after joining Bee.",
+      "rationale": "Patterson's figures describe different populations and dates from Jackson's engaged regiment. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV002"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-wv002-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-wv002-v1",
+          "locator": "Description",
+          "quote": "Abercrombie's and Thomas's brigades encountered regiments of T.J. Jackson's brigade,"
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "Only one regiment and one piece of artillery of my command were brought into action."
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "I carried but three hundred and eighty men of uiy regiment into the fight,"
+        },
+        {
+          "source_id": "or2-patterson-falling-waters-selections-v1",
+          "section": "patterson-1861-07-03",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "The force we scattered yesterday was thirty-five hundred strong,"
+        },
+        {
+          "source_id": "or2-patterson-falling-waters-selections-v1",
+          "section": "patterson-1861-07-03",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "claimed in all to be thirty thousand ; in reality, thirteen thousand."
+        },
+        {
+          "source_id": "or2-patterson-falling-waters-selections-v1",
+          "section": "patterson-1861-07-04-telegram",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "Seven miles in advance is General Johnston with 15,000 to 18,000 foot, 22 guns, and 650 horse."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "road-house-and-woods",
+      "dimension": "terrain",
+      "value": "NPS says Patterson crossed near Williamsport and marched on the main road to Martinsburg. Jackson describes skirmishing from a house and barn, an orchard on the left of the road, and Union troops advancing through fields in line and through woods as skirmishers to outflank him.",
+      "rationale": "Ground from a summary and an interested report; no map inspected.",
+      "citations": [
+        {
+          "source_id": "nps-wv002-v1",
+          "locator": "Description",
+          "quote": "crossed the Potomac River near Williamsport and marched on the main road to Martinsburg."
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "From a house and barn which we took possession of"
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "in its advance upon the orchard upon the left of the road,"
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "who were advancing through the fields in line and through the woods as skirmishers, endeavoring to out flank me,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "baggage-and-provisions",
+      "dimension": "logistics",
+      "value": "Jackson says he had his quartermaster move the baggage to the rear once he judged the enemy in force. Patterson says he halted at Martinsburg to bring up supplies, returning all his wagons for them, that provisions were limited and his transportation let him advance only a short way, and that his three-month volunteers' terms were about to expire.",
+      "rationale": "Supply statements from the two commanders; no returns inspected.",
+      "citations": [
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "Having ordered the quartermaster, Maj. John A. Harm an, to move the baggage to the rear,"
+        },
+        {
+          "source_id": "or2-patterson-falling-waters-selections-v1",
+          "section": "patterson-1861-07-04-letter",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "I have halted temporarily to bring up supplies, which will be here to-morrow, having to-day returned all my wagons for the purpose."
+        },
+        {
+          "source_id": "or2-patterson-falling-waters-selections-v1",
+          "section": "patterson-1861-07-04-letter",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "and consequently with my present transportation I can advance but a short distance before I ain compelled to halt."
+        },
+        {
+          "source_id": "or2-patterson-falling-waters-selections-v1",
+          "section": "patterson-1861-07-04-letter",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "in consequence of the term of the three months' volunteers being about to expire."
+        },
+        {
+          "source_id": "or2-patterson-falling-waters-selections-v1",
+          "section": "patterson-1861-07-03",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "I have ordered the Rhode Island Battery to come up from Williamsport with a provision train on the 5th."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stuart-note",
+      "dimension": "information",
+      "value": "Jackson says he learned at about 7½ a.m. (read '7J' in OCR) from Stuart's note that the Federals were four and one-half miles in advance and found them where Stuart said. Patterson reports the enemy's claimed strength and his own estimate of it.",
+      "rationale": "Knowledge as reported by each commander; no scouting record inspected.",
+      "citations": [
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "to the effect that the Federal troops were four and one-half miles in advance."
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "On reaching the vicinity of Falling Waters I found Federal troops in the position indicated by Col onel Stuart."
+        },
+        {
+          "source_id": "or2-patterson-falling-waters-selections-v1",
+          "section": "patterson-1861-07-03",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "claimed in all to be thirty thousand ; in reality, thirteen thousand."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "delay-or-advance",
+      "dimension": "objectives",
+      "value": "NPS says Jackson's orders were to delay the Federal advance only. Jackson says he was not to fall back unless the enemy were in force and advanced hoping to capture a small force or hold a large one until the baggage was loaded. Patterson says he meant to advance on Winchester once provisions arrived, or else abandon the country.",
+      "rationale": "Stated aims from a summary and the two commanders.",
+      "citations": [
+        {
+          "source_id": "nps-wv002-v1",
+          "locator": "Description",
+          "quote": "Jackson's orders were to delay the Federal advance only,"
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "Having received instructions from you not to fall back unless the enemy were in force,"
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "a desire to capture him should his strength not exceed a few hundred, and should he appear in force, to hold him in check until the baggage wagons. should be loaded"
+        },
+        {
+          "source_id": "or2-patterson-falling-waters-selections-v1",
+          "section": "patterson-1861-07-04-letter",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "As soon as provisions arrive I shall advance to Winchester to drive the enemy from that place, if any remain."
+        },
+        {
+          "source_id": "or2-patterson-falling-waters-selections-v1",
+          "section": "patterson-1861-07-04-letter",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "I must do this or abandon the country,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Brigadier General Thomas J. Jackson and Major General Robert Patterson; the live page gives Jackson as Major General, and Jackson signs as colonel of Virginia volunteers. Jackson says he directed Harper's regiment and Pendleton's battery and ordered the withdrawal under his instructions; Stuart's cavalry captured a Pennsylvania company. Patterson reports the pursuit to Martinsburg.",
+      "rationale": "Command roles from the two reports; no automatic sole credit and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV002",
+            "belligerent": "Confederate",
+            "fullname": "Thomas J. Jackson"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV002",
+            "belligerent": "US",
+            "fullname": "Robert Patterson"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-wv002-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Thomas Jackson [CS]"
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "T. J. JACKSON, Colonel, Virginia Volunteers, Commanding."
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "when, in obedience to my instructions, Colonel Harper grad ually fell back."
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "Colonel Stuart reports his capture of an entire company (the Fifteenth Pennsylvania Volunteers), with the exception of the captain."
+        },
+        {
+          "source_id": "or2-patterson-falling-waters-selections-v1",
+          "section": "patterson-1861-07-03",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "Entered and passed through this place to-day in hot pursuit of the enemy."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS says the Union brigades drove Jackson's regiments back slowly and he withdrew before the larger force; Jackson says he fell back as his orders required, having accomplished his purposes; Patterson says he scattered the force and pursued. NPS's statements that Patterson's later retrograde freed Johnston and contributed to the defeat at First Manassas describe campaign contribution, not this engagement's tactical result.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV002"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-wv002-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-wv002-v1",
+          "locator": "Description",
+          "quote": "withdrawing before Patterson's larger force."
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "as I had satisfied myself that the enemy were in force, and that my orders required me to retire,"
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "as my purposes were accomplished without it."
+        },
+        {
+          "source_id": "or2-patterson-falling-waters-selections-v1",
+          "section": "patterson-1861-07-03",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "The force we scattered yesterday"
+        },
+        {
+          "source_id": "nps-wv002-v1",
+          "locator": "Description",
+          "quote": "Patterson's inactivity contributed to the Union defeat at First Manassas."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 114 (US 23; CS 91); the live field reads 98 (US 73; CS 25). Patterson puts the Confederate loss at about sixty killed. Jackson quotes Harper's report of eleven wounded and nine missing and several believed dead, eight Union dead found, and Stuart's forty-nine prisoners taken with one of his own wounded and two missing.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV002"
+          },
+          "column": "casualties_text",
+          "quote": "114 total (US 23; CS 91)"
+        },
+        {
+          "source_id": "nps-wv002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "98 total (US 73; CS 25;)"
+        },
+        {
+          "source_id": "or2-patterson-falling-waters-selections-v1",
+          "section": "patterson-1861-07-03",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "and their loss about sixty killed."
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "of whom eleven are wounded and nine are missing ; several are believed to have been left dead upon the ground."
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "found eight dead bodies of the enemy."
+        },
+        {
+          "source_id": "or2-tjjackson-falling-waters-selections-v1",
+          "section": "jackson-1861-07-03",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "making a total of forty-nine. He reports one wounded and two missing."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The Union subordinate reports (Thomas, Perkins, Keim, Abercrombie, Starkweather, Jarrett, Hudson, Simpson), Johnston's transmittal and the June 28-30 returns were read (the Confederate abstract is garbled) but not selected. Nicolay's Chapter XIII mentions the skirmish at Falling Waters only in one clause and was not used.",
+    "NPS/CWSAC is one family. Patterson's July 3 and 4, 1861 dispatches (Official Records Series I, Volume II) are one family of interested Union accounts. T. J. Jackson's July 3, 1861 report (same volume) is one family of interested Confederate accounts. No Scribner history narrates the skirmish beyond a single clause in Nicolay. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

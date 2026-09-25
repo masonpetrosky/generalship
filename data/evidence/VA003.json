@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Big Bethel record (June 10, 1861) in Blockade of the Chesapeake Bay [May-June 1861]. The night march from Hampton and Newport News, the destruction of Little Bethel and the pursuit to New Market Bridge are context. Campaign-wide movements, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen and live force fields read 4,700 (US 3,500; CS 1,200). Magruder reports about 3,500 attackers (prisoners said 5,000) and his own force about 1,200 engaged and 1,400 in all, 'about one thousand two hundred men' all told. Pierce says Duryea crossed with some 850 men and Townsend followed with 650, and that a woman at a farm-house said Big Bethel was garrisoned by some 4,000.",
+      "rationale": "Point figures from the Confederate commander's dispatches and partial regimental figures from Pierce; the frozen figures resemble Magruder's but their basis is not established. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA003"
+          },
+          "column": "forces_text",
+          "quote": "4,700 total (US 3,500; CS 1,200)"
+        },
+        {
+          "source_id": "nps-va003-v1",
+          "locator": "Forces Engaged",
+          "quote": "4700 total (US 3500; CS 1200;)"
+        },
+        {
+          "source_id": "or2-magruder-big-bethel-selections-v1",
+          "section": "magruder-1861-06-10-to-walker",
+          "locator": "p.91 (OCR page markers; not checked against print)",
+          "quote": "The prisoners report their force to be 5,000. It was certainly 3,500. Ours about 1,200 en gaged ; 1,400 in all."
+        },
+        {
+          "source_id": "or2-magruder-big-bethel-selections-v1",
+          "section": "magruder-1861-06-10-to-garnett",
+          "locator": "p.92 (OCR page markers; not checked against print)",
+          "quote": "Our force, all told, about one thousand two hundred men."
+        },
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "having now upon that side of the river some 850 men."
+        },
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "Colonel Townsend, with 650 men,"
+        },
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "We soon after obtained the testimony of a woman at a farm-house that Big Bethel was garrisoned by some 4,000 men,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "creek-and-battery",
+      "dimension": "terrain",
+      "value": "NPS says the Confederates fell back to entrenchments behind Brick Kiln Creek near Big Bethel Church. Pierce found the enemy in a strong position in battery at the head of the road, and the Newport News troops were prevented from charging by a creek. Magruder mentions a precipice over which a disabled gun was thrown and a house in front that was thought to cover the enemy.",
+      "rationale": "Ground from a summary and the two reports; no map inspected. NPS calls them entrenchments to which the Confederates fell back; the inspected passages do not date their construction.",
+      "citations": [
+        {
+          "source_id": "nps-va003-v1",
+          "locator": "Description",
+          "quote": "fell back to their entrenchments behind Brick Kiln Creek, near Big Bethel Church."
+        },
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "the enemy were holding a strong position in battery at the head of the road,"
+        },
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.85 (OCR page markers; not checked against print)",
+          "quote": "made several attempts to charge the batteries, but were prevented by creek."
+        },
+        {
+          "source_id": "or2-magruder-big-bethel-selections-v1",
+          "section": "magruder-1861-06-10-to-garnett",
+          "locator": "p.91 (OCR page markers; not checked against print)",
+          "quote": "Captain Brown threw it over a precipice,"
+        },
+        {
+          "source_id": "or2-magruder-big-bethel-selections-v1",
+          "section": "magruder-1861-06-12",
+          "locator": "p.92 (OCR page markers; not checked against print)",
+          "quote": "a house in our front which was thought to afford protection to our enemy,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-and-transport",
+      "dimension": "logistics",
+      "value": "Pierce's orders gave the troops one day's rations and twenty rounds of ball cartridges; on the retreat the men were so exhausted by thirst that they left the ranks for water, and Duryea's men were completely exhausted. Magruder says his means of transportation were exceedingly limited.",
+      "rationale": "Orders and condition statements from the two reports; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "All the troops will be sup plied with one day's rations, and each man with twenty rounds of ball cartridges ;"
+        },
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.85 (OCR page markers; not checked against print)",
+          "quote": "the men being so exhausted by thirst as to rush out of the ranks wherever water was to be had."
+        },
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.85 (OCR page markers; not checked against print)",
+          "quote": "Colonel Duryea having said that his men were tired out, completely exhausted,"
+        },
+        {
+          "source_id": "or2-magruder-big-bethel-selections-v1",
+          "section": "magruder-1861-06-12",
+          "locator": "p.93 (OCR page markers; not checked against print)",
+          "quote": "Our means of transportation were exceedingly limited,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "night-march-and-reports",
+      "dimension": "information",
+      "value": "Pierce says Townsend's regiment was fired on in the dark by troops that proved to be Bendix's from Newport News, that Duryea and Washburn advised against going on because surprise was lost, and that local testimony put 4,000 men at Big Bethel. Magruder reports the prisoners' figure of 5,000 and reports of large forces on both his flanks.",
+      "rationale": "Contemporary reports as relayed by the two commanders; no signal or intelligence record inspected.",
+      "citations": [
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "who in a few minutes proved to be friends, and a portion of the forces from Newport News, commanded by Colonel Bendix."
+        },
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "was strongly advised by Duryea and Washburn not to proceed,"
+        },
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "We soon after obtained the testimony of a woman at a farm-house that Big Bethel was garrisoned by some 4,000 men,"
+        },
+        {
+          "source_id": "or2-magruder-big-bethel-selections-v1",
+          "section": "magruder-1861-06-10-to-walker",
+          "locator": "p.91 (OCR page markers; not checked against print)",
+          "quote": "Thirty-five hundred men are on my right ilauk ; 10,000 on my left."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "bethels-and-yorktown",
+      "dimension": "objectives",
+      "value": "NPS says Butler sent converging columns against the advanced outposts at Little and Big Bethel; the plan Pierce reprints was to capture the Little Bethel men, push on to Big Bethel and burn both. Magruder withdrew to Yorktown after the action because he thought it imprudent to leave Yorktown exposed.",
+      "rationale": "Stated aims from a summary, a reprinted plan and a report.",
+      "citations": [
+        {
+          "source_id": "nps-va003-v1",
+          "locator": "Description",
+          "quote": "sent converging columns from Hampton and Newport News against advanced Confederate outposts at Little and Big Bethel."
+        },
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "If we capture the Little Bethel men, push on to Big Bethel and simi larly capture them. Burn up both the Bethels."
+        },
+        {
+          "source_id": "or2-magruder-big-bethel-selections-v1",
+          "section": "magruder-1861-06-12",
+          "locator": "p.93 (OCR page markers; not checked against print)",
+          "quote": "it Was not thought prudent to leave Yorktown exposed any longer."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Colonel John B. Magruder and Colonel D.H. Hill for the Confederates and Brigadier General Ebenezer Pierce for the Union; the live page gives Magruder as Major General, and he signs as colonel commanding the Hampton Division. NPS says the Federals were under Pierce's immediate command. Pierce says he decided to follow his written instructions against his colonels' advice and later directed all forces to retire; Magruder praises Hill's 'judicious and determined action'.",
+      "rationale": "Command roles from a summary and the two reports; no listed commander receives automatic sole credit and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA003",
+            "belligerent": "Confederate",
+            "fullname": "John B. Magruder"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA003",
+            "belligerent": "Confederate",
+            "fullname": "D.H. Hill"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA003",
+            "belligerent": "US",
+            "fullname": "Ebenezer Pierce"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va003-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General John Magruder [CS]"
+        },
+        {
+          "source_id": "or2-magruder-big-bethel-selections-v1",
+          "section": "magruder-1861-06-10-to-walker",
+          "locator": "p.91 (OCR page markers; not checked against print)",
+          "quote": "J. BANKHEAD MAGRUDE1I, Colonel, Commanding Hampton Division."
+        },
+        {
+          "source_id": "nps-va003-v1",
+          "locator": "Description",
+          "quote": "The Federals, under immediate command of Brig. Gen. Ebenezer Pierce, pursued, attacked frontally along the road, and were repulsed."
+        },
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "I decided that it was my duty to follow my written instructions,"
+        },
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.85 (OCR page markers; not checked against print)",
+          "quote": "Shortly after I directed all the forces to retire."
+        },
+        {
+          "source_id": "or2-magruder-big-bethel-selections-v1",
+          "section": "magruder-1861-06-10-to-garnett",
+          "locator": "p.91 (OCR page markers; not checked against print)",
+          "quote": "Colonel Hill's judicious and determined action was worthy of his ancient glory,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Magruder says the enemy was repulsed at all points and totally routed after two hours and a half; Pierce says it became apparent the battery had been strongly reinforced and any effort to take it useless, and he directed a retreat covered by two fresh regiments; NPS says the Union forces were disorganized and retired.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA003"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va003-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or2-magruder-big-bethel-selections-v1",
+          "section": "magruder-1861-06-10-to-garnett",
+          "locator": "p.91 (OCR page markers; not checked against print)",
+          "quote": "after a very animated conflict of two hours and a half was repulsed at all points and totally routed."
+        },
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.85 (OCR page markers; not checked against print)",
+          "quote": "it became apparent that the battery had been strongly re- enforced, and that any effort to take it was useless."
+        },
+        {
+          "source_id": "nps-va003-v1",
+          "locator": "Description",
+          "quote": "The Union forces were disorganized and retired, returning to Hampton and Newport News."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 87 (US 79; CS 8); the live field reads 84 (US 76; CS 8), and NPS gives Confederate losses of 1 killed and 7 wounded. Magruder reports his own loss as one killed and seven wounded; for the enemy, ten dead found and perhaps fifty wounded on June 10, then eighteen dead found, an estimate of 25-30 killed and 150 wounded, and an enemy acknowledgment of 175 killed and wounded. Pierce reports 21 casualties from the night firing between Union columns and refers to his former report for the rest.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The night-firing casualties belong to the approach march; they overlap any Union total and must not be added to it.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA003"
+          },
+          "column": "casualties_text",
+          "quote": "87 total (US 79; CS 8)"
+        },
+        {
+          "source_id": "nps-va003-v1",
+          "locator": "Estimated Casualties",
+          "quote": "84 total (US 76; CS 8;)"
+        },
+        {
+          "source_id": "nps-va003-v1",
+          "locator": "Description",
+          "quote": "The Confederates suffered 1 killed, 7 wounded."
+        },
+        {
+          "source_id": "or2-magruder-big-bethel-selections-v1",
+          "section": "magruder-1861-06-10-to-garnett",
+          "locator": "p.92 (OCR page markers; not checked against print)",
+          "quote": "Number of killed and wounded on our side — one killed and seven wounded. Enemy — ten dead bodies found, as reported to me, and per haps fifty wounded."
+        },
+        {
+          "source_id": "or2-magruder-big-bethel-selections-v1",
+          "section": "magruder-1861-06-12",
+          "locator": "p.92 (OCR page markers; not checked against print)",
+          "quote": "I think I can safely report their loss at from twenty -five to thirty killed and one hundred and fifty wounded."
+        },
+        {
+          "source_id": "or2-magruder-big-bethel-selections-v1",
+          "section": "magruder-1861-06-12",
+          "locator": "p.92 (OCR page markers; not checked against print)",
+          "quote": "I understand the enemy acknowledge one hundred and seventy -five killed and wounded."
+        },
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "making a total, 21."
+        },
+        {
+          "source_id": "or2-pierce-big-bethel-selections-v1",
+          "section": "pierce-1861-06-12",
+          "locator": "p.85 (OCR page markers; not checked against print)",
+          "quote": "For killed, wounded, and missing please refer to my former report."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Butler's June 10 and June 16 reports and casualty table (No. 1), Townsend's, Bendix's and Kilpatrick's reports, and D.H. Hill's, Stuart's, Randolph's, Montague's and Werth's reports remain deferred; Pierce's 'former report' of losses is not in the inspected pages.",
+    "NPS/CWSAC is one family. Pierce's June 12, 1861 report (Army Official Records Series I, Volume II) is one family of interested Union accounts. Magruder's June 10 and June 12, 1861 dispatches and report (same volume) are one family of interested Confederate accounts. The Army and Navy Official Records volumes are shared containers, not additional witnesses, and reprints of a report in the other compilation are copies. Report dates are not event times or proof of contemporary knowledge. No Scribner history narrates this engagement; Nicolay's The Outbreak of Rebellion mentions Great Bethel only in passing.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

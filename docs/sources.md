@@ -74,6 +74,22 @@ from different campaigns under separate independence groups (for example
 witness family: they never count as independent corroboration of each other, whatever their group
 names.
 
+### 1861 Eastern first passes (cohort v2), 2026-09-25
+
+The first passes for six 1861 campaigns add **78 records**: Charleston Harbor, the Chesapeake,
+Western Virginia, Manassas, the Carolina coast and McClellan's Northern Virginia operations (memos
+`docs/research/{charleston,chesapeake,western-virginia,manassas,carolina-coast,northern-virginia}-1861-first-pass-v1.md`).
+The records are:
+
+- seventeen NPS HTML/text pairs;
+- Nicolay, *The Outbreak of Rebellion* (1881): catalog metadata, full OCR and selections;
+- Official Records Series I, Volumes I and II (University of California scans; the Illinois
+  identifiers are Series II and III volumes) and Volume V: catalog metadata and full OCR;
+- Official Records of the Navies, Series I, Volumes 4–6: catalog metadata and full OCR;
+- thirty report selections.
+
+No model inputs are changed.
+
 ### Plymouth and Fort Fisher first passes (cohort v2), 2026-09-25
 
 The first passes for Plymouth (1864), the December 1864 Fort Fisher expedition and Fort Fisher and

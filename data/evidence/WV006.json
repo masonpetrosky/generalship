@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "battle_id": "WV006",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Carnifex Ferry record (September 10, 1861) in Operations in Western Virginia [June-December 1861]. The advance from Clarksburg, the September 11 occupation of Floyd's camp and the pursuit across the Gauley are context. Campaign-wide movements, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades; the live field reads zero. NPS says Rosecrans moved three brigades south. Floyd says Rosecrans came with ten regiments, estimated at 8,000-9,000, against less than 2,000 engaged, and later that he had 1,800. Rosecrans reports Floyd's force as five regiments besides one driven in, with probably sixteen guns; papers found in camp showed at least five regiments, two batteries and a battalion of cavalry.",
+      "rationale": "Each side's estimate of the other and Floyd's own round figures; no return for either side. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV006"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-wv006-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-wv006-v1",
+          "locator": "Description",
+          "quote": "Brig. Gen. William S. Rosecrans moved three brigades south from Clarksburg to support him."
+        },
+        {
+          "source_id": "or5-floyd-carnifex-selections-v1",
+          "section": "floyd-1861-09-12",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "at the head of ten regiments,"
+        },
+        {
+          "source_id": "or5-floyd-carnifex-selections-v1",
+          "section": "floyd-1861-09-12",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s force is estimated certainly between 8,000 and 9,000 inen, whilst our force engaged was less than 2,000."
+        },
+        {
+          "source_id": "or5-floyd-carnifex-selections-v1",
+          "section": "floyd-1861-09-12",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "if I could have com- manded the services of 5,000 men instead of 1,800, which I had,"
+        },
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-11",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "His force was five regiments, besides the one driven in. He had probably sixteen pieces of artillery."
+        },
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-21",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "Papers found in camp showed that Floyd’s force consisted of at least five regiments, two batteries, and a battalion of cavalry,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "intrenchments-and-gorge",
+      "dimension": "terrain",
+      "value": "Rosecrans found Floyd strongly intrenched behind a forest too dense to see beyond 300 yards, and describes the Gauley there as running through a deep gorge with the ferry 370 feet wide. Floyd says he built a temporary breastwork and that his extended lines left no reserve.",
+      "rationale": "Ground from the two commanders' reports; no plan inspected. Floyd built the breastwork before the attack.",
+      "citations": [
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-11",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "We found him occupying a strongly intrenched position, covered by a forest too dense to admit its being seen at a dis- tance of 300 yards."
+        },
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-21",
+          "locator": "p.131 (OCR page markers; not checked against print)",
+          "quote": "The Gauley here runs through a deep gorge,"
+        },
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-21",
+          "locator": "p.131 (OCR page markers; not checked against print)",
+          "quote": "Finding we had no means whatever of crossing the ferry, which is here 370 feet wide, pursuit was impossible,"
+        },
+        {
+          "source_id": "or5-floyd-carnifex-selections-v1",
+          "section": "floyd-1861-09-12",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "succeeded somewhat better in the construction of a temporary breastwork."
+        },
+        {
+          "source_id": "or5-floyd-carnifex-selections-v1",
+          "section": "floyd-1861-09-12",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "Our lines were necessarily very extended for the purpose of protecting onr posi- tion, and when manned left not one man for reserve."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "march-and-means",
+      "dimension": "logistics",
+      "value": "Rosecrans says his column marched 17½ miles (read '17^' in OCR) on the day of battle and fought for three hours, after weeks of marching and sleeping without tents, and that it had no material to repair the bridge. Floyd says he failed to obtain reinforcement.",
+      "rationale": "Condition statements from the two commanders; no returns inspected.",
+      "citations": [
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-11",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "We yesterday marched 17^ miles,"
+        },
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-21",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "That on the day of battle they should have marched 17^ miles and then fought a battle of three hours,"
+        },
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-21",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "sleeping in heavy dews and cold rains, not unfrequently without tents,"
+        },
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-11",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "having no material tor immediately repairing the bridge,"
+        },
+        {
+          "source_id": "or5-floyd-carnifex-selections-v1",
+          "section": "floyd-1861-09-12",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "I failed in procuring re-enforcement,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "prisoners-and-contraband",
+      "dimension": "information",
+      "value": "Rosecrans says cavalry prisoners told him Floyd was strongly intrenched and confident, that the extent of the works was very imperfectly known at dusk, and that a runaway contraband reported Floyd's night crossing. Floyd says he was fully aware of the Union advance.",
+      "rationale": "Knowledge as each commander reports it; no scouting record inspected.",
+      "citations": [
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-21",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "from whom we found that Floyd was strongly intrenched and confident of holding his posi- tion against great odds"
+        },
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-21",
+          "locator": "p.131 (OCR page markers; not checked against print)",
+          "quote": "the strength and condition of the rebels, as well as the extent of their works, very imperfectly known."
+        },
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-11",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "a runaway contraband came in and reported that the euemy had crossed the Gauley during the night"
+        },
+        {
+          "source_id": "or5-floyd-carnifex-selections-v1",
+          "section": "floyd-1861-09-12",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "of ’whose advance I was fully aware,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-and-defense",
+      "dimension": "objectives",
+      "value": "Rosecrans directed Benham to feel the enemy closely but not engage unless he saw an evident opening, and had Cox make a diversion. Floyd says he meant to hold with reinforcements and believed he could have marched into the Kanawha valley had Wise's column come up.",
+      "rationale": "Stated aims and counterfactual claims from the two commanders.",
+      "citations": [
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-21",
+          "locator": "p.130 (OCR page markers; not checked against print)",
+          "quote": "He was directed to be very careful to feel the enemy closely, but not to engage him unless he saw an evident opening."
+        },
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-21",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "General Cox had been instructed, on hearing the fire of our can- non, to operate a diversion"
+        },
+        {
+          "source_id": "or5-floyd-carnifex-selections-v1",
+          "section": "floyd-1861-09-12",
+          "locator": "p.146 (OCR page markers; not checked against print)",
+          "quote": "I made an effort to strengthen myself, first by re- enforcement, and secondly by intrenchments"
+        },
+        {
+          "source_id": "or5-floyd-carnifex-selections-v1",
+          "section": "floyd-1861-09-12",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "I am very confident that I could have beaten the enemy and have marched directly to the valley of Kanawha if the re enforcements from General Wise’s column had come up when ordered"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Brigadier General John Floyd and Brigadier General William S. Rosecrans; the live page gives Rosecrans as Major General. Rosecrans says he directed the brigades and decided to withdraw from the woods at dusk; Floyd says he decided to recross the Gauley, his report being signed by his adjutant because of an injury; NPS says Floyd blamed Wise.",
+      "rationale": "Command roles from the two commanders; no automatic sole credit and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV006",
+            "belligerent": "Confederate",
+            "fullname": "John Floyd"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV006",
+            "belligerent": "US",
+            "fullname": "William S. Rosecrans"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-wv006-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General William Rosecrans [US]"
+        },
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-21",
+          "locator": "p.131 (OCR page markers; not checked against print)",
+          "quote": "Under these circumstances I deemed it prudent to withdraw our forces from the woods"
+        },
+        {
+          "source_id": "or5-floyd-carnifex-selections-v1",
+          "section": "floyd-1861-09-12",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "I therefore determined at once to recross the Gauley Eiver and take position upon the left bank,"
+        },
+        {
+          "source_id": "or5-floyd-carnifex-selections-v1",
+          "section": "floyd-1861-09-12",
+          "locator": "p.148 (OCR page markers; not checked against print)",
+          "quote": "This is signed by Adjutant Peters, because an injury prevents my holding a pen."
+        },
+        {
+          "source_id": "nps-wv006-v1",
+          "locator": "Description",
+          "quote": "Floyd blamed his defeat on his co-commander Brig. Gen. Henry Wise,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS says darkness halted several hours' fighting and Union artillery convinced Floyd to retreat. Floyd says he repulsed five assaults and recrossed without losing a gun; Rosecrans says the enemy crossed the Gauley in the night and his troops took the camp with prisoners, colors and stores.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV006"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-wv006-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-wv006-v1",
+          "locator": "Description",
+          "quote": "Darkness halted several hours' fighting."
+        },
+        {
+          "source_id": "or5-floyd-carnifex-selections-v1",
+          "section": "floyd-1861-09-12",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "We repulsed them in five distinct and successive assaults,"
+        },
+        {
+          "source_id": "or5-floyd-carnifex-selections-v1",
+          "section": "floyd-1861-09-12",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "which I accomplished without the loss of a gun or any accident whatever."
+        },
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-11",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "capturing a few prisoners, two stands of colors, a considerable quantity of arms and quartermaster’s stores, messing and camp equipage."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 250 total; the live field reads 190 (US 158; CS 32). Rosecrans estimated 20 killed and 100 wounded on September 11 and gives 16 killed and 100 wounded in his September 21 report; Floyd reports only 20 wounded on his side.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV006"
+          },
+          "column": "casualties_text",
+          "quote": "250 total"
+        },
+        {
+          "source_id": "nps-wv006-v1",
+          "locator": "Estimated Casualties",
+          "quote": "190 total (US 158; CS 32;)"
+        },
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-11",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "Our loss would jrrobably amount to 20 killed and 100 wounded."
+        },
+        {
+          "source_id": "or5-rosecrans-kanawha-selections-v1",
+          "section": "rosecrans-1861-09-21",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "amounting in the aggregate to 16 killed and 100 wounded."
+        },
+        {
+          "source_id": "or5-floyd-carnifex-selections-v1",
+          "section": "floyd-1861-09-12",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "was only 20 men wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The brigade and regimental reports (Nos. 2-13), the No. 14 casualty statement, Wise's September 11 letter and the rest of his October 26 report were read at most in part and not selected.",
+    "NPS/CWSAC is one family. Rosecrans's September 11 telegram and September 21, 1861 report (Official Records Series I, Volume V) are one family of interested Union accounts. Floyd's September 12, 1861 report, signed by his adjutant (same volume), is one family of interested Confederate accounts. The Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge. No Scribner Campaigns of the Civil War volume narrates this engagement; Nicolay's Chapter XII ends with McClellan's campaign in July.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Sewell's Point record (May 18-19, 1861) in Blockade of the Chesapeake Bay [May-June 1861]. The blockade of Hampton Roads and the reinforcement of the Norfolk posts are context. Campaign-wide movements, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Two gunboats [US]; battery garrison [CS]'; the live field reads zero. Gwynn says the Monticello carried three guns, one a heavy 10-inch Dahlgren, joined on the 18th by a steam tug with one gun, and that by 5 p.m. on the 19th three 32-pounders and two small rifled guns were in the battery with detachments of infantry and artillery. Eagle says the battery was masked with thirteen embrasures and that the Confederates had three rifled cannon.",
+      "rationale": "Vessel and gun counts, not personnel; the two reports differ on the battery's guns. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA001"
+          },
+          "column": "forces_text",
+          "quote": "Two gunboats [US]; battery garrison [CS]"
+        },
+        {
+          "source_id": "nps-va001-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-report",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "The Monticello carried three guns, one of which was a heavy 10-inch Dahlgren."
+        },
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-report",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "a steam -tug, from Old Point, carrying one gun, came to her aid,"
+        },
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-report",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "by 5 p. m. succeeded in getting three 32-pouuders and two small rifled guns into position, while detachments of infantry and artillery, ordered from neighboring posts, occupied the battery and contiguous points."
+        },
+        {
+          "source_id": "orn5-eagle-sewells-point-selections-v1",
+          "section": "eagle-1861-05-19",
+          "locator": "p.645 (OCR page markers; not checked against print)",
+          "quote": "The battery is masked, thirteen embrasures liav- ing been elected behind a sand bank."
+        },
+        {
+          "source_id": "orn5-eagle-sewells-point-selections-v1",
+          "section": "eagle-1861-05-19",
+          "locator": "p.645 (OCR page markers; not checked against print)",
+          "quote": "The rebels had three rifled can¬ non"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "unfinished-battery",
+      "dimension": "terrain",
+      "value": "Gwynn says the battery was unfinished and not advanced enough on the 18th to receive its armament, and that on the 19th shot passed through the embrasures and struck the merlons. Eagle describes a masked battery behind a sand bank.",
+      "rationale": "Works described by the two opposing reports; no plan inspected. The battery was under construction during the action.",
+      "citations": [
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-report",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "This battery was not sufficiently advanced at the time to receive its arma ment and garrison."
+        },
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-report",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "solid shot re peatedly passed through the embrasures and struck the crest and sides of the merlons,"
+        },
+        {
+          "source_id": "orn5-eagle-sewells-point-selections-v1",
+          "section": "eagle-1861-05-19",
+          "locator": "p.645 (OCR page markers; not checked against print)",
+          "quote": "The battery is masked, thirteen embrasures liav- ing been elected behind a sand bank."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "guns-and-ammunition",
+      "dimension": "logistics",
+      "value": "Gwynn says no guns were mounted or nearer than Norfolk on the 18th, that he sent three guns and two rifled cannon forward, and that he wanted six hundred laborers. Eagle says he expended 114 shots and desisted only for want of ammunition, with five 8-pound charges left for the pivot gun.",
+      "rationale": "Supply statements from the two commanders' reports; no ordnance returns inspected.",
+      "citations": [
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-telegram",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "There were at that time no guns mounted or nearer than Norfolk."
+        },
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-telegram",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "I sent forward three guns immediately and two of the rifled cannon."
+        },
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-telegram",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "Want six hundred laborers,"
+        },
+        {
+          "source_id": "orn5-eagle-sewells-point-selections-v1",
+          "section": "eagle-1861-05-19",
+          "locator": "p.644 (OCR page markers; not checked against print)",
+          "quote": "making a total of 114 shots,"
+        },
+        {
+          "source_id": "orn5-eagle-sewells-point-selections-v1",
+          "section": "eagle-1861-05-19",
+          "locator": "p.644 (OCR page markers; not checked against print)",
+          "quote": "I only desisted for want of ammunition, having only 5 8-pound charges remaining for the pivot gun."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "observation",
+      "dimension": "information",
+      "value": "Eagle says he heard blows at 5:30 p.m. on the 19th as timber platforms were being secured inside the embrasures and ordered a shot fired over them. Gwynn says the Monticello apparently did not suspect the operations going forward and that he could not discover what damage the enemy sustained.",
+      "rationale": "Each commander's account of what he observed; no signal or message record inspected.",
+      "citations": [
+        {
+          "source_id": "orn5-eagle-sewells-point-selections-v1",
+          "section": "eagle-1861-05-19",
+          "locator": "p.644 (OCR page markers; not checked against print)",
+          "quote": "1 heard distinct blows, as it from an ax, securing timber platforms for gun carriages inside of the embrasures,"
+        },
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-report",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "During all this time the Mouticello, apparently not suspecting the operations going forward,"
+        },
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-report",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "What damage or loss was sustained by the enemy I was not able to discover,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "blockade-and-battery",
+      "dimension": "objectives",
+      "value": "NPS says the gunboats dueled with the batteries in an attempt to enforce the blockade of Hampton Roads. Gwynn says he hurried the guns to Sewell's Point to expedite the works and afterwards ordered more troops forward to defend the post against further assaults. Eagle says he was satisfied he could have silenced the battery.",
+      "rationale": "Stated aims from a summary and the two reports.",
+      "citations": [
+        {
+          "source_id": "nps-va001-v1",
+          "locator": "Description",
+          "quote": "in an attempt to enforce the blockade of Hampton Roads."
+        },
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-report",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "repaired to SewelPs Point, to expedite the works for their reception,"
+        },
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-report",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "I ordered forward more troops,"
+        },
+        {
+          "source_id": "orn5-eagle-sewells-point-selections-v1",
+          "section": "eagle-1861-05-19",
+          "locator": "p.644 (OCR page markers; not checked against print)",
+          "quote": "1 am satisfied 1 could have sileuced the battery"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Brigadier General Walter Gwynn and Captain Peyton Colquitt for the Confederates and Lieutenant D.L. Braine (navy) for the Union; the live page lists Braine and Gwynn. Gwynn says he gave Colquitt command of all forces and guns at the post and returned to Norfolk before the May 19 fire. Eagle signs as commanding the Star [Monticello] and says Braine had charge of the pivot gun.",
+      "rationale": "Roles from the two reports: the listed Union commander appears as the pivot-gun officer under Eagle. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA001",
+            "belligerent": "Confederate",
+            "fullname": "Walter Gwynn"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA001",
+            "belligerent": "Confederate",
+            "fullname": "Peyton Colquitt"
+          },
+          "column": "rank",
+          "quote": "Captain"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA001",
+            "belligerent": "US",
+            "fullname": "D.L. Braine"
+          },
+          "column": "rank",
+          "quote": "Lieutenant"
+        },
+        {
+          "source_id": "nps-va001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant Daniel Braine [US]"
+        },
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-report",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "WTith instructions to Captain Colquitt, of Georgia, to whom, gave the command of all the forces and guns at the post,"
+        },
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-report",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "I returned to Norfolk."
+        },
+        {
+          "source_id": "orn5-eagle-sewells-point-selections-v1",
+          "section": "eagle-1861-05-19",
+          "locator": "p.645 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant Daniel L. Braine, who had charge ol our pivot,"
+        },
+        {
+          "source_id": "orn5-eagle-sewells-point-selections-v1",
+          "section": "eagle-1861-05-19",
+          "locator": "p.645 (OCR page markers; not checked against print)",
+          "quote": "Henry Eagle, Captain , and Commanding"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive; NPS says the two sides did each other little harm. Gwynn says the Monticello was driven off after an hour and a half and that her retreat showed the fire had become too warm; Eagle says the action lasted one hour and fifteen minutes and that he withdrew only for want of ammunition.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA001"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va001-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-va001-v1",
+          "locator": "Description",
+          "quote": "The two sides did each other little harm."
+        },
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-report",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "It was instantly returned, and with such effect that she was driven off and returned to Old Point."
+        },
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-report",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "his retreat indicated that our fire had become too warm for further endur ance."
+        },
+        {
+          "source_id": "orn5-eagle-sewells-point-selections-v1",
+          "section": "eagle-1861-05-19",
+          "locator": "p.645 (OCR page markers; not checked against print)",
+          "quote": "The action continued from 5:30 p. m. to 0:45 p. m., a duration of one hour and fifteen minutes."
+        },
+        {
+          "source_id": "orn5-eagle-sewells-point-selections-v1",
+          "section": "eagle-1861-05-19",
+          "locator": "p.644 (OCR page markers; not checked against print)",
+          "quote": "1 regret that want of ammunition com¬ pelled me to retire,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 10 total; the live field reads zero. Gwynn says no casualty of moment occurred and the battery took no material injury; Eagle reports two men slightly wounded and the ship struck five times by rifled shot.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen 10 has no inspected basis.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA001"
+          },
+          "column": "casualties_text",
+          "quote": "10 total"
+        },
+        {
+          "source_id": "nps-va001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or2-gwynn-sewells-point-selections-v1",
+          "section": "gwynn-1861-05-20-report",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "no casualty of moment occurred to the troops, nor was material injury done to the battery."
+        },
+        {
+          "source_id": "orn5-eagle-sewells-point-selections-v1",
+          "section": "eagle-1861-05-19",
+          "locator": "p.645 (OCR page markers; not checked against print)",
+          "quote": "two men were slightly wounded during the action."
+        },
+        {
+          "source_id": "orn5-eagle-sewells-point-selections-v1",
+          "section": "eagle-1861-05-19",
+          "locator": "p.645 (OCR page markers; not checked against print)",
+          "quote": "was struck five times by rifled cannon shot in the hull and upper works."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Colquitt's May 19 report, Stringham's May 19 report, Braine's May 22 statement on the Thomas Freeborn and Dahlgren's May 30 report on shell fragments were read but not selected; the May 18 exchange is recorded only in Gwynn's account.",
+    "NPS/CWSAC is one family. Gwynn's May 20, 1861 telegram and report (Army Official Records Series I, Volume II) are one family of interested Confederate accounts. Eagle's May 19 report (Navy Official Records Series I, Volume 5) is one family of interested Union accounts. The Army and Navy Official Records volumes are shared containers, not additional witnesses, and reprints of a report in the other compilation are copies. Report dates are not event times or proof of contemporary knowledge. No Scribner history narrates this engagement; Nicolay's The Outbreak of Rebellion mentions Great Bethel only in passing.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

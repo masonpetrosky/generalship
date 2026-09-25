@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "battle_id": "WV007",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Greenbrier River record (October 3, 1861) in Operations in Western Virginia [June-December 1861]. The October 2-3 night march from Cheat Mountain and the return to Cheat Summit are context. Campaign-wide movements, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades; the live field reads zero. NPS says Reynolds advanced with two brigades. Reynolds gives his force as about 5,000, four regiments reduced to about half strength, and the enemy's as about 9,000. Jackson estimated the attackers at 5,000 on October 3 and at 6,000-7,000 on October 7, with the column against his right at some 4,000; he gives no count of his own.",
+      "rationale": "Each side's estimates; no return inspected. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV007"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-wv007-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-wv007-v1",
+          "locator": "Description",
+          "quote": "Brig. Gen. Joseph Reynolds with two brigades advanced from Cheat Mountain"
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-10-04",
+          "locator": "p.220 (OCR page markers; not checked against print)",
+          "quote": "in all about 5,000."
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-10-04",
+          "locator": "p.220 (OCR page markers; not checked against print)",
+          "quote": "the last four being reduced by con- tinuous hard service and sickness to about half regiments"
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-10-04",
+          "locator": "p.221 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s force was about 9,000,"
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-03",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "in considerable force, estimated at 5,000,"
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "numbering, at a safe estimate, from 6,000 to 7,000 men,"
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "to some 4,000 men."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "camp-bartow-works",
+      "dimension": "terrain",
+      "value": "Jackson says his position was not naturally commanding, with lines of not less than a mile to defend, and that his works were only partly complete, nothing done on his right flank or rear; a ditch and embankment built under Taliaferro sheltered one brigade. Reynolds put his batteries about 700 yards from the intrenchments.",
+      "rationale": "Ground from the two reports; no map inspected. The works were under construction when attacked.",
+      "citations": [
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "defending extended lines on onr front (not less than a mile) and on oiir flanks,"
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "The works essential to our safety were in progress of construction at the time of the attack, but were only partially completed, nothing whatever having been done to strengthen our right flank or our rear."
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "constructed under the immediate supervision ^ of Colonel Taliaferro himself,"
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-10-04",
+          "locator": "p.221 (OCR page markers; not checked against print)",
+          "quote": "our batteries promi)tly took their positions within about 700 yards of the intrenchments and opened fire."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "march-guns-and-cavalry",
+      "dimension": "logistics",
+      "value": "Reynolds says his force marched 24 miles and was under fire four hours. Jackson says he could bring no more than five guns against eight, had no cavalry to pursue, and believed the attackers carried four days' cooked rations.",
+      "rationale": "Condition statements from the two reports; Jackson's statement about Union rations is his inference.",
+      "citations": [
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-10-04",
+          "locator": "p.221 (OCR page markers; not checked against print)",
+          "quote": "having marched 24 miles and been under the enemy’s fire four hours."
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "at no time could we bring more than five pieces ’ into action to return the fire of the enemy’s eight."
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "The relative weakness of our force and the entire absence of cavalry prevented our pursuing him,"
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "with four days’ cooked rations in his haversacks"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "fears-and-observation",
+      "dimension": "information",
+      "value": "Jackson says he feared another column had crossed the mountains to turn his right, thought his fortifying had invited the attack, and had lost communication with Loring for several days. Reynolds says he saw heavy reinforcements arrive while in front of the works.",
+      "rationale": "Each commander's report of his own perceptions; no signal record inspected.",
+      "citations": [
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "my mind could not dispossess itself of the idea that he had sent another column over the mountains to turn our right flank."
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "N'ot doubting that the attack upon us had been to some extent invited by our commencing to fortify ourselves against it,"
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-03",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "for several days my correspondence with General Loring has been interrupted."
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-10-04",
+          "locator": "p.221 (OCR page markers; not checked against print)",
+          "quote": "we distinctly saw heavy re-enforcements of infantry and artillery arrive while we were in front of the works."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-or-assault",
+      "dimension": "objectives",
+      "value": "NPS and Reynolds call the movement an armed reconnaissance, and Reynolds says its object was fully accomplished. Jackson describes an enemy that came to bombard and storm his camp.",
+      "rationale": "The two sides characterize the Union aim differently; the attacker's stated aim is not adopted as proven.",
+      "citations": [
+        {
+          "source_id": "nps-wv007-v1",
+          "locator": "Description",
+          "quote": "to reconnoiter the Confederate position at Camp Bartow on the Greenbrier River."
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-10-04",
+          "locator": "p.220 (OCR page markers; not checked against print)",
+          "quote": "to make an armed reconnaissance of the enemy’s position on the Greenbrier River, 12 miles in advance."
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-10-04",
+          "locator": "p.221 (OCR page markers; not checked against print)",
+          "quote": "after having fully and successfiilly accomplished the object of the expedition"
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "the enemy, who had come with artillery to bombard and demoralize us, with infantry to storm our camp,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Brigadier General Henry R. Jackson and Brigadier General Joseph Reynolds. Jackson says Colonel Edward Johnson commanded the advance guard in person and that he himself disposed the regiments; Reynolds describes directing the advance and the withdrawal.",
+      "rationale": "Command roles from the two reports; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV007",
+            "belligerent": "Confederate",
+            "fullname": "Henry R. Jackson"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV007",
+            "belligerent": "US",
+            "fullname": "Joseph Reynolds"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-wv007-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Henry Jackson [CS]"
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "by Col. Edward Johnson, of the Twelfth Georgia Eegiment, who took command in person."
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "I disposed of my en- « tire force to meet it."
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-10-04",
+          "locator": "p.221 (OCR page markers; not checked against print)",
+          "quote": "retired leisurely and in good order to Cheat Mountain,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Reynolds says he retired in good order after disabling three guns; Jackson says the attack was repulsed and the whole enemy force retreated in confusion; NPS says Reynolds withdrew after sporadic fighting and an abortive attempt on the Confederate right.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV007"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-wv007-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-10-04",
+          "locator": "p.221 (OCR page markers; not checked against print)",
+          "quote": "We dis- abled three of his guns,"
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-03",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "he was repulsed, evidently with consider- able loss."
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "retreated in confusion along the road"
+        },
+        {
+          "source_id": "nps-wv007-v1",
+          "locator": "Description",
+          "quote": "After sporadic fighting and an abortive attempt to turn his enemy's right flank, Reynolds withdrew to Cheat Mountain."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 80 (US 40; CS 40); the live field reads 95 (US 43; CS 52). Reynolds reports his own loss as 8 killed and 32 wounded and believes the enemy's reached at least 300, with 13 prisoners taken; Jackson reports his own as not exceeding 50 and estimates the enemy's at 250-300.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV007"
+          },
+          "column": "casualties_text",
+          "quote": "80 total (US 40; CS 40)"
+        },
+        {
+          "source_id": "nps-wv007-v1",
+          "locator": "Estimated Casualties",
+          "quote": "95 total (US 43; CS 52;)"
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-10-04",
+          "locator": "p.221 (OCR page markers; not checked against print)",
+          "quote": "Our loss was surprisingly small — 8 killed and 32 wounded"
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-10-04",
+          "locator": "p.221 (OCR page markers; not checked against print)",
+          "quote": "it is believed the number reached at least 300."
+        },
+        {
+          "source_id": "or5-reynolds-cheat-greenbrier-selections-v1",
+          "section": "reynolds-1861-10-04",
+          "locator": "p.221 (OCR page markers; not checked against print)",
+          "quote": "We took 13 prisoners."
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "Our own, I am happy to say, was very inconsiderable, not exceeding 50 in all."
+        },
+        {
+          "source_id": "or5-hrjackson-greenbrier-selections-v1",
+          "section": "jackson-1861-10-07",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "His loss in killed and wounded is estimated at from 250 to 300,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Kimball's and Richardson's reports (read, not selected), the No. 4 Union casualty return (not printed in OCR), Jackson's casualty list (not printed in OCR) and Reports Nos. 6-9 remain deferred.",
+    "NPS/CWSAC is one family. Reynolds's October 4, 1861 report (Official Records Series I, Volume V) is one family of interested Union accounts. Henry R. Jackson's October 3 telegram and October 7, 1861 report (same volume) are one family of interested Confederate accounts. The Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge. No Scribner Campaigns of the Civil War volume narrates this engagement; Nicolay's Chapter XII ends with McClellan's campaign in July.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

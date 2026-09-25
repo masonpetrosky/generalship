@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "battle_id": "WV003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Rich Mountain record (July 11, 1861) in Operations in Western Virginia [June-December 1861]. The July 6-10 advance, Pegram's attempted escape and surrender on July 13, Garnett's retreat from Laurel Hill and the action at Corrick's Ford are context. Campaign-wide movements, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades; the live field reads zero. Nicolay gives Pegram a regiment and six guns in the pass, Garnett three or four regiments at Laurel Hill, McClellan some seven regiments, Rosecrans's turning column portions of four regiments or 1,900 men, and Pegram's detachment at Hart's 310 men and two guns. Pegram says the detachment was about 310 men with one piece, attacked by 3,000; in his addendum his whole force was about 1,300, not more than 350 engaged, against nearly 10,000 in all and 3,000 at Hart's.",
+      "rationale": "Figures differ in population and between the history and the report (1,900 against 3,000; one gun against two). None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV003"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-wv003-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "with a regiment and six guns, while he himself held the pass at Laurel Hill with three or four regiments,"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "McClellan himself moved to Buckhannon with some seven regiments,"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "with portions of four regiments — a total of nineteen hundi-ed men — set out,"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "Pegram had sent a de- tachment of three hundi'ed and ten men and two guns back to where the turnpike crosses the summit,"
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "with five companies of infantry and one piece of artillery, numbering in all about three hun dred and ten men,"
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "attacked the small handful of troops under Captain De Lagnel with three thousand men."
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-15",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "It was about thirteen hundred men, of whom certainly not more than three hundred and fifty at the utmost were engaged in the battle at Hart's house."
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-15",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "The whole force opposed to me was nearly ten thousand; their force engaged at Hart's, as before mentioned, three thousand."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "pass-and-summit",
+      "dimension": "terrain",
+      "value": "Pegram says the fight was around Hart's house at the highest point of the turnpike, two miles behind his main trenches at the foot of the western slope, and that the intricacy of the country seemed hardly to call for a force there. Nicolay says the Confederates held a mountain defile and that Rosecrans's column climbed through pathless forest to the crest; he quotes Garnett calling the two passes the gates to the northwestern country.",
+      "rationale": "Ground from an interested report and a history; no map inspected.",
+      "citations": [
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "The battle-field was immediately around the house of one Hart, sit uated at the highest point of the turnpike over the mountain and two miles in rear of my main line of trenches,"
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "The intricacies of the surrounding country seemed scarcely to demand the placing of any force at Hart's,"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "A reconnoissance on the 10th showed the enemy strongly posted in a mountain defile,"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "cut and climbed their way through a palhless forest and thicket to the very crest of Eich Mountain."
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "as the gates to the northwestern country."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations",
+      "dimension": "logistics",
+      "value": "Pegram says three-fourths of his command had no rations left and the rest not flour for one meal when he decided to leave camp, that he had urgently asked the chief commissary for three days' rations that morning, and that he surrendered because of the famished condition of his men. Nicolay quotes Garnett that the troops at Huttonsville were in miserable condition as to arms, clothing and equipment.",
+      "rationale": "Supply statements from an interested report and a quoted letter; no commissary return inspected.",
+      "citations": [
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.265 (OCR page markers; not checked against print)",
+          "quote": "at least three-fourths of my command had no rations left ; the other one fourth not having flour enough left for one meal."
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-15",
+          "locator": "p.268 (OCR page markers; not checked against print)",
+          "quote": "I made two most urgent appeals to the chief commissary stationed there for three days' rations of hard bread and bacon."
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.266 (OCR page markers; p.266 inferred: the running head reads '26G' in OCR; not checked against print)",
+          "quote": "Owiug to the reduced and almost famished condition of the force now here under my command,"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "in a miserable condition as to arms, clothing, equipments, in- struction, and discipline."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "guides-and-messages",
+      "dimension": "information",
+      "value": "Pegram says Rosecrans was guided up a distant ridge by a man and that his own woodsmen had said such a movement was impossible. Nicolay quotes Garnett that country people kept the Union forces fully advised, and says McClellan's messenger to Rosecrans was captured, so McClellan waited all day and learned of the fight only the next day.",
+      "rationale": "Attributed knowledge from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "who had been conducted up a distant ridge on my left flank and then along the top of the mountain by a man,"
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "which all of my so-called reliable woodsmen informed me was impossible,"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "The enemy are kept fully advised of our movements, even to the strength of our scouts and pickets, by the coun- try people,"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "The messenger sent to com- municate between McClellan and himself rode unsus- pectingly up to a rebel jucket-guard, and was cajitured."
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "McClellan was not in- formed of the fight and its result until the following day,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "turning-movement",
+      "dimension": "objectives",
+      "value": "Nicolay says McClellan moved to turn the position on Rich Mountain and permitted Rosecrans's plan to reach the turnpike in Pegram's rear, while waiting to assault the front when the rear attack began. Pegram says he ordered De Lagnel to defend Hart's to the last extremity.",
+      "rationale": "Stated aims from a history and a report.",
+      "citations": [
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "with the design of turning the enemy's position on Eich Mountain."
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "McClellan waited all day in vain for the rear attack to be- pcin ;"
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "with instructions to defend it to the last extremity against whatever force might be brought to the attack by the enemy,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Lieutenant Colonel John Pegram and Brigadier General Robert S. Garnett for the Confederates and Major General George B. McClellan and Brigadier General William S. Rosecrans for the Union; the live page lists McClellan and Pegram. Nicolay says Rosecrans proposed the turning plan and McClellan permitted it, reportedly with some reluctance; Pegram placed De Lagnel at Hart's, led reinforcements himself, and called councils of war before the escape and the surrender. Garnett held Laurel Hill, some seventeen miles north, and no inspected passage places him at Rich Mountain.",
+      "rationale": "Command roles from a history and an interested report. The four listed commanders do not receive automatic credit; Garnett's listing reflects the wider operation.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV003",
+            "belligerent": "Confederate",
+            "fullname": "John Pegram"
+          },
+          "column": "rank",
+          "quote": "Lieutenant Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV003",
+            "belligerent": "Confederate",
+            "fullname": "Robert S. Garnett"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV003",
+            "belligerent": "US",
+            "fullname": "George B. McClellan"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV003",
+            "belligerent": "US",
+            "fullname": "William S. Rosecrans"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "That evening Brigadier-General Eosecrans proposed a plan to turn the position, and McClellan (with some reluctance, it is said) iDermitted him to attempt it."
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "yet I had that morning placed Cap tain De Lagnel, of the Confederate artillery,"
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.265 (OCR page markers; not checked against print)",
+          "quote": "these men are completely demoralized, and will need you to lead them"
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.265 (OCR page markers; not checked against print)",
+          "quote": "I immediately assembled a council of war,"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "the latter being some seventeen miles farther north."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS says a sharp two-hour fight split the Confederates, half escaping to Beverly while Pegram and the rest surrendered on July 13; Pegram says his detachment held for three hours against ten times its number; Nicolay says the Union numbers quickly decided the contest and that Pegram surrendered 560 men and thirty-three officers.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The duration differs (two hours against three); the July 13 surrender is a sequel, not a separate engagement record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV003"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-wv003-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-wv003-v1",
+          "locator": "Description",
+          "quote": "A sharp two-hour fight ensued in which the Confederates were split in two."
+        },
+        {
+          "source_id": "nps-wv003-v1",
+          "locator": "Description",
+          "quote": "Half escaped to Beverly, but Pegram and the others surrendered on July 13."
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "they held their posi tion for three hours in the face of a force ten times their own number,"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.151 (OCR page markers; not checked against print)",
+          "quote": "a total remainder of five hundi'ed and sixty men and thirty-three officers, as prisoners of war,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 346 (US 46; CS 300); the live field reads 162 (US 74; CS 88). Nicolay quotes Rosecrans: twelve killed and forty-nine wounded, 135 Confederate burials and about twenty wounded, and twenty-one prisoners and two guns taken. Pegram gives his own loss as two officers and 40-45 men killed and about twenty men and four officers wounded, De Lagnel missing, and the enemy's at least thirty killed and forty wounded. His surrendered force was twenty-two officers and 359 men of Heck's regiment and eight officers and 166 men of his own.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The July 13 surrender counts are a later population and are not added to battle casualties.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV003"
+          },
+          "column": "casualties_text",
+          "quote": "346 total (US 46; CS 300)"
+        },
+        {
+          "source_id": "nps-wv003-v1",
+          "locator": "Estimated Casualties",
+          "quote": "162 total (US 74; CS 88;)"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "We captureil twenty-one prisoners, two brass six-pounders, fifty stand of arms, and some com and provisions. Our loss was twelve killed and forty-nine wounded."
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "rich-mountain",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "He also places the reported burials of the rebels killed at one hundred and thirty-five, with about twenty wounded."
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "Killed, Capt. William M. Skipwith and Second Lieutenant Boyd, Twentieth Virginia Volunteers, and between 40 and 45 men,"
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "and about 20 men."
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "The loss of the enemy was not less than thirty killed and forty wounded."
+        },
+        {
+          "source_id": "or2-pegram-rich-mountain-selections-v1",
+          "section": "pegram-1861-07-14",
+          "locator": "p.267 (OCR page markers; not checked against print)",
+          "quote": "twenty-two officers and three hundred and fifty-nine men of Colonel Heck's regiment, and eight officers and one hundred and sixty-six men of my own (the Twentieth) regiment."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "McClellan's July 6-15 reports (No. 2), Rosecrans's Rich Mountain report (No. 5), the Confederate Heck, Tyler, Hotchkiss and Lee Battery reports and the July 8 strength returns of Garnett's and Wise's commands (Nos. 33-34) remain deferred.",
+    "NPS/CWSAC is one family. John G. Nicolay's The Outbreak of Rebellion (Scribner, 1881) is a retrospective history written, by its preface, largely from the Official War Records for 1861; it is not independent of the report families. Pegram's July 14 report and July 15 addendum (Official Records Series I, Volume II) are one family of interested Confederate accounts. The Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

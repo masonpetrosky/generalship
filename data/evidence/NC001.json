@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "battle_id": "NC001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Hatteras Inlet Batteries record (August 28-29, 1861) in Blockade of the Carolina Coast [August 1861]. The August 26 departure from Hampton Roads, the later occupation of the inlet and the Confederate reinforcement attempts from the sound are context. Campaign-wide movements, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads '9th and 20th New York regiments (est. 2,000) [US]; Hatteras Island Garrison (900) [CS]'; the live field reads 2,000 (US 2,000; CS 0). Stringham says the transports carried parts of two regiments and a company of regulars. Martin says he had about 350 men at the post when the fleet appeared, that the forts needed at least 225 to work the guns, and that reinforcements of 60, 73, 64 and 50 men with their officers reached him on the evening of the 28th. NPS gives the garrison surrendered on the 29th as 670, and the compilers note that Stringham's omitted prisoner list contained 670 names.",
+      "rationale": "The frozen US figure is marked an estimate; the frozen 900 and the surrendered 670 are different populations from Martin's garrison at the start. None is adopted as a matched opening strength. The live Confederate zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC001"
+          },
+          "column": "forces_text",
+          "quote": "9th and 20th New York regiments (est. 2,000) [US]; Hatteras Island Garrison (900) [CS]"
+        },
+        {
+          "source_id": "nps-nc001-v1",
+          "locator": "Forces Engaged",
+          "quote": "2000 total (US 2000; CS 0;)"
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-detailed",
+          "locator": "p.121 (OCR page markers; not checked against print)",
+          "quote": "the transports hay¬ ing parts of two regiments and one company of regulars"
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "Having at that post but about 350 men,"
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "that it would require at least 225 men to work the guns properly and give the necessary reliefs,"
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "60 men and 2 second lieutenants"
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "with 73 men and 1 second lieutenant"
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "with 64 men and 2 second lieutenants"
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "with 50 men and all his officers."
+        },
+        {
+          "source_id": "nps-nc001-v1",
+          "locator": "Description",
+          "quote": "On August 29, Col. William F. Martin surrendered the Confederate garrison of 670."
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-prisoners-and-09-03",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "It contained 670 names."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "surf-forts-and-range",
+      "dimension": "terrain",
+      "value": "Stringham says a heavy surf ran on the beach on the 28th, the troops landing near a wreck about two miles east of Fort Clark, and that the forts' shot fell short or passed over the ships. Martin says the enemy kept beyond the reach of his guns and that the fortification was not well enough constructed to endure the fire; NPS calls the inlet an important haven for blockade-runners.",
+      "rationale": "Ground and works from the two reports and a summary; no chart inspected.",
+      "citations": [
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-detailed",
+          "locator": "p.121 (OCR page markers; not checked against print)",
+          "quote": "Southerly winds, heavy surf rolling on the beach."
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-detailed",
+          "locator": "p.121 (OCR page markers; not checked against print)",
+          "quote": "the transports stood in toward a wreck about 2 miles east of the fort"
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-detailed",
+          "locator": "p.121 (OCR page markers; not checked against print)",
+          "quote": "The fire was returned from the fort, the shot falling short or passing over the ships."
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "for they kept so well beyond the reach of our guns that we only wasted our ammunition in firing at them."
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "having a fortification not sufficiently well constructed to enable us to remain still and endure the fire of the enemy."
+        },
+        {
+          "source_id": "nps-nc001-v1",
+          "locator": "Description",
+          "quote": "to capture Hatteras Inlet, an important haven for blockade-runners."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "powder-and-spikes",
+      "dimension": "logistics",
+      "value": "Martin says Fort Clark fired until every charge of powder and every primer was exhausted, and that its guns were spiked with nails for want of proper spikes. Stringham ordered the Monticello and Pawnee to embark the troops on the beach or provision them.",
+      "rationale": "Supply statements from the two reports; no ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "until every charge of powder and every primer was exhausted."
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "Our ammunition being entirely exhausted at Fort Clark,"
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "The guns at Fort Clark were as effectually spiked as it was possible to do with nails, having no proper spikes;"
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-detailed",
+          "locator": "p.122 (OCR page markers; not checked against print)",
+          "quote": "At 7 : 15 instructed commanders of Monticello and Pawnee to attend to the troops on the beach and embark them if they wished to come off; if they did not, to provision them."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "sighting-and-signals",
+      "dimension": "information",
+      "value": "Martin says he saw the fleet about 4 p.m. on August 27 and made out seven war steamers, two crowded transports and two or three tugs; his call for aid from Portsmouth did not arrive until the next morning. Stringham says the fort's colors came down early on the 29th, which many took for surrender, but no attention was paid because the same had happened the day before, before the fort fired on the Monticello.",
+      "rationale": "Observations from the two reports; no signal log inspected.",
+      "citations": [
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "On Tuesday afternoon, the 27th of August, about 4 o’clock, I discov¬ ered a large heet in sight off Hatteras."
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "I made out what I considered 7 large war steamers, 2 transports, apparently crowded with men, and 2 or 3 small tug steam¬ ers."
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "he did not get until some time in the morn¬ ing of the next day."
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-detailed",
+          "locator": "p.122 (OCR page markers; not checked against print)",
+          "quote": "When the flag was hauled down it was thought by many they had sur¬ rendered, but as the same thing had been done yesterday and they afterwards fired on the Monticello , no attention was paid to it."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "inlet-and-blockade",
+      "dimension": "objectives",
+      "value": "NPS says the expedition was to capture Hatteras Inlet as part of seizing coastal enclaves to enforce the blockade. Stringham calls the inlet the key to all the ports south of Hatteras and expects its capture to end the privateering carried on there.",
+      "rationale": "Stated aims from a summary and an interested report.",
+      "citations": [
+        {
+          "source_id": "nps-nc001-v1",
+          "locator": "Description",
+          "quote": "This movement was part of Union efforts to seize coastal enclaves from which to enforce the blockade."
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-prisoners-and-09-03",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "This inlet I consider the key to all the ports south of Hatteras,"
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-prisoners-and-09-03",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "put an end to the pirating which has been so successfully carried on there for some time past."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Major General Benjamin Butler and Colonel William F. Martin. NPS says Butler and Stringham led the expedition. Stringham commanded the squadron's attack, Butler took passage on the flagship and went into the inlet in the tug Fanny to take possession, and the articles of capitulation were signed by Stringham and Butler and by Barron, Martin and Andrews. Martin says he and Major Andrews gave command of the defenses to Commodore Barron on the evening of the 28th, before the surrender.",
+      "rationale": "Command roles from the two reports and a summary. The listed Confederate commander had handed over command before the capitulation; Butler's own reports are in Army Official Records Volume IV, which was not inspected. No automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC001",
+            "belligerent": "US",
+            "fullname": "Benjamin Butler"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NC001",
+            "belligerent": "Confederate",
+            "fullname": "William F. Martin"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-nc001-v1",
+          "locator": "Description",
+          "quote": "an amphibious expedition led by Maj. Gen. Benjamin Butler and Flag-Officer Silas Stringham,"
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-detailed",
+          "locator": "p.122 (OCR page markers; not checked against print)",
+          "quote": "At 11 : 30 Major-General Butler in the tug Fanny went into the inlet to the rear of the forts to take possession."
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-08-30",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "Samuel Barron, commanding the naval forces for the defense of North Carolina and Virginia, and Colonel Martin, commanding the forces, and Major Andrews, commanding the same forces at Fort Hatteras."
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "we agreed that it was advisable to surrender the command of our defenses to the commodore,"
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "consented to take charge."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Stringham reports the flags down on both forts at 12:25 p.m. on the 28th, Fort Clark occupied, and a white flag at 11:10 a.m. on the 29th, followed by unconditional capitulation; Martin says Fort Clark was abandoned when its ammunition ran out and the garrison fell back to Fort Hatteras.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC001"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-nc001-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-detailed",
+          "locator": "p.121 (OCR page markers; not checked against print)",
+          "quote": "At 12 : 25 p. m. flags down on Forts Clark and Hatteras, the first apparently abandoned by the enemy,"
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-detailed",
+          "locator": "p.121 (OCR page markers; not checked against print)",
+          "quote": "At 2 p. m. American flag displayed from Fort Clark by our pickets, who were in possession."
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-detailed",
+          "locator": "p.122 (OCR page markers; not checked against print)",
+          "quote": "At 11: 10 a. m. a white flag was displayed from the fort."
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-08-30",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "be unconditionally surrendered to the Government of the United States in terms of full capitulation."
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "it was unanimously agreed that it was advisa¬ ble to render useless the guns and fall back upon Fort Hatteras."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 773 (US 3; CS 770); the live field reads 673 (US 3; CS 670). NPS says the Federals lost only one man. Stringham says there was no accident to a single officer or man of the Navy, Army or marines and that he could not get a correct list of the enemy's killed and wounded; his prisoner list is described by the compilers as 670 names. Martin reports one and possibly two men killed on the 28th and doubts the accuracy of his captains' returns.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Prisoners taken at the capitulation are counted in the frozen and live Confederate totals; they are not a separate battle loss.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NC001"
+          },
+          "column": "casualties_text",
+          "quote": "773 total (US 3; CS 770)"
+        },
+        {
+          "source_id": "nps-nc001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "673 total (US 3; CS 670;)"
+        },
+        {
+          "source_id": "nps-nc001-v1",
+          "locator": "Description",
+          "quote": "The Federals lost only one man."
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-detailed",
+          "locator": "p.122 (OCR page markers; not checked against print)",
+          "quote": "I have no accident to record to a single officer or man of the Navy, Army, or marines."
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-prisoners-and-09-03",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "I am not able to get a correct list of the killed and wounded on the part of the enemy."
+        },
+        {
+          "source_id": "orn6-stringham-hatteras-selections-v1",
+          "section": "stringham-1861-09-02-prisoners-and-09-03",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "It contained 670 names."
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "one man and possibly two were killed by shells of the enemy."
+        },
+        {
+          "source_id": "orn6-martin-hatteras-selections-v1",
+          "section": "martin-1861-08-31",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "I am not satisfied that it is entirely correct,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Butler's reports and the other Army reports (Army Official Records Series I, Volume IV, pp.579-594, per the Navy compilers' footnote) were not fetched: that volume is being registered in another pass. Barron's and Andrews's reports, Gillis's and Stellwagen's reports and the Confederate telegrams were read but not selected under the three-family ceiling; Martin's enclosed returns are not printed.",
+    "NPS/CWSAC is one family. Stringham's August 30, September 2 and September 3, 1861 reports (Navy Official Records Series I, Volume 6) are one family of interested Union naval accounts; the articles of capitulation printed with the August 30 report were signed jointly by both sides. William F. Martin's August 31, 1861 report (same volume, copied by the compilers from a newspaper clipping) is one family of interested Confederate accounts. The Navy volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge. No Scribner history narrates the engagement; Nicolay mentions the Hatteras victory in one clause.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "schema_version": 1,
+  "battle_id": "WV001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Philippi record (June 3, 1861) in Operations in Western Virginia [June-December 1861]. The May 26-30 advance on Grafton and the Confederate withdrawal to Beverly and Huttonsville are context. Campaign-wide movements, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades; the live field reads zero. Morris's orders sent Kelley with six companies of his own regiment, nine of the Ninth Indiana and six of the Sixteenth Ohio, and Dumont with eight companies of the Seventh Indiana joined by five companies and two guns under Steedman and six companies under Crittenden. Nicolay puts Kelley at the head of about two regiments and Porterfield's command at something over a thousand.",
+      "rationale": "Company counts from orders and a history's round figures; no return for either side on June 3. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV001"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-wv001-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "With six companies of your regiment, nine oompanies of Colonel Milroy's Ninth Indiana, and six companies of Colonel Irvine's Sixteenth Ohio,"
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "with eight companies of your regiment. At Webster you will be joined by Colonel Steed- man, with five companies oi' his regiment and two field pieces, also by Colonel Crit- teiiden, with six companies of his regiment."
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "philippi",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "Colonel Kelly, at the head of about two regiments,"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "philippi",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "Here they found Porterfield's command, something over a thousand strong,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "approach-and-town",
+      "dimension": "terrain",
+      "value": "Nicolay places Philippi on a country road about fifteen miles south of Grafton and says the columns arrived on opposite hills commanding the town but not in a position to cut off retreat. Morris says Kelley's column had about twenty-five miles to march from the railroad on a little-traveled road, and describes a night march over mountainous country.",
+      "rationale": "Ground from a history and an interested report; no map inspected.",
+      "citations": [
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "philippi",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "to Philippa, on a country road, about fifteen miles directly south of Grafton,"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "philippi",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "They arrived on opposite hills commanding the town, almost simultaneously at daylight of June 3d, though, by a mistake of the proper route, not in a position to cut oflF retreat"
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "After leaving the cars the distance to Philippi was about twenty-five miles, on a road but little traveled."
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "a march of fifteen miles in pitchy darkness, drenching rain, and over a mountainous country"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-and-march",
+      "dimension": "logistics",
+      "value": "Morris's order to Dumont's column prescribed two full days' rations; during the night march many men fainted and others threw away their haversacks and provisions. Nicolay says the fatiguing march left the Union troops too exhausted to pursue.",
+      "rationale": "Orders and condition statements; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "The companies of your regiment will take two full days' rations."
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "Many men fainted, and were left on the road."
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "Others threw away their haversacks and provisions to keep up,"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "philippi",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "owing to the fatiguing night march which left the Union troops too thoroughly exhausted to make pursuit."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "spies-and-surprise",
+      "dimension": "information",
+      "value": "Morris says he believed spies were reporting his movements and arranged the expedition to give a false impression; Kelley's column moved by rail as if toward Harper's Ferry. Nicolay says friendly local sentiment gave the Union forces ready information and a night rain-storm concealed the advance. Morris and NPS describe a complete surprise.",
+      "rationale": "Attributed knowledge from an interested report, a history and a summary; no Confederate scouting record inspected.",
+      "citations": [
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "Having satisfied myself during the evening that we were in the midst of spies,"
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "I endeavored to arrange the expedition so as to give a false im pression, and thereby secure the advantage of a surprise of the enemy."
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "and was generally understood to be an advance on, Harper's Ferry."
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "philippi",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "as- sisted with ready information by friendly local sentiment,"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "philippi",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "A fm-ious rain-storm during the night greatly impeded, but also comi)letely concealed, their unexpected advance."
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "The enemy was entirely off his guard, and was completely surprised,"
+        },
+        {
+          "source_id": "nps-wv001-v1",
+          "locator": "Description",
+          "quote": "The resulting surprise attack routed the Confederate troops, forcing them to retreat to Huttonsville."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "railroad-and-dispersal",
+      "dimension": "objectives",
+      "value": "Nicolay says Porterfield had been burning Baltimore and Ohio bridges and retired to Philippi hoping to gather a force to return against the railroad. Morris's orders sent Kelley to reach Philippi about 4 a.m. and Dumont to divert attention until Kelley attacked.",
+      "rationale": "Stated aims from a history and written orders.",
+      "citations": [
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "philippi",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "Porterfield began burning bridges on the Baltimore and Ohio Railroad."
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "philippi",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "hoping to find there a secure retreat about which to gather a sufficient force to return and more thoroughly cut, harass, or control, the railroad."
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "you are sure of coming before the town of Philippi as near 4 o'clock to-morrow morning as possible."
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "The object of your column will be to divert attention until the attack is made by Colonel Kelley,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live pages list Colonel Thomas A. Morris and Colonel George A. Porterfield; the Official Records style Morris a brigadier general of Indiana militia. Morris says Kelley had organized the expedition before Morris arrived at Grafton, that Morris postponed it a night and issued the orders, that Kelley was wounded leading his column and that Dumont then had command. Nicolay says Morris adopted and completed an expedition projected by Kelley.",
+      "rationale": "Command roles from an interested report and a history; the listed commanders do not receive automatic sole credit, and no inspected passage describes Porterfield's orders.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV001",
+            "belligerent": "US",
+            "fullname": "Thomas A. Morris"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV001",
+            "belligerent": "Confederate",
+            "fullname": "George A. Porterfield"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-wv001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Colonel Thomas Morris [US]"
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "found that Colonel Kelley, of the First Virginia Regiment, had organized an expedition for that night against the enemy at Philippi."
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "I deemed it advisable to postpone the attack until the succeeding night."
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "When joined by Colonel Kelley, the whole force will be under his command."
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "From the reports of Colonel Dumont (who, by the fall of Colonel Kelley, had command)"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "philippi",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "and he now adojited and completed an expedition already projected before his arrival by Colonel Kelly,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS says the Confederates were routed and retreated to Huttonsville; Nicolay calls it an utter rout; Morris attributes the failure to capture the whole force to the night's storm.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV001"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-wv001-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "philippi",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "the attack so sudden and sharp as to force the rebels to disperse in utter rout and disorganization."
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "The failure to capture the entire rebel force can only be attributed to the storm during the night."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 30 (US 4; CS 26); the live field reads 11 (US 5; CS 6). Morris reports none killed, Kelley severely wounded, and Confederate killed estimated at fifteen to forty, with stores captured; Nicolay says the Confederate loss in killed and captured was small.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV001"
+          },
+          "column": "casualties_text",
+          "quote": "30 total (US 4; CS 26)"
+        },
+        {
+          "source_id": "nps-wv001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "11 total (US 5; CS 6;)"
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "Whilst I am happy to state that we have none killed,"
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "fell severely wounded by a pistol-shot in the right breast."
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "fifteen to forty, which were carried off, supposed by friends, during the confusion incident to the pursuit of the enemy."
+        },
+        {
+          "source_id": "or2-morris-philippi-selections-v1",
+          "section": "morris-1861-06-07",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "A large amount of camp equipage, provisions, arms, wagons, horses, and medical stores were captured,"
+        },
+        {
+          "source_id": "nicolay-western-virginia-selections-v1",
+          "section": "philippi",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "Their loss in killed and captured was small,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "McClellan's June 3 and June 10 reports, the Confederate Heck-Cowan-Harman and Harman reports, Porterfield's June 9 and 11 reports and the court of inquiry findings (which give about 600 effective infantry and 175 cavalry at Philippi) were read but not selected under the three-family ceiling; Kelley's and Dumont's reports were not read.",
+    "NPS/CWSAC is one family. John G. Nicolay's The Outbreak of Rebellion (Scribner, 1881) is a retrospective history written, by its preface, largely from the Official War Records for 1861; it is not independent of the report families. Morris's June 7, 1861 report with its inclosed orders (Official Records Series I, Volume II) is one family of interested Union accounts. The Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

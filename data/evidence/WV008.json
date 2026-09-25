@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "battle_id": "WV008",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Camp Alleghany record (December 13, 1861) in Operations in Western Virginia [June-December 1861]. The December 12 skirmish at Camp Baxter and the Union return to Cheat Mountain are context. Campaign-wide movements, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades; the live field reads zero. Jones says his column was about 700 and the enemy about 2,500 with nine guns. Johnson reports not less than 5,000 attackers against about 1,200 effective on December 13; on December 19 he says fully 2,000 attacked his right, met by not over 300 and later 500 of his men, and gives 5,000 in all against not over 1,200 effective of all arms.",
+      "rationale": "Column and flank figures and each commander's estimate of the other; no return inspected. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV008"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-wv008-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or5-jones-camp-alleghany-selections-v1",
+          "section": "jones-1861-12-13",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s force, as near as I could ascertain, was about 2,500, with nine pieces of artillery. The force under my command was about 700."
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-13",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "They ap- peared in force — not less than 5,000 men ; attacked my right and left."
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-13",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "I have only about 1,200 effective men."
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-19",
+          "locator": "p.462 (OCR page markers; not checked against print)",
+          "quote": "The enemy on this flank numbered fully 2,000. They were gallantly met by our troops, who did not exceed 300 at this time."
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-19",
+          "locator": "p.463 (OCR page markers; p.463 inferred: the running head reads '4fi3' in OCR; not checked against print)",
+          "quote": "those 500 men who contended from 7.15 a. m. until 1.45 p. m."
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-19",
+          "locator": "p.464 (OCR page markers; not checked against print)",
+          "quote": "My force did not exceed 1,200 effective men of all arms."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "summit-and-works",
+      "dimension": "terrain",
+      "value": "Jones says his column climbed a very steep and rocky mountain for about a mile to the summit on the right and rear of the camp. Johnson says there were no defenses on the right and a hastily dug trench on the left hill where his artillery stood, adding that his works had been suspended under recent orders; NPS says Johnson occupied the summit to defend the Staunton-Parkersburg Pike.",
+      "rationale": "Ground from the two reports and a summary; no map inspected.",
+      "citations": [
+        {
+          "source_id": "or5-jones-camp-alleghany-selections-v1",
+          "section": "jones-1861-12-13",
+          "locator": "p.457 (OCR page markers; not checked against print)",
+          "quote": "we advanced up the mountain, which was very steep and rocky, for about one mile to the summit on the right and rear of the enemy’s camp,"
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-13",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "On the right there are no defensive works. On the hill to the left we have hastily thrown up a trench."
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-15",
+          "locator": "p.461 (OCR page markers; not checked against print)",
+          "quote": "Our works had been suspended in consequence of recent orders. None had been erected before we got here."
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-19",
+          "locator": "p.463 (OCR page markers; p.463 inferred: the running head reads '4fi3' in OCR; not checked against print)",
+          "quote": "The artillery was posted on the hill to the left of my position, which had been intrenched."
+        },
+        {
+          "source_id": "nps-wv008-v1",
+          "locator": "Description",
+          "quote": "occupied the summit of Allegheny Mountain to defend the Staunton-Parkersburg Pike."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-stores",
+      "dimension": "logistics",
+      "value": "Jones says his command's ammunition was almost and then wholly exhausted before he fell back. Johnson says a large quantity of ordnance stores had been sent to the rear under recent orders, the ordnance ammunition nearly all gone when attacked, though most of the fighting was with infantry.",
+      "rationale": "Supply statements from the two reports; no ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "or5-jones-camp-alleghany-selections-v1",
+          "section": "jones-1861-12-13",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "our ammunition was almost exhausted."
+        },
+        {
+          "source_id": "or5-jones-camp-alleghany-selections-v1",
+          "section": "jones-1861-12-13",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "Our ammunition being exhausted, I thought it Ijrudent to fall back to the headquarters of the commanding general,"
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-13",
+          "locator": "p.461 (OCR page markers; not checked against print)",
+          "quote": "Under recent orders, I have sent to the rear a large quantity of ordnance and ordnance stores."
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-15",
+          "locator": "p.462 (OCR page markers; not checked against print)",
+          "quote": "The ordnance ammunition had nearly all been sent back when we were attacked, but most of the fighting was with infantry."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "deserters-guides-warning",
+      "dimension": "information",
+      "value": "Johnson says the attack was based on information from five deserters, that the columns were guided by local Unionists, and that he had timely warning but could not learn the enemy's numbers; Jones says the Confederate pickets retreated on his approach and he pressed on because the enemy would be informed.",
+      "rationale": "Attributed knowledge from the two reports; the deserter account is Johnson's report of a prisoner's statement.",
+      "citations": [
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-15",
+          "locator": "p.461 (OCR page markers; not checked against print)",
+          "quote": "the expedition was based upon information furnished them by five deserters from Hansborough’s battalion,"
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-19",
+          "locator": "p.462 (OCR page markers; not checked against print)",
+          "quote": "conducted by a guide, a Union man from Western Virginia, who was familiar with the roads and trails in the vicinity,"
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-15",
+          "locator": "p.461 (OCR page markers; not checked against print)",
+          "quote": "We had timely warning of their approach, but could not ascertain their numbers before they made the attack."
+        },
+        {
+          "source_id": "or5-jones-camp-alleghany-selections-v1",
+          "section": "jones-1861-12-13",
+          "locator": "p.457 (OCR page markers; not checked against print)",
+          "quote": "I gave the order to pursue them in double quick, as the enemy would be informed of our advance."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "converging-attack",
+      "dimension": "objectives",
+      "value": "Jones says his column was to await the attack of the Ninth Indiana and Second Virginia, as Milroy directed, and that the expected support did not come. Johnson says the enemy would occupy the position if it were abandoned; NPS says he held it to defend the pike.",
+      "rationale": "Stated plans and aims from the two reports and a summary.",
+      "citations": [
+        {
+          "source_id": "or5-jones-camp-alleghany-selections-v1",
+          "section": "jones-1861-12-13",
+          "locator": "p.457 (OCR page markers; not checked against print)",
+          "quote": "to await the attack of the Ninth Indiana and. Second Virginia, as you directed ;"
+        },
+        {
+          "source_id": "or5-jones-camp-alleghany-selections-v1",
+          "section": "jones-1861-12-13",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "Our men finding that they were not receiving support by the Ninth Indiana and the Second Virginia,"
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-13",
+          "locator": "p.461 (OCR page markers; not checked against print)",
+          "quote": "I have all along contended that this place would be occupied if we abandoned it."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Colonel Edward Johnson and Brigadier General Robert Milroy. Johnson says Reynolds commanded the whole Union force and Milroy the attack on his right; Jones's report is addressed to Milroy and follows his directions. Milroy's own report is not in the inspected pages.",
+      "rationale": "Command roles from the two reports; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV008",
+            "belligerent": "Confederate",
+            "fullname": "Edward \"Allegheny\" Johnson"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "WV008",
+            "belligerent": "US",
+            "fullname": "Robert Milroy"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-wv008-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Robert Milroy [US]"
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-19",
+          "locator": "p.464 (OCR page markers; not checked against print)",
+          "quote": "General Beynolds, U. S. Army, commanded the whole of the enemy’s forces, and General Milroy the attack on our right."
+        },
+        {
+          "source_id": "or5-jones-camp-alleghany-selections-v1",
+          "section": "jones-1861-12-13",
+          "locator": "p.457 (OCR page markers; not checked against print)",
+          "quote": "as you directed ;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive; NPS says Milroy's troops were repulsed and retreated to their camps. Johnson calls it a complete but dearly bought victory, pursuing a mile or more; Jones says he fell back in good order when ammunition ran out.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV008"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-wv008-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-wv008-v1",
+          "locator": "Description",
+          "quote": "Finally, Milroy's troops were repulsed, and he retreated to his camps near Cheat Mountain."
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-13",
+          "locator": "p.460 (OCR page markers; not checked against print)",
+          "quote": "Our victory has been com- plete, but dearly bought."
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-19",
+          "locator": "p.463 (OCR page markers; p.463 inferred: the running head reads '4fi3' in OCR; not checked against print)",
+          "quote": "and finally drove them from their positions and pursued them a mile or more down the mountain."
+        },
+        {
+          "source_id": "or5-jones-camp-alleghany-selections-v1",
+          "section": "jones-1861-12-13",
+          "locator": "p.458 (OCR page markers; not checked against print)",
+          "quote": "which was done in good order."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 283 (US 137; CS 146). Johnson gives his losses as 20 killed, 96 wounded and 28 missing, many of the missing since returned, and says the enemy left 35 dead and 13 wounded on the field and he took 3 prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Johnson's 144 differs from the frozen Confederate 146; the Union return printed with Milroy's papers was read but not selected.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "WV008"
+          },
+          "column": "casualties_text",
+          "quote": "283 total (US 137; CS 146)"
+        },
+        {
+          "source_id": "nps-wv008-v1",
+          "locator": "Estimated Casualties",
+          "quote": "283 total (US 137; CS 146;)"
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-19",
+          "locator": "p.464 (OCR page markers; not checked against print)",
+          "quote": "Our casualties amount to 20 killed, 96 wounded, and 28 missing."
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-19",
+          "locator": "p.464 (OCR page markers; not checked against print)",
+          "quote": "The enemy left upon the field 35 dead and 13 wounded."
+        },
+        {
+          "source_id": "or5-johnson-camp-alleghany-selections-v1",
+          "section": "johnson-1861-12-19",
+          "locator": "p.464 (OCR page markers; not checked against print)",
+          "quote": "We captured 3 prisoners and about 100 stand of arms,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Milroy's own report is marked not found in Volume V; his No. 1 papers (a relayed telegram, a record-of-events extract and the Union casualty return) were read but not selected under the three-family ceiling. Loring's reports, Benjamin's letter and the Confederate subordinate reports and return (Nos. 6-10) remain deferred.",
+    "NPS/CWSAC is one family. Jones's December 13, 1861 report to Milroy (Official Records Series I, Volume V) is one family of interested Union accounts. Edward Johnson's December 13, 15 and 19, 1861 reports (same volume) are one family of interested Confederate accounts. The Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge. No Scribner Campaigns of the Civil War volume narrates this engagement; Nicolay's Chapter XII ends with McClellan's campaign in July.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

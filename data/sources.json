@@ -30657,6 +30657,2505 @@
       ],
       "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
       "inspection": "Title and Bragg's No. 288 heading and report of February 25, 1865 with its postscript (pp.1077–1078) read in full. His March 6–15 dispatches (selected separately in or47-1-bragg-kinston-selections-v1 by the Carolinas pass) and the Hoke's division casualty return printed after it were read but are excluded from the range."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail SC001",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=sc001",
+      "id": "nps-sc001-v1-html",
+      "path": "data/raw/charleston-1861-v1/nps-sc001.html",
+      "format": "html",
+      "sha256": "13e3eacece6d812bb10780acfee71f4f755de6d4fe21d3d423e198a016837fe4"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail SC001",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=sc001",
+      "id": "nps-sc001-v1",
+      "path": "data/raw/charleston-1861-v1/nps-sc001.txt",
+      "format": "text",
+      "sha256": "3f4f58ee0e5f902d6eadfb5c58387ff36cd621a64988ef466633fe2100686231",
+      "parent_source_id": "nps-sc001-v1-html",
+      "parent_sha256": "13e3eacece6d812bb10780acfee71f4f755de6d4fe21d3d423e198a016837fe4",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "title": "Official Records, series I, volume I: University of California/Internet Archive OCR",
+      "publication_year": 1880,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1880 per OCR title (read as 'PRINTING OFFICE. 1880,' at the end of the selected title range; not checked against print); series I volume I per OCR title and catalog volume 01. The scan also binds the 1902 'Additions and corrections to Series I-Volume I' insert. Catalog date 1880-1901 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion01secrrich; University of California Libraries (call number ucb:GLAD-218883); scanned 2006 with MSN sponsorship",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "U.S. War Department; Robert N. Scott, compiler",
+      "document_date": null,
+      "document_date_note": "Mixed-document compilation; no volume-wide report date.",
+      "independence_group": "or-series-i-volume-i",
+      "dependency_note": "Shared digital container, not one independent witness per artifact. Reports are interested participant accounts; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/metadata/warofrebellion01secrrich",
+      "source_kind": "digital_catalog_metadata",
+      "id": "ia-or1-ucal-metadata-v1",
+      "path": "data/raw/charleston-1861-v1/or1-metadata.json",
+      "format": "json",
+      "sha256": "0b90fbbada930c226342dc7fdae6d3015c0ef4a22ab64fc0a49daa57b871c29e",
+      "inspection": "Title, creator, date, publisher, volume, contributor and scan date inspected; catalog is not a battle witness."
+    },
+    {
+      "title": "Official Records, series I, volume I: University of California/Internet Archive OCR",
+      "publication_year": 1880,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1880 per OCR title (read as 'PRINTING OFFICE. 1880,' at the end of the selected title range; not checked against print); series I volume I per OCR title and catalog volume 01. The scan also binds the 1902 'Additions and corrections to Series I-Volume I' insert. Catalog date 1880-1901 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion01secrrich; University of California Libraries (call number ucb:GLAD-218883); scanned 2006 with MSN sponsorship",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "U.S. War Department; Robert N. Scott, compiler",
+      "document_date": null,
+      "document_date_note": "Mixed-document compilation; no volume-wide report date.",
+      "independence_group": "or-series-i-volume-i",
+      "dependency_note": "Shared digital container, not one independent witness per artifact. Reports are interested participant accounts; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/download/warofrebellion01secrrich/warofrebellion01secrrich_djvu.txt",
+      "source_kind": "official_report_compilation",
+      "id": "or1-ucal-ocr-v1",
+      "path": "data/raw/charleston-1861-v1/or1-full.txt",
+      "format": "text",
+      "sha256": "3055cba20c14ea27c1f52373cefe1b9f7ee7b8fa1dd25579941969f3040840c4",
+      "inspection": "Retained complete parent; inspected the title page, the opening of the bound 1902 additions-and-corrections insert, the contents, the Chapter I summary of principal events and report list, Anderson's No. 6 reports with their inclosed April 11-15 correspondence and Cameron's April 20 letter, and the headings of Foster's No. 7 journal and Beauregard's No. 8 reports. All other reports, correspondence and chapters were not inspected. The University of Illinois identifier warofrebellion01unit is Series III Volume I and warofrebellion01unit_0 is Series II Volume I; neither was used."
+    },
+    {
+      "title": "John G. Nicolay, The Outbreak of Rebellion",
+      "author": "John G. Nicolay",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "New York: Charles Scribner's Sons, 1881 (Campaigns of the Civil War, I), per catalog and OCR title page (series line read 'CAMPAIGNS OF THE CIVIL WAR.—\\.' in OCR); not checked against print.",
+      "archival_identifier": "Internet Archive outbreakofrebell00nico; University of Illinois Urbana-Champaign (Lincoln Room); scanned 2008",
+      "document_date": null,
+      "document_date_note": "Retrospective narrative. The preface is dated Washington, D.C., February 26, 1881; that date is not assigned to narrative passages as a composition date.",
+      "independence_group": "nicolay-outbreak-of-rebellion-1881",
+      "dependency_note": "One retrospective history by John G. Nicolay, styled on the OCR title page 'PRIVATE SECRETARY TO PRESIDENT LINCOLN'; not shown as a participant in the inspected engagements. By his preface he drew on personal observation, long investigation and, 'for the greater part', the recently published Official War Records for 1861, Union and Confederate. He quotes Anderson's, Rosecrans's, McDowell's, Burnside's and Johnston's reports and letters, so this history is not independent of the Official Records families selected in these passes. Relationship to later NPS summaries is unestablished. No earlier registry group for this author.",
+      "rights": "Underlying 1881 book is public domain in the United States. Public catalog metadata and full OCR retained, including library notices; no print scans or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/metadata/outbreakofrebell00nico",
+      "source_kind": "digital_catalog_metadata",
+      "id": "ia-nicolay-outbreak-metadata-v1",
+      "path": "data/raw/charleston-1861-v1/nicolay-metadata.json",
+      "format": "json",
+      "sha256": "1a374ca8fe23692fe5d1646cf7f6618a14ee7769a538050dc4409b14f15e8db5",
+      "inspection": "Title, creator, date, publisher, volume, contributor and scan date inspected; catalog is not a battle witness."
+    },
+    {
+      "title": "John G. Nicolay, The Outbreak of Rebellion",
+      "author": "John G. Nicolay",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "New York: Charles Scribner's Sons, 1881 (Campaigns of the Civil War, I), per catalog and OCR title page (series line read 'CAMPAIGNS OF THE CIVIL WAR.—\\.' in OCR); not checked against print.",
+      "archival_identifier": "Internet Archive outbreakofrebell00nico; University of Illinois Urbana-Champaign (Lincoln Room); scanned 2008",
+      "document_date": null,
+      "document_date_note": "Retrospective narrative. The preface is dated Washington, D.C., February 26, 1881; that date is not assigned to narrative passages as a composition date.",
+      "independence_group": "nicolay-outbreak-of-rebellion-1881",
+      "dependency_note": "One retrospective history by John G. Nicolay, styled on the OCR title page 'PRIVATE SECRETARY TO PRESIDENT LINCOLN'; not shown as a participant in the inspected engagements. By his preface he drew on personal observation, long investigation and, 'for the greater part', the recently published Official War Records for 1861, Union and Confederate. He quotes Anderson's, Rosecrans's, McDowell's, Burnside's and Johnston's reports and letters, so this history is not independent of the Official Records families selected in these passes. Relationship to later NPS summaries is unestablished. No earlier registry group for this author.",
+      "rights": "Underlying 1881 book is public domain in the United States. Public catalog metadata and full OCR retained, including library notices; no print scans or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/download/outbreakofrebell00nico/outbreakofrebell00nico_djvu.txt",
+      "source_kind": "retrospective_history",
+      "id": "nicolay-outbreak-ocr-v1",
+      "path": "data/raw/charleston-1861-v1/nicolay-full.txt",
+      "format": "text",
+      "sha256": "a9d7ce7a373c5451e61fafbe8ec9ac66bef62725c76a38f44476fcfb40625ed2",
+      "inspection": "Retained complete parent; inspected the title page, preface and contents, Chapter V (Sumter), Chapter XII (West Virginia), Chapter XIII (Patterson's Campaign), Chapters XIV-XVI (Manassas, Bull Run, The Retreat), the opening of Chapter XVII (Conclusion) and index entries for Falling Waters. Nicolay mentions Great Bethel and the Hatteras victory only in passing and does not narrate Sewell's Point, Aquia Creek, Cross Lanes, Carnifex Ferry, Cheat Mountain, Greenbrier River, Camp Alleghany, Ball's Bluff or Dranesville. Chapters I-IV and VI-XI and the maps were not read."
+    },
+    {
+      "title": "Official Records, series I, volume I: University of California/Internet Archive OCR",
+      "publication_year": 1880,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1880 per OCR title (read as 'PRINTING OFFICE. 1880,' at the end of the selected title range; not checked against print); series I volume I per OCR title and catalog volume 01. The scan also binds the 1902 'Additions and corrections to Series I-Volume I' insert. Catalog date 1880-1901 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion01secrrich; University of California Libraries (call number ucb:GLAD-218883); scanned 2006 with MSN sponsorship",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Robert Anderson; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "anderson-sumter-1861-reports",
+      "dependency_note": "Telegram and preliminary report of the Union commander of Fort Sumter, written after the evacuation; interested accounts. Nicolay's history uses the Official Records and is not independent of the report families selected here. No earlier registry group for this author. Shared OR container with the other Volume I selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion01secrrich",
+      "source_kind": "official_report_compilation",
+      "id": "or1-anderson-sumter-selections-v1",
+      "path": "data/raw/charleston-1861-v1/anderson-selections.txt",
+      "format": "text",
+      "sha256": "25c0df6d1fadb3a5f336cd3c803dcd20389e2ea0c301b6a323f6b1006e8e33f7",
+      "parent_source_id": "or1-ucal-ocr-v1",
+      "parent_sha256": "3055cba20c14ea27c1f52373cefe1b9f7ee7b8fa1dd25579941969f3040840c4",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 0,
+          "end": 453
+        },
+        "anderson-1861-04-18": {
+          "start": 62064,
+          "end": 63066
+        },
+        "anderson-1861-04-19": {
+          "start": 63069,
+          "end": 65678
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "anderson-1861-04-18": "1861-04-18",
+        "anderson-1861-04-19": "1861-04-19"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and all of No. 6 read, including the inclosed Beauregard-Anderson correspondence of April 11-15 and Cameron's April 20 letter. Selected: the April 18 telegram from the Baltic and the April 19 report to the Adjutant-General through its postscript and address. The inclosures, which include letters by Beauregard and his aides, were read but not selected; Anderson's promised detailed report is not in the inspected pages."
+    },
+    {
+      "title": "John G. Nicolay, The Outbreak of Rebellion",
+      "author": "John G. Nicolay",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "New York: Charles Scribner's Sons, 1881 (Campaigns of the Civil War, I), per catalog and OCR title page (series line read 'CAMPAIGNS OF THE CIVIL WAR.—\\.' in OCR); not checked against print.",
+      "archival_identifier": "Internet Archive outbreakofrebell00nico; University of Illinois Urbana-Champaign (Lincoln Room); scanned 2008",
+      "document_date": null,
+      "document_date_note": "Retrospective narrative. The preface is dated Washington, D.C., February 26, 1881; that date is not assigned to narrative passages as a composition date.",
+      "independence_group": "nicolay-outbreak-of-rebellion-1881",
+      "dependency_note": "One retrospective history by John G. Nicolay, styled on the OCR title page 'PRIVATE SECRETARY TO PRESIDENT LINCOLN'; not shown as a participant in the inspected engagements. By his preface he drew on personal observation, long investigation and, 'for the greater part', the recently published Official War Records for 1861, Union and Confederate. He quotes Anderson's, Rosecrans's, McDowell's, Burnside's and Johnston's reports and letters, so this history is not independent of the Official Records families selected in these passes. Relationship to later NPS summaries is unestablished. No earlier registry group for this author.",
+      "rights": "Underlying 1881 book is public domain in the United States. Public catalog metadata and full OCR retained, including library notices; no print scans or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/outbreakofrebell00nico",
+      "source_kind": "retrospective_history",
+      "id": "nicolay-sumter-selections-v1",
+      "path": "data/raw/charleston-1861-v1/nicolay-selections.txt",
+      "format": "text",
+      "sha256": "6a8037ff55d87a2a6726aa42823dff53ad7fd4eff9db061d2b7450d75c6c32b0",
+      "parent_source_id": "nicolay-outbreak-ocr-v1",
+      "parent_sha256": "a9d7ce7a373c5451e61fafbe8ec9ac66bef62725c76a38f44476fcfb40625ed2",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title-and-preface": {
+          "start": 300,
+          "end": 2931
+        },
+        "sumter": {
+          "start": 121683,
+          "end": 150230
+        }
+      },
+      "document_dates_by_section": {
+        "title-and-preface": null,
+        "sumter": null
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Transcription note, the title page and preface, and Chapter V, Sumter (pp.56-68), read in full."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail VA001",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=va001",
+      "id": "nps-va001-v1-html",
+      "path": "data/raw/chesapeake-1861-v1/nps-va001.html",
+      "format": "html",
+      "sha256": "da6e381fa898945864a1a71b06006e5682de738b8d07cc0055e678f52d08a6eb"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail VA001",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=va001",
+      "id": "nps-va001-v1",
+      "path": "data/raw/chesapeake-1861-v1/nps-va001.txt",
+      "format": "text",
+      "sha256": "c31b2b57215a24ee358df3412a2e4062bb773cd2bd40032b77362f5189a958cf",
+      "parent_source_id": "nps-va001-v1-html",
+      "parent_sha256": "da6e381fa898945864a1a71b06006e5682de738b8d07cc0055e678f52d08a6eb",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail VA002",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=va002",
+      "id": "nps-va002-v1-html",
+      "path": "data/raw/chesapeake-1861-v1/nps-va002.html",
+      "format": "html",
+      "sha256": "8a28bf4c5a6322316bb960c9939145f5afbe15634e38964a8aea0e1ee2b540ce"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail VA002",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=va002",
+      "id": "nps-va002-v1",
+      "path": "data/raw/chesapeake-1861-v1/nps-va002.txt",
+      "format": "text",
+      "sha256": "20999d492b573252ad27cf401a44119a472ea221e6c558ef113ba2ecccb64503",
+      "parent_source_id": "nps-va002-v1-html",
+      "parent_sha256": "8a28bf4c5a6322316bb960c9939145f5afbe15634e38964a8aea0e1ee2b540ce",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail VA003",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=va003",
+      "id": "nps-va003-v1-html",
+      "path": "data/raw/chesapeake-1861-v1/nps-va003.html",
+      "format": "html",
+      "sha256": "fa62a655c50fd75f07f71afa82b1887d65004cc74454c3e7a3e2767da69ab380"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail VA003",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=va003",
+      "id": "nps-va003-v1",
+      "path": "data/raw/chesapeake-1861-v1/nps-va003.txt",
+      "format": "text",
+      "sha256": "36a92480c0f739c29511f59b9da017d998831f02c900385ac99a101d26211d13",
+      "parent_source_id": "nps-va003-v1-html",
+      "parent_sha256": "fa62a655c50fd75f07f71afa82b1887d65004cc74454c3e7a3e2767da69ab380",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "title": "Official Records, series I, volume II: University of California/Internet Archive OCR",
+      "publication_year": 1880,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1880 per OCR title (read as 'PBINTINa OFFICE}. 1880,' at the end of the selected title range; not checked against print); series I volume II per OCR title and catalog volume 02. Catalog date 1880-1901 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion02secrrich; University of California Libraries (call number ucb:GLAD-218883); scanned 2006 with MSN sponsorship",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "U.S. War Department; Robert N. Scott, compiler",
+      "document_date": null,
+      "document_date_note": "Mixed-document compilation; no volume-wide report date.",
+      "independence_group": "or-series-i-volume-ii",
+      "dependency_note": "Shared digital container, not one independent witness per artifact. Reports are interested participant accounts; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/metadata/warofrebellion02secrrich",
+      "source_kind": "digital_catalog_metadata",
+      "id": "ia-or2-ucal-metadata-v1",
+      "path": "data/raw/chesapeake-1861-v1/or2-metadata.json",
+      "format": "json",
+      "sha256": "c4357f6a87e24e33d229b2457d5beccde282ee7a114ff9ce1d58a17cc3a8e4cb",
+      "inspection": "Title, creator, date, publisher, volume, contributor and scan date inspected; catalog is not a battle witness."
+    },
+    {
+      "title": "Official Records, series I, volume II: University of California/Internet Archive OCR",
+      "publication_year": 1880,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1880 per OCR title (read as 'PBINTINa OFFICE}. 1880,' at the end of the selected title range; not checked against print); series I volume II per OCR title and catalog volume 02. Catalog date 1880-1901 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion02secrrich; University of California Libraries (call number ucb:GLAD-218883); scanned 2006 with MSN sponsorship",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "U.S. War Department; Robert N. Scott, compiler",
+      "document_date": null,
+      "document_date_note": "Mixed-document compilation; no volume-wide report date.",
+      "independence_group": "or-series-i-volume-ii",
+      "dependency_note": "Shared digital container, not one independent witness per artifact. Reports are interested participant accounts; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/download/warofrebellion02secrrich/warofrebellion02secrrich_djvu.txt",
+      "source_kind": "official_report_compilation",
+      "id": "or2-ucal-ocr-v1",
+      "path": "data/raw/chesapeake-1861-v1/or2-full.txt",
+      "format": "text",
+      "sha256": "146472e60bca6e58519d26c8393463077d2ff3a45d9a60733a526cf811966cb3",
+      "inspection": "Retained complete parent; inspected the title page, contents, the Chapter IX summary of principal events, and the report lists for Sewell's Point, Aquia Creek, the Grafton advance, Philippi, Big Bethel, the Shenandoah Valley operations of July 2-25, the West Virginia campaign of July 6-17 and the Bull Run campaign. Read: Gwynn's and Colquitt's Sewell's Point reports; Ruggles's five Aquia Creek reports, Bate's letter and the opening of Cluskey's; Butler's two Big Bethel reports and casualty table, Pierce's report, the opening of Townsend's report, Magruder's three reports and the opening of Hill's; McClellan's Philippi reports, Morris's report, the Heck-Cowan-Harman and Harman reports, Porterfield's reports with Lee's reply and the court of inquiry findings; Pegram's reports; Patterson's dispatches of July 1-4, the Simpson, Thomas, Perkins, Keim, Abercrombie, Starkweather, Jarrett and Hudson reports, Johnston's transmittal, T. J. Jackson's report and the garbled June 30 abstract; Beauregard's No. 64 reports with Special Orders No. 100; McDowell's No. 6 telegrams and August report with the opening of its appendices. All other reports, returns and correspondence were not inspected. The University of Illinois identifier warofrebellion02unit is Series III Volume II and warofrebellion02unit_0 is a Series II volume; neither was used."
+    },
+    {
+      "title": "Official Records of the Union and Confederate Navies, series I, volume 5: Internet Archive OCR",
+      "publication_year": 1897,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1897 per OCR title (read as 'GOVERNMENT PRINTING OFFICE. 1897.'; not checked against print); series I volume 5 per OCR title and catalog volume 5. Catalog date 1894 describes the series and is not substituted for the volume imprint. This is the Navy Department's compilation, not the Army Official Records.",
+      "archival_identifier": "Internet Archive officialrecordso0005unse; Trent University (Thomas J. Bata Library) copy, collection trent_university; scanned 2019 with Kahle/Austin Foundation funding",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "U.S. Navy Department; Richard Rush and Robert H. Woods, compilers",
+      "document_date": null,
+      "document_date_note": "Mixed-document compilation; no volume-wide report date.",
+      "independence_group": "orn-series-i-volume-5",
+      "dependency_note": "Shared digital container, not one independent witness per artifact. Reports are interested participant accounts; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/metadata/officialrecordso0005unse",
+      "source_kind": "digital_catalog_metadata",
+      "id": "ia-orn5-trent-metadata-v1",
+      "path": "data/raw/chesapeake-1861-v1/orn5-metadata.json",
+      "format": "json",
+      "sha256": "6058ec19d89fd1366f568642cdfbaa8b00a750e96dd226eacf3c4aadf6b905d8",
+      "inspection": "Title, creator, date, publisher, volume, contributor and scan date inspected; catalog is not a battle witness."
+    },
+    {
+      "title": "Official Records of the Union and Confederate Navies, series I, volume 5: Internet Archive OCR",
+      "publication_year": 1897,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1897 per OCR title (read as 'GOVERNMENT PRINTING OFFICE. 1897.'; not checked against print); series I volume 5 per OCR title and catalog volume 5. Catalog date 1894 describes the series and is not substituted for the volume imprint. This is the Navy Department's compilation, not the Army Official Records.",
+      "archival_identifier": "Internet Archive officialrecordso0005unse; Trent University (Thomas J. Bata Library) copy, collection trent_university; scanned 2019 with Kahle/Austin Foundation funding",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "U.S. Navy Department; Richard Rush and Robert H. Woods, compilers",
+      "document_date": null,
+      "document_date_note": "Mixed-document compilation; no volume-wide report date.",
+      "independence_group": "orn-series-i-volume-5",
+      "dependency_note": "Shared digital container, not one independent witness per artifact. Reports are interested participant accounts; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/download/officialrecordso0005unse/officialrecordso0005unse_djvu.txt",
+      "source_kind": "official_report_compilation",
+      "id": "orn5-trent-ocr-v1",
+      "path": "data/raw/chesapeake-1861-v1/orn5-full.txt",
+      "format": "text",
+      "sha256": "63ae19c3f1078f07430ced5848864503918ea5c87d88348c3cebcc61fde682cc",
+      "inspection": "Retained complete parent; inspected the title page and the Sewell's Point section (pp.644-648): Stringham's May 19 report with Eagle's enclosure, Braine's May 22 statement, Dahlgren's May 30 report on shell fragments, and the reprinted Gwynn and Colquitt reports. All other material was not inspected."
+    },
+    {
+      "title": "Official Records of the Union and Confederate Navies, series I, volume 4: Internet Archive OCR",
+      "publication_year": 1896,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1896 per OCR title (read as 'GOVERNMENT PRINTING OFFICE, 189 6.'; not checked against print); series I volume 4 per OCR title and catalog volume 4. Catalog date 1894 describes the series and is not substituted for the volume imprint. This is the Navy Department's compilation, not the Army Official Records.",
+      "archival_identifier": "Internet Archive officialrecordso0004unse; Trent University (Thomas J. Bata Library) copy, collection trent_university; scanned 2019 with Kahle/Austin Foundation funding",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "U.S. Navy Department; Richard Rush and Robert H. Woods, compilers",
+      "document_date": null,
+      "document_date_note": "Mixed-document compilation; no volume-wide report date.",
+      "independence_group": "orn-series-i-volume-4",
+      "dependency_note": "Shared digital container, not one independent witness per artifact. Reports are interested participant accounts; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/metadata/officialrecordso0004unse",
+      "source_kind": "digital_catalog_metadata",
+      "id": "ia-orn4-trent-metadata-v1",
+      "path": "data/raw/chesapeake-1861-v1/orn4-metadata.json",
+      "format": "json",
+      "sha256": "877e93c9ceaf20879c28d54c4d1fd304f5f7c85f6c38b5e0c24a7a54ad3558b5",
+      "inspection": "Title, creator, date, publisher, volume, contributor and scan date inspected; catalog is not a battle witness."
+    },
+    {
+      "title": "Official Records of the Union and Confederate Navies, series I, volume 4: Internet Archive OCR",
+      "publication_year": 1896,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1896 per OCR title (read as 'GOVERNMENT PRINTING OFFICE, 189 6.'; not checked against print); series I volume 4 per OCR title and catalog volume 4. Catalog date 1894 describes the series and is not substituted for the volume imprint. This is the Navy Department's compilation, not the Army Official Records.",
+      "archival_identifier": "Internet Archive officialrecordso0004unse; Trent University (Thomas J. Bata Library) copy, collection trent_university; scanned 2019 with Kahle/Austin Foundation funding",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "U.S. Navy Department; Richard Rush and Robert H. Woods, compilers",
+      "document_date": null,
+      "document_date_note": "Mixed-document compilation; no volume-wide report date.",
+      "independence_group": "orn-series-i-volume-4",
+      "dependency_note": "Shared digital container, not one independent witness per artifact. Reports are interested participant accounts; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/download/officialrecordso0004unse/officialrecordso0004unse_djvu.txt",
+      "source_kind": "official_report_compilation",
+      "id": "orn4-trent-ocr-v1",
+      "path": "data/raw/chesapeake-1861-v1/orn4-full.txt",
+      "format": "text",
+      "sha256": "299c4b37f620725c873a483734ff0ae59a422ac4ea01f97bdf454b9b9ce0de82",
+      "inspection": "Retained complete parent; inspected the title page, contents, the May 13-18 reports on the Aquia Creek battery (Gillis, Sproston, Fillebrown) and the Aquia Creek engagement section (pp.490-501): Ward's May 31 and June 1 reports, Rowan's June 2 report, Dahlgren's June 2 telegram, Ward's June 11 letter, the Rowan-Welles letters, Lynch's June 2 and June 6 reports and the reprinted Ruggles reports. The reprint of Ruggles's May 30 report reads 'attacked the Aquia Creek Railroad battery last evening about sunset with twelve shot and shell', where the Army Official Records read 'fired some fourteen shot and shell'. All other material was not inspected. This is the Navy compilation; Army Official Records Series I Volume IV was not fetched or registered."
+    },
+    {
+      "title": "Official Records, series I, volume II: University of California/Internet Archive OCR",
+      "publication_year": 1880,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1880 per OCR title (read as 'PBINTINa OFFICE}. 1880,' at the end of the selected title range; not checked against print); series I volume II per OCR title and catalog volume 02. Catalog date 1880-1901 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion02secrrich; University of California Libraries (call number ucb:GLAD-218883); scanned 2006 with MSN sponsorship",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Walter Gwynn; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "gwynn-sewells-point-reports",
+      "dependency_note": "Telegram and report of the Confederate commander at Norfolk, who was not at the battery during the May 19 cannonade; interested accounts that rely in part on Colquitt's report. The Navy compilation (Volume 5) reprints both reports; the reprint is a copy, not another witness. No earlier registry group for this author. Shared OR container with the other Volume II selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion02secrrich",
+      "source_kind": "official_report_compilation",
+      "id": "or2-gwynn-sewells-point-selections-v1",
+      "path": "data/raw/chesapeake-1861-v1/gwynn-selections.txt",
+      "format": "text",
+      "sha256": "495934c91f29e1befcdbf00abb7445c6ea5d9d258db48389a2a26d159612f619",
+      "parent_source_id": "or2-ucal-ocr-v1",
+      "parent_sha256": "146472e60bca6e58519d26c8393463077d2ff3a45d9a60733a526cf811966cb3",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 0,
+          "end": 464
+        },
+        "gwynn-1861-05-20-telegram": {
+          "start": 146575,
+          "end": 147643
+        },
+        "gwynn-1861-05-20-report": {
+          "start": 147647,
+          "end": 152760
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "gwynn-1861-05-20-telegram": "1861-05-20",
+        "gwynn-1861-05-20-report": "1861-05-20"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and the Sewell's Point section (pp.33-35) read, including Colquitt's May 19 report and postscript, which were not selected. Selected: Gwynn's May 20 telegram to Garnett and his May 20 report to Lee."
+    },
+    {
+      "title": "Official Records of the Union and Confederate Navies, series I, volume 5: Internet Archive OCR",
+      "publication_year": 1897,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1897 per OCR title (read as 'GOVERNMENT PRINTING OFFICE. 1897.'; not checked against print); series I volume 5 per OCR title and catalog volume 5. Catalog date 1894 describes the series and is not substituted for the volume imprint. This is the Navy Department's compilation, not the Army Official Records.",
+      "archival_identifier": "Internet Archive officialrecordso0005unse; Trent University (Thomas J. Bata Library) copy, collection trent_university; scanned 2019 with Kahle/Austin Foundation funding",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Henry Eagle; volume title supplied by Navy compilers",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "eagle-sewells-point-report",
+      "dependency_note": "Report of the commander of the U.S.S. Star [Monticello], enclosed by Flag-Officer Stringham; an interested account. Stringham's covering report and Braine's May 22 statement are separate authors and were not selected. No earlier registry group for this author. Shared Naval OR container with the other Navy Volume 5 material; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/officialrecordso0005unse",
+      "source_kind": "official_report_compilation",
+      "id": "orn5-eagle-sewells-point-selections-v1",
+      "path": "data/raw/chesapeake-1861-v1/eagle-selections.txt",
+      "format": "text",
+      "sha256": "ce706fafd17411616e247991cae621f7a34da2b8fb1d0834632de2f8f32cf6b4",
+      "parent_source_id": "orn5-trent-ocr-v1",
+      "parent_sha256": "63ae19c3f1078f07430ced5848864503918ea5c87d88348c3cebcc61fde682cc",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 282,
+          "end": 909
+        },
+        "eagle-1861-05-19": {
+          "start": 1982931,
+          "end": 1985676
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "eagle-1861-05-19": "1861-05-19"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and the Sewell's Point section (pp.644-648) read. Selected: Eagle's May 19 report, printed as an enclosure to Stringham's May 19 report. Not selected: Stringham's report, Braine's statement on the Thomas Freeborn, Dahlgren's May 30 report, and the reprints of Gwynn's and Colquitt's reports."
+    },
+    {
+      "title": "Official Records, series I, volume II: University of California/Internet Archive OCR",
+      "publication_year": 1880,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1880 per OCR title (read as 'PBINTINa OFFICE}. 1880,' at the end of the selected title range; not checked against print); series I volume II per OCR title and catalog volume 02. Catalog date 1880-1901 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion02secrrich; University of California Libraries (call number ucb:GLAD-218883); scanned 2006 with MSN sponsorship",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Daniel Ruggles; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "ruggles-aquia-creek-reports",
+      "dependency_note": "Reports of the Confederate commander of the Department of Fredericksburg, who reached the field after or during the cannonades and relays the battery officers' figures; interested accounts. The Navy compilation (Volume 4) reprints them; the reprint is a copy, not another witness, and differs in wording (see the parent inspection). No earlier registry group for this author. Shared OR container with the other Volume II selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion02secrrich",
+      "source_kind": "official_report_compilation",
+      "id": "or2-ruggles-aquia-creek-selections-v1",
+      "path": "data/raw/chesapeake-1861-v1/ruggles-selections.txt",
+      "format": "text",
+      "sha256": "b4b571df8860598ce496fe81ae4256b4bef6e75dd5323a0ca47a6c1c933c93db",
+      "parent_source_id": "or2-ucal-ocr-v1",
+      "parent_sha256": "146472e60bca6e58519d26c8393463077d2ff3a45d9a60733a526cf811966cb3",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 0,
+          "end": 464
+        },
+        "ruggles-1861-05-30": {
+          "start": 224792,
+          "end": 226482
+        },
+        "ruggles-1861-06-01-morning": {
+          "start": 226486,
+          "end": 227360
+        },
+        "ruggles-1861-06-01": {
+          "start": 227411,
+          "end": 229312
+        },
+        "ruggles-1861-06-02": {
+          "start": 229364,
+          "end": 230897
+        },
+        "ruggles-1861-06-04": {
+          "start": 230948,
+          "end": 233788
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "ruggles-1861-05-30": null,
+        "ruggles-1861-06-01-morning": "1861-06-01",
+        "ruggles-1861-06-01": "1861-06-01",
+        "ruggles-1861-06-02": "1861-06-02",
+        "ruggles-1861-06-04": "1861-06-04"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and the Aquia Creek section (pp.55-58) read. Selected: Ruggles's five reports. The first is headed 'May 30 [?]' in OCR, the compiler's query, so its date is mapped null. The June 4 section ends with the next heading 'No. 2.'. Bate's June 11 letter and Cluskey's June 1 letter were read (Cluskey's in part) but not selected."
+    },
+    {
+      "title": "Official Records of the Union and Confederate Navies, series I, volume 4: Internet Archive OCR",
+      "publication_year": 1896,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1896 per OCR title (read as 'GOVERNMENT PRINTING OFFICE, 189 6.'; not checked against print); series I volume 4 per OCR title and catalog volume 4. Catalog date 1894 describes the series and is not substituted for the volume imprint. This is the Navy Department's compilation, not the Army Official Records.",
+      "archival_identifier": "Internet Archive officialrecordso0004unse; Trent University (Thomas J. Bata Library) copy, collection trent_university; scanned 2019 with Kahle/Austin Foundation funding",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "James H. Ward; volume title supplied by Navy compilers",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "ward-aquia-creek-reports",
+      "dependency_note": "Reports of the commander of the Potomac Flotilla on the Thomas Freeborn; interested accounts, including claims about his own gun carriage. Rowan's June 2 report and Lynch's Confederate reports are separate authors and were not selected. No earlier registry group for this author. Shared Naval OR container with the other Navy Volume 4 material; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/officialrecordso0004unse",
+      "source_kind": "official_report_compilation",
+      "id": "orn4-ward-aquia-creek-selections-v1",
+      "path": "data/raw/chesapeake-1861-v1/ward-selections.txt",
+      "format": "text",
+      "sha256": "0e96b89b27e9a223800c429aeebe5ef542ad4af03bdbd8775010515b3304f3fc",
+      "parent_source_id": "orn4-trent-ocr-v1",
+      "parent_sha256": "299c4b37f620725c873a483734ff0ae59a422ac4ea01f97bdf454b9b9ce0de82",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 274,
+          "end": 1034
+        },
+        "ward-1861-05-31": {
+          "start": 1569453,
+          "end": 1573985
+        },
+        "ward-1861-06-01": {
+          "start": 1574067,
+          "end": 1579092
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "ward-1861-05-31": "1861-05-31",
+        "ward-1861-06-01": "1861-06-01"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and the Aquia Creek engagement section (pp.490-498) read. Selected: Ward's May 31 and June 1 reports. Not selected: Rowan's June 2 report, Dahlgren's telegram, Ward's June 11 unofficial letter, the Rowan-Welles letters, Lynch's reports and the reprinted Ruggles reports."
+    },
+    {
+      "title": "Official Records, series I, volume II: University of California/Internet Archive OCR",
+      "publication_year": 1880,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1880 per OCR title (read as 'PBINTINa OFFICE}. 1880,' at the end of the selected title range; not checked against print); series I volume II per OCR title and catalog volume 02. Catalog date 1880-1901 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion02secrrich; University of California Libraries (call number ucb:GLAD-218883); scanned 2006 with MSN sponsorship",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Ebenezer W. Pierce; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "pierce-big-bethel-report",
+      "dependency_note": "Report of the Union brigadier general who accompanied the attacking column, to Butler; an interested account that reprints Butler's plan and his own General Orders No. 12. Butler's reports are a separate family and were not selected. No earlier registry group for this author. Shared OR container with the other Volume II selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion02secrrich",
+      "source_kind": "official_report_compilation",
+      "id": "or2-pierce-big-bethel-selections-v1",
+      "path": "data/raw/chesapeake-1861-v1/pierce-selections.txt",
+      "format": "text",
+      "sha256": "c035c7a123470df3f628fd84f72d24fa36aa80a59fc382cd03560898c744fa38",
+      "parent_source_id": "or2-ucal-ocr-v1",
+      "parent_sha256": "146472e60bca6e58519d26c8393463077d2ff3a45d9a60733a526cf811966cb3",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 0,
+          "end": 464
+        },
+        "pierce-1861-06-12": {
+          "start": 328923,
+          "end": 344467
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "pierce-1861-06-12": "1861-06-12"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and Pierce's June 12 report (No. 2, pp.82-86) read in full. Butler's two reports and casualty table (No. 1) and the opening of Townsend's report (No. 3) were read but not selected."
+    },
+    {
+      "title": "Official Records, series I, volume II: University of California/Internet Archive OCR",
+      "publication_year": 1880,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1880 per OCR title (read as 'PBINTINa OFFICE}. 1880,' at the end of the selected title range; not checked against print); series I volume II per OCR title and catalog volume 02. Catalog date 1880-1901 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion02secrrich; University of California Libraries (call number ucb:GLAD-218883); scanned 2006 with MSN sponsorship",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "John B. Magruder; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "magruder-big-bethel-reports",
+      "dependency_note": "Dispatches and report of the Confederate commander of the Hampton Division; interested accounts. D. H. Hill's report is a separate family and was not selected. No earlier registry group for this author. Shared OR container with the other Volume II selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion02secrrich",
+      "source_kind": "official_report_compilation",
+      "id": "or2-magruder-big-bethel-selections-v1",
+      "path": "data/raw/chesapeake-1861-v1/magruder-selections.txt",
+      "format": "text",
+      "sha256": "a93b5f5068be36f8e6a34739cd77bbcd01a766729331336074ab54d16f774356",
+      "parent_source_id": "or2-ucal-ocr-v1",
+      "parent_sha256": "146472e60bca6e58519d26c8393463077d2ff3a45d9a60733a526cf811966cb3",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 0,
+          "end": 464
+        },
+        "magruder-1861-06-10-to-walker": {
+          "start": 362635,
+          "end": 363694
+        },
+        "magruder-1861-06-10-to-garnett": {
+          "start": 363698,
+          "end": 367309
+        },
+        "magruder-1861-06-12": {
+          "start": 367313,
+          "end": 371797
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "magruder-1861-06-10-to-walker": "1861-06-10",
+        "magruder-1861-06-10-to-garnett": "1861-06-10",
+        "magruder-1861-06-12": "1861-06-12"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and Magruder's three reports (No. 7, pp.91-93) read in full, with the Confederate Secretary of War's covering letter (No. 6, not selected). The June 10 report to Garnett includes the initialled note 'J. B. M.' on losses and forces. The June 12 section ends with the next heading 'No. 8.'. The opening of Hill's report (No. 8) was read but not selected."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV001",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv001",
+      "id": "nps-wv001-v1-html",
+      "path": "data/raw/western-virginia-1861-v1/nps-wv001.html",
+      "format": "html",
+      "sha256": "72d031f0bbde1ed6e4cd2cd6f81ead6d1bc6be472d8ba892c1226fbe6dab24a3"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV001",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv001",
+      "id": "nps-wv001-v1",
+      "path": "data/raw/western-virginia-1861-v1/nps-wv001.txt",
+      "format": "text",
+      "sha256": "180e4b6e04731e8d91d983d916b4341dd89269460945a2ae177aac879e9281d2",
+      "parent_source_id": "nps-wv001-v1-html",
+      "parent_sha256": "72d031f0bbde1ed6e4cd2cd6f81ead6d1bc6be472d8ba892c1226fbe6dab24a3",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV003",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv003",
+      "id": "nps-wv003-v1-html",
+      "path": "data/raw/western-virginia-1861-v1/nps-wv003.html",
+      "format": "html",
+      "sha256": "eed0944dcda40bdaec88f1654fe93ee5b7dfa48c6b796239676567c8787dc14b"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV003",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv003",
+      "id": "nps-wv003-v1",
+      "path": "data/raw/western-virginia-1861-v1/nps-wv003.txt",
+      "format": "text",
+      "sha256": "3a1be51a8f65f0eac042b61c39f255fc1dc018af35a1b5ac2942e76dd6cb7d37",
+      "parent_source_id": "nps-wv003-v1-html",
+      "parent_sha256": "eed0944dcda40bdaec88f1654fe93ee5b7dfa48c6b796239676567c8787dc14b",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV004",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv004",
+      "id": "nps-wv004-v1-html",
+      "path": "data/raw/western-virginia-1861-v1/nps-wv004.html",
+      "format": "html",
+      "sha256": "d1559bd09a86dc0ccabde2a636c978a4a749967b0d0dc1b3d00f9909af02af30"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV004",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv004",
+      "id": "nps-wv004-v1",
+      "path": "data/raw/western-virginia-1861-v1/nps-wv004.txt",
+      "format": "text",
+      "sha256": "244930555b6a5d023e4593b6a23fee5564d8beae8a30fab96edd2c34667ee21d",
+      "parent_source_id": "nps-wv004-v1-html",
+      "parent_sha256": "d1559bd09a86dc0ccabde2a636c978a4a749967b0d0dc1b3d00f9909af02af30",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV006",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv006",
+      "id": "nps-wv006-v1-html",
+      "path": "data/raw/western-virginia-1861-v1/nps-wv006.html",
+      "format": "html",
+      "sha256": "7388e600143c81afa0629966a4b404c38d0e95d0a2ac0bfddb1007817d6134c1"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV006",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv006",
+      "id": "nps-wv006-v1",
+      "path": "data/raw/western-virginia-1861-v1/nps-wv006.txt",
+      "format": "text",
+      "sha256": "0af8d8445348fd45dba2eecce1223ab50c3e35e15a5f7a48b6848f4fb464bea5",
+      "parent_source_id": "nps-wv006-v1-html",
+      "parent_sha256": "7388e600143c81afa0629966a4b404c38d0e95d0a2ac0bfddb1007817d6134c1",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV005",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv005",
+      "id": "nps-wv005-v1-html",
+      "path": "data/raw/western-virginia-1861-v1/nps-wv005.html",
+      "format": "html",
+      "sha256": "0c7441a2ee9a75160840740fa8df3dcfe391369f479341a454b26d67fc19d5c0"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV005",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv005",
+      "id": "nps-wv005-v1",
+      "path": "data/raw/western-virginia-1861-v1/nps-wv005.txt",
+      "format": "text",
+      "sha256": "e1ffc1112bd4d498e0eb27ff0fc2911335b1f05605ed330e5339753f77a26a12",
+      "parent_source_id": "nps-wv005-v1-html",
+      "parent_sha256": "0c7441a2ee9a75160840740fa8df3dcfe391369f479341a454b26d67fc19d5c0",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV007",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv007",
+      "id": "nps-wv007-v1-html",
+      "path": "data/raw/western-virginia-1861-v1/nps-wv007.html",
+      "format": "html",
+      "sha256": "78b765d2f9e0d1f3313d51cb848fe2dd112d4abe6e69746bd1bb23c6f05a5c09"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV007",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv007",
+      "id": "nps-wv007-v1",
+      "path": "data/raw/western-virginia-1861-v1/nps-wv007.txt",
+      "format": "text",
+      "sha256": "be509f5b4e48dc0637b72a874badd4034cfd34ba055b07eaf933387638778514",
+      "parent_source_id": "nps-wv007-v1-html",
+      "parent_sha256": "78b765d2f9e0d1f3313d51cb848fe2dd112d4abe6e69746bd1bb23c6f05a5c09",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV008",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv008",
+      "id": "nps-wv008-v1-html",
+      "path": "data/raw/western-virginia-1861-v1/nps-wv008.html",
+      "format": "html",
+      "sha256": "80e788d6d8c6c66101d43ce2ce4b95a38986b535cc02d5d689efba2b79d65a72"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV008",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv008",
+      "id": "nps-wv008-v1",
+      "path": "data/raw/western-virginia-1861-v1/nps-wv008.txt",
+      "format": "text",
+      "sha256": "fafe4650bbdf5999c0f40c21de5332219d60580bc9276a378363db459dd8e677",
+      "parent_source_id": "nps-wv008-v1-html",
+      "parent_sha256": "80e788d6d8c6c66101d43ce2ce4b95a38986b535cc02d5d689efba2b79d65a72",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "title": "Official Records, series I, volume V: University of Illinois/Internet Archive OCR",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1881 per OCR title (read as 'GOVERNMENT PRINTING OFFICE 1881.' at the end of the selected title range; not checked against print); series I volume V per OCR title and catalog volume v.5. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion05unit; University of Illinois Urbana-Champaign (call number 973.74 Un3); digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "U.S. War Department; Robert N. Scott, compiler",
+      "document_date": null,
+      "document_date_note": "Mixed-document compilation; no volume-wide report date.",
+      "independence_group": "or-series-i-volume-v",
+      "dependency_note": "Shared digital container, not one independent witness per artifact. Reports are interested participant accounts; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/metadata/warofrebellion05unit",
+      "source_kind": "digital_catalog_metadata",
+      "id": "ia-or5-illinois-metadata-v1",
+      "path": "data/raw/western-virginia-1861-v1/or5-metadata.json",
+      "format": "json",
+      "sha256": "8413aa24a0b76192114be00540c0b063d01b074764304763322ff4f7127c8df1",
+      "inspection": "Title, creator, date, publisher, volume, contributor and scan date inspected; catalog is not a battle witness."
+    },
+    {
+      "title": "Official Records, series I, volume V: University of Illinois/Internet Archive OCR",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1881 per OCR title (read as 'GOVERNMENT PRINTING OFFICE 1881.' at the end of the selected title range; not checked against print); series I volume V per OCR title and catalog volume v.5. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion05unit; University of Illinois Urbana-Champaign (call number 973.74 Un3); digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "U.S. War Department; Robert N. Scott, compiler",
+      "document_date": null,
+      "document_date_note": "Mixed-document compilation; no volume-wide report date.",
+      "independence_group": "or-series-i-volume-v",
+      "dependency_note": "Shared digital container, not one independent witness per artifact. Reports are interested participant accounts; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/download/warofrebellion05unit/warofrebellion05unit_djvu.txt",
+      "source_kind": "official_report_compilation",
+      "id": "or5-illinois-ocr-v1",
+      "path": "data/raw/western-virginia-1861-v1/or5-full.txt",
+      "format": "text",
+      "sha256": "ca225fee03e39b8b88f458809d0dbd9dd5c5203babc9c2357b90e17e295c0099",
+      "inspection": "Retained complete parent; inspected the title page, the chapter summary entry for the Cross-Lanes action, and the report sections for Cross-Lanes (Rosecrans's two August 28 telegrams), Carnifix Ferry (report list, Rosecrans's No. 1, the No. 14 casualty statement, Floyd's No. 15 with Benjamin's reply, Wise's No. 16 September 11 letter and October 26 report through the Cross-Lanes passage), Cheat Mountain (list, Reynolds, Kimball, the opening of Wagner, Rust with Henry R. Jackson's inclosure, Lee's orders), Greenbrier River (list, Reynolds, Kimball, Richardson, Henry R. Jackson), Camp Alleghany (list, Milroy's No. 1 telegram relay, record of events and casualty return, Jones, Benjamin, Loring, Edward Johnson's three reports), Ball's Bluff (list, the opening of McClellan's No. 1, Stone's No. 2 papers of October 19-December 2, the No. 3 Union casualty return, the opening of Devens's report, Evans's No. 21 papers and the No. 22 Confederate casualty return) and Dranesville (list, McCall's December 20 telegram and the opening of his December 22 report, General Orders No. 63, Ord's No. 2 with McCall's order, Stuart's No. 11). All other reports, returns and correspondence were not inspected."
+    },
+    {
+      "title": "John G. Nicolay, The Outbreak of Rebellion",
+      "author": "John G. Nicolay",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "New York: Charles Scribner's Sons, 1881 (Campaigns of the Civil War, I), per catalog and OCR title page (series line read 'CAMPAIGNS OF THE CIVIL WAR.—\\.' in OCR); not checked against print.",
+      "archival_identifier": "Internet Archive outbreakofrebell00nico; University of Illinois Urbana-Champaign (Lincoln Room); scanned 2008",
+      "document_date": null,
+      "document_date_note": "Retrospective narrative. The preface is dated Washington, D.C., February 26, 1881; that date is not assigned to narrative passages as a composition date.",
+      "independence_group": "nicolay-outbreak-of-rebellion-1881",
+      "dependency_note": "One retrospective history by John G. Nicolay, styled on the OCR title page 'PRIVATE SECRETARY TO PRESIDENT LINCOLN'; not shown as a participant in the inspected engagements. By his preface he drew on personal observation, long investigation and, 'for the greater part', the recently published Official War Records for 1861, Union and Confederate. He quotes Anderson's, Rosecrans's, McDowell's, Burnside's and Johnston's reports and letters, so this history is not independent of the Official Records families selected in these passes. Relationship to later NPS summaries is unestablished. No earlier registry group for this author.",
+      "rights": "Underlying 1881 book is public domain in the United States. Public catalog metadata and full OCR retained, including library notices; no print scans or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/outbreakofrebell00nico",
+      "source_kind": "retrospective_history",
+      "id": "nicolay-western-virginia-selections-v1",
+      "path": "data/raw/western-virginia-1861-v1/nicolay-selections.txt",
+      "format": "text",
+      "sha256": "6a6fd4252d8cc5e8e94e3667a81cc7f8e5ab864f2f511e09cf3f879f1c215d28",
+      "parent_source_id": "nicolay-outbreak-ocr-v1",
+      "parent_sha256": "a9d7ce7a373c5451e61fafbe8ec9ac66bef62725c76a38f44476fcfb40625ed2",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "philippi": {
+          "start": 302314,
+          "end": 305759
+        },
+        "rich-mountain": {
+          "start": 309926,
+          "end": 325238
+        }
+      },
+      "document_dates_by_section": {
+        "philippi": null,
+        "rich-mountain": null
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Transcription note and two passages of Chapter XII read in full: the advance on Grafton and Philippi (pp.143-144) and Garnett's position, Rich Mountain, Pegram's surrender, Carrick's Ford and the close of McClellan's campaign (pp.146-154). The footnoted McClellan telegram, split across pp.153-154 in OCR, is inside the second passage but not cited."
+    },
+    {
+      "title": "Official Records, series I, volume II: University of California/Internet Archive OCR",
+      "publication_year": 1880,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1880 per OCR title (read as 'PBINTINa OFFICE}. 1880,' at the end of the selected title range; not checked against print); series I volume II per OCR title and catalog volume 02. Catalog date 1880-1901 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion02secrrich; University of California Libraries (call number ucb:GLAD-218883); scanned 2006 with MSN sponsorship",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Thomas A. Morris; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "morris-philippi-report",
+      "dependency_note": "Report of the Union brigadier general commanding at Grafton, with his orders to Kelley and Dumont; an interested account. Nicolay's history uses the Official Records and is not independent of the report families selected here. No earlier registry group for this author. Shared OR container with the other Volume II selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion02secrrich",
+      "source_kind": "official_report_compilation",
+      "id": "or2-morris-philippi-selections-v1",
+      "path": "data/raw/western-virginia-1861-v1/morris-selections.txt",
+      "format": "text",
+      "sha256": "fc02980bd8c95f9b0cba4bc2d6785bbee48a84cec2fb65fb222f8a967108a269",
+      "parent_source_id": "or2-ucal-ocr-v1",
+      "parent_sha256": "146472e60bca6e58519d26c8393463077d2ff3a45d9a60733a526cf811966cb3",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 0,
+          "end": 464
+        },
+        "morris-1861-06-07": {
+          "start": 264460,
+          "end": 275437
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "morris-1861-06-07": "1861-06-07"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and Morris's June 7 report (No. 2, pp.66-68) with its two inclosed orders read in full; the section ends with the next heading 'No. 3.'. McClellan's reports, the Confederate reports of Heck, Cowan, Harman and Porterfield, Lee's reply and the court of inquiry findings (pp.64-73) were read but not selected."
+    },
+    {
+      "title": "Official Records, series I, volume II: University of California/Internet Archive OCR",
+      "publication_year": 1880,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1880 per OCR title (read as 'PBINTINa OFFICE}. 1880,' at the end of the selected title range; not checked against print); series I volume II per OCR title and catalog volume 02. Catalog date 1880-1901 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion02secrrich; University of California Libraries (call number ucb:GLAD-218883); scanned 2006 with MSN sponsorship",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "John Pegram; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "pegram-rich-mountain-report",
+      "dependency_note": "Report and addendum of the Confederate commander at Rich Mountain, written as a prisoner at Beverly; interested accounts that quote McClellan's reply to his surrender note. Nicolay's history uses the Official Records and is not independent of the report families selected here. No earlier registry group for this author. Shared OR container with the other Volume II selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion02secrrich",
+      "source_kind": "official_report_compilation",
+      "id": "or2-pegram-rich-mountain-selections-v1",
+      "path": "data/raw/western-virginia-1861-v1/pegram-selections.txt",
+      "format": "text",
+      "sha256": "98ab922abc2687591203401a458bc961b97a325a2001867d23f3950f1b3bdf57",
+      "parent_source_id": "or2-ucal-ocr-v1",
+      "parent_sha256": "146472e60bca6e58519d26c8393463077d2ff3a45d9a60733a526cf811966cb3",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 0,
+          "end": 464
+        },
+        "pegram-1861-07-14": {
+          "start": 1020690,
+          "end": 1036622
+        },
+        "pegram-1861-07-15": {
+          "start": 1036625,
+          "end": 1037750
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "pegram-1861-07-14": "1861-07-14",
+        "pegram-1861-07-15": "1861-07-15"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and Pegram's report (No. 23, pp.264-268) read. Selected: the July 14 report and the July 15 addendum to the end of its request for exchange; the following list of officer prisoners was read but not selected. McClellan's and Rosecrans's reports (Nos. 2 and 5) were not read."
+    },
+    {
+      "title": "Official Records, series I, volume V: University of Illinois/Internet Archive OCR",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1881 per OCR title (read as 'GOVERNMENT PRINTING OFFICE 1881.' at the end of the selected title range; not checked against print); series I volume V per OCR title and catalog volume v.5. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion05unit; University of Illinois Urbana-Champaign (call number 973.74 Un3); digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "William S. Rosecrans; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "rosecrans-western-virginia-1861-reports",
+      "dependency_note": "Telegrams and report of the Union commander of the Army of Occupation in West Virginia. The August 28 telegrams relay Cox's reports of the Cross-Lanes action at second hand; the September 11 and 21 papers report the Carnifix Ferry engagement he directed. Interested accounts. No earlier registry group for this author. Shared OR container with the other Volume V selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion05unit",
+      "source_kind": "official_report_compilation",
+      "id": "or5-rosecrans-kanawha-selections-v1",
+      "path": "data/raw/western-virginia-1861-v1/rosecrans-selections.txt",
+      "format": "text",
+      "sha256": "f6723bd253ce7595215039e4b357099fb4ac31620b0529d132cbe58fb1fba9c2",
+      "parent_source_id": "or5-illinois-ocr-v1",
+      "parent_sha256": "ca225fee03e39b8b88f458809d0dbd9dd5c5203babc9c2357b90e17e295c0099",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 635,
+          "end": 1055
+        },
+        "rosecrans-1861-08-28": {
+          "start": 523889,
+          "end": 526073
+        },
+        "rosecrans-1861-09-11": {
+          "start": 560316,
+          "end": 562486
+        },
+        "rosecrans-1861-09-21": {
+          "start": 562490,
+          "end": 578151
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "rosecrans-1861-08-28": "1861-08-28",
+        "rosecrans-1861-09-11": "1861-09-11",
+        "rosecrans-1861-09-21": "1861-09-21"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title, the Cross-Lanes section (pp.118-119) and Rosecrans's Carnifix Ferry report (No. 1, pp.128-132) read in full. The subordinate Carnifix Ferry reports (Nos. 2-13) were not read; the No. 14 casualty statement was read but not selected."
+    },
+    {
+      "title": "Official Records, series I, volume V: University of Illinois/Internet Archive OCR",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1881 per OCR title (read as 'GOVERNMENT PRINTING OFFICE 1881.' at the end of the selected title range; not checked against print); series I volume V per OCR title and catalog volume v.5. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion05unit; University of Illinois Urbana-Champaign (call number 973.74 Un3); digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Henry A. Wise; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "wise-kanawha-1861-report",
+      "dependency_note": "Retrospective report of October 26, 1861 by Floyd's Confederate co-commander, written after his recall to answer Floyd's September 12 report; an interested and polemical account. Wise was not at Cross-Lanes; he relays Floyd's letters. No earlier registry group for this author. Shared OR container with the other Volume V selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion05unit",
+      "source_kind": "official_report_compilation",
+      "id": "or5-wise-cross-lanes-selections-v1",
+      "path": "data/raw/western-virginia-1861-v1/wise-selections.txt",
+      "format": "text",
+      "sha256": "f3d2893ff5bcd0b895ad9f26ca7ae8bf6a225d960230266d33c3d038c0d18999",
+      "parent_source_id": "or5-illinois-ocr-v1",
+      "parent_sha256": "ca225fee03e39b8b88f458809d0dbd9dd5c5203babc9c2357b90e17e295c0099",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 635,
+          "end": 1055
+        },
+        "wise-1861-10-26-cross-lanes": {
+          "start": 673872,
+          "end": 683357
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "wise-1861-10-26-cross-lanes": "1861-10-26"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title, Wise's September 11 letter to Lee and his October 26 report from its opening to the end of its account of the Cross-Lanes and Carnifix crossing period (pp.149-159) read. Selected: the passage on Floyd's force, Wise's August 24-29 correspondence with Floyd and the surprise of Tyler's regiment. The remainder of the report was not read."
+    },
+    {
+      "title": "Official Records, series I, volume V: University of Illinois/Internet Archive OCR",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1881 per OCR title (read as 'GOVERNMENT PRINTING OFFICE 1881.' at the end of the selected title range; not checked against print); series I volume V per OCR title and catalog volume v.5. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion05unit; University of Illinois Urbana-Champaign (call number 973.74 Un3); digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "John B. Floyd, signed for him by William E. Peters; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "floyd-carnifex-ferry-report",
+      "dependency_note": "Report of the Confederate commander of the Army of the Kanawha, signed by his adjutant because of Floyd's injury; an interested account that blames Wise's failure to reinforce. No earlier registry group for this author. Shared OR container with the other Volume V selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion05unit",
+      "source_kind": "official_report_compilation",
+      "id": "or5-floyd-carnifex-selections-v1",
+      "path": "data/raw/western-virginia-1861-v1/floyd-selections.txt",
+      "format": "text",
+      "sha256": "1f74e55770a3be8e067ded4600ddbe382db2ed9f693930efcb4dbb8825df922b",
+      "parent_source_id": "or5-illinois-ocr-v1",
+      "parent_sha256": "ca225fee03e39b8b88f458809d0dbd9dd5c5203babc9c2357b90e17e295c0099",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 635,
+          "end": 1055
+        },
+        "floyd-1861-09-12": {
+          "start": 630289,
+          "end": 637147
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "floyd-1861-09-12": "1861-09-12"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and Floyd's September 12 report (No. 15, pp.146-148) read in full. Benjamin's September 20 reply and its inclosure were read but not selected."
+    },
+    {
+      "title": "Official Records, series I, volume V: University of Illinois/Internet Archive OCR",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1881 per OCR title (read as 'GOVERNMENT PRINTING OFFICE 1881.' at the end of the selected title range; not checked against print); series I volume V per OCR title and catalog volume v.5. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion05unit; University of Illinois Urbana-Champaign (call number 973.74 Un3); digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Joseph J. Reynolds; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "reynolds-cheat-mountain-1861-reports",
+      "dependency_note": "Reports of the Union commander of the First Brigade, Army of Occupation, on the September Cheat Mountain operations and the October 3 reconnaissance to Greenbrier River; interested accounts. No earlier registry group for this author. Shared OR container with the other Volume V selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion05unit",
+      "source_kind": "official_report_compilation",
+      "id": "or5-reynolds-cheat-greenbrier-selections-v1",
+      "path": "data/raw/western-virginia-1861-v1/reynolds-selections.txt",
+      "format": "text",
+      "sha256": "7a0f1d4eede46f67a742d97c24581ecdeea7d27c1852f7fe7727ab1f249bf52f",
+      "parent_source_id": "or5-illinois-ocr-v1",
+      "parent_sha256": "ca225fee03e39b8b88f458809d0dbd9dd5c5203babc9c2357b90e17e295c0099",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 635,
+          "end": 1055
+        },
+        "reynolds-1861-09-17": {
+          "start": 782527,
+          "end": 789622
+        },
+        "reynolds-1861-10-04": {
+          "start": 917943,
+          "end": 920689
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "reynolds-1861-09-17": "1861-09-17",
+        "reynolds-1861-10-04": "1861-10-04"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and both reports (No. 1 of the Cheat Mountain section, pp.184-186; No. 1 of the Greenbrier River section, pp.220-221) read in full. Kimball's, Wagner's (opening), Owen's (not read), Higgins's (not read) and Richardson's reports and the No. 4 Greenbrier return (not printed in OCR) were not selected."
+    },
+    {
+      "title": "Official Records, series I, volume V: University of Illinois/Internet Archive OCR",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1881 per OCR title (read as 'GOVERNMENT PRINTING OFFICE 1881.' at the end of the selected title range; not checked against print); series I volume V per OCR title and catalog volume v.5. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion05unit; University of Illinois Urbana-Champaign (call number 973.74 Un3); digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Albert Rust; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "rust-cheat-mountain-report",
+      "dependency_note": "Report of the Confederate colonel who led the column against Cheat Summit, to Loring; an interested account. The inclosed note by Henry R. Jackson is a different author and is not attributed to Rust. No earlier registry group for this author. Shared OR container with the other Volume V selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion05unit",
+      "source_kind": "official_report_compilation",
+      "id": "or5-rust-cheat-mountain-selections-v1",
+      "path": "data/raw/western-virginia-1861-v1/rust-selections.txt",
+      "format": "text",
+      "sha256": "88167fd812aaad5a675be26e78050de3c62214fb76c8978275f1d19cc5f83d39",
+      "parent_source_id": "or5-illinois-ocr-v1",
+      "parent_sha256": "ca225fee03e39b8b88f458809d0dbd9dd5c5203babc9c2357b90e17e295c0099",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 635,
+          "end": 1055
+        },
+        "rust-1861-09-13": {
+          "start": 806829,
+          "end": 810110
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "rust-1861-09-13": "1861-09-13"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and Rust's September 13 report (No. 6, pp.191-192) read. Selected: the report to its address to Loring. Henry R. Jackson's inclosed note and Lee's orders of September 9 and 14 (No. 7) were read but not selected."
+    },
+    {
+      "title": "Official Records, series I, volume V: University of Illinois/Internet Archive OCR",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1881 per OCR title (read as 'GOVERNMENT PRINTING OFFICE 1881.' at the end of the selected title range; not checked against print); series I volume V per OCR title and catalog volume v.5. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion05unit; University of Illinois Urbana-Champaign (call number 973.74 Un3); digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Henry R. Jackson; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "henry-r-jackson-greenbrier-reports",
+      "dependency_note": "Telegram and report of the Confederate commander at Camp Bartow; interested accounts. No earlier registry group for this author. Shared OR container with the other Volume V selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion05unit",
+      "source_kind": "official_report_compilation",
+      "id": "or5-hrjackson-greenbrier-selections-v1",
+      "path": "data/raw/western-virginia-1861-v1/hrjackson-selections.txt",
+      "format": "text",
+      "sha256": "8655b1b8d89c3af6a60e54a9045fc0dbf9eec8c0c5a732169c7423f06dcac4c7",
+      "parent_source_id": "or5-illinois-ocr-v1",
+      "parent_sha256": "ca225fee03e39b8b88f458809d0dbd9dd5c5203babc9c2357b90e17e295c0099",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 635,
+          "end": 1055
+        },
+        "jackson-1861-10-03": {
+          "start": 929234,
+          "end": 930079
+        },
+        "jackson-1861-10-07": {
+          "start": 930083,
+          "end": 950021
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "jackson-1861-10-03": "1861-10-03",
+        "jackson-1861-10-07": "1861-10-07"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and Jackson's two reports (No. 5, pp.224-228) read in full. The inclosed casualty list is not printed in OCR; his later correspondence with the Secretary of War and Reports Nos. 6-9 were not selected (Nos. 6-9 not read)."
+    },
+    {
+      "title": "Official Records, series I, volume V: University of Illinois/Internet Archive OCR",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1881 per OCR title (read as 'GOVERNMENT PRINTING OFFICE 1881.' at the end of the selected title range; not checked against print); series I volume V per OCR title and catalog volume v.5. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion05unit; University of Illinois Urbana-Champaign (call number 973.74 Un3); digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "James A. Jones; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "jones-camp-alleghany-report",
+      "dependency_note": "Report to Milroy of the Union colonel commanding the column that attacked the Confederate right; an interested account. Milroy's own report is marked not found in the volume. No earlier registry group for this author. Shared OR container with the other Volume V selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion05unit",
+      "source_kind": "official_report_compilation",
+      "id": "or5-jones-camp-alleghany-selections-v1",
+      "path": "data/raw/western-virginia-1861-v1/jones-selections.txt",
+      "format": "text",
+      "sha256": "21d4bf9ae281450fd81c872347319ab2d22a787a39bb5b1552b1a813af9e18cb",
+      "parent_source_id": "or5-illinois-ocr-v1",
+      "parent_sha256": "ca225fee03e39b8b88f458809d0dbd9dd5c5203babc9c2357b90e17e295c0099",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 635,
+          "end": 1055
+        },
+        "jones-1861-12-13": {
+          "start": 1801280,
+          "end": 1807151
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "jones-1861-12-13": "1861-12-13"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and Jones's report (No. 2, pp.457-458) read in full. Milroy's No. 1 papers (Stager's relayed telegram, the record-of-events extract and the casualty return) were read but not selected."
+    },
+    {
+      "title": "Official Records, series I, volume V: University of Illinois/Internet Archive OCR",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1881 per OCR title (read as 'GOVERNMENT PRINTING OFFICE 1881.' at the end of the selected title range; not checked against print); series I volume V per OCR title and catalog volume v.5. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion05unit; University of Illinois Urbana-Champaign (call number 973.74 Un3); digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Edward Johnson; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "edward-johnson-camp-alleghany-reports",
+      "dependency_note": "Reports of the Confederate colonel commanding at Camp Alleghany; interested accounts. Not the same person as Bradley T. Johnson (group johnson-moorefield-1864-report). No earlier registry group for this author. Shared OR container with the other Volume V selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion05unit",
+      "source_kind": "official_report_compilation",
+      "id": "or5-johnson-camp-alleghany-selections-v1",
+      "path": "data/raw/western-virginia-1861-v1/johnson-selections.txt",
+      "format": "text",
+      "sha256": "2eb808e18f53917f8da8bcf10b524828ff73a26bfc3fcdeba739f1934ada67ea",
+      "parent_source_id": "or5-illinois-ocr-v1",
+      "parent_sha256": "ca225fee03e39b8b88f458809d0dbd9dd5c5203babc9c2357b90e17e295c0099",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 635,
+          "end": 1055
+        },
+        "johnson-1861-12-13": {
+          "start": 1812101,
+          "end": 1815462
+        },
+        "johnson-1861-12-15": {
+          "start": 1815466,
+          "end": 1818032
+        },
+        "johnson-1861-12-19": {
+          "start": 1818068,
+          "end": 1828996
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "johnson-1861-12-13": "1861-12-13",
+        "johnson-1861-12-15": "1861-12-15",
+        "johnson-1861-12-19": "1861-12-19"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and Johnson's three reports (No. 5, pp.460-464) read in full. Benjamin's covering letter (No. 3), Loring's reports (No. 4) and the opening of the Secretary of War's response were read but not selected; Reports Nos. 6-10 were not read."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV002",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv002",
+      "id": "nps-wv002-v1-html",
+      "path": "data/raw/manassas-1861-v1/nps-wv002.html",
+      "format": "html",
+      "sha256": "fe79181416593cece5eb086b3af3b0443a46097d2262c8f6cb04e6d7a231d43f"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail WV002",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=wv002",
+      "id": "nps-wv002-v1",
+      "path": "data/raw/manassas-1861-v1/nps-wv002.txt",
+      "format": "text",
+      "sha256": "2393b133064eea334db4631f534376f2cf366787c0e66689ae0a50052c2688ac",
+      "parent_source_id": "nps-wv002-v1-html",
+      "parent_sha256": "fe79181416593cece5eb086b3af3b0443a46097d2262c8f6cb04e6d7a231d43f",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail VA004",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=va004",
+      "id": "nps-va004-v1-html",
+      "path": "data/raw/manassas-1861-v1/nps-va004.html",
+      "format": "html",
+      "sha256": "5e8a313206f8bd532c2c4f49bd08b3aaba0d42dece5ca36e9e84efe0cd6690df"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail VA004",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=va004",
+      "id": "nps-va004-v1",
+      "path": "data/raw/manassas-1861-v1/nps-va004.txt",
+      "format": "text",
+      "sha256": "23321d649300690d9c582a1dcadf1148e79d0f2cc6136e709e18c89a9c979d9d",
+      "parent_source_id": "nps-va004-v1-html",
+      "parent_sha256": "5e8a313206f8bd532c2c4f49bd08b3aaba0d42dece5ca36e9e84efe0cd6690df",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail VA005",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=va005",
+      "id": "nps-va005-v1-html",
+      "path": "data/raw/manassas-1861-v1/nps-va005.html",
+      "format": "html",
+      "sha256": "b02589a048ac505854cd6bba382d945b17ac21f36995ea0cd5e2431f6a6ed484"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail VA005",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=va005",
+      "id": "nps-va005-v1",
+      "path": "data/raw/manassas-1861-v1/nps-va005.txt",
+      "format": "text",
+      "sha256": "637e7cd3dfe026e1a3945c2e21865c2dd69e3c9892853ff612b72fffbc19d508",
+      "parent_source_id": "nps-va005-v1-html",
+      "parent_sha256": "b02589a048ac505854cd6bba382d945b17ac21f36995ea0cd5e2431f6a6ed484",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "title": "John G. Nicolay, The Outbreak of Rebellion",
+      "author": "John G. Nicolay",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "New York: Charles Scribner's Sons, 1881 (Campaigns of the Civil War, I), per catalog and OCR title page (series line read 'CAMPAIGNS OF THE CIVIL WAR.—\\.' in OCR); not checked against print.",
+      "archival_identifier": "Internet Archive outbreakofrebell00nico; University of Illinois Urbana-Champaign (Lincoln Room); scanned 2008",
+      "document_date": null,
+      "document_date_note": "Retrospective narrative. The preface is dated Washington, D.C., February 26, 1881; that date is not assigned to narrative passages as a composition date.",
+      "independence_group": "nicolay-outbreak-of-rebellion-1881",
+      "dependency_note": "One retrospective history by John G. Nicolay, styled on the OCR title page 'PRIVATE SECRETARY TO PRESIDENT LINCOLN'; not shown as a participant in the inspected engagements. By his preface he drew on personal observation, long investigation and, 'for the greater part', the recently published Official War Records for 1861, Union and Confederate. He quotes Anderson's, Rosecrans's, McDowell's, Burnside's and Johnston's reports and letters, so this history is not independent of the Official Records families selected in these passes. Relationship to later NPS summaries is unestablished. No earlier registry group for this author.",
+      "rights": "Underlying 1881 book is public domain in the United States. Public catalog metadata and full OCR retained, including library notices; no print scans or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/outbreakofrebell00nico",
+      "source_kind": "retrospective_history",
+      "id": "nicolay-manassas-selections-v1",
+      "path": "data/raw/manassas-1861-v1/nicolay-selections.txt",
+      "format": "text",
+      "sha256": "e351948c94f666b0815959c939e94034f4b5810b593c6c69750c9a115dd7ad7a",
+      "parent_source_id": "nicolay-outbreak-ocr-v1",
+      "parent_sha256": "a9d7ce7a373c5451e61fafbe8ec9ac66bef62725c76a38f44476fcfb40625ed2",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "manassas-armies": {
+          "start": 364573,
+          "end": 372063
+        },
+        "blackburns-ford": {
+          "start": 373004,
+          "end": 378229
+        },
+        "bull-run": {
+          "start": 378233,
+          "end": 410698
+        },
+        "retreat-and-losses": {
+          "start": 410702,
+          "end": 430454
+        }
+      },
+      "document_dates_by_section": {
+        "manassas-armies": null,
+        "blackburns-ford": null,
+        "bull-run": null,
+        "retreat-and-losses": null
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Transcription note and four passages read in full: McDowell's advance and the two armies' numbers (pp.173-176), Blackburn's Ford (pp.177-180), Chapter XV, Bull Run (pp.181-196), and Chapter XVI, The Retreat, with the opening of Chapter XVII on losses (pp.197-206). Chapter XIII (Patterson's Campaign) was read but not selected: it mentions the Falling Waters skirmish in a single clause."
+    },
+    {
+      "title": "Official Records, series I, volume II: University of California/Internet Archive OCR",
+      "publication_year": 1880,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1880 per OCR title (read as 'PBINTINa OFFICE}. 1880,' at the end of the selected title range; not checked against print); series I volume II per OCR title and catalog volume 02. Catalog date 1880-1901 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion02secrrich; University of California Libraries (call number ucb:GLAD-218883); scanned 2006 with MSN sponsorship",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Robert Patterson; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "patterson-falling-waters-dispatches",
+      "dependency_note": "Dispatches of the Union commander of the Department of Pennsylvania, printed at the head of his No. 1 papers; interested accounts. No earlier registry group for this author. Shared OR container with the other Volume II selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion02secrrich",
+      "source_kind": "official_report_compilation",
+      "id": "or2-patterson-falling-waters-selections-v1",
+      "path": "data/raw/manassas-1861-v1/patterson-selections.txt",
+      "format": "text",
+      "sha256": "f6a38b24c5ab836aea02c0d5ab7f367e0c0bb8482df567b97e3c7af720178beb",
+      "parent_source_id": "or2-ucal-ocr-v1",
+      "parent_sha256": "146472e60bca6e58519d26c8393463077d2ff3a45d9a60733a526cf811966cb3",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 0,
+          "end": 464
+        },
+        "patterson-1861-07-03": {
+          "start": 617490,
+          "end": 618615
+        },
+        "patterson-1861-07-04-letter": {
+          "start": 618619,
+          "end": 621019
+        },
+        "patterson-1861-07-04-telegram": {
+          "start": 621023,
+          "end": 621526
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "patterson-1861-07-03": "1861-07-03",
+        "patterson-1861-07-04-letter": "1861-07-04",
+        "patterson-1861-07-04-telegram": "1861-07-04"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and the opening of No. 1 (pp.156-158) read: Townsend's July 1 letter and Patterson's dispatches of July 3 and 4. Selected: the July 3 telegram, the July 4 letter and the July 4 telegram. The rest of Patterson's papers, including his application for a court of inquiry, were not read."
+    },
+    {
+      "title": "Official Records, series I, volume II: University of California/Internet Archive OCR",
+      "publication_year": 1880,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1880 per OCR title (read as 'PBINTINa OFFICE}. 1880,' at the end of the selected title range; not checked against print); series I volume II per OCR title and catalog volume 02. Catalog date 1880-1901 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion02secrrich; University of California Libraries (call number ucb:GLAD-218883); scanned 2006 with MSN sponsorship",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Thomas J. Jackson; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "tj-jackson-falling-waters-report",
+      "dependency_note": "Report of the Confederate commander of the First Brigade, forwarded by Johnston, quoting Harper's and Stuart's reports; an interested account. No earlier registry group for this author in this worktree. Shared OR container with the other Volume II selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion02secrrich",
+      "source_kind": "official_report_compilation",
+      "id": "or2-tjjackson-falling-waters-selections-v1",
+      "path": "data/raw/manassas-1861-v1/tjjackson-selections.txt",
+      "format": "text",
+      "sha256": "69c87b6016822264ad255795b9f4baee4d8e6973db95765b1f6c8d9b870ba596",
+      "parent_source_id": "or2-ucal-ocr-v1",
+      "parent_sha256": "146472e60bca6e58519d26c8393463077d2ff3a45d9a60733a526cf811966cb3",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 0,
+          "end": 464
+        },
+        "jackson-1861-07-03": {
+          "start": 712495,
+          "end": 719153
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "jackson-1861-07-03": "1861-07-03"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and Jackson's July 3 report (No. 11, pp.185-186) read in full. Johnston's July 4 transmittal (No. 10) and the Union subordinate reports (Nos. 2-9) were read but not selected; the No. 12 abstract is garbled and No. 13 was not read."
+    },
+    {
+      "title": "Official Records, series I, volume II: University of California/Internet Archive OCR",
+      "publication_year": 1880,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1880 per OCR title (read as 'PBINTINa OFFICE}. 1880,' at the end of the selected title range; not checked against print); series I volume II per OCR title and catalog volume 02. Catalog date 1880-1901 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion02secrrich; University of California Libraries (call number ucb:GLAD-218883); scanned 2006 with MSN sponsorship",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "P. G. T. Beauregard; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "beauregard-bull-run-1861-reports",
+      "dependency_note": "Telegram and report of the Confederate commander of the Army of the Potomac; interested accounts. The same author has the registered Shiloh group or-beauregard; the two are one author family, not independent witnesses. Nicolay uses Beauregard's report. Shared OR container with the other Volume II selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion02secrrich",
+      "source_kind": "official_report_compilation",
+      "id": "or2-beauregard-blackburns-ford-selections-v1",
+      "path": "data/raw/manassas-1861-v1/beauregard-selections.txt",
+      "format": "text",
+      "sha256": "42a20476db1bca9f46a5d2f4812326274d2ce9578284ca33a1d9104a366cc271",
+      "parent_source_id": "or2-ucal-ocr-v1",
+      "parent_sha256": "146472e60bca6e58519d26c8393463077d2ff3a45d9a60733a526cf811966cb3",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 0,
+          "end": 464
+        },
+        "beauregard-1861-07-17": {
+          "start": 1708346,
+          "end": 1709064
+        },
+        "beauregard-1861-08-blackburns-ford": {
+          "start": 1709068,
+          "end": 1739770
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "beauregard-1861-07-17": "1861-07-17",
+        "beauregard-1861-08-blackburns-ford": null
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and No. 64 (pp.439-448) read. Selected: the July 17 telegram to Davis and the report on the July 18 engagement, dated 'August — , 18G1' in OCR with the day blank (date mapped null). Special Orders No. 100 and Beauregard's indorsement were read but not selected; his No. 84 report on the battle of July 21 was not read."
+    },
+    {
+      "title": "Official Records, series I, volume II: University of California/Internet Archive OCR",
+      "publication_year": 1880,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1880 per OCR title (read as 'PBINTINa OFFICE}. 1880,' at the end of the selected title range; not checked against print); series I volume II per OCR title and catalog volume 02. Catalog date 1880-1901 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion02secrrich; University of California Libraries (call number ucb:GLAD-218883); scanned 2006 with MSN sponsorship",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Irvin McDowell; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "mcdowell-bull-run-reports",
+      "dependency_note": "Telegrams and report of the Union commander of the Department of Northeastern Virginia; interested accounts. Nicolay quotes this report. Shared OR container with the other Volume II selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion02secrrich",
+      "source_kind": "official_report_compilation",
+      "id": "or2-mcdowell-bull-run-selections-v1",
+      "path": "data/raw/manassas-1861-v1/mcdowell-selections.txt",
+      "format": "text",
+      "sha256": "43c1eccbe662c525c244ea498af0288d07923e466b6fb4ee3e3ce1a9df22ac92",
+      "parent_source_id": "or2-ucal-ocr-v1",
+      "parent_sha256": "146472e60bca6e58519d26c8393463077d2ff3a45d9a60733a526cf811966cb3",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 0,
+          "end": 464
+        },
+        "mcdowell-1861-07-21": {
+          "start": 1219941,
+          "end": 1221657
+        },
+        "mcdowell-1861-07-22": {
+          "start": 1221661,
+          "end": 1223188
+        },
+        "mcdowell-1861-08-04": {
+          "start": 1223265,
+          "end": 1259384
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "mcdowell-1861-07-21": "1861-07-21",
+        "mcdowell-1861-07-22": "1861-07-22",
+        "mcdowell-1861-08-04": null
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and No. 6 (pp.316-326) read. Selected: the two July 21 telegrams, the two July 22 telegrams and the report headed 'Arlington, Vet,., August 4,' in OCR, whose year is not printed there (date mapped null). Its appendices B and C (circular and General Orders No. 22) were read in part but not selected; the consolidated return D and McDowell's No. 1 report on July 16-20 were not read."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail NC001",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=nc001",
+      "id": "nps-nc001-v1-html",
+      "path": "data/raw/carolina-coast-1861-v1/nps-nc001.html",
+      "format": "html",
+      "sha256": "332e16716c6e0d1de70e558e0703afe3bcbf5e3b7ebdf22dea1ff07a5f595742"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail NC001",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=nc001",
+      "id": "nps-nc001-v1",
+      "path": "data/raw/carolina-coast-1861-v1/nps-nc001.txt",
+      "format": "text",
+      "sha256": "3d7e4545f2ed6304d31e095957d3cbf9a71a89fb0957a303e6453f70a69375de",
+      "parent_source_id": "nps-nc001-v1-html",
+      "parent_sha256": "332e16716c6e0d1de70e558e0703afe3bcbf5e3b7ebdf22dea1ff07a5f595742",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "title": "Official Records of the Union and Confederate Navies, series I, volume 6: Internet Archive OCR",
+      "publication_year": 1897,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1897 per OCR title (read as 'GOVERNMENT PRINTING OFFICE. 1897.'; not checked against print); series I volume 6 per OCR title and catalog volume 6. Catalog date 1894 describes the series and is not substituted for the volume imprint. This is the Navy Department's compilation, not the Army Official Records.",
+      "archival_identifier": "Internet Archive officialrecordso0006unse; Trent University (Thomas J. Bata Library) copy, collection trent_university; scanned 2019 with Kahle/Austin Foundation funding",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "U.S. Navy Department; Edward K. Rawson and Robert H. Woods, compilers",
+      "document_date": null,
+      "document_date_note": "Mixed-document compilation; no volume-wide report date.",
+      "independence_group": "orn-series-i-volume-6",
+      "dependency_note": "Shared digital container, not one independent witness per artifact. Reports are interested participant accounts; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/metadata/officialrecordso0006unse",
+      "source_kind": "digital_catalog_metadata",
+      "id": "ia-orn6-trent-metadata-v1",
+      "path": "data/raw/carolina-coast-1861-v1/orn6-metadata.json",
+      "format": "json",
+      "sha256": "c8b75e41159be327543d3e7d6c34c87e78041220e6f294455c06736e7a8e1b7a",
+      "inspection": "Title, creator, date, publisher, volume, contributor and scan date inspected; catalog is not a battle witness."
+    },
+    {
+      "title": "Official Records of the Union and Confederate Navies, series I, volume 6: Internet Archive OCR",
+      "publication_year": 1897,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1897 per OCR title (read as 'GOVERNMENT PRINTING OFFICE. 1897.'; not checked against print); series I volume 6 per OCR title and catalog volume 6. Catalog date 1894 describes the series and is not substituted for the volume imprint. This is the Navy Department's compilation, not the Army Official Records.",
+      "archival_identifier": "Internet Archive officialrecordso0006unse; Trent University (Thomas J. Bata Library) copy, collection trent_university; scanned 2019 with Kahle/Austin Foundation funding",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "U.S. Navy Department; Edward K. Rawson and Robert H. Woods, compilers",
+      "document_date": null,
+      "document_date_note": "Mixed-document compilation; no volume-wide report date.",
+      "independence_group": "orn-series-i-volume-6",
+      "dependency_note": "Shared digital container, not one independent witness per artifact. Reports are interested participant accounts; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/download/officialrecordso0006unse/officialrecordso0006unse_djvu.txt",
+      "source_kind": "official_report_compilation",
+      "id": "orn6-trent-ocr-v1",
+      "path": "data/raw/carolina-coast-1861-v1/orn6-full.txt",
+      "format": "text",
+      "sha256": "88b7e92130605c5770cdd51a16787ead48ec6e05a25dfbe5eae77e831ba79feb",
+      "inspection": "Retained complete parent; inspected the title page, contents, Stringham's August 7 report on the Hatteras batteries, and the Hatteras Inlet section (pp.119-145): Stringham's August 30 transmittal with the articles of capitulation (its footnote refers Army reports to Army Official Records Series I Volume 4, pp.579-594), his September 2 detailed report with Gillis's enclosure, his September 2 prisoner letter and September 3 letter, Mercer's October 8 report, Gillis's August 31 report and officer list, the opening of Stellwagen's August 31 report, the log extracts on p.136-137, the Confederate telegrams of August 27-30, Davis's August 31 letter, Barron's August 31 report, Martin's August 31 report and the opening of Andrews's September 1 report. Army Official Records Series I Volume IV (Butler's reports) was not fetched or registered."
+    },
+    {
+      "title": "Official Records of the Union and Confederate Navies, series I, volume 6: Internet Archive OCR",
+      "publication_year": 1897,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1897 per OCR title (read as 'GOVERNMENT PRINTING OFFICE. 1897.'; not checked against print); series I volume 6 per OCR title and catalog volume 6. Catalog date 1894 describes the series and is not substituted for the volume imprint. This is the Navy Department's compilation, not the Army Official Records.",
+      "archival_identifier": "Internet Archive officialrecordso0006unse; Trent University (Thomas J. Bata Library) copy, collection trent_university; scanned 2019 with Kahle/Austin Foundation funding",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Silas H. Stringham; articles of capitulation signed jointly; volume title supplied by Navy compilers",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "stringham-hatteras-reports",
+      "dependency_note": "Reports of the Union flag-officer commanding the naval part of the expedition; interested accounts. The August 30 section includes the articles of capitulation, jointly signed by Stringham, Butler, Barron, Martin and Andrews; the September 2 prisoner section ends with the compilers' footnote on the omitted list. Butler's Army reports are in Army Official Records Series I Volume IV, which was not fetched. No earlier registry group for this author. Shared Naval OR container with the other Navy Volume 6 selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/officialrecordso0006unse",
+      "source_kind": "official_report_compilation",
+      "id": "orn6-stringham-hatteras-selections-v1",
+      "path": "data/raw/carolina-coast-1861-v1/stringham-selections.txt",
+      "format": "text",
+      "sha256": "3f2aa5bf967c3dcd6fb1a0ccc8008a4cea23bae80d2e8462e32f61230f3ebf2b",
+      "parent_source_id": "orn6-trent-ocr-v1",
+      "parent_sha256": "88b7e92130605c5770cdd51a16787ead48ec6e05a25dfbe5eae77e831ba79feb",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 326,
+          "end": 962
+        },
+        "stringham-1861-08-30": {
+          "start": 412709,
+          "end": 415350
+        },
+        "stringham-1861-09-02-detailed": {
+          "start": 415565,
+          "end": 425795
+        },
+        "stringham-1861-09-02-prisoners-and-09-03": {
+          "start": 428271,
+          "end": 431598
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "stringham-1861-08-30": "1861-08-30",
+        "stringham-1861-09-02-detailed": "1861-09-02",
+        "stringham-1861-09-02-prisoners-and-09-03": null
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and pp.119-125 read. Selected: the August 30 transmittal with the articles of capitulation, the September 2 detailed report (to its signature, before Gillis's enclosure), and the September 2 prisoner letter with the September 3 letter, which the compilers' footnote on the omitted prisoner list interrupts (section spans two dates, mapped null). Gillis's enclosure and reports and Mercer's report were read, and Stellwagen's report in part, but not selected."
+    },
+    {
+      "title": "Official Records of the Union and Confederate Navies, series I, volume 6: Internet Archive OCR",
+      "publication_year": 1897,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1897 per OCR title (read as 'GOVERNMENT PRINTING OFFICE. 1897.'; not checked against print); series I volume 6 per OCR title and catalog volume 6. Catalog date 1894 describes the series and is not substituted for the volume imprint. This is the Navy Department's compilation, not the Army Official Records.",
+      "archival_identifier": "Internet Archive officialrecordso0006unse; Trent University (Thomas J. Bata Library) copy, collection trent_university; scanned 2019 with Kahle/Austin Foundation funding",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "William F. Martin; volume title supplied by Navy compilers",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "martin-hatteras-report",
+      "dependency_note": "Report of the Confederate colonel of the Seventh North Carolina Volunteers, written as a prisoner on the Minnesota; an interested account. The compilers' footnote says it was copied from a newspaper clipping. Not the same person as William T. Martin (group martin-east-tennessee-cavalry-report). Barron's and Andrews's reports are separate families and were not selected. No earlier registry group for this author. Shared Naval OR container with the other Navy Volume 6 selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/officialrecordso0006unse",
+      "source_kind": "official_report_compilation",
+      "id": "orn6-martin-hatteras-selections-v1",
+      "path": "data/raw/carolina-coast-1861-v1/martin-selections.txt",
+      "format": "text",
+      "sha256": "d93d96ae5547b391a96777f8cb3faccbde61a65fed077baa3bb446094ee45ef2",
+      "parent_source_id": "orn6-trent-ocr-v1",
+      "parent_sha256": "88b7e92130605c5770cdd51a16787ead48ec6e05a25dfbe5eae77e831ba79feb",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 326,
+          "end": 962
+        },
+        "martin-1861-08-31": {
+          "start": 484828,
+          "end": 496553
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "martin-1861-08-31": "1861-08-31"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and Martin's August 31 report (pp.140-142) read in full. The Confederate telegrams, Davis's letter, Barron's August 31 report and the opening of Andrews's September 1 report (pp.137-143) were read but not selected."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail VA006",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=va006",
+      "id": "nps-va006-v1-html",
+      "path": "data/raw/northern-virginia-1861-v1/nps-va006.html",
+      "format": "html",
+      "sha256": "67e6f9f4221daee9a65c8a4e0272a99d1c1660a926d0a97bffdd19d50753a6d9"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail VA006",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=va006",
+      "id": "nps-va006-v1",
+      "path": "data/raw/northern-virginia-1861-v1/nps-va006.txt",
+      "format": "text",
+      "sha256": "76688b5af18011df88beb9e3f7f92a46dfd433796de26ed33f53af9d6f127832",
+      "parent_source_id": "nps-va006-v1-html",
+      "parent_sha256": "67e6f9f4221daee9a65c8a4e0272a99d1c1660a926d0a97bffdd19d50753a6d9",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail VA007",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=va007",
+      "id": "nps-va007-v1-html",
+      "path": "data/raw/northern-virginia-1861-v1/nps-va007.html",
+      "format": "html",
+      "sha256": "46e328c70e5ba766daad5b304b2dd901daaa0ffafac2adf9cc592bbbc9081d2c"
+    },
+    {
+      "author": "National Park Service",
+      "publication_date": null,
+      "document_date": null,
+      "document_date_note": "Undated modern summary. Campaign dates and retrieval dates are not composition dates.",
+      "source_kind": "government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Grouped with frozen Arnold/CWSAC tables; matching language is not independent corroboration.",
+      "rights": "U.S. National Park Service government-authored text; no images or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "title": "NPS battle detail VA007",
+      "url": "https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=va007",
+      "id": "nps-va007-v1",
+      "path": "data/raw/northern-virginia-1861-v1/nps-va007.txt",
+      "format": "text",
+      "sha256": "a9774b226d96705dac8b1f8d7485de37a7335b6b0848cd18d2ef6d91d2e664d3",
+      "parent_source_id": "nps-va007-v1-html",
+      "parent_sha256": "46e328c70e5ba766daad5b304b2dd901daaa0ffafac2adf9cc592bbbc9081d2c",
+      "snapshot_transform": "HTMLParser: omit script/style data, strip nonempty text nodes, join with newlines; select Return to Results through before Experience More; strip and append one newline.",
+      "inspection": "Entire retained battle summary read. Campaign date header does not replace battle interval; zeros, rank conflicts and result-field conflicts are not silently adopted."
+    },
+    {
+      "title": "Official Records, series I, volume V: University of Illinois/Internet Archive OCR",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1881 per OCR title (read as 'GOVERNMENT PRINTING OFFICE 1881.' at the end of the selected title range; not checked against print); series I volume V per OCR title and catalog volume v.5. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion05unit; University of Illinois Urbana-Champaign (call number 973.74 Un3); digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Charles P. Stone; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "stone-balls-bluff-reports",
+      "dependency_note": "Preliminary report, later letter and memoranda of the Union commander of the Corps of Observation, including his orders to Baker; interested accounts written under newspaper criticism and blaming Baker. No earlier registry group for this author. Shared OR container with the other Volume V selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion05unit",
+      "source_kind": "official_report_compilation",
+      "id": "or5-stone-balls-bluff-selections-v1",
+      "path": "data/raw/northern-virginia-1861-v1/stone-selections.txt",
+      "format": "text",
+      "sha256": "65ea4444ec0070bdd8036d32bbb129f23c2ef51aaba6b8ef2a1cdb5060e156d6",
+      "parent_source_id": "or5-illinois-ocr-v1",
+      "parent_sha256": "ca225fee03e39b8b88f458809d0dbd9dd5c5203babc9c2357b90e17e295c0099",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 635,
+          "end": 1055
+        },
+        "stone-1861-10-29": {
+          "start": 1189004,
+          "end": 1216788
+        },
+        "stone-1861-11-02": {
+          "start": 1219774,
+          "end": 1234139
+        },
+        "stone-1861-11-06-transportation": {
+          "start": 1234214,
+          "end": 1237325
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "stone-1861-10-29": "1861-10-29",
+        "stone-1861-11-02": "1861-11-02",
+        "stone-1861-11-06-transportation": "1861-11-06"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and Stone's No. 2 papers (pp.292-308) read: the October 19 letter, the October 29 report, the October 20 orders, the November 2 letter with its inclosed orders and memorandum, the November 6 transportation memoranda, the opening of the November 7 flag-of-truce letter and the December 2 statement. Selected: the October 29 report, the November 2 letter through the orders found in Baker's hat, and the November 6 memoranda. The No. 3 Union casualty return (total 921 as printed) and the opening of Devens's report were read but not selected."
+    },
+    {
+      "title": "Official Records, series I, volume V: University of Illinois/Internet Archive OCR",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1881 per OCR title (read as 'GOVERNMENT PRINTING OFFICE 1881.' at the end of the selected title range; not checked against print); series I volume V per OCR title and catalog volume v.5. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion05unit; University of Illinois Urbana-Champaign (call number 973.74 Un3); digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Nathan G. Evans; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "evans-balls-bluff-reports",
+      "dependency_note": "Report and supplementary letter of the Confederate commander of the Seventh Brigade; interested accounts. No earlier registry group for this author. Shared OR container with the other Volume V selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion05unit",
+      "source_kind": "official_report_compilation",
+      "id": "or5-evans-balls-bluff-selections-v1",
+      "path": "data/raw/northern-virginia-1861-v1/evans-selections.txt",
+      "format": "text",
+      "sha256": "d7eb7fcf0f0c0188626a4420d621848e25796dd7e15bd26cf2e674f75b7fe720",
+      "parent_source_id": "or5-illinois-ocr-v1",
+      "parent_sha256": "ca225fee03e39b8b88f458809d0dbd9dd5c5203babc9c2357b90e17e295c0099",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 635,
+          "end": 1055
+        },
+        "evans-1861-10-31": {
+          "start": 1401896,
+          "end": 1416619
+        },
+        "evans-1862-03-07": {
+          "start": 1416623,
+          "end": 1418233
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "evans-1861-10-31": "1861-10-31",
+        "evans-1862-03-07": "1862-03-07"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and No. 21 (pp.348-353) read, with the indorsements and Evans's March 25, 1862 letter, which were not selected. Selected: the October 31 report, whose own casualty statement is omitted and referred to No. 22, and the March 7, 1862 letter on Jenifer's command. The No. 22 casualty return was read but not selected; Reports Nos. 23-31 were not read."
+    },
+    {
+      "title": "Official Records, series I, volume V: University of Illinois/Internet Archive OCR",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1881 per OCR title (read as 'GOVERNMENT PRINTING OFFICE 1881.' at the end of the selected title range; not checked against print); series I volume V per OCR title and catalog volume v.5. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion05unit; University of Illinois Urbana-Champaign (call number 973.74 Un3); digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Edward O. C. Ord; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "ord-dranesville-report",
+      "dependency_note": "Report of the Union brigade commander to McCall's headquarters; an interested account. McCall's reports are a separate family and were not selected. No earlier registry group for this author. Shared OR container with the other Volume V selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion05unit",
+      "source_kind": "official_report_compilation",
+      "id": "or5-ord-dranesville-selections-v1",
+      "path": "data/raw/northern-virginia-1861-v1/ord-selections.txt",
+      "format": "text",
+      "sha256": "1f20af8de82eb5549677864337b1fd5140961c9afbeceef5333b7378286b1d7d",
+      "parent_source_id": "or5-illinois-ocr-v1",
+      "parent_sha256": "ca225fee03e39b8b88f458809d0dbd9dd5c5203babc9c2357b90e17e295c0099",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 635,
+          "end": 1055
+        },
+        "ord-1861-12-21": {
+          "start": 1874185,
+          "end": 1885755
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "ord-1861-12-21": "1861-12-21"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and Ord's December 21 report (No. 2, pp.477-480) read in full. McCall's December 19 order (inclosure), McCall's December 20 telegram and the opening of his December 22 report, and General Orders No. 63 were read but not selected; Reports Nos. 3-10 were not read."
+    },
+    {
+      "title": "Official Records, series I, volume V: University of Illinois/Internet Archive OCR",
+      "publication_year": 1881,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office, 1881 per OCR title (read as 'GOVERNMENT PRINTING OFFICE 1881.' at the end of the selected title range; not checked against print); series I volume V per OCR title and catalog volume v.5. Catalog date 1880 describes the series and is not substituted for the volume imprint.",
+      "archival_identifier": "Internet Archive warofrebellion05unit; University of Illinois Urbana-Champaign (call number 973.74 Un3); digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "J. E. B. Stuart; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "stuart-dranesville-reports",
+      "dependency_note": "Telegram and report of the Confederate commander at Dranesville; interested accounts. The same author has the registered groups stuart-bristoe-reports and stuart-gettysburg-reports; they are one author family, not independent witnesses. Shared OR container with the other Volume V selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion05unit",
+      "source_kind": "official_report_compilation",
+      "id": "or5-stuart-dranesville-selections-v1",
+      "path": "data/raw/northern-virginia-1861-v1/stuart-selections.txt",
+      "format": "text",
+      "sha256": "cbc31d00f22ea988a9593d6213e823741c6dbbb48a505390b7374e095650a802",
+      "parent_source_id": "or5-illinois-ocr-v1",
+      "parent_sha256": "ca225fee03e39b8b88f458809d0dbd9dd5c5203babc9c2357b90e17e295c0099",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 635,
+          "end": 1055
+        },
+        "stuart-1861-12-21": {
+          "start": 1919670,
+          "end": 1920294
+        },
+        "stuart-1861-12-23": {
+          "start": 1920298,
+          "end": 1937776
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "stuart-1861-12-21": "1861-12-21",
+        "stuart-1861-12-23": "1861-12-23"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and Stuart's No. 11 papers (pp.490-494) read in full, including his loss table."
+    },
+    {
+      "title": "Jacob D. Cox, The March to the Sea; Franklin and Nashville",
+      "author": "Jacob D. Cox",
+      "publication_year": 1882,
+      "publication_date": null,
+      "edition": "New York: Charles Scribner's Sons, 1882 (Campaigns of the Civil War, X), per OCR title page ('CAMPAIGNS OF THE CIVIL IVAK.—X', 'CHARLES SCRIBNER'S SONS 1882') and catalog; preface signed 'CINCINNATI, September, 1882'. Not checked against print.",
+      "archival_identifier": "Internet Archive marchtoseafrankl00coxjuoft; Robarts Library, University of Toronto; scanned 2007",
+      "document_date": null,
+      "document_date_note": "Retrospective narrative. The preface is dated September 1882; that date and the 1882 imprint are not assigned to narrative passages as composition dates or as contemporary knowledge.",
+      "independence_group": "cox-atlanta-1882",
+      "dependency_note": "One retrospective history by Jacob D. Cox, styled on the OCR title page 'LATE MAJOK-GENERAL COMMANDING TWENTY-THIRD ARMY CORPS'. He commanded a division and, at Franklin, both divisions of the Twenty-third Corps under Schofield, so for Columbia, Spring Hill, Franklin and Nashville it is an interested participant account. By his preface he had access to unpublished War Records Office archives and official information, and he cites Hood's, Bate's, Walthall's, Beauregard's and Schofield's reports and statements, Jordan and Pryor's Campaigns of Forrest (registered as jordan-pryor-forrest-1868) and C. C. Jones's Siege of Savannah; it therefore shares official papers with the Official Records families and is not independent of them. His own report and journal printed in Official Records XLV part 1 (Nos. 97 and 98) were not inspected; any later use of them belongs to this author family. Relationship to later NPS summaries is unestablished. Cox's earlier volume Atlanta (Campaigns of the Civil War IX, 1882) is registered as ia-cox-atlanta-metadata-v1, cox-atlanta-ocr-v1 and cox-atlanta-selections-v1 (superseded by the metadata-only cox-atlanta-selections-v2); following the Humphreys precedent, this book is placed in that author's existing group, cox-atlanta-1882, whose name reflects the earlier volume. The two books are one author family, not independent witnesses.",
+      "rights": "Underlying 1882 book is public domain in the United States. Public catalog metadata and full OCR retained; no print scans or maps downloaded.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/marchtoseafrankl00coxjuoft",
+      "source_kind": "retrospective_history",
+      "id": "cox-carolinas-selections-v2",
+      "path": "data/raw/carolinas-v1/cox-carolinas-selections.txt",
+      "format": "text",
+      "sha256": "1360e886530fe74b84031f6d33e54832746ab12139adb1b2224c3e26ca2291e0",
+      "parent_source_id": "cox-march-ocr-v2",
+      "parent_sha256": "63813545dd484faed9310d9a519d52f1f577652864a7cabf61a2b22ca67bc499",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title-and-preface": {
+          "start": 0,
+          "end": 3745
+        },
+        "kinston": {
+          "start": 325259,
+          "end": 339721
+        }
+      },
+      "document_dates_by_section": {
+        "title-and-preface": null,
+        "kinston": null
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Transcription note and two passages read in full: title and preface (front matter), and the Kinston narrative in Chapter IX, from the choice of New Berne as a base through Cox's discussion of numbers and losses (OCR pp.154–162). Also read for this pass but not selected: the preceding Wilmington passage and the rest of Chapter IX to the Goldsboro junction (pp.154, 162–163), Chapter X from its opening through the Salkehatchie crossing and the march to the Saluda (pp.163–172; no Rivers' Bridge narrative; pp.172–177 not read), Chapter XI's Monroe's Cross Roads, Averasboro and Bentonville passages (pp.177–194), and Appendix E (strength in the Carolinas, pp.239–243; tables partly garbled in OCR). Cox directed the Union forces at Kinston, so this passage is an interested participant account; he cites Johnston's Narrative and Beauregard for Confederate numbers. His Official Records report on the same operations is registered as or47-1-cox-kinston-selections-v1 (superseded by the metadata-only or47-1-cox-kinston-selections-v2) in the same author family.",
+      "supersedes": {
+        "source_id": "cox-carolinas-selections-v1",
+        "metadata_sha256": "2896b9717c3441d85164043458c4529b0b8bd5dbafd4d2bd52d67239eb922962"
+      },
+      "revision_kind": "metadata_only",
+      "revision_note": "CAR-R2 (carolinas-review-e83348c-opus-high-v1) and the primary's consistency change CAR-PRIMARY-1: v1 was placed in group cox-march-to-the-sea-1882 with parent cox-march-ocr-v1, and its dependency note said Cox's Atlanta volume was not registered; NASH-R2 (nashville-review-e03c87e-opus-high-v1) moved that book into group cox-atlanta-1882 through the metadata-only successor cox-march-ocr-v2. Only the independence group, dependency note and parent link (same parent bytes) change; the inspection note names the report's successor. Same pinned raw bytes; not an additional witness."
+    },
+    {
+      "title": "Official Records, series I, volume XLVII, part 1: University of Illinois/Internet Archive OCR",
+      "publication_year": null,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office; the imprint year is illegible in OCR (read as 'GOVERNMENT PRINTING OFFICE, 18 0 5.' at the end of the selected title range) and is left null rather than inferred; series I volume XLVII part I (Reports) per OCR title ('SERIES I— VOLUME XLVII~m THREE PARTS. PART I-REPORTS.') and catalog volume v.47:1. The Internet Archive identifier warofrebellion471unit was checked against its catalog volume field before use. Catalog date 1880 describes the series and is not substituted for the volume imprint. Not checked against print.",
+      "archival_identifier": "Internet Archive warofrebellion471unit; University of Illinois Urbana-Champaign; digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Jacob D. Cox; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title and headings undated. Report dates are not event times, public availability or proof of contemporary knowledge.",
+      "independence_group": "cox-atlanta-1882",
+      "dependency_note": "Report of May 16, 1865 of the Union Provisional Corps commander who directed the troops at Kinston (Wise's Forks), covering March 1–31, 1865; an interested account. Cox's 1882 histories Atlanta and The March to the Sea; Franklin and Nashville are registered in group cox-atlanta-1882 (the latter moved there from cox-march-to-the-sea-1882 by NASH-R2), whose dependency notes assign any later use of his official reports to that author family; this report is placed there. The report and the history are one family, not two witnesses. Shared OR container with the other Volume XLVII Part 1 selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion471unit",
+      "source_kind": "official_report_compilation",
+      "id": "or47-1-cox-kinston-selections-v2",
+      "path": "data/raw/carolinas-v1/cox-report-selections.txt",
+      "format": "text",
+      "sha256": "0df58fdf99ae09f9f1bdbe7be80191a853ec2c11796a2be75fb6abc655007520",
+      "parent_source_id": "or47-1-illinois-ocr-v1",
+      "parent_sha256": "4dcd50b32913c858e81718cf1439fabfcc960ea4a730110fc40a9b5e5fa7212f",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 804,
+          "end": 1253
+        },
+        "cox-1865-05-16": {
+          "start": 3811252,
+          "end": 3842165
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "cox-1865-05-16": "1865-05-16"
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and Cox's No. 258 report read in full (pp.973–980), including its casualty table (partly garbled) and footnotes.",
+      "supersedes": {
+        "source_id": "or47-1-cox-kinston-selections-v1",
+        "metadata_sha256": "d4dfd1803329bb2743f171d01a67227cad1b67d301c1a9f5b75ac98167c94a5d"
+      },
+      "revision_kind": "metadata_only",
+      "revision_note": "CAR-R2 (carolinas-review-e83348c-opus-high-v1) and the primary's consistency change CAR-PRIMARY-1: v1 was placed in group cox-march-to-the-sea-1882, whose other members NASH-R2 (nashville-review-e03c87e-opus-high-v1) superseded with successors in group cox-atlanta-1882. Only the independence group and dependency note change. Same pinned raw bytes; not an additional witness."
+    },
+    {
+      "title": "Official Records, series I, volume XLVII, part 1: University of Illinois/Internet Archive OCR",
+      "publication_year": null,
+      "publication_date": null,
+      "edition": "Washington: Government Printing Office; the imprint year is illegible in OCR (read as 'GOVERNMENT PRINTING OFFICE, 18 0 5.' at the end of the selected title range) and is left null rather than inferred; series I volume XLVII part I (Reports) per OCR title ('SERIES I— VOLUME XLVII~m THREE PARTS. PART I-REPORTS.') and catalog volume v.47:1. The Internet Archive identifier warofrebellion471unit was checked against its catalog volume field before use. Catalog date 1880 describes the series and is not substituted for the volume imprint. Not checked against print.",
+      "archival_identifier": "Internet Archive warofrebellion471unit; University of Illinois Urbana-Champaign; digitized 2017",
+      "rights": "Underlying nineteenth-century U.S. government compilation is public domain. Retain catalog metadata and OCR text only; no facsimile downloaded.",
+      "author": "Judson Kilpatrick; volume title supplied by compiler",
+      "document_date": null,
+      "document_date_note": "Report dates mapped per section; compiler title and headings undated. Report dates are not event times, public availability or proof of contemporary knowledge. Inclosure No. 1 is undated.",
+      "independence_group": "kilpatrick-atlanta-reports",
+      "dependency_note": "Report of April 5, 1865 of the Union cavalry division commander on the Carolinas campaign to Goldsborough, with his division's campaign casualty table; interested accounts. The same author's Lovejoy raid dispatch and report (or38-2-kilpatrick-lovejoy-selections-v1) and his Savannah report (or44-kilpatrick-selections-v2, moved from kilpatrick-savannah-report by NASH-R3) are registered in group kilpatrick-atlanta-reports; following the Humphreys precedent, this report is placed in that author family, whose name reflects the earlier reports. Sherman's indorsement printed after the report is a separate author's document and is excluded. Shared OR container with the other Volume XLVII Part 1 selections; later NPS dependence is unestablished.",
+      "retrieved_at": "2026-09-25",
+      "url": "https://archive.org/details/warofrebellion471unit",
+      "source_kind": "official_report_compilation",
+      "id": "or47-1-kilpatrick-carolinas-selections-v2",
+      "path": "data/raw/carolinas-v1/kilpatrick-selections.txt",
+      "format": "text",
+      "sha256": "549138de7e9d5bfae7459232fe9720701a7c68c442e375f84f83f65e6603ee20",
+      "parent_source_id": "or47-1-illinois-ocr-v1",
+      "parent_sha256": "4dcd50b32913c858e81718cf1439fabfcc960ea4a730110fc40a9b5e5fa7212f",
+      "sectioned": true,
+      "selection_character_ranges": {
+        "title": {
+          "start": 804,
+          "end": 1253
+        },
+        "kilpatrick-opening": {
+          "start": 3349287,
+          "end": 3351037
+        },
+        "kilpatrick-march": {
+          "start": 3365624,
+          "end": 3375704
+        },
+        "kilpatrick-inclosure-1": {
+          "start": 3376403,
+          "end": 3377084
+        }
+      },
+      "document_dates_by_section": {
+        "title": null,
+        "kilpatrick-opening": "1865-04-05",
+        "kilpatrick-march": "1865-04-05",
+        "kilpatrick-inclosure-1": null
+      },
+      "editorial_sections": [
+        "transcription-note"
+      ],
+      "snapshot_transform": "Decode UTF-8 parent; select recorded half-open Unicode character ranges, collapse whitespace with split/join, preserve all other characters; add local headings and transcription note.",
+      "inspection": "Title and three passages of Kilpatrick's No. 212 report read in full: the heading and opening (pp.857–858); the operations from March 6 to the signature, including Monroe's Cross Roads and Averasborough (pp.861–863); and Inclosure No. 1, the division's casualty table since leaving Savannah (p.863; columns partly garbled). The February passage and its correspondence with Wheeler (pp.858–861) were read only in part; Sherman's April 7 indorsement and Inclosure No. 2 were read but are excluded.",
+      "supersedes": {
+        "source_id": "or47-1-kilpatrick-carolinas-selections-v1",
+        "metadata_sha256": "5e15c3b73a30506fcf7bdd88187a6fe03caa19507dbc548b9ca87554fd0432ed"
+      },
+      "revision_kind": "metadata_only",
+      "revision_note": "CAR-R1 (carolinas-review-e83348c-opus-high-v1) and the primary's consistency change CAR-PRIMARY-1: v1 was placed in group kilpatrick-savannah-report as the author's most recent group, but NASH-R3 (nashville-review-e03c87e-opus-high-v1) moved the Savannah report into kilpatrick-atlanta-reports through the metadata-only or44-kilpatrick-selections-v2. Only the independence group and dependency note change. Same pinned raw bytes; not an additional witness."
     }
   ]
 }

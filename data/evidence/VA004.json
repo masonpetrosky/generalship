@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA004",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Blackburn's Ford record (July 18, 1861) in Manassas Campaign [July 1861]. McDowell's July 16-17 advance, the Confederate withdrawal behind Bull Run and the demonstration at Mitchell's Ford are context. Campaign-wide movements, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades; the live field reads 57,000 (US 35,000; CS 22,000), figures that match the NPS description's army totals. Beauregard says Tyler pushed a column of over three thousand infantry against not more than twelve hundred bayonets under Longstreet, whose brigade covered the ford with three Virginia regiments and two guns. Nicolay puts Beauregard's army at over twenty thousand along the fords, Longstreet's brigade at five regiments, and says Tyler's reconnaissance began with a squadron and two companies and grew to Richardson's brigade and a reserve brigade.",
+      "rationale": "The live totals are whole-army figures, not the forces at the ford; the report and history differ on Longstreet's regiments. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA004"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-va004-v1",
+          "locator": "Forces Engaged",
+          "quote": "57000 total (US 35000; CS 22000;)"
+        },
+        {
+          "source_id": "nps-va004-v1",
+          "locator": "Description",
+          "quote": "35,000 strong,"
+        },
+        {
+          "source_id": "nps-va004-v1",
+          "locator": "Description",
+          "quote": "The Confederate army, about 22,000 men,"
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.442 (OCR page markers; not checked against print)",
+          "quote": "then he pushed forward a column of over three thousand infantry to the assault,"
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.442 (OCR page markers; not checked against print)",
+          "quote": "by the comparatively small force of not more than twelve hundred bayonets with which Brigadier-General Longstreet met him"
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.440 (OCR page markers; not checked against print)",
+          "quote": "Longstreet's brigade covered Blackburn's Ford, and consisted of Moore's First, Garland's Eleventh, and Corse's Seventeenth Regiments Virginia Volunteers,"
+        },
+        {
+          "source_id": "nicolay-manassas-selections-v1",
+          "section": "manassas-armies",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "Beauregard's main army, increased now to over twenty thou- sand, was posted at the various fords of Bull Run,"
+        },
+        {
+          "source_id": "nicolay-manassas-selections-v1",
+          "section": "manassas-armies",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "Longstreet's brigade of five regiments"
+        },
+        {
+          "source_id": "nicolay-manassas-selections-v1",
+          "section": "blackburns-ford",
+          "locator": "p.178 (OCR page markers; not checked against print)",
+          "quote": "Tyler fii-st went out with a squadron of cavalry and two companies of light infantry."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "ford-banks",
+      "dimension": "terrain",
+      "value": "Beauregard describes Bull Run as a small, usually low stream with rocky, steep banks and many fords; at Blackburn's Ford the northern bank rose at least fifty feet and formed a natural parapet for the attackers, while the southern shore was almost a plain; and on July 18 not one yard of intrenchment sheltered his men there. Nicolay says Tyler could see the valley from the hill at Centreville.",
+      "rationale": "Ground from an interested report and a history; no map inspected. The absence of works is Beauregard's own statement.",
+      "citations": [
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.441 (OCR page markers; not checked against print)",
+          "quote": "Bull Run is a small stream,"
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.441 (OCR page markers; not checked against print)",
+          "quote": "The banks for the most part are rocky and teep, but abound in long-used fords."
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.442 (OCR page markers; not checked against print)",
+          "quote": "The northern bank of the stream in front of Longstreet's position rises with a steep slope at least fifty feet above the level of the water,"
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.442 (OCR page markers; not checked against print)",
+          "quote": "This ridge formed for them an admirable natural parapet,"
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.442 (OCR page markers; not checked against print)",
+          "quote": "The southern shore was almost a plain,"
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.444 (OCR page markers; not checked against print)",
+          "quote": "not one yard of intrenchments nor one rifle pit sheltered the men at Blackburn's Ford,"
+        },
+        {
+          "source_id": "nicolay-manassas-selections-v1",
+          "section": "blackburns-ford",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "Centreville being situated on a hill, Tyler could see the whole valley spread out before him,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "guns-and-reinforcements",
+      "dimension": "logistics",
+      "value": "Beauregard says one of his guns was put out of action by an enlarged vent, that he halted two regiments bound for Winchester as a reserve, and asked Davis on July 17 for reinforcements by every possible means. Nicolay says two exposed Union field-pieces were extricated with difficulty.",
+      "rationale": "Materiel and reinforcement statements; no ordnance or supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.443 (OCR page markers; not checked against print)",
+          "quote": "But one of our pieces had become liors de combat from an enlarged vent."
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.441 (OCR page markers; not checked against print)",
+          "quote": "which, having arrived the night before en route for Winchester, I had halted in view of the existing necessities of the service."
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-07-17",
+          "locator": "p.440 (OCR page markers; p.440 inferred: the running head reads '4-iO' in OCR; not checked against print)",
+          "quote": "Send forward any re-enforcements at the earliest possible instant and by every possible means."
+        },
+        {
+          "source_id": "nicolay-manassas-selections-v1",
+          "section": "blackburns-ford",
+          "locator": "p.178 (OCR page markers; not checked against print)",
+          "quote": "until the two exposed field-pieces were with ililliculty extricated,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "deception-and-impressions",
+      "dimension": "information",
+      "value": "Beauregard says he was informed of the Union advance in time and that his withdrawal deceived the enemy into expecting an unresisted crossing; he credits signals and local guides. Nicolay says the action confirmed Beauregard's belief that the main attack would come at his centre and convinced McDowell, from reports of rifle-pits and breastworks, that a direct assault was unwise.",
+      "rationale": "Attributed knowledge from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.440 (OCR page markers; not checked against print)",
+          "quote": "Opportunely informed of the determination of the enemy to advance on Manassas,"
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.440 (OCR page markers; not checked against print)",
+          "quote": "the intended effect of deceiving the enemy as to my ulterior purpose and led him to anticipate an unresisted passage of Bull Run."
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.446 (OCR page markers; not checked against print)",
+          "quote": "fortunately joined my headquarters in time to introduce the system of new field signals,"
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.446 (OCR page markers; not checked against print)",
+          "quote": "for the information relative to this region, which has enabled me to avail myself of its defensive features"
+        },
+        {
+          "source_id": "nicolay-manassas-selections-v1",
+          "section": "blackburns-ford",
+          "locator": "p.179 (OCR page markers; not checked against print)",
+          "quote": "It confirmed Beauregard in his previous impression that the Ijrincipal Union attack would be made at that point on the centre of his long line."
+        },
+        {
+          "source_id": "nicolay-manassas-selections-v1",
+          "section": "blackburns-ford",
+          "locator": "p.179 (OCR page markers; not checked against print)",
+          "quote": "McDowell, receiv- ing from his officers reports of rifle-pits and breastworks, be- came convinced that a direct assault was unwise."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-and-stand",
+      "dimension": "objectives",
+      "value": "NPS calls the action a reconnaissance-in-force. Nicolay says Tyler was under instructions to bring on no engagement but made a reconnaissance that drifted into a preliminary battle. Beauregard's July 17 telegram says he would make a stand at Mitchell's Ford on the line of Bull Run.",
+      "rationale": "Stated aims from a summary, a history and a dispatch.",
+      "citations": [
+        {
+          "source_id": "nps-va004-v1",
+          "locator": "Description",
+          "quote": "This action was a reconnaissance-in-force prior to the main event at Manassas/Bull Run."
+        },
+        {
+          "source_id": "nicolay-manassas-selections-v1",
+          "section": "blackburns-ford",
+          "locator": "p.178 (OCR page markers; not checked against print)",
+          "quote": "but to biing on no engagement, it occurred to him to make a reconnoissance in the direction of the retreat."
+        },
+        {
+          "source_id": "nicolay-manassas-selections-v1",
+          "section": "blackburns-ford",
+          "locator": "p.178 (OCR page markers; not checked against print)",
+          "quote": "Thus the afternoon's work drifted quickly from a reconnois- sance to a skiimish, and from a skiimish to a preliminaiy battle."
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-07-17",
+          "locator": "p.439 (OCR page markers; not checked against print)",
+          "quote": "1 have fallen back on the line of Bull Eun^ and will make a stand at Mitchell's Ford."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Brigadier General P.G.T. Beauregard and Brigadier General Irvin McDowell; the live page gives McDowell as Major General. Beauregard says Longstreet immediately commanded the troops engaged and that Early brought his brigade in; Nicolay says Tyler, a division commander, went beyond his instructions and later withdrew, and that McDowell ordered all divisions forward on hearing the cannonade.",
+      "rationale": "Neither listed commander directed the fighting at the ford in the inspected passages; they receive no automatic credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA004",
+            "belligerent": "Confederate",
+            "fullname": "P.G.T. Beauregard"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA004",
+            "belligerent": "US",
+            "fullname": "Irvin McDowell"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va004-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Irvin McDowell [US]"
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.444 (OCR page markers; not checked against print)",
+          "quote": "Brigadier- General Longstreet, who commanded immediately the troops engaged at Blackburn's Ford on the 18th,"
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.445 (OCR page markers; not checked against print)",
+          "quote": "Colonel Early brought his brigade into position and subsequently into action with judgment,"
+        },
+        {
+          "source_id": "nicolay-manassas-selections-v1",
+          "section": "blackburns-ford",
+          "locator": "p.179 (OCR page markers; not checked against print)",
+          "quote": "that Tyler heeded his instructions, and withdrew his reluc- tant officers and men from the fight,"
+        },
+        {
+          "source_id": "nicolay-manassas-selections-v1",
+          "section": "blackburns-ford",
+          "locator": "p.179 (OCR page markers; not checked against print)",
+          "quote": "Upon hearing the cannonade, McDowell had immediately ordered all the divisions forward to Centreville."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory; NPS says McDowell was repulsed and afterwards chose a flanking movement. Beauregard says the enemy was baffled and could not force a passage, which led him into the flank movement of July 21. Nicolay calls the battle undecisive, with loss, damage and demoralization equal on both sides, while noting its effect on both commanders.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA004"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va004-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-va004-v1",
+          "locator": "Description",
+          "quote": "attempting to cross at Blackburn's Ford. He was repulsed."
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "The effect of this day's conflict was to satisfy the enemy he could not force a passage across Bull Bun in the face of our troops,"
+        },
+        {
+          "source_id": "nicolay-manassas-selections-v1",
+          "section": "blackburns-ford",
+          "locator": "p.179 (OCR page markers; not checked against print)",
+          "quote": "In point of fact, the loss, the damage, the demoralization, had been eqiial on both sides."
+        },
+        {
+          "source_id": "nicolay-manassas-selections-v1",
+          "section": "blackburns-ford",
+          "locator": "p.179 (OCR page markers; not checked against print)",
+          "quote": "Undecisive as it was, the battle of Blackburn's Ford had an important effect."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 151 (US 83; CS 68). Beauregard gives his loss as 68 killed and wounded, 15 of them killed (including two missing) and 53 wounded, and says 64 enemy dead were buried and at least 20 prisoners taken. Nicolay says some sixty Union men had fallen and gives the Confederate loss as 63 killed and wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Beauregard's report covers the whole July 18 action, including the Mitchell's Ford demonstration.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA004"
+          },
+          "column": "casualties_text",
+          "quote": "151 total (US 83; CS 68)"
+        },
+        {
+          "source_id": "nps-va004-v1",
+          "locator": "Estimated Casualties",
+          "quote": "151 total (US 83; CS 68;)"
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.446 (OCR page markers; not checked against print)",
+          "quote": "Our casualties, in all sixty-eight killed and wounded, were fifteen (including two reported missing) killed, and fifty-three wounded,"
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.446 (OCR page markers; not checked against print)",
+          "quote": "some sixty-four corpses were found and buried."
+        },
+        {
+          "source_id": "or2-beauregard-blackburns-ford-selections-v1",
+          "section": "beauregard-1861-08-blackburns-ford",
+          "locator": "p.446 (OCR page markers; not checked against print)",
+          "quote": "at least twenty prisoners were also picked up,"
+        },
+        {
+          "source_id": "nicolay-manassas-selections-v1",
+          "section": "blackburns-ford",
+          "locator": "p.178 (OCR page markers; not checked against print)",
+          "quote": "It was not until some sixty men had fallen,"
+        },
+        {
+          "source_id": "nicolay-manassas-selections-v1",
+          "section": "blackburns-ford",
+          "locator": "p.179 (OCR page markers; not checked against print)",
+          "quote": "that the rebel loss was sixty-three killed and wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Tyler's and Richardson's reports (Nos. 3-4), McDowell's July 16-20 report (No. 1), Jordan's, Longstreet's, Early's and the Washington Artillery reports (Nos. 65-79) remain deferred. NPS and the frozen description date the Union march 'On 16 July, 1862'; the inspected sources place it in 1861.",
+    "NPS/CWSAC is one family. John G. Nicolay's The Outbreak of Rebellion (Scribner, 1881) is a retrospective history written, by its preface, largely from the Official War Records for 1861; it quotes McDowell's and Johnston's reports and uses Beauregard's, and is not independent of the report families. Beauregard's July 17 telegram and his report on the July 18 engagement, dated August 1861 with the day blank (Official Records Series I, Volume II), are one family of interested Confederate accounts; the same author has the registered Shiloh group or-beauregard. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

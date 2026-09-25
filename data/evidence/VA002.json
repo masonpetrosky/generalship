@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Aquia Creek record (May 29-June 1, 1861) in Blockade of the Chesapeake Bay [May-June 1861]. The May reconnaissances of the battery and the later Potomac operations are context. Campaign-wide movements, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads '3 gunboats [US]; battery garrison [CS]'; the live field reads zero. Ruggles reports two small steamers on the evening of the 29th, three war steamers on the 31st, and on June 1 first a report of five steamers with two transports and then four armed steamers; he took some seven hundred men toward the battery on the 29th, with five hundred more at the camp, and four companies of infantry, one of cavalry and the Walker Legion on the 31st. Ward reports the Freeborn supported by the Anacostia and Resolute on May 31 and the Pawnee joining him for June 1.",
+      "rationale": "Vessel counts and supporting-force figures, not the battery garrison. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA002"
+          },
+          "column": "forces_text",
+          "quote": "3 gunboats [US]; battery garrison [CS]"
+        },
+        {
+          "source_id": "nps-va002-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-05-30",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "two small steamers of the enemy attacked the Aquia Creek Railroad battery last evening about sunset,"
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-05-30",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "proceeded, with some seven hundred men, to the point attacked, having in view sending back the train for the remaining live hundred."
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-06-01",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "The enemy had three war steamers"
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-06-01",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "comprising the four companies of infantry and one of cavalry,"
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-06-01-morning",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "five of the enemy's steamers, with two transport ships,"
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-06-02",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "four of the enemy's armed steamers commenced firing on our batteries at Aquia Creek yesterday morning,"
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-05-31",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "supported by the Anacostia and Resolute, steamers,"
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-06-01",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "Captain Bowan, of that ship, joined me last night,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "batteries-and-heights",
+      "dimension": "terrain",
+      "value": "Ward says he silenced the three batteries at the railroad terminus on May 31 but that new batteries on the heights behind were above the elevation of his guns, remote from the ship channel and commanding only the railroad terminus; on the 29th the tide was out and neither side reached with certainty. NPS says the batteries were built to protect the northern terminus of the railroad to Richmond.",
+      "rationale": "Ground and works from an interested naval report and a summary; no map inspected.",
+      "citations": [
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-05-31",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "new batteries on the heights back, which reached us in volleys,"
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-05-31",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "as the heights proved wholly above the reach of our elevation."
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-05-31",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "considering that they are remote from the ship channel of the river and command only the railroad terminus."
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-05-31",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "but the tide being out, neither party reached with any con¬ siderable certainty."
+        },
+        {
+          "source_id": "nps-va002-v1",
+          "locator": "Description",
+          "quote": "that were built to protect the northern terminus of the railroad to Richmond."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-supplies",
+      "dimension": "logistics",
+      "value": "Ward says he expended all ammunition suitable for distant firing on May 31 and on June 1 went to Washington to repair damages and refill his exhausted magazines, having fired upward of 300 shots and shells with 1,700 pounds of powder over the several cannonades. Ruggles asked for heavy guns, a thousand volunteers and twenty thousand musket-rifle caps, and relays that the enemy threw 597 shots and shells on June 1 against 75 from the battery.",
+      "rationale": "Supply statements from the two commanders; relayed shot counts are not measured expenditure returns.",
+      "citations": [
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-05-31",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "the expenditure of all the ammunition suitable for dis¬ tant firing,"
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-06-01",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "I proceed to Washington to repair damages and refill my exhausted magazines."
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-06-01",
+          "locator": "p.492 (OCR page markers; not checked against print)",
+          "quote": "have ourselves fired upward of 300 shots and shells, with 1,700 pounds of powder."
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-05-30",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "I respectfully recommend that guns of heavy caliber be furnished"
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-06-01-morning",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "I am in want of at least one thousand well-disciplined volunteers"
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-06-01-morning",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "Twenty thousand musket-rifle caps are absolutely necessary"
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-06-02",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "The enemy is represented to have thrown five hundred and ninety-seven shots and shells, and our battery, under Cap tain Lynch, seventy-five."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "landing-fears",
+      "dimension": "information",
+      "value": "Ruggles reports agitation along the coast from fear of landings, but on June 2 says the enemy gave no indication of an intention to land; NPS says the feared landing did not materialize. Ward says the damage inflicted remained to be seen.",
+      "rationale": "Contemporary expectations from reports and a summary; no intelligence record inspected.",
+      "citations": [
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-05-30",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "Much agitation prevails along the Potomac coast from apprehension that the enemy will land,"
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-06-02",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "The enemy gave no in dications of an intention to land ,"
+        },
+        {
+          "source_id": "nps-va002-v1",
+          "locator": "Description",
+          "quote": "Confederates feared a landing of troops, but this did not materialize."
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-06-01",
+          "locator": "p.492 (OCR page markers; not checked against print)",
+          "quote": "What damage we have inflicted remains to be seen."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "railroad-terminus",
+      "dimension": "objectives",
+      "value": "NPS says the batteries protected the northern terminus of the Richmond railroad. Ward doubts the heights could be reduced from ships and calls it unimportant. Ruggles's troops covered the batteries against a landing.",
+      "rationale": "Stated aims and assessments from a summary and the two commanders.",
+      "citations": [
+        {
+          "source_id": "nps-va002-v1",
+          "locator": "Description",
+          "quote": "that were built to protect the northern terminus of the railroad to Richmond."
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-05-31",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "I doubt if it is possible to reduce the batteries now established on the heights from ships ; nor is it at all important,"
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-06-01",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "including the covering and protecting force on the field."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Colonel Daniel Ruggles and Commander James H. Ward (navy); the live page gives Ruggles as Brigadier General, and Ruggles signs as colonel of the Provisional Army. Ruggles says the batteries were commanded by Captain Lynch and other naval officers, and his supporting force by Colonel Bate until he arrived about midday on June 1. Ward commanded the flotilla and says he was its only Regular Navy officer, the others being acting officers from civil life.",
+      "rationale": "Command roles from the two reports; the battery commander is not a listed commander. No automatic sole credit; the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA002",
+            "belligerent": "Confederate",
+            "fullname": "Daniel Ruggles"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA002",
+            "belligerent": "US",
+            "fullname": "James H. Ward"
+          },
+          "column": "rank",
+          "quote": "Commander"
+        },
+        {
+          "source_id": "nps-va002-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Daniel Ruggles [CS]"
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-05-30",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "DANIEL RUGGLES, Colonel^ Provisional Army, Commanding Forces."
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-06-02",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "The batteries were commanded by Captain Lynch and other naval offi cers."
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-06-02",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "under the command of Colonel Bate, of the Walker Legion, until my arrival on the field,"
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-05-31",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "none but myself being of the Regular Navy,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive; NPS calls the bombardment inconclusive and says the batteries were later withdrawn. Ward says he silenced the three terminus batteries on May 31 and on June 1 found the heights abandoned and the shore fire feeble before discontinuing. Ruggles says the steamers hauled off on May 31, supposedly partly disabled, and that on June 1 no material damage was done to the batteries and the enemy hauled off to the Maryland shore.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA002"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va002-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-va002-v1",
+          "locator": "Description",
+          "quote": "Results of the bombardment were inconclusive, although the batteries were later withdrawn."
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-05-31",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "silencing completely the three batteries at the railroad terminus,"
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-06-01",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "The heights were abandoned, the guns apparently having been trans¬ ferred to the earthworks at the railroad terminus"
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-06-01",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "It did not seem advisable to permit so feeble a fire to wear out my men, therefore discontinued the engagement."
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-06-01",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "when the steamers hauled off, and, it is supposed, in a par tially disabled condition."
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-06-02",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "On our side nobody was hurt and no material damage was done to our batteries."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 10 total; the live field reads zero. Ruggles reports one man slightly wounded on the 29th and nobody hurt on June 1; Ward reports one man wounded on May 31 and neither killed nor wounded on June 1, the Freeborn leaking badly from shot.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen 10 has no inspected basis.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA002"
+          },
+          "column": "casualties_text",
+          "quote": "10 total"
+        },
+        {
+          "source_id": "nps-va002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-05-30",
+          "locator": "p.55 (OCR page markers; not checked against print)",
+          "quote": "One man was slightly wounded in the hand by the fragments of a shell."
+        },
+        {
+          "source_id": "or2-ruggles-aquia-creek-selections-v1",
+          "section": "ruggles-1861-06-02",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "On our side nobody was hurt"
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-05-31",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "fortunately wound¬ ing but one man,"
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-06-01",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "Fortunately, I have again neither killed nor wounded to report,"
+        },
+        {
+          "source_id": "orn4-ward-aquia-creek-selections-v1",
+          "section": "ward-1861-06-01",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "Several shots came on board of us, causing the vessel to leak badly,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Lynch's June 2 and June 6 reports, Rowan's June 2 report, Bate's and Cluskey's letters and the May reconnaissance reports remain unselected.",
+    "The Army compilation prints Ruggles's first report as 'fired some fourteen shot and shell'; the Navy reprint reads 'with twelve shot and shell'. The difference is recorded, not resolved.",
+    "NPS/CWSAC is one family. Ruggles's May 30-June 4, 1861 reports (Army Official Records Series I, Volume II) are one family of interested Confederate accounts. Ward's May 31 and June 1 reports (Navy Official Records Series I, Volume 4) are one family of interested Union accounts. The Army and Navy Official Records volumes are shared containers, not additional witnesses, and reprints of a report in the other compilation are copies. Report dates are not event times or proof of contemporary knowledge. No Scribner history narrates this engagement; Nicolay's The Outbreak of Rebellion mentions Great Bethel only in passing.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

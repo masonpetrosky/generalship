@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "battle_id": "SC001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort Sumter record (April 12-14, 1861) in Operations in Charleston Harbor [April 1861]. The December 1860-April 1861 occupation and siege of the fort, the firing on the Star of the West and the relief expeditions are context. Campaign-wide movements, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Regiments: 580 total (US 80; CS 500)' and the live page gives the same totals. Nicolay counts the garrison as nine officers, sixty-eight non-commissioned officers and privates, eight musicians and forty-three non-combatant workmen, 128 souls in all, against a Confederate volunteer force of four to six thousand supporting the batteries, and puts the armaments at forty-eight guns in the fort and forty-seven in the besieging works, seventeen of them mortars. Anderson reports only 'my little force' and the fire of seventeen 10-inch mortars and batteries of heavy guns.",
+      "rationale": "Figures differ in population: the frozen 80 and 500, Nicolay's garrison with and without workmen, and his range for the force supporting the batteries; gun counts are not personnel. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC001"
+          },
+          "column": "forces_text",
+          "quote": "Regiments: 580 total (US 80; CS 500)"
+        },
+        {
+          "source_id": "nps-sc001-v1",
+          "locator": "Forces Engaged",
+          "quote": "580 total (US 80; CS 500;)"
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.63 (OCR page markers; not checked against print)",
+          "quote": "The garrison consisted of nine com- missioned officers, sixty-eight non-commissioned officers and privates, eight musicians, and forty-three non-combatant workmen,"
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "Anderson had only a gan-ison of 128 souls all told ; while a volunteer force of from four to six thousand supjDorted the rebel batteries."
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.63 (OCR page markers; not checked against print)",
+          "quote": "A total armament of forty-eight guns was ready for use."
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.63 (OCR page markers; not checked against print)",
+          "quote": "Their total armament embraced forty-seven guns."
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "But seventeen of the rebel pieces were mortars,"
+        },
+        {
+          "source_id": "or1-anderson-sumter-selections-v1",
+          "section": "anderson-1861-04-19",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "God was pleased to guard my little force"
+        },
+        {
+          "source_id": "or1-anderson-sumter-selections-v1",
+          "section": "anderson-1861-04-19",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "the fire from seventeen 10-inch mortars and from batteries of heavy guns, well placed and well served,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fort-and-batteries",
+      "dimension": "terrain",
+      "value": "Nicolay describes Sumter as a five-sided brick work on an artificial island, its walls some eight feet thick and forty feet high, ringed by Confederate works on Sullivan's Island at 1,800 yards, Cumming's Point at 1,300 yards and James Island at 2,500 yards; Anderson's barbette guns, more than half his pieces, were exposed while most Confederate guns were in bomb-proofs of palmetto logs and sand. NPS says the fort was unable to reply effectively.",
+      "rationale": "Ground and works described by a history and a summary; no map or engineer journal inspected.",
+      "citations": [
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.63 (OCR page markers; not checked against print)",
+          "quote": "It was a five-sided structure, about three hundred by three hundred and fitty feet in size ; its walls were some eight feet thick and forty feet high."
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.63 (OCR page markers; not checked against print)",
+          "quote": "Sullivan's Island, containing Fort Moultrie, to the northeast at a distance of 1,800 yards ; Cum- ming's Point, on Morris Island, to the south at a distance of 1,300 yards ; and on James Island, near old Fort Johnson, to the west at a distance of 2,500 yards."
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "Anderson's barbette guns, more than half his pieces, were exposed ; most of the rebel guns were sheltered in bomb- proofs of palmetto logs and sand ;"
+        },
+        {
+          "source_id": "nps-sc001-v1",
+          "locator": "Description",
+          "quote": "On April 12, Confederate batteries opened fire on the fort, which was unable to reply effectively."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "provisions-and-powder",
+      "dimension": "logistics",
+      "value": "Anderson says he accepted terms with four barrels and three cartridges of powder only available and no provisions remaining but pork, the magazine surrounded by flames. Nicolay says supplies from the city were prohibited from April 2, the last barrel of flour had been issued two or three days before the bombardment, the garrison's 700 cartridges ran short with only six needles to sew cartridge-bags, and the relief expedition could not succor the fort.",
+      "rationale": "Supply state from an interested report and a history; no ordnance or subsistence return inspected.",
+      "citations": [
+        {
+          "source_id": "or1-anderson-sumter-selections-v1",
+          "section": "anderson-1861-04-18",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "four barrels and three cartridges of powder only being available, and no provisions remaining but pork,"
+        },
+        {
+          "source_id": "or1-anderson-sumter-selections-v1",
+          "section": "anderson-1861-04-18",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "the magazine surrounded by flames,"
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "to prohibit all supplies from the city ;"
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "the last bar- rel of flour was issued two or three days before, and now there was little left to subsist upon except pork and water."
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.66 (OCR page markers; p.66 inferred: the running head reads 'GG' in OCR; not checked against print)",
+          "quote": "that their stock of 700 cartridges would soon be exhausted."
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.66 (OCR page markers; p.66 inferred: the running head reads 'GG' in OCR; not checked against print)",
+          "quote": "for they had only six needles in the fort with which to sew up cartridge-bags."
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.66 (OCR page markers; p.66 inferred: the running head reads 'GG' in OCR; not checked against print)",
+          "quote": "Unfortunately, it proved unable to succor the fort either on that or the suc- ceeding day."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "notice-and-demand",
+      "dimension": "information",
+      "value": "Nicolay says Lincoln's notice that an attempt would be made to supply the fort with provisions only was read to Pickens and Beauregard on the evening of April 8; that Anderson's remark that the garrison would be starved out in a few days, repeated to Beauregard, gave the impression that he wished to capitulate; and that Wigfall, without authority, offered terms on April 13. NPS dates Beauregard's demand for surrender to April 10; Nicolay says Beauregard was instructed on the 10th and sent the demand at two o'clock on April 11, and Anderson refers to terms offered on the 11th.",
+      "rationale": "Attributed knowledge from a history; the date of the demand differs between the summary and the history and report.",
+      "citations": [
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.59 (OCR page markers; not checked against print)",
+          "quote": "notify you to expect an attempt will be made to sujpply Fort Sumter with provisions only,"
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.60 (OCR page markers; not checked against print)",
+          "quote": "I will await the first shot, and if you do not batter us to pieces, we will be stai-ved out in a few days."
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.60 (OCR page markers; not checked against print)",
+          "quote": "The remark repeated to Beauregard and to MontgomeiT, caused the impression that Anderson desired to capitulate,"
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "with more grandiloquence than au- thority, offered to peiTnit Anderson to name his own terms of evacuation."
+        },
+        {
+          "source_id": "nps-sc001-v1",
+          "locator": "Description",
+          "quote": "On April 10, 1861, Brig. Gen. Beauregard, in command of the provisional Confederate forces at Charleston, South Carolina, demanded the surrender"
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.60 (OCR page markers; not checked against print)",
+          "quote": "At two o'clock in the afternoon of the following day (April 11th), he sent two of his aids to make the demand,"
+        },
+        {
+          "source_id": "or1-anderson-sumter-selections-v1",
+          "section": "anderson-1861-04-18",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "being the same offered by him on the llth instant, prior to the commencement of hostilities,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "reduce-or-relieve",
+      "dimension": "objectives",
+      "value": "Nicolay says Beauregard was instructed to demand the evacuation of Sumter and, if refused, to reduce it, while the Union relief expedition was to deliver subsistence first and Anderson was authorized to capitulate when he judged it necessary.",
+      "rationale": "Stated aims and instructions from a history.",
+      "citations": [
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.60 (OCR page markers; not checked against print)",
+          "quote": "on the 10th, Beauregard was instructed to demand the evacua- tion of Sumter, and, in case of refusal, to reduce it."
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.60 (OCR page markers; not checked against print)",
+          "quote": "endeavor in the first instance to deliver the subsistence."
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "authorizing him to capitulate when in his judgment it might become necessary."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Brigadier General P.G.T. Beauregard and Major Robert Anderson, matching the live page. Nicolay says Beauregard was sent on March 1 to direct military affairs and complete the preparations for capture; that Anderson withdrew his men from the barbette guns; that Captain Abner Doubleday fired the fort's first gun; and that Beauregard agreed to Anderson's proposal. Anderson says he accepted Beauregard's terms.",
+      "rationale": "Command roles from a history and an interested report; neither listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC001",
+            "belligerent": "Confederate",
+            "fullname": "P.G.T. Beauregard"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC001",
+            "belligerent": "US",
+            "fullname": "Robert Anderson"
+          },
+          "column": "rank",
+          "quote": "Major"
+        },
+        {
+          "source_id": "nps-sc001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major Robert Anderson [US]"
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.56 (OCR page markers; not checked against print)",
+          "quote": "Beauregard was on the 1st of March sent by the rebel government to Charleston to assume dii'ection of military affaii*s"
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.65 (OCR page markers; not checked against print)",
+          "quote": "Anderson decided that he could not afford this risk, and therefore at once ordered an abandonment of all the barbette guns"
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "at about seven o'clock Captain Abner Doubleday fired the first gun from the fort"
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "This commander reconciled all difficulty by agi'eeing to Anderson's iiroposal ;"
+        },
+        {
+          "source_id": "or1-anderson-sumter-selections-v1",
+          "section": "anderson-1861-04-18",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "I accepted terms of evacuation offered by General Beauregard,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory and the live result Indecisive. NPS says Anderson surrendered at 2:30 p.m. on April 13 and evacuated the next day. Anderson says he defended the fort for thirty-four hours and marched out on the afternoon of Sunday the 14th with colors flying, saluting his flag with fifty guns; Nicolay gives thirty-six hours of bombardment from half-past four on April 12 and the evacuation at noon on April 14.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The live 'Indecisive' is not adopted over the frozen result; hour and duration differences are preserved.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC001"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-sc001-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-sc001-v1",
+          "locator": "Description",
+          "quote": "At 2:30 pm, April 13, Major Anderson surrendered Fort Sumter, evacuating the garrison on the following day."
+        },
+        {
+          "source_id": "or1-anderson-sumter-selections-v1",
+          "section": "anderson-1861-04-18",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "Having defended Fort Sumter for thirty-four hours,"
+        },
+        {
+          "source_id": "or1-anderson-sumter-selections-v1",
+          "section": "anderson-1861-04-18",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "marched out of the fort Sunday afternoon, the 14th instant, with colors flying and drums beating,"
+        },
+        {
+          "source_id": "or1-anderson-sumter-selections-v1",
+          "section": "anderson-1861-04-18",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "saluting my flag with fifty guns."
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.62 (OCR page markers; not checked against print)",
+          "quote": "At half-past four o'clock, on the morning of April 12th, 1861,"
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.62 (OCR page markers; not checked against print)",
+          "quote": "should have continued for the space of thirty-six hours"
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "at noon of the following day, Sunday, April 14, 1861,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads None; the live field reads 15 (US 11; CS 4). NPS says there were no casualties during the bombardment and that one artillerist was killed and three wounded, one mortally, by a premature explosion during the salute on April 14. Anderson says no one was seriously injured by the enemy's fire and that one man was killed and two seriously and three slightly wounded while saluting; Nicolay says the bombardment cost no life in the garrison.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The salute accident follows the surrender and is not a combat loss; the live 15 has no inspected basis.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC001"
+          },
+          "column": "casualties_text",
+          "quote": "None"
+        },
+        {
+          "source_id": "nps-sc001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "15 total (US 11; CS 4;)"
+        },
+        {
+          "source_id": "nps-sc001-v1",
+          "locator": "Description",
+          "quote": "Although there were no casualties during the bombardment, one Union artillerist was killed and three wounded (one mortally) when a cannon exploded prematurely while firing a salute during the evacuation on April 14."
+        },
+        {
+          "source_id": "or1-anderson-sumter-selections-v1",
+          "section": "anderson-1861-04-19",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "no one was seriously injured by their fire."
+        },
+        {
+          "source_id": "or1-anderson-sumter-selections-v1",
+          "section": "anderson-1861-04-19",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "one man was killed, two seriously and three slightly wounded whilst saluting our flag as it was lowered."
+        },
+        {
+          "source_id": "nicolay-sumter-selections-v1",
+          "section": "sumter",
+          "locator": "p.62 (OCR page markers; not checked against print)",
+          "quote": "without the loss of a single life in the besieged garrison."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Beauregard's reports (No. 8), Foster's engineer journal (No. 7), Fox's report on the relief expedition (No. 5), the South Carolina subordinate reports (Nos. 9-28) and Anderson's promised detailed report remain deferred.",
+    "The date of Beauregard's demand (April 10 in NPS, April 11 in Nicolay and Anderson) and the hour of surrender and evacuation remain unreconciled.",
+    "NPS/CWSAC is one family. John G. Nicolay's The Outbreak of Rebellion (Scribner, 1881) is a retrospective history written, by its preface, largely from the Official War Records for 1861; it quotes Anderson's correspondence and is not independent of the Anderson family. Anderson's April 18 telegram and April 19, 1861 report (Official Records Series I, Volume I, No. 6) are one family of interested Union accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

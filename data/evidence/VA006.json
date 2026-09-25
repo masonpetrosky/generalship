@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA006",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Ball's Bluff record (October 21, 1861) in McClellan's Operations in Northern Virginia [October-December 1861]. McCall's move to Dranesville, the October 20 demonstration at Edwards Ferry and the October 22 action near Edwards Ferry are context. Campaign-wide movements, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen and live force fields read 3,600 (US 2,000; CS 1,600). Stone says Baker had between 1,600 and 1,700 bayonets on the field, that the enemy was nearly if not quite three to one, that he had warned Baker of about 4,000 opposed, and that reports of 10,000 were highly exaggerated. Evans gives his own force as 1,709 aggregate, and the enemy's as five regiments and three guns at Ball's Bluff and about 8,000 in all, including the Edwards Ferry force.",
+      "rationale": "Figures differ in scope (field at the bluff, the whole crossing, each side's estimate of the other). None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA006"
+          },
+          "column": "forces_text",
+          "quote": "3,600 total (US 2,000; CS 1,600)"
+        },
+        {
+          "source_id": "nps-va006-v1",
+          "locator": "Forces Engaged",
+          "quote": "3600 total (US 2000; CS 1600;)"
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-11-02",
+          "locator": "p.302 (OCR page markers; not checked against print)",
+          "quote": "Colonel Baker had on the field between 1,600 and 1,700 bayonets."
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-10-29",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "who, though evidently struggling against largely superior numbers (nearly if not quite three to one),"
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-11-02",
+          "locator": "p.301 (OCR page markers; not checked against print)",
+          "quote": "I warned him, when I ascertained it, that I be- lieved 4,000 troops would be opposed to him ;"
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-10-29",
+          "locator": "p.298 (OCR page markers; not checked against print)",
+          "quote": "The reports brought me of the enemy’s force were highly exaggerated, it being stated at 10,000 men."
+        },
+        {
+          "source_id": "or5-evans-balls-bluff-selections-v1",
+          "section": "evans-1861-10-31",
+          "locator": "p.350 (OCR page markers; not checked against print)",
+          "quote": "our loss, from a force of 1,709 aggregate, was as follows"
+        },
+        {
+          "source_id": "or5-evans-balls-bluff-selections-v1",
+          "section": "evans-1861-10-31",
+          "locator": "p.350 (OCR page markers; not checked against print)",
+          "quote": "The force of the enemy, as far as I have been able to ascertain, was five regiments and three pieces of artillery at Ball’s Bluff, and four regiments, two batteries, and a squadron of cavalry at Edwards Ferry, numbering in all about 8,000 troops."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "bluff-river-and-woods",
+      "dimension": "terrain",
+      "value": "Stone says Baker's line had a steep bluff and the Potomac close behind it, a valley on its left and a wooded hill beyond, and that a battery in the woods prevented moving Gorman's brigade to the right. Evans says the Union troops held a strong position in the woods. NPS says the Confederate counterattack drove the Federals over the bluff and into the river.",
+      "rationale": "Ground from the two commanders and a summary; no map inspected.",
+      "citations": [
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-11-02",
+          "locator": "p.302 (OCR page markers; not checked against print)",
+          "quote": "A short distance in his rear was a steep bluff, and immediately behind that bluff the river Potomac."
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-11-02",
+          "locator": "p.302 (OCR page markers; not checked against print)",
+          "quote": "On his left was a valley, and on the opposite side of that valley (which opened on the river) was a wooded hill."
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-10-29",
+          "locator": "p.298 (OCR page markers; not checked against print)",
+          "quote": "impracticable to throw Gorman’s brigade directly to the right by reason of the battery in the woods,"
+        },
+        {
+          "source_id": "or5-evans-balls-bluff-selections-v1",
+          "section": "evans-1861-10-31",
+          "locator": "p.349 (OCR page markers; not checked against print)",
+          "quote": "with the enemy in their strong position in the woods."
+        },
+        {
+          "source_id": "nps-va006-v1",
+          "locator": "Description",
+          "quote": "A timely Confederate counterattack drove the Federals over the bluff and into the river."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "boats-and-crossing",
+      "dimension": "logistics",
+      "value": "Stone's memoranda give Baker boats for 172 men at 6 a.m., raised to 272 with a canal boat, and argue that managed in order they could have crossed 720 to 1,080 men an hour; his report says no system was enforced at the landings, artillery was sent before its infantry, and the largest boat swamped in the retreat. Evans says his troops fought without food or rest for more than twelve hours before the battle.",
+      "rationale": "Stone's figures are his own post-battle memoranda written under criticism; no quartermaster return inspected.",
+      "citations": [
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-11-06-transportation",
+          "locator": "p.304 (OCR page markers; not checked against print)",
+          "quote": "total capacity of boats in water and ready for use at 6 a. m., 172 men."
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-11-06-transportation",
+          "locator": "p.304 (OCR page markers; not checked against print)",
+          "quote": "easy capacity 100 men; total, 272 men."
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-11-06-transportation",
+          "locator": "p.304 (OCR page markers; not checked against print)",
+          "quote": "Managed with order and regularity, the trips could have been made with ease once in ten minutes, throwing across 180 men each trip, or 1,080 men every hour;"
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-10-29",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "for it appears that the re-enforcements as they arrived found no system enforced,"
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-10-29",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "The forwarding of artillery (necessarily a slow process) before its supporting force of infantry also impeded the rapid assembling of an imposing force on the Virginia shore."
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-10-29",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "The largest boat, rapidly and too heavily loaded, swamped at 15 feet from the shore,"
+        },
+        {
+          "source_id": "or5-evans-balls-bluff-selections-v1",
+          "section": "evans-1861-10-31",
+          "locator": "p.351 (OCR page markers; not checked against print)",
+          "quote": "Without food or rest for more than twelve hours previous to the commencement of the battle,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouts-and-couriers",
+      "dimension": "information",
+      "value": "Stone says Philbrick's scouts mistook openings in the trees for a camp, that cavalry sent to screen Devens was turned back without scouting, leaving him without warning, and that Stone himself was unaware of the peril on the right until about 5 p.m. Evans says his pickets discovered the crossing at an unguarded point, that a captured courier showed McCall's intentions, and that by about 10 a.m. he was convinced the main attack would come at Ball's Bluff.",
+      "rationale": "Knowledge as each commander reports it; no signal or message log inspected.",
+      "citations": [
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-10-29",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "found that the scouts had been deceived by the uncertain light, and had mistaken openings in the trees for a row of tents."
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-10-29",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "and thus Colonel Devens was deprived of the means of obtaining warning of any approach of the enemy."
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-10-29",
+          "locator": "p.298 (OCR page markers; not checked against print)",
+          "quote": "and entirely unsuspicious of the perilous condi- tion of our troops on the right."
+        },
+        {
+          "source_id": "or5-evans-balls-bluff-selections-v1",
+          "section": "evans-1861-10-31",
+          "locator": "p.349 (OCR page markers; not checked against print)",
+          "quote": "who had discovered that at an unguarded iioint the enemy had effected a crossing in force of five companies"
+        },
+        {
+          "source_id": "or5-evans-balls-bluff-selections-v1",
+          "section": "evans-1861-10-31",
+          "locator": "p.349 (OCR page markers; not checked against print)",
+          "quote": "the courier of General McCall was captured, bearing dispatches to General Meade to examine the roads leading to Leesburg."
+        },
+        {
+          "source_id": "or5-evans-balls-bluff-selections-v1",
+          "section": "evans-1861-10-31",
+          "locator": "p.349 (OCR page markers; not checked against print)",
+          "quote": "At about 10 o’clock I became convinced that the main point of attack would be at Ball’s Bluff*,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "demonstration-or-leesburg",
+      "dimension": "objectives",
+      "value": "Stone says his orders were to make a demonstration to draw out the enemy's intentions at Leesburg, that Devens was to raid a supposed camp and return, and that Baker had discretion to withdraw or reinforce but was to advance only against an inferior force and not beyond Leesburg; his order found in Baker's hat allowed pushing to a strong position near Leesburg. NPS describes an attempt to cross and capture Leesburg. Evans ordered his regiments to drive the enemy to the river.",
+      "rationale": "The summary's 'capture Leesburg' and Stone's stated limits differ; Stone's accounts were written under criticism.",
+      "citations": [
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-10-29",
+          "locator": "p.293 (OCR page markers; p.293 inferred: the running head '293' precedes the section heading in OCR; not checked against print)",
+          "quote": "to make a demonstration to draw out the intentions of the enemy at Leesburg,"
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-10-29",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "to attack and destroy it at daybreak,"
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-10-29",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "unless the enemy were in inferior force, and under no circumstances to pass beyond Leesburg,"
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-11-02",
+          "locator": "p.303 (OCR page markers; not checked against print)",
+          "quote": "you may do so as far as to have a strong position near Leesburg,"
+        },
+        {
+          "source_id": "nps-va006-v1",
+          "locator": "Description",
+          "quote": "a badly coordinated attempt by Union forces under Brig. Gen. Charles P. Stone to cross the Potomac at Harrison's Island and capture Leesburg."
+        },
+        {
+          "source_id": "or5-evans-balls-bluff-selections-v1",
+          "section": "evans-1861-10-31",
+          "locator": "p.349 (OCR page markers; not checked against print)",
+          "quote": "and to drive the enemy to the riv^r;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen and live commanders are Brigadier General Nathan Evans and Brigadier General Charles P. Stone, and the frozen list adds Colonel Edward Baker. Stone says he gave Baker entire control on the right with discretion to withdraw or cross, and in his November 2 letter blames Baker for determining to bring on an action, mishandling the crossing and posting; he says Baker replied 'I shall not retire.' Baker was killed about 4 p.m. Evans directed his regiments into the fight, says Jenifer commanded only the first five companies, and says Stone was superseded by Banks at 3 a.m. on the 22nd.",
+      "rationale": "Stone's attribution of fault to Baker is an interested account written under newspaper attack; Baker left no report in the inspected pages. No listed commander receives automatic sole credit or blame.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA006",
+            "belligerent": "Confederate",
+            "fullname": "Nathan Evans"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA006",
+            "belligerent": "US",
+            "fullname": "Charles P. Stone"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA006",
+            "belligerent": "US",
+            "fullname": "Edward Baker"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-10-29",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "gave him entire con- trol of operations on the right."
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-11-02",
+          "locator": "p.302 (OCR page markers; not checked against print)",
+          "quote": "The plain truth is that this brave and impetuous officer was determined at all hazards to bring on an action, and made use of the discretion allowed him to do it."
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-11-02",
+          "locator": "p.301 (OCR page markers; not checked against print)",
+          "quote": "I shall not retire,"
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-11-02",
+          "locator": "p.300 (OCR page markers; not checked against print)",
+          "quote": "The persistent attacks made upon me by the friends (so called), of the lamented late Colonel Baker, through the newspax)er press,"
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-10-29",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "At about 4 p. m. Colonel Baker, pierced by a number of bullets, fell at the front of his command"
+        },
+        {
+          "source_id": "or5-evans-balls-bluff-selections-v1",
+          "section": "evans-1861-10-31",
+          "locator": "p.349 (OCR page markers; not checked against print)",
+          "quote": "at 2.30 o’clock p. m. ordered Colonel Burt to march his regiment, the Eighteenth Mississipx:>i, and attack the left flank of the enemy,"
+        },
+        {
+          "source_id": "or5-evans-balls-bluff-selections-v1",
+          "section": "evans-1862-03-07",
+          "locator": "p.352 (OCR page markers; not checked against print)",
+          "quote": "Colonel Jenifer was never placed in command of any other troops but the five companies first engaged."
+        },
+        {
+          "source_id": "or5-evans-balls-bluff-selections-v1",
+          "section": "evans-1861-10-31",
+          "locator": "p.351 (OCR page markers; not checked against print)",
+          "quote": "General 0. P. Stone commanded the Federal forces until 3 o^clock on the morning of the 22d, when he was superseded by Maj. Gen. N. P. Banks."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Evans says his charge drove the enemy into the river and that the force at Ball's Bluff surrendered at 8 p.m.; Stone says the troops fought at the bluff until the boats were gone and then swam, surrendered or hid; NPS calls it a Union rout. NPS's statement that the rout led to the Joint Committee on the Conduct of the War is political contribution, not tactical outcome.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA006"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va006-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or5-evans-balls-bluff-selections-v1",
+          "section": "evans-1861-10-31",
+          "locator": "p.349 (OCR page markers; not checked against print)",
+          "quote": "I ordered ray entire force to charge and to drive him into the river."
+        },
+        {
+          "source_id": "or5-evans-balls-bluff-selections-v1",
+          "section": "evans-1861-10-31",
+          "locator": "p.350 (OCR page markers; not checked against print)",
+          "quote": "At 8 o’clock p. m. the enemy surrendered his forces at Bali’s Bluff,"
+        },
+        {
+          "source_id": "or5-stone-balls-bluff-selections-v1",
+          "section": "stone-1861-10-29",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "The smaller boats had disappeared, no one knew where."
+        },
+        {
+          "source_id": "nps-va006-v1",
+          "locator": "Description",
+          "quote": "This Union rout had severe political ramifications in Washington"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty fields read 1,070 (US 921; CS 149); NPS says more than 700 Federals were captured and Baker killed. Evans puts the enemy's loss at 1,300 killed, wounded and drowned, with 710 prisoners, three guns and 1,500 stand of arms taken; his own loss statement is omitted from the printed report and referred to a separate return.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Evans's report covers October 21-22; the Edwards Ferry action is not added to the Ball's Bluff record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA006"
+          },
+          "column": "casualties_text",
+          "quote": "1,070 total (US 921; CS 149)"
+        },
+        {
+          "source_id": "nps-va006-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1070 total (US 921; CS 149;)"
+        },
+        {
+          "source_id": "nps-va006-v1",
+          "locator": "Description",
+          "quote": "More than 700 Federals were captured."
+        },
+        {
+          "source_id": "or5-evans-balls-bluff-selections-v1",
+          "section": "evans-1861-10-31",
+          "locator": "p.350 (OCR page markers; not checked against print)",
+          "quote": "1,300 killed, wounded, and drowned; captured 710 prisoners, 1,500 stand of arms, three pieces of cannon, one stand of colors,"
+        },
+        {
+          "source_id": "or5-evans-balls-bluff-selections-v1",
+          "section": "evans-1861-10-31",
+          "locator": "p.350 (OCR page markers; not checked against print)",
+          "quote": "Statement omitted is tabulated in report No. 22, p. 353."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The Union casualty return (No. 3, total 921 as printed) and the Confederate return (No. 22) were read but not selected; McClellan's report, the regimental reports (Devens, Hinks, Palfrey, Cogswell, Wistar and others), Buxton's strength report, and Barksdale's, Featherston's, Hunton's, Jenifer's and the other Confederate reports remain deferred.",
+    "NPS/CWSAC is one family. Stone's October 29 report, November 2 letter and November 6 memoranda (Official Records Series I, Volume V) are one family of interested Union accounts, written in part to answer newspaper criticism. Evans's October 31, 1861 report and March 7, 1862 letter (same volume) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge. No Scribner Campaigns of the Civil War volume narrating this engagement was inspected; Nicolay's volume ends in July 1861.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
