@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 902ed690-f23d-4881-a786-07d7716d675d",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit c08ab6f1c424772520144afa9ab146dc9bafb77a; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T19:49:21Z",
+  "prepared_commit": "11d4bc3168b83917a8efc233bf8d0bdc9ccbf372",
+  "bundle_commit": "c08ab6f1c424772520144afa9ab146dc9bafb77a",
+  "assignment_sha256": "cb656f37f0ca680d419742d2802a2ad04e96ee317fc77a13dfd2107c474625e3",
+  "inputs_manifest_sha256": "20dd666ac4408478002a6f1f08bccd5a047de96185b320a9a546a31f458959d0",
+  "num_turns": 59,
+  "duration_ms": 676368,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** Three findings need corrections: R1, R2 and R3. There are also six advisories, A1–A6.\n\n**Review path:** `artifacts/review-results/v2est-b8-11d4bc3-opus-high-v1/review.md`. It is the only file I wrote; nothing was committed or pushed.\n\nAll 25 input hashes in `inputs.json` match at the prepared commit `11d4bc3`, and the assignment and manifest hashes match too. `make check` passed (143 tests), and the `estimate-check` replay of the v2 ledger passed. One naming difference: the assignment calls the addendum `docs/ledgers-v2.md`, but `inputs.json` binds `docs/research/ledgers-v2.md`. I read both; the ledger's own bindings, verified by `estimate-check`, cover `docs/ledgers-v2.md`.\n\n**Required corrections:**\n- **R1 – NC020 Bentonville, US, `us-johnston-44000`.** Johnston's \"near 44,000, including losses\" adds losses the passage doesn't date, so `loss_timing` should be `not_prior`, not `none`.\n  - The point stays 33,000 (22,000–44,000), but the US side gains the `post_start_information` label and the row drops out of the fits.\n  - Ledger totals change: rows excluded as post-start go from 20 to 21, and A–C fit-eligible rows from 130 to 129. The extraction memo's table needs the same update.\n- **R2 – GA028 Fort McAllister II, Confederate, `cs-hazen-garrison`.** Hazen's 250 (\"The captures were as follows: The garrison, including killed…\") counts this engagement's captured and killed.\n  - It should be codes `[]`, `loss_timing` `not_prior`, class C, as in the v1 surrender-count entries TN006 and WV010. It is currently `post_outcome_claim` (unusable), but that code needs a claim tagged `post_outcome`, and this claim isn't.\n  - The estimate doesn't change.\n- **R3 – SC010 Honey Hill, Confederate, `cs-sc-reserves`.** The ledger reads the OCR \"3o0\" as 350, which the tier-2 rule on unreadable figures doesn't allow. The passage also shows these reserves arrived at midnight, after the action.\n  - Remove the input and record it in the inventory with that reason, as Baker's 860 already is. The estimate doesn't change.\n\n**Advisories:**\n- **A1 – AL005 Spanish Fort, Canby's 32,200.** Canby's report shows part of this force moved to Blakely during the Spanish Fort interval, so it could be coded `other_engagement`. That would make the US side grade D.\n- **A2 – FL006 Natural Bridge, frozen Confederate 1,000.** It is coded as a part of the force (the Georgia reinforcements). If read as scope unresolved instead, the Confederate estimate becomes C 1,000 rather than C 1,310.\n- **A3 – \"near\" versus \"nearly\".** The ledger treats \"near N\" inconsistently across entries. If NC020's \"near 44,000\" were read as \"nearly\", the NC020 US side would become grade D.\n- **A4 – VA086 Dinwiddie Court House, `us-lv`.** Its `loss_timing` should be `prior_engagements_only`; there is no class effect.\n- **A5 – AL007 Selma, `us-jordan`.** The opponent-estimate code conflicts with the recorded policy for Jordan; there is no effect.\n- **A6 – Other batches.** GA001, LA010 and KY011 code surrender counts the same way as R2's input. They are outside my scope and I did not check them.\n\n**Finding IDs:** R1, R2, R3; A1, A2, A3, A4, A5, A6.\n\nThis is an AI review, not historical adjudication, feature admission or authorization of any fit."
+}

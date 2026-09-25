@@ -83,7 +83,9 @@ campaigns), researched by complete campaign, main 1864–65 armies first. Covera
 explicit unknowns, 11,976 citations, 660 disputed claims) each passed a separate Claude Opus 5.5
 `high` review in one of 19 campaign-batch reviews, and every required finding was checked and
 reconciled. They add 959 source records, 26 of them metadata-only review successors. Draft
-dossiers do not change model inputs. Shiloh's repeated source
+dossiers do not change model inputs. Reviewed v2 successors of the strength and command ledgers
+([record](docs/research/ledgers-v2.md)) cover 305 engagements; a v2 rating run awaits the owner's
+authorization. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.

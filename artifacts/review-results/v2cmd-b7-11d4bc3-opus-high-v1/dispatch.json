@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 0502339d-a7f4-45e3-9eb4-d1b80bc7bca8",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 4ad2dc29f803ebc1ca151bd5b8239dcf6c6a8649; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T19:49:18Z",
+  "prepared_commit": "11d4bc3168b83917a8efc233bf8d0bdc9ccbf372",
+  "bundle_commit": "4ad2dc29f803ebc1ca151bd5b8239dcf6c6a8649",
+  "assignment_sha256": "4e729703a1000cebc15753318c44efde3d429dc56288433c85548811c5020eae",
+  "inputs_manifest_sha256": "20dd666ac4408478002a6f1f08bccd5a047de96185b320a9a546a31f458959d0",
+  "num_turns": 57,
+  "duration_ms": 968753,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** Three findings need changes (F1, F2, F3) and six are advisories (A1–A6). The other 47 of the 50 sides need no change.\n\n**Review path:** `artifacts/review-results/v2cmd-b7-11d4bc3-opus-high-v1/review.md` (sha256 `429c4a47273e030682eec0d489d5e6e44c3ec4fbacf54fefa5f54a0ee1eccad2`). It is the only file written. It is uncommitted and nothing was pushed.\n\n**Required corrections:**\n- **F1, Glasgow (MO022), Confederate side.** The ledger chooses Shelby at grade A, but no passage shows him commanding the side's engaged forces:\n  - Price sent two co-equal detachments. Clark's was to capture the town and Shelby's was \"to divert the attention of the enemy\".\n  - Britton describes the arrangement as a plan made above both brigadiers.\n  - Shelby fired first only because Clark's river crossing was delayed. No command passed between them.\n\n  The fix is rule 3(c): grade D, no chosen commander, labelled unresolved, with Clark and Shelby as candidates. Price stays as the directing superior. The review gives the exact field changes, a new citation (checked verbatim against the source) and a replacement rationale.\n- **F2, Saltville (VA076), Confederate side.**\n  - The candidate \"Breckinridge\" is matched to the listed John C. Breckinridge on surname alone. The Saltville passages give no initials, and the addendum forbids surname-only merges. The fix is a new passage-only registry entry, `cs-breckinridge`, citing Gardner's \"paroled by Major-General Breckinridge\", plus rebinding the registry hash.\n  - The rationale also says both of Jackson's dispatches are addressed to Echols. Only the October 1 dispatch is; the October 2 one is addressed to Capt. H. T. Stanton. Replacement text is given.\n- **F3, Johnsonville (TN032), US side.** The rationale says \"Lieutenant Commander\" is not in the declared navy rank order. It is, both in the ledger's own rank order and in `RANK_ORDER_V2`. Replacement text is given.\n\n**Advisories:**\n- **A1:** Torbert's corps-level echelon at Tom's Brook (VA121) is inferred, not stated in a passage.\n- **A2:** Burbridge also names Williams and Vaughn at Saltville, but they are not recorded as candidates. The frozen description also dates the attack to October 1 against the October 2 interval.\n- **A3:** Keep visible the alternative reading that would give Thompson at grade C at Johnsonville (TN032).\n- **A4:** At Little Blue River (MO024), Britton has a more direct passage on Curtis's command that could be cited.\n- **A5:** Mine Creek, Marais des Cygnes and Marmiton River (KS003, KS004, MO028) share one date, so the checker records no nesting outcome for them.\n- **A6:** A fallback for Glasgow (MO022) if F1 is rejected.\n\n**Checks:**\n- All 25 input hashes match the prepared commit `11d4bc3`, with no mismatches. The bundle commit `4ad2dc2` adds only review assignments.\n- `make check` passed all 143 tests, and `command-check` exited 0.\n- The assignment calls the addendum `docs/ledgers-v2.md`, but the manifest binds `docs/research/ledgers-v2.md`. I read both. The ledger binds the first.\n- The design doc, `command.py` and the v1 memo are not in the manifest, so their hashes are recorded in the review.\n\nThis is a separate AI analysis within the scope stated in the review. It is not human historical adjudication and does not admit any feature or authorize a fit or rating run.\n\n**Finding IDs:** F1, F2, F3, A1, A2, A3, A4, A5, A6"
+}

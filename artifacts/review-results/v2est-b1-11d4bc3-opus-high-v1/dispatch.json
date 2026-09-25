@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session ca854b16-d6b8-466c-9a7d-c9a9527a9ebf",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit eddd8313723e0bf2ea9ff5be80a577dc43484588; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T19:49:21Z",
+  "prepared_commit": "11d4bc3168b83917a8efc233bf8d0bdc9ccbf372",
+  "bundle_commit": "eddd8313723e0bf2ea9ff5be80a577dc43484588",
+  "assignment_sha256": "c4dd654c8b84d13382f20b0be724d579a93b93f7c0c0ee80040dfdaae73995d7",
+  "inputs_manifest_sha256": "20dd666ac4408478002a6f1f08bccd5a047de96185b320a9a546a31f458959d0",
+  "num_turns": 57,
+  "duration_ms": 1157065,
+  "terminal_reason": "completed",
+  "returned_message": "I reviewed batch 1 of the v2 strength ledger (28 engagements, both sides). The outcome is **corrections required**: two required findings (R1, R2) and eleven advisories (A1–A11).\n\n**Review file:** `artifacts/review-results/v2est-b1-11d4bc3-opus-high-v1/review.md`\n\nAll 25 input hashes match the prepared commit `11d4bc3`, the assignment and `inputs.json` hashes match, and nothing under `docs/`, `generalship/` or `data/` differs between `11d4bc3` and HEAD `eddd831`. `make check` passed (143 tests) and `estimate-check --ledger data/estimates/side-strength-v2.json` exited 0. The review file is the only change in the worktree; nothing was committed or pushed.\n\n**What I inspected:** all 204 inputs and 249 dossier strength citations for the batch, with the surrounding text for every figure that sets or bounds an estimate, plus the frozen CWSAC rows. Only Manassas (VA005, p.77) and Wilson's Creek (MO004, p.78) have Livermore entries; their transcribed figures match the page images.\n\n**Required corrections:**\n- **R1, WV003 Rich Mountain, US:** change `us-pegram-3000-hart` basis from `unknown` to `reported_engaged`. Pegram's addendum describes the same 3,000 as \"their force engaged at Hart's, as before mentioned, three thousand.\" As coded, one figure counts twice on two bases. After the change, `high` falls from 3,000 to 2,470 and the side gains `single_input`; grade and point are unchanged.\n- **R2, MO004 Wilson's Creek, US:** add Frémont's 8,000 from Livermore's p.78 note 1 as input `us-lv-fremont-8000` (class B, basis unknown). \"Livermore rejects it\" is not a non-use ground under the design, and this batch enters other disputed figures. After the change, `high` rises from 7,480 to 9,200; grade B and point 5,400 are unchanged.\n\n**Advisories:**\n- **A1 (KY003):** linking the CWSAC 1,010 to Williams's figure would move the Confederate side from grade A to B. Linking practice is uneven: other batches link such figures, this batch declines.\n- **A2 (VA005):** the live NPS cell of 3,230 is left out as a \"display error\", a reason outside the design's codes. Entering it would drop the Confederate `low` to about 3,070.\n- **A3–A10** cover code naming for surrender counts, basis consistency (\"all told\"), and state-time and note wording.\n- **A11** lists implausible-looking results that follow from the rules rather than from coding errors.\n\nThe seven grade D sides have accurate reasons and no missed usable figure.\n\n**Finding IDs:** R1, R2 (required); A1–A11 (advisory)."
+}

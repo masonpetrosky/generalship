@@ -2,7 +2,7 @@
  "schema_version": 1,
  "version": 2,
  "kind": "side_strength_estimate_ledger",
- "status": "extracted_not_reviewed_not_fitted",
+ "status": "reviewed_reconciled_not_fitted",
  "bindings": {
   "design": {
    "path": "docs/strength-estimates.md",
@@ -10,7 +10,7 @@
   },
   "addendum": {
    "path": "docs/ledgers-v2.md",
-   "sha256": "a7e05ddfc072c493f8f9152064e444e4b285e070a7dfcdbd279e80fc4aa49eb1"
+   "sha256": "9076d96bd317568f6bf976d1a63f7696a7d7abc22b3f72597af96701ee1ec2ee"
   },
   "script": {
    "path": "generalship/estimates_v2.py",
@@ -4228,7 +4228,7 @@
        "bound": null,
        "document_key": "a9266a11f37f77354e712b38766a5698a8980d8d92c48ac6e9c17b142b1c6a45",
        "independence_group": "canby-mobile-1865-reports",
-       "note": "army assembled at Mobile Point and Dauphin Island in mid-March; Canby names only part of it as engaged at Spanish Fort",
+       "note": "army assembled at Mobile Point and Dauphin Island in mid-March; Canby names only part of it as engaged at Spanish Fort. The same section records transfers within the interval to the Blakely investment (AL006): Veatch's division withdrawn on the 30th and ordered to report to Steele, and Garrard's Sixteenth Corps division ordered in on April 3; not coded other_engagement because those divisions began the interval at Spanish Fort",
        "class": "C"
       }
      ],
@@ -4771,7 +4771,6 @@
        },
        "basis": "unknown",
        "codes": [
-        "adversary_or_hearsay_estimate",
         "one_sided_bound"
        ],
        "loss_timing": "none",
@@ -4779,7 +4778,7 @@
        "bound": "lower",
        "document_key": "3c007e84a5d3f5591c986c36b3d4658761d171caef86dcad0ac93edabee79cba",
        "independence_group": "jordan-pryor-forrest-1868",
-       "note": "Jordan and Pryor: Wilson's other divisions 'still at least 9000 strong' (April 1)",
+       "note": "Jordan and Pryor: Wilson's other divisions 'still at least 9000 strong' (April 1); the compilers' own narrative statement (compiled role, v1 policy)",
        "class": "bound"
       },
       {
@@ -5275,7 +5274,8 @@
        "bound": null,
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "note 2: 'This probably was the effective force'",
+       "note": "note 2: 'This probably was the effective force'. The page image's source line 'c 8 W. R., 285' (not in the transcription) points to Van Dorn's p.285 'less than 14,000' (cs-vd-14000), so it is linked as its reproduction (review R5)",
+       "reproduction_of": "cs-vd-14000",
        "class": "A"
       },
       {
@@ -5381,13 +5381,13 @@
       }
      ],
      "estimate": {
-      "grade": "B",
-      "point": 14000,
-      "low": 11900,
+      "grade": "C",
+      "point": 16000,
+      "low": 11200,
       "high": 25000,
       "exact": {
-       "point": "14000",
-       "low": "11900",
+       "point": "16000",
+       "low": "11200",
        "high": "25000"
       },
       "point_basis": "unknown",
@@ -5395,16 +5395,13 @@
       "labels": [
        "applicability_unresolved",
        "basis_mixed",
-       "compiled_dependence",
-       "derivation_unknown",
        "whole_engagement_leakage"
       ],
       "point_groups": [
-       "cs-lv"
+       "cs-vd-16000"
       ],
       "range_groups": [
        "cs-curtis-range",
-       "cs-lv",
        "cs-vd-16000"
       ]
      }
@@ -5447,14 +5444,13 @@
       "us-lv",
       "cs-lv"
      ],
-     "reason": "Livermore dates the entry March 7; the frozen interval is March 6-8. The figures are whole-army strengths for this battle, so no interval code is added (judgment call). Note 1 figures not entered: the artillery 'estimated at 1000' and Major Conrad's detachment of 250 deducted are components of his estimate; Livermore's 'apparently' (note 1) and 'probably' (note 2) effective are taken as the stated basis."
+     "reason": "Livermore dates the entry March 7; the frozen interval is March 6-8. The figures are whole-army strengths for this battle, so no interval code is added (judgment call). Note 1 figures not entered: the artillery 'estimated at 1000' and Major Conrad's detachment of 250 deducted are components of his estimate; Livermore's 'apparently' (note 1) and 'probably' (note 2) effective are taken as the stated basis. Source lines on the page image, not in the transcription: 'a 8 W. R., 196, 554' for the Union figure (Curtis p.196: 11,250 is Livermore's own derivation from Curtis's 'not more than 10,500' cavalry and infantry, different value, not linked) and 'c 8 W. R., 285' for the Confederate figure (Van Dorn p.285, 'less than 14,000'; cs-lv linked to cs-vd-14000, review R5)."
     },
     "dossier_quantities": []
    },
-   "rationale": "Union: the NPS engaged cell sets the point; Livermore's effective 11,250 is on another basis. Confederate: the NPS cell and Livermore's equal 14,000 form one compiled group with basis unknown (grade B).",
+   "rationale": "Union: the NPS engaged cell sets the point; Livermore's effective 11,250 is on another basis. Confederate: Livermore's 14,000 reproduces Van Dorn's 'less than 14,000' (page-image source line), and the equal NPS cell joins that group, which is therefore bound-only (rule 2); Van Dorn's 'about 16,000' for his whole command sets the point (grade C, link to the engagement unresolved).",
    "nested": {
     "sets": [
-     "set2_AB",
      "set3_ABC"
     ],
     "excluded_post_start_information": false
@@ -6314,7 +6310,6 @@
       "point_basis": "unknown",
       "method": "rule3_median",
       "labels": [
-       "basis_mixed",
        "compiled_dependence",
        "single_input",
        "whole_engagement_leakage"
@@ -6351,7 +6346,8 @@
        "bound": null,
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "",
+       "note": "source line 'c 32 W. R., 140' on the page image: Hindman p.140 'less than 10,000' (review R6)",
+       "reproduction_of": "cs-hind-lt10000",
        "class": "B"
       },
       {
@@ -6461,30 +6457,20 @@
       }
      ],
      "estimate": {
-      "grade": "B",
-      "point": 10000,
-      "low": 8500,
-      "high": 10000,
-      "exact": {
-       "point": "10000",
-       "low": "8500",
-       "high": "10000"
-      },
-      "point_basis": "unknown",
-      "method": "rule3_median",
+      "grade": "D",
+      "point": null,
+      "low": null,
+      "high": null,
+      "exact": null,
+      "point_basis": null,
+      "method": "grade_D_no_candidate",
       "labels": [
-       "basis_mixed",
-       "compiled_dependence",
-       "single_input",
        "whole_engagement_leakage"
       ],
-      "point_groups": [
-       "cs-lv"
-      ],
-      "range_groups": [
-       "cs-lv"
-      ]
-     }
+      "point_groups": [],
+      "range_groups": []
+     },
+     "null_reason": "No candidate value: Livermore's 10,000 reproduces Hindman's 'less than 10,000' (bound only); the other figures are marching components from before the battle or an opponent's one-sided estimate."
     }
    },
    "inventory": {
@@ -6527,16 +6513,13 @@
       "us-lv-divs",
       "cs-lv"
      ],
-     "reason": "Entered: both entry lines and the note 3 figures 13,175, about 11,000 and about 5100. Not entered: note 3's 3000 cavalry not engaged (included in the 10,000), 12 regiments / 7 batteries / 11 regiments / 150 militia (formation counts) and 7534 (the two divisions before the march, superseded by 5100); note 4's '700 to 1000' possibly to be added for officers (a conjecture, not a count). p96 carries only the Confederate loss line (not transcribed). Livermore's Confederate 10,000 may relay Hindman's 'less than 10,000'; its source line is not transcribed (judgment call)."
+     "reason": "Entered: both entry lines and the note 3 figures 13,175, about 11,000 and about 5100. Not entered: note 3's 3000 cavalry not engaged (included in the 10,000), 12 regiments / 7 batteries / 11 regiments / 150 militia (formation counts) and 7534 (the two divisions before the march, superseded by 5100); note 4's '700 to 1000' possibly to be added for officers (a conjecture, not a count). p96 carries only the Confederate loss line (not transcribed). Page-image source lines (not in the transcription): 'a 32 W. R., 76' (Union), 'c 32 W. R., 140' (Confederate). Livermore's Confederate 10,000 cites p.140, where Hindman's 'less than 10,000 men of all arms' stands (cs-hind-lt10000), so cs-lv is linked as its reproduction (review R6)."
     },
     "dossier_quantities": []
    },
-   "rationale": "Both sides from Livermore's 10,000 (basis unknown, grade B); Hindman's own 'less than 10,000' caps the Confederate high.",
+   "rationale": "Union from Livermore's 10,000 (basis unknown). Confederate grade D: Livermore's 10,000 reproduces Hindman's one-sided 'less than 10,000' (page-image source line), so the group is bound-only (rule 2; review R6).",
    "nested": {
-    "sets": [
-     "set2_AB",
-     "set3_ABC"
-    ],
+    "sets": [],
     "excluded_post_start_information": false
    }
   },
@@ -7340,15 +7323,16 @@
        },
        "basis": "unknown",
        "codes": [
-        "post_outcome_claim"
+        "one_sided_bound",
+        "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "upper",
        "document_key": "5bc623a1f0b870b5b4da19549f33c34f29c87b81900dbc2501c75b3fdc8dfab0",
        "independence_group": "cabell-devils-backbone-1863-report",
-       "note": "after the action",
-       "class": "unusable"
+       "note": "after the action; the claim is not tagged post-outcome, so a post-engagement state (cross-batch convention)",
+       "class": "bound"
       }
      ],
      "estimate": {
@@ -7873,7 +7857,6 @@
       "method": "rule4_opponent_only",
       "labels": [
        "applicability_unresolved",
-       "basis_mixed",
        "opponent_estimate_point",
        "single_input",
        "whole_engagement_leakage"
@@ -7902,40 +7885,33 @@
         "upper": 1200
        },
        "basis": "reported_engaged",
-       "codes": [],
+       "codes": [
+        "partial_interval"
+       ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "77a4ceda249b4b010d142bf5bc7bdc94c27072a28b964f1f28a3ba9e2c4a27cb",
        "independence_group": "price-camden-1864-report",
-       "note": "Price: 'only some 1,200 men actually engaged' on April 4",
-       "class": "A"
+       "note": "Price: 'only some 1,200 men actually engaged' in the April 4 attack; the frozen record also covers April 3, when Britton describes Confederate skirmishing at the ford",
+       "class": "bound"
       }
      ],
      "estimate": {
-      "grade": "A",
-      "point": 1200,
-      "low": 1140,
-      "high": 1260,
-      "exact": {
-       "point": "1200",
-       "low": "1140",
-       "high": "1260"
-      },
-      "point_basis": "reported_engaged",
-      "method": "rule3_median",
+      "grade": "D",
+      "point": null,
+      "low": null,
+      "high": null,
+      "exact": null,
+      "point_basis": null,
+      "method": "grade_D_no_candidate",
       "labels": [
-       "basis_mixed",
-       "single_input",
        "whole_engagement_leakage"
       ],
-      "point_groups": [
-       "cs-price-1200"
-      ],
-      "range_groups": [
-       "cs-price-1200"
-      ]
-     }
+      "point_groups": [],
+      "range_groups": []
+     },
+     "null_reason": "No whole-interval candidate: Price's 1,200 engaged is limited to the April 4 attack, while the frozen record (April 3–4) includes the April 3 skirmishing at the ford that Britton describes; recorded as a lower bound (not applied)."
     }
    },
    "inventory": {
@@ -7960,11 +7936,9 @@
     "livermore": null,
     "dossier_quantities": []
    },
-   "rationale": "Union only from Price's pre-interval estimate of Steele's column (rule 4). Confederate from Price's own engaged count.",
+   "rationale": "Union only from Price's pre-interval estimate of Steele's column (rule 4). Confederate grade D: Price's engaged count covers April 4 only.",
    "nested": {
-    "sets": [
-     "set3_ABC"
-    ],
+    "sets": [],
     "excluded_post_start_information": false
    }
   },
@@ -10050,7 +10024,7 @@
     "livermore": null,
     "dossier_quantities": []
    },
-   "rationale": "Union from the frozen 1,573 (Brannan's printed total). No Confederate whole-side figure.",
+   "rationale": "Union from the frozen 1,573, which equals Brannan's printed total (not linked: equal value alone). No Confederate whole-side figure.",
    "nested": {
     "sets": [],
     "excluded_post_start_information": false
@@ -10232,14 +10206,16 @@
         "upper": 5500
        },
        "basis": "unknown",
-       "codes": [],
+       "codes": [
+        "one_sided_bound"
+       ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "upper",
        "document_key": "ddcf6637787559dc25003d8aa7f0fdbfd19a5559a862194282ce3083f10b285d",
        "independence_group": "seymour-olustee-reports",
-       "note": "Seymour's own count of the command that left Barber's on the morning of February 20",
-       "class": "B"
+       "note": "'near 5,500' read as nearly, a one-sided bound (cross-batch convention); Seymour's own count of the command that left Barber's on the morning of February 20",
+       "class": "bound"
       },
       {
        "id": "us-finegan-inf",
@@ -10298,25 +10274,25 @@
       "grade": "A",
       "point": 5120,
       "low": 4860,
-      "high": 5780,
+      "high": 5370,
       "exact": {
        "point": "5115",
        "low": "19437/4",
-       "high": "5775"
+       "high": "21483/4"
       },
       "point_basis": "reported_effective",
       "method": "rule3_median",
       "labels": [
        "basis_mixed",
        "compiled_dependence",
+       "single_input",
        "whole_engagement_leakage"
       ],
       "point_groups": [
        "us-lv"
       ],
       "range_groups": [
-       "us-lv",
-       "us-seymour"
+       "us-lv"
       ]
      }
     },
@@ -11011,15 +10987,15 @@
        },
        "basis": "unknown",
        "codes": [
-        "post_outcome_claim"
+        "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
        "bound": null,
        "document_key": "8925d3ad7807e3ea77d43784c00ac2fa188ea5ab6ddd272789c0ab653f462ccd",
        "independence_group": "gillmore-petersburg-june-9-report",
-       "note": "count of the garrison found at the surrender; unusable",
-       "class": "unusable"
+       "note": "count of the garrison found at the surrender on April 11, after the frozen start (April 10); the claim is not tagged post_outcome (review R3)",
+       "class": "C"
       },
       {
        "id": "cs-jones-385",
@@ -11099,7 +11075,7 @@
     "livermore": null,
     "dossier_quantities": []
    },
-   "rationale": "No Union count. Confederate from Jones's compiled garrison strength; Gillmore's equal figure is a surrender count (unusable).",
+   "rationale": "No Union count. Confederate from Jones's compiled garrison strength; Gillmore's equal figure is a count at the surrender (post-start, class C, not used for the point or range).",
    "nested": {
     "sets": [],
     "excluded_post_start_information": false
@@ -11859,14 +11835,15 @@
        },
        "basis": "unknown",
        "codes": [
-        "adversary_or_hearsay_estimate"
+        "adversary_or_hearsay_estimate",
+        "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
        "bound": null,
        "document_key": "a433b417ac6bddfad346ca8400c7d8f1bcf831719ac30df91249332ec206bea2",
        "independence_group": "thomas-mill-springs-report",
-       "note": "refugee Gladden's statement forwarded by Thomas (hearsay), dated about February 20",
+       "note": "refugee Gladden's statement forwarded by Thomas (hearsay); he reports the Buzzard Roost and Rocky Face fighting of February 24–25 and the return of the forces sent toward Mobile, so the state is after the frozen start",
        "class": "C"
       },
       {
@@ -11936,6 +11913,7 @@
       "method": "rule4_opponent_only",
       "labels": [
        "opponent_estimate_point",
+       "post_start_information",
        "single_input",
        "whole_engagement_leakage"
       ],
@@ -11972,10 +11950,10 @@
     "livermore": null,
     "dossier_quantities": []
    },
-   "rationale": "No Union count. Confederate only from a refugee's hearsay figure (rule 4); Johnston's December returns are earlier and partial.",
+   "rationale": "No Union count. Confederate only from a refugee's post-start hearsay figure (rule 4); Johnston's December returns are earlier and partial.",
    "nested": {
     "sets": [],
-    "excluded_post_start_information": false
+    "excluded_post_start_information": true
    }
   },
   {
@@ -12379,6 +12357,7 @@
        "cs-johnston-cav",
        "cs-wheeler-2200",
        "Johnston's opponent figures (Missionary Ridge army 'then 80,000' plus unstated reinforcements; Wheeler's estimate of 15,000 Union cavalry) are partial components, not side totals; not entered",
+       "Cox's April 30 table components 4,527 officers and 48,465 privates (citation 6) make up the 52,992 line, entered as its total; gun counts (254; 130, 96 and 28) are not people; Johnston's 'more than double' Wheeler's 2,200 is a relative opponent remark about part of the Union cavalry; not entered",
        "frozen forces text names the two armies; NPS zero display is not a count"
       ]
      }
@@ -12923,15 +12902,15 @@
        "basis": "reported_engaged",
        "codes": [
         "derived_from_losses",
-        "scope_unresolved"
+        "partial_scope"
        ],
        "loss_timing": "not_prior",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "June 30 effectives plus the June 27 casualties; Livermore's note 7: the assaulting troops only; troops all along the line 'engaged the enemy, but did not take part in the assault' (scope_unresolved against the whole-army frozen row)",
-       "class": "C"
+       "note": "June 30 effectives plus the June 27 casualties; Livermore's note 7: the assaulting troops only; 'The troops on both sides all along the line, and the Army of the Ohio in another field far to the right, engaged the enemy, but did not take part in the assault' (partial_scope: the source presents the figure as part of the side engaged)",
+       "class": "bound"
       },
       {
        "id": "us-lv-eff",
@@ -12950,16 +12929,16 @@
        },
        "basis": "reported_effective",
        "codes": [
-        "post_engagement_state",
-        "scope_unresolved"
+        "partial_scope",
+        "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "from June 30 returns, after the frozen date",
-       "class": "C"
+       "note": "from June 30 returns, after the frozen date; assaulting troops only (note 7)",
+       "class": "bound"
       },
       {
        "id": "us-lv-pfd",
@@ -12978,44 +12957,33 @@
        },
        "basis": "present_for_duty",
        "codes": [
-        "post_engagement_state",
-        "scope_unresolved"
+        "partial_scope",
+        "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "June 30 returns, after the frozen date",
-       "class": "C"
+       "note": "June 30 returns, after the frozen date; assaulting troops only (note 7)",
+       "class": "bound"
       }
      ],
      "estimate": {
-      "grade": "C",
-      "point": 16230,
-      "low": 11360,
-      "high": 21090,
-      "exact": {
-       "point": "16225",
-       "low": "22715/2",
-       "high": "42185/2"
-      },
-      "point_basis": "reported_engaged",
-      "method": "rule3_median",
+      "grade": "D",
+      "point": null,
+      "low": null,
+      "high": null,
+      "exact": null,
+      "point_basis": null,
+      "method": "grade_D_no_candidate",
       "labels": [
-       "applicability_unresolved",
-       "compiled_dependence",
-       "post_start_information",
-       "single_input",
        "whole_engagement_leakage"
       ],
-      "point_groups": [
-       "us-lv-engaged"
-      ],
-      "range_groups": [
-       "us-lv-engaged"
-      ]
-     }
+      "point_groups": [],
+      "range_groups": []
+     },
+     "null_reason": "No candidate value. Livermore's Kennesaw figures (16,225 engaged; 14,174 effectives; 15,241 present for duty, from June 30 returns) cover the assaulting troops only; his note 7 says troops all along the line and the Army of the Ohio also engaged the enemy (bounds only; post-start figures, not applied)."
     },
     "Confederate": {
      "inputs": [
@@ -13037,15 +13005,15 @@
        "basis": "reported_engaged",
        "codes": [
         "derived_from_losses",
-        "scope_unresolved"
+        "partial_scope"
        ],
        "loss_timing": "not_prior",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "June 30 effectives plus the June 27 losses; note 1: whether all the divisions named opened fire is not clear",
-       "class": "C"
+       "note": "June 30 effectives plus the June 27 losses; the divisions facing the assault, with half of French's and Walthall's (p.121 note 1: whether all the divisions named opened fire is not clear); p.120 note 7: troops on both sides all along the line engaged (partial_scope)",
+       "class": "bound"
       },
       {
        "id": "cs-lv-eff",
@@ -13064,16 +13032,16 @@
        },
        "basis": "reported_effective",
        "codes": [
-        "post_engagement_state",
-        "scope_unresolved"
+        "partial_scope",
+        "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
        "note": "",
-       "class": "C"
+       "class": "bound"
       },
       {
        "id": "cs-lv-pfd",
@@ -13092,44 +13060,33 @@
        },
        "basis": "present_for_duty",
        "codes": [
-        "post_engagement_state",
-        "scope_unresolved"
+        "partial_scope",
+        "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
        "note": "",
-       "class": "C"
+       "class": "bound"
       }
      ],
      "estimate": {
-      "grade": "C",
-      "point": 17730,
-      "low": 12410,
-      "high": 23050,
-      "exact": {
-       "point": "17733",
-       "low": "124131/10",
-       "high": "230529/10"
-      },
-      "point_basis": "reported_engaged",
-      "method": "rule3_median",
+      "grade": "D",
+      "point": null,
+      "low": null,
+      "high": null,
+      "exact": null,
+      "point_basis": null,
+      "method": "grade_D_no_candidate",
       "labels": [
-       "applicability_unresolved",
-       "compiled_dependence",
-       "post_start_information",
-       "single_input",
        "whole_engagement_leakage"
       ],
-      "point_groups": [
-       "cs-lv-engaged"
-      ],
-      "range_groups": [
-       "cs-lv-engaged"
-      ]
-     }
+      "point_groups": [],
+      "range_groups": []
+     },
+     "null_reason": "No candidate value. Livermore's 17,733 engaged, 17,301 effectives and 18,604 present for duty (June 30 returns) cover the divisions facing the assault, with half of French's and Walthall's (note 1); note 7 says troops on both sides all along the line engaged (bounds only; post-start figures, not applied)."
     }
    },
    "inventory": {
@@ -13164,12 +13121,10 @@
     },
     "dossier_quantities": []
    },
-   "rationale": "Livermore's assault figures only: built from June 30 returns (after the frozen date) with this day's losses added (post_start_information), and covering the assaulting troops, not the whole armies named in the frozen row (scope_unresolved).",
+   "rationale": "Livermore's assault figures only: built from June 30 returns (after the frozen date) with this day's losses added, and covering the assaulting troops, which his note 7 presents as one part of the troops that engaged that day (partial_scope). Both sides have bounds only.",
    "nested": {
-    "sets": [
-     "set3_ABC"
-    ],
-    "excluded_post_start_information": true
+    "sets": [],
+    "excluded_post_start_information": false
    }
   },
   {
@@ -14214,14 +14169,14 @@
        "codes": [
         "adversary_or_hearsay_estimate",
         "one_sided_bound",
-        "partial_scope"
+        "scope_unresolved"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": "lower",
+       "bound": null,
        "document_key": "bb6bef6c8af499244c67f034f2d7931e2f61f235772a043b74bec6cb176fccb5",
        "independence_group": "steedman-etowah-report",
-       "note": "Wheeler's whole raiding command in detachments, not the force at Dalton",
+       "note": "'not less than 6,000' for Wheeler's whole raiding command in detachments, larger than the force that attacked Dalton (Steedman: 3,000); not a part of the Dalton side",
        "class": "bound"
       }
      ],
@@ -14640,14 +14595,16 @@
         "upper": 23811
        },
        "basis": "reported_effective",
-       "codes": [],
+       "codes": [
+        "partial_interval"
+       ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "August 31: Lee's and Hardee's corps. The September 1 force was Hardee's corps alone (p.126: the same 14,071), part of this one, so the August 31 figure covers the side over both days",
-       "class": "A"
+       "note": "August 31 entry only (heading 'JONESBOROUGH, GA., AUGUST 31, 1864'): Lee's and Hardee's corps. The September 1 force was Hardee's corps alone (p.126: the same 14,071)",
+       "class": "bound"
       },
       {
        "id": "cs-lv-aug31-pfd",
@@ -14665,14 +14622,16 @@
         "upper": 25604
        },
        "basis": "present_for_duty",
-       "codes": [],
+       "codes": [
+        "partial_interval"
+       ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "",
-       "class": "A"
+       "note": "August 31 entry only",
+       "class": "bound"
       },
       {
        "id": "cs-lv-sep1-engaged",
@@ -14758,29 +14717,20 @@
       }
      ],
      "estimate": {
-      "grade": "A",
-      "point": 23810,
-      "low": 22620,
-      "high": 25000,
-      "exact": {
-       "point": "23811",
-       "low": "452409/20",
-       "high": "500031/20"
-      },
-      "point_basis": "reported_effective",
-      "method": "rule3_median",
+      "grade": "D",
+      "point": null,
+      "low": null,
+      "high": null,
+      "exact": null,
+      "point_basis": null,
+      "method": "grade_D_no_candidate",
       "labels": [
-       "compiled_dependence",
-       "single_input",
        "whole_engagement_leakage"
       ],
-      "point_groups": [
-       "cs-lv-aug31-eff"
-      ],
-      "range_groups": [
-       "cs-lv-aug31-eff"
-      ]
-     }
+      "point_groups": [],
+      "range_groups": []
+     },
+     "null_reason": "No candidate value. Livermore's August 31 entry (Lee's and Hardee's corps: 25,604 present for duty, 23,811 effectives) and September 1 entry (Hardee's corps: 14,071 present for duty, 13,086 effectives, 12,661 after August 31 losses) each cover one day of the two-day record (bounds only)."
     }
    },
    "inventory": {
@@ -14819,7 +14769,7 @@
     },
     "dossier_quantities": []
    },
-   "rationale": "Confederate: Livermore's August 31 effectives for Lee's and Hardee's corps, which include the September 1 force. Union: each Livermore entry covers one day and a different set of corps, and the entries may not be added (rule 6), so the side has bounds only.",
+   "rationale": "Confederate: Livermore's August 31 effectives for Lee's and Hardee's corps and his September 1 figures for Hardee's corps each cover one day of the two-day record (partial_interval), so the side has bounds only. Union: each Livermore entry covers one day and a different set of corps, and the entries may not be added (rule 6), so the side has bounds only.",
    "nested": {
     "sets": [],
     "excluded_post_start_information": false
@@ -14905,14 +14855,16 @@
         "upper": 1944
        },
        "basis": "unknown",
-       "codes": [],
+       "codes": [
+        "partial_scope"
+       ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "52b39e158580fef5b5b2e2d3e87eadfe08be74aafe6c725edc0fdebdb2134fb2",
        "independence_group": "corse-allatoona-reports",
-       "note": "Corse's October 27 aggregate: garrison 890 plus his detachment 1,054",
-       "class": "B"
+       "note": "Corse's October 27 aggregate: garrison infantry 890 (450 + 290 + 150; the Twelfth Wisconsin Battery is listed with 6 guns and no count) plus the detachment's infantry 1,054 (its listed companies sum to 970 in the OCR)",
+       "class": "bound"
       },
       {
        "id": "us-corse-1500",
@@ -14928,14 +14880,16 @@
         "upper": 1500
        },
        "basis": "unknown",
-       "codes": [],
+       "codes": [
+        "partial_scope"
+       ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "52b39e158580fef5b5b2e2d3e87eadfe08be74aafe6c725edc0fdebdb2134fb2",
        "independence_group": "corse-allatoona-reports",
-       "note": "Corse's October 7 'about 900 muskets' brought plus Tourtellotte's 'about 600'",
-       "class": "B"
+       "note": "Corse's October 7 'about 900 muskets' brought plus Tourtellotte's 'about 600': infantry muskets only",
+       "class": "bound"
       },
       {
        "id": "us-french-prisoners",
@@ -14967,11 +14921,11 @@
      "estimate": {
       "grade": "A",
       "point": 1940,
-      "low": 1430,
+      "low": 1850,
       "high": 2040,
       "exact": {
        "point": "1944",
-       "low": "1425",
+       "low": "9234/5",
        "high": "10206/5"
       },
       "point_basis": "reported_engaged",
@@ -14979,14 +14933,13 @@
       "labels": [
        "compiled_dependence",
        "derivation_unknown",
+       "single_input",
        "whole_engagement_leakage"
       ],
       "point_groups": [
        "us-cw"
       ],
       "range_groups": [
-       "us-corse-1500",
-       "us-corse-1944",
        "us-cw"
       ]
      }
@@ -15157,7 +15110,7 @@
     "livermore": null,
     "dossier_quantities": []
    },
-   "rationale": "Frozen CWSAC figures on the engaged basis; Corse's own 1,944 aggregate and 1,500 muskets have unstated bases (class B) and widen the Union range.",
+   "rationale": "Frozen CWSAC figures on the engaged basis (NPS repeats them). Corse's own 1,500 muskets and 1,944 aggregate count the infantry only; they are lower bounds on an unstated basis and do not apply to the engaged point.",
    "nested": {
     "sets": [
      "set1_A",
@@ -15767,16 +15720,14 @@
         "upper": 250
        },
        "basis": "unknown",
-       "codes": [
-        "post_outcome_claim"
-       ],
-       "loss_timing": "none",
+       "codes": [],
+       "loss_timing": "not_prior",
        "adjustments": [],
        "bound": null,
        "document_key": "4c17f476b301258cf70f1588f9ad3733c7e8101155d35dda69d5d78a4c3b0ce0",
        "independence_group": "hazen-savannah-report",
-       "note": "Hazen's count of the captured garrison including killed",
-       "class": "unusable"
+       "note": "Hazen's captures: the garrison including killed, a count of this engagement's captured and killed (design §3 row 3)",
+       "class": "C"
       }
      ],
      "estimate": {
@@ -15831,7 +15782,7 @@
     "livermore": null,
     "dossier_quantities": []
    },
-   "rationale": "Union from Hazen's November division strength (link unresolved); Confederate from the frozen garrison figure, with Cox's 200 in the range. Hazen's post-capture count is unusable.",
+   "rationale": "Union from Hazen's November division strength (link unresolved); Confederate from the frozen garrison figure, with Cox's 200 in the range. Hazen's count of the captured garrison including killed is class C post-start information and does not enter the range.",
    "nested": {
     "sets": [
      "set3_ABC"
@@ -16605,15 +16556,17 @@
         "upper": 400
        },
        "basis": "unknown",
-       "codes": [],
+       "codes": [
+        "engagement_link_unknown"
+       ],
        "loss_timing": "none",
        "adjustments": [],
        "bound": null,
        "document_key": "2c117e892a242f72236416a1865f4361a389202bad912818b50e6517ee6de63a",
        "independence_group": "britton-civil-war-border-1899",
-       "note": "secondary history, compiled",
+       "note": "secondary history, compiled; the column that marched south on October 2, four days before the action (departure figure, extractor policy 4)",
        "printed_text": "three and four hundred",
-       "class": "B"
+       "class": "C"
       },
       {
        "id": "cs-britton-150",
@@ -16731,6 +16684,7 @@
       "point_basis": "reported_engaged",
       "method": "rule3_median",
       "labels": [
+       "applicability_unresolved",
        "compiled_dependence",
        "derivation_unknown",
        "whole_engagement_leakage"
@@ -17561,7 +17515,7 @@
        "bound": null,
        "document_key": null,
        "independence_group": null,
-       "note": "Our sum of Williams's two opponent figures for the disjoint Union columns that converged on Piketon, covering Nelson's whole force.",
+       "note": "Our sum of Williams's two opponent figures for the disjoint Union columns that converged on Piketon, covering Nelson's whole force. Williams's November 9 report (citation 3's section) places the John's Creek column in action within the interval: 'On yesterday Captain Holliday, with a small command, met this column from John's Creek. A skirmish took place.'",
        "class": "C"
       }
      ],
@@ -19182,15 +19136,15 @@
        "codes": [
         "adversary_or_hearsay_estimate",
         "partial_scope",
-        "post_outcome_claim"
+        "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
        "bound": null,
        "document_key": "bc5527eaf285b0dd869603756d8309c82444f2b88bc8b9b087533f5d9bc30515",
        "independence_group": "jh-morgan-1864-reports",
-       "note": "Morgan's report of Hobson's command surrendered",
-       "class": "unusable"
+       "note": "count at the surrender; the claim is not tagged post-outcome, so a post-engagement state (cross-batch convention); Morgan's report of Hobson's command surrendered",
+       "class": "bound"
       }
      ],
      "estimate": {
@@ -19251,14 +19205,16 @@
        },
        "basis": "unknown",
        "codes": [
-        "one_sided_bound"
+        "one_sided_bound",
+        "partial_interval",
+        "partial_scope"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": "upper",
+       "bound": null,
        "document_key": "bc5527eaf285b0dd869603756d8309c82444f2b88bc8b9b087533f5d9bc30515",
        "independence_group": "jh-morgan-1864-reports",
-       "note": "Morgan's own 'My command engaged did not exceed 1,200 men', for the fight of the 12th",
+       "note": "Morgan's own 'My command engaged did not exceed 1,200 men' covers the fight of the 12th only, with a large detail and detachments away; a cap on one day's engaged part does not bound the side over June 11-12",
        "class": "bound"
       },
       {
@@ -19319,11 +19275,11 @@
       "grade": "B",
       "point": 1200,
       "low": 1020,
-      "high": 1200,
+      "high": 5000,
       "exact": {
        "point": "1200",
        "low": "1020",
-       "high": "1200"
+       "high": "5000"
       },
       "point_basis": "unknown",
       "method": "rule3_median",
@@ -19372,7 +19328,7 @@
     "livermore": null,
     "dossier_quantities": []
    },
-   "rationale": "Confederate: the NPS narrative 1,200, capped by Morgan's own 1,200. Union: separate parts on the 11th and a later column on the 12th, which may not be added.",
+   "rationale": "Confederate: the NPS narrative 1,200; Morgan's own 'did not exceed 1,200' covers the 12th and the engaged part only, so it does not cap the side, and Burbridge's reported 5,000 (opponent) raises the high. Union: separate parts on the 11th and a later column on the 12th, which may not be added.",
    "nested": {
     "sets": [],
     "excluded_post_start_information": false
@@ -19853,7 +19809,8 @@
        "bound": null,
        "document_key": "a28dee8222582210c97f45d1e57aff6be85b95dc2601244b18cdb45d29cdba75",
        "independence_group": "irwin-nineteenth-corps-1892",
-       "note": "Irwin (compiled, relaying Breckinridge): went into action with about 2,600, rangers and militia apart",
+       "note": "Irwin (compiled, relaying Breckinridge): went into action with about 2,600, rangers and militia apart; the same passage relays Breckinridge's 3,600 and 3,000, and the value and qualifier restate cs-bk-2600, so it is linked as its reproduction (review R4)",
+       "reproduction_of": "cs-bk-2600",
        "class": "A"
       },
       {
@@ -19987,26 +19944,27 @@
      ],
      "estimate": {
       "grade": "A",
-      "point": 2600,
-      "low": 2470,
-      "high": 2600,
+      "point": 3000,
+      "low": 2850,
+      "high": 3780,
       "exact": {
-       "point": "2600",
-       "low": "2470",
-       "high": "2600"
+       "point": "3000",
+       "low": "2850",
+       "high": "3780"
       },
-      "point_basis": "reported_engaged",
+      "point_basis": "reported_effective",
       "method": "rule3_median",
       "labels": [
+       "applicability_unresolved",
        "basis_mixed",
-       "single_input",
        "whole_engagement_leakage"
       ],
       "point_groups": [
-       "cs-irwin-2600"
+       "cs-bk-3000"
       ],
       "range_groups": [
-       "cs-irwin-2600"
+       "cs-bk-3000",
+       "cs-irwin-3600"
       ]
      }
     }
@@ -20033,8 +19991,10 @@
        "citation 12: gun counts",
        "cs-irwin-3600",
        "cs-irwin-2600",
+       "citation 14 also: the partisan rangers and militia, '400 or 500 more', not counted in the engaged force (as citations 8-9); not entered",
        "us-irwin-2500",
        "us-irwin-800",
+       "citation 16 also: the Vicksburg regiments' earlier strength of 3,200, before the five weeks' decline; not entered",
        "citation 17: Weitzel's post-battle remark that not 1,200 could have marched five miles; not a count of the force",
        "citation 18: Butler's department-wide effective force ('can hardly have exceeded 7,000'); another scope, not entered"
       ]
@@ -20047,7 +20007,7 @@
     "livermore": null,
     "dossier_quantities": []
    },
-   "rationale": "Union from Irwin's compiled 2,500 (basis unknown). Confederate from Irwin's engaged 2,600, capped at Breckinridge's own 'not more than 2,600'.",
+   "rationale": "Union from Irwin's compiled 2,500 (basis unknown). Confederate from Breckinridge's morning report of August 4 (3,000 effectives); Irwin's 2,600 reproduces Breckinridge's one-sided 'not more than 2,600' and so joins it as a bound-only group (rule 2; review R4).",
    "nested": {
     "sets": [
      "set2_AB",
@@ -20257,15 +20217,15 @@
        "basis": "unknown",
        "codes": [
         "adversary_or_hearsay_estimate",
-        "partial_scope",
-        "post_engagement_state"
+        "partial_interval",
+        "partial_scope"
        ],
        "loss_timing": "none",
        "adjustments": [],
        "bound": "lower",
        "document_key": "dc7a9c3929265cbc56bf910a69ac073c818eb053c7624535b6b40e632d9df36c",
        "independence_group": "mouton-la-fourche-1862-report",
-       "note": "infantry at the close of the day",
+       "note": "infantry at the close of the day (same day as the frozen date; part of the interval, review R7)",
        "class": "bound"
       }
      ],
@@ -20416,15 +20376,15 @@
        },
        "basis": "unknown",
        "codes": [
-        "post_engagement_state"
+        "partial_interval"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "dc7a9c3929265cbc56bf910a69ac073c818eb053c7624535b6b40e632d9df36c",
        "independence_group": "mouton-la-fourche-1862-report",
-       "note": "'my own barely reached 1,000' at the close of the day",
-       "class": "C"
+       "note": "'my own barely reached 1,000' at the close of the day (same day as the frozen date; part of the interval, review R7)",
+       "class": "bound"
       }
      ],
      "estimate": {
@@ -20486,7 +20446,7 @@
     "livermore": null,
     "dossier_quantities": []
    },
-   "rationale": "NPS forces-engaged cells; the Confederate 1,392 is Mouton's return total.",
+   "rationale": "NPS forces-engaged cells; the Confederate 1,392 equals Mouton's return total (not linked: equal value alone).",
    "nested": {
     "sets": [
      "set1_A",
@@ -20603,7 +20563,7 @@
        "bound": null,
        "document_key": "d8f0c84409faf8a789d58af17e00dcfd3066c2550a2d675efe1640fd7a713d0e",
        "independence_group": "irwin-nineteenth-corps-1892",
-       "note": "Taylor's own figure relayed by Irwin",
+       "note": "Irwin: 'Taylor reports but 4,000'; the only Taylor figure in the inspected passages is 'less than 4,000' (cs-taylor-cap). Not linked as a reproduction (v1 KY009 practice); link left to the primary (review V2E3-A1)",
        "class": "B"
       },
       {
@@ -21115,15 +21075,16 @@
        },
        "basis": "reported_effective",
        "codes": [
+        "partial_interval",
         "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "effectives at the May 27 assault, after the record's May 21 start",
-       "class": "C"
+       "note": "effectives at the May 27 assault only (one day of the May 21-July 9 record)",
+       "class": "bound"
       },
       {
        "id": "us-lv-june14",
@@ -21233,30 +21194,20 @@
       }
      ],
      "estimate": {
-      "grade": "C",
-      "point": 13000,
-      "low": 9100,
-      "high": 16900,
-      "exact": {
-       "point": "13000",
-       "low": "9100",
-       "high": "16900"
-      },
-      "point_basis": "reported_effective",
-      "method": "rule3_median",
+      "grade": "D",
+      "point": null,
+      "low": null,
+      "high": null,
+      "exact": null,
+      "point_basis": null,
+      "method": "grade_D_no_candidate",
       "labels": [
-       "compiled_dependence",
-       "post_start_information",
-       "single_input",
        "whole_engagement_leakage"
       ],
-      "point_groups": [
-       "us-lv-may27"
-      ],
-      "range_groups": [
-       "us-lv-may27"
-      ]
-     }
+      "point_groups": [],
+      "range_groups": []
+     },
+     "null_reason": "Only bounds: Livermore's May 27 assault effectives (13,000) and June 14 columns of attack (about 6,000) are single days of the siege record; Irwin's 'at no time exceeded 17,000' effective is an upper bound, and his 'less than 12,000' and 'hardly exceeded 8,000' are caps on parts."
     },
     "Confederate": {
      "inputs": [
@@ -21304,15 +21255,16 @@
        },
        "basis": "reported_effective",
        "codes": [
-        "derived_from_losses"
+        "derived_from_losses",
+        "partial_interval"
        ],
        "loss_timing": "not_prior",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "Livermore deducts losses of May 22-26, inside this record",
-       "class": "C"
+       "note": "May 27 assault entry only (one day of the record); Livermore deducts losses of May 22-26, inside this record",
+       "class": "bound"
       },
       {
        "id": "cs-lv-june14-pfd",
@@ -21332,15 +21284,16 @@
        "basis": "present_for_duty",
        "codes": [
         "derived_from_losses",
+        "partial_interval",
         "post_engagement_state"
        ],
        "loss_timing": "not_prior",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "note 3: mean of the May 19 and June 30 returns, less losses May 22-27, plus Miles's command",
-       "class": "C"
+       "note": "June 14 assault entry only (one day of the record); note 3: mean of the May 19 and June 30 returns, less losses May 22-27, plus Miles's command",
+       "class": "bound"
       },
       {
        "id": "cs-lv-june14-eff",
@@ -21360,15 +21313,16 @@
        "basis": "reported_effective",
        "codes": [
         "derived_from_losses",
+        "partial_interval",
         "post_engagement_state"
        ],
        "loss_timing": "not_prior",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "",
-       "class": "C"
+       "note": "June 14 assault entry only (one day of the record)",
+       "class": "bound"
       },
       {
        "id": "cs-irwin-7000",
@@ -21436,15 +21390,15 @@
        },
        "basis": "unknown",
        "codes": [
-        "post_outcome_claim"
+        "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
        "bound": null,
        "document_key": "a13f05b8a601a37267d66dafeed98bb5333ac9afde67d7ed4d8cff85e2d4afaa",
        "independence_group": "irwin-nineteenth-corps-1892",
-       "note": "prisoners taken at the surrender",
-       "class": "unusable"
+       "note": "count at the surrender; the claim is not tagged post-outcome, so a post-engagement state (cross-batch convention); prisoners taken at the surrender",
+       "class": "C"
       },
       {
        "id": "cs-miles-july",
@@ -21476,12 +21430,12 @@
      ],
      "estimate": {
       "grade": "C",
-      "point": 4190,
-      "low": 2440,
+      "point": 4330,
+      "low": 3030,
       "high": 9100,
       "exact": {
-       "point": "4192",
-       "low": "24409/10",
+       "point": "4326",
+       "low": "15141/5",
        "high": "9100"
       },
       "point_basis": "reported_effective",
@@ -21489,19 +21443,14 @@
       "labels": [
        "applicability_unresolved",
        "compiled_dependence",
-       "post_start_information",
        "whole_engagement_leakage"
       ],
       "point_groups": [
-       "cs-lv-june14-eff",
-       "cs-lv-may19",
-       "cs-lv-may27"
+       "cs-lv-may19"
       ],
       "range_groups": [
        "cs-irwin-7000",
-       "cs-lv-june14-eff",
-       "cs-lv-may19",
-       "cs-lv-may27"
+       "cs-lv-may19"
       ]
      }
     }
@@ -21548,16 +21497,14 @@
       "cs-lv-june14-pfd",
       "cs-lv-june14-eff"
      ],
-     "reason": "Two entries (May 27 and June 14 assaults) inside the one frozen record; not added. Every figure entered except the loss line 'Deduct losses May 22-26 134', which is Livermore's adjustment inside cs-lv-may27, not a strength. Notes 1 and 3 give no further figures."
+     "reason": "Two entries (May 27 and June 14 assaults) inside the one frozen record, each a single day of it (partial interval, lower bounds); not added. The May 19 line is a pre-start state of the whole garrison. Every figure entered except the loss line 'Deduct losses May 22-26 134', which is Livermore's adjustment inside cs-lv-may27, not a strength. Notes 1 and 3 give no further figures."
     },
     "dossier_quantities": []
    },
-   "rationale": "Union from Livermore's 13,000 effectives at the May 27 assault (post-start; capped by Irwin's 17,000). Confederate: median of Livermore's effective figures (May 19 with unresolved scope; May 27 and June 14 after in-record losses), post-start.",
+   "rationale": "No Union whole-interval figure: Livermore's two assault entries are single days of the siege, and Irwin gives caps. Confederate from Livermore's May 19 effectives before the siege (scope unresolved, note 1), with Irwin's 'about seven thousand' (state date unresolved) in the range; the May 27 and June 14 lines are single-day lower bounds.",
    "nested": {
-    "sets": [
-     "set3_ABC"
-    ],
-    "excluded_post_start_information": true
+    "sets": [],
+    "excluded_post_start_information": false
    }
   },
   {
@@ -22549,7 +22496,7 @@
        "bound": null,
        "document_key": "670aff06f5b51394e47d98f19f3adae180292f11a84aba4963d06fe022a97d26",
        "independence_group": "irwin-nineteenth-corps-1892",
-       "note": "Herron's (Dana's) division at Morganza; the reinforcements sent did not arrive in time",
+       "note": "Herron's (Dana's) division at Morganza, a superset of the outposts at Sterling's plantation that Green attacked; tier-2 has no superset code, so scope_unresolved; the reinforcements sent did not arrive in time",
        "class": "C"
       }
      ],
@@ -23740,7 +23687,7 @@
       "claim_id": "reported-force-scope",
       "use": [
        "us-taylor-est",
-       "Confederate brigade and battery counts are formation counts; Irwin's 'reduced to 2,000 muskets' is Polignac's infantry, which reached the crossing only as the last Union troops passed (not the force at the crossing); Birge's column has no count; NPS zero is not a count"
+       "Confederate brigade and battery counts are formation counts; Irwin's 'reduced to 2,000 muskets' is Polignac's infantry, which Irwin places with Wharton against the Union rear on April 22 while Bee and Major held the bluff (not a count of the force at the crossing; not entered); Birge's column has no count; NPS zero is not a count"
       ]
      }
     ],
@@ -24508,15 +24455,16 @@
        },
        "basis": "reported_engaged",
        "codes": [
-        "adversary_or_hearsay_estimate"
+        "adversary_or_hearsay_estimate",
+        "partial_scope"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "1dd67b6b2f54e5be60e0d53a4079c12a774ae72088bc40aa4fce73639ce6f03e",
        "independence_group": "wallace-monocacy-reports",
-       "note": "Wallace's calculation of the force engaged on the left bank",
-       "class": "C"
+       "note": "Wallace's calculation of the force engaged on the left bank only; the same sentence adds 'at least 2,000 more' across the river",
+       "class": "bound"
       },
       {
        "id": "cs-wallace-2000",
@@ -25846,17 +25794,42 @@
        "note": "Snead: Lyon's army at Springfield before the attack",
        "printed_text": "six or seven thousand",
        "class": "C"
+      },
+      {
+       "id": "us-lv-fremont-8000",
+       "source_id": "livermore-transcription-v2",
+       "ref": {
+        "citation": {
+         "source_id": "livermore-transcription-v2",
+         "section": "p78-supplement",
+         "locator": "p.78 (page image livermore-p78-image-v1)",
+         "quote": "General Fremont's dispatch of August 13, placing the force at 8000"
+        }
+       },
+       "printed": {
+        "lower": 8000,
+        "upper": 8000
+       },
+       "basis": "unknown",
+       "codes": [],
+       "loss_timing": "none",
+       "adjustments": [],
+       "bound": null,
+       "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
+       "independence_group": "livermore-numbers-losses",
+       "note": "Livermore note 1: Frémont's August 13 dispatch placing the force at 8000; Livermore says it assumed 2000 Home Guards present when there were only 200",
+       "class": "B"
       }
      ],
      "estimate": {
       "grade": "B",
       "point": 5400,
       "low": 4200,
-      "high": 7480,
+      "high": 9200,
       "exact": {
        "point": "5400",
        "low": "4200",
-       "high": "7475"
+       "high": "9200"
       },
       "point_basis": "unknown",
       "method": "rule3_median",
@@ -25867,10 +25840,12 @@
        "whole_engagement_leakage"
       ],
       "point_groups": [
-       "us-lv"
+       "us-lv",
+       "us-lv-fremont-8000"
       ],
       "range_groups": [
        "us-lv",
+       "us-lv-fremont-8000",
        "us-snead-6000-7000",
        "us-snead-sum",
        "us-sturgis-3700"
@@ -26123,9 +26098,10 @@
      ],
      "inputs": [
       "us-lv",
-      "cs-lv"
+      "cs-lv",
+      "us-lv-fremont-8000"
      ],
-     "reason": "Section p78-supplement. Entered: Lyon's command about 5,400; McCulloch's effectives about 11,600. Not entered: note 1's Sigel artillery 120 and two cavalry companies about 125 (parts of the Union force already inside the 5,400); Fremont's August 13 dispatch placing the force at 8000, which note 1 says assumed 2000 Home Guards present when there were only 200 (Livermore rejects it); note 2's artillery estimated at 300 (a part inside the 11,600)."
+     "reason": "Section p78-supplement. Entered: Lyon's command about 5,400; McCulloch's effectives about 11,600. Also entered: note 1's Fremont August 13 dispatch placing the force at 8000 (us-lv-fremont-8000), the Union department commander's own-side figure relayed by Livermore, who rejects it because it assumed 2000 Home Guards present when there were only 200; a compiler's rejection is not a design §3 non-use ground, so it is a candidate on an unknown basis. Not entered: note 1's Sigel artillery 120 and two cavalry companies about 125 (parts of the Union force already inside the 5,400); note 2's artillery estimated at 300 (a part inside the 11,600)."
     },
     "dossier_quantities": []
    },
@@ -26297,14 +26273,15 @@
        },
        "basis": "unknown",
        "codes": [
-        "adversary_or_hearsay_estimate"
+        "adversary_or_hearsay_estimate",
+        "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
        "bound": null,
        "document_key": "740b18b7a28e22a365bdbdb12778bdc70eba9001aeaf5d83a778237b7287e66e",
        "independence_group": "lane-dry-wood-reports",
-       "note": "Lane, September 4: 'All sources of information concur that their force is in the neighborhood of 6,000'",
+       "note": "Lane, September 4 (state when he wrote, after the September 2 start): 'All sources of information concur that their force is in the neighborhood of 6,000'",
        "class": "C"
       },
       {
@@ -27740,15 +27717,16 @@
        },
        "basis": "unknown",
        "codes": [
-        "adversary_or_hearsay_estimate"
+        "adversary_or_hearsay_estimate",
+        "one_sided_bound"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "upper",
        "document_key": "f14b304459518f40d443e86ae76cb1ac5e1701550e8f69629b7052b6b14fd822",
        "independence_group": "or-prentiss",
-       "note": "from prisoners",
-       "class": "C"
+       "note": "from prisoners; 'near 900' read as nearly, a one-sided bound (cross-batch convention)",
+       "class": "bound"
       },
       {
        "id": "cs-britton-900",
@@ -27792,15 +27770,14 @@
       "labels": [
        "basis_mixed",
        "opponent_estimate_point",
+       "single_input",
        "whole_engagement_leakage"
       ],
       "point_groups": [
-       "cs-britton-900",
-       "cs-prentiss-900"
+       "cs-britton-900"
       ],
       "range_groups": [
-       "cs-britton-900",
-       "cs-prentiss-900"
+       "cs-britton-900"
       ]
      }
     }
@@ -30884,7 +30861,7 @@
     "livermore": null,
     "dossier_quantities": []
    },
-   "rationale": "Union from the frozen CWSAC 700; Britton's 800 is the column at departure. The Confederate side has only the prisoners' 5,000 (rule 4) and Porter's column.",
+   "rationale": "Union from the frozen CWSAC 700; Britton's 800 is the column at departure. The Confederate side has only the prisoners' 5,000 (rule 4) and Porter's column; the cited passages give no other Confederate column figure, so no sum is possible (rule 6).",
    "nested": {
     "sets": [
      "set3_ABC"
@@ -30943,14 +30920,14 @@
        "basis": "unknown",
        "codes": [
         "derivation_unknown",
-        "scope_unresolved"
+        "engagement_link_unknown"
        ],
        "loss_timing": "none",
        "adjustments": [],
        "bound": null,
        "document_key": "d2d7854ba88cf234ca261f8096251b0897e6c5d0f69e302f7120161340f81814",
        "independence_group": "nps-cwsac",
-       "note": "NPS narrative 'his combined force of about 2,000': antecedent unclear (McNeil at Bloomfield); not linked",
+       "note": "NPS narrative 'his combined force of about 2,000': McNeil at Bloomfield, before his retreat to Cape Girardeau; engagement link unknown; not linked",
        "class": "C"
       },
       {
@@ -32027,7 +32004,7 @@
       "point_groups": [],
       "range_groups": []
      },
-     "null_reason": "No candidate value: Price's 6,000-8,000 is an opponent estimate of the Big Blue line before Pleasonton's division joined (a lower bound)."
+     "null_reason": "No candidate value: Price's 6,000-8,000 is an opponent estimate of a different scope (the whole Big Blue line after Curtis joined, without Pleasonton's division), not the force at Byram's Ford."
     },
     "Confederate": {
      "inputs": [],
@@ -35745,7 +35722,8 @@
        "cs-forrest-address",
        "cs-sturgis-officers",
        "cs-sergeant",
-       "Sturgis's brigade strengths 1,500, 1,800, 2,000, 1,000 and 1,200 are parts of his command (they sum to 7,500 against his round 8,000); not entered"
+       "Sturgis's brigade strengths 1,500, 1,800, 2,000, 1,000 and 1,200 are parts of his command (they sum to 7,500 against his round 8,000); not entered",
+       "the claim text's planned Middle Tennessee force ('2,000 of his own men and 1,000 of Roddey's') is named in the claim value only; no cited quote carries it; not entered"
       ]
      }
     ],
@@ -35854,7 +35832,8 @@
        "bound": null,
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "note 2: the Records do not show whether this, as given by Smith, includes only effectives",
+       "note": "note 2: the Records do not show whether this, as given by Smith, includes only effectives; Livermore names Smith as the figure's origin (reproduction of us-smith)",
+       "reproduction_of": "us-smith",
        "class": "B"
       },
       {
@@ -35909,13 +35888,13 @@
       }
      ],
      "estimate": {
-      "grade": "B",
+      "grade": "C",
       "point": 14000,
-      "low": 11900,
+      "low": 9800,
       "high": 19000,
       "exact": {
        "point": "14000",
-       "low": "11900",
+       "low": "9800",
        "high": "19000"
       },
       "point_basis": "unknown",
@@ -35932,8 +35911,7 @@
       ],
       "range_groups": [
        "us-cw",
-       "us-forrest-est",
-       "us-smith"
+       "us-forrest-est"
       ]
      }
     },
@@ -36185,10 +36163,9 @@
     },
     "dossier_quantities": []
    },
-   "rationale": "Union: the frozen 14,000 groups with Livermore's identical figure on an unstated basis (grade B, basis unknown). Confederate: the NPS engaged cell (8,000) sets the point by the declared basis order over Livermore's 6,600 effectives.",
+   "rationale": "Union: the frozen 14,000 groups with Livermore's identical figure, which Livermore gives as Smith's (reproduction of Smith's aggregate on leaving La Grange, July 5, whose link to the engagement is unknown), so the group is grade C, basis unknown. Confederate: the NPS engaged cell (8,000) sets the point by the declared basis order over Livermore's 6,600 effectives.",
    "nested": {
     "sets": [
-     "set2_AB",
      "set3_ABC"
     ],
     "excluded_post_start_information": false
@@ -38842,42 +38819,33 @@
        },
        "basis": "unknown",
        "codes": [
-        "adversary_or_hearsay_estimate"
+        "adversary_or_hearsay_estimate",
+        "one_sided_bound"
        ],
-       "loss_timing": "none",
+       "loss_timing": "not_prior",
        "adjustments": [],
-       "bound": null,
+       "bound": "upper",
        "document_key": "c664251d12d4f36740c0189ee2f66a8c5d654296c767ced789d095129d26f153",
        "independence_group": "johnston-atlanta-report",
-       "note": "Johnston: the whole army before him on the 20th and 21st, 'near 44,000, including losses'",
-       "class": "C"
+       "note": "'near 44,000' read as nearly, a one-sided bound (cross-batch convention). Johnston: the whole army before him on the 20th and 21st, 'near 44,000, including losses'; 'including losses' adds undated losses (design §3 loss_timing)",
+       "class": "bound"
       }
      ],
      "estimate": {
-      "grade": "C",
-      "point": 33000,
-      "low": 22000,
-      "high": 44000,
-      "exact": {
-       "point": "33000",
-       "low": "22000",
-       "high": "44000"
-      },
-      "point_basis": "unknown",
-      "method": "rule4_opponent_only",
+      "grade": "D",
+      "point": null,
+      "low": null,
+      "high": null,
+      "exact": null,
+      "point_basis": null,
+      "method": "grade_D_no_candidate",
       "labels": [
-       "basis_mixed",
-       "opponent_estimate_point",
-       "single_input",
        "whole_engagement_leakage"
       ],
-      "point_groups": [
-       "us-johnston-44000"
-      ],
-      "range_groups": [
-       "us-johnston-44000"
-      ]
-     }
+      "point_groups": [],
+      "range_groups": []
+     },
+     "null_reason": "No usable candidate value in any inspected source."
     },
     "Confederate": {
      "inputs": [
@@ -39000,7 +38968,6 @@
       "point_basis": "unknown",
       "method": "rule4_opponent_only",
       "labels": [
-       "basis_mixed",
        "opponent_estimate_point",
        "single_input",
        "whole_engagement_leakage"
@@ -39051,11 +39018,9 @@
     },
     "dossier_quantities": []
    },
-   "rationale": "Every own-side figure covers March 19 only or excludes the cavalry that fought on the 21st, so both points come from opponent or hearsay figures under rule 4 (Johnston's 44,000 for the Union; a deserter's 40,000 for the Confederates). A reviewer should weigh this declared consequence (design B3).",
+   "rationale": "Every own-side figure covers March 19 only or excludes the cavalry that fought on the 21st, so both points come from opponent or hearsay figures under rule 4 (Johnston's 44,000 for the Union; a deserter's 40,000 for the Confederates). A reviewer should weigh this declared consequence (design B3). The Union point's only candidate, Johnston's 44,000, includes undated losses (loss_timing not_prior), so the row is post-start information and is excluded from the fits.",
    "nested": {
-    "sets": [
-     "set3_ABC"
-    ],
+    "sets": [],
     "excluded_post_start_information": false
    }
   },
@@ -39187,15 +39152,16 @@
        },
        "basis": "unknown",
        "codes": [
-        "adversary_or_hearsay_estimate"
+        "adversary_or_hearsay_estimate",
+        "one_sided_bound"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "upper",
        "document_key": "867207fde6a85d5da912109d06c2c47795cb5d0e183256e51ab109afd7042557",
        "independence_group": "sibley-new-mexico-1862-reports",
-       "note": "Sibley (Feb 22): the force contended against",
-       "class": "C"
+       "note": "Sibley (Feb 22): the force contended against 'amounted to near 6,000'; 'near' read as 'nearly', a one-sided bound, as for OK004 cs-blunt-near7000 (review R1)",
+       "class": "bound"
       },
       {
        "id": "us-sibley-5000",
@@ -39228,11 +39194,11 @@
       "grade": "C",
       "point": 2500,
       "low": 1750,
-      "high": 6000,
+      "high": 3500,
       "exact": {
        "point": "2500",
        "low": "1750",
-       "high": "6000"
+       "high": "3500"
       },
       "point_basis": "reported_engaged",
       "method": "rule3_median",
@@ -39248,7 +39214,7 @@
       ],
       "range_groups": [
        "us-nps-cell",
-       "us-sibley-6000"
+       "us-sibley-3500"
       ]
      }
     },
@@ -39455,6 +39421,7 @@
        "us-canby-present",
        "citations 6-7: a ratio (two to four to one) and a remark on mobility; no count",
        "us-sibley-3500",
+       "citation 8 also: 'l,20p [1,200] of whom were old regulars', a component of us-sibley-3500; not entered",
        "cs-sibley-1500",
        "us-sibley-6000",
        "us-sibley-5000",
@@ -39556,14 +39523,15 @@
        "basis": "unknown",
        "codes": [
         "derivation_unknown",
-        "partial_scope"
+        "partial_scope",
+        "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
        "bound": "lower",
        "document_key": "8cd595f743a8a3ccfb068bcaf236bebbd92bed0f9e6675f762d4c1e674e4ddfd",
        "independence_group": "nps-cwsac",
-       "note": "NPS: Slough arrived with about 900 (reinforcement; not summable with the March 26 force, rule 6)",
+       "note": "NPS: Slough arrived with about 900 on the 27th (reinforcement, after the frozen start; not summable with the March 26 force, rule 6)",
        "class": "bound"
       },
       {
@@ -39658,42 +39626,34 @@
        },
        "basis": "unknown",
        "codes": [
-        "adversary_or_hearsay_estimate"
+        "adversary_or_hearsay_estimate",
+        "partial_interval",
+        "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "68822abfe0b970ce1fc133f29abe9e7ef0dbc93226a0f98ad1897f1e35d11199",
        "independence_group": "scurry-glorieta-1862-reports",
-       "note": "Scurry: the enemy 'now known to have numbered 1,400'",
-       "class": "C"
+       "note": "Scurry: the enemy in the March 28 fight 'now known to have numbered 1,400'; limited to the March 28 phase, after the frozen start (review R2)",
+       "class": "bound"
       }
      ],
      "estimate": {
-      "grade": "C",
-      "point": 1050,
-      "low": 900,
-      "high": 1400,
-      "exact": {
-       "point": "1050",
-       "low": "900",
-       "high": "1400"
-      },
-      "point_basis": "unknown",
-      "method": "rule4_opponent_only",
+      "grade": "D",
+      "point": null,
+      "low": null,
+      "high": null,
+      "exact": null,
+      "point_basis": null,
+      "method": "grade_D_no_candidate",
       "labels": [
-       "basis_mixed",
-       "opponent_estimate_point",
-       "single_input",
        "whole_engagement_leakage"
       ],
-      "point_groups": [
-       "us-scurry-1400"
-      ],
-      "range_groups": [
-       "us-scurry-1400"
-      ]
-     }
+      "point_groups": [],
+      "range_groups": []
+     },
+     "null_reason": "No candidate value: every figure is limited to March 26 (Chivington's 418, NPS 'more than 400') or to the March 27-28 phase (Slough's 'nearly 1,300', NPS's arriving 900, Scurry's opponent 1,400), or is a part of the force (the First Colorado's 916, the 430 flanking column); all bound only."
     },
     "Confederate": {
      "inputs": [
@@ -39739,15 +39699,16 @@
        "basis": "unknown",
        "codes": [
         "derivation_unknown",
+        "partial_interval",
         "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "8cd595f743a8a3ccfb068bcaf236bebbd92bed0f9e6675f762d4c1e674e4ddfd",
        "independence_group": "nps-cwsac",
-       "note": "NPS: Scurry's troops 'swelled the Rebel ranks to about 1,100' (after the March 26 fight)",
-       "class": "C"
+       "note": "NPS: Scurry's troops 'swelled the Rebel ranks to about 1,100' on the 27th, for the March 27-28 phase (review R2)",
+       "class": "bound"
       },
       {
        "id": "cs-scurry-600",
@@ -39790,15 +39751,17 @@
        },
        "basis": "unknown",
        "codes": [
-        "adversary_or_hearsay_estimate"
+        "adversary_or_hearsay_estimate",
+        "partial_interval",
+        "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "834d4660d52977aaed68e9bb2a0807891ade546d4ce9c173ef2b77a5ce4c7df4",
        "independence_group": "slough-glorieta-1862-reports",
-       "note": "Slough, from spies",
-       "class": "C"
+       "note": "Slough, from spies, on the 28th (March 28 phase; review R2)",
+       "class": "bound"
       },
       {
        "id": "cs-slough-1200",
@@ -39815,15 +39778,17 @@
        },
        "basis": "unknown",
        "codes": [
-        "adversary_or_hearsay_estimate"
+        "adversary_or_hearsay_estimate",
+        "partial_interval",
+        "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "834d4660d52977aaed68e9bb2a0807891ade546d4ce9c173ef2b77a5ce4c7df4",
        "independence_group": "slough-glorieta-1862-reports",
-       "note": "Slough, from spies and prisoners, in the canon",
-       "class": "C"
+       "note": "Slough, from spies and prisoners, in the canon on the 28th (March 28 phase; review R2)",
+       "class": "bound"
       },
       {
        "id": "cs-slough-range",
@@ -39840,44 +39805,34 @@
        },
        "basis": "unknown",
        "codes": [
-        "adversary_or_hearsay_estimate"
+        "adversary_or_hearsay_estimate",
+        "partial_interval",
+        "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "834d4660d52977aaed68e9bb2a0807891ade546d4ce9c173ef2b77a5ce4c7df4",
        "independence_group": "slough-glorieta-1862-reports",
-       "note": "Slough's synopsis, '1,200 to 3,400' as read in OCR",
-       "class": "C"
+       "note": "Slough's synopsis, '1,200 to 3,400' as read in OCR (unverified), the estimate before the March 28 advance (March 28 phase; review R2)",
+       "class": "bound"
       }
      ],
      "estimate": {
-      "grade": "C",
-      "point": 1100,
-      "low": 770,
-      "high": 2300,
-      "exact": {
-       "point": "1100",
-       "low": "770",
-       "high": "2300"
-      },
-      "point_basis": "unknown",
-      "method": "rule3_median",
+      "grade": "D",
+      "point": null,
+      "low": null,
+      "high": null,
+      "exact": null,
+      "point_basis": null,
+      "method": "grade_D_no_candidate",
       "labels": [
-       "basis_mixed",
-       "compiled_dependence",
-       "derivation_unknown",
-       "post_start_information",
        "whole_engagement_leakage"
       ],
-      "point_groups": [
-       "cs-nps-1100"
-      ],
-      "range_groups": [
-       "cs-nps-1100",
-       "cs-slough-range"
-      ]
-     }
+      "point_groups": [],
+      "range_groups": []
+     },
+     "null_reason": "No candidate value: every figure is limited to March 26 (Pyron's 200-300) or to the March 27-28 phase (NPS 'about 1,100'; Slough's opponent estimates of 1,000, 1,200-1,300 and 1,200-3,400), or is a capped part (Scurry's 'not over 600' fit for duty); all bound only."
     }
    },
    "inventory": {
@@ -39915,12 +39870,10 @@
     "livermore": null,
     "dossier_quantities": []
    },
-   "rationale": "Union: every own-side figure is a part of the interval or a post-start cap, so Scurry's opponent figure sets the point (rule 4); NPS's 900 raises the low. Confederate: NPS's combined 1,100 after Scurry's arrival is post-start; the row is excluded from fits.",
+   "rationale": "Both sides grade D. Every figure is limited to the March 26 fight or to the March 27-28 phase after the reinforcements arrived (partial_interval, and post_engagement_state for the 27th-28th), or is a part of the force or an opponent's bound. No figure covers either side over the whole frozen interval, and rule 6 forbids adding the March 26 force to later arrivals (review R2).",
    "nested": {
-    "sets": [
-     "set3_ABC"
-    ],
-    "excluded_post_start_information": true
+    "sets": [],
+    "excluded_post_start_information": false
    }
   },
   {
@@ -42192,6 +42145,7 @@
        "us-benham-3500",
        "us-benham-3100",
        "us-jones-9472",
+       "citation 4 also: the divisional components 3232, 4313 and 1927 of us-jones-9472; not entered",
        "cs-jones-belief",
        "cs-jones-garrison",
        "citation 7: Evans's order to reinforce 'up to 2000' is a target that had not arrived, not a count (the frozen CS 2,000 may reflect it; not shown)",
@@ -42602,42 +42556,34 @@
        },
        "basis": "unknown",
        "codes": [
+        "partial_interval",
         "post_engagement_state"
        ],
-       "loss_timing": "none",
+       "loss_timing": "not_prior",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "d6ccff9096ab56eb05e95b354560ab9423d87df8e8c49a5df4466754daf59b51",
        "independence_group": "samuel-jones-east-tennessee-reports",
-       "note": "Wagner on July 11, after the July 10 losses and the Georgian reinforcement",
+       "note": "Wagner garrison at the July 11 dawn assault only (one day of the record): 'the shattered remainder of the troops which had contested the landing the previous morning' plus the Georgians who arrived that night",
        "printed_text": "twelve hundred",
-       "class": "C"
+       "class": "bound"
       }
      ],
      "estimate": {
-      "grade": "C",
-      "point": 1200,
-      "low": 930,
-      "high": 1560,
-      "exact": {
-       "point": "1200",
-       "low": "927",
-       "high": "1560"
-      },
-      "point_basis": "unknown",
-      "method": "rule3_median",
+      "grade": "D",
+      "point": null,
+      "low": null,
+      "high": null,
+      "exact": null,
+      "point_basis": null,
+      "method": "grade_D_no_candidate",
       "labels": [
-       "post_start_information",
-       "single_input",
        "whole_engagement_leakage"
       ],
-      "point_groups": [
-       "cs-wagner-1200"
-      ],
-      "range_groups": [
-       "cs-wagner-1200"
-      ]
-     }
+      "point_groups": [],
+      "range_groups": []
+     },
+     "null_reason": "Only parts and one-day figures: the 927 on Morris Island on July 10 (before the Georgian reinforcement), the about 700 that met the landing, and Jones's about 1,200 in Wagner at the July 11 assault (survivors of July 10 plus the Georgians). All are recorded as lower bounds."
     }
    },
    "inventory": {
@@ -42675,10 +42621,10 @@
     "livermore": null,
     "dossier_quantities": []
    },
-   "rationale": "No Union whole-side figure (only Strong's brigade and a scope-unresolved island total, as bounds). Confederate from Jones's 1,200 in Wagner on July 11 (post-start), with the 927 on Morris Island on July 10 as the lower bound.",
+   "rationale": "No whole-side figure for either side. Union: Strong's brigade and a scope-unresolved island total, as bounds. Confederate: the July 10 Morris Island figure, the landing force and the July 11 Wagner garrison, each a part or a single day, as bounds.",
    "nested": {
     "sets": [],
-    "excluded_post_start_information": true
+    "excluded_post_start_information": false
    }
   },
   {
@@ -43711,32 +43657,6 @@
        "independence_group": "gw-smith-goldsborough-reports",
        "note": "Smith: 'about 1,400 effective muskets on the field, and all engaged' (own report)",
        "class": "A"
-      },
-      {
-       "id": "cs-sc-reserves",
-       "source_id": "or44-gw-smith-selections-v1",
-       "ref": {
-        "dossier": {
-         "claim_id": "reported-force-scope",
-         "citation_index": 5
-        }
-       },
-       "printed": {
-        "lower": 350,
-        "upper": 350
-       },
-       "basis": "reported_effective",
-       "codes": [
-        "partial_scope"
-       ],
-       "loss_timing": "none",
-       "adjustments": [],
-       "bound": "lower",
-       "document_key": "aaa68cef1e5c5887d80122dd86233d41d6ffcad1cdcb69235d7c24744e4c0479",
-       "independence_group": "gw-smith-goldsborough-reports",
-       "note": "South Carolina reserves only (OCR reads 3o0 for 350)",
-       "printed_text": "3o0",
-       "class": "bound"
       }
      ],
      "estimate": {
@@ -43781,7 +43701,7 @@
        "cs-cw",
        "cs-nps",
        "cs-smith",
-       "cs-sc-reserves",
+       "Chesnut's South Carolina reserves ('about 3o0 effective muskets' in OCR; the middle digit is unreadable and is not corrected) reached Grahamville Station at midnight, after the action, and are not part of the engaged force",
        "Baker's 860 and Robertson's detachment came up too late to be used in the action and are not part of the engaged force; the enemy 'largely exceeded ours' has no figure"
       ]
      }
@@ -49320,7 +49240,7 @@
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "27cfcb0722df276fb18059c4b2e6d545e5e29ec205080e3fadaec74144787f8d",
        "independence_group": "nps-cwsac",
        "note": "white Tennessee troops",
@@ -49346,7 +49266,7 @@
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "27cfcb0722df276fb18059c4b2e6d545e5e29ec205080e3fadaec74144787f8d",
        "independence_group": "nps-cwsac",
        "note": "U.S. Colored Troops",
@@ -50716,7 +50636,7 @@
        "cs-cox-44729",
        "cs-beauregard-35000",
        "cs-hood-30600",
-       "Cox's 41,185 and 3,544 are components of cs-cox-44729, 9,209 is Forrest's cavalry (a component), and 27,285 and 7,700 are components of cs-beauregard-35000; Thomas's October 31 48,975 and 5,591 cover his whole department, not the force at Columbia; 'did not reach him at the front till the 30th' is not a count; Hood's garbled OCR table (30,600 40,730 44,719 88,793 96,367) repeats cs-hood-30600 and gives columns whose alignment is unreadable",
+       "Cox's 41,185 and 3,544 are components of cs-cox-44729, 9,209 is Forrest's cavalry (a component), and 27,285 and 7,700 are components of cs-beauregard-35000; Thomas's October 31 48,975 and 5,591 cover his whole department, not the force at Columbia; 'did not reach him at the front till the 30th' is not a count; Hood's garbled OCR table (30,600 40,730 44,719 88,793 96,367) repeats cs-hood-30600; its other columns (present total and aggregate, present and absent total and aggregate) are not entered. The arithmetic supports reading 30,600 as the effective total (25,889 + 2,306 + 2,405; totals rise across the row under the printed 'Effective' header), but the basis and whether the 2,306 cavalry excludes Forrest are left unresolved",
        "frozen CWSAC battle-record restatement of the forces figures already entered from the forces row",
        "NPS zero display is not a count"
       ]
@@ -51418,7 +51338,7 @@
        "bound": null,
        "document_key": "947886786c78ad92e151ac538a3f4a6093781deec4e341e8dc75fc609a783a9a",
        "independence_group": "hood-atlanta-reports",
-       "note": "December 10 total in Hood's addenda table; the OCR column alignment and whether it includes cavalry are not established",
+       "note": "December 10 total in Hood's addenda table; the arithmetic (18,342 + 2,306 + 2,405) supports the effective column, but the basis and whether the 2,306 cavalry covers Forrest's command are left unresolved",
        "class": "C"
       },
       {
@@ -53698,7 +53618,7 @@
       "use": [
        "same frozen figures as the CWSAC forces input (citation 0)",
        "us-nps",
-       "citation 1 CS cell: the live NPS page reads 3,230 against the frozen 32,230 (its total 31,680 is 28,450 + 3,230), a display error, not a count; not entered",
+       "citation 1 CS cell: the live NPS page reads 3,230 against the frozen 32,230 (its total 31,680 is 28,450 + 3,230), a copy discrepancy within the one compiled-table lineage (the frozen CWSAC row, entered as cs-cw, reads 32,230 and the page total carries the dropped digit), not a separate count; not entered",
        "us-nicolay-34320",
        "us-nicolay-28568",
        "us-nicolay-lt-28000",
@@ -56794,32 +56714,43 @@
        "basis": "reported_engaged",
        "codes": [
         "derivation_unknown",
-        "other_engagement"
+        "scope_unresolved"
        ],
        "loss_timing": "none",
        "adjustments": [],
        "bound": null,
        "document_key": "e5424b57db334bdc94c2f6c8711e058c2163da34e5099324e9076c9c7cbad956",
        "independence_group": "nps-cwsac",
-       "note": "live NPS cell; it exceeds the 33,000 the description gives for the whole army that landed, and the VA053 page shows the same 39,000, so it is read as an army or campaign figure, not this engagement's force",
-       "class": "unusable"
+       "note": "live NPS forces-engaged cell for this record; the same page's description names a brigade (May 6) and a division (May 7) as the engaged forces and gives 33,000 for the whole army that landed, and the same 39,000 appears on the VA053 page, so whether it is this engagement's force is unresolved (as VA004); no passage states it is a campaign figure",
+       "class": "C"
       }
      ],
      "estimate": {
-      "grade": "D",
-      "point": null,
-      "low": null,
-      "high": null,
-      "exact": null,
-      "point_basis": null,
-      "method": "grade_D_no_candidate",
+      "grade": "C",
+      "point": 39000,
+      "low": 27300,
+      "high": 50700,
+      "exact": {
+       "point": "39000",
+       "low": "27300",
+       "high": "50700"
+      },
+      "point_basis": "reported_engaged",
+      "method": "rule3_median",
       "labels": [
+       "applicability_unresolved",
+       "compiled_dependence",
+       "derivation_unknown",
+       "single_input",
        "whole_engagement_leakage"
       ],
-      "point_groups": [],
-      "range_groups": []
-     },
-     "null_reason": "No candidate value. The description's 33,000 and the live NPS 39,000 are army or campaign figures (other_engagement); no count of the brigade (May 6) or division (May 7) engaged was inspected."
+      "point_groups": [
+       "us-nps"
+      ],
+      "range_groups": [
+       "us-nps"
+      ]
+     }
     },
     "Confederate": {
      "inputs": [
@@ -56921,7 +56852,7 @@
     "livermore": null,
     "dossier_quantities": []
    },
-   "rationale": "No usable figure for either side. The army-level Union figures describe the campaign army, not the brigade and division engaged; the Confederate figures are parts of the May 7 force.",
+   "rationale": "Union from the live NPS forces-engaged cell only (39,000, grade C): the page assigns it to this engagement, but its description names a brigade and a division as the engaged forces and the same cell appears at VA053, so its applicability is unresolved (scope_unresolved, as VA004). The description's 33,000 is the army that landed (other_engagement). The Confederate figures are parts of the May 7 force.",
    "nested": {
     "sets": [],
     "excluded_post_start_information": false
@@ -57457,15 +57388,16 @@
        },
        "basis": "reported_engaged",
        "codes": [
-        "derivation_unknown"
+        "derivation_unknown",
+        "scope_unresolved"
        ],
        "loss_timing": "none",
        "adjustments": [],
        "bound": null,
        "document_key": "506e8212ebbc5085afec4b36cb318262792275620e0853b16a9ed87085127109",
        "independence_group": "nps-cwsac",
-       "note": "live NPS cell; differs from the frozen 30,000; not a reproduction",
-       "class": "A"
+       "note": "live NPS cell; differs from the frozen 30,000; not a reproduction. The same page's description gives 'Butler's 30,000', Humphreys p.149 places Ames (about 5,000), Hinks (5,000) and about 3,000 in the intrenchments away from the Drury's Bluff fight, and the same 39,000 appears on the VA047 page, so whether it is this engagement's force is unresolved (as VA047, VA004)",
+       "class": "C"
       },
       {
        "id": "us-nps-desc",
@@ -57560,13 +57492,13 @@
       "point_basis": "reported_engaged",
       "method": "rule3_median",
       "labels": [
+       "applicability_unresolved",
        "compiled_dependence",
        "derivation_unknown",
        "whole_engagement_leakage"
       ],
       "point_groups": [
-       "us-cw",
-       "us-nps"
+       "us-cw"
       ],
       "range_groups": [
        "us-cw",
@@ -57965,7 +57897,7 @@
     },
     "dossier_quantities": []
    },
-   "rationale": "Frozen CWSAC figures for both sides (grade A). The live NPS Union cell (39,000) differs and widens the Union range. Livermore's totals use post-start returns and this engagement's losses (grade C, not used).",
+   "rationale": "Frozen CWSAC figures for both sides (grade A). The live NPS Union cell (39,000) differs, is scope_unresolved (the same cell appears at VA047; the page's description gives Butler's 30,000) and widens the Union range. Livermore's totals use post-start returns and this engagement's losses (grade C, not used).",
    "nested": {
     "sets": [
      "set1_A",
@@ -58079,15 +58011,16 @@
        },
        "basis": "unknown",
        "codes": [
+        "one_sided_bound",
         "partial_scope",
         "post_engagement_state"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": "lower",
+       "bound": null,
        "document_key": "e736c53ff48fe3e811a83006e45327f007413f6c3e9ab0da4b55896d2cb578d1",
        "independence_group": "humphreys-gettysburg-rapidan-1883",
-       "note": "infantry detached with Smith after May 22",
+       "note": "infantry detached with Smith after May 22, 'very nearly 16,000': a cap on one part does not bound the side (as VA062 cs-hoke)",
        "class": "bound"
       }
      ],
@@ -58105,7 +58038,7 @@
       "point_groups": [],
       "range_groups": []
      },
-     "null_reason": "No candidate value. Humphreys' infantry, cavalry and detached figures are parts of the force stated after the late-May detachment (after the start); recorded as bounds."
+     "null_reason": "No candidate value. Humphreys' infantry, cavalry and detached figures are parts of the force stated after the late-May detachment (after the start); the retained infantry and cavalry are recorded as bounds, and the detached 'very nearly 16,000' is a cap on one part (one_sided_bound, no bound)."
     },
     "Confederate": {
      "inputs": [
@@ -58345,7 +58278,7 @@
        "Butler's composition (cavalry, infantry and artillery): no count",
        "us-butler",
        "Wild 'no accurate count of their force': no count",
-       "Wild's estimate 'and probably triple' is garbled in OCR: unreadable_value, not entered",
+       "Wild's 'I estimated them at ... my own, and probably triple': a multiple of the Union garrison, not a count; first term garbled (unreadable_value); not entered",
        "Wild's 'detachments from three cavalry brigades' and 'cavalry, having three guns': no count"
       ]
      }
@@ -59356,6 +59289,7 @@
        "cs-johnson",
        "cs-gracie",
        "cs-14000",
+       "the Second Corps '28,000, as has been stated' in the us-2corps passage: an unattributed figure for a part of the force that Humphreys rejects; not entered",
        "reinforcements of Kershaw, Field and Hill on the 18th: no count"
       ]
      }
@@ -59491,7 +59425,6 @@
       "method": "rule3_median",
       "labels": [
        "applicability_unresolved",
-       "basis_mixed",
        "single_input",
        "whole_engagement_leakage"
       ],
@@ -59520,15 +59453,16 @@
        },
        "basis": "unknown",
        "codes": [
-        "adversary_or_hearsay_estimate"
+        "adversary_or_hearsay_estimate",
+        "partial_interval"
        ],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": null,
+       "bound": "lower",
        "document_key": "4d3e5132e7c6f99304413f5493e4828864cc121c02ad3f17fcf2b8f665d0553c",
        "independence_group": "hunter-lynchburg-1864-reports",
-       "note": "Hunter: the force at Lynchburg on the 17th 'variously estimated at from 10,000 to 15,000'",
-       "class": "C"
+       "note": "Hunter: the force at Lynchburg on the 17th 'variously estimated at from 10,000 to 15,000', before the overnight arrivals he reports; limited to June 17 of the June 17–18 record",
+       "class": "bound"
       },
       {
        "id": "cs-ewell-rumor",
@@ -59586,30 +59520,20 @@
       }
      ],
      "estimate": {
-      "grade": "C",
-      "point": 9380,
-      "low": 6250,
-      "high": 12500,
-      "exact": {
-       "point": "9375",
-       "low": "6250",
-       "high": "12500"
-      },
-      "point_basis": "unknown",
-      "method": "rule4_opponent_only",
+      "grade": "D",
+      "point": null,
+      "low": null,
+      "high": null,
+      "exact": null,
+      "point_basis": null,
+      "method": "grade_D_no_candidate",
       "labels": [
-       "basis_mixed",
-       "opponent_estimate_point",
-       "single_input",
        "whole_engagement_leakage"
       ],
-      "point_groups": [
-       "cs-hunter-17th"
-      ],
-      "range_groups": [
-       "cs-hunter-17th"
-      ]
-     }
+      "point_groups": [],
+      "range_groups": []
+     },
+     "null_reason": "No whole-interval candidate: Hunter's 10,000–15,000 describes the force of June 17 before the overnight arrivals he reports; the Ewell and Early 20,000 figures are a rumor and prisoners' statements of parts, the latter after the start; all recorded as bounds (not applied)."
     }
    },
    "inventory": {
@@ -59638,11 +59562,9 @@
     "livermore": null,
     "dossier_quantities": []
    },
-   "rationale": "Union from Pond's June 8 total at Staunton (applicability unresolved). Confederate only from Hunter's estimate on the 17th (rule 4).",
+   "rationale": "Union from Pond's June 8 total at Staunton (applicability unresolved). Confederate grade D: every figure is an opponent's or hearsay figure for part of the force or of the interval.",
    "nested": {
-    "sets": [
-     "set3_ABC"
-    ],
+    "sets": [],
     "excluded_post_start_information": false
    }
   },
@@ -59743,7 +59665,7 @@
       "point_groups": [],
       "range_groups": []
      },
-     "null_reason": "No figure for Wilson's and Kautz's force at Sappony Church in any inspected source."
+     "null_reason": "No figure for Wilson's and Kautz's force at Sappony Church in any inspected source. Wilson's 'about 5,500 cavalry and twelve guns' at the June 22 departure (VA113's citation) was considered but is not among this dossier's citations, and using it after Staunton River Bridge would borrow a figure across engagements."
     },
     "Confederate": {
      "inputs": [
@@ -59871,7 +59793,7 @@
       "point_groups": [],
       "range_groups": []
      },
-     "null_reason": "No figure for Wilson's and Kautz's force at Reams' Station in any inspected source."
+     "null_reason": "No figure for Wilson's and Kautz's force at Reams' Station in any inspected source. Wilson's 'about 5,500 cavalry and twelve guns' at the June 22 departure (VA113's citation) was considered but is not among this dossier's citations, and using it after Staunton River Bridge would borrow a figure across engagements."
     },
     "Confederate": {
      "inputs": [],
@@ -60273,7 +60195,7 @@
        "bound": null,
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "uses the 10th corps's August 31 return plus its losses of August 13-20",
+       "note": "uses the 10th corps's August 31 return plus its losses of August 13-20. Livermore heads the entry August 14-19 against the frozen August 13-20; not coded partial_interval because the frozen description has the same II Corps, X Corps and Gregg's division crossing on the night of August 13-14 and withdrawing on the 20th, and Livermore's components are those formations",
        "class": "C"
       },
       {
@@ -60300,7 +60222,7 @@
        "bound": null,
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "the present-for-duty sum behind the effectives line",
+       "note": "the present-for-duty sum behind the effectives line. Livermore heads the entry August 14-19 against the frozen August 13-20; not coded partial_interval because the frozen description has the same II Corps, X Corps and Gregg's division crossing on the night of August 13-14 and withdrawing on the 20th, and Livermore's components are those formations",
        "class": "C"
       }
      ],
@@ -60357,7 +60279,7 @@
        "bound": null,
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "August 31 returns (after the start); p.118 note 1 says this engagement's losses of August 14-19 should be added, so Livermore treats it as understated",
+       "note": "August 31 returns (after the start); p.118 note 1 says this engagement's losses of August 14-19 should be added, so Livermore treats it as understated. Livermore heads the entry August 14-19 against the frozen August 13-20; not coded partial_interval because the frozen description has the same II Corps, X Corps and Gregg's division crossing on the night of August 13-14 and withdrawing on the 20th, and Livermore's components are those formations",
        "class": "C"
       }
      ],
@@ -61265,7 +61187,7 @@
        "bound": "lower",
        "document_key": "b6ad82962d4880e9cc916ef8aaac01696f1ac5ed090a1e6af3ca6bf8da763144",
        "independence_group": "burbridge-1864-reports",
-       "note": "'it is said' Breckinridge was present with 4,000; one part",
+       "note": "prisoners' report relayed by Burbridge that Breckinridge was present with 4,000 from Lynchburg; one part",
        "class": "bound"
       },
       {
@@ -61334,7 +61256,7 @@
       "point_groups": [],
       "range_groups": []
      },
-     "null_reason": "No candidate value: Burbridge's figures are prisoners' reports with unreadable lower ends (only the upper ends 8,000 and 10,000 are recorded as bounds), Breckinridge's 4,000 is hearsay for one part, and Jackson's 300 is one reinforcement."
+     "null_reason": "No candidate value: Burbridge's enemy figures are opponent estimates whose lower ends are unreadable in the OCR (October 7, from prisoners, 'between G,0()0 and 8,000'; October 10, his own, 'from 0,000 to 10,000'). Only the upper ends 8,000 and 10,000 are recorded, as bounds. The 4,000 with Breckinridge is a prisoners' report for one part, and Jackson's 300 is one reinforcement."
     }
    },
    "inventory": {
@@ -62812,12 +62734,12 @@
        "codes": [
         "other_engagement"
        ],
-       "loss_timing": "none",
+       "loss_timing": "prior_engagements_only",
        "adjustments": [],
        "bound": null,
        "document_key": "688ea7363f1b9527c36ece155c03557699b4f7f52427830d3569c478a9df103f",
        "independence_group": "livermore-numbers-losses",
-       "note": "composite Dinwiddie and White Oak Road entry",
+       "note": "composite Dinwiddie and White Oak Road entry; adds 'loss of 5th corps, March 29 and 30' (before the March 31 start)",
        "class": "unusable"
       },
       {
@@ -66387,17 +66309,15 @@
         "lower": 4590,
         "upper": 4590
        },
-       "basis": "reported_engaged",
-       "codes": [
-        "partial_scope"
-       ],
+       "basis": "unknown",
+       "codes": [],
        "loss_timing": "none",
        "adjustments": [],
-       "bound": "lower",
+       "bound": null,
        "document_key": "fe6453bc36677fe564a2288d696ece35ce5271a5b33d70ba99a691077a62f7aa",
        "independence_group": "pond-shenandoah-valley-1883",
-       "note": "Imboden (own side, via Pond): infantry and artillery actually engaged; the 800 cavalry are separate",
-       "class": "bound"
+       "note": "Imboden (own side, via Pond): infantry actually engaged 3,440, artillery 350 and cavalry 800, printed total 4,590 (3,440 + 350 + 800); whole side, basis unstated for the total",
+       "class": "B"
       },
       {
        "id": "cs-imboden-cav",
@@ -66421,7 +66341,7 @@
        "bound": "lower",
        "document_key": "fe6453bc36677fe564a2288d696ece35ce5271a5b33d70ba99a691077a62f7aa",
        "independence_group": "pond-shenandoah-valley-1883",
-       "note": "Imboden: the cavalry",
+       "note": "Imboden: the cavalry; a component of the printed 4,590 (cs-imboden-engaged)",
        "class": "bound"
       },
       {
@@ -66568,7 +66488,6 @@
       "point_basis": "reported_engaged",
       "method": "rule3_median",
       "labels": [
-       "bound_conflict",
        "compiled_dependence",
        "derivation_unknown",
        "whole_engagement_leakage"
@@ -66578,6 +66497,7 @@
       ],
       "range_groups": [
        "cs-cw",
+       "cs-imboden-engaged",
        "cs-nps-desc",
        "cs-pond-range",
        "cs-sigel-est"
@@ -66609,7 +66529,7 @@
        "cs-echols",
        "cs-sigel-est",
        "cs-sigel-inf",
-       "the frozen battle-level '10,365 total' is the sum of the two side rows; Pond's relay of Sigel's May 1 count (about four thousand infantry, one thousand cavalry and three batteries) is a pre-campaign component list (not entered); Imboden's 3,440 infantry and 350 artillery are the components of the entered 4,590; Sigel's 'six regiments' is a formation count; Pond's deduction of two regiments has no count"
+       "the frozen battle-level '10,365 total' is the sum of the two side rows; Pond's relay of Sigel's May 1 count (about four thousand infantry, one thousand cavalry and three batteries) is a pre-campaign component list (not entered); Imboden's 3,440 infantry, 350 artillery and 800 cavalry are the components of the entered 4,590; Sigel's 'six regiments' is a formation count; Pond's deduction of two regiments has no count"
       ]
      }
     ],
@@ -66620,7 +66540,7 @@
     "livermore": null,
     "dossier_quantities": []
    },
-   "rationale": "Union: the frozen 6,275 and Sigel's own engaged 5,500 (lower middle 5,500); NPS's ordered 10,000 widens the range. Confederate: the frozen 4,090; Imboden's engaged infantry and artillery (4,590) is a lower bound above the point (bound_conflict); Sigel's estimate raises the high.",
+   "rationale": "Union: the frozen 6,275 and Sigel's own engaged 5,500 (lower middle 5,500); NPS's ordered 10,000 widens the range. Confederate: the frozen 4,090; Imboden's three-arm 4,590 and Pond's 4,600–5,000 enter the range; Sigel's estimate raises the high.",
    "nested": {
     "sets": [
      "set1_A",
@@ -68968,6 +68888,7 @@
        },
        "basis": "reported_engaged",
        "codes": [
+        "derived_from_losses",
         "post_engagement_state"
        ],
        "loss_timing": "not_prior",
@@ -69949,7 +69870,7 @@
         "lower": 3000,
         "upper": 3000
        },
-       "basis": "unknown",
+       "basis": "reported_engaged",
        "codes": [
         "adversary_or_hearsay_estimate"
        ],
@@ -69958,7 +69879,7 @@
        "bound": null,
        "document_key": "98ab922abc2687591203401a458bc961b97a325a2001867d23f3950f1b3bdf57",
        "independence_group": "pegram-rich-mountain-report",
-       "note": "Pegram: Rosecrans 'attacked ... with three thousand men' (opponent estimate of the attacking column)",
+       "note": "Pegram: Rosecrans 'attacked ... with three thousand men' (opponent estimate of the attacking column); engaged basis because Pegram's July 15 addendum (citation 9, same document) calls this figure 'their force engaged at Hart's, as before mentioned'",
        "printed_text": "three thousand",
        "class": "C"
       },
@@ -70020,25 +69941,25 @@
       "grade": "C",
       "point": 1900,
       "low": 1330,
-      "high": 3000,
+      "high": 2470,
       "exact": {
        "point": "1900",
        "low": "1330",
-       "high": "3000"
+       "high": "2470"
       },
       "point_basis": "unknown",
       "method": "rule3_median",
       "labels": [
        "applicability_unresolved",
        "basis_mixed",
+       "single_input",
        "whole_engagement_leakage"
       ],
       "point_groups": [
        "us-nicolay-1900"
       ],
       "range_groups": [
-       "us-nicolay-1900",
-       "us-pegram-3000-hart"
+       "us-nicolay-1900"
       ]
      }
     },

@@ -132,6 +132,21 @@
    "navy": "0"
   },
   {
+   "id": "cs-breckinridge",
+   "name": "Breckinridge",
+   "side": "Confederate",
+   "cwsac_names": [],
+   "passage_citation": {
+    "dossier": {
+     "claim_id": "shooting-of-wounded-prisoners",
+     "citation_index": 1
+    },
+    "source_id": "or39-1-gardner-saltville-selections-v1",
+    "quote": "paroled by Major-General Breckinridge",
+    "battle_id": "VA076"
+   }
+  },
+  {
    "id": "cs-bushrod-r-johnson",
    "name": "Bushrod R. Johnson",
    "side": "Confederate",
@@ -876,7 +891,23 @@
    "cwsac_names": [
     "John McCausland"
    ],
-   "navy": "0"
+   "navy": "0",
+   "passage_merges": [
+    {
+     "passage_id": "cs-mccausland",
+     "name": "McCausland",
+     "basis": "McCausland's own VA049 dispatch is signed 'JOHN McCAUSLAND, Colonel, Commanding', matching the listed John McCausland (listed elsewhere as Brigadier General; the rank differs by date)",
+     "citation": {
+      "dossier": {
+       "claim_id": "recorded-result",
+       "citation_index": 5
+      },
+      "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
+      "quote": "JOHN McCAUSLAND, Colonel, Commanding",
+      "battle_id": "VA049"
+     }
+    }
+   ]
   },
   {
    "id": "cs-john-p-mccown",
@@ -1004,14 +1035,14 @@
     {
      "passage_id": "cs-hagood",
      "name": "Hagood",
-     "basis": "the passage names 'General Johnson Hagood', matching the listed Johnson Hagood",
+     "basis": "Jones names 'Brigadier Generals Taliaferro, Johnson Hagood' as successive commanders of Wagner (SC007), matching the listed Johnson Hagood",
      "citation": {
       "dossier": {
-       "claim_id": "reported-force-scope",
-       "citation_index": 2
+       "claim_id": "command-roles",
+       "citation_index": 6
       },
       "source_id": "jones-charleston-1863-selections-v1",
-      "quote": "General Hagood relieved General Taliaferro in command of Wagner on the morring of the 19th.",
+      "quote": "commanded succes- sively by Brigadier Generals Taliaferro, Johnson Hagood",
       "battle_id": "SC007"
      }
     }
@@ -1212,21 +1243,6 @@
    "navy": "0"
   },
   {
-   "id": "cs-mccausland",
-   "name": "McCausland",
-   "side": "Confederate",
-   "cwsac_names": [],
-   "passage_citation": {
-    "dossier": {
-     "claim_id": "reported-force-scope",
-     "citation_index": 11
-    },
-    "source_id": "or37-1-mccausland-cloyds-mountain-selections-v1",
-    "quote": "As soon as I learned that General Jenkins had been wounded I assumed command",
-    "battle_id": "VA049"
-   }
-  },
-  {
    "id": "cs-micah-jenkins",
    "name": "Micah Jenkins",
    "side": "Confederate",
@@ -1335,6 +1351,21 @@
     "source_id": "cist-heartland-selections-v1",
     "quote": "The enemy's troops engaged in the battle were under the immediate command of General Polk.",
     "battle_id": "KY009"
+   }
+  },
+  {
+   "id": "cs-polk-mo009",
+   "name": "Polk",
+   "side": "Confederate",
+   "cwsac_names": [],
+   "passage_citation": {
+    "dossier": {
+     "claim_id": "reported-force-scope",
+     "citation_index": 5
+    },
+    "source_id": "or3-pillow-belmont-selections-v1",
+    "quote": "Under instructions delivered in person by Major-General Polk",
+    "battle_id": "MO009"
    }
   },
   {
@@ -1752,7 +1783,7 @@
      "citation_index": 2
     },
     "source_id": "jones-charleston-1863-selections-v1",
-    "quote": "he was assigned to the com- mand of Battery Wagner on the 13th.",
+    "quote": "Brigadier General William B. Taliaferro, who was on duty at Savannah when the descent was made on Morris Island",
     "battle_id": "SC007"
    }
   },
@@ -2678,21 +2709,6 @@
    "navy": "0"
   },
   {
-   "id": "us-franklin",
-   "name": "Franklin",
-   "side": "US",
-   "cwsac_names": [],
-   "passage_citation": {
-    "dossier": {
-     "claim_id": "reported-force-scope",
-     "citation_index": 6
-    },
-    "source_id": "irwin-red-river-selections-v1",
-    "quote": "turned over the direction and control of the march to Franklin.",
-    "battle_id": "LA021"
-   }
-  },
-  {
    "id": "us-franz-sigel",
    "name": "Franz Sigel",
    "side": "US",
@@ -3506,12 +3522,12 @@
    "side": "US",
    "cwsac_names": [],
    "passage_citation": {
-    "dossier": {
-     "claim_id": "reported-force-scope",
-     "citation_index": 4
+    "source_id": "arnold-cwsac-battles",
+    "row_key": {
+     "battle": "MO015"
     },
-    "source_id": "or13-foster-lone-jack-selections-v1",
-    "quote": "Captain Brawner was then in command.",
+    "column": "description",
+    "quote": "Foster's successor, Capt. M.H. Brawner to order a retreat",
     "battle_id": "MO015"
    }
   },
@@ -3842,6 +3858,21 @@
    "navy": "0"
   },
   {
+   "id": "us-theodore-h-dodd",
+   "name": "Theodore H. Dodd",
+   "side": "US",
+   "cwsac_names": [],
+   "passage_citation": {
+    "dossier": {
+     "claim_id": "command-roles",
+     "citation_index": 1
+    },
+    "source_id": "or22-1-williams-cabin-creek-selections-v1",
+    "quote": "Lieutenant-Colonel [Theodore H.] Dodd, commanding escort to the train,",
+    "battle_id": "OK006"
+   }
+  },
+  {
    "id": "us-thomas-a-morris",
    "name": "Thomas A. Morris",
    "side": "US",
@@ -3962,6 +3993,21 @@
    "navy": "0"
   },
   {
+   "id": "us-washburn",
+   "name": "Washburn",
+   "side": "US",
+   "cwsac_names": [],
+   "passage_citation": {
+    "dossier": {
+     "claim_id": "recorded-result",
+     "citation_index": 2
+    },
+    "source_id": "or39-1-sturgis-brices-cross-roads-selections-v1",
+    "quote": "Maj. Gen. G. G. Washburn",
+    "battle_id": "MS014"
+   }
+  },
+  {
    "id": "us-white",
    "name": "White",
    "side": "US",
@@ -3983,7 +4029,23 @@
    "cwsac_names": [
     "William B. Franklin"
    ],
-   "navy": "0"
+   "navy": "0",
+   "passage_merges": [
+    {
+     "passage_id": "us-franklin",
+     "name": "Franklin",
+     "basis": "Irwin's appendix names 'Nineteenth Army Corps : Major - General William B. Franklin', the corps commander whom the LA021 passages call Franklin; it matches the listed William B. Franklin",
+     "citation": {
+      "dossier": {
+       "claim_id": "casualty-records",
+       "citation_index": 9
+      },
+      "source_id": "irwin-red-river-selections-v1",
+      "quote": "Nineteenth Army Corps : Major - General William B. Franklin",
+      "battle_id": "LA018"
+     }
+    }
+   ]
   },
   {
    "id": "us-william-b-hazen",

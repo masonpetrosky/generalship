@@ -2,7 +2,7 @@
  "schema_version": 1,
  "version": 2,
  "kind": "command_responsibility_ledger",
- "status": "extracted_not_reviewed_not_rated",
+ "status": "reviewed_reconciled_not_rated",
  "bindings": {
   "design": {
    "path": "docs/commander-ratings.md",
@@ -10,7 +10,7 @@
   },
   "addendum": {
    "path": "docs/ledgers-v2.md",
-   "sha256": "a7e05ddfc072c493f8f9152064e444e4b285e070a7dfcdbd279e80fc4aa49eb1"
+   "sha256": "9076d96bd317568f6bf976d1a63f7696a7d7abc22b3f72597af96701ee1ec2ee"
   },
   "cohort": {
    "path": "data/pilot/cohort-v2.json",
@@ -18,7 +18,7 @@
   },
   "registry": {
    "path": "data/command/commanders-v2.json",
-   "sha256": "cdf72348c809256c80fd77a03b3afc8371bcfa96e1c0e89fc7113ffb9ebe267c"
+   "sha256": "91fc25260c8370a64b7599940dec22c7640efac8b497dc6ae99ff6eeb45e3768"
   },
   "cited_sources": {
    "allan-valley-selections-v1": {
@@ -1292,10 +1292,6 @@
    "pond-sheridan-valley-selections-v1": {
     "metadata_sha256": "cfa13a252e2adcc43181f3b34351bf8bd3347be5dfdb45c2935fe128a49895d0",
     "raw_sha256": "ea0bd40e3e63ac9205cadc0b277ae183a993b2ca6697cc1f69d54bbd41482f15"
-   },
-   "pond-waynesboro-selections-v2": {
-    "metadata_sha256": "7a03fc9c246e7e8cb4c822ca99d465eb431f071159e880f7ceb409388d2a70a8",
-    "raw_sha256": "f2fb17235771627c08e80b5458d5401e6d54cb6be5671a3de80627d56de9f6e1"
    },
    "ropes-northern-virginia-selections-v1": {
     "metadata_sha256": "504e1fe55614ea290fa0cbd63884fc9f903fdda091bda1c0f16c0eb23782b0ef",
@@ -4716,7 +4712,7 @@
      "commander_id": "cs-john-s-marmaduke",
      "grade": "A",
      "rule": "2",
-     "echelon": "unknown",
+     "echelon": "division",
      "labels": [],
      "candidates": [],
      "successor": null,
@@ -4753,7 +4749,7 @@
        "battle_id": "AR011"
       }
      ],
-     "rationale": "The description has Clayton's company run into Marmaduke's men, and Clayton has the flag of truce bring Marmaduke's surrender demand (rule 2, grade A). No Confederate report was inspected."
+     "rationale": "The description has Clayton's company run into Marmaduke's men, and Clayton has the flag of truce bring Marmaduke's surrender demand (rule 2, grade A). No Confederate report was inspected. Echelon from the frozen forces row ('division'), as for Marmaduke at MO020 and AR007."
     }
    }
   },
@@ -5146,6 +5142,15 @@
        "source_id": "britton-camden-selections-v1",
        "quote": "General Smith sent out an expedition, under General Fagan,",
        "battle_id": "AR015"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 5
+       },
+       "source_id": "or34-1-price-camden-selections-v1",
+       "quote": "On April 19, General Smith reached the field of opera- tions,",
+       "battle_id": "AR015"
       }
      ],
      "citations": [
@@ -5179,7 +5184,7 @@
        "battle_id": "AR015"
       }
      ],
-     "rationale": "Price says Fagan, with his own division, made a forced march and attacked at Marks' Mills; Britton agrees (rule 2). Britton says Kirby Smith, having assumed command in person, sent the expedition under Fagan with instructions (superior_directing: E. Kirby Smith)."
+     "rationale": "Price says Fagan, with his own division, made a forced march and attacked at Marks' Mills; Britton agrees (rule 2). Britton says Kirby Smith, having assumed command in person, sent the expedition under Fagan with instructions (superior_directing: E. Kirby Smith). The sources differ on timing: Price says Smith reached the field of operations on April 19, the day Fagan received his orders, but assumed command of the Army of Arkansas in person only on April 26, after Marks' Mills; Price's 'received orders' does not name who gave them."
     }
    }
   },
@@ -5365,7 +5370,7 @@
        "battle_id": "AR017"
       }
      ],
-     "rationale": "The description has A. J. Smith ordering Mower to demonstrate and Mower marching on Lake Village. Mower's report shows the cavalry advance already skirmishing when he came up with two brigades of his division, and A. J. Smith, the general commanding the detachment, arriving then, ordering the cavalry withdrawn, sending a battery and later Gilbert's brigade (rule 4: command_changed, successor A. J. Smith; superior_directing: A. J. Smith). Greene says 'Major-General Smith commanded' the Union force, so the sources disagree about who commanded; Greene's statement is not timed against Smith's arrival, and no passage names who commanded the cavalry at the first skirmish. The listing stands at grade C with A. J. Smith as candidate."
+     "rationale": "The description has A. J. Smith ordering Mower to demonstrate and Mower marching on Lake Village. Mower's report shows the cavalry advance already skirmishing when he came up with two brigades of his division, and A. J. Smith, the general commanding the detachment, arriving then, ordering the cavalry withdrawn, sending a battery and later Gilbert's brigade (rule 4: command_changed, successor A. J. Smith; superior_directing: A. J. Smith). Greene says 'Major-General Smith commanded' the Union force, so the sources disagree about who commanded; Greene's statement is not timed against Smith's arrival, and no passage names who commanded the cavalry at the first skirmish. Mower debarked with only the Second and Third Brigades of his division, and the cavalry were already in advance and skirmishing when he came up, so the first combat was by cavalry the passages do not show under Mower; this strengthens the A. J. Smith alternative, and if Greene's 'Major-General Smith commanded' is read as a contradiction, rule 2 would give A. J. Smith at grade C. The listing stands at grade C with A. J. Smith as candidate."
     },
     "Confederate": {
      "side": "Confederate",
@@ -6135,7 +6140,7 @@
     "Confederate": {
      "side": "Confederate",
      "commander_id": "cs-sam-jones",
-     "grade": "A",
+     "grade": "B",
      "rule": "2",
      "echelon": "unknown",
      "labels": [],
@@ -6154,18 +6159,9 @@
        "column": "rank",
        "quote": "Major General",
        "battle_id": "FL006"
-      },
-      {
-       "dossier": {
-        "claim_id": "reported-force-scope",
-        "citation_index": 6
-       },
-       "source_id": "or49-1-newton-natural-bridge-selections-v1",
-       "quote": "commanded by Generals Jones and Miller.",
-       "battle_id": "FL006"
       }
      ],
-     "rationale": "Rule 2. Newton, the opposing commander, writing a month later, says the Confederate force was 'commanded by Generals Jones and Miller'; Jones is the listed officer and Newton elsewhere calls Miller a brigadier general. The passage does not say which of the two commanded when the fighting began before dawn, and no Confederate report was inspected. Graded A on the listing plus that statement; a reviewer may judge the joint naming too weak."
+     "rationale": "Rule 2, grade B. Newton, the opposing commander, writing a month later, says the Confederate force 'altogether' was 'commanded by Generals Jones and Miller' (Newton elsewhere calls Miller a brigadier general). The passage names two officers jointly for the whole force, including the reinforcements he says arrived about noon. It does not say who commanded when the fighting began before dawn, and no Confederate report was inspected. It names no officer to the exclusion of the listed Jones, so the listing stands uncontradicted."
     }
    }
   },
@@ -6280,7 +6276,7 @@
        "battle_id": "GA001"
       }
      ],
-     "rationale": "Hunter (Major General) and Gillmore (Captain), both army. Gillmore was charged 'in the double capacity of engineer and commander of the forces' with the offensive operations on Tybee Island (Gillmore; Jones agrees), and the description has him beginning the bombardment on April 10 (rule 3(a)). Hunter, commanding the department, arrived on Tybee with Benham the evening before the bombardment and sent the summons on the morning of the 10th (superior_directing: Hunter). Gillmore's account of the opening says only 'The order was given to open fire', so who gave it is not stated; that and Hunter's presence are recorded, not treated as a contradiction. Benham (district commander, also present) is not listed. Note: 'Captain' is not in the declared army rank order, so the checker's rank step cannot run on this side; the choice does not rest on rank."
+     "rationale": "Hunter (Major General) and Gillmore (Captain), both army. Gillmore was charged 'in the double capacity of engineer and commander of the forces' with the offensive operations on Tybee Island (Gillmore; Jones agrees), and the description has him beginning the bombardment on April 10 (rule 3(a)). Hunter, commanding the department, arrived on Tybee with Benham the evening before the bombardment and sent the summons on the morning of the 10th (superior_directing: Hunter). Gillmore's account of the opening says only 'The order was given to open fire', so who gave it is not stated; that and Hunter's presence are recorded, not treated as a contradiction. Benham (district commander, also present) is not listed. The choice does not rest on rank: by listed rank Hunter (Major General) outranks Gillmore (Captain), and rule 3(b) would apply only if no passage decided the side."
     },
     "Confederate": {
      "side": "Confederate",
@@ -6817,7 +6813,7 @@
        "battle_id": "GA006"
       }
      ],
-     "rationale": "Thomas's report speaks of 'the four divisions I had opposed to it' and his decision to withdraw (rule 2). Palmer directed the advance on Tunnel Hill and Cruft's position (subordinate context). Grant, commanding the military division, told Thomas to make the move to his immediate front with the object of gaining Dalton (superior_directing: Grant); the order was sent, not given on the field."
+     "rationale": "Thomas's report speaks of 'the four divisions I had opposed to it' and his decision to withdraw (rule 2). Palmer directed the advance on Tunnel Hill and Cruft's position (subordinate context); Thomas refers to 'General Palmer's command at Ringgold' and no inspected passage places Thomas in the field, so Palmer may have been the field commander, but no passage names him over the whole engaged force (rule 2, second bullet). Grant, commanding the military division, told Thomas to make the move to his immediate front with the object of gaining Dalton (superior_directing: Grant); the order was sent, not given on the field."
     },
     "Confederate": {
      "side": "Confederate",
@@ -7479,6 +7475,15 @@
        "source_id": "cox-atlanta-selections-v2",
        "quote": "Schofield, in accordance with instructions from General Sherman, made no serious effort to cross the stream",
        "battle_id": "GA014"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 2
+       },
+       "source_id": "cox-atlanta-selections-v2",
+       "quote": "was concerned lest Schofield had not fully met the spirit of his instructions",
+       "battle_id": "GA014"
       }
      ],
      "citations": [
@@ -7715,6 +7720,15 @@
        },
        "source_id": "cox-atlanta-selections-v2",
        "quote": "whilst Thomas with more than half the whole army marched by several roads",
+       "battle_id": "GA016"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 5
+       },
+       "source_id": "cox-atlanta-selections-v2",
+       "quote": "Sherman therefore determined that the longest way round would prove the surest",
        "battle_id": "GA016"
       }
      ],
@@ -8350,6 +8364,24 @@
        "column": "description",
        "quote": "Sherman, therefore, decided to move six of his seven infantry corps against the supply lines.",
        "battle_id": "GA022"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 7
+       },
+       "source_id": "cox-atlanta-selections-v2",
+       "quote": "About three o'clock in the afternoon Hardee advanced against the Army of the Tennessee",
+       "battle_id": "GA022"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 7
+       },
+       "source_id": "cox-atlanta-selections-v2",
+       "quote": "Sherman's impatience at the delay became so great that Thomas galloped away in jDerson on the same errand",
+       "battle_id": "GA022"
       }
      ],
      "rationale": "Rule 2, single listing. The description has Sherman moving six corps against the railroad; Howard's Army of the Tennessee received the attack of August 31 and Davis's corps broke through on September 1 (Cox): subordinate context. Cox has Sherman and Thomas urging Stanley's corps forward on September 1."
@@ -8654,7 +8686,8 @@
       "responsibility_unresolved"
      ],
      "candidates": [
-      "cs-pleasant-j-philips"
+      "cs-pleasant-j-philips",
+      "cs-g-w-smith"
      ],
      "successor": null,
      "superior": null,
@@ -8708,9 +8741,18 @@
        "source_id": "or44-gw-smith-selections-v1",
        "quote": "General Wheeler was the senior officer on this theater of operations, and without giving direct orders to the infantry and artil¬ lery",
        "battle_id": "GA025"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 5
+       },
+       "source_id": "or44-gw-smith-selections-v1",
+       "quote": "my order to avoid an engagement at that place and time, a collision occurred",
+       "battle_id": "GA025"
       }
      ],
-     "rationale": "Wheeler (Major General) and Philips (Brigadier General). No inspected passage shows who commanded the side's engaged forces when the fighting began, so rule 3(b) gives the senior listed officer, Wheeler (grade C). Against that choice: Woods says the first combat was with part of Wheeler's cavalry and that two of his brigades stood in reserve during the militia's assaults, but G. W. Smith says Wheeler, the senior officer in the theater, gave no direct orders to the infantry and artillery, and that the militia attacked despite Smith's order to avoid an engagement (Smith was detained in Macon and does not name who led the militia). Philips is named only in the listing, the NPS principal-commander field (same family) and Woods's report of prisoners' claims that 'Major-General Phillips' was killed; none states his command. Hardee ordered the militia toward Augusta; that is the movement, not the fight, so no superior label."
+     "rationale": "Wheeler (Major General) and Philips (Brigadier General). No inspected passage shows who commanded the side's engaged forces when the fighting began, so rule 3(b) gives the senior listed officer, Wheeler (grade C). Against that choice: Woods says the first combat was with part of Wheeler's cavalry and that two of his brigades stood in reserve during the militia's assaults. The assaulting militia were G. W. Smith's command. His report says the collision occurred 'Notwith- s tan ding my order to avoid an engagement at that place and time' and that the troops were withdrawn to Macon by his order. Smith was detained in Macon, however, and does not name who led them on the field (G. W. Smith recorded as an unlisted candidate). Smith's November 19 letter, written three days before the action, says Wheeler, 'the senior officer on this theater of operations', gave no direct orders to the infantry and artillery when he advised the move to Macon. That concerns the earlier movement, not the command at Griswoldville. Philips is named only in the listing, the NPS principal-commander field (same family) and Woods's report of prisoners' claims that 'Major-General Phillips' was killed; none states his command. Hardee ordered the militia toward Augusta; that is the movement, not the fight, so no superior label."
     }
    }
   },
@@ -9046,7 +9088,7 @@
     "Confederate": {
      "side": "Confederate",
      "commander_id": "cs-george-a-anderson",
-     "grade": "A",
+     "grade": "B",
      "rule": "2",
      "echelon": "detachment_or_post",
      "labels": [],
@@ -9065,18 +9107,9 @@
        "column": "rank",
        "quote": "Major",
        "battle_id": "GA028"
-      },
-      {
-       "dossier": {
-        "claim_id": "reported-force-scope",
-        "citation_index": 5
-       },
-       "source_id": "cox-savannah-selections-v2",
-       "quote": "son was about two hundred men under command of Major G. W. Anderson.",
-       "battle_id": "GA028"
       }
      ],
-     "rationale": "Rule 2. Cox puts the garrison under Major Anderson. His initials (G. W.) differ from the listing (George A.); rank and post agree, and no inspected passage names another commander."
+     "rationale": "Rule 2, grade B. Cox puts the garrison of about two hundred men 'under command of Major G. W. Anderson'. His initials (G. W.) conflict with the listing's George A. Anderson. No listing field or passage identifies the two, and the ledger keeps conflicting initials separate (as with James B./James F. Fagan), so the passage is not taken as stating the listed officer's command. It establishes no different officer either, so the listing stands uncontradicted (as at GA002)."
     }
    }
   },
@@ -9728,7 +9761,7 @@
      "commander_id": "us-albin-f-schoepf",
      "grade": "A",
      "rule": "2",
-     "echelon": "brigade",
+     "echelon": "unknown",
      "labels": [
       "superior_directing"
      ],
@@ -9784,9 +9817,18 @@
        "source_id": "or4-schoepf-wildcat-selections-v1",
        "quote": "under the immediate command of Colonels Coburn and Wolforcl.",
        "battle_id": "KY002"
+      },
+      {
+       "dossier": {
+        "claim_id": "stated-aims",
+        "citation_index": 2
+       },
+       "source_id": "or4-schoepf-wildcat-selections-v1",
+       "quote": "I can hold my position with my present force against an equal or superior number, should the enemy again attack.",
+       "battle_id": "KY002"
       }
      ],
-     "rationale": "Rule 2, single listing. The description has Schoepf arrive with about a brigade before his men met the Confederates, and Schoepf reports the fight, with the men 'under the immediate command of Colonels Coburn and Wolford' (subordinates). Garrard held the camp before Schoepf arrived. Thomas sent Garrard and then Schoepf, and Schoepf awaits his orders (superior_directing: Thomas, the v1 listing 'George H. Thomas'); Thomas was at Camp Dick Robinson."
+     "rationale": "Rule 2, single listing. The description has Schoepf arrive with about a brigade before his men met the Confederates, and Schoepf reports the fight, with the men 'under the immediate command of Colonels Coburn and Wolford' (subordinates), and writes 'I can hold my position with my present force'. Garrard held the camp before Schoepf arrived. Echelon unknown: 'what amounted to a brigade' describes only Schoepf's reinforcement, and the description puts the combined force at about 7,000. Thomas sent Garrard and then Schoepf, and Schoepf awaits his orders (superior_directing: Thomas, the v1 listing 'George H. Thomas'); Thomas was at Camp Dick Robinson."
     },
     "Confederate": {
      "side": "Confederate",
@@ -10905,9 +10947,18 @@
        "source_id": "mahan-new-orleans-selections-v2",
        "quote": "he changed his plan and directed that the starboard column should advance first,",
        "battle_id": "LA001"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 3
+       },
+       "source_id": "mahan-new-orleans-selections-v2",
+       "quote": "The steam vessels of the flotilla were at once ordered by the flag-officer to Southwest Pass",
+       "battle_id": "LA001"
       }
      ],
-     "rationale": "A cited passage states the command. The side's first combat was the mortar bombardment from April 16 by Porter's flotilla, which Mahan puts 'under the command of Commander ... David D. Porter' within Farragut's assembled force; Porter led part of the force (rule 2, second bullet). Butler's army is not listed and did not fight within the interval in the inspected passages."
+     "rationale": "A cited passage states the command. The side's first combat was the mortar bombardment from April 16 by Porter's flotilla, which Mahan puts 'under the command of Commander ... David D. Porter' within Farragut's assembled force; Porter led part of the force (rule 2, second bullet); Mahan has the flotilla's steam vessels 'at once ordered by the flag-officer to Southwest Pass'. Butler's army is not listed and did not fight within the interval in the inspected passages."
     },
     "Confederate": {
      "side": "Confederate",
@@ -11232,7 +11283,7 @@
      "commander_id": "cs-john-c-breckinridge",
      "grade": "A",
      "rule": "2",
-     "echelon": "corps_or_wing",
+     "echelon": "unknown",
      "labels": [
       "superior_directing"
      ],
@@ -11290,7 +11341,7 @@
        "battle_id": "LA003"
       }
      ],
-     "rationale": "A cited passage states the command: Breckinridge organized the force in two divisions under Clark and Ruggles and commanded the attack; Clark's wounding is a subordinate's. Van Dorn ordered the movement to Camp Moore and Baton Rouge and set its object (superior_directing: Van Dorn). Echelon: the description says 'his corps'; Breckinridge's report heading says 'Breckinridge's Division' and 'a portion of my division'."
+     "rationale": "A cited passage states the command: Breckinridge organized the force in two divisions under Clark and Ruggles and commanded the attack; Clark's wounding is a subordinate's. Van Dorn ordered the movement to Camp Moore and Baton Rouge and set its object (superior_directing: Van Dorn). Echelon unknown: the description says 'his corps'; Breckinridge's report heading says 'Breckinridge's Division' and 'a portion of my division'. The sources disagree, so no echelon is recorded."
     }
    }
   },
@@ -11767,12 +11818,12 @@
        "battle_id": "LA008"
       },
       {
-       "dossier": {
-        "claim_id": "reported-force-scope",
-        "citation_index": 2
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "LA008"
        },
-       "source_id": "irwin-west-louisiana-1863-selections-v1",
-       "quote": "From New Iberia Banks ordered Grover to send a detachment",
+       "column": "description",
+       "quote": "Banks, in pursuit, sent two columns, on different roads, toward Vermillion Bayou on the morning of April 17.",
        "battle_id": "LA008"
       }
      ],
@@ -11807,7 +11858,7 @@
        "battle_id": "LA008"
       }
      ],
-     "rationale": "Irwin has Grover, with the main body of his division, pursue on the Vermilion road and engage Green's rear guard at the bridge, while Banks went by Saint Martinsville; Dwight's skirmishers were Grover's (rule 2, grade A). Banks directed the pursuit and ordered Grover's detachments (superior_directing: Banks)."
+     "rationale": "Irwin has Grover, with the main body of his division, pursue on the Vermilion road and engage Green's rear guard at the bridge, while Banks went by Saint Martinsville; Dwight's skirmishers were Grover's (rule 2, grade A). Banks directed the pursuit and sent two columns toward Vermillion Bayou on the 17th (description); he himself marched by Saint Martinsville (superior_directing: Banks)."
     },
     "Confederate": {
      "side": "Confederate",
@@ -11993,9 +12044,18 @@
        "source_id": "irwin-port-hudson-selections-v1",
        "quote": "his advance fell in with a detachment of the garrison under Colo- nel S. P. Powers of the 14th Arkansas regiment,",
        "battle_id": "LA009"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 4
+       },
+       "source_id": "irwin-port-hudson-selections-v1",
+       "quote": "This brought on the action known as the battle of Plains Store.",
+       "battle_id": "LA009"
       }
      ],
-     "rationale": "Both listed colonels tie on rank. The description and Irwin put the detachment first engaged under Powers (rule 3(a)). Miles's legion went out later, on Gardner's orders, and attacked after Powers's force had retreated; no inspected passage says Miles took command of Powers's detachment, so no command change is recorded. Irwin's 'S. P. Powers' differs from the listing's 'Frank P. Powers'; identity rests on the description. Gardner sent Miles out (superior_directing: Gardner)."
+     "rationale": "Both listed colonels tie on rank. The description and Irwin put the detachment first engaged under Powers (rule 3(a)). Miles's legion went out later, on Gardner's orders, and attacked after Powers's force had retreated; no inspected passage says Miles took command of Powers's detachment, so no command change is recorded. Irwin's 'S. P. Powers' differs from the listing's 'Frank P. Powers'; identity rests on the description; Irwin's colonel is linked by the event, not the name. Irwin says Miles's sortie 'brought on the action known as the battle of Plains Store', a different framing from the description's sequence, but in both the first contact of the day is Powers's detachment. Gardner sent Miles out (superior_directing: Gardner)."
     }
    }
   },
@@ -13203,7 +13263,7 @@
       "us-nathaniel-p-banks"
      ],
      "successor": null,
-     "superior": "us-franklin",
+     "superior": "us-william-b-franklin",
      "superior_citations": [
       {
        "dossier": {
@@ -13264,14 +13324,14 @@
        "battle_id": "LA021"
       }
      ],
-     "rationale": "Irwin says Banks turned over the direction and control of the march to Franklin on the 21st, and that on the morning of the 23rd Franklin, disabled by his wound, turned over his command to Emory with orders to dislodge the enemy; the description has the advance party that met Bee on the 23rd commanded by Emory. Both name Emory as commanding the engaged forces when the fighting began, contradicting the single listing of Banks (rule 2, third bullet; grade C, Banks a candidate). Franklin reconnoitred and set the plan before handing over (superior_directing: Franklin). Birge led the flanking column (subordinate context). Emory and Franklin are registered only from these passages."
+     "rationale": "Irwin says Banks turned over the direction and control of the march to Franklin on the 21st, and that on the morning of the 23rd Franklin, disabled by his wound, turned over his command to Emory with orders to dislodge the enemy; the description has the advance party that met Bee on the 23rd commanded by Emory. Both name Emory as commanding the engaged forces when the fighting began, contradicting the single listing of Banks (rule 2, third bullet; grade C, Banks a candidate). Franklin reconnoitred and set the plan before handing over (superior_directing: Franklin). Birge led the flanking column (subordinate context). Irwin has Franklin reconnoitring at daylight on the 23rd before handing over, and Taylor has the head of the Union column reaching Bee's front about 2 p.m. on the 22nd; no inspected passage says whether firing on the 23rd began before the handover. If it did, Franklin would be the choice (grade C), with command_changed and Emory as successor. Emory and Franklin are registered only from these passages."
     },
     "Confederate": {
      "side": "Confederate",
      "commander_id": "cs-hamilton-p-bee",
      "grade": "A",
      "rule": "2",
-     "echelon": "division",
+     "echelon": "unknown",
      "labels": [
       "superior_directing"
      ],
@@ -13327,9 +13387,18 @@
        "source_id": "or34-1-taylor-red-river-selections-v1",
        "quote": "he allowed the enemy to outma- neuver him and force him back.",
        "battle_id": "LA021"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 4
+       },
+       "source_id": "or34-1-taylor-red-river-selections-v1",
+       "quote": "Bee was in posi- tion at Monett’s Ferry with Major’s, Bagby’s, Debray’s, and Terrell’s brigades of cavalry",
+       "battle_id": "LA021"
       }
      ],
-     "rationale": "The description has Bee's cavalry division at the crossing, and Taylor says Bee held the position until about 2 p.m. on the 23rd and was outmaneuvered (rule 2). Taylor says the importance of holding it had been impressed on Bee by Wharton and himself (superior_directing: Taylor), though communication with Bee was difficult; Taylor's criticism of Bee is an interested account."
+     "rationale": "The description has Bee's cavalry division at the crossing; Taylor says Bee was in position at Monett's Ferry with Major's, Bagby's, Debray's and Terrell's brigades of cavalry and held it until about 2 p.m. on the 23rd, when he was outmaneuvered (rule 2). Echelon unknown: the description calls the force Bee's cavalry division, but Taylor and Irwin put Major's two brigades under him beside his own, so he held more than one division's brigades. Taylor says the importance of holding it had been impressed on Bee by Wharton and himself (superior_directing: Taylor), though communication with Bee was difficult; Taylor's criticism of Bee is an interested account."
     }
    }
   },
@@ -13381,9 +13450,18 @@
        "source_id": "irwin-red-river-selections-v1",
        "quote": "Banks's losses were small,",
        "battle_id": "LA022"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 7
+       },
+       "source_id": "irwin-red-river-selections-v1",
+       "quote": "The infantry rapidly formed line of battle, Mower on the right, Kilby Smith next, Emory in the centre, Lawler on the left,",
+       "battle_id": "LA022"
       }
      ],
-     "rationale": "Irwin has Banks marching the army from Alexandria with Lawler, Emory and A. J. Smith's divisions and forming line on the Mansura prairie (rule 2). The division commanders are subordinate context."
+     "rationale": "Irwin has Banks marching the army from Alexandria on May 13, Lawler leading the infantry column, Emory next and A. J. Smith's divisions in the rear, and at Mansura speaks of 'Banks's losses' (rule 2). Irwin says 'The infantry rapidly formed line of battle' without naming who ordered it. The division commanders are subordinate context."
     },
     "Confederate": {
      "side": "Confederate",
@@ -13828,6 +13906,15 @@
        "source_id": "snead-missouri-1861-selections-v1",
        "quote": "received orders from the Governor to fall back to the city",
        "battle_id": "MO001"
+      },
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "MO001"
+       },
+       "column": "description",
+       "quote": "Claiborne Jackson, the pro-Southern Governor of Missouri",
+       "battle_id": "MO001"
       }
      ],
      "citations": [
@@ -13861,7 +13948,7 @@
        "battle_id": "MO001"
       }
      ],
-     "rationale": "Rule 2, single listing. The description says the State troops were 'commanded on the field by Col. John S. Marmaduke', and Snead has Lyon's skirmishers encounter Marmaduke. Snead says Governor Jackson ordered Marmaduke out over his protest and ordered him back during the engagement (superior_directing: the Governor, the MO002 listing 'Clairborne Jackson'). Echelon not stated (his regiment and other armed men in the city)."
+     "rationale": "Rule 2, single listing. The description says the State troops were 'commanded on the field by Col. John S. Marmaduke', and Snead has Lyon's skirmishers encounter Marmaduke. Snead says Governor Jackson ordered Marmaduke out over his protest and ordered him back during the engagement (superior_directing: the Governor; the frozen description names 'Claiborne Jackson, the pro-Southern Governor of Missouri', taken as the MO002 listing 'Clairborne Jackson'). Echelon not stated (his regiment and other armed men in the city)."
     }
    }
   },
@@ -14399,9 +14486,18 @@
        "source_id": "britton-border-1-missouri-1861-selections-v1",
        "quote": "General Rains declined to be drawn out of the timber, where he had his troops post-",
        "battle_id": "MO005"
+      },
+      {
+       "dossier": {
+        "claim_id": "casualty-records",
+        "citation_index": 3
+       },
+       "source_id": "or3-lane-dry-wood-selections-v1",
+       "quote": "Brig. Gen. J. S. Rains cornmandiDg",
+       "battle_id": "MO005"
       }
      ],
-     "rationale": "Rule 3(b). Price (Major General) outranks Rains (Brigadier General). Britton puts Price at the head of his army at Dry Wood the night before and has Rains's division in the advance, holding the timber where it met the Kansas cavalry; no inspected passage shows who directed the September 2 fight (compare v1 VA026). Lane's letter speaks only of 'the column of Price and Rains'."
+     "rationale": "Rule 3(b). Price (Major General) outranks Rains (Brigadier General). Britton puts Price at the head of his army at Dry Wood the night before and has Rains's division in the advance, holding the timber where it met the Kansas cavalry; no inspected passage shows who directed the September 2 fight (compare v1 VA026). Lane's letter speaks only of 'the column of Price and Rains'. The compilers' footnote to Lane's report gives the Confederate loss from a return of 'the Eighth Division Missouri State Guard, Brig. Gen. J. S. Rains cornmandiDg', which supports Britton in placing the engaged force in Rains's division; it does not show who directed the fight."
     }
    }
   },
@@ -14817,8 +14913,8 @@
       "superior_directing"
      ],
      "candidates": [],
-     "successor": "cs-polk",
-     "superior": "cs-polk",
+     "successor": "cs-polk-mo009",
+     "superior": "cs-polk-mo009",
      "superior_citations": [
       {
        "dossier": {
@@ -14870,7 +14966,7 @@
        "battle_id": "MO009"
       }
      ],
-     "rationale": "Rule 2, single listing. Pillow crossed four regiments of his division and formed the line that received the first attack. He crossed under Polk's instructions, and Polk sent reinforcements; Polk then crossed and 'the pursuit was continued under the immediate command and direc tion of Major-General Polk' (rule 4, successor Polk; superior_directing: Polk). Polk uses the v1 passage-only entry 'cs-polk' (KY009), taken as the same Major General Polk; a merge with the listing 'Leonidas Polk' (MS012) is proposed in the report."
+     "rationale": "Rule 2, single listing. Pillow crossed four regiments of his division and formed the line that received the first attack. He crossed under Polk's instructions, and Polk sent reinforcements; Polk then crossed and 'the pursuit was continued under the immediate command and direc tion of Major-General Polk' (rule 4, successor Polk; superior_directing: Polk). Polk is a passage-only entry for this record ('Major-General Polk' in Pillow's report). No inspected passage or listing field identifies him with KY009's passage-only 'General Polk' or the MS012 listing 'Leonidas Polk', so he stays separate under the addendum's surname-only rule."
     }
    }
   },
@@ -14968,7 +15064,7 @@
        "battle_id": "MO010"
       }
      ],
-     "rationale": "Rule 2, single listing. The description and Britton put the force under Dorsey (Prentiss's OCR reads 'Colonel Horsey' for the December 27 action). A company under Captain Johnson met Prentiss first on the 28th (subordinate context)."
+     "rationale": "Rule 2, single listing. The frozen description ('Dorsey's Rebels') puts the force met on the 28th under Dorsey. Britton puts the force under Dorsey on December 27 (Howland's skirmish near Hallsville, outside the interval); Prentiss's OCR reads 'Colonel Horsey' for that action. A company under Captain Johnson met Prentiss first on the 28th (subordinate context)."
     }
    }
   },
@@ -15481,9 +15577,27 @@
        "source_id": "britton-border-1-boston-mountains-selections-v1",
        "quote": "the flag of truce returned, with Colonel Upton Hays accompanying Colonel Buel's Adjutant.",
        "battle_id": "MO014"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 8
+       },
+       "source_id": "britton-border-1-boston-mountains-selections-v1",
+       "quote": "the other, under Colonel and acting Brigadier-Gen- BATTLE OF INDEPENDENCE. 32 1 eral John T. Hughes and Colonel Upton Hays, marched down Walnut Street",
+       "battle_id": "MO014"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 8
+       },
+       "source_id": "britton-border-1-boston-mountains-selections-v1",
+       "quote": "After Colonel Hughes was killed Colonel G. W. Thompson took command",
+       "battle_id": "MO014"
       }
      ],
-     "rationale": "Hughes and Thompson (both Colonel). The description has Hughes's force attack at dawn; Hughes was killed and Thompson replaced him (rule 3(a); rule 4: command_changed, successor Thompson). The successor is partly disputed: Britton calls Thompson 'the senior officer commanding ... after the death of Colonel Hughes', but also says that after Thompson was wounded Upton Hays took command and returned with the flag of truce, while the description and Buel have Buel treat with Thompson."
+     "rationale": "Hughes and Thompson (both Colonel). The description has Hughes's force attack at dawn, and Britton has 'Colonel and acting Brigadier-General John T. Hughes' leading one of the two attacking columns; Hughes was killed and 'Colonel G. W. Thompson took command' (rule 3(a); rule 4: command_changed, successor Thompson). The successor is partly disputed: Britton calls Thompson 'the senior officer commanding ... after the death of Colonel Hughes', but also says that after Thompson was wounded Upton Hays took command and returned with the flag of truce, while the description and Buel have Buel treat with Thompson."
     }
    }
   },
@@ -15581,19 +15695,20 @@
     },
     "Confederate": {
      "side": "Confederate",
-     "commander_id": "cs-jeremiah-vard-cockrell",
+     "commander_id": "cs-j-t-coffee",
      "grade": "C",
      "rule": "3a",
      "echelon": "unknown",
      "labels": [
+      "command_changed",
       "responsibility_unresolved"
      ],
      "candidates": [
+      "cs-jeremiah-vard-cockrell",
       "cs-g-w-thompson",
-      "cs-upton-hays",
-      "cs-j-t-coffee"
+      "cs-upton-hays"
      ],
-     "successor": null,
+     "successor": "cs-jeremiah-vard-cockrell",
      "superior": null,
      "superior_citations": [],
      "citations": [
@@ -15674,9 +15789,18 @@
        "source_id": "britton-border-1-boston-mountains-selections-v1",
        "quote": "Colonel Cockrell, with the main rebel force, was encamped that night about three miles northwest of town",
        "battle_id": "MO015"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 8
+       },
+       "source_id": "britton-border-1-boston-mountains-selections-v1",
+       "quote": "was reinforced by twelve hundred men under Colonel Coffey",
+       "battle_id": "MO015"
       }
      ],
-     "rationale": "Cockrell, Thompson and Hays (all Colonel). Foster and Britton both say Cockrell commanded the Confederates in the fight of the 16th (rule 3(a)). But the side's first combat in the frozen interval was Foster's night attack of the 15th on Coffee's camp, and Britton says Coffee, commanding Missouri State Guard troops, was 'acting independently of the Confederate officers' until then, with Cockrell's main force three miles away. No passage names one commander of the side at that first combat, so the choice is graded C and labelled; Coffee (not listed) is recorded as a candidate. Thompson and Hays commanded regiments under Cockrell (Britton)."
+     "rationale": "Cockrell, Thompson and Hays (all Colonel). The side's first combat in the frozen interval was Foster's night attack of August 15 on the camp of '1,600 Rebels under Col. J.T. Coffee' (description); Britton says Coffee, commanding Missouri State Guard troops, 'up to this time, was acting independently of the Confederate officers', with Cockrell's main force three miles away. No listed officer is shown in command of the engaged force at that combat; the passages name one other officer, Coffee, so he is used (rule 3(a) read with rule 2's third bullet, as at AR003; grade C). On the 16th Foster and Britton have Cockrell commanding the Confederates in the fight, and Coffee's men rejoined about 11 a.m. (rule 4: command_changed, successor Cockrell). Thompson and Hays commanded regiments under Cockrell (Britton). Alternative reading: if Coffee's independent force is not taken as the side's engaged force at the first combat, no listed officer is shown in command then, and the tied colonels give rule 3(c), grade D."
     }
    }
   },
@@ -15693,7 +15817,7 @@
      "commander_id": "us-friedrich-salomon",
      "grade": "A",
      "rule": "2",
-     "echelon": "unknown",
+     "echelon": "division",
      "labels": [],
      "candidates": [],
      "successor": null,
@@ -15737,16 +15861,25 @@
        "source_id": "or13-salomon-newtonia-selections-v1",
        "quote": "when he had not arrived toward sunset I ordered the retreat.",
        "battle_id": "MO016"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 3
+       },
+       "source_id": "or13-salomon-newtonia-selections-v1",
+       "quote": "Report of Brig. Gen. Frederick Salomon , TJ. S. Army , commanding division .",
+       "battle_id": "MO016"
       }
      ],
-     "rationale": "A cited passage states the command: Salomon sent Jacobi's detachment forward the day before, ordered the brigades forward on hearing the firing on the 30th, and ordered the retreat. Jacobi led the engaged advance under Salomon (rule 2, second bullet). The description names the force as Blunt's Army of Kansas; Blunt is not listed and no inspected passage places him on the field or directing the action. Echelon not stated."
+     "rationale": "A cited passage states the command: Salomon sent Jacobi's detachment forward the day before, ordered the brigades forward on hearing the firing on the 30th, and ordered the retreat. Jacobi led the engaged advance under Salomon (rule 2, second bullet). The description names the force as Blunt's Army of Kansas; Blunt is not listed and no inspected passage places him on the field or directing the action. Echelon: the report heading styles Salomon 'commanding division' and he ordered the First and Second Brigades of Kansas forward, though his letterhead reads 'Headquarters First Brigade, Army of Kansas'."
     },
     "Confederate": {
      "side": "Confederate",
      "commander_id": "cs-douglas-h-cooper",
      "grade": "A",
      "rule": "2",
-     "echelon": "unknown",
+     "echelon": "division",
      "labels": [],
      "candidates": [],
      "successor": null,
@@ -15781,9 +15914,27 @@
        "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
        "quote": "under my personal direction at once engaged the enemy",
        "battle_id": "MO016"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 5
+       },
+       "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+       "quote": "Report of Col. Douglas H. Cooper , C. S. Army , commanding division . Headquarters Field Division",
+       "battle_id": "MO016"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 10
+       },
+       "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+       "quote": "In conformity with orders from Brigadier-General Bains",
+       "battle_id": "MO016"
       }
      ],
-     "rationale": "A cited passage states the command: Cooper 'assumed command on the 27th' and personally directed the Choctaw and Chickasaw attack. The outpost at Newtonia (Hawpe's and Bryan's commands) that met the first attack was under his orders. Echelon not stated."
+     "rationale": "A cited passage states the command: Cooper 'assumed command on the 27th' and personally directed the Choctaw and Chickasaw attack. The outpost at Newtonia (Hawpe's and Bryan's commands) that met the first attack was under his orders. Cooper marched 'In conformity with orders from Brigadier-General Bains' (OCR for Rains); that order concerned the march from Scott's Mill to join Shelby, and no inspected passage shows Rains directing the action at Newtonia, so he is not labelled (borderline; Rains is not listed). Echelon: the report heading and letterhead give 'commanding division' and 'Headquarters Field Division'."
     }
    }
   },
@@ -15896,7 +16047,7 @@
        "battle_id": "MO017"
       }
      ],
-     "rationale": "Burbridge and Greene (both Colonel). Barstow says 'The colonel commanding gave his name as J. Q. Burbridge', with Greene second in command at the surrender (rule 3(a)). Wickersham says the enemy was 'under the command of General Green', so the sources disagree (grade C). Barstow's statement is dated at the surrender; no passage names who commanded the force his column first skirmished with."
+     "rationale": "Burbridge and Greene (both Colonel). Barstow says 'The colonel commanding gave his name as J. Q. Burbridge', with Greene second in command at the surrender (rule 3(a)). Wickersham says the enemy was 'under the command of General Green', so the sources disagree (grade C); no inspected passage identifies Wickersham's 'General Green' with the listed Colonel Colton Greene, so that identity is not established. Barstow's statement is dated at the surrender; no passage names who commanded the force his column first skirmished with."
     }
    }
   },
@@ -16031,7 +16182,7 @@
      "commander_id": "us-samuel-merrill",
      "grade": "B",
      "rule": "2",
-     "echelon": "unknown",
+     "echelon": "detachment_or_post",
      "labels": [],
      "candidates": [],
      "successor": null,
@@ -16050,7 +16201,7 @@
        "battle_id": "MO019"
       }
      ],
-     "rationale": "Single CWSAC listing. The frozen interval begins January 9, and the description and Britton both open with Porter's detachment surrounding Hartville on the 9th and capturing its small garrison ('a detachment of thirty-five Union militia'), whose commander no inspected passage names. Merrill's column, which Britton says Warren put under Merrill ('he ordered Colonel Merrill, the officer next in rank, to take command'), and which NPS calls the approaching Union column under Merrill, reached Hartville only on the 11th. So no passage states Merrill's command of the side's engaged forces at first combat, and none names another officer (rule 2, grade B, as for NC010 US in v1). Marmaduke calls him 'General Merrill'; Britton and the listing give Colonel; identity is not in doubt."
+     "rationale": "Single CWSAC listing. The frozen interval begins January 9, and the description and Britton both open with Porter's detachment surrounding Hartville on the 9th and capturing its small garrison ('a detachment of thirty-five Union militia'), whose commander no inspected passage names. Merrill's column, which Britton says Warren put under Merrill ('he ordered Colonel Merrill, the officer next in rank, to take command'), and which NPS calls the approaching Union column under Merrill, reached Hartville on the morning of the 10th, after the garrison's capture on the 9th (Britton: 'where they arrived the next morning at sunrise'), and fought there on the 11th. So no passage states Merrill's command of the side's engaged forces at first combat, and none names another officer (rule 2, grade B, as for NC010 US in v1). Marmaduke calls him 'General Merrill'; Britton and the listing give Colonel; identity is not in doubt. Echelon from the frozen forces row ('Detachment of infantry, cavalry, and artillery')."
     },
     "Confederate": {
      "side": "Confederate",
@@ -16387,15 +16538,17 @@
     },
     "Confederate": {
      "side": "Confederate",
-     "commander_id": "cs-joseph-shelby",
-     "grade": "A",
-     "rule": "3a",
-     "echelon": "detachment_or_post",
+     "commander_id": null,
+     "grade": "D",
+     "rule": "3c",
+     "echelon": "unknown",
      "labels": [
+      "responsibility_unresolved",
       "superior_directing"
      ],
      "candidates": [
-      "cs-john-b-clark"
+      "cs-john-b-clark",
+      "cs-joseph-shelby"
      ],
      "successor": null,
      "superior": "cs-sterling-price",
@@ -16468,9 +16621,18 @@
        "source_id": "britton-price-missouri-selections-v2",
        "quote": "at sunrise on the morning of the I5th the roar of his artil lery was heard from across the river",
        "battle_id": "MO022"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 5
+       },
+       "source_id": "britton-price-missouri-selections-v2",
+       "quote": "In the plan of attack it had been arranged that General Shelby should march up and open fire with his artillery on the Federal position from the west side of the river, while General Clark, who had crossed to the north side, should attack the Federal force",
+       "battle_id": "MO022"
       }
      ],
-     "rationale": "Both listed brigadier generals (tie). Rule 3(a), read literally: Price sent two separate detachments, Clark's (his own brigade and 500 of Jackman's) to cross and take the town and Shelby's (a small portion of his division with artillery) to fire on it from the west bank as a diversion; Price says 'Clark was unable to commence the attack for one hour after Brigadier-General Shelby had engaged them', and Britton has Shelby's guns opening at sunrise. So when the fighting began the only engaged Confederate force was Shelby's. No inspected passage puts either brigadier over the other; Clark's column made the main attack and received the surrender (Britton: 'the Federal force advancing under General Clark'). The choice rests on the first-combat rule and is a judgment a reviewer should check; Clark stays a candidate. Price ordered both detachments from the main column (superior_directing: Price)."
+     "rationale": "Both listed brigadier generals (tie). Rule 3(a) does not decide: Price sent two separate detachments, Clark's (his own brigade and 500 of Jackman's) to cross and capture the town and Shelby's (a small portion of his division with artillery) to attack from the west bank 'at the same hour, to divert the attention of the enemy', and Britton says the plan 'had been arranged' with Shelby opening fire from across the river 'while General Clark … should attack the Federal force'. Shelby's guns opened first at sunrise because Clark's crossing was delayed ('Clark was unable to commence the attack for one hour after Brigadier-General Shelby had engaged them'); Clark's column then made the main attack and received the surrender. No inspected passage puts either brigadier over the other or over the side's engaged forces, and no command passed between them, so rule 3(c) applies: grade D, candidates Clark and Shelby. Price ordered both detachments from the main column (superior_directing: Price)."
     }
    }
   },
@@ -16647,9 +16809,18 @@
        "source_id": "britton-price-missouri-selections-v2",
        "quote": "General Curtis, with members of his staff and escort, quickly followed General Blunt's column, and on arriv ing upon the field directed the movements of troops and the placing of batteries in position in person.",
        "battle_id": "MO024"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 4
+       },
+       "source_id": "britton-price-missouri-selections-v2",
+       "quote": "General Curtis, who was present on the field directing the general movements of his forces",
+       "battle_id": "MO024"
       }
      ],
-     "rationale": "Rule 2. Curtis, commanding the Army of the Border, left Moonlight's brigade as the Little Blue outpost, ordered Blunt back to its support on the 21st, followed him to the field and directed troops and batteries in person (Britton). Moonlight's outpost made the first contact and Blunt formed the main line on arriving; both are subordinates leading part of the force under Curtis's orders, not a contradiction under rule 2 (no passage calls either the Federal commander). Curtis's arrival relative to Moonlight's first shots is not timed; if a reviewer reads Moonlight as commanding the side's engaged forces at first combat, the TN011 pattern (rule 2, grade C) would apply. Echelon: army (Britton: the militia and troops 'formed two divisions, which General Curtis called \" The Army of the Border.\"' in the MO023 section)."
+     "rationale": "Rule 2. Curtis, commanding the Army of the Border, left Moonlight's brigade as the Little Blue outpost, ordered Blunt back to its support on the 21st, followed him to the field and directed troops and batteries in person (Britton), who also calls him 'present on the field directing the general movements of his forces' when he ordered Blunt to retire. Moonlight's outpost made the first contact and Blunt formed the main line on arriving; both are subordinates leading part of the force under Curtis's orders, not a contradiction under rule 2 (no passage calls either the Federal commander). Curtis's arrival relative to Moonlight's first shots is not timed; if a reviewer reads Moonlight as commanding the side's engaged forces at first combat, the TN011 pattern (rule 2, grade C) would apply. Echelon: army (Britton: the militia and troops 'formed two divisions, which General Curtis called \" The Army of the Border.\"' in the MO023 section)."
     },
     "Confederate": {
      "side": "Confederate",
@@ -18553,7 +18724,7 @@
      ],
      "candidates": [],
      "successor": null,
-     "superior": "us-c-c-washburn",
+     "superior": "us-washburn",
      "superior_citations": [
       {
        "dossier": {
@@ -18605,7 +18776,7 @@
        "battle_id": "MS014"
       }
      ],
-     "rationale": "Rule 2, single listing. The description has the Union column under Sturgis, and Sturgis says he assumed command of the expedition on June 2 and directed Grierson and the infantry at the cross-roads. The expedition was organized under the supervision of the commander of the District of West Tennessee and marched under that headquarters' Special Orders No. 38; Sturgis's June 11 dispatch is addressed to Washburn (OCR 'G. G. Washburn'), identified with the TN031 listing by the district command (superior_directing: Washburn). Sturgis also says a discretion was allowed him, and he decided at Ripley to go on, so the label is a borderline case."
+     "rationale": "Rule 2, single listing. The description has the Union column under Sturgis, and Sturgis says he assumed command of the expedition on June 2 and directed Grierson and the infantry at the cross-roads. The expedition was organized under the supervision of the commander of the District of West Tennessee and marched under that headquarters' Special Orders No. 38; Sturgis's June 11 dispatch is addressed to Washburn (OCR 'G. G. Washburn'), kept separate from the TN031 listing 'C.C. Washburn': the passage's initials read 'G. G.' and the district-command match rests on another record's later passage, so under the v2 surname/initials rule it is not merged (as for Hunter) (superior_directing: Washburn). Sturgis also says a discretion was allowed him, and he decided at Ripley to go on, so the label is a borderline case."
     },
     "Confederate": {
      "side": "Confederate",
@@ -18817,9 +18988,18 @@
        "source_id": "or39-1-forrest-mississippi-selections-v1",
        "quote": "On reaching Harrisburg Lieutenant-General Lee ordered me to take command of the troops and to pursue the enemy.",
        "battle_id": "MS015"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 7
+       },
+       "source_id": "or39-1-forrest-mississippi-selections-v1",
+       "quote": "Avith Lieutenant-General Lee to Tupelo for the purpose of consulting and receiving orders",
+       "battle_id": "MS015"
       }
      ],
-     "rationale": "Lee (Lieutenant General) and Forrest (Major General). Rule 3(a): the description puts the entire Confederate force under Lee's command and has him order and make the attack of the 14th; Forrest says Lee ordered the attack and the advance, and Lee's dispatch reports the attack at Tupelo that morning. On the 15th at Harrisburg Lee ordered Forrest to take command of the troops and pursue (rule 4: command_changed, successor Forrest). Forrest says that after his wound at Old Town Creek he ordered Chalmers to take command (a further change within Forrest's command, not recorded as the successor)."
+     "rationale": "Lee (Lieutenant General) and Forrest (Major General). Rule 3(a): the description puts the entire Confederate force under Lee's command and has him order and make the attack of the 14th; Forrest says Lee ordered the attack and the advance, and Lee's dispatch reports the attack at Tupelo that morning. On the 15th at Harrisburg Lee ordered Forrest to take command of the troops and pursue (rule 4: command_changed, successor Forrest). Forrest says that after his wound at Old Town Creek he ordered Chalmers to take command (a further change within Forrest's command, not recorded as the successor). Borderline: this was a delegation, not a relief or death; Forrest says he then moved with Lee to Tupelo for the purpose of consulting and receiving orders, so Lee kept directing after the handover."
     }
    }
   },
@@ -18974,9 +19154,25 @@
        "source_id": "orn6-martin-hatteras-selections-v1",
        "quote": "commanded by Commodore Stringham and Major-General Butler",
        "battle_id": "NC001"
+      },
+      {
+       "source_id": "orn6-stringham-hatteras-selections-v1",
+       "section": "stringham-1861-08-30",
+       "locator": "p.120 (OCR page markers; not checked against print)",
+       "quote": "Articles of capitulation between Flag-Officer Stringham, commanding the Atlantic Block¬ ading Squadron, and Benjamin F. Butler, U. S. Army, commanding",
+       "battle_id": "NC001"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 3
+       },
+       "source_id": "orn6-martin-hatteras-selections-v1",
+       "quote": "between 8 and 9",
+       "battle_id": "NC001"
       }
      ],
-     "rationale": "Rule 2, third bullet, with army-navy joint command. Only Butler (army) is listed, so rule 5 does not apply. The side's first combat was the squadron's fire on Fort Clark at 10 o'clock, before the troops landed at 11.30 (Stringham's journal), and the fleet's bombardment drove the garrison from Fort Clark and preceded the surrender. NPS and Martin name Butler and Stringham jointly, and neither is shown over the other; the articles were signed by both. Stringham (passage-only), who commanded the force engaged when the fighting began, is used at grade C with Butler a candidate. Reading the listing as the expedition's commander would keep Butler at grade C."
+     "rationale": "Rule 2, third bullet, with army-navy joint command. Only Butler (army) is listed, so rule 5 does not apply. The side's first combat was the squadron's fire on Fort Clark at 10 o'clock, before the troops landed at 11.30 (Stringham's journal), and the fleet's bombardment drove the garrison from Fort Clark and preceded the surrender. The articles of capitulation style Stringham 'commanding the Atlantic Blockading Squadron' and Butler 'commanding'. Martin puts the opening of the fleet's fire 'between 8 and 9 o'clock'; both clocks put it before the landing. NPS and Martin name Butler and Stringham jointly, and neither is shown over the other; the articles were signed by both. Stringham (passage-only), who commanded the force engaged when the fighting began, is used at grade C with Butler a candidate. Reading the listing as the expedition's commander would keep Butler at grade C. The 'joint_command' label is used descriptively outside rule 5 (a design interpretation for the primary): only Butler is listed, but the passages show the army and navy commanders leading the expedition jointly."
     },
     "Confederate": {
      "side": "Confederate",
@@ -20299,7 +20495,7 @@
        "battle_id": "NC016"
       }
      ],
-     "rationale": "Rule 2, third bullet. The description puts the Confederate troops holding Fort Anderson and the line under Hoke, and Bragg says he arrived from Richmond only on the 21st, after the fighting had begun; the passages name Hoke in command when the fighting began (grade C; Bragg kept as a candidate). Bragg then withdrew the troops and ordered the evacuation (rule 4, successor Bragg). Hagood commanded the Fort Anderson garrison (subordinate). No Hoke or Hagood report was inspected."
+     "rationale": "Rule 2, third bullet. The description puts the Confederate troops holding Fort Anderson and the line under Hoke, and Bragg says he arrived at Wilmington from Richmond only on the 21st, after the fighting had begun (the interval starts February 12); his absence at first combat is inferred from that arrival date and the description's 'under Maj. Gen. Robert Hoke', not stated in either. The passages name Hoke in command when the fighting began (grade C; Bragg kept as a candidate). Bragg then withdrew the troops and ordered the evacuation (rule 4, successor Bragg). Hagood commanded the Fort Anderson garrison (subordinate). No Hoke or Hagood report was inspected."
     }
    }
   },
@@ -21293,7 +21489,8 @@
       "superior_directing"
      ],
      "candidates": [
-      "cs-douglas-h-cooper"
+      "cs-douglas-h-cooper",
+      "cs-stand-watie"
      ],
      "successor": null,
      "superior": "cs-douglas-h-cooper",
@@ -21346,9 +21543,27 @@
        "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
        "quote": "I sent them order after order to come together",
        "battle_id": "OK004"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 6
+       },
+       "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+       "quote": "Colonel Watie, who has command during my illness",
+       "battle_id": "OK004"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 7
+       },
+       "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v2",
+       "quote": "under command of Col, Stand Watie",
+       "battle_id": "OK004"
       }
      ],
-     "rationale": "Cooper says that 'Owing to my illness on the day of the battle Lieutenant- Colonel Buster was in command', which names a different officer commanding when the fighting began (rule 2, third bullet). The description and Blunt put the attack on Cooper's command, and Blunt names 'Cooper and Stand Watie'; Cooper says Watie had command during his illness when he wrote on the 25th. Cooper also says he sent 'order after order' to his scattered forces to come together before the attack (superior_directing: Cooper)."
+     "rationale": "Cooper says that 'Owing to my illness on the day of the battle Lieutenant- Colonel Buster was in command', which names a different officer commanding when the fighting began (rule 2, third bullet). The description and Blunt put the attack on Cooper's command, and Blunt names 'Cooper and Stand Watie'; Cooper says Watie 'has command during my illness' when he wrote on the 25th, and his December 15 report sets the march on Fort Scott for the 22nd 'under command of Col, Stand Watie', Cooper being too ill to accompany it; the ledger reads these as the time of writing and the planned expedition, given the postscript naming Buster 'on the day of the battle', but records Watie as a candidate. Cooper also says he sent 'order after order' to his scattered forces to come together before the attack (superior_directing: Cooper)."
     }
    }
   },
@@ -21455,11 +21670,15 @@
     "US": {
      "side": "US",
      "commander_id": "us-james-m-williams",
-     "grade": "A",
+     "grade": "C",
      "rule": "2",
      "echelon": "unknown",
-     "labels": [],
-     "candidates": [],
+     "labels": [
+      "responsibility_unresolved"
+     ],
+     "candidates": [
+      "us-theodore-h-dodd"
+     ],
      "successor": null,
      "superior": null,
      "superior_citations": [],
@@ -21501,9 +21720,54 @@
        "source_id": "or22-1-williams-cabin-creek-selections-v1",
        "quote": "I ordered up one of the 12-pounder howitzers attached to my command, which, with the mountain howitzers of Major Foreman, opened a brisk fire",
        "battle_id": "OK006"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 1
+       },
+       "source_id": "or22-1-williams-cabin-creek-selections-v1",
+       "quote": "Lieutenant-Colonel [Theodore H.] Dodd, commanding escort to the train,",
+       "battle_id": "OK006"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 8
+       },
+       "source_id": "britton-indian-territory-1863-selections-v1",
+       "quote": "The escort to the train was commanded by Lieutenant-Colonel Theo dore H. Dodd",
+       "battle_id": "OK006"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 4
+       },
+       "source_id": "or22-1-williams-cabin-creek-selections-v1",
+       "quote": "I concluded to accompany this train on the route,",
+       "battle_id": "OK006"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 8
+       },
+       "source_id": "britton-indian-territory-1863-selections-v1",
+       "quote": "to unite under him all the troops that could be spared from the immediate defence of the train",
+       "battle_id": "OK006"
+      },
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "OK006"
+       },
+       "column": "description",
+       "quote": "Col. James M. Williams of the First Kansas Colored Infantry led a Union supply train from Fort Scott, Kansas, to Fort Gibson, Oklahoma (then Indian Territory).",
+       "battle_id": "OK006"
       }
      ],
-     "rationale": "At the first contact on July 1 Williams, 'the ranking officer present' (Britton), ordered up his howitzer to fire with Foreman's; that evening he and Dodd agreed to unite the available troops 'under him', and he laid and led the July 2 attack. Dodd commanded the train escort and Foreman the skirmish line: subordinate context. The formal union came after the first combat, which the review should weigh (rule 2, grade A)."
+     "rationale": "At the first contact on July 1 Williams, 'the ranking officer present' (Britton, which states rank, not command), ordered up his howitzer to fire with Foreman's; that evening he and Dodd agreed to unite the available troops 'under him', and he laid and led the July 2 attack. At first contact on July 1 the escort, including Foreman's skirmishers, was under Dodd (Williams: 'Lieutenant-Colonel [Theodore H.] Dodd, commanding escort to the train'; Britton: 'The escort to the train was commanded by Lieutenant-Colonel Theodore H. Dodd'), and Williams accompanied the train with his own regiment and section ('I concluded to accompany this train'); the forces were united under Williams only that evening. The description has Williams leading the train. Sources disagree about who commanded at first combat and no passage names another officer over all the engaged forces, so the listed Williams is kept (rule 2, grade C, responsibility_unresolved, Dodd as candidate)."
     },
     "Confederate": {
      "side": "Confederate",
@@ -21871,32 +22135,11 @@
      "grade": "A",
      "rule": "2",
      "echelon": "corps_or_wing",
-     "labels": [
-      "superior_directing"
-     ],
+     "labels": [],
      "candidates": [],
      "successor": null,
-     "superior": "us-david-hunter",
-     "superior_citations": [
-      {
-       "dossier": {
-        "claim_id": "reported-force-scope",
-        "citation_index": 4
-       },
-       "source_id": "jones-secessionville-selections-v1",
-       "quote": "It seems that Generals Hunter and Benham had their headquarters temporarily on the same steamer.",
-       "battle_id": "SC002"
-      },
-      {
-       "dossier": {
-        "claim_id": "reported-force-scope",
-        "citation_index": 4
-       },
-       "source_id": "jones-secessionville-selections-v1",
-       "quote": "Hunter agreed to defer his departure for Hilton Head to await the result of the demonstration on Secessionville",
-       "battle_id": "SC002"
-      }
-     ],
+     "superior": null,
+     "superior_citations": [],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -21953,9 +22196,27 @@
        "source_id": "or14-benham-secessionville-selections-v1",
        "quote": "I ordered the withdrawal of the troops,",
        "battle_id": "SC002"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 2
+       },
+       "source_id": "jones-secessionville-selections-v1",
+       "quote": "Hunter left the field of operations on the even- ing of the nth, leaving General Benham In com- mand, with the Instructions already quoted.",
+       "battle_id": "SC002"
+      },
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "SC002"
+       },
+       "column": "description",
+       "quote": "contrary to Hunter's orders",
+       "battle_id": "SC002"
       }
      ],
-     "rationale": "A cited passage states the command: Wright's and Stevens's divisions were under Benham's immediate direction, and Benham overruled objections and ordered the assault. Hunter, commanding the department, had his headquarters on the same steamer in the Stono; Jones reports Benham's statement that Hunter assented to the instructions and deferred his departure to await the result, while the description and Hunter's written instructions say the assault was contrary to his orders (superior_directing: Hunter, disputed). Hunter relieved Benham after the battle; no change of command within the one-day interval is shown."
+     "rationale": "A cited passage states the command: Wright's and Stevens's divisions were under Benham's immediate direction, and Benham overruled objections and ordered the assault. Jones says Hunter 'left the field of operations on the evening of the 11th, leaving General Benham in command', with written instructions to make no attempt on Charleston or Fort Johnson until reinforced, and the description says the assault was 'contrary to Hunter's orders'. Hunter's assent and deferred departure in Jones concern the movement planned for the 11th, which was deferred. Hunter was not directing this operation and is not labelled. Hunter relieved Benham after the battle; no change of command within the one-day interval is shown."
     },
     "Confederate": {
      "side": "Confederate",
@@ -22200,25 +22461,14 @@
      "rule": "2",
      "echelon": "detachment_or_post",
      "labels": [
-      "responsibility_unresolved",
-      "superior_directing"
+      "responsibility_unresolved"
      ],
      "candidates": [
       "cs-p-g-t-beauregard"
      ],
      "successor": null,
-     "superior": "cs-p-g-t-beauregard",
-     "superior_citations": [
-      {
-       "dossier": {
-        "claim_id": "reported-force-scope",
-        "citation_index": 5
-       },
-       "source_id": "or14-beauregard-charleston-harbor-selections-v1",
-       "quote": "every possible precaution was at once made for the exigency, including the concentration at strategic points in this vicinity of all available troops",
-       "battle_id": "SC004"
-      }
-     ],
+     "superior": null,
+     "superior_citations": [],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -22248,9 +22498,18 @@
        "source_id": "or14-beauregard-charleston-harbor-selections-v1",
        "quote": "He was ably seconded by his",
        "battle_id": "SC004"
+      },
+      {
+       "dossier": {
+        "claim_id": "obstructions-and-ranges",
+        "citation_index": 8
+       },
+       "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+       "quote": "Brig. Gen. E. S. Eipley, Col. William Butler, and Col. Alfred Bliett, who commanded at that period respect- ively in this military district the batteries on Sullivan’s Island and Fort Sumter",
+       "battle_id": "SC004"
       }
      ],
-     "rationale": "Beauregard, commanding the department, credits Ripley, 'commanding the First Military District, and especially charged with the defense of the harbor', and his subordinate commanders with the defense of April 7. That names Ripley as commanding the engaged harbor works, contradicting the single listing of Beauregard (rule 2, third bullet): Ripley, grade C, with Beauregard as candidate. Beauregard ordered the concentration of troops against the impending attack (superior_directing: Beauregard); the inspected passages do not show him directing the fight itself. The live page gives Beauregard as Brigadier General; not adopted. Echelon: Ripley's district command of the harbor works is recorded as detachment_or_post."
+     "rationale": "Beauregard, commanding the department, credits Ripley, 'commanding the First Military District, and especially charged with the defense of the harbor', and his subordinate commanders with the defense of April 7; his October 15 report names Ripley ('E. S. Eipley' in OCR), Butler and Rhett ('Bliett') as commanding 'at that period respectively in this military district the batteries on Sullivan's Island and Fort Sumter'. That names Ripley as commanding the engaged harbor works, contradicting the single listing of Beauregard (rule 2, third bullet): Ripley, grade C, with Beauregard as candidate. Beauregard's precautions concentrated troops 'for the defense of the several land approaches to the position', and the Union land forces 'made no attempt to co-operate actually with the naval attack'. No inspected passage shows him directing the April 7 harbor engagement, so superior_directing is not recorded (as at SC005). The live page gives Beauregard as Brigadier General; not adopted. Echelon: Ripley's district command of the harbor works is recorded as detachment_or_post."
     }
    }
   },
@@ -22311,9 +22570,18 @@
        "source_id": "or28-1-gillmore-charleston-selections-v1",
        "quote": "Brigadier-General Seymour was ordered to carry Fort Wagner by assault at daybreak on the following morning.",
        "battle_id": "SC005"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 10
+       },
+       "source_id": "jones-charleston-1863-selections-v1",
+       "quote": "as officially reported by General Strong, who commanded in person on both occasions",
+       "battle_id": "SC005"
       }
      ],
-     "rationale": "Gillmore, commanding the Department of the South, ordered Strong's landing by signal on July 10 ('I made an attack') and ordered Seymour to carry Wagner on the 11th. Strong led the landing and the assault and Seymour arranged details; both are subordinate context. Jones reports the dispute over the July 11 assault (Seymour: Strong acted on Gillmore's direct instructions) without naming another commander of the side's engaged forces (rule 2, grade A). The listing's 'Qunicy' is a spelling variant (see merges)."
+     "rationale": "Gillmore, commanding the Department of the South, ordered Strong's landing by signal on July 10 ('I made an attack') and ordered Seymour to carry Wagner on the 11th. Strong led the landing and the assault and Seymour arranged details; both are subordinate context. Jones reports the dispute over the July 11 assault (Seymour: Strong acted on Gillmore's direct instructions) without naming another commander of the side's engaged forces (rule 2, grade A). Jones also says the losses were reported 'by General Strong, who commanded in person on both occasions': Strong's personal command of the landing and the assault under Gillmore's orders, subordinate context. The listing's 'Qunicy' is a spelling variant (see merges)."
     },
     "Confederate": {
      "side": "Confederate",
@@ -22601,7 +22869,7 @@
     "Confederate": {
      "side": "Confederate",
      "commander_id": "cs-p-g-t-beauregard",
-     "grade": "A",
+     "grade": "B",
      "rule": "2",
      "echelon": "army",
      "labels": [],
@@ -22620,18 +22888,9 @@
        "column": "rank",
        "quote": "General",
        "battle_id": "SC009"
-      },
-      {
-       "dossier": {
-        "claim_id": "reported-force-scope",
-        "citation_index": 3
-       },
-       "source_id": "jones-charleston-1863-selections-v1",
-       "quote": "Major Elliott refused to surrender his post, and forwarded the demand to General Beauregard, who replied that the Admiral could have Fort Sumter only when he could take and hold it.",
-       "battle_id": "SC009"
       }
      ],
-     "rationale": "Elliott forwarded Dahlgren's demand to Beauregard, who answered it for the defense. The engaged Confederate works were several: Moultrie (Colonel Butler on the 8th), the Sullivan's Island batteries, Fort Johnson, the ironclad Chicora and Sumter (Elliott). Each named officer commanded a part, which is subordinate context; no inspected passage names another officer over all the engaged works (rule 2, grade A). Ripley is not named in the inspected SC009 passages."
+     "rationale": "Single CWSAC listing. Jones has Elliott forward Dahlgren's demand to Beauregard, 'who replied that the Admiral could have Fort Sumter only when he could take and hold it': Beauregard's authority over Sumter's surrender, which implies but does not state his command of the works engaged first, the Moultrie and Sullivan's Island batteries on the evening of the 7th. The engaged Confederate works were several: Moultrie (Colonel Butler on the 8th), the Sullivan's Island batteries, Fort Johnson, the ironclad Chicora and Sumter (Elliott). Each named officer commanded a part, which is subordinate context; no inspected passage names another officer over all the engaged works (rule 2, grade B, as for GA002 CS). Ripley is not named in the inspected SC009 passages. In sections the SC005 and SC007 dossiers cite, Jones puts James, Morris and Sullivan's islands in the First Military Division, 'Brigadier General Ripley commanding', in July, and has Ripley relay the instructions for the evacuation of Morris Island; no inspected passage names him commanding the works engaged on September 7-8, so this is not recorded as a contradiction."
     }
    }
   },
@@ -22762,6 +23021,15 @@
       {
        "dossier": {
         "claim_id": "reported-force-scope",
+        "citation_index": 2
+       },
+       "source_id": "or44-hatch-honey-hill-selections-v1",
+       "quote": "They Avere attacked, and re- pnlsed a body of the enemy from the direction of Bee’s Creek battery.",
+       "battle_id": "SC010"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
         "citation_index": 3
        },
        "source_id": "or44-gw-smith-selections-v1",
@@ -22769,7 +23037,7 @@
        "battle_id": "SC010"
       }
      ],
-     "rationale": "Rule 2. Colcock, commander of the military district, was skirmishing with the advancing enemy with his cavalry and artillery before G. W. Smith joined him after 10 a.m. (Hatch meets the enemy advance at 9.15). Smith, senior on the field, then made the dispositions and assigned Colcock the executive command of the main line (rule 4, successor G. W. Smith). Alternative reading: Smith dates 'the battle' from after his dispositions; if the record's fighting is taken to begin then, Smith commanded and the listing would be contradicted (rule 2, third bullet, grade C). Hardee sent Smith's militia and asked him to hold the railroad until 2 p.m. (superior_directing: Hardee; Hardee is not on the field until December 1)."
+     "rationale": "Rule 2. Colcock, commander of the military district, was skirmishing with the advancing enemy with his cavalry and artillery before G. W. Smith joined him after 10 a.m. (Hatch meets the enemy advance at 9.15). Smith, senior on the field, then made the dispositions and assigned Colcock the executive command of the main line (rule 4, successor G. W. Smith). Alternative reading: Smith dates 'the battle' from after his dispositions; if the record's fighting is taken to begin then, Smith commanded and the listing would be contradicted (rule 2, third bullet, grade C). Hatch also reports an earlier November 30 combat at the cross-roads, where the howitzers and four companies of the Fifty-fourth Massachusetts 'Avere attacked, and re- pnlsed a body of the enemy from the direction of Bee’s Creek battery'; its Confederate commander is not named, and it falls within Colcock's district before Smith joined him. Hardee sent Smith's militia and asked him to hold the railroad until 2 p.m. (superior_directing: Hardee; Hardee is not on the field until December 1)."
     }
    }
   },
@@ -25785,7 +26053,7 @@
      "commander_id": "cs-james-r-chalmers",
      "grade": "C",
      "rule": "2",
-     "echelon": "division",
+     "echelon": "detachment_or_post",
      "labels": [
       "command_changed",
       "responsibility_unresolved",
@@ -25856,7 +26124,7 @@
        "battle_id": "TN030"
       }
      ],
-     "rationale": "Forrest's own report says McCulloch's and Bell's brigades were placed under Chalmers for the expedition, that Chalmers drove in the pickets and had forced the garrison into the main fort by the time Forrest reached the field at 10 a.m., and that Forrest then assumed command (rule 2, third bullet; rule 4, successor Forrest; as KY007 Confederate). Leaming, a Union survivor, says the advance that drove in the pickets was under Forrest's command, so the sources disagree (grade C, Forrest a candidate). Forrest commanded the expedition and assigned the force to Chalmers (superior_directing: Forrest). Chalmers's registry ID comes from his CWSAC listing at other engagements."
+     "rationale": "Forrest's own report says McCulloch's and Bell's brigades were placed under Chalmers for the expedition, that Chalmers drove in the pickets and had forced the garrison into the main fort by the time Forrest reached the field at 10 a.m., and that Forrest then assumed command (rule 2, third bullet; rule 4, successor Forrest; as KY007 Confederate). Leaming, a Union survivor, says the advance that drove in the pickets was under Forrest's command, so the sources disagree (grade C, Forrest a candidate). Forrest commanded the expedition and assigned the force to Chalmers (superior_directing: Forrest). Echelon detachment_or_post: the force was McCulloch's brigade of Chalmers's division and Bell's brigade of Buford's division, placed under Chalmers for the expedition. Chalmers's registry ID comes from his CWSAC listing at other engagements."
     }
    }
   },
@@ -25910,7 +26178,7 @@
        "battle_id": "TN031"
       }
      ],
-     "rationale": "Rule 2, single listing. Washburn reports as commander of the District of West Tennessee, whose headquarters at Memphis the raiders invested, and narrates the defence and the pursuit ordered by his command. Buckland commanded the District of Memphis, and Moore, Hoge and others rallied the troops that drove the raiders out (Washburn): subordinate context. No passage names another officer as commanding the Union forces. A. J. Smith's force at Oxford was not engaged."
+     "rationale": "Rule 2, single listing. Washburn reports as commander of the District of West Tennessee, whose headquarters at Memphis the raiders invested, and narrates the defence and the pursuit ordered by his command. Buckland commanded the District of Memphis, and Moore, Hoge and others rallied the troops that drove the raiders out (Washburn): subordinate context. No passage names another officer as commanding the Union forces. A. J. Smith's force at Oxford was not engaged. Echelon: the engaged Union force was the Memphis garrison, and Washburn's district command is recorded as detachment_or_post (as for Ripley's district command at SC004)."
     },
     "Confederate": {
      "side": "Confederate",
@@ -26060,7 +26328,7 @@
        "battle_id": "TN032"
       }
      ],
-     "rationale": "Army and navy listings (Colonel Thompson; Lieutenant Commander King). Rule 5: Sinclair says Thompson commanded the troops and King the gunboats; no passage puts one officer over both. The description has the gunboats and the land batteries fighting the artillery duel together; King's gunboats also fought the morning actions of the 4th (Sinclair). The loss followed from the disabling of the gunboats, which King ordered abandoned and burned, and from Thompson's order, on King's and others' recommendation, to burn the transports; Sinclair, an inspector writing afterwards, holds Thompson and Howland responsible for the destruction. No single force is shown compelling the result (rule 5, third case). A reviewer who takes Sinclair's finding as showing the compelling force would choose Thompson under the second case (grade C). Name dispute: listing 'C.R. Thompson', Sinclair 'Col. C. E. Thompson', NPS principal commanders 'Henry Thompson'. 'Lieutenant Commander' is not in the declared navy rank order; no rank comparison is needed here."
+     "rationale": "Army and navy listings (Colonel Thompson; Lieutenant Commander King). Rule 5: Sinclair says Thompson commanded the troops and King the gunboats; no passage puts one officer over both. The description has the gunboats and the land batteries fighting the artillery duel together; King's gunboats also fought the morning actions of the 4th (Sinclair). The loss followed from the disabling of the gunboats, which King ordered abandoned and burned, and from Thompson's order, on King's and others' recommendation, to burn the transports; Sinclair, an inspector writing afterwards, holds Thompson and Howland responsible for the destruction. No single force is shown compelling the result (rule 5, third case). A reviewer who takes Sinclair's finding as showing the compelling force would choose Thompson under the second case (grade C). Name dispute: listing 'C.R. Thompson', Sinclair 'Col. C. E. Thompson', NPS principal commanders 'Henry Thompson'. 'Lieutenant Commander' is in the declared v2 navy rank order; army and navy ranks are never compared (rule 5), so no rank comparison is made here."
     },
     "Confederate": {
      "side": "Confederate",
@@ -27478,9 +27746,27 @@
        "source_id": "or2-pierce-big-bethel-selections-v1",
        "quote": "I rode back, ordered them to cease firing",
        "battle_id": "VA003"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 4
+       },
+       "source_id": "or2-pierce-big-bethel-selections-v1",
+       "quote": "I directed Colonel Townsend, with his regiment, to advance",
+       "battle_id": "VA003"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 7
+       },
+       "source_id": "or2-pierce-big-bethel-selections-v1",
+       "quote": "Shortly after I directed all the forces to retire.",
+       "battle_id": "VA003"
       }
      ],
-     "rationale": "Rule 2, single listing. The description puts the Federals under Pierce's immediate command; Pierce's report has him with the column from the night march, deciding to follow his written instructions and directing the attack and retreat. Butler planned the operation and issued the plan at his headquarters (superior_directing: Butler; the description's 'Maj. Gen. Benjamin F. Butler' is taken as the NC001 listing 'Benjamin Butler')."
+     "rationale": "Rule 2, single listing. The description puts the Federals under Pierce's immediate command; Pierce's report has him with the column from the night march, deciding to follow his written instructions, directing the attack ('I directed Colonel Townsend, with his regiment, to advance') and the retreat ('Shortly after I directed all the forces to retire'); 'I rode back, ordered them to cease firing' concerns the night friendly-fire at New Market Bridge. Butler planned the operation and issued the plan at his headquarters (superior_directing: Butler; the description's 'Maj. Gen. Benjamin F. Butler' is taken as the NC001 listing 'Benjamin Butler')."
     },
     "Confederate": {
      "side": "Confederate",
@@ -27588,6 +27874,24 @@
        },
        "column": "description",
        "quote": "the untried Union army under Brig. Gen. Irvin McDowell",
+       "battle_id": "VA004"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 5
+       },
+       "source_id": "nicolay-manassas-selections-v1",
+       "quote": "that Tyler heeded his instructions, and withdrew his reluc- tant officers and men from the fight,",
+       "battle_id": "VA004"
+      },
+      {
+       "dossier": {
+        "claim_id": "command-roles",
+        "citation_index": 6
+       },
+       "source_id": "nicolay-manassas-selections-v1",
+       "quote": "Upon hearing the cannonade, McDowell had immediately ordered all the divisions forward to Centreville.",
        "battle_id": "VA004"
       }
      ],
@@ -29579,7 +29883,7 @@
      "candidates": [
       "cs-william-e-jones"
      ],
-     "successor": "cs-mccausland",
+     "successor": "cs-john-mccausland",
      "superior": null,
      "superior_citations": [],
      "citations": [
@@ -29706,7 +30010,7 @@
        "battle_id": "VA052"
       }
      ],
-     "rationale": "Single CWSAC listing. The description puts the cavalry corps under Sheridan; Sheridan's May 13 report says 'I immediately attacked him'. Merritt, Custer and Gregg led parts of the force (subordinate context). The report is addressed to Meade and says the march was made 'on your instructions' (superior_directing: Meade)."
+     "rationale": "Single CWSAC listing. The description puts the cavalry corps under Sheridan; Sheridan's May 13 report says 'I immediately attacked him'. Merritt, Custer and Gregg led parts of the force (subordinate context). The report is addressed to Meade and says the march was made 'on your instructions' (superior_directing: Meade; borderline, since the instructions cover the initial march and the same report says Sheridan himself 'determined at once to march around the enemy's right flank')."
     },
     "Confederate": {
      "side": "Confederate",
@@ -30353,14 +30657,17 @@
     "US": {
      "side": "US",
      "commander_id": "us-ulysses-s-grant",
-     "grade": "A",
-     "rule": "3a",
+     "grade": "C",
+     "rule": "3b",
      "echelon": "army",
-     "labels": [],
+     "labels": [
+      "command_changed",
+      "responsibility_unresolved"
+     ],
      "candidates": [
       "us-george-g-meade"
      ],
-     "successor": null,
+     "successor": "us-george-g-meade",
      "superior": null,
      "superior_citations": [],
      "citations": [
@@ -30392,7 +30699,7 @@
         "citation_index": 3
        },
        "source_id": "humphreys-petersburg-selections-v1",
-       "quote": "General Hancock had received a despatch from General Grant at City Point, directing all haste to be made in getting up to the assistance of General Smith",
+       "quote": "By sunset of the 14th he had reported in person to General Butler at Bermuda Hundred and received orders to move at daylight on Petersburg.",
        "battle_id": "VA063"
       },
       {
@@ -30401,7 +30708,25 @@
         "citation_index": 3
        },
        "source_id": "humphreys-petersburg-selections-v1",
-       "quote": "General Smith was informed by a staff officer sent by General Grant",
+       "quote": "This evidently referred to the rifle-pit captured by General 11 inks early in the day.",
+       "battle_id": "VA063"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 3
+       },
+       "source_id": "humphreys-petersburg-selections-v1",
+       "quote": "About four o’clock in the afternoon, General Smith was informed by a staff officer sent by General Grant",
+       "battle_id": "VA063"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 3
+       },
+       "source_id": "humphreys-petersburg-selections-v1",
+       "quote": "General Hancock had received a despatch from General Grant at City Point, directing all haste to be made in getting up to the assistance of General Smith",
        "battle_id": "VA063"
       },
       {
@@ -30410,11 +30735,20 @@
         "citation_index": 0
        },
        "source_id": "or40-1-meade-petersburg-selections-v1",
-       "quote": "orders were received from the lieutenant-general commanding, then at City Point",
+       "quote": "Late in the evening this day, the 15th, orders were received from the lieutenant-general commanding, then at City Point",
+       "battle_id": "VA063"
+      },
+      {
+       "dossier": {
+        "claim_id": "rations-and-bridge",
+        "citation_index": 0
+       },
+       "source_id": "or40-1-meade-petersburg-selections-v1",
+       "quote": "by whom I was instructed to take command of the troops then in front of Petersburg",
        "battle_id": "VA063"
       }
      ],
-     "rationale": "Grant (Lieutenant General) and Meade (Major General) are listed. The first combat, on June 15, was by Smith's XVIII Corps with Kautz and Hinks, of Butler's Army of the James, not by Meade's army: Humphreys says Smith reported to Butler and received his orders to move on Petersburg. On the 15th Grant, at City Point, directed Hancock's corps to Smith's assistance, communicated with Smith by staff officer and ordered another corps forward (Meade's report), so Grant is the listed officer shown in command of the engaged forces of both armies (rule 3(a)). Meade reached the field on the 16th and ordered the assaults of the 16th-18th under Grant (Meade candidate). Smith and Butler are subordinate context; neither is listed."
+     "rationale": "Grant (Lieutenant General) and Meade (Major General) are listed. The side's first combat, early on June 15 (Humphreys: the rifle-pit 'captured by General Hinks early in the day'), was by Smith's XVIII Corps column with Kautz and Hinks, of Butler's Army of the James, not by Meade's army: Humphreys says Smith reported to Butler at Bermuda Hundred on the 14th and received his orders to move on Petersburg at daylight. Butler and Smith are not listed; they are recorded as context only, since rule 3 chooses among listed officers. The recorded orders from Grant come later on the 15th: his staff officer reached Smith about four in the afternoon, his despatch reached Hancock a few minutes before half-past five, and Meade received his orders for another corps late in the evening. No inspected passage shows either listed officer in command of the side's engaged forces when the fighting began, so rule 3(a) is not met; Grant outranks Meade by listed rank (rule 3(b), grade C). Humphreys's footnote on 'General Grant's plan for capturing Petersburg' is his own inference ('without positive information') and is not read as a statement of command at first combat. On the 16th Grant instructed Meade 'to take command of the troops then in front of Petersburg', and Meade ordered the assaults of the 16th-18th (rule 4: command_changed, successor Meade). Meade is a candidate. (Revised after the separate review, finding R1.)"
     },
     "Confederate": {
      "side": "Confederate",
@@ -30610,7 +30944,7 @@
        "battle_id": "VA064"
       }
      ],
-     "rationale": "Hunter says his information on the 17th was that the Confederate forces at Lynchburg were 'under the command of General Breckinridge', and Pond says Breckinridge had placed his and Vaughan's troops behind the works long before Hunter arrived; both name Breckinridge, not the listed Early, for the defence when the fighting began on the 17th (rule 2, third bullet; grade C, Early a candidate). Pond says Early threw two of Ramseur's brigades into the redoubt at the time of the evening attack on the 17th, and Early's June 19 dispatch speaks of 'my lines' and 'my command' on the 18th, so Early took over within the interval (rule 4, successor Early). Hunter attributes the sortie of the 18th to Breckinridge. The exact hour of Early's assumption of command is not in the inspected passages. Lee's direction of Early's corps from outside the theater is not recorded as superior_directing."
+     "rationale": "Hunter says the best information he had at Diamond Hill on the afternoon of the 17th was that the Confederate forces were concentrated in Lynchburg 'under the command of General Breckinridge'; this is the only inspected passage naming who commanded at the side's first combat, and it names Breckinridge, not the listed Early (rule 2, third bullet; grade C, Early a candidate). Pond's statement that Breckinridge 'long before Hunter's arrival had placed his troops and Vaughan's behind the intrenchments' concerns the dispositions before the fight, not the command at first combat. Pond says the 17th brought half of Early's corps to the city and that Early threw two of Ramseur's brigades into the redoubt at the close of the evening attack, and Early's June 19 dispatch speaks of 'my lines' and 'my command' on the 18th, so Early took over within the interval (rule 4, successor Early). Hunter attributes the sortie of the 18th to Breckinridge, which Early's dispatch contradicts. If Hunter's intelligence is not read as naming who commanded at first combat, rule 2 returns the listed Early at grade C, with Breckinridge a candidate and no command_changed. The exact hour of Early's assumption of command is not in the inspected passages. Lee's direction of Early's corps from outside the theater is not recorded as superior_directing."
     }
    }
   },
@@ -30691,11 +31025,15 @@
     "Confederate": {
      "side": "Confederate",
      "commander_id": "cs-robert-e-lee",
-     "grade": "A",
+     "grade": "C",
      "rule": "2",
      "echelon": "army",
-     "labels": [],
-     "candidates": [],
+     "labels": [
+      "responsibility_unresolved"
+     ],
+     "candidates": [
+      "cs-a-p-hill"
+     ],
      "successor": null,
      "superior": null,
      "superior_citations": [],
@@ -30728,9 +31066,27 @@
        "source_id": "or40-1-lee-petersburg-selections-v1",
        "quote": "Headquarters Army of Northern Virginia, June 24, 1864",
        "battle_id": "VA065"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 2
+       },
+       "source_id": "humphreys-petersburg-selections-v1",
+       "quote": "General A. P. Hill had been sent down the Weldon Rail¬ road to meet Meade’s attempt upon it, having Wilcox’s and",
+       "battle_id": "VA065"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 2
+       },
+       "source_id": "humphreys-petersburg-selections-v1",
+       "quote": "During the day General Barlow made a reconnoissance toward the Weldon Railroad, and a considerable force of the enemy moved down the road to meet it.",
+       "battle_id": "VA065"
       }
      ],
-     "rationale": "Single CWSAC listing. Lee's report from the headquarters of the Army of Northern Virginia says the enemy was driven back by Mahone 'with a portion of his command'; the description has Hill's troops led by Mahone. Mahone is subordinate context; no passage names another officer commanding the Confederate engaged forces (rule 2). The live rank is not adopted."
+     "rationale": "Single CWSAC listing. Lee's report from the headquarters of the Army of Northern Virginia says the enemy was driven back by Mahone 'with a portion of his command'; the description has Hill's troops led by Mahone. Mahone is subordinate context. Humphreys says 'General A. P. Hill had been sent down the Weldon Railroad to meet Meade's attempt upon it', with Wilcox's and Mahone's divisions, and describes Hill's flank attack of the 22nd; Hill is not listed. The side's first combat, on the 21st, is not attributed to any commander: 'a considerable force of the enemy moved down the road to meet' Barlow's reconnaissance. Lee's dispatch reports the fighting from army headquarters but does not state that he commanded the engaged force. Because Hill's command is not dated to the first combat, the listing is not strictly contradicted and stays, but the inspected sources disagree about who commanded (rule 2, grade C); Hill is a candidate. Alternative reading: if Hill's force is read as the force that met Barlow on the 21st, rule 2's third bullet would give Hill (cf. VA073). The live rank is not adopted. (Revised after the separate review, finding R2.)"
     }
    }
   },
@@ -30963,14 +31319,15 @@
     },
     "Confederate": {
      "side": "Confederate",
-     "commander_id": "cs-william-mahone",
-     "grade": "C",
-     "rule": "3a",
-     "echelon": "division",
+     "commander_id": null,
+     "grade": "D",
+     "rule": "3c",
+     "echelon": "unknown",
      "labels": [
       "responsibility_unresolved"
      ],
      "candidates": [
+      "cs-william-mahone",
       "cs-fitzhugh-lee"
      ],
      "successor": null,
@@ -31009,6 +31366,15 @@
        "battle_id": "VA068"
       },
       {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "VA068"
+       },
+       "column": "description",
+       "quote": "Wilson's division, fighting against elements of William H.F. \"Rooney\" Lee's cavalry, joined Kautz's near Ream's Station",
+       "battle_id": "VA068"
+      },
+      {
        "dossier": {
         "claim_id": "reported-force-scope",
         "citation_index": 3
@@ -31038,6 +31404,15 @@
       {
        "dossier": {
         "claim_id": "reported-force-scope",
+        "citation_index": 3
+       },
+       "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+       "quote": "By 7 a. m. of the 29th General Kautz’s advance reached Beams’ Station",
+       "battle_id": "VA068"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
         "citation_index": 2
        },
        "source_id": "or40-1-wilson-south-side-raid-selections-v1",
@@ -31045,7 +31420,7 @@
        "battle_id": "VA068"
       }
      ],
-     "rationale": "Mahone and Fitzhugh Lee are both listed as Major General (a tie). The description, Lee's dispatch and Wilson's July 3 report have Mahone's division (Finegan's brigade) meet Kautz first at Reams' Station; Fitzhugh Lee's cavalry came on the flank later (rule 3(a)). The sources disagree: Wilson's 1865 report calls the infantry 'Hoke's division'. By the clock, Hampton's daylight attack on Wilson's rear near Sappony Church (Lee's dispatch) preceded the Reams' Station contact; Hampton is not listed here and that fight is VA067's record. No inspected passage names one officer over Mahone, Fitzhugh Lee and Hampton (grade C). Fitzhugh Lee is a candidate."
+     "rationale": "Mahone and Fitzhugh Lee are both listed as Major General (a tie). The side's first combat within the frozen interval (June 29) was Hampton's attack at daylight on Wilson's rear near Sappony Church: Lee's dispatch of the 29th says the fight begun the previous afternoon 'continued during the night, and at daylight this morning he turned their left and routed them', and the frozen description itself has Wilson's division 'fighting against elements of William H.F. \"Rooney\" Lee's cavalry' before joining Kautz. Kautz's advance reached Reams' Station only 'by 7 a. m.' (Wilson), where Mahone's division (Finegan's brigade) met him and Fitzhugh Lee's cavalry later turned the flank. Hampton is not listed here; his command of the dawn fight is recorded as context only, since rule 3 chooses among listed officers (cf. v1 VA102). No inspected passage shows Mahone or Fitzhugh Lee in command of the side's engaged forces when the fighting began, and none names one officer over Hampton, Mahone and Fitzhugh Lee, so rule 3(a) is not met; the highest listed ranks tie, so there is no rank fallback (rule 3(c), grade D). Mahone and Fitzhugh Lee are the tied candidates. The sources also disagree on the infantry: Wilson's 1865 report calls it 'Hoke's division'. (Revised after the separate review, finding R3; previously Mahone, rule 3(a), grade C.)"
     }
    }
   },
@@ -31635,9 +32010,27 @@
        "source_id": "or42-1-lee-petersburg-selections-v1",
        "quote": "This morning General Hill attacked his position on Weldon railroad.",
        "battle_id": "VA072"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 2
+       },
+       "source_id": "humphreys-petersburg-selections-v1",
+       "quote": "finding only Dealing’s cavalry brigade to oppose him",
+       "battle_id": "VA072"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 2
+       },
+       "source_id": "humphreys-petersburg-selections-v1",
+       "quote": "General Dearing had reported to General Beauregard the appearance of some force on the railroad",
+       "battle_id": "VA072"
       }
      ],
-     "rationale": "Lee (General), Hill (Lieutenant General), Heth and Mahone (Major General) are listed. On August 18 Heth, with two brigades, was sent to support Dearing and attacked; Lee's dispatch of the 18th says Warren 'was met by General Heth' (rule 3(a)). On the 19th and 21st Hill commanded the attacks with Heth's and Mahone's troops (rule 4: command_changed, successor Hill). The dawn fighting of the 18th, when Warren drove back the Confederate pickets, is not assigned to any commander in the inspected passages; Humphreys says Dearing reported to Beauregard (unlisted), and Heth 'was sent' without naming by whom. So Heth's command at the very first combat is not established (grade C). Lee, at Chaffin's Bluff, sent Mahone's and W. H. F. Lee's divisions back and on the 21st directed Field and Hampton (superior_directing: Lee). Lee, Hill and Mahone are candidates. The live rank is not adopted."
+     "rationale": "Lee (General), Hill (Lieutenant General), Heth and Mahone (Major General) are listed. On August 18 Heth, with two brigades, was sent to support Dearing and attacked; Lee's dispatch of the 18th says Warren 'was met by General Heth' (rule 3(a)). On the 19th and 21st Hill commanded the attacks with Heth's and Mahone's troops (rule 4: command_changed, successor Hill). Humphreys has Warren meet only Dearing's cavalry brigade at first (Dearing, unlisted, reported to Beauregard, unlisted), and Heth 'was sent' to Dearing's support without naming by whom, while Lee's dispatch has Warren 'met by General Heth'. The sources disagree on who commanded at first contact (grade C). If Lee's dispatch is not read as a disagreeing account, rule 3(b) would give Lee (the sole General listed), grade C, with Hill, Heth and Mahone as candidates. Lee, at Chaffin's Bluff, sent Mahone's and W. H. F. Lee's divisions back and on the 21st directed Field and Hampton (superior_directing: Lee). Lee, Hill and Mahone are candidates. The live rank is not adopted."
     }
    }
   },
@@ -32145,7 +32538,7 @@
      ],
      "candidates": [
       "cs-john-echols",
-      "cs-john-c-breckinridge"
+      "cs-breckinridge"
      ],
      "successor": null,
      "superior": null,
@@ -32206,9 +32599,18 @@
        "source_id": "or39-1-gardner-saltville-selections-v1",
        "quote": "paroled by Major-General Breckinridge",
        "battle_id": "VA076"
+      },
+      {
+       "source_id": "arnold-cwsac-battles",
+       "row_key": {
+        "battle": "VA076"
+       },
+       "column": "description",
+       "quote": "On the morning of October 1, the Federals attacked but made little headway.",
+       "battle_id": "VA076"
       }
      ],
-     "rationale": "Rule 2, listing kept, sources disagree. The description has Jackson concentrating the troops near Saltville, and his dispatches of October 1-2 are signed 'Brigadier-General, Commanding' at Saltville and addressed to Echols as his superior. Burbridge says the enemy was 'under Echols, Williams, Vaughn, and, it is said, Breckinridge', later 'under Breckinridge, Vaughn, Echols, and Williams'; Gardner was paroled by Breckinridge on the 3rd. No passage names one other officer as commanding the defense when the fighting began, so the listing is not overturned, but who commanded is not settled (as the dossier also says). Candidates Echols and Breckinridge are mapped to the registry's John Echols (Jackson's addressee 'Brig. Gen. John Echols') and John C. Breckinridge on name alone. Jackson's 5 p.m. dispatch of October 2 still expects the attack, while Burbridge dates the fight to the 2nd: a date conflict the dossier keeps. Echelon: Jackson commanding at the Saltville post."
+     "rationale": "Rule 2, listing kept, sources disagree. The description has Jackson concentrating the troops near Saltville, and his dispatches of October 1-2 are signed 'Brigadier-General, Commanding' at Saltville; the October 1 dispatch is addressed to 'Brig. Gen. John Echols' (the October 2 dispatch to Capt. H. T. Stanton). Burbridge says the enemy was 'under Echols, Williams, Vaughn, and, it is said, Breckinridge', later 'under Breckinridge, Vaughn, Echols, and Williams'; Gardner was paroled by Breckinridge on the 3rd. No passage names one other officer as commanding the defense when the fighting began, so the listing is not overturned, but who commanded is not settled (as the dossier also says). Candidate Echols is the registry's John Echols (Jackson's addressee 'Brig. Gen. John Echols'); candidate Breckinridge is a passage-only entry ('Major-General Breckinridge', Gardner), not identified with the listed John C. Breckinridge because no inspected VA076 passage gives his initials or full name. Burbridge also names Williams and Vaughn among the defenders' commanders, surname only and without rank or role; they are not recorded as candidates, because no passage gives them a relation to Jackson (as Jackson's address does for Echols) or a rank above his (as Gardner's 'Major-General' does for Breckinridge), and a surname-only 'Vaughn' entry would be identified with the separate VA111 passage-only Vaughn on surname alone. Jackson's 5 p.m. dispatch of October 2 still expects the attack, while Burbridge dates the fight to the 2nd: a date conflict the dossier keeps; the frozen description also dates the Federal attack to 'the morning of October 1', against the frozen interval of October 2. Echelon: Jackson commanding at the Saltville post."
     }
    }
   },
@@ -32284,7 +32686,7 @@
        "battle_id": "VA077"
       }
      ],
-     "rationale": "Kautz (Brigadier General) and Birney (Major General) are listed. Humphreys says Kautz, with 1,700 men and two batteries, held the Darby road and was attacked at sunrise by Field, the first combat; 'the Tenth Corps', moving out to his assistance, later repulsed Field (rule 3(a)). No inspected passage names the Tenth Corps' commander, places Kautz under Birney or names an overall commander, so no command change is recorded. Birney is a candidate; rule 3(b) would have given Birney."
+     "rationale": "Kautz (Brigadier General) and Birney (Major General) are listed. Humphreys says Kautz, with 1,700 men and two batteries, held the Darby road and was attacked at sunrise by Field, the first combat; 'the Tenth Corps', moving out to his assistance, later repulsed Field (rule 3(a)). No inspected passage names the Tenth Corps' commander, places Kautz under Birney or names an overall commander, so no command change is recorded. Birney is a candidate; rule 3(b) would have given Birney. Humphreys's 'the right of the force on the north side of the James' implies a larger force whose commander no inspected passage names for October 7, so grade C would also be defensible."
     },
     "Confederate": {
      "side": "Confederate",
@@ -32958,7 +33360,7 @@
        "battle_id": "VA083"
       }
      ],
-     "rationale": "Humphreys and Warren are both listed as Major General (a tie). On February 5 the Union force moved as three separate commands, each 'directed' from army headquarters: Gregg's cavalry to Dinwiddie, Warren's corps to the Vaughan road, Humphreys' two divisions to the Hatcher's Run crossings. The first combats named are Humphreys' troops dispersing the lookout infantry at the Vaughan road crossing and Gregg's advance meeting Confederate cavalry at Dinwiddie (Lee); the passages do not order them in time, and Gregg is under neither listed officer. No passage shows either listed officer in command of the side's engaged forces when the fighting began (rule 3(c)). Humphreys, who is also the author of the inspected history, commanded the force Gordon attacked late on the 5th, and Warren the fight of the 6th. Meade authorized and reinforced (superior_directing: Meade)."
+     "rationale": "Humphreys and Warren are both listed as Major General (a tie). On February 5 the Union force moved as three separate commands, each 'directed' from army headquarters: Gregg's cavalry to Dinwiddie, Warren's corps to the Vaughan road, Humphreys' two divisions to the Hatcher's Run crossings. The first combats named are Humphreys' troops dispersing the lookout infantry at the Vaughan road crossing and Gregg's advance meeting Confederate cavalry at Dinwiddie (Lee); the passages do not order them in time, and Gregg is under neither listed officer. No passage shows either listed officer in command of the side's engaged forces when the fighting began (rule 3(c)). Humphreys, who is also the author of the inspected history, commanded the force Gordon attacked late on the 5th, and Warren the fight of the 6th. Meade authorized and reinforced (superior_directing: Meade). Alternative reading: Humphreys' two divisions made a named first contact (the lookout infantry 'soon dispersed'), which would give Humphreys under rule 3(a); it is not adopted because Gregg's Dinwiddie contact is not ordered against it in time and falls under neither listed officer."
     },
     "Confederate": {
      "side": "Confederate",
@@ -33634,10 +34036,11 @@
     "Confederate": {
      "side": "Confederate",
      "commander_id": "cs-george-pickett",
-     "grade": "A",
+     "grade": "C",
      "rule": "2",
      "echelon": "detachment_or_post",
      "labels": [
+      "responsibility_unresolved",
       "superior_directing"
      ],
      "candidates": [],
@@ -33674,9 +34077,27 @@
        "column": "description",
        "quote": "Gen. Robert E. Lee ordered Pickett with his infantry division and Munford's, W.H.F. Lee's, and Rosser's cavalry divisions to hold the vital crossroads of Five Forks at all hazard.",
        "battle_id": "VA088"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 6
+       },
+       "source_id": "humphreys-appomattox-selections-v1",
+       "quote": "When the battle began General Pickett and General Fitz Lee were on the north side of Hatcher’s Run.",
+       "battle_id": "VA088"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 6
+       },
+       "source_id": "humphreys-appomattox-selections-v1",
+       "quote": "There was no Confederate commander on the field",
+       "battle_id": "VA088"
       }
      ],
-     "rationale": "Rule 2. The description has Lee order Pickett, with his division and three cavalry divisions, to hold Five Forks (superior_directing: Lee). No inspected passage places Pickett at the moment the attack began or names another officer in command; the grade rests on the description's statement of his command."
+     "rationale": "Rule 2. The description has Lee order Pickett, with his division and three cavalry divisions, to hold Five Forks (superior_directing: Lee). Humphreys says that when the battle began Pickett and Fitz Lee were north of Hatcher's Run, where no sound of the firing reached them, and that Pickett stayed there 'until near the close of the action'. He adds that 'There was no Confederate commander on the field'. On reaching his troops, Pickett ordered up Mayo's brigade and directed Corse's new line. No passage names another officer in command, so the listing is kept. The inspected sources disagree, however, about whether anyone directed the side's engaged forces when the fighting began: grade C, responsibility_unresolved, as v1 TN006 US and MS010 CS."
     }
    }
   },
@@ -34068,10 +34489,12 @@
      "rule": "3b",
      "echelon": "corps_or_wing",
      "labels": [
+      "command_changed",
       "responsibility_unresolved"
      ],
      "candidates": [
-      "cs-john-b-gordon"
+      "cs-john-b-gordon",
+      "cs-richard-h-anderson"
      ],
      "successor": null,
      "superior": null,
@@ -34127,7 +34550,7 @@
        "battle_id": "VA093"
       }
      ],
-     "rationale": "Ewell (Lieutenant General) and Gordon (Major General). No inspected passage shows one officer commanding the side's engaged forces: Ewell and Anderson (not listed) arranged their parts by agreement, and Gordon's corps fought the II Corps separately. Rule 3(b) gives the senior listed officer, Ewell (grade C). Ewell was captured during the action ('being a prisoner'); no successor for the side is named, so no command_changed label."
+     "rationale": "Ewell (Lieutenant General) and Gordon (Major General). No inspected passage shows one officer commanding the side's engaged forces: Ewell and Anderson (not listed) arranged their parts by agreement, and Gordon's corps fought the II Corps separately. Rule 3(b) gives the senior listed officer, Ewell (grade C). Ewell surrendered during the action ('I surrendered myself and staff … though I gave no orders, being a prisoner'), while G. W. C. Lee's troops and Gordon's corps were still engaged (rule 4: command_changed). No inspected passage names a successor for the side, so none is recorded (as LA020 CS). Anderson, not listed, is recorded as a candidate for the co-equal arrangement Ewell describes."
     }
    }
   },
@@ -36409,23 +36832,11 @@
      "grade": "A",
      "rule": "2",
      "echelon": "corps_or_wing",
-     "labels": [
-      "superior_directing"
-     ],
+     "labels": [],
      "candidates": [],
      "successor": null,
-     "superior": "us-ulysses-s-grant",
-     "superior_citations": [
-      {
-       "dossier": {
-        "claim_id": "reported-force-scope",
-        "citation_index": 5
-       },
-       "source_id": "pond-waynesboro-selections-v2",
-       "quote": "Grant began to desire the repeti- tion of the attempt to reach Staunton and Gordonsville",
-       "battle_id": "VA123"
-      }
-     ],
+     "superior": null,
+     "superior_citations": [],
      "citations": [
       {
        "source_id": "arnold-cwsac-commanders",
@@ -36457,7 +36868,7 @@
        "battle_id": "VA123"
       }
      ],
-     "rationale": "Rule 2. Sheridan commanded the expedition of two cavalry divisions (under Merritt's immediate command) and decided to go out and fight Early; Custer made the dispositions and led the attack (subordinate). Grant wrote to Sheridan proposing the expedition (superior_directing: Grant)."
+     "rationale": "Rule 2. Sheridan commanded the expedition of two cavalry divisions (under Merritt's immediate command) and decided to go out and fight Early; Custer made the dispositions and led the attack (subordinate). Pond says Grant 'began to desire the repeti- tion of the attempt to reach Staunton and Gordonsville' and wrote to Sheridan on February 8 and 20 suggesting it; those letters came from outside the Valley and put suggestions, so Grant is a national superior not directing this operation in the field (no superior label; as VA114)."
     },
     "Confederate": {
      "side": "Confederate",
@@ -36672,9 +37083,18 @@
        "source_id": "humphreys-kilpatrick-dahlgren-selections-v1",
        "quote": "The ambush was formed chiefly through the efforts of Captain Fox and Lieutenant Pollard,",
        "battle_id": "VA125"
+      },
+      {
+       "dossier": {
+        "claim_id": "reported-force-scope",
+        "citation_index": 16
+       },
+       "source_id": "or33-pollard-walkerton-selections-v1",
+       "quote": "I overtook the enemy about 4 p. m. and attacked his rear, skirmishing with him for several miles.",
+       "battle_id": "VA125"
       }
      ],
-     "rationale": "No inspected passage places the listed Hampton at Walkerton: Humphreys puts his attack near Atlee's Station and NPS near Old Church. Pollard's March 7 report has him pursuing Dahlgren, placing McGruder's men and the home guard in line, and sending for Fox, who arrived just in time to meet the enemy; his April 9 report says McGruder and the home guard 'placed their men at my command' and that Fox, arriving a few minutes before the enemy advanced and Dahlgren was killed, 'then took command' and held the position until daylight. Read in sequence, Pollard commanded when the fighting began and Fox took over during the action (rule 2, third bullet; rule 4, successor Fox). The contradicting passages name only Pollard, so he is used at grade C with Hampton and Fox as candidates. Both reports are Pollard's own and interested; Humphreys credits Fox and Pollard jointly; Fox's reports were read by the dossier author but not selected. If 'then' is read as before the first fire, the contradicting passages name two officers and rule 2 would return the listed Hampton (still grade C). Pollard and Fox are registered only from these passages."
+     "rationale": "No inspected passage places the listed Hampton at Walkerton: Humphreys puts his attack near Atlee's Station and NPS near Old Church. Pollard's March 7 report has him pursuing Dahlgren, placing McGruder's men and the home guard in line, and sending for Fox, who arrived just in time to meet the enemy; his April 9 report says McGruder and the home guard 'placed their men at my command' and that Fox, arriving a few minutes before the enemy advanced and Dahlgren was killed, 'then took command' and held the position until daylight. Read in sequence, Pollard commanded when the fighting began and Fox took over during the action (rule 2, third bullet; rule 4, successor Fox). The contradicting passages name only Pollard, so he is used at grade C with Hampton and Fox as candidates. Both reports are Pollard's own and interested; Humphreys credits Fox and Pollard jointly; Fox's reports were read by the dossier author but not selected. Pollard's March 7 report also has him overtaking the party about 4 p.m. and attacking its rear, skirmishing for several miles, before McGruder or Fox joined him. So Pollard commanded at the side's first combat on March 2 whichever way Fox's 'then took command' is read, and the Fox passage bears only on the successor. This rests on the dossier's reading of the record as the pursuit and ambush of Dahlgren's detachment; under the raid-wide reading (Hampton's attack on Kilpatrick), the listing would decide. Pollard and Fox are registered only from these passages."
     }
    }
   },
@@ -36762,7 +37182,7 @@
        "battle_id": "WV001"
       }
      ],
-     "rationale": "Rule 2, third bullet. Morris, the single listing, issued the orders from Grafton ('HEADQUARTERS U. S. VOLUNTEERS, Grafton'); his order to Dumont says 'When joined by Colonel Kelley, the whole force will be under his command.' Kelley fell leading the attack of his column, and Morris says Dumont 'by the fall of Colonel Kelley, had command' (rule 4, successor Dumont). The inspected passages therefore name Kelley as commanding the engaged force at first combat, so he is used at grade C with Morris a candidate and the superior directing. Limits: the order is prospective; Morris says the columns were fifteen minutes apart at the meeting time, and no inspected passage fixes the moment the columns joined. Reading Morris as the field commander directing the operation would keep the listing. Kelley (the description's 'B.F. Kelley') is a passage-only entry here; the listing 'Benjamin F. Kelley' exists at MD008 (merge proposed in the report)."
+     "rationale": "Rule 2, third bullet. Morris, the single listing, issued the orders from Grafton ('HEADQUARTERS U. S. VOLUNTEERS, Grafton'); his order to Dumont says 'When joined by Colonel Kelley, the whole force will be under his command.' Kelley fell leading the attack of his column, and Morris says Dumont 'by the fall of Colonel Kelley, had command' (rule 4, successor Dumont). The inspected passages therefore name Kelley as commanding the engaged force at first combat, so he is used at grade C with Morris a candidate and the superior directing. Limits: the order is prospective; Morris says the columns were fifteen minutes apart at the meeting time, and no inspected passage fixes the moment the columns joined. Reading Morris as the field commander directing the operation would keep the listing. Kelley (the description's 'B.F. Kelley') is a passage-only entry here."
     },
     "Confederate": {
      "side": "Confederate",
@@ -37153,7 +37573,7 @@
        "battle_id": "WV004"
       }
      ],
-     "rationale": "Rule 2, single listing. The description has Floyd, commanding the Confederate forces in the Kanawha Valley, crossing to attack; Wise (an interested, polemical account; Wise was not present) says Floyd surprised Tyler's regiment. Lee's arrival in western Virginia 'during the month' is not shown directing this action. 'John Floyd' and v1 'John B. Floyd' are proposed as one person (report)."
+     "rationale": "Rule 2, single listing. The description has Floyd, commanding the Confederate forces in the Kanawha Valley, crossing to attack; Wise (an interested, polemical account; Wise was not present) says Floyd surprised Tyler's regiment. Lee's arrival in western Virginia 'during the month' is not shown directing this action. 'John Floyd' and v1 'John B. Floyd' are merged on the listing fields."
     }
    }
   },
@@ -38047,7 +38467,7 @@
    "containing": "MO006",
    "contained": "MO003",
    "outcome": "not_nested",
-   "reason": "Liberty (Blue Mills Landing) was fought north of the Missouri River by the northern State Guard columns under Atchison, en route to Lexington, against Scott's Third Iowa detachment; the Lexington description narrates only the siege and does not mention it, and neither Union force was part of the other. The force scopes partly overlap: Britton says Saunders's division crossed from North Missouri and joined Price in time for the siege, and Atchison's report puts five regiments under Saunders at Blue Mills. Only views that include both records are affected.",
+   "reason": "Liberty (Blue Mills Landing) was fought north of the Missouri River by the northern State Guard columns under Atchison, en route to Lexington, against Scott's Third Iowa detachment; the Lexington description narrates only the siege and does not mention it, and neither Union force was part of the other. The force scopes partly overlap: Britton says Saunders's division crossed from North Missouri and joined Price in time for the siege, and Atchison's report puts five regiments under Saunders at Blue Mills. Atchison's report to Price says 'I delivered your orders to the above commands to hasten to this point (Lexington) with as much dispatch as possible.' Only views that include both records are affected.",
    "citations": [
     {
      "source_id": "arnold-cwsac-battles",
@@ -38083,6 +38503,15 @@
      },
      "source_id": "or3-atchison-blue-mills-selections-v1",
      "quote": "five regiments of infantry, under the command of Colonel Saunders",
+     "battle_id": "MO003"
+    },
+    {
+     "dossier": {
+      "claim_id": "stated-aims",
+      "citation_index": 0
+     },
+     "source_id": "or3-atchison-blue-mills-selections-v1",
+     "quote": "I delivered your orders to the above commands to hasten to this point (Lexington) with as much dispatch as possible.",
      "battle_id": "MO003"
     }
    ]

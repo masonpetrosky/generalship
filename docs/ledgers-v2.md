@@ -56,7 +56,15 @@ No other new source research is authorized for this layer. An unfilled side stay
   ledger are unchanged.
 - **Registry.** Identical CWSAC name strings on one side are one person. Other merges need the
   listing's own fields (same side and surname; given names differ only by abbreviation or
-  spelling) or a passage, and each is recorded with its basis.
+  spelling) or a passage giving matching initials or the full name, and each is recorded with its
+  basis (`merge_basis`, `passage_merges`).
+- **Identification in passages.** A name in a record's passages is identified with a listed
+  officer of the same side when the passages give matching initials or the full name, or when the
+  surname matches exactly one listed officer of that side and no passage gives conflicting
+  initials. Otherwise the officer gets a passage-only entry. Two review corrections keep stricter
+  passage-only entries (MO009's "Major-General Polk" and VA076's "Major-General Breckinridge").
+  Superiors and candidates identified this way are descriptive labels; they do not change a
+  side's grade.
 
 ## Review
 

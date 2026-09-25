@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 8ee0902c-c7f9-43bf-9b1c-1281e8e3334d",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 1b6b83012d485fe9170b9aa5807da9a0b1509884; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T19:49:18Z",
+  "prepared_commit": "11d4bc3168b83917a8efc233bf8d0bdc9ccbf372",
+  "bundle_commit": "1b6b83012d485fe9170b9aa5807da9a0b1509884",
+  "assignment_sha256": "c553426f1096c48b7241681b6b84e331f371b4520fefd518d2fb3b5a848f5ed8",
+  "inputs_manifest_sha256": "20dd666ac4408478002a6f1f08bccd5a047de96185b320a9a546a31f458959d0",
+  "num_turns": 58,
+  "duration_ms": 1033338,
+  "terminal_reason": "completed",
+  "returned_message": "I found two required corrections in batch 1, so the outcome is **corrections required**. The review is written and is the only file I added; nothing was committed or pushed.\n\n**Review path:** `artifacts/review-results/v2cmd-b1-11d4bc3-opus-high-v1/review.md`\n\n**Finding IDs:** R1, R2 (required); A1–A11 (advisories).\n\n**Required corrections**\n- **R1 (NC001, US side):** The ledger picks Stringham because he commanded the squadron that fired first, but none of the side's citations says he commanded it. The review gives an exact citation to add from the articles of capitulation in Stringham's report, which already resolves: \"Flag-Officer Stringham, commanding the Atlantic Blockading Squadron\". Grade C stays the same.\n- **R2 (MO009, Confederate side):** Pillow's \"Major-General Polk\" was mapped to `cs-polk`, the existing entry for the \"General Polk\" at KY009. Only the surname links them. That breaks the addendum's own rule that surname-only matches stay separate. The review gives an exact new registry entry (`cs-polk-mo009`), the new successor and superior values, and replacement rationale text. The choice of Pillow and his grade are otherwise supported.\n\n**Advisories worth your attention**\n- **A1:** The `joint_command` label at NC001 is the only use of it outside rule 5 in either ledger, so it needs a design decision.\n- **A2:** MO003's grade A for Atchison rests on a thin reading of \"his force\".\n- **A4:** MO010's Britton quote is about December 27, the day before the recorded interval (28 December).\n- **A10:** Leaving MO006/MO003 as `not_nested` matches two already-reviewed pairs. However, another pair (LA010/LA009) is marked `nested` on force scope alone, so a single stated rule may be needed across batches.\n- **A3, A5–A9, A11:** Citation additions and stale \"report\" wording, with exact text in the review.\n\n**Input checks:** All 25 bound inputs match their hashes at the prepared commit and in the worktree. The bundle commit adds only the assignment and `inputs.json`. `make check` passed, and the `command-check` run passed with 305 engagements. One gap: `inputs.json` binds the extraction record (`docs/research/ledgers-v2.md`), not the addendum the assignment names (`docs/ledgers-v2.md`). It also leaves out the design doc, the v1 memo and `generalship/command.py`. I read those files anyway and recorded their full hashes; the addendum and design match the ledger's own bindings.\n\n**Coverage:** I checked all 28 engagements, both sides, against the ledger, the CWSAC rows, the dossiers and the registry. The review lists which source sections I read in full, which only in part, and which I checked only for the quote itself (Grant, Price, Prentiss, Lyon, Sigel, Sturgis, McDowell, Thompson, Evans, Anderson). The strength ledger, other batches and the 91 carried-forward v1 entries were out of scope.\n\nThis is a separate AI review, not historical adjudication, independent corroboration or feature admission."
+}

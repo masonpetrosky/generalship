@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 3853cbb6-62a7-4e65-a5c9-a41f17223f90",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 7f82df9eedc172090c62f5406f36906b356fa116; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T19:49:21Z",
+  "prepared_commit": "11d4bc3168b83917a8efc233bf8d0bdc9ccbf372",
+  "bundle_commit": "7f82df9eedc172090c62f5406f36906b356fa116",
+  "assignment_sha256": "e369e65d42e045c5d81e8c80f6792e12d60aa91882bd1f851577f172f1df397b",
+  "inputs_manifest_sha256": "20dd666ac4408478002a6f1f08bccd5a047de96185b320a9a546a31f458959d0",
+  "num_turns": 66,
+  "duration_ms": 1173351,
+  "terminal_reason": "completed",
+  "returned_message": "The batch 2 review is written, and the outcome is **corrections required**: seven required findings and ten advisories.\n\n**Review path:** `artifacts/review-results/v2est-b2-11d4bc3-opus-high-v1/review.md` (sha256 `8ed3d12f…4100`). It is the only file I wrote; nothing was modified, committed or pushed.\n\n**Input check:** `assignment.md` (`e369e65d…`) and `inputs.json` (`20dd666a…`) match. All 25 bound files match at `11d4bc3` and in the worktree at `7f82df9`. The only differences between those two commits are the review-bundle files. Two small gaps in the manifest, recorded in the review:\n- It doesn't bind several files the assignment says to read (the design docs, the owner decision, the v1 memo and the two scripts). I read them at the worktree commit; the ledger's own bindings pin most of them, and the checker verified those.\n- It binds `docs/research/ledgers-v2.md`, while the assignment names the addendum `docs/ledgers-v2.md`. I read both.\n\n**Checks:** `make check` passed (143 tests). `estimate-check` gives grades A/B/C/D of 184/60/114/252, fit-eligible rows of 61/83/130, and 20 rows excluded as post-start.\n\n**Scope:** all 25 engagements, both sides. For each I checked every input against its cited quote, frozen CSV cell or Livermore section, and checked every strength citation in the dossier. For context I read the surrounding source text, and checked the Livermore page images for p.79, p.95 and p.96. The OCR search showed that only Pea Ridge and Prairie Grove have Livermore entries in this batch.\n\n**Required findings** (results from replaying the unchanged engine):\n- **R1 – NM001 US:** Sibley's \"near 6,000\" should be an upper bound, matching how OK004 codes \"near 7,000\". The range high drops from 6,000 to 3,500.\n- **R2 – NM002:** the March 27–28 figures need the same time codes the entry already gives its other day-limited figures. Both sides become grade D. The row was already excluded from every fit, so no fit row changes; the post-start exclusion count drops from 20 to 19.\n- **R3 – GA001 Confederate:** `post_outcome_claim` is applied to a claim whose phase is `unresolved`. It should be `post_engagement_state`; the class changes but the estimate doesn't.\n- **R4 – LA003 Confederate:** Irwin's 2,600 repeats Breckinridge's \"not more than 2,600\", as the ledger's own note says, but isn't linked to it. Linked, the estimate becomes A 3,000 (2,850–3,780) on an effective basis.\n- **R5 – AR001 Confederate:** the page image shows Livermore's 14,000 is sourced to Van Dorn's \"less than 14,000\" on OR p.285. Linked, the side drops from B to C 16,000 and the row leaves the A–B set.\n- **R6 – AR005 Confederate:** Livermore's 10,000 is sourced to Hindman's \"less than 10,000\" on OR p.140. Linked, the side becomes grade D and the row becomes incomplete.\n- **R7 – LA005:** a figure dated the same day as the battle is coded as post-start. It should be `partial_interval`; the class changes but the estimates don't.\n\nWith all seven applied, the totals become A/B/C/D 184/58/113/255, fit-eligible rows 61/81/129, and 19 post-start exclusions.\n\nThe advisories (A1–A10) include a few items outside this batch: other \"near N\" readings (FL005, MO010, NC020) and other uses of `post_outcome_claim` (AR009, GA028, KY011, LA010). These need one consistent choice across batches.\n\n**Finding IDs:** R1, R2, R3, R4, R5, R6, R7; advisories A1–A10."
+}

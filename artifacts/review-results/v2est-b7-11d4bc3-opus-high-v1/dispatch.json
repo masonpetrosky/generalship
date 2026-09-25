@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session d38ede90-949a-43b1-9151-a38629d5c63b",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit fe948a6e949e8d7b0fff25479bc9e64263ef8647; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T19:49:21Z",
+  "prepared_commit": "11d4bc3168b83917a8efc233bf8d0bdc9ccbf372",
+  "bundle_commit": "fe948a6e949e8d7b0fff25479bc9e64263ef8647",
+  "assignment_sha256": "40189f732dad0169018c08e8cd70fcf1b32937037947d2752b8d58e70d7568d1",
+  "inputs_manifest_sha256": "20dd666ac4408478002a6f1f08bccd5a047de96185b320a9a546a31f458959d0",
+  "num_turns": 66,
+  "duration_ms": 748415,
+  "terminal_reason": "completed",
+  "returned_message": "I reviewed all 25 engagements in batch 7, and **corrections are required**: one changes a Union range and adds a label, the other only fixes wording. All 25 input hashes matched the prepared commit `11d4bc3`. `make check` and `estimate-check` both passed offline, and the review file is the only file I wrote.\n\n**Review file:** `artifacts/review-results/v2est-b7-11d4bc3-opus-high-v1/review.md`\n\n**Finding IDs:** F1, F2 (required); A1, A2, A3, A4 (advisory).\n\n**Required corrections**\n- **F1 – GA023 (Allatoona), Union side.** Corse's \"about 1,500\" is a musket count, so it covers only infantry. His \"aggregate of 1,944\" is also infantry only: the garrison's 890 is exactly 450 + 290 + 150 from the three infantry regiments, and the Twelfth Wisconsin Battery is listed with no men counted. Both inputs should be recoded as partial-scope lower bounds, which matches how the ledger treats other musket figures.\n  - Replaying the rules with that change moves the Union low from 1,430 to 1,850 and adds the `single_input` label.\n  - The point stays at 1,940 and the grade stays A.\n- **F2 – VA076 (Saltville), Confederate side.** The grade D reason calls all of Burbridge's enemy figures prisoners' reports, but the October 10 figure is his own estimate. One input note also attributes the Breckinridge 4,000 to \"it is said\", when it came from prisoners. The review gives replacement text for both. The grade and the numbers don't change.\n\n**Advisories**\n- **A1 – TN034 and TN038 (Hood's strength table).** The ledger says the table's columns can't be read reliably, but the arithmetic supports reading the first column as effective strength (25,889 + 2,306 + 2,405 = 30,600). The Columbia (TN034) figure is also dated before Forrest joined, and the ledger codes a Cox figure of the same date as partial for that reason. How this is recoded could change the Confederate point at Columbia from 35,000 to 30,600, or raise its low to 24,500. I didn't make it required because the dossier leaves the scope open; the review lists each option's replayed effect.\n- **A2 – MO029 (Newtonia).** Price's 3,000 may count only the Union force before Sanborn arrived. If it were coded as partial, the Union side would drop from grade C to grade D.\n- **A3 – VA122 (Cedar Creek).** One Livermore input lacks the \"derived from losses\" code; it doesn't change the class.\n- **A4 – MO026 (Byram's Ford).** The grade D reason calls Price's 6,000–8,000 a lower bound, but it covers a different scope; the wording could be clearer.\n\nI compared the six Livermore page images with the transcription (pp. 127, 129–133), including the four totals that set points for Franklin and Nashville; all match. Livermore has no entries for the other 21 engagements. This is a separate AI review, not historical adjudication or feature admission, so check each finding against its passage before changing the ledger."
+}

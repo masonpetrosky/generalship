@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session ae1a3bd5-51de-4271-abac-5b8a92a82ab1",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 09c3a6b873b6bbafac2c1363cd3f60185a7c45da; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T19:49:21Z",
+  "prepared_commit": "11d4bc3168b83917a8efc233bf8d0bdc9ccbf372",
+  "bundle_commit": "09c3a6b873b6bbafac2c1363cd3f60185a7c45da",
+  "assignment_sha256": "bb0476c829391b601b70c97d2f3be8afebb1d480ccf18389956bb8d98920cc8d",
+  "inputs_manifest_sha256": "20dd666ac4408478002a6f1f08bccd5a047de96185b320a9a546a31f458959d0",
+  "num_turns": 60,
+  "duration_ms": 660683,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** One finding needs a fix (R1), and I've listed seven advisories that need no correction (A1–A7).\n\n**Review path:** `artifacts/review-results/v2est-b5-11d4bc3-opus-high-v1/review.md`. It's the only file I wrote; nothing was committed or pushed.\n\n**Finding IDs:** R1 (required); A1, A2, A3, A4, A5, A6, A7 (advisories).\n\n**Input checks.** All 25 input hashes match, both at `11d4bc3` and in the worktree. The assignment file hash (`bb0476c8…`) and the manifest hash (`20dd666a…`) also match. `make check` passed 143 tests, and the `estimate-check` command exited 0.\n\n**What I covered.** I checked all 27 assigned engagements, both sides. That included every input and every strength-claim citation in their dossiers, plus the frozen battles and forces rows. I also read the raw source text around the cited passages. For Livermore, I read the transcription for pp.113–118 and 128–134. I checked the page images for pp.114–118, 128, 131 and 134. I did not open the images for pp.113, 129, 130 and 133.\n\n**R1.** The same NPS Union \"Forces Engaged\" cell of 39,000 is coded two different ways:\n- **At VA047 (Port Walthall Junction)** it is coded `other_engagement`, which makes it unusable.\n- **At VA053 (Proctor's Creek)** it is coded class A.\n\nNo cited passage says the 39,000 is a campaign figure. That makes this the \"uncertain\" case, which the ledger already codes `scope_unresolved` elsewhere (VA004 and NM001, both outside this batch). The exact changes I propose:\n- **VA047 `us-nps`:** codes become `[\"derivation_unknown\",\"scope_unresolved\"]`, class C. The Union side moves from grade D to C: point 39,000, range 27,300–50,700, basis `reported_engaged`. The row stays incomplete because the Confederate side is still D.\n- **VA053 `us-nps`:** the same codes, class C. The Union side stays grade A at 30,000 (28,500–40,950) and only gains the `applicability_unresolved` label.\n\nThe alternative is to code both as `other_engagement`. That would narrow the VA053 Union range to 28,500–31,500, and VA004 and NM001 would then need a consistency check. Either way, no fit row set changes. The primary should check R1 against the passages before applying it.\n\n**Advisories, in brief:**\n- **A1:** Livermore dates Deep Bottom August 14–19, against the frozen August 13–20 (VA071). Leaving it uncoded is defensible, but the notes should record why.\n- **A2:** VA054's \"very nearly 16,000\" is a cap on part of the force and should be coded `one_sided_bound` with `bound: null`. No effect on the estimate.\n- **A3:** The VA063 inventory omits the 28,000 that Humphreys rejects in the cited quote.\n- **A4:** Wilson's departure figure of 5,500 isn't cited in the VA067 or VA068 dossiers. Leaving both Union sides at grade D is consistent.\n- **A5:** The VA056 inventory reason for Wild's garbled \"probably triple\" could be worded more accurately.\n- **A6:** The VA083 Confederate point of 14,880 is a consequence of the declared rules, not a coding error.\n- **A7:** VA072's Confederate grade D is confirmed."
+}

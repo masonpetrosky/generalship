@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 9222c74c-edc8-420c-97a7-9c09b5715a7f",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 1c6e0eba9c23ee03475d2055d99012a832dd1bb8; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T19:49:18Z",
+  "prepared_commit": "11d4bc3168b83917a8efc233bf8d0bdc9ccbf372",
+  "bundle_commit": "1c6e0eba9c23ee03475d2055d99012a832dd1bb8",
+  "assignment_sha256": "87fa8d01e50d0f2de524e6f13c2287861c9c505aebb8d89cc7a6e77634f3cc5a",
+  "inputs_manifest_sha256": "20dd666ac4408478002a6f1f08bccd5a047de96185b320a9a546a31f458959d0",
+  "num_turns": 72,
+  "duration_ms": 1061783,
+  "terminal_reason": "completed",
+  "returned_message": "The batch 2 review is written, and the outcome is **corrections required** (R1–R4).\n\n**Review path:** `artifacts/review-results/v2cmd-b2-11d4bc3-opus-high-v1/review.md` (sha256 `22471b61…3d84`). It is the only file I added. I did not commit or push.\n\n**Checks:**\n- **Input hashes.** All 25 bound inputs match their hashes at `11d4bc3`, and so do the assignment and `inputs.json`. There is no mismatch.\n- **Unbound files.** The assignment names four files that `inputs.json` doesn't bind: the addendum `docs/ledgers-v2.md`, the design, the v1 memo and `command.py`. I read them and recorded their hashes. The ledger's own design and addendum hashes match.\n- **Offline runs.** `make check` passed (143 tests, OK), and `command-check --ledger data/command/responsibility-v2.json` exited 0.\n\n**Scope:** I checked all 50 sides of the 25 assigned engagements against their listings, descriptions, dossier claims and the relevant source sections. I also checked the registry entries they use, and found no nesting pairs in this batch.\n\n**Required findings:**\n- **R1, SC002 US.** Hunter is labelled as the superior directing the June 16 assault, but that is a misreading. The cited passage is about the movement planned for June 11, which was put off. Jones says Hunter \"left the field of operations on the evening of the 11th, leaving General Benham in command\", and the description says the assault was \"contrary to Hunter's orders\". The fix removes the label, adds those quotes and leaves Benham's grade A unchanged.\n- **R2, MO015 Confederate.** Rule 3(a) can't choose Cockrell. The ledger itself treats the August 15 night attack as the first combat, and the force engaged then was under Coffee, who was \"acting independently\". The fix makes Coffee the commander at grade C, with Cockrell as successor, which is how AR003 and the v1 precedents were handled. The only other reading the rules allow is grade D under rule 3(c).\n- **R3, GA001 US.** The rationale wrongly says \"Captain\" is missing from the rank order. The v2 order includes it and the checker ran the rank step. TN032, outside this batch, has a similar stale note about \"Lieutenant Commander\".\n- **R4, MO016, both sides.** The rationales say \"Echelon not stated\", but both report headings say \"commanding division\". The fix sets `division` with citations. For Salomon's side the primary may keep `unknown` because his letterhead says \"First Brigade\", as long as the rationale states that conflict.\n\nEach required finding gives the exact field values and quotes to use, and I checked that every new quote occurs in its source.\n\n**Advisories A1–A9** need no change:\n- inconsistent use of the superior-directing label (Lovell at LA001, Rains at MO016, Blunt at AR005);\n- stronger citations available for LA001 and MO014;\n- Watie as a possible extra candidate at OK004;\n- the unproven \"General Green\" identity at MO017;\n- the Dudley/Cahill successor question and the corps-or-division conflict at LA003;\n- the Brawner registry citation lacking initials;\n- the overlapping LA001/LA002 intervals, both crediting Farragut;\n- a minor echelon choice at FL002.\n\n**Finding IDs:** R1, R2, R3, R4 (required); A1–A9 (advisory).\n\nThis is an AI review within the scope above. It is not historical adjudication or feature admission, and it doesn't authorize any fit."
+}

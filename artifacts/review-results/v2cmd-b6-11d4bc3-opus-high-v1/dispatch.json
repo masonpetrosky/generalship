@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 8c28cf64-e082-494f-a155-facb4634d039",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 0766caaca08fc55aa7c8d53085b910e8e32246db; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T19:49:18Z",
+  "prepared_commit": "11d4bc3168b83917a8efc233bf8d0bdc9ccbf372",
+  "bundle_commit": "0766caaca08fc55aa7c8d53085b910e8e32246db",
+  "assignment_sha256": "923ce48644f2089bb73688ac5e5c236865e147d232e746fe8ba6a0b7e44e11df",
+  "inputs_manifest_sha256": "20dd666ac4408478002a6f1f08bccd5a047de96185b320a9a546a31f458959d0",
+  "num_turns": 49,
+  "duration_ms": 797133,
+  "terminal_reason": "completed",
+  "returned_message": "One correction is required: at MS014 (Brice's Cross Roads) the ledger names C. C. Washburn as the Union superior directing, and that identification doesn't meet the v2 merge rule.\n\n**Review path:** `artifacts/review-results/v2cmd-b6-11d4bc3-opus-high-v1/review.md` (sha256 `d11553819371eacd22f28d1e1bc4a3cb9d01058702a77dc04e9976973854406a`)\n\n**Outcome:** corrections required\n\n**Finding IDs:** R1 (required); A1–A8 (advisories)\n\n- **Inputs:** all 25 hashes in `inputs.json` match both the prepared commit `11d4bc3` and the worktree at `0766caa`. The 24 assigned dossier bindings also match. Nothing changed under `data/`, `generalship/` or `docs/` between the prepared commit and HEAD.\n- **Checks:** `make check` passed (143 tests, OK). `command-check` on the v2 ledger passed: 305 engagements, grades A/B/C/D 512/21/68/9, 401 registry commanders.\n- **Scope:** both sides of all 24 assigned engagements. For each side I read the ledger entry, the frozen description and listing, the dossier's responsibility claim, and the full passage around every cited quote. I also checked every registry identity these entries use and the one contained-interval pair (GA011 contains GA012). I did not look at the 91 carried-forward v1 entries or other batches.\n- **R1 (MS014, Union side):** the MS014 passages give the superior only as \"Maj. Gen. G. G. Washburn\" (OCR), \"General Washburn\", and the unnamed district commander. The link to the TN031 listing \"C.C. Washburn\" rests on another record's report from two months later, and the registry records no basis for it. Under the v2 rule the initials don't match and surname-only matches stay separate. It matters because the superior-directing view would give Washburn two battles, enough to rank him. The fix is a separate passage-only `us-washburn` entry citing that quote. The review gives the exact registry entry, ledger field and rationale text.\n- **Advisories:**\n  - **A1:** MS015's \"command changed\" label for the Lee-to-Forrest handover is borderline, because Lee kept giving orders.\n  - **A2:** three Confederate sides get grade A although the passages show the chosen officer commanding only the main force.\n  - **A3:** TN031's Union echelon has no stated basis.\n  - **A4:** two superior citations could be sharper.\n  - **A5:** GA022's Union rationale relies on Cox but cites no Cox passage.\n  - **A6:** AL003's joint-command reading; a joint reading would make both sides grade D.\n  - **A7:** marking GA012 as nested inside GA011 is consistent with precedent but drops a Confederate victory from views that contain both.\n  - **A8:** the assignment names the addendum as `docs/ledgers-v2.md`, but `inputs.json` binds `docs/research/ledgers-v2.md` instead. The design doc, v1 memo, `command.py` and `cohort-v2.json` aren't bound; I recorded their hashes in the review.\n\nI wrote only the review file. Nothing was committed or pushed. This is an AI review, not a historical judgement, and it doesn't admit features or authorize a fit."
+}

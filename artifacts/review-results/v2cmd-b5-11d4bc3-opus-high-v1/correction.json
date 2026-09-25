@@ -1,0 +1,73 @@
+{
+  "review_sha256": "3342d76995b118342d813def5a2beaea0b47d7cdb74d7661d3a4c15ef1ebd0dd",
+  "prepared_commit": "11d4bc3168b83917a8efc233bf8d0bdc9ccbf372",
+  "bundle_commit": "2f63306ad033e2bda1710dd88dd47c99cf86f748",
+  "scope": "Command-responsibility ledger v2, batch 5 of 8",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_applied",
+      "summary": "Checked against Humphreys reported-force-scope/3 (Smith took orders from Butler on the 14th; Hinks's rifle-pit 'early in the day'; Grant's staff officer about 4 p.m., despatch to Hancock before 5.30) and Meade rations-and-bridge/0 (orders late on the 15th; instructed on the 16th to take command in front of Petersburg). Humphreys's 'Grant's plan' footnote is self-described inference. VA063 US: Grant 3a/A/[] -> Grant 3b/C, labels command_changed+responsibility_unresolved, successor Meade, candidate Meade, superior null; four new quotes added, two existing Grant/Meade quotes lengthened; rationale rewritten (includes A8 context)."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_applied",
+      "summary": "Checked Humphreys reported-force-scope/2: Hill 'had been sent down the Weldon Railroad to meet Meade's attempt', and the June 21 contact is unattributed. VA065 CS: Lee rule 2 A -> Lee rule 2 C, label responsibility_unresolved, candidate Hill; both quotes added; rationale replaced, alternative reading (Hill, cf. VA073) recorded."
+    },
+    {
+      "finding_id": "R3",
+      "disposition": "accepted_applied",
+      "summary": "Checked Lee dispatch of June 29 (Hampton 'at daylight this morning ... turned their left'), Wilson July 3 report ('By 7 a. m. of the 29th General Kautz's advance reached Beams' Station') and the frozen VA068 description (Wilson fighting Rooney Lee's elements before joining Kautz); VA067's frozen interval is 1864-06-28. First combat within the interval was Hampton's (unlisted). VA068 CS: Mahone 3a/C/division -> null 3c/D/unknown, candidates Mahone and Fitzhugh Lee, no successor/superior; Wilson 7 a.m. quote and the description's Rooney Lee sentence added; rationale rewritten. US side unchanged."
+    },
+    {
+      "finding_id": "R4",
+      "disposition": "accepted_applied",
+      "summary": "Checked Humphreys reported-force-scope/2 ('finding only Dealing's cavalry brigade'; 'General Dearing had reported to General Beauregard') and Lee's Aug 18 dispatch ('met by General Heth'). VA072 CS: Heth 3a/C and all fields unchanged; both quotes added; misreading sentence replaced with the reviewer's wording plus the rule 3(b) (Lee) alternative."
+    },
+    {
+      "finding_id": "A1",
+      "disposition": "not_adopted",
+      "summary": "Kept VA062/VA099 not_nested: rule 7 calls for nested only when a passage shows the containing record's fighting or force scope includes the contained record, and the recorded reason (separate Louisa County raid, not narrated in the Cold Harbor description) stands. Whether force-scope uncertainty should trigger nesting_unresolved is left to the primary, as the reviewer says."
+    },
+    {
+      "finding_id": "A2",
+      "disposition": "primary_decision",
+      "summary": "merges.json is shared and not editable here. Proposed: in merges.json _passage entry for cs-johnson-hagood (SC007), cite the passage that gives the given name, SC007 command-roles/6 (jones-charleston-1863-selections-v1, section wagner-siege-and-evacuation): 'commanded succes- sively by Brigadier Generals Taliaferro, Johnson Hagood', instead of the 'General Hagood relieved General Taliaferro' quote, which has no given name. VA047 outcome does not depend on it."
+    },
+    {
+      "finding_id": "A3",
+      "disposition": "accepted_applied",
+      "summary": "VA052 US rationale now calls superior_directing Meade borderline, quoting Sheridan's 'determined at once to march around the enemy's right flank'. Label kept."
+    },
+    {
+      "finding_id": "A4",
+      "disposition": "accepted_applied",
+      "summary": "VA077 US rationale notes that Humphreys's 'the right of the force on the north side of the James' implies a larger force with no named commander for October 7, so grade C would also be defensible. Choice and grade A kept. The August Birney quote is not in VA077's dossier and was not cited."
+    },
+    {
+      "finding_id": "A5",
+      "disposition": "accepted_applied",
+      "summary": "VA083 US rationale records the rule 3(a) Humphreys alternative and why it is not adopted (Gregg's Dinwiddie contact unordered in time and under neither listed officer). Grade D kept; authorship note already present."
+    },
+    {
+      "finding_id": "A6",
+      "disposition": "kept_as_is",
+      "summary": "VA059 US: the repeated Torbert quote is the superior_citations entry, a separate field that must carry its own citation; the citations list itself has no duplicate. No change."
+    },
+    {
+      "finding_id": "A7",
+      "disposition": "not_adopted",
+      "summary": "No inspected passage attributes the June 21 contact to Hill's force, so rule 2's third bullet is not met; the Hill alternative is recorded in the VA065 CS rationale for the primary."
+    },
+    {
+      "finding_id": "A8",
+      "disposition": "accepted_applied",
+      "summary": "Folded into the R1 rationale: Butler (orders to Smith) and Smith are named as unlisted context only."
+    }
+  ],
+  "corrected_ledgers": {
+    "data/command/responsibility-v2.json": "495cef30b475920c2bd02991a4a107dfb3f3079fa494d43512a216dc82da06ac",
+    "data/command/commanders-v2.json": "91fc25260c8370a64b7599940dec22c7640efac8b497dc6ae99ff6eeb45e3768"
+  },
+  "independent_followup_review": false
+}

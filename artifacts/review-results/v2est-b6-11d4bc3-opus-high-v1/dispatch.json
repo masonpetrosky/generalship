@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 93e56ee9-cc5f-4e06-9c5b-ca68d3733d14",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit fde28f09c15ab878b6543ac96e7839a6eeb6da85; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T19:49:21Z",
+  "prepared_commit": "11d4bc3168b83917a8efc233bf8d0bdc9ccbf372",
+  "bundle_commit": "fde28f09c15ab878b6543ac96e7839a6eeb6da85",
+  "assignment_sha256": "6ca0b42158d293e76a98d61c73a22e21a299fa77d294b508095931f176925005",
+  "inputs_manifest_sha256": "20dd666ac4408478002a6f1f08bccd5a047de96185b320a9a546a31f458959d0",
+  "num_turns": 63,
+  "duration_ms": 889522,
+  "terminal_reason": "completed",
+  "returned_message": "The batch 6 review is written; five entries need corrections, and there are ten advisories.\n\n**Review path:** `artifacts/review-results/v2est-b6-11d4bc3-opus-high-v1/review.md` (the only file written; nothing committed).\n\n**Outcome:** corrections required.\n\n**Required corrections:**\n- **B6-R1, GA015 Kennesaw Mountain, both sides:** change the six Livermore inputs from `scope_unresolved` to `partial_scope`, as lower bounds. Livermore's own note 7 says troops on both sides \"all along the line\" also engaged but aren't in his count. Both sides go from C to D.\n- **B6-R2, GA022 Jonesborough, Confederate:** add `partial_interval` to the August 31 effectives and present-for-duty figures. Livermore's entry covers August 31 only, and the rules make no exception because the September 1 force fits inside it. This matches the ledger's coding at NC020, SC007 and VA062. The side goes from A to D.\n- **B6-R3, MS015 Tupelo, Union:** add `reproduction_of: us-smith` to `us-lv`. Livermore gives the 14,000 \"as given by General Smith\", and Smith's figure is his aggregate on leaving La Grange. The side goes from B to C, 14,000 (9,800–19,000), and the row drops out of the grades A–B set.\n- **B6-R4, KY011 Cynthiana, Confederate:** Morgan's \"did not exceed 1,200\" refers only to the 12th and excludes his detached men. Code it `one_sided_bound`, `partial_interval`, `partial_scope` with `bound: null`, as at AL004. The range high goes from 1,200 to 5,000.\n- **B6-R5, MD007 Monocacy, Confederate:** Wallace's 18,000 covers the left bank only, so `cs-wallace-18000` becomes `partial_scope`, lower bound. The estimate doesn't change.\n\nI replayed all five corrections in memory with the unchanged engine and checker, and the ledger still passes:\n\n| Measure | Before | After |\n| --- | --- | --- |\n| Side grades A/B/C/D | 184/60/114/252 | 183/59/113/255 |\n| Fit-eligible rows, grades A / A–B / A–C | 61/83/130 | 61/82/130 |\n| Rows excluded as post-start | 20 | 19 |\n\n**Advisories:** B6-A1 to B6-A10. The main ones:\n- The Peach-Tree Creek Union 20,139 is printed under the Tupelo entry, which I confirmed on the page image, so its uncertain-link coding is defensible.\n- Memphis's Confederate point of 400 follows the rules correctly but is far below every other figure.\n- One wording fix (GA018), one coding refinement with no estimate effect (GA020), and missing inventory notes for GA007 and MS014.\n\n**Verification:** all 25 input hashes match at `11d4bc3` and in the worktree, and so do the assignment and `inputs.json` hashes. `make check` passes (143 tests) and `estimate-check` passes.\n\n- **Manifest discrepancy:** the assignment names `docs/ledgers-v2.md`, but `inputs.json` binds `docs/research/ledgers-v2.md`. I read both and recorded their hashes.\n- **Coverage:** I covered all 24 engagements, both sides. I viewed Livermore page images p115, p120, p121, p122 and p125, but relied on the transcription for p119, p123, p124 and p126.\n\nThis is an AI review against the stated rules, not historical adjudication, feature admission or authorization of any fit."
+}

@@ -16,10 +16,13 @@ ratings on v2 need versioned successors and a new owner authorization.
 dossiers (2,324 claims, 279 explicit unknowns, 11,976 citations, 660 disputed claims), each covered
 by one of 19 campaign-batch Claude Opus 5.5 `high` reviews whose required findings were checked
 and reconciled. The passes add 959 source records, 26 of them metadata-only review successors.
-Next: versioned v2 successors of the strength and command-responsibility ledgers under the accepted
-designs, for the 317 decisive, non-aggregate engagements of cohort v2 (226 new), each with separate
-campaign-batch review. A v2 rating run then needs a new owner authorization naming the ledger
-hashes.
+The versioned v2 successors of the strength and command-responsibility ledgers are also done
+([addendum](ledgers-v2.md), [record](research/ledgers-v2.md)): 305 in-scope engagements (91 carried
+from v1, 214 new; twelve records with a Native American belligerent are out of scope under the
+two-sided rule), with new Livermore transcriptions under the owner's source decision, and sixteen
+reconciled Opus reviews. Fit-eligible rows with both strength sides graded A–C rise from 37 to 126,
+and 40 responsible commanders have two or more such rows (9 before). Next: a v2 rating run needs a
+new owner authorization naming the reviewed ledger and registry hashes.
 
 ## Previous priority — reviewed best-estimate strength ledger
 

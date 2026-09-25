@@ -1,0 +1,68 @@
+{
+  "review_sha256": "3caa34af0a6659e58c11ce93e162083164de1375be1dbf855506b49b4acfafa9",
+  "prepared_commit": "11d4bc3168b83917a8efc233bf8d0bdc9ccbf372",
+  "bundle_commit": "af6f34be843773a78551daeac61ce69df93448df",
+  "scope": "Command-responsibility ledger v2, batch 4 of 8",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_applied",
+      "summary": "LA022 US: checked irwin-red-river-selections-v1 section last-days p.345 (LA022 reported-force-scope #7). 'The infantry rapidly formed line of battle, Mower on the right, ...' is passive and names no one, so the old rationale's 'Banks ... forming line' was not supported. Replaced the rationale with the reviewer's text and added the reviewer's citation (DQ LA022 reported-force-scope 7). Choice us-nathaniel-p-banks, grade A, rule 2 and echelon army are unchanged."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_applied",
+      "summary": "VA125 Confederate: checked or33-pollard-walkerton-selections-v1 section pollard-1864-03-07 p.208 (VA125 reported-force-scope #16). 'I overtook the enemy about 4 p. m. and attacked his rear, skirmishing with him for several miles.' comes before McGruder's reinforcement and before Fox was sent for. Added the citation and replaced the 'If then is read as before the first fire ... listed Hampton' sentence with the reviewer's text. Choice cs-pollard, grade C, labels command_changed and responsibility_unresolved, successor cs-fox and the candidates are unchanged."
+    },
+    {
+      "finding_id": "A1",
+      "disposition": "accepted_applied",
+      "summary": "VA064 CS: checked Pond (lynchburg-and-retreat pp.35-36) and Hunter (hunter-1864-08-08 p.99). Pond's 'long before Hunter's arrival had placed his troops' is about dispositions before the fight; the only first-combat passage naming a commander is Hunter's intelligence ('under the command of General Breckinridge'). Rewrote the rationale to say this. Added Pond's 'the 17th brought half of Early's corps', the fact that Early's dispatch contradicts Hunter's crediting the 18th to Breckinridge, and the alternative: if Hunter's intelligence is not read as naming the first-combat commander, the listed Early is chosen at grade C with Breckinridge a candidate and no command_changed. Choice cs-john-c-breckinridge, grade C, labels and successor Early are unchanged."
+    },
+    {
+      "finding_id": "A2",
+      "disposition": "accepted_applied",
+      "summary": "LA021 US: checked Irwin (Franklin reconnoitred at daylight on the 23rd, 'after maturing his plans' turned over to Emory) and Taylor ('The head of the enemy's column reached Bee's front about 2 p. m. on the 22d'). Added a note to the rationale that no passage times the first fire of the 23rd against the handover; if it came first, Franklin would be the choice (grade C) with command_changed and Emory as successor. Choice (passage-only us-william-h-emory), grade C and superior us-franklin are unchanged. The identity part is recorded separately as A2-identity."
+    },
+    {
+      "finding_id": "A2-identity",
+      "disposition": "primary_decision",
+      "summary": "Proposed passage merge, not applied (merges.json is the primary's): us-franklin -> us-william-b-franklin (listed at TX006, VA011 and VA020A). Basis: Irwin's appendix, irwin-red-river-selections-v1 section appendix-sabine-pleasant-hill-losses p.472, which reads 'Nineteenth Army Corps : Major - General William B. Franklin.' It resolves through dossier LA018 casualty-records #9 and LA019 casualty-records #8, and the dossier LA021 passages name Franklin as the commander of the march. The merge affects only LA021 US `superior`. Emory (us-william-h-emory) has no CWSAC listing, so no merge is proposed for him."
+    },
+    {
+      "finding_id": "A3",
+      "disposition": "accepted_applied",
+      "summary": "LA021 CS: checked Taylor's dispatch (or34-1-taylor-red-river-selections-v1, taylor-1864-04-24-monetts-ferry, p.580). Added the citation 'Bee was in posi- tion at Monett's Ferry with Major's, Bagby's, Debray's, and Terrell's brigades of cavalry' (via FQ; it resolves to LA021 reported-force-scope #4). Changed the echelon from division to unknown and explained why in the rationale: the description says 'Bee's cavalry division', but Taylor and Irwin put Major's two brigades under Bee as well. The choice (cs-hamilton-p-bee), grade A and superior Taylor are unchanged."
+    },
+    {
+      "finding_id": "A4",
+      "disposition": "primary_decision",
+      "summary": "Not applied; this needs the primary's merges.json. Two merges are proposed. (a) cs-mccausland -> cs-john-mccausland (listed at MD008 and WV013, Brigadier General). Basis: the VA049 dossier's McCausland dispatch (or37-1-mccausland-cloyds-mountain-selections-v1, section mccausland-1864-05-09, p.44) is signed 'JOHN McCAUSLAND, Colonel, Commanding.'; the May 15 report is signed 'JNO. McCAUSLAND, Colonel, Commanding.' The rank at VA049 is Colonel, against Brigadier General at MD008; record the rank difference if the entries are merged. (b) Make the Jones candidate auditable. VA049 now uses cid('William E. Jones'), which is listed at VA109/VA111, on the basis of Pond's 'Generals W. E. Jones and Jenkins' (pond-crook-averell-selections-v1, cloyds-mountain-and-wytheville, p.12, VA049 reported-force-scope #14). If the primary wants a passage_merges record, it would be a passage-only 'W. E. Jones' (cs-w-e-jones) -> cs-william-e-jones in merges.json _passage, and the batch would then register the candidate through PO(). The candidate ID is unchanged meanwhile."
+    },
+    {
+      "finding_id": "A5",
+      "disposition": "accepted_applied",
+      "summary": "GA006 US: checked Thomas's report (or32-1-thomas-dalton-selections-v1, thomas-1864-03-10), which has 'General Palmer's command at Ringgold' and Cruft acting 'by instructions from General Palmer'. Added to the rationale that Palmer may have been the field commander but that no passage names him over the whole engaged force (rule 2, second bullet). Choice Thomas, grade A and superior Grant are unchanged."
+    },
+    {
+      "finding_id": "A6",
+      "disposition": "accepted_applied",
+      "summary": "AR017 US: checked Mower's report, which reads 'debarked with the Second and Third Brigades of this division' and 'came up to our cavalry, which were in advance and were skir- mishing'. Added to the rationale that the first combat was by cavalry that the passages do not show under Mower, and that if Greene's 'Major-General Smith commanded' is read as a contradiction, rule 2 would give A. J. Smith at grade C. I did not use the reviewer's 'no artil- lery in my command' quote. Choice Mower, grade C, labels, successor and superior are unchanged."
+    },
+    {
+      "finding_id": "A7",
+      "disposition": "accepted_applied",
+      "summary": "TN030 CS: the cited Forrest passage places McCulloch's brigade (Chalmers's division) and Bell's brigade (Buford's division) 'for the ex- pedition under the command of' Chalmers. Changed the echelon from division to detachment_or_post and added a sentence on this to the rationale. Choice Chalmers, grade C, labels, successor and superior Forrest are unchanged."
+    },
+    {
+      "finding_id": "A8",
+      "disposition": "accepted_applied",
+      "summary": "AR015 CS: checked Price ('On April 19, General Smith reached the field of opera- tions', 'On April 19, Brigadier-General Fagan received orders', 'General Smith had on April 26 assumed command of the Army of Arkansas in person') and Britton ('having assumed command of the Confederate forces in person, General Smith sent out an expedition, under General Fagan'). Added a timing-disagreement note beside superior_directing and added Price's April 19 passage to superior_citations. Marks' Mills is 1864-04-25. Choice Fagan, grade A and superior E. Kirby Smith are unchanged."
+    }
+  ],
+  "corrected_ledgers": {
+    "data/command/responsibility-v2.json": "495cef30b475920c2bd02991a4a107dfb3f3079fa494d43512a216dc82da06ac",
+    "data/command/commanders-v2.json": "91fc25260c8370a64b7599940dec22c7640efac8b497dc6ae99ff6eeb45e3768"
+  },
+  "independent_followup_review": false
+}

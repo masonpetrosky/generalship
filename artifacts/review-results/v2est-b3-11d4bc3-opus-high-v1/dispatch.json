@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session 40d7e357-1112-41bf-b512-25d80670d324",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 8f1e11cb5b622ee785156a20bc914bbfce66dd7f; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T19:49:21Z",
+  "prepared_commit": "11d4bc3168b83917a8efc233bf8d0bdc9ccbf372",
+  "bundle_commit": "8f1e11cb5b622ee785156a20bc914bbfce66dd7f",
+  "assignment_sha256": "7daeecccb83828ecbba3117e6cdb9106e59397d0c9901da31737f2aa711fa235",
+  "inputs_manifest_sha256": "20dd666ac4408478002a6f1f08bccd5a047de96185b320a9a546a31f458959d0",
+  "num_turns": 70,
+  "duration_ms": 1043264,
+  "terminal_reason": "completed",
+  "returned_message": "The batch 3 review is written, and two corrections are required.\n\n**Review file:** `artifacts/review-results/v2est-b3-11d4bc3-opus-high-v1/review.md` (the only file written; nothing committed or pushed).\n\n**Outcome: corrections required.**\n\n**Findings:** V2E3-R1 and V2E3-R2 are required; V2E3-A1 to V2E3-A6 are advisories.\n\n- **V2E3-R1 (SC005, Confederate `cs-wagner-1200`):** Jones's \"aggregate force was about twelve hundred men\" is the Wagner garrison at the July 11 assault only, made up of survivors of July 10 plus the Georgians. It should be coded `partial_interval` plus `post_engagement_state`, which makes it a bound. The Confederate side then drops from C 1,200 to grade D, and the row is no longer counted as a post-start exclusion.\n- **V2E3-R2 (LA010):** Livermore's p101 entries each cover a single assault day (May 27 or June 14) of the 50-day siege record. They should be coded `partial_interval`, as the same batch codes SC007's July 18 entry and the reviewed v1 ledger codes MS011 Vicksburg.\n  - US goes from C 13,000 to grade D.\n  - Confederate stays grade C but moves from 4,190 to 4,330 (range 3,030–9,100) and loses `post_start_information`.\n  - I replayed both corrections with the unchanged engine, in memory only. Across the ledger, grades A/B/C/D would go from 184/60/114/252 to 184/60/112/254. Rows excluded as post-start would drop from 20 to 18, and the fit-eligible counts would not change.\n- **V2E3-A1 (LA006):** this one needs your decision. Irwin's \"Taylor reports but 4,000\" appears to relay Taylor's own \"less than 4,000\". If you link the two, the LA006 Confederate side becomes grade D and the row leaves the AB set. The v1 ledger's KY009 practice of not linking a bound to a figure supports leaving it as it is.\n- **V2E3-A2 to A6:** a departure figure at KS002 that could be recoded to match the batch's other departure figures, some estimates that look odd from their inputs (MO019, AR007, AR010), a whole-division figure at LA016 and minor coding notes. None changes a point, range or grade except where the advisory text says so.\n\n**Checks:**\n- **Input hashes:** all 25 bound files match both the prepared commit and the worktree, with no mismatch.\n  - The assignment names the addendum as `docs/ledgers-v2.md`, but `inputs.json` binds `docs/research/ledgers-v2.md`. I read both, and the review records the hashes of the unbound files I read.\n- **`make check`:** passed, 143 tests OK.\n- **`estimate-check`:** passed; it reproduces 305 in scope and 79 out of scope.\n\n**Record:** model `claude-opus-5-5` at `high` effort, dated 2026-09-25. I reviewed the prepared commit `11d4bc3168b83917a8efc233bf8d0bdc9ccbf372` from the bundle commit `8f1e11cb5b622ee785156a20bc914bbfce66dd7f`. The input manifest hash is `20dd666ac4408478002a6f1f08bccd5a047de96185b320a9a546a31f458959d0`.\n\n**Coverage:** I inspected all 28 assigned engagements on both sides:\n- every input, inventory line and dossier strength citation, with its surrounding passage;\n- the frozen CWSAC rows;\n- the Livermore p101, p104 and p105 transcriptions against their page images.\n\nThe 91 carried-forward v1 entries were out of scope. I looked at MS011 and TN024 only to confirm how v1 coded single-assault entries.\n\nThis is an AI review, not historical adjudication or feature admission. Please check each finding against its passage before changing the ledger."
+}
