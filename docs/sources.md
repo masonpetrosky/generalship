@@ -68,6 +68,18 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Forrest West Tennessee first pass, 2026-09-24
+
+The [two-record memo](research/forrest-west-tennessee-first-pass-v1.md) adds **7 records**,
+bringing the registry to **344 entries / 341 raw paths**, preserving the previous
+**337/334**. Two NPS battle HTML/text pairs remain in the NPS/CWSAC family. Jordan and
+Pryor's 1868 *Campaigns of Lieut.-Gen. N. B. Forrest* adds a `jordan-pryor-forrest-1868`
+family: public catalog metadata, full OCR (Google-digitized Harvard copy) and one
+selection holding the title/preface and three Chapter VII passages. Forrest's prefatory
+note accepts responsibility for most of the narrative, so the family is not
+independent of him. Character ranges and whitespace-only normalization reproduce all
+sections. No model inputs are changed.
+
 ### Goldsboro first pass, 2026-09-24
 
 The [three-record memo](research/goldsboro-first-pass-v1.md) adds **10 records**,
