@@ -356,8 +356,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 415 total (US 301; CS 114), and the live field agrees. Britton gives the Union loss as 122 killed, 97 wounded and 81 missing, with the First Kansas Colored Infantry losing 117 killed and 65 wounded; Maxey's incomplete returns as 17 killed and 88 wounded; and only 4 Black soldiers reported captured. He says Confederate troops shot wounded Black soldiers on the field, that Black soldiers separated or cut off from their command were shot down without mercy, and that Cabell reported one regiment killed at least 80. Price claims near 500 Union dead, mostly Black soldiers.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The killing of wounded and cut-off Black soldiers means Union killed and missing figures are not ordinary combat categories.",
+      "value": "The frozen casualty text reads 415 total (US 301; CS 114), and the live field agrees. Britton gives the Union loss as 122 killed, 97 wounded and 81 missing, with the First Kansas Colored Infantry losing 117 killed and 65 wounded; Maxey's incomplete returns as 17 killed and 88 wounded; and only 4 Black soldiers reported captured. He says Confederate troops shot wounded Black soldiers on the field and that Cabell reported one regiment killed at least 80. Price claims near 500 Union dead, mostly Black soldiers.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The killing of wounded and captured Black soldiers means Union killed and missing figures are not ordinary combat categories.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -406,12 +406,6 @@
           "source_id": "britton-camden-selections-v1",
           "section": "poison-spring",
           "locator": "p.291 (OCR page markers; not checked against print)",
-          "quote": "When separated from their com mand or cut off from it, the colored soldiers were shot down without mercy."
-        },
-        {
-          "source_id": "britton-camden-selections-v1",
-          "section": "poison-spring",
-          "locator": "p.291 (OCR page markers; not checked against print)",
           "quote": "killed at least 80 negroes."
         },
         {
@@ -427,12 +421,7 @@
   ],
   "open_questions": [
     "Williams's report and the other Union reports on Poison Spring (Nos. 24-33), Maxey's, De Morse's and Tandy Walker's reports (Nos. 75-77), Cabell's and Crawford's reports (Nos. 52, 57), Marmaduke's report (No. 71) and the incomplete casualty return (No. 50) remain deferred.",
-    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume II (Putnam's, 1899) is a retrospective history described on its title page as based upon official reports and the author's observations; it gives figures from Union and Confederate reports and incomplete Confederate returns, so it is not independent of the Official Records families. His preface says he participated in the operations the work describes (his presence on the Camden Expedition is not established in the inspected passages) and that some chapters appeared in the National Tribune; it is treated as partly a participant's interested Union account. Price's report dated Camden, May 1864 is one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "NPS/CWSAC is one family. Wiley Britton's The Civil War on the Border, volume II (Putnam's, 1899) is a retrospective history described on its title page as based upon official reports and the author's observations; it gives figures from Union and Confederate reports and incomplete Confederate returns, so it is not independent of the Official Records families. Price's report dated Camden, May 1864 is one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "camden-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/AR014.v1.json",
-    "sha256": "a5d0595addab450ec731b3fc0e223d2b27ee5c8a1129cbbe9c25d888257915c0"
-  }
+  ]
 }

@@ -363,8 +363,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 4,400 total (US 2,900; CS 1,500); the live field reads 3235 (US 2235; CS 1000). Irwin's table gives Banks's loss as 115 killed, 648 wounded and 1,423 missing, 2,186 in all, and says Taylor put his own loss at 1,000; twenty Union guns were lost. Taylor's April 11 order claims twenty-one guns, 2,500 prisoners and 250 wagons. His report says a consolidated report of the casualties of the two battles accompanies it (the OR compiler's footnote reads 'Not found') and that the casualties of the cavalry will swell the whole loss, in context the Confederate loss, to 2,500; it also claims the Union army was routed with a loss of at least 10,000 men, an interested claim spanning the two days. Irwin's appendix says the War Department could not separate the losses of April 8 and 9.",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The two-day totals belong to both LA018 and LA019 and are not split or added. Irwin's chapter table gives a one-day Sabine Cross-Roads figure (2,186); its basis is not stated in the inspected passage, and it is not the War Department return, which his appendix says could not separate the losses for each day.",
+      "value": "The frozen casualty text reads 4,400 total (US 2,900; CS 1,500); the live field reads 3235 (US 2235; CS 1000). Irwin's table gives Banks's loss as 115 killed, 648 wounded and 1,423 missing, 2,186 in all, and says Taylor put his own loss at 1,000; twenty Union guns were lost. Taylor's April 11 order claims twenty-one guns, 2,500 prisoners and 250 wagons; his report says the consolidated casualty report for the two battles was not found and that the cavalry would swell the whole loss to 2,500. Irwin's appendix says the War Department could not separate the losses of April 8 and 9.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The two-day totals belong to both LA018 and LA019 and are not split or added.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -407,19 +407,7 @@
           "source_id": "or34-1-taylor-red-river-selections-v1",
           "section": "taylor-1864-04-18",
           "locator": "p.569 (OCR page markers; not checked against print)",
-          "quote": "* Not found."
-        },
-        {
-          "source_id": "or34-1-taylor-red-river-selections-v1",
-          "section": "taylor-1864-04-18",
-          "locator": "p.569 (OCR page markers; not checked against print)",
           "quote": "The casualties of the cavalry will swell the whole loss to 2,500."
-        },
-        {
-          "source_id": "or34-1-taylor-red-river-selections-v1",
-          "section": "taylor-1864-04-18",
-          "locator": "p.569 (OCR page markers; not checked against print)",
-          "quote": "with a loss of at least 10,000 men."
         },
         {
           "source_id": "irwin-red-river-selections-v1",
@@ -436,10 +424,5 @@
     "Banks's report (No. 2), Franklin's, Ransom's, Cameron's, Landram's, Lee's, Emory's and the regimental reports (Nos. 7-29, 60, 68-74, 81-88), Kirby Smith's report and correspondence (No. 93), Walker's and Green's reports, the No. 1 return abstract and the consolidated Confederate casualty report (not found in the OR) remain deferred.",
     "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892) is a retrospective history by the former assistant adjutant-general of the corps and of Banks's Department of the Gulf, an interested Union account; it cites the Official Records and gives Taylor's and Kirby Smith's figures, so it is not independent of them. Taylor's April 18, 1864 report, his March 13-14 letters printed as its inclosures, his April 24-May 19 dispatches and his April 11 general order are one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "red-river-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/LA018.v1.json",
-    "sha256": "1b8bde99542a58923444c391b53daaf6d906ecc2e1bd14ed91b7490787f2a303"
-  }
+  ]
 }

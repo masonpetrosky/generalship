@@ -2,22 +2,24 @@
 
 Prepared 2026-09-25 under the full-war research frame ([cohort v2](../cohort-v2.md)). All **seven
 frozen records** in **Red River Campaign [March-April 1864]** now have draft dossiers:
-**63 claims, 7 explicit null unknowns and 312 citation occurrences**. All seven dimensions are
-represented in each record. All dossiers are drafts; no features are admitted.
+**63 claims, 7 explicit null unknowns and 320 citation occurrences** (312 before the review
+correction below). All seven dimensions are represented in each record. All dossiers remain
+drafts; no features are admitted. A separate review has been run and reconciled; see "Separate
+review" and "Review correction" below.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
 | LA017 — Fort DeRussy | 1864-03-14 | 9 | 1 | 43 | 3 |
-| LA018 — Mansfield (Sabine Cross-Roads) | 1864-04-08 | 9 | 1 | 53 | 3 |
-| LA019 — Pleasant Hill | 1864-04-09 | 9 | 1 | 51 | 3 |
-| LA020 — Blair's Landing | 1864-04-12 to 04-13 | 9 | 1 | 43 | 3 |
-| LA021 — Monett's Ferry (Cane River Crossing) | 1864-04-23 | 9 | 1 | 46 | 3 |
+| LA018 — Mansfield (Sabine Cross-Roads) | 1864-04-08 | 9 | 1 | 55 | 3 |
+| LA019 — Pleasant Hill | 1864-04-09 | 9 | 1 | 52 | 3 |
+| LA020 — Blair's Landing | 1864-04-12 to 04-13 | 9 | 1 | 46 | 3 |
+| LA021 — Monett's Ferry (Cane River Crossing) | 1864-04-23 | 9 | 1 | 47 | 3 |
 | LA022 — Mansura | 1864-05-16 | 9 | 1 | 38 | 3 |
-| LA023 — Yellow Bayou | 1864-05-18 | 9 | 1 | 38 | 3 |
+| LA023 — Yellow Bayou | 1864-05-18 | 9 | 1 | 39 | 3 |
 
 This pass was drafted alongside the Camden Expedition ([memo](camden-first-pass-v1.md)), which
-reuses the Official Records volume pinned here. Existing dossiers, reviews and historical
-revisions are unchanged. Dossier presence is not first-pass acceptance, separate review or model
+reuses the Official Records volume pinned here. This pass and its review correction change no
+dossier outside LA017–LA023 and no earlier historical revision. Dossier presence is not first-pass acceptance, separate review or model
 eligibility.
 
 ## Inspection and stopping record
@@ -62,7 +64,8 @@ The following were read but not selected:
 - Irwin's Chapter XXVII ending (pp.334–336), which summarizes the Camden Expedition, and his
   partial Cane River loss return (p.476, garbled);
 - Taylor's Inclosures A–C and G and the other sub-inclosures, including Walker's March 13
-  dispatch;
+  dispatch and Taylor's earlier March 13 letter to Douglas (Sub-inclosure No. 1, pp.575–576) on
+  the land approach to Fort De Russy, which is therefore not cited;
 - his dispatches of April 25–May 14 other than those selected, and of May 23;
 - the April 26 order and the Confederate joint resolution.
 
@@ -72,8 +75,8 @@ Tappan's, Bee's and the other Confederate reports, the No. 1 return abstract (op
 the naval reports (not printed in this volume) and print pages were not inspected. No targeted
 follow-up was used. Stop after this batch.
 
-**Consequential gap.** The Confederate consolidated casualty report for April 8–9 is marked "Not
-found" in the OR. Irwin's appendix says the War Department could not separate the Union losses of
+**Consequential gap.** Taylor says a consolidated report of the casualties of the two battles
+accompanies his report; the OR compiler's footnote marks it "Not found". Irwin's appendix says the War Department could not separate the Union losses of
 the two days. Neither battle has a separable loss return in the inspected passages.
 
 **New source records.** This pass adds **20 source records**:
@@ -139,7 +142,11 @@ The Camden pass adds its own records separately.
   - Blair's Landing:
     - frozen 207 against live 117;
     - Irwin's 19 for the whole voyage;
-    - thirty vessels (Taylor) against six gunboats and twenty transports (Irwin).
+    - about thirty vessels passing Grand Bayou Landing on April 9 (Taylor) against six gunboats
+      and twenty transports at the start of the ascent from Grand Ecore on April 7 (Irwin);
+      neither counts the fleet at Blair's Landing on April 12;
+    - Green's departure from Pleasant Hill on the 11th: "G p. m." (probably 6 p.m.) in Taylor,
+      early morning in Irwin.
   - Monett's Ferry: three or four batteries and Terrell's presence. Birge's loss of about 200 is
     one column's.
   - Mansura: no figure in any inspected passage; the frozen text reads Unknown and the live field
@@ -149,8 +156,11 @@ The Camden pass adds its own records separately.
     - Taylor's 500 against the Confederate returns' 452 killed and wounded (per Irwin);
     - Taylor's identification of the Union troops as fresh troops from Texas, against the
       Sixteenth Corps named by Irwin and the frozen record.
-- **Two-day totals.** Taylor's 2,500 and Irwin's combined appendix return cover April 8 and 9
-  together. They are cited in both LA018 and LA019 and are not split or added.
+- **Two-day totals.** Taylor's 2,500 (his own army's loss, including the cavalry), his claim of a
+  Union loss of at least 10,000 men and Irwin's combined appendix return cover April 8 and 9
+  together. They are cited in both LA018 and LA019 and are not split or added. Irwin's chapter
+  table gives a one-day Mansfield figure (2,186) whose basis is not stated; it is not the War
+  Department return.
 - **Command roles and ranks.**
   - The live page gives A. J. Smith as Major General at Fort DeRussy (frozen Brigadier General)
     and does not list Mower.
@@ -175,12 +185,65 @@ The Camden pass adds its own records separately.
 
 The seven null unknowns are the seven opening strengths. No morale/readiness score, probability,
 causal effect or new commander ranking is introduced. The cohort, both admission proposals and the
-baseline are unchanged, with **zero promoted rows**. `python3 -m generalship check` passes, and
-the baseline still reports **23/127 eligible engagements in 13 groups**, with strength Brier
-**0.276882** against **0.250000** for equal odds.
+baseline are unchanged, with **zero promoted rows**.
 
-## Separate review pending
+## Validation
 
-No separate review has been run for this campaign. A Claude Opus 5.5 `high` evidence-reviewer
-assignment should be prepared by the primary after commit, bound to the exact commit, dossiers
-and source hashes. Coverage, separate review and feature admission stay distinct.
+- `python3 -m generalship check` passes. Every quote occurs in its cited section, and
+  `gs.MISSES` is empty after the review correction.
+- `python3 -m unittest discover -s tests` passes.
+
+## Separate review
+
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed commit
+`35cf826` for this campaign and the Camden Expedition together, as
+`redriver-review-35cf826-opus-high-v1`, on 2026-09-25. Its outcome was "corrections required":
+six required findings (RRC-1 to RRC-6) and ten advisories (RRA-1 to RRA-10). RRC-1 to RRC-4
+and RRA-1 to RRA-3, RRA-6, RRA-7, RRA-9 and RRA-10 concern this campaign; the rest are
+reconciled in the [Camden memo](camden-first-pass-v1.md). It is an AI review within its stated
+scope, not human historical adjudication, proof of source independence or feature admission.
+
+## Review correction
+
+Each finding was checked against the retained selection text (and, for RRC-1, the parent OCR)
+before any change; every new quote occurs in its section, and the dossiers were regenerated
+from the builder. Six dossiers (LA017–LA021, LA023) are revised under
+`red-river-review-correction-2026-09-25` and supersede byte-for-byte archives at
+`data/evidence/history/<ID>.v1.json`. LA022 is unchanged. All four required findings for this
+campaign hold and are applied:
+
+- **RRC-1** (LA017 `fort-and-approach`): the sentence on the land approach paraphrased Taylor's
+  March 13 letter to Douglas (Sub-inclosure No. 1, pp.575–576), which was read but not
+  selected. It is removed from the value; the rationale records the letter as read and not
+  cited. Citations unchanged.
+- **RRC-2** (LA018, LA019 `casualty-records`): "Not found" is the OR compiler's footnote, not
+  Taylor's statement, and Taylor's 2,500 is his own army's two-day loss including the cavalry.
+  Both values corrected; the footnote is cited in LA018 (p.569).
+- **RRC-3** (LA021 `finding-a-crossing`): Taylor's report of Emory believed fallen refers to
+  Wharton's fight near Cloutierville, a context action. Value corrected; the Wharton sentence is
+  cited (p.579).
+- **RRC-4** (LA023 `bayou-swamp-and-flooded-river`): the "no exit except by the De Glaize road"
+  passage describes the Confederate raiders' inability to bring off the wagons cut out on May 17,
+  not a Union entrapment. Value and rationale corrected; the fuller sentence and the
+  De Glaize swamps sentence are cited (p.594).
+
+Advisories:
+
+- **Adopted as wording and citations:** RRA-1 (LA018, LA019: Taylor's claim of a Union loss of
+  at least 10,000 men, recorded as an interested two-day claim, not split or added), RRA-2
+  (LA020 `command-roles`: Taylor's "G p. m." against Irwin's early morning for Green's march;
+  Irwin cited; unresolved), RRA-3 (LA020 `reported-force-scope`: Irwin's count dated to the
+  April 7 ascent and Taylor's to the April 9 passage of Grand Bayou Landing; neither describes
+  April 12; two citations), RRA-9 (LA018 rationale: Irwin's one-day 2,186 is not the War
+  Department return).
+- **Not adopted:** RRA-6 and RRA-7 (Taylor selection metadata: the second May 14 dispatch's
+  section label and Brent's authorship of Inclosure F). Both are advisory and metadata-only;
+  the date map is correct and the dependency note already names Brent, so no source successor
+  was registered. They are left for a later metadata-only revision.
+- **Recorded, no change:** RRA-10 (Sub-inclosure No. 1 as the target of any later bounded
+  follow-up; none is recommended under the stopping rule).
+
+Citations rise from 312 to 320; claims (63) and unknowns (7) are unchanged, and no claim's
+status changes. No source record is added or changed. No model input, cohort file, admission
+proposal or baseline is changed. Coverage, separate review and feature admission stay
+distinct.

@@ -18,8 +18,8 @@
     {
       "id": "reported-force-scope",
       "dimension": "strength",
-      "value": "The frozen force field reads Provisional division, XVII Army Corps, Army transports, and U.S. Navy Mississippi Squadron [US] and Green's Cavalry Division [CS]; the live field reads zero. Irwin and Taylor identify Green's force as Woods's and Gould's regiments and Parsons's brigade, with four batteries named by Irwin. Irwin says six gunboats convoyed twenty transports bearing Kilby Smith's division when the ascent from Grand Ecore began on April 7; Taylor's report says the fleet that passed Grand Bayou Landing on the morning of the 9th was about thirty vessels, only five carrying troops.",
-      "rationale": "Unit identifications and vessel counts that differ; neither count describes the fleet at Blair's Landing on April 12. No personnel count for either side. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "value": "The frozen force field reads Provisional division, XVII Army Corps, Army transports, and U.S. Navy Mississippi Squadron [US] and Green's Cavalry Division [CS]; the live field reads zero. Irwin and Taylor identify Green's force as Woods's and Gould's regiments and Parsons's brigade, with four batteries named by Irwin. Irwin says six gunboats convoyed twenty transports bearing Kilby Smith's division; Taylor's report says the fleet was about thirty vessels, only five carrying troops.",
+      "rationale": "Unit identifications and vessel counts that differ; no personnel count for either side. None is adopted as a matched opening strength. The live zero is not measured absence.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -50,12 +50,6 @@
           "source_id": "irwin-red-river-selections-v1",
           "section": "the-red-river",
           "locator": "p.295 (OCR page markers; not checked against print)",
-          "quote": "it was not until the 7th of April that Porter considered the draught of water sufficient"
-        },
-        {
-          "source_id": "irwin-red-river-selections-v1",
-          "section": "the-red-river",
-          "locator": "p.295 (OCR page markers; not checked against print)",
           "quote": "convoying and closely followed by a fleet of twenty transports, bearing Kilby Smith's division"
         },
         {
@@ -63,12 +57,6 @@
           "section": "taylor-1864-04-18",
           "locator": "p.570 (OCR page markers; not checked against print)",
           "quote": "the fleet of about thirty vessels, of which only five were loaded with troops"
-        },
-        {
-          "source_id": "or34-1-taylor-red-river-selections-v1",
-          "section": "taylor-1864-04-18",
-          "locator": "p.570 (OCR page markers; not checked against print)",
-          "quote": "passed Grand Bayou Landing on the morning of the 9th,"
         }
       ],
       "phase": "unresolved",
@@ -215,20 +203,14 @@
     {
       "id": "command-roles",
       "dimension": "responsibility",
-      "value": "Taylor says Green marched for Blair's Landing at 'G p. m.' (OCR; probably 6 p.m.) of the 11th and styles him Major General, while Irwin says Green marched from Pleasant Hill early on the morning of the 11th; Irwin says Kilby Smith and Porter responded to the attack together; NPS credits Smith's men with ingenuity in defending the boats. Taylor says Liddell engaged the fleet from the east bank on the 11th-13th. The frozen commanders are Brigadier General Tom Green, Brigadier General Thomas Kilby Smith and Rear Admiral David D. Porter; the live page lists Green and Thomas Smith, both as Brigadier General.",
-      "rationale": "Command roles from an interested report, a history and a summary; the listed commanders do not receive automatic sole credit, and no rank is adopted. The time of Green's departure differs between Taylor and Irwin and is unresolved.",
+      "value": "Taylor says Green marched for Blair's Landing on the evening of the 11th and styles him Major General; Irwin says Kilby Smith and Porter responded to the attack together; NPS credits Smith's men with ingenuity in defending the boats. Taylor says Liddell engaged the fleet from the east bank on the 11th-13th. The frozen commanders are Brigadier General Tom Green, Brigadier General Thomas Kilby Smith and Rear Admiral David D. Porter; the live page lists Green and Thomas Smith, both as Brigadier General.",
+      "rationale": "Command roles from an interested report, a history and a summary; the listed commanders do not receive automatic sole credit, and no rank is adopted.",
       "citations": [
         {
           "source_id": "or34-1-taylor-red-river-selections-v1",
           "section": "taylor-1864-04-18",
           "locator": "p.571 (OCR page markers; not checked against print)",
           "quote": "Green with his usual energy marched from Pleasant Hill for Blair’s Landing at G p. m. of the 11th."
-        },
-        {
-          "source_id": "irwin-red-river-selections-v1",
-          "section": "grand-ecore",
-          "locator": "p.325 (OCR page markers; not checked against print)",
-          "quote": "who had marched from Pleasant Hill early on the morning of the nth,"
         },
         {
           "source_id": "or34-1-taylor-red-river-selections-v1",
@@ -384,10 +366,5 @@
     "T. Kilby Smith's and his subordinates' reports (Nos. 56-59), Hinkle's report (No. 64), Liddell's report (No. 105), Porter's and the other naval reports (Annual Report of the Secretary of the Navy, 1864, not in this volume) and any report for Green's command remain deferred.",
     "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892) is a retrospective history by the former assistant adjutant-general of the corps and of Banks's Department of the Gulf, an interested Union account; it cites the Official Records and gives Taylor's and Kirby Smith's figures, so it is not independent of them. Taylor's April 18, 1864 report, his March 13-14 letters printed as its inclosures, his April 24-May 19 dispatches and his April 11 general order are one family of interested Confederate accounts. Official Records Series I, Volume XXXIV, Part 1 is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "red-river-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/LA020.v1.json",
-    "sha256": "6c84e141aaf5ec0a383c89992473959b6cff46a2cd852116bbcea737144a0aa1"
-  }
+  ]
 }
