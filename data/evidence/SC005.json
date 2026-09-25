@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "battle_id": "SC005",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort Wagner I record (July 10-11, 1863) in Operations Against the Defenses of Charleston [April-September 1863]. Terry's James Island demonstration (July 8-17) and Higginson's Edisto raid are context. Campaign-wide marches, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Brigades; the live field reads zero. Gillmore says that before taking command he judged scarcely 11,000 men available for offensive operations and 17,463 effective in the whole department; Terry's division, about 4,000, and Strong's brigade, about 2,500, were gathered on Folly Island, and nearly 2,000 of Strong's brigade embarked in the boats. Jones gives Gillmore's July 10 tri-monthly aggregate present (exclusive of sick) as 20,837, Beauregard's grand total in South Carolina and Georgia as 15,318, with 927 men on Morris Island including the garrisons of Wagner and Gregg; he says about 700 met the landing and about 1,200 held Wagner on the 11th.",
+      "rationale": "Department, island and garrison scopes on July 8-11 from an interested report and a derivative history. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC005"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-sc005-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-plan-and-forces",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "numbering scarcely 11,000 men of all arms available for offensive operations,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-plan-and-forces",
+          "locator": "p.8 (OCR page markers; not checked against print)",
+          "quote": "men on extra and daily duty, was 17,463."
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "comprising Brigadier-General Terry’s division, about 4,000 strong, and Brigadier-General Strong’s brigade, about 2,500 strong,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "nearly 2,000 men of General Strong’s brigade were embarked in small boats in Folly River"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "shows his aggregate force present in the department, exclusive of the sick, to have been 20,837."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "On July 10 the \"grand total\" of his force of all arms in South Carolina and Georgia was 15,318,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "There were but 2906 men on James Island and 927 on Morris Island, in- cluding the garrisons of Batteries Wagner and Gregg."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.211 (OCR page markers; not checked against print)",
+          "quote": "(in all about seven hundred)."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.217 (OCR page markers; not checked against print)",
+          "quote": "The aggregate force was about twelve hundred men."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "sand-island-and-inlet",
+      "dimension": "terrain",
+      "value": "Gillmore describes an assault from small boats across Light-House Inlet onto an open beach under artillery fire. Jones describes Morris Island as a sand bank with ridges giving shelter, Wagner stretching from the beach to Vincent's Creek with a front of about 275 yards, and the Confederate south-end batteries as detached and very incomplete.",
+      "rationale": "Ground from an interested report and a history; no map verification.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.9 (OCR page markers; not checked against print)",
+          "quote": "when the assault- ing column has to approach in small boats from a distant point, exposed to full view and constant artillery fire,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.9 (OCR page markers; not checked against print)",
+          "quote": "Yet these were the difficult conditions of the problem so suc- cessfully solved in the descent upon Morris Island on the 10th of July."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "Its surface is irregular and broken by sand ridges,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "pre- senting to the southwest a front of about 275 yards."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.205 (OCR page markers; not checked against print)",
+          "quote": "All were detached and stretched along the sand ridge, designed to protect the beach, and they were very incomplete."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "masked-batteries",
+      "dimension": "logistics",
+      "value": "Gillmore says forty-seven pieces with 200 rounds each were placed secretly on Folly Island, the work and transport done at night, and that the attack was postponed a night partly because the boats were unseaworthy; on the 10th the heat and his troops' exhaustion suspended operations short of Wagner. Jones says the south end of Morris Island was comparatively defenceless because Beauregard lacked force, labor and guns for both islands.",
+      "rationale": "Preparation and supply statements, not returns.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "forty-seven pieces of artillery, with 200 rounds of ammunition per gun,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "the principal of which was the unseaworthy condition of our boats,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "The heat being intense and thetroox-)S exhausted, offensive operations were suspended for the day."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.205 (OCR page markers; not checked against print)",
+          "quote": "not having sufficient force, labor, and heavy guns for the thorough defense of both James and Morris islands,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surprise-disputed",
+      "dimension": "information",
+      "value": "Gillmore says the attack had to be a surprise and that the batteries were built in secrecy, knowing from deserters of ten to twelve Confederate guns. Jones quotes Beauregard that neither the attack nor the building of the works was unknown, says a scouting party found the barges on the night of the 8th, and that there were abundant indications of an attack on the 9th; he thinks the local commanders could not have known the extent of the works.",
+      "rationale": "Contested claims of surprise from an interested report and a history quoting Beauregard. No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "It was necessary that the attack on Morris Island should be a surprise in order to insure success."
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.9 (OCR page markers; not checked against print)",
+          "quote": "It was known from deserters and fugitives that the enemy had there in position from ten to twelve guns"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.204 (OCR page markers; not checked against print)",
+          "quote": "\"the attack was not a surprise, neither was the erection of the enemy's works on Little Folly Island unknown to the local commanders or these headquarters.\""
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.209 (OCR page markers; not checked against print)",
+          "quote": "Captain Charles T. Haskell, of the First South Carolina Infantry, visited Little Folly Island with a scouting party,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "there were abundant indications that an attack was immediately impending."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.204 (OCR page markers; not checked against print)",
+          "quote": "but they could scarcely have known the positions and extent of the works constructed against them."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "four-step-plan",
+      "dimension": "objectives",
+      "value": "Gillmore's plan was to seize the south end of Morris Island, reduce Wagner, demolish Sumter from there, and then let the ironclads remove the obstructions and reach the city; Jones gives the same four steps and says Dahlgren denied any understanding on the fourth.",
+      "rationale": "Plan statements from the attacking commander and a derivative history.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-plan-and-forces",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "35. First. To make a descent upon and obtain possession of the south end of Morris Island,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-plan-and-forces",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "36. Second. To lay siege to and reduce Fort Wagner,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.202 (OCR page markers; not checked against print)",
+          "quote": "Admiral Dahlgren says there had been no understanding between him and General Gillmore as to the fourth of these distinct operations."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Gillmore ordered Strong's landing by signal and Seymour to carry Wagner at daybreak on the 11th. Jones reports the dispute over who was responsible for the July 11 assault: Seymour says Strong acted on instructions given directly by Gillmore, Strong blames a regiment's halt, and Jones thinks the column too weak. On the Confederate side Jones names Colonel R. F. Graham in command and Olmstead's Georgians. The frozen commanders are Brigadier General 'Qunicy' Gillmore (US) and General P. G. T. Beauregard (CS).",
+      "rationale": "Command roles from an interested report and a history; neither listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "I sent an order to General Strong, by signals, to land and make the assault"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General Seymour was ordered to carry Fort Wagner by assault at daybreak on the following morning. The attempt failed."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.221 (OCR page markers; not checked against print)",
+          "quote": "in accordance with instruc- tions given to him directly by Brigadier General Gill- more,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.218 (OCR page markers; not checked against print)",
+          "quote": "that halt lost the battle,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.220 (OCR page markers; not checked against print)",
+          "quote": "The probable cause of the fail- ure was that the assaulting column was too weak numerically."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.217 (OCR page markers; not checked against print)",
+          "quote": "Colonel R. F. Graham (Twenty-first South Carolina) the whole."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC005",
+            "belligerent": "US",
+            "fullname": "Qunicy Gillmore"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC005",
+            "belligerent": "Confederate",
+            "fullname": "P.G.T. Beauregard"
+          },
+          "column": "rank",
+          "quote": "General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory for the July 10-11 record. Gillmore's July 12 dispatch says the south end of the island was captured with eleven guns on the 10th, but on the 11th the parapet was gained and the supports recoiled. Jones calls the descent a complete success and the assault a failure.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The frozen interval joins a Union landing success and a repulsed assault; the result applies to the record as frozen.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC005"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-sc005-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "captured all his strongholds on that part of the island,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "We have taken eleven pieces of heavy ordnance"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "The parapet was gained, but the support recoiled under the fire to which they were exposed, and could not be gotten up."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "The descent had been made with complete success and little loss"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text and the live page read 351 total (US 339; CS 12). Gillmore's July 12 dispatch put the Union loss in both actions near 150 and the enemy's at not less than 200; his report adds that Beauregard admitted 300. Jones gives Strong's figures: 15 killed and 92 wounded on the 10th, 8 officers and 322 men on the 11th, 436 for both; a Confederate loss of 294 on the 10th and 1 officer and 5 men killed and 1 officer and 5 men wounded in the assault.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen US 339 and CS 12 correspond to no single inspected figure; the two days' populations must not be merged.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC005"
+          },
+          "column": "casualties_text",
+          "quote": "351 total (US 339; CS 12)"
+        },
+        {
+          "source_id": "nps-sc005-v1",
+          "locator": "Estimated Casualties",
+          "quote": "351 total (US 339; CS 12;)"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "Our loss in both actions will not vary much from 150 killed, wounded, and missing."
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.12 (OCR page markers; not checked against print)",
+          "quote": "General Beauregard, in his official dispatch, admits a loss of 300,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "(General Strong reports fifteen killed and ninety-two wounded)."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.219 (OCR page markers; not checked against print)",
+          "quote": "his loss that morning was 8 officers and 322 non- commissioned officers and privates."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "they had lost 294 killed, wounded, and missing,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.220 (OCR page markers; not checked against print)",
+          "quote": "The Federal losses on the mornings of the loth and nth, as officially reported by General Strong, who commanded in person on both occasions, aggre- gated 436."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Seymour's, Strong's, Vogdes's and other Union reports, Beauregard's general report (No. 4), Ripley's and Graham's reports and the returns remain deferred.",
+    "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. Quincy A. Gillmore's report dated February 28, 1864 (Official Records I, XXVIII part 1, No. 2) is one family of interested Union accounts. Samuel Jones's The Siege of Charleston (1911) is a posthumous Confederate general's history that quotes Gillmore's, Seymour's, Strong's, Ripley's, Taliaferro's and Beauregard's reports and is not independent of them. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

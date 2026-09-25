@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "battle_id": "FL006",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Natural Bridge record (March 6, 1865) in Operations near Saint Mark's [March 1865]. The March 4-5 skirmishes at the East River and Newport bridges and the naval operations off St. Marks are context. Campaign-wide marches, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen US force text names the 2nd and 99th U.S. Colored Infantry without a figure; the frozen CS text lists local units and 'reinforcements from Georgia amounting to approx. 1,000 men', with a frozen CS bound of 1,000. The live field reads zero. Newton's March 15 report gives his force as 900 to 1,000 men with two navy howitzers and a captured 12-pounder, and the enemy 'it is said' 1,500 to 2,000; his March 19 report gives 893 enlisted men and a prisoner's statement of 1,500 to 2,000. His April 6 letter says he had only 500 men in line when over 1,000 veterans arrived from Georgia, and puts the Confederate total at over 2,000; his April 19 letter says the enemy was over 1,000 at first and was reinforced by 1,000, and that the enemy's available force when the expedition started did not exceed 700. His April 17 postscript lists the Confederate units named in a Tallahassee newspaper and adds that it omits over 1,000 Georgia reinforcements.",
+      "rationale": "One commander's successive estimates, several secondhand, for different moments of the day. The frozen CS text appears to follow Newton's postscript list (its units occur in his list in the same order, his list adding cadets, the Second Florida Cavalry and Scott's battalion; Georgia reinforcements of about 1,000 against his 'over 1,000'); its basis is not stated in any inspected passage. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL006"
+          },
+          "column": "forces_text",
+          "quote": "Companies A, B, and F, Reserves and reinforcements from Georgia amounting to approx. 1,000 men [CS]"
+        },
+        {
+          "source_id": "nps-fl006-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-15",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "My brce in the expedition was between 900 and 1,000 men,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-15",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "it is said between 1,500 and 2,000 men."
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "The whole force of the expedition was ' 893 enlisted men,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "The force of the enemy is stated by a prisoner (an officer of militia) to i have been from 1,500 to 2,000,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-04-06",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "I had in line but 500 men,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-04-06",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "The rebel force altogether was over 2,000 men with at least five light 12-pounders,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-04-19",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s force, when we first encountered them at the Natural Bridge, was over 1,000,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-04-19",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s available force when the expedition started did not exceed 700 men."
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-04-17",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "The forces mentioned incidentally in the paper Floridian and Journal, are Kilcrease Artillery;"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-04-17",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "No mention is made of the re-enforcements from Georgia arriving about noon of the 6th, and amounting to over 1,000 men."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "sloughs-and-salient",
+      "dimension": "terrain",
+      "value": "Newton says the Confederates held intrenchments at the bridge with sloughs, ponds, marshes and thickets in front and on the flanks; Townsend's flanking attempt was stopped by a wide, deep slough; his own position was a low salient in the marshes under cross-fire, and he withdrew 300 yards to open pine barrens. He adds that the bridge could have been held by 200 resolute men and that the approach road proved over eight miles long rather than the four or five the guides promised.",
+      "rationale": "Ground described by an interested commander; no map verification. The Confederate works were in place when the attack came.",
+      "citations": [
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.60 (OCR page markers; not checked against print)",
+          "quote": "a superior force of the enemy behind intrenchments, having sloughs, ponds, marshes, and thickets in front and flanks as auxiliary defenses."
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.60 (OCR page markers; not checked against print)",
+          "quote": "he encountered a wide and deep slough impassable to troops,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "as our position was in a low salient in the marshes, exposed to his cross-fire,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-04-06",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "which could have been defended by 200 resolute men, with a few pieces of artillery,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.60 (OCR page markers; not checked against print)",
+          "quote": "The ■ distance was found on trial to be over eight miles,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.60 (OCR page markers; not checked against print)",
+          "quote": "four or five miles above (according to • the assurances of the guides)."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-navy",
+      "dimension": "logistics",
+      "value": "Newton says the expedition returned because the navy could not co-operate, ammunition was nearly expended and his communications would soon have been cut; his artillery was drawn by hand the whole way, and without the navy at Port Leon he could not draw on the ammunition and provisions on shipboard.",
+      "rationale": "One commander's explanation; no ordnance or supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "The expedition returned because the navy was unable to co-operate in any manner, the ammunition was nearly expended,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "The artillery was drawn by hand the whole I distance."
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-04-19",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "neither could I draw upon my ammuni¬ tion and provisions on shipboard."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-by-refugee",
+      "dimension": "information",
+      "value": "Newton says a refugee from a blockading vessel had given the enemy two weeks' notice, which he learned only after the expedition and without which he would not have landed; he had expected small forces because refugees unanimously put the Confederates near Tallahassee and St. Marks at less than 600.",
+      "rationale": "What each side knew is stated by the Union commander after the event. No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "A refugee is known to have left one of the blockading vessels and to have given the enemy two weeks’ notice of the expedition ;"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "It is unnecessary to state that we were in ignorance of the fact that information had been furnished the enemy until the expedition was over. We would otherwise not have landed."
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.62 (OCR page markers; not checked against print)",
+          "quote": "were by unanimous testimony put at less than 600 men."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "raid-plan",
+      "dimension": "objectives",
+      "value": "Newton's plan was to march to Newport, cross the St. Marks, take St. Marks in rear or strike the railroad to Tallahassee, while the navy silenced the batteries and landed 500 to 600 seamen at Port Leon. His April letters describe it as a raid meant to occupy the enemy nearer home, deter attacks on the southern forts and divert forces from Steele's column. NPS says the aim was to engage and destroy the Confederates who had attacked Cedar Keys and Fort Myers.",
+      "rationale": "Stated plan and later statements of purpose by one commander; the later framing is partly self-justifying.",
+      "citations": [
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.59 (OCR page markers; not checked against print)",
+          "quote": "take Saint Mark’s in rear, or strike the railroad between Saint Mark’s and Tallahassee,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.59 (OCR page markers; not checked against print)",
+          "quote": "to land a force of 500 to 600 seamen at Port Leon to cover the land expedition,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-04-19",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "to give them employment nearer home and prevent them organiz¬ ing expeditions against our small forts on the southern i^eninsula of Florida,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-04-17",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "the expedition served to divert the enemy’s force and attention from Steele’s column,"
+        },
+        {
+          "source_id": "nps-fl006-v1",
+          "locator": "Description",
+          "quote": "to engage and destroy Confederate troops that had attacked at Cedar Keys and Fort Myers"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Newton directed Major Lincoln's assault on the bridge, Colonel Townsend's attempt on the Confederate right and Pearsall's support, then decided to withdraw to the pine barrens; he blames the navy's failure, which he connects with the relief of its commander after he landed. He names Generals Jones and Miller as the Confederate commanders. The frozen commanders are Major General John Newton (US) and Major General Sam Jones (CS); Newton signs these reports as brigadier general, and the live page gives Samuel Jones without rank.",
+      "rationale": "Command roles from the Union commander only; no listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.60 (OCR page markers; not checked against print)",
+          "quote": "Colonel Town¬ send, with Companies A, B, and H, Second U. S. Colored Infantry, was directed to turn the enemy’s right flank if practicable,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "it was deter¬ mined to withdraw to the open pine barrens about 300 yards distant,"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-04-06",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "Such a fact is sufficient to account for a fatal delay or inactivity of the naval force at the critical moment."
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-04-06",
+          "locator": "p.64 (OCR page markers; not checked against print)",
+          "quote": "commanded by Generals Jones and Miller."
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-15",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "JOHN NEWTON, Brigadier- General, Commanding."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "FL006",
+            "belligerent": "US",
+            "fullname": "John Newton"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "FL006",
+            "belligerent": "Confederate",
+            "fullname": "Sam Jones"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-fl006-v1",
+          "locator": "Principal Commanders",
+          "quote": "Samuel Jones [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. NPS says the Union troops, unable to take the bridge, retreated to the fleet. Newton reports the complete repulse of two Confederate charges, leaving him master of the field, and a withdrawal in order because the navy could not ascend the river.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Newton's claim to have held the field is his own.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL006"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-fl006-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-fl006-v1",
+          "locator": "Description",
+          "quote": "unable to take the bridge, the Union troops retreated to the protection of the fleet."
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-15",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "After a fierce fight, resulting in the complete repulse of the memy, finding that the navy could not ascend the river, I decided to rt^ithdraw."
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "leaving us masters of the field."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 174 (US 148; CS 26); the live field reads 173 (US 148; CS 25). Newton's March 15 report gave 150 killed, wounded and missing; his March 19 report and casualty table give 148, of whom 35 missing (the table's total row is garbled in OCR). He gives no Confederate figure.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL006"
+          },
+          "column": "casualties_text",
+          "quote": "174 (US 148; CS 26)"
+        },
+        {
+          "source_id": "nps-fl006-v1",
+          "locator": "Estimated Casualties",
+          "quote": "173 total (US 148; CS 25;)"
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-15",
+          "locator": "p.57 (OCR page markers; not checked against print)",
+          "quote": "Vly loss is 150 killed, wounded, and missing."
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-1865-03-19",
+          "locator": "p.61 (OCR page markers; not checked against print)",
+          "quote": "Our loss was 148 killed, wounded, and missing, of which 35 are missing."
+        },
+        {
+          "source_id": "or49-1-newton-natural-bridge-selections-v1",
+          "section": "newton-casualties-1865-03-06",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "Total . 1 2 19 9 80 1 37 148"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "No Confederate report is printed with these operations in Official Records I, XLIX part 1; Sam Jones's and William Miller's reports, if any, remain unlocated. Weeks's report, the inclosed Jones order and newspaper extract, Gibson's letter and the naval reports in Official Records of the Navies I, 17 remain deferred.",
+    "No history covering Natural Bridge was found in this pass; Samuel Jones's Siege of Charleston ends in 1863.",
+    "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. John Newton's reports of March 15 and 19 and April 6, 17 and 19, 1865 and his casualty report (Official Records I, XLIX part 1) are one family of interested and partly self-justifying Union accounts; two families (NPS and Newton) are recorded as the effort ceiling. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

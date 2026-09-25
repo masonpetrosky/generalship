@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "battle_id": "SC008",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort Sumter II record (August 17-December 31, 1863) in Operations Against the Defenses of Charleston [April-September 1863]. The frozen interval covers the first bombardment (August 17-23) and the second (from late October); the siege of Wagner (SC007) and the September 8 boat attack (SC009) are separate records. Campaign-wide marches, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text names the Morris Island batteries (US) and the Fort Sumter garrison (CS); the live field reads zero. Gillmore lists the breaching batteries by name and caliber; Jones says twelve batteries mounted twenty-eight heavy rifles and twelve mortars, forty pieces, and that the garrison was Rhett's First South Carolina Artillery until it was replaced by the Charleston Battalion on September 4.",
+      "rationale": "Gun counts and unit identifications only; no garrison strength. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC008"
+          },
+          "column": "forces_text",
+          "quote": "Morris Island Batteries [US]; Fort Sumter Garrison [CS]"
+        },
+        {
+          "source_id": "nps-sc008-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-first-bombardment",
+          "locator": "p.21 (OCR page markers; not checked against print)",
+          "quote": "First. Battery Brown, Capt. C. G. Strahan, Third Rhode Island Volunteer Artil- lery, commanding, comprising two 8-inch Parrott rifles,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-first-bombardment",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "The twelve batteries mounted twenty-eight heavy rifles of calibers from 32- to 300-pounders, and twelve 10- inch mortars; in all forty pieces."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-first-bombardment",
+          "locator": "p.259 (OCR page markers; not checked against print)",
+          "quote": "the gar- rison which had so long and gallantly defended it was withdrawn on the night of September 4,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "long-range-breaching",
+      "dimension": "terrain",
+      "value": "Gillmore gives the breaching guns' distances from Sumter's gorge wall as 3,428 to 4,290 yards; Jones gives an average of 3917 yards and compares them with the mile-range breach at Pulaski.",
+      "rationale": "Distances from an interested report and a derivative history that agree.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-first-bombardment",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "Battery Meade, two 100-pounder Parrott rifles, 3,428 yards ;"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-first-bombardment",
+          "locator": "p.22 (OCR page markers; not checked against print)",
+          "quote": "Battery Strong, one 10-inch Parrott rifle, 4,290 yards."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-first-bombardment",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "were at an average distance from that fort of 3917 yards"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "powder-and-disarmament",
+      "dimension": "logistics",
+      "value": "Gillmore says the inferior quality of the only heavy-gun powder in the department delayed the opening until powder was borrowed from the navy. Jones says Beauregard had been removing Sumter's long-range guns nightly and strengthening its gorge wall with damp cotton bales and sand-bags.",
+      "rationale": "Statements of supply and preparation; no ordnance returns inspected.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-first-bombardment",
+          "locator": "p.21 (OCR page markers; not checked against print)",
+          "quote": "In consequence of the inferior and irregular quality of the only powder in this department suitable for heavy guns,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-first-bombardment",
+          "locator": "p.21 (OCR page markers; not checked against print)",
+          "quote": "I have borrowed some powder from the navy,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-first-bombardment",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "had early commenced and continued nightly a partial disarmament of that fort,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-first-bombardment",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "bales of cotton kept damp,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "state-of-the-fort",
+      "dimension": "information",
+      "value": "Gillmore reported the practical demolition of Sumter after seven days, saying reliable information left only one serviceable gun in the casemates; Jones says the flag still flew and the evening gun was still fired.",
+      "rationale": "Assessments by the besieger and a historian; not an inspection record. No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-first-bombardment",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "We -had reliable information that but one serviceable gun remained in them,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-first-bombardment",
+          "locator": "pp.258–259 (OCR page markers; not checked against print)",
+          "quote": "Nevertheless the Confederate THE SIEGE OF CHARLESTON 259 flag still floated over the ruins, and the usual evening gun announced that the fort was still occupied."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "open-the-gate",
+      "dimension": "objectives",
+      "value": "Gillmore says the demolition of Sumter was the object preliminary to the ironclads' entrance, Wagner and Gregg being outposts of Sumter; Jones says Gillmore regarded his part as done once Sumter's offensive power was destroyed, while Dahlgren did not.",
+      "rationale": "Stated aims from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-siege-plan",
+          "locator": "p.16 (OCR page markers; not checked against print)",
+          "quote": "The demolition of Fort Sumter was the object in view as pre- liminary to the entrance of the iron-clads."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-first-bombardment",
+          "locator": "p.259 (OCR page markers; not checked against print)",
+          "quote": "General Gillmore regarded his part in the general plan for the capture of Charleston as virtually ac- complished"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-first-bombardment",
+          "locator": "p.260 (OCR page markers; not checked against print)",
+          "quote": "The Admiral, however, did not so regard it;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Gillmore ordered the breaching batteries opened on August 17 under the chief of artillery and opened the second bombardment on October 26. Jones says Beauregard directed the disarmament and Ripley the strengthening of the fort, which Rhett and then Stephen Elliott commanded. The frozen commanders are Major General Quincy Gillmore (US) and General P. G. T. Beauregard (CS).",
+      "rationale": "Command roles from an interested report and a history; neither listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-first-bombardment",
+          "locator": "p.21 (OCR page markers; not checked against print)",
+          "quote": "under the immediate supervision of the chief of artillery,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-second-bombardment",
+          "locator": "p.30 (OCR page markers; not checked against print)",
+          "quote": "the heavy rifled guns in Wagner and Gregg were opened on the work on the 26th of October."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-first-bombardment",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "He instructed General Ripley, who commanded the military district embracing the scene of operations, to strengthen the gorge wall"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-first-bombardment",
+          "locator": "p.259 (OCR page markers; not checked against print)",
+          "quote": "Major Stephen Elliott succeeded Colonel Rhett in command of Fort Sumter."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC008",
+            "belligerent": "US",
+            "fullname": "Quincy Gillmore"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC008",
+            "belligerent": "Confederate",
+            "fullname": "P.G.T. Beauregard"
+          },
+          "column": "rank",
+          "quote": "General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Gillmore reported Sumter reduced to a mere infantry outpost on August 24 and the southeast face a ruin after the second bombardment, which ended aggressive operations for the season; Jones says the fort's garrison held out and the campaign virtually ended with the second bombardment.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC008"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-sc008-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-first-bombardment",
+          "locator": "p.23 (OCR page markers; not checked against print)",
+          "quote": "The fort was reduced to the condition of a mere infantry outpost,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-second-bombardment",
+          "locator": "p.30 (OCR page markers; not checked against print)",
+          "quote": "With the second bombardment of Fort Sumter ended all ag- gressive operations for the season against the defenses of Charleston."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "virtually ended with the second bombardment of Fort Sumter."
+        },
+        {
+          "source_id": "nps-sc008-v1",
+          "locator": "Description",
+          "quote": "Despite a severe pounding, Fort Sumter's garrison held out."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads zero. Jones gives the first day's Sumter loss as one man killed and three lieutenants and ten men wounded, and says that during the Morris Island operations the fire that demolished Sumter killed only 3 and wounded 49; he also reports Captain Rodgers killed in the Catskill on August 17.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Jones's 3 and 49 cover a period that ends on September 7, not the frozen interval.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC008"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-sc008-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-first-bombardment",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "One man of the garrison had been killed and Lieutenants John Johnson,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-siege-and-evacuation",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "in the fire which de- molished Sumter only 3 men were killed and 49 wounded."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-first-bombardment",
+          "locator": "p.257 (OCR page markers; not checked against print)",
+          "quote": "announcing that her commander. Captain G. W. Rodgers, had been kilkd."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The Fort Sumter bombardment reports (Rhett's, Elliott's and the Union battery reports), Turner's supplementary report and Beauregard's general report remain deferred; no Confederate return for the frozen interval was inspected.",
+    "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. Quincy A. Gillmore's report dated February 28, 1864 (Official Records I, XXVIII part 1, No. 2) is one family of interested Union accounts. Samuel Jones's The Siege of Charleston (1911) is a posthumous Confederate general's history that quotes Gillmore's, Seymour's, Strong's, Ripley's, Taliaferro's and Beauregard's reports and is not independent of them. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "battle_id": "FL005",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Olustee record (February 20, 1864) in Florida Expedition [February 1864]. The February 7-14 advance from Jacksonville (Camp Finegan, Barber's, Lake City, Gainesville) and the Union retreat to Jacksonville after the battle are context. Campaign-wide marches, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads Division (US) and District of East Florida (CS), with blank numerical bounds; the live page gives 5000 total (US 0; CS 5000) and describes Finegan's 5,000 Confederates. Seymour's March 25 report puts his own force near 5,500 officers and men and sixteen guns; on February 22 he wrote that the enemy was supposed, on the best information he could get, to be 4,000 to 5,000 strong, and on March 25 that the disparity in numbers was too great. Finegan's February 26 report gives his effective force as 4,600 infantry, less than 600 cavalry and three batteries of twelve guns, estimates the Union force at twelve infantry regiments, about 8,000, with 1,400 cavalry, and says he had waited for several days with a force less than 2,000 strong before reinforcements arrived; on February 13 he had about 1,800 infantry and 450 cavalry at Olustee.",
+      "rationale": "Each commander's count of his own side is paired with a higher estimate of the other. The Confederate figures are for different dates (February 13 and the eve of battle). The live zero for the Union side is not measured absence. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL005"
+          },
+          "column": "forces_text",
+          "quote": "Division [US]; District of East Florida [CS]"
+        },
+        {
+          "source_id": "nps-fl005-v1",
+          "locator": "Forces Engaged",
+          "quote": "5000 total (US 0; CS 5000;)"
+        },
+        {
+          "source_id": "nps-fl005-v1",
+          "locator": "Description",
+          "quote": "Brig. Gen. Joseph Finegan's 5,000 Confederates entrenched near Olustee."
+        },
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-03-25",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "The entire force near 5,500 officers and men and sixteen guns."
+        },
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-02-22",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "(supposed to be from 4,000 to 5,000 strong, according to the best information I could obtain)"
+        },
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-03-25",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "But the disparity in numbers was too great and the defense too obstinate to permit of decisive results."
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "my whole effective force being as follows : Infantry, 4,600 ; cavalry, less than 600 ; artillery, 3 batteries — twelve guns."
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "estimated at 8,000, and some artillery (number of guns unknown), and 1,400 cavalry."
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "with a force less than 2,000 strong, awaited the enemy’s advance."
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-13",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "Iam intrenched at the Olustee to-night and have about 1,800 in- fantry, 450 cavalry, and two batteries, and one section of artillery."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "pine-barren-and-works",
+      "dimension": "terrain",
+      "value": "Seymour says the ground was firm and even, covered with pine timber but without underbrush, and on February 22 that he came upon the enemy intrenched; NPS says the Confederates were entrenched near Olustee. Finegan says he had field-works thrown up at Ocean Pond, the only strong position between Lake City and Barber's, but, apprehending that the enemy would not approach them, sent Colquitt forward to engage and then advanced the whole command.",
+      "rationale": "Whether the fighting took place at the Confederate works is disputed between the reports; no map verification.",
+      "citations": [
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-03-25",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "The ground was favorable for the movement of troops, being firm and even, and although covered with pine timber was de- void of underbrush."
+        },
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-02-22",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "I came upon the enemy, intrenched,"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "occupied the only strong position between Lake City and Barber’s. Here I had field-works thrown up,"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "Apprehending that the enemy was too cautious to approach our works,"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "I ordered in quick succession, within the space of an hour, the whole command to advance to the front as a supporting force,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "rail-rations-and-horses",
+      "dimension": "logistics",
+      "value": "Seymour wrote on February 17 that delays with the locomotive had kept him where his command could be fed and that he would advance without supplies; on February 22 he said Lake City could not be supplied by the railroad transportation at his command; after the battle he left six guns for loss of horses and some badly wounded for want of means to move them. Finegan halted the pursuit partly for the troops' fatigue and the absence of rations, asked for ammunition, and handed over his army deficient only in ordnance stores.",
+      "rationale": "Statements in the two commanders' reports; no supply or ordnance returns inspected.",
+      "citations": [
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-02-17-advance",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "have compelled me to remain where my command could be fed ;"
+        },
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-02-17-advance",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "But now I propose to go without supplies,"
+        },
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-02-22",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "because it could not be supplied with the (to this movement) utterly worthless rail- road transportation at my command,"
+        },
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-03-25",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "From loss of horses alone, I was compelled to leave six guns on the field,"
+        },
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-03-25",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "a small portion of the badly wounded were left in the power of the enemy from insufficient means to remove them."
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "the fatigue of the troops, the absence of rations,"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-23",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "I respectfully request that a full supply of ammunition for this command be forwarded as soon as possible."
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.333 (OCR page markers; not checked against print)",
+          "quote": "deficient only in ordnance stores,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "estimates-before-battle",
+      "dimension": "information",
+      "value": "Seymour believed he had accurate information on the enemy's strength and thought Hardee might be at Lake City; Finegan's advance to meet him was predicated on information that the Union force had only three infantry regiments, and on February 13 he wrote that the enemy credited him with a much larger force than he had.",
+      "rationale": "Contemporary beliefs stated by the two commanders; neither is verified. No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-03-25",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "Accurate information, it was believed, as to the enemy’s strength had been obtained,"
+        },
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-02-17-advance",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "There is reason to believe that General Hardee is in Lake City now,"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "This movement was predicated on the information that the enemy had only three regiments of infantry,"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-13",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "They give me credit for a much larger force than I have."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "suwannee-or-defense",
+      "dimension": "objectives",
+      "value": "Seymour advanced to take Lake City and, if successful, destroy the railroad at the Suwannee River, which he calls the general plan of operations; on February 22 he denied violating that plan. Finegan's object was to draw the enemy to his works and, once engaged, to press him. NPS gives Gillmore's aims as securing enclaves, severing supply routes and recruiting black soldiers.",
+      "rationale": "Stated aims; Gillmore's own statement of the plan (and his later indorsement disputing Seymour's authority) was read but not selected.",
+      "citations": [
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-03-25",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "with the intention of advancing on Lake City, and, if successful, of destroying the railroad communication between East and West Florida at the Suwannee River,"
+        },
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-02-22",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "I did not consider that I was committing any violation of the general plan of operations,"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "to advance and skirmish with the enemy and draw them to our works."
+        },
+        {
+          "source_id": "nps-fl005-v1",
+          "locator": "Description",
+          "quote": "to secure Union enclaves, sever Rebel supply routes, and recruit black soldiers."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Seymour directed the attack, blaming the failure on the Seventh New Hampshire's breaking and praising Barton's brigade and the artillery. Finegan ordered Colquitt forward, sent the whole command after him and went on the field; he withdrew the pursuit order on Colquitt's advice and says his cavalry commander failed to execute repeated pursuit orders. The frozen commanders are Brigadier Generals Truman Seymour (US) and Joseph Finegan (CS).",
+      "rationale": "Command roles from interested reports; neither listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-03-25",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "before it broke in confusion,"
+        },
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-03-25",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "The conduct of Colonel Barton’s brigade was glorious,"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "I ordered Brigadier-Gen- eral Colquitt, commanding First Brigade, to advance with three of his regiments"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "and myself went upon the field."
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "in def- erence to his suggestion of the fatigue of the troops,"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "But through some misapprehension these orders failed to be executed by him,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "FL005",
+            "belligerent": "US",
+            "fullname": "Truman Seymour"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "FL005",
+            "belligerent": "Confederate",
+            "fullname": "Joseph Finegan"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Seymour says the troops withdrew in perfect order after a struggle that ended at dusk and that the battle might fairly have been a victory; Finegan says the Union lines gave way entirely after four and a half hours, calls the victory complete and the rout complete. NPS says Finegan did not exploit the retreat.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL005"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-fl005-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-03-25",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "the troops were withdrawn in perfect order to Sanderson and then to the Saint Mary’s,"
+        },
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-03-25",
+          "locator": "p.290 (OCR page markers; not checked against print)",
+          "quote": "this might fairly have been a victory."
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "the battle lasted for four and a half hours."
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.333 (OCR page markers; not checked against print)",
+          "quote": "The victory was complete and the enemy retired in rapid retreat,"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-23",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "as their rout was com- plete."
+        },
+        {
+          "source_id": "nps-fl005-v1",
+          "locator": "Description",
+          "quote": "Finegan did not exploit the retreat,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 2,806 total (US 1,860; CS 946), as does the live page. Seymour's return's total row reads in OCR 11 officers and 192 men killed, 44 and 1,110 wounded, 2 and 504 missing, 55 and 1,806 in all, aggregate 1,861 (followed by an unexplained '1,801 120'). Finegan reports his loss as 93 killed and 841 wounded, while the compiled Confederate table's grand total reads 946; he puts the Union loss at not less than 2,000 or 2,500, with 418 wounded removed, about 400 dead buried and nearly 200 prisoners. Seymour left six guns on the field (five on February 22); Finegan claims five captured.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Finegan's 93 killed and 841 wounded and the table's 946, and Seymour's 1,861 against the frozen 1,860, are preserved; the gun counts differ.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL005"
+          },
+          "column": "casualties_text",
+          "quote": "2,806 total (US 1,860; CS 946)"
+        },
+        {
+          "source_id": "nps-fl005-v1",
+          "locator": "Estimated Casualties",
+          "quote": "2806 total (US 1860; CS 946;)"
+        },
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-02-25-casualty-return",
+          "locator": "p.298 (OCR page markers; not checked against print)",
+          "quote": "Total 11 | 192 44 1,110 2 504 55 1,806 1,861 1,801 120"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.333 (OCR page markers; not checked against print)",
+          "quote": "Our loss in the engagement was 93 killed and 841 wounded,"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "casualties-confederate-olustee",
+          "locator": "p.337 (OCR page markers; not checked against print)",
+          "quote": "Grand total 86 49 798 6 946"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.333 (OCR page markers; not checked against print)",
+          "quote": "Their loss cannot be less than 2,000 or 2,500 men,"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "Four hundred and eighteen of their wounded were"
+        },
+        {
+          "source_id": "or35-1-seymour-olustee-selections-v1",
+          "section": "seymour-1864-02-22",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "leaving upon the field five guns,"
+        },
+        {
+          "source_id": "or35-1-finegan-olustee-selections-v1",
+          "section": "finegan-1864-02-26",
+          "locator": "p.333 (OCR page markers; not checked against print)",
+          "quote": "5 superior guns,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Gillmore's reports and his November 1, 1865 indorsement disputing Seymour's numbers and authority (read, not selected), the brigade, regimental and artillery reports (Nos. 3-15 and 18-27), Beauregard's and Gardner's papers and returns before the battle remain deferred.",
+    "No history covering Olustee was found in this pass; Samuel Jones's Siege of Charleston ends in late 1863.",
+    "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. Truman Seymour's February 17, 22 and 25 and March 25, 1864 papers and Joseph Finegan's February 13, 23 and 26 reports (Official Records I, XXXV part 1) are interested accounts by the opposing commanders; the Confederate casualty addenda were compiled from nominal lists. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort Pulaski record (April 10-11, 1862) in Operations Against Fort Pulaski [April 1862]. The January-March investment by batteries on the Savannah River and Tybee Island is context. Campaign-wide marches, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Port Royal Expeditionary Force's investment troops and the fort garrison; the live field reads zero. Gillmore's December 1, 1861 reconnaissance letter, reprinted in his 1865 report, estimated 'probably' 700 good troops in the fort. His 1865 report says the garrison was found at the surrender to consist of 385 men including a full complement of officers; Jones gives five companies of the First Georgia, aggregate strength 385, under Olmstead. For the Union side Gillmore names the Seventh Connecticut, the Forty-sixth New York, two companies of volunteer engineers, two companies of the Third Rhode Island Artillery and an engineer detachment, without numbers. Armament also differs: the fort contained 48 guns, 20 bearing on Tybee (Gillmore 1865), or mounted 46 with twenty of the heaviest bearing (Jones); the Union batteries held thirty-six pieces (Gillmore 1862, Jones) or '30 pieces' as the 1865 report reads in OCR.",
+      "rationale": "A pre-siege estimate four months earlier, a surrender-time count and unit lists. Jones's 385 matches Gillmore's and is not independent. None is adopted as a matched opening strength. The live zero is not measured absence; the frozen bounds are blank.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA001"
+          },
+          "column": "forces_text",
+          "quote": "The Port Royal Expeditionary Force's Fort Pulaski investment troops [US]; Fort Pulaski Garrison [CS]"
+        },
+        {
+          "source_id": "nps-ga001-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-fort-and-project",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "There are now probably at Fort Pulaski 700 good troops."
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-bombardment",
+          "locator": "p.159 (OCR page markers; not checked against print)",
+          "quote": "The garrison of the fort was found to consist of 385 men, including a full complement of officers."
+        },
+        {
+          "source_id": "jones-fort-pulaski-selections-v1",
+          "section": "fort-pulaski",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "The fort was garrisoned by five companies of the First Georgia Regiment, — aggregate strength 385 — Col- onel Charles H. Olmstead commanding."
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1862-04-12",
+          "locator": "p.146 (OCR page markers; not checked against print)",
+          "quote": "The troops who participated in all the heavy labor were the Forty-sixth New York Volunteers, Col. Eudolph Rosa; the Seventh Connecticut Volunteers, Col. Alfred H. Terry ;"
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-fort-and-project",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "At the time of the siege it contained 48 guns, of which 20 bore upon the batteries on Tybee,"
+        },
+        {
+          "source_id": "jones-fort-pulaski-selections-v1",
+          "section": "fort-pulaski",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "At the time of the bombardment it mounted 46 guns,"
+        },
+        {
+          "source_id": "jones-fort-pulaski-selections-v1",
+          "section": "fort-pulaski",
+          "locator": "p.83 (OCR page markers; not checked against print)",
+          "quote": "Twenty of the heaviest of the guns bore on the Tybee Island batteries."
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1862-04-12",
+          "locator": "p.146 (OCR page markers; not checked against print)",
+          "quote": "twenty- two of the thirty-six pieces comprised in the batteries were served during the action by the troo])s who had performed the fatiguing labors"
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-investment-and-batteries",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "The armament comprised 30 pieces, distributed in eleven batterie's,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "marsh-and-masonry",
+      "dimension": "terrain",
+      "value": "Gillmore describes the fort as a casemated brick work of five sides on Cockspur Island, wholly a marsh, and Tybee as mostly a mud marsh whose last mile, holding the seven most advanced batteries, lay low, marshy and in full view of the fort. His eleven batteries stood between 1,650 and 3,400 yards away; Jones gives an average of 1700 yards for the breaching batteries.",
+      "rationale": "Ground and distances from an interested engineer report and a derivative history; no map inspected. The fort is prewar construction; the battery sites were chosen by the besiegers.",
+      "citations": [
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-fort-and-project",
+          "locator": "p.148 (OCR page markers; not checked against print)",
+          "quote": "Cockspur Island is wholly a marsh,"
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-fort-and-project",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "Fort Pulaski is a brick work of five sides or faces, including the gorge, caseiiiated on all sides,"
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-investment-and-batteries",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "Tybee Island is mostly a mud marsh, like other marsh islands on this coast."
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-investment-and-batteries",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "The last mile of this route, on which the seven most advanced batteries were placed, is low and marshy, lies in full view of Fort Pulaski,"
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-investment-and-batteries",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "1. Battery Stanton, three heavy l3-in(‘h mortars, at 3,400 yards."
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-investment-and-batteries",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "11. Battery Totten, four 10-inch siege mortars, at 1,650 yards."
+        },
+        {
+          "source_id": "jones-fort-pulaski-selections-v1",
+          "section": "fort-pulaski",
+          "locator": "p.82 (OCR page markers; not checked against print)",
+          "quote": "The breaching batteries were at an average distance of 1700 yards from the fort;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "siege-labor-and-isolation",
+      "dimension": "logistics",
+      "value": "Gillmore says ordnance was landed without a wharf on an exposed beach, that 250 men could hardly move a 13-inch mortar on a sling-cart, and that each battery had a service magazine for about two days' firing, with a depot magazine of 3,600 barrels. He dates the absolute blockade of the fort from February 22 but says it proved impossible to isolate it perfectly. Jones says the fort would necessarily have had to surrender through starvation once its provisions were consumed.",
+      "rationale": "Besieger's labor and supply arrangements, and a historian's inference about the garrison's provisions; no garrison return or supply inventory inspected.",
+      "citations": [
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1862-04-12",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "The labor of landing the heaviest ordnance, with large supplies of ordnance stores, without a wharf, upon an open and exposed beach"
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1862-04-12",
+          "locator": "p.146 (OCR page markers; not checked against print)",
+          "quote": "250 men could hardly move a 13-inch mortar loaded on a sling-cart."
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-investment-and-batteries",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "Each battery had a service magazine capable of containing a supply of powder for about two days^ firing."
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-investment-and-batteries",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "A depot powder magazine of 3,600 barrels’ capacity was constructed near the Martello Tower,"
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-investment-and-batteries",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "The absolute blockade of Pulaski dates from the 22d of February,"
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-investment-and-batteries",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "It was found impossilde to perfectly isolate the work."
+        },
+        {
+          "source_id": "jones-fort-pulaski-selections-v1",
+          "section": "fort-pulaski",
+          "locator": "p.81 (OCR page markers; not checked against print)",
+          "quote": "It would necessarily have had to surrender through starvation when the supply of provisions should be consumed;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "concealment-and-messengers",
+      "dimension": "information",
+      "value": "Gillmore says the positions of the five most advanced batteries were screened from the fort little by little, that subsequent inquiry showed the defenders knew the exact position of only two batteries, and that messengers passed between the fort and the interior over the marshes.",
+      "rationale": "What the defenders knew is inferred afterward by the besieging commander; no Confederate report was inspected (none is listed in the volume's report list).",
+      "citations": [
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-investment-and-batteries",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "The positions selected for the five most advanced batteries were artificially screened from view from the fort"
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-bombardment",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "Subsequent inquiry showed that he knew the exact position of only two of our batteries — Sherman and Burnside."
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-investment-and-batteries",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "It was known that messen- gers passed to and from the fort in this way quite frequently."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reduction-by-breach",
+      "dimension": "objectives",
+      "value": "Gillmore reported in December 1861 that reduction by mortar and rifled-gun batteries on Tybee was practicable; the breach was ordered in the scarp so as to take the magazine in reverse; after the first day he concluded the fort would have to be reduced by breaching, perhaps ending in an assault.",
+      "rationale": "Stated plan and intent in the besieger's reports.",
+      "citations": [
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-fort-and-project",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "I deemed the reduction of that work practicable by batteries of mortars and rifled guns established on Tybee Island."
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1862-04-12",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "The breach had l)een ordered in this portion of the scarp so as to take in reverse through the opening the magazine"
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-bombardment",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "that upon breaching alone ending perhaps in an assault, we must depend for the reduction of the work."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Gillmore says he was charged, as engineer and commander of the forces, with the offensive operations on Tybee; Hunter assumed command of the department on March 31, inspected the works without change, and sent the summons on April 10. Jones says Gillmore was given the rank of brigadier general of volunteers and charged with reducing the fort, and that Hunter arrived in time to demand the surrender. The frozen commanders are Major General David Hunter and Captain Quincy A. Gillmore (US) and Colonel Charles H. Olmstead (CS); the live page lists Hunter and Olmstead only. No inspected passage by Olmstead describes his decisions.",
+      "rationale": "Command roles from an interested report and a derivative history; no listed commander receives automatic sole credit. Gillmore's rank is recorded as Captain in the frozen row and as brigadier general in Jones.",
+      "citations": [
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-fort-and-project",
+          "locator": "p.148 (OCR page markers; not checked against print)",
+          "quote": "In the double capacity of engineer and commander of the forces I was charged with the offensive operations on Tybee Island,"
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-investment-and-batteries",
+          "locator": "p.156 (OCR page markers; not checked against print)",
+          "quote": "On the 31st day of March Maior-General Hunter assumed command of the Department of the South,"
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-investment-and-batteries",
+          "locator": "p.156 (OCR page markers; not checked against print)",
+          "quote": "No change or modification of any of the works was suggested by either."
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-bombardment",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "Maj. Gen. David Hun- ter, commanding the department, dispatched Lieut. J. H. Wilson, of the Topographical Engineers, to Fort Pulaski, bearing a flag of truce and a summons to surrender."
+        },
+        {
+          "source_id": "jones-fort-pulaski-selections-v1",
+          "section": "fort-pulaski",
+          "locator": "p.80 (OCR page markers; not checked against print)",
+          "quote": "Captain Gillmore was given the rank of Brigadier General of Volunteers, and charged with the task of reducing Fort Pulaski."
+        },
+        {
+          "source_id": "jones-fort-pulaski-selections-v1",
+          "section": "fort-pulaski",
+          "locator": "p.86 (OCR page markers; not checked against print)",
+          "quote": "was on Tybee Island in time to demand the surrender of Fort Pulaski,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA001",
+            "belligerent": "US",
+            "fullname": "David Hunter"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA001",
+            "belligerent": "US",
+            "fullname": "Quincy A. Gillmore"
+          },
+          "column": "rank",
+          "quote": "Captain"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA001",
+            "belligerent": "Confederate",
+            "fullname": "Charles H. Olmstead"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-ga001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Colonel Charles Olmstead [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Gillmore says that after a first day's fire had begun a breach, the fort hoisted the white flag at 2 o'clock on the 11th; Jones says the fort, with its armament and garrison, was surrendered at 2 P.M.; NPS says Olmstead surrendered after 2:00 pm on April 11.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA001"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ga001-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-bombardment",
+          "locator": "p.159 (OCR page markers; not checked against print)",
+          "quote": "when the fort hoisted the white flag. This occurred at 2 o’clock."
+        },
+        {
+          "source_id": "jones-fort-pulaski-selections-v1",
+          "section": "fort-pulaski",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "the white flag was run up over the fort, which, with its armament and garrison, was surrendered to the Union forces."
+        },
+        {
+          "source_id": "nps-ga001-v1",
+          "locator": "Description",
+          "quote": "Olmstead surrendered after 2:00 pm on April 11."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 365 total (US 1; CS 364); the live field reads 2 total (US 1; CS 1). Gillmore reports one Union man killed and says several of the garrison were severely and one fatally wounded; his 385-man garrison count describes the surrendered garrison, not a casualty return.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen CS 364 and the live CS 1 differ by an unstated population (captured garrison against battle casualties).",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA001"
+          },
+          "column": "casualties_text",
+          "quote": "365 total (US 1; CS 364)"
+        },
+        {
+          "source_id": "nps-ga001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "2 total (US 1; CS 1;)"
+        },
+        {
+          "source_id": "or6-gillmore-fort-pulaski-selections-v1",
+          "section": "gillmore-1865-10-20-bombardment",
+          "locator": "p.159 (OCR page markers; not checked against print)",
+          "quote": "Several of them were severely, and one fatally, wounded. Our total loss was 1 man killed."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Hunter's April 13 report (read in part), Benham's and Viele's reports, O'Rorke's report, Cooper's casualty list, Pemberton's and Lawton's Confederate reports and any Olmstead account remain deferred; no Confederate report on the surrender was inspected.",
+    "The Union strength on Tybee on April 10 and the garrison's condition before the bombardment are not established by any inspected return.",
+    "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. Quincy A. Gillmore's April 12, 1862 preliminary report and his report dated October 20, 1865 (Official Records I, VI, No. 5) are one family of interested Union accounts. Samuel Jones's The Siege of Charleston (1911) is a posthumous Confederate general's history; its Fort Pulaski pages repeat Gillmore's figures and are not independent of his report. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

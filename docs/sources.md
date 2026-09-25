@@ -169,6 +169,31 @@ at merge predate the merge; the records are left unchanged. The Trans-Mississipp
 registered a third Britton volume I group name, `britton-civil-war-on-border-1899`; it is the same
 family.
 
+### Atlantic coast 1862–65 first passes (cohort v2), 2026-09-25
+
+The first passes for nine Atlantic coast campaigns add **65 records**: Fort Pulaski, Charleston
+1862, Tampa 1862, St. John's Bluff, Fort McAllister 1863, Charleston 1863, Hillsboro 1863,
+Florida 1864 and St. Marks 1865 (memos `docs/research/<slug>-first-pass-v1.md`). The records are:
+
+- fifteen NPS HTML/text pairs;
+- Official Records Series I, Volumes XIV, XXVIII Part 1 and XXXV Part 1 (Illinois scans): catalog
+  metadata and full OCR;
+- Official Records of the Navies, Volumes 13, 14 and 17 (Trent University scans): catalog metadata
+  and full OCR;
+- Samuel Jones, *The Siege of Charleston*: catalog metadata, full OCR and three selections;
+- eighteen report selections.
+
+Each volume's number and part was checked against the catalog metadata and the OCR title page.
+
+**Merge deduplication.** This pass fetched its own copies of Volumes VI and XLIX Part 1. The OCR
+files were byte-identical to the registered parents (`or6-illinois-ocr-v1`,
+`or49-1-illinois-ocr-v1`), so they were not registered again, and the duplicate catalog records
+were dropped.
+
+**Author groups.** Gillmore reuses `gillmore-petersburg-june-9-report` and Beauregard reuses
+`beauregard-drewrys-bluff-report` (the older `or-beauregard` and `beauregard-bull-run-1861-reports` groups are the same family). Jones's book
+reuses `samuel-jones-east-tennessee-reports`, the same person. No model inputs are changed.
+
 ### Carolinas Campaign first pass (cohort v2), 2026-09-25
 
 The [first pass](research/carolinas-first-pass-v1.md) adds **23 records**:

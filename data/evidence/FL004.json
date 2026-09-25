@@ -1,0 +1,328 @@
+{
+  "schema_version": 1,
+  "battle_id": "FL004",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort Brooke record (October 16-18, 1863) in Expedition to Hillsboro River [October 1863]. The December 25, 1863 engagement at Fort Brooke is a separate action and context only. Campaign-wide marches, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text names the Tahoma, the Adela and a landing force (US) and Company A, 2nd Battalion, Florida Volunteers (CS); the live field reads zero. Semmes says a force of 100, exclusive of officers and guides, was landed at Ballast Point. Westcott says 130 men landed, printed as '120 men and 20 guides', and that his own force was too small.",
+      "rationale": "A landing-party count and an opponent's estimate that differ; no Confederate strength figure. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL004"
+          },
+          "column": "forces_text",
+          "quote": "Tahoma, Adela, and landing force [US]; Company A, 2nd Battalion, Florida Volunteers [CS]"
+        },
+        {
+          "source_id": "nps-fl004-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "orn17-semmes-fort-brooke-selections-v1",
+          "section": "semmes-1863-10-20",
+          "locator": "p.572 (OCR page markers; not checked against print)",
+          "quote": "a force of 100, exclusive of officers and guides, was landed."
+        },
+        {
+          "source_id": "or28-1-westcott-fort-brooke-selections-v1",
+          "section": "westcott-1863-10-18",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "they landed 130 men at Ballast Point — 120 men and 20 guides, traitors and negroes."
+        },
+        {
+          "source_id": "or28-1-westcott-fort-brooke-selections-v1",
+          "section": "westcott-1863-10-18",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "My force here is too small."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "ballast-point-and-river",
+      "dimension": "terrain",
+      "value": "Semmes moved the landing from Old Tampa Bay to Ballast Point, about 5 miles below Tampa; Westcott says the party marched through the woods, dragging a boat 2 miles before abandoning it, to the steamer about 4 miles above the town; NPS gives a 14-mile march to the Hillsborough River.",
+      "rationale": "Distances from the two reports and NPS; no map verification.",
+      "citations": [
+        {
+          "source_id": "orn17-semmes-fort-brooke-selections-v1",
+          "section": "semmes-1863-10-20",
+          "locator": "p.572 (OCR page markers; not checked against print)",
+          "quote": "1 had to change the place of landing a force from Old Tampa Bay to Ballast Point, about 5 miles below the town of Tampa."
+        },
+        {
+          "source_id": "or28-1-westcott-fort-brooke-selections-v1",
+          "section": "westcott-1863-10-18",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "From the landing they marched through the woods (drawing a boat 2 miles and abandoned it) to the steamer of Captain Blakeny, about 4 miles above here."
+        },
+        {
+          "source_id": "nps-fl004-v1",
+          "locator": "Description",
+          "quote": "marched 14 miles to the Hillsborough River"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cotton-runners-and-shelling",
+      "dimension": "logistics",
+      "value": "Semmes found the Scottish Chief and the Kate Dale loaded with cotton and ready to run the blockade, and says their light draft would probably have let them elude him; his 200-pounder Parrott's fuzes acted badly. Westcott counts 126 shells fired on the 16th and says 57 rifles and other equipment were picked up after the action.",
+      "rationale": "Cargo, ordnance and captured-equipment statements from the two reports; no returns inspected.",
+      "citations": [
+        {
+          "source_id": "orn17-semmes-fort-brooke-selections-v1",
+          "section": "semmes-1863-10-20",
+          "locator": "p.572 (OCR page markers; not checked against print)",
+          "quote": "finding that the steamer Scottish Chief and the sloop Kate Dale were loaded with cotton and ready to run the blockade,"
+        },
+        {
+          "source_id": "orn17-semmes-fort-brooke-selections-v1",
+          "section": "semmes-1863-10-20",
+          "locator": "p.573 (OCR page markers; not checked against print)",
+          "quote": "The vessels destroyed were of light draft, not over 1 feet, and would have probably eluded me."
+        },
+        {
+          "source_id": "orn17-semmes-fort-brooke-selections-v1",
+          "section": "semmes-1863-10-20",
+          "locator": "p.572 (OCR page markers; not checked against print)",
+          "quote": "The practice with the 200-pounder Parrott was beautiful, but the fuzes acted badly."
+        },
+        {
+          "source_id": "or28-1-westcott-fort-brooke-selections-v1",
+          "section": "westcott-1863-10-18",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "throwing 126 shells in all,"
+        },
+        {
+          "source_id": "or28-1-westcott-fort-brooke-selections-v1",
+          "section": "westcott-1863-10-18",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "Fifty-seven rifles, spy -glasses, rockets, &c. , have been picked up."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "feint-and-alarm",
+      "dimension": "information",
+      "value": "Semmes placed stakes to the north and east as if to land there, and says a Confederate force was sent that night to oppose that landing; the escape of two men from the burned vessels was the only thing that betrayed the landing party. Westcott had assumed command on the 14th, two days before the shelling.",
+      "rationale": "Attributed knowledge from interested reports. No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [
+        {
+          "source_id": "orn17-semmes-fort-brooke-selections-v1",
+          "section": "semmes-1863-10-20",
+          "locator": "p.572 (OCR page markers; not checked against print)",
+          "quote": "with a view of deceiving the rebels, I placed some stakes to the northward and eastward, as if intending to land there."
+        },
+        {
+          "source_id": "orn17-semmes-fort-brooke-selections-v1",
+          "section": "semmes-1863-10-20",
+          "locator": "p.572 (OCR page markers; not checked against print)",
+          "quote": "This had the desired effect, for that night quite a force was sent there to oppose a landing."
+        },
+        {
+          "source_id": "orn17-semmes-fort-brooke-selections-v1",
+          "section": "semmes-1863-10-20",
+          "locator": "p.573 (OCR page markers; not checked against print)",
+          "quote": "The escape of two prisoners from one of the vessels burned was the only thing that showed the presence of our force."
+        },
+        {
+          "source_id": "or28-1-westcott-fort-brooke-selections-v1",
+          "section": "westcott-1863-10-18",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "I arrived here on Monday, 12th, and assumed command on Wed- nesday, 14th."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "destroy-the-runners",
+      "dimension": "objectives",
+      "value": "Semmes's object was to destroy the blockade runners before they escaped; the shelling of the batteries and the stakes were diversions. NPS calls the bombardment of Fort Brooke a diversion for the landing party.",
+      "rationale": "Stated plan from the Union report and NPS; the Confederate aim is to defend the post.",
+      "citations": [
+        {
+          "source_id": "orn17-semmes-fort-brooke-selections-v1",
+          "section": "semmes-1863-10-20",
+          "locator": "p.572 (OCR page markers; not checked against print)",
+          "quote": "The following morning, at daylight, we fired the heavy rifle gun, simply to keep the rebels busy."
+        },
+        {
+          "source_id": "nps-fl004-v1",
+          "locator": "Description",
+          "quote": "Two Union ships bombarded Fort Brooke on October 16 as a diversion,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Semmes planned the operation and refers the shore action to Acting Master Harris, his executive officer, who commanded the landing party. Westcott commanded at Fort Brooke and says that with more men he could have captured the whole party. The frozen commanders are Lieutenant Commander A. A. Semmes (US, navy) and Captain John Westcott (CS).",
+      "rationale": "Command roles from the two reports; neither listed commander receives automatic sole credit. Harris's report was read but not selected.",
+      "citations": [
+        {
+          "source_id": "orn17-semmes-fort-brooke-selections-v1",
+          "section": "semmes-1863-10-20",
+          "locator": "p.572 (OCR page markers; not checked against print)",
+          "quote": "of Acting Master [T. R.] Harris, the executive officer of this vessel, who was in command."
+        },
+        {
+          "source_id": "orn17-semmes-fort-brooke-selections-v1",
+          "section": "semmes-1863-10-20",
+          "locator": "p.573 (OCR page markers; not checked against print)",
+          "quote": "meeting Captain [John] Westcott, the commander at Tampa,"
+        },
+        {
+          "source_id": "or28-1-westcott-fort-brooke-selections-v1",
+          "section": "westcott-1863-10-18",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "if I had had more men I could have captured the whole concern."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "FL004",
+            "belligerent": "US",
+            "fullname": "A. A. Semmes"
+          },
+          "column": "rank",
+          "quote": "Lieutenant Commander"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "FL004",
+            "belligerent": "Confederate",
+            "fullname": "John Westcott"
+          },
+          "column": "rank",
+          "quote": "Captain"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS says Harris's party captured the Scottish Chief and the Kate Dale and was surprised on its way back. Semmes regrets the loss but claims to have shown that blockade runners were not safe even up the Hillsboro River; Westcott says the Confederates burned the A. B. Noyes and badly whipped the party before it reached its boats.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL004"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-fl004-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-fl004-v1",
+          "locator": "Description",
+          "quote": "Harris and his men surprised and captured the blockade running steamer Scottish Chief and sloop Kate Dale."
+        },
+        {
+          "source_id": "orn17-semmes-fort-brooke-selections-v1",
+          "section": "semmes-1863-10-20",
+          "locator": "p.573 (OCR page markers; not checked against print)",
+          "quote": "I regret sincerely our loss, yet I feel a great degree of satisfaction in having impressed the rebels with the idea that blockade-running vessels are not safe even up the Hillsboro River."
+        },
+        {
+          "source_id": "or28-1-westcott-fort-brooke-selections-v1",
+          "section": "westcott-1863-10-18",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "Our men burned the boat [A. B. Noyes]."
+        },
+        {
+          "source_id": "or28-1-westcott-fort-brooke-selections-v1",
+          "section": "westcott-1863-10-18",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "but before they got to and into their boats they were badly whipped,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads 16 (US 16; CS 0). Semmes lists 3 killed, 10 wounded and 4 prisoners by name. Westcott reports 5 prisoners (one dying, one severely wounded) and believes about 50 were killed and wounded at the boats.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Semmes's named list, the live 16 and Westcott's estimate differ.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL004"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-fl004-v1",
+          "locator": "Estimated Casualties",
+          "quote": "16 total (US 16; CS 0;)"
+        },
+        {
+          "source_id": "orn17-semmes-fort-brooke-selections-v1",
+          "section": "semmes-1863-10-20",
+          "locator": "p.573 (OCR page markers; not checked against print)",
+          "quote": "Killed. — James Worrall, seaman, Tahoma; John Roddy, seaman, Adela; Joseph O’Donnell, seaman, Adela."
+        },
+        {
+          "source_id": "orn17-semmes-fort-brooke-selections-v1",
+          "section": "semmes-1863-10-20",
+          "locator": "p.573 (OCR page markers; not checked against print)",
+          "quote": "Prisoners. — John Collins, master at arms, Tahoma: John McDonald, seaman, Tahoma; John Hilton, ordinary seaman, Tahoma , wounded; Thomas Donnelly, fireman, Adela."
+        },
+        {
+          "source_id": "or28-1-westcott-fort-brooke-selections-v1",
+          "section": "westcott-1863-10-18",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "I have 5 prisoners; 1 died this morning and 1 is severely wounded."
+        },
+        {
+          "source_id": "or28-1-westcott-fort-brooke-selections-v1",
+          "section": "westcott-1863-10-18",
+          "locator": "p.735 (OCR page markers; not checked against print)",
+          "quote": "We killed and wounded, it is believed, about 50 while they were get- ting to and into their barges."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Harris's October 18 report, Stodder's report, Bailey's October 26 report and the surgeons' casualty reports (read, not selected), and any detailed report by Westcott remain deferred.",
+    "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. A. A. Semmes's October 20, 1863 report (Official Records of the Navies I, 17) is an interested Union account. John Westcott's October 18 report (Official Records I, XXVIII part 1) is a short interested Confederate account. No history covering this action was found; two report families plus NPS are recorded. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

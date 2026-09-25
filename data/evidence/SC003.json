@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "battle_id": "SC003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Simmon's Bluff record (June 21, 1862) in Operations Against Charleston [June 1862]. Rhind's other North Edisto operations and the planned railroad raid are context. Campaign-wide marches, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Regiments; the live field reads zero. Rhind says the Planter carried 4 officers and 70 men of the Fifty-fifth Pennsylvania with the Crusader in support, and that papers found in the camp showed the force at the point to be the Marion Artillery and two companies of the Sixteenth South Carolina, the regiment being 2 miles back. Parker says he put the companies of Captains McJunkin and Barnett into the rifle pits and that McCullough, who had arrived, was to advance with four companies.",
+      "rationale": "Unit identifications and a Union landing-party count; no Confederate strength figure. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC003"
+          },
+          "column": "forces_text",
+          "quote": "Regiments"
+        },
+        {
+          "source_id": "nps-sc003-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "orn13-rhind-simmons-bluff-selections-v1",
+          "section": "rhind-1862-06-23-additional",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "On board the Planter were 4 officers and 70 men of the Fifty-fifth Pennsylvania Volunteers, under command of Captain Bennett."
+        },
+        {
+          "source_id": "orn13-rhind-simmons-bluff-selections-v1",
+          "section": "rhind-1862-06-23-additional",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "it appears that the force at the point consisted of the Marion Artillery and two companies of the Six¬ teenth Regiment South Carolina Volunteers, and that th6 regiment was placed 2 miles back."
+        },
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "I ordered the companies of Captains McJunkin and Barnett into the incomplete pits in process of construction for riflemen,"
+        },
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "Colonel McCullough, who had arrived, to advance under cover of the hedges to the point where my scouts were with four companies;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "bluff-and-miry-road",
+      "dimension": "terrain",
+      "value": "Parker says the road through the corn was too miry for his guns after recent rains, and that reaching the bluff would have exposed his battery to both ships for 400 or 500 yards; Rhind says the Crusader passed the bluff at half pistol-shot and drew musketry from rifle pits and houses.",
+      "rationale": "Ground described by the two opposing commanders; no map verification.",
+      "citations": [
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "The road through the corn was so miry from the recent rains that my guns could not use them,"
+        },
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "To reach the bluff I would have had my battery exposed to fire from both ships for 400 or 500 yards,"
+        },
+        {
+          "source_id": "orn13-rhind-simmons-bluff-selections-v1",
+          "section": "rhind-1862-06-23-additional",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "We passed slowly by the bluff at half pistol-shot distance, and received a smart musketry fire from rifle pits and the houses."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "pits-incomplete-and-planter",
+      "dimension": "logistics",
+      "value": "Parker says the rifle pits were incomplete and that his guns were in the road and wagons parked before he reached camp; Rhind says he had built musket-proof bulwarks on the Planter for the expedition and that the Confederates removed their baggage before he landed.",
+      "rationale": "Preparation and field works described in the two reports; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "into the incomplete pits in process of construction for riflemen,"
+        },
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "My guns were in the road and wagons parked before I could get to camp,"
+        },
+        {
+          "source_id": "orn13-rhind-simmons-bluff-selections-v1",
+          "section": "rhind-1862-06-23",
+          "locator": "p.126 (OCR page markers; not checked against print)",
+          "quote": "I prepared the Planter for it by building some musket-proof bulwarks around her aft and about her machinery."
+        },
+        {
+          "source_id": "orn13-rhind-simmons-bluff-selections-v1",
+          "section": "rhind-1862-06-23-additional",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "The enemy had taken off the baggage, etc. , before we landed."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "alarm-and-uncertainty",
+      "dimension": "information",
+      "value": "Parker says no more than twenty minutes passed between the alarm and the first shot, asks for a signal system, notes that the steamer's masthead lookout directed her fire, and says he could only conjecture whether any force landed. Rhind learned the Confederate dispositions from papers captured in the camp.",
+      "rationale": "Contemporary statements of warning and knowledge by the two commanders. No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "I do not think that over twenty minutes elapsed between the alarm and the first shot."
+        },
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "The lookout on the mast of the steamer enables her to direct her fire at objects not seen from her hull."
+        },
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "They, however, had not landed any force, and I can only conjecture that they landed at all."
+        },
+        {
+          "source_id": "orn13-rhind-simmons-bluff-selections-v1",
+          "section": "rhind-1862-06-23-additional",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "From orders and papers found in the camp"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "draw-the-artillery",
+      "dimension": "objectives",
+      "value": "Rhind says he advanced slowly without firing to draw the Confederate artillery down to the river; Parker says he kept his guns under cover anticipating a landing, and planned a front-and-flank attack had a landing been made. NPS says the Federals were mounting an amphibious expedition to cut the Charleston & Savannah Railroad and abandoned the raid.",
+      "rationale": "Stated intentions from the two reports; the railroad aim is NPS's framing and is not stated in the inspected reports.",
+      "citations": [
+        {
+          "source_id": "orn13-rhind-simmons-bluff-selections-v1",
+          "section": "rhind-1862-06-23-additional",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "We advanced slowly, without firing, my object being to draw the artillery down,"
+        },
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "I kept my men and guns under cover, anticipating a land- ing."
+        },
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "and thus I hoped, had they landed, to attack them in front and flank."
+        },
+        {
+          "source_id": "nps-sc003-v1",
+          "locator": "Description",
+          "quote": "the Federals besieging Charleston mounted an amphibious expedition to cut the Charleston & Savannah Railroad."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Rhind took the Crusader and Planter up the river and himself landed with Captain Bennett's company to burn the camp. Parker, commanding the post, placed the riflemen and battery; McCullough arrived during the action and was ordered forward with four companies. The frozen commanders are Lieutenant A. C. Rhind (US) and Colonel James McCullough (CS).",
+      "rationale": "Command roles from the two reports; neither listed commander receives automatic sole credit. The post commander in the Confederate report is Parker, not the listed McCullough.",
+      "citations": [
+        {
+          "source_id": "orn13-rhind-simmons-bluff-selections-v1",
+          "section": "rhind-1862-06-23-additional",
+          "locator": "p.126 (OCR page markers; not checked against print)",
+          "quote": "On the 21st I took this vessel, followed by the Planter,"
+        },
+        {
+          "source_id": "orn13-rhind-simmons-bluff-selections-v1",
+          "section": "rhind-1862-06-23-additional",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "I then went on board the Planter and taking her in to the shore landed with Captain Bennett’s command, fired their tents, about thirty in number,"
+        },
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "EDWARD L. PARKER, Captain Marion Artillery , Commanding Post."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC003",
+            "belligerent": "US",
+            "fullname": "A.C. Rhind"
+          },
+          "column": "rank",
+          "quote": "Lieutenant"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC003",
+            "belligerent": "Confederate",
+            "fullname": "James McCullough"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Rhind says a short engagement drove off the Confederates and their camp was captured and destroyed; Parker says the riflemen retreated when enfiladed, that some men landed from the Planter, he thought, and burned the infantry tents, and that the boats then went off.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC003"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-sc003-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "orn13-rhind-simmons-bluff-selections-v1",
+          "section": "rhind-1862-06-23-additional",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "after a short engagement drove oft the force of the enemy stationed there and captured and destroyed their camp."
+        },
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "The riflemen kept up a continuous and steady fire until their posi- tion was enfiladed, when they retreated to the road,"
+        },
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "landed from the Planter, I think, who got as far as the infantry tents and burned them."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads None (0); the live field reads zero. Rhind reports no loss and very trifling damage; Parker reports no casualties but says his men heard cries after several shots.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC003"
+          },
+          "column": "casualties_text",
+          "quote": "None"
+        },
+        {
+          "source_id": "nps-sc003-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "orn13-rhind-simmons-bluff-selections-v1",
+          "section": "rhind-1862-06-23-additional",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "without loss and with very trifling damage."
+        },
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "I have no casualties to report."
+        },
+        {
+          "source_id": "or14-parker-simmons-bluff-selections-v1",
+          "section": "parker-1862-06-21",
+          "locator": "p.106 (OCR page markers; not checked against print)",
+          "quote": "they all say that cries were heard after several shots."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Evans's June 23 transmittal (read, not selected), the captured orders and letters printed in Navies volume 13, and any report by McCullough or the Fifty-fifth Pennsylvania remain deferred.",
+    "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. A. C. Rhind's two June 23, 1862 reports (Official Records of the Navies I, 13) are interested Union accounts. Edward L. Parker's June 21 report (Official Records I, XIV) is an interested Confederate account. No history covering this action was found (Jones's Siege of Charleston does not mention it); the gap is recorded. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

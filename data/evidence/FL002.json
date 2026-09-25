@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "battle_id": "FL002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Tampa record (June 30-July 1, 1862) in Operations Against Tampa [June-July 1862]. Campaign-wide marches, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads one gunboat (US) and a company of Osceola Rangers (CS); the live field reads zero. Pearson says the gunboat sent a launch with a lieutenant and 20 men, that he met it with 18 men in one of his boats, and that his batteries consisted of three 24-pounder cannon, one manned by a green squad under Captain Gettis. Finegan, reporting from Tallahassee, says two companies, Pearson's and Chambers's, were stationed at Tampa and that the enemy force was one vessel.",
+      "rationale": "Unit and gun counts from two Confederate reports; no Union report was found (see open questions). One company (frozen) against two (Finegan) is preserved. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL002"
+          },
+          "column": "forces_text",
+          "quote": "One gunboat [US]; Osceola Rangers, company [CS]"
+        },
+        {
+          "source_id": "nps-fl002-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "then started a launch, with a lieutenant and 20 men, bearing a flag of truce, toward our shore."
+        },
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "I immediately manned one of my boats with 18 men and met them in the bay,"
+        },
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "consisting of three 24-pounder cannon."
+        },
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "He took command of one of the batteries manned by a green squad of my men who had never fired a cannon before,"
+        },
+        {
+          "source_id": "or14-finegan-tampa-selections-v1",
+          "section": "finegan-1862-07-08",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "There are two companies (Pearson’s and Chambers’] stationed at Tampa,"
+        },
+        {
+          "source_id": "or14-finegan-tampa-selections-v1",
+          "section": "finegan-1862-07-08",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "The force engaged (one vessel) for- bids such an idea."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "out-of-range",
+      "dimension": "terrain",
+      "value": "Pearson says the vessel anchored after sounding and manoeuvring, turned her broadside to the town, and lay out of range of his guns at a distance printed as '2£ to 2£ miles' in OCR.",
+      "rationale": "Distances garbled in OCR; one interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "after sounding and maneuvering to get a favorable position came to anchor, turned her broadside to us and opened her ports,"
+        },
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "They lay out of the range of our guns (the vessel) by from 2£ to 2£ miles from our batteries,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-scarce",
+      "dimension": "logistics",
+      "value": "Pearson moved part of his ammunition a mile to the rear under guard, and on July 1 did not reply because the vessel was out of range and his ammunition too scarce to waste.",
+      "rationale": "One commander's statement; no ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "I had a part of my ammunition, &c., moved 1 mile in the rear and placed a guard over them."
+        },
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "did not fire in consequence of their being out of the range of our guns and ammunition too scarce to be wasted foolishly."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "advices-and-hits",
+      "dimension": "information",
+      "value": "Finegan's report rests on advices that the batteries were replying and says he apprehended no attempt to capture Tampa; Pearson relies on onlookers for the claim that the vessel was struck and says he cannot tell what damage was done.",
+      "rationale": "Secondhand knowledge in both reports. No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew. Finegan's report is dated July 8 but speaks of the firing in the present tense.",
+      "citations": [
+        {
+          "source_id": "or14-finegan-tampa-selections-v1",
+          "section": "finegan-1862-07-08",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "my advices are that our batteries are replying deliberately and regu- larly to the fire of the enemy."
+        },
+        {
+          "source_id": "or14-finegan-tampa-selections-v1",
+          "section": "finegan-1862-07-08",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "I apprehend no attempt on the part of . the Federals to capture Tampa."
+        },
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "It is said by outsiders who were close lookers-on that we struck their vessel."
+        },
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "we cannot tell what damage was done to them."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surrender-demand",
+      "dimension": "objectives",
+      "value": "Pearson says the launch's lieutenant demanded, for Captain Drake, the unconditional surrender of the town and announced shelling at 6 o'clock; Finegan presumed the aim was to annoy the Confederates for killing and capturing Union men on the coast.",
+      "rationale": "The Union aim is known only through Confederate reports.",
+      "citations": [
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "he had been sent by Captain Drake to demand an unconditional surrender of the town."
+        },
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "He then said they would commence shelling the town at 6 o’clock,"
+        },
+        {
+          "source_id": "or14-finegan-tampa-selections-v1",
+          "section": "finegan-1862-07-08",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "I presume they intend to annoy us for killing and capturing their men on our coast."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Pearson, signing as captain of the Osceola Rangers and commander of the post, refused the demand himself and credits Captain Gettis with commanding a battery; the gunboat was commanded by Captain Drake. The frozen commanders are Captain John W. Pearson (CS) and Captain A. J. Drake (US, navy); the live page gives Captain Andrew Drake and Captain J Pearson.",
+      "rationale": "Command roles from the Confederate report only; neither listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "J. W. PEARSON, Captain Osceola Rangers and Commander of Post"
+        },
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "My reply to him was that we did not under- stand the meaning of the word surrender;"
+        },
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "a Federal gunboat, commanded by Captain Drake,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "FL002",
+            "belligerent": "Confederate",
+            "fullname": "John W. Pearson"
+          },
+          "column": "rank",
+          "quote": "Captain"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "FL002",
+            "belligerent": "US",
+            "fullname": "A.J. Drake"
+          },
+          "column": "rank",
+          "quote": "Captain"
+        },
+        {
+          "source_id": "nps-fl002-v1",
+          "locator": "Principal Commanders",
+          "quote": "Captain Andrew Drake [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory (Inconclusive, but Union gunboat withdrew.); the live result reads Confederate Victory. Pearson says the firing ran about an hour from 6 p.m. on June 30 and two hours on July 1, after which the vessel weighed anchor and left the town in Confederate possession; NPS says the gunboat withdrew in the afternoon of July 1.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The frozen text's own qualifier (inconclusive) is preserved.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL002"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory (Inconclusive, but Union gunboat withdrew.)"
+        },
+        {
+          "source_id": "nps-fl002-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "Both parties then kept up a regular fire until 7 p. m., about one hour,"
+        },
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "kept it up until 12 o’clock — two hours."
+        },
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "then weighed anchor, and in a few minutes showed us her stern, and left us in peaceful possession of the town"
+        },
+        {
+          "source_id": "nps-fl002-v1",
+          "locator": "Description",
+          "quote": "Firing continued sporadically into the afternoon of July 1, when the Federal gunboat withdrew."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads None (0); the live field reads zero. Pearson reports nobody hurt on his side and cannot say what damage was done to the vessel.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. No Union report was inspected.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL002"
+          },
+          "column": "casualties_text",
+          "quote": "None"
+        },
+        {
+          "source_id": "nps-fl002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or14-pearson-tampa-selections-v1",
+          "section": "pearson-1862-07-02",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "Nobody hurt on our side;"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "No Union account was found: the targeted follow-up searched Official Records of the Navies I, 17 (East Gulf Blockading Squadron) and found no report of the June 30-July 1, 1862 bombardment. Drake's report, if any, and the vessel's log remain unlocated.",
+    "Chambers's company and the Tampa garrison return remain uninspected.",
+    "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. J. W. Pearson's July 2, 1862 report and Joseph Finegan's July 8 report (Official Records I, XIV) are interested Confederate accounts; Finegan wrote from Tallahassee on advices. No history covering this action was found; two report families plus NPS are recorded as the effort ceiling. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "battle_id": "SC009",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Charleston Harbor II record (September 7-8, 1863) in Operations Against the Defenses of Charleston [April-September 1863]. The evacuation of Wagner and Gregg on the night of September 6-7 closes SC007; the Moultrie engagement of September 7-8 and the boat attack on Sumter of the night of September 8-9 are both reported in the inspected passages. Campaign-wide marches, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads Regiments: total unknown (US 413; CS unknown), with a frozen US bound of 413; the live page gives 413 (US 413; CS 0) and describes a storming party of about 400 marines and sailors. Jones says the naval storming party was 450 picked sailors and marines, of whom eleven officers and 116 men landed, that Gillmore's own party was six or seven hundred infantry, and that the Sumter garrison was the First South Carolina Battalion, 205 men, one third kept under arms. For the Moultrie action he names the New Ironsides and five monitors.",
+      "rationale": "Party and garrison figures from a history; the basis of the frozen 413 is not stated in any inspected passage. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC009"
+          },
+          "column": "forces_text",
+          "quote": "Regiments: total unknown (US 413; CS unknown)"
+        },
+        {
+          "source_id": "nps-sc009-v1",
+          "locator": "Forces Engaged",
+          "quote": "413 total (US 413; CS 0;)"
+        },
+        {
+          "source_id": "nps-sc009-v1",
+          "locator": "Description",
+          "quote": "a storming party of about 400 marines and sailors attempted to surprise Fort Sumter."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.281 (OCR page markers; not checked against print)",
+          "quote": "The naval storming party consisted of 450 picked men, sailors and marines."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "Only eleven officers and ii6 men had landed,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "General Gillmore's storming party consisted of six or seven hundred infantry."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "which was garrisoned by the First South Carolina Battalion of Infantry, 205 men, under Major Julius A. Blake."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "the New Ironsides and five monitors steamed up,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "wall-without-ladders",
+      "dimension": "terrain",
+      "value": "Jones says the landed sailors found a ramp of debris topped by a wall fifteen to twenty feet high and had no scaling ladders, and that the gorge front, where a practicable breach existed, was not the one attacked; the Weehawken grounded on the Morris Island beach within range of Moultrie.",
+      "rationale": "Ground described by a history; no map verification.",
+      "citations": [
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.283 (OCR page markers; not checked against print)",
+          "quote": "They found indeed a ramp, but at the top of it a wall from fifteen to twenty feet high, and the storming party was not provided with scaling ladders."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "whereas on the gorge front which troops would have assaulted there was and had been for some weeks a practicable breach."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "ran aground on Morris Island beach within range of Fort Moultrie."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "boats-and-ammunition",
+      "dimension": "logistics",
+      "value": "Jones says the admiral had to seek additional boats from Gillmore, who refused them because he meant to storm Sumter himself; the army party was held by low tide at its rendezvous, as Gillmore also reports; a scant supply of ammunition slowed the Sullivan's Island batteries.",
+      "rationale": "Statements from a history and an interested report; no returns inspected.",
+      "citations": [
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.281 (OCR page markers; not checked against print)",
+          "quote": "The latter replied that he could not spare them because he proposed to storm Sumter himself that night."
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-capture-of-wagner-and-sumter-assault",
+          "locator": "p.28 (OCR page markers; not checked against print)",
+          "quote": "but the force assembled for that purpose was detained by low tide at its rendezvous in the creek west of Morris Island,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "a scant supply of ammunition in the land batteries made their fire slower than that of the ironclads."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "expected-assault",
+      "dimension": "information",
+      "value": "Jones says the demand for surrender had warned the garrison, that a boat attack had been expected for several nights and a third of the garrison kept under arms; Gillmore says he learned of the admiral's plan only after arranging his own.",
+      "rationale": "Attributed knowledge from a history and an interested report. No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "The demand for the surrender of Sumter had given significant warning that an assault was im- pending."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "A boat attack had been expected for sev- eral nights past, and one-third of the garrison was kept constantly under arms on the parapet,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-capture-of-wagner-and-sumter-assault",
+          "locator": "p.28 (OCR page markers; not checked against print)",
+          "quote": "Before I was informed by the admiral of his intentions to storm the work, I had made arrangements to do the same thing,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "take-sumter",
+      "dimension": "objectives",
+      "value": "Gillmore says Dahlgren demanded Sumter's surrender on September 7 and warned he would move up with the ironclads if refused; Jones says the admiral wanted the Union flag over Sumter before entering the harbor and that each commander meant to seize the fort.",
+      "rationale": "Stated aims from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-capture-of-wagner-and-sumter-assault",
+          "locator": "p.28 (OCR page markers; not checked against print)",
+          "quote": "Rear-Admiral Dahlgren sent a flag of truce to Fort Sumter, demanding its surrender,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "pp.278–279 (OCR page markers; not checked against print)",
+          "quote": "The Union flag THE SIEGE OF CHARLESTON 279 should float over Sumter before, in his opinion, he could, with due consideration for the safety of his monitors, venture to carry them into the inner har- bor."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "Each was con- fident of his ability to seize the work without the aid of the other,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Jones says the admiral and the general prepared separate assaults without concert, agreeing only on a signal to avoid collision; Captain Stephens commanded the naval party and Major Elliott the fort; Dahlgren wrote that it did not look like a vigorous assault. Gillmore says the only arrangements made were meant to prevent accident between the parties. The frozen commanders are Major General 'Quincy Gilmore' (US) and General P. G. T. Beauregard (CS); the live page lists Rear Admiral S. Du Pont, whereas the inspected passages name Dahlgren.",
+      "rationale": "Command roles from a history and an interested report; no listed commander receives automatic sole credit. The live commander is not adopted.",
+      "citations": [
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "both commanders were without concert pre- paring to assault the same work on the same night."
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-capture-of-wagner-and-sumter-assault",
+          "locator": "p.28 (OCR page markers; not checked against print)",
+          "quote": "The only arrangements for concert of action between the two par- ties that were finally made, were intended simply to prevent accident or collision between them."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.281 (OCR page markers; not checked against print)",
+          "quote": "Captain Thomas H. Stephens was selected to command it."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "Major Stephen Elliott, Jr., commanded the fort,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "It did not look like a vigorous assault."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC009",
+            "belligerent": "US",
+            "fullname": "Quincy Gilmore"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC009",
+            "belligerent": "Confederate",
+            "fullname": "P.G.T. Beauregard"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-sc009-v1",
+          "locator": "Principal Commanders",
+          "quote": "Rear Admiral S. Du Pont [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Gillmore says the naval assault was repulsed with considerable loss and his own was abandoned; Jones says the attack failed completely in about twenty minutes. Gillmore also records the Union occupation of the north end of Morris Island on the 7th.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC009"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-sc009-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-capture-of-wagner-and-sumter-assault",
+          "locator": "p.28 (OCR page markers; not checked against print)",
+          "quote": "a naval force at- tempted to carry Sumter by assault, and was repulsed with consid- erable loss."
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-capture-of-wagner-and-sumter-assault",
+          "locator": "p.28 (OCR page markers; not checked against print)",
+          "quote": "The project was then abandoned."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "The affair ended in complete failure in about twenty minutes."
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-capture-of-wagner-and-sumter-assault",
+          "locator": "p.27 (OCR page markers; not checked against print)",
+          "quote": "Our forces at once occupied the north end of the island."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads (US 117; CS unknown); the live field reads 217 (US 117; CS 100). Jones says of the landed party 6 were killed, 15 wounded and 106 captured, with five barges and five colors; at Moultrie on the 8th an explosion killed sixteen and wounded twelve, and three more were killed and two officers and fourteen men wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Jones's landed-party figures (6 killed, 15 wounded and 106 captured) and the frozen 117 differ; the Moultrie losses belong to the ironclad engagement, not the boat attack.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC009"
+          },
+          "column": "casualties_text",
+          "quote": "(US 117; CS unknown)"
+        },
+        {
+          "source_id": "nps-sc009-v1",
+          "locator": "Estimated Casualties",
+          "quote": "217 total (US 117; CS 100;)"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "of whom 6 were killed, 15 wounded, and 106 made prisoners."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "Five barges and as many colors were also captured."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "which instantly killed sixteen and wounded twelve men"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-assault-and-second-bombardment",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "three men were killed and two officers"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Dahlgren's and Stephens's naval reports (Official Records of the Navies I, 14), Elliott's report, the Moultrie reports and the Union boat-party casualty returns remain deferred.",
+    "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. Quincy A. Gillmore's report dated February 28, 1864 (Official Records I, XXVIII part 1, No. 2) is one family of interested Union accounts. Samuel Jones's The Siege of Charleston (1911) is a posthumous Confederate general's history that quotes Gillmore's, Seymour's, Strong's, Ripley's, Taliaferro's and Beauregard's reports and is not independent of them. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

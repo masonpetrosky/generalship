@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "battle_id": "FL003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen St. John's Bluff record (October 1-3, 1862) in Expedition to St. John's Bluff [September-October 1862]. The expedition's later occupation of Jacksonville and the capture of the Governor Milton (October 5-9) are context. Campaign-wide marches, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen US bound is 1,573 (two infantry regiments, a light battery section and a cavalry detachment); the CS force is described only as small. Brannan's October 13 report gives effective strengths of 825 (47th Pennsylvania), 647 (7th Connecticut), 41 (1st Connecticut Battery section) and 60 (1st Massachusetts Cavalry), total printed '1 573'; NPS describes 'about 1,500 infantry'. Brannan says local statements put the Confederates at 1,200 cavalry and infantry with the batteries, and that 300 men from Fernandina joined him on the 4th. Hopkins says his force in rear of the batteries did not exceed 500 including a detachment of 45 from the batteries, that about 110 dismounted cavalry reached him, and that the enemy landed 3,000 by one report, 2,500 in the main column by Chambers's estimate, and at least 1,000 more after Chambers fell back by his own reckoning.",
+      "rationale": "The frozen 1,573 matches Brannan's printed effective total at embarkation; the other figures are mutual estimates made during the action. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL003"
+          },
+          "column": "forces_text",
+          "quote": "Expeditionary Force: 2 infantry regiments, a light artillery battery and detachment of the 1st Massachusetts Cavalry (total force 1,573) [US]; a small artillery and cavalry force [CS]"
+        },
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-13",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "The Forty-seventh Regiment Pennsylvania Volunteers, Col. T. H. Good, effective strength 825;"
+        },
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-13",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "Total 1 573."
+        },
+        {
+          "source_id": "nps-fl003-v1",
+          "locator": "Description",
+          "quote": "embarked with about 1,500 infantry"
+        },
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-13",
+          "locator": "p.130 (OCR page markers; not checked against print)",
+          "quote": "appeared to agree in placing the strength of the rebels at 1,200 cavalry and infantry, in addition to the heavy batteries,"
+        },
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-04",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "by sending 300 men, who arrived early this morning."
+        },
+        {
+          "source_id": "or14-hopkins-st-johns-bluff-selections-v1",
+          "section": "hopkins-1862-10-08",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "Our forces in rear did not number more than 500 men, including the detachment sent from the batteries."
+        },
+        {
+          "source_id": "or14-hopkins-st-johns-bluff-selections-v1",
+          "section": "hopkins-1862-10-08",
+          "locator": "p.139 (OCR page markers; not checked against print)",
+          "quote": "The cavalry companies dismounted, numbering about 110 men,"
+        },
+        {
+          "source_id": "or14-hopkins-st-johns-bluff-selections-v1",
+          "section": "hopkins-1862-10-08",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "The enemy had, by report of Mr. Haynes (in every respect a reliable man), 3,000 men;"
+        },
+        {
+          "source_id": "or14-hopkins-st-johns-bluff-selections-v1",
+          "section": "hopkins-1862-10-08",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "not less than 1,000 men were landed after Captain Cham- bers had left the ground."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "swamps-and-bluff",
+      "dimension": "terrain",
+      "value": "Brannan says the country between Mayport Mills and the bluff was cut by impassable swamps and unfordable creeks, and that the bluff position was of great strength, approachable by land by one route through a winding ravine under its guns, with a narrow channel below. Hopkins says the batteries' guns gave no protection to the rear.",
+      "rationale": "Ground described by the opposing commanders; no map verification. The works predate the action.",
+      "citations": [
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-13",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "being intersected with impassable swamps and unford able creeks,"
+        },
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-13",
+          "locator": "p.130 (OCR page markers; not checked against print)",
+          "quote": "it being approachable from the land by but one route, which would lead the attacking party through a winding ravine immediately under the guns of the position,"
+        },
+        {
+          "source_id": "or14-hopkins-st-johns-bluff-selections-v1",
+          "section": "hopkins-1862-12-24",
+          "locator": "pp.141–142 (OCR page markers; not checked against print)",
+          "quote": "as the guns from the bat- 142 COASTS OF S. C., GA., AND MID. AND EAST FLA. [Chap. XXVI. teries afforded no protection to tlie rear."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-transport",
+      "dimension": "logistics",
+      "value": "Hopkins says he had warned that small-arms ammunition would last no more than an hour's close fight, that Chambers's ammunition was damaged by rain, and that Dunham's artillery could not come because its horses were at a distance and caissons not with the pieces. Brannan says the alternative to landing up the creeks was a march of nearly 40 miles without land transportation, and that the batteries were found loaded and well supplied with ammunition.",
+      "rationale": "Statements in the two commanders' reports; no ordnance or supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or14-hopkins-st-johns-bluff-selections-v1",
+          "section": "hopkins-1862-10-08",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "we have not ammunition sufficient for small-arms for more than one hour’s tight closely contested."
+        },
+        {
+          "source_id": "or14-hopkins-st-johns-bluff-selections-v1",
+          "section": "hopkins-1862-10-08",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "Captain Chambers reported the am- munition of his squadron damaged by the rain,"
+        },
+        {
+          "source_id": "or14-hopkins-st-johns-bluff-selections-v1",
+          "section": "hopkins-1862-10-08",
+          "locator": "p.139 (OCR page markers; not checked against print)",
+          "quote": "his horses were at a distance and his caissons not with his pieces,"
+        },
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-13",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "a march, without land trans- portation, of nearly 40 miles,"
+        },
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-04",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "the guns be- ing all mounted, loaded, and in good condition,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "landing-estimates",
+      "dimension": "information",
+      "value": "Hopkins watched the landing from the batteries with a glass and relied on Chambers's and a civilian's estimates; Brannan calls local statements of Confederate strength conflicting and unreliable, and says he learned at Jacksonville that the evacuation began right after his men surprised the pickets near Mount Pleasant Creek.",
+      "rationale": "Contemporary estimates by both commanders, neither verified. No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [
+        {
+          "source_id": "or14-hopkins-st-johns-bluff-selections-v1",
+          "section": "hopkins-1862-12-24",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "I did make a personal recon- naissance of the enemy with a glass from the batteries,"
+        },
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-13",
+          "locator": "p.130 (OCR page markers; not checked against print)",
+          "quote": "though conflicting and unreliable in the extreme,"
+        },
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-13",
+          "locator": "p.131 (OCR page markers; not checked against print)",
+          "quote": "the enemy commenced evacuating the Bluff immediately after the surprise of their pickets near Mount Pleasant Creek,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "turn-the-batteries",
+      "dimension": "objectives",
+      "value": "Brannan's force was to operate against the batteries at St. John's Bluff; he landed infantry at Buckhorn Creek to establish a position at the head of Mount Pleasant Creek, in rear of the bluff. Hopkins decided, after a conference of officers, that the batteries could not be held against the force in his rear.",
+      "rationale": "Stated aims and decisions from the two reports.",
+      "citations": [
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-13",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "tended to operate against the rebel batteries at Saint John’s Bluff"
+        },
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-13",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "was ordered to proceed immediately to the head of Mount Pleasant Creek,"
+        },
+        {
+          "source_id": "or14-hopkins-st-johns-bluff-selections-v1",
+          "section": "hopkins-1862-10-08",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "The opinion was unanimous that our forces were not sufficient to resist those against us in our rear."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Brannan commanded the expedition and ordered Colonel Good forward with the infantry; he credits Captain Steedman's gunboats. Hopkins, commanding the post, ordered the evacuation after conferences at the batteries and among Brevard's captains; in December he answered Finegan's charge that he had failed to reconnoitre and to spike the guns. The frozen commanders are Brigadier General John M. Brannan (US) and Lieutenant Colonel Charles F. Hopkins (CS).",
+      "rationale": "Command roles from the two reports. Finegan's indorsement blaming Hopkins was read but not selected; the dispute is visible through Hopkins's reply. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-13",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "I assumed command of the following forces"
+        },
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-13",
+          "locator": "p.129 (OCR page markers; not checked against print)",
+          "quote": "Col. T. H. Good, with the entire infantry and the marine howit- zers, was ordered to proceed immediately"
+        },
+        {
+          "source_id": "or14-hopkins-st-johns-bluff-selections-v1",
+          "section": "hopkins-1862-10-08",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "I therefore called a conference of the officers at the batteries."
+        },
+        {
+          "source_id": "or14-hopkins-st-johns-bluff-selections-v1",
+          "section": "hopkins-1862-12-24",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General Fin- egan says in his report to you that I mistook my “duty as an officer in not making a personal reconnaissance of the enemy, their strength, position,” &c."
+        },
+        {
+          "source_id": "or14-hopkins-st-johns-bluff-selections-v1",
+          "section": "hopkins-1862-12-24",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "I did not spike them because I had nothing to do it with"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "FL003",
+            "belligerent": "US",
+            "fullname": "John M. Brannan"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "FL003",
+            "belligerent": "Confederate",
+            "fullname": "Charles F. Hopkins"
+          },
+          "column": "rank",
+          "quote": "Lieutenant Colonel"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Hopkins says the post was abandoned at 9 p.m.; Brannan says the batteries were found evacuated by the gunboats on the 3d and occupied, and that the guns were removed and the works destroyed; NPS says Hopkins abandoned the position after dark.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL003"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-fl003-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or14-hopkins-st-johns-bluff-selections-v1",
+          "section": "hopkins-1862-10-08",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "At 9 p. m. the post was reluctantly abandoned."
+        },
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-04",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "the batteries were found to have been evacuated by the rebels."
+        },
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-13",
+          "locator": "p.130 (OCR page markers; not checked against print)",
+          "quote": "caused the magazines to be blown up, and otherwise destroyed the entire works on the bluff."
+        },
+        {
+          "source_id": "nps-fl003-v1",
+          "locator": "Description",
+          "quote": "Outmaneuvered, Lt. Col. Charles F. Hopkins abandoned the position after dark."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads zero. Brannan says the skirmishing guerrillas did his force no injury; neither inspected report gives a casualty figure.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Frozen 'Unknown' and a live zero are not the same statement.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "FL003"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-fl003-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or14-brannan-st-johns-bluff-selections-v1",
+          "section": "brannan-1862-10-04",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "They, however, did us no injury."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Finegan's October 2-3 dispatches and indorsement (read, not selected), the court-of-inquiry papers, Good's and the signal officers' reports, Steedman's naval reports and Samuel Jones's chapter VII remain deferred.",
+    "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. John M. Brannan's October 4 and 13, 1862 reports and Charles F. Hopkins's October 8 report and December 24 letter (Official Records I, XIV) are interested accounts by the opposing commanders. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

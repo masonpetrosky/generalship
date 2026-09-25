@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "battle_id": "SC007",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort Wagner II record (July 18-September 7, 1863) in Operations Against the Defenses of Charleston [April-September 1863]. The frozen interval runs from the second assault through the siege to the evacuation of Wagner. The bombardments of Fort Sumter (SC008) and the September 8 boat attack (SC009) are separate records; their losses are not added here. Campaign-wide marches, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text and the live page read 6,800 total (US 5,000; CS 1,800). Jones gives Wagner's garrison on July 18 as an aggregate of about seventeen hundred, the Union force about seven thousand when Beauregard weighed a counterattack, and the Fifty-fourth Massachusetts as nearly a thousand; Gillmore calls the assaulting regiments all small. For the siege Jones gives Union returns of 29,405 present (4661 sick) in August and 28,981 (5269 sick) in September, and about 900 Confederates and 9,000 Union soldiers on the island on September 6; Keitt wrote that he had fewer than four hundred effective infantry. In August Gillmore wrote that Beauregard had twice as many men and five times the artillery.",
+      "rationale": "Figures for different dates and scopes in a record spanning fifty-two days; the frozen figures' basis is not stated in any inspected passage. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC007"
+          },
+          "column": "forces_text",
+          "quote": "6,800 total (US 5,000; CS 1,800)"
+        },
+        {
+          "source_id": "nps-sc007-v1",
+          "locator": "Forces Engaged",
+          "quote": "6800 total (US 5000; CS 1800;)"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.230 (OCR page markers; not checked against print)",
+          "quote": "in all an aggregate of about seventeen hundred men."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "grimballs-landing-july-16",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "Seeing that the Federal force was about seven thou- sand,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "number- ing nearly a thousand men,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-assault-july-18",
+          "locator": "p.15 (OCR page markers; not checked against print)",
+          "quote": "The regiments were all small."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-siege-and-evacuation",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "The re- turns of the Union forces for August show a sick list of 4661 in an aggregate force present of 29,405, and for September of 5269 in an aggregate of 28,981."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-siege-and-evacuation",
+          "locator": "p.273 (OCR page markers; not checked against print)",
+          "quote": "there were about nine hundred Confederates on the island, only about two- thirds of them effective,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-siege-and-evacuation",
+          "locator": "p.273 (OCR page markers; not checked against print)",
+          "quote": "There were about nine thousand Union soldiers on the island exclusive of the sick,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-siege-and-evacuation",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "I have not in the garrison four hundred effective men, excluding artillery."
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-first-bombardment",
+          "locator": "p.21 (OCR page markers; not checked against print)",
+          "quote": "General Beauregard has, for the defense of Charleston, twice as many men and more than five times as much artillery as I have."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "narrow-sand-front",
+      "dimension": "terrain",
+      "value": "Gillmore says the island narrowed just south of Wagner to 25 yards, that the fort spanned the island from high water to Vincent's Creek so the besiegers faced a front three to ten times their own width, and that its bomb-proof could hold 1,500 to 1,600 men; Jones puts the bomb-proof at eight hundred to a thousand and describes a narrow way between marsh and water close to the fort.",
+      "rationale": "Ground and works described by both sides' narrators; the bomb-proof capacities differ. No map verification.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-assault-july-18",
+          "locator": "p.14 (OCR page markers; not checked against print)",
+          "quote": "just south of Wagner the width is reduced to 25 yards and the depth to 2 feet."
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-siege-plan",
+          "locator": "p.16 (OCR page markers; not checked against print)",
+          "quote": "presenting to us a front of over three times the average development that could, by taking advantage of all the firm ground, be given to the head of our approaches,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-siege-plan",
+          "locator": "p.16 (OCR page markers; not checked against print)",
+          "quote": "this ratio reached as high as ten to one."
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-capture-of-wagner-and-sumter-assault",
+          "locator": "p.27 (OCR page markers; not checked against print)",
+          "quote": "capable of containing from 1,500 to 1,600 men,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "a bomb-proof (capable of sheltering from eight hundred to a thousand men),"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "Within easy range of Wagner the marsh encroached so much on the firm sand of the island as to leave but a narrow way between it and the water."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "rain-sickness-and-water",
+      "dimension": "logistics",
+      "value": "Gillmore says rain storms submerged his batteries and spoiled powder, delaying the attack to the afternoon of July 18. Jones says Wagner's garrison was relieved by boat at night, that water was scarce and later tainted, and gives Union sick lists near a quarter of the force in mid-August.",
+      "rationale": "Condition statements from an interested report and a history; not supply returns.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-assault-july-18",
+          "locator": "p.15 (OCR page markers; not checked against print)",
+          "quote": "Nearly all the batteries were submerged and much of the powder spoiled,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-assault-july-18",
+          "locator": "p.15 (OCR page markers; not checked against print)",
+          "quote": "was delayed until the 18th,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "the change had to be made in boats during the night"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.236 (OCR page markers; not checked against print)",
+          "quote": "Water was scarce"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-siege-and-evacuation",
+          "locator": "p.269 (OCR page markers; not checked against print)",
+          "quote": "Even the water in the shallow wells within the fort was so tainted as to be unfit for use,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-siege-and-evacuation",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "About the middle of August the sick list was nearly one-fourth of the aggregate force present."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "underestimated-work",
+      "dimension": "information",
+      "value": "Gillmore says his knowledge of the north-end defences was meagre and Wagner's strength much underestimated before July 18. Jones reports Olmstead's statement that Gillmore's signal to Dahlgren on the 18th was intercepted, which Taliaferro did not recall receiving, and that a September 5 signal was intercepted and passed to Ripley and Keitt.",
+      "rationale": "Contemporary knowledge attributed afterward; the interception on the 18th is disputed within Jones's sources. No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-assault-july-18",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "our actual knowledge of the strength of the enemy’s defenses on the north end of Morris Island was quite meager."
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-assault-july-18",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "The truly formidable character of Fort Wagner and the great strength and capacity of its bomb-proof shelter were very much under- estimated."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.236 (OCR page markers; not checked against print)",
+          "quote": "says the General's signal to the Admiral was intercepted by a Confederate signal officer,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.236 (OCR page markers; not checked against print)",
+          "quote": "but General Taliaferro has no recollec-"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-siege-and-evacuation",
+          "locator": "p.266 (OCR page markers; not checked against print)",
+          "quote": "This dispatch was intercepted by a Confederate signal officer and forwarded to General Ripley,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "assault-then-siege",
+      "dimension": "objectives",
+      "value": "Gillmore established counter-batteries to dismount Wagner's guns and open the way to an assault; after July 18 he gave priority to demolishing Sumter from ground already held and pressed Wagner by regular approaches. Jones says Gillmore declined another assault unless the navy furnished a column, and that Wagner was finally to be taken by sap and storm.",
+      "rationale": "Stated plans from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-assault-july-18",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "to dismount the principal guns of the work, and either drive the enemy from it or open the way to a suc- cessful assault."
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-siege-plan",
+          "locator": "p.16 (OCR page markers; not checked against print)",
+          "quote": "it was determined to attempt the demolition of Sumter from ground already in our possession,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "He agreed, however, to make another assault, provided the Admiral would furnish from his fleet the column to assail the work from the north,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.246 (OCR page markers; not checked against print)",
+          "quote": "The policy of carrying Wagner by assault was therefore abandoned and the science of engineering resorted to."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Gillmore chose twilight for the assault and says Seymour commanded the column. Jones reports Seymour's charge that Putnam refused to advance, citing Gillmore's orders, and that Stevenson did not obey an order to support; Seymour blamed the delay. Jones names Taliaferro, then Hagood and Keitt, as Confederate commanders in Wagner, and Beauregard as deciding the evacuation after a council. The frozen commanders are Major General Quincy Gillmore (US) and General P. G. T. Beauregard (CS).",
+      "rationale": "Command roles from an interested report and a history; the Seymour-Putnam dispute is preserved, and no listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-assault-july-18",
+          "locator": "p.15 (OCR page markers; not checked against print)",
+          "quote": "The time of twi- light was selected for the storming party to move to the attack,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-assault-july-18",
+          "locator": "p.15 (OCR page markers; not checked against print)",
+          "quote": "Brig. Gen. T. Seymour commanded the attacking column."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "Colonel Putnam positively refused to advance, because, as he explained, he had been ordered by General Gillmore to remain where he was."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.241 (OCR page markers; not checked against print)",
+          "quote": "but the order was not obeyed."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "\"solely to the unfortunate delay that hindered Colonel Putnam from moving promptly in obedience to my orders,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "General Hagood relieved General Taliaferro in command of Wagner on the morring of the 19th."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-siege-and-evacuation",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "Colonel Keitt kept the general commanding fully informed"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-siege-and-evacuation",
+          "locator": "pp.272–273 (OCR page markers; not checked against print)",
+          "quote": "General Beauregard, accepting the situation, gave THE SIEGE OF CHARLESTON 273 minute instructions for the evacuation of Morris Island."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC007",
+            "belligerent": "US",
+            "fullname": "Quincy Gillmore"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC007",
+            "belligerent": "Confederate",
+            "fullname": "P.G.T. Beauregard"
+          },
+          "column": "rank",
+          "quote": "General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Gillmore says the southeast bastion was held nearly three hours on July 18 and then given up, and that when the Confederates evacuated on the night of September 6-7 nearly all escaped. Jones calls the July 18 repulse complete and disastrous and the September occupation a barren victory.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The frozen interval ends with the Union occupation of Wagner; the result is preserved as frozen.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC007"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-sc007-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-assault-july-18",
+          "locator": "p.16 (OCR page markers; not checked against print)",
+          "quote": "the southeast bastion was gained, and held by us for nearly three hours."
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-capture-of-wagner-and-sumter-assault",
+          "locator": "p.27 (OCR page markers; not checked against print)",
+          "quote": "such was the celerity of his flight, that nearly the whole of his force made its escape."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "The repulse was complete and disastrous."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-siege-and-evacuation",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "they had at best achieved but a barren victory."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,689 total (US 1,515; CS 174); the live field reads 1737 (US 1515; CS 222). Jones gives the Confederate loss on July 18 as 174 and says the Federal loss was never officially ascertained, citing Taliaferro's estimate of not less than 2000 and Beauregard's 3000; elsewhere he gives 1600 to 3000. For the whole fifty-eight days on the island he gives 641 Confederate killed and wounded. At the evacuation Gillmore says seventy men were intercepted; Jones says two boats' crews and twenty-seven soldiers.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. July 18, siege-wide and evacuation figures are different populations and must not be added to one another or to SC005.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC007"
+          },
+          "column": "casualties_text",
+          "quote": "1,689 total (US 1,515; CS 174)"
+        },
+        {
+          "source_id": "nps-sc007-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1737 total (US 1515; CS 222;)"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "The Confederate loss was only 174;"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.244 (OCR page markers; not checked against print)",
+          "quote": "The Federal loss has never been officially ascer- tained. General Taliaferro estimated it at not less than 2000,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-july-18",
+          "locator": "p.244 (OCR page markers; not checked against print)",
+          "quote": "General Beaure- gard in his official report says their loss must have been 3000,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "sumter-first-bombardment",
+          "locator": "p.247 (OCR page markers; not checked against print)",
+          "quote": "variously estimated at from 1600 to 3000 men,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-siege-and-evacuation",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "The Confederate loss on the island during the whole fifty-eight days' operations was but 641 killed and wounded,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-capture-of-wagner-and-sumter-assault",
+          "locator": "p.27 (OCR page markers; not checked against print)",
+          "quote": "Seventy men were intercepted on the water and taken."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "wagner-siege-and-evacuation",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "only two boats' crews of nineteen men and twenty-seven soldiers falling into the hands of the enemy."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Seymour's, Putnam's, Stevenson's, Terry's and the engineers' reports, Beauregard's general report, Taliaferro's, Hagood's and Keitt's reports, and the Union and Confederate casualty returns for July 18 and the siege remain deferred.",
+    "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. Quincy A. Gillmore's report dated February 28, 1864 (Official Records I, XXVIII part 1, No. 2) is one family of interested Union accounts. Samuel Jones's The Siege of Charleston (1911) is a posthumous Confederate general's history that quotes Gillmore's, Seymour's, Strong's, Ripley's, Taliaferro's and Beauregard's reports and is not independent of them. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

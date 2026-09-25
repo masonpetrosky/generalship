@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort McAllister I record (March 3, 1863) in Naval Attacks on Fort McAllister [March 1863]. The January 27, February 1 and February 28 attacks on the fort, and the mortar fire of the night of March 3-4, are context. Campaign-wide marches, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text names the Union navy flotilla and the fort garrison; the live field reads zero. Drayton says his vessel lay under fire with Ammen and Downes in support, three mortar schooners firing from about 4,000 yards and three gunboats anchored near them; he judged the fort to contain seven guns and a mortar. McCrady describes three monitors in action, a fourth that took no part, one river and one ocean steamer and three mortar vessels, and names the fort's VIII-inch, X-inch and 42-pounder guns, a rifled 32-pounder, 32-pounders and a X-inch mortar; neither gives a garrison or crew strength.",
+      "rationale": "Vessel and gun counts only; no personnel figure. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA002"
+          },
+          "column": "forces_text",
+          "quote": "Union Navy Flotilla [US]; Fort McAllister Garrison [CS]"
+        },
+        {
+          "source_id": "nps-ga002-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-detailed",
+          "locator": "p.718 (OCR page markers; not checked against print)",
+          "quote": "Our three mortar schooners kept up a tire during the day from about 4,000 yards dis¬ tance,"
+        },
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-detailed",
+          "locator": "p.718 (OCR page markers; not checked against print)",
+          "quote": "were anchored near the mortar schooners in signal distance of us,"
+        },
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-detailed",
+          "locator": "p.717 (OCR page markers; not checked against print)",
+          "quote": "contained seven guns and a Xl-inch mortar."
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "p.730 (OCR page markers; not checked against print)",
+          "quote": "Three of the monitor fleet took position off the battery at 8:45 a. m. ;"
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "p.730 (OCR page markers; not checked against print)",
+          "quote": "Another monitor lay near the bend of the river below Har¬ vey’s Cut, but took no part in the action."
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "p.731 (OCR page markers; not checked against print)",
+          "quote": "The firing of the X-inch mortar, Captain Martin, was very accurate,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "shoal-channel-and-earthwork",
+      "dimension": "terrain",
+      "value": "Drayton says the fort stood at least 20 feet above the river with high traverses between the guns, that shallow water, a narrow channel and piles kept him about 1,200 yards off (the pilot called it a thousand), and that the natural obstacles made another attack as unlikely to succeed. McCrady puts the three ironclads at 1,400 to 1,900 yards, in the channel about 200 yards from the marsh opposite.",
+      "rationale": "Distances are the two sides' estimates and differ; no map verification. The earthwork predates the attack.",
+      "citations": [
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-detailed",
+          "locator": "p.717 (OCR page markers; not checked against print)",
+          "quote": "The fort is very solidly built, with high traverses between the guns, and raised at least 20 feet above the river,"
+        },
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-detailed",
+          "locator": "p.717 (OCR page markers; not checked against print)",
+          "quote": "My distance I judged to be 1,200 yards from the following data:"
+        },
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-detailed",
+          "locator": "p.717 (OCR page markers; not checked against print)",
+          "quote": "The pilot called the distance a thousand yards."
+        },
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-detailed",
+          "locator": "p.718 (OCR page markers; not checked against print)",
+          "quote": "satisfied that the natural obstacles are such as to render another just as little likely to succeed."
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "p.730 (OCR page markers; not checked against print)",
+          "quote": "I he three ironclads were drawn up in line of battle at distances varying from 1,400 to 1,900 yards from the battery."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fuzes-and-repairs",
+      "dimension": "logistics",
+      "value": "Drayton withdrew when his shell with fuzes long enough to reach were expended and his crew had worked eight hours without a break to eat; he ran out of 7- and 10-second fuzes. McCrady says the damage was repaired and the VIII-inch columbiad remounted by morning, and a fresh supply of ammunition arrived from Savannah in the night.",
+      "rationale": "Statements in the two reports; no ordnance returns inspected.",
+      "citations": [
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-detailed",
+          "locator": "p.718 (OCR page markers; not checked against print)",
+          "quote": "I only withdrew when all my shell with fuzes long enough to reach (or over five seconds) had been expended,"
+        },
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-detailed",
+          "locator": "p.718 (OCR page markers; not checked against print)",
+          "quote": "having been occupied for eight hours at the guns without even an intermission to eat,"
+        },
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-08-ordnance",
+          "locator": "p.726 (OCR page markers; not checked against print)",
+          "quote": "I also ran out of 7-second and 10-second fuzes."
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "p.733 (OCR page markers; not checked against print)",
+          "quote": "Assistant Engineer McAlpin had all the damage repaired by morning,"
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "p.733 (OCR page markers; not checked against print)",
+          "quote": "A fresh supply of ammunition was received from Savannah during the night,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "observation-and-identification",
+      "dimension": "information",
+      "value": "Drayton learned the fort's earlier armament from a pilot who had deserted from it two months before. McCrady's report rests on McAlpin's notes and the officers' statements, and identifies the vessel under fire as the Montauk; a compiler's footnote in the printed report says the Montauk was not in action.",
+      "rationale": "Attributed knowledge on both sides; the misidentification is preserved as printed. No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-08-ordnance",
+          "locator": "p.727 (OCR page markers; not checked against print)",
+          "quote": "One of our pilots, an Englishman, deserted from Fort McAllister two months ago."
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "p.730 (OCR page markers; not checked against print)",
+          "quote": "is founded upon the notes and observations of Assistant Engineer McAlpin"
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "p.731 (OCR page markers; not checked against print)",
+          "quote": "This was prob¬ ably the Montauk* which in previous engagements carried such a flag."
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "pp.731–732 (OCR page markers; not checked against print)",
+          "quote": "*The U. S. S. Montauk was not in action. 732"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "test-of-ironclads",
+      "dimension": "objectives",
+      "value": "NPS says Du Pont ordered the attack to test the ironclads' guns and appliances and give gunnery practice. Drayton calls the attack, entrusted to his direction, unsuccessful, and concludes that heavy earthworks must be reduced by continuous fire by day and night, as on shore.",
+      "rationale": "Du Pont's own transmittal was read but not selected; the aim is cited from NPS and Drayton.",
+      "citations": [
+        {
+          "source_id": "nps-ga002-v1",
+          "locator": "Description",
+          "quote": "to test their guns and mechanical appliances and practice artillery firing by attacking Fort McAllister,"
+        },
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-detailed",
+          "locator": "p.718 (OCR page markers; not checked against print)",
+          "quote": "Although the attack was an unsuccessful one,"
+        },
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-detailed",
+          "locator": "p.718 (OCR page markers; not checked against print)",
+          "quote": "the attack, which you had entrusted to my direction,"
+        },
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-08-ordnance",
+          "locator": "p.727 (OCR page markers; not checked against print)",
+          "quote": "if we expect to reduce heavy earthworks, it must be done as in the attack of fortified places on shore,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Drayton signed as senior officer present and directed the attack. McCrady names Captain [G. W.] Anderson as reporting on the battery's fire and Captain Martin on the mortar; McAlpin directed repairs. The frozen commanders are Captain P. Drayton (US navy) and Captain George A. Anderson (CS); the live page gives Major George Anderson.",
+      "rationale": "Command roles from the two reports; no listed commander receives automatic sole credit. The frozen middle initial (A.) and the compiler's bracketed initials (G. W.) differ; the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-detailed",
+          "locator": "p.719 (OCR page markers; not checked against print)",
+          "quote": "P. Drayton, Captain, Senior Officer Present."
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "p.731 (OCR page markers; not checked against print)",
+          "quote": "Captain Anderson reports that he attempted firing by battery, but did not succeed for want of a signal"
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "p.730 (OCR page markers; not checked against print)",
+          "quote": "Captain [G. W.] Anderson,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA002",
+            "belligerent": "US",
+            "fullname": "P. Drayton"
+          },
+          "column": "rank",
+          "quote": "Captain"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA002",
+            "belligerent": "Confederate",
+            "fullname": "George A. Anderson"
+          },
+          "column": "rank",
+          "quote": "Captain"
+        },
+        {
+          "source_id": "nps-ga002-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major George Anderson [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Drayton says the attack was unsuccessful and that no injury was done that a good night's work would not repair; McCrady reports no material damage to the earthwork and the garrison as ready to fight again the next morning. McCrady's report dates the attack 'Tuesday, March 8' in OCR; the frozen date is March 3.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA002"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ga002-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "orn13-drayton-fort-mcallister-selections-v1",
+          "section": "drayton-1863-03-detailed",
+          "locator": "p.717 (OCR page markers; not checked against print)",
+          "quote": "but still no injury done which, 1 think, a good night’s work would not repair,"
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "p.732 (OCR page markers; not checked against print)",
+          "quote": "Earthwork.— No material damage, nor any that could not be repaired in one night."
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "p.730 (OCR page markers; not checked against print)",
+          "quote": "occurred at Fort McAllister on Tuesday, March 8,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads 1 total (US 0; CS 1). McCrady reports two men slightly wounded, one by a shell fragment and one by a sod peg, and one gun carriage destroyed. Drayton's reports list damage to the Passaic but no casualties.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Frozen 'Unknown', the live CS 1 and McCrady's two slightly wounded are preserved.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA002"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-ga002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1 total (US 0; CS 1;)"
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "p.733 (OCR page markers; not checked against print)",
+          "quote": "Men. — Two men slightly wounded."
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "p.733 (OCR page markers; not checked against print)",
+          "quote": "One man wounded by fragment of shell. One man wounded by a sod peg."
+        },
+        {
+          "source_id": "orn13-mccrady-fort-mcallister-selections-v1",
+          "section": "mccrady-1863-03-report-and-tables",
+          "locator": "p.732 (OCR page markers; not checked against print)",
+          "quote": "One gun carriage scattered; two traverse wheels broken."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Du Pont's March 6 transmittal, Miller's report of the Passaic's injuries, Ammen's and Downes's reports, the abstract logs, Harris's covering letter, Beauregard's March 3-4 dispatches (Official Records I, XIV) and Samuel Jones's chapter IX remain deferred.",
+    "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. Percival Drayton's detailed report and his March 8, 1863 report to the Bureau of Ordnance (Official Records of the Navies I, 13) are interested Union accounts. John McCrady's report (printed in the same volume) is a Confederate engineer's compilation from McAlpin's notes and the garrison officers' statements. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

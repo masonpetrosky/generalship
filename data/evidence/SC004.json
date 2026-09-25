@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "battle_id": "SC004",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Charleston Harbor I record (April 7, 1863) in Operations Against the Defenses of Charleston [April-September 1863]. Hunter's troops on Folly, Cole's and North Edisto Islands, which were not landed, are context. Campaign-wide marches, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads 9 warships; the live field reads zero. Du Pont attacked with eight ironclads and his flagship and says that, had he entered the harbor, he would have had 1,200 men and 32 guns; a reserve of wooden vessels was not engaged. Beauregard lists seven monitors, the Keokuk and the New Ironsides carrying thirty-two guns, and says seventy-six Confederate guns, including nine mortars and fifteen smooth-bore 32-pounders, were brought to bear on the fleet.",
+      "rationale": "Vessel and gun counts that agree on nine vessels and 32 guns; no garrison strength. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC004"
+          },
+          "column": "forces_text",
+          "quote": "9 warships"
+        },
+        {
+          "source_id": "nps-sc004-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-08",
+          "locator": "p.3 (OCR page markers; not checked against print)",
+          "quote": "I yesterday moved up with eight ironclads and this ship and attacked Fort Sumter,"
+        },
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-08",
+          "locator": "p.3 (OCR page markers; not checked against print)",
+          "quote": "Had I succeeded in entering the harbor I should have had 1,200 men and 32 guns,"
+        },
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-16",
+          "locator": "p.8 (OCR page markers; not checked against print)",
+          "quote": "but their services in the engagement were not called into action."
+        },
+        {
+          "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+          "section": "beauregard-1863-05-19",
+          "locator": "p.241 (OCR page markers; not checked against print)",
+          "quote": "seven single-turreted monitors,"
+        },
+        {
+          "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+          "section": "beauregard-1863-05-19",
+          "locator": "p.241 (OCR page markers; not checked against print)",
+          "quote": "On our side seventy-six guns of various calibers, including nine mortars and fifteen smooth-bore 32-pounders, were brought to bear on the fleet, which car- ried thirty-two guns"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "obstructions-and-ranges",
+      "dimension": "terrain",
+      "value": "Du Pont says obstructions marked by rows of casks stretched from Moultrie to Sumter, that the narrow channel and current made his flagship partly unmanageable at 1,000 yards, and that the monitors and Keokuk reached 550 to 800 yards from Sumter. Beauregard says the Keokuk came no nearer than 900 yards and the monitors were disabled at not less than 1,300 yards, and in October that no ironclad passed nearer than 1,100 to 1,300 yards of the outer batteries except the Keokuk.",
+      "rationale": "The two commanders' ranges differ; no chart inspected. The obstructions and forts predate the attack.",
+      "citations": [
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-16",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "They extended across the harbor from Fort Moultrie to Fort Sumter, and were marked by rows of casks very near together and in several lines."
+        },
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-08",
+          "locator": "p.3 (OCR page markers; not checked against print)",
+          "quote": "Owing to the narrow channel and rapid current she became partly unmanageable,"
+        },
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-08",
+          "locator": "p.3 (OCR page markers; not checked against print)",
+          "quote": "She could not get nearer than 1,000 yards."
+        },
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-16",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "at distances varying from 550 to 800 yards,"
+        },
+        {
+          "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+          "section": "beauregard-1863-05-19",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "The Keokuk did not come nearer than 900 yards of Fort Sumter;"
+        },
+        {
+          "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+          "section": "beauregard-1863-05-19",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "four of her consorts (monitors) were disabled at the distance of not less than 1,300 yards."
+        },
+        {
+          "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+          "section": "beauregard-1863-10-15",
+          "locator": "p.244 (OCR page markers; not checked against print)",
+          "quote": "never approached nearer than from 1,100 to 1,300 yards of the outer batteries,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fire-and-damage",
+      "dimension": "logistics",
+      "value": "Du Pont counts only 139 shot and shell fired by his vessels and says five of the eight ironclads were wholly or partially disabled, chiefly in their guns; Beauregard, citing Union statements, gives 151 fleet shots against 2,209 from the forts, 520 of which struck, and credits Yates's traversing device with keeping guns trained with five men.",
+      "rationale": "Ammunition expenditure and battle damage, not supply returns; Beauregard's fleet figures are copied from Union journals.",
+      "citations": [
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-16",
+          "locator": "p.7 (OCR page markers; not checked against print)",
+          "quote": "it appears that only 139 shot and shell were fired by our vessels,"
+        },
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-08",
+          "locator": "p.3 (OCR page markers; not checked against print)",
+          "quote": "but five of the eight ironclads were wholly or partially disabled after a brief engagement."
+        },
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-16",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "I mean in their armament or power of inflicting injury by their guns."
+        },
+        {
+          "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+          "section": "beauregard-1863-05-19",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "According to the enemy’s statements the fleet fired 151 shots;"
+        },
+        {
+          "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+          "section": "beauregard-1863-05-19",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "making the total number of shots fired 2,209, of which the enemy report that 520 struck the different vessels ;"
+        },
+        {
+          "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+          "section": "beauregard-1863-05-19",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "with but 5 men at the heaviest pieces."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-and-torpedoes",
+      "dimension": "information",
+      "value": "Beauregard says the accumulation of Union troops and ironclads at Port Royal and in the Edisto and Stono had convinced him the attack was imminent. Du Pont says buoys strewn in the channel raised suspicion of torpedoes, one of which burst near the Weehawken, and that the army could give him no cooperation.",
+      "rationale": "Contemporary perceptions stated by the two commanders. No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [
+        {
+          "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+          "section": "beauregard-1863-05-19",
+          "locator": "p.241 (OCR page markers; not checked against print)",
+          "quote": "having convinced me that the long-threatened attack on Charleston was immediately im- pending,"
+        },
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-16",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "causing a suspicion of torpedoes, one of which burst near the Weehawken ,"
+        },
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-08",
+          "locator": "p.3 (OCR page markers; not checked against print)",
+          "quote": "and the army could give me no cooperation."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "pass-sumter",
+      "dimension": "objectives",
+      "value": "Du Pont intended to pass Sumter and engage its northwest face, then proceed to the city; Beauregard says the fleet was driven back before reaching the lines of torpedoes and obstructions and that the heaviest batteries were not engaged.",
+      "rationale": "Stated intent and the defender's account of how far the fleet came.",
+      "citations": [
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-08",
+          "locator": "p.3 (OCR page markers; not checked against print)",
+          "quote": "intending to pass it and commence action on its northwest face, in accordance with my order of battle."
+        },
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-16",
+          "locator": "p.5 (OCR page markers; not checked against print)",
+          "quote": "intending to proceed the same day to the attack of Fort Sumter and thence the city of Charleston;"
+        },
+        {
+          "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+          "section": "beauregard-1863-05-19",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "were baffled and driven back before reach- ing our lines of torpedoes and obstructions,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Du Pont says he decided without consultation not to renew the attack after hearing the monitor captains' reports. Beauregard credits Ripley, commanding the First Military District and charged with the harbor defense, and says the Union land forces did not co-operate. The frozen commanders are Rear Admiral S. F. Du Pont (US) and General P. G. T. Beauregard (CS); the live page gives Beauregard as Brigadier General.",
+      "rationale": "Command roles from the two commanders' reports; neither listed commander receives automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-08",
+          "locator": "p.3 (OCR page markers; not checked against print)",
+          "quote": "when, without hesitation or consultation (for I never hold councils of war), I determined not to renew the attack,"
+        },
+        {
+          "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+          "section": "beauregard-1863-05-19",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General Ripley, com- manding the First Military District, and especially charged with the de- fense of the harbor,"
+        },
+        {
+          "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+          "section": "beauregard-1863-05-19",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "made no attempt to co-operate actually with the naval attack."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC004",
+            "belligerent": "US",
+            "fullname": "S. F. Du Pont"
+          },
+          "column": "rank",
+          "quote": "Rear Admiral"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC004",
+            "belligerent": "Confederate",
+            "fullname": "P.G.T. Beauregard"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-sc004-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Pierre Beauregard [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory (Warships were repulsed.); the live result Confederate Victory. Du Pont withdrew at 4:30, did not renew the attack and wrote that Charleston could not be taken by a purely naval attack; the Keokuk sank the next morning. Beauregard says Sumter could resist another such attack when the fleet left.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC004"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory (Warships were repulsed.)"
+        },
+        {
+          "source_id": "nps-sc004-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-16",
+          "locator": "p.6 (OCR page markers; not checked against print)",
+          "quote": "at 4:30 I made signal to withdraw from action,"
+        },
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-08",
+          "locator": "p.3 (OCR page markers; not checked against print)",
+          "quote": "Charleston can not be taken by a purely naval attack,"
+        },
+        {
+          "source_id": "orn14-dupont-charleston-harbor-selections-v1",
+          "section": "dupont-1863-04-08",
+          "locator": "p.3 (OCR page markers; not checked against print)",
+          "quote": "whose vessel sank this morning from the effect of the bombardment yesterday"
+        },
+        {
+          "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+          "section": "beauregard-1863-05-19",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "the work was capable of resist- ing as formidable an attack as the one it had just foiled."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text and the live page read 36 total (US 22; CS 14). Beauregard calls the Confederate casualties slight and refers to subordinate reports; in October he says no life may have been lost on the ironclads but bloody clothes were found in the Keokuk.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The Keokuk and Nahant casualty lists printed with Du Pont's report were read but not selected.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC004"
+          },
+          "column": "casualties_text",
+          "quote": "36 total (US 22; CS 14)"
+        },
+        {
+          "source_id": "nps-sc004-v1",
+          "locator": "Estimated Casualties",
+          "quote": "36 total (US 22; CS 14;)"
+        },
+        {
+          "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+          "section": "beauregard-1863-05-19",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "For the casualties of the day, so slight, I must refer you to the reports herewith."
+        },
+        {
+          "source_id": "or14-beauregard-charleston-harbor-selections-v1",
+          "section": "beauregard-1863-10-15",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "a quantity of bloody clothes and blankets were found on board."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "The ironclad captains' reports, the Keokuk and Nahant casualty lists, Ripley's, Rhett's and the other Confederate subordinate reports, Hunter's land-force papers and Samuel Jones's chapter IX remain deferred.",
+    "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. Samuel F. Du Pont's April 8 and 16, 1863 reports (Official Records of the Navies I, 14) and G. T. Beauregard's May 19 and October 15, 1863 reports (Official Records I, XIV) are interested accounts by the opposing commanders; Beauregard's fleet figures are taken from Union statements. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "battle_id": "SC002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Secessionville record (June 16, 1862) in Operations Against Charleston [June 1862]. The June 2-15 landing and skirmishing on James Island, the May 29 Pocotaligo expedition and the later evacuation of the island are context. Campaign-wide marches, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text and the live page both read 8,600 total (US 6,600; CS 2,000). Benham's June 16 report says about 3,500 of Stevens's command with four guns led the advance and about 3,100 of Wright's and Williams's commands with six guns supported on the left. Jones gives the June 9 consolidated morning reports for the whole Federal force on James Island as 9472 (Wright 3232, Stevens 4313, Williams 1927), says the defenders of the works were believed to be fewer than 500, and gives the Secessionville garrison as two artillery companies and two infantry battalions, in all less than five hundred, joined early in the assault by a detachment of one hundred men and later by McEnery's battalion; Evans had ordered the post reinforced up to 2000 men, but those reinforcements had not arrived.",
+      "rationale": "Benham's two approximations sum to the frozen US 6,600, but no inspected passage states how the frozen figures were derived. Jones's 9472 is a different population and date (all Federal troops on the island, June 9); his Confederate figures are garrison scopes before reinforcement. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC002"
+          },
+          "column": "forces_text",
+          "quote": "8,600 total (US 6,600; CS 2,000)"
+        },
+        {
+          "source_id": "nps-sc002-v1",
+          "locator": "Forces Engaged",
+          "quote": "8600 total (US 6600; CS 2000;)"
+        },
+        {
+          "source_id": "or14-benham-secessionville-selections-v1",
+          "section": "benham-1862-06-16",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "or about 3,500 men, and four guns of Bockwell’s battery should lead the advance"
+        },
+        {
+          "source_id": "or14-benham-secessionville-selections-v1",
+          "section": "benham-1862-06-16",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "or about 3,100 men, with six guns of Hamilton’s battery."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.102 (OCR page markers; not checked against print)",
+          "quote": "The consolidated morning reports of June 9 showed the Federal force in hand on James Island to be: Wright's Division, 3232; Stephens' Division, 4313; Williams' Headquarters Brigade, 1927 — total, 9472."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.102 (OCR page markers; not checked against print)",
+          "quote": "It was believed that the Confederate force defending the works to be attacked was less than 500 men."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "in all less than five hundred men."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "who ordered Colonel Johnson Hagood to reinforce Secessionville up to 2000 men, but the reinforcements had not arrived when the assault was made."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.113 (OCR page markers; not checked against print)",
+          "quote": "Early in the assault a detachment of one hundred men of the Twenty- second South Carolina, sent to reinforce the garri- son, arrived"
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.113 (OCR page markers; not checked against print)",
+          "quote": "A little later Lieutenant Colonel McEnery arrived"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "narrow-neck",
+      "dimension": "terrain",
+      "value": "Jones says the works in front of Secessionville occupied the most contracted part of a narrow neck of land between brush-fringed marshes, with a front of attack about one hundred yards long, approached over cultivated fields bordered with hedges; he says the attempt to charge with brigade front over ground scarcely wide enough for a regiment crowded the regiments into the marshes. Benham says the Secessionville batteries covered the whole of the Union position and camps.",
+      "rationale": "Ground described by a history and an interested report; no map verification. The works predate the attack; the assault formation was the attackers' choice.",
+      "citations": [
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.103 (OCR page markers; not checked against print)",
+          "quote": "The Confederate works In front of Secessionville occupied the most contracted part of a narrow neck of land, with marshes fringed with brushwood on both sides."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.103 (OCR page markers; not checked against print)",
+          "quote": "where the front of attack was about one hundred yards in length, flanked on either side by the before-mentioned marshes."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "It seems that the mistake, or blunder, had been made of attempting to charge with brigade front over a space scarcely wide enough for a regiment in line."
+        },
+        {
+          "source_id": "or14-benham-secessionville-selections-v1",
+          "section": "benham-1862-06-16",
+          "locator": "p.51 (OCR page markers; not checked against print)",
+          "quote": "as these batteries covered with their fire the whole of the position and camps of General Wright on our left and the advanced post of General Stevens on our right,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "fatigue-and-arms",
+      "dimension": "logistics",
+      "value": "Jones says Wright's crossing to James Island had been delayed by lack of transportation and a damaged wharf, and that the Secessionville garrison had been worked day and night since the landing, labouring until three in the morning of the 16th to build a new battery; he says Colonel Smith rearmed his men with the arms dropped by the Eighth Michigan. Benham reports no supply difficulty.",
+      "rationale": "Campaign transport delays and a historian's account of the defenders' fatigue; not supply returns for the engagement. No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "attributed to the lack of trans- portation and a damaged wharf at Seabrook's Island."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "the Confederate troops had been subjected, day and night, to the most arduous duties."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "had been busily at work all night of the 15th and until three o'clock in the morning constructing a new land battery and transferring guns to it from an old gunboat."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.113 (OCR page markers; not checked against print)",
+          "quote": "gathered up the arms (they were better than his own)"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-and-surprise",
+      "dimension": "information",
+      "value": "Benham says the fort appeared to grow stronger daily. Jones says Benham had been told that trains loaded with troops had been seen entering Charleston, that the attackers surprised the picket in its house, and that Lamar had observed enough to expect an attack in the night of the 15th or early the next morning and so reported to Evans, but let his exhausted men sleep at three o'clock. Benham reports the pickets captured as a lieutenant and 4 men; Jones says two or three.",
+      "rationale": "Attributed knowledge from an interested report and a history; no message log inspected. No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [
+        {
+          "source_id": "or14-benham-secessionville-selections-v1",
+          "section": "benham-1862-06-16",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "the fort being apparently made much stronger every day,"
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "several long trains of cars loaded with troops had been seen pouring into Charleston"
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "Colonel Lamar had observed enough to convince him that an attack would be made in the night of the 15th or early the following morning, and so reported to General Evans,"
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "were allowed to lie down to rest."
+        },
+        {
+          "source_id": "or14-benham-secessionville-selections-v1",
+          "section": "benham-1862-06-16",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "capturing the ad- vanced pickets, a lieutenant and 4 men,"
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "surprised the Confederate picket in the house they occupied, cap- tured two or three of the men"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "reconnaissance-or-assault",
+      "dimension": "objectives",
+      "value": "Benham writes that Hunter had approved his view that the fort and floating battery at Secessionville had to be destroyed or captured to secure the camps, and that he ordered a reconnaissance in force to capture and hold the fort if it proved not too strong. Jones quotes Hunter's written instructions of the 10th forbidding any advance on Charleston or attack on Fort Johnson until reinforced while providing for a secure entrenched encampment, and says Benham decided to assault at dawn. NPS says the attack was contrary to Hunter's orders.",
+      "rationale": "Contested statements of intent and authority; the question whether the attack exceeded Hunter's instructions is not resolved here.",
+      "citations": [
+        {
+          "source_id": "or14-benham-secessionville-selections-v1",
+          "section": "benham-1862-06-16",
+          "locator": "p.51 (OCR page markers; not checked against print)",
+          "quote": "you. approved of my representations for the security of our present camps here on James Island ; that it was indispensable that we should destroy or capture the fort and floating battery of the enemy at Secessionville."
+        },
+        {
+          "source_id": "or14-benham-secessionville-selections-v1",
+          "section": "benham-1862-06-16",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "with the object, if it were successful and the fort not too strong, of capturing and holding the same."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.99 (OCR page markers; not checked against print)",
+          "quote": "you will make no attempt to advance on Charleston or attack Fort Johnson until largely reinforced, or until you receive specific instructions from these head- quarters to that effect."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.101 (OCR page markers; not checked against print)",
+          "quote": "He therefore deter- mined to assault the Confederate position at the earliest dawn of day the next morning."
+        },
+        {
+          "source_id": "nps-sc002-v1",
+          "locator": "Description",
+          "quote": "contrary to Hunter's orders, Benham launched an unsuccessful frontal assault against Fort Lamar at Secessionville."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Benham accompanied Wright's supporting column and ordered the withdrawal about 9 a.m., crediting Stevens's dispositions. Jones says Stevens objected to a night assault and was overruled by Benham, that Wright was ordered not to renew a repulsed assault, and that Hunter relieved Benham and sent him to Washington in arrest for disobedience of orders. On the Confederate side Jones says Lamar commanded the post and aimed the columbiad himself, Evans commanded on the island, and Hagood sent reinforcements and asked Evans for leave to attack Williams's flank. The frozen commanders are Brigadier Generals Henry Benham (US) and Nathan Evans (CS).",
+      "rationale": "Command roles from an interested report and a history; neither listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or14-benham-secessionville-selections-v1",
+          "section": "benham-1862-06-16",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "1 myself accom- panied the latter command,"
+        },
+        {
+          "source_id": "or14-benham-secessionville-selections-v1",
+          "section": "benham-1862-06-16",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "I ordered the withdrawal of the troops,"
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.102 (OCR page markers; not checked against print)",
+          "quote": "Whatever objections were raised were overruled by General Benham, who ordered the assault to be made."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.103 (OCR page markers; not checked against print)",
+          "quote": "General Wright was or- dered, in the event of Stephens being repulsed, not to renew the assault."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.115 (OCR page markers; not checked against print)",
+          "quote": "he relieved General Benham from command and ordered him to Washington in arrest, charged with disobedience of orders and instructions in making"
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "pp.111–112 (OCR page markers; not checked against print)",
+          "quote": "Colonel T. G. Lamar, of the South Carolina Artillery, com- 112 THE SIEGE OF CHARLESTON manded the post."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.113 (OCR page markers; not checked against print)",
+          "quote": "Mounting the chasee of the ten-inch columbiad, he aimed it himself at the center of the advancing line,"
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.115 (OCR page markers; not checked against print)",
+          "quote": "asking to be supported in making an attack on the flank and rear of Williams' Brigade."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC002",
+            "belligerent": "US",
+            "fullname": "Henry Benham"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC002",
+            "belligerent": "Confederate",
+            "fullname": "Nathan Evans"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Benham says the infantry could make no marked impression on the fort and that he withdrew the troops, the main object of the reconnaissance having been accomplished; Jones calls the assault a disastrous failure after a conflict Stevens timed at twenty-five minutes, followed by the Union evacuation of James Island.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Benham's description of the attack as a reconnaissance is his own framing.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC002"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-sc002-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or14-benham-secessionville-selections-v1",
+          "section": "benham-1862-06-16",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "it was found that our infantry, supported by our field pieces only, could not make any marked impression on the fort,"
+        },
+        {
+          "source_id": "or14-benham-secessionville-selections-v1",
+          "section": "benham-1862-06-16",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "as the main object of the reconnaissance was accomplished"
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.109 (OCR page markers; not checked against print)",
+          "quote": "but the assault had been made and failed disastrously."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.109 (OCR page markers; not checked against print)",
+          "quote": "the conflict of twenty- five minutes, so dreadful in its casualties, was over"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 889 total (US 685; CS 204); the live field reads 887 (US 683; CS 204). Jones gives an aggregate Federal loss of 683 and a Confederate loss of 204. Benham's same-day report estimated Stevens's loss at about 450 (7 officers and 46 men killed, 14 officers and 307 men wounded, 2 officers and about 150 missing) and Wright's and Williams's at about 150, expecting the total to be much within 600.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Benham's figures are incomplete same-day estimates, not a return.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC002"
+          },
+          "column": "casualties_text",
+          "quote": "889 total (US 685; CS 204)"
+        },
+        {
+          "source_id": "nps-sc002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "887 total (US 683; CS 204;)"
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "The aggregate Federal loss was 683."
+        },
+        {
+          "source_id": "jones-secessionville-selections-v1",
+          "section": "secessionville",
+          "locator": "p.115 (OCR page markers; not checked against print)",
+          "quote": "The aggregate Confederate loss was 204,"
+        },
+        {
+          "source_id": "or14-benham-secessionville-selections-v1",
+          "section": "benham-1862-06-16",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "Seven officers and 46 men killed, 14 officers and 307 men wounded, and 2 officers and about 150 men missing"
+        },
+        {
+          "source_id": "or14-benham-secessionville-selections-v1",
+          "section": "benham-1862-06-16",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "the expected total loss being about 450."
+        },
+        {
+          "source_id": "or14-benham-secessionville-selections-v1",
+          "section": "benham-1862-06-16",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "about 150 in all, killed, wounded, and missing."
+        },
+        {
+          "source_id": "or14-benham-secessionville-selections-v1",
+          "section": "benham-1862-06-16",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "the entire casualties will be much within 600 as a total for killed, wounded, and missing."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Hunter's June 23 report (read, not selected), the Union casualty return (No. 2), Wright's, Stevens's and subordinate reports, Evans's, Lamar's, Hagood's and other Confederate reports and the Confederate casualty return remain deferred.",
+    "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. Henry W. Benham's June 16, 1862 report (Official Records I, XIV, No. 3) is an interested Union account written before his relief. Samuel Jones's The Siege of Charleston (1911) is a posthumous Confederate general's history that quotes Union and Confederate reports and is not independent of them. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

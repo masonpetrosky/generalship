@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "battle_id": "SC006",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Grimball's Landing record (July 16, 1863) in Operations Against the Defenses of Charleston [April-September 1863]. Terry's landing on James Island on July 8 and withdrawal on July 16-17 are context. Campaign-wide marches, reinforcements, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text and the live page read 6,800 total (US 3,800; CS 3,000). Gillmore gives Terry's command as about 3,800 men and says Terry was attacked by a largely superior force. Jones says Terry had a larger force than the Confederates on James Island, gives Colquitt's column as about fourteen hundred, Way's as about eight hundred and Radcliffe's as about four hundred, and earlier says Terry outnumbered all of Beauregard's infantry in South Carolina.",
+      "rationale": "Gillmore's 3,800 matches the frozen US figure; the Confederate column figures are Jones's and sum to about 2,600, not an inspected total. Gillmore and Jones disagree on which side was larger. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC006"
+          },
+          "column": "forces_text",
+          "quote": "6,800 total (US 3,800; CS 3,000)"
+        },
+        {
+          "source_id": "nps-sc006-v1",
+          "locator": "Forces Engaged",
+          "quote": "6800 total (US 3800; CS 3000;)"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General Terry’s command, of about 3,800 men,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General Terry was attacked on James Island by a largely superior force,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "grimballs-landing-july-16",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "with a larger force than the Confederates had on the same island"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "grimballs-landing-july-16",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "in all about fourteen hundred men,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "grimballs-landing-july-16",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "with about eight hundred infantry"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "grimballs-landing-july-16",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "with about four hun- dred men of his own regiment,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.209 (OCR page markers; not checked against print)",
+          "quote": "General Terry's force outnumbered by several hun- dred men all the infantry General Beauregard had in South Carolina"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "marsh-and-gunboats",
+      "dimension": "terrain",
+      "value": "Jones says the Confederate columns had to cross the marsh dividing Legare's from Grimball's, and that gunboats in the Stono and armed steamers in Folly River swept the ground in front; NPS says the attack was aborted because of incomplete reconnaissance of the difficult, marshy ground.",
+      "rationale": "Ground from a history and NPS; no map verification.",
+      "citations": [
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "grimballs-landing-july-16",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "were ordered to cross the marsh dividing Legare's from Grimble's plantation"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "grimballs-landing-july-16",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "giving a cross fire which could sweep the ground in front as far as the Confederate pickets."
+        },
+        {
+          "source_id": "nps-sc006-v1",
+          "locator": "Description",
+          "quote": "Because of incomplete reconnaissance of the difficult, marshy ground, the disorganized Confederate attack was soon aborted."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "demonstration-effect",
+      "dimension": "information",
+      "value": "Gillmore says the demonstration drew a large part of the Morris Island garrison to James Island; Jones says Gillmore believed this but was mistaken, since no troops could be drawn from Morris Island. Jones says the Union party at Grimball's was smaller than supposed.",
+      "rationale": "Contested claims about what the demonstration achieved. No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.8 (OCR page markers; not checked against print)",
+          "quote": "A large part of the Morris Island garrison was drawn to James Island by it."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "morris-island-july-10-11",
+          "locator": "p.209 (OCR page markers; not checked against print)",
+          "quote": "General Gillmore believed that his feint on James Island had produced at least one of the effects de- sired, in drawing troops from Morris Island; but he was mistaken."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "grimballs-landing-july-16",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "which was smaller than had been supposed,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "feint-and-reconnaissance",
+      "dimension": "objectives",
+      "value": "Terry's force was to make a strong demonstration on James Island without needlessly hazarding his command, to keep reinforcements from Morris Island. Jones says the Confederate movement was limited to driving in the pickets, reconnoitring, capturing the party at Grimball's and crippling the gunboats.",
+      "rationale": "Stated aims from Gillmore's orders and a history.",
+      "citations": [
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "will ascend the Stono River under convoy of the navy, and make a strong demonstration on James Island,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "grimballs-landing-july-16",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "The object of the movement was limited to driving in the pickets on the left, making a reconnoissance of that part of their posi- tion,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Jones says Hagood commanded the Confederates on James Island and he and Colquitt led the reconnaissance in person, and that Terry signalled the gunboats to sweep the ground and withdrew that night; Gillmore credits the Pawnee and two armed transports with the repulse. The frozen commanders are Brigadier Generals Alfred H. Terry (US) and Johnson Hagood (CS).",
+      "rationale": "Command roles from an interested report and a history; neither listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "grimballs-landing-july-16",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "General Johnson Hagood commanded the Confederates on that island,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "grimballs-landing-july-16",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "Generals Hagood and Colquitt commanding in per- son."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "grimballs-landing-july-16",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "in response to a signal from General Terry the gunboats swept the ground in the Federal front,"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "With the aid of the gunboat Pawnee, Captain Balch, and two \"army transports, each carrying a small armament, the enemy was repulsed."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC006",
+            "belligerent": "US",
+            "fullname": "Alfred H. Terry"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "SC006",
+            "belligerent": "Confederate",
+            "fullname": "Johnson Hagood"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. Gillmore says the enemy was repulsed and Terry's command withdrawn on the 17th, its purpose accomplished; Jones says the Confederates retired with their object accomplished and that Terry abandoned the island that night, which was the desired result.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC006"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-sc006-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or28-1-gillmore-charleston-selections-v1",
+          "section": "gillmore-1864-02-28-morris-island-and-james-island",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "The demonstration in that quarter having accomplished its object, General Terry’s command was withdrawn on the 17th."
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "grimballs-landing-july-16",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "The object of the reconnoissance having been ac- complished, the Confederates retired, and that night General Terry abandoned the island,"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "grimballs-landing-july-16",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "The desired result was accomplished when the Federal force withdrew from the island."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Total unknown (US unknown; CS 18); the live field reads 64 (US 46; CS 18). Jones gives the loss as about fifty Federal and eighteen Confederate.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "SC006"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US unknown; CS 18)"
+        },
+        {
+          "source_id": "nps-sc006-v1",
+          "locator": "Estimated Casualties",
+          "quote": "64 total (US 46; CS 18;)"
+        },
+        {
+          "source_id": "jones-charleston-1863-selections-v1",
+          "section": "grimballs-landing-july-16",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "about fifty on the Federal and eighteen on the Confederate side."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Terry's, Hagood's, Colquitt's and the signal officer's reports (listed for Grimball's Landing, p.581), the naval reports on the Pawnee and any returns remain deferred.",
+    "NPS/CWSAC (NPS battle page and frozen Arnold rows) is one family. Quincy A. Gillmore's report dated February 28, 1864 (Official Records I, XXVIII part 1, No. 2) is one family of interested Union accounts. Samuel Jones's The Siege of Charleston (1911) is a posthumous Confederate general's history that quotes Gillmore's, Seymour's, Strong's, Ripley's, Taliaferro's and Beauregard's reports and is not independent of them. Official Records volumes are shared containers, not additional witnesses. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
