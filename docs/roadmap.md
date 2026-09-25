@@ -301,10 +301,13 @@ attribution, timing and citation corrections, all fixed and
 Coverage is **28/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Bristoe Campaign first pass](research/bristoe-first-pass-v1.md) adds all five
-**frozen records, VA039–VA043**, with **45 claims, 5 explicit unknowns and 190
+**frozen records, VA039–VA043**, with **45 claims, 5 explicit unknowns and 197
 citations** from NPS/CWSAC, a new Humphreys selection and Stuart's, A. P. Hill's and
 Lee's reports in newly pinned Official Records Volume XXIX Part 1. Multi-action loss
-totals are not assigned. Separate review is pending.
+totals are not assigned. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/bristoe-dc77737-opus-high-v1/review.md) found four locator,
+OCR-reading, attribution and computation corrections, all fixed and
+[verified by the primary](../artifacts/review-results/bristoe-dc77737-opus-high-v1/primary-assessment.md).
 Coverage is **29/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Reopening the Tennessee River first pass](research/reopening-tennessee-first-pass-v1.md) adds the

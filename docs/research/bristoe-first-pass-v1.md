@@ -2,16 +2,18 @@
 
 Prepared 2026-09-25. All **five frozen records** in **Bristoe Campaign
 [October-November 1863]** now have draft dossiers: **45 claims, 5 explicit null unknowns
-and 190 citation occurrences**. All seven dimensions are represented in each record.
-Separate review is pending. All dossiers remain drafts; no features are admitted.
+and 197 citation occurrences** after review correction. All seven dimensions are
+represented in each record. Separate Claude Opus 5.5 `high` [review](../../artifacts/review-results/bristoe-dc77737-opus-high-v1/review.md) found
+four required corrections, all applied and verified by the primary. All dossiers remain
+drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
-| VA039 — Auburn | 1863-10-13 | 9 | 1 | 33 | 3 |
-| VA040 — Bristoe Station | 1863-10-14 | 9 | 1 | 40 | 3 |
+| VA039 — Auburn | 1863-10-13 | 9 | 1 | 34 | 3 |
+| VA040 — Bristoe Station | 1863-10-14 | 9 | 1 | 42 | 3 |
 | VA041 — Auburn (Coffee Hill) | 1863-10-14 | 9 | 1 | 35 | 3 |
-| VA042 — Buckland Mills | 1863-10-19 | 9 | 1 | 36 | 3 |
-| VA043 — Rappahannock Station | 1863-11-07 | 9 | 1 | 46 | 3 |
+| VA042 — Buckland Mills | 1863-10-19 | 9 | 1 | 38 | 3 |
+| VA043 — Rappahannock Station | 1863-11-07 | 9 | 1 | 48 | 3 |
 
 Coverage is **115/127 draft dossiers**, **12 without**, and **29/36 complete source
 campaigns by dossier presence**. All 110 earlier dossiers and all historical revisions
@@ -29,7 +31,7 @@ further families:
   - Auburn on the 14th (pp.22–23);
   - Bristoe Station (pp.23–30; p.30's running head reads "3<3");
   - Buckland (pp.33–35);
-  - Rappahannock Station (pp.37–48).
+  - Rappahannock Station (pp.37–48; p.40's running head reads "4-0").
 
   Humphreys was the Army of the Potomac's chief of staff in 1863–64 by his publisher's
   list, so his history is interested.
@@ -104,6 +106,29 @@ probability, causal effect or new commander ranking is introduced. The cohort an
 admission proposals are unchanged, with **zero promoted rows**. The baseline still uses
 **23/127 engagements in 13 eligible groups**, with strength Brier **0.276882** against
 **0.250000** for equal odds.
+
+## Review correction and validation
+
+The reviewer found four required corrections, all verified against the retained text
+(each new quote occurs once) and applied:
+
+- **BR-R1** labels two p.40 locators as inferred from the OCR head "4-0".
+- **BR-R2** reports OCR and source readings instead of normalizing them:
+  - "the loth of October";
+  - "2-J" and "2£" miles;
+  - NPS's "Owens";
+  - Stuart's "the old First".
+- **BR-R3** attributes Lomax's and Russell's relayed accounts to their reports.
+- **BR-R4** gives Humphreys' printed components for Early's losses and marks the sums as
+  computations.
+
+Advisories A3 (Davis's indorsement on the corps dispute), A4 (Stuart's "On the next day,
+October 20", from the same family) and A5 (Russell's brigade sums as a computation) are
+adopted. A1 and A2 need no change now. Citations rise from 190 to 197; claims and unknowns
+are unchanged, and no source record changes. The originals are retained as
+`data/evidence/history/*.v1.json`, linked by `supersedes`. The
+[primary assessment](../../artifacts/review-results/bristoe-dc77737-opus-high-v1/primary-assessment.md) closes all four findings; no second
+reviewer pass is claimed.
 
 Next by frozen campaign start is **Reopening the Tennessee River [October 1863]**:
 TN021. Do not start that group within this batch.
