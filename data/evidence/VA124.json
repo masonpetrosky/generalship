@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA124",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Namozine Church record (April 3, 1865) in the Appomattox Campaign [March-April 1865]. The evening fight at Deep Creek the same day is described with it in the sources and is not assumed to be part of this record. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Brigades' and the live field zero. Humphreys says the leading brigade of Custer's division, under Colonel Welles, overtook the rear of Fitz Lee's cavalry, Barringer's brigade; Fitzhugh Lee says the North Carolina brigade of W. H. F. Lee's division, held back as rear guard, was overwhelmed by the enemy's arriving forces.",
+      "rationale": "Formation lists only; no headcount for either side. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA124"
+          },
+          "column": "forces_text",
+          "quote": "Brigades"
+        },
+        {
+          "source_id": "nps-va124-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "namozine-and-amelia-springs",
+          "locator": "p.374 (OCR page markers; not checked against print)",
+          "quote": "the lead¬ ing brigade of Custer’s division, commanded by Colonel Welles, overtaking near Namozine Church the rear of Fitz Lee’s cavalry, Barringer’s brigade,"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "that very excellent North Carolina brigade, of W. H. F. Lee’s division, suf¬ fered severely."
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "Whilst getting in motion their rapidly arriving forces soon augmented the troops it was so gallantly holding in check,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "rationale": "The inspected passages do not describe the ground at Namozine Church; the strong defensive position they describe is at Deep Creek later the same day.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "pursuit-and-rear-guard",
+      "dimension": "objectives",
+      "value": "Humphreys says Grant sent Sheridan's cavalry and the Fifth Corps west near the Appomattox to feel Lee's army constantly; Fitzhugh Lee says he kept the North Carolina brigade in position to prevent an attack on the rest of his command as it resumed the march.",
+      "rationale": "Stated aims from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "namozine-and-amelia-springs",
+          "locator": "p.373 (inferred: chapter opening page without a running head in OCR; not checked against print)",
+          "quote": "so as to feel Lee’s army constantly,"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "I was obliged to retain it in position to prevent the enemy from attacking the remain¬ der of the command."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Fitzhugh Lee says he himself held the brigade in position and that Barringer was captured; Humphreys and NPS name Welles's (Wells's) brigade of Custer's division as the attackers. The frozen commanders are Fitzhugh Lee (CS) and Custer (US), as on the live page.",
+      "rationale": "Custer's own direction is not described in the inspected passages; the brigade commander is named by Humphreys and NPS. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "I was obliged to retain it in position"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "Its commander, Brigadier-General Barringer, was captured whilst in the steady dis¬ charge of his duties,"
+        },
+        {
+          "source_id": "nps-va124-v1",
+          "locator": "Description",
+          "quote": "A brigade of Union cavalry under Col. William Well's (Custer's Division) attacked Fitzhugh Lee's cavalry near Namozine Church on April 3."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA124",
+            "belligerent": "Confederate",
+            "fullname": "Fitzhugh Lee"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA124",
+            "belligerent": "US",
+            "fullname": "George A. Custer"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va124-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General George Custer [US]"
+        },
+        {
+          "source_id": "nps-va124-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Fitzhugh Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads 'Inconclusive' and the live 'Indecisive'. Humphreys says Barringer's brigade suffered severely and its commander and many others were captured; Fitzhugh Lee says the concentration against it was impossible to resist.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The rear guard's loss and the retreat's continuation are both reported; the result category is not revised.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA124"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va124-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "namozine-and-amelia-springs",
+          "locator": "p.374 (OCR page markers; not checked against print)",
+          "quote": "which suffered severely in the contest, the commander and many others being cap¬ tured."
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "produced a concentration impossible for it to resist."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 75 total and the live field 81 (US 81; CS 0). Humphreys says Barringer and many others were captured; Fitzhugh Lee names Barringer and his adjutant-general Ferguson among the captured.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live Confederate zero conflicts with the reported captures and is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA124"
+          },
+          "column": "casualties_text",
+          "quote": "75 total"
+        },
+        {
+          "source_id": "nps-va124-v1",
+          "locator": "Estimated Casualties",
+          "quote": "81 total (US 81; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "namozine-and-amelia-springs",
+          "locator": "p.374 (OCR page markers; not checked against print)",
+          "quote": "the commander and many others being cap¬ tured."
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "Maj. J. D. Ferguson, who was captured about the same time,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Custer's, Wells's and Merritt's reports (Nos. 203, 200), W. H. F. Lee's and Barringer's accounts, Sheridan's report (selected; cited under VA088) and the returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

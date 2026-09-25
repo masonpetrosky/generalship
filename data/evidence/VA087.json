@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA087",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen White Oak Road record (March 31, 1865) in the Appomattox Campaign [March-April 1865]. Dinwiddie Court House (VA086) is the same day. Humphreys commanded the Second Corps, and his account of its actions here is a participant's. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Corps' and the live field zero. Humphreys names Ayres's, Crawford's and Griffin's divisions of the Fifth Corps and Miles's division of the Second against McGowan's, Gracie's (Sanford's), Hunton's and Wise's brigades, and quotes Ayres that Winthrop turned back on seeing a much superior force; Johnson says his line was McGowan's, Moody's (Stansel's) and Hunton's brigades, with Wise's moved out on the left by Lee's order.",
+      "rationale": "Formation lists and one attributed impression; no headcount for either side on March 31. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA087"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va087-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "General Warren was directed to place Crawford’s and Griffin’s divisions within supporting distance of Ayres."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "directed General McGowan to take his own brigade and Gracie’s (commanded by Colonel Sanford)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "General Hunton’s brigade was drawn np on the edge of the wood"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "General Wise’s brigade was formed on his left,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "he at once ordered General Miles to go forward quickly with two of his brigades"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "Seeing that he had a much superior force to encounter, General Win- throp faced his brigade about, General Ayres says,"
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1287 (OCR page markers; not checked against print)",
+          "quote": "My line was formed with McGowan’s brigade on the right, Moody’s brigade, commanded by Colonel Stansel, of the Forty-first Alabama Begiment, in the center, and Hunton’s brigade on the left."
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1288 (OCR page markers; not checked against print)",
+          "quote": "During this advance Wise’s brigade was moved out on the left of Hun ton’s brigade, by order of General Lee,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "slashings-streams-and-open-ground",
+      "dimension": "terrain",
+      "value": "Humphreys places Ayres in open ground south of the road, says a branch of Gravelly Run had become swollen and hard to cross, and describes the Confederate works on the crest of a long slope with wide slashings, abatis and artillery, 'unused and in good order', whose slashing stopped Hays at the Crow house; Johnson says the Union line re-formed on vantage ground west of a branch of Gravelly Run.",
+      "rationale": "The works and slashings predate the day; the swollen stream follows the night's rain, and the rifle-pits Johnson later held were thrown up by Union skirmishers the night before. Mixed; not tagged inherited as a whole. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "The position taken by General Ayres was in the open ground on"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "which had become very much swollen during the night, and was on that account difficult to cross."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.333 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s intrenchments covering the White Oak road were on the crest of a long slope, with wide slashings in front, and abatis along the ditch, with artillery at short intervals."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.333 (OCR page markers; not checked against print)",
+          "quote": "The works were unused and in good order."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.333 (OCR page markers; not checked against print)",
+          "quote": "the heavy slashing in front of the works was absolutely impassable to even a small body of troops."
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1288 (OCR page markers; not checked against print)",
+          "quote": "In this position the enemy’s line, in strong force, was formed on vantage ground."
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1288 (OCR page markers; not checked against print)",
+          "quote": "to the enemy’s line of rifle-pits, thrown up by his skirmishers south of the White Oak road during the previous night."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rain-and-exhaustion",
+      "dimension": "logistics",
+      "value": "Humphreys says the rain fell heavily through the night of the 29th and all of the 30th, making the roads impassable for artillery and wagons until corduroyed, and that on the morning of the 31st corps commanders were told there would be no movement because of the roads; Johnson says his troops became exhausted and no reinforcements were available.",
+      "rationale": "Weather and movement statements; no supply or ammunition return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-28-29",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "The rain fell heavily all the night of the 29th, and all the next day, rendering the roads impassable for artillery and wagons until corduroyed."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "corps commanders were notified that there would be no movement of troops that day, owing to the almost impassable condition of the roads and country,"
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1288 (OCR page markers; not checked against print)",
+          "quote": "It, how¬ ever, became evident that our troops were being exhausted, and needed re-enforcements, of which there was none available."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warnings-and-reconnaissance",
+      "dimension": "information",
+      "value": "Humphreys says Ayres was told at 8 a.m. of Pickett at Five Forks and cautioned against a flank attack, and that Warren reported at 9.40 that Confederate pickets covered the White Oak road; Johnson says he found the enemy in two lines about 11 a.m. and had ascertained that a movement on the Union left flank was possible.",
+      "rationale": "Attributed knowledge in a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "At 8 o’clock General Ayres was informed of Pickett’s presence at Five Forks, about four miles from his left, and was cautioned to be prepared for an attack against his left flank as well as on his front."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "But at 9.40 a.m. General Warren telegraphed General Meade that the enemy’s pickets covered the White Oak road,"
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1287 (OCR page markers; not checked against print)",
+          "quote": "At about 11 a. m. on the 31st of March, finding the enemy in two lines in the field west of Halter Butler’s house,"
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1287 (OCR page markers; not checked against print)",
+          "quote": "Having ascertained that an admirable movement might be made on the enemy’s left flank,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cut-and-counterstroke",
+      "dimension": "objectives",
+      "value": "Humphreys says Warren proposed to occupy the White Oak road to cut Lee's direct communication with Pickett and Meade allowed it if the road could be taken and held, while Lee planned to attack the Fifth Corps' left flank that morning.",
+      "rationale": "Stated aims from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "an important object, since it would cut Lee’s direct communication with Pickett at Five Forks."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "if his reconnoissance should show that he could get possession of and hold the White Oak road, he was to do so,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "General Lee, in furtherance of his plan of attacking the left flank of the Fifth Corps on the morning of the 31st,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Lee was on the ground directing the movement, relays Hunton that he had no orders to attack and McGowan that he ordered the charge when the firing began, and says he himself ordered Miles to attack the Confederate left flank; Johnson says he ordered his command forward to meet the Union attack, and that Anderson later ordered it withdrawn. NPS credits the counterattack to Johnson. The frozen commanders are Lee and Anderson (CS) and Warren (US); the live page lists Warren and 'Major General Robert Lee'.",
+      "rationale": "Accounts of who started the Confederate attack differ and are attributed, not reconciled; Humphreys' order to Miles is his own participant account. Anderson's own direction is described only in Johnson's report; the live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "General Lee was on the ground, directing the movement in person."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "that he had no orders to attack or charge,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "General McGowan says of it, that he had not completed his movement to the right across the left flank of Ayres when the firing in front began, and he at once ordered the charge to be made ;"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "he at once ordered General Miles to go forward quickly with two of his brigades and attack the enemy’s left flank."
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1288 (OCR page markers; not checked against print)",
+          "quote": "I immediately ordered my command to advance and meet the enemy’s attack."
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1288 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant-Gen¬ eral Anderson now ordered my command to be withdrawn"
+        },
+        {
+          "source_id": "nps-va087-v1",
+          "locator": "Description",
+          "quote": "a crushing counterattack directed by Maj. Gen. Bushrod Johnson,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA087",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA087",
+            "belligerent": "Confederate",
+            "fullname": "Richard Anderson"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA087",
+            "belligerent": "US",
+            "fullname": "G.K. Warren"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va087-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads 'Union gained ground' and the live result 'Union Victory'. Humphreys says Hunton was driven into the White Oak road works and McGowan fell back into the main works; Johnson says his command drove the enemy about a mile and a half by 2 p.m. but was drawn into the main breastworks at about 5 p.m.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The frozen and live result categories are not reconciled.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA087"
+          },
+          "column": "results_text",
+          "quote": "Union gained ground"
+        },
+        {
+          "source_id": "nps-va087-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.334 (OCR page markers; not checked against print)",
+          "quote": "Hunton was driven into the White Oak road intrenchments, and McGowan, seeing Hunton’s line give way, fell back at once with his two brigades into their main works."
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1288 (OCR page markers; not checked against print)",
+          "quote": "By 2 p. m. the enemy were driven about one mile and a half"
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1288 (OCR page markers; not checked against print)",
+          "quote": "drawn into the main breast- works,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 2,670 (US 1,870; CS 800) and the live field 3,016 (US 1,781; CS 1,235). Humphreys gives Warren's 936 killed and wounded and 470 missing (1,406), 374 killed and wounded in the Second Corps and more than 300 prisoners taken by Miles; Johnson gives the enemy's loss as including about 470 prisoners and his own as about 800, and the note after his report gives 187 for the White Oak road.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Johnson's 800 equals the frozen Confederate figure and his 470 prisoners Warren's 470 missing; these are observations, not established sources for either figure.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA087"
+          },
+          "column": "casualties_text",
+          "quote": "2,670 (US 1,870; CS 800)"
+        },
+        {
+          "source_id": "nps-va087-v1",
+          "locator": "Estimated Casualties",
+          "quote": "3016 total (US 1781; CS 1235;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.334 (OCR page markers; not checked against print)",
+          "quote": "Total, 936. The missing were 470, making an aggregate of 1,406."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.334 (OCR page markers; not checked against print)",
+          "quote": "The casualties in General Humphreys’s corps were 374 killed and wounded, officers and enlisted men."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "The prisoners taken numbered more than 300,"
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1288 (OCR page markers; not checked against print)",
+          "quote": "The losses of the enemy were heavy, including about 470 prisoners. Our losses were about 800, including killed, wounded, and prisoners."
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-casualty-note",
+          "locator": "p.1291 (OCR page markers; not checked against print)",
+          "quote": "March 31, White Oak road: Killed, 2 officers, 8 men;"
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-casualty-note",
+          "locator": "p.1291 (OCR page markers; not checked against print)",
+          "quote": "aggregate, 187."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Warren's, Ayres's, Crawford's and Griffin's reports (Nos. 74, 91, 97, 77), Humphreys' own report (No. 21), Miles's report (selected; cited under VA090 and VA094, not used here under the ceiling), McGowan's, Hunton's and Wise's accounts, Wallace's report (No. 274), the Warren Court of Inquiry record and the returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

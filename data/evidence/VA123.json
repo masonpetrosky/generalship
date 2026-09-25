@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA123",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Waynesboro record (March 2, 1865) in Sheridan's Expedition to Petersburg [March 1865]. The expedition's march from Winchester to White House (February 27-March 19) and its totals of prisoners and losses are context; they are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen and live force fields read 4,100 (US 2,500; CS 1,600). Sheridan gives the effective force of his two cavalry divisions on February 28 as 503 officers and 9,484 men (9,987), and says Custer's division led the attack against Early's two infantry brigades and some cavalry under Rosser; Pond gives 10,000 sabres, Custer's division 4,840 and Devin's 5,047 aggregate effective, against Wharton's two brigades, Nelson's battalion of six guns and Rosser's cavalry.",
+      "rationale": "The frozen figures state no date or population; the frozen Confederate 1,600 equals the prisoner count both accounts give, an observation only. Sheridan's and Pond's Union figures are the whole expedition's effective strength at the start, not the troops engaged; the Confederate side is by formation. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA123"
+          },
+          "column": "forces_text",
+          "quote": "4,100 total (US 2,500; CS 1,600)"
+        },
+        {
+          "source_id": "nps-va123-v1",
+          "locator": "Forces Engaged",
+          "quote": "4100 total (US 2500; CS 1600;)"
+        },
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.475 (OCR page markers; not checked against print)",
+          "quote": "Effective force First and Third Cavalry Divisions, Army of the Shenandoah, February 28, 1865,"
+        },
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.475 (OCR page markers; not checked against print)",
+          "quote": "Total . . 503 9, 484 9, 987"
+        },
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "with two brigades of infantry and soinecavalry under General Bosser,"
+        },
+        {
+          "source_id": "pond-waynesboro-selections-v1",
+          "section": "waynesboro",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "with a superb column of 10,000 sabres — the Third Division, Custer's, 4,840 aggregate effective, and the First, Devin's, 5,047,"
+        },
+        {
+          "source_id": "pond-waynesboro-selections-v1",
+          "section": "waynesboro",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "with Wharton's two brigades of infantry, Nel- son's battalion of six guns, and Rosser's cavalry."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "ridge-river-and-breastworks",
+      "dimension": "terrain",
+      "value": "Sheridan says Early held a well chosen position with his infantry behind breastworks, but with his left flank somewhat exposed because it was advanced from, not resting on, the river bank, and the South Fork of the Shenandoah immediately in his rear; Pond says Early was posted on a ridge west of Waynesboro.",
+      "rationale": "The ridge and river predate the action; when the breastworks were built is not stated. Not tagged inherited as a whole. No map verification.",
+      "citations": [
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "in a well chosen position,"
+        },
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "the infantry occupying breast-works."
+        },
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "which was somewhat exposed by being advanced from, instead of resting upon, the bank of the river in his immediate rear."
+        },
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "the South Fork of the Shenandoah Biver, which was immediately in General Early’s rear,"
+        },
+        {
+          "source_id": "pond-waynesboro-selections-v1",
+          "section": "waynesboro",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "Early was found posted on a ridge west of"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-and-mud",
+      "dimension": "logistics",
+      "value": "Sheridan says the column left Winchester with five days' rations in haversacks, fifteen days' coffee, sugar and salt in wagons and thirty pounds of forage on each horse, and that rain had poured for two days before Waynesboro, making the roads bad beyond description; Pond says the spring thaws and hard rains had made the roads heavy and the streams swollen.",
+      "rationale": "Expedition supply and road statements; no return inspected.",
+      "citations": [
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.475 (OCR page markers; not checked against print)",
+          "quote": "with five days’ rations in haversacks, and fifteen days’ rations of coffee, sugar, and salt in wagons, thirty pounds of for¬ age on each horse,"
+        },
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "The rain had been pouring in torrents for two days, and the roads were bad beyond description;"
+        },
+        {
+          "source_id": "pond-waynesboro-selections-v1",
+          "section": "waynesboro",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "The spring thaws had come on, with hard rains ; the roads were heavy, and the streams swollen."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "early-at-waynesboro",
+      "dimension": "information",
+      "value": "Sheridan says Early, learning of his approach, retreated to Waynesboro and left word in Staunton that he would fight there, and that Custer attacked without waiting for a careful reconnaissance; Pond says Sheridan found at Staunton that Early had taken post at Waynesboro.",
+      "rationale": "Attributed knowledge from an interested report and a dependent history.",
+      "citations": [
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "General Early, learning of our approach, made a hasty retreat to Waynesborough, leaving word in Staunton that he intended to fight at that place."
+        },
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "without waiting for the enemy to get up his courage over the delay of a careful reconnaissance,"
+        },
+        {
+          "source_id": "pond-waynesboro-selections-v1",
+          "section": "waynesboro",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "and found that Early had taken post at Waynesboro."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "railroad-canal-and-gap",
+      "dimension": "objectives",
+      "value": "Sheridan says his orders were to destroy the Virginia Central Railroad and the James River Canal, take Lynchburg if practicable and join Sherman or return to Winchester, and that he chose to fight Early to open a way through Rockfish Gap; Pond gives the same orders.",
+      "rationale": "Stated aims from an interested report and a dependent history.",
+      "citations": [
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.475 (OCR page markers; not checked against print)",
+          "quote": "My orders were to destroy the Virginia Central Railroad, the James River Canal, capture Lynchburg if practicable,"
+        },
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "defeat him, and oiDen a way through Bockfish Gap,"
+        },
+        {
+          "source_id": "pond-waynesboro-selections-v1",
+          "section": "waynesboro",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "Sheridan's orders were to destroy the Central Railroad and the canal,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Sheridan says he decided to fight Early and directed Custer's division to take up the pursuit, and that Custer made his dispositions at once, sending three regiments around the enemy's left; Pond says the same and that Early and the other Confederate generals fled into the woods. The frozen commanders are Early (CS, Lieutenant General) and Sheridan (US); the live page lists Sheridan and 'Major General Jubal Early'.",
+      "rationale": "Custer, not a frozen commander, directed the attack in both accounts; Early's own dispositions are not described beyond his position. The live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "I decided upon the latter course,"
+        },
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "made his dispositions for attack at once, sending three regiments around the left flank of the enemy,"
+        },
+        {
+          "source_id": "pond-waynesboro-selections-v1",
+          "section": "waynesboro",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "Custer at once sent three regiments around the enemy's left flank,"
+        },
+        {
+          "source_id": "pond-waynesboro-selections-v1",
+          "section": "waynesboro",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "they fled into the woods,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA123",
+            "belligerent": "Confederate",
+            "fullname": "Jubal A. Early"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA123",
+            "belligerent": "US",
+            "fullname": "Philip Sheridan"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va123-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Jubal Early [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Sheridan says the works were carried and the enemy threw down their arms and surrendered; Pond says the position was carried in an instant and the victory left Sheridan master of the Valley. NPS says the attack rolled up Early's right flank, while Sheridan and Pond put the turning column on his left.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The flank named by NPS conflicts with both inspected accounts; not reconciled.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA123"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va123-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "The enemy threw down their arms and surrendered,"
+        },
+        {
+          "source_id": "pond-waynesboro-selections-v1",
+          "section": "waynesboro",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "The position was carried in an instant,"
+        },
+        {
+          "source_id": "pond-waynesboro-selections-v1",
+          "section": "waynesboro",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "The victory at Waynesboro left Sheridan complete master of the Valley."
+        },
+        {
+          "source_id": "nps-va123-v1",
+          "locator": "Description",
+          "quote": "a Federal attack rolled up Early's right flank and scattered his small force."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,800 total and the live field 1,630 (US 30; CS 1,600); NPS says more than 1,500 surrendered. Sheridan gives the results as 11 guns, about 200 wagons, 17 battle-flags and 1,600 officers and men, and elsewhere about 1,600 prisoners and not over 100 men lost for the whole march; Pond gives little if any loss on either side, seventeen flags, eleven guns (five found in the town) and 'first and last, about 1,600 officers and men'.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Sheridan's two 1,600 figures (Waynesborough and the whole march) and Pond's 'first and last' may count the same prisoners on different scopes; the march-wide loss is not assigned to this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA123"
+          },
+          "column": "casualties_text",
+          "quote": "1,800 total"
+        },
+        {
+          "source_id": "nps-va123-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1630 total (US 30; CS 1600;)"
+        },
+        {
+          "source_id": "nps-va123-v1",
+          "locator": "Description",
+          "quote": "More than 1,500 Confederates surrendered."
+        },
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "17 battle-flags, and 1,600 officers and enlisted men."
+        },
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-waynesborough",
+          "locator": "p.476 (OCR page markers; not checked against print)",
+          "quote": "The substantial results of this brilliant fight were 11 pieces of artil¬ lery,"
+        },
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-summary",
+          "locator": "p.480 (OCR page markers; not checked against print)",
+          "quote": "The whole number of prisoners captured on the march was about 1,600,"
+        },
+        {
+          "source_id": "or46-1-sheridan-waynesborough-selections-v1",
+          "section": "sheridan-1865-07-16-summary",
+          "locator": "p.481 (OCR page markers; not checked against print)",
+          "quote": "Our entire loss during the march did not exceed 100 men,"
+        },
+        {
+          "source_id": "pond-waynesboro-selections-v1",
+          "section": "waynesboro",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "with lit- tle, if any, loss on either side,"
+        },
+        {
+          "source_id": "pond-waynesboro-selections-v1",
+          "section": "waynesboro",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "eleven guns (including five found in the town), and, first and last, about 1,600 officers and men."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Custer's, Merritt's and Devin's reports (Expedition Nos. 8, 3, 4), Lee's dispatches (No. 13), Hotchkiss's journal (No. 14), Early's own account (no report found in the inspected report list) and the returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Pond's The Shenandoah Valley in 1864 (1883) is a retrospective history by a non-participant that, for Waynesboro, quotes and closely follows Sheridan's report, so it is not independent of that family. Sheridan's July 16, 1865 report, printed in Official Records Series I, Volume XLVI, Part 1, is an interested commander's account; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

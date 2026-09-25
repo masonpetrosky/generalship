@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA089",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Petersburg record (April 2, 1865) in the Appomattox Campaign [March-April 1865]. Sutherland's Station (VA090) is the same day and is a separate record; the March 25 picket-line captures belong to Fort Stedman (VA084). Humphreys commanded the Second Corps, and his account of its actions here is a participant's. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Armies' and the live field zero. Humphreys says the works in front of Ord and Wright were held by four brigades of Hill's corps under Wilcox, about 4,000 enlisted men by the February 20 return, and those in front of Parke by Gordon's corps, about 7,600 by the same return, and relays Wilcox that Fort Gregg held 200 infantry; Lee wrote that the brigades on Hatcher's Run were cut off.",
+      "rationale": "February return strengths assigned to formations, not April 2 counts; the Union assaulting force is described by corps only. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA089"
+          },
+          "column": "forces_text",
+          "quote": "Armies"
+        },
+        {
+          "source_id": "nps-va089-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "petersburg-april-2",
+          "locator": "p.363 (OCR page markers; not checked against print)",
+          "quote": "numbering, accord¬ ing to the return of February 20tli, about 4,000 enlisted men."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "petersburg-april-2",
+          "locator": "p.363 (OCR page markers; not checked against print)",
+          "quote": "The intrenchments in front of General Parke’s command were held by General Gordon’s corps, numbering, according to the same return, about 7,600 enlisted men."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "fort-gregg-and-evacuation",
+          "locator": "p.369 (OCR page markers; not checked against print)",
+          "quote": "General Wilcox says, the 200 infantry in Fort Gregg was composed of detachments"
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-02-a",
+          "locator": "p.1264 (OCR page markers; not checked against print)",
+          "quote": "The brigades on Hatcher’s Run are cut off from us;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cleared-ground-and-works",
+      "dimension": "terrain",
+      "value": "Humphreys, following Wright, says the ground before the Sixth Corps was cleared of trees, the parapets had high relief and deep ditches behind two lines of abatis with a fraise, and batteries every few hundred yards; he describes Fort Gregg as enclosed at the rear by a ditch eight or ten feet deep.",
+      "rationale": "The works and ground predate the assault. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "petersburg-april-2",
+          "locator": "p.363 (OCR page markers; not checked against print)",
+          "quote": "The ground to be passed over was perfectly cleared of trees,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "petersburg-april-2",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "The parapets had high relief and deep ditches, preceded (it wTas found) by two lines of abatis, well constructed, with a fraise between them."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "petersburg-april-2",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "Every few hundred yards were batteries well supplied with artillery."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "fort-gregg-and-evacuation",
+          "locator": "p.369 (OCR page markers; not checked against print)",
+          "quote": "the former enclosed at the rear with a ditch eight or ten feet deep,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "bridges-railroad-and-fatigue",
+      "dimension": "logistics",
+      "value": "Lee wrote that no bridge short of Goode's or Beaver's let the cut-off brigades cross the Appomattox and that the Danville road would be safe until the next day; Humphreys says Wright's troops were exhausted after eighteen hours under arms and that the retreat began at eight at night with the artillery ahead and the trains kept off the troops' roads.",
+      "rationale": "Movement and supply statements from dispatches and a history; no return inspected.",
+      "citations": [
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-02-a",
+          "locator": "p.1264 (OCR page markers; not checked against print)",
+          "quote": "there is no bridge over which they can cross the Appomattox this side of Goode’s or Beaver’s,"
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-02-b",
+          "locator": "p.1265 (running head reads ''285' in OCR; not checked against print)",
+          "quote": "I think the Danville road will be safe until to-morrow."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "petersburg-april-2",
+          "locator": "p.365 (OCR page markers; not checked against print)",
+          "quote": "General Wright’s troops were so exhausted, having been eighteen hours under arms,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "fort-gregg-and-evacuation",
+          "locator": "p.371 (OCR page markers; not checked against print)",
+          "quote": "the artillery preceding the infantry, the wagon trains keeping as much as possible upon roads where there were to be no troops."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "chosen-point-and-picket-line",
+      "dimension": "information",
+      "value": "Humphreys, following Wright, says the point of assault was chosen after personal examination and the reports of officers who had long scanned the works, and that the attack could not have succeeded without the picket line taken on March 25; Lee reported on April 2 that the enemy had broken through and intercepted his brigades. Humphreys says Ord's secret march with part of the Twenty-fourth Corps left the enemy in ignorance of it until April 2, but Lee's April 1 letter reports prisoners taken that day from the Twenty-fourth Corps and a belief that most of it was south of the James.",
+      "rationale": "Attributed knowledge from an interested history and dispatches. Humphreys' 'ignorance' and Lee's April 1 report conflict and are not reconciled; Lee's letter records a belief, not a complete order of battle.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "chapter-xiii-opening",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "He managed this move¬ ment so well that the enemy remained in ignorance of it un¬ til the 2d of April."
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-01",
+          "locator": "p.1264 (OCR page markers; not checked against print)",
+          "quote": "Prisoners have been taken to-day from the Twenty-fourth Corps, and it is believed that most of that corps is now south of the James."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "petersburg-april-2",
+          "locator": "p.363 (OCR page markers; not checked against print)",
+          "quote": "The point chosen for assault was selected after the most careful consideration, based upon personal examination and the reports of a large number of officers who had scanned the works for a long time."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "petersburg-april-2",
+          "locator": "p.364 (OCR page markers; not checked against print)",
+          "quote": "But for the capture of the enemy’s intrenched picket line on the 25th of March, the attack of the 2d of April could not have succeeded."
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-02-a",
+          "locator": "p.1264 (OCR page markers; not checked against print)",
+          "quote": "enemy have broken through our lines and intercepted between us and them,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "break-lines-and-withdraw",
+      "dimension": "objectives",
+      "value": "Humphreys says the assaulting corps were to move on Petersburg after carrying the works; Lee wrote that he saw no prospect of more than holding his position till night and that his only chance of concentrating was near the Danville railroad.",
+      "rationale": "Stated aims from a history and dispatches.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "petersburg-april-2",
+          "locator": "p.363 (OCR page markers; not checked against print)",
+          "quote": "Upon carrying the works they were to move toward Petersburg."
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-02-a",
+          "locator": "p.1264 (OCR page markers; not checked against print)",
+          "quote": "I see no prospect of doing more than holding our jiosition here till night."
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-02-a",
+          "locator": "p.1264 (OCR page markers; not checked against print)",
+          "quote": "Our only chance, then, of concentrating our forces, is to do so near Danville railroad,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Grant, on news of Five Forks, ordered the Second Corps to feel for a vulnerable point and the assault by Ord, Wright and Parke at four in the morning, and that he himself directed Hays's assault on the Crow house redoubts; he thinks A. P. Hill was probably killed by a party of the Sixth Corps. Lee says he gave all the orders for the withdrawal. The frozen commanders are Lee (CS) and Grant (US); the live page lists Grant and 'Major General Robert Lee'.",
+      "rationale": "Direction attributed as stated; Humphreys' order to Hays is his own participant account. The live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "petersburg-april-2",
+          "locator": "p.362 (OCR page markers; not checked against print)",
+          "quote": "ordered that. General Humphreys should at once feel for a vulnerable point in the enemy’s intrencliments,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sutherland-station",
+          "locator": "p.366 (OCR page markers; not checked against print)",
+          "quote": "General Humphreys directed General Hays to assault the redoubts,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "petersburg-april-2",
+          "locator": "p.365 (OCR page markers; not checked against print)",
+          "quote": "It is probable that General A. P. Hill was killed by one of these parties."
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-02-c",
+          "locator": "p.1265 (running head reads ''285' in OCR; not checked against print)",
+          "quote": "I have given all the orders to officers on both sides of the river,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA089",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA089",
+            "belligerent": "US",
+            "fullname": "Ulysses S. Grant"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "nps-va089-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Humphreys says the Sixth Corps gained the whole front of attack, Parke took the works on either side of the Jerusalem plank road but not a rear line, Fort Gregg was taken, and Lee's intrenchments were found abandoned at three in the morning of April 3; Lee wrote that he must abandon his position that night.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The fall of Petersburg and Richmond is a campaign consequence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA089"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va089-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "petersburg-april-2",
+          "locator": "p.365 (OCR page markers; not checked against print)",
+          "quote": "which soon resulted in giv¬ ing us possession of the whole front of attack."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "petersburg-april-2",
+          "locator": "p.366 (OCR page markers; not checked against print)",
+          "quote": "But a rear line of works remained in possession of the enemy, which General Parke endeavored to carry, but unsuc¬ cessfully."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "fort-gregg-and-evacuation",
+          "locator": "p.369 (OCR page markers; not checked against print)",
+          "quote": "that the place was finally taken by the last of several determined dashes with the bayonet."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "fort-gregg-and-evacuation",
+          "locator": "p.372 (OCR page markers; not checked against print)",
+          "quote": "but at three o’clock in the morning it was discovered that General Lee had abandoned all his intrenchments."
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-02-c",
+          "locator": "p.1265 (running head reads ''285' in OCR; not checked against print)",
+          "quote": "It is absolutely necessary that we should abandon our position to¬ night,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 7,750 (US 3,500; CS 4,250) and the live field 8,746 (US 3,894; CS 4,852). Humphreys gives Wright's 1,100 killed and wounded in fifteen minutes, Parke's capture of 12 guns and 800 prisoners, and Gibbon's loss of 714 with two guns and about 300 prisoners taken and 55 dead found in Fort Gregg; he gives no Confederate total.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Corps figures cover different parts of the day's front and are not summed.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA089"
+          },
+          "column": "casualties_text",
+          "quote": "7,750 total (US 3,500; CS 4,250)"
+        },
+        {
+          "source_id": "nps-va089-v1",
+          "locator": "Estimated Casualties",
+          "quote": "8746 total (US 3894; CS 4852;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "petersburg-april-2",
+          "locator": "p.365 (OCR page markers; not checked against print)",
+          "quote": "His loss in killed and wounded was 1,100, all of which occurred in the space of fifteen minutes."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "petersburg-april-2",
+          "locator": "p.366 (OCR page markers; not checked against print)",
+          "quote": "with 12 guns, some colors, and 800 prisoners."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "fort-gregg-and-evacuation",
+          "locator": "p.370 (OCR page markers; not checked against print)",
+          "quote": "making a total loss of 714."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "fort-gregg-and-evacuation",
+          "locator": "p.370 (OCR page markers; not checked against print)",
+          "quote": "Two guns (in Fort Gregg), several colors, and about 300 officers and men were captured."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "fort-gregg-and-evacuation",
+          "locator": "p.370 (OCR page markers; not checked against print)",
+          "quote": "fifty-five of the enemy were found dead inside the fort,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Grant's report (No. 1, Richmond campaign, pp.50-58), Meade's, Wright's, Parke's, Ord's and Gibbon's reports (Nos. 4, 105, 153, 213; Gibbon's selected and cited under VA092), Wilcox's and Gordon's accounts, the Union casualty return (No. 2) and the Confederate returns remain deferred. Lee's April 1 letter (selected) also reports Dinwiddie and Five Forks; only its prisoners passage is cited here.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

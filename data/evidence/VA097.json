@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA097",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Appomattox Court House record (April 9, 1865) in the Appomattox Campaign [March-April 1865]. The engagement of the morning and the surrender that followed are one frozen record. Humphreys commanded the Second Corps, and his account of its actions here is a participant's. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Armies' and the live field zero. Lee reported that on the morning of the 9th the ordnance officers counted 7,892 organized infantry with arms, the artillery was reduced to 63 pieces, the cavalry did not in his belief exceed 2,100 effective men, and the enemy were more than five times his numbers; Humphreys relays Fitzhugh Lee's mounted force of about 2,400 and the statement that only 8,000 of those surrendered had arms.",
+      "rationale": "Lee's figures are his army-wide armed strength that morning; Fitzhugh Lee's (via Humphreys) is the cavalry's mounted force at daybreak; the 8,000 is an unattributed statement. None is a count of the troops engaged. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA097"
+          },
+          "column": "forces_text",
+          "quote": "Armies"
+        },
+        {
+          "source_id": "nps-va097-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-12",
+          "locator": "p.1266 (OCR page markers; not checked against print)",
+          "quote": "there were 7,892 organized infantry with arms,"
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-12",
+          "locator": "p.1267 (OCR page markers; not checked against print)",
+          "quote": "The artillery, though reduced to sixty-three pieces,"
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-12",
+          "locator": "p.1267 (OCR page markers; not checked against print)",
+          "quote": "but believe it did not exceed 2,100 effective men."
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-12",
+          "locator": "p.1267 (OCR page markers; not checked against print)",
+          "quote": "The enemy were more than live times our numbers."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.397 (OCR page markers; not checked against print)",
+          "quote": "making, General Fitz Lee says, a mounted force of about 2,400 men."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.400 (OCR page markers; not checked against print)",
+          "quote": "It has been stated that of the troops surrendered, only 8, 000 had arms."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "court-house-and-lines",
+      "dimension": "terrain",
+      "value": "Humphreys says Gordon formed half a mile west of the Court House on the Lynchburg road, that the Court House lay between the picket lines, and relays Merritt that the cavalry took the high ground on the enemy's left.",
+      "rationale": "Positions rather than ground conditions; no map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.397 (OCR page markers; not checked against print)",
+          "quote": "At daybreak on the 9th Gordon’s command was formed in line of battle half a mile west of the Court House on the Lynchburg road."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.398 (OCR page markers; not checked against print)",
+          "quote": "Appomattox Court House was between the picket lines of the opposing forces."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.397 (OCR page markers; not checked against print)",
+          "quote": "taking possession of the high ground on the enemy’s left,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "no-subsistence",
+      "dimension": "logistics",
+      "value": "Lee reported no subsistence for man or horse, that the supplies ordered to Pamplin's Station could not reach him, that the infantry averaged seventy-five rounds and the artillery ninety-three, and that the roads were wretched; Humphreys says his own men were dropping out from want of food and fatigue until the supply train came up on the morning of the 9th.",
+      "rationale": "Supply statements from an interested report and a participant's history; the ammunition averages are Lee's. No return inspected.",
+      "citations": [
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-12",
+          "locator": "p.1267 (OCR page markers; not checked against print)",
+          "quote": "We had no subsistence for man or horse, and it could not be gathered in the country."
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-12",
+          "locator": "p.1267 (OCR page markers; not checked against print)",
+          "quote": "The supplies ordered to Pam plin’s Station from Lynchburg could not reach us,"
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-12",
+          "locator": "p.1266 (OCR page markers; not checked against print)",
+          "quote": "with an average of seventy-five rounds"
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-12",
+          "locator": "p.1267 (OCR page markers; not checked against print)",
+          "quote": "with ninety-three rounds of ammunition,"
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-12",
+          "locator": "p.1266 (OCR page markers; not checked against print)",
+          "quote": "The roads were wretched and the progress slow."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.392 (OCR page markers; not checked against print)",
+          "quote": "finding the men dropping out of the ranks from exhaustion, owing to want of food, and to fatigue,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.392 (OCR page markers; not checked against print)",
+          "quote": "The supply-train with two days’ rations was just in rear,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cavalry-or-infantry",
+      "dimension": "information",
+      "value": "Lee says there were indications in the night of a large force massing on his left and front and that Fitz Lee was to ascertain its strength; Humphreys relays that the attack was to open a way if only cavalry was found, and Sheridan that the attack was made under the impression that his force was only cavalry.",
+      "rationale": "Attributed knowledge from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-12",
+          "locator": "p.1266 (OCR page markers; not checked against print)",
+          "quote": "During the night there were indications of a large force massing on our left and front."
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-12",
+          "locator": "p.1266 (OCR page markers; not checked against print)",
+          "quote": "Fitz Lee was directed to ascertain its strength,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "and in case nothing but cavalry was found, they were to open a way for the remaining troops ;"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.398 (OCR page markers; not checked against print)",
+          "quote": "under the impression that our force was only cavalry,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "break-out-or-surrender",
+      "dimension": "objectives",
+      "value": "Lee says Fitz Lee, supported by Gordon, was ordered to drive the enemy from his front and cover the trains' passage, and that he requested a suspension of hostilities to learn Grant's terms; Humphreys says he declined Lee's requests to halt without authority from Meade or Grant.",
+      "rationale": "Stated aims from an interested report and a participant's history.",
+      "citations": [
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-12",
+          "locator": "p.1266 (OCR page markers; not checked against print)",
+          "quote": "Fitz Lee, with the cavalry, supported by Gordon, was ordered to drive the enemy from his front, wheel to the left, and cover the passage of the trains;"
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-12",
+          "locator": "p.1266 (OCR page markers; not checked against print)",
+          "quote": "I requested a suspension of hos¬ tilities until these terms could be arranged."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.394 (OCR page markers; not checked against print)",
+          "quote": "General Hum¬ phreys did not feel himself authorized to comply with these requests,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Lee says he surrendered the part of his army on the field on the terms agreed with Grant; Humphreys says Grant arrived about one o'clock, judges that the surrender would have come before midday had Grant stayed on the Second and Sixth Corps' route, and relays Ord that his infantry arrived about ten. The frozen commanders are Lee (CS) and Grant (US); the live page lists Grant and 'Major General Robert Lee'.",
+      "rationale": "Direction and counterfactual attributed as stated; the live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-12",
+          "locator": "p.1266 (OCR page markers; not checked against print)",
+          "quote": "I surrendered that portion of the Army of Northern Virginia which was on the field,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.399 (OCR page markers; not checked against print)",
+          "quote": "General Grant arrived at Appomattox Court House about one o’clock,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.394 (OCR page markers; not checked against print)",
+          "quote": "Had General Grant remained on the route of the Second and Sixth Corps, the surrender would have taken place be¬ fore mid-day."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "he says he arrived near the Court House about ten o’clock in the morning of the 9th,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA097",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA097",
+            "belligerent": "US",
+            "fullname": "Ulysses S. Grant"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "nps-va097-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Lee reported the surrender of the Army of Northern Virginia to the President on April 12; Humphreys says the surrender was announced to the Army of the Potomac at about four o'clock.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The surrender ends the campaign; its campaign significance is not a battle feature.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA097"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va097-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or46-1-lee-appomattox-selections-v1",
+          "section": "lee-1865-04-12",
+          "locator": "p.1265 (running head reads ''285' in OCR; not checked against print)",
+          "quote": "It is with pain that I announce to Your Excellency the surrender of the Army of Northern Virginia."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.399 (OCR page markers; not checked against print)",
+          "quote": "At about four o’clock the surrender of the Army of North¬ ern Virginia was announced to the Army of the Potomac."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-and-parole-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads '700 total (27,805 Confederate soldiers paroled)' and the live field 664 (US 164; CS 500). Humphreys gives the War Department's paroles as 26,707 of infantry, cavalry and artillery and 28,356 with detachments, and the Union loss from March 29 to April 9 as 9,944 (8,268 killed and wounded and 1,676 missing).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The parole counts are a post-surrender population on different bases from the frozen 27,805; the 9,944 is campaign-wide context and is not assigned to this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA097"
+          },
+          "column": "casualties_text",
+          "quote": "700 total (27,805 Confederate soldiers paroled)"
+        },
+        {
+          "source_id": "nps-va097-v1",
+          "locator": "Estimated Casualties",
+          "quote": "664 total (US 164; CS 500;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.399 (OCR page markers; not checked against print)",
+          "quote": "Total Infantry, Cavalry, and Artillery . 2,574 24,133 26,707"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.399 (OCR page markers; not checked against print)",
+          "quote": "Grand Total . 2,862 25,494 28,356"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.400 (OCR page markers; not checked against print)",
+          "quote": "making a total loss of 9, 944."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Grant's report (No. 1, Richmond campaign), Meade's, Ord's, Gibbon's and Crook's reports (Nos. 4, 213, 219, 208; Gibbon's selected and cited under VA092), Gordon's and Longstreet's accounts, Fitzhugh Lee's report (selected; cited under other records), the parole table (No. 269), the Union casualty return (No. 2) and the Grant-Lee correspondence (Humphreys' Appendix M) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

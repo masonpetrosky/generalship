@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA090",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Sutherland's Station record (April 2, 1865) in the Appomattox Campaign [March-April 1865]. The Petersburg assault (VA089) is the same day. Humphreys commanded the Second Corps, and his account of its actions here is a participant's. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Divisions' and the live field zero. Humphreys says the force was McGowan's, McRae's, Scales's and Cooke's brigades of Hill's corps under Heth, later under Cooke; Miles names the brigades he committed (Nugent's, Madill's under MacDougall, and Ramsey's).",
+      "rationale": "Formation lists only; no headcount for either side. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA090"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va090-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sutherland-station",
+          "locator": "p.367 (OCR page markers; not checked against print)",
+          "quote": "This force consisted of McGowan’s, McRae’s, Scales’s, and Cook’s brigades of Hill’s corps under General Heth,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sutherland-station",
+          "locator": "p.368 (OCR page markers; not checked against print)",
+          "quote": "he attacked impetuously with the brigades of Nugent and Madill,"
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-20",
+          "locator": "p.711 (OCR page markers; not checked against print)",
+          "quote": "the Fourth Brigade (Brevet Brigadier- Gen eral Bamsey) was moved rapidly around it through a ravine and wood,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ridge-and-hasty-works",
+      "dimension": "terrain",
+      "value": "Humphreys says Heth chose the summit of a smooth open ridge with a small stream six or eight hundred yards in front and a wooded opposite slope, hastily intrenched; Miles attributes his first repulse to the natural strength of the position and the difficult ground.",
+      "rationale": "The ridge and stream predate the action; the works were built that day and are not tagged inherited. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sutherland-station",
+          "locator": "p.367 (OCR page markers; not checked against print)",
+          "quote": "General Heth selected a position foy them on the summit of a smooth open ridge,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sutherland-station",
+          "locator": "p.368 (OCR page markers; not checked against print)",
+          "quote": "The Confederate position was intrenched hastily as well as time admitted."
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-20",
+          "locator": "p.711 (OCR page markers; not checked against print)",
+          "quote": "owing to the natural strength of the position and the difficult nature of the ground inter¬ vening the assault was unsuccessful."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "disapproved-pursuit-and-concealment",
+      "dimension": "information",
+      "value": "Humphreys says Meade, on being advised of his move by the Claiborne road, did not approve it and changed the orders, and that he left Miles after Miles said he could defeat the force; Miles says his skirmish line diverted the enemy's attention and the Fourth Brigade massed in the woods undiscovered.",
+      "rationale": "Attributed knowledge from a participant's history and an interested report.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sutherland-station",
+          "locator": "p.367 (OCR page markers; not checked against print)",
+          "quote": "General Meade was at once advised of this, as it was not in accordance with his orders, and as he did not approve of this movement the orders to the division commanders were changed."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sutherland-station",
+          "locator": "p.368 (OCR page markers; not checked against print)",
+          "quote": "Finding that General Miles was satisfied that he could defeat the force before him, General Humphreys left him to accomplish it"
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-20",
+          "locator": "p.711 (OCR page markers; not checked against print)",
+          "quote": "The attention ot the enemy being thus diverted from his left flank,"
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-20",
+          "locator": "p.711 (OCR page markers; not checked against print)",
+          "quote": "massed in the woods without being discovered by the enemy."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "close-in-on-rear",
+      "dimension": "objectives",
+      "value": "Humphreys says he meant to close on the rear of the force Wright had cut off from Petersburg; NPS says the Confederate brigades were trying to defend the South Side Railroad; Miles says Sheridan directed him to drive the enemy toward Petersburg.",
+      "rationale": "Stated aims from a participant's history, a report and a summary.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sutherland-station",
+          "locator": "p.367 (OCR page markers; not checked against print)",
+          "quote": "He expected by this movement to close in on the rear of all the enemy’s force, which General Wright, by penetrating their works, had cut off from Petersburg,"
+        },
+        {
+          "source_id": "nps-va090-v1",
+          "locator": "Description",
+          "quote": "attempting to defend the South Side Railroad."
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-20",
+          "locator": "p.712 (OCR page markers; not checked against print)",
+          "quote": "As I was directed by General Sheridan to drive the enemy toward Petersburg,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Heth chose the position but was called to Petersburg to command Hill's corps, leaving Cooke in command, and judges that the whole force would probably have been captured had the Second Corps continued its march; Miles says he determined on the flank attack after two repulses. The frozen commanders are Heth and Wilcox (CS) and Miles (US); the live page lists Miles and Heth.",
+      "rationale": "Direction and counterfactual attributed as stated; Wilcox's role at Sutherland's Station is not described in the inspected passages. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sutherland-station",
+          "locator": "p.368 (OCR page markers; not checked against print)",
+          "quote": "General Cook, who now commanded the force opposed to him (Gen¬ eral Hetli having been called to Petersburg to take command of Hill’s corps),"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sutherland-station",
+          "locator": "p.369 (OCR page markers; not checked against print)",
+          "quote": "Probably the whole force would have been captured in the morning had the Second Corps con¬ tinued its march toward Sutherland Station."
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-20",
+          "locator": "p.711 (OCR page markers; not checked against print)",
+          "quote": "I now determined to carry the posi¬ tion by an attack on the enemy’s flank."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA090",
+            "belligerent": "Confederate",
+            "fullname": "Henry Heth"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA090",
+            "belligerent": "Confederate",
+            "fullname": "Cadmus Wilcox"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA090",
+            "belligerent": "US",
+            "fullname": "Nelson A. Miles"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va090-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Nelson Miles [US]"
+        },
+        {
+          "source_id": "nps-va090-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Henry Heth [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Miles says Ramsey's brigade swept down inside the breastworks and put the rest to flight; Humphreys says the enemy retreated in confusion toward the Appomattox.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA090"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va090-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-20",
+          "locator": "p.711 (OCR page markers; not checked against print)",
+          "quote": "sweeping rapidly down inside the breast works, capturing a large number of prisoners and putting to precipitous flight the remainder."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sutherland-station",
+          "locator": "p.368 (OCR page markers; not checked against print)",
+          "quote": "The enemy retreated in confusion toward the Appomattox,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 970 (US 370; CS 600) and the live field 966 (US 366; CS 600). Humphreys and Miles give 600 prisoners, one battle-flag and two guns; Miles's April 10 list dates the color and two guns 'April 1, near Sutherland's Station'. Neither inspected source gives the Union loss here.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The April 1 date in the captures list conflicts with the April 2 action and is preserved.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA090"
+          },
+          "column": "casualties_text",
+          "quote": "970 total (US 370; CS 600)"
+        },
+        {
+          "source_id": "nps-va090-v1",
+          "locator": "Estimated Casualties",
+          "quote": "966 total (US 366; CS 600;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sutherland-station",
+          "locator": "p.368 (OCR page markers; not checked against print)",
+          "quote": "capturing 600 . prisoners, one battle- flag, and two guns."
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-20",
+          "locator": "p.712 (OCR page markers; not checked against print)",
+          "quote": "The division captured GOO prisoners, 1 battle-flag, and 2 pieces of artillery."
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-10",
+          "locator": "p.714 (OCR page markers; not checked against print)",
+          "quote": "April 1, near Sutherland’s Station, 1 color and 2 guns;"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Humphreys' own report (No. 21), the brigade reports of Nugent, MacDougall and Ramsey (Nos. 32, 38, 45), Cooke's, McGowan's and Heth's accounts, Sheridan's account of relinquishing the division (selected; cited under VA088) and the returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

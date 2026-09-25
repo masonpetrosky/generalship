@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA095",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen High Bridge record (April 6-7, 1865) in the Appomattox Campaign [March-April 1865]. The record joins Read's April 6 raid on the bridges and the Second Corps' April 7 crossing; Rice's Station (VA092) is April 6 and Cumberland Church (VA094) April 7. Humphreys commanded the Second Corps, and his account of its actions here is a participant's. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Divisions' and the live field zero. Humphreys says Ord sent two small regiments, together only 500 strong, and his headquarters cavalry, 80 in number, and relays Ord's 80 cavalry and 500 infantry; they met Rosser with his own and Munford's divisions. On April 7 he says few of the enemy were at the bridge and Mahone's division stood on the north bank. Fitzhugh Lee calls Read's force a picked body of infantry and a squadron of cavalry.",
+      "rationale": "Union figures for Read's party only; Confederate forces by formation. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA095"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va095-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.378 (OCR page markers; not checked against print)",
+          "quote": "General Ord sent two small regiments of infantry, together only 500 strong, and his Headquarters cavalry, 80 in number,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "Read’s force, General Ord says, con¬ sisted of 80 cavalry and 500 infantry."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "by General Rosser with his own and Munford’s division of cavalry."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.387 (OCR page markers; not checked against print)",
+          "quote": "There were but few of the enemy at the bridge,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.387 (OCR page markers; not checked against print)",
+          "quote": "Mahone’s division was drawn up on the high ground of the north bank,"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1302 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s force proved to be a picked body of infantry and a squadron of cavalry,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "bridges-river-and-marsh",
+      "dimension": "terrain",
+      "value": "Humphreys says High Bridge stood on piers about 60 feet high over the narrow river and wide marshy low ground, that there was a wagon-road bridge as well, and that the river was not fordable for infantry; Mahone's position on the north bank was strengthened by two redoubts.",
+      "rationale": "The river, bridges and marsh predate the action; the redoubts' construction date is not given. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.387 (OCR page markers; not checked against print)",
+          "quote": "built upon piers about 60 feet high across the narrow river and the wide marshy low ground on the north bank."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.386 (OCR page markers; not checked against print)",
+          "quote": "where there is a wagon-road bridge as well as a railroad bridge."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.387 (OCR page markers; not checked against print)",
+          "quote": "a matter of importance since the river was not ford¬ able for infantrv."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.387 (OCR page markers; not checked against print)",
+          "quote": "his position being strengthened by two re¬ doubts,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "saved-crossing",
+      "dimension": "logistics",
+      "value": "Humphreys says the railroad bridge was saved with the loss of four spans by Livermore's party, and that without the Second Corps' effort the wagon-road bridge could not have been secured and no infantry could have crossed.",
+      "rationale": "A crossing kept open by the action, described in a participant's history; no engineer report inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.387 (OCR page markers; not checked against print)",
+          "quote": "This railroad bridge was saved, with the loss of four spans at the north end, chiefly by the exertions of Colonel Livermore,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.390 (OCR page markers; not checked against print)",
+          "quote": "Without it the wagon-road bridge at High Bridge could not have been secured, and no infantry could have crossed"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "unwarned-raid",
+      "dimension": "information",
+      "value": "Humphreys says Ord tried and failed to warn Read of Lee's movement; Fitzhugh Lee says Rosser learned at Rice's Station that a force had been detached to strike Longstreet's rear and moved at once to counter it.",
+      "rationale": "Attributed knowledge from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "General Ord endeavored to warn General Read of the movement of Lee’s army, but un¬ successfully,"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1302 (OCR page markers; not checked against print)",
+          "quote": "where learning that a force had been detached from the Federal left, confronting Longstreet at that point, to open on his rear, moved at once to counteract their purpose."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "burn-or-hold-bridges",
+      "dimension": "objectives",
+      "value": "Humphreys says Read's party was sent to burn High Bridge and the Farmville bridges if not too well guarded, and that on April 7 the Confederates had fired the railroad bridge and were trying to burn the wagon-road bridge when the Second Corps arrived; Fitzhugh Lee says the party's object was the bridge's destruction.",
+      "rationale": "Stated aims from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.378 (OCR page markers; not checked against print)",
+          "quote": "to burn High Bridge and the bridges at Farmville, if not too well guarded."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.387 (OCR page markers; not checked against print)",
+          "quote": "and were trying to burn the wagon-road bridge."
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1302 (OCR page markers; not checked against print)",
+          "quote": "had for its object the destruction of the High Bridge over the Appomattox, in our rear."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says General Theodore Read of Ord's staff conducted the party and that Barlow sent his leading men to secure the wagon-road bridge; Fitzhugh Lee says Rosser led his own and Munford's divisions and names Read, killed, as 'Briga¬ dier-General'. The frozen commanders are Rosser and Mahone (CS) and Colonel T. Read and A. A. Humphreys (US); the live page lists 'Major General Thomas Rosser [US]' and Mahone.",
+      "rationale": "Read's rank differs between the frozen row (Colonel) and the two accounts; the live page puts Rosser on the Union side. Neither is adopted. Mahone's direction is not described beyond his division's position. Humphreys writes as a participant for April 7. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.378 (OCR page markers; not checked against print)",
+          "quote": "General Theodore Read of his staff conducting the party,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.387 (OCR page markers; not checked against print)",
+          "quote": "But General Barlow, whose division wras in advance, promptly sent his leading men in double-quick to secure the wagon-road bridge,"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1302 (OCR page markers; not checked against print)",
+          "quote": "General Rosser, in command of his own, and my old division, under Munford,"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1302 (OCR page markers; not checked against print)",
+          "quote": "including amongst the killed their commander, Briga¬ dier-General Read,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA095",
+            "belligerent": "Confederate",
+            "fullname": "Thomas Rosser"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA095",
+            "belligerent": "Confederate",
+            "fullname": "William Mahone"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA095",
+            "belligerent": "US",
+            "fullname": "T. Read"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA095",
+            "belligerent": "US",
+            "fullname": "A. A. Humphreys"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va095-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Thomas Rosser [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads 'Inconclusive' and the live 'Indecisive'. Humphreys and Fitzhugh Lee say Read's party was defeated and surrendered on April 6; Humphreys says the Second Corps secured the wagon-road bridge and crossed on April 7.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The day results differ in direction and the record-level category is not revised.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA095"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va095-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "After heavy loss the rest of the force surrendered."
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1302 (OCR page markers; not checked against print)",
+          "quote": "After a sharp encounter they were defeated,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.387 (OCR page markers; not checked against print)",
+          "quote": "the Second Corps began crossing the river at once."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,200 total with 800 Union captured, and the live field 947 (US 847; CS 100). Fitzhugh Lee gives some 780 prisoners and names Dearing, Boston and Thomson among his killed; Humphreys says Read, Washburn and all the cavalry officers were killed and the rest surrendered, and names Dearing, Boston and Thompson.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Fitzhugh Lee's OCR reads 'Hearing' for Dearing. Humphreys' 580 for Read's whole party (80 plus 500, a computation) is below Fitzhugh Lee's 780 prisoners and the frozen 800 captured; not reconciled. No figure is given for April 7.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA095"
+          },
+          "column": "casualties_text",
+          "quote": "1,200 total (US 800 captured)"
+        },
+        {
+          "source_id": "nps-va095-v1",
+          "locator": "Estimated Casualties",
+          "quote": "947 total (US 847; CS 100;)"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1302 (OCR page markers; not checked against print)",
+          "quote": "our forces capturing some 780 prisoners,"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1302 (OCR page markers; not checked against print)",
+          "quote": "the lives of Brigadier-General Hearing, of Rosser’s division, Colonel Boston,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "in which General Read, Colonel Washburn, and all the cavalry officers were killed."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "General Dearing, Colonel Boston, and Major Thompson of Rosser’s command were among the killed."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Ord's report (No. 213), Barlow's report (No. 54), Humphreys' own report (No. 21), Livermore's account, Rosser's, Munford's and Mahone's accounts and the returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

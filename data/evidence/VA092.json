@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA092",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Rice's Station record (April 6, 1865) in the Appomattox Campaign [March-April 1865]. Sailor's Creek (VA093) and the April 6 High Bridge fight (VA095) are the same day. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Corps' and the live field zero. Humphreys says Ord moved with Gibbon's two divisions, that Longstreet withdrew that night with Field's, Heth's and Wilcox's divisions after sending Mahone's back to cover the fugitives, and, in Appendix L, that Ord took about 10,000 infantry of Gibbon's corps on March 27; Gibbon names Foster's and Turner's divisions.",
+      "rationale": "Formation lists and an earlier army-level figure; no count at Rice's Station. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA092"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va092-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "moved along the Lynchburg Railroad with Gibbon’s two divisions"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.386 (OCR page markers; not checked against print)",
+          "quote": "As soon as night set in General Longstreet, with Field, Hetli, and Wilcox, marched for Farmville,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.384 (OCR page markers; not checked against print)",
+          "quote": "having been sent back by General Longstreet from Rice’s Station to cover the escape of the fugitives."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appendix-l-returns",
+          "locator": "p.433 (OCR page markers; not checked against print)",
+          "quote": "Of this force General Ord took with him on the 27th of March 10,000 infantry of Gibbon’s Corps,"
+        },
+        {
+          "source_id": "or46-1-gibbon-appomattox-selections-v1",
+          "section": "gibbon-1865-04-24",
+          "locator": "p.1173 (OCR page markers; not checked against print)",
+          "quote": "On the night of 27th of March Foster’s and Turner’s divisions were withdrawn from the north side of the James River."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "intrenched-station",
+      "dimension": "terrain",
+      "value": "Humphreys and Gibbon say Longstreet was found intrenched at Rice's Station.",
+      "rationale": "Works built there that day are not tagged inherited. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "came upon Longstreet, intrenched at Rice’s Station ;"
+        },
+        {
+          "source_id": "or46-1-gibbon-appomattox-selections-v1",
+          "section": "gibbon-1865-04-24",
+          "locator": "p.1174 (OCR page markers; not checked against print)",
+          "quote": "we came upon the enemy intrenched at Rice’s Station,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "long-march",
+      "dimension": "logistics",
+      "value": "Humphreys and Gibbon say the Twenty-fourth Corps reached Burke's Junction late on April 5 after marching fifty-two miles since April 3, and marched another eight or ten miles on the 6th.",
+      "rationale": "March statements; the two accounts agree and are not independent (Humphreys follows the corps reports). No return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.378 (OCR page markers; not checked against print)",
+          "quote": "having marched fifty-two miles since the morning of the 3d."
+        },
+        {
+          "source_id": "or46-1-gibbon-appomattox-selections-v1",
+          "section": "gibbon-1865-04-24",
+          "locator": "p.1174 (OCR page markers; not checked against print)",
+          "quote": "reaching that point, distance fifty-two miles, late on the night of the 5th,"
+        },
+        {
+          "source_id": "or46-1-gibbon-appomattox-selections-v1",
+          "section": "gibbon-1865-04-24",
+          "locator": "p.1174 (OCR page markers; not checked against print)",
+          "quote": "After marching eight or ten miles"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warnings-and-waiting",
+      "dimension": "information",
+      "value": "Humphreys says Ord first prepared to meet Lee at Burke's Junction on Sheridan's word that Lee was moving that way, tried unsuccessfully to warn Read, and that Longstreet waited at Rice's Station all day for Anderson, Ewell and Gordon.",
+      "rationale": "Attributed knowledge from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "General Ord, having been notified by General Sheridan, on the 6th, that General Lee was apparently moving toward Burke’s Junction, at first prepared to meet him there,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "General Ord endeavored to warn General Read of the movement of Lee’s army, but un¬ successfully,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "It has been seen that General Longstreet remained halted at Rice’s Station all day waiting for Anderson, Ewell, and Gordon to unite with him."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "block-and-wait",
+      "dimension": "objectives",
+      "value": "Gibbon says the corps marched to head off Lee's forces trying to get round the Union left toward Danville; Humphreys says Longstreet was to wait at Rice's Station for the rest of the army.",
+      "rationale": "Stated aims from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or46-1-gibbon-appomattox-selections-v1",
+          "section": "gibbon-1865-04-24",
+          "locator": "p.1174 (OCR page markers; not checked against print)",
+          "quote": "resumed the march toward Farmville to head off Lee’s forces, which were trying to get round our left flank toward Danville."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.377 (OCR page markers; not checked against print)",
+          "quote": "There Longstreet was to wait the coming up of the rest of Lee’s army."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Ord moved to intercept Lee with Gibbon's two divisions on orders also sent by Grant; Gibbon says he made preparations to attack. The frozen commanders are Longstreet (CS, Lieutenant General) and Gibbon (US); the live page lists Gibbon and 'Major General James Longstreet'.",
+      "rationale": "Ord, not a frozen commander, commanded the column in Humphreys' account. Longstreet's direction is described only as waiting and withdrawing. The live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "with a view to intercept him, moved along the Lynchburg Railroad with Gibbon’s two divisions (orders to that effect also having been sent him by General Grant),"
+        },
+        {
+          "source_id": "or46-1-gibbon-appomattox-selections-v1",
+          "section": "gibbon-1865-04-24",
+          "locator": "p.1174 (OCR page markers; not checked against print)",
+          "quote": "and at once made preparations to attack him,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA092",
+            "belligerent": "Confederate",
+            "fullname": "James Longstreet"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA092",
+            "belligerent": "US",
+            "fullname": "John Gibbon"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va092-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General James Longstreet [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Gibbon says night ended the operations before his troops could drive in the pickets and the enemy was gone at daylight, retreating across the Appomattox at Farmville; Humphreys says Longstreet marched for Farmville as soon as night set in and crossed there; NPS says Longstreet withdrew over the High Bridge.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. NPS's High Bridge route conflicts with Humphreys' and Gibbon's Farmville crossing for Longstreet's column (Humphreys sends Gordon and Mahone over High Bridge); not reconciled.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA092"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va092-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or46-1-gibbon-appomattox-selections-v1",
+          "section": "gibbon-1865-04-24",
+          "locator": "p.1174 (OCR page markers; not checked against print)",
+          "quote": "night put an end to the operations, and when we moved forward at daylight the next morning the enemy had gone."
+        },
+        {
+          "source_id": "or46-1-gibbon-appomattox-selections-v1",
+          "section": "gibbon-1865-04-24",
+          "locator": "p.1175 (OCR page markers; not checked against print)",
+          "quote": "he retreated across the Appo¬ mattox at that point, burning the bridges behind him."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.386 (OCR page markers; not checked against print)",
+          "quote": "crossed to the north bank of the Appomattox there,"
+        },
+        {
+          "source_id": "nps-va092-v1",
+          "locator": "Description",
+          "quote": "Longstreet withdrew over the High Bridge during the night toward Farmville."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 'Few' and the live field 66 (US 66; CS 0). Neither Humphreys nor Gibbon gives a figure for Rice's Station; Gibbon's recapitulation (946) covers the whole campaign.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The campaign recapitulation is not assigned to this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA092"
+          },
+          "column": "casualties_text",
+          "quote": "Few"
+        },
+        {
+          "source_id": "nps-va092-v1",
+          "locator": "Estimated Casualties",
+          "quote": "66 total (US 66; CS 0;)"
+        },
+        {
+          "source_id": "or46-1-gibbon-appomattox-selections-v1",
+          "section": "gibbon-recapitulation",
+          "locator": "p.1176 (OCR page markers; not checked against print)",
+          "quote": "Total casualties, 946."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Ord's report (No. 213), the Twenty-fourth Corps division reports (Nos. 221, 240), Longstreet's account and the returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

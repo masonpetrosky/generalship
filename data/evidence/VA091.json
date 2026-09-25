@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA091",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Amelia Springs record (April 5, 1865) in the Appomattox Campaign [March-April 1865]. Davies's destruction of the wagon train at Paineville the same day is the occasion of the action. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Divisions' and the live field zero. Humphreys says Fitz Lee was sent against Davies with Munford's and Rosser's divisions and that Crook supported Davies with Gregg's and Smith's brigades; Fitzhugh Lee says he joined Gary's brigade and attacked with Rosser's division mounted and part of his old division dismounted.",
+      "rationale": "Formation lists only. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA091"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va091-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "namozine-and-amelia-springs",
+          "locator": "p.377 (OCR page markers; not checked against print)",
+          "quote": "General Fitz Lee, with Mnnford’s and Rosser’s divisions, was sent against Davies,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "namozine-and-amelia-springs",
+          "locator": "p.377 (OCR page markers; not checked against print)",
+          "quote": "supported by General Crook, with Gregg’s and Smith’s brigades."
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "soon closed up on Gary with his brigade,"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "The attack was made with Bosser’s division, mounted, supported by a portion of my old division, dismounted."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "flat-creek",
+      "dimension": "terrain",
+      "value": "Humphreys says Flat Creek, near which Davies was attacked before recrossing, was eighty or a hundred feet wide and deep enough to need bridges for an army.",
+      "rationale": "The creek predates the action. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "namozine-and-amelia-springs",
+          "locator": "p.377 (OCR page markers; not checked against print)",
+          "quote": "just before he recrossed Flat Creek,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "namozine-and-amelia-springs",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "Flat Creek, a tributary of the Appomattox, is eighty or one hundred feet wide,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "burned-train-and-rations",
+      "dimension": "logistics",
+      "value": "Humphreys says Davies drove off Gary's escort, burned the wagons and took five guns, and that part of Lee's army obtained rations at Amelia Court House while some troops were already suffering for want of food; Fitzhugh Lee says his own headquarters wagons were among those burned.",
+      "rationale": "The train's destruction was created by the Union raid; the rations statement is army-wide context. No return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "namozine-and-amelia-springs",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "it attacked, drove off the escort (taking some prisoners), burned the wagons, and captured five pieces of artillery,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "namozine-and-amelia-springs",
+          "locator": "p.375 (OCR page markers; not checked against print)",
+          "quote": "Rations were obtained here by a part of Lee’s army, but some of his troops were already suffering for the want of food,"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "I found the enemy had attacked and burned a portion of the cavalry train, including my own headquarters wagons,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-and-reports",
+      "dimension": "information",
+      "value": "Humphreys says Davies was sent to learn whether the enemy were moving toward that flank to escape; Fitzhugh Lee says the train was reported attacked, and that his pursuit found infantry in large force near Jetersville and a captured dispatch that night put Grant there in person.",
+      "rationale": "Attributed knowledge from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "namozine-and-amelia-springs",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "to ascertain if the enemy were making any movement toward that flank to escape."
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "a portion of which was reported to have been attacked by some of the enemy’s cavalry."
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "where their infantry were found in large force."
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "(A dispatch captured that night showed General Grant to be there in person.)"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "raid-and-protect-train",
+      "dimension": "objectives",
+      "value": "Humphreys says Sheridan sent Davies's brigade to reconnoitre Paine's Cross-Roads; Fitzhugh Lee says he was ordered onto the Paineville road to protect the wagon train.",
+      "rationale": "Stated aims from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "namozine-and-amelia-springs",
+          "locator": "p.376 (OCR page markers; not checked against print)",
+          "quote": "General Sheridan sent General Davies’s brigade of Crook’s division to make a reconnoissance to Paine’s Cross-Roads (Paineville),"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "I was ordered to move with my command on the Paineville road to protect the wagon train,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Fitzhugh Lee says he started the pursuit at once and praises Dearing's leading of the charge; Humphreys says Fitz Lee was sent against Davies and Crook supported him. The frozen commanders are Rosser and Fitzhugh Lee (CS) and Crook (US); the live page lists Crook as Brigadier General and Rosser, omitting Fitzhugh Lee.",
+      "rationale": "Direction attributed as stated; Rosser's own direction is described only as his division's attack. The live rank and the omission are not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "I started at once in pursuit,"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "The gallantry of Brigadier-General Dearing in leading the charge of his command was here very conspicuous."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA091",
+            "belligerent": "Confederate",
+            "fullname": "Thomas Rosser"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA091",
+            "belligerent": "Confederate",
+            "fullname": "Fitzhugh Lee"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA091",
+            "belligerent": "US",
+            "fullname": "George Crook"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va091-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General George Crook [US]"
+        },
+        {
+          "source_id": "nps-va091-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Thomas Rosser [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads 'Inconclusive' and the live 'Indecisive'. Fitzhugh Lee says the enemy were driven to within a mile of Jetersville, where the pursuit stopped; Humphreys places the attack at Amelia Springs about sunset as Davies was about to recross Flat Creek; NPS says the running fight began north of Amelia Springs and went beyond Jetersville.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The accounts place the fight differently and are not reconciled.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA091"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va091-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "the enemy were rapidly driven within a mile of Jetersville,"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "The pursuit was discontinued, and the command placed in camp at Amelia Springs."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "namozine-and-amelia-springs",
+          "locator": "p.377 (OCR page markers; not checked against print)",
+          "quote": "attacking him at Amelia Springs about sunset,"
+        },
+        {
+          "source_id": "nps-va091-v1",
+          "locator": "Description",
+          "quote": "This running fight started north of Amelia Springs and pushed through and beyond Jetersville."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 250 total and the live field 158 (US 158; CS 0). Fitzhugh Lee says 30 of the enemy were killed and 150 wounded and captured and that his own loss was not very heavy, naming two officers mortally wounded; Humphreys gives no figures for the action.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live Confederate zero conflicts with Fitzhugh Lee's own casualties and is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA091"
+          },
+          "column": "casualties_text",
+          "quote": "250 total"
+        },
+        {
+          "source_id": "nps-va091-v1",
+          "locator": "Estimated Casualties",
+          "quote": "158 total (US 158; CS 0;)"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "In this encounter 30 of the enemy were killed, principally with the sabre, and 150 wounded and captured."
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1301 (OCR page markers; not checked against print)",
+          "quote": "Our loss was not very heavy,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Crook's, Davies's, Gregg's and Smith's reports (Nos. 208-212), Sheridan's account of the Paineville raid (selected; cited under VA088), Rosser's and Gary's accounts and the returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

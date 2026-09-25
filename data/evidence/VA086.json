@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA086",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Dinwiddie Court House record (March 31, 1865) in the Appomattox Campaign [March-April 1865]. White Oak Road (VA087) is the same day; Five Forks (VA088) follows on April 1. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads 65,277 (US 45,247; CS 20,030) and the live field zero. Humphreys gives, from the February 20 return, 5,760 enlisted men in the two Lees' cavalry divisions (including Roberts's brigade) and about 3,600 of Pickett's and 3,000 of Johnson's infantry (6,600) for the five brigades at Five Forks, and the present for duty of Sheridan's enlisted cavalry as 13,000; Fitzhugh Lee says Pickett came up with five small brigades of infantry.",
+      "rationale": "The frozen figures state no date or population. Humphreys' Confederate figures are February 20 return strengths assigned to the formations present, not counts on March 31; the Union cavalry figure is a campaign-opening present-for-duty total. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA086"
+          },
+          "column": "forces_text",
+          "quote": "65,277 total (US 45,247; CS 20,030)"
+        },
+        {
+          "source_id": "nps-va086-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "According to the Return of February 20th, the cavalry di¬ visions of the two Lees numbered 5,760 enlisted men, in¬ cluding Roberts’s brigade,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "The infantry under Pickett, by the same return, numbered about 3,600 en¬ listed men of his own division and 3,000 of Johnson’s, mak¬ ing a total of 6,600."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "spring-1865-strengths",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "The present for duty of the enlisted men of cavalry under General Sheridan was 13,000."
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1299 (OCR page markers; not checked against print)",
+          "quote": "Pickett coming up with five small brigades of iufantry,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "wooded-ground-and-streams",
+      "dimension": "terrain",
+      "value": "Humphreys says the ground of most of the day's fighting was very heavy and largely densely wooded, and places Fitzgerald's crossing of Chamberlain's Bed two and a half miles by road from the Court House; Fitzhugh Lee says his flanking column moved by a concealed wooded road and that a strongly defended stream crossing was an unexpected obstacle.",
+      "rationale": "The woods and the stream predate the engagement; the crossing's defence did not. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "dinwiddie-court-house",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "The ground over which the greater part of the fighting took place during the day was very heavy ; a large part of it was densely wooded."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "dinwiddie-court-house",
+          "locator": "p.334 (OCR page markers; not checked against print)",
+          "quote": "Fitzger¬ ald’s crossing was two and one-half miles from Dinwiddie Court House, measured by the road,"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1299 (OCR page markers; not checked against print)",
+          "quote": "moved by a concealed wooded road to turn and attack their flank"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1299 (OCR page markers; not checked against print)",
+          "quote": "A short stream, strongly defended at its crossing, presented an unexpected obstacle to the sudden attack contemplated."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "broken-bridge-and-flood",
+      "dimension": "logistics",
+      "value": "Humphreys says the Boydton road bridge over Gravelly Run had been destroyed on the 29th, the stream was swollen and unfordable for infantry, and a forty-foot span had to be built before Warren's reinforcements could reach Sheridan.",
+      "rationale": "Movement conditions for the relief of Sheridan from an interested history; no return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "dinwiddie-court-house",
+          "locator": "p.336 (OCR page markers; not checked against print)",
+          "quote": "the bridge at the Boydton road crossing of Gravelly Bun had been destroyed by the enemy on the 29th, and the stream, swollen by the rains, had be¬ come unfordable for infantry,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "dinwiddie-court-house",
+          "locator": "p.337 (OCR page markers; not checked against print)",
+          "quote": "which, it was found, required the building of a span forty feet in length,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "night-reports",
+      "dimension": "information",
+      "value": "Humphreys says Sheridan reported Pickett's arrival to Grant on March 30, that the telegraph between headquarters was evidently working badly, and that Bartlett's brigade on Gravelly Run became known to Pickett about ten at night and, by Fitzhugh Lee's account, was taken for the Fifth Corps' advance; Fitzhugh Lee says they learned in the night that the Fifth Corps had about-faced and was marching to Sheridan's support.",
+      "rationale": "Attributed knowledge from a history and an interested report; not a message log.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "General Sheridan was soon made aware of Pickett’s arrival there, and reported it to General Grant."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "dinwiddie-court-house",
+          "locator": "p.337 (OCR page markers; not checked against print)",
+          "quote": "It is evident, from the great length of time that was required to communicate between these headquarters, that the telegraph was working badly."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "dinwiddie-court-house",
+          "locator": "p.342 (OCR page markers; not checked against print)",
+          "quote": "The presence of General Bartlett’s brigade along the main branch of Gravelly Bun, at the crossing of these roads, became known to General Pickett about ten o’clock at night."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "dinwiddie-court-house",
+          "locator": "p.342 (OCR page markers; not checked against print)",
+          "quote": "General Fitz Lee says that General Pickett believing it to be the advance of the Fifth Corps, determined to withdraw to Five Forks during the night."
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1299 (OCR page markers; not checked against print)",
+          "quote": "ascertaining during the night that that force, consisting of the Fifth Corps, had about-faced and was marching to the support of Sheridan"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "flank-attack-on-sheridan",
+      "dimension": "objectives",
+      "value": "Humphreys says Pickett, with W. H. F. Lee's and Rosser's cavalry leading, intended to cross Chamberlain's Bed and attack Sheridan's left flank while Munford attacked his front, as part of Lee's plan to defeat the move against the South Side Railroad; Fitzhugh Lee says he had been sent to watch and counteract the massing of Sheridan's cavalry at the Court House.",
+      "rationale": "Stated aims from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "dinwiddie-court-house",
+          "locator": "p.334 (OCR page markers; not checked against print)",
+          "quote": "intending to cross that stream at Fitzgerald’s and Danse’s and attack General Sheridan’s left flank, while Munford at¬ tacked his front."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "In this way he hoped to defeat the attempt upon the South Side Railroad and his right rear."
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1299 (OCR page markers; not checked against print)",
+          "quote": "to watch and counteract the operations threatened by the massing of the Federal cavalry at Dinwiddie Court-House under Sheridan."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Pickett assumed command of the operation against Sheridan and that Sheridan, when Pickett exposed his rear in following Devin and Davies, ordered Gibbs and Gregg to attack him and brought up two of Custer's brigades; he judges that Warren should have moved with Griffin and Crawford soon after 10.50 p.m. Fitzhugh Lee says he took command of the Cavalry Corps by the commanding general's order. The frozen commanders are Pickett and Fitzhugh Lee (CS) and Sheridan (US); the live page lists Sheridan and Pickett.",
+      "rationale": "Direction and criticism attributed as stated. Warren's night movement bears on VA088 as well; it is not scored here. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "Upon arriving at Five Forks, General Pickett assumed command of the operation to be undertaken the following morning against General Sheridan."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "dinwiddie-court-house",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "Pickett having exposed his rear in following Devin and Davies toward the Boydton road, General Sheridan ordered Gibbs and Gregg to attack him,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "dinwiddie-court-house",
+          "locator": "p.341 (OCR page markers; not checked against print)",
+          "quote": "But General Warren should have moved with Griffin and Crawford as soon as practicable after receiving Meade’s order at 10.50 p.m.,"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1299 (OCR page markers; not checked against print)",
+          "quote": "by order of the command¬ ing general, took command of the Cavalry Corps."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA086",
+            "belligerent": "Confederate",
+            "fullname": "George Pickett"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA086",
+            "belligerent": "Confederate",
+            "fullname": "Fitzhugh Lee"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA086",
+            "belligerent": "US",
+            "fullname": "Philip Sheridan"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va086-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Philip Sheridan [US]"
+        },
+        {
+          "source_id": "nps-va086-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General George Pickett [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory; NPS says the Confederates drove the Union vanguard back, temporarily stalling Sheridan, and that Pickett withdrew before daybreak to Five Forks. Fitzhugh Lee says they drove the Union cavalry to within half a mile of the Court House and began moving back to Five Forks at daylight; Humphreys says the Gibbs-Gregg attack forced Pickett to face about and meet Sheridan's line in front of the Court House in a contest that lasted until night.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Pickett's withdrawal on the morning of April 1 belongs to the interval before VA088.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA086"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va086-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-va086-v1",
+          "locator": "Description",
+          "quote": "met the Union vanguard north and northwest of Dinwiddie Court House and drove it back, temporarily stalling Sheridan's movement."
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1299 (OCR page markers; not checked against print)",
+          "quote": "drove them to within half a mile of Dinwiddie Court-House."
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1299 (OCR page markers; not checked against print)",
+          "quote": "at daylight on the 1st we commenced moving back to our former position at Five Forks,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "dinwiddie-court-house",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "forced Pickett to face about and meet Sheridan’s line of battle in front of the Court House."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "dinwiddie-court-house",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "A spirited, obstinate contest ensued, which lasted until night,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 821 total and the live field 1,114 (US 354; CS 760). Fitzhugh Lee says they captured over 100 prisoners and lost W. H. F. Lee's and Rosser's men at the crossing; Humphreys says W. H. F. Lee's first crossing was driven back with heavy loss and gives no totals for the day.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA086"
+          },
+          "column": "casualties_text",
+          "quote": "821 total"
+        },
+        {
+          "source_id": "nps-va086-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1114 total (US 354; CS 760;)"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1299 (OCR page markers; not checked against print)",
+          "quote": "captured over 100 pris¬ oners,"
+        },
+        {
+          "source_id": "or46-1-fitz-lee-appomattox-selections-v1",
+          "section": "fitz-lee-1865-04-22",
+          "locator": "p.1299 (OCR page markers; not checked against print)",
+          "quote": "It was finally carried, however, with loss in W. H. F. Lee’s and Rosser’s divisions."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "dinwiddie-court-house",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "was driven back with heavy loss."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Sheridan's report and March 31 dispatch (selected; cited under VA088 and VA096) are not used here under the three-family ceiling, nor is Lee's April 1 letter relaying Pickett's report (selected; cited under VA089 only for its April 1 prisoners from the Twenty-fourth Corps). Pickett's own report was not inspected. Crook's, Merritt's, Custer's and Davies's reports (Nos. 200, 203, 208, 209) and the Warren Court of Inquiry record remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

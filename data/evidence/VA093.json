@@ -1,0 +1,424 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA093",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Sailor's Creek record (April 6, 1865) in the Appomattox Campaign [March-April 1865]. The record includes the separate actions against Ewell and Anderson and the Second Corps' fight with Gordon at Perkinson's mill (the frozen other names include Lockett Farm); Rice's Station (VA092) and High Bridge (VA095) are the same day. Humphreys commanded the Second Corps, and his account of its actions here is a participant's. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Corps' and the live field zero. Humphreys gives Ewell about 3,600 and Anderson about 6,300 on the ground (about 10,000), built from Kershaw's 2,000, Custis Lee's about 1,000 (from Howard's paper), Johnson's division of about 3,800 and Pickett's of about 2,500, and relays Ewell's 'only about 3.000'. Ewell says his two divisions numbered about 3,000 each at the evacuation, lost over 3,000 to fatigue on the march, and was told at Wright's headquarters that 30,000 men were engaged against them.",
+      "rationale": "Humphreys' figures are his reconstruction from mixed sources; Ewell's are strengths at the April 2 evacuation and a reported Union figure. Gordon's corps is not counted in either. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA093"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va093-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.383 (OCR page markers; not checked against print)",
+          "quote": "General Ewell had about 3,600 men on the ground, General Anderson about 6,300, making a total force of about 10,000."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.384 (OCR page markers; not checked against print)",
+          "quote": "General Ewell states that his command numbered only about 3.000,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.384 (OCR page markers; not checked against print)",
+          "quote": "General Kershaw states that he had 2,000 men on the ground."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.384 (OCR page markers; not checked against print)",
+          "quote": "that he had about 1,000 men on the ground ;"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.384 (OCR page markers; not checked against print)",
+          "quote": "General Bushrod Johnson, whose division numbered about 3,800,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.384 (OCR page markers; not checked against print)",
+          "quote": "that numbered about 2,500,"
+        },
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1295 (OCR page markers; not checked against print)",
+          "quote": "My two divisions numbered about 3,000 each at the time of the evacuation;"
+        },
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1295 (OCR page markers; not checked against print)",
+          "quote": "The difference of over 3,000 was caused mainly by the fatigue of four days’ and nights’ almost constant marching,"
+        },
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1295 (OCR page markers; not checked against print)",
+          "quote": "that 30,000 men were engaged with us when we surrendered,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "slope-creek-and-pines",
+      "dimension": "terrain",
+      "value": "Humphreys describes the high ground at Hott's fork sloping in clear ground to Sailor's Creek and Ewell's line on a crest behind a thicket of young pines; Ewell says his men were posted behind rising ground that gave some shelter from artillery, with the creek about 300 yards in front, brush pines between and a cleared field beyond.",
+      "rationale": "The ground predates the action; Anderson's temporary breastworks are not included. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.380 (OCR page markers; not checked against print)",
+          "quote": "The ground at this fork is high, declining in an even slope of clear ground to Sailor’s Creek, about a mile off."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.382 (OCR page markers; not checked against print)",
+          "quote": "General Ewell had formed his troops in a good position some little distance from the creek on a crest, in front of which was a thicket of young pines,"
+        },
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1295 (OCR page markers; not checked against print)",
+          "quote": "All of Lee’s and part of Kershaw’s division were posted behind a rising ground that afforded some shelter from artillery."
+        },
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1295 (OCR page markers; not checked against print)",
+          "quote": "The creek was perhaps 300 yards in their front, with brush pines between and a cleared field beyond it."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "no-artillery-no-food",
+      "dimension": "logistics",
+      "value": "Ewell says he had no artillery, all of it being with the train, and that his men had marched four days and nights, the last two with nothing to eat; Humphreys says Wright's artillery drew no reply because neither Ewell nor Anderson had artillery, and that Ewell's whole force and much of Anderson's and Gordon's were lost in trying to save the trains.",
+      "rationale": "Readiness statements from an interested report and a history; no return inspected.",
+      "citations": [
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1295 (OCR page markers; not checked against print)",
+          "quote": "I had no artillery, all being with the train."
+        },
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1295 (OCR page markers; not checked against print)",
+          "quote": "the last two days with nothing to eat."
+        },
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1295 (OCR page markers; not checked against print)",
+          "quote": "The difference of over 3,000 was caused mainly by the fatigue of four days’ and nights’ almost constant marching,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.382 (OCR page markers; not checked against print)",
+          "quote": "showing that he had no artillery with him, which in fact neither he nor Anderson had."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.385 (OCR page markers; not checked against print)",
+          "quote": "Ewell’s whole force was lost, together with nearly half of Anderson’s and a large part of Gordon’s, all in a useless effort to save the trains."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "blocked-road-reports",
+      "dimension": "information",
+      "value": "Ewell says Fitz Lee told him a large cavalry force held the road ahead of Anderson and Anderson told him at least two divisions were in his front, and that he left the dispositions to Anderson because Anderson knew the ground; Humphreys says he did not know Anderson's command was across the road beyond Ewell.",
+      "rationale": "Attributed knowledge from an interested report and a participant's history.",
+      "citations": [
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1294 (OCR page markers; not checked against print)",
+          "quote": "I met General Fitz Lee, who informed me that a large force of cavalry held the road just in front of General Anderson,"
+        },
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1294 (OCR page markers; not checked against print)",
+          "quote": "General Anderson informed me that at least two divisions of cavalry were in his front,"
+        },
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1294 (OCR page markers; not checked against print)",
+          "quote": "but as he knew the ground and I did not,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "though not aware that Anderson’s command was across that road on the crest beyond Ewell,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cover-trains-and-escape",
+      "dimension": "objectives",
+      "value": "Ewell says he held his troops to cover the passage of the trains and that Anderson proposed either breaking through together or moving right through the woods toward a road to Farmville; Humphreys says Gordon took the right-hand fork covering the main trains.",
+      "rationale": "Stated aims from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1294 (OCR page markers; not checked against print)",
+          "quote": "I retained my troops in position to cover the passage of the trains."
+        },
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1294 (OCR page markers; not checked against print)",
+          "quote": "either to unite our forces and break through, or to move to the right through the woods and try to strike a road which ran toward Farmville."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.380 (OCR page markers; not checked against print)",
+          "quote": "Gordon, after the passage of the main trains of Lee’s army, took the right- hand fork, covering them,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Ewell says Anderson undertook to attack in front while he held the rear, and that after capture he sent word to Custis Lee but gave no orders as a prisoner; Humphreys says Sheridan ordered Crook and Merritt to attack once Wright's artillery was in position, and that he himself continued the pursuit of Gordon's corps. The frozen commanders are Ewell and Gordon (CS) and Sheridan (US); the live page lists Sheridan and Ewell.",
+      "rationale": "Direction attributed as stated; Humphreys' pursuit of Gordon is his own participant account, and Wright and Anderson are not frozen commanders. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1294 (OCR page markers; not checked against print)",
+          "quote": "General Ander¬ son informed me that he would make the attack in front if I would hold in check those in rear,"
+        },
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1295 (OCR page markers; not checked against print)",
+          "quote": "though I gave no orders, being a prisoner."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.383 (OCR page markers; not checked against print)",
+          "quote": "eral Sheridan ordered General Crook and General Merritt to attack,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "General Humphreys continued his pursuit of Gordon’s corps,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA093",
+            "belligerent": "Confederate",
+            "fullname": "Richard S. Ewell"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA093",
+            "belligerent": "Confederate",
+            "fullname": "John B. Gordon"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA093",
+            "belligerent": "US",
+            "fullname": "Philip Sheridan"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va093-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant General Richard Ewell [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Ewell says Anderson's assault was repulsed in five minutes and that his whole command was captured; Humphreys says all of Ewell's command was killed, wounded or captured except 250 of Kershaw's division, and that Gordon fell back from the high ground beyond the creek at Perkinson's mill.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA093"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va093-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1295 (OCR page markers; not checked against print)",
+          "quote": "which was repulsed in five minutes."
+        },
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1295 (OCR page markers; not checked against print)",
+          "quote": "and the whole of my command."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.383 (OCR page markers; not checked against print)",
+          "quote": "The whole of Ewell’s com¬ mand was either killed, wounded, or captured, except 250 of Kershaw’s division."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "Gordon attempted to form on the high ground on the opposite side of the creek, but fell back quickly from it as our troops crossed."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 9,980 total and the live field 8,848 (US 1,148; CS 7,700). Humphreys estimates Ewell's loss at about 3,400 and Anderson's at about 2,600 (about 6,000), the day's total Confederate loss at not less than 8,000, the Second Corps' captures at 13 flags, 4 guns and 1,700 prisoners, its own killed and wounded at 311 (First and Second divisions) and the Sixth Corps' at 442, and gives no cavalry figure. Ewell says 2,800 of his men were taken prisoner and about 150 killed and wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Humphreys' components are his estimates from mixed sources; he gives 3 guns at the Perkinson's mill stand and 4 in the corps' captures.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA093"
+          },
+          "column": "casualties_text",
+          "quote": "9,980 total"
+        },
+        {
+          "source_id": "nps-va093-v1",
+          "locator": "Estimated Casualties",
+          "quote": "8848 total (US 1148; CS 7700;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.383 (OCR page markers; not checked against print)",
+          "quote": "General Ewell lost about 3,400, General Anderson about 2,600,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.384 (OCR page markers; not checked against print)",
+          "quote": "mands about 6,000 in killed, wounded, and prisoners."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.384 (OCR page markers; not checked against print)",
+          "quote": "was not less than 8,000."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "The captures of the corps were 13 flags, 4 guns, and 1,700 prisoners."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "Our own killed and wounded were 311 of the First and Second divisions,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.384 (OCR page markers; not checked against print)",
+          "quote": "The loss of the Sixth Corps in killed and wounded was 442."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "sailors-creek-and-rices-station",
+          "locator": "p.384 (OCR page markers; not checked against print)",
+          "quote": "I have no means of stating the number of the killed and wounded in the Cavalry."
+        },
+        {
+          "source_id": "or46-1-ewell-sailors-creek-selections-v1",
+          "section": "ewell-1865-12-20",
+          "locator": "p.1295 (OCR page markers; not checked against print)",
+          "quote": "2,800 were taken prisoners, about 150 killed and wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Sheridan's, Wright's, Crook's, Merritt's, Custer's and Seymour's reports (Nos. 199, 105, 208, 200, 203, 131; Sheridan's selected and cited under VA088 and VA096), Kershaw's and G. W. C. Lee's reports (Nos. 271, 276), Bushrod Johnson's account of April 6 (selected; cited under VA085 and VA087), Fitzhugh Lee's opinion on the halt (selected; cited under other records), Gordon's and Anderson's accounts and the returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA096",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Appomattox Station record (April 8, 1865) in the Appomattox Campaign [March-April 1865]. Appomattox Court House (VA097) follows on April 9. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Divisions' and the live field zero. Sheridan says Merritt's and Crook's commands moved on Appomattox Depot with Custer in the advance and Devin going in on his right; Humphreys says Custer captured Walker's train of artillery and wagons and that Lee had sent his spare artillery forward under Walker on April 5.",
+      "rationale": "Formation lists only; no headcount for either side. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA096"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va096-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1109 (OCR page markers; not checked against print)",
+          "quote": "Merritt’s and Crook’s commands then moved on to Appomattox Depot,"
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1109 (OCR page markers; not checked against print)",
+          "quote": "General Devin coming up went in on the right of Custer."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "capturing Walker’s train of artillery and wagons,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "namozine-and-amelia-springs",
+          "locator": "p.375 (OCR page markers; not checked against print)",
+          "quote": "On the 5th General Lee sent forward his spare artillery (under General Lindsey Walker)"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "rationale": "The inspected passages do not describe the ground at Appomattox Station.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "supply-trains",
+      "dimension": "logistics",
+      "value": "Sheridan says four trains of cars loaded with supplies for Lee's army were at the depot, that his column pushed on twenty-eight miles and captured them, and that the trains were run back to the protection of the infantry; Humphreys says Custer took three trains with subsistence sent back from Farmville and that Lee lost the supplies awaiting him at the station; NPS says three trains were captured and burned.",
+      "rationale": "The counts differ (four against three) and are preserved. The capture of Lee's supplies was created by the action.",
+      "citations": [
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1109 (OCR page markers; not checked against print)",
+          "quote": "there were four trains of cars at Appomattox Depot loaded with supplies for General Lee’s army."
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1109 (OCR page markers; not checked against print)",
+          "quote": "the command pushed on briskly for twenty-eight miles."
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1109 (OCR page markers; not checked against print)",
+          "quote": "ran the captured trains back along the railroad to a point where they would be protected by our infantry"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "three trains of cars with subsis¬ tence sent back from Farmville by Lee."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.391 (OCR page markers; not checked against print)",
+          "quote": "lost the supplies awaiting him at Appomattox Station,"
+        },
+        {
+          "source_id": "nps-va096-v1",
+          "locator": "Description",
+          "quote": "Custer captured and burned three trains loaded with provisions for Lee's army."
+        }
+      ],
+      "phase": "commander_created",
+      "status": "disputed"
+    },
+    {
+      "id": "scout-report",
+      "dimension": "information",
+      "value": "Sheridan says his scout Sergeant White told him of the trains soon after the march began, and that he notified Grant once the enemy was driven to Appomattox Court House.",
+      "rationale": "Attributed knowledge in an interested report.",
+      "citations": [
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1109 (OCR page markers; not checked against print)",
+          "quote": "Sergeant White, one of my scouts, notified me that there were four trains of cars"
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1109 (OCR page markers; not checked against print)",
+          "quote": "I at once noti¬ fied the lieutenant-general,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "seize-trains-and-block",
+      "dimension": "objectives",
+      "value": "Sheridan says Custer threw a force behind the trains to capture them and that he told Ord, Gibbon and Griffin there was no means of escape for the enemy if they pressed on; Humphreys says Merritt then formed across the road the enemy were using.",
+      "rationale": "Stated aims from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1109 (OCR page markers; not checked against print)",
+          "quote": "skillfully threw a force in rear of the trains and captured them."
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1109 (OCR page markers; not checked against print)",
+          "quote": "that if they pressed on, there was now no means of escape for the enemy,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appomattox",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "formed across the road the enemy were moving on."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Sheridan says Custer had the advance and captured the trains without halting; Humphreys names Walker's train. The frozen commanders are Lindsay Walker (CS) and Custer (US); the live page lists Custer and 'Brigadier General Reuben Walker'.",
+      "rationale": "Walker's own direction is not described in the inspected passages; the live first name differs from the frozen row and is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1109 (OCR page markers; not checked against print)",
+          "quote": "General Custer had the advance, and, on nearing the depot,"
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1109 (OCR page markers; not checked against print)",
+          "quote": "Without halting a mo¬ ment he pushed on,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA096",
+            "belligerent": "Confederate",
+            "fullname": "Lindsay Walker"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA096",
+            "belligerent": "US",
+            "fullname": "George A. Custer"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va096-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Reuben Walker [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Sheridan says the enemy were driven toward Appomattox Court House and the fighting went on till after dark.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA096"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va096-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1109 (OCR page markers; not checked against print)",
+          "quote": "The fighting continued till after dark,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 'Unknown' and the live field 1,048 (US 48; CS 1,000). Sheridan reports many prisoners, twenty-five guns, a hospital train and a large park of wagons captured; Humphreys and NPS give no loss figures.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Sheridan's campaign-wide casualty list is not assigned to this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA096"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-va096-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1048 total (US 48; CS 1000;)"
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1109 (OCR page markers; not checked against print)",
+          "quote": "capturing many prisoners and twenty-five pieces of artillery, a hospital train, and a large park of wagons."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Custer's, Merritt's, Devin's and Crook's reports (Nos. 203, 200, 201, 208), Walker's and Pendleton's accounts (Pendleton No. 270), Lee's report of the attack on Walker's train (selected; cited under VA097) and the returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

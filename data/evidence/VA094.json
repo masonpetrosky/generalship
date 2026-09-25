@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA094",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Cumberland Church record (April 7, 1865) in the Appomattox Campaign [March-April 1865]. Humphreys, the historian, is the frozen Union commander of this record and narrates his own orders; his account is a self-interested participant's. High Bridge (VA095) is the same morning. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Corps' and the live field zero. Humphreys says he came up with Miles's and De Trobriand's divisions, with Barlow detached toward Farmville, and informed Meade that Lee's whole remaining force, probably about 18,000 infantry, was before him, with Mahone's division on the left, Poague's sixteen guns and Gordon's and Longstreet's troops; Miles names the three regiments of his First Brigade that charged.",
+      "rationale": "Humphreys' 18,000 is his contemporary estimate of Lee's army-wide infantry, not a count at Cumberland Church. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA094"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va094-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.388 (OCR page markers; not checked against print)",
+          "quote": "General Humphreys moved with Miles and De Trobriand"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.388 (OCR page markers; not checked against print)",
+          "quote": "he sent General Barlow to follow General Gordon along the railroad bed toward Farmville."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.388 (OCR page markers; not checked against print)",
+          "quote": "Poague’s sixteen guns"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.389 (OCR page markers; not checked against print)",
+          "quote": "The attack fell on Mahone’s division,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.389 (OCR page markers; not checked against print)",
+          "quote": "Lee’s whole remaining force, probably about 18,000 infantry, had been come up with,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.390 (OCR page markers; not checked against print)",
+          "quote": "Poague’s artillery was on Ma- lione’s right, then Gordon’s corps, with Longstreet’s troops on its right."
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-20",
+          "locator": "p.713 (OCR page markers; not checked against print)",
+          "quote": "three regiments of the First Brigade (the Eighty- first Pennsylvania Volunteers, Fifth New Hampshire, and Second New’ York Heavy Artillery) were ordered to charge the left of the enemy’s line."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "open-slope-and-ravines",
+      "dimension": "terrain",
+      "value": "Humphreys says Lee's position was on the crest of a long slope of open ground, intrenched enough for cover, and that the ground was rough and the intrenchments strong; Miles attributes the repulse to ground broken by small, sharp ravines.",
+      "rationale": "The slope and ravines predate the action; the works were made that day and are not tagged inherited. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.388 (OCR page markers; not checked against print)",
+          "quote": "It was on the crest of a long slope of open ground."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.388 (OCR page markers; not checked against print)",
+          "quote": "which had been intrenched sufficiently for cover, and had artillery in place."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.389 (OCR page markers; not checked against print)",
+          "quote": "The ground was rough and the position and the intrenchments strong."
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-20",
+          "locator": "p.713 (OCR page markers; not checked against print)",
+          "quote": "owing to the difficult nature of the ground, which was broken by numerous small and sharp ravines,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-and-impassable-river",
+      "dimension": "logistics",
+      "value": "Humphreys says 80,000 rations had been placed at Farmville and distributed to Lee's army after days of little but parched or raw corn, that artillery could not follow Barlow, and that the river at Farmville was impassable with no ponton bridge available, delaying the Sixth Corps.",
+      "rationale": "Supply and movement statements from a participant's history; no return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.386 (OCR page markers; not checked against print)",
+          "quote": "At Farmville rations were distributed to Lee’s army, 80, 000 having been placed there to await its arrival."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.386 (OCR page markers; not checked against print)",
+          "quote": "Many of the officers and men had had little else than parched or raw Indian corn on the 5tli and 6th."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.388 (OCR page markers; not checked against print)",
+          "quote": "Artillery could not accompany him."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.389 (OCR page markers; not checked against print)",
+          "quote": "that the river at Farmville was impassable, and that there was no ponton bridge available,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "prisoners-and-expectations",
+      "dimension": "information",
+      "value": "Humphreys says prisoners showed Lee's whole army present, that neither he nor Meade knew the river at Farmville was impassable, and that he waited expecting an attack from Farmville; Miles says careful observation led him to believe he was opposite the enemy's extreme left.",
+      "rationale": "Attributed knowledge from a participant's history and an interested report.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.388 (OCR page markers; not checked against print)",
+          "quote": "It was soon found, from the prisoners taken, that Lee’s whole army was present"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.389 (OCR page markers; not checked against print)",
+          "quote": "But neither General Meade nor General Humphreys was aware"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.389 (OCR page markers; not checked against print)",
+          "quote": "fully expecting that an attack from the direction of Farmville would be made,"
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-20",
+          "locator": "p.713 (OCR page markers; not checked against print)",
+          "quote": "Careful observation induced the belief that we were opposite the extreme left flank of the enemy,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "combined-attack",
+      "dimension": "objectives",
+      "value": "Humphreys says he proposed that a corps attack Lee from Farmville while the Second Corps attacked from the other side; Miles says his skirmish line swung forward to envelop the enemy's flank.",
+      "rationale": "Stated aims from a participant's history and an interested report.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.389 (OCR page markers; not checked against print)",
+          "quote": "suggesting that a corps should attack Lee from the direction of Farmville at the same time that the Second Corps attacked from the oppo¬ site direction."
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-20",
+          "locator": "p.713 (OCR page markers; not checked against print)",
+          "quote": "with a view to enveloping it."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Miles, seeing an opportunity, attacked with part of his First Brigade and was repulsed with considerable loss; Miles says the three regiments were ordered to charge. The frozen commanders are Lee (CS) and A. A. Humphreys (US); the live page lists Humphreys and 'Major General Robert Lee'.",
+      "rationale": "Humphreys narrates his own command and attributes the attack to Miles; Lee's personal direction is not described in the inspected passages. The live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.389 (OCR page markers; not checked against print)",
+          "quote": "General Miles thought he saw an opportunity for attack, and at once made it with a part of his First Brigade, which was, however, repulsed with consider¬ able loss."
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-20",
+          "locator": "p.713 (OCR page markers; not checked against print)",
+          "quote": "were ordered to charge the left of the enemy’s line."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA094",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA094",
+            "belligerent": "US",
+            "fullname": "A.A. Humphreys"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va094-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Andrew Humphreys [US]"
+        },
+        {
+          "source_id": "nps-va094-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Miles says the charge failed and a Confederate pursuit over the works was driven back; Humphreys says the Second Corps detained Lee from midday to night and that Lee moved off in the night, and that Crook's cavalry was attacked north of the river and Gregg captured.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Humphreys' claim that the detention cost Lee time is a campaign-contribution judgment, not the tactical result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA094"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va094-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-20",
+          "locator": "p.713 (OCR page markers; not checked against print)",
+          "quote": "The charge was gallantly made, but was unsuccessful"
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-20",
+          "locator": "p.713 (OCR page markers; not checked against print)",
+          "quote": "While the regiments were fall¬ ing back the enemy advanced over their works in pursuit, but were quickly driven back."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.390 (OCR page markers; not checked against print)",
+          "quote": "detained Lee from midday to night at Farmville heights."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.391 (OCR page markers; not checked against print)",
+          "quote": "It was anticipated that General Lee would move off in the night, which he did,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.390 (OCR page markers; not checked against print)",
+          "quote": "General Gregg was captured with other prisoners, and his brigade driven back."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 910 (US 655; CS 255) and the live field 571 (US 571; CS 0). Humphreys gives the Second Corps' loss for the whole day as 571 killed, wounded and missing, which matches the live Union figure but includes High Bridge and Barlow's fight near Farmville, where Smyth was mortally wounded; he names Brigadier-General Lewis among the Confederate wounded prisoners. Miles lists one gun captured on the march that day.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Humphreys' day total spans VA095 and VA094 and is not assigned to either alone.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA094"
+          },
+          "column": "casualties_text",
+          "quote": "910 total (US 655; CS 255)"
+        },
+        {
+          "source_id": "nps-va094-v1",
+          "locator": "Estimated Casualties",
+          "quote": "571 total (US 571; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.390 (OCR page markers; not checked against print)",
+          "quote": "The loss of the Second Corps to-day was five hundred and seventy-one officers and men killed, wounded, and missing."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.388 (OCR page markers; not checked against print)",
+          "quote": "In this attack, Brigadier-General Smyth, command¬ ing the Third Brigade, a gallant and highly meritorious offi¬ cer, was mortally wounded."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "high-bridge-and-farmville",
+          "locator": "p.390 (OCR page markers; not checked against print)",
+          "quote": "Among the enemy’s loss was Brigadier-General Lewis of"
+        },
+        {
+          "source_id": "or46-1-miles-appomattox-selections-v1",
+          "section": "miles-1865-04-10",
+          "locator": "p.714 (OCR page markers; not checked against print)",
+          "quote": "April 7, on the march, 1 gun;"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Humphreys' own report (No. 21), Barlow's and De Trobriand's reports (Nos. 54, 67), Crook's and Gregg's reports (Nos. 208, 211), Mahone's, Poague's and Fitzhugh Lee's accounts of April 7 (Fitzhugh Lee's selected; cited under other records), the Grant-Lee letters of April 7 and the returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

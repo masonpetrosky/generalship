@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA088",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Five Forks record (April 1, 1865) in the Appomattox Campaign [March-April 1865]. Dinwiddie Court House (VA086) precedes it; the April 2 assault (VA089) and Sutherland's Station (VA090) follow. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Corps' and the live field zero. Sheridan gives the effective force of his three cavalry divisions on reporting on March 27 as 9,000 (Merritt 5,700, Crook 3,300) and Mackenzie's division as about 1,000 effective men; Humphreys says Crawford's and Griffin's were the largest and Ayres's the smallest of the Fifth Corps divisions, and gives Pickett's five brigades about 6,600 enlisted men on the February 20 return.",
+      "rationale": "Figures on different dates and bases (Union campaign-opening effective cavalry; a Confederate February return by formation); Crook's division was not seriously engaged. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA088"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va088-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1101 (OCR page markers; not checked against print)",
+          "quote": "General Merritt’s command, First and Third Divisions, 5,700; General Crook’s command, Second Division, 3,300 ; total effective force, 9,000."
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1104 (OCR page markers; not checked against print)",
+          "quote": "consisted of about 1,000 effective men."
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1104 (OCR page markers; not checked against print)",
+          "quote": "During the remainder of the day General Crook’s division held the extreme left and rear and was not seriously engaged."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.346 (OCR page markers; not checked against print)",
+          "quote": "These were the largest divisions."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.346 (OCR page markers; not checked against print)",
+          "quote": "eral Ayres’s division, the smallest,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-30-31-white-oak-ridge",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "mak¬ ing a total of 6,600."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "woods-and-hasty-works",
+      "dimension": "terrain",
+      "value": "Humphreys says Pickett intrenched along the White Oak road about a mile west and three-quarters of a mile east of Five Forks with a return about a hundred yards long at his left, that the country was thickly wooded, and that the density of the woods kept the sound of firing from Pickett north of Hatcher's Run; Sheridan says it was no place to intrench.",
+      "rationale": "The woods predate the battle; the works were built that morning and are not tagged inherited. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.343 (OCR page markers; not checked against print)",
+          "quote": "He at once intrenched as much as practicable."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.344 (OCR page markers; not checked against print)",
+          "quote": "with a short return about one hundred yards long at his left."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.349 (OCR page markers; not checked against print)",
+          "quote": "The country was thickly wooded, and troops moving rapidly through it could not be readily over¬ taken,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "Owing to the density of the woods no sound of firing reached them,"
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1105 (OCR page markers; not checked against print)",
+          "quote": "It was no place to intrench,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "muddy-approach",
+      "dimension": "logistics",
+      "value": "Humphreys quotes the Court of Inquiry that the Fifth Corps' route to its formation was a narrow, muddy, slippery road encumbered with cavalry wagons and led horses, and that the men were fatigued.",
+      "rationale": "A court finding quoted in an interested history; no transport return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.359 (OCR page markers; not checked against print)",
+          "quote": "The route to the place of formation was along a narrow road, very muddy and slippery, somewhat encumbered with wagons and led horses of the Cavalry Corps, and the men were fatigued."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "unreconnoitred-return",
+      "dimension": "information",
+      "value": "Humphreys relays Gillespie's testimony that no reconnaissance of the Confederate works was made before the attack and that he did not know of the return, says the Fifth Corps' flank fire showed the works did not reach the Gravelly Run Church road, and says Pickett was north of Hatcher's Run, hearing nothing and uninformed, with no Confederate commander on the field.",
+      "rationale": "Attributed knowledge in an interested history drawing on court testimony.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.347 (OCR page markers; not checked against print)",
+          "quote": "Colonel Gillespie stated that he had made no reeonnoissance of the enemy’s works before the attack ;"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.347 (OCR page markers; not checked against print)",
+          "quote": "that he did not know that there was a return,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.347 (OCR page markers; not checked against print)",
+          "quote": "showing that their retrench¬ ment did not extend to the near vicinity of the Gravelly Run Church road."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.349 (OCR page markers; not checked against print)",
+          "quote": "where he had heard no sound of the engagement, nor had he received any information concerning it."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.349 (OCR page markers; not checked against print)",
+          "quote": "There was no Confederate commander on the field ;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "hold-forks-and-turn-flank",
+      "dimension": "objectives",
+      "value": "Humphreys says Pickett was directed to hold Five Forks to cover the South Side Railroad and the wagon-roads Lee meant to use in abandoning Petersburg and Richmond, and that Sheridan's plan was a cavalry feint against the Confederate right with the Fifth Corps assaulting the left; Sheridan says he meant to crush the force and drive westward those who escaped.",
+      "rationale": "Stated aims from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.343 (OCR page markers; not checked against print)",
+          "quote": "General Pickett was directed to maintain the position of Five Forks, in order to cover the South Side Railroad and the wagon-roads south of the Appomattox,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.344 (OCR page markers; not checked against print)",
+          "quote": "General Sheridan’s plan of attack was to make a feint of turning the enemy’s right flank with Merritt’s cavalry, while he assaulted their left flank with the Fifth Corps,"
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1104 (OCR page markers; not checked against print)",
+          "quote": "crush the whole force, if pos¬ sible, and drive westward those who might escape, thus isolating them from their army at Petersburg."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Sheridan says Warren did not exert himself to bring up his corps and that portions of his line gave way for want of confidence, and that he relieved him under authority sent unsolicited before the battle; Humphreys prints the Court of Inquiry's opinion that there was no unnecessary delay and that Warren took the usual methods to prevent it, says Sheridan rode with Ayres and Warren led Crawford's line across the Gilliam field with the corps flag, and judges it a grave mistake to require Pickett to fight at Five Forks. The frozen commanders are Pickett (CS) and Sheridan (US), as on the live page; NPS says Sheridan personally directed the attack.",
+      "rationale": "Sheridan's accusations and the court's opinion conflict and are attributed, not adjudicated; Humphreys' judgment of Pickett's position is his own. Warren is not a frozen commander. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1105 (OCR page markers; not checked against print)",
+          "quote": "General Warren did not exert him¬ self to get up his corps as rapidly as he might have done,"
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1105 (OCR page markers; not checked against print)",
+          "quote": "portions of his line gave way when not exposed to a heavy fire, and simply from want of confidence on the part of the troops,"
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1105 (OCR page markers; not checked against print)",
+          "quote": "I there¬ fore relieved him from the command of the Fifth Corps, authority for this action having been sent to me before the battle, unsolicited."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.359 (OCR page markers; not checked against print)",
+          "quote": "The Court is of the opinion that there was no unnecessary delay in this march of the Fifth Corps, and that General Warren took the usual methods of a corps commander to prevent delay."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.348 (OCR page markers; not checked against print)",
+          "quote": "General Sheridan, who accompanied General Ayres’s divi¬ sion throughout the greater part of the battle,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.352 (OCR page markers; not checked against print)",
+          "quote": "until Warren, riding forward with the Corps flag in his hands, led his troops across the field."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "It has always seemed to me to have been a grave mistake to require General Pickett to fight at Five Forks."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA088",
+            "belligerent": "Confederate",
+            "fullname": "George Pickett"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA088",
+            "belligerent": "US",
+            "fullname": "Philip Sheridan"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va088-v1",
+          "locator": "Description",
+          "quote": "Sheridan personally directed the attack,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Sheridan reports the complete rout of the enemy and a pursuit of six miles; Humphreys calls Sheridan's success complete and says Anderson's troops were sent that night to cover the collection of Pickett's disorganized command.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The threat to the South Side Railroad and the evacuation of Petersburg are campaign consequences, not this record's result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA088"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va088-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-04-02",
+          "locator": "p.1100 (OCR page markers; not checked against print)",
+          "quote": "the result of this combined movement was the complete rout of the enemy"
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-04-02",
+          "locator": "p.1101 (OCR page markers; not checked against print)",
+          "quote": "After the enemy broke our cavalry pursued them for six miles down the White Oak road."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "General Sheridan’s success was complete."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.354 (running head reads '854' in OCR; not checked against print)",
+          "quote": "These troops were sent by General R. E. Lee to cover the collection of Pickett’s disorganized command,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 3,780 (US 830; CS 2,950) and the live field 3,830 (US 830; CS 3,000). Sheridan reported on April 2 five guns and 'at least 5,000 prisoners', and on May 16 between 5,000 and 6,000 prisoners. Humphreys gives not less than 4,500 prisoners, 13 colors and 6 guns from the Fifth Corps and cavalry reports, Warren's 3,244 captured and 634 lost, and the Adjutant-General's prison records' 2,063 for Five Forks on April 1 (2,599 in all entries, including Dinwiddie Court House, Hatcher's Run and April 2); he did not find the cavalry's loss for this battle.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The prison-record entries include other places and April 2 and are not all this record's population.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA088"
+          },
+          "column": "casualties_text",
+          "quote": "3,780 total (US 830; CS 2,950)"
+        },
+        {
+          "source_id": "nps-va088-v1",
+          "locator": "Estimated Casualties",
+          "quote": "3830 total (US 830; CS 3000;)"
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-04-02",
+          "locator": "p.1100 (OCR page markers; not checked against print)",
+          "quote": "the loss of 5 pieces of artillery and caissons, a number of their wagons and ambulances, and I think at least 5,000 prisoners and several battle-flags."
+        },
+        {
+          "source_id": "or46-1-sheridan-appomattox-selections-v1",
+          "section": "sheridan-1865-05-16",
+          "locator": "p.1105 (OCR page markers; not checked against print)",
+          "quote": "Between 5,000 and 6,000 prison¬ ers fell into our hands,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "not less than 4,500 prisoners, 13 colors, and 6 guns."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "General Warren states that the Fifth Corps in this battle captured 3,244 men with their arms,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.354 (running head reads '854' in OCR; not checked against print)",
+          "quote": "“lost in killed, wounded, and missing 634,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "Five Forks, April 1, 1865 . 2,063"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.353 (OCR page markers; not checked against print)",
+          "quote": "Total . . 2,599"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "five-forks",
+          "locator": "p.354 (running head reads '854' in OCR; not checked against print)",
+          "quote": "I do not find it stated for this battle separate from the whole number in the campaign."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Warren's, Griffin's, Ayres's, Crawford's, Merritt's, Devin's, Custer's and Mackenzie's reports (Nos. 74, 75, 91, 97, 200, 201, 203, 260), Pickett's report, the Warren Court of Inquiry record beyond Humphreys' extracts, and the Union casualty return (No. 2) remain deferred. Fitzhugh Lee's report (selected; cited under VA086 and later records) gives Five Forks figures of 'over 26,000' against 7,000; it is not used here under the three-family ceiling. Sheridan's campaign-wide cavalry casualty list (inclosure No. 3, garbled columns) is not assigned to this record.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA085",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Lewis's Farm record (March 29, 1865) in the Appomattox Campaign [March-April 1865]. White Oak Road (VA087) and Dinwiddie Court House (VA086) follow on March 31. The army-wide spring 1865 returns are cited here once, as campaign context. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Corps' and the live field zero. Humphreys says Chamberlain's brigade of Griffin's division met Wise's and Wallace's brigades of Anderson's command, with part of Bartlett's brigade joining toward the close, and that Lee had sent Anderson with Bushrod Johnson's division and Wise's brigade; Johnson says he advanced Wise's brigade with Wallace's, Moody's and Ransom's following. As campaign context, Humphreys gives the spring 1865 effective force from the latest returns as 69,000 infantry of the Army of the Potomac, 124,700 of all arms in the three Union commands, and not less than 46,000 infantry and 57,000 of all arms for Lee; his Appendix L gives the Army of the Potomac 3,064 officers and 68,956 enlisted infantry present for duty equipped on March 31 and Lee not less than 55,500 on the February 20 return, 'and probably on the 25th of March'.",
+      "rationale": "The engagement figures are formation lists only. The army-wide figures are Union effective and present-for-duty returns of March 31 and a Confederate return of February 20 (the last found), with Humphreys' own additions; his 57,000 and 55,500 for Lee differ in basis and are not reconciled. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA085"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va085-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-28-29",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "his leading brigade, General Chamberlain’s, came in contact with Wise’s and Wallace’s brigades of Anderson’s command,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-28-29",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "A portion of Bartlett’s bri¬ gade took part in the action toward its close."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-28-29",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "General Lee sent General Anderson, with Bushrod Johnson’s division and Wise’s brigade, to the extreme right of his intrenchments along the White Oak road."
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1286 (OCR page markers; not checked against print)",
+          "quote": "I advanced Wise’s brigade in line of battle, stretching across the Quaker road, and moved Wallace’s, Moody’s, and Eansom’s brigades,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "spring-1865-strengths",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "The effective force of infantry of the Army of the Potomac was 69,000 ;"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "spring-1865-strengths",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "Total of all arms of the three independent commands 124,700."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "spring-1865-strengths",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "The effective force of Lee’s infantry was not less than 46,000 ;"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "spring-1865-strengths",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "making a total of not less than 57,000."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appendix-l-returns",
+          "locator": "p.432 (inferred: appendix opening page without a running head in OCR; not checked against print)",
+          "quote": "The Morning Report of March 31, 1865, gives for the numbers of the Army of the Potomac 3,064 officers and 68,956 enlisted men of infantry,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appendix-l-returns",
+          "locator": "p.434 (OCR page markers; not checked against print)",
+          "quote": "It appears, then, that on the 20th of February, and probably on the 25th of March,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "appendix-l-returns",
+          "locator": "p.434 (OCR page markers; not checked against print)",
+          "quote": "a total of not less than 55,500."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "woods-and-swampy-streams",
+      "dimension": "terrain",
+      "value": "Humphreys describes the country as flat, generally covered with dense forest and tangled undergrowth and crossed by small swampy streams, and places the contact near the steam sawmill on the Quaker road; Johnson says Wise's brigade came under fire on entering the skirts of the woods south of the Boydton plank road and Quaker road fork.",
+      "rationale": "Ground and woods predate the engagement. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-28-29",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "The country was flat, covered generally with dense forest and tangled undergrowth, with numerous small, swampy streams,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-28-29",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "in the vicinity of the steam sawmill,"
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1287 (OCR page markers; not checked against print)",
+          "quote": "Upon entering the skirts of the woods, south of the forks of the Boydton plank road and the Quaker road,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures. Humphreys' heavy rain begins on the night after this engagement and is cited under VA087.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "cavalry-reports",
+      "dimension": "information",
+      "value": "Johnson says the cavalry reported the enemy advancing in force on the Quaker road and then that the enemy were retiring beyond Gravelly Run, so he did not expect to meet them before that line; Humphreys says Lee sent Anderson as soon as the Union movement was perceived that morning.",
+      "rationale": "Attributed reports in an interested report and a history; not a message log.",
+      "citations": [
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1286 (OCR page markers; not checked against print)",
+          "quote": "the cav¬ alry having reported the enemy advancing in force with cavalry, artil¬ lery, and infantry on the Quaker (or military) road,"
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1286 (OCR page markers; not checked against print)",
+          "quote": "As I was drawing out my command the cavalry informed me that the enemy were retiring beyond Gravelly Eun."
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1286 (OCR page markers; not checked against print)",
+          "quote": "I therefore did not expect to encounter them until I reached the line of the run."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-28-29",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "As soon as the movement of our troops was perceived by the enemy on the morning of the 29th,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "turn-and-drive-back",
+      "dimension": "objectives",
+      "value": "Humphreys says Grant did not intend to attack the intrenched position but to force Lee out of it, and that Warren was directed at midday to move up the Quaker road; Johnson says Anderson ordered him to attack and drive the enemy back to the Vaughan road.",
+      "rationale": "Stated aims from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-28-29",
+          "locator": "p.324 (OCR page markers; not checked against print)",
+          "quote": "It was not the intention, he said, to attack the enemy in his intrenched position, but to force him out, if possible, with a view to attacking him."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-28-29",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "but at mid¬ day on the 29th he was directed to move up the Quaker road."
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1286 (OCR page markers; not checked against print)",
+          "quote": "I was ordered by Lieut. Gen. E. H. Anderson to move my com mand down the road, attack them, and drive them back to the Vaughan road."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen commanders are Bushrod Johnson (CS) and Warren (US), and the live page lists the same two. Johnson says Anderson, who arrived as Wise charged, directed him to send forward Wallace's brigade and later to withdraw the division at about 5 p.m.; Humphreys says Warren moved as directed, with Chamberlain's brigade leading.",
+      "rationale": "Direction attributed as stated; Anderson, not a frozen commander, directed the Confederate commitment and withdrawal in Johnson's account. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1287 (OCR page markers; not checked against print)",
+          "quote": "by direction of Lieutenant-General Anderson, who had arrived on the ground about the time of the charge of Wise’s brigade, I sent forward Wallace’s brigade"
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1287 (OCR page markers; not checked against print)",
+          "quote": "Lieuten¬ ant-General Anderson now directed my division to be withdrawn, at about 5 p. in.,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-28-29",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "General Warren, moving as directed,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA085",
+            "belligerent": "Confederate",
+            "fullname": "Bushrod R. Johnson"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA085",
+            "belligerent": "US",
+            "fullname": "G.K. Warren"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va085-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Gouverneur Warren [US]"
+        },
+        {
+          "source_id": "nps-va085-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Bushrod Johnson [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Humphreys says the Confederates were forced back into their White Oak road intrenchments after losing some 200 prisoners; Johnson says Wallace's and Wise's brigades were repulsed by a heavy fire from the left and the division retired at dusk into the works near Burgess' Mill.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA085"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va085-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-28-29",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "the enemy wTas forced to fall back into their intrenchments on the White Oak road, after suffering severely,"
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1287 (OCR page markers; not checked against print)",
+          "quote": "was repulsed by a heavy fire from the left."
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1287 (OCR page markers; not checked against print)",
+          "quote": "the division retired into the breast¬ works adjacent to Burgess’ Mill and west of Hatcher’s Bun."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 750 (US 380; CS 370) and the live field 752 (US 381; CS 371). Humphreys gives Griffin's loss as 367 killed and wounded, some 200 Confederate prisoners and a Confederate loss 'evidently greater'; Johnson gives his loss as about 250, mainly from Wise's and Wallace's brigades, and the unsigned note printed after his report gives an aggregate of 183 for the Quaker road under a unit name garbled in OCR ('Muse').",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The note's unit and population are unclear and it is not added to Johnson's 250.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA085"
+          },
+          "column": "casualties_text",
+          "quote": "750 total (US 380; CS 370)"
+        },
+        {
+          "source_id": "nps-va085-v1",
+          "locator": "Estimated Casualties",
+          "quote": "752 total (US 381; CS 371;)"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-28-29",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "The loss in Griffin’s division was 367 killed and wounded,"
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-28-29",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "losing some 200 prisoners, besides the wounded left on the field."
+        },
+        {
+          "source_id": "humphreys-appomattox-selections-v1",
+          "section": "march-28-29",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "The loss of the enemy was evidently greater."
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-1865-04-10",
+          "locator": "p.1287 (OCR page markers; not checked against print)",
+          "quote": "Our losses were about 250 men, mainly from Wise’s and Wallace’s brigades."
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-casualty-note",
+          "locator": "p.1291 (OCR page markers; not checked against print)",
+          "quote": "Quaker road: Muse lost — killed, 3 officers, 17 men;"
+        },
+        {
+          "source_id": "or46-1-johnson-appomattox-selections-v1",
+          "section": "johnson-casualty-note",
+          "locator": "p.1291 (OCR page markers; not checked against print)",
+          "quote": "aggregate, 183."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Warren's, Griffin's, Chamberlain's and Bartlett's reports (Nos. 74, 75, 77, 78, 83), Wallace's report (No. 274), Anderson's and Wise's accounts, Lee's March 29 dispatches (selected for other records), the Union casualty return (No. 2) and the Confederate returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

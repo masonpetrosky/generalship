@@ -74,6 +74,18 @@ from different campaigns under separate independence groups (for example
 witness family: they never count as independent corroboration of each other, whatever their group
 names.
 
+### Appomattox and Waynesboro first passes (cohort v2), 2026-09-25
+
+The first passes for the [Appomattox Campaign](research/appomattox-first-pass-v1.md) and
+[Sheridan's Expedition to Petersburg](research/sheridan-petersburg-1865-first-pass-v1.md) add
+**40 records**:
+
+- fifteen NPS HTML/text pairs;
+- new selections from the registered Humphreys and Pond OCR;
+- eight report selections from the registered Volume XLVI Part 1 OCR.
+
+No new volume or catalog record was registered, and no model inputs are changed.
+
 ### 1861 Western and Trans-Mississippi first passes (cohort v2), 2026-09-25
 
 The first passes for six 1861 campaigns add **78 records**: Missouri, Eastern Kentucky, the Gulf
