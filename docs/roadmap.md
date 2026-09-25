@@ -15,9 +15,14 @@ contract. The [estimate ledger](research/strength-estimates-ledger-v1.md) covers
 reviews and an engine review (Claude Opus 5.5 `high`, 2026-09-25) are reconciled: every
 required finding was checked and applied. The reviewed ledger gives 21, 29 and 37
 fit-eligible rows at grades A, A–B and A–C, against 23 frozen rows, and leaves 76 of 182
-sides blank for lack of a usable candidate value. The next step is the owner's decision on
-the locked evaluation (design §6); no fit runs without an explicit authorization naming the
-reviewed ledger's hash. See **Next priority** below. The coverage-first direction that follows still bounds any
+sides blank for lack of a usable candidate value. The owner authorized the locked
+evaluation (design §6, option (a)) for that ledger hash on 2026-09-25; the
+[estimate-layer evaluation](research/estimate-evaluation-v1.md) is recorded as an exploratory
+diagnostic. Strength alone is a weak predictor: worse than equal odds on the 21 grade-A rows,
+and on the 37 A–C rows better than equal odds but not than the training prior
+(campaign-weighted). The baseline is unchanged. Rating commanders next needs decision
+responsibility per side, a campaign unit without double counting, and a residual model with
+partial pooling (Milestone 3); those are owner design decisions. See **Next priority** below. The coverage-first direction that follows still bounds any
 further research depth.
 
 Owner direction, 2026-09-20: the repeated Shiloh source investigations exceeded

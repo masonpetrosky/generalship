@@ -60,6 +60,11 @@ def fit_logistic(xs, ys, ridge=1.0):
             return LogisticModel(a, b)
         determinant = haa*hbb - hab*hab
         da, db = (hbb*ga-hab*gb)/determinant, (haa*gb-hab*ga)/determinant
+        if ga*da + gb*db < 1e-12:
+            # Newton decrement: the predicted decrease is below the objective's rounding, so
+            # the full step lands at the optimum of this strongly convex objective. A line
+            # search here only sees rounding and can stall.
+            return LogisticModel(a-da, b-db)
         step, current = 1.0, objective(a, b)
         while objective(a-step*da, b-step*db) > current - 1e-4*step*(ga*da+gb*db):
             step /= 2

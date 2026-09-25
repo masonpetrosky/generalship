@@ -1,12 +1,15 @@
 PYTHON ?= python3
 
-.PHONY: check reproduce packet review-bundle
+.PHONY: check reproduce estimate-evaluation packet review-bundle
 check:
 	$(PYTHON) -m unittest discover -s tests -v
 	$(PYTHON) -m generalship check
 
 reproduce:
 	$(PYTHON) -m generalship build
+
+estimate-evaluation:
+	$(PYTHON) -m generalship estimate-evaluate
 
 packet:
 	$(PYTHON) -m generalship packet TN003

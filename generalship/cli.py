@@ -9,6 +9,7 @@ from .baseline import evaluate
 from .admission import DEFAULT_PROPOSAL, check as check_admission
 from .strength_admission import DEFAULT_PROPOSAL as STRENGTH_PROPOSAL, check as check_strength
 from .estimates import DEFAULT_LEDGER, check as check_estimates
+from .estimate_eval import evaluate_estimates, report_text as estimate_report
 from .dataset import build_dataset
 from .evidence import validate_all
 from .sources import digest, fetch_sources, read_json, write_json
@@ -147,6 +148,7 @@ def main(argv=None):
     admission_parser.add_argument('path', nargs='?', default=DEFAULT_PROPOSAL)
     admission_parser.add_argument('--details', action='store_true', help='Print the complete ledger and provenance')
     sub.add_parser('estimate-check', help='Replay the best-estimate side-strength ledger; never fits or promotes')
+    sub.add_parser('estimate-evaluate', help='Owner-authorized estimate-layer diagnostic (design §6); never changes the baseline')
     strength_parser = sub.add_parser('strength-check', help='Offline tier-2 reported-strength proposal/release audit; never promotes inputs')
     strength_parser.add_argument('path', nargs='?', default=STRENGTH_PROPOSAL)
     strength_parser.add_argument('--details', action='store_true', help='Print the complete ledger and provenance')
@@ -166,6 +168,15 @@ def main(argv=None):
                        or checked.get('release_status') == 'blocked')
         elif args.command == 'estimate-check':
             result = check_estimates(root)
+        elif args.command == 'estimate-evaluate':
+            evaluation = evaluate_estimates(root)
+            write_json(root / 'artifacts/estimate-evaluation.json', evaluation)
+            (root / 'artifacts/estimate-evaluation.md').write_text(estimate_report(evaluation), encoding='utf-8')
+            result = {'ledger_sha256': evaluation['ledger']['sha256'],
+                      'row_sets': {k: {'evaluable': v['evaluable'], 'rows': v['rows'],
+                                       'brier': v['metrics']['battle_weighted'] if v['evaluable'] else None}
+                                   for k, v in evaluation['row_sets'].items()},
+                      'outputs': ['artifacts/estimate-evaluation.json', 'artifacts/estimate-evaluation.md']}
         elif args.command == "fetch":
             result = {"restored_sources": fetch_sources(root)}
         elif args.command == "packet":
