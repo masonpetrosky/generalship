@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA075",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Chaffin's Farm/New Market Heights record (September 29-30, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. Peebles' Farm (VA074, September 30-October 2) is the co-operating movement south of the James; the October 7 action (VA077) is separate. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Armies' and the live field zero. Humphreys says Ord took 2,000 men from each of two divisions and Birney's column was about 10,000 strong, against Field's three brigades, Fulton's brigade, the local defence and heavy artillery, with ten brigades concentrated at Fort Gilmer for the 30th; he relays Bratton's 1,165 men and 129 officers. Stannard says his division's September 28 field return gave 3,115 for duty, less 260 left in camp.",
+      "rationale": "Columns, a division field return and one Confederate brigade figure, of different dates; the frozen 'Armies' is not a count. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA075"
+          },
+          "column": "forces_text",
+          "quote": "Armies"
+        },
+        {
+          "source_id": "nps-va075-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "General Ord selected for the purpose 2,000 men from each of his First and Second divisions,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "was, with Paine’s addition, about 10,000 strong."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.284 (inferred: chapter opening page without a running head in OCR; not checked against print)",
+          "quote": "were Field’s three brigades, commanded by Benning, Law, and Gregg, and Colonel Fulton’s brigade of Johnson’s division."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "Ten brigades in all were concentrated at and near Fort Gilmer,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "out of his brigade of 1,165 enlisted men and 129 officers."
+        },
+        {
+          "source_id": "or42-1-stannard-chaffins-farm-selections-v1",
+          "section": "stannard-report",
+          "locator": "p.799 (OCR page markers; not checked against print)",
+          "quote": "My field return for 28th of September gave 3,115 men for duty."
+        },
+        {
+          "source_id": "or42-1-stannard-chaffins-farm-selections-v1",
+          "section": "stannard-report",
+          "locator": "p.799 (OCR page markers; not checked against print)",
+          "quote": "reducing this number by 260 men."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "forts-and-open-approach",
+      "dimension": "terrain",
+      "value": "Humphreys calls Fort Harrison the strongest work on the main line and says Stannard's column crossed about 1,400 yards of open ground; Stannard says it crossed a heavy plowed field under plunging fire. Humphreys says Ames's division crossed three ravines filled with fallen trees before Fort Gilmer.",
+      "rationale": "The forts and lines predate the attack. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "the strong¬ est work on the main line of intrencliments,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "The distance it had to traverse was about fourteen hundred yards."
+        },
+        {
+          "source_id": "or42-1-stannard-chaffins-farm-selections-v1",
+          "section": "stannard-report",
+          "locator": "p.798 (OCR page markers; not checked against print)",
+          "quote": "moved directly across a heavy plowed field toward the principal work."
+        },
+        {
+          "source_id": "or42-1-stannard-chaffins-farm-selections-v1",
+          "section": "stannard-report",
+          "locator": "p.798 (OCR page markers; not checked against print)",
+          "quote": "a plunging fire of artillery and musketry, galling in the extreme,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "the greater part of Ames’s division crossing three ravines filled with fallen trees,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-rifles",
+      "dimension": "logistics",
+      "value": "Stannard says two of his regiments had just exchanged their arms for Spencer repeating rifles, that on the 30th an artillery officer reported himself out of ammunition, and that an ordnance wagon brought to the sally-port restored his infantry's ammunition during the second assault. Humphreys says Confederate brigades came from the far right by railroad.",
+      "rationale": "Commanders' statements; no ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "or42-1-stannard-chaffins-farm-selections-v1",
+          "section": "stannard-report",
+          "locator": "p.798 (OCR page markers; not checked against print)",
+          "quote": "exchanged the arms heretofore in use for the Spencer repeating rifle."
+        },
+        {
+          "source_id": "or42-1-stannard-chaffins-farm-selections-v1",
+          "section": "stannard-report",
+          "locator": "p.800 (OCR page markers; not checked against print)",
+          "quote": "that he was out of ammunition."
+        },
+        {
+          "source_id": "or42-1-stannard-chaffins-farm-selections-v1",
+          "section": "stannard-report",
+          "locator": "p.800 (OCR page markers; not checked against print)",
+          "quote": "I had a few moments before sent a staff officer with an order to bring up a wagon from my ordnance train."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "Bratton’s and Anderson’s brigades were brought from the Confederate extreme right by railroad,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surprise-and-mistaken-view",
+      "dimension": "information",
+      "value": "Humphreys says every precaution was taken to make the attack a surprise, that reinforcements were seen entering Fort Harrison, and that Ord mistook Confederate reinforcements entering Fort Gilmer for Heckman's division.",
+      "rationale": "Attributed knowledge from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "Every precaution had been taken to keep the knowledge of the movement from the enemy and make the attack a surprise."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "Reinforce¬ ments were now seen entering Fort Harrison from the enemy’s left."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "but they soon proved to be reinforce¬ ments of the enemy,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "richmond-and-fort-gilmer",
+      "dimension": "objectives",
+      "value": "Humphreys says Ord and Birney were to cross and advance on Richmond, that Fort Gilmer rather than Fort Harrison controlled the Chapin's Bluff defences, and that the Confederate brigades gathered to retake Fort Harrison on the 30th.",
+      "rationale": "Stated aims from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.284 (inferred: chapter opening page without a running head in OCR; not checked against print)",
+          "quote": "were directed to cross the James in the night and ad¬ vance upon Richmond,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "session of Fort Harrison did not give possession of the de¬ fences at Chapin’s Bluff, but the possession of Fort Gilmer would give it."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "to assault Fort Harrison and its dependent"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Grant came to Fort Harrison and ordered Birney forward, that Ord was disabled and blamed Heckman's scattered advance, that Ewell commanded north of the James and Lee joined him, and that Anderson led the September 30 assault; Stannard says he ordered Burnham's brigade to carry the works. Butler's direction is not described in the inspected passages. The frozen commanders are Lee and Ewell (CS) and Butler (US); the live page lists Butler and 'Major General Robert Lee'.",
+      "rationale": "Direction and criticism attributed as stated; the live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "General Grant, who had arrived at Fort Harrison, now in¬ formed Major-General Birney of Ord’s success,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "in advancing went too far into the woods ; his brigades became scattered,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "General Ewell was in command of the Confederate troops on the north side, where he was joined by General Lee during the day."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "General An¬ derson, commanding Longstreet’s corps, assaulted"
+        },
+        {
+          "source_id": "or42-1-stannard-chaffins-farm-selections-v1",
+          "section": "stannard-report",
+          "locator": "p.798 (OCR page markers; not checked against print)",
+          "quote": "which I at once directed him to carry by assault."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA075",
+            "belligerent": "US",
+            "fullname": "Benjamin Butler"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA075",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA075",
+            "belligerent": "Confederate",
+            "fullname": "Richard S. Ewell"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "nps-va075-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Humphreys says Fort Harrison was captured with sixteen guns but the attacks on Fort Gilmer failed, and the September 30 assaults were repulsed with heavy loss; Stannard says his division carried and held the position against superior numbers and took 22 guns in all.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Humphreys' sixteen guns in the fort and Stannard's 22 in all the works are different scopes.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA075"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va075-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "tured the work with sixteen guns and a number of prisoners,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "General Heckman attacked Fort Gilmer with his division but was repulsed with heavy loss."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "but were repulsed each time, and with heavy loss,"
+        },
+        {
+          "source_id": "or42-1-stannard-chaffins-farm-selections-v1",
+          "section": "stannard-report",
+          "locator": "p.801 (OCR page markers; not checked against print)",
+          "quote": "The record will scarcely show an instance where so small a body of men carried so strong a position"
+        },
+        {
+          "source_id": "or42-1-stannard-chaffins-farm-selections-v1",
+          "section": "stannard-report",
+          "locator": "p.801 (OCR page markers; not checked against print)",
+          "quote": "was 22."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 4,430 total and the live field 5,000 (US 3,300; CS 1,700). Humphreys gives the Adjutant General's table of 394 killed, 1,554 wounded and 324 missing (2,272) for both days, the Medical and Surgical History's Confederate 2,000 and Bratton's 377; Stannard reports 92 killed and 502 wounded in his division on the 29th, with 330 reported missing that he expected to shrink.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA075"
+          },
+          "column": "casualties_text",
+          "quote": "4,430 total"
+        },
+        {
+          "source_id": "nps-va075-v1",
+          "locator": "Estimated Casualties",
+          "quote": "5000 total (US 3300; CS 1700;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "our casualties in the two days were 394 killed, 1,554 wounded, and 324 missing — total, 2,272."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "puts the Confederate loss at 2,000."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-harrison",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "General Bratton says he had 377 killed and wounded"
+        },
+        {
+          "source_id": "or42-1-stannard-chaffins-farm-selections-v1",
+          "section": "stannard-report",
+          "locator": "p.799 (OCR page markers; not checked against print)",
+          "quote": "Total, 92 killed and 502 wounded."
+        },
+        {
+          "source_id": "or42-1-stannard-chaffins-farm-selections-v1",
+          "section": "stannard-report",
+          "locator": "p.799 (OCR page markers; not checked against print)",
+          "quote": "Three hundred and thirty men were also reported missing,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Butler's and Ord's reports (Ord No. 314 not read), Birney's, Heckman's and Paine's reports, the colored troops' New Market Heights reports, Ewell's one-line dispatch and Gregg's letter (Nos. 369, 366; read, not selected) and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA071",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Deep Bottom II record (August 13-20, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. Globe Tavern (VA072, August 18-21) overlaps these dates south of the James. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Corps' and the live field zero. Humphreys gives the effective infantry of the Army of the Potomac at this time as 33,684 and of the Army of the James as 18,449, and says Field's division held the Bailey's Creek line with Wilcox's joining and Mahone's division and Hampton's and W. H. F. Lee's cavalry sent to reinforce them; the only division actually sent to Early was Kershaw's.",
+      "rationale": "Army-wide effective infantry, not the force north of the James; the Confederate side is by formations only. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA071"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va071-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "The effective force of infantry of the Army of the Potomac at this time was 33,684 ; of the Army of the James, 18,449."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.269 (OCR page markers; not checked against print)",
+          "quote": "But General Field’s divi¬ sion had remained at the Deep Bottom or Bailey’s Creek in- trenchments,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.269 (OCR page markers; not checked against print)",
+          "quote": "Wilcox at once joined Field, and Mahone’s division, with Hampton’s and W. H. F. Lee’s cavalry divisions, were sent across the river to reinforce them,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.269 (OCR page markers; not checked against print)",
+          "quote": "in fact, only Kershaw’s division of infantry had been sent to Early."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "woods-and-works",
+      "dimension": "terrain",
+      "value": "Humphreys says Barlow's line stretched nearly a mile and a half through thick woods toward Fussell's mill and that the wooded country prevented Hancock's personal examination; Lee says the Union right was found strongly intrenched on August 18.",
+      "rationale": "Woods predate the operation; the works on both sides were built during it. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "(a distance, according to the maps, of nearly a mile and a half), through thick woods,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "The wooded character of the country pre¬ vented personal examination by General Hancock,"
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-08-18",
+          "locator": "p.851 (OCR page markers; not checked against print)",
+          "quote": "finding him strongly intrenched withdrew."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "steamers-and-tide",
+      "dimension": "logistics",
+      "value": "Humphreys says the steamers carrying the Second Corps were unsuited to troops, could not run close in the shoal water on an ebbing tide, and delayed disembarkation until nine o'clock on August 14.",
+      "rationale": "Transport statement from an interested history; no return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.268 (inferred: the running head reads '2G8' in OCR; not checked against print)",
+          "quote": "but the steamers were not adapted to the transportation of troops, and, owing to the shoal water, could not run near enough to the shore, and the tide was ebbing."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.269 (OCR page markers; not checked against print)",
+          "quote": "nine o’clock in the morning of the 14th before the corps had disembarked."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "erroneous-information",
+      "dimension": "information",
+      "value": "Humphreys says Grant acted on information that Lee had detached three infantry and one cavalry division, that the movement was concealed to suggest troops bound for Washington, and that the information proved erroneous.",
+      "rationale": "Attributed knowledge from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.268 (inferred: the running head reads '2G8' in OCR; not checked against print)",
+          "quote": "Information received from various sources leading General Grant to believe that General Lee had detached three divi¬ sions of infantry and one of cavalry"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.268 (inferred: the running head reads '2G8' in OCR; not checked against print)",
+          "quote": "Great care was taken to conceal the movement, and to give the impression that the troops were destined for Washing¬ ton."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "It was now fully ascertained that the information upon which General Hancock had been sent to the north side of the James was erroneous,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "threaten-richmond",
+      "dimension": "objectives",
+      "value": "Humphreys says Hancock was sent to threaten Richmond to prevent further detachments by Lee and, if possible, draw back those sent, with Gregg to dash on Richmond or destroy the railroads if the chance offered.",
+      "rationale": "Stated aims from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.268 (inferred: the running head reads '2G8' in OCR; not checked against print)",
+          "quote": "in order to prevent further detach¬ ments from being made by Lee, and, if possible, to draw back those sent."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.269 (OCR page markers; not checked against print)",
+          "quote": "Gregg was to move on the for¬ mer, make a dash on Richmond, if the chance offered,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys relays Hancock's criticism that Barlow assaulted with only one brigade instead of two divisions, says Birney's wide circuit delayed his attack until the 16th, and that Hancock was kept north of the James though directed not to assault the works. The frozen commanders are Lee and Field (CS) and Hancock (US); the live page lists Hancock and 'Major General Robert Lee'.",
+      "rationale": "Criticism attributed as stated; Lee's and Field's roles are not described in the inspected passages beyond Lee's reports. The live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "assaulted with only one brigade (of Gibbon’s division),"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.270 (OCR page markers; not checked against print)",
+          "quote": "But General Birney took so wide a circuit to his right"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "though directed not to assault the enemy’s works."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA071",
+            "belligerent": "US",
+            "fullname": "Winfield Scott Hancock"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA071",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA071",
+            "belligerent": "Confederate",
+            "fullname": "Charles Field"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va071-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Lee reported that the enemy broke through on August 16 but was repulsed and the original positions reoccupied; Humphreys says Terry's attack carried the works with prisoners but the enemy soon retook them, leaving Birney only the picket line, and that the command withdrew on the night of the 20th.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA071"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va071-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-08-16-1600",
+          "locator": "p.850 (OCR page markers; not checked against print)",
+          "quote": "At one time he broke through, but was repulsed, and we now occupy our original positions."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "The enemy soon retook their line, Birney retaining only the advanced line of pits, the picket line."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.271 (OCR page markers; not checked against print)",
+          "quote": "On the night of the 20th his command was withdrawn to their former posi-"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 4,600 total and the live field 4,200 (US 2,900; CS 1,300). Humphreys gives the nominal-list casualties as 321 killed, 1,840 wounded and 625 missing (2,786), against Badeau's table of 1,498 killed and wounded and 515 missing (2,013), and found no Confederate statement; Lee called his loss small.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA071"
+          },
+          "column": "casualties_text",
+          "quote": "4,600 total"
+        },
+        {
+          "source_id": "nps-va071-v1",
+          "locator": "Estimated Casualties",
+          "quote": "4200 total (US 2900; CS 1300;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "were 321 killed, 1,840 wounded, 625 missing; total, 2,786."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "1,498 killed and wounded, 515 missing ; total, 2,013."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-august",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "I have not found a statement of the Confederate casualties."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-08-16-2030",
+          "locator": "p.850 (OCR page markers; not checked against print)",
+          "quote": "Our loss was small."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Hancock's, Birney's, Barlow's, Gregg's and Mott's reports (Volume XLII Nos. 17, 250, 19, 229, 77), Field's and Mahone's reports and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

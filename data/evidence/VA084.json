@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA084",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort Stedman record (March 25, 1865) in the Richmond-Petersburg Campaign [June 1864-March 1865]. Hatcher's Run (VA083) precedes; the April operations belong to the Appomattox Campaign. The Union capture of the picket lines on March 25 is context for April 2, not this record's result. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Corps' and the live field zero; the frozen description says Lee amassed nearly half his army. Humphreys relays Gordon's statement that Lee gave him his own corps, parts of Hill's and Longstreet's and some cavalry, about one-half of the army, gives the Ninth Corps a seven-mile line, and gives the latest spring returns as not less than 46,000 effective Confederate infantry and 69,000 for the Army of the Potomac.",
+      "rationale": "A proportion, a line length and army-wide returns dated to late March; no count of the assaulting or defending force. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA084"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va084-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA084"
+          },
+          "column": "description",
+          "quote": "Gen. Robert E. Lee amassed nearly half of his army"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.317 (OCR page markers; not checked against print)",
+          "quote": "in all about one-lialf of the Army."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "a line about seven miles in length,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "spring-1865-strengths",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "The effective force of Lee’s infantry was not less than 46,000 ;"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "spring-1865-strengths",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "The effective force of infantry of the Army of the Potomac was 69,000 ;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "close-lines-and-forts",
+      "dimension": "terrain",
+      "value": "Humphreys says the lines at Fort Stedman were only 150 yards apart and the pickets 50, that the rear forts the Confederate plan relied on did not exist, and that the darkness prevented friends from being told from foes; Lee says the captured guns could not be brought off owing to the nature of the ground.",
+      "rationale": "The lines predate the assault. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.317 (OCR page markers; not checked against print)",
+          "quote": "where the opposing lines were only one hundred and fifty yards apart ; the pickets fifty yards apart."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.317 (OCR page markers; not checked against print)",
+          "quote": "But, in point of fact, there were no such forts."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "that friends could not be distinguished from foes,"
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-1865-03-25",
+          "locator": "p.382 (OCR page markers; not checked against print)",
+          "quote": "owing to nature of ground,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "delayed-trains",
+      "dimension": "logistics",
+      "value": "Humphreys quotes Gordon that troops sent from Longstreet's corps were delayed by the breaking down of trains, so daylight found the plan half executed.",
+      "rationale": "A commander's statement relayed by a history; no transport return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.320 (OCR page markers; not checked against print)",
+          "quote": "were delayed by the breaking down of trains,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.320 (OCR page markers; not checked against print)",
+          "quote": "and daylight found us with the plan only half executed."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "deserter-ruse-and-guides",
+      "dimension": "information",
+      "value": "Humphreys relays Parke that the attackers took picket posts by exploiting the order letting deserters bring their arms, says Gordon's guides were lost or deserted, that Gordon misunderstood the rear works, and that the telegraph to Meade at City Point was cut.",
+      "rationale": "Attributed knowledge from a history relaying both commanders.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "of the order allowing deserters to bring their arms with them,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "which probably led to the misapprehension of General Gordon."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.320 (OCR page markers; not checked against print)",
+          "quote": "General Meade had passed the night of the 24th at City Point, the telegraph to which place was cut by the enemy."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "sortie-to-shorten-line",
+      "dimension": "objectives",
+      "value": "Humphreys says Lee proposed the sortie to gain works and the ridge near the Appomattox so that Grant would draw in his left, postponing the abandonment of Richmond and Petersburg; NPS says the attack aimed to threaten the supply depot at City Point.",
+      "rationale": "Stated aims from a history and a summary.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.317 (OCR page markers; not checked against print)",
+          "quote": "General Lee proposed in the meantime to make a sortie in order to gain some of the works on the right of the line held by the Army of the Potomac near the Appomattox River,"
+        },
+        {
+          "source_id": "nps-va084-v1",
+          "locator": "Description",
+          "quote": "to break through Grant's Petersburg defenses and threaten his supply depot at City Point."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Gordon was selected for the attack, that Parke, in command as senior in Meade's absence, ordered Willcox to retake the works and assigned Hartranft to retake Fort Stedman; Lee reports that Gordon carried the works but the rear works could be taken only at great sacrifice and the troops were withdrawn. The frozen commanders are Lee and Gordon (CS) and Parke (US); the live page lists Parke and 'Major General Robert Lee'.",
+      "rationale": "Direction attributed as stated; the live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.317 (OCR page markers; not checked against print)",
+          "quote": "General Gordon wras selected for the ser¬ vice,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.320 (OCR page markers; not checked against print)",
+          "quote": "and that he, General Parke, was in command (being the senior in rank)."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.319 (OCR page markers; not checked against print)",
+          "quote": "General Hartranft was assigned to the re¬ capture of Fort Stedman and Battery 10."
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-1865-03-25",
+          "locator": "p.382 (OCR page markers; not checked against print)",
+          "quote": "At daylight this morning General Gordon assaulted and carried enemy’s works at Hare’s Hill,"
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-1865-03-25",
+          "locator": "p.382 (OCR page markers; not checked against print)",
+          "quote": "could only be taken at great sacrifice, and troops were withdrawn to original position."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA084",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA084",
+            "belligerent": "Confederate",
+            "fullname": "John B. Gordon"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA084",
+            "belligerent": "US",
+            "fullname": "John G. Parke"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va084-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Humphreys says Hartranft retook Fort Stedman with small loss and that the Second and Sixth Corps took the Confederate picket lines; Lee says two efforts to recover the works were repulsed before his troops withdrew, and that at dark the enemy held much of the advanced line.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The picket-line captures are retained as context for April 2, a later record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA084"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va084-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.319 (OCR page markers; not checked against print)",
+          "quote": "he advanced to the attack and carried the fort with comparatively small loss."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.321 (OCR page markers; not checked against print)",
+          "quote": "The intrenched picket line of the enemy was captured,"
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-1865-03-25",
+          "locator": "p.382 (OCR page markers; not checked against print)",
+          "quote": "and two efforts made to recover captured works were handsomely repulsed;"
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-1865-03-25",
+          "locator": "p.383 (OCR page markers; not checked against print)",
+          "quote": "At dark enemy held considerable portion of the line farthest in advance of our main works."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 3,850 (US 950; CS 2,900) and the live field 3,698 (US 1,017; CS 2,681). Humphreys gives Parke's 1,949 prisoners and loss of 494 killed and wounded and 523 missing (1,017), the Second Corps' 690 and 358 prisoners, the Sixth Corps' about 400 and 547 prisoners, and his estimate of nearly 4,000 Confederate and about 2,000 Union losses for the day; Lee reports 9 guns, 8 mortars and between 500 and 600 prisoners taken and his loss not heavy.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Parke's 1,017 matches the live Union figure, not the frozen 950; Humphreys' day totals include the picket-line fighting.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA084"
+          },
+          "column": "casualties_text",
+          "quote": "3,850 total (US 950; CS 2,900)"
+        },
+        {
+          "source_id": "nps-va084-v1",
+          "locator": "Estimated Casualties",
+          "quote": "3698 total (US 1017; CS 2681;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.319 (OCR page markers; not checked against print)",
+          "quote": "1,949 prisoners, including 71 officers and nine stands of colors, fell into General Parke’s hands."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.319 (OCR page markers; not checked against print)",
+          "quote": "His loss was 494 killed and wounded and 523 missing ; a total of 1,017."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.321 (OCR page markers; not checked against print)",
+          "quote": "The loss of the Second Corps was 513 killed and wounded and 177 missing ; total, 690."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.321 (OCR page markers; not checked against print)",
+          "quote": "losing about 400 in the encounters, and capturing 547 prisoners."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fort-stedman",
+          "locator": "p.321 (OCR page markers; not checked against print)",
+          "quote": "The total loss of the enemy in the operations of the 25th of March must have been nearly 4,000 ; ours, about 2,000."
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-1865-03-25",
+          "locator": "p.382 (OCR page markers; not checked against print)",
+          "quote": "captured 9 pieces of artillery, 8 mortars, between 500 and GOO prisoners,"
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-1865-03-25",
+          "locator": "p.382 (OCR page markers; not checked against print)",
+          "quote": "Our loss reported is not heavy."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Parke's, Hartranft's, Willcox's and McLaughlen's reports (Volume XLVI Nos. 134, 154), the artillery reports (Nos. 9-28), Meade's report (No. 5), Gordon's report (No. 181; read, not selected), the Union casualty return (No. 3, garbled) and the Confederate returns (No. 180) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA070",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Crater record (July 30, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. Deep Bottom I (VA069) ends on July 29. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'IX Corps [US]; elements of the Army of Northern Virginia [CS]' and the live field zero. Humphreys gives the Army of the Potomac 37,984 effective infantry on July 20 and the Army of Northern Virginia 39,295 on July 10 (excluding detached corps), with only Hoke's, Johnson's and Mahone's divisions left in the Petersburg lines. Burnside says his corps had been recruited from under 6,000 veterans to 24,000 men.",
+      "rationale": "Army-wide returns of other dates and a corps recruitment total; not the forces engaged at the crater. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA070"
+          },
+          "column": "forces_text",
+          "quote": "IX Corps [US]; elements of the Army of Northern Virginia [CS]"
+        },
+        {
+          "source_id": "nps-va070-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.265 (OCR page markers; not checked against print)",
+          "quote": "its effective force of infantry (enlisted men present for duty equipped) was 37,984 ;"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.265 (OCR page markers; not checked against print)",
+          "quote": "The effective force of infantry of the Army of Northern Virginia on the 10tli of July was 39,295 ;"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "leaving only Hoke’s, Johnson’s, and Mahone’s divisions in the Petersburg intrencliments,"
+        },
+        {
+          "source_id": "or40-1-burnside-petersburg-selections-v1",
+          "section": "burnside-1864-11-26",
+          "locator": "p.525 (OCR page markers; not checked against print)",
+          "quote": "the corps was recruited to a strength of 24,000 men,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "salient-exposure",
+      "dimension": "terrain",
+      "value": "Humphreys says Elliott's salient was a re-entrant of the Confederate line, exposed with the ground before it to flank fire, and that concealed batteries could not be silenced; Burnside says the enemy's lines were involuted and complex, a labyrinth of pits, traverses and bomb-proofs.",
+      "rationale": "The lines predate the assault. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.250 (OCR page markers; not checked against print)",
+          "quote": "Elliott’s salient being a re-entrant of the general line of intrenchments,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.250 (OCR page markers; not checked against print)",
+          "quote": "being exposed to a flank fire on the right and left."
+        },
+        {
+          "source_id": "or40-1-burnside-petersburg-selections-v1",
+          "section": "burnside-1864-08-13",
+          "locator": "p.527 (OCR page markers; not checked against print)",
+          "quote": "The lines of the enemy on either side were not single, but involuted and complex, filled with pits, traverses, and bomb-proofs,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "mine-and-crater",
+      "dimension": "terrain",
+      "value": "The Union mine made the crater: Humphreys gives it about 150 feet long, 60 wide and 25 deep; Burnside says it was a crater of large proportions and a formidable obstacle, which troops could not cross in organized regiments.",
+      "rationale": "Commander-created feature tagged as such; it became an obstacle to the attackers themselves.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "The crater was about one hundred and fifty feet long, sixty wide and twenty- five deep."
+        },
+        {
+          "source_id": "or40-1-burnside-petersburg-selections-v1",
+          "section": "burnside-1864-08-13",
+          "locator": "p.527 (OCR page markers; not checked against print)",
+          "quote": "now a crater of large propor¬ tions and an obstacle of great formidableness."
+        },
+        {
+          "source_id": "or40-1-burnside-petersburg-selections-v1",
+          "section": "burnside-1864-08-13",
+          "locator": "p.527 (OCR page markers; not checked against print)",
+          "quote": "To cross such an obstacle and preserve regimental organization was a sheer impossibility."
+        }
+      ],
+      "phase": "commander_created",
+      "status": "supported"
+    },
+    {
+      "id": "mine-and-preparations",
+      "dimension": "logistics",
+      "value": "Burnside says the mine was dug with only the ordinary spade and pick and charged with about 8,000 pounds of powder; Humphreys gives eight magazines of 1,000 pounds each and says Burnside's parapets, abatis, pioneers and intrenching tools were not prepared as ordered. Burnside says the men in the crater suffered from want of water.",
+      "rationale": "Engineering and preparation statements; Burnside and Humphreys disagree on the preparations.",
+      "citations": [
+        {
+          "source_id": "or40-1-burnside-petersburg-selections-v1",
+          "section": "burnside-1864-08-13",
+          "locator": "p.527 (OCR page markers; not checked against print)",
+          "quote": "with no tools but the ordinary intrenching spade and pick."
+        },
+        {
+          "source_id": "or40-1-burnside-petersburg-selections-v1",
+          "section": "burnside-1864-08-13",
+          "locator": "p.527 (OCR page markers; not checked against print)",
+          "quote": "It consisted of about 8,000 pounds of powder."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.250 (OCR page markers; not checked against print)",
+          "quote": "There were eight magazines, each of which was charged with one thousand pounds of powder."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.254 (OCR page markers; not checked against print)",
+          "quote": "His parapets and abatis were not prepared for the passage of the columns of attack,"
+        },
+        {
+          "source_id": "or40-1-burnside-petersburg-selections-v1",
+          "section": "burnside-1864-08-13",
+          "locator": "p.529 (OCR page markers; not checked against print)",
+          "quote": "They were suffering severely under a hot sun from want of water."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "detection-and-reconnaissance",
+      "dimension": "information",
+      "value": "Humphreys says Burnside believed the mine undiscovered though the Confederates had detected the mining, and that signal-station observation found detached batteries rather than a connected second line; prisoners at 6 a.m. said there was no line in their rear.",
+      "rationale": "Attributed knowledge from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "General Burnside had reason to believe that the enemy had not discovered his mine."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "His mining work, however, had not escaped detection by them,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "but not a connected line."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.258 (OCR page markers; not checked against print)",
+          "quote": "prisoners taken having stated that they had no line in their rear,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "seize-the-crest",
+      "dimension": "objectives",
+      "value": "Humphreys says Meade told Burnside and his division commanders that immediate advantage must be taken to gain the crest and that holding the crater would be of no use; Burnside says orders were sent to advance to the crest without halting at the works.",
+      "rationale": "Stated aims from interested accounts.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.254 (OCR page markers; not checked against print)",
+          "quote": "that holding the crater would be of no possible use ;"
+        },
+        {
+          "source_id": "or40-1-burnside-petersburg-selections-v1",
+          "section": "burnside-1864-08-13",
+          "locator": "p.528 (OCR page markers; not checked against print)",
+          "quote": "not to halt at tlie works, but to advance at once to the crest"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Burnside says his plan to lead with the colored division was not adopted and that peremptory orders sent that division in; Humphreys says Ledlie did not accompany his division, that Burnside alone did not carry out his preparatory orders, that Lee ordered two of Mahone's brigades up, and that the assault failed from mismanagement and misbehavior of several chief actors. Meade told Burnside on August 3 that he had asked for his relief. The frozen commanders are Major General Burnside (US) and General Lee (CS); the live page gives Lee as Major General.",
+      "rationale": "Direction and blame are attributed as stated; Burnside's and Meade's accounts are adversarial and the Court of Inquiry record was not inspected. The live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or40-1-burnside-petersburg-selections-v1",
+          "section": "burnside-1864-08-13",
+          "locator": "p.527 (OCR page markers; not checked against print)",
+          "quote": "This plan was not adopted as to these two points,"
+        },
+        {
+          "source_id": "or40-1-burnside-petersburg-selections-v1",
+          "section": "burnside-1864-08-13",
+          "locator": "p.528 (OCR page markers; not checked against print)",
+          "quote": "Per¬ emptory orders from the commanding general directed me to throw in all my troops and direct them against the crest."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.255 (OCR page markers; not checked against print)",
+          "quote": "did not accompany, much less lead, his division."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.254 (OCR page markers; not checked against print)",
+          "quote": "These orders were carried out thoroughly by all the com¬ manders except General Burnside."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.259 (OCR page markers; not checked against print)",
+          "quote": "at once ordered two brigades of Mahone’s division to be brought up from the right."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.264 (OCR page markers; not checked against print)",
+          "quote": "it was apparent that the assault failed from mismanagement and misbehavior on the part of several of the chief actors,"
+        },
+        {
+          "source_id": "or40-1-burnside-petersburg-selections-v1",
+          "section": "meade-to-burnside-1864-08-03",
+          "locator": "p.531 (OCR page markers; not checked against print)",
+          "quote": "I have felt myself compelled to ask that you be relieved from duty with this army.t"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA070",
+            "belligerent": "US",
+            "fullname": "Ambrose E. Burnside"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA070",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-va070-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Humphreys says the counterattack left the enemy in possession of nearly all their works right of the mine and that Meade, with Grant's concurrence, suspended the offensive; Burnside says the colored division broke in disorder to the rear.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA070"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va070-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.260 (OCR page markers; not checked against print)",
+          "quote": "This attack left the enemy in possession of nearly all their intrenchments on our right of the mine."
+        },
+        {
+          "source_id": "or40-1-burnside-petersburg-selections-v1",
+          "section": "burnside-1864-08-13",
+          "locator": "p.528 (OCR page markers; not checked against print)",
+          "quote": "broke in disorder to the rear,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 5,300 total and the live field 5,289 (US 3,798; CS 1,491). Humphreys gives Meade's report of 4,400 Union killed, wounded and missing, the Medical Department table's 4,008, his own estimate of probably 3,500, the colored division's 176 killed, 688 wounded and 801 missing, the table's Confederate 400, 600 and 200 (which he calls erroneous), McMaster's 677 for Elliott's brigade, and Mahone's 1,101 prisoners; Burnside's epoch table gives the Fourth Division 170 killed, 688 wounded and 801 missing.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Burnside's and Humphreys' Fourth Division killed differ (170 against 176).",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA070"
+          },
+          "column": "casualties_text",
+          "quote": "5,300 total"
+        },
+        {
+          "source_id": "nps-va070-v1",
+          "locator": "Estimated Casualties",
+          "quote": "5289 total (US 3798; CS 1491;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.263 (OCR page markers; not checked against print)",
+          "quote": "General Meade reported his casualties at 4,400 killed, wounded, and missing,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.263 (OCR page markers; not checked against print)",
+          "quote": "total, 4,008."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.263 (OCR page markers; not checked against print)",
+          "quote": "the total was probably 3, 500."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.263 (OCR page markers; not checked against print)",
+          "quote": "are stated to have been 176 killed, 688 wounded, and 801 missing."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.263 (OCR page markers; not checked against print)",
+          "quote": "Its Tabular Statement of the Confederate loss is evidently erroneous, 400 killed, 600 wounded, 200 missing."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.263 (OCR page markers; not checked against print)",
+          "quote": "Colonel McMaster states that the loss of Elliott’s brigade was 677,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "petersburg-mine",
+          "locator": "p.263 (OCR page markers; not checked against print)",
+          "quote": "General Mahone states that the number of prisoners taken in the crater was 1,101."
+        },
+        {
+          "source_id": "or40-1-burnside-petersburg-selections-v1",
+          "section": "burnside-1864-11-26",
+          "locator": "p.525 (OCR page markers; not checked against print)",
+          "quote": "Fourth Division, 170 killed, 688 wounded, 801 missing."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The Court of Inquiry record (No. 4), Meade's August 16 report (read, not selected), Ledlie's, Potter's, Willcox's and Ferrero's reports, Ord's report, Lee's July 30 dispatches (read, not selected), Mahone's colors list and Confederate returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

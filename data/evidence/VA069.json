@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA069",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Deep Bottom I record (July 27-29, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. The Crater (VA070) follows on July 30. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Corps' and the live field zero. Hancock names Gibbon's, Barlow's and Mott's divisions with Sheridan's cavalry, adds Birge's brigade of a little over 2,500, and relays Grant's information of seven enemy brigades and a little cavalry in his front. Humphreys says Wilcox's and Kershaw's divisions held the line, Heth's joined on the 27th, and Field's and Fitzhugh Lee's divisions on the 29th.",
+      "rationale": "Formation lists and one brigade figure; no return for either force. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA069"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va069-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or40-1-hancock-deep-bottom-selections-v1",
+          "section": "hancock-deep-bottom",
+          "locator": "p.308 (OCR page markers; not checked against print)",
+          "quote": "consisting of Gibbon’s, Barlow’s, and Mott’s divisions,"
+        },
+        {
+          "source_id": "or40-1-hancock-deep-bottom-selections-v1",
+          "section": "hancock-deep-bottom",
+          "locator": "p.310 (OCR page markers; not checked against print)",
+          "quote": "(a little over 2,500 strong),"
+        },
+        {
+          "source_id": "or40-1-hancock-deep-bottom-selections-v1",
+          "section": "hancock-deep-bottom",
+          "locator": "p.310 (OCR page markers; not checked against print)",
+          "quote": "the enemy had in my front seven brigades of infantry and a small force of cavalry."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-july",
+          "locator": "p.249 (OCR page markers; not checked against print)",
+          "quote": "Wilcox’s and Kershaw’s divisions had been sent across the river from Petersburg before our movement began, and held this line."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-july",
+          "locator": "p.249 (OCR page markers; not checked against print)",
+          "quote": "Heth’s division joined them on the 27th."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "bailey-creek-line",
+      "dimension": "terrain",
+      "value": "Hancock says the enemy's works behind Bailey's Creek offered great advantages, the creek hard to cross under fire and about 1,000 yards of open ground before the works; Humphreys says the line ran from the mouth to Fussell's mill with the left refused.",
+      "rationale": "The creek and the Confederate works predate the Union crossing. No map verification.",
+      "citations": [
+        {
+          "source_id": "or40-1-hancock-deep-bottom-selections-v1",
+          "section": "hancock-deep-bottom",
+          "locator": "p.309 (OCR page markers; not checked against print)",
+          "quote": "in well-constructed works, in a position offering great advantages for defense."
+        },
+        {
+          "source_id": "or40-1-hancock-deep-bottom-selections-v1",
+          "section": "hancock-deep-bottom",
+          "locator": "p.310 (OCR page markers; not checked against print)",
+          "quote": "and tlie distance from tlie creek to the works was about 1,000 yards, the intervening ground being perfectly open."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-july",
+          "locator": "p.249 (OCR page markers; not checked against print)",
+          "quote": "The enemy was found in strong force intrenched on the west bank of Bailey’s Creek, from the mouth to Fussell’s mill, where their left was refused."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "bridges-and-gunboats",
+      "dimension": "logistics",
+      "value": "Humphreys says two ponton bridges spanned the James at Deep Bottom; Hancock says Butler's pickets lit fires along the night road and that gunboat fire was directed on the enemy by signals.",
+      "rationale": "Movement and support statements; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-july",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "There were two ponton bridges at Deep Bottom"
+        },
+        {
+          "source_id": "or40-1-hancock-deep-bottom-selections-v1",
+          "section": "hancock-deep-bottom",
+          "locator": "p.308 (OCR page markers; not checked against print)",
+          "quote": "Through the kind¬ ness of General Butler the road had been picketed, and small fires built"
+        },
+        {
+          "source_id": "or40-1-hancock-deep-bottom-selections-v1",
+          "section": "hancock-deep-bottom",
+          "locator": "p.310 (OCR page markers; not checked against print)",
+          "quote": "The fire of the gun-boats in the river was directed on the enemy by means of signals,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surprise-contingency",
+      "dimension": "information",
+      "value": "Hancock says success depended on the enemy's works being thinly held and the movement a surprise, and that during the night of the 27th he learned the enemy were reinforcing from south of the James.",
+      "rationale": "Attributed knowledge from an interested report.",
+      "citations": [
+        {
+          "source_id": "or40-1-hancock-deep-bottom-selections-v1",
+          "section": "hancock-deep-bottom",
+          "locator": "p.309 (OCR page markers; not checked against print)",
+          "quote": "The suc¬ cess of this movement depended upon the contingency that the enemy’s works would be thinly occupied, and the movement a surprise."
+        },
+        {
+          "source_id": "or40-1-hancock-deep-bottom-selections-v1",
+          "section": "hancock-deep-bottom",
+          "locator": "p.310 (OCR page markers; not checked against print)",
+          "quote": "During the night of the 27th I received intelligence that the enemy were re-enforcing from the south side of the James."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "raid-and-diversion",
+      "dimension": "objectives",
+      "value": "Humphreys says the cavalry was to dash on Richmond if favorable or else destroy the railroads to the Anna rivers, the chief object, and that Grant thought the movement might weaken the Petersburg lines enough for the mine assault; Hancock says he was to hold a position to stop the enemy crossing troops north of the James.",
+      "rationale": "Stated aims from an interested history and report.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-july",
+          "locator": "p.247 (OCR page markers; not checked against print)",
+          "quote": "the cavalry to make a dash upon Richmond if the chances seemed favorable for it,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-july",
+          "locator": "p.247 (OCR page markers; not checked against print)",
+          "quote": "(which was indeed the chief object of the crperation)."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-july",
+          "locator": "p.248 (OCR page markers; not checked against print)",
+          "quote": "This movement General Grant thought might cause such a reduction in the strength of the force holding the Petersburg lines as to give fair promise of success in as¬ saulting them,"
+        },
+        {
+          "source_id": "or40-1-hancock-deep-bottom-selections-v1",
+          "section": "hancock-deep-bottom",
+          "locator": "p.309 (OCR page markers; not checked against print)",
+          "quote": "take up a position to prevent the enemy from crossing troops to the north side,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Hancock says he decided, with Sheridan and Meade's approval, to cross at the lower bridge and turn the position, and that Grant did not want the works assaulted; Humphreys credits Sheridan's dismounted troopers with repulsing Kershaw's attack. The frozen commanders are Major General Hancock (US) and Major General Field (CS); the live page matches.",
+      "rationale": "Direction attributed as stated; Field's role is not described in the inspected passages. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or40-1-hancock-deep-bottom-selections-v1",
+          "section": "hancock-deep-bottom",
+          "locator": "p.309 (OCR page markers; not checked against print)",
+          "quote": "I determined to cross the infantry at the lower bridge and turn the enemy’s position,"
+        },
+        {
+          "source_id": "or40-1-hancock-deep-bottom-selections-v1",
+          "section": "hancock-deep-bottom",
+          "locator": "p.310 (OCR page markers; not checked against print)",
+          "quote": "I was informed that General Grant did not desire me to attack the enemy’s works, but to turn their position."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-july",
+          "locator": "p.249 (OCR page markers; not checked against print)",
+          "quote": "Dismounting his men, General Sheridan formed them just behind the crest,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA069",
+            "belligerent": "US",
+            "fullname": "Winfield Scott Hancock"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA069",
+            "belligerent": "Confederate",
+            "fullname": "Charles Field"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory; NPS says the Union turning efforts were abandoned when the Confederates reinforced and counterattacked. Hancock reports four 20-pounder Parrotts taken on the 27th and nearly 200 prisoners on the 28th; Humphreys says the expedition reduced the Petersburg garrison to three infantry divisions and drew two of three cavalry divisions north.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The diversion's effect on July 30 is campaign contribution, not this record's result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA069"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va069-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-va069-v1",
+          "locator": "Description",
+          "quote": "were abandoned when the Confederates strongly reinforced their lines and counterattacked."
+        },
+        {
+          "source_id": "or40-1-hancock-deep-bottom-selections-v1",
+          "section": "hancock-deep-bottom",
+          "locator": "p.309 (OCR page markers; not checked against print)",
+          "quote": "captured four 20-pounder Parrott guns,"
+        },
+        {
+          "source_id": "or40-1-hancock-deep-bottom-selections-v1",
+          "section": "hancock-deep-bottom",
+          "locator": "p.310 (OCR page markers; not checked against print)",
+          "quote": "cap¬ turing nearly 200 prisoners and several colors."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-july",
+          "locator": "p.249 (OCR page markers; not checked against print)",
+          "quote": "it had reduced the force holding the Petersburg intrenchments to three infantry divisions,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,000 total; the live field reads zero. Humphreys puts the casualties at some 300 and says Sheridan's troopers took 250 prisoners and two colors; Hancock's casualty list is blank in OCR.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA069"
+          },
+          "column": "casualties_text",
+          "quote": "1,000 total"
+        },
+        {
+          "source_id": "nps-va069-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-july",
+          "locator": "p.250 (OCR page markers; not checked against print)",
+          "quote": "this movement to the north bank of the James amounted to some 300."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "deep-bottom-july",
+          "locator": "p.249 (OCR page markers; not checked against print)",
+          "quote": "leaving 250 prisoners and two colors in the hands of the cavalry."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Sheridan's, Barlow's and Miles's reports (Nos. 20-21), Foster's report, Field's and Kershaw's reports, the Second Corps casualty list (blank in OCR) and Sheridan's 1866 report passage (Volume XXXVI; not re-selected) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

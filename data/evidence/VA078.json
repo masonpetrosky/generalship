@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA078",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Darbytown Road record (October 13, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. The October 7 action (VA077) precedes and Fair Oaks (VA080) follows on October 27-28. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Corps' and the live field zero. Humphreys says Colonel Pond's brigade of Ames's division, Tenth Corps, made the assault; no count was inspected.",
+      "rationale": "A formation only. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA078"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va078-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "Colonel Pond’s brigade of Ames’s division, Tenth Corps, assaulted them"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "new-line-and-slashing",
+      "dimension": "terrain",
+      "value": "Humphreys says the Darby road intrenchments proved formidable, with slashing in front of the greater part, and Pond attacked where there was none.",
+      "rationale": "The Confederate line was built after October 7, before this action. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "found them to be of a formidable character, with slashing in front of the greater part."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "at a point where there was no slashing,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reconnaissance-in-force",
+      "dimension": "information",
+      "value": "Humphreys calls the operation a reconnaissance in force of the enemy's intrenchments; NPS says the Union forces advanced to find and feel the new line.",
+      "rationale": "Stated purpose from an interested history and a summary.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "connoissance in force of the enemy’s intrenchments on the Darby road,"
+        },
+        {
+          "source_id": "nps-va078-v1",
+          "locator": "Description",
+          "quote": "Union forces advanced to find and feel the new Confederate defensive line in front of Richmond."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "feel-the-line",
+      "dimension": "objectives",
+      "value": "NPS says the advance aimed to find and feel the new Confederate line; Lee says the enemy endeavored to advance between the Darbytown and Charles City roads.",
+      "rationale": "Stated aims from a summary and the opposing commander.",
+      "citations": [
+        {
+          "source_id": "nps-va078-v1",
+          "locator": "Description",
+          "quote": "Union forces advanced to find and feel the new Confederate defensive line"
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-13",
+          "locator": "p.853 (OCR page markers; not checked against print)",
+          "quote": "At 7 this morning enemy endeavored to advance between the Darby- town and Charles City roads,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys attributes the reconnaissance to Butler and the assault to Pond's brigade; neither Terry nor Anderson is named in the inspected passages. The frozen commanders are Lieutenant General Richard Anderson (CS) and Major General Alfred H. Terry (US); the live page gives Terry as Brigadier General and Anderson as Major General.",
+      "rationale": "Roles attributed as stated; the live ranks are not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "On the 13th of October, General Butler made a re-"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA078",
+            "belligerent": "Confederate",
+            "fullname": "Richard Anderson"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA078",
+            "belligerent": "US",
+            "fullname": "Alfred H. Terry"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va078-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Alfred Terry [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Humphreys says Pond's brigade was repulsed; Lee says every attempt was repulsed and the enemy withdrew after about 4 p.m., leaving many dead.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA078"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va078-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "but was repulsed."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-13",
+          "locator": "p.853 (OCR page markers; not checked against print)",
+          "quote": "but was repulsed in every attempt."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-13",
+          "locator": "p.853 (OCR page markers; not checked against print)",
+          "quote": "after which he withdrew, leaving many dead."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 950 total and the live field 487 (US 437; CS 50). Lee called his loss very slight; no other count was inspected.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA078"
+          },
+          "column": "casualties_text",
+          "quote": "950 total"
+        },
+        {
+          "source_id": "nps-va078-v1",
+          "locator": "Estimated Casualties",
+          "quote": "487 total (US 437; CS 50;)"
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-13",
+          "locator": "p.853 (OCR page markers; not checked against print)",
+          "quote": "Our loss very slight."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Terry's report (Volume XLII No. 251), Ames's, Hawley's and Pond's reports (Nos. 253, 267), Anderson's and Field's reports and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

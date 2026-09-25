@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA063",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Petersburg record (June 15-18, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. The June 9 attempt (VA098) is a separate record, and the Jerusalem Plank Road record (VA065) begins on June 21; the Bermuda Hundred line fighting of June 16-17 is context. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen and live force fields read 104,000 (US 62,000; CS 42,000); the frozen description gives 5,400 defenders on June 15. Humphreys gives Smith 10,000 infantry with Kautz's 2,400 cavalry and 3,700 of Hinks's division; the defenders as Wise's brigade, 2,400 strong, the militia and Dearing's cavalry; the Second Corps as 20,000 enlisted men; Johnson's division as 3,500 without Gracie's brigade of about 1,000; and Beauregard's infantry early on June 16 as probably about 14,000, reinforced by Kershaw and Field on the 18th and later Hill.",
+      "rationale": "The frozen totals do not state their date or population; Humphreys' figures are for different days and formations, several his own estimates. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA063"
+          },
+          "column": "forces_text",
+          "quote": "104,000 total (US 62,000; CS 42,000)"
+        },
+        {
+          "source_id": "nps-va063-v1",
+          "locator": "Forces Engaged",
+          "quote": "104000 total (US 62000; CS 42000;)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA063"
+          },
+          "column": "description",
+          "quote": "The 5,400 defenders of Petersburg"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "in addition to his own infantry, 10,000 enlisted men."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "General Butler’s cavalry under Briga¬ dier-General Kautz, 2,400 strong,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "(3,700 officers and enlisted men, infantry and artil¬ lery)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "consisted of Wise’s brigade, 2,400 strong, the militia, and Dealing’s brigade of cavalry."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.205 (OCR page markers; not checked against print)",
+          "quote": "The Second Corps had 20,000 enlisted men, not 28,000, as has been stated."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "General Grade’s brigade, about 1, 000 strong,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.216 (OCR page markers; not checked against print)",
+          "quote": "Besides the artillery, General Beauregard probably had about 14,000 effective force of infantry in these intrench¬ ments earlv on the 16tli."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.216 (OCR page markers; not checked against print)",
+          "quote": "He received no further reinforce- ments until the morning of the 18th, when Kershaw and Field arrived, and, later in the day, Hill."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "redans-and-ravines",
+      "dimension": "terrain",
+      "value": "Humphreys describes the Petersburg intrenchments as strong redans connected by high-profile parapets with ditches, the ground before Martindale as a low valley cut by ditches and ravines swept by artillery, and Potter's approach through a ravine covered with slashed timber; he adds that the maps in use were erroneous and misleading.",
+      "rationale": "The original works predate the engagement and are tagged inherited; the new lines of June 16-18 were built during it. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "consisted of a series of strong redans or batteries connected by infantry parapets with high profiles, all with ditches."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.207 (OCR page markers; not checked against print)",
+          "quote": "was a broad, low valley, cut up by ditches and ravines, completely swept by the fire of the enemy’s artillery,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.218 (OCR page markers; not checked against print)",
+          "quote": "was covered thickly with slashed timber,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.211 (OCR page markers; not checked against print)",
+          "quote": "for the maps in use were, for this section of country, so errone¬ ous as to be not only useless but misleading."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "rations-and-bridge",
+      "dimension": "logistics",
+      "value": "Meade says the James River bridge, over 2,000 feet long, was completed by midnight on June 14 and that Hancock was authorized to wait for subsistence stores from Bermuda Hundred in the absence of the supply trains; Humphreys says the rations did not arrive and the Second Corps marched without them at half-past ten on June 15.",
+      "rationale": "Movement and supply statements from interested accounts; no transport return inspected.",
+      "citations": [
+        {
+          "source_id": "or40-1-meade-petersburg-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.167 (OCR page markers; not checked against print)",
+          "quote": "The bridge, over 2,000 feet in length, and the channel-boats anchored in over thir¬ teen fathoms water, was completed by midnight."
+        },
+        {
+          "source_id": "or40-1-meade-petersburg-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.167 (OCR page markers; not checked against print)",
+          "quote": "He was, however, authorized to delay for the recent of subsist¬ ence stores,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.205 (OCR page markers; not checked against print)",
+          "quote": "But the rations did not arrive, as expected, that night or the next morning, and the corps marched without them at half¬ past ten on the 15th."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "uncertain-knowledge",
+      "dimension": "information",
+      "value": "Humphreys says Hancock learned only from Grant's and Smith's messages that Petersburg was to be attacked on June 15, that Lee, not satisfied Richmond was not the objective, would not release Hill and Anderson, and that Lee telegraphed at 3 p.m. on June 16 that he had not heard of Grant's crossing. Meade says that by June 18 he was satisfied Lee's army was before him.",
+      "rationale": "Attributed knowledge from an interested history and report; the telegrams themselves are not separately inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "the messages from Lieutenant-Gen¬ eral Grant and from General Smith were the first and only intimations he had that Petersburg was to be attacked that day,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.209 (OCR page markers; not checked against print)",
+          "quote": "But Lee, not satisfied that Richmond was not the object of the movement of the Army of the Potomac, would not withdraw Hill and Anderson from their position at Riddell’s shop."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "At three p.m. he telegraphed he had not heard of Grant’s crossing James River."
+        },
+        {
+          "source_id": "or40-1-meade-petersburg-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "Being satisfied Lee’s army was before me,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "take-petersburg",
+      "dimension": "objectives",
+      "value": "Meade says Grant instructed him on June 16 to take command before Petersburg and, if practicable, push the enemy across the Appomattox; Humphreys offers his own reconstruction of Grant's plan while saying he has no positive information on it.",
+      "rationale": "Stated aims from an interested report and a history's conjecture.",
+      "citations": [
+        {
+          "source_id": "or40-1-meade-petersburg-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "by whom I was instructed to take command of the troops then in front of Petersburg, and, if practicable, push the enemy across the Ap¬ pomattox."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "though I am without positive information on the subject."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Smith, having heard Lee's army was crossing, held what he had on June 15 rather than advance; that an immediate advance would probably have taken Petersburg; that he could not learn why Hancock was not ordered to march at daylight; that Beauregard decided to strip his Bermuda Hundred lines; that Meade fixed the hour of the June 18 attacks himself; and that Grant said all had been done that could be done. Meade says he ordered the June 16 assault by Hancock and Burnside. The frozen commanders are Grant and Meade (US) and Lee and Beauregard (CS); the live page lists Grant and 'Major General Robert Lee'.",
+      "rationale": "Direction and criticism are attributed as the sources give them; Humphreys' counterfactual is his judgment. The live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "and that he deemed it wiser to hold what he had,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.210 (OCR page markers; not checked against print)",
+          "quote": "It is probable that an immediate advance of the wThole of Smith’s force when the salient was carried,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.211 (OCR page markers; not checked against print)",
+          "quote": "Why General Hancock was not ordered to march at daylight of the 15th, I have been unable to ascer¬ tain."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "General Beauregard, during the evening of the 15tli, de¬ termined to withdraw Johnson’s division from the Bermuda"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.222 (OCR page markers; not checked against print)",
+          "quote": "fixed it himself and ordered all the corps to attack at twelve o’clock,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "At the close of the day General Grant, expressing himself perfectly satisfied that all had been done that could be done,"
+        },
+        {
+          "source_id": "or40-1-meade-petersburg-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "orders were given for an assault by Hancock and Burnside at 0 p. in.,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA063",
+            "belligerent": "US",
+            "fullname": "Ulysses S. Grant"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA063",
+            "belligerent": "US",
+            "fullname": "George G. Meade"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA063",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA063",
+            "belligerent": "Confederate",
+            "fullname": "P.G.T. Beauregard"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-va063-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Humphreys says a mile and a half of intrenchments with sixteen guns were taken on June 15 and that the positions gained on June 18 remained substantially the lines to the war's end; Meade says the June 18 assaults failed and offensive operations then ceased.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Ground gained and the failure to take the city are both retained; the siege that followed is context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA063"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va063-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "A mile and a half of the intrenchments, with sixteen guns, were thus captured,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "remained substantially the same in posi¬ tion to the close of the wTar."
+        },
+        {
+          "source_id": "or40-1-meade-petersburg-selections-v1",
+          "section": "meade-1864-11-01",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "Later in the day attacks were made by the Fifth and Ninth Corps, with no better re¬ sults."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 11,386 (US 8,150; CS 3,236) and the live field 7,674 (US 2,974; CS 4,700). Humphreys derives 8,150 Union killed and wounded from the Medical Director's 6,210 wounded, an estimated 1,240 killed and probably 700 for the Eighteenth Corps; with 1,814 missing that gives 9,964, against the Tabular Statement's 10,586. He found no official statement of Confederate losses; Hinks reported 507 killed and wounded in his division.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Humphreys' 8,150 is his estimate with an assumed proportion of killed and matches the frozen Union figure; the frozen and live Confederate figures differ.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA063"
+          },
+          "column": "casualties_text",
+          "quote": "11,386 total (US 8,150; CS 3,236)"
+        },
+        {
+          "source_id": "nps-va063-v1",
+          "locator": "Estimated Casualties",
+          "quote": "7674 total (US 2974; CS 4700;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "This makes a total brought to the hospitals of 6,210."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "This makes the loss in killed and woimded to be 8,150."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "The total is then 9,964."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "Total loss, 10,586."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "I can find no official statement of the losses of Lee’s and Beauregard’s troops during these operations,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "assaults-june-15-18",
+          "locator": "p.208 (OCR page markers; not checked against print)",
+          "quote": "General Hinks reported the loss of his division to be 507 killed and wounded,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Hancock's, Smith's, Burnside's and Warren's reports for June 15-18, Beauregard's report and telegrams, Lee's June 16-17 dispatches (read, not selected), the compiled returns (No. 7) and the Medical Director's report remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

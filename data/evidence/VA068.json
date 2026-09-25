@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA068",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Reams' Station (June 29) record (June 29, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. The Wilson-Kautz raid of June 22-July 1 contains three frozen records: Staunton River Bridge (VA113, June 25), Sappony Church (VA067, June 28) and Reams' Station (VA068, June 29). The August 25 Reams' Station battle (VA073) is a separate record. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Divisions' and the live field zero. Wilson's February 1865 report says Kautz found Hoke's division at Reams' Station, and describes Hampton's two divisions, another large force and W. H. F. Lee's division around him; his July 3 report says Kautz's prisoners were from Finegan's brigade of Mahone's division and that not less than a brigade of infantry with guns barred the road. Lee names a portion of Mahone's division and Fitzhugh Lee's cavalry; NPS names Mahone's division.",
+      "rationale": "Identifications of formations, one of them disputed (Hoke against Mahone); no count. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA068"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va068-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.623 (OCR page markers; not checked against print)",
+          "quote": "found Hoke’s division of rebel infantry strongly posted."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1864-07-03",
+          "locator": "p.628 (OCR page markers; not checked against print)",
+          "quote": "capturing between 50 and 00 prisoners from Finegan’s brigade, of Mahone’s division of infantry."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1864-07-03",
+          "locator": "p.628 (OCR page markers; not checked against print)",
+          "quote": "found not less than a brigade of infantry, with guns in position."
+        },
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-06-29",
+          "locator": "p.752 (OCR page markers; not checked against print)",
+          "quote": "they were confronted by a portion of Mahone’s division,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "woods-and-swamps",
+      "dimension": "terrain",
+      "value": "Wilson says the guns could not be got through the swamp of Hatcher's Run and Rowanty Creek and were abandoned, that Kautz's column pushed through the woods, and that at Stony Creek the bridge was bad and the creek unfordable.",
+      "rationale": "The swamps and creeks predate the engagement. No map verification.",
+      "citations": [
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.624 (OCR page markers; not checked against print)",
+          "quote": "could not get them through the SAvamp of Hatcher’s Kun and Kowanty Creek,"
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1864-07-03",
+          "locator": "p.629 (OCR page markers; not checked against print)",
+          "quote": "The bridge being bad and the creek unfordable,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "train-destroyed",
+      "dimension": "logistics",
+      "value": "Wilson says he ordered all the ammunition the troops could carry issued and the wagons and caissons destroyed, and that twelve field guns, four mountain howitzers and 30 wagons and ambulances were abandoned.",
+      "rationale": "The raid commander's statement; no return inspected.",
+      "citations": [
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1864-07-03",
+          "locator": "p.629 (OCR page markers; not checked against print)",
+          "quote": "I ordered the issue of all the ammunition the troops could carry, the immediate destruction of the wagons and caissons,"
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.624 (OCR page markers; not checked against print)",
+          "quote": "Twelve field guns, 4 mountain howitzers, and 30 wagons and ambulances were abandoned and fell into the enemy’s hands."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "railroad-not-held",
+      "dimension": "information",
+      "value": "Wilson says he learned only on reaching Reams' Station that no part of the Weldon Railroad was held by the Union infantry, contrary to his expectation, and that his aide reached army headquarters at about 10 a.m.; NPS says the station was thought to be held by Union infantry.",
+      "rationale": "Attributed knowledge from the raid commander and a summary.",
+      "citations": [
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1864-07-03",
+          "locator": "p.628 (OCR page markers; not checked against print)",
+          "quote": "For the first time I then learifed that, contrary to my expectations, no part of the Weldon railroad was in possession of the infantry investing Petersburg,"
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1864-07-03",
+          "locator": "p.628 (OCR page markers; not checked against print)",
+          "quote": "I have since learned he suc¬ ceeded in reaching army headquarters about 10 a. m."
+        },
+        {
+          "source_id": "nps-va068-v1",
+          "locator": "Description",
+          "quote": "which was thought to be held by Union infantry."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "break-through-to-army",
+      "dimension": "objectives",
+      "value": "Wilson says he intended to mass the command and break through to cross the railroad north of Reams' Station and join the army's left, then turned south when that proved impossible; Lee reports the Confederates attacked to rout the raiders.",
+      "rationale": "Stated aims from interested accounts.",
+      "citations": [
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.623 (OCR page markers; not checked against print)",
+          "quote": "make a bold push to break through the enemy; having done this, to cross the railroad three miles north of Reams’ Station and join the left of the army."
+        },
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-06-29",
+          "locator": "p.752 (OCR page markers; not checked against print)",
+          "quote": "who attacked them in front, while their left flank was turned by General Fitz. Lee’s cavalry."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Wilson says he ordered the withdrawal by the Stage road and that Kautz did not regain the road; Lee reports Mahone's attack in front and Fitzhugh Lee's turning of the flank. The frozen commanders are Major Generals Mahone and Fitzhugh Lee (CS), Major General Wilson and Brigadier General Kautz (US); the frozen VA067 row gives Wilson as Brigadier General. The live page lists Hancock and Heth, the commanders of the August 25 battle.",
+      "rationale": "Roles attributed as stated; the live commander field and the rank difference are recorded, not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1864-07-03",
+          "locator": "p.629 (OCR page markers; not checked against print)",
+          "quote": "the whole force should move by the stage road and the Double Bridges to the south side of the Nottoway again."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.624 (OCR page markers; not checked against print)",
+          "quote": "Kautz did not attempt to reach the road again,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA067",
+            "belligerent": "US",
+            "fullname": "James H. Wilson"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA068",
+            "belligerent": "Confederate",
+            "fullname": "William Mahone"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA068",
+            "belligerent": "Confederate",
+            "fullname": "Fitzhugh Lee"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA068",
+            "belligerent": "US",
+            "fullname": "James H. Wilson"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA068",
+            "belligerent": "US",
+            "fullname": "August Kautz"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va068-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Winfield Hancock [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Lee says the enemy was completely routed with guns, prisoners, wagons and ambulances captured; Wilson says the attack threw his whole rear into confusion, and that his guns fell into enemy hands but were not captured in the fight.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA068"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va068-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-06-29",
+          "locator": "p.752 (OCR page markers; not checked against print)",
+          "quote": "The enemy was completely routed and several pieces of artil lery, with a number of prisoners, wagons, ambulances, &c., captured."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1864-07-03",
+          "locator": "p.629 (OCR page markers; not checked against print)",
+          "quote": "threw the whole rear into confusion."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.624 (OCR page markers; not checked against print)",
+          "quote": "fell into the hands of the enemy, but were not captured in the fight."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 600 total (1,817 for the entire raid); the live field reads zero. Lee reports over 1,000 prisoners, 13 guns and 30 wagons and ambulances taken over the whole expedition; Wilson gives about 900 killed, wounded and missing for the expedition and said on July 3 the missing could not yet be estimated.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Lee's and Wilson's figures are raid-wide and not assigned to this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA068"
+          },
+          "column": "casualties_text",
+          "quote": "600 total (1,817 for entire raid)"
+        },
+        {
+          "source_id": "nps-va068-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-07-01",
+          "locator": "p.752 (OCR page markers; not checked against print)",
+          "quote": "over 1,000 prisoners, 13 pieces of artillery, 30 wagons and ambulances,"
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.624 (OCR page markers; not checked against print)",
+          "quote": "The loss sustained by the entire command was about 900 men, killed, wounded, and missing."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1864-07-03",
+          "locator": "p.630 (OCR page markers; not checked against print)",
+          "quote": "The missing cannot yet be fully estimated,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Mahone's and Fitzhugh Lee's reports, Kautz's report (No. 280), the Sixth Corps relief march, Hampton's report (selected; cited under VA067) and Humphreys' raid passage (read, not selected) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

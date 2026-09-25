@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA098",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Petersburg (June 9) record (June 9, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. The assault record (VA063) begins on June 15; the frozen description's June 14-17 crossing of the James is later context. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads 7,000 (US 4,500; CS 2,500), the Union row carrying 4,500 as bounds and the Confederate row '2,500' as text only; the live field matches. Humphreys gives Gillmore 1,800 infantry of his own under Hawley and 1,200 of Hinks's, Kautz about 1,500 cavalry, and Wise's brigade, 2,400 strong, with such local troops as could be gathered defending Petersburg.",
+      "rationale": "Humphreys' Union components total about 4,500 and match the frozen Union figure; his Confederate figure covers Wise's brigade without the militia and Dearing's cavalry, which also appear in his account. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA098"
+          },
+          "column": "forces_text",
+          "quote": "7,000 total (US 4,500; CS 2,500)"
+        },
+        {
+          "source_id": "nps-va098-v1",
+          "locator": "Forces Engaged",
+          "quote": "7000 total (US 4500; CS 2500;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "june-9-petersburg",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "General Gillmore had with him 1,800 infantry of his own troops, under the command of Colonel Hawley, and 1,200 of General Hinks’s,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "june-9-petersburg",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "General Kautz had about 1,500 cavalry."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "june-9-petersburg",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "General Wise, with his brigade, 2,400 strong, and such local troops as could be got together under exigencies, had charge of the defences of Petersburg."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "petersburg-intrenchments",
+      "dimension": "terrain",
+      "value": "Humphreys says Gillmore judged the intrenchments on the City Point road too strongly manned to carry, and that Kautz, after turning the works on the Jerusalem plank road, met an earth intrenchment and stockade on Reservoir Hill with infantry and artillery. Gillmore says that once the nature of the works was ascertained he was convinced an assault would fail.",
+      "rationale": "The works predate the engagement, but their manning was a matter of the day; not tagged. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "june-9-petersburg",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "Manned as strongly as they were, General Gillmore was satisfied, after careful examination"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "june-9-petersburg",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "But here he found an earth intrenchment and stock¬ ade on Reservoir Hill, which had infantry and artillery in it."
+        },
+        {
+          "source_id": "or36-2-gillmore-petersburg-selections-v1",
+          "section": "gillmore-report",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "As soon as the nature of the works in our front ascertained I was convinced that an assault upon them would in all probability fail,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "alarm-and-no-communication",
+      "dimension": "information",
+      "value": "Gillmore's 3.40 a.m. dispatch says the crossing of the cavalry could be heard for miles; Humphreys relays his complaint that the ponton bridge was not muffled and put the enemy on guard, and says Gillmore received no communication from Kautz during the day.",
+      "rationale": "Attributed knowledge from an interested report and history; Gillmore's account was written under criticism.",
+      "citations": [
+        {
+          "source_id": "or36-2-gillmore-petersburg-selections-v1",
+          "section": "gillmore-report",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "crossing of the cavalry can he heard for miles."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "june-9-petersburg",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "and that the crossing of Kautz’s cavalry could be heard for miles, and, no doubt, put the enemy on his guard."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "june-9-petersburg",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "Receiving no com¬ munication from General Kautz during the day,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "capture-city-and-bridge",
+      "dimension": "objectives",
+      "value": "Humphreys says Butler's object was to capture Petersburg and destroy the railroad bridge across the Appomattox.",
+      "rationale": "Stated aim from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "june-9-petersburg",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "the object being to capture the city and destroy the railroad bridge across the Appomattox."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Gillmore, with Hinks and Hawley concurring, decided not to attempt the works and withdrew at half-past one, while Kautz attacked alone and was checked when Dearing's brigade, sent by Beauregard, came up. Gillmore says he held both positions expecting to hear from Kautz. Butler's indorsement, relayed by his chief of staff, called the affair disgraceful; Gillmore called the charge unmerited and unjust. The frozen commanders are Major General Gillmore (US) and General Beauregard (CS); the live page gives both as Brigadier General.",
+      "rationale": "Direction and blame are attributed as stated; Butler's and Gillmore's accounts are adversarial. The live ranks are not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "june-9-petersburg",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "He did not, therefore, make the attempt."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "june-9-petersburg",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "General Dearing’s brigade, sent over by General Beauregard, now came up,"
+        },
+        {
+          "source_id": "or36-2-gillmore-petersburg-selections-v1",
+          "section": "gillmore-report",
+          "locator": "p.289 (OCR page markers; not checked against print)",
+          "quote": "I ordered the two positions to be maintained"
+        },
+        {
+          "source_id": "or36-2-gillmore-petersburg-selections-v1",
+          "section": "gillmore-addenda",
+          "locator": "p.290 (OCR page markers; not checked against print)",
+          "quote": "was disgraceful to the Union arms."
+        },
+        {
+          "source_id": "or36-2-gillmore-petersburg-selections-v1",
+          "section": "gillmore-addenda",
+          "locator": "p.290 (OCR page markers; not checked against print)",
+          "quote": "unmerited and unjust,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA098",
+            "belligerent": "US",
+            "fullname": "Quincy Gillmore"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA098",
+            "belligerent": "Confederate",
+            "fullname": "P.G.T. Beauregard"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-va098-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Quincy Gillmore [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Humphreys says Gillmore withdrew without attacking and that Kautz, satisfied he could not capture the town, withdrew followed by Dearing; NPS says Kautz was repulsed by Home Guards and Butler withdrew.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA098"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va098-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "june-9-petersburg",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "Kautz, satisfied that he could not capture the town, withdrew, followed by Dearing."
+        },
+        {
+          "source_id": "nps-va098-v1",
+          "locator": "Description",
+          "quote": "but was repulsed by Home Guards."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 120 total; the live field reads zero. Gillmore's loss statement is garbled in OCR, and no other count was inspected.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA098"
+          },
+          "column": "casualties_text",
+          "quote": "120 total"
+        },
+        {
+          "source_id": "nps-va098-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Butler's June 9-14 papers (No. 1, heavily garbled; read, not selected), Hinks's, Kautz's and the other Union reports (Nos. 3-17), Wise's congratulatory orders and Colston's report (Nos. 18-19) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

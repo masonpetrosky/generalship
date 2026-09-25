@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA080",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fair Oaks & Darbytown Road record (October 27-28, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. Boydton Plank Road (VA079) is the simultaneous main movement south of Petersburg. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Corps' and the live field zero. Humphreys names Weitzel's two attacking brigades and Holman's brigade against Longstreet's local defence troops, Hoke's and Field's divisions and Gary's cavalry, and says Weitzel found the works first held by a small body of dismounted cavalry with three guns.",
+      "rationale": "Formations only; no return inspected. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA080"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va080-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.305 (OCR page markers; not checked against print)",
+          "quote": "troops known as the Local Defences, under General Ewell, Hoke’s division, Field’s division, and Gary’s cavalry brigade."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.304 (OCR page markers; not checked against print)",
+          "quote": "he found to be thinly held by a small body of dis¬ mounted cavalry with three guns,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "open-ground-before-works",
+      "dimension": "terrain",
+      "value": "Humphreys says Weitzel's brigades advanced over open ground against the intrenchments and that Longstreet's troops were covered by works.",
+      "rationale": "The Confederate works predate the attack. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.305 (OCR page markers; not checked against print)",
+          "quote": "advanced to the attack over open ground,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.306 (OCR page markers; not checked against print)",
+          "quote": "Being covered by intrencliments,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "night-march",
+      "dimension": "logistics",
+      "value": "Humphreys says Weitzel's withdrawal by night through rain, darkness, mud and a narrow road was very fatiguing, the troops marching all night.",
+      "rationale": "Movement conditions from an interested history; no transport return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.306 (OCR page markers; not checked against print)",
+          "quote": "the rain, darkness, mud, and narrow road making it very fatiguing for the troops, who were marching all night."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "anticipated-flank-move",
+      "dimension": "information",
+      "value": "Humphreys says Longstreet read the prolonged skirmishing as cover for an attempt to turn his left and moved Field and Hoke along the works, so Weitzel met heavy fire instead of the thin line he expected.",
+      "rationale": "Attributed knowledge from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.305 (OCR page markers; not checked against print)",
+          "quote": "Longstreet perceived on the morning of the 27tli that General Butler was moving against his left,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.305 (OCR page markers; not checked against print)",
+          "quote": "instead of the fire of a thin line, were met with a heavy musketry fire,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "demonstration-and-turning",
+      "dimension": "objectives",
+      "value": "Humphreys says Butler was directed to make a demonstration north of the James in support of the movement on the left, with Weitzel to push through White Oak Swamp to the Williamsburg road under cover of Terry's demonstration.",
+      "rationale": "Stated aims from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.304 (OCR page markers; not checked against print)",
+          "quote": "In support of the movement to the left, General Butler, having been directed to make a demonstration on the north side of the James,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.304 (OCR page markers; not checked against print)",
+          "quote": "General Weitzel was to push through the White Oak swamp at Hobson’s crossing,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Longstreet directed Field and Hoke to move left along the works and sent Gary to the Nine Mile road, and that Gary's charge retook Holman's gains; Lee credits Field with upward of 400 prisoners and 7 colors. The frozen commanders are Lieutenant General Longstreet (CS) and Major General Butler (US); the live page gives Longstreet as Major General.",
+      "rationale": "Direction attributed as stated; the live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.305 (OCR page markers; not checked against print)",
+          "quote": "He accordingly directed Field and Hoke to move to the left along the works,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.306 (OCR page markers; not checked against print)",
+          "quote": "but Gary then came upon the field, and charging along the line of works,"
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-28",
+          "locator": "p.854 (OCR page markers; not checked against print)",
+          "quote": "General Field captured upward of 400 prisoners and 7 stand of colors."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA080",
+            "belligerent": "Confederate",
+            "fullname": "James Longstreet"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA080",
+            "belligerent": "US",
+            "fullname": "Benjamin Butler"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va080-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General James Longstreet [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Humphreys says Weitzel's brigades were repulsed, each losing three colors, and Terry's attack was also repulsed; Lee says the movement against his left was repulsed.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA080"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va080-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.305 (OCR page markers; not checked against print)",
+          "quote": "each brigade losing three colors."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.306 (OCR page markers; not checked against print)",
+          "quote": "but the whole attack was repulsed."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-27",
+          "locator": "p.853 (OCR page markers; not checked against print)",
+          "quote": "The movement of the enemy against our left to-day was repulsed."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,750 total and the live field 1,703 (US 1,603; CS 100). Humphreys gives the Adjutant General's table of 516 killed and wounded and 587 missing for both commands and Longstreet's report of 64 lost on the Williamsburg road; Lee reports several hundred prisoners and four colors on October 27 and Field's upward of 400 prisoners and 7 colors.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA080"
+          },
+          "column": "casualties_text",
+          "quote": "1,750 total"
+        },
+        {
+          "source_id": "nps-va080-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1703 total (US 1603; CS 100;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.306 (OCR page markers; not checked against print)",
+          "quote": "it was 516 killed and wounded, and 587 missing."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.306 (OCR page markers; not checked against print)",
+          "quote": "to have been 64 killed, wounded, and missing."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-27",
+          "locator": "p.853 (OCR page markers; not checked against print)",
+          "quote": "Several hundred prisoners and four stand of colors were captured."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Weitzel's, Heckman's, Marston's and Terry's reports (Volume XLII Nos. 315, 323, 318; Terry's October 27 report not listed), Longstreet's report (No. 357) and Field's casualty return (No. 360) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

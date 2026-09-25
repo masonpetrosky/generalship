@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA079",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Boydton Plank Road record (October 27-28, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. Fair Oaks & Darbytown Road (VA080) is the simultaneous co-operating demonstration north of the James. Humphreys was Meade's chief of staff and directed Warren's crossing in person, so his account is a participant's. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads 'Corps (35,000 total)' and the live description 'more than 30,000 men'. Humphreys says the plan was to move 30,000 to 35,000 effective infantry with Gregg's cavalry of about 3,000, that Hancock took about 10,000 and Parke and Warren about 11,000 each after leaving 1,500 and 2,500 in their works, and that the October 20 return gave Hill's three divisions 13,638 and Hampton's cavalry 5,453; he relays Warren's statement that 3,913 of his men had never fired a musket.",
+      "rationale": "Planned and approximate effective strengths and a Confederate return of October 20, of different populations. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA079"
+          },
+          "column": "forces_text",
+          "quote": "Corps (35,000 total)"
+        },
+        {
+          "source_id": "nps-va079-v1",
+          "locator": "Description",
+          "quote": "numbering more than 30,000 men,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "from 30,000 to 35,000 effective force of infantry,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "about 3,000 strong,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "Hancock took witli him an effective infantry force of about 10,000."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "Each had about 11,000 effec¬ tive infantry."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.300 (OCR page markers; not checked against print)",
+          "quote": "the effective force of Hill’s three infantry divisions was 13,638; of Hampton's cavalry, 5,453."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "3,913 of his men had never fired a musket,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "run-and-forest",
+      "dimension": "terrain",
+      "value": "Humphreys says Hatcher's Run had been dammed and slashed, that a thicket forest over a mile deep separated Crawford from the plank road, that two corps had only a narrow cart track, and that Warren heard no sound of Hancock's fight through the dense wood.",
+      "rationale": "The run, forest and tracks predate the operation; the dams and slashing were Confederate works. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "the enemy had dammed it, and had slashed timber in it and on its banks,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.298 (OCR page markers; not checked against print)",
+          "quote": "there was a thicket forest of more than a mile,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.300 (OCR page markers; not checked against print)",
+          "quote": "we had had but a narrow cart track on wThich to pass two corps"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.301 (OCR page markers; not checked against print)",
+          "quote": "the wood was so dense that no sound of the musketry reached him."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "rations-ammunition-ambulances",
+      "dimension": "logistics",
+      "value": "Humphreys says the troops carried four days' rations with trains sent to City Point and pack animals instead of wagons, that reserve ammunition could not reach Hancock by morning, which decided his withdrawal, and that 250 wounded were left for want of ambulances.",
+      "rationale": "Statements from an interested participant history; no return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "The troops were to take four days’ rations."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.295 (OCR page markers; not checked against print)",
+          "quote": "Pack animals were to be used instead of light wagons."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.302 (OCR page markers; not checked against print)",
+          "quote": "As reserve ammunition could not be got forward to Hancock by daylight the next morning,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.303 (OCR page markers; not checked against print)",
+          "quote": "Having an insufficient number of ambulances, 250 wounded were left in charge of surgeons at the Rainey house,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "topography-and-surprise",
+      "dimension": "information",
+      "value": "Humphreys says the Union information was that the Confederate works reached Hatcher's Run in an incomplete state, that the dark, rainy morning delayed the columns so the enemy was not surprised, and that the army was ignorant of the topography.",
+      "rationale": "Attributed knowledge in a participant history.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "According to the information we had, the Petersburg in¬ trenchments had been extended to Hatcher’s Run"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "but were in a very incomplete condition."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "so that the enemy were not taken by surprise."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.299 (OCR page markers; not checked against print)",
+          "quote": "we were ignorant of the topography of the country to be passed over."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "south-side-railroad",
+      "dimension": "objectives",
+      "value": "Humphreys quotes Grant's order to gain and hold the South Side Railroad and fortify back to the present left; NPS calls the Boydton Plank Road a major campaign objective.",
+      "rationale": "Stated aims from a history and a summary.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.294 (OCR page markers; not checked against print)",
+          "quote": "Make your preparations to march out at an early hour on the 27th to gain possession of the South Side Railroad, and to hold it,"
+        },
+        {
+          "source_id": "nps-va079-v1",
+          "locator": "Description",
+          "quote": "The initial Union advance on October 27 gained the Boydton Plank Road, a major campaign objective."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says he himself directed Warren to cross part of his corps at nine o'clock, that Grant and Meade left the field directing Hancock to hold until morning, and that Egan turned on Mahone before orders reached him; Lee's dispatches relay Hill's report of Heth's attack and of Mahone in front with Hampton in the rear. The frozen commanders are Major General Heth (CS) and Major General Hancock (US); the live page matches.",
+      "rationale": "Direction attributed as stated; Humphreys is a participant describing his own orders. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "I directed him at nine o’clock to cross some of them at once at Arm¬ strong’s mill,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.299 (OCR page markers; not checked against print)",
+          "quote": "General Grant and General Meade left the field, direct¬ ing General Hancock to hold his position until morning,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.302 (OCR page markers; not checked against print)",
+          "quote": "already in motion to attack the force in his rear."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-27-2300",
+          "locator": "p.853 (OCR page markers; not checked against print)",
+          "quote": "In the afternoon General Heth attacked and at first drove them, but found them in too strong force."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-28",
+          "locator": "p.853 (OCR page markers; not checked against print)",
+          "quote": "was made by three brigades under General Mahone in front, and General Hampton in the rear."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA079",
+            "belligerent": "Confederate",
+            "fullname": "Henry Heth"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA079",
+            "belligerent": "US",
+            "fullname": "Winfield Scott Hancock"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory; NPS says the Confederates kept the Boydton Plank Road for the winter. Humphreys says Mahone was driven from the field in confusion but Hancock was ordered to withdraw that night; Lee says the enemy retired during the night leaving his wounded and more than 250 dead.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Tactical repulse of Mahone and the Union withdrawal are both retained.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA079"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va079-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-va079-v1",
+          "locator": "Description",
+          "quote": "The Confederates retained control of the Boydton Plank Road for the rest of the winter."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.302 (OCR page markers; not checked against print)",
+          "quote": "lione was swept from the field, and driven into the woods in complete confusion,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.302 (OCR page markers; not checked against print)",
+          "quote": "it was concluded that he should withdraw"
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-28",
+          "locator": "p.853 (OCR page markers; not checked against print)",
+          "quote": "during the night the enemy retired from the Boydtou road, leaving his wounded and more than 250 dead on the field."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 3,058 (1,758 US; 1,300 CS), matching the live field. Humphreys gives Hancock's loss as 857 killed and wounded and 625 missing, Warren's as 211 killed and wounded and 48 missing, the Adjutant General's table as 143 killed, 653 wounded and 488 missing, and judges the Confederate losses at least equal; Lee reports Mahone's 400 prisoners and Hill's total of 700.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Humphreys' and the table's Union figures differ; Lee's prisoner totals and the Union missing overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA079"
+          },
+          "column": "casualties_text",
+          "quote": "3,058 total (1,758 US; 1,300 CS)"
+        },
+        {
+          "source_id": "nps-va079-v1",
+          "locator": "Estimated Casualties",
+          "quote": "3058 total (US 1758; CS 1300;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.303 (OCR page markers; not checked against print)",
+          "quote": "total, killed and wounded, 857. His missing were 625."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.303 (OCR page markers; not checked against print)",
+          "quote": "General Warren’s loss was 211 killed and wounded, and 48 missing."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "fair-oaks",
+          "locator": "p.304 (OCR page markers; not checked against print)",
+          "quote": "our casualties were 143 killed, 653 wounded, and 488 missing."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "boydton-plank-road",
+          "locator": "p.304 (OCR page markers; not checked against print)",
+          "quote": "The Confederate losses must have at least equalled ours."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-28",
+          "locator": "p.853 (OCR page markers; not checked against print)",
+          "quote": "Mahone captured 400 prisoners,"
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-31",
+          "locator": "p.854 (OCR page markers; not checked against print)",
+          "quote": "Total number of prisoners captured on the 27tli below Petersburg, according to General Hill’s report, was 700."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Hancock's, Warren's, Parke's and Gregg's reports (Volume XLII Nos. 17, 121, 187, 229), Egan's and Mott's reports, Hill's and Hampton's reports (Nos. 372, 374) and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

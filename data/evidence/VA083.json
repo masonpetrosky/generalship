@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA083",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Hatcher's Run record (February 5-7, 1865) in the Richmond-Petersburg Campaign [June 1864-March 1865]. Humphreys, the historian, is a frozen commander of this record and narrates his own orders; his account of the Second Corps is a self-interested participant's. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen and live force fields read 48,352 (US 34,517; CS 13,835). Humphreys gives the Army of Northern Virginia an effective infantry force of about 50,000 (3,609 officers and 50,155 men on its December 20 return) and says part of one of Warren's divisions was new troops. Lee says prisoners reported the Second and Fifth Corps, part of the Ninth, a division of the Sixth and Gregg's three brigades against him, and writes of the paucity of his numbers.",
+      "rationale": "The frozen figures state no date or population; the army return is army-wide and earlier; Lee's is an order of battle from prisoners. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA083"
+          },
+          "column": "forces_text",
+          "quote": "48,352 total (US 34,517; CS 13,835)"
+        },
+        {
+          "source_id": "nps-va083-v1",
+          "locator": "Forces Engaged",
+          "quote": "48352 total (US 34517; CS 13835;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "winter-1864-65",
+          "locator": "p.308 (inferred: chapter opening page without a running head in OCR; not checked against print)",
+          "quote": "The Army of Northern Virginia now had an effective force of infantry amounting to 50, 000."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "winter-1864-65",
+          "locator": "p.308 (inferred: chapter opening page without a running head in OCR; not checked against print)",
+          "quote": "Return of December 20, 1864 :"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "winter-1864-65",
+          "locator": "p.308 (inferred: chapter opening page without a running head in OCR; not checked against print)",
+          "quote": "Total . 3,609 50,155"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "A large part of one of General Warren’s divisions was com¬ posed of new troops."
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-1865-02-08-letter",
+          "locator": "p.382 (OCR page markers; not checked against print)",
+          "quote": "According to reports of prisoners we were opposed on Hatcher’s Run by the Second and Fifth Corps, part of the Ninth, one division of the Sixth, and Gregg’s division (three brigades) of cavalry."
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-1865-02-08-letter",
+          "locator": "p.382 (OCR page markers; not checked against print)",
+          "quote": "Taking these facts in connection with the paucity of our numbers,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "dammed-run-and-swamps",
+      "dimension": "terrain",
+      "value": "Humphreys says the Vaughan road crossing was dammed and obstructed by fallen trees, that Smyth's right rested on a small wooded swamp, and that the enemy's new intrenchments were in full view about a thousand yards off.",
+      "rationale": "The run, swamps and works predate the operation. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.312 (OCR page markers; not checked against print)",
+          "quote": "At the Vaughan road crossing the run was found to be dammed and obstructed by fallen trees"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.313 (OCR page markers; not checked against print)",
+          "quote": "His right rested on a small, wooded swamp."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.313 (OCR page markers; not checked against print)",
+          "quote": "tlie enemy’s new intrenchments were in full view, about one thousand yards distant."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "wagon-route-and-rations",
+      "dimension": "logistics",
+      "value": "Humphreys says supplies were reported to reach Petersburg by wagon from Hicksford via the Boydton plank road and that Gregg found the road little used; he describes Confederate troops in threadbare clothing on meagre food. Lee wrote on February 8 that some men had been without meat for three days, his chief commissary had not a pound of meat, and his cavalry was dispersed for want of forage.",
+      "rationale": "A commander's contemporaneous letter and a history; no commissary return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.312 (OCR page markers; not checked against print)",
+          "quote": "It was reported that supplies were brought to Petersburg by wagon trains from Hicksford on the Weldon Railroad,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "but found that the road was but little used,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.311 (OCR page markers; not checked against print)",
+          "quote": "with their threadbare, insufficient clothing, and meagre food,"
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-1865-02-08-letter",
+          "locator": "p.382 (OCR page markers; not checked against print)",
+          "quote": "some of the men had been without meat for three days,"
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-1865-02-08-letter",
+          "locator": "p.382 (OCR page markers; not checked against print)",
+          "quote": "who reports that he has not a pound of meat at his disposal,"
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-1865-02-08-letter",
+          "locator": "p.382 (OCR page markers; not checked against print)",
+          "quote": "Our cavalry has to be dispersed for want of forage."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "anticipated-flank-attack",
+      "dimension": "information",
+      "value": "Humphreys says he anticipated an attack on Smyth's right and posted McAllister there, and that the Confederate column emerged evidently expecting the ground unoccupied; Lee's first dispatch identified the crossing force as believed to be the Second and Fourth [Fifth?] Corps.",
+      "rationale": "A participant's account of his own foresight and a first report; not a message log.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.313 (OCR page markers; not checked against print)",
+          "quote": "I anticipated that one would be made on Smyth’s right,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.313 (OCR page markers; not checked against print)",
+          "quote": "evidently expecting to find it unoccupied,"
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-1865-02-05",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "believed to be Second and Fourth [Fifth?] Corps,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "break-up-supply-route",
+      "dimension": "objectives",
+      "value": "Humphreys says Gregg was sent to intercept the wagon trains and break up the route, with Warren and Humphreys supporting; he says Lee, sensitive to any movement on his right, concentrated parts of Hill's and Gordon's corps to meet it.",
+      "rationale": "Stated aims from a participant history.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.312 (OCR page markers; not checked against print)",
+          "quote": "To intercept those trains, and break up this route of supply, General Gregg was directed to march"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "had concentrated parts of Hill’s and Gordon’s corps to meet it."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says he brought McAllister's brigade over and secured another from Miles with Meade's authority, and that Warren reconnoitred with Crawford on the 6th; Lee says Gordon ordered Evans's division to support Pegram. The frozen commanders are Major General Gordon (CS) and Major Generals Humphreys and Warren (US); the live page lists Humphreys and Gordon.",
+      "rationale": "Direction attributed as stated; Humphreys writes of his own command. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.313 (OCR page markers; not checked against print)",
+          "quote": "I therefore brought over McAllister’s brigade of Mott’s divi¬ sion"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "General Warren made a reconnoissance with Crawford’s division"
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-hatchers-run-second-dispatch",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "Evans’ division, ordered by General Gordon to support Pegram, charged the enemy,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA083",
+            "belligerent": "Confederate",
+            "fullname": "John B. Gordon"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA083",
+            "belligerent": "US",
+            "fullname": "A.A. Humphreys"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA083",
+            "belligerent": "US",
+            "fullname": "G.K. Warren"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va083-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Andrew Humphreys [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads 'Union gained ground' and the live result Union Victory; NPS says the Union advance was stopped but the siegeworks were extended to the Vaughan Road crossing. Humphreys says Warren's line gave way on the 6th with little loss; Lee says Mahone drove the enemy back to his defences on the run and that he still retained his position.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The live 'Union Victory' and the frozen 'Union gained ground' are different categories; not reconciled.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA083"
+          },
+          "column": "results_text",
+          "quote": "Union gained ground"
+        },
+        {
+          "source_id": "nps-va083-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "Warren’s line gave way and fell back rapidly, but with little loss."
+        },
+        {
+          "source_id": "nps-va083-v1",
+          "locator": "Description",
+          "quote": "Although the Union advance was stopped, the Federals extended their siegeworks to the Vaughan Road crossing of Hatcher's Run."
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-hatchers-run-second-dispatch",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "Mahone’s division arriving, enemy was driven rapidly to his defenses on Hatcher’s Run."
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-1865-02-08-dispatch",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "He still retains his position."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 2,700 total and the live field 2,539 (US 1,539; CS 1,000). Humphreys gives Warren's loss with the cavalry as 1,165 killed and wounded and 154 missing, the Second Corps' 138 killed and wounded and Wheaton's 17, relays Warren's view that the enemy's losses were nearly equal, and says Pegram was killed; Lee reported his loss small and the enemy's not supposed great.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA083"
+          },
+          "column": "casualties_text",
+          "quote": "2,700 total"
+        },
+        {
+          "source_id": "nps-va083-v1",
+          "locator": "Estimated Casualties",
+          "quote": "2539 total (US 1539; CS 1000;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "General Warren’s total loss, including the cavalry, was 1,165 killed and wounded and 154 missing."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "The loss of the Second Corps was 138 killed and wounded,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "Wheaton’s division lost 17 killed and wounded."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "met with losses nearly equal to his own."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "hatchers-run",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "General Pegram was killed when his division was forced back to Dabney’s mill."
+        },
+        {
+          "source_id": "or46-1-lee-petersburg-selections-v1",
+          "section": "lee-hatchers-run-second-dispatch",
+          "locator": "p.381 (OCR page markers; not checked against print)",
+          "quote": "Our loss is reported to be small ; that of the enemy not supposed great."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Warren's, Humphreys', Meade's, Parke's and Gregg's reports (Volume XLVI Nos. 91, 29, 5, 134), Gordon's report (No. 181; read, not selected), the Union casualty return (No. 3, garbled columns) and the Confederate returns (No. 180; read, not selected) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

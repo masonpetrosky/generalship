@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA073",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Reams' Station (August 25) record (August 25, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. Globe Tavern (VA072) ends on August 21; the June 29 Reams' Station record (VA068) is separate. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Corps' and the live field zero. Humphreys says signal officers estimated 8,000 or 10,000 infantry passing south, lists Hill's brigades from Wilcox's, Heth's, Mahone's and Field's divisions with Hampton's two cavalry divisions, and says Hancock held the works with Gibbon's and Miles's divisions while Mott was ordered to send about 1,800 men.",
+      "rationale": "A signal-officer estimate of a column and formation lists; no return for either side. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA073"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va073-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "estimated at 8,000 or 10,000,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "Hill’s infantry was McGowan’s, Lane’s, and Scales’s brigades of Wilcox’s divi¬ sion,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "Anderson's brigade of Field’s division, and Cock's and McRae’s brigades of Heth’s division, and two brigades of Mahone’s division."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "and General Hampton with his two cavalry divisions."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "(about 1,800 men)"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "slight-works",
+      "dimension": "terrain",
+      "value": "Humphreys says the Reams's Station works were slight, thrown up for Wilson's relief in June, and that their returns at right angles to the railroad exposed the troops in them to reverse artillery fire.",
+      "rationale": "The works predate the engagement. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "The intrenchments at Re'ams’s Station were slight,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "This direction of the returns sub¬ jected the troops in them to a reverse artillery fire."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "fatigue-and-routes",
+      "dimension": "logistics",
+      "value": "Humphreys relays Hancock's statement that the return march from Deep Bottom was among the most fatiguing of the campaign, and says Willcox's relief march by the plank road was twelve miles against about five by the railroad.",
+      "rationale": "Movement statements from an interested history; no transport return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "that it was one of the most fatiguing and difficult performed by the troops during the campaign,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "But by the plank-road his march was twelve miles long"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "signal-warning",
+      "dimension": "information",
+      "value": "Humphreys says signal officers reported the Confederate columns moving south at dark on the 24th and that Hancock and Warren were advised the troops were most probably directed against Hancock.",
+      "rationale": "Attributed knowledge from an interested history, written by Meade's chief of staff.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "About dark of the 24th signal officers reported that there were large bodies of the enemy’s infantry,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "Both General Hancock and General Warren were advised of this,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "destroy-and-defend-railroad",
+      "dimension": "objectives",
+      "value": "Humphreys says the aim was to destroy the Weldon Railroad as far as Rowanty Creek to force a thirty-mile wagon haul, and that the railroad was too important to the Confederates to lose without an attempt to prevent it.",
+      "rationale": "Stated aims from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "It was determined, therefore, to destroy the railroad as far as Rowanty Creek,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.279 (OCR page markers; not checked against print)",
+          "quote": "But the Weldon Railroad was deemed to be too important as a line of supply to the Confederate forces to admit of this destruction without an attempt to prevent it,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Hancock judged himself too closely engaged to withdraw by day, that Meade's routing of Willcox by the plank road kept him from the field, and that Hancock credited Miles and blamed his troops' fatigue and losses; Lee credits A. P. Hill's assault, Heth's brigades and Hampton's cavalry. The frozen commanders are Major General Heth (CS) and Major General Hancock (US); the live page matches.",
+      "rationale": "Direction and blame attributed as stated. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "yet he was then too closely engaged with the enemy to withdraw, but that he would do so at night."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.280 (OCR page markers; not checked against print)",
+          "quote": "It was this apprehen¬ sion, no doubt, that induced him to send General Willcox by the plank-road instead of by the railroad."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "He attributed the bad conduct of some of his troops to their great fatigue and to their heavy losses during the campaign, especially in officers."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-08-26",
+          "locator": "p.851 (OCR page markers; not checked against print)",
+          "quote": "General A. P. Hill attacked the enemy in his intrenehments at Beams’ Station yesterday evening,"
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-08-26",
+          "locator": "p.851 (OCR page markers; not checked against print)",
+          "quote": "Cooke’s and MacBae’s North Carolina brigades, under General Heth,"
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-08-26",
+          "locator": "p.851 (OCR page markers; not checked against print)",
+          "quote": "One line of breast works was carried by the cavalry under General Hampton with great gallantry,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA073",
+            "belligerent": "Confederate",
+            "fullname": "Henry Heth"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA073",
+            "belligerent": "US",
+            "fullname": "Winfield Scott Hancock"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Lee says the second assault carried the entire line; Humphreys says the troops were withdrawn after dark to protect the only communication and that the enemy did not follow up.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA073"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va073-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-08-26",
+          "locator": "p.851 (OCR page markers; not checked against print)",
+          "quote": "at the second assault carried his entire line."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "The enemy made no attempt to follow up their advantage,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 3,492 total and the live field 3,556 (US 2,742; CS 814). Humphreys gives Hancock's loss as 610 killed and wounded and 1,762 missing (2,372) with nine guns lost, and Hill's report of 720 lost and 12 colors, 9 guns, 2,150 prisoners and 3,100 small arms taken; Lee's dispatch gives seven colors, 2,000 prisoners and 9 guns.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Hill's and Lee's prisoner and colors counts differ.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA073"
+          },
+          "column": "casualties_text",
+          "quote": "3,492 total"
+        },
+        {
+          "source_id": "nps-va073-v1",
+          "locator": "Estimated Casualties",
+          "quote": "3556 total (US 2742; CS 814;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.283 (OCR page markers; not checked against print)",
+          "quote": "his missing, 1,762, making a total of 2,372."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.283 (OCR page markers; not checked against print)",
+          "quote": "General A. P. Hill reported his loss to be 720,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "reams-station-august",
+          "locator": "p.283 (OCR page markers; not checked against print)",
+          "quote": "His captures, he stated, were 12 stands of colors, 9 guns, 10 caissons, 2,150 prisoners, 3,100 stands of small arms."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-08-26",
+          "locator": "p.851 (OCR page markers; not checked against print)",
+          "quote": "Seven stand of colors, 2,000 prisoners, and 9 pieces of artillery are in our possession."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Hancock's, Miles's, Gibbon's and Gregg's reports (Volume XLII Nos. 17, 19, 47, 229), Hill's and Hampton's reports (Nos. 372, 374) and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

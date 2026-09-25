@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA047",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Port Walthall Junction record (May 6-7, 1864) in the Bermuda Hundred Campaign [May 1864]. Swift Creek (VA050) follows on May 9; the frozen description's 33,000 for the Army of the James is army-wide context. Army-wide returns, the campaign-wide casualty return and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads only 'Divisions'; the frozen description gives Butler's army 33,000 strong on landing, and the live force field reads 39,000 for the Union and zero for the Confederates. Humphreys gives the Army of the James 1,329 officers and 30,543 enlisted men of infantry, 82 guns and Kautz's 97 officers and 2,804 men of cavalry present for duty, and says Beauregard's arriving brigades gave about 19,000 effective infantry. Hagood reports an aggregate of about 1,500 men engaged on May 7 against at least two brigades, and Bushrod Johnson at the junction with some 800 muskets.",
+      "rationale": "Army-wide returns, a reconstruction of Confederate reinforcements not yet arrived, and one brigade commander's engaged count for May 7 only; the scopes and dates differ. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA047"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA047"
+          },
+          "column": "description",
+          "quote": "Maj. Gen. Benjamin Butler's Army of the James, 33,000 strong,"
+        },
+        {
+          "source_id": "nps-va047-v1",
+          "locator": "Forces Engaged",
+          "quote": "39000 total (US 39000; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.137 (inferred: chapter opening page without a running head in OCR; not checked against print)",
+          "quote": "Butler’s infantry force was therefore 1,329 officers and 30,543 enlisted men of infantry, with 82 guns served by 61 officers and 2,065 enlisted men of artil¬ lery."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.137 (inferred: chapter opening page without a running head in OCR; not checked against print)",
+          "quote": "Kautz’s cavalry numbered 97 officers and 2,804 enlisted men, with 6 guns."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "These infantry brigades, not including Walker’s, gave an effective force of infantry (enlisted men present for duty) of 19,000."
+        },
+        {
+          "source_id": "or36-2-hagood-port-walthall-selections-v1",
+          "section": "hagood-1864-05-13",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "I found Brigadier-General Johnson also at that point with some 800 muskets."
+        },
+        {
+          "source_id": "or36-2-hagood-port-walthall-selections-v1",
+          "section": "hagood-1864-05-13",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "ihadanaggre eate of 1 500 men engaged ; the enemy at least two brigades."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "sunken-road-and-embankment",
+      "dimension": "terrain",
+      "value": "Hagood says Graham's detachment on May 6 held a well-chosen position in a sunken road with its left on a ravine and its right on a wood, and that on May 7 his men, sheltered by the railroad embankment, drove back the enemy's massed attack. Humphreys places the Union intrenched line across a narrow part of Bermuda Hundred Neck, about two and a half miles from the railroad and pike.",
+      "rationale": "The road, ravine and embankment predate the engagement; the choice to use them is not tagged. No map verification.",
+      "citations": [
+        {
+          "source_id": "or36-2-hagood-port-walthall-selections-v1",
+          "section": "hagood-1864-05-13",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "His position was well chosen in a sunken road, with his left resting upon a ravine and his right upon a wood."
+        },
+        {
+          "source_id": "or36-2-hagood-port-walthall-selections-v1",
+          "section": "hagood-1864-05-13",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "but my men, sheltered by I the railroad embankment, drove them back"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.139 (OCR page markers; not checked against print)",
+          "quote": "taking up a position at a narrow part of the neck, three miles across,"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.139 (OCR page markers; not checked against print)",
+          "quote": "About two and a half miles in front of this line was the Rich¬ mond and Petersburg Railroad,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "rail-arrivals-and-ammunition",
+      "dimension": "logistics",
+      "value": "Humphreys says Beauregard's leading troops had only begun to arrive at Petersburg by the Weldon Railroad on May 5, and that Kautz's destruction of the Stony Creek and Nottoway bridges caused some delay in the transportation of Beauregard's troops. Hagood says the two guns sent to him ran out of ammunition twice after very few discharges and went half a mile to the rear to replenish.",
+      "rationale": "Movement statements and one commander's remark on artillery ammunition; no transport or ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "had only begun to arrive at Petersburg by the Weldon Railroad on the 5th of May."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "caused some delay in the transportation of Beauregard’s troops."
+        },
+        {
+          "source_id": "or36-2-hagood-port-walthall-selections-v1",
+          "section": "hagood-1864-05-13",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "getting twice out of ammunition after very few discharges and s-oinff half a mile to the rear to replenish."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "deception-and-identification",
+      "dimension": "information",
+      "value": "Humphreys says the Union corps were concentrated at Yorktown and Gloucester to give the impression of an advance on the 1862 line. Hagood says prisoners led his side to suppose the May 6 attackers were Heckman's brigade, and that enemy newspaper correspondents later put Brooks with five brigades in his front on May 7.",
+      "rationale": "Attributed knowledge from an interested history and report; identification by prisoners and later newspapers is not contemporary command knowledge of strength.",
+      "citations": [
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.138 (OCR page markers; not checked against print)",
+          "quote": "in order to give the impression that he was to advance upon Richmond on the line taken by General McClellan in 1862."
+        },
+        {
+          "source_id": "or36-2-hagood-port-walthall-selections-v1",
+          "section": "hagood-1864-05-13",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "From information received from prisoners the enemy were supposed to have been Heckman’s brigade."
+        },
+        {
+          "source_id": "or36-2-hagood-port-walthall-selections-v1",
+          "section": "hagood-1864-05-13",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "ents from the army of the enemy state that General Brooks with five brigades and one battery of artillery, was m our front that day."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "railroad-objectives",
+      "dimension": "objectives",
+      "value": "Humphreys says Grant instructed Butler that Richmond was his objective point, and that Pickett sent Hagood's troops to Port Walthall Junction to protect the Richmond railroad from Butler's force; NPS says the landing threatened the Richmond-Petersburg Railroad.",
+      "rationale": "Stated aims from an interested history and a summary.",
+      "citations": [
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.137 (inferred: chapter opening page without a running head in OCR; not checked against print)",
+          "quote": "General Butler had been instructed by Lieutenant-General Grant that Richmond was his objective point ;"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "he sent Hagood’s troops forward to Port Walthall Junction to protect the Richmond Railroad from the force sent out by General Butler."
+        },
+        {
+          "source_id": "nps-va047-v1",
+          "locator": "Description",
+          "quote": "threatening the Richmond-Petersburg Railroad."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Butler sent a brigade out to the railroad on May 6 and some force from his two corps on May 7, and that Hagood's troops had been halted at the junction by Pickett, still in command at Petersburg. Hagood says Graham commanded on May 6 and that on May 7 he reported to Bushrod Johnson, who ranked him; Johnson withdrew the force to Swift Creek that night. The frozen commanders are Major General Butler (US) and Brigadier General Hagood (CS); the live page matches.",
+      "rationale": "Direction attributed as the sources state; Johnson and Pickett are not listed commanders. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.139 (OCR page markers; not checked against print)",
+          "quote": "A brigade was sent out to these roads,"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "having been halted at that point by General Pick¬ ett, who still remained in command at Petersburg."
+        },
+        {
+          "source_id": "or36-2-hagood-port-walthall-selections-v1",
+          "section": "hagood-1864-05-13",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "the whole under Colonel Graham, of the Twenty-first,"
+        },
+        {
+          "source_id": "or36-2-hagood-port-walthall-selections-v1",
+          "section": "hagood-1864-05-13",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "The gen- eral ranking me, I reported to him for orders."
+        },
+        {
+          "source_id": "or36-2-hagood-port-walthall-selections-v1",
+          "section": "hagood-1864-05-13",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "onr whole force at the Junction was withdrawn hv General Johnson to the line of Swift Creek."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA047",
+            "belligerent": "US",
+            "fullname": "Benjamin Butler"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA047",
+            "belligerent": "Confederate",
+            "fullname": "Johnson Hagood"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va047-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Johnson Hagood [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory, and both descriptions say a Union division drove Hagood's and Johnson's brigades from the depot and cut the railroad on May 7. Humphreys says the May 6 brigade returned after meeting some force and that the May 7 force encountered the enemy without any important result either way. Hagood says the enemy withdrew from the field before dark on May 7 and that his force was withdrawn to Swift Creek that night.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The summaries and the Confederate report characterize May 7 differently; not reconciled.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA047"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va047-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA047"
+          },
+          "column": "description",
+          "quote": "a Union division drove Hagood's and Johnson's brigades from the depot and cut the railroad at Port Walthall Junction."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.139 (OCR page markers; not checked against print)",
+          "quote": "which returned to the main body after having encoun¬ tered some force of the enemy at Port Walthall Junction,"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "which encountered the enemy without any important result either way,"
+        },
+        {
+          "source_id": "or36-2-hagood-port-walthall-selections-v1",
+          "section": "hagood-1864-05-13",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "and before dark the enemy withdrew from the field,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 550 total; the live field reads zero. Hagood gives his loss on May 7 as 177 and estimates the enemy's at 1,000; his printed casualty return is garbled in OCR and was not selected.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Hagood's figures cover his command on May 7 only; the enemy estimate is his.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA047"
+          },
+          "column": "casualties_text",
+          "quote": "550 total"
+        },
+        {
+          "source_id": "nps-va047-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or36-2-hagood-port-walthall-selections-v1",
+          "section": "hagood-1864-05-13",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "Our foss was 177 the enemy’i estimated 1,000,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Butler's reports for May 6-7, Smith's, Brooks's and Heckman's reports (Nos. 45, 50, 62), Graham's (No. 101) and Johnson's (Nos. 95-96) reports, Hagood's casualty return (garbled) and the compiled Union return (No. 2, garbled) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan; for this campaign it summarizes Smith's, Gillmore's and Weitzel's reports and quotes Beauregard's reports and telegrams, so it is not independent of the Beauregard family. Butler's telegrams and Hagood's, Barton's and Beauregard's reports, printed in Official Records Series I, Volume XXXVI, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

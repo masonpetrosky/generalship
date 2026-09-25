@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA050",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Swift Creek record (May 9, 1864) in the Bermuda Hundred Campaign [May 1864]. Port Walthall Junction (VA047) precedes on May 6-7 and Chester Station (VA051) follows on May 10; the frozen description also includes the May 9 Fort Clifton gunboat action. Army-wide returns, the campaign-wide casualty return and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Divisions' and the live field zero. Humphreys says Butler moved out on May 9 with a large part of his command under Gillmore and Smith, and gives the army's present-for-duty returns (1,329 officers and 30,543 enlisted infantry; Kautz's 97 officers and 2,804 cavalry). Butler's May 9 telegram cites 1,700 cavalry advanced up the Peninsula and Kautz's 3,000 cavalry from Suffolk.",
+      "rationale": "Army-wide returns and cavalry figures for forces not engaged at Swift Creek; no Confederate figure for May 9 was inspected. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA050"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va050-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "moved out of his intrencli- ments with a large part of his command under General Gillmore and General Smith,"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.137 (inferred: chapter opening page without a running head in OCR; not checked against print)",
+          "quote": "Butler’s infantry force was therefore 1,329 officers and 30,543 enlisted men of infantry, with 82 guns served by 61 officers and 2,065 enlisted men of artil¬ lery."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.137 (inferred: chapter opening page without a running head in OCR; not checked against print)",
+          "quote": "Kautz’s cavalry numbered 97 officers and 2,804 enlisted men, with 6 guns."
+        },
+        {
+          "source_id": "or36-2-butler-bermuda-hundred-selections-v1",
+          "section": "butler-1864-05-09",
+          "locator": "p.10 (OCR page markers; not checked against print)",
+          "quote": "With 1,700 cavalry we have advanced up the Peninsula,"
+        },
+        {
+          "source_id": "or36-2-butler-bermuda-hundred-selections-v1",
+          "section": "butler-1864-05-09",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "General Kautz, with 3,000 cavalry from Suf- folk,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "swift-creek-line",
+      "dimension": "terrain",
+      "value": "Humphreys says the enemy held the south bank of Swift Creek, which was not fordable and whose bridges were defended; NPS says Hinks's division struggled through marshy ground toward Fort Clifton.",
+      "rationale": "The creek and marsh predate the engagement; the defence of the crossings is not tagged. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "The enemy in some force held the south bank of Swift Creek, a stream that was not fordable and the bridges of which were de¬ fended."
+        },
+        {
+          "source_id": "nps-va050-v1",
+          "locator": "Description",
+          "quote": "Hincks's U.S. Colored Troops infantry division struggled through marshy ground from the land side."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "railroad-destruction",
+      "dimension": "logistics",
+      "value": "Humphreys says Butler's force destroyed about six miles of the Richmond and Petersburg Railroad between Swift Creek and Chester Station on May 9; Butler's telegram says he had ordered up supplies and could hold his position with proper supplies. NPS says Butler seemed content to tear up the tracks.",
+      "rationale": "Statements about the objective and supply, not a transport or supply return.",
+      "citations": [
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "destroyed the railroad between Swift Creek on the south and Chester Station on the north, a length of about six miles."
+        },
+        {
+          "source_id": "or36-2-butler-bermuda-hundred-selections-v1",
+          "section": "butler-1864-05-09",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "with proper supplies, we can hold out against the whole of Lee’s army."
+        },
+        {
+          "source_id": "or36-2-butler-bermuda-hundred-selections-v1",
+          "section": "butler-1864-05-09",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "1 have ordered up the supplies."
+        },
+        {
+          "source_id": "nps-va050-v1",
+          "locator": "Description",
+          "quote": "Butler seemed content to tear up the railroad tracks and did not press the defenders."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "beauregard-cut-off",
+      "dimension": "information",
+      "value": "Butler told the Secretary of War on May 9 that Kautz's cutting of the railroads had left a large portion of Beauregard's command to the south and that Grant would not be troubled with further reinforcements from it. Humphreys says the Confederate order and time of arrival of Beauregard's troops is not stated anywhere he could find.",
+      "rationale": "Butler's belief as reported, contradicted by the later arrivals Humphreys describes; not proof of what either side knew.",
+      "citations": [
+        {
+          "source_id": "or36-2-butler-bermuda-hundred-selections-v1",
+          "section": "butler-1864-05-09",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "Beaure- gard, with a large portion of his command, was left south by the cutting of the railroads by Kautz."
+        },
+        {
+          "source_id": "or36-2-butler-bermuda-hundred-selections-v1",
+          "section": "butler-1864-05-09",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "General Grant will not be troubled with any further re-en- forcements to Lee from Beauregard’s force."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "The order and time of arrival in Petersburg and movement to Richmond of Beauregard's troops I do not find stated anywhere."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "petersburg-proposal",
+      "dimension": "objectives",
+      "value": "Humphreys says Gillmore and Smith proposed on the evening of May 9 to bridge the Appomattox and take Petersburg, and that Butler disapproved, saying Kautz was destroying those roads and the Danville railroad must be destroyed near Richmond. NPS calls May 9 a thrust toward Petersburg.",
+      "rationale": "Stated plans and a rejected proposal from an interested history; the proposal came after the day's fighting.",
+      "citations": [
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "Generals Gillmore and Smith proposed to General Butler to lay a ponton bridge that night over the Appomattox,"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "This General Butler disapproved, stating that General Kautz was destroying those roads so that they would be useless,"
+        },
+        {
+          "source_id": "nps-va050-v1",
+          "locator": "Description",
+          "quote": "Maj. Gen. Benjamin Butler made a thrust toward Petersburg"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Butler's telegram claims he had whipped the portion of Beauregard's force that reached Petersburg; Humphreys attributes the rejection of the Petersburg proposal to Butler. The frozen commanders are Major General Butler (US) and General Beauregard (CS); the live page gives Beauregard as Brigadier General, and NPS names Bushrod Johnson's division as the opponent.",
+      "rationale": "Direction attributed as stated; the live rank is not adopted. Beauregard's inspected report begins on May 16 and does not cover May 9. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or36-2-butler-bermuda-hundred-selections-v1",
+          "section": "butler-1864-05-09",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "That portion which reached Petersburg under Hill I have whipped to-day,"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "This General Butler disapproved,"
+        },
+        {
+          "source_id": "nps-va050-v1",
+          "locator": "Description",
+          "quote": "was met by Bushrod Johnson's Division at Swift Creek."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA050",
+            "belligerent": "US",
+            "fullname": "Benjamin Butler"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA050",
+            "belligerent": "Confederate",
+            "fullname": "P.G.T. Beauregard"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-va050-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Pierre Beauregard [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. NPS says a premature Confederate attack at Arrowfield Church was driven back with heavy losses but not followed up, and that the Fort Clifton gunboats were driven off. Butler's May 9 telegram claims a severe and well-contested fight in which he whipped the enemy and took many prisoners.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Butler's claim and the recorded inconclusive result are kept separately.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA050"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va050-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-va050-v1",
+          "locator": "Description",
+          "quote": "A premature Confederate attack at Arrowfield Church was driven back with heavy losses, but Union forces did not follow up."
+        },
+        {
+          "source_id": "nps-va050-v1",
+          "locator": "Description",
+          "quote": "The gunboats were quickly driven off, and the infantry attack was abandoned."
+        },
+        {
+          "source_id": "or36-2-butler-bermuda-hundred-selections-v1",
+          "section": "butler-1864-05-09",
+          "locator": "p.11 (OCR page markers; not checked against print)",
+          "quote": "killing and wounding many, and taking many prisoners, after a severe and well-contested fight."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 990 total; the live field reads zero. Butler's telegram gives no count.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Hagood's May 9 losses appear only in his garbled casualty return, which was not selected.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA050"
+          },
+          "column": "casualties_text",
+          "quote": "990 total"
+        },
+        {
+          "source_id": "nps-va050-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Gillmore's, Smith's and Hinks's reports, the Tenth Corps regimental reports of May 9-10 (Nos. 12-44), Bushrod Johnson's and Fulkerson's reports (Nos. 95, 99), Hagood's May 9 paragraph (in the selected report, not used here under the three-family ceiling) and the naval reports on Fort Clifton remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan; for this campaign it summarizes Smith's, Gillmore's and Weitzel's reports and quotes Beauregard's reports and telegrams, so it is not independent of the Beauregard family. Butler's telegrams and Hagood's, Barton's and Beauregard's reports, printed in Official Records Series I, Volume XXXVI, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

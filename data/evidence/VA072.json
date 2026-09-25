@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA072",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Globe Tavern record (August 18-21, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. Deep Bottom II (VA071) overlaps these dates north of the James, and Reams' Station (VA073) follows on August 25. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads 'Corps (34,300 total)' and the live field zero. Humphreys gives the Army of the Potomac 33,684 effective infantry at this time, says the three Ninth Corps divisions sent to Warren had about 6,000 men, not all available, and that Warren first met only Dearing's cavalry brigade, then Heth with two brigades, then Hill with five brigades under Heth and Mahone on the 19th and his own corps with part of Hoke's on the 21st.",
+      "rationale": "An undivided total, an army-wide figure and formation lists for different days. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA072"
+          },
+          "column": "forces_text",
+          "quote": "Corps (34,300 total)"
+        },
+        {
+          "source_id": "nps-va072-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "The effective force of infantry of the Army of the Potomac at this time was 33,684 ;"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "These three divisions of the Ninth Corps had altogether about 6, 000 men, but all these were not available."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "finding only Dealing’s cavalry brigade to oppose him."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "General Hetli, with Davis’s and Walker’s brigades, was sent to his support."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "General A. P. Hill, with Davis’s and Walker’s brigades under General Heth, and Weisiger’s, Colquitt’s, and Cling- man’s under General Mahone,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "General A. P. Hill, with his own corps, part of Hoke’s division with Lee’s cavalry,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "woods-corn-and-open-ground",
+      "dimension": "terrain",
+      "value": "Humphreys says Crawford's right was in dense woods with close underbrush, a cornfield hid everything from Crawford's and Ayres's view, and the country was covered with dense woods whose cart tracks were unknown to Union troops; on the 20th Warren chose a position chiefly in open ground favorable to artillery.",
+      "rationale": "The woods and fields predate the engagement; the August 20 position was a commander's choice and is not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "his right in dense woods with close underbrush."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "A large field of Indian corn in front of Crawford’s left and Ayres’s right hid everything from their view."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "the whole face of the country being covered with dense woods and underbrush,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "chiefly in open ground, and favorable for the use of artillery,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "heat-and-rain",
+      "dimension": "logistics",
+      "value": "Humphreys says the days were oppressively hot with heavy rain that made side roads and fields almost impassable for artillery, and relays Warren that many men fell out in the heat of the first day and were counted missing.",
+      "rationale": "Weather and movement statements; no transport return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "The day was oppressively hot and close, as were those that followed, and a heavy rain fell throughout the day."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "An oppressive, warm rain fell all the time, making the side roads and fields almost impassable for artillery."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "many fell out of the ranks, who were counted among the missing."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reports-of-movement",
+      "dimension": "information",
+      "value": "Humphreys says Dearing reported the Union force on the railroad to Beauregard and that Lee, on learning it from Beauregard, sent Mahone's and W. H. F. Lee's divisions back; Lee's August 18 dispatch reports the Fifth Corps moving on the railroad at about noon.",
+      "rationale": "Attributed knowledge in a history and a dispatch; not a message log.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "General Dearing had reported to General Beauregard the appearance of some force on the railroad,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "Upon learning from General Beauregard that the Fifth Corps or a part of it was on the Weldon Railroad, General Lee sent Mahone’s and Lee’s divisions back to Petersburg."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-08-18",
+          "locator": "p.851 (OCR page markers; not checked against print)",
+          "quote": "About noon the enemy in front of Petersburg moved his Fifth Corps toward the Weldon railroad,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "seize-railroad-and-draw-lee",
+      "dimension": "objectives",
+      "value": "Humphreys says Warren was sent to seize and hold the Weldon Railroad at Globe Tavern and quotes Grant's wish to force Lee to withdraw troops from the Valley.",
+      "rationale": "Stated aims from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.272 (OCR page markers; not checked against print)",
+          "quote": "to seize and hold the Weldon Railroad at the Globe tavern,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.273 (OCR page markers; not checked against print)",
+          "quote": "I want, if possible, to make such demonstrations as will force Lee to withdraw a portion of his troops from the Valley,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Mahone, familiar with the woods, broke through Bragg's skirmish line and took Crawford in rear on the 19th, that Warren reformed his divisions and regained the ground, and that the conditions imposed on Warren were too many for such ground. Lee credits Hill with the August 19 and 21 attacks. The frozen commanders are Lee, A. P. Hill, Heth and Mahone (CS) and Warren (US); the live page lists Warren and 'Major General Robert Lee'.",
+      "rationale": "Direction and criticism attributed as stated; the live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.275 (OCR page markers; not checked against print)",
+          "quote": "Mahone, familiar with the woods, was to move concealed by it,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "brought them forward again and regained the ground temporarily lost,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "too many conditions to impose upon him on ground of the character he was operat¬ ing in."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-08-20",
+          "locator": "p.851 (OCR page markers; not checked against print)",
+          "quote": "General Hill attacked the enemy’s Fifth Corps yesterday afternoon at Davis’ house,"
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-08-21",
+          "locator": "p.851 (OCR page markers; not checked against print)",
+          "quote": "This morning General Hill attacked his position on Weldon railroad."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA072",
+            "belligerent": "US",
+            "fullname": "G.K. Warren"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA072",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA072",
+            "belligerent": "Confederate",
+            "fullname": "A.P. Hill"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA072",
+            "belligerent": "Confederate",
+            "fullname": "Henry Heth"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA072",
+            "belligerent": "Confederate",
+            "fullname": "William Mahone"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va072-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory; NPS says Grant extended his lines west and cut Petersburg's main rail link with Wilmington, forcing a 30-mile wagon haul from Stony Creek Station. Humphreys says no further attempts on Warren's position were made. Lee reports the Fifth Corps defeated with about 2,700 prisoners on the 19th and, on the 21st, the enemy driven to his main works and not dislodged.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Lee's August 20 characterization of the 19th and the recorded result differ in scope; not reconciled.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA072"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va072-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-va072-v1",
+          "locator": "Description",
+          "quote": "Grant succeeded in extending his siege lines to the west and cutting Petersburg's primary rail connection with Wilmington, North Carolina."
+        },
+        {
+          "source_id": "nps-va072-v1",
+          "locator": "Description",
+          "quote": "The Confederates were now forced to off-load rail cars at Stony Creek Station for a 30-mile wagon haul up Boydton Plank Road to reach Petersburg."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.278 (OCR page markers; not checked against print)",
+          "quote": "No further attempts upon General Warren’s position were made."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-08-20",
+          "locator": "p.851 (OCR page markers; not checked against print)",
+          "quote": "Defeated and captured about 2,700 prisoners,"
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-08-21",
+          "locator": "p.851 (OCR page markers; not checked against print)",
+          "quote": "from which he was not dislodged."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 5,879 (US 4,279; CS 1,600) and the live field 6,055 (US 4,455; CS 1,600). Humphreys gives Warren's losses as 544 killed and wounded and 392 missing on the 18th and 382 killed and wounded and 2,518 missing on the 19th (1,805 from Crawford's division), and on the 21st 517 prisoners and six flags taken and 211 enemy dead buried; Lee reports 150 prisoners on the 18th, about 2,700 on the 19th and over 300 on the 21st.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Humphreys' day totals, Lee's prisoner counts and the frozen totals are overlapping populations.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA072"
+          },
+          "column": "casualties_text",
+          "quote": "5,879 total (4,279 US; 1,600 CS)"
+        },
+        {
+          "source_id": "nps-va072-v1",
+          "locator": "Estimated Casualties",
+          "quote": "6055 total (US 4455; CS 1600;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.274 (OCR page markers; not checked against print)",
+          "quote": "ren’s loss was 544 killed and wounded, 392 missing — total,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.276 (OCR page markers; not checked against print)",
+          "quote": "General Warren’s casualties were 382 killed and wounded, 2,518 missing, of which 1,805 were from Crawford’s divi¬ sion."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "tured 517 officers and men and six flags,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "globe-tavern",
+          "locator": "p.277 (OCR page markers; not checked against print)",
+          "quote": "as General Warren savs 211 of their dead were buried by his troops."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-08-18",
+          "locator": "p.851 (OCR page markers; not checked against print)",
+          "quote": "capturing 150 prisoners."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-08-21",
+          "locator": "p.851 (OCR page markers; not checked against print)",
+          "quote": "Over 300 prisoners, exclusive of wounded, were captured."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Warren's, Crawford's, Ayres's and Cutler's reports (Volume XLII Nos. 121, 160, 144, 184), Parke's report, Hill's and Hagood's reports (Nos. 372, 368) and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

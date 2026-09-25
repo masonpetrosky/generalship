@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA074",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Peebles' Farm record (September 30-October 2, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. Chaffin's Farm (VA075, September 29-30) is the co-operating movement north of the James. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Corps' and the live field zero. Humphreys names Warren's two and Parke's two divisions and Gregg's cavalry against Hill's corps and Johnson's division with Hampton's two cavalry divisions and Dearing's brigade, without counts.",
+      "rationale": "Formations only; no return inspected. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA074"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va074-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.291 (OCR page markers; not checked against print)",
+          "quote": "General Warren, with Griffin’s and Ayres’s divisions, was directed against the junction of the roads ;"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.291 (OCR page markers; not checked against print)",
+          "quote": "The force holding the Petersburg intrenchments was Hill’s corps and Johnson’s division,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "open-ground-and-wood",
+      "dimension": "terrain",
+      "value": "Humphreys says Griffin's troops crossed six hundred yards of open ground to carry the Peebles intrenchments, and that Potter, passing through a wood, came within eight hundred yards of the enemy's main line.",
+      "rationale": "The intrenchments and ground predate the attack. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.291 (OCR page markers; not checked against print)",
+          "quote": "passing over six hundred yards of open ground,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.292 (OCR page markers; not checked against print)",
+          "quote": "Potter, passing through a wood, found himself within eight hundred yards of the enemy’s main line of intrenchments,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "feint-and-watch",
+      "dimension": "information",
+      "value": "Humphreys says Meade's semi-concealed changes of position were meant to suggest a concentration on the left and delayed the transfer of Confederate troops north of the James, and that Meade was to move only if the enemy drew off enough force.",
+      "rationale": "Attributed intent and effect from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.290 (OCR page markers; not checked against print)",
+          "quote": "These dispositions undoubtedly had the effect of delaying the transfer of Confederate troops to meet the attack of Ord and Birney."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.290 (OCR page markers; not checked against print)",
+          "quote": "should the enemy draw off such a force from the defences of Petersburg as, in General Meade’s opinion, would justify his moving against the South Side Railroad or Petersburg, he was to do so."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "road-junction-and-railroad",
+      "dimension": "objectives",
+      "value": "Humphreys says the object was to secure the junction of the Squirrel Level and Poplar Spring Church roads at the Peebles farm, then advance toward the Boydton plank road and South Side Railroad if conditions justified.",
+      "rationale": "Stated aims from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.291 (OCR page markers; not checked against print)",
+          "quote": "The object then in view was to secure the junction of two roads coming from the southwest, the Squirrel Level, and the Poplar Spring Church roads."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.291 (OCR page markers; not checked against print)",
+          "quote": "toward the Boydton plank-road and South Side Railroad, if the condi¬ tions would justify it."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Hill threw out Heth's and Wilcox's divisions to meet the advance, that Parke established a new line with Willcox's troops after Potter was driven back, and that Hampton shared in the captures; Lee credits Heth and Hampton on September 30. The frozen commanders are Hill and Hampton (CS) and Meade, Parke and Warren (US); the live page lists Meade and 'Lieutenant General Ambrose Hill'.",
+      "rationale": "Direction attributed as stated. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.292 (OCR page markers; not checked against print)",
+          "quote": "To meet the advance of Meade, General Hill threw out Heth’s and Wilcox’s divisions as far as the Jones house,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.292 (OCR page markers; not checked against print)",
+          "quote": "But a new line was at once established by General Parke with Willcox’s troops,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.292 (OCR page markers; not checked against print)",
+          "quote": "Hampton, on the Confederate right, shared in the captures."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-01",
+          "locator": "p.852 (OCR page markers; not checked against print)",
+          "quote": "General Hampton, operating on Heth’s right, also drove the enemy,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA074",
+            "belligerent": "US",
+            "fullname": "George G. Meade"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA074",
+            "belligerent": "US",
+            "fullname": "John G. Parke"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA074",
+            "belligerent": "US",
+            "fullname": "G.K. Warren"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA074",
+            "belligerent": "Confederate",
+            "fullname": "A.P. Hill"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA074",
+            "belligerent": "Confederate",
+            "fullname": "Wade Hampton"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Humphreys says the Peebles captures gave the whole line of intrenchment, that Potter was driven back in some confusion, and that a new line was intrenched about a mile from the enemy's on October 2; Lee says Heth drove back the infantry who had broken through on the Squirrel Level road.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The ground gained and the repulse of September 30 are both retained.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA074"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va074-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.291 (OCR page markers; not checked against print)",
+          "quote": "These two captures gave us the whole of the line of intrencli- ment."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.292 (OCR page markers; not checked against print)",
+          "quote": "his division driven back in some confusion,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.292 (OCR page markers; not checked against print)",
+          "quote": "established a line of intrenchments about a mile from the enemy’s."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-01",
+          "locator": "p.852 (OCR page markers; not checked against print)",
+          "quote": "Yesterday evening General Heth attacked the enemy’s infantry,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 3,800 total and the live field 4,169 (US 2,869; CS 1,300). Humphreys gives the Adjutant General's table of 661 killed and wounded and 1,348 missing (2,009), Parke's 485 killed and wounded, and the Medical table's Confederate 800 wounded, which he doubts; Lee reports 400 prisoners taken by Heth and about 500 by Hampton.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA074"
+          },
+          "column": "casualties_text",
+          "quote": "3,800 total"
+        },
+        {
+          "source_id": "nps-va074-v1",
+          "locator": "Estimated Casualties",
+          "quote": "4169 total (US 2869; CS 1300;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.292 (OCR page markers; not checked against print)",
+          "quote": "661 killed and wounded, 1,348 missing ; total, 2,009."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.292 (OCR page markers; not checked against print)",
+          "quote": "General Parke lost 485 killed and wounded, and heavily in prisoners."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "peebles-farm",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "which puts it down at 800 wounded."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-01",
+          "locator": "p.852 (OCR page markers; not checked against print)",
+          "quote": "400 prisoners captured."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-01",
+          "locator": "p.852 (OCR page markers; not checked against print)",
+          "quote": "about 500 prisoners, including 4 colonels and 13 other officers."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Parke's, Warren's, Griffin's, Potter's and Willcox's reports (Volume XLII Nos. 187, 121, 127, 207, 189), Meade's report, Hill's and Hampton's reports (Nos. 372, 374) and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

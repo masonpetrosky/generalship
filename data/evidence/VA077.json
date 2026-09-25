@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA077",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Darbytown & New Market Roads record (October 7, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. Chaffin's Farm (VA075) precedes on September 29-30 and the Darbytown Road reconnaissance (VA078) follows on October 13. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Corps' and the live field zero. Humphreys gives Kautz 1,700 men and two batteries, attacked by Field and Hoke with the larger part of their divisions, Field advancing with Anderson's and Bratton's brigades and Gary's cavalry, supported by Lane, around the flank.",
+      "rationale": "One Union cavalry figure and Confederate formations. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA077"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va077-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "Kautz, with 1,700 men and two batteries,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "Field and Hoke, with the larger part of their divi¬ sions,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "with Anderson’s and Bratton’s brigades, while Gary’s cavalry, supported by. Lane,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "swamp-rear",
+      "dimension": "terrain",
+      "value": "Humphreys says a swamp ran around Kautz's right and rear across the Darby road, so that falling back on the narrow road he met Gary's cavalry and lost eight guns, and that Field crossed dense swamps to attack the Tenth Corps; Lee says the enemy was found strongly intrenched on the New Market road.",
+      "rationale": "The swamps predate the action; the Union works were recent. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "There was a swamp on his right, which ran around his rear, cross¬ ing the Darby road."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "through the dense swamps of one of the chief affluents of the White Oak Swamp,"
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-07",
+          "locator": "p.852 (OCR page markers; not checked against print)",
+          "quote": "where he was found strongly intrenched,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "drive-kautz",
+      "dimension": "objectives",
+      "value": "Humphreys says Field and Hoke were brought over to drive Kautz from his threatening position; NPS says Lee directed an offensive against the Union far right in response to the loss of Fort Harrison.",
+      "rationale": "Stated aims from an interested history and a summary.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "To drive him from this threatening position,"
+        },
+        {
+          "source_id": "nps-va077-v1",
+          "locator": "Description",
+          "quote": "Gen. Robert E. Lee directed an offensive against the Union far right flank on October 7."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Lee reports that General Anderson drove the enemy; Humphreys says Field attacked and that the Tenth Corps moved out to Kautz's assistance. Birney's personal direction is not described in the inspected passages. The frozen commanders are Lee (CS), Brigadier General Kautz and Major General Birney (US); the live page lists Kautz and 'Major General Robert Lee'.",
+      "rationale": "Direction attributed as stated; the live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-07",
+          "locator": "p.852 (OCR page markers; not checked against print)",
+          "quote": "General Anderson to-day drove the enemy from his position"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "and at sunrise of the 7th Field ad¬ vanced upon him,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "getting under cover of the Tenth Corps, which was moving out to his assistance,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA077",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA077",
+            "belligerent": "US",
+            "fullname": "August Kautz"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA077",
+            "belligerent": "US",
+            "fullname": "David Birney"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-va077-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Humphreys says Kautz was routed with the loss of eight guns but Field's attack on the Tenth Corps was repulsed; Lee says the enemy was driven to the New Market road, where he was not dislodged, and that guns, caissons, colors, horses and prisoners were taken.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The rout of the cavalry and the repulse at the main line are both retained.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA077"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-va077-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "and thus lost eight of his guns."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "but was repulsed, and fell back to his intrenchments."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-07",
+          "locator": "p.852 (OCR page markers; not checked against print)",
+          "quote": "and was not dis- lodged."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,750 total and the live field 1,158 (US 458; CS 700). Humphreys gives Kautz's loss as eight guns, 72 killed and wounded and 202 missing, and names Gregg killed and Bratton wounded; Lee's dispatch said his loss was small and the enemy's unknown, and his correction gives 10 caissons, 2 colors, about 100 horses and over 100 prisoners (the gun count reads '0' in OCR).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA077"
+          },
+          "column": "casualties_text",
+          "quote": "1,750 total"
+        },
+        {
+          "source_id": "nps-va077-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1158 total (US 458; CS 700;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "but losing, besides the guns, 72 killed and wounded, and 202 missing."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "darbytown-october",
+          "locator": "p.293 (OCR page markers; not checked against print)",
+          "quote": "General Gregg, commanding the Texan brigade, a gallant commander of a gallant brigade, was killed,"
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-10-07",
+          "locator": "p.852 (OCR page markers; not checked against print)",
+          "quote": "Our loss said to be small; enemy’s not known."
+        },
+        {
+          "source_id": "or42-1-lee-petersburg-selections-v1",
+          "section": "lee-october-guns-correction",
+          "locator": "p.852 (OCR page markers; not checked against print)",
+          "quote": "10 caissons, 2 stand of colors, about 100 horses, over 100 prisoners,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Kautz's and Birney's reports (Volume XLII No. 335; Birney No. 250 covers other dates), the Tenth Corps brigade reports, Field's, Hoke's and Longstreet's reports and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

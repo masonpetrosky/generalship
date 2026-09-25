@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA065",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Jerusalem Plank Road record (June 21-24, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. The Wilson-Kautz raid records (VA113, VA067, VA068) begin on June 22 elsewhere; Lee's June 24 Hoke action is inside these dates. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads only 'Corps' and the live field zero. Humphreys names the Second Corps, followed by the Sixth, against Hill with Wilcox's and Mahone's divisions supported by B. R. Johnson's; Lee names Mahone with a part of his division.",
+      "rationale": "Formations only; no headcount or return was inspected. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA065"
+          },
+          "column": "forces_text",
+          "quote": "Corps"
+        },
+        {
+          "source_id": "nps-va065-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "weldon-railroad-june-21-23",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "The Second Corps, followed by the Sixth, was moved, on the 21st, across the Jerusalem plank-road,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "weldon-railroad-june-21-23",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "Mahone’s divisions with him, supported by B. R. Johnson’s."
+        },
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-06-22",
+          "locator": "p.750 (OCR page markers; not checked against print)",
+          "quote": "by General Mahone with a part of his division."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "dense-thickets",
+      "dimension": "terrain",
+      "value": "Humphreys says the two corps moved chiefly through densely wooded thickets and that the enemy's works west of the plank road were the original works.",
+      "rationale": "Woods and original works predate the engagement. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "weldon-railroad-june-21-23",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "The two corps were moving chiefly through densely-wooded thickets,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "weldon-railroad-june-21-23",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s intrenchments west of the Jerusalem plank-road were the orig¬ inal works,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "weldon-supply-line",
+      "dimension": "logistics",
+      "value": "NPS calls the Weldon Railroad one of the major supply lines into Petersburg; Lee says the June 23 demonstration was driven back before it had done much damage to the railroad.",
+      "rationale": "Statements about the objective's supply role, not a supply return.",
+      "citations": [
+        {
+          "source_id": "nps-va065-v1",
+          "locator": "Description",
+          "quote": "one of the major supply lines into Petersburg."
+        },
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-06-24",
+          "locator": "p.750 (OCR page markers; not checked against print)",
+          "quote": "but before he had done much damage was driven back"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "unseen-gap",
+      "dimension": "information",
+      "value": "Humphreys says Hill passed through the opening between Birney and Wright and that Birney's first information of his presence was fire on Barlow's flank and rear.",
+      "rationale": "Attributed knowledge from an interested history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "weldon-railroad-june-21-23",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "Leaving Wilcox to make head against Wright, he passed through the opening between Birney and Wright,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "weldon-railroad-june-21-23",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "the first information Birney had of his presence was a fire upon the flank and rear of Barlow’s division,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "encircle-railroads",
+      "dimension": "objectives",
+      "value": "Humphreys says the movement aimed to take the Weldon Railroad and secure the South Side Railroad, the corps' transfer being to encircle Petersburg far enough to hold both railroads.",
+      "rationale": "Stated aims from an interested history.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "weldon-railroad-june-21-23",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "with the intention of taking possession of the Weldon Railroad on the next day, and with the expectation of securing the Lynchburg or South Side Railroad."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "weldon-railroad-june-21-23",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "ject of the transfer of the two corps to the left was to encir¬ cle Petersburg so far as to hold the two railroads,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys says Meade instructed Birney and Wright, ordered them to move irrespective of each other after connection caused delays, and that Birney had not taken the requisite precautions to secure his left. Lee credits Mahone with the June 22 and 23 attacks. The frozen commanders are Grant and Meade (US) and Lee (CS); the live page lists Grant and 'Major General Robert Lee'.",
+      "rationale": "Direction and criticism attributed as stated; the live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "weldon-railroad-june-21-23",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "On the evening of the 21st General Wright was directed by General Meade to take position on the left of Birney,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "weldon-railroad-june-21-23",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "they were ordered to move irrespective of each other,"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "weldon-railroad-june-21-23",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "but General Birney had not taken the requisite precautions to secure his left in swinging forward."
+        },
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-06-24",
+          "locator": "p.750 (OCR page markers; not checked against print)",
+          "quote": "was driven back by General Mahone with a portion of his command."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA065",
+            "belligerent": "US",
+            "fullname": "Ulysses S. Grant"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA065",
+            "belligerent": "US",
+            "fullname": "George G. Meade"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA065",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-va065-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads 'Union gained ground' and the live result Union Victory, while the descriptions say the Second Corps was forced from the railroad but the siege lines were extended west. Lee says the enemy was driven from his first line to his second on June 22 and back from the railroad on June 23. Humphreys says the Second Corps re-established itself the next morning on the line it had been driven from, and the two armies stayed in that general position for some weeks.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The live 'Union Victory' and the frozen 'Union gained ground' are different categories; not reconciled.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA065"
+          },
+          "column": "results_text",
+          "quote": "Union gained ground"
+        },
+        {
+          "source_id": "nps-va065-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-va065-v1",
+          "locator": "Description",
+          "quote": "Although the Federals were driven from their advanced positions, they were able to extend their siege lines farther to the west."
+        },
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-06-22",
+          "locator": "p.750 (OCR page markers; not checked against print)",
+          "quote": "driven from his first line of works to his second on that road by General Mahone"
+        },
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-06-24",
+          "locator": "p.750 (OCR page markers; not checked against print)",
+          "quote": "was driven back by General Mahone with a portion of his command."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "weldon-railroad-june-21-23",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "it advanced and established itself on the line it had been driven from."
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "weldon-railroad-june-21-23",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "In this general position the two armies remained for some weeks."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 4,000 total and the live field 3,534 (US 2,962; CS 572). Humphreys gives the Second Corps loss as about 1,700 prisoners, four guns and several colors, with killed and wounded not severe; Lee reports about 1,600 prisoners, 4 guns and 8 colors on June 22, about 600 prisoners on June 23, and his own loss on June 24 as 97 killed and wounded and 209 missing.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The prisoner counts are captor and loser figures for overlapping populations.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA065"
+          },
+          "column": "casualties_text",
+          "quote": "4,000 total"
+        },
+        {
+          "source_id": "nps-va065-v1",
+          "locator": "Estimated Casualties",
+          "quote": "3534 total (US 2962; CS 572;)"
+        },
+        {
+          "source_id": "humphreys-petersburg-selections-v1",
+          "section": "weldon-railroad-june-21-23",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "the total loss of the corps being about 1,700 pris¬ oners, four guns, and several colors."
+        },
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-06-22",
+          "locator": "p.750 (OCR page markers; not checked against print)",
+          "quote": "About 1,600 prisoners, 4 pieces of artillery, 8 stand of colors,"
+        },
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-06-24",
+          "locator": "p.750 (OCR page markers; not checked against print)",
+          "quote": "About 600 prisoners and 28 commissioned officers were taken,"
+        },
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-06-25-2100",
+          "locator": "p.750 (OCR page markers; not checked against print)",
+          "quote": "Our entire loss yesterday morning was 97 killed and wounded and 209 missing."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Birney's (No. 18), Barlow's, Gibbon's and Wright's reports, Meade's November 1 paragraph on June 21-23 (read, not selected), Hill's and Mahone's reports and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

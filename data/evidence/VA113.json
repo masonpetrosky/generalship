@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA113",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Staunton River Bridge record (June 25, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. The Wilson-Kautz raid of June 22-July 1 contains three frozen records: Staunton River Bridge (VA113, June 25), Sappony Church (VA067, June 28) and Reams' Station (VA068, June 29). Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force text reads 'Divisions (4,000 total)' and the live field zero. Wilson's February 1865 report says the expedition set out with about 5,500 cavalry and twelve guns and found the bridge defended by 500 or 600 men and a battery of six guns; his July 3, 1864 report says the militia of eight counties and a small force from Danville.",
+      "rationale": "Wilson's 5,500 is the raid's starting strength on June 22 and his defender figure an estimate; the frozen 4,000 is undivided. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA113"
+          },
+          "column": "forces_text",
+          "quote": "Divisions (4,000 total)"
+        },
+        {
+          "source_id": "nps-va113-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.621 (OCR page markers; not checked against print)",
+          "quote": "consisting of about 5,500 cavalry and twelve guns,"
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.621 (OCR page markers; not checked against print)",
+          "quote": "The bridge was found well defended — 500 or 600 men and a battery of six guns strongly posted in earth-works on the south side of the river."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1864-07-03",
+          "locator": "p.627 (OCR page markers; not checked against print)",
+          "quote": "defended by tbe militia of eight counties and a small force from Dan¬ ville,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "river-and-bridgehead",
+      "dimension": "terrain",
+      "value": "Wilson says the approach to the bridge lay through a bottom field of growing grain under guns in works with four lines of rifle-trench, that the Staunton was too deep to ford, and that the site's topography made his position dangerous.",
+      "rationale": "The river and the defenders' works predate the raiders' arrival. No map verification.",
+      "citations": [
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.621 (OCR page markers; not checked against print)",
+          "quote": "the approach to the head of the bridge through a bottom field of growing grain."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1864-07-03",
+          "locator": "p.626 (running head reads 'OPERATIONS KT SE.' in OCR; not checked against print)",
+          "quote": "four lines of rifle- trench between them and the river-bank?"
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1864-07-03",
+          "locator": "p.627 (OCR page markers; not checked against print)",
+          "quote": "the Staunton too deep for fording and Unprovided with bridges or steam ferries,"
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1864-07-03",
+          "locator": "p.627 (OCR page markers; not checked against print)",
+          "quote": "Our position, from the peculiar topography of the site, was rather dangerous,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "rations-and-exhaustion",
+      "dimension": "logistics",
+      "value": "Wilson says the troops carried five days' light rations and about 100 rounds of ammunition in wagons, that the implements for destroying railroad had not arrived when the expedition started, and that many of Kautz's men fainted from exhaustion, thirst and heat before the bridge.",
+      "rationale": "Statements from the raid commander; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.621 (OCR page markers; not checked against print)",
+          "quote": "The troops were supplied with five days’ light rations, and about 100 rounds of ammunition in wagons."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1864-07-03",
+          "locator": "p.630 (OCR page markers; not checked against print)",
+          "quote": "The implements with which the expedition was to have been furnished had not arrived when the expedition started."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.621 (OCR page markers; not checked against print)",
+          "quote": "Many of the men fainted from exhaustion, thirstj and heat."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "defender-confidence",
+      "dimension": "information",
+      "value": "Lee reports that the bridge commander, Captain Farinholt, telegraphed on the 25th his confidence of being able to protect it; Wilson says careful inquiry showed no means of crossing without letting the enemy on the north bank cross too.",
+      "rationale": "Attributed knowledge in dispatches and a report; not proof of what either commander knew at the time of the attack.",
+      "citations": [
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-06-26",
+          "locator": "p.751 (OCR page markers; not checked against print)",
+          "quote": "A dispatch dated 25th was received this morning from Captain Farinholt, com¬ manding at Staunton River bridge, expressing his confidence of being able to protect it."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.622 (OCR page markers; not checked against print)",
+          "quote": "Having found, from careful inquiry, there were no means of crossing the river"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "burn-the-bridge",
+      "dimension": "objectives",
+      "value": "Wilson says the High Bridge and the Roanoke (Staunton River) bridge were especially to be aimed at, and that Kautz attacked hoping to reach the northern end long enough to burn it.",
+      "rationale": "Stated aims from the raid commander.",
+      "citations": [
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.620 (OCR page markers; not checked against print)",
+          "quote": "The High Bridge on the South Side road and Roanoke bridge on the Danville road were especially to be aimed at."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1864-07-03",
+          "locator": "p.626 (running head reads 'OPERATIONS KT SE.' in OCR; not checked against print)",
+          "quote": "hoping to reach the northern end and hold it long enough to burn it,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Wilson says he directed Kautz to dismount and push to the bridge, then determined to withdraw eastward; Lee reports W. H. F. Lee's attack on the raiders' rear near the bridge. The frozen commanders are Major General W. H. F. Lee (CS) and Brigadier Generals Wilson and Kautz (US); the live page lists Wilson and 'Major General William Lee'.",
+      "rationale": "Direction attributed as stated. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.621 (OCR page markers; not checked against print)",
+          "quote": "directed General Kautz to dismount his division and endeavor to push close enough to the end of the bridge to set fire to it."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.622 (OCR page markers; not checked against print)",
+          "quote": "I determined to withdraw to the eastward and march back to the James River."
+        },
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-06-26",
+          "locator": "p.751 (OCR page markers; not checked against print)",
+          "quote": "General W. H. F. Lee reports that he attacked the enemy near Staunton River bridge yesterday after¬ noon and drove hint until dark."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA113",
+            "belligerent": "Confederate",
+            "fullname": "William H.F. \"Rooney\" Lee"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA113",
+            "belligerent": "US",
+            "fullname": "James H. Wilson"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA113",
+            "belligerent": "US",
+            "fullname": "August Kautz"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Lee says the enemy was signally repulsed at the bridge and retreated; Wilson says Kautz had to give up the attempt, and that the expedition's objects had in the main been accomplished.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Wilson's claim concerns the raid as a whole, not this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA113"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va113-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-06-26",
+          "locator": "p.751 (OCR page markers; not checked against print)",
+          "quote": "the enemy was signally repulsed at the bridge the same evening and retreated this morning,"
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.621 (OCR page markers; not checked against print)",
+          "quote": "After a most gallant and exhausting effort he was compelled to give u}) the task."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.622 (OCR page markers; not checked against print)",
+          "quote": "The objects of the expedition had in the main been accomplished."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 150 total; the live field reads zero. Lee reports about thirty enemy dead left on the field; Wilson gives about 900 killed, wounded and missing for the whole expedition.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Wilson's figure is raid-wide and is not assigned to this record.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA113"
+          },
+          "column": "casualties_text",
+          "quote": "150 total"
+        },
+        {
+          "source_id": "nps-va113-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or40-1-lee-petersburg-selections-v1",
+          "section": "lee-1864-06-26",
+          "locator": "p.751 (OCR page markers; not checked against print)",
+          "quote": "leaving about thirty of his dead on the field."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.624 (OCR page markers; not checked against print)",
+          "quote": "The loss sustained by the entire command was about 900 men, killed, wounded, and missing."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Kautz's report (No. 280), the reports of Kautz's brigade commanders, W. H. F. Lee's and Farinholt's reports, and Humphreys' raid passage (pp.236-241; read, not selected under the three-family ceiling) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

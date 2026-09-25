@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA067",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Sappony Church record (June 28, 1864) in the Richmond-Petersburg Campaign [June 1864-March 1865]. The Wilson-Kautz raid of June 22-July 1 contains three frozen records: Staunton River Bridge (VA113, June 25), Sappony Church (VA067, June 28) and Reams' Station (VA068, June 29). Hampton's report runs through the pursuit of June 29-30. Army-wide returns, raid-wide and multi-action loss totals, and the siege as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Divisions' and the live field zero. Wilson believed the only force barring him at Stony Creek was an infantry battalion and a remnant of W. H. F. Lee's cavalry, not over 1,000 men, until prisoners said Hampton's and Fitzhugh Lee's divisions had arrived; Hampton names Chambliss's and Young's brigades and 200 men of the Holcombe Legion.",
+      "rationale": "A pre-contact belief and partial formation lists; no count of either force at the church. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA067"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va067-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.622 (OCR page markers; not checked against print)",
+          "quote": "in all not to exceed 1,000 men."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.622 (OCR page markers; not checked against print)",
+          "quote": "from whom I learned that Hampton’s and Fitzhugh Lee’s divisions of cavalry had just arrived."
+        },
+        {
+          "source_id": "or40-1-hampton-sappony-selections-v1",
+          "section": "hampton-1864-07-10",
+          "locator": "p.808 (running head reads 'OPERATIONS IN BE.' in OCR; not checked against print)",
+          "quote": "brought 200 men of his command to join me,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "breastworks",
+      "dimension": "terrain",
+      "value": "Wilson says the Confederates fell back to a rail breastwork at the church; Hampton says the enemy held a strong position with two lines of works too strong to attack in front.",
+      "rationale": "Works built during the engagement; not tagged. No map verification.",
+      "citations": [
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.622 (OCR page markers; not checked against print)",
+          "quote": "where they had constructed a rail breast- work."
+        },
+        {
+          "source_id": "or40-1-hampton-sappony-selections-v1",
+          "section": "hampton-1864-07-10",
+          "locator": "p.808 (running head reads 'OPERATIONS IN BE.' in OCR; not checked against print)",
+          "quote": "The position of the enemy, who had two lines of works, was so strong that I could not attack it in front,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "exhaustion-and-supply",
+      "dimension": "logistics",
+      "value": "Hampton says his command had no rest from June 8, was badly supplied with rations and forage and marched upward of 400 miles; Wilson says that in the 81 hours from 3 a.m. on June 28 his command rested not over six hours.",
+      "rationale": "Commanders' statements; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or40-1-hampton-sappony-selections-v1",
+          "section": "hampton-1864-07-10",
+          "locator": "p.809 (OCR page markers; not checked against print)",
+          "quote": "was badly supplied with rations and forage, marched upward of 400 miles,"
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.624 (OCR page markers; not checked against print)",
+          "quote": "the command rested from marching and fighting not to exceed six hours."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouts-and-prisoners",
+      "dimension": "information",
+      "value": "Wilson says all he could gather led him to believe Hampton had not yet appeared; Hampton says his scouts found the enemy's road and he notified the general commanding.",
+      "rationale": "Attributed knowledge from interested reports.",
+      "citations": [
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.622 (OCR page markers; not checked against print)",
+          "quote": "From all the information I could gather I was led to believe that Hampton’s cavalry had not yet made its appearance in that vicinity,"
+        },
+        {
+          "source_id": "or40-1-hampton-sappony-selections-v1",
+          "section": "hampton-1864-07-10",
+          "locator": "p.808 (running head reads 'OPERATIONS IN BE.' in OCR; not checked against print)",
+          "quote": "The scouts hav¬ ing reported what road the enemy were marching on,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "intercept-and-evade",
+      "dimension": "objectives",
+      "value": "Hampton says he was ordered to intercept Wilson returning to Grant's army; Wilson says he meant to hold the church with his own division while the rest and the train moved by the left toward Reams' Station.",
+      "rationale": "Stated aims from interested commanders.",
+      "citations": [
+        {
+          "source_id": "or40-1-hampton-sappony-selections-v1",
+          "section": "hampton-1864-07-10",
+          "locator": "p.808 (running head reads 'OPERATIONS IN BE.' in OCR; not checked against print)",
+          "quote": "in order to intercept Wilson, who was returning from Staunton River bridge to rejoin Grant’s army."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.623 (OCR page markers; not checked against print)",
+          "quote": "I determined to hold the position with my own division till the balance of the command with the train could move by the left flank"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Hampton says he suggested placing infantry at Reams' Station, which the general commanding did, sent Butler's and Rosser's brigades under Butler against the flank at daylight, and credits Chambliss; Wilson says McIntosh dismounted and attacked. The frozen commanders are Major General Hampton (CS) and Brigadier Generals Wilson and Kautz (US); the live page gives Hampton as Lieutenant General.",
+      "rationale": "Roles attributed as stated; the live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or40-1-hampton-sappony-selections-v1",
+          "section": "hampton-1864-07-10",
+          "locator": "p.808 (running head reads 'OPERATIONS IN BE.' in OCR; not checked against print)",
+          "quote": "suggesting that a force of infan¬ try and artillery be placed at Reams’ Station,"
+        },
+        {
+          "source_id": "or40-1-hampton-sappony-selections-v1",
+          "section": "hampton-1864-07-10",
+          "locator": "p.808 (running head reads 'OPERATIONS IN BE.' in OCR; not checked against print)",
+          "quote": "I threw portions of Butler’s and Rosser’s brigades, under the immediate direction of Brigadier-General Butler, on the left flank of the enemy."
+        },
+        {
+          "source_id": "or40-1-hampton-sappony-selections-v1",
+          "section": "hampton-1864-07-10",
+          "locator": "p.809 (OCR page markers; not checked against print)",
+          "quote": "General Chambliss, by his gallantry, his great zeal, and his knowledge of the* country, contributed largely to the success we gained."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.622 (OCR page markers; not checked against print)",
+          "quote": "Colonel McIntosh hastily dismounted his brigade"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA067",
+            "belligerent": "Confederate",
+            "fullname": "Wade Hampton"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA067",
+            "belligerent": "US",
+            "fullname": "James H. Wilson"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA067",
+            "belligerent": "US",
+            "fullname": "August Kautz"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-va067-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant General Wade Hampton [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Wilson says the night attacks were repulsed three times but that at dawn the enemy broke through Chapman's flank as the rear withdrew; Hampton says he took both lines of works and the enemy retreated in confusion.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The commanders' characterizations differ; not reconciled.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA067"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va067-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.623 (OCR page markers; not checked against print)",
+          "quote": "the enemy attacked three times with spirit, but were met with determination equal to their own, and each time repulsed with loss."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.623 (OCR page markers; not checked against print)",
+          "quote": "The enemy, discovering the state of affairs, pushed in on Chapman’s left flank and broke through."
+        },
+        {
+          "source_id": "or40-1-hampton-sappony-selections-v1",
+          "section": "hampton-1864-07-10",
+          "locator": "p.808 (running head reads 'OPERATIONS IN BE.' in OCR; not checked against print)",
+          "quote": "in a few moments we were in possession of both lines of works, the enemy retreating in confusion and leaving their dead and wounded on the ground."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty field reads '1,817 for entire raid' with no numeric value; the live field reads zero. Hampton gives 806 prisoners and 127 slaves captured and his loss as 2 killed, 18 wounded and 2 missing for June 28-30; Wilson gives about 900 for the whole expedition.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Both commanders' figures span more than this record; none is assigned to it.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA067"
+          },
+          "column": "casualties_text",
+          "quote": "1,817 for entire raid"
+        },
+        {
+          "source_id": "nps-va067-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or40-1-hampton-sappony-selections-v1",
+          "section": "hampton-1864-07-10",
+          "locator": "p.809 (OCR page markers; not checked against print)",
+          "quote": "We captured 806 prisoners, together with 127 negroes — slaves."
+        },
+        {
+          "source_id": "or40-1-hampton-sappony-selections-v1",
+          "section": "hampton-1864-07-10",
+          "locator": "p.809 (OCR page markers; not checked against print)",
+          "quote": "My loss was 2 killed, 18 wounded, and 2 missing."
+        },
+        {
+          "source_id": "or40-1-wilson-south-side-raid-selections-v1",
+          "section": "wilson-1865-02-18",
+          "locator": "p.624 (OCR page markers; not checked against print)",
+          "quote": "The loss sustained by the entire command was about 900 men, killed, wounded, and missing."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Chambliss's and Crawley's reports (not sent in, per Hampton), McIntosh's and Chapman's reports, Kautz's report (No. 280), Lee's June 29 dispatch (selected; cited under VA068) and Humphreys' raid passage (read, not selected) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, later commander of its Second Corps, in the same author family as the registered From Gettysburg to the Rapidan; it relies on Meade's, Hancock's, Warren's, Burnside's, Parke's and Wilson's reports and quotes Lee's, Beauregard's and Gordon's despatches, so it is not independent of those families. Gillmore's, Meade's, Hancock's, Burnside's, Wilson's, Hampton's, Stannard's and Lee's papers, printed in Official Records Series I, Volumes XXXVI (Part 2), XL, XLII and XLVI (Part 1), are separate families of interested commanders' accounts; each volume is a shared container, not an additional witness. Lee's telegrams largely relay subordinates' reports. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

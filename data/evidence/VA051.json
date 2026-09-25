@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA051",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Chester Station record (May 10, 1864) in the Bermuda Hundred Campaign [May 1864]. Swift Creek (VA050) precedes on May 9 and the Proctor's Creek record (VA053) begins on May 12. Army-wide returns, the campaign-wide casualty return and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Divisions' and the live field zero. Humphreys says Ransom advanced on May 10 with Barton's and Gracie's brigades. Barton says his brigade engaged a force five times its number, that prisoners represented two divisions and said the whole Tenth Corps was on the field, and that one-fifth of his command, the pickets, followed late.",
+      "rationale": "Brigade-level and prisoner-derived impressions without counts, from an interested report; no return inspected. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA051"
+          },
+          "column": "forces_text",
+          "quote": "Divisions"
+        },
+        {
+          "source_id": "nps-va051-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "with Barton’s and Gracie’s brigades,"
+        },
+        {
+          "source_id": "or36-2-barton-chester-station-selections-v1",
+          "section": "barton-1864-05-12",
+          "locator": "p.217 (OCR page markers; not checked against print)",
+          "quote": "They engaged a force five times their number"
+        },
+        {
+          "source_id": "or36-2-barton-chester-station-selections-v1",
+          "section": "barton-1864-05-12",
+          "locator": "p.217 (OCR page markers; not checked against print)",
+          "quote": "They represented two divisions, and said that the whole corps"
+        },
+        {
+          "source_id": "or36-2-barton-chester-station-selections-v1",
+          "section": "barton-1864-05-12",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "left the pickets (one-fifth of the com- mand),"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "wooded-ridge-and-morass",
+      "dimension": "terrain",
+      "value": "Barton says the enemy was strongly posted on a ridge at right angles to the turnpike and had begun to fortify, with open field on one side and dense woods down to a thick morass elsewhere; visibility was a few paces, the woods were set on fire, and the combatants were rarely more than 50 paces apart.",
+      "rationale": "The ridge, woods and morass predate the action; the Union works were begun during it and the fire started in it. No map verification.",
+      "citations": [
+        {
+          "source_id": "or36-2-barton-chester-station-selections-v1",
+          "section": "barton-1864-05-12",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "The enemy in large force was strongly posted on a ridge nearly at right angles to the turnpike, and had begun to fortify the position."
+        },
+        {
+          "source_id": "or36-2-barton-chester-station-selections-v1",
+          "section": "barton-1864-05-12",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "was densely wooded to the bottom of the hill, where there was a thick morass."
+        },
+        {
+          "source_id": "or36-2-barton-chester-station-selections-v1",
+          "section": "barton-1864-05-12",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "a captain could rarely see his whole company, a cokinel never his whole regiment, at one glance."
+        },
+        {
+          "source_id": "or36-2-barton-chester-station-selections-v1",
+          "section": "barton-1864-05-12",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "the woods were fired early in the action,"
+        },
+        {
+          "source_id": "or36-2-barton-chester-station-selections-v1",
+          "section": "barton-1864-05-12",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "I believe the distance between the combatants rarely exceeded 50 paces, often not 20."
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reconnaissance-in-force",
+      "dimension": "information",
+      "value": "Humphreys says Ransom advanced toward the part of Butler's force covering the railroad's destruction; Barton says he was ordered to sweep the country and ascertain the enemy's position and strength, and identified the enemy through prisoners. NPS calls it a reconnaissance-in-force.",
+      "rationale": "Stated purpose of a reconnaissance and attributed identification; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "advanced toward the portion of Butler’s force covering the destruction of the railroad in that vicinity ;"
+        },
+        {
+          "source_id": "or36-2-barton-chester-station-selections-v1",
+          "section": "barton-1864-05-12",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "and ascertain the position and strength of enemy"
+        },
+        {
+          "source_id": "nps-va051-v1",
+          "locator": "Description",
+          "quote": "elements of Maj. Gen. Robert Ransom's division conducted a reconnaissance-in-force"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "railroad-and-reconnaissance",
+      "dimension": "objectives",
+      "value": "NPS says Butler's force was destroying the railroad at Chester Station when Ransom's elements attacked; Humphreys says Butler's May 9 operation aimed to destroy the railroad between Swift Creek and Chester Station.",
+      "rationale": "Stated aims from a summary and an interested history.",
+      "citations": [
+        {
+          "source_id": "nps-va051-v1",
+          "locator": "Description",
+          "quote": "against a portion of Butler's army that was destroying the railroad at Chester Station."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "destroyed the railroad between Swift Creek on the south and Chester Station on the north,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Barton says his brigade was formed for attack by Ransom's orders and that two of his regiments were placed under officers of Ransom's choosing without formal orders to him; his covering letter protests being relieved of command and censured without charges, and Ransom's indorsement says the case will be remarked upon in his report. The frozen commanders are Major General Butler (US) and General Beauregard (CS); the live page gives Beauregard as Brigadier General.",
+      "rationale": "Barton's account is self-defence after his relief; Ransom's report is not inspected. Neither listed commander is shown directing the action in the inspected passages. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or36-2-barton-chester-station-selections-v1",
+          "section": "barton-1864-05-12",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "My brigade was formed for attack by General Ransom’s orders as follows :"
+        },
+        {
+          "source_id": "or36-2-barton-chester-station-selections-v1",
+          "section": "barton-1864-05-12",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "no formal order in either case having been given me."
+        },
+        {
+          "source_id": "or36-2-barton-chester-station-selections-v1",
+          "section": "barton-1864-05-16",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "grave censure without informing"
+        },
+        {
+          "source_id": "or36-2-barton-chester-station-selections-v1",
+          "section": "barton-1864-05-12",
+          "locator": "p.217 (OCR page markers; not checked against print)",
+          "quote": "In my report of Barton s case it will be remarked upon."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA051",
+            "belligerent": "US",
+            "fullname": "Benjamin Butler"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA051",
+            "belligerent": "Confederate",
+            "fullname": "P.G.T. Beauregard"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-va051-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Pierre Beauregard [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live result Indecisive. NPS says the Federals retired to their Bermuda Hundred lines; Humphreys says only some skirmishing ensued and Butler's troops returned to their intrenchments on the 10th. Barton says a large force gained his left and rear and that he retired across the morass to the position held before the assault.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Humphreys' 'only some skirmishing' and Barton's account of a close fight are not reconciled.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA051"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-va051-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "nps-va051-v1",
+          "locator": "Description",
+          "quote": "the Federals retired to their Bermuda Hundred lines."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "but only some skirmishing ensued."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "Butler’s troops returned to their intrencliments on the 10th."
+        },
+        {
+          "source_id": "or36-2-barton-chester-station-selections-v1",
+          "section": "barton-1864-05-12",
+          "locator": "p.217 (OCR page markers; not checked against print)",
+          "quote": "gained the left and rear I at once retired the whole across the morass and took up the position occupied before the assault."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 569 total; the live field reads zero. Barton's casualty sub-inclosure is blank in OCR.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA051"
+          },
+          "column": "casualties_text",
+          "quote": "569 total"
+        },
+        {
+          "source_id": "nps-va051-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Ransom's report on Barton's case, Gracie's report, the Union Tenth Corps reports of May 10 (Nos. 12-44), Barton's casualty return (blank in OCR) and the order relieving him (read, not selected) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan; for this campaign it summarizes Smith's, Gillmore's and Weitzel's reports and quotes Beauregard's reports and telegrams, so it is not independent of the Beauregard family. Butler's telegrams and Hagood's, Barton's and Beauregard's reports, printed in Official Records Series I, Volume XXXVI, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

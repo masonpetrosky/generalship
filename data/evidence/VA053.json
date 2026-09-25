@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA053",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Proctor's Creek (Drewry's Bluff) record (May 12-16, 1864) in the Bermuda Hundred Campaign [May 1864]. Chester Station (VA051) precedes on May 10 and Ware Bottom Church (VA054) follows on May 20; Whiting's Petersburg column of May 16 is part of Beauregard's plan for this record. Army-wide returns, the campaign-wide casualty return and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 48,000 (US 30,000; CS 18,000), matching the frozen description; the live field reads 57,000 (US 39,000; CS 18,000) while its description keeps Butler's 30,000. Humphreys gives Beauregard not less than 17,000 enlisted infantry in three divisions at Drury's Bluff (Ransom about 5,400, Hoke about 7,000, Colquitt about 4,900) and Whiting not less than 4,600 muskets at Petersburg, reconstructs 22,000 infantry and 2,000 cavalry by May 15, and says Butler's infantry before the intrenchments did not exceed the enemy's, with Ames's 5,000, Hinks's 5,000 and about 3,000 detached. Beauregard writes of the enemy's advantage in numbers.",
+      "rationale": "Mixed reconstructions of effective infantry, detached forces and commanders' comparisons; the Union and Confederate scopes differ. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA053"
+          },
+          "column": "forces_text",
+          "quote": "48,000 total (US 30,000; CS 18,000)"
+        },
+        {
+          "source_id": "nps-va053-v1",
+          "locator": "Forces Engaged",
+          "quote": "57000 total (US 39000; CS 18000;)"
+        },
+        {
+          "source_id": "nps-va053-v1",
+          "locator": "Description",
+          "quote": "A Confederate army of 18,000 was patched together under command of Gen. P.G.T. Beauregard to confront Butler's 30,000."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.148 (OCR page markers; not checked against print)",
+          "quote": "a movable force of infantry of not less than 17,000 enlisted men, formed in three divisions,"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "Its effective force was about 5,400."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "Its effective force was about 7,000."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.150 (OCR page markers; not checked against print)",
+          "quote": "Its effective force was about 4,900."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.148 (OCR page markers; not checked against print)",
+          "quote": "numbering not less than 4,600 muskets,"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "of 22,000 enlisted men of in¬ fantry, and 2,000 cavalry,"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "The number of General Butler’s infantry before the Drury’s Bluff intrenchments did not exceed that of the enemy,"
+        },
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-1864-06-10",
+          "locator": "p.204 (OCR page markers; not checked against print)",
+          "quote": "regardless ot his advantage in numbers and position."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "intrenchments-and-fog",
+      "dimension": "terrain",
+      "value": "Humphreys says the advanced Drury's Bluff line crossed Proctor's Creek and rested on Wooldridge's Hill, that Beauregard held an unassailable line with open ground in front while Butler's right had no strong ground and was a mile from the river, and that a dense fog on May 16 hid a horseman at fifteen paces. Beauregard calls the enemy's right, in Gregory's woods, its weakest point.",
+      "rationale": "The intrenched lines predate the battle and are tagged inherited; the fog was weather. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "An advanced line of intrenchments, equally strong as the one just described,"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "landing-to-chester-station",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "crossing Proctor’s Creek at the railroad crossing about a mile in front of the interior line and resting its right on Wooldridge’s Hill."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "for his troops occupied an un¬ assailable line, with open ground in front,"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "it had no naturally strong ground to rest on, and was a mile from the river."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.151 (OCR page markers; not checked against print)",
+          "quote": "a dense fog suddenly enveloped both armies so that a horseman could not be seen at the dis¬ tance of fifteen paces."
+        },
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-1864-06-10",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "its right and weakest point was in Ik* edge of William Gregory’s woods,"
+        }
+      ],
+      "phase": "inherited",
+      "status": "supported"
+    },
+    {
+      "id": "river-and-ammunition",
+      "dimension": "logistics",
+      "value": "Humphreys says the armored ships could not pass the Trent's Reach bar, with thirteen feet at high tide, so Butler's request for the monitors could not be met, and that Ransom's ammunition was nearly exhausted by mid-morning on May 16.",
+      "rationale": "Operational statements from an interested history; no transport or ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.146 (OCR page markers; not checked against print)",
+          "quote": "as there was but thirteen feet of water at high tide on the bar of Trent’s"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.153 (OCR page markers; not checked against print)",
+          "quote": "his line confused and requiring readjusting, and his ammunition nearly exhausted."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surprise-and-silence",
+      "dimension": "information",
+      "value": "Humphreys says Ransom completely surprised Heckman's brigade in the fog, that reports from Weitzel's picket that the enemy was forming were not passed to him, and that Whiting's column heard no sound of the battle and received no despatch; Beauregard says Whiting's guns were heard about 8 a.m. and then fell silent.",
+      "rationale": "Attributed knowledge from an interested history and report; the telegram chain is garbled in OCR and not relied on.",
+      "citations": [
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.152 (OCR page markers; not checked against print)",
+          "quote": "and completely surprised Heckman’s brigade ;"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.152 (OCR page markers; not checked against print)",
+          "quote": "but no report of it was made to General Weit- zel,"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.156 (OCR page markers; not checked against print)",
+          "quote": "No sounds of Beauregard’s battle were beard ; no despatch, no information was received."
+        },
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-1864-06-10",
+          "locator": "p.202 (OCR page markers; not checked against print)",
+          "quote": "the silence of Whiting s gups, which had been heard a short time about 8 a m.,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cut-off-and-cover-richmond",
+      "dimension": "objectives",
+      "value": "Humphreys says Butler's advance of May 12 aimed to develop the enemy's full strength and force him into or around his intrenchments; Beauregard says his plan was to cut Butler off from his base and capture or destroy him, or else lock him up at Bermuda Hundred Neck, and that possession of the line of communication southward was the main point.",
+      "rationale": "Stated aims from interested accounts.",
+      "citations": [
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.146 (OCR page markers; not checked against print)",
+          "quote": "is stated to have been to develop the full strength of the enemy in and about Richmond, and force him into his intrenchments or turn them."
+        },
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-1864-06-10",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "In these conditions the possession of our line of communication southward became the main point of contest."
+        },
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-1864-06-10",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "that of capturing or destroying his army in its actual position, after cutting him off from his base of operations ;"
+        },
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-1864-06-10",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "locking lim up in his fortified camp at Bermuda Hundred Neck."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Beauregard organized three divisions and a Petersburg column, withheld Ransom's advance at 10 a.m. when Ransom judged it unsafe, and blamed the incomplete result on the left wing's hesitation and Whiting's premature halt; his June 14 letter explains why he had first commended the left-wing commander. Humphreys says Davis approved the plan except Whiting's part, and that Butler ordered Gillmore to fall back at about 10 a.m. The frozen commanders are Major General Butler and General Beauregard; the live page gives Beauregard as Brigadier General.",
+      "rationale": "Direction and blame attributed as stated; Beauregard's criticism of his subordinates is an interested judgment. The live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-1864-06-10",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "Our army was organized into three divisions (right, left, and re- serve), under Major-Generals Hoke and Ransom and Brigadier-Gen- *ral Colquitt."
+        },
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-1864-06-10",
+          "locator": "p.202 (OCR page markers; not checked against print)",
+          "quote": "Ransom not only reported the enemy in strong force in his front, but expressed the opinion that the safety of his command would be compromised by an advance."
+        },
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-1864-06-10",
+          "locator": "p.204 (OCR page markers; not checked against print)",
+          "quote": "The more glorious results anticipated were lost by the hesitation of the left wing and the premature halt of the Peters burg- column"
+        },
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-1864-06-14",
+          "locator": "p.205 (OCR page markers; not checked against print)",
+          "quote": "relieving the commander of he left wing and commending in high terms"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.151 (OCR page markers; not checked against print)",
+          "quote": "and was approved except that part relating to General Whiting’s operation,"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "he was ordered by General Butler to fall back, press to the right, and get in the rear of Smith’s corps,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA053",
+            "belligerent": "US",
+            "fullname": "Benjamin Butler"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA053",
+            "belligerent": "Confederate",
+            "fullname": "P.G.T. Beauregard"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-va053-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Pierre Beauregard [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory; the frozen description says the battle stopped Butler's offensive. Humphreys says Butler fell back toward the Bermuda Hundred intrenchments toward evening; Beauregard says the enemy retired during the night, leaving some 1,400 prisoners, 5 guns and 5 colors, and that his lines now covered the capital's southern communications.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Humphreys' evening withdrawal and Beauregard's night retreat with prisoners are kept as given.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA053"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va053-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA053"
+          },
+          "column": "description",
+          "quote": "This battle stopped Butler's offensive against Richmond."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.156 (OCR page markers; not checked against print)",
+          "quote": "Toward evening General Butler fell back toward his Ber¬ muda Hundred intrenchments, which he occupied that night."
+        },
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-1864-06-10",
+          "locator": "p.204 (OCR page markers; not checked against print)",
+          "quote": "During the night the enemy retired to the fortified line ot Ins present camp,"
+        },
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-1864-06-10",
+          "locator": "p.204 (OCR page markers; not checked against print)",
+          "quote": "now completely cover the southern communi- cations of the capital,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 6,660 total; the live field reads 4,004 (US 3,004; CS 1,000). Humphreys gives Beauregard's report of 354 killed, 1,610 wounded and 220 missing (2,184) on May 16, and Badeau's Union figure for May 16 of 390 killed, 1,721 wounded and 1,390 missing (3,500), excluding earlier days, noting that Smith's and Gillmore's statements are incomplete. Beauregard claims 1,400 prisoners; his headquarters' casualty list is incomplete and garbled in OCR, and the prisoner list, also incomplete, appears to end with 43, 1,345 and 1,388 (column assignment not established in OCR).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Several figures cover May 16 only; the prisoner count and the Union missing overlap and are not reconciled.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA053"
+          },
+          "column": "casualties_text",
+          "quote": "6,660 total"
+        },
+        {
+          "source_id": "nps-va053-v1",
+          "locator": "Estimated Casualties",
+          "quote": "4004 total (US 3004; CS 1000;)"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "General Beauregard reported his casualties on the 16th as 354 officers and enlisted men killed, 1,610 wounded, and 220 missing — a total of 2,184."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "ler’s loss on the 16th was 390 officers and enlisted men killed, 1,721 wounded, and 1,390 missing — total, 3,500."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "drurys-bluff",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "The statements of losses in the reports and accompanying papers of Generals Smith and Gillmore are incomplete,"
+        },
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-1864-06-10",
+          "locator": "p.204 (OCR page markers; not checked against print)",
+          "quote": "leaving in our hands some 1,400 prisoners, 5 pieces of artillery, and 5 stand of colors."
+        },
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-addenda",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "This list is necessarily incomplete,"
+        },
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-addenda",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "Petersburg 43 1,345 1,388"
+        },
+        {
+          "source_id": "or36-2-beauregard-drewrys-bluff-selections-v1",
+          "section": "beauregard-addenda",
+          "locator": "p.206 (OCR page markers; not checked against print)",
+          "quote": "The above list is incomi)lete,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Butler's May 12-18 telegrams (selected and read; not used here under the three-family ceiling), his May 5-31 casualty return (garbled), Smith's, Gillmore's, Weitzel's, Heckman's and Terry's reports, Ransom's, Hoke's, Whiting's and D. H. Hill's reports (Nos. 89-93, 102), Beauregard's May 16-17 telegrams (garbled) and the Richmond defences returns remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan; for this campaign it summarizes Smith's, Gillmore's and Weitzel's reports and quotes Beauregard's reports and telegrams, so it is not independent of the Beauregard family. Butler's telegrams and Hagood's, Barton's and Beauregard's reports, printed in Official Records Series I, Volume XXXVI, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

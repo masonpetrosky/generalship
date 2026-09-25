@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "battle_id": "VA054",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Ware Bottom Church record (May 20, 1864) in the Bermuda Hundred Campaign [May 1864]. The Proctor's Creek record (VA053) ends on May 16. The frozen description's reinforcement of Lee's army from Beauregard's force is campaign contribution, not this record's result. Army-wide returns, the campaign-wide casualty return and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Divisions (10,000 total)' and the frozen and live descriptions say about 10,000 troops were involved; the live force field reads zero. Humphreys says that after the detachments Butler retained about 10,000 enlisted infantry, Kautz's 2,600 cavalry and about 2,000 colored cavalry, that Smith took very nearly 16,000 infantry, and that Beauregard kept about 9,000 infantry.",
+      "rationale": "The 10,000 is an undivided summary figure; Humphreys' figures describe the forces after the detachments to the Army of the Potomac of late May, not May 20. None is adopted as a matched opening strength; live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA054"
+          },
+          "column": "forces_text",
+          "quote": "Divisions (10,000 total)"
+        },
+        {
+          "source_id": "nps-va054-v1",
+          "locator": "Description",
+          "quote": "About 10,000 troops were involved in this action."
+        },
+        {
+          "source_id": "nps-va054-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "ware-bottom-and-detachments",
+          "locator": "p.159 (OCR page markers; not checked against print)",
+          "quote": "General Butler retained about 10,000 enlisted men of in¬ fantry ;"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "ware-bottom-and-detachments",
+          "locator": "p.159 (OCR page markers; not checked against print)",
+          "quote": "of very nearly 16,000 infantry (enlisted men), sixteen guns, and a squadron (100) of cavalry."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "ware-bottom-and-detachments",
+          "locator": "p.159 (OCR page markers; not checked against print)",
+          "quote": "making a force of about 9,000 infantry."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "rifle-pits-and-howlett-line",
+      "dimension": "terrain",
+      "value": "Humphreys says the fight of May 20 was over the advanced rifle-pits on Butler's right; NPS says the Confederates then constructed the Howlett Line, bottling up the Federals at Bermuda Hundred.",
+      "rationale": "The rifle-pits and the Howlett Line were built during the campaign; not tagged as inherited. No map verification.",
+      "citations": [
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "ware-bottom-and-detachments",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "the advanced rifle-pits on Butler’s right, General Ames’s front, and a part of General Terry’s were captured,"
+        },
+        {
+          "source_id": "nps-va054-v1",
+          "locator": "Description",
+          "quote": "the Confederates constructed the Howlett Line, effectively bottling up the Federals at Bermuda Hundred."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "rationale": "No original reconnaissance, order or message chain was inspected to establish contemporary knowledge. Surprise in a summary does not independently establish what each commander knew.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "close-in-on-lines",
+      "dimension": "objectives",
+      "value": "Butler reported on May 20 that the enemy was endeavoring to close in on his lines and that he would hold on; NPS says Beauregard's forces attacked the Bermuda Hundred line.",
+      "rationale": "Butler's reading of the enemy's aim and a summary; no Confederate order for May 20 inspected.",
+      "citations": [
+        {
+          "source_id": "or36-2-butler-bermuda-hundred-selections-v1",
+          "section": "butler-1864-05-20",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "Enemy are endeavoring to close in on our lines. We shall hold on."
+        },
+        {
+          "source_id": "nps-va054-v1",
+          "locator": "Description",
+          "quote": "Confederate forces under Gen. P.G.T. Beauregard attacked Butler's Bermuda Hundred line near Ware Bottom Church."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Humphreys credits Colonel Howell's brigade with retaking the pits on Terry's front after a severe contest conducted with skill; NPS attributes the attack to Beauregard's forces. The frozen commanders are Major General Butler (US) and General Beauregard (CS); the live page gives Beauregard as Brigadier General.",
+      "rationale": "Direction attributed as stated; neither listed commander is shown directing the fight in the inspected passages. The live rank is not adopted. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "ware-bottom-and-detachments",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "Colonel Howell’s brigade, after a severe contest, conducted with skill and gallantly, retook the pits."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA054",
+            "belligerent": "US",
+            "fullname": "Benjamin Butler"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "VA054",
+            "belligerent": "Confederate",
+            "fullname": "P.G.T. Beauregard"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "nps-va054-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Pierre Beauregard [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Humphreys says the pits on Ames's front were not regained but those on Terry's front were; Butler reported fighting all day, that he would hold on, and the capture of General Walker.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The later detachments to Lee are campaign contribution, not this record's result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA054"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-va054-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "ware-bottom-and-detachments",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "unsuc¬ cessfully on Ames’s front;"
+        },
+        {
+          "source_id": "or36-2-butler-bermuda-hundred-selections-v1",
+          "section": "butler-1864-05-20",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "Have been fighting all day."
+        },
+        {
+          "source_id": "or36-2-butler-bermuda-hundred-selections-v1",
+          "section": "butler-1864-05-20",
+          "locator": "p.13 (OCR page markers; not checked against print)",
+          "quote": "Have captured rebel General Walker of Texas troops."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,500 total; the live field reads zero. Humphreys gives a severe Union loss of 702 killed and wounded and says the enemy's loss was equally great, among them Brigadier General W. S. Walker, wounded and captured.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Humphreys' enemy estimate is his judgment.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "VA054"
+          },
+          "column": "casualties_text",
+          "quote": "1,500 total"
+        },
+        {
+          "source_id": "nps-va054-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "ware-bottom-and-detachments",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "The loss was severe, 702 killed and wounded."
+        },
+        {
+          "source_id": "humphreys-bermuda-selections-v1",
+          "section": "ware-bottom-and-detachments",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "The loss of the enemy was equally great,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Ames's, Terry's, Howell's and the regimental reports of May 20, Walker's, Wise's and Martin's casualty reports (Nos. 103, 106), Beauregard's June 2 telegram and the May 5-31 Union casualty return (garbled) remain deferred.",
+    "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the Army of the Potomac's chief of staff, in the same author family as the registered From Gettysburg to the Rapidan; for this campaign it summarizes Smith's, Gillmore's and Weitzel's reports and quotes Beauregard's reports and telegrams, so it is not independent of the Beauregard family. Butler's telegrams and Hagood's, Barton's and Beauregard's reports, printed in Official Records Series I, Volume XXXVI, Part 2, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

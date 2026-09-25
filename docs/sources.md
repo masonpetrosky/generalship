@@ -74,6 +74,20 @@ from different campaigns under separate independence groups (for example
 witness family: they never count as independent corroboration of each other, whatever their group
 names.
 
+### Bermuda Hundred and Richmond-Petersburg first passes (cohort v2), 2026-09-25
+
+The first passes for [Bermuda Hundred](research/bermuda-hundred-first-pass-v1.md) and
+[Richmond-Petersburg](research/petersburg-first-pass-v1.md) add **70 records**:
+
+- twenty-four NPS HTML/text pairs;
+- two Humphreys selections, reusing the registered *Virginia Campaign* OCR;
+- Official Records Series I, Volumes XL, XLII and XLVI, Part 1 of each: catalog metadata and full
+  OCR;
+- fourteen report selections from Volumes XXXVI (Part 2), XL, XLII and XLVI.
+
+Meade's November 1, 1864 report stays in its Overland group. Lee's dispatches across three
+volumes share one group. No model inputs are changed.
+
 ### Red River and Camden first passes (cohort v2), 2026-09-25
 
 The first passes for the [Red River Campaign](research/red-river-first-pass-v1.md) and the
