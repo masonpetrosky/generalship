@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA010",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen New Hope Church record (May 25-26, 1864) in Atlanta Campaign [May-September 1864]. The Etowah crossing (May 23) and Wheeler's raid on Cassville (May 24) are context before the frozen dates; Pickett's Mill (GA012, May 27) and Dallas (GA011, May 26-June 1) are separate records that overlap the same lines. The live NPS page labels the campaign \"Morgan's Raid Into Kentucky\" and dates it May-September 1864; neither field replaces the frozen campaign or battle interval. Campaign-wide totals are context and are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force fields name the two armies without counts; the live field reads zero. Cox says Hooker's three divisions assaulted in columns of brigades, first against a Confederate advance guard of two Alabama regiments and Austin's Sharpshooters that made Geary think he faced a larger force. Johnston says Stewart's division was attacked by Hooker's corps and that more Confederate infantry and artillery were engaged on the 25th than on the 27th. Cox's Appendix A says Quarles's brigade joined near New Hope Church with 2,200 effectives.",
+      "rationale": "Formations and one brigade figure; no matched count of troops engaged is inspected and none is adopted. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA010"
+          },
+          "column": "forces_text",
+          "quote": "Military Division of the Mississippi [US]; Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-ga010-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "the three divisions were formed in columns of brigades and moved forward to the attack."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.72 (OCR page markers; not checked against print)",
+          "quote": "It consisted of the Thirty-second and Fifty-eighth Alabama regiments and Austin's Sharpshooters, under command of Colonel Bush Jones."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.72 (OCR page markers; not checked against print)",
+          "quote": "produced the belief that he was dealing with a larger force."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "Stewart’s division, at New Hope Church, was fiercely at¬ tacked by Hooker’s corps,"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "It was probably greater on the 25th, as we had a larger force engaged then, both of infantry and artillery."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "appendix-a",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "Quarles's brigade, as Johnston himself tells us, joined him near New Hope Church, with 2,200"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "wooded-ridges-and-works",
+      "dimension": "terrain",
+      "value": "Cox describes a wooded valley in front of New Hope Church with open fields to the north, a Confederate line on wooded ridges with open valleys before it, an assault through dense wood, and a thunderstorm during the fight. Johnston says his troops were not entrenched in either the New Hope Church or the May 27 action. Cox disputes this, saying Johnston's statement rests on his subordinates' reports and that Hooker's division commanders drove the Confederate advance within entrenched lines.",
+      "rationale": "Ground from an interested history and report, with a direct dispute over entrenchment; no map verification. The Confederate position was taken on the 25th and is not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "march-on-dallas",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "In front of New Hope Church was a valley wooded along the road, but with open fields a little further to the north,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "march-on-dallas",
+          "locator": "p.69 (inferred page: the p.69 running head reads \"G9\" in OCR; not checked against print)",
+          "quote": "occupying as it did a series of ridges covered with wood on their summits, but having open val leys in front, over which attacking forces must advance without shelter."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "They bravely assaulted the ridge, moving through a dense wood which covered both slopes of the intervening valley."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "In the midst of their fight a thunder-storm came up, followed by a pouring rain, which lasted through the night."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "In these two actions our troops were not intrenched."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "march-on-dallas",
+          "locator": "p.69 (inferred page: the p.69 running head reads \"G9\" in OCR; not checked against print)",
+          "quote": "He says that only a part of Hood's front was protected by breastworks, and these only of logs thrown hastily to gether; but the reports of his subordinates, on which his statement is based, may properly be taken with many grains of allowance."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "march-on-dallas",
+          "locator": "p.69 (inferred page: the p.69 running head reads \"G9\" in OCR; not checked against print)",
+          "quote": "The circum stances, therefore, all sustain the reports of Hooker's divi sion commanders that they drove the Confederate advance guard and skirmishers within intrenched lines."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "rations-trains-and-wagons",
+      "dimension": "logistics",
+      "value": "Cox says twenty days' rations were issued on May 22, and that Hooker's trains blocked the road behind him on the 25th. On Wheeler's May 24 raid at Cassville (context), Cox says Wheeler claimed seventy wagons and 182 prisoners, while Johnston says Wheeler took or burned 250 loaded wagons.",
+      "rationale": "Issue and movement statements from interested accounts; the wagon figures for the raid conflict and are context outside the frozen dates. No supply return inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "march-on-dallas",
+          "locator": "p.63 (OCR page markers; not checked against print)",
+          "quote": "rations for twenty days had been issued to the divisions."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "the rest of the corps following as fast as Hooker's trains, which filled and blocked the road, would let them."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "march-on-dallas",
+          "locator": "p.68 (OCR page markers; not checked against print)",
+          "quote": "He claimed to have captured seventy wagons with their teams, and a hundred and eighty-two prisoners,"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "on the 24th, beat a brigade at Cassville and took or burned 250 loaded wagons."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "captured-despatch-and-appearances",
+      "dimension": "information",
+      "value": "Cox says McCook's cavalry captured a despatch from Johnston to Jackson saying the Confederate army was moving toward Dallas, that appearances convinced Hooker the stronger enemy force lay toward New Hope Church, and that Johnston was still uncertain on the 23rd whether Sherman had crossed the Etowah in full. Johnston says Jackson reported the enemy moving down the Etowah as if to cross near Stilesborough. NPS says Sherman mistakenly surmised a token force.",
+      "rationale": "Attributed knowledge from interested accounts and a summary; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.71 (OCR page markers; not checked against print)",
+          "quote": "McCook's cavalry, in front of Hooker's column, had captured an orderly with a despatch from Johnston to General Jackson,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.72 (OCR page markers; not checked against print)",
+          "quote": "The appearances convinced Hooker that the stronger force of the enemy lay in the direction of New Hope Church,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "march-on-dallas",
+          "locator": "p.67 (OCR page markers; not checked against print)",
+          "quote": "Johnston was still, on the evening of the 23d, a little un certain whether Sherman had crossed the Etowah with his whole force,"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "In the mean time the enemy was reported by Jackson’s troops mov¬ ing down the Etowah, as if to cross it near Stilesborough,"
+        },
+        {
+          "source_id": "nps-ga010-v1",
+          "locator": "Description",
+          "quote": "Sherman mistakenly surmised that Johnston had a token force and ordered Maj. Gen. Joseph Hooker's corps to attack."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cover-and-develop",
+      "dimension": "objectives",
+      "value": "Cox says Johnston meant to use Pumpkin Vine and Alatoona Creeks as the cover for his front, and that Sherman directed Hooker to call in his divisions and attack to develop the force before him. Johnston says Hood's corps was placed with its centre at New Hope Church and the other corps between it and the Atlanta road. NPS says Sherman moved around Johnston's left toward Dallas.",
+      "rationale": "Stated plans from interested accounts and a summary; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "march-on-dallas",
+          "locator": "p.65 (OCR page markers; not checked against print)",
+          "quote": "Johnston wisely determined to make the Pumpkin Vine and Alatoona Creeks the cover for his front,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.72 (OCR page markers; not checked against print)",
+          "quote": "directed Hooker to call in his divisions from right and left, and to attack and develop the force before him."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "Hood’s corps was placed with its center at New Hope Church, and Polk’s and Hardee’s ordered between it and the Atlanta road,"
+        },
+        {
+          "source_id": "nps-ga010-v1",
+          "locator": "Description",
+          "quote": "so he determined to move around Johnston's left flank and steal a march toward Dallas."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Cox says Hooker's columns assaulted Hood's position again and again, and that at the Etowah crossing on the 23rd Hooker took Schofield's pontoons and Schofield lost the afternoon waiting, which Cox calls characteristic of Hooker. Johnston says Stewart's division repulsed Hooker's corps after two hours. The frozen commanders are General Joseph E. Johnston, Major General William T. Sherman and Major General Joseph Hooker; the live page gives General William Sherman and Lieutenant Colonel Joseph Johnston.",
+      "rationale": "Attributed judgments from an interested history (Cox's own corps was delayed by Hooker) and report; the frozen commanders do not receive automatic sole credit, and the live ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "Hooker's columns as saulted Hood's position again and again,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "march-on-dallas",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "the whole afternoon was lost waiting for Hooker to cross and get out of the way."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "march-on-dallas",
+          "locator": "p.66 (OCR page markers; not checked against print)",
+          "quote": "This was a repetition of what had oc curred at the Oostanaula, and was characteristic of Hooker,"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "which it repulsed after a hot engagement of two hours."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA010",
+            "belligerent": "Confederate",
+            "fullname": "Joseph E. Johnston"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA010",
+            "belligerent": "US",
+            "fullname": "William T. Sherman"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA010",
+            "belligerent": "US",
+            "fullname": "Joseph Hooker"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga010-v1",
+          "locator": "Principal Commanders",
+          "quote": "General William Sherman [US]"
+        },
+        {
+          "source_id": "nps-ga010-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant Colonel Joseph Johnston [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Cox says the position was too strong to be carried and Hooker's divisions withdrew to the ridge behind them at dark. NPS says Hooker's corps was severely mauled and both sides entrenched on the 26th.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA010"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ga010-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "but the position was too strong to be car ried by assault, and was hourly becoming stronger."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.73 (OCR page markers; not checked against print)",
+          "quote": "gathering up their dead and wounded, they retired to the ridge behind them."
+        },
+        {
+          "source_id": "nps-ga010-v1",
+          "locator": "Description",
+          "quote": "This corps was severely mauled."
+        },
+        {
+          "source_id": "nps-ga010-v1",
+          "locator": "Description",
+          "quote": "On the 26th, both sides en-trenched, and skirmishing continued throughout the day."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Total unknown (US 1,600; CS unknown); the live field reads 1015 (US 665; CS 350). Johnston puts his own loss in each of the May 25 and 27 actions at about 450 killed and wounded, estimates the Union loss on the 27th at 3,000 at least, and says it was probably greater on the 25th. Cox gives only a May total for the whole army (context).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Johnston's 3,000 is an estimate derived from a count of dead on the 27th; it is not a New Hope Church return. Cox's monthly total is not assigned here.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA010"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US 1,600; CS unknown)"
+        },
+        {
+          "source_id": "nps-ga010-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1015 total (US 665; CS 350;)"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "Our loss in each was about 450 killed and wounded."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.616 (OCR page markers; not checked against print)",
+          "quote": "We, therefore, estimated their whole loss at 3,000 at least."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.88 (OCR page markers; not checked against print)",
+          "quote": "The losses had been 9,000 in all forms, of which less than two thousand were killed,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Hooker's, Geary's, Williams's and Butterfield's reports, Hood's and Stewart's reports on May 25, the compiled returns and Wheeler's Cassville report remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cox's Atlanta (Scribner, 1882) is a second: a retrospective Union history by the Twenty-third Corps division commander, drawing on official reports and memoirs, so it is not independent of them. Johnston's October 20, 1864 report, printed in Volume XXXVIII Part 3, is a third family (interested Confederate account). Official Records Series I Volume XXXVIII is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Campaign-wide strength and loss totals are context, not assigned to one record."
+  ]
+}

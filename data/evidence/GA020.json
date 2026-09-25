@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA020",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Dalton II record (August 14-15, 1864) in Atlanta Campaign [May-September 1864]. Wheeler's wider raid, the block-house surrender between Dalton and Tilton, Graysville and the pursuit into East Tennessee are context. The live NPS page labels the campaign \"Morgan's Raid Into Kentucky\" and dates it May-September 1864; neither field replaces the frozen campaign or battle interval. Campaign-wide totals are context and are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force fields name the District of Etowah and Wheeler's cavalry without counts; the live field reads zero. Steedman says his relief force was 1,800 effective, that he readied rail transport for 2,000 men, that Wheeler's command was not less than 6,000 in detachments of 1,000 to 3,000, and that the force attacking Dalton numbered about 3,000. NPS says the garrison was greatly outnumbered. The garrison's own strength is not given in the selected passage.",
+      "rationale": "Steedman's relief-force figure and his opinions of the enemy's size; none is a matched count and none is adopted. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA020"
+          },
+          "column": "forces_text",
+          "quote": "District of Etowah [US]; Wheeler's cavalry force [CS]"
+        },
+        {
+          "source_id": "nps-ga020-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.496 (OCR page markers; not checked against print)",
+          "quote": "in all, 1,800 effective."
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.495 (OCR page markers; not checked against print)",
+          "quote": "accommodate 2,000 men."
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.496 (OCR page markers; not checked against print)",
+          "quote": "I am clearly of the opinion that Wheeler’s command was not less than 6,000 strong,"
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.496 (OCR page markers; not checked against print)",
+          "quote": "The force that attacked Dalton, I think numbered 3,000."
+        },
+        {
+          "source_id": "nps-ga020-v1",
+          "locator": "Description",
+          "quote": "Greatly outnumbered, the Union garrison retired to fortifications on a hill outside the town"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "hill-fort-and-rail-approach",
+      "dimension": "terrain",
+      "value": "NPS says the garrison withdrew to fortifications on a hill outside the town. Steedman says his relief came by rail to the bridge north of Dalton.",
+      "rationale": "Ground from a summary and an interested report; no map verification. The fortifications' construction date is not established.",
+      "citations": [
+        {
+          "source_id": "nps-ga020-v1",
+          "locator": "Description",
+          "quote": "the Union garrison retired to fortifications on a hill outside the town"
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.495 (OCR page markers; not checked against print)",
+          "quote": "I did not reach the bridge north of that place until after midnight,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rail-damage-and-repair",
+      "dimension": "logistics",
+      "value": "Steedman says trains running in from Dalton delayed his relief, that the track cut on the 14th was repaired by the 18th, and that the raiders had not captured an engine or car; he could not pursue for want of cavalry. Cox calls the damage trifling. NPS says the reports differ greatly on track and supplies destroyed.",
+      "rationale": "Damage and repair statements from interested accounts and a summary; no quartermaster or railroad return inspected.",
+      "citations": [
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.495 (OCR page markers; not checked against print)",
+          "quote": "owing to several trains running in wild from Dalton,"
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.496 (OCR page markers; not checked against print)",
+          "quote": "The entire damage to the road cut the evening of the 14th was repaired on Thursday, the 8th [18th],"
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.496 (OCR page markers; not checked against print)",
+          "quote": "They had not captured an engine or car."
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.495 (OCR page markers; not checked against print)",
+          "quote": "but being without cavalry I could not pursue."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "The railroad and telegraph were cut in several places, but the damage was trifling,"
+        },
+        {
+          "source_id": "nps-ga020-v1",
+          "locator": "Description",
+          "quote": "The contending forces' reports vary greatly in describing the fighting, the casualties, and the amount of track and supplies captured and destroyed."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "warnings-and-false-report",
+      "dimension": "information",
+      "value": "Steedman says he learned at 3 p.m. that Wheeler was moving on Dalton, then of the surrender demand, and was told after midnight by a cavalry officer that the garrison had been captured, so he waited for daylight until firing showed the garrison still held.",
+      "rationale": "Attributed knowledge from an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.495 (OCR page markers; not checked against print)",
+          "quote": "At 3 p. m. that day I received information that rebel General Wheeler, with a strong force, was moving toward Dalton."
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.495 (OCR page markers; not checked against print)",
+          "quote": "a demand had been made by Wheeler for the surrender x>f Dalton, which had been refused."
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.495 (OCR page markers; not checked against print)",
+          "quote": "being told by a cavalry officer di¬ rect from near Dalton that our forces had been overpowered and captured, I awaited daylight before proceeding farther."
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.495 (OCR page markers; not checked against print)",
+          "quote": "learning that the garrison was still holding out,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "raid-and-rail-defence",
+      "dimension": "objectives",
+      "value": "NPS says Wheeler raided to destroy track and supplies. Steedman says his command's main duty was to keep the railroad open to the army. Cox says Wheeler went on into East Tennessee where he could not affect the campaign.",
+      "rationale": "Stated aims and a later judgment; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "nps-ga020-v1",
+          "locator": "Description",
+          "quote": "Maj. Gen. Joseph Wheeler and his cavalry raided into North Georgia to destroy railroad tracks and supplies."
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.494 (OCR page markers; not checked against print)",
+          "quote": "The main duty of my command was to keep open railroad communication with the army in the front."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "where he could by no possibility do anything to affect the campaign."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Steedman and Cox credit Colonel Laiboldt, commanding at Dalton, with holding out until Steedman's relief arrived; NPS says Laiboldt refused to surrender. The frozen commanders are Major General Joseph Wheeler and Major General James B. Steedman; the live page gives the same ranks.",
+      "rationale": "Attributed judgments from interested accounts and a summary; Laiboldt is not a listed commander; the frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.496 (OCR page markers; not checked against print)",
+          "quote": "Colonel Laiboldt, Second Missouri Volunteers, commanding Dalton, is enti¬ tled to especial credit for his stubborn and spirited defense of the place previous to being re-enforced."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "where the garrison under Colonel Laiboldt was able to hold him in check, till General Steedman from Chattanooga could come to its assistance,"
+        },
+        {
+          "source_id": "nps-ga020-v1",
+          "locator": "Description",
+          "quote": "The Union commander, Col. Bernard Laibolt, refused to surrender and fighting ensued."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA020",
+            "belligerent": "Confederate",
+            "fullname": "Joseph Wheeler"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA020",
+            "belligerent": "US",
+            "fullname": "James B. Steedman"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga020-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General James Steedman [US]"
+        },
+        {
+          "source_id": "nps-ga020-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Joseph Wheeler [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result is a Union victory (the Confederates withdrew); the live page reads Union Victory. Steedman says he cleared the town at daylight; Cox says Wheeler was repulsed. NPS calls the engagement inconclusive but a Union victory because the Confederates withdrew.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA020"
+          },
+          "column": "results_text",
+          "quote": "Union victory (The Confederates withdrew.)"
+        },
+        {
+          "source_id": "nps-ga020-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.495 (OCR page markers; not checked against print)",
+          "quote": "I moved forward rapidly and soon cleared the town of the enemy,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "when Wheeler was repulsed."
+        },
+        {
+          "source_id": "nps-ga020-v1",
+          "locator": "Description",
+          "quote": "This engagement was inconclusive, but since the Confederates withdrew, it may be termed a Union victory."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads 0 (US 0; CS 0). Steedman gives his loss as 1 officer and 8 men killed, 1 officer and 29 men wounded and 1 officer and 23 men missing, total 63; says the enemy left 33 dead and 57 badly wounded and lost not less than 200; and records the surrender of a block-house detachment of the Seventeenth Iowa between Dalton and Tilton.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The block-house surrender is a separate loss and is not added. The live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA020"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-ga020-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.495 (OCR page markers; not checked against print)",
+          "quote": "My loss was 1 officer and 8 men killed, 1 officer and 29 men wounded, 1 officer and 23 men missing ; total, 63."
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.495 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s loss at Dalton could not have been less than 200. He left 33 dead and 57 badly wounded on the field."
+        },
+        {
+          "source_id": "or38-2-steedman-dalton-selections-v1",
+          "section": "steedman-1864-09-11",
+          "locator": "p.496 (OCR page markers; not checked against print)",
+          "quote": "the enemy caused the surrender of a small garrison (detach¬ ment Seventeenth Iowa) at a block-house between Dalton and Tilton,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Laiboldt's report, the Fourteenth U.S. Colored Infantry and other subordinate reports (Scearce's closing lines were read), Wheeler's raid report and Hood's report (families for other records) remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cox's Atlanta (Scribner, 1882) is a second: a retrospective Union history by the Twenty-third Corps division commander, drawing on official reports and memoirs, so it is not independent of them. Steedman's September 11, 1864 report, printed in Volume XXXVIII Part 2, is a third family (interested Union account). Official Records Series I Volume XXXVIII is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Campaign-wide strength and loss totals are context, not assigned to one record."
+  ]
+}

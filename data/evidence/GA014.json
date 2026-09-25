@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA014",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Kolb's Farm record (June 22, 1864) in Atlanta Campaign [May-September 1864]. Cox calls the action the affair at Culp's farm. It falls inside the Marietta aggregate (GA013), which does not repeat its figures. The live NPS page labels the campaign \"Morgan's Raid Into Kentucky\" and dates it May-September 1864; neither field replaces the frozen campaign or battle interval. Campaign-wide totals are context and are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force fields read Two corps [US] and Hood s Corps [CS] without counts; the live field reads zero. Cox says Hood attacked with his whole corps, Hindman's and Stevenson's divisions in front and Stewart in support, and that Hooker reported, from prisoners' second-hand information, being attacked by three corps. Hood's report of that night says Stevenson's division was mainly engaged and Hindman's slightly. Cox writes that, in the style of Confederate reports, one could say Hood's corps attacked two brigades and was defeated, but argues that the whole force within supporting distance on each side should be counted.",
+      "rationale": "Formation statements that conflict in scope; no count is inspected and none is adopted. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA014"
+          },
+          "column": "forces_text",
+          "quote": "Two corps [US]; Hood s Corps [CS]"
+        },
+        {
+          "source_id": "nps-ga014-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.108 (OCR page markers; not checked against print)",
+          "quote": "which was made with his whole corps, Hindman's and Stevenson's divisions in front, supported by Stewart."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.114 (OCR page markers; not checked against print)",
+          "quote": "Hooker reported to General Sherman that he had been attacked by three corps,"
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-corps-1864-06-22",
+          "locator": "p.760 (OCR page markers; not checked against print)",
+          "quote": "General Stevenson’s division was mainly engaged ; Hind¬ man’s slightly."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.113 (inferred page: the p.113 running head reads \"H3\" in OCR; not checked against print)",
+          "quote": "Hood's corps attacked two brigades and were defeated."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.114 (OCR page markers; not checked against print)",
+          "quote": "it is every way fairer, in such cases, to consider the forces of both attack and defence with reference to the whole numbers within supporting distance on both sides."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "marshy-ravines-and-artillery",
+      "dimension": "terrain",
+      "value": "Cox describes ravines with small marshy brooks between Geary's and Williams's divisions, a convex front for Williams, thick woods along the Marietta road, and an attack that gained ground only to come into open ground under Union guns. Hood says his pursuit was stopped by enfilading fire of sixteen guns from a bald hill. NPS credits Union artillery and swampy terrain.",
+      "rationale": "Ground described by interested accounts and a summary; no map verification. Union positions were taken that day and are not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "Eavines with small marshy brooks ran down between Geary and Williams into Noses Creek behind them,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "The conformation of the ground gave Williams a convex front,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.111 (inferred page: the p.111 running head reads \"HI\" in OCR; not checked against print)",
+          "quote": "The ground along the Marietta road was thickly wooded,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "this only brought him into open ground."
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-corps-1864-06-22",
+          "locator": "p.760 (OCR page markers; not checked against print)",
+          "quote": "The pursuit was stopped because of encountering an enfilading fire from a bald hill in front of Hardee of sixteen pieces."
+        },
+        {
+          "source_id": "nps-ga014-v1",
+          "locator": "Description",
+          "quote": "Union artillery and swampy terrain thwarted Hood's attack"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supply-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures. The inspected passages describe June supply and mud generally, not this action.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "prisoners-warning",
+      "dimension": "information",
+      "value": "Cox says prisoners taken in the skirmishing belonged to Hood's corps and reported Hood and Hardee ready to attack, so Hooker and Schofield ordered breastworks, and that Gallup's advanced regiment learned from prisoners that Hood's corps had just arrived. Hood says he was attacked while establishing his line after Ferguson's cavalry was driven back. NPS says Schofield and Hooker were warned and entrenched.",
+      "rationale": "Attributed knowledge from interested accounts and a summary; Hood's framing of who attacked conflicts with Cox and NPS. No message log inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "these were found to belong to Hood's corps, and reported both Hood and Hardee prepared to attack."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.111 (inferred page: the p.111 running head reads \"HI\" in OCR; not checked against print)",
+          "quote": "learned from them that Hood's corps had just come from the enemy's ex treme right and was preparing to assault."
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-corps-1864-06-22",
+          "locator": "p.760 (OCR page markers; not checked against print)",
+          "quote": "General Ferguson’s cavalry being driven back to-day while estab¬ lishing my line, I was attacked."
+        },
+        {
+          "source_id": "nps-ga014-v1",
+          "locator": "Description",
+          "quote": "Warned of Hood's intentions, Union generals John Schofield and Joseph Hooker entrenched."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "outflank-attempt",
+      "dimension": "objectives",
+      "value": "Cox says Johnston moved Hood's corps from right to left because of concern for the Marietta and Powder Springs road, and that Hood, apparently on his own responsibility, hoped to outflank the Union army and catch it in motion. NPS says Hood decided on his own to attack. Hood's report says he was attacked and moved forward.",
+      "rationale": "Stated or attributed aims; Hood's own account does not claim an intended attack. Not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.108 (OCR page markers; not checked against print)",
+          "quote": "Johnston had begun to be concerned for the Marietta and Powder Springs road,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "which seems to have been made by Hood upon his own responsibility."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "He evidently hoped that he could out flank the National army on that side, and by catching them in motion by columns, could gain some decided advantage."
+        },
+        {
+          "source_id": "nps-ga014-v1",
+          "locator": "Description",
+          "quote": "Hood decided, on his own, to attack."
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-corps-1864-06-22",
+          "locator": "p.760 (OCR page markers; not checked against print)",
+          "quote": "I moved forward and drove the enemy back,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Cox says Hooker had Williams deploy and entrench and Schofield gave the same order to Hascall; that Hooker's despatch about three corps drew Schofield's protest and Sherman's rebuke. Hood reports Colonel Walker killed and Colonel Cook wounded. The frozen commanders are Lieutenant General John Bell Hood, Major General John M. Schofield and Major General Joseph Hooker; the live page gives General John Hood and Major General John Schofield.",
+      "rationale": "Attributed judgments from an interested history (Cox served under Schofield) and report; the frozen commanders do not receive automatic sole credit, and the live ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "Hooker immediately or dered Williams to deploy the whole division and throw up breastworks at once. Schofield gave the same orders to Hascall."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.114 (OCR page markers; not checked against print)",
+          "quote": "Schofield, on being informed of the despatch sent by Hooker, indignantly declared it in excusably wrong,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.114 (OCR page markers; not checked against print)",
+          "quote": "indicated his dislike of such sensational reports,"
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-corps-1864-06-22",
+          "locator": "p.760 (OCR page markers; not checked against print)",
+          "quote": "Colonel Walker, of Third Tennessee, was killed, and Colonel Cook, commanding Brown’s brigade, severely wounded."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA014",
+            "belligerent": "Confederate",
+            "fullname": "John Bell Hood"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA014",
+            "belligerent": "US",
+            "fullname": "John M. Schofield"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA014",
+            "belligerent": "US",
+            "fullname": "Joseph Hooker"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga014-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General John Schofield [US]"
+        },
+        {
+          "source_id": "nps-ga014-v1",
+          "locator": "Principal Commanders",
+          "quote": "General John Hood [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Cox says the repulse was complete and the Confederates retreated to their entrenchments. Hood's report that night says he drove the enemy back, taking one line of breastworks and part of a second, and his corps report says the divisions drove the enemy from two lines of works. NPS says Sherman's envelopment had momentarily failed.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Hood's account of taking works conflicts with Cox and the frozen result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA014"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ga014-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.111 (inferred page: the p.111 running head reads \"HI\" in OCR; not checked against print)",
+          "quote": "ketry, the repulse of the Confederates was complete and they retreated to their intrenchments."
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-corps-1864-06-22",
+          "locator": "p.760 (OCR page markers; not checked against print)",
+          "quote": "taking one entire line of his breast-works and a portion of his second on the right."
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-corps-report",
+          "locator": "p.762 (OCR page markers; not checked against print)",
+          "quote": "driving him from two lines of works and capturing some prisoners belonging to Schofield and Hooker."
+        },
+        {
+          "source_id": "nps-ga014-v1",
+          "locator": "Description",
+          "quote": "Sherman's attempts at envelopment had momentarily failed."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty texts read 1,350 (US 350; CS 1,000). Cox says Johnston admitted a loss of about a thousand, that Williams reported 130, Geary's loss was trifling and Hascall's about the same as Williams's, and that nearly sixty Confederate dead lay before Gallup's regiment. Hood's note gives no totals.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Cox's Union components are partial; the frozen Union 350 has no inspected basis.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA014"
+          },
+          "column": "casualties_text",
+          "quote": "1,350 total (US 350; CS 1,000)"
+        },
+        {
+          "source_id": "nps-ga014-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1350 total (US 350; CS 1000;)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "Johnston admitted a loss of \" about a thousand \" in this combat,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.113 (inferred page: the p.113 running head reads \"H3\" in OCR; not checked against print)",
+          "quote": "Williams reported a loss of only 130 men, Geary's was trifling, and Hascall's about the same as Williams's."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "nearly sixty Confederate dead still lying on that part of the field the next day,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Hooker's, Williams's, Geary's, Schofield's and Hascall's reports, Stevenson's and Hindman's division reports, Johnston's report (not a family here) and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cox's Atlanta (Scribner, 1882) is a second: a retrospective Union history by the Twenty-third Corps division commander, drawing on official reports and memoirs, so it is not independent of them. Hood's June 22, 1864 note and corps report, printed in Volume XXXVIII Part 3, are a third family (interested Confederate accounts). Official Records Series I Volume XXXVIII is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Campaign-wide strength and loss totals are context, not assigned to one record."
+  ]
+}

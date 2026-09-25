@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA019",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Utoy Creek record (August 5-7, 1864) in Atlanta Campaign [May-September 1864]. The crossings of August 2-4 and the extensions of August 8-18 are context. The live NPS page labels the campaign \"Morgan's Raid Into Kentucky\" and dates it May-September 1864; neither field replaces the frozen campaign or battle interval. Campaign-wide totals are context and are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force fields name the Army of the Ohio and the Army of Tennessee without counts; the live field reads zero. Schofield says Reilly's brigade, supported by all of Cox's division, made the assault of the 6th against a line he judged an outer line not held in strong force. Cox says the works were strongly held by Bate's division (from prisoners) and that Hood had put part of Hardee's corps on the Sandtown road line. NPS adds the Fourteenth Corps.",
+      "rationale": "Formation statements that conflict on the defenders' strength; no count is inspected and none is adopted. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA019"
+          },
+          "column": "forces_text",
+          "quote": "Army of the Ohio [US]; Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-ga019-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or38-2-schofield-utoy-selections-v1",
+          "section": "schofield-1864-09-10-utoy",
+          "locator": "p.518 (OCR page markers; not checked against print)",
+          "quote": "General Reilly’s brigade, supported by the whole of Cox’s division, was ordered to make the assault."
+        },
+        {
+          "source_id": "or38-2-schofield-utoy-selections-v1",
+          "section": "schofield-1864-09-10-utoy",
+          "locator": "p.518 (OCR page markers; not checked against print)",
+          "quote": "had held our right in check for two days was only an outer line and not held in strong force,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "They were found to be strongly held,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "occupied, as was learned from prisoners, by Bate's division."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "had put part of Hardee's corps upon it,"
+        },
+        {
+          "source_id": "nps-ga019-v1",
+          "locator": "Description",
+          "quote": "along with the XIV Corps, Army of the Cumberland,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "ridge-abatis-and-valley",
+      "dimension": "terrain",
+      "value": "Schofield says the position was a rough and broken ridge on the east bank of a branch of Utoy Creek, and that abatis and entanglements made success impossible. Cox says the brigade crossed an open valley and struck felled, interlaced trees. NPS says the delay let the Confederates strengthen their defences with abatis.",
+      "rationale": "Ground from interested accounts and a summary; no map verification. The Confederate line was entrenched during the operation and is not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "or38-2-schofield-utoy-selections-v1",
+          "section": "schofield-1864-09-10-utoy",
+          "locator": "p.518 (OCR page markers; not checked against print)",
+          "quote": "This position was, however, a strong one, being a rough and broken ridge along the east bank of a small branch of the Utoy Creek."
+        },
+        {
+          "source_id": "or38-2-schofield-utoy-selections-v1",
+          "section": "schofield-1864-09-10-utoy",
+          "locator": "p.518 (OCR page markers; not checked against print)",
+          "quote": "but the abatis and entanglements were such as to render success impossi¬ ble,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "The narrow valley was open, and to the east the hills on the other side were wooded."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "It soon found itself in the entanglement of felled trees, and of under growth half cut off, then bent down and interlaced,"
+        },
+        {
+          "source_id": "nps-ga019-v1",
+          "locator": "Description",
+          "quote": "The delay allowed the Rebels to strengthen their defenses with abatis,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supply-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "chopping-heard-and-authority",
+      "dimension": "information",
+      "value": "Cox says chopping heard through the night of the 5th showed the Confederate infantry had moved onto the hillside, and that Baird told Schofield he did not recognize his authority. Schofield says he was satisfied the line was only an outer line. Cox says a reconnaissance of the 12th found the Confederate lines farther forward than Sherman or Schofield had thought.",
+      "rationale": "Attributed knowledge from interested accounts; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "had given evidence that the enemy's infantry had moved in force upon it."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.191 (inferred page: the p.191 running head reads \"19)\" in OCR; not checked against print)",
+          "quote": "Baird notified Scho field that he did not recognize his authority,"
+        },
+        {
+          "source_id": "or38-2-schofield-utoy-selections-v1",
+          "section": "schofield-1864-09-10-utoy",
+          "locator": "pp.517–518 (OCR page markers; not checked against print)",
+          "quote": "I was satisfied that the enemy’s line which"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "This demonstrated the fact that the Confederate lines were farther in front of the West Point Kailway than either Sherman or Schofield had thought."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cut-off-and-reach-the-railroad",
+      "dimension": "objectives",
+      "value": "Schofield says he attacked the outer line near its junction with the main line hoping to cut off the troops to its right and reach the main line first. Cox says Sherman believed his right must be near the railroad. NPS says Sherman wanted to reach the railroad between East Point and Atlanta.",
+      "rationale": "Stated plans from interested accounts and a summary; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "or38-2-schofield-utoy-selections-v1",
+          "section": "schofield-1864-09-10-utoy",
+          "locator": "p.518 (OCR page markers; not checked against print)",
+          "quote": "in the hope of cutting off the force to our right of the point of attack,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.189 (OCR page markers; not checked against print)",
+          "quote": "Sherman was now of the opinion that his right wing must be near the railroad,"
+        },
+        {
+          "source_id": "nps-ga019-v1",
+          "locator": "Description",
+          "quote": "Sherman still wanted to extend his right flank to hit the railroad between East Point and Atlanta."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Cox says the dispute over Palmer's rank and Schofield's authority delayed movements, that Sherman called the delays unpardonable, that Schofield reported he had totally failed to make any aggressive movement with the Fourteenth Corps, and that the delays encouraged Hood to entrench the Sandtown road line. Schofield says Reilly's brigade executed the order gallantly. The frozen commanders are General John Bell Hood and Major General John M. Schofield; the live page gives Major General John Schofield and General John Hood.",
+      "rationale": "Attributed judgments from interested accounts (Cox commanded the assaulting division); Palmer and Baird are not listed commanders; the frozen commanders do not receive automatic sole credit, and the live ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.190 (OCR page markers; not checked against print)",
+          "quote": "suffering for two days a game of cross purposes which greatly obstructed and delayed movements on that flank,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.191 (inferred page: the p.191 running head reads \"19)\" in OCR; not checked against print)",
+          "quote": "Again delays oc curred, which Sherman characterized as unpardonable,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "I am compelled to acknowledge that I have totally failed to make any aggressive movement with the Fourteenth Corps."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "Encouraged by the delays of the past forty-eight hours, Hood had determined to intrench the line of the Sandtown road"
+        },
+        {
+          "source_id": "or38-2-schofield-utoy-selections-v1",
+          "section": "schofield-1864-09-10-utoy",
+          "locator": "p.518 (OCR page markers; not checked against print)",
+          "quote": "The order was gallantly executed."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA019",
+            "belligerent": "Confederate",
+            "fullname": "John Bell Hood"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA019",
+            "belligerent": "US",
+            "fullname": "John M. Schofield"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga019-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General John Schofield [US]"
+        },
+        {
+          "source_id": "nps-ga019-v1",
+          "locator": "Principal Commanders",
+          "quote": "General John Hood [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live page Indecisive. Schofield says Reilly's brigade retired with heavy loss and that the enemy abandoned the position that night for his main works; Cox says Hascall's crossing enfiladed Bate's line, which was abandoned in the night, and quotes Sherman calling the next day's advance a noisy but not a bloody battle. NPS says the Federals were repulsed and failed to break the railroad.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA019"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-ga019-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or38-2-schofield-utoy-selections-v1",
+          "section": "schofield-1864-09-10-utoy",
+          "locator": "p.518 (OCR page markers; not checked against print)",
+          "quote": "the gallant brigade w~as compelled to retire with heavy loss."
+        },
+        {
+          "source_id": "or38-2-schofield-utoy-selections-v1",
+          "section": "schofield-1864-09-10-utoy",
+          "locator": "p.518 (OCR page markers; not checked against print)",
+          "quote": "The next morning developed the fact that the enemy had abandoned his position in the night and drawn back his left into his main works."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "The position thus acquired enfiladed Bate's line, and in the night it was abandoned."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "noisy, but not a bloody bat tle."
+        },
+        {
+          "source_id": "nps-ga019-v1",
+          "locator": "Description",
+          "quote": "The Federals were repulsed with heavy losses by Bate's Division and failed in an attempt to break the railroad."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads 625 (US 400; CS 225). Cox gives Reilly's loss on the 6th as a little over three hundred, and Baird's loss in carrying the skirmish line on the 5th as 83 killed and wounded with 140 prisoners taken. Schofield's inspected passage gives no figure.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Cox's figures are partial and span two days; the live figures have no inspected basis.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA019"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-ga019-v1",
+          "locator": "Estimated Casualties",
+          "quote": "625 total (US 400; CS 225;)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "Reilly was withdrawn, with a loss of a little over three hundred men."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "was carried with a loss of 83 killed and wounded. One hundred and forty prisoners were captured from the enemy."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Palmer's, Baird's, Johnson's, Reilly's and Hascall's reports, Bate's and Hardee's accounts, Hood's report (a family for other records, with little on August 5-7) and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cox's Atlanta (Scribner, 1882) is a second: a retrospective Union history by the Twenty-third Corps division commander, drawing on official reports and memoirs, so it is not independent of them. Schofield's September 10, 1864 report, printed in Volume XXXVIII Part 2, is a third family (interested Union account). Official Records Series I Volume XXXVIII is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Campaign-wide strength and loss totals are context, not assigned to one record."
+  ]
+}

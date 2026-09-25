@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA013",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Marietta [Operations] record (June 9-July 3, 1864; aggregate operation) in Atlanta Campaign [May-September 1864]. The frozen row is an aggregate operation listing Brushy Mountain, Gilgal Church, Lost Mountain, Mud Creek, Noonday Creek, Pine Mountain and other actions. Kolb's Farm (GA014, June 22) and Kennesaw Mountain (GA015, June 27) are separate frozen records inside this interval; their strengths and losses are not repeated or added here. The live NPS page labels the campaign \"Morgan's Raid Into Kentucky\" and dates it May-September 1864; neither field replaces the frozen campaign or battle interval. Campaign-wide totals are context and are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force fields name the two armies without counts; the live field reads zero. Cox says Blair's corps arrived on June 8 with about nine thousand men, almost exactly equal to Sherman's losses to that time, and that Georgia militia, a full division at least, were known to be in the field. His Appendix A lists 3,800 Georgia militia at Kenesaw on June 20 and 86,475 Confederates before the Chattahoochee crossing, and Johnston's July 10 return (aggregate present and absent 135,092, present 73,849, effectives 50,932). Johnston gives Smith's militia division an effective total of about 1,500 on July 1 and the force transferred to Hood as about 41,000 infantry and artillery and 10,000 cavalry.",
+      "rationale": "Reinforcement, reconstructed and return figures on different dates and bases; the militia figures conflict (3,800 against about 1,500). None is a count for the operation and none is adopted. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA013"
+          },
+          "column": "forces_text",
+          "quote": "Military Division of the Mississippi [US]; Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-ga013-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "He brought about nine thousand men in his two divisions, and the reinforcement was almost exactly equal to Sherman's losses up to that time."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.117 (OCR page markers; not checked against print)",
+          "quote": "the Georgia militia under General G. W. Smith, a full division at least, were known to be in the field,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "appendix-a",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "Georgia militia, Kenesaw, June 20th 3,800"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "appendix-a",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "Total before crossing the Chattahoochee 86,475"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "appendix-a",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "aggre gate present and absent, 135,092, present 73,849, effectives 50,932."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.617 (OCR page markers; not checked against print)",
+          "quote": "On the 1st of July Major-General Smith’s division was ordered to support the cavalry on our left. Their effective total was about 1,500."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.619 (OCR page markers; not checked against print)",
+          "quote": "The effective force transferred to General Hood was about 41,000 infantry and artillery and 10,000 cavalry."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "mountain-lines-and-rain",
+      "dimension": "terrain",
+      "value": "Cox says the country before the Union centre and left was rough, almost mountainous, that Johnston had prepared a new line behind Mud Creek in advance, and that Kenesaw Mountain was the key of the last Marietta line; drenching rains from June 4 made the roads nearly impassable. Johnston says the enemy approached under cover of successive lines of entrenchments. NPS says the Confederates held lines along Brushy, Pine and Lost Mountains.",
+      "rationale": "Ground and weather from interested accounts and a summary; no map verification. Some Confederate lines were prepared before they were occupied, but no inherited tag is assigned without establishing their timing against the operation's start.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "In front of the centre and left of the National army the country was rough, almost mountainous."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.100 (OCR page markers; not checked against print)",
+          "quote": "Johnston had pre pared for this contingency, by constructing in advance a new line of earth-works behind Mud Creek."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.103 (OCR page markers; not checked against print)",
+          "quote": "The key of the new Confeder ate line was Kenesaw Mountain,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "Continuous drenching rains and storms had lasted from the 4th of the month, and the roads were fast becoming im passable."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.617 (OCR page markers; not checked against print)",
+          "quote": "The enemy ap¬ proached under cover of successive lines of intrenchments."
+        },
+        {
+          "source_id": "nps-ga013-v1",
+          "locator": "Description",
+          "quote": "The Confederate's had established defensive lines along Brushy, Pine, and Lost Mountains."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "railroad-rations-and-rain",
+      "dimension": "logistics",
+      "value": "Cox says the Etowah railroad bridge was completed on June 11, that beef driven on the hoof kept rations adequate except bread, that supply trains struggled through mud, and that Sherman's difficulties at Kenesaw were almost wholly due to supply. Johnston says his non-battle losses were mainly slight sickness from heavy cold rains in late June, and that detachments sent against the railroad failed because they were too weak.",
+      "rationale": "Supply and health statements from interested accounts; no supply return inspected. Not a readiness measure.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "the Etowah bridge was completed, Colonel Wright having more than made good his promise,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.93 (OCR page markers; not checked against print)",
+          "quote": "By driving beef cattle \" on the hoof \" there had been no lack of rations, except of bread, of which the allowance was short in some of the camps."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "The supply trains for Thomas's right and for Schofield toiled painfully along wherever solid ground could be found,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.116 (OCR page markers; not checked against print)",
+          "quote": "SHERMAN'S embarrassments at this juncture were almost altogether due to the trouble in keeping his army supplied."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.619 (OCR page markers; not checked against print)",
+          "quote": "mainly slight sickness produced by heavy cold rains, which pre vailed in the latter half of June."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.619 (OCR page markers; not checked against print)",
+          "quote": "All failed because too weak."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "observation-and-expectations",
+      "dimension": "information",
+      "value": "Cox says the Union army first expected Johnston's next line to be the Chattahoochee, that the Confederate mountain positions overlooked every Union camp, and that Johnston correctly read the Union shift to the left.",
+      "rationale": "Attributed knowledge from interested accounts; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "the first impression in the army was that his next line would be the Chattahoochee Eiver, and Sherman shared this belief."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.103 (OCR page markers; not checked against print)",
+          "quote": "made concealment of movements on Sherman's part next to impossible."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "Johnston seeing the movement of the National forces by their left flank, rightly interpreted its meaning,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "flank-and-hold",
+      "dimension": "objectives",
+      "value": "Cox says Sherman chose to operate by his right flank to protect the railroad from Kingston, and that holding Johnston so he could not send aid to Lee was one motive for continuous operations. Johnston says fighting under cover was reducing Federal numerical superiority daily. NPS says Sherman's manoeuvres spared the Union army costly frontal attacks.",
+      "rationale": "Stated aims from interested accounts and a summary; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "These considerations settled the question of strategy, and determined the National commander to oper ate by his right flank."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "across-the-chattahoochee",
+          "locator": "p.130 (OCR page markers; not checked against print)",
+          "quote": "The necessity of holding Johnston with such a grip that he could not detach aid to Lee in Virginia was one of the motives for active operations in front and continuously ;"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.619 (OCR page markers; not checked against print)",
+          "quote": "so that the enemy’s numerical superiority was reduced daily and rapidly,"
+        },
+        {
+          "source_id": "nps-ga013-v1",
+          "locator": "Description",
+          "quote": "This strategy spared the Union army from making costly frontal attacks on the well-situated Confederates."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Johnston and Cox record Polk's death by a cannon shot on Pine Mountain on June 14; Cox says the shot came from one of Thomas's batteries. Cox says Harker seized ground on June 18 without waiting for orders. The frozen commanders are General Joseph E. Johnston and Major General William T. Sherman; the live page gives General William Sherman and Lieutenant Colonel Joseph Johnston.",
+      "rationale": "Attributed events and judgments from interested accounts; Polk and Harker are not listed commanders; the frozen commanders do not receive automatic sole credit, and the live ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.617 (OCR page markers; not checked against print)",
+          "quote": "On the 14th the brave Lieutenant-General Polk, distinguished in every battle in which this army had fought, fell by a cannon-shot at an advanced post."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant-General Polk was killed by a cannon-ball from one of General Thomas's batteries."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "marietta-culps-farm",
+          "locator": "p.102 (OCR page markers; not checked against print)",
+          "quote": "Harker, of Newton's division, without waiting for orders, deployed two regiments to hold and se cure the ground that was gained,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA013",
+            "belligerent": "Confederate",
+            "fullname": "Joseph E. Johnston"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA013",
+            "belligerent": "US",
+            "fullname": "William T. Sherman"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga013-v1",
+          "locator": "Principal Commanders",
+          "quote": "General William Sherman [US]"
+        },
+        {
+          "source_id": "nps-ga013-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant Colonel Joseph Johnston [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Johnston says the army fell back on the night of July 2 because the Federal right was nearer Atlanta than the Confederate left; Cox says Johnston evacuated Kenesaw and the whole front that night. NPS says Sherman forced Johnston out of the Marietta area on July 2-3.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The aggregate result must not be combined with the GA014 and GA015 results.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA013"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ga013-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.617 (OCR page markers; not checked against print)",
+          "quote": "On the 2d, the enemy’s right being nearer to Atlanta by several miles than our left, the army fell back during the night to Smyrna Church."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "across-the-chattahoochee",
+          "locator": "p.132 (OCR page markers; not checked against print)",
+          "quote": "That night Johnston evacuated the works at Kenesaw and along the whole front,"
+        },
+        {
+          "source_id": "nps-ga013-v1",
+          "locator": "Description",
+          "quote": "forced Johnston to withdrawal from the Marietta area on July 2-3."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads 0 (US 0; CS 0). Cox gives monthly figures only: Union killed, wounded and missing of 7,500 in June; Johnston's hospital returns of 4,000 killed and wounded for the month; and his own reconstruction of Confederate losses at 7,000 or more. Johnston gives about 10,000 killed and wounded and 4,700 other losses of infantry and artillery from May 5 to July 17.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. These are monthly or campaign totals that include Kolb's Farm, Kennesaw and days outside the frozen interval; they are context and must not be assigned to this record or added to GA014/GA015. The live zeros are not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA013"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-ga013-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "across-the-chattahoochee",
+          "locator": "p.135 (OCR page markers; not checked against print)",
+          "quote": "The monthly returns for June show that in killed, wounded, and missing the army had lost 7,500 men."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "across-the-chattahoochee",
+          "locator": "pp.135–136 (OCR page markers; not checked against print)",
+          "quote": "Johnston gives his hospital returns as showing a loss of 4,000 in killed and wounded during the month of which we"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "across-the-chattahoochee",
+          "locator": "p.136 (OCR page markers; not checked against print)",
+          "quote": "The Confederate losses are thus found to have been 7,000, with a probability of their having exceeded that number."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.619 (OCR page markers; not checked against print)",
+          "quote": "The loss of our infantry and artillery from the 5th of May had been about 10,000 in killed and wounded, and 4,700 from all other causes,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "The component actions' reports (Pine Mountain, Gilgal Church, Mud Creek, Noonday Creek and others), Sherman's and the army commanders' reports, Hardee's itinerary and the compiled returns remain deferred. The associated battles listed in the frozen row are not individually researched.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cox's Atlanta (Scribner, 1882) is a second: a retrospective Union history by the Twenty-third Corps division commander, drawing on official reports and memoirs, so it is not independent of them. Johnston's October 20, 1864 report, printed in Volume XXXVIII Part 3, is a third family (interested Confederate account). Official Records Series I Volume XXXVIII is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Campaign-wide strength and loss totals are context, not assigned to one record."
+  ]
+}

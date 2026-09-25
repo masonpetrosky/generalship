@@ -68,6 +68,20 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Atlanta Campaign first pass (cohort v2), 2026-09-25
+
+The [first pass](research/atlanta-first-pass-v1.md) adds **47 records**:
+
+- sixteen NPS HTML/text pairs;
+- Cox, *Atlanta* (1882): catalog metadata, full OCR and one selection;
+- Official Records Series I, Volume XXXVIII, Parts 2 and 3: catalog metadata and full OCR for
+  each;
+- eight report selections: Johnston, Hood, Cleburne, Logan, Hardee, Schofield, Steedman and
+  Kilpatrick.
+
+The registry is now **736 entries / 715 raw paths**, preserving the previous **689/668**. No model
+inputs are changed.
+
 ### Early's Raid and Sheridan's Valley first passes (cohort v2), 2026-09-25
 
 The first passes for [Early's Raid](research/early-raid-first-pass-v1.md) and

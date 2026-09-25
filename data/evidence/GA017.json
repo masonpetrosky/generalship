@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA017",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Atlanta record (July 22, 1864) in Atlanta Campaign [May-September 1864]. The capture of the bald hill on July 21 and the siege that followed are context; Wheeler's attack at Decatur the same day is part of Cox's account. The live NPS page labels the campaign \"Morgan's Raid Into Kentucky\" and dates it May-September 1864; neither field replaces the frozen campaign or battle interval. Campaign-wide totals are context and are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force fields name the two armies without counts; the live field reads zero. Cox calls the first attack one of four divisions upon four, names Hardee's divisions (Maney, Cleburne, Walker, Bate), and gives Hood's July 31 return (present 65,601, effectives 44,495) in Appendix A. Hood says Hardee moved with his corps and Wheeler's cavalry on his right, with Cheatham to take up the attack; his army's effective strength on July 18 was 48,750.",
+      "rationale": "Division counts and army totals at different dates (July 18 and July 31) and bases; none measures the troops engaged and none is adopted. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA017"
+          },
+          "column": "forces_text",
+          "quote": "Military Division of the Mississippi [US]; Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-ga017-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.175 (OCR page markers; not checked against print)",
+          "quote": "It was an attack of four divisions upon four, in the first instance,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.166 (OCR page markers; not checked against print)",
+          "quote": "Beginning on the left, the divisions were in the following order, viz., Maney, Cleburne, Walker, and Bate."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "appendix-a",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "The first return of General Hood, dated July 31, 1864, shows aggre gate present and absent, 136,684, present 65,601, effectives 44,495."
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.631 (OCR page markers; not checked against print)",
+          "quote": "Wheeler, with his cavalry, was ordered to move on Hardee’s right,"
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.630 (OCR page markers; not checked against print)",
+          "quote": "effective of 48,750 men."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "thickets-cut-and-works",
+      "dimension": "terrain",
+      "value": "Cox says Hardee's approach crossed thickets and broken country where it was often impossible to see ten paces, that his attack on Dodge crossed open fields, that a railway cut and a house masked Cheatham's advance on the Fifteenth Corps, and that the form of Blair's works let Smith's division repel the first assault. Hood says the old city works were useless from their position, so a new line was built. NPS says Sherman massed twenty guns on a knoll.",
+      "rationale": "Ground described by interested accounts and a summary; no map verification. The new Confederate line was built on the night of July 21 and is not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.176 (inferred page: the p.176 running head reads \"170\" in OCR; not checked against print)",
+          "quote": "where, as he said, it was often impossible to see ten paces in advance,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "To reach the divisions of Fuller and Sweeny the Confederates had to advance over some open fields,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.172 (OCR page markers; not checked against print)",
+          "quote": "At this point the railway passes through a deep cut near which was a largo house so situ ated as to mask the approach of the enemy and cover his advance along the railway."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.170 (OCR page markers; not checked against print)",
+          "quote": "The form of the works enabled Smith's division to repel the enemy there without trouble ;"
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.631 (OCR page markers; not checked against print)",
+          "quote": "the works already constructed for the defense of the place being wholly useless from their position"
+        },
+        {
+          "source_id": "nps-ga017-v1",
+          "locator": "Description",
+          "quote": "Sherman massed twenty artillery pieces on a knoll near his headquarters"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "trains-and-heat",
+      "dimension": "logistics",
+      "value": "Cox says the Army of the Tennessee's supply trains and field hospitals lay between Dodge's corps and the front, that McPherson ordered them out as the attack began, that Wheeler attacked the trains' guard at Decatur, and that on July 21 the heat prostrated staff officers.",
+      "rationale": "Movement and condition statements from an interested history; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.167 (OCR page markers; not checked against print)",
+          "quote": "The supply trains and field hospitals of the Army of the Tennessee were in the interval between the Sixteenth Corps and the front lines,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "had ordered the trains out of the inter val,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.171 (OCR page markers; not checked against print)",
+          "quote": "Sprague's brigade in Decatur was also at tacked by Wheeler's cavalry,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.164 (OCR page markers; not checked against print)",
+          "quote": "The intense heat was such that three staff officers in Force's brigade alone were prostrated by it,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "unwarned-flank-and-ruse",
+      "dimension": "information",
+      "value": "Cox says Garrard's absence let Hardee approach without warning, that Hardee did not know Dodge's corps was there until he struck it, that the Confederate works were ostentatiously manned in a ruse no one suspected, and that Sherman's despatch to McPherson was found on prisoners. NPS says McPherson, concerned about his flank, sent Dodge there.",
+      "rationale": "Attributed knowledge from an interested history and a summary; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.175 (OCR page markers; not checked against print)",
+          "quote": "to approach without warning,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.176 (inferred page: the p.176 running head reads \"170\" in OCR; not checked against print)",
+          "quote": "Hardee did not know of the presence of Dodge's corps till he struck it,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.167 (OCR page markers; not checked against print)",
+          "quote": "There was some ostentation in the way the men on the fortifications worked, but no one suspected what ruse it might covrer."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.170 (OCR page markers; not checked against print)",
+          "quote": "together with a despatch to him from Sher man detailing the plans for the day,"
+        },
+        {
+          "source_id": "nps-ga017-v1",
+          "locator": "Description",
+          "quote": "McPherson was concerned about his left flank and sent his reserves-Grenville Dodge's XVI Army Corps-to that location."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "turn-mcpherson",
+      "dimension": "objectives",
+      "value": "Hood says Hardee was ordered to march south by the McDonough road and completely turn McPherson's left, even to Decatur, with Cheatham to take up the movement as Hardee gained ground. Cox says Hood hoped to roll up Sherman's army from the south.",
+      "rationale": "Stated plans from interested accounts; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.631 (OCR page markers; not checked against print)",
+          "quote": "Hardee was ordered to move with his corps during the night of the 21st south on the McDonough road, crossing Intrenchment Creek at Cobb’s Mills, and to completely turn the left of McPherson’s army."
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.631 (OCR page markers; not checked against print)",
+          "quote": "As soon as Hardee succeeded in forcing back the enemy’s left, Cheatham was to take up the movement from his right"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.164 (OCR page markers; not checked against print)",
+          "quote": "hoping thus to roll up Sherman's army from the south."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Hood says Hardee failed to turn the enemy's left as directed. Cox rejects Hood's complaint about Hardee's march; says a refused request to burn the house helped cause the break in the Fifteenth Corps line; that Sherman ordered Schofield's artillery onto the break; and that Sherman put Logan in command after McPherson's death. The frozen commanders are General John Bell Hood and Major General William T. Sherman; the live page gives General William Sherman and General John Hood.",
+      "rationale": "Attributed judgments in dispute from interested accounts; Hardee, McPherson and Logan are not listed commanders; the frozen commanders do not receive automatic sole credit, and the live ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.631 (OCR page markers; not checked against print)",
+          "quote": "Hardee failed to entirely turn the enemy’s left as directed, took position and attacked his flank."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.176 (inferred page: the p.176 running head reads \"170\" in OCR; not checked against print)",
+          "quote": "The facts do not justify the complaint."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.172 (OCR page markers; not checked against print)",
+          "quote": "Jones asked leave to burn the house, but failed to get it"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.173 (OCR page markers; not checked against print)",
+          "quote": "immediately ordered Schofield to mass his artillery there"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.171 (OCR page markers; not checked against print)",
+          "quote": "to assume command of the Army of the Tennessee,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA017",
+            "belligerent": "Confederate",
+            "fullname": "John Bell Hood"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA017",
+            "belligerent": "US",
+            "fullname": "William T. Sherman"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga017-v1",
+          "locator": "Principal Commanders",
+          "quote": "General William Sherman [US]"
+        },
+        {
+          "source_id": "nps-ga017-v1",
+          "locator": "Principal Commanders",
+          "quote": "General John Hood [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Hood says Hardee held the ground he gained, Cheatham carried works but had to abandon them, McPherson's movement on his communications was entirely defeated though the grand results were not achieved, and the engagement revived the troops' confidence. Cox says the Fifteenth Corps counter-charge retook the line and all but two lost guns, and the crisis passed. NPS says the Union troops held.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Hood's campaign-level claim about McPherson's movement is not the tactical result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA017"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ga017-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.631 (OCR page markers; not checked against print)",
+          "quote": "Hardee held the ground he gained."
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.631 (OCR page markers; not checked against print)",
+          "quote": "While the grand results desired were' not accomplished, the movements of McPherson upon my communications were entirely defeated,"
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.631 (OCR page markers; not checked against print)",
+          "quote": "Cheatham carried the enemy’s intrenchments in his front, but had to abandon them in consequence of the enfilade fire brought to bear upon him."
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.631 (OCR page markers; not checked against print)",
+          "quote": "This engage¬ ment greatly inspired the troops and revived their confidence."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.173 (OCR page markers; not checked against print)",
+          "quote": "the enemy were driven back pell-mell, the lost guns, ex cepting two, were retaken and the intrenchments reoc- cupied."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.174 (OCR page markers; not checked against print)",
+          "quote": "The crisis of the battle was now passed,"
+        },
+        {
+          "source_id": "nps-ga017-v1",
+          "locator": "Description",
+          "quote": "The Union troops held, and Hood suffered high casualties."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty texts read 12,140 (US 3,641; CS 8,499). Cox gives the Union loss as 3,521 with ten guns; counts about 3,200 Confederate dead delivered or buried (partly estimated), halves the estimated part to reach at least 2,500 killed, adds 2,000 prisoners and accepts Logan's ten thousand as the minimum. Hood says Cheatham took 5 guns and Hardee 8 guns and 13 colours.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Cox's Confederate total is an inference from burial counts; the frozen Union 3,641 differs from Cox's 3,521.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA017"
+          },
+          "column": "casualties_text",
+          "quote": "12,140 total (US 3,641; CS 8,499)"
+        },
+        {
+          "source_id": "nps-ga017-v1",
+          "locator": "Estimated Casualties",
+          "quote": "12140 total (US 3641; CS 8499;)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.175 (OCR page markers; not checked against print)",
+          "quote": "The total loss in the Na tional army was 3,521 killed, wounded, and missing, with ten pieces of artillery."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.175 (OCR page markers; not checked against print)",
+          "quote": "making a total of 3,200."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.176 (inferred page: the p.176 running head reads \"170\" in OCR; not checked against print)",
+          "quote": "numbers that were estimated, and there would still be at least 2,500 killed."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.176 (inferred page: the p.176 running head reads \"170\" in OCR; not checked against print)",
+          "quote": "Two thousand Confederate prisoners were taken, of whom half were wounded."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "battle-of-atlanta",
+          "locator": "p.176 (inferred page: the p.176 running head reads \"170\" in OCR; not checked against print)",
+          "quote": "can reduce the enemy's total loss below the ten thousand at which Logan put it."
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.631 (OCR page markers; not checked against print)",
+          "quote": "Cheatham captured 5 guns and 5 or 6 stand, of colors, and Hardee 8 guns and 13 stand of colors."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Logan's July 24 summary and July 22 report (casualty lines seen by search, not selected), Blair's, Dodge's and Schofield's reports, Hardee's and Cheatham's accounts, Govan's and Smith's brigade reports and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cox's Atlanta (Scribner, 1882) is a second: a retrospective Union history by the Twenty-third Corps division commander, drawing on official reports and memoirs, so it is not independent of them. Hood's February 15, 1865 report, printed in Volume XXXVIII Part 3, is a third family (interested Confederate account). Official Records Series I Volume XXXVIII is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Campaign-wide strength and loss totals are context, not assigned to one record."
+  ]
+}

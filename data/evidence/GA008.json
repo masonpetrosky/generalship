@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA008",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Resaca record (May 13-15, 1864) in Atlanta Campaign [May-September 1864]. The Lay's Ferry crossing is part of the frozen record's live other name; Rocky Face Ridge (GA007) and the pursuit toward Adairsville (GA009) are separate records. The live NPS page labels the campaign \"Morgan's Raid Into Kentucky\" and dates it May-September 1864; neither field replaces the frozen campaign or battle interval. Campaign-wide totals are context and are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force fields name the Military Division of the Mississippi and the Army of Tennessee without counts; the live field reads zero. Cox's Appendix A totals 71,235 officers and men for Johnston at Resaca, built from the May 1 present-for-duty figure and additions including Loring's division, which it says joined on May 12. Johnston says Polk arrived with Loring's division on the 11th and gives the great numerical superiority of the Federal army as a reason for his later course. Cox gives Sherman nearly 100,000 effectives at the opening of the campaign.",
+      "rationale": "A reconstructed Confederate total, a Union opening figure and a qualitative statement; none measures troops engaged on May 13-15 and none is adopted. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA008"
+          },
+          "column": "forces_text",
+          "quote": "Military Division of the Mississippi [US]; Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-ga008-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "appendix-a",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "Total at Resaca t 71,235"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "appendix-a",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "Loring's division joined the army at Resaca, May 12th."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.614 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant-General Polk arrived there in the evening with Loring’s division,"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "the great numerical superiority of the Federal army,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "opposing-armies-strength",
+          "locator": "p.25 (OCR page markers; not checked against print)",
+          "quote": "Sherman entered the campaign with an effective force of nearly 100,000 men and 254 guns."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "river-at-the-back",
+      "dimension": "terrain",
+      "value": "Cox says Johnston's strong position had a river at its back, that Schofield's approach over broken ground made moving artillery across the ravines and streams extraordinarily hard, and that the hill carried by Logan's corps on the 14th commanded the railroad and wagon bridges over the Oostanaula. Johnston says Polk's left rested on the Oostenaula. NPS places the Confederates in the hills around Resaca.",
+      "rationale": "Ground described by an interested history, an interested report and a summary; no map verification. The hill position was taken during the battle and is not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "resaca",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "Johnston's position, though a very strong one, had the fatal defect of giving him a river at his back,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "resaca",
+          "locator": "p.43 (OCR page markers; not checked against print)",
+          "quote": "The broken nature of the ground made this a difficult march, and it required extraordinary exertions to take the artillery across the ravines and streams which had to be passed."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "resaca",
+          "locator": "p.46 (OCR page markers; not checked against print)",
+          "quote": "The hill thus carried commanded the railroad and wagon bridges crossing the Oostanaula,"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "the left of Polk’s corps was on the Oostenaula"
+        },
+        {
+          "source_id": "nps-ga008-v1",
+          "locator": "Description",
+          "quote": "Gen. Joseph E. Johnston had withdrawn from Rocky Face Ridge to the hills around Resaca."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-guns",
+      "dimension": "logistics",
+      "value": "Cox says Cox's division exhausted its ammunition in mid-afternoon on the 14th and was relieved by Newton because wagons could not reach it across the creek. Cox and Johnston both refer to the Confederate battery left between the lines: Cox says the guns were brought off by Union troops that night, and Johnston says the four field pieces in Hood's report were the only material lost in the retreat.",
+      "rationale": "Condition statements from interested accounts; no ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "resaca",
+          "locator": "p.45 (OCR page markers; not checked against print)",
+          "quote": "Cox's division had exhausted its ammunition about the middle of the afternoon, and as wagons could not reach him over the creek, he was relieved, one brigade at a time, by Newton."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "resaca",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "The guns remained between the armies till night, when they were taken and brought off by a detachment of the Fifth Ohio"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.618 (OCR page markers; not checked against print)",
+          "quote": "We lost no material in the retreat except the four field pieces mentioned in the accompanying report of General Hood."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "maps-and-crossing-reports",
+      "dimension": "information",
+      "value": "Cox says misleading maps made reaching the railroad seem possible, and that Sweeny withdrew from Lay's Ferry on a false rumor. Johnston says that at 9 p.m. on the 14th he learned both that Polk had lost a position commanding the bridges and, from Martin, that Union infantry was crossing near Calhoun, and that on the 15th Walker's report of the Federal right crossing caused Hood's attack to be countermanded. Cox says Walker found the south bank clear that night.",
+      "rationale": "Attributed knowledge from interested accounts; no message log inspected. The reports about the crossing conflict in timing.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "resaca",
+          "locator": "p.43 (OCR page markers; not checked against print)",
+          "quote": "The lack of topographical information made it seem possible to do this, but it turned out that the maps were misleading,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "resaca",
+          "locator": "p.46 (OCR page markers; not checked against print)",
+          "quote": "but on a false rumor of an attempt by the enemy to cross above him, he withdrew to the right bank"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "At 9 p. m. I learned that Lieutenant-General Polk’s troops had lost a position commanding our bridges, and received from Major-Gen¬ eral Martin a report that Federal infantry was crossing the Ooste¬ naula, near Calhoun, on a pontoon bridge."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "When he was about to move information came from Major-General Walker that the Federal right was crossing the river."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "resaca",
+          "locator": "p.46 (OCR page markers; not checked against print)",
+          "quote": "reported the alarm a false one,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "contract-and-turn",
+      "dimension": "objectives",
+      "value": "Cox says Sherman meant to contract his lines so that much of his force could be withdrawn for another flanking movement south of the Oostanaula, while Hood marched to turn the Union left on the 14th. Johnston says Hood was directed on the 15th to move forward, right leading. NPS says Sherman sent a force across at Lay's Ferry toward Johnston's railroad.",
+      "rationale": "Stated plans from interested accounts and a summary; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "resaca",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "Sherman's purpose was to contract and strengthen his lines as much as possible, so that a considerable part of his forces could be withdrawn for another flanking movement south of the Oostanaula."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "resaca",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "Hood was already marching with Stewart's and Stevenson's division to turn it."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant-General Hood was directed to prepare to move forward, his right leading,"
+        },
+        {
+          "source_id": "nps-ga008-v1",
+          "locator": "Description",
+          "quote": "until Sherman sent a force across the Oostanula River, at Lay's Ferry, towards Johnston's railroad supply line."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Johnston says his instructions to Hood were revoked on the night of the 14th, and that Stewart's division, not receiving the countermand from corps headquarters in time, attacked unsuccessfully on the 15th. Cox says Judah's division was repulsed with considerable loss at the angle of the works. NPS says Sherman did not fully exploit his advantage on the Confederate right. The frozen commanders are General Joseph E. Johnston and Major General William T. Sherman; the live page gives General William Sherman and Lieutenant Colonel Joseph Johnston.",
+      "rationale": "Attributed judgments from interested accounts and a summary; Hood, Stewart and Judah are not listed commanders; the frozen commanders do not receive automatic sole credit, and the live ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "The instructions to Lieu¬ tenant-General Hood were revoked,"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "Stewart’s division not receiving the order from corps headquarters in time, attacked unsuccessfully."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "resaca",
+          "locator": "p.44 (OCR page markers; not checked against print)",
+          "quote": "They were unable to get a foothold on the opposite bluffs, and were repulsed with considerable loss."
+        },
+        {
+          "source_id": "nps-ga008-v1",
+          "locator": "Description",
+          "quote": "where Sherman did not fully exploit his advantage."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA008",
+            "belligerent": "Confederate",
+            "fullname": "Joseph E. Johnston"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA008",
+            "belligerent": "US",
+            "fullname": "William T. Sherman"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga008-v1",
+          "locator": "Principal Commanders",
+          "quote": "General William Sherman [US]"
+        },
+        {
+          "source_id": "nps-ga008-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant Colonel Joseph Johnston [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Inconclusive and the live page Indecisive. Johnston says the attacks of the 14th were all repulsed and that the army crossed the Oostenaula on the night of the 15th, destroying the bridges. Cox says Johnston withdrew that night, burning the railroad bridge. NPS says Johnston, unable to halt the Union crossing, was forced to retire.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA008"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive"
+        },
+        {
+          "source_id": "nps-ga008-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "the most vigorous on Hindman’s division (Hood’s left). All were hand¬ somely repulsed."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "The army was ordered to cross the Oostenaula that night, destroying the bridges behind it."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "resaca",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "He saw that he could not safely make a longer delay, and withdrew during the night of the 15th, burning the railroad bridge behind him."
+        },
+        {
+          "source_id": "nps-ga008-v1",
+          "locator": "Description",
+          "quote": "Unable to halt this Union movement, Johnston was forced to retire."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty texts read 5,547 (US 2,747; CS 2,800). Cox says the Dalton and Resaca losses cannot be given accurately; at Resaca he puts the Army of the Cumberland's loss at about a thousand and the two engaged Army of the Ohio divisions at nearly a thousand, with fewer in the Army of the Tennessee. The inspected Johnston report gives no Resaca figure.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Cox's partial approximations do not reconcile with the frozen Union 2,747, whose basis is not established.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA008"
+          },
+          "column": "casualties_text",
+          "quote": "5,547 total (US 2,747; CS 2,800)"
+        },
+        {
+          "source_id": "nps-ga008-v1",
+          "locator": "Estimated Casualties",
+          "quote": "5547 total (US 2747; CS 2800;)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "The losses in the engagements about Dalton, and in the battle of Besaca cannot be accurately given,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.58 (OCR page markers; not checked against print)",
+          "quote": "At Eesaca the Army of the Cumberland lost about a thousand, the two divisions of the Army of the Ohio which were engaged lost nearly a thou sand, the casualties in the Army of the Tennessee cannot be accurately given, but they were fewer than in either of the other armies."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Sherman's, Thomas's, McPherson's and Schofield's reports, Hood's corps report on Resaca (read, not cited here), Hardee's itinerary for May 15, the compiled casualty returns and Sweeny's Lay's Ferry report remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cox's Atlanta (Scribner, 1882) is a second: a retrospective Union history by the Twenty-third Corps division commander, drawing on official reports and memoirs, so it is not independent of them. Johnston's October 20, 1864 report, printed in Volume XXXVIII Part 3, is a third family (interested Confederate account). Official Records Series I Volume XXXVIII is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Campaign-wide strength and loss totals are context, not assigned to one record."
+  ]
+}

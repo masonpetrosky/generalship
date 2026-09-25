@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA011",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Dallas record (May 26-June 1, 1864) in Atlanta Campaign [May-September 1864]. The main action is Bate's attack on the Fifteenth Corps on May 28; New Hope Church (GA010) and Pickett's Mill (GA012) are separate records on the same lines, and the withdrawal from Dallas after June 1 is context. The live NPS page labels the campaign \"Morgan's Raid Into Kentucky\" and dates it May-September 1864; neither field replaces the frozen campaign or battle interval. Campaign-wide totals are context and are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force fields name the Military Division of Mississippi and the Army of Tennessee without counts; the live field reads zero. Logan says the attack of the 28th was made by Hardee's entire command, which prisoners estimated at 25,000. Cox says Hardee sent Bate's division out on a forced reconnaissance, its three brigades in separate columns, and that Union superiority in numbers let the entrenchments be held with part of the force. NPS says Hardee's corps probed the line.",
+      "rationale": "Prisoners' estimate against a history naming one division; no count of troops engaged is inspected and none is adopted. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA011"
+          },
+          "column": "forces_text",
+          "quote": "Military Division of Mississippi [US]; Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-ga011-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-dallas",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "Hardee’s entire command, estimated by prisoners to be 25,000)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "Hardee ordered Bate's division out for this purpose, and the latter formed his three brigades in separate columns."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.76 (OCR page markers; not checked against print)",
+          "quote": "Our superiority in numbers made it plain that the intrench- ments could be held with less than the whole force,"
+        },
+        {
+          "source_id": "nps-ga011-v1",
+          "locator": "Description",
+          "quote": "Lt. Gen. William J. Hardee's corps probed the Union defensive line,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "villa-rica-ridge",
+      "dimension": "terrain",
+      "value": "Logan says the first assault came down the Villa Rica road, the weakest point of his position, where the enemy got within 150 yards unseen, and that his works were thrown up during the night of the 26th. Cox says McPherson did not extend far enough to include the highest crest of the ridge and that the Confederate flank was refused at a salient in front of Dallas.",
+      "rationale": "Ground described by interested accounts; no map verification. The Union works were built during the operation and are not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-dallas",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "The first assault was on Harrow, md was made directly down the line of the Villa Rica road, he weakest point in our whole position."
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-dallas",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "The nemy at this point approached within 150 yards, without either laving been seen or exposed to our fire."
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-dallas",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "In this position I *aused the most favorable line of works practicable to be thrown ip during the night."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.85 (OCR page markers; not checked against print)",
+          "quote": "McPherson had not thought it practicable to extend his flank far enough to in clude the highest crest of the ridge,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.76 (OCR page markers; not checked against print)",
+          "quote": "running a little east of south after passing a salient angle immediately in front of Dallas."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supplies-and-railhead",
+      "dimension": "logistics",
+      "value": "Logan says his corps rested at Kingston until twenty days' supplies had been procured. Cox says supply trains were to be concentrated at Burnt Hickory. NPS says the cavalry occupied Allatoona Pass on June 1, where the railroad would bring men and supplies.",
+      "rationale": "Supply statements from interested accounts and a summary; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-dallas",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "Dy which time twenty days’ supplies had been procured."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "Supply trains were ordered to be concentrated at Burnt Hickory,"
+        },
+        {
+          "source_id": "nps-ga011-v1",
+          "locator": "Description",
+          "quote": "which had a railroad and would allow his men and supplies to reach him by train."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-and-signal",
+      "dimension": "information",
+      "value": "Cox says Johnston, suspecting the Union right was withdrawing, ordered Hardee to reconnoitre in force, and that the fire that met Armstrong's dismounted cavalry made each brigade commander think the others were engaged, so each assaulted. Logan says deserters told him Johnston was near Dallas in force, and that his later withdrawal deceived the enemy. NPS says the probe sought a weakness or withdrawal.",
+      "rationale": "Attributed knowledge from interested accounts and a summary; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "Johnston, suspecting that our right was withdrawing, had directed Hardee to make a forced reconnoissance"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.85 (OCR page markers; not checked against print)",
+          "quote": "Armstrong was received with a cannonade and fire of musketry so spirited that each of the brigade commanders supposed that all of the troops but his own were engaged, and ordered the assault of the works."
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-dallas",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "learning from deserters and others that the enemy were near that place in heavy force, commanded by Johnston in person,"
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-dallas",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "It was afterwards discovered that this maneuver core pletely deceived the enemy for the time as to our intentions."
+        },
+        {
+          "source_id": "nps-ga011-v1",
+          "locator": "Description",
+          "quote": "to exploit any weakness or possible withdrawal."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "shift-left-to-the-railroad",
+      "dimension": "objectives",
+      "value": "Cox says Sherman decided to transfer troops from his right to his left to gain the Ackworth road and the railroad. Logan says the intended withdrawal of May 29 was to move the Army of the Tennessee left to connect with the Army of the Cumberland. NPS says Sherman kept looking for a way around Johnston's line.",
+      "rationale": "Stated plans from interested accounts and a summary; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.84 (OCR page markers; not checked against print)",
+          "quote": "He determined to transfer troops from his right to his left, and by crowding in beyond John ston's right flank, gain control of the Ackworth road."
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-dallas",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "the inten tion of the movement being to change the position of the Army o the Tennessee and of General Garrard’s command to the left,"
+        },
+        {
+          "source_id": "nps-ga011-v1",
+          "locator": "Description",
+          "quote": "Sherman continued looking for a way around Johnston's line,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Cox says the Confederate signal error cost them dear, and that McPherson judged it impracticable to move that night, so Sherman delayed the transfer. Logan credits Walcutt, standing on the parapet. NPS names Logan's corps as the defender. The frozen commanders are General Joseph E. Johnston and Major General William T. Sherman; the live page gives General William Sherman and Lieutenant Colonel Joseph Johnston.",
+      "rationale": "Attributed judgments from interested accounts; Hardee, Bate, McPherson and Logan are not listed commanders; the frozen commanders do not receive automatic sole credit, and the live ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.85 (OCR page markers; not checked against print)",
+          "quote": "The error cost them dear."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.86 (OCR page markers; not checked against print)",
+          "quote": "McPherson wrote to Sherman that he regarded it impracticable to move that night"
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-dallas",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "Colonel Walcutt, commanding the brigade engaged, stood on the parapet,"
+        },
+        {
+          "source_id": "nps-ga011-v1",
+          "locator": "Description",
+          "quote": "held by Maj. Gen. John A. Logan's Army of the Tennessee corps,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA011",
+            "belligerent": "Confederate",
+            "fullname": "Joseph E. Johnston"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA011",
+            "belligerent": "US",
+            "fullname": "William T. Sherman"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga011-v1",
+          "locator": "Principal Commanders",
+          "quote": "General William Sherman [US]"
+        },
+        {
+          "source_id": "nps-ga011-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant Colonel Joseph Johnston [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Cox says the attack was repulsed after half an hour with terrible loss, and Logan that line after line was sent back broken. Logan says the enemy had evacuated his works by daylight on June 5, after the frozen interval.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The June 5 evacuation is later context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA011"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ga011-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.85 (OCR page markers; not checked against print)",
+          "quote": "The combat raged for half an hour, when the enemy retreated, having suffered terrible loss."
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-dallas",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "Line after line was sent back broken to tlieh works,"
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-dallas",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "By daylight on the morning of June 5 the enemy had evacuated his works and retreated."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 5,400 (US 2,400; CS 3,000); the live field reads 1880 (US 380; CS 1500). Logan reports his corps' loss as 30 killed, 295 wounded and 54 missing, aggregate 379; says he took 97 prisoners and buried over 300 Confederate dead; and estimates the enemy loss at 2,000. Cox repeats Logan's figures, says the Sixteenth Corps losses were not separately enumerated, and notes Johnston's statement of Bate's loss as some three hundred killed and wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Logan's 379 covers the Fifteenth Corps only; the live US 380 is close to it, but the frozen US 2,400 has no inspected basis.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA011"
+          },
+          "column": "casualties_text",
+          "quote": "5,400 total (US 2,400; CS 3,000)"
+        },
+        {
+          "source_id": "nps-ga011-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1880 total (US 380; CS 1500;)"
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-dallas",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "My losses were as follows : Killed, 30 ; wounded, 295 ; missing, 54 aggregate, 379."
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-dallas",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "We captured 97 prisoners. The loss of the enem^ was estimated at 2,000."
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-dallas",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "We buried of the enemy’s dead in my fron over 300 bodies."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.86 (OCR page markers; not checked against print)",
+          "quote": "Logan's loss aggregated 379 killed, wounded, and missing; those of the Sixteenth Corps were not separately enumerated in the reports."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.86 (OCR page markers; not checked against print)",
+          "quote": "for he speaks of Bate's loss as \" some three hundred, killed and wounded.\""
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "McPherson's May 28 dispatches, Dodge's and Harrow's reports, Bate's and Hardee's accounts, Johnston's report (not a family here) and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cox's Atlanta (Scribner, 1882) is a second: a retrospective Union history by the Twenty-third Corps division commander, drawing on official reports and memoirs, so it is not independent of them. Logan's Fifteenth Corps reports, printed in Volume XXXVIII Part 3, are a third family (interested Union accounts). Official Records Series I Volume XXXVIII is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Campaign-wide strength and loss totals are context, not assigned to one record."
+  ]
+}

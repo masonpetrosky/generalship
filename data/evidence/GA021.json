@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA021",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Lovejoy's Station record (August 20, 1864) in Atlanta Campaign [May-September 1864]. Kilpatrick's raid ran August 18-22; the Jonesborough depot (August 19) and the return march are context, and his loss figure spans the whole raid. The live NPS page labels the campaign \"Morgan's Raid Into Kentucky\" and dates it May-September 1864; neither field replaces the frozen campaign or battle interval. Campaign-wide totals are context and are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force fields name Kilpatrick's and Jackson's cavalry divisions without counts; the live field reads zero. Kilpatrick says he set out with his own division, two brigades of the Second Division and two batteries, 4,500 men; that Ross's brigade was 1,100 strong and Jackson's division 4,000; and that at Lovejoy's he met a brigade of infantry. NPS names Cleburne's division as the infantry. Cox says Hood sent Jackson to meet the raid.",
+      "rationale": "One-side and estimated figures; the infantry's scope differs (brigade against division). None is adopted. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA021"
+          },
+          "column": "forces_text",
+          "quote": "Kilpatrick's Cavalry Division [US]; Jackson's Cavalry Division [CS]"
+        },
+        {
+          "source_id": "nps-ga021-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.858 (OCR page markers; not checked against print)",
+          "quote": "two batteries of artillery, numbering 4,500 men,"
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.858 (OCR page markers; not checked against print)",
+          "quote": "General Ross’ brigade, 1,100 strong,"
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.859 (OCR page markers; not checked against print)",
+          "quote": "General Jackson’s division, 4,000 strong,"
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.859 (OCR page markers; not checked against print)",
+          "quote": "tered a brigade of infantry"
+        },
+        {
+          "source_id": "nps-ga021-v1",
+          "locator": "Description",
+          "quote": "Rebel infantry (Cleburne's Division) appeared"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "Hood had sufficient notice, however, to send Jack son to meet him,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "barricades-and-rivers",
+      "dimension": "terrain",
+      "value": "Kilpatrick says the Confederates built long lines of barricades on every side while his men remounted, that the Flint River bridge was burned before him on the 19th, and that his command swam Cotton Indian Creek and crossed South River on the 21st.",
+      "rationale": "Ground from an interested report; no map verification. The barricades were built during the action and are not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.859 (OCR page markers; not checked against print)",
+          "quote": "During the delay the enemy constructed long lines of barricades on every side."
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.858 (OCR page markers; not checked against print)",
+          "quote": "crossed Flint River at 2 p. m., destroying the bridge."
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.859 (OCR page markers; not checked against print)",
+          "quote": "We swam Cotton Indian Creek and crossed South River on the morning of the 21st,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-guns",
+      "dimension": "logistics",
+      "value": "Kilpatrick says his command fought the infantry for an hour and forty minutes and retired only when it had just enough ammunition left to secure the retreat, and that one gun burst and another was thrown into Cotton Indian Creek when its carriage was disabled. NPS says the raiders burned great amounts of supplies at the Jonesborough depot on the 19th.",
+      "rationale": "Condition statements from an interested report and a summary; no ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.859 (OCR page markers; not checked against print)",
+          "quote": "fought successfully the enemy’s infantry for one hour and forty minutes, and only retired when it was found that we had left only sufficient ammunition to make sure our retreat."
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-08-23",
+          "locator": "p.856 (OCR page markers; not checked against print)",
+          "quote": "that a gun-carriage of another gun became disabled and the gun thrown into Cotton Indian Creek."
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-08-23",
+          "locator": "p.856 (OCR page markers; not checked against print)",
+          "quote": "one gun belonging to the Chicago Board of Trade Battery exploded in the engagement near McDonough ;"
+        },
+        {
+          "source_id": "nps-ga021-v1",
+          "locator": "Description",
+          "quote": "Kilpatrick's men hit the Jonesborough supply depot on the Macon & Western Railroad, burning great amounts of supplies."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "enveloped-and-headquarters-doubt",
+      "dimension": "information",
+      "value": "Kilpatrick says he found himself completely enveloped by cavalry, infantry and artillery within twenty minutes, and on the 23rd disputed the impression at headquarters that little damage had been done to the railroad. Cox says Hood had sufficient notice to send Jackson. NPS calls Sherman unconcerned about Wheeler's absence.",
+      "rationale": "Attributed knowledge from an interested report, a history and a summary; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.859 (OCR page markers; not checked against print)",
+          "quote": "In twenty minutes I found that I was completely enveloped by cavalry and infantry, with artillery."
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-08-23",
+          "locator": "p.855 (OCR page markers; not checked against print)",
+          "quote": "the impression at headquarters that he had done but little damage to the railroad is erroneous."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "Hood had sufficient notice, however,"
+        },
+        {
+          "source_id": "nps-ga021-v1",
+          "locator": "Description",
+          "quote": "Maj. Gen. William Sherman, unconcerned, sent Judson Kilpatrick to raid Rebel supply lines."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "break-the-macon-road",
+      "dimension": "objectives",
+      "value": "Kilpatrick says the raid's purpose was to attack and destroy the enemy's communications; Cox says Kilpatrick was sent to make a lasting break in the Macon road, and that Sherman then concluded only a movement in force would give permanent results.",
+      "rationale": "Stated aims from interested accounts; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.858 (OCR page markers; not checked against print)",
+          "quote": "to attack and destroy the enemy’s communications."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "patrick was sent with a large division of cavalry to make a lasting break, if possible, in the Macon road."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "Sherman was now convinced that he could expect no per manent results from cutting the enemy's communications, unless it were done in force,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Kilpatrick says he and his command were saved at the repulse by Minty, Long and Estes, and that Minty's and Murray's charges broke through. Cox says Kilpatrick did some brilliant fighting. The frozen commanders are Brigadier General William H. Jackson and Brigadier General H. Judson Kilpatrick; the live page gives Brigadier General Hugh Kilpatrick and Brigadier General William Jackson.",
+      "rationale": "Attributed judgments from an interested report and history; Minty and Long are not listed commanders; the frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.859 (OCR page markers; not checked against print)",
+          "quote": "I and my command only saved by the prompt and daring [bravery] of Colonels Minty and Long, and Captain Estes,"
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.859 (OCR page markers; not checked against print)",
+          "quote": "Colonel Minty, with his com¬ mand in three columns, charged, broke, and rode over the enemy’s left."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "and had done some brilliant fighting,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA021",
+            "belligerent": "Confederate",
+            "fullname": "William H. Jackson"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA021",
+            "belligerent": "US",
+            "fullname": "H. Judson Kilpatrick"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-ga021-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Hugh Kilpatrick [US]"
+        },
+        {
+          "source_id": "nps-ga021-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General William Jackson [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Kilpatrick says he was repulsed at the station, then routed Jackson's division in 'the most perfect rout any cavalry has sustained during the war', and destroyed four miles of the Macon road. Cox says no permanent interruption of the railway was made; NPS says the raiders fled to prevent encirclement and the line was running again in two days.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Kilpatrick's rout claim conflicts with the frozen result and the NPS account.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA021"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ga021-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.859 (OCR page markers; not checked against print)",
+          "quote": "tered a brigade of infantry — was repulsed ;"
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.859 (OCR page markers; not checked against print)",
+          "quote": "It was the most perfect rout any cavalry has sus¬ tained during the war."
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.859 (OCR page markers; not checked against print)",
+          "quote": "We effectively destroyed four miles of the Macon road,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "east-point-utoy-dalton",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "no permanent interruption of the railway was made,"
+        },
+        {
+          "source_id": "nps-ga021-v1",
+          "locator": "Description",
+          "quote": "finally fleeing to prevent encirclement."
+        },
+        {
+          "source_id": "nps-ga021-v1",
+          "locator": "Description",
+          "quote": "the railroad line was back in operation in two days."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads 477 (US 237; CS 240). Kilpatrick says his whole loss on the raid would not exceed 300, of whom 200 were killed and wounded; that he captured 4 guns (3 destroyed, 1 brought off) and 3 flags; and that the enemy's killed and wounded were known to be large.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Kilpatrick's figure covers August 18-22, not the frozen date alone.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA021"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-ga021-v1",
+          "locator": "Estimated Casualties",
+          "quote": "477 total (US 237; CS 240;)"
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.859 (OCR page markers; not checked against print)",
+          "quote": "My entire loss in killed, wounded, and missing will not exceed 300 men."
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.859 (OCR page markers; not checked against print)",
+          "quote": "Two 'hundred of this number were killed and wounded."
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.859 (OCR page markers; not checked against print)",
+          "quote": "We captured 4 guns (3 were destroyed and 1 brought off) ; 3 battle-flags were taken ;"
+        },
+        {
+          "source_id": "or38-2-kilpatrick-lovejoy-selections-v1",
+          "section": "kilpatrick-1864-09-13",
+          "locator": "p.859 (OCR page markers; not checked against print)",
+          "quote": "his killed and wounded is known to be large."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Kilpatrick's 'report of this morning' of August 23 (not found in No. 411), Murray's, Minty's and Long's reports, Jackson's and Ross's reports, Cleburne's division records and the casualty list printed with Kilpatrick's report remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cox's Atlanta (Scribner, 1882) is a second: a retrospective Union history by the Twenty-third Corps division commander, drawing on official reports and memoirs, so it is not independent of them. Kilpatrick's August 23 dispatch and September 13 report, printed in Volume XXXVIII Part 2, are a third family (interested Union accounts). Official Records Series I Volume XXXVIII is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Campaign-wide strength and loss totals are context, not assigned to one record."
+  ]
+}

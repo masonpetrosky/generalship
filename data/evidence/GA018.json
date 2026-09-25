@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA018",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Ezra Church record (July 28, 1864) in Atlanta Campaign [May-September 1864]. The cavalry expeditions of McCook and Stoneman begun on July 27 are context. The live NPS page labels the campaign \"Morgan's Raid Into Kentucky\" and dates it May-September 1864; neither field replaces the frozen campaign or battle interval. Campaign-wide totals are context and are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force fields name the Army of the Tennessee against two corps of the Army of Tennessee without counts; the live field reads zero. Cox says Lee's corps attacked, supported by Loring's and Walthall's divisions of Stewart's corps, and that Howard massed his artillery on the flank. Logan says prisoners reported the assault made by Hardee's and Lee's corps entire (his July 29 report says Hardee's and Lee's corps), that the enemy exceeded him in numbers, that he received about 1,000 men from Blair and Dodge, and that the enemy used one battery and he none.",
+      "rationale": "Conflicting identifications of the attacking corps and of the artillery used; no count of troops engaged is inspected and none is adopted. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA018"
+          },
+          "column": "forces_text",
+          "quote": "Army of the Tennessee [US]; two corps of Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-ga018-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.184 (OCR page markers; not checked against print)",
+          "quote": "He withdrew Loring's and Walthall's divisions of Stewart's corps, to support General S. D. Lee,"
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-ezra-church",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "Hardee s and Lee s (late Hood’s) corps entire."
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-1864-07-29",
+          "locator": "p.86 (OCR page markers; not checked against print)",
+          "quote": "we were met by the rebel infantry from Hardee’s and Lee’s corps,"
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-ezra-church",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "It was an open field fight, in which the - enemy exceeded us in numerical strength,"
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-ezra-church",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "in all 'about 1,000 men."
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-ezra-church",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "The enemy used one battery, of artillery. We used none whatever."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "Howard massed his artillery to sweep the open ground on his flank,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "ridge-and-cover",
+      "dimension": "terrain",
+      "value": "Logan says his line held the crest of a continuous ridge with a good field of fire. His July 29 report says the lines were protected only by hastily thrown logs and rails, while his campaign report says the troops had not had a moment to build even the rudest defences. Cox says Logan's men had made some cover, that the ground was high with a partly open slope, and that the Fifteenth Corps line bent back at nearly a right angle.",
+      "rationale": "Ground described by interested accounts, with an intra-source difference over cover; no map verification. The position was taken during the march and is not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-ezra-church",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "it being the crest of a continuous ridge,"
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-1864-07-29",
+          "locator": "p.86 (OCR page markers; not checked against print)",
+          "quote": "My lines were only protected by logs and rails hastily thrown in front of them."
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-ezra-church",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "The troops had not had a moment to construct even the rudest defenses."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.184 (OCR page markers; not checked against print)",
+          "quote": "Logan's men had made some cover for themselves after the presence of the enemy was discovered,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.184 (OCR page markers; not checked against print)",
+          "quote": "The ground was high and the slope in front partially open ;"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.184 (OCR page markers; not checked against print)",
+          "quote": "line bent back from Ezra Church nearly at a right angle to Blair's."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "rail-and-trains",
+      "dimension": "logistics",
+      "value": "Cox says the railway reached Thomas's camps by July 25 over a Chattahoochee bridge built in six days, and that the Army of the Tennessee sent its trains and hospitals toward Peachtree Creek before moving.",
+      "rationale": "Movement and supply statements from an interested history; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "By July 25th the railway from Chattanooga was in running order to Thomas's camps, Colonel Wright having built the high bridge over the Chattahoochee in six days."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "The Army of the Tennessee was ordered to send its trains and field hospitals to a point near the mouth of Peach- tree Creek,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "maps-and-morale-reports",
+      "dimension": "information",
+      "value": "Cox says Davis's flanking division took a wrong road for lack of accurate maps and never reached the field, and that prisoners uniformly described the July 20, 22 and 28 attacks as useless in their army's view. Logan says the assault fell suddenly. NPS says Howard had anticipated the thrust.",
+      "rationale": "Attributed knowledge and prisoner testimony from interested accounts and a summary; the prisoner statements are not a morale measure.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "the lack of ac curate maps had caused it to get upon a wrong road, and it did not reach the field."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.186 (OCR page markers; not checked against print)",
+          "quote": "was looked upon as useless and hopeless by his army."
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-ezra-church",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "the enemy suddenly and with the greatest fury assaulted the right and center * of my line."
+        },
+        {
+          "source_id": "nps-ga018-v1",
+          "locator": "Description",
+          "quote": "Howard had anticipated such a thrust,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "hold-the-road-or-cut-the-rail",
+      "dimension": "objectives",
+      "value": "Cox says Lee was ordered to attack Howard and drive him from the Lickskillet road and the road by Ezra Church, and judges it wise to strike Howard's right while it was moving and before it could entrench. NPS says Sherman sent Howard to cut the last railroad between East Point and Atlanta.",
+      "rationale": "Stated plans from an interested history and a summary; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.184 (OCR page markers; not checked against print)",
+          "quote": "was ordered to move out on the Lickskillet road, attack Howard, and drive him from that road and the one by Ezra Church."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.184 (OCR page markers; not checked against print)",
+          "quote": "he was wise in determining to strike How ard's right while in motion, and before it could intrench."
+        },
+        {
+          "source_id": "nps-ga018-v1",
+          "locator": "Description",
+          "quote": "to move from the left wing to the right and cut Hood's last railroad supply line between East Point and Atlanta."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Cox says Stewart, Loring, Brown and Johnson were all wounded leading attacks, that some Confederate units finally refused to advance, and that Sherman and Howard were with Logan's corps. Logan credits his three division commanders equally and thanks Blair and Dodge. The frozen commanders are General John Bell Hood and Major General Oliver O. Howard; the live page gives Major General Oliver Howard and General John Hood.",
+      "rationale": "Attributed judgments from interested accounts; Logan and Lee are not listed commanders; the frozen commanders do not receive automatic sole credit, and the live ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "Stewart, Loring, Brown, and Johnson wrere all wounded and disabled."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "In the last attacks portions of the command refused to advance,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.184 (OCR page markers; not checked against print)",
+          "quote": "Sherman himself, as well as Howard, was with Logan's corps"
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-ezra-church",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "division commanders, are entitled to equal credit"
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-ezra-church",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "Major-Generals Blair and Dodge have my warmest thanks"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA018",
+            "belligerent": "Confederate",
+            "fullname": "John Bell Hood"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA018",
+            "belligerent": "US",
+            "fullname": "Oliver O. Howard"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga018-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Oliver Howard [US]"
+        },
+        {
+          "source_id": "nps-ga018-v1",
+          "locator": "Principal Commanders",
+          "quote": "General John Hood [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Logan says every assault was repelled; Cox says the enemy acknowledged himself beaten before sunset. NPS says Howard repulsed the attack but failed to cut the railroad.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA018"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ga018-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-ezra-church",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "and repelled the. assault handsomely,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "before sunset the enemy acknowledged himself beaten, and drewT out of musket range."
+        },
+        {
+          "source_id": "nps-ga018-v1",
+          "locator": "Description",
+          "quote": "Howard, however, failed to cut the railroad."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 3,562 (US 562; CS 3,000); the live field reads 5342 (US 700; CS 4642). Logan's July 29 and campaign reports both give his corps' loss as 50 killed, 439 wounded and 73 missing, aggregate 562; the first says 565 Confederates buried and about 200 unburied, the second over 600 buried; both judge the enemy loss at not less than 6,000 or 7,000. Cox says Howard reported under six hundred lost, fewer than the almost seven hundred Confederate dead buried by Logan, and that Howard estimated the enemy loss at five thousand.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen US 562 equals Logan's Fifteenth Corps aggregate, which does not cover the reinforcing regiments of the other corps; whether the frozen figure derives from it is not established. The Confederate figures are estimates.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA018"
+          },
+          "column": "casualties_text",
+          "quote": "3,562 total (US 562; CS 3,000)"
+        },
+        {
+          "source_id": "nps-ga018-v1",
+          "locator": "Estimated Casualties",
+          "quote": "5342 total (US 700; CS 4642;)"
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-1864-07-29",
+          "locator": "p.86 (OCR page markers; not checked against print)",
+          "quote": "My losses were 50 killed, 439 wounded, and 73 missing ; aggregate, 562."
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-ezra-church",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "My losses were 50 killed, 439 wounded, and 73 missing."
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-1864-07-29",
+          "locator": "p.86 (OCR page markers; not checked against print)",
+          "quote": "Five hundred and sixty-five rebels have been already buried, and about 200 yet supposed to be unburied."
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-campaign-report-ezra-church",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "Over 600 of the enemy’s dead were buriecl in my front."
+        },
+        {
+          "source_id": "or38-3-logan-fifteenth-corps-selections-v1",
+          "section": "logan-1864-07-29",
+          "locator": "p.86 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s loss could not have been, in my judgment, less that 6,000 or 7,000."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "Howard reported his losses under six hundred killed, wounded, and missing, which was less than the number of Confederate dead left upon the field and buried by Logan, for the total of these was almost seven hundred."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "ezra-church",
+          "locator": "p.185 (OCR page markers; not checked against print)",
+          "quote": "Howard's estimate of the enemy's loss at five thousand in all forms, was therefore a reasonable one,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Howard's army report, Blair's and Dodge's reports, S. D. Lee's report (opening read only), Stewart's report, Brown's and the Alabama regiments' reports and the compiled returns remain deferred. Hood's army report, a family for GA016-GA017, also covers July 28 but is not used as a family here under the three-family ceiling.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cox's Atlanta (Scribner, 1882) is a second: a retrospective Union history by the Twenty-third Corps division commander, drawing on official reports and memoirs, so it is not independent of them. Logan's Fifteenth Corps reports, printed in Volume XXXVIII Part 3, are a third family (interested Union accounts). Official Records Series I Volume XXXVIII is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Campaign-wide strength and loss totals are context, not assigned to one record."
+  ]
+}

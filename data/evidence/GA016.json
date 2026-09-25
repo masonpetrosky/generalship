@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA016",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Peachtree Creek record (July 20, 1864) in Atlanta Campaign [May-September 1864]. Hood replaced Johnston on July 17-18; the Union crossings of July 19 and McPherson's approach on the east the same day are context. The live NPS page labels the campaign \"Morgan's Raid Into Kentucky\" and dates it May-September 1864; neither field replaces the frozen campaign or battle interval. Campaign-wide totals are context and are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force fields name the Army of the Cumberland and the Army of Tennessee without counts; the live field reads zero. Hood gives the army's effective strength when he took command on July 18 as 33,750 infantry, 3,500 artillery and 10,000 cavalry, with 1,500 Georgia militia, a total of 48,750. Cox's Appendix A gives Johnston's July 10 return (present 73,849, effectives 50,932). Cox calls the Army of the Cumberland nearly fifty thousand men, says Hood's attack fell on Newton's division and Hooker's corps while Palmer's corps was almost unemployed, and gives Hardee's formation of four divisions with Cleburne's in reserve.",
+      "rationale": "Army totals on different dates and bases (effective, present) and an approximate Union army size; none measures the troops engaged and none is adopted. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA016"
+          },
+          "column": "forces_text",
+          "quote": "Army of the Cumberland [US]; Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-ga016-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.630 (OCR page markers; not checked against print)",
+          "quote": "fantry, 33,750; artillery, 3,500; cavalry, 10,000, with 1,500 Georgia"
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.630 (OCR page markers; not checked against print)",
+          "quote": "effective of 48,750 men."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "appendix-a",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "aggre gate present and absent, 135,092, present 73,849, effectives 50,932."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "but the Army of the Cumberland was a single organization of nearly fifty thousand men,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "Hood's attack fell upon Newton's division and Hooker's corps, leaving Palmer's corps almost wholly unemployed,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.161 (inferred page: the p.161 running head reads \"1G1\" in OCR; not checked against print)",
+          "quote": "Hardee formed his troops with Bate's division on his right, Walker's in the centre, Maney's on the left, and Cleburne's in reserve."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "creek-and-ravines",
+      "dimension": "terrain",
+      "value": "Hood calls Peachtree Creek a considerable obstacle to an army; Cox says its marshy banks and muddy channel made it no inconsiderable obstacle, that the ridges and ravines threw forward each Union division's right, and that Newton had covered his front with a hasty barricade of rails and timber. NPS places the creek about three miles north of Atlanta.",
+      "rationale": "Ground described by interested accounts and a summary; no map verification. Union barricades were built that day and are not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.630 (OCR page markers; not checked against print)",
+          "quote": "This creek, forming a considerable obstacle to the passage of an army,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.151 (OCR page markers; not checked against print)",
+          "quote": "which, from its marshy banks and deep muddy channel, was no inconsiderable obstacle ;"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "The direction of all these ridges and ra vines from Newton to Williams was such as to throw for ward the right of each command as it rested on them,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.155 (OCR page markers; not checked against print)",
+          "quote": "had covered his front hastily with a barricade of rails and timber."
+        },
+        {
+          "source_id": "nps-ga016-v1",
+          "locator": "Description",
+          "quote": "an east to west flowing stream, about three miles north of Atlanta."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supply-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "rationale": "No battle-specific supply, ammunition or transport return was inspected. Retrospective descriptions are not readiness measures.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "maps-and-extension",
+      "dimension": "information",
+      "value": "Cox says Thomas could not see Hood's lines through the forest, that misleading maps misled him and Sherman about the gap between the wings, that Johnston knew the country by occupation, and that Schofield and McPherson approached faster than Hood was aware. Hood says Union demonstrations on his right forced Cheatham to extend a division front, which delayed the attack.",
+      "rationale": "Attributed knowledge from interested accounts; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "But Thomas had no means of seeing through the impenetra ble veil of the forest-covered hills in his front,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.154 (OCR page markers; not checked against print)",
+          "quote": "the misleading maps which deceived both him and Sherman as to the distance between the wings of the army."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.147 (OCR page markers; not checked against print)",
+          "quote": "Johnston had the important advantage of knowing the country by occupation, and not from imperfect maps."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.153 (OCR page markers; not checked against print)",
+          "quote": "But Schofield and McPherson were approaching Atlanta from the east faster than Hood was aware,"
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.630 (OCR page markers; not checked against print)",
+          "quote": "Owing to the demonstrations of the enemy on the right, it became necessary to extend Cheatham a division front to the right."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "crush-thomas",
+      "dimension": "objectives",
+      "value": "Hood says his object was to crush Thomas's army before it could fortify and then turn on Schofield and McPherson, attacking at 1 p.m. by divisions in echelon from the right. Cox says Hood and his subordinates meant a decisive engagement, and cites Johnston's statement that he had told Hood of his plan to attack at Peachtree Creek. NPS says Johnston had decided to attack Thomas before being relieved.",
+      "rationale": "Stated plans from interested accounts and a summary; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.630 (OCR page markers; not checked against print)",
+          "quote": "My object was to crush Thomas’ army before he could fortify him¬ self, and then turn upon Schofield and McPherson."
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.630 (OCR page markers; not checked against print)",
+          "quote": "The attack was to begin at 1 p. m., the movement to be by division in echelon from the right,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.159 (OCR page markers; not checked against print)",
+          "quote": "Hood and his subordinates agree in saying that this was intended for a decisive engagement,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.149 (OCR page markers; not checked against print)",
+          "quote": "Johnston tells us that he fully informed Hood of his plans, both for attacking Sherman at Peachtree Creek,"
+        },
+        {
+          "source_id": "nps-ga016-v1",
+          "locator": "Description",
+          "quote": "Johnston had decided to attack Thomas, but Confederate President Jefferson Davis relieved him of command and appointed John B. Hood to take his place."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Hood blames Hardee for the delay to nearly 4 p.m. and for failing to push the attack. Cox says Hood's later report sought to hold Hardee responsible and was neither quite just nor generous, that Ward's brigade commanders attacked without waiting for orders, and that Thomas in person placed Ward's batteries. The frozen commanders are General John Bell Hood and Major General George H. Thomas; the live page gives the same ranks.",
+      "rationale": "Attributed judgments from interested accounts in dispute; Hardee is not a listed commander; the frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.630 (OCR page markers; not checked against print)",
+          "quote": "In consequence of this the attack was delayed until nearly 4 p. m."
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.631 (OCR page markers; not checked against print)",
+          "quote": "Hardee failed to push the attack, as ordered,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.162 (inferred page: the p.162 running head reads \"1G2\" in OCR; not checked against print)",
+          "quote": "then he sought to hold Hardee responsible for this among other misfortunes around Atlanta."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.162 (inferred page: the p.162 running head reads \"1G2\" in OCR; not checked against print)",
+          "quote": "He was neither quite just nor generous."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.156 (OCR page markers; not checked against print)",
+          "quote": "His brigade commanders seized the initiative without waiting for orders,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.157 (OCR page markers; not checked against print)",
+          "quote": "General Thomas was there in person, and ordering up Ward's batteries,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA016",
+            "belligerent": "Confederate",
+            "fullname": "John Bell Hood"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA016",
+            "belligerent": "US",
+            "fullname": "George H. Thomas"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga016-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General George Thomas [US]"
+        },
+        {
+          "source_id": "nps-ga016-v1",
+          "locator": "Principal Commanders",
+          "quote": "General John Hood [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Hood says Stewart's corps carried temporary works but had to abandon them, and that when the attack failed he withdrew the troops to their former positions. Cox says the attack was repulsed along the whole line. NPS says the Union troops held and the Confederates fell back.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA016"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ga016-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or38-3-hood-atlanta-selections-v1",
+          "section": "hood-1865-02-15",
+          "locator": "p.631 (OCR page markers; not checked against print)",
+          "quote": "Ascertaining that the attack had failed, I caused the troops to retire to their former positions."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "Along the whole line the attack had been repulsed,"
+        },
+        {
+          "source_id": "nps-ga016-v1",
+          "locator": "Description",
+          "quote": "Ultimately, though, the Yankees held, and the Rebels fell back."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty texts read 6,506 (US 1,710; CS 4,796). Cox gives the Army of the Cumberland's reported loss, except Palmer's corps, as 1,707; notes that Hood did not dispute Hooker's estimate of 4,400 Confederate killed and wounded in front of the Twentieth Corps; says Geary's parties buried 409 Confederates; puts the Confederate dead at not below 800 and total losses at about six thousand. Hood's report gives no figure for the day.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Cox's Confederate figures are estimates built on burial counts and an assumed ratio; Cox's 1,707 excludes Palmer's corps and differs from the frozen 1,710.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA016"
+          },
+          "column": "casualties_text",
+          "quote": "6,506 total (US 1,710; CS 4,796)"
+        },
+        {
+          "source_id": "nps-ga016-v1",
+          "locator": "Estimated Casualties",
+          "quote": "6506 total (US 1710; CS 4796;)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "Those of the Army of the Cumberland, ex cept in Palmer's corps, are fully and officially reported, and were 1,707 killed, wounded, and missing."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "does not criticise its statement of Hooker's estimate of 4,400 killed and wounded in front of the Twentieth Corps."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.158 (OCR page markers; not checked against print)",
+          "quote": "Geary's fatigue parties buried 409 Confederates,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.159 (OCR page markers; not checked against print)",
+          "quote": "it would seem impossible to put the Confederate dead below 800."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "peachtree-creek",
+          "locator": "p.159 (OCR page markers; not checked against print)",
+          "quote": "This would make his casualties in all, including prisoners, about six thousand."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Thomas's, Hooker's, Newton's, Geary's, Ward's and Williams's reports, Stewart's and Hardee's accounts of July 20 (Hardee's report was read for GA022 but is not a family here) and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cox's Atlanta (Scribner, 1882) is a second: a retrospective Union history by the Twenty-third Corps division commander, drawing on official reports and memoirs, so it is not independent of them. Hood's February 15, 1865 report, printed in Volume XXXVIII Part 3, is a third family (interested Confederate account). Official Records Series I Volume XXXVIII is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Campaign-wide strength and loss totals are context, not assigned to one record."
+  ]
+}

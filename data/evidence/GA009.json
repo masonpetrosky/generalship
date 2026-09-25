@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA009",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Adairsville record (May 17, 1864) in Atlanta Campaign [May-September 1864]. The pursuit from Resaca on May 16 and the Cassville positions of May 18-19 are context outside the frozen date. The live NPS page labels the campaign \"Morgan's Raid Into Kentucky\" and dates it May-September 1864; neither field replaces the frozen campaign or battle interval. Campaign-wide totals are context and are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force fields name the two armies without counts; the live field reads zero. Cox says French's infantry and Jackson's cavalry divisions joined at Adairsville and that from May 15 for a month the two armies were more nearly equal than at any other time in the campaign; his Appendix A gives Jackson's line-of-battle strength from Lee's May 10 return as 405 officers and 4,072 men. Cox says Cheatham's division and Wheeler's cavalry formed the rear guard. Johnston cites the great numerical superiority of the Federal army.",
+      "rationale": "Army-level and divisional figures on different dates and bases, plus conflicting qualitative judgments; none measures troops engaged on May 17 and none is adopted. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA009"
+          },
+          "column": "forces_text",
+          "quote": "Military Division of the Mississippi [US]; Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-ga009-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "march-on-dallas",
+          "locator": "p.63 (OCR page markers; not checked against print)",
+          "quote": "French's division of infantry and Jackson's of cavalry had joined Folk's corps at Adairsville,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "march-on-dallas",
+          "locator": "p.63 (OCR page markers; not checked against print)",
+          "quote": "From the 15th of May for a month the forces of the two armies were more nearly equal than at any other time in the campaign,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "appendix-a",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "as given by Lee's return of May 10th, of 405 officers an.l 4,072 men."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "Cheatham's division of Hardee's corps, with Wheeler's cavalry, formed the rear guard."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "the great numerical superiority of the Federal army,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "valley-too-wide",
+      "dimension": "terrain",
+      "value": "Cox says the country between the Oostanaula and Etowah was the most open in northern Georgia, that Johnston sought a valley narrow enough to rest both wings on commanding ground, and that at Adairsville the valley was again found too wide; the rear guard fought from barricades of rails and logs. NPS says the valley was too wide, so Johnston disengaged.",
+      "rationale": "Ground described by an interested history and a summary; no map verification. The valley's width is an inherited feature, but Johnston's choice of ground is his own; no inherited tag is assigned.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "country south of Eesaca and between the Oostanaula and E to wah Rivers is much more open and less broken than any other portion of Northern Georgia."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.49 (OCR page markers; not checked against print)",
+          "quote": "He sought, therefore, for a position in some valley narrow enough to enable him to rest either wing upon commanding ground"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "The breadth of the valley was again found too great,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "They made temporary barricades of rails and logs, behind which they fought,"
+        },
+        {
+          "source_id": "nps-ga009-v1",
+          "locator": "Description",
+          "quote": "The valley, however, was too wide, so Johnston disengaged and withdrew."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "crossings-and-trains",
+      "dimension": "logistics",
+      "value": "Cox says the Army of the Cumberland spent all of the 16th getting its artillery train over the Resaca bridges, that Hooker's and Schofield's columns had no pontoon train, and that Schofield ferried his artillery and wagons over in a small flat-boat.",
+      "rationale": "Movement difficulties from an interested history; no transport return inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.51 (OCR page markers; not checked against print)",
+          "quote": "The Army of the Cumberland found it slower work than had been expected, getting its large artillery train over the bridges at Resaca, and the whole of the 16th was used up in doing it."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.51 (OCR page markers; not checked against print)",
+          "quote": "Neither of these columns had a pontoon train, the only ones with the army being at Resaca and Lay's Ferry."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.51 (OCR page markers; not checked against print)",
+          "quote": "the artillery and wagons being ferried over in a small flat-boat,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "engineer-reports-and-maps",
+      "dimension": "information",
+      "value": "Cox says Johnston's engineers had reported suitable ground north of Adairsville, that the maps were almost worthless and the inhabitants gave false reports, and that Sherman narrowly escaped artillery fire while reconnoitring. NPS says Johnston had expected a valley of suitable width.",
+      "rationale": "Attributed knowledge from an interested history and a summary; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "Johnston's engineers reported that a mile or two north of Adairsville suitable ground could be found."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "But the maps of the country were almost worth less, and were often misleading ; the inhabitants were hos tile and gave false reports,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "Sherman was now with Newton's division in the advance, and had a nar row escape from shots of the enemy's artillery as he was re connoitring,"
+        },
+        {
+          "source_id": "nps-ga009-v1",
+          "locator": "Description",
+          "quote": "Johnston had originally expected to find a valley at Adairsville of suitable width to deploy his men and anchor his line with the flanks on hills."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "fall-back-or-fight",
+      "dimension": "objectives",
+      "value": "Johnston says he determined to fall back slowly until circumstances favoured battle, keeping close enough to stop Sherman sending reinforcements to Grant. Cox says Sherman's plan was for the Army of the Cumberland to hold Johnston while a wing attacked his flank or rear, and that at nightfall Sherman hoped for a pitched battle next day. NPS says Sherman concentrated to attack the next day.",
+      "rationale": "Stated aims from interested accounts and a summary; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "I, therefore, determined to fall back slowly until circumstances should put the chances of battle in our favor,"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "keeping so near the U. S. army as to prevent its sending re-enforcements to Grant,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "Sherman's calculation, in his march south from Resaca, was that the Army of the Cumberland in his centre was always strong enough to hold Johnston at bay until one of the wings could attack his flank or rear."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.52 (OCR page markers; not checked against print)",
+          "quote": "The appearance of things at nightfall made Sherman hope that Johnston would offer a pitched battle the next day,"
+        },
+        {
+          "source_id": "nps-ga009-v1",
+          "locator": "Description",
+          "quote": "Sherman then concentrated his men in the Adairsville area to attack Johnston the next day."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Johnston says Hardee checked the enemy after severe skirmishing. NPS says Thomas halted three Union divisions because of darkness. The frozen commanders are General Joseph E. Johnston and Major General William T. Sherman; the live page gives General William Sherman and Lieutenant Colonel Joseph Johnston.",
+      "rationale": "Attributed actions from an interested report and a summary; Hardee and Thomas are not listed commanders; the frozen commanders do not receive automatic sole credit, and the live ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.615 (OCR page markers; not checked against print)",
+          "quote": "Hardee after severe skirmishing checked the enemy."
+        },
+        {
+          "source_id": "nps-ga009-v1",
+          "locator": "Description",
+          "quote": "Three Union divisions prepared for battle, but Maj. Gen. George H. Thomas halted them due to the approach of darkness."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA009",
+            "belligerent": "Confederate",
+            "fullname": "Joseph E. Johnston"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA009",
+            "belligerent": "US",
+            "fullname": "William T. Sherman"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga009-v1",
+          "locator": "Principal Commanders",
+          "quote": "General William Sherman [US]"
+        },
+        {
+          "source_id": "nps-ga009-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant Colonel Joseph Johnston [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result is a Confederate delaying action (credited with allowing the Cassville plan); the live page reads Confederate Victory. Cox says Johnston ordered a further retreat to Cassville and that the lines were vacant at daybreak on the 18th. NPS says the 44th Illinois and 24th Wisconsin attacked Cheatham's division at the Saxon (Octagon) house with heavy losses.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The frozen gloss about Cassville is a later-campaign judgment, not part of the tactical result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA009"
+          },
+          "column": "results_text",
+          "quote": "Confederate delaying action"
+        },
+        {
+          "source_id": "nps-ga009-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "and he gave orders for a further retreat to Cassville."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "oostanaula-to-etowah",
+          "locator": "p.53 (OCR page markers; not checked against print)",
+          "quote": "were vacant, and the pursuit took a new and somewhat em barrassing shape."
+        },
+        {
+          "source_id": "nps-ga009-v1",
+          "locator": "Description",
+          "quote": "attacked Cheatham's Division at Robert Saxon (the Octagon House) and incurred heavy losses."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Total unknown (US 200; CS unknown); the live field reads 200 (US 200; CS 0). Neither Cox nor Johnston gives an Adairsville figure in the inspected passages.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The live CS zero is not measured absence, and the Union 200 has no inspected basis.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA009"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US 200; CS unknown)"
+        },
+        {
+          "source_id": "nps-ga009-v1",
+          "locator": "Estimated Casualties",
+          "quote": "200 total (US 200; CS 0;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Howard's, Newton's and Wood's reports, Hardee's itinerary for May 17, Cleburne's August 16 report (read, not selected) and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cox's Atlanta (Scribner, 1882) is a second: a retrospective Union history by the Twenty-third Corps division commander, drawing on official reports and memoirs, so it is not independent of them. Johnston's October 20, 1864 report, printed in Volume XXXVIII Part 3, is a third family (interested Confederate account). Official Records Series I Volume XXXVIII is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Campaign-wide strength and loss totals are context, not assigned to one record."
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA012",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Pickett's Mill record (May 27, 1864) in Atlanta Campaign [May-September 1864]. Cleburne calls the ground the Pickett Settlement; New Hope Church (GA010) and Dallas (GA011) are separate records. The live NPS page labels the campaign \"Morgan's Raid Into Kentucky\" and dates it May-September 1864; neither field replaces the frozen campaign or battle interval. Campaign-wide totals are context and are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force fields name the IV Corps against Cleburne's Division and Kelly's Brigade without counts; the live field reads zero. Cleburne says he carried 4,683 muskets into the engagement, supported by a dismounted cavalry force on his right and later Quarles's brigade. Cox says Wood's division attacked in a column six lines deep, with Johnson's division (Fourteenth Corps) in echelon and McLean's brigade (Army of the Ohio) as support, and that Wheeler's dismounted cavalry struck Johnson's flank.",
+      "rationale": "Cleburne's musket count is a partial one-side figure (muskets, not all personnel) for his division; the Union attacking force was not only the IV Corps. No matched count is inspected and none is adopted. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA012"
+          },
+          "column": "forces_text",
+          "quote": "IV Corps [US]; Cleburne's Division and Brig. Gen. John H. Kelly's Brigade [CS]"
+        },
+        {
+          "source_id": "nps-ga012-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.726 (inferred page: the p.726 running head reads \"Y26\" in OCR; not checked against print)",
+          "quote": "carrying into the engagement 4,683 muskets."
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.724 (OCR page markers; not checked against print)",
+          "quote": "a dismounted cavalry force, in line behind a few disconnected heaps of ston loosely piled together,"
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.725 (OCR page markers; not checked against print)",
+          "quote": "Quarles’ brigade, of Stewart’s division, just then evidentially sent up by General Hood"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.77 (OCR page markers; not checked against print)",
+          "quote": "During the forenoon of the 27th, Wood's division was drawn out and formed in a column six lines deep,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.77 (OCR page markers; not checked against print)",
+          "quote": "Johnson's division was in echelon on Wood's left, Scribner's brigade in front,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.77 (OCR page markers; not checked against print)",
+          "quote": "McLean's brigade, the support on the right,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "whilst Wheeler's dismounted cavalry made the flank attack upon Johnson's division at Pickett's Mill."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "wooded-ravine-and-angle",
+      "dimension": "terrain",
+      "value": "Cleburne says his position was covered with trees and undergrowth, that a deep ravine ran in front of Granbury, and that entrenchments were thrown up on the 26th and 27th. Cox says the ground was a dense wood broken into ravines where nothing could be seen, and that what Howard and Wood took for the end of the Confederate line was an angle making a sharply refused flank.",
+      "rationale": "Ground described by interested accounts; no map verification. The Confederate works were built during the operation and are not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.724 (OCR page markers; not checked against print)",
+          "quote": "in the main covered with trees and undergrowth, which served as a screen"
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.724 (OCR page markers; not checked against print)",
+          "quote": "was a deep ravine,"
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.724 (OCR page markers; not checked against print)",
+          "quote": "Intrenchments were thrown up in tl afternoon and night of the 26th and in the morning of the 27tli."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.80 (OCR page markers; not checked against print)",
+          "quote": "The ground, however, was a dense wood broken into ravines, where nothing could be seen, and where the embarrassments were scarcely less than in a night attack."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "what Howard and Wood supposed to be the extremity of the enemy's line was only an angle of his works, which there made a sharply refused flank."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-and-guns",
+      "dimension": "logistics",
+      "value": "Cox says McLean left Howard when the attack was abandoned, his men being without rations. Cleburne says his ordnance, medical department and artillery were well administered, but that his Napoleon guns sent to the right could find no positions and were useless.",
+      "rationale": "Condition statements from interested accounts; no supply or ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.78 (OCR page markers; not checked against print)",
+          "quote": "regarding his connection with it as limited to the day, and his men being without rations."
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.726 (inferred page: the p.726 running head reads \"Y26\" in OCR; not checked against print)",
+          "quote": "were well administered."
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.726 (inferred page: the p.726 running head reads \"Y26\" in OCR; not checked against print)",
+          "quote": "I had sent the Napoleon guns to the right, where they were unable to find positions, and so were useless."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "overlap-belief-and-warning",
+      "dimension": "information",
+      "value": "Cox says Howard and Wood's reconnaissance seemed to show they overlapped the Confederate line and that prisoners' statements suggested only cavalry held the flank. Cleburne says Govan's morning reconnaissance reported the enemy moving to their own left. NPS calls the flank seemingly exposed and says the Confederates were ready.",
+      "rationale": "Attributed knowledge from interested accounts and a summary; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.77 (OCR page markers; not checked against print)",
+          "quote": "This time the reconnoissance by Generals Howard and Wood seemed to show that they overlapped the Confederate line,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.77 (OCR page markers; not checked against print)",
+          "quote": "the state ments of prisoners seemed to indicate that only Wheeler's cavalry were holding the enemy's flank"
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.724 (OCR page markers; not checked against print)",
+          "quote": "Govan sent me woi that the enemy was moving to the right"
+        },
+        {
+          "source_id": "nps-ga012-v1",
+          "locator": "Description",
+          "quote": "seemingly exposed right flank."
+        },
+        {
+          "source_id": "nps-ga012-v1",
+          "locator": "Description",
+          "quote": "The Confederates were ready for the attack,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "turn-the-right-flank",
+      "dimension": "objectives",
+      "value": "Cox says Wood, supported by Johnson and McLean, was to make a vigorous effort to turn the Confederate right, under orders to avoid direct assault on fortified lines. Cleburne says Lowrey's successive formation answered the Union attempt to extend its left and turn his right. NPS says Sherman ordered Howard to attack.",
+      "rationale": "Stated plans from interested accounts and a summary; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.76 (OCR page markers; not checked against print)",
+          "quote": "should make a vigorous effort to turn the right flank of the enemy."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.77 (OCR page markers; not checked against print)",
+          "quote": "as the orders to the division were to avoid a direct assault on fortified lines,"
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.726 (inferred page: the p.726 running head reads \"Y26\" in OCR; not checked against print)",
+          "quote": "His successive formation was the precise answer to the enemy’s movement in extending his left to turn our right."
+        },
+        {
+          "source_id": "nps-ga012-v1",
+          "locator": "Description",
+          "quote": "Maj. Gen. William T. Sherman ordered Maj. Gen. O.O. Howard to attack"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Cox says McLean's diversion miscarried through some mistake and that the attack would probably have succeeded had Johnson pushed Scribner's brigade on after noticing he was flanked only by cavalry. Cleburne credits Granbury's Texans and Lowrey. NPS says supporting troops never appeared. The frozen commanders are Major General Patrick R. Cleburne and Major General Oliver O. Howard; the live page gives the same ranks.",
+      "rationale": "Attributed judgments from interested accounts and a summary; Johnson, McLean, Granbury and Lowrey are not listed commanders; the frozen commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.78 (OCR page markers; not checked against print)",
+          "quote": "Through some mistake McLean's movement on the right did not result as expected,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "Had Johnson noticed that he was first attacked in flank by cavalry only,"
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.725 (OCR page markers; not checked against print)",
+          "quote": "were a silent but sufficient eulogy upon Granbury and his noble Texans."
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.726 (inferred page: the p.726 running head reads \"Y26\" in OCR; not checked against print)",
+          "quote": "His successive formation was the precise answer"
+        },
+        {
+          "source_id": "nps-ga012-v1",
+          "locator": "Description",
+          "quote": "which did not unfold as planned because supporting troops never appeared."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA012",
+            "belligerent": "Confederate",
+            "fullname": "Patrick R. Cleburne"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA012",
+            "belligerent": "US",
+            "fullname": "Oliver O. Howard"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga012-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Oliver Howard [US]"
+        },
+        {
+          "source_id": "nps-ga012-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Patrick Cleburne [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Cox says Wood was forced to retire and halted on a ridge in the rear, but calls the ground gained valuable for the extension of the left. Cleburne says Granbury's night charge met no resistance and many Union soldiers fled or surrendered. NPS says the attack was repulsed with high casualties.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Cox's claim that ground was gained is a campaign-level judgment, not the tactical result.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA012"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ga012-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.78 (OCR page markers; not checked against print)",
+          "quote": "Wood was forced to retire, which he did deliberately, and halted upon a ridge a little in rear"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "nevertheless very valuable, for it enabled the whole left wing to swing forward"
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.726 (inferred page: the p.726 running head reads \"Y26\" in OCR; not checked against print)",
+          "quote": "The Texans, their bayonets fixed, plunged into the darkness with a terrific yell,"
+        },
+        {
+          "source_id": "nps-ga012-v1",
+          "locator": "Description",
+          "quote": "The Rebels repulsed the attack causing high casualties."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 2,100 (US 1,600; CS 500); the live field reads 2050 (US 1600; CS 450). Cleburne gives his own loss as 85 killed and 363 wounded, estimates the Union dead at not less than 500 and total killed and wounded at not less than 3,000, and reports 160 prisoners sent to army headquarters besides 72 wounded in his hospital. Cox says Howard reported a total loss of about fifteen hundred, and that Johnston claims seventy wounded and 140 prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Cleburne's killed and wounded sum to 448 (a computation here), close to the live CS 450; his prisoner figures and Johnston's as quoted by Cox differ. The Union figures are estimates or an approximate total.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA012"
+          },
+          "column": "casualties_text",
+          "quote": "2,100 total (US 1,600; CS 500)"
+        },
+        {
+          "source_id": "nps-ga012-v1",
+          "locator": "Estimated Casualties",
+          "quote": "2050 total (US 1600; CS 450;)"
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.726 (inferred page: the p.726 running head reads \"Y26\" in OCR; not checked against print)",
+          "quote": "I had 85 killed, 363 wounded,"
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.726 (inferred page: the p.726 running head reads \"Y26\" in OCR; not checked against print)",
+          "quote": "The lowest estimate which can be made of his dead is 500."
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.726 (inferred page: the p.726 running head reads \"Y26\" in OCR; not checked against print)",
+          "quote": "We captured 160 prisoners who were sent to army headquarters, exclusive of 72 of his wounded carried to my field hospital."
+        },
+        {
+          "source_id": "or38-3-cleburne-pickett-settlement-selections-v1",
+          "section": "cleburne-1864-05-30",
+          "locator": "p.726 (inferred page: the p.726 running head reads \"Y26\" in OCR; not checked against print)",
+          "quote": "He could not have lost in all less than 3,000 killed and wounded."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.78 (OCR page markers; not checked against print)",
+          "quote": "The affair was a costly one, for Howard reported a total loss of about fifteen hundred."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "Johnston claims that seventy fell into his hands,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "new-hope-church-to-dallas",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "and that a hun dred and forty prisoners were taken at the same place."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Howard's, Wood's, Hazen's, Johnson's, Scribner's and McLean's reports, Kelly's and Wheeler's cavalry reports, Hood's corps report (read, not cited here) and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cox's Atlanta (Scribner, 1882) is a second: a retrospective Union history by the Twenty-third Corps division commander, drawing on official reports and memoirs, so it is not independent of them. Cleburne's May 30, 1864 report, printed within his August 16 report in Volume XXXVIII Part 3, is a third family (interested Confederate account). Official Records Series I Volume XXXVIII is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Campaign-wide strength and loss totals are context, not assigned to one record."
+  ]
+}

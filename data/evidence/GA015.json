@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "battle_id": "GA015",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Kennesaw Mountain record (June 27, 1864) in Atlanta Campaign [May-September 1864]. It falls inside the Marietta aggregate (GA013), which does not repeat its figures. Schofield's advance beyond Olley's Creek the same day is part of Cox's account but not the assaults. The live NPS page labels the campaign \"Morgan's Raid Into Kentucky\" and dates it May-September 1864; neither field replaces the frozen campaign or battle interval. Campaign-wide totals are context and are not assigned to this record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force fields name the two armies without counts; the live field reads zero. Cox says only three points were selected for assault, the middle attacked by two columns each with a two-company front; he names Newton's and Davis's divisions and Morgan L. Smith's division with Walcutt's brigade, and says Loring's corps held the mountain. Johnston calls it a general advance.",
+      "rationale": "Formations, not counts; the scope of the attack is described differently. None is adopted. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA015"
+          },
+          "column": "forces_text",
+          "quote": "Military Division of the Mississippi [US]; Army of Tennessee [CS]"
+        },
+        {
+          "source_id": "nps-ga015-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "It must be remembered that only three points in the ene my's line had been selected for assault."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "The middle of these was attacked by two columns, having each a front of two companies only,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.121 (OCR page markers; not checked against print)",
+          "quote": "Newton arranged his division with Harker's and Wagner's brigades in front, and Kimball's in reserve."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.122 (OCR page markers; not checked against print)",
+          "quote": "Davis formed his division in front of Stanley's trenches,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "Logan ordered the attack to be made by the division of Morgan L. Smith,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.117 (OCR page markers; not checked against print)",
+          "quote": "was held by Loring's corps and whatever re inforcements he might recently have got."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.617 (OCR page markers; not checked against print)",
+          "quote": "the enemy made a gen¬ eral advance,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "entanglements-and-slopes",
+      "dimension": "terrain",
+      "value": "Cox says Newton's columns were stopped at the entanglement of felled trees before the works, that Smith's division climbed a steep rocky slope choked with felled trees, and that Davis's men crossed rocky, rough and tangled ground. He cites French's report on how the mountain let the Confederates watch every Union movement. NPS says attacking an entrenched enemy was futile.",
+      "rationale": "Ground described by an interested history and a summary; no map verification. The Kennesaw line was occupied on June 19 and prepared by Confederate engineers, but no inherited tag is assigned without a timing review.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.125 (OCR page markers; not checked against print)",
+          "quote": "Newton's columns were not checked till they reached the entanglement in front of the enemy's works."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.126 (OCR page markers; not checked against print)",
+          "quote": "Beyond these the slope of the mountain was steep and rocky, and felled trees formed so thick an entanglement that the advance became slow,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.125 (OCR page markers; not checked against print)",
+          "quote": "Davis's men had to pass over rocky and rough ground, part of it covered with the forest and tangled with undergrowth."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "pp.127–128 (OCR page markers; not checked against print)",
+          "quote": "could be watched and noted from his rocky outlook."
+        },
+        {
+          "source_id": "nps-ga015-v1",
+          "locator": "Description",
+          "quote": "but attacking an enemy that was dug in was futile."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supply-constraint",
+      "dimension": "logistics",
+      "value": "Cox says Sherman's difficulties were almost wholly due to supply, that the rains prevented lengthening the distance from depots, and that accumulating supplies for a move by the right was slow.",
+      "rationale": "Retrospective explanation from an interested history; no supply return inspected. It concerns the decision context, not the assault itself.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.116 (OCR page markers; not checked against print)",
+          "quote": "SHERMAN'S embarrassments at this juncture were almost altogether due to the trouble in keeping his army supplied."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.117 (OCR page markers; not checked against print)",
+          "quote": "To do this required, however, an ac cumulation of supplies, and getting ahead of the daily de mand was slow work in the condition of roads and railways,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "thin-line-belief",
+      "dimension": "information",
+      "value": "Cox says Sherman thought Johnston's line must be very attenuated, and that once the heads of the columns developed the Confederates knew these alone needed attention and concentrated on them. NPS says Sherman was sure Johnston had stretched his line too thin.",
+      "rationale": "Attributed knowledge from an interested history and a summary; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.117 (OCR page markers; not checked against print)",
+          "quote": "it still seemed probable that the enemy's whole line must be very attenuated,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "the enemy knew that these alone needed serious attention,"
+        },
+        {
+          "source_id": "nps-ga015-v1",
+          "locator": "Description",
+          "quote": "Sherman was sure that Johnston had stretched his line too thin"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "break-the-line",
+      "dimension": "objectives",
+      "value": "Cox says Sherman rejected Thomas's suggestion of regular approaches and determined on a serious effort to break the line, reasoning that a successful assault would be decisive; holding Johnston so he could not aid Lee was one motive for continuous operations. NPS describes a frontal attack with diversions on the flanks.",
+      "rationale": "Stated reasoning from an interested history and a summary; not a causal estimate.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "Thomas suggested an approach to the enemy's works by regular sap,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "Sherman therefore determined on a seri ous effort to break through Johnston's intrenchments,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "If an assault succeeded it would be a decisive event."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "across-the-chattahoochee",
+          "locator": "p.130 (OCR page markers; not checked against print)",
+          "quote": "The necessity of holding Johnston with such a grip that he could not detach aid to Lee in Virginia was one of the motives for active operations in front and continuously ;"
+        },
+        {
+          "source_id": "nps-ga015-v1",
+          "locator": "Description",
+          "quote": "decided on a frontal attack with some diversions on the flanks."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Cox records Harker mortally wounded and Daniel McCook and Harmon fallen, judges the division and corps commanders wise in stopping, and says Sherman frankly admitted that the unfavourable chances had prevailed. Johnston says the assaults fell hardest on Cheatham's, Cleburne's, French's and Featherston's divisions. The frozen commanders are General Joseph E. Johnston and Major General William T. Sherman; the live page gives General William Sherman and Lieutenant Colonel Joseph Johnston.",
+      "rationale": "Attributed judgments from interested accounts; the frozen commanders do not receive automatic sole credit, and the live ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.125 (OCR page markers; not checked against print)",
+          "quote": "General Harker, with a gallantry already famous in the army, attempting to renew the assault, was mortally wounded,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.125 (OCR page markers; not checked against print)",
+          "quote": "Colonel Daniel McCook and his second in command, Colonel Harmon, both fell in the assault,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.129 (inferred page: the p.129 running head reads \"12Q\" in OCR; not checked against print)",
+          "quote": "but the division and corps commanders were wise in judging when the effort had failed."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "across-the-chattahoochee",
+          "locator": "p.130 (OCR page markers; not checked against print)",
+          "quote": "the unfav orable ones had prevailed,"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.617 (OCR page markers; not checked against print)",
+          "quote": "The assaults were most vigorous on Cheatham’s and Cleburne’s divisions, of Hardee’s corps, and French’s and Featherston’s, of Loring’s."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA015",
+            "belligerent": "Confederate",
+            "fullname": "Joseph E. Johnston"
+          },
+          "column": "rank",
+          "quote": "General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "GA015",
+            "belligerent": "US",
+            "fullname": "William T. Sherman"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ga015-v1",
+          "locator": "Principal Commanders",
+          "quote": "General William Sherman [US]"
+        },
+        {
+          "source_id": "nps-ga015-v1",
+          "locator": "Principal Commanders",
+          "quote": "Lieutenant Colonel Joseph Johnston [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Johnston says the advance was everywhere repulsed with heavy loss. Cox says the one chance to break through was tried and lost; Sherman called Schofield's position beyond Olley's Creek the only advantage of the day. NPS says the fighting ended by noon with high Union casualties.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA015"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-ga015-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.617 (OCR page markers; not checked against print)",
+          "quote": "but was everywhere repulsed with heavy loss."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "The one chance to break through had been bravely tried and lost,"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "across-the-chattahoochee",
+          "locator": "p.130 (OCR page markers; not checked against print)",
+          "quote": "the only advantage of the day."
+        },
+        {
+          "source_id": "nps-ga015-v1",
+          "locator": "Description",
+          "quote": "The fighting ended by noon, and Sherman suffered high casualties."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen and live casualty texts read 4,000 (US 3,000; CS 1,000). Cox gives Sherman's loss as about twenty-five hundred, says about eight hundred fell at the head of each of the three assaults, and that Johnston admits over five hundred. Johnston reports Hardee's figures of 195 lost in Cheatham's division against 2,000 enemy and 11 in Cleburne's against 1,000, and Loring's 236 against Union estimates of 2,500 to 3,000.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Johnston's own-side components sum to 442 (a computation here, excluding other commands); the enemy figures are estimates, and Cox's 2,500 and the frozen 3,000 differ.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "GA015"
+          },
+          "column": "casualties_text",
+          "quote": "4,000 total (US 3,000; CS 1,000)"
+        },
+        {
+          "source_id": "nps-ga015-v1",
+          "locator": "Estimated Casualties",
+          "quote": "4000 total (US 3000; CS 1000;)"
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.127 (OCR page markers; not checked against print)",
+          "quote": "Sherman's losses during the day were about twenty-five hundred in all, and Johnston admits over five hundred cas ualties."
+        },
+        {
+          "source_id": "cox-atlanta-selections-v1",
+          "section": "kenesaw",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "About eight hundred men had fallen at the head of each of these three assaults before its progress was stopped,"
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.617 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant-General Hardee reports that Cheatham’s division lost in killed, wounded, and missing 195 ; the enemy opposed to it, by the statement of a staff officer subsequently captured, 2,000."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.617 (OCR page markers; not checked against print)",
+          "quote": "The loss of Cleburne’s division, 11 ; that of the enemy in his front, 1,000."
+        },
+        {
+          "source_id": "or38-3-johnston-atlanta-selections-v1",
+          "section": "johnston-1864-10-20",
+          "locator": "p.617 (OCR page markers; not checked against print)",
+          "quote": "Major-General Loring reported 236 of his corps killed, wounded, and missing, and the loss of the enemy, by their own estimates, at between 2,500 and 3,000,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Sherman's, Thomas's, Howard's, Palmer's, Newton's, Davis's and Logan's June 28 reports (the last seen at a range boundary), French's report, Hardee's Kenesaw loss addendum (read, not selected) and the compiled returns remain deferred.",
+    "NPS/CWSAC (the live battle page and the frozen Arnold rows) is one family. Cox's Atlanta (Scribner, 1882) is a second: a retrospective Union history by the Twenty-third Corps division commander, drawing on official reports and memoirs, so it is not independent of them. Johnston's October 20, 1864 report, printed in Volume XXXVIII Part 3, is a third family (interested Confederate account). Official Records Series I Volume XXXVIII is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting. Campaign-wide strength and loss totals are context, not assigned to one record."
+  ]
+}
