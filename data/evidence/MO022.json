@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO022",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Glasgow record (October 15, 1864) in Price's Missouri Expedition [September-October 1864]. The same-day capture of Sedalia, the surrenders of Paris and Carrollton and Price's recruiting at Boonville are context. The NPS detail page for MO022 is an empty template, so the frozen Arnold row and its description stand for the NPS/CWSAC family. Campaign-wide marches, recruiting, destruction, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Garrison (800) and unknown, with a side strength of 800 for the Union garrison. Price says he sent Clark with his own brigade and 500 of Jackman's brigade across the river, with Shelby and part of his division and a section of artillery on the west bank, and that between 800 and 900 prisoners were taken. Britton gives the estimate of Captain Kirkham and other Federal officers that Clark had 5,000 to 7,000 men on the field, and says Harding's troops including militia did not exceed 750.",
+      "rationale": "An imported bound, unit identifications, a prisoner count and a participant estimate; no return for either side. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO022"
+          },
+          "column": "forces_text",
+          "quote": "Garrison (800) [US]; unknown [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "MO022",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "800"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.632 (OCR page markers; not checked against print)",
+          "quote": "I sent Brigadier-General Clark, of Marmaduke’s division, with his own brigade and 500 of Jackman’s brigade"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.632 (OCR page markers; not checked against print)",
+          "quote": "sending Brigadier- General Shelby with a small portion of his division and a section of his artillery"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.632 (OCR page markers; not checked against print)",
+          "quote": "we obtained between 800 or 900 prisoners"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "glasgow",
+          "locator": "p.456 (OCR page markers; not checked against print)",
+          "quote": "General Clark had from 5000 to 7000 men on the field that day,"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "glasgow",
+          "locator": "p.457 (OCR page markers; not checked against print)",
+          "quote": "the troops under Colonel Harding, including the militia, did not exceed 750 men."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "river-town-and-earthworks",
+      "dimension": "terrain",
+      "value": "Britton says the militia had thrown up breastworks around a square on a high point in town, adequate against an enemy without artillery, that the Missouri turns south at Glasgow, and that Shelby's battery fired from a sand bar across the river while Clark invested the town on the south, east and north. The frozen description names the fortifications on Hereford Hill.",
+      "rationale": "Ground described by a history and a summary; no map verification.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "glasgow",
+          "locator": "p.453 (OCR page markers; not checked against print)",
+          "quote": "had thrown up breastworks of earth around a square about as large as the usual court house square, on a high point in town, and it would have served as an excellent defence against an enemy not sup plied with artillery."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "glasgow",
+          "locator": "p.454 (OCR page markers; not checked against print)",
+          "quote": "At Glasgow the Missouri River turns nearly due south for several miles."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "glasgow",
+          "locator": "p.454 (OCR page markers; not checked against print)",
+          "quote": "posted a battery on a sand bar"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO022"
+          },
+          "column": "description",
+          "quote": "the fortifications on Hereford Hill"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "arms-depot-and-ammunition",
+      "dimension": "logistics",
+      "value": "Price says he was told some 5,000 arms were stored in the City Hall, which was burned with the arms before the surrender, and that the captures included about 1,200 small-arms, as many overcoats, 150 horses and a steamboat. Britton says the defenders' ammunition was nearly exhausted when terms were agreed.",
+      "rationale": "A depot report, captures and one statement on ammunition; no supply return.",
+      "citations": [
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.632 (OCR page markers; not checked against print)",
+          "quote": "receiving information that there was a large number of arms (amounting to 5,000) stored in the City Hall at Glasgow"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.632 (OCR page markers; not checked against print)",
+          "quote": "The place was surrendered, but not until after the City Hall was destroyed and the arms consumed by fire."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.632 (OCR page markers; not checked against print)",
+          "quote": "about 1,200 small-arms, about the same number of overcoats, 150 horses, 1 steam boat"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "glasgow",
+          "locator": "p.456 (OCR page markers; not checked against print)",
+          "quote": "The ammunition of the Federal troops was nearly exhausted"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-of-the-crossing",
+      "dimension": "information",
+      "value": "Britton says Harding had heard Price was advancing up the river but had no word that a large force had crossed to the north bank, and did not know Price could throw a force with artillery across at will; scouts reported the crossing at Arrow Rock only on the afternoon and night of the 14th.",
+      "rationale": "Attributed knowledge from a history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "glasgow",
+          "locator": "p.453 (OCR page markers; not checked against print)",
+          "quote": "no word had yet reached him that a large Confederate force had crossed or was preparing to cross to the north side of the river."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "glasgow",
+          "locator": "p.457 (OCR page markers; not checked against print)",
+          "quote": "he did not know that Price was prepared to throw a large force with artillery to the north side of the river at his pleasure."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "glasgow",
+          "locator": "p.453 (OCR page markers; not checked against print)",
+          "quote": "reports came in that a Confederate force was crossing to the north side of the river at Arrow Rock"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "capture-the-arms",
+      "dimension": "objectives",
+      "value": "Price ordered Clark to cross at Arrow Rock and capture the place at daylight, with Shelby diverting attention from the west bank. Britton says Harding believed his troops and militia behind rifle-pits and brick houses could hold against the guerrilla forces he expected. The frozen description says the detachment was sent to liberate weapons and supplies.",
+      "rationale": "Stated aims from an interested report, a history and the frozen description.",
+      "citations": [
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.632 (OCR page markers; not checked against print)",
+          "quote": "with orders to cross the river at Arrow Rock and attack the place the next morning at daylight and capture it"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.632 (OCR page markers; not checked against print)",
+          "quote": "to divert the attention of the enemy and protect their advance under the cover of the fire of his artillery."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "glasgow",
+          "locator": "p.457 (OCR page markers; not checked against print)",
+          "quote": "Colonel Harding believed that with his Regular troops and the militia, posted behind the rifle-pits and in one or two brick houses, he could hold the place"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO022"
+          },
+          "column": "description",
+          "quote": "to liberate weapons and supplies in an arms storehouse"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Price says Clark could not begin his attack until an hour after Shelby had engaged. Britton says Harding refused two demands to surrender and accepted terms at the third; the frozen description says Harding surrendered around 1:30 pm. The frozen commanders are Brigadier Generals John B. Clark and Joseph Shelby and Colonel Chester Harding.",
+      "rationale": "Command roles from an interested report, a history and the frozen description; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.632 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General Clark was unable to commence the attack for one hour after Brigadier-General Shelby had engaged them."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "glasgow",
+          "locator": "p.456 (OCR page markers; not checked against print)",
+          "quote": "Colonel Harding again declined to yield and resented the threat"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "glasgow",
+          "locator": "p.456 (OCR page markers; not checked against print)",
+          "quote": "the proposition was entertained and terms soon agreed upon."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO022"
+          },
+          "column": "description",
+          "quote": "Col. Chester Harding surrendered around 1:30 pm."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO022",
+            "belligerent": "Confederate",
+            "fullname": "John B. Clark"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO022",
+            "belligerent": "Confederate",
+            "fullname": "Joseph Shelby"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO022",
+            "belligerent": "US",
+            "fullname": "Chester Harding"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory. Price and Britton record the surrender of the garrison, and Britton says it was paroled.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO022"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.632 (OCR page markers; not checked against print)",
+          "quote": "The captured prisoners were paroled"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "glasgow",
+          "locator": "p.456 (OCR page markers; not checked against print)",
+          "quote": "They were then paroled"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 450 total (US 400; CS 50). Britton gives Harding's report of 11 killed (read 1 1 in OCR) and 32 wounded and Colonel Colton Greene's of 7 killed and 46 wounded in his brigade, with Jackman's loss unreported. Price gives 800 to 900 prisoners and calls his own loss comparatively small.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO022"
+          },
+          "column": "casualties_text",
+          "quote": "450 total (US 400; CS 50)"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "glasgow",
+          "locator": "p.457 (OCR page markers; not checked against print)",
+          "quote": "Colonel Harding stated his casualties at 1 1 men killed and 32 wounded."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "glasgow",
+          "locator": "p.457 (OCR page markers; not checked against print)",
+          "quote": "reported his loss at 7 men killed and 46 wounded, including 2 officers killed. The loss in Jackman's brigade is not reported."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.632 (OCR page markers; not checked against print)",
+          "quote": "with but -comparatively small loss on our side"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Harding's report (No. 48) and the Glasgow subordinate reports, Clark's, Greene's and Shelby's reports, and Kirkham's account cited by Britton remain deferred.",
+    "Rosecrans's, Pleasonton's and Curtis's reports, the subordinate Union and Confederate reports in Volume XLI Part 1, the organization of Price's army (No. 89), Maclean's itinerary (No. 90), the Price Court of Inquiry, Hinton's 1865 Rebel Invasion of Missouri and Kansas, maps and returns remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Wiley Britton's The Civil War on the Border, volume II (Putnam, 1899) is a retrospective history by a Union participant; by its preface the larger operations are based mainly on the published official reports, so it is not independent of the Price report family. Price's September 19 and November 2 dispatches and his December 28, 1864 report (Official Records Series I, Volume XLI, Part 1, No. 88) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO028",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Marmiton River (Charlot's Farm, Shiloh Creek) record (October 25, 1864) in Price's Missouri Expedition [September-October 1864]. Mine Creek (KS003) and the Little Osage action the same afternoon are not added here; the destruction of the train and the retreat to Carthage are context. Campaign-wide marches, recruiting, destruction, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Two brigades, provisional cavalry division and Army of Missouri; the live field reads zero. NPS says McNeil commanded two brigades and that the Confederate line included a sizable number of unarmed men. Britton says McNeil's Second and Benteen's Fourth Brigades met Price's whole army drawn up in quadruple line, with Shelby's division in front, and that Cole brought ten guns into action. Price says he formed the unarmed men, several thousand, in line of battle on the prairie.",
+      "rationale": "Unit identifications and an unquantified count of unarmed men; no return. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO028"
+          },
+          "column": "forces_text",
+          "quote": "Two brigades, provisional cavalry division [US]; Army of Missouri [CS]"
+        },
+        {
+          "source_id": "nps-mo028-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-mo028-v1",
+          "locator": "Description",
+          "quote": "included a sizable number of unarmed men"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.498 (OCR page markers; not checked against print)",
+          "quote": "came upon Price's entire army on Shiloh Creek about six miles northeast of Fort Scott."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.498 (OCR page markers; not checked against print)",
+          "quote": "drawn up in quadruple line of battle"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.499 (OCR page markers; not checked against print)",
+          "quote": "He then concentrated the fire of his ten guns on the Confederate centre"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.637 (OCR page markers; not checked against print)",
+          "quote": "I again formed the unarmed men, numbering several thousand, in line of battle on the prairie beyond the river."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "place-of-the-stand",
+      "dimension": "terrain",
+      "value": "NPS places the stand at the Marmiton ford, where the train had difficulty crossing. Britton places it on Shiloh Creek about six miles northeast of Fort Scott, after which the Confederates retreated to the Marmiton crossing ten miles east of Fort Scott; Price says the train had gone ten miles ahead to the Marmiton.",
+      "rationale": "Location described differently by a summary, a history and an interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "nps-mo028-v1",
+          "locator": "Description",
+          "quote": "Price's supply train had difficulty crossing the Marmiton River ford"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.498 (OCR page markers; not checked against print)",
+          "quote": "on Shiloh Creek about six miles northeast of Fort Scott."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.499 (OCR page markers; not checked against print)",
+          "quote": "moved off in rapid retreat to the crossing of the Marmiton River ten miles east of Fort Scott."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.637 (OCR page markers; not checked against print)",
+          "quote": "The train having reached the Marmiton, a distance of ten miles, I there overtook it"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "worn-horses-and-train-destroyed",
+      "dimension": "logistics",
+      "value": "Britton says the Federal charge could only be made at a walk because the horses were worn out, the division's batteries fired 220 rounds that day, and the Confederates halted at the Marmiton to destroy the train and blow up the ammunition of the lost guns. Price says he destroyed many wagons with broken-down teams the next morning.",
+      "rationale": "Horse condition, ammunition expended and destruction of transport; no supply return.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.499 (OCR page markers; not checked against print)",
+          "quote": "it was impossible to urge the horses forward at a more rapid gait"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.499 (OCR page markers; not checked against print)",
+          "quote": "expended in this and in the other actions of the day 220 rounds of shell and canister."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.500 (OCR page markers; not checked against print)",
+          "quote": "destroy the train, and blow up the artillery ammunition of the lost guns"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.637 (OCR page markers; not checked against print)",
+          "quote": "after destroying many wagons with broken- down teams that could not be replaced"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "unarmed-men-misread",
+      "dimension": "information",
+      "value": "NPS says McNeil, not knowing that many of the Confederates were unarmed, refrained from an all-out assault; Britton says the massed lines made an imposing appearance by their numbers.",
+      "rationale": "Attributed perception from a summary and a history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "nps-mo028-v1",
+          "locator": "Description",
+          "quote": "not knowing that many of them were unarmed, and refrained from an all out assault."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.499 (OCR page markers; not checked against print)",
+          "quote": "posing appearance by their immense numbers."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "hold-until-night",
+      "dimension": "objectives",
+      "value": "Price says Fagan rallied part of his force and helped Shelby hold the enemy on the prairie in front of the unarmed men until nightfall. Britton says the train was sent on to the Marmiton under escort while the fight went on.",
+      "rationale": "Stated aims from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.637 (OCR page markers; not checked against print)",
+          "quote": "holding the enemy in check upon the prairie and in front of the immense lines of unarmed men until night-fall"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.500 (OCR page markers; not checked against print)",
+          "quote": "The Confederate train had been sent on to the Marmiton River under heavy escort while the fight was going on."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Pleasonton ordered McNeil to form the Second and Fourth Brigades and charge, Cole directed the artillery, and Fagan and Clark had rallied the routed divisions. The frozen commanders are Major General Sterling Price and Brigadier General John McNeil; NPS names McNeil as John S. McNeil.",
+      "rationale": "Command roles from a history and an interested report; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.499 (OCR page markers; not checked against print)",
+          "quote": "General Pleasonton ordered McNeil to form the Second and Fourth Brigades into double line of battle and advance and charge the enemy."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.498 (OCR page markers; not checked against print)",
+          "quote": "At this place Generals Fagan and Clark had rallied the troops of the routed divisions"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.637 (OCR page markers; not checked against print)",
+          "quote": "Major-General Fagan in the meantime had succeeded in rallying a portion of his forces"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO028",
+            "belligerent": "Confederate",
+            "fullname": "Sterling Price"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO028",
+            "belligerent": "US",
+            "fullname": "John McNeil"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-mo028-v1",
+          "locator": "Description",
+          "quote": "Brig. Gen. John S. McNeil, commanding two brigades"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS says Price continued his retreat after about two hours and McNeil could not mount an effective pursuit; Britton says the Confederates moved off in rapid retreat at sundown; Price says he withdrew at nightfall.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO028"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-mo028-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-mo028-v1",
+          "locator": "Description",
+          "quote": "McNeil could not mount an effective pursuit."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.499 (OCR page markers; not checked against print)",
+          "quote": "at sundown the Southern forces moved off in rapid retreat"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.637 (OCR page markers; not checked against print)",
+          "quote": "until night-fall, when I withdrew."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown and the live field zero. No inspected passage gives a loss figure for this action.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO028"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-mo028-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "McNeil's (No. 27), Benteen's (No. 10) and Pleasonton's reports, Shelby's report and a map placing Charlot's farm and Shiloh Creek remain deferred.",
+    "Rosecrans's, Pleasonton's and Curtis's reports, the subordinate Union and Confederate reports in Volume XLI Part 1, the organization of Price's army (No. 89), Maclean's itinerary (No. 90), the Price Court of Inquiry, Hinton's 1865 Rebel Invasion of Missouri and Kansas, maps and returns remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Wiley Britton's The Civil War on the Border, volume II (Putnam, 1899) is a retrospective history by a Union participant; by its preface the larger operations are based mainly on the published official reports, so it is not independent of the Price report family. Price's September 19 and November 2 dispatches and his December 28, 1864 report (Official Records Series I, Volume XLI, Part 1, No. 88) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

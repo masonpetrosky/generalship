@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "battle_id": "AL005",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Spanish Fort record (March 27-April 8, 1865) in the Mobile Campaign [March-April 1865]. Steele's march from Pensacola, the investment of Blakely (AL006), the reduction of Batteries Huger and Tracy and the occupation of Mobile are context or separate records. Campaign-wide marches, returns, prisoner totals and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads XVI and XIII Corps and Spanish Fort Garrison; the live field reads zero. Canby gives the army assembled at Mobile Point and Dauphin Island in mid-March as 13,200 of the Thirteenth Corps, 16,000 of the Sixteenth and 3,000 engineers, artillery and cavalry, 32,200 in all, and names the brigade and three divisions engaged in the final operations. Gibson gives his garrison as Thomas's Alabama Reserves of about 950 muskets, Patton's artillery of 360 and his own brigade of 500 rifles, later relieved and reinforced, and his force as less than 2,000 men against two corps and a fleet with over seventy-five guns on land. His own estimate of the Union muskets is illegible in OCR.",
+      "rationale": "A mid-March assembly figure for most of the army, a list of units in the final operations and a defender's garrison figures; no matched return. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL005"
+          },
+          "column": "forces_text",
+          "quote": "XVI and XIII Corps [US]; Spanish Fort Garrison [CS]"
+        },
+        {
+          "source_id": "nps-al005-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.92 (OCR page markers; not checked against print)",
+          "quote": "(two divisions and one brigade) . 13, 200 The Sixteenth Array Corps . 16,000 Engineers, artillery, and cavalry scouts and escorts . 3, 000 Total . 32,200"
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "the force engaged consisted of one brigade (Bertram’s) and one division (Benton’s) of the Thirteenth Corps, two divisions (McAr¬ thur’s and Carr’s) of the Sixteenth Corps"
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "Brig. Gen. Bryan M. Thomas’ brigade of Alabama Reserves, about 950 muskets strong: Col. Isaac W. Patton s artillery, 360 effect-"
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "my own brlgadf of 500 rifles"
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "out of a force of less than 2,000 men, contending for two weeks against two corps d armee and a large fleet, with over seventy-five cannon on land and nearly as many on water."
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "I estimated the force to be not less than .0,000 muskets strong,- perhaps much larger."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "incomplete-line-and-treadway",
+      "dimension": "terrain",
+      "value": "Gibson says his line was about 3,600 yards long with three redoubts giving no mutual support, about 600 yards on the left had no works and dense forest, and the only way out was a treadway about eighteen inches wide and 1,200 yards long across the marsh to Battery Huger. Canby says the right of the investing line rested on Bay Minette.",
+      "rationale": "Ground and works described by an interested defender and the besieging commander; no map verification.",
+      "citations": [
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "I discovered the line of defense to be about 3,600 yards long"
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "about 600 yards on the extreme left witb no works of any kind, and the dense forest flank untouched."
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "The three redoubts gave no mutual support"
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.317 (OCR page markers; not checked against print)",
+          "quote": "a narrow tieadway, about eighteen inches wide"
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "his right flank I resting on Bay Minette"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "depot-roads-and-ammunition",
+      "dimension": "logistics",
+      "value": "Canby says a new depot was set up at Starke's Landing five miles below the fort, that bad roads kept ammunition from being kept up so the fire of the batteries was reduced from April 5 to 7, and that fifty-three siege guns and thirty-seven field pieces were in position on the 8th. Gibson says his men had no unbroken rest in two weeks of fighting and digging.",
+      "rationale": "Depot, ammunition and gun counts for the besiegers and a fatigue statement for the defenders; no supply return.",
+      "citations": [
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.94 (OCR page markers; not checked against print)",
+          "quote": "This was established at Starke’s Landing, five miles below Spanish Fort."
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "the supply of ammunition could not be kept up"
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "fifty-three | siege guns (including ten 20-pounder rifles and sixteen mortars) and thirty- seven field pieces."
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.316 (OCR page markers; not checked against print)",
+          "quote": "Not an officer or man had taken any unbroken rest"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouts-deception-and-darkness",
+      "dimension": "information",
+      "value": "Gibson says his scouts reported two corps in his front, prisoners and captured maps informed his estimate, and he used devices to exaggerate his numbers; he had no means of estimating the enemy's strength exactly. Canby says the garrison's escape was aided by darkness and imperfect knowledge of the interior of the works.",
+      "rationale": "Attributed knowledge from an interested defender and the besieging commander; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "My scouts had reported’ two corps d’armee m front of us"
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "to c'fate a exagZated impression of our numbers"
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "We had no means of estimating the exact loss or s^gth o< the enemy"
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "our imperfect knowledge of the interior of their works."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reduce-the-eastern-shore-or-save-the-garrison",
+      "dimension": "objectives",
+      "value": "Canby says the plan began with reducing the works on the east side of Mobile Bay and opening the Tensas and Alabama Rivers. Gibson says Maury's standing orders were not to hold Spanish Fort a moment after the garrison was in danger of capture.",
+      "rationale": "Stated aims from the two commanders' reports.",
+      "citations": [
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.92 (OCR page markers; not checked against print)",
+          "quote": "The general plan of operations embraced the reduction of the enemy’s works on the east side of Mobile Bay"
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.317 (OCR page markers; not checked against print)",
+          "quote": "had been not to hold Spanish Fort for a moment after the garrison was in danger of capture-"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Canby says he ordered the bombardment for the evening of the 8th on A. J. Smith's suggestion, that Smith was told to put his whole force to the work after Geddes's brigade broke in, and that the work was led by Geddes under Carr and Smith. Gibson says he took immediate command of the defenses and decided to withdraw. The frozen commanders are Brigadier General Randall L. Gibson and Major General E. R. S. Canby; the live page gives Canby as Brigadier General.",
+      "rationale": "Command roles from the two commanders' reports; no automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "at the suggestion of A. J. Smith"
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "Smith was instructed to put his whole force to the ^ork and press it on to completion."
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "This work, led by Colonel Geddes and superintended by Generals Carr and Smith"
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "my instructions were to assume immediate com¬ mand of tlie defenses of Spanish Fort."
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.317 (OCR page markers; not checked against print)",
+          "quote": "I determined t7 withdraw my troops."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL005",
+            "belligerent": "Confederate",
+            "fullname": "Randall L. Gibson"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL005",
+            "belligerent": "US",
+            "fullname": "E. R. S. Canby"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-al005-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Edward Canby [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Canby says the works were taken by midnight with more than 600 prisoners while most of the garrison escaped by the treadway; Gibson says the garrison was withdrawn in good order, some skirmishers being left behind. NPS says most of the garrison escaped to Mobile.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL005"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-al005-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "soon after midnight all of the works were in our possession."
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "The major part of the garrison escaped by the treadway to Fort Tracy"
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.317 (OCR page markers; not checked against print)",
+          "quote": "in good order he whole garrison was withdrawn."
+        },
+        {
+          "source_id": "nps-al005-v1",
+          "locator": "Description",
+          "quote": "Most of the Confederate forces, under the command of Brig. Gen. Randall L. Gibson, escaped and fled to Mobile"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,401 (US 657; CS 744); the live field reads 1,398 (US 657; CS 741). Canby reports more than 600 prisoners; the Spanish Fort block of his comparative statement is garbled in OCR and ends with the figures 52, 575 and 30, whose columns are not verified. Gibson gives 73 killed, 350 wounded and about half a dozen missing before the evacuation and estimates about 20 killed (read 2U), 45 wounded and 250 captured that night; he estimates the Union loss at 2,500. Canby says partial captured records give 73 killed and 120 wounded for Blakely and Spanish Fort together.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL005"
+          },
+          "column": "casualties_text",
+          "quote": "1,401 (US 657; CS 744)"
+        },
+        {
+          "source_id": "nps-al005-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1398 total (US 657; CS 741;)"
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.96 (OCR page markers; not checked against print)",
+          "quote": "4 flags, and more than 600 prisoners."
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-comparative-casualties",
+          "locator": "p.102 (OCR page markers; not checked against print)",
+          "quote": "SPANISH FORT."
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-comparative-casualties",
+          "locator": "p.102 (OCR page markers; not checked against print)",
+          "quote": "Carr’s division, Sixteenth Army Corps . 1 18 52 575 30"
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "The losses imported up to the evacuation were 73 killed, 350 wounded, and about half a dozen missing."
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "I estimate onr loss to have been about 2U killed and 45 wounded, and 250 captured"
+        },
+        {
+          "source_id": "or49-1-gibson-spanish-fort-selections-v1",
+          "section": "gibson-1865-04-16",
+          "locator": "p.318 (OCR page markers; not checked against print)",
+          "quote": "his loss must have reached 2,500."
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.99 (OCR page markers; not checked against print)",
+          "quote": "Partial records captured at Blakely account for 73 killed and 120 wounded at that place and Spanish Fort"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Gibson's subordinate reports, Holtzclaw's and Thomas's reports, and the Spanish Fort garrison returns remain deferred; C. C. Andrews's History of the Campaign of Mobile covers Spanish Fort but was not inspected for this record (three-family ceiling).",
+    "The organization and casualty returns (Nos. 2-3), the revised casualty statement on p.115, McAlester's engineer report, Granger's, A. J. Smith's, Steele's and the division and brigade reports, Maury's reports and the naval reports remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Canby's June 7, 1865 report and the comparative casualty statement printed with it (Official Records Series I, Volume XLIX, Part 1, No. 1) are one family of interested Union accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge. Gibson's April 16, 1865 report from Meridian (No. 97) is one family of interested Confederate accounts; its OCR is badly garbled.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

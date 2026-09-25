@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO023",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Lexington record (October 19, 1864) in Price's Missouri Expedition [September-October 1864]. Blunt's October 18 arrival, the retreat to the Little Blue on the night of the 19th and Price's march from Waverly are context. Campaign-wide marches, recruiting, destruction, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 1st Division, Army of the Border and Army of Missouri; the live field reads zero. NPS says Blunt set out with 2,000 men. Price says he had information that Blunt, Lane and Jennison were at Lexington with 3,000 to 4,000 Federals; he had entered Missouri with about 8,000 armed men. Britton says Blunt's command was the First and Second Brigades under Jennison and Moonlight, without field artillery, and that the requested reinforcements were not sent.",
+      "rationale": "A summary figure, an intelligence estimate and unit identifications; no return at the action. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO023"
+          },
+          "column": "forces_text",
+          "quote": "1st Division, Army of the Border [US]; Army of Missouri [CS]"
+        },
+        {
+          "source_id": "nps-mo023-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-mo023-v1",
+          "locator": "Description",
+          "quote": "a force of 2,000 men under the command of Maj. Gen. James G. Blunt did set out for Lexington"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.633 (the running head for p.633 reads \"6*33\" in OCR; OCR page markers; not checked against print)",
+          "quote": "Generals Blunt, Lane, and Jennison, with between 3,000 and 4,000 Federals (Colorado, Kan- sas, and Missouri Federal troops), were at Lexington"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.627 (OCR page markers; not checked against print)",
+          "quote": "I entered Missouri with nearly 12,000 men, ol whom 8,000 were armed, and fourteen pieces of artillery"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.442 (OCR page markers; not checked against print)",
+          "quote": "All General Blunt's command, consisting of the First and Second Brigades of his division under Colonels Jen- nison and Moonlight"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.443 (OCR page markers; not checked against print)",
+          "quote": "not send him the reinforcements asked for"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "open-ground-southeast",
+      "dimension": "terrain",
+      "value": "Britton says Blunt formed southeast of the city on open, undulating ground that let him watch the enemy a mile or so ahead, and that his outposts fought three or four miles out.",
+      "rationale": "Ground described by a history; no map verification.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.443 (OCR page markers; not checked against print)",
+          "quote": "He then ordered his command to a position in line of battle south east of the city, where the open and undulating nature of the ground enabled him to observe the movements of the enemy a mile or so in his front."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.443 (OCR page markers; not checked against print)",
+          "quote": "soon became warmly engaged with the enemy three or four miles from the main line"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "howitzers-against-rifled-guns",
+      "dimension": "logistics",
+      "value": "Britton says Blunt had no field artillery, so his short-range howitzers could not answer Shelby's long-range rifled guns, and that a field battery of rifled guns would have let him do more. Price says his army marched twenty-six miles that day.",
+      "rationale": "Equipment and march distance only; no ammunition or supply return.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.444 (OCR page markers; not checked against print)",
+          "quote": "As he had no field artillery with his division, his short-range howitzers could not reply effectively to the long-range rifled guns which Shelby brought into action."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.444 (OCR page markers; not checked against print)",
+          "quote": "if General Blunt had been supplied with a field battery of rifled guns he could have made a more effective showing"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.633 (the running head for p.633 reads \"6*33\" in OCR; OCR page markers; not checked against print)",
+          "quote": "marching that day twenty-six miles"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouts-and-intelligence",
+      "dimension": "information",
+      "value": "NPS says Rosecrans could not communicate with Curtis to formalize a pincer and that Blunt gained valuable information about the size and disposition of Price's army. Britton says Blunt learned on entering Lexington that Shelby was at Waverly, and that his couriers to Sanborn did not arrive. Price says he acted on information that the Federal generals were at Lexington.",
+      "rationale": "Attributed knowledge from a summary, a history and an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "nps-mo023-v1",
+          "locator": "Description",
+          "quote": "he was unable to communicate with Maj. Gen. Samuel R. Curtis"
+        },
+        {
+          "source_id": "nps-mo023-v1",
+          "locator": "Description",
+          "quote": "Blunt gained valuable information about the size and disposition of Price's army."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.443 (OCR page markers; not checked against print)",
+          "quote": "General Blunt received reliable information directly after entering Lex ington that the advance of Price's army, under Shelby, was at Waverly"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.443 (OCR page markers; not checked against print)",
+          "quote": "nor did the couriers from General Sanborn reach him."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.633 (the running head for p.633 reads \"6*33\" in OCR; OCR page markers; not checked against print)",
+          "quote": "having received information that Generals Blunt, Lane, and Jennison"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "delay-and-junction",
+      "dimension": "objectives",
+      "value": "Britton says Blunt meant to hold Price until Sanborn could strike his flank. Price says he turned left after crossing the Tabo to intercept a feared junction of Blunt with McNeil and A. J. Smith. NPS says the Kansas militia refused to enter Missouri.",
+      "rationale": "Stated aims from a history, an interested report and a summary.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.442 (OCR page markers; not checked against print)",
+          "quote": "he proposed to make such disposition of his force as to hold the Confed erate army if possible until Sanborn could come up and strike it in the flank."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.633 (the running head for p.633 reads \"6*33\" in OCR; OCR page markers; not checked against print)",
+          "quote": "fearing that they might make a junction with McNeil and A. J. Smith"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.633 (the running head for p.633 reads \"6*33\" in OCR; OCR page markers; not checked against print)",
+          "quote": "so as to intercept their line of march."
+        },
+        {
+          "source_id": "nps-mo023-v1",
+          "locator": "Description",
+          "quote": "many of his troops were Kansas militia and they refused to enter Missouri"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Blunt held until nearly sundown and then ordered the retreat, Moonlight's brigade covering it. Price says Shelby's advance met the Federals about 2 p.m. The frozen commanders are Major General Sterling Price and Major General James G. Blunt; the live page gives Blunt as Brigadier General.",
+      "rationale": "Command roles from a history and an interested report; no automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.444 (OCR page markers; not checked against print)",
+          "quote": "he gave the order to retire on the road to Independence."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.444 (OCR page markers; not checked against print)",
+          "quote": "Colonel Moonlight, commanding the Second Brigade, with the Eleventh Kansas Cavalry and four howitzers, covered the retreat"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.633 (the running head for p.633 reads \"6*33\" in OCR; OCR page markers; not checked against print)",
+          "quote": "The advance, under Shelby, met them about 2 p. m., and a battle immediately ensued."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO023",
+            "belligerent": "Confederate",
+            "fullname": "Sterling Price"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO023",
+            "belligerent": "US",
+            "fullname": "James G. Blunt"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-mo023-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General James Blunt [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Price says the Federals were driven past Lexington and pursued until night; Britton calls it a skirmish; NPS says it further retarded Price's slow march.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO023"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-mo023-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.633 (the running head for p.633 reads \"6*33\" in OCR; OCR page markers; not checked against print)",
+          "quote": "driven well past Lexing- ton, and pursued on the road to Independence until night put an end to the combat."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.444 (OCR page markers; not checked against print)",
+          "quote": "In this skirmish at Lexington"
+        },
+        {
+          "source_id": "nps-mo023-v1",
+          "locator": "Description",
+          "quote": "they did further retard their slow march."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown and the live field zero. No inspected passage gives a loss figure for either side.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO023"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-mo023-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Blunt's (No. 80), Jennison's (No. 81), Moonlight's (No. 82) and Shelby's and Thompson's reports remain deferred.",
+    "Rosecrans's, Pleasonton's and Curtis's reports, the subordinate Union and Confederate reports in Volume XLI Part 1, the organization of Price's army (No. 89), Maclean's itinerary (No. 90), the Price Court of Inquiry, Hinton's 1865 Rebel Invasion of Missouri and Kansas, maps and returns remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Wiley Britton's The Civil War on the Border, volume II (Putnam, 1899) is a retrospective history by a Union participant; by its preface the larger operations are based mainly on the published official reports, so it is not independent of the Price report family. Price's September 19 and November 2 dispatches and his December 28, 1864 report (Official Records Series I, Volume XLI, Part 1, No. 88) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "battle_id": "KS004",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Marais des Cygnes (Trading Post) record (October 25, 1864) in Price's Missouri Expedition [September-October 1864]. The night approach of October 24 is context; Mine Creek (KS003) and the Marmiton (MO028) the same day are separate records, and the intervening action on the Little Osage is context, not added to any record. Campaign-wide marches, recruiting, destruction, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Provisional cavalry division and cavalry division; the live field reads zero. NPS says the Federals were outnumbered. Britton says Sanborn's brigade led, with Gravely's Sixth and Eighth Missouri State Militia and the Fourth Iowa taking the mounds, then Mitchell's and McMahan's militia, Phelps's Second Arkansas and three companies of the Second Colorado forcing the ford, with Philips's and Benteen's brigades coming up. Price says Fagan's and Marmaduke's divisions formed his rear guard.",
+      "rationale": "Unit identifications and a qualitative statement; no count for either side. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KS004"
+          },
+          "column": "forces_text",
+          "quote": "Provisional cavalry division [US]; cavalry division [CS]"
+        },
+        {
+          "source_id": "nps-ks004-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-ks004-v1",
+          "locator": "Description",
+          "quote": "Although outnumbered"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "to take his own regi ment and the Sixth Missouri State Militia and move for ward cautiously until he found the enemy in force."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.492 (the running head for p.492 reads \"4Q2\" in OCR; OCR page markers; not checked against print)",
+          "quote": "the Fourth Iowa Cavalry of the Fourth Brigade, and three companies of the Second Colorado Cavalry"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.636 (the running head for p.636 reads \"LOUISIANA AND THE TRANS-MISSISSTPPT. [Chap. Lin.\" in OCR; OCR page markers; not checked against print)",
+          "quote": "Major-Generals Fagan and Marmaduke’s divisions composed the rear guard."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "mounds-gap-and-ford",
+      "dimension": "terrain",
+      "value": "Britton says the military road north of the river ran through a gap between two high mounds, each over half a mile long, which the Confederates held, the left mound so steep the men could hardly keep their footing; the Confederates tried to block the ford's exit with felled trees, and the approach was made in darkness and rain.",
+      "rationale": "Ground described by a history; no map verification.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "passed through a gap be tween two high mounds, each perhaps somewhat over half a mile in length."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "which was so steep that it was with difficulty they could keep their footing."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "endeavoring to obstruct by felling trees across the road at its exit from the ford."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "It was then very dark and raining hard."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "march-and-exhaustion",
+      "dimension": "logistics",
+      "value": "Price says his army marched thirty-three miles on the 24th to camp on the Marais des Cygnes. Britton says Sanborn's men had been on duty all night in the rain and fighting until ten without food for men or horses.",
+      "rationale": "March distances and fatigue only; no supply return.",
+      "citations": [
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.636 (the running head for p.636 reads \"LOUISIANA AND THE TRANS-MISSISSTPPT. [Chap. Lin.\" in OCR; OCR page markers; not checked against print)",
+          "quote": "On the morning of the 24th I moved with the command on the Fort Scott road to the Marais des Cygnes, where I encamped, having marched thirty-three miles"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.493 (OCR page markers; not checked against print)",
+          "quote": "as his men and horses had been without anything to eat"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "expected-direction-of-attack",
+      "dimension": "information",
+      "value": "Price says he and Marmaduke believed the enemy was moving on their right by Mound City, relying on a captured dispatch and on recruits' reports that no enemy was in the rear, so he expected any attack in front or on the right. Britton says Sanborn declined to attack in the night because he did not know the ground.",
+      "rationale": "Attributed knowledge from an interested report and a history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.636 (the running head for p.636 reads \"LOUISIANA AND THE TRANS-MISSISSTPPT. [Chap. Lin.\" in OCR; OCR page markers; not checked against print)",
+          "quote": "we were both of opinion that the enemy were marching upon our right by Mound City on a road parallel to the one on which we were."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.636 (the running head for p.636 reads \"LOUISIANA AND THE TRANS-MISSISSTPPT. [Chap. Lin.\" in OCR; OCR page markers; not checked against print)",
+          "quote": "that there was no enemy in my rear."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.501 (the running head for p.501 reads \"50!\" in OCR; OCR page markers; not checked against print)",
+          "quote": "as he knew nothing about the topographical features of the locality, Sanborn declined to take the responsibil ity of making the attack until towards daybreak."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "pursue-and-crush",
+      "dimension": "objectives",
+      "value": "Britton says Curtis wanted to keep Price moving by firing into his rear but Pleasonton proposed to overtake and crush him, and that Moonlight was sent down the state line to keep Price out of Kansas.",
+      "rationale": "Stated aims from a history.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.501 (the running head for p.501 reads \"50!\" in OCR; OCR page markers; not checked against print)",
+          "quote": "It was the purpose of General Curtis thus to keep Price moving south by firing artillery in his rear, but General Pleasonton pro posed to overtake the Confederate army and crush it."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.489 (OCR page markers; not checked against print)",
+          "quote": "Colonel Moonlight with the Second Brigade was ordered to march south through Kansas and to keep on the right flank of Price"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Sanborn ordered the attack on the mounds and Pleasonton came up at dawn and directed the crossing, while Marmaduke, commanding the Confederate rear, withdrew. NPS says Pleasonton commanded in the field. The frozen commanders are Major Generals John S. Marmaduke and James F. Fagan and Major General Alfred Pleasonton; the live page lists Pleasonton and Marmaduke.",
+      "rationale": "Command roles from a history, a summary and an interested report; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "General Pleasonton came to the front and directed the further movements of his division."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.493 (OCR page markers; not checked against print)",
+          "quote": "General Marma- duke, who was in command of the Confederate rear that day, withdrew his line and fell back."
+        },
+        {
+          "source_id": "nps-ks004-v1",
+          "locator": "Description",
+          "quote": "Pleasonton, commanding in the field"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KS004",
+            "belligerent": "Confederate",
+            "fullname": "John S. Marmaduke"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KS004",
+            "belligerent": "Confederate",
+            "fullname": "James F. Fagan"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KS004",
+            "belligerent": "US",
+            "fullname": "Alfred Pleasonton"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ks004-v1",
+          "locator": "Principal Commanders",
+          "quote": "John Marmaduke [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS says the Federals forced the Confederates to withdraw; Britton says the Confederates were driven from the mounds and across the river and fell back. Price's report does not describe this action.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KS004"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ks004-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-ks004-v1",
+          "locator": "Description",
+          "quote": "forcing them to withdraw."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "the enemy had been driven in rapid flight down the southern slope of the mound towards the river."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown and the live field zero. No inspected passage gives a loss figure.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KS004"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-ks004-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Pleasonton's (No. 13), Sanborn's (No. 33), Gravely's, Phelps's and Pierce's reports and the Confederate division reports remain deferred.",
+    "Rosecrans's, Pleasonton's and Curtis's reports, the subordinate Union and Confederate reports in Volume XLI Part 1, the organization of Price's army (No. 89), Maclean's itinerary (No. 90), the Price Court of Inquiry, Hinton's 1865 Rebel Invasion of Missouri and Kansas, maps and returns remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Wiley Britton's The Civil War on the Border, volume II (Putnam, 1899) is a retrospective history by a Union participant; by its preface the larger operations are based mainly on the published official reports, so it is not independent of the Price report family. Price's September 19 and November 2 dispatches and his December 28, 1864 report (Official Records Series I, Volume XLI, Part 1, No. 88) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

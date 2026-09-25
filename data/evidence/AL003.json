@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "battle_id": "AL003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Mobile Bay record (August 2-23, 1864) in Operations in Mobile Bay [August 1864]. The frozen interval spans the landing on Dauphin Island, the passage of the forts and the naval battle of August 5, the evacuation of Fort Powell, the surrender of Fort Gaines and the siege and surrender of Fort Morgan; these phases are kept within the one record and not split or added to other records. The 1865 Mobile Campaign is a separate campaign. Campaign-wide returns and multi-action loss totals are context, not assigned to one phase. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Farragut's fleet of 14 wooden ships and 4 monitors with army forces, against Buchanan's flotilla of three gunboats and an ironclad and the Morgan, Gaines and Powell garrisons; the live field reads zero. NPS says Farragut's fleet of eighteen ships entered the bay; Page says the fleet that moved up to pass Fort Morgan was twenty-three men-of-war, four of them monitors. Mahan lists four monitors in the starboard column and the wooden ships of the port column with their tonnage and guns, describes Buchanan's squadron as the ram Tennessee and three paddle-wheel gunboats, and says Granger had not men enough to attack both forts at once. Page gives his Fort Morgan garrison as some 400 effective during the siege.",
+      "rationale": "Ship counts, an army limitation and one garrison figure for different phases; no matched return. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL003"
+          },
+          "column": "forces_text",
+          "quote": "Farragut's Fleet (14 wooden ships and 4 monitors) and U.S. army forces near Mobile [US]"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL003"
+          },
+          "column": "forces_text",
+          "quote": "Buchanan's Flotilla (3 gunboats and an ironclad), Fort Morgan Garrison, Fort Gaines Garrison, and Fort Powell Garrison [CS]"
+        },
+        {
+          "source_id": "nps-al003-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-al003-v1",
+          "locator": "Description",
+          "quote": "Farragut's Union fleet of eighteen ships entered Mobile Bay"
+        },
+        {
+          "source_id": "or39-1-page-mobile-bay-selections-v1",
+          "section": "page-1864-08-06",
+          "locator": "p.435 (OCR page markers; not checked against print)",
+          "quote": "enemy’s fleet, consisting of twenty-three men-of-Avar, of which four AA^ere monitors"
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.229 (digital page markers; not checked against print)",
+          "quote": "Monitors—Starboard Column."
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.229 (digital page markers; not checked against print)",
+          "quote": "Wooden Ships—Port Column."
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.220 (digital page markers; not checked against print)",
+          "quote": "made up of the ram Tennessee and three small paddle-wheel gunboats"
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.227 (digital page markers; not checked against print)",
+          "quote": "as he had not men enough to attack both forts at once."
+        },
+        {
+          "source_id": "or39-1-page-mobile-bay-selections-v1",
+          "section": "page-1864-08-30",
+          "locator": "p.439 (OCR page markers; not checked against print)",
+          "quote": "my limited garrison (of some 400 effective)"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "channel-forts-and-torpedoes",
+      "dimension": "terrain",
+      "value": "Mahan says the main ship channel skirted Mobile Point and narrowed to a little under two thousand yards, that Fort Morgan commanded it while Gaines was too distant to count for much, and that a triple line of torpedoes left an opening not much over one hundred yards from the beach for blockade-runners. Page says the fort's brick walls proved easily penetrable and that the enemy could fire on it from every point of the compass.",
+      "rationale": "Ground and works described by a history and an interested report; no map verification. The works and obstructions predate the attack, but the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.218 (digital page markers; not checked against print)",
+          "quote": "narrowing it to a little less than two thousand yards."
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.219 (digital page markers; not checked against print)",
+          "quote": "Gaines was too far distant from the main ship channel to count for much in the plans of the fleet."
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.224 (digital page markers; not checked against print)",
+          "quote": "a triple line of torpedoes in échelon began, extending across the main ship channel"
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.224 (digital page markers; not checked against print)",
+          "quote": "This narrow passage, not much exceeding one hundred yards from the beach, was left open for blockade-runners"
+        },
+        {
+          "source_id": "or39-1-page-mobile-bay-selections-v1",
+          "section": "page-1864-08-30",
+          "locator": "p.439 (OCR page markers; not checked against print)",
+          "quote": "our brick walls were easily penetrable to the heavy missiles of the enemyj"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ram-defects-siege-train-and-powder",
+      "dimension": "logistics",
+      "value": "Mahan says the Tennessee lacked speed and had her steering chains exposed on deck, and that Granger's siege train was landed three miles behind Fort Morgan on the 17th with thirty-four guns in position by the 20th. Page says he flooded his powder, 80,000 pounds, during the bombardment and that all his powder was destroyed before the surrender.",
+      "rationale": "Equipment and siege-material statements; no supply or ammunition return.",
+      "citations": [
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.222 (digital page markers; not checked against print)",
+          "quote": "was lack of speed."
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.223 (digital page markers; not checked against print)",
+          "quote": "her steering chains, instead of being led under her armored deck, were over it, exposed to an enemy's fire."
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.245 (digital page markers; not checked against print)",
+          "quote": "was landed three miles in rear of the fort on the 17th."
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.245 (digital page markers; not checked against print)",
+          "quote": "thirty-four guns had been put in position"
+        },
+        {
+          "source_id": "or39-1-page-mobile-bay-selections-v1",
+          "section": "page-1864-08-30",
+          "locator": "p.440 (OCR page markers; not checked against print)",
+          "quote": "my magazines, containing uoav 80,000 pounds"
+        },
+        {
+          "source_id": "or39-1-page-mobile-bay-selections-v1",
+          "section": "page-1864-08-23",
+          "locator": "p.438 (OCR page markers; not checked against print)",
+          "quote": "All my powder was destroyed"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "torpedo-reconnaissance-and-signals",
+      "dimension": "information",
+      "value": "Mahan says refugees' reports and night examinations by fleet officers affirmed there were no torpedoes in the passage by the beach, and that Farragut had reckoned on torpedoes when the Brooklyn reported them ahead. Page says Fort Gaines's commander opened communication with the fleet without his sanction and ignored his signals.",
+      "rationale": "Attributed knowledge from a history and an interested report; no signal log inspected.",
+      "citations": [
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.224 (digital page markers; not checked against print)",
+          "quote": "alike affirmed that there at least no torpedoes were."
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.232 (digital page markers; not checked against print)",
+          "quote": "\"Torpedoes ahead,\" was the reply. Farragut, who did not go heedlessly into action, had reckoned on torpedoes and counted the cost."
+        },
+        {
+          "source_id": "or39-1-page-mobile-bay-selections-v1",
+          "section": "page-1864-08-08-telegram",
+          "locator": "p.436 (OCR page markers; not checked against print)",
+          "quote": "Colonel Anderson communicated with enemy by flag of truce Avithont my sanction."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "close-the-bay-and-hold-the-forts",
+      "dimension": "objectives",
+      "value": "NPS says the operation aimed to close Mobile Bay to blockade running. Mahan says Granger was to land on Dauphin Island and invest Gaines while the fleet passed Morgan, and that Buchanan set his heart on sinking the Union flagship. Page says all his orders were for protracted resistance.",
+      "rationale": "Stated aims from a summary, a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "nps-al003-v1",
+          "locator": "Description",
+          "quote": "initiated operations to close Mobile Bay to blockade running."
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.227 (digital page markers; not checked against print)",
+          "quote": "that he should land on the 4th on Dauphin Island and invest Gaines"
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.227 (digital page markers; not checked against print)",
+          "quote": "The admiral was to pass Morgan and enter the bay the same morning."
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.236 (digital page markers; not checked against print)",
+          "quote": "Buchanan having set his heart on sinking the enemy's admiral"
+        },
+        {
+          "source_id": "or39-1-page-mobile-bay-selections-v1",
+          "section": "page-1864-08-08-telegram",
+          "locator": "p.436 (OCR page markers; not checked against print)",
+          "quote": "All my orders have been for protracted resistance."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Mahan says Farragut took charge in person and turned the Hartford past the Brooklyn over the torpedo line, and that Buchanan directed the ram's battery in person until wounded. Page says he rejected Farragut's and Granger's joint demand and condemned Anderson's surrender of Gaines. The frozen commanders are Admiral Franklin Buchanan, Brigadier General Richard L. Page, Rear Admiral David G. Farragut and Major General Gordon Granger; the live page lists Farragut as Admiral and misspells Buchanan.",
+      "rationale": "Command roles from a history and an interested report; the listed commanders do not receive automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.227 (digital page markers; not checked against print)",
+          "quote": "Farragut took charge in person"
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.233 (digital page markers; not checked against print)",
+          "quote": "he ordered his own ship and his consort ahead"
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.243 (digital page markers; not checked against print)",
+          "quote": "Buchanan, who was superintending in person the working of the battery"
+        },
+        {
+          "source_id": "or39-1-page-mobile-bay-selections-v1",
+          "section": "page-1864-08-30",
+          "locator": "p.439 (OCR page markers; not checked against print)",
+          "quote": "D. G. FARRAGUT, Hear- Admiral. To which my reply said : GORDON GRANGER, Major-General, U. S. Army."
+        },
+        {
+          "source_id": "or39-1-page-mobile-bay-selections-v1",
+          "section": "page-1864-08-30",
+          "locator": "p.439 (OCR page markers; not checked against print)",
+          "quote": "I am prepared to sacrifice life, and will only surrender when I have no means of «lefense."
+        },
+        {
+          "source_id": "or39-1-page-mobile-bay-selections-v1",
+          "section": "page-1864-08-08-telegram",
+          "locator": "p.436 (OCR page markers; not checked against print)",
+          "quote": "Colonel Anderson’s conduct inexplicable and disgraceful."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL003",
+            "belligerent": "Confederate",
+            "fullname": "Franklin Buchanan"
+          },
+          "column": "rank",
+          "quote": "Admiral"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL003",
+            "belligerent": "Confederate",
+            "fullname": "Richard L. Page"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL003",
+            "belligerent": "US",
+            "fullname": "David G. Farragut"
+          },
+          "column": "rank",
+          "quote": "Rear Admiral"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL003",
+            "belligerent": "US",
+            "fullname": "Gordon Granger"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-al003-v1",
+          "locator": "Principal Commanders",
+          "quote": "Admiral David Farragut [US]"
+        },
+        {
+          "source_id": "nps-al003-v1",
+          "locator": "Principal Commanders",
+          "quote": "Frankiln Buchanan [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Mahan says Fort Powell was evacuated the night of the 5th, Gaines surrendered the day after the 6th, and Fort Morgan surrendered on the 23rd; Page says the Union flag rose over Gaines on the morning of the 8th and that he capitulated at 2 p.m. on the 23rd. NPS says the city remained uncaptured. The live page files the record under Burbridge's Raid into Southwest Virginia, which conflicts with the frozen campaign and is not adopted.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL003"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-al003-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.245 (digital page markers; not checked against print)",
+          "quote": "On the 6th the Chickasaw went down and shelled Fort Gaines, and the following day it was surrendered."
+        },
+        {
+          "source_id": "or39-1-page-mobile-bay-selections-v1",
+          "section": "page-1864-08-08-telegram",
+          "locator": "p.436 (OCR page markers; not checked against print)",
+          "quote": "At 9.30 o’clock enemy’s flag hoisted on Fort Gaines."
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.245 (digital page markers; not checked against print)",
+          "quote": "On the 23d the fort surrendered."
+        },
+        {
+          "source_id": "or39-1-page-mobile-bay-selections-v1",
+          "section": "page-1864-08-30",
+          "locator": "p.440 (OCR page markers; not checked against print)",
+          "quote": "I capitulated to the enemy at 2 p. m."
+        },
+        {
+          "source_id": "nps-al003-v1",
+          "locator": "Description",
+          "quote": "The city, however, remained uncaptured."
+        },
+        {
+          "source_id": "nps-al003-v1",
+          "locator": "Campaign",
+          "quote": "Burbridge's Raid into Southwest Virginia"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,822 (US 322; CS 1,500); the live field reads 1,827 (US 327; CS 1,500). Mahan gives the Tennessee's loss as 2 killed and 10 wounded and the Union fleet's as 52 killed and 170 wounded, says 21 of the Tecumseh's complement of over a hundred were saved, and gives the Selma's loss as five killed and ten wounded. Page says the fort's casualties were slight on August 5 and unusually small in the siege; his lists are marked not found.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL003"
+          },
+          "column": "casualties_text",
+          "quote": "1,822 (US 322; CS 1,500)"
+        },
+        {
+          "source_id": "nps-al003-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1827 total (US 327; CS 1500;)"
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.244 (digital page markers; not checked against print)",
+          "quote": "The loss of the Tennessee was 2 killed and 10 wounded, that of the Union fleet, from the forts and the enemy's squadron, 52 killed and 170 wounded."
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.234 (digital page markers; not checked against print)",
+          "quote": "twenty-one were saved out of a complement of over one hundred souls."
+        },
+        {
+          "source_id": "mahan-mobile-bay-selections-v1",
+          "section": "mobile-bay",
+          "locator": "chapter VIII, p.239 (digital page markers; not checked against print)",
+          "quote": "having lost five killed and ten wounded."
+        },
+        {
+          "source_id": "or39-1-page-mobile-bay-selections-v1",
+          "section": "page-1864-08-06",
+          "locator": "p.435 (OCR page markers; not checked against print)",
+          "quote": "our casualties were slight."
+        },
+        {
+          "source_id": "or39-1-page-mobile-bay-selections-v1",
+          "section": "page-1864-08-30",
+          "locator": "p.440 (OCR page markers; not checked against print)",
+          "quote": "the casualties Avere unusually small."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Granger's report (No. 4), Canby's dispatches (read, not selected), Maury's, Williams's, Buchanan's and the other army and naval reports in Volume XXXIX Part 1, Farragut's report in the Official Records of the Navies, and the prisoner counts for Forts Gaines and Morgan remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). A. T. Mahan's The Gulf and Inland Waters (Scribner, 1883; Project Gutenberg transcription of the 1898 London printing) is a retrospective naval history by a Union naval officer, registered earlier for other engagements; its Mobile Bay chapter compiles its times from the logs and reports and quotes Farragut and Buchanan, so it is not independent of the naval reports. Page's August 6-30, 1864 reports to Maury (Official Records Series I, Volume XXXIX, Part 1, No. 14) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

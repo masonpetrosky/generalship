@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "battle_id": "KS003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Mine Creek (Battle of the Osage) record (October 25, 1864) in Price's Missouri Expedition [September-October 1864]. The morning action at the Marais des Cygnes (KS004), the Little Osage action and the Marmiton (MO028) are not added here. Campaign-wide marches, recruiting, destruction, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Provisional cavalry division and cavalry division; the live field reads zero. NPS says the Federals were outnumbered. Price quotes Marmaduke's note that the enemy, 3,000 strong, was in sight of his rear with lines still extending. Britton says Philips saw two Confederate divisions in line supported by eight guns, that Benteen's brigade came up on his left, and that Sanborn's brigade had dropped back to rest.",
+      "rationale": "A reported sighting, unit identifications and a qualitative statement; no count at the charge. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KS003"
+          },
+          "column": "forces_text",
+          "quote": "Provisional cavalry division [US]; cavalry division [CS]"
+        },
+        {
+          "source_id": "nps-ks003-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-ks003-v1",
+          "locator": "Description",
+          "quote": "The Federals, although outnumbered"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.637 (OCR page markers; not checked against print)",
+          "quote": "the enemy, 3,000 strong, were in sight of his rear, with lines still extending"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.494 (OCR page markers; not checked against print)",
+          "quote": "two divisions of the Confederate army drawn up in line of battle in his immediate front, supported by eight guns"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.494 (OCR page markers; not checked against print)",
+          "quote": "he was delighted to see Colonel Benteen's brigade coming up on his left."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.493 (OCR page markers; not checked against print)",
+          "quote": "General Sanborn's brigade was permitted to drop to the rear to rest and feed for a few moments."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "creek-blocked-by-train",
+      "dimension": "terrain",
+      "value": "NPS says the Confederates, stalled by their wagons at the ford, formed on the north side of Mine Creek. Britton says the creek had precipitous banks and no good wagon fords near the main crossing, which the halted train blocked, and that the four miles from the Marais des Cygnes were broad smooth prairie.",
+      "rationale": "Ground described by a summary and a history; no map verification.",
+      "citations": [
+        {
+          "source_id": "nps-ks003-v1",
+          "locator": "Description",
+          "quote": "These Rebels, stalled by their wagons crossing the ford, had formed a line on the north side of Mine Creek."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.493 (OCR page markers; not checked against print)",
+          "quote": "This small stream, with precipitous banks and lightly wooded, had no good wagon fords in the immediate vicin ity of the main crossing, which was now blocked by the Confederate train"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.493 (OCR page markers; not checked against print)",
+          "quote": "the road passed over a broad, smooth prairie and a few un dulating ridges."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "mounted-with-infantry-rifles",
+      "dimension": "logistics",
+      "value": "Britton says many Confederates carried infantry rifles that could not easily be reloaded on horseback, and that Greene reported over two thirds of his men threw away or lost their arms. Price says the routed divisions had thrown away their arms.",
+      "rationale": "Weapons and losses of arms from a history and an interested report; no ordnance return.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.494 (OCR page markers; not checked against print)",
+          "quote": "Many of their troops were armed with infantry rifles, which, after being once discharged, could not easily be reloaded on horseback"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.496 (OCR page markers; not checked against print)",
+          "quote": "over two thirds of his men threw away or lost their arms"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.637 (OCR page markers; not checked against print)",
+          "quote": "many of them having thrown away their arms."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rear-expected-clear",
+      "dimension": "information",
+      "value": "Price says he expected any encounter to come in his front or on his right, and first learned of the attack from Marmaduke's note with Fagan's indorsement that he would support him. Britton says Fagan halted to support Marmaduke on learning he was closely pressed.",
+      "rationale": "Attributed knowledge from an interested report and a history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.636 (the running head for p.636 reads \"LOUISIANA AND THE TRANS-MISSISSTPPT. [Chap. Lin.\" in OCR; OCR page markers; not checked against print)",
+          "quote": "I considered from the information I had received the night before that if I should encounter the enemy it would be in my front or on my right flank."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.637 (OCR page markers; not checked against print)",
+          "quote": "on the note Major-General Fagan had indorsed that he would sustain Major-General Marmaduke."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.493 (OCR page markers; not checked against print)",
+          "quote": "On being informed that Marmaduke was closely pressed, General Fagan halted his division to support him"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "fort-scott-and-the-train",
+      "dimension": "objectives",
+      "value": "Price says he had called Shelby back to attack Fort Scott, where he understood 1,000 Black troops were under arms, then sent him to the rear to support Fagan and Marmaduke. Britton says the Confederate commanders decided it was too critical to dismount.",
+      "rationale": "Stated aims from an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.637 (OCR page markers; not checked against print)",
+          "quote": "for the purpose of attacking and capturing Fort Scott, where I learned there were 1,000 negroes under arms."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.637 (OCR page markers; not checked against print)",
+          "quote": "return to the rear as rap- idly as possible to support Major-Generals Fagan and Marmaduke."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.494 (OCR page markers; not checked against print)",
+          "quote": "it was decided that the situation was so critical that it would be unsafe to attempt to dismount their troops"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Philips deployed the First Brigade and ordered the charge with Benteen's Fourth Brigade on his left; NPS credits the brigades of Benteen and Phillips of Pleasonton's division. Price says he rode back and tried in vain to rally the routed divisions. The frozen commanders are Brigadier General John S. Marmaduke, Major General James F. Fagan and Major General Alfred Pleasonton; the live page lists Pleasonton and Marmaduke.",
+      "rationale": "Command roles from a history, a summary and an interested report; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.495 (OCR page markers; not checked against print)",
+          "quote": "Colonel Philips ordered the charge"
+        },
+        {
+          "source_id": "nps-ks003-v1",
+          "locator": "Description",
+          "quote": "the brigades of Col. Frederick W. Benteen and Col. John F. Phillips"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.637 (OCR page markers; not checked against print)",
+          "quote": "in vain were all efforts to rally them."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KS003",
+            "belligerent": "Confederate",
+            "fullname": "John S. Marmaduke"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KS003",
+            "belligerent": "Confederate",
+            "fullname": "James F. Fagan"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "KS003",
+            "belligerent": "US",
+            "fullname": "Alfred Pleasonton"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-ks003-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Alfred Pleasonton [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Price says he met Fagan's and Marmaduke's divisions retreating in utter confusion; Britton says the Confederate line gave way in the wildest confusion.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KS003"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ks003-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.637 (OCR page markers; not checked against print)",
+          "quote": "retreating in utter and indescribable confusion"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.495 (OCR page markers; not checked against print)",
+          "quote": "it almost instantly gave way in the wildest con fusion."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,300 total (US 100; CS 1,200); the live field reads 950 (US 150; CS 800), and NPS says about 600 men and two generals were captured. Price says Marmaduke, Cabell and Slemons were captured with 300 or 400 men and all five guns; his November 2 synopsis says several guns and 300 to 400 prisoners. Britton says Philips's brigade took Marmaduke, Cabell, over 400 men and four guns and Benteen's four guns and many prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "KS003"
+          },
+          "column": "casualties_text",
+          "quote": "1,300 total (US 100; CS 1,200)"
+        },
+        {
+          "source_id": "nps-ks003-v1",
+          "locator": "Estimated Casualties",
+          "quote": "950 total (US 150; CS 800;)"
+        },
+        {
+          "source_id": "nps-ks003-v1",
+          "locator": "Description",
+          "quote": "the capture of about 600 men and two generals"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.637 (OCR page markers; not checked against print)",
+          "quote": "had been captured, with 300 or 400 of their men and all their artillery (5 pieces)."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-11-02",
+          "locator": "p.624 (OCR page markers; not checked against print)",
+          "quote": "capturing several pieces of artillery and between 300 and 400 prisoners, including Generals Marmaduke and Cabell"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.495 (OCR page markers; not checked against print)",
+          "quote": "upwards of four hundred enlisted men, four pieces of artillery, and one battle flag"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "mine-creek-little-osage",
+          "locator": "p.495 (OCR page markers; not checked against print)",
+          "quote": "capturing four pieces of artil lery and a large number of prisoners"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Pleasonton's (No. 13), Philips's (No. 16), Benteen's (No. 10) and Surgeon Dayton's reports, Greene's report and the casualty list closing Britton's Chapter XXXII remain deferred.",
+    "Rosecrans's, Pleasonton's and Curtis's reports, the subordinate Union and Confederate reports in Volume XLI Part 1, the organization of Price's army (No. 89), Maclean's itinerary (No. 90), the Price Court of Inquiry, Hinton's 1865 Rebel Invasion of Missouri and Kansas, maps and returns remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Wiley Britton's The Civil War on the Border, volume II (Putnam, 1899) is a retrospective history by a Union participant; by its preface the larger operations are based mainly on the published official reports, so it is not independent of the Price report family. Price's September 19 and November 2 dispatches and his December 28, 1864 report (Official Records Series I, Volume XLI, Part 1, No. 88) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

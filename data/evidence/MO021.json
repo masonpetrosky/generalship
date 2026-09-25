@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO021",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort Davidson (Pilot Knob) record (September 27, 1864) in Price's Missouri Expedition [September-October 1864]. The September 26 skirmishes in Arcadia Valley and at Shut-in Gap, Ewing's retreat to Leasburg and Shelby's operations on the railroad are context. Campaign-wide marches, recruiting, destruction, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Garrison and Army of Missouri; the live field reads zero. Price entered Missouri on September 19 with nearly 12,000 men, 8,000 of them armed, and fourteen guns, and reported that information at Fredericktown put the enemy at Ironton at about 1,500; he attacked with Fagan's and Marmaduke's divisions while Shelby's was detached. Britton gives Ewing's force as 489 recently organized infantry plus 562 men of experienced units, 1,051 in all, with about 100 armed citizens and a company of Black men, and says about 5,600 men made the assault.",
+      "rationale": "An army-wide figure eight days earlier, a pre-battle intelligence estimate and a history's counts; no matched return at the assault. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO021"
+          },
+          "column": "forces_text",
+          "quote": "Garrison [US]; Army of Missouri [CS]"
+        },
+        {
+          "source_id": "nps-mo021-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-09-19",
+          "locator": "p.623 (OCR page markers; not checked against print)",
+          "quote": "Our strength is nearly 8,000 armed and 4,000 unarmed men"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.627 (OCR page markers; not checked against print)",
+          "quote": "I entered Missouri with nearly 12,000 men, ol whom 8,000 were armed, and fourteen pieces of artillery"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.628 (OCR page markers; not checked against print)",
+          "quote": "the strength of the enemy at Ironton was about 1,500"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.628 (OCR page markers; not checked against print)",
+          "quote": "while I would attack and take them with the divisions of Major- Generals Fagan and Marmaduke"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.394 (OCR page markers; not checked against print)",
+          "quote": "an effective force of 489 officers and men, recently organized and that had seen little service"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.395 (OCR page markers; not checked against print)",
+          "quote": "He had of raw troops and troops who had been in service for some time a total of 1051 men and officers."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.395 (OCR page markers; not checked against print)",
+          "quote": "A company of about 100 citizens of Ironton and Pilot Knob"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.405 (OCR page markers; not checked against print)",
+          "quote": "Of the five thousand six hundred men in that desperate charge"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fort-and-commanding-heights",
+      "dimension": "terrain",
+      "value": "Britton describes Fort Davidson as an irregular hexagonal work with a ditch ten feet wide and six feet four inches deep, overlooked from Shepherd's Mountain and Pilot Knob, which engineers had judged indefensible against a force with good batteries; Ewing added two rifle-pits and cleared the nearest hillsides. Price says Shepherd's Mountain completely commanded the fortifications and that Marmaduke placed artillery there.",
+      "rationale": "Ground and works described by a history and an interested report; no map verification. The fort predates Ewing's arrival but he added works, so the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "The fort was an irregular hexagonal work, each of the six faces being somewhat over one hundred feet, with bomb-proof magazine."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "The ditch around it was ten feet wide and six feet four inches deep."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "Competent en gineers who had examined the fort regarded it as indefen sible against a large force having a few good batteries of artillery."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.396 (OCR page markers; not checked against print)",
+          "quote": "added two rifle-pits, each 175 yards in length"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.629 (the running head for p.629 reads \"G29\" in OCR; OCR page markers; not checked against print)",
+          "quote": "Shepherd’s Mountain, which was west of the fortifications and completely commanded them."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stores-and-ordnance",
+      "dimension": "logistics",
+      "value": "Britton says Ewing sent all commissary and quartermaster stores not needed in the fort, and the rolling stock, up the railroad the night before. Price says the evacuated fort left him 16 guns, small-arms and army stores, which he distributed after destroying the guns he could not take.",
+      "rationale": "Stores removed before and captured after the action; no supply or ammunition return for either side.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.398 (OCR page markers; not checked against print)",
+          "quote": "he sent up the railroad within General Smith's line all the commissary and quartermaster stores not required in the fort, and all the rolling-stock of the road."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.629 (the running head for p.629 reads \"G29\" in OCR; OCR page markers; not checked against print)",
+          "quote": "leaving in my possession 16 pieces of artillery, a large number of small-arms, a large amount of army stores"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.629 (the running head for p.629 reads \"G29\" in OCR; OCR page markers; not checked against print)",
+          "quote": "After destroying the artillery, which I could not take with me, and distributing such of the stores as were needed among the troops"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "fortification-intelligence",
+      "dimension": "information",
+      "value": "Price says information he believed reliable led him to expect the place could be taken without great loss, and that it proved totally incorrect. Britton says Price's engineer Mackey advised bombardment from Shepherd's Mountain but a council of war chose an immediate assault, and that Ewing learned from prisoners that evening that Price was present with two divisions.",
+      "rationale": "Attributed knowledge from an interested report and a history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.629 (the running head for p.629 reads \"G29\" in OCR; OCR page markers; not checked against print)",
+          "quote": "Having received such information as appeared to be perfectly reliable concerning the character and strength of the fortifications as induced me to believe that the place could be taken without great loss"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.629 (the running head for p.629 reads \"G29\" in OCR; OCR page markers; not checked against print)",
+          "quote": "But the information I had received in regard to the strength of the fortifications proved totally incorrect."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.401 (the running head for p.401 reads \"40 1\" in OCR; OCR page markers; not checked against print)",
+          "quote": "he came to the conclusion that it could be reduced and the garrison shelled out by bombardment in a short time, by placing eight guns in battery on the crest of the mountain."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.407 (OCR page markers; not checked against print)",
+          "quote": "General Ewing ascertained from prisoners taken that day that Price was there with the two divisions of Fagan and Mar- maduke and ten pieces of artillery"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "saint-louis-and-delay",
+      "dimension": "objectives",
+      "value": "NPS and Britton give Saint Louis as the expedition's objective. Britton says Ewing was instructed to hold Pilot Knob if practicable until it was known whether more than Shelby's division was present, and that he resolved to defend it as long as possible to delay the advance. Price says Shelby was sent to cut the railroad so that A. J. Smith could not reinforce the garrison.",
+      "rationale": "Stated aims from a summary, a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "nps-mo021-v1",
+          "locator": "Description",
+          "quote": "with the goal of capturing St. Louis"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.389 (OCR page markers; not checked against print)",
+          "quote": "St. Louis to be the objective"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.394 (OCR page markers; not checked against print)",
+          "quote": "General Ewing was instructed to hold Pilot Knob if practicable until he could find out whether more than Shelby's division was in that section."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.403 (OCR page markers; not checked against print)",
+          "quote": "He resolved to defend his position as long as possible and thus delay the advance northward of the invading army."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.628 (OCR page markers; not checked against print)",
+          "quote": "which would effectually prevent General A. J. Smith from re-enforcing the garrison at those places"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Price says he directed Marmaduke to take Shepherd's Mountain and ordered the charge; Britton says the council of war decided on an immediate assault, and that Ewing decided to evacuate the fort that night and blow up the magazine. The frozen commanders are Major General Sterling Price and Brigadier General Thomas Ewing Jr.; the live page names the same two.",
+      "rationale": "Command roles from an interested report and a history; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.629 (the running head for p.629 reads \"G29\" in OCR; OCR page markers; not checked against print)",
+          "quote": "I accordingly directed Major-General Marmaduke to take possession of Shepherd’s Mountain"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.402 (OCR page markers; not checked against print)",
+          "quote": "it was decided by the council of war that an immediate assault should be made on the fort."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.407 (OCR page markers; not checked against print)",
+          "quote": "He determined therefore to evacuate the fort that night and blow up the magazine"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO021",
+            "belligerent": "Confederate",
+            "fullname": "Sterling Price"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO021",
+            "belligerent": "US",
+            "fullname": "Thomas Ewing Jr."
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-mo021-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Thomas Ewing, Jr [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. Price says his troops were repulsed and that the enemy evacuated the fort in the night; Britton says the repulse was complete and Price could not rally his men. NPS says the Federals evacuated the fort during the night.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO021"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-mo021-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.629 (the running head for p.629 reads \"G29\" in OCR; OCR page markers; not checked against print)",
+          "quote": "Our troops were repulsed, and it being too late to renew the assault"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.629 (the running head for p.629 reads \"G29\" in OCR; OCR page markers; not checked against print)",
+          "quote": "The enemy at Pilot Knob on the night following the first attack evac- uated the fort, blowing up the magazine"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.406 (OCR page markers; not checked against print)",
+          "quote": "The repulse was so complete and the demoralization of the Confederate troops so great that General Price in person was unable to rally them."
+        },
+        {
+          "source_id": "nps-mo021-v1",
+          "locator": "Description",
+          "quote": "During the night, the Federals evacuated the fort."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 1,684 total (US 184; CS 1,500); the live field reads 1,800 (US 800; CS 1,000). Britton gives Ewing's report of 200 killed, wounded and missing over the defence of the passes and the retreat to Leasburg, Ewing's estimate of 1,500 Confederate killed and wounded, and Mackey's statement of 1,164 lost in twenty minutes and not less than 1,500 in all; he says Price never reported his casualties. Price gives no figure for Fagan's division and 14 officers and 80 men killed and wounded in Marmaduke's, a figure that follows his account of the pursuit.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO021"
+          },
+          "column": "casualties_text",
+          "quote": "1,684 total (US 184; CS 1,500)"
+        },
+        {
+          "source_id": "nps-mo021-v1",
+          "locator": "Estimated Casualties",
+          "quote": "1800 total (US 800; CS 1000;)"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.412 (OCR page markers; not checked against print)",
+          "quote": "General Ewing reported his loss in the battle of Pilot Knob in defending the passes and in his retreat to Leasburg at 200 men killed, wounded, and missing."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.412 (OCR page markers; not checked against print)",
+          "quote": "He reported the Confederate losses at Pilot Knob and in forcing the passes at 1500 men killed and wounded."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.412 (OCR page markers; not checked against print)",
+          "quote": "General Price never made any report of his casualties"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "pilot-knob",
+          "locator": "p.412 (OCR page markers; not checked against print)",
+          "quote": "in twenty minutes we lost 1164 officers and men killed and wounded"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.630 (OCR page markers; not checked against print)",
+          "quote": "My loss in this report I cannot give, as I have no report from Fagan’s division, but the loss in Marmaduke’s division was 14 officers and 80 men killed and wounded"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Ewing's report (No. 55) and the Fort Davidson subordinate reports, Shelby's and Clark's reports, Mackey's 1896 article, and the Iron County terrain against a map remain deferred.",
+    "Rosecrans's, Pleasonton's and Curtis's reports, the subordinate Union and Confederate reports in Volume XLI Part 1, the organization of Price's army (No. 89), Maclean's itinerary (No. 90), the Price Court of Inquiry, Hinton's 1865 Rebel Invasion of Missouri and Kansas, maps and returns remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Wiley Britton's The Civil War on the Border, volume II (Putnam, 1899) is a retrospective history by a Union participant; by its preface the larger operations are based mainly on the published official reports, so it is not independent of the Price report family. Price's September 19 and November 2 dispatches and his December 28, 1864 report (Official Records Series I, Volume XLI, Part 1, No. 88) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

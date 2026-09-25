@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "battle_id": "AL007",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Selma record (April 2, 1865) in Wilson's Raid in Alabama and Georgia [April 1865]. The march from Chickasaw, the April 1 action at Ebenezer Church, Croxton's and McCook's detached operations, Chalmers's attack on Long's rear and the later capture of Montgomery, Columbus, West Point and Macon are context, not added to this record. Campaign-wide returns, captures and loss totals are context, not assigned to one record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Two cavalry divisions against troops in the city (approx. 5,000 men), with a Confederate side strength of 5,000; the live field reads 18,500 (US 13,500; CS 5,000), NPS giving Wilson about 13,500 in three divisions at the start of the raid. Wilson says Long assaulted with 1,160 dismounted men and that Armstrong's brigade of nearly 1,500 held that part of the line. Jordan says Wilson pressed on with divisions at least 9,000 strong after detaching McCook, and gives the defenders as Armstrong's brigade of about 1,400 and Roddy's men and other forces, some 1,700 rank and file.",
+      "rationale": "An imported bound, a raid-start figure, attackers at one point and a defenders' history; no matched return. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL007"
+          },
+          "column": "forces_text",
+          "quote": "Two cavalry divisions [US]; troops in city (approx. 5,000 men) [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "AL007",
+            "belligerent": "Confederate"
+          },
+          "column": "strength_min",
+          "quote": "5000"
+        },
+        {
+          "source_id": "nps-al007-v1",
+          "locator": "Forces Engaged",
+          "quote": "18500 total (US 13500; CS 5000;)"
+        },
+        {
+          "source_id": "nps-al007-v1",
+          "locator": "Description",
+          "quote": "commanding three divisions of Union cavalry, about 13,500 men"
+        },
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-1865-05-03",
+          "locator": "p.351 (OCR page markers; not checked against print)",
+          "quote": "1,160 men in all"
+        },
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-1865-05-03",
+          "locator": "p.351 (OCR page markers; not checked against print)",
+          "quote": "Armstrong’s brigade, with nearly 1,500 men pfended that part of the line."
+        },
+        {
+          "source_id": "jordan-selma-selections-v1",
+          "section": "ebenezer-and-selma",
+          "locator": "p.665 (OCR page markers; not checked against print)",
+          "quote": "still at least 9000 strong."
+        },
+        {
+          "source_id": "jordan-selma-selections-v1",
+          "section": "ebenezer-and-selma",
+          "locator": "p.673 (OCR page markers; not checked against print)",
+          "quote": "Armstrong's Brigade, about - 1400 strong"
+        },
+        {
+          "source_id": "jordan-selma-selections-v1",
+          "section": "ebenezer-and-selma",
+          "locator": "p.673 (OCR page markers; not checked against print)",
+          "quote": "in all some 1700, rank and file"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "works-and-approach",
+      "dimension": "terrain",
+      "value": "Wilson's May 3 report says Long's men charged 500 yards over an open, level field and through a stockade; his detailed report puts the distance charged at 600 yards and gives a parapet of six to eight feet, a ditch five feet deep and a line on a radius of nearly three miles, with a swamp on the east thought impassable. Jordan describes a double line of works whose exterior ran nearly four miles and needed a far larger garrison.",
+      "rationale": "Works described by the attacking commander's two reports and a history; distances and lengths differ; no map verification.",
+      "citations": [
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-1865-05-03",
+          "locator": "p.351 (OCR page markers; not checked against print)",
+          "quote": "They charged 500 yards over an pen and level fleld"
+        },
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-detailed-selma",
+          "locator": "p.361 (OCR page markers; not checked against print)",
+          "quote": "was 600 yards."
+        },
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-detailed-selma",
+          "locator": "p.360 (OCR page markers; not checked against print)",
+          "quote": "Height of parapet, six to eight teet"
+        },
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-detailed-selma",
+          "locator": "p.360 (OCR page markers; not checked against print)",
+          "quote": "consisted of a bastioned line on a radius of near y three im e"
+        },
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-1865-05-03",
+          "locator": "p.351 (OCR page markers; not checked against print)",
+          "quote": "to penetrate the swamps at a point regarded impass- ple by the enemy"
+        },
+        {
+          "source_id": "jordan-selma-selections-v1",
+          "section": "ebenezer-and-selma",
+          "locator": "p.673 (OCR page markers; not checked against print)",
+          "quote": "the exterior of which was upon a trace of nearly four miles"
+        },
+        {
+          "source_id": "jordan-selma-selections-v1",
+          "section": "ebenezer-and-selma",
+          "locator": "p.673 (OCR page markers; not checked against print)",
+          "quote": "they required for their proper defense a very l^ large garrison"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "canister-and-repeaters",
+      "dimension": "logistics",
+      "value": "Jordan says Forrest found the Selma artillery had little ammunition and not one charge of grape or canister, that the assaulting troops carried Spencer repeaters and breech-loaders, and that Selma was a chief arsenal and ordnance depot.",
+      "rationale": "Ammunition and weapons statements from a history; no ordnance return.",
+      "citations": [
+        {
+          "source_id": "jordan-selma-selections-v1",
+          "section": "ebenezer-and-selma",
+          "locator": "p.673 (OCR page markers; not checked against print)",
+          "quote": "not one charge of either grape or canister."
+        },
+        {
+          "source_id": "jordan-selma-selections-v1",
+          "section": "ebenezer-and-selma",
+          "locator": "p.674 (the running head for p.674 reads \"6/4\" in OCR; OCR page markers; not checked against print)",
+          "quote": "They were armed with Spencer rifles, repeaters, and breech-loaders"
+        },
+        {
+          "source_id": "jordan-selma-selections-v1",
+          "section": "ebenezer-and-selma",
+          "locator": "p.673 (OCR page markers; not checked against print)",
+          "quote": "There were established one of the chief arsenals f of construction and depots of the Confederate States"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "plans-of-the-works-and-captured-dispatches",
+      "dimension": "information",
+      "value": "Wilson says he had obtained detailed plans of the works and reconnoitred to check them, finding his information generally correct. Jordan says intercepted dispatches from Jackson and Forrest's staff had revealed to Wilson the Confederate plans and dispersion.",
+      "rationale": "Attributed knowledge from the attacking commander and a history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-1865-05-03",
+          "locator": "p.351 (OCR page markers; not checked against print)",
+          "quote": "Having jeviously obtained detailed plans of the rebel works, made a hasty pconnaissance to ascertain the accuracy of the drawings."
+        },
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-detailed-selma",
+          "locator": "p.359 (OCR page markers; not checked against print)",
+          "quote": "my information was generally correct."
+        },
+        {
+          "source_id": "jordan-selma-selections-v1",
+          "section": "ebenezer-and-selma",
+          "locator": "p.664 (OCR page markers; not checked against print)",
+          "quote": "which divulged to General Wilson the plans of his adversar)-"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "assault-plan-and-hopeless-defence",
+      "dimension": "objectives",
+      "value": "Wilson says he directed Long to attack on the right of the Summerfield road while Upton penetrated the swamp to attack after dark. Jordan says Forrest sent couriers to bring Chalmers to a junction in front of Selma and, when Taylor left at 2 p.m., made his dispositions for an attempt he saw as hopeless.",
+      "rationale": "Stated aims from the attacking commander and a history.",
+      "citations": [
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-1865-05-03",
+          "locator": "p.351 (OCR page markers; not checked against print)",
+          "quote": "Directed I eneral Long to attack on the right of the Summerfleld road"
+        },
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-detailed-selma",
+          "locator": "p.360 (OCR page markers; not checked against print)",
+          "quote": "with a picked force of 300 men was directed to penetrate the swamp upon his left"
+        },
+        {
+          "source_id": "jordan-selma-selections-v1",
+          "section": "ebenezer-and-selma",
+          "locator": "p.665 (OCR page markers; not checked against print)",
+          "quote": "to find Chalmers, and guide him to a junction in front of Selma"
+        },
+        {
+          "source_id": "jordan-selma-selections-v1",
+          "section": "ebenezer-and-selma",
+          "locator": "p.673 (OCR page markers; not checked against print)",
+          "quote": "he made his dispositions for the at- tempt, hopeless as it seemed."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Wilson credits Long with opening the assault without waiting for the signal when Chalmers struck his rear. Jordan says Forrest took command on Taylor's departure and ordered Roddy to fill the breach left by the militia. NPS says Wilson split his command into three columns. The frozen commanders are Lieutenant General Nathan Bedford Forrest and Major General James H. Wilson; the live page gives Wilson as Brigadier General and Forrest as Major General.",
+      "rationale": "Command roles from the attacking commander, a history written from Forrest's papers and a summary; no automatic sole credit, and live ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-detailed-selma",
+          "locator": "p.360 (OCR page markers; not checked against print)",
+          "quote": "with admirable judgment, determined to mak( tie assault at once, and without waiting for the signal gave the orde to advance."
+        },
+        {
+          "source_id": "jordan-selma-selections-v1",
+          "section": "ebenezer-and-selma",
+          "locator": "p.673 (OCR page markers; not checked against print)",
+          "quote": "as the chief command devolved upon him by the departure of Gene- ral Taylor at two p.m."
+        },
+        {
+          "source_id": "jordan-selma-selections-v1",
+          "section": "ebenezer-and-selma",
+          "locator": "p.675 (OCR page markers; not checked against print)",
+          "quote": "Roddy was therefore directed to move over and fill the breach"
+        },
+        {
+          "source_id": "nps-al007-v1",
+          "locator": "Description",
+          "quote": "Wilson split his command into three columns."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL007",
+            "belligerent": "Confederate",
+            "fullname": "Nathan Bedford Forrest"
+          },
+          "column": "rank",
+          "quote": "Lieutenant General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL007",
+            "belligerent": "US",
+            "fullname": "James H. Wilson"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-al007-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General James Wilson [US]"
+        },
+        {
+          "source_id": "nps-al007-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General Nathan Forrest [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. NPS says the columns broke through and the city was surrendered though Forrest and Taylor escaped; Jordan says Taylor had left by rail before the assault, that Forrest cut his way out, and that Selma fell. Wilson says Forrest and others escaped with about half their forces.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL007"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-al007-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-al007-v1",
+          "locator": "Description",
+          "quote": "many of the officers and men, including Forrest and Lt. Gen. Richard Taylor, escaped."
+        },
+        {
+          "source_id": "jordan-selma-selections-v1",
+          "section": "ebenezer-and-selma",
+          "locator": "p.672 (OCR page markers; not checked against print)",
+          "quote": "on the eve of departure, by rail"
+        },
+        {
+          "source_id": "jordan-selma-selections-v1",
+          "section": "ebenezer-and-selma",
+          "locator": "p.676 (OCR page markers; not checked against print)",
+          "quote": "Thus Selma fell"
+        },
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-1865-05-03",
+          "locator": "p.351 (OCR page markers; not checked against print)",
+          "quote": "with about half of their forces, escaped"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 3,019 total (US 319; CS 2,700); the live field reads 3,059 (US 359; CS 2,700). Wilson's May 3 report gives Long's loss as 46 killed with the rest garbled, and a garbled count of about 'seven hundred prisoners, including 150' officers; his detailed report's list of captures is largely unreadable ('2^700'). Jordan gives no Selma figures.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL007"
+          },
+          "column": "casualties_text",
+          "quote": "3,019 total (US 319; CS 2,700)"
+        },
+        {
+          "source_id": "nps-al007-v1",
+          "locator": "Estimated Casualties",
+          "quote": "3059 total (US 359; CS 2700;)"
+        },
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-1865-05-03",
+          "locator": "p.351 (OCR page markers; not checked against print)",
+          "quote": "Total loss, 46 killed,"
+        },
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-1865-05-03",
+          "locator": "p.351 (OCR page markers; not checked against print)",
+          "quote": "t’loosaod seven hundred prisoners, including 150"
+        },
+        {
+          "source_id": "or49-1-wilson-selma-selections-v1",
+          "section": "wilson-detailed-selma",
+          "locator": "p.361 (OCR page markers; not checked against print)",
+          "quote": "2^700^^^^ 30^pounder Parrott"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Long's, Upton's, Minty's and Miller's reports and the casualty returns printed with the Second Division reports, Chalmers's and Armstrong's accounts, Andrews's chapters on Wilson's raid (a different author family registered for the Mobile Campaign), and a clean scan of Wilson's reports remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Wilson's May 3, 1865 summary and detailed report (Official Records Series I, Volume XLIX, Part 1) are one family of interested Union accounts; the OCR is badly garbled. Jordan and Pryor's The Campaigns of Lieut.-Gen. N. B. Forrest (1868) is a retrospective Confederate history written from Forrest's papers and registered earlier for other engagements; it is not independent of the listed Confederate commander and cites Andrews's History of the Campaign of Mobile. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

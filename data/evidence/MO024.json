@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO024",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Little Blue River record (October 21, 1864) in Price's Missouri Expedition [September-October 1864]. The October 20 withdrawal to Independence and the evening fighting in the streets of Independence on the 21st are context; the October 22 action at Independence is a separate record (MO025). Campaign-wide marches, recruiting, destruction, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 1st Division, Army of the Border and Army of Missouri; the live field reads zero. NPS gives Blunt's force as about 2,000 and says Confederate numerical superiority told in the five-hour fight. Britton says Moonlight's Second Brigade held the crossing and Blunt brought Jennison's and Ford's brigades and McLain's battery of five 3-inch rifles, with Marmaduke, Shelby and then Fagan crossing. Price says Lawther's regiment met the enemy in superior numbers, Greene came up with about 150 men, and his troops held against far superior numbers.",
+      "rationale": "Unit identifications and contradictory statements of numerical superiority; no count at the action. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO024"
+          },
+          "column": "forces_text",
+          "quote": "1st Division, Army of the Border [US]; Army of Missouri [CS]"
+        },
+        {
+          "source_id": "nps-mo024-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-mo024-v1",
+          "locator": "Description",
+          "quote": "a force of about 2,000 men under the command of Maj. Gen. James G. Blunt"
+        },
+        {
+          "source_id": "nps-mo024-v1",
+          "locator": "Description",
+          "quote": "their numerical superiority took its toll in the five-hour battle."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.445 (OCR page markers; not checked against print)",
+          "quote": "Captain McLain's Colorado battery of five 3-inch rifled guns"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.446 (OCR page markers; not checked against print)",
+          "quote": "General Curtis decided to order General Blunt with the brigades of Colonels Jennison and"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.634 (OCR page markers; not checked against print)",
+          "quote": "who were strongly posted behind a stone fence in superior numbers."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.634 (OCR page markers; not checked against print)",
+          "quote": "re-enforced by Colonel Greene with about 150 men."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.634 (OCR page markers; not checked against print)",
+          "quote": "the far- superior numbers of the enemy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "bluffs-and-stone-fence",
+      "dimension": "terrain",
+      "value": "NPS describes a strong defensive position on the west bank; Britton says Blunt took a good position along the bluffs and that Moonlight held a stone fence at right angles to the road, the fords above and below the burned bridge being forced. Price says a ford half a mile below the bridge was seized.",
+      "rationale": "Ground described by a summary, a history and an interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "nps-mo024-v1",
+          "locator": "Description",
+          "quote": "a strong defensive position on the west bank"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.444 (OCR page markers; not checked against print)",
+          "quote": "took up a good defensive position along the bluffs"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.446 (OCR page markers; not checked against print)",
+          "quote": "a good position behind a stone fence running at right angles to the road"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.634 (OCR page markers; not checked against print)",
+          "quote": "A ford half mile below the bridge was seized by our troops"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-and-ammunition",
+      "dimension": "logistics",
+      "value": "Britton says Blunt sent to Independence, eight miles off, for rations on the 20th. Price says his engaged troops' ammunition was about exhausted when Kitchen's regiment arrived.",
+      "rationale": "Two statements; no supply or ammunition return.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.444 (OCR page markers; not checked against print)",
+          "quote": "sent to Independence, eight miles distant, for rations for his troops"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.634 (OCR page markers; not checked against print)",
+          "quote": "as the ammunition of our troops engaged"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.634 (OCR page markers; not checked against print)",
+          "quote": "was about to become exhausted, Colonel Kitchen’s regiment arrived to their relief."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "dispatches-and-expected-support",
+      "dimension": "information",
+      "value": "NPS says Rosecrans could not communicate with Curtis. Britton says Curtis's latest dispatches from Rosecrans put Pleasonton and A. J. Smith close on Price's rear and their guns were expected all day.",
+      "rationale": "Attributed knowledge from a summary and a history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "nps-mo024-v1",
+          "locator": "Description",
+          "quote": "he was unable to communicate with Maj. Gen. Samuel R. Curtis"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.449 (OCR page markers; not checked against print)",
+          "quote": "The latest despatches General Curtis had from General Rosecrans showed that his cavalry under Pleasonton and his infantry under A. J. Smith should be close upon the rear of Price's army"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "delay-to-the-big-blue",
+      "dimension": "objectives",
+      "value": "Britton says Curtis had decided to make the Big Blue his line, left Moonlight as an outpost with orders to burn the bridge, and sent Blunt back not for a general engagement but to delay the invading army. NPS says Blunt tried to regain the position he had held the day before.",
+      "rationale": "Stated aims from a history and a summary.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.445 (OCR page markers; not checked against print)",
+          "quote": "General Curtis had decided to make the Big Blue his line of defence"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.445 (OCR page markers; not checked against print)",
+          "quote": "with instructions to burn the bridge if the enemy advanced on that road"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "He did not desire to bring on a general engagement, but he wished to delay by this demonstration of his small force the movements of the invading army"
+        },
+        {
+          "source_id": "nps-mo024-v1",
+          "locator": "Description",
+          "quote": "attempted to drive the enemy back beyond the defensive position that he wished to reoccupy."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Curtis came on the field, placed troops and batteries in person and ordered Blunt to retire; Blunt dismounted and formed the line. Price says he ordered Shelby to Marmaduke's relief and that Fagan supported without being engaged. The frozen commanders are Major Generals Sterling Price and Samuel R. Curtis.",
+      "rationale": "Command roles from a history and an interested report; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.447 (OCR page markers; not checked against print)",
+          "quote": "directed the movements of troops and the placing of batteries in position in person."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.448 (OCR page markers; not checked against print)",
+          "quote": "General Curtis, who was present on the field directing the general movements of his forces, ordered General Blunt to retire his command on the road to Independence."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.634 (OCR page markers; not checked against print)",
+          "quote": "I had sent orders to Brigadier- General Shelby to march rapidly to his relief"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.634 (OCR page markers; not checked against print)",
+          "quote": "Fagan’s division under my orders supported Shelby, but were not immediately engaged."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO024",
+            "belligerent": "Confederate",
+            "fullname": "Sterling Price"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO024",
+            "belligerent": "US",
+            "fullname": "Samuel R. Curtis"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-mo024-v1",
+          "locator": "Principal Commanders",
+          "quote": "Samuel Curtis [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. NPS says the Federals retreated to Independence; Price says Shelby drove them seven miles and beyond Independence; Britton says Price's army camped in and about Independence that night.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO024"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-mo024-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "nps-mo024-v1",
+          "locator": "Description",
+          "quote": "The Federals retreated to Independence and went into camp there after dark."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.634 (OCR page markers; not checked against print)",
+          "quote": "for seven miles and beyond Independence."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.450 (OCR page markers; not checked against print)",
+          "quote": "Price's army with its large trains moved forward and encamped that night in and about Independence"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown and the live field zero. Britton notes the death of Major J. N. Smith of the Second Colorado; no inspected passage gives a total for either side.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO024"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-mo024-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "lexington-little-blue",
+          "locator": "p.449 (OCR page markers; not checked against print)",
+          "quote": "Smith, commanding the Second Colorado Cavalry, was shot through the head and in stantly killed"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Curtis's (No. 64), Blunt's (No. 80), Moonlight's (No. 82), Ford's (No. 84), Clark's and Greene's reports remain deferred.",
+    "Rosecrans's, Pleasonton's and Curtis's reports, the subordinate Union and Confederate reports in Volume XLI Part 1, the organization of Price's army (No. 89), Maclean's itinerary (No. 90), the Price Court of Inquiry, Hinton's 1865 Rebel Invasion of Missouri and Kansas, maps and returns remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Wiley Britton's The Civil War on the Border, volume II (Putnam, 1899) is a retrospective history by a Union participant; by its preface the larger operations are based mainly on the published official reports, so it is not independent of the Price report family. Price's September 19 and November 2 dispatches and his December 28, 1864 report (Official Records Series I, Volume XLI, Part 1, No. 88) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO026",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Byram's Ford (Big Blue River) record (October 22-23, 1864) in Price's Missouri Expedition [September-October 1864]. The frozen interval covers Shelby's forcing of the Big Blue on October 22 and Pleasonton's forcing of Byram's Ford on the 23rd. The October 22 fight with Kansas militia south of the ford near Hickman's Mills and the Westport battle (MO027) are recorded separately and not added. Campaign-wide marches, recruiting, destruction, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads the 1st Division, Army of the Border and the provisional cavalry division against Shelby's and Marmaduke's divisions; the live field reads zero. Price says Curtis's arrival raised Blunt's army on the Big Blue to between 6,000 and 8,000. Britton says Jennison's First Brigade held Byram's Ford, reinforced by the Sixteenth Kansas and the Fourth Kansas State Militia, against Thompson's brigade, and that on the 23rd Philips's brigade, then Winslow's and Sanborn's, attacked Marmaduke's division.",
+      "rationale": "A Confederate estimate of the whole Union line and unit identifications; no count at the ford. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO026"
+          },
+          "column": "forces_text",
+          "quote": "1st Division, Army of the Border and provisional cavalry division [US]; Shelby and Marmaduke's Divisions [CS]"
+        },
+        {
+          "source_id": "nps-mo026-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.634 (OCR page markers; not checked against print)",
+          "quote": "thus increasing Blunt’s army to between 6,000 and 8,000 men."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.478 (OCR page markers; not checked against print)",
+          "quote": "he sent Colonel Jennison with the First Brigade to defend Byram's Ford"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.478 (OCR page markers; not checked against print)",
+          "quote": "The Fourth Kansas State Militia under Colonel McCain was also sent to reinforce Colonel Jennison."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.470 (OCR page markers; not checked against print)",
+          "quote": "Colonel Winslow's Fourth Brigade came up on the right and Sanborn's Third Brigade on the left of Philips' First Brigade"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "fords-and-obstructions",
+      "dimension": "terrain",
+      "value": "NPS calls Byram's Ford the best ford in the area. Britton says the Big Blue's banks were steep with few good fords for trains and artillery, the ford's approaches were obstructed by felled trees and breastworks, and on the 23rd a Confederate battery on the crest above the ford swept the road. Price calls the Federal position strong by nature and strengthened by fortifications.",
+      "rationale": "Ground and works described by a summary, a history and an interested report; no map verification. The obstructions were made by the defenders, but the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "nps-mo026-v1",
+          "locator": "Description",
+          "quote": "Byram's Ford was the best ford in the area"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.477 (OCR page markers; not checked against print)",
+          "quote": "were generally steep and pre cipitous, with very few good fords for the passage of trains and artillery."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.478 (OCR page markers; not checked against print)",
+          "quote": "The entrance to and exit from the ford were obstructed by trees which had been felled across the road."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.470 (OCR page markers; not checked against print)",
+          "quote": "A Confederate battery was posted on the crest of the hill so as to sweep the road"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.634 (OCR page markers; not checked against print)",
+          "quote": "to a position strong by nature and strengthened by fortifications"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "wagon-train-crossing",
+      "dimension": "logistics",
+      "value": "NPS says Price had nearly 500 wagons and needed a good ford, and that the train and about 5,000 cattle crossed at Byram's Ford. Price says Shelby engaged the enemy after crossing to cover the passage of the train; Britton says the trains crossed by night.",
+      "rationale": "Train size and crossing from a summary, an interested report and a history; no transport return.",
+      "citations": [
+        {
+          "source_id": "nps-mo026-v1",
+          "locator": "Description",
+          "quote": "Price had nearly 500 wagons with him and required a good ford over the Big Blue River to facilitate the passage of his supplies."
+        },
+        {
+          "source_id": "nps-mo026-v1",
+          "locator": "Description",
+          "quote": "Price's wagon train and about 5,000 head of cattle then crossed the Big Blue River at Byram's Ford"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.634 (OCR page markers; not checked against print)",
+          "quote": "he engaged the enemy to cover the crossing and the passage of the train."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.468 (OCR page markers; not checked against print)",
+          "quote": "Price's trains crossed to the west side of the stream by night"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "which-ford",
+      "dimension": "information",
+      "value": "Britton says Curtis did not know at which of four or five fords Price would push hardest, that timber hid the Confederate movements, and that Captain Meeker's signal officers reported Shelby's shift toward the Federal right. Price says he chose the Santa Fe road on learning of the strong Federal position.",
+      "rationale": "Attributed knowledge from a history and an interested report; no signal log inspected.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.477 (OCR page markers; not checked against print)",
+          "quote": "General Curtis knew not at which one Price would make the most determined effort to force a passage."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.478 (OCR page markers; not checked against print)",
+          "quote": "This movement of Shelby towards the Federal right was immediately reported to General Curtis by Captain E. I. Meeker, his chief signal officer"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.634 (OCR page markers; not checked against print)",
+          "quote": "Receiving this information I deter- mined to advance on the Santa Fe road"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "hold-the-line-and-cover-the-rear",
+      "dimension": "objectives",
+      "value": "Britton says Curtis was confident the Big Blue line would check the advance. Price says Marmaduke, on the train's road, was to resist the pursuers if possible; NPS says Marmaduke held the west bank to keep Pleasonton off Price's rear.",
+      "rationale": "Stated aims from a history, an interested report and a summary.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.475 (OCR page markers; not checked against print)",
+          "quote": "General Curtis was confident that this line of defence had been so strengthened that he would be able to check the further advance of the South ern forces"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "had instructed Major-Gen- eral Marmaduke to resist the advance of the enemy, who was in his rear, -if possible, as he was on the same road as the train."
+        },
+        {
+          "source_id": "nps-mo026-v1",
+          "locator": "Description",
+          "quote": "to prevent Pleasonton from attacking Price's rear"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Blunt sent Jennison to the ford, Thompson dismounted part of his brigade to wade the river, and on the 23rd Pleasonton arrested Brown and put Philips in command of the First Brigade, which forced the ford. Price says Shelby crossed with the rest of his division. The frozen commanders are Brigadier Generals Joseph Shelby and John S. Marmaduke and Major Generals James G. Blunt and Alfred Pleasonton; the live page lists Blunt and Shelby, both as Brigadier General.",
+      "rationale": "Command roles from a history and an interested report; no automatic sole credit, and live ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.478 (OCR page markers; not checked against print)",
+          "quote": "General Thompson dismounted a part of his brigade and ordered his men to wade the river"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.469 (OCR page markers; not checked against print)",
+          "quote": "arrested him and sent him to the rear, and directed Colonel Philips, Sev enth Missouri State Militia Cavalry, to take command of the First Brigade."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.634 (OCR page markers; not checked against print)",
+          "quote": "Brigadier-General Shelby crossed the Big Blue with the remainder of his division"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO026",
+            "belligerent": "Confederate",
+            "fullname": "Joseph Shelby"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO026",
+            "belligerent": "Confederate",
+            "fullname": "John S. Marmaduke"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO026",
+            "belligerent": "US",
+            "fullname": "James G. Blunt"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO026",
+            "belligerent": "US",
+            "fullname": "Alfred Pleasonton"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-mo026-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General James Blunt [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory. On the 22nd, Britton and NPS say Shelby forced Jennison back toward Westport; on the 23rd, NPS says Marmaduke fell back after three hours and Price says Marmaduke had to fall back when his ammunition was exhausted. The result field covers both days.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO026"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-mo026-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.479 (OCR page markers; not checked against print)",
+          "quote": "attacked Jenni- son and drove him back nearly to Westport."
+        },
+        {
+          "source_id": "nps-mo026-v1",
+          "locator": "Description",
+          "quote": "Three hours later, Marmaduke's men had enough and fell back toward Westport."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "his ammunition being exhausted, had to fall back before the foe."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown and the live field zero. Britton gives the Fourth Missouri State Militia's loss on the morning of the 23rd as 2 officers and 7 men killed and 3 officers and 44 men wounded, and the Kansas militia's loss south of the ford on the 22nd as 36 killed, 43 wounded and 100 prisoners; the latter action is not added to this record.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO026"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-mo026-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.471 (OCR page markers; not checked against print)",
+          "quote": "loss of two officers and seven enlisted men killed and three officers and forty-four enlisted men wounded"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.480 (OCR page markers; not checked against print)",
+          "quote": "thirty-six men killed, forty-three wounded, and one hun dred taken prisoners."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Blunt's, Jennison's, Pleasonton's, Philips's, Kelly's and Lazear's reports, Shelby's, Thompson's and Clark's reports and a map of the Big Blue fords remain deferred.",
+    "Rosecrans's, Pleasonton's and Curtis's reports, the subordinate Union and Confederate reports in Volume XLI Part 1, the organization of Price's army (No. 89), Maclean's itinerary (No. 90), the Price Court of Inquiry, Hinton's 1865 Rebel Invasion of Missouri and Kansas, maps and returns remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Wiley Britton's The Civil War on the Border, volume II (Putnam, 1899) is a retrospective history by a Union participant; by its preface the larger operations are based mainly on the published official reports, so it is not independent of the Price report family. Price's September 19 and November 2 dispatches and his December 28, 1864 report (Official Records Series I, Volume XLI, Part 1, No. 88) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO025",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Independence record (October 22, 1864) in Price's Missouri Expedition [September-October 1864]. The same day's crossing of the Big Blue by Shelby is part of the Byram's Ford record (MO026) and is not added here; the night fighting toward the Big Blue and the October 23 fighting are context. Campaign-wide marches, recruiting, destruction, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Provisional cavalry division and Fagan and Marmaduke's divisions; the live field reads zero. Britton says Pleasonton's division had four brigades under Brown, McNeil, Sanborn and Winslow, each with a section of 3-inch rifles, and that McNeil's and Sanborn's brigades made the attack on Cabell with Brown and Winslow following against Marmaduke. Price says Cabell's brigade was sent to drive the pursuers back and Marmaduke's division formed the rear.",
+      "rationale": "Unit identifications only; no count for either side. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO025"
+          },
+          "column": "forces_text",
+          "quote": "Provisional cavalry division [US]; Fagan and Marmaduke's Divisions, Army of Missouri [CS]"
+        },
+        {
+          "source_id": "nps-mo025-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.461 (OCR page markers; not checked against print)",
+          "quote": "A section of 3-inch rifled guns was attached to each brigade."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.464 (OCR page markers; not checked against print)",
+          "quote": "The troops of McNeil and Sanborn now pressed forward"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.466 (OCR page markers; not checked against print)",
+          "quote": "the First Brigade under General Brown and the Fourth Brigade under Colonel Winslow came up"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "he dispatched Brigadier-General Cabell to drive back the enemy"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "Major-General Marmaduke’s division, which formed the rear of the army"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "broken-ground-and-darkness",
+      "dimension": "terrain",
+      "value": "Britton says the ground east of Independence is broken by steep hollows that disordered Sanborn's dismounted men, and that Clark's skirmishers held timber east of Rock Creek; Price and Britton say the evening fighting went on in darkness.",
+      "rationale": "Ground described by a history and an interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.466 (OCR page markers; not checked against print)",
+          "quote": "But the ground just east of Independ ence is broken by steep hollows"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.466 (OCR page markers; not checked against print)",
+          "quote": "in a skirt of timber east of Rock"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "in almost impenetrable darkness."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-bridging",
+      "dimension": "logistics",
+      "value": "Britton says a temporary bridge had to be built at the Little Blue for trains and artillery, that two of Brown's regiments had nearly used up their ammunition by dark, and that Pleasonton ordered up his ammunition and supply trains that night.",
+      "rationale": "Statements from a history; no supply or ammunition return.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.463 (OCR page markers; not checked against print)",
+          "quote": "a tem porary bridge was hastily constructed for the purpose"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.467 (OCR page markers; not checked against print)",
+          "quote": "two of his regiments reported that they had nearly ex pended their supply of ammunition"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.468 (OCR page markers; not checked against print)",
+          "quote": "After ordering up his ammunition and supply trains from the rear"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "pickets-and-reports",
+      "dimension": "information",
+      "value": "Price says he had posted pickets at the Little Blue to warn of pursuit, and Fagan was told on the morning of the 22nd that they had been driven in. Britton says reports of the advance on the rear were sent to Fagan and Marmaduke. NPS says Pleasonton's actions frightened Price into sending his trains to Little Santa Fe.",
+      "rationale": "Attributed knowledge from an interested report, a history and a summary; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "I had directed pickets to be placed at the Little Blue to give notice of their approach."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "being advised on the morning of the 22d that the enemy had attacked and driven in his pickets"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.465 (OCR page markers; not checked against print)",
+          "quote": "Re ports of the Federal advance upon the Confederate rear were immediately sent in to Generals Fagan and Marma duke"
+        },
+        {
+          "source_id": "nps-mo025-v1",
+          "locator": "Description",
+          "quote": "Pleasonton's actions, however, frightened Price and his army"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rear-guard-and-relief-of-curtis",
+      "dimension": "objectives",
+      "value": "Price says Cabell was sent to drive back the pursuers. Britton says Pleasonton pushed the attack all night with the view of relieving Curtis. NPS says Marmaduke held Pleasonton at bay until the 23rd.",
+      "rationale": "Stated aims from an interested report, a history and a summary.",
+      "citations": [
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "he dispatched Brigadier-General Cabell to drive back the enemy"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.467 (OCR page markers; not checked against print)",
+          "quote": "With the view of relieving General Curtis"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.467 (OCR page markers; not checked against print)",
+          "quote": "deter mined to push the Confederate force in his front all night"
+        },
+        {
+          "source_id": "nps-mo025-v1",
+          "locator": "Description",
+          "quote": "held them at bay until the morning of the 23rd"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Pleasonton was at the front directing his leading brigade and ordered McNeil to mount and charge; Catherwood led the charge. Price says Fagan sent Cabell. The frozen commanders are Brigadier Generals James F. Fagan and John S. Marmaduke and Major General Alfred Pleasonton; the live page lists Pleasonton and Fagan (Brigadier General), while Price's report styles Fagan and Marmaduke Major General.",
+      "rationale": "Command roles from a history and an interested report; no automatic sole credit, and no rank is adopted.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.464 (OCR page markers; not checked against print)",
+          "quote": "General Pleasonton, who was at the front with his leading brigade directing the movements of his forces, at once commenced making his dispositions for battle."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.465 (OCR page markers; not checked against print)",
+          "quote": "General Pleasonton ordered McNeil to mount his command and charge the enemy in retreat."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "Major-General Fagan, and being advised"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO025",
+            "belligerent": "Confederate",
+            "fullname": "James F. Fagan"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO025",
+            "belligerent": "Confederate",
+            "fullname": "John S. Marmaduke"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO025",
+            "belligerent": "US",
+            "fullname": "Alfred Pleasonton"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-mo025-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General James Fagan [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Confederate victory. Britton says Pleasonton's charge broke Cabell's line, took two guns and 400 prisoners, and drove Marmaduke back toward the Big Blue by night; Price says Cabell was struck in the flank and Marmaduke was driven steadily back until late at night. NPS says Pleasonton occupied Independence but Marmaduke then pressed him back and held him.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO025"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-mo025-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.465 (OCR page markers; not checked against print)",
+          "quote": "capturing two guns of the Confederate battery and four hundred prisoners"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.468 (OCR page markers; not checked against print)",
+          "quote": "driving Marma- duke's division back within a mile or so of the Big Blue"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "driving our troops steadily back until a late hour of the night"
+        },
+        {
+          "source_id": "nps-mo025-v1",
+          "locator": "Description",
+          "quote": "hit the Federals hard, pressed them back"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Total unknown (US unknown; CS 140); the live field reads 140 (US 0; CS 140). Price says Cabell lost 300 or 400 men cut off and two guns; Britton says 400 prisoners and two guns were taken.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO025"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US unknown; CS 140)"
+        },
+        {
+          "source_id": "nps-mo025-v1",
+          "locator": "Estimated Casualties",
+          "quote": "140 total (US 0; CS 140;)"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "cutting oft* 300 or 400 men and capturing 2 pieces of artillery."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "independence-big-blue",
+          "locator": "p.465 (OCR page markers; not checked against print)",
+          "quote": "capturing two guns of the Confederate battery and four hundred prisoners"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Pleasonton's (No. 13), Brown's, McNeil's, Sanborn's, Winslow's and Catherwood's reports and Clark's and Greene's reports remain deferred.",
+    "Rosecrans's, Pleasonton's and Curtis's reports, the subordinate Union and Confederate reports in Volume XLI Part 1, the organization of Price's army (No. 89), Maclean's itinerary (No. 90), the Price Court of Inquiry, Hinton's 1865 Rebel Invasion of Missouri and Kansas, maps and returns remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Wiley Britton's The Civil War on the Border, volume II (Putnam, 1899) is a retrospective history by a Union participant; by its preface the larger operations are based mainly on the published official reports, so it is not independent of the Price report family. Price's September 19 and November 2 dispatches and his December 28, 1864 report (Official Records Series I, Volume XLI, Part 1, No. 88) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

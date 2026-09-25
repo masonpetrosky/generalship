@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO027",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Westport record (October 23, 1864) in Price's Missouri Expedition [September-October 1864]. Pleasonton's forcing of Byram's Ford the same morning is its own record (MO026); the pursuit to Little Santa Fe is context. Campaign-wide marches, recruiting, destruction, returns and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Army of the Border and Army of Missouri; the live field reads zero. Price says the enemy engaged that day exceeded 20,000 well-armed men against his fewer than 8,000 armed, that a force of 2,000 or 2,500 threatened his train, and that he formed several thousand unarmed men and not more than 200 armed men to meet it. Britton says Curtis left three or four thousand militia in the Kansas City works and sent seven or eight thousand forward under Blunt, and that Shelby was reinforced by two of Fagan's brigades.",
+      "rationale": "Interested estimates and a history's figures for different scopes; no return at the battle. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO027"
+          },
+          "column": "forces_text",
+          "quote": "Army of the Border [US]; Army of Missouri [CS]"
+        },
+        {
+          "source_id": "nps-mo027-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.636 (the running head for p.636 reads \"LOUISIANA AND THE TRANS-MISSISSTPPT. [Chap. Lin.\" in OCR; OCR page markers; not checked against print)",
+          "quote": "The number of the enemy’s troops engaged that day exceeded 20,000 well-armed men, while I did not have 8,000 armed men."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "some 2,000 or 2,500 strong"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.636 (the running head for p.636 reads \"LOUISIANA AND THE TRANS-MISSISSTPPT. [Chap. Lin.\" in OCR; OCR page markers; not checked against print)",
+          "quote": "(the whole not exceeding more than 200)"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.482 (OCR page markers; not checked against print)",
+          "quote": "left behind three or four thousand Kansas and Missouri militia"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.482 (OCR page markers; not checked against print)",
+          "quote": "the force of seven or eight thousand men sent forward under General Blunt early that morning."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.483 (OCR page markers; not checked against print)",
+          "quote": "Shelby's division, reinforced by two brigades of Fagan's division"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "brush-creek-fences-and-thickets",
+      "dimension": "terrain",
+      "value": "Britton says Blunt's line formed in the timber along Brush Creek, Jennison's skirmishers used a field enclosed by stone and rail fences, and the half mile south of the creek was thick brush unsuited to cavalry. NPS says Curtis had established strong defensive lines.",
+      "rationale": "Ground described by a history and a summary; no map verification.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.482 (OCR page markers; not checked against print)",
+          "quote": "deployed in line of battle in the timber along that"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.483 (OCR page markers; not checked against print)",
+          "quote": "In front of Jennison there was a large field in closed with stone and rail fences"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.486 (OCR page markers; not checked against print)",
+          "quote": "was covered with thick brush and unsuitable for manoeuvring cavalry"
+        },
+        {
+          "source_id": "nps-mo027-v1",
+          "locator": "Description",
+          "quote": "Curtis had established strong defensive lines"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-horses-and-train",
+      "dimension": "logistics",
+      "value": "Britton says most of Shelby's troops had nearly used up their ammunition and halted to await a supply, one of Collins's rifled guns burst, and Blair's brigade was delayed until its horses were brought back from Wyandotte. Price says his train had been sent ahead on the Fort Scott road.",
+      "rationale": "Statements from a history and an interested report; no supply or ammunition return.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.485 (OCR page markers; not checked against print)",
+          "quote": "most of his troops had so nearly ex pended their ammunition that he was obliged to halt on the prairie"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.485 (OCR page markers; not checked against print)",
+          "quote": "one of his rifled guns burst at the first round."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.484 (OCR page markers; not checked against print)",
+          "quote": "which had been detained at that place until its horses were brought back"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "The train had been sent forward on the Fort Scott road."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "overestimate-and-threat-to-train",
+      "dimension": "information",
+      "value": "Britton says Curtis's information led him to overestimate the Confederate strength and made him overcautious, and that on the night of the 22nd he learned Pleasonton had driven Price from Independence. Price says he received word that his train was threatened.",
+      "rationale": "Attributed knowledge from a history and an interested report; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.487 (OCR page markers; not checked against print)",
+          "quote": "His information led him to overestimate the strength of the Confederate forces and perhaps made him overcautious in his movements."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.482 (OCR page markers; not checked against print)",
+          "quote": "he received information that General Pleasonton had arrived at In dependence"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "I received information that my train, which was in front and on the right of the Fort Scott road, was threat- ened by the enemy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "attack-in-detail-or-save-the-train",
+      "dimension": "objectives",
+      "value": "NPS says Price chose to strike Curtis at Westport first while Pleasonton was behind him. Britton says that after Independence Price had no further thought of Kansas City and sought to secure his train; Curtis ordered his mounted forces forward to attack at daylight.",
+      "rationale": "Stated aims from a summary and a history.",
+      "citations": [
+        {
+          "source_id": "nps-mo027-v1",
+          "locator": "Description",
+          "quote": "Price chose to strike Curtis at Westport first."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.482 (OCR page markers; not checked against print)",
+          "quote": "Price had no further thought of coming to Kansas City, but turned his attention to making such disposition of his troops as to secure the safety of his train."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.482 (OCR page markers; not checked against print)",
+          "quote": "to attack at daylight the enemy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Britton says Curtis came on the field and ordered his whole line to advance, and that Shelby withdrew on Price's order to fall back. Price says Shelby attacked with Fagan's two Arkansas brigades and that he himself formed the unarmed men before the train. The frozen commanders are Major Generals Sterling Price and Samuel R. Curtis.",
+      "rationale": "Command roles from a history and an interested report; no automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.486 (OCR page markers; not checked against print)",
+          "quote": "General Curtis now came upon the field and ordered his entire line to advance to the attack."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.486 (OCR page markers; not checked against print)",
+          "quote": "Shelby received orders from Price to fall back and join the other divisions of the Confederate army"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "Brigadier- General Shelby immediately attacked the enemy, assisted by Major- General Fagan with two brigades of Arkansas troops"
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.636 (the running head for p.636 reads \"LOUISIANA AND THE TRANS-MISSISSTPPT. [Chap. Lin.\" in OCR; OCR page markers; not checked against print)",
+          "quote": "I immediately pushed forward to the front of the train with my escort and there formed in line of battle the unarmed men"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO027",
+            "belligerent": "Confederate",
+            "fullname": "Sterling Price"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO027",
+            "belligerent": "US",
+            "fullname": "Samuel R. Curtis"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-mo027-v1",
+          "locator": "Principal Commanders",
+          "quote": "Samuel Curtis [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results read Union victory, and NPS says the Confederates could not break the Union lines and retreated. Price says Shelby and Fagan drove the enemy six or seven miles into Westport before he recalled them to protect the train; Britton says the Federal line first fell back behind Brush Creek, then the whole Confederate line retreated.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO027"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-mo027-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-mo027-v1",
+          "locator": "Description",
+          "quote": "The Rebels could not break the Union lines and retreated south."
+        },
+        {
+          "source_id": "or41-1-price-missouri-selections-v1",
+          "section": "price-1864-12-28",
+          "locator": "p.635 (OCR page markers; not checked against print)",
+          "quote": "drove them six or seven miles into Westport."
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.484 (OCR page markers; not checked against print)",
+          "quote": "The entire Federal line had now fallen back to the north side of Brush Creek"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.487 (OCR page markers; not checked against print)",
+          "quote": "the entire Confederate line was retreating from the field"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 3,000 total (US 1,500; CS 1,500); the live field matches. Britton says about 100 prisoners were taken in the repulse of McGhee's charge; no other inspected figure is specific to this battle.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO027"
+          },
+          "column": "casualties_text",
+          "quote": "3,000 total (US 1,500; CS 1,500)"
+        },
+        {
+          "source_id": "nps-mo027-v1",
+          "locator": "Estimated Casualties",
+          "quote": "3000 total (US 1500; CS 1500;)"
+        },
+        {
+          "source_id": "britton-price-missouri-selections-v1",
+          "section": "big-blue-westport",
+          "locator": "p.484 (OCR page markers; not checked against print)",
+          "quote": "the Confederates sustained a heavy loss in killed and wounded and about one hundred prison ers."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Curtis's (No. 64) and staff reports, Blunt's, Jennison's, Moonlight's, Blair's and Ford's reports, Deitzler's militia report, and Shelby's and Jackman's reports remain deferred.",
+    "Rosecrans's, Pleasonton's and Curtis's reports, the subordinate Union and Confederate reports in Volume XLI Part 1, the organization of Price's army (No. 89), Maclean's itinerary (No. 90), the Price Court of Inquiry, Hinton's 1865 Rebel Invasion of Missouri and Kansas, maps and returns remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Wiley Britton's The Civil War on the Border, volume II (Putnam, 1899) is a retrospective history by a Union participant; by its preface the larger operations are based mainly on the published official reports, so it is not independent of the Price report family. Price's September 19 and November 2 dispatches and his December 28, 1864 report (Official Records Series I, Volume XLI, Part 1, No. 88) are one family of interested Confederate accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -74,6 +74,26 @@ from different campaigns under separate independence groups (for example
 witness family: they never count as independent corroboration of each other, whatever their group
 names.
 
+### Price's Missouri Expedition, Mobile Bay, Mobile and Wilson's Raid first passes (cohort v2), 2026-09-25
+
+The first passes for [Price's Missouri Expedition](research/price-missouri-first-pass-v1.md),
+[Mobile Bay](research/mobile-bay-first-pass-v1.md), [Mobile](research/mobile-first-pass-v1.md) and
+[Wilson's Raid](research/wilson-raid-first-pass-v1.md) add **44 records**:
+
+- fifteen NPS records (Glasgow's page is an empty template);
+- Andrews, *History of the Campaign of Mobile* (1867): catalog metadata, full OCR and one
+  selection;
+- new selections from the registered Britton volume II, Mahan and Jordan and Pryor texts;
+- Official Records Series I, Volumes XLI Part 1 and XLIX Part 1: catalog metadata and full OCR;
+- five report selections.
+
+**Merge deduplication.** This pass was drafted in parallel with the Camden and Franklin-Nashville
+passes. It had fetched its own copies of Britton volume II and OR XXXIX Part 1. The OCR files were
+byte-identical to the registered parents (`britton-civil-war-border-2-ocr-v1`,
+`or39-1-illinois-ocr-v1`), so they were not registered again. This pass's selections point to
+those parents, and its duplicate catalog-metadata records were dropped. The memos still name the
+IDs used during drafting. No model inputs are changed.
+
 ### Bermuda Hundred and Richmond-Petersburg first passes (cohort v2), 2026-09-25
 
 The first passes for [Bermuda Hundred](research/bermuda-hundred-first-pass-v1.md) and

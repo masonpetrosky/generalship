@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "battle_id": "AL006",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Fort Blakely record (April 2-9, 1865) in the Mobile Campaign [March-April 1865]. Steele's march from Pensacola, the Spanish Fort record (AL005), the reduction of Batteries Huger and Tracy and the occupation of Mobile are context or separate records. Campaign-wide marches, returns, prisoner totals and multi-action loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads XIII and XVI Corps and Fort Blakely Garrison; the live field reads 20,000 (US 16,000; CS 4,000) and NPS says Liddell held with about 4,000 men against 16,000 concentrated for the assault. Andrews says the garrison of Cockrell's (French's) division and Thomas's Alabama reserves numbered about 3,500, and that thirty-five regiments, fully 16,000 troops, took part in the assault, with fifteen or twenty thousand more come up from Spanish Fort in camp two miles back. Canby gives Steele's Pensacola column as 13,200 in mid-March.",
+      "rationale": "A summary's figures and a participant history's figures for the garrison and the assaulting force, and a mid-March column figure; no matched return. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL006"
+          },
+          "column": "forces_text",
+          "quote": "XIII and XVI Corps [US]; Fort Blakely Garrison [CS]"
+        },
+        {
+          "source_id": "nps-al006-v1",
+          "locator": "Forces Engaged",
+          "quote": "20000 total (US 16000; CS 4000;)"
+        },
+        {
+          "source_id": "nps-al006-v1",
+          "locator": "Description",
+          "quote": "with about 4,000 men"
+        },
+        {
+          "source_id": "nps-al006-v1",
+          "locator": "Description",
+          "quote": "allowing Canby to concentrate 16,000 men for the attack on April 9"
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-investment",
+          "locator": "p.122 (OCR page markers; not checked against print)",
+          "quote": "The gaiTison of Blakely consisted of French's diyision"
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-investment",
+          "locator": "p.123 (OCR page markers; not checked against print)",
+          "quote": "Tlie right wing consisted of Gen. Thomas' di- vision of Alabama reserves."
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-investment",
+          "locator": "p.123 (OCR page markers; not checked against print)",
+          "quote": "The whole garrison numbered about three thousand five hundi'ed"
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-assault",
+          "locator": "p.220 (OCR page markers; not checked against print)",
+          "quote": "Thirty-five regiments — fully sixteen thousand troops"
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-observations",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "fifteen or twenty thousand more troops had come up from Spanish fort"
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.92 (OCR page markers; not checked against print)",
+          "quote": "Hawkins’ division, colored infantry . 5,500 Lucas’ cavalry . 2, 500 Total . 13, 200"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "redoubts-abatis-and-torpedoes",
+      "dimension": "terrain",
+      "value": "Andrews says the works ran nearly three miles in a semicircle with nine redoubts and about forty guns, shallow ditches, felled timber six to eight hundred yards out and two lines of abatis; Canby gives the enemy line as two and a half miles, nine redoubts with rifle-pits, palisades, abatis, wire and torpedoes. Andrews says Harris's brigade had six hundred yards of broken, obstructed ground to charge over.",
+      "rationale": "Works described by a participant history and the Union commander; no map verification. The line lengths differ.",
+      "citations": [
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-investment",
+          "locator": "p.122 (OCR page markers; not checked against print)",
+          "quote": "The line was neaiiy three miles m length, and included nine well-built redoubts"
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-investment",
+          "locator": "p.122 (OCR page markers; not checked against print)",
+          "quote": "were armed with about forty pieces of artillery."
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-investment",
+          "locator": "p.122 (OCR page markers; not checked against print)",
+          "quote": "But the ditches were not more than four or fiye feet deep."
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-investment",
+          "locator": "p.122 (OCR page markers; not checked against print)",
+          "quote": "Fifty yards out from the works was a line of abatis"
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s line had a development of two miles and a half."
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "It consisted of nine strong redoubts connected by rifle-pits and palisades"
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-assault",
+          "locator": "p.214 (the running head for p.214 reads \"21'4\" in OCR; OCR page markers; not checked against print)",
+          "quote": "These troops had to charge six hundred yards"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "rations-spades-and-roads",
+      "dimension": "logistics",
+      "value": "Andrews says Hawkins's division was still on slender rations of parched corn on April 2 and that spades were few for the first night's entrenching. Canby says Steele's column had been pressed by bad roads and want of subsistence on its march.",
+      "rationale": "Ration and tool statements; no supply return.",
+      "citations": [
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-investment",
+          "locator": "p.123 (OCR page markers; not checked against print)",
+          "quote": "they were yet on slender rations of parched corn."
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-investment",
+          "locator": "p.128 (OCR page markers; not checked against print)",
+          "quote": "but the spades were few for so long a line"
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.95 (OCR page markers; not checked against print)",
+          "quote": "Pressed by the condition of the roads and he want of subsistence"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "evacuation-misread-and-signals",
+      "dimension": "information",
+      "value": "Andrews says the besiegers wrongly supposed part of the garrison had evacuated, while Liddell, warned by signal from Battery Tracy that heavy columns were crossing Bay Minette, ordered his commands to be ready for an assault.",
+      "rationale": "Attributed knowledge from a participant history quoting Confederate dispatches; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-assault",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "the besiegers were much de- ceived, in supposing that any part of the garrison had evacu- ated."
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-assault",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "Wagon trains and heavy columns of infantry have been crossing Bay Minette bridge all the morning."
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-assault",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "hold yovix command in readiness for an assault at any moment."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "carry-the-works",
+      "dimension": "objectives",
+      "value": "Canby says Steele was instructed to advance strongly supported and, if possible, carry the works. Andrews says it was a mistake to keep the garrison at Blakely after Spanish Fort fell, and that Canby did not intend to besiege Mobile from the land side.",
+      "rationale": "Stated aims from the Union commander and a participant history.",
+      "citations": [
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "Steele was then instructed to time his move¬ ments with those on the left, to advance his line strongly supported, and if possible carry the enemy’s works."
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-observations",
+          "locator": "p.224 (OCR page markers; not checked against print)",
+          "quote": "But it was a mistake to keep the garrison at Blakely an hour after the fall of Spanish fort."
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-observations",
+          "locator": "p.223 (OCR page markers; not checked against print)",
+          "quote": "It was not Gen. Canby's purpose, under any circumstances, to besiege Mobile from the land side."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Canby says he ordered Smith's two divisions to the left of the Blakely line on the morning of the 9th and instructed Steele to time the advance with them; Andrews says Steele fixed 5:30 p.m. and that Canby and Steele were at Hawkins's headquarters when the general advance was set. Andrews commanded one of the assaulting divisions. The frozen commanders are Major General John R. Liddell and Major General E. R. S. Canby; the live page gives both as Brigadier General.",
+      "rationale": "Command roles from the Union commander and an interested participant history; no automatic sole credit, and live ranks are not adopted.",
+      "citations": [
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.97 (OCR page markers; not checked against print)",
+          "quote": "Smith was ordered to move the First and Third Divisions of his corps to the left of the line at Blakely"
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-assault",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "Gen. Steele was, at the same time, actively engaged making arrangements for an advance"
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-assault",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "Canby and Steele were both at Hawkins' headquarters, and that a general advance would be made at half-past five, p. M."
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-investment",
+          "locator": "p.123 (OCR page markers; not checked against print)",
+          "quote": "was rmder the command of Gen. St. John Lidell."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL006",
+            "belligerent": "Confederate",
+            "fullname": "John R. Liddell"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AL006",
+            "belligerent": "US",
+            "fullname": "E. R. S. Canby"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-al006-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General St. John Liddell [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory (Fort Blakely surrendered.) and the live result Union victory. Canby says the works were carried in about twenty minutes, each division taking the works in its front; Andrews says the assault was not repulsed at any point.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL006"
+          },
+          "column": "results_text",
+          "quote": "Union victory (Fort Blakely surrendered.)"
+        },
+        {
+          "source_id": "nps-al006-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "assaulted and carried the enemy’s works in about twenty minutes, each division carrying the works in its front."
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-observations",
+          "locator": "p.225 (OCR page markers; not checked against print)",
+          "quote": "the general assault was not repulsed at any point."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Total 4,475, April 9 only 3,529 (US 629; CS 2,900), and the frozen side rows give 798 US and 3,677 CS; the live field reads 4,475 (US 775; CS 3,700). Canby reports 3,700 prisoners, three of them generals; the Blakely block of his comparative statement is garbled in OCR and ends with the figures 116, 655 and 4, whose columns are not verified. Andrews gives the assaulting troops' loss as 127 killed and 527 wounded, 654 in all, and 3,423 prisoners, and guesses the garrison's killed and wounded at about a third of the besiegers'.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AL006"
+          },
+          "column": "casualties_text",
+          "quote": "Total 4,475. April 9 only 3,529 (US 629; CS 2,900)"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "AL006",
+            "belligerent": "US"
+          },
+          "column": "casualties",
+          "quote": "798"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "AL006",
+            "belligerent": "Confederate"
+          },
+          "column": "casualties",
+          "quote": "3677"
+        },
+        {
+          "source_id": "nps-al006-v1",
+          "locator": "Estimated Casualties",
+          "quote": "4475 total (US 775; CS 3700;)"
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-1865-06-07",
+          "locator": "p.98 (OCR page markers; not checked against print)",
+          "quote": "3,700 pris¬ oners, of whom 3 were generals and 197 commissioned officers of lower grades."
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-comparative-casualties",
+          "locator": "p.102 (OCR page markers; not checked against print)",
+          "quote": "BLAKELY."
+        },
+        {
+          "source_id": "or49-1-canby-mobile-selections-v1",
+          "section": "canby-comparative-casualties",
+          "locator": "p.102 (OCR page markers; not checked against print)",
+          "quote": "Garrard’s division. Sixteenth Army Corps . 31 285 1 116 655 4"
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-assault",
+          "locator": "p.220 (OCR page markers; not checked against print)",
+          "quote": "one hundred and twenty-seven killed and five hundred and twenty-seven wounded ; grand total, six hundred and fifty-four."
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-assault",
+          "locator": "p.220 (OCR page markers; not checked against print)",
+          "quote": "Number of prisoners captured, three thousand four hundred and twenty-three, including three general officers."
+        },
+        {
+          "source_id": "andrews-mobile-selections-v1",
+          "section": "blakely-assault",
+          "locator": "p.220 (OCR page markers; not checked against print)",
+          "quote": "it was probably a third as large as that of the besiegers."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Liddell's and Cockrell's reports (not printed in the inspected report list), Andrews's report (No. 27), Hawkins's, Pile's, Garrard's and Steele's reports, Andrews's Chapters XXI-XXII on the siege, and the Blakely garrison returns remain deferred.",
+    "The organization and casualty returns (Nos. 2-3), the revised casualty statement on p.115, McAlester's engineer report, Granger's, A. J. Smith's, Steele's and the division and brigade reports, Maury's reports and the naval reports remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Canby's June 7, 1865 report and the comparative casualty statement printed with it (Official Records Series I, Volume XLIX, Part 1, No. 1) are one family of interested Union accounts. The Official Records volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge. C. C. Andrews's History of the Campaign of Mobile (Van Nostrand, 1867) is a retrospective history by the commander of the Second Division, Thirteenth Corps, which took part in the assault; it quotes Liddell's dispatches and Pile's report and shares the Union chain of command with Canby, so it is not independent of the Canby family.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
