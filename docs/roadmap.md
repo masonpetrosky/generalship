@@ -271,10 +271,13 @@ found seven scope, citation, locator and imprint corrections, all fixed and
 Coverage is **25/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Morgan's Raid first pass](research/morgans-raid-first-pass-v1.md) adds all three
-**frozen records, IN001, OH001 and OH002**, with **28 claims, 3 explicit unknowns and 143
+**frozen records, IN001, OH001 and OH002**, with **28 claims, 3 explicit unknowns and 149
 citations** from NPS/CWSAC, a newly pinned Duke history and Burnside's, Hobson's and
 Shackelford's reports in Official Records Volume XXIII Part 1. Raid-wide figures are not
-assigned to any record. Separate review is pending.
+assigned to any record. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/morgans-raid-11c96f5-opus-high-v1/review.md) found five
+attribution, timing and scope corrections, all fixed and
+[verified by the primary](../artifacts/review-results/morgans-raid-11c96f5-opus-high-v1/primary-assessment.md).
 Coverage is **26/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Chickamauga Campaign first pass](research/chickamauga-first-pass-v1.md) adds all three

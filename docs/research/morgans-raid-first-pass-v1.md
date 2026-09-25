@@ -2,14 +2,16 @@
 
 Prepared 2026-09-25. All **three frozen records** in **Morgan's Raid in Kentucky,
 Indiana, and Ohio [July 1863]** now have draft dossiers: **28 claims, 3 explicit null
-unknowns and 143 citation occurrences**. All seven dimensions are represented in each
-record. Separate review is pending. All dossiers remain drafts; no features are admitted.
+unknowns and 149 citation occurrences** after review correction. All seven dimensions are
+represented in each record. Separate Claude Opus 5.5 `high` [review](../../artifacts/review-results/morgans-raid-11c96f5-opus-high-v1/review.md) found
+five required corrections, all applied and verified by the primary. All dossiers remain
+drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
 | IN001 — Corydon | 1863-07-09 | 9 | 1 | 45 | 3 |
-| OH001 — Buffington Island | 1863-07-19 | 9 | 1 | 51 | 3 |
-| OH002 — Salineville | 1863-07-26 | 10 | 1 | 47 | 3 |
+| OH001 — Buffington Island | 1863-07-19 | 9 | 1 | 56 | 3 |
+| OH002 — Salineville | 1863-07-26 | 10 | 1 | 48 | 3 |
 
 Coverage is **105/127 draft dossiers**, **22 without**, and **26/36 complete source
 campaigns by dossier presence**. All 102 earlier dossiers and all historical revisions
@@ -66,7 +68,8 @@ preserving the earlier **474/464**. They are:
 - **Opening strengths remain unknown.** All three records have imported structured bounds,
   which are unchanged. Reported figures differ in time and scope:
   - Buffington: Duke's "scarcely nineteen hundred" against the frozen 1,700.
-  - Salineville: Duke's 250 after Way's fight, Shackelford's "about 400" and the frozen 400.
+  - Salineville: Duke's 250 after 'a fresh disaster on the 2Gth' [OCR] (Duke does not name
+    Way), Shackelford's "about 400" and the frozen 400.
 - **Burnside's return and Corydon.** The return names no Indiana militia unit. Its OCR total
   row ends in 74, which equals the sum of the row's other figures (a computation here). It
   therefore does not account for the frozen 360 Union casualties at Corydon.
@@ -74,14 +77,18 @@ preserving the earlier **474/464**. They are:
   - Corydon: casualties, frozen 401 (CS 41) against live 411 (CS 51).
   - Buffington: the escape count. NPS says about 400 escaped; Duke says 1,100–1,200
     retreated with Morgan and about 300 crossed.
-  - Buffington: casualties. Hobson gives 5 or 6 Union and 57 Confederate killed; Duke gives
-    about 700 prisoners and twenty-odd killed on each side.
+  - Buffington: casualties. Hobson says his command's casualties did not exceed 5 or 6 and
+    gives 57 Confederate killed on the report of Dr. D. K. Scriver of the Ohio militia; Duke
+    gives about 700 prisoners and some twenty-odd of his men killed by musketry, the Union
+    losing 'quite as many'.
   - Buffington: command on the field. Hobson protested Judah's assumption of command.
   - Salineville: the validity of Morgan's surrender to the militia captain Burbeck. Duke
     records the terms; Shackelford calls them unfair and illegal and refused to recognize
     them.
-- **Salineville scope.** Major Way's morning fight and the afternoon surrender near New
-  Lisbon both fall on July 26. Which of them the frozen record covers is not established.
+- **Salineville scope.** Shackelford places Major Way's fight, learned of after he left
+  Hammersville at daylight, before Morgan's surrender on the New Lisbon road; both fall on
+  July 26 and no inspected source gives a clock time. Which of them the frozen record
+  covers is not established.
 - **Command roles.** Judgments are attributed to their authors. The live heading ranks
   Jordan Colonel against the frozen Brevet Colonel; the live rank is not adopted, and no
   listed commander receives automatic sole credit.
@@ -93,6 +100,40 @@ probability, causal effect or new commander ranking is introduced. The cohort an
 admission proposals are unchanged, with **zero promoted rows**. The baseline still uses
 **23/127 engagements in 13 eligible groups**, with strength Brier **0.276882** against
 **0.250000** for equal odds.
+
+## Review correction and validation
+
+The reviewer found five required corrections, all verified against the retained text
+(each new quote occurs once) and applied:
+
+- **MR-R1** removes the unsupported initials "[R. C.]" from Duke's Colonel Morgan at
+  Corydon.
+- **MR-R2** removes unsupported "morning", "afternoon" and "near New Lisbon" labels from
+  the Salineville scope, and notes that Duke does not name Way.
+- **MR-R3** records that Duke's escape figures describe events after his capture.
+- **MR-R4** corrects the memo: Hobson's 5 or 6 are casualties, not deaths.
+- **MR-R5** scopes Duke's dust passage to an earlier march and Hobson's march totals to the
+  whole pursuit.
+
+Optional notes are adopted:
+
+- The militia surgeon is named as Dr. D. K. Scriver of the Ohio militia.
+- The earthwork's garrison and guns are cited as Morgan's information, with the "commanded
+  the ford" clause.
+
+The primary also found and fixed two issues:
+
+- OH001's boundary named "the Hocking", which no inspected source gives.
+- IN001 placed Duke's 2,460 "at the Cumberland crossing" from parent text outside the
+  selection; the date of that figure is now stated as unstated in the passage.
+
+The inherited OR XXIII Part 1 edition text is corrected by three `metadata_only` revisions
+(`-v2`) of the Burnside, Hobson and Shackelford selections, reparented to
+`or23-1-illinois-ocr-v2`; the dossiers cite the v2 records. Citations rise from 143 to
+149; claims and unknowns are unchanged. The originals are retained as
+`data/evidence/history/*.v1.json`, linked by `supersedes`, and the registry is now
+**515 entries / 496 raw paths**. The [primary assessment](../../artifacts/review-results/morgans-raid-11c96f5-opus-high-v1/primary-assessment.md)
+closes all five findings; no second reviewer pass is claimed.
 
 Next by frozen campaign start is **Chickamauga Campaign [August-September 1863]**:
 TN018, GA003 and GA004. Do not start that group within this batch.

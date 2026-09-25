@@ -154,7 +154,8 @@ The [Tullahoma pass](docs/research/tullahoma-first-pass-v1.md) adds one
 dossier, 9 claims, 1 explicit unknown and 54 citations. Opus 5.5 `high` reviewed it;
 its seven required corrections are fixed and verified by the primary.
 The [Morgan's Raid pass](docs/research/morgans-raid-first-pass-v1.md) adds three
-dossiers, 28 claims, 3 explicit unknowns and 143 citations. Separate review is pending.
+dossiers, 28 claims, 3 explicit unknowns and 149 citations. Opus 5.5 `high` reviewed them;
+its five required corrections are fixed and verified by the primary.
 The [Chickamauga Campaign pass](docs/research/chickamauga-first-pass-v1.md) adds three
 dossiers, 27 claims, 3 explicit unknowns and 135 citations. Separate review is pending.
 The [East Tennessee Campaign pass](docs/research/east-tennessee-first-pass-v1.md) adds two

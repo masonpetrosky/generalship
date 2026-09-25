@@ -68,6 +68,14 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Morgan's Raid review correction, 2026-09-25
+
+Three `metadata_only` revisions supersede `or23-1-burnside-morgan-raid-selections-v1`,
+`or23-1-hobson-morgan-raid-selections-v1` and `or23-1-shackelford-morgan-raid-selections-v1`
+with `-v2`, carrying the TL-R7 imprint correction and reparenting them to
+`or23-1-illinois-ocr-v2`. Raw files, hashes and ranges are unchanged; the registry is now
+**515 entries / 496 raw paths**.
+
 ### East Tennessee Campaign first pass, 2026-09-25
 
 The [two-record memo](research/east-tennessee-first-pass-v1.md) adds **8 records**, bringing

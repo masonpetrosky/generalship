@@ -1,0 +1,108 @@
+{
+  "review_sha256": "79560f26434141354a509f0f721e161a2bc956ceaae30a935f6f9284ee942c94",
+  "prepared_commit": "11c96f5d5ac5de7a6f31c3d76d36422283777360",
+  "findings": [
+    {
+      "finding_id": "MR-R1",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; both IN001 values now say a Colonel Morgan with no initials in Duke's passage."
+    },
+    {
+      "finding_id": "MR-R2",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; OH002's boundary note and the memo's scope and strength bullets use Shackelford's sequence without clock labels and note that Duke does not name Way."
+    },
+    {
+      "finding_id": "MR-R3",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; the rationale records Duke's capture during the withdrawal, citing his p.452 capture passage."
+    },
+    {
+      "finding_id": "MR-R4",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; the memo bullet is replaced as proposed."
+    },
+    {
+      "finding_id": "MR-R5",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; OH002's dust clause is scoped to the earlier Blennerhassett march with the proposed citation and rationale, and OH001's rationale scopes Hobson's march totals."
+    },
+    {
+      "finding_id": "MR-O1",
+      "disposition": "adopted",
+      "summary": "optional: 'militia surgeon' replaced by Dr. D. K. Scriver of the Ohio militia."
+    },
+    {
+      "finding_id": "MR-O2",
+      "disposition": "adopted",
+      "summary": "optional: the earthwork's garrison and guns are stated as Morgan's information, with three added citations including the 'commanded the ford' clause."
+    },
+    {
+      "finding_id": "MR-O3",
+      "disposition": "adopted",
+      "summary": "optional note on Duke's 2,460 location: the value now says the passage does not itself state its date."
+    },
+    {
+      "finding_id": "MR-P1",
+      "disposition": "primary_found_and_corrected",
+      "summary": "OH001's boundary note named 'the Hocking', which no inspected source gives; replaced with Shackelford's July 20 action and surrender."
+    },
+    {
+      "finding_id": "MR-META",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "the inherited TL-R7 edition text is corrected by three metadata_only v2 selection records reparented to or23-1-illinois-ocr-v2; all three dossiers cite them."
+    }
+  ],
+  "dossiers": {
+    "IN001": {
+      "dossier_path": "data/evidence/IN001.json",
+      "archived_dossier_path": "data/evidence/history/IN001.v1.json",
+      "archived_dossier_sha256": "2b0ab2846bd7b23152842d5fc4276bb5264e7ad14c82a1d6c739156d6d7ce982",
+      "corrected_dossier_sha256": "7ad910235e1d15c27e8ae493de05120304a35036e3a5f59b7f23aa20bf400eba",
+      "changed_claims": [
+        "reported-force-scope",
+        "command-roles",
+        "casualty-records"
+      ]
+    },
+    "OH001": {
+      "dossier_path": "data/evidence/OH001.json",
+      "archived_dossier_path": "data/evidence/history/OH001.v1.json",
+      "archived_dossier_sha256": "079d6bc2c2850c3ff72451fe48383a20f5b84cdb1876d32dfde3e13b2ba52504",
+      "corrected_dossier_sha256": "e191794a23a44f713e6864fcbd57235e18122df17817b4138483e5f30acc9cae",
+      "changed_claims": [
+        "reported-force-scope",
+        "ford-valley-and-river",
+        "ammunition-and-horses",
+        "night-arrival-and-blind-convergence",
+        "ford-and-interception-aims",
+        "command-roles",
+        "recorded-result",
+        "casualty-records"
+      ]
+    },
+    "OH002": {
+      "dossier_path": "data/evidence/OH002.json",
+      "archived_dossier_path": "data/evidence/history/OH002.v1.json",
+      "archived_dossier_sha256": "fa2e4f6094d615b675678a56e5eaf622300cb4d2b37cff8dcb46341a09119a1d",
+      "corrected_dossier_sha256": "c258f42a96a8027ba172bacd70acfdd2b2417791f179e04dab36f6da1ad89372",
+      "changed_claims": [
+        "reported-force-scope",
+        "roads-and-fence",
+        "horses-and-remounts",
+        "dust-couriers-and-news",
+        "crossing-and-terms-aims",
+        "surrender-dispute",
+        "recorded-result",
+        "casualty-records"
+      ]
+    }
+  },
+  "notes": "Three metadata_only source revisions are recorded in data/sources.json. Citations rise from 143 to 149; claims and unknowns are unchanged.",
+  "independent_followup_review": false,
+  "source_revisions": {
+    "or23-1-burnside-morgan-raid-selections-v1": "or23-1-burnside-morgan-raid-selections-v2",
+    "or23-1-hobson-morgan-raid-selections-v1": "or23-1-hobson-morgan-raid-selections-v2",
+    "or23-1-shackelford-morgan-raid-selections-v1": "or23-1-shackelford-morgan-raid-selections-v2"
+  }
+}
