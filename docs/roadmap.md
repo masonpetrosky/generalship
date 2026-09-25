@@ -10,8 +10,11 @@ current baseline rows dropping out as loss-derived). Owner decision, same day: "
 for each." The [best-estimate side-strength design](strength-estimates.md) is accepted after a
 separate design review and a focused follow-up: graded, source-traceable estimates with
 ranges for each decisive, non-aggregate engagement, beside the unchanged admission
-contract. The next step is building the estimate ledger and its checker, then separate
-review in campaign batches. See **Next priority** below. The coverage-first direction that follows still bounds any
+contract. The draft [estimate ledger](research/strength-estimates-ledger-v1.md) now covers all
+91 decisive, non-aggregate engagements and replays with `estimate-check`. It gives 21, 31
+and 40 fit-eligible rows at grades A, A–B and A–C, against 23 frozen rows, and leaves 72 of
+182 sides blank for lack of any count. Separate review in campaign batches is next; no fit
+runs without an explicit owner authorization naming the reviewed ledger. See **Next priority** below. The coverage-first direction that follows still bounds any
 further research depth.
 
 Owner direction, 2026-09-20: the repeated Shiloh source investigations exceeded

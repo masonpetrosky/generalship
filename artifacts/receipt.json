@@ -6,12 +6,13 @@
     "generalship/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
     "generalship/admission.py": "55927091b8f7fa4e6a1eaef8a3b57d54de341aff01dfc666eda678a360941993",
     "generalship/baseline.py": "f69156139eeb674e7a720a798bb235ddbec295944f048d83a68ba1593f53ceee",
-    "generalship/cli.py": "4817dc8421a6df2b4bc3d407174e24594ac04f306ef5159c8cd31ec517458053",
+    "generalship/cli.py": "b48486c0836b1f6c200182fbc52b857b935039cbd349ae7d17cd521ab2c02a78",
     "generalship/dataset.py": "ed1aa2de0867f3d5a12b796e68736aa8b1ad6611c1c5381408c81fd2a31ce2a4",
+    "generalship/estimates.py": "4135ba25997a52e5001bd026de4ecce0055eb5cdf374b3058babdaffa7e0bf17",
     "generalship/evidence.py": "cf52c44b86956201cb6fa8c1a9c3cec85047ada71366f656330c551b536dee69",
     "generalship/sources.py": "98df0d690b2a2c9e0ac4c55c4ad8e496c28ad26e6054f1053097cd7ebefe6ab4",
     "generalship/strength_admission.py": "a8a1aa1359936c98e7f7cf5474b4a432d42371c7b7d5ce9c0763176fbc3ca17d",
-    "data/sources.json": "223273be5c7e35100a83ea30156f662ac9e74fb06b443decf9064706ee4afb20",
+    "data/sources.json": "6be8a56b4a9f495b067fb615e4b0678dca17331b59dd354d26733eece4cc959d",
     "data/pilot/cohort.json": "17d08348ed1399a0f0033ded3b1ba40c541d342b6aeed920cf2c26818ee6adc8",
     "data/evidence/AL001.json": "70dbbfbbcbf2fead202b5d8ed2b89f69c865167d91a68b1df3a10fc434cd225a",
     "data/evidence/AR006.json": "e59355a9e9580fec092a19bd51e23fc27fe81ab5e7af730131ae1d6948b563f6",
@@ -244,7 +245,8 @@
     "data/admission/shiloh-opening-v1.json": "a4eca5a91e8c93baa2243a314e8d8e76c754d44ef42d7926435847efe849f5b6",
     "data/admission/shiloh-opening-v2.json": "20709e0fd46e53906aa9a89c55883fa684a3213e233177b6e6b0d3cac89c5e52",
     "data/admission/snapshots/feature-admission-v1.md": "b858b7a27f3617408779c928ea545da814b31229ff2c40caf64927773f320c99",
-    "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json": "d3f3a2b9f2e8e48726812e08bf925d7c0e60b8ff012a4b0d4cdc95581a5a884c"
+    "data/admission/snapshots/pilot-evidence-aac2ed2-v1.json": "d3f3a2b9f2e8e48726812e08bf925d7c0e60b8ff012a4b0d4cdc95581a5a884c",
+    "data/estimates/side-strength-v1.json": "3408b06a57418ad0ce0df746d815ffc197910f8ff178f81d55de648f2d5b29ba"
   },
   "source_sha256": {
     "abstract-howell-p4-facsimile-v1": "795e75eb8c65902ff1319f93083feffa9ddd21a0dd0d2a81308674a52c0408b5",
@@ -364,6 +366,7 @@
     "livermore-p97-image-v1": "8e186e40b74b7d672f2fc1018e861844783ff85ef7107d26131ec6d407bd8522",
     "livermore-p98-image-v1": "d2a88f26f571a8d0926485d583d0138d15ced2db811aa3cb5882ccf2c2ea4bc6",
     "livermore-p99-image-v1": "f7f4cda407aa7856b672e87bf2387e7d177c3ac1ee8b2bc307c12dda299e3a18",
+    "livermore-transcription-v1": "e9fc742fdcb6cbecfa839cd015e763083fa3b13e7afea0e2d0905fab971d3225",
     "loc-2006636339-catalog-v1": "dabe509da345bd3076068892747eb3b201d5290c67b6d165b32908fda005cd5c",
     "loc-2006636339-map-v1": "e2526c08837b6646e00b978d1f73dc57fb68849ab66ee6efc167533b1d4fd43e",
     "loc-2006636339-readings-v1": "7bc5eedf9f5b8f9a7a38257ca2b90c8e682721b8e7566f166e72568204b4ee58",
@@ -858,7 +861,7 @@
   },
   "output_sha256": {
     "battles.json": "e8b505fc0134b16bb68c3bfdbfb7eb7d2486f590f581058e51ad935487f15950",
-    "quality.json": "2efaabba4357dc5e67a80aab679660930d0788aae4240c4ef6869085be0ca3b2",
+    "quality.json": "035d400809a019122c2a6787abc1b53529986adda46cfca6b7f3661251b23752",
     "baseline.json": "592b62bef69b4f76a626fa7c06f17f8813b02bcf4c6753601d4ad2b413e09595",
     "evidence-checks.json": "ec3d985124c7c5844d0d2345cfd9853cd2ad2fa9c901bcee4fc5316baa9ec12d",
     "research-queue.json": "8d579c36eed56a75c1e95b036648c24f7b09ebe9ff41c819d6a066b0ed3a4576",

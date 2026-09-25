@@ -8,6 +8,7 @@ import sys
 from .baseline import evaluate
 from .admission import DEFAULT_PROPOSAL, check as check_admission
 from .strength_admission import DEFAULT_PROPOSAL as STRENGTH_PROPOSAL, check as check_strength
+from .estimates import DEFAULT_LEDGER, check as check_estimates
 from .dataset import build_dataset
 from .evidence import validate_all
 from .sources import digest, fetch_sources, read_json, write_json
@@ -71,6 +72,14 @@ def run_build(root, write=False):
     admission = check_admission(root)
     if admission['status'] == 'invalid' or admission['scenario_issues']:
         raise ValueError('Default admission proposal has invalid bindings or scenarios')
+    estimates = None
+    if (root / DEFAULT_LEDGER).is_file():
+        # A ledger bound to earlier evidence is reported, not fatal: `estimate-check`
+        # and its unit test enforce replay of the committed ledger.
+        try:
+            estimates = check_estimates(root)
+        except (ValueError, KeyError, OSError) as exc:
+            estimates = {'status': 'stale_or_invalid', 'error': str(exc)}
     if write:
         output = root / "artifacts"
         output.mkdir(exist_ok=True)
@@ -90,6 +99,7 @@ def run_build(root, write=False):
         inputs = sorted((root / "generalship").glob("*.py")) + [root / "data/sources.json", root / "data/pilot/cohort.json"]
         inputs += sorted((root / "data/evidence").rglob("*.json"))
         inputs += sorted(p for p in (root / "data/admission").rglob('*') if p.is_file())
+        inputs += sorted(p for p in (root / "data/estimates").rglob('*') if p.is_file())
         outputs = ["battles.json", "quality.json", "baseline.json", "evidence-checks.json", "research-queue.json", "pilot-report.md", "admission-check.json"]
         write_json(output / "receipt.json", {
             "command": "python3 -m generalship build", "model_id": evaluation["model_id"],
@@ -101,7 +111,10 @@ def run_build(root, write=False):
             "eligible_campaigns": evaluation["n_campaigns"], "draft_dossiers": sum(d["status"] == "draft" for d in dossiers),
             "metrics": evaluation["battle_weighted_metrics"],
             "admission_candidate_statuses": admission['coverage']['status_counts'],
-            "admission_promoted_rows": admission['promoted_rows'], "artifacts_written": write}
+            "admission_promoted_rows": admission['promoted_rows'],
+            "estimate_ledger": estimates and ({k: estimates[k] for k in ('side_grades', 'rows_by_set_fit_eligible', 'fitted')}
+                                              if 'side_grades' in estimates else estimates),
+            "artifacts_written": write}
 
 
 def research_packet(root, battle_id):
@@ -133,6 +146,7 @@ def main(argv=None):
     admission_parser = sub.add_parser('admission-check', help='Offline proposal/release audit; never promotes inputs')
     admission_parser.add_argument('path', nargs='?', default=DEFAULT_PROPOSAL)
     admission_parser.add_argument('--details', action='store_true', help='Print the complete ledger and provenance')
+    sub.add_parser('estimate-check', help='Replay the best-estimate side-strength ledger; never fits or promotes')
     strength_parser = sub.add_parser('strength-check', help='Offline tier-2 reported-strength proposal/release audit; never promotes inputs')
     strength_parser.add_argument('path', nargs='?', default=STRENGTH_PROPOSAL)
     strength_parser.add_argument('--details', action='store_true', help='Print the complete ledger and provenance')
@@ -150,6 +164,8 @@ def main(argv=None):
             print(json.dumps(result, indent=2, ensure_ascii=False, allow_nan=False))
             return int(checked['status'] == 'invalid' or bool(checked['scenario_issues'])
                        or checked.get('release_status') == 'blocked')
+        elif args.command == 'estimate-check':
+            result = check_estimates(root)
         elif args.command == "fetch":
             result = {"restored_sources": fetch_sources(root)}
         elif args.command == "packet":

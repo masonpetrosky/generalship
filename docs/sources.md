@@ -68,6 +68,14 @@ An exact numerical reproduction remains a separate milestone.
 
 ## Source additions
 
+### Best-estimate ledger, 2026-09-25
+
+One record is added: `livermore-transcription-v1`, a manual transcription of the Livermore
+entry lines and derivation notes, made from the 25 registered page images, one section per
+printed page. It is the text cited for Livermore figures, because the OCR merges note markers
+into numbers. The registry is now **609 entries / 588 raw paths**, preserving the previous
+**608/587**. No model inputs are changed.
+
 ### Reported-strength scoping, 2026-09-25
 
 The [scoping memo](research/reported-strength-scoping-v1.md) adds **27 records**: Livermore's
