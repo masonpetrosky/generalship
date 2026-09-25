@@ -1,0 +1,64 @@
+{
+  "review_sha256": "2c1e025b920db343e533ec767ca7c4c11f0fba584933d9d092cd8557a0332ac6",
+  "prepared_commit": "2dfb977b75537c2598429b9399e15287949d78d1",
+  "findings": [
+    {
+      "finding_id": "SR-R1",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted with value and rationale as proposed; three citations added and the memo bullet replaced."
+    },
+    {
+      "finding_id": "SR-R2",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; 'Roddy's men' and an unstated hospital side; the optional Cist 'same afternoon' citation and the forty-of-350 quote added."
+    },
+    {
+      "finding_id": "SR-R3",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted in both parts with both optional citations."
+    },
+    {
+      "finding_id": "SR-A1",
+      "disposition": "deferred",
+      "summary": "the copied Cist dependency count would need a metadata_only revision; no claim is affected."
+    },
+    {
+      "finding_id": "SR-A2",
+      "disposition": "no_dossier_change",
+      "summary": "the dossier already scopes the rank conflict to the live heading."
+    },
+    {
+      "finding_id": "SR-A3",
+      "disposition": "recommendation_adopted_by_primary",
+      "summary": "the conflicting afternoon clocks are recorded as an open question, not reconciled."
+    },
+    {
+      "finding_id": "SR-A4",
+      "disposition": "recommendation_adopted_by_primary",
+      "summary": "'lying down concealed' citation added to the terrain claim."
+    },
+    {
+      "finding_id": "SR-A5",
+      "disposition": "no_dossier_change",
+      "summary": "the OCR synopsis figure outside the selections is noted only as an unverified lead."
+    }
+  ],
+  "dossiers": {
+    "AL001": {
+      "dossier_path": "data/evidence/AL001.json",
+      "archived_dossier_path": "data/evidence/history/AL001.v1.json",
+      "archived_dossier_sha256": "41a529d8b9fe4a7d750b64c9396ec53269793f45490bec6ffb675c99a478bba3",
+      "corrected_dossier_sha256": "70dbbfbbcbf2fead202b5d8ed2b89f69c865167d91a68b1df3a10fc434cd225a",
+      "changed_claims": [
+        "reported-force-scope",
+        "ridge-and-gorge",
+        "surprise-in-camp",
+        "command-roles",
+        "casualty-records"
+      ],
+      "open_questions_changed": true
+    }
+  },
+  "notes": "The dossier's open questions gain the unreconciled afternoon clocks. Citations rise from 41 to 49; claims and unknowns are unchanged.",
+  "independent_followup_review": false
+}

@@ -2,9 +2,10 @@
 
 Prepared 2026-09-25. The sole frozen record in **Streight's Raid in Alabama and Georgia
 [April 1863]**, **AL001 — Day's Gap** (April 30, 1863), now has a draft dossier: **9
-claims, 1 explicit null unknown and 41 citation occurrences**, covering all seven
-dimensions from three families. Separate review is pending. The dossier remains a draft;
-no features are admitted.
+claims, 1 explicit null unknown and 49 citation occurrences** after review correction,
+covering all seven dimensions from three families. Separate Claude Opus 5.5 `high`
+[review](../../artifacts/review-results/streights-raid-2dfb977-opus-high-v1/review.md) found three required corrections, all applied and verified by
+the primary. The dossier remains a draft; no features are admitted.
 
 Coverage is **91/127 draft dossiers**, **36 without**, and **23/36 complete source
 campaigns by dossier presence**. All 90 earlier dossiers and all historical revisions
@@ -38,8 +39,10 @@ the earlier **429/426**: one NPS HTML/text pair and two selections.
   scope within April 30 is not established, and later engagements and the surrender are
   not added.
 - **Opening strength remains unknown.** The live field reads 2,000 Union and zero
-  Confederate. Jordan and Pryor relay a scouts' estimate of 2,200 for Streight and give
-  Roddy's regiment as 350. Cist gives 1,466 surrendered on May 3. None is adopted.
+  Confederate. Jordan and Pryor relay a scouts' estimate of 2,200 for Streight's command
+  while it was at Tuscumbia, and say Roddy's men left forty of 350 killed or wounded
+  without stating whether the 350 includes Julian's Battalion. Cist gives 1,466
+  surrendered on May 3. None is adopted.
 - **Casualties** agree between the frozen and live fields at 88 (US 23; CS 65). Cist
   gives Forrest seventy-five and Streight twenty-one killed and wounded, while Jordan
   and Pryor put the Federal loss in one phase at "at least seventy-five". The two
@@ -55,6 +58,26 @@ effect or new commander ranking is introduced. Cohort and both admission proposa
 remain unchanged, with **zero promoted rows**. The baseline still uses **23/127
 engagements in 13 eligible groups**, with strength Brier **0.276882** versus
 **0.250000** for equal odds.
+
+## Review correction and validation
+
+The reviewer found three required corrections, all verified against the retained text
+(each new quote occurs once) and applied:
+
+- **SR-R1** scopes the 2,200 estimate to Tuscumbia and the "four-fifths" to the march
+  before Eastport, and leaves the 350's formation unstated.
+- **SR-R2** corrects "Roddy's men" and removes an unsupported "Federal" from the field
+  hospital.
+- **SR-R3** restores Jordan and Pryor's wording on Forrest's disposition and makes the
+  surprise about the Confederates' proximity rather than their approach.
+
+Both optional citations are adopted. Advisory SR-A3 (the conflicting afternoon clocks)
+becomes an open question, and SR-A4 adds a "concealed" citation. SR-A1 (a copied Cist
+dependency count) would need a metadata-only revision and is deferred; SR-A2 and SR-A5
+need no change. Citations rise from 41 to 49; claims and unknowns are unchanged. The
+original is retained as `data/evidence/history/AL001.v1.json`, linked by `supersedes`.
+The [primary assessment](../../artifacts/review-results/streights-raid-2dfb977-opus-high-v1/primary-assessment.md) closes all three findings; no second
+reviewer pass is claimed.
 
 Next by frozen campaign start is **Gettysburg Campaign [June-July 1863]**: ten records
 (VA035, VA107, VA036, VA037, VA038, PA001, PA002, MD004, MD006, VA108). Do not start

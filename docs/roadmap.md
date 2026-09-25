@@ -238,10 +238,13 @@ are not assigned or added. Separate review is pending.
 Coverage is **22/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Streight's Raid first pass](research/streights-raid-first-pass-v1.md) adds the sole
-**frozen record, AL001 (Day's Gap)**, with **9 claims, 1 explicit unknown and 41
+**frozen record, AL001 (Day's Gap)**, with **9 claims, 1 explicit unknown and 49
 citations** from NPS/CWSAC and new selections from the pinned Cist and Jordan and Pryor
 OCRs. Later engagements and the May 3 surrender are not added, and the histories'
-opposite casualty attributions remain disputed. Separate review is pending.
+opposite casualty attributions remain disputed. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/streights-raid-2dfb977-opus-high-v1/review.md)
+found three scope and wording corrections, all fixed and
+[verified by the primary](../artifacts/review-results/streights-raid-2dfb977-opus-high-v1/primary-assessment.md).
 Coverage is **23/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 Next take **Gettysburg Campaign [June-July 1863]**, the next complete frozen

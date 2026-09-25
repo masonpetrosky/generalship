@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session bb5e9071-6285-4ecb-a107-c18c636744cc",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit b5f7fec5439f566c8eeeef16ce5d2202f73dbbaa; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T04:55:27Z",
+  "prepared_commit": "2dfb977b75537c2598429b9399e15287949d78d1",
+  "bundle_commit": "b5f7fec5439f566c8eeeef16ce5d2202f73dbbaa",
+  "assignment_sha256": "2dda65050bce70a4d46cd9b412502d2f0e84974a66dcd727ddc866ac2f523b2c",
+  "inputs_manifest_sha256": "64bc70b731c2b1dbc10c1de8a04cd9eba48437e5a9d9ae449a89b8ed9222822c",
+  "num_turns": 27,
+  "duration_ms": 372062,
+  "terminal_reason": "completed",
+  "returned_message": "The Day's Gap (AL001) dossier needs three small wording and scope corrections. Everything else in the assignment checked out, and I found no hash mismatches.\n\n**Review path:** `artifacts/review-results/streights-raid-2dfb977-opus-high-v1/review.md` (the only file I wrote, not committed)\n\n**Outcome:** corrections required\n\n**Finding IDs:** SR-R1, SR-R2, SR-R3 (required); SR-A1 to SR-A5 (advisory)\n\n**Required corrections** (the review gives exact replacement text and quotes, each checked to occur once in the cited section):\n- **SR-R1 (strength claim and memo):** Jordan and Pryor's 350 is the number of \"Roddy's men\" in the repulsed charge. The passage doesn't say whether it counts Roddy's Regiment alone or also Julian's Battalion, which was posted and later dismounted with it. The dossier and memo wrongly call it \"Roddy's regiment\". Two figures also lack their dates: the scouts' 2,200 was estimated while Streight was at Tuscumbia, before April 27. Cist's \"four-fifths mounted\" describes the command on its way to Fort Henry, before Eastport, not at Day's Gap.\n- **SR-R2 (casualty claim):** say \"Roddy's men\" rather than \"Roddy\". The source says \"a field-hospital\", not \"a Federal field hospital\", so the side should not be added.\n- **SR-R3 (command and information claims):** two paraphrases change the meaning.\n  - The source says Forrest \"comprehended the situation at a glance, and forthwith disposed his men\", not that he \"disposed his men at a glance\".\n  - The artillery was the Federals' first sign of the Confederates' closeness (\"proximity\"), not of \"Forrest's approach\".\n\n**Advisory notes** (no correction needed):\n- **SR-A1:** the new Cist record's copied note says \"across five records\", but the group now has six.\n- **SR-A2:** the NPS description itself uses Colonel and Brigadier General, matching the frozen ranks; only the page headings differ.\n- **SR-A3:** Cist's afternoon fight \"from three o'clock until dark\" and Jordan's timing bear on the unresolved April 30 scope question.\n- **SR-A4:** an optional extra quote would support \"concealed\" in the terrain claim.\n- **SR-A5:** outside the selections, Jordan's chapter synopsis reads \"Surrender ^ 1 365 Federals\" in the OCR, a different figure from Cist's 1,466. I report it only as an unverified lead.\n\n**What I checked:**\n- **Hashes and derivatives:**\n  - All 30 input hashes match, both in the worktree and at `2dfb977`.\n  - The NPS text and all six new selection sections rebuild exactly from their unchanged parents.\n  - Every page locator matches the OCR page markers.\n  - The duplicated, cropped p.261 lies outside the selected ranges.\n- **Citations:** all 9 claims and 41 citations; every quote and CSV cell resolves.\n- **Counts:**\n  - 433 records / 430 paths (previously 429 / 426).\n  - 91 of 127 dossiers, 36 without, and 23 of 36 campaigns complete.\n  - The older dossiers, history files, cohort, admission files and baseline are unchanged, with zero promoted rows.\n  - The baseline Brier score is 0.2768816348133779 versus 0.25.\n- **Receipt and packet:** all receipt hashes and the packet's three JSON blocks match.\n- **Next group:** I independently confirmed it as the ten-record Gettysburg Campaign.\n- **`make check`:** passes offline (82 tests) and wrote no artifacts.\n\nThis is an AI review. It is not historical adjudication, independent corroboration or feature admission."
+}

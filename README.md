@@ -144,7 +144,8 @@ its nine required corrections are fixed and verified by the primary.
 The [Chancellorsville pass](docs/research/chancellorsville-first-pass-v1.md) adds three
 dossiers, 27 claims, 3 explicit unknowns and 119 citations. Separate review is pending.
 The [Streight's Raid pass](docs/research/streights-raid-first-pass-v1.md) adds one
-dossier, 9 claims, 1 explicit unknown and 41 citations. Separate review is pending.
+dossier, 9 claims, 1 explicit unknown and 49 citations. Opus 5.5 `high` reviewed it;
+its three required corrections are fixed and verified by the primary.
 Next: **the ten-record Gettysburg Campaign**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).
