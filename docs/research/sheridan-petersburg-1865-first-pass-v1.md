@@ -19,7 +19,8 @@ replaces the frozen interval. NPS/CWSAC and the Arnold tables are one family. Tw
 families:
 
 - **Pond**, *The Shenandoah Valley in 1864* (the registered parent
-  `pond-shenandoah-valley-ocr-v1`, reused as `pond-waynesboro-selections-v1`). One passage was
+  `pond-shenandoah-valley-ocr-v1`, reused as `pond-waynesboro-selections-v1`, cited through its
+  `metadata_only` successor `pond-waynesboro-selections-v2` after the review correction). One passage was
   read and selected: the close of Chapter XIV, from Grant's February 1865 wish to repeat the
   Staunton attempt through Waynesboro and the march to White House (OCR pp.251–254). The
   earlier part of Chapter XIV (pp.243–251, October 1864 to January 1865) was read, not selected.
@@ -49,7 +50,9 @@ No new volume or catalog record is registered.
 
 ### Independence groups
 
-- **Pond** stays in `pond-shenandoah-valley-1883`.
+- **Pond** stays in `pond-shenandoah-valley-1883`, with the parent and the two Valley
+  selections already registered there. The v1 selection's dependency note wrongly said there was
+  no earlier registry group for this author; the successor corrects it (APX-A7).
 - **Sheridan** is placed in his most recent registered group, `sheridan-valley-1864-reports`,
   with his Appomattox reports added in the Appomattox pass. The dependency note says one
   author's accounts are not mutually independent corroboration.
@@ -92,16 +95,31 @@ proposals are unchanged, with zero promoted rows.
 
 ## Validation
 
-- `python3 -m generalship check` passes in the worktree.
-- `python3 -m unittest discover -s tests` passes (134 tests).
+- After the review correction, `python3 -m generalship check` passes and
+  `python3 -m unittest discover -s tests` passes (134 tests).
 - After building, the builder's quote-miss list is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run. A fresh-context `evidence-reviewer` assignment should be bound
-to the commit, the VA123 dossier hash and the source hashes above. It can be batched with the
-Appomattox pass. It should cover:
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed this
+pass together with the Appomattox pass at commit `02dde7d` as
+`appomattox-review-02dde7d-opus-high-v1` on 2026-09-25. Its outcome was "corrections required";
+its three required findings (APX-R1 to APX-R3) concern Appomattox records, and one of its ten
+advisories (APX-A7) concerns this record. It is an AI review within its stated scope, not human
+historical adjudication, proof of source independence or feature admission.
 
-- entailment and locators;
-- Pond's dependence on Sheridan;
-- the placement of both Sheridan selections in `sheridan-valley-1864-reports`.
+## Review correction
+
+- **APX-A7** (registry): the dependency note of `pond-waynesboro-selections-v1` copied two
+  sentences from the earlier Pond records that are inaccurate here: that the history is not
+  independent of "the Official Records families selected in this pass", and "No earlier registry
+  group for this author". The `metadata_only` successor `pond-waynesboro-selections-v2`
+  (superseding v1, kept unchanged; same raw bytes, parent, ranges and group) attributes the
+  quoted-report sentence to the earlier Pond records and names the parent and the two earlier
+  selections in `pond-shenandoah-valley-1883`. VA123's twelve Pond citations move to v2.
+
+VA123 is revised under `sheridan-petersburg-1865-review-correction-2026-09-25` and supersedes
+the byte-for-byte archive `data/evidence/history/VA123.v1.json`. The review correction adds
+**one source record** (`pond-waynesboro-selections-v2`). Claims (9), unknowns (1), citations (43)
+and disputed claims (3) are unchanged. No model input, cohort file, admission proposal or
+baseline is changed.

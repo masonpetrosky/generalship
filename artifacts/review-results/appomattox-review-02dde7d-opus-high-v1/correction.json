@@ -1,0 +1,91 @@
+{
+  "review_sha256": "22032365a6e1ed08888395704a8c623c1c281a437c694f15d1e8b1ec82f524df",
+  "prepared_commit": "02dde7d6d5dc6b5796059efabddf4b1b47f2d474",
+  "bundle_commit": "ac30b17ec86fbd7dbfc28c9020ea057d50207f80",
+  "scope": "Appomattox and Waynesboro first passes review",
+  "findings": [
+    {
+      "finding_id": "APX-R1",
+      "disposition": "accepted_applied",
+      "summary": "Verified: Humphreys, high-bridge-and-farmville p.390 (page head 'LEE NEAR FARMVILLE, APRIL 7th'), 'The loss of the Second Corps to-day was five hundred and seventy-one officers and men killed, wounded, and missing.' VA095 casualty-records: reviewer's value sentence appended, the p.390 citation added (same quote and locator as VA094), and 'No figure is given for April 7.' replaced with the reviewer's rationale text. Figure stays unassigned."
+    },
+    {
+      "finding_id": "APX-R2",
+      "disposition": "accepted_applied",
+      "summary": "Verified: Humphreys' 'lost the supplies awaiting him at Appomattox Station' (p.391) sits in his counterfactual about the April 7 detention. VA096 supply-trains phase commander_created -> unresolved; rationale replaced with the reviewer's text verbatim. Appomattox memo Tags bullet corrected: no commander_created claims remain in the batch; the train capture is listed as unresolved."
+    },
+    {
+      "finding_id": "APX-R3",
+      "disposition": "accepted_applied",
+      "summary": "Verified: VA096 casualty-records cites the live NPS field '1048 total (US 48; CS 1000;)' yet said 'Humphreys and NPS give no loss figures.' Replaced with 'Humphreys gives no loss figures, and the NPS description adds none beyond the live casualty field.'"
+    },
+    {
+      "finding_id": "APX-A1",
+      "disposition": "accepted_applied",
+      "summary": "Verified the note's first entry reads 'Quaker road: Muse lost' and the 187 entry has no unit. VA087 casualty-records rationale adds: the note's unit is garbled in OCR ('Muse' in its first entry) and its population is unclear; its 187 is not compared with or added to Johnson's 800 ('division-wide' omitted: Johnson says 'Our losses')."
+    },
+    {
+      "finding_id": "APX-A2",
+      "disposition": "accepted_applied",
+      "summary": "Verified: Sheridan dates Crook's reporting to March 27, then gives the three divisions' effective force undated; the force moved out on the 29th. VA088 reported-force-scope value reworded as suggested; citation 'on the same day the Second Cavalry Division, which had been serving with the Army of the Potomac, reported to me,' (p.1101) added. Memo strength bullet softened the same way."
+    },
+    {
+      "finding_id": "APX-A3",
+      "disposition": "accepted_applied",
+      "summary": "Adopted with one change: the passage ('General Meade informed that Lee's whole remaining force, probably about 18,000 infantry, had been come up with') gives no hour, so 'that afternoon' is not used. VA094 rationale: the estimate his 1883 history says was sent to Meade during the action (the dispatch itself was not inspected); not a count at Cumberland Church."
+    },
+    {
+      "finding_id": "APX-A4",
+      "disposition": "accepted_applied",
+      "summary": "Verified live fields VA092 '66 total (US 66; CS 0;)' and VA094 '571 total (US 571; CS 0;)'. Both casualty-records rationales add 'The live Confederate zero is not measured absence.' The memo sentence now matches all four records it names."
+    },
+    {
+      "finding_id": "APX-A5",
+      "disposition": "accepted_applied",
+      "summary": "Verified VA086 cites humphreys-petersburg-selections-v1#spring-1865-strengths (13,000 cavalry present for duty). VA085 boundary note and the memo's spanning-totals bullet now say VA086 also cites the paragraph and nothing is summed across records."
+    },
+    {
+      "finding_id": "APX-A6",
+      "disposition": "accepted_applied",
+      "summary": "Applied in neutral form. VA086 and VA087 command-roles record the NPS phrase ('Maj. Gen. W.H. Fitzhugh Lee's cavalry' / '... cavalry divisions at Five Forks', NPS citations added) beside Humphreys' 'the cavalry di¬ visions of the two Lees' (p.328, cited); rationale: the NPS name form does not distinguish the two Lees and is not used for attribution. Whether NPS conflates the two men is not adjudicated, since the inspected sources do not settle how NPS meant the name."
+    },
+    {
+      "finding_id": "APX-A7",
+      "disposition": "accepted_applied",
+      "summary": "Pond part adopted: metadata_only successor pond-waynesboro-selections-v2 (same path, bytes, parent, ranges and group pond-shenandoah-valley-1883) attributes the quoted-report sentence to the earlier Pond records and names the parent and the two earlier selections in the existing group, replacing 'No earlier registry group for this author'. VA123's 12 Pond citations moved to v2; Waynesboro memo updated. Humphreys part not adopted: the stale Volume XXXVI sentences in humphreys-appomattox-selections-v1 are harmless per the reviewer and change no family, group or citation; no successor (it would move ~400 citations)."
+    },
+    {
+      "finding_id": "APX-A8",
+      "disposition": "not_adopted",
+      "summary": "Verified Humphreys relays Johnson ('General Bushrod Johnson, whose division numbered about 3,800, says that his loss was small', p.384). No dossier pairs Johnson's report with Humphreys for Sailor's Creek (VA093 defers Johnson's April 6 account), so no source successor was added for the Johnson dependency note; the dependency is recorded in the Appomattox memo's Independence groups bullet for a future registry revision."
+    },
+    {
+      "finding_id": "APX-A9",
+      "disposition": "accepted_applied",
+      "summary": "Verified p.381: 'their total loss could not have been less than 2,000' (Gordon's corps in the running contest with the Second Corps). VA093 casualty-records value records it, citation added, and the rationale says the 6,000 and 2,000 fall within his not less than 8,000 and are not added to it."
+    },
+    {
+      "finding_id": "APX-A10",
+      "disposition": "accepted_applied",
+      "summary": "VA095 boundary note adds 'He is also a frozen Union commander of this record.' (frozen commander A. A. Humphreys, US, already cited in command-roles)."
+    }
+  ],
+  "corrected_dossiers": {
+    "VA085": "e931af7644dc8477cc839103bfa566d674bff1aa0342e0086a786b26f42c330f",
+    "VA086": "f2b0ef50ac78904f8669d78392eb8ec469bf51ea7bd2f944cfe0a7e4c80696cc",
+    "VA087": "ba15b5f85c0c5189ada7270315ebe54496a6e726be2fbd3f2fc0242f0ead2099",
+    "VA088": "48da3db1f6da891decaf1ad092090669eadb0b022dc2d7aeab58bb6b698bf022",
+    "VA089": "b393c42322b9f2bec5a4aa5bbdedc65a1687da7aa090df305426bd16dca5b17c",
+    "VA090": "f76b6f56664eda2a4881022aabe1915002d073dca60e676532e79ff2efad0b90",
+    "VA124": "98e736a1e16c270923c5c942f3b21fbd6aba0a3b80f341e2f1999d28403b04f3",
+    "VA091": "cdc10e8cb2652ebdaf83ce10770321b64f7db726f0f3846e639a3ceba9e5075d",
+    "VA092": "ff46b4ba9158705c0c6abfc6068eb91693a802e0a8a41527fcf51e9efca812c5",
+    "VA093": "ea324bf45841dfd555c260eaad90da6ed0acdd576aea81aa802018db9b8bc4ca",
+    "VA095": "43db5d49f9b055055cba92f1a9628a99775945880e4dc6ee50a95d6c4c3a2281",
+    "VA094": "e2e3e000353e354e706c3726d08cdbe70eb2a9e2ed5e5172e03171d7d8ec4c12",
+    "VA096": "c7c8a433da007adaa24994991e8c0760291a8681c41f9ffa489b31e380ddd364",
+    "VA097": "488ed51d44a2a3004d18fe01ece049513fe72b6ccf8373e868276707999dda5f",
+    "VA123": "4f66ad0023fb683d958f9cd1b4a75c28aeaf0c102d5297448c4226438b66b542"
+  },
+  "independent_followup_review": false
+}

@@ -2,23 +2,23 @@
 
 Prepared 2026-09-25 under the [cohort v2](../cohort-v2.md) research order, which puts the
 Appomattox campaign fourth. All **fourteen records** in **Appomattox Campaign [March-April
-1865]** now have draft dossiers: **126 claims, 20 explicit null unknowns and 546 citation
-occurrences**. All seven dimensions are represented in each record. All dossiers are drafts;
+1865]** now have draft dossiers: **126 claims, 20 explicit null unknowns and 553 citation
+occurrences** (546 before the review correction below). All seven dimensions are represented in each record. All dossiers are drafts;
 no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
 | VA085 — Lewis's Farm | 1865-03-29 | 9 | 2 | 43 | 3 |
-| VA086 — Dinwiddie Court House | 1865-03-31 | 9 | 1 | 41 | 3 |
-| VA087 — White Oak Road | 1865-03-31 | 9 | 1 | 51 | 3 |
-| VA088 — Five Forks | 1865-04-01 | 9 | 1 | 48 | 3 |
+| VA086 — Dinwiddie Court House | 1865-03-31 | 9 | 1 | 43 | 3 |
+| VA087 — White Oak Road | 1865-03-31 | 9 | 1 | 53 | 3 |
+| VA088 — Five Forks | 1865-04-01 | 9 | 1 | 49 | 3 |
 | VA089 — Petersburg | 1865-04-02 | 9 | 1 | 43 | 3 |
 | VA090 — Sutherland's Station | 1865-04-02 | 9 | 2 | 32 | 3 |
 | VA124 — Namozine Church | 1865-04-03 | 9 | 4 | 22 | 3 |
 | VA091 — Amelia Springs | 1865-04-05 | 9 | 1 | 34 | 3 |
 | VA092 — Rice's Station | 1865-04-06 | 9 | 1 | 31 | 3 |
-| VA093 — Sailor's Creek | 1865-04-06 | 9 | 1 | 51 | 3 |
-| VA095 — High Bridge | 1865-04-06 to 04-07 | 9 | 1 | 39 | 3 |
+| VA093 — Sailor's Creek | 1865-04-06 | 9 | 1 | 52 | 3 |
+| VA095 — High Bridge | 1865-04-06 to 04-07 | 9 | 1 | 40 | 3 |
 | VA094 — Cumberland Church | 1865-04-07 | 9 | 1 | 42 | 3 |
 | VA096 — Appomattox Station | 1865-04-08 | 9 | 2 | 28 | 3 |
 | VA097 — Appomattox Court House | 1865-04-09 | 9 | 1 | 41 | 3 |
@@ -124,7 +124,10 @@ No new volume or catalog record is registered.
 - New author groups: `bushrod-johnson-appomattox-report`, `miles-appomattox-reports`,
   `gibbon-appomattox-report` and `ewell-sailors-creek-report`.
 - Miles was Humphreys' division commander; Humphreys quotes Gibbon, Ewell and Fitzhugh Lee.
-  These dependencies are in the dependency notes. The OR volume is a shared container
+  These dependencies are in the dependency notes. Humphreys also relays Bushrod Johnson's
+  statement that his April 6 loss was small (p.384), so the two are not independent for
+  Sailor's Creek; no dossier pairs them there, and the Johnson selection's dependency note does
+  not record this (APX-A8). The OR volume is a shared container
   (`or-series-i-volume-xlvi`), not a witness.
 - Sheridan's March 31 selection includes Grant's reply as a separately headed section
   (`grant-to-sheridan-1865-03-31`); the author field says so. It is not cited.
@@ -147,7 +150,8 @@ No new volume or catalog record is registered.
     and April 2;
   - Sheridan's and Gibbon's campaign casualty tables;
   - Humphreys' Union loss of 9,944 for March 29 to April 9;
-  - the army-wide returns (cited once, in VA085).
+  - the army-wide returns (cited in VA085; VA086 also cites the same paragraph's 13,000 present
+    for duty of Sheridan's cavalry; nothing is summed across records).
 - **Opening strengths remain unknown.** The frozen side-specific bounds exist only for VA086
   (US 45,247; CS 20,030), with no stated date or population. The other thirteen records carry
   formation words ("Corps", "Divisions", "Brigades", "Armies") and blank bounds, and every live
@@ -164,7 +168,8 @@ No new volume or catalog record is registered.
     - Pickett's and Johnson's infantry at Five Forks, 6,600;
     - Wilcox's four brigades, about 4,000;
     - Gordon's corps, about 7,600.
-  - Sheridan's 9,000 effective cavalry on March 27; Mackenzie's about 1,000; the present for
+  - Sheridan's 9,000 effective cavalry, as assembled when Crook's division reported on March 27
+    (the figure is not itself dated); Mackenzie's about 1,000; the present for
     duty of Sheridan's enlisted cavalry, 13,000.
   - Sailor's Creek: Humphreys' reconstruction of Ewell's 3,600 and Anderson's 6,300, from
     Kershaw's 2,000, Custis Lee's about 1,000, Johnson's about 3,800 and Pickett's about 2,500.
@@ -245,9 +250,12 @@ No new volume or catalog record is registered.
   - the Sailor's Creek slope;
   - the High Bridge river and bridges.
 
-  One claim is tagged `commander_created`: the capture of Lee's supply trains at Appomattox
-  Station. Works built during an engagement (Five Forks, Sutherland's Station, Rice's Station,
-  Cumberland Church) stay `unresolved`. Outcomes are `post_outcome`.
+  No claim is tagged `commander_created`. The capture of Lee's supply trains at Appomattox
+  Station stays `unresolved`: it mixes pre-existing trains, in-action decisions and the
+  engagement's result, and Humphreys' statement that Lee lost these supplies is his
+  campaign-contribution judgment about the April 7 detention (APX-R2). Works built during an
+  engagement (Five Forks, Sutherland's Station, Rice's Station, Cumberland Church) also stay
+  `unresolved`. Outcomes are `post_outcome`.
 - **OCR limits.** The inferred page locators are listed above. Quotes preserve OCR corruption,
   for example "Eansom’s" for Ransom's, "Hearing" for Dearing, "GOO" for 600, "Bosser" for
   Rosser, "live times" for five times and "Muse" in Johnson's casualty note (unit unclear). The
@@ -266,19 +274,66 @@ rows.
 
 ## Validation
 
-- `python3 -m generalship check` passes in the worktree.
-- `python3 -m unittest discover -s tests` passes (134 tests).
+- After the review correction, `python3 -m generalship check` passes and
+  `python3 -m unittest discover -s tests` passes (134 tests).
 - After building, the builder's quote-miss list is empty.
 
-## Separate review pending
+## Separate review
 
-No separate review has been run. The next step is a fresh-context `evidence-reviewer`
-assignment bound to the commit, the fourteen dossier hashes and the source hashes above. It
-should cover:
+A fresh-context `evidence-reviewer` (Claude Opus 5.5, reasoning effort `high`) reviewed this
+pass together with the Sheridan's Expedition to Petersburg pass at commit `02dde7d` as
+`appomattox-review-02dde7d-opus-high-v1` on 2026-09-25. Its outcome was "corrections required":
+three required findings (APX-R1 to APX-R3) and ten advisories (APX-A1 to APX-A10). It is an AI
+review within its stated scope, not human historical adjudication, proof of source independence
+or feature admission.
 
-- entailment and locators;
-- the inferred Humphreys and Lee page locators;
-- Humphreys' participant role (VA087, VA089, VA090, VA093–VA095, VA097);
-- the reuse of the Richmond-Petersburg `spring-1865-strengths` section;
-- the placement of Lee, Sheridan and Fitzhugh Lee in their earlier author groups;
-- the splitting of multi-record totals (April 7, Five Forks prisoners, campaign tables).
+## Review correction
+
+Each required finding was checked against the retained selection text before any change; every
+new quote occurs in its section, and the dossiers were regenerated from the builder. Nine
+dossiers are revised under `appomattox-review-correction-2026-09-25` and supersede byte-for-byte
+archives at `data/evidence/history/<ID>.v1.json`: VA085, VA086, VA087, VA088, VA092, VA093,
+VA094, VA095 and VA096. VA089, VA090, VA124, VA091 and VA097 are unchanged.
+
+- **APX-R1** (VA095 `casualty-records`): the rationale said no figure is given for April 7.
+  Humphreys gives the Second Corps' whole-day loss for April 7 as 571 (p.390). The value now
+  records it, the p.390 citation is added, and the rationale says it is a whole-day total
+  spanning VA095 and VA094, assigned to neither alone, with no figure specific to the High
+  Bridge crossing.
+- **APX-R2** (VA096 `supply-trains`): the phase changes from `commander_created` to
+  `unresolved`. The rationale now says the claim mixes pre-existing trains, in-action decisions
+  and the capture that is part of this engagement's result, that Humphreys' statement that Lee
+  lost these supplies is his campaign-contribution judgment about the April 7 detention
+  (VA094), and that no contribution is estimated; it also records that NPS has the trains burned
+  where Sheridan has them run back. The Tags bullet above is corrected.
+- **APX-R3** (VA096 `casualty-records`): the value said "Humphreys and NPS give no loss
+  figures" while citing the live NPS casualty field. It now says Humphreys gives none and the NPS
+  description adds none beyond the live casualty field.
+
+Advisories:
+
+- **Adopted:** A1 (VA087: the casualty note's unit is garbled and its population unclear; its
+  187 is not compared with or added to Johnson's 800), A2 (VA088 and this memo: Sheridan's 9,000
+  is for the three divisions as assembled when Crook reported on March 27; the figure is not
+  itself dated; the p.1101 citation for Crook's reporting is added), A3 (VA094: the 18,000 is the
+  estimate Humphreys' 1883 history says was sent to Meade during the action; the dispatch was not
+  inspected; the reviewer's "that afternoon" is not used, since the passage gives no hour), A4
+  (VA092 and VA094: the live Confederate zero is not measured absence), A5 (VA085 boundary note
+  and this memo: VA086 also cites the spring 1865 paragraph's cavalry figure; nothing is summed),
+  A6 (VA086 and VA087 `command-roles`: the NPS description's "Maj. Gen. W.H. Fitzhugh Lee's
+  cavalry" is recorded with Humphreys' "cavalry divisions of the two Lees"; the name form does
+  not distinguish the two Lees and is not used for attribution; whether NPS conflates them is not
+  adjudicated), A9 (VA093: Humphreys' "not less than 2,000" for Gordon's corps is recorded, p.381,
+  as a component of his 8,000 and not added to it), A10 (VA095 boundary note: Humphreys is also a
+  frozen Union commander of this record). A7 is adopted for the Waynesboro record; see that memo.
+- **Not adopted:** the Humphreys part of A7. The dependency note of
+  `humphreys-appomattox-selections-v1` repeats the parent's Overland-specific sentences about
+  Volume XXXVI; the reviewer calls them stale but harmless, and they change no family, group or
+  citation, so no successor was added. A8 (the Bushrod Johnson dependency note): no dossier
+  pairs Johnson's report with Humphreys at Sailor's Creek, so no successor was added; the
+  dependency is recorded under Independence groups above.
+
+The review correction adds no source record for this campaign. Citations rise from 546 to 553;
+claims (126), unknowns (20) and disputed claims (25) are unchanged; `inherited` tags stay at six
+and `commander_created` tags fall from one to none. No model input, cohort file, admission
+proposal or baseline is changed.

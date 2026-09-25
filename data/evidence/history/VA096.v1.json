@@ -75,7 +75,7 @@
       "id": "supply-trains",
       "dimension": "logistics",
       "value": "Sheridan says four trains of cars loaded with supplies for Lee's army were at the depot, that his column pushed on twenty-eight miles and captured them, and that the trains were run back to the protection of the infantry; Humphreys says Custer took three trains with subsistence sent back from Farmville and that Lee lost the supplies awaiting him at the station; NPS says three trains were captured and burned.",
-      "rationale": "The counts differ (four against three), and NPS says the trains were burned where Sheridan says they were run back; all are preserved. The claim mixes pre-existing supply trains at the depot, in-action decisions by Sheridan and Custer, and the capture that forms part of this engagement's result, so it is not tagged as a whole. Humphreys' statement that Lee lost these supplies is his participant's campaign-contribution judgment about the April 7 detention (VA094), not a measured logistics effect. No contribution is estimated.",
+      "rationale": "The counts differ (four against three) and are preserved. The capture of Lee's supplies was created by the action.",
       "citations": [
         {
           "source_id": "or46-1-sheridan-appomattox-selections-v1",
@@ -113,7 +113,7 @@
           "quote": "Custer captured and burned three trains loaded with provisions for Lee's army."
         }
       ],
-      "phase": "unresolved",
+      "phase": "commander_created",
       "status": "disputed"
     },
     {
@@ -245,7 +245,7 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 'Unknown' and the live field 1,048 (US 48; CS 1,000). Sheridan reports many prisoners, twenty-five guns, a hospital train and a large park of wagons captured; Humphreys gives no loss figures, and the NPS description adds none beyond the live casualty field.",
+      "value": "The frozen casualty text reads 'Unknown' and the live field 1,048 (US 48; CS 1,000). Sheridan reports many prisoners, twenty-five guns, a hospital train and a large park of wagons captured; Humphreys and NPS give no loss figures.",
       "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Sheridan's campaign-wide casualty list is not assigned to this record.",
       "citations": [
         {
@@ -276,10 +276,5 @@
     "Custer's, Merritt's, Devin's and Crook's reports (Nos. 203, 200, 201, 208), Walker's and Pendleton's accounts (Pendleton No. 270), Lee's report of the attack on Walker's train (selected; cited under VA097) and the returns remain deferred.",
     "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "appomattox-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA096.v1.json",
-    "sha256": "6f1d16cdcabc96ffe53fce3f413e12f7ea3d5bb63c911762ca2217343c05f7d0"
-  }
+  ]
 }

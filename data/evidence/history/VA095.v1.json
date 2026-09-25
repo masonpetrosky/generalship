@@ -4,7 +4,7 @@
   "status": "draft",
   "tactical_replacement_at": null,
   "campaign_replacement_at": null,
-  "boundary_note": "Bounded first pass for the frozen High Bridge record (April 6-7, 1865) in the Appomattox Campaign [March-April 1865]. The record joins Read's April 6 raid on the bridges and the Second Corps' April 7 crossing; Rice's Station (VA092) is April 6 and Cumberland Church (VA094) April 7. Humphreys commanded the Second Corps, and his account of its actions here is a participant's. He is also a frozen Union commander of this record. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "boundary_note": "Bounded first pass for the frozen High Bridge record (April 6-7, 1865) in the Appomattox Campaign [March-April 1865]. The record joins Read's April 6 raid on the bridges and the Second Corps' April 7 crossing; Rice's Station (VA092) is April 6 and Cumberland Church (VA094) April 7. Humphreys commanded the Second Corps, and his account of its actions here is a participant's. Army-wide returns, campaign-wide loss and prisoner totals, the April 9 paroles and the retreat as a whole are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
   "claims": [
     {
       "id": "opening-personnel-unknown",
@@ -303,8 +303,8 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 1,200 total with 800 Union captured, and the live field 947 (US 847; CS 100). Fitzhugh Lee gives some 780 prisoners and names Dearing, Boston and Thomson among his killed; Humphreys says Read, Washburn and all the cavalry officers were killed and the rest surrendered, and names Dearing, Boston and Thompson. Humphreys gives the Second Corps' loss for the whole of April 7 as 571 killed, wounded and missing, a day total that also covers Barlow's fight near Farmville and Cumberland Church (VA094).",
-      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Fitzhugh Lee's OCR reads 'Hearing' for Dearing. Humphreys' 580 for Read's whole party (80 plus 500, a computation) is below Fitzhugh Lee's 780 prisoners and the frozen 800 captured; not reconciled. Humphreys' April 7 figure (571) is a whole-day Second Corps total spanning this record and VA094; it is not assigned to either alone, and no figure specific to the High Bridge crossing is given.",
+      "value": "The frozen casualty text reads 1,200 total with 800 Union captured, and the live field 947 (US 847; CS 100). Fitzhugh Lee gives some 780 prisoners and names Dearing, Boston and Thomson among his killed; Humphreys says Read, Washburn and all the cavalry officers were killed and the rest surrendered, and names Dearing, Boston and Thompson.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Fitzhugh Lee's OCR reads 'Hearing' for Dearing. Humphreys' 580 for Read's whole party (80 plus 500, a computation) is below Fitzhugh Lee's 780 prisoners and the frozen 800 captured; not reconciled. No figure is given for April 7.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -342,12 +342,6 @@
           "section": "sailors-creek-and-rices-station",
           "locator": "p.385 (OCR page markers; not checked against print)",
           "quote": "General Dearing, Colonel Boston, and Major Thompson of Rosser’s command were among the killed."
-        },
-        {
-          "source_id": "humphreys-appomattox-selections-v1",
-          "section": "high-bridge-and-farmville",
-          "locator": "p.390 (OCR page markers; not checked against print)",
-          "quote": "The loss of the Second Corps to-day was five hundred and seventy-one officers and men killed, wounded, and missing."
         }
       ],
       "phase": "post_outcome",
@@ -358,10 +352,5 @@
     "Ord's report (No. 213), Barlow's report (No. 54), Humphreys' own report (No. 21), Livermore's account, Rosser's, Munford's and Mahone's accounts and the returns remain deferred.",
     "NPS/CWSAC (the live NPS page and the frozen Arnold rows) is one family. Humphreys' The Virginia Campaign of ’64 and ’65 (1883) is an interested history by the commander of the Second Corps in this campaign, in the same author family as the registered From Gettysburg to the Rapidan; where it narrates his own corps it is a participant's account. It relies on the reports of Sheridan, Warren, Wright, Gibbon, Ewell and Fitzhugh Lee, on Confederate testimony before the Warren Court of Inquiry and on the returns, so it is not independent of those families. Lee's, Sheridan's, Bushrod Johnson's, Miles's, Gibbon's, Ewell's and Fitzhugh Lee's papers, printed in Official Records Series I, Volume XLVI, Part 1, are separate families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "appomattox-review-correction-2026-09-25",
-  "supersedes": {
-    "path": "data/evidence/history/VA095.v1.json",
-    "sha256": "3a35125db90eaa4ea6e46aaa6a1f453168a53d5a10e35cb413d887c9df4f58da"
-  }
+  ]
 }
