@@ -181,8 +181,8 @@ the baseline still ignores all typed research observations.
 6. Build a separately reviewed feature-admission mapping tied to source/dossier
    hashes and a particular estimand before using any new evidence in a model.
 
-The owner authorizes a separate GPT-6 Astra `xhigh` reviewer subagent in the
-current task. Give it fresh context and an exact frozen evidence assignment;
+The owner authorizes a separate Claude Opus 5.5 `high` reviewer subagent (the
+`evidence-reviewer` agent; GPT-6 Astra `xhigh` before 2026-09-24) in the current task. Give it fresh context and an exact frozen evidence assignment;
 record its actual response, task identity, model/effort, date, input hashes and
 coverage. The primary agent checks proposed corrections against sources before
 changing the dossier. A separate user-managed chat is optional. An AI review

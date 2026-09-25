@@ -103,7 +103,8 @@ The [Valley pass](docs/research/valley-first-pass-v1.md) adds seven dossiers,
 68 claims, 17 explicit unknowns and 91 citations. Astra `xhigh` reviewed the complete
 batch; its one timing-tag correction is fixed and verified by the primary.
 The [Heartland Offensive pass](docs/research/heartland-first-pass-v1.md) adds five
-dossiers, 54 claims, 6 explicit unknowns and 155 citations. Separate review is pending.
+dossiers, 54 claims, 6 explicit unknowns and 157 citations. Opus 5.5 `high` reviewed
+the complete batch; its one Perryville scope correction is fixed and verified by the primary.
 Next: **the six-record Northern Virginia Campaign**. See the
 [current roadmap](docs/roadmap.md) and
 [first-pass protocol](docs/methodology.md#research-depth-and-coverage).

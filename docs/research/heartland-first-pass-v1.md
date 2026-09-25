@@ -2,8 +2,10 @@
 
 Prepared 2026-09-24. All **five frozen records** in **Confederate Heartland Offensive
 [June-October 1862]** now have draft dossiers: **54 claims, 6 explicit null unknowns
-and 155 citation occurrences**. All seven dimensions are represented in each record.
-Separate review is pending. All dossiers remain drafts; no features are admitted.
+and 157 citation occurrences**. All seven dimensions are represented in each record.
+Separate Claude Opus 5.5 `high` [review](../../artifacts/review-results/heartland-fc79026-opus-high-v1/review.md)
+covered the complete batch. Its one population-scope correction in Perryville is
+fixed and verified by the primary. All dossiers remain drafts; no features are admitted.
 
 | Record | Dates (frozen) | Claims | Unknowns | Citations | Families |
 | --- | --- | ---: | ---: | ---: | ---: |
@@ -11,7 +13,7 @@ Separate review is pending. All dossiers remain drafts; no features are admitted
 | TN006 — Murfreesboro | 1862-07-13 | 12 | 1 | 30 | 2 |
 | KY007 — Richmond | 1862-08-29 to 08-30 | 11 | 2 | 33 | 2 |
 | KY008 — Munfordville | 1862-09-14 to 09-17 | 10 | 1 | 25 | 2 |
-| KY009 — Perryville | 1862-10-08 | 11 | 1 | 41 | 2 |
+| KY009 — Perryville | 1862-10-08 | 11 | 1 | 43 | 2 |
 
 Coverage is **45/127 draft dossiers**, **82 without**, and **9/36 complete source
 campaigns by dossier presence**. All 40 earlier dossiers and six historical
@@ -27,7 +29,7 @@ campaign heading, "June-October 1862", does not replace the frozen engagement in
 
 The single shared targeted follow-up is Henry M. Cist, [*The Army of the
 Cumberland*](https://archive.org/details/armyofcumber00cist) (New York: Scribner's,
-1882; Campaigns of the Civil War, vol. VII). The pinned public catalog record,
+1882; Campaigns of the Civil War, vol. VII per OCR signature marks, not the catalog). The pinned public catalog record,
 full OCR and one selection derivative are retained. Inspected: catalog title,
 creator, year, publisher and scan provenance; the title page, preface and contents;
 and these bounded passages with intervening running headers:
@@ -36,9 +38,11 @@ and these bounded passages with intervening running headers:
 - Forrest's Murfreesboro attack through the surrender and stores, pp.43–45.
 - Nelson's arrival in Kentucky through Richmond losses, pp.53–54.
 - Bragg's march to Munfordville through the surrender, pp.57–59.
-- The whole Perryville chapter to Bragg's arms quotation, pp.61–70.
+- Perryville, from the start of Chapter VI to Bragg's arms quotation, pp.61–70
+  (the chapter continues to p.86).
 
-Cist's title page identifies him as a staff officer of Rosecrans and Thomas. His
+Cist's title page identifies him as a staff officer of Rosecrans and of a second
+major-general whose name is garbled in the OCR (apparently Thomas). His
 preface thanks Col. E. N. Scott for data furnished and credits the maps to Van
 Horne's history. He is an interested retrospective Union historian, not an
 inspected witness to these 1862 actions. Quotations of Duke, Bragg and Buell inside
@@ -114,6 +118,26 @@ effect or new commander ranking is introduced. Cohort and both admission proposa
 remain unchanged, with **zero promoted rows**. The baseline still uses **23/127
 engagements in 13 eligible groups**, with strength Brier **0.276882** versus
 **0.250000** for equal odds. Coverage has not improved predictive results.
+
+## Review correction and validation
+
+The reviewer found **HO-R1**: Perryville's `union-unengaged-forces` rationale called
+Crittenden's corps "the idle corps". The same Cist p.68 passage says Wagner's
+brigade of Wood's division was engaged and only "the rest" of the corps was not.
+The primary reread the passage and applied the exact proposed value, rationale and
+two added citations. KY009 rises from 41 to 43 citations; claims, unknowns and every
+other dossier are unchanged. The original dossier is retained as
+`data/evidence/history/KY009.v1.json`, and the current draft records its hash in
+`supersedes`. The original KY009 packet remains available at commit `fc79026`; the
+current packet is regenerated.
+
+Five nonblocking notes need no claim change. The memo now qualifies the garbled
+second staff name (HO-N1), the source of the volume number (HO-N2) and the partial
+Perryville chapter (HO-N3); the registered source records are unchanged. The KY008
+quote-span note (HO-N4) and Cist's internal Munfordville day-count tension (HO-N5)
+stay in the deferred chronology question. The
+[primary assessment](../../artifacts/review-results/heartland-fc79026-opus-high-v1/primary-assessment.md)
+closes R1 after direct verification; no second reviewer pass is claimed.
 
 Next by frozen campaign start is **Northern Virginia Campaign [August 1862]**:
 **VA022–VA027**, six records. Do not start that group within this batch.

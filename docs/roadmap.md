@@ -86,9 +86,12 @@ dossier presence**, with zero promoted rows.
 
 The [Heartland Offensive first pass](research/heartland-first-pass-v1.md) adds all
 **five frozen records, TN005, TN006 and KY007–KY009**, with **54 claims, 6 explicit
-unknowns and 155 citations**. Each uses NPS/CWSAC and Cist's retrospective history.
+unknowns and 157 citations**. Each uses NPS/CWSAC and Cist's retrospective history.
 Murfreesboro's live NPS result field ("Union Victory") conflicts with the frozen
-Confederate victory and is retained as a dispute. Separate review is pending.
+Confederate victory and is retained as a dispute. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/heartland-fc79026-opus-high-v1/review.md) covered
+all 54 claims; its one Perryville population-scope correction is fixed and
+[verified by the primary](../artifacts/review-results/heartland-fc79026-opus-high-v1/primary-assessment.md).
 Coverage is **9/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 Next take **Northern Virginia Campaign [August 1862]**, the next complete frozen
