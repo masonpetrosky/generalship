@@ -403,6 +403,12 @@ all 91 decisive non-aggregate engagements. No rows are
 admitted and no model inputs change until a reviewed release exists. Keep every engagement
 regardless of outcome, reputation or available strengths.
 
+Owner decision, same day, after the [extraction scoping](research/reported-strength-scoping-v1.md):
+"I feel like we should make our best estimate for each." The immediate next step is the
+[best-estimate design](strength-estimates.md), which sits beside this profile and changes
+none of it; its separate review required ten corrections, now applied. The order of the
+remaining tier-2 steps relative to it is not recorded.
+
 Use the [first-pass protocol](methodology.md#research-depth-and-coverage). Report
 dossier coverage, dimensions still unknown, actual review scope and admitted rows
 separately. Additional Shiloh detail is not the completion criterion.

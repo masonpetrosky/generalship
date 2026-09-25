@@ -1,0 +1,97 @@
+{
+  "review_sha256": "4b219ea37f619c4c824e5355463e1ce15db713952e57a724145d1850825e397b",
+  "prepared_commit": "fff4103efea08571af006b4e1c4cc8b171f502e4",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "§1 target restated on one recorded basis with point_basis."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "§3 replaced with the ordered, exhaustive classification table."
+    },
+    {
+      "finding_id": "R3",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "§4 replaced with exact-rational, fully specified rules."
+    },
+    {
+      "finding_id": "R4",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "resolved by §4 rule 6."
+    },
+    {
+      "finding_id": "R5",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "resolved by §4 rule 2."
+    },
+    {
+      "finding_id": "R6",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "resolved by §4 rule 4's disclaimer and §6 refit."
+    },
+    {
+      "finding_id": "R7",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "§5 label table replaced."
+    },
+    {
+      "finding_id": "R8",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "§6 replaced: no fit without an explicit owner authorization naming the reviewed ledger hash."
+    },
+    {
+      "finding_id": "R9",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "§7 ledger, inventory, checker and review bullets replaced."
+    },
+    {
+      "finding_id": "R10",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "§2 source scope and roadmap paragraph updated."
+    },
+    {
+      "finding_id": "A1",
+      "disposition": "adopted",
+      "summary": "interpretation of 'each' recorded; README says decisive, non-aggregate."
+    },
+    {
+      "finding_id": "A2",
+      "disposition": "adopted",
+      "summary": "officer phrase dropped with R1."
+    },
+    {
+      "finding_id": "A3",
+      "disposition": "adopted",
+      "summary": "upper-middle median refit added to §6."
+    },
+    {
+      "finding_id": "A4",
+      "disposition": "adopted",
+      "summary": "§4 rule 3 records the deliberate preference."
+    },
+    {
+      "finding_id": "A5",
+      "disposition": "adopted",
+      "summary": "§2 blinding sentence."
+    },
+    {
+      "finding_id": "A6",
+      "disposition": "adopted",
+      "summary": "endpoint_refit_* naming."
+    },
+    {
+      "finding_id": "A7",
+      "disposition": "adopted",
+      "summary": "registered Livermore IDs named in §5."
+    }
+  ],
+  "corrected_design": {
+    "path": "docs/strength-estimates.md",
+    "sha256_before_commit": "afd05f0968b9202958e8e75a85f4787b1d229552bc40132d7e9422530ad4effe"
+  },
+  "notes": "Design review only. Replacement text applied as specified; the primary checked each cited inconsistency against the design, contract, tier-2 design and baseline. No estimate, dossier, source or model input changed.",
+  "separate_followup_review": "focused follow-up requested"
+}
