@@ -1,0 +1,36 @@
+{
+  "kind": "commander_rating_authorization",
+  "schema_version": 1,
+  "decision_date": "2026-09-25",
+  "imputation": {
+    "path": "artifacts/strength-imputation-v1.json",
+    "sha256": "f798faf37763d42f445773031bb613c0739618b1e3a50f46d58d810b98ad1caa"
+  },
+  "strength_ledger": {
+    "path": "data/estimates/side-strength-v2.json",
+    "sha256": "7855d4d3c8853f7eb94849cb3701c0ca3e3bd759df11b8ffcb5e086cc92deed8"
+  },
+  "command_ledger": {
+    "path": "data/command/responsibility-v2.json",
+    "sha256": "495cef30b475920c2bd02991a4a107dfb3f3079fa494d43512a216dc82da06ac"
+  },
+  "registry": {
+    "path": "data/command/commanders-v2.json",
+    "sha256": "91fc25260c8370a64b7599940dec22c7640efac8b497dc6ae99ff6eeb45e3768"
+  },
+  "campaigns": {
+    "path": "data/raw/cwsac_campaigns.csv",
+    "sha256": "93813220a72767a77a4632905d38718593d401901ae16698973e4ae8b9f555ae"
+  },
+  "code_commit": "82901a9",
+  "question_put_to_owner": "Run 3 is ready: all 301 in-scope battles, with modelled (grade E) strengths for the 262 sides that had no usable figure, and the all-battles held-out test as the single verdict. May I run it for exactly these files? Design strength-imputation.md (SHA-256 15bdb6a2…), grade E output strength-imputation-v1.json (f798faf3…), strength ledger v2 (7855d4d3…), command ledger v2 (495cef30…), registry v2 (91fc2526…), campaign table cwsac_campaigns.csv (93813220…). It takes about 1.5 hours; afterwards a separate Opus review checks the code and results before I report.",
+  "owner_response": "Okay, I just wanted to be cognizant of my weekly limits on Claude. You're good to run it",
+  "context": "The owner first asked what run 3 involves and whether it calls subagents or uses model judgment; the author explained that the run is deterministic code and that model judgment enters only through the reviewed ledgers, the reviewed design and the post-run review.",
+  "recorded_by": "primary agent (Claude Opus 5.5), from the owner's chat reply",
+  "admits_feature": false,
+  "changes_baseline": false,
+  "design": {
+    "path": "docs/strength-imputation.md",
+    "sha256": "15bdb6a2d9db1329ff1ed42a21d175b152cfa845f09eabe8078a617e4f2ed635"
+  }
+}
