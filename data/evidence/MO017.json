@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO017",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Clark's Mill record (November 7, 1862) in Operations North of Boston Mountains [August-November 1862]. The pursuit sent after the Confederates is context. The live NPS campaign label (\"Confederate Offensive North of Boston Mountains\") does not replace the frozen campaign. Campaign-wide totals, marches and multi-action loss figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives about 100 men of the 10th Illinois Cavalry and State Militia against a cavalry brigade of about 1,000; the frozen numeric bounds are 113 for the Union (equal to the frozen Union casualty figure) and 1,000 for the Confederates; the live field reads zero. Wickersham reports about 50 of the 10th Illinois and 50 militia against 1,000. Barstow says he had not more than 110 men against 1,750 cavalry and infantry with four 6-pounders, that he first ascertained the enemy was not less than 1,000, and that they had ten men to his one; he had sent out detachments of 20 and 18 men that morning.",
+      "rationale": "Two Union reports, one relayed before the other; the frozen Union numeric bound does not match its text. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO017"
+          },
+          "column": "forces_text",
+          "quote": "Detachments of 10th Illinois Cavalry and State Militia (approx. 100 men) [US]; cavalry brigade (approx. 1,000 men) [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "MO017",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "113"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "MO017",
+            "belligerent": "Confederate"
+          },
+          "column": "strength_min",
+          "quote": "1000"
+        },
+        {
+          "source_id": "nps-mo017-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or13-wickersham-clarks-mill-selections-v1",
+          "section": "wickersham-1862-11-08",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "Our troops consisted of about 50 of the Tenth Illinois Cavalry and 50 of the State Militia. The enemy (1,000 strong)"
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "I had not to exceed 110 men ; the enemy 1,750 cavalry and infantry, armed with re- volvers, rifles, and carbines, and four 6-pounders"
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "ascertained that they were not less than 1,000 strong"
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "knowing they had 10 men to my 1"
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant [J. A.] McClure, with 20 men"
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "I started with 18 men to reconnoiter"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "two-roads-and-hill",
+      "dimension": "terrain",
+      "value": "Barstow planted his 2-pounder to cover both approach roads, and the Confederates opened with two 6-pounders from a hill half a mile northeast of camp; his camp was then surrounded. The frozen description says he unlimbered artillery to command both approach roads.",
+      "rationale": "Positions described by an interested report and the frozen description; no map verification. Phase unresolved.",
+      "citations": [
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "I at once planted my 2-pounder artillery to receive them on both roads"
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "they opened fire upon us from the hill with two 6- pounders one-half mile northeast of camp."
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "our camp surrounded on all sides."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO017"
+          },
+          "column": "description",
+          "quote": "Unlimbering artillery to command both approach roads"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "canister-and-revolvers",
+      "dimension": "logistics",
+      "value": "Barstow says he had only 23 rounds of canister and men armed mostly with Colt's revolvers, against an enemy he later learned had 300 to 400 artillery rounds; after the surrender his men were not allowed to keep their horses.",
+      "rationale": "Condition statements from one interested report; no ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "as we had but 23 rounds of canister for our artillery and my men were mostly armed with Colt’s revolvers."
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "between 300 and 400 rounds of cartridges for their artillery."
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "they refused to allow my men to keep their horses"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "false-alarms-and-no-intimation",
+      "dimension": "information",
+      "value": "Barstow first took the enemy for a passing gang of bushwhackers, had no intimation of more than 400 or of any artillery until fired on, and says repeated warnings over forty days had proved false alarms; had he known of the artillery he would have abandoned the post.",
+      "rationale": "Reported knowledge from one interested report; no message chain inspected.",
+      "citations": [
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "thinking that there was a gang of bushwhackers passing through the country"
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "had no intimation that there were over 400 of the en- emy, and had no intimation that they had any artillery until they fired on us."
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "by sending out our scouts have found them to be false alarms"
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "If I had known at the outset that they had artillery of that size I should have abandoned the post"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouting-and-surrender-decision",
+      "dimension": "objectives",
+      "value": "Barstow sent one detachment toward Gainesville and led another south to reconnoiter; given ten minutes by the Confederate summons, he and his officers judged they could not hold another hour. The Confederate objective is not stated in the inspected passages; Wickersham reports that they burned the block-house and left southward.",
+      "rationale": "Stated decisions from Union reports; the Confederate aim is unknown in the inspected sources.",
+      "citations": [
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "in the direction of Gaines- ville."
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "At the same time I started with 18 men to reconnoiter to the southward."
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "we decided that we would not be able to hold our position one hour longer"
+        },
+        {
+          "source_id": "or13-wickersham-clarks-mill-selections-v1",
+          "section": "wickersham-1862-11-08",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "After the surrender the enemy remained at the post long enough to burn the block-house and other outhouses."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen rows list Burbridge and Greene (Colonels) for the Confederates and Barstow (Captain) for the Union; the live page names Barstow and Burbridge. Barstow says the commanding colonel gave his name as J. Q. Burbridge, with Greene second in command, and that he decided to surrender after consulting his officers. Wickersham says the enemy was under 'General Green'.",
+      "rationale": "Accounts differ on the Confederate commander; no listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO017",
+            "belligerent": "Confederate",
+            "fullname": "John Q. Burbridge"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO017",
+            "belligerent": "Confederate",
+            "fullname": "Colton Greene"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO017",
+            "belligerent": "US",
+            "fullname": "Hiram E. Barstow"
+          },
+          "column": "rank",
+          "quote": "Captain"
+        },
+        {
+          "source_id": "nps-mo017-v1",
+          "locator": "Principal Commanders",
+          "quote": "Captain Hiram Barstow [US]"
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "The colonel commanding gave his name as J. Q. Burbridge. Colonel Greene was second in command at the time of my surrender."
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "I consulted with my officers"
+        },
+        {
+          "source_id": "or13-wickersham-clarks-mill-selections-v1",
+          "section": "wickersham-1862-11-08",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "under the command of General Green."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Confederate victory. Wickersham reports the surrender after firing from 11 a.m. to 5 p.m.; Barstow says he surrendered on a demand under a white flag and that the enemy agreed to parole all on the ground. The live description says Barstow surrendered to Burbridge and Greene.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO017"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-mo017-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or13-wickersham-clarks-mill-selections-v1",
+          "section": "wickersham-1862-11-08",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "the forces at Clark’s Mill surrendered, after a constant fire from 11 a. m. to 5 p. m."
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "The enemy sent in a white flag and demanded me to surrender"
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "the enemy agreed to parole all of us on the ground"
+        },
+        {
+          "source_id": "nps-mo017-v1",
+          "locator": "Description",
+          "quote": "Union forces under Capt. Barstow surrendered to Confederate forces under Cols. Burbridge and Greene."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "Frozen: total unknown (US 113; CS unknown). Live: 153 total (US 119; CS 34). Wickersham gives 2 killed and 2 wounded, and 8 enemy killed. Barstow gives 2 killed and 2 wounded in his morning skirmish, with 9 enemy killed, and for the day 7 killed and 2 wounded against 34 enemy killed and a number wounded; the rest of his command was paroled.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Wickersham's figures match Barstow's morning skirmish, not his totals; the live CS 34 equals Barstow's enemy killed (an observation). The frozen US 113 is not found in the inspected passages.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO017"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US 113; CS unknown)"
+        },
+        {
+          "source_id": "nps-mo017-v1",
+          "locator": "Estimated Casualties",
+          "quote": "153 total (US 119; CS 34;)"
+        },
+        {
+          "source_id": "or13-wickersham-clarks-mill-selections-v1",
+          "section": "wickersham-1862-11-08",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "Our loss was 2 killed and 2 wounded. Enemy’s loss was 8 killed."
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "My loss was 2 men killed, 2 wounded, and 8 horses badly shot."
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.355 (OCR page markers; not checked against print)",
+          "quote": "killing 9 of their men and several horses."
+        },
+        {
+          "source_id": "or13-barstow-clarks-mill-selections-v1",
+          "section": "barstow-1862-11-10",
+          "locator": "p.356 (OCR page markers; not checked against print)",
+          "quote": "My loss was 7 killed and 2 wounded. The enemy’s loss was 34 killed and a number wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Curtis's and Schofield's telegrams (read, not selected; they relay the same figures), any Confederate report, and maps remain deferred. No history covering Clark's Mill was found in Britton's volume I.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Each Official Records report author is a separate family; the OR volume is a shared container, not a witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting.",
+    "Families for this record: NPS/CWSAC; Barstow's November 10, 1862 report; Wickersham's November 8, 1862 report (a relay of early news, not an eyewitness account)."
+  ]
+}

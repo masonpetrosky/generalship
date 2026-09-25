@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "battle_id": "OK004",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Old Fort Wayne record (October 22, 1862) in Operations North of Boston Mountains [August-November 1862]. Blunt's night march of October 21-22 and the pursuit to Spavina Creek are context; Cooper's December 15 report also narrates the October 4 evacuation of Newtonia, which is not part of this record. The live NPS campaign label (\"Confederate Offensive North of Boston Mountains\") does not replace the frozen campaign. Campaign-wide totals, marches and multi-action loss figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names Blunt's 1st Division, Army of the Frontier against the 1st Brigade without counts; the live field reads zero. Blunt's dispatch estimates the enemy at 4,000 to 7,000; his report gives 5,000 to 7,000 from scouts and near 7,000 from a local informant who said two Texas regiments had just joined, and says the Second Kansas with less than 600 men engaged a force more than ten times its number. Cooper says Rains had taken his four Texas regiments, that the Federal strength was at least 5,000 against his about 1,500, and at least three times his.",
+      "rationale": "Detachment and brigade estimates on the same day, with a direct conflict over the Texas regiments' presence. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK004"
+          },
+          "column": "forces_text",
+          "quote": "1st Division, Army of the Frontier [US]; 1st Brigade [CS]"
+        },
+        {
+          "source_id": "nps-ok004-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-22",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "Their force esti mated at from 4,000 to 7,000."
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "with a force variously estimated at from 5,000 to 7,000 men"
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "which was near 7,000 men, two Texas regi- ments having joined them the day before."
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "With less than 600 men they engaged a force more than ten times their own number"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-25",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "While at Elm Springs General Rains deprived me of my four Texas regiments"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-12-15",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "the Federal strength being at least 5,000, while mine was only about 1,500."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-12-15",
+          "locator": "p.336 (OCR page markers; not checked against print)",
+          "quote": "their force was at least three times ours."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "prairie-timber-and-pasture",
+      "dimension": "terrain",
+      "value": "Blunt says the 30-mile night march ran through rough, wooded, hilly country to a prairie some 5 miles wide, and that the Confederate line faced him across a 200-yard pasture with two fences, near timber. NPS places the fight on Beatties Prairie near Old Fort Wayne.",
+      "rationale": "Ground described by an interested report and a summary; no map verification. Phase unresolved.",
+      "citations": [
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "the road through a rough, wooded, and hilly country."
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "an open prairie lay before us of some 5 miles in extent"
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "a pasture of open ground, some 200 yards across, and two fences intervening."
+        },
+        {
+          "source_id": "nps-ok004-v1",
+          "locator": "Description",
+          "quote": "on Beatties Prairie near Old Fort Wayne"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "night-march-and-destitution",
+      "dimension": "logistics",
+      "value": "Blunt says his men dropped asleep when halted on the night march and that pursuing horses gave out after 7 miles. Cooper says his Indian troops were barefoot and nearly naked, their ponies inefficient, that a train with 10,000 to 12,000 pounds of powder barely escaped, and that want of subsistence drove the brigade south after the retreat.",
+      "rationale": "Condition statements from opposing interested reports; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "no sooner were they halted than they dropped down in the brush by the road-side and were soon fast asleep."
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "their horses becoming exhausted from the long and wearisome march of the night before"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-25",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "The Indians are in a destitute condition — bare footed and nearly naked."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-25",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "the inefficiency of their ponies"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-12-15",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "a valuable train, in which was some 10,000 or 12,000 pounds of powder."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-12-15",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "by want of subsistence, to move down to this place"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "disguise-informants-and-scout",
+      "dimension": "information",
+      "value": "Blunt says he went ahead disguised as an escaped rebel and learned the pickets, camp and strength from a woman whose husband was in the Confederate camp; the pickets heard his approach and alarmed the town, and he found that only three companies had kept up with him. Cooper says he learned on the evening of the 21st of a Federal force moving from Bentonville but took it for a scout, and that the Federals had been informed of his position by persons about his camps.",
+      "rationale": "Reported knowledge in opposing interested reports; no message chain inspected.",
+      "citations": [
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "disguised as a rebel just escaped from the Federals"
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "She informed me where their pickets stood, of the location of their camp and of their strength"
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "they heard us advancing across the prairie, and ran in, alarming the town as they went"
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "the only troops with me had been three companies of the Second Kansas"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-12-15",
+          "locator": "p.334 (OCR page markers; not checked against print)",
+          "quote": "I learned that a Federal force was mov- ing toward the line from Bentonville, but supposed it to be a scout."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-12-15",
+          "locator": "p.334 (OCR page markers; not checked against print)",
+          "quote": "The Federals were informed (as has since been ascertained) by persons who were daily about our camps of my position, force, and intended movements."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "dawn-attack-and-kansas-expedition",
+      "dimension": "objectives",
+      "value": "Blunt intended to surprise and attack at daybreak. Cooper says he had been ordered to invade Kansas, had set the 22nd for the march on Fort Scott, and was unwilling to withdraw unless compelled by a superior force.",
+      "rationale": "Stated aims; not evaluated.",
+      "citations": [
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "It was my intention to have surprised and attacked them at day- break"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-25",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "ordered by him to invade Kansas"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-12-15",
+          "locator": "p.334 (OCR page markers; not checked against print)",
+          "quote": "ing set the 22d for all the available troops to march on Fort Scott"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-12-15",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "I was unwilling to withdraw and abandon the expedition unless compelled to do so by a superior force."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen rows list Cooper (Colonel) and Blunt (Brigadier General); the live page styles Cooper Brigadier General, and his December report is signed as Brigadier-General. Blunt led the advance, opened with the Second Kansas and two howitzers, and credits Crawford's charge with taking the battery; he blames the main column's failure to move as ordered for the lost surprise. Cooper says he was ill and that Lieutenant-Colonel Buster was in command on the day of the battle, and that Watie had command during his illness when he wrote on October 25; he blames Rains's detachment of the Texas regiments, Sampson Folsom's disobedience and his own illness.",
+      "rationale": "The listed Confederate commander was, by his own account, not directing the fight; Buster and Watie are not listed commanders. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OK004",
+            "belligerent": "Confederate",
+            "fullname": "Douglas H. Cooper"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "OK004",
+            "belligerent": "US",
+            "fullname": "James G. Blunt"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-ok004-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Douglas Cooper [CS]"
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-22",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "The attack was made by my advance, consisting of the Second Kansas Volunteers and two mountain how- itzers"
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "all under the command of Capt. S. J. Crawford, made a gallant charge"
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "the neglect of the column to move forward as ordered"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-25",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "Owing to my illness on the day of the battle Lieutenant- Colonel Buster was in command"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-25",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "Colonel Watie, who has command during my illness"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-12-15",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "the disobedience of orders by Col. Sampson Folsom"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Union victory. Blunt reports the complete rout of the enemy with the loss of all his artillery and a flight to Fort Gibson, 70 miles. Cooper says that but for the loss of the battery his troops would have had the advantage and the Federals had nothing to pride themselves on. NPS says overwhelming numbers forced the Confederates off the field after half an hour.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK004"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ok004-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-22",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "resulted in the complete and total rout of the enemy, with the loss of all their artillery"
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "reached the Arkansas Biver at Fort Gibson, 70 miles from the battle ground"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-12-15",
+          "locator": "p.336 (OCR page markers; not checked against print)",
+          "quote": "But for the loss of the battery we should have had decidedly the advantage of the Federals in the skirmish"
+        },
+        {
+          "source_id": "nps-ok004-v1",
+          "locator": "Description",
+          "quote": "The Confederates put up stiff resistance for a half hour, but overwhelming numbers forced them to retire from the field in haste"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "Frozen and live: 164 total (US 14; CS 150). Blunt's dispatch gives 4 killed and about 15 wounded and 30 prisoners; his report gives 1 killed and 9 wounded, 4 of them mortally, about 50 Confederate dead buried, and 150 killed and wounded reported by Confederate wounded found in houses. Cooper gives 6 killed and about 30 wounded, and the Federal loss as 75 to 100. The compiled Confederate return's total line is garbled in OCR.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen CS 150 equals the figure Blunt attributes to Confederate wounded in houses; that is an observation, not a reconciliation.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "OK004"
+          },
+          "column": "casualties_text",
+          "quote": "164 total (US 14; CS 150)"
+        },
+        {
+          "source_id": "nps-ok004-v1",
+          "locator": "Estimated Casualties",
+          "quote": "164 total (US 14; CS 150;)"
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-22",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "My loss, as far as known, is 4 killed and about 15 wounded."
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-22",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "I have 30 pris- oners."
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "The casualties in my command were 1 killed upon the battle-field"
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "9 wounded — 4 mortally, since dead"
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "About 50 of their dead have been found upon the field and buried by my command."
+        },
+        {
+          "source_id": "or13-blunt-old-fort-wayne-selections-v1",
+          "section": "blunt-1862-10-28",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "report their loss in killed and wounded at 150"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-12-15",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "6 killed and about 30 wounded — while the Federal loss in killed and wounded was from 75 to 100."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "old-fort-wayne-cs-return",
+          "locator": "p.336 (OCR page markers; not checked against print)",
+          "quote": "Total 2 1 4 21 2 83 63"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Curtis's telegram (read, not selected), Bassett's and Stand Watie's reports, the Confederate return in readable form, Britton's Old Fort Wayne chapter (located, not read) and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Each Official Records report author is a separate family; the OR volume is a shared container, not a witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting.",
+    "Families for this record: NPS/CWSAC; Blunt's October 22 and 28, 1862 reports; Cooper's October 25 and December 15, 1862 reports (the same Cooper family is used for MO016)."
+  ]
+}

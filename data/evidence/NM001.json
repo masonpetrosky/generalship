@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "battle_id": "NM001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Valverde record (February 20-21, 1862) in Sibley's New Mexico Campaign [February-March 1862]. The February 20 demonstration opposite Fort Craig falls inside the frozen interval; the February 16 reconnaissance and the march north after the battle are context. The live NPS campaign label (\"Sobley's New Mexico Operations\") and date header do not replace the frozen campaign or interval. Campaign-wide totals, marches and multi-action loss figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Department of New Mexico (regular and volunteer units) against the Army of New Mexico without counts. The live NPS description gives Sibley 2,500 men and Canby more than 3,000, while its Forces Engaged field reads US 2,500 and CS 3,000. Canby (March 1) gives the Confederate force as a nominal aggregate of nearly 3,000 by captured rolls and returns, understood to be reduced to about 2,600, and his own aggregate present on the morning of the 21st as 3,810, including about 1,000 unorganized militia; he says his troops always met superior numbers and that the Confederates were all mounted. Sibley's February 22 report puts the enemy on the field at about 3,500 (1,200 regulars) against never more than 1,500 of his own engaged, and the force contended against at near 6,000; his May 4 report says the enemy was not less than 5,000 with a reserve of 3,000 at the fort, against not more than 1,750 of his own on the field (600, 600, 300 and 250 by unit).",
+      "rationale": "Nominal aggregates, a morning 'aggregate present', engaged counts and each side's estimates of the other, on different dates and bases; the live NPS field assigns the description's two figures to the opposite sides. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NM001"
+          },
+          "column": "forces_text",
+          "quote": "Department of New Mexico (combination of regular and volunteer units) [US]; Army of New Mexico [CS]"
+        },
+        {
+          "source_id": "nps-nm001-v1",
+          "locator": "Description",
+          "quote": "Brig. Gen. Henry H. Sibley led his force of 2,500 men"
+        },
+        {
+          "source_id": "nps-nm001-v1",
+          "locator": "Description",
+          "quote": "Union Col. E.R.S. Canby left Fort Craig with more than 3,000 men"
+        },
+        {
+          "source_id": "nps-nm001-v1",
+          "locator": "Forces Engaged",
+          "quote": "5500 total (US 2500; CS 3000;)"
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.488 (OCR page markers; not checked against print)",
+          "quote": "making a nominal aggregate, as indicated by captured roils and returns, of nearly 3,000 men, but reduced, it was understood, by sickness and detachments to about 2,600"
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.488 (OCR page markers; not checked against print)",
+          "quote": "about 1,000 hastily-collected and unorganized militia, making on the morning of the 21st an aggregate present of 3,810."
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.492 (OCR page markers; not checked against print)",
+          "quote": "our -troops were always encountered bv superior numbers, never less than two and sometimes four to one."
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.492 (OCR page markers; not checked against print)",
+          "quote": "the superior mobility of its force, which was all mounted."
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-02-22",
+          "locator": "p.506 (OCR page markers; not checked against print)",
+          "quote": "The enemy had upon the field about 3,500 men, l,20p of whom were old regulars. We never had more than 1,500 engaged."
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-02-22",
+          "locator": "p.506 (OCR page markers; not checked against print)",
+          "quote": "The force we had to contend against amounted to near 6,000 men."
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-05-04",
+          "locator": "p.508 (OCR page markers; not checked against print)",
+          "quote": "the forces opposed to us could not have been less than 5,000 men, with a reserve of 3,000 at the fort."
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-05-04",
+          "locator": "p.508 (OCR page markers; not checked against print)",
+          "quote": "Ours did not exceed 1,750 on the field, viz : the Fourth Regiment, 600 ; Fifth, 600; Seventh, 300; and Pvron’s command (of Second Mounted Regiment Rifles), 250."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "mesa-ford-and-sand-ridge",
+      "dimension": "terrain",
+      "value": "Canby describes the Rio Grande valley bounded on the east by a basaltic mesa 40 to 80 feet high, the Mesa del Contadero above the post, and sand ridges in the mal pais whose ravines were natural covered ways favoring the Confederates. The fight turned on the upper ford at Valverde; Canby says the final Confederate position behind a sand ridge parallel to the river was one of great natural strength, and that his infantry had to march 7 miles and ford a deep, rapid stream twice to reach it. NPS calls the old riverbed where the Confederates halted an excellent position.",
+      "rationale": "Ground described by an interested report and a summary; no map verification. The ridges and riverbed are natural features, but their use was chosen during the action, so the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.488 (OCR page markers; not checked against print)",
+          "quote": "the valley of the Rio Grande is bounded on the east by a basaltic mesa from 40 to 80 feet in height"
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.488 (OCR page markers; not checked against print)",
+          "quote": "The ravines between these ridges are natural covered ways, affording the enemy great advantages"
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "The position now occupied by the enemy was one of great natural strength, behind a sand ridge nearly parallel to the course of the river"
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.492 (OCR page markers; not checked against print)",
+          "quote": "was obliged to march 7 miles and to ford twice a deep and rapid stream in order to reach the field he had finally chosen."
+        },
+        {
+          "source_id": "nps-nm001-v1",
+          "locator": "Description",
+          "quote": "The Confederates halted their retirement at the Old Rio Grande riverbed, which served as an excellent position."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "animals-trains-and-rations",
+      "dimension": "logistics",
+      "value": "Canby says many Confederate animals stampeded in the night for want of water and 200 to 300 horses and mules were captured. Sibley says the loss of 100 mules of the Fourth Regiment's train delayed the movement on the 21st and that wagons with the regiment's kits and blankets were abandoned; after the battle, burying the dead and caring for the wounded left him with five days' scant rations. His May 4 report says the brigade had reached the area poorly armed, thinly clad and almost without blankets.",
+      "rationale": "Condition statements from interested reports; no supply, ammunition or transport return was inspected.",
+      "citations": [
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.489 (OCR page markers; not checked against print)",
+          "quote": "many of bis animals stampeded trom the want of water and between 200 and 300 horses and mules were cap- tured"
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-05-04",
+          "locator": "p.508 (OCR page markers; not checked against print)",
+          "quote": "the loss during the night, by careless herding, of 100 mules of the baggage train of the h ourth Regiment."
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-05-04",
+          "locator": "p.508 (OCR page markers; not checked against print)",
+          "quote": "a number of wagons were abandoned, containing the entire kits, blankets, books and papers of this regiment"
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-05-04",
+          "locator": "p.508 (OCR page markers; not checked against print)",
+          "quote": "occasioned a delay of two days on the field, thus leaving us wflth. but five days’ scant rations."
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-05-04",
+          "locator": "p.507 (OCR page markers; not checked against print)",
+          "quote": "with only two regiments and a half, poorly armed, thinly clad, nd almost destitute of blankets."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-and-knowledge",
+      "dimension": "information",
+      "value": "Canby says his attempts to bring on a battle where his New Mexican troops would not have to maneuver failed because Confederate officers who had lived or served in New Mexico understood its people; on the 21st reports and a personal reconnaissance convinced him a direct attack would be costly, and he says Plympton's command was unaware of the storming party threatening McRae's battery. Sibley says a February 16 reconnaissance showed the futility of assaulting the fort, and that the Union flag of truce was for two hours taken by his troops to be a surrender proposal.",
+      "rationale": "Retrospective statements of what each commander learned; no message chain inspected.",
+      "citations": [
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.488 (OCR page markers; not checked against print)",
+          "quote": "several officers of the Confederate force had lived or served in New Mexico and thoroughly understood and appreciated the char- acter of its people."
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "The reports of the several commanders and a personal reconnaissance satisfied me that a direct attack upon his position would be attended with great loss"
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "Perceiving that Plympton’s command was entirely unsuspicious of the danger that threatened the battery"
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-05-04",
+          "locator": "p.507 (OCR page markers; not checked against print)",
+          "quote": "The reconnaissance proved the futility of assaulting the fort in front vith our light metal"
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-05-04",
+          "locator": "p.508 (OCR page markers; not checked against print)",
+          "quote": "which was for two hours supposed by our troops to be a proposition to surrender."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "turn-the-fort-and-hold-the-ford",
+      "dimension": "objectives",
+      "value": "NPS says Sibley aimed to cut communications between Fort Craig and Santa Fe. Sibley says the only hope was to force an open-field fight by crossing to the east bank, turning the fort and forcing a battle for the recrossing. Canby says he had resolved to fight where his New Mexican troops would not have to maneuver under fire, and in the afternoon decided to force the Confederate left.",
+      "rationale": "Stated aims from a summary and interested reports; not evaluated.",
+      "citations": [
+        {
+          "source_id": "nps-nm001-v1",
+          "locator": "Description",
+          "quote": "hoping to cut Federal communications between the fort and military headquarters in Santa Fe."
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-05-04",
+          "locator": "p.507 (OCR page markers; not checked against print)",
+          "quote": "our only hope of success was to force he enemy to an open-field fight."
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-05-04",
+          "locator": "p.507 (OCR page markers; not checked against print)",
+          "quote": "to cross the Bio Grande to the east bank, urn the fort, and force a battle for the recrossing."
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.488 (OCR page markers; not checked against print)",
+          "quote": "I had determined from the first to bring on a battle if possible in a posi- tion where the New Mexican troops would not be obliged to maneuver in the presence of or under the fire of the enemy."
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "I determined to attempt to force the left of his line"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen rows list Sibley (Brigadier General) and Green (Colonel) for the Confederates and Canby (Colonel) for the Union; the live page styles Canby Brigadier General. Sibley says Green conducted the operations of the 20th with his approval; he took the saddle on the 21st, and his February 22 report says he relinquished full direction to Green during the day (the hour is lost in OCR), while his May 4 report says that at 1.30 p.m., exhausted, he sent his staff to report to Green. Canby says Roberts was the immediate commander at Valverde until 2.30, and that he himself ordered the attack on the Confederate left and the retreat; he blames the refusal of one volunteer regiment to cross the river for the loss of the battery.",
+      "rationale": "Command assignments reported by the commanders; phase unresolved. Green's direction of the afternoon Confederate attack and Roberts's morning command are attributed actions, not ratings. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NM001",
+            "belligerent": "Confederate",
+            "fullname": "Henry Hastings Sibley"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NM001",
+            "belligerent": "Confederate",
+            "fullname": "Tom Green"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NM001",
+            "belligerent": "US",
+            "fullname": "E. R. S. Canby"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-nm001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Edward Canby [US]"
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-05-04",
+          "locator": "p.507 (OCR page markers; not checked against print)",
+          "quote": "these operations, approved by me, were conducted by Col. Thomas Green"
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-02-22",
+          "locator": "p.506 (OCR page markers; not checked against print)",
+          "quote": "I could only keep my saddle until o’clock, and at that hour I relinquished to him the full direction of active operations."
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-05-04",
+          "locator": "p.508 (OCR page markers; not checked against print)",
+          "quote": "At 1.30 p. in., having become completely exhausted, and finding myself no longer able to keep the saddle, I sent my aides and other staff officers to report to Colonel Green."
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.492 (OCR page markers; not checked against print)",
+          "quote": "the immediate commander of the troops at Van erde, until 2.30 o’clock."
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.490 (OCR page markers; not checked against print)",
+          "quote": "I determined to attempt to force the left of his line"
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.491 (OCR page markers; not checked against print)",
+          "quote": "Orders were accordingly sent to Captain Selden to fall back slowly and cover the retreat"
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-02-22",
+          "locator": "p.487 (OCR page markers; not checked against print)",
+          "quote": "The immediate cause of the disas- ter was the refusal of one of the volunteer regiments to cross the river and support the left wing of the army."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Confederate victory. Canby reports success until about 5 p.m., when a Confederate charge took McRae's battery and drove its support from the field, after which he ordered the retreat. Sibley reports the capture of the battery and the enemy driven from the field, and says the victory should have led to the capture of the fort. NPS says the Confederates were left in possession of the field but had suffered heavy casualties.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NM001"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-nm001-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-02-22",
+          "locator": "p.487 (OCR page markers; not checked against print)",
+          "quote": "in a desperate charge of the Confederates, McRae’s battery was taken, the supporting party repulsed and thrown into confusion and driven from the field"
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-05-04",
+          "locator": "p.508 (OCR page markers; not checked against print)",
+          "quote": "resulting in the capture of their bat- tery and driving the enemy in disorder from the field"
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-05-04",
+          "locator": "p.508 (OCR page markers; not checked against print)",
+          "quote": "This signal victory should have resulted in the capture of the fort"
+        },
+        {
+          "source_id": "nps-nm001-v1",
+          "locator": "Description",
+          "quote": "Left in possession of the battlefield, the Confederates claimed victory but had suffered heavy casualties."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "Frozen: 389 total (US 202; CS 187). Live: 450 total (US 263; CS 187). Canby's February 22 estimate was probably 40 killed and 150 wounded, with a few prisoners; his March 1 report puts the loss at one-fourth of the effectives on the field. The compiled Union return's totals are garbled in OCR; the characters '65', '157' and '263' appear in its total line, and the last matches the live US figure, but the columns cannot be read. Sibley's February 22 report gives 10 killed and thinks 100 wounded will cover his loss, and estimates the Union loss at some 300 killed and wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen US 202 is not found in the inspected passages; its basis is not established.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NM001"
+          },
+          "column": "casualties_text",
+          "quote": "389 total (US 202; CS 187)"
+        },
+        {
+          "source_id": "nps-nm001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "450 total (US 263; CS 187;)"
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-02-22",
+          "locator": "p.487 (OCR page markers; not checked against print)",
+          "quote": "It will probably reach 40 killed and 150 wounded, with per- haps a few prisoners."
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "canby-1862-03-01",
+          "locator": "p.492 (OCR page markers; not checked against print)",
+          "quote": "amounting in the aggregate to one-fourth of the effectives we the field."
+        },
+        {
+          "source_id": "or9-canby-valverde-selections-v1",
+          "section": "valverde-union-return",
+          "locator": "p.493 (OCR page markers; not checked against print)",
+          "quote": "Total. Killed. Wounded. 65 Missing. 157 263"
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-02-22",
+          "locator": "p.506 (OCR page markers; not checked against print)",
+          "quote": "Our loss was severe — 10 killed"
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-02-22",
+          "locator": "p.506 (OCR page markers; not checked against print)",
+          "quote": "I have no reports of the wounded, but I think 100 will cover it."
+        },
+        {
+          "source_id": "or9-sibley-new-mexico-selections-v1",
+          "section": "sibley-1862-02-22",
+          "locator": "p.506 (OCR page markers; not checked against print)",
+          "quote": "some 300 killed and wounded"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Roberts's, Duncan's, Carson's, Pino's and Valdez's reports, the Lord court of inquiry (read, not selected), the Confederate subordinate reports (Pyron, Scurry, Ragnet, Green, Steele, Jordan, Teel), the compiled return in readable form, Whitford's 1906 Colorado Volunteers in the Civil War and Hollister's 1863 regimental history (located on the Internet Archive, not inspected under the three-family ceiling), and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Each Official Records report author is a separate family; the OR volume is a shared container, not a witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting.",
+    "Families for this record: NPS/CWSAC; Canby's February 22 and March 1, 1862 reports; Sibley's February 22 and May 4, 1862 reports."
+  ]
+}

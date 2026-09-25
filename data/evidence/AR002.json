@@ -1,0 +1,498 @@
+{
+  "schema_version": 1,
+  "battle_id": "AR002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Saint Charles record (June 17, 1862) in Operations on the White River [June 1862]. Fitch's later movements up the White River, the June 24-28 reports and the Clarendon repulse are context. Campaign-wide totals, marches and multi-action loss figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads the 46th Indiana and Union gunboat against 'fifty men and C.S. boats'; the live field reads zero. NPS names the gunboats Mound City, St. Louis, Lexington and Conestoga with transports. Fitch's June 17 report says the batteries were supported by infantry of unknown numbers. Dunnington says the pickets reported two gunboats, one tug and two transports, and names the guns he placed (two rifled 32-pounders, a rifled Parrott, two rifled 8-pounder Parrotts and a 12-pounder howitzer). Hindman (1863) gives the Union fleet as the Saint Louis and Mound City (thirteen guns each), the Lexington and Conestoga (seven each), a tug and three transports with 1,000 to 1,500 infantry, and his own defence as two rifled 32-pounders and four field pieces manned by 79 sailors, with 35 armed infantry as sharpshooters.",
+      "rationale": "Vessel lists, gun counts and a retrospective Confederate account; Hindman was not present. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR002"
+          },
+          "column": "forces_text",
+          "quote": "46th Indiana and Union Gunboat [US]; fifty men and C.S. boats [CS]"
+        },
+        {
+          "source_id": "nps-ar002-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-ar002-v1",
+          "locator": "Description",
+          "quote": "USS Mound City, St. Louis, Lexington, Conestoga, and transports"
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-17",
+          "locator": "p.103 (OCR page markers; not checked against print)",
+          "quote": "supported by a force (numbers unknown) of infantry."
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.929 (OCR page markers; not checked against print)",
+          "quote": "two gunboats, one tug, and twTo transports below, advancing."
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.929 (OCR page markers; not checked against print)",
+          "quote": "the two rifled 32-pounder can- non, which I had previously placed there in battery."
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.929 (OCR page markers; not checked against print)",
+          "quote": "one rifled Parrott gun and ammunition"
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.929 (OCR page markers; not checked against print)",
+          "quote": "two rifled Parrott 8 pounder guns"
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.930 (OCR page markers; not checked against print)",
+          "quote": "One 12-pounder howitzer from the Maurepas, manned also by the crew"
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-saint-charles",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "the iron-clad gunboats Saint Louis and Mound City, each mounting thirteen guns"
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-saint-charles",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "the Lexington and Conestoga, par- tially iron-clad, each carrying seven guns"
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-saint-charles",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "with between 1,000 and 1 ,500 infantry, under Col. G. N. Fitch."
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-saint-charles",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "Two rifled 32-pounders and four field pieces were put in battery on the bluff, manned by 79 men of the crews of the Maurepas and Pontchartrain"
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-saint-charles",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "Captain Williams’ armed men, 35 in number, were dis- posed as sharpshooters below"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "bluff-timber-and-obstructions",
+      "dimension": "terrain",
+      "value": "Hindman chose Saint Charles, about 100 miles above the mouth, where the first bluff appears, to obstruct the river. Fitch says the batteries on the bluff were concealed by thick timber and that his skirmishers could not advance beyond the foot of the bluff without coming under the gunboats' fire. Dunnington says the Maurepas and two transports were sunk across the river in the night; Fitch says the obstruction failed.",
+      "rationale": "Ground and obstructions described by interested accounts; no map verification. The bluff is natural and the obstructions were placed the night before; phase unresolved.",
+      "citations": [
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-saint-charles",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "Saint Charles, about 100 miles above the mouth, where the first bluff appears."
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "as they were concealed by thick timber on the brow of the hill."
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "Beyond the foot of the bluff the skirmishers could not advance without being exposed to the fire of our gunboats."
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.929 (OCR page markers; not checked against print)",
+          "quote": "it was determined to sink the gun- boat Maurepas, the transports Eliza G. and Mary Patterson, in a line across the river."
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "Opposite the upper battery the enemy had sunk their gun- boat Maurepas and two transports to obstruct the channel, but failed to accomplish their object."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "resupply-ammunition-and-arms",
+      "dimension": "logistics",
+      "value": "NPS says the expedition aimed to resupply Curtis's army near Jacksonport. Dunnington says the river was blocked so hastily that no ballast could be put in the sunken transports, that two rifled Parrotts had been sent to the rear for want of ammunition and were brought back at daylight, and that the sailors were armed only with single-barreled pistols. Hindman says the obstructions were incomplete. Fitch says the heat and fatigue and the need to move upriver led him to leave Confederate wounded to citizens.",
+      "rationale": "Condition statements; no supply or ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "nps-ar002-v1",
+          "locator": "Description",
+          "quote": "attempting to resupply Maj. Gen. Samuel R. Curtis's army near Jacksonport."
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.929 (OCR page markers; not checked against print)",
+          "quote": "no ballast or weight could be placed in the transports."
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.930 (OCR page markers; not checked against print)",
+          "quote": "sent to the rear for want of ammunition, were brought up"
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.930 (OCR page markers; not checked against print)",
+          "quote": "they were only armed with single barreled pistols"
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-saint-charles",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "The obstructions being incomplete"
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "the necessity of moving on up the river as soon as possible and the fatigue of the men (weather very warm)"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "pickets-and-concealed-batteries",
+      "dimension": "information",
+      "value": "Fitch learned on the evening of the 16th that there were two batteries supported by infantry, and says the lower battery's position was first discovered when it fired on his officers. Dunnington says the Union approach was unexpected, so Fry had no time to land his guns, and that Fry sent word during the action that a large force was landing below.",
+      "rationale": "Reported knowledge in interested accounts; no message chain inspected.",
+      "citations": [
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-17",
+          "locator": "p.103 (OCR page markers; not checked against print)",
+          "quote": "we ascertained that the enemy had two batteries here"
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "The position of the lower battery was first dis- covered by its firing upon the officers of the Forty-sixth Indiana"
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.929 (OCR page markers; not checked against print)",
+          "quote": "Owing to the unex- pected approach of the enemy, Captain Fry had not time to land his guns"
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.930 (OCR page markers; not checked against print)",
+          "quote": "Captain Fry sent me word the enemy were landing a large force below."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "combined-attack-and-blockade",
+      "dimension": "objectives",
+      "value": "Fitch says a combined attack was arranged with Kilty, the senior gunboat officer. Hindman says he took steps to obstruct the White and Arkansas Rivers against Federal fleets cooperating with Curtis; Dunnington says Fry placed his vessel across the river to resist their progress.",
+      "rationale": "Stated aims; not evaluated.",
+      "citations": [
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "a combined movement was arranged with a view to an attack between Captain Kilty, senior officer of the gunboats"
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-saint-charles",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "I took steps for obstructing both streams."
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.929 (OCR page markers; not checked against print)",
+          "quote": "intended to resist their progress."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen rows list Fry (Captain, navy) for the Confederates and Fitch (Colonel) and Kilty (Commander, navy) for the Union; Fitch styles Fry colonel. Fitch says Kilty chose to silence the batteries with the gunboats rather than have the infantry storm them, and that after the Mound City was disabled the gunboats were signaled to cease firing so the troops could storm. Hindman says Fry was placed in chief command; Dunnington says Fry personally fought three guns and that he himself reported as senior naval officer in Fry's absence.",
+      "rationale": "Command actions reported by participants; no listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR002",
+            "belligerent": "Confederate",
+            "fullname": "Joseph Fry"
+          },
+          "column": "rank",
+          "quote": "Captain"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR002",
+            "belligerent": "US",
+            "fullname": "Graham N. Fitch"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR002",
+            "belligerent": "US",
+            "fullname": "Augustus H. Kilty"
+          },
+          "column": "rank",
+          "quote": "Commander"
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "Their commander, Col. Joseph Fry, an old officer of the U. S. Navy"
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "He preferred the latter alternative"
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "The gunboats were therefore signaled to cease firing, that the troops might storm the batteries."
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-saint-charles",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "Captain Fry was placed in chief command."
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.930 (OCR page markers; not checked against print)",
+          "quote": "Captain Fry in person superintended the fighting of them."
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.929 (OCR page markers; not checked against print)",
+          "quote": "As the senior officer in command of the naval forces, in the absence of Captain Fry"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "fire-on-mound-city-crew",
+      "dimension": "responsibility",
+      "value": "Fitch says Confederate sharpshooters on both banks fired on Mound City crewmen in the water and on boats sent to rescue them; a dying prisoner said Fry ordered it, which Fry denied. Dunnington says that when the disabled vessel failed to haul down its flag 'our own men were directed to shoot those in the water attempting to escape', without naming who gave the direction.",
+      "rationale": "Conduct allegations from opposing interested accounts; the direction's author is not established in the inspected passages. Recorded, not adjudicated.",
+      "citations": [
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "commenced murdering those who were struggling in the water"
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "One of the wounded of the enemy, since dead, stated that Colonel Fry ordered the firing upon the crew of the Mound City while in the water."
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "he denies the charge."
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.930 (OCR page markers; not checked against print)",
+          "quote": "our own men were directed to shoot those in the water attempting to escape."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Union victory. Fitch says his men carried the batteries and Fry was wounded and captured; Dunnington says the position was surrounded and the men retreated into the woods; Hindman says the infantry landed and carried the position while the garrison spiked the guns and retired upriver. NPS says the attack left Saint Charles open to Federal occupation.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR002"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ar002-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-17",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "my men carried the batteries gallantly."
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.930 (OCR page markers; not checked against print)",
+          "quote": "Nothing was now left but to save all the men we could"
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-saint-charles",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "The infantry then landed and carried the position, our little force spikiug the guns and retiring up the river."
+        },
+        {
+          "source_id": "nps-ar002-v1",
+          "locator": "Description",
+          "quote": "left Saint Charles open to Federal occupation."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "Frozen: 290 total (US 135; CS 155). Live: 200 total (US 160; CS 40). NPS says more than 125 Mound City sailors were killed. Fitch says the land troops lost none killed, that nearly all of the Mound City's crew of more than a hundred were disabled and half or more are dead, and that 7 or 8 (June 17) or 8 or 9 (June 19) Confederate dead were buried and about 30 prisoners taken; he reports 8 guns captured. Dunnington does not think his losses exceeded 3 before the retreat. Hindman gives 6 killed, 1 wounded and 8 missing, and over 200 Union, 180 of them on the Mound City.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Naval losses from the Mound City's steam drum are a distinct population from the land action.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR002"
+          },
+          "column": "casualties_text",
+          "quote": "290 total (US 135; CS 155)"
+        },
+        {
+          "source_id": "nps-ar002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "200 total (US 160; CS 40;)"
+        },
+        {
+          "source_id": "nps-ar002-v1",
+          "locator": "Description",
+          "quote": "More than 125 sailors from the Mound City were killed"
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "The land troops lost none killed and the injuries were few and simple."
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "nearly all her crew of more than a hundred being disabled, among them Captain Kilty. Half or more of them are dead."
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-17",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "We have buried 7 or 8 of their dead"
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "We have buried 8 or 9 of their dead."
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-19",
+          "locator": "p.105 (OCR page markers; not checked against print)",
+          "quote": "about 30 prisoners taken."
+        },
+        {
+          "source_id": "or13-fitch-saint-charles-selections-v1",
+          "section": "fitch-1862-06-17",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "8 brass and iron guns, with ammunition, taken."
+        },
+        {
+          "source_id": "or13-dunnington-saint-charles-selections-v1",
+          "section": "dunnington-1862-06-21",
+          "locator": "p.931 (OCR page markers; not checked against print)",
+          "quote": "do not think the numbers ex- ceed 3 up to the time of the retreat."
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-saint-charles",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "Our loss was 6 killed, 1 wounded, and 8 missing. That of the enemy was over 200. On the Mound City alone 180 perished."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Davis's and Shirk's naval reports (No. 2-3), the miscellaneous correspondence (No. 4), Williams's report (read at its opening), Kilty's and the Official Records of the Union and Confederate Navies accounts, the Mound City casualty lists and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Each Official Records report author is a separate family; the OR volume is a shared container, not a witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting.",
+    "Families for this record: NPS/CWSAC; Fitch's June 17 and 19, 1862 reports; Dunnington's June 21, 1862 report; and, as the one targeted follow-up for the Confederate force gap, Hindman's June 19, 1863 general report, which refers to Dunnington's and Williams's report and is not independent of it."
+  ]
+}

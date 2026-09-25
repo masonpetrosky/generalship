@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "battle_id": "AR001",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Pea Ridge record (March 6-8, 1862) in Pea Ridge Campaign [March 1862]. The March 6 rear-guard action near Bentonville falls inside the frozen interval; the winter march from Rolla, the March 10-14 correspondence and Van Dorn's later plans are context. Campaign-wide totals, marches and multi-action loss figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Army of the Southwest against the Army of the West without counts; the live field reads 24,250 (US 10,250; CS 14,000). Curtis reported 12,095 men and fifty guns on February 12, but says his force in Arkansas on March 7 was not more than 10,500 cavalry and infantry with forty-nine guns, after garrisons; a detachment of about 250 did not arrive until after the battle. He had heard the enemy put at 20,000 to 30,000 on March 6 and later estimated it at least 30,000 or 40,000. Van Dorn's March 9 telegram gives the enemy about 20,000; his March 27 report says his whole force was about 16,000, that he went into action with less than 14,000, and that the enemy was variously estimated at 17,000 to 24,000.",
+      "rationale": "Returns on different dates, strength after detachments, and estimates of the other side. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR001"
+          },
+          "column": "forces_text",
+          "quote": "Army of the Southwest [US]; Army of the West [CS]"
+        },
+        {
+          "source_id": "nps-ar001-v1",
+          "locator": "Forces Engaged",
+          "quote": "24250 total (US 10250; CS 14000;)"
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "I reported my force to you on the 12th February, alter Colonel Davis division had joined me, at 12,095 men and fifty pieces of artillery"
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "My force m Ar kansas on the 7th ultimo was therefore not more than 10,500 cavalry anc"
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "with forty -nine pieces of artillery"
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "with a piecM artillery and about 250 men, did not reach us till after the battle."
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-03-06-to-03-14-dispatches",
+          "locator": "p.191 (OCR page markers; not checked against print)",
+          "quote": "The enemy is reported at from 20,000 3 30,000 fighting men."
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "I estimated the >rce of the enemy to have been at least 30,000 or 40,000."
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-09",
+          "locator": "p.281 (OCR page markers; not checked against print)",
+          "quote": "F ought the enemy, about 20,000 strong"
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.283 (OCR page markers; not checked against print)",
+          "quote": "The whole force under my command was about 16,000"
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "The force with which I went into action was less than 14,000 men."
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "Chat of the enemy is variously estimated at from 17,000 to 24,000."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "sugar-creek-and-cross-timber",
+      "dimension": "terrain",
+      "value": "Curtis says he selected Sugar Creek as the strongest of several strong places, that his divisions felled trees to block roads (Dodge's obstructions delayed the flanking column some two hours) and threw up breastworks on the headlands on the 6th, and that his rear lay on the broken plateau of Pea Ridge with Cross Timber Hollow beyond. Van Dorn describes a strongly entrenched Union camp and, on the 8th, a new and strong Union position.",
+      "rationale": "Works built on March 6, inside the frozen interval, and a position taken by the defender; interested reports, no map verification. Phase unresolved.",
+      "citations": [
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "selected Sugar Creek as the strongest of several strong places"
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.198 (OCR page markers; not checked against print)",
+          "quote": "This proved of great ad vantage, as it retarded the enemy some two hours in their flank move ment."
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.198 (OCR page markers; not checked against print)",
+          "quote": "Breastworks of considerable strength were erected by the troop* on the headlands of Sugar Creek as if by magic"
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.198 (OCR page markers; not checked against print)",
+          "quote": "In my rear was a broken plateau called Pea Bidge, and still farther in my rear the deep valley of Big Sugar Creek, or Cross Timber."
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.283 (OCR page markers; not checked against print)",
+          "quote": "within 1 or 2 miles of the strongly- intrenched camp of the enemy."
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "it revealed to me the enemy in a new and strong position, offering battle."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-and-food",
+      "dimension": "logistics",
+      "value": "Van Dorn says that on the night of the 7th his ammunition was almost exhausted, his ordnance officer could not find the wagons sent with the subsistence train to Bentonville, most troops had been without food since the morning of the 6th, and the artillery horses were beaten out; on the 8th his batteries retired one after another with every shot expended. Curtis says scarcity of forage made him spread his troops, and that on the evening of the 7th Asboth's battery ran out of ammunition and he could not find another cartridge. NPS says Van Dorn abandoned the field running short of ammunition.",
+      "rationale": "Condition statements from interested reports and a summary; no ordnance or supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "the ammunition was almost exhausted, and that the officer in charge of the ordnance sup- plies could not find his wagons, which, with the subsistence tram, had been sent to Bentonville."
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "Most of the troops had been without any food since the morning of the 6th and the artillery horses were beaten out."
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "the batteries were one after the other retiring Irom the field with every shot expended"
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "The scarcity of forage and other supplies made it necessary tor me to spread out my troops over considerable country"
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.201 (OCR page markers; not checked against print)",
+          "quote": "ran out of ammunition and fell back."
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.201 (OCR page markers; not checked against print)",
+          "quote": "I could not find another cartridge to give them a final round"
+        },
+        {
+          "source_id": "nps-ar001-v1",
+          "locator": "Description",
+          "quote": "Running short of ammunition, Van Dorn abandoned the battlefield."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surprise-and-flank-march",
+      "dimension": "information",
+      "value": "Curtis learned of the enemy's rapid approach from scouts and fugitive citizens about 2 p.m. on March 5, and on the morning of the 7th ascertained the flanking movement designed to attack his right and rear. Van Dorn says prisoners assured him he was not expected in that quarter, that his dispatch to McCulloch was never received, and that he learned only about 3 p.m. that McCulloch, McIntosh and Hebert had been killed. NPS says the Federals learned of Van Dorn's approach and marched north to meet him.",
+      "rationale": "Reported knowledge in interested accounts and a summary; no message chain inspected.",
+      "citations": [
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "About 2 o’clock p. m. scouts and fugitive citizens line in, informing me of the rapid approach of the enemy"
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "morning this flank movement of the enemy, which I perceived was de- signed to attack my right flank and rear."
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "we were assured that we were not expected in that quarter"
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "I sent him a dispatch to this effect, but it was never received by him."
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "About 3 p. m. I received, by aides-de-camp, the information that Generals McCulloch and McIntosh and Colonel Hebert were killed"
+        },
+        {
+          "source_id": "nps-ar001-v1",
+          "locator": "Description",
+          "quote": "Learning of Van Dorn's approach, the Federals marched north to meet his advance on March 7."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "stand-and-envelopment",
+      "dimension": "objectives",
+      "value": "Curtis says he chose Sugar Creek, under Halleck's orders of February 22, to make a stand against any odds, and on the 7th ordered a change of front and an attack from his new center before the enemy could form. NPS says Van Dorn set out on the night of the 6th to outflank the Union position in two columns; Van Dorn says he attempted to beat the enemy at Elkhorn and, on the 8th, resolved to withdraw.",
+      "rationale": "Stated aims; not evaluated.",
+      "citations": [
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "to make a stand against any and all odds."
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "to open the battle by an attack from my new center on the probable center of the enemy before he could fully form."
+        },
+        {
+          "source_id": "nps-ar001-v1",
+          "locator": "Description",
+          "quote": "set out to outflank the Union position near Pea Ridge, dividing his army into two columns."
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-18",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "I attempted first to beat the enemy at Elkhorn"
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "I resolved to withdraw the army"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen rows list Van Dorn (Major General) and Curtis (Brigadier General); the live page gives Curtis no rank and the NPS description styles him Major General. Curtis says he called his division commanders to Asboth's tent and directed the change of front, selected Osterhaus to lead the central column, and answered Carr's appeal with the order to 'persevere'; he says Sigel deferred his march from Cooper's farm until 2 a.m. on the 6th. Van Dorn says he was with Price's Missouri division throughout, had directed McCulloch to attack the Union left, and that the deaths of McCulloch and McIntosh and Hebert's capture left the right wing without a commander.",
+      "rationale": "Command actions reported by the two commanders; subordinates (Sigel, Carr, Davis, Osterhaus, Price, McCulloch) are attributed actors, not rated. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR001",
+            "belligerent": "Confederate",
+            "fullname": "Earl Van Dorn"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR001",
+            "belligerent": "US",
+            "fullname": "Samuel R. Curtis"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-ar001-v1",
+          "locator": "Principal Commanders",
+          "quote": "Samuel Curtis [US]"
+        },
+        {
+          "source_id": "nps-ar001-v1",
+          "locator": "Description",
+          "quote": "Maj. Gen. Samuel R. Curtis, having regrouped and consolidated his army"
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "I therefore immediately called my commanders of divisions together at General Asboth’s tent, and directed a change of front to the rear"
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.199 (OCR page markers; not checked against print)",
+          "quote": "I selected Colonel Osterhaus to lead this central column"
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.200 (OCR page markers; not checked against print)",
+          "quote": "I could then only reply by sending him the order to “ persevere.”"
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "General Sigel deferred his march from Cooper’s farm till 2 o’clock i the morning of the 6th"
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "During the whole of this engagement I was with the Missouri di vis- on, under Price"
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.284 (OCR page markers; not checked against print)",
+          "quote": "had directed General McCulloch to attack with his forces the enemy’s I left"
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-18",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "The death of McCulloch « McIntosh and the capture of Hebert left me without an officer to o mand the right wing"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Union victory. Curtis's March 9 report says the whole rebel force was routed and retired in great confusion 'but rather safely'. Van Dorn says he was not defeated but foiled, and that he inflicted a heavy blow and compelled the enemy to fall back into Missouri. NPS says Van Dorn abandoned the field; its closing sentence on Union control of Missouri is a campaign claim, not a tactical result.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR001"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ar001-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-03-06-to-03-14-dispatches",
+          "locator": "p.192 (OCR page markers; not checked against print)",
+          "quote": "completely routed the wholerebelforcj whfoh retired in great confusion, but rather safely"
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-18",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "I was not defeated, but only foiled in my intent!"
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.286 (OCR page markers; not checked against print)",
+          "quote": "I have inflicted upon it a heavy blow and compelled him to fall back into Missouri."
+        },
+        {
+          "source_id": "nps-ar001-v1",
+          "locator": "Description",
+          "quote": "The Union controlled Missouri for the next two years."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "Frozen: 5,949 total (US 1,349; CS 4,600). Live: 3,384 total (US 1,384; CS 2,000). Curtis wrote on March 13 that his killed and wounded would exceed his estimate of 1,000, and put the March 6 rear-guard loss at some 25 killed and wounded; he says the enemy's loss was much greater but could never be reported. Van Dorn's March 18 letter gives his loss as not more than 800 or 1,000 killed and wounded and 200 to 300 prisoners, and the enemy's as about 800 killed and 1,000 or 1,200 wounded and about 300 prisoners; his March 27 report gives about 600 killed and wounded and 200 prisoners, and the enemy's total loss as about 2,000. The compiled Union return (not selected) is garbled in OCR.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen CS 4,600 is not found in the inspected passages; its basis is not established.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR001"
+          },
+          "column": "casualties_text",
+          "quote": "5,949 total (US 1,349; CS 4,600)"
+        },
+        {
+          "source_id": "nps-ar001-v1",
+          "locator": "Estimated Casualties",
+          "quote": "3384 total (US 1384; CS 2000;)"
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-03-06-to-03-14-dispatches",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "My loss of killed and ounded will exceed, my estimate of 1,000."
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.198 (OCR page markers; not checked against print)",
+          "quote": "our loss was some 25 killed and wounded."
+        },
+        {
+          "source_id": "or8-curtis-pea-ridge-selections-v1",
+          "section": "curtis-1862-04-01",
+          "locator": "p.203 (OCR page markers; not checked against print)",
+          "quote": "The loss of le enemy was much greater, but their scattered battalions can never irnisli a correct report of their killed and wounded."
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-18",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "not being more than 800 or 1,000 killed wounded and between 200 and 300 prisoners."
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-18",
+          "locator": "p.282 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s loss was about 800 killed and 1,000 or 1,200 vnoui"
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "our loss amounts to about 600 killed and wounded and 200 prisoners"
+        },
+        {
+          "source_id": "or8-van-dorn-pea-ridge-selections-v1",
+          "section": "van-dorn-1862-03-27",
+          "locator": "p.285 (OCR page markers; not checked against print)",
+          "quote": "making his total loss about 2,000."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Halleck's telegram (read, not selected), the division, brigade and regimental reports (Sigel, Osterhaus, Asboth, Davis, Carr, Dodge, Vandever and others; Pike, Price, Greer, Little and the Missouri State Guard), the compiled Union return in readable form, the Confederate returns, Britton's Pea Ridge chapters in volume I (located, not read under the ceiling) and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Each Official Records report author is a separate family; the OR volume is a shared container, not a witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting.",
+    "Families for this record: NPS/CWSAC; Curtis's March 6-14 dispatches and April 1, 1862 report (with Halleck's congratulation and Van Dorn's and Maury's letters printed with them); Van Dorn's March 9, 18 and 27, 1862 reports."
+  ]
+}

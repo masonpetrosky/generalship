@@ -74,6 +74,20 @@ from different campaigns under separate independence groups (for example
 witness family: they never count as independent corroboration of each other, whatever their group
 names.
 
+### Trans-Mississippi 1862 first passes (cohort v2), 2026-09-25
+
+The first passes for Sibley's New Mexico campaign, Pea Ridge, the White River, Cache River and the
+operations north of the Boston Mountains add **46 records**:
+
+- eleven NPS HTML/text pairs;
+- Official Records Series I, Volumes IX and XIII: catalog metadata and full OCR;
+- nineteen report selections, including compiled casualty returns labelled as the compiler's work;
+- a Britton volume I selection.
+
+This pass's Volume VIII and Britton volume I parents were deduplicated to the 1861 West
+registrations (`or8-illinois-ocr-v1`, `britton-border-1-ocr-v1`), whose OCR is byte-identical. No
+model inputs are changed.
+
 ### Gulf and Louisiana 1862–63 first passes (cohort v2), 2026-09-25
 
 The first passes for six campaigns add **50 records**: New Orleans, Baton Rouge, La Fourche (1862),

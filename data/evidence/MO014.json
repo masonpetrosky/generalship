@@ -1,0 +1,448 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO014",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Independence record (August 11, 1862) in Operations North of Boston Mountains [August-November 1862]. The warnings of August 10 and the paroles and departures of the following days are context. The live NPS campaign label (\"Confederate Offensive North of Boston Mountains\") does not replace the frozen campaign. Campaign-wide totals, marches and multi-action loss figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 'Garrison (approx. 300 [US]; 700-800[CS])'; the frozen numeric bounds are 344 for the Union and 700 (as both minimum and maximum) for the Confederates, and the Union 344 equals the frozen Union casualty figure. The live field reads 1,062 (US 312; CS 750). Buel says officers of his command estimated the attackers at 700 to 800 and that his command numbered 312 effective men that morning, with a provost guard of 24 and an armory guard of 21. Britton says 400 to 500 would have been present for duty when none were detached, gives Rodewald's company as ninety-one, and reports Mrs. Wilson's warning of a column of 1,000 to 1,200 near Blue Springs.",
+      "rationale": "An effective count, a garrison estimate, and estimates of the attackers from Buel's officers and a civilian warning; the frozen numeric bounds do not match their own text. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO014"
+          },
+          "column": "forces_text",
+          "quote": "Garrison (approx. 300 [US]; 700-800[CS])"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "MO014",
+            "belligerent": "US"
+          },
+          "column": "strength_min",
+          "quote": "344"
+        },
+        {
+          "source_id": "arnold-cwsac-forces",
+          "row_key": {
+            "battle": "MO014",
+            "belligerent": "Confederate"
+          },
+          "column": "strength_max",
+          "quote": "700"
+        },
+        {
+          "source_id": "nps-mo014-v1",
+          "locator": "Forces Engaged",
+          "quote": "1062 total (US 312; CS 750;)"
+        },
+        {
+          "source_id": "or13-buel-independence-selections-v1",
+          "section": "buel-1862-08-17",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "numbering, from the estimate of officers of my command, from 700 to 800 men."
+        },
+        {
+          "source_id": "or13-buel-independence-selections-v1",
+          "section": "buel-1862-08-17",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "My command on the morning of the 11th consisted of 312 effective men."
+        },
+        {
+          "source_id": "or13-buel-independence-selections-v1",
+          "section": "buel-1862-08-17",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "the provost guard, of 24 men"
+        },
+        {
+          "source_id": "or13-buel-independence-selections-v1",
+          "section": "buel-1862-08-17",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "guarded by a detachment of 21 men, 16 of this number being Volunteer Militia."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "there were probably between four hundred and five hundred men present for duty."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "Captain Rodewald's company of ninety-one men"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.316 (the running head for p.316 reads \"3 1 6\" in OCR; OCR page markers; not checked against print)",
+          "quote": "there were one thousand to twelve hundred men in it."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "dispersed-posts-and-stone-fence",
+      "dimension": "terrain",
+      "value": "Buel says the camp lay nearly 80 rods from his bank-building headquarters, and the attack on both cut him off from it. Britton says the camp was in a depression without defences, near a stone fence nearly half a mile long; Axline's men rallied behind the fence, a position Britton calls impregnable unless flanked on the right. He says the wooded breaks of the Blue rivers and the Sni hills suited guerilla operations.",
+      "rationale": "Ground and dispositions described by an interested report and a participant history; the stone fence predates the action but its use was improvised. Phase unresolved.",
+      "citations": [
+        {
+          "source_id": "or13-buel-independence-selections-v1",
+          "section": "buel-1862-08-17",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "the camp, which was situated nearly 80 rods from the bank building"
+        },
+        {
+          "source_id": "or13-buel-independence-selections-v1",
+          "section": "buel-1862-08-17",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "thus cutting me off from all communication with the camp."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "The camp was in a depression, and there were no defences to protect it should it be surprised."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "There was, however, a stone fence, nearly a half-mile long"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.321 (the running head for p.321 reads \"32 1\" in OCR; OCR page markers; not checked against print)",
+          "quote": "The Federal position was impregnable unless the enemy flanked it on the right."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.314 (OCR page markers; not checked against print)",
+          "quote": "No section was better adapted for such guerilla operations than the heavily wooded country along the breaks of the Blue rivers and the Sni hills of Jackson County."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "captured-stores",
+      "dimension": "logistics",
+      "value": "Britton says the Confederates carried off arms, ammunition and quartermaster and commissary stores in a train of fifteen to twenty wagons, and that these stores were much needed to arm and equip new recruits. Buel gives no supply details.",
+      "rationale": "Post-action captures from a participant history; no return inspected. Phase unresolved.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "The arms, ammunition, quartermaster and commissary stores captured, made a train of fifteen to twenty wagons."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "The ordnance and quartermaster's stores were much needed by the Confed- erates to arm and equip new recruits."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warnings-and-surprise",
+      "dimension": "information",
+      "value": "Britton says Captain Breckenridge returned from an eleven-day scout reporting no organized enemy, that on the night before the attack Mrs. Wilson and General Lucas warned Buel of a large column, that Buel dismissed the warning and issued no extra precautions, and that the camp was taken completely by surprise. Buel's report does not mention a warning; he says the attack came at daybreak and that he learned from a prisoner that Thompson had succeeded the killed Hughes.",
+      "rationale": "Britton's account of the warning rests on participants' statements; Buel is silent on it, which is not a denial. No message chain inspected.",
+      "citations": [
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.315 (OCR page markers; not checked against print)",
+          "quote": "reported that he had not seen or heard any signs of an organized force of the enemy."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.316 (the running head for p.316 reads \"3 1 6\" in OCR; OCR page markers; not checked against print)",
+          "quote": "\" Madam, we have heard such reports several times lately, and don't you see we are here yet ! \""
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.317 (OCR page markers; not checked against print)",
+          "quote": "After General Lucas left, Colonel Buel issued no orders of extra precaution"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.321 (the running head for p.321 reads \"32 1\" in OCR; OCR page markers; not checked against print)",
+          "quote": "were taken completely by sur- prise"
+        },
+        {
+          "source_id": "or13-buel-independence-selections-v1",
+          "section": "buel-1862-08-17",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "was attacked on the morning of August 11, at daybreak"
+        },
+        {
+          "source_id": "or13-buel-independence-selections-v1",
+          "section": "buel-1862-08-17",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "I learned from him that the troops were commanded by Col. GL W. Thompson, who had succeeded to the command, Colonel Hughes being killed."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "hold-out-and-march-on",
+      "dimension": "objectives",
+      "value": "Buel says he resolved to hold out as long as possible while expecting Major Linder. NPS says the Confederates headed for Kansas City after taking Independence; Britton says they marched out toward Blue Springs about five in the afternoon.",
+      "rationale": "Stated aims and movements; the NPS and Britton directions differ and are not reconciled.",
+      "citations": [
+        {
+          "source_id": "or13-buel-independence-selections-v1",
+          "section": "buel-1862-08-17",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "expect- ing the arrival of Major Linder I had resolved to hold out as long as possible."
+        },
+        {
+          "source_id": "nps-mo014-v1",
+          "locator": "Description",
+          "quote": "Having taken Independence, the Rebel force headed for Kansas City."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "the Confederate forces marched out of Independence, in the direction of Blue Springs, about five o'clock in the afternoon."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen rows list Hughes and Thompson (Colonels) for the Confederates and Buel (Lieutenant Colonel) for the Union. Buel says he arranged the capitulation with Thompson by flag of truce, and that Captain Breckinridge repeatedly raised a token of surrender in the camp. Britton says that after Hughes was killed and Thompson wounded, Upton Hays commanded and returned with the flag, yet also calls Thompson the senior officer commanding after Hughes's death and says he paroled the prisoners; NPS names Thompson as the commander Buel met; Captain Axline rallied the camp behind the stone fence. Britton reports the charge that Buel and Breckenridge had an understanding with the enemy and Rodewald's sworn belief that Buel acted in good faith.",
+      "rationale": "Accounts differ on who commanded the Confederates at the surrender; the collusion charge is reported, not adjudicated. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO014",
+            "belligerent": "Confederate",
+            "fullname": "J.T. Hughes"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO014",
+            "belligerent": "Confederate",
+            "fullname": "G.W. Thompson"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO014",
+            "belligerent": "US",
+            "fullname": "James T. Buel"
+          },
+          "column": "rank",
+          "quote": "Lieutenant Colonel"
+        },
+        {
+          "source_id": "or13-buel-independence-selections-v1",
+          "section": "buel-1862-08-17",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "I communicated with Colonel Thompson by means of a flag of truce, asking an interview."
+        },
+        {
+          "source_id": "or13-buel-independence-selections-v1",
+          "section": "buel-1862-08-17",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "tearing a piece of his shirt, raised it as a token of surrender."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.321 (the running head for p.321 reads \"32 1\" in OCR; OCR page markers; not checked against print)",
+          "quote": "After this, Colonel Upton Hays took command of the Confed- erates"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "the flag of truce returned, with Colonel Upton Hays accompanying Colonel Buel's Adjutant."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "the senior officer com- manding the Confederate forces after the death of Colo- nel Hughes"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "paroled the Federal prisoners, officers and enlisted men"
+        },
+        {
+          "source_id": "nps-mo014-v1",
+          "locator": "Description",
+          "quote": "arranged a meeting with the Confederate commander, Col. G.W. Thompson"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.321 (the running head for p.321 reads \"32 1\" in OCR; OCR page markers; not checked against print)",
+          "quote": "Captain Axline, hearing this remark, at once called out"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.324 (OCR page markers; not checked against print)",
+          "quote": "had an understanding with the Confederate officers to surrender the Federal forces without offering any resistance."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.325 (OCR page markers; not checked against print)",
+          "quote": "I believe that Colonel Buel acted in good faith"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Confederate victory. Buel agreed terms of capitulation making his command prisoners of war; Britton says all companies surrendered except about forty men under Herrington and fifteen to twenty under Meryhew, who escaped to Kansas City. NPS says Confederate dominance in the Kansas City area continued, but not for long.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO014"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-mo014-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or13-buel-independence-selections-v1",
+          "section": "buel-1862-08-17",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "the following terms of capitulation were agreed upon"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.322 (OCR page markers; not checked against print)",
+          "quote": "All the several companies of Federal soldiers were surrendered except some forty men under Lieutenant Herrington and some fifteen to twenty men under Lieutenant Meryhew"
+        },
+        {
+          "source_id": "nps-mo014-v1",
+          "locator": "Description",
+          "quote": "Confederate dominance in the Kansas City area continued, but not for long."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "Frozen: total unknown (US approx. 344; CS unknown). Live: 344 total (US 344; CS 0). Buel gives 26 killed or since dead and 30 wounded, about 150 paroled, and says the enemy's loss could not be ascertained. Britton gives 26 Union killed and 74 wounded, eleven mortally, and 23 Confederate killed (ten officers) and nine mortally wounded left in town; he says somewhat over 150 paroled men left for Kansas City.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The wounded counts differ (30 against 74). The 344 is not found in the inspected passages. The live CS zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO014"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US approx. 344; CS unknown)"
+        },
+        {
+          "source_id": "nps-mo014-v1",
+          "locator": "Estimated Casualties",
+          "quote": "344 total (US 344; CS 0;)"
+        },
+        {
+          "source_id": "or13-buel-independence-selections-v1",
+          "section": "buel-1862-08-17",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "The number killed and those who have since died of their wounds number 26. The wounded number 30"
+        },
+        {
+          "source_id": "or13-buel-independence-selections-v1",
+          "section": "buel-1862-08-17",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "thus leaving the number paroled about 150"
+        },
+        {
+          "source_id": "or13-buel-independence-selections-v1",
+          "section": "buel-1862-08-17",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "The loss of the enemy could not be ascertained"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "twenty-six Federal soldiers were found killed in and around the camp. There were seventy-four Federal soldiers and officers wounded in the battle, eleven of whom were mortally wounded."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.323 (OCR page markers; not checked against print)",
+          "quote": "The Confederates left in town twenty-three men killed, ten of whom were officers, and nine men mortally wounded."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "independence",
+          "locator": "p.324 (OCR page markers; not checked against print)",
+          "quote": "somewhat over one hundred and fifty in number"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Totten's telegrams (read at their opening), Axline's report, any Confederate report, the Union casualty lists and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Each Official Records report author is a separate family; the OR volume is a shared container, not a witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting.",
+    "Wiley Britton's The Civil War on the Border, volume I (1891) is a retrospective history by a Union participant whose preface says he took the official reports as a guide for numbers and casualties; it is not independent of the Official Records families.",
+    "Families for this record: NPS/CWSAC; Buel's August 17, 1862 report; Britton, volume I, Chapter XXIII."
+  ]
+}

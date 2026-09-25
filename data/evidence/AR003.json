@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "battle_id": "AR003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Hill's Plantation record (July 7, 1862) in Operations Near Cache River, Arkansas [July 1862]. Curtis's march to Helena and the skirmishes at Round Hill and Bayou De View are context except where the frozen row names them. The live NPS campaign label (\"Operations Near Cacke River Arkansas\") does not replace the frozen campaign. Campaign-wide totals, marches and multi-action loss figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the 1st and 2nd Brigades, 1st Division, Army of the Southwest against an unknown Confederate force; the live field reads zero. Hovey says Harris's reconnaissance had a little less than 400 men, that the loyal force engaged was less than 400, joined at the close by about 200 cavalry, and that the Texas force engaged was not far from 2,000 (he had learned over 2,000 were in line), supported by a larger reserve under Rust. Hindman (1863) says Rust's command on Cache River amounted to about 5,000 effectives.",
+      "rationale": "A detachment count, a reinforcement estimate, an estimate of the enemy and a command-wide figure; Rust's 5,000 is not an engaged count. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR003"
+          },
+          "column": "forces_text",
+          "quote": "1st and 2nd Brigade, 1st Division, Army of the Southwest [US]; unknown [CS]"
+        },
+        {
+          "source_id": "nps-ar003-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "(in all a little less than 400 men)"
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "The loyal force was less than 400, increased just at the close of the battle by a cavalry force of about 200 men."
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "I have since learned that over 2,1)00 Texas troops were here drawn up in line of battle."
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "The rebel force, Texas troops, engaged in the fight could not have been far from 2,000 men, and was supported by a still larger reserve force, all under the command of General Bust."
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-cache-river",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "His force amounted to about 5,000 effectives."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "woods-underbrush-and-cornfield",
+      "dimension": "terrain",
+      "value": "Hovey says Harris fell into an ambush in woods swarming with Confederates whose main line was concealed by thick underbrush; he moved his infantry into a corn field, a position that proved good, and held it. Hindman says streams in that country at that season are few and sluggish. NPS says the Confederates made a stand at the Cache River.",
+      "rationale": "Ground described by an interested report and a retrospective account; no map verification. Phase unresolved.",
+      "citations": [
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "fell into an ambush. The woods swarmed with rebels"
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "which was concealed by the thick"
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "I now ordered the gun up the road in haste and the infantry into the corn field."
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "to hold the position already chosen, and which had proved to be a good one"
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-cache-river",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "In that country at this season the streams are few and sluggish."
+        },
+        {
+          "source_id": "nps-ar003-v1",
+          "locator": "Description",
+          "quote": "The Confederates made a stand at the Cache River on July 7."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "supply-base-and-devastation",
+      "dimension": "logistics",
+      "value": "NPS says Curtis moved on Helena for supplies promised but never delivered by the Navy. Hindman says he learned on June 24 that Curtis was almost destitute of supplies, ordered Rust to destroy all supplies and growing crops and pollute the water, and that the instructions were not executed; the reinforcements he meant to lead were armed with pikes and lances until guns arrived.",
+      "rationale": "A summary and a retrospective Confederate account; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "nps-ar003-v1",
+          "locator": "Description",
+          "quote": "Union Maj. Gen. Samuel R. Curtis moved on Helena, Arkansas, in search of supplies to replace those that had been promised but never delivered by the Navy."
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-cache-river",
+          "locator": "p.36 (OCR page markers; not checked against print)",
+          "quote": "he was almost destitute of supplies."
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-cache-river",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "destroying all supplies, growing crops included, and polluting the water by killiug cattle"
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-cache-river",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "My instructions for devastating the country were not executed."
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-cache-river",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "instead of pikes and lances, with which most of them were armed."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ambush-and-imperfect-knowledge",
+      "dimension": "information",
+      "value": "Hovey says he had only the most imperfect idea of the enemy's strategy and the ground, learned the size of the enemy force only afterwards, and heard a Confederate order to charge the corn field that was not carried out. Hindman says no report of the affair was ever received though often called for.",
+      "rationale": "Reported knowledge; Hindman's statement limits his own account. No message chain inspected.",
+      "citations": [
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "Nor did I know their strategy or have any but the most imperfect idea of the topography of the ground."
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "I could distinctly hear the order, “Charge ! Charge on the corn field ! ”"
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-cache-river",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "No report of this affair was ever received, though often called for; consequently I am not able to^ive any of the details."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-and-blocking",
+      "dimension": "objectives",
+      "value": "Hovey sent Harris to reconnoiter ahead of the lines. Hindman ordered Rust to take position on Cache River, which Curtis had to cross, with instructions to resist to the last extremity. NPS says the Confederates tried to prevent Curtis's change of supply base by continual skirmishing.",
+      "rationale": "Stated aims; not evaluated.",
+      "citations": [
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "to make a reconnaissance in advance of our lines."
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-cache-river",
+          "locator": "p.36 (OCR page markers; not checked against print)",
+          "quote": "take position on Cache River, which Curtis must cross in his march southward."
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-cache-river",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "His instructions were to resist the enemy to the last extremity"
+        },
+        {
+          "source_id": "nps-ar003-v1",
+          "locator": "Description",
+          "quote": "attempted to prevent this change of supply base by continually skirmishing with the Union troops."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen rows list Hindman (Major General) and Parsons (Colonel) for the Confederates and Hovey (Colonel) and Benton (Brigadier General) for the Union; the live page styles Hovey and Hindman Brigadier General. Hovey directed Harris's reconnaissance and the corn-field stand, and says Benton pursued 5 or 6 miles with reinforcements late in the afternoon. Hindman was not on the field; he says Curtis's advance attacked Rust, whom Hovey also names as commander. The inspected passages do not name Parsons for July 7.",
+      "rationale": "Hindman's listed role is district command at a distance; Rust, not a listed commander, is named on the field by both sources. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR003",
+            "belligerent": "Confederate",
+            "fullname": "Thomas C. Hindman"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR003",
+            "belligerent": "Confederate",
+            "fullname": "William H. Parsons"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR003",
+            "belligerent": "US",
+            "fullname": "Charles Hovey"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "AR003",
+            "belligerent": "US",
+            "fullname": "William P. Benton"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-ar003-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Charles Hovey [US]"
+        },
+        {
+          "source_id": "nps-ar003-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Thomas Hindman [CS]"
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "all under the command of General Bust."
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "Pursuant to orders I directed Colonel Harris"
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "General Benton pursued the fleeing foe 5 or 6 miles toward Des Arc"
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-cache-river",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "Curtis’ advance crossed Cache River and attacked General Rust"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Union victory. Hovey says the retreat became a rout and 'the day was ours'. Hindman says Rust's command retreated in great disorder across White River after about thirty minutes, with many desertions. NPS says Curtis was able to change his supply base while Hindman remained between Curtis and Little Rock.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR003"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-ar003-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "The retreat became a rout."
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-cache-river",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "after an engagement of about thirty minutes, retreated in great disorder across White River."
+        },
+        {
+          "source_id": "or13-hindman-cache-river-selections-v1",
+          "section": "hindman-1863-06-19-cache-river",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "Many of his men deserted — both Texans and Arkansians."
+        },
+        {
+          "source_id": "nps-ar003-v1",
+          "locator": "Description",
+          "quote": "Curtis was able change his supply base, but Hindman, despite suffering defeat at Hill's Plantation, remained between Curtis and Little Rock, his objective."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "Frozen: 308 total (US 63; CS 245). Live: 313 total (US 63; CS 250). Hovey gives 6 killed and 57 wounded (63, a computation, equal to both US figures), 123 Confederate dead found, and prisoners' estimate of more than 200 dead; he has no count of Confederate wounded or prisoners. Hindman gives no figures.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen and live CS figures are not found in the inspected passages.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "AR003"
+          },
+          "column": "casualties_text",
+          "quote": "308 total (US 63; CS 245)"
+        },
+        {
+          "source_id": "nps-ar003-v1",
+          "locator": "Estimated Casualties",
+          "quote": "313 total (US 63; CS 250;)"
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "Our loss was 6 killed and 57 wounded."
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "Already 123 of the enemy’s dead have been found"
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.144 (OCR page markers; not checked against print)",
+          "quote": "estimate their dead at more than 200"
+        },
+        {
+          "source_id": "or13-hovey-cache-river-selections-v1",
+          "section": "hovey-1862-07-07",
+          "locator": "p.145 (OCR page markers; not checked against print)",
+          "quote": "I have been unable to ascertain the number of their wounded"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Curtis's (read, not selected), Steele's, Benton's, Baker's and Wood's reports, the compiled Union return, any Rust or Parsons report (Hindman says none was received), and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Each Official Records report author is a separate family; the OR volume is a shared container, not a witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting.",
+    "Families for this record: NPS/CWSAC; Hovey's July 7, 1862 report; Hindman's June 19, 1863 general report (not an eyewitness account of this action)."
+  ]
+}

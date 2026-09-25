@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO013",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Kirksville record (August 6-9, 1862) in Operations North of Boston Mountains [August-November 1862]. The frozen interval runs to August 9, which NPS ties to another Union force finishing Porter's command three days later; that later action is known here only from McNeil's secondhand mention. The pursuit from July 29 is context. The live NPS campaign label (\"Confederate Offensive North of Boston Mountains\") does not replace the frozen campaign. Campaign-wide totals, marches and multi-action loss figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names a combined cavalry and artillery force against the Missouri Brigade; the live field reads 3,500 (US 1,000; CS 2,500), matching the NPS description. McNeil's August 7 report says Porter had 2,500 to 3,000 men in the houses and corn fields and that he had an aggregate of 1,000 with five guns; his September 17 report lists detachments by unit (the aggregate is left blank in print), says that after train guards, horse-holders, artillery supports and reserve he had about 500 men to engage, and that detachments joining the next day brought him to nearly 1,700. He also refers to Porter's 'entire force of 2,000' at Newark and an army of nearly 3,000 that had desolated the country.",
+      "rationale": "An aggregate, an engaged remainder and estimates of the enemy on different days. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO013"
+          },
+          "column": "forces_text",
+          "quote": "Combined force (cavalry and artillery) [US]; Missouri Brigade [CS]"
+        },
+        {
+          "source_id": "nps-mo013-v1",
+          "locator": "Forces Engaged",
+          "quote": "3500 total (US 1000; CS 2500;)"
+        },
+        {
+          "source_id": "nps-mo013-v1",
+          "locator": "Description",
+          "quote": "Col. John McNeil and his troops, numbering about 1,000"
+        },
+        {
+          "source_id": "nps-mo013-v1",
+          "locator": "Description",
+          "quote": "Confederate Missouri Brigade of 2,500 men"
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-08-07",
+          "locator": "p.211 (OCR page markers; not checked against print)",
+          "quote": "He had a force of from 2,500 to 3,000 men posted in the houses and corn fields of the village. We had an aggregate of 1,000 men, with five pieces of artillery."
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "making an aggregate of — officers and — men."
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "left us about 500 men with which to engage the enemy."
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "swelling our force to nearly 1,700 men"
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "with his entire force of 2,000 men."
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "an army of nearly 3,000 men."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "prairie-ridge-houses-and-corn",
+      "dimension": "terrain",
+      "value": "McNeil says Kirksville stands on a prairie ridge surrounded by timber and corn fields, open on the northeast from which he approached, ground he found highly favorable for attack; Porter had expelled the townspeople and occupied the houses. NPS says Porter's men hid in homes, stores and the crops of nearby fields.",
+      "rationale": "Ground described by an interested report and a summary; no map verification. Porter's occupation of the town preceded McNeil's arrival on the day of battle; phase unresolved.",
+      "citations": [
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "Kirksville is situated on a prairie ridge, surrounded completely by timber and corn fields, with open ground on the northeast, from which direction we approached."
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "the ground on the northeast being highly favorable for attack."
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "learning that he had expelled the people from the town, concluded that he would occupy the houses and defend the place."
+        },
+        {
+          "source_id": "nps-mo013-v1",
+          "locator": "Description",
+          "quote": "where his men had hidden themselves in homes and stores and among the crops in the nearby fields."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-and-horses",
+      "dimension": "logistics",
+      "value": "McNeil reports on August 7 that his men were out of rations and horses worn out; his September report says the men had eaten almost nothing for two days, the horses were used up, the train was left to the rear guard in the rush to the town, and 8,000 rations and horseshoes arrived from Palmyra on the morning of the 8th.",
+      "rationale": "Condition statements from one interested author; no supply return inspected.",
+      "citations": [
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-08-07",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "We are out of rations and our horses worn-out"
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "The men had for the most part had nothing to eat for two days and the horses were almost en- tirely used up."
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "without regard for horse-flesh, leaving the train to the care of the rear guard."
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "with 8,000 rations and a timely supply of horseshoes."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "probe-and-flanking-detachment",
+      "dimension": "information",
+      "value": "McNeil says nothing could be seen of the enemy on arrival, so he sent Lieutenant Cowdrey with 8 men to charge through the town and draw fire; after the fight he did not know whether Porter had crossed the river in mass. He believes Porter, well advised of a detached Union force to the north, was obliged by it to stand at Kirksville.",
+      "rationale": "Reported knowledge and an inference by one interested author; no message chain inspected.",
+      "citations": [
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "nothing could be seen or heard of him"
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant Cowdrey, of the Merrill Horse, with 8 men, did the business most gallantly"
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "we were still un- advised whether he had crossed the river in mass"
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "it was the proximity of this force, of which Porter was well advised, that obliged him to make a stand at Kirksville."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "pursuit-and-recruiting",
+      "dimension": "objectives",
+      "value": "McNeil describes an eight-day pursuit that brought Porter to action, a detached force sent north to keep Porter out of Scotland and Schuyler Counties, and his expectation that the action would break up rebel recruiting in Northern Missouri.",
+      "rationale": "Stated aims and expected effects from one interested author; not evaluated.",
+      "citations": [
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-08-07",
+          "locator": "p.211 (OCR page markers; not checked against print)",
+          "quote": "After an active pursuit of the enemy under Porter for eight days we brought him to action"
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.214 (OCR page markers; not checked against print)",
+          "quote": "to move north, outflank the enemy, and prevent his getting into Scotland or Schuyler Counties"
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.216 (OCR page markers; not checked against print)",
+          "quote": "it will have broken up recruiting for the rebel Government in Northern Missouri under the guerrilla flag"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen rows list Porter (Colonel) for the Confederates and McNeil (Colonel) for the Union; the live page styles McNeil Brigadier General. McNeil deployed on the northern and eastern faces of the town, putting Shaffer in charge of the right wing and Caldwell of the left. The inspected passages give no Confederate report; Porter appears only as the enemy commander.",
+      "rationale": "Command dispositions reported by one commander; no listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO013",
+            "belligerent": "Confederate",
+            "fullname": "Joseph C. Porter"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO013",
+            "belligerent": "US",
+            "fullname": "John McNeil"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-mo013-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General John McNeil [US]"
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "I deployed columns on the northern and eastern faces of the town"
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant-Colonel Shaffer was put in command of the right wing"
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.213 (OCR page markers; not checked against print)",
+          "quote": "The left wing was put in charge of Major Caldwell"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Union victory. McNeil says the town was taken after two hours and fifty minutes; NPS says after almost three hours. McNeil later heard at Bloomington that McFerran's forces had dispersed the rest of Porter's army; NPS says another Union force finished Porter's command three days later. That later action's own reports were not inspected.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO013"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-mo013-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-08-07",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "The town was taken after a fight of two hours and fifty minutes"
+        },
+        {
+          "source_id": "nps-mo013-v1",
+          "locator": "Description",
+          "quote": "After almost three hours of fighting, the Yankees secured the town"
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "hearing at Bloomington that Colonel McFerran’s forces had met and dispersed the remainder of Porter’s army"
+        },
+        {
+          "source_id": "nps-mo013-v1",
+          "locator": "Description",
+          "quote": "Three days later, another Union force met and finished the work begun at Kirksville, destroying Porter's command."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "Frozen and live: 456 total (US 88; CS 368). McNeil's August 7 report gives 5 killed and 25 wounded, and enemy killed and wounded of 150 with 40 prisoners; his September report gives 5 killed and 32 wounded by the surgeon's report, and the enemy's loss as 150 killed, 300 to 400 wounded and 47 prisoners. He says 15 of the captured had been paroled before and that he had them shot.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen US 88 is not found in the inspected passages and may cover a different population or the August 9 action; not established. Prisoners executed after capture are a distinct population from battle losses.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO013"
+          },
+          "column": "casualties_text",
+          "quote": "456 total (US 88; CS 368)"
+        },
+        {
+          "source_id": "nps-mo013-v1",
+          "locator": "Estimated Casualties",
+          "quote": "456 total (US 88; CS 368;)"
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-08-07",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "with a loss of 5 killed, including Capt. Emanuel Mayne, of the Third Iowa, and 25 wounded."
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-08-07",
+          "locator": "p.212 (OCR page markers; not checked against print)",
+          "quote": "The loss of the enemy in killed and wounded may be safely stated at 150, and 40 prisoners."
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "5 killed and 32 wounded."
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "at 150 killed and between 300 and 400 wounded and 47 prisoners."
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "Finding that 15 of the persons captured had been prisoners before"
+        },
+        {
+          "source_id": "or13-mcneil-kirksville-selections-v1",
+          "section": "mcneil-1862-09-17",
+          "locator": "p.215 (OCR page markers; not checked against print)",
+          "quote": "I enforced the penalty of the bond by ordering them shot."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Shaffer's and Benjamin's reports (located, not read), Caldwell's report, Surgeon Lyon's casualty report (not found in the volume), Schofield's general report, the reports of the August 9 action and maps remain deferred. No history covering Kirksville was found in Britton's volume I; this record has two families.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Each Official Records report author is a separate family; the OR volume is a shared container, not a witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting.",
+    "Families for this record: NPS/CWSAC; McNeil's August 7 and September 17, 1862 reports. No Confederate report was inspected."
+  ]
+}

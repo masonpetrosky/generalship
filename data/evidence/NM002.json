@@ -1,0 +1,573 @@
+{
+  "schema_version": 1,
+  "battle_id": "NM002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Glorieta Pass record (March 26-28, 1862) in Sibley's New Mexico Campaign [February-March 1862]. The frozen interval covers the March 26 action in Apache Canon, the March 27 lull and the March 28 engagement at Pigeon's Ranch and Johnson's Ranch; the retreat to Santa Fe and the Union withdrawal are context. The live NPS campaign label does not replace the frozen campaign. Campaign-wide totals, marches and multi-action loss figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field names the Northern Division against the 4th, 5th and 7th Texas, artillery and a company of independent volunteers without counts; the live field reads zero. NPS gives Pyron 200-300 Texans and Chivington more than 400 on March 26, and about 1,100 Confederates against about 900 with Slough on the 28th. Chivington's March 26 report totals his force at 418; Slough's March 30 synopsis calls it 200 cavalry and 180 infantry and gives the division's organization (First Colorado aggregate 916, with smaller detachments). For the 28th Slough reports leaving camp nearly 1,300 strong and detaching about 430 under Chivington; he puts the enemy at about 1,000 from spies, at 1,200 to 1,300 in the canon from spies and prisoners, and in the synopsis at an estimated 1,200 to 3,400. Scurry says his force did not number over 600 fit for duty and that the enemy is now known to have numbered 1,400.",
+      "rationale": "Detachment counts, a divisional organization and each side's estimates, on different days; the March 26 and 28 forces differ. Slough's '1,200 to 3,400' is as read in OCR, not checked against print. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NM002"
+          },
+          "column": "forces_text",
+          "quote": "Northern Division, Army of New Mexico [US]; 4th, 5th, and 7th Texas Cavalry Regiment, artillery, and a company of independent volunteers [CS]"
+        },
+        {
+          "source_id": "nps-nm002-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-nm002-v1",
+          "locator": "Description",
+          "quote": "a Confederate force of 200-300 Texans under the command of Maj. Charles L. Pyron"
+        },
+        {
+          "source_id": "nps-nm002-v1",
+          "locator": "Description",
+          "quote": "Union Maj. John M. Chivington led more than 400 soldiers to the Pass"
+        },
+        {
+          "source_id": "nps-nm002-v1",
+          "locator": "Description",
+          "quote": "Lt. Col. William R. Scurry's troops swelled the Rebel ranks to about 1,100 while Union Col. John P. Slough arrived with about 900 men."
+        },
+        {
+          "source_id": "or9-chivington-glorieta-selections-v1",
+          "section": "chivington-1862-03-26",
+          "locator": "p.530 (OCR page markers; not checked against print)",
+          "quote": "making the total force on our side 418 men."
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-30",
+          "locator": "p.534 (OCR page markers; not checked against print)",
+          "quote": "a command of 200 cavalry and 180 infantry, under Major Chivington"
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-30",
+          "locator": "p.534 (OCR page markers; not checked against print)",
+          "quote": "First Colorado Volunteers, aggregate 916"
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-29",
+          "locator": "p.533 (OCR page markers; not checked against print)",
+          "quote": "left this place with my command, nearly 1,300 strong"
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-29",
+          "locator": "p.533 (OCR page markers; not checked against print)",
+          "quote": "with about 430 officers and picked men"
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-29",
+          "locator": "p.533 (OCR page markers; not checked against print)",
+          "quote": "Learning from our spies that the enemy, about 1,000 strong"
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-29",
+          "locator": "p.533 (OCR page markers; not checked against print)",
+          "quote": "The strength of the enemy, as received from spies and prisoners, in the canon was altogether some 1,200 or 1,300"
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-30",
+          "locator": "p.534 (OCR page markers; not checked against print)",
+          "quote": "his estimated strength was from 1,200 to 3,400"
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-31",
+          "locator": "p.543 (OCR page markers; not checked against print)",
+          "quote": "they did not number over 600 men fit for duty."
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-31",
+          "locator": "p.544 (OCR page markers; not checked against print)",
+          "quote": "The enemy is now known to have numbered 1,400 men"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "canon-cedars-and-walls",
+      "dimension": "terrain",
+      "value": "NPS places the pass at the southern tip of the Sangre de Cristo Mountains on the Santa Fe Trail. Slough says the country made the fight 'of the bushwhacking kind' and that all fighting was in thick cedar cover. Scurry deployed across the canon from a fence to the pine forest and later found the enemy behind an adobe wall or a ledge of rocks; he calls his March 27 position at Johnson's Ranch naturally very strong. Chivington's March 26 report says the Confederates fell back about 1½ miles (read '1£' in OCR) to a more advantageous position covering the mountain sides.",
+      "rationale": "Ground described by interested reports and a summary; no map verification. Phase unresolved.",
+      "citations": [
+        {
+          "source_id": "nps-nm002-v1",
+          "locator": "Description",
+          "quote": "Glorieta Pass was a strategic location, situated at the southern tip of the Sangre de Cristo Mountains, southeast of Santa Fe, and on the Santa Fe Trail."
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-29",
+          "locator": "p.533 (OCR page markers; not checked against print)",
+          "quote": "The character of the country was such as to make the engagement of the bushwhacking kind."
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-30",
+          "locator": "p.535 (OCR page markers; not checked against print)",
+          "quote": "The fighting was all done in thick covers of cedars"
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-31",
+          "locator": "p.543 (OCR page markers; not checked against print)",
+          "quote": "extending across the canon from a fence on our left up into the pine forest on our right."
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-31",
+          "locator": "p.544 (OCR page markers; not checked against print)",
+          "quote": "behind a long adobe wall that ran nearly across the canon or had taken position behind a large ledge of rocks in the rear."
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-31",
+          "locator": "p.543 (OCR page markers; not checked against print)",
+          "quote": "which was naturally a very strong one."
+        },
+        {
+          "source_id": "or9-chivington-glorieta-selections-v1",
+          "section": "chivington-1862-03-26",
+          "locator": "p.531 (OCR page markers; not checked against print)",
+          "quote": "they fell back about 1£ miles and took another and more advan- tageous position"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "johnsons-ranch-train",
+      "dimension": "logistics",
+      "value": "Chivington says he found 80 wagons and one field piece at Johnson's Ranch in charge of some 200 men, and that the wagons, loaded with ammunition, clothing, subsistence and forage, were burned or rendered useless; Slough gives the train as about 60 wagons and calls its loss a most serious disaster that deprived the enemy of provisions, of which he was short. Scurry says the loss of his supplies kept him from following up, that his men went two days unfed and without blankets, and that he went to Santa Fe for food; he had sent the train forward under a guard of 100 men on the 26th.",
+      "rationale": "The wagon count differs (80 against about 60). Train destruction is a reported effect of the flanking column, not a supply return; phase unresolved.",
+      "citations": [
+        {
+          "source_id": "or9-chivington-glorieta-selections-v1",
+          "section": "chivington-1862-03-28",
+          "locator": "p.538 (OCR page markers; not checked against print)",
+          "quote": "there were corraled in the canon 80 wagons and one field piece, all in charge of"
+        },
+        {
+          "source_id": "or9-chivington-glorieta-selections-v1",
+          "section": "chivington-1862-03-28",
+          "locator": "p.539 (OCR page markers; not checked against print)",
+          "quote": "The wagons were all heavily loaded with ammunition, clothing, subsistence, and forage, all of which were burned upon the spot or rendered entirely useless."
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-29",
+          "locator": "p.533 (OCR page markers; not checked against print)",
+          "quote": "We took and destroyed their train of about 60 wagons"
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-30",
+          "locator": "p.535 (OCR page markers; not checked against print)",
+          "quote": "The loss of this train was a most serious disaster to the enemy, destroying his baggage and ammunition, and depriving him of provisions, of which he was short."
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-30",
+          "locator": "p.542 (OCR page markers; not checked against print)",
+          "quote": "The loss of my supplies so crippled me that after burying my dead I was unable to follow up the victory."
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-30",
+          "locator": "p.542 (OCR page markers; not checked against print)",
+          "quote": "My men for two days went unfed and blanketless unmurmuringly."
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-31",
+          "locator": "p.542 (OCR page markers; not checked against print)",
+          "quote": "Our baggage train was sent forward under a guard of 100 men"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "spies-surprise-and-intelligence",
+      "dimension": "information",
+      "value": "Chivington's March 26 march intended to surprise a small enemy force at Santa Fe. On the 28th Slough moved on spies' reports and says he met the enemy where he was not expected, so that the action was defensive throughout; Chivington's column learned of the main engagement only from retaken prisoners. Scurry was warned by his advance guard about 6 miles from camp, and says the party that burned his train passed undiscovered around the mountains.",
+      "rationale": "Reported knowledge in interested accounts; no message chain inspected.",
+      "citations": [
+        {
+          "source_id": "or9-chivington-glorieta-selections-v1",
+          "section": "chivington-1862-03-26",
+          "locator": "p.530 (OCR page markers; not checked against print)",
+          "quote": "intending to surprise the enemy in small force at that place."
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-29",
+          "locator": "p.533 (OCR page markers; not checked against print)",
+          "quote": "Learning from our spies that the enemy, about 1,000 strong, were in the Apache Canon and at Johnson’s Ranch beyond, I concluded to reconnoiter in force"
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-30",
+          "locator": "p.535 (OCR page markers; not checked against print)",
+          "quote": "having met the enemy where he was not expected the ac- tion was defensive from its beginning to its end."
+        },
+        {
+          "source_id": "or9-chivington-glorieta-selections-v1",
+          "section": "chivington-1862-03-28",
+          "locator": "p.539 (OCR page markers; not checked against print)",
+          "quote": "from whom we gleaned our first intelligence of the general engagement"
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-31",
+          "locator": "p.543 (OCR page markers; not checked against print)",
+          "quote": "At about 6 miles from our camp the advance guard gave notice that the enemy were near in force."
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-30",
+          "locator": "p.542 (OCR page markers; not checked against print)",
+          "quote": "Our train was burned by a party who succeeded in passing undis-"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "reconnaissance-attack-and-fort-union",
+      "dimension": "objectives",
+      "value": "Slough says he moved to reconnoiter in force and harass the enemy, detaching Chivington with instructions to push forward to Johnson's, and that Canby's instructions were to protect Fort Union at all hazards, so he would now take a covering position. Scurry says that when the enemy did not appear he marched forward to attack. NPS says both commanders decided to attack on the 28th.",
+      "rationale": "Stated aims; the NPS summary and Slough's 'reconnoiter' framing differ in emphasis. Not evaluated.",
+      "citations": [
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-29",
+          "locator": "p.533 (OCR page markers; not checked against print)",
+          "quote": "with a view of ascertaining the posi- tion of the enemy and of harassing them as much as possible"
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-29",
+          "locator": "p.533 (OCR page markers; not checked against print)",
+          "quote": "with instructions to push forward to Johnson’s."
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-30",
+          "locator": "p.535 (OCR page markers; not checked against print)",
+          "quote": "as the instructions from him are to protect Fort Union at all hazards and leave nothing to chance"
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-31",
+          "locator": "p.543 (OCR page markers; not checked against print)",
+          "quote": "The enemy still not making their appearance, I concluded to march forward and attack them."
+        },
+        {
+          "source_id": "nps-nm002-v1",
+          "locator": "Description",
+          "quote": "Both Slough and Scurry decided to attack and set out early on the 28th to do so."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen rows list Pyron (Major) and Scurry (Lieutenant Colonel) for the Confederates and Chivington (Major) and Slough (Colonel) for the Union; the live page styles Chivington 'Major General', and the OR headings style Scurry colonel. Slough says he claimed command of the division by seniority of volunteer commission and sent Chivington's column by a road to the left of the canon; Chivington commanded on the 26th and led the column to Johnson's Ranch, whence Slough ordered him to support the main column. Scurry marched to Pyron's relief on the night of the 26th and on the 28th directed Pyron, Ragnet and Shropshire on the flanks. Chivington's postscript says the guide Collins did not burn the train or cause it to be burned.",
+      "rationale": "Command assignments reported by the commanders; no listed commander receives automatic sole credit. The train's destruction is attributed to Chivington's command, not rated.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NM002",
+            "belligerent": "Confederate",
+            "fullname": "Charles L. Pyron"
+          },
+          "column": "rank",
+          "quote": "Major"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NM002",
+            "belligerent": "Confederate",
+            "fullname": "William R. Scurry"
+          },
+          "column": "rank",
+          "quote": "Lieutenant Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NM002",
+            "belligerent": "US",
+            "fullname": "John Chivington"
+          },
+          "column": "rank",
+          "quote": "Major"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "NM002",
+            "belligerent": "US",
+            "fullname": "John P. Slough"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "nps-nm002-v1",
+          "locator": "Principal Commanders",
+          "quote": "Major General John Chivington [US]"
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-30",
+          "locator": "p.534 (OCR page markers; not checked against print)",
+          "quote": "by seniority of volunteer commis- sion I claimed the command."
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-29",
+          "locator": "p.533 (OCR page markers; not checked against print)",
+          "quote": "I sent Maj. J. M. Chivington, First Regiment Colorado Volunteers, by a road running to the left of the canon"
+        },
+        {
+          "source_id": "or9-chivington-glorieta-selections-v1",
+          "section": "chivington-1862-03-28",
+          "locator": "p.539 (OCR page markers; not checked against print)",
+          "quote": "bringing an order from Colonel Slough for our advance to support the main column"
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-30",
+          "locator": "p.541 (OCR page markers; not checked against print)",
+          "quote": "Reports of Col. W. R. Scurry, Fourth Texas Cavalry."
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-31",
+          "locator": "p.542 (OCR page markers; not checked against print)",
+          "quote": "an express from Major Pyron arrived"
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-31",
+          "locator": "p.542 (OCR page markers; not checked against print)",
+          "quote": "urging me to hasten to his rebel."
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-31",
+          "locator": "p.543 (OCR page markers; not checked against print)",
+          "quote": "I dispatched Major Pyron to the right to check them in that direction"
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-31",
+          "locator": "p.544 (OCR page markers; not checked against print)",
+          "quote": "Major Shropshire was sent to the right"
+        },
+        {
+          "source_id": "or9-chivington-glorieta-selections-v1",
+          "section": "chivington-1862-03-28",
+          "locator": "p.539 (OCR page markers; not checked against print)",
+          "quote": "though he did not burn the train or cause it to be done."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Union victory. Scurry reports another Confederate victory, the enemy's infantry fleeing the field, and his withdrawal to Santa Fe for food. Slough says that on hearing of Chivington's success, the object of the movement being achieved, he fell back in order to camp. NPS says Slough retired first, Scurry then left the field believing he had won, and the destruction of the train forced his retreat to Santa Fe.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The tactical field result and the campaign effect of the lost train are distinct and both reported.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NM002"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-nm002-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-30",
+          "locator": "p.541 (OCR page markers; not checked against print)",
+          "quote": "another victory was added to the long list ot Confederate triumphs."
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-31",
+          "locator": "p.544 (OCR page markers; not checked against print)",
+          "quote": "The infantry also broke ranks and fled from the field."
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-30",
+          "locator": "p.542 (OCR page markers; not checked against print)",
+          "quote": "I was compelled to come here for something to eat."
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-29",
+          "locator": "p.533 (OCR page markers; not checked against print)",
+          "quote": "Hearing of the success of Major Chivington’s command, and the object of our movement being successful, we fell back in order to our camp."
+        },
+        {
+          "source_id": "nps-nm002-v1",
+          "locator": "Description",
+          "quote": "Scurry soon left the field also, thinking he had won the battle."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "Frozen: 331 total (US 142; CS 189). Live: 359 total (US 132; CS 227). For March 26, Chivington gives 5 killed and 14 wounded against 32 killed, 43 wounded and 71 prisoners by the enemy's own accounts; Slough's synopsis gives 3 killed, 2 since died and some 8 wounded against 20 to 25 killed and about 70 prisoners. For March 28, Slough's March 29 report estimates about 20 killed, 50 wounded and 30 missing, and his synopsis 1 officer and 28 men killed, 2 officers and 40 men wounded and some 15 prisoners; he estimates at least 100 Confederate killed and 150 wounded. Scurry's March 30 letter gives 33 killed and, he believes, 35 wounded, and over 75 enemy killed; his March 31 loss line is garbled in OCR, though it gives 24, 1 and 8 killed by regiment. Chivington reports 17 prisoners taken at the train.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The March 26 and 28 figures must not be summed without resolving overlap with the frozen interval total.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "NM002"
+          },
+          "column": "casualties_text",
+          "quote": "331 total (US 142; CS 189)"
+        },
+        {
+          "source_id": "nps-nm002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "359 total (US 132; CS 227;)"
+        },
+        {
+          "source_id": "or9-chivington-glorieta-selections-v1",
+          "section": "chivington-1862-03-26",
+          "locator": "p.531 (OCR page markers; not checked against print)",
+          "quote": "Our loss was 5 killed and 14 wounded. The loss of the enemy was, as we ascertained from their own accounts, 32 killed, 43 wounded, and 71 taken prisoners."
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-30",
+          "locator": "p.534 (OCR page markers; not checked against print)",
+          "quote": "3 men killed m battle, 2 since died, and some 8 others wounded."
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-30",
+          "locator": "p.534 (OCR page markers; not checked against print)",
+          "quote": "some 20 to 25 killed, more wounded, and about 70 prisoners"
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-29",
+          "locator": "p.533 (OCR page markers; not checked against print)",
+          "quote": "Our loss in killed is probably 20"
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-29",
+          "locator": "p.533 (OCR page markers; not checked against print)",
+          "quote": "in wounded probably 50"
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-29",
+          "locator": "p.533 (OCR page markers; not checked against print)",
+          "quote": "in missing prob- ably 30."
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-30",
+          "locator": "p.535 (OCR page markers; not checked against print)",
+          "quote": "We have 1 officer (Lieutenant Baker, Colorado Volunteers) killed and 2"
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-30",
+          "locator": "p.535 (OCR page markers; not checked against print)",
+          "quote": "28 men killed and 40 wounded. We lost some 15 prisoners."
+        },
+        {
+          "source_id": "or9-slough-glorieta-selections-v1",
+          "section": "slough-1862-03-30",
+          "locator": "p.535 (OCR page markers; not checked against print)",
+          "quote": "His killed amount to at least 100, his wounded at least 150"
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-30",
+          "locator": "p.541 (OCR page markers; not checked against print)",
+          "quote": "Our loss was 33 killed and, I believe, 35 wounded."
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-30",
+          "locator": "p.542 (OCR page markers; not checked against print)",
+          "quote": "being over 75 killed"
+        },
+        {
+          "source_id": "or9-scurry-glorieta-selections-v1",
+          "section": "scurry-1862-03-31",
+          "locator": "p.545 (the running head for p.545 reads \"IS HASS. L IL7V 545\" in OCR; OCR page markers; not checked against print)",
+          "quote": "Of the killed 24 were of the Fourth Regiment, 1 of the Fifth Regiment, 8 of the Seventh Regiment,"
+        },
+        {
+          "source_id": "or9-chivington-glorieta-selections-v1",
+          "section": "chivington-1862-03-28",
+          "locator": "p.539 (OCR page markers; not checked against print)",
+          "quote": "W e also took 17 prisoners"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Tappan's, Ritter's and Walker's reports (Walker's read, not selected), Sibley's March 31 report (read, not selected), Pyron's report on March 26 (not located in the inspected lists), the Confederate casualty lists, Whitford's 1906 history and Hollister's 1863 regimental history (located, not inspected) and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Each Official Records report author is a separate family; the OR volume is a shared container, not a witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting.",
+    "Families for this record: NPS/CWSAC; Slough's March 29 and 30, 1862 reports; Scurry's March 30 and 31, 1862 reports; and, as the one targeted follow-up for the Johnson's Ranch and March 26 gap, Chivington's March 26 and 28, 1862 reports. Slough's synopsis relays Chivington's actions, so the two Union families are not independent on those points."
+  ]
+}

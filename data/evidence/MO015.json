@@ -1,0 +1,465 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO015",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Lone Jack record (August 15-16, 1862) in Operations North of Boston Mountains [August-November 1862]. The night attack of August 15 on Coffee's camp falls inside the frozen interval; Warren's and Blunt's arrival on the 17th and the Confederate retreat are context. The live NPS campaign label (\"Confederate Offensive North of Boston Mountains\") does not replace the frozen campaign. Campaign-wide totals, marches and multi-action loss figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives the Union 800 men in detachments from fourteen companies with a section of artillery, and the Confederates as unknown; the live field reads US 800 and CS 0. Foster says he was ordered to march with 800 men, found Coffee 1,600 strong on the 15th, had about 740 on the 16th after two parties were out, faced about 3,000 advancing, and saw Coffee return with about 1,500. Britton gives Foster's force as 806, Coffey's as at least 1,200 (and 1,200 on his return), the combined enemy as not less than 3,000 against 740, and cites Jackman's report that he entered the battle with 500 men.",
+      "rationale": "An ordered strength, a morning remainder and Union estimates of the enemy; Britton's regimental extrapolation is his own. None is adopted as a matched opening strength. The live CS zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO015"
+          },
+          "column": "forces_text",
+          "quote": "Detachments from fourteen companies of cavalry and a section of artillery (800 men) [US]; unknown [CS]"
+        },
+        {
+          "source_id": "nps-mo015-v1",
+          "locator": "Forces Engaged",
+          "quote": "800 total (US 800; CS 0;)"
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "to march at daylight in the direction of Lone Jack, with 800 men."
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "the enemy, 1,600 strong, were at Lone Jack, under Coffee"
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "leaving us about 740 men."
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "the enemy were advancing, about 3,000 strong."
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "Coffee came in sight with about 1,500 men"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "Major Foster's force of eight hundred and six men"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "was encamped with a force of at least twelve hundred men"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.331 (the running head for p.331 reads \"33 1\" in OCR; OCR page markers; not checked against print)",
+          "quote": "of not less than three thousand men, with his little command of seven hundred and forty men."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.334 (OCR page markers; not checked against print)",
+          "quote": "Colonel Jackman reported that he went into the battle with five hundred men"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "five hundred men to the regiment would be a low estimate"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "hedge-stream-and-village",
+      "dimension": "terrain",
+      "value": "Foster says a thick hedge protected both flanks and partly the front, with a small deep stream behind whose crossing he held. Britton describes the camp in an open square hedged on three sides, accessible from corn fields east and west, and says the position was not well chosen for receiving an attack nor intended to be; the attackers met a rail fence about forty yards out.",
+      "rationale": "Ground described by an interested report and a participant history; the camp was chosen the night before. Phase unresolved.",
+      "citations": [
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "by reason of a thick hedge, which protected us on each flank and afforded some protection to our front, our rear being protected by a small, deep stream, the crossing of which we held."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "which had a dots d'arc hedge on the north, east, and south sides of it."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "His position was not a well- chosen one for receiving an attack, nor was it so in- tended."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.331 (the running head for p.331 reads \"33 1\" in OCR; OCR page markers; not checked against print)",
+          "quote": "they encountered a rail fence running parallel with their line"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "march-horses-and-ammunition",
+      "dimension": "logistics",
+      "value": "Foster says his men and horses were worn out after forty-eight hours without food or rest before reaching Lexington, and that Cockrell told him the Confederates were completely out of ammunition. Britton says the march of the 15th was thirty-three miles on a very hot day, that the artillery horses were all killed, and that the Confederates were fairly well supplied with arms and ammunition captured at Independence.",
+      "rationale": "The Confederate ammunition state is disputed (Cockrell's statement to Foster against Britton's inference); no return inspected.",
+      "citations": [
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "men and horses very much worn-out, having marched forty-eight hours without food or rest."
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "that they were completely cut of ammunition"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "marched thirty-three miles on an exceedingly hot day."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "They had, however, killed all the horses hitched to the two pieces of artillery"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "were fairly well supplied in this respect."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "pickets-warren-and-estimates",
+      "dimension": "information",
+      "value": "Foster says his pickets reported the enemy advancing about daylight, that several scouts had reported but nothing came from Warren, and that he waited believing Warren within hearing of his guns. Britton says captured pickets gave Foster information on the enemy's strength and location, that Foster thought the reported strength exaggerated, that Warren took the wrong road, and that on the night of the 15th Union skirmishers mistook their own advance for the enemy and killed two of them.",
+      "rationale": "Reported knowledge in an interested report and a participant history; no message chain inspected.",
+      "citations": [
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "About daylight the pickets came in and reported that the enemy were advancing"
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "Several scouts had reported, and no word from Warren, who should have been in supporting distance."
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "believ- ing him to be in hearing of my artillery, I awaited the enemy."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "from whom he obtained a good deal of information in regard to the strength and location of the rebel forces"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "He was inclined to regard the re- ported strength of the combined forces of the enemy in the vicinity as exaggerated"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "that officer for some cause took the wrong road"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.328 (OCR page markers; not checked against print)",
+          "quote": "mistook the fire as coming from the enemy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "orders-and-concentration",
+      "dimension": "objectives",
+      "value": "Foster was ordered to march toward Lone Jack with 800 men and says that had his orders to Warren been obeyed the enemy would have been captured or destroyed. Britton says the Confederates were concentrating near Lone Jack with a view to marching on Lexington, and that Warren was directed to join Foster by the evening of the 15th or morning of the 16th.",
+      "rationale": "Stated orders and aims; not evaluated.",
+      "citations": [
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "I received an order from you at 1 o’clock a. m. August 15 to march at daylight in the direction of Lone Jack"
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "Had your orders been obeyed the whole force of the enemy would have been captured or terribly routed and destroyed."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.326 (OCR page markers; not checked against print)",
+          "quote": "with the view of marching on Lexington."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.327 (OCR page markers; not checked against print)",
+          "quote": "was directed to join him by the evening of the 15th or morning of the 16th."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen rows list Cockrell, Thompson and Hays (Colonels) for the Confederates and Foster (Major) for the Union. Foster says no field officers were sent with him because of a jealousy over rank, that Lieutenant Develin was drunk and arrested, and that after he was shot Captain Brawner commanded and fell back, leaving the guns; he names Cockrell as commanding the Confederates. Britton says Cockrell commanded the forces engaged, lists the regiments of Tracy, Hunter, Hancock, Thompson, Hays, Bohannon and Jackman with Quantrill's band, and says Hays and Quantrill were to open the attack mounted.",
+      "rationale": "Command roles reported by participants; Coffee and Warren, not listed commanders, affected the outcome by their movements. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO015",
+            "belligerent": "Confederate",
+            "fullname": "Jeremiah Vard Cockrell"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO015",
+            "belligerent": "Confederate",
+            "fullname": "G.W. Thompson"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO015",
+            "belligerent": "Confederate",
+            "fullname": "Upton Hays"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO015",
+            "belligerent": "US",
+            "fullname": "Emory S. Foster"
+          },
+          "column": "rank",
+          "quote": "Major"
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "In consequence of a jealousy in regard to rank no field officers were sent with me"
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "Lieutenant Develin, being drunk, acted very badly, and was arrested"
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "Captain Brawner was then in command."
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "Cock- rell, who commanded the rebels in the fight"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "Colonel Cockrell, who had been in command of the rebel forces engaged"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.331 (the running head for p.331 reads \"33 1\" in OCR; OCR page markers; not checked against print)",
+          "quote": "The forces of Hays and Quantrill were to remain mounted and bring on the attack at daylight."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Confederate victory. Foster says his 740 men 'whipped' the enemy before Coffee's return, after which Brawner fell back and the enemy took the field about an hour later; Britton says Brawner withdrew unmolested to Lexington, leaving the two guns. NPS says the Union left in good order and that the Confederates soon had to evacuate the area.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO015"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-mo015-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "The fact that 740 men fought five hours against such odds and whipped them"
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "About an hour after the enemy came up and took possession of the field."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.333 (OCR page markers; not checked against print)",
+          "quote": "Captain Brawner marched out of Lone Jack on the Lexington road unmolested by the enemy"
+        },
+        {
+          "source_id": "nps-mo015-v1",
+          "locator": "Description",
+          "quote": "The men left the field in good order and returned to Lexington."
+        },
+        {
+          "source_id": "nps-mo015-v1",
+          "locator": "Description",
+          "quote": "the Rebels had to evacuate the area soon afterward"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "Frozen: 270 total (US 160; CS 110). Live: 272 total (US 272; CS 0). Foster could give no casualty list. Britton cites an official statement of 2 officers and 51 men killed, 13 officers and 144 men wounded, and 1 officer and 43 men missing on the Union side, says the enemy acknowledged 118 killed per Brawner, that the Union had lost nearly a third in killed and wounded by eleven o'clock, and that the Confederate loss is not known; Jackman lost four of ten captains killed and three wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Britton's components sum to 254 (a computation here), not matching any frozen or live figure. The live CS zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO015"
+          },
+          "column": "casualties_text",
+          "quote": "270 total (US 160; CS 110)"
+        },
+        {
+          "source_id": "nps-mo015-v1",
+          "locator": "Estimated Casualties",
+          "quote": "272 total (US 272; CS 0;)"
+        },
+        {
+          "source_id": "or13-foster-lone-jack-selections-v1",
+          "section": "foster-1863-05-01",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "I can give no list of casualties"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "there were two officers and fifty-one en- listed men killed ; thirteen officers and one hundred and forty-four enlisted men wounded ; and one officer and forty-three enlisted men missing."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.335 (OCR page markers; not checked against print)",
+          "quote": "the enemy acknowledged a loss of one hundred and eigh- teen men killed."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "a loss of nearly one third their number in killed and wounded."
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.334 (OCR page markers; not checked against print)",
+          "quote": "The loss of the Confederates in the battle is not known"
+        },
+        {
+          "source_id": "britton-border-1-boston-mountains-selections-v1",
+          "section": "lone-jack",
+          "locator": "p.334 (OCR page markers; not checked against print)",
+          "quote": "out of ten captains four were killed and three wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Blunt's (read at its opening), Ransom's and Brawner's reports, Schofield's and Hindman's general reports on Lone Jack, any Confederate report (Jackman's is known only through Britton), the official casualty statement Britton cites, Britton's Chapter XXV and maps remain deferred.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Each Official Records report author is a separate family; the OR volume is a shared container, not a witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting.",
+    "Wiley Britton's The Civil War on the Border, volume I (1891) is a retrospective history by a Union participant whose preface says he took the official reports as a guide for numbers and casualties; it is not independent of the Official Records families.",
+    "Families for this record: NPS/CWSAC; Foster's May 1, 1863 report; Britton, volume I, Chapter XXIV."
+  ]
+}

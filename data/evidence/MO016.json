@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "battle_id": "MO016",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Newtonia record (September 30, 1862) in Operations North of Boston Mountains [August-November 1862]. The September 29 scouts at Newtonia and Granby and the October 4 Union advance are context. The live NPS campaign label (\"Confederate Offensive North of Boston Mountains\") does not replace the frozen campaign. Campaign-wide totals, marches and multi-action loss figures are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field gives two brigades of the Army of Kansas as 1,500 against Cooper's Division; the live field reads zero. NPS says two brigades of Blunt's army left Fort Scott. Salomon says his scouting party to Newtonia was the Ninth Kansas Cavalry (about 150) with two howitzers, that he left some 400 Indians and two guns with the train, and that prisoners put the enemy at 7,000 after reinforcement. Cooper says his force never exceeded 4,000 with six guns, against 6,000 to 7,000 with eighteen guns by information from Federal sources.",
+      "rationale": "A detachment count and each side's estimate of the other, all for different phases of the day; the frozen 1,500 is not found in the inspected passages. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO016"
+          },
+          "column": "forces_text",
+          "quote": "Two brigades, Army of Kansas (1,500) [US]; Cooper's Division [CS]"
+        },
+        {
+          "source_id": "nps-mo016-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-mo016-v1",
+          "locator": "Description",
+          "quote": "two brigades of Brig. Gen. James G. Blunt's Union Army of Kansas left Fort Scott for Southwest Missouri."
+        },
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "consisted of the Ninth Kansas Volunteer Cavalry (about 150 men) and two mountain howitzers."
+        },
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "Our train was left in charge of some 400 Indians and two pieces of Major Blair’s battery."
+        },
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "Tbey were re-enforced in the forenoon, and, as prisoners say, 7,000 strong."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.299 (OCR page markers; not checked against print)",
+          "quote": "amounted to from 6,000 to 7,000 men, with eighteen pieces of cannon, while our own force did not exceed 4,000 men during any part of the day, with only six pieces of cannon."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "stone-walls-and-ridge",
+      "dimension": "terrain",
+      "value": "Salomon says the enemy held a strong position behind stone walls and massive buildings, and that his artillery fired from elevated ground into their masses. Cooper says his troops at the outpost were posted behind the stone fence, and that in the afternoon the enemy held the elevated ridge a mile north of the town.",
+      "rationale": "Ground described by opposing interested reports; no map verification. The Confederate outpost predates the action; phase unresolved.",
+      "citations": [
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "The enemy was in strong position — be- hind stone walls and massive buildings."
+        },
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "our artillery fired from an elevated ground into their thick masses."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "who were posted behind the stone fence."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.298 (OCR page markers; not checked against print)",
+          "quote": "the enemy occupying the elevated ridge 1 mile north."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "mill-mines-and-ammunition",
+      "dimension": "logistics",
+      "value": "NPS and Cooper say the Newtonia mill was used to make breadstuffs, which Cooper says it supplied abundantly; Cooper sent a regiment to Granby for its lead mines. Cooper says Bledsoe's battery fought until its last shot and then took a new position without a shot in its caissons, and that the retreating Federals abandoned loaded wagons.",
+      "rationale": "Condition statements from a summary and an interested report; no supply or ordnance return inspected.",
+      "citations": [
+        {
+          "source_id": "nps-mo016-v1",
+          "locator": "Description",
+          "quote": "assigned two of his units to Newtonia where there was a mill for making breadstuffs."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "the mill at that place was put in operation for the purpose of supplying the command with breadstuffs, which it did abundantly."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "on account of the valuable lead mines at that place"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "though without a solitary shot in their cais- sons."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.299 (OCR page markers; not checked against print)",
+          "quote": "abandoning loaded wagons by the way wedged between trees."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouts-and-missing-brigade",
+      "dimension": "information",
+      "value": "Salomon says his detachments were told to find the enemy without risking anything, that he had no official reports of the morning fight when he wrote, that Hall's failure to arrive on the road he reported is 'a mystery', and that Rains was reported arriving. Cooper was en route to Granby when the attack began, and says a Missouri regiment mistook Stevens's regiment for Federals, a delay that let the Federals get off with their batteries.",
+      "rationale": "Reported knowledge in opposing interested reports; no message chain inspected.",
+      "citations": [
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "The instructions of Colonel Lynde and Lieutenant-Colonel Jacobi were mainly to find out the enemy, but not to risk anything"
+        },
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "Official reports I have not been able to obtain yet."
+        },
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "Why Colonel Hall did not come in time, and on the road he reported he would come, is a mystery to me"
+        },
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "General Rains was reported to be arriv- ing"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "At the time of the attack I was en route for Granby"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.298 (OCR page markers; not checked against print)",
+          "quote": "mistook his for a Federal regiment."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "outpost-junction-and-attack",
+      "dimension": "objectives",
+      "value": "Cooper says his troops moved north to join Shelby and made Newtonia an outpost. Salomon says he intended to advance with his whole force when Hall arrived on the enemy's right flank.",
+      "rationale": "Stated aims; not evaluated.",
+      "citations": [
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.296 (OCR page markers; not checked against print)",
+          "quote": "for the purpose of forming a junction with Colonel Shelby"
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "were ordered to Newtonia, having made it an outpost"
+        },
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "My intention was to advance upon the enemy with the whole force at the arrival of Colonel Hall"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "The frozen rows list Cooper (Colonel) for the Confederates and Salomon (Brigadier General) for the Union; the live page styles Cooper Brigadier General. Salomon sent Jacobi forward the day before, marched to the field on hearing the firing, and ordered the retreat toward sunset when Hall had not come. Cooper assumed command on the 27th and personally directed the Choctaw and Chickasaw regiment's attack. NPS names the Union force as Blunt's army; Blunt is not a listed commander and was not on the field in the inspected passages.",
+      "rationale": "Command actions reported by the two commanders; Hall's non-arrival is Salomon's complaint, not adjudicated. No listed commander receives automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO016",
+            "belligerent": "Confederate",
+            "fullname": "Douglas H. Cooper"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MO016",
+            "belligerent": "US",
+            "fullname": "Friedrich Salomon"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-mo016-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Douglas Cooper [CS]"
+        },
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "I ordered Lieutenant-Colonel Jacobi, Ninth Regiment Wisconsin Volun- teers, with three cannon of Stockton’s battery"
+        },
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "when he had not arrived toward sunset I ordered the retreat."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.297 (OCR page markers; not checked against print)",
+          "quote": "I assumed command on the 27th."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.298 (OCR page markers; not checked against print)",
+          "quote": "under my personal direction at once engaged the enemy"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen and live results are Confederate victory. Salomon learned his troops attacking the town had been defeated and the infantry cut up, fell back on his defenses, and says the enemy could have been annihilated had Hall come in time. Cooper says the enemy fled in confusion in the morning and after dark as far as Sarcoxie, 12 miles. NPS says the retreat became a rout to Sarcoxie, more than ten miles.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO016"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-mo016-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "our troops, in the attempt to take the town, were defeated and the infantry cut up."
+        },
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.287 (OCR page markers; not checked against print)",
+          "quote": "I fell back on my defenses at this place."
+        },
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "uo doubt but that we could have annihilated the enemy if he had appeared in time and on the proper road."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.299 (OCR page markers; not checked against print)",
+          "quote": "Their flight continued until they reached Sarcoxie, Jasper County, a distance of 12 miles."
+        },
+        {
+          "source_id": "nps-mo016-v1",
+          "locator": "Description",
+          "quote": "The Union retreat turned into a rout as some ran all the way to Sarcoxie, more than ten miles away."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "Frozen: 345 total (US 245; CS 100). Live: 323 total (US 245; CS 78). Salomon says the afternoon loss was very small and gives no totals. Cooper says the Ninth Wisconsin infantry was nearly all killed or captured; his casualty return is headed but its table is not printed in the OCR.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen and live figures are not found in the inspected passages.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MO016"
+          },
+          "column": "casualties_text",
+          "quote": "345 total (US 245; CS 100)"
+        },
+        {
+          "source_id": "nps-mo016-v1",
+          "locator": "Estimated Casualties",
+          "quote": "323 total (US 245; CS 78;)"
+        },
+        {
+          "source_id": "or13-salomon-newtonia-selections-v1",
+          "section": "salomon-1862-10-01",
+          "locator": "p.288 (OCR page markers; not checked against print)",
+          "quote": "Our loss in the afternoon was very small."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.298 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s infantry (Ninth Wis- consin) were nearly all destroyed, being either killed or taken prison- ers."
+        },
+        {
+          "source_id": "or13-cooper-newtonia-old-fort-wayne-selections-v1",
+          "section": "cooper-1862-10-02-newtonia",
+          "locator": "p.301 (OCR page markers; not checked against print)",
+          "quote": "Return of Casualties in Cooper’s division in the engagement at Newtonia , Mo ., September 30, 1862."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Weer's, Hall's, Judson's, Lynde's, Jacobi's and Stockton's reports, the Confederate subordinate reports (Bryan, Walker, Buster, Stevens, Hawpe, Alexander), Cooper's casualty table, Schofield's and Hindman's general reports, Britton's Newtonia chapter (located, not read) and maps remain deferred. The OCR repeats the Newtonia pages from Hall's report onward; only the first instance was used.",
+    "NPS/CWSAC is one family (the NPS battle page plus the frozen Arnold rows). Each Official Records report author is a separate family; the OR volume is a shared container, not a witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting.",
+    "Families for this record: NPS/CWSAC; Salomon's October 1, 1862 report; Cooper's October 2, 1862 report (the same Cooper family is used for OK004)."
+  ]
+}
