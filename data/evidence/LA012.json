@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA012",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen LaFourche Crossing record (June 20-21, 1863) in Taylor's Operations in West Louisiana [June-September 1863]. The live campaign label reads Taylor's Operations in Louisiana West of Mississip[pi]. The capture of Thibodeaux on June 20 and of Brashear City on June 23 are context. Campaign-wide movements (Major's raid, the capture of Brashear City and Bayou Boeuf, the river batteries of July 3-10, the withdrawal to the Teche and the September operations) and multi-action totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 838 men from eight regiments [US] and 2nd Cavalry Brigade [CS]; the frozen Union bound is 838 and the live field reads 838 total (US 838; CS 0). Stickney says his force was about 502 on the evening of June 20, that Sawtell arrived with 306 men that night, and that his actual force in the fight was 838, of whom only about 600 were engaged; he estimates the Confederates in the charge at about 600. Irwin repeats the 838 by organization, says Major reported Pyron's attacking regiment as 206 strong, and that Cahill's arrival on June 22 gave Stickney about 1,100 (printed 'i,icxD' in OCR).",
+      "rationale": "Stickney's 838 is a force present on June 21 and his 600 an engaged estimate; the Confederate figures differ (600 estimated against 206 reported for one regiment). Irwin repeats Stickney's 838. None is adopted as a matched opening strength. The live Confederate zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA012"
+          },
+          "column": "forces_text",
+          "quote": "838 men from eight regiments [US]; 2nd Cavalry Brigade [CS]"
+        },
+        {
+          "source_id": "nps-la012-v1",
+          "locator": "Forces Engaged",
+          "quote": "838 total (US 838; CS 0;)"
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "our forces amounted to about 502 men,"
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "arrived with five companies (306 men)."
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "Our actual force during the fight amounted to 838 men, of whom only about 600 were engaged,"
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "The actual force of the enemy engaged in the charge on our lines I estimate at about 600 men."
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "Stickney found himself in command of a medley of 838 men belonging to eight different organizations"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "The attack was led by Pyron's regiment, reported by Major as 206 strong,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "This gave Stickney about i,icxD men,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "levee-railroad-and-open-ground",
+      "dimension": "terrain",
+      "value": "Stickney describes a levee about twelve feet high carrying the railroad over the bayou, level open country covered with tall grass that he had cut, and slight earthworks nowhere over two feet high; Irwin calls the levee a natural fortification.",
+      "rationale": "Ground described by an interested report and a history that follows it; no map verification. The levee predates the action; the earthworks were Stickney's.",
+      "citations": [
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "The levee of the Bayou La Fourche is about 12 feet high ;"
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "The country around was level, affording full play for the artillery, and was covered with tall grass,"
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "We had begun throwing up slight earthworks, but they were at no point over 2 feet in height,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "The levee at this point was about twelve feet high, forming a natural fortification,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rain-canister-and-the-train",
+      "dimension": "logistics",
+      "value": "Stickney says heavy rain drenched his men for most of June 21, that he fired packages of musket ammunition from the 6-pounder for want of canister, and that the train waiting on the track left without orders when the fight began. Irwin says Major captured about 100 Union soldiers, mostly convalescents, at Thibodeaux.",
+      "rationale": "Supply statements from an interested report and a history; not returns.",
+      "citations": [
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "A little after noon, a heavy rain commenced and continued until about 6.30 p. m., thoroughly drenching the men,"
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "Having no canister for the 6-pounder gun, we used in it packages of musket ammunition."
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.197 (OCR page markers; not checked against print)",
+          "quote": "the train in waiting on the track left at the commencement of the fight without orders,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.237 (OCR page markers; not checked against print)",
+          "quote": "At Tbdbodeaux Major picked up all the Union soldiers in the place to the number of about 100, mostly coin-alescents."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "scouting-failures-and-darkness",
+      "dimension": "information",
+      "value": "Stickney says his cavalry scouts returned without intelligence, that proper scouting would have saved the Thibodeaux detachment, and that smoke held low by the damp air hid the enemy's distance and numbers; he judged Brashear City safe for a day or two. Irwin says Sage's detachment fell back without giving timely notice of Major's march.",
+      "rationale": "Attributed knowledge from an interested report and a history; no telegrams inspected.",
+      "citations": [
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "returned with no intelligence whatever of any force on the Bayou La Fourche."
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "Had their scouting been properly done, there was no necessity whatever of the infantry force at Thibodeaux being captured."
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "it was almost impossible to ascertain the distance or numbers of the enemy,"
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "Judging that there was no danger of any attack at Brashear City, for a day or two, at least,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.237 (OCR page markers; not checked against print)",
+          "quote": "thus lost the chance of gaining and giving timely notice of Major's operation."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "raid-the-railroad-or-hold-the-crossing",
+      "dimension": "objectives",
+      "value": "NPS says Taylor sent Major to break Union supply lines and force withdrawals from Brashear City and Port Hudson; Irwin gives Taylor's plan of Major's raid combined with the surprise of Brashear, and says Major set out on June 22 to force his way to Brashear. Stickney went to the crossing on Emory's order to reinforce it.",
+      "rationale": "Stated aims from a summary, a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "nps-la012-v1",
+          "locator": "Description",
+          "quote": "to break Union supply lines, disrupt Union activities and force an enemy withdrawal from Brashear (Morgan) City and Port Hudson."
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.236 (OCR page markers; not checked against print)",
+          "quote": "Taylor's plan was for Major, with his brigade of cav- alry, to cross the Atchafalaya at Morgan's k^erry,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "he set out to force his way to Brashear, where he was expecting to find Green."
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.193 (OCR page markers; not checked against print)",
+          "quote": "ordering me to send re- enforcements to that point."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Irwin says Emory placed Stickney in command of the district without regard to rank; Stickney says he offered the command to the senior Sawtell, who refused, and arrested a major for hiding. Irwin and Stickney credit Major Morgan of the 176th New York; Stickney says the chargers were mostly Pyron's regiment. The frozen commanders are Colonel James P. Major and Lieutenant Colonel Albert Stickney, as on the live page.",
+      "rationale": "Command roles from a history and an interested report; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.238 (OCR page markers; not checked against print)",
+          "quote": "placed him in command of the district, without regard to rank,"
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.195 (OCR page markers; not checked against print)",
+          "quote": "As he was the senior officer, I offered him the command, which he refused."
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "I ordered him under arrest,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "For this result the credit is largely due to the gallantry and good judg- ment of Major Morgan Morgan, Jr., of the 1 76th New York,"
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "The men who charged upon our lines belonged mostly to the Second Texas Mounted Bangers, Colonel [Charles L.] Pyron,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA012",
+            "belligerent": "Confederate",
+            "fullname": "James P. Major"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA012",
+            "belligerent": "US",
+            "fullname": "Albert Stickney"
+          },
+          "column": "rank",
+          "quote": "Lieutenant Colonel"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Stickney says the Confederates retreated toward Thibodeaux about 8 p.m. leaving many dead and wounded; Irwin says the attack was thrown off. NPS says Major's raiders went on to Brashear City.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The raid's later success at Brashear City is campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA012"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-la012-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "hastily retreated toward Thibodeaux, leaving a great number of their dead and wounded near our lines."
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "was received and thrown off by about three quarters of Stickney's force."
+        },
+        {
+          "source_id": "nps-la012-v1",
+          "locator": "Description",
+          "quote": "Despite the defeat, Major's raiders continued on to Brashear City."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 267 total (US 48; CS 219); the live field reads 268 total (US 49; CS 219). Stickney's table totals 8 killed and 41 wounded (49); he counted 53 Confederate dead inside the pickets, found nearly 60 wounded at Thibodeaux, and inferred a loss of about 300 killed and wounded from an assumed ratio. Irwin gives 8 and 41 and quotes a regimental history's 108 dead delivered and 40 prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Stickney's 300 is his inference, not a count.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA012"
+          },
+          "column": "casualties_text",
+          "quote": "267 total (US 48; CS 219)"
+        },
+        {
+          "source_id": "nps-la012-v1",
+          "locator": "Estimated Casualties",
+          "quote": "268 total (US 49; CS 219;)"
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "8 41 i 49 Total"
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "the following morning 53 of their dead were counted inside of our pickets."
+        },
+        {
+          "source_id": "or26-1-stickney-la-fourche-selections-v1",
+          "section": "stickney-1863-07-09",
+          "locator": "p.196 (OCR page markers; not checked against print)",
+          "quote": "from which I conclude that their loss in killed and wounded must have been 300, taking 50 as the number of their killed,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "Stickney's loss was 8 killed and 41 wounded,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.239 (OCR page markers; not checked against print)",
+          "quote": "We delivered to them loS dead. We captured 40 prisoners."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Emory's No. 1 reports, Grow's No. 4, Major's No. 12, Cahill's and the Confederate casualty returns remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892), already registered for the Red River pass, is an interested Union history by the corps' assistant adjutant-general. Its chapters cite and quote Stickney's and Green's reports, so it is not independent of them. Stickney's July 9, 1863 report (Official Records Series I, Volume XXVI, Part 1, a shared container) is one interested Union family. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

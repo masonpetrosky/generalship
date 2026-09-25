@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA013",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Donaldsonville record (June 28, 1863) in Taylor's Operations in West Louisiana [June-September 1863]. The live campaign label reads Taylor's Operations in Louisiana West of Mississip[pi]. Green's approach on June 26-27 is context. Campaign-wide movements (Major's raid, the capture of Brashear City and Bayou Boeuf, the river batteries of July 3-10, the withdrawal to the Teche and the September operations) and multi-action totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads the Fort Butler garrison of two companies of the 28th Maine and convalescents [US] against Green's and Major's brigades [CS]; the live field reads zero. Green heard from citizens on June 27 that the fort held 300 to 500 men and five gunboats, and reported on July 3 a garrison of between 500 and a figure printed '000' in OCR, against his assaulting party of about 800. Irwin says the fort held a mixed force of 180 and that Green brought six regiments and a battery of 1,300 to 1,500; his footnote reads Green's 800 as the four regiments actually engaged and derives 1,811.",
+      "rationale": "Figures for different scopes from an interested report and a history; the garrison figures disagree widely. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA013"
+          },
+          "column": "forces_text",
+          "quote": "Fort Butler Garrison: two companies of the 28th Maine Volunteer Infantry and some convalescents from various regiments [US]; Tom Green's Texas Brigade and Colonel James Patrick Major's Texas Brigade [CS]"
+        },
+        {
+          "source_id": "nps-la013-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-06-27",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "I learn from citizens that the fort con- tains from 300 to 500 Yankees, and that there are five gunboats there now."
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-03",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "The garrison contained between 500 and 000 Federals, Our assaulting party engaged was about 800 strong,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "The work was now held by a mixed force of 180 men,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "Green brought to the attack six regiments and one battery, between 1,300 and 1,500 strong/"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "pp.243–244 (OCR page markers; not checked against print)",
+          "quote": "800 + 750 + 261 = 1,811."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "fort-ditch-and-batture",
+      "dimension": "terrain",
+      "value": "Green described an open approach of 900 yards and a ditch 16 feet wide and 12 deep, and says the assault on the river front failed at an inner ditch his guides had not told him of. Irwin describes a square redoubt in the angle of the bayou and the river with stockades to the water, and low water exposing wide margins of batture. NPS says the ditch was unknown to the attackers and too wide to cross.",
+      "rationale": "Ground described by an interested report, a history and a summary; no map verification. The fort and ditch predate the attack, but their state on June 28 is described only by these accounts, so the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-06-27",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "The approach to the fort is through an open plain 900 yards, and the ditch around it is 16 feet wide and 12 feet deep,"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-03",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "had it not been for the existence of a ditch fronting and inside the levee, of which 1 had no knowledge or information."
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.242 (OCR page markers; not checked against print)",
+          "quote": "This was a square redoubt, placed in the northern angle between the bayou and the Mississippi,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "The river, and there- fore the bayou, were now low, exposing wide margins of batture,"
+        },
+        {
+          "source_id": "nps-la013-v1",
+          "locator": "Description",
+          "quote": "came to a ditch, unknown to them, too wide to cross,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "no-means-to-cross-the-ditch",
+      "dimension": "logistics",
+      "value": "Green says his men had no means to cross the inner ditch and fought with brickbats; he crossed the La Fourche on a bridge of sugar-coolers. Irwin says even the sick of the garrison took part in the defense.",
+      "rationale": "Statements from an interested report and a history; not returns.",
+      "citations": [
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-03",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "and no means whatever on hand to cross it."
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-03",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "Our men here used brick-bats upon the heads of the enemy, who returned the same."
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-03",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "I placed a pontoon bridge across the La Fourche, made of sugar-coolers,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.244 (OCR page markers; not checked against print)",
+          "quote": "even the sick, who had barely strength to walk from the hospital to the rampart, took part in the defence."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "guides-and-signals",
+      "dimension": "information",
+      "value": "Green says that until he came down he had no idea of the fort's position or strength, that his guides assured him the way past the stockade was open, and that Hardeman's and Lane's regiments were delayed by guide failures. Irwin says a signal from the fort warned the navy at ten minutes past midnight.",
+      "rationale": "Attributed knowledge from an interested report and a history; no signal logs inspected.",
+      "citations": [
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-06-27",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "Until I came down here, I had no idea of the position, strength, or feasibility of taking the fort, or the value when taken."
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-03",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "All my guides (and some of them resided within 2 miles of the fort) assured me"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-03",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "being unable to control his guide,"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-03",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "he was waiting for and expecting a guide,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.244 (OCR page markers; not checked against print)",
+          "quote": "At ten minutes past^ midnight the red light of a Coston signal from the fort announced to the Navy that the enemy were coming."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "storm-or-turn-the-fort",
+      "dimension": "objectives",
+      "value": "On June 27 Green advised against storming and proposed to turn the fort from below to annoy the transports; on July 3 he says Mouton's order of the 26th was to take possession of the fort, whose capture would have troubled the army besieging Port Hudson. Irwin says Green was sent there to attack. NPS says Mouton ordered the brigades to take Donaldsonville.",
+      "rationale": "Stated aims from an interested report, a history and a summary; Green's June 27 advice and the attack differ.",
+      "citations": [
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-06-27",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "They think that an attempt to storm will be attended with great loss and no adequate benefit, even if successful ; and this is my opinion."
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-06-27",
+          "locator": "p.226 (OCR page markers; not checked against print)",
+          "quote": "can be better and more safely done by taking a position below Donaldsonville."
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-03",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "commanding me to take possession of the Federal fort at Donaldsonville,"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-03",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "Its capture and occupation would doubtless have caused great uneasiness and inconvenience to the Federal army besieg- ing that fortress."
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.246 (OCR page markers; not checked against print)",
+          "quote": "yet it is clear that he was sent there to attack ;"
+        },
+        {
+          "source_id": "nps-la013-v1",
+          "locator": "Description",
+          "quote": "Mouton ordered Brig. Gen. Tom Green's and Col. James P. Major's brigades to take Donaldsonville."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Green says he set the plan and briefed each regimental commander, and that Colonel Major led the column enveloping the fort. Irwin says Major Bullen commanded the garrison, quotes his message to Emory, and notes criticism of Green's recklessness. The frozen commanders are Brigadier General Tom Green and Major Joseph D. Bullen, as on the live page.",
+      "rationale": "Command roles from an interested report and a history; the Princess Royal's part is not separately attributed. The listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-03",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "Having determined on the plan of attack, I called the officers commanding regiments together,"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-03",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "Colonel Major, commanding the Second Cavalry Brigade, led the head of the column enveloping the fort,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.243 (OCR page markers; not checked against print)",
+          "quote": "Major Joseph D. Bullen, of the 28th, was in command,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.246 (OCR page markers; not checked against print)",
+          "quote": "I want more men ; I must have more men."
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "Green has been sharply criticised for the apparent recklessness with which he delivered his assault,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA013",
+            "belligerent": "Confederate",
+            "fullname": "Tom Green"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA013",
+            "belligerent": "US",
+            "fullname": "Joseph D. Bullen"
+          },
+          "column": "rank",
+          "quote": "Major"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory; the live result reads Indecisive. Green says his men were not repulsed until they met the ditch; Irwin says the fight ended with the flag still flying over the fort; NPS says the point remained in Union hands.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The frozen and live result fields disagree.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA013"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-la013-v1",
+          "locator": "Results",
+          "quote": "Indecisive"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-03",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "We were not repulsed and never would have been until we found,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "discov- ered the American flag flying over the fort."
+        },
+        {
+          "source_id": "nps-la013-v1",
+          "locator": "Description",
+          "quote": "This point on the Mississippi remained in Union hands"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 324 total (US 23; CS 301), and the live field agrees. Green's statement totals 40 killed, 114 wounded and 107 missing (261), and he says he saved about 100 men by his flag of truce. Irwin repeats 261 but says 124 prisoners were counted on the gunboats and the garrison buried 69 Confederates and was still at it; the garrison lost 8 killed and 13 wounded (21) and the Princess Royal 1 killed and 2 wounded.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA013"
+          },
+          "column": "casualties_text",
+          "quote": "324 total (US 23; CS 301)"
+        },
+        {
+          "source_id": "nps-la013-v1",
+          "locator": "Estimated Casualties",
+          "quote": "324 total (US 23; CS 301;)"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-casualties-1863-06-28",
+          "locator": "p.230 (OCR page markers; not checked against print)",
+          "quote": "Total 40 114 107 261"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-03",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "I must have saved 100 . men"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "Green puts his loss at 40 killed, 114 wounded, 107 missing, in all 261."
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "received on board from the provost-marshal 124 prisoners, by actual count,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "the garrison buried 69 Confederates and were \"still at it.\""
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "2 officers and II men wounded — in all 21."
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.245 (OCR page markers; not checked against print)",
+          "quote": "The Princess Royal had I man killed, 2 wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Porter's No. 6 report, Bullen's report (not in the inspected list), Mouton's No. 11 and Taylor's No. 10 reports, Taylor's indorsements (read, not selected), Woolsey's naval report and the Union returns remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892), already registered for the Red River pass, is an interested Union history by the corps' assistant adjutant-general. Its chapters cite and quote Stickney's and Green's reports, so it is not independent of them. Green's June 27 dispatch and July 3, July 14 and October 2, 1863 reports, with his undated casualty statement (Official Records Series I, Volume XXVI, Part 1, a shared container), are one interested Confederate family; Taylor's printed indorsements are not part of it. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

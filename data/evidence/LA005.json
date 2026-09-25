@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA005",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Georgia Landing record (October 27, 1862) in Operations in LaFourche District [October 1862], a one-engagement campaign; the live campaign label reads Operations in Lafourche District. The landing at Donaldsonville on October 25-26, the Confederate evacuation to Berwick Bay by October 30 and the gunboat actions of November 1-5 are context. Campaign-wide movements and totals are not assigned to one record. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. Imported numerical estimates remain unchanged; this pass does not validate them as simultaneous opening forces.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field lists eight Confederate units (approx. 1,392 men) against the Reserve brigade, Department of the Gulf, and the frozen Confederate bound is 1,392; the live field reads 5392 total (US 4000; CS 1392) and NPS says Butler organized a brigade of about 4,000 men. Mouton's return-based table totals 1,392 for both banks, with 594 in the 33d Regiment and 150 in the 2d Louisiana Cavalry. Mouton gives Vincent's information of 2,500 to 3,000 enemy infantry, 250 cavalry and two batteries, an enemy of 1,500 to 1,800 on each bank, and at the close of the day about 2,000 infantry, 100 cavalry and a battery against his own barely 1,000. Irwin says Mouton reported 1,392 and names the outlying La Fourche regiment of 500 and 300 men of the 33d.",
+      "rationale": "Mouton's 1,392 is a return figure for troops on both banks before the fight; the Union figures are NPS's organization figure and Mouton's estimates for different moments. Irwin repeats Mouton's figure and is not an independent check. None is adopted as a matched opening strength.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA005"
+          },
+          "column": "forces_text",
+          "quote": "18th Louisiana Infantry Regiment, Crescent Regiment, Ralston's Battery, Detachment of Cavalry, 33rd Louisiana Infantry Regiment, Terre Bonne Regiment Louisiana Militia, Semmes's Battery and 2nd Louisiana Cavalry Regiment (approx. 1,392 men) [CS]"
+        },
+        {
+          "source_id": "nps-la005-v1",
+          "locator": "Forces Engaged",
+          "quote": "5392 total (US 4000; CS 1392;)"
+        },
+        {
+          "source_id": "nps-la005-v1",
+          "locator": "Description",
+          "quote": "He organized a brigade of about 4,000 men"
+        },
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "Thus to oppose the enemy on the right bank I had, according to returns made, viz :"
+        },
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "Thirty-third Regiment* 594"
+        },
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "Second Louisiana Cavalry 150 ■ OOO 1,392"
+        },
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "the enemy numbered from 2,500 to 3,000 infantry, 250 cavalry, and two batteries of field artillery."
+        },
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "his force being from 1,500 to 1,800 on each side."
+        },
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "the force of the enemy numbered about 2,000 infantry, 100 cavalry, and a battery, while my own barely reached 1,000,"
+        },
+        {
+          "source_id": "irwin-lafourche-1862-selections-v1",
+          "section": "georgia-landing",
+          "locator": "p.46 (OCR page markers; not checked against print)",
+          "quote": "in all reported by Mouton as"
+        },
+        {
+          "source_id": "irwin-lafourche-1862-selections-v1",
+          "section": "georgia-landing",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "including the La Fourche regiment, 500 strong, 300 men of the 33d Louisiana,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "both-banks-of-the-bayou",
+      "dimension": "terrain",
+      "value": "Mouton says the enemy advanced on both banks in about equal force, so he held positions on both sides of the bayou; NPS says his force was divided, generally without means of concentrating. Irwin describes narrow standing room along the bayous and low, heavily wooded ground crossed by deep ditches, where positions and numbers were hard to make out. Mouton says the enemy crossed troops by pontoon bridge to the right bank.",
+      "rationale": "Ground described by an interested report, a history and a summary; no map verification. The division across the bayou was Mouton's response to the advance, so the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "to prevent being outflanked, it became necessary to hold positions on both sides of the bayou."
+        },
+        {
+          "source_id": "nps-la005-v1",
+          "locator": "Description",
+          "quote": "generally without means of concentrating on one side or the other."
+        },
+        {
+          "source_id": "irwin-lafourche-1862-selections-v1",
+          "section": "georgia-landing",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "Along these bayous the standing room is for the most part nar- row ;"
+        },
+        {
+          "source_id": "irwin-lafourche-1862-selections-v1",
+          "section": "georgia-landing",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "crossed by many ditches of con- siderable depth,"
+        },
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "the enemy was crossing troops on pontoon bridge to the right bank"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-train-and-gunboats",
+      "dimension": "logistics",
+      "value": "NPS says the Confederates ran out of artillery ammunition; Mouton says Ralston's battery was badly injured and its ammunition gave out, and that an engineer's refusal to run the train without written orders delayed the concentration of Vick's command. Irwin says the operation needed light gunboats, which Butler had built with army funds.",
+      "rationale": "Supply statements from a summary, an interested report and a history; not returns.",
+      "citations": [
+        {
+          "source_id": "nps-la005-v1",
+          "locator": "Description",
+          "quote": "The Rebels, however, ran out of artillery ammunition"
+        },
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "Ralston’s battery was so severely injured by the enemy’s, and their ammunition giving out,"
+        },
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "refused to go unless by orders in writing"
+        },
+        {
+          "source_id": "irwin-lafourche-1862-selections-v1",
+          "section": "georgia-landing",
+          "locator": "p.46 (OCR page markers; not checked against print)",
+          "quote": "Without naval assistance, the operation would have been difficult, if not impossible ;"
+        },
+        {
+          "source_id": "irwin-lafourche-1862-selections-v1",
+          "section": "georgia-landing",
+          "locator": "p.46 (OCR page markers; not checked against print)",
+          "quote": "With the funds of the army Butler caused four light gunboats,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "warning-and-reported-threats",
+      "dimension": "information",
+      "value": "Mouton says he learned late on October 25 that gunboats and transports were moving up the river, and was informed that the enemy would move simultaneously by Donaldsonville, Des Allemands and Berwick Bay; Irwin says the country offered few points from which positions and numbers could be made out.",
+      "rationale": "Attributed knowledge from an interested report and a history; no scouting reports inspected.",
+      "citations": [
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "Late on the 25th of October, 1862, I received information that the gunboats and transports of the enemy were moving up the river slowly and cautiously,"
+        },
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "Informed that the enemy would make simultaneous movements via Donaldsonville, Des Allemands, and Ber- wick Bay,"
+        },
+        {
+          "source_id": "irwin-lafourche-1862-selections-v1",
+          "section": "georgia-landing",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "there are few points from which their position and numbers can be easily made out."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "occupy-la-fourche-or-save-the-force",
+      "dimension": "objectives",
+      "value": "NPS gives Butler's aims as eliminating the Confederate threat, securing sugar and cotton and gaining a base; Irwin says Butler committed to Weitzel the dislodging of Taylor and occupation of La Fourche. Mouton says his object, had he united his force, was a desperate resistance, but when reinforcements failed he could only maneuver and save his force.",
+      "rationale": "Stated aims from a summary, a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "nps-la005-v1",
+          "locator": "Description",
+          "quote": "to eliminate the Rebel threat from that area, to make sure that sugar and cotton products from there would come into Union hands"
+        },
+        {
+          "source_id": "irwin-lafourche-1862-selections-v1",
+          "section": "georgia-landing",
+          "locator": "p.46 (OCR page markers; not checked against print)",
+          "quote": "Butler at once committed to Weitzel the preparations for dislodging Taylor and occupying La Fourche."
+        },
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "My object, could I have united my force, was to make a desperate resistance and to drive the enemy back if possible,"
+        },
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "no alternative was left to me but to maneuver with the enemy and save my force."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Mouton says Colonel Armant of the 18th commanded the troops on the right bank and disposed them with ability; Irwin says Weitzel pursued for about four miles. The frozen commanders are Brigadier Generals Alfred Mouton and Godfrey Weitzel, as on the live page.",
+      "rationale": "Command roles from an interested report and a history; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.178 (OCR page markers; not checked against print)",
+          "quote": "Colonel Armant, of the Eighteenth Regiment, commanded the troops and disposed of them with ability and judgment,"
+        },
+        {
+          "source_id": "irwin-lafourche-1862-selections-v1",
+          "section": "georgia-landing",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "Weitzel pursued for about four miles."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA005",
+            "belligerent": "Confederate",
+            "fullname": "Alfred Mouton"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA005",
+            "belligerent": "US",
+            "fullname": "Godfrey Weitzel"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Irwin says Mouton's force was compelled to retreat after a short engagement; Mouton says the right-bank troops fell back in some confusion after losing their commander. NPS says the withdrawal opened this portion of the Lafourche.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The evacuation of the district is campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA005"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-la005-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "irwin-lafourche-1862-selections-v1",
+          "section": "georgia-landing",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "After a short but spirited engagement Mouton's force was compelled to retreat."
+        },
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "which was done in some confusion, owing to the loss of their commander."
+        },
+        {
+          "source_id": "nps-la005-v1",
+          "locator": "Description",
+          "quote": "opening up this portion of the Lafourche to the Union."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 315 total (US 86; CS 229), and the live field agrees. Mouton reports 5 killed, 8 wounded and 186 missing and estimates the enemy's loss at 250 to 300 on a paroled officer's information. Irwin repeats Mouton's 199 and says Weitzel claimed 208 prisoners and gave his own loss as 18 killed and 74 wounded, with 5 missing in the nominal lists, 97 in all.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA005"
+          },
+          "column": "casualties_text",
+          "quote": "315 total (US 86; CS 229)"
+        },
+        {
+          "source_id": "nps-la005-v1",
+          "locator": "Estimated Casualties",
+          "quote": "315 total (US 86; CS 229;)"
+        },
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.178 (OCR page markers; not checked against print)",
+          "quote": "Killed, 5; wounded, 8; missing, 186"
+        },
+        {
+          "source_id": "or15-mouton-la-fourche-selections-v1",
+          "section": "mouton-1862-11-04",
+          "locator": "p.178 (OCR page markers; not checked against print)",
+          "quote": "The enemy’s loss reaches fully 250 to 300,"
+        },
+        {
+          "source_id": "irwin-lafourche-1862-selections-v1",
+          "section": "georgia-landing",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "Mouton's re- port accounts for 5 killed, 8 wounded, and 1S6 missing; in all 199."
+        },
+        {
+          "source_id": "irwin-lafourche-1862-selections-v1",
+          "section": "georgia-landing",
+          "locator": "p.47 (OCR page markers; not checked against print)",
+          "quote": "He claims to have taken 208 prisoners and one gun, and states his own losses as 18 killed, and 74 wounded,"
+        },
+        {
+          "source_id": "irwin-lafourche-1862-selections-v1",
+          "section": "georgia-landing",
+          "locator": "p.48 (OCR page markers; not checked against print)",
+          "quote": "thus bringing the total casualties to 97."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Butler's No. 1 and Weitzel's No. 2 reports, Taylor's No. 4 transmittal (read, not selected), the Union nominal casualty lists and the naval reports remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892), already registered for the Red River pass, is an interested Union history by the corps' later assistant adjutant-general. Its Georgia Landing passage gives Mouton's figures from his report, so it is not independent of it. Mouton's November 4, 1862 report (Official Records Series I, Volume XV, a shared container) is one interested Confederate family. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA002",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen New Orleans record (April 25-May 1, 1862) in Expedition to, and Capture of, New Orleans [April-May 1862]. The passage of Forts Jackson and St. Philip (LA001) is context; its April 24 action and April 28 surrender are not counted here. Campaign-wide movements, the other exterior works and the evacuation of Pensacola are context; multi-action totals are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Department of the Gulf [US] and Department No. 1 [CS]; the live field reads zero. Lovell says every Confederate soldier but one company had gone to Corinth and the city was held by about 3,000 ninety-day troops, about 1,200 with muskets, against more than 100 guns afloat; on April 25 thirteen ships engaged the batteries five miles below the city, which Mahan says mounted five and nine guns. Mahan says 250 marines were landed on the 29th. No Union army strength is given in the inspected passages.",
+      "rationale": "Militia, ship and gun figures from an interested report and a history; not returns. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA002"
+          },
+          "column": "forces_text",
+          "quote": "Department of the Gulf [US]; Department No. 1 [CS]"
+        },
+        {
+          "source_id": "nps-la002-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-05-22",
+          "locator": "p.513 (OCR page markers; not checked against print)",
+          "quote": "every Confederate soldier in 'New Orleans, with the exception of one company, had been ordered to Corinth,"
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-05-22",
+          "locator": "p.513 (OCR page markers; not checked against print)",
+          "quote": "the city was only garrisoned by about 3,000 ninety-day troops, called out by the governor at my request, of whom about 1,200 had muskets"
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-05-22",
+          "locator": "p.515 (OCR page markers; not checked against print)",
+          "quote": "confronting more than 100 guns afloat of the largest caliber,"
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-04-26",
+          "locator": "p.511 (OCR page markers; not checked against print)",
+          "quote": "On the morning of the 25th thirteen of the enemy^s ships engaged our batteries 5 miles below the city,"
+        },
+        {
+          "source_id": "mahan-new-orleans-selections-v1",
+          "section": "city-and-forts-surrender",
+          "locator": "p.85 (digital page markers; not checked against print)",
+          "quote": "the Chalmette and McGehee batteries were encountered, mounting five and nine guns."
+        },
+        {
+          "source_id": "mahan-new-orleans-selections-v1",
+          "section": "city-and-forts-surrender",
+          "locator": "p.87 (digital page markers; not checked against print)",
+          "quote": "sent ashore a battalion of 250 marines,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "city-between-river-and-swamp",
+      "dimension": "terrain",
+      "value": "Mahan says the city lay between the swamps and the Mississippi with a single narrow land exit, and that the river, full to the tops of the levees, let the fleet's guns command the exit and the streets. Lovell says the high water left the Chalmette lines untenable against guns that looked down on the country, and that one ship at Kenner could command the Jackson Railroad.",
+      "rationale": "Ground and water described by a history and an interested report; no map verification. The river's height predates the action.",
+      "citations": [
+        {
+          "source_id": "mahan-new-orleans-selections-v1",
+          "section": "city-and-forts-surrender",
+          "locator": "p.86 (digital page markers; not checked against print)",
+          "quote": "Enclosed between the swamps and the Mississippi, its only outlet by land was by a narrow neck,"
+        },
+        {
+          "source_id": "mahan-new-orleans-selections-v1",
+          "section": "city-and-forts-surrender",
+          "locator": "p.86 (digital page markers; not checked against print)",
+          "quote": "so that the guns of the fleet commanded both the narrow exit and the streets of the city."
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-05-22",
+          "locator": "p.514 (OCR page markers; not checked against print)",
+          "quote": "in a high stage of water were utterly untenable by infantry 5igainst guns afloat."
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-05-22",
+          "locator": "p.515 (OCR page markers; not checked against print)",
+          "quote": "the enemy had only to anchor one of his ships at Kenner to command the Jackson Rail- road,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "food-powder-and-removal",
+      "dimension": "logistics",
+      "value": "Mahan says there was food for no more than a few days; Lovell says there was not more than eighteen days' food for the population. Lovell says the powder for the 32-pounder battery had been transferred to the Louisiana, and that most ordnance, provisions and quartermaster's property were sent out of the city by rail or steamer. Mahan describes coal, cotton and shipping burning on the levee.",
+      "rationale": "Supply statements from a history and an interested report; the food estimates differ. Not returns.",
+      "citations": [
+        {
+          "source_id": "mahan-new-orleans-selections-v1",
+          "section": "city-and-forts-surrender",
+          "locator": "p.86 (digital page markers; not checked against print)",
+          "quote": "there was not food for more than a few days."
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-05-22",
+          "locator": "p.515 (OCR page markers; not checked against print)",
+          "quote": "as there was not more than eighteen days’ food on hand for the popula- tion,"
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-05-22",
+          "locator": "p.514 (OCR page markers; not checked against print)",
+          "quote": "The powder intended for this battery of 32-pounders had been transferred by me to the steamer Louisiana a few days before,"
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-05-22",
+          "locator": "p.515 (OCR page markers; not checked against print)",
+          "quote": "The greater portion of the ordnanee stores, provisions, and quarter- master’s property were sent from the city by rail or steamer,"
+        },
+        {
+          "source_id": "mahan-new-orleans-selections-v1",
+          "section": "city-and-forts-surrender",
+          "locator": "p.86 (digital page markers; not checked against print)",
+          "quote": "Up and down the levee coal, cotton, steamboats, ships, were ablaze,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "expected-direction-of-attack",
+      "dimension": "information",
+      "value": "Lovell says the general impression was that New Orleans would not be attacked by the river, although he had told the Department on March 22 that the fleet awaited only the mortar vessels; once the fleet passed the forts he judged the city could not be held more than twenty-four hours. Mahan says Richmond expected the dangerous attack from above.",
+      "rationale": "Attributed knowledge from an interested report and a history; the March 22 letter itself was not inspected.",
+      "citations": [
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-05-22",
+          "locator": "p.512 (OCR page markers; not checked against print)",
+          "quote": "the general impression being that New Orleans would not be attacked by the river,"
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-05-22",
+          "locator": "p.513 (OCR page markers; not checked against print)",
+          "quote": "in my judgment, the fleet only awaited the arrival of the mortar vessels to attempt- to pass up the river from below"
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-04-26",
+          "locator": "p.510 (OCR page markers; not checked against print)",
+          "quote": "When the enemy’s fleet passed 1 was sat- isfied that JSTew Orleans could not be held for more than twenty-four hours ;"
+        },
+        {
+          "source_id": "mahan-new-orleans-selections-v1",
+          "section": "forts-obstructions-and-passage",
+          "locator": "p.59 (digital page markers; not checked against print)",
+          "quote": "the authorities in Richmond had their minds firmly made up that the great and dangerous attack was to come from above."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "surrender-demand-and-evacuation",
+      "dimension": "objectives",
+      "value": "NPS and Mahan say Farragut demanded the city's surrender on the 25th and the hoisting of the United States flag. Lovell says he went to the city to remove troops and stores, refused to surrender, and said he would evacuate and turn the city over to the mayor rather than subject it to bombardment.",
+      "rationale": "Stated aims from a summary, a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "nps-la002-v1",
+          "locator": "Description",
+          "quote": "demanded the surrender of the City of New Orleans the next day."
+        },
+        {
+          "source_id": "mahan-new-orleans-selections-v1",
+          "section": "city-and-forts-surrender",
+          "locator": "p.86 (digital page markers; not checked against print)",
+          "quote": "Captain Bailey was sent ashore to demand the surrender, and that the United States flag should be hoisted upon the public buildings."
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-04-26",
+          "locator": "p.510 (OCR page markers; not checked against print)",
+          "quote": "I therefore started at once for the city, in order to remove as many of the troops and as large a quantity of stores as possible."
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-04-26",
+          "locator": "p.511 (OCR page markers; not checked against print)",
+          "quote": "I declined peremptorily to surrender,"
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-04-26",
+          "locator": "p.511 (OCR page markers; not checked against print)",
+          "quote": "I should evacuate, with my command, and turn the city over to the mayor;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Lovell ordered M. L. Smith, commanding the interior lines, to resist at the batteries below the city, and regretted that he had no control of the defenses afloat. Mahan says Farragut sent 250 marines ashore on the 29th and that the city was turned over to Butler on the evening of May 1; NPS says Butler's army began landing that day. The frozen commanders are Major General Mansfield Lovell, Flag Officer David G. Farragut and Major General Benjamin Franklin Butler; the live page gives Farragut as Admiral and does not list Butler.",
+      "rationale": "Command roles from an interested report, a history and a summary; the listed commanders do not receive automatic sole credit, and the live rank is not adopted.",
+      "citations": [
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-05-22",
+          "locator": "p.514 (OCR page markers; not checked against print)",
+          "quote": "giving- orders to General Smith, in command of the interior lines,"
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-05-22",
+          "locator": "p.518 (OCR page markers; not checked against print)",
+          "quote": "I had frequent occasion to regret that it was found impossible to give me control of the defenses afloat as well as ashore."
+        },
+        {
+          "source_id": "mahan-new-orleans-selections-v1",
+          "section": "city-and-forts-surrender",
+          "locator": "p.87 (digital page markers; not checked against print)",
+          "quote": "the flag-officer, on the 29th, sent ashore a battalion of 250 marines,"
+        },
+        {
+          "source_id": "mahan-new-orleans-selections-v1",
+          "section": "city-and-forts-surrender",
+          "locator": "p.87 (digital page markers; not checked against print)",
+          "quote": "until General Butler arrived on the evening of May 1st, when the city was turned over to his care."
+        },
+        {
+          "source_id": "nps-la002-v1",
+          "locator": "Description",
+          "quote": "On May 1, Maj. Gen. Benjamin Franklin Butler's army began landing at New Orleans and occupying the city."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA002",
+            "belligerent": "Confederate",
+            "fullname": "Mansfield Lovell"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA002",
+            "belligerent": "US",
+            "fullname": "David G. Farragut"
+          },
+          "column": "rank",
+          "quote": "Flag Officer"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA002",
+            "belligerent": "US",
+            "fullname": "Benjamin Franklin Butler"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-la002-v1",
+          "locator": "Principal Commanders",
+          "quote": "Admiral David Farragut [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. NPS says the city surrendered on April 28. Mahan says the mayor announced his submission and Bailey hoisted the flag on the mint, which citizens hauled down the next day; Lovell says he advised the mayor not to surrender the city. Both Lovell and Mahan say the city's fate was decided at the forts.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The form and date of the city's surrender differ between the summary and the inspected accounts.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA002"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-la002-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-la002-v1",
+          "locator": "Description",
+          "quote": "The city surrendered on April 28."
+        },
+        {
+          "source_id": "mahan-new-orleans-selections-v1",
+          "section": "city-and-forts-surrender",
+          "locator": "p.87 (digital page markers; not checked against print)",
+          "quote": "the mayor, with some natural grandiloquence, announced his submission to the inevitable, and Captain Bailey hoisted the flag on the mint."
+        },
+        {
+          "source_id": "mahan-new-orleans-selections-v1",
+          "section": "city-and-forts-surrender",
+          "locator": "p.87 (digital page markers; not checked against print)",
+          "quote": "The next day it was hauled down by a party of four citizens;"
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-05-22",
+          "locator": "p.516 (OCR page markers; not checked against print)",
+          "quote": "1 then advised the mayor not to surrender the city,"
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-05-22",
+          "locator": "p.518 (OCR page markers; not checked against print)",
+          "quote": "The battle for the defense of Kew Orleans was fought and lost, at Forts Jackson and Saint Philip."
+        },
+        {
+          "source_id": "mahan-new-orleans-selections-v1",
+          "section": "city-and-forts-surrender",
+          "locator": "p.86 (digital page markers; not checked against print)",
+          "quote": "for the fate of the city was there decided."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads None, and the live field reads zero. Neither Lovell nor Mahan gives a loss figure for the fire at the batteries below the city on April 25; Lovell says the fire was returned as long as the powder lasted, with little apparent effect.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. An absent figure is not a measured zero.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA002"
+          },
+          "column": "casualties_text",
+          "quote": "None"
+        },
+        {
+          "source_id": "nps-la002-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or6-lovell-new-orleans-selections-v1",
+          "section": "lovell-1862-05-22",
+          "locator": "p.514 (OCR page markers; not checked against print)",
+          "quote": "returned with spirit by the troops as long as their powder lasted, but with little apparent effect upon the enemy."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Butler's No. 1 reports, M. L. Smith's report on the Chalmette lines (No. 7), Lovell's inclosures A-D and the Court of Inquiry (No. 8), Farragut's and Bailey's naval reports and the city correspondence remain deferred.",
+    "NPS/CWSAC is one family. A. T. Mahan's The Gulf and Inland Waters (Scribner's, copyright 1883; the Project Gutenberg text of the 1898 London issue) is an interested Union naval history already registered for the Mississippi pass; it relies chiefly on the official reports and cites the Confederate officers' testimony, so it is not independent of them. Lovell's April 26 and May 22, 1862 reports are one interested Confederate family. Official Records Series I, Volume VI is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

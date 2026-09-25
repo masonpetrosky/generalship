@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA016",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Stirling's Plantation record (September 29, 1863) in Taylor's Operations in West Louisiana [June-September 1863]. The live campaign label reads Taylor's Operations in Louisiana West of Mississip[pi]. Green's Atchafalaya crossing on September 28-30 is context. Campaign-wide movements (Major's raid, the capture of Brashear City and Bayou Boeuf, the river batteries of July 3-10, the withdrawal to the Teche and the September operations) and multi-action totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 2nd Division, XIII Army Corps [US] and forces on the Atchafalaya River [CS]; the live field reads zero. NPS says a 1,000-man detachment under Leake was at Stirling's Plantation; Irwin says Herron's division at Morganza was about 2,500 strong. Green names Speight's and Mouton's brigades, Waller's and Rountree's battalions, Semmes's battery and three dismounted Texas regiments without numbers.",
+      "rationale": "Figures for different scopes (detachment and division) from a summary and a history; no Confederate count. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA016"
+          },
+          "column": "forces_text",
+          "quote": "2nd Division, XIII Army Corps [US]; forces on the Atchafalaya River [CS]"
+        },
+        {
+          "source_id": "nps-la016-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "nps-la016-v1",
+          "locator": "Description",
+          "quote": "A 1,000-man detachment, under the command of Lt. Col. J.B. Leake, was at Stirling's Plantation"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "fordoche",
+          "locator": "p.273 (OCR page markers; not checked against print)",
+          "quote": "This division was about 2,500 strong,"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "Speight’s and Mou- ton’s brigades of infantry were next in order,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "swamp-trail-and-mud",
+      "dimension": "terrain",
+      "value": "Green places the action at the Fordoche Bridge and Mrs. Stirling's, six miles from Morganza, and sent Gray by a swamp trail to the Morganza road between the Union main body and its advance; he describes roads knee-deep in mud. NPS says mud and rain slowed Dana's reinforcements.",
+      "rationale": "Ground described by an interested report and a summary; no map verification. The approach by the swamp trail was Green's choice.",
+      "citations": [
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "on the Fordoche, 6 miles from Morganza."
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "by a trail through the swamp, which intersected the Morganza State road some 4 miles from that place,"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "roads knee-deep in mud,"
+        },
+        {
+          "source_id": "nps-la016-v1",
+          "locator": "Description",
+          "quote": "mud and rain slowed their progress"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ferry-flats-and-rain",
+      "dimension": "logistics",
+      "value": "Green says two small ferry-flats could carry 18 horses or 80 men, that rain fell from the evening of the 28th to the night of the 30th, that the recrossing with one flat lasted nearly till daylight, and that many men fell out exhausted; he lists two guns, ambulances and a hospital wagon among the captures.",
+      "rationale": "Statements from an interested report; not returns.",
+      "citations": [
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.329 (OCR page markers; not checked against print)",
+          "quote": "The means of crossing the Atchafalaya consisted at this time of two small ferry-fiats, carrying together 18 horses or 80 footmen."
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "The rain commenced falling at dark on the evening of the 28th,"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "only one ferry-flat could be used, it was nearly daylight before their crossing was completed."
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "Many of the infantry and dismounted men fell by the roadside, com- pletely exhausted"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "2 new ambulances and 1 hospital wagon, new, filled with medical stores,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "guides-and-an-unknown-road",
+      "dimension": "information",
+      "value": "Green says local guides showed Gray the swamp trail, and that the Union cavalry escaped by a road unknown to him. NPS says Mouton judged the opportunity favorable.",
+      "rationale": "Attributed knowledge from an interested report and a summary; no scouting reports inspected.",
+      "citations": [
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.331 (OCR page markers; not checked against print)",
+          "quote": "whose services were invaluable as guides."
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "which was unknown to me."
+        },
+        {
+          "source_id": "nps-la016-v1",
+          "locator": "Description",
+          "quote": "decided that he had a favorable opportunity to defeat the Union forces around Fordoche Bridge."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "guard-the-atchafalaya-or-strike-the-outpost",
+      "dimension": "objectives",
+      "value": "NPS says the detachment guarded the road to the Atchafalaya; Irwin says the division was posted at Morganza to prevent any fresh Confederate movement across the upper Atchafalaya. Green ordered Gray to attack the Union advance on reaching the road intersection; NPS says Mouton gave the order to attack on the 25th.",
+      "rationale": "Stated aims from a summary, a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "nps-la016-v1",
+          "locator": "Description",
+          "quote": "to guard the road to the Atchafalaya River and deter any enemy troops from passing by."
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "fordoche",
+          "locator": "p.273 (OCR page markers; not checked against print)",
+          "quote": "to observe and prevent any fresh movement by the Confederates across the upper Atchafalaya."
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "Colonel Gray was ordered to attack the enemy’s advance at once on reaching the intersec- tion of road,"
+        },
+        {
+          "source_id": "nps-la016-v1",
+          "locator": "Description",
+          "quote": "gave the order to attack on the 25th."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Green directed the crossing and the attack, sending Gray by the swamp and ordering Boone's charge that closed the fight. Irwin says Dana had just taken over from Herron, who was ill; NPS says Dana sent reinforcements. The frozen commanders are Brigadier General Tom Green and Major General Napoleon J. T. Dana, as on the live page.",
+      "rationale": "Command roles from an interested report, a history and a summary; Leake's command of the outpost is given only by NPS. The listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "Major Boone was ordered to take his own com- mand and Rountree’s battalion and charge the enemy at Mrs. Stirling’s,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "fordoche",
+          "locator": "p.273 (OCR page markers; not checked against print)",
+          "quote": "Herron, being ill, had just turned over the command to Dana,"
+        },
+        {
+          "source_id": "nps-la016-v1",
+          "locator": "Description",
+          "quote": "Although Dana sent reinforcements,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA016",
+            "belligerent": "Confederate",
+            "fullname": "Tom Green"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA016",
+            "belligerent": "US",
+            "fullname": "Napoleon J.T. Dana"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory and the live result Confederate Victory. Green says Boone's charge closed the fight, the enemy surrendering in detachments; NPS says Green defeated the force handily but did not deter Banks.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. Banks's continued movement is campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA016"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-la016-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "This charge closed the fight, the enemy sur- rendering in detachments"
+        },
+        {
+          "source_id": "nps-la016-v1",
+          "locator": "Description",
+          "quote": "but it did not deter Banks from his intended movement."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 575 total (US 454; CS 121); the live field reads 636 total (US 515; CS 121). Green reports 433 enlisted and 29 officer prisoners and a loss totalling 121 in his inclosure. Irwin says Green killed 16, wounded 45 and took 454 prisoners, and gives Green's loss as 26 killed, 85 wounded and 10 missing, printed as 212 in all although those figures sum to 121.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Irwin's printed 212 does not match his components and is preserved as printed.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA016"
+          },
+          "column": "casualties_text",
+          "quote": "575 total (US 454; CS 121)"
+        },
+        {
+          "source_id": "nps-la016-v1",
+          "locator": "Estimated Casualties",
+          "quote": "636 total (US 515; CS 121;)"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.330 (OCR page markers; not checked against print)",
+          "quote": "433 non-commissioned officers and privates and 29 officers prisoners,"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-10-02",
+          "locator": "p.332 (OCR page markers; not checked against print)",
+          "quote": "Total 4 22 7 78 10 1 121"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "fordoche",
+          "locator": "p.273 (OCR page markers; not checked against print)",
+          "quote": "killed 16, wounded 45, and took 454 prisoners."
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "fordoche",
+          "locator": "p.273 (OCR page markers; not checked against print)",
+          "quote": "In all, 212."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Banks's No. 1 (read), Dana's No. 2, Bruce's No. 3 and the Second Division record of events (No. 4), Mouton's No. 5 with Taylor's indorsement (read, not selected), the subordinate Confederate reports and the Union returns remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892), already registered for the Red River pass, is an interested Union history by the corps' assistant adjutant-general. Its chapters cite and quote Stickney's and Green's reports, so it is not independent of them. Green's June 27 dispatch and July 3, July 14 and October 2, 1863 reports, with his undated casualty statement (Official Records Series I, Volume XXVI, Part 1, a shared container), are one interested Confederate family; Taylor's printed indorsements are not part of it. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

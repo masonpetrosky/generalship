@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA009",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Plains Store record (May 21, 1863) in Siege of Port Hudson [May-July 1863]. The Port Hudson record (LA010) shares the same start date; this record covers only the action at the Plains Store crossroads. The investment of May 22-25, the Clinton expedition, Logan's raids, Springfield Landing and the June operations against Taylor are context; siege-wide totals are not assigned to Plains Store or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 1st Division, XIX Army Corps and Cavalry Brigade [US] and a small combined infantry, artillery and cavalry force [CS]; the live field reads zero. Miles says he moved out with 400 infantry and a battery, and that prisoners put the enemy at fifteen regiments besides artillery and a large cavalry force; Irwin gives Miles's battalion as about 400 with Boone's battery and lists Augur's brigades, squadron and batteries without numbers.",
+      "rationale": "Confederate detachment figures from an interested report and a history that follows it; no Union count. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA009"
+          },
+          "column": "forces_text",
+          "quote": "1st Division, XIX Army Corps and Cavalry Brigade [US]; small combined infantry, artillery, and cavalry force [CS]"
+        },
+        {
+          "source_id": "nps-la009-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-05-22",
+          "locator": "p.167 (OCR page markers; not checked against print)",
+          "quote": "With 400 infantry and a battery of my command,"
+        },
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-05-22",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "the prisoners captured by us stating it to consist of fifteen regi- ments of infantry, besides artillery and a large cavalry force."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "plains-store",
+          "locator": "p.161 (OCR page markers; not checked against print)",
+          "quote": "Gard- ner sent out Miles, with his battalion, about 400 strong, and Boone's battery,"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "plains-store",
+          "locator": "p.161 (OCR page markers; not checked against print)",
+          "quote": "With Augur now were Dudley, Chapin, Grierson,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forest-and-crossroads",
+      "dimension": "terrain",
+      "value": "Irwin says Grierson met the Confederates at the wood bounding the plain and that Miles met Augur in the heavy forest masking the crossroads; NPS places the objective at the intersection of the Plains Store and Bayou Sara roads. Miles says his skirmishers found the Union infantry near Plains Store.",
+      "rationale": "Ground described by a history, a summary and an interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "plains-store",
+          "locator": "p.161 (OCR page markers; not checked against print)",
+          "quote": "When Grierson came to the edge of the wood that forms the southern boundary of the plain,"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "plains-store",
+          "locator": "p.161 (OCR page markers; not checked against print)",
+          "quote": "In the heavy forest that then masked the cross- roads and formed the western border of the plain,"
+        },
+        {
+          "source_id": "nps-la009-v1",
+          "locator": "Description",
+          "quote": "toward the intersection of Plains Store and Bayou Sara roads"
+        },
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-05-22",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "until near Plains Store, where my skirmishers found the enemy’s infantry with some artillery,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "wounded-left-for-want-of-transport",
+      "dimension": "logistics",
+      "value": "Miles says he brought off 23 of his wounded, all he could furnish transportation for. No other supply statement was found in the inspected passages.",
+      "rationale": "One statement from an interested report; not a return.",
+      "citations": [
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-05-22",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "bringing off 23 of my wounded, this being all I could furnish transportation for."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "uncertain-numbers-on-both-sides",
+      "dimension": "information",
+      "value": "Miles says he had no means of knowing the enemy's exact number. Irwin says Augur had to deploy as if against the full enemy force, and that no complete reports of the affair were made. NPS says Miles arrived after the first fighting had ceased.",
+      "rationale": "Attributed knowledge from an interested report, a history and a summary; no dispatches inspected.",
+      "citations": [
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-05-22",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "I have no means of knowing the exact number of the enemy we en- countered."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "plains-store",
+          "locator": "p.162 (OCR page markers; not checked against print)",
+          "quote": "as for a battle with the full force of the enemy, which he was bound to suppose was about to engage him."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "plains-store",
+          "locator": "p.161 (OCR page markers; not checked against print)",
+          "quote": "no complete reports of the affair were made and the regimental narratives are meagre."
+        },
+        {
+          "source_id": "nps-la009-v1",
+          "locator": "Description",
+          "quote": "By the time that Miles arrived in the area late in the day, the fighting had ceased,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "seize-the-line-of-retreat",
+      "dimension": "objectives",
+      "value": "Irwin says Augur marched to seize the enemy's line of retreat at the crossing of the Plains Store and Bayou Sara roads and open the way for Banks, and that Gardner sent Miles to feel Augur's advance and perhaps drive it away; NPS says Augur was securing a landing for Banks. Miles says he moved out under orders.",
+      "rationale": "Stated aims from a history, a summary and an interested report.",
+      "citations": [
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "plains-store",
+          "locator": "p.161 (OCR page markers; not checked against print)",
+          "quote": "to seize the enemy's line of retreat and to open the way for Banks."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "plains-store",
+          "locator": "p.161 (OCR page markers; not checked against print)",
+          "quote": "to feel Augur's advance and perhaps to drive it away."
+        },
+        {
+          "source_id": "nps-la009-v1",
+          "locator": "Description",
+          "quote": "on the way to secure a landing, on the river, for Maj. Gen. Nathaniel Banks."
+        },
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-05-22",
+          "locator": "pp.167–168 (OCR page markers; not checked against print)",
+          "quote": "I moved out yesterday on the Plains road, in obedience to orders."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Irwin says Grierson's advance met a detachment under Colonel S. P. Powers of the 14th Arkansas, and that Dudley and Chapin supported Augur's guns; Miles ordered a section of Boone's battery forward to rake the Union flank. The frozen commanders are Colonel Frank P. Powers, Colonel William R. Miles and Major General Christopher C. Augur; the live page lists Augur and Frank Powers.",
+      "rationale": "Command roles from a history and an interested report; Powers's initials differ between Irwin and the frozen record, and the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "plains-store",
+          "locator": "p.161 (OCR page markers; not checked against print)",
+          "quote": "Colo- nel S. P. Powers of the 14th Arkansas regiment,"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "plains-store",
+          "locator": "p.161 (OCR page markers; not checked against print)",
+          "quote": "Dudley, on the right of the road that leads from Plains Store to Port Hudson, supporting Holcomb's guns, and Chapin on the left supporting Rawles's guns."
+        },
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-05-22",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "I at once ordered a section of Captain [R. M.] Boone’s battery to advance up the Plains Store road,"
+        },
+        {
+          "source_id": "nps-la009-v1",
+          "locator": "Description",
+          "quote": "Col. Benjamin H. Grierson's cavalry, in the lead, encountered Confederate forces under the command of Col. Frank P. Powers"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA009",
+            "belligerent": "Confederate",
+            "fullname": "Frank P. Powers"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA009",
+            "belligerent": "Confederate",
+            "fullname": "William R. Miles"
+          },
+          "column": "rank",
+          "quote": "Colonel"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA009",
+            "belligerent": "US",
+            "fullname": "Christopher C. Augur"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "nps-la009-v1",
+          "locator": "Principal Commanders",
+          "quote": "Colonel Frank Powers [CS]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Miles says Boone's fire let him withdraw at leisure and in good order; Irwin says it enabled Miles to retire behind the breastworks. NPS says the last escape route was closed.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The closing of the investment is campaign context.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA009"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-la009-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-05-22",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "enabling me to withdraw the command at leisure and in good order,"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "plains-store",
+          "locator": "p.162 (OCR page markers; not checked against print)",
+          "quote": "enabled Miles to draw off and retire behind the breastworks."
+        },
+        {
+          "source_id": "nps-la009-v1",
+          "locator": "Description",
+          "quote": "the last Confederate escape route from Port Hudson was closed."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 250 total (US 150; CS 100), and the live field agrees. Irwin gives the Union loss as 15 killed, 3 officers and 69 men wounded and 25 missing (102). Miles reports 89 killed, wounded and missing, knowing only of 8 killed and 23 wounded, and says the enemy reported burying 40 of his dead; Irwin also cites a surgeon's return of 12 killed and 36 wounded at Plains Store.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA009"
+          },
+          "column": "casualties_text",
+          "quote": "250 total (US 150; CS 100)"
+        },
+        {
+          "source_id": "nps-la009-v1",
+          "locator": "Estimated Casualties",
+          "quote": "250 total (US 150; CS 100;)"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "plains-store",
+          "locator": "p.162 (OCR page markers; not checked against print)",
+          "quote": "The total casualties were 15 men killed, 3 officers and 69 men wounded, and 25 men missing — in all, 102."
+        },
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-05-22",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "Our loss in killed, wounded, and missing is 89."
+        },
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-05-22",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "I only know of 8 killed and 23 wounded."
+        },
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-05-22",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "The enemy, however, report having buried 40 of our dead,"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "surrender",
+          "locator": "p.234 (OCR page markers; not checked against print)",
+          "quote": "Nor does this total include the losses at Plains Store, which, according to the surgeon's return, were 12 killed and 36 wounded,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Augur's and Grierson's reports (not printed in the inspected list), Dudley's No. 17 report, the Union return (No. 2), Powers's report and the Confederate return (No. 34) remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892), already registered for the Red River pass, is an interested Union history by the corps' assistant adjutant-general. Irwin served on Banks's staff during the siege and was named a surrender commissioner, and his chapters cite Miles's report and a Confederate surgeon's partial return, so they are not independent of them. Miles's May 22 report and May 24-July 7 field reports (Official Records Series I, Volume XXVI, Part 1, a shared container) are one interested Confederate family; Miles commanded a legion and later the right wing, not the garrison. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

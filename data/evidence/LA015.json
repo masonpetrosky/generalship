@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA015",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Kock's Plantation record (July 12-13, 1863) in Taylor's Operations in West Louisiana [June-September 1863]. The live campaign label reads Taylor's Operations in Louisiana West of Mississip[pi]. The Union landing at Donaldsonville on July 10-11 is context. Campaign-wide movements (Major's raid, the capture of Brashear City and Bayou Boeuf, the river batteries of July 3-10, the withdrawal to the Teche and the September operations) and multi-action totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Weitzel's and Grover's Divisions, XIX Army Corps [US] and two understrength Confederate brigades [CS]; the live field reads zero. Green says Major's brigade had not over 800 effectives and his own three regiments not over 750, against at least ten transports of troops; prisoners named Weitzel's and Dwight's brigades and part of Grover's command. Irwin says Grover held both banks with two divisions, that Dudley's and Morgan's brigades advanced with Paine in support, and that Green posted four regiments with four guns and three regiments with two guns.",
+      "rationale": "Green's effective figures and Irwin's unit identifications; the Union advance was two brigades of two divisions present. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA015"
+          },
+          "column": "forces_text",
+          "quote": "Godfrey Weitzel's and Cuvier Grover's Divisions, XIX Army Corps [US]; two understrength Confederate brigades [CS]"
+        },
+        {
+          "source_id": "nps-la015-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-14",
+          "locator": "p.230 (OCR page markers; not checked against print)",
+          "quote": "not over 800 effective men present,"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-14",
+          "locator": "p.230 (OCR page markers; not checked against print)",
+          "quote": "not over 750 effective men) were posted on the left ascending bank,"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-14",
+          "locator": "p.230 (OCR page markers; not checked against print)",
+          "quote": "on July 11 at least ten transports came down from Port Hudson to Donaldson ville, crowded with troops."
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-14",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "the prisoners represented that we fought the brigades of Generals Weitzel and Dwight on the right descending bank of the La Fourche,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "holding both banks of Bayou La Fourche with two divisions."
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "he posted Major with four regiments and four guns on the left or east bank of the bayou, and on the right or west bank three regiments and two guns of his own brigade."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cornfields-ditches-and-willows",
+      "dimension": "terrain",
+      "value": "Irwin says Green was favored by a narrow field, rank corn, willow thickets, deep plantation ditches and his knowledge of the country; Green says the cornfields across the valley kept him from judging the enemy's strength and that the Union troops rallied in the ditches.",
+      "rationale": "Ground described by a history and an interested report; no map verification. Green chose to attack on this ground, so it is not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "favored by a narrow field, a rank growth of corn, dense thickets of willows, the deep ditches common to all sugar plantations in these lowlands,"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-14",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "on account of the large cornfields crossing the whole val- ley,"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-14",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "The enemy frequently rallied in the ditches across the fields,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forage-and-captures",
+      "dimension": "logistics",
+      "value": "NPS says a foraging detachment set out on both banks; Irwin says the advance aimed to find new fields for forage and that two guns were lost. Green claims three guns with ammunition, provisions, tents, wagons and teams.",
+      "rationale": "Statements from a summary, a history and an interested report; the captured-gun counts differ. Not returns.",
+      "citations": [
+        {
+          "source_id": "nps-la015-v1",
+          "locator": "Description",
+          "quote": "a foraging detachment set out along both banks of the bayou."
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "to find new fields for forage for the animals,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "two guns were lost,"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-14",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "We captured also three pieces of artillery,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "mistaken-expectations",
+      "dimension": "information",
+      "value": "Irwin says Green at first took the transports for an attack on him rather than a sign that Port Hudson had fallen, and that the Union columns were struck almost before they knew anything more than pickets was in front. Green says the cornfields kept him from ascertaining the enemy's strength with skirmishers.",
+      "rationale": "Attributed knowledge from a history and an interested report; no dispatches inspected.",
+      "citations": [
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "it did not at once occur to him that Port Hudson was lost ; he simply thought these troops were coming to attack him."
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "drove them In almost before they were aware of the presence in their front of anything more than the pickets,"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-14",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "not being able to ascertain his precise strength with skirmishers"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "forage-advance-or-assault",
+      "dimension": "objectives",
+      "value": "Irwin says Grover moved out without any intention of bringing on a battle, and that afterwards it was agreed not to press Taylor until the gunboats reached Berwick Bay. Green says he meant to feel the enemy and, if the chance offered, assault the advancing columns. NPS says the Union aim was to move inland and pacify the interior.",
+      "rationale": "Stated aims from a history, an interested report and a summary.",
+      "citations": [
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.251 (OCR page markers; not checked against print)",
+          "quote": "without any intention of bringing on a battle or of hastening the enemy's movements,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.254 (OCR page markers; not checked against print)",
+          "quote": "It was agreed on all hands that it was inexpedient to press Taylor hard"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-14",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "if a favorable opportunity offered, to make an assault on his advancing columns."
+        },
+        {
+          "source_id": "nps-la015-v1",
+          "locator": "Description",
+          "quote": "to move inland and pacify the interior."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Irwin says Morgan, under Birge temporarily commanding Grover's division, handled his brigade badly and exposed Dudley's flank, that Grover rode out and drew in the force, and that Morgan's court-martial conviction was set aside by Banks. Green directed the attack and gave Lane, commanding Major's brigade, his instructions. The frozen commanders are Brigadier Generals Tom Green, Godfrey Weitzel and Cuvier Grover; the live page lists Weitzel and Green. No inspected passage describes Weitzel directing the action.",
+      "rationale": "Command roles from a history and an interested report; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "Morgan, under the orders of Birge, temporarily commanding Grover's division,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "Morcran handled his brigade badly,"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "Grover rode out, and, seeing what had happened, drew in his whole force."
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "but Banks disapproved the proceedings, findings, and sentence"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-14",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "Calling Colonel Lane, who commanded Major’s brigade, from the other side of the bayou, I gave him the necessary instructions"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA015",
+            "belligerent": "Confederate",
+            "fullname": "Tom Green"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA015",
+            "belligerent": "US",
+            "fullname": "Godfrey Weitzel"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA015",
+            "belligerent": "US",
+            "fullname": "Cuvier Grover"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        },
+        {
+          "source_id": "nps-la015-v1",
+          "locator": "Principal Commanders",
+          "quote": "Brigadier General Godfrey Weitzel [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Confederate victory and the live result Confederate Victory. Green says he drove the enemy about four miles, almost to the fort, in a complete rout; Irwin says the command was driven back about a mile until Paine came up; NPS says the Union troops fell back to Fort Butler, about six miles away.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The distance of the Union retreat differs among the accounts.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA015"
+          },
+          "column": "results_text",
+          "quote": "Confederate victory"
+        },
+        {
+          "source_id": "nps-la015-v1",
+          "locator": "Results",
+          "quote": "Confederate Victory"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-14",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "thus we drove them for about 4 miles and almost to the walls of the fort."
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.252 (OCR page markers; not checked against print)",
+          "quote": "on both banks driven back about a mile, until Paine came to Its support ;"
+        },
+        {
+          "source_id": "nps-la015-v1",
+          "locator": "Description",
+          "quote": "The Union troops eventually fell back to the protection of the guns in Fort Butler at Donaldsonville, about six miles from Kock's Plantation."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 463 total (US 430; CS 33); the live field reads 498 total (US 465; CS 33). Irwin gives Grover's loss as 2 officers and 54 men killed, officers printed '/' in OCR and 210 men wounded and 3 officers and 183 men captured or missing, 465 in all. Green says his loss did not exceed 3 killed and 30 wounded and puts the enemy's at little less than 1,000, over 500 killed and wounded with about 250 prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Irwin's 465 matches the live Union figure, not the frozen 430.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA015"
+          },
+          "column": "casualties_text",
+          "quote": "463 total (US 430; CS 33)"
+        },
+        {
+          "source_id": "nps-la015-v1",
+          "locator": "Estimated Casualties",
+          "quote": "498 total (US 465; CS 33;)"
+        },
+        {
+          "source_id": "irwin-taylor-louisiana-1863-selections-v1",
+          "section": "harrowing-la-fourche",
+          "locator": "p.253 (OCR page markers; not checked against print)",
+          "quote": "3 officers and 183 men captured or missing ; in all 465."
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-14",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "Our loss did not exceed 3 killed and 30 wounded, 6 mortally,"
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-14",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "while that of the enemy in killed, wounded, and prisoners was little less than 1,000."
+        },
+        {
+          "source_id": "or26-1-green-louisiana-selections-v1",
+          "section": "green-1863-07-14",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "There were over 500 of the enemy killed and wounded, of whom 200 were left dead on the field, and about 250 prisoners."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Grover's No. 8 and Dudley's No. 9 reports, Faries's No. 13 and Taylor's No. 10 reports, the Union returns and the Morgan court-martial record remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892), already registered for the Red River pass, is an interested Union history by the corps' assistant adjutant-general. Its chapters cite and quote Stickney's and Green's reports, so it is not independent of them. Green's June 27 dispatch and July 3, July 14 and October 2, 1863 reports, with his undated casualty statement (Official Records Series I, Volume XXVI, Part 1, a shared container), are one interested Confederate family; Taylor's printed indorsements are not part of it. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

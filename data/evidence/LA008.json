@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA008",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Vermillion Bayou record (April 17, 1863) in Operations in West Louisiana [April 1863]. The retreat from Franklin on April 14-16 and the pursuit to Opelousas are context. Campaign-wide movements (the Berwick Bay crossing of April 9-11, the pursuit to Opelousas and Alexandria) and multi-day loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 4th Division, XIX Army Corps, Army of the Gulf [US] and District of Western Louisiana [CS]; the live field reads zero. Irwin says Banks's united force outnumbered Taylor's three to one on April 15, that Grover advanced on the Vermilion with his main body reinforced by Gooding's brigade, and that Taylor's army was melting away by desertion; Taylor says nearly all of Fournet's battalion deserted with their arms. No inspected passage gives a count for the action.",
+      "rationale": "A ratio and unit identifications from a history and an interested report. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA008"
+          },
+          "column": "forces_text",
+          "quote": "4th Division, XIX Army Corps, Army of the Gulf [US]; District of Western Louisiana [CS]"
+        },
+        {
+          "source_id": "nps-la008-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "opelousas-vermilion",
+          "locator": "p.122 (OCR page markers; not checked against print)",
+          "quote": "now out- numbering Taylor's as three to one."
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "opelousas-vermilion",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "Grover, with the main body of his division, reinforced by Gooding's brigade,"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "opelousas-vermilion",
+          "locator": "p.122 (OCR page markers; not checked against print)",
+          "quote": "Taylor's army began to melt away"
+        },
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.393 (OCR page markers; not checked against print)",
+          "quote": "Nearly the whole of Lieutenant-Colonel Fournet’s battalion,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "burned-bridge-and-heights",
+      "dimension": "terrain",
+      "value": "NPS says Taylor crossed the bayou and destroyed the bridge; Irwin says he camped on the high ground on the north bank and burned the bridges, with the prairies beginning beyond New Iberia. Taylor posted four guns on the heights and sharpshooters along the upper bank.",
+      "rationale": "Ground described by a summary, a history and an interested report; no map verification. The burned bridges were Taylor's act, so the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "nps-la008-v1",
+          "locator": "Description",
+          "quote": "crossed Vermillion Bayou, destroyed the bridge, and rested."
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "opelousas-vermilion",
+          "locator": "p.122 (OCR page markers; not checked against print)",
+          "quote": "went into camp on the high ground on the north bank, and burned the bridges behind him."
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "opelousas-vermilion",
+          "locator": "p.123 (OCR page markers; not checked against print)",
+          "quote": "the troops found themselves on the broad prairies of Western Louisiana,"
+        },
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.393 (OCR page markers; not checked against print)",
+          "quote": "posting four pieces of artillery on the heights and sharpshooters along the upper banks,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rest-rebuilding-and-train",
+      "dimension": "logistics",
+      "value": "Taylor says his exhausted troops and teams rested from Thursday afternoon until midday Friday and that the rear guard later enabled an extensive train to cross the Boeuf; Irwin says Grover spent April 18 rebuilding the bridge.",
+      "rationale": "Movement statements from an interested report and a history; not returns.",
+      "citations": [
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "pp.393–394 (OCR page markers; not checked against print)",
+          "quote": "the troops and teams, which were much exhausted, were allowed to rest from Thursday afternoon until midday on Friday."
+        },
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.394 (OCR page markers; not checked against print)",
+          "quote": "enabling us to move across the Boeuff, and be- yond danger of capture, an extensive train."
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "opelousas-vermilion",
+          "locator": "p.125 (OCR page markers; not checked against print)",
+          "quote": "The next day, the iSth of April, was spent by Grover in rebuilding the main bridge."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "contact-at-the-crossing",
+      "dimension": "information",
+      "value": "Irwin says Grover sighted Green's rear guard crossing the Vermilion early in the afternoon; NPS says Banks sent two columns by different roads that morning. Irwin says Banks felt the want of mounted troops on the plains.",
+      "rationale": "Attributed observation from a history and a summary; no dispatches inspected.",
+      "citations": [
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "opelousas-vermilion",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "Early in the afternoon Grover caught sight of Green's rear-guard of Taylor's retreating forces, then about two miles distant, and in the act of crossing the Vermilion."
+        },
+        {
+          "source_id": "nps-la008-v1",
+          "locator": "Description",
+          "quote": "Banks, in pursuit, sent two columns, on different roads, toward Vermillion Bayou on the morning of April 17."
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "opelousas-vermilion",
+          "locator": "p.125 (OCR page markers; not checked against print)",
+          "quote": "Then began to be felt the need of such a force of mounted troops as on these plains formed the main strength of Taylor's little army,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "delay-the-pursuit",
+      "dimension": "objectives",
+      "value": "Taylor had the bridges burned once his train and troops were over; Irwin says the Confederates were posted to prevent the rebuilding and judges that more cavalry would have saved the bridge.",
+      "rationale": "Stated aims from an interested report and a history; Irwin's cavalry judgment is counterfactual.",
+      "citations": [
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.393 (OCR page markers; not checked against print)",
+          "quote": "As soon as the whole train and all our forces had crossed the bayou 1 had the bridges burned,"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "opelousas-vermilion",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "posted to hinder or prevent the work of reconstruction."
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "opelousas-vermilion",
+          "locator": "p.125 (OCR page markers; not checked against print)",
+          "quote": "would have saved the bridge and insured the dispersion or the destruction of Taylor's force."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Irwin says Grover commanded the pursuit on the Vermilion road while Banks went by Saint Martinsville with Weitzel and Emory, and that Dwight's skirmishers and two batteries drove off the defenders. Taylor credits Green with the rear guard. The frozen commanders are Major General Richard Taylor and Brigadier General Cuvier Grover, as on the live page.",
+      "rationale": "Command roles from a history and an interested report; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "opelousas-vermilion",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "while Banks, with Weitzel and Emory, marched to Saint Martinsville,"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "opelousas-vermilion",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "Dwight's skirmishers deployed on the right and left of the road, and, with the help of the guns of Closson and Nims, drove off the enemy,"
+        },
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.393 (OCR page markers; not checked against print)",
+          "quote": "the rear guard under Colonel Green keeping almost constantly within gunshot distance of the enemy’s advance,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA008",
+            "belligerent": "Confederate",
+            "fullname": "Richard Taylor"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA008",
+            "belligerent": "US",
+            "fullname": "Cuvier Grover"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. NPS says Confederate artillery forced the Union troops back and that the Confederates retreated after dark having slowed the advance; Irwin says Dwight drove off the enemy; Taylor says the retreat resumed on Friday.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The accounts differ on the course of the artillery fight.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA008"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-la008-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "nps-la008-v1",
+          "locator": "Description",
+          "quote": "Confederate artillery, strategically placed, forced the Yankees back."
+        },
+        {
+          "source_id": "nps-la008-v1",
+          "locator": "Description",
+          "quote": "The Confederates had slowed the Union advance."
+        },
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.394 (OCR page markers; not checked against print)",
+          "quote": "The retreat was recommenced on Friday,"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "opelousas-vermilion",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "drove off the enemy, posted to hinder or prevent the work of reconstruction."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Unknown; the live field reads zero. Irwin says Dwight lost one killed and five wounded; Grover's three-day return of 353 (LA007) includes April 17. Taylor gives no figure.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Dwight's figure is one brigade's; Grover's return overlaps LA007 and is not split.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA008"
+          },
+          "column": "casualties_text",
+          "quote": "Unknown"
+        },
+        {
+          "source_id": "nps-la008-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "opelousas-vermilion",
+          "locator": "p.124 (OCR page markers; not checked against print)",
+          "quote": "In this affair Dwieht lost one killed"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "opelousas-vermilion",
+          "locator": "p.125 (OCR page markers; not checked against print)",
+          "quote": "and five wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Grover's No. 24, Dwight's No. 30 and Van Zandt's No. 33 reports, the Union nominal lists and any Confederate return for the Vermilion remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892), already registered for the Red River pass, is an interested Union history by the corps' later assistant adjutant-general. Its Teche chapters cite Taylor's report and the nominal lists, so it is not independent of them. Taylor's April 23, 1863 report (Official Records Series I, Volume XV, a shared container) is an interested Confederate account; it is placed in the group of his 1864 Red River reports as one author family. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

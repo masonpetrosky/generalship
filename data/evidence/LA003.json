@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA003",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Baton Rouge record (August 5, 1862) in Operations Against Baton Rouge [July-August 1862]. The live campaign label reads Confederate Offensive Against Baton Rouge. The destruction of the Arkansas on August 6, the evacuation of Baton Rouge on August 20 and the occupation of Port Hudson are context; multi-action totals are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 2nd Brigade, Department of the Gulf [US] and Breckinridge's Corps [CS]; the live field reads zero. Breckinridge says he left Vicksburg with somewhat less than 4,000, had no more than 3,400 on the march, 3,000 effectives by the morning report of August 4, and carried not more than 2,600 into action, besides some 200 partisan rangers; he estimated the enemy at not less than 4,500 in action (reported beforehand as not less than 5,000) and eighteen guns to his eleven. Irwin says Breckinridge reported 3,600 effective on July 30 including Ruggles, puts the Confederates in action at about 2,600 plus 400 or 500 rangers and militia, and Williams at about 2,500 fighting men with eighteen guns; Williams's troops from Vicksburg had fallen from 3,200 to about 800 effective, and Weitzel said not 1,200 could have marched five miles.",
+      "rationale": "Figures from an interested report and a history for different dates and bases; Breckinridge's July 30 figure differs between them. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA003"
+          },
+          "column": "forces_text",
+          "quote": "2nd Brigade, Department of the Gulf [US]; Breckinridge's Corps [CS]"
+        },
+        {
+          "source_id": "nps-la003-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.76 (OCR page markers; not checked against print)",
+          "quote": "I left Vicksburg on July 27 with somewhat less than 4,000 men,"
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.76 (OCR page markers; not checked against print)",
+          "quote": "did not now number more than 3,400 men."
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.77 (OCR page markers; not checked against print)",
+          "quote": "The morning report of the 4th showing but 3,000 effectives,"
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.77 (OCR page markers; not checked against print)",
+          "quote": "I did not carry into the action more than 2*,600 men."
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.77 (OCR page markers; not checked against print)",
+          "quote": "This estimate does not include some 200 Partisan Bangers,"
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.76 (OCR page markers; not checked against print)",
+          "quote": "the effective force of the enemy was not less thah 5,000 men,"
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "I do not think they brought into action less than 4,500 men."
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "We had eleven pieces of field artillery ; they . brought to bear on us not less than eighteen pieces, exclusive of the guns of the fleet."
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "On the 30th of July he reports his total effective force, including Ruggles, at 3,600."
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "The Confederates went into action with about 2,600, without counting the partisan rangers and militia, numbering 400 or 500 more."
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "Williams had about 2,500 fighting men. He had eighteen guns, the Confederates eleven."
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.32 (OCR page markers; not checked against print)",
+          "quote": "from 3,200 to about 800."
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "\"There were not 1,200,\" said Weitzel after the battle, \"who could have marched five miles."
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "department-strength-1862",
+          "locator": "p.50 (OCR page markers; not checked against print)",
+          "quote": "At the time of the battle of Baton Rouge, Butler's effective force can hardly have exceeded 7,000."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "open-plain-and-gunboats",
+      "dimension": "terrain",
+      "value": "Irwin describes the bluff at Baton Rouge as lower and more gently sloped than above, six roads leading out of the town, an unfortified Union line on an open plain with its right on the gunboats, and a dense morning fog; he calls the advantage of position slight on either side. Breckinridge says the ground was commanded by three gunboats in the river.",
+      "rationale": "Ground described by a history and an interested report; no map verification. The Union dispositions were Williams's, so the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "The bluff is lower at Baton Rouge than it is above and slopes more gently to the water's edge ;"
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "Six roads led out of the town in various directions."
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "no portion of the line was fortified or protected in any way, though the field was an open plain"
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "To offset this his right rested securely on the gun- boats."
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "The advantage of position was slight on either side."
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.37 (OCR page markers; not checked against print)",
+          "quote": "in a summer fog so dense that those engaged could at first distinguish neither friend nor enemy."
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.76 (OCR page markers; not checked against print)",
+          "quote": "the ground was com- manded by three gunboats lying in the river."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "rations-water-and-sickness",
+      "dimension": "logistics",
+      "value": "Irwin says Breckinridge was promised ten days' rations but could get no more than half. Breckinridge says only the troops with their arms and ammunition could be carried by rail, the sickness was appalling, his men had found no water since the Comite, and he burned the enemy's camps and stores for want of transportation. Irwin says both sides were enfeebled by malaria and exposure.",
+      "rationale": "Supply and sickness statements from an interested report and a history; not returns.",
+      "citations": [
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.32 (OCR page markers; not checked against print)",
+          "quote": "he would receive rations sufficient for ten days, but he could get no"
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "more than half the quantity."
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.76 (OCR page markers; not checked against print)",
+          "quote": "nothing could be transported except the troops, with- their arms and ammunition."
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.77 (OCR page markers; not checked against print)",
+          "quote": "The sickness had been appalling."
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "who had been unable to procure water since we left the Comite River."
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "Having scarcely any transportation, I ordered all the camps and stores of the enemy to be destroyed,"
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.34 (OCR page markers; not checked against print)",
+          "quote": "On both sides the men were enfeebled by malaria and exposure ;"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "expected-attack-and-the-arkansas",
+      "dimension": "information",
+      "value": "Breckinridge says he was told on the march that the enemy numbered not less than 5,000, that the enemy expected the attack, and that he learned only late in the afternoon that the Arkansas had broken down within four miles of the town; Irwin says Van Dorn had estimated the Union force at about 5,000 and that Williams was expecting the attack. Breckinridge says rangers who leaked through in the darkness caused firing in which Helm was injured and two guns disabled.",
+      "rationale": "Attributed knowledge from an interested report and a history; no message log inspected.",
+      "citations": [
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.76 (OCR page markers; not checked against print)",
+          "quote": "During the inarch I received information that the effective force of the enemy was not less thah 5,000 men,"
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.77 (OCR page markers; not checked against print)",
+          "quote": "The enemy (expecting the attack) was drawn up in two lines,"
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "But late in the afternoon I learned by express that before daylight, and within 4 miles of Baton Rouge, her machinery had become disabled,"
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "Van Dorn had esti- inated the Union force to be met at Baton Rouge at about 5,000,"
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "Williams was expecting the attack and awaited the result with calmness."
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.77 (OCR page markers; not checked against print)",
+          "quote": "yet during the darkness a few of them leaked through,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recover-baton-rouge",
+      "dimension": "objectives",
+      "value": "NPS says the Confederates wished to recapture the capital. Breckinridge says he undertook to capture the garrison if the Arkansas could clear the river or divert the gunboats, and that with no more than 1,000 exhausted men around him at ten o'clock he did not pursue further. Irwin reads Van Dorn's object as regaining control of the river to Baton Rouge, and says Williams posted his left against the expected attack of the Arkansas.",
+      "rationale": "Stated aims from a summary, an interested report and a history.",
+      "citations": [
+        {
+          "source_id": "nps-la003-v1",
+          "locator": "Description",
+          "quote": "Confederates wished to recapture the capital at Baton Rouge."
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.77 (OCR page markers; not checked against print)",
+          "quote": "I would undertake to capture the garrison if the Arkansas could he sent down to clear the river or divert the fire of the gunboats."
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "I saw around me not more than 1,000 exhausted men,"
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "I did not deem it prudent to pursue the victory further."
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.33 (OCR page markers; not checked against print)",
+          "quote": "Van Dorn's object obviously was by crushing Wil- liams to regain control of the Mississippi from Vicks- burg to Baton Rouge,"
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.35 (OCR page markers; not checked against print)",
+          "quote": "Williams was forced to post his left with regard to the expected attack of the A7'kaiisas,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Breckinridge organized his force in two divisions under Clark and Ruggles; Clark pressed the attack until wounded. Irwin says Williams was killed near the close while urging his men forward, and that Cahill was entitled to the command but Dudley seems to have commanded the troops engaged for the rest of the battle; NPS says Cahill ordered a retreat to a prepared line nearer the river. The frozen commanders are Major General John C. Breckinridge and Brigadier General Thomas Williams, as on the live page.",
+      "rationale": "Command roles from an interested report, a history and a summary; who directed the Union line after Williams fell is described differently. The listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.76 (OCR page markers; not checked against print)",
+          "quote": "The troops were immediately organized in two divisions, General Clark taking command of the First and General Buggies of the Second Division."
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.78 (OCR page markers; not checked against print)",
+          "quote": "General Clark pressed the attack at this point with great vigor until he received a wound which was supposed to be mortal,"
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.39 (OCR page markers; not checked against print)",
+          "quote": "near its close Williams was instantly killed while urging his men to the attack."
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.39 (OCR page markers; not checked against print)",
+          "quote": "Cahill's seniority entitled him to the command after Williams fell, yet during the remainder of the battle Dudley seems to have commanded the troops actually engaged."
+        },
+        {
+          "source_id": "nps-la003-v1",
+          "locator": "Description",
+          "quote": "The new commander, Col. Thomas W. Cahill, ordered a retreat to a prepared defensive line nearer the river"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA003",
+            "belligerent": "Confederate",
+            "fullname": "John C. Breckinridge"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA003",
+            "belligerent": "US",
+            "fullname": "Thomas Williams"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Breckinridge says the enemy were completely routed at the last encampment and that he withdrew for want of water and support; Irwin says it became clear to both sides that the attack had failed; NPS says the Federals finally forced the attackers to retire.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The Union evacuation on August 20 is campaign context, not this record's outcome.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA003"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-la003-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.79 (OCR page markers; not checked against print)",
+          "quote": "at the end of it the enemy were completely routed,"
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.38 (OCR page markers; not checked against print)",
+          "quote": "it became clear to both sides that the attack had failed."
+        },
+        {
+          "source_id": "nps-la003-v1",
+          "locator": "Description",
+          "quote": "Rebels assailed the new line, but finally the Federals forced them to retire."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 849 total (US 371; CS 478), and the live field agrees. Breckinridge gives 467 Confederate casualties; a printed footnote says the tabular statement shows only 446. Irwin gives the Confederate loss as about 84 killed, 313 wounded and 56 missing (453) and the Union loss as 84 killed, 266 wounded and 33 missing (383).",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA003"
+          },
+          "column": "casualties_text",
+          "quote": "849 total (US 371; CS 478)"
+        },
+        {
+          "source_id": "nps-la003-v1",
+          "locator": "Estimated Casualties",
+          "quote": "849 total (US 371; CS 478;)"
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.80 (OCR page markers; not checked against print)",
+          "quote": "It will be seen that our casualties amounted to 467.*"
+        },
+        {
+          "source_id": "or15-breckinridge-baton-rouge-selections-v1",
+          "section": "breckinridge-1862-09-30",
+          "locator": "p.80 (OCR page markers; not checked against print)",
+          "quote": "The tabular statement compiled from the several reports shows only 446 killed, wounded, and missing."
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.38 (OCR page markers; not checked against print)",
+          "quote": "The Confederate losses were about 84 killed, 313 wounded, and 56 missing; total, 453."
+        },
+        {
+          "source_id": "irwin-baton-rouge-selections-v1",
+          "section": "baton-rouge",
+          "locator": "p.38 (OCR page markers; not checked against print)",
+          "quote": "The Union losses were 84 killed, 266 wounded, and 33 missing; total, 383."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Williams's, Butler's, Cahill's, Dudley's and the regimental reports (Nos. 5, 9, 11-23), the Union return (No. 10), Ruggles's and the other Confederate reports (Nos. 25-40), Van Dorn's report (No. 2) and the naval reports remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892), already registered for the Red River pass, is an interested Union history by the corps' later assistant adjutant-general; its Baton Rouge chapter quotes Breckinridge's report, so it is not independent of it. Breckinridge's September 30, 1862 report (Official Records Series I, Volume XV, a shared container) is one interested Confederate family. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

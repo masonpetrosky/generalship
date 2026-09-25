@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA004",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Donaldsonville record (August 9, 1862) in Operations Against Baton Rouge [July-August 1862]. The live campaign label reads Confederate Offensive Against Baton Rouge. The firing on the Sallie Robinson, the Brooklyn and the St. Charles before August 9 is context. The destruction of the Arkansas on August 6, the evacuation of Baton Rouge on August 20 and the occupation of Port Hudson are context; multi-action totals are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads Three Navy ships [US] and a few partisans [CS]; the live field reads zero. The St. James committee says two sloops of war and one gunboat under Farragut anchored before the town and landed a force; Farragut names no count. No inspected passage gives the number of partisans.",
+      "rationale": "Unit identifications and a ship count from an interested civilian report. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA004"
+          },
+          "column": "forces_text",
+          "quote": "Three Navy ships [US]; a few partisans [CS]"
+        },
+        {
+          "source_id": "nps-la004-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "orn19-st-james-committee-selections-v1",
+          "section": "st-james-committee-1862-08-11",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "two United States sloops of war and one gunboat, commanded by Commodore Farragut,"
+        },
+        {
+          "source_id": "orn19-st-james-committee-selections-v1",
+          "section": "st-james-committee-1862-08-11",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "landed a force and set fire to"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "riverside-town",
+      "dimension": "terrain",
+      "value": "The committee says the ships anchored immediately in front of the town and that the coast was exposed because the enemy held the whole river; Farragut had anchored about six miles above the town on the way up.",
+      "rationale": "Position described by an interested civilian report and an interested report; no map verification.",
+      "citations": [
+        {
+          "source_id": "orn19-st-james-committee-selections-v1",
+          "section": "st-james-committee-1862-08-11",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "anchored immediately in front of the town"
+        },
+        {
+          "source_id": "orn19-st-james-committee-selections-v1",
+          "section": "st-james-committee-1862-08-11",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "so long as the enemy, with his immense fleet, pos¬ sesses exclusively the whole of the river,"
+        },
+        {
+          "source_id": "orn19-farragut-donaldsonville-selections-v1",
+          "section": "farragut-1862-08-10",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "I anchored about 6 miles above Donaldsonville"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cattle-and-sheep-taken",
+      "dimension": "logistics",
+      "value": "Farragut says the landing party brought off ten or twelve of Landry's slaves and supplied the ships with cattle and sheep from his place. No supply return was inspected.",
+      "rationale": "An interested report; not a supply return.",
+      "citations": [
+        {
+          "source_id": "orn19-farragut-donaldsonville-selections-v1",
+          "section": "farragut-1862-08-10",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "We also brought off some ten or twelve of his negroes and supplied our¬ selves witfi cattle and sheep from his place."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "firing-on-vessels-and-warnings",
+      "dimension": "information",
+      "value": "Farragut says he heard firing from the town on the Sallie Robinson and the Brooklyn and that the St. Charles was fired on the next night; his August 8 order says Renshaw had told him the town was warned after the Empire Parish was fired into. The committee says no armed vessels had been assailed.",
+      "rationale": "Attributed knowledge from interested documents on each side; the committee's statement and Farragut's account of the Brooklyn differ.",
+      "citations": [
+        {
+          "source_id": "orn19-farragut-donaldsonville-selections-v1",
+          "section": "farragut-1862-08-10",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "heard them firing upon the vessels coming up, first upon the Sallie Robinson and next upon the Brooklyn."
+        },
+        {
+          "source_id": "orn19-farragut-donaldsonville-selections-v1",
+          "section": "farragut-1862-08-10",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "The next night they fired again upon the St. Charles."
+        },
+        {
+          "source_id": "orn19-farragut-donaldsonville-selections-v1",
+          "section": "farragut-1862-08-08",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "I understand you to say that you had notified them some time since, when they fired into the Empire Parish,"
+        },
+        {
+          "source_id": "orn19-st-james-committee-selections-v1",
+          "section": "st-james-committee-1862-08-11",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "(for hitherto no armed vessels have been assailed)"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "retaliation-and-appeal",
+      "dimension": "objectives",
+      "value": "Farragut ordered notice given to send women and children out of Plaquemine and Donaldsonville because he intended to destroy them for firing into his vessels, and a printed proclamation over his name says a portion of the town would be burned each time his boats were fired on. The committee resolved to ask Governor Moore to avert further destruction.",
+      "rationale": "Stated aims from interested documents on each side.",
+      "citations": [
+        {
+          "source_id": "orn19-farragut-donaldsonville-selections-v1",
+          "section": "farragut-1862-08-08",
+          "locator": "p.140 (OCR page markers; not checked against print)",
+          "quote": "give them notice to send their women and children out of the towns, as it is my present intention to destroy those places on my way down, for firing into our vessels."
+        },
+        {
+          "source_id": "orn19-farragut-donaldsonville-selections-v1",
+          "section": "farragut-enclosure-to-donaldsonville",
+          "locator": "p.143 (OCR page markers; not checked against print)",
+          "quote": "Every time my boats are fired upon I will burn a portion of your town."
+        },
+        {
+          "source_id": "orn19-st-james-committee-selections-v1",
+          "section": "st-james-committee-1862-08-11",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "to induce the governor to take all necessary steps to avert the evil now impending over good and loyal people of these parishes."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Farragut ordered the destruction and signed as Flag-Officer; he names Phillippe Landry as said to be a captain of guerrillas who fired on his men and was chased off. The frozen commanders are Captain Phillippe Landry and Rear Admiral David G. Farragut; the live page gives Farragut as Admiral.",
+      "rationale": "Command roles from interested documents; Landry's command is reported only as hearsay. The listed commanders do not receive automatic sole credit, and neither the frozen nor the live naval rank is adopted.",
+      "citations": [
+        {
+          "source_id": "orn19-farragut-donaldsonville-selections-v1",
+          "section": "farragut-1862-08-10",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "a Mr. Phillippe Landry, who is said to be a captain of guerrillas. He fired upon our men, but they chased him off."
+        },
+        {
+          "source_id": "orn19-farragut-donaldsonville-selections-v1",
+          "section": "farragut-1862-08-10",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "D. G. Farragut, Flag-Officer, Comdg. Western Gulf Blockading Squadron."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA004",
+            "belligerent": "Confederate",
+            "fullname": "Phillippe Landry"
+          },
+          "column": "rank",
+          "quote": "Captain"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA004",
+            "belligerent": "US",
+            "fullname": "David G. Farragut"
+          },
+          "column": "rank",
+          "quote": "Rear Admiral"
+        },
+        {
+          "source_id": "nps-la004-v1",
+          "locator": "Principal Commanders",
+          "quote": "Admiral David Farragut [US]"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory (inconclusive); the live result reads Union Victory. Farragut says he fulfilled his promise to a certain extent, burning the hotels, wharf buildings and Landry's houses; the committee says the most valuable portion of the town and an adjacent plantation's buildings were consumed. NPS says firing on Union ships generally ceased afterwards.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The frozen and live results differ in qualification; the later cessation of firing is not tested by the inspected documents.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA004"
+          },
+          "column": "results_text",
+          "quote": "Union victory (inconclusive)"
+        },
+        {
+          "source_id": "nps-la004-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "orn19-farragut-donaldsonville-selections-v1",
+          "section": "farragut-1862-08-10",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "I fulfilled mv promise to a certain extent."
+        },
+        {
+          "source_id": "orn19-farragut-donaldsonville-selections-v1",
+          "section": "farragut-1862-08-10",
+          "locator": "p.141 (OCR page markers; not checked against print)",
+          "quote": "I burned down the hotels and wharf buildings,"
+        },
+        {
+          "source_id": "orn19-st-james-committee-selections-v1",
+          "section": "st-james-committee-1862-08-11",
+          "locator": "p.142 (OCR page markers; not checked against print)",
+          "quote": "set fire to and con¬ sumed the most valuable portion of the town,"
+        },
+        {
+          "source_id": "nps-la004-v1",
+          "locator": "Description",
+          "quote": "generally, firing on Union ships ceased thereafter."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads None known, and the live field reads zero. Neither Farragut's report nor the committee's gives a casualty figure.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. An absent figure is not a measured zero.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA004"
+          },
+          "column": "casualties_text",
+          "quote": "None known"
+        },
+        {
+          "source_id": "nps-la004-v1",
+          "locator": "Estimated Casualties",
+          "quote": "0 total (US 0; CS 0;)"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    }
+  ],
+  "open_questions": [
+    "Bell's August 9 report (read, not selected), the ships' logs of the Hartford, Brooklyn and Cayuga for August 9, any Confederate or parish record of the partisans, and a history covering the action remain deferred.",
+    "NPS/CWSAC is one family. Farragut's August 8 order, August 10 report and printed proclamation, and the St. James Parish committee's August 11 report, are separate families printed in the Official Records of the Navies, Series I, Volume 19, a shared container. No history covering this action was found in the inspected passages of Irwin or Mahan, so this record has two families beyond NPS; the gap is recorded. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

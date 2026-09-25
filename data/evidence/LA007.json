@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA007",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Irish Bend record (April 14, 1863) in Operations in West Louisiana [April 1863]. Grover's landing and skirmishes of April 13 and the Bisland lines (LA006) are context. Campaign-wide movements (the Berwick Bay crossing of April 9-11, the pursuit to Opelousas and Alexandria) and multi-day loss totals are context; they are not assigned to one record or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads 4th Division, XIX Army Corps [US] and five named Confederate units; the live field reads zero. Irwin puts Grover's whole force at about 5,000 of all arms, Birge's brigade at no more than 1,500 with a fighting line of perhaps 1,200, and says Taylor gives his infantry in the charge as less than 1,000; Grover had eighteen guns with four in action and Taylor four. Taylor says his charging force numbered less than 1,000 against four regiments, a battalion of cavalry and a battery, with a larger reserve concealed.",
+      "rationale": "Figures from a history and an interested report for different parts of the field; Irwin's Confederate figure repeats Taylor. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA007"
+          },
+          "column": "forces_text",
+          "quote": "4th Division, XIX Army Corps [US]; 28th Louisiana Infantry, 2nd Louisiana Cavalry, 12th Louisiana Infantry Battalion, 4th Texas Cavalry, and Cornay's Louisiana Battery [CS]"
+        },
+        {
+          "source_id": "nps-la007-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "Grover's whole force was about 5,000, of all arms,"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.117 (OCR page markers; not checked against print)",
+          "quote": "for his strength did not exceed 1,500, and it is probable that his fighting line num- bered not more than 1,200."
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "in the charge on Birge's right as less than i,ooo."
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "Grover had eighteen pieces of artil- lery, of which but four were in action ;"
+        },
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.392 (OCR page markers; not checked against print)",
+          "quote": "numbering in all less than 1,000 men, we charged the enemy’s line"
+        },
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.391 (OCR page markers; not checked against print)",
+          "quote": "consisting of four regiments of infantry, a battalion of cavalry, and a battery of artillery,"
+        },
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.392 (OCR page markers; not checked against print)",
+          "quote": "The enemy then displayed a much larger force, which up to this time had been held concealed and as a reserve,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cane-field-and-nersons-woods",
+      "dimension": "terrain",
+      "value": "Irwin says Birge marched with his right flank to the concealed Confederate line across the open fields of McKerrall's plantation, with the Teche on the left and a nearly impassable swamp on the right, and that the field was so contracted that Taylor could occupy its front. Taylor posted his line along the upper skirt of the woods fronting the field.",
+      "rationale": "Ground described by a history and an interested report; no map verification. Taylor chose the position, so it is not tagged inherited.",
+      "citations": [
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "lay the broad and open fields of McKerrall's plantation,"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.110 (OCR page markers; not checked against print)",
+          "quote": "On the left flowed the dark and sluggish Teche. On the right lay the swamp, thickly overgrown and nearly impassable,"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.118 (OCR page markers; not checked against print)",
+          "quote": "The field of battle was so contracted that Taylor's strength sufficed to occupy its front,"
+        },
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.391 (OCR page markers; not checked against print)",
+          "quote": "were posted in line of battle along the upper skirt of the woods, fronting on the field."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "guns-landed-and-the-train",
+      "dimension": "logistics",
+      "value": "Irwin says Grover's guns had to be landed over a bridge of flats and blames the excess artillery for the day and night lost and the hours of daylight spent landing guns that never fired. Taylor pressed his train through Franklin onto the cut-off road; the hospital boat with the sick and wounded fell into Union hands.",
+      "rationale": "Movement and supply statements from a history and an interested report; not returns.",
+      "citations": [
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.107 (OCR page markers; not checked against print)",
+          "quote": "It was necessary to make a bridge of flats for the gnns and caissons of the artillery."
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.119 (OCR page markers; not checked against print)",
+          "quote": "consumed in landing guns that were not to fire a shot."
+        },
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.392 (OCR page markers; not checked against print)",
+          "quote": "I repaired to Franklin and pressed forward the train and troops then just arriving on the cut- off road from Franklin to New Iberia."
+        },
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.393 (OCR page markers; not checked against print)",
+          "quote": "the boat and those on board fell into the enemy’s hands."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "grover-without-news",
+      "dimension": "information",
+      "value": "Irwin says Grover knew nothing of Banks's movements, could not make out the enemy's force or position in the dark, and concluded from prisoners that he faced Taylor's whole force; his landing orders rested on misinformation. Taylor judged that the enemy meant to detain him until the column from below came up.",
+      "rationale": "Attributed knowledge from a history and an interested report; no dispatches inspected.",
+      "citations": [
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.108 (OCR page markers; not checked against print)",
+          "quote": "He now knew nothing of Banks's movements or of his situation."
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.108 (OCR page markers; not checked against print)",
+          "quote": "in the darkness it was impossible for Grover to make out the enemy's force, or even to find his exact position."
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.116 (OCR page markers; not checked against print)",
+          "quote": "had convinced him that he had to deal with Taylor's whole force,"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "That his orders, based as they were on misinformation"
+        },
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.392 (OCR page markers; not checked against print)",
+          "quote": "It soon became evident that it was the purpose of the enemy to de- tain us at that point until his column from below had come up and hemmed us closely in."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "cut-off-or-break-through",
+      "dimension": "objectives",
+      "value": "Irwin says Grover was to cut off Taylor's retreat or attack his rear, and that Taylor's force at Nerson's Woods was to hold Grover off until the main body had passed. Taylor says cutting through above Franklin was the only plan that presented itself.",
+      "rationale": "Stated aims from a history and an interested report.",
+      "citations": [
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.104 (OCR page markers; not checked against print)",
+          "quote": "Grover's instructions were to gain a landing on the shore of Grand Lake, and then marching on Frank- lin, to cut off Taylor's retreat or to attack him in the rear,"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.109 (OCR page markers; not checked against print)",
+          "quote": "They were to hold off Grover until all but they had safely passed behind the living barrier."
+        },
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.391 (OCR page markers; not checked against print)",
+          "quote": "cut its way through the force on the New Iberia road above Frank- lin was the only plan which presented itself,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Irwin says Grover rode with Birge and sent in the 159th New York, that Taylor moved Gray to the left and attacked, and that Taylor then turned the command to Mouton and rode into Franklin; he calls Grover cautious by nature. Taylor blames Sibley's order for the capture of the Diana's crew. The frozen commanders are Major General Richard Taylor and Brigadier General Cuvier Grover, as on the live page.",
+      "rationale": "Command roles from a history and an interested report; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.111 (OCR page markers; not checked against print)",
+          "quote": "Then Grover, who rode with Birge, sent in the 159th New York"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.112 (OCR page markers; not checked against print)",
+          "quote": "promptly determined to gain the brief time he still needed for the safe retreat of his main body by a bold and vigorous attack"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.114 (OCR page markers; not checked against print)",
+          "quote": "To him Taylor turned over the command of the force confronting Grover, and then rode into Franklin to direct the retreat."
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.120 (OCR page markers; not checked against print)",
+          "quote": "But he was by nature cautious, and the adventure was essentially one that called for boldness."
+        },
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.392 (OCR page markers; not checked against print)",
+          "quote": "Thus by the unjustifiable and care- less order of General Sibley"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA007",
+            "belligerent": "Confederate",
+            "fullname": "Richard Taylor"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA007",
+            "belligerent": "US",
+            "fullname": "Cuvier Grover"
+          },
+          "column": "rank",
+          "quote": "Brigadier General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Taylor says his charge drove the enemy back in confusion and held them; Irwin says Taylor extricated himself from the net; NPS says the Confederates retreated and left the field to the Union.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The Confederate escape is described as the object of the action.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA007"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-la007-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "or15-taylor-west-louisiana-selections-v1",
+          "section": "taylor-1863-04-23",
+          "locator": "p.392 (OCR page markers; not checked against print)",
+          "quote": "we charged the enemy’s line and drove him back in confusion and with considerable loss to him."
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.116 (OCR page markers; not checked against print)",
+          "quote": "having thus adroitly extricated himself from the net spread in his sight."
+        },
+        {
+          "source_id": "nps-la007-v1",
+          "locator": "Description",
+          "quote": "they retreated leaving the field to the Union."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads Total unknown (US 353; CS unknown); the live field reads 355 total (US 355; CS 0). Irwin gives Grover's reported loss for April 13, 14 and 17 as 353 and the nominal-list loss for the battle as 6 officers and 43 men killed, 17 officers and 257 men wounded and 30 missing, also 353; the Confederate loss is not reported, but 21 dead and 35 wounded were left on the field.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Grover's 353 spans three days and overlaps LA008's April 17.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA007"
+          },
+          "column": "casualties_text",
+          "quote": "Total unknown (US 353; CS unknown)"
+        },
+        {
+          "source_id": "nps-la007-v1",
+          "locator": "Estimated Casualties",
+          "quote": "355 total (US 355; CS 0;)"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.116 (OCR page markers; not checked against print)",
+          "quote": "Grover reported his loss during the 13th, 14th, and 17th as 53 killed, 270 wounded, and 30 captured or missing ; in all 353."
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.116 (OCR page markers; not checked against print)",
+          "quote": "his loss was 6 officers and 43 men killed, 17 officers and 257 men wounded, and 30 men missing;"
+        },
+        {
+          "source_id": "irwin-west-louisiana-1863-selections-v1",
+          "section": "irish-bend",
+          "locator": "p.117 (OCR page markers; not checked against print)",
+          "quote": "The Confederate loss is not reported. They left on the field, to be cared for by their adversary, 21 of their dead and 35 of their wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Grover's No. 24, Dwight's No. 30, Birge's No. 36 and the other Fourth Division reports, the nominal casualty lists, Mouton's No. 40 and Kirby Smith's No. 38 reports remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892), already registered for the Red River pass, is an interested Union history by the corps' later assistant adjutant-general. Its Teche chapters cite Taylor's report and the nominal lists, so it is not independent of them. Taylor's April 23, 1863 report (Official Records Series I, Volume XV, a shared container) is an interested Confederate account; it is placed in the group of his 1864 Red River reports as one author family. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}

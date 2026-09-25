@@ -74,6 +74,20 @@ from different campaigns under separate independence groups (for example
 witness family: they never count as independent corroboration of each other, whatever their group
 names.
 
+### Gulf and Louisiana 1862–63 first passes (cohort v2), 2026-09-25
+
+The first passes for six campaigns add **50 records**: New Orleans, Baton Rouge, La Fourche (1862),
+West Louisiana, Port Hudson and Taylor's 1863 operations. The records are:
+
+- fourteen NPS HTML/text pairs;
+- Official Records Series I, Volumes XV and XXVI Part 1, and Navies Volume 19: catalog metadata and
+  full OCR;
+- ten report selections;
+- six selections from the registered Mahan and Irwin OCR.
+
+This pass's Volume VI parent was deduplicated to the 1861 West registration, whose OCR is
+byte-identical. No model inputs are changed.
+
 ### 1861 Eastern first passes (cohort v2), 2026-09-25
 
 The first passes for six 1861 campaigns add **78 records**: Charleston Harbor, the Chesapeake,

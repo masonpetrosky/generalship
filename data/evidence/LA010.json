@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "battle_id": "LA010",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for the frozen Port Hudson record (May 21-July 9, 1863) in Siege of Port Hudson [May-July 1863]. Plains Store on May 21 is recorded separately (LA009) and its losses are not counted here. The investment of May 22-25, the Clinton expedition, Logan's raids, Springfield Landing and the June operations against Taylor are context; siege-wide totals are not assigned to Plains Store or added across records. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "opening-personnel-unknown",
+      "dimension": "strength",
+      "value": null,
+      "rationale": "No inspected return establishes matched personnel at a common opening boundary. The frozen side-specific numerical strength bounds are blank (missing_numeric_strength). No figure in this pass is adopted as a simultaneous opening force.",
+      "citations": [],
+      "phase": "unresolved",
+      "status": "unknown"
+    },
+    {
+      "id": "reported-force-scope",
+      "dimension": "strength",
+      "value": "The frozen force field reads XIX Army Corps, Army of the Gulf [US] and the Confederate forces of the 3rd District at Port Hudson [CS]; the live field reads zero. Irwin says Gardner held the place with about seven thousand of all arms after the garrison of 16,287 present for duty at the end of March had been drawn on for Vicksburg; that the besiegers outnumbered the garrison rather more than two to one on May 26; that the besiegers' effective strength never exceeded 17,000, with less than 12,000 available for the siege and hardly 8,000 effective outside the cavalry at the end; and that 6,340 prisoners were taken. His footnote says the May and June returns only carry March forward. Miles says on July 6 that he had less than 400 muskets for over a mile and a half of breastworks.",
+      "rationale": "Figures for different dates, bases and scopes from a history and an interested report; the prisoner count is a post-surrender figure and not an opening strength. None is adopted as a matched opening strength. The live zero is not measured absence.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA010"
+          },
+          "column": "forces_text",
+          "quote": "XIX Army Corps, Army of the Gulf [US]; Confederate forces, 3rd District, Department of Mississippi and East Louisiana, Port Hudson [CS]"
+        },
+        {
+          "source_id": "nps-la010-v1",
+          "locator": "Forces Engaged",
+          "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "Port Hudson was now held by Gardner with a force of about seven thousand of all arms."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.164 (OCR page markers; not checked against print)",
+          "quote": "At the end of March the garrison consisted of 1,366 officers, 14,921 men of all arms present for duty, making a total of 16,287."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.164 (OCR page markers; not checked against print)",
+          "quote": "thus Rust and Buford marched to the relief of Vicksburg on the 4th of May,"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.167 (OCR page markers; not checked against print)",
+          "quote": "they out- numbered the Confederates rather more than two to one."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "siege-strength-and-conditions",
+          "locator": "p.216 (OCR page markers; not checked against print)",
+          "quote": "The effective strength of all arms had at no time exceeded 17,000.^"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "siege-strength-and-conditions",
+          "locator": "p.216 (OCR page markers; not checked against print)",
+          "quote": "Of these less than 12,000 can be regarded as available for any duty directly connected"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "siege-strength-and-conditions",
+          "locator": "p.216 (OCR page markers; not checked against print)",
+          "quote": "These returns are, however, simply the returns for March carried forward,"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "siege-strength-and-conditions",
+          "locator": "p.217 (OCR page markers; not checked against print)",
+          "quote": "When the end came at last the effective force, outside of the cavalry, hardly exceeded 8,000,"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "surrender",
+          "locator": "p.233 (OCR page markers; not checked against print)",
+          "quote": "With the place were taken 6,340 prisoners of war, of whom 405 were officers and 5,935 enlisted men."
+        },
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-07-06",
+          "locator": "p.176 (OCR page markers; not checked against print)",
+          "quote": "This leaves me with less than 400 muskets to defend over 1J miles of breastworks."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "disputed"
+    },
+    {
+      "id": "lines-ravines-and-felled-timber",
+      "dimension": "terrain",
+      "value": "Irwin says the works ran four and a half miles in a semicircle from the river below the town to the swamp above, over ravines, plantation fields and gullies, in country covered with heavy magnolia forest; the woods came within 250 yards of the works on Weitzel's front and 1,200 on Sherman's, and felled timber made a formidable obstruction on Augur's approach.",
+      "rationale": "Ground described by a history; no map verification. The works and felled timber predate the assaults, but their state on each day is not established, so the phase is left unresolved.",
+      "citations": [
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.163 (OCR page markers; not checked against print)",
+          "quote": "the lines were four and a half mi](-s long, and ran in a semicircular sweep from the river near Ross Landing, below Port Hudson, to the impassable swamp above."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.164 (OCR page markers; not checked against print)",
+          "quote": "nearly the whole country was covered with a heavy growth of magnolia trees of great size and beauty."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "The forest approached within 250 yards at the nearest point on Weitzel's front,"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "the timber had been recently felled, and, lying thick upon the ground, made a truly formidable obstruction."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "ammunition-forage-and-food",
+      "dimension": "logistics",
+      "value": "Irwin says the Confederate commanders had to husband a scanty store of ammunition, that the Union surgeons' supplies were exceeded on May 27, that the animals went on half or quarter rations of grain after July 3, and that the starving garrison had to be fed after the surrender. Miles says his men were worked and fought without rest day or night.",
+      "rationale": "Supply statements from a history and an interested report; not returns.",
+      "citations": [
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "the necessity of husljanding their scanty store of ammunition"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "who soon found their preparations and supplies exceeded by the unlooked-for demand upon them."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "siege-strength-and-conditions",
+          "locator": "p.218 (OCR page markers; not checked against print)",
+          "quote": "all the animals went upon half or quarter rations of grain, with little hay or none."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "surrender",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "it was necessary that the starving garrison should be fed."
+        },
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-07-06",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "who are worked and fought without rest day or night,"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "uncoordinated-assaults-and-the-vicksburg-news",
+      "dimension": "information",
+      "value": "Irwin says no minutes were kept of the council before May 27, no time was fixed to make the attacks simultaneous, and no division could see another. Miles on July 7 took the Union cheering over Vicksburg's fall for fictitious news; Irwin says Gardner then asked for official assurance that Vicksburg had surrendered.",
+      "rationale": "Attributed knowledge from a history and an interested report; no order books or signal logs inspected.",
+      "citations": [
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.167 (OCR page markers; not checked against print)",
+          "quote": "No minutes of this council were kept, and to this day its conclusions are a matter of dispute."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.168 (OCR page markers; not checked against print)",
+          "quote": "It will be observed that no time was fixed for the assault of either column nor any provision made to render the several attacks simultaneous."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "On no part of the line was either divi- sion in sight of the other."
+        },
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-07-07",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "My own impression is that some fictitious good news has been given to his troops in order to raise their spirits"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "surrender",
+          "locator": "p.228 (OCR page markers; not checked against print)",
+          "quote": "it was found to contain a request for an official assurance as to the truth of the report that Vicksburg had surrendered."
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "assault-or-hold-to-the-last",
+      "dimension": "objectives",
+      "value": "Irwin says Pemberton ordered Gardner to hold the place to the last while Johnston ordered its evacuation too late, and that Banks's council judged prompt action demanded; Banks's June summons demanded surrender to avoid unnecessary slaughter, and Gardner declined. Miles wrote on July 6 that he would hold his line as long as a man stood up.",
+      "rationale": "Stated aims from a history (quoting the summons and reply) and an interested report.",
+      "citations": [
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.165 (OCR page markers; not checked against print)",
+          "quote": "he was met by an order from Pemberton to return to Port Hudson with a few thousand men and to hold the place to the last."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.165 (OCR page markers; not checked against print)",
+          "quote": "ordered Gardner to evacuate Port Hud- son and to march on Jackson, Mississippi."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.167 (OCR page markers; not checked against print)",
+          "quote": "The general opinion was, however, that prompt and decisive action was demanded"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "fourteenth-of-june",
+          "locator": "pp.193–194 (OCR page markers; not checked against print)",
+          "quote": "I desire to avoid unnecessary slaughter, and I therefore demand the immediate surrender of the"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "fourteenth-of-june",
+          "locator": "p.194 (OCR page markers; not checked against print)",
+          "quote": "My duty requires me to defend this position, and therefore I decHne to surrender."
+        },
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-07-06",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "1 will hold my line as long as a man stands up"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "command-roles",
+      "dimension": "responsibility",
+      "value": "Irwin says Banks ordered the May 27 assault after the council, put Weitzel over the right wing, and resolved to replace T. W. Sherman when his division had not attacked by noon; Grover and Weitzel agreed to wait before renewing the attack. Miles says he sent support to Beall on May 27 without waiting for orders. Irwin says Gardner held a council on July 7 and tendered his sword at the surrender. The frozen commanders are Major Generals Franklin Gardner and Nathaniel P. Banks, as on the live page.",
+      "rationale": "Command roles from a history and an interested report; the listed commanders do not receive automatic sole credit.",
+      "citations": [
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.167 (OCR page markers; not checked against print)",
+          "quote": "Accordingly, as soon as the council broke up he gave orders for an assault on the following morning."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.166 (OCR page markers; not checked against print)",
+          "quote": "Banks now placed Weitzel in command of the right wing of the army,"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.177 (OCR page markers; not checked against print)",
+          "quote": "Banks returned to his headquarters determined to replace Sherman by the chief-of-staff of the department."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.175 (OCR page markers; not checked against print)",
+          "quote": "Grover gave Weitzel the counsel of prudence, and Weitzel fell in with these views."
+        },
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-05-27",
+          "locator": "p.169 (OCR page markers; not checked against print)",
+          "quote": "Without waiting / for official notification, I at once pushed forward to his support every man I could spare."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "surrender",
+          "locator": "p.227 (OCR page markers; not checked against print)",
+          "quote": "That evening; Gardner summoned his commanders to meet liim in council."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "surrender",
+          "locator": "p.232 (OCR page markers; not checked against print)",
+          "quote": "Gardner himself tendered his sword to Andrews,"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA010",
+            "belligerent": "Confederate",
+            "fullname": "Franklin Gardner"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "LA010",
+            "belligerent": "US",
+            "fullname": "Nathaniel P. Banks"
+          },
+          "column": "rank",
+          "quote": "Major General"
+        }
+      ],
+      "phase": "unresolved",
+      "status": "supported"
+    },
+    {
+      "id": "recorded-result",
+      "dimension": "outcome",
+      "value": "The frozen result reads Union victory and the live result Union Victory. Irwin calls the June 14 attack a bloody repulse and the terms an unconditional surrender; he quotes Gardner as willing to surrender having defended the place as long as duty required. NPS says the garrison surrendered on July 9 after hearing of Vicksburg's fall.",
+      "rationale": "Retain the original result and engagement interval; later movements and campaign contribution are different measures. No new probabilities or individual causal credit. The repulsed assaults of May 27 and June 14 are phases of this record; the surrender is its end.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA010"
+          },
+          "column": "results_text",
+          "quote": "Union victory"
+        },
+        {
+          "source_id": "nps-la010-v1",
+          "locator": "Results",
+          "quote": "Union Victory"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "fourteenth-of-june",
+          "locator": "p.201 (OCR page markers; not checked against print)",
+          "quote": "The result of the day may be summed up as a bloody repulse ;"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "surrender",
+          "locator": "p.231 (OCR page markers; not checked against print)",
+          "quote": "were those of an unconditional surren- der."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "surrender",
+          "locator": "p.229 (OCR page markers; not checked against print)",
+          "quote": "Having defended this position as long as I deem my duty- requires, I am willing to surrender to you,"
+        },
+        {
+          "source_id": "nps-la010-v1",
+          "locator": "Description",
+          "quote": "On July 9, 1863, after hearing of the fall of Vicksburg, the Confederate garrison of Port Hudson surrendered,"
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "supported"
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 12,208 total (US 5,000; CS 7,208); the live field reads 17500 total (US 10000; CS 7500). Irwin gives Union losses of 1,995 on May 27, 1,805 on June 14 and 4,363 for the siege, and says at least as many more were sick. He cites a partial undated Confederate surgeon's return of 176 killed and 447 wounded (623), excluding Plains Store, and Jackson's report of 200 killed, 300-400 wounded and 200 dead of sickness; Beall's brigade lost 358 to June 1. Miles reports 4 killed and 11 wounded on his line on June 14. The garrison surrendered 6,340 prisoners.",
+      "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. The frozen and live totals differ widely and appear to include the surrendered garrison; their basis is not stated. Sick are not battle casualties.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "LA010"
+          },
+          "column": "casualties_text",
+          "quote": "12,208 total (US 5,000; CS 7,208)"
+        },
+        {
+          "source_id": "nps-la010-v1",
+          "locator": "Estimated Casualties",
+          "quote": "17500 total (US 10000; CS 7500;)"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.181 (OCR page markers; not checked against print)",
+          "quote": "making the total killed 293, total wounded 1,545. total missing 157, and an aggregate of 1,995."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "fourteenth-of-june",
+          "locator": "p.201 (OCR page markers; not checked against print)",
+          "quote": "thus making a total of 216 killed, 1,401 wounded, 188 missing — in all, 1 ,805."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "surrender",
+          "locator": "p.233 (OCR page markers; not checked against print)",
+          "quote": "The total losses of the Corps during the siege were 45 officers and 663 men killed, 191 officers and 3,145 men wounded, 12 officers and 307 men captured or missing ; in all, 4,363."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "siege-strength-and-conditions",
+          "locator": "p.216 (OCR page markers; not checked against print)",
+          "quote": "At least as many more were sick in the hospitals,"
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "surrender",
+          "locator": "p.234 (OCR page markers; not checked against print)",
+          "quote": "A partial return, without date, signed by the chief surgeon, shows 176 killed, 447 wounded, total 623."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "surrender",
+          "locator": "p.234 (OCR page markers; not checked against print)",
+          "quote": "the total casualties during the siege were 200 killed, between 300 and 400 wounded, and 2CX:) died from sickness."
+        },
+        {
+          "source_id": "irwin-port-hudson-selections-v1",
+          "section": "twenty-seventh-of-may",
+          "locator": "p.182 (OCR page markers; not checked against print)",
+          "quote": "In Beall's brigade all the losses up to the 1st of June numbered 68 killed, 194 wounded, and 96 missing; together, 35S ;"
+        },
+        {
+          "source_id": "or26-1-miles-port-hudson-selections-v1",
+          "section": "miles-1863-06-14",
+          "locator": "p.175 (OCR page markers; not checked against print)",
+          "quote": "The casualties of the day are 4 killed and 11 wounded."
+        }
+      ],
+      "phase": "post_outcome",
+      "status": "disputed"
+    }
+  ],
+  "open_questions": [
+    "Banks's No. 1 siege reports, the Union returns (No. 2), the signal officers' and brigade reports (Nos. 3-31), Gardner's report (not found in the inspected list), Jackson's No. 33 report and the No. 34 returns, Beall's, Steedman's and the other Confederate reports (Nos. 35-48), the naval reports and Irwin's appendix loss tables remain deferred.",
+    "NPS/CWSAC is one family. Richard B. Irwin's History of the Nineteenth Army Corps (Putnam's, 1892), already registered for the Red River pass, is an interested Union history by the corps' assistant adjutant-general. Irwin served on Banks's staff during the siege and was named a surrender commissioner, and his chapters cite Miles's report and a Confederate surgeon's partial return, so they are not independent of them. Miles's May 22 report and May 24-July 7 field reports (Official Records Series I, Volume XXVI, Part 1, a shared container) are one interested Confederate family; Miles commanded a legion and later the right wing, not the garrison. Report dates are not event times or proof of contemporary knowledge.",
+    "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
+  ]
+}
