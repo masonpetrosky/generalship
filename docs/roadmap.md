@@ -1,6 +1,11 @@
 # Roadmap and current handoff
 
-## Current priority — coverage before further depth
+## Current priority — reviewed second-tier strength profile
+
+Owner decision, 2026-09-25: first-pass coverage is complete. The next step is separate
+review of the [reported side-strength design](feature-admission-reported-strength.md);
+see **Next priority** below. The coverage-first direction that follows still bounds any
+further research depth.
 
 Owner direction, 2026-09-20: the repeated Shiloh source investigations exceeded
 the depth appropriate for a 127-engagement pilot. Park the Agate follow-up,
@@ -379,14 +384,16 @@ pass has a recorded separate review. First-pass coverage
 does not admit features or change the baseline.
 
 **Next priority (owner decision, 2026-09-25): a second-tier reported-strength profile.**
-The strict opening profile cannot yield rows at feasible depth: 113 dossiers leave opening
-personnel unknown, and Shiloh still has zero eligible candidates. The
+The strict opening profile cannot yield rows at feasible depth: at least 124 dossiers record
+opening personnel as unknown, and Shiloh still has zero eligible candidates. The
 [reported side-strength design](feature-admission-reported-strength.md) proposes
-`reported_side_strength_v1`. It is a coarser, clearly labelled measure of the same class
-as the baseline's CWSAC forces-engaged figures, with its outcome-leakage weakness stated.
-It leaves the opening profile unchanged. The design first needs separate review. After
-acceptance come a validator extension, typed quantities and one targeted strength
-follow-up for the 68 decisive engagements lacking a complete numeric pair. No rows are
+`reported_side_strength_v1`. It is a coarser, clearly labelled reported whole-side measure
+that includes the baseline's CWSAC forces-engaged class, with its outcome-leakage weakness
+stated.
+It leaves the opening profile unchanged. The first separate review required nine
+corrections, which are applied; a focused follow-up review checks them. After acceptance
+come a validator extension, typed quantities and one targeted strength follow-up across
+all 91 decisive non-aggregate engagements. No rows are
 admitted and no model inputs change until a reviewed release exists. Keep every engagement
 regardless of outcome, reputation or available strengths.
 
