@@ -82,7 +82,7 @@ originals. No model inputs are changed.
 
 ### Maryland first pass, 2026-09-24
 
-The [campaign memo](research/maryland-first-pass-v1.md) adds **12 records**, bringing
+The [campaign memo](research/maryland-first-pass-v1.md) adds **9 records**, bringing
 the registry to **310 entries / 307 raw paths**, preserving the previous **301/298**.
 Three NPS battle HTML/text pairs remain in the NPS/CWSAC family. Francis Winthrop
 Palfrey's 1882 *The Antietam and Fredericksburg* adds a
@@ -92,7 +92,9 @@ Character ranges and whitespace-only normalization reproduce all sections; OCR
 errors, misread page markers and footnotes are retained. All selections were read,
 without print, map, roster or whole-book verification. Palfrey was a Union
 participant who used advance sheets of the Official Records; quoted reports are not
-separately inspected originals. MD003's existing sources are unchanged. No model
+separately inspected originals. The dependency note's claim that Palfrey served in this campaign
+is not shown in the inspected text (review advisory A3); the record itself is unchanged. MD003's
+existing sources are unchanged. No model
 inputs are changed.
 
 ### Northern Virginia first pass, 2026-09-24

@@ -1,0 +1,76 @@
+{
+  "review_sha256": "8cce5f7f02b987754d97a3bda30ee60bb9f45deaf081137a996c3cde702451d0",
+  "prepared_commit": "3796300981ae53e5d94d8b2411af3eef3b53d7fd",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_and_corrected_by_primary",
+      "changed_files": [
+        "docs/research/maryland-first-pass-v1.md",
+        "docs/sources.md"
+      ],
+      "primary_inspection": "Registry grew 301->310 records and 298->307 paths: three NPS pairs plus three Palfrey records = 9. Count text corrected."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_and_corrected_by_primary",
+      "claim": "MD002 lost-order-and-reports",
+      "primary_inspection": "Palfrey p.28 reads 'It has been said that it does not appear at what hour…' and gives the 6.20 p.m. letter date; McLaws clause on p.31 and 'seems' hedge on p.32 confirmed. Applied exact value, rationale and citations."
+    },
+    {
+      "finding_id": "R3",
+      "disposition": "accepted_and_corrected_by_primary",
+      "claim": "MD002 timing-decision",
+      "primary_inspection": "p.30 includes 'with the possible exception of Couch'; 'substantially unopposed' concerns Franklin's pass; p.41 both-passes counterfactual confirmed. Applied exactly; phase unchanged."
+    },
+    {
+      "finding_id": "R4",
+      "disposition": "accepted_and_corrected_by_primary",
+      "claims": [
+        "WV010 reported-force-scope",
+        "MD002 subordinate-command",
+        "WV016 reported-force-scope"
+      ],
+      "primary_inspection": "Each replacement or added quote occurs exactly once in its section; locators computed from OCR page markers match the review (pp.18, 32, 34, 40, 128)."
+    }
+  ],
+  "dossiers": {
+    "WV010": {
+      "dossier_path": "data/evidence/WV010.json",
+      "archived_dossier_path": "data/evidence/history/WV010.v1.json",
+      "archived_dossier_sha256": "ab12aab376c7d19e74dfcd7cf83cd123709b36d2b9ce727177eb8895f0d05630",
+      "corrected_dossier_sha256": "4a1fec266889a81c23a312f01c51b5f8a94656f4f3ceb9c86319c221ef193198",
+      "changed_claims": [
+        "reported-force-scope"
+      ]
+    },
+    "MD002": {
+      "dossier_path": "data/evidence/MD002.json",
+      "archived_dossier_path": "data/evidence/history/MD002.v1.json",
+      "archived_dossier_sha256": "9f6d9c7bdcf51323c5b744dae8a5a88a00369cc9aff74f71504c79b118551de2",
+      "corrected_dossier_sha256": "5714fb20a46bc2c38f4503436e38710f233719d74ca272c86558db4ff787775c",
+      "changed_claims": [
+        "lost-order-and-reports",
+        "timing-decision",
+        "subordinate-command"
+      ]
+    },
+    "WV016": {
+      "dossier_path": "data/evidence/WV016.json",
+      "archived_dossier_path": "data/evidence/history/WV016.v1.json",
+      "archived_dossier_sha256": "b929b15d4b464fa949c7563e860cac4f9c3a41e2c45262b8e0f129eed80fa1cd",
+      "corrected_dossier_sha256": "75456c2bdd5eb9a2f3587b17150065f15fe76635c231e9f14c23946a1387797c",
+      "changed_claims": [
+        "reported-force-scope"
+      ]
+    }
+  },
+  "advisory": {
+    "A1": "not applied",
+    "A2": "not applied",
+    "A3": "adopted in the three dossiers' shared open question and the memo; registered source dependency note unchanged pending a versioned metadata revision"
+  },
+  "citations_before": 79,
+  "citations_after": 86,
+  "independent_followup_review": false
+}

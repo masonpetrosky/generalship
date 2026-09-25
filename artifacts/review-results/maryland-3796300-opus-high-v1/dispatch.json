@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session a19fa61c-7907-44c8-bfdd-aa556203b610",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 8890c8253475dc140dc0abd3afc8102eaadbaf7d; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T03:28:16Z",
+  "prepared_commit": "3796300981ae53e5d94d8b2411af3eef3b53d7fd",
+  "bundle_commit": "8890c8253475dc140dc0abd3afc8102eaadbaf7d",
+  "assignment_sha256": "00d5a0e17d81b0b941ad4502c60a37f9e3eb543c2899a1874c66dfe2785e6e65",
+  "inputs_manifest_sha256": "267ffeb24698bf1717751ffd2abd823e303f94d1516b80051bf05505784952f4",
+  "num_turns": 34,
+  "duration_ms": 388270,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** Findings: R1, R2, R3, R4 (advisory A1–A3).\n\nThe review is at `artifacts/review-results/maryland-3796300-opus-high-v1/review.md`.\n\nAll 39 input files match their recorded hashes, both on disk and at the prepared commit. `make check` passed offline (82 tests), and the baseline is unchanged: 23 eligible battles in 13 groups, Brier 0.2768816348133779 against 0.25, zero promoted rows. None of the corrections changes an outcome value, a frozen cell, a phase tag or an unknown.\n\n**Required corrections** (each has exact replacement text in the review):\n- **R1 – source count:** the memo (line 53) and `docs/sources.md` (line 73) say 12 new source records were added. The registry grew from 301 to 310 records and from 298 to 307 file paths, so it is 9.\n- **R2 – MD002, when McClellan received Lee's lost order:** Palfrey says \"It has been said that it does not appear at what hour…\" and then gives the 6.20 p.m. date of McClellan's letter to Franklin. The draft presents the unknown hour as Palfrey's own statement. The fix also adds a missing citation for the McLaws clause and restores Palfrey's \"seems\" hedge on Stuart. The matching memo sentence changes too.\n- **R3 – MD002, the no-night-march decision:** the draft leaves out Palfrey's \"possible exception of Couch\". It also stretches \"substantially unopposed\" to both passes, when Palfrey says it only of Franklin's pass at Crampton's Gap. The phase tag stays `commander_created`, and the memo sentence changes.\n- **R4 – stated facts without a supporting quote:**\n  - WV010: the 2,500 men from Martinsburg.\n  - MD002: Reno killed \"at about dark\", Franklin carrying Crampton's Gap, and Cox's statement that he would command until Reno arrived.\n  - WV016: the four volunteer regiments on the 19th.\n\nIf R2–R4 are adopted as written, citations go from 79 to 86: MD002 38, WV016 24, WV010 still 24. The memo table, README, roadmap and report text in `cli.py` would then need the new counts.\n\n**Advisory only:**\n- **A1:** the WV010 claim about Halleck's hold order leaves out Palfrey's view that the error \"probably resulted favorably for the Union arms\".\n- **A2:** Palfrey rejects McClellan's 30,000 figures, and the MD002 value could say so.\n- **A3:** the inspected passages don't show that Palfrey served in this campaign. They show he was formerly colonel of the 20th Massachusetts and drew on his own recollection.\n\n**Everything else the assignment asked me to check held up**, including:\n- South Mountain keeps its frozen Union victory, with the live \"Indecisive\" recorded as a dispute.\n- The Harpers Ferry force totals are kept separate, and who surrendered it (Miles or White) stays disputed.\n- The casualty differences and command roles are preserved.\n- Palfrey is recorded as a retrospective history that used advance sheets of the Official Records.\n- The page references are correct, including the misread p.24 and p.34 headers.\n- All four text excerpts regenerate exactly from the retained source pages.\n- All earlier dossiers and records are unchanged.\n- The next group is Iuka and Corinth (MS001, MS002, TN007).\n\nI wrote only the review file and did not commit or push."
+}

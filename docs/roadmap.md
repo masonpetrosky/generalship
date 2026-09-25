@@ -106,10 +106,13 @@ Coverage is **10/36 complete campaigns by dossier presence**, with zero promoted
 
 The [Maryland first pass](research/maryland-first-pass-v1.md) adds the three undrafted
 records, **WV010, MD002 and WV016**; MD003 keeps its existing draft unchanged. The new
-dossiers have **29 claims, 4 explicit unknowns and 79 citations** from NPS/CWSAC and
+dossiers have **29 claims, 4 explicit unknowns and 86 citations** from NPS/CWSAC and
 Palfrey's retrospective history. South Mountain's live NPS result field
 ("Indecisive") conflicts with the frozen Union victory and is retained as a dispute,
-as is who surrendered Harpers Ferry. Separate review is pending.
+as is who surrendered Harpers Ferry. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/maryland-3796300-opus-high-v1/review.md) found four
+attribution and citation corrections, all fixed and
+[verified by the primary](../artifacts/review-results/maryland-3796300-opus-high-v1/primary-assessment.md).
 Coverage is **11/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Iuka and Corinth first pass](research/iuka-corinth-first-pass-v1.md) adds all

@@ -109,7 +109,8 @@ The [Northern Virginia pass](docs/research/northern-virginia-first-pass-v1.md) a
 dossiers, 56 claims, 7 explicit unknowns and 143 citations. Opus 5.5 `high` reviewed the
 batch; its two locator/scope corrections are fixed and verified by the primary.
 The [Maryland pass](docs/research/maryland-first-pass-v1.md) adds three dossiers
-(Antietam's existing draft unchanged), 29 claims, 4 explicit unknowns and 79 citations. Separate review is pending.
+(Antietam's existing draft unchanged), 29 claims, 4 explicit unknowns and 86 citations.
+Opus 5.5 `high` reviewed them; its four required corrections are fixed and verified by the primary.
 The [Iuka and Corinth pass](docs/research/iuka-corinth-first-pass-v1.md) adds three
 dossiers, 28 claims, 3 explicit unknowns and 76 citations. Separate review is pending.
 Next: **the two-record Stones River Campaign**. See the
