@@ -1,0 +1,82 @@
+{
+  "review_sha256": "2ffc4d94462e80bb689a1e8c191390e7b627afc271b2c0bb8760ce3910d79a82",
+  "prepared_commit": "450a5ba46975e7f117cbe542d2d87a7d51cd1dc9",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; value, rationale and memo treat 3,951 as an OCR reading and report the Sheridan discrepancy."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; boundary note and memo give the frozen interval and descriptions as the scope basis."
+    },
+    {
+      "finding_id": "R3",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted with the Stevenson and Cleburne citations."
+    },
+    {
+      "finding_id": "R4",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; the ridge-works rationale and memo bound the tag at November 23."
+    },
+    {
+      "finding_id": "R5",
+      "disposition": "accepted_and_corrected_by_primary",
+      "summary": "accepted; the p.243 locator is labelled inferred."
+    },
+    {
+      "finding_id": "A1",
+      "disposition": "adopted",
+      "summary": "both GA005 order rationales note Brent's signature and the basis for calling it Bragg's order."
+    },
+    {
+      "finding_id": "A2",
+      "disposition": "adopted",
+      "summary": "GA005 open question records Bragg's Cleburne and Gist passage, keeping the OCR reading 'Binggold'."
+    },
+    {
+      "finding_id": "A3",
+      "disposition": "adopted",
+      "summary": "the TN024 casualty rationale notes Howard's command in both Cist figures."
+    },
+    {
+      "finding_id": "A4",
+      "disposition": "no_change",
+      "summary": "a versioned Cist metadata revision is not needed for this batch."
+    },
+    {
+      "finding_id": "A5",
+      "disposition": "no_change",
+      "summary": "the live title and date are not adopted and need no claim."
+    }
+  ],
+  "dossiers": {
+    "TN024": {
+      "dossier_path": "data/evidence/TN024.json",
+      "archived_dossier_path": "data/evidence/history/TN024.v1.json",
+      "archived_dossier_sha256": "1280f94c67f4436801ed134dfc9c03a2bdf52066f2009fc28c83eb0e1b83fc5d",
+      "corrected_dossier_sha256": "aec862c25a862d141b961ac09726c917a4229f8282dfb0a959ccf494a6309aa2",
+      "changed_claims": [
+        "ridge-works",
+        "plan-and-demonstrations",
+        "command-roles",
+        "casualty-records"
+      ]
+    },
+    "GA005": {
+      "dossier_path": "data/evidence/GA005.json",
+      "archived_dossier_path": "data/evidence/history/GA005.v1.json",
+      "archived_dossier_sha256": "0e24c8474f5c77382e5ef098a52a815d26fc097add8ade92246dc3c1d45314bf",
+      "corrected_dossier_sha256": "2fce298797f7ae6ed02be3b24debdf4c7faa53bdc9319693a1a5814351761dd9",
+      "changed_claims": [
+        "order-and-guides",
+        "check-the-pursuit"
+      ]
+    }
+  },
+  "notes": "No source record changes. The TN024 boundary note and a GA005 open question also change. Citations rise from 82 to 84 (TN024 50, GA005 34); claims and unknowns are unchanged.",
+  "independent_followup_review": false
+}

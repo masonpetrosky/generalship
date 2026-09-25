@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session f130f461-0529-45b7-b19e-604acc773fc1",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 535f423bb58446532607b85e1aeeaceca6f97216; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T06:20:22Z",
+  "prepared_commit": "450a5ba46975e7f117cbe542d2d87a7d51cd1dc9",
+  "bundle_commit": "535f423bb58446532607b85e1aeeaceca6f97216",
+  "assignment_sha256": "2f2b6f32c9441a091b41a2b420c5191618c201e28b16222b922f04327a69be17",
+  "inputs_manifest_sha256": "76f8d2d500bb008889a0adf0eed439b99ba38ad27679409d443b498f03f395fc",
+  "num_turns": 36,
+  "duration_ms": 502710,
+  "terminal_reason": "completed",
+  "returned_message": "**Review path:** `artifacts/review-results/chattanooga-ringgold-450a5ba-opus-high-v1/review.md`\n\n**Outcome:** corrections required\n\n**Finding IDs:** R1, R2, R3, R4 and R5 are required corrections. A1–A5 are optional advisory notes.\n\n**Input checks:**\n- `assignment.md` (2f2b6f32…) and `inputs.json` (76f8d2d5…) match their hashes.\n- All 37 bound files match their hashes at the prepared commit 450a5ba and are unchanged in the worktree (535f423).\n- `make check` ran offline and passed all 82 tests, and it wrote no artifacts.\n- The mechanical checks all pass:\n  - The coverage counts are right: 123/127 dossiers and 34/36 complete campaign groups.\n  - The source registry has 564 records and 544 file paths; the earlier 555 records are untouched.\n  - No older dossiers or history files changed.\n  - No rows were promoted, and the baseline is unchanged: 23 battles, 13 groups, Brier 0.2768816348133779 against 0.25.\n  - Every receipt hash and packet JSON block checks out.\n  - The next group is Mine Run, VA044.\n- All five text extracts rebuild exactly from their parent files. All 59 page citations agree with the page headers in the scanned text.\n\n**Required corrections** (the review gives the exact replacement text for each):\n- **R1:** Cist's Thomas loss total of 3,951 against components summing to 2,951 is called \"printed\", but only the unverified scanned text was read. The same paragraph has another total that doesn't add up: Sheridan's 1,256 against components summing to 1,286, with 2,287 = 1,286 + 1,001. So the discrepancy could be a scanning error or a misprint; that stays unresolved.\n- **R2:** The Chattanooga record's scope is credited to the live page's \"other names\", which list only Missionary Ridge and Lookout Mountain. Orchard Knob's inclusion actually rests on the November 23–25 dates and the battle descriptions.\n- **R3:** The Chattanooga responsibility claim says Bragg blamed Stevenson and credited Cleburne, but no cited quote supports either. Add the Stevenson passage (p.664) and the Cleburne commendation (p.666).\n- **R4:** The `inherited` tag on the Missionary Ridge works is justified against the November 25 assault, which falls inside the record. It should be tied to the record's November 23 opening, using Cist's \"originally four lines\". Bragg's statements are after-the-fact judgments, not pre-existing conditions.\n- **R5:** The p.243 citation says it comes from a printed page marker, but the scan has none because it is a chapter-opening page. The page number should be marked as inferred, as the author already does for p.261 and p.757.\n\nI wrote only the review file. I made no commits and did not push."
+}

@@ -348,9 +348,12 @@ eight attribution, scope and OCR-reading corrections, all fixed and
 Coverage is **33/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Chattanooga-Ringgold Campaign first pass](research/chattanooga-ringgold-first-pass-v1.md) adds
-both **frozen records, TN024 and GA005**, with **18 claims, 2 explicit unknowns and 82
+both **frozen records, TN024 and GA005**, with **18 claims, 2 explicit unknowns and 84
 citations** from NPS/CWSAC, a new Cist selection and Bragg's and Cleburne's reports in
-newly pinned Official Records Volume XXXI Part 2. Separate review is pending.
+newly pinned Official Records Volume XXXI Part 2. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/chattanooga-ringgold-450a5ba-opus-high-v1/review.md) found
+five OCR-reading, scope, citation, tag-boundary and locator corrections, all fixed and
+[verified by the primary](../artifacts/review-results/chattanooga-ringgold-450a5ba-opus-high-v1/primary-assessment.md).
 Coverage is **34/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Mine Run Campaign first pass](research/mine-run-first-pass-v1.md) adds the sole
