@@ -1,0 +1,22 @@
+{
+  "actual_task_identity": "headless Claude Code session aa6f64b3-101b-4819-8931-651f07976c74",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "working_directory": "detached git worktree of bundle commit 8b6f70a62618b29c9b63a079764c56a5d826bb62; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-09-25T03:48:46Z",
+  "prepared_commit": "9de5b1dd90633345ebc7b2d6e54a520c54718ee1",
+  "bundle_commit": "8b6f70a62618b29c9b63a079764c56a5d826bb62",
+  "assignment_sha256": "0ad2e1a4e7834b3492c1553198b585bf983e3fd169ad572565f5f703d2bd04e1",
+  "inputs_manifest_sha256": "160f42202ecf528a803240c30fed3e1eb0636bada875c40511f44ee54513cc34",
+  "num_turns": 40,
+  "duration_ms": 490852,
+  "terminal_reason": "completed",
+  "returned_message": "**Outcome: corrections required.** The review is at `artifacts/review-results/goldsboro-9de5b1d-opus-high-v1/review.md` (sha256 `338e2831…a177`); it's the only new file in the worktree.\n\n**Findings:** GB-01, GB-02, GB-03, GB-04, GB-05 (required) and GB-N1 to GB-N6 (non-blocking).\n\n**Disclosure first:** to compare the packets, I called `generalship.cli.research_packet` in-process without realising it writes files. It rewrote `artifacts/research/NC007.md`, `NC008.md` and `NC009.md`. The rewritten files are byte-identical: `git status` stays clean and their hashes still match the manifest. So nothing changed, but it was a packet call the assignment excluded, and the review records it.\n\n**Inputs:** all 40 manifest paths match, both in the worktree and at `9de5b1d`. The bundle commit `8b6f70a` only adds the assignment and `inputs.json`.\n\n**What passed:**\n- **Dossiers:** 28 claims, 4 null unknowns and 70 citations. Every quote is present, and all 47 Official Records page locators match the scanned text's page-number markers, including the misread ones: \"S5\" is p.55, \"61\" is p.57, \"1)8\" is p.58, \"m\" is p.107.\n- **Replays:** all five text copies (three NPS summaries, Foster's and Smith's selections) rebuild byte-for-byte from their originals. Section dates are per section.\n- **Coverage and registry:**\n  - 63/127 engagements have dossiers, 64 don't, and 15/36 campaigns are complete.\n  - The source registry has 337 records / 334 paths.\n  - All earlier sources, the 60 older dossiers and the 15 archived revisions are byte-identical to `9d5b254`.\n- **Unchanged artifacts:** cohort, both admission proposals, admission check (0 promoted rows), baseline (23 battles / 13 campaigns; Brier 0.2768816348133779 vs 0.25) and battles.\n- **Receipt and checks:** all receipt hashes verify, and `make check` passes offline (82 tests).\n- **Next group:** I confirmed independently that it is Forrest's Expedition into West Tennessee, TN009 and TN011.\n\n**Required corrections** (each replacement quote occurs exactly once, on the stated page):\n- **GB-01:** Foster's Major General rank in the Official Records has no citation. Add his p.59 signature, \"Major-General^ Commanding Dejgartment.\"\n- **GB-02:** Foster's \"40 guns and about 640 cavalry\" isn't in the quoted passage. Add the p.54 quote, and note that the scan reads \"G40\".\n- **GB-03:** the Goldsborough Bridge result says \"Smith says the county bridge was saved\" without a citation. It also leaves out Smith's claim that his brigades drove the Federals back, which conflicts with Foster's \"a disastrous failure\". Add three quotes and change the status to `disputed`.\n- **GB-04:** Kinston's casualty claim repeats Smith's uncited \"about 400\" missing, which is supposed to be recorded only once, in NC009. Rephrase it and widen the quote.\n- **GB-05:** the memo says there is an explicit page-marker map but records only the p.57 misprint. Replacement text lists the full map.\n\nTogether these take the citation count from 70 to 75, with claims and unknowns unchanged. The memo, README, roadmap, report text and packets would need the new counts.\n\nThis is an AI review, not historical adjudication, independent corroboration or feature admission. I made no commit or push."
+}

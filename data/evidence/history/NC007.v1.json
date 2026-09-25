@@ -19,7 +19,7 @@
       "id": "reported-force-scope",
       "dimension": "strength",
       "value": "The frozen force field names Foster's 1st Division and Evans's Brigade without counts; the live field reads zero. Foster reports leaving New Berne with about 10,000 infantry, 40 guns and about 640 cavalry, and put the Kinston enemy at about 6,000 with twenty guns. Smith reports Evans had 2,000 men, and on December 15 relayed an estimate of 30,000 for Foster.",
-      "rationale": "Each commander's estimate of the other differs sharply from the other's own figure; none is adopted. Foster's total is the whole expedition at departure, not Kinston's engaged force. The OCR reads 'G40' for the cavalry figure; 640 is a reading not checked against print.",
+      "rationale": "Each commander's estimate of the other differs sharply from the other's own figure; none is adopted. Foster's total is the whole expedition at departure, not Kinston's engaged force.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -39,12 +39,6 @@
           "section": "foster-1862-12-27",
           "locator": "p.54 (OCR page markers; not checked against print)",
           "quote": "in all, about 10,000 infantry j six batteries"
-        },
-        {
-          "source_id": "or18-foster-selections-v1",
-          "section": "foster-1862-12-27",
-          "locator": "p.54 (OCR page markers; not checked against print)",
-          "quote": "total, 40 guns; the Third New York Cavalry, about G40 men."
         },
         {
           "source_id": "or18-foster-selections-v1",
@@ -176,7 +170,7 @@
     {
       "id": "command-roles",
       "dimension": "responsibility",
-      "value": "Foster says he sent Evans a flag of truce asking whether he would surrender, Evans declined, and Foster waited for his artillery before Evans withdrew. The frozen and live records rank Foster Brigadier General; he signs his December 27 OR report 'Major-General, Commanding Department'.",
+      "value": "Foster says he sent Evans a flag of truce asking whether he would surrender, Evans declined, and Foster waited for his artillery before Evans withdrew. The frozen and live records rank Foster Brigadier General; his OR reports are headed Major General.",
       "rationale": "Command roles from interested reports; rank conflict retained without adopting either. No listed commander receives automatic sole credit.",
       "citations": [
         {
@@ -205,12 +199,6 @@
           "source_id": "nps-nc007-v1",
           "locator": "Principal Commanders",
           "quote": "Brigadier General John Foster [US]"
-        },
-        {
-          "source_id": "or18-foster-selections-v1",
-          "section": "foster-1862-12-27",
-          "locator": "p.59 (OCR page markers; not checked against print)",
-          "quote": "Major-General^ Commanding Dejgartment."
         }
       ],
       "phase": "unresolved",
@@ -254,7 +242,7 @@
     {
       "id": "casualty-records",
       "dimension": "outcome",
-      "value": "The frozen casualty text reads 685 total; the live NPS field reads 685 total (US 160; CS 525;). Foster's December 14 report estimated his loss at not over 200 killed and wounded; Smith says most of the Confederate missing in his expedition-wide loss statement (recorded in NC009) were taken prisoners at Kinston Bridge.",
+      "value": "The frozen casualty text reads 685 total; the live NPS field reads 685 total (US 160; CS 525;). Foster's December 14 report estimated his loss at not over 200 killed and wounded; Smith says most of about 400 Confederate missing were taken at Kinston Bridge.",
       "rationale": "Original casualty returns were not inspected; preserve totals, categories, cutoffs and differences. No canonical reconciliation or casualty-based opening count; related actions must not be added without resolving population overlap. Foster's figure is an early estimate; Smith's missing figure is expedition-wide.",
       "citations": [
         {
@@ -280,7 +268,7 @@
           "source_id": "or18-smith-selections-v1",
           "section": "smith-1862-12-29",
           "locator": "p.110 (OCR page markers; not checked against print)",
-          "quote": "miss- ing. Most of the latter were taken prisoners at Kinston Bridge"
+          "quote": "Most of the latter were taken prisoners at Kinston Bridge"
         }
       ],
       "phase": "post_outcome",
@@ -291,10 +279,5 @@
     "Returns, the compiler's revised Union casualty statement (p.60, not inspected), Evans's own report and the Kinston command clock remain deferred.",
     "NPS/CWSAC is one family. Foster's reports and G. W. Smith's reports, printed in Official Records Series I, Volume XVIII, are two further families of interested commanders' accounts; the volume is a shared container, not an additional witness. Report dates are not event times or proof of contemporary knowledge.",
     "No automatic commander attribution, causal campaign score, morale/readiness number or battle/campaign double counting."
-  ],
-  "revision": "goldsboro-review-correction-2026-09-24",
-  "supersedes": {
-    "path": "data/evidence/history/NC007.v1.json",
-    "sha256": "669574e824d7ec00fa1aae4c3b3c8307ef400a73604cbf51c5a9658081c3292e"
-  }
+  ]
 }

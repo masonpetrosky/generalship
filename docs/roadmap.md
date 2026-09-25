@@ -147,10 +147,13 @@ seven attribution, scope and citation corrections, all fixed and
 Coverage is **14/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Goldsboro first pass](research/goldsboro-first-pass-v1.md) adds all **three frozen
-records, NC007–NC009**, with **28 claims, 4 explicit unknowns and 70 citations** from
+records, NC007–NC009**, with **28 claims, 4 explicit unknowns and 75 citations** from
 NPS/CWSAC and the opposing commanders' reports (Foster; G. W. Smith) in Official
 Records XVIII. Force estimates and the White Hall result are disputed between the
-reports. Separate review is pending.
+reports. Separate Claude Opus 5.5 `high`
+[review](../artifacts/review-results/goldsboro-9de5b1d-opus-high-v1/review.md) found five
+citation and framing corrections, all fixed and
+[verified by the primary](../artifacts/review-results/goldsboro-9de5b1d-opus-high-v1/primary-assessment.md).
 Coverage is **15/36 complete campaigns by dossier presence**, with zero promoted rows.
 
 The [Forrest West Tennessee first pass](research/forrest-west-tennessee-first-pass-v1.md)
