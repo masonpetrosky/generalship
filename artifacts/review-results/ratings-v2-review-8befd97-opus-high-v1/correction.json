@@ -1,0 +1,88 @@
+{
+  "review_sha256": "1bb565edd2372582185d6327844a1450b71a957a9eaf86a791d79a627ad58bac",
+  "prepared_commit": "8befd972c30fba5c9e2da1c283dd31182a450cd8",
+  "bundle_commit": "3e965cb89633f7a8a3fdb42e10e57d3118c56133",
+  "scope": "Commander ratings run 2 and v2 estimate evaluation",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_applied",
+      "summary": "estimate_eval.evaluate_estimates: for run 2, common rows are limited to rows of the frozen 23-engagement baseline (strength design §6). Regenerated: common rows 18/20/21 (identical by construction 16/18/18), new rows 43/60/105; primary metrics, sensitivity refits and the ratings unchanged except raw_residual_input.sha256."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_applied",
+      "summary": "Memo verdict wording replaced with the design §5 reading (\"held-out log loss was lower on these rows\") and the cross-run paragraph replaced with the reviewer text."
+    },
+    {
+      "finding_id": "R3",
+      "disposition": "accepted_applied",
+      "summary": "Memo: view_sensitive counted over the 68 robustness views; the three outcome-only views do not set it."
+    },
+    {
+      "finding_id": "R4",
+      "disposition": "accepted_applied",
+      "summary": "Memo: outcome-only scope qualified (301 in-scope decisive rows, the TN035 view, largest moves among ranked commanders; Wilson -0.34 among all modelled)."
+    },
+    {
+      "finding_id": "R5",
+      "disposition": "accepted_applied",
+      "summary": "Memo: the temporal split is described as carrying no verdict and not supporting it; its years are recorded as the author's run-2 choice set at cef8f3f before the run commit."
+    },
+    {
+      "finding_id": "R6",
+      "disposition": "accepted_applied",
+      "summary": "ratings.report_text states the ordering key (median within-side rank, ties by theta mode) and cautions against reading the order as a ranking; v1 output is unchanged (improved is false there)."
+    },
+    {
+      "finding_id": "A1",
+      "disposition": "accepted_applied",
+      "summary": "Evaluation report: the frozen baseline reference is marked \"cohort v1, not these rows\" for run 2."
+    },
+    {
+      "finding_id": "A2",
+      "disposition": "not_adopted",
+      "summary": "The bindings hold through the ledgers and authorizations; explicit cross-checks are deferred to any future run."
+    },
+    {
+      "finding_id": "A3",
+      "disposition": "not_adopted",
+      "summary": "No unit test added for RUNS[2]; the reviewer verified the refusal and frame checks in memory, and the committed outputs reproduce."
+    },
+    {
+      "finding_id": "A4",
+      "disposition": "kept_as_is",
+      "summary": "The completeness comment holds for cohort v2 (verified by the reviewer)."
+    },
+    {
+      "finding_id": "A5",
+      "disposition": "accepted_applied",
+      "summary": "Memo: \"Ranks overlap completely. On each side every pair's 80% rank intervals overlap.\""
+    },
+    {
+      "finding_id": "A6",
+      "disposition": "accepted_applied",
+      "summary": "Memo: the 39/27 campaign counts are marked descriptive, not part of the verdict."
+    },
+    {
+      "finding_id": "A7",
+      "disposition": "kept_as_is",
+      "summary": "Noted: the only code change after cef8f3f before the run was a stdout label."
+    },
+    {
+      "finding_id": "A8",
+      "disposition": "not_adopted",
+      "summary": "The addendum is bound by the ledgers' hashes and cannot change without rebuilding them; the memo states the full-war frame and the §8 limits."
+    }
+  ],
+  "corrected_files": {
+    "artifacts/estimate-evaluation-v2.json": "23950f97e4ee6a3150ece43785e33d09af3704d8eec72e5366585a6c7d8c0aaa",
+    "artifacts/estimate-evaluation-v2.md": "44def19b4d10e044dc6b8d1d3222b3329d36867ee0e764826c8c322bda8620f6",
+    "artifacts/commander-ratings-v2.json": "c268db29375d040902ae413af00f727a01c5f0f411f037dd2d4e314bea0a3963",
+    "artifacts/commander-ratings-v2.md": "d3de2484206807fd6d3cc52c437dec06da990ae62d7ad9eb408d3bace8d6ab20",
+    "docs/research/commander-ratings-v2.md": "9607de97d795c9c45ae8071336e0788c307add2d7e1ec4175b7995b549cf2d20",
+    "generalship/estimate_eval.py": "947b0a4523d0692bf136056e95d4973123975400fec21ba2ebb61a9504b96081",
+    "generalship/ratings.py": "8d41dc88bcbfa99261e841c101107dd0862a6fb3756a6d281b6235f239fcf506"
+  },
+  "independent_followup_review": false
+}

@@ -480,7 +480,10 @@ def report_text(result):
                   'these data. No ordered ranking is given.** The JSON keeps every estimate, labelled `no_heldout_signal`.', '']
     else:
         lines += ['Held-out log loss was lower under both weightings on these rows. This is not evidence of a persistent '
-                  'commander effect or of skill (design §5).', '']
+                  'commander effect or of skill (design §5).', '',
+                  'Within each side, commanders are listed by median within-side rank over the rank draws (ties by θ mode). '
+                  'The order is a point summary under the design, not a finding that one commander did better than '
+                  'another; read it with the 80% rank intervals.', '']
     for side in ('US', 'Confederate'):
         cs = [c for c in result['commanders'].values() if c['side'] == side and c.get('ranked')]
         if t['improved']:

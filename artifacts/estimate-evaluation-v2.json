@@ -887,610 +887,308 @@
       ],
       "common_rows": {
         "evaluable": true,
-        "rows": 46,
-        "campaigns": 31,
-        "union_wins": 20,
+        "rows": 18,
+        "campaigns": 10,
+        "union_wins": 9,
         "grade_mix_sides": {
-          "A": 92
+          "A": 36
         },
         "label_counts_sides": {
-          "applicability_unresolved": 13,
-          "bound_conflict": 2,
-          "compiled_dependence": 92,
-          "derivation_unknown": 92,
-          "single_input": 53,
-          "whole_engagement_leakage": 92
+          "applicability_unresolved": 3,
+          "bound_conflict": 1,
+          "compiled_dependence": 36,
+          "derivation_unknown": 36,
+          "single_input": 24,
+          "whole_engagement_leakage": 36
         },
         "flags": [
           "whole_engagement_leakage",
           "conditional_on_source_availability"
         ],
         "identical_by_construction": [
-          "FL001",
-          "GA023",
           "IN001",
-          "KY001",
-          "MO006",
           "NC002",
-          "NC016",
-          "NC017",
           "OH001",
           "OH002",
-          "SC001",
-          "SC002",
-          "SC007",
-          "SC010",
-          "SC011",
           "TN006",
           "TN012",
           "TN014",
           "TN022",
-          "VA003",
-          "VA005",
-          "VA006",
           "VA028",
-          "VA053",
-          "VA062",
-          "VA063",
           "VA101",
           "VA102",
           "VA103",
           "VA104",
           "VA105",
           "VA106",
-          "VA107",
-          "VA114",
-          "VA116",
-          "VA119",
-          "VA120",
-          "VA121",
-          "VA123"
+          "VA107"
         ],
         "note": "Identical rows differ from the frozen inputs only by rounding to 10.",
         "metrics": {
-          "n_rows": 46,
-          "n_campaigns": 31,
+          "n_rows": 18,
+          "n_campaigns": 10,
           "battle_weighted": {
             "strength_logistic": {
-              "brier": 0.2528964778473071,
-              "log_loss": 0.7008279068919749
-            },
-            "equal_odds": {
-              "brier": 0.25,
-              "log_loss": 0.6931471805599445
-            },
-            "training_prior": {
-              "brier": 0.2644640058806166,
-              "log_loss": 0.7228259219193177
-            },
-            "frozen_baseline_refit": {
-              "brier": 0.2546244954011692,
-              "log_loss": 0.7042597683651198
-            }
-          },
-          "campaign_weighted": {
-            "strength_logistic": {
-              "brier": 0.2575113092993721,
-              "log_loss": 0.7099712994324531
+              "brier": 0.30206683640711085,
+              "log_loss": 0.8008577858235557
             },
             "equal_odds": {
               "brier": 0.25,
               "log_loss": 0.6931471805599453
             },
             "training_prior": {
-              "brier": 0.253157981719519,
-              "log_loss": 0.6999039415180474
+              "brier": 0.3073459218776706,
+              "log_loss": 0.810323525272322
             },
             "frozen_baseline_refit": {
-              "brier": 0.25831447950289355,
-              "log_loss": 0.7115099924582537
+              "brier": 0.30227094567913,
+              "log_loss": 0.8012420233220364
+            }
+          },
+          "campaign_weighted": {
+            "strength_logistic": {
+              "brier": 0.28812364182872396,
+              "log_loss": 0.7723047435278521
+            },
+            "equal_odds": {
+              "brier": 0.25,
+              "log_loss": 0.6931471805599453
+            },
+            "training_prior": {
+              "brier": 0.28740153790289374,
+              "log_loss": 0.76875967925496
+            },
+            "frozen_baseline_refit": {
+              "brier": 0.28835594062017256,
+              "log_loss": 0.7727415809626736
             }
           }
         },
         "predictions": [
           {
-            "battle_id": "FL001",
-            "name": "Santa Rosa Island",
-            "campaign": "Operations of the Gulf Blockading Squadron [October 1861]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.33102465766155925,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.425531914893617,
-            "frozen_baseline_score": 0.33474271176371145
-          },
-          {
-            "battle_id": "GA023",
-            "name": "Allatoona",
-            "campaign": "Franklin-Nashville Campaign [September-December 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.4039989322695281,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.41304347826086957,
-            "frozen_baseline_score": 0.4050682567158373
-          },
-          {
             "battle_id": "IN001",
             "name": "Corydon",
             "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.30813532134055477,
+            "diagnostic_union_score": 0.43942966767208913,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.4222222222222222,
-            "frozen_baseline_score": 0.3152126563773321
-          },
-          {
-            "battle_id": "KY001",
-            "name": "Barbourville",
-            "campaign": "Operations in Eastern Kentucky [September-December 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.33792239411654795,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.3428946692944765
-          },
-          {
-            "battle_id": "MO006",
-            "name": "Lexington",
-            "campaign": "Operations to Control Missouri [June-October 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.31904327880239547,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.3248550459536495
-          },
-          {
-            "battle_id": "MO014",
-            "name": "Independence",
-            "campaign": "Operations North of Boston Mountains [August-November 1862]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.3615741247447076,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.45652173913043476,
-            "frozen_baseline_score": 0.3801685201688285
-          },
-          {
-            "battle_id": "MO017",
-            "name": "Clark's Mill",
-            "campaign": "Operations North of Boston Mountains [August-November 1862]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.28647792521791243,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.45652173913043476,
-            "frozen_baseline_score": 0.2971805174661217
+            "p_training_prior": 0.47058823529411764,
+            "frozen_baseline_score": 0.4400776020705062
           },
           {
             "battle_id": "MS001",
             "name": "Iuka",
             "campaign": "Iuka and Corinth Operations [September-October 1862]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.45503387551493596,
+            "diagnostic_union_score": 0.5091301675664676,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.425531914893617,
-            "frozen_baseline_score": 0.4469342995964747
+            "p_training_prior": 0.47368421052631576,
+            "frozen_baseline_score": 0.5042274828984687
           },
           {
             "battle_id": "NC002",
             "name": "Roanoke Island",
             "campaign": "Burnside's North Carolina Expedition [February-June 1862]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.5225858103472039,
+            "diagnostic_union_score": 0.5498791143708518,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.425531914893617,
-            "frozen_baseline_score": 0.5181957283050304
-          },
-          {
-            "battle_id": "NC016",
-            "name": "Wilmington",
-            "campaign": "Operations Against Fort Fisher and Wilmington [January-February 1865]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.490862748269468,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.425531914893617,
-            "frozen_baseline_score": 0.4880768082405838
-          },
-          {
-            "battle_id": "NC017",
-            "name": "Wyse Fork",
-            "campaign": "Carolinas Campaign [February-March 1865]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.44959707793796505,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.41304347826086957,
-            "frozen_baseline_score": 0.44796501314122333
+            "p_training_prior": 0.47368421052631576,
+            "frozen_baseline_score": 0.54949329082119
           },
           {
             "battle_id": "OH001",
             "name": "Buffington Island",
             "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.4734159990469498,
+            "diagnostic_union_score": 0.4955419669001459,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.4222222222222222,
-            "frozen_baseline_score": 0.47037155557479526
+            "p_training_prior": 0.47058823529411764,
+            "frozen_baseline_score": 0.4951812381991273
           },
           {
             "battle_id": "OH002",
             "name": "Salineville",
             "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.5609379474349054,
+            "diagnostic_union_score": 0.5237454625168415,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.4222222222222222,
-            "frozen_baseline_score": 0.5523417569493404
-          },
-          {
-            "battle_id": "SC001",
-            "name": "Fort Sumter",
-            "campaign": "Operations in Charleston Harbor [April 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.2856177905723494,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.2928731479266061
-          },
-          {
-            "battle_id": "SC002",
-            "name": "Secessionville",
-            "campaign": "Operations Against Charleston [June 1862]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5908368400873399,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.5855584694382495
-          },
-          {
-            "battle_id": "SC007",
-            "name": "Fort Wagner/Morris Island",
-            "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5711323098507841,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.566485587817876
-          },
-          {
-            "battle_id": "SC010",
-            "name": "Honey Hill",
-            "campaign": "Savannah Campaign [November-December 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5994255094254398,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.5938856661127255
-          },
-          {
-            "battle_id": "SC011",
-            "name": "Rivers' Bridge",
-            "campaign": "Carolinas Campaign [February-March 1865]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.5470219622323307,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.41304347826086957,
-            "frozen_baseline_score": 0.5403429057351077
+            "p_training_prior": 0.47058823529411764,
+            "frozen_baseline_score": 0.5228771868521899
           },
           {
             "battle_id": "TN003",
             "name": "Shiloh",
             "campaign": "Federal Penetration up the Cumberland and Tennessee Rivers [February-June 1862]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.4607971538161474,
+            "diagnostic_union_score": 0.5128673118833171,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.425531914893617,
-            "frozen_baseline_score": 0.46368221765566314
+            "p_training_prior": 0.47368421052631576,
+            "frozen_baseline_score": 0.5155773905960079
           },
           {
             "battle_id": "TN006",
             "name": "Murfreesboro",
             "campaign": "Confederate Heartland Offensive [June-October 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.38913402495519817,
+            "diagnostic_union_score": 0.4949013745648949,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.39180638243122806
+            "p_training_prior": 0.5263157894736842,
+            "frozen_baseline_score": 0.49512671544067166
           },
           {
             "battle_id": "TN012",
             "name": "Dover",
             "campaign": "Middle Tennessee Operations [February-April 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.25046104301161376,
+            "diagnostic_union_score": 0.3197279499171733,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.41304347826086957,
-            "frozen_baseline_score": 0.25540299850239223
+            "p_training_prior": 0.4444444444444444,
+            "frozen_baseline_score": 0.32031787249424054
           },
           {
             "battle_id": "TN014",
             "name": "Vaught's Hill",
             "campaign": "Middle Tennessee Operations [February-April 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.26476473314403354,
+            "diagnostic_union_score": 0.33319153469234053,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.41304347826086957,
-            "frozen_baseline_score": 0.2693961077634387
+            "p_training_prior": 0.4444444444444444,
+            "frozen_baseline_score": 0.3337426030237421
           },
           {
             "battle_id": "TN022",
             "name": "Collierville",
             "campaign": "Operations on the Memphis & Charleston Railroad [November 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.28693451209616533,
+            "diagnostic_union_score": 0.3758857766447379,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.425531914893617,
-            "frozen_baseline_score": 0.2918493977527027
-          },
-          {
-            "battle_id": "TN037",
-            "name": "Murfreesboro",
-            "campaign": "Franklin-Nashville Campaign [September-December 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.42860294871234966,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.41304347826086957,
-            "frozen_baseline_score": 0.4327007652006737
-          },
-          {
-            "battle_id": "VA003",
-            "name": "Big Bethel",
-            "campaign": "Blockade of the Chesapeake Bay [May-June 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5768422416987143,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.5720080836499134
-          },
-          {
-            "battle_id": "VA005",
-            "name": "Manassas, First",
-            "campaign": "Manassas Campaign [July 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.4255911732160566,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.42664946400383436
-          },
-          {
-            "battle_id": "VA006",
-            "name": "Ball's Bluff",
-            "campaign": "McClellan's Operations in Northern Virginia [October-December 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.46940164200352846,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.4685907265545442
+            "p_training_prior": 0.47368421052631576,
+            "frozen_baseline_score": 0.3763981873868907
           },
           {
             "battle_id": "VA028",
             "name": "Fredericksburg I",
             "campaign": "Fredericksburg Campaign [November-December 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.48222222048652374,
+            "diagnostic_union_score": 0.5675005766783313,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.480885694669323
-          },
-          {
-            "battle_id": "VA053",
-            "name": "Proctor's Creek",
-            "campaign": "Bermuda Hundred Campaign [May 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5069487747907216,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.5046254907429898
-          },
-          {
-            "battle_id": "VA062",
-            "name": "Cold Harbor",
-            "campaign": "Grant's Overland Campaign [May-June 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5127045592899443,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.510158350983185
-          },
-          {
-            "battle_id": "VA063",
-            "name": "Petersburg",
-            "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.491081737294476,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.48938580416859123
+            "p_training_prior": 0.5263157894736842,
+            "frozen_baseline_score": 0.567419035700582
           },
           {
             "battle_id": "VA101",
             "name": "Kernstown, First",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.5476497279402285,
+            "diagnostic_union_score": 0.6717236385572024,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.47619047619047616,
-            "frozen_baseline_score": 0.5436348773713714
+            "p_training_prior": 0.6428571428571429,
+            "frozen_baseline_score": 0.6715304552139039
           },
           {
             "battle_id": "VA102",
             "name": "McDowell",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.4773454867586176,
+            "diagnostic_union_score": 0.634498604756672,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.47619047619047616,
-            "frozen_baseline_score": 0.47732843498434735
+            "p_training_prior": 0.6428571428571429,
+            "frozen_baseline_score": 0.6345138915003052
           },
           {
             "battle_id": "VA103",
             "name": "Front Royal",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.37348153082939023,
+            "diagnostic_union_score": 0.5750987960037951,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.47619047619047616,
-            "frozen_baseline_score": 0.3793939000860594
+            "p_training_prior": 0.6428571428571429,
+            "frozen_baseline_score": 0.5755906130327129
           },
           {
             "battle_id": "VA104",
             "name": "Winchester, First",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.3842627564772039,
+            "diagnostic_union_score": 0.5816164203362119,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.47619047619047616,
-            "frozen_baseline_score": 0.38941438408288626
+            "p_training_prior": 0.6428571428571429,
+            "frozen_baseline_score": 0.5819420787041082
           },
           {
             "battle_id": "VA105",
             "name": "Cross Keys",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.5368866550298349,
+            "diagnostic_union_score": 0.6661213575312502,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.47619047619047616,
-            "frozen_baseline_score": 0.5334752800063214
+            "p_training_prior": 0.6428571428571429,
+            "frozen_baseline_score": 0.6659587528377365
           },
           {
             "battle_id": "VA106",
             "name": "Port Republic",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.41570150066724104,
+            "diagnostic_union_score": 0.6000951862092998,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.47619047619047616,
-            "frozen_baseline_score": 0.41915990033092
+            "p_training_prior": 0.6428571428571429,
+            "frozen_baseline_score": 0.6003112759013994
           },
           {
             "battle_id": "VA107",
             "name": "Winchester, Second",
             "campaign": "Gettysburg Campaign [June-July 1863]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.3746490451654619,
+            "diagnostic_union_score": 0.48460252846960344,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.3779711186997708
-          },
-          {
-            "battle_id": "VA110",
-            "name": "New Market",
-            "campaign": "Lynchburg Campaign [May-June 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.47889828581511973,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.4942297798418742
-          },
-          {
-            "battle_id": "VA114",
-            "name": "Cool Spring",
-            "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.3964068722110493,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.45652173913043476,
-            "frozen_baseline_score": 0.39925651072796287
-          },
-          {
-            "battle_id": "VA116",
-            "name": "Kernstown, Second",
-            "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.4191643684030597,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.45652173913043476,
-            "frozen_baseline_score": 0.42099490076616997
-          },
-          {
-            "battle_id": "VA119",
-            "name": "Opequon",
-            "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.46921639734120346,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.38636363636363635,
-            "frozen_baseline_score": 0.4665923750360474
-          },
-          {
-            "battle_id": "VA120",
-            "name": "Fisher's Hill",
-            "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.48193688264575246,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.38636363636363635,
-            "frozen_baseline_score": 0.47898384291114815
-          },
-          {
-            "battle_id": "VA121",
-            "name": "Tom's Brook",
-            "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.44124985555887425,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.38636363636363635,
-            "frozen_baseline_score": 0.43937520965367055
-          },
-          {
-            "battle_id": "VA122",
-            "name": "Cedar Creek",
-            "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.4533301119739528,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.38636363636363635,
-            "frozen_baseline_score": 0.4257102499460024
-          },
-          {
-            "battle_id": "VA123",
-            "name": "Waynesboro",
-            "campaign": "Sheridan's Expedition to Petersburg [March 1865]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.47408312217203097,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.425531914893617,
-            "frozen_baseline_score": 0.47210992834240073
+            "p_training_prior": 0.5263157894736842,
+            "frozen_baseline_score": 0.4848833992585338
           }
         ]
       },
       "newly_covered_rows": {
-        "n_rows": 15,
-        "n_campaigns": 12,
+        "n_rows": 43,
+        "n_campaigns": 29,
         "battle_weighted": {
           "strength_logistic": {
-            "brier": 0.26249345975046184,
-            "log_loss": 0.7198102566831545
+            "brier": 0.24963137707005573,
+            "log_loss": 0.6917448608018725
           },
           "equal_odds": {
             "brier": 0.25,
-            "log_loss": 0.6931471805599453
+            "log_loss": 0.6931471805599445
           },
           "training_prior": {
-            "brier": 0.2630073347564344,
-            "log_loss": 0.7196100010482289
+            "brier": 0.2595886822079839,
+            "log_loss": 0.7128407112454143
           }
         },
         "campaign_weighted": {
           "strength_logistic": {
-            "brier": 0.25485074553609777,
-            "log_loss": 0.7036393301087901
+            "brier": 0.24797304914288038,
+            "log_loss": 0.6884897284028104
           },
           "equal_odds": {
             "brier": 0.25,
             "log_loss": 0.6931471805599453
           },
           "training_prior": {
-            "brier": 0.2643172959887671,
-            "log_loss": 0.7221611497293332
+            "brier": 0.24815488345752088,
+            "log_loss": 0.6896960550816386
           }
         },
         "grade_mix_sides": {
-          "A": 30
+          "A": 86
         },
         "label_counts_sides": {
-          "applicability_unresolved": 7,
+          "applicability_unresolved": 17,
           "basis_mixed": 10,
-          "compiled_dependence": 30,
-          "derivation_unknown": 19,
-          "single_input": 10,
-          "whole_engagement_leakage": 30
+          "bound_conflict": 1,
+          "compiled_dependence": 86,
+          "derivation_unknown": 75,
+          "single_input": 39,
+          "whole_engagement_leakage": 86
         },
         "flags": [
           "whole_engagement_leakage",
@@ -2563,635 +2261,333 @@
       ],
       "common_rows": {
         "evaluable": true,
-        "rows": 48,
-        "campaigns": 32,
-        "union_wins": 22,
+        "rows": 20,
+        "campaigns": 11,
+        "union_wins": 11,
         "grade_mix_sides": {
-          "A": 92,
+          "A": 36,
           "B": 4
         },
         "label_counts_sides": {
-          "applicability_unresolved": 13,
+          "applicability_unresolved": 3,
           "basis_mixed": 4,
-          "bound_conflict": 2,
-          "compiled_dependence": 96,
-          "derivation_unknown": 96,
-          "single_input": 57,
-          "whole_engagement_leakage": 96
+          "bound_conflict": 1,
+          "compiled_dependence": 40,
+          "derivation_unknown": 40,
+          "single_input": 28,
+          "whole_engagement_leakage": 40
         },
         "flags": [
           "whole_engagement_leakage",
           "conditional_on_source_availability"
         ],
         "identical_by_construction": [
-          "FL001",
-          "GA023",
           "IN001",
-          "KY001",
-          "MO006",
           "NC002",
-          "NC016",
-          "NC017",
           "OH001",
           "OH002",
           "PA002",
-          "SC001",
-          "SC002",
-          "SC007",
-          "SC010",
-          "SC011",
           "TN006",
           "TN012",
           "TN014",
           "TN022",
-          "VA003",
-          "VA005",
-          "VA006",
           "VA016",
           "VA028",
-          "VA053",
-          "VA062",
-          "VA063",
           "VA101",
           "VA102",
           "VA103",
           "VA104",
           "VA105",
           "VA106",
-          "VA107",
-          "VA114",
-          "VA116",
-          "VA119",
-          "VA120",
-          "VA121",
-          "VA123"
+          "VA107"
         ],
         "note": "Identical rows differ from the frozen inputs only by rounding to 10.",
         "metrics": {
-          "n_rows": 48,
-          "n_campaigns": 32,
+          "n_rows": 20,
+          "n_campaigns": 11,
           "battle_weighted": {
             "strength_logistic": {
-              "brier": 0.25468702791130965,
-              "log_loss": 0.7039253410920642
-            },
-            "equal_odds": {
-              "brier": 0.25,
-              "log_loss": 0.6931471805599445
-            },
-            "training_prior": {
-              "brier": 0.26549843162347786,
-              "log_loss": 0.7244522607785275
-            },
-            "frozen_baseline_refit": {
-              "brier": 0.2563540661627968,
-              "log_loss": 0.7072210598439673
-            }
-          },
-          "campaign_weighted": {
-            "strength_logistic": {
-              "brier": 0.26373431047614126,
-              "log_loss": 0.7221180885934978
+              "brier": 0.2912867170099644,
+              "log_loss": 0.7791717793700764
             },
             "equal_odds": {
               "brier": 0.25,
               "log_loss": 0.6931471805599453
             },
             "training_prior": {
-              "brier": 0.2580967165844315,
-              "log_loss": 0.7095368800409264
+              "brier": 0.2989273672707772,
+              "log_loss": 0.7965870138068889
             },
             "frozen_baseline_refit": {
-              "brier": 0.2644769492684189,
-              "log_loss": 0.7235223787010213
+              "brier": 0.29145260311565235,
+              "log_loss": 0.7795027321660485
+            }
+          },
+          "campaign_weighted": {
+            "strength_logistic": {
+              "brier": 0.26924877242063433,
+              "log_loss": 0.7332826600628958
+            },
+            "equal_odds": {
+              "brier": 0.25,
+              "log_loss": 0.6931471805599453
+            },
+            "training_prior": {
+              "brier": 0.26740226486485635,
+              "log_loss": 0.7297969438408742
+            },
+            "frozen_baseline_refit": {
+              "brier": 0.2694276591541768,
+              "log_loss": 0.7336360679633206
             }
           }
         },
         "predictions": [
           {
-            "battle_id": "FL001",
-            "name": "Santa Rosa Island",
-            "campaign": "Operations of the Gulf Blockading Squadron [October 1861]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.35410219186151154,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.4489795918367347,
-            "frozen_baseline_score": 0.3577993036732637
-          },
-          {
-            "battle_id": "GA023",
-            "name": "Allatoona",
-            "campaign": "Franklin-Nashville Campaign [September-December 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.4283559816143732,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.4375,
-            "frozen_baseline_score": 0.4293121299460423
-          },
-          {
             "battle_id": "IN001",
             "name": "Corydon",
             "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.3304070714963412,
+            "diagnostic_union_score": 0.4802133205905339,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.33761842914741
-          },
-          {
-            "battle_id": "KY001",
-            "name": "Barbourville",
-            "campaign": "Operations in Eastern Kentucky [September-December 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.36003992975542165,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.46938775510204084,
-            "frozen_baseline_score": 0.3650471313325326
-          },
-          {
-            "battle_id": "MO006",
-            "name": "Lexington",
-            "campaign": "Operations to Control Missouri [June-October 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.3409408143446765,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.46938775510204084,
-            "frozen_baseline_score": 0.34683591150445814
-          },
-          {
-            "battle_id": "MO014",
-            "name": "Independence",
-            "campaign": "Operations North of Boston Mountains [August-November 1862]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.3847938962758046,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.4791666666666667,
-            "frozen_baseline_score": 0.40331832986196947
-          },
-          {
-            "battle_id": "MO017",
-            "name": "Clark's Mill",
-            "campaign": "Operations North of Boston Mountains [August-November 1862]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.3088251738321106,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.4791666666666667,
-            "frozen_baseline_score": 0.31965589277276235
+            "p_training_prior": 0.5263157894736842,
+            "frozen_baseline_score": 0.48081693453072505
           },
           {
             "battle_id": "MS001",
             "name": "Iuka",
             "campaign": "Iuka and Corinth Operations [September-October 1862]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.4782736600468878,
+            "diagnostic_union_score": 0.5560777185175683,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.4489795918367347,
-            "frozen_baseline_score": 0.47013071842140874
+            "p_training_prior": 0.5238095238095238,
+            "frozen_baseline_score": 0.5509074871422843
           },
           {
             "battle_id": "NC002",
             "name": "Roanoke Island",
             "campaign": "Burnside's North Carolina Expedition [February-June 1862]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.5451294163401872,
+            "diagnostic_union_score": 0.5998758737886565,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.4489795918367347,
-            "frozen_baseline_score": 0.5407216174309496
-          },
-          {
-            "battle_id": "NC016",
-            "name": "Wilmington",
-            "campaign": "Operations Against Fort Fisher and Wilmington [January-February 1865]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.5137875948302826,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.4489795918367347,
-            "frozen_baseline_score": 0.5109404077201101
-          },
-          {
-            "battle_id": "NC017",
-            "name": "Wyse Fork",
-            "campaign": "Carolinas Campaign [February-March 1865]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.47365978594218455,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.4375,
-            "frozen_baseline_score": 0.47195362104305916
+            "p_training_prior": 0.5238095238095238,
+            "frozen_baseline_score": 0.5995428833060962
           },
           {
             "battle_id": "OH001",
             "name": "Buffington Island",
             "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.4972125350649466,
+            "diagnostic_union_score": 0.5503241323618886,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.4941126342474441
+            "p_training_prior": 0.5263157894736842,
+            "frozen_baseline_score": 0.5500169051842544
           },
           {
             "battle_id": "OH002",
             "name": "Salineville",
             "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.583375002226288,
+            "diagnostic_union_score": 0.5848326565652023,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.44680851063829785,
-            "frozen_baseline_score": 0.5748875196360331
+            "p_training_prior": 0.5263157894736842,
+            "frozen_baseline_score": 0.5840865197412338
           },
           {
             "battle_id": "PA002",
             "name": "Gettysburg",
             "campaign": "Gettysburg Campaign [June-July 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.46398367725113576,
+            "diagnostic_union_score": 0.560812836456543,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.4583333333333333,
-            "frozen_baseline_score": 0.463814606039541
-          },
-          {
-            "battle_id": "SC001",
-            "name": "Fort Sumter",
-            "campaign": "Operations in Charleston Harbor [April 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.30699407129266104,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.46938775510204084,
-            "frozen_baseline_score": 0.3144431192185688
-          },
-          {
-            "battle_id": "SC002",
-            "name": "Secessionville",
-            "campaign": "Operations Against Charleston [June 1862]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.6118269017993642,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.46938775510204084,
-            "frozen_baseline_score": 0.6065909200814638
-          },
-          {
-            "battle_id": "SC007",
-            "name": "Fort Wagner/Morris Island",
-            "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5924945119498203,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.46938775510204084,
-            "frozen_baseline_score": 0.5878575807736683
-          },
-          {
-            "battle_id": "SC010",
-            "name": "Honey Hill",
-            "campaign": "Savannah Campaign [November-December 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.6202356801015951,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.46938775510204084,
-            "frozen_baseline_score": 0.6147535705628505
-          },
-          {
-            "battle_id": "SC011",
-            "name": "Rivers' Bridge",
-            "campaign": "Carolinas Campaign [February-March 1865]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.5702103250363886,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.4375,
-            "frozen_baseline_score": 0.5635955852496939
+            "p_training_prior": 0.55,
+            "frozen_baseline_score": 0.5608065258502346
           },
           {
             "battle_id": "TN003",
             "name": "Shiloh",
             "campaign": "Federal Penetration up the Cumberland and Tennessee Rivers [February-June 1862]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.48399516165959006,
+            "diagnostic_union_score": 0.5600375703183177,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.4489795918367347,
-            "frozen_baseline_score": 0.48676260827596324
+            "p_training_prior": 0.5238095238095238,
+            "frozen_baseline_score": 0.5629407711353365
           },
           {
             "battle_id": "TN006",
             "name": "Murfreesboro",
             "campaign": "Confederate Heartland Offensive [June-October 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.4116198879292136,
+            "diagnostic_union_score": 0.5348032442075764,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.46938775510204084,
-            "frozen_baseline_score": 0.4142394427542381
+            "p_training_prior": 0.5714285714285714,
+            "frozen_baseline_score": 0.5350091118601982
           },
           {
             "battle_id": "TN012",
             "name": "Dover",
             "campaign": "Middle Tennessee Operations [February-April 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.2737187497762018,
+            "diagnostic_union_score": 0.3647717548413454,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.4375,
-            "frozen_baseline_score": 0.2787492858947695
+            "p_training_prior": 0.5,
+            "frozen_baseline_score": 0.3653251901342933
           },
           {
             "battle_id": "TN014",
             "name": "Vaught's Hill",
             "campaign": "Middle Tennessee Operations [February-April 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.288489898604908,
+            "diagnostic_union_score": 0.37920121016331604,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.4375,
-            "frozen_baseline_score": 0.29317300933432333
+            "p_training_prior": 0.5,
+            "frozen_baseline_score": 0.3797146969775363
           },
           {
             "battle_id": "TN022",
             "name": "Collierville",
             "campaign": "Operations on the Memphis & Charleston Railroad [November 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.3093025300811936,
+            "diagnostic_union_score": 0.41681770941639434,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.4489795918367347,
-            "frozen_baseline_score": 0.31427601321657406
-          },
-          {
-            "battle_id": "TN037",
-            "name": "Murfreesboro",
-            "campaign": "Franklin-Nashville Campaign [September-December 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.452952330084799,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.4375,
-            "frozen_baseline_score": 0.45692233235901664
-          },
-          {
-            "battle_id": "VA003",
-            "name": "Big Bethel",
-            "campaign": "Blockade of the Chesapeake Bay [May-June 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5981023253576228,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.46938775510204084,
-            "frozen_baseline_score": 0.5932870117168093
-          },
-          {
-            "battle_id": "VA005",
-            "name": "Manassas, First",
-            "campaign": "Manassas Campaign [July 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.4481560507516471,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.46938775510204084,
-            "frozen_baseline_score": 0.4491323605200452
-          },
-          {
-            "battle_id": "VA006",
-            "name": "Ball's Bluff",
-            "campaign": "McClellan's Operations in Northern Virginia [October-December 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.49186805847861026,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.46938775510204084,
-            "frozen_baseline_score": 0.4909708908135921
+            "p_training_prior": 0.5238095238095238,
+            "frozen_baseline_score": 0.4172951816662052
           },
           {
             "battle_id": "VA016",
             "name": "Beaver Dam Creek",
             "campaign": "Peninsula Campaign [March-July 1862]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.4373086213989574,
+            "diagnostic_union_score": 0.5264712912426979,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.4489795918367347,
-            "frozen_baseline_score": 0.4379667742067517
+            "p_training_prior": 0.5238095238095238,
+            "frozen_baseline_score": 0.5265628174280471
           },
           {
             "battle_id": "VA028",
             "name": "Fredericksburg I",
             "campaign": "Fredericksburg Campaign [November-December 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.5046191033791273,
+            "diagnostic_union_score": 0.6096321986939792,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.46938775510204084,
-            "frozen_baseline_score": 0.5032007712500354
-          },
-          {
-            "battle_id": "VA053",
-            "name": "Proctor's Creek",
-            "campaign": "Bermuda Hundred Campaign [May 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5291573375754594,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.46938775510204084,
-            "frozen_baseline_score": 0.5267675271653939
-          },
-          {
-            "battle_id": "VA062",
-            "name": "Cold Harbor",
-            "campaign": "Grant's Overland Campaign [May-June 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5348587542063076,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.46938775510204084,
-            "frozen_baseline_score": 0.532250779689875
-          },
-          {
-            "battle_id": "VA063",
-            "name": "Petersburg",
-            "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.513419462623725,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.46938775510204084,
-            "frozen_baseline_score": 0.5116462150958943
+            "p_training_prior": 0.5714285714285714,
+            "frozen_baseline_score": 0.609562370997899
           },
           {
             "battle_id": "VA101",
             "name": "Kernstown, First",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.569898705525407,
+            "diagnostic_union_score": 0.7123405539151881,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.5,
-            "frozen_baseline_score": 0.5658463780678017
+            "p_training_prior": 0.6875,
+            "frozen_baseline_score": 0.7121851531328276
           },
           {
             "battle_id": "VA102",
             "name": "McDowell",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.500838153093418,
+            "diagnostic_union_score": 0.6749896032161856,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.5,
-            "frozen_baseline_score": 0.5007367264505712
+            "p_training_prior": 0.6875,
+            "frozen_baseline_score": 0.6750069486786876
           },
           {
             "battle_id": "VA103",
             "name": "Front Royal",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.3970996685165193,
+            "diagnostic_union_score": 0.614089374667466,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.5,
-            "frozen_baseline_score": 0.40305469335094535
+            "p_training_prior": 0.6875,
+            "frozen_baseline_score": 0.6145407205716148
           },
           {
             "battle_id": "VA104",
             "name": "Winchester, First",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.4079703822299333,
+            "diagnostic_union_score": 0.620844291226754,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.5,
-            "frozen_baseline_score": 0.4131388177120245
+            "p_training_prior": 0.6875,
+            "frozen_baseline_score": 0.6211291639282549
           },
           {
             "battle_id": "VA105",
             "name": "Cross Keys",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.5593820690989969,
+            "diagnostic_union_score": 0.7067622708752244,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.5,
-            "frozen_baseline_score": 0.5559198593993482
+            "p_training_prior": 0.6875,
+            "frozen_baseline_score": 0.7066318037220198
           },
           {
             "battle_id": "VA106",
             "name": "Port Republic",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.439530539783358,
+            "diagnostic_union_score": 0.6399011821060456,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.5,
-            "frozen_baseline_score": 0.44294966659301743
+            "p_training_prior": 0.6875,
+            "frozen_baseline_score": 0.6400903525271284
           },
           {
             "battle_id": "VA107",
             "name": "Winchester, Second",
             "campaign": "Gettysburg Campaign [June-July 1863]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.38684371831238085,
+            "diagnostic_union_score": 0.5060996235323032,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.4583333333333333,
-            "frozen_baseline_score": 0.39014288307508505
-          },
-          {
-            "battle_id": "VA110",
-            "name": "New Market",
-            "campaign": "Lynchburg Campaign [May-June 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5013150090812648,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.46938775510204084,
-            "frozen_baseline_score": 0.5164554311429208
-          },
-          {
-            "battle_id": "VA114",
-            "name": "Cool Spring",
-            "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.4190753870546647,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.4791666666666667,
-            "frozen_baseline_score": 0.42187458938116634
-          },
-          {
-            "battle_id": "VA116",
-            "name": "Kernstown, Second",
-            "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.4418828363494245,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.4791666666666667,
-            "frozen_baseline_score": 0.443641354337745
-          },
-          {
-            "battle_id": "VA119",
-            "name": "Opequon",
-            "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.4959056074226255,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.41304347826086957,
-            "frozen_baseline_score": 0.493130925042236
-          },
-          {
-            "battle_id": "VA120",
-            "name": "Fisher's Hill",
-            "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.5086763450314815,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.41304347826086957,
-            "frozen_baseline_score": 0.5055567023141397
-          },
-          {
-            "battle_id": "VA121",
-            "name": "Tom's Brook",
-            "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.46770590047488597,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.41304347826086957,
-            "frozen_baseline_score": 0.46572278136731804
-          },
-          {
-            "battle_id": "VA122",
-            "name": "Cedar Creek",
-            "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.479907604761404,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.41304347826086957,
-            "frozen_baseline_score": 0.451901662948368
-          },
-          {
-            "battle_id": "VA123",
-            "name": "Waynesboro",
-            "campaign": "Sheridan's Expedition to Petersburg [March 1865]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.49717156806032337,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.4489795918367347,
-            "frozen_baseline_score": 0.4951215635430455
+            "p_training_prior": 0.55,
+            "frozen_baseline_score": 0.506363821905036
           }
         ]
       },
       "newly_covered_rows": {
-        "n_rows": 32,
-        "n_campaigns": 22,
+        "n_rows": 60,
+        "n_campaigns": 38,
         "battle_weighted": {
           "strength_logistic": {
-            "brier": 0.24809138334190392,
-            "log_loss": 0.6933424148299984
+            "brier": 0.2529938773053677,
+            "log_loss": 0.7020403890180452
           },
           "equal_odds": {
             "brier": 0.25,
-            "log_loss": 0.6931471805599448
+            "log_loss": 0.6931471805599451
           },
           "training_prior": {
-            "brier": 0.24805861723513314,
-            "log_loss": 0.6893099657819635
+            "brier": 0.2585113988357502,
+            "log_loss": 0.7102602618257599
           }
         },
         "campaign_weighted": {
           "strength_logistic": {
-            "brier": 0.25579243359924797,
-            "log_loss": 0.7080926021715244
+            "brier": 0.26832609360943666,
+            "log_loss": 0.7332062520496132
           },
           "equal_odds": {
             "brier": 0.25,
             "log_loss": 0.6931471805599453
           },
           "training_prior": {
-            "brier": 0.24540906229397252,
-            "log_loss": 0.6839994309455282
+            "brier": 0.26003067803843555,
+            "log_loss": 0.7133044336464921
           }
         },
         "grade_mix_sides": {
-          "A": 41,
+          "A": 97,
           "B": 23
         },
         "label_counts_sides": {
-          "applicability_unresolved": 16,
+          "applicability_unresolved": 26,
           "basis_mixed": 36,
-          "compiled_dependence": 51,
-          "derivation_unknown": 29,
-          "single_input": 22,
-          "whole_engagement_leakage": 64
+          "bound_conflict": 1,
+          "compiled_dependence": 107,
+          "derivation_unknown": 85,
+          "single_input": 51,
+          "whole_engagement_leakage": 120
         },
         "flags": [
           "whole_engagement_leakage",
@@ -4807,660 +4203,347 @@
       ],
       "common_rows": {
         "evaluable": true,
-        "rows": 50,
-        "campaigns": 33,
-        "union_wins": 23,
+        "rows": 21,
+        "campaigns": 12,
+        "union_wins": 11,
         "grade_mix_sides": {
-          "A": 93,
+          "A": 36,
           "B": 4,
-          "C": 3
+          "C": 2
         },
         "label_counts_sides": {
-          "applicability_unresolved": 16,
-          "basis_mixed": 8,
-          "bound_conflict": 2,
-          "compiled_dependence": 98,
-          "derivation_unknown": 98,
-          "single_input": 59,
-          "whole_engagement_leakage": 100
+          "applicability_unresolved": 5,
+          "basis_mixed": 6,
+          "bound_conflict": 1,
+          "compiled_dependence": 40,
+          "derivation_unknown": 40,
+          "single_input": 29,
+          "whole_engagement_leakage": 42
         },
         "flags": [
           "whole_engagement_leakage",
           "conditional_on_source_availability"
         ],
         "identical_by_construction": [
-          "FL001",
-          "GA023",
           "IN001",
-          "KY001",
-          "MO006",
           "NC002",
-          "NC016",
-          "NC017",
           "OH001",
           "OH002",
           "PA002",
-          "SC001",
-          "SC002",
-          "SC007",
-          "SC010",
-          "SC011",
           "TN006",
           "TN012",
           "TN014",
           "TN022",
-          "VA003",
-          "VA005",
-          "VA006",
           "VA016",
           "VA028",
-          "VA053",
-          "VA062",
-          "VA063",
           "VA101",
           "VA102",
           "VA103",
           "VA104",
           "VA105",
           "VA106",
-          "VA107",
-          "VA114",
-          "VA116",
-          "VA119",
-          "VA120",
-          "VA121",
-          "VA123"
+          "VA107"
         ],
         "note": "Identical rows differ from the frozen inputs only by rounding to 10.",
         "metrics": {
-          "n_rows": 50,
-          "n_campaigns": 33,
+          "n_rows": 21,
+          "n_campaigns": 12,
           "battle_weighted": {
             "strength_logistic": {
-              "brier": 0.253207047549005,
-              "log_loss": 0.7009163373239141
-            },
-            "equal_odds": {
-              "brier": 0.25,
-              "log_loss": 0.6931471805599446
-            },
-            "training_prior": {
-              "brier": 0.264254406235003,
-              "log_loss": 0.7219159805887762
-            },
-            "frozen_baseline_refit": {
-              "brier": 0.25431648746233804,
-              "log_loss": 0.7031212352551879
-            }
-          },
-          "campaign_weighted": {
-            "strength_logistic": {
-              "brier": 0.26274417311797804,
-              "log_loss": 0.7200997208317684
+              "brier": 0.2947264053245349,
+              "log_loss": 0.7849179897478038
             },
             "equal_odds": {
               "brier": 0.25,
               "log_loss": 0.6931471805599453
             },
             "training_prior": {
-              "brier": 0.2575111275417075,
-              "log_loss": 0.7083370095017518
+              "brier": 0.2933543659224305,
+              "log_loss": 0.7821702938135334
             },
             "frozen_baseline_refit": {
-              "brier": 0.26310950840101355,
-              "log_loss": 0.7207831280068512
+              "brier": 0.2940965975060478,
+              "log_loss": 0.7836406135158592
+            }
+          },
+          "campaign_weighted": {
+            "strength_logistic": {
+              "brier": 0.28377626094422476,
+              "log_loss": 0.7623807040457202
+            },
+            "equal_odds": {
+              "brier": 0.25,
+              "log_loss": 0.6931471805599453
+            },
+            "training_prior": {
+              "brier": 0.2739309006160667,
+              "log_loss": 0.7417421670757375
+            },
+            "frozen_baseline_refit": {
+              "brier": 0.2830048798046643,
+              "log_loss": 0.7607956117530033
             }
           }
         },
         "predictions": [
           {
-            "battle_id": "FL001",
-            "name": "Santa Rosa Island",
-            "campaign": "Operations of the Gulf Blockading Squadron [October 1861]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.35186978999234936,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.45098039215686275,
-            "frozen_baseline_score": 0.3545212103893243
-          },
-          {
-            "battle_id": "GA023",
-            "name": "Allatoona",
-            "campaign": "Franklin-Nashville Campaign [September-December 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.42738535062344507,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44,
-            "frozen_baseline_score": 0.42831114836367307
-          },
-          {
             "battle_id": "IN001",
             "name": "Corydon",
             "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.32751890408222284,
+            "diagnostic_union_score": 0.4743533847006227,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.4489795918367347,
-            "frozen_baseline_score": 0.33270405392138686
-          },
-          {
-            "battle_id": "KY001",
-            "name": "Barbourville",
-            "campaign": "Operations in Eastern Kentucky [September-December 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.35746575580296663,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.47058823529411764,
-            "frozen_baseline_score": 0.3610547465542665
-          },
-          {
-            "battle_id": "MO006",
-            "name": "Lexington",
-            "campaign": "Operations to Control Missouri [June-October 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.33823174818456775,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.47058823529411764,
-            "frozen_baseline_score": 0.34243446505168706
-          },
-          {
-            "battle_id": "MO014",
-            "name": "Independence",
-            "campaign": "Operations North of Boston Mountains [August-November 1862]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.38210544352629616,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.48,
-            "frozen_baseline_score": 0.39957112069670647
-          },
-          {
-            "battle_id": "MO017",
-            "name": "Clark's Mill",
-            "campaign": "Operations North of Boston Mountains [August-November 1862]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.30554786066237694,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.48,
-            "frozen_baseline_score": 0.31395526556166375
+            "p_training_prior": 0.5,
+            "frozen_baseline_score": 0.4730204537335119
           },
           {
             "battle_id": "MS001",
             "name": "Iuka",
             "campaign": "Iuka and Corinth Operations [September-October 1862]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.4774182400162408,
+            "diagnostic_union_score": 0.5264053968121338,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.45098039215686275,
-            "frozen_baseline_score": 0.4695537585825494
+            "p_training_prior": 0.5,
+            "frozen_baseline_score": 0.5228206934135636
           },
           {
             "battle_id": "NC002",
             "name": "Roanoke Island",
             "campaign": "Burnside's North Carolina Expedition [February-June 1862]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.5452684898991375,
+            "diagnostic_union_score": 0.561827690914481,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.45098039215686275,
-            "frozen_baseline_score": 0.5423182811962122
-          },
-          {
-            "battle_id": "NC016",
-            "name": "Wilmington",
-            "campaign": "Operations Against Fort Fisher and Wilmington [January-February 1865]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.5134448229456502,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.45098039215686275,
-            "frozen_baseline_score": 0.5115847313577151
-          },
-          {
-            "battle_id": "NC017",
-            "name": "Wyse Fork",
-            "campaign": "Carolinas Campaign [February-March 1865]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.4736785651083618,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44,
-            "frozen_baseline_score": 0.4726140593451309
+            "p_training_prior": 0.5,
+            "frozen_baseline_score": 0.5632945307919682
           },
           {
             "battle_id": "OH001",
             "name": "Buffington Island",
             "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.49776384550227404,
+            "diagnostic_union_score": 0.5144697414623941,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.4489795918367347,
-            "frozen_baseline_score": 0.49570634346160636
+            "p_training_prior": 0.5,
+            "frozen_baseline_score": 0.5153845259429408
           },
           {
             "battle_id": "OH002",
             "name": "Salineville",
             "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.5857680471408261,
+            "diagnostic_union_score": 0.5345016692431224,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.4489795918367347,
-            "frozen_baseline_score": 0.5799137452725885
+            "p_training_prior": 0.5,
+            "frozen_baseline_score": 0.5365337148096898
           },
           {
             "battle_id": "PA002",
             "name": "Gettysburg",
             "campaign": "Gettysburg Campaign [June-July 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.46263484611610756,
+            "diagnostic_union_score": 0.5322281142340792,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.46,
-            "frozen_baseline_score": 0.4626353255091619
-          },
-          {
-            "battle_id": "SC001",
-            "name": "Fort Sumter",
-            "campaign": "Operations in Charleston Harbor [April 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.30403775214886675,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.47058823529411764,
-            "frozen_baseline_score": 0.3093089110558644
-          },
-          {
-            "battle_id": "SC002",
-            "name": "Secessionville",
-            "campaign": "Operations Against Charleston [June 1862]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.6100078162820256,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.47058823529411764,
-            "frozen_baseline_score": 0.6065458211898798
-          },
-          {
-            "battle_id": "SC007",
-            "name": "Fort Wagner/Morris Island",
-            "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5906946629670748,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.47058823529411764,
-            "frozen_baseline_score": 0.5876367622215035
-          },
-          {
-            "battle_id": "SC010",
-            "name": "Honey Hill",
-            "campaign": "Savannah Campaign [November-December 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.6184048746778725,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.47058823529411764,
-            "frozen_baseline_score": 0.6147774966678715
-          },
-          {
-            "battle_id": "SC011",
-            "name": "Rivers' Bridge",
-            "campaign": "Carolinas Campaign [February-March 1865]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.5719137049948667,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44,
-            "frozen_baseline_score": 0.5674170498485485
+            "p_training_prior": 0.5238095238095238,
+            "frozen_baseline_score": 0.5327230937574514
           },
           {
             "battle_id": "TN003",
             "name": "Shiloh",
             "campaign": "Federal Penetration up the Cumberland and Tennessee Rivers [February-June 1862]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.48321953080828456,
+            "diagnostic_union_score": 0.5296965318066608,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.45098039215686275,
-            "frozen_baseline_score": 0.48667053081270634
+            "p_training_prior": 0.5,
+            "frozen_baseline_score": 0.5330601313847324
           },
           {
             "battle_id": "TN006",
             "name": "Murfreesboro",
             "campaign": "Confederate Heartland Offensive [June-October 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.4093723738070641,
+            "diagnostic_union_score": 0.5139492261653286,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.47058823529411764,
-            "frozen_baseline_score": 0.4113060113339891
+            "p_training_prior": 0.5454545454545454,
+            "frozen_baseline_score": 0.5137234176228022
           },
           {
             "battle_id": "TN012",
             "name": "Dover",
             "campaign": "Middle Tennessee Operations [February-April 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.27116794202485084,
+            "diagnostic_union_score": 0.3536616055748051,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.44,
-            "frozen_baseline_score": 0.2746618125553585
+            "p_training_prior": 0.47619047619047616,
+            "frozen_baseline_score": 0.3528047730223534
           },
           {
             "battle_id": "TN014",
             "name": "Vaught's Hill",
             "campaign": "Middle Tennessee Operations [February-April 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.285999257084409,
+            "diagnostic_union_score": 0.3665071373119208,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.44,
-            "frozen_baseline_score": 0.2892662384299054
+            "p_training_prior": 0.47619047619047616,
+            "frozen_baseline_score": 0.36578435492629185
           },
           {
             "battle_id": "TN022",
             "name": "Collierville",
             "campaign": "Operations on the Memphis & Charleston Railroad [November 1863]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.30678436606198556,
+            "diagnostic_union_score": 0.40539968704331314,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.45098039215686275,
-            "frozen_baseline_score": 0.3102826898331407
-          },
-          {
-            "battle_id": "TN037",
-            "name": "Murfreesboro",
-            "campaign": "Franklin-Nashville Campaign [September-December 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.4523195723913238,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.44,
-            "frozen_baseline_score": 0.4567051925056838
-          },
-          {
-            "battle_id": "VA003",
-            "name": "Big Bethel",
-            "campaign": "Blockade of the Chesapeake Bay [May-June 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5962980467603526,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.47058823529411764,
-            "frozen_baseline_score": 0.5931196001653085
-          },
-          {
-            "battle_id": "VA005",
-            "name": "Manassas, First",
-            "campaign": "Manassas Campaign [July 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.446093301612107,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.47058823529411764,
-            "frozen_baseline_score": 0.44688762135050253
-          },
-          {
-            "battle_id": "VA006",
-            "name": "Ball's Bluff",
-            "campaign": "McClellan's Operations in Northern Virginia [October-December 1861]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.48996513340930326,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.47058823529411764,
-            "frozen_baseline_score": 0.48946446903479157
+            "p_training_prior": 0.5,
+            "frozen_baseline_score": 0.40452552382458806
           },
           {
             "battle_id": "VA016",
             "name": "Beaver Dam Creek",
             "campaign": "Peninsula Campaign [March-July 1862]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.43591859443055475,
+            "diagnostic_union_score": 0.501416938741707,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.45098039215686275,
-            "frozen_baseline_score": 0.4365079613757098
+            "p_training_prior": 0.5,
+            "frozen_baseline_score": 0.5017967382662794
           },
           {
             "battle_id": "VA028",
             "name": "Fredericksburg I",
             "campaign": "Fredericksburg Campaign [November-December 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.5027495476102463,
+            "diagnostic_union_score": 0.5767079405159851,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.47058823529411764,
-            "frozen_baseline_score": 0.501890334112083
+            "p_training_prior": 0.5454545454545454,
+            "frozen_baseline_score": 0.577658801518484
           },
           {
             "battle_id": "VA032",
             "name": "Chancellorsville",
             "campaign": "Chancellorsville Campaign [April-May 1863]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.5405583733121984,
+            "diagnostic_union_score": 0.6055582081318625,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.47058823529411764,
-            "frozen_baseline_score": 0.5281525270337928
-          },
-          {
-            "battle_id": "VA053",
-            "name": "Proctor's Creek",
-            "campaign": "Bermuda Hundred Campaign [May 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5273350077968737,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.47058823529411764,
-            "frozen_baseline_score": 0.5258080108246573
-          },
-          {
-            "battle_id": "VA062",
-            "name": "Cold Harbor",
-            "campaign": "Grant's Overland Campaign [May-June 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5330442221138829,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.47058823529411764,
-            "frozen_baseline_score": 0.5313677528169047
-          },
-          {
-            "battle_id": "VA063",
-            "name": "Petersburg",
-            "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.5006271875834033,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.46,
-            "frozen_baseline_score": 0.49942906207427185
-          },
-          {
-            "battle_id": "VA083",
-            "name": "Hatcher's Run",
-            "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.5504137436532702,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.46,
-            "frozen_baseline_score": 0.5544904979870194
+            "p_training_prior": 0.5454545454545454,
+            "frozen_baseline_score": 0.5983872507915581
           },
           {
             "battle_id": "VA101",
             "name": "Kernstown, First",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 1,
-            "diagnostic_union_score": 0.5676310996432319,
+            "diagnostic_union_score": 0.6641678587335511,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.5,
-            "frozen_baseline_score": 0.5649044039310142
+            "p_training_prior": 0.6470588235294118,
+            "frozen_baseline_score": 0.6657434121338615
           },
           {
             "battle_id": "VA102",
             "name": "McDowell",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.49814091966063173,
+            "diagnostic_union_score": 0.6362968792245977,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.5,
-            "frozen_baseline_score": 0.49819972780077765
+            "p_training_prior": 0.6470588235294118,
+            "frozen_baseline_score": 0.6367572221567891
           },
           {
             "battle_id": "VA103",
             "name": "Front Royal",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.3939615568469634,
+            "diagnostic_union_score": 0.5923678284547094,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.5,
-            "frozen_baseline_score": 0.39832742679191935
+            "p_training_prior": 0.6470588235294118,
+            "frozen_baseline_score": 0.5910884810576446
           },
           {
             "battle_id": "VA104",
             "name": "Winchester, First",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.4048645017038546,
+            "diagnostic_union_score": 0.5971707806919196,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.5,
-            "frozen_baseline_score": 0.408617336620431
+            "p_training_prior": 0.6470588235294118,
+            "frozen_baseline_score": 0.5959970865141001
           },
           {
             "battle_id": "VA105",
             "name": "Cross Keys",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.5570435078012378,
+            "diagnostic_union_score": 0.6599479111091701,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.5,
-            "frozen_baseline_score": 0.5547333353677715
+            "p_training_prior": 0.6470588235294118,
+            "frozen_baseline_score": 0.6613580787803773
           },
           {
             "battle_id": "VA106",
             "name": "Port Republic",
             "campaign": "Jackson's Valley Campaign [March-June 1862]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.4365380143003965,
+            "diagnostic_union_score": 0.6108035086509895,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.5,
-            "frozen_baseline_score": 0.4390685764209233
+            "p_training_prior": 0.6470588235294118,
+            "frozen_baseline_score": 0.6102057569994206
           },
           {
             "battle_id": "VA107",
             "name": "Winchester, Second",
             "campaign": "Gettysburg Campaign [June-July 1863]",
             "union_outcome": 0,
-            "diagnostic_union_score": 0.3847065711154384,
+            "diagnostic_union_score": 0.48694240958266866,
             "p_equal_odds": 0.5,
-            "p_training_prior": 0.46,
-            "frozen_baseline_score": 0.3871162968286278
-          },
-          {
-            "battle_id": "VA110",
-            "name": "New Market",
-            "campaign": "Lynchburg Campaign [May-June 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.4994373873934428,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.47058823529411764,
-            "frozen_baseline_score": 0.5153467560647909
-          },
-          {
-            "battle_id": "VA114",
-            "name": "Cool Spring",
-            "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.41660169470358793,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.48,
-            "frozen_baseline_score": 0.41866597196194877
-          },
-          {
-            "battle_id": "VA116",
-            "name": "Kernstown, Second",
-            "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
-            "union_outcome": 0,
-            "diagnostic_union_score": 0.4395405604715324,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.48,
-            "frozen_baseline_score": 0.44088226895020405
-          },
-          {
-            "battle_id": "VA119",
-            "name": "Opequon",
-            "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.49930236468334754,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.4166666666666667,
-            "frozen_baseline_score": 0.4980260451579209
-          },
-          {
-            "battle_id": "VA120",
-            "name": "Fisher's Hill",
-            "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.5124957931922706,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.4166666666666667,
-            "frozen_baseline_score": 0.511111178261424
-          },
-          {
-            "battle_id": "VA121",
-            "name": "Tom's Brook",
-            "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.4701548416940979,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.4166666666666667,
-            "frozen_baseline_score": 0.46914399843087384
-          },
-          {
-            "battle_id": "VA122",
-            "name": "Cedar Creek",
-            "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.48276857439926024,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.4166666666666667,
-            "frozen_baseline_score": 0.454574143165763
-          },
-          {
-            "battle_id": "VA123",
-            "name": "Waynesboro",
-            "campaign": "Sheridan's Expedition to Petersburg [March 1865]",
-            "union_outcome": 1,
-            "diagnostic_union_score": 0.49658393547406326,
-            "p_equal_odds": 0.5,
-            "p_training_prior": 0.45098039215686275,
-            "frozen_baseline_score": 0.4952800248873334
+            "p_training_prior": 0.5238095238095238,
+            "frozen_baseline_score": 0.4865671446193538
           }
         ]
       },
       "newly_covered_rows": {
-        "n_rows": 76,
-        "n_campaigns": 46,
+        "n_rows": 105,
+        "n_campaigns": 57,
         "battle_weighted": {
           "strength_logistic": {
-            "brier": 0.22053747977865962,
-            "log_loss": 0.6334721817012264
+            "brier": 0.2327350209111187,
+            "log_loss": 0.6592314622013674
           },
           "equal_odds": {
             "brier": 0.25,
-            "log_loss": 0.6931471805599455
+            "log_loss": 0.693147180559946
           },
           "training_prior": {
-            "brier": 0.23221785216367855,
-            "log_loss": 0.6574737683112474
+            "brier": 0.24517517575654307,
+            "log_loss": 0.6836810336399799
           }
         },
         "campaign_weighted": {
           "strength_logistic": {
-            "brier": 0.22043002331327366,
-            "log_loss": 0.6315406667768686
+            "brier": 0.24162092005028116,
+            "log_loss": 0.6771208021236329
           },
           "equal_odds": {
             "brier": 0.25,
             "log_loss": 0.6931471805599453
           },
           "training_prior": {
-            "brier": 0.22879731380160176,
-            "log_loss": 0.6505436374809966
+            "brier": 0.2439304258976895,
+            "log_loss": 0.681136101975485
           }
         },
         "grade_mix_sides": {
-          "A": 61,
+          "A": 118,
           "B": 36,
-          "C": 55
+          "C": 56
         },
         "label_counts_sides": {
-          "applicability_unresolved": 51,
-          "basis_mixed": 112,
-          "bound_conflict": 6,
-          "compiled_dependence": 82,
-          "derivation_unknown": 58,
+          "applicability_unresolved": 62,
+          "basis_mixed": 114,
+          "bound_conflict": 7,
+          "compiled_dependence": 140,
+          "derivation_unknown": 116,
           "opponent_estimate_point": 30,
           "partial_completed": 7,
-          "single_input": 79,
-          "whole_engagement_leakage": 152
+          "single_input": 109,
+          "whole_engagement_leakage": 210
         },
         "flags": [
           "whole_engagement_leakage",

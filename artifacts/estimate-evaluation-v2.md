@@ -18,7 +18,7 @@ Brier score, battle-weighted / campaign-weighted. Lower is better; equal odds sc
 
 Per-set §5 label counts, folds and every prediction are in `estimate-evaluation-v2.json`.
 
-Frozen baseline reference (23 rows, 13 campaigns): 0.2769 / 0.2765.
+Frozen baseline reference (23 rows, 13 campaigns; cohort v1, not these rows): 0.2769 / 0.2765.
 
 ## Common and newly covered rows
 
@@ -26,9 +26,9 @@ Common rows have both a frozen baseline row and an estimate row; both models are
 
 | Row set | Common rows | Identical by construction | Estimates | Frozen refit | Equal odds | Prior | New rows | Estimates | Equal odds | Prior |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| set1_A | 46 | 39 | 0.2529 / 0.2575 | 0.2546 / 0.2583 | 0.2500 / 0.2500 | 0.2645 / 0.2532 | 15 | 0.2625 / 0.2549 | 0.2500 / 0.2500 | 0.2630 / 0.2643 |
-| set2_AB | 48 | 41 | 0.2547 / 0.2637 | 0.2564 / 0.2645 | 0.2500 / 0.2500 | 0.2655 / 0.2581 | 32 | 0.2481 / 0.2558 | 0.2500 / 0.2500 | 0.2481 / 0.2454 |
-| set3_ABC | 50 | 41 | 0.2532 / 0.2627 | 0.2543 / 0.2631 | 0.2500 / 0.2500 | 0.2643 / 0.2575 | 76 | 0.2205 / 0.2204 | 0.2500 / 0.2500 | 0.2322 / 0.2288 |
+| set1_A | 18 | 16 | 0.3021 / 0.2881 | 0.3023 / 0.2884 | 0.2500 / 0.2500 | 0.3073 / 0.2874 | 43 | 0.2496 / 0.2480 | 0.2500 / 0.2500 | 0.2596 / 0.2482 |
+| set2_AB | 20 | 18 | 0.2913 / 0.2692 | 0.2915 / 0.2694 | 0.2500 / 0.2500 | 0.2989 / 0.2674 | 60 | 0.2530 / 0.2683 | 0.2500 / 0.2500 | 0.2585 / 0.2600 |
+| set3_ABC | 21 | 18 | 0.2947 / 0.2838 | 0.2941 / 0.2830 | 0.2500 / 0.2500 | 0.2934 / 0.2739 | 105 | 0.2327 / 0.2416 | 0.2500 / 0.2500 | 0.2452 / 0.2439 |
 
 ## Sensitivity refits
 

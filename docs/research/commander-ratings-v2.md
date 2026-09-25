@@ -3,7 +3,7 @@
 Run 2026-09-25 under the accepted [design](../commander-ratings.md), unchanged, on the reviewed
 [cohort-v2 ledgers](ledgers-v2.md). This is an exploratory diagnostic. It is not a ranking of
 record, a measure of command skill or a causal estimate. The baseline is unchanged. **Status:
-separate review pending.**
+separately reviewed ([review](../../artifacts/review-results/ratings-v2-review-8befd97-opus-high-v1/review.md)); its six required corrections are applied.**
 
 ## Authorization
 
@@ -47,14 +47,17 @@ than the strength-only model under both the battle and the campaign weighting.
 | Commander model | 0.6540 | 0.6795 |
 | Strength only | 0.6633 | 0.6844 |
 
-- The commander model is lower under both weightings, by 0.0093 and 0.0049. By the design's rule,
-  commander identity adds a held-out predictive signal on these rows, so the Markdown report orders
-  commanders by median rank.
-- It did better in 39 of 66 held-out campaigns and worse in 27.
+- The commander model is lower under both weightings, by 0.0093 and 0.0049. By the design's rule
+  this is an improvement, read only as: held-out log loss was lower on these rows. The Markdown
+  report therefore orders commanders by median rank.
+- It did better in 39 of 66 held-out campaigns and worse in 27 (descriptive; not part of the
+  verdict).
 - 87 of 126 held-out rows had a commander seen in another campaign (the effective denominator),
   against 21 of 37 in run 1.
-- The descriptive split (trained on 1861–1863, tested on 1864–1865; no verdict) points the same way:
-  0.6592 against 0.6666 on 47 test rows.
+- The descriptive split carries no verdict and does not support the verdict (design §5). Its years,
+  trained on 1861–1863 (79 rows) and tested on 1864–1865 (47 rows), are an author's run-2 choice, set
+  in the code at `cef8f3f` before the run commit; the design fixed only the v1 1862→1863 split. There
+  the commander model's log loss was 0.6592 against 0.6666 on the same rows as the held-out test.
 
 **Reading, fixed in advance.** A lower held-out log loss is not evidence of a persistent commander
 effect or of skill (design §5). The margins are small, no significance test was run, and the
@@ -71,26 +74,30 @@ with their intervals. θ is on the log-odds scale and relative to the commander'
 - **Top and bottom by mode.** Confederate: Forrest +0.50 (8 battles, 6–2; 80% interval −0.04 to
   +1.04), Beauregard +0.39, Jackson +0.32; Hood −0.39 (5 battles, 0–5). US: McNeil +0.23,
   Prentiss +0.20, Sheridan +0.20 (3–0); Gillmore −0.29, McDowell −0.25.
-- **Ranks overlap almost completely.** Forrest's 80% rank interval is 1–11 of 19, Hood's 8–19; the
+- **Ranks overlap completely.** On each side every pair's 80% rank intervals overlap. Forrest's 80% rank interval is 1–11 of 19, Hood's 8–19; the
   US 80% rank intervals run from 2–17 to 6–21 of 21.
 - **Connections.** 15 of the 40 are `not_connected`, including Forrest, Marmaduke, Early and Morgan:
   they share no chain of opponents with another ranked commander of their side, so their places
   rest partly on the prior.
-- **Robustness.** No commander is `view_sensitive` across the 71 views. Several are
+- **Robustness.** No commander is `view_sensitive` across the 68 robustness views (the three outcome-only views do not set it, design §6). Several are
   `unranked_in_view` in views that drop or reassign their rows (listed in the report).
 - **Coverage shapes the list.** Lee has 19 attributed battles but 7 modelled, Grant 11 and 5; the
   JSON lists each commander's out-of-model battles and reasons.
 - **Outcome-only views** (no force term, `includes_force_size_advantage`, a different quantity).
-  On all 301 decisive rows (GA012, LA009, VA033 and VA034 dropped as nested), the largest moves are
-  Grant (+0.40) and Sherman (−0.30); Forrest, Beauregard and Grant have 80% intervals above zero
+  On the 301 in-scope decisive rows (the 305 two-sided engagements less GA012, LA009, VA033 and
+  VA034, dropped as nested; a further view also drops TN035, whose nesting is unresolved), the
+  largest moves among the 40 ranked commanders are Grant (+0.40) and Sherman (−0.30) (among all
+  modelled commanders, James H. Wilson moves −0.34); Forrest, Beauregard and Grant have 80% intervals above zero
   there. These credit force concentration and every other advantage the commander did not create,
   and have no held-out test.
 
 ## What this means
 
-- **More coverage changed the answer.** On the 1862–63 pilot (37 rows) commander identity added no
-  held-out signal; on the full war (126 rows, 87 with a commander seen elsewhere) it adds a small
-  one under both weightings. The test was fixed before either run.
+- **The verdict changed with the wider frame.** On the 1862–63 pilot (37 rows) the commander
+  model's held-out log loss was not lower under both weightings; on the full war (126 rows, 87 with
+  a commander seen elsewhere) it was lower under both, by 0.0093 and 0.0049. The rows, campaigns
+  and years all differ between the runs, so this does not show which change moved it. The rule was
+  fixed before either run.
 - **It is not a ranking of skill.** The residual includes army quality, subordinates, theater,
   opponents and coding choices; commander-created advantages are only partly separated from force
   size; the ledgers are reviewed estimates, not adjudication, and extraction was not blind.
@@ -104,4 +111,4 @@ with their intervals. θ is on the log-odds scale and relative to the commander'
   `not_causal` and `side_relative` (design §8).
 - Which battles have usable strengths may depend on outcome, size and fame.
 - The twelve records with a Native American belligerent are outside the two-sided model.
-- An AI review of this run is pending; it is not human historical adjudication.
+- The separate review is an AI review, not human historical adjudication.

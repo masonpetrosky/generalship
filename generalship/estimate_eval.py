@@ -200,6 +200,9 @@ def evaluate_estimates(root, version=1):
     run['check'](root, run['ledger'])
     ledger = read_json(safe_path(root, run['ledger']))
     records, _ = build_dataset(root, run['cohort'])
+    if version != 1:  # strength design §6: common rows are rows of the frozen 23-engagement baseline
+        frozen_ids = {r['battle_id'] for r in build_dataset(root)[0] if r['baseline_eligible']}
+        records = [{**r, 'baseline_eligible': r['baseline_eligible'] and r['battle_id'] in frozen_ids} for r in records]
     rows, excluded, excluded_any = assemble(variant_estimates(ledger), records)
     results = {}
     for k in SETS:
@@ -258,7 +261,7 @@ def report_text(result):
     ref = result['frozen_baseline_reference']
     out_name = result.get('output', 'artifacts/estimate-evaluation.json').split('/')[-1]
     lines += ['', f'Per-set §5 label counts, folds and every prediction are in `{out_name}`.', '',
-              f"Frozen baseline reference ({ref['rows']} rows, {ref['campaigns']} campaigns): "
+              f"Frozen baseline reference ({ref['rows']} rows, {ref['campaigns']} campaigns{'' if 'run_version' not in result else '; cohort v1, not these rows'}): "
               f"{ref['battle_weighted_brier']:.4f} / {ref['campaign_weighted_brier']:.4f}.", '',
               '## Common and newly covered rows', '',
               'Common rows have both a frozen baseline row and an estimate row; both models are refit on the same common '

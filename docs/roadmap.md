@@ -21,8 +21,12 @@ The versioned v2 successors of the strength and command-responsibility ledgers a
 from v1, 214 new; twelve records with a Native American belligerent are out of scope under the
 two-sided rule), with new Livermore transcriptions under the owner's source decision, and sixteen
 reconciled Opus reviews. Fit-eligible rows with both strength sides graded A–C rise from 37 to 126,
-and 40 responsible commanders have two or more such rows (9 before). Next: a v2 rating run needs a
-new owner authorization naming the reviewed ledger and registry hashes.
+and 40 responsible commanders have two or more such rows (9 before). The owner authorized run 2 of
+the ratings and the v2 estimate evaluation on the reviewed hashes; the [run
+record](research/commander-ratings-v2.md) is separately reviewed. Commander identity lowered
+held-out log loss under both weightings (0.6540 against 0.6633 battle-weighted, 0.6795 against
+0.6844 campaign-weighted), so the report orders commanders; every interval includes zero, every
+pair's 80% rank intervals overlap, and the result is not evidence of skill (design §5).
 
 ## Previous priority — reviewed best-estimate strength ledger
 

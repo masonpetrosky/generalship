@@ -17,6 +17,8 @@ Descriptive 1861–1863→1864–1865 split (no verdict): trained on 79, tested 
 
 Held-out log loss was lower under both weightings on these rows. This is not evidence of a persistent commander effect or of skill (design §5).
 
+Within each side, commanders are listed by median within-side rank over the rank draws (ties by θ mode). The order is a point summary under the design, not a finding that one commander did better than another; read it with the 80% rank intervals.
+
 ## US commanders with two or more modelled battles
 
 | Commander | Battles | W–L | θ mode | 80% interval | 95% interval | Rank 80% | SD ratio | Labels |
