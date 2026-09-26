@@ -73,7 +73,11 @@ changing forces/command illustrate why reliable dossiers come before new ranking
 
 ## Research direction
 
-**Current priority: full-war first passes.** The 1862–63 pilot is complete: reviewed strength
+**Next priority: the French Revolutionary and Napoleonic Wars** (owner decision, 2026-09-25;
+not started). The [scoping note](docs/napoleonic-scoping.md) lists the owner decisions needed
+before any research. The Civil War work below is complete as recorded.
+
+**Completed: Civil War full-war first passes.** The 1862–63 pilot is complete: reviewed strength
 and command ledgers, an [estimate-layer evaluation](docs/research/estimate-evaluation-v1.md) and a
 [first commander-rating run](docs/research/commander-ratings-v1.md), which found no detectable
 commander signal and so gave no ranking. The owner then asked for the rest of the war: the

@@ -1,6 +1,15 @@
 # Roadmap and current handoff
 
-## Current priority — full-war first passes (cohort v2)
+## Next priority — French Revolutionary and Napoleonic Wars (not started)
+
+Owner decision, 2026-09-25: the Napoleonic Wars are the next war, to be prepared but not run
+until the owner resumes the following week. [Scoping note](napoleonic-scoping.md): the owner
+decisions needed first (frame source, period and size, what a side is, outcome coding, sources
+and language, usage budget), and which Civil War code is war-specific and needs versioned
+successors. No sources are fetched, no dossiers drafted and no agents or reviews run yet. The
+Civil War work below is complete as recorded; its cohorts, ledgers and runs are unchanged.
+
+## Completed priority — full-war first passes (cohort v2)
 
 Owner decision, 2026-09-25: after the first rating run found no detectable commander signal on
 the 127-engagement pilot, research the rest of the war ("Sounds good, go ahead"). The
