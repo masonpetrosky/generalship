@@ -26,7 +26,12 @@ the ratings and the v2 estimate evaluation on the reviewed hashes; the [run
 record](research/commander-ratings-v2.md) is separately reviewed. Commander identity lowered
 held-out log loss under both weightings (0.6540 against 0.6633 battle-weighted, 0.6795 against
 0.6844 campaign-weighted), so the report orders commanders; every interval includes zero, every
-pair's 80% rank intervals overlap, and the result is not evidence of skill (design §5).
+pair's 80% rank intervals overlap, and the result is not evidence of skill (design §5). On the owner's decision that battles should not be omitted, a reviewed
+[grade E design](strength-imputation.md) models missing strengths from command level, side, period and
+theater, and the all-battles test became the single verdict. [Run 3](research/commander-ratings-v3.md)
+(301 battles, 162 with a modelled side, 20 imputations) again found lower held-out log loss with
+commanders under both weightings (0.6476 against 0.6597; 0.6586 against 0.6651); only Forrest's 80%
+interval excludes zero, and ranks remain widely overlapping.
 
 ## Previous priority — reviewed best-estimate strength ledger
 

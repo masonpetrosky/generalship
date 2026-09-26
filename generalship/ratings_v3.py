@@ -385,7 +385,7 @@ def report_text(result):
              f"campaign. Descriptive, not part of the verdict: campaigns where each model had lower log loss, commander model "
              f"{t['campaigns_better'].get('commander_model', 0)}, strength only {t['campaigns_better'].get('strength_only', 0)}, "
              f"ties {t['campaigns_better'].get('tie', 0)}; Monte Carlo check of the log-loss difference (commander minus strength) "
-             + '; '.join(f"{k.replace('_', ' ')}: {v['battle_weighted']:+.4f} battle, {v['campaign_weighted']:+.4f} campaign"
+             + '; '.join(f"{k.replace('imputations_', 'imputations ').replace('_', '–')}: {v['battle_weighted']:+.4f} battle, {v['campaign_weighted']:+.4f} campaign"
                          for k, v in t['monte_carlo_check'].items()) + '.', '']
     ts = result['temporal_split']
     lines += [f"Descriptive {ts['years'][0][0]}–{ts['years'][0][-1]}→{ts['years'][1][0]}–{ts['years'][1][-1]} split "

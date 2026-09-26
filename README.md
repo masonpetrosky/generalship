@@ -86,7 +86,8 @@ reconciled. They add 959 source records, 26 of them metadata-only review success
 dossiers do not change model inputs. Reviewed v2 successors of the strength and command ledgers
 ([record](docs/research/ledgers-v2.md)) cover 305 engagements. The [full-war rating run](docs/research/commander-ratings-v2.md) found a
 small held-out improvement from commander identity under both weightings; its ordered list is a
-point summary with overlapping intervals, not a ranking of skill. Shiloh's repeated source
+point summary with overlapping intervals, not a ranking of skill. [Run 3](docs/research/commander-ratings-v3.md) adds modelled (grade E)
+strengths so that all 301 in-scope battles count, and finds the same direction on all of them. Shiloh's repeated source
 traces are parked with their unknowns intact; its depth is not the template for
 every battle. Use a bounded first pass of up to three source families and one
 targeted follow-up, then move on and review by complete source campaign.

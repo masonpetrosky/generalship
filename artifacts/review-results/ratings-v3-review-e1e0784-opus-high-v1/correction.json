@@ -1,0 +1,89 @@
+{
+  "review_sha256": "1bdda96bcbcf698e5850ff75453e4cb7c03d01783a331d42b575a672d9680b44",
+  "prepared_commit": "e1e07849e7ba1649b8e21250f983150e78d5256f",
+  "bundle_commit": "991f4e5333b64c499eb617de42c26246065a8e88",
+  "scope": "Commander ratings run 3",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_applied",
+      "summary": "Memo: force-coefficient drop separated into the row change (1.12 to 0.86) and imputation noise (0.86, 0.63, 0.43); the effect on commanders stated as untested."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_applied",
+      "summary": "Memo: cross-run comparison carries the rows, folds and force-term caveat."
+    },
+    {
+      "finding_id": "R3",
+      "disposition": "accepted_applied",
+      "summary": "Memo: Monte Carlo halves described as similar."
+    },
+    {
+      "finding_id": "R4",
+      "disposition": "accepted_applied",
+      "summary": "Memo: selection limit stated with the descriptive counts."
+    },
+    {
+      "finding_id": "R5",
+      "disposition": "accepted_applied",
+      "summary": "Memo: not_connected explained (design §4)."
+    },
+    {
+      "finding_id": "A1",
+      "disposition": "accepted_applied",
+      "summary": "Memo: flotilla training count difference explained."
+    },
+    {
+      "finding_id": "A2",
+      "disposition": "kept_as_is",
+      "summary": "Conflict sides are labelled; listing format left for a later version."
+    },
+    {
+      "finding_id": "A3",
+      "disposition": "accepted_applied",
+      "summary": "report_text Monte Carlo labels fixed; the Markdown report was regenerated from the stored JSON (no refit)."
+    },
+    {
+      "finding_id": "A4",
+      "disposition": "accepted_applied",
+      "summary": "Memo: descriptive split of the improvement by modelled and graded rows, with its caveat."
+    },
+    {
+      "finding_id": "A5",
+      "disposition": "accepted_applied",
+      "summary": "Memo: unranked_in_view count added."
+    },
+    {
+      "finding_id": "A6",
+      "disposition": "accepted_applied",
+      "summary": "Memo: \"listed first/last\" replaces \"lead/trail\"."
+    },
+    {
+      "finding_id": "A7",
+      "disposition": "not_adopted",
+      "summary": "Further unit tests deferred to a later version; the replay test covers the grade E output."
+    },
+    {
+      "finding_id": "A8",
+      "disposition": "kept_as_is",
+      "summary": "No bound_dominates side exists; noted for a later design version."
+    },
+    {
+      "finding_id": "A9",
+      "disposition": "kept_as_is",
+      "summary": "Negligible; endpoint views use the stored rounded range."
+    },
+    {
+      "finding_id": "A10",
+      "disposition": "kept_as_is",
+      "summary": "Manifest coverage and per-imputation storage noted for future runs."
+    }
+  ],
+  "corrected_files": {
+    "docs/research/commander-ratings-v3.md": "0059dfe71f5231e9fd343d12f976aa17c71459383e128100c4075048626ec188",
+    "artifacts/commander-ratings-v3.md": "f8886b48cbab8fa42820f909550314362063872dfbe111b1c7e5c61c1b0d5418",
+    "generalship/ratings_v3.py": "d71a1f1b3ce655cc3690d927c9a0126c139ec061a8a883c6007addc6ee5e2411"
+  },
+  "independent_followup_review": false
+}

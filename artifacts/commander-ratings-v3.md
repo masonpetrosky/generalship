@@ -11,7 +11,7 @@ Rows: 301 battles in 108 campaigns, 162 with a modelled (grade E) side and 17 wi
 | Commander model | 0.6476 | 0.6586 |
 | Strength only | 0.6597 | 0.6651 |
 
-Effective denominator: 243 of 301 held-out rows had a commander seen in another campaign. Descriptive, not part of the verdict: campaigns where each model had lower log loss, commander model 61, strength only 47, ties 0; Monte Carlo check of the log-loss difference (commander minus strength) imputations 1 10: -0.0122 battle, -0.0068 campaign; imputations 11 20: -0.0120 battle, -0.0062 campaign.
+Effective denominator: 243 of 301 held-out rows had a commander seen in another campaign. Descriptive, not part of the verdict: campaigns where each model had lower log loss, commander model 61, strength only 47, ties 0; Monte Carlo check of the log-loss difference (commander minus strength) imputations 1–10: -0.0122 battle, -0.0068 campaign; imputations 11–20: -0.0120 battle, -0.0062 campaign.
 
 Descriptive 1861–1863→1864–1865 split (no verdict): trained on 167, tested on 134; log loss 0.6530 (commander model) against 0.6606 (strength only).
 
