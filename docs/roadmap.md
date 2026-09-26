@@ -667,3 +667,16 @@ Evidence packets also work with the user's chosen external researcher. LangExtra
 extraction library can be evaluated later against a measured source-alignment need.
 No web framework or hosting stack is selected before the evidence contract matures.
 Use local tests; no hosted workflow is configured.
+
+## Owner ideas to design later
+
+- **Graded outcomes, not win/loss only** (owner, 2026-09-25): "we should probably not reward the
+  same reward for a pyrrhic victory as we would for Hannibal at Cannae. Both are wins, but one is
+  much more beneficial." The current ratings score every decisive result as 1 or 0. A later design
+  could grade how much a result achieved, for example from loss ratios relative to force, loss
+  share of each army, pursuit or destruction of the beaten force, and strategic follow-through.
+  Open questions: which margins are source-backed often enough to avoid omitting battles; keeping
+  commander-created advantages (mediators) separate from the result; not double counting a
+  campaign's outcome in its battles; and how an ordinal or continuous outcome changes the
+  held-out test. Needs a versioned design, separate review and owner authorization before any run;
+  it does not change existing runs.
