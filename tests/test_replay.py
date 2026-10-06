@@ -111,6 +111,16 @@ class ViewTests(SyntheticTree):
         self.assertFalse(views[0].exists())
         self.assertEqual(digest(self.root / LIVE), self.v3)
 
+    def test_errors_leaving_a_view_name_repository_paths(self):
+        with self.assertRaises(FileNotFoundError) as missing:
+            with bound_view(self.root, ledger(self.v1)) as view:
+                (view / 'missing.json').read_bytes()
+        self.assertEqual(missing.exception.filename, str(self.root / 'missing.json'))
+        with self.assertRaises(ValueError) as invalid:
+            with bound_view(self.root, ledger(self.v1)) as view:
+                raise ValueError(f'Bad file: {view.resolve() / "x.json"}')
+        self.assertEqual(str(invalid.exception), f'Bad file: {self.root.resolve() / "x.json"}')
+
     def test_conflicting_bindings(self):
         for pair in ((self.v1, self.v2), (self.v3, self.v1)):  # two archives; a live match and an archive
             with self.assertRaises(ReplayError):

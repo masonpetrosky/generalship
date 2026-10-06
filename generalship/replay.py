@@ -87,6 +87,24 @@ def substitutions(root, *ledgers):
     return {path: (sha, source) for path, (sha, source) in found.items() if source != safe_path(root, path)}
 
 
+def repository_text(text, view, root):
+    """Name repository paths, not a temporary view's, in a message from a replay. The resolved
+    form is replaced first because the unresolved one can be its suffix (/var within /private/var)."""
+    for v, r in ((Path(view).resolve(), Path(root).resolve()), (Path(view), Path(root))):
+        text = text.replace(str(v), str(r))
+    return text
+
+
+def _report_repository_paths(exc, view, root):
+    """Rewrite an exception leaving a view so that it names repository paths."""
+    if isinstance(exc, OSError):
+        for attr in ('filename', 'filename2'):
+            if isinstance(getattr(exc, attr), str):
+                setattr(exc, attr, repository_text(getattr(exc, attr), view, root))
+    elif exc.args and isinstance(exc.args[0], str):
+        exc.args = (repository_text(exc.args[0], view, root),) + exc.args[1:]
+
+
 def _mirror(root, view):
     """Hard-link every regular file under root into view, copying where linking fails."""
     skip = {view.resolve()}
@@ -128,5 +146,8 @@ def bound_view(root, *ledgers):
             if digest(target) != sha:
                 raise ReplayError(f'Substituted bytes do not match the binding: {path}')
         yield view
+    except Exception as exc:
+        _report_repository_paths(exc, view, root)
+        raise
     finally:
         shutil.rmtree(view, ignore_errors=True)

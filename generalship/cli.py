@@ -18,7 +18,7 @@ from .ratings_v3 import rate3, report_text as ratings3_report
 from .imputation import COMMAND as IMPUTATION_COMMAND, STRENGTH as IMPUTATION_STRENGTH, build as build_imputation
 from .dataset import build_dataset
 from .evidence import validate_all
-from .replay import bound_view
+from .replay import bound_view, repository_text
 from .sources import digest, fetch_sources, read_json, write_json
 
 
@@ -83,7 +83,7 @@ def replay_frozen_ledgers(root, checks):
         try:
             return check(replay_root, path)
         except (ValueError, KeyError, OSError) as exc:
-            return {'status': 'stale_or_invalid', 'error': str(exc)}
+            return {'status': 'stale_or_invalid', 'error': repository_text(str(exc), replay_root, root)}
 
     present = [path for path, _ in checks if (root / path).is_file()]
     try:

@@ -1,0 +1,82 @@
+{
+  "kind": "staged_dossier_installation",
+  "installed_on": "2026-10-06",
+  "dossier": "MS009",
+  "design": "docs/ledger-replay.md",
+  "design_review": "artifacts/review-results/ledger-replay-design-2a28afe-opus-high-v1",
+  "owner_acceptance": "2026-10-06, 'Yes', in reply to 'Accept the design for implementation?'",
+  "implementation_commits": [
+    "0a4e3cf (bound views, call sites, tests)",
+    "this commit (repository paths in replay errors, found by the reproducible-build test)"
+  ],
+  "staged_dossier": {
+    "path": "artifacts/review-results/champion-hill-fb00e7d-opus-high-v1/staged-MS009.json",
+    "sha256": "42d44bef4d89a2f55f80fd960a4cdcbb9f9319baaf73347027d2709f2c8f9449"
+  },
+  "archived_v1": {
+    "path": "data/evidence/history/MS009.v1.json",
+    "sha256": "f1d093f11e998d1de083ecdbd0e15e178697a508dd84f1f042a527e61186c413"
+  },
+  "installed_dossier": {
+    "path": "data/evidence/MS009.json",
+    "sha256": "42d44bef4d89a2f55f80fd960a4cdcbb9f9319baaf73347027d2709f2c8f9449"
+  },
+  "installed_equals_staged": true,
+  "replay": {
+    "make_check": "165 tests OK",
+    "frozen_ledgers_replayed_through_views": [
+      "data/estimates/side-strength-v1.json",
+      "data/command/responsibility-v1.json",
+      "data/estimates/side-strength-v2.json",
+      "data/command/responsibility-v2.json"
+    ],
+    "cli_checks": "estimate-check and command-check exit 0 on all four ledgers",
+    "run_build": "all four ledgers replayed, none stale_or_invalid"
+  },
+  "authorized_runs_reproduced": [
+    {
+      "make_target": "estimate-evaluation",
+      "exit_code": 0,
+      "seconds": 2
+    },
+    {
+      "make_target": "commander-ratings",
+      "exit_code": 0,
+      "seconds": 7
+    },
+    {
+      "make_target": "commander-ratings-v2",
+      "exit_code": 0,
+      "seconds": 100
+    },
+    {
+      "make_target": "strength-imputation",
+      "exit_code": 0,
+      "seconds": 4
+    },
+    {
+      "make_target": "commander-ratings-v3",
+      "exit_code": 0,
+      "seconds": 4267
+    }
+  ],
+  "run_outputs_byte_identical_to_committed": true,
+  "run_output_sha256": {
+    "artifacts/commander-ratings-v2.json": "c268db29375d040902ae413af00f727a01c5f0f411f037dd2d4e314bea0a3963",
+    "artifacts/commander-ratings-v2.md": "d3de2484206807fd6d3cc52c437dec06da990ae62d7ad9eb408d3bace8d6ab20",
+    "artifacts/commander-ratings-v3.json": "06cd8b61611ba57298a9b4b397bfde4797c449eb5a6070e02184c93b11328f8c",
+    "artifacts/commander-ratings-v3.md": "f8886b48cbab8fa42820f909550314362063872dfbe111b1c7e5c61c1b0d5418",
+    "artifacts/commander-ratings.json": "18bfa5f220ded00bb4baa8984ed984404f204095412abff9bfeb4b7d8e884aba",
+    "artifacts/commander-ratings.md": "e718e2973a8c7b385f0dfa2eb383f50776386aebe41d13d0c1ef4bc1f1c2f704",
+    "artifacts/estimate-evaluation-v2.json": "23950f97e4ee6a3150ece43785e33d09af3704d8eec72e5366585a6c7d8c0aaa",
+    "artifacts/estimate-evaluation-v2.md": "44def19b4d10e044dc6b8d1d3222b3329d36867ee0e764826c8c322bda8620f6",
+    "artifacts/estimate-evaluation.json": "d02fa45ce7b876940393deb104725fc856ffbc11fb8929f564beb43a94a59886",
+    "artifacts/estimate-evaluation.md": "c2c359204f4cae3c4f263c4905e4126bdfa096431f85d947bfb21effb3d0d9ea",
+    "artifacts/strength-imputation-v1.json": "f798faf37763d42f445773031bb613c0739618b1e3a50f46d58d810b98ad1caa"
+  },
+  "limits": [
+    "The runs executed at a later code commit than their authorizations' code_commit; byte-identical outputs are the evidence of equivalence (design section 4, step 3).",
+    "Model jobs are not tests, so the views in the four run callers are verified only by this reproduction (design section 5).",
+    "The frozen ledgers still cite MS009's v1 claims (force-candidate, pemberton-order); that is their record, not an error."
+  ]
+}

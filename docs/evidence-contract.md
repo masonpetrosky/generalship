@@ -88,6 +88,14 @@ live under `data/evidence/history/`, are checked against the current revision's
 hash, and are included in the build receipt but not counted as additional battles.
 Existing claim IDs persist when their interpretation is amended.
 
+Frozen strength and command ledgers bind dossiers by hash. When a bound dossier is
+corrected, those ledgers replay through the archive chain: each replay runs the
+unchanged checker against a temporary view in which every bound path holds the
+archived bytes the ledger bound ([replay design](ledger-replay.md)). An archive that a
+frozen ledger's binding reaches is therefore permanent; deleting or rewriting it
+breaks that ledger's replay, and `tests/test_replay.py` checks that every frozen
+binding stays reachable.
+
 The Confederate-return follow-up keeps schema version 2 and archives the first
 enriched draft as `TN003.v2.json`. The Union-availability follow-up archives the
 Confederate revision as `TN003.v3.json`; that revision links to it and

@@ -261,11 +261,12 @@ reviewers checked each against its already-inspected NPS/CWSAC records
 - Champion Hill: five required corrections. They cite the repeated Johnston order and the
   force-table statement, and replace all three unknowns with terrain, information and
   responsibility claims; one advisory was adopted. The corrected dossier (7 claims, no unknowns, 20
-  citations, from 4) is verified but staged in the review record, not installed: the frozen v1 and
-  v2 strength and command ledgers bind MS009's v1 dossier by hash and cite two corrected claims,
-  and the strength ledgers also bind their checker code, so installing it would break their replay.
+  citations, from 4) was first staged, because the frozen v1 and v2 strength and command ledgers
+  bind MS009's v1 dossier by hash and the strength ledgers also bind their checker code. It was
+  installed the same day under the accepted [replay design](ledger-replay.md), with all four frozen
+  ledgers replaying and every authorized run reproducing byte for byte.
 
 The primary verified every quote, with one wording change (the Champion Hill information claim) and
-one added citation (Lee's CWSAC rank). Antietam's v1 draft is archived in `data/evidence/history/`.
+one added citation (Lee's CWSAC rank). Both v1 drafts are archived in `data/evidence/history/`.
 Both records still rest on one source family, and no model input changes. Every dossier has now
 had a separate AI review.

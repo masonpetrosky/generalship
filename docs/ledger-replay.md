@@ -5,7 +5,10 @@ The owner asked for a design that lets corrections to ledger-bound dossiers be i
 frozen ledgers keep replaying, and chose this approach ("Sure, do whatever you recommend"). A
 separate Claude Opus 5.5 `high` [review](../artifacts/review-results/ledger-replay-design-2a28afe-opus-high-v1/review.md)
 found the design sound and required eight corrections, all applied here. This document changes no
-ledger, authorization, bound document, bound code or model input.
+ledger, authorization, bound document, bound code or model input. First use, the same day:
+Champion Hill's correction was installed, all four frozen ledgers replay through views, and every
+authorized run reproduced its committed outputs byte for byte
+([record](../artifacts/review-results/champion-hill-fb00e7d-opus-high-v1/installation.json)).
 
 ## 1. Problem
 

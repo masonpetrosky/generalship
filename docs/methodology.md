@@ -185,9 +185,9 @@ validator follow-up accepted. Antietam and Champion Hill, the other two example
 drafts, had no separate review until 2026-10-06, when separate Opus 5.5 `high` reviews
 ([Antietam](../artifacts/review-results/antietam-fb00e7d-opus-high-v1/primary-assessment.md),
 [Champion Hill](../artifacts/review-results/champion-hill-fb00e7d-opus-high-v1/primary-assessment.md))
-found eight required corrections. Antietam's three are applied; Champion Hill's five are
-verified but staged, because frozen ledgers bind its v1 dossier. Both remain v1 drafts on one
-source family. The [bounded river-campaign review](research/river-campaign-first-pass-v1.md)
+found eight required corrections, all applied. Champion Hill's five were staged until frozen
+ledgers could replay through the archive chain ([replay design](ledger-replay.md)), and were
+installed on 2026-10-06. Both remain v1 drafts on one source family. The [bounded river-campaign review](research/river-campaign-first-pass-v1.md)
 accepted 33 new claims for Fort Henry, Fort Donelson and Corinth; all three remain
 drafts with opening populations unresolved. AI review is not human historical adjudication or
 proof of source independence. Agreement with famous-generals lists is never an

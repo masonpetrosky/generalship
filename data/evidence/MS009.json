@@ -12,7 +12,7 @@
       "value": "Johnston ordered Pemberton to attack the Federals at Clinton.",
       "phase": "inherited",
       "status": "supported",
-      "rationale": "The source reports an order from a superior, with a later repeated direction.",
+      "rationale": "The NPS summary reports Johnston's order, placed after the Union occupation of Jackson but otherwise undated, and a further order from Johnston repeating those directions, which Pemberton received on May 16. Both are retrospective NPS paraphrases, not the correspondence (see open question 1). Inherited is a hypothesis relative to Pemberton; Johnston is not a listed MS009 commander.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -21,6 +21,14 @@
           },
           "column": "description",
           "quote": "he ordered Lt. Gen. John C. Pemberton, commanding about 23,000 men, to leave Edwards Station and attack the Federals at Clinton."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "On May 16, though, Pemberton received another order from Johnston repeating his former directions."
         }
       ]
     },
@@ -30,7 +38,7 @@
       "value": "Pemberton and his generals instead chose the Union supply trains as their target.",
       "phase": "commander_created",
       "status": "supported",
-      "rationale": "This is a candidate pre-engagement decision, not an inherited disadvantage.",
+      "rationale": "This is a candidate pre-engagement decision, not an inherited disadvantage. The source attributes it jointly to Pemberton and his generals, so the commander_created tag does not give Pemberton sole credit.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -45,10 +53,10 @@
     {
       "id": "force-candidate",
       "dimension": "strength",
-      "value": "The narrative reports about 23,000 under Pemberton; the structured force table has no numerical estimate.",
+      "value": "The NPS narrative reports Pemberton commanding about 23,000 men at the time of Johnston's order; the structured MS009 force descriptions name formations without numbers.",
       "phase": "unresolved",
       "status": "supported",
-      "rationale": "This describes a force under command before the engagement, not necessarily personnel engaged; it is not automatically promoted.",
+      "rationale": "A force under command when the order was issued, not personnel engaged, and not tied by the source to the Department of Mississippi and East Louisiana named in the force row; it is not automatically promoted. arnold-cwsac-forces MS009/Confederate and MS009/US have blank strength_min and strength_max, and the arnold-cwsac-battles strength cell is blank; blank cells cannot be quoted, so this absence is recorded as an inspected observation. No Union figure is given.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -56,7 +64,23 @@
             "battle": "MS009"
           },
           "column": "description",
-          "quote": "commanding about 23,000 men"
+          "quote": "he ordered Lt. Gen. John C. Pemberton, commanding about 23,000 men"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "forces_text",
+          "quote": "Department of Mississippi and East Louisiana [CS]"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "forces_text",
+          "quote": "Army of the Tennessee (three corps) [US]"
         }
       ]
     },
@@ -79,36 +103,148 @@
       ]
     },
     {
-      "id": "terrain-unknown",
+      "id": "terrain-ridge-line",
       "dimension": "terrain",
-      "value": null,
+      "value": "The NPS summary places Pemberton's defensive line along a ridge crest overlooking Jackson Creek, with Lee's men atop Champion Hill as a lookout, and gives the Raymond Road crossing of Bakers Creek as the one escape route still open during the withdrawal.",
       "phase": "unresolved",
-      "status": "unknown",
-      "rationale": "Not established by the sources inspected for this draft.",
-      "citations": []
+      "status": "supported",
+      "rationale": "Qualitative terrain from one retrospective NPS summary; no elevations, distances (other than the rear's position) or assessment of advantage. Phase is unresolved because the boundaries are unset.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "Pemberton's force drew up into a defensive line along a crest of a ridge overlooking Jackson Creek."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "Pemberton posted Brig. Gen. Stephen D. Lee's men atop Champion Hill where they could watch for the reported Union column moving to the crossroads."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "the one escape route still open: the Raymond Road crossing of Bakers Creek"
+        }
+      ]
     },
     {
-      "id": "information-unknown",
+      "id": "information-left-flank",
       "dimension": "information",
-      "value": null,
+      "value": "The NPS summary says Pemberton was unaware that a Union column was moving along the Jackson Road against his unprotected left flank, while also saying he posted Lee to watch for 'the reported Union column'; it then reports that Lee and the Union troops sighted each other and that Pemberton received warning and sent troops to his left flank.",
       "phase": "unresolved",
-      "status": "unknown",
-      "rationale": "Not established by the sources inspected for this draft.",
-      "citations": []
+      "status": "supported",
+      "rationale": "The summary does not reconcile 'unaware' with 'the reported Union column' or give times for these steps; keep the sequence unresolved rather than infer what Pemberton knew when. No information-quality score is implied.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "Pemberton was unaware that one Union column was moving along the Jackson Road against his unprotected left flank."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "Pemberton posted Brig. Gen. Stephen D. Lee's men atop Champion Hill where they could watch for the reported Union column moving to the crossroads."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "Lee spotted the Union troops and they soon saw him."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "Pemberton received warning of the Union movement and sent troops to his left flank."
+        }
+      ]
     },
     {
-      "id": "responsibility-unknown",
+      "id": "responsibility-orders",
       "dimension": "responsibility",
-      "value": null,
+      "value": "The NPS summary attributes the countermarch and the order withdrawing his men from the field to Pemberton, and the order to begin the attack (on his arrival around 10:00 am) and the later counterattack with forces just arrived from Clinton to Grant; it names Bowen's division's counterattack and Tilghman's rearguard as subordinate actions.",
       "phase": "unresolved",
-      "status": "unknown",
-      "rationale": "Not established by the sources inspected for this draft.",
-      "citations": []
+      "status": "supported",
+      "rationale": "Attribution of orders as narrated in one retrospective summary; it does not apportion credit or blame, and no action is automatically credited to both listed commanders. Clock times are the source's approximate labels.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "Thus, when he ordered a countermarch, his rear, including his many supply wagons, became the advance of his force."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "When Grant arrived at Champion Hill, around 10:00 am, he ordered the attack to begin."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "One of Pemberton's divisions (Bowen's) then counterattacked"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "Grant then counterattacked, committing forces that had just arrived from Clinton by way of Bolton."
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "so he ordered his men from the field to the one escape route still open"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MS009"
+          },
+          "column": "description",
+          "quote": "Brig. Gen. Lloyd Tilghman's brigade formed the rearguard"
+        }
+      ]
     }
   ],
   "open_questions": [
     "Check the original Johnston-Pemberton correspondence and timestamps.",
     "Establish strengths actually available and engaged on each flank; do not promote the narrative command total automatically.",
     "Reconstruct the campaign replacement boundary before crediting or penalizing supply and maneuver decisions."
-  ]
+  ],
+  "revision": "champion-hill-review-correction-2026-10-06",
+  "supersedes": {
+    "path": "data/evidence/history/MS009.v1.json",
+    "sha256": "f1d093f11e998d1de083ecdbd0e15e178697a508dd84f1f042a527e61186c413"
+  }
 }

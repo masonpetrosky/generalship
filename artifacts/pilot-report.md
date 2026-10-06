@@ -188,7 +188,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [MS006](../data/evidence/MS006.json) | 9 | 1 | 0 | 0 | draft |
 | [MS007](../data/evidence/MS007.json) | 9 | 1 | 0 | 0 | draft |
 | [MS008](../data/evidence/MS008.json) | 9 | 1 | 0 | 0 | draft |
-| [MS009](../data/evidence/MS009.json) | 7 | 3 | 0 | 0 | draft |
+| [MS009](../data/evidence/MS009.json) | 7 | 0 | 0 | 0 | draft |
 | [MS010](../data/evidence/MS010.json) | 9 | 1 | 0 | 0 | draft |
 | [MS011](../data/evidence/MS011.json) | 10 | 1 | 0 | 0 | draft |
 | [MS012](../data/evidence/MS012.json) | 9 | 1 | 0 | 0 | draft |
