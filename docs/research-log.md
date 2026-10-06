@@ -307,6 +307,67 @@ project already pins.
   an untranscribed page (p.108).
 - **Verification:** primary-verified; no separate review.
 
+## Rating run 4 (2026-10-06)
+
+[Run 4](research/commander-ratings-v4.md) answers the weaknesses that run 3's
+[uncertainty analysis](../artifacts/commander-ratings-v3-uncertainty.md) found. Its
+[design](commander-ratings-v4.md), code and authorization were committed in `570395c` before any
+held-out result existed.
+
+- **Changes:**
+  - a theater and period context comparator;
+  - τ estimated by Laplace evidence within each fold;
+  - a pre-start strength view (18 post-start sides modelled, 2 keeping pre-start counts);
+  - no commander term for rule-5 joint-command sides;
+  - a campaign-bootstrap rule (95th percentile below zero under both weightings);
+  - a war profile;
+  - compact output (3.5 MB).
+- **Verdict:** no improvement. Against the context model the battle-weighted difference was
+  −0.0174, with its bound at −0.0054 (cleared). The campaign-weighted difference was −0.0086, with
+  its bound at +0.0092 (not cleared). The point differences were both negative, which run 3's rule
+  would have counted.
+- **Descriptive results:**
+  - the context model did worse than force size alone (+0.0111 and +0.0093);
+  - the bridge to run 3's configuration on ledger v3 gives −0.0134 and −0.0073;
+  - Forrest's rows carry 46% of the net gain;
+  - in sample τ-hat is 0.6 (profile interval 0.2–1.0, calibrated p = 0.010);
+  - Forrest's and Beauregard's 80% intervals exclude zero, and only Forrest's 95% interval does.
+- **Infrastructure:**
+  - grade E v2 reproduces imputation v1 exactly under run 3's settings, and the generalized fit
+    reproduces `ratings.fit` exactly without context;
+  - CI then showed that committed float outputs differ in the last bits on Linux and on Python 3.11,
+    so those comparisons are now exact for structure and to 1e-9 for floats (`generalship/compare.py`).
+- **Verification:** primary-verified; no separate review.
+
+## Static explorer, CI and Pages (2026-10-06)
+
+- **Explorer.** `python3 -m generalship site` writes a plain-HTML site with no dependencies. It has
+  pages for every commander the command ledger names, every campaign group, every engagement and
+  every registered source, plus the committed reports rendered from Markdown. An engagement page
+  shows:
+  - the frozen record;
+  - both ledgers' entries, with their citations;
+  - every dossier claim, with its quoted passage, source ID, locator, snapshot link and SHA-256.
+
+  The pages present committed files only. `tests/test_site.py` builds the site and checks that every
+  internal link and anchor resolves.
+- **Hosting.** GitHub Actions runs `make check` on Python 3.11 and 3.14. A Pages workflow rebuilds
+  the explorer from each pushed commit and publishes it at
+  <https://masonpetrosky.github.io/generalship/>.
+
+## Napoleonic scoping additions (2026-10-06)
+
+The [scoping note](napoleonic-scoping.md) gains a seventh owner decision: which research dimensions
+are researched in full.
+
+- **What feeds a model.** Only strength and responsibility do: 34% of the Civil War claims and 36%
+  of the citations.
+- **Bodart.** The note records where Bodart's lexicon is digitized and how its Civil War totals
+  compare with the ledger: 44 of 66 sides within 25%, and 7 beyond a factor of two.
+- **CDB90.** Arnold's package links 49 CDB90 battles to CWSAC records, from an unpinned read.
+- **Profiles.** Rating run 4's code reads a war profile, so a new war adds a profile rather than new
+  model code.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

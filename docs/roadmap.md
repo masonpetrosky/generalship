@@ -34,15 +34,22 @@ ledgers and runs are unchanged.
 - **Frame.** [Cohort v2](cohort-v2.md): every engagement in the pinned CWSAC list, 384 in 119
   campaign groups. The 127-engagement 1862–1863 pilot (cohort v1) is kept as it was frozen.
 - **Evidence.** All 384 engagements have a draft dossier. The dossiers hold 3,577 claims, 461
-  explicit unknowns and 16,084 citations. Every dossier had a separate AI review before
-  2026-10-06; see [review policy](#review-policy).
+  explicit unknowns and 16,090 citations. Every dossier had a separate AI review before
+  2026-10-06; see [review policy](#review-policy). An [extraction audit](extraction-audit.md) of
+  150 random claims found no material error (Wilson 95% interval 0–2.5%) and 8 minor ones, all fixed.
+- **Explorer.** A static site, built by `python3 -m generalship site` and published on
+  [GitHub Pages](https://masonpetrosky.github.io/generalship/), traces each commander to their
+  engagements, claims, quoted passages and pinned sources.
 - **Ledgers.** The v1 ledgers cover the 91 decisive, non-aggregate pilot engagements and the v2
   ledgers the 305 in scope ([addendum](ledgers-v2.md)). Each names one responsible commander per
-  side and gives a graded strength estimate. The 262 sides with no usable figure are modelled in
-  the [grade E design](strength-imputation.md).
-- **Runs.** [Rating runs 1–3](research/commander-ratings-v3.md) and two estimate evaluations; see
-  the README's results table. They are exploratory diagnostics outside the
-  [admission contract](feature-admission.md), and the frozen baseline is unchanged.
+  side and gives a graded strength estimate. [Strength ledger v3](ledgers-v3.md) fills 99 of the
+  262 sides that had no usable figure from upstream tables; the other 163 are modelled (grade E,
+  [design](strength-imputation.md)).
+- **Runs.** Rating runs 1–4 and two estimate evaluations; see the README's results table. Run 4
+  ([memo](research/commander-ratings-v4.md)) was pre-registered with a context comparator,
+  estimated τ, leakage handling and a bootstrap rule, and found no improvement under that rule.
+  The runs are exploratory diagnostics outside the [admission contract](feature-admission.md), and
+  the frozen baseline is unchanged.
 
 ## Milestones
 
@@ -52,7 +59,7 @@ ledgers and runs are unchanged.
 | 1. First reviewed campaign dossiers | Coverage complete. Cross-engagement identities, replacement boundaries and information sets remain |
 | 2. Baseline audit and expanded coverage | Full-war coverage done. Arsht reproduction route, independent extraction sample and paired comparison rows remain |
 | 3. Enriched prediction and command inference | Exploratory rating runs only. Campaign estimand, causal graph and locked test set remain |
-| 4. Inspectable research interface | Not started |
+| 4. Inspectable research interface | Started: a static explorer. Opportunity-adjusted estimates, disputes views and scenario toggles remain |
 
 ### Milestone 0: working research foundation (complete)
 
@@ -75,7 +82,9 @@ Deliverables:
   for Shiloh; historical reconciliation remains.
 - Explicit replacement boundaries and contemporary information sets.
 - Named review records and an extraction-error audit. Review records exist for every batch through
-  2026-10-06; no audit has estimated the error rate left after review.
+  2026-10-06, indexed in one disposition vocabulary. [Extraction audit v1](extraction-audit.md),
+  done by the primary, found 0 material and 8 minor errors in 150 random claims; an independent
+  extraction sample remains (Milestone 2).
 - A feature-admission mapping tied to immutable sources and dossier versions.
 
 Acceptance requires that:
@@ -118,7 +127,9 @@ A familiar-looking list of great generals is not evidence of correctness.
 
 ### Milestone 4: inspectable research interface
 
-- An explorer that traces commander → campaign → engagement → assumption → passage.
+- An explorer that traces commander → campaign → engagement → assumption → passage. A static
+  version exists (2026-10-06): commander, campaign, engagement, claim, passage, source and hash
+  pages, rebuilt and published from each pushed commit.
 - Cumulative results, opportunity-adjusted estimates, coverage, uncertainty and source disputes,
   each shown separately.
 - Scenario toggles that explain what changes.

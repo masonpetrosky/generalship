@@ -7,6 +7,9 @@ and constraints they faced, including the advantages they created before battle.
 Every result should be traceable from commander to campaign to engagement to
 disputed assumptions and supporting passages.
 
+**[Explore the evidence](https://masonpetrosky.github.io/generalship/)**: every commander,
+campaign, engagement, claim, quoted passage and pinned source, rebuilt from each commit.
+
 Inspired by [Ethan Arsht's military rankings](https://github.com/ethanarsht/military_rankings),
 this project starts with a reproducible battle-level baseline, then builds toward
 campaign-level contribution. A battle residual is **not** an estimate of how many
@@ -14,7 +17,7 @@ wins a commander caused. No validated commander ranking exists here yet.
 
 ## Status
 
-As of 2026-10-05:
+As of 2026-10-06:
 
 - **American Civil War: first-pass research is complete.** The [full-war frame](docs/cohort-v2.md)
   is every engagement in the pinned Civil War Sites Advisory Commission (CWSAC) battle list:
@@ -23,12 +26,15 @@ As of 2026-10-05:
   dossier ([coverage table](artifacts/pilot-report.md#draft-evidence-dossiers)).
 - **Reviewed model inputs.** Versioned ledgers grade each side's strength evidence and name one
   responsible commander per side for the 305 in-scope engagements
-  ([record](docs/research/ledgers-v2.md)). The other 79 are inconclusive, aggregate records, or
-  involve a Native American belligerent, which the two-sided model does not cover.
-- **Latest result.** [Rating run 3](docs/research/commander-ratings-v3.md) found slightly better
-  held-out predictions with commander identity than with force size alone. The gain is fragile:
-  under a campaign bootstrap, its campaign-weighted part cannot be told apart from zero. It is not
-  a ranking of skill ([results](#results-so-far)).
+  ([record](docs/research/ledgers-v2.md)); [strength ledger v3](docs/ledgers-v3.md) fills 99 more
+  sides from pinned upstream tables. The other 79 engagements are inconclusive, aggregate records,
+  or involve a Native American belligerent, which the two-sided model does not cover.
+- **Latest result.** [Rating run 4](docs/research/commander-ratings-v4.md) tested commander
+  identity against a theater-and-period comparator, with τ estimated and outcome-dependent inputs
+  removed, under a rule fixed before the run. **It found no improvement**: the battle-weighted gain
+  cleared the campaign bootstrap's bound, the campaign-weighted gain did not, and Forrest's rows
+  carry 46% of it. In sample, results do vary with commander identity (τ about 0.6, calibrated
+  p = 0.01), which is not evidence of skill ([results](#results-so-far)).
 - **Next: the French Revolutionary and Napoleonic Wars.** Chosen on 2026-09-25 and not yet
   started. The [scoping note](docs/napoleonic-scoping.md) lists the decisions needed before
   research begins.
@@ -76,19 +82,22 @@ of skill or a causal estimate, and the later runs leave the frozen baseline unch
 | [Rating run 1](docs/research/commander-ratings-v1.md) | 37 pilot battles | Does adding commanders lower held-out log loss? | No detectable commander signal, so no ordered list |
 | [Rating run 2](docs/research/commander-ratings-v2.md) | 126 full-war battles with graded strengths | The same test on the full war | Lower under both weightings (0.6540 vs 0.6633 by battle, 0.6795 vs 0.6844 by campaign); every commander's interval includes zero |
 | [Rating run 3](docs/research/commander-ratings-v3.md) | 301 in-scope battles, 162 with a modelled side | The same test with missing strengths modelled (grade E) | Lower again (0.6476 vs 0.6597; 0.6586 vs 0.6651), but fragile: the campaign-weighted gain's 95% bootstrap interval includes zero, and Forrest's and Grant's rows carry much of the gain ([uncertainty](artifacts/commander-ratings-v3-uncertainty.md)); only Forrest's 80% interval excludes zero |
+| [Rating run 4](docs/research/commander-ratings-v4.md) | 301 battles on ledger v3, 120 with a modelled side | Do commanders beat a theater-and-period comparator, beyond campaign-resampling noise under both weightings, with τ estimated and leakage removed? | No: −0.0174 battle-weighted (bound −0.0054, cleared) but −0.0086 campaign-weighted (bound +0.0092, not cleared); the comparator itself did worse than force size alone, and Forrest's rows carry 46% of the gain. In sample τ ≈ 0.6 (95% profile interval 0.2–1.0, calibrated p = 0.01) |
 
-Runs 2 and 3 pass the test fixed in advance, which is read only as lower held-out log loss on
-those rows; that test has no uncertainty threshold. The residual still mixes command with army quality, subordinates, theater,
-opponents, coding choices and modelling error, so the ordered lists in those reports are point
-summaries, not rankings. Each record names the `make` target that reproduces it.
+Runs 2 and 3 passed the test fixed in advance for them, which is read only as lower held-out log
+loss on those rows and had no uncertainty threshold. Run 4's [pre-registered rule](docs/commander-ratings-v4.md)
+added that threshold, and the result did not meet it. The residual still mixes command with army
+quality, subordinates, theater, opponents, coding choices and modelling error, so the ordered lists
+in the run 2 and 3 reports are point summaries, not rankings. Each record names the `make` target
+that reproduces it.
 
 ## Planned work
 
 Beyond the Napoleonic work, the [roadmap](docs/roadmap.md) plans a campaign-level estimand
 defined before any enriched model (battle execution and campaign contribution are separate
-and never added together), opponent and army context, graded outcomes rather than win or loss
-only, and an interface that traces any result from commander to campaign, engagement,
-assumption and passage. None of this is implemented yet.
+and never added together), opponent and army context, and graded outcomes rather than win or
+loss only. None of this is implemented yet. The [explorer](https://masonpetrosky.github.io/generalship/)
+is a first, static version of the planned research interface.
 
 ## Run it
 
@@ -100,6 +109,7 @@ make reproduce                          # regenerate the committed artifacts off
 python3 -m generalship inspect TN003    # print one engagement's record (TN003 is Shiloh)
 python3 -m generalship packet TN003     # prepare a research assignment; makes no AI call
 python3 -m generalship admission-check  # offline proposal audit; promotes nothing
+python3 -m generalship site             # write the static explorer to _site/
 ```
 
 `python3 -m generalship fetch` restores missing pinned upstream CSVs; it is the only command
@@ -142,7 +152,7 @@ path, or install it with `python3 -m pip install -e .`.
 | First pass | The bounded research protocol: up to three source families per battle and one targeted follow-up. |
 | Primary | The main AI agent that prepares and maintains the evidence, as distinct from the separate reviewer. |
 | Owner | The project maintainer. Owner decisions and run authorizations are recorded with dates. |
-| Strength grades | A–C: reported figures, from A (directly applicable) to C (for example an opponent's estimate); D: no usable figure; E: a modelled typical size for a D side, used in run 3. |
+| Strength grades | A–C: reported figures, from A (directly applicable) to C (for example an opponent's estimate); D: no usable figure; E: a modelled typical size for a D side, used in runs 3 and 4. |
 | Admission | The reviewed contract an enriched predictor must pass before it can join the frozen baseline. The rating runs are exploratory diagnostics outside it. |
 
 ## License and attribution
@@ -150,5 +160,5 @@ path, or install it with `python3 -m pip install -e .`.
 Project code is MIT-licensed. Third-party data keeps its own terms and attribution; see
 [NOTICE](NOTICE.md). The engagement frame and baseline strengths come from four pinned,
 checksum-verified CWSAC tables in Jeffrey B. Arnold's
-[American Civil War Battle Data](https://acw-battle-data.readthedocs.io/en/latest/). No paid
-services, scheduled jobs or hosted CI are needed.
+[American Civil War Battle Data](https://acw-battle-data.readthedocs.io/en/latest/). Nothing needs
+a paid service. GitHub Actions runs `make check` on Python 3.11 and 3.14 and publishes the explorer.
