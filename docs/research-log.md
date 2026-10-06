@@ -245,3 +245,27 @@ Then define a campaign replacement boundary and outcomes before fitting enriched
 execution and campaign contribution are separate estimands; adding them together would double count.
 Partial pooling, opponent/army context, measurement uncertainty, disputed-input scenarios, and a
 source-exploration UI remain planned work, not implemented capabilities.
+
+## Separate review of the early example drafts (2026-10-06)
+
+Antietam (MD003) and Champion Hill (MS009), two of the three example drafts from the first commit,
+had never had a separate review. On the owner's request, fresh-context Claude Opus 5.5 `high`
+reviewers checked each against its already-inspected NPS/CWSAC records
+([Antietam review](../artifacts/review-results/antietam-fb00e7d-opus-high-v1/review.md),
+[Champion Hill review](../artifacts/review-results/champion-hill-fb00e7d-opus-high-v1/review.md)).
+
+- Antietam: three required corrections. The result claim now cites the frozen "Inconclusive (Union
+  strategic victory.)" text, and terrain and command-decision claims replace two unknowns. Five
+  advisories were adopted, including a disputed casualty claim (23,100 in CWSAC against 22,700 on
+  the NPS page). The dossier has 10 claims, 3 explicit unknowns and 18 citations (from 9, 5 and 5).
+- Champion Hill: five required corrections. They cite the repeated Johnston order and the
+  force-table statement, and replace all three unknowns with terrain, information and
+  responsibility claims; one advisory was adopted. The corrected dossier (7 claims, no unknowns, 20
+  citations, from 4) is verified but staged in the review record, not installed: the frozen v1 and
+  v2 strength and command ledgers bind MS009's v1 dossier by hash and cite two corrected claims,
+  and the strength ledgers also bind their checker code, so installing it would break their replay.
+
+The primary verified every quote, with one wording change (the Champion Hill information claim) and
+one added citation (Lee's CWSAC rank). Antietam's v1 draft is archived in `data/evidence/history/`.
+Both records still rest on one source family, and no model input changes. Every dossier has now
+had a separate AI review.

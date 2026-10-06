@@ -1,0 +1,25 @@
+{
+  "actual_task_identity": "headless Claude Code session 36129a89-f488-4f25-9e2b-8fc04eaf4407",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "permission_denials": [],
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "prompt": "Carry out the separate review assignment in artifacts/review-results/champion-hill-fb00e7d-opus-high-v1/assignment.md, bound by its sibling inputs.json. Write only the review file it names, then return the path and outcome.",
+  "environment": "Launched from the primary session with CLAUDECODE, CLAUDE_EFFORT (max in the parent), CLAUDE_CODE_SESSION_ID, CLAUDE_CODE_BRIDGE_SESSION_ID, CLAUDE_CODE_MESSAGING_SOCKET, CLAUDE_CODE_MESSAGING_TOKEN, CLAUDE_CODE_CHILD_SESSION, CLAUDE_CODE_SESSION_ATTENDED, CLAUDE_PID and CLAUDE_CODE_ENTRYPOINT unset, so the reviewer ran as an independent session at --effort high rather than inheriting the parent's effort or session links.",
+  "working_directory": "detached git worktree of bundle commit 379da810d11e86945ed1907d17a3e3a3a5870fed; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-10-06T03:58:14Z",
+  "prepared_commit": "fb00e7da75b1a21d10033f2dde39379c45949ce0",
+  "bundle_commit": "379da810d11e86945ed1907d17a3e3a3a5870fed",
+  "assignment_sha256": "07ee75c5b8088325a92e99f5cf8f61e27c1d0950decb11cd7a4c74bbabec7b43",
+  "inputs_manifest_sha256": "bcced1fa4f4493474ec20fc0ef62e781d9f426d5f834f6af89552850b38bc5aa",
+  "num_turns": 14,
+  "duration_ms": 316253,
+  "terminal_reason": "completed",
+  "returned_message": "The review is written. The Champion Hill dossier needs **5 required corrections**, all of them extraction or citation errors.\n\n**Review file:** `artifacts/review-results/champion-hill-fb00e7d-opus-high-v1/review.md` (the only file I added; nothing was edited, committed or pushed)\n\n**Inputs and checks:** all 21 input hashes match at the prepared commit `fb00e7d`, and the dossier hasn't changed since `4547657`. `make check` passed offline (151 tests). The baseline is unchanged: 23 eligible battles in 13 groups, Brier 0.2768816348133779 against 0.25 for equal odds, and 0 promoted rows. I read the full dossier and every column of the MS009 rows in the battles, forces and commanders tables. I opened no other source families and used no network.\n\n**Required corrections:**\n- **CH-R1 (the order claim):** The attribution is right; the quote's \"he\" is Johnston. But the rationale's \"later repeated direction\" has no supporting citation. The fix adds the description's sentence: \"On May 16, though, Pemberton received another order from Johnston repeating his former directions.\"\n- **CH-R2 (the strength claim):** \"About 23,000\" is correctly framed as men under Pemberton's command, not men engaged. The value also says the force table has no numerical estimate. That is true, since both forces rows and the battles `strength` cell are blank, but nothing cites it, and blank cells can't be quoted. The fix rewords the value, cites the two named formations in the `forces_text` cell, and records the blanks in the rationale as checked observations.\n- **CH-R3 to CH-R5 (the three unknowns):** The terrain, information and responsibility unknowns say the inspected sources don't establish those dimensions, but the description cell already does:\n  - **Terrain:** the ridge crest over Jackson Creek, Lee posted on Champion Hill as a lookout, and Bakers Creek as the one escape route.\n  - **Information:** the left-flank column, including the summary's unreconciled \"unaware\" versus \"the reported Union column\".\n  - **Responsibility:** which orders the summary attributes to Pemberton and which to Grant, plus Bowen's counterattack and Tilghman's rearguard.\n\n  The review gives each replacement claim with exact quotes; every quote appears exactly once in its cell. All stay `unresolved` and assign no credit or blame.\n\nThe result claim (\"Union victory\") and the commander-created tag on the decision to attack the supply trains stand. Five advisory notes are listed separately, including that MS009 still rests on a single retrospective source family (NPS/CWSAC). After the corrections there would still be 7 claims, with 0 unknowns and 21 citations instead of 4.\n\nThis is an AI review, not human historical adjudication, independent corroboration or feature admission. You should check each correction against the source before applying it."
+}

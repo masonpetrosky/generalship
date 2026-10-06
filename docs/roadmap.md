@@ -42,6 +42,22 @@ theater, and the all-battles test became the single verdict. [Run 3](research/co
 commanders under both weightings (0.6476 against 0.6597; 0.6586 against 0.6651); only Forrest's 80%
 interval excludes zero, and ranks remain widely overlapping.
 
+**Follow-up, 2026-10-06: the last two unreviewed drafts.** On the owner's request, Antietam
+(MD003) and Champion Hill (MS009), two of the three example drafts from the first commit, received
+separate Claude Opus 5.5 `high` reviews ([Antietam](../artifacts/review-results/antietam-fb00e7d-opus-high-v1/primary-assessment.md),
+[Champion Hill](../artifacts/review-results/champion-hill-fb00e7d-opus-high-v1/primary-assessment.md)).
+The primary verified all eight required corrections against the already-inspected NPS/CWSAC
+records. Antietam's three, with five advisories, are applied and its v1 draft is archived: MD003
+now has 10 claims, 3 explicit unknowns and 18 citations. Champion Hill's five, with one advisory,
+are verified but **not installed**. The frozen v1 and v2 strength and command ledgers bind MS009's
+v1 dossier by hash and cite two of the corrected claims, and the strength ledgers also bind their
+checker code. Installing the correction would therefore stop those ledgers, and the rating runs
+that replay them, from replaying. The corrected dossier (7 claims, none unknown, 20 citations) is
+staged in the [review record](../artifacts/review-results/champion-hill-fb00e7d-opus-high-v1/correction.json)
+with install steps. Every dossier has now had a separate AI review. Both records still rest on one
+source family (`nps-cwsac`); widening them would be a bounded first-pass upgrade and has not been
+done. No model input changes.
+
 ## Previous priority — reviewed best-estimate strength ledger
 
 Owner decision, 2026-09-25: first-pass coverage is complete, and the
@@ -666,7 +682,10 @@ policy. Broader research authoring and paid automation policies remain undecided
 Evidence packets also work with the user's chosen external researcher. LangExtract or another
 extraction library can be evaluated later against a measured source-alignment need.
 No web framework or hosting stack is selected before the evidence contract matures.
-Use local tests; no hosted workflow is configured.
+Use local tests; no hosted workflow is configured. Corrections to a dossier that a frozen ledger
+binds cannot yet be installed: the strength ledgers bind both the dossier hash and their checker
+code, so replay always reads the live file. Installing Champion Hill's staged correction needs a
+replay design first, for example replaying each frozen ledger against the dossier versions it binds.
 
 ## Owner ideas to design later
 

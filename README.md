@@ -48,8 +48,8 @@ owner (the maintainer) sets the scope and authorizes each rating run.
 3. **Separate AI review.** Each batch of campaign first passes goes to a fresh-context reviewer
    model (Claude Opus 5.5 at `high` reasoning effort since 2026-09-24, GPT-6 Astra at `xhigh`
    before), given only the frozen evidence and the review criteria. The authoring agent checks
-   each proposed correction against the source before applying it. Two early example drafts,
-   Antietam and Champion Hill, have not had a separate review.
+   each proposed correction against the source before applying it. Every dossier has now had
+   a separate AI review.
 4. **Gated model inputs.** Draft dossiers never change model inputs. The frozen baseline uses
    only the pinned source tables. Rating runs use separately reviewed, versioned strength and
    command ledgers, and each is bound to the SHA-256 of its exact inputs by a recorded owner

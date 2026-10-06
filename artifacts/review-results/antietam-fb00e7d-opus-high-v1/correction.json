@@ -1,0 +1,61 @@
+{
+  "review_sha256": "8e0b3a8d1388107618c44b3d25947add7cf87ea0b3bab120a88310d6ae2bb90f",
+  "prepared_commit": "fb00e7da75b1a21d10033f2dde39379c45949ce0",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_and_corrected_by_primary",
+      "claim": "recorded-result",
+      "primary_inspection": "The frozen MD003 results_text cell reads 'Inconclusive (Union strategic victory.)'; result reads 'Inconclusive'; the snapshot's Results field reads 'Indecisive'. Applied the exact value, rationale and added citation; status supported and phase post_outcome unchanged."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_and_corrected_by_primary",
+      "claim": "terrain-unknown replaced by named-terrain",
+      "primary_inspection": "All three quotes occur once in the nps-md003 snapshot Description. Applied exactly. The new ID replaces an ID that named a null unknown; the archived v1 keeps the old ID."
+    },
+    {
+      "finding_id": "R3",
+      "disposition": "accepted_and_corrected_by_primary",
+      "claim": "responsibility-unknown replaced by army-command-decisions",
+      "primary_inspection": "All four quotes occur once in the snapshot (Principal Commanders and Description). Applied exactly, plus one primary-added citation: the rationale's statement that the frozen commanders row gives Lee as General now cites arnold-cwsac-commanders MD003/Confederate/Robert E. Lee, column rank, quote 'General'."
+    }
+  ],
+  "dossiers": {
+    "MD003": {
+      "dossier_path": "data/evidence/MD003.json",
+      "archived_dossier_path": "data/evidence/history/MD003.v1.json",
+      "archived_dossier_sha256": "3b9432c4c4cbe22a4778361ab17dc0645a3f594d735e286eea648d39d1d31bc7",
+      "corrected_dossier_sha256": "c5c2af00b40dbd11238a99352de859204450190ee11041bea5999a15dde608f3",
+      "changed_claims": [
+        "zero-sentinel",
+        "force-narrative",
+        "recorded-result",
+        "withdrawal"
+      ],
+      "replaced_unknown_claims": {
+        "terrain-unknown": "named-terrain",
+        "responsibility-unknown": "army-command-decisions"
+      },
+      "added_claims": [
+        "casualty-records"
+      ]
+    }
+  },
+  "advisory": {
+    "A1": "adopted: zero-sentinel cites forces_text 'Armies' and its rationale states that a missing value is not a zero",
+    "A2": "adopted: force-narrative rationale notes that NPS does not state the population behind two-to-one",
+    "A3": "adopted: withdrawal value states that Lee ordered the withdrawal after dark following skirmishing throughout the 18th, citing 'Lee continued to skirmish with McClellan throughout the 18th'",
+    "A4": "adopted: new casualty-records outcome claim, disputed and post_outcome, citing casualties_text '23,100 total' and the snapshot's '22700 total (US 12400; CS 10300;)', following the reviewed MD002/WV016 claims",
+    "A5": "adopted: zero-sentinel and recorded-result now date the NPS retrieval (2026-09-20) instead of calling the page live or current",
+    "A6": "not applied; A.P. Hill arrival needs no claim in this first pass"
+  },
+  "claims_before": 9,
+  "claims_after": 10,
+  "unknowns_before": 5,
+  "unknowns_after": 3,
+  "citations_before": 5,
+  "citations_after": 18,
+  "count_note": "The review counted 13 citations after R1-R3; the primary-added rank citation and adopted advisories A1, A3 and A4 add five more.",
+  "independent_followup_review": false
+}

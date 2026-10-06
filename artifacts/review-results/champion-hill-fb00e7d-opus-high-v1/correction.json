@@ -1,0 +1,79 @@
+{
+  "review_sha256": "cbaa5a96977991773a891c5eaacc19a3182cc699eee703625d3b0ebb422edc8a",
+  "prepared_commit": "fb00e7da75b1a21d10033f2dde39379c45949ce0",
+  "findings": [
+    {
+      "finding_id": "CH-R1",
+      "disposition": "accepted_verified_and_staged",
+      "claim": "pemberton-order",
+      "primary_inspection": "The repeated-order sentence occurs once in the MS009 description cell; 'he' in the existing quote is Johnston from the preceding clause. Staged the exact citation and rationale."
+    },
+    {
+      "finding_id": "CH-R2",
+      "disposition": "accepted_verified_and_staged",
+      "claim": "force-candidate",
+      "primary_inspection": "Both forces_text quotes occur once; the battles strength cell and both MS009 forces rows have blank strength_min and strength_max. Staged the exact value, citations and rationale."
+    },
+    {
+      "finding_id": "CH-R3",
+      "disposition": "accepted_verified_and_staged",
+      "claim": "terrain-unknown replaced by terrain-ridge-line",
+      "primary_inspection": "All three quotes occur once in the description cell. Staged exactly."
+    },
+    {
+      "finding_id": "CH-R4",
+      "disposition": "accepted_verified_and_staged_with_wording_change",
+      "claim": "information-unknown replaced by information-left-flank",
+      "primary_inspection": "All four quotes occur once. The proposed value said Pemberton received warning 'after' the sighting, but the source gives only narrative order and the proposed rationale keeps the sequence unresolved; the staged value says the summary 'then reports' the sighting and the warning. Citations and rationale staged exactly."
+    },
+    {
+      "finding_id": "CH-R5",
+      "disposition": "accepted_verified_and_staged",
+      "claim": "responsibility-unknown replaced by responsibility-orders",
+      "primary_inspection": "All six quotes occur once; 'he' in the countermarch and withdrawal sentences refers to Pemberton. Staged exactly."
+    }
+  ],
+  "dossiers": {
+    "MS009": {
+      "dossier_path": "data/evidence/MS009.json",
+      "installed_dossier_sha256": "f1d093f11e998d1de083ecdbd0e15e178697a508dd84f1f042a527e61186c413",
+      "installed_dossier_unchanged": true,
+      "staged_corrected_dossier_path": "artifacts/review-results/champion-hill-fb00e7d-opus-high-v1/staged-MS009.json",
+      "staged_corrected_dossier_sha256": "42d44bef4d89a2f55f80fd960a4cdcbb9f9319baaf73347027d2709f2c8f9449",
+      "staged_changed_claims": [
+        "pemberton-order",
+        "alternate-plan",
+        "force-candidate"
+      ],
+      "staged_replaced_unknown_claims": {
+        "terrain-unknown": "terrain-ridge-line",
+        "information-unknown": "information-left-flank",
+        "responsibility-unknown": "responsibility-orders"
+      },
+      "staged_validation": "passed python3 -m generalship check while briefly installed at data/evidence/MS009.json on 2026-10-06",
+      "not_installed_because": "The frozen strength ledgers side-strength-v1 and side-strength-v2 and the command ledgers responsibility-v1 and responsibility-v2 bind data/evidence/MS009.json at SHA-256 f1d093f11e998d1de083ecdbd0e15e178697a508dd84f1f042a527e61186c413, and their MS009 entries cite the force-candidate and pemberton-order claims. Installing the correction made replay fail with 'Dossier binding: MS009' (five tests). The strength ledgers also bind the bytes of their checker code (generalship/estimates.py; estimates_v2.py), so replay cannot be taught to read an archived version without breaking those bindings. The owner-authorized rating runs replay these ledgers first.",
+      "install_when": "a design decision lets frozen ledgers replay against the dossier versions they bind, or no frozen ledger replay depends on the live file",
+      "install_steps": "copy data/evidence/MS009.json (v1, f1d093f1...) to data/evidence/history/MS009.v1.json, which the staged file's supersedes link names, then copy the staged file to data/evidence/MS009.json and run make check and make reproduce"
+    }
+  },
+  "advisory": {
+    "A1": "adopted in the staged dossier: alternate-plan rationale states that the source attributes the decision jointly to Pemberton and his generals, so commander_created gives Pemberton no sole credit; the logistics dimension is kept",
+    "A2": "not applied; the countermarch quote cited in CH-R5 already records the wagons becoming the advance",
+    "A3": "recorded as a coverage limitation in the primary assessment, roadmap and research log; MS009 still rests on one source family (nps-cwsac); no new research packet",
+    "A4": "not applied; no clock is recorded as a typed value, and the CH-R5 rationale keeps clock times as source labels",
+    "A5": "no action required"
+  },
+  "claims_before": 7,
+  "unknowns_before": 3,
+  "citations_before": 4,
+  "staged_claims_after": 7,
+  "staged_unknowns_after": 0,
+  "staged_citations_after": 20,
+  "installed_counts": {
+    "claims": 7,
+    "unknowns": 3,
+    "citations": 4
+  },
+  "count_note": "The review states 21 citations after correction, but its own increments (+1, +2, +3, +4, +6) give 20; the staged total is 20.",
+  "independent_followup_review": false
+}

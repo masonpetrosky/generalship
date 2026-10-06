@@ -144,7 +144,7 @@ Exact passage checks verify provenance only. These drafts do not modify model in
 | [LA023](../data/evidence/LA023.json) | 9 | 1 | 0 | 0 | draft |
 | [MD001](../data/evidence/MD001.json) | 11 | 2 | 0 | 0 | draft |
 | [MD002](../data/evidence/MD002.json) | 10 | 1 | 0 | 0 | draft |
-| [MD003](../data/evidence/MD003.json) | 9 | 5 | 0 | 0 | draft |
+| [MD003](../data/evidence/MD003.json) | 10 | 3 | 0 | 0 | draft |
 | [MD004](../data/evidence/MD004.json) | 9 | 1 | 0 | 0 | draft |
 | [MD006](../data/evidence/MD006.json) | 9 | 1 | 0 | 0 | draft |
 | [MD007](../data/evidence/MD007.json) | 9 | 1 | 0 | 0 | draft |

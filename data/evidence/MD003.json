@@ -9,15 +9,23 @@
     {
       "id": "zero-sentinel",
       "dimension": "strength",
-      "value": "The live NPS table displays zero troops on both sides; treat this as an unresolved source-data problem.",
+      "value": "The NPS page as retrieved on 2026-09-20 displays zero troops on both sides; treat this as an unresolved source-data problem.",
       "phase": "unresolved",
       "status": "disputed",
-      "rationale": "A zero displayed in a populated historical battle page is not a valid measured force estimate.",
+      "rationale": "A zero displayed in a populated historical battle page is not a valid measured force estimate. The frozen CWSAC row has no numeric strength (blank strength, blank force rows); a missing value is not a zero.",
       "citations": [
         {
           "source_id": "nps-md003",
           "locator": "Forces Engaged",
           "quote": "0 total (US 0; CS 0;)"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD003"
+          },
+          "column": "forces_text",
+          "quote": "Armies"
         }
       ]
     },
@@ -27,7 +35,7 @@
       "value": "The same page describes numerical asymmetry and partial commitment of the Union army.",
       "phase": "unresolved",
       "status": "supported",
-      "rationale": "This conflicts with the displayed zeros and distinguishes available from committed troops; it does not establish a numerical count.",
+      "rationale": "This conflicts with the displayed zeros and distinguishes available from committed troops; it does not establish a numerical count. NPS does not state whether the two-to-one ratio refers to present, available or engaged troops.",
       "citations": [
         {
           "source_id": "nps-md003",
@@ -39,10 +47,10 @@
     {
       "id": "recorded-result",
       "dimension": "outcome",
-      "value": "Inconclusive in the imported CWSAC record; Indecisive on the current NPS page.",
+      "value": "The frozen CWSAC result is Inconclusive; its result text adds a Union strategic victory. The NPS page as retrieved on 2026-09-20 gives Indecisive and does not carry the strategic label.",
       "phase": "post_outcome",
       "status": "supported",
-      "rationale": "Do not silently relabel tactical outcome to fit the campaign result.",
+      "rationale": "Retain the frozen result value Inconclusive. The parenthetical is a strategic label, not a tactical result: do not relabel the tactical outcome to fit it, and do not read the live page's omission as a contradiction. All three cells are in the nps-cwsac group, so they are not independent corroboration.",
       "citations": [
         {
           "source_id": "arnold-cwsac-battles",
@@ -51,6 +59,14 @@
           },
           "column": "result",
           "quote": "Inconclusive"
+        },
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD003"
+          },
+          "column": "results_text",
+          "quote": "Inconclusive (Union strategic victory.)"
         },
         {
           "source_id": "nps-md003",
@@ -62,7 +78,7 @@
     {
       "id": "withdrawal",
       "dimension": "outcome",
-      "value": "NPS records Lee withdrawing across the Potomac.",
+      "value": "NPS records that after dark, following skirmishing throughout the 18th, Lee ordered the Army of Northern Virginia to withdraw across the Potomac.",
       "phase": "post_outcome",
       "status": "supported",
       "rationale": "Campaign consequences need a separate outcome definition.",
@@ -71,17 +87,38 @@
           "source_id": "nps-md003",
           "locator": "Description",
           "quote": "After dark, Lee ordered the battered Army of Northern Virginia to withdraw across the Potomac into the Shenandoah Valley."
+        },
+        {
+          "source_id": "nps-md003",
+          "locator": "Description",
+          "quote": "Lee continued to skirmish with McClellan throughout the 18th"
         }
       ]
     },
     {
-      "id": "terrain-unknown",
+      "id": "named-terrain",
       "dimension": "terrain",
-      "value": null,
+      "value": "NPS places the fighting at Miller's cornfield, the Dunker Church and the Sunken Road, and has Burnside's corps crossing the stone bridge over Antietam Creek.",
       "phase": "unresolved",
-      "status": "unknown",
-      "rationale": "Not established by the sources inspected for this draft.",
-      "citations": []
+      "status": "supported",
+      "rationale": "A modern NPS narrative that names features but does not describe ground, cover or their tactical effect, which remain unknown. It also does not show that any commander chose or created these conditions.",
+      "citations": [
+        {
+          "source_id": "nps-md003",
+          "locator": "Description",
+          "quote": "Attacks and counterattacks swept across Miller's cornfield and fighting swirled around the Dunker Church"
+        },
+        {
+          "source_id": "nps-md003",
+          "locator": "Description",
+          "quote": "Union assaults against the Sunken Road eventually pierced the Confederate center"
+        },
+        {
+          "source_id": "nps-md003",
+          "locator": "Description",
+          "quote": "crossing the stone bridge over Antietam Creek"
+        }
+      ]
     },
     {
       "id": "logistics-unknown",
@@ -111,18 +148,77 @@
       "citations": []
     },
     {
-      "id": "responsibility-unknown",
+      "id": "army-command-decisions",
       "dimension": "responsibility",
-      "value": null,
+      "value": "NPS lists McClellan (US) and Lee (CS) as principal commanders and displays both as Major General. Its narrative attributes the commitment decisions to them: Lee committed his entire force, while McClellan sent in less than three-quarters of his army and did not renew the assaults.",
       "phase": "unresolved",
-      "status": "unknown",
-      "rationale": "Not established by the sources inspected for this draft.",
-      "citations": []
+      "status": "supported",
+      "rationale": "This is a modern NPS narrative attribution, not a contemporary record. It names army-level decisions; it does not measure each commander's contribution. NPS's 'enabling Lee to fight the Federals to a standstill' remains its interpretation, not an established causal effect. The corps and division actions it names (Hooker, Burnside, A.P. Hill) are not attributed to the army commanders. The displayed rank is a structured field that needs scrutiny: the frozen arnold-cwsac-commanders row gives Lee as General.",
+      "citations": [
+        {
+          "source_id": "nps-md003",
+          "locator": "Principal Commanders",
+          "quote": "Major General George McClellan [US]"
+        },
+        {
+          "source_id": "nps-md003",
+          "locator": "Principal Commanders",
+          "quote": "Major General Robert Lee [CS]"
+        },
+        {
+          "source_id": "nps-md003",
+          "locator": "Description",
+          "quote": "Lee committed his entire force, while McClellan sent in less than three-quarters of his army"
+        },
+        {
+          "source_id": "nps-md003",
+          "locator": "Description",
+          "quote": "McClellan did not renew the assaults."
+        },
+        {
+          "source_id": "arnold-cwsac-commanders",
+          "row_key": {
+            "battle": "MD003",
+            "belligerent": "Confederate",
+            "fullname": "Robert E. Lee"
+          },
+          "column": "rank",
+          "quote": "General"
+        }
+      ]
+    },
+    {
+      "id": "casualty-records",
+      "dimension": "outcome",
+      "value": "The frozen casualty text reads 23,100 total; the NPS field as retrieved on 2026-09-20 reads 22700 total (US 12400; CS 10300;).",
+      "phase": "post_outcome",
+      "status": "disputed",
+      "rationale": "Original casualty returns were not inspected; preserve both totals and their difference without averaging or reconciliation. No casualty-based opening count. Both records are in the nps-cwsac group, so they are not independent.",
+      "citations": [
+        {
+          "source_id": "arnold-cwsac-battles",
+          "row_key": {
+            "battle": "MD003"
+          },
+          "column": "casualties_text",
+          "quote": "23,100 total"
+        },
+        {
+          "source_id": "nps-md003",
+          "locator": "Estimated Casualties",
+          "quote": "22700 total (US 12400; CS 10300;)"
+        }
+      ]
     }
   ],
   "open_questions": [
     "Reconstruct present, available, and engaged strengths for each side from independent sources.",
     "Define tactical and campaign outcomes before assigning numeric utilities.",
     "Investigate the provenance of the live-page zeros; do not overwrite the archived source."
-  ]
+  ],
+  "revision": "antietam-review-correction-2026-10-06",
+  "supersedes": {
+    "path": "data/evidence/history/MD003.v1.json",
+    "sha256": "3b9432c4c4cbe22a4778361ab17dc0645a3f594d735e286eea648d39d1d31bc7"
+  }
 }

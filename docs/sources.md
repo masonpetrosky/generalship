@@ -45,6 +45,9 @@ a later live page does not automatically supersede an archived estimate.
 NPS text and the CWSAC-derived tables share an `independence_group`. Agreement
 between them is not independent historical corroboration. The third dossier,
 Champion Hill, uses exact cells in the archived CWSAC table and remains a draft.
+Separate reviews on 2026-10-06 checked the Antietam and Champion Hill drafts against
+these same records. Antietam's corrections are applied; Champion Hill's are staged because
+frozen ledgers bind its v1 dossier. Each still rests on this one family.
 
 ## Audit of the original project
 
