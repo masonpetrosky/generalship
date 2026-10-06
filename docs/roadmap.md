@@ -5,29 +5,43 @@ milestone. Completed work is recorded in the [research log](research-log.md), wh
 everything this roadmap recorded up to 2026-10-06. Registered sources are listed in
 [source additions](source-additions.md).
 
-## Current priority: the French Revolutionary and Napoleonic Wars (not started)
+## Current priority: the French Revolutionary and Napoleonic Wars (frame built)
 
-Owner decision, 2026-09-25: the Napoleonic Wars are the next war. The
-[scoping note](napoleonic-scoping.md) lists the owner decisions needed first:
+The owner chose the Napoleonic Wars on 2026-09-25 and decided the seven scoping questions on
+2026-10-06 ([scoping note](napoleonic-scoping.md),
+[record](../data/napoleonic/owner-decision-scoping-2026-10-06.json)):
 
-1. the frame source;
-2. the period and size;
-3. what a side is;
-4. outcome coding;
-5. sources and language;
-6. the usage budget;
-7. which research dimensions are researched in full (added 2026-10-06; only strength and
-   responsibility feed a model).
+- **Frame:** Bodart's 1908 *Kriegs-Lexikon*, every entry for 1792–1815 in the wars France fought,
+  frozen as printed.
+- **First cohort:** the 1805–1815 campaigns.
+- **Sides:** France and its allies against their opponents.
+- **Outcome:** Bodart's recorded winner.
+- **Sources:** each side's own public-domain sources.
+- **Research:** strength and responsibility researched in full.
 
-It also lists which Civil War code is war-specific. No sources have been fetched, no dossiers
-drafted and no agents run. The Civil War work below is complete as recorded, and its cohorts,
+**Done (2026-10-06):** the frame is built and frozen ([design](napoleonic-frame.md)).
+
+- Bodart's scan is pinned, and pp. 268–490 are transcribed twice from the page images, reconciled
+  and audited.
+- The frame holds **663 engagements** of 1792–1815 in France's wars, out of 708 entries.
+- **Cohort v1** holds the **325 land engagements of 1805–1815** in 16 campaign groups.
+
+**Next:**
+
+1. A Napoleonic evidence path: a cohort-aware dossier validator, its own directory, and a research
+   brief applying decisions 5–7.
+2. First passes by complete campaign group, starting with `third-coalition 1805` (22 entries),
+   logging usage per campaign and giving the owner a projection after the first.
+
+No dossiers have been drafted. The Civil War work below is complete as recorded, and its cohorts,
 ledgers and runs are unchanged.
 
 ## Open owner decisions
 
-- **Napoleonic scoping:** decisions 1–7 above.
-- **Graded outcomes:** see [owner ideas](#owner-ideas-to-design-later). This is a design question
-  that bears on Napoleonic decision 4.
+- **Weekly usage cap for the Napoleonic first passes:** optional (scoping decision 6). Without one,
+  passes continue campaign after campaign, with a projection after the first.
+- **Graded outcomes:** see [owner ideas](#owner-ideas-to-design-later). Bodart's loss figures
+  could supply the margins later.
 
 ## The American Civil War: where things stand
 

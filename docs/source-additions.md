@@ -1121,3 +1121,23 @@ Each registry entry records the upstream schema's population definition and the 
 (CWS2 is NPS's own update of the CWSAC report; Clodfelter likely draws on Livermore and NPS). Use is
 limited to the v3 ledger's grade D fill ([addendum](ledgers-v3.md)).
 
+## Bodart's Kriegs-Lexikon for the Napoleonic frame, 2026-10-06
+
+237 records pinned in `data/raw/bodart-1908-v1/`, all in the `bodart-kriegs-lexikon-1908` group:
+
+- from Internet Archive item `bub_gb_A0kNAAAAYAAJ`:
+  - the ABBYY OCR text (`bodart-1908-ocr-v1`) and item metadata (`bodart-1908-ia-metadata-v1`);
+  - the page-number map (`bodart-1908-page-numbers-v1`);
+  - IA's OCR page index and search text, gzip-compressed (`bodart-1908-ocr-pageindex-v1`,
+    `bodart-1908-ocr-searchtext-v1`);
+  - 228 page images, `bodart-1908-p{NNN}-image-v1`, for pp. 45–48 and 267–490, downscaled to 1600 px;
+- three page images of the second copy `bub_gb_Eo4DAAAAYAAJ`, pp. 337–339
+  (`bodart-1908-eo4d-p{337,338,339}-image-v1`), where the first scan hides an edge;
+- the sectioned manual transcription `bodart-1908-transcription-v1`. It has one section per printed
+  page and an editorial `transcription-note` section. Its sections have no document dates, as the work
+  is a 1908 compilation.
+
+Rights: the Internet Archive marks both items with the Public Domain Mark 1.0. Use: the frozen
+[Napoleonic frame](napoleonic-frame.md). Arnold's machine-readable Bodart table, registered for
+ledger v3, is a separate derived file and is not used for the frame. No model inputs are changed.
+

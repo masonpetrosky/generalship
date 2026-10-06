@@ -368,6 +368,49 @@ are researched in full.
 - **Profiles.** Rating run 4's code reads a war profile, so a new war adds a profile rather than new
   model code.
 
+## Napoleonic frame v1 (2026-10-06)
+
+The frozen Napoleonic frame and the first research cohort are built ([design](napoleonic-frame.md)).
+The work is primary-verified; no separate review was made.
+
+- **Source.** Bodart's *Kriegs-Lexikon* (1908), Internet Archive `bub_gb_A0kNAAAAYAAJ`, is pinned with
+  its OCR, page index, metadata and 228 page images. Pages 337–339 come from a second copy, whose scan
+  shows an edge the first hides ([source additions](source-additions.md)).
+- **Transcription.** Each of 227 pages was read twice, independently, by subagents (Claude Sonnet 5.5)
+  under one brief, from the images alone.
+  - The primary compared the readings entry by entry. It settled every disagreement and uncertain
+    mark against crops of the full-resolution scan, and checked printed components against totals.
+    The record is in `data/napoleonic/transcription-resolutions-v1.json`.
+  - A pilot brief that allowed zooming cost about 60,000 tokens a page. The final brief, one read
+    per image, cost about 8,000.
+  - A seeded audit of 15 pages, 42 entries, found no frame-field error. That bounds the per-entry
+    rate at 6.9% (one-sided 95%). It found one punctuation slip, corrected before the first commit.
+- **Frame.** The 708 entries are classified mechanically. The rules fix:
+  - the war, from the running head, checked against the belligerents;
+  - membership: France's wars, 1792–1815, engagements only;
+  - side A: named French troops, else a stated ally convention.
+
+  The frame holds **663 engagements**; Bodart's winner is frozen as the outcome, and side A won 366.
+  15 overrides and one running-head correction carry their reasons:
+  - two misprinted years: Pojano printed 1905, Peterswalde 1809;
+  - the misprinted heads of pp. 489–490;
+  - five war corrections where a page head names the wrong war: Saalfeld, Amantea, Riga, Toulouse,
+    Bayonne;
+  - Condé;
+  - three Neapolitan entries of 1815;
+  - Lemnos and Copenhagen 1807, outside the frame as France was not engaged.
+- **Cohort v1.** The 325 land engagements of 1805–1815 in 16 campaign groups, from
+  `third-coalition 1805` (22 entries) to `hundred-days-1815 1815` (15).
+- **Checks.** `make check` rebuilds the frame and cohort and fails on any difference.
+  `tests/test_napoleonic.py` covers:
+  - known outcomes such as Austerlitz, Waterloo and Valmy;
+  - IDs and denominators;
+  - the prose forms;
+  - the override guards.
+
+  Every in-frame entry's nations, side A and war, and the cohort's force and commander texts, were
+  reviewed in full listings.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

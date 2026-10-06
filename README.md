@@ -35,9 +35,10 @@ As of 2026-10-06:
   cleared the campaign bootstrap's bound, the campaign-weighted gain did not, and Forrest's rows
   carry 46% of it. In sample, results do vary with commander identity (τ about 0.6, calibrated
   p = 0.01), which is not evidence of skill ([results](#results-so-far)).
-- **Next: the French Revolutionary and Napoleonic Wars.** Chosen on 2026-09-25 and not yet
-  started. The [scoping note](docs/napoleonic-scoping.md) lists the decisions needed before
-  research begins.
+- **Next: the French Revolutionary and Napoleonic Wars.** Chosen on 2026-09-25 and scoped on
+  2026-10-06 ([scoping note](docs/napoleonic-scoping.md)). Bodart's 1908 list is transcribed and
+  frozen as the [frame](docs/napoleonic-frame.md): 663 engagements of 1792–1815, with a first
+  cohort of 325 land engagements of 1805–1815. Research has not started.
 
 ## How the research is produced
 
