@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import os
 from pathlib import Path
 import platform
 import sys
@@ -26,6 +27,7 @@ from .dataset import build_dataset
 from .evidence import validate_all
 from .audit import AUDIT, AuditError, check_audit, report_text as audit_report, review_index
 from .replay import bound_view, repository_text
+from .site import build_site
 from .sources import digest, fetch_sources, read_json, write_json
 
 
@@ -214,6 +216,10 @@ def main(argv=None):
     sub = parser.add_subparsers(dest="command", required=True)
     for command in ("check", "build", "fetch"):
         sub.add_parser(command)
+    site_parser = sub.add_parser('site', help='Write the static explorer (plain HTML) from committed files')
+    site_parser.add_argument('--out', default='_site', help='Output directory (default _site, git-ignored)')
+    site_parser.add_argument('--commit', default=os.environ.get('GITHUB_SHA', 'main'),
+                             help='Commit that snapshot and document links point to on GitHub')
     for command in ("inspect", "packet"):
         p = sub.add_parser(command)
         p.add_argument("battle_id")
@@ -311,6 +317,8 @@ def main(argv=None):
                                        'brier': v['metrics']['battle_weighted'] if v['evaluable'] else None}
                                    for k, v in evaluation['row_sets'].items()},
                       'outputs': [f'{out}.json', f'{out}.md']}
+        elif args.command == 'site':
+            result = build_site(root, args.out, args.commit)
         elif args.command == "fetch":
             result = {"restored_sources": fetch_sources(root)}
         elif args.command == "packet":
