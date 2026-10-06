@@ -14,6 +14,7 @@ from .dataset import build_dataset
 from .estimates import (DEFAULT_LEDGER, OPPONENT_FACTOR, SIDES, EstimateError, check, estimate_row,
                         estimate_side, nested_sets, upper_median)
 from .estimates_v2 import DEFAULT_LEDGER as LEDGER_V2, check as check_v2
+from .replay import bound_view
 from .sources import digest, read_json, safe_path
 
 DEFAULT_AUTHORIZATION = 'data/estimates/evaluation-authorization-v1.json'
@@ -197,7 +198,8 @@ def authorize(root, path=DEFAULT_AUTHORIZATION, ledger_path=DEFAULT_LEDGER):
 def evaluate_estimates(root, version=1):
     run = RUNS[version]
     auth, ledger_sha = authorize(root, run['authorization'], run['ledger'])
-    run['check'](root, run['ledger'])
+    with bound_view(root, run['ledger']) as replay_root:  # docs/ledger-replay.md
+        run['check'](replay_root, run['ledger'])
     ledger = read_json(safe_path(root, run['ledger']))
     records, _ = build_dataset(root, run['cohort'])
     if version != 1:  # strength design §6: common rows are rows of the frozen 23-engagement baseline

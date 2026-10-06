@@ -6,6 +6,7 @@ from pathlib import Path
 import unittest
 
 from generalship.estimates import EstimateError, check, classify, estimate_row, estimate_side, nested_sets
+from generalship.replay import bound_view
 from generalship.sources import read_json
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -143,8 +144,12 @@ class RowTests(unittest.TestCase):
 
 
 class LedgerTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):  # frozen ledgers replay through a bound view (docs/ledger-replay.md)
+        cls.root = cls.enterClassContext(bound_view(ROOT, 'data/estimates/side-strength-v1.json'))
+
     def test_committed_ledger_reproduces(self):
-        result = check(ROOT)
+        result = check(self.root)
         self.assertEqual((result['in_scope'], result['out_of_scope']), (91, 36))
         self.assertFalse(result['fitted'])
         self.assertEqual(result['promoted_rows'], 0)
@@ -156,7 +161,7 @@ class LedgerTests(unittest.TestCase):
             ledger = copy.deepcopy(base)
             change(ledger, {e['battle_id']: e for e in ledger['engagements']})
             with self.assertRaisesRegex(EstimateError, message):
-                check(ROOT, ledger=ledger)
+                check(self.root, ledger=ledger)
 
         def first(e, side='Confederate'):
             return e['sides'][side]['inputs'][0]

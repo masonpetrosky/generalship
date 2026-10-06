@@ -1,12 +1,11 @@
 # Replaying frozen ledgers against the dossiers they bind
 
-**Status: revised after separate review, 2026-10-06; awaiting the owner's acceptance.** The owner
-asked for a design that lets corrections to ledger-bound dossiers be installed while the frozen
-ledgers keep replaying, and chose this approach ("Sure, do whatever you recommend"). A separate
-Claude Opus 5.5 `high` [review](../artifacts/review-results/ledger-replay-design-2a28afe-opus-high-v1/review.md)
+**Status: accepted by the owner on 2026-10-06 ("Yes") and implemented in `generalship/replay.py`.**
+The owner asked for a design that lets corrections to ledger-bound dossiers be installed while the
+frozen ledgers keep replaying, and chose this approach ("Sure, do whatever you recommend"). A
+separate Claude Opus 5.5 `high` [review](../artifacts/review-results/ledger-replay-design-2a28afe-opus-high-v1/review.md)
 found the design sound and required eight corrections, all applied here. This document changes no
-ledger, authorization, bound document, bound code or model input. Implementation waits for the
-owner's acceptance.
+ledger, authorization, bound document, bound code or model input.
 
 ## 1. Problem
 
@@ -215,5 +214,5 @@ under AGENTS.md. It found no way for a view to present bytes other than the boun
 the call graph, and reproduced the failure and the fix in a temporary mirror. Its eight required
 corrections and four of its seven advisory notes are applied; see the
 [primary assessment](../artifacts/review-results/ledger-replay-design-2a28afe-opus-high-v1/primary-assessment.md).
-The owner decides whether to accept the design for implementation. Acceptance does not admit a
+The owner accepted the design for implementation on 2026-10-06. Acceptance does not admit a
 feature, change a frozen input or authorize a run.

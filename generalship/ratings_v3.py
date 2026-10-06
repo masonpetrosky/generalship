@@ -17,6 +17,7 @@ from .estimates import SIDES
 from .estimates_v2 import check as check_strength
 from .imputation import (BATTLES, CAMPAIGNS, COMMAND, DESIGN, STRENGTH, build as build_imputation, impute, quantile)
 from .ratings import TAU, RatingError, attach, cholesky, components, fit, predict, summarize
+from .replay import bound_view
 from .sources import digest, read_csv, read_json, safe_path
 
 AUTHORIZATION = 'data/command/rating-authorization-v3.json'
@@ -259,8 +260,9 @@ def temporal(rows_by_m, years=(('1861', '1862', '1863'), ('1864', '1865'))):
 
 def rate3(root, m=M):
     auth = authorize(root)
-    check_strength(root, STRENGTH)
-    check_command(root, COMMAND)
+    with bound_view(root, STRENGTH, COMMAND) as replay_root:  # docs/ledger-replay.md
+        check_strength(replay_root, STRENGTH)
+        check_command(replay_root, COMMAND)
     stored = read_json(safe_path(root, IMPUTATION))
     rebuilt = build_imputation(root, verify=False)
     if rebuilt != stored:

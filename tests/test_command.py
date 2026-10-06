@@ -5,6 +5,7 @@ from pathlib import Path
 import unittest
 
 from generalship.command import CommandError, check, contained_pairs, rank_level
+from generalship.replay import bound_view
 from generalship.sources import read_json
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,9 +32,11 @@ class LedgerTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.base = read_json(ROOT / 'data/command/responsibility-v1.json')
+        # Frozen ledgers replay through a bound view (docs/ledger-replay.md).
+        cls.root = cls.enterClassContext(bound_view(ROOT, 'data/command/responsibility-v1.json'))
 
     def test_committed_ledger_replays(self):
-        result = check(ROOT)
+        result = check(self.root)
         self.assertEqual((result['engagements'], result['sides']), (91, 182))
         self.assertFalse(result['rated'])
 
@@ -41,7 +44,7 @@ class LedgerTests(unittest.TestCase):
         ledger = copy.deepcopy(self.base)
         change({e['battle_id']: e for e in ledger['engagements']}, ledger)
         with self.assertRaisesRegex(CommandError, message):
-            check(ROOT, ledger=ledger)
+            check(self.root, ledger=ledger)
 
     def test_tampered_ledgers_fail(self):
         self.tampered('grade D if and only if', lambda E, L: E['TN003']['sides']['US'].update(grade='D', rule='3c'))

@@ -15,9 +15,10 @@ from .command import DEFAULT_LEDGER as COMMAND_LEDGER, check as check_command
 COMMAND_LEDGER_V2 = 'data/command/responsibility-v2.json'
 from .ratings import RUNS as RATING_RUNS, rate, report_text as ratings_report
 from .ratings_v3 import rate3, report_text as ratings3_report
-from .imputation import build as build_imputation
+from .imputation import COMMAND as IMPUTATION_COMMAND, STRENGTH as IMPUTATION_STRENGTH, build as build_imputation
 from .dataset import build_dataset
 from .evidence import validate_all
+from .replay import bound_view
 from .sources import digest, fetch_sources, read_json, write_json
 
 
@@ -74,6 +75,35 @@ def report_text(root, profile, evaluation, dossiers, admission):
     return "\n".join(lines)
 
 
+def replay_frozen_ledgers(root, checks):
+    """Replay each present ledger with its checker through bound views (docs/ledger-replay.md):
+    one view for all of them, or one each if their bound versions conflict. A failure is reported
+    as stale_or_invalid, not raised; an absent ledger gives None."""
+    def replay(replay_root, path, check):
+        try:
+            return check(replay_root, path)
+        except (ValueError, KeyError, OSError) as exc:
+            return {'status': 'stale_or_invalid', 'error': str(exc)}
+
+    present = [path for path, _ in checks if (root / path).is_file()]
+    try:
+        with bound_view(root, *present) as replay_root:
+            return [replay(replay_root, path, check) if path in present else None for path, check in checks]
+    except (ValueError, OSError):
+        pass  # conflicting bound versions, or no shared view: replay each ledger on its own
+    results = []
+    for path, check in checks:
+        if path not in present:
+            results.append(None)
+            continue
+        try:
+            with bound_view(root, path) as replay_root:
+                results.append(replay(replay_root, path, check))
+        except (ValueError, OSError) as exc:
+            results.append({'status': 'stale_or_invalid', 'error': str(exc)})
+    return results
+
+
 def run_build(root, write=False):
     records, profile = build_dataset(root)
     dossiers = validate_all(root)
@@ -81,31 +111,11 @@ def run_build(root, write=False):
     admission = check_admission(root)
     if admission['status'] == 'invalid' or admission['scenario_issues']:
         raise ValueError('Default admission proposal has invalid bindings or scenarios')
-    estimates = None
-    if (root / DEFAULT_LEDGER).is_file():
-        # A ledger bound to earlier evidence is reported, not fatal: `estimate-check`
-        # and its unit test enforce replay of the committed ledger.
-        try:
-            estimates = check_estimates(root)
-        except (ValueError, KeyError, OSError) as exc:
-            estimates = {'status': 'stale_or_invalid', 'error': str(exc)}
-    command = None
-    if (root / COMMAND_LEDGER).is_file():
-        try:
-            command = check_command(root)
-        except (ValueError, KeyError, OSError) as exc:
-            command = {'status': 'stale_or_invalid', 'error': str(exc)}
-    estimates_v2 = command_v2 = None
-    if (root / ESTIMATE_LEDGER_V2).is_file():
-        try:
-            estimates_v2 = check_estimates_v2(root)
-        except (ValueError, KeyError, OSError) as exc:
-            estimates_v2 = {'status': 'stale_or_invalid', 'error': str(exc)}
-    if (root / COMMAND_LEDGER_V2).is_file():
-        try:
-            command_v2 = check_command(root, COMMAND_LEDGER_V2)
-        except (ValueError, KeyError, OSError) as exc:
-            command_v2 = {'status': 'stale_or_invalid', 'error': str(exc)}
+    # A ledger bound to evidence that cannot be reached is reported, not fatal: `estimate-check`,
+    # `command-check` and their unit tests enforce replay of the committed ledgers.
+    estimates, command, estimates_v2, command_v2 = replay_frozen_ledgers(root, [
+        (DEFAULT_LEDGER, check_estimates), (COMMAND_LEDGER, check_command),
+        (ESTIMATE_LEDGER_V2, check_estimates_v2), (COMMAND_LEDGER_V2, check_command)])
     if write:
         output = root / "artifacts"
         output.mkdir(exist_ok=True)
@@ -209,7 +219,8 @@ def main(argv=None):
                        or checked.get('release_status') == 'blocked')
         elif args.command == 'estimate-check':
             version = read_json(root / args.ledger).get('version', 1)
-            result = (check_estimates_v2 if version == 2 else check_estimates)(root, args.ledger)
+            with bound_view(root, args.ledger) as replay_root:
+                result = (check_estimates_v2 if version == 2 else check_estimates)(replay_root, args.ledger)
         elif args.command == 'commander-ratings':
             if args.version == 3:
                 ratings, out, text = rate3(root), 'artifacts/commander-ratings-v3', None
@@ -222,13 +233,15 @@ def main(argv=None):
             (root / f'{out}.md').write_text(text, encoding='utf-8')
             result = {'heldout_improved': ratings['heldout_test']['improved'], 'outputs': [f'{out}.json', f'{out}.md']}
         elif args.command == 'strength-imputation':
-            imputation = build_imputation(root)
+            with bound_view(root, IMPUTATION_STRENGTH, IMPUTATION_COMMAND) as replay_root:
+                imputation = build_imputation(replay_root)  # frozen impute replays both ledgers
             write_json(root / 'artifacts/strength-imputation-v1.json', imputation)
             result = {'grade_E_sides': len(imputation['sides']), 'k': imputation['model']['k'],
                       'loo_coverage_80': imputation['model']['loo_coverage_80'],
                       'output': 'artifacts/strength-imputation-v1.json'}
         elif args.command == 'command-check':
-            result = check_command(root, args.ledger)
+            with bound_view(root, args.ledger) as replay_root:
+                result = check_command(replay_root, args.ledger)
         elif args.command == 'estimate-evaluate':
             evaluation = evaluate_estimates(root, args.version)
             out = EVAL_RUNS[args.version]['output']
