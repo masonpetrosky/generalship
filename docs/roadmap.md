@@ -684,8 +684,10 @@ extraction library can be evaluated later against a measured source-alignment ne
 No web framework or hosting stack is selected before the evidence contract matures.
 Use local tests; no hosted workflow is configured. Corrections to a dossier that a frozen ledger
 binds cannot yet be installed: the strength ledgers bind both the dossier hash and their checker
-code, so replay always reads the live file. Installing Champion Hill's staged correction needs a
-replay design first, for example replaying each frozen ledger against the dossier versions it binds.
+code, so replay always reads the live file. A [replay design](ledger-replay.md) replays each
+frozen ledger in a temporary hard-linked view that presents the archived bytes it binds; it passed
+a separate Opus 5.5 `high` review with eight corrections applied and awaits the owner's acceptance.
+Installing Champion Hill's staged correction is its first use.
 
 ## Owner ideas to design later
 

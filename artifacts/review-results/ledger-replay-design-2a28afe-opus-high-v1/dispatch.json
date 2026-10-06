@@ -1,0 +1,25 @@
+{
+  "actual_task_identity": "headless Claude Code session 10440d1c-0035-465d-ba41-9ac922248e31",
+  "agent": "evidence-reviewer (.claude/agents/evidence-reviewer.md)",
+  "model": "claude-opus-5-5",
+  "model_reported_by_run": [
+    "claude-opus-5-5"
+  ],
+  "reasoning_effort": "high",
+  "fresh_context": true,
+  "subagents_spawned": 0,
+  "permission_denials": [],
+  "tool": "claude -p --agent evidence-reviewer --model claude-opus-5-5 --effort high --allowedTools Read,Grep,Glob,Bash,Write --output-format json",
+  "prompt": "Carry out the separate review assignment in artifacts/review-results/ledger-replay-design-2a28afe-opus-high-v1/assignment.md, bound by its sibling inputs.json. Write only the review file it names, then return the path and outcome.",
+  "environment": "Launched from the primary session with CLAUDECODE, CLAUDE_EFFORT (max in the parent), CLAUDE_CODE_SESSION_ID, CLAUDE_CODE_BRIDGE_SESSION_ID, CLAUDE_CODE_MESSAGING_SOCKET, CLAUDE_CODE_MESSAGING_TOKEN, CLAUDE_CODE_CHILD_SESSION, CLAUDE_CODE_SESSION_ATTENDED, CLAUDE_PID and CLAUDE_CODE_ENTRYPOINT unset, so the reviewer ran as an independent session at --effort high.",
+  "working_directory": "detached git worktree of bundle commit 19e0d76bc588d94733e7f182e0e47a7fbe32403c; review.md copied byte-for-byte into the repository",
+  "dispatched_at_utc": "2026-10-06T04:35:45Z",
+  "prepared_commit": "2a28afe5f90d6dc2a377bcf4d549b6657a4d387f",
+  "bundle_commit": "19e0d76bc588d94733e7f182e0e47a7fbe32403c",
+  "assignment_sha256": "51a41c571696b6d27a382afef0bbe1100105eb95ebe65c3a3bb4cbf2fdf2da35",
+  "inputs_manifest_sha256": "e3a66f32e06feeafa14059049e855bb9ee49b43b0b7cdd7df7f574f6397f35da",
+  "num_turns": 45,
+  "duration_ms": 712853,
+  "terminal_reason": "completed",
+  "returned_message": "I wrote the review to `artifacts/review-results/ledger-replay-design-2a28afe-opus-high-v1/review.md`. The outcome: the design is sound, but 8 corrections are required, each given as exact replacement text. It is the only file I added; nothing was committed or pushed.\n\n**What I checked**\n- All 35 input hashes match at commit `2a28afe`. HEAD (`19e0d76`) only adds the assignment files.\n- `make check` passes: 151 tests OK and `generalship check` passed. The tree stayed clean.\n- I ran a test in a temp directory outside the repo:\n  - I hard-linked a copy of the repo and installed the corrected Champion Hill (MS009) dossier in it.\n  - All four ledger checks failed with `Dossier binding: MS009`, as today.\n  - Through a view that swaps in the old MS009 bytes, all four passed.\n  - The repo's own MS009 was unchanged afterwards.\n- I did not run any rating, evaluation, imputation or build command. So the four run callers were never exercised through a view.\n\n**What the review found**\n- **Facts:** almost all hold. The design's table lists every code path that replays a ledger; none is missing. The claim that the runs read no dossier after replay is correct.\n- **Safety:** a view can never show bytes other than the ones the ledger bound, because the final check is a SHA-256 match. The design changes no frozen file and admits no feature, consistent with AGENTS.md and the evidence contract.\n\n**Required corrections**\n1. **R1:** The command checker (`command.py`) is not bound by any ledger, output or authorization. The claim that none of the checkers can change without breaking a binding is too broad. The fix explains why it should stay unchanged anyway.\n2. **R2:** Missing files, invalid JSON or archive paths that escape the repo must make the lookup return \"not found\" rather than raise an error. Otherwise the failure message stops being `Dossier binding`, which breaks the design's fail-closed rule.\n3. **R3:** The conflict rule must count a binding that matches the live file as a version. Otherwise one ledger can fail falsely; it can never pass falsely.\n4. **R4:** The figure \"1,601 sources (332 MB)\" is wrong. There are 1,601 registry entries covering 1,555 distinct files, about 345 MB.\n5. **R5:** Run order: `estimate-evaluation` must come before `commander-ratings`, because run 1 reads its output. The fix also says how to confirm the outputs are byte-identical.\n6. **R6:** The installation steps must update the evidence contract to make archives that a frozen ledger reaches permanent. The installation record should be a new file, leaving the review bundle unchanged.\n7. **R7:** The test plan needs four additions:\n   - the no-change case must never delete the real repo;\n   - the error cases from R2;\n   - the live-versus-archive conflict from R3;\n   - a simulated MS009 installation before the real one, because until then every view is a no-op.\n8. **R8:** The design should disclose that views widen what replay accepts. A ledger edited to bind an older archived version would pass, where today it fails. Only the rating and evaluation runs check the ledger's own hash against an authorization; `make check`, the CLI checks and the tests do not.\n\nThere are also seven optional advisory notes, listed separately in the review.\n\nThis is an AI review, not owner acceptance; it authorizes nothing."
+}

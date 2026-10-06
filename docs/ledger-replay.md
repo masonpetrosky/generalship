@@ -1,10 +1,12 @@
 # Replaying frozen ledgers against the dossiers they bind
 
-**Status: draft for separate review, 2026-10-06.** The owner asked for a design that lets
-corrections to ledger-bound dossiers be installed while the frozen ledgers keep replaying, and
-chose this approach ("Sure, do whatever you recommend"). This document changes no ledger,
-authorization, bound document, bound code or model input. Implementation waits for the separate
-review and the owner's acceptance.
+**Status: revised after separate review, 2026-10-06; awaiting the owner's acceptance.** The owner
+asked for a design that lets corrections to ledger-bound dossiers be installed while the frozen
+ledgers keep replaying, and chose this approach ("Sure, do whatever you recommend"). A separate
+Claude Opus 5.5 `high` [review](../artifacts/review-results/ledger-replay-design-2a28afe-opus-high-v1/review.md)
+found the design sound and required eight corrections, all applied here. This document changes no
+ledger, authorization, bound document, bound code or model input. Implementation waits for the
+owner's acceptance.
 
 ## 1. Problem
 
@@ -17,8 +19,11 @@ records bind the ledgers' own hashes.
 The checker code is frozen as well. `side-strength-v1` binds `generalship/estimates.py`;
 `side-strength-v2` binds `generalship/estimates_v2.py` and, as its engine, `estimates.py`.
 `generalship/imputation.py` is bound by the grade E output, `artifacts/strength-imputation-v1.json`,
-which run 3's authorization binds. None of these checkers can be taught to read an archive without
-breaking those bindings.
+which run 3's authorization binds. The strength checkers cannot be taught to read an archive
+without breaking those bindings. The command checker, `generalship/command.py`, is bound by no
+ledger, output or authorization. It stays unchanged nonetheless, because frozen `imputation.impute`
+calls it. Changing its behaviour would change what that frozen replay checks, and one mechanism
+serves all four ledgers.
 
 Correcting a ledger-bound dossier therefore breaks replay. The first case is Champion Hill (MS009).
 Its separate review on 2026-10-06 found five extraction errors, but installing the corrected dossier
@@ -53,11 +58,13 @@ A new module, `generalship/replay.py`, provides two functions. Only unfrozen cal
 `None`:
 
 1. If the live file at `binding['path']` hashes to `binding['sha256']`, return it.
-2. Otherwise read the live dossier and follow its `supersedes` links. For each link, the archive
-   must lie under `data/evidence/history/`, must not repeat, must hash to the link's `sha256` and
-   must carry the live dossier's `battle_id`. If the link's `sha256` equals the binding's, return
-   the archive.
-3. If the chain ends or any check fails, return `None`.
+2. Otherwise read the live dossier and follow its `supersedes` links. For each link, the
+   archive's resolved path must lie inside the root's `data/evidence/history/`. It must not repeat,
+   must hash to the link's `sha256` and must carry the live dossier's `battle_id`. If the link's
+   `sha256` equals the binding's, return the archive.
+3. If the chain ends, or any check fails, return `None`. A missing or unreadable file, invalid
+   JSON, a missing field or a path that escapes the root counts as a failed check. The resolver
+   never raises for these cases, so the frozen checker reports `Dossier binding` itself.
 
 The evidence contract already requires a corrected dossier to archive its predecessor byte for
 byte and to link it by hash, and `generalship check` validates the first link. The resolver
@@ -70,8 +77,10 @@ an in-memory ledger, as the tamper tests pass.
 
 1. Collect the dossier bindings of all the given ledgers and resolve each one. A *substitution* is
    a binding whose live file differs but whose bound bytes are reachable.
-2. If two of the given ledgers bind one path to different reachable versions, raise `ReplayError`.
-   A caller that needs both replays them in separate views.
+2. If two of the given ledgers bind one path to different hashes that both resolve, raise
+   `ReplayError`. A hash that matches the live file counts as resolving. A caller that needs both
+   replays them in separate views. A binding that does not resolve never causes a conflict. It
+   fails in the checker.
 3. If there are no substitutions, yield `root` itself.
 4. Otherwise make a temporary directory and mirror every regular file of the repository except
    those under `.git/` and `__pycache__/`, using hard links, or a byte copy if linking fails (for
@@ -80,7 +89,8 @@ an in-memory ledger, as the tamper tests pass.
    hashes to the bound value. Yield the view, and remove it on exit, including after an error.
 
 Hard links are needed for two reasons. `safe_path` resolves symlinks and rejects paths outside the
-root, and each replay re-hashes all 1,601 registered sources (332 MB). A probe on 2026-10-06
+root, and each replay re-hashes every one of the 1,601 source registry entries (1,555 distinct
+files, about 345 MB). A probe on 2026-10-06
 mirrored the repository's 3,356 files in 0.72 s and removed them in 0.12 s. The repository holds no
 symlinks, and the temporary directory is on the same volume.
 
@@ -126,33 +136,57 @@ After the mechanism is implemented and passes with MS009 unchanged, where every 
    install `staged-MS009.json` (`42d44bef…`).
 2. Run `make check`. The four committed-ledger replays and the tamper tests must pass through views,
    and `run_build` must report no stale ledger.
-3. Reproduce the authorized local runs under their existing authorizations: `make
-   commander-ratings`, `make estimate-evaluation`, `make commander-ratings-v2` (which runs
-   `estimate-evaluation-v2` first), `make strength-imputation` and `make commander-ratings-v3`.
-   Every committed output must stay byte-identical.
-4. Run `make reproduce`, record the installation beside the review record, and update the roadmap,
-   research log, methodology and sources notes. MS009 has no prepared packet to update.
+3. Reproduce the authorized local runs under their existing authorizations, in dependency order:
+   `make estimate-evaluation`, then `make commander-ratings` (run 1 reads
+   `artifacts/estimate-evaluation.json`), then `make commander-ratings-v2` (which runs
+   `estimate-evaluation-v2` first), then `make strength-imputation`, then `make commander-ratings-v3`
+   (which reads the run 2 and grade E outputs). Every committed output must stay byte-identical.
+   Check this with `git status --porcelain artifacts/` and record the hashes. The runs execute at a
+   later code commit than their authorizations' `code_commit`, so byte-identical outputs are the
+   evidence of equivalence.
+4. Run `make reproduce`. Record the installation in a new file beside the review record, leaving
+   the review bundle's files unchanged. Update `docs/evidence-contract.md` to say that an archive
+   reachable from a frozen ledger's binding is permanent and that frozen ledgers replay through
+   the archive chain. Update the roadmap, research log, methodology and sources notes. MS009 has
+   no prepared packet to update.
 
 ## 5. Tests
 
-- **Resolution:** a live match; one- and two-link archive chains; a broken archive hash, a wrong
-  battle ID, a repeated path and a path outside `history/` each return `None`.
-- **View:** no substitutions yields the real root; a substitution presents the bound bytes; the live
-  file and the live tree are unchanged afterwards; the directory is removed on exit and on error;
-  conflicting bindings raise `ReplayError`.
+- **Resolution:** a live match; one- and two-link archive chains. Each of the following returns
+  `None` without raising: a broken archive hash, a wrong battle ID, a repeated path, a path outside
+  `history/` (including through `..`), a path escaping the root, a missing archive, a missing live
+  file and invalid JSON.
+- **View:** no substitutions yields the real root and leaves it in place on exit, including after
+  an error. A substitution presents the bound bytes. The live file and the live tree are unchanged
+  afterwards. The directory is removed on exit and on error. Two kinds of conflicting bindings
+  raise `ReplayError`: two archives, and one live match against one archive.
 - **Fail closed:** an unreachable binding is not substituted, and the frozen checker still raises
   `Dossier binding`.
 - **Integration:** the committed v1 and v2 ledgers replay through views, and every existing tamper
-  test still raises its expected message.
+  test still raises its expected message. Before MS009 is installed, a test simulates the
+  installation in a temporary hard-linked mirror, unlinking before every write. It asserts that
+  all four frozen checkers raise `Dossier binding: MS009` on the mirror and pass through a view of
+  it, and that the repository is unchanged.
 
 Unit tests use small synthetic trees in temporary directories; integration tests use the
-repository.
+repository. A view shared across a test class is released with `addClassCleanup`. Model jobs are
+not tests, so the views in the four run callers are verified only by the reproduction in section 4,
+step 3; the implementation record should state this limit.
 
 ## 6. Risks and limits
 
+- **Wider acceptance.** A view accepts any dossier version reachable from the live chain, where
+  replay today accepts only the live file. A ledger edited to bind an archived predecessor, and
+  made consistent with it, therefore passes through a view but fails today. Replay also stops
+  depending on the live dossier's content, which `generalship check` still validates. The views
+  do not authenticate the ledger. The rating and evaluation runs anchor their ledgers through the
+  authorizations' hashes, while `run_build`, `estimate-check`, `command-check` and the tests replay
+  whatever ledger file is present.
 - **Writes through hard links.** Code that wrote into a view would write into the live file. This
   is mitigated by the read-only contract, by never writing to a linked path during substitution and
-  by tests on the live tree; the checkers contain no writes.
+  by tests on the live tree; the checkers contain no writes. Metadata changes carry the same risk:
+  `chmod`, `utime` or extended attributes applied to a view file change the live file, so they are
+  never applied to a view.
 - **Disk and time.** About 0.8 s per view with hard links; if linking fails, a byte copy of about
   500 MB.
 - **Archive deletion.** Deleting an archive that a frozen ledger reaches breaks its replay, as it
@@ -170,11 +204,16 @@ repository.
   redirect.
 - **Verify frozen ledgers by hash only.** This is cheap, but it drops the full replay the project
   relies on.
-- **Teach the checkers about archives.** This is impossible without breaking the strength ledgers'
-  bindings of their own code.
+- **Teach the checkers about archives.** This is impossible for the strength checkers without
+  breaking their ledgers' bindings of their own code. For the unbound command checker, it would
+  change the replay that frozen `imputation.impute` performs and split the mechanism.
 
 ## 8. Review and acceptance
 
-A separate Claude Opus 5.5 `high` review checks this design against the code and records it names,
-under AGENTS.md. After its findings are reconciled, the owner decides whether to accept it for
-implementation. Acceptance does not admit a feature, change a frozen input or authorize a run.
+A separate Claude Opus 5.5 `high` review checked this design against the code and records it names,
+under AGENTS.md. It found no way for a view to present bytes other than the bound bytes, confirmed
+the call graph, and reproduced the failure and the fix in a temporary mirror. Its eight required
+corrections and four of its seven advisory notes are applied; see the
+[primary assessment](../artifacts/review-results/ledger-replay-design-2a28afe-opus-high-v1/primary-assessment.md).
+The owner decides whether to accept the design for implementation. Acceptance does not admit a
+feature, change a frozen input or authorize a run.

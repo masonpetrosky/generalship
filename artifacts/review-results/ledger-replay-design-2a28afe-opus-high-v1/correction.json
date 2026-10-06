@@ -1,0 +1,68 @@
+{
+  "review_sha256": "115bb2161b0d7268a8fe80c20aa84e4ff41c3de20a3bbadf9b13a08fa4e2b328",
+  "prepared_commit": "2a28afe5f90d6dc2a377bcf4d549b6657a4d387f",
+  "design_path": "docs/ledger-replay.md",
+  "reviewed_design_sha256": "45814d76fd9240019228bdfcd0226f3d7d2155a82cbdad9ef527ca6a18c1fca3",
+  "revised_design_sha256": "8c371c7cb9d7cccfba2424c095e626e01ed6d80e680012ea8cf8091e97e49a25",
+  "findings": [
+    {
+      "finding_id": "R1",
+      "disposition": "accepted_and_applied_exactly",
+      "section": "1 and 7",
+      "primary_inspection": "No ledger, output or authorization binds generalship/command.py (the command ledgers bind design, cohort, registry and, in v2, addendum); frozen imputation.impute calls check_command at imputation.py:205."
+    },
+    {
+      "finding_id": "R2",
+      "disposition": "accepted_and_applied_exactly",
+      "section": "3.1",
+      "primary_inspection": "safe_path raises ValueError on escape (sources.py:24-28), read_json raises on invalid JSON and a missing file raises FileNotFoundError; any of these escaping the resolver would replace the checker's Dossier binding message."
+    },
+    {
+      "finding_id": "R3",
+      "disposition": "accepted_and_applied_exactly",
+      "section": "3.2",
+      "primary_inspection": "If one ledger binds the live bytes and another an archive, comparing only substitutions would substitute the archive and fail the first ledger falsely."
+    },
+    {
+      "finding_id": "R4",
+      "disposition": "accepted_and_applied_exactly",
+      "section": "3.2",
+      "primary_inspection": "Recomputed: 1,601 registry entries, 1,555 distinct files, 345.2 MB (329.2 MiB)."
+    },
+    {
+      "finding_id": "R5",
+      "disposition": "accepted_and_applied_exactly",
+      "section": "4",
+      "primary_inspection": "ratings.py RUNS[1] reads 'artifacts/estimate-evaluation.json'; the Makefile orders only v2 (commander-ratings-v2: estimate-evaluation-v2)."
+    },
+    {
+      "finding_id": "R6",
+      "disposition": "accepted_and_applied_exactly",
+      "section": "4",
+      "primary_inspection": "Section 6 required archive permanence in the contract but section 4 did not schedule it; the installation record now goes in a new file beside the immutable review bundle."
+    },
+    {
+      "finding_id": "R7",
+      "disposition": "accepted_and_applied_exactly",
+      "section": "5",
+      "primary_inspection": "Until installation every integration view is a no-op, so a simulated installation is the only pre-installation test of the substitution path with the real checkers."
+    },
+    {
+      "finding_id": "R8",
+      "disposition": "accepted_and_applied_exactly",
+      "section": "6",
+      "primary_inspection": "Correct and material: views accept ledgers bound to any reachable archived version, and only the rating and evaluation runs anchor ledger bytes through authorization hashes. Disclosure applied; anchoring every replay to authorization hashes was considered and not adopted, because replay never authenticated ledger bytes and the runs already anchor them."
+    }
+  ],
+  "advisory": {
+    "A1": "adopted in section 6 (metadata changes on hard-linked view files)",
+    "A2": "not adopted; the final hash comparison already decides, so the extra battle-ID check adds nothing to soundness",
+    "A3": "adopted in section 4 step 3 (byte-identical outputs are the evidence of equivalence at a later code commit)",
+    "A4": "not adopted; one view per run keeps the design simple, and a conflict there would be a real error",
+    "A5": "adopted in section 5 (addClassCleanup)",
+    "A6": "adopted in section 5 (run callers verified only by the section 4 reproduction)",
+    "A7": "no action required"
+  },
+  "independent_followup_review": false,
+  "owner_acceptance": "pending"
+}
