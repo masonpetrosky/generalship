@@ -115,7 +115,7 @@ def validate_source_metadata(root: Path, registry: dict) -> None:
                 raise ValueError("Metadata-only source revision cannot replace raw evidence")
         if "facsimile_source_id" in source:
             facsimile = registry.get(source["facsimile_source_id"])
-            if facsimile is None or facsimile["format"] != "png":
+            if facsimile is None or facsimile["format"] not in {"png", "jpg", "jpeg"}:
                 raise ValueError("Facsimile link requires a registered image")
             if (source.get("parent_sha256") != facsimile.get("parent_sha256")
                     or source["independence_group"] != facsimile["independence_group"]):

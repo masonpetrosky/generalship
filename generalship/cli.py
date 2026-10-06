@@ -26,11 +26,12 @@ from .frame import CIVIL_WAR
 from .napoleonic import COHORT as NAPOLEONIC_COHORT, FRAME as NAPOLEONIC_FRAME, build as build_napoleonic, \
     check as check_napoleonic, cohort as napoleonic_cohort
 from .dataset import build_dataset
-from .evidence import validate_all
+from .evidence import validate_all, validate_napoleonic
+from .napoleonic_packet import write_packet as write_napoleonic_packet
 from .audit import AUDIT, AuditError, check_audit, report_text as audit_report, review_index
 from .replay import bound_view, repository_text
 from .site import build_site
-from .sources import digest, fetch_sources, read_json, write_json
+from .sources import digest, fetch_sources, read_json, verify_sources, write_json
 
 
 def report_text(root, profile, evaluation, dossiers, admission):
@@ -116,6 +117,7 @@ def replay_frozen_ledgers(root, checks):
 def run_build(root, write=False):
     records, profile = build_dataset(root)
     dossiers = validate_all(root)
+    napoleonic_dossiers = validate_napoleonic(root)  # raises on an invalid draft, like the Civil War dossiers
     evaluation = evaluate(records)
     admission = check_admission(root)
     if admission['status'] == 'invalid' or admission['scenario_issues']:
@@ -144,6 +146,8 @@ def run_build(root, write=False):
         write_json(output / "quality.json", profile)
         write_json(output / "baseline.json", evaluation)
         write_json(output / "evidence-checks.json", dossiers)
+        if napoleonic_dossiers:
+            write_json(output / "napoleonic-evidence-checks.json", napoleonic_dossiers)
         write_json(output / "admission-check.json", admission)
         known = {d["battle_id"]: d["status"] for d in dossiers}
         write_json(output / "research-queue.json", [
@@ -171,6 +175,7 @@ def run_build(root, write=False):
         outputs = ["battles.json", "quality.json", "baseline.json", "evidence-checks.json", "research-queue.json", "pilot-report.md", "admission-check.json",
                    "review-index.json"] + (["extraction-audit-v1.json", "extraction-audit-v1.md"] if audit_ok else [])
         outputs += ["strength-ledger-v3-check.json", "strength-compilation-agreement.json"] if (output / "strength-ledger-v3-check.json").is_file() else []
+        outputs += ["napoleonic-evidence-checks.json"] if napoleonic_dossiers else []
         write_json(output / "receipt.json", {
             "command": "python3 -m generalship build", "model_id": evaluation["model_id"],
             # Floating-point results can differ in the last bits across Python versions (for example,
@@ -200,6 +205,8 @@ def run_build(root, write=False):
                                                     if 'side_grades' in estimates_v3 else estimates_v3),
             "napoleonic_frame": napoleonic and ({k: napoleonic[k] for k in ('entries_transcribed', 'in_frame', 'campaign_groups')}
                                                   if 'in_frame' in napoleonic else napoleonic),
+            "napoleonic_dossiers": {"drafts": len(napoleonic_dossiers), "claims": sum(d['claims'] for d in napoleonic_dossiers),
+                                    "unknown_claims": sum(d['unknown_claims'] for d in napoleonic_dossiers)},
             "artifacts_written": write}
 
 
@@ -227,6 +234,9 @@ def main(argv=None):
     for command in ("check", "build", "fetch"):
         sub.add_parser(command)
     sub.add_parser('napoleonic-frame', help='Rebuild and write the Napoleonic frame v1 and cohort v1 from the Bodart transcription')
+    nap_packet = sub.add_parser('napoleonic-packet', help='Write the research packet for one cohort v1 campaign group')
+    nap_packet.add_argument('group', help="Campaign group, for example 'third-coalition 1805'")
+    sub.add_parser('napoleonic-evidence-check', help='Verify source hashes and validate the Napoleonic draft dossiers')
     site_parser = sub.add_parser('site', help='Write the static explorer (plain HTML) from committed files')
     site_parser.add_argument('--out', default='_site', help='Output directory (default _site, git-ignored)')
     site_parser.add_argument('--commit', default=os.environ.get('GITHUB_SHA', 'main'),
@@ -334,6 +344,13 @@ def main(argv=None):
             cohort = napoleonic_cohort(frame, digest(root / NAPOLEONIC_FRAME))
             write_json(root / NAPOLEONIC_COHORT, cohort)
             result = {'frame': frame['counts'], 'cohort': cohort['counts'], 'outputs': [NAPOLEONIC_FRAME, NAPOLEONIC_COHORT]}
+        elif args.command == 'napoleonic-packet':
+            result = write_napoleonic_packet(root, args.group)
+        elif args.command == 'napoleonic-evidence-check':
+            sources = verify_sources(root)  # every registered hash and section map, even before any draft exists
+            checked = validate_napoleonic(root, sources)
+            result = {'sources_verified': len(sources), 'drafts': len(checked), 'claims': sum(d['claims'] for d in checked),
+                      'unknown_claims': sum(d['unknown_claims'] for d in checked), 'dossiers': checked}
         elif args.command == 'site':
             result = build_site(root, args.out, args.commit)
         elif args.command == "fetch":

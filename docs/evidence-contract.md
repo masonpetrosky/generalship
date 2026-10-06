@@ -177,6 +177,29 @@ observations. The six TN003-R1 targets retain every printed number, including
 silently downgrade to v2 while retaining them. The dossier stays `draft` and
 the baseline still ignores all typed research observations.
 
+## Napoleonic dossiers
+
+Napoleonic drafts follow this contract with five differences.
+
+- **Location and frame.** They live in `data/napoleonic/evidence/<frame ID>.json`, named by their
+  Bodart frame ID, for example `B369c.json`.
+- **Validation.** They are checked against [cohort v1](napoleonic-frame.md#7-cohort-v1).
+  `python3 -m generalship napoleonic-evidence-check` verifies every registered source and validates
+  them; the build does the same.
+- **Sides.** Phase-record entities, if a v2 or v3 draft uses them, take side `A` (France and the
+  forces fighting with it) or `B`, not `US` or `CS`.
+- **Facsimiles.** A page transcription may name a JPEG page image as its `facsimile_source_id`, as
+  well as a PNG.
+- **Research.** First passes follow the [Napoleonic brief](../prompts/napoleonic-first-pass.md). It
+  applies the owner's decisions:
+  - each side's own public-domain sources;
+  - original-language quotes with a marked English rendering;
+  - every figure read from a registered page image;
+  - strength and responsibility researched in full, outcome only where disputed, and the other
+    dimensions only from passages already read.
+
+  `python3 -m generalship napoleonic-packet "<campaign group>"` writes a campaign's packet.
+
 ## Research and review
 
 1. Prepare an assignment with `python3 -m generalship packet TN003`.

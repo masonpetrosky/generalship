@@ -11,6 +11,12 @@ QUANTITY_BASES = {"present_for_duty", "reported_effective", "reported_engaged",
                   "reported_reinforcements", "reported_present"}
 ESTIMATION_STATUSES = {"explicit_estimate", "aggregate_includes_estimates",
                        "reported_without_explicit_estimation_qualifier", "unknown"}
+CIVIL_WAR_SIDES = {"US", "CS"}
+# Napoleonic dossiers (docs/napoleonic-frame.md): one per cohort-v1 entry, named by its frame ID. Side A is
+# France and the forces fighting with it, side B their opponents.
+NAPOLEONIC_EVIDENCE = "data/napoleonic/evidence"
+NAPOLEONIC_COHORT = "data/napoleonic/cohort-v1.json"
+NAPOLEONIC_SIDES = {"A", "B"}
 
 
 def citation_text(root, sources, citation):
@@ -40,7 +46,7 @@ def citation_text(root, sources, citation):
     raise ValueError("Unsupported evidence format")
 
 
-def validate_dossier(root, dossier, sources=None, cohort_ids=None):
+def validate_dossier(root, dossier, sources=None, cohort_ids=None, sides=CIVIL_WAR_SIDES):
     sources = sources or verify_sources(root)
     if dossier.get("schema_version") not in {1, 2, 3} or dossier.get("status") not in {"draft", "reviewed"}:
         raise ValueError("Invalid dossier version or status")
@@ -77,7 +83,7 @@ def validate_dossier(root, dossier, sources=None, cohort_ids=None):
             if not quote.strip() or quote not in citation_text(root, sources, citation):
                 raise ValueError(f"Supporting passage not found: {claim['id']}")
     if dossier["schema_version"] in {2, 3}:
-        validate_phase_records(root, dossier, sources)
+        validate_phase_records(root, dossier, sources, sides)
     elif any(key in dossier for key in ("entities", "events", "quantities")):
         raise ValueError("Phase records require schema version 2")
     if dossier["status"] == "reviewed":
@@ -91,7 +97,7 @@ def validate_dossier(root, dossier, sources=None, cohort_ids=None):
             "note": "Passage matching verifies provenance, not historical truth or entailment."}
 
 
-def validate_phase_records(root, dossier, sources=None):
+def validate_phase_records(root, dossier, sources=None, sides=CIVIL_WAR_SIDES):
     """Check phase-record integrity without treating research observations as features."""
     def indexed(items, name):
         if not items or any(not isinstance(item.get("id"), str) or not item["id"].strip() for item in items):
@@ -105,7 +111,7 @@ def validate_phase_records(root, dossier, sources=None):
     entities = indexed(dossier["entities"], "entity")
     for entity in entities.values():
         if (not entity.get("name") or entity["kind"] not in {"person", "formation"}
-                or entity["side"] not in {"US", "CS"}):
+                or entity["side"] not in sides):
             raise ValueError("Invalid entity identity")
     events = indexed(dossier["events"], "event")
     for event in events.values():
@@ -179,3 +185,18 @@ def validate_all(root):
     if len({d["battle_id"] for d in dossiers}) != len(dossiers):
         raise ValueError("Duplicate battle dossier")
     return [validate_dossier(root, d, sources) for d in dossiers]
+
+
+def validate_napoleonic(root, sources=None):
+    """Validate the Napoleonic dossiers against cohort v1; an absent or empty directory gives []."""
+    directory = root / NAPOLEONIC_EVIDENCE
+    paths = sorted(directory.glob("*.json")) if directory.is_dir() else []
+    if not paths:
+        return []
+    sources = sources or verify_sources(root)
+    cohort_ids = read_json(root / NAPOLEONIC_COHORT)["battle_ids"]
+    dossiers = [read_json(path) for path in paths]
+    for path, dossier in zip(paths, dossiers):
+        if path.stem != dossier.get("battle_id"):
+            raise ValueError(f"Napoleonic dossier {path.name} must be named by its frame ID")
+    return [validate_dossier(root, d, sources, cohort_ids, NAPOLEONIC_SIDES) for d in dossiers]
