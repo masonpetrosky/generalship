@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: check reproduce estimate-evaluation commander-ratings estimate-evaluation-v2 commander-ratings-v2 strength-imputation commander-ratings-v3 rating-uncertainty packet review-bundle
+.PHONY: check reproduce estimate-evaluation commander-ratings estimate-evaluation-v2 commander-ratings-v2 strength-imputation commander-ratings-v3 rating-uncertainty strength-imputation-v2 commander-ratings-v4 packet review-bundle
 check:
 	$(PYTHON) -m unittest discover -s tests -v
 	$(PYTHON) -m generalship check
@@ -28,6 +28,12 @@ commander-ratings-v3:
 
 rating-uncertainty:
 	$(PYTHON) -m generalship rating-uncertainty --version 3
+
+strength-imputation-v2:
+	$(PYTHON) -m generalship strength-imputation --version 2
+
+commander-ratings-v4:
+	$(PYTHON) -m generalship commander-ratings --version 4
 
 packet:
 	$(PYTHON) -m generalship packet TN003

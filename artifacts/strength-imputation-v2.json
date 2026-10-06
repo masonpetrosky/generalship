@@ -1,0 +1,6630 @@
+{
+  "kind": "strength_imputation",
+  "version": 2,
+  "profile": "american-civil-war",
+  "options": {
+    "train_grades": "ABC",
+    "joint_ledger_echelon": false,
+    "all_bounds": false,
+    "prestart": true
+  },
+  "model": {
+    "columns": [
+      "intercept",
+      "echelon=army",
+      "echelon=corps_or_wing",
+      "echelon=division",
+      "echelon=brigade",
+      "echelon=detachment_or_post",
+      "side=Confederate",
+      "period=1861-1862",
+      "period=1864-1865",
+      "theater=Western",
+      "theater=Trans-Mississippi",
+      "theater=Lower Seaboard"
+    ],
+    "coefficients": [
+      8.797584229328233,
+      1.4658867756443166,
+      0.7614614706881826,
+      0.15887203695687951,
+      -0.570796603660989,
+      -1.057363060840601,
+      -0.278163230774521,
+      -0.1507672372595088,
+      -0.05705354332304118,
+      -0.2023447187020411,
+      -1.0695820277716275,
+      -0.9864584507891648
+    ],
+    "sigma": 0.9714988071654401,
+    "k": 1.01,
+    "predictive_sd": 0.9812137952370945,
+    "n": 429,
+    "p": 12,
+    "ridge": 1.0,
+    "reference": {
+      "echelon": "unknown",
+      "side": "US",
+      "period": "1863",
+      "theater": "Eastern"
+    },
+    "merges": {
+      "echelon=regiment": {
+        "into": "unknown",
+        "training_rows": 1
+      },
+      "echelon=flotilla": {
+        "into": "unknown",
+        "training_rows": 2
+      }
+    },
+    "loo_coverage_80": 0.7995337995337995,
+    "median_abs_log_error": 0.6417590069318653,
+    "median_abs_log_error_by_echelon": {
+      "army": 0.750319123867186,
+      "brigade": 0.48530802628815595,
+      "corps_or_wing": 0.4547961101905482,
+      "detachment_or_post": 0.7866862724156256,
+      "division": 0.4780994017621092,
+      "unknown": 0.6779277729226632
+    },
+    "loco_coverage_80_at_k": 0.7972027972027972,
+    "train_grades": "ABC"
+  },
+  "composition": {
+    "echelon": {
+      "training": {
+        "brigade": 26,
+        "detachment_or_post": 68,
+        "unknown": 124,
+        "army": 127,
+        "corps_or_wing": 41,
+        "division": 40,
+        "regiment": 1,
+        "flotilla": 2
+      },
+      "modelled": {
+        "brigade": 9,
+        "unknown": 58,
+        "detachment_or_post": 31,
+        "army": 35,
+        "division": 19,
+        "flotilla": 9,
+        "corps_or_wing": 18,
+        "regiment": 2
+      }
+    },
+    "period": {
+      "training": {
+        "1863": 95,
+        "1864-1865": 186,
+        "1861-1862": 148
+      },
+      "modelled": {
+        "1863": 47,
+        "1864-1865": 84,
+        "1861-1862": 50
+      }
+    },
+    "theater": {
+      "training": {
+        "Western": 148,
+        "Trans-Mississippi": 87,
+        "Eastern": 161,
+        "Lower Seaboard": 33
+      },
+      "modelled": {
+        "Western": 68,
+        "Trans-Mississippi": 41,
+        "Eastern": 47,
+        "Lower Seaboard": 25
+      }
+    },
+    "side": {
+      "training": {
+        "US": 208,
+        "Confederate": 221
+      },
+      "modelled": {
+        "Confederate": 84,
+        "US": 97
+      }
+    }
+  },
+  "selection_descriptive": {
+    "graded_lost": 221,
+    "graded_won": 208,
+    "modelled_lost": 84,
+    "modelled_won": 97
+  },
+  "pre_start_view": [
+    {
+      "battle_id": "GA006",
+      "side": "Confederate",
+      "removed_inputs": [
+        "cs-gladden"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 22500,
+        "low": 15000,
+        "high": 30000
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "GA018",
+      "side": "US",
+      "removed_inputs": [
+        "us-lv-eff",
+        "us-lv-engaged",
+        "us-lv-pfd"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 13230,
+        "low": 9260,
+        "high": 17190
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "GA018",
+      "side": "Confederate",
+      "removed_inputs": [
+        "cs-lv-eff",
+        "cs-lv-engaged",
+        "cs-lv-pfd"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 18450,
+        "low": 12920,
+        "high": 23990
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "LA017",
+      "side": "US",
+      "removed_inputs": [
+        "us-irwin-9000"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 9000,
+        "low": 6300,
+        "high": 11700
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "LA021",
+      "side": "US",
+      "removed_inputs": [
+        "us-taylor-est"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 11250,
+        "low": 7500,
+        "high": 15000
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "MS003",
+      "side": "Confederate",
+      "removed_inputs": [
+        "cs-lv"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 13790,
+        "low": 9650,
+        "high": 17930
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "MS011",
+      "side": "US",
+      "removed_inputs": [
+        "us-greene-june30",
+        "us-greene-may22",
+        "us-lv-assault"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 71140,
+        "low": 49800,
+        "high": 92480
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "NC007",
+      "side": "US",
+      "removed_inputs": [
+        "us-smith-est"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 22500,
+        "low": 15000,
+        "high": 30000
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "TN002",
+      "side": "US",
+      "removed_inputs": [
+        "us-final",
+        "us-lv"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 27000,
+        "low": 18900,
+        "high": 35100
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "TN024",
+      "side": "Confederate",
+      "removed_inputs": [
+        "cs-lv"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 44010,
+        "low": 30810,
+        "high": 57210
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "VA017",
+      "side": "Confederate",
+      "removed_inputs": [
+        "cs-cw",
+        "cs-lv",
+        "cs-nps"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 57020,
+        "low": 39910,
+        "high": 74120
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "VA070",
+      "side": "US",
+      "removed_inputs": [
+        "us-lv",
+        "us-lv-eff"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 20710,
+        "low": 14500,
+        "high": 26920
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "VA071",
+      "side": "US",
+      "removed_inputs": [
+        "us-lv-eff",
+        "us-lv-pfd"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 27970,
+        "low": 19580,
+        "high": 36370
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "VA071",
+      "side": "Confederate",
+      "removed_inputs": [
+        "cs-lv"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 20010,
+        "low": 14010,
+        "high": 26010
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "VA072",
+      "side": "US",
+      "removed_inputs": [
+        "us-lv"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 20290,
+        "low": 14200,
+        "high": 26380
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "VA075",
+      "side": "US",
+      "removed_inputs": [
+        "us-lv"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 19640,
+        "low": 13750,
+        "high": 25530
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "VA075",
+      "side": "Confederate",
+      "removed_inputs": [
+        "cs-lv"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 10840,
+        "low": 7590,
+        "high": 14090
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "VA079",
+      "side": "US",
+      "removed_inputs": [
+        "us-lv"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 42820,
+        "low": 29980,
+        "high": 55670
+      },
+      "pre_start": {
+        "grade": "D",
+        "point": null,
+        "low": null,
+        "high": null,
+        "point_basis": null,
+        "method": "grade_D_no_candidate",
+        "labels": [
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "VA111",
+      "side": "US",
+      "removed_inputs": [
+        "us-vaughn-june6"
+      ],
+      "ledger": {
+        "grade": "A",
+        "point": 8500,
+        "low": 8080,
+        "high": 10000
+      },
+      "pre_start": {
+        "grade": "A",
+        "point": 8500,
+        "low": 8080,
+        "high": 8930,
+        "point_basis": "reported_engaged",
+        "method": "rule3_median",
+        "labels": [
+          "applicability_unresolved",
+          "compiled_dependence",
+          "derivation_unknown",
+          "whole_engagement_leakage"
+        ]
+      }
+    },
+    {
+      "battle_id": "WV010",
+      "side": "US",
+      "removed_inputs": [
+        "us-surrendered"
+      ],
+      "ledger": {
+        "grade": "C",
+        "point": 11000,
+        "low": 7700,
+        "high": 14950
+      },
+      "pre_start": {
+        "grade": "C",
+        "point": 11500,
+        "low": 8050,
+        "high": 14950,
+        "point_basis": "unknown",
+        "method": "rule3_median",
+        "labels": [
+          "basis_mixed",
+          "partial_completed",
+          "single_input",
+          "whole_engagement_leakage"
+        ]
+      }
+    }
+  ],
+  "sides": [
+    {
+      "battle_id": "AL001",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "brigade",
+        "ledger_echelon": "brigade",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 7.7462796761906825,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 350.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-jp-roddy"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2390,
+      "low": 750,
+      "high": 8260,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "AL003",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "flotilla",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 8.538185967303152,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 5110,
+      "low": 1450,
+      "high": 17960,
+      "labels": [
+        "echelon_basis",
+        "joint_command_echelon_unknown",
+        "modelled_estimate",
+        "naval_side"
+      ]
+    },
+    {
+      "battle_id": "AL003",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "flotilla",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 8.26002273652863,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 400.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-page-garrison"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 3920,
+      "low": 1160,
+      "high": 13680,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "joint_command_echelon_unknown",
+        "modelled_estimate",
+        "naval_side"
+      ]
+    },
+    {
+      "battle_id": "AL005",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 7.202659675688029,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 950.0,
+      "upper_bound": 2000.0,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-thomas",
+          "cs-gibson-bde"
+        ],
+        "upper": [
+          "cs-gibson-cap"
+        ]
+      },
+      "set_aside_inputs": [],
+      "point": 1380,
+      "low": 1030,
+      "high": 1850,
+      "labels": [
+        "bounded_lower",
+        "bounded_upper",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "AR002",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "regiment",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.577234964297097,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-hind-inf",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        }
+      ],
+      "point": 1950,
+      "low": 560,
+      "high": 6870,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "joint_command_echelon_unknown",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "AR003",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "brigade",
+        "ledger_echelon": "brigade",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.006438360636108,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 200.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-cav-200"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-recon",
+          "bound": null,
+          "reason": "no bound direction"
+        },
+        {
+          "input": "us-loyal",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 1160,
+      "low": 380,
+      "high": 3970,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "AR009",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1863",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.728002201556606,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-cabell-2300",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        },
+        {
+          "input": "us-cabell-1500",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        }
+      ],
+      "point": 2270,
+      "low": 650,
+      "high": 7990,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "AR012",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.392785427459044,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 1200.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-price-1200"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2640,
+      "low": 1400,
+      "high": 7340,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "AR013",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 9.13683543387788,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 5000.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-britton-thayer"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-price-thayer",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        },
+        {
+          "input": "us-price-rearguard",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        }
+      ],
+      "point": 12930,
+      "low": 6160,
+      "high": 38520,
+      "labels": [
+        "bound_not_applied",
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "AR013",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 8.85867220310336,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 1000.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-gano",
+          "cs-walker"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 7240,
+      "low": 2230,
+      "high": 25070,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "AR015",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 6.613585597392964,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 400.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-britton-cav"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-price-cav",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        }
+      ],
+      "point": 1040,
+      "low": 490,
+      "high": 3090,
+      "labels": [
+        "bound_not_applied",
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "AR015",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.551657464415923,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 4000.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-britton"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 6270,
+      "low": 4320,
+      "high": 13620,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "AR017",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.8298206951904445,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-greene-inf",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        },
+        {
+          "input": "us-greene-cav",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        }
+      ],
+      "point": 2510,
+      "low": 720,
+      "high": 8840,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "AR017",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "brigade",
+        "ledger_echelon": "brigade",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 6.821988823798055,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": 600.0,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": [
+          "cs-greene-cap"
+        ]
+      },
+      "set_aside_inputs": [],
+      "point": 350,
+      "low": 150,
+      "high": 550,
+      "labels": [
+        "bounded_upper",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "DC001",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 9.928254230874987,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 2500.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-early-breckinridge"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-early-infantry",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 20910,
+      "low": 6290,
+      "high": 72750,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "FL002",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "flotilla",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 7.660358541279559,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 20.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-launch-20"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2120,
+      "low": 600,
+      "high": 7460,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate",
+        "naval_side"
+      ]
+    },
+    {
+      "battle_id": "FL002",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 6.324832249664437,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 18.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-boat-18"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 560,
+      "low": 160,
+      "high": 1960,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "FL003",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 6.324832249664437,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 110.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-cav-110"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-brannan-1200",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        },
+        {
+          "input": "cs-hopkins-500",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 590,
+      "low": 200,
+      "high": 2020,
+      "labels": [
+        "bound_not_applied",
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "FL004",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "flotilla",
+        "side": "US",
+        "period": "1863",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 7.811125778539068,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 100.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-landing"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-westcott-est",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 2470,
+      "low": 700,
+      "high": 8680,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate",
+        "naval_side"
+      ]
+    },
+    {
+      "battle_id": "FL004",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 6.475599486923946,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 650,
+      "low": 180,
+      "high": 2280,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "GA001",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 6.602995480438959,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 740,
+      "low": 210,
+      "high": 2590,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "GA002",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "flotilla",
+        "side": "US",
+        "period": "1863",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 7.811125778539068,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2470,
+      "low": 700,
+      "high": 8680,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "naval_side"
+      ]
+    },
+    {
+      "battle_id": "GA002",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 6.475599486923946,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 650,
+      "low": 180,
+      "high": 2280,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "GA006",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 10.004072742947468,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 22120,
+      "low": 6290,
+      "high": 77770,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "GA006",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 9.725909512172947,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-johnston-inf",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        },
+        {
+          "input": "cs-johnston-cav",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        }
+      ],
+      "point": 16750,
+      "low": 4760,
+      "high": 58890,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "GA009",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 10.004072742947468,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 22120,
+      "low": 6290,
+      "high": 77770,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "GA009",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 9.725909512172947,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 4072.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-jackson-men"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 18360,
+      "low": 6500,
+      "high": 61480,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "GA010",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 10.004072742947468,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 22120,
+      "low": 6290,
+      "high": 77770,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "GA010",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 9.725909512172947,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 2200.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-quarles"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 17150,
+      "low": 5220,
+      "high": 59530,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "GA012",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 9.299647437991334,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 10930,
+      "low": 3110,
+      "high": 38450,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "GA012",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 8.41889477348551,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 4683.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-cleburne-muskets"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 8970,
+      "low": 5280,
+      "high": 23060,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "GA014",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 8.538185967303152,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 5110,
+      "low": 1450,
+      "high": 17960,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "GA014",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 9.021484207216814,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 8280,
+      "low": 2350,
+      "high": 29110,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "GA018",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 10.004072742947468,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 1000.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-logan-reinf"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 22140,
+      "low": 6310,
+      "high": 77810,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "GA018",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 9.725909512172947,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 16750,
+      "low": 4760,
+      "high": 58890,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "GA026",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 9.021484207216814,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 1200.0,
+      "upper_bound": 3500.0,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-wheeler-crossed"
+        ],
+        "upper": [
+          "cs-wheeler-max"
+        ]
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-wheeler-immediate",
+          "bound": "upper",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        }
+      ],
+      "point": 2450,
+      "low": 1500,
+      "high": 3290,
+      "labels": [
+        "bound_not_applied",
+        "bounded_lower",
+        "bounded_upper",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "GA027",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 8.69705800426003,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 5990,
+      "low": 1700,
+      "high": 21050,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "GA027",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 9.021484207216814,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 8280,
+      "low": 2350,
+      "high": 29110,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "KS001",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1863",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.728002201556606,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2270,
+      "low": 650,
+      "high": 7990,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "KS002",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "US",
+        "period": "1863",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 6.670639140716005,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 100.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-escort"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-quantrill-escort",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 810,
+      "low": 240,
+      "high": 2800,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "KS004",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.8298206951904445,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2510,
+      "low": 720,
+      "high": 8840,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "KS004",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.392785427459044,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1620,
+      "low": 460,
+      "high": 5710,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "KY005",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "brigade",
+        "ledger_echelon": "brigade",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Western"
+      },
+      "mu_log": 7.873675669705694,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-left",
+          "us-reinf"
+        ],
+        "upper": [
+          "us-engaged-max"
+        ]
+      },
+      "set_aside_inputs": [],
+      "point": 2630,
+      "low": 750,
+      "high": 9240,
+      "labels": [
+        "bound_conflict",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "KY008",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Western"
+      },
+      "mu_log": 7.387109212526083,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1620,
+      "low": 460,
+      "high": 5680,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "KY008",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Western"
+      },
+      "mu_log": 8.166309042592163,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 3520,
+      "low": 1000,
+      "high": 12380,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "KY011",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 7.48082290646255,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 2400.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-nps-garis",
+          "us-nps-hobson",
+          "us-nps-burbridge",
+          "us-burbridge"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-morgan-hobson",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 4210,
+      "low": 2650,
+      "high": 10130,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "LA001",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "flotilla",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 7.660358541279559,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2120,
+      "low": 600,
+      "high": 7460,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "naval_side"
+      ]
+    },
+    {
+      "battle_id": "LA002",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "flotilla",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 7.660358541279559,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 250.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-marines-250"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2160,
+      "low": 650,
+      "high": 7530,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "joint_command_echelon_unknown",
+        "modelled_estimate",
+        "naval_side"
+      ]
+    },
+    {
+      "battle_id": "LA004",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "flotilla",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 7.660358541279559,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2120,
+      "low": 600,
+      "high": 7460,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "naval_side"
+      ]
+    },
+    {
+      "battle_id": "LA004",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 7.382195310505039,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1610,
+      "low": 460,
+      "high": 5650,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "LA007",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 8.998849323408864,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-irwin-charge",
+          "bound": null,
+          "reason": "no bound direction"
+        },
+        {
+          "input": "cs-taylor-charge",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 8090,
+      "low": 2300,
+      "high": 28460,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "LA008",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "US",
+        "period": "1863",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 7.969997815495948,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2890,
+      "low": 820,
+      "high": 10170,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "LA008",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 8.998849323408864,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 8090,
+      "low": 2300,
+      "high": 28460,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "LA009",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "US",
+        "period": "1863",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 7.969997815495948,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2890,
+      "low": 820,
+      "high": 10170,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "LA009",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 6.475599486923946,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 400.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-miles",
+          "cs-irwin-miles"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 960,
+      "low": 480,
+      "high": 2780,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "LA012",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "brigade",
+        "ledger_echelon": "brigade",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 6.962165944103559,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 206.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-pyron"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-stickney-est",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        }
+      ],
+      "point": 1120,
+      "low": 370,
+      "high": 3820,
+      "labels": [
+        "bound_not_applied",
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "LA015",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1863",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 7.811125778539068,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2470,
+      "low": 700,
+      "high": 8680,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "LA015",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 7.532962547764548,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-major-800",
+          "bound": null,
+          "reason": "no bound direction"
+        },
+        {
+          "input": "cs-green-750",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 1870,
+      "low": 530,
+      "high": 6570,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "LA016",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 7.532962547764548,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1870,
+      "low": 530,
+      "high": 6570,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "LA017",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 8.432410128921747,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 4590,
+      "low": 1310,
+      "high": 16150,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "LA020",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.670948658233565,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2150,
+      "low": 610,
+      "high": 7540,
+      "labels": [
+        "echelon_basis",
+        "joint_command_echelon_unknown",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "LA020",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.392785427459044,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1620,
+      "low": 460,
+      "high": 5710,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "LA021",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.670948658233565,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2150,
+      "low": 610,
+      "high": 7540,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "LA021",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.392785427459044,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1620,
+      "low": 460,
+      "high": 5710,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "LA022",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 8.85867220310336,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-taylor-6000",
+          "bound": "upper",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        }
+      ],
+      "point": 7040,
+      "low": 2000,
+      "high": 24740,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MO012",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "army",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Western"
+      },
+      "mu_log": 8.444472273366683,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 4650,
+      "low": 1320,
+      "high": 16350,
+      "labels": [
+        "echelon_basis",
+        "joint_command_echelon_unknown",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MO012",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Western"
+      },
+      "mu_log": 7.108945981751561,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1220,
+      "low": 350,
+      "high": 4300,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MO022",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.392785427459044,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 500.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-price-jackman"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-britton-clark",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        }
+      ],
+      "point": 1870,
+      "low": 720,
+      "high": 6110,
+      "labels": [
+        "bound_not_applied",
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MO023",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 8.85867220310336,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-price-12000",
+          "bound": "upper",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        }
+      ],
+      "point": 7040,
+      "low": 2000,
+      "high": 24740,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MO024",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 9.13683543387788,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-nps-2000",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 9290,
+      "low": 2640,
+      "high": 32670,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MO024",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 8.85867220310336,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 150.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-price-greene"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 7040,
+      "low": 2000,
+      "high": 24740,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MO025",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.8298206951904445,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2510,
+      "low": 720,
+      "high": 8840,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MO025",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.551657464415923,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1900,
+      "low": 540,
+      "high": 6700,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MO026",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.8298206951904445,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-price-6000",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        }
+      ],
+      "point": 2510,
+      "low": 720,
+      "high": 8840,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MO026",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.551657464415923,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1900,
+      "low": 540,
+      "high": 6700,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MO028",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 6.613585597392964,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 750,
+      "low": 210,
+      "high": 2620,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MO028",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 8.85867220310336,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 7040,
+      "low": 2000,
+      "high": 24740,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MO029",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 8.85867220310336,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 7040,
+      "low": 2000,
+      "high": 24740,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MS003",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Western"
+      },
+      "mu_log": 8.166309042592163,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 12000.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-greene",
+          "cs-greene-garrison"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 17220,
+      "low": 12730,
+      "high": 33810,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "MS004",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "flotilla",
+        "side": "US",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.595239510626191,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 5410,
+      "low": 1540,
+      "high": 19010,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "naval_side"
+      ]
+    },
+    {
+      "battle_id": "MS005",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "US",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 9.356700981314376,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 11580,
+      "low": 3290,
+      "high": 40710,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MS005",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.31707627985167,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 4090,
+      "low": 1160,
+      "high": 14390,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MS010",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "US",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 9.356700981314376,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 11580,
+      "low": 3290,
+      "high": 40710,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "MS011",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "US",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 10.06112628627051,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 23410,
+      "low": 6660,
+      "high": 82340,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "MS012",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 9.725909512172947,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-sherman-loring",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        },
+        {
+          "input": "cs-sherman-french-3000",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        },
+        {
+          "input": "cs-sherman-french-5000",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        },
+        {
+          "input": "cs-sherman-lee",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        },
+        {
+          "input": "cs-polk-9000",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        }
+      ],
+      "point": 16750,
+      "low": 4760,
+      "high": 58890,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "NC001",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "flotilla",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.646816992068725,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 2000.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-cw",
+          "us-nps",
+          "us-cws2"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-cwss",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 6790,
+      "low": 2750,
+      "high": 21790,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "joint_command_echelon_unknown",
+        "modelled_estimate",
+        "naval_side"
+      ]
+    },
+    {
+      "battle_id": "NC004",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.646816992068725,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 5690,
+      "low": 1620,
+      "high": 20020,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "NC006",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 7.589453931228124,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1980,
+      "low": 560,
+      "high": 6950,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "NC006",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "regiment",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.368653761294203,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 4310,
+      "low": 1230,
+      "high": 15160,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "NC007",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.646816992068725,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 10000.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-foster-inf"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 16330,
+      "low": 10880,
+      "high": 36960,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "NC009",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.646816992068725,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-smith-est",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        }
+      ],
+      "point": 5690,
+      "low": 1620,
+      "high": 20020,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "NC009",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "brigade",
+        "ledger_echelon": "brigade",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 7.7978571576332145,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2440,
+      "low": 690,
+      "high": 8560,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "NC010",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "US",
+        "period": "1863",
+        "theater": "Eastern"
+      },
+      "mu_log": 7.740221168487633,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2300,
+      "low": 650,
+      "high": 8080,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "NC012",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 7.683167625164591,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 450.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-16ct",
+          "us-85ny",
+          "us-101pa",
+          "us-103pa"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2320,
+      "low": 780,
+      "high": 7880,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "NC012",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.62123949218755,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 5550,
+      "low": 1580,
+      "high": 19510,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "NC014",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "army",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.740530686005192,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 1200.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-brigade"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-butler",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        }
+      ],
+      "point": 6620,
+      "low": 2180,
+      "high": 22570,
+      "labels": [
+        "bound_not_applied",
+        "bounded_lower",
+        "echelon_basis",
+        "joint_command_echelon_unknown",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "NC014",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 7.40500439439007,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-butler-hearsay",
+          "bound": "upper",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        }
+      ],
+      "point": 1640,
+      "low": 470,
+      "high": 5780,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "OK004",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.736107001253977,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-2kansas",
+          "bound": null,
+          "reason": "no bound direction"
+        },
+        {
+          "input": "us-cooper-5000",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        }
+      ],
+      "point": 2290,
+      "low": 650,
+      "high": 8050,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "OK005",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.392785427459044,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1620,
+      "low": 460,
+      "high": 5710,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "OK006",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1863",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.728002201556606,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 600.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-foreman"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-williams-column",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 2530,
+      "low": 920,
+      "high": 8400,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "SC003",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 6.602995480438959,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 70.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-planter-70"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 740,
+      "low": 220,
+      "high": 2600,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "SC003",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 6.324832249664437,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 560,
+      "low": 160,
+      "high": 1960,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "SC004",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 6.475599486923946,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 650,
+      "low": 180,
+      "high": 2280,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "SC009",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Lower Seaboard"
+      },
+      "mu_log": 8.998849323408864,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 205.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-sumter"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 8090,
+      "low": 2300,
+      "high": 28460,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN002",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "army",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Western"
+      },
+      "mu_log": 8.444472273366683,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 15000.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-start"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 21710,
+      "low": 15940,
+      "high": 43090,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "joint_command_echelon_unknown",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "TN004",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Western"
+      },
+      "mu_log": 8.444472273366683,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 4650,
+      "low": 1320,
+      "high": 16350,
+      "labels": [
+        "echelon_basis",
+        "joint_command_echelon_unknown",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN004",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "flotilla",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Western"
+      },
+      "mu_log": 8.166309042592163,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 3520,
+      "low": 1000,
+      "high": 12380,
+      "labels": [
+        "echelon_basis",
+        "joint_command_echelon_unknown",
+        "modelled_estimate",
+        "naval_side"
+      ]
+    },
+    {
+      "battle_id": "TN005",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Western"
+      },
+      "mu_log": 8.603344310323562,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 5450,
+      "low": 1550,
+      "high": 19160,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN005",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Western"
+      },
+      "mu_log": 7.108945981751561,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1220,
+      "low": 350,
+      "high": 4300,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN007",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Western"
+      },
+      "mu_log": 7.387109212526083,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1620,
+      "low": 460,
+      "high": 5680,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN007",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Western"
+      },
+      "mu_log": 9.632195818236479,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 15250,
+      "low": 4340,
+      "high": 53620,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN009",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Western"
+      },
+      "mu_log": 7.387109212526083,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1620,
+      "low": 460,
+      "high": 5680,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN011",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Western"
+      },
+      "mu_log": 8.166309042592163,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": 1200.0,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": [
+          "cs-jp-cap",
+          "cs-jp-cap2"
+        ]
+      },
+      "set_aside_inputs": [],
+      "point": 820,
+      "low": 400,
+      "high": 1130,
+      "labels": [
+        "bounded_upper",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN013",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "brigade",
+        "ledger_echelon": "brigade",
+        "side": "US",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.024442906965204,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 600.0,
+      "upper_bound": 3000.0,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-jp-cav"
+        ],
+        "upper": [
+          "us-cist-cap"
+        ]
+      },
+      "set_aside_inputs": [],
+      "point": 1680,
+      "low": 830,
+      "high": 2690,
+      "labels": [
+        "bounded_lower",
+        "bounded_upper",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN015",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.31707627985167,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 4090,
+      "low": 1160,
+      "high": 14390,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN016",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.595239510626191,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 5410,
+      "low": 1540,
+      "high": 19010,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN016",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.31707627985167,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 4090,
+      "low": 1160,
+      "high": 14390,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN017",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "US",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 9.356700981314376,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 11580,
+      "low": 3290,
+      "high": 40710,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN017",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 7.25971321901107,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 650.0,
+      "upper_bound": 700.0,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-bate-engaged"
+        ],
+        "upper": [
+          "cs-bate-cap"
+        ]
+      },
+      "set_aside_inputs": [],
+      "point": 670,
+      "low": 650,
+      "high": 690,
+      "labels": [
+        "bounded_lower",
+        "bounded_upper",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN018",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "brigade",
+        "ledger_echelon": "brigade",
+        "side": "US",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.024442906965204,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 3050,
+      "low": 870,
+      "high": 10740,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN018",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.31707627985167,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 4090,
+      "low": 1160,
+      "high": 14390,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN019",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.595239510626191,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-jones",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 5410,
+      "low": 1540,
+      "high": 19010,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN020",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.595239510626191,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-williams",
+          "bound": "upper",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        },
+        {
+          "input": "us-williams-min",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        },
+        {
+          "input": "us-ninth-corps",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        }
+      ],
+      "point": 5410,
+      "low": 1540,
+      "high": 19010,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN020",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.31707627985167,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 4090,
+      "low": 1160,
+      "high": 14390,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN021",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.595239510626191,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 5410,
+      "low": 1540,
+      "high": 19010,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN021",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.31707627985167,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 4090,
+      "low": 1160,
+      "high": 14390,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN023",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.595239510626191,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 5000.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-burnside"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-stevenson",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 9990,
+      "low": 5700,
+      "high": 26360,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN024",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 9.782963055495987,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 17730,
+      "low": 5040,
+      "high": 62350,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "TN026",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.31707627985167,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 4090,
+      "low": 1160,
+      "high": 14390,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN027",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1863",
+        "theater": "Western"
+      },
+      "mu_log": 8.595239510626191,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-martin-est",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 5410,
+      "low": 1540,
+      "high": 19010,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN028",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 9.299647437991334,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 10930,
+      "low": 3110,
+      "high": 38450,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN028",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 8.26002273652863,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 3870,
+      "low": 1100,
+      "high": 13600,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN029",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 9.299647437991334,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-wolford",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 10930,
+      "low": 3110,
+      "high": 38450,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN029",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 8.26002273652863,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 3870,
+      "low": 1100,
+      "high": 13600,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN034",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 10.004072742947468,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-cox-4th",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        },
+        {
+          "input": "us-cox-23rd",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        },
+        {
+          "input": "us-cox-wilson",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        }
+      ],
+      "point": 22120,
+      "low": 6290,
+      "high": 77770,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN035",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 10.004072742947468,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 22120,
+      "low": 6290,
+      "high": 77770,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TN035",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 9.725909512172947,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 16750,
+      "low": 4760,
+      "high": 58890,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TX001",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "flotilla",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.577234964297097,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1950,
+      "low": 560,
+      "high": 6870,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "naval_side"
+      ]
+    },
+    {
+      "battle_id": "TX002",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "flotilla",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.577234964297097,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1950,
+      "low": 560,
+      "high": 6870,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "naval_side"
+      ]
+    },
+    {
+      "battle_id": "TX002",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 6.241708672681975,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 510,
+      "low": 150,
+      "high": 1810,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TX003",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1863",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.728002201556606,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 2270,
+      "low": 650,
+      "high": 7990,
+      "labels": [
+        "echelon_basis",
+        "joint_command_echelon_unknown",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TX005",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 6.613585597392964,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 250.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-62nd",
+          "us-34th-indiana",
+          "us-branson-62nd"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 880,
+      "low": 350,
+      "high": 2830,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TX005",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.392785427459044,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-camp",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        },
+        {
+          "input": "cs-250",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        }
+      ],
+      "point": 1620,
+      "low": 460,
+      "high": 5710,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "TX006",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "flotilla",
+        "side": "US",
+        "period": "1863",
+        "theater": "Trans-Mississippi"
+      },
+      "mu_log": 7.728002201556606,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 700.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-inside-bar"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-landable",
+          "bound": null,
+          "reason": "no bound direction"
+        },
+        {
+          "input": "us-weitzel",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 2620,
+      "low": 1010,
+      "high": 8540,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "joint_command_echelon_unknown",
+        "modelled_estimate",
+        "naval_side"
+      ]
+    },
+    {
+      "battle_id": "VA012",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "flotilla",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.646816992068725,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 5690,
+      "low": 1620,
+      "high": 20020,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "naval_side"
+      ]
+    },
+    {
+      "battle_id": "VA012",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.368653761294203,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 4310,
+      "low": 1230,
+      "high": 15160,
+      "labels": [
+        "echelon_basis",
+        "joint_command_echelon_unknown",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA017",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 9.83454053693852,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 18670,
+      "low": 5310,
+      "high": 65640,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "VA025",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.805689029025604,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 6670,
+      "low": 1900,
+      "high": 23460,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA025",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 9.130115231982387,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 9230,
+      "low": 2620,
+      "high": 32450,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA042",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "US",
+        "period": "1863",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.956456266285112,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 3500.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-kilpatrick"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 10060,
+      "low": 4480,
+      "high": 30970,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA042",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1863",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.519420998553713,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-cavalry",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, post_start_information)"
+        }
+      ],
+      "point": 5010,
+      "low": 1430,
+      "high": 17620,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA054",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 10.206417461649508,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-hum-inf",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, post_start_information)"
+        },
+        {
+          "input": "us-kautz",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, post_start_information)"
+        },
+        {
+          "input": "us-hinks-cav",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, post_start_information)"
+        },
+        {
+          "input": "us-smith",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 27080,
+      "low": 7700,
+      "high": 95220,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA054",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 9.928254230874987,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-hum-9000",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, post_start_information)"
+        }
+      ],
+      "point": 20500,
+      "low": 5830,
+      "high": 72090,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA059",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.899402722962071,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 7330,
+      "low": 2080,
+      "high": 25770,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA069",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 9.501992156693374,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 2500.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-birge"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 14120,
+      "low": 4620,
+      "high": 48260,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA070",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 9.501992156693374,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 13390,
+      "low": 3810,
+      "high": 47070,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "VA071",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 9.501992156693374,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 13390,
+      "low": 3810,
+      "high": 47070,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "VA071",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 9.928254230874987,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 20500,
+      "low": 5830,
+      "high": 72090,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "VA072",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 9.501992156693374,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 6000.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-9corps"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 17310,
+      "low": 7690,
+      "high": 53380,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "VA075",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 10.206417461649508,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 10000.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-ord",
+          "us-birney",
+          "us-stannard"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 32800,
+      "low": 13520,
+      "high": 104400,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "VA075",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.462367455230671,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 1165.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-bratton"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 5200,
+      "low": 1850,
+      "high": 17390,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "VA076",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 7.202659675688029,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 300.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-jackson-300",
+          "cs-cws2"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-burbridge-oct7",
+          "bound": "upper",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        },
+        {
+          "input": "cs-burbridge-breck",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        },
+        {
+          "input": "cs-burbridge-oct10",
+          "bound": "upper",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        }
+      ],
+      "point": 1450,
+      "low": 500,
+      "high": 4900,
+      "labels": [
+        "bound_not_applied",
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA077",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.740530686005192,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 1700.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-kautz"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 7000,
+      "low": 2570,
+      "high": 23190,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA077",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 9.928254230874987,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 20500,
+      "low": 5830,
+      "high": 72090,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA078",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.740530686005192,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 6250,
+      "low": 1780,
+      "high": 21980,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA078",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.462367455230671,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 4730,
+      "low": 1350,
+      "high": 16640,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA079",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 9.501992156693374,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 30000.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-nps-desc",
+          "us-gregg",
+          "us-hancock",
+          "us-parke-warren"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-plan",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        }
+      ],
+      "point": 46370,
+      "low": 32280,
+      "high": 99340,
+      "labels": [
+        "bound_not_applied",
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate",
+        "post_start_modelled"
+      ]
+    },
+    {
+      "battle_id": "VA081",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 8.538185967303152,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-burbridge",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        },
+        {
+          "input": "us-gillem",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        },
+        {
+          "input": "us-breck-est",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        },
+        {
+          "input": "us-detachment",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        }
+      ],
+      "point": 5110,
+      "low": 1450,
+      "high": 17960,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA081",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Western"
+      },
+      "mu_log": 9.725909512172947,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-breck",
+          "bound": "upper",
+          "reason": "fails the rule 7 test (class C, post_start_information)"
+        }
+      ],
+      "point": 16750,
+      "low": 4760,
+      "high": 58890,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA086",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 9.501992156693374,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-cw",
+          "bound": null,
+          "reason": "no bound direction"
+        },
+        {
+          "input": "us-lv",
+          "bound": null,
+          "reason": "no bound direction"
+        },
+        {
+          "input": "us-sheridan-cav",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        },
+        {
+          "input": "us-cws2",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 13390,
+      "low": 3810,
+      "high": 47070,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA086",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 7.40500439439007,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-cw",
+          "bound": null,
+          "reason": "no bound direction"
+        },
+        {
+          "input": "cs-lv",
+          "bound": null,
+          "reason": "no bound direction"
+        },
+        {
+          "input": "cs-lees-cavalry",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        },
+        {
+          "input": "cs-pickett-infantry",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, applicability_unresolved)"
+        },
+        {
+          "input": "cs-cws2",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 1640,
+      "low": 470,
+      "high": 5780,
+      "labels": [
+        "bound_not_applied",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "VA125",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 7.40500439439007,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 30.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "cs-pollard-25",
+          "cs-mcgruder-30",
+          "cs-fox-15"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1640,
+      "low": 470,
+      "high": 5780,
+      "labels": [
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "WV002",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.805689029025604,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 6670,
+      "low": 1900,
+      "high": 23460,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "WV004",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "regiment",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.646816992068725,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 5690,
+      "low": 1620,
+      "high": 20020,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "WV005",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "brigade",
+        "ledger_echelon": "brigade",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.076020388407736,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": 300.0,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [
+          "us-reynolds-300",
+          "us-nps-300"
+        ],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "us-rust-4000-5000",
+          "bound": "lower",
+          "reason": "fails the rule 7 test (class C, opponent_or_hearsay)"
+        }
+      ],
+      "point": 3250,
+      "low": 950,
+      "high": 11360,
+      "labels": [
+        "bound_not_applied",
+        "bounded_lower",
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "WV009",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "unknown",
+        "ledger_echelon": "unknown",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.646816992068725,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 5690,
+      "low": 1620,
+      "high": 20020,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "WV009",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "army",
+        "ledger_echelon": "army",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 9.83454053693852,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 18670,
+      "low": 5310,
+      "high": 65640,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "WV013",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "division",
+        "ledger_echelon": "division",
+        "side": "US",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 8.899402722962071,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 7330,
+      "low": 2080,
+      "high": 25770,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "WV013",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1864-1865",
+        "theater": "Eastern"
+      },
+      "mu_log": 7.40500439439007,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [
+        {
+          "input": "cs-johnson-maryland",
+          "bound": null,
+          "reason": "no bound direction"
+        }
+      ],
+      "point": 1640,
+      "low": 470,
+      "high": 5780,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "WV016",
+      "side": "US",
+      "grade": "E",
+      "predictors": {
+        "echelon": "corps_or_wing",
+        "ledger_echelon": "corps_or_wing",
+        "side": "US",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 9.408278462756908,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 12190,
+      "low": 3470,
+      "high": 42860,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    },
+    {
+      "battle_id": "WV016",
+      "side": "Confederate",
+      "grade": "E",
+      "predictors": {
+        "echelon": "detachment_or_post",
+        "ledger_echelon": "detachment_or_post",
+        "side": "Confederate",
+        "period": "1861-1862",
+        "theater": "Eastern"
+      },
+      "mu_log": 7.311290700453602,
+      "sd_log": 0.9812137952370945,
+      "lower_bound": null,
+      "upper_bound": null,
+      "fixed": null,
+      "applied_bounds": {
+        "lower": [],
+        "upper": []
+      },
+      "set_aside_inputs": [],
+      "point": 1500,
+      "low": 430,
+      "high": 5260,
+      "labels": [
+        "echelon_basis",
+        "modelled_estimate"
+      ]
+    }
+  ],
+  "bindings": {
+    "docs/commander-ratings-v4.md": "70a837cd4a09223d73cc721d6b89ca367aa3208d5b9322cf8fb82cafc8a9c765",
+    "data/estimates/side-strength-v3.json": "27a2fc070c357809906e798af47643a6e69c1e7082aa240dd32673e66c21c0f0",
+    "data/command/responsibility-v2.json": "495cef30b475920c2bd02991a4a107dfb3f3079fa494d43512a216dc82da06ac",
+    "data/raw/cwsac_campaigns.csv": "93813220a72767a77a4632905d38718593d401901ae16698973e4ae8b9f555ae",
+    "data/raw/cwsac_battles.csv": "952b5d08402a7b77a42de709a87cd96540e460dd6fd4911d30574b5ad3585f1f",
+    "generalship/imputation_v2.py": "41c8887e2eafc3ccda93aa7ac586148f8d9534fdd34036251c9de136dc1ef3d9",
+    "generalship/imputation.py": "d3275c226f4a874c4c1c16d6a372cc89a5f765cf1fe4b8eaaab92e66577f99a7",
+    "generalship/frame.py": "29d523a5e9fdfc12a5f62e348ad661b34f0a75b3594dd4439dcb3365859f2515",
+    "generalship/estimates.py": "af540a924aed29b20032319b8779742c0f43e991c118ee747672bba73fc3a32f"
+  }
+}

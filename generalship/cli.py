@@ -17,8 +17,11 @@ from .command import DEFAULT_LEDGER as COMMAND_LEDGER, check as check_command
 COMMAND_LEDGER_V2 = 'data/command/responsibility-v2.json'
 from .ratings import RUNS as RATING_RUNS, rate, report_text as ratings_report
 from .ratings_v3 import rate3, report_text as ratings3_report
+from .ratings_v4 import OUTPUT as RATINGS4_OUTPUT, rate4, report_text as ratings4_report
 from .uncertainty import analyse as rating_uncertainty, report_text as uncertainty_report
 from .imputation import COMMAND as IMPUTATION_COMMAND, STRENGTH as IMPUTATION_STRENGTH, build as build_imputation
+from .imputation_v2 import OUTPUT as IMPUTATION_V2_OUTPUT, build as build_imputation_v2
+from .frame import CIVIL_WAR
 from .dataset import build_dataset
 from .evidence import validate_all
 from .audit import AUDIT, AuditError, check_audit, report_text as audit_report, review_index
@@ -220,9 +223,13 @@ def main(argv=None):
     est_parser = sub.add_parser('estimate-check', help='Replay the best-estimate side-strength ledger; never fits or promotes')
     est_parser.add_argument('--ledger', default=DEFAULT_LEDGER, help='Ledger path; version-2 and version-3 ledgers are replayed by their own checkers')
     rat_parser = sub.add_parser('commander-ratings', help='Owner-authorized residual ratings (design §7); never changes the baseline')
-    rat_parser.add_argument('--version', type=int, default=1, choices=(1, 2, 3),
-                            help='Run 1 (cohort v1 ledgers), 2 (cohort v2 ledgers) or 3 (all battles with grade E strengths)')
-    sub.add_parser('strength-imputation', help='Fit the grade E strength model and write artifacts/strength-imputation-v1.json')
+    rat_parser.add_argument('--version', type=int, default=1, choices=(1, 2, 3, 4),
+                            help='Run 1 (cohort v1 ledgers), 2 (cohort v2 ledgers), 3 (all battles with grade E strengths) '
+                                 'or 4 (context comparator, estimated tau, leakage handling)')
+    imp_parser = sub.add_parser('strength-imputation', help='Fit the grade E strength model and write its output')
+    imp_parser.add_argument('--version', type=int, default=1, choices=(1, 2),
+                            help='1: v2 ledger (run 3), artifacts/strength-imputation-v1.json; 2: v3 ledger with the '
+                                 'pre-start view (run 4), artifacts/strength-imputation-v2.json')
     unc_parser = sub.add_parser('rating-uncertainty', help="Bootstrap a committed rating run's held-out verdict; refits nothing")
     unc_parser.add_argument('--version', type=int, default=3, choices=(2, 3), help='Rating run to analyse')
     cmd_parser = sub.add_parser('command-check', help='Replay the command-responsibility ledger checks; never rates anyone')
@@ -251,7 +258,10 @@ def main(argv=None):
             with bound_view(root, args.ledger) as replay_root:
                 result = {1: check_estimates, 2: check_estimates_v2, 3: check_estimates_v3}[version](replay_root, args.ledger)
         elif args.command == 'commander-ratings':
-            if args.version == 3:
+            if args.version == 4:
+                ratings, out = rate4(root), RATINGS4_OUTPUT
+                text = ratings4_report(ratings)
+            elif args.version == 3:
                 ratings, out, text = rate3(root), 'artifacts/commander-ratings-v3', None
                 text = ratings3_report(ratings)
             else:
@@ -260,7 +270,8 @@ def main(argv=None):
                 text = ratings_report(ratings)
             write_json(root / f'{out}.json', ratings)
             (root / f'{out}.md').write_text(text, encoding='utf-8')
-            result = {'heldout_improved': ratings['heldout_test']['improved'], 'outputs': [f'{out}.json', f'{out}.md']}
+            improved = ratings['verdict']['improved'] if args.version == 4 else ratings['heldout_test']['improved']
+            result = {'heldout_improved': improved, 'outputs': [f'{out}.json', f'{out}.md']}
         elif args.command == 'rating-uncertainty':
             analysis = rating_uncertainty(root, args.version)
             out = f'artifacts/commander-ratings-v{args.version}-uncertainty'
@@ -269,6 +280,17 @@ def main(argv=None):
             result = {'point': analysis['point'], 'bootstrap_95': {w: [analysis['bootstrap'][w]['q0.025'], analysis['bootstrap'][w]['q0.975']]
                                                                 for w in ('battle_weighted', 'campaign_weighted')},
                       'outputs': [f'{out}.json', f'{out}.md']}
+        elif args.command == 'strength-imputation' and args.version == 2:
+            with bound_view(root, CIVIL_WAR['strength_ledger'], CIVIL_WAR['command_ledger']) as replay_root:
+                check_estimates_v3(replay_root, CIVIL_WAR['strength_ledger'])
+                check_command(replay_root, CIVIL_WAR['command_ledger'])
+            imputation = build_imputation_v2(root, CIVIL_WAR)
+            write_json(root / IMPUTATION_V2_OUTPUT, imputation)
+            result = {'grade_E_sides': len(imputation['sides']), 'by_reason': {
+                          'grade_D': sum('post_start_modelled' not in s['labels'] for s in imputation['sides']),
+                          'post_start': sum('post_start_modelled' in s['labels'] for s in imputation['sides'])},
+                      'k': imputation['model']['k'], 'loo_coverage_80': imputation['model']['loo_coverage_80'],
+                      'output': IMPUTATION_V2_OUTPUT}
         elif args.command == 'strength-imputation':
             with bound_view(root, IMPUTATION_STRENGTH, IMPUTATION_COMMAND) as replay_root:
                 imputation = build_imputation(replay_root)  # frozen impute replays both ledgers

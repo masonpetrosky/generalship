@@ -1,0 +1,83 @@
+{
+  "kind": "commander_rating_authorization",
+  "schema_version": 2,
+  "run_version": 4,
+  "decision_date": "2026-10-06",
+  "question_put_to_owner": {
+    "timestamp": "2026-10-06T12:52:26.442Z",
+    "items": [
+      "**1. Run 3's verdict is fragile, and its uncertainty isn't reported.**\n- I resampled whole campaigns from the stored held-out predictions (no refit):\n  - **Battle-weighted:** gain 0.0121, 95% interval 0.0003 to 0.0241.\n  - **Campaign-weighted:** gain 0.0065, 95% interval −0.0104 to 0.0222, so zero is inside.\n  - **By campaign:** commanders did better in 61 of 108 campaigns (sign test p ≈ 0.21).\n- **The gain is concentrated.** Forrest's 12 rows carry 38% of it. Without Forrest's and Grant's rows it falls to 0.0046 and 0.0024.\n- **Most of the campaign-weighted margin comes from rows that may leak.** The reviewer reran run 3 without the 17 rows whose strength comes from after the battle started (run 2 excluded these), and without the commanders that rule 5 picks as \"the force compelling the result\", which depends on the outcome. The gain fell to 0.0086 (battle-weighted) and 0.0007 (campaign-weighted).\n- **Modelled strengths don't leak.** Refitting the grade E model separately for each held-out campaign changed nothing.\n- **Fix before the Napoleonic run,** so that run counts as a confirmatory test:\n  - exclude those rows from the test;\n  - report the interval above and a check that drops one commander at a time;\n  - add a comparison model with side × theater × period effects instead of commanders;\n  - estimate the commander spread (τ) rather than fixing it at 0.5. The ratings correlate 0.99 with each commander's raw residual sum, and τ is the direct answer to whether commanders differ at all.",
+      "**8. Before starting the Napoleonic Wars:**\n- **Make the code work for any war.** `SIDES` is defined four times, `'Union'` is compared in seven places, and every commander has one fixed side, which breaks for coalitions. Run 3's held-out scoring, temporal split and report have no tests.\n- **Decide which dossier dimensions will feed a model.** Today only strength and responsibility do. Researching just those, and perhaps posture and fortification, would cut research cost per battle.\n- **Bodart is digitized** on Internet Archive (I haven't opened the scans). On the 66 Civil War sides Arnold links to your ledger, Bodart is within 25% on 42 but off by more than 2× on 7, mostly because it reports whole armies rather than forces engaged. That's cheap evidence for scoping decision 1."
+    ],
+    "closing": "Items 1–3 need a versioned design and your authorization.",
+    "note": "Items 1 and 8 of an eight-item list, verbatim from the author's chat message; items 2–7 are recorded elsewhere."
+  },
+  "owner_response": {
+    "quote": "Sounds good, go ahead and fix all 8",
+    "timestamp": "2026-10-06T13:31:42.401Z"
+  },
+  "owner_policy_same_day": [
+    {
+      "quote": "You don't need separate Opus designs and reviews. Just do it yourself.",
+      "timestamp": "2026-10-06T13:36:51.755Z"
+    },
+    {
+      "quote": "Make that a standing repo policy. Just do thinks the correct way the first time",
+      "timestamp": "2026-10-06T13:37:16.078Z"
+    }
+  ],
+  "how_bound": "The owner approved the plan, not specific hashes. The primary agent bound the files and code below when the design was fixed, after tests on synthetic data and a smoke test with shuffled outcomes and before run 4 computed any held-out result on the real outcomes. The run refuses to start if any differs.",
+  "deviation_from_proposal": "The proposal said to exclude the post-start and rule-5 rows from the test. The design keeps the battles and removes the outcome-dependent information instead (pre-start strength view; no commander term for rule-5 sides), following the owner's 2026-09-25 decision against omitting battles, and reports the exclusion as a check (design §§2, 7).",
+  "recorded_by": "primary agent (Claude Opus 5.5), from the owner's chat in this session",
+  "files": {
+    "design": {
+      "path": "docs/commander-ratings-v4.md",
+      "sha256": "70a837cd4a09223d73cc721d6b89ca367aa3208d5b9322cf8fb82cafc8a9c765"
+    },
+    "imputation": {
+      "path": "artifacts/strength-imputation-v2.json",
+      "sha256": "95b0a34cd0a8e0f83cfcbe604250860da5f998946b9374bf7df7aa27f78213ec"
+    },
+    "strength_ledger": {
+      "path": "data/estimates/side-strength-v3.json",
+      "sha256": "27a2fc070c357809906e798af47643a6e69c1e7082aa240dd32673e66c21c0f0"
+    },
+    "command_ledger": {
+      "path": "data/command/responsibility-v2.json",
+      "sha256": "495cef30b475920c2bd02991a4a107dfb3f3079fa494d43512a216dc82da06ac"
+    },
+    "registry": {
+      "path": "data/command/commanders-v2.json",
+      "sha256": "91fc25260c8370a64b7599940dec22c7640efac8b497dc6ae99ff6eeb45e3768"
+    },
+    "campaigns": {
+      "path": "data/raw/cwsac_campaigns.csv",
+      "sha256": "93813220a72767a77a4632905d38718593d401901ae16698973e4ae8b9f555ae"
+    },
+    "battles": {
+      "path": "data/raw/cwsac_battles.csv",
+      "sha256": "952b5d08402a7b77a42de709a87cd96540e460dd6fd4911d30574b5ad3585f1f"
+    }
+  },
+  "code": {
+    "generalship/__init__.py": "be4016ab30995b114c67537b324becf422ee5fc9bdfceda065336156a2ab3741",
+    "generalship/baseline.py": "731d9ad96dc85ca8f69bd7689e7ec64d9a1917b1a4b9d45c9c55b37348d42179",
+    "generalship/command.py": "58ffe17ebc42cc3d2ec5950e55d56a243caf662460df86059c845ade62ef6954",
+    "generalship/dataset.py": "aef68018c6fc856d997c796fca908d5e8877e8cc02ef2c40c44fb7e9e36f1ac5",
+    "generalship/estimates.py": "af540a924aed29b20032319b8779742c0f43e991c118ee747672bba73fc3a32f",
+    "generalship/estimates_v2.py": "368c5052b2bc25215357616331dad5951b281d2f537a010e9c7d1948e18c943a",
+    "generalship/estimates_v3.py": "6bd9a626748bb044a3a1a9a9c72b51f0a7f49a2223fc6b849d2b34d9e8f934c4",
+    "generalship/evidence.py": "8d8a385a39d579ad39967acab48caad21cbadaff46150cb1a5c03ed7c1efa20f",
+    "generalship/frame.py": "29d523a5e9fdfc12a5f62e348ad661b34f0a75b3594dd4439dcb3365859f2515",
+    "generalship/imputation.py": "d3275c226f4a874c4c1c16d6a372cc89a5f765cf1fe4b8eaaab92e66577f99a7",
+    "generalship/imputation_v2.py": "41c8887e2eafc3ccda93aa7ac586148f8d9534fdd34036251c9de136dc1ef3d9",
+    "generalship/parallel.py": "6f059da9aaae9603d3cc6711a9f409472f198512deaaa095e82c44018d3c6c8b",
+    "generalship/ratings.py": "c1b1fe93f5103d3a313a808cfa220027a0944eb1febde6b636bf848ef4d1f002",
+    "generalship/ratings_v4.py": "24351065f4efebfcbcdc9c94a16501330af1d74dc25451cf6060a69c1f10e2a7",
+    "generalship/replay.py": "21c48fbb3cb42a722801e5d9f6e9181589652d2627474fb4bb7905959ef268f4",
+    "generalship/sources.py": "98df0d690b2a2c9e0ac4c55c4ad8e496c28ad26e6054f1053097cd7ebefe6ab4",
+    "generalship/uncertainty.py": "9aba1566110739896ccc44ae11010891e124d0612c3993d48c4a819adc40b319"
+  },
+  "admits_feature": false,
+  "changes_baseline": false
+}
