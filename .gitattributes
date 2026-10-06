@@ -1,3 +1,4 @@
 * text=auto eol=lf
-# Archived inputs are checksum-bound, including upstream CRLF and whitespace.
-data/raw/** -text -whitespace
+# Archived inputs are checksum-bound, including upstream CRLF and whitespace. They are retained
+# source snapshots, not project code, so GitHub's language statistics leave them out.
+data/raw/** -text -whitespace linguist-vendored

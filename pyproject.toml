@@ -4,11 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "generalship"
-version = "0.1.0"
+version = "0.2.0"
 description = "Evidence-first historical command research and reproducible battle baselines"
 requires-python = ">=3.11"
 license = "MIT"
 dependencies = []
+
+[project.urls]
+Repository = "https://github.com/masonpetrosky/generalship"
 
 [project.scripts]
 generalship = "generalship.cli:main"
