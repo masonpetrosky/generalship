@@ -24,10 +24,10 @@ As of 2026-10-06:
   384 engagements in 119 campaign groups, 1861–1865. No inclusion rule depends on outcome,
   commander reputation or available force figures. Every engagement has a draft evidence
   dossier ([coverage table](artifacts/pilot-report.md#draft-evidence-dossiers)).
-- **Reviewed model inputs.** Versioned ledgers grade each side's strength evidence and name one
-  responsible commander per side for the 305 in-scope engagements
-  ([record](docs/research/ledgers-v2.md)); [strength ledger v3](docs/ledgers-v3.md) fills 99 more
-  sides from pinned upstream tables. The other 79 engagements are inconclusive, aggregate records,
+- **Model inputs.** Separately reviewed v2 ledgers grade each side's strength evidence and name
+  one responsible commander per side for the 305 in-scope engagements
+  ([record](docs/research/ledgers-v2.md)). The primary-verified [strength ledger v3](docs/ledgers-v3.md)
+  fills 99 more sides from pinned upstream tables. The other 79 engagements are inconclusive, aggregate records,
   or involve a Native American belligerent, which the two-sided model does not cover.
 - **Latest result.** [Rating run 4](docs/research/commander-ratings-v4.md) tested commander
   identity against a theater-and-period comparator, with τ estimated and outcome-dependent inputs
@@ -59,9 +59,9 @@ owner (the maintainer) sets the scope and authorizes each rating run.
    sources and checks before committing, and labels it primary-verified. A separate review runs
    only when the owner asks for one.
 4. **Gated model inputs.** Draft dossiers never change model inputs. The frozen baseline uses
-   only the pinned source tables. Rating runs use separately reviewed, versioned strength and
-   command ledgers, and each is bound to the SHA-256 of its exact inputs by a recorded owner
-   authorization.
+   only the pinned source tables. Rating runs use versioned strength and command ledgers
+   (separately reviewed through v2, primary-verified since), and each run is bound to the SHA-256
+   of its exact inputs, and from run 4 its code, by a recorded owner authorization.
 
 AI reviews and AI verification are not human historical adjudication or proof that sources are
 independent; a passage-backed claim can still be historically wrong. The code itself never
