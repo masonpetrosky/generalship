@@ -1101,3 +1101,23 @@ and aligns the same-return dependence group. Each new entry binds its predecesso
 full metadata hash. Current citations select the corrected IDs; archived dossiers
 and the frozen review bundle keep the old records. Dossier schema v3 separately
 records source estimation qualifiers while preserving every numerical observation.
+
+## Upstream force tables for strength ledger v3, 2026-10-06
+
+Eleven files from Arnold's *American Civil War Battle Data* at the already-pinned commit `3a6020d`
+were fetched explicitly and pinned unmodified in `data/raw/arnold-tables-v1/`, with SHA-256 in
+`data/sources.json` (license CC-BY-4.0 per the pinned package metadata):
+
+- force tables:
+  - `arnold-cws2-forces` and `arnold-cwss-forces`, in the `nps-cwsac` group;
+  - `arnold-bodart1908-forces` and `-battles`, in `bodart-kriegs-lexikon-1908`;
+  - `arnold-clodfelter-forces` and `-battles`, in `clodfelter-warfare-armed-conflicts-2008`;
+  - `arnold-livermore-forces` and `-battles`, in `livermore-numbers-losses`, used only to cross-check
+    the project's Livermore transcription;
+- Arnold's concordances, registered as JSON: `arnold-bodart1908-to-cwsac`,
+  `arnold-clodfelter-to-cwsac` and `arnold-livermore-to-cwsac`.
+
+Each registry entry records the upstream schema's population definition and the dependence caveat
+(CWS2 is NPS's own update of the CWSAC report; Clodfelter likely draws on Livermore and NPS). Use is
+limited to the v3 ledger's grade D fill ([addendum](ledgers-v3.md)).
+

@@ -45811,6 +45811,211 @@
         "p138": null,
         "p139": null
       }
+    },
+    {
+      "id": "arnold-cws2-forces",
+      "title": "CWSAC Report Updates (2009-2013) force strengths, digitized by Jeffrey B. Arnold",
+      "path": "data/raw/arnold-tables-v1/cws2_forces.csv",
+      "format": "csv",
+      "primary_key": [
+        "battle",
+        "belligerent"
+      ],
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/cws2_forces.csv",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/cws2_forces.csv",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-10-06",
+      "upstream_version": "11.0.0",
+      "sha256": "523147288617ed0d6a4e3d074b594157e0bc35768404feee83d6a22202b306d8",
+      "rights": "CC-BY-4.0 per pinned package metadata (version 11.0.0); original National Park Service CWSAC Report Update and Resurvey figures attributed to NPS",
+      "source_kind": "digitized_government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "The NPS state-by-state CWSAC Report Update and Resurvey (2009-2013). Arnold's strength column is non-missing only where the update prints an explicit number; the description column names the units. Same institution and lineage as the 1993 CWSAC report: agreement with it is not corroboration."
+    },
+    {
+      "id": "arnold-cwss-forces",
+      "title": "CWSS battle data: forces, digitized by Jeffrey B. Arnold",
+      "path": "data/raw/arnold-tables-v1/cwss_forces.csv",
+      "format": "csv",
+      "primary_key": [
+        "BattlefieldCode",
+        "belligerent"
+      ],
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/cwss_forces.csv",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/cwss_forces.csv",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-10-06",
+      "upstream_version": "11.0.0",
+      "sha256": "bdb4c38ffa11d303c12693f674d698231432416026086020a7b7f2de254db886",
+      "rights": "CC-BY-4.0 per pinned package metadata (version 11.0.0); NPS Civil War Soldiers and Sailors System data attributed to NPS",
+      "source_kind": "digitized_government_secondary_history",
+      "independence_group": "nps-cwsac",
+      "dependency_note": "Extracted by Arnold from the NPS Civil War Soldiers and Sailors System battle file; TroopsEngaged is the number of troops engaged. NPS lineage, so it is not independent of the CWSAC figures."
+    },
+    {
+      "id": "arnold-bodart1908-battles",
+      "title": "Bodart (1908) battles of the American Civil War, digitized by Jeffrey B. Arnold",
+      "path": "data/raw/arnold-tables-v1/bodart1908_battles.csv",
+      "format": "csv",
+      "primary_key": [
+        "battle_id"
+      ],
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/bodart1908_battles.csv",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/bodart1908_battles.csv",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-10-06",
+      "upstream_version": "11.0.0",
+      "sha256": "204a2fcf6d0c9491b48c8b5f6bb1acd429a63b7d7e201d494fa1ac17e10d4ab1",
+      "rights": "CC-BY-4.0 per pinned package metadata (version 11.0.0); figures from Gaston Bodart, Militar-historisches Kriegs-Lexikon (1618-1905), Vienna and Leipzig 1908 (public domain)",
+      "source_kind": "digitized_compiled_secondary_tabulation",
+      "independence_group": "bodart-kriegs-lexikon-1908",
+      "dependency_note": "Arnold's transcription of Bodart's 50 Civil War entries (pp. 522-542). The scanned book was not inspected here."
+    },
+    {
+      "id": "arnold-bodart1908-forces",
+      "title": "Bodart (1908) force strengths and casualties, digitized by Jeffrey B. Arnold",
+      "path": "data/raw/arnold-tables-v1/bodart1908_forces.csv",
+      "format": "csv",
+      "primary_key": [
+        "battle_id",
+        "belligerent"
+      ],
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/bodart1908_forces.csv",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/bodart1908_forces.csv",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-10-06",
+      "upstream_version": "11.0.0",
+      "sha256": "92882238b24d4c71bd5279a95fcf1ea74f96570069568c07b5de8c81aa37b564",
+      "rights": "CC-BY-4.0 per pinned package metadata (version 11.0.0); figures from Gaston Bodart, Militar-historisches Kriegs-Lexikon (1618-1905), 1908 (public domain)",
+      "source_kind": "digitized_compiled_secondary_tabulation",
+      "independence_group": "bodart-kriegs-lexikon-1908",
+      "dependency_note": "strength is total personnel and strength_engaged personnel engaged in combat (Arnold's schema). Arnold notes that Bodart's strength values tend to be higher than other sources, apparently the whole unit in the theater or operation. Bodart's own derivation is not stated in the table."
+    },
+    {
+      "id": "arnold-bodart1908-to-cwsac",
+      "title": "Correspondence between Bodart (1908) battles and CWSAC battle IDs, by Jeffrey B. Arnold",
+      "path": "data/raw/arnold-tables-v1/bodart1908_to_cwsac.json",
+      "format": "json",
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/bodart1908_to_cwsac.json",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/bodart1908_to_cwsac.json",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-10-06",
+      "upstream_version": "11.0.0",
+      "sha256": "5a188cc8b2e2548dca4184f99abe7c303d15e2f736357ae6649231b42ee8090b",
+      "rights": "CC-BY-4.0 per pinned package metadata (version 11.0.0)",
+      "source_kind": "digitized_concordance",
+      "independence_group": "bodart-kriegs-lexikon-1908",
+      "dependency_note": "Arnold's own concordance; relation eq marks the same battle. It is his matching judgment, not Bodart's."
+    },
+    {
+      "id": "arnold-clodfelter-battles",
+      "title": "Clodfelter (2008) battle data: battles, digitized by Jeffrey B. Arnold",
+      "path": "data/raw/arnold-tables-v1/clodfelter_battles.csv",
+      "format": "csv",
+      "primary_key": [
+        "battle_id"
+      ],
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/clodfelter_battles.csv",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/clodfelter_battles.csv",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-10-06",
+      "upstream_version": "11.0.0",
+      "sha256": "bf6ebf0fc1266ff4e2149a6e34414e6e78ade71a1b01fa6d43eea9f52da4662e",
+      "rights": "CC-BY-4.0 per pinned package metadata (version 11.0.0); figures from Michael Clodfelter, Warfare and Armed Conflicts, 3rd ed., McFarland 2008",
+      "source_kind": "digitized_compiled_secondary_tabulation",
+      "independence_group": "clodfelter-warfare-armed-conflicts-2008",
+      "dependency_note": "Arnold's tabulation of Clodfelter's Civil War entries. The result column was added by Arnold following CWSAC and is not used here."
+    },
+    {
+      "id": "arnold-clodfelter-forces",
+      "title": "Clodfelter (2008) battle data: forces, digitized by Jeffrey B. Arnold",
+      "path": "data/raw/arnold-tables-v1/clodfelter_forces.csv",
+      "format": "csv",
+      "primary_key": [
+        "battle_id",
+        "belligerent"
+      ],
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/clodfelter_forces.csv",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/clodfelter_forces.csv",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-10-06",
+      "upstream_version": "11.0.0",
+      "sha256": "96430f3626d3d0475b9712e733b04494d2eae3112319154fbf141af48cca8dee",
+      "rights": "CC-BY-4.0 per pinned package metadata (version 11.0.0); figures from Michael Clodfelter, Warfare and Armed Conflicts, 3rd ed., McFarland 2008",
+      "source_kind": "digitized_compiled_secondary_tabulation",
+      "independence_group": "clodfelter-warfare-armed-conflicts-2008",
+      "dependency_note": "strength is the total number of personnel in the battle (Arnold's schema); the population basis and Clodfelter's sources for each figure are not stated. A modern compilation that likely draws on Livermore and NPS figures; its independence from them is not established."
+    },
+    {
+      "id": "arnold-clodfelter-to-cwsac",
+      "title": "Correspondence between Clodfelter (2008) and CWSAC battles, by Jeffrey B. Arnold",
+      "path": "data/raw/arnold-tables-v1/clodfelter_to_cwsac.json",
+      "format": "json",
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/clodfelter_to_cwsac.json",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/clodfelter_to_cwsac.json",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-10-06",
+      "upstream_version": "11.0.0",
+      "sha256": "8482b2b79f925bd6f93c0660b3d56d3dfb7a466c0044a5d3ccc446534aff624c",
+      "rights": "CC-BY-4.0 per pinned package metadata (version 11.0.0)",
+      "source_kind": "digitized_concordance",
+      "independence_group": "clodfelter-warfare-armed-conflicts-2008",
+      "dependency_note": "Arnold's own concordance; only relation eq is used here."
+    },
+    {
+      "id": "arnold-livermore-battles",
+      "title": "Livermore (1900) battle list, digitized by Jeffrey B. Arnold",
+      "path": "data/raw/arnold-tables-v1/livermore_battles.csv",
+      "format": "csv",
+      "primary_key": [
+        "battle_id"
+      ],
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/livermore_battles.csv",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/livermore_battles.csv",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-10-06",
+      "upstream_version": "11.0.0",
+      "sha256": "30fd5676fba70a6999dec9b08fae6a2f6cde410fec4a8c16f622ada2a75b75bf",
+      "rights": "CC-BY-4.0 per pinned package metadata (version 11.0.0); figures from Thomas L. Livermore, Numbers and Losses in the Civil War in America (public domain)",
+      "source_kind": "digitized_compiled_secondary_tabulation",
+      "independence_group": "livermore-numbers-losses",
+      "dependency_note": "Used only to cross-check the project's own Livermore transcription; Livermore figures are cited from that transcription."
+    },
+    {
+      "id": "arnold-livermore-forces",
+      "title": "Livermore (1900) force strengths and casualties, digitized by Jeffrey B. Arnold",
+      "path": "data/raw/arnold-tables-v1/livermore_forces.csv",
+      "format": "csv",
+      "primary_key": [
+        "battle_id",
+        "belligerent"
+      ],
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/livermore_forces.csv",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/livermore_forces.csv",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-10-06",
+      "upstream_version": "11.0.0",
+      "sha256": "f4a8bce66b0646809ff8915fcc2f01459c0472879cb97fb1feb69282660cc6fb",
+      "rights": "CC-BY-4.0 per pinned package metadata (version 11.0.0); figures from Thomas L. Livermore, Numbers and Losses in the Civil War in America (public domain)",
+      "source_kind": "digitized_compiled_secondary_tabulation",
+      "independence_group": "livermore-numbers-losses",
+      "dependency_note": "Used only to cross-check the project's own Livermore transcription; never cited as a ledger input."
+    },
+    {
+      "id": "arnold-livermore-to-cwsac",
+      "title": "Correspondence between Livermore (1900) and CWSAC battles, by Jeffrey B. Arnold",
+      "path": "data/raw/arnold-tables-v1/livermore_to_cwsac.json",
+      "format": "json",
+      "url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/livermore_to_cwsac.json",
+      "download_url": "https://raw.githubusercontent.com/jrnold/acw_battle_data/3a6020dbfcbcfc650a268b10a9f155588472432b/build/acw_battle_data/livermore_to_cwsac.json",
+      "upstream_commit": "3a6020dbfcbcfc650a268b10a9f155588472432b",
+      "retrieved_at": "2026-10-06",
+      "upstream_version": "11.0.0",
+      "sha256": "de2446f6975f172d5296be16093deff992d051a8574fcbe9b895191436073bd4",
+      "rights": "CC-BY-4.0 per pinned package metadata (version 11.0.0)",
+      "source_kind": "digitized_concordance",
+      "independence_group": "livermore-numbers-losses",
+      "dependency_note": "Arnold's own concordance."
     }
   ]
 }

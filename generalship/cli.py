@@ -11,6 +11,7 @@ from .admission import DEFAULT_PROPOSAL, check as check_admission
 from .strength_admission import DEFAULT_PROPOSAL as STRENGTH_PROPOSAL, check as check_strength
 from .estimates import DEFAULT_LEDGER, check as check_estimates
 from .estimates_v2 import DEFAULT_LEDGER as ESTIMATE_LEDGER_V2, check as check_estimates_v2
+from .estimates_v3 import DEFAULT_LEDGER as ESTIMATE_LEDGER_V3, agreement as compilation_agreement, check as check_estimates_v3
 from .estimate_eval import RUNS as EVAL_RUNS, evaluate_estimates, report_text as estimate_report
 from .command import DEFAULT_LEDGER as COMMAND_LEDGER, check as check_command
 COMMAND_LEDGER_V2 = 'data/command/responsibility-v2.json'
@@ -120,9 +121,10 @@ def run_build(root, write=False):
     except AuditError as exc:
         audit = {'status': 'stale_or_invalid', 'error': str(exc)}
     audit_ok = audit is not None and 'status' not in audit
-    estimates, command, estimates_v2, command_v2 = replay_frozen_ledgers(root, [
+    estimates, command, estimates_v2, command_v2, estimates_v3 = replay_frozen_ledgers(root, [
         (DEFAULT_LEDGER, check_estimates), (COMMAND_LEDGER, check_command),
-        (ESTIMATE_LEDGER_V2, check_estimates_v2), (COMMAND_LEDGER_V2, check_command)])
+        (ESTIMATE_LEDGER_V2, check_estimates_v2), (COMMAND_LEDGER_V2, check_command),
+        (ESTIMATE_LEDGER_V3, check_estimates_v3)])
     if write:
         output = root / "artifacts"
         output.mkdir(exist_ok=True)
@@ -140,6 +142,9 @@ def run_build(root, write=False):
         ])
         (output / "pilot-report.md").write_text(report_text(root, profile, evaluation, dossiers, admission), encoding="utf-8")
         write_json(output / "review-index.json", reviews)
+        if estimates_v3 is not None and 'side_grades' in estimates_v3:
+            write_json(output / "strength-ledger-v3-check.json", estimates_v3)
+            write_json(output / "strength-compilation-agreement.json", compilation_agreement(root))
         if audit_ok:
             write_json(output / "extraction-audit-v1.json", audit)
             (output / "extraction-audit-v1.md").write_text(audit_report(read_json(root / AUDIT), audit), encoding="utf-8")
@@ -152,6 +157,7 @@ def run_build(root, write=False):
         inputs += sorted(p for p in (root / "data/audit").rglob('*') if p.is_file())
         outputs = ["battles.json", "quality.json", "baseline.json", "evidence-checks.json", "research-queue.json", "pilot-report.md", "admission-check.json",
                    "review-index.json"] + (["extraction-audit-v1.json", "extraction-audit-v1.md"] if audit_ok else [])
+        outputs += ["strength-ledger-v3-check.json", "strength-compilation-agreement.json"] if (output / "strength-ledger-v3-check.json").is_file() else []
         write_json(output / "receipt.json", {
             "command": "python3 -m generalship build", "model_id": evaluation["model_id"],
             # Floating-point results can differ in the last bits across Python versions (for example,
@@ -177,6 +183,8 @@ def run_build(root, write=False):
                                                     if 'side_grades' in estimates_v2 else estimates_v2),
             "command_ledger_v2": command_v2 and ({k: command_v2[k] for k in ('engagements', 'side_grades', 'nesting', 'rated')}
                                                  if 'side_grades' in command_v2 else command_v2),
+            "estimate_ledger_v3": estimates_v3 and ({k: estimates_v3[k] for k in ('side_grades', 'filled_from_d', 'rows_by_set_fit_eligible', 'fitted')}
+                                                    if 'side_grades' in estimates_v3 else estimates_v3),
             "artifacts_written": write}
 
 
@@ -210,7 +218,7 @@ def main(argv=None):
     admission_parser.add_argument('path', nargs='?', default=DEFAULT_PROPOSAL)
     admission_parser.add_argument('--details', action='store_true', help='Print the complete ledger and provenance')
     est_parser = sub.add_parser('estimate-check', help='Replay the best-estimate side-strength ledger; never fits or promotes')
-    est_parser.add_argument('--ledger', default=DEFAULT_LEDGER, help='Ledger path; a version-2 ledger is replayed by estimates_v2')
+    est_parser.add_argument('--ledger', default=DEFAULT_LEDGER, help='Ledger path; version-2 and version-3 ledgers are replayed by their own checkers')
     rat_parser = sub.add_parser('commander-ratings', help='Owner-authorized residual ratings (design §7); never changes the baseline')
     rat_parser.add_argument('--version', type=int, default=1, choices=(1, 2, 3),
                             help='Run 1 (cohort v1 ledgers), 2 (cohort v2 ledgers) or 3 (all battles with grade E strengths)')
@@ -241,7 +249,7 @@ def main(argv=None):
         elif args.command == 'estimate-check':
             version = read_json(root / args.ledger).get('version', 1)
             with bound_view(root, args.ledger) as replay_root:
-                result = (check_estimates_v2 if version == 2 else check_estimates)(replay_root, args.ledger)
+                result = {1: check_estimates, 2: check_estimates_v2, 3: check_estimates_v3}[version](replay_root, args.ledger)
         elif args.command == 'commander-ratings':
             if args.version == 3:
                 ratings, out, text = rate3(root), 'artifacts/commander-ratings-v3', None

@@ -9,7 +9,11 @@ snapshot commit `3a6020dbfcbcfc650a268b10a9f155588472432b`.
 - [Pinned license metadata](https://github.com/jrnold/acw_battle_data/blob/3a6020dbfcbcfc650a268b10a9f155588472432b/rawdata/metadata/datapackage.yaml)
 - [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
-The four `data/raw/cwsac_*.csv` files are unmodified copies. Their historical
+The four `data/raw/cwsac_*.csv` files are unmodified copies, as are the eleven files in
+`data/raw/arnold-tables-v1/` from the same commit (CWSAC Report Updates and CWSS force tables, and
+Arnold's tabulations and concordances of Bodart 1908, Clodfelter 2008 and Livermore 1900), pinned on
+2026-10-06 for the v3 strength ledger. Clodfelter's *Warfare and Armed Conflicts* (3rd ed., McFarland,
+2008) is a copyrighted reference work; only Arnold's CC-BY tabulation of its figures is redistributed. Their historical
 source is the U.S. National Park Service / Civil War Sites Advisory Commission
 battle summaries, digitized and organized by Arnold. The cohort, normalized records,
 research claims, audit results, and model outputs are Generalship's transformations

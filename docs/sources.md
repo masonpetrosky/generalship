@@ -21,6 +21,11 @@ shows older version 8.0.0 and ODC-BY. Use the pinned package's metadata for this
 snapshot; do not silently mix the documentation's schema or license label into it.
 For example, the current CSV has fewer force columns than the older published schema.
 
+On 2026-10-06, eleven more tables from the same commit were pinned in `data/raw/arnold-tables-v1/`
+for the [v3 strength ledger](ledgers-v3.md): the CWSAC Report Updates and CWSS force tables, Bodart
+(1908) and Clodfelter (2008) force tables with Arnold's concordances, and Arnold's Livermore table
+for cross-checking only.
+
 These are historical government summaries digitized by a third party, not original
 wartime reports. Source row locators establish where a claim came from, not whether
 the underlying account is correct. Original NPS URLs in the tables may have moved;

@@ -286,6 +286,27 @@ dossier claims and checked each against its passages.
 - **Review records:** every historical review record is now indexed in one disposition
   vocabulary (`artifacts/review-index.json`), and the build rejects unknown dispositions.
 
+## Strength ledger v3 (2026-10-06)
+
+[Strength ledger v3](ledgers-v3.md) fills grade D sides from force tables in the upstream package the
+project already pins.
+
+- **Sources:** the CWSAC Report Updates and CWSS counts, and Bodart and Clodfelter through Arnold's
+  one-to-one concordances.
+- **Coding:** mechanical, by table; the cell is cited, the value and class checked, and the side's
+  inventory complete.
+- **Copies:** an exact copy of an NPS or Livermore figure is recorded as its reproduction, so it keeps
+  that figure's scope finding.
+- **Exceptions:** two CWS2 cells that describe only part of a side are coded as lower bounds.
+- **Result:** of 262 grade D sides, 99 are filled (A 54, B 41, C 4). Fit-eligible rows with both
+  sides graded A–C rise from 126 to 181.
+- **Weak points:** Bodart's whole-army totals and Clodfelter's possibly whole-army figures are left
+  visible through their labels.
+- **Livermore cross-check:** Arnold's machine-readable Livermore table matches the project's
+  transcription on 81 of 83 sides. One difference is a v2 deliberate exclusion; the other comes from
+  an untranscribed page (p.108).
+- **Verification:** primary-verified; no separate review.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current
