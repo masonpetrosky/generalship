@@ -21,6 +21,9 @@ For evidence changes, also read `docs/evidence-contract.md` and `docs/sources.md
   after code or input changes; update the prepared packet if its evidence changed.
 - Inspect the generated report, preserve failing or unimproved results honestly,
   and report exact coverage and remaining limits. Never validate by reputation.
+- Keep `README.md` a short public overview. Record per-batch pass and review
+  summaries in `docs/research-log.md` and the roadmap; update the README only when
+  its status, results or instructions change.
 
 ## Research scope and stopping rule
 

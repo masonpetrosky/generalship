@@ -1,0 +1,247 @@
+# Research log
+
+Detailed notes on completed research passes, reviews and source investigations. Entries are kept
+as originally written, so counts and statuses are as of each entry; the [README](../README.md) and
+[roadmap](roadmap.md) give the current state. Each campaign's first pass also has its own record in
+[`docs/research/`](research/) (`*-first-pass-v1.md`), and review responses are under
+[`artifacts/review-results/`](../artifacts/review-results/).
+
+Terms used below: *the primary* is the main AI agent that prepares and maintains the evidence, as
+distinct from the separate reviewer; *the owner* is the project maintainer; *Astra `xhigh`* and
+*Opus 5.5 `high`* are the separate AI reviewers (GPT-6 Astra at `xhigh` reasoning effort until
+2026-09-24, then Claude Opus 5.5 at `high`). *Frozen* records and campaign groups are those of the
+127-engagement 1862–1863 pilot cohort.
+
+## 1862–1863 pilot: campaign first passes
+
+These summaries were moved here from the README on 2026-10-05. The 257 full-war (cohort v2) first
+passes are summarized in the [roadmap](roadmap.md#completed-priority--full-war-first-passes-cohort-v2).
+
+- The [bounded river-campaign pass](research/river-campaign-first-pass-v1.md) adds Fort Henry,
+  Fort Donelson and Corinth, carrying forward Shiloh unchanged. The three new drafts passed separate
+  Astra `xhigh` source review; no model inputs are admitted.
+- The [Cockpit Point first pass](research/cockpit-point-first-pass-v1.md) now covers the
+  complete frozen Potomac blockade group. Astra `xhigh` accepted all 10 new claims with no required
+  corrections; one source family and three unknowns remain explicit.
+- The [Hancock first pass](research/hancock-first-pass-v1.md) adds 11 claims from two source
+  families, retaining chronology and casualty disputes; Astra `xhigh` accepted all 11 claims with no
+  required corrections.
+- The [Eastern Kentucky pass](research/eastern-kentucky-first-pass-v1.md) adds Middle Creek and
+  Mill Springs with 22 claims and three explicit unknowns; Astra `xhigh` accepted all 22 claims with
+  no required corrections.
+- The [Burnside campaign pass](research/burnside-first-pass-v1.md) adds five drafts with 47
+  claims, ten explicit unknowns and two source families per battle. Astra `xhigh` accepted all 47
+  claims with no required corrections.
+- The [New Madrid/Memphis pass](research/mississippi-joint-first-pass-v1.md) adds two drafts
+  with 21 claims, five explicit unknowns and two families per battle. Astra `xhigh` accepted all 21
+  claims with no required corrections.
+- The [Peninsula pass](research/peninsula-first-pass-v1.md) adds all sixteen frozen records:
+  152 claims, 39 explicit unknowns and one or two families per record. Astra `xhigh` accepted all
+  152 claims with no required corrections.
+- The [Valley pass](research/valley-first-pass-v1.md) adds seven dossiers, 68 claims, 17
+  explicit unknowns and 91 citations. Astra `xhigh` reviewed the complete batch; its one timing-tag
+  correction is fixed and verified by the primary.
+- The [Heartland Offensive pass](research/heartland-first-pass-v1.md) adds five dossiers, 54
+  claims, 6 explicit unknowns and 157 citations. Opus 5.5 `high` reviewed the complete batch; its
+  one Perryville scope correction is fixed and verified by the primary.
+- The [Northern Virginia pass](research/northern-virginia-first-pass-v1.md) adds six dossiers,
+  56 claims, 7 explicit unknowns and 143 citations. Opus 5.5 `high` reviewed the batch; its two
+  locator/scope corrections are fixed and verified by the primary.
+- The [Maryland pass](research/maryland-first-pass-v1.md) adds three dossiers (Antietam's
+  existing draft unchanged), 29 claims, 4 explicit unknowns and 86 citations. Opus 5.5 `high`
+  reviewed them; its four required corrections are fixed and verified by the primary.
+- The [Iuka and Corinth pass](research/iuka-corinth-first-pass-v1.md) adds three dossiers, 28
+  claims, 3 explicit unknowns and 91 citations. Opus 5.5 `high` reviewed the batch; its eight
+  required corrections are fixed and verified by the primary.
+- The [Stones River pass](research/stones-river-first-pass-v1.md) adds two dossiers, 20 claims,
+  2 explicit unknowns and 79 citations. Opus 5.5 `high` reviewed both; its five required corrections
+  are fixed and verified by the primary.
+- The [Fredericksburg pass](research/fredericksburg-first-pass-v1.md) adds VA028: 10 claims, 1
+  explicit unknown and 44 citations. Opus 5.5 `high` reviewed it; its seven required corrections are
+  fixed and verified by the primary.
+- The [Goldsboro pass](research/goldsboro-first-pass-v1.md) adds three dossiers, 28 claims, 4
+  explicit unknowns and 75 citations. Opus 5.5 `high` reviewed them; its five required corrections
+  are fixed and verified by the primary.
+- The [Forrest West Tennessee pass](research/forrest-west-tennessee-first-pass-v1.md) adds two
+  dossiers, 18 claims, 2 explicit unknowns and 72 citations. Opus 5.5 `high` reviewed them; its
+  three required corrections are fixed and verified by the primary.
+- The [Vicksburg 1862–63 pass](research/vicksburg-1862-first-pass-v1.md) adds two dossiers, 19
+  claims, 2 explicit unknowns and 69 citations. Opus 5.5 `high` reviewed them; its six required
+  corrections are fixed and verified by the primary.
+- The [Middle Tennessee pass](research/middle-tennessee-first-pass-v1.md) adds five dossiers,
+  46 claims, 7 explicit unknowns and 149 citations. Opus 5.5 `high` reviewed them; its four required
+  corrections are fixed and verified by the primary.
+- The [Tidewater pass](research/tidewater-first-pass-v1.md) adds four dossiers, 39 claims, 4
+  explicit unknowns and 194 citations. Opus 5.5 `high` reviewed them; its five required corrections
+  are fixed and verified by the primary.
+- The [Rappahannock cavalry pass](research/rappahannock-cavalry-first-pass-v1.md) adds one
+  dossier, 9 claims, 1 explicit unknown and 78 citations. Opus 5.5 `high` reviewed it; its four
+  required corrections are fixed and verified by the primary.
+- The [Vicksburg 1863 pass](research/vicksburg-1863-first-pass-v1.md) adds ten dossiers, 92
+  claims, 10 explicit unknowns and 383 citations. Opus 5.5 `high` reviewed them; its nine required
+  corrections are fixed and verified by the primary.
+- The [Chancellorsville pass](research/chancellorsville-first-pass-v1.md) adds three dossiers,
+  27 claims, 3 explicit unknowns and 131 citations. Opus 5.5 `high` reviewed them; its ten required
+  corrections are fixed and verified by the primary.
+- The [Streight's Raid pass](research/streights-raid-first-pass-v1.md) adds one dossier, 9
+  claims, 1 explicit unknown and 49 citations. Opus 5.5 `high` reviewed it; its three required
+  corrections are fixed and verified by the primary.
+- The [Gettysburg Campaign pass](research/gettysburg-first-pass-v1.md) adds ten dossiers, 90
+  claims, 10 explicit unknowns and 336 citations. Opus 5.5 `high` reviewed them; its eleven required
+  corrections are fixed and verified by the primary.
+- The [Tullahoma pass](research/tullahoma-first-pass-v1.md) adds one dossier, 9 claims, 1
+  explicit unknown and 54 citations. Opus 5.5 `high` reviewed it; its seven required corrections are
+  fixed and verified by the primary.
+- The [Morgan's Raid pass](research/morgans-raid-first-pass-v1.md) adds three dossiers, 28
+  claims, 3 explicit unknowns and 149 citations. Opus 5.5 `high` reviewed them; its five required
+  corrections are fixed and verified by the primary.
+- The [Chickamauga Campaign pass](research/chickamauga-first-pass-v1.md) adds three dossiers,
+  27 claims, 3 explicit unknowns and 147 citations. Opus 5.5 `high` reviewed them; its eight
+  required corrections are fixed and verified by the primary.
+- The [East Tennessee Campaign pass](research/east-tennessee-first-pass-v1.md) adds two
+  dossiers, 19 claims, 2 explicit unknowns and 90 citations. Opus 5.5 `high` reviewed them; its four
+  required corrections are fixed and verified by the primary.
+- The [Bristoe Campaign pass](research/bristoe-first-pass-v1.md) adds five dossiers, 45 claims,
+  5 explicit unknowns and 197 citations. Opus 5.5 `high` reviewed them; its four required
+  corrections are fixed and verified by the primary.
+- The [Reopening the Tennessee River pass](research/reopening-tennessee-first-pass-v1.md) adds
+  one dossier, 9 claims, 1 explicit unknown and 44 citations. Opus 5.5 `high` reviewed it; its five
+  required corrections are fixed and verified by the primary.
+- The [Memphis & Charleston Railroad pass](research/memphis-charleston-first-pass-v1.md) adds
+  one dossier, 9 claims, 1 explicit unknown and 44 citations. Opus 5.5 `high` reviewed it; its five
+  required corrections are fixed and verified by the primary.
+- The [Averell's Raid pass](research/averell-raid-first-pass-v1.md) adds one dossier, 9 claims,
+  1 explicit unknown and 55 citations. Opus 5.5 `high` reviewed it; its four required corrections
+  are fixed and verified by the primary.
+- The [Knoxville Campaign pass](research/knoxville-first-pass-v1.md) adds three dossiers, 27
+  claims, 3 explicit unknowns and 130 citations. Opus 5.5 `high` reviewed it; its eight required
+  corrections are fixed and verified by the primary.
+- The [Chattanooga-Ringgold pass](research/chattanooga-ringgold-first-pass-v1.md) adds two
+  dossiers, 18 claims, 2 explicit unknowns and 84 citations. Opus 5.5 `high` reviewed it; its five
+  required corrections are fixed and verified by the primary.
+- The [Mine Run pass](research/mine-run-first-pass-v1.md) adds one dossier, 9 claims, 1
+  explicit unknown and 79 citations. Opus 5.5 `high` reviewed it; its four required corrections are
+  fixed and verified by the primary.
+- The [Dandridge pass](research/dandridge-first-pass-v1.md) adds three dossiers, 27 claims, 3
+  explicit unknowns and 145 citations. Opus 5.5 `high` reviewed it; its seven required corrections
+  are fixed and verified by the primary.
+
+All frozen campaign groups now have first-pass dossiers. See the [current roadmap](roadmap.md)
+and [first-pass protocol](methodology.md#research-depth-and-coverage). The history below
+preserves completed work and deferred questions.
+
+## Shiloh source investigations
+
+The first [Shiloh research pass](research/shiloh.md), [Confederate return
+audit](research/shiloh-confederate-returns.md) and [Union availability
+audit](research/shiloh-union-availability.md), and [Ohio reinforcement
+audit](research/shiloh-ohio-reinforcements.md) are complete as drafts: 62 claims preserve
+competing returns, reinforcement phases, dated orders and disputed responsibility. Nelson/Ammen and
+regimental reports now separate crossing, landing, formation and participation. Conflicting clocks,
+the untraced Sunday 600-person figure, mixed-date estimates and Reed's 7,553/7,552 discrepancy
+remain explicit alongside earlier source disputes. No canonical opening strength or adjudicated
+command attribution has been established. A fresh-context GPT-6 Astra `xhigh` [source
+review](../artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review.md) checked all 62 claims, 40
+quantities, 26 events and 26 supplied scan selections. The [primary
+assessment](../artifacts/review-results/TN003-a42f063-astra-xhigh-v1/primary-assessment.md) accepts
+four findings for a versioned correction pass: estimation provenance, section-specific document
+dates, same-return dependence and Crittenden arrival wording. The [versioned correction
+pass](research/shiloh-review-corrections.md) implements them with dossier schema v3 and three
+source-metadata revisions. The focused review and validator follow-up are accepted. Thirty-five of
+65 cited source/section pairs remain text/CSV-only. The [prepared
+packet](../artifacts/research/TN003.md) and [dossier](../data/evidence/TN003.json) preserve the open
+questions. Expand by complete campaign, retaining ordinary engagements and failures in the frame.
+
+The [self-contained review handoff](research/shiloh-review-handoff.md) preserves the frozen
+assignment separately from the actual response and execution record. The default reviewer is a
+fresh-context Claude Opus 5.5 `high` subagent in the same task, under [AGENTS.md](../AGENTS.md); it
+replaced GPT-6 Astra `xhigh` on 2026-09-24, and earlier Astra reviews keep their recorded scope. No
+manual chat handoff is required. This AI review fulfills the bounded separate-review step, not
+historical adjudication or feature admission. The [feature-admission
+design](feature-admission.md) now has a separate Astra `xhigh` design review with no required
+corrections. Its [13 Shiloh examples](research/shiloh-admission-examples.md) preserve source
+versions, population, time and estimand restrictions. They emit no features. The [review and primary
+assessment](../artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/primary-assessment.md)
+record the exact scope and remaining historical limits.
+
+The [offline admission validator](admission-validator.md) is implemented, with Astra `xhigh`
+implementation review and focused follow-up accepted. The [review
+record](../artifacts/review-results/admission-implementation-1264e21-followup-v1/primary-assessment.md)
+preserves three findings and their verified fixes. Its complete-frame ledger checks all 40 Shiloh
+troop observations: 18 blocked, 22 excluded and zero complete rows. No model inputs are promoted.
+Actual feature release still requires reviewed boundary/population mappings and a separate immutable
+admission manifest.
+
+A separate [opening-boundary and population proposal](research/shiloh-opening-boundary-v1.md)
+now uses 51 pinned passage anchors to revisit the 18 blocked observations. Its explicit v2 ledger
+has **7 blocked / 33 excluded**, with no complete rows; the default v1 ledger is preserved. The
+first-contact identification, mapped area and full populations remain unresolved. Astra `xhigh`
+[accepted the bounded
+proposal](../artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/primary-assessment.md) with
+one nonblocking precision clarification; no historical feature is admitted.
+
+The [contact-and-location packet](research/shiloh-contact-location-v1.md) adds nine participant
+opening accounts, 16 inspected book-page facsimiles and two maps. It preserves conflicting contact
+clocks, earlier skirmishes and map phase limits. The separate Astra `xhigh` review found two literal
+transcription errors, now [corrected in new source
+versions](research/shiloh-contact-location-corrections-v1.md) with primary verification. The
+dossier and model inputs remain unchanged.
+
+The [April 3–5 contact-chain audit](research/shiloh-precontact-segmentation-v1.md) recommends
+April 3–4 as precursor encounters under an explicit continuity rule, with weaker event-specific
+closure for April 3. The Saturday Howell link remains unresolved; no complete opening boundary or
+new feature is admitted. Ten assertions bind 24 passages across 19 inspected pages. Separate Astra
+`xhigh` review found one finding with two literal wording errors, now [corrected in a new source
+version](research/shiloh-precontact-segmentation-corrections-v1.md) and closed by primary image
+verification.
+
+The [Howell attribution trace](research/shiloh-howell-trace-v1.md) now finds Medkirk's
+retrospective Saturday account and disputed testimony selections in Worthington, and verifies Reed's
+clause in the 1903 printing. Seven assertions bind 14 passages across 12 inspected pages and three
+HTML sources. The source chain to Reed and Saturday-to-Sunday continuity remain unknown.
+
+Separate Astra `xhigh` [review and primary
+assessment](../artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/primary-assessment.md)
+accepted the bounded Howell packet with no required corrections; historical provenance and
+continuity questions remain open.
+
+The [regimental and post comparison](research/shiloh-regimental-posts-v1.md) adds Reid's report
+of overnight activity at an unnamed 46th Ohio picket line, Lemmon's 72d account, Worthington's post
+relationships and the map cited by Medkirk. The map depicts April 6–7 phases, not Saturday's post
+sequence. Seven assertions bind 21 anchors across 16 inspected pages; the registry has 151 entries /
+148 raw paths at preparation. Post identity and continuity remain unresolved, with zero feature
+admission.
+
+Separate Astra `xhigh` review covered the full packet and found two literal map transcription
+errors, now [corrected in a new version](research/shiloh-regimental-posts-corrections-v1.md)
+and closed by primary image verification. The registry at that stage is 152 entries / 149 raw paths;
+the historical conclusions and model inputs are unchanged.
+
+The [Reid provenance trace](research/shiloh-reid-provenance-v1.md) identifies the publisher
+collection process and Miller's general editorial role, but no original 46th Ohio witness. Lindsey
+supplies a later wording parallel with independence unestablished. Five assertions bind 11 anchors /
+10 source-locator pairs, ten retained page images and one text-only LOC catalog snapshot. All
+earlier evidence is preserved; the registry at that stage has 164 entries / 161 raw paths and zero
+feature admission. Separate Astra `xhigh` [review and primary
+assessment](../artifacts/review-results/shiloh-reid-1c498e0-astra-xhigh-v1/primary-assessment.md)
+accept all five bounded assertions with two nonblocking catalog clarifications: use the retained
+Agate letters label and provider page/line locators; material format and printed pagination remain
+unverified.
+
+The [Agate comparison](research/shiloh-agate-comparison-v1.md) locates two historical reprints
+with 1864 title imprints, supporting a Reid/Agate account dated April 9, 1862. Its inspected opening
+reports Saturday skirmishing but does not supply the later B/K overnight narrative or identify its
+witness/post. The original Gazette issue remains uninspected. Five assertions bind 16 anchors / 12
+source-section pairs across 11 inspected images; the registry at that packet has 176 entries / 173
+raw paths, with zero feature admission. Separate Astra `xhigh` [review and primary
+assessment](../artifacts/review-results/shiloh-agate-73e26d4-astra-xhigh-v1/primary-assessment.md)
+accept all five bounded historical assertions; the sole documentation inventory finding is corrected
+and closed by primary verification. The original issue, overnight witness and continuity remain
+unresolved.
+
+## Next steps as last recorded in the README
+
+Then define a campaign replacement boundary and outcomes before fitting enriched models. Battle
+execution and campaign contribution are separate estimands; adding them together would double count.
+Partial pooling, opponent/army context, measurement uncertainty, disputed-input scenarios, and a
+source-exploration UI remain planned work, not implemented capabilities.

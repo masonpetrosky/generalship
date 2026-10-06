@@ -12,310 +12,141 @@ this project starts with a reproducible battle-level baseline, then builds towar
 campaign-level contribution. A battle residual is **not** an estimate of how many
 wins a commander caused. No validated commander ranking exists here yet.
 
-## What works today
+## Status
 
-- A frozen **127-engagement / 36-campaign** American Civil War pilot, selected by
-  dates and theaters before modeling, including defeats and inconclusive outcomes.
-- Four pinned, checksum-verified CWSAC tables from Jeffrey B. Arnold's
-  [American Civil War Battle Data](https://acw-battle-data.readthedocs.io/en/latest/).
-- An offline import and audit pipeline: unique keys, referential integrity,
-  dates, force ranges, missingness, outcome codes, and cohort membership.
-- A small regularized logistic baseline using relative force size. Evaluation
-  holds out whole campaigns and compares with equal odds and a training-only prior.
-- One hundred twenty-seven draft dossiers, including all three frozen Operations about Dandridge records
-  (all 36 frozen campaign groups now have first-pass dossiers),
-  with exact source passages, explicit unknowns, command questions, and
-  inherited/created distinctions. See the [coverage table](artifacts/pilot-report.md#draft-evidence-dossiers).
-- A [Shiloh research memo](docs/research/shiloh.md), original reports/orders, two
-  independently authored histories, and return-table scans. The follow-up
-  [Confederate return audit](docs/research/shiloh-confederate-returns.md) and
-  [Union availability audit](docs/research/shiloh-union-availability.md), followed
-  by the [Ohio reinforcement audit](docs/research/shiloh-ohio-reinforcements.md),
-  bring it to 40 typed troop observations and 26 events, preserving population,
-  timing, missingness and printed discrepancies.
-- A reproducible report, battle predictions, exclusion reasons, research queue,
-  and input/output hash receipt. No runtime dependencies beyond Python 3.11+.
+As of 2026-10-05:
+
+- **American Civil War: first-pass research is complete.** The [full-war frame](docs/cohort-v2.md)
+  is every engagement in the pinned Civil War Sites Advisory Commission (CWSAC) battle list:
+  384 engagements in 119 campaign groups, 1861–1865. No inclusion rule depends on outcome,
+  commander reputation or available force figures. Every engagement has a draft evidence
+  dossier ([coverage table](artifacts/pilot-report.md#draft-evidence-dossiers)).
+- **Reviewed model inputs.** Versioned ledgers grade each side's strength evidence and name one
+  responsible commander per side for the 305 in-scope engagements
+  ([record](docs/research/ledgers-v2.md)). The other 79 are inconclusive, aggregate records, or
+  involve a Native American belligerent, which the two-sided model does not cover.
+- **Latest result.** [Rating run 3](docs/research/commander-ratings-v3.md) found slightly better
+  held-out predictions with commander identity than with force size alone. It is not a ranking
+  of skill ([results](#results-so-far)).
+- **Next: the French Revolutionary and Napoleonic Wars.** Chosen on 2026-09-25 and not yet
+  started. The [scoping note](docs/napoleonic-scoping.md) lists the decisions needed before
+  research begins.
+
+## How the research is produced
+
+AI agents do the research, under rules meant to make every claim checkable. The project
+owner (the maintainer) sets the scope and authorizes each rating run.
+
+1. **A frozen frame.** The engagement list comes from a pinned, checksum-verified source
+   table and is fixed before modelling, with defeats and inconclusive results included.
+2. **Draft dossiers.** Agents research by complete campaign. Each dossier covers seven
+   dimensions: strength, terrain, logistics, information, objectives, responsibility and
+   outcome. Every claim quotes an exact passage with its source ID and locator, and every
+   source snapshot is stored with its SHA-256. Gaps and disagreements become explicit unknowns
+   or disputed claims, never model recollection. A first pass inspects up to three source
+   families per battle, plus one targeted follow-up.
+3. **Separate AI review.** Each batch of campaign first passes goes to a fresh-context reviewer
+   model (Claude Opus 5.5 at `high` reasoning effort since 2026-09-24, GPT-6 Astra at `xhigh`
+   before), given only the frozen evidence and the review criteria. The authoring agent checks
+   each proposed correction against the source before applying it. Two early example drafts,
+   Antietam and Champion Hill, have not had a separate review.
+4. **Gated model inputs.** Draft dossiers never change model inputs. The frozen baseline uses
+   only the pinned source tables. Rating runs use separately reviewed, versioned strength and
+   command ledgers, and each is bound to the SHA-256 of its exact inputs by a recorded owner
+   authorization.
+
+These are AI reviews, not human historical adjudication or proof that sources are
+independent; a passage-backed claim can still be historically wrong. The code itself never
+calls a model, and only the explicit `fetch` command uses the network. See
+[AI's role and validation](docs/methodology.md#ais-role-and-validation) and the
+[evidence contract](docs/evidence-contract.md).
+
+## Results so far
+
+Every result below is scored on held-out campaigns: each campaign in turn is left out of the
+fit and then predicted. Lower Brier score and log loss are better. None of these is a ranking
+of skill or a causal estimate, and the later runs leave the frozen baseline unchanged.
+
+| Run | Battles | Question | Result |
+| --- | --- | --- | --- |
+| [Pilot baseline](artifacts/pilot-report.md) | 23 of the 127 pilot engagements | Does relative force size beat equal odds? | No: Brier 0.277 against 0.250 |
+| [Strength evaluation](docs/research/estimate-evaluation-v1.md) | 21–37 pilot battles with graded strengths | Do reviewed strength estimates predict results? | Weakly: worse than equal odds on the 21 grade A rows; on the 37 A–C rows, better than equal odds but not than the training prior (campaign-weighted) |
+| [Rating run 1](docs/research/commander-ratings-v1.md) | 37 pilot battles | Does adding commanders lower held-out log loss? | No detectable commander signal, so no ordered list |
+| [Rating run 2](docs/research/commander-ratings-v2.md) | 126 full-war battles with graded strengths | The same test on the full war | Lower under both weightings (0.6540 vs 0.6633 by battle, 0.6795 vs 0.6844 by campaign); every commander's interval includes zero |
+| [Rating run 3](docs/research/commander-ratings-v3.md) | 301 in-scope battles, 162 with a modelled side | The same test with missing strengths modelled (grade E) | Lower again (0.6476 vs 0.6597; 0.6586 vs 0.6651); only Forrest's 80% interval excludes zero, and rank intervals overlap widely |
+
+Runs 2 and 3 pass the test fixed in advance, which is read only as lower held-out log loss on
+those rows. The residual still mixes command with army quality, subordinates, theater,
+opponents, coding choices and modelling error, so the ordered lists in those reports are point
+summaries, not rankings. Each record names the `make` target that reproduces it.
+
+## Planned work
+
+Beyond the Napoleonic work, the [roadmap](docs/roadmap.md) plans a campaign-level estimand
+defined before any enriched model (battle execution and campaign contribution are separate
+and never added together), opponent and army context, graded outcomes rather than win or loss
+only, and an interface that traces any result from commander to campaign, engagement,
+assumption and passage. None of this is implemented yet.
 
 ## Run it
 
-From the repository root:
+Requires Python 3.11 or newer and nothing else. From the repository root:
 
 ```sh
-make check                         # tests + source/evidence/pipeline validation
-make reproduce                     # regenerate the committed artifacts offline
-python3 -m generalship admission-check # offline proposal audit; no promotion
-python3 -m generalship inspect TN003
-python3 -m generalship packet TN003 # prepare a research assignment; makes no AI call
-make review-bundle                 # frozen Shiloh sources/scans + reviewer prompt ZIP
+make check                              # tests plus source, evidence and pipeline validation
+make reproduce                          # regenerate the committed artifacts offline
+python3 -m generalship inspect TN003    # print one engagement's record (TN003 is Shiloh)
+python3 -m generalship packet TN003     # prepare a research assignment; makes no AI call
+python3 -m generalship admission-check  # offline proposal audit; promotes nothing
 ```
 
-`python3 -m generalship fetch` can restore missing pinned upstream CSVs. Normal
-checks and builds make no network requests. The checked-in historical snapshots are
-restored from Git, not silently refreshed. Run from another directory with
-`python3 -m generalship --root /path/to/generalship check` when the package is on
-the Python path. Optional editable installation: `python3 -m pip install -e .`.
+`python3 -m generalship fetch` restores missing pinned upstream CSVs; it is the only command
+that uses the network. Checked-in historical snapshots are restored from Git, not silently
+refreshed. To run from another directory, use
+`python3 -m generalship --root /path/to/generalship check` with the package on the Python
+path, or install it with `python3 -m pip install -e .`.
 
-## First result
+## Repository layout
 
-Only **23 of 127 engagements** currently have two numerical force estimates and a
-decisive result suitable for this baseline. The other engagements remain visible
-in the research queue. Do not treat missing strengths as zero or invent them.
+| Path | Contents |
+| --- | --- |
+| `generalship/` | Python package and command-line interface |
+| `data/` | Source registry (`sources.json`) and raw snapshots, cohorts, dossiers (`evidence/`), strength and command ledgers, and authorization records |
+| `artifacts/` | Reports, predictions, research packets, review records and the input/output hash receipt |
+| `docs/` | Methodology, evidence contract, designs and roadmap; `docs/research/` holds pass, ledger and run records |
+| `tests/` | Offline tests |
+| `design/`, `reviews/`, `prompts/`, `scripts/` | Supporting material for the Shiloh packets and review, and the researcher prompt |
 
-On those 23 engagements across 13 eligible campaign groups, the strength model's
-held-out Brier score is **0.276882**, compared with **0.250000** for equal odds
-(lower is better). This small, selected subset does not show an improvement over
-equal odds. It motivates source enrichment and better evaluation; it does not
-validate a ranking or prove force size is generally uninformative.
-
-Read the [generated pilot report](artifacts/pilot-report.md) for coverage and
-evaluation details. The live NPS Antietam page's zero-strength table and Shiloh's
-changing forces/command illustrate why reliable dossiers come before new rankings.
-
-## Research direction
-
-**Next priority: the French Revolutionary and Napoleonic Wars** (owner decision, 2026-09-25;
-not started). The [scoping note](docs/napoleonic-scoping.md) lists the owner decisions needed
-before any research. The Civil War work below is complete as recorded.
-
-**Completed: Civil War full-war first passes.** The 1862–63 pilot is complete: reviewed strength
-and command ledgers, an [estimate-layer evaluation](docs/research/estimate-evaluation-v1.md) and a
-[first commander-rating run](docs/research/commander-ratings-v1.md), which found no detectable
-commander signal and so gave no ranking. The owner then asked for the rest of the war: the
-[cohort v2 frame](docs/cohort-v2.md) adds the other 257 source-listed engagements (83
-campaigns), researched by complete campaign, main 1864–65 armies first. Coverage status: all
-384 source-listed engagements have draft dossiers. The 257 new first passes (2,324 claims, 279
-explicit unknowns, 11,976 citations, 660 disputed claims) each passed a separate Claude Opus 5.5
-`high` review in one of 19 campaign-batch reviews, and every required finding was checked and
-reconciled. They add 959 source records, 26 of them metadata-only review successors. Draft
-dossiers do not change model inputs. Reviewed v2 successors of the strength and command ledgers
-([record](docs/research/ledgers-v2.md)) cover 305 engagements. The [full-war rating run](docs/research/commander-ratings-v2.md) found a
-small held-out improvement from commander identity under both weightings; its ordered list is a
-point summary with overlapping intervals, not a ranking of skill. [Run 3](docs/research/commander-ratings-v3.md) adds modelled (grade E)
-strengths so that all 301 in-scope battles count, and finds the same direction on all of them. Shiloh's repeated source
-traces are parked with their unknowns intact; its depth is not the template for
-every battle. Use a bounded first pass of up to three source families and one
-targeted follow-up, then move on and review by complete source campaign.
-
-The [bounded river-campaign pass](docs/research/river-campaign-first-pass-v1.md)
-adds Fort Henry, Fort Donelson and Corinth, carrying forward Shiloh unchanged.
-The three new drafts passed separate Astra `xhigh` source review; no model inputs
-are admitted. The [Cockpit Point first pass](docs/research/cockpit-point-first-pass-v1.md)
-now covers the complete frozen Potomac blockade group. Astra `xhigh` accepted
-all 10 new claims with no required corrections; one source family and three
-unknowns remain explicit. The [Hancock first pass](docs/research/hancock-first-pass-v1.md)
-adds 11 claims from two source families, retaining chronology and casualty disputes;
-Astra `xhigh` accepted all 11 claims with no required corrections.
-The [Eastern Kentucky pass](docs/research/eastern-kentucky-first-pass-v1.md) adds
-Middle Creek and Mill Springs with 22 claims and three explicit unknowns;
-Astra `xhigh` accepted all 22 claims with no required corrections.
-The [Burnside campaign pass](docs/research/burnside-first-pass-v1.md) adds five
-drafts with 47 claims, ten explicit unknowns and two source families per battle.
-Astra `xhigh` accepted all 47 claims with no required corrections.
-The [New Madrid/Memphis pass](docs/research/mississippi-joint-first-pass-v1.md) adds
-two drafts with 21 claims, five explicit unknowns and two families per battle.
-Astra `xhigh` accepted all 21 claims with no required corrections.
-The [Peninsula pass](docs/research/peninsula-first-pass-v1.md) adds all sixteen
-frozen records: 152 claims, 39 explicit unknowns and one or two families per record.
-Astra `xhigh` accepted all 152 claims with no required corrections.
-The [Valley pass](docs/research/valley-first-pass-v1.md) adds seven dossiers,
-68 claims, 17 explicit unknowns and 91 citations. Astra `xhigh` reviewed the complete
-batch; its one timing-tag correction is fixed and verified by the primary.
-The [Heartland Offensive pass](docs/research/heartland-first-pass-v1.md) adds five
-dossiers, 54 claims, 6 explicit unknowns and 157 citations. Opus 5.5 `high` reviewed
-the complete batch; its one Perryville scope correction is fixed and verified by the primary.
-The [Northern Virginia pass](docs/research/northern-virginia-first-pass-v1.md) adds six
-dossiers, 56 claims, 7 explicit unknowns and 143 citations. Opus 5.5 `high` reviewed the
-batch; its two locator/scope corrections are fixed and verified by the primary.
-The [Maryland pass](docs/research/maryland-first-pass-v1.md) adds three dossiers
-(Antietam's existing draft unchanged), 29 claims, 4 explicit unknowns and 86 citations.
-Opus 5.5 `high` reviewed them; its four required corrections are fixed and verified by the primary.
-The [Iuka and Corinth pass](docs/research/iuka-corinth-first-pass-v1.md) adds three
-dossiers, 28 claims, 3 explicit unknowns and 91 citations. Opus 5.5 `high` reviewed the
-batch; its eight required corrections are fixed and verified by the primary.
-The [Stones River pass](docs/research/stones-river-first-pass-v1.md) adds two dossiers,
-20 claims, 2 explicit unknowns and 79 citations. Opus 5.5 `high` reviewed both; its five
-required corrections are fixed and verified by the primary.
-The [Fredericksburg pass](docs/research/fredericksburg-first-pass-v1.md) adds VA028: 10
-claims, 1 explicit unknown and 44 citations. Opus 5.5 `high` reviewed it; its seven
-required corrections are fixed and verified by the primary.
-The [Goldsboro pass](docs/research/goldsboro-first-pass-v1.md) adds three dossiers,
-28 claims, 4 explicit unknowns and 75 citations. Opus 5.5 `high` reviewed them; its five
-required corrections are fixed and verified by the primary.
-The [Forrest West Tennessee pass](docs/research/forrest-west-tennessee-first-pass-v1.md) adds
-two dossiers, 18 claims, 2 explicit unknowns and 72 citations. Opus 5.5 `high` reviewed them;
-its three required corrections are fixed and verified by the primary.
-The [Vicksburg 1862–63 pass](docs/research/vicksburg-1862-first-pass-v1.md) adds two
-dossiers, 19 claims, 2 explicit unknowns and 69 citations. Opus 5.5 `high` reviewed them;
-its six required corrections are fixed and verified by the primary.
-The [Middle Tennessee pass](docs/research/middle-tennessee-first-pass-v1.md) adds five
-dossiers, 46 claims, 7 explicit unknowns and 149 citations. Opus 5.5 `high` reviewed them;
-its four required corrections are fixed and verified by the primary.
-The [Tidewater pass](docs/research/tidewater-first-pass-v1.md) adds four
-dossiers, 39 claims, 4 explicit unknowns and 194 citations. Opus 5.5 `high` reviewed them;
-its five required corrections are fixed and verified by the primary.
-The [Rappahannock cavalry pass](docs/research/rappahannock-cavalry-first-pass-v1.md) adds one
-dossier, 9 claims, 1 explicit unknown and 78 citations. Opus 5.5 `high` reviewed it;
-its four required corrections are fixed and verified by the primary.
-The [Vicksburg 1863 pass](docs/research/vicksburg-1863-first-pass-v1.md) adds ten
-dossiers, 92 claims, 10 explicit unknowns and 383 citations. Opus 5.5 `high` reviewed them;
-its nine required corrections are fixed and verified by the primary.
-The [Chancellorsville pass](docs/research/chancellorsville-first-pass-v1.md) adds three
-dossiers, 27 claims, 3 explicit unknowns and 131 citations. Opus 5.5 `high` reviewed them;
-its ten required corrections are fixed and verified by the primary.
-The [Streight's Raid pass](docs/research/streights-raid-first-pass-v1.md) adds one
-dossier, 9 claims, 1 explicit unknown and 49 citations. Opus 5.5 `high` reviewed it;
-its three required corrections are fixed and verified by the primary.
-The [Gettysburg Campaign pass](docs/research/gettysburg-first-pass-v1.md) adds ten
-dossiers, 90 claims, 10 explicit unknowns and 336 citations. Opus 5.5 `high` reviewed them;
-its eleven required corrections are fixed and verified by the primary.
-The [Tullahoma pass](docs/research/tullahoma-first-pass-v1.md) adds one
-dossier, 9 claims, 1 explicit unknown and 54 citations. Opus 5.5 `high` reviewed it;
-its seven required corrections are fixed and verified by the primary.
-The [Morgan's Raid pass](docs/research/morgans-raid-first-pass-v1.md) adds three
-dossiers, 28 claims, 3 explicit unknowns and 149 citations. Opus 5.5 `high` reviewed them;
-its five required corrections are fixed and verified by the primary.
-The [Chickamauga Campaign pass](docs/research/chickamauga-first-pass-v1.md) adds three
-dossiers, 27 claims, 3 explicit unknowns and 147 citations. Opus 5.5 `high` reviewed them;
-its eight required corrections are fixed and verified by the primary.
-The [East Tennessee Campaign pass](docs/research/east-tennessee-first-pass-v1.md) adds two
-dossiers, 19 claims, 2 explicit unknowns and 90 citations. Opus 5.5 `high` reviewed them;
-its four required corrections are fixed and verified by the primary.
-The [Bristoe Campaign pass](docs/research/bristoe-first-pass-v1.md) adds five
-dossiers, 45 claims, 5 explicit unknowns and 197 citations. Opus 5.5 `high` reviewed them;
-its four required corrections are fixed and verified by the primary.
-The [Reopening the Tennessee River pass](docs/research/reopening-tennessee-first-pass-v1.md) adds one
-dossier, 9 claims, 1 explicit unknown and 44 citations. Opus 5.5 `high` reviewed it;
-its five required corrections are fixed and verified by the primary.
-The [Memphis & Charleston Railroad pass](docs/research/memphis-charleston-first-pass-v1.md) adds one
-dossier, 9 claims, 1 explicit unknown and 44 citations. Opus 5.5 `high` reviewed it;
-its five required corrections are fixed and verified by the primary.
-The [Averell's Raid pass](docs/research/averell-raid-first-pass-v1.md) adds one
-dossier, 9 claims, 1 explicit unknown and 55 citations. Opus 5.5 `high` reviewed it;
-its four required corrections are fixed and verified by the primary.
-The [Knoxville Campaign pass](docs/research/knoxville-first-pass-v1.md) adds three
-dossiers, 27 claims, 3 explicit unknowns and 130 citations. Opus 5.5 `high` reviewed it;
-its eight required corrections are fixed and verified by the primary.
-The [Chattanooga-Ringgold pass](docs/research/chattanooga-ringgold-first-pass-v1.md) adds two
-dossiers, 18 claims, 2 explicit unknowns and 84 citations. Opus 5.5 `high` reviewed it;
-its five required corrections are fixed and verified by the primary.
-The [Mine Run pass](docs/research/mine-run-first-pass-v1.md) adds one dossier, 9 claims,
-1 explicit unknown and 79 citations. Opus 5.5 `high` reviewed it;
-its four required corrections are fixed and verified by the primary.
-The [Dandridge pass](docs/research/dandridge-first-pass-v1.md) adds three dossiers,
-27 claims, 3 explicit unknowns and 145 citations. Opus 5.5 `high` reviewed it;
-its seven required corrections are fixed and verified by the primary.
-All frozen campaign groups now have first-pass dossiers. See the
-[current roadmap](docs/roadmap.md) and
-[first-pass protocol](docs/methodology.md#research-depth-and-coverage).
-The history below preserves completed work and deferred questions.
-
-The first [Shiloh research pass](docs/research/shiloh.md),
-[Confederate return audit](docs/research/shiloh-confederate-returns.md) and
-[Union availability audit](docs/research/shiloh-union-availability.md), and
-[Ohio reinforcement audit](docs/research/shiloh-ohio-reinforcements.md) are complete
-as drafts: 62 claims preserve competing returns, reinforcement phases, dated
-orders and disputed responsibility. Nelson/Ammen and regimental reports now
-separate crossing, landing, formation and participation. Conflicting clocks, the
-untraced Sunday 600-person figure, mixed-date estimates and Reed's 7,553/7,552
-discrepancy remain explicit alongside earlier source disputes. No canonical
-opening strength or adjudicated command attribution has been established. A
-fresh-context GPT-6 Astra `xhigh` [source review](artifacts/review-results/TN003-a42f063-astra-xhigh-v1/review.md)
-checked all 62 claims, 40 quantities, 26 events and 26 supplied scan selections.
-The [primary assessment](artifacts/review-results/TN003-a42f063-astra-xhigh-v1/primary-assessment.md)
-accepts four findings for a versioned correction pass: estimation provenance,
-section-specific document dates, same-return dependence and Crittenden arrival
-wording. The [versioned correction pass](docs/research/shiloh-review-corrections.md)
-implements them with dossier schema v3 and three source-metadata revisions.
-The focused review and validator follow-up are accepted. Thirty-five of 65 cited source/section
-pairs remain text/CSV-only. The [prepared packet](artifacts/research/TN003.md)
-and [dossier](data/evidence/TN003.json) preserve the open questions. Expand by complete
-campaign, retaining ordinary engagements and failures in the frame.
-
-The [self-contained review handoff](docs/research/shiloh-review-handoff.md) preserves
-the frozen assignment separately from the actual response and execution record.
-The default reviewer is a fresh-context Claude Opus 5.5 `high` subagent in the same
-task, under [AGENTS.md](AGENTS.md); it replaced GPT-6 Astra `xhigh` on 2026-09-24,
-and earlier Astra reviews keep their recorded scope. No manual chat handoff is required. This AI
-review fulfills the bounded separate-review step, not historical adjudication or
-feature admission. The [feature-admission design](docs/feature-admission.md) now
-has a separate Astra `xhigh` design review with no required corrections. Its
-[13 Shiloh examples](docs/research/shiloh-admission-examples.md) preserve source
-versions, population, time and estimand restrictions. They emit no features.
-The [review and primary assessment](artifacts/review-results/feature-admission-838189f-astra-xhigh-v1/primary-assessment.md)
-record the exact scope and remaining historical limits.
-
-The [offline admission validator](docs/admission-validator.md) is implemented,
-with Astra `xhigh` implementation review and focused follow-up accepted. The
-[review record](artifacts/review-results/admission-implementation-1264e21-followup-v1/primary-assessment.md)
-preserves three findings and their verified fixes. Its complete-frame ledger checks all
-40 Shiloh troop observations: 18 blocked, 22 excluded and zero complete rows.
-No model inputs are promoted. Actual feature release still requires reviewed
-boundary/population mappings and a separate immutable admission manifest.
-
-A separate [opening-boundary and population proposal](docs/research/shiloh-opening-boundary-v1.md)
-now uses 51 pinned passage anchors to revisit the 18 blocked observations. Its
-explicit v2 ledger has **7 blocked / 33 excluded**, with no complete rows;
-the default v1 ledger is preserved. The first-contact identification, mapped
-area and full populations remain unresolved. Astra `xhigh`
-[accepted the bounded proposal](artifacts/review-results/shiloh-opening-330599b-astra-xhigh-v1/primary-assessment.md)
-with one nonblocking precision clarification; no historical feature is admitted.
-
-The [contact-and-location packet](docs/research/shiloh-contact-location-v1.md)
-adds nine participant opening accounts, 16 inspected book-page facsimiles and
-two maps. It preserves conflicting contact clocks, earlier skirmishes and map
-phase limits. The separate Astra `xhigh` review found two literal transcription
-errors, now [corrected in new source versions](docs/research/shiloh-contact-location-corrections-v1.md)
-with primary verification. The dossier and model inputs remain unchanged.
-
-The [April 3–5 contact-chain audit](docs/research/shiloh-precontact-segmentation-v1.md)
-recommends April 3–4 as precursor encounters under an explicit continuity rule,
-with weaker event-specific closure for April 3.
-The Saturday Howell link remains unresolved; no complete opening boundary or
-new feature is admitted. Ten assertions bind 24 passages across 19 inspected pages.
-Separate Astra `xhigh` review found one finding with two literal wording errors,
-now [corrected in a new source version](docs/research/shiloh-precontact-segmentation-corrections-v1.md)
-and closed by primary image verification.
-
-The [Howell attribution trace](docs/research/shiloh-howell-trace-v1.md) now finds
-Medkirk's retrospective Saturday account and disputed testimony selections in
-Worthington, and verifies Reed's clause in the 1903 printing. Seven assertions
-bind 14 passages across 12 inspected pages and three HTML sources. The source
-chain to Reed and Saturday-to-Sunday continuity remain unknown.
-
-Separate Astra `xhigh` [review and primary assessment](artifacts/review-results/shiloh-howell-67b5c30-astra-xhigh-v1/primary-assessment.md)
-accepted the bounded Howell packet with no required corrections; historical
-provenance and continuity questions remain open.
-
-The [regimental and post comparison](docs/research/shiloh-regimental-posts-v1.md)
-adds Reid's report of overnight activity at an unnamed 46th Ohio picket line,
-Lemmon's 72d account, Worthington's post relationships and the map cited by Medkirk.
-The map depicts April 6–7 phases, not Saturday's post sequence. Seven assertions
-bind 21 anchors across 16 inspected pages; the registry has 151 entries / 148 raw
-paths at preparation. Post identity and continuity remain unresolved, with zero feature admission.
-
-Separate Astra `xhigh` review covered the full packet and found two literal map
-transcription errors, now [corrected in a new version](docs/research/shiloh-regimental-posts-corrections-v1.md)
-and closed by primary image verification. The registry at that stage is 152 entries / 149
-raw paths; the historical conclusions and model inputs are unchanged.
-
-The [Reid provenance trace](docs/research/shiloh-reid-provenance-v1.md) identifies the publisher collection process and Miller's general editorial role, but no original 46th Ohio witness. Lindsey supplies a later wording parallel with independence unestablished. Five assertions bind 11 anchors / 10 source-locator pairs, ten retained page images and one text-only LOC catalog snapshot. All earlier evidence is preserved; the registry at that stage has 164 entries / 161 raw paths and zero feature admission. Separate Astra `xhigh` [review and primary assessment](artifacts/review-results/shiloh-reid-1c498e0-astra-xhigh-v1/primary-assessment.md) accept all five bounded assertions with two nonblocking catalog clarifications: use the retained Agate letters label and provider page/line locators; material format and printed pagination remain unverified.
-
-The [Agate comparison](docs/research/shiloh-agate-comparison-v1.md) locates two historical reprints with 1864 title imprints, supporting a Reid/Agate account dated April 9, 1862. Its inspected opening reports Saturday skirmishing but does not supply the later B/K overnight narrative or identify its witness/post. The original Gazette issue remains uninspected. Five assertions bind 16 anchors / 12 source-section pairs across 11 inspected images; the registry at that packet has 176 entries / 173 raw paths, with zero feature admission. Separate Astra `xhigh` [review and primary assessment](artifacts/review-results/shiloh-agate-73e26d4-astra-xhigh-v1/primary-assessment.md) accept all five bounded historical assertions; the sole documentation inventory finding is corrected and closed by primary verification. The original issue, overnight witness and continuity remain unresolved.
-
-Then define a campaign replacement boundary and outcomes before fitting enriched
-models. Battle execution and campaign contribution are separate estimands; adding
-them together would double count. Partial pooling, opponent/army context,
-measurement uncertainty, disputed-input scenarios, and a source-exploration UI
-remain planned work, not implemented capabilities.
-
-## Read next
+## Documentation
 
 - [Methodology and limitations](docs/methodology.md)
 - [Evidence contract and review workflow](docs/evidence-contract.md)
+- [Roadmap and current handoff](docs/roadmap.md)
+- [Research log](docs/research-log.md): pilot campaign passes and the Shiloh source investigations
 - [Reviewed feature-admission design](docs/feature-admission.md)
 - [Source provenance and original-project audit](docs/sources.md)
-- [Milestones and next tasks](docs/roadmap.md)
-- [Source manifest](data/sources.json) and [frozen cohort](data/pilot/cohort.json)
+- [Source manifest](data/sources.json), [pilot cohort](data/pilot/cohort.json) and
+  [full-war cohort](data/pilot/cohort-v2.json)
 
-Project code is MIT-licensed. Third-party data retains its own terms and attribution;
-see [NOTICE](NOTICE.md). No paid services, scheduled jobs, or hosted CI are needed.
+## Terms
+
+| Term | Meaning |
+| --- | --- |
+| Engagement, campaign group | One record in the CWSAC battle list, and the list's grouping of records into campaigns. Research, review and evaluation keep whole campaigns together. |
+| Cohort | A fixed list of engagements chosen before modelling: v1 is the 127-engagement 1862–1863 pilot, v2 the 384-engagement full war. |
+| Dossier | An engagement's research record in `data/evidence/`: source-cited claims across the seven dimensions. |
+| Explicit unknown | A claim recording that the inspected sources do not establish a dimension. |
+| Source family | Sources that share an origin; copies and reprints count once. |
+| First pass | The bounded research protocol: up to three source families per battle and one targeted follow-up. |
+| Primary | The main AI agent that prepares and maintains the evidence, as distinct from the separate reviewer. |
+| Owner | The project maintainer. Owner decisions and run authorizations are recorded with dates. |
+| Strength grades | A–C: reported figures, from A (directly applicable) to C (for example an opponent's estimate); D: no usable figure; E: a modelled typical size for a D side, used in run 3. |
+| Admission | The reviewed contract an enriched predictor must pass before it can join the frozen baseline. The rating runs are exploratory diagnostics outside it. |
+
+## License and attribution
+
+Project code is MIT-licensed. Third-party data keeps its own terms and attribution; see
+[NOTICE](NOTICE.md). The engagement frame and baseline strengths come from four pinned,
+checksum-verified CWSAC tables in Jeffrey B. Arnold's
+[American Civil War Battle Data](https://acw-battle-data.readthedocs.io/en/latest/). No paid
+services, scheduled jobs or hosted CI are needed.
